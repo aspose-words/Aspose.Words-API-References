@@ -1,9 +1,11 @@
 ---
 title: Style.Name
-second_title: Aspose.Words för .NET API Referens
-description: Style fast egendom. Hämtar eller ställer in namnet på stilen.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words för .NET
+description: Style Name fast egendom. Hämtar eller ställer in namnet på stilen i C#.
 type: docs
-weight: 130
+weight: 120
 url: /sv/net/aspose.words/style/name/
 ---
 ## Style.Name property
@@ -14,13 +16,13 @@ Hämtar eller ställer in namnet på stilen.
 public string Name { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan inte vara tom sträng.
 
 Om det redan finns en stil med ett sådant namn i samlingen, kommer denna stil att åsidosätta den. Alla berörda noder kommer att referera till ny stil.
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt ett dokuments stilsamling.
 
@@ -73,7 +75,5 @@ Assert.AreNotEqual(doc.Styles["Heading 1"].Font.Color, newStyle.Font.Color);
 ### Se även
 
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Lists
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBase свойство. Предоставляет доступ к форматированию списка используемому в документе.
+linktitle: Lists
+articleTitle: Lists
+second_title: Aspose.Words для .NET
+description: DocumentBase Lists свойство. Предоставляет доступ к форматированию списка используемому в документе на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/documentbase/lists/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/documentbase/lists/
 public ListCollection Lists { get; }
 ```
 
-### Примечания
+## Примечания
 
 Более подробную информацию смотрите в описании[`ListCollection`](../../../aspose.words.lists/listcollection/) сорт.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с уровнями списка.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * class [ListCollection](../../../aspose.words.lists/listcollection/)
 * class [DocumentBase](../)
-* пространство имен [Aspose.Words](../../documentbase/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

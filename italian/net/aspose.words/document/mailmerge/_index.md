@@ -1,7 +1,9 @@
 ---
 title: Document.MailMerge
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Restituisce aMailMerge oggetto che rappresenta la funzionalità di stampa unione per il documento.
+linktitle: MailMerge
+articleTitle: MailMerge
+second_title: Aspose.Words per .NET
+description: Document MailMerge proprietà. Restituisce aMailMerge oggetto che rappresenta la funzionalità di stampa unione per il documento in C#.
 type: docs
 weight: 260
 url: /it/net/aspose.words/document/mailmerge/
@@ -14,7 +16,7 @@ Restituisce a[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) oggetto
 public MailMerge MailMerge { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un DataTable.
 
@@ -63,7 +65,5 @@ private static Document CreateSourceDocExecuteDataTable()
 
 * class [MailMerge](../../../aspose.words.mailmerging/mailmerge/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

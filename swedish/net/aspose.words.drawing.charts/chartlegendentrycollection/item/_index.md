@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntryCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: ChartLegendEntryCollection fast egendom. ReturnerarChartLegendEntry för det angivna indexet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: ChartLegendEntryCollection Item fast egendom. ReturnerarChartLegendEntry för det angivna indexet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartlegendentrycollection/item/
@@ -18,7 +20,5 @@ public ChartLegendEntry this[int index] { get; }
 
 * class [ChartLegendEntry](../../chartlegendentry/)
 * class [ChartLegendEntryCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartlegendentrycollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

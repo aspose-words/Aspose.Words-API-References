@@ -1,7 +1,9 @@
 ---
 title: MailMerge.PreserveUnusedTags
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge mülk. Kullanılmayan bıyık etiketlerinin korunması gerekip gerekmediğini belirten bir değer alır veya ayarlar.
+linktitle: PreserveUnusedTags
+articleTitle: PreserveUnusedTags
+second_title: Aspose.Words for .NET
+description: MailMerge PreserveUnusedTags mülk. Kullanılmayan bıyık etiketlerinin korunması gerekip gerekmediğini belirten bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.mailmerging/mailmerge/preserveunusedtags/
@@ -14,11 +16,11 @@ Kullanılmayan "bıyık" etiketlerinin korunması gerekip gerekmediğini belirte
 public bool PreserveUnusedTags { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ` .
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında kullanılmayan alternatif adres-mektup birleştirme etiketlerinin görünümünün nasıl korunacağını gösterir.
 
@@ -83,7 +85,5 @@ private static DataTable CreateSourceTablePreserveUnusedTags()
 
 * property [UseNonMergeFields](../usenonmergefields/)
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

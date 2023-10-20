@@ -1,7 +1,9 @@
 ---
 title: PageSetup.TextColumns
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Returnerar en samling som representerar uppsättningen textkolumner.
+linktitle: TextColumns
+articleTitle: TextColumns
+second_title: Aspose.Words för .NET
+description: PageSetup TextColumns fast egendom. Returnerar en samling som representerar uppsättningen textkolumner i C#.
 type: docs
 weight: 420
 url: /sv/net/aspose.words/pagesetup/textcolumns/
@@ -14,7 +16,7 @@ Returnerar en samling som representerar uppsättningen textkolumner.
 public TextColumnCollection TextColumns { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar flera jämnt fördelade kolumner i ett avsnitt.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 
 * class [TextColumnCollection](../../textcolumncollection/)
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

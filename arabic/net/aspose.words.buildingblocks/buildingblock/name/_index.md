@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Name
-second_title: Aspose.Words لمراجع .NET API
-description: BuildingBlock ملكية. الحصول على اسم الكتلة البرمجية الإنشائية هذه أو تعيينه.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words لـ .NET
+description: BuildingBlock Name ملكية. الحصول على اسم الكتلة البرمجية الإنشائية هذه أو تعيينه في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.buildingblocks/buildingblock/name/
@@ -14,15 +16,15 @@ url: /ar/net/aspose.words.buildingblocks/buildingblock/name/
 public string Name { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 قد يحتوي الاسم على أي محتوى سلسلة، وعادةً ما يكون معرفًا مألوفًا. يمكن أن تحمل الكتل البرمجية الإنشائية المتعددة نفس الاسم.
 
 لا يمكن`باطل` ولا يمكن أن تكون سلسلة فارغة.
 
-يتوافق مع **docPartPr.name** العنصر في OOXML
+يتوافق مع**docPartPr.name** العنصر في OOXML
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة كتلة إنشاء مخصصة إلى مستند.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [BuildingBlock](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorTickMark
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Gibt die kleinen Teilstriche für die Achse zurück oder setzt sie.
+linktitle: MinorTickMark
+articleTitle: MinorTickMark
+second_title: Aspose.Words für .NET
+description: ChartAxis MinorTickMark eigendom. Gibt die kleinen Teilstriche für die Achse zurück oder setzt sie in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words.drawing.charts/chartaxis/minortickmark/
@@ -14,7 +16,7 @@ Gibt die kleinen Teilstriche für die Achse zurück oder setzt sie.
 public AxisTickMark MinorTickMark { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickMark](../../axistickmark/)
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

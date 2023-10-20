@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.PointToInch
-second_title: Справочник по API Aspose.Words для .NET
-description: ConvertUtil метод. Преобразует точки в дюймы.
+linktitle: PointToInch
+articleTitle: PointToInch
+second_title: Aspose.Words для .NET
+description: ConvertUtil PointToInch метод. Преобразует точки в дюймы на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/convertutil/pointtoinch/
@@ -18,11 +20,11 @@ public static double PointToInch(double points)
 | --- | --- | --- |
 | points | Double | Значение для преобразования. |
 
-### Примечания
+## Примечания
 
 1 дюйм равен 72 баллам.
 
-### Примеры
+## Примеры
 
 Показывает, как указать свойства страницы в дюймах.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndInches.docx");
 ### Смотрите также
 
 * class [ConvertUtil](../)
-* пространство имен [Aspose.Words](../../convertutil/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

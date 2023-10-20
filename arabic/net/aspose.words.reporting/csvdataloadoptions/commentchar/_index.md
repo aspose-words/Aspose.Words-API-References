@@ -1,7 +1,9 @@
 ---
 title: CsvDataLoadOptions.CommentChar
-second_title: Aspose.Words لمراجع .NET API
-description: CsvDataLoadOptions ملكية. الحصول على أو تعيين الحرف المستخدم للتعليق على أسطر بيانات CSV.
+linktitle: CommentChar
+articleTitle: CommentChar
+second_title: Aspose.Words لـ .NET
+description: CsvDataLoadOptions CommentChar ملكية. الحصول على أو تعيين الحرف المستخدم للتعليق على أسطر بيانات CSV في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.reporting/csvdataloadoptions/commentchar/
@@ -14,14 +16,12 @@ url: /ar/net/aspose.words.reporting/csvdataloadoptions/commentchar/
 public char CommentChar { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي '#' (علامة الرقم).
 
 ### أنظر أيضا
 
 * class [CsvDataLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
-
-

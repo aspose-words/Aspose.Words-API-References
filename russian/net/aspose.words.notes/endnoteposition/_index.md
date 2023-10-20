@@ -1,7 +1,9 @@
 ---
-title: Enum EndnotePosition
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Notes.EndnotePosition перечисление. Определяет положение концевой сноски.
+title: EndnotePosition Enum
+linktitle: EndnotePosition
+articleTitle: EndnotePosition
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Notes.EndnotePosition перечисление. Определяет положение концевой сноски на С#.
 type: docs
 weight: 4250
 url: /ru/net/aspose.words.notes/endnoteposition/
@@ -21,7 +23,7 @@ public enum EndnotePosition
 | EndOfSection | `0` | Сноски выводятся в конце раздела. |
 | EndOfDocument | `3` | Сноски выводятся в конце документа. |
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать другое место, где документ будет собираться и отображать его концевые сноски.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "InlineStory.PositionEndnote.docx");
 * class [EndnoteOptions](../endnoteoptions/)
 * пространство имен [Aspose.Words.Notes](../../aspose.words.notes/)
 * сборка [Aspose.Words](../../)
-
-

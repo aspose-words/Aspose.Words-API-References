@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.WarningCallback
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBase proprietà. Chiamato durante varie procedure di elaborazione dei documenti quando viene rilevato un problema che potrebbe causare la perdita di fedeltà dei dati o della formattazione.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words per .NET
+description: DocumentBase WarningCallback proprietà. Chiamato durante varie procedure di elaborazione dei documenti quando viene rilevato un problema che potrebbe causare la perdita di fedeltà dei dati o della formattazione in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words/documentbase/warningcallback/
@@ -14,11 +16,11 @@ Chiamato durante varie procedure di elaborazione dei documenti quando viene rile
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il documento può generare avvisi in qualsiasi fase della sua esistenza, quindi è importante impostare la richiamata degli avvisi il più presto possibile per evitare la perdita di avvisi. Ad esempio, proprietà come[`PageCount`](../../document/pagecount/) crea effettivamente il layout del documento che verrà utilizzato successivamente per il rendering e gli avvisi sul layout potrebbero andare persi se il callback di avviso viene specificato solo per le chiamate di rendering successive.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare l'interfaccia IWarningCallback per monitorare gli avvisi di sostituzione dei caratteri.
 
@@ -127,7 +129,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * interface [IWarningCallback](../../iwarningcallback/)
 * class [DocumentBase](../)
-* spazio dei nomi [Aspose.Words](../../documentbase/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SubstitutionSettings
-second_title: Aspose.Words for .NET API 参考
-description: FontSettings 财产. 与字体替换机制相关的设置
+linktitle: SubstitutionSettings
+articleTitle: SubstitutionSettings
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSettings SubstitutionSettings 财产. 与字体替换机制相关的设置 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fonts/fontsettings/substitutionsettings/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontsettings/substitutionsettings/
 public FontSubstitutionSettings SubstitutionSettings { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问文档的系统字体源并设置字体替代品。
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * class [FontSubstitutionSettings](../../fontsubstitutionsettings/)
 * class [FontSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

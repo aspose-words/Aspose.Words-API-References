@@ -1,7 +1,9 @@
 ---
 title: ChartYValueCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartYValueCollection eigendom. Ruft den YWert am angegebenen Index ab oder legt ihn fest.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: ChartYValueCollection Item eigendom. Ruft den YWert am angegebenen Index ab oder legt ihn fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chartyvaluecollection/item/
@@ -14,15 +16,13 @@ Ruft den Y-Wert am angegebenen Index ab oder legt ihn fest.
 public ChartYValue this[int index] { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
-Leere Werte werden dargestellt als **Null** .
+Leere Werte werden dargestellt als**Null** .
 
 ### Siehe auch
 
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartYValueCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartyvaluecollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

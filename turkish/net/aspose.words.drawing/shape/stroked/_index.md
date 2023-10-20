@@ -1,7 +1,9 @@
 ---
 title: Shape.Stroked
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Yolun vuruşlu olup olmayacağını tanımlar.
+linktitle: Stroked
+articleTitle: Stroked
+second_title: Aspose.Words for .NET
+description: Shape Stroked mülk. Yolun vuruşlu olup olmayacağını tanımlar C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.drawing/shape/stroked/
@@ -14,13 +16,13 @@ Yolun vuruşlu olup olmayacağını tanımlar.
 public bool Stroked { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu, kısayol[`On`](../../stroke/on/) mülk.
 
 Varsayılan değer:`doğru`.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

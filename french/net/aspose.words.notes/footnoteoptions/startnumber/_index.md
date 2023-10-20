@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.StartNumber
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FootnoteOptions propriété. Spécifie le numéro ou le caractère de départ des premières notes de bas de page numérotées automatiquement.
+linktitle: StartNumber
+articleTitle: StartNumber
+second_title: Aspose.Words pour .NET
+description: FootnoteOptions StartNumber propriété. Spécifie le numéro ou le caractère de départ des premières notes de bas de page numérotées automatiquement en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.notes/footnoteoptions/startnumber/
@@ -14,11 +16,11 @@ Spécifie le numéro ou le caractère de départ des premières notes de bas de 
 public int StartNumber { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété n'a d'effet que lorsque[`RestartRule`](../restartrule/) est défini sur Continuous.
 
-### Exemples
+## Exemples
 
 Montre comment définir un numéro à partir duquel le document commence le décompte des notes de bas de page/notes de fin.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.StartNumber.docx");
 ### Voir également
 
 * class [FootnoteOptions](../)
-* espace de noms [Aspose.Words.Notes](../../footnoteoptions/)
+* espace de noms [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: BookmarksOutlineLevelCollection.BookmarksOutlineLevelCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarksOutlineLevelCollection constructeur. Default_Constructor
+title: BookmarksOutlineLevelCollection
+linktitle: BookmarksOutlineLevelCollection
+articleTitle: BookmarksOutlineLevelCollection
+second_title: Aspose.Words pour .NET
+description: BookmarksOutlineLevelCollection constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/bookmarksoutlinelevelcollection/bookmarksoutlinelevelcollection/
@@ -17,7 +19,5 @@ public BookmarksOutlineLevelCollection()
 ### Voir également
 
 * class [BookmarksOutlineLevelCollection](../)
-* espace de noms [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

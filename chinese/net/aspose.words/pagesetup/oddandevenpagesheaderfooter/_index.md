@@ -1,7 +1,9 @@
 ---
 title: PageSetup.OddAndEvenPagesHeaderFooter
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 如果文档的奇数页和偶数页具有不同的页眉和页脚则为 True
+linktitle: OddAndEvenPagesHeaderFooter
+articleTitle: OddAndEvenPagesHeaderFooter
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup OddAndEvenPagesHeaderFooter 财产. 如果文档的奇数页和偶数页具有不同的页眉和页脚则为 True 在 C#.
 type: docs
 weight: 280
 url: /zh/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
 public bool OddAndEvenPagesHeaderFooter { get; set; }
 ```
 
-### 评论
+## 评论
 
 注意，更改此属性会影响文档中的所有部分。
 
-### 例子
+## 例子
 
 演示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
 
@@ -91,7 +93,5 @@ doc.Save(ArtifactsDir + "PageSetup.OddAndEvenPagesHeaderFooter.docx");
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

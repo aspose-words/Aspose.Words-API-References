@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputDefault
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. الحصول على أو تعيين السلسلة الافتراضية أو تعبير الحساب لحقل نموذج نصي.
+linktitle: TextInputDefault
+articleTitle: TextInputDefault
+second_title: Aspose.Words لـ .NET
+description: FormField TextInputDefault ملكية. الحصول على أو تعيين السلسلة الافتراضية أو تعبير الحساب لحقل نموذج نصي في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.fields/formfield/textinputdefault/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/formfield/textinputdefault/
 public string TextInputDefault { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يعتمد معنى هذه الخاصية على قيمة[`TextInputType`](../textinputtype/) ملكية.
 
@@ -24,7 +26,7 @@ public string TextInputDefault { get; set; }
 
 يسمح Microsoft Word بسلاسل تحتوي على 255 حرفًا على الأكثر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -158,7 +160,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

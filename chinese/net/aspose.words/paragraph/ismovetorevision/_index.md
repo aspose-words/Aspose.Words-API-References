@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsMoveToRevision
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 返回真的如果在启用更改跟踪的情况下在 Microsoft Word 中移动插入此对象
+linktitle: IsMoveToRevision
+articleTitle: IsMoveToRevision
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph IsMoveToRevision 财产. 返回真的如果在启用更改跟踪的情况下在 Microsoft Word 中移动插入此对象 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words/paragraph/ismovetorevision/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/ismovetorevision/
 public bool IsMoveToRevision { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何检查段落是否是移动修订。
 
@@ -48,7 +50,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 ### 也可以看看
 
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

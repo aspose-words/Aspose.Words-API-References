@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AnchorLocked
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Specifica se lancoraggio della forma è bloccato.
+linktitle: AnchorLocked
+articleTitle: AnchorLocked
+second_title: Aspose.Words per .NET
+description: ShapeBase AnchorLocked proprietà. Specifica se lancoraggio della forma è bloccato in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing/shapebase/anchorlocked/
@@ -14,7 +16,7 @@ Specifica se l'ancoraggio della forma è bloccato.
 public bool AnchorLocked { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`falso`.
 
@@ -22,7 +24,7 @@ Ha effetto solo per le forme di livello superiore.
 
 Questa proprietà influisce sul comportamento dell'ancora della forma in Microsoft Word. Quando l'ancora non è bloccata, lo spostamento della forma in Microsoft Word può spostare anche l'ancora della forma.
 
-### Esempi
+## Esempi
 
 Mostra come bloccare o sbloccare l'ancoraggio del paragrafo di una forma.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ### Guarda anche
 
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

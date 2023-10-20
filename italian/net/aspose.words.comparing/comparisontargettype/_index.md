@@ -1,7 +1,9 @@
 ---
-title: Enum ComparisonTargetType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Comparing.ComparisonTargetType enum. Permette di specificare il documento base che verrà utilizzato durante il confronto. Il valore predefinito èCurrent .
+title: ComparisonTargetType Enum
+linktitle: ComparisonTargetType
+articleTitle: ComparisonTargetType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Comparing.ComparisonTargetType enum. Permette di specificare il documento base che verrà utilizzato durante il confronto. Il valore predefinito èCurrent  in C#.
 type: docs
 weight: 280
 url: /it/net/aspose.words.comparing/comparisontargettype/
@@ -21,11 +23,11 @@ public enum ComparisonTargetType
 | Current | `0` | Questo documento viene utilizzato come base durante il confronto. |
 | New | `1` | Un altro documento viene utilizzato come base durante il confronto. |
 
-### Osservazioni
+## Osservazioni
 
 Si riferisce all'opzione "Mostra modifiche in" di Microsoft Word nella finestra di dialogo "Confronta documenti".
 
-### Esempi
+## Esempi
 
 Mostra come filtrare tipi specifici di elementi del documento quando si effettua un confronto.
 
@@ -100,5 +102,3 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * spazio dei nomi [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * assemblea [Aspose.Words](../../)
-
-

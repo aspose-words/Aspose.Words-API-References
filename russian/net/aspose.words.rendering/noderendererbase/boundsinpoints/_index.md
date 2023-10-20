@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.BoundsInPoints
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeRendererBase свойство. Получает фактические границы фигуры в точках.
+linktitle: BoundsInPoints
+articleTitle: BoundsInPoints
+second_title: Aspose.Words для .NET
+description: NodeRendererBase BoundsInPoints свойство. Получает фактические границы фигуры в точках на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.rendering/noderendererbase/boundsinpoints/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.rendering/noderendererbase/boundsinpoints/
 public RectangleF BoundsInPoints { get; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство возвращает фактическую (отрисованную на странице) ограничивающую рамку фигуры. Границы учитывают вращение фигуры (если таковое имеется).
 
-### Примеры
+## Примеры
 
 Показывает, как измерять и масштабировать фигуры.
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Смотрите также
 
 * class [NodeRendererBase](../)
-* пространство имен [Aspose.Words.Rendering](../../noderendererbase/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

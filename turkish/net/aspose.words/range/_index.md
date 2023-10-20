@@ -1,7 +1,9 @@
 ---
-title: Class Range
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Range sınıf. Bir belgedeki bitişik bir alanı temsil eder.
+title: Range Class
+linktitle: Range
+articleTitle: Range
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Range sınıf. Bir belgedeki bitişik bir alanı temsil eder C#'da.
 type: docs
 weight: 4520
 url: /tr/net/aspose.words/range/
@@ -33,15 +35,15 @@ public class Range
 | --- | --- |
 | [Delete](../../aspose.words/range/delete/)() | Aralığın tüm karakterlerini siler. |
 | [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes/)() | Alan türü değerlerini değiştirir[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) ile ilgili[`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) alan kodlarında yer alan alan türlerine karşılık gelecek şekilde bu aralıkta. |
-| [Replace](../../aspose.words/range/replace/#replace_2)(Regex, string) | Normal bir ifadeyle belirtilen karakter modelinin tüm oluşumlarını başka bir dizeyle değiştirir. |
-| [Replace](../../aspose.words/range/replace/#replace)(string, string) | Belirtilen karakter dizisi modelinin tüm oluşumlarını bir değiştirme dizesiyle değiştirir. |
-| [Replace](../../aspose.words/range/replace/#replace_3)(Regex, string, FindReplaceOptions) | Normal bir ifadeyle belirtilen karakter modelinin tüm oluşumlarını başka bir dizeyle değiştirir. |
-| [Replace](../../aspose.words/range/replace/#replace_1)(string, string, FindReplaceOptions) | Belirtilen karakter dizisi modelinin tüm oluşumlarını bir değiştirme dizesiyle değiştirir. |
+| [Replace](../../aspose.words/range/replace/#replace_2)(*Regex, string*) | Normal bir ifadeyle belirtilen karakter modelinin tüm oluşumlarını başka bir dizeyle değiştirir. |
+| [Replace](../../aspose.words/range/replace/#replace)(*string, string*) | Belirtilen karakter dizisi modelinin tüm oluşumlarını bir değiştirme dizesiyle değiştirir. |
+| [Replace](../../aspose.words/range/replace/#replace_3)(*Regex, string, [FindReplaceOptions](../../aspose.words.replacing/findreplaceoptions/)*) | Normal bir ifadeyle belirtilen karakter modelinin tüm oluşumlarını başka bir dizeyle değiştirir. |
+| [Replace](../../aspose.words/range/replace/#replace_1)(*string, string, [FindReplaceOptions](../../aspose.words.replacing/findreplaceoptions/)*) | Belirtilen karakter dizisi modelinin tüm oluşumlarını bir değiştirme dizesiyle değiştirir. |
 | [ToDocument](../../aspose.words/range/todocument/)() | Aralığı içeren tam biçimli yeni bir belge oluşturur. |
 | [UnlinkFields](../../aspose.words/range/unlinkfields/)() | Bu aralıktaki alanların bağlantısını kaldırır. |
 | [UpdateFields](../../aspose.words/range/updatefields/)() | Bu aralıktaki belge alanlarının değerlerini günceller. |
 
-### Notlar
+## Notlar
 
 Belge bir düğüm ağacıyla temsil edilir ve düğümler ağaçla çalışmak için işlem 'yi sağlar, ancak belge bitişik bir metin dizisi olarak ele alınırsa bazı işlemlerin gerçekleştirilmesi daha kolaydır.
 
@@ -49,7 +51,7 @@ Belge bir düğüm ağacıyla temsil edilir ve düğümler ağaçla çalışmak 
 
 `Range` herhangi bir metin veya düğüm içermez, yalnızca bir belgenin bir parçası üzerindeki bir görünüm veya "pencere" 'dir.
 
-### Örnekler
+## Örnekler
 
 Bir aralığın kapsadığı tüm düğümlerin metin içeriklerinin nasıl alınacağını gösterir.
 
@@ -66,5 +68,3 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Document.EnsureMinimum
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document méthode. Si le document ne contient aucune section crée une section avec un paragraphe.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words pour .NET
+description: Document EnsureMinimum méthode. Si le document ne contient aucune section crée une section avec un paragraphe en C#.
 type: docs
-weight: 600
+weight: 580
 url: /fr/net/aspose.words/document/ensureminimum/
 ---
 ## Document.EnsureMinimum method
@@ -14,7 +16,7 @@ Si le document ne contient aucune section, crée une section avec un paragraphe.
 public void EnsureMinimum()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment garantir qu'un document contient l'ensemble minimal de nœuds requis pour modifier son contenu.
 
@@ -52,7 +54,5 @@ Assert.AreEqual(NodeType.Paragraph, nodes[2].NodeType);
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

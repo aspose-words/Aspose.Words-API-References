@@ -1,7 +1,9 @@
 ---
 title: HeaderFooterCollection.ToArray
-second_title: Referencia de API de Aspose.Words para .NET
-description: HeaderFooterCollection método. Copia todoEncabezado y pie de página s de la colección a una nueva gama deEncabezado y pie de página s.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words para .NET
+description: HeaderFooterCollection ToArray método. Copia todoEncabezado y pie de página s de la colección a una nueva gama deEncabezado y pie de página s en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/headerfootercollection/toarray/
@@ -18,7 +20,7 @@ public HeaderFooter[] ToArray()
 
 una serie de`Encabezado y pie de página`s.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir la estructura de nodos de cada encabezado y pie de página de un documento.
 
@@ -112,7 +114,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* espacio de nombres [Aspose.Words](../../headerfootercollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

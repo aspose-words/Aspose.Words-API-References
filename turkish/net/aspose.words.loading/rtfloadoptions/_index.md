@@ -1,7 +1,9 @@
 ---
-title: Class RtfLoadOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.RtfLoadOptions sınıf. Yükleme sırasında ek seçeneklerin belirtilmesine izin verirRtf bir belgeyeDocument nesne.
+title: RtfLoadOptions Class
+linktitle: RtfLoadOptions
+articleTitle: RtfLoadOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Loading.RtfLoadOptions sınıf. Yükleme sırasında ek seçeneklerin belirtilmesine izin verirRtf bir belgeyeDocument nesne C#'da.
 type: docs
 weight: 3710
 url: /tr/net/aspose.words.loading/rtfloadoptions/
@@ -48,9 +50,9 @@ public class RtfLoadOptions : LoadOptions
 
 | İsim | Tanım |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
-### Örnekler
+## Örnekler
 
 Bir RTF belgesi yüklenirken UTF-8 karakterlerinin nasıl algılanacağını gösterir.
 
@@ -79,5 +81,3 @@ Assert.AreEqual(
 * class [LoadOptions](../loadoptions/)
 * ad alanı [Aspose.Words.Loading](../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../)
-
-

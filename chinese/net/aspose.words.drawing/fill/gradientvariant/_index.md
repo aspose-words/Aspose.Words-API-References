@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientVariant
-second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获取渐变变量GradientVariant用于填充.
+linktitle: GradientVariant
+articleTitle: GradientVariant
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill GradientVariant 财产. 获取渐变变量GradientVariant用于填充 在 C#.
 type: docs
-weight: 130
+weight: 120
 url: /zh/net/aspose.words.drawing/fill/gradientvariant/
 ---
 ## Fill.GradientVariant property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/fill/gradientvariant/
 public GradientVariant GradientVariant { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用渐变填充形状。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

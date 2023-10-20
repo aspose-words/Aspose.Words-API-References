@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.XValues
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeries mülk. Bu grafik serisi için X değerlerinden oluşan bir koleksiyon alır.
+linktitle: XValues
+articleTitle: XValues
+second_title: Aspose.Words for .NET
+description: ChartSeries XValues mülk. Bu grafik serisi için X değerlerinden oluşan bir koleksiyon alır C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.drawing.charts/chartseries/xvalues/
@@ -18,7 +20,5 @@ public ChartXValueCollection XValues { get; }
 
 * class [ChartXValueCollection](../../chartxvaluecollection/)
 * class [ChartSeries](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseries/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

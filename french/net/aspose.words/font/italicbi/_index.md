@@ -1,7 +1,9 @@
 ---
 title: Font.ItalicBi
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. True si le texte de droite à gauche est formaté en italique.
+linktitle: ItalicBi
+articleTitle: ItalicBi
+second_title: Aspose.Words pour .NET
+description: Font ItalicBi propriété. True si le texte de droite à gauche est formaté en italique en C#.
 type: docs
 weight: 170
 url: /fr/net/aspose.words/font/italicbi/
@@ -14,7 +16,7 @@ True si le texte de droite à gauche est formaté en italique.
 public bool ItalicBi { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir des ensembles distincts de paramètres de police pour le texte de droite à gauche et de droite à gauche.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

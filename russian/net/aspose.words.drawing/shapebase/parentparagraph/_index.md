@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ParentParagraph
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Возвращает непосредственный родительский абзац.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words для .NET
+description: ShapeBase ParentParagraph свойство. Возвращает непосредственный родительский абзац на С#.
 type: docs
 weight: 410
 url: /ru/net/aspose.words.drawing/shapebase/parentparagraph/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/shapebase/parentparagraph/
 public Paragraph ParentParagraph { get; }
 ```
 
-### Примечания
+## Примечания
 
 Для дочерних фигур фигуры группы и дочерних фигур объекта Office Math всегда возвращается`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить текстовое поле и установить шрифт его содержимого.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

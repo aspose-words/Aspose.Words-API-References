@@ -1,7 +1,9 @@
 ---
 title: ReportingEngine.Options
-second_title: Aspose.Words for .NET API Referansı
-description: ReportingEngine mülk. Bunun davranışını kontrol eden bir dizi işaret alır veya ayarlarReportingEngine rapor oluştururken örneği.
+linktitle: Options
+articleTitle: Options
+second_title: Aspose.Words for .NET
+description: ReportingEngine Options mülk. Bunun davranışını kontrol eden bir dizi işaret alır veya ayarlarReportingEngine rapor oluştururken örneği C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.reporting/reportingengine/options/
@@ -18,7 +20,5 @@ public ReportBuildOptions Options { get; set; }
 
 * enum [ReportBuildOptions](../../reportbuildoptions/)
 * class [ReportingEngine](../)
-* ad alanı [Aspose.Words.Reporting](../../reportingengine/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
-
-

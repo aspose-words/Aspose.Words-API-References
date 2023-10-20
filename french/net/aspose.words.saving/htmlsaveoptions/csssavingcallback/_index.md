@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssSavingCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Permet de contrôler la façon dont les styles CSS sont enregistrés lorsquun document est enregistré au format HTML MHTML ou EPUB.
+linktitle: CssSavingCallback
+articleTitle: CssSavingCallback
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions CssSavingCallback propriété. Permet de contrôler la façon dont les styles CSS sont enregistrés lorsquun document est enregistré au format HTML MHTML ou EPUB en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/htmlsaveoptions/csssavingcallback/
@@ -14,7 +16,7 @@ Permet de contrôler la façon dont les styles CSS sont enregistrés lorsqu'un d
 public ICssSavingCallback CssSavingCallback { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les feuilles de style CSS créées par une conversion HTML.
 
@@ -76,7 +78,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * interface [ICssSavingCallback](../../icsssavingcallback/)
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

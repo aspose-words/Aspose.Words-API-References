@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontInfoCollection classe. Représente une collection de polices utilisées dans un document.
+title: FontInfoCollection Class
+linktitle: FontInfoCollection
+articleTitle: FontInfoCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.FontInfoCollection classe. Représente une collection de polices utilisées dans un document en C#.
 type: docs
 weight: 2930
 url: /fr/net/aspose.words.fonts/fontinfocollection/
@@ -30,16 +32,16 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 
 | Nom | La description |
 | --- | --- |
-| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(string) | Détermine si la collection contient une police portant le nom donné. |
+| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(*string*) | Détermine si la collection contient une police portant le nom donné. |
 | [GetEnumerator](../../aspose.words.fonts/fontinfocollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection. |
 
-### Remarques
+## Remarques
 
 Les articles sont[`FontInfo`](../fontinfo/) objets.
 
 Vous ne créez pas directement des instances de cette classe. Utilisez le[`FontInfos`](../../aspose.words/documentbase/fontinfos/) propriété pour accéder à la collection de polices définie dans le document.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer les détails des polices présentes dans un document.
 
@@ -79,5 +81,3 @@ else
 * class [FontInfo](../fontinfo/)
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

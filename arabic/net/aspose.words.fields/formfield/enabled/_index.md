@@ -1,7 +1,9 @@
 ---
 title: FormField.Enabled
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. صحيح إذا تم تمكين حقل النموذج.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words لـ .NET
+description: FormField Enabled ملكية. صحيح إذا تم تمكين حقل النموذج في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/formfield/enabled/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/formfield/enabled/
 public bool Enabled { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا تم تمكين حقل النموذج، فيمكن تغيير محتوياته عند ملء النموذج.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

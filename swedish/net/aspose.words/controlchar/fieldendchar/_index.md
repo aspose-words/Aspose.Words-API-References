@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldEndChar
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Slutet av MS Wordfälttecken char21.
+linktitle: FieldEndChar
+articleTitle: FieldEndChar
+second_title: Aspose.Words för .NET
+description: ControlChar FieldEndChar fält. Slutet av MS Wordfälttecken char21 i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/controlchar/fieldendchar/
@@ -14,7 +16,7 @@ Slutet av MS Word-fälttecken: (char)21.
 public const char FieldEndChar;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

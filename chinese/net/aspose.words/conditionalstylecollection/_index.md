@@ -1,7 +1,9 @@
 ---
-title: Class ConditionalStyleCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.ConditionalStyleCollection 班级. 代表集合ConditionalStyle对象.
+title: ConditionalStyleCollection Class
+linktitle: ConditionalStyleCollection
+articleTitle: ConditionalStyleCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.ConditionalStyleCollection 班级. 代表集合ConditionalStyle对象 在 C#.
 type: docs
 weight: 320
 url: /zh/net/aspose.words/conditionalstylecollection/
@@ -42,11 +44,11 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 | [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | 清除表格样式的所有条件样式。 |
 | [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有条件样式。 |
 
-### 评论
+## 评论
 
 无法在此集合中添加或删除项目。它包含一组永久的项目： 的每个值都有一个项目[`ConditionalStyleType`](../conditionalstyletype/)枚举类型.
 
-### 例子
+## 例子
 
 展示如何使用表格的某些区域样式。
 
@@ -118,5 +120,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 * class [ConditionalStyle](../conditionalstyle/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

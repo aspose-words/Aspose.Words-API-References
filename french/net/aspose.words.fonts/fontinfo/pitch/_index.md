@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Pitch
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontInfo propriété. Le pas indique si la police est à pas fixe espacée proportionnellement ou sappuie sur un paramètre par défaut.
+linktitle: Pitch
+articleTitle: Pitch
+second_title: Aspose.Words pour .NET
+description: FontInfo Pitch propriété. Le pas indique si la police est à pas fixe espacée proportionnellement ou sappuie sur un paramètre par défaut en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fonts/fontinfo/pitch/
@@ -14,7 +16,7 @@ Le pas indique si la police est à pas fixe, espacée proportionnellement ou s'a
 public FontPitch Pitch { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder et imprimer les détails de chaque police dans un document.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontPitch](../../fontpitch/)
 * class [FontInfo](../)
-* espace de noms [Aspose.Words.Fonts](../../fontinfo/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.PromptOnceOnMailMerge
-second_title: Aspose.Words för .NET API Referens
-description: FieldFillIn fast egendom. Hämtar eller ställer in om användarsvaret ska tas emot en gång per en sammankopplingsåtgärd.
+linktitle: PromptOnceOnMailMerge
+articleTitle: PromptOnceOnMailMerge
+second_title: Aspose.Words för .NET
+description: FieldFillIn PromptOnceOnMailMerge fast egendom. Hämtar eller ställer in om användarsvaret ska tas emot en gång per en sammankopplingsåtgärd i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldfillin/promptonceonmailmerge/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om användarsvaret ska tas emot en gång per en samman
 public bool PromptOnceOnMailMerge { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder FILLIN-fältet för att fråga användaren om ett svar.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### Se även
 
 * class [FieldFillIn](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldfillin/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum TextureAlignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.TextureAlignment enumeración. Especifica la alineación para el mosaico del relleno de textura.
+title: TextureAlignment Enum
+linktitle: TextureAlignment
+articleTitle: TextureAlignment
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.TextureAlignment enumeración. Especifica la alineación para el mosaico del relleno de textura en C#.
 type: docs
 weight: 1370
 url: /es/net/aspose.words.drawing/texturealignment/
@@ -29,7 +31,7 @@ public enum TextureAlignment
 | BottomRight | `8` | Alineación de textura inferior derecha. |
 | None | `9` | Ninguna alineación de textura. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo rellenar y colocar en mosaico la textura dentro de la forma.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

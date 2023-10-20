@@ -1,7 +1,9 @@
 ---
 title: Footnote.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: Footnote mülk. İadelerFootnote .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: Footnote NodeType mülk. İadelerFootnote  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.notes/footnote/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.notes/footnote/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Footnote](../)
-* ad alanı [Aspose.Words.Notes](../../footnote/)
+* ad alanı [Aspose.Words.Notes](../../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../../)
-
-

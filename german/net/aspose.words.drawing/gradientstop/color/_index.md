@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Color
-second_title: Aspose.Words für .NET-API-Referenz
-description: GradientStop eigendom. Ruft einen Wert ab der die Farbe des Farbverlaufsstopps darstellt oder legt diesen fest.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words für .NET
+description: GradientStop Color eigendom. Ruft einen Wert ab der die Farbe des Farbverlaufsstopps darstellt oder legt diesen fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing/gradientstop/color/
@@ -14,7 +16,7 @@ Ruft einen Wert ab, der die Farbe des Farbverlaufsstopps darstellt, oder legt di
 public Color Color { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man der Verlaufsfüllung Verlaufsstopps hinzufügt.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Siehe auch
 
 * class [GradientStop](../)
-* namensraum [Aspose.Words.Drawing](../../gradientstop/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

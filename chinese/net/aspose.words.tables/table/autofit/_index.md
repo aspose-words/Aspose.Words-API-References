@@ -1,9 +1,11 @@
 ---
 title: Table.AutoFit
-second_title: Aspose.Words for .NET API 参考
-description: Table 方法. 根据指定的自动调整行为调整表格和单元格的大小
+linktitle: AutoFit
+articleTitle: AutoFit
+second_title: 用于 .NET 的 Aspose.Words
+description: Table AutoFit 方法. 根据指定的自动调整行为调整表格和单元格的大小 在 C#.
 type: docs
-weight: 380
+weight: 360
 url: /zh/net/aspose.words.tables/table/autofit/
 ---
 ## Table.AutoFit method
@@ -18,11 +20,11 @@ public void AutoFit(AutoFitBehavior behavior)
 | --- | --- | --- |
 | behavior | AutoFitBehavior | 指定如何自动调整表格。 |
 
-### 评论
+## 评论
 
 此方法模仿 Microsoft Word 中表格的“自动调整”菜单中可用的命令。 可用的命令是“自动调整到内容”、“自动调整到窗口”和“固定列宽”。在 Microsoft Word 中，这些命令设置相关的表格属性，然后更新表格布局，Aspose.Words 会为您执行相同的操作。
 
-### 例子
+## 例子
 
 演示如何在应用样式时构建新表格。
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [AutoFitBehavior](../../autofitbehavior/)
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

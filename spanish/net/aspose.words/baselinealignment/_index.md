@@ -1,7 +1,9 @@
 ---
-title: Enum BaselineAlignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.BaselineAlignment enumeración. Especifica la posición vertical de las fuentes en una línea.
+title: BaselineAlignment Enum
+linktitle: BaselineAlignment
+articleTitle: BaselineAlignment
+second_title: Aspose.Words para .NET
+description: Aspose.Words.BaselineAlignment enumeración. Especifica la posición vertical de las fuentes en una línea en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/baselinealignment/
@@ -24,7 +26,7 @@ public enum BaselineAlignment
 | Bottom | `3` | Se alinea con la parte inferior de cada fuente. |
 | Auto | `4` | La línea base se ajusta automáticamente. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la posición vertical de las fuentes en una línea.
 
@@ -44,5 +46,3 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphBaselineAlignment.docx");
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

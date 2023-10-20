@@ -1,7 +1,9 @@
 ---
 title: List.ListId
-second_title: Référence de l'API Aspose.Words pour .NET
-description: List propriété. Récupère lidentifiant unique de la liste.
+linktitle: ListId
+articleTitle: ListId
+second_title: Aspose.Words pour .NET
+description: List ListId propriété. Récupère lidentifiant unique de la liste en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.lists/list/listid/
@@ -14,11 +16,11 @@ Récupère l'identifiant unique de la liste.
 public int ListId { get; }
 ```
 
-### Remarques
+## Remarques
 
 Vous n'avez normalement pas besoin d'utiliser cette propriété. Mais si vous l'utilisez, vous le faites normalement so en conjonction avec le[`GetListByListId`](../../listcollection/getlistbylistid/) méthode pour trouver une liste a par son identifiant.
 
-### Exemples
+## Exemples
 
 Montre comment vérifier les propriétés du document propriétaire des listes.
 
@@ -67,7 +69,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 ### Voir également
 
 * class [List](../)
-* espace de noms [Aspose.Words.Lists](../../list/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

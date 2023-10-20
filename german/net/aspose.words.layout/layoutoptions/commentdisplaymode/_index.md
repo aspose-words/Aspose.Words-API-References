@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.CommentDisplayMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutOptions eigendom. Ruft ab oder legt fest wie Kommentare gerendert werden. Der Standardwert istShowInBalloons .
+linktitle: CommentDisplayMode
+articleTitle: CommentDisplayMode
+second_title: Aspose.Words für .NET
+description: LayoutOptions CommentDisplayMode eigendom. Ruft ab oder legt fest wie Kommentare gerendert werden. Der Standardwert istShowInBalloons  in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.layout/layoutoptions/commentdisplaymode/
@@ -14,11 +16,11 @@ Ruft ab oder legt fest, wie Kommentare gerendert werden. Der Standardwert istSho
 public CommentDisplayMode CommentDisplayMode { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Beachten Sie, dass Revisionen nicht in Sprechblasen gerendert werdenShowInAnnotations .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Kommentare angezeigt werden, wenn ein Dokument in einem gerenderten Format gespeichert wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Document.ShowCommentsInBalloons.pdf");
 
 * enum [CommentDisplayMode](../../commentdisplaymode/)
 * class [LayoutOptions](../)
-* namensraum [Aspose.Words.Layout](../../layoutoptions/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

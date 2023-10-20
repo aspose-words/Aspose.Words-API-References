@@ -1,7 +1,9 @@
 ---
 title: IFieldUserPromptRespondent.Respond
-second_title: Aspose.Words for .NET API 参考
-description: IFieldUserPromptRespondent 方法. 实现后根据提示返回用户的响应 您的实现应该返回无效的表示用户尚未响应提示 即用户已按下提示窗口中的取消按钮
+linktitle: Respond
+articleTitle: Respond
+second_title: 用于 .NET 的 Aspose.Words
+description: IFieldUserPromptRespondent Respond 方法. 实现后根据提示返回用户的响应 您的实现应该返回无效的表示用户尚未响应提示 即用户已按下提示窗口中的取消按钮 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/ifielduserpromptrespondent/respond/
@@ -23,7 +25,7 @@ public string Respond(string promptText, string defaultResponse)
 
 用户响应（即提示窗口中包含的确认值）。
 
-### 例子
+## 例子
 
 演示如何创建 ASK 字段并设置其属性。
 
@@ -85,7 +87,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### 也可以看看
 
 * interface [IFieldUserPromptRespondent](../)
-* 命名空间 [Aspose.Words.Fields](../../ifielduserpromptrespondent/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

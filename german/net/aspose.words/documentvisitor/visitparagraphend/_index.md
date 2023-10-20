@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitParagraphEnd
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentVisitor methode. Wird aufgerufen wenn die Aufzählung eines Absatzes beendet wurde.
+linktitle: VisitParagraphEnd
+articleTitle: VisitParagraphEnd
+second_title: Aspose.Words für .NET
+description: DocumentVisitor VisitParagraphEnd methode. Wird aufgerufen wenn die Aufzählung eines Absatzes beendet wurde in C#.
 type: docs
 weight: 320
 url: /de/net/aspose.words/documentvisitor/visitparagraphend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitParagraphEnd(Paragraph paragraph)
 
 A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokumentbesucher zum Drucken der Knotenstruktur eines Dokuments verwendet wird.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Paragraph](../../paragraph/)
 * class [DocumentVisitor](../)
-* namensraum [Aspose.Words](../../documentvisitor/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

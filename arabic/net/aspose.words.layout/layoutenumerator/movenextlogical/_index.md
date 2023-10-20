@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveNextLogical
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutEnumerator طريقة. ينتقل إلى الكيان الشقيق التالي بترتيب منطقي. عند تكرار أسطر فقرة متقطعة عبر الصفحات ستنتقل هذه الطريقة إلى السطر التالي حتى لو كان موجودًا في صفحة أخرى.
+linktitle: MoveNextLogical
+articleTitle: MoveNextLogical
+second_title: Aspose.Words لـ .NET
+description: LayoutEnumerator MoveNextLogical طريقة. ينتقل إلى الكيان الشقيق التالي بترتيب منطقي. عند تكرار أسطر فقرة متقطعة عبر الصفحات ستنتقل هذه الطريقة إلى السطر التالي حتى لو كان موجودًا في صفحة أخرى في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.layout/layoutenumerator/movenextlogical/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.layout/layoutenumerator/movenextlogical/
 public bool MoveNextLogical()
 ```
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أن كل شيءSpan ترتبط الكيانات ببعضها البعض وبالتالي إذا[`Current`](../current/) الكيان هو الاستدعاء المتكرر لهذه الطريقة وسوف يكرر القصة الكاملة للمستند.
 
-### أمثلة
+## أمثلة
 
 يُظهر طرق اجتياز كيانات تخطيط المستند.
 
@@ -163,7 +165,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### أنظر أيضا
 
 * class [LayoutEnumerator](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutenumerator/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

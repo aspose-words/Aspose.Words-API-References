@@ -1,7 +1,9 @@
 ---
-title: Class BorderCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.BorderCollection 班级. 的集合Border对象.
+title: BorderCollection Class
+linktitle: BorderCollection
+articleTitle: BorderCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.BorderCollection 班级. 的集合Border对象 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/bordercollection/
@@ -39,14 +41,14 @@ public sealed class BorderCollection : IEnumerable<Border>
 | 姓名 | 描述 |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/bordercollection/clearformatting/)() | 删除对象的所有边框。 |
-| [Equals](../../aspose.words/bordercollection/equals/#equals)(BorderCollection) | 比较边框集合。 |
+| [Equals](../../aspose.words/bordercollection/equals/#equals)(*BorderCollection*) | 比较边框集合。 |
 | [GetEnumerator](../../aspose.words/bordercollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有边框。 |
 
-### 评论
+## 评论
 
 不同的文档元素具有不同的边框。 例如，[`ParagraphFormat`](../paragraphformat/)有[`Bottom`](./bottom/),[`Left`](./left/),[`Right`](./right/)和[`Top`](./top/)边框。 您可以为每个边框单独指定不同的格式，或者 枚举所有边框并应用相同的格式。
 
-### 例子
+## 例子
 
 演示如何插入带有上边框的段落。
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 * class [Border](../border/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

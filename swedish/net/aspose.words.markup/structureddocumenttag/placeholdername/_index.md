@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.PlaceholderName
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Hämtar eller sätter Namn påBuildingBlock som innehåller platshållartext.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag PlaceholderName fast egendom. Hämtar eller sätter Namn påBuildingBlock som innehåller platshållartext i C#.
 type: docs
 weight: 240
 url: /sv/net/aspose.words.markup/structureddocumenttag/placeholdername/
@@ -16,7 +18,7 @@ Hämtar eller sätter Namn på[`BuildingBlock`](../../../aspose.words.buildingbl
 public string PlaceholderName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder ett byggblocks innehåll som en anpassad platshållartext för en strukturerad dokumenttagg.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### Se även
 
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

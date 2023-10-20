@@ -1,7 +1,9 @@
 ---
-title: FieldToa.FieldToa
-second_title: Aspose.Words för .NET API Referens
-description: FieldToa byggare. Default_Constructor
+title: FieldToa
+linktitle: FieldToa
+articleTitle: FieldToa
+second_title: Aspose.Words för .NET
+description: FieldToa byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldtoa/fieldtoa/
@@ -17,7 +19,5 @@ public FieldToa()
 ### Se även
 
 * class [FieldToa](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtoa/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

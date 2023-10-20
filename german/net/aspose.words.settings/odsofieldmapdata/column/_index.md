@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Column
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoFieldMapData eigendom. Gibt den nullbasierten Index der Spalte in einer externen Datenquelle an der dem lokalen Namen eines bestimmten MERGEFIELDFelds zugeordnet werden soll. Der Standardwert ist 0.
+linktitle: Column
+articleTitle: Column
+second_title: Aspose.Words für .NET
+description: OdsoFieldMapData Column eigendom. Gibt den nullbasierten Index der Spalte in einer externen Datenquelle an der dem lokalen Namen eines bestimmten MERGEFIELDFelds zugeordnet werden soll. Der Standardwert ist 0 in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.settings/odsofieldmapdata/column/
@@ -14,7 +16,7 @@ Gibt den nullbasierten Index der Spalte in einer externen Datenquelle an, der de
 public int Column { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Briefvorlagenfeldern zuordnet.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Siehe auch
 
 * class [OdsoFieldMapData](../)
-* namensraum [Aspose.Words.Settings](../../odsofieldmapdata/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

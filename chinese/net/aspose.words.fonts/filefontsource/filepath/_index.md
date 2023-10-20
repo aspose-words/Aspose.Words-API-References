@@ -1,7 +1,9 @@
 ---
 title: FileFontSource.FilePath
-second_title: Aspose.Words for .NET API 参考
-description: FileFontSource 财产. 字体文件的路径
+linktitle: FilePath
+articleTitle: FilePath
+second_title: 用于 .NET 的 Aspose.Words
+description: FileFontSource FilePath 财产. 字体文件的路径 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/filefontsource/filepath/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/filefontsource/filepath/
 public string FilePath { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用本地文件系统中的字体文件作为字体源。
 
@@ -33,7 +35,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### 也可以看看
 
 * class [FileFontSource](../)
-* 命名空间 [Aspose.Words.Fonts](../../filefontsource/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

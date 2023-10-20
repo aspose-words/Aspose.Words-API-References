@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ListFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Paragrafın liste biçimlendirme özelliklerine erişim sağlar.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words for .NET
+description: Paragraph ListFormat mülk. Paragrafın liste biçimlendirme özelliklerine erişim sağlar C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words/paragraph/listformat/
@@ -14,7 +16,7 @@ Paragrafın liste biçimlendirme özelliklerine erişim sağlar.
 public ListFormat ListFormat { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki liste öğesi olan tüm paragrafların çıktısının nasıl alınacağını gösterir.
 
@@ -47,7 +49,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Add
-second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoRecipientDataCollection método. Agrega un objeto al final de esta colección.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words para .NET
+description: OdsoRecipientDataCollection Add método. Agrega un objeto al final de esta colección en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.settings/odsorecipientdatacollection/add/
@@ -18,7 +20,7 @@ public int Add(OdsoRecipientData value)
 | --- | --- | --- |
 | value | OdsoRecipientData | El objeto a agregar. No puede ser`nulo`. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos de combinación excluirá una combinación de correspondencia.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* espacio de nombres [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

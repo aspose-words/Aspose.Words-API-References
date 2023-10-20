@@ -1,7 +1,9 @@
 ---
-title: Interface IPageLayoutCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Layout.IPageLayoutCallback 界面. 如果您想在构建和渲染页面布局模型期间调用自己的自定义方法请实现此接口
+title: IPageLayoutCallback Interface
+linktitle: IPageLayoutCallback
+articleTitle: IPageLayoutCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Layout.IPageLayoutCallback 界面. 如果您想在构建和渲染页面布局模型期间调用自己的自定义方法请实现此接口 在 C#.
 type: docs
 weight: 3310
 url: /zh/net/aspose.words.layout/ipagelayoutcallback/
@@ -18,9 +20,9 @@ public interface IPageLayoutCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | 调用此函数以通知布局构建和渲染进度。 |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | 调用此函数以通知布局构建和渲染进度。 |
 
-### 评论
+## 评论
 
 此接口的主要用途是允许应用程序代码中止构建过程。
 
@@ -30,7 +32,7 @@ public interface IPageLayoutCallback
 
 此技术可能不适用于每个文档，或者可能完全失败。
 
-### 例子
+## 例子
 
 展示如何使用布局回调跟踪布局更改。
 
@@ -98,5 +100,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 * property [Callback](../layoutoptions/callback/)
 * 命名空间 [Aspose.Words.Layout](../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../)
-
-

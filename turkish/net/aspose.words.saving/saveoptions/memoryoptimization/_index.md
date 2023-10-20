@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.MemoryOptimization
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. Belgeyi kaydetmeden önce bellek optimizasyonunun gerçekleştirilip gerçekleştirilmeyeceğini belirleyen değeri alır veya ayarlar. Bu özellik için varsayılan değerYANLIŞ .
+linktitle: MemoryOptimization
+articleTitle: MemoryOptimization
+second_title: Aspose.Words for .NET
+description: SaveOptions MemoryOptimization mülk. Belgeyi kaydetmeden önce bellek optimizasyonunun gerçekleştirilip gerçekleştirilmeyeceğini belirleyen değeri alır veya ayarlar. Bu özellik için varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.saving/saveoptions/memoryoptimization/
@@ -14,11 +16,11 @@ Belgeyi kaydetmeden önce bellek optimizasyonunun gerçekleştirilip gerçekleş
 public bool MemoryOptimization { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu seçeneği şu şekilde ayarlıyoruz:`doğru` büyük belgeleri kaydederken, daha yavaş kaydetme süresi pahasına bellek tüketimini önemli ölçüde azaltabilir.
 
-### Örnekler
+## Örnekler
 
 Büyük belgeleri PDF'ye dönüştürürken bellek tüketimini optimize etme seçeneğini gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 ### Ayrıca bakınız
 
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

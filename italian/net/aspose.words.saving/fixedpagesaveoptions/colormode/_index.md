@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.ColorMode
-second_title: Aspose.Words per .NET API Reference
-description: FixedPageSaveOptions proprietà. Ottiene o imposta un valore che determina la modalità di rendering dei colori.
+linktitle: ColorMode
+articleTitle: ColorMode
+second_title: Aspose.Words per .NET
+description: FixedPageSaveOptions ColorMode proprietà. Ottiene o imposta un valore che determina la modalità di rendering dei colori in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/fixedpagesaveoptions/colormode/
@@ -14,11 +16,11 @@ Ottiene o imposta un valore che determina la modalità di rendering dei colori.
 public ColorMode ColorMode { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito èNormal .
 
-### Esempi
+## Esempi
 
 Mostra come modificare il colore dell'immagine con la proprietà delle opzioni di salvataggio.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
 
 * enum [ColorMode](../../colormode/)
 * class [FixedPageSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

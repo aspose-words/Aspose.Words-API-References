@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Bidi
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取或设置这是否是从右到左的段落
+linktitle: Bidi
+articleTitle: Bidi
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat Bidi 财产. 获取或设置这是否是从右到左的段落 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/paragraphformat/bidi/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/paragraphformat/bidi/
 public bool Bidi { get; set; }
 ```
 
-### 评论
+## 评论
 
 什么时候`真的`，本段落 中的运行和其他内联对象从右到左排列。
 
-### 例子
+## 例子
 
 演示如何检测纯文本文档文本方向。
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

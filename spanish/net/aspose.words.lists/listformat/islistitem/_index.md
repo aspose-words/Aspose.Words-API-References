@@ -1,7 +1,9 @@
 ---
 title: ListFormat.IsListItem
-second_title: Referencia de API de Aspose.Words para .NET
-description: ListFormat propiedad. Verdadero cuando al párrafo se le ha aplicado formato numerado o con viñetas.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words para .NET
+description: ListFormat IsListItem propiedad. Verdadero cuando al párrafo se le ha aplicado formato numerado o con viñetas en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.lists/listformat/islistitem/
@@ -14,7 +16,7 @@ Verdadero cuando al párrafo se le ha aplicado formato numerado o con viñetas.
 public bool IsListItem { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo generar todos los párrafos de un documento que son elementos de lista.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 ### Ver también
 
 * class [ListFormat](../)
-* espacio de nombres [Aspose.Words.Lists](../../listformat/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

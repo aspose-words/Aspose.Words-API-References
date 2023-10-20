@@ -1,7 +1,9 @@
 ---
 title: IFieldResultFormatter.FormatNumeric
-second_title: Aspose.Words for .NET API 参考
-description: IFieldResultFormatter 方法. 当 Aspose.Words 应用数字格式开关时调用即  ..
+linktitle: FormatNumeric
+articleTitle: FormatNumeric
+second_title: 用于 .NET 的 Aspose.Words
+description: IFieldResultFormatter FormatNumeric 方法. 当 Aspose.Words 应用数字格式开关时调用即   在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/ifieldresultformatter/formatnumeric/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/ifieldresultformatter/formatnumeric/
 public string FormatNumeric(double value, string format)
 ```
 
-### 评论
+## 评论
 
 实现应该返回`无效的`指示应应用默认格式。
 
-### 例子
+## 例子
 
 展示如何在更新字段时自动将自定义格式应用于字段结果。
 
@@ -155,7 +157,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 ### 也可以看看
 
 * interface [IFieldResultFormatter](../)
-* 命名空间 [Aspose.Words.Fields](../../ifieldresultformatter/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

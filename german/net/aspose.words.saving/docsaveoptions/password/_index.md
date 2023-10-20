@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.Password
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocSaveOptions eigendom. Ruft ein Passwort ab bzw. legt es fest um das Dokument mit der RC4Verschlüsselungsmethode zu verschlüsseln.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words für .NET
+description: DocSaveOptions Password eigendom. Ruft ein Passwort ab bzw. legt es fest um das Dokument mit der RC4Verschlüsselungsmethode zu verschlüsseln in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/docsaveoptions/password/
@@ -14,11 +16,11 @@ Ruft ein Passwort ab bzw. legt es fest, um das Dokument mit der RC4-Verschlüsse
 public string Password { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Um ein Dokument ohne Verschlüsselung zu speichern, sollte diese Eigenschaft vorhanden sein`Null` oder leere Zeichenfolge.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Speicheroptionen für ältere Microsoft Word-Formate festgelegt werden.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Siehe auch
 
 * class [DocSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../docsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

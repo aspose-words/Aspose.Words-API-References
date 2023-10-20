@@ -1,7 +1,9 @@
 ---
-title: Class Style
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Style klas. Stellt einen einzelnen integrierten oder benutzerdefinierten Stil dar.
+title: Style Class
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Style klas. Stellt einen einzelnen integrierten oder benutzerdefinierten Stil dar in C#.
 type: docs
 weight: 6130
 url: /de/net/aspose.words/style/
@@ -31,7 +33,6 @@ public class Style
 | [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Ruft den Namen ab`Style` mit diesem verlinkt. Gibt eine leere Zeichenfolge zurück, wenn keine Stile verknüpft sind. |
 | [List](../../aspose.words/style/list/) { get; } | Ruft die Liste ab, die die Formatierung dieses Listenstils definiert. |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | Bietet Zugriff auf die Listenformatierungseigenschaften eines Absatzstils. |
-| [Locked](../../aspose.words/style/locked/) { get; set; } |  |
 | [Name](../../aspose.words/style/name/) { get; set; } | Ruft den Namen des Stils ab oder legt ihn fest. |
 | [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Ruft den Namen des Stils ab bzw. legt ihn fest, der automatisch auf einen neuen Absatz angewendet werden soll, der nach einem Absatz eingefügt wird, der mit dem angegebenen Stil formatiert ist. |
 | [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Ruft die Absatzformatierung des Stils ab. |
@@ -43,10 +44,10 @@ public class Style
 
 | Name | Beschreibung |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals/#equals)(Style) | Vergleicht mit dem angegebenen Stil. Istds-Stile werden nur für integrierte Stile verglichen. Standardwerte für Stile werden nicht im Vergleich berücksichtigt. Basisstil, verknüpfter Stil und Stil für den nächsten Absatz werden rekursiv verglichen. |
+| [Equals](../../aspose.words/style/equals/#equals)(*Style*) | Vergleicht mit dem angegebenen Stil. Istds-Stile werden nur für integrierte Stile verglichen. Standardwerte für Stile werden nicht im Vergleich berücksichtigt. Basisstil, verknüpfter Stil und Stil für den nächsten Absatz werden rekursiv verglichen. |
 | [Remove](../../aspose.words/style/remove/)() | Entfernt den angegebenen Stil aus dem Dokument. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Absatzstil mit Listenformatierung erstellt und verwendet wird.
 
@@ -113,5 +114,3 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

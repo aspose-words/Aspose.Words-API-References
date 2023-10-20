@@ -1,7 +1,9 @@
 ---
 title: FieldCreateDate.UseSakaEraCalendar
-second_title: Aspose.Words for .NET API 参考
-description: FieldCreateDate 财产. 获取或设置是否使用Saka Era日历
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldCreateDate UseSakaEraCalendar 财产. 获取或设置是否使用Saka Era日历 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldcreatedate/usesakaeracalendar/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldcreatedate/usesakaeracalendar/
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 CREATEDATE 字段来显示文档的创建日期/时间。
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");
 ### 也可以看看
 
 * class [FieldCreateDate](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldcreatedate/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ResourceFolderAlias
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定用于构建写入 HTML 文档的所有资源的 URI 的文件夹名称 默认为空字符串
+linktitle: ResourceFolderAlias
+articleTitle: ResourceFolderAlias
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions ResourceFolderAlias 财产. 指定用于构建写入 HTML 文档的所有资源的 URI 的文件夹名称 默认为空字符串 在 C#.
 type: docs
 weight: 430
 url: /zh/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/
 public string ResourceFolderAlias { get; set; }
 ```
 
-### 评论
+## 评论
 
 `ResourceFolderAlias`是指定如何构建所有资源文件的 URI 的最简单方法。可以通过以下方式分别为图像和字体指定相同的信息[`ImagesFolderAlias`](../imagesfolderalias/) 和[`FontsFolderAlias`](../fontsfolderalias/)属性，分别。但是，CSS 没有单独的属性。
 
@@ -24,7 +26,7 @@ public string ResourceFolderAlias { get; set; }
 
 如果`ResourceFolderAlias`被设定为 '。' （点），资源 URI 将仅包含文件名，不包含 任何路径。
 
-### 例子
+## 例子
 
 展示如何为 Aspose.Words 在将文档保存为 HTML 时创建的外部保存资源设置文件夹和文件夹别名。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

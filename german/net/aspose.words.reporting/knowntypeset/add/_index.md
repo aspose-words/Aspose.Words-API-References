@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.Add
-second_title: Aspose.Words für .NET-API-Referenz
-description: KnownTypeSet methode. Fügt das angegebene hinzuType Objekt zur Menge. WürfeArgumentException in die folgenden Fälle
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words für .NET
+description: KnownTypeSet Add methode. Fügt das angegebene hinzuType Objekt zur Menge. WürfeArgumentException in die folgenden Fälle in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.reporting/knowntypeset/add/
@@ -33,7 +35,5 @@ public void Add(Type type)
 ### Siehe auch
 
 * class [KnownTypeSet](../)
-* namensraum [Aspose.Words.Reporting](../../knowntypeset/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
-
-

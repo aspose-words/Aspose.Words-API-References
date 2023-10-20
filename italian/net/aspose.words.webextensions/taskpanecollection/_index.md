@@ -1,7 +1,9 @@
 ---
-title: Class TaskPaneCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.WebExtensions.TaskPaneCollection classe. Specifica un elenco di oggetti del riquadro attività persistenti.
+title: TaskPaneCollection Class
+linktitle: TaskPaneCollection
+articleTitle: TaskPaneCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.WebExtensions.TaskPaneCollection classe. Specifica un elenco di oggetti del riquadro attività persistenti in C#.
 type: docs
 weight: 6720
 url: /it/net/aspose.words.webextensions/taskpanecollection/
@@ -27,12 +29,12 @@ public class TaskPaneCollection : BaseWebExtensionCollection<TaskPane>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(TaskPane) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*[TaskPane](../taskpane/)*) |  |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) |  |
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un'estensione Web a un documento.
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 * class [TaskPane](../taskpane/)
 * spazio dei nomi [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * assemblea [Aspose.Words](../../)
-
-

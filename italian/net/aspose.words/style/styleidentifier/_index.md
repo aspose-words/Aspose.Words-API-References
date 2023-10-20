@@ -1,9 +1,11 @@
 ---
 title: Style.StyleIdentifier
-second_title: Aspose.Words per .NET API Reference
-description: Style proprietà. Ottiene lidentificatore di stile indipendente dalle impostazioni internazionali per uno stile integrato.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words per .NET
+description: Style StyleIdentifier proprietà. Ottiene lidentificatore di stile indipendente dalle impostazioni internazionali per uno stile integrato in C#.
 type: docs
-weight: 160
+weight: 150
 url: /it/net/aspose.words/style/styleidentifier/
 ---
 ## Style.StyleIdentifier property
@@ -14,11 +16,11 @@ Ottiene l'identificatore di stile indipendente dalle impostazioni internazionali
 public StyleIdentifier StyleIdentifier { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Per gli stili definiti dall'utente (personalizzati), questa proprietà restituisceUser.
 
-### Esempi
+## Esempi
 
 Mostra come modificare la posizione della tabulazione destra nei paragrafi relativi al sommario.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [Style](../)
-* spazio dei nomi [Aspose.Words](../../style/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

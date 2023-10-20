@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.OptimizeOutput
-second_title: Aspose.Words per .NET API Reference
-description: HtmlFixedSaveOptions proprietà. Il flag indica se è necessario ottimizzare loutput. Se questo flag è impostato le tele nidificate ridondanti e le tele vuote vengono rimosse vengono concatenati anche i glifi vicini con la stessa formattazione. Nota la precisione della visualizzazione del contenuto potrebbe essere influenzata se questa proprietà è impostata suVERO . Limpostazione predefinita èVERO .
+linktitle: OptimizeOutput
+articleTitle: OptimizeOutput
+second_title: Aspose.Words per .NET
+description: HtmlFixedSaveOptions OptimizeOutput proprietà. Il flag indica se è necessario ottimizzare loutput. Se questo flag è impostato le tele nidificate ridondanti e le tele vuote vengono rimosse vengono concatenati anche i glifi vicini con la stessa formattazione. Nota la precisione della visualizzazione del contenuto potrebbe essere influenzata se questa proprietà è impostata suVERO . Limpostazione predefinita èVERO  in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
@@ -14,7 +16,7 @@ Il flag indica se è necessario ottimizzare l'output. Se questo flag è impostat
 public override bool OptimizeOutput { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come semplificare un documento quando lo si salva in HTML rimuovendo vari oggetti ridondanti.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(optimizeOutput ? 62521 : 191770,
 ### Guarda anche
 
 * class [HtmlFixedSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

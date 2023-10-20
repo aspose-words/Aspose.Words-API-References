@@ -1,7 +1,9 @@
 ---
-title: Class PageSet
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.PageSet 班级. 描述一组随机页面
+title: PageSet Class
+linktitle: PageSet
+articleTitle: PageSet
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.PageSet 班级. 描述一组随机页面 在 C#.
 type: docs
 weight: 5390
 url: /zh/net/aspose.words.saving/pageset/
@@ -20,9 +22,9 @@ public sealed class PageSet
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageSet](pageset/#constructor_1)(int) | 根据确切的页面索引创建单页集。 |
-| [PageSet](pageset/#constructor_2)(params int[]) | 根据精确的页面索引创建页面集。 |
-| [PageSet](pageset/#constructor)(params PageRange[]) | 基于范围创建页面集。 |
+| [PageSet](pageset/#constructor_1)(*int*) | 根据确切的页面索引创建单页集。 |
+| [PageSet](pageset/#constructor_2)(*params int[]*) | 根据精确的页面索引创建页面集。 |
+| [PageSet](pageset/#constructor)(*params PageRange[]*) | 基于范围创建页面集。 |
 
 ## 特性
 
@@ -36,5 +38,3 @@ public sealed class PageSet
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

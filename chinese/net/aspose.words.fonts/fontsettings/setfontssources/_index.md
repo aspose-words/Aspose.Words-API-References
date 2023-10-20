@@ -1,12 +1,14 @@
 ---
 title: FontSettings.SetFontsSources
-second_title: Aspose.Words for .NET API 参考
-description: FontSettings 方法. 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的源
+linktitle: SetFontsSources
+articleTitle: SetFontsSources
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSettings SetFontsSources 方法. 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的源 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.fonts/fontsettings/setfontssources/
 ---
-## SetFontsSources(FontSourceBase[]) {#setfontssources}
+## SetFontsSources(*FontSourceBase[]*) {#setfontssources}
 
 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的源。
 
@@ -18,13 +20,13 @@ public void SetFontsSources(FontSourceBase[] sources)
 | --- | --- | --- |
 | sources | FontSourceBase[] | 包含 TrueType 字体的源数组。 |
 
-### 评论
+## 评论
 
 默认情况下，Aspose.Words 会查找系统中安装的字体。
 
 设置此属性将重置所有先前加载的字体的缓存。
 
-### 例子
+## 例子
 
 展示如何将字体源添加到我们现有的字体源。
 
@@ -74,12 +76,12 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## SetFontsSources(FontSourceBase[], Stream) {#setfontssources_1}
+## SetFontsSources(*FontSourceBase[], Stream*) {#setfontssources_1}
 
 设置 Aspose.Words 查找 TrueType 字体的来源，并另外加载之前保存的 字体搜索缓存。
 
@@ -92,7 +94,7 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 | sources | FontSourceBase[] | 包含 TrueType 字体的源数组。 |
 | cacheInputStream | Stream | 具有保存的字体搜索缓存的输入流。 |
 
-### 评论
+## 评论
 
 加载以前保存的字体搜索缓存将加快字体缓存初始化过程。当对字体源的访问很复杂时（例如，当通过网络加载字体时），它是 特别有用。
 
@@ -100,7 +102,7 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 
 强烈建议在加载缓存时提供与保存缓存时相同的字体源。 字体源中的任何更改（例如添加新字体、移动字体文件或更改缓存键）都可能导致 字体不准确通过Aspose.Words 解析。
 
-### 例子
+## 例子
 
 展示如何加快字体缓存初始化过程。
 
@@ -152,7 +154,5 @@ private class SearchCacheStream : StreamFontSource
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ShowInBalloons
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Layout.ShowInBalloons 枚举. 指定在气球中呈现哪些修订版本
+title: ShowInBalloons Enum
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Layout.ShowInBalloons 枚举. 指定在气球中呈现哪些修订版本 在 C#.
 type: docs
 weight: 3410
 url: /zh/net/aspose.words.layout/showinballoons/
@@ -22,11 +24,11 @@ public enum ShowInBalloons
 | Format | `1` | 渲染内联插入和删除修订，在气球中格式化修订。 |
 | FormatAndDelete | `2` | 渲染内联插入修订、删除气球中的修订以及格式化修订。 |
 
-### 评论
+## 评论
 
 请注意，修订不会在气球中呈现ShowInAnnotations.
 
-### 例子
+## 例子
 
 展示如何修改修订版本的外观。
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * 命名空间 [Aspose.Words.Layout](../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../)
-
-

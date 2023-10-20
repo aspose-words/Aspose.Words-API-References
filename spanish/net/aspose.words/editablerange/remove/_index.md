@@ -1,7 +1,9 @@
 ---
 title: EditableRange.Remove
-second_title: Referencia de API de Aspose.Words para .NET
-description: EditableRange método. Elimina el rango editable del documento. No elimina contenido dentro del rango editable.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words para .NET
+description: EditableRange Remove método. Elimina el rango editable del documento. No elimina contenido dentro del rango editable en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/editablerange/remove/
@@ -14,7 +16,7 @@ Elimina el rango editable del documento. No elimina contenido dentro del rango e
 public void Remove()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con un rango editable.
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### Ver también
 
 * class [EditableRange](../)
-* espacio de nombres [Aspose.Words](../../editablerange/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

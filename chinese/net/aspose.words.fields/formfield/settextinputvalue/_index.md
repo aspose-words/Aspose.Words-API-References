@@ -1,7 +1,9 @@
 ---
 title: FormField.SetTextInputValue
-second_title: Aspose.Words for .NET API 参考
-description: FormField 方法. 应用中指定的文本格式TextInputFormat并将值存储在Result.
+linktitle: SetTextInputValue
+articleTitle: SetTextInputValue
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField SetTextInputValue 方法. 应用中指定的文本格式TextInputFormat并将值存储在Result 在 C#.
 type: docs
 weight: 250
 url: /zh/net/aspose.words.fields/formfield/settextinputvalue/
@@ -16,13 +18,13 @@ public void SetTextInputValue(object newValue)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newValue | Object | 可以是字符串、数字或 **约会时间**目的。 |
+| newValue | Object | 可以是字符串、数字或**约会时间**目的。 |
 
-### 评论
+## 评论
 
 这[`TextInputDefault`](../textinputdefault/)如果应用该值*newValue*是`无效的`。
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

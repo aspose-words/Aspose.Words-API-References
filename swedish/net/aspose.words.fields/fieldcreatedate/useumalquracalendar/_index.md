@@ -1,7 +1,9 @@
 ---
 title: FieldCreateDate.UseUmAlQuraCalendar
-second_title: Aspose.Words för .NET API Referens
-description: FieldCreateDate fast egendom. Hämtar eller ställer in om UmalQurakalendern ska användas.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words för .NET
+description: FieldCreateDate UseUmAlQuraCalendar fast egendom. Hämtar eller ställer in om UmalQurakalendern ska användas i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldcreatedate/useumalquracalendar/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om Um-al-Qura-kalendern ska användas.
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder fältet CREATEDATE för att visa datum/tid för dokumentet.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");
 ### Se även
 
 * class [FieldCreateDate](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcreatedate/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

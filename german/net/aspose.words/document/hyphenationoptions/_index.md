@@ -1,7 +1,9 @@
 ---
 title: Document.HyphenationOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Bietet Zugriff auf Silbentrennungsoptionen für Dokumente.
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words für .NET
+description: Document HyphenationOptions eigendom. Bietet Zugriff auf Silbentrennungsoptionen für Dokumente in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words/document/hyphenationoptions/
@@ -14,7 +16,7 @@ Bietet Zugriff auf Silbentrennungsoptionen für Dokumente.
 public HyphenationOptions HyphenationOptions { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die automatische Silbentrennung konfiguriert wird.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 
 * class [HyphenationOptions](../../../aspose.words.settings/hyphenationoptions/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

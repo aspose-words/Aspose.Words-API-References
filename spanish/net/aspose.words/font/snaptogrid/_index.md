@@ -1,7 +1,9 @@
 ---
 title: Font.SnapToGrid
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Especifica si la fuente actual debe utilizar los caracteres de la cuadrícula del documento por línea settings al diseñar.
+linktitle: SnapToGrid
+articleTitle: SnapToGrid
+second_title: Aspose.Words para .NET
+description: Font SnapToGrid propiedad. Especifica si la fuente actual debe utilizar los caracteres de la cuadrícula del documento por línea settings al diseñar en C#.
 type: docs
 weight: 370
 url: /es/net/aspose.words/font/snaptogrid/
@@ -17,7 +19,5 @@ public bool SnapToGrid { get; set; }
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

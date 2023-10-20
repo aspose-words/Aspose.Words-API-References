@@ -1,7 +1,9 @@
 ---
 title: FieldIf.FalseText
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIf eigendom. Ruft den angezeigten Text ab oder legt diesen fest wenn der Vergleichsausdruck lautetFALSCH .
+linktitle: FalseText
+articleTitle: FalseText
+second_title: Aspose.Words für .NET
+description: FieldIf FalseText eigendom. Ruft den angezeigten Text ab oder legt diesen fest wenn der Vergleichsausdruck lautetFALSCH  in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldif/falsetext/
@@ -14,7 +16,7 @@ Ruft den angezeigten Text ab oder legt diesen fest, wenn der Vergleichsausdruck 
 public string FalseText { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein IF-Feld eingefügt wird.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### Siehe auch
 
 * class [FieldIf](../)
-* namensraum [Aspose.Words.Fields](../../fieldif/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

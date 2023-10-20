@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.ProviderId
-second_title: Aspose.Words för .NET API Referens
-description: SignatureLine fast egendom. Hämtar eller ställer in signaturleverantörsidentifierare för denna signaturrad. Standardvärdet är 000000000000000000000000000000000.
+linktitle: ProviderId
+articleTitle: ProviderId
+second_title: Aspose.Words för .NET
+description: SignatureLine ProviderId fast egendom. Hämtar eller ställer in signaturleverantörsidentifierare för denna signaturrad. Standardvärdet är 000000000000000000000000000000000 i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.drawing/signatureline/providerid/
@@ -14,7 +16,7 @@ Hämtar eller ställer in signaturleverantörsidentifierare för denna signaturr
 public Guid ProviderId { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den kryptografiska tjänsteleverantören (CSP) är en oberoende programvarumodul som faktiskt utför kryptografialgoritmer för autentisering, kodning och kryptering. MS Office reserverar värdet av {00000000-0000-0000-0000-0000000000000} för sin standardsignaturleverantör.
 
@@ -22,7 +24,7 @@ GUID för den extra installerade leverantören bör erhållas från dokumentatio
 
 Dessutom är alla installerade kryptografiska leverantörer uppräknade i Windows-registret. Den kan hittas i följande sökväg: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Det finns ett nyckelnamn "CP Service UUID" som motsvarar en GUID för signaturleverantör.
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett dokument med ett personligt certifikat och en signaturrad.
 
@@ -75,7 +77,5 @@ Assert.True(signatureLine.IsValid);
 ### Se även
 
 * class [SignatureLine](../)
-* namnutrymme [Aspose.Words.Drawing](../../signatureline/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

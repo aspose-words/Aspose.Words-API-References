@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.KeepPageStreamOpen
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSavingArgs свойство. Указывает должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения страницы документа.
+linktitle: KeepPageStreamOpen
+articleTitle: KeepPageStreamOpen
+second_title: Aspose.Words для .NET
+description: PageSavingArgs KeepPageStreamOpen свойство. Указывает должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения страницы документа на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/pagesavingargs/keeppagestreamopen/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/pagesavingargs/keeppagestreamopen/
 public bool KeepPageStreamOpen { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчанию`ЛОЖЬ` и Aspose.Words закроет поток, который вы предоставили в[`PageStream`](../pagestream/) свойство после записи в него страницы документа. Укажите`истинный` чтобы поток оставался открытым.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для сохранения документа в формате HTML постранично.
 
@@ -75,7 +77,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Смотрите также
 
 * class [PageSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../pagesavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

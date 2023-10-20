@@ -1,7 +1,9 @@
 ---
 title: FieldChar.IsLocked
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldChar propiedad. Obtiene o establece si el campo principal está bloqueado no debe volver a calcular su resultado.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words para .NET
+description: FieldChar IsLocked propiedad. Obtiene o establece si el campo principal está bloqueado no debe volver a calcular su resultado en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldchar/islocked/
@@ -14,7 +16,7 @@ Obtiene o establece si el campo principal está bloqueado (no debe volver a calc
 public bool IsLocked { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con un nodo FieldStart.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Ver también
 
 * class [FieldChar](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldchar/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

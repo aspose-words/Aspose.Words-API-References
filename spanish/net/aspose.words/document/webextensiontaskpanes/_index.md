@@ -1,7 +1,9 @@
 ---
 title: Document.WebExtensionTaskPanes
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Devuelve una colección que representa una lista de complementos del panel de tareas.
+linktitle: WebExtensionTaskPanes
+articleTitle: WebExtensionTaskPanes
+second_title: Aspose.Words para .NET
+description: Document WebExtensionTaskPanes propiedad. Devuelve una colección que representa una lista de complementos del panel de tareas en C#.
 type: docs
 weight: 490
 url: /es/net/aspose.words/document/webextensiontaskpanes/
@@ -18,7 +20,5 @@ public TaskPaneCollection WebExtensionTaskPanes { get; }
 
 * class [TaskPaneCollection](../../../aspose.words.webextensions/taskpanecollection/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

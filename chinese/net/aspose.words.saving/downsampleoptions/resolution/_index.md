@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.Resolution
-second_title: Aspose.Words for .NET API 参考
-description: DownsampleOptions 财产. 指定图像应降采样到的分辨率以每英寸像素为单位
+linktitle: Resolution
+articleTitle: Resolution
+second_title: 用于 .NET 的 Aspose.Words
+description: DownsampleOptions Resolution 财产. 指定图像应降采样到的分辨率以每英寸像素为单位 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/downsampleoptions/resolution/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/downsampleoptions/resolution/
 public int Resolution { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为 220 ppi。
 
-### 例子
+## 例子
 
 演示如何更改 PDF 文档中图像的分辨率。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### 也可以看看
 
 * class [DownsampleOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../downsampleoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

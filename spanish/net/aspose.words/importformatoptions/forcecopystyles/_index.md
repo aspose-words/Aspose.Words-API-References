@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.ForceCopyStyles
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImportFormatOptions propiedad. Obtiene o establece un valor booleano que indica si se deben copiar estilos conflictivos enKeepSourceFormatting mode. El valor predeterminado esFALSO .
+linktitle: ForceCopyStyles
+articleTitle: ForceCopyStyles
+second_title: Aspose.Words para .NET
+description: ImportFormatOptions ForceCopyStyles propiedad. Obtiene o establece un valor booleano que indica si se deben copiar estilos conflictivos enKeepSourceFormatting mode. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/importformatoptions/forcecopystyles/
@@ -14,7 +16,7 @@ Obtiene o establece un valor booleano que indica si se deben copiar estilos conf
 public bool ForceCopyStyles { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 De forma predeterminada, si ya existe un estilo coincidente en un documento de destino, el estilo de origen formatting se expande a atributos de nodo directo y el estilo de este nodo se restablece a su valor predeterminado.
 
@@ -22,7 +24,7 @@ Cuando esta opción está configurada en`verdadero`, el estilo de origen se copi
 
 Tenga en cuenta que en este caso no se garantiza que se conserve el formato del nodo importado en el documento de destino .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo copiar a la fuerza estilos de origen con nombres únicos.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(paras[2].ParagraphFormat.Style.Name, "MyStyle3");
 ### Ver también
 
 * class [ImportFormatOptions](../)
-* espacio de nombres [Aspose.Words](../../importformatoptions/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

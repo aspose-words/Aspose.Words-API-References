@@ -1,7 +1,9 @@
 ---
-title: Enum ImageType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.ImageType enum. Specifica il tipo formato di unimmagine in un documento Microsoft Word.
+title: ImageType Enum
+linktitle: ImageType
+articleTitle: ImageType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.ImageType enum. Specifica il tipo formato di unimmagine in un documento Microsoft Word in C#.
 type: docs
 weight: 1080
 url: /it/net/aspose.words.drawing/imagetype/
@@ -28,7 +30,7 @@ public enum ImageType
 | Bmp | `7` | Bitmap di Windows. |
 | Eps | `8` | PostScript incapsulato. |
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un'immagine a una forma e controllarne il tipo.
 
@@ -53,5 +55,3 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 * property [ImageType](../imagedata/imagetype/)
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

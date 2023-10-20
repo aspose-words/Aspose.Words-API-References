@@ -1,7 +1,9 @@
 ---
 title: Range.UpdateFields
-second_title: Aspose.Words for .NET API 参考
-description: Range 方法. 更新此范围内文档字段的值
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: 用于 .NET 的 Aspose.Words
+description: Range UpdateFields 方法. 更新此范围内文档字段的值 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words/range/updatefields/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/range/updatefields/
 public void UpdateFields()
 ```
 
-### 评论
+## 评论
 
 当您打开、修改然后保存文档时，Aspose.Words 不会自动更新字段，而是保持它们不变。 因此，如果您以编程方式修改了文档 并希望确保在保存之前调用此方法，则通常需要调用此方法正确的（计算出的）字段值出现在保存的文档中。
 
@@ -26,7 +28,7 @@ public void UpdateFields()
 
 要更新整个文档中的字段，请使用[`UpdateFields`](../../document/updatefields/)。
 
-### 例子
+## 例子
 
 展示如何更新某个范围内的所有字段。
 
@@ -55,7 +57,5 @@ Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 ### 也可以看看
 
 * class [Range](../)
-* 命名空间 [Aspose.Words](../../range/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

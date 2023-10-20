@@ -1,7 +1,9 @@
 ---
 title: FieldNextIf.RightExpression
-second_title: Aspose.Words for .NET API 参考
-description: FieldNextIf 财产. 获取或设置比较表达式的右侧部分
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldNextIf RightExpression 财产. 获取或设置比较表达式的右侧部分 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldnextif/rightexpression/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldnextif/rightexpression/
 public string RightExpression { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在邮件合并期间使用 NEXT/NEXTIF 字段将多行合并到一页中。
 
@@ -96,7 +98,5 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 ### 也可以看看
 
 * class [FieldNextIf](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldnextif/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

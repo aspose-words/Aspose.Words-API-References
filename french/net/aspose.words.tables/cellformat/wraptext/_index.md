@@ -1,9 +1,11 @@
 ---
 title: CellFormat.WrapText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CellFormat propriété. Sivrai  enveloppe le texte de la cellule.
+linktitle: WrapText
+articleTitle: WrapText
+second_title: Aspose.Words pour .NET
+description: CellFormat WrapText propriété. Sivrai  enveloppe le texte de la cellule en C#.
 type: docs
-weight: 150
+weight: 140
 url: /fr/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
@@ -14,7 +16,7 @@ Si`vrai` , enveloppe le texte de la cellule.
 public bool WrapText { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un tableau avec des bordures personnalisées.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Voir également
 
 * class [CellFormat](../)
-* espace de noms [Aspose.Words.Tables](../../cellformat/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

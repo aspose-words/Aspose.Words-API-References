@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Clear
-second_title: Aspose.Words för .NET API Referens
-description: DropDownItemCollection metod. Tar bort alla element från samlingen.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: DropDownItemCollection Clear metod. Tar bort alla element från samlingen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/dropdownitemcollection/clear/
@@ -14,7 +16,7 @@ Tar bort alla element från samlingen.
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett kombinationsrutafält och redigerar elementen i dess objektsamling.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### Se även
 
 * class [DropDownItemCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../dropdownitemcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

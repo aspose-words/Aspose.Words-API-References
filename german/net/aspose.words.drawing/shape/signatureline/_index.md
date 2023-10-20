@@ -1,7 +1,9 @@
 ---
 title: Shape.SignatureLine
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Ruft abSignatureLine Objekt wenn die Form eine Signaturlinie ist. Kehrt zurückNull sonst.
+linktitle: SignatureLine
+articleTitle: SignatureLine
+second_title: Aspose.Words für .NET
+description: Shape SignatureLine eigendom. Ruft abSignatureLine Objekt wenn die Form eine Signaturlinie ist. Kehrt zurückNull sonst in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.drawing/shape/signatureline/
@@ -14,11 +16,11 @@ Ruft ab[`SignatureLine`](../../signatureline/) Objekt, wenn die Form eine Signat
 public SignatureLine SignatureLine { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Sie können neue einfügen[`SignatureLine`](../../signatureline/) in das Dokument einfügen[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) and
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Zeile für eine Signatur erstellt und in ein Dokument eingefügt wird.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 
 * class [SignatureLine](../../signatureline/)
 * class [Shape](../)
-* namensraum [Aspose.Words.Drawing](../../shape/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.Outline
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 如果字体格式为轮廓则为 True
+linktitle: Outline
+articleTitle: Outline
+second_title: 用于 .NET 的 Aspose.Words
+description: Font Outline 财产. 如果字体格式为轮廓则为 True 在 C#.
 type: docs
 weight: 290
 url: /zh/net/aspose.words/font/outline/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/outline/
 public bool Outline { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建一系列格式化为轮廓的文本。
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "Font.Outline.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

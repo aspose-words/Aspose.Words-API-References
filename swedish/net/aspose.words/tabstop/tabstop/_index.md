@@ -1,12 +1,14 @@
 ---
-title: TabStop.TabStop
-second_title: Aspose.Words för .NET API Referens
-description: TabStop byggare. Initierar en ny instans av den här klassen.
+title: TabStop
+linktitle: TabStop
+articleTitle: TabStop
+second_title: Aspose.Words för .NET
+description: TabStop byggare. Initierar en ny instans av den här klassen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/tabstop/tabstop/
 ---
-## TabStop(double) {#constructor}
+## TabStop(*double*) {#constructor}
 
 Initierar en ny instans av den här klassen.
 
@@ -14,7 +16,7 @@ Initierar en ny instans av den här klassen.
 public TabStop(double position)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av tabbstopp.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Se även
 
 * class [TabStop](../)
-* namnutrymme [Aspose.Words](../../tabstop/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## TabStop(double, TabAlignment, TabLeader) {#constructor_1}
+## TabStop(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#constructor_1}
 
 Initierar en ny instans av den här klassen.
 
@@ -77,7 +79,7 @@ public TabStop(double position, TabAlignment alignment, TabLeader leader)
 | alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/) värde that anger justeringen av text vid detta tabbstopp. |
 | leader | TabLeader | A[`TabLeader`](../../tableader/) värde som anger typen av ledarraden som visas under tabbtecknet. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av tabbstopp.
 
@@ -123,7 +125,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 * enum [TabAlignment](../../tabalignment/)
 * enum [TabLeader](../../tableader/)
 * class [TabStop](../)
-* namnutrymme [Aspose.Words](../../tabstop/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CommentCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: CommentCollection ملكية. يسترد أComment في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: CommentCollection Item ملكية. يسترد أComment في الفهرس المحدد في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/commentcollection/item/
@@ -18,7 +20,7 @@ public Comment this[int index] { get; }
 | --- | --- |
 | index | فهرس في المجموعة. |
 
-### ملاحظات
+## ملاحظات
 
 المؤشر قائم على الصفر.
 
@@ -28,7 +30,7 @@ public Comment this[int index] { get; }
 
 إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة ردود التعليقات.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 
 * class [Comment](../../comment/)
 * class [CommentCollection](../)
-* مساحة الاسم [Aspose.Words](../../commentcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

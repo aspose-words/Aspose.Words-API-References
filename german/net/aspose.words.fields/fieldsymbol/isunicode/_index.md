@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.IsUnicode
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSymbol eigendom. Ruft ab oder legt fest ob der Zeichencode als Wert eines UnicodeZeichens interpretiert wird.
+linktitle: IsUnicode
+articleTitle: IsUnicode
+second_title: Aspose.Words für .NET
+description: FieldSymbol IsUnicode eigendom. Ruft ab oder legt fest ob der Zeichencode als Wert eines UnicodeZeichens interpretiert wird in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/fieldsymbol/isunicode/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob der Zeichencode als Wert eines Unicode-Zeichens inter
 public bool IsUnicode { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das SYMBOL-Feld verwendet wird.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Siehe auch
 
 * class [FieldSymbol](../)
-* namensraum [Aspose.Words.Fields](../../fieldsymbol/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

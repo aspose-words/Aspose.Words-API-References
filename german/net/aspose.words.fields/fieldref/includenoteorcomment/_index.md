@@ -1,7 +1,9 @@
 ---
 title: FieldRef.IncludeNoteOrComment
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldRef eigendom. Ruft ab oder legt fest ob Fußnoten Endnoten und Anmerkungsnummern erhöht werden sollen die durch das Lesezeichen markiert sind und der entsprechende Fußnoten Endnoten und Kommentartext eingefügt werden soll.
+linktitle: IncludeNoteOrComment
+articleTitle: IncludeNoteOrComment
+second_title: Aspose.Words für .NET
+description: FieldRef IncludeNoteOrComment eigendom. Ruft ab oder legt fest ob Fußnoten Endnoten und Anmerkungsnummern erhöht werden sollen die durch das Lesezeichen markiert sind und der entsprechende Fußnoten Endnoten und Kommentartext eingefügt werden soll in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldref/includenoteorcomment/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob Fußnoten-, Endnoten- und Anmerkungsnummern erhöht w
 public bool IncludeNoteOrComment { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie REF-Felder zum Referenzieren von Lesezeichen eingefügt werden.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Siehe auch
 
 * class [FieldRef](../)
-* namensraum [Aspose.Words.Fields](../../fieldref/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

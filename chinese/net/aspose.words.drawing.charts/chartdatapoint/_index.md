@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataPoint
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartDataPoint 班级. 允许指定图表上单个数据点的格式
+title: ChartDataPoint Class
+linktitle: ChartDataPoint
+articleTitle: ChartDataPoint
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartDataPoint 班级. 允许指定图表上单个数据点的格式 在 C#.
 type: docs
 weight: 690
 url: /zh/net/aspose.words.drawing.charts/chartdatapoint/
@@ -33,11 +35,11 @@ public class ChartDataPoint : IChartDataPoint
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat/)() | 清除该数据点的格式。属性设置为父系列中定义的默认值。 |
 
-### 评论
+## 评论
 
 在一个系列中，`ChartDataPoint`对象是一个成员[`ChartDataPointCollection`](../chartdatapointcollection/)。 的[`ChartDataPointCollection`](../chartdatapointcollection/)包含一个`ChartDataPoint`每个点的对象。
 
-### 例子
+## 例子
 
 展示如何使用折线图上的数据点。
 
@@ -101,5 +103,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 * interface [IChartDataPoint](../ichartdatapoint/)
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

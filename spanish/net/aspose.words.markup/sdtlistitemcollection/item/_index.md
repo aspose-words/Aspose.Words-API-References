@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: SdtListItemCollection propiedad. Devuelve unSdtListItem objeto dado su índice de base cero en la colección.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: SdtListItemCollection Item propiedad. Devuelve unSdtListItem objeto dado su índice de base cero en la colección en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.markup/sdtlistitemcollection/item/
@@ -14,7 +16,7 @@ Devuelve un[`SdtListItem`](../../sdtlistitem/) objeto dado su índice de base ce
 public SdtListItem this[int index] { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con etiquetas de documentos estructurados de lista desplegable.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

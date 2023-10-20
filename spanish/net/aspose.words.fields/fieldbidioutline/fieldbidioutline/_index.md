@@ -1,7 +1,9 @@
 ---
-title: FieldBidiOutline.FieldBidiOutline
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldBidiOutline constructor. Constructor predeterminado
+title: FieldBidiOutline
+linktitle: FieldBidiOutline
+articleTitle: FieldBidiOutline
+second_title: Aspose.Words para .NET
+description: FieldBidiOutline constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldbidioutline/fieldbidioutline/
@@ -17,7 +19,5 @@ public FieldBidiOutline()
 ### Ver también
 
 * class [FieldBidiOutline](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldbidioutline/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

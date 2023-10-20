@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.RemoveAt
-second_title: Referencia de API de Aspose.Words para .NET
-description: BookmarksOutlineLevelCollection método. Elimina un marcador en el índice especificado.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words para .NET
+description: BookmarksOutlineLevelCollection RemoveAt método. Elimina un marcador en el índice especificado en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.saving/bookmarksoutlinelevelcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | El índice de base cero. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer niveles de contorno para marcadores.
 
@@ -76,7 +78,5 @@ outlineLevels.Clear();
 ### Ver también
 
 * class [BookmarksOutlineLevelCollection](../)
-* espacio de nombres [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

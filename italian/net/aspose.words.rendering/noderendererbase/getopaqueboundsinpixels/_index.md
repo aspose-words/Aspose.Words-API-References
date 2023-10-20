@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetOpaqueBoundsInPixels
-second_title: Aspose.Words per .NET API Reference
-description: NodeRendererBase metodo. Calcola i limiti opachi della forma in pixel per un fattore di zoom e una risoluzione specificati.
+linktitle: GetOpaqueBoundsInPixels
+articleTitle: GetOpaqueBoundsInPixels
+second_title: Aspose.Words per .NET
+description: NodeRendererBase GetOpaqueBoundsInPixels metodo. Calcola i limiti opachi della forma in pixel per un fattore di zoom e una risoluzione specificati in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/
 ---
-## GetOpaqueBoundsInPixels(float, float) {#getopaqueboundsinpixels}
+## GetOpaqueBoundsInPixels(*float, float*) {#getopaqueboundsinpixels}
 
 Calcola i limiti opachi della forma in pixel per un fattore di zoom e una risoluzione specificati.
 
@@ -23,11 +25,11 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float dpi)
 
 Il rettangolo opaco della forma in pixel.
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo converte[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) nel rettangolo in pixel ed è utile quando vuoi creare una bitmap per il rendering della forma con solo la parte opaca della forma.
 
-### Esempi
+## Esempi
 
 Mostra come misurare e ridimensionare le forme.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### Guarda anche
 
 * class [NodeRendererBase](../)
-* spazio dei nomi [Aspose.Words.Rendering](../../noderendererbase/)
+* spazio dei nomi [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## GetOpaqueBoundsInPixels(float, float, float) {#getopaqueboundsinpixels_1}
+## GetOpaqueBoundsInPixels(*float, float, float*) {#getopaqueboundsinpixels_1}
 
 Calcola i limiti opachi della forma in pixel per un fattore di zoom e una risoluzione specificati.
 
@@ -97,11 +99,11 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float horizontalDpi, float
 
 Il rettangolo opaco della forma in pixel.
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo converte[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) nel rettangolo in pixel ed è utile quando vuoi creare una bitmap per il rendering della forma con solo la parte opaca della forma.
 
-### Esempi
+## Esempi
 
 Mostra come misurare e ridimensionare le forme.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Guarda anche
 
 * class [NodeRendererBase](../)
-* spazio dei nomi [Aspose.Words.Rendering](../../noderendererbase/)
+* spazio dei nomi [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assemblea [Aspose.Words](../../../)
-
-

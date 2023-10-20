@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Title
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Hämtar eller ställer in titeln bildtexten för det aktuella formobjektet.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words för .NET
+description: ShapeBase Title fast egendom. Hämtar eller ställer in titeln bildtexten för det aktuella formobjektet i C#.
 type: docs
 weight: 530
 url: /sv/net/aspose.words.drawing/shapebase/title/
@@ -14,13 +16,13 @@ Hämtar eller ställer in titeln (bildtexten) för det aktuella formobjektet.
 public string Title { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standard är tom sträng.
 
 Kan inte vara`null`, men kan vara en tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in titeln på en form.
 
@@ -50,7 +52,5 @@ Assert.AreEqual("Title: My cube", shape.AlternativeText);
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

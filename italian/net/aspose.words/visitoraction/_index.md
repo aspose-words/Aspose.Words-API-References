@@ -1,7 +1,9 @@
 ---
-title: Enum VisitorAction
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.VisitorAction enum. Permette al visitatore di controllare lenumerazione dei nodi.
+title: VisitorAction Enum
+linktitle: VisitorAction
+articleTitle: VisitorAction
+second_title: Aspose.Words per .NET
+description: Aspose.Words.VisitorAction enum. Permette al visitatore di controllare lenumerazione dei nodi in C#.
 type: docs
 weight: 6620
 url: /it/net/aspose.words/visitoraction/
@@ -26,5 +28,3 @@ public enum VisitorAction
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

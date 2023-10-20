@@ -1,7 +1,9 @@
 ---
-title: Enum FootnoteNumberingRule
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Notes.FootnoteNumberingRule Sıralama. Otomatik dipnot veya sonnot numaralandırmanın ne zaman yeniden başlayacağını belirler.
+title: FootnoteNumberingRule Enum
+linktitle: FootnoteNumberingRule
+articleTitle: FootnoteNumberingRule
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Notes.FootnoteNumberingRule Sıralama. Otomatik dipnot veya sonnot numaralandırmanın ne zaman yeniden başlayacağını belirler C#'da.
 type: docs
 weight: 4270
 url: /tr/net/aspose.words.notes/footnotenumberingrule/
@@ -23,7 +25,7 @@ public enum FootnoteNumberingRule
 | RestartPage | `2` | Numaralandırma her sayfada yeniden başlar. Yalnızca dipnotlar için geçerlidir. |
 | Default | `0` | EşittirContinuous . |
 
-### Örnekler
+## Örnekler
 
 Belgenin belirli yerlerinde dipnot/sonnot numaralandırmasının nasıl yeniden başlatılacağını gösterir.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * class [EndnoteOptions](../endnoteoptions/)
 * ad alanı [Aspose.Words.Notes](../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../)
-
-

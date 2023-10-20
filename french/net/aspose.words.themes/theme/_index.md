@@ -1,7 +1,9 @@
 ---
-title: Class Theme
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Themes.Theme classe. Représente le thème du document et donne accès aux principales parties du thème notammentMajorFonts MinorFonts etColors
+title: Theme Class
+linktitle: Theme
+articleTitle: Theme
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Themes.Theme classe. Représente le thème du document et donne accès aux principales parties du thème notammentMajorFonts MinorFonts etColors en C#.
 type: docs
 weight: 6460
 url: /fr/net/aspose.words.themes/theme/
@@ -30,7 +32,7 @@ public class Theme
 | [MajorFonts](../../aspose.words.themes/theme/majorfonts/) { get; } | Permet de spécifier l'ensemble des polices principales pour différentes langues. |
 | [MinorFonts](../../aspose.words.themes/theme/minorfonts/) { get; } | Permet de spécifier l'ensemble des polices mineures pour différentes langues. |
 
-### Exemples
+## Exemples
 
 Montre comment définir des couleurs et des polices personnalisées pour les thèmes.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * espace de noms [Aspose.Words.Themes](../../aspose.words.themes/)
 * Assemblée [Aspose.Words](../../)
-
-

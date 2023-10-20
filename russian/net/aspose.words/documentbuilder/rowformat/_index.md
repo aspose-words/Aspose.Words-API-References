@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.RowFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Возвращает объект который представляет свойства форматирования текущей строки таблицы.
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words для .NET
+description: DocumentBuilder RowFormat свойство. Возвращает объект который представляет свойства форматирования текущей строки таблицы на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words/documentbuilder/rowformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/documentbuilder/rowformat/
 public RowFormat RowFormat { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать строки с помощью построителя документов.
 
@@ -154,7 +156,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [RowFormat](../../../aspose.words.tables/rowformat/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

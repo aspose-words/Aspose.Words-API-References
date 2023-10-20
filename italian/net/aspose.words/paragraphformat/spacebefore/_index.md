@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceBefore
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Ottiene o imposta la quantità di spaziatura in punti prima del paragrafo.
+linktitle: SpaceBefore
+articleTitle: SpaceBefore
+second_title: Aspose.Words per .NET
+description: ParagraphFormat SpaceBefore proprietà. Ottiene o imposta la quantità di spaziatura in punti prima del paragrafo in C#.
 type: docs
 weight: 320
 url: /it/net/aspose.words/paragraphformat/spacebefore/
@@ -20,13 +22,13 @@ public double SpaceBefore { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Viene generato quando l'argomento non rientra nell'intervallo di valori validi. |
 
-### Osservazioni
+## Osservazioni
 
 Non ha alcun effetto quando[`SpaceBeforeAuto`](../spacebeforeauto/) È`VERO`.
 
 I valori validi vanno da 0 a 1584 inclusi.
 
-### Esempi
+## Esempi
 
 Mostra come impostare la spaziatura automatica dei paragrafi.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

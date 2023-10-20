@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToStructuredDocumentTag
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Déplace le curseur vers une balise de document structuré dans la section actuelle.
+linktitle: MoveToStructuredDocumentTag
+articleTitle: MoveToStructuredDocumentTag
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder MoveToStructuredDocumentTag méthode. Déplace le curseur vers une balise de document structuré dans la section actuelle en C#.
 type: docs
-weight: 590
+weight: 580
 url: /fr/net/aspose.words/documentbuilder/movetostructureddocumenttag/
 ---
-## MoveToStructuredDocumentTag(int, int) {#movetostructureddocumenttag_1}
+## MoveToStructuredDocumentTag(*int, int*) {#movetostructureddocumenttag_1}
 
 Déplace le curseur vers une balise de document structuré dans la section actuelle.
 
@@ -19,13 +21,13 @@ public void MoveToStructuredDocumentTag(int structuredDocumentTagIndex, int char
 | structuredDocumentTagIndex | Int32 | L'index de la balise du document structuré vers laquelle se déplacer. |
 | characterIndex | Int32 | L'index du caractère à l'intérieur de la balise du document structuré. Une valeur négative permet de spécifier une position à partir de la fin de la balise du document structuré. Utilisez -1 pour déplacer vers la fin de la balise du document structuré. Si la balise du document structuré est au niveau du bloc et que vous souhaitez déplacer le curseur à la fin de son dernier paragraphe, précisez -2. |
 
-### Remarques
+## Remarques
 
 La navigation s'effectue à l'intérieur de l'histoire en cours de la section en cours. Autrement dit, si vous avez déplacé le curseur vers l'en-tête principal de la première section, alors*structuredDocumentTagIndex* a spécifié l'index de la balise du document structuré à l'intérieur de cet en-tête de cette section.
 
 Quand*structuredDocumentTagIndex* est supérieur ou égal à 0, il spécifie un index dès le début de la section, 0 étant la première balise du document structuré. Quand *structuredDocumentTagIndex* est inférieur à 0, il a spécifié un index à partir de la fin de la section , -1 étant la dernière balise du document structuré.
 
-### Exemples
+## Exemples
 
 Montre comment déplacer le curseur de DocumentBuilder à l'intérieur d'une balise de document structuré.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 ### Voir également
 
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## MoveToStructuredDocumentTag(StructuredDocumentTag, int) {#movetostructureddocumenttag}
+## MoveToStructuredDocumentTag(*[StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/), int*) {#movetostructureddocumenttag}
 
 Déplace le curseur vers la balise du document structuré.
 
@@ -76,7 +78,7 @@ public void MoveToStructuredDocumentTag(StructuredDocumentTag structuredDocument
 | structuredDocumentTag | StructuredDocumentTag | Balise du document structuré vers laquelle se déplacer. |
 | characterIndex | Int32 | L'index du caractère à l'intérieur de la balise du document structuré. Une valeur négative permet de spécifier une position à partir de la fin de la balise du document structuré. Utilisez -1 pour déplacer vers la fin de la balise du document structuré. Si la balise du document structuré est au niveau du bloc et que vous souhaitez déplacer le curseur à la fin de son dernier paragraphe, précisez -2. |
 
-### Exemples
+## Exemples
 
 Montre comment déplacer le curseur de DocumentBuilder à l'intérieur d'une balise de document structuré.
 
@@ -109,7 +111,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Shape.Accept
-second_title: Aspose.Words per .NET API Reference
-description: Shape metodo. Accetta un visitatore.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words per .NET
+description: Shape Accept metodo. Accetta un visitatore in C#.
 type: docs
 weight: 240
 url: /it/net/aspose.words.drawing/shape/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../../aspose.words/documentvisitor/) ha interrotto l'operazione prima di visitare tutti i nodi.
 
-### Osservazioni
+## Osservazioni
 
 Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ Per maggiori informazioni vedere il modello di progettazione Visitor.
 
 Chiamate[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) , poi chiama[`Accept`](../../../aspose.words/node/accept/) per tutti i nodi figlio della forma e delle chiamate[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) alla fine.
 
-### Esempi
+## Esempi
 
 Mostra come scorrere tutte le forme in un documento.
 
@@ -154,7 +156,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Shape](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shape/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

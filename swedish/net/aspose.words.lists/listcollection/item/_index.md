@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: ListCollection fast egendom. Hämtar en lista efter index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: ListCollection Item fast egendom. Hämtar en lista efter index i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.lists/listcollection/item/
@@ -14,7 +16,7 @@ Hämtar en lista efter index.
 public List this[int index] { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man verifierar ägardokumentegenskaper för listor.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* namnutrymme [Aspose.Words.Lists](../../listcollection/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

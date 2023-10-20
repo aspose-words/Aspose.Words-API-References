@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontNameSubstitution
-second_title: Aspose.Words för .NET API Referens
-description: FontSubstitutionSettings fast egendom. Inställningar relaterade till regel för teckensnittsnamnsersättning.
+linktitle: FontNameSubstitution
+articleTitle: FontNameSubstitution
+second_title: Aspose.Words för .NET
+description: FontSubstitutionSettings FontNameSubstitution fast egendom. Inställningar relaterade till regel för teckensnittsnamnsersättning i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/
@@ -18,7 +20,5 @@ public FontNameSubstitutionRule FontNameSubstitution { get; }
 
 * class [FontNameSubstitutionRule](../../fontnamesubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

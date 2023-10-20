@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: FormFieldCollection метод. Возвращает объект перечислителя.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: FormFieldCollection GetEnumerator метод. Возвращает объект перечислителя на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/formfieldcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/formfieldcollection/getenumerator/
 public IEnumerator<FormField> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormField](../../formfield/)
 * class [FormFieldCollection](../)
-* пространство имен [Aspose.Words.Fields](../../formfieldcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

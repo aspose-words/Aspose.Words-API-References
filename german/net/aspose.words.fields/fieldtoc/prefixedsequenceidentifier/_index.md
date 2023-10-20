@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PrefixedSequenceIdentifier
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToc eigendom. Ruft die Kennung einer Sequenz ab für die der Seitenzahl des Eintrags ein Präfix hinzugefügt werden soll oder legt diese fest.
+linktitle: PrefixedSequenceIdentifier
+articleTitle: PrefixedSequenceIdentifier
+second_title: Aspose.Words für .NET
+description: FieldToc PrefixedSequenceIdentifier eigendom. Ruft die Kennung einer Sequenz ab für die der Seitenzahl des Eintrags ein Präfix hinzugefügt werden soll oder legt diese fest in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.fields/fieldtoc/prefixedsequenceidentifier/
@@ -14,7 +16,7 @@ Ruft die Kennung einer Sequenz ab, für die der Seitenzahl des Eintrags ein Prä
 public string PrefixedSequenceIdentifier { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein TOC-Feld mithilfe von SEQ-Feldern mit Einträgen gefüllt wird.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Siehe auch
 
 * class [FieldToc](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

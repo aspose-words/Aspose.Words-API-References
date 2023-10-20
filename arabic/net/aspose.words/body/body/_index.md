@@ -1,7 +1,9 @@
 ---
-title: Body.Body
-second_title: Aspose.Words لمراجع .NET API
-description: Body البناء. تهيئة مثيل جديد لـBody فئة.
+title: Body
+linktitle: Body
+articleTitle: Body
+second_title: Aspose.Words لـ .NET
+description: Body البناء. تهيئة مثيل جديد لـBody فئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/body/body/
@@ -18,13 +20,13 @@ public Body(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | وثيقة المالك. |
 
-### ملاحظات
+## ملاحظات
 
 متى[`Body`](../) تم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس بعد جزءًا من المستند و[`ParentNode`](../../node/parentnode/) يكون`باطل`.
 
-لإلحاق[`Body`](../)إلى أ[`Section`](../../section/) يستخدمإلحاق الطفلأدخل بعد أوأدخل قبل طُرق.
+لإلحاق[`Body`](../)إلى أ[`Section`](../../section/) يستخدم[`إلحاق الطفل`](../../compositenode/appendchild/)[`أدخل بعد`](../../compositenode/insertafter/) أو[`أدخل قبل`](../../compositenode/insertbefore/) طُرق.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند Aspose.Words يدويًا.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Body](../)
-* مساحة الاسم [Aspose.Words](../../body/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

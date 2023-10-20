@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: CustomPartCollection yöntem. Koleksiyondaki tüm öğeleri kaldırır.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: CustomPartCollection Clear yöntem. Koleksiyondaki tüm öğeleri kaldırır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.markup/custompartcollection/clear/
@@ -14,7 +16,7 @@ Koleksiyondaki tüm öğeleri kaldırır.
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Ayrıca bakınız
 
 * class [CustomPartCollection](../)
-* ad alanı [Aspose.Words.Markup](../../custompartcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

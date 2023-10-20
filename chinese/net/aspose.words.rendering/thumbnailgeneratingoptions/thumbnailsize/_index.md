@@ -1,7 +1,9 @@
 ---
 title: ThumbnailGeneratingOptions.ThumbnailSize
-second_title: Aspose.Words for .NET API 参考
-description: ThumbnailGeneratingOptions 财产. 生成的缩略图的大小以像素为单位 默认值为 600x900
+linktitle: ThumbnailSize
+articleTitle: ThumbnailSize
+second_title: 用于 .NET 的 Aspose.Words
+description: ThumbnailGeneratingOptions ThumbnailSize 财产. 生成的缩略图的大小以像素为单位 默认值为 600x900 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/
 public Size ThumbnailSize { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何更新文档的缩略图。
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### 也可以看看
 
 * class [ThumbnailGeneratingOptions](../)
-* 命名空间 [Aspose.Words.Rendering](../../thumbnailgeneratingoptions/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

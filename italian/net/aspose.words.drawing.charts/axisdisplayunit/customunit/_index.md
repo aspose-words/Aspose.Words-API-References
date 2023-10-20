@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.CustomUnit
-second_title: Aspose.Words per .NET API Reference
-description: AxisDisplayUnit proprietà. Ottiene o imposta un divisore definito dallutente per scalare le unità di visualizzazione sullasse dei valori.
+linktitle: CustomUnit
+articleTitle: CustomUnit
+second_title: Aspose.Words per .NET
+description: AxisDisplayUnit CustomUnit proprietà. Ottiene o imposta un divisore definito dallutente per scalare le unità di visualizzazione sullasse dei valori in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing.charts/axisdisplayunit/customunit/
@@ -14,13 +16,13 @@ Ottiene o imposta un divisore definito dall'utente per scalare le unità di visu
 public double CustomUnit { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La proprietà non è supportata dai nuovi grafici di MS Office 2016. Il valore predefinito è 1.
 
 L'impostazione di questa proprietà imposta il file[`Unit`](../unit/) proprietà su Custom.
 
-### Esempi
+## Esempi
 
 Mostra come manipolare i segni di graduazione e i valori visualizzati di un asse del grafico.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Guarda anche
 
 * class [AxisDisplayUnit](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

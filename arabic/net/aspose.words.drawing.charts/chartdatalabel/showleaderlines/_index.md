@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowLeaderLines
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabel ملكية. يسمح بتحديد ما إذا كانت هناك حاجة إلى إظهار الخطوط الرئيسية لتسمية البيانات. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ShowLeaderLines
+articleTitle: ShowLeaderLines
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabel ShowLeaderLines ملكية. يسمح بتحديد ما إذا كانت هناك حاجة إلى إظهار الخطوط الرئيسية لتسمية البيانات. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
 public bool ShowLeaderLines { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 ينطبق على المخططات الدائرية فقط. تُنشئ الخطوط الرئيسية اتصالاً مرئيًا بين تسمية البيانات ونقطة البيانات المقابلة لها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -96,7 +98,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### أنظر أيضا
 
 * class [ChartDataLabel](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

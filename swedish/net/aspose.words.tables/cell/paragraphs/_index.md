@@ -1,7 +1,9 @@
 ---
 title: Cell.Paragraphs
-second_title: Aspose.Words för .NET API Referens
-description: Cell fast egendom. Får en samling stycken som är omedelbara barn till cellen.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words för .NET
+description: Cell Paragraphs fast egendom. Får en samling stycken som är omedelbara barn till cellen i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.tables/cell/paragraphs/
@@ -14,7 +16,7 @@ Får en samling stycken som är omedelbara barn till cellen.
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in ett bord för att hålla ihop på samma sida.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [ParagraphCollection](../../../aspose.words/paragraphcollection/)
 * class [Cell](../)
-* namnutrymme [Aspose.Words.Tables](../../cell/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.OriginalFileName
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Obtiene el nombre de archivo original del documento.
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: Aspose.Words para .NET
+description: Document OriginalFileName propiedad. Obtiene el nombre de archivo original del documento en C#.
 type: docs
 weight: 290
 url: /es/net/aspose.words/document/originalfilename/
@@ -14,11 +16,11 @@ Obtiene el nombre de archivo original del documento.
 public string OriginalFileName { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Devoluciones`nulo` si el documento se cargó desde una secuencia o se creó en blanco.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recuperar detalles de la operación de carga de un documento.
 
@@ -60,7 +62,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

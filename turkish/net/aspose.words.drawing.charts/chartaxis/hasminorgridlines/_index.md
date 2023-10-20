@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.HasMinorGridlines
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Eksenin ikincil kılavuz çizgileri olup olmadığını belirten bir bayrak alır veya ayarlar.
+linktitle: HasMinorGridlines
+articleTitle: HasMinorGridlines
+second_title: Aspose.Words for .NET
+description: ChartAxis HasMinorGridlines mülk. Eksenin ikincil kılavuz çizgileri olup olmadığını belirten bir bayrak alır veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.drawing.charts/chartaxis/hasminorgridlines/
@@ -14,7 +16,7 @@ Eksenin ikincil kılavuz çizgileri olup olmadığını belirten bir bayrak alı
 public bool HasMinorGridlines { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tarih/saat değerleriyle grafiğin nasıl ekleneceğini gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Ayrıca bakınız
 
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

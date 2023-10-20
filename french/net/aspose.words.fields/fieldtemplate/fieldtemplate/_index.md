@@ -1,7 +1,9 @@
 ---
-title: FieldTemplate.FieldTemplate
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldTemplate constructeur. Default_Constructor
+title: FieldTemplate
+linktitle: FieldTemplate
+articleTitle: FieldTemplate
+second_title: Aspose.Words pour .NET
+description: FieldTemplate constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldtemplate/fieldtemplate/
@@ -17,7 +19,5 @@ public FieldTemplate()
 ### Voir également
 
 * class [FieldTemplate](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtemplate/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Text
-second_title: Aspose.Words for .NET API 参考
-description: ChartTitle 财产. 获取或设置图表标题的文本 如果无效的或指定空值将显示自动生成的标题
+linktitle: Text
+articleTitle: Text
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartTitle Text 财产. 获取或设置图表标题的文本 如果无效的或指定空值将显示自动生成的标题 在 C#.
 type: docs
-weight: 40
+weight: 30
 url: /zh/net/aspose.words.drawing.charts/charttitle/text/
 ---
 ## ChartTitle.Text property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/charttitle/text/
 public string Text { get; set; }
 ```
 
-### 评论
+## 评论
 
 使用[`Show`](../show/)如果您需要隐藏标题，请选择。
 
-### 例子
+## 例子
 
 演示如何插入图表并设置标题。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### 也可以看看
 
 * class [ChartTitle](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../charttitle/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

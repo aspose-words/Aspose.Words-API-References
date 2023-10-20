@@ -1,7 +1,9 @@
 ---
-title: Class CustomPart
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Markup.CustomPart klas. Stellt einen benutzerdefinierten Teil beliebiger Inhalt dar der nicht durch den ISO/IEC 29500Standard definiert ist.
+title: CustomPart Class
+linktitle: CustomPart
+articleTitle: CustomPart
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Markup.CustomPart klas. Stellt einen benutzerdefinierten Teil beliebiger Inhalt dar der nicht durch den ISO/IEC 29500Standard definiert ist in C#.
 type: docs
 weight: 3900
 url: /de/net/aspose.words.markup/custompart/
@@ -38,7 +40,7 @@ public class CustomPart
 | --- | --- |
 | [Clone](../../aspose.words.markup/custompart/clone/)() | Erstellt eine ausreichend tiefe Kopie des Objekts. Dupliziert nicht die Bytes von[`Data`](./data/) value. |
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Klasse stellt einen OOXML-Teil dar, der ein Ziel einer „unbekannten Beziehung“ ist. Alle Beziehungen, die nicht in ISO/IEC 29500 definiert sind, gelten als „unbekannte Beziehungen“. Unbekannte Beziehungen sind innerhalb eines Office Open XML-Dokuments zulässig, sofern sie konform sind zu den Beziehungsmarkup-Richtlinien.
 
@@ -48,7 +50,7 @@ Aspose.Words führt auch Roundtrips benutzerdefinierter Teile durch und ermögli
 
 Verwechseln Sie benutzerdefinierte Teile nicht mit benutzerdefinierten XML-Daten. Verwenden[`CustomXmlPart`](../customxmlpart/) wenn Sie benötigen, um auf benutzerdefinierte XML-Daten zuzugreifen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die beliebige benutzerdefinierte Teilesammlung eines Dokuments zugegriffen wird.
 
@@ -93,5 +95,3 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * namensraum [Aspose.Words.Markup](../../aspose.words.markup/)
 * Montage [Aspose.Words](../../)
-
-

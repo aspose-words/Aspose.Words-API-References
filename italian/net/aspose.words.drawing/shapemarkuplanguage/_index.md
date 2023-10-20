@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeMarkupLanguage
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.ShapeMarkupLanguage enum. Specifica il linguaggio di markup utilizzato per la forma.
+title: ShapeMarkupLanguage Enum
+linktitle: ShapeMarkupLanguage
+articleTitle: ShapeMarkupLanguage
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.ShapeMarkupLanguage enum. Specifica il linguaggio di markup utilizzato per la forma in C#.
 type: docs
 weight: 1280
 url: /it/net/aspose.words.drawing/shapemarkuplanguage/
@@ -21,7 +23,7 @@ public enum ShapeMarkupLanguage : byte
 | Dml | `0` | Drawing Markup Language viene utilizzato per definire la forma. |
 | Vml | `1` | Vector Markup Language viene utilizzato per definire la forma. |
 
-### Esempi
+## Esempi
 
 Mostra come impostare una specifica di conformità OOXML a cui aderire un documento salvato.
 
@@ -57,5 +59,3 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

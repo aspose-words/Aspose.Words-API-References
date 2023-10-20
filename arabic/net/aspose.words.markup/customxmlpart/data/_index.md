@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Data
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPart ملكية. الحصول على محتوى XML الخاص بجزء تخزين بيانات XML المخصص هذا أو تعيينه.
+linktitle: Data
+articleTitle: Data
+second_title: Aspose.Words لـ .NET
+description: CustomXmlPart Data ملكية. الحصول على محتوى XML الخاص بجزء تخزين بيانات XML المخصص هذا أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.markup/customxmlpart/data/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.markup/customxmlpart/data/
 public byte[] Data { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي صفيف بايت فارغ. لا يمكن أن تكون القيمة`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة باستخدام بيانات XML المخصصة.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### أنظر أيضا
 
 * class [CustomXmlPart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SpaceForUL
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Ajoutez un espace supplémentaire sous la ligne de base pour le texte souligné dAsie de lEst.
+linktitle: SpaceForUL
+articleTitle: SpaceForUL
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions SpaceForUL propriété. Ajoutez un espace supplémentaire sous la ligne de base pour le texte souligné dAsie de lEst en C#.
 type: docs
 weight: 440
 url: /fr/net/aspose.words.settings/compatibilityoptions/spaceforul/
@@ -17,7 +19,5 @@ public bool SpaceForUL { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

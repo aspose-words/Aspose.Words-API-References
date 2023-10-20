@@ -1,12 +1,14 @@
 ---
 title: ChartSeries.Add
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeries yöntem. Belirtilen X değerini grafik serisine ekler. Seri Y değerlerini ve kabarcık boyutlarını destekliyorsa bunlar X değeri için boş olacaktır.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: ChartSeries Add yöntem. Belirtilen X değerini grafik serisine ekler. Seri Y değerlerini ve kabarcık boyutlarını destekliyorsa bunlar X değeri için boş olacaktır C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.drawing.charts/chartseries/add/
 ---
-## Add(ChartXValue) {#add}
+## Add(*[ChartXValue](../../chartxvalue/)*) {#add}
 
 Belirtilen X değerini grafik serisine ekler. Seri, Y değerlerini ve kabarcık boyutlarını destekliyorsa, bunlar X değeri için boş olacaktır.
 
@@ -18,12 +20,12 @@ public void Add(ChartXValue xValue)
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartSeries](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseries/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Add(ChartXValue, ChartYValue) {#add_1}
+## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/)*) {#add_1}
 
 Belirtilen X ve Y değerlerini grafik serisine ekler.
 
@@ -31,7 +33,7 @@ Belirtilen X ve Y değerlerini grafik serisine ekler.
 public void Add(ChartXValue xValue, ChartYValue yValue)
 ```
 
-### Örnekler
+## Örnekler
 
 Grafik veri değerlerinin nasıl ekleneceğini/kaldırılacağını gösterir.
 
@@ -94,12 +96,12 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseries/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Add(ChartXValue, ChartYValue, double) {#add_2}
+## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/), double*) {#add_2}
 
 Belirtilen X değerini, Y değerini ve kabarcık boyutunu grafik serisine ekler.
 
@@ -112,7 +114,5 @@ public void Add(ChartXValue xValue, ChartYValue yValue, double bubbleSize)
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseries/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

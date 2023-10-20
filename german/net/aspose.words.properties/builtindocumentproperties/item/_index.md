@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuiltInDocumentProperties eigendom. Gibt a zurückDocumentProperty Objekt mit dem Namen der Eigenschaft.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: BuiltInDocumentProperties Item eigendom. Gibt a zurückDocumentProperty Objekt mit dem Namen der Eigenschaft in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.properties/builtindocumentproperties/item/
@@ -18,7 +20,7 @@ public override DocumentProperty this[string name] { get; }
 | --- | --- |
 | name | Der Name der abzurufenden Eigenschaft ohne Berücksichtigung der Groß-/Kleinschreibung. |
 
-### Bemerkungen
+## Bemerkungen
 
 Die Zeichenfolgennamen der Eigenschaften entsprechen den Namen der typed -Eigenschaften, die unter verfügbar sind[`BuiltInDocumentProperties`](../).
 
@@ -26,7 +28,7 @@ Wenn Sie eine Eigenschaft anfordern, die nicht im Dokument vorhanden ist, der Na
 
 Wenn Sie eine Eigenschaft anfordern, die im Dokument nicht vorhanden ist und der Name nicht als integrierter Name erkannt wird, a`Null` ist zurück gekommen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit benutzerdefinierten Dokumenteigenschaften gearbeitet wird.
 
@@ -52,7 +54,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 * class [DocumentProperty](../../documentproperty/)
 * class [BuiltInDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

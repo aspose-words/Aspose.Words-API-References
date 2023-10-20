@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Text
-second_title: Aspose.Words لمراجع .NET API
-description: ChartTitle ملكية. الحصول على نص عنوان المخطط أو تعيينه. Ifباطل أو تم تحديد قيمة فارغة سيتم عرض العنوان الذي تم إنشاؤه تلقائيًا.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words لـ .NET
+description: ChartTitle Text ملكية. الحصول على نص عنوان المخطط أو تعيينه. Ifباطل أو تم تحديد قيمة فارغة سيتم عرض العنوان الذي تم إنشاؤه تلقائيًا في C#.
 type: docs
-weight: 40
+weight: 30
 url: /ar/net/aspose.words.drawing.charts/charttitle/text/
 ---
 ## ChartTitle.Text property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/charttitle/text/
 public string Text { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يستخدم[`Show`](../show/) الخيار إذا كنت بحاجة إلى إخفاء العنوان.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعيين عنوان.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### أنظر أيضا
 
 * class [ChartTitle](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../charttitle/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseSingleBorderforContiguousCells
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Använd förenklade regler för tabellgränskonflikter.
+linktitle: UseSingleBorderforContiguousCells
+articleTitle: UseSingleBorderforContiguousCells
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions UseSingleBorderforContiguousCells fast egendom. Använd förenklade regler för tabellgränskonflikter i C#.
 type: docs
 weight: 650
 url: /sv/net/aspose.words.settings/compatibilityoptions/usesingleborderforcontiguouscells/
@@ -17,7 +19,5 @@ public bool UseSingleBorderforContiguousCells { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.Result
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Ruft eine Zeichenfolge ab die das Ergebnis dieses Formularfelds darstellt oder legt diese fest.
+linktitle: Result
+articleTitle: Result
+second_title: Aspose.Words für .NET
+description: FormField Result eigendom. Ruft eine Zeichenfolge ab die das Ergebnis dieses Formularfelds darstellt oder legt diese fest in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words.fields/formfield/result/
@@ -14,7 +16,7 @@ Ruft eine Zeichenfolge ab, die das Ergebnis dieses Formularfelds darstellt, oder
 public string Result { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Bei einem Textformularfeld ist das Ergebnis der Text, der sich im Feld befindet.
 
@@ -26,7 +28,7 @@ Einstellung`Result` Für ein Textformularfeld gilt nicht das in angegebene Textf
 
 Für ein Textformularfeld das[`TextInputDefault`](../textinputdefault/) Wert wird angewendet wenn*value* Ist`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Kombinationsfeld eingefügt wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### Siehe auch
 
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

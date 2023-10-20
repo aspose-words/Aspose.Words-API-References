@@ -1,9 +1,11 @@
 ---
 title: Style.Styles
-second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Bu stilin ait olduğu stillerin koleksiyonunu getirir.
+linktitle: Styles
+articleTitle: Styles
+second_title: Aspose.Words for .NET
+description: Style Styles mülk. Bu stilin ait olduğu stillerin koleksiyonunu getirir C#'da.
 type: docs
-weight: 170
+weight: 160
 url: /tr/net/aspose.words/style/styles/
 ---
 ## Style.Styles property
@@ -14,7 +16,7 @@ Bu stilin ait olduğu stillerin koleksiyonunu getirir.
 public StyleCollection Styles { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin stil koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * class [StyleCollection](../../stylecollection/)
 * class [Style](../)
-* ad alanı [Aspose.Words](../../style/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

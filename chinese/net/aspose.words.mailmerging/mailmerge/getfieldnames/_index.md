@@ -1,7 +1,9 @@
 ---
 title: MailMerge.GetFieldNames
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 方法. 返回文档中可用的邮件合并字段名称的集合
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge GetFieldNames 方法. 返回文档中可用的邮件合并字段名称的集合 在 C#.
 type: docs
 weight: 220
 url: /zh/net/aspose.words.mailmerging/mailmerge/getfieldnames/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/mailmerge/getfieldnames/
 public string[] GetFieldNames()
 ```
 
-### 评论
+## 评论
 
 返回完整的合并字段名称，包括可选前缀。不消除重复的字段名称。
 
@@ -22,7 +24,7 @@ public string[] GetFieldNames()
 
 包含“mustache”字段名称，如果[`UseNonMergeFields`](../usenonmergefields/)是`真的`。
 
-### 例子
+## 例子
 
 演示如何获取文档中所有合并字段的名称。
 
@@ -58,7 +60,5 @@ doc.MailMerge.Execute(dataTable);
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

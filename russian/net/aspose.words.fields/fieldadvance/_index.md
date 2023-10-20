@@ -1,7 +1,9 @@
 ---
-title: Class FieldAdvance
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldAdvance сорт. Реализует поле ADVANCE.
+title: FieldAdvance Class
+linktitle: FieldAdvance
+articleTitle: FieldAdvance
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldAdvance сорт. Реализует поле ADVANCE на С#.
 type: docs
 weight: 1540
 url: /ru/net/aspose.words.fields/fieldadvance/
@@ -48,17 +50,17 @@ public class FieldAdvance : Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
-### Примечания
+## Примечания
 
 Перемещает начальную точку, в которой текст, лексически следующий за полем, отображается вправо или влево, вверх или вниз или в определенное горизонтальное или вертикальное положение.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле ADVANCE и отредактировать его свойства.
 
@@ -105,5 +107,3 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

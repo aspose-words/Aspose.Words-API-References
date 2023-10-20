@@ -1,7 +1,9 @@
 ---
 title: Shape.OleFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Bir şeklin OLE verilerine erişim sağlar. OLE nesnesi veya ActiveX denetimi olmayan bir şekil için şunu döndürürhükümsüz .
+linktitle: OleFormat
+articleTitle: OleFormat
+second_title: Aspose.Words for .NET
+description: Shape OleFormat mülk. Bir şeklin OLE verilerine erişim sağlar. OLE nesnesi veya ActiveX denetimi olmayan bir şekil için şunu döndürürhükümsüz  C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.drawing/shape/oleformat/
@@ -14,7 +16,7 @@ Bir şeklin OLE verilerine erişim sağlar. OLE nesnesi veya ActiveX denetimi ol
 public OleFormat OleFormat { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
 
@@ -138,7 +140,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [OleFormat](../../oleformat/)
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: TabStop.TabStop
-second_title: Справочник по API Aspose.Words для .NET
-description: TabStop строитель. Инициализирует новый экземпляр этого класса.
+title: TabStop
+linktitle: TabStop
+articleTitle: TabStop
+second_title: Aspose.Words для .NET
+description: TabStop строитель. Инициализирует новый экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/tabstop/tabstop/
 ---
-## TabStop(double) {#constructor}
+## TabStop(*double*) {#constructor}
 
 Инициализирует новый экземпляр этого класса.
 
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/tabstop/tabstop/
 public TabStop(double position)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией табуляции документа.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Смотрите также
 
 * class [TabStop](../)
-* пространство имен [Aspose.Words](../../tabstop/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## TabStop(double, TabAlignment, TabLeader) {#constructor_1}
+## TabStop(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#constructor_1}
 
 Инициализирует новый экземпляр этого класса.
 
@@ -77,7 +79,7 @@ public TabStop(double position, TabAlignment alignment, TabLeader leader)
 | alignment | TabAlignment | А[`TabAlignment`](../../tabalignment/) значение that определяет выравнивание текста на этой позиции табуляции. |
 | leader | TabLeader | А[`TabLeader`](../../tableader/) значение, которое определяет тип линии-выноски, отображаемой под символом табуляции. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией табуляции документа.
 
@@ -123,7 +125,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 * enum [TabAlignment](../../tabalignment/)
 * enum [TabLeader](../../tableader/)
 * class [TabStop](../)
-* пространство имен [Aspose.Words](../../tabstop/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

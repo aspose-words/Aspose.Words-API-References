@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AdjustWithEffects
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase метод. Добавляет к исходному прямоугольнику значения экстента эффекта и возвращает окончательный прямоугольник.
+linktitle: AdjustWithEffects
+articleTitle: AdjustWithEffects
+second_title: Aspose.Words для .NET
+description: ShapeBase AdjustWithEffects метод. Добавляет к исходному прямоугольнику значения экстента эффекта и возвращает окончательный прямоугольник на С#.
 type: docs
 weight: 620
 url: /ru/net/aspose.words.drawing/shapebase/adjustwitheffects/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/adjustwitheffects/
 public RectangleF AdjustWithEffects(RectangleF source)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить, как эффекты формы влияют на границы фигуры.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(279, shape.BoundsWithEffects.Height);
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

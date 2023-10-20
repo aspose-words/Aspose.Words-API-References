@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.SourceFullName
-second_title: Aspose.Words per .NET API Reference
-description: FieldIncludeText proprietà. Ottiene o imposta la posizione del documento utilizzando un IRI.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words per .NET
+description: FieldIncludeText SourceFullName proprietà. Ottiene o imposta la posizione del documento utilizzando un IRI in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fields/fieldincludetext/sourcefullname/
@@ -14,7 +16,7 @@ Ottiene o imposta la posizione del documento utilizzando un IRI.
 public string SourceFullName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un campo INCLUDETEXT e impostarne le proprietà.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Guarda anche
 
 * class [FieldIncludeText](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldincludetext/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

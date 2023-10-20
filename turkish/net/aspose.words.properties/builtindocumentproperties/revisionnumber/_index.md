@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.RevisionNumber
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Belge revizyon numarasını alır veya ayarlar.
+linktitle: RevisionNumber
+articleTitle: RevisionNumber
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties RevisionNumber mülk. Belge revizyon numarasını alır veya ayarlar C#'da.
 type: docs
 weight: 240
 url: /tr/net/aspose.words.properties/builtindocumentproperties/revisionnumber/
@@ -14,11 +16,11 @@ Belge revizyon numarasını alır veya ayarlar.
 public int RevisionNumber { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words bu özelliği güncellemez.
 
-### Örnekler
+## Örnekler
 
 REVNUM alanlarıyla nasıl çalışılacağını gösterir.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.TabStops
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取为此对象定义的自定义制表位的集合
+linktitle: TabStops
+articleTitle: TabStops
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat TabStops 财产. 获取为此对象定义的自定义制表位的集合 在 C#.
 type: docs
 weight: 390
 url: /zh/net/aspose.words/paragraphformat/tabstops/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/tabstops/
 public TabStopCollection TabStops { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何修改目录相关段落中右侧制表位的位置。
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * class [TabStopCollection](../../tabstopcollection/)
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

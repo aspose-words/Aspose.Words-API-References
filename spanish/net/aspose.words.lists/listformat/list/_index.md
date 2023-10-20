@@ -1,7 +1,9 @@
 ---
 title: ListFormat.List
-second_title: Referencia de API de Aspose.Words para .NET
-description: ListFormat propiedad. Obtiene o establece la lista de la que este párrafo es miembro.
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words para .NET
+description: ListFormat List propiedad. Obtiene o establece la lista de la que este párrafo es miembro en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.lists/listformat/list/
@@ -14,7 +16,7 @@ Obtiene o establece la lista de la que este párrafo es miembro.
 public List List { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La lista que se está asignando a esta propiedad debe pertenecer al documento actual.
 
@@ -22,7 +24,7 @@ La lista que se asigna a esta propiedad no debe ser una definición de estilo de
 
 Estableciendo esta propiedad en`nulo` elimina las viñetas y la numeración del párrafo y establece el número del nivel de lista en cero. Estableciendo esta propiedad en`nulo` es equivalente a llamar[`RemoveNumbers`](../removenumbers/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo anidar una lista dentro de otra lista.
 
@@ -125,7 +127,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * class [List](../../list/)
 * class [ListFormat](../)
-* espacio de nombres [Aspose.Words.Lists](../../listformat/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

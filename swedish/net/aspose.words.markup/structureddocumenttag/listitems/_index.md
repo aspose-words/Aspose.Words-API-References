@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.ListItems
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. BlirSdtListItemCollection i samband med detta SDT .
+linktitle: ListItems
+articleTitle: ListItems
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag ListItems fast egendom. BlirSdtListItemCollection i samband med dettaSDT  i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.markup/structureddocumenttag/listitems/
 ---
 ## StructuredDocumentTag.ListItems property
 
-Blir[`SdtListItemCollection`](../../sdtlistitemcollection/) i samband med detta **SDT** .
+Blir[`SdtListItemCollection`](../../sdtlistitemcollection/) i samband med detta**SDT** .
 
 ```csharp
 public SdtListItemCollection ListItems { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Åtkomst till den här egenskapen fungerar bara förComboBox ellerDropDownList SDT-typer.
 
 För alla andra SDT-typer kommer undantag att förekomma.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med strukturerade dokumenttaggar i listrutan.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItemCollection](../../sdtlistitemcollection/)
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.IsValid
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DigitalSignatureCollection propriété. Retoursvrai si toutes les signatures numériques de cette collection sont valides et que le document na pas été falsifié with Renvoie égalementvrai sil ny a pas de signatures numériques. FAUX si au moins une signature numérique est invalide.
+linktitle: IsValid
+articleTitle: IsValid
+second_title: Aspose.Words pour .NET
+description: DigitalSignatureCollection IsValid propriété. Retoursvrai si toutes les signatures numériques de cette collection sont valides et que le document na pas été falsifié with Renvoie égalementvrai sil ny a pas de signatures numériques. FAUX si au moins une signature numérique est invalide en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
@@ -14,7 +16,7 @@ Retours`vrai` si toutes les signatures numériques de cette collection sont vali
 public bool IsValid { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment signer des documents avec des certificats X.509.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### Voir également
 
 * class [DigitalSignatureCollection](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
-
-

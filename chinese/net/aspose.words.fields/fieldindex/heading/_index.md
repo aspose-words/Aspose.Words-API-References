@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.Heading
-second_title: Aspose.Words for .NET API 参考
-description: FieldIndex 财产. 获取或设置出现在任何给定字母的每组条目开头的标题
+linktitle: Heading
+articleTitle: Heading
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIndex Heading 财产. 获取或设置出现在任何给定字母的每组条目开头的标题 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/fieldindex/heading/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldindex/heading/
 public string Heading { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 XE 字段用条目填充 INDEX 字段，并修改其外观。
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### 也可以看看
 
 * class [FieldIndex](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldindex/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

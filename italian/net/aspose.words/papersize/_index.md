@@ -1,7 +1,9 @@
 ---
-title: Enum PaperSize
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.PaperSize enum. Specifica il formato carta.
+title: PaperSize Enum
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words per .NET
+description: Aspose.Words.PaperSize enum. Specifica il formato carta in C#.
 type: docs
 weight: 4380
 url: /it/net/aspose.words/papersize/
@@ -37,7 +39,7 @@ public enum PaperSize
 | Number10Envelope | `16` | 4,125 x 9,5 pollici. |
 | Custom | `17` | Formato carta personalizzato. |
 
-### Esempi
+## Esempi
 
 Mostra come regolare il formato della carta, l'orientamento, i margini e altre impostazioni per una sezione.
 
@@ -148,5 +150,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

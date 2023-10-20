@@ -1,7 +1,9 @@
 ---
-title: LayoutOptions.LayoutOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutOptions строитель. Конструктор по умолчанию.
+title: LayoutOptions
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: Aspose.Words для .NET
+description: LayoutOptions строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.layout/layoutoptions/layoutoptions/
@@ -17,7 +19,5 @@ public LayoutOptions()
 ### Смотрите также
 
 * class [LayoutOptions](../)
-* пространство имен [Aspose.Words.Layout](../../layoutoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

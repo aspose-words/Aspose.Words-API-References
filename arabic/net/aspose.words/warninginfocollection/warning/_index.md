@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Warning
-second_title: Aspose.Words لمراجع .NET API
-description: WarningInfoCollection طريقة. ينفذIWarningCallback واجهه المستخدم. يضيف تحذيرًا إلى هذه المجموعة.
+linktitle: Warning
+articleTitle: Warning
+second_title: Aspose.Words لـ .NET
+description: WarningInfoCollection Warning طريقة. ينفذIWarningCallback واجهه المستخدم. يضيف تحذيرًا إلى هذه المجموعة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/warninginfocollection/warning/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/warninginfocollection/warning/
 public void Warning(WarningInfo info)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخطوط المتوفرة.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* مساحة الاسم [Aspose.Words](../../warninginfocollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

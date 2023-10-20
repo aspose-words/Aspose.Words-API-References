@@ -1,12 +1,14 @@
 ---
-title: SdtListItem.SdtListItem
-second_title: Справочник по API Aspose.Words для .NET
-description: SdtListItem строитель. Инициализирует новый экземпляр этого класса.
+title: SdtListItem
+linktitle: SdtListItem
+articleTitle: SdtListItem
+second_title: Aspose.Words для .NET
+description: SdtListItem строитель. Инициализирует новый экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/sdtlistitem/sdtlistitem/
 ---
-## SdtListItem(string, string) {#constructor_1}
+## SdtListItem(*string, string*) {#constructor_1}
 
 Инициализирует новый экземпляр этого класса.
 
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/sdtlistitem/sdtlistitem/
 public SdtListItem(string displayText, string value)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами структурированных документов с раскрывающимся списком.
 
@@ -71,12 +73,12 @@ Assert.AreEqual(0, listItems.Count);
 ### Смотрите также
 
 * class [SdtListItem](../)
-* пространство имен [Aspose.Words.Markup](../../sdtlistitem/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## SdtListItem(string) {#constructor}
+## SdtListItem(*string*) {#constructor}
 
 Инициализирует новый экземпляр этого класса.
 
@@ -84,7 +86,7 @@ Assert.AreEqual(0, listItems.Count);
 public SdtListItem(string value)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами структурированных документов с раскрывающимся списком.
 
@@ -141,7 +143,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Смотрите также
 
 * class [SdtListItem](../)
-* пространство имен [Aspose.Words.Markup](../../sdtlistitem/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

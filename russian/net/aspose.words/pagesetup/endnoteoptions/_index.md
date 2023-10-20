@@ -1,7 +1,9 @@
 ---
 title: PageSetup.EndnoteOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Предоставляет параметры управляющие нумерацией и расположением сносок в этом разделе.
+linktitle: EndnoteOptions
+articleTitle: EndnoteOptions
+second_title: Aspose.Words для .NET
+description: PageSetup EndnoteOptions свойство. Предоставляет параметры управляющие нумерацией и расположением сносок в этом разделе на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/pagesetup/endnoteoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/endnoteoptions/
 public EndnoteOptions EndnoteOptions { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить параметры, влияющие на сноски/концевые сноски в разделе.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.FootnoteOptions.docx");
 
 * class [EndnoteOptions](../../../aspose.words.notes/endnoteoptions/)
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

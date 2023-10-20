@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.IndexOfKey
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarksOutlineLevelCollection méthode. Renvoie lindex de base zéro du signet spécifié dans la collection.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words pour .NET
+description: BookmarksOutlineLevelCollection IndexOfKey méthode. Renvoie lindex de base zéro du signet spécifié dans la collection en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 L'indice de base zéro. Valeur négative si introuvable.
 
-### Exemples
+## Exemples
 
 Montre comment définir les niveaux de plan pour les signets.
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### Voir également
 
 * class [BookmarksOutlineLevelCollection](../)
-* espace de noms [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

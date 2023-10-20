@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: BookmarkCollection fast egendom. Returnerar antalet bokmärken i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: BookmarkCollection Count fast egendom. Returnerar antalet bokmärken i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/bookmarkcollection/count/
@@ -14,7 +16,7 @@ Returnerar antalet bokmärken i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort bokmärken från ett dokument.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Se även
 
 * class [BookmarkCollection](../)
-* namnutrymme [Aspose.Words](../../bookmarkcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

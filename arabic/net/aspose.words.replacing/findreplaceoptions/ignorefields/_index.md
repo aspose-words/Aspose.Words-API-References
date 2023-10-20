@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreFields
-second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. الحصول على قيمة منطقية أو تعيينها للإشارة إلى تجاهل النص الموجود داخل الحقول. القيمة الافتراضية هيخطأ شنيع .
+linktitle: IgnoreFields
+articleTitle: IgnoreFields
+second_title: Aspose.Words لـ .NET
+description: FindReplaceOptions IgnoreFields ملكية. الحصول على قيمة منطقية أو تعيينها للإشارة إلى تجاهل النص الموجود داخل الحقول. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.replacing/findreplaceoptions/ignorefields/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.replacing/findreplaceoptions/ignorefields/
 public bool IgnoreFields { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يؤثر هذا الخيار على الحقل بأكمله (جميع العقد بين FieldStart وFieldEnd).
 
 لتجاهل رموز الحقول فقط، يرجى استخدام الخيار المقابل[`IgnoreFieldCodes`](../ignorefieldcodes/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تجاهل النص داخل الحقول.
 
@@ -51,7 +53,5 @@ Assert.AreEqual(
 ### أنظر أيضا
 
 * class [FindReplaceOptions](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../findreplaceoptions/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

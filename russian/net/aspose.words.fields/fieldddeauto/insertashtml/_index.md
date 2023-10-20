@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.InsertAsHtml
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDdeAuto свойство. Получает или задает следует ли вставлять связанный объект в виде текста в формате HTML.
+linktitle: InsertAsHtml
+articleTitle: InsertAsHtml
+second_title: Aspose.Words для .NET
+description: FieldDdeAuto InsertAsHtml свойство. Получает или задает следует ли вставлять связанный объект в виде текста в формате HTML на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldddeauto/insertashtml/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldddeauto/insertashtml/
 public bool InsertAsHtml { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать различные типы полей для связи с другими документами в локальной файловой системе и отображения их содержимого.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Смотрите также
 
 * class [FieldDdeAuto](../)
-* пространство имен [Aspose.Words.Fields](../../fieldddeauto/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

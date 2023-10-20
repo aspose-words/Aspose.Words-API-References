@@ -1,7 +1,9 @@
 ---
-title: LoadOptions.LoadOptions
-second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions inşaatçı. Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır.
+title: LoadOptions
+linktitle: LoadOptions
+articleTitle: LoadOptions
+second_title: Aspose.Words for .NET
+description: LoadOptions inşaatçı. Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.loading/loadoptions/loadoptions/
@@ -14,7 +16,7 @@ Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır.
 public LoadOptions()
 ```
 
-### Örnekler
+## Örnekler
 
 Temel URI kullanarak bir akıştan görüntüler içeren bir HTML belgesinin nasıl açılacağını gösterir.
 
@@ -41,12 +43,12 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 ### Ayrıca bakınız
 
 * class [LoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../loadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## LoadOptions(string) {#constructor_2}
+## LoadOptions(*string*) {#constructor_2}
 
 Şifrelenmiş bir belgeyi yüklemek için bu sınıfın yeni bir örneğini belirtilen parolayla başlatmak için kullanılan bir kısayol.
 
@@ -58,7 +60,7 @@ public LoadOptions(string password)
 | --- | --- | --- |
 | password | String | Şifrelenmiş bir belgeyi açmak için kullanılan parola. Olabilir`hükümsüz` veya boş dize. |
 
-### Örnekler
+## Örnekler
 
 Şifrelenmiş bir Microsoft Word belgesinin nasıl yükleneceğini gösterir.
 
@@ -84,12 +86,12 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 ### Ayrıca bakınız
 
 * class [LoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../loadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## LoadOptions(LoadFormat, string, string) {#constructor_1}
+## LoadOptions(*[LoadFormat](../../../aspose.words/loadformat/), string, string*) {#constructor_1}
 
 Özellikleri belirtilen değerlere ayarlanmış olarak bu sınıfın yeni bir örneğini başlatmak için kullanılan bir kısayol.
 
@@ -103,7 +105,7 @@ public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | password | String | Şifrelenmiş bir belgeyi açmak için kullanılan parola. Olabilir`hükümsüz` veya boş dize. |
 | baseUri | String | Göreli URI'leri mutlak olarak çözümlemek için kullanılacak dize. Olabilir`hükümsüz` veya boş dize. |
 
-### Örnekler
+## Örnekler
 
 Bir web sayfasının .docx dosyası olarak nasıl kaydedildiğini gösterir.
 
@@ -151,7 +153,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 
 * enum [LoadFormat](../../../aspose.words/loadformat/)
 * class [LoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../loadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

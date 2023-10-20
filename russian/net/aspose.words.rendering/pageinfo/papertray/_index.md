@@ -1,7 +1,9 @@
 ---
 title: PageInfo.PaperTray
-second_title: Справочник по API Aspose.Words для .NET
-description: PageInfo свойство. Получает лоток для бумаги корзину для этой страницы как указано в документе. Значение зависит от реализации принтера.
+linktitle: PaperTray
+articleTitle: PaperTray
+second_title: Aspose.Words для .NET
+description: PageInfo PaperTray свойство. Получает лоток для бумаги корзину для этой страницы как указано в документе. Значение зависит от реализации принтера на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.rendering/pageinfo/papertray/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.rendering/pageinfo/papertray/
 public int PaperTray { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать информацию о размере и ориентации страницы для каждой страницы документа Word.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Смотрите также
 
 * class [PageInfo](../)
-* пространство имен [Aspose.Words.Rendering](../../pageinfo/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

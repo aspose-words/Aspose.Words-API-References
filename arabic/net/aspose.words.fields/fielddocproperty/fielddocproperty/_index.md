@@ -1,7 +1,9 @@
 ---
-title: FieldDocProperty.FieldDocProperty
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDocProperty البناء. Default_Constructor
+title: FieldDocProperty
+linktitle: FieldDocProperty
+articleTitle: FieldDocProperty
+second_title: Aspose.Words لـ .NET
+description: FieldDocProperty البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fielddocproperty/fielddocproperty/
@@ -17,7 +19,5 @@ public FieldDocProperty()
 ### أنظر أيضا
 
 * class [FieldDocProperty](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddocproperty/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

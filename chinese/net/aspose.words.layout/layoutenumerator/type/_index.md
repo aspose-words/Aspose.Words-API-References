@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Type
-second_title: Aspose.Words for .NET API 参考
-description: LayoutEnumerator 财产. 获取当前实体的类型
+linktitle: Type
+articleTitle: Type
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutEnumerator Type 财产. 获取当前实体的类型 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.layout/layoutenumerator/type/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/layoutenumerator/type/
 public LayoutEntityType Type { get; }
 ```
 
-### 例子
+## 例子
 
 显示遍历文档布局实体的方法。
 
@@ -160,7 +162,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * enum [LayoutEntityType](../../layoutentitytype/)
 * class [LayoutEnumerator](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutenumerator/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

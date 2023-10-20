@@ -1,7 +1,9 @@
 ---
 title: ImageData.CropRight
-second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. Definierar andelen av bildborttagning från höger sida.
+linktitle: CropRight
+articleTitle: CropRight
+second_title: Aspose.Words för .NET
+description: ImageData CropRight fast egendom. Definierar andelen av bildborttagning från höger sida i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.drawing/imagedata/cropright/
@@ -14,13 +16,13 @@ Definierar andelen av bildborttagning från höger sida.
 public double CropRight { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Mängden beskärning kan variera från -1,0 till 1,0. Standardvärdet är 0. Observera att ett värde på 1 inte visar någon bild alls. Negativa värden kommer att resultera i att bilden pressas inåt från kanten som beskärs (det tomma utrymmet mellan bilden och den beskurna kanten kommer att fyllas med fyllningsfärgen för -formen). Positiva värden mindre än 1 kommer att resultera i att den återstående bilden sträcks ut för att passa formen.
 
 Standardvärdet är 0.
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar en forms bilddata.
 
@@ -83,7 +85,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

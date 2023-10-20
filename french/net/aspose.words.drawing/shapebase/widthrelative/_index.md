@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WidthRelative
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Obtient ou définit la valeur qui représente le pourcentage de la largeur relative de la forme.
+linktitle: WidthRelative
+articleTitle: WidthRelative
+second_title: Aspose.Words pour .NET
+description: ShapeBase WidthRelative propriété. Obtient ou définit la valeur qui représente le pourcentage de la largeur relative de la forme en C#.
 type: docs
 weight: 580
 url: /fr/net/aspose.words.drawing/shapebase/widthrelative/
@@ -14,7 +16,7 @@ Obtient ou définit la valeur qui représente le pourcentage de la largeur relat
 public float WidthRelative { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir la taille et la position relatives.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

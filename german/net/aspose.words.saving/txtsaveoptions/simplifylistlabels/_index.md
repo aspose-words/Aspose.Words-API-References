@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.SimplifyListLabels
-second_title: Aspose.Words für .NET-API-Referenz
-description: TxtSaveOptions eigendom. Gibt an ob das Programm Listenbeschriftungen vereinfachen soll falls komplexe Beschriftungsformatierungen nicht ausreichend durch einfachen Text dargestellt werden.
+linktitle: SimplifyListLabels
+articleTitle: SimplifyListLabels
+second_title: Aspose.Words für .NET
+description: TxtSaveOptions SimplifyListLabels eigendom. Gibt an ob das Programm Listenbeschriftungen vereinfachen soll falls komplexe Beschriftungsformatierungen nicht ausreichend durch einfachen Text dargestellt werden in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
@@ -16,7 +18,7 @@ Wenn eingestellt auf`WAHR` , nummerierte Listenbeschriftungen werden im einfache
 public bool SimplifyListLabels { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Erscheinungsbild von Listen beim Speichern eines Dokuments im Klartext geändert wird.
 
@@ -66,7 +68,5 @@ else
 ### Siehe auch
 
 * class [TxtSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../txtsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

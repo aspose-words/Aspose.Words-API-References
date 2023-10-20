@@ -1,7 +1,9 @@
 ---
-title: Class FieldInclude
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldInclude klass. Implementerar fältet INCLUDE.
+title: FieldInclude Class
+linktitle: FieldInclude
+articleTitle: FieldInclude
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldInclude klass. Implementerar fältet INCLUDE i C#.
 type: docs
 weight: 2030
 url: /sv/net/aspose.words.fields/fieldinclude/
@@ -46,17 +48,17 @@ public class FieldInclude : Field
 | namn | Beskrivning |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
-### Anmärkningar
+## Anmärkningar
 
 Infogar hela eller delar av texten och grafiken i ett annat dokument.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett INKLUDERA-fält och ställer in dess egenskaper.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 * class [Field](../field/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

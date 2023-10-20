@@ -1,7 +1,9 @@
 ---
 title: Node.NextSibling
-second_title: Справочник по API Aspose.Words для .NET
-description: Node свойство. Получает узел следующий сразу за этим узлом.
+linktitle: NextSibling
+articleTitle: NextSibling
+second_title: Aspose.Words для .NET
+description: Node NextSibling свойство. Получает узел следующий сразу за этим узлом на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/node/nextsibling/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/node/nextsibling/
 public Node NextSibling { get; }
 ```
 
-### Примечания
+## Примечания
 
 Если следующего узла нет,`нулевой` возвращается.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать свойство NextSibling узла для перечисления его непосредственных дочерних элементов.
 
@@ -80,7 +82,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### Смотрите также
 
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

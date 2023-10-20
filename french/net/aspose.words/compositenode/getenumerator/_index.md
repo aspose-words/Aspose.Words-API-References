@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompositeNode méthode. Fournit la prise en charge de chaque itération de style sur les nœuds enfants de ce nœud.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: CompositeNode GetEnumerator méthode. Fournit la prise en charge de chaque itération de style sur les nœuds enfants de ce nœud en C#.
 type: docs
-weight: 120
+weight: 100
 url: /fr/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
@@ -14,7 +16,7 @@ Fournit la prise en charge de chaque itération de style sur les nœuds enfants 
 public IEnumerator<Node> GetEnumerator()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir la collection de nœuds enfants d’un nœud composite.
 
@@ -60,7 +62,5 @@ foreach (Node child in children)
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* espace de noms [Aspose.Words](../../compositenode/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

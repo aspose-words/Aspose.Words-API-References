@@ -1,7 +1,9 @@
 ---
-title: Enum LayoutEntityType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Layout.LayoutEntityType تعداد. أنواع كيانات التخطيط.
+title: LayoutEntityType Enum
+linktitle: LayoutEntityType
+articleTitle: LayoutEntityType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Layout.LayoutEntityType تعداد. أنواع كيانات التخطيط في C#.
 type: docs
 weight: 3330
 url: /ar/net/aspose.words.layout/layoutentitytype/
@@ -34,7 +36,7 @@ public enum LayoutEntityType
 | Comment | `1000` | يمثل العنصر النائب لمحتوى التعليق. قد يحتوي التعليق علىLine وRow الكيانات الفرعية. |
 | NoteSeparator | `2000` | يمثل فاصل الحواشي السفلية/التعليقات الختامية. قد يحتوي فاصل الملاحظات علىLine وRow الكيانات الفرعية. |
 
-### أمثلة
+## أمثلة
 
 يُظهر طرق اجتياز كيانات تخطيط المستند.
 
@@ -180,5 +182,3 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * مساحة الاسم [Aspose.Words.Layout](../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../)
-
-

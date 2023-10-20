@@ -1,7 +1,9 @@
 ---
-title: Enum GradientStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.GradientStyle перечисление. Определяет стиль градиентной заливки.
+title: GradientStyle Enum
+linktitle: GradientStyle
+articleTitle: GradientStyle
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.GradientStyle перечисление. Определяет стиль градиентной заливки на С#.
 type: docs
 weight: 1000
 url: /ru/net/aspose.words.drawing/gradientstyle/
@@ -26,7 +28,7 @@ public enum GradientStyle
 | FromCorner | `5` | Градиент от угла к трем другим углам. |
 | FromCenter | `6` | Градиент от центра к углам. |
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить фигуру градиентами.
 
@@ -68,5 +70,3 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

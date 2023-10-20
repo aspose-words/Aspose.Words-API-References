@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.FontSize
-second_title: Aspose.Words for .NET API Referansı
-description: FieldSymbol mülk. Alan tarafından alınan karakterin yazı tipinin punto cinsinden boyutunu alır veya ayarlar.
+linktitle: FontSize
+articleTitle: FontSize
+second_title: Aspose.Words for .NET
+description: FieldSymbol FontSize mülk. Alan tarafından alınan karakterin yazı tipinin punto cinsinden boyutunu alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldsymbol/fontsize/
@@ -14,7 +16,7 @@ Alan tarafından alınan karakterin yazı tipinin punto cinsinden boyutunu alır
 public string FontSize { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 SEMBOL alanının nasıl kullanılacağını gösterir.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ayrıca bakınız
 
 * class [FieldSymbol](../)
-* ad alanı [Aspose.Words.Fields](../../fieldsymbol/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

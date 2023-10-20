@@ -1,7 +1,9 @@
 ---
 title: FieldIf.EvaluateCondition
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIf yöntem. Durumu değerlendirir.
+linktitle: EvaluateCondition
+articleTitle: EvaluateCondition
+second_title: Aspose.Words for .NET
+description: FieldIf EvaluateCondition yöntem. Durumu değerlendirir C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldif/evaluatecondition/
@@ -18,7 +20,7 @@ public FieldIfComparisonResult EvaluateCondition()
 
 A[`FieldIfComparisonResult`](../../fieldifcomparisonresult/) durum değerlendirmesinin sonucunu temsil eden değer.
 
-### Örnekler
+## Örnekler
 
 IF alanının nasıl ekleneceğini gösterir.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 
 * enum [FieldIfComparisonResult](../../fieldifcomparisonresult/)
 * class [FieldIf](../)
-* ad alanı [Aspose.Words.Fields](../../fieldif/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

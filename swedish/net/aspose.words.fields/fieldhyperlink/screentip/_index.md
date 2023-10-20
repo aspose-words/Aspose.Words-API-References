@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.ScreenTip
-second_title: Aspose.Words för .NET API Referens
-description: FieldHyperlink fast egendom. Hämtar eller ställer in skärmtipstexten för hyperlänken.
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: Aspose.Words för .NET
+description: FieldHyperlink ScreenTip fast egendom. Hämtar eller ställer in skärmtipstexten för hyperlänken i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldhyperlink/screentip/
@@ -14,7 +16,7 @@ Hämtar eller ställer in skärmtipstexten för hyperlänken.
 public string ScreenTip { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder HYPERLINK-fält för att länka till dokument i det lokala filsystemet.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Se även
 
 * class [FieldHyperlink](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldhyperlink/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.PageIndex
-second_title: Aspose.Words för .NET API Referens
-description: PageLayoutCallbackArgs fast egendom. Får 0baserat index för sidan i dokumentet som denna händelse relaterar till. Returnerar negativt värde om det inte finns någon associerad sida eller om sidan togs bort under återflöde.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words för .NET
+description: PageLayoutCallbackArgs PageIndex fast egendom. Får 0baserat index för sidan i dokumentet som denna händelse relaterar till. Returnerar negativt värde om det inte finns någon associerad sida eller om sidan togs bort under återflöde i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
@@ -14,7 +16,7 @@ Får 0-baserat index för sidan i dokumentet som denna händelse relaterar till.
 public int PageIndex { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man spårar layoutändringar med en layoutåteruppringning.
 
@@ -80,7 +82,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 ### Se även
 
 * class [PageLayoutCallbackArgs](../)
-* namnutrymme [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

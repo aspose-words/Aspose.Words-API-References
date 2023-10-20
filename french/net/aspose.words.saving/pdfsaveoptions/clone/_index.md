@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.Clone
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfSaveOptions méthode. Crée un clone profond de cet objet.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words pour .NET
+description: PdfSaveOptions Clone méthode. Crée un clone profond de cet objet en C#.
 type: docs
 weight: 340
 url: /fr/net/aspose.words.saving/pdfsaveoptions/clone/
@@ -14,7 +16,7 @@ Crée un clone profond de cet objet.
 public PdfSaveOptions Clone()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment mettre à jour tous les champs d'un document immédiatement avant de l'enregistrer au format PDF.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.UpdateFields.pdf", options);
 ### Voir également
 
 * class [PdfSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

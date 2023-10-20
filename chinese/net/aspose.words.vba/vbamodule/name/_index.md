@@ -1,7 +1,9 @@
 ---
 title: VbaModule.Name
-second_title: Aspose.Words for .NET API 参考
-description: VbaModule 财产. 获取或设置 VBA 项目模块名称
+linktitle: Name
+articleTitle: Name
+second_title: 用于 .NET 的 Aspose.Words
+description: VbaModule Name 财产. 获取或设置 VBA 项目模块名称 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.vba/vbamodule/name/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.vba/vbamodule/name/
 public string Name { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用宏创建 VBA 项目。
 
@@ -67,7 +69,5 @@ vbaModules.Remove(vbaModules[2]);
 ### 也可以看看
 
 * class [VbaModule](../)
-* 命名空间 [Aspose.Words.Vba](../../vbamodule/)
+* 命名空间 [Aspose.Words.Vba](../../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../../)
-
-

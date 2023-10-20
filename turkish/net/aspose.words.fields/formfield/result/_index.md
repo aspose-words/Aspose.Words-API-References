@@ -1,7 +1,9 @@
 ---
 title: FormField.Result
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Bu form alanının sonucunu temsil eden bir dize alır veya ayarlar.
+linktitle: Result
+articleTitle: Result
+second_title: Aspose.Words for .NET
+description: FormField Result mülk. Bu form alanının sonucunu temsil eden bir dize alır veya ayarlar C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.fields/formfield/result/
@@ -14,7 +16,7 @@ Bu form alanının sonucunu temsil eden bir dize alır veya ayarlar.
 public string Result { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir metin formu alanı için sonuç, alandaki metindir.
 
@@ -26,7 +28,7 @@ Ayar`Result` bir metin formu alanı için şu şekilde belirtilen metin formatı
 
 Bir metin formu alanı için[`TextInputDefault`](../textinputdefault/) değer uygulanır eğer*value* dır-dir`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Açılan kutunun nasıl ekleneceğini gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

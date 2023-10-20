@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.WebRequestTimeout
-second_title: Aspose.Words för .NET API Referens
-description: HtmlLoadOptions fast egendom. Antalet millisekunder som ska vänta innan webbförfrågan timeout. Standardvärdet är 100 000 millisekunder 100 sekunder.
+linktitle: WebRequestTimeout
+articleTitle: WebRequestTimeout
+second_title: Aspose.Words för .NET
+description: HtmlLoadOptions WebRequestTimeout fast egendom. Antalet millisekunder som ska vänta innan webbförfrågan timeout. Standardvärdet är 100 000 millisekunder 100 sekunder i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.loading/htmlloadoptions/webrequesttimeout/
@@ -14,11 +16,11 @@ Antalet millisekunder som ska vänta innan webbförfrågan timeout. Standardvär
 public int WebRequestTimeout { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Antalet millisekunder som Aspose.Words väntar på ett svar vid laddning av externa resurser (bilder, style sheets) länkade i HTML- och MHTML-dokument.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in en tidsgräns för webbförfrågningar när du laddar ett dokument med externa resurser länkade av URL:er.
 
@@ -87,7 +89,5 @@ private class ListDocumentWarnings : IWarningCallback
 ### Se även
 
 * class [HtmlLoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../htmlloadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

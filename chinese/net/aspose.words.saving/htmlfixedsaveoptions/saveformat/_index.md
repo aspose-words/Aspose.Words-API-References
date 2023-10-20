@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.SaveFormat
-second_title: Aspose.Words for .NET API 参考
-description: HtmlFixedSaveOptions 财产. 指定使用此保存选项对象时保存文档的格式 只能是HtmlFixed.
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlFixedSaveOptions SaveFormat 财产. 指定使用此保存选项对象时保存文档的格式 只能是HtmlFixed 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用回调来打印在将文档转换为 HTML 时创建的外部资源的 URI。
 
@@ -94,7 +96,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [HtmlFixedSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

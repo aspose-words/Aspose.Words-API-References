@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.ForegroundColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDisplayBarcode eigendom. Ruft die Vordergrundfarbe des Barcodesymbols ab oder legt diese fest. Gültige Werte liegen im Bereich 0 0xFFFFFF
+linktitle: ForegroundColor
+articleTitle: ForegroundColor
+second_title: Aspose.Words für .NET
+description: FieldDisplayBarcode ForegroundColor eigendom. Ruft die Vordergrundfarbe des Barcodesymbols ab oder legt diese fest. Gültige Werte liegen im Bereich 0 0xFFFFFF in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.fields/fielddisplaybarcode/foregroundcolor/
@@ -14,7 +16,7 @@ Ruft die Vordergrundfarbe des Barcodesymbols ab oder legt diese fest. Gültige W
 public string ForegroundColor { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein DISPLAYBARCODE-Feld eingefügt und seine Eigenschaften festgelegt werden.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Siehe auch
 
 * class [FieldDisplayBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

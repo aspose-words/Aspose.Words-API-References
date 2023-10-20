@@ -1,7 +1,9 @@
 ---
 title: FieldXE.PageNumberReplacement
-second_title: Aspose.Words per .NET API Reference
-description: FieldXE proprietà. Ottiene o imposta il testo utilizzato al posto del numero di pagina.
+linktitle: PageNumberReplacement
+articleTitle: PageNumberReplacement
+second_title: Aspose.Words per .NET
+description: FieldXE PageNumberReplacement proprietà. Ottiene o imposta il testo utilizzato al posto del numero di pagina in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldxe/pagenumberreplacement/
@@ -14,7 +16,7 @@ Ottiene o imposta il testo utilizzato al posto del numero di pagina.
 public string PageNumberReplacement { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come definire i riferimenti incrociati in un campo INDICE.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.CrossReferenceSeparator.docx");
 ### Guarda anche
 
 * class [FieldXE](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldxe/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Fill
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Fill clase. Representa el formato de relleno para un objeto.
+title: Fill Class
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.Fill clase. Representa el formato de relleno para un objeto en C#.
 type: docs
 weight: 950
 url: /es/net/aspose.words.drawing/fill/
@@ -23,7 +25,6 @@ public class Fill
 | [BackColor](../../aspose.words.drawing/fill/backcolor/) { get; set; } | Obtiene o establece un objeto Color que representa el color de fondo del relleno. |
 | [BackThemeColor](../../aspose.words.drawing/fill/backthemecolor/) { get; set; } | Obtiene o establece un objeto ThemeColor que representa el color de fondo para el relleno. |
 | [BackTintAndShade](../../aspose.words.drawing/fill/backtintandshade/) { get; set; } | Obtiene o establece un valor doble que aclara u oscurece el color de fondo. |
-| [BaseForeColor](../../aspose.words.drawing/fill/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/fill/color/) { get; set; } | Obtiene o establece un objeto Color que representa el color de primer plano para el relleno. |
 | [FillType](../../aspose.words.drawing/fill/filltype/) { get; } | Obtiene un tipo de relleno. |
 | [ForeColor](../../aspose.words.drawing/fill/forecolor/) { get; set; } | Obtiene o establece un objeto Color que representa el color de primer plano para el relleno. |
@@ -46,24 +47,24 @@ public class Fill
 
 | Nombre | Descripción |
 | --- | --- |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(GradientStyle, GradientVariant, double) | Establece el relleno especificado en un degradado de un color. |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(Color, GradientStyle, GradientVariant, double) | Establece el relleno especificado en un degradado de un color utilizando el color especificado. |
-| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(PatternType) | Establece el relleno especificado en un patrón. |
-| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(PatternType, Color, Color) | Establece el relleno especificado en un patrón. |
-| [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(PresetTexture) | Establece el relleno en una textura preestablecida. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage)(byte[]) | Cambia el tipo de relleno a una sola imagen. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_1)(Stream) | Cambia el tipo de relleno a una sola imagen. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_2)(string) | Cambia el tipo de relleno a una sola imagen. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | Establece el relleno especificado en un degradado de un color. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(*Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | Establece el relleno especificado en un degradado de un color utilizando el color especificado. |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(*[PatternType](../patterntype/)*) | Establece el relleno especificado en un patrón. |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(*[PatternType](../patterntype/), Color, Color*) | Establece el relleno especificado en un patrón. |
+| [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(*[PresetTexture](../presettexture/)*) | Establece el relleno en una textura preestablecida. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage)(*byte[]*) | Cambia el tipo de relleno a una sola imagen. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_1)(*Stream*) | Cambia el tipo de relleno a una sola imagen. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_2)(*string*) | Cambia el tipo de relleno a una sola imagen. |
 | [Solid](../../aspose.words.drawing/fill/solid/#solid)() | Establece el relleno en un color uniforme. |
-| [Solid](../../aspose.words.drawing/fill/solid/#solid_1)(Color) | Establece el relleno en un color uniforme especificado. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient)(GradientStyle, GradientVariant) | Establece el relleno especificado en un degradado de dos colores. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient_1)(Color, Color, GradientStyle, GradientVariant) | Establece el relleno especificado en un degradado de dos colores. |
+| [Solid](../../aspose.words.drawing/fill/solid/#solid_1)(*Color*) | Establece el relleno en un color uniforme especificado. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/)*) | Establece el relleno especificado en un degradado de dos colores. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient_1)(*Color, Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/)*) | Establece el relleno especificado en un degradado de dos colores. |
 
-### Observaciones
+## Observaciones
 
 Utilizar el[`Fill`](../shapebase/fill/) o[`Fill`](../../aspose.words/font/fill/) propiedad para acceder a las propiedades de relleno de un objeto. No crea instancias del`Fill` clase directamente.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo rellenar una forma con un color sólido.
 
@@ -99,5 +100,3 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

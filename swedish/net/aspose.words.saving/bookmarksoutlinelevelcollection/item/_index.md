@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: BookmarksOutlineLevelCollection fast egendom. Hämtar eller ställer in en bokmärkeskonturnivå med bokmärkets namn.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: BookmarksOutlineLevelCollection Item fast egendom. Hämtar eller ställer in en bokmärkeskonturnivå med bokmärkets namn i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/bookmarksoutlinelevelcollection/item/
@@ -22,7 +24,7 @@ public int this[string name] { get; set; }
 
 Konturnivån för bokmärket. Giltigt intervall är 0 till 9.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in konturnivåer för bokmärken.
 
@@ -80,7 +82,7 @@ outlineLevels.Clear();
 ### Se även
 
 * class [BookmarksOutlineLevelCollection](../)
-* namnutrymme [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -101,7 +103,7 @@ public int this[int index] { get; set; }
 
 Konturnivån för bokmärket. Giltigt intervall är 0 till 9.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in konturnivåer för bokmärken.
 
@@ -159,7 +161,5 @@ outlineLevels.Clear();
 ### Se även
 
 * class [BookmarksOutlineLevelCollection](../)
-* namnutrymme [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

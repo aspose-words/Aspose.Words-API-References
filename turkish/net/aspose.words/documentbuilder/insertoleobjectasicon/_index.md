@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOleObjectAsIcon
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Gömülü veya bağlantılı bir OLE nesnesini simge olarak belgeye ekler. Simge dosyasını ve resim yazısını belirtmeye izin verir. Dosya uzantısını kullanarak OLE nesne türünü algılar.
+linktitle: InsertOleObjectAsIcon
+articleTitle: InsertOleObjectAsIcon
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertOleObjectAsIcon yöntem. Gömülü veya bağlantılı bir OLE nesnesini simge olarak belgeye ekler. Simge dosyasını ve resim yazısını belirtmeye izin verir. Dosya uzantısını kullanarak OLE nesne türünü algılar C#'da.
 type: docs
-weight: 410
+weight: 400
 url: /tr/net/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
-## InsertOleObjectAsIcon(string, bool, string, string) {#insertoleobjectasicon_1}
+## InsertOleObjectAsIcon(*string, bool, string, string*) {#insertoleobjectasicon_1}
 
 Gömülü veya bağlantılı bir OLE nesnesini simge olarak belgeye ekler. Simge dosyasını ve resim yazısını belirtmeye izin verir. Dosya uzantısını kullanarak OLE nesne türünü algılar.
 
@@ -26,7 +28,7 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 
 Ole nesnesini içeren ve geçerli Oluşturucu konumuna eklenen şekil düğümü.
 
-### Örnekler
+## Örnekler
 
 Bir OLE nesnesinin belgeye nasıl ekleneceğini gösterir.
 
@@ -63,12 +65,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObjectAsIcon(string, string, bool, string, string) {#insertoleobjectasicon_2}
+## InsertOleObjectAsIcon(*string, string, bool, string, string*) {#insertoleobjectasicon_2}
 
 Gömülü veya bağlantılı bir OLE nesnesini simge olarak belgeye ekler. Simge dosyasını ve resim yazısını belirtmeye izin verir. Verilen progID parametresini kullanarak OLE nesne türünü algılar.
 
@@ -89,7 +91,7 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 
 Ole nesnesini içeren ve geçerli Oluşturucu konumuna eklenen şekil düğümü.
 
-### Örnekler
+## Örnekler
 
 Katıştırılmış veya bağlantılı bir OLE nesnesinin belgeye simge olarak nasıl ekleneceğini gösterir.
 
@@ -122,12 +124,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObjectAsIcon(Stream, string, string, string) {#insertoleobjectasicon}
+## InsertOleObjectAsIcon(*Stream, string, string, string*) {#insertoleobjectasicon}
 
 Bir akıştan belgeye simge olarak gömülü bir OLE nesnesi ekler. Simge dosyasını ve resim yazısını belirtmeye izin verir. Verilen progID parametresini kullanarak OLE nesne türünü algılar.
 
@@ -147,7 +149,7 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 
 Ole nesnesini içeren ve geçerli Oluşturucu konumuna eklenen şekil düğümü.
 
-### Örnekler
+## Örnekler
 
 Katıştırılmış veya bağlantılı bir OLE nesnesinin belgeye simge olarak nasıl ekleneceğini gösterir.
 
@@ -180,7 +182,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

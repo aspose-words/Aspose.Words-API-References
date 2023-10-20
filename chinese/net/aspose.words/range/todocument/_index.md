@@ -1,7 +1,9 @@
 ---
 title: Range.ToDocument
-second_title: Aspose.Words for .NET API 参考
-description: Range 方法. 构造一个包含范围的新的完整文档
+linktitle: ToDocument
+articleTitle: ToDocument
+second_title: 用于 .NET 的 Aspose.Words
+description: Range ToDocument 方法. 构造一个包含范围的新的完整文档 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words/range/todocument/
@@ -18,7 +20,5 @@ public Document ToDocument()
 
 * class [Document](../../document/)
 * class [Range](../)
-* 命名空间 [Aspose.Words](../../range/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

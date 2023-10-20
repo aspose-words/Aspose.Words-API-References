@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.WebExtensions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WebExtensionsПространство имен предоставляет классы которые позволяют to настраивать элементы и атрибуты расширяющие словарь XML для представления надстроек Office.
+linktitle: Aspose.Words.WebExtensions
+articleTitle: Aspose.Words.WebExtensions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.WebExtensionsПространство имен предоставляет классы которые позволяют to настраивать элементы и атрибуты расширяющие словарь XML для представления надстроек Office на С#.
 type: docs
 weight: 290
 url: /ru/net/aspose.words.webextensions/
@@ -29,5 +31,3 @@ url: /ru/net/aspose.words.webextensions/
 | [TaskPaneDockState](./taskpanedockstate/) | Перечисляет доступные местоположения объекта панели задач. |
 | [WebExtensionBindingType](./webextensionbindingtype/) | Перечисляет доступные типы привязки между веб-расширением и данными в документе. |
 | [WebExtensionStoreType](./webextensionstoretype/) | Перечисляет доступные типы магазина веб-расширений. |
-
-

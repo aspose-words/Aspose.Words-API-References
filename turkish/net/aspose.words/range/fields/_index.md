@@ -1,7 +1,9 @@
 ---
 title: Range.Fields
-second_title: Aspose.Words for .NET API Referansı
-description: Range mülk. Bir değeri döndürürFields aralıktaki tüm alanları temsil eden koleksiyon.
+linktitle: Fields
+articleTitle: Fields
+second_title: Aspose.Words for .NET
+description: Range Fields mülk. Bir değeri döndürürFields aralıktaki tüm alanları temsil eden koleksiyon C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/range/fields/
@@ -18,7 +20,5 @@ public FieldCollection Fields { get; }
 
 * class [FieldCollection](../../../aspose.words.fields/fieldcollection/)
 * class [Range](../)
-* ad alanı [Aspose.Words](../../range/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

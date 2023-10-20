@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowLeaderLines
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabel свойство. Позволяет указать нужно ли отображать выносные линии меток данных. Значение по умолчаниюЛОЖЬ .
+linktitle: ShowLeaderLines
+articleTitle: ShowLeaderLines
+second_title: Aspose.Words для .NET
+description: ChartDataLabel ShowLeaderLines свойство. Позволяет указать нужно ли отображать выносные линии меток данных. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
 public bool ShowLeaderLines { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Применяется только к круговым диаграммам. Линии-выноски создают визуальную связь между меткой данных и соответствующей точкой данных.
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -96,7 +98,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Смотрите также
 
 * class [ChartDataLabel](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

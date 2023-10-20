@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.GetValue
-second_title: Справочник по API Aspose.Words для .NET
-description: IMailMergeDataSource метод. Возвращает значение для указанного имени поля илиЛОЖЬ если поле не найдено.
+linktitle: GetValue
+articleTitle: GetValue
+second_title: Aspose.Words для .NET
+description: IMailMergeDataSource GetValue метод. Возвращает значение для указанного имени поля илиЛОЖЬ если поле не найдено на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.mailmerging/imailmergedatasource/getvalue/
@@ -23,7 +25,7 @@ public bool GetValue(string fieldName, out object fieldValue)
 
 `истинный` если значение было найдено.
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с источником данных в форме пользовательского объекта.
 
@@ -137,7 +139,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Смотрите также
 
 * interface [IMailMergeDataSource](../)
-* пространство имен [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

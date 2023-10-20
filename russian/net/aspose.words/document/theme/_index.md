@@ -1,7 +1,9 @@
 ---
 title: Document.Theme
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. ПолучаетTheme объект для этого документа.
+linktitle: Theme
+articleTitle: Theme
+second_title: Aspose.Words для .NET
+description: Document Theme свойство. ПолучаетTheme объект для этого документа на С#.
 type: docs
 weight: 420
 url: /ru/net/aspose.words/document/theme/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/theme/
 public Theme Theme { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как устанавливать собственные цвета и шрифты для тем.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [Theme](../../../aspose.words.themes/theme/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

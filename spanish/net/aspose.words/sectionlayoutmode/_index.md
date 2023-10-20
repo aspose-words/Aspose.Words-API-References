@@ -1,7 +1,9 @@
 ---
-title: Enum SectionLayoutMode
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.SectionLayoutMode enumeración. Especifica el modo de diseño de una sección que permite definir el comportamiento de la cuadrícula del documento.
+title: SectionLayoutMode Enum
+linktitle: SectionLayoutMode
+articleTitle: SectionLayoutMode
+second_title: Aspose.Words para .NET
+description: Aspose.Words.SectionLayoutMode enumeración. Especifica el modo de diseño de una sección que permite definir el comportamiento de la cuadrícula del documento en C#.
 type: docs
 weight: 5750
 url: /es/net/aspose.words/sectionlayoutmode/
@@ -23,7 +25,7 @@ public enum SectionLayoutMode
 | LineGrid | `2` | Especifica que a la sección correspondiente se le agregará un paso de línea adicional a cada línea dentro de ella para mantener el número especificado de líneas por página. |
 | SnapToChars | `3` | Especifica que a la sección correspondiente se le agregará el paso de línea adicional y el paso de carácter a cada línea y carácter dentro de ella para mantener un número específico de líneas por página y caracteres por línea. Los caracteres se alinearán automáticamente con las líneas de la cuadrícula al escribir. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo especificar un para el número de caracteres que puede tener cada línea.
 
@@ -68,5 +70,3 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

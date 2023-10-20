@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.ColorMode
-second_title: Aspose.Words for .NET API 参考
-description: AsposeWordsPrintDocument 财产. 获取或设置如果设备支持彩色打印如何打印非彩色页面
+linktitle: ColorMode
+articleTitle: ColorMode
+second_title: 用于 .NET 的 Aspose.Words
+description: AsposeWordsPrintDocument ColorMode 财产. 获取或设置如果设备支持彩色打印如何打印非彩色页面 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.rendering/asposewordsprintdocument/colormode/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.rendering/asposewordsprintdocument/colormode/
 public ColorPrintMode ColorMode { get; set; }
 ```
 
-### 评论
+## 评论
 
 不影响小册子打印。
 
-### 例子
+## 例子
 
 演示如何选择页面范围和用于打印文档的打印机，然后显示打印预览。
 
@@ -68,7 +70,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 
 * enum [ColorPrintMode](../../colorprintmode/)
 * class [AsposeWordsPrintDocument](../)
-* 命名空间 [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

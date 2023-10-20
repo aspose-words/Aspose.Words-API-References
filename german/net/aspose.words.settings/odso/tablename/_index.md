@@ -1,7 +1,9 @@
 ---
 title: Odso.TableName
-second_title: Aspose.Words für .NET-API-Referenz
-description: Odso eigendom. Gibt den bestimmten Datensatz an mit dem eine Quelle innerhalb einer externen Datenquelle verbunden werden soll. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words für .NET
+description: Odso TableName eigendom. Gibt den bestimmten Datensatz an mit dem eine Quelle innerhalb einer externen Datenquelle verbunden werden soll. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.settings/odso/tablename/
@@ -14,7 +16,7 @@ Gibt den bestimmten Datensatz an, mit dem eine Quelle innerhalb einer externen D
 public string TableName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief ausgeführt wird, während eine Verbindung zu einer externen Datenquelle hergestellt wird.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Siehe auch
 
 * class [Odso](../)
-* namensraum [Aspose.Words.Settings](../../odso/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class OdsoRecipientDataCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.OdsoRecipientDataCollection сорт. Типизированная коллекцияOdsoRecipientData
+title: OdsoRecipientDataCollection Class
+linktitle: OdsoRecipientDataCollection
+articleTitle: OdsoRecipientDataCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Settings.OdsoRecipientDataCollection сорт. Типизированная коллекцияOdsoRecipientData на С#.
 type: docs
 weight: 5940
 url: /ru/net/aspose.words.settings/odsorecipientdatacollection/
@@ -33,12 +35,12 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(OdsoRecipientData) | Добавляет объект в конец этой коллекции. |
+| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(*[OdsoRecipientData](../odsorecipientdata/)*) | Добавляет объект в конец этой коллекции. |
 | [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | Удаляет все элементы из этой коллекции. |
 | [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
-| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(int) | Удаляет элемент по указанному индексу. |
+| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(*int*) | Удаляет элемент по указанному индексу. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * class [OdsoRecipientData](../odsorecipientdata/)
 * пространство имен [Aspose.Words.Settings](../../aspose.words.settings/)
 * сборка [Aspose.Words](../../)
-
-

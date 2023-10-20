@@ -1,7 +1,9 @@
 ---
 title: FieldStart.Accept
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldStart methode. Akzeptiert einen Besucher.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words für .NET
+description: FieldStart Accept methode. Akzeptiert einen Besucher in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldstart/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 **FALSCH** wenn der Besucher das Stoppen der Aufzählung angefordert hat.
 
-### Bemerkungen
+## Bemerkungen
 
 Anrufe[`VisitFieldStart`](../../../aspose.words/documentvisitor/visitfieldstart/).
 
 Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
 
@@ -132,7 +134,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [FieldStart](../)
-* namensraum [Aspose.Words.Fields](../../fieldstart/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

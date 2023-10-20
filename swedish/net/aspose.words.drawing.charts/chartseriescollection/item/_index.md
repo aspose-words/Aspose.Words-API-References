@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeriesCollection fast egendom. Returnerar enChartSeries vid angivet index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: ChartSeriesCollection Item fast egendom. Returnerar enChartSeries vid angivet index i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartseriescollection/item/
@@ -18,7 +20,7 @@ public ChartSeries this[int index] { get; }
 | --- | --- |
 | index | Ett index i samlingen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Indexet är nollbaserat.
 
@@ -28,7 +30,7 @@ Om index är större än eller lika med antalet objekt i listan, returnerar dett
 
 Om index är negativt och dess absoluta värde är större än antalet objekt i listan, returnerar detta en nollreferens.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till och tar bort seriedata i ett diagram.
 
@@ -76,7 +78,5 @@ chartData.Clear();
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

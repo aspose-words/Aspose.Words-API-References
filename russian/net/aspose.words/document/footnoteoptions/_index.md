@@ -1,7 +1,9 @@
 ---
 title: Document.FootnoteOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Предоставляет параметры управляющие нумерацией и расположением сносок в этом документе.
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: Aspose.Words для .NET
+description: Document FootnoteOptions свойство. Предоставляет параметры управляющие нумерацией и расположением сносок в этом документе на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words/document/footnoteoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/footnoteoptions/
 public FootnoteOptions FootnoteOptions { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать другое место, где документ будет собираться и отображать его сноски.
 
@@ -186,7 +188,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageStartingNumber
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Ottiene o imposta il numero di pagina iniziale della sezione.
+linktitle: PageStartingNumber
+articleTitle: PageStartingNumber
+second_title: Aspose.Words per .NET
+description: PageSetup PageStartingNumber proprietà. Ottiene o imposta il numero di pagina iniziale della sezione in C#.
 type: docs
 weight: 330
 url: /it/net/aspose.words/pagesetup/pagestartingnumber/
@@ -14,11 +16,11 @@ Ottiene o imposta il numero di pagina iniziale della sezione.
 public int PageStartingNumber { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il[`RestartPageNumbering`](../restartpagenumbering/)proprietà, se impostata su`falso` , sovrascriverà the `PageStartingNumber` proprietà in modo che la numerazione delle pagine possa continuare dalla sezione precedente.
 
-### Esempi
+## Esempi
 
 Mostra come impostare la numerazione delle pagine in una sezione.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 ### Guarda anche
 
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

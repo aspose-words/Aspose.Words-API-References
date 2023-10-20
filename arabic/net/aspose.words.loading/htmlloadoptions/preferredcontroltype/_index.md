@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.PreferredControlType
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlLoadOptions ملكية. الحصول على أو تعيين النوع المفضل لعقد المستند التي ستمثل عناصر input وselect المستوردة. القيمة الافتراضية هيFormField .
+linktitle: PreferredControlType
+articleTitle: PreferredControlType
+second_title: Aspose.Words لـ .NET
+description: HtmlLoadOptions PreferredControlType ملكية. الحصول على أو تعيين النوع المفضل لعقد المستند التي ستمثل عناصر input وselect المستوردة. القيمة الافتراضية هيFormField  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
 public HtmlControlType PreferredControlType { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يرجى ملاحظة أن تعيين هذه الخاصية لا يضمن أن جميع عناصر التحكم المستوردة ستكون من النوع المحدد. إذا كان عنصر تحكم HTML غير قابل للتمثيل مع عقد المستند من النوع المفضل، فسوف يستخدم Aspose.Words عنصرًا متوافقًا[`HtmlControlType`](../../htmlcontroltype/) لهذا التحكم.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين النوع المفضل لعقد المستند التي ستمثل عناصر &lt;input&gt; و&lt;select&gt; المستوردة.
 
@@ -45,7 +47,5 @@ StructuredDocumentTag tag = (StructuredDocumentTag) nodes[0];
 
 * enum [HtmlControlType](../../htmlcontroltype/)
 * class [HtmlLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../htmlloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

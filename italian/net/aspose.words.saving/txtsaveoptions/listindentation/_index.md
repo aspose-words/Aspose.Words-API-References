@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.ListIndentation
-second_title: Aspose.Words per .NET API Reference
-description: TxtSaveOptions proprietà. Ottiene aTxtListIndentation oggetto che specifica quanti e quali caratteri utilizzare per il rientro dei livelli dellelenco. Per impostazione predefinita il conteggio del carattere 0 è pari a zero ciò significa nessun rientro.
+linktitle: ListIndentation
+articleTitle: ListIndentation
+second_title: Aspose.Words per .NET
+description: TxtSaveOptions ListIndentation proprietà. Ottiene aTxtListIndentation oggetto che specifica quanti e quali caratteri utilizzare per il rientro dei livelli dellelenco. Per impostazione predefinita il conteggio del carattere 0 è pari a zero ciò significa nessun rientro in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/txtsaveoptions/listindentation/
@@ -14,7 +16,7 @@ Ottiene a[`TxtListIndentation`](../../txtlistindentation/) oggetto che specifica
 public TxtListIndentation ListIndentation { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come configurare il rientro dell'elenco quando si salva un documento in testo normale.
 
@@ -55,7 +57,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * class [TxtListIndentation](../../txtlistindentation/)
 * class [TxtSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../txtsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

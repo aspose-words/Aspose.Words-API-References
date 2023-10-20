@@ -1,7 +1,9 @@
 ---
 title: Revision.ParentStyle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Revision propriété. Obtient le style parent immédiat propriétaire de cette révision. Cette propriété ne fonctionnera que pour leStyleDefinitionChange type de révision.
+linktitle: ParentStyle
+articleTitle: ParentStyle
+second_title: Aspose.Words pour .NET
+description: Revision ParentStyle propriété. Obtient le style parent immédiat propriétaire de cette révision. Cette propriété ne fonctionnera que pour leStyleDefinitionChange type de révision en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/revision/parentstyle/
@@ -14,11 +16,11 @@ Obtient le style parent immédiat (propriétaire) de cette révision. Cette prop
 public Style ParentStyle { get; }
 ```
 
-### Remarques
+## Remarques
 
 Si cette révision concerne des modifications sur les nœuds du document, utilisez[`ParentNode`](../parentnode/) à la place.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec la collection de révisions d’un document.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [Style](../../style/)
 * class [Revision](../)
-* espace de noms [Aspose.Words](../../revision/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

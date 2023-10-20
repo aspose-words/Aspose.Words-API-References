@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ShowHiddenText
-second_title: Aspose.Words för .NET API Referens
-description: LayoutOptions fast egendom. Hämtar eller ställer in en indikation på om dold text i dokumentet renderas. Standard ärfalsk .
+linktitle: ShowHiddenText
+articleTitle: ShowHiddenText
+second_title: Aspose.Words för .NET
+description: LayoutOptions ShowHiddenText fast egendom. Hämtar eller ställer in en indikation på om dold text i dokumentet renderas. Standard ärfalsk  i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.layout/layoutoptions/showhiddentext/
@@ -14,11 +16,11 @@ Hämtar eller ställer in en indikation på om dold text i dokumentet renderas. 
 public bool ShowHiddenText { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen påverkar allt dolt innehåll, inte bara text.
 
-### Exempel
+## Exempel
 
 Visar hur man döljer text i ett renderat utdatadokument.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsHiddenText.pdf");
 ### Se även
 
 * class [LayoutOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

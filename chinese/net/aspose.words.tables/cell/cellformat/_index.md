@@ -1,7 +1,9 @@
 ---
 title: Cell.CellFormat
-second_title: Aspose.Words for .NET API 参考
-description: Cell 财产. 提供对单元格格式属性的访问
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Cell CellFormat 财产. 提供对单元格格式属性的访问 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.tables/cell/cellformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/cell/cellformat/
 public CellFormat CellFormat { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何修改表格单元格的格式。
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 
 * class [CellFormat](../../cellformat/)
 * class [Cell](../)
-* 命名空间 [Aspose.Words.Tables](../../cell/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

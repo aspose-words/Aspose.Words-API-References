@@ -1,7 +1,9 @@
 ---
 title: ListFormat.IsListItem
-second_title: Aspose.Words för .NET API Referens
-description: ListFormat fast egendom. Sant när stycket har en punkt eller numrerad formatering.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words för .NET
+description: ListFormat IsListItem fast egendom. Sant när stycket har en punkt eller numrerad formatering i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.lists/listformat/islistitem/
@@ -14,7 +16,7 @@ Sant när stycket har en punkt- eller numrerad formatering.
 public bool IsListItem { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man matar ut alla stycken i ett dokument som är listobjekt.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 ### Se även
 
 * class [ListFormat](../)
-* namnutrymme [Aspose.Words.Lists](../../listformat/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

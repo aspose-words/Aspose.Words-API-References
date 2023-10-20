@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Clone
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoRecipientData yöntem. Bu nesnenin derin bir kopyasını döndürür.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words for .NET
+description: OdsoRecipientData Clone yöntem. Bu nesnenin derin bir kopyasını döndürür C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.settings/odsorecipientdata/clone/
@@ -14,7 +16,7 @@ Bu nesnenin derin bir kopyasını döndürür.
 public OdsoRecipientData Clone()
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ayrıca bakınız
 
 * class [OdsoRecipientData](../)
-* ad alanı [Aspose.Words.Settings](../../odsorecipientdata/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

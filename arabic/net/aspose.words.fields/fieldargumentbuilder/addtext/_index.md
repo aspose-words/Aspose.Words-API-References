@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddText
-second_title: Aspose.Words لمراجع .NET API
-description: FieldArgumentBuilder طريقة. إضافة نص عادي إلى الوسيطة.
+linktitle: AddText
+articleTitle: AddText
+second_title: Aspose.Words لـ .NET
+description: FieldArgumentBuilder AddText طريقة. إضافة نص عادي إلى الوسيطة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldargumentbuilder/addtext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldargumentbuilder/addtext/
 public FieldArgumentBuilder AddText(string text)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
@@ -97,7 +99,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### أنظر أيضا
 
 * class [FieldArgumentBuilder](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

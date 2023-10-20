@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.ForceCopyStyles
-second_title: Aspose.Words for .NET API Referansı
-description: ImportFormatOptions mülk. Çakışan stillerin nin kopyalanacağını belirten bir boole değeri alır veya ayarlar.KeepSourceFormatting mode. Varsayılan değerYANLIŞ .
+linktitle: ForceCopyStyles
+articleTitle: ForceCopyStyles
+second_title: Aspose.Words for .NET
+description: ImportFormatOptions ForceCopyStyles mülk. Çakışan stillerin nin kopyalanacağını belirten bir boole değeri alır veya ayarlar.KeepSourceFormatting mode. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/importformatoptions/forcecopystyles/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/importformatoptions/forcecopystyles/
 public bool ForceCopyStyles { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan olarak, hedef belgede eşleşen bir stil zaten mevcutsa, kaynak stili formatting doğrudan düğüm niteliklerine genişletilir ve bu düğümün stili varsayılana sıfırlanır.
 
@@ -22,7 +24,7 @@ Bu seçenek olarak ayarlandığında`doğru`, kaynak stili benzersiz bir adla he
 
 Bu durumda, hedef document 'de içe aktarılan düğümün formatının korunacağının garanti edilmediğini unutmayın.
 
-### Örnekler
+## Örnekler
 
 Benzersiz adlara sahip kaynak stillerinin zorla nasıl kopyalanacağını gösterir.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(paras[2].ParagraphFormat.Style.Name, "MyStyle3");
 ### Ayrıca bakınız
 
 * class [ImportFormatOptions](../)
-* ad alanı [Aspose.Words](../../importformatoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

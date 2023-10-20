@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.FirstBuildingBlock
-second_title: Aspose.Words for .NET API 参考
-description: GlossaryDocument 财产. 获取词汇表文档中的第一个构建块
+linktitle: FirstBuildingBlock
+articleTitle: FirstBuildingBlock
+second_title: 用于 .NET 的 Aspose.Words
+description: GlossaryDocument FirstBuildingBlock 财产. 获取词汇表文档中的第一个构建块 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.buildingblocks/glossarydocument/firstbuildingblock/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.buildingblocks/glossarydocument/firstbuildingblock/
 public BuildingBlock FirstBuildingBlock { get; }
 ```
 
-### 评论
+## 评论
 
 返回`无效的`如果没有可用的构建块。
 
-### 例子
+## 例子
 
 显示访问术语表文档中的构建块的方法。
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [GlossaryDocument](../)
-* 命名空间 [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* 命名空间 [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ApplyParagraphFormat
-second_title: Aspose.Words för .NET API Referens
-description: FindReplaceOptions fast egendom. Styckeformatering tillämpas på nytt innehåll.
+linktitle: ApplyParagraphFormat
+articleTitle: ApplyParagraphFormat
+second_title: Aspose.Words för .NET
+description: FindReplaceOptions ApplyParagraphFormat fast egendom. Styckeformatering tillämpas på nytt innehåll i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
@@ -14,7 +16,7 @@ Styckeformatering tillämpas på nytt innehåll.
 public ParagraphFormat ApplyParagraphFormat { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till formatering i stycken där en sök-och-ersätt-åtgärd har hittat matchningar.
 
@@ -55,7 +57,5 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 
 * class [ParagraphFormat](../../../aspose.words/paragraphformat/)
 * class [FindReplaceOptions](../)
-* namnutrymme [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

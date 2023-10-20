@@ -1,7 +1,9 @@
 ---
 title: Range.NormalizeFieldTypes
-second_title: Aspose.Words för .NET API Referens
-description: Range metod. Ändrar fälttypvärdenFieldType avFieldStart FieldSeparator FieldEnd i detta intervall så att de motsvarar fälttyperna som finns i fältkoderna.
+linktitle: NormalizeFieldTypes
+articleTitle: NormalizeFieldTypes
+second_title: Aspose.Words för .NET
+description: Range NormalizeFieldTypes metod. Ändrar fälttypvärdenFieldType avFieldStart FieldSeparator FieldEnd i detta intervall så att de motsvarar fälttyperna som finns i fältkoderna i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/range/normalizefieldtypes/
@@ -14,7 +16,7 @@ url: /sv/net/aspose.words/range/normalizefieldtypes/
 public void NormalizeFieldTypes()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Använd den här metoden efter dokumentändringar som påverkar fälttyper.
 
@@ -23,7 +25,5 @@ För att ändra fälttypsvärden i hela dokumentet använd[`NormalizeFieldTypes`
 ### Se även
 
 * class [Range](../)
-* namnutrymme [Aspose.Words](../../range/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

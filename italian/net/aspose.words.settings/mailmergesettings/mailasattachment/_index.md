@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MailAsAttachment
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Specifica che i documenti prodotti durante unoperazione di stampa unione devono essere inviati tramite posta elettronica come allegato anziché anziché come corpo del messaggio di posta elettronica vero e proprio. Il valore predefinito èfalso .
+linktitle: MailAsAttachment
+articleTitle: MailAsAttachment
+second_title: Aspose.Words per .NET
+description: MailMergeSettings MailAsAttachment proprietà. Specifica che i documenti prodotti durante unoperazione di stampa unione devono essere inviati tramite posta elettronica come allegato anziché anziché come corpo del messaggio di posta elettronica vero e proprio. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.settings/mailmergesettings/mailasattachment/
@@ -14,7 +16,7 @@ Specifica che i documenti prodotti durante un'operazione di stampa unione devono
 public bool MailAsAttachment { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione durante la connessione a un'origine dati esterna.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Guarda anche
 
 * class [MailMergeSettings](../)
-* spazio dei nomi [Aspose.Words.Settings](../../mailmergesettings/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.IsExportNeeded
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSavingArgs propriété. Permet de spécifier si la police actuelle sera exportée comme ressource de police. La valeur par défaut estvrai .
+linktitle: IsExportNeeded
+articleTitle: IsExportNeeded
+second_title: Aspose.Words pour .NET
+description: FontSavingArgs IsExportNeeded propriété. Permet de spécifier si la police actuelle sera exportée comme ressource de police. La valeur par défaut estvrai  en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.saving/fontsavingargs/isexportneeded/
@@ -14,7 +16,7 @@ Permet de spécifier si la police actuelle sera exportée comme ressource de pol
 public bool IsExportNeeded { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Voir également
 
 * class [FontSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../fontsavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

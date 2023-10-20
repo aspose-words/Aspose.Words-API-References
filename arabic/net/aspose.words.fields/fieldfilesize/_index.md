@@ -1,7 +1,9 @@
 ---
-title: Class FieldFileSize
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldFileSize فصل. ينفذ حقل FILESIZE.
+title: FieldFileSize Class
+linktitle: FieldFileSize
+articleTitle: FieldFileSize
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldFileSize فصل. ينفذ حقل FILESIZE في C#.
 type: docs
 weight: 1880
 url: /ar/net/aspose.words.fields/fieldfilesize/
@@ -44,19 +46,19 @@ public class FieldFileSize : Field
 | اسم | وصف |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
 | [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
 | [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
-### ملاحظات
+## ملاحظات
 
 استرداد حجم ملف المستند الحالي أو 0 إذا لم يكن من الممكن تحديد الحجم.
 
 في التنفيذ الحالي، يستخدم[`OriginalFileName`](../../aspose.words/document/originalfilename/) الخاصية لاسترداد اسم الملف المستخدم لتحديد حجم الملف.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض حجم ملف المستند باستخدام حقل FILESIZE.
 
@@ -106,5 +108,3 @@ doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 * class [Field](../field/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.VerticalAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin dikey olarak nasıl konumlandırılacağını belirtir.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words for .NET
+description: ShapeBase VerticalAlignment mülk. Şeklin dikey olarak nasıl konumlandırılacağını belirtir C#'da.
 type: docs
 weight: 560
 url: /tr/net/aspose.words.drawing/shapebase/verticalalignment/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.drawing/shapebase/verticalalignment/
 public VerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:None.
 
 Yalnızca üst düzey kayan şekiller için etkilidir.
 
-### Örnekler
+## Örnekler
 
 Sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [VerticalAlignment](../../verticalalignment/)
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

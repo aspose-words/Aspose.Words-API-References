@@ -1,7 +1,9 @@
 ---
 title: RowCollection.ToArray
-second_title: Référence de l'API Aspose.Words pour .NET
-description: RowCollection méthode. Copie toutes les lignes de la collection vers un nouveau tableau de lignes.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words pour .NET
+description: RowCollection ToArray méthode. Copie toutes les lignes de la collection vers un nouveau tableau de lignes en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.tables/rowcollection/toarray/
@@ -18,7 +20,7 @@ public Row[] ToArray()
 
 Un tableau de lignes.
 
-### Exemples
+## Exemples
 
 Montre comment parcourir tous les tableaux du document et imprimer le contenu de chaque cellule.
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Row](../../row/)
 * class [RowCollection](../)
-* espace de noms [Aspose.Words.Tables](../../rowcollection/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

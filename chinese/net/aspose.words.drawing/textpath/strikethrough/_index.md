@@ -1,7 +1,9 @@
 ---
 title: TextPath.StrikeThrough
-second_title: Aspose.Words for .NET API 参考
-description: TextPath 财产. 如果字体格式为删除线文本则为 True
+linktitle: StrikeThrough
+articleTitle: StrikeThrough
+second_title: 用于 .NET 的 Aspose.Words
+description: TextPath StrikeThrough 财产. 如果字体格式为删除线文本则为 True 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.drawing/textpath/strikethrough/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/textpath/strikethrough/
 public bool StrikeThrough { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`。
 
-### 例子
+## 例子
 
 演示如何使用艺术字。
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### 也可以看看
 
 * class [TextPath](../)
-* 命名空间 [Aspose.Words.Drawing](../../textpath/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

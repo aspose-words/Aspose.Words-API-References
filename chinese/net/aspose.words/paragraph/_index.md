@@ -1,7 +1,9 @@
 ---
-title: Class Paragraph
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Paragraph 班级. 代表一段文本
+title: Paragraph Class
+linktitle: Paragraph
+articleTitle: Paragraph
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Paragraph 班级. 代表一段文本 在 C#.
 type: docs
 weight: 4390
 url: /zh/net/aspose.words/paragraph/
@@ -20,7 +22,7 @@ public class Paragraph : CompositeNode
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Paragraph](paragraph/)(DocumentBase) | 初始化一个新实例`Paragraph`类. |
+| [Paragraph](paragraph/)(*[DocumentBase](../documentbase/)*) | 初始化一个新实例`Paragraph`类. |
 
 ## 特性
 
@@ -63,42 +65,40 @@ public class Paragraph : CompositeNode
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.words/paragraph/accept/)(DocumentVisitor) | 接受访客。 |
-| override [AcceptEnd](../../aspose.words/paragraph/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/paragraph/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_1)(string) | 将字段附加到此段落。 |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield)(FieldType, bool) | 将字段附加到此段落。 |
-| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_2)(string, string) | 将字段附加到此段落。 |
-| [Clone](../../aspose.words/node/clone/)(bool) | 创建节点的副本。 |
+| override [Accept](../../aspose.words/paragraph/accept/)(*[DocumentVisitor](../documentvisitor/)*) | 接受访客。 |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | 将指定节点添加到该节点的子节点列表的末尾。 |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_1)(*string*) | 将字段附加到此段落。 |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield)(*[FieldType](../../aspose.words.fields/fieldtype/), bool*) | 将字段附加到此段落。 |
+| [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_2)(*string, string*) | 将字段附加到此段落。 |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | 创建节点的副本。 |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | 创建可用于遍历和读取节点的导航器。 |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | 获取指定对象类型的第一个祖先。 |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | 返回与指定类型匹配的第 N 个子节点。 |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | 返回与指定类型匹配的子节点的实时集合。 |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | 获取指定对象类型的第一个祖先。 |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | 返回与指定类型匹配的第 N 个子节点。 |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | 返回与指定类型匹配的子节点的实时集合。 |
 | [GetEffectiveTabStops](../../aspose.words/paragraph/geteffectivetabstops/)() | 返回应用于此段落的所有制表位的数组，包括通过样式或列表间接应用的。 |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | 为该节点的子节点上的每个样式迭代提供支持。 |
 | override [GetText](../../aspose.words/paragraph/gettext/)() | 获取该段落的文本，包括段落结尾字符。 |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | 返回子节点数组中指定子节点的索引。 |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_1)(string, Node, bool) | 在该段落中插入一个字段。 |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield)(FieldType, bool, Node, bool) | 在该段落中插入一个字段。 |
-| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_2)(string, string, Node, bool) | 在该段落中插入一个字段。 |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | 返回子节点数组中指定子节点的索引。 |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | 在指定的引用节点之后立即插入指定的节点。 |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | 在指定的引用节点之前插入指定的节点。 |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_1)(*string, [Node](../node/), bool*) | 在该段落中插入一个字段。 |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield)(*[FieldType](../../aspose.words.fields/fieldtype/), bool, [Node](../node/), bool*) | 在该段落中插入一个字段。 |
+| [InsertField](../../aspose.words/paragraph/insertfield/#insertfield_2)(*string, string, [Node](../node/), bool*) | 在该段落中插入一个字段。 |
 | [JoinRunsWithSameFormatting](../../aspose.words/paragraph/joinrunswithsameformatting/)() | 连接段落中具有相同格式的运行。 |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | 根据先序树遍历算法获取下一个节点。 |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | 根据先序树遍历算法获取前一个节点。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取下一个节点。 |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | 将指定节点添加到该节点的子节点列表的开头。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取前一个节点。 |
 | [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | 删除当前节点的所有子节点。 |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | 删除指定的子节点。 |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | 删除所有[`SmartTag`](../../aspose.words.markup/smarttag/)当前节点的后代节点. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | 选择与 XPath 表达式匹配的节点列表。 |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | 选择第一个[`Node`](../node/)与 XPath 表达式匹配。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | 使用指定的保存选项将节点的内容导出到字符串中。 |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | 选择与 XPath 表达式匹配的节点列表。 |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | 选择第一个[`Node`](../node/)与 XPath 表达式匹配。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | 将节点的内容导出为指定格式的字符串。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出到字符串中。 |
 
-### 评论
+## 评论
 
 `Paragraph`是块级节点，可以是派生自 的类的子节点[`Story`](../story/)或者[`InlineStory`](../inlinestory/)。
 
@@ -110,7 +110,7 @@ Microsoft Word 中的有效段落始终以段落分隔符结尾，并且 最小�
 
 不包括段落结尾[`ParagraphBreak`](../controlchar/paragraphbreak/) 或单元格末尾[`Cell`](../controlchar/cell/)段落文本中的字符，因为在 Microsoft Word 中打开文档时，这可能会使段落无效。
 
-### 例子
+## 例子
 
 展示如何手动构建 Aspose.Words 文档。
 
@@ -162,5 +162,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 * class [CompositeNode](../compositenode/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

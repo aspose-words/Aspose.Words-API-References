@@ -1,7 +1,9 @@
 ---
-title: Class Stroke
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Stroke klass. Definierar ett streck för en form.
+title: Stroke Class
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Stroke klass. Definierar ett streck för en form i C#.
 type: docs
 weight: 1310
 url: /sv/net/aspose.words.drawing/stroke/
@@ -21,7 +23,6 @@ public class Stroke
 | namn | Beskrivning |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing/stroke/backcolor/) { get; set; } | Hämtar eller ställer in bakgrundsfärgen för strecket. |
-| [BaseForeColor](../../aspose.words.drawing/stroke/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/stroke/color/) { get; set; } | Definierar färgen på ett streck. |
 | [Color2](../../aspose.words.drawing/stroke/color2/) { get; set; } | Definierar en andra färg för en linje. |
 | [DashStyle](../../aspose.words.drawing/stroke/dashstyle/) { get; set; } | Anger punkt- och streckmönstret för ett streck. |
@@ -43,11 +44,11 @@ public class Stroke
 | [Visible](../../aspose.words.drawing/stroke/visible/) { get; set; } | Hämtar eller ställer in en flagga som indikerar om strecket är synligt. |
 | [Weight](../../aspose.words.drawing/stroke/weight/) { get; set; } | Definierar penseltjockleken som sträcker banan för en form i punkter. |
 
-### Anmärkningar
+## Anmärkningar
 
 Använd[`Stroke`](../shape/stroke/) egenskap för att komma åt strokeegenskaper för en shape. Du skapar inte instanser av`Stroke` klass direkt.
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar slagegenskaper.
 
@@ -81,5 +82,3 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

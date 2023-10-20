@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberCountBy
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Satır numaralarının sayısal artışını döndürür veya ayarlar.
+linktitle: LineNumberCountBy
+articleTitle: LineNumberCountBy
+second_title: Aspose.Words for .NET
+description: PageSetup LineNumberCountBy mülk. Satır numaralarının sayısal artışını döndürür veya ayarlar C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words/pagesetup/linenumbercountby/
@@ -14,7 +16,7 @@ Satır numaralarının sayısal artışını döndürür veya ayarlar.
 public int LineNumberCountBy { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir bölüm için satır numaralandırmanın nasıl etkinleştirileceğini gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCreateDate.UseUmAlQuraCalendar
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCreateDate eigendom. Ruft ab oder legt fest ob der UmalQuraKalender verwendet werden soll.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words für .NET
+description: FieldCreateDate UseUmAlQuraCalendar eigendom. Ruft ab oder legt fest ob der UmalQuraKalender verwendet werden soll in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldcreatedate/useumalquracalendar/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob der Um-al-Qura-Kalender verwendet werden soll.
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Feld CREATEDATE verwendet wird, um das Erstellungsdatum und die Erstellungszeit des Dokuments anzuzeigen.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");
 ### Siehe auch
 
 * class [FieldCreateDate](../)
-* namensraum [Aspose.Words.Fields](../../fieldcreatedate/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

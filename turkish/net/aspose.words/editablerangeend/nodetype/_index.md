@@ -1,7 +1,9 @@
 ---
 title: EditableRangeEnd.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: EditableRangeEnd mülk. İadelerEditableRangeEnd .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: EditableRangeEnd NodeType mülk. İadelerEditableRangeEnd  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/editablerangeend/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/editablerangeend/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düzenlenebilir bir aralıkla nasıl çalışılacağını gösterir.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * enum [NodeType](../../nodetype/)
 * class [EditableRangeEnd](../)
-* ad alanı [Aspose.Words](../../editablerangeend/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

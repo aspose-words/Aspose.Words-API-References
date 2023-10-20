@@ -1,7 +1,9 @@
 ---
 title: CellCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: CellCollection ملكية. يسترد أCell في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: CellCollection Item ملكية. يسترد أCell في الفهرس المحدد في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/cellcollection/item/
@@ -18,7 +20,7 @@ public Cell this[int index] { get; }
 | --- | --- |
 | index | فهرس في المجموعة. |
 
-### ملاحظات
+## ملاحظات
 
 المؤشر قائم على الصفر.
 
@@ -28,7 +30,7 @@ public Cell this[int index] { get; }
 
 إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار عبر كافة الجداول في المستند وطباعة محتويات كل خلية.
 
@@ -75,7 +77,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Cell](../../cell/)
 * class [CellCollection](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cellcollection/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

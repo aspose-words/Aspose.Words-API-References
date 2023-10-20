@@ -1,7 +1,9 @@
 ---
 title: VbaModuleCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: VbaModuleCollection свойство. ПолучаетVbaModule объект по индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: VbaModuleCollection Item свойство. ПолучаетVbaModule объект по индексу на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.vba/vbamodulecollection/item/
@@ -18,7 +20,7 @@ public VbaModule this[int index] { get; }
 | --- | --- |
 | index | Отсчитываемый от нуля индекс извлекаемого модуля. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к информации о проекте VBA документа.
 
@@ -50,7 +52,7 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* пространство имен [Aspose.Words.Vba](../../vbamodulecollection/)
+* пространство имен [Aspose.Words.Vba](../../../aspose.words.vba/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -63,7 +65,7 @@ vbaModules.Remove(vbaModules[2]);
 public VbaModule this[string name] { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к информации о проекте VBA документа.
 
@@ -95,7 +97,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* пространство имен [Aspose.Words.Vba](../../vbamodulecollection/)
+* пространство имен [Aspose.Words.Vba](../../../aspose.words.vba/)
 * сборка [Aspose.Words](../../../)
-
-

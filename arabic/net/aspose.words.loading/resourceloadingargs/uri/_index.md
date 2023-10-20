@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.Uri
-second_title: Aspose.Words لمراجع .NET API
-description: ResourceLoadingArgs ملكية. URI للمورد الذي يتم استخدامه لـ download ifResourceLoading يعودDefault.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words لـ .NET
+description: ResourceLoadingArgs Uri ملكية. URI للمورد الذي يتم استخدامه لـ download ifResourceLoading يعودDefault في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.loading/resourceloadingargs/uri/
@@ -19,7 +21,5 @@ public string Uri { get; set; }
 ### أنظر أيضا
 
 * class [ResourceLoadingArgs](../)
-* مساحة الاسم [Aspose.Words.Loading](../../resourceloadingargs/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

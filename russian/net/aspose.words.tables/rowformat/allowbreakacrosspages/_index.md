@@ -1,7 +1,9 @@
 ---
 title: RowFormat.AllowBreakAcrossPages
-second_title: Справочник по API Aspose.Words для .NET
-description: RowFormat свойство. Истинно если тексту в строке таблицы разрешено разделение по разрыву страницы.
+linktitle: AllowBreakAcrossPages
+articleTitle: AllowBreakAcrossPages
+second_title: Aspose.Words для .NET
+description: RowFormat AllowBreakAcrossPages свойство. Истинно если тексту в строке таблицы разрешено разделение по разрыву страницы на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.tables/rowformat/allowbreakacrosspages/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/rowformat/allowbreakacrosspages/
 public bool AllowBreakAcrossPages { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как отключить разбивку строк по страницам для каждой строки таблицы.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Table.AllowBreakAcrossPages.docx");
 ### Смотрите также
 
 * class [RowFormat](../)
-* пространство имен [Aspose.Words.Tables](../../rowformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ThumbnailGeneratingOptions.GenerateFromFirstPage
-second_title: Aspose.Words für .NET-API-Referenz
-description: ThumbnailGeneratingOptions eigendom. Gibt an ob eine Miniaturansicht von der ersten Seite des Dokuments oder vom ersten Bild generiert werden soll.
+linktitle: GenerateFromFirstPage
+articleTitle: GenerateFromFirstPage
+second_title: Aspose.Words für .NET
+description: ThumbnailGeneratingOptions GenerateFromFirstPage eigendom. Gibt an ob eine Miniaturansicht von der ersten Seite des Dokuments oder vom ersten Bild generiert werden soll in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/
@@ -14,11 +16,11 @@ Gibt an, ob eine Miniaturansicht von der ersten Seite des Dokuments oder vom ers
 public bool GenerateFromFirstPage { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Standard ist`WAHR` , was bedeutet, dass eine Miniaturansicht von der ersten Seite des Dokuments generiert wird. Wenn der Wert lautet`FALSCH` und es gibt kein Bild im Dokument, wird eine Miniaturansicht von der ersten Seite des Dokuments generiert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Miniaturansicht eines Dokuments aktualisiert wird.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### Siehe auch
 
 * class [ThumbnailGeneratingOptions](../)
-* namensraum [Aspose.Words.Rendering](../../thumbnailgeneratingoptions/)
+* namensraum [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../../)
-
-

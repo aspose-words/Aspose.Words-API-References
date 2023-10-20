@@ -1,7 +1,9 @@
 ---
-title: Glyph.Glyph
-second_title: Aspose.Words for .NET API Referansı
-description: Glyph inşaatçı. Bu sınıfın yeni örneğini başlatır.
+title: Glyph
+linktitle: Glyph
+articleTitle: Glyph
+second_title: Aspose.Words for .NET
+description: Glyph inşaatçı. Bu sınıfın yeni örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.shaping/glyph/glyph/
@@ -24,7 +26,5 @@ public Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderO
 ### Ayrıca bakınız
 
 * class [Glyph](../)
-* ad alanı [Aspose.Words.Shaping](../../glyph/)
+* ad alanı [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * toplantı [Aspose.Words](../../../)
-
-

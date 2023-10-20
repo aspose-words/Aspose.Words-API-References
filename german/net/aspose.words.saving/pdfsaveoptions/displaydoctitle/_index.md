@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DisplayDocTitle
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Ein Flag das angibt ob in der Titelleiste des Fensters der Dokumenttitel angezeigt werden soll der aus dem Titeleintrag des Dokumentinformationswörterbuchs stammt.
+linktitle: DisplayDocTitle
+articleTitle: DisplayDocTitle
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions DisplayDocTitle eigendom. Ein Flag das angibt ob in der Titelleiste des Fensters der Dokumenttitel angezeigt werden soll der aus dem Titeleintrag des Dokumentinformationswörterbuchs stammt in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.saving/pdfsaveoptions/displaydoctitle/
@@ -14,7 +16,7 @@ Ein Flag, das angibt, ob in der Titelleiste des Fensters der Dokumenttitel angez
 public bool DisplayDocTitle { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn`FALSCH`, sollte in der Titelleiste stattdessen der Name der PDF-Datei angezeigt werden, die das Dokument enthält.
 
@@ -22,7 +24,7 @@ Dieses Flag ist für die PDF/UA-Konformität erforderlich.`WAHR` Der Wert wird a
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Titel des Dokuments als Titelleiste angezeigt wird.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DocTitle.pdf", pdfSaveOptions);
 ### Siehe auch
 
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

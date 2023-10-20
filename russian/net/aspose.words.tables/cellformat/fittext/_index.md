@@ -1,7 +1,9 @@
 ---
 title: CellFormat.FitText
-second_title: Справочник по API Aspose.Words для .NET
-description: CellFormat свойство. Еслиистинный  помещает текст в ячейку сжимая каждый абзац до ширины ячейки.
+linktitle: FitText
+articleTitle: FitText
+second_title: Aspose.Words для .NET
+description: CellFormat FitText свойство. Еслиистинный  помещает текст в ячейку сжимая каждый абзац до ширины ячейки на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.tables/cellformat/fittext/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cellformat/fittext/
 public bool FitText { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать таблицу с настраиваемыми границами.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Смотрите также
 
 * class [CellFormat](../)
-* пространство имен [Aspose.Words.Tables](../../cellformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

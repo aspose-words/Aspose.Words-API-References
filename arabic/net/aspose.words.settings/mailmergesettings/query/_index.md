@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Query
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. يحتوي على سلسلة لغة الاستعلام الهيكلية التي سيتم تشغيلها مقابل مصدر البيانات الخارجي المحدد لإرجاع مجموعة السجلات التي سيتم استيرادها إلى المستند عند تنفيذ عملية دمج البريد. القيمة الافتراضية هي سلسلة فارغة.
+linktitle: Query
+articleTitle: Query
+second_title: Aspose.Words لـ .NET
+description: MailMergeSettings Query ملكية. يحتوي على سلسلة لغة الاستعلام الهيكلية التي سيتم تشغيلها مقابل مصدر البيانات الخارجي المحدد لإرجاع مجموعة السجلات التي سيتم استيرادها إلى المستند عند تنفيذ عملية دمج البريد. القيمة الافتراضية هي سلسلة فارغة في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.settings/mailmergesettings/query/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/mailmergesettings/query/
 public string Query { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### أنظر أيضا
 
 * class [MailMergeSettings](../)
-* مساحة الاسم [Aspose.Words.Settings](../../mailmergesettings/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

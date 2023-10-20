@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.RevisionNumber
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Hämtar eller ställer in dokumentets revisionsnummer.
+linktitle: RevisionNumber
+articleTitle: RevisionNumber
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties RevisionNumber fast egendom. Hämtar eller ställer in dokumentets revisionsnummer i C#.
 type: docs
 weight: 240
 url: /sv/net/aspose.words.properties/builtindocumentproperties/revisionnumber/
@@ -14,11 +16,11 @@ Hämtar eller ställer in dokumentets revisionsnummer.
 public int RevisionNumber { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Aspose.Words uppdaterar inte den här egenskapen.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med REVNUM-fält.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

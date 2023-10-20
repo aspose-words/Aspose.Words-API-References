@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.PageMargins
-second_title: Aspose.Words för .NET API Referens
-description: HtmlFixedSaveOptions fast egendom. Anger marginalerna runt sidor i ett HTMLdokument. Marginalvärdet mäts i punkter och ska vara lika med eller större än 0. Standardvärdet är 10 poäng.
+linktitle: PageMargins
+articleTitle: PageMargins
+second_title: Aspose.Words för .NET
+description: HtmlFixedSaveOptions PageMargins fast egendom. Anger marginalerna runt sidor i ett HTMLdokument. Marginalvärdet mäts i punkter och ska vara lika med eller större än 0. Standardvärdet är 10 poäng i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/
@@ -14,7 +16,7 @@ Anger marginalerna runt sidor i ett HTML-dokument. Marginalvärdet mäts i punkt
 public double PageMargins { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Beror på värdet av[`PageHorizontalAlignment`](../pagehorizontalalignment/) fast egendom:
 
@@ -22,7 +24,7 @@ Beror på värdet av[`PageHorizontalAlignment`](../pagehorizontalalignment/) fas
 * Definierar övre, nedre och högra sidmarginaler om värdet ärRight .
 * Definierar övre och nedre sidmarginaler om värdet ärCenter .
 
-### Exempel
+## Exempel
 
 Visar hur du justerar sidmarginalerna när du sparar ett dokument till HTML.
 
@@ -45,7 +47,5 @@ Assert.True(Regex.Match(outDocContents,
 ### Se även
 
 * class [HtmlFixedSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

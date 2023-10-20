@@ -1,7 +1,9 @@
 ---
 title: TaskPane.IsVisible
-second_title: Aspose.Words for .NET API 参考
-description: TaskPane 财产. 指定文档打开时任务窗格是否默认显示为可见
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: 用于 .NET 的 Aspose.Words
+description: TaskPane IsVisible 财产. 指定文档打开时任务窗格是否默认显示为可见 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.webextensions/taskpane/isvisible/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.webextensions/taskpane/isvisible/
 public bool IsVisible { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### 也可以看看
 
 * class [TaskPane](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../taskpane/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

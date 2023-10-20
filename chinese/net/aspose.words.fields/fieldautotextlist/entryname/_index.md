@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.EntryName
-second_title: Aspose.Words for .NET API 参考
-description: FieldAutoTextList 财产. 获取或设置自动图文集条目的名称
+linktitle: EntryName
+articleTitle: EntryName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldAutoTextList EntryName 财产. 获取或设置自动图文集条目的名称 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldautotextlist/entryname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldautotextlist/entryname/
 public string EntryName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 AUTOTEXTLIST 字段从自动图文集条目列表中进行选择。
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### 也可以看看
 
 * class [FieldAutoTextList](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldautotextlist/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

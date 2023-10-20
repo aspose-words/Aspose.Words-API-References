@@ -1,7 +1,9 @@
 ---
 title: Field.Type
-second_title: Aspose.Words for .NET API Referansı
-description: Field mülk. Microsoft Word alan türünü alır.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: Field Type mülk. Microsoft Word alan türünü alır C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/field/type/
@@ -14,7 +16,7 @@ Microsoft Word alan türünü alır.
 public virtual FieldType Type { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Alan kodu kullanarak belgeye nasıl alan ekleneceğini gösterir.
 
@@ -35,7 +37,5 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 
 * enum [FieldType](../../fieldtype/)
 * class [Field](../)
-* ad alanı [Aspose.Words.Fields](../../field/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

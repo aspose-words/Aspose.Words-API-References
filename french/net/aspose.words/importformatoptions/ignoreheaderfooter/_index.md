@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.IgnoreHeaderFooter
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImportFormatOptions propriété. Obtient ou définit une valeur booléenne qui spécifie que le formatage source du contenu des entêtes/pieds de page est ignoré siKeepSourceFormatting Le mode est utilisé. La valeur par défaut estvrai .
+linktitle: IgnoreHeaderFooter
+articleTitle: IgnoreHeaderFooter
+second_title: Aspose.Words pour .NET
+description: ImportFormatOptions IgnoreHeaderFooter propriété. Obtient ou définit une valeur booléenne qui spécifie que le formatage source du contenu des entêtes/pieds de page est ignoré siKeepSourceFormatting Le mode est utilisé. La valeur par défaut estvrai  en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/importformatoptions/ignoreheaderfooter/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur booléenne qui spécifie que le formatage source 
 public bool IgnoreHeaderFooter { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment spécifier d'ignorer ou non le formatage source du contenu des en-têtes/pieds de page.
 
@@ -33,7 +35,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.DoNotIgnoreHeaderFooter.docx");
 ### Voir également
 
 * class [ImportFormatOptions](../)
-* espace de noms [Aspose.Words](../../importformatoptions/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

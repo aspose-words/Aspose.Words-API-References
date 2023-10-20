@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreFootnotes
-second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. Получает или задает логическое значение указывающее следует ли игнорировать сноски. Значение по умолчаниюЛОЖЬ .
+linktitle: IgnoreFootnotes
+articleTitle: IgnoreFootnotes
+second_title: Aspose.Words для .NET
+description: FindReplaceOptions IgnoreFootnotes свойство. Получает или задает логическое значение указывающее следует ли игнорировать сноски. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/
 public bool IgnoreFootnotes { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как игнорировать сноски во время операции поиска и замены.
 
@@ -41,7 +43,5 @@ doc.Range.Replace("Lorem ipsum", "Replaced Lorem ipsum", options);
 ### Смотрите также
 
 * class [FindReplaceOptions](../)
-* пространство имен [Aspose.Words.Replacing](../../findreplaceoptions/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

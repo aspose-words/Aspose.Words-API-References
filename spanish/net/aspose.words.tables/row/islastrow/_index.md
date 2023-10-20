@@ -1,7 +1,9 @@
 ---
 title: Row.IsLastRow
-second_title: Referencia de API de Aspose.Words para .NET
-description: Row propiedad. Verdadero si esta es la última fila de una tabla falso en caso contrario.
+linktitle: IsLastRow
+articleTitle: IsLastRow
+second_title: Aspose.Words para .NET
+description: Row IsLastRow propiedad. Verdadero si esta es la última fila de una tabla falso en caso contrario en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.tables/row/islastrow/
@@ -14,7 +16,7 @@ Verdadero si esta es la última fila de una tabla; falso en caso contrario.
 public bool IsLastRow { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar una mesa para que permanezcan juntas en la misma página.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Ver también
 
 * class [Row](../)
-* espacio de nombres [Aspose.Words.Tables](../../row/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

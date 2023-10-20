@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.GetValue
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IMailMergeDataSource méthode. Renvoie une valeur pour le nom de champ spécifié ouFAUX si le champ nest pas trouvé.
+linktitle: GetValue
+articleTitle: GetValue
+second_title: Aspose.Words pour .NET
+description: IMailMergeDataSource GetValue méthode. Renvoie une valeur pour le nom de champ spécifié ouFAUX si le champ nest pas trouvé en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.mailmerging/imailmergedatasource/getvalue/
@@ -23,7 +25,7 @@ public bool GetValue(string fieldName, out object fieldValue)
 
 `vrai` si une valeur a été trouvée.
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec une source de données sous la forme d'un objet personnalisé.
 
@@ -137,7 +139,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Voir également
 
 * interface [IMailMergeDataSource](../)
-* espace de noms [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

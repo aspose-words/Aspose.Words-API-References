@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.Delete
-second_title: Aspose.Words für .NET-API-Referenz
-description: XmlMapping methode. Löscht die Zuordnung des übergeordneten strukturierten Dokuments zu XMLDaten.
+linktitle: Delete
+articleTitle: Delete
+second_title: Aspose.Words für .NET
+description: XmlMapping Delete methode. Löscht die Zuordnung des übergeordneten strukturierten Dokuments zu XMLDaten in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.markup/xmlmapping/delete/
@@ -14,7 +16,7 @@ Löscht die Zuordnung des übergeordneten strukturierten Dokuments zu XML-Daten.
 public void Delete()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie XML-Zuordnungen für benutzerdefinierte XML-Teile festgelegt werden.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Siehe auch
 
 * class [XmlMapping](../)
-* namensraum [Aspose.Words.Markup](../../xmlmapping/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

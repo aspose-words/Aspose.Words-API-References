@@ -1,7 +1,9 @@
 ---
 title: Row.IsFirstRow
-second_title: Aspose.Words for .NET API 参考
-description: Row 财产. 如果这是表中的第一行则为 True否则为假
+linktitle: IsFirstRow
+articleTitle: IsFirstRow
+second_title: 用于 .NET 的 Aspose.Words
+description: Row IsFirstRow 财产. 如果这是表中的第一行则为 True否则为假 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.tables/row/isfirstrow/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/row/isfirstrow/
 public bool IsFirstRow { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何打印文档中每个表的节点结构。
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### 也可以看看
 
 * class [Row](../)
-* 命名空间 [Aspose.Words.Tables](../../row/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

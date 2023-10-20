@@ -1,7 +1,9 @@
 ---
-title: Enum FootnotePosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Notes.FootnotePosition opsomming. Definiert die Fußnotenposition.
+title: FootnotePosition Enum
+linktitle: FootnotePosition
+articleTitle: FootnotePosition
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Notes.FootnotePosition opsomming. Definiert die Fußnotenposition in C#.
 type: docs
 weight: 4290
 url: /de/net/aspose.words.notes/footnoteposition/
@@ -21,7 +23,7 @@ public enum FootnotePosition
 | BottomOfPage | `1` | Fußnoten werden am Ende jeder Seite ausgegeben. |
 | BeneathText | `2` | Fußnoten werden auf jeder Seite unter dem Text ausgegeben. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen anderen Ort auswählen, an dem das Dokument seine Fußnoten sammelt und anzeigt.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 * class [FootnoteOptions](../footnoteoptions/)
 * namensraum [Aspose.Words.Notes](../../aspose.words.notes/)
 * Montage [Aspose.Words](../../)
-
-

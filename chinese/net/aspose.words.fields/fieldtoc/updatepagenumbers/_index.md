@@ -1,7 +1,9 @@
 ---
 title: FieldToc.UpdatePageNumbers
-second_title: Aspose.Words for .NET API 参考
-description: FieldToc 方法. 更新此目录中项目的页码
+linktitle: UpdatePageNumbers
+articleTitle: UpdatePageNumbers
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldToc UpdatePageNumbers 方法. 更新此目录中项目的页码 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.fields/fieldtoc/updatepagenumbers/
@@ -18,7 +20,7 @@ public bool UpdatePageNumbers()
 
 `真的`如果操作成功。如果任何相关的目录书签被删除，`错误的`将被退回。
 
-### 例子
+## 例子
 
 演示如何插入目录，并使用基于标题样式的条目填充它。
 
@@ -103,7 +105,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### 也可以看看
 
 * class [FieldToc](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldtoc/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

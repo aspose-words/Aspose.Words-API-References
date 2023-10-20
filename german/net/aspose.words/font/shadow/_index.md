@@ -1,7 +1,9 @@
 ---
 title: Font.Shadow
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. True wenn die Schriftart als schattiert formatiert ist.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words für .NET
+description: Font Shadow eigendom. True wenn die Schriftart als schattiert formatiert ist in C#.
 type: docs
 weight: 330
 url: /de/net/aspose.words/font/shadow/
@@ -14,7 +16,7 @@ True, wenn die Schriftart als schattiert formatiert ist.
 public bool Shadow { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen mit einem Schatten formatierten Textlauf erstellt.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.Shadow.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

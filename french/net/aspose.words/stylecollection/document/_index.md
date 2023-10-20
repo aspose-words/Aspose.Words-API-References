@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Document
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StyleCollection propriété. Obtient le document propriétaire.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words pour .NET
+description: StyleCollection Document propriété. Obtient le document propriétaire en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/stylecollection/document/
@@ -14,7 +16,7 @@ Obtient le document propriétaire.
 public DocumentBase Document { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de styles d’un document.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * class [DocumentBase](../../documentbase/)
 * class [StyleCollection](../)
-* espace de noms [Aspose.Words](../../stylecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

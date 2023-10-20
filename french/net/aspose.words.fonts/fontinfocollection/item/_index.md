@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontInfoCollection propriété. Obtient une police avec le nom spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: FontInfoCollection Item propriété. Obtient une police avec le nom spécifié en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fonts/fontinfocollection/item/
@@ -18,7 +20,7 @@ public FontInfo this[string name] { get; }
 | --- | --- |
 | name | Nom de la police à localiser, qui ne respecte pas la casse. |
 
-### Exemples
+## Exemples
 
 Montre comment extraire une police incorporée d’un document et l’enregistrer dans le système de fichiers local.
 
@@ -46,7 +48,7 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* espace de noms [Aspose.Words.Fonts](../../fontinfocollection/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -63,7 +65,7 @@ public FontInfo this[int index] { get; }
 | --- | --- |
 | index | Index de base zéro de la police. |
 
-### Exemples
+## Exemples
 
 Montre comment extraire une police incorporée d’un document et l’enregistrer dans le système de fichiers local.
 
@@ -91,7 +93,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* espace de noms [Aspose.Words.Fonts](../../fontinfocollection/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.WebExtensions
-second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words.WebExtensions命名空间提供允许 to 自定义元素和属性的类这些元素和属性扩展了用于表示 Office 加载项的 XML 词汇表
+linktitle: Aspose.Words.WebExtensions
+articleTitle: Aspose.Words.WebExtensions
+second_title: 用于 .NET 的 Aspose.Words
+description: 这Aspose.Words.WebExtensions命名空间提供允许 to 自定义元素和属性的类这些元素和属性扩展了用于表示 Office 加载项的 XML 词汇表 在 C#.
 type: docs
 weight: 290
 url: /zh/net/aspose.words.webextensions/
 ---
-这 **Aspose.Words.WebExtensions**命名空间提供允许 to 自定义元素和属性的类，这些元素和属性扩展了用于表示 Office 加载项的 XML 词汇表。
+这**Aspose.Words.WebExtensions**命名空间提供允许 to 自定义元素和属性的类，这些元素和属性扩展了用于表示 Office 加载项的 XML 词汇表。
 
 ## 课程
 
@@ -29,5 +31,3 @@ url: /zh/net/aspose.words.webextensions/
 | [TaskPaneDockState](./taskpanedockstate/) | 枚举任务窗格对象的可用位置。 |
 | [WebExtensionBindingType](./webextensionbindingtype/) | 枚举 Web 扩展与文档中的数据之间的可用绑定类型。 |
 | [WebExtensionStoreType](./webextensionstoretype/) | 枚举 Web 扩展存储的可用类型。 |
-
-

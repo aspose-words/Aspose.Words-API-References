@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: SpecialChar метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: SpecialChar Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/specialchar/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 `ЛОЖЬ` если посетитель запросил остановку перечисления.
 
-### Примечания
+## Примечания
 
 Звонки[`VisitSpecialChar`](../../documentvisitor/visitspecialchar/).
 
@@ -32,7 +34,5 @@ public override bool Accept(DocumentVisitor visitor)
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [SpecialChar](../)
-* пространство имен [Aspose.Words](../../specialchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

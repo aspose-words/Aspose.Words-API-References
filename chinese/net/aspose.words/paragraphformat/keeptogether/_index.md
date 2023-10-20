@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.KeepTogether
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 如果段落中的所有行都保留在同一页上则为 True
+linktitle: KeepTogether
+articleTitle: KeepTogether
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat KeepTogether 财产. 如果段落中的所有行都保留在同一页上则为 True 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words/paragraphformat/keeptogether/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/keeptogether/
 public bool KeepTogether { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在文档中插入段落。
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

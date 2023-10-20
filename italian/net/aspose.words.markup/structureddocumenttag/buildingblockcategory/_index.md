@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.BuildingBlockCategory
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Specifica la categoria del blocco predefinito per questo SDT node. Non può esserenullo .
+linktitle: BuildingBlockCategory
+articleTitle: BuildingBlockCategory
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag BuildingBlockCategory proprietà. Specifica la categoria del blocco predefinito per questoSDT node. Non può esserenullo  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.markup/structureddocumenttag/buildingblockcategory/
 ---
 ## StructuredDocumentTag.BuildingBlockCategory property
 
-Specifica la categoria del blocco predefinito per questo **SDT** node. Non può essere`nullo` .
+Specifica la categoria del blocco predefinito per questo**SDT** node. Non può essere`nullo` .
 
 ```csharp
 public string BuildingBlockCategory { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
-L'accesso a questa proprietà funzionerà solo perBuildingBlockGallery e DocPartObj Tipi SDT. È di sola lettura per **SDT** del tipo di parte del documento.
+L'accesso a questa proprietà funzionerà solo perBuildingBlockGallery e DocPartObj Tipi SDT. È di sola lettura per**SDT** del tipo di parte del documento.
 
 Per tutti gli altri tipi di SDT si verificherà un'eccezione.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un tag di documento strutturato come elemento costitutivo e impostarne la categoria e la raccolta.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.BuildingBlockCategories.docx");
 ### Guarda anche
 
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.OriginalUri
-second_title: Aspose.Words for .NET API 参考
-description: ResourceLoadingArgs 财产. 导入文档中指定的资源的原始 URI
+linktitle: OriginalUri
+articleTitle: OriginalUri
+second_title: 用于 .NET 的 Aspose.Words
+description: ResourceLoadingArgs OriginalUri 财产. 导入文档中指定的资源的原始 URI 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.loading/resourceloadingargs/originaluri/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.loading/resourceloadingargs/originaluri/
 public string OriginalUri { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何自定义将外部资源加载到文档中的过程。
 
@@ -77,7 +79,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 ### 也可以看看
 
 * class [ResourceLoadingArgs](../)
-* 命名空间 [Aspose.Words.Loading](../../resourceloadingargs/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Accept
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuildingBlock methode. Akzeptiert einen Besucher.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words für .NET
+description: BuildingBlock Accept methode. Akzeptiert einen Besucher in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.buildingblocks/buildingblock/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 True, wenn alle Knoten besucht wurden; falsch wenn[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppte den Vorgang, bevor alle Knoten besucht wurden.
 
-### Bemerkungen
+## Bemerkungen
 
 Listet diesen Knoten und alle seine untergeordneten Knoten auf. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -32,7 +34,7 @@ Anrufe[`VisitBuildingBlockStart`](../../../aspose.words/documentvisitor/visitbui
 
 Hinweis: Ein Bausteinknoten und seine untergeordneten Knoten werden nicht besucht, wenn Sie a Visitor über a ausführen[`Document`](../../../aspose.words/document/) . Wenn Sie einen Besucher über einen -Baustein ausführen möchten, müssen Sie den Besucher über ausführen[`GlossaryDocument`](../../glossarydocument/) or Anruf`Accept` .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument einen benutzerdefinierten Baustein hinzufügt.
 
@@ -130,7 +132,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [BuildingBlock](../)
-* namensraum [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namensraum [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../../)
-
-

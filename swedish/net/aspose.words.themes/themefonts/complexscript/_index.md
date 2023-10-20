@@ -1,7 +1,9 @@
 ---
 title: ThemeFonts.ComplexScript
-second_title: Aspose.Words för .NET API Referens
-description: ThemeFonts fast egendom. Anger teckensnittsnamn för ComplexScripttecken.
+linktitle: ComplexScript
+articleTitle: ComplexScript
+second_title: Aspose.Words för .NET
+description: ThemeFonts ComplexScript fast egendom. Anger teckensnittsnamn för ComplexScripttecken i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.themes/themefonts/complexscript/
@@ -14,7 +16,7 @@ Anger teckensnittsnamn för ComplexScript-tecken.
 public string ComplexScript { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in anpassade färger och teckensnitt för teman.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Se även
 
 * class [ThemeFonts](../)
-* namnutrymme [Aspose.Words.Themes](../../themefonts/)
+* namnutrymme [Aspose.Words.Themes](../../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../../)
-
-

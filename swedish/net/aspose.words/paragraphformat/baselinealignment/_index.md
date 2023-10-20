@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.BaselineAlignment
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar eller ställer in teckensnitt vertikalt på en linje.
+linktitle: BaselineAlignment
+articleTitle: BaselineAlignment
+second_title: Aspose.Words för .NET
+description: ParagraphFormat BaselineAlignment fast egendom. Hämtar eller ställer in teckensnitt vertikalt på en linje i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/paragraphformat/baselinealignment/
@@ -14,7 +16,7 @@ Hämtar eller ställer in teckensnitt vertikalt på en linje.
 public BaselineAlignment BaselineAlignment { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in teckensnitt vertikalt på en linje.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphBaselineAlignment.docx");
 
 * enum [BaselineAlignment](../../baselinealignment/)
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

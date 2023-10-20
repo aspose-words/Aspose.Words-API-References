@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalAlignment
-second_title: Aspose.Words för .NET API Referens
-description: FrameFormat fast egendom. Får vertikal justering av den angivna ramen.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words för .NET
+description: FrameFormat VerticalAlignment fast egendom. Får vertikal justering av den angivna ramen i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/frameformat/verticalalignment/
@@ -14,7 +16,7 @@ Får vertikal justering av den angivna ramen.
 public VerticalAlignment VerticalAlignment { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får information om formateringsegenskaper för stycken som är ramar.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [VerticalAlignment](../../../aspose.words.drawing/verticalalignment/)
 * class [FrameFormat](../)
-* namnutrymme [Aspose.Words](../../frameformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

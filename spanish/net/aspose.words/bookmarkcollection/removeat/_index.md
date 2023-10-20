@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.RemoveAt
-second_title: Referencia de API de Aspose.Words para .NET
-description: BookmarkCollection método. Elimina un marcador en el índice especificado.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words para .NET
+description: BookmarkCollection RemoveAt método. Elimina un marcador en el índice especificado en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/bookmarkcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | El índice de base cero del marcador que se va a eliminar. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar marcadores de un documento.
 
@@ -79,7 +81,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Ver también
 
 * class [BookmarkCollection](../)
-* espacio de nombres [Aspose.Words](../../bookmarkcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.FixCheckDigit
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeBarcode mülk. Geçersiz olması durumunda kontrol basamağının düzeltilip düzeltilmeyeceğini alır veya ayarlar.
+linktitle: FixCheckDigit
+articleTitle: FixCheckDigit
+second_title: Aspose.Words for .NET
+description: FieldMergeBarcode FixCheckDigit mülk. Geçersiz olması durumunda kontrol basamağının düzeltilip düzeltilmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.fields/fieldmergebarcode/fixcheckdigit/
@@ -14,7 +16,7 @@ Geçersiz olması durumunda kontrol basamağının düzeltilip düzeltilmeyeceğ
 public bool FixCheckDigit { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 EAN13 barkodlarında adres-mektup birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ### Ayrıca bakınız
 
 * class [FieldMergeBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmergebarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

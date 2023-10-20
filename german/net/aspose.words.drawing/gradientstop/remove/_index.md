@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Remove
-second_title: Aspose.Words für .NET-API-Referenz
-description: GradientStop methode. Entfernt den Farbverlaufsstopp vom übergeordneten ElementGradientStopCollection .
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words für .NET
+description: GradientStop Remove methode. Entfernt den Farbverlaufsstopp vom übergeordneten ElementGradientStopCollection  in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing/gradientstop/remove/
@@ -14,7 +16,7 @@ Entfernt den Farbverlaufsstopp vom übergeordneten Element[`GradientStopCollecti
 public void Remove()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man der Verlaufsfüllung Verlaufsstopps hinzufügt.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Siehe auch
 
 * class [GradientStop](../)
-* namensraum [Aspose.Words.Drawing](../../gradientstop/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.WebExtensions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Le Aspose.Words.WebExtensionsLespace de noms fournit des classes qui permettent à to de personnaliser des éléments et des attributs qui étendent le vocabulaire XML pour représenter les compléments Office.
+linktitle: Aspose.Words.WebExtensions
+articleTitle: Aspose.Words.WebExtensions
+second_title: Aspose.Words pour .NET
+description: LeAspose.Words.WebExtensionsLespace de noms fournit des classes qui permettent à to de personnaliser des éléments et des attributs qui étendent le vocabulaire XML pour représenter les compléments Office en C#.
 type: docs
 weight: 290
 url: /fr/net/aspose.words.webextensions/
 ---
-Le **Aspose.Words.WebExtensions**L'espace de noms fournit des classes qui permettent à to de personnaliser des éléments et des attributs qui étendent le vocabulaire XML pour représenter les compléments Office.
+Le**Aspose.Words.WebExtensions**L'espace de noms fournit des classes qui permettent à to de personnaliser des éléments et des attributs qui étendent le vocabulaire XML pour représenter les compléments Office.
 
 ## Des classes
 
@@ -29,5 +31,3 @@ Le **Aspose.Words.WebExtensions**L'espace de noms fournit des classes qui permet
 | [TaskPaneDockState](./taskpanedockstate/) | Énumère les emplacements disponibles de l'objet du volet des tâches. |
 | [WebExtensionBindingType](./webextensionbindingtype/) | Énumère les types de liaison disponibles entre une extension Web et les données du document. |
 | [WebExtensionStoreType](./webextensionstoretype/) | Énumère les types disponibles d'un magasin d'extensions Web. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ActiveRecord
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeSettings 财产. 指定应在 Microsoft Word 中显示的数据源中记录的从一开始的索引默认值为 1.
+linktitle: ActiveRecord
+articleTitle: ActiveRecord
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeSettings ActiveRecord 财产. 指定应在 Microsoft Word 中显示的数据源中记录的从一开始的索引默认值为 1 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.settings/mailmergesettings/activerecord/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/mailmergesettings/activerecord/
 public int ActiveRecord { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在连接到外部数据源时执行邮件合并。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### 也可以看看
 
 * class [MailMergeSettings](../)
-* 命名空间 [Aspose.Words.Settings](../../mailmergesettings/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldStart.FieldData
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldStart eigendom. Ruft benutzerdefinierte Felddaten ab die dem Feld zugeordnet sind.
+linktitle: FieldData
+articleTitle: FieldData
+second_title: Aspose.Words für .NET
+description: FieldStart FieldData eigendom. Ruft benutzerdefinierte Felddaten ab die dem Feld zugeordnet sind in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldstart/fielddata/
@@ -14,7 +16,7 @@ Ruft benutzerdefinierte Felddaten ab, die dem Feld zugeordnet sind.
 public byte[] FieldData { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit dem Feld verknüpfte Daten abgerufen werden.
 
@@ -28,7 +30,5 @@ Console.WriteLine(Encoding.Default.GetString(field.Start.FieldData));
 ### Siehe auch
 
 * class [FieldStart](../)
-* namensraum [Aspose.Words.Fields](../../fieldstart/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

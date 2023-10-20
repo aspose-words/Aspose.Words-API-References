@@ -1,7 +1,9 @@
 ---
-title: Enum HeaderFooterBookmarksExportMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode énumération. Spécifie comment les signets dans les entêtes/pieds de page sont exportés.
+title: HeaderFooterBookmarksExportMode Enum
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode énumération. Spécifie comment les signets dans les entêtes/pieds de page sont exportés en C#.
 type: docs
 weight: 5050
 url: /fr/net/aspose.words.saving/headerfooterbookmarksexportmode/
@@ -22,7 +24,7 @@ public enum HeaderFooterBookmarksExportMode
 | First | `1` | Seul le signet du premier en-tête/pied de page de la section est exporté. |
 | All | `2` | Les signets de tous les en-têtes/pieds de page sont exportés. |
 
-### Exemples
+## Exemples
 
 Montre comment traiter les signets dans les en-têtes/pieds de page d'un document que nous rendons au format PDF.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

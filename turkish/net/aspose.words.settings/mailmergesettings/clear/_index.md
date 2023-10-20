@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings yöntem. Adresmektup birleştirme ayarlarını belge kaydedildiğinde hiçbir adresmektup birleştirme ayarı kaydedilmeyecek ve normal bir belge haline gelecek şekilde temizler.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: MailMergeSettings Clear yöntem. Adresmektup birleştirme ayarlarını belge kaydedildiğinde hiçbir adresmektup birleştirme ayarı kaydedilmeyecek ve normal bir belge haline gelecek şekilde temizler C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.settings/mailmergesettings/clear/
@@ -14,7 +16,7 @@ Adres-mektup birleştirme ayarlarını, belge kaydedildiğinde hiçbir adres-mek
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Dış veri kaynağına bağlanırken adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Ayrıca bakınız
 
 * class [MailMergeSettings](../)
-* ad alanı [Aspose.Words.Settings](../../mailmergesettings/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.FolderPath
-second_title: Aspose.Words per .NET API Reference
-description: FolderFontSource proprietà. Percorso della cartella.
+linktitle: FolderPath
+articleTitle: FolderPath
+second_title: Aspose.Words per .NET
+description: FolderFontSource FolderPath proprietà. Percorso della cartella in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/folderfontsource/folderpath/
@@ -14,7 +16,7 @@ Percorso della cartella.
 public string FolderPath { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare una cartella di sistema locale che contiene i caratteri come origine dei caratteri.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Guarda anche
 
 * class [FolderFontSource](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../folderfontsource/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

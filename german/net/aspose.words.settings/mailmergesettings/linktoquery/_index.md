@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.LinkToQuery
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Da bin ich mir nicht sicher. Die Microsoft WordAutomatisierungsreferenz schlägt vor dass dies angibt dass die Abfrage jedes Mal ausgeführt wird wenn das Dokument in Microsoft Word geöffnet wird. Die OOXMLSpezifikation legt jedoch nahe dass dies angibt dass die Abfrage einen Verweis auf eine externe Abfragedatei enthält die die eigentliche Abfrage enthält. Der Standardwert istFALSCH .
+linktitle: LinkToQuery
+articleTitle: LinkToQuery
+second_title: Aspose.Words für .NET
+description: MailMergeSettings LinkToQuery eigendom. Da bin ich mir nicht sicher. Die Microsoft WordAutomatisierungsreferenz schlägt vor dass dies angibt dass die Abfrage jedes Mal ausgeführt wird wenn das Dokument in Microsoft Word geöffnet wird. Die OOXMLSpezifikation legt jedoch nahe dass dies angibt dass die Abfrage einen Verweis auf eine externe Abfragedatei enthält die die eigentliche Abfrage enthält. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.settings/mailmergesettings/linktoquery/
@@ -14,7 +16,7 @@ Da bin ich mir nicht sicher. Die Microsoft Word-Automatisierungsreferenz schläg
 public bool LinkToQuery { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Siehe auch
 
 * class [MailMergeSettings](../)
-* namensraum [Aspose.Words.Settings](../../mailmergesettings/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

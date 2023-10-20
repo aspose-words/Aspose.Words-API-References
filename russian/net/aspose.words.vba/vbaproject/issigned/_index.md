@@ -1,7 +1,9 @@
 ---
 title: VbaProject.IsSigned
-second_title: Справочник по API Aspose.Words для .NET
-description: VbaProject свойство. ПоказываетVbaProject подписан или нет.
+linktitle: IsSigned
+articleTitle: IsSigned
+second_title: Aspose.Words для .NET
+description: VbaProject IsSigned свойство. ПоказываетVbaProject подписан или нет на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.vba/vbaproject/issigned/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.vba/vbaproject/issigned/
 public bool IsSigned { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к информации о проекте VBA документа.
 
@@ -45,7 +47,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Смотрите также
 
 * class [VbaProject](../)
-* пространство имен [Aspose.Words.Vba](../../vbaproject/)
+* пространство имен [Aspose.Words.Vba](../../../aspose.words.vba/)
 * сборка [Aspose.Words](../../../)
-
-

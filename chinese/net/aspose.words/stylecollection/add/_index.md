@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Add
-second_title: Aspose.Words for .NET API 参考
-description: StyleCollection 方法. 创建新的用户定义样式并将其添加到集合中
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: StyleCollection Add 方法. 创建新的用户定义样式并将其添加到集合中 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/stylecollection/add/
@@ -19,7 +21,7 @@ public Style Add(StyleType type, string name)
 | type | StyleType | A[`StyleType`](../../styletype/)指定要创建的样式类型的值。 |
 | name | String | 要创建的样式名称区分大小写。 |
 
-### 评论
+## 评论
 
 您可以创建字符、段落或列表样式。
 
@@ -27,7 +29,7 @@ public Style Add(StyleType type, string name)
 
 如果具有此名称的样式已存在，则引发异常。
 
-### 例子
+## 例子
 
 演示如何将样式添加到文档的样式集合中。
 
@@ -108,7 +110,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 * class [Style](../../style/)
 * enum [StyleType](../../styletype/)
 * class [StyleCollection](../)
-* 命名空间 [Aspose.Words](../../stylecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

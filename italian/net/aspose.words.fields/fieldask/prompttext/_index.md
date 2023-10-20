@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.PromptText
-second_title: Aspose.Words per .NET API Reference
-description: FieldAsk proprietà. Ottiene o imposta il testo del prompt il titolo della finestra del prompt.
+linktitle: PromptText
+articleTitle: PromptText
+second_title: Aspose.Words per .NET
+description: FieldAsk PromptText proprietà. Ottiene o imposta il testo del prompt il titolo della finestra del prompt in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldask/prompttext/
@@ -14,7 +16,7 @@ Ottiene o imposta il testo del prompt (il titolo della finestra del prompt).
 public string PromptText { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un campo ASK e impostarne le proprietà.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Guarda anche
 
 * class [FieldAsk](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldask/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

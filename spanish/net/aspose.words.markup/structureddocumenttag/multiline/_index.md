@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.Multiline
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag propiedad. Especifica si esto TED permite múltiples líneas de texto.
+linktitle: Multiline
+articleTitle: Multiline
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag Multiline propiedad. Especifica si estoTED permite múltiples líneas de texto en C#.
 type: docs
 weight: 210
 url: /es/net/aspose.words.markup/structureddocumenttag/multiline/
 ---
 ## StructuredDocumentTag.Multiline property
 
-Especifica si esto **TED** permite múltiples líneas de texto.
+Especifica si esto**TED** permite múltiples líneas de texto.
 
 ```csharp
 public bool Multiline { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Acceder a esta propiedad sólo funcionará paraRichText yPlainText Tipo SDT.
 
 Para todos los demás tipos de SDT se producirá una excepción.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una etiqueta de documento estructurado en un cuadro de texto sin formato y modificar su apariencia.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Ver también
 
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

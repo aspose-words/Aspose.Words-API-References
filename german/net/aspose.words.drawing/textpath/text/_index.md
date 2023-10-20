@@ -1,7 +1,9 @@
 ---
 title: TextPath.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextPath eigendom. Definiert den Text des Textpfads.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: TextPath Text eigendom. Definiert den Text des Textpfads in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.drawing/textpath/text/
@@ -14,11 +16,11 @@ Definiert den Text des Textpfads.
 public string Text { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist eine leere Zeichenfolge.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit WordArt arbeitet.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Siehe auch
 
 * class [TextPath](../)
-* namensraum [Aspose.Words.Drawing](../../textpath/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

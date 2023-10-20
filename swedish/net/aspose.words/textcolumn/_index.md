@@ -1,7 +1,9 @@
 ---
-title: Class TextColumn
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.TextColumn klass. Representerar en enda textkolumn.TextColumn är medlem iTextColumnCollection samling. DenTextColumn samlingen innehåller alla kolumner i ett avsnitt av ett dokument.
+title: TextColumn Class
+linktitle: TextColumn
+articleTitle: TextColumn
+second_title: Aspose.Words för .NET
+description: Aspose.Words.TextColumn klass. Representerar en enda textkolumn.TextColumn är medlem iTextColumnCollection samling. DenTextColumn samlingen innehåller alla kolumner i ett avsnitt av ett dokument i C#.
 type: docs
 weight: 6390
 url: /sv/net/aspose.words/textcolumn/
@@ -23,13 +25,13 @@ public class TextColumn
 | [SpaceAfter](../../aspose.words/textcolumn/spaceafter/) { get; set; } | Hämtar eller ställer in utrymmet mellan denna kolumn och nästa kolumn i poäng. Krävs inte för den sista kolumnen. |
 | [Width](../../aspose.words/textcolumn/width/) { get; set; } | Hämtar eller ställer in bredden på textkolumnen i punkter. |
 
-### Anmärkningar
+## Anmärkningar
 
 `TextColumn` objekt används endast för att ange kolumner med anpassad bredd och avstånd. Om du vill att kolumnerna i dokumentet ska vara lika breda, ställ in TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) till`Sann`.
 
 När en ny`TextColumn` skapas har dess bredd och avstånd noll.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ojämnt fördelade kolumner.
 
@@ -67,5 +69,3 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

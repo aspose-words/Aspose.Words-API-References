@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Resolution
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSaveOptions eigendom. Legt sowohl die horizontale als auch die vertikale Auflösung für die generierten Bilder in Punkten pro Zoll fest.
+linktitle: Resolution
+articleTitle: Resolution
+second_title: Aspose.Words für .NET
+description: ImageSaveOptions Resolution eigendom. Legt sowohl die horizontale als auch die vertikale Auflösung für die generierten Bilder in Punkten pro Zoll fest in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.saving/imagesaveoptions/resolution/
@@ -14,11 +16,11 @@ Legt sowohl die horizontale als auch die vertikale Auflösung für die generiert
 public float Resolution { set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft ist nur beim Speichern in Rasterbildformaten wirksam.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man beim Rendern eines Dokuments in PNG eine Auflösung angibt.
 
@@ -79,7 +81,5 @@ Document doc = new Document();
 ### Siehe auch
 
 * class [ImageSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../imagesaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

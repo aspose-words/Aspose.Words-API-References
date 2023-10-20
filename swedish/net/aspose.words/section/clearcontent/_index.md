@@ -1,9 +1,11 @@
 ---
 title: Section.ClearContent
-second_title: Aspose.Words för .NET API Referens
-description: Section metod. Rensar avsnittet.
+linktitle: ClearContent
+articleTitle: ClearContent
+second_title: Aspose.Words för .NET
+description: Section ClearContent metod. Rensar avsnittet i C#.
 type: docs
-weight: 110
+weight: 90
 url: /sv/net/aspose.words/section/clearcontent/
 ---
 ## Section.ClearContent method
@@ -14,13 +16,13 @@ Rensar avsnittet.
 public void ClearContent()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Texten till[`Body`](../body/) rensas, finns bara ett tomt stycke kvar som representerar avsnittsbrytningen.
 
 Texten i alla sidhuvuden och sidfötter rensas, men[`HeaderFooter`](../../headerfooter/) själva föremålen tas inte bort.
 
-### Exempel
+## Exempel
 
 Visar hur man rensar innehållet i ett avsnitt.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 ### Se även
 
 * class [Section](../)
-* namnutrymme [Aspose.Words](../../section/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

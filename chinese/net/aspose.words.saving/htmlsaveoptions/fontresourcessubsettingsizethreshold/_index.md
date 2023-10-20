@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontResourcesSubsettingSizeThreshold
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 控制保存到 HTMLMHTML 或 EPUB 时哪些字体资源需要子集化 默认为0.
+linktitle: FontResourcesSubsettingSizeThreshold
+articleTitle: FontResourcesSubsettingSizeThreshold
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions FontResourcesSubsettingSizeThreshold 财产. 控制保存到 HTMLMHTML 或 EPUB 时哪些字体资源需要子集化 默认为0 在 C#.
 type: docs
 weight: 290
 url: /zh/net/aspose.words.saving/htmlsaveoptions/fontresourcessubsettingsizethreshold/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/fontresourcessubsettingsizethre
 public int FontResourcesSubsettingSizeThreshold { get; set; }
 ```
 
-### 评论
+## 评论
 
 [`ExportFontResources`](../exportfontresources/)允许将字体导出为附属文件或作为output 包的一部分。如果文档使用多种字体，尤其是大量字形，则输出大小可能会显着增长 。字体子集化通过过滤掉当前文档未使用的 字形来减小导出字体资源的大小。
 
@@ -24,9 +26,9 @@ public int FontResourcesSubsettingSizeThreshold { get; set; }
 * 环境`FontResourcesSubsettingSizeThreshold`为正值 指示 Aspose.Words 对文件大小大于指定值的字体进行子集化。
 * 将属性设置为MaxValue 抑制字体子集化。
 
-**重要的！**导出字体资源时，应考虑字体许可问题。想要通过 downloadable 字体机制使用特定字体的作者必须始终仔细验证其预期用途是否在字体许可证的范围内。目前，许多商业字体不允许 以任何形式通过网络下载其字体。涵盖某些字体的许可协议特别指出，通过 **@字体脸**CSS 样式表中不允许使用rules 。字体子集设置也可能违反许可条款。
+**重要的！**导出字体资源时，应考虑字体许可问题。想要通过 downloadable 字体机制使用特定字体的作者必须始终仔细验证其预期用途是否在字体许可证的范围内。目前，许多商业字体不允许 以任何形式通过网络下载其字体。涵盖某些字体的许可协议特别指出，通过**@字体脸**CSS 样式表中不允许使用rules 。字体子集设置也可能违反许可条款。
 
-### 例子
+## 例子
 
 展示如何使用字体子集化。
 
@@ -83,7 +85,5 @@ foreach (string filename in fontFileNames)
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

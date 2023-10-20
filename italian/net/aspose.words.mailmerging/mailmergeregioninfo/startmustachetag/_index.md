@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.StartMustacheTag
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeRegionInfo proprietà. Restituisce un tag iniziale baffi per la regione.
+linktitle: StartMustacheTag
+articleTitle: StartMustacheTag
+second_title: Aspose.Words per .NET
+description: MailMergeRegionInfo StartMustacheTag proprietà. Restituisce un tag iniziale baffi per la regione in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/
@@ -14,7 +16,7 @@ Restituisce un tag iniziale "baffi" per la regione.
 public MustacheTag StartMustacheTag { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le etichette dei baffi.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [MustacheTag](../../mustachetag/)
 * class [MailMergeRegionInfo](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

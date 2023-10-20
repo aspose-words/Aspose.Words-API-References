@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.SequenceIdentifier
-second_title: Aspose.Words for .NET API 参考
-description: FieldSeq 财产. 获取或设置分配给要编号的一系列项目的名称
+linktitle: SequenceIdentifier
+articleTitle: SequenceIdentifier
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldSeq SequenceIdentifier 财产. 获取或设置分配给要编号的一系列项目的名称 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldseq/sequenceidentifier/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldseq/sequenceidentifier/
 public string SequenceIdentifier { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示使用 SEQ 字段创建编号。
 
@@ -149,7 +151,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### 也可以看看
 
 * class [FieldSeq](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldseq/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

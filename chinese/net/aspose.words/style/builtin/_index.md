@@ -1,7 +1,9 @@
 ---
 title: Style.BuiltIn
-second_title: Aspose.Words for .NET API 参考
-description: Style 财产. 如果此样式是 MS Word 中的内置样式之一则为 True
+linktitle: BuiltIn
+articleTitle: BuiltIn
+second_title: 用于 .NET 的 Aspose.Words
+description: Style BuiltIn 财产. 如果此样式是 MS Word 中的内置样式之一则为 True 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/style/builtin/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/style/builtin/
 public bool BuiltIn { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何区分自定义样式和内置样式。
 
@@ -41,7 +43,5 @@ Assert.False(style.BuiltIn);
 ### 也可以看看
 
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

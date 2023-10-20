@@ -1,9 +1,11 @@
 ---
 title: Document.Unprotect
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Tar bort skyddet från dokumentet oavsett lösenord.
+linktitle: Unprotect
+articleTitle: Unprotect
+second_title: Aspose.Words för .NET
+description: Document Unprotect metod. Tar bort skyddet från dokumentet oavsett lösenord i C#.
 type: docs
-weight: 760
+weight: 740
 url: /sv/net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}
@@ -14,13 +16,13 @@ Tar bort skyddet från dokumentet oavsett lösenord.
 public void Unprotect()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod tar bort skyddet av dokumentet även om det har ett skyddslösenord.
 
 Observera att dokumentskydd skiljer sig från skrivskydd. Skrivskydd specificeras med hjälp av[`WriteProtection`](../writeprotection/).
 
-### Exempel
+## Exempel
 
 Visar hur man skyddar och avskyddar ett dokument.
 
@@ -65,12 +67,12 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Unprotect(string) {#unprotect}
+## Unprotect(*string*) {#unprotect}
 
 Tar bort skyddet från dokumentet om ett korrekt lösenord anges.
 
@@ -86,13 +88,13 @@ public bool Unprotect(string password)
 
 `Sann` om ett korrekt lösenord angavs och dokumentet var oskyddat.
 
-### Anmärkningar
+## Anmärkningar
 
 Den här metoden tar bara bort dokumentets skydd om ett korrekt lösenord anges.
 
 Observera att dokumentskydd skiljer sig från skrivskydd. Skrivskydd specificeras med hjälp av[`WriteProtection`](../writeprotection/).
 
-### Exempel
+## Exempel
 
 Visar hur man skyddar och avskyddar ett dokument.
 
@@ -137,7 +139,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

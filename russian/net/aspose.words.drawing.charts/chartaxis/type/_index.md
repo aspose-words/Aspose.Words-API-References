@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Возвращает тип оси.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: ChartAxis Type свойство. Возвращает тип оси на С#.
 type: docs
 weight: 290
 url: /ru/net/aspose.words.drawing.charts/chartaxis/type/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/type/
 public ChartAxisType Type { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать серию диаграмм, соответствующую типу диаграммы.
 
@@ -104,7 +106,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * enum [ChartAxisType](../../chartaxistype/)
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

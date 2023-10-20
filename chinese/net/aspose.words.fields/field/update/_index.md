@@ -1,7 +1,9 @@
 ---
 title: Field.Update
-second_title: Aspose.Words for .NET API 参考
-description: Field 方法. 执行字段更新如果该字段已被更新则抛出异常
+linktitle: Update
+articleTitle: Update
+second_title: 用于 .NET 的 Aspose.Words
+description: Field Update 方法. 执行字段更新如果该字段已被更新则抛出异常 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.fields/field/update/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/field/update/
 public void Update()
 ```
 
-### 例子
+## 例子
 
 演示如何使用 FieldType 将字段插入到文档中。
 
@@ -118,12 +120,12 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### 也可以看看
 
 * class [Field](../)
-* 命名空间 [Aspose.Words.Fields](../../field/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Update(bool) {#update_1}
+## Update(*bool*) {#update_1}
 
 执行字段更新。如果该字段已被更新，则抛出异常。
 
@@ -135,7 +137,7 @@ public void Update(bool ignoreMergeFormat)
 | --- | --- | --- |
 | ignoreMergeFormat | Boolean | 如果`真的`然后，无论 MERGEFORMAT 开关如何，都会放弃直接字段结果格式化，否则将执行正常更新。 |
 
-### 例子
+## 例子
 
 演示如何在加载文档时保留或丢弃 INCLUDEPICTURE 字段。
 
@@ -177,7 +179,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### 也可以看看
 
 * class [Field](../)
-* 命名空间 [Aspose.Words.Fields](../../field/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

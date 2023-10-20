@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Author
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Belgenin yazarının adını alır veya ayarlar.
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties Author mülk. Belgenin yazarının adını alır veya ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.properties/builtindocumentproperties/author/
@@ -14,7 +16,7 @@ Belgenin yazarının adını alır veya ayarlar.
 public string Author { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 "Açıklama" kategorisinde yerleşik belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

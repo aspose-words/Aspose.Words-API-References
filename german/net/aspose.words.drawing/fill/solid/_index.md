@@ -1,9 +1,11 @@
 ---
 title: Fill.Solid
-second_title: Aspose.Words für .NET-API-Referenz
-description: Fill methode. Setzt die Füllung auf eine einheitliche Farbe.
+linktitle: Solid
+articleTitle: Solid
+second_title: Aspose.Words für .NET
+description: Fill Solid methode. Setzt die Füllung auf eine einheitliche Farbe in C#.
 type: docs
-weight: 260
+weight: 250
 url: /de/net/aspose.words.drawing/fill/solid/
 ---
 ## Solid() {#solid}
@@ -14,19 +16,19 @@ Setzt die Füllung auf eine einheitliche Farbe.
 public void Solid()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Verwenden Sie diese Methode, um beliebige Füllungen wieder in eine Vollfüllung umzuwandeln.
 
 ### Siehe auch
 
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Solid(Color) {#solid_1}
+## Solid(*Color*) {#solid_1}
 
 Setzt die Füllung auf eine bestimmte einheitliche Farbe.
 
@@ -34,11 +36,11 @@ Setzt die Füllung auf eine bestimmte einheitliche Farbe.
 public void Solid(Color color)
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Verwenden Sie diese Methode, um beliebige Füllungen wieder in eine Vollfüllung umzuwandeln.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine der Füllungen wieder in eine Vollfüllung umgewandelt wird.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
 ### Siehe auch
 
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

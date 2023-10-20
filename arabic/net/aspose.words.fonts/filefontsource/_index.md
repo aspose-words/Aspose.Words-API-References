@@ -1,7 +1,9 @@
 ---
-title: Class FileFontSource
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.FileFontSource فصل. يمثل ملف خط TrueType الفردي المخزن في نظام الملفات.
+title: FileFontSource Class
+linktitle: FileFontSource
+articleTitle: FileFontSource
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.FileFontSource فصل. يمثل ملف خط TrueType الفردي المخزن في نظام الملفات في C#.
 type: docs
 weight: 2870
 url: /ar/net/aspose.words.fonts/filefontsource/
@@ -20,9 +22,9 @@ public class FileFontSource : FontSourceBase
 
 | اسم | وصف |
 | --- | --- |
-| [FileFontSource](filefontsource/#constructor)(string) | الممثل. |
-| [FileFontSource](filefontsource/#constructor_1)(string, int) | الممثل. |
-| [FileFontSource](filefontsource/#constructor_2)(string, int, string) | الممثل. |
+| [FileFontSource](filefontsource/#constructor)(*string*) | الممثل. |
+| [FileFontSource](filefontsource/#constructor_1)(*string, int*) | الممثل. |
+| [FileFontSource](filefontsource/#constructor_2)(*string, int, string*) | الممثل. |
 
 ## الخصائص
 
@@ -40,7 +42,7 @@ public class FileFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | إرجاع قائمة الخطوط المتوفرة عبر هذا المصدر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام ملف الخط في نظام الملفات المحلي كمصدر للخط.
 
@@ -61,5 +63,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

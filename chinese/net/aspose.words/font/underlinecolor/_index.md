@@ -1,7 +1,9 @@
 ---
 title: Font.UnderlineColor
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置应用于字体的下划线颜色
+linktitle: UnderlineColor
+articleTitle: UnderlineColor
+second_title: 用于 .NET 的 Aspose.Words
+description: Font UnderlineColor 财产. 获取或设置应用于字体的下划线颜色 在 C#.
 type: docs
 weight: 540
 url: /zh/net/aspose.words/font/underlinecolor/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/underlinecolor/
 public Color UnderlineColor { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何配置文本下划线的样式和颜色。
 
@@ -33,7 +35,5 @@ doc.Save(ArtifactsDir + "Font.Underlines.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

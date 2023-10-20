@@ -1,7 +1,9 @@
 ---
-title: Enum OdtSaveMeasureUnit
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.OdtSaveMeasureUnit Sıralama. Kaydetme sırasında şekil genişlik ve diğer gibi ölçülebilir belge içeriğine uygulanacak ölçü birimleri belirtildi.
+title: OdtSaveMeasureUnit Enum
+linktitle: OdtSaveMeasureUnit
+articleTitle: OdtSaveMeasureUnit
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.OdtSaveMeasureUnit Sıralama. Kaydetme sırasında şekil genişlik ve diğer gibi ölçülebilir belge içeriğine uygulanacak ölçü birimleri belirtildi C#'da.
 type: docs
 weight: 5320
 url: /tr/net/aspose.words.saving/odtsavemeasureunit/
@@ -21,7 +23,7 @@ public enum OdtSaveMeasureUnit
 | Centimeters | `0` | Belge içeriğinin santimetre kullanılarak kaydedildiğini belirtir. |
 | Inches | `1` | Belge içeriğinin inç kullanılarak kaydedildiğini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir ODT belgesinin stil parametrelerini tanımlamak için farklı ölçü birimlerinin nasıl kullanılacağını gösterir.
 
@@ -45,5 +47,3 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

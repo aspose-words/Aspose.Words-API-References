@@ -1,7 +1,9 @@
 ---
-title: Enum PatternType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.PatternType uppräkning. Anger fyllningsmönstret som ska användas för att fylla en form.
+title: PatternType Enum
+linktitle: PatternType
+articleTitle: PatternType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.PatternType uppräkning. Anger fyllningsmönstret som ska användas för att fylla en form i C#.
 type: docs
 weight: 1170
 url: /sv/net/aspose.words.drawing/patterntype/
@@ -78,5 +80,3 @@ public enum PatternType
 
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

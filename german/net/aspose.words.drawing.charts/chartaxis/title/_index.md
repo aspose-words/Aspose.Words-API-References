@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Title
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Bietet Zugriff auf die Eigenschaften des Achsentitels.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words für .NET
+description: ChartAxis Title eigendom. Bietet Zugriff auf die Eigenschaften des Achsentitels in C#.
 type: docs
 weight: 280
 url: /de/net/aspose.words.drawing.charts/chartaxis/title/
@@ -18,7 +20,5 @@ public ChartAxisTitle Title { get; }
 
 * class [ChartAxisTitle](../../chartaxistitle/)
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

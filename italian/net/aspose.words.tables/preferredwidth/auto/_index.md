@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.Auto
-second_title: Aspose.Words per .NET API Reference
-description: PreferredWidth campo. Restituisce unistanza che rappresenta il valore larghezza preferita non specificata.
+linktitle: Auto
+articleTitle: Auto
+second_title: Aspose.Words per .NET
+description: PreferredWidth Auto campo. Restituisce unistanza che rappresenta il valore larghezza preferita non specificata in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.tables/preferredwidth/auto/
@@ -14,7 +16,7 @@ Restituisce un'istanza che rappresenta il valore "larghezza preferita non specif
 public static readonly PreferredWidth Auto;
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la larghezza preferita per le celle della tabella.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Guarda anche
 
 * class [PreferredWidth](../)
-* spazio dei nomi [Aspose.Words.Tables](../../preferredwidth/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

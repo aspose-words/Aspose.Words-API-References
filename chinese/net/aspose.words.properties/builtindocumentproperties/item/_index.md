@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Item
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 返回一个DocumentProperty对象的属性名称
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties Item 财产. 返回一个DocumentProperty对象的属性名称 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.properties/builtindocumentproperties/item/
@@ -18,7 +20,7 @@ public override DocumentProperty this[string name] { get; }
 | --- | --- |
 | name | 要检索的属性的名称（不区分大小写）。 |
 
-### 评论
+## 评论
 
 属性的字符串名称对应于 typed 属性的名称[`BuiltInDocumentProperties`](../)。
 
@@ -26,7 +28,7 @@ public override DocumentProperty this[string name] { get; }
 
 如果您请求文档中不存在的属性，并且 name 未被识别为内置名称，则会出现`无效的`被返回。
 
-### 例子
+## 例子
 
 展示如何使用自定义文档属性。
 
@@ -52,7 +54,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 * class [DocumentProperty](../../documentproperty/)
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

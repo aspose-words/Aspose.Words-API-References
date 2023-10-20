@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.PrettyFormat
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. Ne zamandoğru uygulanabilir olduğu yerde güzel formatlarda çıktı. Varsayılan değerYANLIŞ .
+linktitle: PrettyFormat
+articleTitle: PrettyFormat
+second_title: Aspose.Words for .NET
+description: SaveOptions PrettyFormat mülk. Ne zamandoğru uygulanabilir olduğu yerde güzel formatlarda çıktı. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.saving/saveoptions/prettyformat/
@@ -14,11 +16,11 @@ Ne zaman`doğru` uygulanabilir olduğu yerde güzel formatlarda çıktı. Varsay
 public bool PrettyFormat { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Ayarlanır`doğru` HTML, MHTML, EPUB, WordML, RTF, DOCX ve ODT çıktılarını insanlar tarafından okunabilir hale getirmek için. Test etme veya hata ayıklama için kullanışlıdır.
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir .html belgesinin ham kodunun okunabilirliğinin nasıl geliştirileceğini gösterir.
 
@@ -69,7 +71,5 @@ else
 ### Ayrıca bakınız
 
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

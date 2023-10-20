@@ -1,12 +1,14 @@
 ---
 title: Fill.TwoColorGradient
-second_title: Aspose.Words för .NET API Referens
-description: Fill metod. Ställer in den angivna fyllningen till en tvåfärgsgradient.
+linktitle: TwoColorGradient
+articleTitle: TwoColorGradient
+second_title: Aspose.Words för .NET
+description: Fill TwoColorGradient metod. Ställer in den angivna fyllningen till en tvåfärgsgradient i C#.
 type: docs
-weight: 270
+weight: 260
 url: /sv/net/aspose.words.drawing/fill/twocolorgradient/
 ---
-## TwoColorGradient(GradientStyle, GradientVariant) {#twocolorgradient}
+## TwoColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/)*) {#twocolorgradient}
 
 Ställer in den angivna fyllningen till en tvåfärgsgradient.
 
@@ -19,7 +21,7 @@ public void TwoColorGradient(GradientStyle style, GradientVariant variant)
 | style | GradientStyle | Gradientstilen[`GradientStyle`](../../gradientstyle/). |
 | variant | GradientVariant | Gradientvarianten[`GradientVariant`](../../gradientvariant/) |
 
-### Exempel
+## Exempel
 
 Visar hur man fyller en form med övertoningar.
 
@@ -62,12 +64,12 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## TwoColorGradient(Color, Color, GradientStyle, GradientVariant) {#twocolorgradient_1}
+## TwoColorGradient(*Color, Color, [GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/)*) {#twocolorgradient_1}
 
 Ställer in den angivna fyllningen till en tvåfärgsgradient.
 
@@ -83,7 +85,7 @@ public void TwoColorGradient(Color color1, Color color2, GradientStyle style,
 | style | GradientStyle | Gradientstilen[`GradientStyle`](../../gradientstyle/). |
 | variant | GradientVariant | Gradientvarianten[`GradientVariant`](../../gradientvariant/) |
 
-### Exempel
+## Exempel
 
 Visar hur man fyller en form med övertoningar.
 
@@ -126,7 +128,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

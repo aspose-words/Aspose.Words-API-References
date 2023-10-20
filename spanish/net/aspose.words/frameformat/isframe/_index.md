@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.IsFrame
-second_title: Referencia de API de Aspose.Words para .NET
-description: FrameFormat propiedad. Devolucionesverdadero si el párrafo es un marco.
+linktitle: IsFrame
+articleTitle: IsFrame
+second_title: Aspose.Words para .NET
+description: FrameFormat IsFrame propiedad. Devolucionesverdadero si el párrafo es un marco en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/frameformat/isframe/
@@ -14,7 +16,7 @@ Devoluciones`verdadero` si el párrafo es un marco.
 public bool IsFrame { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener información sobre las propiedades de formato de párrafos que son marcos.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Ver también
 
 * class [FrameFormat](../)
-* espacio de nombres [Aspose.Words](../../frameformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

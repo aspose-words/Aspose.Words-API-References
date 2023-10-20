@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.InsertedTextEffect
-second_title: Aspose.Words per .NET API Reference
-description: RevisionOptions proprietà. Permette di specificare leffetto da applicare al contenuto inseritoInsertion . Il valore predefinito èUnderline .
+linktitle: InsertedTextEffect
+articleTitle: InsertedTextEffect
+second_title: Aspose.Words per .NET
+description: RevisionOptions InsertedTextEffect proprietà. Permette di specificare leffetto da applicare al contenuto inseritoInsertion . Il valore predefinito èUnderline  in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.layout/revisionoptions/insertedtexteffect/
@@ -14,11 +16,11 @@ Permette di specificare l'effetto da applicare al contenuto inseritoInsertion . 
 public RevisionTextEffect InsertedTextEffect { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Valori diHidden EDoubleStrikeThrough non sono consentiti e causerannoArgumentOutOfRangeException.
 
-### Esempi
+## Esempi
 
 Mostra come modificare l'aspetto delle revisioni.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* spazio dei nomi [Aspose.Words.Layout](../../revisionoptions/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

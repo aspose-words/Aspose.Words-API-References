@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: NodeCollection yöntem. Tüm düğümleri bu koleksiyondan ve belgeden kaldırır.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: NodeCollection Clear yöntem. Tüm düğümleri bu koleksiyondan ve belgeden kaldırır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/nodecollection/clear/
@@ -14,7 +16,7 @@ Tüm düğümleri bu koleksiyondan ve belgeden kaldırır.
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm bölümlerin nasıl kaldırılacağını gösterir.
 
@@ -36,7 +38,5 @@ Assert.AreEqual(string.Empty, doc.GetText().Trim());
 ### Ayrıca bakınız
 
 * class [NodeCollection](../)
-* ad alanı [Aspose.Words](../../nodecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

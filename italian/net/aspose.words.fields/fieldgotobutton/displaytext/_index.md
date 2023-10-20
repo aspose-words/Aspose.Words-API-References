@@ -1,7 +1,9 @@
 ---
 title: FieldGoToButton.DisplayText
-second_title: Aspose.Words per .NET API Reference
-description: FieldGoToButton proprietà. Ottiene o imposta il testo del pulsante che appare nel documento in modo che possa essere selezionato per attivare il salto.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words per .NET
+description: FieldGoToButton DisplayText proprietà. Ottiene o imposta il testo del pulsante che appare nel documento in modo che possa essere selezionato per attivare il salto in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldgotobutton/displaytext/
@@ -14,7 +16,7 @@ Ottiene o imposta il testo del "pulsante" che appare nel documento, in modo che 
 public string DisplayText { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra per inserire un campo GOTOBUTTON.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Field.GOTOBUTTON.docx");
 ### Guarda anche
 
 * class [FieldGoToButton](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldgotobutton/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: DocumentBuilder.IsAtEndOfStructuredDocumentTag
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. إرجاع حقيقي إذا كان المؤشر في نهاية علامة مستند منظم.
+linktitle: IsAtEndOfStructuredDocumentTag
+articleTitle: IsAtEndOfStructuredDocumentTag
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder IsAtEndOfStructuredDocumentTag ملكية. إرجاعحقيقي إذا كان المؤشر في نهاية علامة مستند منظم في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/documentbuilder/isatendofstructureddocumenttag/
 ---
 ## DocumentBuilder.IsAtEndOfStructuredDocumentTag property
 
-إرجاع **حقيقي** إذا كان المؤشر في نهاية علامة مستند منظم.
+إرجاع**حقيقي** إذا كان المؤشر في نهاية علامة مستند منظم.
 
 ```csharp
 public bool IsAtEndOfStructuredDocumentTag { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحريك مؤشر DocumentBuilder داخل علامة مستند منظمة.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

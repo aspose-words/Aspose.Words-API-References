@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListLevelNumber
-second_title: Aspose.Words per .NET API Reference
-description: ListFormat proprietà. Ottiene o imposta il numero del livello di elenco da 0 a 8 per il paragrafo.
+linktitle: ListLevelNumber
+articleTitle: ListLevelNumber
+second_title: Aspose.Words per .NET
+description: ListFormat ListLevelNumber proprietà. Ottiene o imposta il numero del livello di elenco da 0 a 8 per il paragrafo in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.lists/listformat/listlevelnumber/
@@ -14,13 +16,13 @@ Ottiene o imposta il numero del livello di elenco (da 0 a 8) per il paragrafo.
 public int ListLevelNumber { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Nei documenti Word, gli elenchi possono essere costituiti da 1 o 9 livelli, numerati da 0 a 8.
 
 Ha effetto solo quando il[`List`](../list/) la proprietà è impostata per fare riferimento a un elenco valido.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i livelli di elenco.
 
@@ -153,7 +155,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Guarda anche
 
 * class [ListFormat](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listformat/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

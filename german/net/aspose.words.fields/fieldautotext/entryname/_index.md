@@ -1,7 +1,9 @@
 ---
 title: FieldAutoText.EntryName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAutoText eigendom. Ruft den Namen des AutoTextEintrags ab oder legt ihn fest.
+linktitle: EntryName
+articleTitle: EntryName
+second_title: Aspose.Words für .NET
+description: FieldAutoText EntryName eigendom. Ruft den Namen des AutoTextEintrags ab oder legt ihn fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldautotext/entryname/
@@ -14,7 +16,7 @@ Ruft den Namen des AutoText-Eintrags ab oder legt ihn fest.
 public string EntryName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Baustein mit den Feldern AUTOTEXT und GLOSSARY angezeigt wird.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### Siehe auch
 
 * class [FieldAutoText](../)
-* namensraum [Aspose.Words.Fields](../../fieldautotext/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

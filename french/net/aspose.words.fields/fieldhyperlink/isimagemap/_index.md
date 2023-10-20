@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.IsImageMap
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldHyperlink propriété. Obtient ou définit sil faut ajouter des coordonnées au lien hypertexte pour une image cliquable côté serveur.
+linktitle: IsImageMap
+articleTitle: IsImageMap
+second_title: Aspose.Words pour .NET
+description: FieldHyperlink IsImageMap propriété. Obtient ou définit sil faut ajouter des coordonnées au lien hypertexte pour une image cliquable côté serveur en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldhyperlink/isimagemap/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut ajouter des coordonnées au lien hypertexte pour u
 public bool IsImageMap { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les champs HYPERLINK pour créer des liens vers des documents dans le système de fichiers local.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Voir également
 
 * class [FieldHyperlink](../)
-* espace de noms [Aspose.Words.Fields](../../fieldhyperlink/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

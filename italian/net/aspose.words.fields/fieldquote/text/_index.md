@@ -1,7 +1,9 @@
 ---
 title: FieldQuote.Text
-second_title: Aspose.Words per .NET API Reference
-description: FieldQuote proprietà. Ottiene o imposta il testo da recuperare.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words per .NET
+description: FieldQuote Text proprietà. Ottiene o imposta il testo da recuperare in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldquote/text/
@@ -14,7 +16,7 @@ Ottiene o imposta il testo da recuperare.
 public string Text { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra di utilizzare il campo QUOTE.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.QUOTE.docx");
 ### Guarda anche
 
 * class [FieldQuote](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldquote/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

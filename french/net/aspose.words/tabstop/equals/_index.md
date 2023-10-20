@@ -1,7 +1,9 @@
 ---
 title: TabStop.Equals
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TabStop méthode. Compare avec le spécifiéTabStop .
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words pour .NET
+description: TabStop Equals méthode. Compare avec le spécifiéTabStop  en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/tabstop/equals/
@@ -14,7 +16,7 @@ Compare avec le spécifié[`TabStop`](../) .
 public bool Equals(TabStop rhs)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la collection de taquets de tabulation d’un document.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Voir également
 
 * class [TabStop](../)
-* espace de noms [Aspose.Words](../../tabstop/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

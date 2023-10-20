@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSource
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Odso propriété. Spécifie lemplacement de la source de données externe à connecter à un document pour effectuer le publipostage. La valeur par défaut est une chaîne vide.
+linktitle: DataSource
+articleTitle: DataSource
+second_title: Aspose.Words pour .NET
+description: Odso DataSource propriété. Spécifie lemplacement de la source de données externe à connecter à un document pour effectuer le publipostage. La valeur par défaut est une chaîne vide en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.settings/odso/datasource/
@@ -14,7 +16,7 @@ Spécifie l'emplacement de la source de données externe à connecter à un docu
 public string DataSource { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Voir également
 
 * class [Odso](../)
-* espace de noms [Aspose.Words.Settings](../../odso/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

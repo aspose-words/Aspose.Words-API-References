@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowLeaderLines
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabel mülk. Veri etiketi öncü çizgilerinin gösterilmesi gerekip gerekmediğini belirlemeye olanak tanır. Varsayılan değerYANLIŞ .
+linktitle: ShowLeaderLines
+articleTitle: ShowLeaderLines
+second_title: Aspose.Words for .NET
+description: ChartDataLabel ShowLeaderLines mülk. Veri etiketi öncü çizgilerinin gösterilmesi gerekip gerekmediğini belirlemeye olanak tanır. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
@@ -14,11 +16,11 @@ Veri etiketi öncü çizgilerinin gösterilmesi gerekip gerekmediğini belirleme
 public bool ShowLeaderLines { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yalnızca Pasta grafikleri için geçerlidir. Lider çizgiler, bir veri etiketi ile ona karşılık gelen veri noktası arasında görsel bir bağlantı oluşturur.
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
@@ -96,7 +98,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Ayrıca bakınız
 
 * class [ChartDataLabel](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

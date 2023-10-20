@@ -1,7 +1,9 @@
 ---
-title: Enum SdtDateStorageFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Markup.SdtDateStorageFormat تعداد. يحدد كيفية تخزين/استرداد تاريخ SDT عندما تكون SDT مرتبطة بعقدة XML في مخزن بيانات المستند.
+title: SdtDateStorageFormat Enum
+linktitle: SdtDateStorageFormat
+articleTitle: SdtDateStorageFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Markup.SdtDateStorageFormat تعداد. يحدد كيفية تخزين/استرداد تاريخ SDT عندما تكون SDT مرتبطة بعقدة XML في مخزن بيانات المستند في C#.
 type: docs
 weight: 4010
 url: /ar/net/aspose.words.markup/sdtdatestorageformat/
@@ -27,5 +29,3 @@ public enum SdtDateStorageFormat
 
 * مساحة الاسم [Aspose.Words.Markup](../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../)
-
-

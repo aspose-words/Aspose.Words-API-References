@@ -1,7 +1,9 @@
 ---
 title: FieldFileName.IncludeFullPath
-second_title: Aspose.Words for .NET API Referansı
-description: FieldFileName mülk. Tam dosya yolu adının dahil edilip edilmeyeceğini alır veya ayarlar.
+linktitle: IncludeFullPath
+articleTitle: IncludeFullPath
+second_title: Aspose.Words for .NET
+description: FieldFileName IncludeFullPath mülk. Tam dosya yolu adının dahil edilip edilmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldfilename/includefullpath/
@@ -14,7 +16,7 @@ Tam dosya yolu adının dahil edilip edilmeyeceğini alır veya ayarlar.
 public bool IncludeFullPath { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 FILENAME alanının varsayılan değerini geçersiz kılmak için FieldOptions'ın nasıl kullanılacağını gösterir.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + doc.FieldOptions.FileName);
 ### Ayrıca bakınız
 
 * class [FieldFileName](../)
-* ad alanı [Aspose.Words.Fields](../../fieldfilename/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

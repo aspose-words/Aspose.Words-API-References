@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParentSection
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. يسترد الأصلSection من الفقرة.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words لـ .NET
+description: Paragraph ParentSection ملكية. يسترد الأصلSection من الفقرة في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words/paragraph/parentsection/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/parentsection/
 public Section ParentSection { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء رأس وتذييل.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Section](../../section/)
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

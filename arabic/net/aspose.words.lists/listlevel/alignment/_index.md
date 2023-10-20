@@ -1,7 +1,9 @@
 ---
 title: ListLevel.Alignment
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevel ملكية. الحصول على أو تعيين مبررات العدد الفعلي لعنصر القائمة.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words لـ .NET
+description: ListLevel Alignment ملكية. الحصول على أو تعيين مبررات العدد الفعلي لعنصر القائمة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.lists/listlevel/alignment/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/listlevel/alignment/
 public ListLevelAlignment Alignment { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تسمية القائمة لها ما يبررها بالنسبة إلى[`NumberPosition`](../numberposition/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق القائمة المخصصة على الفقرات عند استخدام DocumentBuilder.
 
@@ -78,7 +80,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * enum [ListLevelAlignment](../../listlevelalignment/)
 * class [ListLevel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Clear
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarksOutlineLevelCollection méthode. Supprime tous les éléments de la collection.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words pour .NET
+description: BookmarksOutlineLevelCollection Clear méthode. Supprime tous les éléments de la collection en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/bookmarksoutlinelevelcollection/clear/
@@ -14,7 +16,7 @@ Supprime tous les éléments de la collection.
 public void Clear()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir les niveaux de plan pour les signets.
 
@@ -72,7 +74,5 @@ outlineLevels.Clear();
 ### Voir également
 
 * class [BookmarksOutlineLevelCollection](../)
-* espace de noms [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

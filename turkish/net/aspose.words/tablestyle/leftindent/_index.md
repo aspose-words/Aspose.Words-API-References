@@ -1,7 +1,9 @@
 ---
 title: TableStyle.LeftIndent
-second_title: Aspose.Words for .NET API Referansı
-description: TableStyle mülk. Bir tablonun sol girintisini temsil eden değeri alır veya ayarlar.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words for .NET
+description: TableStyle LeftIndent mülk. Bir tablonun sol girintisini temsil eden değeri alır veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/tablestyle/leftindent/
@@ -14,7 +16,7 @@ Bir tablonun sol girintisini temsil eden değeri alır veya ayarlar.
 public double LeftIndent { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun konumunun nasıl ayarlanacağını gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.SetTableAlignment.docx");
 ### Ayrıca bakınız
 
 * class [TableStyle](../)
-* ad alanı [Aspose.Words](../../tablestyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

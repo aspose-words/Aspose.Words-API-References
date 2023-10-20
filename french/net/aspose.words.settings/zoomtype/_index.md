@@ -1,7 +1,9 @@
 ---
-title: Enum ZoomType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Settings.ZoomType énumération. Valeurs possibles pour la taille ou la taille du document qui apparaît à lécran dans Microsoft Word.
+title: ZoomType Enum
+linktitle: ZoomType
+articleTitle: ZoomType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Settings.ZoomType énumération. Valeurs possibles pour la taille ou la taille du document qui apparaît à lécran dans Microsoft Word en C#.
 type: docs
 weight: 5980
 url: /fr/net/aspose.words.settings/zoomtype/
@@ -30,5 +32,3 @@ public enum ZoomType
 * property [ZoomType](../viewoptions/zoomtype/)
 * espace de noms [Aspose.Words.Settings](../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../)
-
-

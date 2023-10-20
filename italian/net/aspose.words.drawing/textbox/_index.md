@@ -1,7 +1,9 @@
 ---
-title: Class TextBox
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.TextBox classe. Definisce gli attributi che specificano come viene visualizzato un testo allinterno di una forma.
+title: TextBox Class
+linktitle: TextBox
+articleTitle: TextBox
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.TextBox classe. Definisce gli attributi che specificano come viene visualizzato un testo allinterno di una forma in C#.
 type: docs
 weight: 1320
 url: /it/net/aspose.words.drawing/textbox/
@@ -38,13 +40,13 @@ public class TextBox
 | Nome | Descrizione |
 | --- | --- |
 | [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | Interrompe il collegamento al successivo`TextBox` . |
-| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(TextBox) | Determina se questo`TextBox` può essere collegato al bersaglio`TextBox` . |
+| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(*TextBox*) | Determina se questo`TextBox` può essere collegato al bersaglio`TextBox` . |
 
-### Osservazioni
+## Osservazioni
 
 Usa il[`TextBox`](../shape/textbox/) property per accedere alle proprietà del testo di una forma. Non crei istanze di`TextBox` classe direttamente.
 
-### Esempi
+## Esempi
 
 Mostra come impostare i margini interni per una casella di testo.
 
@@ -110,5 +112,3 @@ doc.Save(ArtifactsDir + "Shape.TextBoxFitShapeToText.docx");
 
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

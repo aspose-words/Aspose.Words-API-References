@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.HasSequenceName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIndex mülk. Alanın sonuç oluşturulurken bir sıranın kullanılıp kullanılmayacağını belirten bir değer alır.
+linktitle: HasSequenceName
+articleTitle: HasSequenceName
+second_title: Aspose.Words for .NET
+description: FieldIndex HasSequenceName mülk. Alanın sonuç oluşturulurken bir sıranın kullanılıp kullanılmayacağını belirten bir değer alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fieldindex/hassequencename/
@@ -14,7 +16,7 @@ Alanın sonuç oluşturulurken bir sıranın kullanılıp kullanılmayacağını
 public bool HasSequenceName { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 INDEX ve SEQ alanlarını birleştirerek bir belgenin nasıl bölümlere bölüneceğini gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### Ayrıca bakınız
 
 * class [FieldIndex](../)
-* ad alanı [Aspose.Words.Fields](../../fieldindex/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

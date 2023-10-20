@@ -1,7 +1,9 @@
 ---
 title: FieldInfo.InfoType
-second_title: Aspose.Words för .NET API Referens
-description: FieldInfo fast egendom. Hämtar eller ställer in typen av dokumentegenskap som ska infogas.
+linktitle: InfoType
+articleTitle: InfoType
+second_title: Aspose.Words för .NET
+description: FieldInfo InfoType fast egendom. Hämtar eller ställer in typen av dokumentegenskap som ska infogas i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldinfo/infotype/
@@ -14,7 +16,7 @@ Hämtar eller ställer in typen av dokumentegenskap som ska infogas.
 public string InfoType { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med INFO-fält.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.INFO.docx");
 ### Se även
 
 * class [FieldInfo](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldinfo/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

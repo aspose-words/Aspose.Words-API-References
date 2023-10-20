@@ -1,7 +1,9 @@
 ---
 title: ListFormat.IsListItem
-second_title: Справочник по API Aspose.Words для .NET
-description: ListFormat свойство. Истинно если к абзацу применено маркированное или нумерованное форматирование.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words для .NET
+description: ListFormat IsListItem свойство. Истинно если к абзацу применено маркированное или нумерованное форматирование на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.lists/listformat/islistitem/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.lists/listformat/islistitem/
 public bool IsListItem { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вывести все абзацы документа, являющиеся элементами списка.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 ### Смотрите также
 
 * class [ListFormat](../)
-* пространство имен [Aspose.Words.Lists](../../listformat/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class SaveOutputParameters
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.SaveOutputParameters فصل. يتم إرجاع هذا الكائن إلى المتصل بعد حفظ المستند ويحتوي على معلومات إضافية تم إنشاؤها أو حسابها بواسطة أثناء عملية الحفظ. يمكن للمتصل استخدام هذا الكائن أو تجاهله.
+title: SaveOutputParameters Class
+linktitle: SaveOutputParameters
+articleTitle: SaveOutputParameters
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.SaveOutputParameters فصل. يتم إرجاع هذا الكائن إلى المتصل بعد حفظ المستند ويحتوي على معلومات إضافية تم إنشاؤها أو حسابها بواسطة أثناء عملية الحفظ. يمكن للمتصل استخدام هذا الكائن أو تجاهله في C#.
 type: docs
 weight: 5590
 url: /ar/net/aspose.words.saving/saveoutputparameters/
@@ -22,7 +24,7 @@ public class SaveOutputParameters
 | --- | --- |
 | [ContentType](../../aspose.words.saving/saveoutputparameters/contenttype/) { get; } | إرجاع سلسلة نوع المحتوى (نوع وسائط الإنترنت) التي تحدد نوع المستند المحفوظ. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى معلمات الإخراج لعملية حفظ المستند.
 
@@ -46,5 +48,3 @@ Assert.AreEqual("application/pdf", parameters.ContentType);
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldStyleRef.FieldStyleRef
-second_title: Aspose.Words لمراجع .NET API
-description: FieldStyleRef البناء. Default_Constructor
+title: FieldStyleRef
+linktitle: FieldStyleRef
+articleTitle: FieldStyleRef
+second_title: Aspose.Words لـ .NET
+description: FieldStyleRef البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldstyleref/fieldstyleref/
@@ -17,7 +19,5 @@ public FieldStyleRef()
 ### أنظر أيضا
 
 * class [FieldStyleRef](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldstyleref/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

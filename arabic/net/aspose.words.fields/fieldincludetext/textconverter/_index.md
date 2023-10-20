@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.TextConverter
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIncludeText ملكية. الحصول على أو تعيين اسم محول النص لتنسيق الملف المضمن.
+linktitle: TextConverter
+articleTitle: TextConverter
+second_title: Aspose.Words لـ .NET
+description: FieldIncludeText TextConverter ملكية. الحصول على أو تعيين اسم محول النص لتنسيق الملف المضمن في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fields/fieldincludetext/textconverter/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldincludetext/textconverter/
 public string TextConverter { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل INCLUDETEXT وتعيين خصائصه.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### أنظر أيضا
 
 * class [FieldIncludeText](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldincludetext/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

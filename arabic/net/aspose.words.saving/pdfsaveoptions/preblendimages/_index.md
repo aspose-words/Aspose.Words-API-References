@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PreblendImages
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على أو تعيين قيمة لتحديد ما إذا كان سيتم مزج الصور الشفافة مسبقًا مع لون الخلفية السوداء أم لا.
+linktitle: PreblendImages
+articleTitle: PreblendImages
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions PreblendImages ملكية. الحصول على أو تعيين قيمة لتحديد ما إذا كان سيتم مزج الصور الشفافة مسبقًا مع لون الخلفية السوداء أم لا في C#.
 type: docs
 weight: 260
 url: /ar/net/aspose.words.saving/pdfsaveoptions/preblendimages/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/preblendimages/
 public bool PreblendImages { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 قد يؤدي المزج المسبق للصور إلى تحسين المظهر المرئي لمستندات PDF في Adobe Reader وإزالة العناصر المضادة للتعرجات.
 
@@ -22,7 +24,7 @@ public bool PreblendImages { get; set; }
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية مزج الصور مسبقًا بخلفيات شفافة أثناء حفظ المستند في ملف PDF.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImagesNetStandard2.pdf", options
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

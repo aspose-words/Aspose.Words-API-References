@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageFileName
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSavingArgs eigendom. Ruft den Dateinamen ab unter dem die Dokumentseite gespeichert wird oder legt diesen fest.
+linktitle: PageFileName
+articleTitle: PageFileName
+second_title: Aspose.Words für .NET
+description: PageSavingArgs PageFileName eigendom. Ruft den Dateinamen ab unter dem die Dokumentseite gespeichert wird oder legt diesen fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/pagesavingargs/pagefilename/
@@ -14,11 +16,11 @@ Ruft den Dateinamen ab, unter dem die Dokumentseite gespeichert wird, oder legt 
 public string PageFileName { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn nicht angegeben, werden der Name und der Pfad der Auslagerungsdatei automatisch unter Verwendung des ursprünglichen Dateinamens generiert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Rückruf verwendet wird, um ein Dokument Seite für Seite im HTML-Format zu speichern.
 
@@ -75,7 +77,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Siehe auch
 
 * class [PageSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../pagesavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

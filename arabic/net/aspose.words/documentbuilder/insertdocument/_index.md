@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertDocument
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج مستند في موضع المؤشر.
+linktitle: InsertDocument
+articleTitle: InsertDocument
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertDocument طريقة. إدراج مستند في موضع المؤشر في C#.
 type: docs
 weight: 310
 url: /ar/net/aspose.words/documentbuilder/insertdocument/
 ---
-## InsertDocument(Document, ImportFormatMode) {#insertdocument}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/)*) {#insertdocument}
 
 إدراج مستند في موضع المؤشر.
 
@@ -23,11 +25,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 العقدة الأولى للمحتوى المدرج.
 
-### ملاحظات
+## ملاحظات
 
 تحاكي هذه الطريقة سلوك MS Word، كما لو تم الضغط على CTRL+'A' (تحديد كل المحتوى)، ثم CTRL+'C' (تم تحديد النسخة في المخزن المؤقت) داخل مستند واحد ثم CTRL+'V' (أدخل المحتوى من المخزن المؤقت) داخل مستند آخر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مستند في مستند آخر.
 
@@ -50,12 +52,12 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 * class [Document](../../document/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertDocument(Document, ImportFormatMode, ImportFormatOptions) {#insertdocument_1}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#insertdocument_1}
 
 إدراج مستند في موضع المؤشر.
 
@@ -74,11 +76,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 العقدة الأولى للمحتوى المدرج.
 
-### ملاحظات
+## ملاحظات
 
 تحاكي هذه الطريقة سلوك MS Word، كما لو تم الضغط على CTRL+'A' (تحديد كل المحتوى)، ثم CTRL+'C' (تم تحديد النسخة في المخزن المؤقت) داخل مستند واحد ثم CTRL+'V' (أدخل المحتوى من المخزن المؤقت) داخل مستند آخر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حل الأنماط المكررة أثناء إدراج المستندات.
 
@@ -117,7 +119,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

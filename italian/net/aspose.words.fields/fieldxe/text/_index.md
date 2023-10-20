@@ -1,7 +1,9 @@
 ---
 title: FieldXE.Text
-second_title: Aspose.Words per .NET API Reference
-description: FieldXE proprietà. Ottiene o imposta il testo della voce.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words per .NET
+description: FieldXE Text proprietà. Ottiene o imposta il testo della voce in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fields/fieldxe/text/
@@ -14,7 +16,7 @@ Ottiene o imposta il testo della voce.
 public string Text { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un campo INDICE e quindi utilizzare i campi XE per compilarlo con le voci.
 
@@ -140,7 +142,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Guarda anche
 
 * class [FieldXE](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldxe/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

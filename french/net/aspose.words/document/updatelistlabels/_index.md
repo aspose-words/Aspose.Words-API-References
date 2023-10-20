@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateListLabels
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document méthode. Met à jour les étiquettes de liste pour tous les éléments de liste du document.
+linktitle: UpdateListLabels
+articleTitle: UpdateListLabels
+second_title: Aspose.Words pour .NET
+description: Document UpdateListLabels méthode. Met à jour les étiquettes de liste pour tous les éléments de liste du document en C#.
 type: docs
-weight: 780
+weight: 760
 url: /fr/net/aspose.words/document/updatelistlabels/
 ---
 ## Document.UpdateListLabels method
@@ -14,13 +16,13 @@ Met à jour les étiquettes de liste pour tous les éléments de liste du docume
 public void UpdateListLabels()
 ```
 
-### Remarques
+## Remarques
 
 Cette méthode met à jour les propriétés des étiquettes de liste telles que[`LabelValue`](../../../aspose.words.lists/listlabel/labelvalue/) et [`LabelString`](../../../aspose.words.lists/listlabel/labelstring/) pour chaque[`ListLabel`](../../paragraph/listlabel/)objet dans le document.
 
 De plus, cette méthode est parfois appelée implicitement lors de la mise à jour des champs du document. Ceci est requis car certains champs pouvant faire référence à des numéros de liste (tels que TOC ou REF) ont besoin qu'ils soient à jour.
 
-### Exemples
+## Exemples
 
 Montre comment extraire les étiquettes de liste de tous les paragraphes qui sont des éléments de liste.
 
@@ -55,7 +57,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.HeadingPairs
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Указывает заголовки документов и их имена.
+linktitle: HeadingPairs
+articleTitle: HeadingPairs
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties HeadingPairs свойство. Указывает заголовки документов и их имена на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.properties/builtindocumentproperties/headingpairs/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/headingpairs/
 public object[] HeadingPairs { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Каждая пара заголовков занимает два элемента в этом массиве.
 
@@ -24,7 +26,7 @@ public object[] HeadingPairs { get; set; }
 
 Aspose.Words не обновляет это свойство.
 
-### Примеры
+## Примеры
 
 Показывает связь между свойствами "HeadingPairs" и "TitlesOfParts".
 
@@ -55,7 +57,5 @@ while (headingPairsIndex < headingPairs.Length)
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

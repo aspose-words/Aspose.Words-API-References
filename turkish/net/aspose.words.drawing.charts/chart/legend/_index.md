@@ -1,7 +1,9 @@
 ---
 title: Chart.Legend
-second_title: Aspose.Words for .NET API Referansı
-description: Chart mülk. Grafik açıklama özelliklerine erişim sağlar.
+linktitle: Legend
+articleTitle: Legend
+second_title: Aspose.Words for .NET
+description: Chart Legend mülk. Grafik açıklama özelliklerine erişim sağlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing.charts/chart/legend/
@@ -14,7 +16,7 @@ Grafik açıklama özelliklerine erişim sağlar.
 public ChartLegend Legend { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir grafiğin göstergesinin görünümünün nasıl düzenleneceğini gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * class [ChartLegend](../../chartlegend/)
 * class [Chart](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chart/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

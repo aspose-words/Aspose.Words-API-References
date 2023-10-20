@@ -1,7 +1,9 @@
 ---
 title: FieldTA.PageRangeBookmarkName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldTA eigendom. Ruft den Namen des Lesezeichens ab das einen Seitenbereich markiert der als Seitenzahl des Eintrags eingefügt wird oder legt diesen fest.
+linktitle: PageRangeBookmarkName
+articleTitle: PageRangeBookmarkName
+second_title: Aspose.Words für .NET
+description: FieldTA PageRangeBookmarkName eigendom. Ruft den Namen des Lesezeichens ab das einen Seitenbereich markiert der als Seitenzahl des Eintrags eingefügt wird oder legt diesen fest in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldta/pagerangebookmarkname/
@@ -14,7 +16,7 @@ Ruft den Namen des Lesezeichens ab, das einen Seitenbereich markiert, der als Se
 public string PageRangeBookmarkName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe von TOA- und TA-Feldern ein Autoritätsverzeichnis erstellt und anpasst.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Siehe auch
 
 * class [FieldTA](../)
-* namensraum [Aspose.Words.Fields](../../fieldta/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HeightRule
-second_title: Aspose.Words for .NET API 参考
-description: FrameFormat 财产. 获取确定指定框架高度的规则
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: 用于 .NET 的 Aspose.Words
+description: FrameFormat HeightRule 财产. 获取确定指定框架高度的规则 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/frameformat/heightrule/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/frameformat/heightrule/
 public HeightRule HeightRule { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何获取有关框架段落的格式设置属性的信息。
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [HeightRule](../../heightrule/)
 * class [FrameFormat](../)
-* 命名空间 [Aspose.Words](../../frameformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

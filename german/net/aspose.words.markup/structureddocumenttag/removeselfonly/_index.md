@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.RemoveSelfOnly
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag methode. Entfernt nur diesen SDTKnoten selbst behält aber seinen Inhalt im Dokumentbaum.
+linktitle: RemoveSelfOnly
+articleTitle: RemoveSelfOnly
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag RemoveSelfOnly methode. Entfernt nur diesen SDTKnoten selbst behält aber seinen Inhalt im Dokumentbaum in C#.
 type: docs
-weight: 370
+weight: 350
 url: /de/net/aspose.words.markup/structureddocumenttag/removeselfonly/
 ---
 ## StructuredDocumentTag.RemoveSelfOnly method
@@ -14,7 +16,7 @@ Entfernt nur diesen SDT-Knoten selbst, behält aber seinen Inhalt im Dokumentbau
 public void RemoveSelfOnly()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein strukturiertes Dokument-Tag in einem Nur-Text-Feld erstellt und sein Erscheinungsbild ändert.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Siehe auch
 
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

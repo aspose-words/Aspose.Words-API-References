@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetEntity
-second_title: Aspose.Words för .NET API Referens
-description: LayoutCollector metod. Returnerar en ogenomskinlig position förLayoutEnumerator som motsvarar den angivna noden. Du kan använda returnerat värde som ett argument tillCurrent givet att dokumentet som räknas upp och dokumentet för noden är desamma.
+linktitle: GetEntity
+articleTitle: GetEntity
+second_title: Aspose.Words för .NET
+description: LayoutCollector GetEntity metod. Returnerar en ogenomskinlig position förLayoutEnumerator som motsvarar den angivna noden. Du kan använda returnerat värde som ett argument tillCurrent givet att dokumentet som räknas upp och dokumentet för noden är desamma i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.layout/layoutcollector/getentity/
@@ -14,7 +16,7 @@ Returnerar en ogenomskinlig position för[`LayoutEnumerator`](../../layoutenumer
 public object GetEntity(Node node)
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod fungerar endast för[`Paragraph`](../../../aspose.words/paragraph/) noder, såväl som odelbara inline-noder, t.ex[`BookmarkStart`](../../../aspose.words/bookmarkstart/) eller[`Shape`](../../../aspose.words.drawing/shape/) . Det fungerar inte för[`Run`](../../../aspose.words/run/) ,[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) eller[`Table`](../../../aspose.words.tables/table/) noder och noder i sidhuvud/sidfot.
 
@@ -24,7 +26,7 @@ Om du behöver navigera till en[`Run`](../../../aspose.words/run/) av text så k
 
 Om du behöver navigera till en[`Cell`](../../../aspose.words.tables/cell/) nod så kan du flytta till en[`Paragraph`](../../../aspose.words/paragraph/) nod i den här cellen och stig sedan upp till en överordnad enhet. Samma tillvägagångssätt kan användas för[`Row`](../../../aspose.words.tables/row/) och[`Table`](../../../aspose.words.tables/table/) knutpunkter.
 
-### Exempel
+## Exempel
 
 Visar hur man kan se sidorna som en nod sträcker sig över.
 
@@ -83,7 +85,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutcollector/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

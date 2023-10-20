@@ -1,9 +1,11 @@
 ---
 title: Style.Name
-second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Stilin adını alır veya ayarlar.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words for .NET
+description: Style Name mülk. Stilin adını alır veya ayarlar C#'da.
 type: docs
-weight: 130
+weight: 120
 url: /tr/net/aspose.words/style/name/
 ---
 ## Style.Name property
@@ -14,13 +16,13 @@ Stilin adını alır veya ayarlar.
 public string Name { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Boş dize olamaz.
 
 Koleksiyonda zaten böyle bir ada sahip bir stil varsa, bu stil onu geçersiz kılacaktır. Etkilenen tüm düğümler yeni stile referans verecektir.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin stil koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -73,7 +75,5 @@ Assert.AreNotEqual(doc.Styles["Heading 1"].Font.Color, newStyle.Font.Color);
 ### Ayrıca bakınız
 
 * class [Style](../)
-* ad alanı [Aspose.Words](../../style/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

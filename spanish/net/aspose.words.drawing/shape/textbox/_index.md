@@ -1,7 +1,9 @@
 ---
 title: Shape.TextBox
-second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. Define atributos que especifican cómo se muestra el texto en una forma.
+linktitle: TextBox
+articleTitle: TextBox
+second_title: Aspose.Words para .NET
+description: Shape TextBox propiedad. Define atributos que especifican cómo se muestra el texto en una forma en C#.
 type: docs
 weight: 220
 url: /es/net/aspose.words.drawing/shape/textbox/
@@ -14,7 +16,7 @@ Define atributos que especifican cómo se muestra el texto en una forma.
 public TextBox TextBox { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer la orientación del texto dentro de un cuadro de texto.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * class [TextBox](../../textbox/)
 * class [Shape](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shape/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

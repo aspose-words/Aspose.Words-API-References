@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.AutoSpaceLikeWord95
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Emular Word 95 con espacio entre caracteres de ancho completo.
+linktitle: AutoSpaceLikeWord95
+articleTitle: AutoSpaceLikeWord95
+second_title: Aspose.Words para .NET
+description: CompatibilityOptions AutoSpaceLikeWord95 propiedad. Emular Word 95 con espacio entre caracteres de ancho completo en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.settings/compatibilityoptions/autospacelikeword95/
@@ -17,7 +19,5 @@ public bool AutoSpaceLikeWord95 { get; set; }
 ### Ver también
 
 * class [CompatibilityOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../compatibilityoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

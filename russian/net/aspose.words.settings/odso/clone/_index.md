@@ -1,7 +1,9 @@
 ---
 title: Odso.Clone
-second_title: Справочник по API Aspose.Words для .NET
-description: Odso метод. Возвращает глубокую копию этого объекта.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words для .NET
+description: Odso Clone метод. Возвращает глубокую копию этого объекта на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.settings/odso/clone/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odso/clone/
 public Odso Clone()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Смотрите также
 
 * class [Odso](../)
-* пространство имен [Aspose.Words.Settings](../../odso/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Footnote.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Footnote eigendom. Gibt zurückFootnote .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: Footnote NodeType eigendom. Gibt zurückFootnote  in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.notes/footnote/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückFootnote .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Footnote](../)
-* namensraum [Aspose.Words.Notes](../../footnote/)
+* namensraum [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Montage [Aspose.Words](../../../)
-
-

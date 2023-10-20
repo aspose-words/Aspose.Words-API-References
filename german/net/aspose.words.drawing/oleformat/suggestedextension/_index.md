@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SuggestedExtension
-second_title: Aspose.Words für .NET-API-Referenz
-description: OleFormat eigendom. Ruft die für das aktuell eingebettete Objekt vorgeschlagene Dateierweiterung ab wenn Sie es in einer Datei speichern möchten.
+linktitle: SuggestedExtension
+articleTitle: SuggestedExtension
+second_title: Aspose.Words für .NET
+description: OleFormat SuggestedExtension eigendom. Ruft die für das aktuell eingebettete Objekt vorgeschlagene Dateierweiterung ab wenn Sie es in einer Datei speichern möchten in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.drawing/oleformat/suggestedextension/
@@ -14,7 +16,7 @@ Ruft die für das aktuell eingebettete Objekt vorgeschlagene Dateierweiterung ab
 public string SuggestedExtension { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eingebettete OLE-Objekte in Dateien extrahiert werden.
 
@@ -49,7 +51,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Siehe auch
 
 * class [OleFormat](../)
-* namensraum [Aspose.Words.Drawing](../../oleformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

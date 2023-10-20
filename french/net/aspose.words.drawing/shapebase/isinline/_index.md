@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsInline
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Un moyen rapide de déterminer si cette forme est positionnée en ligne avec le texte.
+linktitle: IsInline
+articleTitle: IsInline
+second_title: Aspose.Words pour .NET
+description: ShapeBase IsInline propriété. Un moyen rapide de déterminer si cette forme est positionnée en ligne avec le texte en C#.
 type: docs
 weight: 290
 url: /fr/net/aspose.words.drawing/shapebase/isinline/
@@ -14,11 +16,11 @@ Un moyen rapide de déterminer si cette forme est positionnée en ligne avec le 
 public bool IsInline { get; }
 ```
 
-### Remarques
+## Remarques
 
 N'a d'effet que sur les formes de niveau supérieur.
 
-### Exemples
+## Exemples
 
 Montre comment déterminer si une forme est intégrée ou flottante.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.IsInline.docx");
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

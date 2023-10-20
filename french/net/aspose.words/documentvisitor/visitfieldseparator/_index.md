@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldSeparator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsquun séparateur de champ est rencontré dans le document.
+linktitle: VisitFieldSeparator
+articleTitle: VisitFieldSeparator
+second_title: Aspose.Words pour .NET
+description: DocumentVisitor VisitFieldSeparator méthode. Appelé lorsquun séparateur de champ est rencontré dans le document en C#.
 type: docs
 weight: 190
 url: /fr/net/aspose.words/documentvisitor/visitfieldseparator/
@@ -22,13 +24,13 @@ public virtual VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
 
 UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
-### Remarques
+## Remarques
 
 Le séparateur de champ sépare le code du champ de la valeur du champ dans le document. Notez que certains champs ont uniquement un code de champ et n'ont pas de séparateur de champ ni de valeur de champ.
 
 Pour plus d'informations, voir[`VisitFieldStart`](../visitfieldstart/)
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure des nœuds de chaque champ d'un document.
 
@@ -133,7 +135,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldSeparator](../../../aspose.words.fields/fieldseparator/)
 * class [DocumentVisitor](../)
-* espace de noms [Aspose.Words](../../documentvisitor/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

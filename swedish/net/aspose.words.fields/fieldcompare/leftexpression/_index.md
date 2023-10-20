@@ -1,7 +1,9 @@
 ---
 title: FieldCompare.LeftExpression
-second_title: Aspose.Words för .NET API Referens
-description: FieldCompare fast egendom. Hämtar eller ställer in den vänstra delen av jämförelseuttrycket.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words för .NET
+description: FieldCompare LeftExpression fast egendom. Hämtar eller ställer in den vänstra delen av jämförelseuttrycket i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldcompare/leftexpression/
@@ -14,7 +16,7 @@ Hämtar eller ställer in den vänstra delen av jämförelseuttrycket.
 public string LeftExpression { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man jämför uttryck med ett COMPARE-fält.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.COMPARE.docx");
 ### Se även
 
 * class [FieldCompare](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcompare/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

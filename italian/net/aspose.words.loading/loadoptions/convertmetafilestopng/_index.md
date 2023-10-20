@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.ConvertMetafilesToPng
-second_title: Aspose.Words per .NET API Reference
-description: LoadOptions proprietà. Ottiene o imposta se convertire il metafile Wmf OEmf  immagini aPng formato immagine.
+linktitle: ConvertMetafilesToPng
+articleTitle: ConvertMetafilesToPng
+second_title: Aspose.Words per .NET
+description: LoadOptions ConvertMetafilesToPng proprietà. Ottiene o imposta se convertire il metafile Wmf OEmf  immagini aPng formato immagine in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.loading/loadoptions/convertmetafilestopng/
@@ -14,11 +16,11 @@ Ottiene o imposta se convertire il metafile (Wmf OEmf ) immagini aPng formato im
 public bool ConvertMetafilesToPng { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Metafile (Wmf OEmf ) è un formato immagine non compresso e talvolta richiede troppa RAM per contenere ed elaborare il documento. Questa opzione consente di convertire tutte le immagini metafile inPng al caricamento del documento. Nota: la conversione della grafica vettoriale in raster diminuisce la qualità delle immagini.
 
-### Esempi
+## Esempi
 
 Mostra come convertire WMF/EMF in PNG durante il caricamento del documento.
 
@@ -54,7 +56,5 @@ Document doc = new Document();
 ### Guarda anche
 
 * class [LoadOptions](../)
-* spazio dei nomi [Aspose.Words.Loading](../../loadoptions/)
+* spazio dei nomi [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../../)
-
-

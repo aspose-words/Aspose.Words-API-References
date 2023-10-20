@@ -1,12 +1,14 @@
 ---
-title: MemoryFontSource.MemoryFontSource
-second_title: Справочник по API Aspose.Words для .NET
-description: MemoryFontSource строитель. Cтор.
+title: MemoryFontSource
+linktitle: MemoryFontSource
+articleTitle: MemoryFontSource
+second_title: Aspose.Words для .NET
+description: MemoryFontSource строитель. Cтор на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
-## MemoryFontSource(byte[]) {#constructor}
+## MemoryFontSource(*byte[]*) {#constructor}
 
 Cтор.
 
@@ -18,7 +20,7 @@ public MemoryFontSource(byte[] fontData)
 | --- | --- | --- |
 | fontData | Byte[] | Двоичные данные шрифта. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать массив байтов с данными из файла шрифта в качестве источника шрифта.
 
@@ -37,12 +39,12 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### Смотрите также
 
 * class [MemoryFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../memoryfontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## MemoryFontSource(byte[], int) {#constructor_1}
+## MemoryFontSource(*byte[], int*) {#constructor_1}
 
 Cтор.
 
@@ -55,7 +57,7 @@ public MemoryFontSource(byte[] fontData, int priority)
 | fontData | Byte[] | Двоичные данные шрифта. |
 | priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority/) описание недвижимости для получения дополнительной информации. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать массив байтов с данными из файла шрифта в качестве источника шрифта.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### Смотрите также
 
 * class [MemoryFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../memoryfontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## MemoryFontSource(byte[], int, string) {#constructor_2}
+## MemoryFontSource(*byte[], int, string*) {#constructor_2}
 
 Cтор.
 
@@ -93,7 +95,7 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority/) описание недвижимости для получения дополнительной информации. |
 | cacheKey | String | Ключ этого источника в кеше. Видеть[`CacheKey`](../cachekey/) описание недвижимости для получения дополнительной информации. |
 
-### Примеры
+## Примеры
 
 Показывает, как ускорить процесс инициализации кэша шрифтов.
 
@@ -144,7 +146,5 @@ private class SearchCacheStream : StreamFontSource
 ### Смотрите также
 
 * class [MemoryFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../memoryfontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

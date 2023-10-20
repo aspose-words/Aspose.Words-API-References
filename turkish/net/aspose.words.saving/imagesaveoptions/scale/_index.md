@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Scale
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Oluşturulan görüntüler için yakınlaştırma faktörünü alır veya ayarlar.
+linktitle: Scale
+articleTitle: Scale
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions Scale mülk. Oluşturulan görüntüler için yakınlaştırma faktörünü alır veya ayarlar C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.saving/imagesaveoptions/scale/
@@ -14,11 +16,11 @@ Oluşturulan görüntüler için yakınlaştırma faktörünü alır veya ayarla
 public float Scale { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 1,0'dır. Değer 0. 'den büyük olmalıdır
 
-### Örnekler
+## Örnekler
 
 Bir Office Math nesnesinin yerel dosya sistemindeki bir görüntü dosyasına nasıl dönüştürüleceğini gösterir.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### Ayrıca bakınız
 
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

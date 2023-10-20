@@ -1,7 +1,9 @@
 ---
 title: TextBox.IsValidLinkTarget
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextBox método. Determina si estoTextBox se puede vincular al objetivoTextBox .
+linktitle: IsValidLinkTarget
+articleTitle: IsValidLinkTarget
+second_title: Aspose.Words para .NET
+description: TextBox IsValidLinkTarget método. Determina si estoTextBox se puede vincular al objetivoTextBox  en C#.
 type: docs
 weight: 140
 url: /es/net/aspose.words.drawing/textbox/isvalidlinktarget/
@@ -14,7 +16,7 @@ Determina si esto[`TextBox`](../) se puede vincular al objetivo[`TextBox`](../) 
 public bool IsValidLinkTarget(TextBox target)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo vincular cuadros de texto.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Ver también
 
 * class [TextBox](../)
-* espacio de nombres [Aspose.Words.Drawing](../../textbox/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

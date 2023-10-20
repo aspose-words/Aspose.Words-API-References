@@ -1,7 +1,9 @@
 ---
-title: Class TaskPaneCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WebExtensions.TaskPaneCollection فصل. يحدد قائمة بكائنات جزء المهام المستمرة.
+title: TaskPaneCollection Class
+linktitle: TaskPaneCollection
+articleTitle: TaskPaneCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.WebExtensions.TaskPaneCollection فصل. يحدد قائمة بكائنات جزء المهام المستمرة في C#.
 type: docs
 weight: 6720
 url: /ar/net/aspose.words.webextensions/taskpanecollection/
@@ -27,12 +29,12 @@ public class TaskPaneCollection : BaseWebExtensionCollection<TaskPane>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(TaskPane) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*[TaskPane](../taskpane/)*) |  |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) |  |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 * class [TaskPane](../taskpane/)
 * مساحة الاسم [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../)
-
-

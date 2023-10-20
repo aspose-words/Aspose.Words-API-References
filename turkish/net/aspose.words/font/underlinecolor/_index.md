@@ -1,7 +1,9 @@
 ---
 title: Font.UnderlineColor
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Yazı tipine uygulanan alt çizginin rengini alır veya ayarlar.
+linktitle: UnderlineColor
+articleTitle: UnderlineColor
+second_title: Aspose.Words for .NET
+description: Font UnderlineColor mülk. Yazı tipine uygulanan alt çizginin rengini alır veya ayarlar C#'da.
 type: docs
 weight: 540
 url: /tr/net/aspose.words/font/underlinecolor/
@@ -14,7 +16,7 @@ Yazı tipine uygulanan alt çizginin rengini alır veya ayarlar.
 public Color UnderlineColor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metnin alt çizgisinin stilinin ve renginin nasıl yapılandırılacağını gösterir.
 
@@ -33,7 +35,5 @@ doc.Save(ArtifactsDir + "Font.Underlines.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

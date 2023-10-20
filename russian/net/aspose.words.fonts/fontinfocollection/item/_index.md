@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: FontInfoCollection свойство. Получает шрифт с указанным именем.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: FontInfoCollection Item свойство. Получает шрифт с указанным именем на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fonts/fontinfocollection/item/
@@ -18,7 +20,7 @@ public FontInfo this[string name] { get; }
 | --- | --- |
 | name | Имя шрифта, который необходимо найти, без учета регистра. |
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь встроенный шрифт из документа и сохранить его в локальной файловой системе.
 
@@ -46,7 +48,7 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* пространство имен [Aspose.Words.Fonts](../../fontinfocollection/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -63,7 +65,7 @@ public FontInfo this[int index] { get; }
 | --- | --- |
 | index | Индекс шрифта, начинающийся с нуля. |
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь встроенный шрифт из документа и сохранить его в локальной файловой системе.
 
@@ -91,7 +93,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * class [FontInfo](../../fontinfo/)
 * class [FontInfoCollection](../)
-* пространство имен [Aspose.Words.Fonts](../../fontinfocollection/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

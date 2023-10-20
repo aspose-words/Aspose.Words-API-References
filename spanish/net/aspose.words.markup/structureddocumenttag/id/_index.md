@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Id
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag propiedad. Especifica una identificación numérica persistente única de solo lectura para esto TED.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag Id propiedad. Especifica una identificación numérica persistente única de solo lectura para estoTED en C#.
 type: docs
 weight: 140
 url: /es/net/aspose.words.markup/structureddocumenttag/id/
 ---
 ## StructuredDocumentTag.Id property
 
-Especifica una identificación numérica persistente única de solo lectura para esto **TED**.
+Especifica una identificación numérica persistente única de solo lectura para esto**TED**.
 
 ```csharp
 public int Id { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 El atributo de identificación deberá seguir estas reglas:
 
@@ -24,7 +26,7 @@ El atributo de identificación deberá seguir estas reglas:
 * Durante la SDT independienteINodeCloningListener) operación se generará una nueva ID única para el nodo SDT clonado.
 * Si no se especifica Id en el documento fuente, entonces el nodo SDT tendrá asignado un nuevo identificador único cuando se cargue el documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una etiqueta de documento estructurado en un cuadro de texto sin formato y modificar su apariencia.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Ver también
 
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

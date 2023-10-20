@@ -1,7 +1,9 @@
 ---
-title: Class List
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Lists.List сорт. Представляет форматирование списка.
+title: List Class
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Lists.List сорт. Представляет форматирование списка на С#.
 type: docs
 weight: 3460
 url: /ru/net/aspose.words.lists/list/
@@ -33,14 +35,14 @@ public class List : IComparable<List>
 
 | Имя | Описание |
 | --- | --- |
-| [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(List) | Сравнивает указанный список с текущим списком. |
-| [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(object) | Сравнивает указанный объект с текущим объектом. |
-| [Equals](../../aspose.words.lists/list/equals/#equals)(List) | Сравнивает с указанным списком. |
-| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(object) | Определяет, равен ли указанный объект по значению текущему объекту. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(*List*) | Сравнивает указанный список с текущим списком. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(*object*) | Сравнивает указанный объект с текущим объектом. |
+| [Equals](../../aspose.words.lists/list/equals/#equals)(*List*) | Сравнивает с указанным списком. |
+| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(*object*) | Определяет, равен ли указанный объект по значению текущему объекту. |
 | override [GetHashCode](../../aspose.words.lists/list/gethashcode/)() | Вычисляет хэш-код для этого объекта списка. |
-| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(List) | Возвращает true, если текущий список и данный список созданы на основе одного и того же шаблона. |
+| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(*List*) | Возвращает true, если текущий список и данный список созданы на основе одного и того же шаблона. |
 
-### Примечания
+## Примечания
 
 Список в документе Microsoft Word представляет собой набор свойств форматирования списка. Каждый список может иметь до 9 уровней, а свойства форматирования, такие как стиль номера, начальное значение, отступ , положение табуляции и т. д., определяются отдельно для каждого уровня.
 
@@ -52,7 +54,7 @@ public class List : IComparable<List>
 
 Чтобы применить или удалить форматирование списка из абзаца, используйте[`ListFormat`](../listformat/).
 
-### Примеры
+## Примеры
 
 Показывает, как возобновить нумерацию в списке путем копирования списка.
 
@@ -199,5 +201,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * пространство имен [Aspose.Words.Lists](../../aspose.words.lists/)
 * сборка [Aspose.Words](../../)
-
-

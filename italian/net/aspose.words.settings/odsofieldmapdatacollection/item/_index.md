@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: OdsoFieldMapDataCollection proprietà. Ottiene o imposta un elemento in questa raccolta.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: OdsoFieldMapDataCollection Item proprietà. Ottiene o imposta un elemento in questa raccolta in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.settings/odsofieldmapdatacollection/item/
@@ -14,7 +16,7 @@ Ottiene o imposta un elemento in questa raccolta.
 public OdsoFieldMapData this[int index] { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati per unire i campi.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

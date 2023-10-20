@@ -1,7 +1,9 @@
 ---
 title: FieldTA.EntryCategory
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldTA eigendom. Ruft die ganzzahlige Eintragskategorie ab oder legt diese fest. Dabei handelt es sich um eine Zahl die der Reihenfolge der Kategorien entspricht.
+linktitle: EntryCategory
+articleTitle: EntryCategory
+second_title: Aspose.Words für .NET
+description: FieldTA EntryCategory eigendom. Ruft die ganzzahlige Eintragskategorie ab oder legt diese fest. Dabei handelt es sich um eine Zahl die der Reihenfolge der Kategorien entspricht in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldta/entrycategory/
@@ -14,7 +16,7 @@ Ruft die ganzzahlige Eintragskategorie ab oder legt diese fest. Dabei handelt es
 public string EntryCategory { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe von TOA- und TA-Feldern ein Autoritätsverzeichnis erstellt und anpasst.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Siehe auch
 
 * class [FieldTA](../)
-* namensraum [Aspose.Words.Fields](../../fieldta/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

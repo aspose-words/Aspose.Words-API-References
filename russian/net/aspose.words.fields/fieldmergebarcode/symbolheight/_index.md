@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.SymbolHeight
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeBarcode свойство. Получает или задает высоту символа. Единицы измерения  TWIPS 1/1440 дюйма.
+linktitle: SymbolHeight
+articleTitle: SymbolHeight
+second_title: Aspose.Words для .NET
+description: FieldMergeBarcode SymbolHeight свойство. Получает или задает высоту символа. Единицы измерения  TWIPS 1/1440 дюйма на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.fields/fieldmergebarcode/symbolheight/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldmergebarcode/symbolheight/
 public string SymbolHeight { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить объединение почты по QR-штрих-кодам.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Смотрите также
 
 * class [FieldMergeBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fieldmergebarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

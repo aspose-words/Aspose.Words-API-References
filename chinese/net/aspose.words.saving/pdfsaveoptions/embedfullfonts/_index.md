@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EmbedFullFonts
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 控制如何将字体嵌入到生成的 PDF 文档中
+linktitle: EmbedFullFonts
+articleTitle: EmbedFullFonts
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions EmbedFullFonts 财产. 控制如何将字体嵌入到生成的 PDF 文档中 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
 public bool EmbedFullFonts { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`，这意味着在嵌入之前对字体进行子集化。 如果您想让输出文件大小保持较小，子集化很有用。子集化会从字体中删除 all 未使用的字形。
 
@@ -22,7 +24,7 @@ public bool EmbedFullFonts { get; set; }
 
 有些字体很大（几兆字节），在不使用 subsetting 的情况下嵌入它们将导致输出文档很大。
 
-### 例子
+## 例子
 
 演示如何在将文档渲染为 PDF 时嵌入字体时启用或禁用子集化。
 
@@ -70,7 +72,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ### 也可以看看
 
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

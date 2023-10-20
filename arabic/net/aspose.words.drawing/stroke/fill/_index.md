@@ -1,9 +1,11 @@
 ---
 title: Stroke.Fill
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. يحصل على تنسيق التعبئة لـStroke .
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words لـ .NET
+description: Stroke Fill ملكية. يحصل على تنسيق التعبئة لـStroke  في C#.
 type: docs
-weight: 100
+weight: 90
 url: /ar/net/aspose.words.drawing/stroke/fill/
 ---
 ## Stroke.Fill property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/stroke/fill/
 public Fill Fill { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير خصائص السكتة الدماغية.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * class [Fill](../../fill/)
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

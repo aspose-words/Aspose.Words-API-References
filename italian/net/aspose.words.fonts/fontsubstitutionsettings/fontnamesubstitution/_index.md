@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontNameSubstitution
-second_title: Aspose.Words per .NET API Reference
-description: FontSubstitutionSettings proprietà. Impostazioni relative alla regola di sostituzione del nome del carattere.
+linktitle: FontNameSubstitution
+articleTitle: FontNameSubstitution
+second_title: Aspose.Words per .NET
+description: FontSubstitutionSettings FontNameSubstitution proprietà. Impostazioni relative alla regola di sostituzione del nome del carattere in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/
@@ -18,7 +20,5 @@ public FontNameSubstitutionRule FontNameSubstitution { get; }
 
 * class [FontNameSubstitutionRule](../../fontnamesubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

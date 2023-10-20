@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.NameAndAddressFormat
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAddressBlock ملكية. الحصول على تنسيق الاسم والعنوان أو تعيينهما.
+linktitle: NameAndAddressFormat
+articleTitle: NameAndAddressFormat
+second_title: Aspose.Words لـ .NET
+description: FieldAddressBlock NameAndAddressFormat ملكية. الحصول على تنسيق الاسم والعنوان أو تعيينهما في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldaddressblock/nameandaddressformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldaddressblock/nameandaddressformat/
 public string NameAndAddressFormat { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل ADDRESSBLOCK.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### أنظر أيضا
 
 * class [FieldAddressBlock](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldaddressblock/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

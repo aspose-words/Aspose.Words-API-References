@@ -1,7 +1,9 @@
 ---
-title: Class JsonDataSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Reporting.JsonDataSource clase. Proporciona acceso a los datos de un archivo o secuencia JSON que se utilizarán en un informe.
+title: JsonDataSource Class
+linktitle: JsonDataSource
+articleTitle: JsonDataSource
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Reporting.JsonDataSource clase. Proporciona acceso a los datos de un archivo o secuencia JSON que se utilizarán en un informe en C#.
 type: docs
 weight: 4690
 url: /es/net/aspose.words.reporting/jsondatasource/
@@ -20,12 +22,12 @@ public class JsonDataSource
 
 | Nombre | Descripción |
 | --- | --- |
-| [JsonDataSource](jsondatasource/#constructor)(Stream) | Crea una nueva fuente de datos con datos de una secuencia JSON usando opciones predeterminadas para analizar datos JSON. |
-| [JsonDataSource](jsondatasource/#constructor_2)(string) | Crea una nueva fuente de datos con datos de un archivo JSON usando opciones predeterminadas para analizar datos JSON. |
-| [JsonDataSource](jsondatasource/#constructor_1)(Stream, JsonDataLoadOptions) | Crea una nueva fuente de datos con datos de una secuencia JSON utilizando las opciones especificadas para analizar datos JSON. |
-| [JsonDataSource](jsondatasource/#constructor_3)(string, JsonDataLoadOptions) | Crea una nueva fuente de datos con datos de un archivo JSON usando las opciones especificadas para analizar datos JSON. |
+| [JsonDataSource](jsondatasource/#constructor)(*Stream*) | Crea una nueva fuente de datos con datos de una secuencia JSON usando opciones predeterminadas para analizar datos JSON. |
+| [JsonDataSource](jsondatasource/#constructor_2)(*string*) | Crea una nueva fuente de datos con datos de un archivo JSON usando opciones predeterminadas para analizar datos JSON. |
+| [JsonDataSource](jsondatasource/#constructor_1)(*Stream, [JsonDataLoadOptions](../jsondataloadoptions/)*) | Crea una nueva fuente de datos con datos de una secuencia JSON utilizando las opciones especificadas para analizar datos JSON. |
+| [JsonDataSource](jsondatasource/#constructor_3)(*string, [JsonDataLoadOptions](../jsondataloadoptions/)*) | Crea una nueva fuente de datos con datos de un archivo JSON usando las opciones especificadas para analizar datos JSON. |
 
-### Observaciones
+## Observaciones
 
 Para acceder a los datos del archivo o flujo correspondiente mientras genera un informe, pase una instancia de esta clase como una fuente de datos a uno de[`ReportingEngine`](../reportingengine/) .BuildReport sobrecargas.
 
@@ -47,5 +49,3 @@ Para anular el comportamiento predeterminado de la carga de datos JSON, iniciali
 
 * espacio de nombres [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * asamblea [Aspose.Words](../../)
-
-

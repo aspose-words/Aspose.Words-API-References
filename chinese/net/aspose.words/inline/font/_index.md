@@ -1,7 +1,9 @@
 ---
 title: Inline.Font
-second_title: Aspose.Words for .NET API 参考
-description: Inline 财产. 提供对此对象的字体格式的访问
+linktitle: Font
+articleTitle: Font
+second_title: 用于 .NET 的 Aspose.Words
+description: Inline Font 财产. 提供对此对象的字体格式的访问 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/inline/font/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/inline/font/
 public Font Font { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何手动构建 Aspose.Words 文档。
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [Font](../../font/)
 * class [Inline](../)
-* 命名空间 [Aspose.Words](../../inline/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

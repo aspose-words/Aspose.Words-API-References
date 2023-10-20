@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Panose
-second_title: Aspose.Words for .NET API 参考
-description: FontInfo 财产. 获取或设置 PANOSE 字体分类号
+linktitle: Panose
+articleTitle: Panose
+second_title: 用于 .NET 的 Aspose.Words
+description: FontInfo Panose 财产. 获取或设置 PANOSE 字体分类号 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fonts/fontinfo/panose/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.fonts/fontinfo/panose/
 public byte[] Panose { get; set; }
 ```
 
-### 评论
+## 评论
 
 PANOSE 是对字体关键视觉特征 （例如对比度、粗细和衬线样式）的紧凑 10 字节描述。这些数字代表系列种类、衬线样式、 粗细、比例、对比度、笔画变化、臂样式、字母形式、中线和 X 高度。
 
 可`无效的`。
 
-### 例子
+## 例子
 
 演示如何访问和打印文档中每种字体的详细信息。
 
@@ -59,7 +61,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### 也可以看看
 
 * class [FontInfo](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontinfo/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

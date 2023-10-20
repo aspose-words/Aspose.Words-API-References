@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DataSource
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. تحديد المسار إلى مصدر بيانات دمج المراسلات. القيمة الافتراضية هي سلسلة فارغة.
+linktitle: DataSource
+articleTitle: DataSource
+second_title: Aspose.Words لـ .NET
+description: MailMergeSettings DataSource ملكية. تحديد المسار إلى مصدر بيانات دمج المراسلات. القيمة الافتراضية هي سلسلة فارغة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.settings/mailmergesettings/datasource/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/mailmergesettings/datasource/
 public string DataSource { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مصدر بيانات لدمج المراسلات من مصدر رأس ومصدر بيانات.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.docx");
 ### أنظر أيضا
 
 * class [MailMergeSettings](../)
-* مساحة الاسم [Aspose.Words.Settings](../../mailmergesettings/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

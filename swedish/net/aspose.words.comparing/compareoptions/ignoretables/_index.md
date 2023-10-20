@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreTables
-second_title: Aspose.Words för .NET API Referens
-description: CompareOptions fast egendom. Anger om skillnaderna i data i tabeller ska jämföras. Som standard ignoreras inte tabeller.
+linktitle: IgnoreTables
+articleTitle: IgnoreTables
+second_title: Aspose.Words för .NET
+description: CompareOptions IgnoreTables fast egendom. Anger om skillnaderna i data i tabeller ska jämföras. Som standard ignoreras inte tabeller i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.comparing/compareoptions/ignoretables/
@@ -14,7 +16,7 @@ Anger om skillnaderna i data i tabeller ska jämföras. Som standard ignoreras i
 public bool IgnoreTables { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man filtrerar specifika typer av dokumentelement när man gör en jämförelse.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Se även
 
 * class [CompareOptions](../)
-* namnutrymme [Aspose.Words.Comparing](../../compareoptions/)
+* namnutrymme [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * hopsättning [Aspose.Words](../../../)
-
-

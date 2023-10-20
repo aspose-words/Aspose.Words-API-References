@@ -1,7 +1,9 @@
 ---
-title: CustomPart.CustomPart
-second_title: Aspose.Words for .NET API Referansı
-description: CustomPart inşaatçı. Default_Constructor
+title: CustomPart
+linktitle: CustomPart
+articleTitle: CustomPart
+second_title: Aspose.Words for .NET
+description: CustomPart inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.markup/custompart/custompart/
@@ -17,7 +19,5 @@ public CustomPart()
 ### Ayrıca bakınız
 
 * class [CustomPart](../)
-* ad alanı [Aspose.Words.Markup](../../custompart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

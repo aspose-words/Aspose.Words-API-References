@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndArrowType
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. يحدد رأس السهم لنهاية الخط.
+linktitle: EndArrowType
+articleTitle: EndArrowType
+second_title: Aspose.Words لـ .NET
+description: Stroke EndArrowType ملكية. يحدد رأس السهم لنهاية الخط في C#.
 type: docs
-weight: 70
+weight: 60
 url: /ar/net/aspose.words.drawing/stroke/endarrowtype/
 ---
 ## Stroke.EndArrowType property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/endarrowtype/
 public ArrowType EndArrowType { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيNone.
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowType](../../arrowtype/)
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

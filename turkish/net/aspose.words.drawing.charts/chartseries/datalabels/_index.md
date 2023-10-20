@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.DataLabels
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeries mülk. Tüm seriye ilişkin veri etiketlerinin ayarlarını belirtir.
+linktitle: DataLabels
+articleTitle: DataLabels
+second_title: Aspose.Words for .NET
+description: ChartSeries DataLabels mülk. Tüm seriye ilişkin veri etiketlerinin ayarlarını belirtir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartseries/datalabels/
@@ -14,7 +16,7 @@ Tüm seriye ilişkin veri etiketlerinin ayarlarını belirtir.
 public ChartDataLabelCollection DataLabels { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataLabelCollection](../../chartdatalabelcollection/)
 * class [ChartSeries](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseries/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

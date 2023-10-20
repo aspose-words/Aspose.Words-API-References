@@ -1,7 +1,9 @@
 ---
 title: EditableRangeEnd.Accept
-second_title: Aspose.Words für .NET-API-Referenz
-description: EditableRangeEnd methode. Akzeptiert einen Besucher.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words für .NET
+description: EditableRangeEnd Accept methode. Akzeptiert einen Besucher in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/editablerangeend/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `FALSCH` wenn der Besucher das Stoppen der Aufzählung angefordert hat.
 
-### Bemerkungen
+## Bemerkungen
 
 Anrufe[`VisitEditableRangeEnd`](../../documentvisitor/visiteditablerangeend/).
 
 Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man die Bearbeitungsrechte bearbeitbarer Bereiche auf eine bestimmte Gruppe/einen bestimmten Benutzer beschränkt.
 
@@ -140,7 +142,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [EditableRangeEnd](../)
-* namensraum [Aspose.Words](../../editablerangeend/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetStartPageIndex
-second_title: Aspose.Words for .NET API 参考
-description: LayoutCollector 方法. 获取节点开始的页面的从 1 开始的索引如果节点无法映射到页面则返回 0
+linktitle: GetStartPageIndex
+articleTitle: GetStartPageIndex
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutCollector GetStartPageIndex 方法. 获取节点开始的页面的从 1 开始的索引如果节点无法映射到页面则返回 0 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.layout/layoutcollector/getstartpageindex/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/layoutcollector/getstartpageindex/
 public int GetStartPageIndex(Node node)
 ```
 
-### 例子
+## 例子
 
 演示如何查看节点跨越的页面范围。
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutcollector/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SuggestedExtension
-second_title: Aspose.Words for .NET API Referansı
-description: OleFormat mülk. Geçerli gömülü nesneyi bir dosyaya kaydetmek istiyorsanız önerilen dosya uzantısını alır.
+linktitle: SuggestedExtension
+articleTitle: SuggestedExtension
+second_title: Aspose.Words for .NET
+description: OleFormat SuggestedExtension mülk. Geçerli gömülü nesneyi bir dosyaya kaydetmek istiyorsanız önerilen dosya uzantısını alır C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.drawing/oleformat/suggestedextension/
@@ -14,7 +16,7 @@ Geçerli gömülü nesneyi bir dosyaya kaydetmek istiyorsanız, önerilen dosya 
 public string SuggestedExtension { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Katıştırılmış OLE nesnelerinin dosyalara nasıl çıkartılacağını gösterir.
 
@@ -49,7 +51,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Ayrıca bakınız
 
 * class [OleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../oleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

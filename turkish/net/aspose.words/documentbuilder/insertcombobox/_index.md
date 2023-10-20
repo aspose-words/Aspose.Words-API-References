@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertComboBox
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Geçerli konuma bir birleşik giriş kutusu form alanı ekler.
+linktitle: InsertComboBox
+articleTitle: InsertComboBox
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertComboBox yöntem. Geçerli konuma bir birleşik giriş kutusu form alanı ekler C#'da.
 type: docs
 weight: 300
 url: /tr/net/aspose.words/documentbuilder/insertcombobox/
@@ -24,11 +26,11 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 Yeni eklenen form alanı düğümü.
 
-### Notlar
+## Notlar
 
 Form alanı için bir ad belirlerseniz aynı adla otomatik olarak bir yer imi oluşturulur.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye birleşik giriş kutusu form alanının nasıl ekleneceğini gösterir.
 
@@ -71,7 +73,5 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

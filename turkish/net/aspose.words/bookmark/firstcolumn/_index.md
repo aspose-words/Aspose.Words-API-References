@@ -1,7 +1,9 @@
 ---
 title: Bookmark.FirstColumn
-second_title: Aspose.Words for .NET API Referansı
-description: Bookmark mülk. Yer işaretiyle ilişkili tablo sütun aralığının ilk sütununun sıfır tabanlı dizinini alır.
+linktitle: FirstColumn
+articleTitle: FirstColumn
+second_title: Aspose.Words for .NET
+description: Bookmark FirstColumn mülk. Yer işaretiyle ilişkili tablo sütun aralığının ilk sütununun sıfır tabanlı dizinini alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/bookmark/firstcolumn/
@@ -14,11 +16,11 @@ Yer işaretiyle ilişkili tablo sütun aralığının ilk sütununun sıfır tab
 public int FirstColumn { get; }
 ```
 
-### Notlar
+## Notlar
 
-İadeler **-1** bu yer imi bir tablo sütunu yer imi değilse.
+İadeler**-1** bu yer imi bir tablo sütunu yer imi değilse.
 
-### Örnekler
+## Örnekler
 
 Tablo sütunu yer imleri hakkında nasıl bilgi alınacağını gösterir.
 
@@ -45,7 +47,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### Ayrıca bakınız
 
 * class [Bookmark](../)
-* ad alanı [Aspose.Words](../../bookmark/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

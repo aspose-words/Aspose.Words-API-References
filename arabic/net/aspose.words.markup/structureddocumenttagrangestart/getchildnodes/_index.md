@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.GetChildNodes
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart طريقة. إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق الأنواع المحددة.
+linktitle: GetChildNodes
+articleTitle: GetChildNodes
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeStart GetChildNodes طريقة. إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق الأنواع المحددة في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/getchildnodes/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/getchildnodes/
 public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على العقد الفرعية لـ StructuredDocumentTagRangeStart.
 
@@ -38,7 +40,5 @@ foreach (Node node in tag.GetChildNodes(NodeType.Run, true))
 * class [NodeCollection](../../../aspose.words/nodecollection/)
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [StructuredDocumentTagRangeStart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

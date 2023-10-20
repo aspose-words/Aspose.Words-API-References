@@ -1,7 +1,9 @@
 ---
 title: BuildingBlockCollection.ToArray
-second_title: Справочник по API Aspose.Words для .NET
-description: BuildingBlockCollection метод. Копирует все стандартные блоки из коллекции в новый массив стандартных блоков.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words для .NET
+description: BuildingBlockCollection ToArray метод. Копирует все стандартные блоки из коллекции в новый массив стандартных блоков на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.buildingblocks/buildingblockcollection/toarray/
@@ -18,7 +20,7 @@ public BuildingBlock[] ToArray()
 
 Массив строительных блоков.
 
-### Примеры
+## Примеры
 
 Показывает способы доступа к строительным блокам в документе глоссария.
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [BuildingBlockCollection](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../buildingblockcollection/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SaveOutputParameters.ContentType
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOutputParameters mülk. Kaydedilen belgenin türünü tanımlayan İçerik Türü dizesini İnternet Medya Türü döndürür.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: Aspose.Words for .NET
+description: SaveOutputParameters ContentType mülk. Kaydedilen belgenin türünü tanımlayan İçerik Türü dizesini İnternet Medya Türü döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/saveoutputparameters/contenttype/
@@ -14,7 +16,7 @@ Kaydedilen belgenin türünü tanımlayan İçerik Türü dizesini (İnternet Me
 public string ContentType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin kaydetme işleminin çıktı parametrelerine nasıl erişileceğini gösterir.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("application/pdf", parameters.ContentType);
 ### Ayrıca bakınız
 
 * class [SaveOutputParameters](../)
-* ad alanı [Aspose.Words.Saving](../../saveoutputparameters/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

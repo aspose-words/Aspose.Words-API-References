@@ -1,7 +1,9 @@
 ---
 title: Document.AutomaticallyUpdateStyles
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Belgedeki stillerin belge MS Wordde her açıldığında ekli şablondaki stilleriyle eşleşecek şekilde güncellenip güncellenmediğini belirten bir bayrak alır veya ayarlar.
+linktitle: AutomaticallyUpdateStyles
+articleTitle: AutomaticallyUpdateStyles
+second_title: Aspose.Words for .NET
+description: Document AutomaticallyUpdateStyles mülk. Belgedeki stillerin belge MS Wordde her açıldığında ekli şablondaki stilleriyle eşleşecek şekilde güncellenip güncellenmediğini belirten bir bayrak alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/document/automaticallyupdatestyles/
@@ -14,7 +16,7 @@ Belgedeki stillerin, belge MS Word'de her açıldığında ekli şablondaki stil
 public bool AutomaticallyUpdateStyles { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye şablonun nasıl ekleneceğini gösterir.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

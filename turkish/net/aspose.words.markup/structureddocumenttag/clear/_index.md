@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag yöntem. Bu yapılandırılmış belge etiketinin içeriğini temizler ve tanımlanmışsa bir yer tutucu görüntüler.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag Clear yöntem. Bu yapılandırılmış belge etiketinin içeriğini temizler ve tanımlanmışsa bir yer tutucu görüntüler C#'da.
 type: docs
-weight: 360
+weight: 340
 url: /tr/net/aspose.words.markup/structureddocumenttag/clear/
 ---
 ## StructuredDocumentTag.Clear method
@@ -14,13 +16,13 @@ Bu yapılandırılmış belge etiketinin içeriğini temizler ve tanımlanmışs
 public void Clear()
 ```
 
-### Notlar
+## Notlar
 
 Yapılandırılmış belge etiketinin revizyonları varsa içeriğinin temizlenmesi mümkün değildir.
 
 Bu yapılandırılmış belge etiketi özel XML ile eşlenirse (kullanılarak[`XmlMapping`](../xmlmapping/) özelliği), başvurulan XML düğümü temizlenir.
 
-### Örnekler
+## Örnekler
 
 Yapılandırılmış belge etiketi öğelerinin içeriğinin nasıl silineceğini gösterir.
 
@@ -68,7 +70,5 @@ Assert.AreEqual("Custom placeholder text.", tag.GetText().Trim());
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

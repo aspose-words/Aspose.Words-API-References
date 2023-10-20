@@ -1,7 +1,9 @@
 ---
 title: ControlChar.Cr
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Vagnreturtecken x000d eller r. Samma somParagraphBreak .
+linktitle: Cr
+articleTitle: Cr
+second_title: Aspose.Words för .NET
+description: ControlChar Cr fält. Vagnreturtecken x000d eller r. Samma somParagraphBreak  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/controlchar/cr/
@@ -14,7 +16,7 @@ Vagnreturtecken: "\x000d" eller "\r". Samma som[`ParagraphBreak`](../paragraphbr
 public static readonly string Cr;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder kontrolltecken.
 
@@ -41,7 +43,5 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

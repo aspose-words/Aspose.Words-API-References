@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Add
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlSchemaCollection metod. Lägger till ett föremål i samlingen.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: CustomXmlSchemaCollection Add metod. Lägger till ett föremål i samlingen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/customxmlschemacollection/add/
@@ -18,7 +20,7 @@ public void Add(string value)
 | --- | --- | --- |
 | value | String | Objektet att lägga till. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en XML-schemasamling.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Se även
 
 * class [CustomXmlSchemaCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlschemacollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

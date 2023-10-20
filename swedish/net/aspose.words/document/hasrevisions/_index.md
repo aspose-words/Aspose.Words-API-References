@@ -1,7 +1,9 @@
 ---
 title: Document.HasRevisions
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. ReturnerarSann om dokumentet har några spårade ändringar.
+linktitle: HasRevisions
+articleTitle: HasRevisions
+second_title: Aspose.Words för .NET
+description: Document HasRevisions fast egendom. ReturnerarSann om dokumentet har några spårade ändringar i C#.
 type: docs
 weight: 200
 url: /sv/net/aspose.words/document/hasrevisions/
@@ -14,11 +16,11 @@ Returnerar`Sann` om dokumentet har några spårade ändringar.
 public bool HasRevisions { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen är en genväg för jämförelse[`Count`](../../revisioncollection/count/)till noll.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med revisioner i ett dokument.
 
@@ -101,7 +103,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

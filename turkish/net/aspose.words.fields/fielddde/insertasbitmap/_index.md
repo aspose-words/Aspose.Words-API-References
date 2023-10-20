@@ -1,7 +1,9 @@
 ---
 title: FieldDde.InsertAsBitmap
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDde mülk. Bağlantılı nesnenin bitmap olarak eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertAsBitmap
+articleTitle: InsertAsBitmap
+second_title: Aspose.Words for .NET
+description: FieldDde InsertAsBitmap mülk. Bağlantılı nesnenin bitmap olarak eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fielddde/insertasbitmap/
@@ -14,7 +16,7 @@ Bağlantılı nesnenin bitmap olarak eklenip eklenmeyeceğini alır veya ayarlar
 public bool InsertAsBitmap { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntülemek için çeşitli alan türlerinin nasıl kullanılacağını gösterir.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ayrıca bakınız
 
 * class [FieldDde](../)
-* ad alanı [Aspose.Words.Fields](../../fielddde/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

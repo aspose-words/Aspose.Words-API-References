@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsLinkedToPrevious
-second_title: Aspose.Words for .NET API Referansı
-description: HeaderFooter mülk. Bu üst bilgi veya alt bilgi önceki bölümde karşılık gelen üst bilgi veya alt bilgiye bağlıysa doğrudur.
+linktitle: IsLinkedToPrevious
+articleTitle: IsLinkedToPrevious
+second_title: Aspose.Words for .NET
+description: HeaderFooter IsLinkedToPrevious mülk. Bu üst bilgi veya alt bilgi önceki bölümde karşılık gelen üst bilgi veya alt bilgiye bağlıysa doğrudur C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/headerfooter/islinkedtoprevious/
@@ -14,13 +16,13 @@ Bu üst bilgi veya alt bilgi, önceki bölümde karşılık gelen üst bilgi vey
 public bool IsLinkedToPrevious { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan:`doğru`.
 
 Bir üstbilgi veya altbilgiye bağlantı verdiğinizde içeriğinin temizlendiğini unutmayın.
 
-### Örnekler
+## Örnekler
 
 Bölümler arasında üstbilgilerin ve altbilgilerin nasıl bağlanacağını gösterir.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### Ayrıca bakınız
 
 * class [HeaderFooter](../)
-* ad alanı [Aspose.Words](../../headerfooter/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

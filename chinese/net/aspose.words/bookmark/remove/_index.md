@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Remove
-second_title: Aspose.Words for .NET API 参考
-description: Bookmark 方法. 从文档中删除书签不删除书签内的文本
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: Bookmark Remove 方法. 从文档中删除书签不删除书签内的文本 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/bookmark/remove/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/bookmark/remove/
 public void Remove()
 ```
 
-### 例子
+## 例子
 
 演示如何从文档中删除书签。
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### 也可以看看
 
 * class [Bookmark](../)
-* 命名空间 [Aspose.Words](../../bookmark/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

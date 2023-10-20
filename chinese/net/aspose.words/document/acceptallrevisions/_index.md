@@ -1,7 +1,9 @@
 ---
 title: Document.AcceptAllRevisions
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 接受文档中所有跟踪的更改
+linktitle: AcceptAllRevisions
+articleTitle: AcceptAllRevisions
+second_title: 用于 .NET 的 Aspose.Words
+description: Document AcceptAllRevisions 方法. 接受文档中所有跟踪的更改 在 C#.
 type: docs
 weight: 520
 url: /zh/net/aspose.words/document/acceptallrevisions/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/document/acceptallrevisions/
 public void AcceptAllRevisions()
 ```
 
-### 评论
+## 评论
 
 这个方法是一个快捷方式[`AcceptAll`](../../revisioncollection/acceptall/)。
 
-### 例子
+## 例子
 
 展示如何接受文档中的所有跟踪更改。
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! Hello again! This is another revision.", doc.GetTe
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.HeadingsOutlineLevels
-second_title: Aspose.Words für .NET-API-Referenz
-description: OutlineOptions eigendom. Gibt an wie viele Überschriftenebenen mit den Überschriftenstilen formatierte Absätze in die Dokumentgliederung einbezogen werden sollen.
+linktitle: HeadingsOutlineLevels
+articleTitle: HeadingsOutlineLevels
+second_title: Aspose.Words für .NET
+description: OutlineOptions HeadingsOutlineLevels eigendom. Gibt an wie viele Überschriftenebenen mit den Überschriftenstilen formatierte Absätze in die Dokumentgliederung einbezogen werden sollen in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/
@@ -14,13 +16,13 @@ Gibt an, wie viele Überschriftenebenen (mit den Überschriftenstilen formatiert
 public int HeadingsOutlineLevels { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Geben Sie 0 an, wenn die Gliederung keine Überschriften enthält. Geben Sie 1 für eine Überschriftenebene in der Gliederung usw. an.
 
 Der Standardwert ist 0. Der gültige Bereich liegt zwischen 0 und 9.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein gesamtes Dokument mit drei Ebenen in der Dokumentgliederung in PDF konvertiert wird.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 ### Siehe auch
 
 * class [OutlineOptions](../)
-* namensraum [Aspose.Words.Saving](../../outlineoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

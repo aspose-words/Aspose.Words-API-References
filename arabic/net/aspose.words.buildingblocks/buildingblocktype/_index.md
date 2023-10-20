@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.BuildingBlocks.BuildingBlockType تعداد. يحدد نوع الكتلة البرمجية الإنشائية. قد يؤثر النوع على رؤية وسلوك الكتلة البرمجية الإنشائية في Microsoft Word.
+title: BuildingBlockType Enum
+linktitle: BuildingBlockType
+articleTitle: BuildingBlockType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockType تعداد. يحدد نوع الكتلة البرمجية الإنشائية. قد يؤثر النوع على رؤية وسلوك الكتلة البرمجية الإنشائية في Microsoft Word في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.buildingblocks/buildingblocktype/
@@ -28,11 +30,11 @@ public enum BuildingBlockType
 | All | `7` | الكتلة البرمجية الإنشائية مرتبطة بجميع الأنواع. |
 | Default | `0` | حفظ باسمNone . |
 
-### ملاحظات
+## ملاحظات
 
-يتوافق مع **ST_DocPartType** اكتب OOXML.
+يتوافق مع**ST_DocPartType** اكتب OOXML.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة كتلة إنشاء مخصصة إلى مستند.
 
@@ -130,5 +132,3 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * مساحة الاسم [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../)
-
-

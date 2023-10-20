@@ -1,9 +1,11 @@
 ---
 title: Table.SetBorder
-second_title: Aspose.Words för .NET API Referens
-description: Table metod. Ställer in den angivna tabellkanten till angiven linjestil bredd och färg.
+linktitle: SetBorder
+articleTitle: SetBorder
+second_title: Aspose.Words för .NET
+description: Table SetBorder metod. Ställer in den angivna tabellkanten till angiven linjestil bredd och färg i C#.
 type: docs
-weight: 430
+weight: 410
 url: /sv/net/aspose.words.tables/table/setborder/
 ---
 ## Table.SetBorder method
@@ -23,7 +25,7 @@ public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWid
 | color | Color | Färgen som ska användas för bården. |
 | isOverrideCellBorders | Boolean | När`Sann`, gör att alla befintliga explicita cellgränser tas bort. |
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar en konturram på en tabell.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 * enum [BorderType](../../../aspose.words/bordertype/)
 * enum [LineStyle](../../../aspose.words/linestyle/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

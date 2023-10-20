@@ -1,12 +1,14 @@
 ---
 title: ChartSeries.Insert
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartSeries methode. Fügt den angegebenen XWert am angegebenen Index in die Diagrammreihe ein. Wenn die Reihe YWerte und Blasengrößen unterstützt sind diese für den XWert leer.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words für .NET
+description: ChartSeries Insert methode. Fügt den angegebenen XWert am angegebenen Index in die Diagrammreihe ein. Wenn die Reihe YWerte und Blasengrößen unterstützt sind diese für den XWert leer in C#.
 type: docs
-weight: 200
+weight: 190
 url: /de/net/aspose.words.drawing.charts/chartseries/insert/
 ---
-## Insert(int, ChartXValue) {#insert}
+## Insert(*int, [ChartXValue](../../chartxvalue/)*) {#insert}
 
 Fügt den angegebenen X-Wert am angegebenen Index in die Diagrammreihe ein. Wenn die Reihe Y-Werte und Blasengrößen unterstützt, sind diese für den X-Wert leer.
 
@@ -14,7 +16,7 @@ Fügt den angegebenen X-Wert am angegebenen Index in die Diagrammreihe ein. Wenn
 public void Insert(int index, ChartXValue xValue)
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der entsprechende Datenpunkt mit Standardformatierung wird in die Datenpunktsammlung eingefügt. Und wenn Datenbeschriftungen angezeigt werden, wird auch die entsprechende Datenbeschriftung mit Standardformatierung eingefügt.
 
@@ -22,12 +24,12 @@ Der entsprechende Datenpunkt mit Standardformatierung wird in die Datenpunktsamm
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartSeries](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Insert(int, ChartXValue, ChartYValue) {#insert_1}
+## Insert(*int, [ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/)*) {#insert_1}
 
 Fügt die angegebenen X- und Y-Werte am angegebenen Index in die Diagrammreihe ein.
 
@@ -35,7 +37,7 @@ Fügt die angegebenen X- und Y-Werte am angegebenen Index in die Diagrammreihe e
 public void Insert(int index, ChartXValue xValue, ChartYValue yValue)
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der entsprechende Datenpunkt mit Standardformatierung wird in die Datenpunktsammlung eingefügt. Und wenn Datenbeschriftungen angezeigt werden, wird auch die entsprechende Datenbeschriftung mit Standardformatierung eingefügt.
 
@@ -44,12 +46,12 @@ Der entsprechende Datenpunkt mit Standardformatierung wird in die Datenpunktsamm
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Insert(int, ChartXValue, ChartYValue, double) {#insert_2}
+## Insert(*int, [ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/), double*) {#insert_2}
 
 Fügt den angegebenen X-Wert, Y-Wert und die Blasengröße am angegebenen Index in die Diagrammreihe ein.
 
@@ -57,7 +59,7 @@ Fügt den angegebenen X-Wert, Y-Wert und die Blasengröße am angegebenen Index 
 public void Insert(int index, ChartXValue xValue, ChartYValue yValue, double bubbleSize)
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der entsprechende Datenpunkt mit Standardformatierung wird in die Datenpunktsammlung eingefügt. Und wenn Datenbeschriftungen angezeigt werden, wird auch die entsprechende Datenbeschriftung mit Standardformatierung eingefügt.
 
@@ -66,7 +68,5 @@ Der entsprechende Datenpunkt mit Standardformatierung wird in die Datenpunktsamm
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.StringFormat
-second_title: Aspose.Words لمراجع .NET API
-description: GraphicsQualityOptions ملكية. الحصول على معلومات تخطيط النص أو تعيينها مثل المحاذاة والاتجاه وعلامات الجدولة ومعالجات العرض مثل إدراج علامات الحذف واستبدال الأرقام الوطنية وميزات OpenType.
+linktitle: StringFormat
+articleTitle: StringFormat
+second_title: Aspose.Words لـ .NET
+description: GraphicsQualityOptions StringFormat ملكية. الحصول على معلومات تخطيط النص أو تعيينها مثل المحاذاة والاتجاه وعلامات الجدولة ومعالجات العرض مثل إدراج علامات الحذف واستبدال الأرقام الوطنية وميزات OpenType في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/graphicsqualityoptions/stringformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/graphicsqualityoptions/stringformat/
 public StringFormat StringFormat { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين خيارات جودة العرض أثناء تحويل المستندات إلى تنسيقات الصور.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### أنظر أيضا
 
 * class [GraphicsQualityOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

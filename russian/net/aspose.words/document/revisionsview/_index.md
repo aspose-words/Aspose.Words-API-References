@@ -1,7 +1,9 @@
 ---
 title: Document.RevisionsView
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает или задает значение указывающее следует ли работать с исходной или исправленной версией документа.
+linktitle: RevisionsView
+articleTitle: RevisionsView
+second_title: Aspose.Words для .NET
+description: Document RevisionsView свойство. Получает или задает значение указывающее следует ли работать с исходной или исправленной версией документа на С#.
 type: docs
 weight: 360
 url: /ru/net/aspose.words/document/revisionsview/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/document/revisionsview/
 public RevisionsView RevisionsView { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию: .
 
-### Примеры
+## Примеры
 
 Показывает, как переключаться между измененным и исходным видом документа.
 
@@ -43,7 +45,5 @@ Assert.AreEqual("a.", paragraphs[2].ListLabel.LabelString);
 
 * enum [RevisionsView](../../revisionsview/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

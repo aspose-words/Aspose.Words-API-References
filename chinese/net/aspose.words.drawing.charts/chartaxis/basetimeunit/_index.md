@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.BaseTimeUnit
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 返回或设置时间类别轴上表示的最小时间单位
+linktitle: BaseTimeUnit
+articleTitle: BaseTimeUnit
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis BaseTimeUnit 财产. 返回或设置时间类别轴上表示的最小时间单位 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartaxis/basetimeunit/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/basetimeunit/
 public AxisTimeUnit BaseTimeUnit { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性仅对时间类别轴有效。
 
-### 例子
+## 例子
 
 演示如何插入带有日期/时间值的图表。
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

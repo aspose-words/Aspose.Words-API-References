@@ -1,7 +1,9 @@
 ---
 title: Font.NameOther
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 返回或设置字符代码从 128 到 255 的字符所使用的字体
+linktitle: NameOther
+articleTitle: NameOther
+second_title: 用于 .NET 的 Aspose.Words
+description: Font NameOther 财产. 返回或设置字符代码从 128 到 255 的字符所使用的字体 在 C#.
 type: docs
 weight: 270
 url: /zh/net/aspose.words/font/nameother/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/nameother/
 public string NameOther { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示 Microsoft Word 如何在一次运行中组合两种不同的字体。
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

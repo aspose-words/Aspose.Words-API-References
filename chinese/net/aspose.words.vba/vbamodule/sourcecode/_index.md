@@ -1,7 +1,9 @@
 ---
 title: VbaModule.SourceCode
-second_title: Aspose.Words for .NET API 参考
-description: VbaModule 财产. 获取或设置 VBA 项目模块源代码
+linktitle: SourceCode
+articleTitle: SourceCode
+second_title: 用于 .NET 的 Aspose.Words
+description: VbaModule SourceCode 财产. 获取或设置 VBA 项目模块源代码 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.vba/vbamodule/sourcecode/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.vba/vbamodule/sourcecode/
 public string SourceCode { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用宏创建 VBA 项目。
 
@@ -67,7 +69,5 @@ vbaModules.Remove(vbaModules[2]);
 ### 也可以看看
 
 * class [VbaModule](../)
-* 命名空间 [Aspose.Words.Vba](../../vbamodule/)
+* 命名空间 [Aspose.Words.Vba](../../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../../)
-
-

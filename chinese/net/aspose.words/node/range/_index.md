@@ -1,7 +1,9 @@
 ---
 title: Node.Range
-second_title: Aspose.Words for .NET API 参考
-description: Node 财产. 返回一个Range表示此节点中包含的文档部分的对象
+linktitle: Range
+articleTitle: Range
+second_title: 用于 .NET 的 Aspose.Words
+description: Node Range 财产. 返回一个Range表示此节点中包含的文档部分的对象 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/node/range/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/node/range/
 public Range Range { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何删除范围中的所有节点。
 
@@ -41,7 +43,5 @@ Assert.AreEqual("Section 2.", doc.GetText().Trim());
 
 * class [Range](../../range/)
 * class [Node](../)
-* 命名空间 [Aspose.Words](../../node/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

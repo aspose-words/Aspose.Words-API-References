@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Family
-second_title: Aspose.Words for .NET API Referansı
-description: FontInfo mülk. Bu yazı tipinin ait olduğu yazı tipi ailesini alır veya ayarlar.
+linktitle: Family
+articleTitle: Family
+second_title: Aspose.Words for .NET
+description: FontInfo Family mülk. Bu yazı tipinin ait olduğu yazı tipi ailesini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/fontinfo/family/
@@ -14,7 +16,7 @@ Bu yazı tipinin ait olduğu yazı tipi ailesini alır veya ayarlar.
 public FontFamily Family { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her yazı tipinin ayrıntılarına nasıl erişileceğini ve yazdırılacağını gösterir.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontFamily](../../fontfamily/)
 * class [FontInfo](../)
-* ad alanı [Aspose.Words.Fonts](../../fontinfo/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

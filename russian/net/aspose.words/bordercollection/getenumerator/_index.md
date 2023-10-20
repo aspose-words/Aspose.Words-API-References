@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: BorderCollection метод. Возвращает объект перечислителя который можно использовать для обхода всех границ коллекции.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: BorderCollection GetEnumerator метод. Возвращает объект перечислителя который можно использовать для обхода всех границ коллекции на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/bordercollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/bordercollection/getenumerator/
 public IEnumerator<Border> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перебирать и редактировать все границы объекта формата абзаца.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "BorderCollection.GetBordersEnumerator.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* пространство имен [Aspose.Words](../../bordercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

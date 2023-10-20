@@ -1,12 +1,14 @@
 ---
 title: Node.ToString
-second_title: Aspose.Words for .NET API 参考
-description: Node 方法. 将节点的内容导出为指定格式的字符串
+linktitle: ToString
+articleTitle: ToString
+second_title: 用于 .NET 的 Aspose.Words
+description: Node ToString 方法. 将节点的内容导出为指定格式的字符串 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words/node/tostring/
 ---
-## ToString(SaveFormat) {#tostring_1}
+## ToString(*[SaveFormat](../../saveformat/)*) {#tostring_1}
 
 将节点的内容导出为指定格式的字符串。
 
@@ -18,7 +20,7 @@ public string ToString(SaveFormat saveFormat)
 
 指定格式的节点内容。
 
-### 例子
+## 例子
 
 显示在节点上调用 GetText 和 ToString 方法之间的区别。
 
@@ -91,12 +93,12 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * enum [SaveFormat](../../saveformat/)
 * class [Node](../)
-* 命名空间 [Aspose.Words](../../node/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## ToString(SaveOptions) {#tostring_2}
+## ToString(*[SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#tostring_2}
 
 使用指定的保存选项将节点的内容导出到字符串中。
 
@@ -112,7 +114,7 @@ public string ToString(SaveOptions saveOptions)
 
 指定格式的节点内容。
 
-### 例子
+## 例子
 
 将节点的内容导出为 HTML 格式的字符串。
 
@@ -140,7 +142,5 @@ Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\
 
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Node](../)
-* 命名空间 [Aspose.Words](../../node/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

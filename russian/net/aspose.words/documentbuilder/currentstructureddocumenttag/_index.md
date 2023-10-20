@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentStructuredDocumentTag
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Получает тег структурированного документа выбранный в данный момент в этомDocumentBuilder .
+linktitle: CurrentStructuredDocumentTag
+articleTitle: CurrentStructuredDocumentTag
+second_title: Aspose.Words для .NET
+description: DocumentBuilder CurrentStructuredDocumentTag свойство. Получает тег структурированного документа выбранный в данный момент в этомDocumentBuilder  на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/documentbuilder/currentstructureddocumenttag/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/documentbuilder/currentstructureddocumenttag/
 public StructuredDocumentTag CurrentStructuredDocumentTag { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как переместить курсор DocumentBuilder внутри тега структурированного документа.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

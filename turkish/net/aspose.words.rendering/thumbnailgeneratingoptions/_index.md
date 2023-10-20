@@ -1,7 +1,9 @@
 ---
-title: Class ThumbnailGeneratingOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Rendering.ThumbnailGeneratingOptions sınıf. Bir belge için küçük resim oluştururken ek seçenekleri belirtmek için kullanılabilir.
+title: ThumbnailGeneratingOptions Class
+linktitle: ThumbnailGeneratingOptions
+articleTitle: ThumbnailGeneratingOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Rendering.ThumbnailGeneratingOptions sınıf. Bir belge için küçük resim oluştururken ek seçenekleri belirtmek için kullanılabilir C#'da.
 type: docs
 weight: 4600
 url: /tr/net/aspose.words.rendering/thumbnailgeneratingoptions/
@@ -27,11 +29,11 @@ public class ThumbnailGeneratingOptions
 | [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Küçük resmin belgenin ilk sayfasından mı yoksa ilk görüntüden mi oluşturulacağını belirtir. |
 | [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | Oluşturulan küçük resmin piksel cinsinden boyutu. Varsayılan 600x900'dür. |
 
-### Notlar
+## Notlar
 
 Kullanıcı yöntemi çağırabilir[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/) oluşturmak için[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) bir belge için.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin küçük resminin nasıl güncelleneceğini gösterir.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 * ad alanı [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../)
-
-

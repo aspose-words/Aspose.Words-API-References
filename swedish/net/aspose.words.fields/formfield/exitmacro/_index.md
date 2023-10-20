@@ -1,7 +1,9 @@
 ---
 title: FormField.ExitMacro
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Returnerar eller ställer in ett utgångsmakronamn för formulärfältet.
+linktitle: ExitMacro
+articleTitle: ExitMacro
+second_title: Aspose.Words för .NET
+description: FormField ExitMacro fast egendom. Returnerar eller ställer in ett utgångsmakronamn för formulärfältet i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.fields/formfield/exitmacro/
@@ -14,13 +16,13 @@ Returnerar eller ställer in ett utgångsmakronamn för formulärfältet.
 public string ExitMacro { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Exit-makrot körs när formulärfältet tappar fokus i Microsoft Word.
 
 Microsoft Word tillåter strängar med högst 32 tecken.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum SectionLayoutMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.SectionLayoutMode Sıralama. Belge ızgara davranışını tanımlamaya olanak tanıyan bir bölüm için düzen modunu belirtir.
+title: SectionLayoutMode Enum
+linktitle: SectionLayoutMode
+articleTitle: SectionLayoutMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.SectionLayoutMode Sıralama. Belge ızgara davranışını tanımlamaya olanak tanıyan bir bölüm için düzen modunu belirtir C#'da.
 type: docs
 weight: 5750
 url: /tr/net/aspose.words/sectionlayoutmode/
@@ -23,7 +25,7 @@ public enum SectionLayoutMode
 | LineGrid | `2` | Sayfa başına belirtilen satır sayısını korumak için ilgili bölümün it içindeki her satıra ilave satır aralığı ekleneceği belirtir. |
 | SnapToChars | `3` | Sayfa başına belirli sayıda satır ve satır başına karakter sayısını korumak için ilgili bölümün her satıra ve içindeki karaktere ek satır aralığına ve karakter aralığına sahip olacağını belirtir. Karakterler, yazarken otomatik olarak kılavuz çizgileriyle hizalanacaktır. |
 
-### Örnekler
+## Örnekler
 
 Her satırın sahip olabileceği karakter sayısı için nasıl belirtileceğini gösterir.
 
@@ -68,5 +70,3 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

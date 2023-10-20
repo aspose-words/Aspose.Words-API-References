@@ -1,7 +1,9 @@
 ---
 title: ControlChar.Cell
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Конец ячейки таблицы или символ конца строки таблицы x0007 или a.
+linktitle: Cell
+articleTitle: Cell
+second_title: Aspose.Words для .NET
+description: ControlChar Cell поле. Конец ячейки таблицы или символ конца строки таблицы x0007 или a на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/controlchar/cell/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/cell/
 public static readonly string Cell;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

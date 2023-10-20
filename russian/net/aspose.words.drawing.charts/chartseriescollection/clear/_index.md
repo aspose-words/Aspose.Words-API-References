@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeriesCollection метод. Удаляет всеChartSeries из этой коллекции.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: ChartSeriesCollection Clear метод. Удаляет всеChartSeries из этой коллекции на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing.charts/chartseriescollection/clear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartseriescollection/clear/
 public void Clear()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять и удалять данные рядов на диаграмме.
 
@@ -61,7 +63,5 @@ chartData.Clear();
 ### Смотрите также
 
 * class [ChartSeriesCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

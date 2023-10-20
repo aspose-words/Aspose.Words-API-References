@@ -1,7 +1,9 @@
 ---
 title: ListLevel.GetEffectiveValue
-second_title: Aspose.Words for .NET API 参考
-description: ListLevel 方法. 报告的字符串表示形式ListLevel列表项的指定index 的对象参数指定NumberStyle以及可选格式 string 时使用Custom已指定
+linktitle: GetEffectiveValue
+articleTitle: GetEffectiveValue
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevel GetEffectiveValue 方法. 报告的字符串表示形式ListLevel列表项的指定index 的对象参数指定NumberStyle以及可选格式 string 时使用Custom已指定 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words.lists/listlevel/geteffectivevalue/
@@ -32,7 +34,7 @@ public static string GetEffectiveValue(int index, NumberStyle numberStyle,
 | ArgumentException | *customNumberStyleFormat*是`无效的`或空时*numberStyle*是定制的。-或- *customNumberStyleFormat*不是`无效的`或空时*numberStyle*是非自定义的。-或- *customNumberStyleFormat*无效。 |
 | ArgumentOutOfRangeException | 索引超出范围。 |
 
-### 例子
+## 例子
 
 演示如何获取具有自定义数字样式的列表的格式。
 
@@ -57,7 +59,5 @@ Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, custom
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [ListLevel](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevel/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

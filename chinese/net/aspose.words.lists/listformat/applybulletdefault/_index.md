@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ApplyBulletDefault
-second_title: Aspose.Words for .NET API 参考
-description: ListFormat 方法. 启动新的默认项目符号列表并将其应用于段落
+linktitle: ApplyBulletDefault
+articleTitle: ApplyBulletDefault
+second_title: 用于 .NET 的 Aspose.Words
+description: ListFormat ApplyBulletDefault 方法. 启动新的默认项目符号列表并将其应用于段落 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.lists/listformat/applybulletdefault/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.lists/listformat/applybulletdefault/
 public void ApplyBulletDefault()
 ```
 
-### 评论
+## 评论
 
 这是一种快捷方法，它使用默认的Bulleted 模板创建新列表，将其应用于段落并选择第一个列表级别。
 
-### 例子
+## 例子
 
 演示如何创建项目符号列表和编号列表。
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### 也可以看看
 
 * class [ListFormat](../)
-* 命名空间 [Aspose.Words.Lists](../../listformat/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

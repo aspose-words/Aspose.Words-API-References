@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.StringValue
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartXValue свойство. Получает сохраненное строковое значение.
+linktitle: StringValue
+articleTitle: StringValue
+second_title: Aspose.Words для .NET
+description: ChartXValue StringValue свойство. Получает сохраненное строковое значение на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.drawing.charts/chartxvalue/stringvalue/
@@ -17,7 +19,5 @@ public string StringValue { get; }
 ### Смотрите также
 
 * class [ChartXValue](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartColumnBookmark
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Markiert die aktuelle Position im Dokument als Spaltenanfang eines Lesezeichens. Die Position muss in einer Tabellenzelle liegen.
+linktitle: StartColumnBookmark
+articleTitle: StartColumnBookmark
+second_title: Aspose.Words für .NET
+description: DocumentBuilder StartColumnBookmark methode. Markiert die aktuelle Position im Dokument als Spaltenanfang eines Lesezeichens. Die Position muss in einer Tabellenzelle liegen in C#.
 type: docs
-weight: 630
+weight: 620
 url: /de/net/aspose.words/documentbuilder/startcolumnbookmark/
 ---
 ## DocumentBuilder.StartColumnBookmark method
@@ -22,7 +24,7 @@ public BookmarkStart StartColumnBookmark(string bookmarkName)
 
 Der gerade erstellte Lesezeichen-Startknoten.
 
-### Bemerkungen
+## Bemerkungen
 
 Ein Spaltenlesezeichen deckt eine oder mehrere Spalten in einem Zeilenbereich ab. Um ein gültiges Lesezeichen zu erstellen, müssen Sie beide aufrufen`StartColumnBookmark` Und[`EndColumnBookmark`](../endcolumnbookmark/) mit dem gleichen *bookmarkName*Parameter.
 
@@ -30,7 +32,7 @@ Falsch formatierte Lesezeichen oder Lesezeichen mit doppelten Namen werden beim 
 
 Die tatsächliche Position des eingefügten[`BookmarkStart`](../../bookmarkstart/) Der Knoten kann von der aktuellen document Builder-Position abweichen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Spaltenlesezeichen erstellt wird.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Bookmarks.CreateColumnBookmark.docx");
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

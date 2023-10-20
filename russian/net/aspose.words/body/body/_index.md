@@ -1,7 +1,9 @@
 ---
-title: Body.Body
-second_title: Справочник по API Aspose.Words для .NET
-description: Body строитель. Инициализирует новый экземплярBody класс.
+title: Body
+linktitle: Body
+articleTitle: Body
+second_title: Aspose.Words для .NET
+description: Body строитель. Инициализирует новый экземплярBody класс на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/body/body/
@@ -18,13 +20,13 @@ public Body(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Документ владельца. |
 
-### Примечания
+## Примечания
 
 Когда[`Body`](../) создан, он принадлежит указанному документу, но еще не является частью документа и[`ParentNode`](../../node/parentnode/) является`нулевой`.
 
-Чтобы добавить[`Body`](../)к[`Section`](../../section/) использоватьAppendChild , ВставкаПосле илиВставитьперед методы.
+Чтобы добавить[`Body`](../)к[`Section`](../../section/) использовать[`AppendChild`](../../compositenode/appendchild/) , [`ВставкаПосле`](../../compositenode/insertafter/) или[`Вставитьперед`](../../compositenode/insertbefore/) методы.
 
-### Примеры
+## Примеры
 
 Показывает, как вручную создать документ Aspose.Words.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Body](../)
-* пространство имен [Aspose.Words](../../body/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

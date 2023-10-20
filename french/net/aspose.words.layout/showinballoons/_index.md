@@ -1,7 +1,9 @@
 ---
-title: Enum ShowInBalloons
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Layout.ShowInBalloons énumération. Spécifie quelles révisions sont rendues dans les bulles.
+title: ShowInBalloons Enum
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Layout.ShowInBalloons énumération. Spécifie quelles révisions sont rendues dans les bulles en C#.
 type: docs
 weight: 3410
 url: /fr/net/aspose.words.layout/showinballoons/
@@ -22,11 +24,11 @@ public enum ShowInBalloons
 | Format | `1` | Rend les révisions d'insertion et de suppression en ligne, formate les révisions dans des bulles. |
 | FormatAndDelete | `2` | Rend les révisions insérées en ligne, supprimées et formatées dans des bulles. |
 
-### Remarques
+## Remarques
 
 Notez que les révisions ne sont pas affichées dans les bulles pourShowInAnnotations .
 
-### Exemples
+## Exemples
 
 Montre comment modifier l’apparence des révisions.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * espace de noms [Aspose.Words.Layout](../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../)
-
-

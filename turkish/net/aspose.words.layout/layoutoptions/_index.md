@@ -1,7 +1,9 @@
 ---
-title: Class LayoutOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Layout.LayoutOptions sınıf. Belge düzeni sürecini kontrol etmeye olanak sağlayan seçenekleri içerir.
+title: LayoutOptions Class
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Layout.LayoutOptions sınıf. Belge düzeni sürecini kontrol etmeye olanak sağlayan seçenekleri içerir C#'da.
 type: docs
 weight: 3350
 url: /tr/net/aspose.words.layout/layoutoptions/
@@ -36,13 +38,13 @@ public class LayoutOptions
 | [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Paragraf işaretlerinin oluşturulup oluşturulmayacağına ilişkin göstergeyi alır veya ayarlar. Varsayılan:`YANLIŞ` . |
 | [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory/) { get; set; } | Alır veya ayarlar[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory/) Gelişmiş Tipografi oluşturma özellikleri için kullanılan uygulama. |
 
-### Notlar
+## Notlar
 
 Bu sınıfın örneklerini doğrudan oluşturmazsınız. Kullan[`LayoutOptions`](../../aspose.words/document/layoutoptions/) Bu belgenin düzen seçeneklerine erişim özelliği.
 
 Bu sınıfta mevcut seçeneklerden herhangi birini değiştirdikten sonra,[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) Değiştirilen seçeneklerin düzene uygulanabilmesi için method çağrılmalıdır.
 
-### Örnekler
+## Örnekler
 
 İşlenmiş bir çıktı belgesindeki metnin nasıl gizleneceğini gösterir.
 
@@ -98,5 +100,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * ad alanı [Aspose.Words.Layout](../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.FormsDesign
-second_title: Aspose.Words per .NET API Reference
-description: ViewOptions proprietà. Specifica se il documento è in modalità progettazione moduli.
+linktitle: FormsDesign
+articleTitle: FormsDesign
+second_title: Aspose.Words per .NET
+description: ViewOptions FormsDesign proprietà. Specifica se il documento è in modalità progettazione moduli in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.settings/viewoptions/formsdesign/
@@ -14,11 +16,11 @@ Specifica se il documento è in modalità progettazione moduli.
 public bool FormsDesign { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Attualmente funziona solo per documenti in formato WordML.
 
-### Esempi
+## Esempi
 
 Mostra come abilitare/disabilitare la modalità di progettazione dei moduli.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(useFormsDesign,
 ### Guarda anche
 
 * class [ViewOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../viewoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

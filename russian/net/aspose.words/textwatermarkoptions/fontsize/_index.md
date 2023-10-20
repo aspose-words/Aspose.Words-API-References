@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.FontSize
-second_title: Справочник по API Aspose.Words для .NET
-description: TextWatermarkOptions свойство. Получает или задает размер шрифта. Значение по умолчанию 0  auto. .
+linktitle: FontSize
+articleTitle: FontSize
+second_title: Aspose.Words для .NET
+description: TextWatermarkOptions FontSize свойство. Получает или задает размер шрифта. Значение по умолчанию 0  auto.  на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/textwatermarkoptions/fontsize/
@@ -20,13 +22,13 @@ public float FontSize { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Выдает, когда аргумент выходит за пределы допустимого диапазона значений. |
 
-### Примечания
+## Примечания
 
 Допустимые значения находятся в диапазоне от 0 до 65,5 включительно.
 
 Автоматический размер шрифта означает, что водяной знак будет масштабироваться до максимальной ширины и максимальной высоты относительно полей страницы.
 
-### Примеры
+## Примеры
 
 Показывает, как создать текстовый водяной знак.
 
@@ -57,7 +59,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Смотрите также
 
 * class [TextWatermarkOptions](../)
-* пространство имен [Aspose.Words](../../textwatermarkoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

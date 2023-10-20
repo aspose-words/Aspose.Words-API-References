@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.UseCoreFonts
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Obtiene o establece un valor que determina si se sustituyen o no las fuentes TrueType Arial Times New Roman Courier New y Symbol con fuentes PDF Type 1 principales.
+linktitle: UseCoreFonts
+articleTitle: UseCoreFonts
+second_title: Aspose.Words para .NET
+description: PdfSaveOptions UseCoreFonts propiedad. Obtiene o establece un valor que determina si se sustituyen o no las fuentes TrueType Arial Times New Roman Courier New y Symbol con fuentes PDF Type 1 principales en C#.
 type: docs
 weight: 310
 url: /es/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que determina si se sustituyen o no las fuentes Tru
 public bool UseCoreFonts { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO` . Cuando este valor se establece en`verdadero` Las fuentes Arial, Times New Roman, Courier New y Symbol se reemplazan en el documento PDF con la fuente principal Tipo 1 correspondiente.
 
@@ -28,7 +30,7 @@ Las fuentes principales no son compatibles al guardar en formato PDF 2.0.`FALSO`
 
 Esta opción tiene mayor prioridad que[`FontEmbeddingMode`](../fontembeddingmode/) opción.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo habilitar/deshabilitar la sustitución de fuentes PDF Tipo 1.
 
@@ -61,7 +63,5 @@ else
 ### Ver también
 
 * class [PdfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

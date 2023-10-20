@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.Type
-second_title: Aspose.Words for .NET API 参考
-description: FolderFontSource 财产. 返回字体源的类型
+linktitle: Type
+articleTitle: Type
+second_title: 用于 .NET 的 Aspose.Words
+description: FolderFontSource Type 财产. 返回字体源的类型 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fonts/folderfontsource/type/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/folderfontsource/type/
 public override FontSourceType Type { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用包含字体的本地系统文件夹作为字体源。
 
@@ -36,7 +38,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [FolderFontSource](../)
-* 命名空间 [Aspose.Words.Fonts](../../folderfontsource/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

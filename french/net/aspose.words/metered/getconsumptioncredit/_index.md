@@ -1,7 +1,9 @@
 ---
 title: Metered.GetConsumptionCredit
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Metered méthode. Obtient un crédit de consommation
+linktitle: GetConsumptionCredit
+articleTitle: GetConsumptionCredit
+second_title: Aspose.Words pour .NET
+description: Metered GetConsumptionCredit méthode. Obtient un crédit de consommation en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/metered/getconsumptioncredit/
@@ -18,7 +20,7 @@ public static decimal GetConsumptionCredit()
 
 quantité de consommation
 
-### Exemples
+## Exemples
 
 Montre comment activer une licence avec compteur et suivre le crédit/la consommation.
 
@@ -45,7 +47,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### Voir également
 
 * class [Metered](../)
-* espace de noms [Aspose.Words](../../metered/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

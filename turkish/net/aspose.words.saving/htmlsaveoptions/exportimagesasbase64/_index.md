@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportImagesAsBase64
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Görüntülerin HTML MHTML veya EPUB çıkışına Base64 formatında kaydedilip kaydedilmeyeceğini belirtir. VarsayılanYANLIŞ .
+linktitle: ExportImagesAsBase64
+articleTitle: ExportImagesAsBase64
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ExportImagesAsBase64 mülk. Görüntülerin HTML MHTML veya EPUB çıkışına Base64 formatında kaydedilip kaydedilmeyeceğini belirtir. VarsayılanYANLIŞ  C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportimagesasbase64/
@@ -14,11 +16,11 @@ Görüntülerin HTML, MHTML veya EPUB çıkışına Base64 formatında kaydedili
 public bool ExportImagesAsBase64 { get; set; }
 ```
 
-### Notlar
+## Notlar
 
-Bu özellik olarak ayarlandığında`doğru` görüntü verileri doğrudan x000d_'ye aktarılır **img** öğeler ve ayrı dosyalar oluşturulmaz.
+Bu özellik olarak ayarlandığında`doğru` görüntü verileri doğrudan x000d_'ye aktarılır**img** öğeler ve ayrı dosyalar oluşturulmaz.
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir HTML belgesinin içine yazı tiplerinin nasıl yerleştirileceğini gösterir.
 
@@ -58,7 +60,5 @@ Assert.True(exportImagesAsBase64
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

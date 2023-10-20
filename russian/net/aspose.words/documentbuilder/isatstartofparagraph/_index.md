@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.IsAtStartOfParagraph
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Возвращаетистинный если курсор находится в начале текущего абзаца нет текста перед курсором.
+linktitle: IsAtStartOfParagraph
+articleTitle: IsAtStartOfParagraph
+second_title: Aspose.Words для .NET
+description: DocumentBuilder IsAtStartOfParagraph свойство. Возвращаетистинный если курсор находится в начале текущего абзаца нет текста перед курсором на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words/documentbuilder/isatstartofparagraph/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/documentbuilder/isatstartofparagraph/
 public bool IsAtStartOfParagraph { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перемещать курсор построителя документов в разные узлы документа.
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

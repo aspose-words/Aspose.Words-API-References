@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.UseInvariantCultureNumberFormat
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على أو تعيين القيمة التي تشير إلى أنه تم تحليل تنسيق الأرقام باستخدام الثقافة الثابتة أو not
+linktitle: UseInvariantCultureNumberFormat
+articleTitle: UseInvariantCultureNumberFormat
+second_title: Aspose.Words لـ .NET
+description: FieldOptions UseInvariantCultureNumberFormat ملكية. الحصول على أو تعيين القيمة التي تشير إلى أنه تم تحليل تنسيق الأرقام باستخدام الثقافة الثابتة أو not في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words.fields/fieldoptions/useinvariantculturenumberformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldoptions/useinvariantculturenumberformat/
 public bool UseInvariantCultureNumberFormat { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عند تعيين هذه الخاصية على`حقيقي` ، تنسيق الأرقام مأخوذ من ثقافة ثابتة.
 
@@ -22,7 +24,7 @@ public bool UseInvariantCultureNumberFormat { get; set; }
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق الأرقام وفقًا للثقافة الثابتة.
 
@@ -50,7 +52,5 @@ Assert.AreEqual("$1.234.567,89", field.Result);
 ### أنظر أيضا
 
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

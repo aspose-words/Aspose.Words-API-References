@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Family
-second_title: Aspose.Words för .NET API Referens
-description: FontInfo fast egendom. Hämtar eller ställer in teckensnittsfamiljen som detta teckensnitt tillhör.
+linktitle: Family
+articleTitle: Family
+second_title: Aspose.Words för .NET
+description: FontInfo Family fast egendom. Hämtar eller ställer in teckensnittsfamiljen som detta teckensnitt tillhör i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/fontinfo/family/
@@ -14,7 +16,7 @@ Hämtar eller ställer in teckensnittsfamiljen som detta teckensnitt tillhör.
 public FontFamily Family { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt och skriver ut detaljer för varje typsnitt i ett dokument.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontFamily](../../fontfamily/)
 * class [FontInfo](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontinfo/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

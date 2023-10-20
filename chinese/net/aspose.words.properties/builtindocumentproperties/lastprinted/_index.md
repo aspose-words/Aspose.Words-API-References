@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LastPrinted
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 获取或设置文档上次打印的日期UTC
+linktitle: LastPrinted
+articleTitle: LastPrinted
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties LastPrinted 财产. 获取或设置文档上次打印的日期UTC 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.properties/builtindocumentproperties/lastprinted/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/lastprinted/
 public DateTime LastPrinted { get; set; }
 ```
 
-### 评论
+## 评论
 
 对于源自 RTF 格式的文档，此属性返回上次打印操作的本地时间。
 
@@ -22,7 +24,7 @@ public DateTime LastPrinted { get; set; }
 
 Aspose.Words 不会更新此属性。
 
-### 例子
+## 例子
 
 展示如何使用“来源”类别中的文档属性。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

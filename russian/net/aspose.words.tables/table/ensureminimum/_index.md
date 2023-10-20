@@ -1,9 +1,11 @@
 ---
 title: Table.EnsureMinimum
-second_title: Справочник по API Aspose.Words для .NET
-description: Table метод. Если в таблице нет строк создается и добавляется однаRow .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words для .NET
+description: Table EnsureMinimum метод. Если в таблице нет строк создается и добавляется однаRow  на С#.
 type: docs
-weight: 420
+weight: 400
 url: /ru/net/aspose.words.tables/table/ensureminimum/
 ---
 ## Table.EnsureMinimum method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как убедиться, что узел таблицы содержит узлы, необходимые для добавления содержимого.
 
@@ -37,7 +39,5 @@ table.FirstRow.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!")
 ### Смотрите также
 
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

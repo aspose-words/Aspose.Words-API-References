@@ -1,7 +1,9 @@
 ---
 title: Node.Remove
-second_title: Referencia de API de Aspose.Words para .NET
-description: Node método. Se elimina del padre.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words para .NET
+description: Node Remove método. Se elimina del padre en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words/node/remove/
@@ -14,7 +16,7 @@ Se elimina del padre.
 public void Remove()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar todas las formas con imágenes de un documento.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 ### Ver también
 
 * class [Node](../)
-* espacio de nombres [Aspose.Words](../../node/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

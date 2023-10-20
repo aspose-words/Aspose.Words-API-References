@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentStory
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 财产. 获取当前在此选择的故事DocumentBuilder.
+linktitle: CurrentStory
+articleTitle: CurrentStory
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder CurrentStory 财产. 获取当前在此选择的故事DocumentBuilder 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/documentbuilder/currentstory/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbuilder/currentstory/
 public Story CurrentStory { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档生成器的当前故事。
 
@@ -44,7 +46,5 @@ Assert.IsTrue(builder.CurrentStory.Tables.Contains(table));
 
 * class [Story](../../story/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

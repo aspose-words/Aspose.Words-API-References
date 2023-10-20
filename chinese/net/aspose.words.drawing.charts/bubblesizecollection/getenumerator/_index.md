@@ -1,7 +1,9 @@
 ---
 title: BubbleSizeCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: BubbleSizeCollection 方法. 返回一个枚举器对象
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: BubbleSizeCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/bubblesizecollection/getenumerator/
@@ -17,7 +19,5 @@ public IEnumerator<double> GetEnumerator()
 ### 也可以看看
 
 * class [BubbleSizeCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../bubblesizecollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

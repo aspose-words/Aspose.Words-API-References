@@ -1,7 +1,9 @@
 ---
 title: Font.Shadow
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. True si la police est formatée comme ombrée.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words pour .NET
+description: Font Shadow propriété. True si la police est formatée comme ombrée en C#.
 type: docs
 weight: 330
 url: /fr/net/aspose.words/font/shadow/
@@ -14,7 +16,7 @@ True si la police est formatée comme ombrée.
 public bool Shadow { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une séquence de texte formatée avec une ombre.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.Shadow.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

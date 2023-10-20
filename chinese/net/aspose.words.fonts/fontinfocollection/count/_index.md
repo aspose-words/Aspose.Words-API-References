@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: FontInfoCollection 财产. 获取集合中包含的元素数量
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: FontInfoCollection Count 财产. 获取集合中包含的元素数量 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fonts/fontinfocollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontinfocollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 显示有关空白文档中存在的字体的信息。
 
@@ -35,7 +37,5 @@ Assert.True(doc.FontInfos.Contains("Arial"));
 ### 也可以看看
 
 * class [FontInfoCollection](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontinfocollection/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class OleControl
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Ole.OleControl 班级. 代表 OLE ActiveX 控件
+title: OleControl Class
+linktitle: OleControl
+articleTitle: OleControl
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Ole.OleControl 班级. 代表 OLE ActiveX 控件 在 C#.
 type: docs
 weight: 1140
 url: /zh/net/aspose.words.drawing.ole/olecontrol/
@@ -23,7 +25,7 @@ public class OleControl
 | [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol/) { get; } | 返回`真的`如果控制是[`Forms2OleControl`](../forms2olecontrol/). |
 | [Name](../../aspose.words.drawing.ole/olecontrol/name/) { get; set; } | 获取或设置 ActiveX 控件的名称。 |
 
-### 例子
+## 例子
 
 演示如何验证 ActiveX 控件的属性。
 
@@ -54,5 +56,3 @@ if (oleControl.IsForms2OleControl)
 
 * 命名空间 [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Revision.Author
-second_title: Aspose.Words for .NET API Referansı
-description: Revision mülk. Bu düzeltmenin yazarını alır veya ayarlar. Boş dize olamaz veyahükümsüz .
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words for .NET
+description: Revision Author mülk. Bu düzeltmenin yazarını alır veya ayarlar. Boş dize olamaz veyahükümsüz  C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/revision/author/
@@ -14,7 +16,7 @@ Bu düzeltmenin yazarını alır veya ayarlar. Boş dize olamaz veya`hükümsüz
 public string Author { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki düzeltmelerle nasıl çalışılacağını gösterir.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Ayrıca bakınız
 
 * class [Revision](../)
-* ad alanı [Aspose.Words](../../revision/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

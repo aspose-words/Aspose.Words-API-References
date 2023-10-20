@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.StoreType
-second_title: Справочник по API Aspose.Words для .NET
-description: WebExtensionReference свойство. Указывает тип торговой площадки.
+linktitle: StoreType
+articleTitle: StoreType
+second_title: Aspose.Words для .NET
+description: WebExtensionReference StoreType свойство. Указывает тип торговой площадки на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.webextensions/webextensionreference/storetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.webextensions/webextensionreference/storetype/
 public WebExtensionStoreType StoreType { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [WebExtensionStoreType](../../webextensionstoretype/)
 * class [WebExtensionReference](../)
-* пространство имен [Aspose.Words.WebExtensions](../../webextensionreference/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

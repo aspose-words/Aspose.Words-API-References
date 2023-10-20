@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.TextShaperFactory
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutOptions ملكية. يحصل على أو مجموعاتITextShaperFactory التنفيذ المستخدم لميزات عرض الطباعة المتقدمة.
+linktitle: TextShaperFactory
+articleTitle: TextShaperFactory
+second_title: Aspose.Words لـ .NET
+description: LayoutOptions TextShaperFactory ملكية. يحصل على أو مجموعاتITextShaperFactory التنفيذ المستخدم لميزات عرض الطباعة المتقدمة في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.layout/layoutoptions/textshaperfactory/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/layoutoptions/textshaperfactory/
 public ITextShaperFactory TextShaperFactory { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دعم ميزات OpenType باستخدام محرك تشكيل النص HarfBuzz.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "Document.OpenType.pdf");
 
 * interface [ITextShaperFactory](../../../aspose.words.shaping/itextshaperfactory/)
 * class [LayoutOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

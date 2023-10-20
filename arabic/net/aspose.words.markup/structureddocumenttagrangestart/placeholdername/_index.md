@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.PlaceholderName
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. الحصول على أو تعيين اسمBuildingBlock تحتوي على نص نائب.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeStart PlaceholderName ملكية. الحصول على أو تعيين اسمBuildingBlock تحتوي على نص نائب في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
@@ -16,7 +18,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername
 public string PlaceholderName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
 
@@ -51,7 +53,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### أنظر أيضا
 
 * class [StructuredDocumentTagRangeStart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

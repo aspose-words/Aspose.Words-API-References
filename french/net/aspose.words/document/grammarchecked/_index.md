@@ -1,7 +1,9 @@
 ---
 title: Document.GrammarChecked
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Retoursvrai si le document a été vérifié pour la grammaire.
+linktitle: GrammarChecked
+articleTitle: GrammarChecked
+second_title: Aspose.Words pour .NET
+description: Document GrammarChecked propriété. Retoursvrai si le document a été vérifié pour la grammaire en C#.
 type: docs
 weight: 180
 url: /fr/net/aspose.words/document/grammarchecked/
@@ -14,11 +16,11 @@ Retours`vrai` si le document a été vérifié pour la grammaire.
 public bool GrammarChecked { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Pour revérifier la grammaire du document, définissez cette propriété sur`FAUX` .
 
-### Exemples
+## Exemples
 
 Montre comment définir la vérification orthographique ou grammaticale.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.SpellingOrGrammar.docx");
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

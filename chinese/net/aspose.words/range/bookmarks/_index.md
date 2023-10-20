@@ -1,7 +1,9 @@
 ---
 title: Range.Bookmarks
-second_title: Aspose.Words for .NET API 参考
-description: Range 财产. 返回一个Bookmarks代表范围内所有书签的集合
+linktitle: Bookmarks
+articleTitle: Bookmarks
+second_title: 用于 .NET 的 Aspose.Words
+description: Range Bookmarks 财产. 返回一个Bookmarks代表范围内所有书签的集合 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/range/bookmarks/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/range/bookmarks/
 public BookmarkCollection Bookmarks { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何添加书签并更新其内容。
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkCollection](../../bookmarkcollection/)
 * class [Range](../)
-* 命名空间 [Aspose.Words](../../range/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

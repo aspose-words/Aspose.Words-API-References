@@ -1,7 +1,9 @@
 ---
 title: FieldGoToButton.Location
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldGoToButton свойство. Получает или задает имя закладки номер страницы или другой элемент для перехода.
+linktitle: Location
+articleTitle: Location
+second_title: Aspose.Words для .NET
+description: FieldGoToButton Location свойство. Получает или задает имя закладки номер страницы или другой элемент для перехода на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldgotobutton/location/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldgotobutton/location/
 public string Location { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, что нужно вставить поле GOTOBUTTON.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Field.GOTOBUTTON.docx");
 ### Смотрите также
 
 * class [FieldGoToButton](../)
-* пространство имен [Aspose.Words.Fields](../../fieldgotobutton/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldAddIn.FieldAddIn
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAddIn строитель. Конструктор по умолчанию.
+title: FieldAddIn
+linktitle: FieldAddIn
+articleTitle: FieldAddIn
+second_title: Aspose.Words для .NET
+description: FieldAddIn строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldaddin/fieldaddin/
@@ -17,7 +19,5 @@ public FieldAddIn()
 ### Смотрите также
 
 * class [FieldAddIn](../)
-* пространство имен [Aspose.Words.Fields](../../fieldaddin/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsWidth
-second_title: Aspose.Words for .NET API 参考
-description: RevisionOptions 财产. 获取或设置修订栏的宽度点
+linktitle: RevisionBarsWidth
+articleTitle: RevisionBarsWidth
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionOptions RevisionBarsWidth 财产. 获取或设置修订栏的宽度点 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.layout/revisionoptions/revisionbarswidth/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/revisionoptions/revisionbarswidth/
 public float RevisionBarsWidth { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何修改修订版本的外观。
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### 也可以看看
 
 * class [RevisionOptions](../)
-* 命名空间 [Aspose.Words.Layout](../../revisionoptions/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

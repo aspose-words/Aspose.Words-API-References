@@ -1,9 +1,11 @@
 ---
 title: Style.Remove
-second_title: Aspose.Words för .NET API Referens
-description: Style metod. Tar bort den angivna stilen från dokumentet.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: Style Remove metod. Tar bort den angivna stilen från dokumentet i C#.
 type: docs
-weight: 200
+weight: 190
 url: /sv/net/aspose.words/style/remove/
 ---
 ## Style.Remove method
@@ -14,7 +16,7 @@ Tar bort den angivna stilen från dokumentet.
 public void Remove()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Formatborttagning har följande effekter på dokumentmodellen:
 
@@ -22,7 +24,7 @@ Formatborttagning har följande effekter på dokumentmodellen:
 * Om basstilen tas bort flyttas dess formatering till underordnade stilar.
 * Om stilen som ska raderas har en länkad stil raderas båda dessa.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar och tillämpar en anpassad stil.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 ### Se även
 
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

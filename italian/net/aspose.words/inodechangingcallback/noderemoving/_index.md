@@ -1,7 +1,9 @@
 ---
 title: INodeChangingCallback.NodeRemoving
-second_title: Aspose.Words per .NET API Reference
-description: INodeChangingCallback metodo. Chiamato subito prima che un nodo appartenente a questo documento stia per essere rimosso dal documento.
+linktitle: NodeRemoving
+articleTitle: NodeRemoving
+second_title: Aspose.Words per .NET
+description: INodeChangingCallback NodeRemoving metodo. Chiamato subito prima che un nodo appartenente a questo documento stia per essere rimosso dal documento in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/inodechangingcallback/noderemoving/
@@ -14,7 +16,7 @@ Chiamato subito prima che un nodo appartenente a questo documento stia per esser
 public void NodeRemoving(NodeChangingArgs args)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come personalizzare la modifica del nodo con un callback.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [NodeChangingArgs](../../nodechangingargs/)
 * interface [INodeChangingCallback](../)
-* spazio dei nomi [Aspose.Words](../../inodechangingcallback/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

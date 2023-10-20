@@ -1,7 +1,9 @@
 ---
 title: TabStop.GetHashCode
-second_title: Aspose.Words لمراجع .NET API
-description: TabStop طريقة. حساب رمز التجزئة لهذا الكائن.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words لـ .NET
+description: TabStop GetHashCode طريقة. حساب رمز التجزئة لهذا الكائن في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/tabstop/gethashcode/
@@ -17,7 +19,5 @@ public override int GetHashCode()
 ### أنظر أيضا
 
 * class [TabStop](../)
-* مساحة الاسم [Aspose.Words](../../tabstop/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

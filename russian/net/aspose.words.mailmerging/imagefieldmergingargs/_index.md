@@ -1,7 +1,9 @@
 ---
-title: Class ImageFieldMergingArgs
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.MailMerging.ImageFieldMergingArgs сорт. Предоставляет данные дляImageFieldMerging событие.
+title: ImageFieldMergingArgs Class
+linktitle: ImageFieldMergingArgs
+articleTitle: ImageFieldMergingArgs
+second_title: Aspose.Words для .NET
+description: Aspose.Words.MailMerging.ImageFieldMergingArgs сорт. Предоставляет данные дляImageFieldMerging событие на С#.
 type: docs
 weight: 3830
 url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/
@@ -34,7 +36,7 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 | [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Указывает форму, которую механизм слияния почты должен вставить в документ. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Получает имя таблицы данных для текущей операции слияния или пустую строку, если имя недоступно. |
 
-### Примечания
+## Примечания
 
 Это событие происходит во время слияния почты, когда в документе встречается поле изображения mail merge . Вы можете отреагировать на это событие, чтобы вернуть имя файла, поток или поток a .Image объект почтовому механизму merge , чтобы он был вставлен в документ.
 
@@ -42,7 +44,7 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 Чтобы вставить поле слияния изображения в документ Word, выберите команду «Вставить/Поле», , затем выберите «MergeField» и введите «Image:MyFieldName».
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в отчет изображения, хранящиеся в BLOB-поле базы данных.
 
@@ -158,5 +160,3 @@ private class MergedImageResizer : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * пространство имен [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../)
-
-

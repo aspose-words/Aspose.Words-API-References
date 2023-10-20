@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.RemoveAllChildren
-second_title: Aspose.Words for .NET API 参考
-description: CompositeNode 方法. 删除当前节点的所有子节点
+linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
+second_title: 用于 .NET 的 Aspose.Words
+description: CompositeNode RemoveAllChildren 方法. 删除当前节点的所有子节点 在 C#.
 type: docs
-weight: 180
+weight: 160
 url: /zh/net/aspose.words/compositenode/removeallchildren/
 ---
 ## CompositeNode.RemoveAllChildren method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/compositenode/removeallchildren/
 public void RemoveAllChildren()
 ```
 
-### 例子
+## 例子
 
 展示如何手动构建 Aspose.Words 文档。
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### 也可以看看
 
 * class [CompositeNode](../)
-* 命名空间 [Aspose.Words](../../compositenode/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Stroke
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Stroke сорт. Определяет обводку фигуры.
+title: Stroke Class
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Stroke сорт. Определяет обводку фигуры на С#.
 type: docs
 weight: 1310
 url: /ru/net/aspose.words.drawing/stroke/
@@ -21,7 +23,6 @@ public class Stroke
 | Имя | Описание |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing/stroke/backcolor/) { get; set; } | Получает или задает цвет фона обводки. |
-| [BaseForeColor](../../aspose.words.drawing/stroke/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/stroke/color/) { get; set; } | Определяет цвет обводки. |
 | [Color2](../../aspose.words.drawing/stroke/color2/) { get; set; } | Определяет второй цвет обводки. |
 | [DashStyle](../../aspose.words.drawing/stroke/dashstyle/) { get; set; } | Указывает образец точки и тире для обводки. |
@@ -43,11 +44,11 @@ public class Stroke
 | [Visible](../../aspose.words.drawing/stroke/visible/) { get; set; } | Получает или задает флаг, указывающий, отображается ли обводка. |
 | [Weight](../../aspose.words.drawing/stroke/weight/) { get; set; } | Определяет толщину кисти, обводящей контур фигуры в точках. |
 
-### Примечания
+## Примечания
 
 Использовать[`Stroke`](../shape/stroke/) для доступа к свойствам обводки фигуры. Вы не создаете экземпляры`Stroke` класс напрямую.
 
-### Примеры
+## Примеры
 
 Показывает, как изменить свойства обводки.
 
@@ -81,5 +82,3 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: AsposeWordsPrintDocument.AsposeWordsPrintDocument
-second_title: Aspose.Words for .NET API Referansı
-description: AsposeWordsPrintDocument inşaatçı. Bu sınıfın yeni bir örneğini başlatır.
+title: AsposeWordsPrintDocument
+linktitle: AsposeWordsPrintDocument
+articleTitle: AsposeWordsPrintDocument
+second_title: Aspose.Words for .NET
+description: AsposeWordsPrintDocument inşaatçı. Bu sınıfın yeni bir örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.rendering/asposewordsprintdocument/asposewordsprintdocument/
@@ -18,7 +20,7 @@ public AsposeWordsPrintDocument(Document document)
 | --- | --- | --- |
 | document | Document | Yazdırılacak belge. |
 
-### Örnekler
+## Örnekler
 
 Belgenin yazdırılacağı sayfa aralığının ve yazıcının nasıl seçileceğini ve ardından bir baskı önizlemesinin nasıl açılacağını gösterir.
 
@@ -68,7 +70,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 
 * class [Document](../../../aspose.words/document/)
 * class [AsposeWordsPrintDocument](../)
-* ad alanı [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

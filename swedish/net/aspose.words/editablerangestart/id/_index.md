@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.Id
-second_title: Aspose.Words för .NET API Referens
-description: EditableRangeStart fast egendom. Anger identifieraren för det redigerbara intervallet.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words för .NET
+description: EditableRangeStart Id fast egendom. Anger identifieraren för det redigerbara intervallet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/editablerangestart/id/
@@ -14,7 +16,7 @@ Anger identifieraren för det redigerbara intervallet.
 public int Id { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett redigerbart område.
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### Se även
 
 * class [EditableRangeStart](../)
-* namnutrymme [Aspose.Words](../../editablerangestart/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

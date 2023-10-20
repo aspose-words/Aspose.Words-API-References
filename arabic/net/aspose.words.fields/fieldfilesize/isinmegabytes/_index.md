@@ -1,7 +1,9 @@
 ---
 title: FieldFileSize.IsInMegabytes
-second_title: Aspose.Words لمراجع .NET API
-description: FieldFileSize ملكية. الحصول على أو تعيين ما إذا كان سيتم عرض حجم الملف بالميجابايت.
+linktitle: IsInMegabytes
+articleTitle: IsInMegabytes
+second_title: Aspose.Words لـ .NET
+description: FieldFileSize IsInMegabytes ملكية. الحصول على أو تعيين ما إذا كان سيتم عرض حجم الملف بالميجابايت في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldfilesize/isinmegabytes/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldfilesize/isinmegabytes/
 public bool IsInMegabytes { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض حجم ملف المستند باستخدام حقل FILESIZE.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ### أنظر أيضا
 
 * class [FieldFileSize](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldfilesize/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

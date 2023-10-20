@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParagraphBreakFont
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 提供对段落分隔符的字体格式的访问
+linktitle: ParagraphBreakFont
+articleTitle: ParagraphBreakFont
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph ParagraphBreakFont 财产. 提供对段落分隔符的字体格式的访问 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words/paragraph/paragraphbreakfont/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/paragraphbreakfont/
 public Font ParagraphBreakFont { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 DocumentVisitor 实现从文档中删除所有隐藏内容。
 
@@ -211,7 +213,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [Font](../../font/)
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

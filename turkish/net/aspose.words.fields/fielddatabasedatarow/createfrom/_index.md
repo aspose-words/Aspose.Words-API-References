@@ -1,7 +1,9 @@
 ---
 title: FieldDatabaseDataRow.CreateFrom
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDatabaseDataRow yöntem. Yeni bir örneğini başlatırFieldDatabaseDataRow class şuradanDataRow örnek.
+linktitle: CreateFrom
+articleTitle: CreateFrom
+second_title: Aspose.Words for .NET
+description: FieldDatabaseDataRow CreateFrom yöntem. Yeni bir örneğini başlatırFieldDatabaseDataRow class şuradanDataRow örnek C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fielddatabasedatarow/createfrom/
@@ -17,7 +19,5 @@ public static FieldDatabaseDataRow CreateFrom(DataRow dataRow)
 ### Ayrıca bakınız
 
 * class [FieldDatabaseDataRow](../)
-* ad alanı [Aspose.Words.Fields](../../fielddatabasedatarow/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

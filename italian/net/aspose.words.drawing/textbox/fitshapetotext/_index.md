@@ -1,7 +1,9 @@
 ---
 title: TextBox.FitShapeToText
-second_title: Aspose.Words per .NET API Reference
-description: TextBox proprietà. Determina se Microsoft Word ingrandirà la forma per adattarla al testo.
+linktitle: FitShapeToText
+articleTitle: FitShapeToText
+second_title: Aspose.Words per .NET
+description: TextBox FitShapeToText proprietà. Determina se Microsoft Word ingrandirà la forma per adattarla al testo in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing/textbox/fitshapetotext/
@@ -14,11 +16,11 @@ Determina se Microsoft Word ingrandirà la forma per adattarla al testo.
 public bool FitShapeToText { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`falso`.
 
-### Esempi
+## Esempi
 
 Mostra come fare in modo che una casella di testo si ridimensioni per adattarla perfettamente al suo contenuto.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxFitShapeToText.docx");
 ### Guarda anche
 
 * class [TextBox](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../textbox/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

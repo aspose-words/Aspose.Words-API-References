@@ -1,7 +1,9 @@
 ---
-title: Class ListLabel
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Lists.ListLabel 班级. 定义特定于列表标签的属性
+title: ListLabel Class
+linktitle: ListLabel
+articleTitle: ListLabel
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Lists.ListLabel 班级. 定义特定于列表标签的属性 在 C#.
 type: docs
 weight: 3490
 url: /zh/net/aspose.words.lists/listlabel/
@@ -24,7 +26,7 @@ public class ListLabel
 | [LabelString](../../aspose.words.lists/listlabel/labelstring/) { get; } | 获取列表标签的字符串表示形式。 |
 | [LabelValue](../../aspose.words.lists/listlabel/labelvalue/) { get; } | 获取此标签的数值。 |
 
-### 例子
+## 例子
 
 演示如何提取属于列表项的所有段落的列表标签。
 
@@ -60,5 +62,3 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * 命名空间 [Aspose.Words.Lists](../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../)
-
-

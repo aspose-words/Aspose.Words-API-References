@@ -1,7 +1,9 @@
 ---
-title: Class HyphenationOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.HyphenationOptions clase. Permite configurar las opciones de separación de palabras del documento.
+title: HyphenationOptions Class
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Settings.HyphenationOptions clase. Permite configurar las opciones de separación de palabras del documento en C#.
 type: docs
 weight: 5790
 url: /es/net/aspose.words.settings/hyphenationoptions/
@@ -31,7 +33,7 @@ public class HyphenationOptions
 | [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Obtiene o establece el valor que determina si las palabras escritas en letras mayúsculas están divididas con guiones. El valor predeterminado para esta propiedad es`verdadero` . |
 | [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Obtiene o establece la distancia en 1/20 de un punto desde el margen derecho dentro del cual no desea que separe las palabras con guiones. El valor predeterminado para esta propiedad es 360 (0,25 pulgadas). |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la separación de palabras automática.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 
 * espacio de nombres [Aspose.Words.Settings](../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../)
-
-

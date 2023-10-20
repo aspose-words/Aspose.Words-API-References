@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.IsSemitrasparent
-second_title: Справочник по API Aspose.Words для .NET
-description: TextWatermarkOptions свойство. Получает или задает логическое значение отвечающее за непрозрачность водяного знака. Значение по умолчаниюистинный .
+linktitle: IsSemitrasparent
+articleTitle: IsSemitrasparent
+second_title: Aspose.Words для .NET
+description: TextWatermarkOptions IsSemitrasparent свойство. Получает или задает логическое значение отвечающее за непрозрачность водяного знака. Значение по умолчаниюистинный  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/textwatermarkoptions/issemitrasparent/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/textwatermarkoptions/issemitrasparent/
 public bool IsSemitrasparent { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать текстовый водяной знак.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Смотрите также
 
 * class [TextWatermarkOptions](../)
-* пространство имен [Aspose.Words](../../textwatermarkoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

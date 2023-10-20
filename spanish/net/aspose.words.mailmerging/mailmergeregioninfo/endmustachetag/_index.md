@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.EndMustacheTag
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeRegionInfo propiedad. Devuelve una etiqueta final bigote para la región.
+linktitle: EndMustacheTag
+articleTitle: EndMustacheTag
+second_title: Aspose.Words para .NET
+description: MailMergeRegionInfo EndMustacheTag propiedad. Devuelve una etiqueta final bigote para la región en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/
@@ -14,7 +16,7 @@ Devuelve una etiqueta final "bigote" para la región.
 public MustacheTag EndMustacheTag { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con las etiquetas de bigote.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [MustacheTag](../../mustachetag/)
 * class [MailMergeRegionInfo](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

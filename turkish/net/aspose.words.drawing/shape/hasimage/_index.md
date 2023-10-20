@@ -1,7 +1,9 @@
 ---
 title: Shape.HasImage
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. İadelerdoğru şeklin görüntü baytları varsa veya bir görüntüye bağlantı veriyorsa.
+linktitle: HasImage
+articleTitle: HasImage
+second_title: Aspose.Words for .NET
+description: Shape HasImage mülk. İadelerdoğru şeklin görüntü baytları varsa veya bir görüntüye bağlantı veriyorsa C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.drawing/shape/hasimage/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shape/hasimage/
 public bool HasImage { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki resim içeren tüm şekillerin nasıl silineceğini gösterir.
 
@@ -60,7 +62,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 ### Ayrıca bakınız
 
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

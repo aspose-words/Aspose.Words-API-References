@@ -1,7 +1,9 @@
 ---
 title: ICssSavingCallback.CssSaving
-second_title: Aspose.Words for .NET API 参考
-description: ICssSavingCallback 方法. 当 Aspose.Words 保存 CSS层叠样式表时调用
+linktitle: CssSaving
+articleTitle: CssSaving
+second_title: 用于 .NET 的 Aspose.Words
+description: ICssSavingCallback CssSaving 方法. 当 Aspose.Words 保存 CSS层叠样式表时调用 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/icsssavingcallback/csssaving/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/icsssavingcallback/csssaving/
 public void CssSaving(CssSavingArgs args)
 ```
 
-### 例子
+## 例子
 
 演示如何使用 HTML 转换创建的 CSS 样式表。
 
@@ -76,7 +78,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * class [CssSavingArgs](../../csssavingargs/)
 * interface [ICssSavingCallback](../)
-* 命名空间 [Aspose.Words.Saving](../../icsssavingcallback/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

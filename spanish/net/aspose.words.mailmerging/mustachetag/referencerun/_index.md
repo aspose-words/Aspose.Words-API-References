@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.ReferenceRun
-second_title: Referencia de API de Aspose.Words para .NET
-description: MustacheTag propiedad. Obtiene la ejecución que contiene el comienzo de la etiqueta.
+linktitle: ReferenceRun
+articleTitle: ReferenceRun
+second_title: Aspose.Words para .NET
+description: MustacheTag ReferenceRun propiedad. Obtiene la ejecución que contiene el comienzo de la etiqueta en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.mailmerging/mustachetag/referencerun/
@@ -14,7 +16,7 @@ Obtiene la ejecución que contiene el comienzo de la etiqueta.
 public Run ReferenceRun { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con las etiquetas de bigote.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [Run](../../../aspose.words/run/)
 * class [MustacheTag](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mustachetag/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

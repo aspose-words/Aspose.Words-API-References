@@ -1,7 +1,9 @@
 ---
 title: Field.GetFieldCode
-second_title: Aspose.Words for .NET API 参考
-description: Field 方法. 返回字段开始和字段分隔符之间的文本如果没有分隔符则返回字段结束 包括子字段的字段代码和字段结果
+linktitle: GetFieldCode
+articleTitle: GetFieldCode
+second_title: 用于 .NET 的 Aspose.Words
+description: Field GetFieldCode 方法. 返回字段开始和字段分隔符之间的文本如果没有分隔符则返回字段结束 包括子字段的字段代码和字段结果 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.fields/field/getfieldcode/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/field/getfieldcode/
 public string GetFieldCode()
 ```
 
-### 例子
+## 例子
 
 演示如何使用域代码将域插入到文档中。
 
@@ -53,12 +55,12 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### 也可以看看
 
 * class [Field](../)
-* 命名空间 [Aspose.Words.Fields](../../field/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## GetFieldCode(bool) {#getfieldcode_1}
+## GetFieldCode(*bool*) {#getfieldcode_1}
 
 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。
 
@@ -70,7 +72,7 @@ public string GetFieldCode(bool includeChildFieldCodes)
 | --- | --- | --- |
 | includeChildFieldCodes | Boolean | `真的`是否应包含子字段代码。 |
 
-### 例子
+## 例子
 
 展示如何获取字段的字段代码。
 
@@ -94,7 +96,5 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### 也可以看看
 
 * class [Field](../)
-* 命名空间 [Aspose.Words.Fields](../../field/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

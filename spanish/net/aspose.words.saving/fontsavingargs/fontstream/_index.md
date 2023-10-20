@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontStream
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSavingArgs propiedad. Permite especificar la secuencia donde se guardará la fuente.
+linktitle: FontStream
+articleTitle: FontStream
+second_title: Aspose.Words para .NET
+description: FontSavingArgs FontStream propiedad. Permite especificar la secuencia donde se guardará la fuente en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.saving/fontsavingargs/fontstream/
@@ -14,13 +16,13 @@ Permite especificar la secuencia donde se guardará la fuente.
 public Stream FontStream { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad le permite guardar fuentes en secuencias en lugar de archivos durante la exportación HTML.
 
 El valor predeterminado es`nulo` . Cuando esta propiedad es`nulo` , la fuente se guardará en un archivo especificado en el[`FontFileName`](../fontfilename/) propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
 
@@ -80,7 +82,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ver también
 
 * class [FontSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../fontsavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

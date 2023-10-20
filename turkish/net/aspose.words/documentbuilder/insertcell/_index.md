@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertCell
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgeye bir tablo hücresi ekler.
+linktitle: InsertCell
+articleTitle: InsertCell
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertCell yöntem. Belgeye bir tablo hücresi ekler C#'da.
 type: docs
 weight: 270
 url: /tr/net/aspose.words/documentbuilder/insertcell/
@@ -18,7 +20,7 @@ public Cell InsertCell()
 
 Az önce eklenen hücre düğümü.
 
-### Notlar
+## Notlar
 
 Masa başlatmak için aramanız yeterli`InsertCell` . Bundan sonra, diğer yöntemlerini kullanarak eklediğiniz herhangi bir içerik[`DocumentBuilder`](../) sınıf mevcut hücreye eklenecek.
 
@@ -28,7 +30,7 @@ Bir tablo satırı çağrısını sonlandırmak için[`EndRow`](../endrow/).
 
 Kullan[`CellFormat`](../cellformat/)Hücre biçimlendirmesini belirtme özelliği.
 
-### Örnekler
+## Örnekler
 
 Tablo oluşturmak için belge oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -119,7 +121,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Cell](../../../aspose.words.tables/cell/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

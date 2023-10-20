@@ -1,7 +1,9 @@
 ---
-title: Class TextWatermarkOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.TextWatermarkOptions klas. Enthält Optionen die beim Hinzufügen eines Wasserzeichens mit Text angegeben werden können.
+title: TextWatermarkOptions Class
+linktitle: TextWatermarkOptions
+articleTitle: TextWatermarkOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.TextWatermarkOptions klas. Enthält Optionen die beim Hinzufügen eines Wasserzeichens mit Text angegeben werden können in C#.
 type: docs
 weight: 6440
 url: /de/net/aspose.words/textwatermarkoptions/
@@ -36,5 +38,3 @@ public class TextWatermarkOptions
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

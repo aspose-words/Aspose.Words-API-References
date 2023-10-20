@@ -1,9 +1,11 @@
 ---
 title: Fill.ForeColor
-second_title: Aspose.Words för .NET API Referens
-description: Fill fast egendom. Hämtar eller ställer in ett färgobjekt som representerar förgrundsfärgen för fyllningen.
+linktitle: ForeColor
+articleTitle: ForeColor
+second_title: Aspose.Words för .NET
+description: Fill ForeColor fast egendom. Hämtar eller ställer in ett färgobjekt som representerar förgrundsfärgen för fyllningen i C#.
 type: docs
-weight: 70
+weight: 60
 url: /sv/net/aspose.words.drawing/fill/forecolor/
 ---
 ## Fill.ForeColor property
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett färgobjekt som representerar förgrundsfärgen f�
 public Color ForeColor { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen återställer alfakomponenten förColor till helt ogenomskinlig färg till skillnad från[`Color`](../color/) egendom, som bevarar den.
 
-### Exempel
+## Exempel
 
 Visar för att skapa en mängd olika former.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Se även
 
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

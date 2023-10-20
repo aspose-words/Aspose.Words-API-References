@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SheetsPerBooklet
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Renvoie ou définit le nombre de pages à inclure dans chaque livret.
+linktitle: SheetsPerBooklet
+articleTitle: SheetsPerBooklet
+second_title: Aspose.Words pour .NET
+description: PageSetup SheetsPerBooklet propriété. Renvoie ou définit le nombre de pages à inclure dans chaque livret en C#.
 type: docs
 weight: 400
 url: /fr/net/aspose.words/pagesetup/sheetsperbooklet/
@@ -14,7 +16,7 @@ Renvoie ou définit le nombre de pages à inclure dans chaque livret.
 public int SheetsPerBooklet { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment configurer un document pouvant être imprimé sous forme de pli de livre.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");
 ### Voir également
 
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Warning
-second_title: Referencia de API de Aspose.Words para .NET
-description: WarningInfoCollection método. Implementa elIWarningCallback interfaz. Agrega una advertencia a esta colección.
+linktitle: Warning
+articleTitle: Warning
+second_title: Aspose.Words para .NET
+description: WarningInfoCollection Warning método. Implementa elIWarningCallback interfaz. Agrega una advertencia a esta colección en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/warninginfocollection/warning/
@@ -14,7 +16,7 @@ Implementa el[`IWarningCallback`](../../iwarningcallback/) interfaz. Agrega una 
 public void Warning(WarningInfo info)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la propiedad para encontrar la coincidencia más cercana para una fuente faltante entre las fuentes de fuentes disponibles.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* espacio de nombres [Aspose.Words](../../warninginfocollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

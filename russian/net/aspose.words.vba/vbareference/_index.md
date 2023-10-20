@@ -1,7 +1,9 @@
 ---
-title: Class VbaReference
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Vba.VbaReference сорт. Реализует ссылку на библиотеку типов автоматизации или проект VBA.
+title: VbaReference Class
+linktitle: VbaReference
+articleTitle: VbaReference
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Vba.VbaReference сорт. Реализует ссылку на библиотеку типов автоматизации или проект VBA на С#.
 type: docs
 weight: 6590
 url: /ru/net/aspose.words.vba/vbareference/
@@ -23,7 +25,7 @@ public abstract class VbaReference
 | abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | Получает строковое значение, содержащее идентификатор библиотеки типов автоматизации. |
 | abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Получает[`VbaReferenceType`](../vbareferencetype/) объект, указывающий тип ссылки, которую`VbaReference` объект представляет. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить или удалить элемент из коллекции ссылок VBA.
 
@@ -98,5 +100,3 @@ private static string GetLibIdProjectPath(string libIdProject)
 
 * пространство имен [Aspose.Words.Vba](../../aspose.words.vba/)
 * сборка [Aspose.Words](../../)
-
-

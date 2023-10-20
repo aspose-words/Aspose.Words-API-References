@@ -1,7 +1,9 @@
 ---
-title: Class RevisionOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Layout.RevisionOptions فصل. يسمح بالتحكم في كيفية معالجة مراجعات المستندات أثناء عملية التخطيط.
+title: RevisionOptions Class
+linktitle: RevisionOptions
+articleTitle: RevisionOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Layout.RevisionOptions فصل. يسمح بالتحكم في كيفية معالجة مراجعات المستندات أثناء عملية التخطيط في C#.
 type: docs
 weight: 3390
 url: /ar/net/aspose.words.layout/revisionoptions/
@@ -40,7 +42,7 @@ public class RevisionOptions
 | [ShowRevisionBars](../../aspose.words.layout/revisionoptions/showrevisionbars/) { get; set; } | يسمح بتحديد ما إذا كان يجب عرض أشرطة المراجعة بالقرب من الأسطر التي تحتوي على محتوى تمت مراجعته. القيمة الافتراضية هي`حقيقي` . |
 | [ShowRevisionMarks](../../aspose.words.layout/revisionoptions/showrevisionmarks/) { get; set; } | السماح بتحديد ما إذا كان يجب وضع علامة على نص المراجعة باستخدام علامات التنسيق الخاصة. القيمة الافتراضية هي`حقيقي` . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير مظهر المراجعات في مستند الإخراج المقدم.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * مساحة الاسم [Aspose.Words.Layout](../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../)
-
-

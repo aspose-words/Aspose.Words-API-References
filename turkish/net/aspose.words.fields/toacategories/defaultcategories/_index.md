@@ -1,7 +1,9 @@
 ---
 title: ToaCategories.DefaultCategories
-second_title: Aspose.Words for .NET API Referansı
-description: ToaCategories mülk. Yetki kategorilerinin varsayılan tablosunu alır.
+linktitle: DefaultCategories
+articleTitle: DefaultCategories
+second_title: Aspose.Words for .NET
+description: ToaCategories DefaultCategories mülk. Yetki kategorilerinin varsayılan tablosunu alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/toacategories/defaultcategories/
@@ -14,11 +16,11 @@ Yetki kategorilerinin varsayılan tablosunu alır.
 public static ToaCategories DefaultCategories { get; }
 ```
 
-### Notlar
+## Notlar
 
 Kullan[`ToaCategories`](../../fieldoptions/toacategories/) Tek bir belge için yetki tablosu kategorilerini belirtme özelliği.
 
-### Örnekler
+## Örnekler
 
 TOA alanları için bir kategori kümesinin nasıl belirtileceğini gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 ### Ayrıca bakınız
 
 * class [ToaCategories](../)
-* ad alanı [Aspose.Words.Fields](../../toacategories/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

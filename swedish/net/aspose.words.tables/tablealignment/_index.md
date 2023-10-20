@@ -1,7 +1,9 @@
 ---
-title: Enum TableAlignment
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Tables.TableAlignment uppräkning. Anger justering för en inlinetabell.
+title: TableAlignment Enum
+linktitle: TableAlignment
+articleTitle: TableAlignment
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Tables.TableAlignment uppräkning. Anger justering för en inlinetabell i C#.
 type: docs
 weight: 6350
 url: /sv/net/aspose.words.tables/tablealignment/
@@ -22,7 +24,7 @@ public enum TableAlignment
 | Center | `1` | Tabellen är centrerad. |
 | Right | `2` | Tabellen är högerjusterad. |
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar en konturram på en tabell.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * namnutrymme [Aspose.Words.Tables](../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../)
-
-

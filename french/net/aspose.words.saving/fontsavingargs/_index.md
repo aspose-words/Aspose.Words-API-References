@@ -1,7 +1,9 @@
 ---
-title: Class FontSavingArgs
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.FontSavingArgs classe. Fournit des données pour leFontSaving événement.
+title: FontSavingArgs Class
+linktitle: FontSavingArgs
+articleTitle: FontSavingArgs
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.FontSavingArgs classe. Fournit des données pour leFontSaving événement en C#.
 type: docs
 weight: 5030
 url: /fr/net/aspose.words.saving/fontsavingargs/
@@ -32,7 +34,7 @@ public class FontSavingArgs
 | [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename/) { get; } | Obtient le nom du fichier de police d'origine avec une extension. |
 | [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize/) { get; } | Obtient la taille du fichier de police d'origine. |
 
-### Remarques
+## Remarques
 
 Lorsque Aspose.Words enregistre un document au format HTML ou dans des formats associés et[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) est défini sur`vrai`, il enregistre chaque sujet de police pour l'exporter dans un fichier séparé.
 
@@ -44,7 +46,7 @@ Pour décider d'enregistrer ou non une ressource de police particulière, utilis
 
 Pour enregistrer les polices dans des flux plutôt que dans des fichiers, utilisez l'option[`FontStream`](./fontstream/) propriété.
 
-### Exemples
+## Exemples
 
 Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
@@ -105,5 +107,3 @@ public class HandleFontSaving : IFontSavingCallback
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

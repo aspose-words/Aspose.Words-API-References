@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: KnownTypeSet طريقة. إزالة كافة العناصر من المجموعة.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: KnownTypeSet Clear طريقة. إزالة كافة العناصر من المجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.reporting/knowntypeset/clear/
@@ -17,7 +19,5 @@ public void Clear()
 ### أنظر أيضا
 
 * class [KnownTypeSet](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../knowntypeset/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
-
-

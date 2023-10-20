@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.Text
-second_title: Справочник по API Aspose.Words для .NET
-description: PlainTextDocument свойство. Получает текстовое содержимое документа объединенное в строку.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words для .NET
+description: PlainTextDocument Text свойство. Получает текстовое содержимое документа объединенное в строку на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/plaintextdocument/text/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/plaintextdocument/text/
 public string Text { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить содержимое документа Microsoft Word в виде открытого текста.
 
@@ -33,7 +35,5 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### Смотрите также
 
 * class [PlainTextDocument](../)
-* пространство имен [Aspose.Words](../../plaintextdocument/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

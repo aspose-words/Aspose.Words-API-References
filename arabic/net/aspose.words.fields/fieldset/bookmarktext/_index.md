@@ -1,7 +1,9 @@
 ---
 title: FieldSet.BookmarkText
-second_title: Aspose.Words لمراجع .NET API
-description: FieldSet ملكية. الحصول على النص الجديد للإشارة المرجعية أو تعيينه.
+linktitle: BookmarkText
+articleTitle: BookmarkText
+second_title: Aspose.Words لـ .NET
+description: FieldSet BookmarkText ملكية. الحصول على النص الجديد للإشارة المرجعية أو تعيينه في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldset/bookmarktext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldset/bookmarktext/
 public string BookmarkText { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نص ذو إشارة مرجعية باستخدام حقل SET، ثم عرضه في المستند باستخدام حقل REF.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 ### أنظر أيضا
 
 * class [FieldSet](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldset/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

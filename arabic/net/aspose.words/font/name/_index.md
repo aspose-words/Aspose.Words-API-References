@@ -1,7 +1,9 @@
 ---
 title: Font.Name
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على اسم الخط أو تعيينه.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words لـ .NET
+description: Font Name ملكية. الحصول على اسم الخط أو تعيينه في C#.
 type: docs
 weight: 230
 url: /ar/net/aspose.words/font/name/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/font/name/
 public string Name { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عند الحصول، يعود[`NameAscii`](../nameascii/).
 
 عند الإعداد، مجموعات[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) و[`NameOther`](../nameother/) إلى القيمة المحددة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق مجموعة من النص باستخدام خاصية الخط الخاصة به.
 
@@ -57,7 +59,5 @@ builder.Write("Hello world!");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

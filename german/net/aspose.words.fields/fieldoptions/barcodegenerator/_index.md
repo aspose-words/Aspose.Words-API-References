@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BarcodeGenerator
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Ruft den benutzerdefinierten BarcodeGenerator ab oder legt ihn fest.
+linktitle: BarcodeGenerator
+articleTitle: BarcodeGenerator
+second_title: Aspose.Words für .NET
+description: FieldOptions BarcodeGenerator eigendom. Ruft den benutzerdefinierten BarcodeGenerator ab oder legt ihn fest in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldoptions/barcodegenerator/
@@ -14,11 +16,11 @@ Ruft den benutzerdefinierten Barcode-Generator ab oder legt ihn fest.
 public IBarcodeGenerator BarcodeGenerator { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der benutzerdefinierte Barcode-Generator sollte eine öffentliche Schnittstelle implementieren[`IBarcodeGenerator`](../../ibarcodegenerator/) .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Barcode-Generator verwendet wird.
 
@@ -95,7 +97,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * interface [IBarcodeGenerator](../../ibarcodegenerator/)
 * class [FieldOptions](../)
-* namensraum [Aspose.Words.Fields](../../fieldoptions/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBookmarkStart
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när en början av ett bokmärke påträffas i dokumentet.
+linktitle: VisitBookmarkStart
+articleTitle: VisitBookmarkStart
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitBookmarkStart metod. Anropas när en början av ett bokmärke påträffas i dokumentet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/documentvisitor/visitbookmarkstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitBookmarkStart(BookmarkStart bookmarkStart)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
 
@@ -113,7 +115,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

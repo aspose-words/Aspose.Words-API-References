@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IsLocked
-second_title: Справочник по API Aspose.Words для .NET
-description: OleFormat свойство. Указывает заблокирована ли ссылка на объект OLE от обновлений.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words для .NET
+description: OleFormat IsLocked свойство. Указывает заблокирована ли ссылка на объект OLE от обновлений на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/oleformat/islocked/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/oleformat/islocked/
 public bool IsLocked { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь внедренные объекты OLE в файлы.
 
@@ -53,7 +55,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Смотрите также
 
 * class [OleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../oleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

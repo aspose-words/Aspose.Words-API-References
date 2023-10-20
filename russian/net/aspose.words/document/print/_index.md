@@ -1,9 +1,11 @@
 ---
 title: Document.Print
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Печатает весь документ на принтере по умолчанию.
+linktitle: Print
+articleTitle: Print
+second_title: Aspose.Words для .NET
+description: Document Print метод. Печатает весь документ на принтере по умолчанию на С#.
 type: docs
-weight: 660
+weight: 640
 url: /ru/net/aspose.words/document/print/
 ---
 ## Print() {#print}
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/print/
 public void Print()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать документ с помощью принтера по умолчанию.
 
@@ -38,12 +40,12 @@ doc.Print(myPrinter);
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Print(string) {#print_3}
+## Print(*string*) {#print_3}
 
 Распечатайте весь документ на указанном принтере, , используя стандартный контроллер печати (без пользовательского интерфейса).
 
@@ -55,7 +57,7 @@ public void Print(string printerName)
 | --- | --- | --- |
 | printerName | String | Имя принтера. |
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать документ с помощью принтера по умолчанию.
 
@@ -79,12 +81,12 @@ doc.Print(myPrinter);
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Print(PrinterSettings) {#print_1}
+## Print(*PrinterSettings*) {#print_1}
 
 Печатает документ в соответствии с указанными настройками принтера, с использованием стандартного (без пользовательского интерфейса) контроллера печати.
 
@@ -96,11 +98,11 @@ public void Print(PrinterSettings printerSettings)
 | --- | --- | --- |
 | printerSettings | PrinterSettings | Используемые настройки принтера. |
 
-### Примечания
+## Примечания
 
 PrinterSettings Объект позволяет указать принтер для печати, диапазон страниц для печати и другие параметры.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать диапазон страниц.
 
@@ -131,12 +133,12 @@ doc.Print(printerSettings, "My rendered document");
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Print(PrinterSettings, string) {#print_2}
+## Print(*PrinterSettings, string*) {#print_2}
 
 Печатает документ в соответствии с указанными настройками принтера, с использованием стандартного контроллера печати (без пользовательского интерфейса) и имени документа.
 
@@ -149,11 +151,11 @@ public void Print(PrinterSettings printerSettings, string documentName)
 | printerSettings | PrinterSettings | Используемые настройки принтера. |
 | documentName | String | Имя документа, которое будет отображаться (например, в диалоговом окне состояния печати или в очереди принтера) при печати документа. |
 
-### Примечания
+## Примечания
 
 PrinterSettings Объект позволяет указать принтер для печати, диапазон страниц для печати и другие параметры.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать диапазон страниц.
 
@@ -184,7 +186,5 @@ doc.Print(printerSettings, "My rendered document");
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

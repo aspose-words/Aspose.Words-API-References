@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.Color
-second_title: Aspose.Words för .NET API Referens
-description: HorizontalRuleFormat fast egendom. Hämtar eller ställer in penselfärgen som fyller den horisontella regeln.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words för .NET
+description: HorizontalRuleFormat Color fast egendom. Hämtar eller ställer in penselfärgen som fyller den horisontella regeln i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing/horizontalruleformat/color/
@@ -14,13 +16,13 @@ Hämtar eller ställer in penselfärgen som fyller den horisontella regeln.
 public Color Color { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Detta är en genväg till[`Color`](../../fill/color/) fast egendom.
 
 Standardvärdet är Gray.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en horisontell regelform och anpassar dess formatering.
 
@@ -43,7 +45,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Se även
 
 * class [HorizontalRuleFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../horizontalruleformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

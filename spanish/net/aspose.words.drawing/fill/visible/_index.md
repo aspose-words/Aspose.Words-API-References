@@ -1,9 +1,11 @@
 ---
 title: Fill.Visible
-second_title: Referencia de API de Aspose.Words para .NET
-description: Fill propiedad. Obtiene o establece el valor que esverdadero si el formato aplicado a esta instancia es visible.
+linktitle: Visible
+articleTitle: Visible
+second_title: Aspose.Words para .NET
+description: Fill Visible propiedad. Obtiene o establece el valor que esverdadero si el formato aplicado a esta instancia es visible en C#.
 type: docs
-weight: 210
+weight: 200
 url: /es/net/aspose.words.drawing/fill/visible/
 ---
 ## Fill.Visible property
@@ -14,7 +16,7 @@ Obtiene o establece el valor que es`verdadero` si el formato aplicado a esta ins
 public bool Visible { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra para crear una variedad de formas.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Ver también
 
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

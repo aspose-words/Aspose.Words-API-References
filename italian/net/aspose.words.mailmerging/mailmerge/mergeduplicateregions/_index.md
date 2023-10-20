@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MergeDuplicateRegions
-second_title: Aspose.Words per .NET API Reference
-description: MailMerge proprietà. Ottiene o imposta un valore che indica se tutte le aree di stampa unione del documento con il nome di unorigine dati devono essere unite durante lesecuzione di una stampa unione con aree rispetto allorigine dati o solo la prima.
+linktitle: MergeDuplicateRegions
+articleTitle: MergeDuplicateRegions
+second_title: Aspose.Words per .NET
+description: MailMerge MergeDuplicateRegions proprietà. Ottiene o imposta un valore che indica se tutte le aree di stampa unione del documento con il nome di unorigine dati devono essere unite durante lesecuzione di una stampa unione con aree rispetto allorigine dati o solo la prima in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
@@ -14,11 +16,11 @@ Ottiene o imposta un valore che indica se tutte le aree di stampa unione del doc
 public bool MergeDuplicateRegions { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`falso` .
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con aree di stampa unione duplicate.
 
@@ -76,7 +78,5 @@ private static DataTable CreateSourceTableMergeDuplicateRegions()
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

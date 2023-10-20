@@ -1,7 +1,9 @@
 ---
 title: Document.ShadeFormData
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Gibt an ob die Grauschattierung auf Formularfeldern aktiviert werden soll.
+linktitle: ShadeFormData
+articleTitle: ShadeFormData
+second_title: Aspose.Words für .NET
+description: Document ShadeFormData eigendom. Gibt an ob die Grauschattierung auf Formularfeldern aktiviert werden soll in C#.
 type: docs
 weight: 380
 url: /de/net/aspose.words/document/shadeformdata/
@@ -14,7 +16,7 @@ Gibt an, ob die Grauschattierung auf Formularfeldern aktiviert werden soll.
 public bool ShadeFormData { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Grauschattierungen auf Formularfelder angewendet werden.
 
@@ -33,7 +35,5 @@ doc.Save(ArtifactsDir + "Document.ShadeFormData.docx");
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

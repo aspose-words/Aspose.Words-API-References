@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.SuppressAuthor
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldCitation свойство. Получает или задает скрывается ли информация об авторе из цитаты.
+linktitle: SuppressAuthor
+articleTitle: SuppressAuthor
+second_title: Aspose.Words для .NET
+description: FieldCitation SuppressAuthor свойство. Получает или задает скрывается ли информация об авторе из цитаты на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/fieldcitation/suppressauthor/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldcitation/suppressauthor/
 public bool SuppressAuthor { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с полями ЦИТАТА и БИБЛИОГРАФИЯ.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Смотрите также
 
 * class [FieldCitation](../)
-* пространство имен [Aspose.Words.Fields](../../fieldcitation/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

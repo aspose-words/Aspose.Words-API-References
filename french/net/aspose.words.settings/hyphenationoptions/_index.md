@@ -1,7 +1,9 @@
 ---
-title: Class HyphenationOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Settings.HyphenationOptions classe. Permet de configurer les options de césure du document.
+title: HyphenationOptions Class
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Settings.HyphenationOptions classe. Permet de configurer les options de césure du document en C#.
 type: docs
 weight: 5790
 url: /fr/net/aspose.words.settings/hyphenationoptions/
@@ -31,7 +33,7 @@ public class HyphenationOptions
 | [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Obtient ou définit la valeur déterminant si les mots écrits en majuscules sont coupés. La valeur par défaut de cette propriété est`vrai` . |
 | [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Obtient ou définit la distance en 1/20 de point à partir de la marge droite à l'intérieur de laquelle vous ne souhaitez pas couper les mots. La valeur par défaut de cette propriété est 360 (0,25 pouce). |
 
-### Exemples
+## Exemples
 
 Montre comment configurer la césure automatique.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 
 * espace de noms [Aspose.Words.Settings](../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../)
-
-

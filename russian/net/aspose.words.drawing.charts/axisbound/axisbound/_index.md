@@ -1,7 +1,9 @@
 ---
-title: AxisBound.AxisBound
-second_title: Справочник по API Aspose.Words для .NET
-description: AxisBound строитель. Создает новый экземпляр указывающий что граница оси должна определяться автоматически текстовым приложением .
+title: AxisBound
+linktitle: AxisBound
+articleTitle: AxisBound
+second_title: Aspose.Words для .NET
+description: AxisBound строитель. Создает новый экземпляр указывающий что граница оси должна определяться автоматически текстовым приложением  на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/axisbound/axisbound/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/axisbound/axisbound/
 public AxisBound()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить пользовательские границы оси.
 
@@ -74,12 +76,12 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Смотрите также
 
 * class [AxisBound](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../axisbound/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## AxisBound(double) {#constructor_1}
+## AxisBound(*double*) {#constructor_1}
 
 Создает границу оси, представленную в виде числа.
 
@@ -87,7 +89,7 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 public AxisBound(double value)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму со значениями даты и времени.
 
@@ -141,12 +143,12 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Смотрите также
 
 * class [AxisBound](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../axisbound/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## AxisBound(DateTime) {#constructor_2}
+## AxisBound(*DateTime*) {#constructor_2}
 
 Создает границу оси, представленную как значение даты и времени.
 
@@ -154,7 +156,7 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 public AxisBound(DateTime datetime)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму со значениями даты и времени.
 
@@ -208,7 +210,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Смотрите также
 
 * class [AxisBound](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../axisbound/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

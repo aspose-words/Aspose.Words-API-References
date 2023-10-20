@@ -1,7 +1,9 @@
 ---
-title: CsvDataLoadOptions.CsvDataLoadOptions
-second_title: Aspose.Words for .NET API 参考
-description: CsvDataLoadOptions 构造函数. 使用默认选项初始化此类的新实例
+title: CsvDataLoadOptions
+linktitle: CsvDataLoadOptions
+articleTitle: CsvDataLoadOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: CsvDataLoadOptions 构造函数. 使用默认选项初始化此类的新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.reporting/csvdataloadoptions/csvdataloadoptions/
@@ -17,12 +19,12 @@ public CsvDataLoadOptions()
 ### 也可以看看
 
 * class [CsvDataLoadOptions](../)
-* 命名空间 [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## CsvDataLoadOptions(bool) {#constructor_1}
+## CsvDataLoadOptions(*bool*) {#constructor_1}
 
 初始化此类的新实例，并指定 CSV 数据是否在第一行包含列名称 。
 
@@ -33,7 +35,5 @@ public CsvDataLoadOptions(bool hasHeaders)
 ### 也可以看看
 
 * class [CsvDataLoadOptions](../)
-* 命名空间 [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
-
-

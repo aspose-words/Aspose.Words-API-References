@@ -1,7 +1,9 @@
 ---
 title: TableStyle.LeftIndent
-second_title: Aspose.Words für .NET-API-Referenz
-description: TableStyle eigendom. Ruft den Wert ab der den linken Einzug einer Tabelle darstellt oder legt diesen fest.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words für .NET
+description: TableStyle LeftIndent eigendom. Ruft den Wert ab der den linken Einzug einer Tabelle darstellt oder legt diesen fest in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words/tablestyle/leftindent/
@@ -14,7 +16,7 @@ Ruft den Wert ab, der den linken Einzug einer Tabelle darstellt, oder legt diese
 public double LeftIndent { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Position einer Tabelle festgelegt wird.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.SetTableAlignment.docx");
 ### Siehe auch
 
 * class [TableStyle](../)
-* namensraum [Aspose.Words](../../tablestyle/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

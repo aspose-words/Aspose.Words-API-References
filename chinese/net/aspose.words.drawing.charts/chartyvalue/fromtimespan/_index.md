@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.FromTimeSpan
-second_title: Aspose.Words for .NET API 参考
-description: ChartYValue 方法. 创建一个ChartYValue的实例Time类型.
+linktitle: FromTimeSpan
+articleTitle: FromTimeSpan
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartYValue FromTimeSpan 方法. 创建一个ChartYValue的实例Time类型 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartyvalue/fromtimespan/
@@ -17,7 +19,5 @@ public static ChartYValue FromTimeSpan(TimeSpan value)
 ### 也可以看看
 
 * class [ChartYValue](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Format
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataPoint ملكية. يوفر الوصول إلى التعبئة وتنسيق الخط لنقطة البيانات هذه.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words لـ .NET
+description: ChartDataPoint Format ملكية. يوفر الوصول إلى التعبئة وتنسيق الخط لنقطة البيانات هذه في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartdatapoint/format/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatapoint/format/
 public ChartFormat Format { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين التنسيق الفردي لفئات المخطط العمودي.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.DataPointsFormatting.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataPoint](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

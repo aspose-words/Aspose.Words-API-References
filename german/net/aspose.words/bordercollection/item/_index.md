@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: BorderCollection eigendom. Ruft a abBorder Objekt nach Rahmentyp.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: BorderCollection Item eigendom. Ruft a abBorder Objekt nach Rahmentyp in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/bordercollection/item/
@@ -18,11 +20,11 @@ public Border this[BorderType borderType] { get; }
 | --- | --- |
 | borderType | A[`BorderType`](../../bordertype/) value , der den Typ des abzurufenden Rahmens angibt. |
 
-### Bemerkungen
+## Bemerkungen
 
 Beachten Sie, dass nicht alle Rahmen für verschiedene Dokumentelemente vorhanden sind. Diese Methode löst eine Ausnahme aus, wenn Sie einen Rahmen anfordern, der nicht auf das aktuelle Objekt anwendbar ist.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text mit Rändern und Schattierungen dekoriert wird.
 
@@ -51,7 +53,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 * class [Border](../../border/)
 * enum [BorderType](../../bordertype/)
 * class [BorderCollection](../)
-* namensraum [Aspose.Words](../../bordercollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -68,7 +70,7 @@ public Border this[int index] { get; }
 | --- | --- |
 | index | Nullbasierter Index des abzurufenden Rahmens. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Rahmensammlungen Elemente gemeinsam nutzen können.
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* namensraum [Aspose.Words](../../bordercollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndArrowType
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Definierar pilspetsen för slutet av ett streck.
+linktitle: EndArrowType
+articleTitle: EndArrowType
+second_title: Aspose.Words för .NET
+description: Stroke EndArrowType fast egendom. Definierar pilspetsen för slutet av ett streck i C#.
 type: docs
-weight: 70
+weight: 60
 url: /sv/net/aspose.words.drawing/stroke/endarrowtype/
 ---
 ## Stroke.EndArrowType property
@@ -14,11 +16,11 @@ Definierar pilspetsen för slutet av ett streck.
 public ArrowType EndArrowType { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärNone.
 
-### Exempel
+## Exempel
 
 Visar för att skapa en mängd olika former.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowType](../../arrowtype/)
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

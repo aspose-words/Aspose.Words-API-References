@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ThresholdForFloydSteinbergDithering
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. FloydSteinberg yöntemindeki ikilileştirme hatasının değerini belirleyen eşiği alır veya ayarlar. ne zamanImageBinarizationMethod dırdirFloydSteinbergDithering .
+linktitle: ThresholdForFloydSteinbergDithering
+articleTitle: ThresholdForFloydSteinbergDithering
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions ThresholdForFloydSteinbergDithering mülk. FloydSteinberg yöntemindeki ikilileştirme hatasının değerini belirleyen eşiği alır veya ayarlar. ne zamanImageBinarizationMethod dırdirFloydSteinbergDithering  C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/
@@ -14,11 +16,11 @@ Floyd-Steinberg yöntemindeki ikilileştirme hatasının değerini belirleyen e�
 public byte ThresholdForFloydSteinbergDithering { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 128'dir.
 
-### Örnekler
+## Örnekler
 
 Bir TIFF görüntüsünü oluşturmak için Floyd-Steinberg yöntemini kullanırken TIFF ikilileştirme hatası eşiğinin nasıl ayarlanacağını gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.FloydSteinbergDithering.tiff", options
 ### Ayrıca bakınız
 
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: DocumentBuilder.IsAtEndOfStructuredDocumentTag
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Возвращает истинный если курсор находится в конце тега структурированного документа.
+linktitle: IsAtEndOfStructuredDocumentTag
+articleTitle: IsAtEndOfStructuredDocumentTag
+second_title: Aspose.Words для .NET
+description: DocumentBuilder IsAtEndOfStructuredDocumentTag свойство. Возвращаетистинный если курсор находится в конце тега структурированного документа на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/documentbuilder/isatendofstructureddocumenttag/
 ---
 ## DocumentBuilder.IsAtEndOfStructuredDocumentTag property
 
-Возвращает **истинный** если курсор находится в конце тега структурированного документа.
+Возвращает**истинный** если курсор находится в конце тега структурированного документа.
 
 ```csharp
 public bool IsAtEndOfStructuredDocumentTag { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как переместить курсор DocumentBuilder внутри тега структурированного документа.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

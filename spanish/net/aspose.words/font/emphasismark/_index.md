@@ -1,7 +1,9 @@
 ---
 title: Font.EmphasisMark
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece la marca de énfasis aplicada a este formato.
+linktitle: EmphasisMark
+articleTitle: EmphasisMark
+second_title: Aspose.Words para .NET
+description: Font EmphasisMark propiedad. Obtiene o establece la marca de énfasis aplicada a este formato en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words/font/emphasismark/
@@ -14,7 +16,7 @@ Obtiene o establece la marca de énfasis aplicada a este formato.
 public EmphasisMark EmphasisMark { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar caracteres adicionales representados encima/debajo del carácter de glifo.
 
@@ -37,7 +39,5 @@ builder.Document.Save(ArtifactsDir + "Fonts.SetEmphasisMark.docx");
 
 * enum [EmphasisMark](../../emphasismark/)
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ThumbnailGeneratingOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Rendering.ThumbnailGeneratingOptions klass. Kan användas för att ange ytterligare alternativ vid generering av miniatyrbilder för ett dokument.
+title: ThumbnailGeneratingOptions Class
+linktitle: ThumbnailGeneratingOptions
+articleTitle: ThumbnailGeneratingOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Rendering.ThumbnailGeneratingOptions klass. Kan användas för att ange ytterligare alternativ vid generering av miniatyrbilder för ett dokument i C#.
 type: docs
 weight: 4600
 url: /sv/net/aspose.words.rendering/thumbnailgeneratingoptions/
@@ -27,11 +29,11 @@ public class ThumbnailGeneratingOptions
 | [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Anger om miniatyrbilden ska genereras från första sidan i dokumentet eller första bilden. |
 | [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | Storlek på genererad miniatyrbild i pixlar. Standard är 600x900. |
 
-### Anmärkningar
+## Anmärkningar
 
 Användaren kan anropa metod[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/) att generera [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) för ett dokument.
 
-### Exempel
+## Exempel
 
 Visar hur man uppdaterar ett dokuments miniatyrbild.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 * namnutrymme [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../)
-
-

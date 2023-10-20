@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ResourceFolderAlias
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger namnet på mappen som används för att konstruera URIer för alla resurser som skrivits in i ett HTMLdokument. Standard är en tom sträng.
+linktitle: ResourceFolderAlias
+articleTitle: ResourceFolderAlias
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ResourceFolderAlias fast egendom. Anger namnet på mappen som används för att konstruera URIer för alla resurser som skrivits in i ett HTMLdokument. Standard är en tom sträng i C#.
 type: docs
 weight: 430
 url: /sv/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/
@@ -14,7 +16,7 @@ Anger namnet på mappen som används för att konstruera URI:er för alla resurs
 public string ResourceFolderAlias { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 `ResourceFolderAlias` är det enklaste sättet att specificera hur URI:er för alla resursfiler ska vara konstruerade. Samma information kan anges för bilder och typsnitt separat via[`ImagesFolderAlias`](../imagesfolderalias/) och[`FontsFolderAlias`](../fontsfolderalias/) respektive fastigheter. Det finns dock ingen enskild egenskap för CSS.
 
@@ -24,7 +26,7 @@ Om`ResourceFolderAlias` är tom, den[`ResourceFolder`](../resourcefolder/)egensk
 
 Om`ResourceFolderAlias` är satt till '.' (prick), kommer resurs-URI endast att innehålla filnamn, utan någon sökväg.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in mappar och mappalias för externt sparade resurser som Aspose.Words skapar när ett dokument sparas till HTML.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

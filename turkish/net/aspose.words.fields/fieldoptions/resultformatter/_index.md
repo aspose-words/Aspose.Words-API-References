@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.ResultFormatter
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Alan sonucunun nasıl biçimlendirileceğini kontrol etmeye izin verir.
+linktitle: ResultFormatter
+articleTitle: ResultFormatter
+second_title: Aspose.Words for .NET
+description: FieldOptions ResultFormatter mülk. Alan sonucunun nasıl biçimlendirileceğini kontrol etmeye izin verir C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.fields/fieldoptions/resultformatter/
@@ -14,7 +16,7 @@ Alan sonucunun nasıl biçimlendirileceğini kontrol etmeye izin verir.
 public IFieldResultFormatter ResultFormatter { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Alanlar güncellenirken özel bir biçimin alan sonuçlarına otomatik olarak nasıl uygulanacağını gösterir.
 
@@ -152,7 +154,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * interface [IFieldResultFormatter](../../ifieldresultformatter/)
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

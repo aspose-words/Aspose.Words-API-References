@@ -1,7 +1,9 @@
 ---
-title: WebExtensionBinding.WebExtensionBinding
-second_title: Aspose.Words per .NET API Reference
-description: WebExtensionBinding costruttore. Crea lassociazione dellestensione web con i parametri specificati.
+title: WebExtensionBinding
+linktitle: WebExtensionBinding
+articleTitle: WebExtensionBinding
+second_title: Aspose.Words per .NET
+description: WebExtensionBinding costruttore. Crea lassociazione dellestensione web con i parametri specificati in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.webextensions/webextensionbinding/webextensionbinding/
@@ -20,7 +22,7 @@ public WebExtensionBinding(string id, WebExtensionBindingType bindingType, strin
 | bindingType | WebExtensionBindingType | Tipo di rilegatura. |
 | appRef | String | Chiave di associazione utilizzata per associare la voce di associazione in questo elenco con i dati associati nel documento. |
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un'estensione Web a un documento.
 
@@ -66,7 +68,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [WebExtensionBindingType](../../webextensionbindingtype/)
 * class [WebExtensionBinding](../)
-* spazio dei nomi [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* spazio dei nomi [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * assemblea [Aspose.Words](../../../)
-
-

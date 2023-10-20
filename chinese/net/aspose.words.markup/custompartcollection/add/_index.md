@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Add
-second_title: Aspose.Words for .NET API 参考
-description: CustomPartCollection 方法. 将项目添加到集合中
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomPartCollection Add 方法. 将项目添加到集合中 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/custompartcollection/add/
@@ -18,7 +20,7 @@ public void Add(CustomPart part)
 | --- | --- | --- |
 | part | CustomPart | 要添加的项目。 |
 
-### 例子
+## 例子
 
 演示如何访问文档的任意自定义部件集合。
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPart](../../custompart/)
 * class [CustomPartCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../custompartcollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

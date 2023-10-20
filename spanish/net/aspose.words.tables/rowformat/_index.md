@@ -1,7 +1,9 @@
 ---
-title: Class RowFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Tables.RowFormat clase. Representa todo el formato de una fila de la tabla.
+title: RowFormat Class
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Tables.RowFormat clase. Representa todo el formato de una fila de la tabla en C#.
 type: docs
 weight: 6330
 url: /es/net/aspose.words.tables/rowformat/
@@ -32,7 +34,7 @@ public class RowFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting/)() | Restablece el formato de fila predeterminado. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo modificar el formato de una fila de la tabla.
 
@@ -146,5 +148,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * espacio de nombres [Aspose.Words.Tables](../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../)
-
-

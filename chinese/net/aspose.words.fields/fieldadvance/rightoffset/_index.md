@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.RightOffset
-second_title: Aspose.Words for .NET API 参考
-description: FieldAdvance 财产. 获取或设置字段后面的文本应向右移动的点数
+linktitle: RightOffset
+articleTitle: RightOffset
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldAdvance RightOffset 财产. 获取或设置字段后面的文本应向右移动的点数 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldadvance/rightoffset/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldadvance/rightoffset/
 public string RightOffset { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入 ADVANCE 字段并编辑其属性。
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### 也可以看看
 
 * class [FieldAdvance](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldadvance/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

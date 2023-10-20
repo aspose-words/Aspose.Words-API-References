@@ -1,7 +1,9 @@
 ---
-title: Class Chart
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.Chart сорт. Обеспечивает доступ к свойствам фигуры диаграммы.
+title: Chart Class
+linktitle: Chart
+articleTitle: Chart
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.Chart сорт. Обеспечивает доступ к свойствам фигуры диаграммы на С#.
 type: docs
 weight: 620
 url: /ru/net/aspose.words.drawing.charts/chart/
@@ -29,7 +31,7 @@ public class Chart
 | [SourceFullName](../../aspose.words.drawing.charts/chart/sourcefullname/) { get; set; } | Получает путь и имя файла xls/xlsx, с которым связана эта диаграмма. |
 | [Title](../../aspose.words.drawing.charts/chart/title/) { get; } | Предоставляет доступ к свойствам заголовка диаграммы. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и задать заголовок.
 
@@ -58,5 +60,3 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

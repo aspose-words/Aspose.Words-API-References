@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineStartingNumber
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 获取或设置起始行号
+linktitle: LineStartingNumber
+articleTitle: LineStartingNumber
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup LineStartingNumber 财产. 获取或设置起始行号 在 C#.
 type: docs
 weight: 250
 url: /zh/net/aspose.words/pagesetup/linestartingnumber/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/linestartingnumber/
 public int LineStartingNumber { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何为节启用行编号。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

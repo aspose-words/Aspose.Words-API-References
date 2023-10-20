@@ -1,7 +1,9 @@
 ---
 title: Revision.Group
-second_title: Aspose.Words for .NET API Referansı
-description: Revision mülk. Revizyon grubunu alır. İadelerhükümsüz revizyon herhangi bir gruba ait değilse.
+linktitle: Group
+articleTitle: Group
+second_title: Aspose.Words for .NET
+description: Revision Group mülk. Revizyon grubunu alır. İadelerhükümsüz revizyon herhangi bir gruba ait değilse C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/revision/group/
@@ -14,11 +16,11 @@ Revizyon grubunu alır. İadeler`hükümsüz` revizyon herhangi bir gruba ait de
 public RevisionGroup Group { get; }
 ```
 
-### Notlar
+## Notlar
 
 Revizyon türü şuysa, revizyonun grubu yokturStyleDefinitionChangeor eğer revizyon artık belge bağlamında mevcut değilse (kabul edildi/reddedildi).
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki düzeltmelerle nasıl çalışılacağını gösterir.
 
@@ -102,7 +104,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [RevisionGroup](../../revisiongroup/)
 * class [Revision](../)
-* ad alanı [Aspose.Words](../../revision/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontNameSubstitution
-second_title: Aspose.Words لمراجع .NET API
-description: FontSubstitutionSettings ملكية. الإعدادات المتعلقة بقاعدة استبدال اسم الخط.
+linktitle: FontNameSubstitution
+articleTitle: FontNameSubstitution
+second_title: Aspose.Words لـ .NET
+description: FontSubstitutionSettings FontNameSubstitution ملكية. الإعدادات المتعلقة بقاعدة استبدال اسم الخط في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/
@@ -18,7 +20,5 @@ public FontNameSubstitutionRule FontNameSubstitution { get; }
 
 * class [FontNameSubstitutionRule](../../fontnamesubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

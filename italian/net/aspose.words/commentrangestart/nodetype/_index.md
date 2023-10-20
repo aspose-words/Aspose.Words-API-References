@@ -1,7 +1,9 @@
 ---
 title: CommentRangeStart.NodeType
-second_title: Aspose.Words per .NET API Reference
-description: CommentRangeStart proprietà. RestituisceCommentRangeStart .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: CommentRangeStart NodeType proprietà. RestituisceCommentRangeStart  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/commentrangestart/nodetype/
@@ -14,7 +16,7 @@ RestituisceCommentRangeStart .
 public override NodeType NodeType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come attraversare l'albero dei nodi figlio di un nodo composito.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [CommentRangeStart](../)
-* spazio dei nomi [Aspose.Words](../../commentrangestart/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

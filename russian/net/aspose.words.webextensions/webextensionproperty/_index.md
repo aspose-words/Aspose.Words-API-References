@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionProperty
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WebExtensions.WebExtensionProperty сорт. Указывает пользовательское свойство вебрасширения.
+title: WebExtensionProperty Class
+linktitle: WebExtensionProperty
+articleTitle: WebExtensionProperty
+second_title: Aspose.Words для .NET
+description: Aspose.Words.WebExtensions.WebExtensionProperty сорт. Указывает пользовательское свойство вебрасширения на С#.
 type: docs
 weight: 6780
 url: /ru/net/aspose.words.webextensions/webextensionproperty/
@@ -20,7 +22,7 @@ public class WebExtensionProperty
 
 | Имя | Описание |
 | --- | --- |
-| [WebExtensionProperty](webextensionproperty/)(string, string) | Создает пользовательское свойство веб-расширения с указанным именем и значением. |
+| [WebExtensionProperty](webextensionproperty/)(*string, string*) | Создает пользовательское свойство веб-расширения с указанным именем и значением. |
 
 ## Характеристики
 
@@ -33,5 +35,3 @@ public class WebExtensionProperty
 
 * пространство имен [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../)
-
-

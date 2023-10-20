@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.DisplayUnit
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Especifica el valor de escala de las unidades de visualización para el eje de valores.
+linktitle: DisplayUnit
+articleTitle: DisplayUnit
+second_title: Aspose.Words para .NET
+description: ChartAxis DisplayUnit propiedad. Especifica el valor de escala de las unidades de visualización para el eje de valores en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.drawing.charts/chartaxis/displayunit/
@@ -14,11 +16,11 @@ Especifica el valor de escala de las unidades de visualización para el eje de v
 public AxisDisplayUnit DisplayUnit { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 La propiedad tiene efecto sólo para los ejes de valores.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo manipular las marcas y los valores mostrados de un eje de gráfico.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * class [AxisDisplayUnit](../../axisdisplayunit/)
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

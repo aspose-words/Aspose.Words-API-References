@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.FieldNameNoPrefix
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergeField propriété. Renvoie uniquement le nom du champ de données. Tout préfixe est supprimé de la propriété de préfixe.
+linktitle: FieldNameNoPrefix
+articleTitle: FieldNameNoPrefix
+second_title: Aspose.Words pour .NET
+description: FieldMergeField FieldNameNoPrefix propriété. Renvoie uniquement le nom du champ de données. Tout préfixe est supprimé de la propriété de préfixe en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldmergefield/fieldnamenoprefix/
@@ -14,7 +16,7 @@ Renvoie uniquement le nom du champ de données. Tout préfixe est supprimé de l
 public string FieldNameNoPrefix { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les champs MERGEFIELD pour effectuer un publipostage.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Voir également
 
 * class [FieldMergeField](../)
-* espace de noms [Aspose.Words.Fields](../../fieldmergefield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ListCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Lists.ListCollection classe. Stocke et gère le formatage des listes à puces et numérotées utilisées dans un document.
+title: ListCollection Class
+linktitle: ListCollection
+articleTitle: ListCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Lists.ListCollection classe. Stocke et gère le formatage des listes à puces et numérotées utilisées dans un document en C#.
 type: docs
 weight: 3470
 url: /fr/net/aspose.words.lists/listcollection/
@@ -28,13 +30,13 @@ public class ListCollection : IEnumerable<List>
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | Crée une nouvelle liste basée sur un modèle prédéfini et l'ajoute à la collection de listes du document. |
-| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | Crée une nouvelle liste qui fait référence à un style de liste et l'ajoute à la collection de listes dans le document. |
-| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(List) | Crée une nouvelle liste en copiant la liste spécifiée et en l'ajoutant à la collection de listes dans le document. |
+| [Add](../../aspose.words.lists/listcollection/add/#add)(*[ListTemplate](../listtemplate/)*) | Crée une nouvelle liste basée sur un modèle prédéfini et l'ajoute à la collection de listes du document. |
+| [Add](../../aspose.words.lists/listcollection/add/#add_1)(*[Style](../../aspose.words/style/)*) | Crée une nouvelle liste qui fait référence à un style de liste et l'ajoute à la collection de listes dans le document. |
+| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(*[List](../list/)*) | Crée une nouvelle liste en copiant la liste spécifiée et en l'ajoutant à la collection de listes dans le document. |
 | [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Obtient l'objet énumérateur qui énumérera les listes dans le document. |
-| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(int) | Obtient une liste par un identifiant de liste. |
+| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(*int*) | Obtient une liste par un identifiant de liste. |
 
-### Remarques
+## Remarques
 
 Une liste dans un document Microsoft Word est un ensemble de propriétés de formatage de liste. Le formatage des listes est stocké dans le`ListCollection` collection séparément des paragraphes de texte.
 
@@ -54,7 +56,7 @@ Pour simplifier le modèle de programmation, Aspose.Words masque la distinction 
 
 Il n'est pas possible de supprimer des listes une fois qu'elles sont créées dans la version actuelle d'Aspose.Words. . Ceci est similaire à Microsoft Word où l'utilisateur n'a pas de contrôle explicite sur les définitions de liste.
 
-### Exemples
+## Exemples
 
 Montre comment créer un document avec un échantillon de toutes les listes d'un autre document.
 
@@ -182,5 +184,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 * class [List](../list/)
 * espace de noms [Aspose.Words.Lists](../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../)
-
-

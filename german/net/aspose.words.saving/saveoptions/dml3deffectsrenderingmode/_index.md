@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.Dml3DEffectsRenderingMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: SaveOptions eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt wie 3DEffekte gerendert werden.
+linktitle: Dml3DEffectsRenderingMode
+articleTitle: Dml3DEffectsRenderingMode
+second_title: Aspose.Words für .NET
+description: SaveOptions Dml3DEffectsRenderingMode eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt wie 3DEffekte gerendert werden in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/saveoptions/dml3deffectsrenderingmode/
@@ -14,7 +16,7 @@ Ruft einen Wert ab oder legt diesen fest, der bestimmt, wie 3D-Effekte gerendert
 public Dml3DEffectsRenderingMode Dml3DEffectsRenderingMode { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istBasic .
 
@@ -22,7 +24,5 @@ Der Standardwert istBasic .
 
 * enum [Dml3DEffectsRenderingMode](../../dml3deffectsrenderingmode/)
 * class [SaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../saveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

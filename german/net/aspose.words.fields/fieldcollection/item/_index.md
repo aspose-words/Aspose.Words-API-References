@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCollection eigendom. Gibt ein Feld am angegebenen Index zurück.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: FieldCollection Item eigendom. Gibt ein Feld am angegebenen Index zurück in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldcollection/item/
@@ -18,7 +20,7 @@ public Field this[int index] { get; }
 | --- | --- |
 | index | Ein Index in die Sammlung. |
 
-### Bemerkungen
+## Bemerkungen
 
 Der Index ist nullbasiert.
 
@@ -28,7 +30,7 @@ Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wi
 
 Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Felder aus einer Feldsammlung entfernt werden.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, fields.Count);
 
 * class [Field](../../field/)
 * class [FieldCollection](../)
-* namensraum [Aspose.Words.Fields](../../fieldcollection/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

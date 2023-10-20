@@ -1,7 +1,9 @@
 ---
 title: ListFormat.IsListItem
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListFormat eigendom. True wenn auf den Absatz eine Aufzählungs oder Nummernformatierung angewendet wurde.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words für .NET
+description: ListFormat IsListItem eigendom. True wenn auf den Absatz eine Aufzählungs oder Nummernformatierung angewendet wurde in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.lists/listformat/islistitem/
@@ -14,7 +16,7 @@ True, wenn auf den Absatz eine Aufzählungs- oder Nummernformatierung angewendet
 public bool IsListItem { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Absätze in einem Dokument ausgegeben werden, bei denen es sich um Listenelemente handelt.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 ### Siehe auch
 
 * class [ListFormat](../)
-* namensraum [Aspose.Words.Lists](../../listformat/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

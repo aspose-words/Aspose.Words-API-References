@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageStream
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageFieldMergingArgs свойство. Указывает поток из которого механизм слияния почты читает изображение.
+linktitle: ImageStream
+articleTitle: ImageStream
+second_title: Aspose.Words для .NET
+description: ImageFieldMergingArgs ImageStream свойство. Указывает поток из которого механизм слияния почты читает изображение на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
 public Stream ImageStream { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Aspose.Words закрывает этот поток после объединения изображения с документом.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в отчет изображения, хранящиеся в BLOB-поле базы данных.
 
@@ -67,7 +69,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 ### Смотрите также
 
 * class [ImageFieldMergingArgs](../)
-* пространство имен [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

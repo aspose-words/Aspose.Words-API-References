@@ -1,7 +1,9 @@
 ---
-title: OoxmlSaveOptions.OoxmlSaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: OoxmlSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вDocx формат.
+title: OoxmlSaveOptions
+linktitle: OoxmlSaveOptions
+articleTitle: OoxmlSaveOptions
+second_title: Aspose.Words для .NET
+description: OoxmlSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вDocx формат на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
 public OoxmlSaveOptions()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить спецификацию соответствия OOXML для сохраненного документа.
 
@@ -49,12 +51,12 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 ### Смотрите также
 
 * class [OoxmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## OoxmlSaveOptions(SaveFormat) {#constructor_1}
+## OoxmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вDocx , Docm ,Dotx ,Dotm или FlatOpc формат.
 
@@ -66,7 +68,7 @@ public OoxmlSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | ВозможноDocx ,Docm , Dotx ,Dotm илиFlatOpc . |
 
-### Примеры
+## Примеры
 
 Показывает, как поддерживать устаревшие управляющие символы при преобразовании в формат .docx.
 
@@ -94,7 +96,5 @@ Assert.AreEqual(keepLegacyControlChars ? "\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [OoxmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

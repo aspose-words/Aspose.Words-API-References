@@ -1,7 +1,9 @@
 ---
 title: FieldIf.FalseText
-second_title: Aspose.Words per .NET API Reference
-description: FieldIf proprietà. Ottiene o imposta il testo visualizzato se lespressione di confronto lo èfalso .
+linktitle: FalseText
+articleTitle: FalseText
+second_title: Aspose.Words per .NET
+description: FieldIf FalseText proprietà. Ottiene o imposta il testo visualizzato se lespressione di confronto lo èfalso  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldif/falsetext/
@@ -14,7 +16,7 @@ Ottiene o imposta il testo visualizzato se l'espressione di confronto lo è`fals
 public string FalseText { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo IF.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### Guarda anche
 
 * class [FieldIf](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldif/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: BookmarkCollection.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarkCollection yöntem. Belirtilen yer imini belgeden kaldırır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: BookmarkCollection Remove yöntem. Belirtilen yer imini belgeden kaldırır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/bookmarkcollection/remove/
 ---
-## Remove(Bookmark) {#remove}
+## Remove(*[Bookmark](../../bookmark/)*) {#remove}
 
 Belirtilen yer imini belgeden kaldırır.
 
@@ -18,7 +20,7 @@ public void Remove(Bookmark bookmark)
 | --- | --- | --- |
 | bookmark | Bookmark | Kaldırılacak yer işareti. |
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin bir belgeden nasıl kaldırılacağını gösterir.
 
@@ -80,12 +82,12 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* ad alanı [Aspose.Words](../../bookmarkcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Remove(string) {#remove_1}
+## Remove(*string*) {#remove_1}
 
 Belirtilen ada sahip bir yer imini kaldırır.
 
@@ -97,7 +99,7 @@ public void Remove(string bookmarkName)
 | --- | --- | --- |
 | bookmarkName | String | Kaldırılacak yer işaretinin büyük/küçük harfe duyarlı olmayan adı. |
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin bir belgeden nasıl kaldırılacağını gösterir.
 
@@ -158,7 +160,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Ayrıca bakınız
 
 * class [BookmarkCollection](../)
-* ad alanı [Aspose.Words](../../bookmarkcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

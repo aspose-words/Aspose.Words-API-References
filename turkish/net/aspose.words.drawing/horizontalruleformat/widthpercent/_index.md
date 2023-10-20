@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.WidthPercent
-second_title: Aspose.Words for .NET API Referansı
-description: HorizontalRuleFormat mülk. Pencere genişliğinin yüzdesi olarak ifade edilen belirtilen yatay kuralın uzunluğunu alır veya ayarlar.
+linktitle: WidthPercent
+articleTitle: WidthPercent
+second_title: Aspose.Words for .NET
+description: HorizontalRuleFormat WidthPercent mülk. Pencere genişliğinin yüzdesi olarak ifade edilen belirtilen yatay kuralın uzunluğunu alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing/horizontalruleformat/widthpercent/
@@ -20,13 +22,13 @@ public double WidthPercent { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Bağımsız değişken geçerli değerler aralığının dışında olduğunda atar. |
 
-### Notlar
+## Notlar
 
 Geçerli değerler 1'den 100'e kadar değişir.
 
 Varsayılan değer 100'dür.
 
-### Örnekler
+## Örnekler
 
 Yatay kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
 
@@ -49,7 +51,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Ayrıca bakınız
 
 * class [HorizontalRuleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../horizontalruleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

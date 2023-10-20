@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Scaling
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Ger tillgång till skalningsalternativen för axeln.
+linktitle: Scaling
+articleTitle: Scaling
+second_title: Aspose.Words för .NET
+description: ChartAxis Scaling fast egendom. Ger tillgång till skalningsalternativen för axeln i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words.drawing.charts/chartaxis/scaling/
@@ -14,7 +16,7 @@ Ger tillgång till skalningsalternativen för axeln.
 public AxisScaling Scaling { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar diagram med datum/tidsvärden.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisScaling](../../axisscaling/)
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum DashStyle
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.DashStyle تعداد. نمط الخط المتقطع.
+title: DashStyle Enum
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.DashStyle تعداد. نمط الخط المتقطع في C#.
 type: docs
 weight: 930
 url: /ar/net/aspose.words.drawing/dashstyle/
@@ -31,7 +33,7 @@ public enum DashStyle
 | LongDashDotDot | `10` | شرطة طويلة شرطة قصيرة شرطة قصيرة. |
 | Default | `0` | نفسSolid . |
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -108,5 +110,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [DashStyle](../stroke/dashstyle/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

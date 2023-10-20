@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: EditableRangeStart yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: EditableRangeStart Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/editablerangestart/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `YANLIŞ` ziyaretçi numaralandırmanın durdurulmasını talep ederse.
 
-### Notlar
+## Notlar
 
 Aramalar[`VisitEditableRangeStart`](../../documentvisitor/visiteditablerangestart/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-### Örnekler
+## Örnekler
 
 Düzenlenebilir aralıkların düzenleme haklarının belirli bir grup/kullanıcıyla nasıl sınırlandırılacağını gösterir.
 
@@ -140,7 +142,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [EditableRangeStart](../)
-* ad alanı [Aspose.Words](../../editablerangestart/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

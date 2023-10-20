@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Saving
-second_title: Aspose.Words per .NET API Reference
-description: IL Aspose.Words.Saving namespace fornisce classi ed enumerazioni che consentono di specificare opzioni aggiuntive per il salvataggio o la conversione dei documenti.
+linktitle: Aspose.Words.Saving
+articleTitle: Aspose.Words.Saving
+second_title: Aspose.Words per .NET
+description: ILAspose.Words.Saving namespace fornisce classi ed enumerazioni che consentono di specificare opzioni aggiuntive per il salvataggio o la conversione dei documenti in C#.
 type: docs
 weight: 230
 url: /it/net/aspose.words.saving/
 ---
-IL **Aspose.Words.Saving** namespace fornisce classi ed enumerazioni che consentono di specificare opzioni aggiuntive per il salvataggio o la conversione dei documenti.
+IL**Aspose.Words.Saving** namespace fornisce classi ed enumerazioni che consentono di specificare opzioni aggiuntive per il salvataggio o la conversione dei documenti.
 
 ## Classi
 
@@ -108,5 +110,3 @@ IL **Aspose.Words.Saving** namespace fornisce classi ed enumerazioni che consent
 | [TableContentAlignment](./tablecontentalignment/) | Permette di specificare l'allineamento del contenuto della tabella da utilizzare durante l'esportazione in formato Markdown. |
 | [TiffCompression](./tiffcompression/) | Specifica il tipo di compressione da applicare quando si salvano le immagini della pagina in un file TIFF. |
 | [TxtExportHeadersFootersMode](./txtexportheadersfootersmode/) | Specifica il modo in cui le intestazioni e i piè di pagina vengono esportati in formato testo normale. |
-
-

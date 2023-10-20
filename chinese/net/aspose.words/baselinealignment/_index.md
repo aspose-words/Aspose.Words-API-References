@@ -1,7 +1,9 @@
 ---
-title: Enum BaselineAlignment
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.BaselineAlignment 枚举. 指定字体在一行上的垂直位置
+title: BaselineAlignment Enum
+linktitle: BaselineAlignment
+articleTitle: BaselineAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.BaselineAlignment 枚举. 指定字体在一行上的垂直位置 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/baselinealignment/
@@ -24,7 +26,7 @@ public enum BaselineAlignment
 | Bottom | `3` | 与每种字体的底部对齐。 |
 | Auto | `4` | 基线自动调整。 |
 
-### 例子
+## 例子
 
 演示如何设置字体在一行上的垂直位置。
 
@@ -44,5 +46,3 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphBaselineAlignment.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

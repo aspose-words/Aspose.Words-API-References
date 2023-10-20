@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Hidden
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxis propriété. Obtient ou définit un indicateur indiquant si cet axe est masqué ou non.
+linktitle: Hidden
+articleTitle: Hidden
+second_title: Aspose.Words pour .NET
+description: ChartAxis Hidden propriété. Obtient ou définit un indicateur indiquant si cet axe est masqué ou non en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.drawing.charts/chartaxis/hidden/
@@ -14,11 +16,11 @@ Obtient ou définit un indicateur indiquant si cet axe est masqué ou non.
 public bool Hidden { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX` .
 
-### Exemples
+## Exemples
 
 Montre comment masquer les axes du graphique.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.HideChartAxis.docx");
 ### Voir également
 
 * class [ChartAxis](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

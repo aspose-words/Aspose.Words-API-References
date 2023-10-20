@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ExportDocumentStructure
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Получает или задает значение определяющее следует ли экспортировать структуру документа.
+linktitle: ExportDocumentStructure
+articleTitle: ExportDocumentStructure
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions ExportDocumentStructure свойство. Получает или задает значение определяющее следует ли экспортировать структуру документа на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/
 public bool ExportDocumentStructure { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это значение игнорируется при сохранении в PDF/A-1a, PDF/A-2a и PDF/UA-1, поскольку для этого соответствия требуется структура документа.
 
 Обратите внимание, что экспорт структуры документа значительно увеличивает потребление памяти, особенно для больших документов.
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить элементы структуры документа, которые могут помочь в программной интерпретации нашего документа.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportDocumentStructure.pdf", options);
 ### Смотрите также
 
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

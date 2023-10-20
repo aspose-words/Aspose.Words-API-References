@@ -1,7 +1,9 @@
 ---
-title: Enum ListTemplate
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Lists.ListTemplate énumération. Spécifie lun des formats de liste prédéfinis disponibles dans Microsoft Word.
+title: ListTemplate Enum
+linktitle: ListTemplate
+articleTitle: ListTemplate
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Lists.ListTemplate énumération. Spécifie lun des formats de liste prédéfinis disponibles dans Microsoft Word en C#.
 type: docs
 weight: 3530
 url: /fr/net/aspose.words.lists/listtemplate/
@@ -41,13 +43,13 @@ public enum ListTemplate
 | OutlineHeadingsNumbers | `18` | Une liste hiérarchique avec des niveaux liés aux styles de titre. |
 | OutlineHeadingsChapter | `19` | Une liste hiérarchique avec des niveaux liés aux styles de titre. |
 
-### Remarques
+## Remarques
 
 Une valeur de modèle de liste est utilisée comme paramètre dans the [`Add`](../listcollection/add/) méthode.
 
 Les modèles de liste Aspose.Words correspondent aux 21 modèles de liste disponibles dans la boîte de dialogue Puces et numérotation de Microsoft Word 2003.
 
-### Exemples
+## Exemples
 
 Montre comment créer un document contenant tous les modèles de liste de titres hiérarchiques.
 
@@ -184,5 +186,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * espace de noms [Aspose.Words.Lists](../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../)
-
-

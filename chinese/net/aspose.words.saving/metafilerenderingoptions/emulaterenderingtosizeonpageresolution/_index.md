@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution
-second_title: Aspose.Words for .NET API 参考
-description: MetafileRenderingOptions 财产. 获取或设置分辨率以每英寸像素为单位以模拟图元文件渲染为页面上的大小
+linktitle: EmulateRenderingToSizeOnPageResolution
+articleTitle: EmulateRenderingToSizeOnPageResolution
+second_title: 用于 .NET 的 Aspose.Words
+description: MetafileRenderingOptions EmulateRenderingToSizeOnPageResolution 财产. 获取或设置分辨率以每英寸像素为单位以模拟图元文件渲染为页面上的大小 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosize
 public int EmulateRenderingToSizeOnPageResolution { get; set; }
 ```
 
-### 评论
+## 评论
 
 该选项仅在以下情况下使用[`EmulateRenderingToSizeOnPage`](../emulaterenderingtosizeonpage/)被设定为`真的`。
 
 默认值为 96。这是默认显示分辨率。即图元文件渲染将模拟 MS Word 中 100% 缩放系数的 图元文件的显示。
 
-### 例子
+## 例子
 
 展示如何根据页面大小显示图元文件。
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf", saveO
 ### 也可以看看
 
 * class [MetafileRenderingOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

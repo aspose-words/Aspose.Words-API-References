@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.PrefixMappings
-second_title: Aspose.Words for .NET API 参考
-description: XmlMapping 财产. 返回 XML 命名空间前缀映射以评估XPath.
+linktitle: PrefixMappings
+articleTitle: PrefixMappings
+second_title: 用于 .NET 的 Aspose.Words
+description: XmlMapping PrefixMappings 财产. 返回 XML 命名空间前缀映射以评估XPath 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.markup/xmlmapping/prefixmappings/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.markup/xmlmapping/prefixmappings/
 public string PrefixMappings { get; }
 ```
 
-### 评论
+## 评论
 
 指定前缀映射集，当针对文档中的自定义 XML 数据部分评估 XPath 表达式时，应使用该前缀映射来解释 XPath 表达式 。
 
-### 例子
+## 例子
 
 演示如何为自定义 XML 部件设置 XML 映射。
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### 也可以看看
 
 * class [XmlMapping](../)
-* 命名空间 [Aspose.Words.Markup](../../xmlmapping/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

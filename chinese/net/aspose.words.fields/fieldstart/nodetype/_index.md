@@ -1,7 +1,9 @@
 ---
 title: FieldStart.NodeType
-second_title: Aspose.Words for .NET API 参考
-description: FieldStart 财产. 返回FieldStart.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldStart NodeType 财产. 返回FieldStart 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldstart/nodetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldstart/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何遍历复合节点的子节点树。
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FieldStart](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldstart/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

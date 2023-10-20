@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowPercentage
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabel eigendom. Ermöglicht die Angabe ob Prozentwerte für die Datenbeschriftungen in einem Diagramm angezeigt werden sollen. Der Standardwert istFALSCH .
+linktitle: ShowPercentage
+articleTitle: ShowPercentage
+second_title: Aspose.Words für .NET
+description: ChartDataLabel ShowPercentage eigendom. Ermöglicht die Angabe ob Prozentwerte für die Datenbeschriftungen in einem Diagramm angezeigt werden sollen. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.drawing.charts/chartdatalabel/showpercentage/
@@ -14,7 +16,7 @@ Ermöglicht die Angabe, ob Prozentwerte für die Datenbeschriftungen in einem Di
 public bool ShowPercentage { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Siehe auch
 
 * class [ChartDataLabel](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

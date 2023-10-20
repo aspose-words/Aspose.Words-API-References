@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SetFontsFolders
-second_title: Aspose.Words for .NET API 参考
-description: FontSettings 方法. 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的文件夹
+linktitle: SetFontsFolders
+articleTitle: SetFontsFolders
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSettings SetFontsFolders 方法. 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的文件夹 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.fonts/fontsettings/setfontsfolders/
@@ -19,13 +21,13 @@ public void SetFontsFolders(string[] fontsFolders, bool recursive)
 | fontsFolders | String[] | 包含 TrueType 字体的文件夹数组。 |
 | recursive | Boolean | 如果为 True，则递归扫描指定文件夹中的字体。 |
 
-### 评论
+## 评论
 
 默认情况下，Aspose.Words 会查找系统中安装的字体。
 
 设置此属性将重置所有先前加载的字体的缓存。
 
-### 例子
+## 例子
 
 展示如何设置多个字体源目录。
 
@@ -85,7 +87,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ### 也可以看看
 
 * class [FontSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

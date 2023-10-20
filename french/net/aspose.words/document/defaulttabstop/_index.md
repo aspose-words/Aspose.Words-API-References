@@ -1,7 +1,9 @@
 ---
 title: Document.DefaultTabStop
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Obtient ou définit lintervalle en points entre les taquets de tabulation par défaut.
+linktitle: DefaultTabStop
+articleTitle: DefaultTabStop
+second_title: Aspose.Words pour .NET
+description: Document DefaultTabStop propriété. Obtient ou définit lintervalle en points entre les taquets de tabulation par défaut en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words/document/defaulttabstop/
@@ -14,7 +16,7 @@ Obtient ou définit l'intervalle (en points) entre les taquets de tabulation par
 public double DefaultTabStop { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir un intervalle personnalisé pour les positions des taquets de tabulation.
 
@@ -35,7 +37,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 * class [TabStopCollection](../../tabstopcollection/)
 * class [TabStop](../../tabstop/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

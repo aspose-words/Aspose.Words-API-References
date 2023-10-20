@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.Document
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageLayoutCallbackArgs propiedad. Obtiene el documento.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words para .NET
+description: PageLayoutCallbackArgs Document propiedad. Obtiene el documento en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.layout/pagelayoutcallbackargs/document/
@@ -14,7 +16,7 @@ Obtiene el documento.
 public Document Document { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo realizar un seguimiento de los cambios de diseño con una devolución de llamada de diseño.
 
@@ -81,7 +83,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [PageLayoutCallbackArgs](../)
-* espacio de nombres [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

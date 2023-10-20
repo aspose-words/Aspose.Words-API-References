@@ -1,7 +1,9 @@
 ---
 title: FieldXE.IsItalic
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldXE propriété. Obtient ou définit sil faut appliquer la mise en forme en italique au numéro de page de lentrée.
+linktitle: IsItalic
+articleTitle: IsItalic
+second_title: Aspose.Words pour .NET
+description: FieldXE IsItalic propriété. Obtient ou définit sil faut appliquer la mise en forme en italique au numéro de page de lentrée en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldxe/isitalic/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut appliquer la mise en forme en italique au numéro 
 public bool IsItalic { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment remplir un champ INDEX avec des entrées à l'aide de champs XE et également modifier son apparence.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Voir également
 
 * class [FieldXE](../)
-* espace de noms [Aspose.Words.Fields](../../fieldxe/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

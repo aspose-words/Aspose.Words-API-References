@@ -1,9 +1,11 @@
 ---
 title: Comment.Replies
-second_title: Справочник по API Aspose.Words для .NET
-description: Comment свойство. Возвращает коллекциюComment объекты которые являются непосредственными дочерними элементами указанного комментария.
+linktitle: Replies
+articleTitle: Replies
+second_title: Aspose.Words для .NET
+description: Comment Replies свойство. Возвращает коллекциюComment объекты которые являются непосредственными дочерними элементами указанного комментария на С#.
 type: docs
-weight: 100
+weight: 90
 url: /ru/net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/comment/replies/
 public CommentCollection Replies { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать все комментарии к документу и ответы на них.
 
@@ -41,7 +43,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 
 * class [CommentCollection](../../commentcollection/)
 * class [Comment](../)
-* пространство имен [Aspose.Words](../../comment/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

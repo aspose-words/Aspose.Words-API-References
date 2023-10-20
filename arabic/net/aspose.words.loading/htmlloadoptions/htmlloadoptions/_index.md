@@ -1,7 +1,9 @@
 ---
-title: HtmlLoadOptions.HtmlLoadOptions
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlLoadOptions البناء. تهيئة مثيل جديد لهذه الفئة بالقيم الافتراضية.
+title: HtmlLoadOptions
+linktitle: HtmlLoadOptions
+articleTitle: HtmlLoadOptions
+second_title: Aspose.Words لـ .NET
+description: HtmlLoadOptions البناء. تهيئة مثيل جديد لهذه الفئة بالقيم الافتراضية في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.loading/htmlloadoptions/htmlloadoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/htmlloadoptions/htmlloadoptions/
 public HtmlLoadOptions()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دعم التعليقات الشرطية أثناء تحميل مستند HTML.
 
@@ -39,12 +41,12 @@ else
 ### أنظر أيضا
 
 * class [HtmlLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../htmlloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## HtmlLoadOptions(string) {#constructor_2}
+## HtmlLoadOptions(*string*) {#constructor_2}
 
 اختصار لتهيئة مثيل جديد لهذه الفئة بكلمة المرور المحددة لتحميل مستند مشفر.
 
@@ -56,7 +58,7 @@ public HtmlLoadOptions(string password)
 | --- | --- | --- |
 | password | String | كلمة المرور لفتح مستند مشفر. يمكن ان يكون`باطل` أو سلسلة فارغة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تشفير مستند Html، ثم فتحه باستخدام كلمة مرور.
 
@@ -89,12 +91,12 @@ Assert.AreEqual("Test encrypted document.", doc.GetText().Trim());
 ### أنظر أيضا
 
 * class [HtmlLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../htmlloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## HtmlLoadOptions(LoadFormat, string, string) {#constructor_1}
+## HtmlLoadOptions(*[LoadFormat](../../../aspose.words/loadformat/), string, string*) {#constructor_1}
 
 اختصار لتهيئة مثيل جديد لهذه الفئة مع تعيين الخصائص على القيم المحددة.
 
@@ -108,7 +110,7 @@ public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | password | String | كلمة المرور لفتح مستند مشفر. يمكن ان يكون`باطل` أو سلسلة فارغة. |
 | baseUri | String | السلسلة التي سيتم استخدامها لتحليل معرفات URI النسبية إلى مطلقة. يمكن ان يكون`باطل` أو سلسلة فارغة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد عنوان URI أساسي عند فتح مستند html.
 
@@ -134,7 +136,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 
 * enum [LoadFormat](../../../aspose.words/loadformat/)
 * class [HtmlLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../htmlloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Shape.StrokeWeight
-second_title: Aspose.Words per .NET API Reference
-description: Shape proprietà. Definisce lo spessore del pennello che traccia il percorso di una forma in punti.
+linktitle: StrokeWeight
+articleTitle: StrokeWeight
+second_title: Aspose.Words per .NET
+description: Shape StrokeWeight proprietà. Definisce lo spessore del pennello che traccia il percorso di una forma in punti in C#.
 type: docs
 weight: 210
 url: /it/net/aspose.words.drawing/shape/strokeweight/
@@ -14,13 +16,13 @@ Definisce lo spessore del pennello che traccia il percorso di una forma in punti
 public double StrokeWeight { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa è una scorciatoia per[`Weight`](../../stroke/weight/) proprietà.
 
 Il valore predefinito è 0,75.
 
-### Esempi
+## Esempi
 
 Mostra come scorrere tutte le forme in un documento.
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Guarda anche
 
 * class [Shape](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shape/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

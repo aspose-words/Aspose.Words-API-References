@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataLabel
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.ChartDataLabel clase. Representa la etiqueta de datos en un punto del gráfico o línea de tendencia.
+title: ChartDataLabel Class
+linktitle: ChartDataLabel
+articleTitle: ChartDataLabel
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.Charts.ChartDataLabel clase. Representa la etiqueta de datos en un punto del gráfico o línea de tendencia en C#.
 type: docs
 weight: 670
 url: /es/net/aspose.words.drawing.charts/chartdatalabel/
@@ -42,11 +44,11 @@ public class ChartDataLabel
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat/)() | Borra el formato de esta etiqueta de datos. Las propiedades se establecen en los valores predeterminados definidos en la colección principal de etiquetas data . |
 
-### Observaciones
+## Observaciones
 
 En una serie, el`ChartDataLabel` El objeto es miembro del[`ChartDataLabelCollection`](../chartdatalabelcollection/) . El[`ChartDataLabelCollection`](../chartdatalabelcollection/) contiene una`ChartDataLabel` objeto para cada punto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
 
@@ -125,5 +127,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * espacio de nombres [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../)
-
-

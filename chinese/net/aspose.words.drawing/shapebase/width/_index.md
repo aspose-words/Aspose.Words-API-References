@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Width
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 获取或设置形状包含块的宽度
+linktitle: Width
+articleTitle: Width
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase Width 财产. 获取或设置形状包含块的宽度 在 C#.
 type: docs
 weight: 570
 url: /zh/net/aspose.words.drawing/shapebase/width/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shapebase/width/
 public double Width { get; set; }
 ```
 
-### 评论
+## 评论
 
 对于顶级形状，该值以点为单位。
 
@@ -22,7 +24,7 @@ public double Width { get; set; }
 
 默认值为 0。
 
-### 例子
+## 例子
 
 演示如何插入浮动图像，并指定其位置和大小。
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

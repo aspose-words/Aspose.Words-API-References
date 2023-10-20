@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.RemoveAt
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlPartCollection metodo. Rimuove un elemento allindice specificato.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words per .NET
+description: CustomXmlPartCollection RemoveAt metodo. Rimuove un elemento allindice specificato in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.markup/customxmlpartcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | L'indice a base zero. |
 
-### Esempi
+## Esempi
 
 Mostra come creare un tag di documento strutturato con dati XML personalizzati.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Guarda anche
 
 * class [CustomXmlPartCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlpartcollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

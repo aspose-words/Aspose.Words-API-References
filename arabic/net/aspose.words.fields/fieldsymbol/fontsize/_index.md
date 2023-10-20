@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.FontSize
-second_title: Aspose.Words لمراجع .NET API
-description: FieldSymbol ملكية. الحصول على أو تعيين الحجم بنقاط خط الحرف الذي تم استرداده بواسطة الحقل.
+linktitle: FontSize
+articleTitle: FontSize
+second_title: Aspose.Words لـ .NET
+description: FieldSymbol FontSize ملكية. الحصول على أو تعيين الحجم بنقاط خط الحرف الذي تم استرداده بواسطة الحقل في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldsymbol/fontsize/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldsymbol/fontsize/
 public string FontSize { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل الرمز.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### أنظر أيضا
 
 * class [FieldSymbol](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldsymbol/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.Type
-second_title: Aspose.Words لمراجع .NET API
-description: FontSourceBase ملكية. إرجاع نوع مصدر الخط.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: FontSourceBase Type ملكية. إرجاع نوع مصدر الخط في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/fontsourcebase/type/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontsourcebase/type/
 public abstract FontSourceType Type { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام ملف الخط في نظام الملفات المحلي كمصدر للخط.
 
@@ -34,7 +36,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [FontSourceBase](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsourcebase/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

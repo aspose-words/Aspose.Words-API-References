@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.Writeln
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Inserta una cadena y un salto de párrafo en el documento.
+linktitle: Writeln
+articleTitle: Writeln
+second_title: Aspose.Words para .NET
+description: DocumentBuilder Writeln método. Inserta una cadena y un salto de párrafo en el documento en C#.
 type: docs
-weight: 670
+weight: 660
 url: /es/net/aspose.words/documentbuilder/writeln/
 ---
-## Writeln(string) {#writeln_1}
+## Writeln(*string*) {#writeln_1}
 
 Inserta una cadena y un salto de párrafo en el documento.
 
@@ -18,11 +20,11 @@ public void Writeln(string text)
 | --- | --- | --- |
 | text | String | La cadena que se insertará en el documento. |
 
-### Observaciones
+## Observaciones
 
 Fuente actual y formato de párrafo especificado por el[`Font`](../font/) y[`ParagraphFormat`](../paragraphformat/) Se utilizan propiedades.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una tabla formateada de 2x2.
 
@@ -68,7 +70,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ### Ver también
 
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -81,11 +83,11 @@ Inserta un salto de párrafo en el documento.
 public void Writeln()
 ```
 
-### Observaciones
+## Observaciones
 
 llamadas[`InsertParagraph`](../insertparagraph/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear encabezados y pies de página en un documento usando DocumentBuilder.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ### Ver también
 
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

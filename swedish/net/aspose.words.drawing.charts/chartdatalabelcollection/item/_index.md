@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabelCollection fast egendom. ReturnerarChartDataLabel för det angivna indexet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: ChartDataLabelCollection Item fast egendom. ReturnerarChartDataLabel för det angivna indexet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/item/
@@ -14,7 +16,7 @@ Returnerar[`ChartDataLabel`](../../chartdatalabel/) för det angivna indexet.
 public ChartDataLabel this[int index] { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataLabel](../../chartdatalabel/)
 * class [ChartDataLabelCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

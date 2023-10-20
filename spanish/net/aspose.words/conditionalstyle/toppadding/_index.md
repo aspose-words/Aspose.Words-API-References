@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.TopPadding
-second_title: Referencia de API de Aspose.Words para .NET
-description: ConditionalStyle propiedad. Obtiene o establece la cantidad de espacio en puntos que se agregará encima del contenido de las celdas de la tabla.
+linktitle: TopPadding
+articleTitle: TopPadding
+second_title: Aspose.Words para .NET
+description: ConditionalStyle TopPadding propiedad. Obtiene o establece la cantidad de espacio en puntos que se agregará encima del contenido de las celdas de la tabla en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words/conditionalstyle/toppadding/
@@ -14,7 +16,7 @@ Obtiene o establece la cantidad de espacio (en puntos) que se agregará encima d
 public double TopPadding { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con ciertos estilos de área de una tabla.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Ver también
 
 * class [ConditionalStyle](../)
-* espacio de nombres [Aspose.Words](../../conditionalstyle/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

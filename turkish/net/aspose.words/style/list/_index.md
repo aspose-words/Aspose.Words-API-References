@@ -1,7 +1,9 @@
 ---
 title: Style.List
-second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Bu liste stilinin biçimlendirmesini tanımlayan listeyi alır.
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words for .NET
+description: Style List mülk. Bu liste stilinin biçimlendirmesini tanımlayan listeyi alır C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/style/list/
@@ -14,11 +16,11 @@ Bu liste stilinin biçimlendirmesini tanımlayan listeyi alır.
 public List List { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca liste stilleri için geçerlidir. Diğer stil türleri için bu özellik şunu döndürür:`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Liste stilinin nasıl oluşturulacağını ve belgede nasıl kullanılacağını gösterir.
 
@@ -80,7 +82,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 
 * class [List](../../../aspose.words.lists/list/)
 * class [Style](../)
-* ad alanı [Aspose.Words](../../style/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

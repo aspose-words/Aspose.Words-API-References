@@ -1,14 +1,16 @@
 ---
 title: IStructuredDocumentTag.Id
-second_title: Справочник по API Aspose.Words для .NET
-description: IStructuredDocumentTag свойство. Указывает для этого уникальный постоянный числовой идентификатор доступный только для чтения. СДТ.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words для .NET
+description: IStructuredDocumentTag Id свойство. Указывает для этого уникальный постоянный числовой идентификатор доступный только для чтения.СДТ на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/istructureddocumenttag/id/
 ---
 ## IStructuredDocumentTag.Id property
 
-Указывает для этого уникальный постоянный числовой идентификатор, доступный только для чтения. **СДТ**.
+Указывает для этого уникальный постоянный числовой идентификатор, доступный только для чтения.**СДТ**.
 
 ```csharp
 public int Id { get; }
@@ -17,7 +19,5 @@ public int Id { get; }
 ### Смотрите также
 
 * interface [IStructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../istructureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

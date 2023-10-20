@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsLayoutInCell
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان الشكل معروضًا داخل الجدول أم خارجه.
+linktitle: IsLayoutInCell
+articleTitle: IsLayoutInCell
+second_title: Aspose.Words لـ .NET
+description: ShapeBase IsLayoutInCell ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان الشكل معروضًا داخل الجدول أم خارجه في C#.
 type: docs
 weight: 310
 url: /ar/net/aspose.words.drawing/shapebase/islayoutincell/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shapebase/islayoutincell/
 public bool IsLayoutInCell { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`حقيقي`.
 
 له تأثير فقط على الأشكال ذات المستوى الأعلى، الخاصية[`WrapType`](../wraptype/) والتي تم ضبطها على value بخلاف[`Inline`](../../../aspose.words/inline/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد كيفية عرض شكل في خلية جدول.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Shape.LayoutInTableCell.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

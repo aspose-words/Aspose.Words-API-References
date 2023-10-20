@@ -1,7 +1,9 @@
 ---
 title: DocumentSavingArgs.EstimatedProgress
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentSavingArgs mülk. Genel tahmini ilerleme yüzdesi.
+linktitle: EstimatedProgress
+articleTitle: EstimatedProgress
+second_title: Aspose.Words for .NET
+description: DocumentSavingArgs EstimatedProgress mülk. Genel tahmini ilerleme yüzdesi C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/documentsavingargs/estimatedprogress/
@@ -14,7 +16,7 @@ Genel tahmini ilerleme yüzdesi.
 public double EstimatedProgress { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi html'ye kaydederken nasıl yönetileceğini gösterir.
 
@@ -184,7 +186,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 ### Ayrıca bakınız
 
 * class [DocumentSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../documentsavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

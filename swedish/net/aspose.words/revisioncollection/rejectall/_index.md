@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.RejectAll
-second_title: Aspose.Words för .NET API Referens
-description: RevisionCollection metod. Avvisar alla revisioner i den här samlingen.
+linktitle: RejectAll
+articleTitle: RejectAll
+second_title: Aspose.Words för .NET
+description: RevisionCollection RejectAll metod. Avvisar alla revisioner i den här samlingen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/revisioncollection/rejectall/
@@ -14,7 +16,7 @@ Avvisar alla revisioner i den här samlingen.
 public void RejectAll()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av revisioner.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(0, revisions.Count);
 ### Se även
 
 * class [RevisionCollection](../)
-* namnutrymme [Aspose.Words](../../revisioncollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

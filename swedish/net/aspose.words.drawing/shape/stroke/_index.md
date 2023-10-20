@@ -1,7 +1,9 @@
 ---
 title: Shape.Stroke
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Definierar ett streck för en form.
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words för .NET
+description: Shape Stroke fast egendom. Definierar ett streck för en form i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.drawing/shape/stroke/
@@ -14,7 +16,7 @@ Definierar ett streck för en form.
 public Stroke Stroke { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar för att skapa en mängd olika former.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * class [Stroke](../../stroke/)
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

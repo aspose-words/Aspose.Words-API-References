@@ -1,7 +1,9 @@
 ---
 title: MailMerge.PreserveUnusedTags
-second_title: Aspose.Words per .NET API Reference
-description: MailMerge proprietà. Ottiene o imposta un valore che indica se i tag mustache non utilizzati devono essere conservati.
+linktitle: PreserveUnusedTags
+articleTitle: PreserveUnusedTags
+second_title: Aspose.Words per .NET
+description: MailMerge PreserveUnusedTags proprietà. Ottiene o imposta un valore che indica se i tag mustache non utilizzati devono essere conservati in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.mailmerging/mailmerge/preserveunusedtags/
@@ -14,11 +16,11 @@ Ottiene o imposta un valore che indica se i tag "mustache" non utilizzati devono
 public bool PreserveUnusedTags { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`falso` .
 
-### Esempi
+## Esempi
 
 Mostra come preservare l'aspetto dei tag di stampa unione alternativi che rimangono inutilizzati durante una stampa unione.
 
@@ -83,7 +85,5 @@ private static DataTable CreateSourceTablePreserveUnusedTags()
 
 * property [UseNonMergeFields](../usenonmergefields/)
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToString
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentProperty méthode. Renvoie la valeur de la propriété sous forme de chaîne formatée selon les paramètres régionaux actuels.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words pour .NET
+description: DocumentProperty ToString méthode. Renvoie la valeur de la propriété sous forme de chaîne formatée selon les paramètres régionaux actuels en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.properties/documentproperty/tostring/
@@ -14,11 +16,11 @@ Renvoie la valeur de la propriété sous forme de chaîne formatée selon les pa
 public override string ToString()
 ```
 
-### Remarques
+## Remarques
 
 Convertit une propriété booléenne en "Y" ou "N". Convertit une propriété de date en une chaîne de date courte. Pour tous les autres types, convertit une propriété en utilisant Object.ToString().
 
-### Exemples
+## Exemples
 
 Affiche différentes méthodes de conversion de type des propriétés de document personnalisées.
 
@@ -63,7 +65,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 ### Voir également
 
 * class [DocumentProperty](../)
-* espace de noms [Aspose.Words.Properties](../../documentproperty/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

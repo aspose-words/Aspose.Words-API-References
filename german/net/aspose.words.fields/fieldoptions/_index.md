@@ -1,7 +1,9 @@
 ---
-title: Class FieldOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldOptions klas. Stellt Optionen zur Steuerung der Feldverarbeitung in einem Dokument dar.
+title: FieldOptions Class
+linktitle: FieldOptions
+articleTitle: FieldOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.FieldOptions klas. Stellt Optionen zur Steuerung der Feldverarbeitung in einem Dokument dar in C#.
 type: docs
 weight: 2250
 url: /de/net/aspose.words.fields/fieldoptions/
@@ -43,7 +45,7 @@ public sealed class FieldOptions
 | [UseInvariantCultureNumberFormat](../../aspose.words.fields/fieldoptions/useinvariantculturenumberformat/) { get; set; } | Ruft den Wert ab oder legt ihn fest, der angibt, dass das Zahlenformat mithilfe der invarianten Kultur analysiert wird oder nicht |
 | [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent/) { get; set; } | Ruft den Befragten während der Feldaktualisierung ab oder legt ihn auf Benutzeraufforderungen fest. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie die Quelle der Kultur angeben, die für die Datumsformatierung während einer Feldaktualisierung oder eines Seriendrucks verwendet wird.
 
@@ -79,5 +81,3 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

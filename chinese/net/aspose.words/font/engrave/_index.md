@@ -1,7 +1,9 @@
 ---
 title: Font.Engrave
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 如果字体格式为雕刻则为 True
+linktitle: Engrave
+articleTitle: Engrave
+second_title: 用于 .NET 的 Aspose.Words
+description: Font Engrave 财产. 如果字体格式为雕刻则为 True 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words/font/engrave/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/engrave/
 public bool Engrave { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何对文本应用雕刻/浮雕效果。
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.EngraveEmboss.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

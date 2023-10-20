@@ -1,7 +1,9 @@
 ---
 title: TabStop.Position
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TabStop propriété. Obtient la position du taquet de tabulation en points.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words pour .NET
+description: TabStop Position propriété. Obtient la position du taquet de tabulation en points en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/tabstop/position/
@@ -14,7 +16,7 @@ Obtient la position du taquet de tabulation en points.
 public double Position { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment modifier la position du taquet de tabulation droit dans les paragraphes liés à la table des matières.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 ### Voir également
 
 * class [TabStop](../)
-* espace de noms [Aspose.Words](../../tabstop/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

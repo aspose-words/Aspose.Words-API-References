@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssStyleSheetFileName
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt den Pfad und den Namen der Cascading Style Sheet CSSDatei an die geschrieben wird wenn ein Dokument nach HTML exportiert wird. Standard ist eine leere Zeichenfolge.
+linktitle: CssStyleSheetFileName
+articleTitle: CssStyleSheetFileName
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions CssStyleSheetFileName eigendom. Gibt den Pfad und den Namen der Cascading Style Sheet CSSDatei an die geschrieben wird wenn ein Dokument nach HTML exportiert wird. Standard ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/
@@ -14,7 +16,7 @@ Gibt den Pfad und den Namen der Cascading Style Sheet (CSS)-Datei an, die geschr
 public string CssStyleSheetFileName { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft ist nur wirksam, wenn ein Dokument im HTML-Format gespeichert wird und ein externes CSS-Stylesheet mit angefordert wird[`CssStyleSheetType`](../cssstylesheettype/).
 
@@ -26,7 +28,7 @@ Wenn der durch diese Eigenschaft angegebene Ordner nicht existiert, wird er auto
 
 Eine andere Möglichkeit, einen Ordner anzugeben, in dem externe CSS-Dateien gespeichert werden, ist die Verwendung von[`ResourceFolder`](../resourcefolder/) .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit CSS-Stylesheets gearbeitet wird, die bei einer HTML-Konvertierung erstellt werden.
 
@@ -87,7 +89,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

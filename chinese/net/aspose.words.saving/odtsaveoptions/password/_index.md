@@ -1,7 +1,9 @@
 ---
 title: OdtSaveOptions.Password
-second_title: Aspose.Words for .NET API 参考
-description: OdtSaveOptions 财产. 获取或设置加密文档的密码
+linktitle: Password
+articleTitle: Password
+second_title: 用于 .NET 的 Aspose.Words
+description: OdtSaveOptions Password 财产. 获取或设置加密文档的密码 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/odtsaveoptions/password/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/odtsaveoptions/password/
 public string Password { get; set; }
 ```
 
-### 评论
+## 评论
 
 为了保存文档而不加密，该属性应该是`无效的`或空字符串。
 
-### 例子
+## 例子
 
 演示如何使用密码加密保存的 ODT/OTT 文档，然后使用 Aspose.Words 加载它。
 
@@ -53,7 +55,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### 也可以看看
 
 * class [OdtSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../odtsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

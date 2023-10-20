@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LastSavedTime
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. الحصول على أو تعيين وقت آخر حفظ بالتوقيت العالمي المنسق UTC.
+linktitle: LastSavedTime
+articleTitle: LastSavedTime
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties LastSavedTime ملكية. الحصول على أو تعيين وقت آخر حفظ بالتوقيت العالمي المنسق UTC في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/
 public DateTime LastSavedTime { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 بالنسبة للمستندات التي تم إنشاؤها من تنسيق RTF، تقوم هذه الخاصية بإرجاع التوقيت المحلي لآخر عملية حفظ.
 
 لا يقوم Aspose.Words بتحديث هذه الخاصية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند في فئة "الأصل".
 
@@ -97,7 +99,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

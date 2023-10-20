@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Contains
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontInfoCollection método. Determina si la colección contiene una fuente con el nombre de pila.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words para .NET
+description: FontInfoCollection Contains método. Determina si la colección contiene una fuente con el nombre de pila en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fonts/fontinfocollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `verdadero` si el artículo se encuentra en la colección; de lo contrario,`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra información sobre las fuentes que están presentes en el documento en blanco.
 
@@ -43,7 +45,5 @@ Assert.True(doc.FontInfos.Contains("Arial"));
 ### Ver también
 
 * class [FontInfoCollection](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontinfocollection/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

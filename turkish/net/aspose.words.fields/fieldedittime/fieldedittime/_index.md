@@ -1,7 +1,9 @@
 ---
-title: FieldEditTime.FieldEditTime
-second_title: Aspose.Words for .NET API Referansı
-description: FieldEditTime inşaatçı. Default_Constructor
+title: FieldEditTime
+linktitle: FieldEditTime
+articleTitle: FieldEditTime
+second_title: Aspose.Words for .NET
+description: FieldEditTime inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldedittime/fieldedittime/
@@ -17,7 +19,5 @@ public FieldEditTime()
 ### Ayrıca bakınız
 
 * class [FieldEditTime](../)
-* ad alanı [Aspose.Words.Fields](../../fieldedittime/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSettings.DefaultInstance
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSettings propriété. Paramètres de police statiques par défaut.
+linktitle: DefaultInstance
+articleTitle: DefaultInstance
+second_title: Aspose.Words pour .NET
+description: FontSettings DefaultInstance propriété. Paramètres de police statiques par défaut en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/fontsettings/defaultinstance/
@@ -14,11 +16,11 @@ Paramètres de police statiques par défaut.
 public static FontSettings DefaultInstance { get; }
 ```
 
-### Remarques
+## Remarques
 
 Cette instance est utilisée par défaut dans un document sauf si[`FontSettings`](../../../aspose.words/document/fontsettings/) est spécifié.
 
-### Exemples
+## Exemples
 
 Montre comment configurer l’instance des paramètres de police par défaut.
 
@@ -94,7 +96,5 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 ### Voir également
 
 * class [FontSettings](../)
-* espace de noms [Aspose.Words.Fonts](../../fontsettings/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.Checked
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 获取或设置复选框表单字段的选中状态 该属性的默认值为错误的.
+linktitle: Checked
+articleTitle: Checked
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField Checked 财产. 获取或设置复选框表单字段的选中状态 该属性的默认值为错误的 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/formfield/checked/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/formfield/checked/
 public bool Checked { get; set; }
 ```
 
-### 评论
+## 评论
 
 仅适用于复选框表单字段。
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

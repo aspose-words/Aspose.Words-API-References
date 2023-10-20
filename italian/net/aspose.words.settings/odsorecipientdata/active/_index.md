@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Active
-second_title: Aspose.Words per .NET API Reference
-description: OdsoRecipientData proprietà. Specifica se il record dellorigine dati deve essere importato in un documento quando viene eseguita la stampa unione. Il valore predefinito èVERO .
+linktitle: Active
+articleTitle: Active
+second_title: Aspose.Words per .NET
+description: OdsoRecipientData Active proprietà. Specifica se il record dellorigine dati deve essere importato in un documento quando viene eseguita la stampa unione. Il valore predefinito èVERO  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.settings/odsorecipientdata/active/
@@ -14,7 +16,7 @@ Specifica se il record dell'origine dati deve essere importato in un documento q
 public bool Active { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Guarda anche
 
 * class [OdsoRecipientData](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odsorecipientdata/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.TempFolder
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. Bir DOC veya DOCX dosyasına kaydederken kullanılan geçici dosyalar için klasörü belirtir. Varsayılan olarak bu özellikhükümsüz ve hiçbir geçici dosya kullanılmaz.
+linktitle: TempFolder
+articleTitle: TempFolder
+second_title: Aspose.Words for .NET
+description: SaveOptions TempFolder mülk. Bir DOC veya DOCX dosyasına kaydederken kullanılan geçici dosyalar için klasörü belirtir. Varsayılan olarak bu özellikhükümsüz ve hiçbir geçici dosya kullanılmaz C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.saving/saveoptions/tempfolder/
@@ -14,7 +16,7 @@ Bir DOC veya DOCX dosyasına kaydederken kullanılan geçici dosyalar için klas
 public string TempFolder { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words bir belgeyi kaydettiğinde geçici iç yapılar oluşturması gerekir. Varsayılan olarak, bu dahili yapılar bellekte oluşturulur ve belge kaydedilirken bellek kullanımı kısa bir süreliğine yükselir. Kaydetme tamamlandığında bellek serbest bırakılır ve çöp toplayıcı tarafından geri alınır.
 
@@ -24,7 +26,7 @@ Klasörün var olması ve yazılabilir olması gerekir, aksi takdirde bir istisn
 
 Aspose.Words, kaydetme işlemi tamamlandığında tüm geçici dosyaları otomatik olarak siler.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi kaydederken bellek yerine sabit sürücünün nasıl kullanılacağını gösterir.
 
@@ -49,7 +51,5 @@ Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
 ### Ayrıca bakınız
 
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

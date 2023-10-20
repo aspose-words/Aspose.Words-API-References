@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.Encoding
-second_title: Aspose.Words لمراجع .NET API
-description: FileFormatInfo ملكية. يحصل على الترميز المكتشف إذا كان قابلاً للتطبيق على تنسيق المستند الحالي. في الوقت الحالي يكتشف الترميز فقط لمستندات HTML.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words لـ .NET
+description: FileFormatInfo Encoding ملكية. يحصل على الترميز المكتشف إذا كان قابلاً للتطبيق على تنسيق المستند الحالي. في الوقت الحالي يكتشف الترميز فقط لمستندات HTML في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/fileformatinfo/encoding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/fileformatinfo/encoding/
 public Encoding Encoding { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اكتشاف الترميز في ملف html.
 
@@ -31,7 +33,5 @@ Assert.AreEqual(1252, info.Encoding.CodePage);
 ### أنظر أيضا
 
 * class [FileFormatInfo](../)
-* مساحة الاسم [Aspose.Words](../../fileformatinfo/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

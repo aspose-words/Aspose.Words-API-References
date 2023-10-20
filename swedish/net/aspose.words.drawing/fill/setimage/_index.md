@@ -1,12 +1,14 @@
 ---
 title: Fill.SetImage
-second_title: Aspose.Words för .NET API Referens
-description: Fill metod. Ändrar fyllningstypen till en bild.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words för .NET
+description: Fill SetImage metod. Ändrar fyllningstypen till en bild i C#.
 type: docs
-weight: 250
+weight: 240
 url: /sv/net/aspose.words.drawing/fill/setimage/
 ---
-## SetImage(string) {#setimage_2}
+## SetImage(*string*) {#setimage_2}
 
 Ändrar fyllningstypen till en bild.
 
@@ -18,7 +20,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | Sökvägen till bildfilen. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in formfyllningstyp som bild.
 
@@ -45,12 +47,12 @@ doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
 ### Se även
 
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Stream) {#setimage_1}
+## SetImage(*Stream*) {#setimage_1}
 
 Ändrar fyllningstypen till en bild.
 
@@ -65,12 +67,12 @@ public void SetImage(Stream stream)
 ### Se även
 
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## SetImage(byte[]) {#setimage}
+## SetImage(*byte[]*) {#setimage}
 
 Ändrar fyllningstypen till en bild.
 
@@ -85,7 +87,5 @@ public void SetImage(byte[] imageBytes)
 ### Se även
 
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

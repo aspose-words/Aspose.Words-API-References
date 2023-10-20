@@ -1,7 +1,9 @@
 ---
 title: Table.BottomPadding
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Hücre içeriğinin altına eklenecek alan miktarını puan cinsinden alır veya ayarlar.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words for .NET
+description: Table BottomPadding mülk. Hücre içeriğinin altına eklenecek alan miktarını puan cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.tables/table/bottompadding/
@@ -14,7 +16,7 @@ Hücre içeriğinin altına eklenecek alan miktarını (puan cinsinden) alır ve
 public double BottomPadding { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tabloda içerik dolgusunun nasıl yapılandırılacağını gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListLevel.Font
-second_title: Aspose.Words for .NET API 参考
-description: ListLevel 财产. 指定用于列表标签的字符格式
+linktitle: Font
+articleTitle: Font
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevel Font 财产. 指定用于列表标签的字符格式 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.lists/listlevel/font/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.lists/listlevel/font/
 public Font Font { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ListLevel](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevel/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

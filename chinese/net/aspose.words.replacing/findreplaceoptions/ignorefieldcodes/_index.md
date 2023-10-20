@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreFieldCodes
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. 获取或设置一个布尔值指示忽略字段代码内的文本 默认值为错误的.
+linktitle: IgnoreFieldCodes
+articleTitle: IgnoreFieldCodes
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions IgnoreFieldCodes 财产. 获取或设置一个布尔值指示忽略字段代码内的文本 默认值为错误的 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/
 public bool IgnoreFieldCodes { get; set; }
 ```
 
-### 评论
+## 评论
 
 该选项仅影响字段代码（它不会忽略 之间的节点FieldSeparator和FieldEnd）。
 
 要忽略整个字段，请使用相应的选项[`IgnoreFields`](../ignorefields/)。
 
-### 例子
+## 例子
 
 演示如何忽略域代码内的文本。
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### 也可以看看
 
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

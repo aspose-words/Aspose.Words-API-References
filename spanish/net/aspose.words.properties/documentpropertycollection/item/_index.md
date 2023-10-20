@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentPropertyCollection propiedad. Devuelve unDocumentProperty objeto por el nombre de la propiedad.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: DocumentPropertyCollection Item propiedad. Devuelve unDocumentProperty objeto por el nombre de la propiedad en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.properties/documentpropertycollection/item/
@@ -18,11 +20,11 @@ public virtual DocumentProperty this[string name] { get; }
 | --- | --- |
 | name | El nombre de la propiedad que se va a recuperar, sin distinguir entre mayúsculas y minúsculas. |
 
-### Observaciones
+## Observaciones
 
 Devoluciones`nulo` si no se encuentra una propiedad con el nombre especificado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una propiedad de documento personalizada que contiene una fecha y hora.
 
@@ -38,7 +40,7 @@ Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["Author
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* espacio de nombres [Aspose.Words.Properties](../../documentpropertycollection/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -55,7 +57,7 @@ public DocumentProperty this[int index] { get; }
 | --- | --- |
 | index | Índice de base cero del[`DocumentProperty`](../../documentproperty/) para recuperar. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de documentos personalizados.
 
@@ -81,7 +83,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* espacio de nombres [Aspose.Words.Properties](../../documentpropertycollection/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

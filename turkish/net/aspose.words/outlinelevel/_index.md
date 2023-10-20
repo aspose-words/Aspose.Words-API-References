@@ -1,7 +1,9 @@
 ---
-title: Enum OutlineLevel
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.OutlineLevel Sıralama. Belgedeki bir paragrafın anahat düzeyini belirtir.
+title: OutlineLevel Enum
+linktitle: OutlineLevel
+articleTitle: OutlineLevel
+second_title: Aspose.Words for .NET
+description: Aspose.Words.OutlineLevel Sıralama. Belgedeki bir paragrafın anahat düzeyini belirtir C#'da.
 type: docs
 weight: 4330
 url: /tr/net/aspose.words/outlinelevel/
@@ -33,5 +35,3 @@ public enum OutlineLevel
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

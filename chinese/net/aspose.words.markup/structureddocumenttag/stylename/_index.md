@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.StyleName
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 获取或设置应用于结构化文档标记的样式名称
+linktitle: StyleName
+articleTitle: StyleName
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag StyleName 财产. 获取或设置应用于结构化文档标记的样式名称 在 C#.
 type: docs
 weight: 270
 url: /zh/net/aspose.words.markup/structureddocumenttag/stylename/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/structureddocumenttag/stylename/
 public string StyleName { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用内容控制元素的样式。
 
@@ -53,7 +55,5 @@ foreach (Node node in tags)
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

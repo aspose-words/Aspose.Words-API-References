@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Width
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin içeren bloğunun genişliğini alır veya ayarlar.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words for .NET
+description: ShapeBase Width mülk. Şeklin içeren bloğunun genişliğini alır veya ayarlar C#'da.
 type: docs
 weight: 570
 url: /tr/net/aspose.words.drawing/shapebase/width/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/width/
 public double Width { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Üst düzey bir şekil için değer nokta cinsindendir.
 
@@ -22,7 +24,7 @@ Bir gruptaki şekiller için değer, üst grubun koordinat alanında ve birimler
 
 Varsayılan değer 0'dır.
 
-### Örnekler
+## Örnekler
 
 Kayan bir görüntünün nasıl ekleneceğini ve konumunun ve boyutunun nasıl belirleneceğini gösterir.
 
@@ -111,7 +113,5 @@ Bir şeklin resimle nasıl yeniden boyutlandırılacağını gösterir.
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

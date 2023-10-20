@@ -1,7 +1,9 @@
 ---
-title: FieldDdeAuto.FieldDdeAuto
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDdeAuto constructeur. Default_Constructor
+title: FieldDdeAuto
+linktitle: FieldDdeAuto
+articleTitle: FieldDdeAuto
+second_title: Aspose.Words pour .NET
+description: FieldDdeAuto constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldddeauto/fieldddeauto/
@@ -17,7 +19,5 @@ public FieldDdeAuto()
 ### Voir également
 
 * class [FieldDdeAuto](../)
-* espace de noms [Aspose.Words.Fields](../../fieldddeauto/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

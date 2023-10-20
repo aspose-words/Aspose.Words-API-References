@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineFeedChar
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Radmatningstecken char10 eller n.
+linktitle: LineFeedChar
+articleTitle: LineFeedChar
+second_title: Aspose.Words för .NET
+description: ControlChar LineFeedChar fält. Radmatningstecken char10 eller n i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words/controlchar/linefeedchar/
@@ -14,7 +16,7 @@ Radmatningstecken: (char)10 eller "\n".
 public const char LineFeedChar;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

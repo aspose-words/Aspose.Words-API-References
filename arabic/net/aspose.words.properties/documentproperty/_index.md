@@ -1,7 +1,9 @@
 ---
-title: Class DocumentProperty
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Properties.DocumentProperty فصل. يمثل خاصية مستند مخصصة أو مضمنة.
+title: DocumentProperty Class
+linktitle: DocumentProperty
+articleTitle: DocumentProperty
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Properties.DocumentProperty فصل. يمثل خاصية مستند مخصصة أو مضمنة في C#.
 type: docs
 weight: 4470
 url: /ar/net/aspose.words.properties/documentproperty/
@@ -32,12 +34,12 @@ public class DocumentProperty
 | --- | --- |
 | [ToBool](../../aspose.words.properties/documentproperty/tobool/)() | إرجاع قيمة الخاصية كقيمة منطقية. |
 | [ToByteArray](../../aspose.words.properties/documentproperty/tobytearray/)() | إرجاع قيمة الخاصية كمصفوفة بايت. |
-| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | إرجاع قيمة الخاصية كـ **التاريخ والوقت** بالتوقيت العالمي المنسق. |
+| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | إرجاع قيمة الخاصية كـ**التاريخ والوقت** بالتوقيت العالمي المنسق. |
 | [ToDouble](../../aspose.words.properties/documentproperty/todouble/)() | إرجاع قيمة الخاصية مزدوجة. |
 | [ToInt](../../aspose.words.properties/documentproperty/toint/)() | إرجاع قيمة الخاصية كعدد صحيح. |
 | override [ToString](../../aspose.words.properties/documentproperty/tostring/)() | تُرجع قيمة الخاصية كسلسلة منسقة وفقًا للغة المحلية الحالية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند المضمنة.
 
@@ -73,5 +75,3 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
 * مساحة الاسم [Aspose.Words.Properties](../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../)
-
-

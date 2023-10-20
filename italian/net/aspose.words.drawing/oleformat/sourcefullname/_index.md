@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SourceFullName
-second_title: Aspose.Words per .NET API Reference
-description: OleFormat proprietà. Ottiene o imposta il percorso e il nome del file di origine per loggetto OLE collegato.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words per .NET
+description: OleFormat SourceFullName proprietà. Ottiene o imposta il percorso e il nome del file di origine per loggetto OLE collegato in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.drawing/oleformat/sourcefullname/
@@ -14,13 +16,13 @@ Ottiene o imposta il percorso e il nome del file di origine per l'oggetto OLE co
 public string SourceFullName { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è una stringa vuota.
 
 Se`SourceFullName` non è una stringa vuota, l'oggetto OLE è collegato.
 
-### Esempi
+## Esempi
 
 Mostra come inserire oggetti OLE collegati e scollegati.
 
@@ -70,7 +72,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Guarda anche
 
 * class [OleFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../oleformat/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

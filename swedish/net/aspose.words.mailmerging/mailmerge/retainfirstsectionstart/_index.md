@@ -1,7 +1,9 @@
 ---
 title: MailMerge.RetainFirstSectionStart
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge fast egendom. Hämtar eller ställer in ett värde som indikerar omSectionStart av det första dokumentavsnittet och dess kopior för efterföljande datakälla rows bevaras under sammankoppling eller uppdateras enligt MS Wordbeteende.
+linktitle: RetainFirstSectionStart
+articleTitle: RetainFirstSectionStart
+second_title: Aspose.Words för .NET
+description: MailMerge RetainFirstSectionStart fast egendom. Hämtar eller ställer in ett värde som indikerar omSectionStart av det första dokumentavsnittet och dess kopior för efterföljande datakälla rows bevaras under sammankoppling eller uppdateras enligt MS Wordbeteende i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.mailmerging/mailmerge/retainfirstsectionstart/
@@ -14,14 +16,12 @@ Hämtar eller ställer in ett värde som indikerar om[`SectionStart`](../../../a
 public bool RetainFirstSectionStart { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`Sann` .
 
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

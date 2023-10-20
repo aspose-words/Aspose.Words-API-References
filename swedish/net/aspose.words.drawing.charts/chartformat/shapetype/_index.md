@@ -1,9 +1,11 @@
 ---
 title: ChartFormat.ShapeType
-second_title: Aspose.Words för .NET API Referens
-description: ChartFormat fast egendom. Hämtar eller ställer in formtypen för det överordnade diagramelementet.
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: Aspose.Words för .NET
+description: ChartFormat ShapeType fast egendom. Hämtar eller ställer in formtypen för det överordnade diagramelementet i C#.
 type: docs
-weight: 30
+weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartformat/shapetype/
 ---
 ## ChartFormat.ShapeType property
@@ -14,11 +16,11 @@ Hämtar eller ställer in formtypen för det överordnade diagramelementet.
 public ChartShapeType ShapeType { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För närvarande kan egenskapen endast användas för dataetiketter.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in fyllnings-, linje- och bildtextformatering för diagramdataetiketter.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 
 * enum [ChartShapeType](../../chartshapetype/)
 * class [ChartFormat](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartformat/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

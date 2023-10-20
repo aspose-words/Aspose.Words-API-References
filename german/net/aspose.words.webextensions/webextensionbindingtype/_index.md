@@ -1,7 +1,9 @@
 ---
-title: Enum WebExtensionBindingType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.WebExtensions.WebExtensionBindingType opsomming. Listet verfügbare Bindungstypen zwischen einer Weberweiterung und den Daten im Dokument auf.
+title: WebExtensionBindingType Enum
+linktitle: WebExtensionBindingType
+articleTitle: WebExtensionBindingType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.WebExtensions.WebExtensionBindingType opsomming. Listet verfügbare Bindungstypen zwischen einer Weberweiterung und den Daten im Dokument auf in C#.
 type: docs
 weight: 6770
 url: /de/net/aspose.words.webextensions/webextensionbindingtype/
@@ -23,7 +25,7 @@ public enum WebExtensionBindingType
 | Text | `2` | Klartext. |
 | Default | `0` |  |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Weberweiterung hinzufügt.
 
@@ -69,5 +71,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * namensraum [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../)
-
-

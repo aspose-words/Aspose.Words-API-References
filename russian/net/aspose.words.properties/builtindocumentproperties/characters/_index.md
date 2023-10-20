@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Characters
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Представляет оценку количества символов в документе.
+linktitle: Characters
+articleTitle: Characters
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties Characters свойство. Представляет оценку количества символов в документе на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.properties/builtindocumentproperties/characters/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/characters/
 public int Characters { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Aspose.Words обновляет это свойство при вызове[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
-### Примеры
+## Примеры
 
 Показывает, как обновить все метки списков в документе.
 
@@ -160,7 +162,5 @@ private class LineCounter
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

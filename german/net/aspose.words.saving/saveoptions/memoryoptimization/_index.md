@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.MemoryOptimization
-second_title: Aspose.Words für .NET-API-Referenz
-description: SaveOptions eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob vor dem Speichern des Dokuments eine Speicheroptimierung durchgeführt werden soll. Der Standardwert für diese Eigenschaft istFALSCH .
+linktitle: MemoryOptimization
+articleTitle: MemoryOptimization
+second_title: Aspose.Words für .NET
+description: SaveOptions MemoryOptimization eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob vor dem Speichern des Dokuments eine Speicheroptimierung durchgeführt werden soll. Der Standardwert für diese Eigenschaft istFALSCH  in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.saving/saveoptions/memoryoptimization/
@@ -14,11 +16,11 @@ Ruft einen Wert ab oder legt diesen fest, der bestimmt, ob vor dem Speichern des
 public bool MemoryOptimization { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Option festlegen auf`WAHR` kann den Speicherverbrauch erheblich senken und gleichzeitig große Dokumente speichern, allerdings auf Kosten einer langsameren Zeitersparnis.
 
-### Beispiele
+## Beispiele
 
 Zeigt eine Option zur Optimierung des Speicherverbrauchs beim Rendern großer Dokumente in PDF.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 ### Siehe auch
 
 * class [SaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../saveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

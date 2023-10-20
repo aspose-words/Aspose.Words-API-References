@@ -1,9 +1,11 @@
 ---
 title: Paragraph.GetText
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph yöntem. Paragraf sonu karakteri de dahil olmak üzere bu paragrafın metnini alır.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words for .NET
+description: Paragraph GetText yöntem. Paragraf sonu karakteri de dahil olmak üzere bu paragrafın metnini alır C#'da.
 type: docs
-weight: 280
+weight: 260
 url: /tr/net/aspose.words/paragraph/gettext/
 ---
 ## Paragraph.GetText method
@@ -14,7 +16,7 @@ Paragraf sonu karakteri de dahil olmak üzere bu paragrafın metnini alır.
 public override string GetText()
 ```
 
-### Notlar
+## Notlar
 
 Tüm alt düğümlerin metni birleştirilir ve paragraf sonu karakteri aşağıdaki gibi eklenir:
 
@@ -24,7 +26,7 @@ Tüm alt düğümlerin metni birleştirilir ve paragraf sonu karakteri aşağıd
 
 Döndürülen dize, yukarıda açıklandığı gibi tüm kontrol ve özel karakterleri içerir.[`ControlChar`](../../controlchar/).
 
-### Örnekler
+## Örnekler
 
 CompositeNode'un alt öğeleri koleksiyonuna alt düğümlerin nasıl ekleneceğini, güncelleştirileceğini ve silineceğini gösterir.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 ### Ayrıca bakınız
 
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

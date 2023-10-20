@@ -1,7 +1,9 @@
 ---
-title: Class CssSavingArgs
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.CssSavingArgs classe. Fournit des données pour leCssSaving événement.
+title: CssSavingArgs Class
+linktitle: CssSavingArgs
+articleTitle: CssSavingArgs
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.CssSavingArgs classe. Fournit des données pour leCssSaving événement en C#.
 type: docs
 weight: 4880
 url: /fr/net/aspose.words.saving/csssavingargs/
@@ -25,9 +27,9 @@ public class CssSavingArgs
 | [IsExportNeeded](../../aspose.words.saving/csssavingargs/isexportneeded/) { get; set; } | Permet de spécifier si le CSS sera exporté dans un fichier et intégré dans un document HTML. La valeur par défaut est`vrai` . Lorsque cette propriété est`FAUX` , les informations CSS ne seront pas enregistrées dans un fichier CSS et ne seront pas intégrées au document HTML. |
 | [KeepCssStreamOpen](../../aspose.words.saving/csssavingargs/keepcssstreamopen/) { get; set; } | Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir enregistré une information CSS. |
 
-### Remarques
+## Remarques
 
-Par défaut, lorsque Aspose.Words enregistre un document au format HTML, il enregistre les informations CSS inline (en tant que valeur du **style** attribut sur chaque élément).
+Par défaut, lorsque Aspose.Words enregistre un document au format HTML, il enregistre les informations CSS inline (en tant que valeur du**style** attribut sur chaque élément).
 
 `CssSavingArgs`permet de sauvegarder les informations CSS dans un fichier en fournissant votre propre objet de flux.
 
@@ -35,7 +37,7 @@ Pour enregistrer le CSS dans le flux, utilisez le[`CssStream`](./cssstream/) pro
 
 Pour supprimer l'enregistrement du CSS dans un fichier et l'intégration dans un document HTML, utilisez l'option[`IsExportNeeded`](./isexportneeded/) propriété.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les feuilles de style CSS créées par une conversion HTML.
 
@@ -97,5 +99,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

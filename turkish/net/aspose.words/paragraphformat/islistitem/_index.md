@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.IsListItem
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragraf madde işaretli veya numaralandırılmış bir listedeki bir öğe olduğunda doğrudur.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words for .NET
+description: ParagraphFormat IsListItem mülk. Paragraf madde işaretli veya numaralandırılmış bir listedeki bir öğe olduğunda doğrudur C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words/paragraphformat/islistitem/
@@ -14,7 +16,7 @@ Paragraf madde işaretli veya numaralandırılmış bir listedeki bir öğe oldu
 public bool IsListItem { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir listenin başka bir listenin içine nasıl yerleştirileceğini gösterir.
 
@@ -68,7 +70,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

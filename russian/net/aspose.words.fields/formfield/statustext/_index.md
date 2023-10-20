@@ -1,7 +1,9 @@
 ---
 title: FormField.StatusText
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Возвращает или задает текст который отображается в строке состояния когда поле формы находится в фокусе.
+linktitle: StatusText
+articleTitle: StatusText
+second_title: Aspose.Words для .NET
+description: FormField StatusText свойство. Возвращает или задает текст который отображается в строке состояния когда поле формы находится в фокусе на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.fields/formfield/statustext/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.fields/formfield/statustext/
 public string StatusText { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если[`OwnStatus`](../ownstatus/) свойство установлено на`истинный` ,`StatusText` свойство определяет текст строки состояния. Если[`OwnStatus`](../ownstatus/) свойство установлено на`ЛОЖЬ` ,`StatusText` Свойство определяет имя записи AutoText , которая содержит текст строки состояния для поля формы.
 
 Microsoft Word допускает строки длиной не более 138 символов.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

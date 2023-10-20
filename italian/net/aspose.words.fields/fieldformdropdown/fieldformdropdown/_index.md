@@ -1,7 +1,9 @@
 ---
-title: FieldFormDropDown.FieldFormDropDown
-second_title: Aspose.Words per .NET API Reference
-description: FieldFormDropDown costruttore. Default_Costruttore
+title: FieldFormDropDown
+linktitle: FieldFormDropDown
+articleTitle: FieldFormDropDown
+second_title: Aspose.Words per .NET
+description: FieldFormDropDown costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldformdropdown/fieldformdropdown/
@@ -17,7 +19,5 @@ public FieldFormDropDown()
 ### Guarda anche
 
 * class [FieldFormDropDown](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldformdropdown/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

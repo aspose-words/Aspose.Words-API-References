@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.StructuredDocumentTagNode
-second_title: Aspose.Words för .NET API Referens
-description: IStructuredDocumentTag metod. Returnerar nodobjekt som implementerar detta gränssnitt.
+linktitle: StructuredDocumentTagNode
+articleTitle: StructuredDocumentTagNode
+second_title: Aspose.Words för .NET
+description: IStructuredDocumentTag StructuredDocumentTagNode metod. Returnerar nodobjekt som implementerar detta gränssnitt i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.markup/istructureddocumenttag/structureddocumenttagnode/
@@ -18,7 +20,5 @@ public Node StructuredDocumentTagNode()
 
 * class [Node](../../../aspose.words/node/)
 * interface [IStructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../istructureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

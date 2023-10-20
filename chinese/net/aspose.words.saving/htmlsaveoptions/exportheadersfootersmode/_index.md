@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportHeadersFootersMode
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定页眉和页脚如何输出为 HTMLMHTML 或 EPUB 默认值为PerSection对于 HTML/MHTML 和None对于 EPUB.
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions ExportHeadersFootersMode 财产. 指定页眉和页脚如何输出为 HTMLMHTML 或 EPUB 默认值为PerSection对于 HTML/MHTML 和None对于 EPUB 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
 public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-### 评论
+## 评论
 
 由于 HTML 没有分页，因此很难将页眉和页脚有意义地输出到 HTML。
 
@@ -24,7 +26,7 @@ public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 
 您可以通过将此 property 设置为来完全禁用页眉和页脚的导出None。
 
-### 例子
+## 例子
 
 演示将文档保存为 HTML 时如何省略页眉/页脚。
 
@@ -53,7 +55,5 @@ Assert.IsFalse(doc.Range.Text.Contains("First header"));
 
 * enum [ExportHeadersFootersMode](../../exportheadersfootersmode/)
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

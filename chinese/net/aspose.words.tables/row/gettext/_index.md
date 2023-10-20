@@ -1,9 +1,11 @@
 ---
 title: Row.GetText
-second_title: Aspose.Words for .NET API 参考
-description: Row 方法. 获取该行中所有单元格的文本包括行尾字符
+linktitle: GetText
+articleTitle: GetText
+second_title: 用于 .NET 的 Aspose.Words
+description: Row GetText 方法. 获取该行中所有单元格的文本包括行尾字符 在 C#.
 type: docs
-weight: 160
+weight: 140
 url: /zh/net/aspose.words.tables/row/gettext/
 ---
 ## Row.GetText method
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.tables/row/gettext/
 public override string GetText()
 ```
 
-### 评论
+## 评论
 
 返回以行结尾字符 的所有子节点的串联文本[`Cell`](../../../aspose.words/controlchar/cell/)附在最后。
 
 返回的字符串包括所有控制字符和特殊字符，如中所述[`ControlChar`](../../../aspose.words/controlchar/)。
 
-### 例子
+## 例子
 
 演示如何打印文档中每个表的节点结构。
 
@@ -183,7 +185,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### 也可以看看
 
 * class [Row](../)
-* 命名空间 [Aspose.Words.Tables](../../row/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

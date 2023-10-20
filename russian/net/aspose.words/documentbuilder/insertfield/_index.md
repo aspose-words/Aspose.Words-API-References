@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertField
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет поле Word в документ и при необходимости обновляет результат поля.
+linktitle: InsertField
+articleTitle: InsertField
+second_title: Aspose.Words для .NET
+description: DocumentBuilder InsertField метод. Вставляет поле Word в документ и при необходимости обновляет результат поля на С#.
 type: docs
-weight: 330
+weight: 320
 url: /ru/net/aspose.words/documentbuilder/insertfield/
 ---
-## InsertField(FieldType, bool) {#insertfield}
+## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#insertfield}
 
 Вставляет поле Word в документ и при необходимости обновляет результат поля.
 
@@ -23,11 +25,11 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 А[`Field`](../../../aspose.words.fields/field/) объект, представляющий вставленное поле.
 
-### Примечания
+## Примечания
 
 Этот метод вставляет поле в документ. Aspose.Words может обновлять поля большинства типов, но не все. Для получения более подробной информации см. the .`InsertField` перегрузка.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле в документ с помощью FieldType.
 
@@ -74,12 +76,12 @@ else
 * class [Field](../../../aspose.words.fields/field/)
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string) {#insertfield_1}
+## InsertField(*string*) {#insertfield_1}
 
 Вставляет поле Word в документ и обновляет результат поля.
 
@@ -95,11 +97,11 @@ public Field InsertField(string fieldCode)
 
 А[`Field`](../../../aspose.words.fields/field/) объект, представляющий вставленное поле.
 
-### Примечания
+## Примечания
 
 Этот метод вставляет поле в документ и немедленно обновляет результат поля. Aspose.Words может обновлять поля большинства типов, но не все. Для получения более подробной информации см. the .`InsertField` перегрузка.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле в документ с помощью кода поля.
 
@@ -144,12 +146,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, string) {#insertfield_2}
+## InsertField(*string, string*) {#insertfield_2}
 
 Вставляет поле Word в документ без обновления результата поля.
 
@@ -166,7 +168,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 А[`Field`](../../../aspose.words.fields/field/) объект, представляющий вставленное поле.
 
-### Примечания
+## Примечания
 
 Поля в документах Microsoft Word состоят из кода поля и результата поля. Код поля подобен формуле, а результат поля подобен значению, которое создает формула. Код поля также может содержать поле Switch , которое представляет собой дополнительные инструкции для выполнения определенного действия.
 
@@ -176,7 +178,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 Aspose.Words может вычислять результаты полей для большинства типов полей, но этот метод не обновляет результат поля автоматически. Поскольку результат поля не вычисляется автоматически, ожидается, что вы передадите некоторое строковое значение (или даже пустую строку), которое будет вставлено в результат поля. Это значение останется в результате поля в качестве заполнителя до тех пор, пока поле не будет обновлено. Чтобы обновить результат поля, вы можете позвонить[`Update`](../../../aspose.words.fields/field/update/)на объекте поля return вам или[`UpdateFields`](../../document/updatefields/) для обновления полей во всем документе.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить нумерацию страниц в разделе.
 
@@ -234,7 +236,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

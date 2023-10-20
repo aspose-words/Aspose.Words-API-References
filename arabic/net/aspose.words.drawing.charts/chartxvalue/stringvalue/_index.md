@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.StringValue
-second_title: Aspose.Words لمراجع .NET API
-description: ChartXValue ملكية. الحصول على قيمة السلسلة المخزنة.
+linktitle: StringValue
+articleTitle: StringValue
+second_title: Aspose.Words لـ .NET
+description: ChartXValue StringValue ملكية. الحصول على قيمة السلسلة المخزنة في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.drawing.charts/chartxvalue/stringvalue/
@@ -17,7 +19,5 @@ public string StringValue { get; }
 ### أنظر أيضا
 
 * class [ChartXValue](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

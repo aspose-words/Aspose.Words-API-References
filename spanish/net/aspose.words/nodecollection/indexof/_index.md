@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.IndexOf
-second_title: Referencia de API de Aspose.Words para .NET
-description: NodeCollection método. Devuelve el índice de base cero del nodo especificado.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words para .NET
+description: NodeCollection IndexOf método. Devuelve el índice de base cero del nodo especificado en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words/nodecollection/indexof/
@@ -22,11 +24,11 @@ public int IndexOf(Node node)
 
 El índice de base cero del nodo dentro de la colección, si se encuentra; de lo contrario, -1.
 
-### Observaciones
+## Observaciones
 
 Este método realiza una búsqueda lineal; por lo tanto, el tiempo promedio de ejecución es proporcional a[`Count`](../count/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener el índice de un nodo en una colección.
 
@@ -51,7 +53,5 @@ Assert.AreEqual(4, row.IndexOf(cell));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* espacio de nombres [Aspose.Words](../../nodecollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

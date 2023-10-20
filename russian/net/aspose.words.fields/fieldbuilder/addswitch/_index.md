@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.AddSwitch
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldBuilder метод. Добавляет переключатель поля.
+linktitle: AddSwitch
+articleTitle: AddSwitch
+second_title: Aspose.Words для .NET
+description: FieldBuilder AddSwitch метод. Добавляет переключатель поля на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldbuilder/addswitch/
 ---
-## AddSwitch(string) {#addswitch}
+## AddSwitch(*string*) {#addswitch}
 
 Добавляет переключатель поля.
 
@@ -18,11 +20,11 @@ public FieldBuilder AddSwitch(string switchName)
 | --- | --- | --- |
 | switchName | String | Имя переключателя. |
 
-### Примечания
+## Примечания
 
 Эта перегрузка добавляет флаг (переключатель без аргумента).
 
-### Примеры
+## Примеры
 
 Показывает, как создавать поля с помощью построителя полей, а затем вставлять их в документ.
 
@@ -105,12 +107,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Смотрите также
 
 * class [FieldBuilder](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbuilder/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, string) {#addswitch_3}
+## AddSwitch(*string, string*) {#addswitch_3}
 
 Добавляет переключатель поля.
 
@@ -123,7 +125,7 @@ public FieldBuilder AddSwitch(string switchName, string switchArgument)
 | switchName | String | Имя переключателя. |
 | switchArgument | String | Значение переключателя. |
 
-### Примеры
+## Примеры
 
 Показывает, как создавать поля с помощью построителя полей, а затем вставлять их в документ.
 
@@ -206,12 +208,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Смотрите также
 
 * class [FieldBuilder](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbuilder/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, int) {#addswitch_2}
+## AddSwitch(*string, int*) {#addswitch_2}
 
 Добавляет переключатель поля.
 
@@ -224,7 +226,7 @@ public FieldBuilder AddSwitch(string switchName, int switchArgument)
 | switchName | String | Имя переключателя. |
 | switchArgument | Int32 | Значение переключателя. |
 
-### Примеры
+## Примеры
 
 Показывает, как создавать поля с помощью построителя полей, а затем вставлять их в документ.
 
@@ -307,12 +309,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Смотрите также
 
 * class [FieldBuilder](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbuilder/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, double) {#addswitch_1}
+## AddSwitch(*string, double*) {#addswitch_1}
 
 Добавляет переключатель поля.
 
@@ -325,7 +327,7 @@ public FieldBuilder AddSwitch(string switchName, double switchArgument)
 | switchName | String | Имя переключателя. |
 | switchArgument | Double | Значение переключателя. |
 
-### Примеры
+## Примеры
 
 Показывает, как создавать поля с помощью построителя полей, а затем вставлять их в документ.
 
@@ -408,7 +410,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Смотрите также
 
 * class [FieldBuilder](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbuilder/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

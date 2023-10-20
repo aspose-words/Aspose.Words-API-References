@@ -1,7 +1,9 @@
 ---
 title: Font.Size
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает размер шрифта в пунктах.
+linktitle: Size
+articleTitle: Size
+second_title: Aspose.Words для .NET
+description: Font Size свойство. Получает или задает размер шрифта в пунктах на С#.
 type: docs
 weight: 340
 url: /ru/net/aspose.words/font/size/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/size/
 public double Size { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать фрагмент текста, используя его свойство шрифта.
 
@@ -51,7 +53,5 @@ builder.Write("Hello world!");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

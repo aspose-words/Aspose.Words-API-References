@@ -1,7 +1,9 @@
 ---
 title: Document.OriginalFileName
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает исходное имя файла документа.
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: Aspose.Words для .NET
+description: Document OriginalFileName свойство. Получает исходное имя файла документа на С#.
 type: docs
 weight: 290
 url: /ru/net/aspose.words/document/originalfilename/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/document/originalfilename/
 public string OriginalFileName { get; }
 ```
 
-### Примечания
+## Примечания
 
 Возврат`нулевой` если документ был загружен из потока или создан пустым.
 
-### Примеры
+## Примеры
 
 Показывает, как получить сведения об операции загрузки документа.
 
@@ -60,7 +62,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

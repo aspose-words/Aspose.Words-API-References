@@ -1,9 +1,11 @@
 ---
 title: Stroke.Color
-second_title: Referencia de API de Aspose.Words para .NET
-description: Stroke propiedad. Define el color de un trazo.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words para .NET
+description: Stroke Color propiedad. Define el color de un trazo en C#.
 type: docs
-weight: 30
+weight: 20
 url: /es/net/aspose.words.drawing/stroke/color/
 ---
 ## Stroke.Color property
@@ -14,11 +16,11 @@ Define el color de un trazo.
 public Color Color { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado para un[`Shape`](../../shape/) es Black.
 
-### Ejemplos
+## Ejemplos
 
 Muestra para crear una variedad de formas.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Ver también
 
 * class [Stroke](../)
-* espacio de nombres [Aspose.Words.Drawing](../../stroke/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

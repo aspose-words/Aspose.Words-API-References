@@ -1,7 +1,9 @@
 ---
-title: Enum ImlRenderingMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.ImlRenderingMode opsomming. Gibt an wie InkObjekte InkML in feste Seitenformate gerendert werden.
+title: ImlRenderingMode Enum
+linktitle: ImlRenderingMode
+articleTitle: ImlRenderingMode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.ImlRenderingMode opsomming. Gibt an wie InkObjekte InkML in feste Seitenformate gerendert werden in C#.
 type: docs
 weight: 5250
 url: /de/net/aspose.words.saving/imlrenderingmode/
@@ -21,7 +23,7 @@ public enum ImlRenderingMode
 | Fallback | `0` | Wenn eine Fallback-Form für ein Ink-Objekt (InkML) verfügbar ist, rendert Aspose.Words eine Fallback-Form anstelle von InkML. |
 | InkML | `1` | Aspose.Words ignoriert die Fallback-Form des Ink-Objekts (InkML) und rendert InkML selbst. Dies ist der Standardmodus. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Ink-Objekt gerendert wird.
 
@@ -43,5 +45,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

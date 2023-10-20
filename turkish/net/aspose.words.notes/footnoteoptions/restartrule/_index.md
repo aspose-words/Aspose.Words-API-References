@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.RestartRule
-second_title: Aspose.Words for .NET API Referansı
-description: FootnoteOptions mülk. Otomatik numaralandırmanın ne zaman yeniden başlayacağını belirler.
+linktitle: RestartRule
+articleTitle: RestartRule
+second_title: Aspose.Words for .NET
+description: FootnoteOptions RestartRule mülk. Otomatik numaralandırmanın ne zaman yeniden başlayacağını belirler C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.notes/footnoteoptions/restartrule/
@@ -14,7 +16,7 @@ Otomatik numaralandırmanın ne zaman yeniden başlayacağını belirler.
 public FootnoteNumberingRule RestartRule { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgenin belirli yerlerinde dipnot/sonnot numaralandırmasının nasıl yeniden başlatılacağını gösterir.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * enum [FootnoteNumberingRule](../../footnotenumberingrule/)
 * class [FootnoteOptions](../)
-* ad alanı [Aspose.Words.Notes](../../footnoteoptions/)
+* ad alanı [Aspose.Words.Notes](../../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../../)
-
-

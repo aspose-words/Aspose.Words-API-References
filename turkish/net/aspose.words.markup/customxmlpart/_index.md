@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPart
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.CustomXmlPart sınıf. Özel XML Veri Depolama Bölümünü temsil eder bir paket içindeki özel XML verileri.
+title: CustomXmlPart Class
+linktitle: CustomXmlPart
+articleTitle: CustomXmlPart
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Markup.CustomXmlPart sınıf. Özel XML Veri Depolama Bölümünü temsil eder bir paket içindeki özel XML verileri C#'da.
 type: docs
 weight: 3920
 url: /tr/net/aspose.words.markup/customxmlpart/
@@ -37,11 +39,11 @@ public class CustomXmlPart
 | --- | --- |
 | [Clone](../../aspose.words.markup/customxmlpart/clone/)() | Nesnenin "yeterince derin" bir kopyasını oluşturur. Baytları çoğaltmaz[`Data`](./data/) değer. |
 
-### Notlar
+## Notlar
 
 Bir DOCX veya DOC belgesi bir veya daha fazla Özel XML Veri Depolama bölümü içerebilir. Aspose.Words korur ve , Özel XML Verilerini oluşturmanıza ve çıkarmanıza olanak tanır.[`CustomXmlParts`](../../aspose.words/document/customxmlparts/) Toplamak.
 
-### Örnekler
+## Örnekler
 
 Özel XML verileriyle yapılandırılmış bir belge etiketinin nasıl oluşturulacağını gösterir.
 
@@ -109,5 +111,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * ad alanı [Aspose.Words.Markup](../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../)
-
-

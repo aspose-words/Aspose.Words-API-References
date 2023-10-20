@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Add
-second_title: Aspose.Words för .NET API Referens
-description: DropDownItemCollection metod. Lägger till en sträng i slutet av samlingen.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: DropDownItemCollection Add metod. Lägger till en sträng i slutet av samlingen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/dropdownitemcollection/add/
@@ -22,7 +24,7 @@ public int Add(string value)
 
 Det nollbaserade indexet där det nya elementet infogas.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett kombinationsrutafält och redigerar elementen i dess objektsamling.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### Se även
 
 * class [DropDownItemCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../dropdownitemcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: GraphicsQualityOptions.GraphicsQualityOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: GraphicsQualityOptions constructor. Constructor predeterminado
+title: GraphicsQualityOptions
+linktitle: GraphicsQualityOptions
+articleTitle: GraphicsQualityOptions
+second_title: Aspose.Words para .NET
+description: GraphicsQualityOptions constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/graphicsqualityoptions/graphicsqualityoptions/
@@ -17,7 +19,5 @@ public GraphicsQualityOptions()
 ### Ver también
 
 * class [GraphicsQualityOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

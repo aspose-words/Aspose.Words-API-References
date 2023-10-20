@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Italic
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSavingArgs propriété. Indique si la police actuelle est en italique.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words pour .NET
+description: FontSavingArgs Italic propriété. Indique si la police actuelle est en italique en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.saving/fontsavingargs/italic/
@@ -14,7 +16,7 @@ Indique si la police actuelle est en italique.
 public bool Italic { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Voir également
 
 * class [FontSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../fontsavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

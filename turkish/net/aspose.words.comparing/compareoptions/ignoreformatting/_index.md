@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreFormatting
-second_title: Aspose.Words for .NET API Referansı
-description: CompareOptions mülk. Doğru biçimlendirmenin göz ardı edildiğini gösterir. Varsayılan olarak belge biçimlendirmesi göz ardı edilmez.
+linktitle: IgnoreFormatting
+articleTitle: IgnoreFormatting
+second_title: Aspose.Words for .NET
+description: CompareOptions IgnoreFormatting mülk. Doğru biçimlendirmenin göz ardı edildiğini gösterir. Varsayılan olarak belge biçimlendirmesi göz ardı edilmez C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.comparing/compareoptions/ignoreformatting/
@@ -14,7 +16,7 @@ Doğru, biçimlendirmenin göz ardı edildiğini gösterir. Varsayılan olarak b
 public bool IgnoreFormatting { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Karşılaştırma yaparken belirli belge öğesi türlerinin nasıl filtreleneceğini gösterir.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Ayrıca bakınız
 
 * class [CompareOptions](../)
-* ad alanı [Aspose.Words.Comparing](../../compareoptions/)
+* ad alanı [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * toplantı [Aspose.Words](../../../)
-
-

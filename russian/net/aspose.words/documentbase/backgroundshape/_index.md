@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.BackgroundShape
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBase свойство. Получает или задает форму фона документа. Возможнонулевой .
+linktitle: BackgroundShape
+articleTitle: BackgroundShape
+second_title: Aspose.Words для .NET
+description: DocumentBase BackgroundShape свойство. Получает или задает форму фона документа. Возможнонулевой  на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/documentbase/backgroundshape/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/documentbase/backgroundshape/
 public Shape BackgroundShape { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Microsoft Word допускает только форму, имеющую[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) свойство Equal дляRectangle для использования в качестве фоновой фигуры для документа.
 
@@ -22,7 +24,7 @@ Microsoft Word поддерживает только свойства залив
 
 Установка для этого свойства значения, отличного от NULL, также установит[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) к`истинный`.
 
-### Примеры
+## Примеры
 
 Показывает, как установить форму фона для каждой страницы документа.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf", saveOptions);
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBase](../)
-* пространство имен [Aspose.Words](../../documentbase/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

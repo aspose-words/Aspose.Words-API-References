@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HorizontalDistanceFromText
-second_title: Справочник по API Aspose.Words для .NET
-description: FrameFormat свойство. Получает горизонтальное расстояние между рамкой и окружающим текстом в пунктах.
+linktitle: HorizontalDistanceFromText
+articleTitle: HorizontalDistanceFromText
+second_title: Aspose.Words для .NET
+description: FrameFormat HorizontalDistanceFromText свойство. Получает горизонтальное расстояние между рамкой и окружающим текстом в пунктах на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/frameformat/horizontaldistancefromtext/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/frameformat/horizontaldistancefromtext/
 public double HorizontalDistanceFromText { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить информацию о свойствах форматирования абзацев, являющихся фреймами.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Смотрите также
 
 * class [FrameFormat](../)
-* пространство имен [Aspose.Words](../../frameformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

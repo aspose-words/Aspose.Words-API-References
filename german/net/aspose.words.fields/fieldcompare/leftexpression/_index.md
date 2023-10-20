@@ -1,7 +1,9 @@
 ---
 title: FieldCompare.LeftExpression
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCompare eigendom. Ruft den linken Teil des Vergleichsausdrucks ab oder legt diesen fest.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words für .NET
+description: FieldCompare LeftExpression eigendom. Ruft den linken Teil des Vergleichsausdrucks ab oder legt diesen fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldcompare/leftexpression/
@@ -14,7 +16,7 @@ Ruft den linken Teil des Vergleichsausdrucks ab oder legt diesen fest.
 public string LeftExpression { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Ausdrücke mithilfe eines COMPARE-Felds verglichen werden.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.COMPARE.docx");
 ### Siehe auch
 
 * class [FieldCompare](../)
-* namensraum [Aspose.Words.Fields](../../fieldcompare/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

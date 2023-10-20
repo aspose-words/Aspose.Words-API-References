@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Reporting
-second_title: Aspose.Words per .NET API Reference
-description: Questo spazio dei nomi contiene le classi del nuovo motore di reporting di Aspose.Words che supporta modelli di report contrassegnati con un linguaggio basato sulla sintassi del metodo LINQ.
+linktitle: Aspose.Words.Reporting
+articleTitle: Aspose.Words.Reporting
+second_title: Aspose.Words per .NET
+description: Questo spazio dei nomi contiene le classi del nuovo motore di reporting di Aspose.Words che supporta modelli di report contrassegnati con un linguaggio basato sulla sintassi del metodo LINQ in C#.
 type: docs
 weight: 220
 url: /it/net/aspose.words.reporting/
@@ -26,5 +28,3 @@ Questo spazio dei nomi contiene le classi del nuovo motore di reporting di Aspos
 | --- | --- |
 | [JsonSimpleValueParseMode](./jsonsimplevalueparsemode/) | Specifica una modalità per l'analisi dei valori semplici JSON (null, booleano, numero, numero intero e stringa) durante il caricamento di JSON. Questa modalità non influisce sull'analisi dei valori di data e ora. |
 | [ReportBuildOptions](./reportbuildoptions/) | Specifica le opzioni che controllano il comportamento di[`ReportingEngine`](../aspose.words.reporting/reportingengine/) durante la creazione di un rapporto. |
-
-

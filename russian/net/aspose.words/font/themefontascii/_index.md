@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontAscii
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает шрифт темы используемый для латинского текста символы с кодами символов от 0 нуля до 127 в применяемой схеме шрифтов связанной с этимFont объект.
+linktitle: ThemeFontAscii
+articleTitle: ThemeFontAscii
+second_title: Aspose.Words для .NET
+description: Font ThemeFontAscii свойство. Получает или задает шрифт темы используемый для латинского текста символы с кодами символов от 0 нуля до 127 в применяемой схеме шрифтов связанной с этимFont объект на С#.
 type: docs
 weight: 480
 url: /ru/net/aspose.words/font/themefontascii/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/themefontascii/
 public ThemeFont ThemeFontAscii { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со шрифтами и цветами темы.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

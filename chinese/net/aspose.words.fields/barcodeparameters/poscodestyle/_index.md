@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.PosCodeStyle
-second_title: Aspose.Words for .NET API 参考
-description: BarcodeParameters 财产. 销售点条形码的样式条形码类型 UPCAUPCEEAN13EAN8有效值不区分大小写为 STDSUP2SUP5CASE.
+linktitle: PosCodeStyle
+articleTitle: PosCodeStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: BarcodeParameters PosCodeStyle 财产. 销售点条形码的样式条形码类型 UPCAUPCEEAN13EAN8有效值不区分大小写为 STDSUP2SUP5CASE 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.fields/barcodeparameters/poscodestyle/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/barcodeparameters/poscodestyle/
 public string PosCodeStyle { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用条形码生成器。
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### 也可以看看
 
 * class [BarcodeParameters](../)
-* 命名空间 [Aspose.Words.Fields](../../barcodeparameters/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

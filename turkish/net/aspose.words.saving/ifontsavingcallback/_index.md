@@ -1,7 +1,9 @@
 ---
-title: Interface IFontSavingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.IFontSavingCallback arayüz. Bildirim almak ve nasıl yapılacağını kontrol etmek istiyorsanız bu arayüzü uygulayın Aspose.Words bir belgeyi HTML formatına dışa aktarırken yazı tiplerini kaydeder.
+title: IFontSavingCallback Interface
+linktitle: IFontSavingCallback
+articleTitle: IFontSavingCallback
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.IFontSavingCallback arayüz. Bildirim almak ve nasıl yapılacağını kontrol etmek istiyorsanız bu arayüzü uygulayın Aspose.Words bir belgeyi HTML formatına dışa aktarırken yazı tiplerini kaydeder C#'da.
 type: docs
 weight: 5160
 url: /tr/net/aspose.words.saving/ifontsavingcallback/
@@ -18,9 +20,9 @@ public interface IFontSavingCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(FontSavingArgs) | Aspose.Words bir yazı tipi kaynağını kaydetmek üzereyken çağrılır. |
+| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(*[FontSavingArgs](../fontsavingargs/)*) | Aspose.Words bir yazı tipi kaynağını kaydetmek üzereyken çağrılır. |
 
-### Örnekler
+## Örnekler
 
 HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nasıl tanımlanacağını gösterir.
 
@@ -81,5 +83,3 @@ public class HandleFontSaving : IFontSavingCallback
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

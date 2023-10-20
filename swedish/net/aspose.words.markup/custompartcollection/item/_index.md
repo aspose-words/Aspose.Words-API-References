@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: CustomPartCollection fast egendom. Hämtar eller ställer in ett objekt på angivet index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: CustomPartCollection Item fast egendom. Hämtar eller ställer in ett objekt på angivet index i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/custompartcollection/item/
@@ -18,7 +20,7 @@ public CustomPart this[int index] { get; set; }
 | --- | --- |
 | index | Nollbaserat index för objektet. |
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPart](../../custompart/)
 * class [CustomPartCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../custompartcollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

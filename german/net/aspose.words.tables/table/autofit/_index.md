@@ -1,9 +1,11 @@
 ---
 title: Table.AutoFit
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table methode. Ändert die Größe der Tabelle und der Zellen entsprechend dem angegebenen automatischen Anpassungsverhalten.
+linktitle: AutoFit
+articleTitle: AutoFit
+second_title: Aspose.Words für .NET
+description: Table AutoFit methode. Ändert die Größe der Tabelle und der Zellen entsprechend dem angegebenen automatischen Anpassungsverhalten in C#.
 type: docs
-weight: 380
+weight: 360
 url: /de/net/aspose.words.tables/table/autofit/
 ---
 ## Table.AutoFit method
@@ -18,11 +20,11 @@ public void AutoFit(AutoFitBehavior behavior)
 | --- | --- | --- |
 | behavior | AutoFitBehavior | Gibt an, wie die Tabelle automatisch angepasst wird. |
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode ahmt die Befehle nach, die im Menü „Automatisch anpassen“ für eine Tabelle in Microsoft Word verfügbar sind. Die verfügbaren Befehle sind „Automatisch an Inhalt anpassen“, „Automatisch an Fenster anpassen“ und „Feste Spaltenbreite“. In Microsoft Word legen diese Befehle relevante Tabelleneigenschaften fest und aktualisieren dann das Tabellenlayout und Aspose.Words erledigt das Gleiche für Sie.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine neue Tabelle erstellt und dabei einen Stil anwendet.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [AutoFitBehavior](../../autofitbehavior/)
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

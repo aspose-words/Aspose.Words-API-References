@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.DefaultBookmarksOutlineLevel
-second_title: Referencia de API de Aspose.Words para .NET
-description: OutlineOptions propiedad. Especifica el nivel predeterminado en el esquema del documento en el que se muestran los marcadores de Word.
+linktitle: DefaultBookmarksOutlineLevel
+articleTitle: DefaultBookmarksOutlineLevel
+second_title: Aspose.Words para .NET
+description: OutlineOptions DefaultBookmarksOutlineLevel propiedad. Especifica el nivel predeterminado en el esquema del documento en el que se muestran los marcadores de Word en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/
@@ -14,7 +16,7 @@ Especifica el nivel predeterminado en el esquema del documento en el que se mues
 public int DefaultBookmarksOutlineLevel { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El nivel de marcadores individuales se puede especificar usando[`BookmarksOutlineLevels`](../bookmarksoutlinelevels/) propiedad.
 
@@ -22,7 +24,7 @@ Especifique 0 y los marcadores de Word no se mostrarán en el esquema del docume
 
 El valor predeterminado es 0. El rango válido es de 0 a 9.
 
-### Ejemplos
+## Ejemplos
 
 Se muestra cómo procesar marcadores en encabezados/pies de página en un documento que estamos renderizando a PDF.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 ### Ver también
 
 * class [OutlineOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../outlineoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

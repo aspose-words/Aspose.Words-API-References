@@ -1,7 +1,9 @@
 ---
 title: Node.PreviousPreOrder
-second_title: Aspose.Words för .NET API Referens
-description: Node metod. Hämtar föregående nod enligt algoritmen för förbeställningsträdet.
+linktitle: PreviousPreOrder
+articleTitle: PreviousPreOrder
+second_title: Aspose.Words för .NET
+description: Node PreviousPreOrder metod. Hämtar föregående nod enligt algoritmen för förbeställningsträdet i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words/node/previouspreorder/
@@ -22,7 +24,7 @@ public Node PreviousPreOrder(Node rootNode)
 
 Föregående nod i förbeställning. Null om nått*rootNode*.
 
-### Exempel
+## Exempel
 
 Visar hur man går igenom dokumentets nodträd med förbeställnings-genomgångsalgoritmen och tar bort alla former som påträffas med en bild.
 
@@ -53,7 +55,5 @@ Assert.AreEqual(0,
 ### Se även
 
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

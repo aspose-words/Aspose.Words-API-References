@@ -1,7 +1,9 @@
 ---
 title: Document.Variables
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 返回添加到文档或模板的变量集合
+linktitle: Variables
+articleTitle: Variables
+second_title: 用于 .NET 的 Aspose.Words
+description: Document Variables 财产. 返回添加到文档或模板的变量集合 在 C#.
 type: docs
 weight: 440
 url: /zh/net/aspose.words/document/variables/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/variables/
 public VariableCollection Variables { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档的变量集合。
 
@@ -82,7 +84,5 @@ Assert.That(variables, Is.Empty);
 
 * class [VariableCollection](../../variablecollection/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

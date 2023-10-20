@@ -1,7 +1,9 @@
 ---
 title: Border.Color
-second_title: Aspose.Words for .NET API 参考
-description: Border 财产. 获取或设置边框颜色
+linktitle: Color
+articleTitle: Color
+second_title: 用于 .NET 的 Aspose.Words
+description: Border Color 财产. 获取或设置边框颜色 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/border/color/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/border/color/
 public Color Color { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将边框包围的字符串插入到文档中。
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ### 也可以看看
 
 * class [Border](../)
-* 命名空间 [Aspose.Words](../../border/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

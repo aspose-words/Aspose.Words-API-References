@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdateCultureSource
-second_title: Aspose.Words for .NET API 参考
-description: FieldOptions 财产. 指定使用什么区域性来格式化字段结果
+linktitle: FieldUpdateCultureSource
+articleTitle: FieldUpdateCultureSource
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldOptions FieldUpdateCultureSource 财产. 指定使用什么区域性来格式化字段结果 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/
 public FieldUpdateCultureSource FieldUpdateCultureSource { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认情况下，使用当前线程的区域性。
 
 该设置仅影响带有 \\@ 格式开关的日期/时间字段。
 
-### 例子
+## 例子
 
 演示如何在字段更新或邮件合并期间指定用于日期格式设置的区域性来源。
 
@@ -56,7 +58,5 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * enum [FieldUpdateCultureSource](../../fieldupdateculturesource/)
 * class [FieldOptions](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldoptions/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

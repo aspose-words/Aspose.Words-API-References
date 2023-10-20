@@ -1,7 +1,9 @@
 ---
 title: Story.StoryType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Story propiedad. Obtiene el tipo de esta historia.
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words para .NET
+description: Story StoryType propiedad. Obtiene el tipo de esta historia en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/story/storytype/
@@ -14,7 +16,7 @@ Obtiene el tipo de esta historia.
 public StoryType StoryType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar todas las formas de un nodo.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 
 * enum [StoryType](../../storytype/)
 * class [Story](../)
-* espacio de nombres [Aspose.Words](../../story/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

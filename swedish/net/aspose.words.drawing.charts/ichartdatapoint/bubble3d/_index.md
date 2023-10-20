@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Bubble3D
-second_title: Aspose.Words för .NET API Referens
-description: IChartDataPoint fast egendom. Anger om bubblorna i bubbeldiagrammet ska ha en 3Deffekt på dem.
+linktitle: Bubble3D
+articleTitle: Bubble3D
+second_title: Aspose.Words för .NET
+description: IChartDataPoint Bubble3D fast egendom. Anger om bubblorna i bubbeldiagrammet ska ha en 3Deffekt på dem i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/ichartdatapoint/bubble3d/
@@ -14,7 +16,7 @@ Anger om bubblorna i bubbeldiagrammet ska ha en 3D-effekt på dem.
 public bool Bubble3D { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder 3D-effekter med bubbeldiagram.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 ### Se även
 
 * interface [IChartDataPoint](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

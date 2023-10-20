@@ -1,7 +1,9 @@
 ---
 title: ListFormat.List
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListFormat eigendom. Ruft die Liste ab zu der dieser Absatz gehört oder legt sie fest.
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words für .NET
+description: ListFormat List eigendom. Ruft die Liste ab zu der dieser Absatz gehört oder legt sie fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.lists/listformat/list/
@@ -14,7 +16,7 @@ Ruft die Liste ab, zu der dieser Absatz gehört, oder legt sie fest.
 public List List { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Liste, die dieser Eigenschaft zugewiesen wird, muss zum aktuellen Dokument gehören.
 
@@ -22,7 +24,7 @@ Die Liste, die dieser Eigenschaft zugewiesen wird, darf keine Listenstildefiniti
 
 Diese Eigenschaft festlegen auf`Null` Entfernt Aufzählungszeichen und Nummerierungen aus „paragraph “ und setzt die Nummer der Listenebene auf Null. Diese Eigenschaft festlegen auf`Null` entspricht dem Aufruf[`RemoveNumbers`](../removenumbers/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Liste in einer anderen Liste verschachtelt wird.
 
@@ -125,7 +127,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * class [List](../../list/)
 * class [ListFormat](../)
-* namensraum [Aspose.Words.Lists](../../listformat/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

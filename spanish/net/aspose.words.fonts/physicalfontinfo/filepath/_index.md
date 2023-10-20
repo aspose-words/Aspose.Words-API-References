@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.FilePath
-second_title: Referencia de API de Aspose.Words para .NET
-description: PhysicalFontInfo propiedad. Ruta al archivo de fuente si corresponde.
+linktitle: FilePath
+articleTitle: FilePath
+second_title: Aspose.Words para .NET
+description: PhysicalFontInfo FilePath propiedad. Ruta al archivo de fuente si corresponde en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fonts/physicalfontinfo/filepath/
@@ -14,7 +16,7 @@ Ruta al archivo de fuente, si corresponde.
 public string FilePath { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo enumerar las fuentes disponibles.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Ver también
 
 * class [PhysicalFontInfo](../)
-* espacio de nombres [Aspose.Words.Fonts](../../physicalfontinfo/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

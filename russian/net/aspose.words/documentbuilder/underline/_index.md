@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Underline
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Получает/устанавливает тип подчеркивания для текущего шрифта.
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words для .NET
+description: DocumentBuilder Underline свойство. Получает/устанавливает тип подчеркивания для текущего шрифта на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words/documentbuilder/underline/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/documentbuilder/underline/
 public Underline Underline { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать текст, вставленный построителем документов.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertUnderline.docx");
 
 * enum [Underline](../../underline/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Stroke.Visible
-second_title: Aspose.Words für .NET-API-Referenz
-description: Stroke eigendom. Ruft ein Flag ab oder setzt es das angibt ob der Strich sichtbar ist.
+linktitle: Visible
+articleTitle: Visible
+second_title: Aspose.Words für .NET
+description: Stroke Visible eigendom. Ruft ein Flag ab oder setzt es das angibt ob der Strich sichtbar ist in C#.
 type: docs
-weight: 210
+weight: 200
 url: /de/net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
@@ -14,11 +16,11 @@ Ruft ein Flag ab oder setzt es, das angibt, ob der Strich sichtbar ist.
 public bool Visible { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert für a[`Shape`](../../shape/) Ist`WAHR` .
 
-### Beispiele
+## Beispiele
 
 Zeigen Sie, wie Sie die Markierungsformatierung festlegen.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Siehe auch
 
 * class [Stroke](../)
-* namensraum [Aspose.Words.Drawing](../../stroke/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

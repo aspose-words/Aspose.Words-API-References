@@ -1,7 +1,9 @@
 ---
 title: ImageWatermarkOptions.IsWashout
-second_title: Aspose.Words per .NET API Reference
-description: ImageWatermarkOptions proprietà. Ottiene o imposta un valore booleano responsabile delleffetto sbiadito della filigrana. Il valore predefinito èVERO .
+linktitle: IsWashout
+articleTitle: IsWashout
+second_title: Aspose.Words per .NET
+description: ImageWatermarkOptions IsWashout proprietà. Ottiene o imposta un valore booleano responsabile delleffetto sbiadito della filigrana. Il valore predefinito èVERO  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/imagewatermarkoptions/iswashout/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore booleano responsabile dell'effetto sbiadito della fi
 public bool IsWashout { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare una filigrana da un'immagine nel file system locale.
 
@@ -42,7 +44,5 @@ Document doc = new Document();
 ### Guarda anche
 
 * class [ImageWatermarkOptions](../)
-* spazio dei nomi [Aspose.Words](../../imagewatermarkoptions/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

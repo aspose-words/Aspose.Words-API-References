@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.Groups
-second_title: Referencia de API de Aspose.Words para .NET
-description: RevisionCollection propiedad. Colección de grupos de revisión.
+linktitle: Groups
+articleTitle: Groups
+second_title: Aspose.Words para .NET
+description: RevisionCollection Groups propiedad. Colección de grupos de revisión en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/revisioncollection/groups/
@@ -14,7 +16,7 @@ Colección de grupos de revisión.
 public RevisionGroupCollection Groups { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con la colección de revisiones de un documento.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [RevisionGroupCollection](../../revisiongroupcollection/)
 * class [RevisionCollection](../)
-* espacio de nombres [Aspose.Words](../../revisioncollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Border.Color
-second_title: Aspose.Words för .NET API Referens
-description: Border fast egendom. Hämtar eller ställer in kantfärgen.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words för .NET
+description: Border Color fast egendom. Hämtar eller ställer in kantfärgen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/border/color/
@@ -14,7 +16,7 @@ Hämtar eller ställer in kantfärgen.
 public Color Color { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en sträng omgiven av en kant i ett dokument.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ### Se även
 
 * class [Border](../)
-* namnutrymme [Aspose.Words](../../border/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

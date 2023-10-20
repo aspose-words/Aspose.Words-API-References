@@ -1,7 +1,9 @@
 ---
-title: Class SaveOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.SaveOptions classe. Il sagit dune classe de base abstraite pour les classes qui permettent à lutilisateur de spécifier des options supplémentaires lors de lenregistrement dun document dans un format particulier.
+title: SaveOptions Class
+linktitle: SaveOptions
+articleTitle: SaveOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.SaveOptions classe. Il sagit dune classe de base abstraite pour les classes qui permettent à lutilisateur de spécifier des options supplémentaires lors de lenregistrement dun document dans un format particulier en C#.
 type: docs
 weight: 5580
 url: /fr/net/aspose.words.saving/saveoptions/
@@ -22,7 +24,7 @@ public abstract class SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Obtient ou définit une valeur booléenne indiquant s'il faut autoriser l'incorporation de polices avec des contours PostScript lors de l'incorporation de polices TrueType dans un document lors de son enregistrement. La valeur par défaut est`FAUX` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Obtient ou définit le fuseau horaire local personnalisé utilisé pour les champs de date/heure. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Obtient ou définit le chemin d'accès au modèle par défaut (y compris le nom de fichier). La valeur par défaut de cette propriété est **chaîne vide** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Obtient ou définit le chemin d'accès au modèle par défaut (y compris le nom de fichier). La valeur par défaut de cette propriété est**chaîne vide** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Obtient ou définit une valeur déterminant la manière dont les effets 3D sont rendus. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Obtient ou définit une valeur déterminant la façon dont les effets DrawingML sont rendus. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Obtient ou définit une valeur déterminant la façon dont les formes DrawingML sont rendues. |
@@ -44,14 +46,14 @@ public abstract class SaveOptions
 
 | Nom | La description |
 | --- | --- |
-| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions)(SaveFormat) | Crée un objet d'options de sauvegarde d'une classe adaptée au format de sauvegarde spécifié. |
-| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions_1)(string) | Crée un objet d'options de sauvegarde d'une classe adaptée à l'extension de fichier spécifiée dans le nom de fichier donné. |
+| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions)(*[SaveFormat](../../aspose.words/saveformat/)*) | Crée un objet d'options de sauvegarde d'une classe adaptée au format de sauvegarde spécifié. |
+| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions_1)(*string*) | Crée un objet d'options de sauvegarde d'une classe adaptée à l'extension de fichier spécifiée dans le nom de fichier donné. |
 
-### Remarques
+## Remarques
 
 Une instance de`SaveOptions` la classe ou toute classe dérivée est transmise au flux[`Save`](../../aspose.words/document/save/) ou chaîne[`Save`](../../aspose.words/document/save/) surcharges permettant à l'utilisateur de définir des options personnalisées lors de l'enregistrement d'un document.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un encodage spécifique lors de l’enregistrement d’un document au format .epub.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

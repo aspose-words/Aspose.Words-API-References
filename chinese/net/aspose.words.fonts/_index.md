@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Fonts
-second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words.Fonts命名空间提供类和枚举来访问文档中使用的 about 字体信息
+linktitle: Aspose.Words.Fonts
+articleTitle: Aspose.Words.Fonts
+second_title: 用于 .NET 的 Aspose.Words
+description: 这Aspose.Words.Fonts命名空间提供类和枚举来访问文档中使用的 about 字体信息 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.fonts/
 ---
-这 **Aspose.Words.Fonts**命名空间提供类和枚举来访问文档中使用的 about 字体信息。
+这**Aspose.Words.Fonts**命名空间提供类和枚举来访问文档中使用的 about 字体信息。
 
 ## 课程
 
@@ -39,5 +41,3 @@ url: /zh/net/aspose.words.fonts/
 | [FontFamily](./fontfamily/) | 代表字体系列。 |
 | [FontPitch](./fontpitch/) | 表示字体间距。 |
 | [FontSourceType](./fontsourcetype/) | 指定字体源的类型。 |
-
-

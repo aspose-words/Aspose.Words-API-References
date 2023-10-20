@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.ApplyBreakingRules
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Verwenden Sie die alten äthiopischen und amharischen Regeln zum Zeilenumbruch.
+linktitle: ApplyBreakingRules
+articleTitle: ApplyBreakingRules
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions ApplyBreakingRules eigendom. Verwenden Sie die alten äthiopischen und amharischen Regeln zum Zeilenumbruch in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.settings/compatibilityoptions/applybreakingrules/
@@ -17,7 +19,5 @@ public bool ApplyBreakingRules { get; set; }
 ### Siehe auch
 
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

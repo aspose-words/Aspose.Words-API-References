@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.IsValid
-second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignature ملكية. إرجاعحقيقي إذا كان هذا التوقيع الرقمي صالحًا ولم يتم العبث بالمستند.
+linktitle: IsValid
+articleTitle: IsValid
+second_title: Aspose.Words لـ .NET
+description: DigitalSignature IsValid ملكية. إرجاعحقيقي إذا كان هذا التوقيع الرقمي صالحًا ولم يتم العبث بالمستند في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
 public bool IsValid { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من صحة وعرض المعلومات حول كل توقيع في المستند.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### أنظر أيضا
 
 * class [DigitalSignature](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

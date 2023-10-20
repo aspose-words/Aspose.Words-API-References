@@ -1,9 +1,11 @@
 ---
 title: Document.Cleanup
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Bereinigt nicht verwendete Stile und Listen aus dem Dokument.
+linktitle: Cleanup
+articleTitle: Cleanup
+second_title: Aspose.Words für .NET
+description: Document Cleanup methode. Bereinigt nicht verwendete Stile und Listen aus dem Dokument in C#.
 type: docs
-weight: 560
+weight: 540
 url: /de/net/aspose.words/document/cleanup/
 ---
 ## Cleanup() {#cleanup}
@@ -14,7 +16,7 @@ Bereinigt nicht verwendete Stile und Listen aus dem Dokument.
 public void Cleanup()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie nicht verwendete benutzerdefinierte Stile aus einem Dokument entfernt werden.
 
@@ -56,12 +58,12 @@ Assert.AreEqual(4, doc.Styles.Count);
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Cleanup(CleanupOptions) {#cleanup_1}
+## Cleanup(*[CleanupOptions](../../cleanupoptions/)*) {#cleanup_1}
 
 Bereinigt je nach Angabe nicht verwendete Stile und Listen aus dem Dokument[`CleanupOptions`](../../cleanupoptions/) .
 
@@ -69,7 +71,7 @@ Bereinigt je nach Angabe nicht verwendete Stile und Listen aus dem Dokument[`Cle
 public void Cleanup(CleanupOptions options)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle nicht verwendeten benutzerdefinierten Stile aus einem Dokument entfernt werden.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 
 * class [CleanupOptions](../../cleanupoptions/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

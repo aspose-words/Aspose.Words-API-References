@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreDmlUniqueId
-second_title: Aspose.Words لمراجع .NET API
-description: CompareOptions ملكية. يحدد ما إذا كان سيتم تجاهل الاختلاف في المعرف الفريد لـ DrawML. القيمة الافتراضية هيخطأ شنيع .
+linktitle: IgnoreDmlUniqueId
+articleTitle: IgnoreDmlUniqueId
+second_title: Aspose.Words لـ .NET
+description: CompareOptions IgnoreDmlUniqueId ملكية. يحدد ما إذا كان سيتم تجاهل الاختلاف في المعرف الفريد لـ DrawML. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.comparing/compareoptions/ignoredmluniqueid/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.comparing/compareoptions/ignoredmluniqueid/
 public bool IgnoreDmlUniqueId { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية مقارنة المستندات التي تتجاهل معرف DML الفريد.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(isIgnoreDmlUniqueId ? 0 : 2, docA.Revisions.Count);
 ### أنظر أيضا
 
 * class [CompareOptions](../)
-* مساحة الاسم [Aspose.Words.Comparing](../../compareoptions/)
+* مساحة الاسم [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * المجسم [Aspose.Words](../../../)
-
-

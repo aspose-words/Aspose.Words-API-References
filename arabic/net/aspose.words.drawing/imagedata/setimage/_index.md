@@ -1,12 +1,14 @@
 ---
 title: ImageData.SetImage
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData طريقة. يضبط الصورة التي يعرضها الشكل.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words لـ .NET
+description: ImageData SetImage طريقة. يضبط الصورة التي يعرضها الشكل في C#.
 type: docs
-weight: 210
+weight: 200
 url: /ar/net/aspose.words.drawing/imagedata/setimage/
 ---
-## SetImage(Image) {#setimage}
+## SetImage(*Image*) {#setimage}
 
 يضبط الصورة التي يعرضها الشكل.
 
@@ -18,7 +20,7 @@ public void SetImage(Image image)
 | --- | --- | --- |
 | image | Image | كائن الصورة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض الصور من نظام الملفات المحلي في المستند.
 
@@ -53,12 +55,12 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Stream) {#setimage_1}
+## SetImage(*Stream*) {#setimage_1}
 
 يضبط الصورة التي يعرضها الشكل.
 
@@ -70,7 +72,7 @@ public void SetImage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | الدفق الذي يحتوي على الصورة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض الصور من نظام الملفات المحلي في المستند.
 
@@ -105,12 +107,12 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## SetImage(string) {#setimage_2}
+## SetImage(*string*) {#setimage_2}
 
 يضبط الصورة التي يعرضها الشكل.
 
@@ -122,7 +124,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | ملف الصورة. يمكن أن يكون اسم ملف أو عنوان URL. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة مرتبطة في مستند.
 
@@ -164,7 +166,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

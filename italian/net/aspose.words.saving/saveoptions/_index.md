@@ -1,7 +1,9 @@
 ---
-title: Class SaveOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.SaveOptions classe. Questa è una classe base astratta per classi che consentono allutente di specificare opzioni aggiuntive quando salva un documento in un formato particolare.
+title: SaveOptions Class
+linktitle: SaveOptions
+articleTitle: SaveOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.SaveOptions classe. Questa è una classe base astratta per classi che consentono allutente di specificare opzioni aggiuntive quando salva un documento in un formato particolare in C#.
 type: docs
 weight: 5580
 url: /it/net/aspose.words.saving/saveoptions/
@@ -22,7 +24,7 @@ public abstract class SaveOptions
 | --- | --- |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Ottiene o imposta un valore booleano che indica se consentire l'incorporamento di caratteri con contorni PostScript quando si incorporano caratteri TrueType in un documento al momento del salvataggio. Il valore predefinito è`falso` . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Ottiene o imposta il fuso orario locale personalizzato utilizzato per i campi data/ora. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ottiene o imposta il percorso del modello predefinito (incluso il nome file). Il valore predefinito per questa proprietà è **stringa vuota** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ottiene o imposta il percorso del modello predefinito (incluso il nome file). Il valore predefinito per questa proprietà è**stringa vuota** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering degli effetti 3D. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering degli effetti DrawingML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering delle forme DrawingML. |
@@ -44,14 +46,14 @@ public abstract class SaveOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions)(SaveFormat) | Crea un oggetto opzioni di salvataggio di una classe adatta al formato di salvataggio specificato. |
-| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions_1)(string) | Crea un oggetto opzioni di salvataggio di una classe adatta all'estensione file specificata nel nome file specificato. |
+| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions)(*[SaveFormat](../../aspose.words/saveformat/)*) | Crea un oggetto opzioni di salvataggio di una classe adatta al formato di salvataggio specificato. |
+| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions/#createsaveoptions_1)(*string*) | Crea un oggetto opzioni di salvataggio di una classe adatta all'estensione file specificata nel nome file specificato. |
 
-### Osservazioni
+## Osservazioni
 
 Un'istanza di`SaveOptions` class o qualsiasi classe derivata viene passata allo stream[`Save`](../../aspose.words/document/save/) o stringa[`Save`](../../aspose.words/document/save/) sovraccarichi per consentire all'utente di definire opzioni personalizzate durante il salvataggio di un documento.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare una codifica specifica quando si salva un documento in .epub.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

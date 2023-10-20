@@ -1,7 +1,9 @@
 ---
 title: FieldDatabaseDataRow.Values
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDatabaseDataRow mülk. Bu satıra ait değerleri alır.
+linktitle: Values
+articleTitle: Values
+second_title: Aspose.Words for .NET
+description: FieldDatabaseDataRow Values mülk. Bu satıra ait değerleri alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fielddatabasedatarow/values/
@@ -17,7 +19,5 @@ public string[] Values { get; }
 ### Ayrıca bakınız
 
 * class [FieldDatabaseDataRow](../)
-* ad alanı [Aspose.Words.Fields](../../fielddatabasedatarow/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

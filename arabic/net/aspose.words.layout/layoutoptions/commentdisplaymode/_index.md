@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.CommentDisplayMode
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutOptions ملكية. الحصول على أو تعيين الطريقة التي يتم بها عرض التعليقات. القيمة الافتراضية هيShowInBalloons .
+linktitle: CommentDisplayMode
+articleTitle: CommentDisplayMode
+second_title: Aspose.Words لـ .NET
+description: LayoutOptions CommentDisplayMode ملكية. الحصول على أو تعيين الطريقة التي يتم بها عرض التعليقات. القيمة الافتراضية هيShowInBalloons  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.layout/layoutoptions/commentdisplaymode/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.layout/layoutoptions/commentdisplaymode/
 public CommentDisplayMode CommentDisplayMode { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أنه لا يتم عرض المراجعات في بالوناتShowInAnnotations .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إظهار التعليقات عند حفظ مستند بتنسيق معروض.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Document.ShowCommentsInBalloons.pdf");
 
 * enum [CommentDisplayMode](../../commentdisplaymode/)
 * class [LayoutOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

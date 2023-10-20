@@ -1,7 +1,9 @@
 ---
-title: Class FieldTC
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldTC classe. Implémente le champ TC.
+title: FieldTC Class
+linktitle: FieldTC
+articleTitle: FieldTC
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldTC classe. Implémente le champ TC en C#.
 type: docs
 weight: 2480
 url: /fr/net/aspose.words.fields/fieldtc/
@@ -46,17 +48,17 @@ public sealed class FieldTC : Field
 | Nom | La description |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
-### Remarques
+## Remarques
 
 Définit le texte et le numéro de page d'une entrée de table des matières (y compris une table des figures), which est utilisé par un champ TOC.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ TOC et filtrer les champs TC qui finissent comme entrées.
 
@@ -110,5 +112,3 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 * class [Field](../field/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

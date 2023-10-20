@@ -1,7 +1,9 @@
 ---
-title: Class FileFormatInfo
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.FileFormatInfo 班级. 包含返回的数据FileFormatUtil文档格式检测方法.
+title: FileFormatInfo Class
+linktitle: FileFormatInfo
+articleTitle: FileFormatInfo
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.FileFormatInfo 班级. 包含返回的数据FileFormatUtil文档格式检测方法 在 C#.
 type: docs
 weight: 2810
 url: /zh/net/aspose.words/fileformatinfo/
@@ -25,11 +27,11 @@ public class FileFormatInfo
 | [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | 返回`真的`如果文档已加密并且需要密码才能打开。 |
 | [LoadFormat](../../aspose.words/fileformatinfo/loadformat/) { get; } | 获取检测到的文档格式。 |
 
-### 评论
+## 评论
 
 您不直接创建此类的实例。此类的对象由 返回[`DetectFileFormat`](../fileformatutil/detectfileformat/)方法。
 
-### 例子
+## 例子
 
 演示如何使用 FileFormatUtil 类来检测文档格式和加密。
 
@@ -76,5 +78,3 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

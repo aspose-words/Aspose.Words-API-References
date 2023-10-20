@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.Resolution
-second_title: Aspose.Words for .NET API Referansı
-description: DownsampleOptions mülk. Görüntülerin altörneklenmesi gereken çözünürlüğü inç başına piksel cinsinden belirtir.
+linktitle: Resolution
+articleTitle: Resolution
+second_title: Aspose.Words for .NET
+description: DownsampleOptions Resolution mülk. Görüntülerin altörneklenmesi gereken çözünürlüğü inç başına piksel cinsinden belirtir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/downsampleoptions/resolution/
@@ -14,11 +16,11 @@ Görüntülerin altörneklenmesi gereken çözünürlüğü inç başına piksel
 public int Resolution { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 220 ppi'dir.
 
-### Örnekler
+## Örnekler
 
 PDF belgesindeki görüntülerin çözünürlüğünün nasıl değiştirileceğini gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### Ayrıca bakınız
 
 * class [DownsampleOptions](../)
-* ad alanı [Aspose.Words.Saving](../../downsampleoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

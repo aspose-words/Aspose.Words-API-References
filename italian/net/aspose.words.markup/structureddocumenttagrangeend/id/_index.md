@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTagRangeEnd.Id
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeEnd proprietà. Specifica un ID numerico persistente univoco di sola lettura per questo Intervallo tag documento strutturato nodo. CorrispondenteStructuredDocumentTagRangeStart il nodo ha lo stessoId .
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTagRangeEnd Id proprietà. Specifica un ID numerico persistente univoco di sola lettura per questoIntervallo tag documento strutturato nodo. CorrispondenteStructuredDocumentTagRangeStart il nodo ha lo stessoId  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-Specifica un ID numerico persistente univoco di sola lettura per questo **Intervallo tag documento strutturato** nodo. Corrispondente[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) il nodo ha lo stesso[`Id`](../../structureddocumenttagrangestart/id/) .
+Specifica un ID numerico persistente univoco di sola lettura per questo**Intervallo tag documento strutturato** nodo. Corrispondente[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) il nodo ha lo stesso[`Id`](../../structureddocumenttagrangestart/id/) .
 
 ```csharp
 public int Id { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere le proprietà dei tag di documenti strutturati a più sezioni.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Guarda anche
 
 * class [StructuredDocumentTagRangeEnd](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttagrangeend/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

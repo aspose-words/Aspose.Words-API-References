@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.TextAfter
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeField mülk. Alan boş değilse alandan sonra eklenecek metni alır veya ayarlar.
+linktitle: TextAfter
+articleTitle: TextAfter
+second_title: Aspose.Words for .NET
+description: FieldMergeField TextAfter mülk. Alan boş değilse alandan sonra eklenecek metni alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldmergefield/textafter/
@@ -14,7 +16,7 @@ Alan boş değilse alandan sonra eklenecek metni alır veya ayarlar.
 public string TextAfter { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme gerçekleştirmek için MERGEFIELD alanlarının nasıl kullanılacağını gösterir.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Ayrıca bakınız
 
 * class [FieldMergeField](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmergefield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

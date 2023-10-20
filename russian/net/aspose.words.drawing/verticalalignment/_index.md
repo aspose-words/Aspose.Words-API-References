@@ -1,7 +1,9 @@
 ---
-title: Enum VerticalAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.VerticalAlignment перечисление. Определяет вертикальное выравнивание плавающей фигуры текстового фрейма или плавающей таблицы.
+title: VerticalAlignment Enum
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.VerticalAlignment перечисление. Определяет вертикальное выравнивание плавающей фигуры текстового фрейма или плавающей таблицы на С#.
 type: docs
 weight: 1380
 url: /ru/net/aspose.words.drawing/verticalalignment/
@@ -18,7 +20,7 @@ public enum VerticalAlignment
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | Объект позиционируется явно, обычно с использованием его **Вершина** свойство. |
+| None | `0` | Объект позиционируется явно, обычно с использованием его**Вершина** свойство. |
 | Top | `1` | Указывает, что объект должен находиться вверху базы вертикального выравнивания. |
 | Center | `2` | Указывает, что объект должен быть центрирован относительно базы вертикального выравнивания. |
 | Bottom | `3` | Указывает, что объект должен находиться внизу базы вертикального выравнивания. |
@@ -27,7 +29,7 @@ public enum VerticalAlignment
 | Inline | `-1` | Не документировано. Кажется, это возможное значение для плавающих абзацев и таблиц. |
 | Default | `0` | То же, что иNone . |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить плавающее изображение в центр страницы.
 
@@ -52,5 +54,3 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 * property [VerticalAlignment](../shapebase/verticalalignment/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

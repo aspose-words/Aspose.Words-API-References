@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.Unit
-second_title: Aspose.Words لمراجع .NET API
-description: AxisDisplayUnit ملكية. الحصول على أو تعيين قيمة القياس لوحدات العرض كواحدة من القيم المحددة مسبقًا.
+linktitle: Unit
+articleTitle: Unit
+second_title: Aspose.Words لـ .NET
+description: AxisDisplayUnit Unit ملكية. الحصول على أو تعيين قيمة القياس لوحدات العرض كواحدة من القيم المحددة مسبقًا في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing.charts/axisdisplayunit/unit/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/axisdisplayunit/unit/
 public AxisBuiltInUnit Unit { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيNone . الCustom و Percentage القيم غير متوفرة في بعض أنواع المخططات؛ See [`AxisBuiltInUnit`](../../axisbuiltinunit/) لمزيد من المعلومات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع علامات التجزئة والقيم المعروضة لمحور المخطط.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisBuiltInUnit](../../axisbuiltinunit/)
 * class [AxisDisplayUnit](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

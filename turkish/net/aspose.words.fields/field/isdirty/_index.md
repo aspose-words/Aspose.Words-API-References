@@ -1,7 +1,9 @@
 ---
 title: Field.IsDirty
-second_title: Aspose.Words for .NET API Referansı
-description: Field mülk. Belgede yapılan diğer değişiklikler nedeniyle alanın geçerli sonucunun artık doğru eski olup olmadığını alır veya ayarlar.
+linktitle: IsDirty
+articleTitle: IsDirty
+second_title: Aspose.Words for .NET
+description: Field IsDirty mülk. Belgede yapılan diğer değişiklikler nedeniyle alanın geçerli sonucunun artık doğru eski olup olmadığını alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/field/isdirty/
@@ -14,7 +16,7 @@ Belgede yapılan diğer değişiklikler nedeniyle alanın geçerli sonucunun art
 public bool IsDirty { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Alan sonucunu güncellemek için özel özelliğin nasıl kullanılacağını gösterir.
 
@@ -71,7 +73,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Ayrıca bakınız
 
 * class [Field](../)
-* ad alanı [Aspose.Words.Fields](../../field/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Fonts
-second_title: Aspose.Words für .NET-API-Referenz
-description: Der Aspose.Words.Fonts Der Namespace stellt Klassen und Aufzählungen bereit um auf Informationen zu in einem Dokument verwendeten x000dSchriftarten zuzugreifen.
+linktitle: Aspose.Words.Fonts
+articleTitle: Aspose.Words.Fonts
+second_title: Aspose.Words für .NET
+description: DerAspose.Words.Fonts Der Namespace stellt Klassen und Aufzählungen bereit um auf Informationen zu in einem Dokument verwendeten x000dSchriftarten zuzugreifen in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.fonts/
 ---
-Der **Aspose.Words.Fonts** Der Namespace stellt Klassen und Aufzählungen bereit, um auf Informationen zu in einem Dokument verwendeten x000d-Schriftarten zuzugreifen.
+Der**Aspose.Words.Fonts** Der Namespace stellt Klassen und Aufzählungen bereit, um auf Informationen zu in einem Dokument verwendeten x000d-Schriftarten zuzugreifen.
 
 ## Klassen
 
@@ -39,5 +41,3 @@ Der **Aspose.Words.Fonts** Der Namespace stellt Klassen und Aufzählungen bereit
 | [FontFamily](./fontfamily/) | Stellt die Schriftfamilie dar. |
 | [FontPitch](./fontpitch/) | Stellt den Schriftabstand dar. |
 | [FontSourceType](./fontsourcetype/) | Gibt den Typ einer Schriftartquelle an. |
-
-

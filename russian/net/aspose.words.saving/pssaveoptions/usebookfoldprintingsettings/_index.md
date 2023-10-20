@@ -1,7 +1,9 @@
 ---
 title: PsSaveOptions.UseBookFoldPrintingSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: PsSaveOptions свойство. Получает или задает логическое значение указывающее следует ли сохранять документ с использованием макета для печати буклета  если оно указано черезMultiplePages .
+linktitle: UseBookFoldPrintingSettings
+articleTitle: UseBookFoldPrintingSettings
+second_title: Aspose.Words для .NET
+description: PsSaveOptions UseBookFoldPrintingSettings свойство. Получает или задает логическое значение указывающее следует ли сохранять документ с использованием макета для печати буклета  если оно указано черезMultiplePages  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/pssaveoptions/usebookfoldprintingsettings/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/pssaveoptions/usebookfoldprintingsettings/
 public bool UseBookFoldPrintingSettings { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если указана эта опция,[`PageSet`](../../fixedpagesaveoptions/pageset/) игнорируется при сохранении. Это поведение соответствует MS Word. Если параметры печати сгиба книги не указаны в настройках страницы, этот параметр не будет иметь никакого эффекта.
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить документ в формате Postscript в виде книжного сгиба.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOpti
 ### Смотрите также
 
 * class [PsSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pssaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

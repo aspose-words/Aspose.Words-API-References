@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DataSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Gibt den Pfad zur SerienbriefDatenquelle an. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: DataSource
+articleTitle: DataSource
+second_title: Aspose.Words für .NET
+description: MailMergeSettings DataSource eigendom. Gibt den Pfad zur SerienbriefDatenquelle an. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.settings/mailmergesettings/datasource/
@@ -14,7 +16,7 @@ Gibt den Pfad zur Serienbrief-Datenquelle an. Der Standardwert ist eine leere Ze
 public string DataSource { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Datenquelle für einen Serienbrief aus einer Header-Quelle und einer Datenquelle erstellt wird.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.docx");
 ### Siehe auch
 
 * class [MailMergeSettings](../)
-* namensraum [Aspose.Words.Settings](../../mailmergesettings/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

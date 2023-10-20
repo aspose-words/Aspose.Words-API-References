@@ -1,7 +1,9 @@
 ---
 title: Border.GetHashCode
-second_title: Справочник по API Aspose.Words для .NET
-description: Border метод. Служит хешфункцией для этого типа.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words для .NET
+description: Border GetHashCode метод. Служит хешфункцией для этого типа на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/border/gethashcode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/border/gethashcode/
 public override int GetHashCode()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как коллекции границ могут совместно использовать элементы.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Смотрите также
 
 * class [Border](../)
-* пространство имен [Aspose.Words](../../border/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

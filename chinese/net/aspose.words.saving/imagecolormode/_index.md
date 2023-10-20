@@ -1,7 +1,9 @@
 ---
-title: Enum ImageColorMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.ImageColorMode 枚举. 指定生成的文档页面图像的颜色模式
+title: ImageColorMode Enum
+linktitle: ImageColorMode
+articleTitle: ImageColorMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.ImageColorMode 枚举. 指定生成的文档页面图像的颜色模式 在 C#.
 type: docs
 weight: 5210
 url: /zh/net/aspose.words.saving/imagecolormode/
@@ -22,7 +24,7 @@ public enum ImageColorMode
 | Grayscale | `1` | 文档页面将呈现为灰度图像。 |
 | BlackAndWhite | `2` | 文档页面将呈现为黑白图像。 |
 
-### 例子
+## 例子
 
 演示如何在渲染文档时设置颜色模式。
 
@@ -82,5 +84,3 @@ Document doc = new Document();
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

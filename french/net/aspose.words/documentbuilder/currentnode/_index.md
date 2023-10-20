@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentNode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder propriété. Obtient le nœud actuellement sélectionné dans ce DocumentBuilder.
+linktitle: CurrentNode
+articleTitle: CurrentNode
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder CurrentNode propriété. Obtient le nœud actuellement sélectionné dans ce DocumentBuilder en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/documentbuilder/currentnode/
@@ -14,13 +16,13 @@ Obtient le nœud actuellement sélectionné dans ce DocumentBuilder.
 public Node CurrentNode { get; }
 ```
 
-### Remarques
+## Remarques
 
 `CurrentNode` est un curseur de[`DocumentBuilder`](../) et pointe vers un[`Node`](../../node/) qui est un enfant direct d'un[`Paragraph`](../../paragraph/) . Toutes les opérations d'insertion que vous effectuez en utilisant [`DocumentBuilder`](../) sera inséré avant le`CurrentNode`.
 
 Lorsque le paragraphe courant est vide ou que le curseur est positionné juste avant la fin d'une balise de paragraphe ou de document structuré,`CurrentNode` Retour`nul`.
 
-### Exemples
+## Exemples
 
 Montre comment déplacer le curseur d'un générateur de document vers différents nœuds d'un document.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

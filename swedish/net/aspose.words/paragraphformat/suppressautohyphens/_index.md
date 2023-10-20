@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SuppressAutoHyphens
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Anger om det aktuella stycket ska undantas från avstavning som används i dokumentinställningarna.
+linktitle: SuppressAutoHyphens
+articleTitle: SuppressAutoHyphens
+second_title: Aspose.Words för .NET
+description: ParagraphFormat SuppressAutoHyphens fast egendom. Anger om det aktuella stycket ska undantas från avstavning som används i dokumentinställningarna i C#.
 type: docs
 weight: 370
 url: /sv/net/aspose.words/paragraphformat/suppressautohyphens/
@@ -14,7 +16,7 @@ Anger om det aktuella stycket ska undantas från avstavning som används i dokum
 public bool SuppressAutoHyphens { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man undertrycker avstavning för ett stycke.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.SuppressHyphens.pdf");
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

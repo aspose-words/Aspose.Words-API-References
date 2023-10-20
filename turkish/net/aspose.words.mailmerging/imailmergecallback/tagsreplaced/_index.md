@@ -1,7 +1,9 @@
 ---
 title: IMailMergeCallback.TagsReplaced
-second_title: Aspose.Words for .NET API Referansı
-description: IMailMergeCallback yöntem. Bıyık metin etiketleri MERGEFIELD alanlarıyla değiştirildiğinde çağrılır.
+linktitle: TagsReplaced
+articleTitle: TagsReplaced
+second_title: Aspose.Words for .NET
+description: IMailMergeCallback TagsReplaced yöntem. Bıyık metin etiketleri MERGEFIELD alanlarıyla değiştirildiğinde çağrılır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
 public void TagsReplaced()
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında olayların işlenmesi için özel mantığın nasıl tanımlanacağını gösterir.
 
@@ -66,7 +68,5 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * property [UseNonMergeFields](../../mailmerge/usenonmergefields/)
 * interface [IMailMergeCallback](../)
-* ad alanı [Aspose.Words.MailMerging](../../imailmergecallback/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

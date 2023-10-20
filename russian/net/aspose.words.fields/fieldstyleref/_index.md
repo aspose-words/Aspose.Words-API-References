@@ -1,7 +1,9 @@
 ---
-title: Class FieldStyleRef
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldStyleRef сорт. Реализует поле STYLEREF.
+title: FieldStyleRef Class
+linktitle: FieldStyleRef
+articleTitle: FieldStyleRef
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldStyleRef сорт. Реализует поле STYLEREF на С#.
 type: docs
 weight: 2440
 url: /ru/net/aspose.words.fields/fieldstyleref/
@@ -49,17 +51,17 @@ public class FieldStyleRef : Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
-### Примечания
+## Примечания
 
 STYLEREF используется для ссылки на фрагмент текста в документе, отформатированный с помощью указанного стиля.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля STYLEREF.
 
@@ -132,5 +134,3 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

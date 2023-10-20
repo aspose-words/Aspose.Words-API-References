@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.ContentsFont
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 将应用于输入文本的字体格式 特殊测试.
+linktitle: ContentsFont
+articleTitle: ContentsFont
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag ContentsFont 财产. 将应用于输入文本的字体格式特殊测试 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.markup/structureddocumenttag/contentsfont/
 ---
 ## StructuredDocumentTag.ContentsFont property
 
-将应用于输入文本的字体格式 **特殊测试**.
+将应用于输入文本的字体格式**特殊测试**.
 
 ```csharp
 public Font ContentsFont { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在纯文本框中创建结构化文档标签并修改其外观。
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Document.GetPageInfo
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Yazdırma veya işleme için faydalı olabilecek sayfa boyutunu yönünü ve bir sayfa hakkındaki diğer bilgileri alır.
+linktitle: GetPageInfo
+articleTitle: GetPageInfo
+second_title: Aspose.Words for .NET
+description: Document GetPageInfo yöntem. Yazdırma veya işleme için faydalı olabilecek sayfa boyutunu yönünü ve bir sayfa hakkındaki diğer bilgileri alır C#'da.
 type: docs
-weight: 630
+weight: 610
 url: /tr/net/aspose.words/document/getpageinfo/
 ---
 ## Document.GetPageInfo method
@@ -22,7 +24,5 @@ public PageInfo GetPageInfo(int pageIndex)
 
 * class [PageInfo](../../../aspose.words.rendering/pageinfo/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

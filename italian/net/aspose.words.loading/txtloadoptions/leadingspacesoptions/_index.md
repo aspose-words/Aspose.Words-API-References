@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.LeadingSpacesOptions
-second_title: Aspose.Words per .NET API Reference
-description: TxtLoadOptions proprietà. Ottiene o imposta lopzione preferita per la gestione dello spazio iniziale. Il valore predefinito èConvertToIndent .
+linktitle: LeadingSpacesOptions
+articleTitle: LeadingSpacesOptions
+second_title: Aspose.Words per .NET
+description: TxtLoadOptions LeadingSpacesOptions proprietà. Ottiene o imposta lopzione preferita per la gestione dello spazio iniziale. Il valore predefinito èConvertToIndent  in C#.
 type: docs
-weight: 60
+weight: 50
 url: /it/net/aspose.words.loading/txtloadoptions/leadingspacesoptions/
 ---
 ## TxtLoadOptions.LeadingSpacesOptions property
@@ -14,7 +16,7 @@ Ottiene o imposta l'opzione preferita per la gestione dello spazio iniziale. Il 
 public TxtLeadingSpacesOptions LeadingSpacesOptions { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come tagliare gli spazi bianchi durante il caricamento di documenti di testo normale.
 
@@ -91,7 +93,5 @@ switch (txtTrailingSpacesOptions)
 
 * enum [TxtLeadingSpacesOptions](../../txtleadingspacesoptions/)
 * class [TxtLoadOptions](../)
-* spazio dei nomi [Aspose.Words.Loading](../../txtloadoptions/)
+* spazio dei nomi [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../../)
-
-

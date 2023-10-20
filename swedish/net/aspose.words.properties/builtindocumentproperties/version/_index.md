@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Version
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Representerar versionsnumret för programmet som skapade dokumentet.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties Version fast egendom. Representerar versionsnumret för programmet som skapade dokumentet i C#.
 type: docs
 weight: 320
 url: /sv/net/aspose.words.properties/builtindocumentproperties/version/
@@ -14,11 +16,11 @@ Representerar versionsnumret för programmet som skapade dokumentet.
 public int Version { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När ett dokument skapades av Microsoft Word representerar hög 16 bit represent huvudversionen och låg 16 bit representerar byggnumret.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dokumentegenskaper i kategorin "Ursprung".
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

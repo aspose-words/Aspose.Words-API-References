@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberRestartMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Ruft ab oder legt fest wie die Zeilennummerierung ausgeführt wird d. h. ob sie am Anfang einer neuen Seite oder eines neuen Abschnitts neu beginnt oder fortlaufend ausgeführt wird.
+linktitle: LineNumberRestartMode
+articleTitle: LineNumberRestartMode
+second_title: Aspose.Words für .NET
+description: PageSetup LineNumberRestartMode eigendom. Ruft ab oder legt fest wie die Zeilennummerierung ausgeführt wird d. h. ob sie am Anfang einer neuen Seite oder eines neuen Abschnitts neu beginnt oder fortlaufend ausgeführt wird in C#.
 type: docs
 weight: 230
 url: /de/net/aspose.words/pagesetup/linenumberrestartmode/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, wie die Zeilennummerierung ausgeführt wird, d. h. ob si
 public LineNumberRestartMode LineNumberRestartMode { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Zeilennummerierung für einen Abschnitt aktiviert wird.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 
 * enum [LineNumberRestartMode](../../linenumberrestartmode/)
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

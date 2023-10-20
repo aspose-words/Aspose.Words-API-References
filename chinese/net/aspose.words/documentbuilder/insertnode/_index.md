@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertNode
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 在光标前插入一个节点
+linktitle: InsertNode
+articleTitle: InsertNode
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertNode 方法. 在光标前插入一个节点 在 C#.
 type: docs
-weight: 390
+weight: 380
 url: /zh/net/aspose.words/documentbuilder/insertnode/
 ---
 ## DocumentBuilder.InsertNode method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbuilder/insertnode/
 public void InsertNode(Node node)
 ```
 
-### 例子
+## 例子
 
 演示如何将链接图像插入到文档中。
 
@@ -57,7 +59,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

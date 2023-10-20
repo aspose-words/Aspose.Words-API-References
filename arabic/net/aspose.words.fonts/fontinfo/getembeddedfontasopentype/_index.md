@@ -1,7 +1,9 @@
 ---
 title: FontInfo.GetEmbeddedFontAsOpenType
-second_title: Aspose.Words لمراجع .NET API
-description: FontInfo طريقة. يحصل على ملف خط مضمن بتنسيق OpenType. يتم تحويل الخطوط بتنسيق OpenType المضمن إلى OpenType.
+linktitle: GetEmbeddedFontAsOpenType
+articleTitle: GetEmbeddedFontAsOpenType
+second_title: Aspose.Words لـ .NET
+description: FontInfo GetEmbeddedFontAsOpenType طريقة. يحصل على ملف خط مضمن بتنسيق OpenType. يتم تحويل الخطوط بتنسيق OpenType المضمن إلى OpenType في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.fonts/fontinfo/getembeddedfontasopentype/
@@ -22,7 +24,7 @@ public byte[] GetEmbeddedFontAsOpenType(EmbeddedFontStyle style)
 
 عائدات`باطل`إذا لم يتم تضمين الخط المحدد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج خط مضمن من مستند وحفظه في نظام الملفات المحلي.
 
@@ -50,7 +52,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * enum [EmbeddedFontStyle](../../embeddedfontstyle/)
 * class [FontInfo](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontinfo/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

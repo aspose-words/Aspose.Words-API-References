@@ -1,9 +1,11 @@
 ---
 title: Fill.ImageBytes
-second_title: Referencia de API de Aspose.Words para .NET
-description: Fill propiedad. Obtiene los bytes sin procesar de la textura o patrón de relleno.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words para .NET
+description: Fill ImageBytes propiedad. Obtiene los bytes sin procesar de la textura o patrón de relleno en C#.
 type: docs
-weight: 140
+weight: 130
 url: /es/net/aspose.words.drawing/fill/imagebytes/
 ---
 ## Fill.ImageBytes property
@@ -14,11 +16,11 @@ Obtiene los bytes sin procesar de la textura o patrón de relleno.
 public byte[] ImageBytes { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`nulo`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra para crear una variedad de formas.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Ver también
 
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

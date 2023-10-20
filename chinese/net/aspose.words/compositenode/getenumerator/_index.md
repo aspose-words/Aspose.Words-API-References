@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: CompositeNode 方法. 为该节点的子节点上的每个样式迭代提供支持
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: CompositeNode GetEnumerator 方法. 为该节点的子节点上的每个样式迭代提供支持 在 C#.
 type: docs
-weight: 120
+weight: 100
 url: /zh/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/compositenode/getenumerator/
 public IEnumerator<Node> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 演示如何遍历复合节点的子节点集合。
 
@@ -60,7 +62,5 @@ foreach (Node child in children)
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* 命名空间 [Aspose.Words](../../compositenode/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

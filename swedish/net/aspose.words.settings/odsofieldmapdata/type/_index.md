@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Type
-second_title: Aspose.Words för .NET API Referens
-description: OdsoFieldMapData fast egendom. Anger om ett givet kopplingsfält har mappats till en kolumn i den givna externa datakällan eller inte. Standardvärdet ärDefault .
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: OdsoFieldMapData Type fast egendom. Anger om ett givet kopplingsfält har mappats till en kolumn i den givna externa datakällan eller inte. Standardvärdet ärDefault  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.settings/odsofieldmapdata/type/
@@ -14,7 +16,7 @@ Anger om ett givet kopplingsfält har mappats till en kolumn i den givna externa
 public OdsoFieldMappingType Type { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får åtkomst till insamlingen av data som mappar datakällans kolumner för att slå samman fält.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * enum [OdsoFieldMappingType](../../odsofieldmappingtype/)
 * class [OdsoFieldMapData](../)
-* namnutrymme [Aspose.Words.Settings](../../odsofieldmapdata/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

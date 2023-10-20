@@ -1,7 +1,9 @@
 ---
 title: PageSetup.RestartPageNumbering
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Sayfa numaralandırma bölümün başlangıcında yeniden başlıyorsa doğrudur.
+linktitle: RestartPageNumbering
+articleTitle: RestartPageNumbering
+second_title: Aspose.Words for .NET
+description: PageSetup RestartPageNumbering mülk. Sayfa numaralandırma bölümün başlangıcında yeniden başlıyorsa doğrudur C#'da.
 type: docs
 weight: 360
 url: /tr/net/aspose.words/pagesetup/restartpagenumbering/
@@ -14,11 +16,11 @@ Sayfa numaralandırma bölümün başlangıcında yeniden başlıyorsa doğrudur
 public bool RestartPageNumbering { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Eğer ayarlanmışsa`YANLIŞ` ,`RestartPageNumbering` özellik the değerini geçersiz kılacak[`PageStartingNumber`](../pagestartingnumber/) sayfa numaralandırmanın önceki bölümden devam edebilmesi için özellik.
 
-### Örnekler
+## Örnekler
 
 Bir bölümde sayfa numaralandırmanın nasıl ayarlanacağını gösterir.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeList.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeList свойство. Извлекает узел по заданному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: NodeList Item свойство. Извлекает узел по заданному индексу на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/nodelist/item/
@@ -18,7 +20,7 @@ public Node this[int index] { get; }
 | --- | --- |
 | index | Индекс в списке узлов. |
 
-### Примечания
+## Примечания
 
 Индекс отсчитывается от нуля.
 
@@ -28,7 +30,7 @@ public Node this[int index] { get; }
 
 Если индекс отрицателен и его абсолютное значение превышает количество элементов в списке, возвращается нулевая ссылка.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать XPaths для навигации по NodeList.
 
@@ -87,7 +89,5 @@ Assert.True(shape.HasImage);
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* пространство имен [Aspose.Words](../../nodelist/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

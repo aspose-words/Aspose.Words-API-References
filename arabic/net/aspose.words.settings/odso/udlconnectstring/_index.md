@@ -1,7 +1,9 @@
 ---
 title: Odso.UdlConnectString
-second_title: Aspose.Words لمراجع .NET API
-description: Odso ملكية. يحدد سلسلة اتصال ارتباط البيانات العالمي UDL المستخدمة للاتصال بمصدر بيانات خارجي. القيمة الافتراضية هي سلسلة فارغة.
+linktitle: UdlConnectString
+articleTitle: UdlConnectString
+second_title: Aspose.Words لـ .NET
+description: Odso UdlConnectString ملكية. يحدد سلسلة اتصال ارتباط البيانات العالمي UDL المستخدمة للاتصال بمصدر بيانات خارجي. القيمة الافتراضية هي سلسلة فارغة في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.settings/odso/udlconnectstring/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odso/udlconnectstring/
 public string UdlConnectString { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ عملية دمج البريد أثناء الاتصال بمصدر بيانات خارجي.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### أنظر أيضا
 
 * class [Odso](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odso/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

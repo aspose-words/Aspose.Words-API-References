@@ -1,7 +1,9 @@
 ---
 title: Row.NextRow
-second_title: Aspose.Words لمراجع .NET API
-description: Row ملكية. يحصل على التاليRow العقدة
+linktitle: NextRow
+articleTitle: NextRow
+second_title: Aspose.Words لـ .NET
+description: Row NextRow ملكية. يحصل على التاليRow العقدة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.tables/row/nextrow/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.tables/row/nextrow/
 public Row NextRow { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن استخدام هذه الطريقة عندما تحتاج إلى الوصول إلى صفوف الجدول. إذا كان a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)تم العثور على العقدة في جدول بدلاً من صف، يتم اجتيازها تلقائيًا للحصول على صف موجود بداخله.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعداد جميع خلايا الجدول.
 
@@ -39,7 +41,5 @@ for (Row row = table.FirstRow; row != null; row = row.NextRow)
 ### أنظر أيضا
 
 * class [Row](../)
-* مساحة الاسم [Aspose.Words.Tables](../../row/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

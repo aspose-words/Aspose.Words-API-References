@@ -1,7 +1,9 @@
 ---
-title: Class GradientStopCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.GradientStopCollection 班级. 包含以下集合GradientStop对象.
+title: GradientStopCollection Class
+linktitle: GradientStopCollection
+articleTitle: GradientStopCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.GradientStopCollection 班级. 包含以下集合GradientStop对象 在 C#.
 type: docs
 weight: 990
 url: /zh/net/aspose.words.drawing/gradientstopcollection/
@@ -27,17 +29,17 @@ public class GradientStopCollection : IEnumerable<GradientStop>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.drawing/gradientstopcollection/add/)(GradientStop) | 添加指定的[`GradientStop`](../gradientstop/)到梯度. |
+| [Add](../../aspose.words.drawing/gradientstopcollection/add/)(*[GradientStop](../gradientstop/)*) | 添加指定的[`GradientStop`](../gradientstop/)到梯度. |
 | [GetEnumerator](../../aspose.words.drawing/gradientstopcollection/getenumerator/)() | 返回一个迭代集合的枚举器。 |
-| [Insert](../../aspose.words.drawing/gradientstopcollection/insert/)(int, GradientStop) | 插入一个[`GradientStop`](../gradientstop/)到指定索引处的集合。 |
-| [Remove](../../aspose.words.drawing/gradientstopcollection/remove/)(GradientStop) | 删除指定的[`GradientStop`](../gradientstop/)来自集合. |
-| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(int) | 删除一个[`GradientStop`](../gradientstop/)来自指定索引处的集合。 |
+| [Insert](../../aspose.words.drawing/gradientstopcollection/insert/)(*int, [GradientStop](../gradientstop/)*) | 插入一个[`GradientStop`](../gradientstop/)到指定索引处的集合。 |
+| [Remove](../../aspose.words.drawing/gradientstopcollection/remove/)(*[GradientStop](../gradientstop/)*) | 删除指定的[`GradientStop`](../gradientstop/)来自集合. |
+| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(*int*) | 删除一个[`GradientStop`](../gradientstop/)来自指定索引处的集合。 |
 
-### 评论
+## 评论
 
 您不直接创建此类的实例。 使用[`GradientStops`](../fill/gradientstops/)用于访问填充对象的渐变停止点的属性。
 
-### 例子
+## 例子
 
 演示如何向渐变填充添加渐变停止点。
 
@@ -92,5 +94,3 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 * class [GradientStop](../gradientstop/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum HeaderFooterType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.HeaderFooterType opsomming. Identifiziert den Typ der Kopf oder Fußzeile in einer WordDatei.
+title: HeaderFooterType Enum
+linktitle: HeaderFooterType
+articleTitle: HeaderFooterType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.HeaderFooterType opsomming. Identifiziert den Typ der Kopf oder Fußzeile in einer WordDatei in C#.
 type: docs
 weight: 3120
 url: /de/net/aspose.words/headerfootertype/
@@ -25,7 +27,7 @@ public enum HeaderFooterType
 | HeaderFirst | `4` | Kopfzeile für die erste Seite des Abschnitts. |
 | FooterFirst | `5` | Fußzeile für die erste Seite des Abschnitts. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellt.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

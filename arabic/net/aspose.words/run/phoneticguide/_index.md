@@ -1,7 +1,9 @@
 ---
 title: Run.PhoneticGuide
-second_title: Aspose.Words لمراجع .NET API
-description: Run ملكية. يحصل علىPhoneticGuide الكائن.
+linktitle: PhoneticGuide
+articleTitle: PhoneticGuide
+second_title: Aspose.Words لـ .NET
+description: Run PhoneticGuide ملكية. يحصل علىPhoneticGuide الكائن في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/run/phoneticguide/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/run/phoneticguide/
 public PhoneticGuide PhoneticGuide { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يبين كيفية الحصول على خصائص الدليل الصوتي.
 
@@ -32,7 +34,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 
 * class [PhoneticGuide](../../phoneticguide/)
 * class [Run](../)
-* مساحة الاسم [Aspose.Words](../../run/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

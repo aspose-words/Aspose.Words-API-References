@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.DontAffectsLineSpacing
-second_title: Aspose.Words for .NET API Referansı
-description: FieldSymbol mülk. Alan tarafından alınan karakterin paragrafın satır aralığını etkileyip etkilemeyeceğini alır veya ayarlar.
+linktitle: DontAffectsLineSpacing
+articleTitle: DontAffectsLineSpacing
+second_title: Aspose.Words for .NET
+description: FieldSymbol DontAffectsLineSpacing mülk. Alan tarafından alınan karakterin paragrafın satır aralığını etkileyip etkilemeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldsymbol/dontaffectslinespacing/
@@ -14,7 +16,7 @@ Alan tarafından alınan karakterin paragrafın satır aralığını etkileyip e
 public bool DontAffectsLineSpacing { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 SEMBOL alanının nasıl kullanılacağını gösterir.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ayrıca bakınız
 
 * class [FieldSymbol](../)
-* ad alanı [Aspose.Words.Fields](../../fieldsymbol/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

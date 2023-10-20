@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineBreak
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Символ разрыва строки x000b или v.
+linktitle: LineBreak
+articleTitle: LineBreak
+second_title: Aspose.Words для .NET
+description: ControlChar LineBreak поле. Символ разрыва строки x000b или v на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/controlchar/linebreak/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/linebreak/
 public static readonly string LineBreak;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

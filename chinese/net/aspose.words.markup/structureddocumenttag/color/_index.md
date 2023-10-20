@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Color
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 获取或设置结构化文档标签的颜色
+linktitle: Color
+articleTitle: Color
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag Color 财产. 获取或设置结构化文档标签的颜色 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.markup/structureddocumenttag/color/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/structureddocumenttag/color/
 public Color Color { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在纯文本框中创建结构化文档标签并修改其外观。
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

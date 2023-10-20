@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.IsTemporary
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Anger om detta SDT ska tas bort från WordProcessingMLdokumentet när dess contents ändras.
+linktitle: IsTemporary
+articleTitle: IsTemporary
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag IsTemporary fast egendom. Anger om dettaSDT ska tas bort från WordProcessingMLdokumentet när dess contents ändras i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.markup/structureddocumenttag/istemporary/
 ---
 ## StructuredDocumentTag.IsTemporary property
 
-Anger om detta **SDT** ska tas bort från WordProcessingML-dokumentet när dess contents ändras.
+Anger om detta**SDT** ska tas bort från WordProcessingML-dokumentet när dess contents ändras.
 
 ```csharp
 public bool IsTemporary { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man gör engångskontroller.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.IsTemporary.docx");
 ### Se även
 
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

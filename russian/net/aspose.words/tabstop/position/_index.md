@@ -1,7 +1,9 @@
 ---
 title: TabStop.Position
-second_title: Справочник по API Aspose.Words для .NET
-description: TabStop свойство. Получает позицию табуляции в пунктах.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words для .NET
+description: TabStop Position свойство. Получает позицию табуляции в пунктах на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/tabstop/position/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/tabstop/position/
 public double Position { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить положение правой позиции табуляции в абзацах, связанных с содержанием.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 ### Смотрите также
 
 * class [TabStop](../)
-* пространство имен [Aspose.Words](../../tabstop/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

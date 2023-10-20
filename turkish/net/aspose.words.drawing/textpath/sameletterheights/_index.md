@@ -1,7 +1,9 @@
 ---
 title: TextPath.SameLetterHeights
-second_title: Aspose.Words for .NET API Referansı
-description: TextPath mülk. İlk harfe bakılmaksızın tüm harflerin aynı yükseklikte olup olmayacağını belirler.
+linktitle: SameLetterHeights
+articleTitle: SameLetterHeights
+second_title: Aspose.Words for .NET
+description: TextPath SameLetterHeights mülk. İlk harfe bakılmaksızın tüm harflerin aynı yükseklikte olup olmayacağını belirler C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.drawing/textpath/sameletterheights/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.drawing/textpath/sameletterheights/
 public bool SameLetterHeights { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 WordArt'la nasıl çalışılacağını gösterir.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ayrıca bakınız
 
 * class [TextPath](../)
-* ad alanı [Aspose.Words.Drawing](../../textpath/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

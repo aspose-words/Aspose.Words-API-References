@@ -1,7 +1,9 @@
 ---
 title: FieldXE.IsBold
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldXE свойство. Получает или задает необходимость применения жирного форматирования к номеру страницы записи.
+linktitle: IsBold
+articleTitle: IsBold
+second_title: Aspose.Words для .NET
+description: FieldXE IsBold свойство. Получает или задает необходимость применения жирного форматирования к номеру страницы записи на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldxe/isbold/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldxe/isbold/
 public bool IsBold { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить поле INDEX записями с использованием полей XE, а также изменить его внешний вид.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Смотрите также
 
 * class [FieldXE](../)
-* пространство имен [Aspose.Words.Fields](../../fieldxe/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

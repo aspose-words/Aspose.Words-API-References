@@ -1,7 +1,9 @@
 ---
-title: Class License
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.License 班级. 提供组件许可方法
+title: License Class
+linktitle: License
+articleTitle: License
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.License 班级. 提供组件许可方法 在 C#.
 type: docs
 weight: 3420
 url: /zh/net/aspose.words/license/
@@ -26,10 +28,10 @@ public class License
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(Stream) | 许可组件。 |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(string) | 许可组件。 |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(*Stream*) | 许可组件。 |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(*string*) | 许可组件。 |
 
-### 例子
+## 例子
 
 展示如何使用本地文件系统中的许可证文件初始化 Aspose.Words 许可证。
 
@@ -54,5 +56,3 @@ license.SetLicense("Aspose.Words.NET.lic");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

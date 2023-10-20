@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.PageIndex
-second_title: Aspose.Words for .NET API 参考
-description: PageLayoutCallbackArgs 财产. 获取与此事件相关的文档中页面的从 0 开始的索引 如果没有关联页面或者页面在重排期间被删除则返回负值
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: 用于 .NET 的 Aspose.Words
+description: PageLayoutCallbackArgs PageIndex 财产. 获取与此事件相关的文档中页面的从 0 开始的索引 如果没有关联页面或者页面在重排期间被删除则返回负值 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
 public int PageIndex { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用布局回调跟踪布局更改。
 
@@ -80,7 +82,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 ### 也可以看看
 
 * class [PageLayoutCallbackArgs](../)
-* 命名空间 [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

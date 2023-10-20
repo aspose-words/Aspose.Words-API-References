@@ -1,7 +1,9 @@
 ---
 title: FormField.IsCheckBoxExactSize
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 获取或设置布尔值该值指示文本框的大小是自动还是显式指定
+linktitle: IsCheckBoxExactSize
+articleTitle: IsCheckBoxExactSize
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField IsCheckBoxExactSize 财产. 获取或设置布尔值该值指示文本框的大小是自动还是显式指定 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.fields/formfield/ischeckboxexactsize/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/formfield/ischeckboxexactsize/
 public bool IsCheckBoxExactSize { get; set; }
 ```
 
-### 评论
+## 评论
 
 仅适用于复选框表单字段。
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.BarcodeValue
-second_title: Aspose.Words per .NET API Reference
-description: FieldMergeBarcode proprietà. Ottiene o imposta il valore del codice a barre.
+linktitle: BarcodeValue
+articleTitle: BarcodeValue
+second_title: Aspose.Words per .NET
+description: FieldMergeBarcode BarcodeValue proprietà. Ottiene o imposta il valore del codice a barre in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldmergebarcode/barcodevalue/
@@ -14,7 +16,7 @@ Ottiene o imposta il valore del codice a barre.
 public string BarcodeValue { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione sui codici a barre EAN13.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Guarda anche
 
 * class [FieldMergeBarcode](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldmergebarcode/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.MustacheTags
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeRegionInfo mülk. Alt bıyık etiketlerinin listesini döndürür.
+linktitle: MustacheTags
+articleTitle: MustacheTags
+second_title: Aspose.Words for .NET
+description: MailMergeRegionInfo MustacheTags mülk. Alt bıyık etiketlerinin listesini döndürür C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.mailmerging/mailmergeregioninfo/mustachetags/
@@ -18,7 +20,5 @@ public IList<MustacheTag> MustacheTags { get; }
 
 * class [MustacheTag](../../mustachetag/)
 * class [MailMergeRegionInfo](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

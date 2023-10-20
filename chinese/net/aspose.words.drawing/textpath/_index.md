@@ -1,7 +1,9 @@
 ---
-title: Class TextPath
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.TextPath 班级. 定义艺术字对象的文本路径的文本和格式
+title: TextPath Class
+linktitle: TextPath
+articleTitle: TextPath
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.TextPath 班级. 定义艺术字对象的文本路径的文本和格式 在 C#.
 type: docs
 weight: 1350
 url: /zh/net/aspose.words.drawing/textpath/
@@ -41,11 +43,11 @@ public class TextPath
 | [Underline](../../aspose.words.drawing/textpath/underline/) { get; set; } | 如果字体带下划线则为真。 |
 | [XScale](../../aspose.words.drawing/textpath/xscale/) { get; set; } | 确定是否使用直文本路径而不是形状路径。 |
 
-### 评论
+## 评论
 
 使用[`TextPath`](../shape/textpath/)属性来访问形状的艺术字属性。 您不创建`TextPath`直接上课。
 
-### 例子
+## 例子
 
 演示如何使用艺术字。
 
@@ -149,5 +151,3 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.Compliance
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. Anger överensstämmelsenivån för PDFstandarder för utdatadokument.
+linktitle: Compliance
+articleTitle: Compliance
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions Compliance fast egendom. Anger överensstämmelsenivån för PDFstandarder för utdatadokument i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/pdfsaveoptions/compliance/
@@ -14,11 +16,11 @@ Anger överensstämmelsenivån för PDF-standarder för utdatadokument.
 public PdfCompliance Compliance { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standard ärPdf17.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in PDF-standardens överensstämmelsenivå för sparade PDF-dokument.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.Compliance.pdf", saveOptions);
 
 * enum [PdfCompliance](../../pdfcompliance/)
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

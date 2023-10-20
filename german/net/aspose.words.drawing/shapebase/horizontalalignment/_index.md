@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.HorizontalAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Gibt an wie die Form horizontal positioniert wird.
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: Aspose.Words für .NET
+description: ShapeBase HorizontalAlignment eigendom. Gibt an wie die Form horizontal positioniert wird in C#.
 type: docs
 weight: 220
 url: /de/net/aspose.words.drawing/shapebase/horizontalalignment/
@@ -14,13 +16,13 @@ Gibt an, wie die Form horizontal positioniert wird.
 public HorizontalAlignment HorizontalAlignment { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istNone.
 
 Hat nur Auswirkungen auf schwebende Formen der obersten Ebene.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein schwebendes Bild in der Mitte einer Seite einfügt.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [HorizontalAlignment](../../horizontalalignment/)
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

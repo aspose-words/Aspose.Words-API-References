@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.ListIndentation
-second_title: Aspose.Words för .NET API Referens
-description: TxtSaveOptions fast egendom. Får enTxtListIndentation objekt som anger hur många och vilket tecken som ska användas för indrag av listnivåer. Som standard är det noll antal tecken 0 det betyder ingen indrag.
+linktitle: ListIndentation
+articleTitle: ListIndentation
+second_title: Aspose.Words för .NET
+description: TxtSaveOptions ListIndentation fast egendom. Får enTxtListIndentation objekt som anger hur många och vilket tecken som ska användas för indrag av listnivåer. Som standard är det noll antal tecken 0 det betyder ingen indrag i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/txtsaveoptions/listindentation/
@@ -14,7 +16,7 @@ Får en[`TxtListIndentation`](../../txtlistindentation/) objekt som anger hur m�
 public TxtListIndentation ListIndentation { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar listindrag när du sparar ett dokument som klartext.
 
@@ -55,7 +57,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * class [TxtListIndentation](../../txtlistindentation/)
 * class [TxtSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../txtsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

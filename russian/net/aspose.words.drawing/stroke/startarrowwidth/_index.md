@@ -1,9 +1,11 @@
 ---
 title: Stroke.StartArrowWidth
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Определяет ширину стрелки для начала обводки.
+linktitle: StartArrowWidth
+articleTitle: StartArrowWidth
+second_title: Aspose.Words для .NET
+description: Stroke StartArrowWidth свойство. Определяет ширину стрелки для начала обводки на С#.
 type: docs
-weight: 190
+weight: 180
 url: /ru/net/aspose.words.drawing/stroke/startarrowwidth/
 ---
 ## Stroke.StartArrowWidth property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/startarrowwidth/
 public ArrowWidth StartArrowWidth { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Medium.
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowWidth](../../arrowwidth/)
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

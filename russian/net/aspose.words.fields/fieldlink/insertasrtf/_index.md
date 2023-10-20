@@ -1,7 +1,9 @@
 ---
 title: FieldLink.InsertAsRtf
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldLink свойство. Получает или задает следует ли вставлять связанный объект в расширенном текстовом формате RTF.
+linktitle: InsertAsRtf
+articleTitle: InsertAsRtf
+second_title: Aspose.Words для .NET
+description: FieldLink InsertAsRtf свойство. Получает или задает следует ли вставлять связанный объект в расширенном текстовом формате RTF на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldlink/insertasrtf/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldlink/insertasrtf/
 public bool InsertAsRtf { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать различные типы полей для связи с другими документами в локальной файловой системе и отображения их содержимого.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Смотрите также
 
 * class [FieldLink](../)
-* пространство имен [Aspose.Words.Fields](../../fieldlink/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

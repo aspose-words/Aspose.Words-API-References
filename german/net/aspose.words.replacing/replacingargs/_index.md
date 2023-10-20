@@ -1,7 +1,9 @@
 ---
-title: Class ReplacingArgs
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Replacing.ReplacingArgs klas. Stellt Daten für einen benutzerdefinierten Ersetzungsvorgang bereit.
+title: ReplacingArgs Class
+linktitle: ReplacingArgs
+articleTitle: ReplacingArgs
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Replacing.ReplacingArgs klas. Stellt Daten für einen benutzerdefinierten Ersetzungsvorgang bereit in C#.
 type: docs
 weight: 4650
 url: /de/net/aspose.words.replacing/replacingargs/
@@ -22,12 +24,12 @@ public class ReplacingArgs
 | --- | --- |
 | [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Identifiziert anhand des Index eine erfasste Gruppe im[`Match`](./match/) , das durch das ersetzt werden soll[`Replacement`](./replacement/) string. |
 | [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Identifiziert anhand des Namens eine erfasste Gruppe im[`Match`](./match/) , das durch das ersetzt werden soll[`Replacement`](./replacement/) string. |
-| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | DieMatch resultierend aus einer einzelnen regulären -Ausdrucksübereinstimmung während eines **Ersetzen** . |
+| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | DieMatch resultierend aus einer einzelnen regulären -Ausdrucksübereinstimmung während eines**Ersetzen** . |
 | [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Ruft den Knoten ab, der den Anfang des Matches enthält. |
 | [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Ruft die nullbasierte Startposition der Übereinstimmung ab dem Anfang des Knotens ab, der den Anfang der Übereinstimmung enthält. |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | Ruft die Ersatzzeichenfolge ab oder legt sie fest. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Vorkommen eines regulären Ausdrucksmusters durch eine andere Zeichenfolge ersetzt werden, während alle Ersetzungen verfolgt werden.
 
@@ -156,5 +158,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * method [Replace](../../aspose.words/range/replace/)
 * namensraum [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../)
-
-

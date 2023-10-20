@@ -1,7 +1,9 @@
 ---
-title: Class WriteProtection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.WriteProtection clase. Especifica la configuración de protección contra escritura para un documento.
+title: WriteProtection Class
+linktitle: WriteProtection
+articleTitle: WriteProtection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Settings.WriteProtection clase. Especifica la configuración de protección contra escritura para un documento en C#.
 type: docs
 weight: 5970
 url: /es/net/aspose.words.settings/writeprotection/
@@ -27,10 +29,10 @@ public class WriteProtection
 
 | Nombre | Descripción |
 | --- | --- |
-| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(string) | Establece la contraseña de protección contra escritura para el documento. |
-| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(string) | Devoluciones`verdadero` si la contraseña especificada es la misma que la contraseña de protección contra escritura con la que se protegió el documento. Si el documento no está protegido contra escritura con contraseña, entonces regresa`FALSO` . |
+| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(*string*) | Establece la contraseña de protección contra escritura para el documento. |
+| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | Devoluciones`verdadero` si la contraseña especificada es la misma que la contraseña de protección contra escritura con la que se protegió el documento. Si el documento no está protegido contra escritura con contraseña, entonces regresa`FALSO` . |
 
-### Observaciones
+## Observaciones
 
 La protección contra escritura especifica si el autor ha recomendado que el documento se abra como de solo lectura y/o requiera una contraseña para modificar un documento.
 
@@ -38,7 +40,7 @@ La protección contra escritura es diferente de la protección de documentos. La
 
 No crea instancias de esta clase directamente. Puede acceder a la configuración de protección de documentos a través del[`WriteProtection`](../../aspose.words/document/writeprotection/) propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo proteger un documento con una contraseña.
 
@@ -71,5 +73,3 @@ Assert.AreEqual("Hello world! This document is protected." +
 
 * espacio de nombres [Aspose.Words.Settings](../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Shading
-second_title: Aspose.Words لمراجع .NET API
-description: CellFormat ملكية. إرجاع أShading الكائن الذي يشير إلى تنسيق التظليل للخلية.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words لـ .NET
+description: CellFormat Shading ملكية. إرجاع أShading الكائن الذي يشير إلى تنسيق التظليل للخلية في C#.
 type: docs
-weight: 100
+weight: 90
 url: /ar/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cellformat/shading/
 public Shading Shading { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل تنسيق الصفوف والخلايا في الجدول.
 
@@ -113,7 +115,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Shading](../../../aspose.words/shading/)
 * class [CellFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cellformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

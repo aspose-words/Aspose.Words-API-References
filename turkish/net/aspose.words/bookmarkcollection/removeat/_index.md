@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.RemoveAt
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarkCollection yöntem. Belirtilen dizindeki yer imini kaldırır.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words for .NET
+description: BookmarkCollection RemoveAt yöntem. Belirtilen dizindeki yer imini kaldırır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/bookmarkcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Kaldırılacak yer işaretinin sıfır tabanlı dizini. |
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin bir belgeden nasıl kaldırılacağını gösterir.
 
@@ -79,7 +81,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Ayrıca bakınız
 
 * class [BookmarkCollection](../)
-* ad alanı [Aspose.Words](../../bookmarkcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

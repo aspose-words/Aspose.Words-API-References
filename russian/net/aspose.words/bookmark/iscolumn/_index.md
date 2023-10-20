@@ -1,7 +1,9 @@
 ---
 title: Bookmark.IsColumn
-second_title: Справочник по API Aspose.Words для .NET
-description: Bookmark свойство. Возвращаетистинный если эта закладка является закладкой столбца таблицы.
+linktitle: IsColumn
+articleTitle: IsColumn
+second_title: Aspose.Words для .NET
+description: Bookmark IsColumn свойство. Возвращаетистинный если эта закладка является закладкой столбца таблицы на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/bookmark/iscolumn/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/bookmark/iscolumn/
 public bool IsColumn { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить информацию о закладках столбцов таблицы.
 
@@ -41,7 +43,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### Смотрите также
 
 * class [Bookmark](../)
-* пространство имен [Aspose.Words](../../bookmark/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

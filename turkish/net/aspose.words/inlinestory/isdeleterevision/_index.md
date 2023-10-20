@@ -1,7 +1,9 @@
 ---
 title: InlineStory.IsDeleteRevision
-second_title: Aspose.Words for .NET API Referansı
-description: InlineStory mülk. Değişiklik izleme etkinken bu nesne Microsoft Wordde silinmişse true değerini döndürür.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words for .NET
+description: InlineStory IsDeleteRevision mülk. Değişiklik izleme etkinken bu nesne Microsoft Wordde silinmişse true değerini döndürür C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/inlinestory/isdeleterevision/
@@ -14,7 +16,7 @@ Değişiklik izleme etkinken bu nesne Microsoft Word'de silinmişse true değeri
 public bool IsDeleteRevision { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 InlineStory düğümlerinin revizyonla ilgili özelliklerinin nasıl görüntüleneceğini gösterir.
 
@@ -62,7 +64,5 @@ Assert.IsTrue(footnotes[3].IsDeleteRevision);
 ### Ayrıca bakınız
 
 * class [InlineStory](../)
-* ad alanı [Aspose.Words](../../inlinestory/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

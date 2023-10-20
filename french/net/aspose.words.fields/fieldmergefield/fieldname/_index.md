@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.FieldName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergeField propriété. Obtient ou définit le nom dun champ de données.
+linktitle: FieldName
+articleTitle: FieldName
+second_title: Aspose.Words pour .NET
+description: FieldMergeField FieldName propriété. Obtient ou définit le nom dun champ de données en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldmergefield/fieldname/
@@ -14,7 +16,7 @@ Obtient ou définit le nom d'un champ de données.
 public string FieldName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les champs MERGEFIELD pour effectuer un publipostage.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Voir également
 
 * class [FieldMergeField](../)
-* espace de noms [Aspose.Words.Fields](../../fieldmergefield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

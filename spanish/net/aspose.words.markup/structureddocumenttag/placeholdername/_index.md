@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.PlaceholderName
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag propiedad. Obtiene o establece el nombre delBuildingBlock que contiene texto de marcador de posición.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag PlaceholderName propiedad. Obtiene o establece el nombre delBuildingBlock que contiene texto de marcador de posición en C#.
 type: docs
 weight: 240
 url: /es/net/aspose.words.markup/structureddocumenttag/placeholdername/
@@ -16,7 +18,7 @@ Obtiene o establece el nombre del[`BuildingBlock`](../../../aspose.words.buildin
 public string PlaceholderName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar el contenido de un bloque de creación como texto de marcador de posición personalizado para una etiqueta de documento estructurado.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### Ver también
 
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

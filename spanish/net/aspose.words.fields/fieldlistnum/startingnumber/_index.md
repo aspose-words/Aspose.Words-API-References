@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.StartingNumber
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldListNum propiedad. Obtiene o establece el valor inicial para este campo.
+linktitle: StartingNumber
+articleTitle: StartingNumber
+second_title: Aspose.Words para .NET
+description: FieldListNum StartingNumber propiedad. Obtiene o establece el valor inicial para este campo en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fieldlistnum/startingnumber/
@@ -14,7 +16,7 @@ Obtiene o establece el valor inicial para este campo.
 public string StartingNumber { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo numerar párrafos con campos LISTNUM.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Ver también
 
 * class [FieldListNum](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldlistnum/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

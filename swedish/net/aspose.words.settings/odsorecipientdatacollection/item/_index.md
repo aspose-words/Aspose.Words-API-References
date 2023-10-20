@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: OdsoRecipientDataCollection fast egendom. Hämtar eller ställer in ett objekt i den här samlingen.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: OdsoRecipientDataCollection Item fast egendom. Hämtar eller ställer in ett objekt i den här samlingen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.settings/odsorecipientdatacollection/item/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett objekt i den här samlingen.
 public OdsoRecipientData this[int index] { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* namnutrymme [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

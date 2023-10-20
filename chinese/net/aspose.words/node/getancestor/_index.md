@@ -1,12 +1,14 @@
 ---
 title: Node.GetAncestor
-second_title: Aspose.Words for .NET API 参考
-description: Node 方法. 获取指定对象类型的第一个祖先
+linktitle: GetAncestor
+articleTitle: GetAncestor
+second_title: 用于 .NET 的 Aspose.Words
+description: Node GetAncestor 方法. 获取指定对象类型的第一个祖先 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words/node/getancestor/
 ---
-## GetAncestor(Type) {#getancestor_1}
+## GetAncestor(*Type*) {#getancestor_1}
 
 获取指定对象类型的第一个祖先。
 
@@ -22,11 +24,11 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 指定类型的祖先或`无效的`如果没有找到这种类型的祖先。
 
-### 评论
+## 评论
 
 如果等于，则祖先类型匹配*ancestorType*或源自*ancestorType*。
 
-### 例子
+## 例子
 
 演示如何查明表是否嵌套。
 
@@ -105,12 +107,12 @@ private static int GetChildTableCount(Table table)
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* 命名空间 [Aspose.Words](../../node/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## GetAncestor(NodeType) {#getancestor}
+## GetAncestor(*[NodeType](../../nodetype/)*) {#getancestor}
 
 获取指定的第一个祖先[`NodeType`](../../nodetype/).
 
@@ -126,7 +128,7 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 指定类型的祖先或`无效的`如果没有找到这种类型的祖先。
 
-### 例子
+## 例子
 
 演示如何查明表是否嵌套。
 
@@ -206,7 +208,5 @@ private static int GetChildTableCount(Table table)
 * class [CompositeNode](../../compositenode/)
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* 命名空间 [Aspose.Words](../../node/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Uri
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlProperty proprietà. Ottiene o imposta lURI dello spazio dei nomi dellattributo XML personalizzato o della proprietà smart tag.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words per .NET
+description: CustomXmlProperty Uri proprietà. Ottiene o imposta lURI dello spazio dei nomi dellattributo XML personalizzato o della proprietà smart tag in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.markup/customxmlproperty/uri/
@@ -14,13 +16,13 @@ Ottiene o imposta l'URI dello spazio dei nomi dell'attributo XML personalizzato 
 public string Uri { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Non può essere`nullo`.
 
 L'impostazione predefinita è una stringa vuota.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le proprietà degli smart tag per ottenere informazioni approfondite sugli smart tag.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(0, properties.Count);
 ### Guarda anche
 
 * class [CustomXmlProperty](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlproperty/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

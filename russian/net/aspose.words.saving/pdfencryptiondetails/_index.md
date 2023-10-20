@@ -1,7 +1,9 @@
 ---
-title: Class PdfEncryptionDetails
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.PdfEncryptionDetails сорт. Содержит сведения о шифровании и разрешениях доступа для PDFдокумента.
+title: PdfEncryptionDetails Class
+linktitle: PdfEncryptionDetails
+articleTitle: PdfEncryptionDetails
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.PdfEncryptionDetails сорт. Содержит сведения о шифровании и разрешениях доступа для PDFдокумента на С#.
 type: docs
 weight: 5460
 url: /ru/net/aspose.words.saving/pdfencryptiondetails/
@@ -20,8 +22,8 @@ public class PdfEncryptionDetails
 
 | Имя | Описание |
 | --- | --- |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(string, string) | Инициализирует экземпляр этого класса. |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(string, string, PdfPermissions) | Инициализирует экземпляр этого класса. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(*string, string*) | Инициализирует экземпляр этого класса. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(*string, string, [PdfPermissions](../pdfpermissions/)*) | Инициализирует экземпляр этого класса. |
 
 ## Характеристики
 
@@ -31,7 +33,7 @@ public class PdfEncryptionDetails
 | [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions/) { get; set; } | Указывает операции, которые разрешены пользователю с зашифрованным PDF-документом. Значение по умолчанию:DisallowAll . |
 | [UserPassword](../../aspose.words.saving/pdfencryptiondetails/userpassword/) { get; set; } | Указывает пароль пользователя, необходимый для открытия зашифрованного PDF-документа. |
 
-### Примеры
+## Примеры
 
 Показывает, как установить разрешения для сохраненного PDF-документа.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

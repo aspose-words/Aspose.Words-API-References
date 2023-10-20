@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Pitch
-second_title: Aspose.Words per .NET API Reference
-description: FontInfo proprietà. Il passo indica se il carattere ha passo fisso spaziatura proporzionale o si basa su unimpostazione predefinita.
+linktitle: Pitch
+articleTitle: Pitch
+second_title: Aspose.Words per .NET
+description: FontInfo Pitch proprietà. Il passo indica se il carattere ha passo fisso spaziatura proporzionale o si basa su unimpostazione predefinita in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fonts/fontinfo/pitch/
@@ -14,7 +16,7 @@ Il passo indica se il carattere ha passo fisso, spaziatura proporzionale o si ba
 public FontPitch Pitch { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere e stampare i dettagli di ciascun carattere in un documento.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontPitch](../../fontpitch/)
 * class [FontInfo](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontinfo/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

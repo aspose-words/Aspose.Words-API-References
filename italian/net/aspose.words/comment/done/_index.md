@@ -1,7 +1,9 @@
 ---
 title: Comment.Done
-second_title: Aspose.Words per .NET API Reference
-description: Comment proprietà. Ottiene o imposta un flag che indica che il commento è stato contrassegnato come completato.
+linktitle: Done
+articleTitle: Done
+second_title: Aspose.Words per .NET
+description: Comment Done proprietà. Ottiene o imposta un flag che indica che il commento è stato contrassegnato come completato in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/comment/done/
@@ -14,7 +16,7 @@ Ottiene o imposta un flag che indica che il commento è stato contrassegnato com
 public bool Done { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come contrassegnare un commento come "fatto".
 
@@ -204,7 +206,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Guarda anche
 
 * class [Comment](../)
-* spazio dei nomi [Aspose.Words](../../comment/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

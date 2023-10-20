@@ -1,7 +1,9 @@
 ---
-title: Interface IResourceSavingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.IResourceSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية حفظ Aspose.Words للموارد الخارجية الصور والخطوط وcss عند حفظ مستند في صفحة ثابتة بتنسيق HTML أو SVG.
+title: IResourceSavingCallback Interface
+linktitle: IResourceSavingCallback
+articleTitle: IResourceSavingCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.IResourceSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية حفظ Aspose.Words للموارد الخارجية الصور والخطوط وcss عند حفظ مستند في صفحة ثابتة بتنسيق HTML أو SVG في C#.
 type: docs
 weight: 5190
 url: /ar/net/aspose.words.saving/iresourcesavingcallback/
@@ -18,9 +20,9 @@ public interface IResourceSavingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(ResourceSavingArgs) | يتم استدعاؤه عندما يقوم Aspose.Words بحفظ مورد خارجي في تنسيقات HTML أو SVG للصفحة الثابتة. |
+| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(*[ResourceSavingArgs](../resourcesavingargs/)*) | يتم استدعاؤه عندما يقوم Aspose.Words بحفظ مورد خارجي في تنسيقات HTML أو SVG للصفحة الثابتة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد اتصال لتتبع الموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
@@ -140,5 +142,3 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

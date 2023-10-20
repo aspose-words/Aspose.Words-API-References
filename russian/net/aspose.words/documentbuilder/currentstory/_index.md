@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentStory
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Получает историю выбранную в данный момент в этомDocumentBuilder .
+linktitle: CurrentStory
+articleTitle: CurrentStory
+second_title: Aspose.Words для .NET
+description: DocumentBuilder CurrentStory свойство. Получает историю выбранную в данный момент в этомDocumentBuilder  на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/documentbuilder/currentstory/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/documentbuilder/currentstory/
 public Story CurrentStory { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с текущей историей конструктора документов.
 
@@ -44,7 +46,5 @@ Assert.IsTrue(builder.CurrentStory.Tables.Contains(table));
 
 * class [Story](../../story/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

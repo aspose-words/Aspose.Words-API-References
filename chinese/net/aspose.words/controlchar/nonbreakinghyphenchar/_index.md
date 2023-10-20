@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingHyphenChar
-second_title: Aspose.Words for .NET API 参考
-description: ControlChar 场地. Microsoft Word 中的不间断连字符是 char30.
+linktitle: NonBreakingHyphenChar
+articleTitle: NonBreakingHyphenChar
+second_title: 用于 .NET 的 Aspose.Words
+description: ControlChar NonBreakingHyphenChar 场地. Microsoft Word 中的不间断连字符是 char30 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words/controlchar/nonbreakinghyphenchar/
@@ -14,13 +16,13 @@ Microsoft Word 中的不间断连字符是 (char)30.
 public const char NonBreakingHyphenChar;
 ```
 
-### 评论
+## 评论
 
 Microsoft Word 中的不间断连字符不对应于 Unicode 字符 U+2011 不间断连字符，而是代表 内部信息，告诉 Microsoft Word 显示连字符而不是换行。
 
 有用信息：http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks。
 
-### 例子
+## 例子
 
 演示如何向文档添加各种控制字符。
 
@@ -92,7 +94,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### 也可以看看
 
 * class [ControlChar](../)
-* 命名空间 [Aspose.Words](../../controlchar/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

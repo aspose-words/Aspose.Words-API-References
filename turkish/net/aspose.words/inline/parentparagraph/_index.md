@@ -1,7 +1,9 @@
 ---
 title: Inline.ParentParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: Inline mülk. Üst öğeyi alırParagraph bu düğümün.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words for .NET
+description: Inline ParentParagraph mülk. Üst öğeyi alırParagraph bu düğümün C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/inline/parentparagraph/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/inline/parentparagraph/
 public Paragraph ParentParagraph { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Satır içi düğümün revizyon türünün nasıl belirleneceğini gösterir.
 
@@ -71,7 +73,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Paragraph](../../paragraph/)
 * class [Inline](../)
-* ad alanı [Aspose.Words](../../inline/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

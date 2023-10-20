@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.FromTimeSpan
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartYValue methode. Erstellt eineChartYValue Instanz derTime Typ.
+linktitle: FromTimeSpan
+articleTitle: FromTimeSpan
+second_title: Aspose.Words für .NET
+description: ChartYValue FromTimeSpan methode. Erstellt eineChartYValue Instanz derTime Typ in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.charts/chartyvalue/fromtimespan/
@@ -17,7 +19,5 @@ public static ChartYValue FromTimeSpan(TimeSpan value)
 ### Siehe auch
 
 * class [ChartYValue](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.IncludeTextboxesFootnotesEndnotesInStat
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Kelime sayısı istatistiklerine metin kutularının dipnotların ve son notların dahil edilip edilmeyeceğini belirtir.
+linktitle: IncludeTextboxesFootnotesEndnotesInStat
+articleTitle: IncludeTextboxesFootnotesEndnotesInStat
+second_title: Aspose.Words for .NET
+description: Document IncludeTextboxesFootnotesEndnotesInStat mülk. Kelime sayısı istatistiklerine metin kutularının dipnotların ve son notların dahil edilip edilmeyeceğini belirtir C#'da.
 type: docs
 weight: 220
 url: /tr/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/
@@ -14,7 +16,7 @@ Kelime sayısı istatistiklerine metin kutularının, dipnotların ve son notlar
 public bool IncludeTextboxesFootnotesEndnotesInStat { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metin kutularının, dipnotların ve son notların kelime sayısı istatistiklerine nasıl dahil edileceğini veya hariç tutulacağını gösterir.
 
@@ -38,7 +40,5 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Words);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

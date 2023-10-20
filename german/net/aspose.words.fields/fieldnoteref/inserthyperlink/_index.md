@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.InsertHyperlink
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldNoteRef eigendom. Ruft ab oder legt fest ob ein Hyperlink zum mit einem Lesezeichen versehenen Absatz eingefügt werden soll.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words für .NET
+description: FieldNoteRef InsertHyperlink eigendom. Ruft ab oder legt fest ob ein Hyperlink zum mit einem Lesezeichen versehenen Absatz eingefügt werden soll in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldnoteref/inserthyperlink/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob ein Hyperlink zum mit einem Lesezeichen versehenen Ab
 public bool InsertHyperlink { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt das Einfügen von NOTEREF-Feldern und das Ändern ihres Erscheinungsbilds an.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### Siehe auch
 
 * class [FieldNoteRef](../)
-* namensraum [Aspose.Words.Fields](../../fieldnoteref/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

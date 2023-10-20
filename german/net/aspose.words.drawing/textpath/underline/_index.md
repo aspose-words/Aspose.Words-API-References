@@ -1,7 +1,9 @@
 ---
 title: TextPath.Underline
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextPath eigendom. True wenn die Schriftart unterstrichen ist.
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words für .NET
+description: TextPath Underline eigendom. True wenn die Schriftart unterstrichen ist in C#.
 type: docs
 weight: 190
 url: /de/net/aspose.words.drawing/textpath/underline/
@@ -14,11 +16,11 @@ True, wenn die Schriftart unterstrichen ist.
 public bool Underline { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit WordArt arbeitet.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Siehe auch
 
 * class [TextPath](../)
-* namensraum [Aspose.Words.Drawing](../../textpath/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: EditableRange.Id
-second_title: Aspose.Words لمراجع .NET API
-description: EditableRange ملكية. يحصل على معرف النطاق القابل للتحرير.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words لـ .NET
+description: EditableRange Id ملكية. يحصل على معرف النطاق القابل للتحرير في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/editablerange/id/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/editablerange/id/
 public int Id { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يجب ترسيم المنطقة باستخدام[`EditableRangeStart`](../editablerangestart/) و[`EditableRangeEnd`](../editablerangeend/)
 
 من المفترض أن تكون معرفات النطاق القابلة للتحرير فريدة عبر المستند، ويحتفظ Aspose.Words تلقائيًا بمعرفات النطاق القابلة للتحرير عند تحميل المستندات وحفظها ودمجها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع نطاق قابل للتحرير.
 
@@ -66,7 +68,5 @@ editableRange.Remove();
 ### أنظر أيضا
 
 * class [EditableRange](../)
-* مساحة الاسم [Aspose.Words](../../editablerange/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

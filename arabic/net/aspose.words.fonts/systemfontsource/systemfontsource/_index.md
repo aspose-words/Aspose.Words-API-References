@@ -1,7 +1,9 @@
 ---
-title: SystemFontSource.SystemFontSource
-second_title: Aspose.Words لمراجع .NET API
-description: SystemFontSource البناء. الممثل.
+title: SystemFontSource
+linktitle: SystemFontSource
+articleTitle: SystemFontSource
+second_title: Aspose.Words لـ .NET
+description: SystemFontSource البناء. الممثل في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/systemfontsource/systemfontsource/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/systemfontsource/systemfontsource/
 public SystemFontSource()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخطوط.
 
@@ -70,12 +72,12 @@ Assert.AreEqual(1,
 ### أنظر أيضا
 
 * class [SystemFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../systemfontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## SystemFontSource(int) {#constructor_1}
+## SystemFontSource(*int*) {#constructor_1}
 
 الممثل.
 
@@ -87,7 +89,7 @@ public SystemFontSource(int priority)
 | --- | --- | --- |
 | priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف العقار لمزيد من المعلومات. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخطوط.
 
@@ -143,7 +145,5 @@ Assert.AreEqual(1,
 ### أنظر أيضا
 
 * class [SystemFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../systemfontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

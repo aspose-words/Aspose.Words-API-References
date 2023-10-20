@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberRestartMode
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Hämtar eller ställer in hur linjenumrering körs det vill säga om den börjar om i början av en new sida eller sektion eller körs kontinuerligt.
+linktitle: LineNumberRestartMode
+articleTitle: LineNumberRestartMode
+second_title: Aspose.Words för .NET
+description: PageSetup LineNumberRestartMode fast egendom. Hämtar eller ställer in hur linjenumrering körs det vill säga om den börjar om i början av en new sida eller sektion eller körs kontinuerligt i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words/pagesetup/linenumberrestartmode/
@@ -14,7 +16,7 @@ Hämtar eller ställer in hur linjenumrering körs, det vill säga om den börja
 public LineNumberRestartMode LineNumberRestartMode { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man aktiverar radnumrering för en sektion.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 
 * enum [LineNumberRestartMode](../../linenumberrestartmode/)
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

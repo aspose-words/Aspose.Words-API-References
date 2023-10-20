@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Separator
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabelCollection 财产. 获取或设置用于整个系列的数据标签的字符串分隔符 默认为逗号但饼图仅显示类别名称和百分比时除外此时应使用换行符 
+linktitle: Separator
+articleTitle: Separator
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabelCollection Separator 财产. 获取或设置用于整个系列的数据标签的字符串分隔符 默认为逗号但饼图仅显示类别名称和百分比时除外此时应使用换行符  在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
 public string Separator { get; set; }
 ```
 
-### 评论
+## 评论
 
 可以使用 the 覆盖单个数据标签为此属性定义的值[`Separator`](../../chartdatalabel/separator/)属性.
 
-### 例子
+## 例子
 
 演示如何使用气泡图的数据标签。
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### 也可以看看
 
 * class [ChartDataLabelCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

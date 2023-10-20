@@ -1,7 +1,9 @@
 ---
 title: IBarcodeGenerator.GetOldBarcodeImage
-second_title: Aspose.Words for .NET API 参考
-description: IBarcodeGenerator 方法. 使用一组参数生成条形码图像适用于老式条形码字段
+linktitle: GetOldBarcodeImage
+articleTitle: GetOldBarcodeImage
+second_title: 用于 .NET 的 Aspose.Words
+description: IBarcodeGenerator GetOldBarcodeImage 方法. 使用一组参数生成条形码图像适用于老式条形码字段 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/
@@ -22,7 +24,7 @@ public Image GetOldBarcodeImage(BarcodeParameters parameters)
 
 表示生成的条形码的图像。
 
-### 例子
+## 例子
 
 展示如何使用条形码生成器。
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * class [BarcodeParameters](../../barcodeparameters/)
 * interface [IBarcodeGenerator](../)
-* 命名空间 [Aspose.Words.Fields](../../ibarcodegenerator/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

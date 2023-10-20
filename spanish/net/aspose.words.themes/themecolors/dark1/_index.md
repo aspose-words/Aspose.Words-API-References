@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Dark1
-second_title: Referencia de API de Aspose.Words para .NET
-description: ThemeColors propiedad. Especifica el color Oscuro 1.
+linktitle: Dark1
+articleTitle: Dark1
+second_title: Aspose.Words para .NET
+description: ThemeColors Dark1 propiedad. Especifica el color Oscuro 1 en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.themes/themecolors/dark1/
@@ -14,7 +16,7 @@ Especifica el color Oscuro 1.
 public Color Dark1 { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar colores y fuentes personalizados para temas.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Ver también
 
 * class [ThemeColors](../)
-* espacio de nombres [Aspose.Words.Themes](../../themecolors/)
+* espacio de nombres [Aspose.Words.Themes](../../../aspose.words.themes/)
 * asamblea [Aspose.Words](../../../)
-
-

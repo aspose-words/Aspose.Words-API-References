@@ -1,12 +1,14 @@
 ---
 title: Document.UpdateThumbnail
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. UpdatesThumbnail des Dokuments gemäß den angegebenen Optionen.
+linktitle: UpdateThumbnail
+articleTitle: UpdateThumbnail
+second_title: Aspose.Words für .NET
+description: Document UpdateThumbnail methode. UpdatesThumbnail des Dokuments gemäß den angegebenen Optionen in C#.
 type: docs
-weight: 800
+weight: 780
 url: /de/net/aspose.words/document/updatethumbnail/
 ---
-## UpdateThumbnail(ThumbnailGeneratingOptions) {#updatethumbnail_1}
+## UpdateThumbnail(*[ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)*) {#updatethumbnail_1}
 
 Updates[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) des Dokuments gemäß den angegebenen Optionen.
 
@@ -18,11 +20,11 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 | --- | --- | --- |
 | options | ThumbnailGeneratingOptions | Die zu verwendenden Generierungsoptionen. |
 
-### Bemerkungen
+## Bemerkungen
 
 Die[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) Ermöglicht Ihnen, die Quelle des Miniaturbilds, die Größe und andere Optionen anzugeben. Wenn der Versuch, ein Miniaturbild zu generieren, fehlschlägt, wird eines nicht geändert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Miniaturansicht eines Dokuments aktualisiert wird.
 
@@ -51,7 +53,7 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 * class [ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -64,7 +66,7 @@ Updates[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/
 public void UpdateThumbnail()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Miniaturansicht eines Dokuments aktualisiert wird.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

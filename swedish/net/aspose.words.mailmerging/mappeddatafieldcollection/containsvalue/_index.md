@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.ContainsValue
-second_title: Aspose.Words för .NET API Referens
-description: MappedDataFieldCollection metod. Bestämmer om en mappning från det angivna fältet i datakällan finns i samlingen.
+linktitle: ContainsValue
+articleTitle: ContainsValue
+second_title: Aspose.Words för .NET
+description: MappedDataFieldCollection ContainsValue metod. Bestämmer om en mappning från det angivna fältet i datakällan finns i samlingen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/
@@ -22,7 +24,7 @@ public bool ContainsValue(string dataSourceFieldName)
 
 `Sann` om föremål finns i samlingen; annat,`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man mappar datakolumner och MERGEFIELDs med olika namn så att data överförs mellan dem under en sammankoppling.
 
@@ -107,7 +109,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Se även
 
 * class [MappedDataFieldCollection](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

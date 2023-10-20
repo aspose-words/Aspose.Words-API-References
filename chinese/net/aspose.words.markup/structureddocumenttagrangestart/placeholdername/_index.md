@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.PlaceholderName
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeStart 财产. 获取或设置名称BuildingBlock包含占位符文本
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTagRangeStart PlaceholderName 财产. 获取或设置名称BuildingBlock包含占位符文本 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
@@ -16,7 +18,7 @@ url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername
 public string PlaceholderName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何获取多节结构化文档标签的属性。
 
@@ -51,7 +53,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### 也可以看看
 
 * class [StructuredDocumentTagRangeStart](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

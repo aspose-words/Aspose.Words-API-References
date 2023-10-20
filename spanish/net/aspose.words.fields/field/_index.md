@@ -1,7 +1,9 @@
 ---
-title: Class Field
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.Field clase. Representa un campo de documento de Microsoft Word.
+title: Field Class
+linktitle: Field
+articleTitle: Field
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.Field clase. Representa un campo de documento de Microsoft Word en C#.
 type: docs
 weight: 1510
 url: /es/net/aspose.words.fields/field/
@@ -36,13 +38,13 @@ public class Field
 | Nombre | Descripción |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
 | [Update](../../aspose.words.fields/field/update/#update)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/#update_1)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/#update_1)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
-### Observaciones
+## Observaciones
 
 Un campo en un documento de Word es una estructura compleja que consta de múltiples nodos que incluyen el inicio del campo, el código de campo , el separador de campo, el resultado del campo y el final del campo. Los campos pueden estar anidados, contener contenido enriquecido y abarcar varios párrafos o secciones en un documento. El`Field` La clase es un objeto "fachada" que proporciona propiedades y métodos que permiten trabajar con un campo como un solo objeto.
 
@@ -56,7 +58,7 @@ Puede obtener la versión en texto plano del código de campo utilizando el[`Get
 
 No creas instancias de la`Field` clase directamente. Para crear un nuevo campo utilice el[`InsertField`](../../aspose.words/documentbuilder/insertfield/) método.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo en un documento usando un código de campo.
 
@@ -77,5 +79,3 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

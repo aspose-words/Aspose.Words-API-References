@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.PreserveIncludePictureField
-second_title: Справочник по API Aspose.Words для .NET
-description: LoadOptions свойство. Получает или задает следует ли сохранять поле INCLUDEPICTURE при чтении форматов Microsoft Word. Значение по умолчанию ЛОЖЬ .
+linktitle: PreserveIncludePictureField
+articleTitle: PreserveIncludePictureField
+second_title: Aspose.Words для .NET
+description: LoadOptions PreserveIncludePictureField свойство. Получает или задает следует ли сохранять поле INCLUDEPICTURE при чтении форматов Microsoft Word. Значение по умолчанию ЛОЖЬ  на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
 public bool PreserveIncludePictureField { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчанию поле INCLUDEPICTURE преобразуется в объект формы. Вы можете переопределить это, если вам нужно поле, которое нужно сохранить, например, если вы хотите обновить его программно. Однако обратите внимание, что подход this не является общим для Aspose.Words. Используйте его на свой страх и риск.
 
 Одним из возможных вариантов использования может быть использование MERGEFIELD в качестве дочернего поля для динамического изменения исходного path изображения. В этом случае вам необходимо, чтобы ВКЛЮЧЕННАЯ ИЗОБРАЖЕНИЕ сохранилось в модели.
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить или удалить поля INCLUDEPICTURE при загрузке документа.
 
@@ -62,7 +64,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Смотрите также
 
 * class [LoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../loadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

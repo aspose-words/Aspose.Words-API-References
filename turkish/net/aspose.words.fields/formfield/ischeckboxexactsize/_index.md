@@ -1,7 +1,9 @@
 ---
 title: FormField.IsCheckBoxExactSize
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Metin kutusunun boyutunun otomatik mi yoksa açıkça mı belirtildiğini belirten boole değerini alır veya ayarlar.
+linktitle: IsCheckBoxExactSize
+articleTitle: IsCheckBoxExactSize
+second_title: Aspose.Words for .NET
+description: FormField IsCheckBoxExactSize mülk. Metin kutusunun boyutunun otomatik mi yoksa açıkça mı belirtildiğini belirten boole değerini alır veya ayarlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.fields/formfield/ischeckboxexactsize/
@@ -14,11 +16,11 @@ Metin kutusunun boyutunun otomatik mi yoksa açıkça mı belirtildiğini belirt
 public bool IsCheckBoxExactSize { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yalnızca onay kutusu form alanı için geçerlidir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportLanguageInformation
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica se le informazioni sulla lingua vengono esportate in HTML MHTML o EPUB. Limpostazione predefinita èfalso .
+linktitle: ExportLanguageInformation
+articleTitle: ExportLanguageInformation
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions ExportLanguageInformation proprietà. Specifica se le informazioni sulla lingua vengono esportate in HTML MHTML o EPUB. Limpostazione predefinita èfalso  in C#.
 type: docs
 weight: 180
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
@@ -14,11 +16,11 @@ Specifica se le informazioni sulla lingua vengono esportate in HTML, MHTML o EPU
 public bool ExportLanguageInformation { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
-Quando questa proprietà è impostata su`VERO` Uscite Aspose.Words **lang** Attributo HTML sugli elementi document che specificano la lingua. Ciò può essere necessario per preservare la semantica relativa alla lingua.
+Quando questa proprietà è impostata su`VERO` Uscite Aspose.Words**lang** Attributo HTML sugli elementi document che specificano la lingua. Ciò può essere necessario per preservare la semantica relativa alla lingua.
 
-### Esempi
+## Esempi
 
 Mostra come preservare le informazioni sulla lingua durante il salvataggio in .html.
 
@@ -69,7 +71,5 @@ else
 ### Guarda anche
 
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

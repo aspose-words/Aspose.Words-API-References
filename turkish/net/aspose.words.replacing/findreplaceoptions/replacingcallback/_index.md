@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ReplacingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Her değiştirme işleminden önce çağrılan kullanıcı tanımlı yöntem.
+linktitle: ReplacingCallback
+articleTitle: ReplacingCallback
+second_title: Aspose.Words for .NET
+description: FindReplaceOptions ReplacingCallback mülk. Her değiştirme işleminden önce çağrılan kullanıcı tanımlı yöntem C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
@@ -14,7 +16,7 @@ Her değiştirme işleminden önce çağrılan kullanıcı tanımlı yöntem.
 public IReplacingCallback ReplacingCallback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tüm bu değiştirmeleri izlerken, düzenli ifade modelinin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
 
@@ -139,7 +141,5 @@ private class NumberHexer : IReplacingCallback
 
 * interface [IReplacingCallback](../../ireplacingcallback/)
 * class [FindReplaceOptions](../)
-* ad alanı [Aspose.Words.Replacing](../../findreplaceoptions/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

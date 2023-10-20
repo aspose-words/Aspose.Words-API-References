@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.PushFont
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Sparar aktuell teckenformatering i stacken.
+linktitle: PushFont
+articleTitle: PushFont
+second_title: Aspose.Words för .NET
+description: DocumentBuilder PushFont metod. Sparar aktuell teckenformatering i stacken i C#.
 type: docs
-weight: 610
+weight: 600
 url: /sv/net/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder.PushFont method
@@ -14,7 +16,7 @@ Sparar aktuell teckenformatering i stacken.
 public void PushFont()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder en dokumentbyggares formateringsstack.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 * property [Font](../font/)
 * method [PopFont](../popfont/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Font
-second_title: Aspose.Words för .NET API Referens
-description: InlineStory fast egendom. Ger tillgång till teckensnittsformateringen av ankartecknet för detta objekt.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words för .NET
+description: InlineStory Font fast egendom. Ger tillgång till teckensnittsformateringen av ankartecknet för detta objekt i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/inlinestory/font/
@@ -14,7 +16,7 @@ Ger tillgång till teckensnittsformateringen av ankartecknet för detta objekt.
 public Font Font { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar InlineStory-noder.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Font](../../font/)
 * class [InlineStory](../)
-* namnutrymme [Aspose.Words](../../inlinestory/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

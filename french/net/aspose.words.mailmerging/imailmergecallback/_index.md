@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.MailMerging.IMailMergeCallback interface. Implémentez cette interface si vous souhaitez recevoir des notifications pendant le publipostage.
+title: IMailMergeCallback Interface
+linktitle: IMailMergeCallback
+articleTitle: IMailMergeCallback
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.MailMerging.IMailMergeCallback interface. Implémentez cette interface si vous souhaitez recevoir des notifications pendant le publipostage en C#.
 type: docs
 weight: 3800
 url: /fr/net/aspose.words.mailmerging/imailmergecallback/
@@ -20,7 +22,7 @@ public interface IMailMergeCallback
 | --- | --- |
 | [TagsReplaced](../../aspose.words.mailmerging/imailmergecallback/tagsreplaced/)() | Appelé lorsque les balises de texte "moustache" sont remplacées par des champs MERGEFIELD. |
 
-### Exemples
+## Exemples
 
 Montre comment définir une logique personnalisée pour gérer les événements lors du publipostage.
 
@@ -72,5 +74,3 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * espace de noms [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ThumbnailGeneratingOptions.ThumbnailSize
-second_title: Справочник по API Aspose.Words для .NET
-description: ThumbnailGeneratingOptions свойство. Размер созданного эскиза в пикселях. Значение по умолчанию 600x900.
+linktitle: ThumbnailSize
+articleTitle: ThumbnailSize
+second_title: Aspose.Words для .NET
+description: ThumbnailGeneratingOptions ThumbnailSize свойство. Размер созданного эскиза в пикселях. Значение по умолчанию 600x900 на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/
 public Size ThumbnailSize { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как обновить миниатюру документа.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### Смотрите также
 
 * class [ThumbnailGeneratingOptions](../)
-* пространство имен [Aspose.Words.Rendering](../../thumbnailgeneratingoptions/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

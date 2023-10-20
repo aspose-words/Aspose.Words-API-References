@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.DisplayType
-second_title: Aspose.Words for .NET API Referansı
-description: OfficeMath mülk. Bir denklemin text ile satır içi olarak mı yoksa kendi satırında mı görüntüleneceğini temsil eden Office Math görüntüleme biçimi türünü alır/ayarlar.
+linktitle: DisplayType
+articleTitle: DisplayType
+second_title: Aspose.Words for .NET
+description: OfficeMath DisplayType mülk. Bir denklemin text ile satır içi olarak mı yoksa kendi satırında mı görüntüleneceğini temsil eden Office Math görüntüleme biçimi türünü alır/ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.math/officemath/displaytype/
@@ -14,13 +16,13 @@ Bir denklemin text ile satır içi olarak mı yoksa kendi satırında mı görü
 public OfficeMathDisplayType DisplayType { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Görüntüleme biçimi türü yalnızca üst düzey Office Math için etkilidir.
 
 Döndürülen görüntü formatı türü her zamanInline iç içe geçmiş Office Math için.
 
-### Örnekler
+## Örnekler
 
 Ofis matematik ekranı formatının nasıl ayarlanacağını gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [OfficeMathDisplayType](../../officemathdisplaytype/)
 * class [OfficeMath](../)
-* ad alanı [Aspose.Words.Math](../../officemath/)
+* ad alanı [Aspose.Words.Math](../../../aspose.words.math/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.VerticalAnchor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft das Basisobjekt ab aus dem die vertikale Positionierung der schwebenden Tabelle berechnet werden soll. Der Standardwert istMargin .
+linktitle: VerticalAnchor
+articleTitle: VerticalAnchor
+second_title: Aspose.Words für .NET
+description: Table VerticalAnchor eigendom. Ruft das Basisobjekt ab aus dem die vertikale Positionierung der schwebenden Tabelle berechnet werden soll. Der Standardwert istMargin  in C#.
 type: docs
 weight: 340
 url: /de/net/aspose.words.tables/table/verticalanchor/
@@ -14,7 +16,7 @@ Ruft das Basisobjekt ab, aus dem die vertikale Positionierung der schwebenden Ta
 public RelativeVerticalPosition VerticalAnchor { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Floating-Table-Eigenschaften gearbeitet wird.
 
@@ -43,7 +45,5 @@ if (table.TextWrapping == TextWrapping.Around)
 
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

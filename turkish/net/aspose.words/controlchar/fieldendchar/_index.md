@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldEndChar
-second_title: Aspose.Words for .NET API Referansı
-description: ControlChar alan. MS Word alan karakterinin sonu char21.
+linktitle: FieldEndChar
+articleTitle: FieldEndChar
+second_title: Aspose.Words for .NET
+description: ControlChar FieldEndChar alan. MS Word alan karakterinin sonu char21 C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/controlchar/fieldendchar/
@@ -14,7 +16,7 @@ MS Word alan karakterinin sonu: (char)21.
 public const char FieldEndChar;
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye çeşitli kontrol karakterlerinin nasıl ekleneceğini gösterir.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ayrıca bakınız
 
 * class [ControlChar](../)
-* ad alanı [Aspose.Words](../../controlchar/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

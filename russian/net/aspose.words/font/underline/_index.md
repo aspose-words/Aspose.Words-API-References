@@ -1,7 +1,9 @@
 ---
 title: Font.Underline
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает тип подчеркивания применяемого к шрифту.
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words для .NET
+description: Font Underline свойство. Получает или задает тип подчеркивания применяемого к шрифту на С#.
 type: docs
 weight: 530
 url: /ru/net/aspose.words/font/underline/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/underline/
 public Underline Underline { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить стиль и цвет подчеркивания текста.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 
 * enum [Underline](../../underline/)
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

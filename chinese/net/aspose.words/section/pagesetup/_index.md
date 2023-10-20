@@ -1,7 +1,9 @@
 ---
 title: Section.PageSetup
-second_title: Aspose.Words for .NET API 参考
-description: Section 财产. 返回一个表示页面设置和节属性的对象
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: 用于 .NET 的 Aspose.Words
+description: Section PageSetup 财产. 返回一个表示页面设置和节属性的对象 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/section/pagesetup/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/section/pagesetup/
 public PageSetup PageSetup { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在第一页顶部创建宽蓝色带边框。
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [PageSetup](../../pagesetup/)
 * class [Section](../)
-* 命名空间 [Aspose.Words](../../section/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontInfo.IsTrueType
-second_title: Aspose.Words per .NET API Reference
-description: FontInfo proprietà. Indica che questo carattere è un carattere TrueType o OpenType anziché un carattere raster o vettoriale. Limpostazione predefinita èVERO .
+linktitle: IsTrueType
+articleTitle: IsTrueType
+second_title: Aspose.Words per .NET
+description: FontInfo IsTrueType proprietà. Indica che questo carattere è un carattere TrueType o OpenType anziché un carattere raster o vettoriale. Limpostazione predefinita èVERO  in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fonts/fontinfo/istruetype/
@@ -14,7 +16,7 @@ Indica che questo carattere è un carattere TrueType o OpenType anziché un cara
 public bool IsTrueType { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come stampare i dettagli di quali caratteri sono presenti in un documento.
 
@@ -34,7 +36,5 @@ for (int i = 0; i < allFonts.Count; i++)
 ### Guarda anche
 
 * class [FontInfo](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontinfo/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

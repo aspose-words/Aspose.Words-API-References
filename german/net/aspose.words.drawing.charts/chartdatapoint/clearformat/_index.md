@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.ClearFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataPoint methode. Löscht das Format dieses Datenpunkts. Die Eigenschaften werden auf die in der übergeordneten Serie definierten Standardwerte gesetzt.
+linktitle: ClearFormat
+articleTitle: ClearFormat
+second_title: Aspose.Words für .NET
+description: ChartDataPoint ClearFormat methode. Löscht das Format dieses Datenpunkts. Die Eigenschaften werden auf die in der übergeordneten Serie definierten Standardwerte gesetzt in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing.charts/chartdatapoint/clearformat/
@@ -17,7 +19,5 @@ public void ClearFormat()
 ### Siehe auch
 
 * class [ChartDataPoint](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

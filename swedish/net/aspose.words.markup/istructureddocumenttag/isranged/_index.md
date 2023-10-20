@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.IsRanged
-second_title: Aspose.Words för .NET API Referens
-description: IStructuredDocumentTag metod. Returnerar sant om denna instans är en strukturerad dokumenttagg med intervall.
+linktitle: IsRanged
+articleTitle: IsRanged
+second_title: Aspose.Words för .NET
+description: IStructuredDocumentTag IsRanged metod. Returnerar sant om denna instans är en strukturerad dokumenttagg med intervall i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.markup/istructureddocumenttag/isranged/
@@ -14,7 +16,7 @@ Returnerar sant om denna instans är en strukturerad dokumenttagg med intervall.
 public bool IsRanged()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får strukturerad dokumenttagg.
 
@@ -34,7 +36,5 @@ Console.WriteLine(sdt.Id);
 ### Se även
 
 * interface [IStructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../istructureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

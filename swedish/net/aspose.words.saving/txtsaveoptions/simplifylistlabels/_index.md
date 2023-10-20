@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.SimplifyListLabels
-second_title: Aspose.Words för .NET API Referens
-description: TxtSaveOptions fast egendom. Anger om programmet ska förenkla listetiketter om komplex etikettformatering inte representeras tillräckligt av vanlig text.
+linktitle: SimplifyListLabels
+articleTitle: SimplifyListLabels
+second_title: Aspose.Words för .NET
+description: TxtSaveOptions SimplifyListLabels fast egendom. Anger om programmet ska förenkla listetiketter om komplex etikettformatering inte representeras tillräckligt av vanlig text i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
@@ -16,7 +18,7 @@ Om inställt på`Sann` , numrerade listetiketter skrivs i enkelt numeriskt forma
 public bool SimplifyListLabels { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ändrar utseendet på listor när du sparar ett dokument som klartext.
 
@@ -66,7 +68,5 @@ else
 ### Se även
 
 * class [TxtSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../txtsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

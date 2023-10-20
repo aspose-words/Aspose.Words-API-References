@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.Sign
-second_title: Aspose.Words for .NET API 参考
-description: DigitalSignatureUtil 方法. 使用给定的源文档签名CertificateHolder和SignOptions 带有数字签名并将签名文档写入目标流
+linktitle: Sign
+articleTitle: Sign
+second_title: 用于 .NET 的 Aspose.Words
+description: DigitalSignatureUtil Sign 方法. 使用给定的源文档签名CertificateHolder和SignOptions 带有数字签名并将签名文档写入目标流 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
-## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
+## Sign(*Stream, Stream, [CertificateHolder](../../certificateholder/), [SignOptions](../../signoptions/)*) {#sign_1}
 
 使用给定的源文档签名[`CertificateHolder`](../../certificateholder/)和[`SignOptions`](../../signoptions/) 带有数字签名并将签名文档写入目标流。
 
@@ -26,7 +28,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/)具有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置了 X509KeyStorageFlags.Exportable 标志。 |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions/)具有各种签名选项的对象。 |
 
-### 例子
+## 例子
 
 展示如何对文档进行数字签名。
 
@@ -57,12 +59,12 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 * class [CertificateHolder](../../certificateholder/)
 * class [SignOptions](../../signoptions/)
 * class [DigitalSignatureUtil](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
+## Sign(*string, string, [CertificateHolder](../../certificateholder/), [SignOptions](../../signoptions/)*) {#sign_3}
 
 使用给定的源文档签名[`CertificateHolder`](../../certificateholder/)和[`SignOptions`](../../signoptions/) 带有数字签名并将签名文档写入目标文件。
 
@@ -80,7 +82,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/)具有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置了 X509KeyStorageFlags.Exportable 标志。 |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions/)具有各种签名选项的对象。 |
 
-### 例子
+## 例子
 
 演示如何向文档添加签名行，然后使用数字证书对其进行签名。
 
@@ -198,12 +200,12 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 * class [CertificateHolder](../../certificateholder/)
 * class [SignOptions](../../signoptions/)
 * class [DigitalSignatureUtil](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Sign(Stream, Stream, CertificateHolder) {#sign}
+## Sign(*Stream, Stream, [CertificateHolder](../../certificateholder/)*) {#sign}
 
 使用给定的源文档签名[`CertificateHolder`](../../certificateholder/)带有数字签名 并将签名文档写入目标流.
 
@@ -221,7 +223,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | dstStream | Stream | 签名文档将被写入的流。 |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/)具有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置了 X509KeyStorageFlags.Exportable 标志。 |
 
-### 例子
+## 例子
 
 演示如何使用 X.509 证书签署文档。
 
@@ -265,12 +267,12 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignatureUtil](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Sign(string, string, CertificateHolder) {#sign_2}
+## Sign(*string, string, [CertificateHolder](../../certificateholder/)*) {#sign_2}
 
 使用给定的源文档签名[`CertificateHolder`](../../certificateholder/)带有数字签名 并将签名文档写入目标文件.
 
@@ -286,7 +288,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | dstFileName | String | 签名文档输出的文件名。 |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/)具有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置了 X509KeyStorageFlags.Exportable 标志。 |
 
-### 例子
+## 例子
 
 演示如何使用 X.509 证书签署文档。
 
@@ -330,7 +332,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignatureUtil](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

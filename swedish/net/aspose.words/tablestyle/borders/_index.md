@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Borders
-second_title: Aspose.Words för .NET API Referens
-description: TableStyle fast egendom. Hämtar samlingen av standardcellkanter för stilen.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words för .NET
+description: TableStyle Borders fast egendom. Hämtar samlingen av standardcellkanter för stilen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/tablestyle/borders/
@@ -14,7 +16,7 @@ Hämtar samlingen av standardcellkanter för stilen.
 public BorderCollection Borders { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar anpassade stilinställningar för tabellen.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [TableStyle](../)
-* namnutrymme [Aspose.Words](../../tablestyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

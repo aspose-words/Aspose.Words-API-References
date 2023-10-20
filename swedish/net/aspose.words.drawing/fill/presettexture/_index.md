@@ -1,9 +1,11 @@
 ---
 title: Fill.PresetTexture
-second_title: Aspose.Words för .NET API Referens
-description: Fill fast egendom. Får enPresetTexture för fyllningen.
+linktitle: PresetTexture
+articleTitle: PresetTexture
+second_title: Aspose.Words för .NET
+description: Fill PresetTexture fast egendom. Får enPresetTexture för fyllningen i C#.
 type: docs
-weight: 170
+weight: 160
 url: /sv/net/aspose.words.drawing/fill/presettexture/
 ---
 ## Fill.PresetTexture property
@@ -18,7 +20,5 @@ public PresetTexture PresetTexture { get; }
 
 * enum [PresetTexture](../../presettexture/)
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

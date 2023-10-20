@@ -1,7 +1,9 @@
 ---
 title: TxtListIndentation.Character
-second_title: Referencia de API de Aspose.Words para .NET
-description: TxtListIndentation propiedad. Obtiene o establece qué carácter usar para sangrar los niveles de la lista. El valor predeterminado es 0 eso significa que no hay sangría.
+linktitle: Character
+articleTitle: Character
+second_title: Aspose.Words para .NET
+description: TxtListIndentation Character propiedad. Obtiene o establece qué carácter usar para sangrar los niveles de la lista. El valor predeterminado es 0 eso significa que no hay sangría en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/txtlistindentation/character/
@@ -14,7 +16,7 @@ Obtiene o establece qué carácter usar para sangrar los niveles de la lista. El
 public char Character { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la sangría de lista al guardar un documento en texto sin formato.
 
@@ -54,7 +56,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 ### Ver también
 
 * class [TxtListIndentation](../)
-* espacio de nombres [Aspose.Words.Saving](../../txtlistindentation/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

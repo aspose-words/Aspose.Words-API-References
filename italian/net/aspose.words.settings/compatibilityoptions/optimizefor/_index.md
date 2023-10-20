@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.OptimizeFor
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions metodo. Consente di ottimizzare il contenuto del documento e il comportamento predefinito di Aspose.Words per una particolare versione di MS Word.
+linktitle: OptimizeFor
+articleTitle: OptimizeFor
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions OptimizeFor metodo. Consente di ottimizzare il contenuto del documento e il comportamento predefinito di Aspose.Words per una particolare versione di MS Word in C#.
 type: docs
 weight: 720
 url: /it/net/aspose.words.settings/compatibilityoptions/optimizefor/
@@ -16,7 +18,7 @@ Utilizza questo metodo per impedire a MS Word di visualizzare la barra multifunz
 public void OptimizeFor(MsWordVersion version)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come allineare verticalmente il contenuto del testo di una casella di testo.
 
@@ -130,7 +132,5 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * enum [MsWordVersion](../../mswordversion/)
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: PdfDigitalSignatureTimestampSettings.PdfDigitalSignatureTimestampSettings
-second_title: Aspose.Words for .NET API 参考
-description: PdfDigitalSignatureTimestampSettings 构造函数. 初始化此类的实例
+title: PdfDigitalSignatureTimestampSettings
+linktitle: PdfDigitalSignatureTimestampSettings
+articleTitle: PdfDigitalSignatureTimestampSettings
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfDigitalSignatureTimestampSettings 构造函数. 初始化此类的实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/pdfdigitalsignaturetimestampsettings/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/pdfdigital
 public PdfDigitalSignatureTimestampSettings()
 ```
 
-### 例子
+## 例子
 
 演示如何对保存的 PDF 文档进行数字签名并为其添加时间戳。
 
@@ -54,12 +56,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### 也可以看看
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## PdfDigitalSignatureTimestampSettings(string, string, string) {#constructor_1}
+## PdfDigitalSignatureTimestampSettings(*string, string, string*) {#constructor_1}
 
 初始化此类的实例。
 
@@ -73,7 +75,7 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 | userName | String | 时间戳服务器用户名。 |
 | password | String | 时间戳服务器密码。 |
 
-### 例子
+## 例子
 
 演示如何对保存的 PDF 文档进行数字签名并为其添加时间戳。
 
@@ -113,12 +115,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### 也可以看看
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## PdfDigitalSignatureTimestampSettings(string, string, string, TimeSpan) {#constructor_2}
+## PdfDigitalSignatureTimestampSettings(*string, string, string, TimeSpan*) {#constructor_2}
 
 初始化此类的实例。
 
@@ -134,7 +136,7 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 | password | String | 时间戳服务器密码。 |
 | timeout | TimeSpan | 访问时间戳服务器的超时值。 |
 
-### 例子
+## 例子
 
 演示如何对保存的 PDF 文档进行数字签名并为其添加时间戳。
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### 也可以看看
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

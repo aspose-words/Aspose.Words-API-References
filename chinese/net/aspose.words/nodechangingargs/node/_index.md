@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.Node
-second_title: Aspose.Words for .NET API 参考
-description: NodeChangingArgs 财产. 获取Node正在添加或删除
+linktitle: Node
+articleTitle: Node
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeChangingArgs Node 财产. 获取Node正在添加或删除 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/nodechangingargs/node/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/nodechangingargs/node/
 public Node Node { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何通过回调自定义节点更改。
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* 命名空间 [Aspose.Words](../../nodechangingargs/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

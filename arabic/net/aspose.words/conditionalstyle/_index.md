@@ -1,7 +1,9 @@
 ---
-title: Class ConditionalStyle
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.ConditionalStyle فصل. يمثل التنسيق الخاص المطبق على بعض مناطق الجدول بنمط الجدول المخصص.
+title: ConditionalStyle Class
+linktitle: ConditionalStyle
+articleTitle: ConditionalStyle
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.ConditionalStyle فصل. يمثل التنسيق الخاص المطبق على بعض مناطق الجدول بنمط الجدول المخصص في C#.
 type: docs
 weight: 310
 url: /ar/net/aspose.words/conditionalstyle/
@@ -35,10 +37,10 @@ public sealed class ConditionalStyle
 | اسم | وصف |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting/)() | مسح تنسيق هذا النمط الشرطي. |
-| override [Equals](../../aspose.words/conditionalstyle/equals/)(object) | مقارنة هذا النمط الشرطي بالكائن المحدد. |
+| override [Equals](../../aspose.words/conditionalstyle/equals/)(*object*) | مقارنة هذا النمط الشرطي بالكائن المحدد. |
 | override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | حساب رمز التجزئة لهذا الكائن. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -109,5 +111,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

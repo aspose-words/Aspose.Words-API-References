@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PageMode
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 指定在 PDF 阅读器中打开 PDF 文档时应如何显示
+linktitle: PageMode
+articleTitle: PageMode
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions PageMode 财产. 指定在 PDF 阅读器中打开 PDF 文档时应如何显示 在 C#.
 type: docs
 weight: 250
 url: /zh/net/aspose.words.saving/pdfsaveoptions/pagemode/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/pagemode/
 public PdfPageMode PageMode { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为UseOutlines.
 
-### 例子
+## 例子
 
 展示如何设置某些 PDF 阅读器在打开输出文档时要遵循的说明。
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * enum [PdfPageMode](../../pdfpagemode/)
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

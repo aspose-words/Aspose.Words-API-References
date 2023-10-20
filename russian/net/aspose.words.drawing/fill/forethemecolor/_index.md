@@ -1,9 +1,11 @@
 ---
 title: Fill.ForeThemeColor
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill свойство. Получает или задает объект ThemeColor который представляет цвет переднего плана для заливки.
+linktitle: ForeThemeColor
+articleTitle: ForeThemeColor
+second_title: Aspose.Words для .NET
+description: Fill ForeThemeColor свойство. Получает или задает объект ThemeColor который представляет цвет переднего плана для заливки на С#.
 type: docs
-weight: 80
+weight: 70
 url: /ru/net/aspose.words.drawing/fill/forethemecolor/
 ---
 ## Fill.ForeThemeColor property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/fill/forethemecolor/
 public ThemeColor ForeThemeColor { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить цвет темы для цвета фигуры переднего плана/фона.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

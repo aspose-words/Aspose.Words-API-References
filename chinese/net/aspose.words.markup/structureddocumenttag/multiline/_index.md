@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.Multiline
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 指定是否 特殊测试允许多行文本
+linktitle: Multiline
+articleTitle: Multiline
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag Multiline 财产. 指定是否特殊测试允许多行文本 在 C#.
 type: docs
 weight: 210
 url: /zh/net/aspose.words.markup/structureddocumenttag/multiline/
 ---
 ## StructuredDocumentTag.Multiline property
 
-指定是否 **特殊测试**允许多行文本。
+指定是否**特殊测试**允许多行文本。
 
 ```csharp
 public bool Multiline { get; set; }
 ```
 
-### 评论
+## 评论
 
 访问该属性仅适用于RichText和PlainTextSDT 类型.
 
 对于所有其他 SDT 类型，都会发生异常。
 
-### 例子
+## 例子
 
 演示如何在纯文本框中创建结构化文档标签并修改其外观。
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

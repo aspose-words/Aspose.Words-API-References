@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeHorizontalPosition
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Anger i förhållande till vad formen är placerad horisontellt.
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: Aspose.Words för .NET
+description: ShapeBase RelativeHorizontalPosition fast egendom. Anger i förhållande till vad formen är placerad horisontellt i C#.
 type: docs
 weight: 420
 url: /sv/net/aspose.words.drawing/shapebase/relativehorizontalposition/
@@ -14,13 +16,13 @@ Anger i förhållande till vad formen är placerad horisontellt.
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärColumn.
 
 Har effekt endast för svävande former på toppnivå.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en flytande bild i mitten av en sida.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [RelativeHorizontalPosition](../../relativehorizontalposition/)
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.LegendEntries
-second_title: Aspose.Words for .NET API Referansı
-description: ChartLegend mülk. Ana grafiğin tüm serileri ve trend çizgileri için gösterge girişlerinin bir koleksiyonunu döndürür.
+linktitle: LegendEntries
+articleTitle: LegendEntries
+second_title: Aspose.Words for .NET
+description: ChartLegend LegendEntries mülk. Ana grafiğin tüm serileri ve trend çizgileri için gösterge girişlerinin bir koleksiyonunu döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartlegend/legendentries/
@@ -14,7 +16,7 @@ Ana grafiğin tüm serileri ve trend çizgileri için gösterge girişlerinin bi
 public ChartLegendEntryCollection LegendEntries { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Grafik serileri için bir açıklama girişiyle nasıl çalışılacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [ChartLegendEntryCollection](../../chartlegendentrycollection/)
 * class [ChartLegend](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

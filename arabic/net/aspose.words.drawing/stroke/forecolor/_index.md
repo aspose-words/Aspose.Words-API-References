@@ -1,9 +1,11 @@
 ---
 title: Stroke.ForeColor
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. الحصول على أو تعيين اللون الأمامي للحد.
+linktitle: ForeColor
+articleTitle: ForeColor
+second_title: Aspose.Words لـ .NET
+description: Stroke ForeColor ملكية. الحصول على أو تعيين اللون الأمامي للحد في C#.
 type: docs
-weight: 110
+weight: 100
 url: /ar/net/aspose.words.drawing/stroke/forecolor/
 ---
 ## Stroke.ForeColor property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/forecolor/
 public Color ForeColor { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية لـ a[`Shape`](../../shape/) is Black.
 
-### أمثلة
+## أمثلة
 
 أظهر كيفية ضبط تنسيق العلامة.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### أنظر أيضا
 
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ApplyBulletDefault
-second_title: Referencia de API de Aspose.Words para .NET
-description: ListFormat método. Inicia una nueva lista con viñetas predeterminada y la aplica al párrafo.
+linktitle: ApplyBulletDefault
+articleTitle: ApplyBulletDefault
+second_title: Aspose.Words para .NET
+description: ListFormat ApplyBulletDefault método. Inicia una nueva lista con viñetas predeterminada y la aplica al párrafo en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.lists/listformat/applybulletdefault/
@@ -14,11 +16,11 @@ Inicia una nueva lista con viñetas predeterminada y la aplica al párrafo.
 public void ApplyBulletDefault()
 ```
 
-### Observaciones
+## Observaciones
 
 Este es un método abreviado que crea una nueva lista utilizando la plantilla predeterminada bulleted , la aplica al párrafo y selecciona el primer nivel de lista.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear listas numeradas y con viñetas.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Ver también
 
 * class [ListFormat](../)
-* espacio de nombres [Aspose.Words.Lists](../../listformat/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

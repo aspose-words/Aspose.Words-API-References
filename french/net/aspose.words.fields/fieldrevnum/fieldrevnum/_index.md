@@ -1,7 +1,9 @@
 ---
-title: FieldRevNum.FieldRevNum
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldRevNum constructeur. Default_Constructor
+title: FieldRevNum
+linktitle: FieldRevNum
+articleTitle: FieldRevNum
+second_title: Aspose.Words pour .NET
+description: FieldRevNum constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldrevnum/fieldrevnum/
@@ -17,7 +19,5 @@ public FieldRevNum()
 ### Voir également
 
 * class [FieldRevNum](../)
-* espace de noms [Aspose.Words.Fields](../../fieldrevnum/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

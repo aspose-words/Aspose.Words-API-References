@@ -1,7 +1,9 @@
 ---
 title: FieldImport.GraphicFilter
-second_title: Aspose.Words لمراجع .NET API
-description: FieldImport ملكية. الحصول على أو تعيين اسم المرشح لتنسيق الرسم الذي سيتم إدراجه.
+linktitle: GraphicFilter
+articleTitle: GraphicFilter
+second_title: Aspose.Words لـ .NET
+description: FieldImport GraphicFilter ملكية. الحصول على أو تعيين اسم المرشح لتنسيق الرسم الذي سيتم إدراجه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldimport/graphicfilter/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldimport/graphicfilter/
 public string GraphicFilter { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج الصور باستخدام حقلي الاستيراد والتضمين.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### أنظر أيضا
 
 * class [FieldImport](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldimport/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

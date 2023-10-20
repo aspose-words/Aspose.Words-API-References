@@ -1,7 +1,9 @@
 ---
-title: FieldRD.FieldRD
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldRD constructeur. Default_Constructor
+title: FieldRD
+linktitle: FieldRD
+articleTitle: FieldRD
+second_title: Aspose.Words für .NET
+description: FieldRD constructeur. Default_Constructor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldrd/fieldrd/
@@ -17,7 +19,5 @@ public FieldRD()
 ### Siehe auch
 
 * class [FieldRD](../)
-* namensraum [Aspose.Words.Fields](../../fieldrd/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

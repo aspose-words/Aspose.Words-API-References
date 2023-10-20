@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.EvenRowBanding
-second_title: Aspose.Words für .NET-API-Referenz
-description: ConditionalStyleCollection eigendom. Ruft den geraden Zeilenbandstil ab.
+linktitle: EvenRowBanding
+articleTitle: EvenRowBanding
+second_title: Aspose.Words für .NET
+description: ConditionalStyleCollection EvenRowBanding eigendom. Ruft den geraden Zeilenbandstil ab in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/conditionalstylecollection/evenrowbanding/
@@ -14,7 +16,7 @@ Ruft den geraden Zeilenbandstil ab.
 public ConditionalStyle EvenRowBanding { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* namensraum [Aspose.Words](../../conditionalstylecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

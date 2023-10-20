@@ -1,7 +1,9 @@
 ---
-title: PsSaveOptions.PsSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: PsSaveOptions byggare. Default_Constructor
+title: PsSaveOptions
+linktitle: PsSaveOptions
+articleTitle: PsSaveOptions
+second_title: Aspose.Words för .NET
+description: PsSaveOptions byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/pssaveoptions/pssaveoptions/
@@ -17,7 +19,5 @@ public PsSaveOptions()
 ### Se även
 
 * class [PsSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pssaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

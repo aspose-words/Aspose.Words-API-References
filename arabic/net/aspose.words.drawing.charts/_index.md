@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Drawing.Charts
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Drawing.Charts توفر مساحة الاسم فئات تسمح بالوصول إلى المخططات في مستندات Microsoft Word.
+linktitle: Aspose.Words.Drawing.Charts
+articleTitle: Aspose.Words.Drawing.Charts
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Drawing.Charts توفر مساحة الاسم فئات تسمح بالوصول إلى المخططات في مستندات Microsoft Word في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing.charts/
 ---
-ال **Aspose.Words.Drawing.Charts** توفر مساحة الاسم فئات تسمح بالوصول إلى المخططات في مستندات Microsoft Word.
+ال**Aspose.Words.Drawing.Charts** توفر مساحة الاسم فئات تسمح بالوصول إلى المخططات في مستندات Microsoft Word.
 
 ## الطبقات
 
@@ -62,5 +64,3 @@ url: /ar/net/aspose.words.drawing.charts/
 | [ChartYValueType](./chartyvaluetype/) | يسمح بتحديد نوع قيمة Y لسلسلة المخططات. |
 | [LegendPosition](./legendposition/) | يحدد المواضع المحتملة لوسيلة إيضاح المخطط. |
 | [MarkerSymbol](./markersymbol/) | يحدد نمط رمز العلامة. |
-
-

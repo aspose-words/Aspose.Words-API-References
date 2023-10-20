@@ -1,9 +1,11 @@
 ---
 title: Style.Name
-second_title: Aspose.Words für .NET-API-Referenz
-description: Style eigendom. Ruft den Namen des Stils ab oder legt ihn fest.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words für .NET
+description: Style Name eigendom. Ruft den Namen des Stils ab oder legt ihn fest in C#.
 type: docs
-weight: 130
+weight: 120
 url: /de/net/aspose.words/style/name/
 ---
 ## Style.Name property
@@ -14,13 +16,13 @@ Ruft den Namen des Stils ab oder legt ihn fest.
 public string Name { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Darf keine leere Zeichenfolge sein.
 
 Wenn in der Sammlung bereits ein Stil mit diesem Namen vorhanden ist, wird dieser Stil überschrieben. Alle betroffenen Knoten verweisen auf den neuen Stil.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Stilsammlung eines Dokuments zugegriffen wird.
 
@@ -73,7 +75,5 @@ Assert.AreNotEqual(doc.Styles["Heading 1"].Font.Color, newStyle.Font.Color);
 ### Siehe auch
 
 * class [Style](../)
-* namensraum [Aspose.Words](../../style/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

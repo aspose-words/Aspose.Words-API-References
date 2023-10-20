@@ -1,7 +1,9 @@
 ---
-title: Footnote.Footnote
-second_title: Aspose.Words für .NET-API-Referenz
-description: Footnote constructeur. Initialisiert eine Instanz vonFootnote Klasse.
+title: Footnote
+linktitle: Footnote
+articleTitle: Footnote
+second_title: Aspose.Words für .NET
+description: Footnote constructeur. Initialisiert eine Instanz vonFootnote Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.notes/footnote/footnote/
@@ -19,13 +21,13 @@ public Footnote(DocumentBase doc, FootnoteType footnoteType)
 | doc | DocumentBase | Das Eigentümerdokument. |
 | footnoteType | FootnoteType | A[`FootnoteType`](../footnotetype/) value , der angibt, ob es sich um eine Fußnote oder eine Endnote handelt. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wann[`Footnote`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../../aspose.words/node/parentnode/) Ist`Null`.
 
-Anhängen[`Footnote`](../) zur DokumentenverwendungNode) oderNode) in dem Absatz, in den Sie die Fußnote einfügen möchten.
+Anhängen[`Footnote`](../) zur Dokumentenverwendung[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) oder[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) in dem Absatz, in den Sie die Fußnote einfügen möchten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Fußnoten eingefügt und angepasst werden.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* namensraum [Aspose.Words.Notes](../../footnote/)
+* namensraum [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Montage [Aspose.Words](../../../)
-
-

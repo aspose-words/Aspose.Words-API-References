@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.IsSubsettingNeeded
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSavingArgs propiedad. Permite especificar si la fuente actual se subdividirá antes de exportarla como recurso de fuente.
+linktitle: IsSubsettingNeeded
+articleTitle: IsSubsettingNeeded
+second_title: Aspose.Words para .NET
+description: FontSavingArgs IsSubsettingNeeded propiedad. Permite especificar si la fuente actual se subdividirá antes de exportarla como recurso de fuente en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.saving/fontsavingargs/issubsettingneeded/
@@ -14,13 +16,13 @@ Permite especificar si la fuente actual se subdividirá antes de exportarla como
 public bool IsSubsettingNeeded { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Las fuentes se pueden exportar como archivos de fuentes originales completos o en subconjuntos para incluir solo los caracteres que se utilizan en el documento. El subconjunto permite reducir el tamaño del recurso de fuente resultante.
 
 De forma predeterminada, Aspose.Words decide si realizar subconjuntos o no comparando el tamaño del archivo de fuente original con el especificado en[`FontResourcesSubsettingSizeThreshold`](../../htmlsaveoptions/fontresourcessubsettingsizethreshold/) . Puede anular este comportamiento para fuentes individuales configurando el`IsSubsettingNeeded` propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
 
@@ -80,7 +82,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ver también
 
 * class [FontSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../fontsavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

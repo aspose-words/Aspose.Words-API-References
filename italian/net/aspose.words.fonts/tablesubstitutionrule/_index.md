@@ -1,7 +1,9 @@
 ---
-title: Class TableSubstitutionRule
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.TableSubstitutionRule classe. Regola di sostituzione dei caratteri della tabella.
+title: TableSubstitutionRule Class
+linktitle: TableSubstitutionRule
+articleTitle: TableSubstitutionRule
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fonts.TableSubstitutionRule classe. Regola di sostituzione dei caratteri della tabella in C#.
 type: docs
 weight: 3060
 url: /it/net/aspose.words.fonts/tablesubstitutionrule/
@@ -26,22 +28,22 @@ public class TableSubstitutionRule : FontSubstitutionRule
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes/)(string, params string[]) | Aggiunge nomi di font sostitutivi per il nome del font originale specificato. |
-| [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes/)(string) | Restituisce l'array contenente i nomi dei font sostitutivi per il nome del font originale specificato. |
-| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load)(Stream) | Carica le impostazioni di sostituzione della tabella dal flusso XML. |
-| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load_1)(string) | Carica le impostazioni di sostituzione della tabella dal file XML. |
+| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes/)(*string, params string[]*) | Aggiunge nomi di font sostitutivi per il nome del font originale specificato. |
+| [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes/)(*string*) | Restituisce l'array contenente i nomi dei font sostitutivi per il nome del font originale specificato. |
+| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load)(*Stream*) | Carica le impostazioni di sostituzione della tabella dal flusso XML. |
+| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load_1)(*string*) | Carica le impostazioni di sostituzione della tabella dal file XML. |
 | [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/)() | Carica le impostazioni di sostituzione della tabella predefinite per la piattaforma Android. |
 | [LoadLinuxSettings](../../aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/)() | Carica le impostazioni di sostituzione della tabella predefinite per la piattaforma Linux. |
 | [LoadWindowsSettings](../../aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/)() | Carica le impostazioni di sostituzione della tabella predefinite per la piattaforma Windows. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save)(Stream) | Salva le impostazioni di sostituzione della tabella correnti nello streaming. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save_1)(string) | Salva le impostazioni di sostituzione della tabella correnti nel file. |
-| [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes/)(string, params string[]) | Sostituisci i nomi dei caratteri sostitutivi per il nome del carattere originale specificato. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save)(*Stream*) | Salva le impostazioni di sostituzione della tabella correnti nello streaming. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save_1)(*string*) | Salva le impostazioni di sostituzione della tabella correnti nel file. |
+| [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes/)(*string, params string[]*) | Sostituisci i nomi dei caratteri sostitutivi per il nome del carattere originale specificato. |
 
-### Osservazioni
+## Osservazioni
 
 Questa regola definisce l'elenco dei nomi dei font sostitutivi da utilizzare se il font originale non è disponibile. Verranno controllati i sostituti per il nome del font e il[`AltName`](../fontinfo/altname/) (se presente).
 
-### Esempi
+## Esempi
 
 Mostra come accedere alle tabelle di sostituzione dei caratteri per Windows e Linux.
 
@@ -82,5 +84,3 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../)
-
-

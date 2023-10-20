@@ -1,7 +1,9 @@
 ---
 title: Font.Outline
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. True si la police est formatée en outline.
+linktitle: Outline
+articleTitle: Outline
+second_title: Aspose.Words pour .NET
+description: Font Outline propriété. True si la police est formatée en outline en C#.
 type: docs
 weight: 290
 url: /fr/net/aspose.words/font/outline/
@@ -14,7 +16,7 @@ True si la police est formatée en outline.
 public bool Outline { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une séquence de texte formatée sous forme de plan.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "Font.Outline.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

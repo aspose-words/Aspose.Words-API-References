@@ -1,20 +1,22 @@
 ---
 title: Document.CompatibilityOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Bietet Zugriff auf Dokumentkompatibilitätsoptionen d. h. die Benutzereinstellungen die im eingegeben wurden. Kompatibilität Registerkarte des Optionen Dialog in Word.
+linktitle: CompatibilityOptions
+articleTitle: CompatibilityOptions
+second_title: Aspose.Words für .NET
+description: Document CompatibilityOptions eigendom. Bietet Zugriff auf Dokumentkompatibilitätsoptionen d. h. die Benutzereinstellungen die im eingegeben wurden.Kompatibilität Registerkarte desOptionen Dialog in Word in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/document/compatibilityoptions/
 ---
 ## Document.CompatibilityOptions property
 
-Bietet Zugriff auf Dokumentkompatibilitätsoptionen (d. h. die Benutzereinstellungen, die im eingegeben wurden). **Kompatibilität** Registerkarte des **Optionen** Dialog in Word).
+Bietet Zugriff auf Dokumentkompatibilitätsoptionen (d. h. die Benutzereinstellungen, die im eingegeben wurden).**Kompatibilität** Registerkarte des**Optionen** Dialog in Word).
 
 ```csharp
 public CompatibilityOptions CompatibilityOptions { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Dokument für verschiedene Versionen von Microsoft Word optimiert wird.
 
@@ -74,7 +76,5 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * class [CompatibilityOptions](../../../aspose.words.settings/compatibilityoptions/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

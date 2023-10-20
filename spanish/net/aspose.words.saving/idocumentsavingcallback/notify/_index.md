@@ -1,7 +1,9 @@
 ---
 title: IDocumentSavingCallback.Notify
-second_title: Referencia de API de Aspose.Words para .NET
-description: IDocumentSavingCallback método. Esto se llama para notificar el progreso de guardado del documento.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words para .NET
+description: IDocumentSavingCallback Notify método. Esto se llama para notificar el progreso de guardado del documento en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/idocumentsavingcallback/notify/
@@ -18,13 +20,13 @@ public void Notify(DocumentSavingArgs args)
 | --- | --- | --- |
 | args | DocumentSavingArgs | Un argumento del evento. |
 
-### Observaciones
+## Observaciones
 
 El uso principal de esta interfaz es permitir que el código de la aplicación obtenga el estado de progreso y cancele el proceso de guardado.
 
 Se debe generar una excepción desde la devolución de llamada de progreso para el aborto y se debe incluir en el código del consumidor.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo administrar un documento mientras se guarda en HTML.
 
@@ -195,7 +197,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * class [DocumentSavingArgs](../../documentsavingargs/)
 * interface [IDocumentSavingCallback](../)
-* espacio de nombres [Aspose.Words.Saving](../../idocumentsavingcallback/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

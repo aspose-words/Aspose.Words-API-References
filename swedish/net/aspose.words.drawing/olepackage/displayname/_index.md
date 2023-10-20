@@ -1,7 +1,9 @@
 ---
 title: OlePackage.DisplayName
-second_title: Aspose.Words för .NET API Referens
-description: OlePackage fast egendom. Hämtar eller ställer in OLEpaketets visningsnamn.
+linktitle: DisplayName
+articleTitle: DisplayName
+second_title: Aspose.Words för .NET
+description: OlePackage DisplayName fast egendom. Hämtar eller ställer in OLEpaketets visningsnamn i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/olepackage/displayname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in OLE-paketets visningsnamn.
 public string DisplayName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett OLE-objekt i ett dokument.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 ### Se även
 
 * class [OlePackage](../)
-* namnutrymme [Aspose.Words.Drawing](../../olepackage/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

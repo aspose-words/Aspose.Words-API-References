@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateFields
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. يقوم بتحديث قيم الحقول في المستند بأكمله.
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: Aspose.Words لـ .NET
+description: Document UpdateFields طريقة. يقوم بتحديث قيم الحقول في المستند بأكمله في C#.
 type: docs
-weight: 770
+weight: 750
 url: /ar/net/aspose.words/document/updatefields/
 ---
 ## Document.UpdateFields method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/updatefields/
 public void UpdateFields()
 ```
 
-### ملاحظات
+## ملاحظات
 
 عند فتح مستند وتعديله ثم حفظه، لا يقوم Aspose.Words بتحديث الحقول تلقائيًا، بل يبقيها سليمة. لذلك، عادةً ما تريد استدعاء هذه الطريقة قبل الحفظ إذا قمت بتعديل document برمجيًا وتريد التأكد تظهر قيم الحقول المناسبة (المحسوبة) في المستند المحفوظ.
 
@@ -28,7 +30,7 @@ public void UpdateFields()
 
 لتحديث الحقول في جزء معين من استخدام المستند[`UpdateFields`](../../range/updatefields/).
 
-### أمثلة
+## أمثلة
 
 يظهر كيفية استخدام حقل عرض الأسعار.
 
@@ -146,7 +148,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

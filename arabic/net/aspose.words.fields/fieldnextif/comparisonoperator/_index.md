@@ -1,7 +1,9 @@
 ---
 title: FieldNextIf.ComparisonOperator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldNextIf ملكية. الحصول على عامل المقارنة أو تعيينه.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words لـ .NET
+description: FieldNextIf ComparisonOperator ملكية. الحصول على عامل المقارنة أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldnextif/comparisonoperator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldnextif/comparisonoperator/
 public string ComparisonOperator { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول NEXT/NEXTIF لدمج صفوف متعددة في صفحة واحدة أثناء عملية دمج البريد.
 
@@ -96,7 +98,5 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 ### أنظر أيضا
 
 * class [FieldNextIf](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldnextif/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

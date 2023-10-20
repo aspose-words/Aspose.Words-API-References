@@ -1,7 +1,9 @@
 ---
 title: InlineStory.IsMoveFromRevision
-second_title: Aspose.Words for .NET API 参考
-description: InlineStory 财产. 返回真的如果启用更改跟踪时在 Microsoft Word 中移动删除此对象
+linktitle: IsMoveFromRevision
+articleTitle: IsMoveFromRevision
+second_title: 用于 .NET 的 Aspose.Words
+description: InlineStory IsMoveFromRevision 财产. 返回真的如果启用更改跟踪时在 Microsoft Word 中移动删除此对象 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/inlinestory/ismovefromrevision/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/inlinestory/ismovefromrevision/
 public bool IsMoveFromRevision { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何查看 InlineStory 节点的修订相关属性。
 
@@ -62,7 +64,5 @@ Assert.IsTrue(footnotes[3].IsDeleteRevision);
 ### 也可以看看
 
 * class [InlineStory](../)
-* 命名空间 [Aspose.Words](../../inlinestory/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

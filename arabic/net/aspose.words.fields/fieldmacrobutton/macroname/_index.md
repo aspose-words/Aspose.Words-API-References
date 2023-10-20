@@ -1,7 +1,9 @@
 ---
 title: FieldMacroButton.MacroName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMacroButton ملكية. الحصول على اسم الماكرو أو الأمر المراد تشغيله أو تعيينه.
+linktitle: MacroName
+articleTitle: MacroName
+second_title: Aspose.Words لـ .NET
+description: FieldMacroButton MacroName ملكية. الحصول على اسم الماكرو أو الأمر المراد تشغيله أو تعيينه في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldmacrobutton/macroname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldmacrobutton/macroname/
 public string MacroName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول MACROBUTTON للسماح لنا بتشغيل وحدات ماكرو للمستند من خلال النقر.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 ### أنظر أيضا
 
 * class [FieldMacroButton](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldmacrobutton/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

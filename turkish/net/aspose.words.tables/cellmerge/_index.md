@@ -1,7 +1,9 @@
 ---
-title: Enum CellMerge
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Tables.CellMerge Sıralama. Tablodaki bir hücrenin diğer hücrelerle nasıl birleştirileceğini belirtir.
+title: CellMerge Enum
+linktitle: CellMerge
+articleTitle: CellMerge
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Tables.CellMerge Sıralama. Tablodaki bir hücrenin diğer hücrelerle nasıl birleştirileceğini belirtir C#'da.
 type: docs
 weight: 6270
 url: /tr/net/aspose.words.tables/cellmerge/
@@ -22,7 +24,7 @@ public enum CellMerge
 | First | `1` | Hücre, birleştirilmiş hücreler aralığındaki ilk hücredir. |
 | Previous | `2` | Hücre yatay veya dikey olarak bir önceki hücreyle birleştirilir. |
 
-### Örnekler
+## Örnekler
 
 Tablo hücrelerinin yatay olarak nasıl birleştirileceğini gösterir.
 
@@ -121,5 +123,3 @@ doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 
 * ad alanı [Aspose.Words.Tables](../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../)
-
-

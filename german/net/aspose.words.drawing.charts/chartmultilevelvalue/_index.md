@@ -1,7 +1,9 @@
 ---
-title: Class ChartMultilevelValue
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartMultilevelValue klas. Stellt einen Wert für Diagramme dar die mehrstufige Daten anzeigen.
+title: ChartMultilevelValue Class
+linktitle: ChartMultilevelValue
+articleTitle: ChartMultilevelValue
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartMultilevelValue klas. Stellt einen Wert für Diagramme dar die mehrstufige Daten anzeigen in C#.
 type: docs
 weight: 760
 url: /de/net/aspose.words.drawing.charts/chartmultilevelvalue/
@@ -18,9 +20,9 @@ public class ChartMultilevelValue
 
 | Name | Beschreibung |
 | --- | --- |
-| [ChartMultilevelValue](chartmultilevelvalue/#constructor)(string) | Initialisiert eine neue Instanz dieser Klasse, die einen einstufigen Wert darstellt. |
-| [ChartMultilevelValue](chartmultilevelvalue/#constructor_1)(string, string) | Initialisiert eine neue Instanz dieser Klasse, die einen zweistufigen Wert darstellt. |
-| [ChartMultilevelValue](chartmultilevelvalue/#constructor_2)(string, string, string) | Initialisiert eine neue Instanz dieser Klasse, die einen dreistufigen Wert darstellt. |
+| [ChartMultilevelValue](chartmultilevelvalue/#constructor)(*string*) | Initialisiert eine neue Instanz dieser Klasse, die einen einstufigen Wert darstellt. |
+| [ChartMultilevelValue](chartmultilevelvalue/#constructor_1)(*string, string*) | Initialisiert eine neue Instanz dieser Klasse, die einen zweistufigen Wert darstellt. |
+| [ChartMultilevelValue](chartmultilevelvalue/#constructor_2)(*string, string, string*) | Initialisiert eine neue Instanz dieser Klasse, die einen dreistufigen Wert darstellt. |
 
 ## Eigenschaften
 
@@ -34,12 +36,10 @@ public class ChartMultilevelValue
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.words.drawing.charts/chartmultilevelvalue/equals/)(object) | Ruft ein Flag ab, das angibt, ob das angegebene Objekt gleich dem aktuellen mehrstufigen Datenobjekt ist. |
+| override [Equals](../../aspose.words.drawing.charts/chartmultilevelvalue/equals/)(*object*) | Ruft ein Flag ab, das angibt, ob das angegebene Objekt gleich dem aktuellen mehrstufigen Datenobjekt ist. |
 | override [GetHashCode](../../aspose.words.drawing.charts/chartmultilevelvalue/gethashcode/)() | Ruft einen Hash-Code für das aktuelle mehrstufige Datenobjekt ab. |
 
 ### Siehe auch
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

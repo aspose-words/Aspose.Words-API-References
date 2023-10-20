@@ -1,7 +1,9 @@
 ---
 title: TextPath.Spacing
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextPath eigendom. Definiert den Abstand für Text. 1 bedeutet 100 .
+linktitle: Spacing
+articleTitle: Spacing
+second_title: Aspose.Words für .NET
+description: TextPath Spacing eigendom. Definiert den Abstand für Text. 1 bedeutet 100  in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.drawing/textpath/spacing/
@@ -14,11 +16,11 @@ Definiert den Abstand für Text. 1 bedeutet 100 %.
 public double Spacing { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist 1.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit WordArt arbeitet.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Siehe auch
 
 * class [TextPath](../)
-* namensraum [Aspose.Words.Drawing](../../textpath/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

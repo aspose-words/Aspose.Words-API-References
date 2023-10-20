@@ -1,7 +1,9 @@
 ---
 title: List.ListLevels
-second_title: Aspose.Words for .NET API Referansı
-description: List mülk. Bu liste için liste düzeylerinin koleksiyonunu alır.
+linktitle: ListLevels
+articleTitle: ListLevels
+second_title: Aspose.Words for .NET
+description: List ListLevels mülk. Bu liste için liste düzeylerinin koleksiyonunu alır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.lists/list/listlevels/
@@ -14,11 +16,11 @@ Bu liste için liste düzeylerinin koleksiyonunu alır.
 public ListLevelCollection ListLevels { get; }
 ```
 
-### Notlar
+## Notlar
 
 Listenin her düzeyindeki biçimlendirmeye erişmek ve bunları değiştirmek için bu özelliği kullanın.
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
@@ -78,7 +80,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevelCollection](../../listlevelcollection/)
 * class [List](../)
-* ad alanı [Aspose.Words.Lists](../../list/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: XpsSaveOptions.UseBookFoldPrintingSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: XpsSaveOptions свойство. Получает или задает логическое значение указывающее следует ли сохранять документ с использованием макета для печати буклета  если оно указано черезMultiplePages .
+linktitle: UseBookFoldPrintingSettings
+articleTitle: UseBookFoldPrintingSettings
+second_title: Aspose.Words для .NET
+description: XpsSaveOptions UseBookFoldPrintingSettings свойство. Получает или задает логическое значение указывающее следует ли сохранять документ с использованием макета для печати буклета  если оно указано черезMultiplePages  на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/xpssaveoptions/usebookfoldprintingsettings/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/xpssaveoptions/usebookfoldprintingsettings/
 public bool UseBookFoldPrintingSettings { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если указана эта опция,[`PageSet`](../../fixedpagesaveoptions/pageset/) игнорируется при сохранении. Это поведение соответствует MS Word. Если параметры печати сгиба книги не указаны в настройках страницы, этот параметр не будет иметь никакого эффекта.
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить документ в формате XPS в виде сгиба книги.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.BookFold.xps", xpsOptions);
 ### Смотрите также
 
 * class [XpsSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../xpssaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

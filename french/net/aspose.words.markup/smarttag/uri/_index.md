@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Uri
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SmartTag propriété. Spécifie lURI de lespace de noms de la balise active.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words pour .NET
+description: SmartTag Uri propriété. Spécifie lURI de lespace de noms de la balise active en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.markup/smarttag/uri/
@@ -14,13 +16,13 @@ Spécifie l'URI de l'espace de noms de la balise active.
 public string Uri { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 C'est pas possible`nul`.
 
 La valeur par défaut est une chaîne vide.
 
-### Exemples
+## Exemples
 
 Montre comment créer des balises intelligentes.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Voir également
 
 * class [SmartTag](../)
-* espace de noms [Aspose.Words.Markup](../../smarttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.RemovePersonalInformation
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft ein Flag ab oder setzt es das angibt dass Microsoft Word beim Speichern des Dokuments alle Benutzerinformationen aus Kommentaren Überarbeitungen und Dokumenteigenschaften entfernt.
+linktitle: RemovePersonalInformation
+articleTitle: RemovePersonalInformation
+second_title: Aspose.Words für .NET
+description: Document RemovePersonalInformation eigendom. Ruft ein Flag ab oder setzt es das angibt dass Microsoft Word beim Speichern des Dokuments alle Benutzerinformationen aus Kommentaren Überarbeitungen und Dokumenteigenschaften entfernt in C#.
 type: docs
 weight: 340
 url: /de/net/aspose.words/document/removepersonalinformation/
@@ -14,7 +16,7 @@ Ruft ein Flag ab oder setzt es, das angibt, dass Microsoft Word beim Speichern d
 public bool RemovePersonalInformation { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Entfernen persönlicher Informationen während eines manuellen Speicherns aktiviert wird.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("John Doe", doc.Revisions[0].Author);
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

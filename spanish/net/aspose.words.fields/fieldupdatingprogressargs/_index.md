@@ -1,7 +1,9 @@
 ---
-title: Class FieldUpdatingProgressArgs
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldUpdatingProgressArgs clase. Proporciona datos para el evento de progreso de actualización del campo.
+title: FieldUpdatingProgressArgs Class
+linktitle: FieldUpdatingProgressArgs
+articleTitle: FieldUpdatingProgressArgs
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldUpdatingProgressArgs clase. Proporciona datos para el evento de progreso de actualización del campo en C#.
 type: docs
 weight: 2570
 url: /es/net/aspose.words.fields/fieldupdatingprogressargs/
@@ -26,5 +28,3 @@ public sealed class FieldUpdatingProgressArgs
 
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.DoubleStrikeThrough
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Vrai si la police est formatée en texte double barré.
+linktitle: DoubleStrikeThrough
+articleTitle: DoubleStrikeThrough
+second_title: Aspose.Words pour .NET
+description: Font DoubleStrikeThrough propriété. Vrai si la police est formatée en texte double barré en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words/font/doublestrikethrough/
@@ -14,7 +16,7 @@ Vrai si la police est formatée en texte double barré.
 public bool DoubleStrikeThrough { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une ligne barrée au texte.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Font.StrikeThrough.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

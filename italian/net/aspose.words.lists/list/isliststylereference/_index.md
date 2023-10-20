@@ -1,7 +1,9 @@
 ---
 title: List.IsListStyleReference
-second_title: Aspose.Words per .NET API Reference
-description: List proprietà. RestituisceVERO se questo elenco è un riferimento a uno stile di elenco.
+linktitle: IsListStyleReference
+articleTitle: IsListStyleReference
+second_title: Aspose.Words per .NET
+description: List IsListStyleReference proprietà. RestituisceVERO se questo elenco è un riferimento a uno stile di elenco in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.lists/list/isliststylereference/
@@ -14,11 +16,11 @@ Restituisce`VERO` se questo elenco è un riferimento a uno stile di elenco.
 public bool IsListStyleReference { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Tieni presente che la modifica delle proprietà di un elenco che fa riferimento allo stile di elenco non ha alcun effetto. La formattazione dell'elenco specificata nello stile di elenco stesso ha sempre la precedenza.
 
-### Esempi
+## Esempi
 
 Mostra come creare uno stile di elenco e utilizzarlo in un documento.
 
@@ -79,7 +81,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Guarda anche
 
 * class [List](../)
-* spazio dei nomi [Aspose.Words.Lists](../../list/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

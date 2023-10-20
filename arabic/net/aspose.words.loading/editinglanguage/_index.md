@@ -1,7 +1,9 @@
 ---
-title: Enum EditingLanguage
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.EditingLanguage تعداد. تحديد لغة التحرير.
+title: EditingLanguage Enum
+linktitle: EditingLanguage
+articleTitle: EditingLanguage
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.EditingLanguage تعداد. تحديد لغة التحرير في C#.
 type: docs
 weight: 3600
 url: /ar/net/aspose.words.loading/editinglanguage/
@@ -246,7 +248,7 @@ public enum EditingLanguage
 | Yiddish | `1085` |  |
 | Yoruba | `1130` |  |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تفضيلات اللغة عند تحميل مستند.
 
@@ -266,5 +268,3 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HeaderFooterCollection.ToArray
-second_title: Aspose.Words for .NET API Referansı
-description: HeaderFooterCollection yöntem. Tümünü kopyalarBaşlıkAltbilgi koleksiyondan yeni bir diziyeBaşlıkAltbilgi s.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words for .NET
+description: HeaderFooterCollection ToArray yöntem. Tümünü kopyalarBaşlıkAltbilgi koleksiyondan yeni bir diziyeBaşlıkAltbilgi s C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/headerfootercollection/toarray/
@@ -18,7 +20,7 @@ public HeaderFooter[] ToArray()
 
 Bir dizi`BaşlıkAltbilgi`S.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her üstbilgi ve altbilginin düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -112,7 +114,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* ad alanı [Aspose.Words](../../headerfootercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

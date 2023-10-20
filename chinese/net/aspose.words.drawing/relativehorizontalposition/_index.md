@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeHorizontalPosition
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.RelativeHorizontalPosition 枚举. 指定形状或文本框架的相对水平位置
+title: RelativeHorizontalPosition Enum
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.RelativeHorizontalPosition 枚举. 指定形状或文本框架的相对水平位置 在 C#.
 type: docs
 weight: 1190
 url: /zh/net/aspose.words.drawing/relativehorizontalposition/
@@ -28,7 +30,7 @@ public enum RelativeHorizontalPosition
 | OutsideMargin | `7` | 指定水平定位应相对于 当前页的外边距（奇数页为右边距，偶数页为左边距）。 |
 | Default | `2` | 默认值为Column. |
 
-### 例子
+## 例子
 
 演示如何将浮动图像插入到页面中央。
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [RelativeHorizontalPosition](../shapebase/relativehorizontalposition/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

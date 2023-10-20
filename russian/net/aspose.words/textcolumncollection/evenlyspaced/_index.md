@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.EvenlySpaced
-second_title: Справочник по API Aspose.Words для .NET
-description: TextColumnCollection свойство. Истинно если текстовые столбцы имеют одинаковую ширину и расположены на равном расстоянии.
+linktitle: EvenlySpaced
+articleTitle: EvenlySpaced
+second_title: Aspose.Words для .NET
+description: TextColumnCollection EvenlySpaced свойство. Истинно если текстовые столбцы имеют одинаковую ширину и расположены на равном расстоянии на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/textcolumncollection/evenlyspaced/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/textcolumncollection/evenlyspaced/
 public bool EvenlySpaced { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создавать столбцы с неравномерным расположением друг от друга.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### Смотрите также
 
 * class [TextColumnCollection](../)
-* пространство имен [Aspose.Words](../../textcolumncollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

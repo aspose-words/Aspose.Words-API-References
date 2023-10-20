@@ -1,7 +1,9 @@
 ---
-title: Class List
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Lists.List classe. Rappresenta la formattazione di un elenco.
+title: List Class
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Lists.List classe. Rappresenta la formattazione di un elenco in C#.
 type: docs
 weight: 3460
 url: /it/net/aspose.words.lists/list/
@@ -33,14 +35,14 @@ public class List : IComparable<List>
 
 | Nome | Descrizione |
 | --- | --- |
-| [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(List) | Confronta l'elenco specificato con l'elenco corrente. |
-| [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(object) | Confronta l'oggetto specificato con l'oggetto corrente. |
-| [Equals](../../aspose.words.lists/list/equals/#equals)(List) | Confronta con l'elenco specificato. |
-| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(object) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(*List*) | Confronta l'elenco specificato con l'elenco corrente. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(*object*) | Confronta l'oggetto specificato con l'oggetto corrente. |
+| [Equals](../../aspose.words.lists/list/equals/#equals)(*List*) | Confronta con l'elenco specificato. |
+| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(*object*) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
 | override [GetHashCode](../../aspose.words.lists/list/gethashcode/)() | Calcola il codice hash per questo oggetto elenco. |
-| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(List) | Restituisce vero se l'elenco corrente e l'elenco specificato vengono creati dallo stesso modello. |
+| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(*List*) | Restituisce vero se l'elenco corrente e l'elenco specificato vengono creati dallo stesso modello. |
 
-### Osservazioni
+## Osservazioni
 
 Un elenco in un documento Microsoft Word è un insieme di proprietà di formattazione dell'elenco. Ogni elenco può avere fino a 9 livelli e le proprietà di formattazione, come stile del numero, valore iniziale, rientro , posizione di tabulazione ecc. sono definite separatamente per ciascun livello.
 
@@ -52,7 +54,7 @@ Per modificare la formattazione di un elenco, utilizzare[`ListLevel`](../listlev
 
 Per applicare o rimuovere la formattazione dell'elenco da un paragrafo, utilizzare[`ListFormat`](../listformat/).
 
-### Esempi
+## Esempi
 
 Mostra come riavviare la numerazione in un elenco copiando un elenco.
 
@@ -199,5 +201,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * spazio dei nomi [Aspose.Words.Lists](../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../)
-
-

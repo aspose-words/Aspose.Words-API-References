@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.ScalingFactor
-second_title: Aspose.Words för .NET API Referens
-description: FieldDisplayBarcode fast egendom. Hämtar eller ställer in en skalningsfaktor för symbolen. Värdet är i hela procentenheter och de giltiga värdena är 10 1000
+linktitle: ScalingFactor
+articleTitle: ScalingFactor
+second_title: Aspose.Words för .NET
+description: FieldDisplayBarcode ScalingFactor fast egendom. Hämtar eller ställer in en skalningsfaktor för symbolen. Värdet är i hela procentenheter och de giltiga värdena är 10 1000 i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.fields/fielddisplaybarcode/scalingfactor/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en skalningsfaktor för symbolen. Värdet är i hela p
 public string ScalingFactor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett DISPLAYBARCODE-fält och ställer in dess egenskaper.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Se även
 
 * class [FieldDisplayBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

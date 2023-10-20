@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LinesToDrop
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Gömme yüksekliğini hesaplamak için kullanılan paragraf metninin satır sayısını alır veya ayarlar.
+linktitle: LinesToDrop
+articleTitle: LinesToDrop
+second_title: Aspose.Words for .NET
+description: ParagraphFormat LinesToDrop mülk. Gömme yüksekliğini hesaplamak için kullanılan paragraf metninin satır sayısını alır veya ayarlar C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words/paragraphformat/linestodrop/
@@ -14,7 +16,7 @@ Gömme yüksekliğini hesaplamak için kullanılan paragraf metninin satır say�
 public int LinesToDrop { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Gömme boyutunun nasıl ayarlanacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LinesToDrop.odt");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

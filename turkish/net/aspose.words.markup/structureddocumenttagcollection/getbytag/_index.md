@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.GetByTag
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagCollection yöntem. Koleksiyonda karşılaşılan ve belirtilen etikete sahip ilk yapılandırılmış belge etiketini döndürür.
+linktitle: GetByTag
+articleTitle: GetByTag
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagCollection GetByTag yöntem. Koleksiyonda karşılaşılan ve belirtilen etikete sahip ilk yapılandırılmış belge etiketini döndürür C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/structureddocumenttagcollection/getbytag/
@@ -18,7 +20,7 @@ public IStructuredDocumentTag GetByTag(string tag)
 | --- | --- | --- |
 | tag | String | Yapılandırılmış belge etiketinin etiketi. |
 
-### Notlar
+## Notlar
 
 Belirtilen etikete sahip yapılandırılmış belge etiketi bulunamazsa null değerini döndürür.
 
@@ -26,7 +28,5 @@ Belirtilen etikete sahip yapılandırılmış belge etiketi bulunamazsa null de�
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)
 * class [StructuredDocumentTagCollection](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

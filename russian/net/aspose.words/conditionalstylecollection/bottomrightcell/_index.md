@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.BottomRightCell
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyleCollection свойство. Получает стиль нижней правой ячейки.
+linktitle: BottomRightCell
+articleTitle: BottomRightCell
+second_title: Aspose.Words для .NET
+description: ConditionalStyleCollection BottomRightCell свойство. Получает стиль нижней правой ячейки на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/conditionalstylecollection/bottomrightcell/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstylecollection/bottomrightcell/
 public ConditionalStyle BottomRightCell { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* пространство имен [Aspose.Words](../../conditionalstylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

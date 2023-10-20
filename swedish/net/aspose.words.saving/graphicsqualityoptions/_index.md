@@ -1,7 +1,9 @@
 ---
-title: Class GraphicsQualityOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.GraphicsQualityOptions klass. Tillåter att ange ytterligareGraphics kvalitetsalternativ.
+title: GraphicsQualityOptions Class
+linktitle: GraphicsQualityOptions
+articleTitle: GraphicsQualityOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.GraphicsQualityOptions klass. Tillåter att ange ytterligareGraphics kvalitetsalternativ i C#.
 type: docs
 weight: 5040
 url: /sv/net/aspose.words.saving/graphicsqualityoptions/
@@ -34,7 +36,7 @@ public class GraphicsQualityOptions
 | [TextRenderingHint](../../aspose.words.saving/graphicsqualityoptions/textrenderinghint/) { get; set; } | Hämtar eller ställer in renderingsläget för text som är associerad med denna grafik. |
 | [UseTileFlipMode](../../aspose.words.saving/graphicsqualityoptions/usetileflipmode/) { get; set; } | Hämtar eller ställer in en flagga som indikerar om WrapMode är TileFlipXY. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in alternativ för återgivningskvalitet när du konverterar dokument till bildformat.
 
@@ -61,5 +63,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

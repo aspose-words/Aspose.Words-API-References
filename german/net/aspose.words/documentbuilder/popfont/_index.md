@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.PopFont
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Ruft die zuvor auf dem Stapel gespeicherte Zeichenformatierung ab.
+linktitle: PopFont
+articleTitle: PopFont
+second_title: Aspose.Words für .NET
+description: DocumentBuilder PopFont methode. Ruft die zuvor auf dem Stapel gespeicherte Zeichenformatierung ab in C#.
 type: docs
-weight: 600
+weight: 590
 url: /de/net/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder.PopFont method
@@ -14,7 +16,7 @@ Ruft die zuvor auf dem Stapel gespeicherte Zeichenformatierung ab.
 public void PopFont()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Formatierungsstapel eines Document Builders verwendet wird.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 * property [Font](../font/)
 * method [PushFont](../pushfont/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

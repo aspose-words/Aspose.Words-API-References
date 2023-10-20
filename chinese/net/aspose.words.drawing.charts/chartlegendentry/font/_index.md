@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntry.Font
-second_title: Aspose.Words for .NET API 参考
-description: ChartLegendEntry 财产. 提供对此图例条目的字体格式的访问
+linktitle: Font
+articleTitle: Font
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartLegendEntry Font 财产. 提供对此图例条目的字体格式的访问 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartlegendentry/font/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartlegendentry/font/
 public Font Font { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用图表系列的图例条目。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartLegendEntry](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartlegendentry/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

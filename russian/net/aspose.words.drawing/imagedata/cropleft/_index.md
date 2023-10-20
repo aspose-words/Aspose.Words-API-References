@@ -1,7 +1,9 @@
 ---
 title: ImageData.CropLeft
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageData свойство. Определяет долю удаления изображения с левой стороны.
+linktitle: CropLeft
+articleTitle: CropLeft
+second_title: Aspose.Words для .NET
+description: ImageData CropLeft свойство. Определяет долю удаления изображения с левой стороны на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing/imagedata/cropleft/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/imagedata/cropleft/
 public double CropLeft { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Величина обрезки может варьироваться от -1,0 до 1,0. Значение по умолчанию — 0. Обратите внимание, , что при значении 1 изображение вообще не будет отображаться. Отрицательные значения приведут к тому, что изображение будет сжато внутрь от обрезанного края (пустое пространство между изображением и обрезанным краем будет заполнено цветом заливки фигуры ). Положительные значения меньше 1 приведут к тому, что оставшееся изображение будет растянуто на , чтобы соответствовать форме.
 
 Значение по умолчанию — 0.
 
-### Примеры
+## Примеры
 
 Показывает, как редактировать данные изображения фигуры.
 
@@ -83,7 +85,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Смотрите также
 
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

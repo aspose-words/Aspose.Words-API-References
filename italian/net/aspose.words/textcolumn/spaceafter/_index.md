@@ -1,7 +1,9 @@
 ---
 title: TextColumn.SpaceAfter
-second_title: Aspose.Words per .NET API Reference
-description: TextColumn proprietà. Ottiene o imposta lo spazio tra questa colonna e la colonna successiva in punti. Non richiesto per lultima colonna.
+linktitle: SpaceAfter
+articleTitle: SpaceAfter
+second_title: Aspose.Words per .NET
+description: TextColumn SpaceAfter proprietà. Ottiene o imposta lo spazio tra questa colonna e la colonna successiva in punti. Non richiesto per lultima colonna in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/textcolumn/spaceafter/
@@ -14,7 +16,7 @@ Ottiene o imposta lo spazio tra questa colonna e la colonna successiva in punti.
 public double SpaceAfter { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare colonne con spaziatura non uniforme.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### Guarda anche
 
 * class [TextColumn](../)
-* spazio dei nomi [Aspose.Words](../../textcolumn/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class TxtListIndentation
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.TxtListIndentation сорт. Определяет отступ уровней списка при экспорте документа вText формат.
+title: TxtListIndentation Class
+linktitle: TxtListIndentation
+articleTitle: TxtListIndentation
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.TxtListIndentation сорт. Определяет отступ уровней списка при экспорте документа вText формат на С#.
 type: docs
 weight: 5650
 url: /ru/net/aspose.words.saving/txtlistindentation/
@@ -29,7 +31,7 @@ public class TxtListIndentation
 | [Character](../../aspose.words.saving/txtlistindentation/character/) { get; set; } | Получает или задает, какой символ использовать для отступов уровней списка. Значение по умолчанию — «\0», что означает отсутствие отступов. |
 | [Count](../../aspose.words.saving/txtlistindentation/count/) { get; set; } | Получает или задает количество[`Character`](./character/) использовать в качестве отступа для одного уровня списка. Значение по умолчанию — 0, что означает отсутствие отступов. |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить отступ списка при сохранении документа в виде открытого текста.
 
@@ -70,5 +72,3 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.TextEffect
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene o imposta leffetto di animazione del carattere.
+linktitle: TextEffect
+articleTitle: TextEffect
+second_title: Aspose.Words per .NET
+description: Font TextEffect proprietà. Ottiene o imposta leffetto di animazione del carattere in C#.
 type: docs
 weight: 450
 url: /it/net/aspose.words/font/texteffect/
@@ -14,7 +16,7 @@ Ottiene o imposta l'effetto di animazione del carattere.
 public TextEffect TextEffect { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare un effetto visivo a una corsa.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.SparklingText.doc");
 
 * enum [TextEffect](../../texteffect/)
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

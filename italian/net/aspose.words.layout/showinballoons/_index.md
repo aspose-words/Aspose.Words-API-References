@@ -1,7 +1,9 @@
 ---
-title: Enum ShowInBalloons
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Layout.ShowInBalloons enum. Specifica quali revisioni vengono visualizzate nei fumetti.
+title: ShowInBalloons Enum
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Layout.ShowInBalloons enum. Specifica quali revisioni vengono visualizzate nei fumetti in C#.
 type: docs
 weight: 3410
 url: /it/net/aspose.words.layout/showinballoons/
@@ -22,11 +24,11 @@ public enum ShowInBalloons
 | Format | `1` | Rende l'inserimento e l'eliminazione delle revisioni in linea, il formato delle revisioni nei fumetti. |
 | FormatAndDelete | `2` | Rende le revisioni di inserimento in linea, eliminazione e formattazione delle revisioni nei fumetti. |
 
-### Osservazioni
+## Osservazioni
 
 Tieni presente che le revisioni non vengono visualizzate nei fumetti perShowInAnnotations .
 
-### Esempi
+## Esempi
 
 Mostra come modificare l'aspetto delle revisioni.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * spazio dei nomi [Aspose.Words.Layout](../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../)
-
-

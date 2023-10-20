@@ -1,7 +1,9 @@
 ---
 title: FormField.CheckBoxSize
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Onay kutusunun boyutunu nokta cinsinden alır veya ayarlar. Yalnızca şu durumlarda etkili olurIsCheckBoxExactSize dırdirdoğru .
+linktitle: CheckBoxSize
+articleTitle: CheckBoxSize
+second_title: Aspose.Words for .NET
+description: FormField CheckBoxSize mülk. Onay kutusunun boyutunu nokta cinsinden alır veya ayarlar. Yalnızca şu durumlarda etkili olurIsCheckBoxExactSize dırdirdoğru  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/formfield/checkboxsize/
@@ -14,11 +16,11 @@ Onay kutusunun boyutunu nokta cinsinden alır veya ayarlar. Yalnızca şu duruml
 public double CheckBoxSize { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yalnızca onay kutusu form alanı için geçerlidir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

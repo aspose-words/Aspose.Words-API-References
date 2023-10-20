@@ -1,7 +1,9 @@
 ---
 title: Table.AllowCellSpacing
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или задает параметр Разрешить интервал между ячейками.
+linktitle: AllowCellSpacing
+articleTitle: AllowCellSpacing
+second_title: Aspose.Words для .NET
+description: Table AllowCellSpacing свойство. Получает или задает параметр Разрешить интервал между ячейками на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.tables/table/allowcellspacing/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/allowcellspacing/
 public bool AllowCellSpacing { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как включить интервал между отдельными ячейками в таблице.
 
@@ -53,7 +55,5 @@ Assert.True(table.AllowCellSpacing);
 ### Смотрите также
 
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.CachePrinterSettings
-second_title: Aspose.Words for .NET API Referansı
-description: AsposeWordsPrintDocument yöntem. Bazı alanları okur ve önbelleğe alırPrinterSettings yazdırma süresini azaltmak için.
+linktitle: CachePrinterSettings
+articleTitle: CachePrinterSettings
+second_title: Aspose.Words for .NET
+description: AsposeWordsPrintDocument CachePrinterSettings yöntem. Bazı alanları okur ve önbelleğe alırPrinterSettings yazdırma süresini azaltmak için C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/
@@ -14,11 +16,11 @@ Bazı alanları okur ve önbelleğe alırPrinterSettings yazdırma süresini aza
 public void CachePrinterSettings()
 ```
 
-### Notlar
+## Notlar
 
 Bu yöntem eğer daha önce yürütülmediyse yazdırma başlamadan önce çağrılır.
 
-### Örnekler
+## Örnekler
 
 Belgenin yazdırılacağı sayfa aralığının ve yazıcının nasıl seçileceğini ve ardından bir baskı önizlemesinin nasıl açılacağını gösterir.
 
@@ -67,7 +69,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 ### Ayrıca bakınız
 
 * class [AsposeWordsPrintDocument](../)
-* ad alanı [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

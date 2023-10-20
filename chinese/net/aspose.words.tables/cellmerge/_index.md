@@ -1,7 +1,9 @@
 ---
-title: Enum CellMerge
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Tables.CellMerge 枚举. 指定表格中的单元格如何与其他单元格合并
+title: CellMerge Enum
+linktitle: CellMerge
+articleTitle: CellMerge
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Tables.CellMerge 枚举. 指定表格中的单元格如何与其他单元格合并 在 C#.
 type: docs
 weight: 6270
 url: /zh/net/aspose.words.tables/cellmerge/
@@ -22,7 +24,7 @@ public enum CellMerge
 | First | `1` | 该单元格是合并单元格范围中的第一个单元格。 |
 | Previous | `2` | 单元格水平或垂直合并到前一个单元格。 |
 
-### 例子
+## 例子
 
 演示如何水平合并表格单元格。
 
@@ -121,5 +123,3 @@ doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 
 * 命名空间 [Aspose.Words.Tables](../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../)
-
-

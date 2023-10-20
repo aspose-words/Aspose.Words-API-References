@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.RenderingMode
-second_title: Справочник по API Aspose.Words для .NET
-description: MetafileRenderingOptions свойство. Получает или задает значение определяющее способ отображения изображений метафайлов.
+linktitle: RenderingMode
+articleTitle: RenderingMode
+second_title: Aspose.Words для .NET
+description: MetafileRenderingOptions RenderingMode свойство. Получает или задает значение определяющее способ отображения изображений метафайлов на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/metafilerenderingoptions/renderingmode/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/metafilerenderingoptions/renderingmode/
 public MetafileRenderingMode RenderingMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию зависит от формата сохранения. Для изображений этоBitmap . Для других форматов этоVectorWithFallback.
 
-### Примеры
+## Примеры
 
 Показывает добавлен запасной вариант рендеринга растровых изображений и изменение типа предупреждений о неподдерживаемых записях метафайлов.
 
@@ -74,7 +76,5 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * enum [MetafileRenderingMode](../../metafilerenderingmode/)
 * class [MetafileRenderingOptions](../)
-* пространство имен [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

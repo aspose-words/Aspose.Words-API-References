@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.FontName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSymbol свойство. Получает или задает имя шрифта символа полученного по полю.
+linktitle: FontName
+articleTitle: FontName
+second_title: Aspose.Words для .NET
+description: FieldSymbol FontName свойство. Получает или задает имя шрифта символа полученного по полю на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldsymbol/fontname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldsymbol/fontname/
 public string FontName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле СИМВОЛ.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Смотрите также
 
 * class [FieldSymbol](../)
-* пространство имен [Aspose.Words.Fields](../../fieldsymbol/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

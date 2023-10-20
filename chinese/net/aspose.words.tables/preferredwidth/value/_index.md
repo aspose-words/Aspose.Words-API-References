@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.Value
-second_title: Aspose.Words for .NET API 参考
-description: PreferredWidth 财产. 获取首选宽度值测量单位在中指定Type属性.
+linktitle: Value
+articleTitle: Value
+second_title: 用于 .NET 的 Aspose.Words
+description: PreferredWidth Value 财产. 获取首选宽度值测量单位在中指定Type属性 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.tables/preferredwidth/value/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/preferredwidth/value/
 public double Value { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何验证表格单元格的首选宽度类型和值。
 
@@ -31,7 +33,5 @@ Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
 ### 也可以看看
 
 * class [PreferredWidth](../)
-* 命名空间 [Aspose.Words.Tables](../../preferredwidth/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

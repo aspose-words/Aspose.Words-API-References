@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.OpaqueBoundsInPoints
-second_title: Aspose.Words for .NET API Referansı
-description: NodeRendererBase mülk. Şeklin opak sınırlarını nokta cinsinden alır.
+linktitle: OpaqueBoundsInPoints
+articleTitle: OpaqueBoundsInPoints
+second_title: Aspose.Words for .NET
+description: NodeRendererBase OpaqueBoundsInPoints mülk. Şeklin opak sınırlarını nokta cinsinden alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.rendering/noderendererbase/opaqueboundsinpoints/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.rendering/noderendererbase/opaqueboundsinpoints/
 public RectangleF OpaqueBoundsInPoints { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, şeklin opak (yani şeklin saydam kısımları göz ardı edilir) sınırlama kutusunu döndürür. Sınırlar, şeklin dönüşünü hesaba katar.
 
-### Örnekler
+## Örnekler
 
 Şekillerin nasıl ölçüleceğini ve ölçeklendirileceğini gösterir.
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Ayrıca bakınız
 
 * class [NodeRendererBase](../)
-* ad alanı [Aspose.Words.Rendering](../../noderendererbase/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

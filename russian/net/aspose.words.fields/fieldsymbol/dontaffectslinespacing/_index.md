@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.DontAffectsLineSpacing
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSymbol свойство. Получает или задает значение влияет ли символ полученный полем на межстрочный интервал абзаца.
+linktitle: DontAffectsLineSpacing
+articleTitle: DontAffectsLineSpacing
+second_title: Aspose.Words для .NET
+description: FieldSymbol DontAffectsLineSpacing свойство. Получает или задает значение влияет ли символ полученный полем на межстрочный интервал абзаца на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldsymbol/dontaffectslinespacing/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldsymbol/dontaffectslinespacing/
 public bool DontAffectsLineSpacing { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле СИМВОЛ.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Смотрите также
 
 * class [FieldSymbol](../)
-* пространство имен [Aspose.Words.Fields](../../fieldsymbol/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

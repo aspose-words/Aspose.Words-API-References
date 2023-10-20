@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.SuppressYear
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldCitation свойство. Получает или задает скрывается ли информация о году из цитирования.
+linktitle: SuppressYear
+articleTitle: SuppressYear
+second_title: Aspose.Words для .NET
+description: FieldCitation SuppressYear свойство. Получает или задает скрывается ли информация о году из цитирования на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fields/fieldcitation/suppressyear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldcitation/suppressyear/
 public bool SuppressYear { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с полями ЦИТАТА и БИБЛИОГРАФИЯ.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Смотрите также
 
 * class [FieldCitation](../)
-* пространство имен [Aspose.Words.Fields](../../fieldcitation/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

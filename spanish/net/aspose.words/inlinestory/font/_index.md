@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Font
-second_title: Referencia de API de Aspose.Words para .NET
-description: InlineStory propiedad. Proporciona acceso al formato de fuente del carácter ancla de este objeto.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words para .NET
+description: InlineStory Font propiedad. Proporciona acceso al formato de fuente del carácter ancla de este objeto en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/inlinestory/font/
@@ -14,7 +16,7 @@ Proporciona acceso al formato de fuente del carácter ancla de este objeto.
 public Font Font { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar nodos InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Font](../../font/)
 * class [InlineStory](../)
-* espacio de nombres [Aspose.Words](../../inlinestory/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

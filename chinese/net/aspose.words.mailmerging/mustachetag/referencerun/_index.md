@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.ReferenceRun
-second_title: Aspose.Words for .NET API 参考
-description: MustacheTag 财产. 获取包含标记开头的运行
+linktitle: ReferenceRun
+articleTitle: ReferenceRun
+second_title: 用于 .NET 的 Aspose.Words
+description: MustacheTag ReferenceRun 财产. 获取包含标记开头的运行 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.mailmerging/mustachetag/referencerun/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/mustachetag/referencerun/
 public Run ReferenceRun { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用小胡子标签。
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [Run](../../../aspose.words/run/)
 * class [MustacheTag](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mustachetag/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

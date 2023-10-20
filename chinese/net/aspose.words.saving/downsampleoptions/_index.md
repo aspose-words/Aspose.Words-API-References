@@ -1,7 +1,9 @@
 ---
-title: Class DownsampleOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.DownsampleOptions 班级. 允许指定下采样选项
+title: DownsampleOptions Class
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.DownsampleOptions 班级. 允许指定下采样选项 在 C#.
 type: docs
 weight: 4970
 url: /zh/net/aspose.words.saving/downsampleoptions/
@@ -30,7 +32,7 @@ public class DownsampleOptions
 | [Resolution](../../aspose.words.saving/downsampleoptions/resolution/) { get; set; } | 指定图像应降采样到的分辨率（以每英寸像素为单位）。 |
 | [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold/) { get; set; } | 指定阈值分辨率（以每英寸像素为单位）。 如果文档中图像的分辨率小于阈值，则 将不会应用下采样算法。 值 0 表示不使用阈值检查，并且所有图像都将使用阈值检查。可以减小尺寸并进行下采样。 |
 
-### 例子
+## 例子
 
 演示如何更改 PDF 文档中图像的分辨率。
 
@@ -63,5 +65,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

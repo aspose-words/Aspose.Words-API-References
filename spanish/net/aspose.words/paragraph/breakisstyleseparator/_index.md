@@ -1,7 +1,9 @@
 ---
 title: Paragraph.BreakIsStyleSeparator
-second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph propiedad. Verdadero si este salto de párrafo es un separador de estilo. Un separador de estilo permite que un párrafo esté formado por partes que tienen diferentes estilos de párrafo.
+linktitle: BreakIsStyleSeparator
+articleTitle: BreakIsStyleSeparator
+second_title: Aspose.Words para .NET
+description: Paragraph BreakIsStyleSeparator propiedad. Verdadero si este salto de párrafo es un separador de estilo. Un separador de estilo permite que un párrafo esté formado por partes que tienen diferentes estilos de párrafo en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/paragraph/breakisstyleseparator/
@@ -14,7 +16,7 @@ Verdadero si este salto de párrafo es un separador de estilo. Un separador de e
 public bool BreakIsStyleSeparator { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo escribir texto en la misma línea que un encabezado de TOC y hacer que no aparezca en el TOC.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Paragraph.BreakIsStyleSeparator.docx");
 ### Ver también
 
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

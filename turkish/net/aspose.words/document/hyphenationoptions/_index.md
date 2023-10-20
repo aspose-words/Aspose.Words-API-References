@@ -1,7 +1,9 @@
 ---
 title: Document.HyphenationOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Belge tireleme seçeneklerine erişim sağlar.
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words for .NET
+description: Document HyphenationOptions mülk. Belge tireleme seçeneklerine erişim sağlar C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words/document/hyphenationoptions/
@@ -14,7 +16,7 @@ Belge tireleme seçeneklerine erişim sağlar.
 public HyphenationOptions HyphenationOptions { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Otomatik tirelemenin nasıl yapılandırılacağını gösterir.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 
 * class [HyphenationOptions](../../../aspose.words.settings/hyphenationoptions/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

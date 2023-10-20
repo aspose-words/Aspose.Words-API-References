@@ -1,7 +1,9 @@
 ---
 title: FieldToc.UpdatePageNumbers
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToc метод. Обновляет номера страниц для элементов в этом оглавлении.
+linktitle: UpdatePageNumbers
+articleTitle: UpdatePageNumbers
+second_title: Aspose.Words для .NET
+description: FieldToc UpdatePageNumbers метод. Обновляет номера страниц для элементов в этом оглавлении на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.fields/fieldtoc/updatepagenumbers/
@@ -18,7 +20,7 @@ public bool UpdatePageNumbers()
 
 `истинный` если операция прошла успешно. Если какая-либо из связанных закладок оглавления была удалена,`ЛОЖЬ` будет возвращен.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить оглавление и заполнить его записями на основе стилей заголовков.
 
@@ -103,7 +105,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Смотрите также
 
 * class [FieldToc](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

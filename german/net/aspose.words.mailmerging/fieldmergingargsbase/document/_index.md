@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.Document
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergingArgsBase eigendom. Gibt die zurückDocument Objekt für das der Seriendruck durchgeführt wird.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words für .NET
+description: FieldMergingArgsBase Document eigendom. Gibt die zurückDocument Objekt für das der Seriendruck durchgeführt wird in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.mailmerging/fieldmergingargsbase/document/
@@ -14,7 +16,7 @@ Gibt die zurück`Document` Objekt, für das der Seriendruck durchgeführt wird.
 public Document Document { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit einem benutzerdefinierten Rückruf ausgeführt wird, der Seriendaten in Form von HTML-Dokumenten verarbeitet.
 
@@ -83,7 +85,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [FieldMergingArgsBase](../)
-* namensraum [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

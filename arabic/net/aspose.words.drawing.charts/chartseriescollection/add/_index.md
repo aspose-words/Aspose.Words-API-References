@@ -1,12 +1,14 @@
 ---
 title: ChartSeriesCollection.Add
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeriesCollection طريقة. يضيف الجديدChartSeries إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: ChartSeriesCollection Add طريقة. يضيف الجديدChartSeries إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
-## Add(string, string[], double[]) {#add_3}
+## Add(*string, string[], double[]*) {#add_3}
 
 يضيف الجديد[`ChartSeries`](../../chartseries/) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية.
 
@@ -18,7 +20,7 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 أضيف مؤخرا[`ChartSeries`](../../chartseries/) هدف.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نوع مناسب من سلسلة المخططات لنوع الرسم البياني.
 
@@ -108,12 +110,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double[], double[]) {#add}
+## Add(*string, double[], double[]*) {#add}
 
 يضيف الجديد[`ChartSeries`](../../chartseries/) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المبعثرة.
 
@@ -125,7 +127,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 أضيف مؤخرا[`ChartSeries`](../../chartseries/) هدف.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نوع مناسب من سلسلة المخططات لنوع الرسم البياني.
 
@@ -215,12 +217,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Add(string, DateTime[], double[]) {#add_2}
+## Add(*string, DateTime[], double[]*) {#add_2}
 
 يضيف الجديد[`ChartSeries`](../../chartseries/) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المساحية والرادارية والأسهم.
 
@@ -228,7 +230,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نوع مناسب من سلسلة المخططات لنوع الرسم البياني.
 
@@ -318,12 +320,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double[], double[], double[]) {#add_1}
+## Add(*string, double[], double[], double[]*) {#add_1}
 
 يضيف الجديد[`ChartSeries`](../../chartseries/)إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الفقاعية.
 
@@ -335,7 +337,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 أضيف مؤخرا[`ChartSeries`](../../chartseries/) هدف.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نوع مناسب من سلسلة المخططات لنوع الرسم البياني.
 
@@ -425,7 +427,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

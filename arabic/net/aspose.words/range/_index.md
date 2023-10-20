@@ -1,7 +1,9 @@
 ---
-title: Class Range
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Range فصل. يمثل منطقة متجاورة في المستند.
+title: Range Class
+linktitle: Range
+articleTitle: Range
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Range فصل. يمثل منطقة متجاورة في المستند في C#.
 type: docs
 weight: 4520
 url: /ar/net/aspose.words/range/
@@ -33,15 +35,15 @@ public class Range
 | --- | --- |
 | [Delete](../../aspose.words/range/delete/)() | حذف كافة أحرف النطاق. |
 | [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes/)() | تغيير قيم نوع الحقل[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) ل[`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) في هذا النطاق بحيث تتوافق مع أنواع الحقول الموجودة في رموز الحقول. |
-| [Replace](../../aspose.words/range/replace/#replace_2)(Regex, string) | يستبدل كافة تكرارات نمط الأحرف المحدد بواسطة تعبير عادي بسلسلة أخرى. |
-| [Replace](../../aspose.words/range/replace/#replace)(string, string) | يستبدل كافة تكرارات نمط سلسلة الأحرف المحددة بسلسلة بديلة. |
-| [Replace](../../aspose.words/range/replace/#replace_3)(Regex, string, FindReplaceOptions) | يستبدل كافة تكرارات نمط الأحرف المحدد بواسطة تعبير عادي بسلسلة أخرى. |
-| [Replace](../../aspose.words/range/replace/#replace_1)(string, string, FindReplaceOptions) | يستبدل كافة تكرارات نمط سلسلة الأحرف المحددة بسلسلة بديلة. |
+| [Replace](../../aspose.words/range/replace/#replace_2)(*Regex, string*) | يستبدل كافة تكرارات نمط الأحرف المحدد بواسطة تعبير عادي بسلسلة أخرى. |
+| [Replace](../../aspose.words/range/replace/#replace)(*string, string*) | يستبدل كافة تكرارات نمط سلسلة الأحرف المحددة بسلسلة بديلة. |
+| [Replace](../../aspose.words/range/replace/#replace_3)(*Regex, string, [FindReplaceOptions](../../aspose.words.replacing/findreplaceoptions/)*) | يستبدل كافة تكرارات نمط الأحرف المحدد بواسطة تعبير عادي بسلسلة أخرى. |
+| [Replace](../../aspose.words/range/replace/#replace_1)(*string, string, [FindReplaceOptions](../../aspose.words.replacing/findreplaceoptions/)*) | يستبدل كافة تكرارات نمط سلسلة الأحرف المحددة بسلسلة بديلة. |
 | [ToDocument](../../aspose.words/range/todocument/)() | إنشاء مستند جديد كامل التكوين يحتوي على النطاق. |
 | [UnlinkFields](../../aspose.words/range/unlinkfields/)() | إلغاء ربط الحقول في هذا النطاق. |
 | [UpdateFields](../../aspose.words/range/updatefields/)() | يقوم بتحديث قيم حقول المستند في هذا النطاق. |
 
-### ملاحظات
+## ملاحظات
 
 يتم تمثيل المستند بواسطة شجرة من العقد وتوفر العقد عمليات للعمل مع الشجرة، ولكن يكون تنفيذ بعض العمليات أسهل إذا تم التعامل مع document كتسلسل متجاور من النص.
 
@@ -49,7 +51,7 @@ public class Range
 
 `Range` لا يحتوي على أي نص أو عقد، فهو مجرد عرض أو "نافذة" على جزء من المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على محتويات النص لجميع العقد التي يغطيها النطاق.
 
@@ -66,5 +68,3 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

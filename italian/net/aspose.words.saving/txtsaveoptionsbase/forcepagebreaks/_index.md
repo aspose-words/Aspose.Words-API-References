@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ForcePageBreaks
-second_title: Aspose.Words per .NET API Reference
-description: TxtSaveOptionsBase proprietà. Permette di specificare se le interruzioni di pagina devono essere preservate durante lesportazione.
+linktitle: ForcePageBreaks
+articleTitle: ForcePageBreaks
+second_title: Aspose.Words per .NET
+description: TxtSaveOptionsBase ForcePageBreaks proprietà. Permette di specificare se le interruzioni di pagina devono essere preservate durante lesportazione in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
@@ -16,11 +18,11 @@ Il valore predefinito è`falso`.
 public bool ForcePageBreaks { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La proprietà influisce solo sulle interruzioni di pagina inserite esplicitamente in un documento. Non è legato alle interruzioni di pagina che MS Word inserisce automaticamente alla fine di ogni pagina.
 
-### Esempi
+## Esempi
 
 Mostra come specificare se preservare le interruzioni di pagina durante l'esportazione di un documento in testo normale.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(forcePageBreaks ? 3 : 1, doc.PageCount);
 ### Guarda anche
 
 * class [TxtSaveOptionsBase](../)
-* spazio dei nomi [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

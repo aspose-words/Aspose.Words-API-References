@@ -1,9 +1,11 @@
 ---
 title: Fill.ForeColor
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill свойство. Получает или задает объект Color который представляет цвет переднего плана для заливки.
+linktitle: ForeColor
+articleTitle: ForeColor
+second_title: Aspose.Words для .NET
+description: Fill ForeColor свойство. Получает или задает объект Color который представляет цвет переднего плана для заливки на С#.
 type: docs
-weight: 70
+weight: 60
 url: /ru/net/aspose.words.drawing/fill/forecolor/
 ---
 ## Fill.ForeColor property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/fill/forecolor/
 public Color ForeColor { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство сбрасывает альфа-компонентColor до полностью непрозрачного цвета в отличие от[`Color`](../color/) имущество, которое его сохраняет.
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Смотрите также
 
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

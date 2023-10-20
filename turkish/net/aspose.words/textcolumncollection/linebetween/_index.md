@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.LineBetween
-second_title: Aspose.Words for .NET API Referansı
-description: TextColumnCollection mülk. Ne zamandoğru sütunların arasına dikey bir çizgi ekler.
+linktitle: LineBetween
+articleTitle: LineBetween
+second_title: Aspose.Words for .NET
+description: TextColumnCollection LineBetween mülk. Ne zamandoğru sütunların arasına dikey bir çizgi ekler C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/textcolumncollection/linebetween/
@@ -14,7 +16,7 @@ Ne zaman`doğru` sütunların arasına dikey bir çizgi ekler.
 public bool LineBetween { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Sütunların dikey çizgiyle nasıl ayrılacağını gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "PageSetup.VerticalLineBetweenColumns.docx");
 ### Ayrıca bakınız
 
 * class [TextColumnCollection](../)
-* ad alanı [Aspose.Words](../../textcolumncollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

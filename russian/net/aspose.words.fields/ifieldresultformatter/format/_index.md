@@ -1,12 +1,14 @@
 ---
 title: IFieldResultFormatter.Format
-second_title: Справочник по API Aspose.Words для .NET
-description: IFieldResultFormatter метод. Вызывается когда Aspose.Words применяет переключатель формата заглавных букв т.е.  Upper.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words для .NET
+description: IFieldResultFormatter Format метод. Вызывается когда Aspose.Words применяет переключатель формата заглавных букв т.е.  Upper на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/ifieldresultformatter/format/
 ---
-## Format(string, GeneralFormat) {#format_1}
+## Format(*string, [GeneralFormat](../../generalformat/)*) {#format_1}
 
 Вызывается, когда Aspose.Words применяет переключатель формата заглавных букв, т.е. \* Upper.
 
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/ifieldresultformatter/format/
 public string Format(string value, GeneralFormat format)
 ```
 
-### Примечания
+## Примечания
 
 Реализация должна вернуть результат`нулевой` чтобы указать, что должно быть применено форматирование по умолчанию.
 
-### Примеры
+## Примеры
 
 Показывает, как автоматически применять пользовательский формат к результатам полей при обновлении полей.
 
@@ -156,12 +158,12 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* пространство имен [Aspose.Words.Fields](../../ifieldresultformatter/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Format(double, GeneralFormat) {#format}
+## Format(*double, [GeneralFormat](../../generalformat/)*) {#format}
 
 Вызывается, когда Aspose.Words применяет переключатель числового формата, т.е. \* Ordinal.
 
@@ -169,11 +171,11 @@ private class FieldResultFormatter : IFieldResultFormatter
 public string Format(double value, GeneralFormat format)
 ```
 
-### Примечания
+## Примечания
 
 Реализация должна вернуть результат`нулевой` чтобы указать, что должно быть применено форматирование по умолчанию.
 
-### Примеры
+## Примеры
 
 Показывает, как автоматически применять пользовательский формат к результатам полей при обновлении полей.
 
@@ -311,7 +313,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* пространство имен [Aspose.Words.Fields](../../ifieldresultformatter/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

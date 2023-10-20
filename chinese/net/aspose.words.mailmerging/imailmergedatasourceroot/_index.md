@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeDataSourceRoot
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot 界面. 实现此接口以允许来自自定义数据源的邮件与主从数据合并
+title: IMailMergeDataSourceRoot Interface
+linktitle: IMailMergeDataSourceRoot
+articleTitle: IMailMergeDataSourceRoot
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot 界面. 实现此接口以允许来自自定义数据源的邮件与主从数据合并 在 C#.
 type: docs
 weight: 3820
 url: /zh/net/aspose.words.mailmerging/imailmergedatasourceroot/
@@ -18,9 +20,9 @@ public interface IMailMergeDataSourceRoot
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(string) | Aspose.Words 邮件合并引擎在遇到顶级邮件合并区域的开头时调用此方法。 |
+| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(*string*) | Aspose.Words 邮件合并引擎在遇到顶级邮件合并区域的开头时调用此方法。 |
 
-### 例子
+## 例子
 
 使用主从数据从自定义数据源执行邮件合并。
 
@@ -204,5 +206,3 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * 命名空间 [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../)
-
-

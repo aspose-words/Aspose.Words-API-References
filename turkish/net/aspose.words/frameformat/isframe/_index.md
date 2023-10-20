@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.IsFrame
-second_title: Aspose.Words for .NET API Referansı
-description: FrameFormat mülk. İadelerdoğru paragraf bir çerçeve ise.
+linktitle: IsFrame
+articleTitle: IsFrame
+second_title: Aspose.Words for .NET
+description: FrameFormat IsFrame mülk. İadelerdoğru paragraf bir çerçeve ise C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/frameformat/isframe/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/frameformat/isframe/
 public bool IsFrame { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Ayrıca bakınız
 
 * class [FrameFormat](../)
-* ad alanı [Aspose.Words](../../frameformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

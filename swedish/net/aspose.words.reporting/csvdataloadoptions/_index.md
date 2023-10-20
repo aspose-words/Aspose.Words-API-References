@@ -1,7 +1,9 @@
 ---
-title: Class CsvDataLoadOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Reporting.CsvDataLoadOptions klass. Representerar alternativ för att analysera CSVdata.
+title: CsvDataLoadOptions Class
+linktitle: CsvDataLoadOptions
+articleTitle: CsvDataLoadOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Reporting.CsvDataLoadOptions klass. Representerar alternativ för att analysera CSVdata i C#.
 type: docs
 weight: 4660
 url: /sv/net/aspose.words.reporting/csvdataloadoptions/
@@ -21,7 +23,7 @@ public class CsvDataLoadOptions
 | namn | Beskrivning |
 | --- | --- |
 | [CsvDataLoadOptions](csvdataloadoptions/#constructor)() | Initierar en ny instans av denna klass med standardalternativ. |
-| [CsvDataLoadOptions](csvdataloadoptions/#constructor_1)(bool) | Initierar en ny instans av denna klass med angivande av om CSV-data innehåller kolumnnamn på första raden. |
+| [CsvDataLoadOptions](csvdataloadoptions/#constructor_1)(*bool*) | Initierar en ny instans av denna klass med angivande av om CSV-data innehåller kolumnnamn på första raden. |
 
 ## Egenskaper
 
@@ -32,7 +34,7 @@ public class CsvDataLoadOptions
 | [HasHeaders](../../aspose.words.reporting/csvdataloadoptions/hasheaders/) { get; set; } | Hämtar eller ställer in ett värde som anger om den första posten med CSV-data innehåller kolumnnamn. |
 | [QuoteChar](../../aspose.words.reporting/csvdataloadoptions/quotechar/) { get; set; } | Hämtar eller ställer in tecknet som används för att citera fältvärden. |
 
-### Anmärkningar
+## Anmärkningar
 
 En instans av denna klass kan skickas till konstruktörer av[`CsvDataSource`](../csvdatasource/) .
 
@@ -40,5 +42,3 @@ En instans av denna klass kan skickas till konstruktörer av[`CsvDataSource`](..
 
 * namnutrymme [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../)
-
-

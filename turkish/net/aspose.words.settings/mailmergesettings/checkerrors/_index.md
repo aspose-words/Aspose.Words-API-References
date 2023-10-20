@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.CheckErrors
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Adresmektup birleştirme gerçekleştirilirken Microsoft Word tarafından gerçekleştirilecek hata raporlama türünü belirtir. Varsayılan değerDefault .
+linktitle: CheckErrors
+articleTitle: CheckErrors
+second_title: Aspose.Words for .NET
+description: MailMergeSettings CheckErrors mülk. Adresmektup birleştirme gerçekleştirilirken Microsoft Word tarafından gerçekleştirilecek hata raporlama türünü belirtir. Varsayılan değerDefault  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.settings/mailmergesettings/checkerrors/
@@ -14,7 +16,7 @@ Adres-mektup birleştirme gerçekleştirilirken Microsoft Word tarafından gerç
 public MailMergeCheckErrors CheckErrors { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeCheckErrors](../../mailmergecheckerrors/)
 * class [MailMergeSettings](../)
-* ad alanı [Aspose.Words.Settings](../../mailmergesettings/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum DocumentDirection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loading.DocumentDirection перечисление. Позволяет указать направление расположения текста в документе.
+title: DocumentDirection Enum
+linktitle: DocumentDirection
+articleTitle: DocumentDirection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Loading.DocumentDirection перечисление. Позволяет указать направление расположения текста в документе на С#.
 type: docs
 weight: 3580
 url: /ru/net/aspose.words.loading/documentdirection/
@@ -26,5 +28,3 @@ public enum DocumentDirection
 
 * пространство имен [Aspose.Words.Loading](../../aspose.words.loading/)
 * сборка [Aspose.Words](../../)
-
-

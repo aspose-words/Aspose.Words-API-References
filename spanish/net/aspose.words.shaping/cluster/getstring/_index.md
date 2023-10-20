@@ -1,12 +1,14 @@
 ---
 title: Cluster.GetString
-second_title: Referencia de API de Aspose.Words para .NET
-description: Cluster método. CreaString utilizando puntos de código de los clústeres especificados.
+linktitle: GetString
+articleTitle: GetString
+second_title: Aspose.Words para .NET
+description: Cluster GetString método. CreaString utilizando puntos de código de los clústeres especificados en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.shaping/cluster/getstring/
 ---
-## GetString(Cluster[])
+## GetString(*Cluster[]*)
 
 CreaString utilizando puntos de código de los clústeres especificados.
 
@@ -17,7 +19,7 @@ public static string GetString(Cluster[] clusters)
 ### Ver también
 
 * class [Cluster](../)
-* espacio de nombres [Aspose.Words.Shaping](../../cluster/)
+* espacio de nombres [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -33,7 +35,5 @@ public string GetString()
 ### Ver también
 
 * class [Cluster](../)
-* espacio de nombres [Aspose.Words.Shaping](../../cluster/)
+* espacio de nombres [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * asamblea [Aspose.Words](../../../)
-
-

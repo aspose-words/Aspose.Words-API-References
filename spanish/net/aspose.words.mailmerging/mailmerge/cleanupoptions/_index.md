@@ -1,7 +1,9 @@
 ---
 title: MailMerge.CleanupOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge propiedad. Obtiene o establece un conjunto de indicadores que especifican qué elementos se deben eliminar durante la combinación de correspondencia.
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: Aspose.Words para .NET
+description: MailMerge CleanupOptions propiedad. Obtiene o establece un conjunto de indicadores que especifican qué elementos se deben eliminar durante la combinación de correspondencia en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
@@ -14,7 +16,7 @@ Obtiene o establece un conjunto de indicadores que especifican qué elementos se
 public MailMergeCleanupOptions CleanupOptions { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar párrafos vacíos que una combinación de correspondencia puede crear desde el documento de salida de la combinación.
 
@@ -87,7 +89,5 @@ else
 
 * enum [MailMergeCleanupOptions](../../mailmergecleanupoptions/)
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

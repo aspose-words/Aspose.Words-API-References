@@ -1,7 +1,9 @@
 ---
-title: Class FontSubstitutionRule
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.FontSubstitutionRule сорт. Это абстрактный базовый класс для правила замены шрифтов.
+title: FontSubstitutionRule Class
+linktitle: FontSubstitutionRule
+articleTitle: FontSubstitutionRule
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.FontSubstitutionRule сорт. Это абстрактный базовый класс для правила замены шрифтов на С#.
 type: docs
 weight: 3000
 url: /ru/net/aspose.words.fonts/fontsubstitutionrule/
@@ -22,7 +24,7 @@ public abstract class FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Указывает, включено правило или нет. |
 
-### Примеры
+## Примеры
 
 Показывает замену конфигурации шрифтов в зависимости от операционной системы.
 
@@ -59,5 +61,3 @@ if (isLinuxOrMac)
 
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

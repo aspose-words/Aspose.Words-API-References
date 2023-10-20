@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.HorizontalPosition
-second_title: Aspose.Words for .NET API 参考
-description: FieldAdvance 财产. 获取或设置字段后面的文本应从列框架或文本框的左边缘水平移动 的点数
+linktitle: HorizontalPosition
+articleTitle: HorizontalPosition
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldAdvance HorizontalPosition 财产. 获取或设置字段后面的文本应从列框架或文本框的左边缘水平移动 的点数 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldadvance/horizontalposition/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldadvance/horizontalposition/
 public string HorizontalPosition { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入 ADVANCE 字段并编辑其属性。
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### 也可以看看
 
 * class [FieldAdvance](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldadvance/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

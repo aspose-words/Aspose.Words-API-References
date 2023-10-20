@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PageNumberOmittingLevelRange
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToc свойство. Получает или задает диапазон уровней записей оглавления из которых можно опустить номера страниц.
+linktitle: PageNumberOmittingLevelRange
+articleTitle: PageNumberOmittingLevelRange
+second_title: Aspose.Words для .NET
+description: FieldToc PageNumberOmittingLevelRange свойство. Получает или задает диапазон уровней записей оглавления из которых можно опустить номера страниц на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/
 public string PageNumberOmittingLevelRange { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить оглавление и заполнить его записями на основе стилей заголовков.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Смотрите также
 
 * class [FieldToc](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

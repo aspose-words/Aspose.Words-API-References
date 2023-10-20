@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.DisplayBackgroundShape
-second_title: Referencia de API de Aspose.Words para .NET
-description: ViewOptions propiedad. Controla la visualización de la forma del fondo en la vista de diseño de impresión.
+linktitle: DisplayBackgroundShape
+articleTitle: DisplayBackgroundShape
+second_title: Aspose.Words para .NET
+description: ViewOptions DisplayBackgroundShape propiedad. Controla la visualización de la forma del fondo en la vista de diseño de impresión en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.settings/viewoptions/displaybackgroundshape/
@@ -14,7 +16,7 @@ Controla la visualización de la forma del fondo en la vista de diseño de impre
 public bool DisplayBackgroundShape { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ocultar/mostrar imágenes de fondo de documentos en las opciones de visualización.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "ViewOptions.DisplayBackgroundShape.docx");
 ### Ver también
 
 * class [ViewOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../viewoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

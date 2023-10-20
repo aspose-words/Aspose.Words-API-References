@@ -1,7 +1,9 @@
 ---
 title: PageSet.All
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSet eigendom. Ruft einen Satz mit allen Seiten des Dokuments in ihrer ursprünglichen Reihenfolge ab.
+linktitle: All
+articleTitle: All
+second_title: Aspose.Words für .NET
+description: PageSet All eigendom. Ruft einen Satz mit allen Seiten des Dokuments in ihrer ursprünglichen Reihenfolge ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/pageset/all/
@@ -17,7 +19,5 @@ public static PageSet All { get; }
 ### Siehe auch
 
 * class [PageSet](../)
-* namensraum [Aspose.Words.Saving](../../pageset/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

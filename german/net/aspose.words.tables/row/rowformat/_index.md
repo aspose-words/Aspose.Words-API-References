@@ -1,7 +1,9 @@
 ---
 title: Row.RowFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: Row eigendom. Bietet Zugriff auf die Formatierungseigenschaften der Zeile.
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words für .NET
+description: Row RowFormat eigendom. Bietet Zugriff auf die Formatierungseigenschaften der Zeile in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.tables/row/rowformat/
@@ -14,7 +16,7 @@ Bietet Zugriff auf die Formatierungseigenschaften der Zeile.
 public RowFormat RowFormat { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Formatierung einer Tabellenzeile geändert wird.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 
 * class [RowFormat](../../rowformat/)
 * class [Row](../)
-* namensraum [Aspose.Words.Tables](../../row/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

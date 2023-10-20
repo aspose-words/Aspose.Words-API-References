@@ -1,7 +1,9 @@
 ---
-title: Class FieldStart
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldStart klas. Stellt den Anfang eines WordFelds in einem Dokument dar.
+title: FieldStart Class
+linktitle: FieldStart
+articleTitle: FieldStart
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.FieldStart klas. Stellt den Anfang eines WordFelds in einem Dokument dar in C#.
 type: docs
 weight: 2430
 url: /de/net/aspose.words.fields/fieldstart/
@@ -44,19 +46,19 @@ public class FieldStart : FieldChar
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/fieldstart/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| override [Accept](../../aspose.words.fields/fieldstart/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Akzeptiert einen Besucher. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Erstellt ein Duplikat des Knotens. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
 | [GetField](../../aspose.words.fields/fieldchar/getfield/)() | Gibt ein Feld für das Feld char zurück. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Ruft das Sonderzeichen ab, das dieser Knoten darstellt. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
 
-### Bemerkungen
+## Bemerkungen
 
 `FieldStart` ist ein Knoten auf Inline-Ebene und wird durch the dargestellt.[`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) Steuerzeichen im Dokument.
 
@@ -66,7 +68,7 @@ Ein vollständiges Feld in einem Microsoft Word-Dokument ist eine komplexe Struk
 
 Um ganz einfach ein neues Feld in ein Dokument einzufügen, verwenden Sie die[`InsertField`](../../aspose.words/documentbuilder/insertfield/) -Methode.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
 
@@ -383,5 +385,3 @@ namespace ApiExamples
 * class [FieldChar](../fieldchar/)
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

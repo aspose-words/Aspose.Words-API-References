@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Gutter
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Hämtar eller ställer in mängden extra utrymme som läggs till marginalen för dokumentbindning.
+linktitle: Gutter
+articleTitle: Gutter
+second_title: Aspose.Words för .NET
+description: PageSetup Gutter fast egendom. Hämtar eller ställer in mängden extra utrymme som läggs till marginalen för dokumentbindning i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words/pagesetup/gutter/
@@ -14,7 +16,7 @@ Hämtar eller ställer in mängden extra utrymme som läggs till marginalen för
 public double Gutter { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man konfigurerar ett dokument som kan skrivas ut som en bokvikning.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

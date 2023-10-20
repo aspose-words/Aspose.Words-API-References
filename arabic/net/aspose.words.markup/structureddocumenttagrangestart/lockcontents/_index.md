@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.LockContents
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. عند الضبط علىحقيقي  ستمنع هذه الخاصية المستخدم من تحرير محتويات علامة المستند المنظمة هذه.
+linktitle: LockContents
+articleTitle: LockContents
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeStart LockContents ملكية. عند الضبط علىحقيقي  ستمنع هذه الخاصية المستخدم من تحرير محتويات علامة المستند المنظمة هذه في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/lockcontents/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/lockcontents/
 public bool LockContents { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### أنظر أيضا
 
 * class [StructuredDocumentTagRangeStart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

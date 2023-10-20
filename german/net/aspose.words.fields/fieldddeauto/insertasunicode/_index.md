@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.InsertAsUnicode
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDdeAuto eigendom. Ruft ab oder legt fest ob das verknüpfte Objekt als UnicodeText eingefügt werden soll.
+linktitle: InsertAsUnicode
+articleTitle: InsertAsUnicode
+second_title: Aspose.Words für .NET
+description: FieldDdeAuto InsertAsUnicode eigendom. Ruft ab oder legt fest ob das verknüpfte Objekt als UnicodeText eingefügt werden soll in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldddeauto/insertasunicode/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob das verknüpfte Objekt als Unicode-Text eingefügt we
 public bool InsertAsUnicode { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie verschiedene Feldtypen verwenden, um eine Verknüpfung zu anderen Dokumenten im lokalen Dateisystem herzustellen und deren Inhalte anzuzeigen.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Siehe auch
 
 * class [FieldDdeAuto](../)
-* namensraum [Aspose.Words.Fields](../../fieldddeauto/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

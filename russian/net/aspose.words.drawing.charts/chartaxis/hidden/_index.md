@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Hidden
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Получает или устанавливает флаг указывающий скрыта эта ось или нет.
+linktitle: Hidden
+articleTitle: Hidden
+second_title: Aspose.Words для .NET
+description: ChartAxis Hidden свойство. Получает или устанавливает флаг указывающий скрыта эта ось или нет на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.drawing.charts/chartaxis/hidden/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/hidden/
 public bool Hidden { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ` .
 
-### Примеры
+## Примеры
 
 Показывает, как скрыть оси диаграммы.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.HideChartAxis.docx");
 ### Смотрите также
 
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

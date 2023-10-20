@@ -1,7 +1,9 @@
 ---
 title: Table.Rows
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 提供对表行的类型化访问
+linktitle: Rows
+articleTitle: Rows
+second_title: 用于 .NET 的 Aspose.Words
+description: Table Rows 财产. 提供对表行的类型化访问 在 C#.
 type: docs
 weight: 260
 url: /zh/net/aspose.words.tables/table/rows/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/table/rows/
 public RowCollection Rows { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将两个表中的行合并为一个表。
 
@@ -83,7 +85,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [RowCollection](../../rowcollection/)
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

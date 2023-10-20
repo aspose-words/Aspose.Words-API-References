@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Level
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeRegionInfo eigendom. Gibt die Verschachtelungsebene für die Region zurück.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words für .NET
+description: MailMergeRegionInfo Level eigendom. Gibt die Verschachtelungsebene für die Region zurück in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.mailmerging/mailmergeregioninfo/level/
@@ -14,7 +16,7 @@ Gibt die Verschachtelungsebene für die Region zurück.
 public int Level { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seriendruckbereiche überprüft werden.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### Siehe auch
 
 * class [MailMergeRegionInfo](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

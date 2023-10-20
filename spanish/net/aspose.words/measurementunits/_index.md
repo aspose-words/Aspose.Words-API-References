@@ -1,7 +1,9 @@
 ---
-title: Enum MeasurementUnits
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.MeasurementUnits enumeración. Especifica la unidad de medida.
+title: MeasurementUnits Enum
+linktitle: MeasurementUnits
+articleTitle: MeasurementUnits
+second_title: Aspose.Words para .NET
+description: Aspose.Words.MeasurementUnits enumeración. Especifica la unidad de medida en C#.
 type: docs
 weight: 4150
 url: /es/net/aspose.words/measurementunits/
@@ -28,5 +30,3 @@ public enum MeasurementUnits
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

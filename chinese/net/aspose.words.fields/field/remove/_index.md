@@ -1,7 +1,9 @@
 ---
 title: Field.Remove
-second_title: Aspose.Words for .NET API 参考
-description: Field 方法. 从文档中删除该字段返回字段后面的节点如果字段的结尾是其父节点的最后一个 child 则返回其父段落如果该字段已被删除则返回无效的.
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: Field Remove 方法. 从文档中删除该字段返回字段后面的节点如果字段的结尾是其父节点的最后一个 child 则返回其父段落如果该字段已被删除则返回无效的 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.fields/field/remove/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/field/remove/
 public Node Remove()
 ```
 
-### 例子
+## 例子
 
 演示如何从字段集合中删除字段。
 
@@ -123,7 +125,5 @@ public class FieldPrivateRemover : DocumentVisitor
 
 * class [Node](../../../aspose.words/node/)
 * class [Field](../)
-* 命名空间 [Aspose.Words.Fields](../../field/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

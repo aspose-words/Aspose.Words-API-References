@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Category
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Hämtar eller ställer in kategorin för dokumentet.
+linktitle: Category
+articleTitle: Category
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties Category fast egendom. Hämtar eller ställer in kategorin för dokumentet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.properties/builtindocumentproperties/category/
@@ -14,7 +16,7 @@ Hämtar eller ställer in kategorin för dokumentet.
 public string Category { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med inbyggda dokumentegenskaper i kategorin "Beskrivning".
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

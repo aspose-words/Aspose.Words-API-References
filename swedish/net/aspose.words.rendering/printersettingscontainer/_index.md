@@ -1,7 +1,9 @@
 ---
-title: Class PrinterSettingsContainer
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Rendering.PrinterSettingsContainer klass. Representerar ett minne för vissa parametrar avPrinterSettings objekt.
+title: PrinterSettingsContainer Class
+linktitle: PrinterSettingsContainer
+articleTitle: PrinterSettingsContainer
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Rendering.PrinterSettingsContainer klass. Representerar ett minne för vissa parametrar avPrinterSettings objekt i C#.
 type: docs
 weight: 4580
 url: /sv/net/aspose.words.rendering/printersettingscontainer/
@@ -20,7 +22,7 @@ public class PrinterSettingsContainer
 
 | namn | Beskrivning |
 | --- | --- |
-| [PrinterSettingsContainer](printersettingscontainer/)(PrinterSettings) | Skapar en behållare förPrinterSettings . |
+| [PrinterSettingsContainer](printersettingscontainer/)(*PrinterSettings*) | Skapar en behållare förPrinterSettings . |
 
 ## Egenskaper
 
@@ -30,11 +32,11 @@ public class PrinterSettingsContainer
 | [PaperSizes](../../aspose.words.rendering/printersettingscontainer/papersizes/) { get; } | SePaperSizes . |
 | [PaperSources](../../aspose.words.rendering/printersettingscontainer/papersources/) { get; } | SePaperSources . |
 
-### Anmärkningar
+## Anmärkningar
 
 Tillgång till data förPrinterSettings tar lång tid. `PrinterSettingsContainer` cachar parametrar frånPrinterSettings , så utskriften fungerar snabbare.
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt och listar skrivarens papperskällor och storlekar.
 
@@ -68,5 +70,3 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 
 * namnutrymme [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../)
-
-

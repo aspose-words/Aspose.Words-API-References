@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsWidth
-second_title: Référence de l'API Aspose.Words pour .NET
-description: RevisionOptions propriété. Obtient ou définit la largeur des barres de révision points.
+linktitle: RevisionBarsWidth
+articleTitle: RevisionBarsWidth
+second_title: Aspose.Words pour .NET
+description: RevisionOptions RevisionBarsWidth propriété. Obtient ou définit la largeur des barres de révision points en C#.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.layout/revisionoptions/revisionbarswidth/
@@ -14,7 +16,7 @@ Obtient ou définit la largeur des barres de révision, points.
 public float RevisionBarsWidth { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment modifier l’apparence des révisions.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### Voir également
 
 * class [RevisionOptions](../)
-* espace de noms [Aspose.Words.Layout](../../revisionoptions/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

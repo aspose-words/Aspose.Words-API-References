@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Category
-second_title: Aspose.Words لمراجع .NET API
-description: BuildingBlock ملكية. يحدد تصنيف المستوى الثاني للكتلة البرمجية الإنشائية.
+linktitle: Category
+articleTitle: Category
+second_title: Aspose.Words لـ .NET
+description: BuildingBlock Category ملكية. يحدد تصنيف المستوى الثاني للكتلة البرمجية الإنشائية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.buildingblocks/buildingblock/category/
@@ -14,15 +16,15 @@ url: /ar/net/aspose.words.buildingblocks/buildingblock/category/
 public string Category { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تم ترتيب الكتل البرمجية الإنشائية في واجهة مستخدم Microsoft Word في المعارض. كل[`Gallery`](../gallery/) يمكن أن تحتوي على فئات متعددة. كل كتلة داخل أ`Category` لديه[`Name`](../name/).
 
 لا يمكن`باطل` ولا يمكن أن تكون سلسلة فارغة.
 
-يتوافق مع **docPartPr.category.name** العنصر في OOXML
+يتوافق مع**docPartPr.category.name** العنصر في OOXML
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة كتلة إنشاء مخصصة إلى مستند.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [BuildingBlock](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Border.ClearFormatting
-second_title: Справочник по API Aspose.Words для .NET
-description: Border метод. Сбрасывает свойства границы к значениям по умолчанию.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words для .NET
+description: Border ClearFormatting метод. Сбрасывает свойства границы к значениям по умолчанию на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/border/clearformatting/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/border/clearformatting/
 public void ClearFormatting()
 ```
 
-### Примечания
+## Примечания
 
 Когда свойства границы сбрасываются до значений по умолчанию, граница становится невидимой.
 
-### Примеры
+## Примеры
 
 Показывает, как удалить границы абзаца.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Border.ClearFormatting.docx");
 ### Смотрите также
 
 * class [Border](../)
-* пространство имен [Aspose.Words](../../border/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

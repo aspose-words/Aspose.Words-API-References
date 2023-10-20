@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Title
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart eigendom. Gibt den Anzeigenamen an der diesem strukturierten DokumentTag zugeordnet ist. Kann nicht seinNull .
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTagRangeStart Title eigendom. Gibt den Anzeigenamen an der diesem strukturierten DokumentTag zugeordnet ist. Kann nicht seinNull  in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/title/
@@ -14,7 +16,7 @@ Gibt den Anzeigenamen an, der diesem strukturierten Dokument-Tag zugeordnet ist.
 public string Title { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften von strukturierten Dokument-Tags mit mehreren Abschnitten abgerufen werden.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Siehe auch
 
 * class [StructuredDocumentTagRangeStart](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

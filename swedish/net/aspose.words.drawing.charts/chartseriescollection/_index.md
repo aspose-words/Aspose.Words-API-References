@@ -1,7 +1,9 @@
 ---
-title: Class ChartSeriesCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartSeriesCollection klass. Representerar en samling av enChartSeries .
+title: ChartSeriesCollection Class
+linktitle: ChartSeriesCollection
+articleTitle: ChartSeriesCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartSeriesCollection klass. Representerar en samling av enChartSeries  i C#.
 type: docs
 weight: 790
 url: /sv/net/aspose.words.drawing.charts/chartseriescollection/
@@ -27,15 +29,15 @@ public class ChartSeriesCollection : IEnumerable<ChartSeries>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_2)(string, DateTime[], double[]) | Lägger till nytt[`ChartSeries`](../chartseries/) till denna samling. Använd den här metoden för att lägga till serier till alla typer av områdes-, radar- och aktiediagram. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add)(string, double[], double[]) | Lägger till nytt[`ChartSeries`](../chartseries/) till denna samling. Använd den här metoden för att lägga till serier till alla typer av punktdiagram. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_3)(string, string[], double[]) | Lägger till nytt[`ChartSeries`](../chartseries/) till denna samling. Använd den här metoden för att lägga till serier till alla typer av stapel-, kolumn-, linje- och ytdiagram. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_1)(string, double[], double[], double[]) | Lägger till nytt[`ChartSeries`](../chartseries/)till denna samling. Använd den här metoden för att lägga till serier till alla typer av bubbeldiagram. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_2)(*string, DateTime[], double[]*) | Lägger till nytt[`ChartSeries`](../chartseries/) till denna samling. Använd den här metoden för att lägga till serier till alla typer av områdes-, radar- och aktiediagram. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add)(*string, double[], double[]*) | Lägger till nytt[`ChartSeries`](../chartseries/) till denna samling. Använd den här metoden för att lägga till serier till alla typer av punktdiagram. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_3)(*string, string[], double[]*) | Lägger till nytt[`ChartSeries`](../chartseries/) till denna samling. Använd den här metoden för att lägga till serier till alla typer av stapel-, kolumn-, linje- och ytdiagram. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_1)(*string, double[], double[], double[]*) | Lägger till nytt[`ChartSeries`](../chartseries/)till denna samling. Använd den här metoden för att lägga till serier till alla typer av bubbeldiagram. |
 | [Clear](../../aspose.words.drawing.charts/chartseriescollection/clear/)() | Tar bort alla[`ChartSeries`](../chartseries/) från denna samling. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartseriescollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
-| [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat/)(int) | Tar bort en[`ChartSeries`](../chartseries/) vid angivet index. |
+| [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat/)(*int*) | Tar bort en[`ChartSeries`](../chartseries/) vid angivet index. |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till och tar bort seriedata i ett diagram.
 
@@ -84,5 +86,3 @@ chartData.Clear();
 * class [ChartSeries](../chartseries/)
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

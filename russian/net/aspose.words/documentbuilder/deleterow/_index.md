@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.DeleteRow
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Удаляет строку из таблицы.
+linktitle: DeleteRow
+articleTitle: DeleteRow
+second_title: Aspose.Words для .NET
+description: DocumentBuilder DeleteRow метод. Удаляет строку из таблицы на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words/documentbuilder/deleterow/
@@ -23,7 +25,7 @@ public Row DeleteRow(int tableIndex, int rowIndex)
 
 Узел строки, который был только что удален.
 
-### Примечания
+## Примечания
 
 Если курсор находится внутри удаляемой строки, курсор перемещается на следующую строку или на следующий абзац после таблицы.
 
@@ -31,7 +33,7 @@ public Row DeleteRow(int tableIndex, int rowIndex)
 
 Для параметров индекса, если индекс больше или равен 0, он указывает индекс from , начиная с которого 0 является первым элементом. Когда индекс меньше 0, указывается индекс from the end, где -1 является последним элементом.
 
-### Примеры
+## Примеры
 
 Показывает, как удалить строку из таблицы.
 
@@ -64,7 +66,5 @@ Assert.AreEqual("Row 2, cell 1.\aRow 2, cell 2.\a\a", table.GetText().Trim());
 
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

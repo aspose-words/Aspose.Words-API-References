@@ -1,7 +1,9 @@
 ---
-title: Class FieldDatabaseDataTable
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldDatabaseDataTable فصل. يوفر بيانات لـFieldDatabase النتيجة الميدانية. لطفا أنظرDataTable المثال.
+title: FieldDatabaseDataTable Class
+linktitle: FieldDatabaseDataTable
+articleTitle: FieldDatabaseDataTable
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldDatabaseDataTable فصل. يوفر بيانات لـFieldDatabase النتيجة الميدانية. لطفا أنظرDataTable المثال في C#.
 type: docs
 weight: 1760
 url: /ar/net/aspose.words.fields/fielddatabasedatatable/
@@ -20,7 +22,7 @@ public class FieldDatabaseDataTable
 
 | اسم | وصف |
 | --- | --- |
-| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | تهيئة مثيل جديد لـ`FieldDatabaseDataTable` فئة. |
+| [FieldDatabaseDataTable](fielddatabasedatatable/)(*params string[]*) | تهيئة مثيل جديد لـ`FieldDatabaseDataTable` فئة. |
 
 ## الخصائص
 
@@ -33,11 +35,9 @@ public class FieldDatabaseDataTable
 
 | اسم | وصف |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | تهيئة مثيل جديد لـ`FieldDatabaseDataTable` class منDataTable المثال. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(*DataTable*) | تهيئة مثيل جديد لـ`FieldDatabaseDataTable` class منDataTable المثال. |
 
 ### أنظر أيضا
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

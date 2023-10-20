@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.MetafileRenderingOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions свойство. Позволяет указать как метафайлы обрабатываются при визуализации.
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: Aspose.Words для .NET
+description: ImageSaveOptions MetafileRenderingOptions свойство. Позволяет указать как метафайлы обрабатываются при визуализации на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/
 public MetafileRenderingOptions MetafileRenderingOptions { get; }
 ```
 
-### Примечания
+## Примечания
 
 КогдаVector указан, Aspose.Words сначала преобразует метафайл в векторную графику, используя собственный механизм рендеринга метафайлов, а затем визуализирует графику Vector в изображение.
 
@@ -24,7 +26,7 @@ public MetafileRenderingOptions MetafileRenderingOptions { get; }
 
 Значение по умолчанию для[`MetafileRenderingMode`](../../metafilerenderingmode/) являетсяBitmap.
 
-### Примеры
+## Примеры
 
 Показывает, как установить режим рендеринга при сохранении документов с изображениями метафайлов Windows в другие форматы изображений.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.WindowsMetaFile.png", options);
 
 * class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * class [ImageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../imagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

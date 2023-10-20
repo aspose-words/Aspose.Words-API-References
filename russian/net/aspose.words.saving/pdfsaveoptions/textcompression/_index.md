@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.TextCompression
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Указывает тип сжатия который будет использоваться для всего текстового содержимого в документе.
+linktitle: TextCompression
+articleTitle: TextCompression
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions TextCompression свойство. Указывает тип сжатия который будет использоваться для всего текстового содержимого в документе на С#.
 type: docs
 weight: 290
 url: /ru/net/aspose.words.saving/pdfsaveoptions/textcompression/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/textcompression/
 public PdfTextCompression TextCompression { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 По умолчаниюFlate.
 
 Значительно увеличивает размер вывода при сохранении документа без сжатия.
 
-### Примеры
+## Примеры
 
 Показывает, как применить сжатие текста при сохранении документа в формате PDF.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);
 
 * enum [PdfTextCompression](../../pdftextcompression/)
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

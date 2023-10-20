@@ -1,7 +1,9 @@
 ---
-title: Enum TextBoxAnchor
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.TextBoxAnchor énumération. Spécifie les valeurs utilisées pour lalignement vertical du texte de forme.
+title: TextBoxAnchor Enum
+linktitle: TextBoxAnchor
+articleTitle: TextBoxAnchor
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.TextBoxAnchor énumération. Spécifie les valeurs utilisées pour lalignement vertical du texte de forme en C#.
 type: docs
 weight: 1330
 url: /fr/net/aspose.words.drawing/textboxanchor/
@@ -29,7 +31,7 @@ public enum TextBoxAnchor
 | TopCenteredBaseline | `8` | Le texte est aligné sur la ligne de base centrée en haut de la zone de texte. |
 | BottomCenteredBaseline | `9` | Le texte est aligné sur la ligne de base centrée en bas de la zone de texte. |
 
-### Exemples
+## Exemples
 
 Montre comment aligner verticalement le contenu du texte d’une zone de texte.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

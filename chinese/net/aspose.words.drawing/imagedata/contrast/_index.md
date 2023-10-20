@@ -1,7 +1,9 @@
 ---
 title: ImageData.Contrast
-second_title: Aspose.Words for .NET API 参考
-description: ImageData 财产. 获取或设置指定图片的对比度此属性的 value 必须是从 0.0最小对比度到 1.0最大对比度之间的数字
+linktitle: Contrast
+articleTitle: Contrast
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageData Contrast 财产. 获取或设置指定图片的对比度此属性的 value 必须是从 0.0最小对比度到 1.0最大对比度之间的数字 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing/imagedata/contrast/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/imagedata/contrast/
 public double Contrast { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为 0.5。
 
-### 例子
+## 例子
 
 演示如何编辑形状的图像数据。
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### 也可以看看
 
 * class [ImageData](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagedata/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

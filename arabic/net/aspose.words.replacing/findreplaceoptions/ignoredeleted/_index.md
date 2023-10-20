@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreDeleted
-second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. الحصول على قيمة منطقية أو تعيينها تشير إما إلى تجاهل النص داخل حذف المراجعات. القيمة الافتراضية هيخطأ شنيع .
+linktitle: IgnoreDeleted
+articleTitle: IgnoreDeleted
+second_title: Aspose.Words لـ .NET
+description: FindReplaceOptions IgnoreDeleted ملكية. الحصول على قيمة منطقية أو تعيينها تشير إما إلى تجاهل النص داخل حذف المراجعات. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/
 public bool IgnoreDeleted { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تضمين النص أو تجاهله داخل مراجعات الحذف أثناء عملية البحث والاستبدال.
 
@@ -53,7 +55,5 @@ Assert.AreEqual(
 ### أنظر أيضا
 
 * class [FindReplaceOptions](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../findreplaceoptions/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

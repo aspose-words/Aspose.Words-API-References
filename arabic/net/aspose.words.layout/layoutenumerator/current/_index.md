@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Current
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutEnumerator ملكية. الحصول على الموضع الحالي في نموذج تخطيط الصفحة أو تعيينه. تقوم هذه الخاصية بإرجاع كائن معتم يتوافق مع كيان التخطيط الحالي.
+linktitle: Current
+articleTitle: Current
+second_title: Aspose.Words لـ .NET
+description: LayoutEnumerator Current ملكية. الحصول على الموضع الحالي في نموذج تخطيط الصفحة أو تعيينه. تقوم هذه الخاصية بإرجاع كائن معتم يتوافق مع كيان التخطيط الحالي في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.layout/layoutenumerator/current/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/layoutenumerator/current/
 public object Current { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية رؤية نطاقات الصفحات التي تمتد عليها العقدة.
 
@@ -72,7 +74,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 ### أنظر أيضا
 
 * class [LayoutEnumerator](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutenumerator/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ConditionalStyle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.ConditionalStyle classe. Représente une mise en forme spéciale appliquée à certaines zones dun tableau avec un style de tableau attribué.
+title: ConditionalStyle Class
+linktitle: ConditionalStyle
+articleTitle: ConditionalStyle
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.ConditionalStyle classe. Représente une mise en forme spéciale appliquée à certaines zones dun tableau avec un style de tableau attribué en C#.
 type: docs
 weight: 310
 url: /fr/net/aspose.words/conditionalstyle/
@@ -35,10 +37,10 @@ public sealed class ConditionalStyle
 | Nom | La description |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting/)() | Efface le formatage de ce style conditionnel. |
-| override [Equals](../../aspose.words/conditionalstyle/equals/)(object) | Compare ce style conditionnel avec l'objet spécifié. |
+| override [Equals](../../aspose.words/conditionalstyle/equals/)(*object*) | Compare ce style conditionnel avec l'objet spécifié. |
 | override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | Calcule le code de hachage pour cet objet. |
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec certains styles de zones d'un tableau.
 
@@ -109,5 +111,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

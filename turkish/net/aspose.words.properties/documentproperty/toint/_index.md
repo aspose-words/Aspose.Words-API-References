@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToInt
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentProperty yöntem. Özellik değerini tamsayı olarak döndürür.
+linktitle: ToInt
+articleTitle: ToInt
+second_title: Aspose.Words for .NET
+description: DocumentProperty ToInt yöntem. Özellik değerini tamsayı olarak döndürür C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.properties/documentproperty/toint/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.properties/documentproperty/toint/
 public int ToInt()
 ```
 
-### Notlar
+## Notlar
 
 Özellik türü değilse bir istisna atarNumber .
 
-### Örnekler
+## Örnekler
 
 Özel belge özelliklerinin çeşitli tür dönüştürme yöntemlerini gösterir.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ### Ayrıca bakınız
 
 * class [DocumentProperty](../)
-* ad alanı [Aspose.Words.Properties](../../documentproperty/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

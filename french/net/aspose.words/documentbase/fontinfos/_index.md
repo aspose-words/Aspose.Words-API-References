@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.FontInfos
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBase propriété. Fournit un accès aux propriétés des polices utilisées dans ce document.
+linktitle: FontInfos
+articleTitle: FontInfos
+second_title: Aspose.Words pour .NET
+description: DocumentBase FontInfos propriété. Fournit un accès aux propriétés des polices utilisées dans ce document en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/documentbase/fontinfos/
@@ -14,13 +16,13 @@ Fournit un accès aux propriétés des polices utilisées dans ce document.
 public FontInfoCollection FontInfos { get; }
 ```
 
-### Remarques
+## Remarques
 
 Cette collection de définitions de polices est chargée telle quelle à partir du document. Les définitions de polices peuvent être facultatives, manquantes ou incomplètes dans certains documents.
 
 Ne vous fiez pas à cette collection pour vérifier qu'une police particulière est utilisée dans le document. Vous ne devez utiliser cette collection que pour obtenir des informations sur les polices susceptibles d'être utilisées dans le document.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer les détails des polices présentes dans un document.
 
@@ -59,7 +61,5 @@ else
 
 * class [FontInfoCollection](../../../aspose.words.fonts/fontinfocollection/)
 * class [DocumentBase](../)
-* espace de noms [Aspose.Words](../../documentbase/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

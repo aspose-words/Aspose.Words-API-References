@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.RevisionType uppräkning. Anger vilken typ av ändring som spåras inRevision .
+title: RevisionType Enum
+linktitle: RevisionType
+articleTitle: RevisionType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.RevisionType uppräkning. Anger vilken typ av ändring som spåras inRevision  i C#.
 type: docs
 weight: 4800
 url: /sv/net/aspose.words/revisiontype/
@@ -24,7 +26,7 @@ public enum RevisionType
 | StyleDefinitionChange | `3` | Ändring av formatering tillämpades på den överordnade stilen. |
 | Moving | `4` | Innehållet flyttades i dokumentet. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med revisioner i ett dokument.
 
@@ -108,5 +110,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

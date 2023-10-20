@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Borders
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Получает коллекцию границ страницы.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words для .NET
+description: PageSetup Borders свойство. Получает коллекцию границ страницы на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/pagesetup/borders/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/borders/
 public BorderCollection Borders { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать зеленую волнистую рамку страницы с тенью.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

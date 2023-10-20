@@ -1,7 +1,9 @@
 ---
-title: Class CommentRangeEnd
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.CommentRangeEnd sınıf. Kendisiyle ilişkilendirilmiş bir yorumun bulunduğu metin bölgesinin sonunu belirtir.
+title: CommentRangeEnd Class
+linktitle: CommentRangeEnd
+articleTitle: CommentRangeEnd
+second_title: Aspose.Words for .NET
+description: Aspose.Words.CommentRangeEnd sınıf. Kendisiyle ilişkilendirilmiş bir yorumun bulunduğu metin bölgesinin sonunu belirtir C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words/commentrangeend/
@@ -20,7 +22,7 @@ public sealed class CommentRangeEnd : Node
 
 | İsim | Tanım |
 | --- | --- |
-| [CommentRangeEnd](commentrangeend/)(DocumentBase, int) | Bu sınıfın yeni bir örneğini başlatır. |
+| [CommentRangeEnd](commentrangeend/)(*[DocumentBase](../documentbase/), int*) | Bu sınıfın yeni bir örneğini başlatır. |
 
 ## Özellikleri
 
@@ -40,24 +42,24 @@ public sealed class CommentRangeEnd : Node
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words/commentrangeend/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk atayı alır. |
+| override [Accept](../../aspose.words/commentrangeend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Ziyaretçi kabul eder. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Düğümün bir kopyasını oluşturur. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Belirtilen nesne türünün ilk atayı alır. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
-### Notlar
+## Notlar
 
 Metnin bir bölgesine bağlı bir yorum oluşturmak için bir yorum oluşturmanız gerekir.[`Comment`](../comment/) and sonra oluştur[`CommentRangeStart`](../commentrangestart/) Ve`CommentRangeEnd`ve tanımlayıcılarını aynı olarak ayarlayın[`Id`](../comment/id/) değer.
 
 `CommentRangeEnd` satır içi düzeyde bir düğümdür ve yalnızca alt öğesi olabilir[`Paragraph`](../paragraph/).
 
-### Örnekler
+## Örnekler
 
 Bir belge ziyaretçisi kullanılarak tüm yorumların içeriğinin ve yorum aralıklarının nasıl yazdırıldığını gösterir.
 
@@ -220,5 +222,3 @@ public class CommentInfoPrinter : DocumentVisitor
 * class [Node](../node/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

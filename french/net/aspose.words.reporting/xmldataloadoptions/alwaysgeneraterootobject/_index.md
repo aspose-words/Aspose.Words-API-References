@@ -1,7 +1,9 @@
 ---
 title: XmlDataLoadOptions.AlwaysGenerateRootObject
-second_title: Référence de l'API Aspose.Words pour .NET
-description: XmlDataLoadOptions propriété. Obtient ou définit un indicateur indiquant si une source de données générée contiendra toujours un objet pour un élément racine XML . Si un élément racine XML na aucun attribut et que tous ses éléments enfants ont les mêmes noms un tel objet nest pas créé par défaut.
+linktitle: AlwaysGenerateRootObject
+articleTitle: AlwaysGenerateRootObject
+second_title: Aspose.Words pour .NET
+description: XmlDataLoadOptions AlwaysGenerateRootObject propriété. Obtient ou définit un indicateur indiquant si une source de données générée contiendra toujours un objet pour un élément racine XML . Si un élément racine XML na aucun attribut et que tous ses éléments enfants ont les mêmes noms un tel objet nest pas créé par défaut en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject/
@@ -14,14 +16,12 @@ Obtient ou définit un indicateur indiquant si une source de données générée
 public bool AlwaysGenerateRootObject { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX` .
 
 ### Voir également
 
 * class [XmlDataLoadOptions](../)
-* espace de noms [Aspose.Words.Reporting](../../xmldataloadoptions/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
-
-

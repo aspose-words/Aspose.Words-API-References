@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PaperSize
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Returnerar eller ställer in pappersstorleken.
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words för .NET
+description: PageSetup PaperSize fast egendom. Returnerar eller ställer in pappersstorleken i C#.
 type: docs
 weight: 350
 url: /sv/net/aspose.words/pagesetup/papersize/
@@ -14,11 +16,11 @@ Returnerar eller ställer in pappersstorleken.
 public PaperSize PaperSize { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Ställer in denna egenskapsuppdateringar[`PageWidth`](../pagewidth/) och[`PageHeight`](../pageheight/) values. Ställer in detta värde tillCustom ändrar inte befintliga värden.
 
-### Exempel
+## Exempel
 
 Visar hur du justerar pappersstorlek, orientering, marginaler, tillsammans med andra inställningar för ett avsnitt.
 
@@ -129,7 +131,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [PaperSize](../../papersize/)
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

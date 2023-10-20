@@ -1,7 +1,9 @@
 ---
-title: Class PdfEncryptionDetails
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.PdfEncryptionDetails klas. Enthält Details zur Verschlüsselung und Zugriffsberechtigungen für ein PDFDokument.
+title: PdfEncryptionDetails Class
+linktitle: PdfEncryptionDetails
+articleTitle: PdfEncryptionDetails
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.PdfEncryptionDetails klas. Enthält Details zur Verschlüsselung und Zugriffsberechtigungen für ein PDFDokument in C#.
 type: docs
 weight: 5460
 url: /de/net/aspose.words.saving/pdfencryptiondetails/
@@ -20,8 +22,8 @@ public class PdfEncryptionDetails
 
 | Name | Beschreibung |
 | --- | --- |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(string, string) | Initialisiert eine Instanz dieser Klasse. |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(string, string, PdfPermissions) | Initialisiert eine Instanz dieser Klasse. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(*string, string*) | Initialisiert eine Instanz dieser Klasse. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(*string, string, [PdfPermissions](../pdfpermissions/)*) | Initialisiert eine Instanz dieser Klasse. |
 
 ## Eigenschaften
 
@@ -31,7 +33,7 @@ public class PdfEncryptionDetails
 | [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions/) { get; set; } | Gibt die Vorgänge an, die einem Benutzer für ein verschlüsseltes PDF-Dokument gestattet sind. Der Standardwert istDisallowAll . |
 | [UserPassword](../../aspose.words.saving/pdfencryptiondetails/userpassword/) { get; set; } | Gibt das Benutzerpasswort an, das zum Öffnen des verschlüsselten PDF-Dokuments erforderlich ist. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Berechtigungen für ein gespeichertes PDF-Dokument festgelegt werden.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

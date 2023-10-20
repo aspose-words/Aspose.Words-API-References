@@ -1,7 +1,9 @@
 ---
 title: CommentCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: CommentCollection 财产. 检索Comment在给定的索引.
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: CommentCollection Item 财产. 检索Comment在给定的索引 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/commentcollection/item/
@@ -18,7 +20,7 @@ public Comment this[int index] { get; }
 | --- | --- |
 | index | 集合的索引。 |
 
-### 评论
+## 评论
 
 该索引是从零开始的。
 
@@ -28,7 +30,7 @@ public Comment this[int index] { get; }
 
 如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
 
-### 例子
+## 例子
 
 显示如何删除评论回复。
 
@@ -61,7 +63,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 
 * class [Comment](../../comment/)
 * class [CommentCollection](../)
-* 命名空间 [Aspose.Words](../../commentcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

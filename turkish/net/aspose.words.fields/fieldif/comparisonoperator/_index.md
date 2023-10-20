@@ -1,7 +1,9 @@
 ---
 title: FieldIf.ComparisonOperator
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIf mülk. Karşılaştırma operatörünü alır veya ayarlar.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words for .NET
+description: FieldIf ComparisonOperator mülk. Karşılaştırma operatörünü alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldif/comparisonoperator/
@@ -14,7 +16,7 @@ Karşılaştırma operatörünü alır veya ayarlar.
 public string ComparisonOperator { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 IF alanının nasıl ekleneceğini gösterir.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### Ayrıca bakınız
 
 * class [FieldIf](../)
-* ad alanı [Aspose.Words.Fields](../../fieldif/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

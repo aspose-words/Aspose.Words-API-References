@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFootnoteStart
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Bir dipnot veya sonnot metninin numaralandırılması başladığında çağrılır.
+linktitle: VisitFootnoteStart
+articleTitle: VisitFootnoteStart
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitFootnoteStart yöntem. Bir dipnot veya sonnot metninin numaralandırılması başladığında çağrılır C#'da.
 type: docs
 weight: 220
 url: /tr/net/aspose.words/documentvisitor/visitfootnotestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFootnoteStart(Footnote footnote)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her dipnotun düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -307,7 +309,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

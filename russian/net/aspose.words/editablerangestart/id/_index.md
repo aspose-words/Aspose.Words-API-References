@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.Id
-second_title: Справочник по API Aspose.Words для .NET
-description: EditableRangeStart свойство. Указывает идентификатор редактируемого диапазона.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words для .NET
+description: EditableRangeStart Id свойство. Указывает идентификатор редактируемого диапазона на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/editablerangestart/id/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/editablerangestart/id/
 public int Id { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с редактируемым диапазоном.
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### Смотрите также
 
 * class [EditableRangeStart](../)
-* пространство имен [Aspose.Words](../../editablerangestart/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

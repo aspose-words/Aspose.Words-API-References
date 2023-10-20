@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.ContentStatus
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Получает или задаетContentStatus документа.
+linktitle: ContentStatus
+articleTitle: ContentStatus
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties ContentStatus свойство. Получает или задаетContentStatus документа на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.properties/builtindocumentproperties/contentstatus/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/contentstatus/
 public string ContentStatus { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами документа в категории «Содержимое».
 
@@ -124,7 +126,5 @@ private class LineCounter
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

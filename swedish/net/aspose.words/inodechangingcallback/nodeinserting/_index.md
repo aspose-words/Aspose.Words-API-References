@@ -1,7 +1,9 @@
 ---
 title: INodeChangingCallback.NodeInserting
-second_title: Aspose.Words för .NET API Referens
-description: INodeChangingCallback metod. Anropas precis innan en nod som tillhör detta dokument är på väg att infogas i en annan nod.
+linktitle: NodeInserting
+articleTitle: NodeInserting
+second_title: Aspose.Words för .NET
+description: INodeChangingCallback NodeInserting metod. Anropas precis innan en nod som tillhör detta dokument är på väg att infogas i en annan nod i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/inodechangingcallback/nodeinserting/
@@ -14,7 +16,7 @@ Anropas precis innan en nod som tillhör detta dokument är på väg att infogas
 public void NodeInserting(NodeChangingArgs args)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du anpassar nodbyte med en återuppringning.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [NodeChangingArgs](../../nodechangingargs/)
 * interface [INodeChangingCallback](../)
-* namnutrymme [Aspose.Words](../../inodechangingcallback/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

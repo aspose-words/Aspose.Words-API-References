@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.BarcodeType
-second_title: Aspose.Words لمراجع .NET API
-description: BarcodeParameters ملكية. نوع الرمز الشريطي.
+linktitle: BarcodeType
+articleTitle: BarcodeType
+second_title: Aspose.Words لـ .NET
+description: BarcodeParameters BarcodeType ملكية. نوع الرمز الشريطي في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/barcodeparameters/barcodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/barcodeparameters/barcodetype/
 public string BarcodeType { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مولد الباركود.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### أنظر أيضا
 
 * class [BarcodeParameters](../)
-* مساحة الاسم [Aspose.Words.Fields](../../barcodeparameters/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

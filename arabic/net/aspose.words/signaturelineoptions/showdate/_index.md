@@ -1,7 +1,9 @@
 ---
 title: SignatureLineOptions.ShowDate
-second_title: Aspose.Words لمراجع .NET API
-description: SignatureLineOptions ملكية. الحصول على أو تعيين قيمة تشير إلى أن تاريخ التوقيع يظهر في سطر التوقيع. القيمة الافتراضية لهذه الخاصية هيحقيقي .
+linktitle: ShowDate
+articleTitle: ShowDate
+second_title: Aspose.Words لـ .NET
+description: SignatureLineOptions ShowDate ملكية. الحصول على أو تعيين قيمة تشير إلى أن تاريخ التوقيع يظهر في سطر التوقيع. القيمة الافتراضية لهذه الخاصية هيحقيقي  في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/signaturelineoptions/showdate/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/signaturelineoptions/showdate/
 public bool ShowDate { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع مستند باستخدام شهادة شخصية وسطر التوقيع.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### أنظر أيضا
 
 * class [SignatureLineOptions](../)
-* مساحة الاسم [Aspose.Words](../../signaturelineoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

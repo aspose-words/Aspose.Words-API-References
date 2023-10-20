@@ -1,9 +1,11 @@
 ---
 title: CellFormat.RightPadding
-second_title: Aspose.Words für .NET-API-Referenz
-description: CellFormat eigendom. Gibt den Abstand in Punkten zurück der rechts vom Inhalt der Zelle hinzugefügt werden soll oder legt ihn fest.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words für .NET
+description: CellFormat RightPadding eigendom. Gibt den Abstand in Punkten zurück der rechts vom Inhalt der Zelle hinzugefügt werden soll oder legt ihn fest in C#.
 type: docs
-weight: 90
+weight: 80
 url: /de/net/aspose.words.tables/cellformat/rightpadding/
 ---
 ## CellFormat.RightPadding property
@@ -14,7 +16,7 @@ Gibt den Abstand (in Punkten) zurück, der rechts vom Inhalt der Zelle hinzugef�
 public double RightPadding { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Zellen mit einem Document Builder formatiert werden.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Siehe auch
 
 * class [CellFormat](../)
-* namensraum [Aspose.Words.Tables](../../cellformat/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

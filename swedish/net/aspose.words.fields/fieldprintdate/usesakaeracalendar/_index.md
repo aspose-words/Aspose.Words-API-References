@@ -1,7 +1,9 @@
 ---
 title: FieldPrintDate.UseSakaEraCalendar
-second_title: Aspose.Words för .NET API Referens
-description: FieldPrintDate fast egendom. Hämtar eller ställer in om Saka Erakalendern ska användas.
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: Aspose.Words för .NET
+description: FieldPrintDate UseSakaEraCalendar fast egendom. Hämtar eller ställer in om Saka Erakalendern ska användas i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldprintdate/usesakaeracalendar/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om Saka Era-kalendern ska användas.
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar läs PRINTDATE-fält.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### Se även
 
 * class [FieldPrintDate](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldprintdate/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

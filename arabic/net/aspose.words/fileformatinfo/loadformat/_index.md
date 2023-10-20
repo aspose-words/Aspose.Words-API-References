@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.LoadFormat
-second_title: Aspose.Words لمراجع .NET API
-description: FileFormatInfo ملكية. الحصول على تنسيق المستند الذي تم اكتشافه.
+linktitle: LoadFormat
+articleTitle: LoadFormat
+second_title: Aspose.Words لـ .NET
+description: FileFormatInfo LoadFormat ملكية. الحصول على تنسيق المستند الذي تم اكتشافه في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/fileformatinfo/loadformat/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/fileformatinfo/loadformat/
 public LoadFormat LoadFormat { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عندما يتم تشفير مستند OOXML، لا يمكن التأكد مما إذا كان مستند Excel أو Word أو PowerPoint دون فك تشفيره أولاً، لذا بالنسبة لمستند OOXML المشفر، سترجع هذه الخاصية دائمًاDocx.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام فئة FileFormatUtil للكشف عن تنسيق المستند وتشفيره.
 
@@ -93,7 +95,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatInfo](../)
-* مساحة الاسم [Aspose.Words](../../fileformatinfo/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

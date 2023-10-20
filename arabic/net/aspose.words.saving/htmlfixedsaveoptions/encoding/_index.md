@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.Encoding
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يحدد الترميز الذي سيتم استخدامه عند التصدير إلى HTML. القيمة الافتراضية هيترميز UTF8 الجديد صحيح UTF8 مع قائمة مكونات الصنف.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words لـ .NET
+description: HtmlFixedSaveOptions Encoding ملكية. يحدد الترميز الذي سيتم استخدامه عند التصدير إلى HTML. القيمة الافتراضية هيترميز UTF8 الجديد صحيح UTF8 مع قائمة مكونات الصنف في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/encoding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/encoding/
 public Encoding Encoding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الترميز الذي سيتم استخدامه أثناء تصدير مستند إلى HTML.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.UseEncoding.html", htmlFixedSaveOp
 ### أنظر أيضا
 
 * class [HtmlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

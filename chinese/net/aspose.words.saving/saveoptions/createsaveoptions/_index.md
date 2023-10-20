@@ -1,12 +1,14 @@
 ---
 title: SaveOptions.CreateSaveOptions
-second_title: Aspose.Words for .NET API 参考
-description: SaveOptions 方法. 创建适合指定保存格式的类的保存选项对象
+linktitle: CreateSaveOptions
+articleTitle: CreateSaveOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: SaveOptions CreateSaveOptions 方法. 创建适合指定保存格式的类的保存选项对象 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/saveoptions/createsaveoptions/
 ---
-## CreateSaveOptions(SaveFormat) {#createsaveoptions}
+## CreateSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#createsaveoptions}
 
 创建适合指定保存格式的类的保存选项对象。
 
@@ -22,7 +24,7 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 
 派生自的类的对象[`SaveOptions`](../)。
 
-### 例子
+## 例子
 
 显示将大型文档渲染为 PDF 时优化内存消耗的选项。
 
@@ -45,12 +47,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../saveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## CreateSaveOptions(string) {#createsaveoptions_1}
+## CreateSaveOptions(*string*) {#createsaveoptions_1}
 
 创建适合给定文件名中指定的文件扩展名的类的保存选项对象。
 
@@ -66,7 +68,7 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 派生自的类的对象[`SaveOptions`](../)。
 
-### 例子
+## 例子
 
 演示如何为没有附加模板的文档设置默认模板。
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### 也可以看看
 
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../saveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

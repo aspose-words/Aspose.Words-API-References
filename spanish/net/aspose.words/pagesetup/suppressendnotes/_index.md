@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SuppressEndnotes
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Verdadero si las notas finales se imprimen al final de la siguiente sección que no suprime las notas finales. Las notas finales suprimidas se imprimen antes de las notas finales de esa sección.
+linktitle: SuppressEndnotes
+articleTitle: SuppressEndnotes
+second_title: Aspose.Words para .NET
+description: PageSetup SuppressEndnotes propiedad. Verdadero si las notas finales se imprimen al final de la siguiente sección que no suprime las notas finales. Las notas finales suprimidas se imprimen antes de las notas finales de esa sección en C#.
 type: docs
 weight: 410
 url: /es/net/aspose.words/pagesetup/suppressendnotes/
@@ -14,7 +16,7 @@ Verdadero si las notas finales se imprimen al final de la siguiente sección que
 public bool SuppressEndnotes { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo almacenar notas finales al final de cada sección y modificar sus posiciones.
 
@@ -73,7 +75,5 @@ private static void InsertSectionWithEndnote(Document doc, string sectionBodyTex
 ### Ver también
 
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

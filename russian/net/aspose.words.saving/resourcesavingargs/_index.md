@@ -1,7 +1,9 @@
 ---
-title: Class ResourceSavingArgs
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.ResourceSavingArgs сорт. Предоставляет данные дляResourceSaving событие.
+title: ResourceSavingArgs Class
+linktitle: ResourceSavingArgs
+articleTitle: ResourceSavingArgs
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.ResourceSavingArgs сорт. Предоставляет данные дляResourceSaving событие на С#.
 type: docs
 weight: 5560
 url: /ru/net/aspose.words.saving/resourcesavingargs/
@@ -26,7 +28,7 @@ public class ResourceSavingArgs
 | [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri/) { get; set; } | Получает или задает универсальный идентификатор ресурса (URI), используемый для ссылки на файл ресурсов из документа. |
 | [ResourceStream](../../aspose.words.saving/resourcesavingargs/resourcestream/) { get; set; } | Позволяет указать поток, в котором будет сохранен ресурс. |
 
-### Примечания
+## Примечания
 
 По умолчанию, когда Aspose.Words сохраняет документ в HTML или SVG с фиксированной страницей, он сохраняет каждый ресурс в в отдельном файле. Aspose.Words использует имя файла документа и уникальный номер для создания уникального имени файла для каждого ресурса, найденного в документе.
 
@@ -36,7 +38,7 @@ public class ResourceSavingArgs
 
 Чтобы сохранять ресурсы в потоки, а не в файлы, используйте команду[`ResourceStream`](./resourcestream/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для отслеживания внешних ресурсов, созданных при преобразовании документа в HTML.
 
@@ -82,5 +84,3 @@ private class FontSavingCallback : IResourceSavingCallback
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

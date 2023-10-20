@@ -1,7 +1,9 @@
 ---
 title: ImageData.BiLevel
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageData propriété. Détermine si une image sera affichée en noir et blanc.
+linktitle: BiLevel
+articleTitle: BiLevel
+second_title: Aspose.Words pour .NET
+description: ImageData BiLevel propriété. Détermine si une image sera affichée en noir et blanc en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing/imagedata/bilevel/
@@ -14,11 +16,11 @@ Détermine si une image sera affichée en noir et blanc.
 public bool BiLevel { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX`.
 
-### Exemples
+## Exemples
 
 Montre comment modifier les données d’image d’une forme.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Voir également
 
 * class [ImageData](../)
-* espace de noms [Aspose.Words.Drawing](../../imagedata/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

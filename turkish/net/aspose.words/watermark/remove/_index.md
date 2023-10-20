@@ -1,7 +1,9 @@
 ---
 title: Watermark.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: Watermark yöntem. Filigranı kaldırır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: Watermark Remove yöntem. Filigranı kaldırır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/watermark/remove/
@@ -14,7 +16,7 @@ Filigranı kaldırır.
 public void Remove()
 ```
 
-### Örnekler
+## Örnekler
 
 Metin filigranının nasıl oluşturulacağını gösterir.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Ayrıca bakınız
 
 * class [Watermark](../)
-* ad alanı [Aspose.Words](../../watermark/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

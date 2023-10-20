@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.EndField
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeRegionInfo propiedad. Devuelve un campo final para la región.
+linktitle: EndField
+articleTitle: EndField
+second_title: Aspose.Words para .NET
+description: MailMergeRegionInfo EndField propiedad. Devuelve un campo final para la región en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.mailmerging/mailmergeregioninfo/endfield/
@@ -14,7 +16,7 @@ Devuelve un campo final para la región.
 public FieldMergeField EndField { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo verificar regiones de combinación de correspondencia.
 
@@ -60,7 +62,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * class [FieldMergeField](../../../aspose.words.fields/fieldmergefield/)
 * class [MailMergeRegionInfo](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

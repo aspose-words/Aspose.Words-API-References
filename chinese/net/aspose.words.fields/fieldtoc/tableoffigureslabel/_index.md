@@ -1,7 +1,9 @@
 ---
 title: FieldToc.TableOfFiguresLabel
-second_title: Aspose.Words for .NET API 参考
-description: FieldToc 财产. 获取或设置构建图表表格时使用的序列标识符的名称
+linktitle: TableOfFiguresLabel
+articleTitle: TableOfFiguresLabel
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldToc TableOfFiguresLabel 财产. 获取或设置构建图表表格时使用的序列标识符的名称 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.fields/fieldtoc/tableoffigureslabel/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldtoc/tableoffigureslabel/
 public string TableOfFiguresLabel { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 SEQ 字段用条目填充 TOC 字段。
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### 也可以看看
 
 * class [FieldToc](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldtoc/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

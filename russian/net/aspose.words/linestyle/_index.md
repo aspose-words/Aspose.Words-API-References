@@ -1,7 +1,9 @@
 ---
-title: Enum LineStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.LineStyle перечисление. Определяет стиль линииBorder .
+title: LineStyle Enum
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words для .NET
+description: Aspose.Words.LineStyle перечисление. Определяет стиль линииBorder  на С#.
 type: docs
 weight: 3450
 url: /ru/net/aspose.words/linestyle/
@@ -46,7 +48,7 @@ public enum LineStyle
 | Outset | `26` |  |
 | Inset | `27` |  |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить в документ строку, окруженную рамкой.
 
@@ -67,5 +69,3 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

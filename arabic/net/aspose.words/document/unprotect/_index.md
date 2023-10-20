@@ -1,9 +1,11 @@
 ---
 title: Document.Unprotect
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. إزالة الحماية عن المستند بغض النظر عن كلمة المرور.
+linktitle: Unprotect
+articleTitle: Unprotect
+second_title: Aspose.Words لـ .NET
+description: Document Unprotect طريقة. إزالة الحماية عن المستند بغض النظر عن كلمة المرور في C#.
 type: docs
-weight: 760
+weight: 740
 url: /ar/net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/document/unprotect/
 public void Unprotect()
 ```
 
-### ملاحظات
+## ملاحظات
 
 تعمل هذه الطريقة على إلغاء حماية المستند حتى لو كان يحتوي على كلمة مرور حماية.
 
 لاحظ أن حماية المستند تختلف عن الحماية ضد الكتابة. يتم تحديد الحماية ضد الكتابة باستخدام[`WriteProtection`](../writeprotection/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حماية مستند وإلغاء حمايته.
 
@@ -65,12 +67,12 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Unprotect(string) {#unprotect}
+## Unprotect(*string*) {#unprotect}
 
 إزالة الحماية عن المستند إذا تم تحديد كلمة مرور صحيحة.
 
@@ -86,13 +88,13 @@ public bool Unprotect(string password)
 
 `حقيقي` إذا تم تحديد كلمة مرور صحيحة وكان المستند غير محمي.
 
-### ملاحظات
+## ملاحظات
 
 تعمل هذه الطريقة على إلغاء حماية المستند فقط في حالة تحديد كلمة مرور صحيحة.
 
 لاحظ أن حماية المستند تختلف عن الحماية ضد الكتابة. يتم تحديد الحماية ضد الكتابة باستخدام[`WriteProtection`](../writeprotection/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حماية مستند وإلغاء حمايته.
 
@@ -137,7 +139,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

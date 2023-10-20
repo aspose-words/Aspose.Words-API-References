@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Insert
-second_title: Aspose.Words for .NET API Referansı
-description: DropDownItemCollection yöntem. Belirtilen dizindeki koleksiyona bir dize ekler.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words for .NET
+description: DropDownItemCollection Insert yöntem. Belirtilen dizindeki koleksiyona bir dize ekler C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/dropdownitemcollection/insert/
@@ -19,7 +21,7 @@ public void Insert(int index, string value)
 | index | Int32 | Değerin eklendiği sıfır tabanlı dizin. |
 | value | String | Eklenecek dize. |
 
-### Örnekler
+## Örnekler
 
 Açılan kutu alanının nasıl ekleneceğini ve öğe koleksiyonundaki öğelerin nasıl düzenleneceğini gösterir.
 
@@ -73,7 +75,5 @@ dropDownItems.Clear();
 ### Ayrıca bakınız
 
 * class [DropDownItemCollection](../)
-* ad alanı [Aspose.Words.Fields](../../dropdownitemcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

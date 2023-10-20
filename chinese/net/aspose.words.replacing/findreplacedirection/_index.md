@@ -1,7 +1,9 @@
 ---
-title: Enum FindReplaceDirection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Replacing.FindReplaceDirection 枚举. 指定替换操作的方向
+title: FindReplaceDirection Enum
+linktitle: FindReplaceDirection
+articleTitle: FindReplaceDirection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Replacing.FindReplaceDirection 枚举. 指定替换操作的方向 在 C#.
 type: docs
 weight: 4610
 url: /zh/net/aspose.words.replacing/findreplacedirection/
@@ -21,7 +23,7 @@ public enum FindReplaceDirection
 | Forward | `0` | 匹配的项目从第一个到最后一个被替换。 |
 | Backward | `1` | 匹配项从最后到第一个替换。 |
 
-### 例子
+## 例子
 
 演示如何确定查找和替换操作遍历文档的方向。
 
@@ -88,5 +90,3 @@ private class TextReplacementRecorder : IReplacingCallback
 
 * 命名空间 [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../)
-
-

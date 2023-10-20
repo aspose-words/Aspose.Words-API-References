@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.WrapTrailSpaces
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Spazi finali a capo automatico.
+linktitle: WrapTrailSpaces
+articleTitle: WrapTrailSpaces
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions WrapTrailSpaces proprietà. Spazi finali a capo automatico in C#.
 type: docs
 weight: 710
 url: /it/net/aspose.words.settings/compatibilityoptions/wraptrailspaces/
@@ -17,7 +19,5 @@ public bool WrapTrailSpaces { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

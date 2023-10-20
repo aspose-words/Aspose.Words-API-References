@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.Priority
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSourceBase eigendom. Gibt die Priorität der Schriftartquelle zurück.
+linktitle: Priority
+articleTitle: Priority
+second_title: Aspose.Words für .NET
+description: FontSourceBase Priority eigendom. Gibt die Priorität der Schriftartquelle zurück in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fonts/fontsourcebase/priority/
@@ -14,13 +16,13 @@ Gibt die Priorität der Schriftartquelle zurück.
 public int Priority { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Dieser Wert wird verwendet, wenn Schriftarten mit demselben Familiennamen und Stil in verschiedenen Schriftartquellen vorhanden sind. In diesem Fall wählt Aspose.Words die Schriftart aus der Quelle mit dem höheren Prioritätswert aus.
 
 Der Standardwert ist 0.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Siehe auch
 
 * class [FontSourceBase](../)
-* namensraum [Aspose.Words.Fonts](../../fontsourcebase/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ListTemplate
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Lists.ListTemplate Sıralama. Microsoft Wordde bulunan önceden tanımlanmış liste formatlarından birini belirtir.
+title: ListTemplate Enum
+linktitle: ListTemplate
+articleTitle: ListTemplate
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Lists.ListTemplate Sıralama. Microsoft Wordde bulunan önceden tanımlanmış liste formatlarından birini belirtir C#'da.
 type: docs
 weight: 3530
 url: /tr/net/aspose.words.lists/listtemplate/
@@ -41,13 +43,13 @@ public enum ListTemplate
 | OutlineHeadingsNumbers | `18` | Başlık stillerine bağlı seviyelerin yer aldığı bir taslak listesi. |
 | OutlineHeadingsChapter | `19` | Başlık stillerine bağlı seviyelerin yer aldığı bir taslak listesi. |
 
-### Notlar
+## Notlar
 
 the 'de parametre olarak bir liste şablonu değeri kullanılır[`Add`](../listcollection/add/) yöntem.
 
 Aspose.Words liste şablonları, Microsoft Word 2003'teki Madde İşaretleri ve Numaralandırma iletişim kutusunda bulunan 21 liste şablonuna karşılık gelir .
 
-### Örnekler
+## Örnekler
 
 Tüm ana hat başlıkları listesi şablonlarını içeren bir belgenin nasıl oluşturulacağını gösterir.
 
@@ -184,5 +186,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * ad alanı [Aspose.Words.Lists](../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportRelativeFontSize
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定保存为 HTMLMHTML 或 EPUB 时是否应以相对单位输出字体大小 默认为错误的.
+linktitle: ExportRelativeFontSize
+articleTitle: ExportRelativeFontSize
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions ExportRelativeFontSize 财产. 指定保存为 HTMLMHTML 或 EPUB 时是否应以相对单位输出字体大小 默认为错误的 在 C#.
 type: docs
 weight: 230
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportrelativefontsize/
@@ -14,15 +16,15 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/exportrelativefontsize/
 public bool ExportRelativeFontSize { get; set; }
 ```
 
-### 评论
+## 评论
 
 在许多现有文档（HTML、IDPF EPUB）中，字体大小是以相对单位指定的。这允许 应用程序在查看/处理文档时调整文本大小。例如，Microsoft Internet Explorer 有“查看-&gt;文本大小”子菜单，Adobe Digital Editions 有两个按钮：增大/减小文本大小。 如果您希望此功能起作用，则设置`ExportRelativeFontSize`财产给`真的`.
 
-Aspose Words 文档模型包含并仅使用绝对字体大小单位进行操作。相对单位需要 附加逻辑才能从某些初始（标准）大小重新计算。字体大小为 **普通的**文档样式 被视为标准。例如，如果 **普通的**有 12pt 字体，有些文本是 18pt 那么它将输出 作为 **1.5em。**到 HTML。
+Aspose Words 文档模型包含并仅使用绝对字体大小单位进行操作。相对单位需要 附加逻辑才能从某些初始（标准）大小重新计算。字体大小为**普通的**文档样式 被视为标准。例如，如果**普通的**有 12pt 字体，有些文本是 18pt 那么它将输出 作为**1.5em。**到 HTML。
 
 启用此选项后，文本以外的文档元素仍将具有绝对大小。另外，一些 文本相关的属性可能会被绝对地表达。特别是，在缩放文本时，使用“精确”规则 指定的行距可能会产生不需要的结果。因此，在导出时应正确设计和测试源文档 `ExportRelativeFontSize`设置`真的`。
 
-### 例子
+## 例子
 
 演示保存为 .html 时如何使用相对字体大小。
 
@@ -87,7 +89,5 @@ else
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.MetafileRenderingOptions
-second_title: Aspose.Words for .NET API Referansı
-description: FixedPageSaveOptions mülk. Meta dosyası oluşturma seçeneklerini belirlemeye izin verir.
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: Aspose.Words for .NET
+description: FixedPageSaveOptions MetafileRenderingOptions mülk. Meta dosyası oluşturma seçeneklerini belirlemeye izin verir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/
@@ -14,7 +16,7 @@ Meta dosyası oluşturma seçeneklerini belirlemeye izin verir.
 public MetafileRenderingOptions MetafileRenderingOptions { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Gösteriler, bitmap oluşturmaya bir geri dönüş ekledi ve desteklenmeyen meta dosyası kayıtlarıyla ilgili uyarı türlerini değiştirdi.
 
@@ -70,7 +72,5 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * class [FixedPageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

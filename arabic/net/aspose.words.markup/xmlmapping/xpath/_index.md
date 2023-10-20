@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.XPath
-second_title: Aspose.Words لمراجع .NET API
-description: XmlMapping ملكية. إرجاع تعبير XPath الذي يتم تقييمه للعثور على عقدة XML المخصصة التي تم تعيينها لعلامة المستند الهيكلي الأصل.
+linktitle: XPath
+articleTitle: XPath
+second_title: Aspose.Words لـ .NET
+description: XmlMapping XPath ملكية. إرجاع تعبير XPath الذي يتم تقييمه للعثور على عقدة XML المخصصة التي تم تعيينها لعلامة المستند الهيكلي الأصل في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.markup/xmlmapping/xpath/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/xmlmapping/xpath/
 public string XPath { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين تعيينات XML لأجزاء XML المخصصة.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### أنظر أيضا
 
 * class [XmlMapping](../)
-* مساحة الاسم [Aspose.Words.Markup](../../xmlmapping/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

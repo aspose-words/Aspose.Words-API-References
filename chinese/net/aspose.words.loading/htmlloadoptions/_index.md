@@ -1,7 +1,9 @@
 ---
-title: Class HtmlLoadOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.HtmlLoadOptions 班级. 允许在将 HTML 文档加载到Document对象.
+title: HtmlLoadOptions Class
+linktitle: HtmlLoadOptions
+articleTitle: HtmlLoadOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.HtmlLoadOptions 班级. 允许在将 HTML 文档加载到Document对象 在 C#.
 type: docs
 weight: 3620
 url: /zh/net/aspose.words.loading/htmlloadoptions/
@@ -21,8 +23,8 @@ public class HtmlLoadOptions : LoadOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [HtmlLoadOptions](htmlloadoptions/#constructor)() | 使用默认值初始化此类的新实例。 |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(string) | 使用指定的密码初始化此类的新实例以加载加密文档的快捷方式。 |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(LoadFormat, string, string) | 初始化此类新实例并将属性设置为指定值的快捷方式。 |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(*string*) | 使用指定的密码初始化此类的新实例以加载加密文档的快捷方式。 |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(*[LoadFormat](../../aspose.words/loadformat/), string, string*) | 初始化此类新实例并将属性设置为指定值的快捷方式。 |
 
 ## 特性
 
@@ -55,12 +57,10 @@ public class HtmlLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### 也可以看看
 
 * class [LoadOptions](../loadoptions/)
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

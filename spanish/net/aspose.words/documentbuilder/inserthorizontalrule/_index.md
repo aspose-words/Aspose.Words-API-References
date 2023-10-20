@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertHorizontalRule
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Inserta una forma de regla horizontal en el documento.
+linktitle: InsertHorizontalRule
+articleTitle: InsertHorizontalRule
+second_title: Aspose.Words para .NET
+description: DocumentBuilder InsertHorizontalRule método. Inserta una forma de regla horizontal en el documento en C#.
 type: docs
-weight: 350
+weight: 340
 url: /es/net/aspose.words/documentbuilder/inserthorizontalrule/
 ---
 ## DocumentBuilder.InsertHorizontalRule method
@@ -18,7 +20,7 @@ public Shape InsertHorizontalRule()
 
 La forma que es una regla horizontal.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una forma de regla horizontal y personalizar su formato.
 
@@ -42,7 +44,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

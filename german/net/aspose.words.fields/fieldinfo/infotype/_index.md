@@ -1,7 +1,9 @@
 ---
 title: FieldInfo.InfoType
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldInfo eigendom. Ruft den Typ der einzufügenden Dokumenteigenschaft ab oder legt diesen fest.
+linktitle: InfoType
+articleTitle: InfoType
+second_title: Aspose.Words für .NET
+description: FieldInfo InfoType eigendom. Ruft den Typ der einzufügenden Dokumenteigenschaft ab oder legt diesen fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldinfo/infotype/
@@ -14,7 +16,7 @@ Ruft den Typ der einzufügenden Dokumenteigenschaft ab oder legt diesen fest.
 public string InfoType { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit INFO-Feldern gearbeitet wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.INFO.docx");
 ### Siehe auch
 
 * class [FieldInfo](../)
-* namensraum [Aspose.Words.Fields](../../fieldinfo/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyleCollection ملكية. يسترد أConditionalStyle كائن حسب نوع النمط الشرطي.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyleCollection Item ملكية. يسترد أConditionalStyle كائن حسب نوع النمط الشرطي في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/conditionalstylecollection/item/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstylecollection/item/
 public ConditionalStyle this[ConditionalStyleType conditionalStyleType] { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -86,7 +88,7 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 * class [ConditionalStyle](../../conditionalstyle/)
 * enum [ConditionalStyleType](../../conditionalstyletype/)
 * class [ConditionalStyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -103,7 +105,7 @@ public ConditionalStyle this[int index] { get; }
 | --- | --- |
 | index | فهرس قائم على الصفر للنمط الشرطي المراد استرداده. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

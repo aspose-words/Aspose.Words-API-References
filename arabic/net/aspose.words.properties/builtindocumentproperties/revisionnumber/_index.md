@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.RevisionNumber
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. الحصول على رقم مراجعة المستند أو تعيينه.
+linktitle: RevisionNumber
+articleTitle: RevisionNumber
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties RevisionNumber ملكية. الحصول على رقم مراجعة المستند أو تعيينه في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words.properties/builtindocumentproperties/revisionnumber/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/revisionnumber/
 public int RevisionNumber { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يقوم Aspose.Words بتحديث هذه الخاصية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع حقول REVNUM.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Cell.LastParagraph
-second_title: Aspose.Words لمراجع .NET API
-description: Cell ملكية. يحصل على الفقرة الأخيرة بين الأطفال المباشرين.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words لـ .NET
+description: Cell LastParagraph ملكية. يحصل على الفقرة الأخيرة بين الأطفال المباشرين في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.tables/cell/lastparagraph/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cell/lastparagraph/
 public Paragraph LastParagraph { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق الإعدادات على الحدود الرأسية على تنسيق صف الجدول.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cell/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

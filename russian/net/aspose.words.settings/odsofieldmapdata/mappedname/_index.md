@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.MappedName
-second_title: Справочник по API Aspose.Words для .NET
-description: OdsoFieldMapData свойство. Указывает предопределенное имя поля слияния которое должно быть сопоставлено с номером столбца  указаннымColumn свойство в этом сопоставлении полей. Значение по умолчанию  пустая строка.
+linktitle: MappedName
+articleTitle: MappedName
+second_title: Aspose.Words для .NET
+description: OdsoFieldMapData MappedName свойство. Указывает предопределенное имя поля слияния которое должно быть сопоставлено с номером столбца  указаннымColumn свойство в этом сопоставлении полей. Значение по умолчанию  пустая строка на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.settings/odsofieldmapdata/mappedname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odsofieldmapdata/mappedname/
 public string MappedName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, которая сопоставляет столбцы источника данных с полями слияния.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Смотрите также
 
 * class [OdsoFieldMapData](../)
-* пространство имен [Aspose.Words.Settings](../../odsofieldmapdata/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldPrint.PostScriptGroup
-second_title: Aspose.Words för .NET API Referens
-description: FieldPrint fast egendom. Hämtar eller ställer in ritningsrektangeln som PostScriptinstruktionerna fungerar på.
+linktitle: PostScriptGroup
+articleTitle: PostScriptGroup
+second_title: Aspose.Words för .NET
+description: FieldPrint PostScriptGroup fast egendom. Hämtar eller ställer in ritningsrektangeln som PostScriptinstruktionerna fungerar på i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldprint/postscriptgroup/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ritningsrektangeln som PostScript-instruktionerna fung
 public string PostScriptGroup { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar för att infoga ett PRINT-fält.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Field.PRINT.docx");
 ### Se även
 
 * class [FieldPrint](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldprint/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: GlossaryDocument метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: GlossaryDocument Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.buildingblocks/glossarydocument/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
 
-### Примечания
+## Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -32,7 +34,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Примечание. Узел документа глоссария и его дочерние элементы не посещаются, когда вы выполняете a Visitor через[`Document`](../../../aspose.words/document/) . Если вы хотите выполнить Посетителя над документом глоссария a , вам нужно вызвать`Accept` .
 
-### Примеры
+## Примеры
 
 Показывает способы доступа к строительным блокам в документе глоссария.
 
@@ -137,7 +139,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [GlossaryDocument](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

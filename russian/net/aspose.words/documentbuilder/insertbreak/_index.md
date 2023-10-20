@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertBreak
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет в документ разрыв указанного типа.
+linktitle: InsertBreak
+articleTitle: InsertBreak
+second_title: Aspose.Words для .NET
+description: DocumentBuilder InsertBreak метод. Вставляет в документ разрыв указанного типа на С#.
 type: docs
 weight: 260
 url: /ru/net/aspose.words/documentbuilder/insertbreak/
@@ -18,11 +20,11 @@ public void InsertBreak(BreakType breakType)
 | --- | --- | --- |
 | breakType | BreakType | Указывает тип вставляемого разрыва. |
 
-### Примечания
+## Примечания
 
 Используйте этот метод для вставки абзаца, страницы, столбца, раздела или разрыва строки в документ.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать верхние и нижние колонтитулы в документе с помощью DocumentBuilder.
 
@@ -132,7 +134,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [BreakType](../../breaktype/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

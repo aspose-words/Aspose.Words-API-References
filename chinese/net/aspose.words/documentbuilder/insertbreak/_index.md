@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertBreak
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将指定类型的中断插入到文档中
+linktitle: InsertBreak
+articleTitle: InsertBreak
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertBreak 方法. 将指定类型的中断插入到文档中 在 C#.
 type: docs
 weight: 260
 url: /zh/net/aspose.words/documentbuilder/insertbreak/
@@ -18,11 +20,11 @@ public void InsertBreak(BreakType breakType)
 | --- | --- | --- |
 | breakType | BreakType | 指定要插入的中断的类型。 |
 
-### 评论
+## 评论
 
 使用此方法在文档中插入段落、页面、列、节或换行符。
 
-### 例子
+## 例子
 
 演示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
 
@@ -132,7 +134,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [BreakType](../../breaktype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

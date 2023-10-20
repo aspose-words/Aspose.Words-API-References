@@ -1,7 +1,9 @@
 ---
 title: BookmarkEnd.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarkEnd yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: BookmarkEnd Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/bookmarkend/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `YANLIŞ` ziyaretçi numaralandırmanın durdurulmasını talep ederse.
 
-### Notlar
+## Notlar
 
 Aramalar[`VisitBookmarkEnd`](../../documentvisitor/visitbookmarkend/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
@@ -118,7 +120,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [BookmarkEnd](../)
-* ad alanı [Aspose.Words](../../bookmarkend/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelAlignment
-second_title: Aspose.Words per .NET API Reference
-description: ChartAxis proprietà. Ottiene o imposta lallineamento del testo delle etichette dei segni di spunta degli assi.
+linktitle: TickLabelAlignment
+articleTitle: TickLabelAlignment
+second_title: Aspose.Words per .NET
+description: ChartAxis TickLabelAlignment proprietà. Ottiene o imposta lallineamento del testo delle etichette dei segni di spunta degli assi in C#.
 type: docs
 weight: 220
 url: /it/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/
@@ -14,7 +16,7 @@ Ottiene o imposta l'allineamento del testo delle etichette dei segni di spunta d
 public ParagraphAlignment TickLabelAlignment { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà ha effetto solo per le etichette su più righe.
 
@@ -22,7 +24,7 @@ Il valore predefinito èCenter.
 
 .
 
-### Esempi
+## Esempi
 
 Mostra come manipolare i segni di graduazione e i valori visualizzati di un asse del grafico.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [ParagraphAlignment](../../../aspose.words/paragraphalignment/)
 * class [ChartAxis](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

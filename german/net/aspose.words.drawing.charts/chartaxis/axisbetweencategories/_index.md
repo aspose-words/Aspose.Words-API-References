@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.AxisBetweenCategories
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Ruft ein Flag ab oder setzt es das angibt ob die Wertachse die Kategorieachse zwischen Kategorien kreuzt.
+linktitle: AxisBetweenCategories
+articleTitle: AxisBetweenCategories
+second_title: Aspose.Words für .NET
+description: ChartAxis AxisBetweenCategories eigendom. Ruft ein Flag ab oder setzt es das angibt ob die Wertachse die Kategorieachse zwischen Kategorien kreuzt in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
@@ -14,11 +16,11 @@ Ruft ein Flag ab oder setzt es, das angibt, ob die Wertachse die Kategorieachse 
 public bool AxisBetweenCategories { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Eigenschaft hat nur Auswirkungen auf Wertachsen. Es wird von den neuen Diagrammen von MS Office 2016 nicht unterstützt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Diagrammachse an einer benutzerdefinierten Position gekreuzt wird.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCross.docx");
 ### Siehe auch
 
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

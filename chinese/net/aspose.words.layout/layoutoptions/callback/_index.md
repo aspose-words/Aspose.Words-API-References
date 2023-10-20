@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.Callback
-second_title: Aspose.Words for .NET API 参考
-description: LayoutOptions 财产. 获取或设置IPageLayoutCallback页面布局模型使用的实现
+linktitle: Callback
+articleTitle: Callback
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutOptions Callback 财产. 获取或设置IPageLayoutCallback页面布局模型使用的实现 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.layout/layoutoptions/callback/
@@ -18,7 +20,5 @@ public IPageLayoutCallback Callback { get; set; }
 
 * interface [IPageLayoutCallback](../../ipagelayoutcallback/)
 * class [LayoutOptions](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutoptions/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

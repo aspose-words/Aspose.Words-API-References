@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LastSavedTime
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuiltInDocumentProperties propriété. Obtient ou définit lheure de la dernière sauvegarde en UTC.
+linktitle: LastSavedTime
+articleTitle: LastSavedTime
+second_title: Aspose.Words pour .NET
+description: BuiltInDocumentProperties LastSavedTime propriété. Obtient ou définit lheure de la dernière sauvegarde en UTC en C#.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/
@@ -14,13 +16,13 @@ Obtient ou définit l'heure de la dernière sauvegarde en UTC.
 public DateTime LastSavedTime { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Pour les documents provenant du format RTF, cette propriété renvoie l'heure locale de la dernière opération de sauvegarde.
 
 Aspose.Words ne met pas à jour cette propriété.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés du document dans la catégorie « Origine ».
 
@@ -97,7 +99,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### Voir également
 
 * class [BuiltInDocumentProperties](../)
-* espace de noms [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

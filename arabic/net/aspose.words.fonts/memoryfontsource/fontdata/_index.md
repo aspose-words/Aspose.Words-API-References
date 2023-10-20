@@ -1,7 +1,9 @@
 ---
 title: MemoryFontSource.FontData
-second_title: Aspose.Words لمراجع .NET API
-description: MemoryFontSource ملكية. بيانات الخط الثنائي.
+linktitle: FontData
+articleTitle: FontData
+second_title: Aspose.Words لـ .NET
+description: MemoryFontSource FontData ملكية. بيانات الخط الثنائي في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/memoryfontsource/fontdata/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/memoryfontsource/fontdata/
 public byte[] FontData { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مصفوفة بايت مع البيانات من ملف خط كمصدر خط.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### أنظر أيضا
 
 * class [MemoryFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../memoryfontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

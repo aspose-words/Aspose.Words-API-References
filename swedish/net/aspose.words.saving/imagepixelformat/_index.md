@@ -1,7 +1,9 @@
 ---
-title: Enum ImagePixelFormat
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.ImagePixelFormat uppräkning. Anger pixelformatet för de genererade bilderna av dokumentsidor.
+title: ImagePixelFormat Enum
+linktitle: ImagePixelFormat
+articleTitle: ImagePixelFormat
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.ImagePixelFormat uppräkning. Anger pixelformatet för de genererade bilderna av dokumentsidor i C#.
 type: docs
 weight: 5220
 url: /sv/net/aspose.words.saving/imagepixelformat/
@@ -30,7 +32,7 @@ public enum ImagePixelFormat
 | Format64BppPArgb | `9` | 64 bitar per pixel, ARGB, förmultiplicerad alfa. |
 | Format1bppIndexed | `10` | 1 bit per pixel, indexerad. |
 
-### Exempel
+## Exempel
 
 Visar hur man väljer en bit-per-pixel-hastighet med vilken ett dokument ska renderas till en bild.
 
@@ -96,5 +98,3 @@ Document doc = new Document();
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

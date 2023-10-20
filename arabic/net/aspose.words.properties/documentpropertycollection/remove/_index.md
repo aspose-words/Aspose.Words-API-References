@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentPropertyCollection طريقة. إزالة خاصية بالاسم المحدد من المجموعة.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: DocumentPropertyCollection Remove طريقة. إزالة خاصية بالاسم المحدد من المجموعة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.properties/documentpropertycollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | اسم الخاصية غير حساس لحالة الأحرف. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع الخصائص المخصصة للمستند.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, properties.Count);
 ### أنظر أيضا
 
 * class [DocumentPropertyCollection](../)
-* مساحة الاسم [Aspose.Words.Properties](../../documentpropertycollection/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

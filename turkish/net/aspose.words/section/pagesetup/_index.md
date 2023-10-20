@@ -1,7 +1,9 @@
 ---
 title: Section.PageSetup
-second_title: Aspose.Words for .NET API Referansı
-description: Section mülk. Sayfa düzenini ve bölüm özelliklerini temsil eden bir nesneyi döndürür.
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words for .NET
+description: Section PageSetup mülk. Sayfa düzenini ve bölüm özelliklerini temsil eden bir nesneyi döndürür C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/section/pagesetup/
@@ -14,7 +16,7 @@ Sayfa düzenini ve bölüm özelliklerini temsil eden bir nesneyi döndürür.
 public PageSetup PageSetup { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 İlk sayfanın üst kısmında geniş mavi bant kenarlığının nasıl oluşturulacağını gösterir.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [PageSetup](../../pagesetup/)
 * class [Section](../)
-* ad alanı [Aspose.Words](../../section/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

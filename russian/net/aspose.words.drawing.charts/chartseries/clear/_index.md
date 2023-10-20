@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeries метод. Удаляет все значения данных из серии диаграмм. Формат всех отдельных точек данных и меток данных очищается.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: ChartSeries Clear метод. Удаляет все значения данных из серии диаграмм. Формат всех отдельных точек данных и меток данных очищается на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.drawing.charts/chartseries/clear/
@@ -17,7 +19,5 @@ public void Clear()
 ### Смотрите также
 
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

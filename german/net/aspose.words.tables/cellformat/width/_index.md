@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Width
-second_title: Aspose.Words für .NET-API-Referenz
-description: CellFormat eigendom. Ermittelt die Breite der Zelle in Punkten.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words für .NET
+description: CellFormat Width eigendom. Ermittelt die Breite der Zelle in Punkten in C#.
 type: docs
-weight: 140
+weight: 130
 url: /de/net/aspose.words.tables/cellformat/width/
 ---
 ## CellFormat.Width property
@@ -14,13 +16,13 @@ Ermittelt die Breite der Zelle in Punkten.
 public double Width { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Breite wird von Aspose.Words beim Laden und Speichern von Dokumenten berechnet. Derzeit wird nicht jede Kombination von Tabellen-, Zellen- und Dokumenteigenschaften unterstützt. Der zurückgegebene Wert ist für einige Dokumente möglicherweise nicht genau. Er stimmt möglicherweise nicht genau mit dem überein Zellenbreite, wie von MS Word berechnet, wenn das Dokument in MS Word geöffnet wird.
 
 Das Festlegen dieser Eigenschaft wird nicht empfohlen. Es gibt keine Garantie dafür, dass die Zelle tatsächlich die festgelegte Breite hat. Die Breite kann angepasst werden, um Zellinhalte in einem automatisch angepassten Tabellenlayout zu berücksichtigen. Zellen in anderen Zeilen können eine widersprüchliche Breite haben Einstellungen. Die Größe der Tabelle kann geändert werden, damit sie in den Container passt oder den Tabellenbreiteneinstellungen entspricht. Erwägen Sie die Verwendung[`PreferredWidth`](../preferredwidth/) zum Festlegen der Zellenbreite. Festlegen dieser Eigenschaftssätze[`PreferredWidth`](../preferredwidth/)implizit seit Version 15.8.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Zellen mit einem Document Builder formatiert werden.
 
@@ -128,7 +130,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Siehe auch
 
 * class [CellFormat](../)
-* namensraum [Aspose.Words.Tables](../../cellformat/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

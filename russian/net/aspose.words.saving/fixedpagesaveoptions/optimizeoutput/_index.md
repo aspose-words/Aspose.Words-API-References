@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.OptimizeOutput
-second_title: Справочник по API Aspose.Words для .NET
-description: FixedPageSaveOptions свойство. Флаг указывает требуется ли оптимизировать вывод. Если этот флаг установлен избыточные вложенные холсты и пустые холсты удаляются также объединяются соседние глифы с одинаковым форматированием. Примечание. На точность отображения содержимого может повлиять если для этого свойства установлено значениеистинный . По умолчаниюЛОЖЬ .
+linktitle: OptimizeOutput
+articleTitle: OptimizeOutput
+second_title: Aspose.Words для .NET
+description: FixedPageSaveOptions OptimizeOutput свойство. Флаг указывает требуется ли оптимизировать вывод. Если этот флаг установлен избыточные вложенные холсты и пустые холсты удаляются также объединяются соседние глифы с одинаковым форматированием. Примечание. На точность отображения содержимого может повлиять если для этого свойства установлено значениеистинный . По умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/
 public virtual bool OptimizeOutput { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как оптимизировать объекты документа при сохранении в формате xps.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OptimizeOutput.xps", saveOptions);
 ### Смотрите также
 
 * class [FixedPageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

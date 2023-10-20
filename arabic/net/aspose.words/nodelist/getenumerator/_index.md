@@ -1,7 +1,9 @@
 ---
 title: NodeList.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: NodeList طريقة. يوفر تكرارًا بسيطًا لنمط foreach عبر مجموعة العقد.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: NodeList GetEnumerator طريقة. يوفر تكرارًا بسيطًا لنمط foreach عبر مجموعة العقد في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/nodelist/getenumerator/
@@ -18,7 +20,7 @@ public IEnumerator<Node> GetEnumerator()
 
 العداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد عقد معينة باستخدام تعبير XPath.
 
@@ -52,7 +54,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* مساحة الاسم [Aspose.Words](../../nodelist/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

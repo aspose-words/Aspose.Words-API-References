@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.EvenRowBanding
-second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyleCollection mülk. Çift sıra şeritleme stilini alır.
+linktitle: EvenRowBanding
+articleTitle: EvenRowBanding
+second_title: Aspose.Words for .NET
+description: ConditionalStyleCollection EvenRowBanding mülk. Çift sıra şeritleme stilini alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/conditionalstylecollection/evenrowbanding/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/conditionalstylecollection/evenrowbanding/
 public ConditionalStyle EvenRowBanding { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* ad alanı [Aspose.Words](../../conditionalstylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

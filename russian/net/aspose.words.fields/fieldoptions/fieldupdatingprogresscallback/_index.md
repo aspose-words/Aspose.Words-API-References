@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdatingProgressCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или устанавливаетIFieldUpdatingProgressCallback реализация.
+linktitle: FieldUpdatingProgressCallback
+articleTitle: FieldUpdatingProgressCallback
+second_title: Aspose.Words для .NET
+description: FieldOptions FieldUpdatingProgressCallback свойство. Получает или устанавливаетIFieldUpdatingProgressCallback реализация на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.fields/fieldoptions/fieldupdatingprogresscallback/
@@ -18,7 +20,5 @@ public IFieldUpdatingProgressCallback FieldUpdatingProgressCallback { get; set; 
 
 * interface [IFieldUpdatingProgressCallback](../../ifieldupdatingprogresscallback/)
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

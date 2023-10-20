@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeVerticalPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.RelativeVerticalPosition перечисление. Указывает относительное вертикальное положение фигуры или текстового фрейма.
+title: RelativeVerticalPosition Enum
+linktitle: RelativeVerticalPosition
+articleTitle: RelativeVerticalPosition
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.RelativeVerticalPosition перечисление. Указывает относительное вертикальное положение фигуры или текстового фрейма на С#.
 type: docs
 weight: 1210
 url: /ru/net/aspose.words.drawing/relativeverticalposition/
@@ -29,7 +31,7 @@ public enum RelativeVerticalPosition
 | TableDefault | `0` | Значение по умолчанию:Margin . |
 | TextFrameDefault | `2` | Значение по умолчанию:Paragraph . |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить плавающее изображение в центр страницы.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [RelativeVerticalPosition](../shapebase/relativeverticalposition/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

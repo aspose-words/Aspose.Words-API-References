@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeHorizontalSize
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على أو تعيين قيمة الحجم النسبي للشكل في الاتجاه الأفقي.
+linktitle: RelativeHorizontalSize
+articleTitle: RelativeHorizontalSize
+second_title: Aspose.Words لـ .NET
+description: ShapeBase RelativeHorizontalSize ملكية. الحصول على أو تعيين قيمة الحجم النسبي للشكل في الاتجاه الأفقي في C#.
 type: docs
 weight: 430
 url: /ar/net/aspose.words.drawing/shapebase/relativehorizontalsize/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shapebase/relativehorizontalsize/
 public RelativeHorizontalSize RelativeHorizontalSize { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي[`RelativeHorizontalSize`](../../relativehorizontalsize/).
 
 ليس له تأثير إلا إذا[`WidthRelative`](../widthrelative/) تم تعيينه.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط الحجم والموضع النسبي.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 
 * enum [RelativeHorizontalSize](../../relativehorizontalsize/)
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.FontName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldSymbol ملكية. الحصول على أو تعيين اسم خط الحرف الذي تم استرداده بواسطة الحقل.
+linktitle: FontName
+articleTitle: FontName
+second_title: Aspose.Words لـ .NET
+description: FieldSymbol FontName ملكية. الحصول على أو تعيين اسم خط الحرف الذي تم استرداده بواسطة الحقل في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldsymbol/fontname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldsymbol/fontname/
 public string FontName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل الرمز.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### أنظر أيضا
 
 * class [FieldSymbol](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldsymbol/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SignatureLineOptions.AllowComments
-second_title: Справочник по API Aspose.Words для .NET
-description: SignatureLineOptions свойство. Получает или задает значение указывающее что подписывающая сторона может добавлять комментарии в диалоговом окне Подпись. Значение по умолчанию для этого свойстваЛОЖЬ .
+linktitle: AllowComments
+articleTitle: AllowComments
+second_title: Aspose.Words для .NET
+description: SignatureLineOptions AllowComments свойство. Получает или задает значение указывающее что подписывающая сторона может добавлять комментарии в диалоговом окне Подпись. Значение по умолчанию для этого свойстваЛОЖЬ  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/signaturelineoptions/allowcomments/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/signaturelineoptions/allowcomments/
 public bool AllowComments { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как подписать документ личным удостоверением и строкой подписи.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Смотрите также
 
 * class [SignatureLineOptions](../)
-* пространство имен [Aspose.Words](../../signaturelineoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

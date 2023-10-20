@@ -1,9 +1,11 @@
 ---
 title: Stroke.ImageBytes
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Определяет изображение для обводки или заливки узором.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words для .NET
+description: Stroke ImageBytes свойство. Определяет изображение для обводки или заливки узором на С#.
 type: docs
-weight: 120
+weight: 110
 url: /ru/net/aspose.words.drawing/stroke/imagebytes/
 ---
 ## Stroke.ImageBytes property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/stroke/imagebytes/
 public byte[] ImageBytes { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как обрабатывать элементы обводки фигуры.
 
@@ -35,7 +37,5 @@ File.WriteAllBytes(ArtifactsDir + "Drawing.StrokePattern.png", stroke.ImageBytes
 ### Смотрите также
 
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

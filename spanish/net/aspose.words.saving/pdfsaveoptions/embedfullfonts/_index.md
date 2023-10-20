@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EmbedFullFonts
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Controla cómo se incrustan las fuentes en los documentos PDF resultantes.
+linktitle: EmbedFullFonts
+articleTitle: EmbedFullFonts
+second_title: Aspose.Words para .NET
+description: PdfSaveOptions EmbedFullFonts propiedad. Controla cómo se incrustan las fuentes en los documentos PDF resultantes en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
@@ -14,7 +16,7 @@ Controla cómo se incrustan las fuentes en los documentos PDF resultantes.
 public bool EmbedFullFonts { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO`, lo que significa que las fuentes se dividen en subconjuntos antes de incrustarlas. La creación de subconjuntos es útil si desea mantener el tamaño del archivo de salida más pequeño. El subconjunto elimina todos los glifos no utilizados de una fuente.
 
@@ -22,7 +24,7 @@ Cuando este valor se establece en`verdadero`, se incrusta un archivo de fuente c
 
 Algunas fuentes son grandes (varios megabytes) e incrustarlas sin subsetting dará como resultado documentos de salida de gran tamaño.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo habilitar o deshabilitar el subconjunto al incrustar fuentes mientras se procesa un documento en PDF.
 
@@ -70,7 +72,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ### Ver también
 
 * class [PdfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

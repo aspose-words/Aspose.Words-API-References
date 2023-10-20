@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontBi
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает шрифт темы в применяемой схеме шрифтов связанной с этимFont object в языковом документе с письмом справа налево.
+linktitle: ThemeFontBi
+articleTitle: ThemeFontBi
+second_title: Aspose.Words для .NET
+description: Font ThemeFontBi свойство. Получает или задает шрифт темы в применяемой схеме шрифтов связанной с этимFont object в языковом документе с письмом справа налево на С#.
 type: docs
 weight: 490
 url: /ru/net/aspose.words/font/themefontbi/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/themefontbi/
 public ThemeFont ThemeFontBi { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со шрифтами и цветами темы.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

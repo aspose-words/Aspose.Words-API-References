@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: EditableRangeStart ملكية. إرجاعEditableRangeStart .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: EditableRangeStart NodeType ملكية. إرجاعEditableRangeStart  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/editablerangestart/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/editablerangestart/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع نطاق قابل للتحرير.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * enum [NodeType](../../nodetype/)
 * class [EditableRangeStart](../)
-* مساحة الاسم [Aspose.Words](../../editablerangestart/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

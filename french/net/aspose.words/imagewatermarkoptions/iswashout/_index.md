@@ -1,7 +1,9 @@
 ---
 title: ImageWatermarkOptions.IsWashout
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageWatermarkOptions propriété. Obtient ou définit une valeur booléenne responsable de leffet de délavage du filigrane. La valeur par défaut estvrai .
+linktitle: IsWashout
+articleTitle: IsWashout
+second_title: Aspose.Words pour .NET
+description: ImageWatermarkOptions IsWashout propriété. Obtient ou définit une valeur booléenne responsable de leffet de délavage du filigrane. La valeur par défaut estvrai  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/imagewatermarkoptions/iswashout/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur booléenne responsable de l'effet de délavage du
 public bool IsWashout { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un filigrane à partir d’une image dans le système de fichiers local.
 
@@ -42,7 +44,5 @@ Document doc = new Document();
 ### Voir également
 
 * class [ImageWatermarkOptions](../)
-* espace de noms [Aspose.Words](../../imagewatermarkoptions/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

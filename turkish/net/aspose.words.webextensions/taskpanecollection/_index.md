@@ -1,7 +1,9 @@
 ---
-title: Class TaskPaneCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WebExtensions.TaskPaneCollection sınıf. Kalıcı görev bölmesi nesnelerinin listesini belirtir.
+title: TaskPaneCollection Class
+linktitle: TaskPaneCollection
+articleTitle: TaskPaneCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.WebExtensions.TaskPaneCollection sınıf. Kalıcı görev bölmesi nesnelerinin listesini belirtir C#'da.
 type: docs
 weight: 6720
 url: /tr/net/aspose.words.webextensions/taskpanecollection/
@@ -27,12 +29,12 @@ public class TaskPaneCollection : BaseWebExtensionCollection<TaskPane>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(TaskPane) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*[TaskPane](../taskpane/)*) |  |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) |  |
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 * class [TaskPane](../taskpane/)
 * ad alanı [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.RecordIndex
-second_title: Aspose.Words for .NET API 参考
-description: FieldMergingArgsBase 财产. 获取正在合并的记录的从零开始的索引
+linktitle: RecordIndex
+articleTitle: RecordIndex
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMergingArgsBase RecordIndex 财产. 获取正在合并的记录的从零开始的索引 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
 public int RecordIndex { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在邮件合并期间将复选框表单字段作为合并数据插入到 MERGEFIELD 中。
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### 也可以看看
 
 * class [FieldMergingArgsBase](../)
-* 命名空间 [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

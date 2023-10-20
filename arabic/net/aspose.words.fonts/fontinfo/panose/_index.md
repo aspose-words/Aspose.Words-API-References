@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Panose
-second_title: Aspose.Words لمراجع .NET API
-description: FontInfo ملكية. الحصول على رقم تصنيف محرف PANOSE أو تعيينه.
+linktitle: Panose
+articleTitle: Panose
+second_title: Aspose.Words لـ .NET
+description: FontInfo Panose ملكية. الحصول على رقم تصنيف محرف PANOSE أو تعيينه في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fonts/fontinfo/panose/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.fonts/fontinfo/panose/
 public byte[] Panose { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 PANOSE عبارة عن وصف مضغوط مكون من 10 بايت للخصائص المرئية المهمة للخطوط، مثل التباين والوزن ونمط serif. تمثل الأرقام نوع العائلة، ونمط Serif، و الوزن، والنسبة، والتباين، وتباين السكتة الدماغية، ونمط الذراع، وشكل الحرف، والخط المتوسط، والارتفاع X.
 
 يمكن ان يكون`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى تفاصيل كل خط في المستند وطباعتها.
 
@@ -59,7 +61,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### أنظر أيضا
 
 * class [FontInfo](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontinfo/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

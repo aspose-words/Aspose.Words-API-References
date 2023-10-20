@@ -1,7 +1,9 @@
 ---
-title: Class PdfSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.PdfSaveOptions فصل. يمكن استخدامه لتحديد خيارات إضافية عند حفظ مستند في ملفPdf التنسيق.
+title: PdfSaveOptions Class
+linktitle: PdfSaveOptions
+articleTitle: PdfSaveOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.PdfSaveOptions فصل. يمكن استخدامه لتحديد خيارات إضافية عند حفظ مستند في ملفPdf التنسيق في C#.
 type: docs
 weight: 5520
 url: /ar/net/aspose.words.saving/pdfsaveoptions/
@@ -34,7 +36,7 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | [CreateNoteHyperlinks](../../aspose.words.saving/pdfsaveoptions/createnotehyperlinks/) { get; set; } | يحدد ما إذا كان سيتم تحويل مراجع الحواشي السفلية/التعليقات الختامية في القصة النصية الرئيسية إلى ارتباطات تشعبية نشطة. عند النقر فوق الارتباط التشعبي سيؤدي إلى الحاشية السفلية/التعليقات الختامية المقابلة. الافتراضي هو`خطأ شنيع` . |
 | [CustomPropertiesExport](../../aspose.words.saving/pdfsaveoptions/custompropertiesexport/) { get; set; } | الحصول على أو تحديد قيمة تحدد الطريق[`CustomDocumentProperties`](../../aspose.words/document/customdocumentproperties/) يتم تصديرها إلى ملف PDF. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | الحصول على أو تعيين المنطقة الزمنية المحلية المخصصة المستخدمة لحقول التاريخ/الوقت. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty). |
 | [DigitalSignatureDetails](../../aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/) { get; set; } | الحصول على أو تعيين تفاصيل التوقيع على مستند PDF الناتج. |
 | [DisplayDocTitle](../../aspose.words.saving/pdfsaveoptions/displaydoctitle/) { get; set; } | علامة تحدد ما إذا كان شريط عنوان النافذة يجب أن يعرض عنوان المستند المأخوذ من مدخل العنوان في قاموس معلومات المستند. |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض التأثيرات ثلاثية الأبعاد. |
@@ -87,9 +89,9 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | اسم | وصف |
 | --- | --- |
 | [Clone](../../aspose.words.saving/pdfsaveoptions/clone/)() | إنشاء نسخة عميقة لهذا الكائن. |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير لون الصورة مع خاصية خيارات الحفظ.
 
@@ -188,5 +190,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 * class [FixedPageSaveOptions](../fixedpagesaveoptions/)
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

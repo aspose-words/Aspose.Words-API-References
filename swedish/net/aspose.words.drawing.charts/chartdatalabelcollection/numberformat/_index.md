@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.NumberFormat
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabelCollection fast egendom. Får enChartNumberFormat instans som gör det möjligt att ställa in nummerformat för dataetiketterna för hela serien.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words för .NET
+description: ChartDataLabelCollection NumberFormat fast egendom. Får enChartNumberFormat instans som gör det möjligt att ställa in nummerformat för dataetiketterna för hela serien i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
@@ -14,7 +16,7 @@ Får en[`ChartNumberFormat`](../../chartnumberformat/) instans som gör det möj
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du aktiverar och konfigurerar dataetiketter för en diagramserie.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartDataLabelCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

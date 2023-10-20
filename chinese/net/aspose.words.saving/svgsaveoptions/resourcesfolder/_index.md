@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ResourcesFolder
-second_title: Aspose.Words for .NET API 参考
-description: SvgSaveOptions 财产. 指定将文档导出为 Svg 格式时保存资源图像的物理文件夹 默认为无效的.
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: 用于 .NET 的 Aspose.Words
+description: SvgSaveOptions ResourcesFolder 财产. 指定将文档导出为 Svg 格式时保存资源图像的物理文件夹 默认为无效的 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/svgsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/svgsaveoptions/resourcesfolder/
 public string ResourcesFolder { get; set; }
 ```
 
-### 评论
+## 评论
 
 仅当以下情况时才有效[`ExportEmbeddedImages`](../exportembeddedimages/)财产是`错误的`。
 
@@ -24,7 +26,7 @@ public string ResourcesFolder { get; set; }
 
 如果将文档保存到流中，Aspose.Words 没有保存图像的文件夹 ，但仍需要将图像保存在某个位置。在这种情况下，您需要在`ResourcesFolder`财产
 
-### 例子
+## 例子
 
 演示如何操作和打印在将文档转换为 .svg 时创建的链接资源的 URI。
 
@@ -67,7 +69,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### 也可以看看
 
 * class [SvgSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../svgsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

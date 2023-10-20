@@ -1,7 +1,9 @@
 ---
 title: GroupShape.Accept
-second_title: Aspose.Words per .NET API Reference
-description: GroupShape metodo. Accetta un visitatore.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words per .NET
+description: GroupShape Accept metodo. Accetta un visitatore in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing/groupshape/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../../aspose.words/documentvisitor/) ha interrotto l'operazione prima di visitare tutti i nodi.
 
-### Osservazioni
+## Osservazioni
 
 Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ Per maggiori informazioni vedere il modello di progettazione Visitor.
 
 Chiamate[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , poi chiama[`Accept`](../../../aspose.words/node/accept/) per tutte le forme figlio di questa forma e chiamata di gruppo[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) alla fine.
 
-### Esempi
+## Esempi
 
 Mostra come creare un gruppo di forme e stamparne il contenuto utilizzando un visitatore del documento.
 
@@ -122,7 +124,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [GroupShape](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../groupshape/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

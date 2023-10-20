@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldIndexFormat
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على أو تعيين aFieldIndexFormat الذي يمثل التنسيق لـFieldIndex الحقول في الوثيقة.
+linktitle: FieldIndexFormat
+articleTitle: FieldIndexFormat
+second_title: Aspose.Words لـ .NET
+description: FieldOptions FieldIndexFormat ملكية. الحصول على أو تعيين aFieldIndexFormat الذي يمثل التنسيق لـFieldIndex الحقول في الوثيقة في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.fields/fieldoptions/fieldindexformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldoptions/fieldindexformat/
 public FieldIndexFormat FieldIndexFormat { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق حقول FieldIndex.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Field.SetFieldIndexFormat.docx");
 
 * enum [FieldIndexFormat](../../fieldindexformat/)
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

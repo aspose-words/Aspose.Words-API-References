@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.DefaultResponse
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldFillIn eigendom. Ruft die Standardbenutzerantwort ab oder legt diese fest Anfangswert im Eingabeaufforderungsfenster enthalten.
+linktitle: DefaultResponse
+articleTitle: DefaultResponse
+second_title: Aspose.Words für .NET
+description: FieldFillIn DefaultResponse eigendom. Ruft die Standardbenutzerantwort ab oder legt diese fest Anfangswert im Eingabeaufforderungsfenster enthalten in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldfillin/defaultresponse/
@@ -14,7 +16,7 @@ Ruft die Standardbenutzerantwort ab oder legt diese fest (Anfangswert im Eingabe
 public string DefaultResponse { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das FILLIN-Feld verwendet wird, um den Benutzer zu einer Antwort aufzufordern.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### Siehe auch
 
 * class [FieldFillIn](../)
-* namensraum [Aspose.Words.Fields](../../fieldfillin/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

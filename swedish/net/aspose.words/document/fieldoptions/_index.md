@@ -1,7 +1,9 @@
 ---
 title: Document.FieldOptions
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Får enFieldOptions objekt som representerar alternativ för att styra fälthanteringen i dokumentet.
+linktitle: FieldOptions
+articleTitle: FieldOptions
+second_title: Aspose.Words för .NET
+description: Document FieldOptions fast egendom. Får enFieldOptions objekt som representerar alternativ för att styra fälthanteringen i dokumentet i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/document/fieldoptions/
@@ -14,7 +16,7 @@ Får en[`FieldOptions`](../../../aspose.words.fields/fieldoptions/) objekt som r
 public FieldOptions FieldOptions { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man anger källan till kulturen som används för datumformatering under en fältuppdatering eller e-postsammanfogning.
 
@@ -50,7 +52,5 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * class [FieldOptions](../../../aspose.words.fields/fieldoptions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

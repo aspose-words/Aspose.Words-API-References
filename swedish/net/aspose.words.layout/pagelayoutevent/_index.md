@@ -1,7 +1,9 @@
 ---
-title: Enum PageLayoutEvent
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Layout.PageLayoutEvent uppräkning. En händelsekod som uppstår under byggandet och renderingen av sidlayoutmodeller.
+title: PageLayoutEvent Enum
+linktitle: PageLayoutEvent
+articleTitle: PageLayoutEvent
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Layout.PageLayoutEvent uppräkning. En händelsekod som uppstår under byggandet och renderingen av sidlayoutmodeller i C#.
 type: docs
 weight: 3370
 url: /sv/net/aspose.words.layout/pagelayoutevent/
@@ -35,7 +37,7 @@ public enum PageLayoutEvent
 | PartRenderingStarted | `10` | Renderingen av sidan har startat. Detta aktiveras en gång per sida. |
 | PartRenderingFinished | `11` | Renderingen av sidan har slutförts. Detta aktiveras en gång per sida. |
 
-### Exempel
+## Exempel
 
 Visar hur man spårar layoutändringar med en layoutåteruppringning.
 
@@ -102,5 +104,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * namnutrymme [Aspose.Words.Layout](../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../)
-
-

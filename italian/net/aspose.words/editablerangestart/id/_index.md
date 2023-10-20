@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.Id
-second_title: Aspose.Words per .NET API Reference
-description: EditableRangeStart proprietà. Specifica lidentificatore dellintervallo modificabile.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words per .NET
+description: EditableRangeStart Id proprietà. Specifica lidentificatore dellintervallo modificabile in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/editablerangestart/id/
@@ -14,7 +16,7 @@ Specifica l'identificatore dell'intervallo modificabile.
 public int Id { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con un intervallo modificabile.
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### Guarda anche
 
 * class [EditableRangeStart](../)
-* spazio dei nomi [Aspose.Words](../../editablerangestart/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

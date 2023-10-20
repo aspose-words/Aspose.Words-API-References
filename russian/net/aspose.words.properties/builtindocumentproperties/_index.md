@@ -1,7 +1,9 @@
 ---
-title: Class BuiltInDocumentProperties
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Properties.BuiltInDocumentProperties сорт. Коллекция встроенных свойств документа.
+title: BuiltInDocumentProperties Class
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Properties.BuiltInDocumentProperties сорт. Коллекция встроенных свойств документа на С#.
 type: docs
 weight: 4450
 url: /ru/net/aspose.words.properties/builtindocumentproperties/
@@ -61,13 +63,13 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | Имя | Описание |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Удаляет все свойства из коллекции. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Возвращает`истинный` если свойство с указанным именем существует в коллекции. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Возвращает`истинный` если свойство с указанным именем существует в коллекции. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Получает индекс свойства по имени. |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Удаляет свойство с указанным именем из коллекции. |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | Удаляет свойство по указанному индексу. |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | Получает индекс свойства по имени. |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | Удаляет свойство с указанным именем из коллекции. |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | Удаляет свойство по указанному индексу. |
 
-### Примечания
+## Примечания
 
 Обеспечивает доступ к[`DocumentProperty`](../documentproperty/) объекты по их именам (с использованием индексатора) и через набор типизированных свойств, возвращающих значения соответствующих типов.
 
@@ -75,7 +77,7 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 
 Свойства в коллекции отсортированы в алфавитном порядке по имени.
 
-### Примеры
+## Примеры
 
 Показывает, как работать со встроенными свойствами документа.
 
@@ -114,5 +116,3 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
 * пространство имен [Aspose.Words.Properties](../../aspose.words.properties/)
 * сборка [Aspose.Words](../../)
-
-

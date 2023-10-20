@@ -1,7 +1,9 @@
 ---
 title: VbaModule.SourceCode
-second_title: Aspose.Words per .NET API Reference
-description: VbaModule proprietà. Ottiene o imposta il codice sorgente del modulo di progetto VBA.
+linktitle: SourceCode
+articleTitle: SourceCode
+second_title: Aspose.Words per .NET
+description: VbaModule SourceCode proprietà. Ottiene o imposta il codice sorgente del modulo di progetto VBA in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.vba/vbamodule/sourcecode/
@@ -14,7 +16,7 @@ Ottiene o imposta il codice sorgente del modulo di progetto VBA.
 public string SourceCode { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un progetto VBA utilizzando le macro.
 
@@ -67,7 +69,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Guarda anche
 
 * class [VbaModule](../)
-* spazio dei nomi [Aspose.Words.Vba](../../vbamodule/)
+* spazio dei nomi [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.LineWidth
-second_title: Aspose.Words för .NET API Referens
-description: BorderCollection fast egendom. Hämtar eller ställer in kantbredden i punkter.
+linktitle: LineWidth
+articleTitle: LineWidth
+second_title: Aspose.Words för .NET
+description: BorderCollection LineWidth fast egendom. Hämtar eller ställer in kantbredden i punkter i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/bordercollection/linewidth/
@@ -14,13 +16,13 @@ Hämtar eller ställer in kantbredden i punkter.
 public double LineWidth { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar bredden på den första kanten i samlingen.
 
 Ställer in bredden på alla kanter i samlingen exklusive diagonala kanter.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar grön vågig sidkant med en skugga.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Se även
 
 * class [BorderCollection](../)
-* namnutrymme [Aspose.Words](../../bordercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

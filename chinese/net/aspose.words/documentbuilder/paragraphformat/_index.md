@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.ParagraphFormat
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 财产. 返回一个表示当前段落格式属性的对象
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder ParagraphFormat 财产. 返回一个表示当前段落格式属性的对象 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words/documentbuilder/paragraphformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbuilder/paragraphformat/
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 DocumentBuilder 创建格式化表。
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

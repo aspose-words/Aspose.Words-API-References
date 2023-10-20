@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.Accept
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OfficeMath méthode. Accepte un visiteur.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words pour .NET
+description: OfficeMath Accept méthode. Accepte un visiteur en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.math/officemath/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../../aspose.words/documentvisitor/) arrêté l'opération avant de visiter tous les nœuds.
 
-### Remarques
+## Remarques
 
 Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ Pour plus d’informations, consultez le modèle de conception Visiteur.
 
 Appels[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart/) , puis appelle[`Accept`](../../../aspose.words/node/accept/) pour les nœuds enfants all d'Office Math et les appels[`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend/) à la fin.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure de chaque nœud mathématique de bureau dans un document.
 
@@ -123,7 +125,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [OfficeMath](../)
-* espace de noms [Aspose.Words.Math](../../officemath/)
+* espace de noms [Aspose.Words.Math](../../../aspose.words.math/)
 * Assemblée [Aspose.Words](../../../)
-
-

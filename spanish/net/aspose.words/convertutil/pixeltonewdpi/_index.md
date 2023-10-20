@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.PixelToNewDpi
-second_title: Referencia de API de Aspose.Words para .NET
-description: ConvertUtil método. Convierte píxeles de una resolución a otra.
+linktitle: PixelToNewDpi
+articleTitle: PixelToNewDpi
+second_title: Aspose.Words para .NET
+description: ConvertUtil PixelToNewDpi método. Convierte píxeles de una resolución a otra en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/convertutil/pixeltonewdpi/
@@ -20,7 +22,7 @@ public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
 | oldDpi | Double | La resolución actual de ppp (puntos por pulgada). |
 | newDpi | Double | La nueva resolución dpi (puntos por pulgada). |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar la conversión de puntos a píxeles con resolución predeterminada y personalizada.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixelsDpi.docx");
 ### Ver también
 
 * class [ConvertUtil](../)
-* espacio de nombres [Aspose.Words](../../convertutil/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

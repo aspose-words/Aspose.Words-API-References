@@ -1,9 +1,11 @@
 ---
 title: Cell.EnsureMinimum
-second_title: Referencia de API de Aspose.Words para .NET
-description: Cell método. Si el último elemento secundario no es un párrafo crea y agrega un párrafo vacío.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words para .NET
+description: Cell EnsureMinimum método. Si el último elemento secundario no es un párrafo crea y agrega un párrafo vacío en C#.
 type: docs
-weight: 160
+weight: 140
 url: /es/net/aspose.words.tables/cell/ensureminimum/
 ---
 ## Cell.EnsureMinimum method
@@ -14,7 +16,7 @@ Si el último elemento secundario no es un párrafo, crea y agrega un párrafo v
 public void EnsureMinimum()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo garantizar que un nodo de celda contenga los nodos que necesitamos para comenzar a agregarle contenido.
 
@@ -40,7 +42,5 @@ cell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ### Ver también
 
 * class [Cell](../)
-* espacio de nombres [Aspose.Words.Tables](../../cell/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

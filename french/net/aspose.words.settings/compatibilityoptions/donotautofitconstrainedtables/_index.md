@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotAutofitConstrainedTables
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Ne pas ajuster automatiquement les tableaux pour les ajuster à côté des objets enveloppés.
+linktitle: DoNotAutofitConstrainedTables
+articleTitle: DoNotAutofitConstrainedTables
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions DoNotAutofitConstrainedTables propriété. Ne pas ajuster automatiquement les tableaux pour les ajuster à côté des objets enveloppés en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.settings/compatibilityoptions/donotautofitconstrainedtables/
@@ -17,7 +19,5 @@ public bool DoNotAutofitConstrainedTables { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

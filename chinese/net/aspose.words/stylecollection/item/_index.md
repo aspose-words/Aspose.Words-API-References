@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: StyleCollection 财产. 通过名称或别名获取样式
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: StyleCollection Item 财产. 通过名称或别名获取样式 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/stylecollection/item/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/stylecollection/item/
 public Style this[string name] { get; }
 ```
 
-### 评论
+## 评论
 
 区分大小写，返回`无效的`如果未找到给定名称的样式。
 
 如果这是尚不存在的内置样式的英文名称，则会自动创建它。
 
-### 例子
+## 例子
 
 显示何时重新计算文档的页面布局。
 
@@ -48,7 +50,7 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* 命名空间 [Aspose.Words](../../stylecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
@@ -65,11 +67,11 @@ public Style this[StyleIdentifier sti] { get; }
 | --- | --- |
 | sti | A[`StyleIdentifier`](../../styleidentifier/)指定要检索的内置样式的值。 |
 
-### 评论
+## 评论
 
 当访问尚不存在的样式时，会自动创建它。
 
-### 例子
+## 例子
 
 演示如何将样式添加到文档的样式集合中。
 
@@ -94,7 +96,7 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 * class [Style](../../style/)
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [StyleCollection](../)
-* 命名空间 [Aspose.Words](../../stylecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
@@ -107,7 +109,7 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 public Style this[int index] { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将样式添加到文档的样式集合中。
 
@@ -131,7 +133,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* 命名空间 [Aspose.Words](../../stylecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

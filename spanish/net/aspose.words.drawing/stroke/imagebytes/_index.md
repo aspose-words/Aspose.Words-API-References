@@ -1,9 +1,11 @@
 ---
 title: Stroke.ImageBytes
-second_title: Referencia de API de Aspose.Words para .NET
-description: Stroke propiedad. Define la imagen para una imagen de trazo o relleno de patrón.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words para .NET
+description: Stroke ImageBytes propiedad. Define la imagen para una imagen de trazo o relleno de patrón en C#.
 type: docs
-weight: 120
+weight: 110
 url: /es/net/aspose.words.drawing/stroke/imagebytes/
 ---
 ## Stroke.ImageBytes property
@@ -14,7 +16,7 @@ Define la imagen para una imagen de trazo o relleno de patrón.
 public byte[] ImageBytes { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo procesar características de trazo de forma.
 
@@ -35,7 +37,5 @@ File.WriteAllBytes(ArtifactsDir + "Drawing.StrokePattern.png", stroke.ImageBytes
 ### Ver también
 
 * class [Stroke](../)
-* espacio de nombres [Aspose.Words.Drawing](../../stroke/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

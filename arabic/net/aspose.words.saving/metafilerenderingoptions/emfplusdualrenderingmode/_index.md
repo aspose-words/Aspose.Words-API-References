@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmfPlusDualRenderingMode
-second_title: Aspose.Words لمراجع .NET API
-description: MetafileRenderingOptions ملكية. الحصول على قيمة أو تعيينها لتحديد كيفية عرض ملفات تعريف EMF Dual.
+linktitle: EmfPlusDualRenderingMode
+articleTitle: EmfPlusDualRenderingMode
+second_title: Aspose.Words لـ .NET
+description: MetafileRenderingOptions EmfPlusDualRenderingMode ملكية. الحصول على قيمة أو تعيينها لتحديد كيفية عرض ملفات تعريف EMF Dual في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmo
 public EmfPlusDualRenderingMode EmfPlusDualRenderingMode { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تحتوي ملفات التعريف EMF+ Dual على أجزاء EMF+ وEMF. يقوم MS Word وGDI+ دائمًا بعرض جزء EMF+. Aspose. لا يدعم Words حاليًا جميع سجلات EMF+ بشكل كامل وفي بعض الحالات، يبدو عرض نتيجة جزء EMF أفضل من عرض نتيجة جزء EMF+.
 
@@ -22,7 +24,7 @@ public EmfPlusDualRenderingMode EmfPlusDualRenderingMode { get; set; }
 
 القيمة الافتراضية هيEmfPlusWithFallback.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين خيارات العرض ذات الصلة بملف Windows Metafile المحسن عند الحفظ في ملف PDF.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 
 * enum [EmfPlusDualRenderingMode](../../emfplusdualrenderingmode/)
 * class [MetafileRenderingOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

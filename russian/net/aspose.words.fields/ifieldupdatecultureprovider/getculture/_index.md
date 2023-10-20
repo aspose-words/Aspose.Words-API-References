@@ -1,7 +1,9 @@
 ---
 title: IFieldUpdateCultureProvider.GetCulture
-second_title: Справочник по API Aspose.Words для .NET
-description: IFieldUpdateCultureProvider метод. ВозвращаетCultureInfoобъект который будет использоваться во время обновления поля.
+linktitle: GetCulture
+articleTitle: GetCulture
+second_title: Aspose.Words для .NET
+description: IFieldUpdateCultureProvider GetCulture метод. ВозвращаетCultureInfoобъект который будет использоваться во время обновления поля на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
@@ -23,7 +25,7 @@ public CultureInfo GetCulture(string culture, Field field)
 
 Объект культуры, который следует использовать для обновления поля.
 
-### Примеры
+## Примеры
 
 Показывает, как указать язык и региональные параметры, которые анализируют форматирование даты и времени для каждого поля.
 
@@ -95,7 +97,5 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * class [Field](../../field/)
 * interface [IFieldUpdateCultureProvider](../)
-* пространство имен [Aspose.Words.Fields](../../ifieldupdatecultureprovider/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

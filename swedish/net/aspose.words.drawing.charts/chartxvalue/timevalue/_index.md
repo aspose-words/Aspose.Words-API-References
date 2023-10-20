@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.TimeValue
-second_title: Aspose.Words för .NET API Referens
-description: ChartXValue fast egendom. Hämtar det lagrade tidsvärdet.
+linktitle: TimeValue
+articleTitle: TimeValue
+second_title: Aspose.Words för .NET
+description: ChartXValue TimeValue fast egendom. Hämtar det lagrade tidsvärdet i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.drawing.charts/chartxvalue/timevalue/
@@ -17,7 +19,5 @@ public TimeSpan TimeValue { get; }
 ### Se även
 
 * class [ChartXValue](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

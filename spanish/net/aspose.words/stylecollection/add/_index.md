@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Add
-second_title: Referencia de API de Aspose.Words para .NET
-description: StyleCollection método. Crea un nuevo estilo definido por el usuario y lo agrega a la colección.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words para .NET
+description: StyleCollection Add método. Crea un nuevo estilo definido por el usuario y lo agrega a la colección en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/stylecollection/add/
@@ -19,7 +21,7 @@ public Style Add(StyleType type, string name)
 | type | StyleType | A[`StyleType`](../../styletype/) valor que especifica el tipo de estilo a crear. |
 | name | String | Nombre que distingue entre mayúsculas y minúsculas del estilo a crear. |
 
-### Observaciones
+## Observaciones
 
 Puede crear un estilo de carácter, párrafo o lista.
 
@@ -27,7 +29,7 @@ Al crear un estilo de lista, el estilo se crea con el formato de lista numerada 
 
 Lanza una excepción si ya existe un estilo con este nombre.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar un estilo a la colección de estilos de un documento.
 
@@ -108,7 +110,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 * class [Style](../../style/)
 * enum [StyleType](../../styletype/)
 * class [StyleCollection](../)
-* espacio de nombres [Aspose.Words](../../stylecollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

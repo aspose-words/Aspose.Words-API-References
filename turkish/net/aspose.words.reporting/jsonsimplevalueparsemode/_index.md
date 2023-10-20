@@ -1,7 +1,9 @@
 ---
-title: Enum JsonSimpleValueParseMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Reporting.JsonSimpleValueParseMode Sıralama. JSON yüklenirken JSON basit değerlerini null boolean sayı tamsayı ve dize ayrıştırmak için bir mod belirtir. Böyle bir mod tarihsaat değerlerinin ayrıştırılmasını etkilemez.
+title: JsonSimpleValueParseMode Enum
+linktitle: JsonSimpleValueParseMode
+articleTitle: JsonSimpleValueParseMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Reporting.JsonSimpleValueParseMode Sıralama. JSON yüklenirken JSON basit değerlerini null boolean sayı tamsayı ve dize ayrıştırmak için bir mod belirtir. Böyle bir mod tarihsaat değerlerinin ayrıştırılmasını etkilemez C#'da.
 type: docs
 weight: 4700
 url: /tr/net/aspose.words.reporting/jsonsimplevalueparsemode/
@@ -25,5 +27,3 @@ public enum JsonSimpleValueParseMode
 
 * ad alanı [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../)
-
-

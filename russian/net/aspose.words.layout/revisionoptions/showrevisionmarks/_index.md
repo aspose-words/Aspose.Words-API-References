@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowRevisionMarks
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionOptions свойство. Позволяет указать следует ли помечать текст редакции специальной разметкой форматирования. Значение по умолчаниюистинный .
+linktitle: ShowRevisionMarks
+articleTitle: ShowRevisionMarks
+second_title: Aspose.Words для .NET
+description: RevisionOptions ShowRevisionMarks свойство. Позволяет указать следует ли помечать текст редакции специальной разметкой форматирования. Значение по умолчаниюистинный  на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.layout/revisionoptions/showrevisionmarks/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/revisionoptions/showrevisionmarks/
 public bool ShowRevisionMarks { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид редакций.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### Смотрите также
 
 * class [RevisionOptions](../)
-* пространство имен [Aspose.Words.Layout](../../revisionoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

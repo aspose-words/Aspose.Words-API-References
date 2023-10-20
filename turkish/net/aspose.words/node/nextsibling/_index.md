@@ -1,7 +1,9 @@
 ---
 title: Node.NextSibling
-second_title: Aspose.Words for .NET API Referansı
-description: Node mülk. Bu düğümden hemen sonra gelen düğümü alır.
+linktitle: NextSibling
+articleTitle: NextSibling
+second_title: Aspose.Words for .NET
+description: Node NextSibling mülk. Bu düğümden hemen sonra gelen düğümü alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/node/nextsibling/
@@ -14,11 +16,11 @@ Bu düğümden hemen sonra gelen düğümü alır.
 public Node NextSibling { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bir sonraki düğüm yoksa, bir`hükümsüz` döndürülür.
 
-### Örnekler
+## Örnekler
 
 Bir düğümün NextSibling özelliğinin, doğrudan alt öğeleri aracılığıyla numaralandırmak için nasıl kullanılacağını gösterir.
 
@@ -80,7 +82,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### Ayrıca bakınız
 
 * class [Node](../)
-* ad alanı [Aspose.Words](../../node/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

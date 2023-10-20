@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.EndCharacterFont
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Teckensnittsformatering som kommer att tillämpas på det sista tecknet i text som skrivs in SDT .
+linktitle: EndCharacterFont
+articleTitle: EndCharacterFont
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag EndCharacterFont fast egendom. Teckensnittsformatering som kommer att tillämpas på det sista tecknet i text som skrivs inSDT  i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.markup/structureddocumenttag/endcharacterfont/
 ---
 ## StructuredDocumentTag.EndCharacterFont property
 
-Teckensnittsformatering som kommer att tillämpas på det sista tecknet i text som skrivs in **SDT** .
+Teckensnittsformatering som kommer att tillämpas på det sista tecknet i text som skrivs in**SDT** .
 
 ```csharp
 public Font EndCharacterFont { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg i en vanlig textruta och ändrar dess utseende.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

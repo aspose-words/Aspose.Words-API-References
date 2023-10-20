@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.ImagesFolder
-second_title: Referencia de API de Aspose.Words para .NET
-description: XamlFlowSaveOptions propiedad. Especifica la carpeta física donde se guardan las imágenes al exportar un documento al formato XAML. El valor predeterminado es una cadena vacía.
+linktitle: ImagesFolder
+articleTitle: ImagesFolder
+second_title: Aspose.Words para .NET
+description: XamlFlowSaveOptions ImagesFolder propiedad. Especifica la carpeta física donde se guardan las imágenes al exportar un documento al formato XAML. El valor predeterminado es una cadena vacía en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/xamlflowsaveoptions/imagesfolder/
@@ -14,7 +16,7 @@ Especifica la carpeta física donde se guardan las imágenes al exportar un docu
 public string ImagesFolder { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando guardas un[`Document`](../../../aspose.words/document/) en formato XAML, Aspose.Words necesita guardar todas las imágenes incrustadas en el documento como archivos independientes.`ImagesFolder` le permite especificar dónde se guardarán las imágenes y[`ImagesFolderAlias`](../imagesfolderalias/) permite especificar cómo se construirán los URI de la imagen.
 
@@ -22,7 +24,7 @@ Si guarda un documento en un archivo y proporciona un nombre de archivo, Aspose.
 
 Si guarda un documento en una secuencia, Aspose.Words no tiene una carpeta donde guardar las imágenes, pero aún necesita guardar las imágenes en algún lugar. En este caso, debe especificar una carpeta accesible en el`ImagesFolder` propiedad o proporcionar secuencias personalizadas a través de el[`ImageSavingCallback`](../imagesavingcallback/) controlador de eventos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir los nombres de archivos de las imágenes vinculadas creadas al convertir un documento a .xaml de formato fluido.
 
@@ -88,7 +90,5 @@ private class ImageUriPrinter : IImageSavingCallback
 ### Ver también
 
 * class [XamlFlowSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

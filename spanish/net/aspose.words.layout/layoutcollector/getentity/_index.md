@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetEntity
-second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutCollector método. Devuelve una posición opaca delLayoutEnumerator que corresponde al nodo especificado. Puede utilizar el valor devuelto como argumento paraCurrent dado que el documento que se está enumerando y el documento del nodo son el mismo.
+linktitle: GetEntity
+articleTitle: GetEntity
+second_title: Aspose.Words para .NET
+description: LayoutCollector GetEntity método. Devuelve una posición opaca delLayoutEnumerator que corresponde al nodo especificado. Puede utilizar el valor devuelto como argumento paraCurrent dado que el documento que se está enumerando y el documento del nodo son el mismo en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.layout/layoutcollector/getentity/
@@ -14,7 +16,7 @@ Devuelve una posición opaca del[`LayoutEnumerator`](../../layoutenumerator/) qu
 public object GetEntity(Node node)
 ```
 
-### Observaciones
+## Observaciones
 
 Este método funciona sólo para[`Paragraph`](../../../aspose.words/paragraph/) nodos, así como nodos en línea indivisibles, por ejemplo[`BookmarkStart`](../../../aspose.words/bookmarkstart/) o[`Shape`](../../../aspose.words.drawing/shape/) . No funciona para[`Run`](../../../aspose.words/run/) ,[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) o[`Table`](../../../aspose.words.tables/table/) nodos y nodos dentro del encabezado/pie de página.
 
@@ -24,7 +26,7 @@ Si necesita navegar a un[`Run`](../../../aspose.words/run/) de texto, puede inse
 
 Si necesita navegar a un[`Cell`](../../../aspose.words.tables/cell/) nodo entonces puedes moverte a un[`Paragraph`](../../../aspose.words/paragraph/) nodo en esta celda y luego ascender a una entidad principal. El mismo enfoque se puede utilizar para[`Row`](../../../aspose.words.tables/row/) y[`Table`](../../../aspose.words.tables/table/) nodos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ver los rangos de páginas que abarca un nodo.
 
@@ -83,7 +85,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutcollector/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

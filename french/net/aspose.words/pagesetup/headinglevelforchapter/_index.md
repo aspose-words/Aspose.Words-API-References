@@ -1,7 +1,9 @@
 ---
 title: PageSetup.HeadingLevelForChapter
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Obtient ou définit le style de niveau de titre appliqué aux titres de chapitre dans le document.
+linktitle: HeadingLevelForChapter
+articleTitle: HeadingLevelForChapter
+second_title: Aspose.Words pour .NET
+description: PageSetup HeadingLevelForChapter propriété. Obtient ou définit le style de niveau de titre appliqué aux titres de chapitre dans le document en C#.
 type: docs
 weight: 180
 url: /fr/net/aspose.words/pagesetup/headinglevelforchapter/
@@ -14,13 +16,13 @@ Obtient ou définit le style de niveau de titre appliqué aux titres de chapitre
 public int HeadingLevelForChapter { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Peut être un nombre compris entre 0 et 9. 0 signifie aucun numéro de chapitre s’il est appliqué au numéro de page.
 
 Avant de pouvoir créer des numéros de page incluant des numéros de chapitre, les titres du document doivent avoir un format de plan numéroté appliqué.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec les chapitres de page.
 
@@ -37,7 +39,5 @@ pageSetup.HeadingLevelForChapter = 1;
 ### Voir également
 
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

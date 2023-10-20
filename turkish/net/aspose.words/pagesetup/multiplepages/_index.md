@@ -1,7 +1,9 @@
 ---
 title: PageSetup.MultiplePages
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Çok sayfalı belgeler için belgenin kitapçık olarak ciltlenebilmesi için belgenin nasıl yazdırılacağını veya oluşturulacağını alır veya ayarlar.
+linktitle: MultiplePages
+articleTitle: MultiplePages
+second_title: Aspose.Words for .NET
+description: PageSetup MultiplePages mülk. Çok sayfalı belgeler için belgenin kitapçık olarak ciltlenebilmesi için belgenin nasıl yazdırılacağını veya oluşturulacağını alır veya ayarlar C#'da.
 type: docs
 weight: 270
 url: /tr/net/aspose.words/pagesetup/multiplepages/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/pagesetup/multiplepages/
 public MultiplePagesType MultiplePages { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kitap katlaması olarak yazdırılabilecek bir belgenin nasıl yapılandırılacağını gösterir.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 
 * enum [MultiplePagesType](../../../aspose.words.settings/multiplepagestype/)
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

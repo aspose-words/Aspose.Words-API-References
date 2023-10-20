@@ -1,12 +1,14 @@
 ---
 title: BookmarkCollection.Remove
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarkCollection méthode. Supprime le signet spécifié du document.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words pour .NET
+description: BookmarkCollection Remove méthode. Supprime le signet spécifié du document en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/bookmarkcollection/remove/
 ---
-## Remove(Bookmark) {#remove}
+## Remove(*[Bookmark](../../bookmark/)*) {#remove}
 
 Supprime le signet spécifié du document.
 
@@ -18,7 +20,7 @@ public void Remove(Bookmark bookmark)
 | --- | --- | --- |
 | bookmark | Bookmark | Le signet à supprimer. |
 
-### Exemples
+## Exemples
 
 Montre comment supprimer des signets d’un document.
 
@@ -80,12 +82,12 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* espace de noms [Aspose.Words](../../bookmarkcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Remove(string) {#remove_1}
+## Remove(*string*) {#remove_1}
 
 Supprime un signet avec le nom spécifié.
 
@@ -97,7 +99,7 @@ public void Remove(string bookmarkName)
 | --- | --- | --- |
 | bookmarkName | String | Le nom du signet à supprimer, qui ne respecte pas la casse. |
 
-### Exemples
+## Exemples
 
 Montre comment supprimer des signets d’un document.
 
@@ -158,7 +160,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Voir également
 
 * class [BookmarkCollection](../)
-* espace de noms [Aspose.Words](../../bookmarkcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

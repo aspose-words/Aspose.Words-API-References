@@ -1,7 +1,9 @@
 ---
 title: ImageData.Brightness
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData ملكية. الحصول على سطوع الصورة أو تعيينه. يجب أن تكون قيمة هذه الخاصية رقمًا من 0.0 الأخفت إلى 1.0 الألمع.
+linktitle: Brightness
+articleTitle: Brightness
+second_title: Aspose.Words لـ .NET
+description: ImageData Brightness ملكية. الحصول على سطوع الصورة أو تعيينه. يجب أن تكون قيمة هذه الخاصية رقمًا من 0.0 الأخفت إلى 1.0 الألمع في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/imagedata/brightness/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/imagedata/brightness/
 public double Brightness { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي 0.5.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير بيانات صورة الشكل.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

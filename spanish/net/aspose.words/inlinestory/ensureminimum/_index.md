@@ -1,7 +1,9 @@
 ---
 title: InlineStory.EnsureMinimum
-second_title: Referencia de API de Aspose.Words para .NET
-description: InlineStory método. Si el último elemento secundario no es un párrafo crea y agrega un párrafo vacío.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words para .NET
+description: InlineStory EnsureMinimum método. Si el último elemento secundario no es un párrafo crea y agrega un párrafo vacío en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words/inlinestory/ensureminimum/
@@ -14,7 +16,7 @@ Si el último elemento secundario no es un párrafo, crea y agrega un párrafo v
 public void EnsureMinimum()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar nodos InlineStory.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 ### Ver también
 
 * class [InlineStory](../)
-* espacio de nombres [Aspose.Words](../../inlinestory/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

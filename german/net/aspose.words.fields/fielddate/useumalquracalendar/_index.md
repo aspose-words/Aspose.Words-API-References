@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseUmAlQuraCalendar
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDate eigendom. Ruft ab oder legt fest ob der UmalQuraKalender verwendet werden soll.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words für .NET
+description: FieldDate UseUmAlQuraCalendar eigendom. Ruft ab oder legt fest ob der UmalQuraKalender verwendet werden soll in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fielddate/useumalquracalendar/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob der Um-al-Qura-Kalender verwendet werden soll.
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie DATE-Felder verwendet werden, um Daten gemäß verschiedenen Kalenderarten anzuzeigen.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### Siehe auch
 
 * class [FieldDate](../)
-* namensraum [Aspose.Words.Fields](../../fielddate/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum WatermarkLayout
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.WatermarkLayout uppräkning. Definierar layouten för vattenstämpeln i förhållande till vattenstämpelns centrum.
+title: WatermarkLayout Enum
+linktitle: WatermarkLayout
+articleTitle: WatermarkLayout
+second_title: Aspose.Words för .NET
+description: Aspose.Words.WatermarkLayout uppräkning. Definierar layouten för vattenstämpeln i förhållande till vattenstämpelns centrum i C#.
 type: docs
 weight: 6680
 url: /sv/net/aspose.words/watermarklayout/
@@ -21,7 +23,7 @@ public enum WatermarkLayout
 | Horizontal | `0` | Horisontell vattenstämpellayout. Motsvarar 0 graders rotation. |
 | Diagonal | `315` | Diagonal vattenstämpellayout. Motsvarar 315 graders rotation. |
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en textvattenstämpel.
 
@@ -53,5 +55,3 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

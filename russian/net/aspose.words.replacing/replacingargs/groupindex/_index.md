@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.GroupIndex
-second_title: Справочник по API Aspose.Words для .NET
-description: ReplacingArgs свойство. Идентифицирует по индексу захваченную группу вMatch  который необходимо заменить наReplacement строка.
+linktitle: GroupIndex
+articleTitle: GroupIndex
+second_title: Aspose.Words для .NET
+description: ReplacingArgs GroupIndex свойство. Идентифицирует по индексу захваченную группу вMatch  который необходимо заменить наReplacement строка на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.replacing/replacingargs/groupindex/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.replacing/replacingargs/groupindex/
 public int GroupIndex { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 `GroupIndex`имеет эффект только тогда, когда[`GroupName`](../groupname/) является`нулевой`.
 
 По умолчанию — ноль.
 
-### Примеры
+## Примеры
 
 Показывает, как применить другой шрифт к новому содержимому с помощью FindReplaceOptions.
 
@@ -93,7 +95,5 @@ private class NumberHexer : IReplacingCallback
 ### Смотрите также
 
 * class [ReplacingArgs](../)
-* пространство имен [Aspose.Words.Replacing](../../replacingargs/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

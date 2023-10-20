@@ -1,7 +1,9 @@
 ---
-title: Enum DropCapPosition
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.DropCapPosition 枚举. 指定首字下沉文本的位置
+title: DropCapPosition Enum
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.DropCapPosition 枚举. 指定首字下沉文本的位置 在 C#.
 type: docs
 weight: 1410
 url: /zh/net/aspose.words/dropcapposition/
@@ -22,7 +24,7 @@ public enum DropCapPosition
 | Normal | `1` | 首字下沉位于锚段落的文本边距内。 |
 | Margin | `2` | 首字下沉位于锚段落的文本边距之外。 |
 
-### 例子
+## 例子
 
 展示如何创建首字下沉。
 
@@ -57,5 +59,3 @@ doc.Save(ArtifactsDir + "ParagraphFormat.DropCap.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

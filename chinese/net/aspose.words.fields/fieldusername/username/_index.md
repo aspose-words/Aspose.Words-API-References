@@ -1,7 +1,9 @@
 ---
 title: FieldUserName.UserName
-second_title: Aspose.Words for .NET API 参考
-description: FieldUserName 财产. 获取或设置当前用户的名称
+linktitle: UserName
+articleTitle: UserName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldUserName UserName 财产. 获取或设置当前用户的名称 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldusername/username/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldusername/username/
 public string UserName { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用 USERNAME 字段。
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Field.USERNAME.docx");
 ### 也可以看看
 
 * class [FieldUserName](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldusername/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

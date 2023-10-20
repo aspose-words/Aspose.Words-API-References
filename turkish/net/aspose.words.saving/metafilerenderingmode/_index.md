@@ -1,7 +1,9 @@
 ---
-title: Enum MetafileRenderingMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.MetafileRenderingMode Sıralama. Aspose.Wordsün WMF ve EMF meta dosyalarını nasıl oluşturacağını belirtir.
+title: MetafileRenderingMode Enum
+linktitle: MetafileRenderingMode
+articleTitle: MetafileRenderingMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.MetafileRenderingMode Sıralama. Aspose.Wordsün WMF ve EMF meta dosyalarını nasıl oluşturacağını belirtir C#'da.
 type: docs
 weight: 5290
 url: /tr/net/aspose.words.saving/metafilerenderingmode/
@@ -22,7 +24,7 @@ public enum MetafileRenderingMode
 | Vector | `1` | Aspose.Words bir meta dosyasını vektör grafikleri olarak işler. |
 | Bitmap | `2` | Aspose.Words, bir meta dosyasını bir bitmap'e dönüştürmek için GDI+'yı çağırır ve ardından bitmap'i çıktı belgesine kaydeder. |
 
-### Örnekler
+## Örnekler
 
 Gösteriler, bitmap oluşturmaya bir geri dönüş ekledi ve desteklenmeyen meta dosyası kayıtlarıyla ilgili uyarı türlerini değiştirdi.
 
@@ -78,5 +80,3 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

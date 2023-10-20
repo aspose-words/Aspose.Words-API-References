@@ -1,7 +1,9 @@
 ---
 title: Comment.Initial
-second_title: Aspose.Words för .NET API Referens
-description: Comment fast egendom. Returnerar eller ställer in initialerna för användaren som är kopplad till en specifik kommentar.
+linktitle: Initial
+articleTitle: Initial
+second_title: Aspose.Words för .NET
+description: Comment Initial fast egendom. Returnerar eller ställer in initialerna för användaren som är kopplad till en specifik kommentar i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/comment/initial/
@@ -14,13 +16,13 @@ Returnerar eller ställer in initialerna för användaren som är kopplad till e
 public string Initial { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan inte vara`null`.
 
 Standard är tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut innehållet i alla kommentarer och deras kommentarintervall med hjälp av en dokumentbesökare.
 
@@ -181,7 +183,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Se även
 
 * class [Comment](../)
-* namnutrymme [Aspose.Words](../../comment/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

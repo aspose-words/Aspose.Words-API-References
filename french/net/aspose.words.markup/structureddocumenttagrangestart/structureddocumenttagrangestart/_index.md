@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTagRangeStart.StructuredDocumentTagRangeStart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart constructeur. Initialise une nouvelle instance du Début de la plage de balises de document structuré classe.
+title: StructuredDocumentTagRangeStart
+linktitle: StructuredDocumentTagRangeStart
+articleTitle: StructuredDocumentTagRangeStart
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTagRangeStart constructeur. Initialise une nouvelle instance duDébut de la plage de balises de document structuré classe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart constructor
 
-Initialise une nouvelle instance du **Début de la plage de balises de document structuré** classe.
+Initialise une nouvelle instance du**Début de la plage de balises de document structuré** classe.
 
 ```csharp
 public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
@@ -19,7 +21,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 | doc | DocumentBase | Le document du propriétaire. |
 | type | SdtType | Type de nœud SDT. |
 
-### Remarques
+## Remarques
 
 Les types de SDT suivants peuvent être créés :
 
@@ -33,7 +35,7 @@ Les types de SDT suivants peuvent être créés :
 * RichText
 * PlainText
 
-### Exemples
+## Exemples
 
 Montre comment créer/supprimer une balise de document structuré et son contenu.
 
@@ -87,7 +89,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [SdtType](../../sdttype/)
 * class [StructuredDocumentTagRangeStart](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

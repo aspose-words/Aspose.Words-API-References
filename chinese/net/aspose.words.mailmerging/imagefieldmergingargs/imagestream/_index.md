@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageStream
-second_title: Aspose.Words for .NET API 参考
-description: ImageFieldMergingArgs 财产. 指定邮件合并引擎从中读取图像的流
+linktitle: ImageStream
+articleTitle: ImageStream
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageFieldMergingArgs ImageStream 财产. 指定邮件合并引擎从中读取图像的流 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
 public Stream ImageStream { get; set; }
 ```
 
-### 评论
+## 评论
 
 Aspose.Words 在将图像合并到文档中后关闭此流。
 
-### 例子
+## 例子
 
 演示如何将存储在数据库 BLOB 字段中的图像插入到报表中。
 
@@ -67,7 +69,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 ### 也可以看看
 
 * class [ImageFieldMergingArgs](../)
-* 命名空间 [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

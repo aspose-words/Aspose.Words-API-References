@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Tag
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Gibt ein Tag an das dem aktuellen SDTKnoten zugeordnet ist. Kann nicht seinNull .
+linktitle: Tag
+articleTitle: Tag
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag Tag eigendom. Gibt ein Tag an das dem aktuellen SDTKnoten zugeordnet ist. Kann nicht seinNull  in C#.
 type: docs
 weight: 280
 url: /de/net/aspose.words.markup/structureddocumenttag/tag/
@@ -14,11 +16,11 @@ Gibt ein Tag an, das dem aktuellen SDT-Knoten zugeordnet ist. Kann nicht sein`Nu
 public string Tag { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Ein Tag ist eine beliebige Zeichenfolge, die Anwendungen mit SDT verknüpfen können, um es zu identifizieren, ohne einen sichtbaren Anzeigenamen bereitzustellen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein strukturiertes Dokument-Tag in einem Nur-Text-Feld erstellt und sein Erscheinungsbild ändert.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Siehe auch
 
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

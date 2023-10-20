@@ -1,12 +1,14 @@
 ---
-title: PdfEncryptionDetails.PdfEncryptionDetails
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfEncryptionDetails constructeur. Initialise une instance de cette classe.
+title: PdfEncryptionDetails
+linktitle: PdfEncryptionDetails
+articleTitle: PdfEncryptionDetails
+second_title: Aspose.Words pour .NET
+description: PdfEncryptionDetails constructeur. Initialise une instance de cette classe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/
 ---
-## PdfEncryptionDetails(string, string) {#constructor}
+## PdfEncryptionDetails(*string, string*) {#constructor}
 
 Initialise une instance de cette classe.
 
@@ -17,12 +19,12 @@ public PdfEncryptionDetails(string userPassword, string ownerPassword)
 ### Voir également
 
 * class [PdfEncryptionDetails](../)
-* espace de noms [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## PdfEncryptionDetails(string, string, PdfPermissions) {#constructor_1}
+## PdfEncryptionDetails(*string, string, [PdfPermissions](../../pdfpermissions/)*) {#constructor_1}
 
 Initialise une instance de cette classe.
 
@@ -30,7 +32,7 @@ Initialise une instance de cette classe.
 public PdfEncryptionDetails(string userPassword, string ownerPassword, PdfPermissions permissions)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir les autorisations sur un document PDF enregistré.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * enum [PdfPermissions](../../pdfpermissions/)
 * class [PdfEncryptionDetails](../)
-* espace de noms [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

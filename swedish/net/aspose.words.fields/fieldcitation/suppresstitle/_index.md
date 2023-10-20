@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.SuppressTitle
-second_title: Aspose.Words för .NET API Referens
-description: FieldCitation fast egendom. Hämtar eller ställer in om titelinformationen undertrycks från citatet.
+linktitle: SuppressTitle
+articleTitle: SuppressTitle
+second_title: Aspose.Words för .NET
+description: FieldCitation SuppressTitle fast egendom. Hämtar eller ställer in om titelinformationen undertrycks från citatet i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.fields/fieldcitation/suppresstitle/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om titelinformationen undertrycks från citatet.
 public bool SuppressTitle { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CITATION och BIBLIOGRAPHY-fält.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Se även
 
 * class [FieldCitation](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcitation/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

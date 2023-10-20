@@ -1,7 +1,9 @@
 ---
-title: Class DocSaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.DocSaveOptions сорт. Может использоваться для указания дополнительных параметров при сохранении документа вDoc или Dot формат.
+title: DocSaveOptions Class
+linktitle: DocSaveOptions
+articleTitle: DocSaveOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.DocSaveOptions сорт. Может использоваться для указания дополнительных параметров при сохранении документа вDoc или Dot формат на С#.
 type: docs
 weight: 4930
 url: /ru/net/aspose.words.saving/docsaveoptions/
@@ -21,7 +23,7 @@ public class DocSaveOptions : SaveOptions
 | Имя | Описание |
 | --- | --- |
 | [DocSaveOptions](docsaveoptions/#constructor)() | Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вDoc формат. |
-| [DocSaveOptions](docsaveoptions/#constructor_1)(SaveFormat) | Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вDoc или Dot формат. |
+| [DocSaveOptions](docsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вDoc или Dot формат. |
 
 ## Характеристики
 
@@ -30,7 +32,7 @@ public class DocSaveOptions : SaveOptions
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Получает или задает логическое значение, указывающее, разрешено ли встраивание шрифтов PostScript в контуры PostScript при встраивании шрифтов TrueType в документ после его сохранения. Значение по умолчанию:`ЛОЖЬ` . |
 | [AlwaysCompressMetafiles](../../aspose.words.saving/docsaveoptions/alwayscompressmetafiles/) { get; set; } | Когда`ЛОЖЬ` , небольшие метафайлы не сжимаются из соображений производительности. Значение по умолчанию:`истинный` , все метафайлы сжимаются независимо от их размера. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Получает или задает пользовательский часовой пояс, используемый для полей даты и времени. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Получает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства: **пустая строка** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Получает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства:**пустая строка** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ визуализации 3D-эффектов. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ визуализации эффектов DrawingML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ отрисовки фигур DrawingML. |
@@ -51,11 +53,11 @@ public class DocSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | Получает или задает значение, определяющее, использовать ли сглаживание для рендеринга. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | Получает или задает значение, определяющее, следует ли использовать алгоритмы высококачественного (т. е. медленного) рендеринга. |
 
-### Примечания
+## Примечания
 
 На данный момент предоставляется только[`SaveFormat`](./saveformat/) свойство, но в будущем будут добавлены другие параметры, такие как пароль шифрования или настройки цифровой подписи.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить параметры сохранения для старых форматов Microsoft Word.
 
@@ -90,5 +92,3 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 * class [SaveOptions](../saveoptions/)
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

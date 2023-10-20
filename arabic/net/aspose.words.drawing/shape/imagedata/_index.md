@@ -1,7 +1,9 @@
 ---
 title: Shape.ImageData
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. يوفر الوصول إلى صورة الشكل. إرجاعباطل إذا كان الشكل لا يمكن أن يحتوي على صورة.
+linktitle: ImageData
+articleTitle: ImageData
+second_title: Aspose.Words لـ .NET
+description: Shape ImageData ملكية. يوفر الوصول إلى صورة الشكل. إرجاعباطل إذا كان الشكل لا يمكن أن يحتوي على صورة في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.drawing/shape/imagedata/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shape/imagedata/
 public ImageData ImageData { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج الصور من مستند وحفظها في نظام الملفات المحلي كملفات فردية.
 
@@ -83,7 +85,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * class [ImageData](../../imagedata/)
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Left
-second_title: Aspose.Words für .NET-API-Referenz
-description: BorderCollection eigendom. Ruft den linken Rand ab.
+linktitle: Left
+articleTitle: Left
+second_title: Aspose.Words für .NET
+description: BorderCollection Left eigendom. Ruft den linken Rand ab in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/bordercollection/left/
@@ -14,7 +16,7 @@ Ruft den linken Rand ab.
 public Border Left { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie beim Erstellen einer Tabelle Rahmen- und Schattierungsfarben anwenden.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* namensraum [Aspose.Words](../../bordercollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.Justification
-second_title: Aspose.Words لمراجع .NET API
-description: OfficeMath ملكية. الحصول على/تعيين مبررات Office Math.
+linktitle: Justification
+articleTitle: Justification
+second_title: Aspose.Words لـ .NET
+description: OfficeMath Justification ملكية. الحصول على/تعيين مبررات Office Math في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.math/officemath/justification/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.math/officemath/justification/
 public OfficeMathJustification Justification { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن تعيين التبرير على Office Math مع نوع تنسيق العرضInline.
 
@@ -22,7 +24,7 @@ public OfficeMathJustification Justification { get; set; }
 
 مُتَجَانِس[`DisplayType`](../displaytype/) يجب تعيينه قبل تعيين مبرر Office Math.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط تنسيق عرض الرياضيات المكتبية.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [OfficeMathJustification](../../officemathjustification/)
 * class [OfficeMath](../)
-* مساحة الاسم [Aspose.Words.Math](../../officemath/)
+* مساحة الاسم [Aspose.Words.Math](../../../aspose.words.math/)
 * المجسم [Aspose.Words](../../../)
-
-

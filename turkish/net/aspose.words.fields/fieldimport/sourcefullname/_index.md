@@ -1,7 +1,9 @@
 ---
 title: FieldImport.SourceFullName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldImport mülk. Resmin konumunu alır veya ayarlar.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words for .NET
+description: FieldImport SourceFullName mülk. Resmin konumunu alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldimport/sourcefullname/
@@ -14,7 +16,7 @@ Resmin konumunu alır veya ayarlar.
 public string SourceFullName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 IMPORT ve INCLUDEPICTURE alanlarını kullanarak görüntülerin nasıl ekleneceğini gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Ayrıca bakınız
 
 * class [FieldImport](../)
-* ad alanı [Aspose.Words.Fields](../../fieldimport/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

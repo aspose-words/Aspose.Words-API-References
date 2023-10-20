@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Clear
-second_title: Referencia de API de Aspose.Words para .NET
-description: FormFieldCollection método. Elimina todos los campos del formulario de esta colección y del documento.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words para .NET
+description: FormFieldCollection Clear método. Elimina todos los campos del formulario de esta colección y del documento en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/formfieldcollection/clear/
@@ -14,7 +16,7 @@ Elimina todos los campos del formulario de esta colección y del documento.
 public void Clear()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ver también
 
 * class [FormFieldCollection](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfieldcollection/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

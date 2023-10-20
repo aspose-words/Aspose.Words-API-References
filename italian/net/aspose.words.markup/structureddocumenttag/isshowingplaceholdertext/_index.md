@@ -1,14 +1,16 @@
 ---
 title: StructuredDocumentTag.IsShowingPlaceholderText
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Specifica se il contenuto di this SDTdeve essere interpretato in modo da contenere testo segnaposto al contrario dei normali contenuti di testo allinterno dellSDT.
+linktitle: IsShowingPlaceholderText
+articleTitle: IsShowingPlaceholderText
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag IsShowingPlaceholderText proprietà. Specifica se il contenuto di thisSDTdeve essere interpretato in modo da contenere testo segnaposto al contrario dei normali contenuti di testo allinterno dellSDT in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words.markup/structureddocumenttag/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTag.IsShowingPlaceholderText property
 
-Specifica se il contenuto di this **SDT**deve essere interpretato in modo da contenere testo segnaposto (al contrario dei normali contenuti di testo all'interno dell'SDT).
+Specifica se il contenuto di this**SDT**deve essere interpretato in modo da contenere testo segnaposto (al contrario dei normali contenuti di testo all'interno dell'SDT).
 
 se impostato su`VERO` , questo stato verrà ripristinato (mostrando il testo segnaposto) all'apertura di questo documento.
 
@@ -16,7 +18,7 @@ se impostato su`VERO` , questo stato verrà ripristinato (mostrando il testo seg
 public bool IsShowingPlaceholderText { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare il contenuto di un blocco predefinito come testo segnaposto personalizzato per un tag di documento strutturato.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### Guarda anche
 
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

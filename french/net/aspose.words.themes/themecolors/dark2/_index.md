@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Dark2
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ThemeColors propriété. Spécifie la couleur Foncé 2.
+linktitle: Dark2
+articleTitle: Dark2
+second_title: Aspose.Words pour .NET
+description: ThemeColors Dark2 propriété. Spécifie la couleur Foncé 2 en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.themes/themecolors/dark2/
@@ -14,7 +16,7 @@ Spécifie la couleur Foncé 2.
 public Color Dark2 { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir des couleurs et des polices personnalisées pour les thèmes.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Voir également
 
 * class [ThemeColors](../)
-* espace de noms [Aspose.Words.Themes](../../themecolors/)
+* espace de noms [Aspose.Words.Themes](../../../aspose.words.themes/)
 * Assemblée [Aspose.Words](../../../)
-
-

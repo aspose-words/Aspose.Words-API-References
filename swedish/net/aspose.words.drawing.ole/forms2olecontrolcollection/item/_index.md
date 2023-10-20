@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControlCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: Forms2OleControlCollection fast egendom. BlirForms2OleControl objekt vid ett angivet index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: Forms2OleControlCollection Item fast egendom. BlirForms2OleControl objekt vid ett angivet index i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
@@ -14,7 +16,7 @@ Blir[`Forms2OleControl`](../../forms2olecontrol/) objekt vid ett angivet index.
 public Forms2OleControl this[int index] { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt en OLE-kontroll inbäddad i ett dokument och dess underordnade kontroller.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 
 * class [Forms2OleControl](../../forms2olecontrol/)
 * class [Forms2OleControlCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* namnutrymme [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * hopsättning [Aspose.Words](../../../)
-
-

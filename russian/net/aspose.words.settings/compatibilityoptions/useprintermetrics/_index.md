@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UsePrinterMetrics
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Использование показателей принтера для отображения документов.
+linktitle: UsePrinterMetrics
+articleTitle: UsePrinterMetrics
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions UsePrinterMetrics свойство. Использование показателей принтера для отображения документов на С#.
 type: docs
 weight: 640
 url: /ru/net/aspose.words.settings/compatibilityoptions/useprintermetrics/
@@ -14,14 +16,12 @@ url: /ru/net/aspose.words.settings/compatibilityoptions/useprintermetrics/
 public bool UsePrinterMetrics { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Показатели принтера могут отличаться в зависимости от используемых драйверов. Например, Windows «Microsoft OpenXPS Class Driver 2» и «Microsoft Print to PDF» предоставляют несколько разные показатели. Поэтому макет окончательного документа может измениться, если этот параметр включен.
 
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

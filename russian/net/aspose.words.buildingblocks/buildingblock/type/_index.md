@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: BuildingBlock свойство. Указывает тип стандартного блока.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: BuildingBlock Type свойство. Указывает тип стандартного блока на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.buildingblocks/buildingblock/type/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.buildingblocks/buildingblock/type/
 public BuildingBlockType Type { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Тип стандартного блока может влиять на видимость и поведение стандартного блока в Microsoft Word.
 
-Соответствует **docPartPr.types** элемент в OOXML.
+Соответствует**docPartPr.types** элемент в OOXML.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ пользовательский стандартный блок.
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockType](../../buildingblocktype/)
 * class [BuildingBlock](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

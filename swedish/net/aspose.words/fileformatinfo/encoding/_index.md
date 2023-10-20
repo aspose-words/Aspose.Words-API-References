@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.Encoding
-second_title: Aspose.Words för .NET API Referens
-description: FileFormatInfo fast egendom. Hämtar den upptäckta kodningen om det är tillämpligt för det aktuella dokumentformatet. Detekterar för närvarande kodning endast för HTMLdokument.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words för .NET
+description: FileFormatInfo Encoding fast egendom. Hämtar den upptäckta kodningen om det är tillämpligt för det aktuella dokumentformatet. Detekterar för närvarande kodning endast för HTMLdokument i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/fileformatinfo/encoding/
@@ -14,7 +16,7 @@ Hämtar den upptäckta kodningen om det är tillämpligt för det aktuella dokum
 public Encoding Encoding { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man upptäcker kodning i en html-fil.
 
@@ -31,7 +33,5 @@ Assert.AreEqual(1252, info.Encoding.CodePage);
 ### Se även
 
 * class [FileFormatInfo](../)
-* namnutrymme [Aspose.Words](../../fileformatinfo/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

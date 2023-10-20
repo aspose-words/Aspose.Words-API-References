@@ -1,9 +1,11 @@
 ---
 title: ChartAxisTitle.Show
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxisTitle fast egendom. Bestämmer om titeln ska visas för axeln. Standardvärdet ärfalsk .
+linktitle: Show
+articleTitle: Show
+second_title: Aspose.Words för .NET
+description: ChartAxisTitle Show fast egendom. Bestämmer om titeln ska visas för axeln. Standardvärdet ärfalsk  i C#.
 type: docs
-weight: 30
+weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartaxistitle/show/
 ---
 ## ChartAxisTitle.Show property
@@ -14,7 +16,7 @@ Bestämmer om titeln ska visas för axeln. Standardvärdet är`falsk` .
 public bool Show { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in diagramaxelns titel.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ### Se även
 
 * class [ChartAxisTitle](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

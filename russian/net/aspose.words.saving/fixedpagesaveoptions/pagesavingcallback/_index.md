@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.PageSavingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: FixedPageSaveOptions свойство. Позволяет контролировать сохранение отдельных страниц при экспорте документа в фиксированный формат страницы.
+linktitle: PageSavingCallback
+articleTitle: PageSavingCallback
+second_title: Aspose.Words для .NET
+description: FixedPageSaveOptions PageSavingCallback свойство. Позволяет контролировать сохранение отдельных страниц при экспорте документа в фиксированный формат страницы на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для сохранения документа в формате HTML постранично.
 
@@ -72,7 +74,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [FixedPageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

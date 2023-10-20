@@ -1,7 +1,9 @@
 ---
-title: Enum OdsoFieldMappingType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.OdsoFieldMappingType enumeración. Especifica los posibles tipos utilizados para indicar si un campo de combinación de correspondencia determinado se ha asignado a una columna en la fuente de datos externa determinada.
+title: OdsoFieldMappingType Enum
+linktitle: OdsoFieldMappingType
+articleTitle: OdsoFieldMappingType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Settings.OdsoFieldMappingType enumeración. Especifica los posibles tipos utilizados para indicar si un campo de combinación de correspondencia determinado se ha asignado a una columna en la fuente de datos externa determinada en C#.
 type: docs
 weight: 5920
 url: /es/net/aspose.words.settings/odsofieldmappingtype/
@@ -22,7 +24,7 @@ public enum OdsoFieldMappingType
 | Null | `1` | Especifica que el campo de combinación de correspondencia no se ha asignado a una columna en la fuente de datos externa dada. |
 | Default | `1` | Igual aNull . |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que asigna columnas de origen de datos para fusionar campos.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * property [Type](../odsofieldmapdata/type/)
 * espacio de nombres [Aspose.Words.Settings](../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../)
-
-

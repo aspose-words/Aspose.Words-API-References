@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ResourceFolder
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica una cartella fisica in cui vengono salvate tutte le risorse come immagini caratteri e CSS esterni quando un documento viene esportato in HTML. Limpostazione predefinita è una stringa vuota.
+linktitle: ResourceFolder
+articleTitle: ResourceFolder
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions ResourceFolder proprietà. Specifica una cartella fisica in cui vengono salvate tutte le risorse come immagini caratteri e CSS esterni quando un documento viene esportato in HTML. Limpostazione predefinita è una stringa vuota in C#.
 type: docs
 weight: 420
 url: /it/net/aspose.words.saving/htmlsaveoptions/resourcefolder/
@@ -14,7 +16,7 @@ Specifica una cartella fisica in cui vengono salvate tutte le risorse come immag
 public string ResourceFolder { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 `ResourceFolder` è il modo più semplice per specificare una cartella in cui scrivere tutte le risorse. Un altro modo è utilizzare le singole proprietà[`FontsFolder`](../fontsfolder/) ,[`ImagesFolder`](../imagesfolder/) , e[`CssStyleSheetFileName`](../cssstylesheetfilename/).
 
@@ -22,7 +24,7 @@ public string ResourceFolder { get; set; }
 
 Se la cartella specificata da`ResourceFolder` non esiste, verrà creato automaticamente.
 
-### Esempi
+## Esempi
 
 Mostra come impostare cartelle e alias di cartelle per le risorse salvate esternamente che Aspose.Words creerà durante il salvataggio di un documento in HTML.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Guarda anche
 
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

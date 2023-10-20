@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.RemoveByPosition
-second_title: Aspose.Words för .NET API Referens
-description: TabStopCollection metod. Tar bort ett tabbstopp vid angiven position från samlingen.
+linktitle: RemoveByPosition
+articleTitle: RemoveByPosition
+second_title: Aspose.Words för .NET
+description: TabStopCollection RemoveByPosition metod. Tar bort ett tabbstopp vid angiven position från samlingen i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/tabstopcollection/removebyposition/
@@ -18,7 +20,7 @@ public void RemoveByPosition(double position)
 | --- | --- | --- |
 | position | Double | Positionen (i punkter) för tabbstoppet att ta bort. |
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar positionen för höger tabbstopp i innehållsförteckningsrelaterade stycken.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 ### Se även
 
 * class [TabStopCollection](../)
-* namnutrymme [Aspose.Words](../../tabstopcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

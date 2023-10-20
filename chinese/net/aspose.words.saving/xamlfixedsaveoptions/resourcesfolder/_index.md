@@ -1,7 +1,9 @@
 ---
 title: XamlFixedSaveOptions.ResourcesFolder
-second_title: Aspose.Words for .NET API 参考
-description: XamlFixedSaveOptions 财产. 指定将文档导出为固定页面 Xaml 格式时保存资源图像和字体的物理文件夹 默认为无效的.
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: 用于 .NET 的 Aspose.Words
+description: XamlFixedSaveOptions ResourcesFolder 财产. 指定将文档导出为固定页面 Xaml 格式时保存资源图像和字体的物理文件夹 默认为无效的 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolder/
 public string ResourcesFolder { get; set; }
 ```
 
-### 评论
+## 评论
 
 当您保存一个[`Document`](../../../aspose.words/document/)在固定页面 Xaml 格式中，Aspose.Words 需要将文档中嵌入的 all 图像保存为独立文件。`ResourcesFolder` 允许您指定图像的保存位置[`ResourcesFolderAlias`](../resourcesfolderalias/) 允许指定如何构建图像 URI。
 
@@ -22,7 +24,7 @@ public string ResourcesFolder { get; set; }
 
 如果将文档保存到流中，Aspose.Words 没有保存图像的文件夹 ，但仍需要将图像保存在某个位置。在这种情况下，您需要使用以下命令指定可访问的文件夹 `ResourcesFolder`财产
 
-### 例子
+## 例子
 
 演示如何打印在将文档转换为固定格式 .xaml 时创建的链接资源的 URI。
 
@@ -85,7 +87,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### 也可以看看
 
 * class [XamlFixedSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

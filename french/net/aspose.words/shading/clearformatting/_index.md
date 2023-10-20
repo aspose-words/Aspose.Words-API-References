@@ -1,7 +1,9 @@
 ---
 title: Shading.ClearFormatting
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Shading méthode. Supprime lombrage de lobjet.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words pour .NET
+description: Shading ClearFormatting méthode. Supprime lombrage de lobjet en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/shading/clearformatting/
@@ -14,7 +16,7 @@ Supprime l'ombrage de l'objet.
 public void ClearFormatting()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un tableau avec des bordures personnalisées.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Voir également
 
 * class [Shading](../)
-* espace de noms [Aspose.Words](../../shading/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

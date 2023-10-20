@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Bounds
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Hämtar eller ställer in platsen och storleken på formens innehållsblock.
+linktitle: Bounds
+articleTitle: Bounds
+second_title: Aspose.Words för .NET
+description: ShapeBase Bounds fast egendom. Hämtar eller ställer in platsen och storleken på formens innehållsblock i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing/shapebase/bounds/
@@ -14,7 +16,7 @@ Hämtar eller ställer in platsen och storleken på formens innehållsblock.
 public RectangleF Bounds { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Ignorerar bildförhållandelås vid inställning.
 
@@ -22,7 +24,7 @@ För en form på toppnivå är värdet i punkter och i förhållande till forman
 
 För former i en grupp finns värdet i koordinatutrymmet och enheterna för den överordnade gruppen.
 
-### Exempel
+## Exempel
 
 Visar hur man verifierar form som innehåller blockgränser.
 
@@ -179,7 +181,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

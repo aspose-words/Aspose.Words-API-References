@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Font
-second_title: Aspose.Words für .NET-API-Referenz
-description: InlineStory eigendom. Bietet Zugriff auf die Schriftartformatierung des Ankerzeichens dieses Objekts.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words für .NET
+description: InlineStory Font eigendom. Bietet Zugriff auf die Schriftartformatierung des Ankerzeichens dieses Objekts in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/inlinestory/font/
@@ -14,7 +16,7 @@ Bietet Zugriff auf die Schriftartformatierung des Ankerzeichens dieses Objekts.
 public Font Font { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie InlineStory-Knoten eingefügt werden.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Font](../../font/)
 * class [InlineStory](../)
-* namensraum [Aspose.Words](../../inlinestory/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

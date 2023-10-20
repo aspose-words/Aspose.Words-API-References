@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.GetText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarkStart méthode. Renvoie une chaîne vide.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words pour .NET
+description: BookmarkStart GetText méthode. Renvoie une chaîne vide en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/bookmarkstart/gettext/
@@ -18,7 +20,7 @@ public override string GetText()
 
 Une chaîne vide.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des signets et mettre à jour leur contenu.
 
@@ -107,7 +109,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Voir également
 
 * class [BookmarkStart](../)
-* espace de noms [Aspose.Words](../../bookmarkstart/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

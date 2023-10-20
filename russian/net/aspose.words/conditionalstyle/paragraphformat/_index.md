@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.ParagraphFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyle свойство. Получает форматирование абзаца условного стиля.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words для .NET
+description: ConditionalStyle ParagraphFormat свойство. Получает форматирование абзаца условного стиля на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/conditionalstyle/paragraphformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstyle/paragraphformat/
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [ConditionalStyle](../)
-* пространство имен [Aspose.Words](../../conditionalstyle/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

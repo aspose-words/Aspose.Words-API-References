@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent4
-second_title: Aspose.Words for .NET API Referansı
-description: ThemeColors mülk. Renk Vurgusunu belirtir 4.
+linktitle: Accent4
+articleTitle: Accent4
+second_title: Aspose.Words for .NET
+description: ThemeColors Accent4 mülk. Renk Vurgusunu belirtir 4 C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.themes/themecolors/accent4/
@@ -14,7 +16,7 @@ Renk Vurgusunu belirtir 4.
 public Color Accent4 { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını gösterir.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Ayrıca bakınız
 
 * class [ThemeColors](../)
-* ad alanı [Aspose.Words.Themes](../../themecolors/)
+* ad alanı [Aspose.Words.Themes](../../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../../)
-
-

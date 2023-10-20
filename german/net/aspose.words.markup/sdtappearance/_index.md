@@ -1,7 +1,9 @@
 ---
-title: Enum SdtAppearance
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Markup.SdtAppearance opsomming. Gibt das Erscheinungsbild eines strukturierten DokumentTags an.
+title: SdtAppearance Enum
+linktitle: SdtAppearance
+articleTitle: SdtAppearance
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Markup.SdtAppearance opsomming. Gibt das Erscheinungsbild eines strukturierten DokumentTags an in C#.
 type: docs
 weight: 3990
 url: /de/net/aspose.words.markup/sdtappearance/
@@ -27,5 +29,3 @@ public enum SdtAppearance
 
 * namensraum [Aspose.Words.Markup](../../aspose.words.markup/)
 * Montage [Aspose.Words](../../)
-
-

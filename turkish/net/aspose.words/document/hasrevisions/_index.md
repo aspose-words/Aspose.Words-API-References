@@ -1,7 +1,9 @@
 ---
 title: Document.HasRevisions
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. İadelerdoğru belgede izlenen herhangi bir değişiklik varsa.
+linktitle: HasRevisions
+articleTitle: HasRevisions
+second_title: Aspose.Words for .NET
+description: Document HasRevisions mülk. İadelerdoğru belgede izlenen herhangi bir değişiklik varsa C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words/document/hasrevisions/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words/document/hasrevisions/
 public bool HasRevisions { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik karşılaştırma için bir kısayoldur[`Count`](../../revisioncollection/count/)sıfıra.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki düzeltmelerle nasıl çalışılacağını gösterir.
 
@@ -101,7 +103,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

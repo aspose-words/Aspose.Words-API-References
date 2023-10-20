@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControlCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: Forms2OleControlCollection mülk. Koleksiyondaki nesnelerin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: Forms2OleControlCollection Count mülk. Koleksiyondaki nesnelerin sayısını alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
@@ -14,7 +16,7 @@ Koleksiyondaki nesnelerin sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye katıştırılmış bir OLE denetimine ve onun alt denetimlerine nasıl erişileceğini gösterir.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 ### Ayrıca bakınız
 
 * class [Forms2OleControlCollection](../)
-* ad alanı [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* ad alanı [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * toplantı [Aspose.Words](../../../)
-
-

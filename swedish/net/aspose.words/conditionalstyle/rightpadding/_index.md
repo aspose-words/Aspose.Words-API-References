@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.RightPadding
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyle fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till till höger om innehållet i tabellceller.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words för .NET
+description: ConditionalStyle RightPadding fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till till höger om innehållet i tabellceller i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/conditionalstyle/rightpadding/
@@ -14,7 +16,7 @@ Hämtar eller ställer in mängden utrymme (i poäng) som ska läggas till till 
 public double RightPadding { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Se även
 
 * class [ConditionalStyle](../)
-* namnutrymme [Aspose.Words](../../conditionalstyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

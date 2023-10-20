@@ -1,7 +1,9 @@
 ---
 title: ListLevel.Font
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevel ملكية. يحدد تنسيق الأحرف المستخدم لتسمية القائمة.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words لـ .NET
+description: ListLevel Font ملكية. يحدد تنسيق الأحرف المستخدم لتسمية القائمة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.lists/listlevel/font/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/listlevel/font/
 public Font Font { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق القائمة المخصصة على الفقرات عند استخدام DocumentBuilder.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ListLevel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

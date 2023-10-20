@@ -1,9 +1,11 @@
 ---
 title: Fill.Color
-second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. الحصول على أو تعيين كائن اللون الذي يمثل اللون الأمامي للتعبئة.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words لـ .NET
+description: Fill Color ملكية. الحصول على أو تعيين كائن اللون الذي يمثل اللون الأمامي للتعبئة في C#.
 type: docs
-weight: 50
+weight: 40
 url: /ar/net/aspose.words.drawing/fill/color/
 ---
 ## Fill.Color property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/fill/color/
 public Color Color { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تحافظ هذه الخاصية على مكون ألفا فيColor ‎ بخلاف[`ForeColor`](../forecolor/)الخاصية، التي تعيد تعيينه إلى لون معتم بالكامل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحويل أي من عمليات التعبئة مرة أخرى إلى تعبئة صلبة.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
 ### أنظر أيضا
 
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

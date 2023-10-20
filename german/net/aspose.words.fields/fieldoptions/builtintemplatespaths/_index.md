@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BuiltInTemplatesPaths
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Ruft Pfade der in MS Word integrierten Vorlagen ab oder legt diese fest.
+linktitle: BuiltInTemplatesPaths
+articleTitle: BuiltInTemplatesPaths
+second_title: Aspose.Words für .NET
+description: FieldOptions BuiltInTemplatesPaths eigendom. Ruft Pfade der in MS Word integrierten Vorlagen ab oder legt diese fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
@@ -14,13 +16,13 @@ Ruft Pfade der in MS Word integrierten Vorlagen ab oder legt diese fest.
 public string[] BuiltInTemplatesPaths { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft wird von verwendet[`FieldAutoText`](../../fieldautotext/) Und[`FieldGlossary`](../../fieldglossary/) Felder, wenn der referenzierte automatische Texteintrag nicht im gefunden wird[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) Vorlage.
 
 Standardmäßig speichert MS Word integrierte Vorlagen in c:\Benutzer\&lt;Benutzername&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx und C:\Benutzer\&lt;Benutzername&gt;\ AppData\Roaming\Microsoft\Templates\Normal.dotm-Dateien.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Baustein mit den Feldern AUTOTEXT und GLOSSARY angezeigt wird.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### Siehe auch
 
 * class [FieldOptions](../)
-* namensraum [Aspose.Words.Fields](../../fieldoptions/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

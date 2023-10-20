@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Tag
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeStart 财产. 指定与当前结构化文档标记节点关联的标记 不能无效的.
+linktitle: Tag
+articleTitle: Tag
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTagRangeStart Tag 财产. 指定与当前结构化文档标记节点关联的标记 不能无效的 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/tag/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/tag/
 public string Tag { get; set; }
 ```
 
-### 评论
+## 评论
 
 标签是一个任意字符串，应用程序可以将其与结构化文档 标签关联起来，以便在不提供可见的友好名称的情况下识别它。
 
-### 例子
+## 例子
 
 演示如何获取多节结构化文档标签的属性。
 
@@ -53,7 +55,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### 也可以看看
 
 * class [StructuredDocumentTagRangeStart](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

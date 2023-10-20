@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Bold
-second_title: Aspose.Words for .NET API Referansı
-description: FontSavingArgs mülk. Geçerli yazı tipinin kalın olup olmadığını belirtir.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words for .NET
+description: FontSavingArgs Bold mülk. Geçerli yazı tipinin kalın olup olmadığını belirtir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/fontsavingargs/bold/
@@ -14,7 +16,7 @@ Geçerli yazı tipinin kalın olup olmadığını belirtir.
 public bool Bold { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nasıl tanımlanacağını gösterir.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ayrıca bakınız
 
 * class [FontSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../fontsavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

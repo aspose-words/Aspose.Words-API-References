@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.LeftExpression
-second_title: Aspose.Words for .NET API Referansı
-description: ComparisonExpression mülk. Soldaki ifadeyi alır.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words for .NET
+description: ComparisonExpression LeftExpression mülk. Soldaki ifadeyi alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/comparisonexpression/leftexpression/
@@ -14,7 +16,7 @@ Soldaki ifadeyi alır.
 public string LeftExpression { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 IF ve COMPARE alanları için özel değerlendirmenin nasıl uygulanacağını gösterir.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Ayrıca bakınız
 
 * class [ComparisonExpression](../)
-* ad alanı [Aspose.Words.Fields](../../comparisonexpression/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

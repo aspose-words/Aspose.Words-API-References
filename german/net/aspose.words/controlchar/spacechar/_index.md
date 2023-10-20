@@ -1,7 +1,9 @@
 ---
 title: ControlChar.SpaceChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Leerzeichen char32.
+linktitle: SpaceChar
+articleTitle: SpaceChar
+second_title: Aspose.Words für .NET
+description: ControlChar SpaceChar veld. Leerzeichen char32 in C#.
 type: docs
 weight: 260
 url: /de/net/aspose.words/controlchar/spacechar/
@@ -14,7 +16,7 @@ Leerzeichen: (char)32.
 public const char SpaceChar;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

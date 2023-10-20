@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.LockContentControl
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 当设置为真的 此属性将禁止用户删除此 特殊测试.
+linktitle: LockContentControl
+articleTitle: LockContentControl
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag LockContentControl 财产. 当设置为真的 此属性将禁止用户删除此特殊测试 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words.markup/structureddocumenttag/lockcontentcontrol/
 ---
 ## StructuredDocumentTag.LockContentControl property
 
-当设置为`真的` ，此属性将禁止用户删除此 **特殊测试**.
+当设置为`真的` ，此属性将禁止用户删除此**特殊测试**.
 
 ```csharp
 public bool LockContentControl { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何对结构化文档标签应用编辑限制。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Lock.docx");
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

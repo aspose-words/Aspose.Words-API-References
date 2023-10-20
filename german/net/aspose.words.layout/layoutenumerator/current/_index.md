@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Current
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutEnumerator eigendom. Ruft die aktuelle Position im Seitenlayoutmodell ab oder legt diese fest. Diese Eigenschaft gibt ein undurchsichtiges Objekt zurück das der aktuellen LayoutEntität entspricht.
+linktitle: Current
+articleTitle: Current
+second_title: Aspose.Words für .NET
+description: LayoutEnumerator Current eigendom. Ruft die aktuelle Position im Seitenlayoutmodell ab oder legt diese fest. Diese Eigenschaft gibt ein undurchsichtiges Objekt zurück das der aktuellen LayoutEntität entspricht in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.layout/layoutenumerator/current/
@@ -14,7 +16,7 @@ Ruft die aktuelle Position im Seitenlayoutmodell ab oder legt diese fest. Diese 
 public object Current { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Seitenbereiche angezeigt werden, die ein Knoten umfasst.
 
@@ -72,7 +74,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 ### Siehe auch
 
 * class [LayoutEnumerator](../)
-* namensraum [Aspose.Words.Layout](../../layoutenumerator/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

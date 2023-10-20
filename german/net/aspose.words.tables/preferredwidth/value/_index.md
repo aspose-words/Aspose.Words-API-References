@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.Value
-second_title: Aspose.Words für .NET-API-Referenz
-description: PreferredWidth eigendom. Ruft den bevorzugten Breitenwert ab. Die Maßeinheit ist im angegebenType Eigenschaft.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words für .NET
+description: PreferredWidth Value eigendom. Ruft den bevorzugten Breitenwert ab. Die Maßeinheit ist im angegebenType Eigenschaft in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.tables/preferredwidth/value/
@@ -14,7 +16,7 @@ Ruft den bevorzugten Breitenwert ab. Die Maßeinheit ist im angegeben[`Type`](..
 public double Value { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie den bevorzugten Breitentyp und Wert einer Tabellenzelle überprüfen.
 
@@ -31,7 +33,5 @@ Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
 ### Siehe auch
 
 * class [PreferredWidth](../)
-* namensraum [Aspose.Words.Tables](../../preferredwidth/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

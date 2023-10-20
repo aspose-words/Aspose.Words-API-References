@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.HasMinorGridlines
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 获取或设置一个标志指示轴是否有次要网格线
+linktitle: HasMinorGridlines
+articleTitle: HasMinorGridlines
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis HasMinorGridlines 财产. 获取或设置一个标志指示轴是否有次要网格线 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.drawing.charts/chartaxis/hasminorgridlines/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/hasminorgridlines/
 public bool HasMinorGridlines { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入带有日期/时间值的图表。
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### 也可以看看
 
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Odso
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeSettings 财产. 获取或设置指定 Office 数据源对象 ODSO 设置的对象
+linktitle: Odso
+articleTitle: Odso
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeSettings Odso 财产. 获取或设置指定 Office 数据源对象 ODSO 设置的对象 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.settings/mailmergesettings/odso/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.settings/mailmergesettings/odso/
 public Odso Odso { get; set; }
 ```
 
-### 评论
+## 评论
 
 这个物体从来都不是`无效的`。
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [Odso](../../odso/)
 * class [MailMergeSettings](../)
-* 命名空间 [Aspose.Words.Settings](../../mailmergesettings/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

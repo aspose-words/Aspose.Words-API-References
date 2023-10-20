@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.Name
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarkStart propriété. Obtient ou définit le nom du signet.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words pour .NET
+description: BookmarkStart Name propriété. Obtient ou définit le nom du signet en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/bookmarkstart/name/
@@ -14,11 +16,11 @@ Obtient ou définit le nom du signet.
 public string Name { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 C'est pas possible`nul`.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des signets et mettre à jour leur contenu.
 
@@ -107,7 +109,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Voir également
 
 * class [BookmarkStart](../)
-* espace de noms [Aspose.Words](../../bookmarkstart/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

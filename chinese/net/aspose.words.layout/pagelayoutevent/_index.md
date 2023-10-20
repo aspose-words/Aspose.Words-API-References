@@ -1,7 +1,9 @@
 ---
-title: Enum PageLayoutEvent
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Layout.PageLayoutEvent 枚举. 页面布局模型构建和渲染期间引发的事件代码
+title: PageLayoutEvent Enum
+linktitle: PageLayoutEvent
+articleTitle: PageLayoutEvent
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Layout.PageLayoutEvent 枚举. 页面布局模型构建和渲染期间引发的事件代码 在 C#.
 type: docs
 weight: 3370
 url: /zh/net/aspose.words.layout/pagelayoutevent/
@@ -35,7 +37,7 @@ public enum PageLayoutEvent
 | PartRenderingStarted | `10` | 页面渲染已开始。每页触发一次。 |
 | PartRenderingFinished | `11` | 页面渲染已完成。每页触发一次。 |
 
-### 例子
+## 例子
 
 展示如何使用布局回调跟踪布局更改。
 
@@ -102,5 +104,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * 命名空间 [Aspose.Words.Layout](../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../)
-
-

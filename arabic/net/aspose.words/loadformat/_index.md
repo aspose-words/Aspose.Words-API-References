@@ -1,7 +1,9 @@
 ---
-title: Enum LoadFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.LoadFormat تعداد. يشير إلى تنسيق المستند الذي سيتم تحميله.
+title: LoadFormat Enum
+linktitle: LoadFormat
+articleTitle: LoadFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.LoadFormat تعداد. يشير إلى تنسيق المستند الذي سيتم تحميله في C#.
 type: docs
 weight: 3550
 url: /ar/net/aspose.words/loadformat/
@@ -46,7 +48,7 @@ public enum LoadFormat
 | Xml | `65` | مستند XML. |
 | Unknown | `255` | تنسيق غير معروف، لا يمكن تحميله بواسطة Aspose.Words. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ صفحة ويب كملف .docx.
 
@@ -122,5 +124,3 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

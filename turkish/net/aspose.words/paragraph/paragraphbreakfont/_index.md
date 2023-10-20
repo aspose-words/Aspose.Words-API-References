@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParagraphBreakFont
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Paragraf sonu karakterinin yazı tipi formatına erişim sağlar.
+linktitle: ParagraphBreakFont
+articleTitle: ParagraphBreakFont
+second_title: Aspose.Words for .NET
+description: Paragraph ParagraphBreakFont mülk. Paragraf sonu karakterinin yazı tipi formatına erişim sağlar C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words/paragraph/paragraphbreakfont/
@@ -14,7 +16,7 @@ Paragraf sonu karakterinin yazı tipi formatına erişim sağlar.
 public Font ParagraphBreakFont { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm gizli içeriği kaldırmak için DocumentVisitor uygulamasının nasıl kullanılacağını gösterir.
 
@@ -211,7 +213,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [Font](../../font/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CacheBackgroundGraphics
-second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Ottiene o imposta un valore che determina se memorizzare o meno nella cache la grafica posizionata sullo sfondo del documento.
+linktitle: CacheBackgroundGraphics
+articleTitle: CacheBackgroundGraphics
+second_title: Aspose.Words per .NET
+description: PdfSaveOptions CacheBackgroundGraphics proprietà. Ottiene o imposta un valore che determina se memorizzare o meno nella cache la grafica posizionata sullo sfondo del documento in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/pdfsaveoptions/cachebackgroundgraphics/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore che determina se memorizzare o meno nella cache la g
 public bool CacheBackgroundGraphics { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`VERO` e la grafica di sfondo viene scritta nel documento PDF come xObject.
 
@@ -24,7 +26,7 @@ Alcune forme non sono supportate per la memorizzazione nella cache (forme con ca
 
 La grafica di sfondo del documento è costituita da varie forme, grafici, immagini posizionate nel piè di pagina o nell'intestazione, nonché sullo sfondo e sul bordo di una pagina.
 
-### Esempi
+## Esempi
 
 Mostra come memorizzare nella cache la grafica posizionata sullo sfondo del documento.
 
@@ -45,7 +47,5 @@ Assert.Less(asposeToPdfSize, wordToPdfSize);
 ### Guarda anche
 
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

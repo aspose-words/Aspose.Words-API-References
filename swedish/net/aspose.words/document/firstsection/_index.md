@@ -1,7 +1,9 @@
 ---
 title: Document.FirstSection
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar det första avsnittet i dokumentet.
+linktitle: FirstSection
+articleTitle: FirstSection
+second_title: Aspose.Words för .NET
+description: Document FirstSection fast egendom. Hämtar det första avsnittet i dokumentet i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words/document/firstsection/
@@ -14,11 +16,11 @@ Hämtar det första avsnittet i dokumentet.
 public Section FirstSection { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar`null` om det inte finns några avsnitt.
 
-### Exempel
+## Exempel
 
 Visar hur man ersätter text i ett dokuments sidfot.
 
@@ -120,7 +122,5 @@ foreach (Node node in section)
 
 * class [Section](../../section/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

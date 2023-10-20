@@ -1,7 +1,9 @@
 ---
 title: FieldAutoNumLgl.RemoveTrailingPeriod
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAutoNumLgl свойство. Получает или задает следует ли отображать число без конечной точки.
+linktitle: RemoveTrailingPeriod
+articleTitle: RemoveTrailingPeriod
+second_title: Aspose.Words для .NET
+description: FieldAutoNumLgl RemoveTrailingPeriod свойство. Получает или задает следует ли отображать число без конечной точки на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldautonumlgl/removetrailingperiod/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldautonumlgl/removetrailingperiod/
 public bool RemoveTrailingPeriod { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как организовать документ с помощью полей AUTONUMLGL.
 
@@ -90,7 +92,5 @@ private static void InsertNumberedClause(DocumentBuilder builder, string heading
 ### Смотрите также
 
 * class [FieldAutoNumLgl](../)
-* пространство имен [Aspose.Words.Fields](../../fieldautonumlgl/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

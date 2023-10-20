@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Bottom
-second_title: Referencia de API de Aspose.Words para .NET
-description: BorderCollection propiedad. Obtiene el borde inferior.
+linktitle: Bottom
+articleTitle: Bottom
+second_title: Aspose.Words para .NET
+description: BorderCollection Bottom propiedad. Obtiene el borde inferior en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/bordercollection/bottom/
@@ -14,7 +16,7 @@ Obtiene el borde inferior.
 public Border Bottom { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar colores de borde y sombreado mientras construye una tabla.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* espacio de nombres [Aspose.Words](../../bordercollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

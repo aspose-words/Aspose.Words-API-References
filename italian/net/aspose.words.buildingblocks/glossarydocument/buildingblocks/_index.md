@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.BuildingBlocks
-second_title: Aspose.Words per .NET API Reference
-description: GlossaryDocument proprietà. Restituisce una raccolta tipizzata che rappresenta tutti gli elementi costitutivi del documento glossario.
+linktitle: BuildingBlocks
+articleTitle: BuildingBlocks
+second_title: Aspose.Words per .NET
+description: GlossaryDocument BuildingBlocks proprietà. Restituisce una raccolta tipizzata che rappresenta tutti gli elementi costitutivi del documento glossario in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/
@@ -14,7 +16,7 @@ Restituisce una raccolta tipizzata che rappresenta tutti gli elementi costitutiv
 public BuildingBlockCollection BuildingBlocks { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra le modalità di accesso agli elementi costitutivi in un documento di glossario.
 
@@ -119,7 +121,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlockCollection](../../buildingblockcollection/)
 * class [GlossaryDocument](../)
-* spazio dei nomi [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* spazio dei nomi [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assemblea [Aspose.Words](../../../)
-
-

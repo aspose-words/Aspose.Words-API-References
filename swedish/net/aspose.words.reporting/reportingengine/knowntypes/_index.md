@@ -1,7 +1,9 @@
 ---
 title: ReportingEngine.KnownTypes
-second_title: Aspose.Words för .NET API Referens
-description: ReportingEngine fast egendom. Får en oordnad uppsättning dvs. en samling unika föremål som innehållerTypeobjekt vilka helt eller delvis kvalificerade namn kan användas i rapportmallar som bearbetas av denna engine instans för att anropa motsvarande typers statiska medlemmar utföra typcasts etc.
+linktitle: KnownTypes
+articleTitle: KnownTypes
+second_title: Aspose.Words för .NET
+description: ReportingEngine KnownTypes fast egendom. Får en oordnad uppsättning dvs. en samling unika föremål som innehållerTypeobjekt vilka helt eller delvis kvalificerade namn kan användas i rapportmallar som bearbetas av denna engine instans för att anropa motsvarande typers statiska medlemmar utföra typcasts etc i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.reporting/reportingengine/knowntypes/
@@ -18,7 +20,5 @@ public KnownTypeSet KnownTypes { get; }
 
 * class [KnownTypeSet](../../knowntypeset/)
 * class [ReportingEngine](../)
-* namnutrymme [Aspose.Words.Reporting](../../reportingengine/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum StyleType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.StyleType 枚举. 表示样式的类型
+title: StyleType Enum
+linktitle: StyleType
+articleTitle: StyleType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.StyleType 枚举. 表示样式的类型 在 C#.
 type: docs
 weight: 6160
 url: /zh/net/aspose.words/styletype/
@@ -23,7 +25,7 @@ public enum StyleType
 | Table | `3` | 样式是表格样式。 |
 | List | `4` | 样式是列表样式。 |
 
-### 例子
+## 例子
 
 演示如何创建列表样式并在文档中使用它。
 
@@ -85,5 +87,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

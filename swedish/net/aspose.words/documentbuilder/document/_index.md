@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Document
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Hämtar eller ställer inDocumentobjekt som detta objekt är kopplat till.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words för .NET
+description: DocumentBuilder Document fast egendom. Hämtar eller ställer inDocumentobjekt som detta objekt är kopplat till i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/documentbuilder/document/
@@ -14,7 +16,7 @@ Hämtar eller ställer in`Document`objekt som detta objekt är kopplat till.
 public Document Document { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar och återställer sidinställningar till avsnitt i ett dokument.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

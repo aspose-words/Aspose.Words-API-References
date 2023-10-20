@@ -1,7 +1,9 @@
 ---
 title: JsonDataLoadOptions.ExactDateTimeParseFormats
-second_title: Aspose.Words for .NET API Referansı
-description: JsonDataLoadOptions mülk. JSON yüklenirken JSON tarihsaat değerlerini ayrıştırmak için tam biçimleri alır veya ayarlar. Varsayılanhükümsüz .
+linktitle: ExactDateTimeParseFormats
+articleTitle: ExactDateTimeParseFormats
+second_title: Aspose.Words for .NET
+description: JsonDataLoadOptions ExactDateTimeParseFormats mülk. JSON yüklenirken JSON tarihsaat değerlerini ayrıştırmak için tam biçimleri alır veya ayarlar. Varsayılanhükümsüz  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats/
@@ -14,7 +16,7 @@ JSON yüklenirken JSON tarih-saat değerlerini ayrıştırmak için tam biçimle
 public IEnumerable<string> ExactDateTimeParseFormats { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Microsoft® JSON tarih-saat biçimi (örneğin, "/Date(1224043200000)/") kullanılarak kodlanan dizeler, bu özelliğin değerine bakılmaksızın her zaman tarih-saat değerleri olarak olarak tanınır. Özellik, dizelerden tarih-saat değerleri ayrıştırılırken kullanılacak ek biçimlerini şu şekilde tanımlar:
 
@@ -25,7 +27,5 @@ Microsoft® JSON tarih-saat biçimi (örneğin, "/Date(1224043200000)/") kullan�
 ### Ayrıca bakınız
 
 * class [JsonDataLoadOptions](../)
-* ad alanı [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
-
-

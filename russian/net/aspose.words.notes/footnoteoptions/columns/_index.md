@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.Columns
-second_title: Справочник по API Aspose.Words для .NET
-description: FootnoteOptions свойство. Указывает количество столбцов с помощью которых форматируется область сносок.
+linktitle: Columns
+articleTitle: Columns
+second_title: Aspose.Words для .NET
+description: FootnoteOptions Columns свойство. Указывает количество столбцов с помощью которых форматируется область сносок на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.notes/footnoteoptions/columns/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.notes/footnoteoptions/columns/
 public int Columns { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если это свойство имеет значение 0, область сносок форматируется с использованием количества столбцов, основанного на количестве столбцов на отображаемой странице. Значение по умолчанию — 0. .
 
-### Примеры
+## Примеры
 
 Показывает, как разделить раздел сносок на заданное количество столбцов.
 
@@ -31,7 +33,5 @@ doc.Save(ArtifactsDir + "Document.FootnoteColumns.docx");
 ### Смотрите также
 
 * class [FootnoteOptions](../)
-* пространство имен [Aspose.Words.Notes](../../footnoteoptions/)
+* пространство имен [Aspose.Words.Notes](../../../aspose.words.notes/)
 * сборка [Aspose.Words](../../../)
-
-

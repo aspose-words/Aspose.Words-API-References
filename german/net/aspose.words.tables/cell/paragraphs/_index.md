@@ -1,7 +1,9 @@
 ---
 title: Cell.Paragraphs
-second_title: Aspose.Words für .NET-API-Referenz
-description: Cell eigendom. Ruft eine Sammlung von Absätzen ab die unmittelbar untergeordnete Elemente der Zelle sind.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words für .NET
+description: Cell Paragraphs eigendom. Ruft eine Sammlung von Absätzen ab die unmittelbar untergeordnete Elemente der Zelle sind in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.tables/cell/paragraphs/
@@ -14,7 +16,7 @@ Ruft eine Sammlung von Absätzen ab, die unmittelbar untergeordnete Elemente der
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Tabelle so einrichtet, dass sie auf derselben Seite bleibt.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [ParagraphCollection](../../../aspose.words/paragraphcollection/)
 * class [Cell](../)
-* namensraum [Aspose.Words.Tables](../../cell/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

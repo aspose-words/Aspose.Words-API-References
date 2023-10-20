@@ -1,7 +1,9 @@
 ---
 title: Table.LastRow
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. Devuelve el últimoRow nodo en la tabla.
+linktitle: LastRow
+articleTitle: LastRow
+second_title: Aspose.Words para .NET
+description: Table LastRow propiedad. Devuelve el últimoRow nodo en la tabla en C#.
 type: docs
 weight: 180
 url: /es/net/aspose.words.tables/table/lastrow/
@@ -14,7 +16,7 @@ Devuelve el último[`Row`](../../row/) nodo en la tabla.
 public Row LastRow { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar la primera y la última fila de todas las tablas de un documento.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 
 * class [Row](../../row/)
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSettings.DefaultInstance
-second_title: Aspose.Words for .NET API Referansı
-description: FontSettings mülk. Statik varsayılan yazı tipi ayarları.
+linktitle: DefaultInstance
+articleTitle: DefaultInstance
+second_title: Aspose.Words for .NET
+description: FontSettings DefaultInstance mülk. Statik varsayılan yazı tipi ayarları C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fonts/fontsettings/defaultinstance/
@@ -14,11 +16,11 @@ Statik varsayılan yazı tipi ayarları.
 public static FontSettings DefaultInstance { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu örnek, aşağıdaki durumlar dışında bir belgede varsayılan olarak kullanılır:[`FontSettings`](../../../aspose.words/document/fontsettings/) belirtildi.
 
-### Örnekler
+## Örnekler
 
 Varsayılan yazı tipi ayarları örneğinin nasıl yapılandırılacağını gösterir.
 
@@ -94,7 +96,5 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 ### Ayrıca bakınız
 
 * class [FontSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

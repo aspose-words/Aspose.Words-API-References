@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Item
-second_title: Aspose.Words for .NET API Referansı
-description: BaseWebExtensionCollection mülk. Belirtilen dizindeki bir öğeyi alır veya ayarlar.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: BaseWebExtensionCollection Item mülk. Belirtilen dizindeki bir öğeyi alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.webextensions/basewebextensioncollection-1/item/
@@ -18,7 +20,7 @@ public T this[int index] { get; set; }
 | --- | --- |
 | index | Öğenin sıfır tabanlı dizini. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin web uzantıları koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ayrıca bakınız
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* ad alanı [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldAutoNumLgl.SeparatorCharacter
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAutoNumLgl ملكية. الحصول على أو تعيين الحرف الفاصل المطلوب استخدامه.
+linktitle: SeparatorCharacter
+articleTitle: SeparatorCharacter
+second_title: Aspose.Words لـ .NET
+description: FieldAutoNumLgl SeparatorCharacter ملكية. الحصول على أو تعيين الحرف الفاصل المطلوب استخدامه في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldautonumlgl/separatorcharacter/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldautonumlgl/separatorcharacter/
 public string SeparatorCharacter { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنظيم مستند باستخدام حقول AUTONUMLGL.
 
@@ -90,7 +92,5 @@ private static void InsertNumberedClause(DocumentBuilder builder, string heading
 ### أنظر أيضا
 
 * class [FieldAutoNumLgl](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldautonumlgl/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface ICssSavingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.ICssSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Words بحفظ CSS ورقة الأنماط المتتالية عند حفظ مستند إلى HTML.
+title: ICssSavingCallback Interface
+linktitle: ICssSavingCallback
+articleTitle: ICssSavingCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.ICssSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية قيام Aspose.Words بحفظ CSS ورقة الأنماط المتتالية عند حفظ مستند إلى HTML في C#.
 type: docs
 weight: 5130
 url: /ar/net/aspose.words.saving/icsssavingcallback/
@@ -18,9 +20,9 @@ public interface ICssSavingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving/)(CssSavingArgs) | يتم استدعاؤه عندما يقوم Aspose.Words بحفظ ملف CSS (ورقة الأنماط المتتالية). |
+| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving/)(*[CssSavingArgs](../csssavingargs/)*) | يتم استدعاؤه عندما يقوم Aspose.Words بحفظ ملف CSS (ورقة الأنماط المتتالية). |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أوراق أنماط CSS التي ينشئها تحويل HTML.
 
@@ -82,5 +84,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

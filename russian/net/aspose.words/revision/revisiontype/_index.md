@@ -1,7 +1,9 @@
 ---
 title: Revision.RevisionType
-second_title: Справочник по API Aspose.Words для .NET
-description: Revision свойство. Получает тип этой ревизии.
+linktitle: RevisionType
+articleTitle: RevisionType
+second_title: Aspose.Words для .NET
+description: Revision RevisionType свойство. Получает тип этой ревизии на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/revision/revisiontype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/revision/revisiontype/
 public RevisionType RevisionType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с изменениями в документе.
 
@@ -98,7 +100,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * enum [RevisionType](../../revisiontype/)
 * class [Revision](../)
-* пространство имен [Aspose.Words](../../revision/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

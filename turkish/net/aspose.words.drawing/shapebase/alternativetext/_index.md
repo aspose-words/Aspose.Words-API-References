@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AlternativeText
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Grafik yerine görüntülenecek alternatif metni tanımlar.
+linktitle: AlternativeText
+articleTitle: AlternativeText
+second_title: Aspose.Words for .NET
+description: ShapeBase AlternativeText mülk. Grafik yerine görüntülenecek alternatif metni tanımlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing/shapebase/alternativetext/
@@ -14,11 +16,11 @@ Grafik yerine görüntülenecek alternatif metni tanımlar.
 public string AlternativeText { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer boş bir dizedir.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin alternatif metninin nasıl kullanılacağını gösterir.
 
@@ -42,7 +44,5 @@ File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

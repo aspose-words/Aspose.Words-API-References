@@ -1,7 +1,9 @@
 ---
 title: InlineStory.EnsureMinimum
-second_title: Aspose.Words für .NET-API-Referenz
-description: InlineStory methode. Wenn das letzte untergeordnete Element kein Absatz ist wird ein leerer Absatz erstellt und angehängt.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words für .NET
+description: InlineStory EnsureMinimum methode. Wenn das letzte untergeordnete Element kein Absatz ist wird ein leerer Absatz erstellt und angehängt in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words/inlinestory/ensureminimum/
@@ -14,7 +16,7 @@ Wenn das letzte untergeordnete Element kein Absatz ist, wird ein leerer Absatz e
 public void EnsureMinimum()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie InlineStory-Knoten eingefügt werden.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 ### Siehe auch
 
 * class [InlineStory](../)
-* namensraum [Aspose.Words](../../inlinestory/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

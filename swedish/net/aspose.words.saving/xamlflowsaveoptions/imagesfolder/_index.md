@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.ImagesFolder
-second_title: Aspose.Words för .NET API Referens
-description: XamlFlowSaveOptions fast egendom. Anger den fysiska mappen där bilder sparas vid export av ett dokument till XAMLformat. Standard är en tom sträng.
+linktitle: ImagesFolder
+articleTitle: ImagesFolder
+second_title: Aspose.Words för .NET
+description: XamlFlowSaveOptions ImagesFolder fast egendom. Anger den fysiska mappen där bilder sparas vid export av ett dokument till XAMLformat. Standard är en tom sträng i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/xamlflowsaveoptions/imagesfolder/
@@ -14,7 +16,7 @@ Anger den fysiska mappen där bilder sparas vid export av ett dokument till XAML
 public string ImagesFolder { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När du sparar en[`Document`](../../../aspose.words/document/) i XAML-format måste Aspose.Words spara alla -bilder som är inbäddade i dokumentet som fristående filer.`ImagesFolder` låter dig ange var bilderna ska sparas och[`ImagesFolderAlias`](../imagesfolderalias/) tillåter att specificera hur bildens URI:er kommer att konstrueras.
 
@@ -22,7 +24,7 @@ Om du sparar ett dokument i en fil och anger ett filnamn, sparar Aspose.Words, s
 
 Om du sparar ett dokument i en ström så har Aspose.Words ingen mapp där bilderna ska sparas, men behöver ändå spara bilderna någonstans. I det här fallet måste du ange en tillgänglig mapp i`ImagesFolder` egendom eller tillhandahålla anpassade strömmar via the[`ImageSavingCallback`](../imagesavingcallback/) händelsehanterare.
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut filnamnen på länkade bilder som skapats när ett dokument konverteras till flödesformat .xaml.
 
@@ -88,7 +90,5 @@ private class ImageUriPrinter : IImageSavingCallback
 ### Se även
 
 * class [XamlFlowSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

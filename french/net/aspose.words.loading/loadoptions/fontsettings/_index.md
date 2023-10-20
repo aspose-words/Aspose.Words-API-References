@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.FontSettings
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LoadOptions propriété. Permet de spécifier les paramètres de police du document.
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words pour .NET
+description: LoadOptions FontSettings propriété. Permet de spécifier les paramètres de police du document en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.loading/loadoptions/fontsettings/
@@ -14,7 +16,7 @@ Permet de spécifier les paramètres de police du document.
 public FontSettings FontSettings { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Lors du chargement de certains formats, Aspose.Words peut nécessiter une résolution des polices. Par exemple, lors du chargement de documents HTML, Aspose.Words peut résoudre les polices pour effectuer un remplacement des polices.
 
@@ -22,7 +24,7 @@ Si réglé sur`nul` , paramètres de police statique par défaut[`DefaultInstanc
 
 La valeur par défaut est`nul`.
 
-### Exemples
+## Exemples
 
 Montre comment appliquer les paramètres de substitution de police lors du chargement d’un document.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [LoadOptions](../)
-* espace de noms [Aspose.Words.Loading](../../loadoptions/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

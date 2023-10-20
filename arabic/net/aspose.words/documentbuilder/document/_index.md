@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Document
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. الحصول على أو تعيينDocumentالكائن الذي يرتبط به هذا الكائن.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder Document ملكية. الحصول على أو تعيينDocumentالكائن الذي يرتبط به هذا الكائن في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/documentbuilder/document/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbuilder/document/
 public Document Document { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

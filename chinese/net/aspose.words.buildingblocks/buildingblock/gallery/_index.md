@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Gallery
-second_title: Aspose.Words for .NET API 参考
-description: BuildingBlock 财产. 指定构建块的第一级分类以用于 分类或用户界面排序
+linktitle: Gallery
+articleTitle: Gallery
+second_title: 用于 .NET 的 Aspose.Words
+description: BuildingBlock Gallery 财产. 指定构建块的第一级分类以用于 分类或用户界面排序 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.buildingblocks/buildingblock/gallery/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.buildingblocks/buildingblock/gallery/
 public BuildingBlockGallery Gallery { get; set; }
 ```
 
-### 评论
+## 评论
 
 Microsoft Word 用户界面中的构建块被排列为 到图库中。每个`Gallery`可以有多个类别。 a 内的每个块[`Category`](../category/)有一个[`Name`](../name/)。
 
-对应于 **docPartPr.category.gallery** OOXML 中的元素。
+对应于**docPartPr.category.gallery** OOXML 中的元素。
 
-### 例子
+## 例子
 
 演示如何将自定义构建块添加到文档中。
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [BuildingBlock](../)
-* 命名空间 [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* 命名空间 [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../../)
-
-

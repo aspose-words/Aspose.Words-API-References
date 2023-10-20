@@ -1,7 +1,9 @@
 ---
 title: TableStyle.ColumnStripe
-second_title: Referencia de API de Aspose.Words para .NET
-description: TableStyle propiedad. Obtiene o establece un número de columnas para incluir en las bandas cuando el estilo especifica bandas de columnas pares/impares.
+linktitle: ColumnStripe
+articleTitle: ColumnStripe
+second_title: Aspose.Words para .NET
+description: TableStyle ColumnStripe propiedad. Obtiene o establece un número de columnas para incluir en las bandas cuando el estilo especifica bandas de columnas pares/impares en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words/tablestyle/columnstripe/
@@ -14,7 +16,7 @@ Obtiene o establece un número de columnas para incluir en las bandas cuando el 
 public int ColumnStripe { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear estilos de tabla condicionales que alternan entre filas.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");
 ### Ver también
 
 * class [TableStyle](../)
-* espacio de nombres [Aspose.Words](../../tablestyle/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Row.IsFirstRow
-second_title: Aspose.Words für .NET-API-Referenz
-description: Row eigendom. True wenn dies die erste Zeile in einer Tabelle ist sonst falsch.
+linktitle: IsFirstRow
+articleTitle: IsFirstRow
+second_title: Aspose.Words für .NET
+description: Row IsFirstRow eigendom. True wenn dies die erste Zeile in einer Tabelle ist sonst falsch in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.tables/row/isfirstrow/
@@ -14,7 +16,7 @@ True, wenn dies die erste Zeile in einer Tabelle ist; sonst falsch.
 public bool IsFirstRow { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jeder Tabelle in einem Dokument gedruckt wird.
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Siehe auch
 
 * class [Row](../)
-* namensraum [Aspose.Words.Tables](../../row/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

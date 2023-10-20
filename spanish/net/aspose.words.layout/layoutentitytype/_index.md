@@ -1,7 +1,9 @@
 ---
-title: Enum LayoutEntityType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Layout.LayoutEntityType enumeración. Tipos de entidades de diseño.
+title: LayoutEntityType Enum
+linktitle: LayoutEntityType
+articleTitle: LayoutEntityType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Layout.LayoutEntityType enumeración. Tipos de entidades de diseño en C#.
 type: docs
 weight: 3330
 url: /es/net/aspose.words.layout/layoutentitytype/
@@ -34,7 +36,7 @@ public enum LayoutEntityType
 | Comment | `1000` | Representa un marcador de posición para el contenido del comentario. El comentario puede tenerLine yRow entidades secundarias. |
 | NoteSeparator | `2000` | Representa el separador de notas al pie/notas finales. NoteSeparator puede tenerLine yRow entidades secundarias. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra formas de recorrer las entidades de diseño de un documento.
 
@@ -180,5 +182,3 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * espacio de nombres [Aspose.Words.Layout](../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../)
-
-

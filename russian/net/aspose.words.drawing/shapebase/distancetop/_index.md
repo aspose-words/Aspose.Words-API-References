@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.DistanceTop
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Возвращает или задает расстояние в пунктах между текстом документа и верхним краем фигуры.
+linktitle: DistanceTop
+articleTitle: DistanceTop
+second_title: Aspose.Words для .NET
+description: ShapeBase DistanceTop свойство. Возвращает или задает расстояние в пунктах между текстом документа и верхним краем фигуры на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.drawing/shapebase/distancetop/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/shapebase/distancetop/
 public double DistanceTop { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 0.
 
 Имеет эффект только для фигур верхнего уровня.
 
-### Примеры
+## Примеры
 
 Показывает, как установить расстояние переноса для текста, окружающего фигуру.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Shape.Coordinates.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

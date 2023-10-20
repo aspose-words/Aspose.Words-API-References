@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: GlossaryDocument mülk. Şunu döndürürGlossaryDocument değer.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: GlossaryDocument NodeType mülk. Şunu döndürürGlossaryDocument değer C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.buildingblocks/glossarydocument/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.buildingblocks/glossarydocument/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [GlossaryDocument](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Properties
-second_title: Aspose.Words لمراجع .NET API
-description: SmartTag ملكية. مجموعة من خصائص العلامة الذكية.
+linktitle: Properties
+articleTitle: Properties
+second_title: Aspose.Words لـ .NET
+description: SmartTag Properties ملكية. مجموعة من خصائص العلامة الذكية في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.markup/smarttag/properties/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.markup/smarttag/properties/
 public CustomXmlPropertyCollection Properties { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء العلامات الذكية.
 
@@ -120,7 +122,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [CustomXmlPropertyCollection](../../customxmlpropertycollection/)
 * class [SmartTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../smarttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

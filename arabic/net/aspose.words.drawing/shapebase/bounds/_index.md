@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Bounds
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على أو تعيين موقع وحجم الكتلة التي تحتوي على الشكل.
+linktitle: Bounds
+articleTitle: Bounds
+second_title: Aspose.Words لـ .NET
+description: ShapeBase Bounds ملكية. الحصول على أو تعيين موقع وحجم الكتلة التي تحتوي على الشكل في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing/shapebase/bounds/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/bounds/
 public RectangleF Bounds { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتجاهل قفل نسبة العرض إلى الارتفاع عند الإعداد.
 
@@ -22,7 +24,7 @@ public RectangleF Bounds { get; set; }
 
 بالنسبة للأشكال الموجودة في مجموعة، تكون القيمة في المساحة الإحداثية ووحدات المجموعة الأصلية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من الشكل الذي يحتوي على حدود الكتلة.
 
@@ -179,7 +181,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldSaveDate.UseUmAlQuraCalendar
-second_title: Aspose.Words för .NET API Referens
-description: FieldSaveDate fast egendom. Hämtar eller ställer in om UmalQurakalendern ska användas.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words för .NET
+description: FieldSaveDate UseUmAlQuraCalendar fast egendom. Hämtar eller ställer in om UmalQurakalendern ska användas i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldsavedate/useumalquracalendar/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om Um-al-Qura-kalendern ska användas.
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder fältet SAVEDATE för att visa datum/tid för dokumentets senaste lagringsoperation utförd med Microsoft Word.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### Se även
 
 * class [FieldSaveDate](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldsavedate/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

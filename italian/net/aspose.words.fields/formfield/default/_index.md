@@ -1,7 +1,9 @@
 ---
 title: FormField.Default
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Ottiene o imposta il valore predefinito del campo del modulo della casella di controllo. Il valore predefinito per questa proprietà èfalso .
+linktitle: Default
+articleTitle: Default
+second_title: Aspose.Words per .NET
+description: FormField Default proprietà. Ottiene o imposta il valore predefinito del campo del modulo della casella di controllo. Il valore predefinito per questa proprietà èfalso  in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/formfield/default/
@@ -14,11 +16,11 @@ Ottiene o imposta il valore predefinito del campo del modulo della casella di co
 public bool Default { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Applicabile solo per un campo modulo con casella di controllo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

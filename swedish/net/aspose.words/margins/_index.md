@@ -1,7 +1,9 @@
 ---
-title: Enum Margins
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Margins uppräkning. Anger förinställda marginaler.
+title: Margins Enum
+linktitle: Margins
+articleTitle: Margins
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Margins uppräkning. Anger förinställda marginaler i C#.
 type: docs
 weight: 3890
 url: /sv/net/aspose.words/margins/
@@ -29,5 +31,3 @@ public enum Margins
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

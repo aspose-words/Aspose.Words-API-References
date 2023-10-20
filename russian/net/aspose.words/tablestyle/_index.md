@@ -1,7 +1,9 @@
 ---
-title: Class TableStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.TableStyle сорт. Представляет стиль таблицы.
+title: TableStyle Class
+linktitle: TableStyle
+articleTitle: TableStyle
+second_title: Aspose.Words для .NET
+description: Aspose.Words.TableStyle сорт. Представляет стиль таблицы на С#.
 type: docs
 weight: 6220
 url: /ru/net/aspose.words/tablestyle/
@@ -41,7 +43,6 @@ public class TableStyle : Style
 | [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Получает имя[`Style`](../style/) связан с этим. Возвращает пустую строку, если стили не связаны. |
 | [List](../../aspose.words/style/list/) { get; } | Получает список, определяющий форматирование этого стиля списка. |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | Предоставляет доступ к свойствам форматирования списка стиля абзаца. |
-| [Locked](../../aspose.words/style/locked/) { get; set; } |  |
 | [Name](../../aspose.words/style/name/) { get; set; } | Получает или задает имя стиля. |
 | [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Получает/устанавливает имя стиля, который будет автоматически применяться к новому абзацу, вставленному после абзаца a , отформатированного с использованием указанного стиля. |
 | [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Получает форматирование абзаца стиля. |
@@ -58,10 +59,10 @@ public class TableStyle : Style
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals/)(Style) | Сравнивает с указанным стилем. Istd стилей сравниваются только для встроенных стилей. Стили по умолчанию не включаются в сравнение. Базовый стиль, связанный стиль и стиль следующего абзаца рекурсивно сравниваются. |
+| [Equals](../../aspose.words/style/equals/)(*[Style](../style/)*) | Сравнивает с указанным стилем. Istd стилей сравниваются только для встроенных стилей. Стили по умолчанию не включаются в сравнение. Базовый стиль, связанный стиль и стиль следующего абзаца рекурсивно сравниваются. |
 | [Remove](../../aspose.words/style/remove/)() | Удаляет указанный стиль из документа. |
 
-### Примеры
+## Примеры
 
 Показывает, как создать пользовательские настройки стиля для таблицы.
 
@@ -107,5 +108,3 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 * class [Style](../style/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.SymbolRotation
-second_title: Aspose.Words för .NET API Referens
-description: FieldDisplayBarcode fast egendom. Hämtar eller ställer in streckkodssymbolens rotation. Giltiga värden är 0 3
+linktitle: SymbolRotation
+articleTitle: SymbolRotation
+second_title: Aspose.Words för .NET
+description: FieldDisplayBarcode SymbolRotation fast egendom. Hämtar eller ställer in streckkodssymbolens rotation. Giltiga värden är 0 3 i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.fields/fielddisplaybarcode/symbolrotation/
@@ -14,7 +16,7 @@ Hämtar eller ställer in streckkodssymbolens rotation. Giltiga värden är [0, 
 public string SymbolRotation { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett DISPLAYBARCODE-fält och ställer in dess egenskaper.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Se även
 
 * class [FieldDisplayBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

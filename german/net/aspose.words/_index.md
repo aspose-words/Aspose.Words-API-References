@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words
-second_title: Aspose.Words für .NET-API-Referenz
-description: Der Aspose.Words Der Namespace bietet Klassen zum Generieren Konvertieren Ändern Rendern und Drucken von Microsoft WordDokumenten ohne Verwendung von Microsoft Word.
+linktitle: Aspose.Words
+articleTitle: Aspose.Words
+second_title: Aspose.Words für .NET
+description: DerAspose.Words Der Namespace bietet Klassen zum Generieren Konvertieren Ändern Rendern und Drucken von Microsoft WordDokumenten ohne Verwendung von Microsoft Word in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/
 ---
-Der **Aspose.Words** Der Namespace bietet Klassen zum Generieren, Konvertieren, Ändern, Rendern und Drucken von Microsoft Word-Dokumenten ohne Verwendung von Microsoft Word.
+Der**Aspose.Words** Der Namespace bietet Klassen zum Generieren, Konvertieren, Ändern, Rendern und Drucken von Microsoft Word-Dokumenten ohne Verwendung von Microsoft Word.
 
 ## Klassen
 
@@ -82,7 +84,7 @@ Der **Aspose.Words** Der Namespace bietet Klassen zum Generieren, Konvertieren, 
 | [Story](./story/) | Basisklasse für Elemente, die Knoten auf Blockebene enthalten[`Paragraph`](../aspose.words/paragraph/) Und[`Table`](../aspose.words.tables/table/) . |
 | [Style](./style/) | Stellt einen einzelnen integrierten oder benutzerdefinierten Stil dar. |
 | [StyleCollection](./stylecollection/) | Eine Sammlung von[`Style`](../aspose.words/style/) Objekte, die sowohl die integrierten als auch die benutzerdefinierten Stile in einem Dokument darstellen. |
-| [SubDocument](./subdocument/) | Stellt a dar **Unterdokument** - was ein Verweis auf ein extern gespeichertes Dokument ist. |
+| [SubDocument](./subdocument/) | Stellt a dar**Unterdokument** - was ein Verweis auf ein extern gespeichertes Dokument ist. |
 | [TableStyle](./tablestyle/) | Stellt einen Tabellenstil dar. |
 | [TabStop](./tabstop/) | Stellt einen einzelnen benutzerdefinierten Tabstopp dar. Der[`TabStop`](../aspose.words/tabstop/)Objekt ist Mitglied von the [`TabStopCollection`](../aspose.words/tabstopcollection/) Sammlung. |
 | [TabStopCollection](./tabstopcollection/) | Eine Sammlung von[`TabStop`](../aspose.words/tabstop/) Objekte, die benutzerdefinierte Tabulatoren für einen Absatz oder einen Stil darstellen. |
@@ -159,5 +161,3 @@ Der **Aspose.Words** Der Namespace bietet Klassen zum Generieren, Konvertieren, 
 | [WarningType](./warningtype/) | Gibt den Typ einer Warnung an, die von Aspose.Words beim Laden oder Speichern von Dokumenten ausgegeben wird. |
 | [WatermarkLayout](./watermarklayout/) | Definiert das Layout des Wasserzeichens relativ zur Wasserzeichenmitte. |
 | [WatermarkType](./watermarktype/) | Gibt den Wasserzeichentyp an. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: Node.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: Node طريقة. يزيل نفسه من الأصل.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: Node Remove طريقة. يزيل نفسه من الأصل في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words/node/remove/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/node/remove/
 public void Remove()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حذف جميع الأشكال التي تحتوي على صور من مستند.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 ### أنظر أيضا
 
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

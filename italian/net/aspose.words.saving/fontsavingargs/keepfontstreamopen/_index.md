@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.KeepFontStreamOpen
-second_title: Aspose.Words per .NET API Reference
-description: FontSavingArgs proprietà. Specifica se Aspose.Words deve mantenere aperto lo stream o chiuderlo dopo aver salvato un font.
+linktitle: KeepFontStreamOpen
+articleTitle: KeepFontStreamOpen
+second_title: Aspose.Words per .NET
+description: FontSavingArgs KeepFontStreamOpen proprietà. Specifica se Aspose.Words deve mantenere aperto lo stream o chiuderlo dopo aver salvato un font in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.saving/fontsavingargs/keepfontstreamopen/
@@ -14,11 +16,11 @@ Specifica se Aspose.Words deve mantenere aperto lo stream o chiuderlo dopo aver 
 public bool KeepFontStreamOpen { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'impostazione predefinita è`falso` e Aspose.Words chiuderà lo stream che hai fornito nel file[`FontStream`](../fontstream/) proprietà dopo aver scritto un carattere al suo interno. Specificare`VERO` per mantenere aperto il flusso.
 
-### Esempi
+## Esempi
 
 Mostra come definire la logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Guarda anche
 
 * class [FontSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../fontsavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

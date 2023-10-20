@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportFormFields
-second_title: Aspose.Words for .NET API 参考
-description: HtmlFixedSaveOptions 财产. 获取或设置表单字段是否导出为交互 项目作为输入标记而不是转换为文本或图形的指示
+linktitle: ExportFormFields
+articleTitle: ExportFormFields
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlFixedSaveOptions ExportFormFields 财产. 获取或设置表单字段是否导出为交互 项目作为输入标记而不是转换为文本或图形的指示 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
 public bool ExportFormFields { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将表单字段导出到 Html。
 
@@ -56,7 +58,5 @@ else
 ### 也可以看看
 
 * class [HtmlFixedSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Comment.StoryType
-second_title: Aspose.Words för .NET API Referens
-description: Comment fast egendom. ReturnerarComments .
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words för .NET
+description: Comment StoryType fast egendom. ReturnerarComments  i C#.
 type: docs
-weight: 110
+weight: 100
 url: /sv/net/aspose.words/comment/storytype/
 ---
 ## Comment.StoryType property
@@ -14,7 +16,7 @@ ReturnerarComments .
 public override StoryType StoryType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar InlineStory-noder.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../storytype/)
 * class [Comment](../)
-* namnutrymme [Aspose.Words](../../comment/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

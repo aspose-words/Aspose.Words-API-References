@@ -1,7 +1,9 @@
 ---
-title: Class XmlDataLoadOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Reporting.XmlDataLoadOptions klas. Stellt Optionen für das Laden von XMLDaten dar.
+title: XmlDataLoadOptions Class
+linktitle: XmlDataLoadOptions
+articleTitle: XmlDataLoadOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Reporting.XmlDataLoadOptions klas. Stellt Optionen für das Laden von XMLDaten dar in C#.
 type: docs
 weight: 4740
 url: /de/net/aspose.words.reporting/xmldataloadoptions/
@@ -28,7 +30,7 @@ public class XmlDataLoadOptions
 | --- | --- |
 | [AlwaysGenerateRootObject](../../aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject/) { get; set; } | Ruft ein Flag ab oder legt es fest, das angibt, ob eine generierte Datenquelle immer ein Objekt für ein XML-Stammelement enthält. Wenn ein XML-Stammelement keine Attribute hat und alle seine untergeordneten Elemente denselben Namen haben, wird ein solches Objekt standardmäßig nicht erstellt. |
 
-### Bemerkungen
+## Bemerkungen
 
 Eine Instanz dieser Klasse kann an Konstruktoren von übergeben werden[`XmlDataSource`](../xmldatasource/) .
 
@@ -36,5 +38,3 @@ Eine Instanz dieser Klasse kann an Konstruktoren von übergeben werden[`XmlDataS
 
 * namensraum [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../)
-
-

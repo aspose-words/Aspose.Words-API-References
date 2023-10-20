@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.Groups
-second_title: Aspose.Words for .NET API 参考
-description: RevisionCollection 财产. 修订组集合
+linktitle: Groups
+articleTitle: Groups
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionCollection Groups 财产. 修订组集合 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/revisioncollection/groups/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/revisioncollection/groups/
 public RevisionGroupCollection Groups { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档的修订集合。
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [RevisionGroupCollection](../../revisiongroupcollection/)
 * class [RevisionCollection](../)
-* 命名空间 [Aspose.Words](../../revisioncollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

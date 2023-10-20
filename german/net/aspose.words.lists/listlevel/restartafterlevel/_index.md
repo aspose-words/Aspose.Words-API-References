@@ -1,7 +1,9 @@
 ---
 title: ListLevel.RestartAfterLevel
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel eigendom. Legt die Listenebene fest die angezeigt werden muss bevor die angegebene Listenebene die Nummerierung neu startet oder gibt sie zurück.
+linktitle: RestartAfterLevel
+articleTitle: RestartAfterLevel
+second_title: Aspose.Words für .NET
+description: ListLevel RestartAfterLevel eigendom. Legt die Listenebene fest die angezeigt werden muss bevor die angegebene Listenebene die Nummerierung neu startet oder gibt sie zurück in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.lists/listlevel/restartafterlevel/
@@ -14,11 +16,11 @@ Legt die Listenebene fest, die angezeigt werden muss, bevor die angegebene Liste
 public int RestartAfterLevel { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Wert -1 bedeutet, dass die Nummerierung fortgesetzt wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt erweiterte Möglichkeiten zum Anpassen von Listenbeschriftungen.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### Siehe auch
 
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

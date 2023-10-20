@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EmbedAttachments
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 获取或设置一个值确定是否将附件嵌入到 PDF 文档中
+linktitle: EmbedAttachments
+articleTitle: EmbedAttachments
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions EmbedAttachments 财产. 获取或设置一个值确定是否将附件嵌入到 PDF 文档中 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.saving/pdfsaveoptions/embedattachments/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/embedattachments/
 public bool EmbedAttachments { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`并且附件未嵌入。
 
@@ -24,7 +26,7 @@ public bool EmbedAttachments { get; set; }
 
 启用加密时不支持嵌入附件。`错误的` value 将被自动使用。
 
-### 例子
+## 例子
 
 演示如何将嵌入附件添加到 PDF 文档。
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfEmbedAttachments.pdf", options);
 ### 也可以看看
 
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

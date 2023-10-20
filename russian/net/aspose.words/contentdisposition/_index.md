@@ -1,7 +1,9 @@
 ---
-title: Enum ContentDisposition
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.ContentDisposition перечисление. Перечисляет различные способы представления документа в клиентском браузере.
+title: ContentDisposition Enum
+linktitle: ContentDisposition
+articleTitle: ContentDisposition
+second_title: Aspose.Words для .NET
+description: Aspose.Words.ContentDisposition перечисление. Перечисляет различные способы представления документа в клиентском браузере на С#.
 type: docs
 weight: 340
 url: /ru/net/aspose.words/contentdisposition/
@@ -21,11 +23,11 @@ public enum ContentDisposition
 | Attachment | `0` | Отправьте документ в браузер и предоставьте возможность сохранить документ на диск или открыть в приложении , связанном с расширением документа. |
 | Inline | `1` | Отправляет документ в браузер и предоставляет возможность сохранить документ на диск или открыть в браузере. |
 
-### Примечания
+## Примечания
 
 Обратите внимание, что на фактическое поведение клиентского браузера может влиять конфигурация безопасности браузера.
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты, а затем сохранить документ в клиентском браузере.
 
@@ -56,5 +58,3 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

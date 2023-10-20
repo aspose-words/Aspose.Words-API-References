@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.LastChild
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompositeNode propriété. Obtient le dernier enfant du nœud.
+linktitle: LastChild
+articleTitle: LastChild
+second_title: Aspose.Words pour .NET
+description: CompositeNode LastChild propriété. Obtient le dernier enfant du nœud en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/compositenode/lastchild/
@@ -14,11 +16,11 @@ Obtient le dernier enfant du nœud.
 public Node LastChild { get; }
 ```
 
-### Remarques
+## Remarques
 
 S'il n'y a pas de dernier nœud enfant, un`nul` est renvoyé.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les méthodes Node et CompositeNode pour supprimer une section avant la dernière section du document.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* espace de noms [Aspose.Words](../../compositenode/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

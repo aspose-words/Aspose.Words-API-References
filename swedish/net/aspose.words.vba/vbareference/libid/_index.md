@@ -1,7 +1,9 @@
 ---
 title: VbaReference.LibId
-second_title: Aspose.Words för .NET API Referens
-description: VbaReference fast egendom. Hämtar ett strängvärde som innehåller identifieraren för ett bibliotek av automationstyp.
+linktitle: LibId
+articleTitle: LibId
+second_title: Aspose.Words för .NET
+description: VbaReference LibId fast egendom. Hämtar ett strängvärde som innehåller identifieraren för ett bibliotek av automationstyp i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.vba/vbareference/libid/
@@ -14,14 +16,14 @@ Hämtar ett strängvärde som innehåller identifieraren för ett bibliotek av a
 public abstract string LibId { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Beroende på referenstyp kan värdet på den här egenskapen vara:
 
 * en LibidReference specificerad i 2.1.1.8 LibidReference av [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e6a58ddf
 * en ProjectReference specificerad i 2.1.1.12 ProjectReference av [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537311aa8
 
-### Exempel
+## Exempel
 
 Visar hur man hämtar/tar bort ett element från VBA-referenssamlingen.
 
@@ -95,7 +97,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 ### Se även
 
 * class [VbaReference](../)
-* namnutrymme [Aspose.Words.Vba](../../vbareference/)
+* namnutrymme [Aspose.Words.Vba](../../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTickLabelPosition
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition Sıralama. Onay etiketleri için olası konumları belirtir.
+title: AxisTickLabelPosition Enum
+linktitle: AxisTickLabelPosition
+articleTitle: AxisTickLabelPosition
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition Sıralama. Onay etiketleri için olası konumları belirtir C#'da.
 type: docs
 weight: 580
 url: /tr/net/aspose.words.drawing.charts/axisticklabelposition/
@@ -24,7 +26,7 @@ public enum AxisTickLabelPosition
 | None | `3` | Eksen etiketlerinin çizilmeyeceğini belirtir. |
 | Default | `2` | Onay etiketleri konumunun varsayılan değerini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Tarih/saat değerleriyle grafiğin nasıl ekleneceğini gösterir.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

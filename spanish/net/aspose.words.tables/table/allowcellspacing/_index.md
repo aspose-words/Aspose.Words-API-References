@@ -1,7 +1,9 @@
 ---
 title: Table.AllowCellSpacing
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. Obtiene o establece la opción Permitir espacio entre celdas.
+linktitle: AllowCellSpacing
+articleTitle: AllowCellSpacing
+second_title: Aspose.Words para .NET
+description: Table AllowCellSpacing propiedad. Obtiene o establece la opción Permitir espacio entre celdas en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.tables/table/allowcellspacing/
@@ -14,7 +16,7 @@ Obtiene o establece la opción "Permitir espacio entre celdas".
 public bool AllowCellSpacing { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo habilitar el espacio entre celdas individuales en una tabla.
 
@@ -53,7 +55,5 @@ Assert.True(table.AllowCellSpacing);
 ### Ver también
 
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

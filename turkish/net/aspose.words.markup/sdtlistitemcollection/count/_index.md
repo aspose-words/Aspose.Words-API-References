@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: SdtListItemCollection mülk. Koleksiyondaki öğelerin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: SdtListItemCollection Count mülk. Koleksiyondaki öğelerin sayısını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.markup/sdtlistitemcollection/count/
@@ -14,7 +16,7 @@ Koleksiyondaki öğelerin sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Açılır liste yapılandırılmış belge etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Ayrıca bakınız
 
 * class [SdtListItemCollection](../)
-* ad alanı [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

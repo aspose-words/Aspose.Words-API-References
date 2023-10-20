@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateOutlinesForHeadingsInTables
-second_title: Aspose.Words for .NET API 参考
-description: OutlineOptions 财产. 指定是否为表格内的标题使用标题样式格式化的段落创建轮廓
+linktitle: CreateOutlinesForHeadingsInTables
+articleTitle: CreateOutlinesForHeadingsInTables
+second_title: 用于 .NET 的 Aspose.Words
+description: OutlineOptions CreateOutlinesForHeadingsInTables 财产. 指定是否为表格内的标题使用标题样式格式化的段落创建轮廓 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/outlineoptions/createoutlinesforheadingsintables/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/outlineoptions/createoutlinesforheadingsintable
 public bool CreateOutlinesForHeadingsInTables { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`。
 
-### 例子
+## 例子
 
 展示如何为表格内的标题创建 PDF 文档大纲条目。
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TableHeadingOutlines.pdf", pdfSaveOption
 ### 也可以看看
 
 * class [OutlineOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../outlineoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

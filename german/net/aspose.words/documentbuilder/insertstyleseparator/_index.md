@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertStyleSeparator
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt Stiltrennzeichen in das Dokument ein.
+linktitle: InsertStyleSeparator
+articleTitle: InsertStyleSeparator
+second_title: Aspose.Words für .NET
+description: DocumentBuilder InsertStyleSeparator methode. Fügt Stiltrennzeichen in das Dokument ein in C#.
 type: docs
-weight: 460
+weight: 450
 url: /de/net/aspose.words/documentbuilder/insertstyleseparator/
 ---
 ## DocumentBuilder.InsertStyleSeparator method
@@ -14,11 +16,11 @@ Fügt Stiltrennzeichen in das Dokument ein.
 public void InsertStyleSeparator()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Mit dieser Methode können Sie unterschiedliche Absatzstile auf zwei verschiedene Teile einer Textzeile anwenden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Stiltrennzeichen gearbeitet wird.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertStyleSeparator.docx");
 ### Siehe auch
 
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

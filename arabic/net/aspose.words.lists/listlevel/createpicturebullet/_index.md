@@ -1,7 +1,9 @@
 ---
 title: ListLevel.CreatePictureBullet
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevel طريقة. إنشاء شكل نقطي للصورة لمستوى القائمة الحالي.
+linktitle: CreatePictureBullet
+articleTitle: CreatePictureBullet
+second_title: Aspose.Words لـ .NET
+description: ListLevel CreatePictureBullet طريقة. إنشاء شكل نقطي للصورة لمستوى القائمة الحالي في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.lists/listlevel/createpicturebullet/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/listlevel/createpicturebullet/
 public void CreatePictureBullet()
 ```
 
-### ملاحظات
+## ملاحظات
 
 يرجى الملاحظة،[`NumberStyle`](../numberstyle/) سيتم تعيين لBullet و [`NumberFormat`](../numberformat/) إلى "\xF0B7" لعرض الصورة بشكل صحيح. سيتم تعيين صورة الصليب الأحمر كصورة نقطية عند الإنشاء. لتغييرها، يرجى استخدام[`ImageData`](../imagedata/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين رمز صورة مخصص لتسميات عناصر القائمة.
 
@@ -50,7 +52,5 @@ Assert.IsNull(list.ListLevels[0].ImageData);
 ### أنظر أيضا
 
 * class [ListLevel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

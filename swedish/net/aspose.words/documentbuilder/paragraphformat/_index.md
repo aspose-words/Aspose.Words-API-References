@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.ParagraphFormat
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Returnerar ett objekt som representerar aktuella styckeformateringsegenskaper.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words för .NET
+description: DocumentBuilder ParagraphFormat fast egendom. Returnerar ett objekt som representerar aktuella styckeformateringsegenskaper i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words/documentbuilder/paragraphformat/
@@ -14,7 +16,7 @@ Returnerar ett objekt som representerar aktuella styckeformateringsegenskaper.
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en formaterad tabell med DocumentBuilder.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Settings
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings ad alanı bir belgede saklanan çeşitli ayarları ve seçenekleri belirtirken kullanılan sınıfları ve enums yi içerir. Bunlar adresmektup birleştirme yazma koruması uyumluluk ve diğer ayarlardır.
+linktitle: Aspose.Words.Settings
+articleTitle: Aspose.Words.Settings
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings ad alanı bir belgede saklanan çeşitli ayarları ve seçenekleri belirtirken kullanılan sınıfları ve enums yi içerir. Bunlar adresmektup birleştirme yazma koruması uyumluluk ve diğer ayarlardır C#'da.
 type: docs
 weight: 240
 url: /tr/net/aspose.words.settings/
@@ -12,7 +14,7 @@ url: /tr/net/aspose.words.settings/
 
 | Sınıf | Tanım |
 | --- | --- |
-| [CompatibilityOptions](./compatibilityoptions/) | Uyumluluk seçeneklerini (yani, **Uyumluluk** sekmesi **Seçenekler** Microsoft Word'deki iletişim kutusu). |
+| [CompatibilityOptions](./compatibilityoptions/) | Uyumluluk seçeneklerini (yani,**Uyumluluk** sekmesi**Seçenekler** Microsoft Word'deki iletişim kutusu). |
 | [HyphenationOptions](./hyphenationoptions/) | Belge tireleme seçeneklerini yapılandırmaya izin verir. |
 | [MailMergeSettings](./mailmergesettings/) | Bir belgeye ilişkin tüm adres-mektup birleştirme bilgilerini belirtir. |
 | [Odso](./odso/) | Adres-mektup birleştirme veri kaynağı için Office Veri Kaynağı Nesnesi (ODSO) ayarlarını belirtir. |
@@ -38,5 +40,3 @@ url: /tr/net/aspose.words.settings/
 | [OdsoFieldMappingType](./odsofieldmappingtype/) | Belirli bir adres-mektup birleştirme alanının, belirtilen dış veri kaynağındaki bir sütunla eşlenip eşlenmediğini belirtmek için kullanılan olası türleri belirtir. |
 | [ViewType](./viewtype/) | Microsoft Word'deki görüntüleme modu için olası değerler. |
 | [ZoomType](./zoomtype/) | Microsoft Word'de belgenin ekranda ne kadar büyük veya küçük görüneceğine ilişkin olası değerler. |
-
-

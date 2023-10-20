@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.Auto
-second_title: Aspose.Words för .NET API Referens
-description: PreferredWidth fält. Returnerar en instans som representerar värdet föredragen bredd är inte angiven.
+linktitle: Auto
+articleTitle: Auto
+second_title: Aspose.Words för .NET
+description: PreferredWidth Auto fält. Returnerar en instans som representerar värdet föredragen bredd är inte angiven i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.tables/preferredwidth/auto/
@@ -14,7 +16,7 @@ Returnerar en instans som representerar värdet "föredragen bredd är inte angi
 public static readonly PreferredWidth Auto;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in en föredragen bredd för tabellceller.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Se även
 
 * class [PreferredWidth](../)
-* namnutrymme [Aspose.Words.Tables](../../preferredwidth/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

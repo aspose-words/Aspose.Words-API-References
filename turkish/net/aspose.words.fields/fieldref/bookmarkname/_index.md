@@ -1,7 +1,9 @@
 ---
 title: FieldRef.BookmarkName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldRef mülk. Başvurulan yer iminin adını alır veya ayarlar.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words for .NET
+description: FieldRef BookmarkName mülk. Başvurulan yer iminin adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldref/bookmarkname/
@@ -14,7 +16,7 @@ Başvurulan yer iminin adını alır veya ayarlar.
 public string BookmarkName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 SET alanıyla yer imli metnin nasıl oluşturulacağını ve ardından REF alanını kullanarak belgede nasıl görüntüleneceğini gösterir.
 
@@ -130,7 +132,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Ayrıca bakınız
 
 * class [FieldRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

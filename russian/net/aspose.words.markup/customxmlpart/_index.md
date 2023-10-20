@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPart
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.CustomXmlPart сорт. Представляет пользовательскую часть хранилища данных XML пользовательские данные XML в пакете.
+title: CustomXmlPart Class
+linktitle: CustomXmlPart
+articleTitle: CustomXmlPart
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Markup.CustomXmlPart сорт. Представляет пользовательскую часть хранилища данных XML пользовательские данные XML в пакете на С#.
 type: docs
 weight: 3920
 url: /ru/net/aspose.words.markup/customxmlpart/
@@ -37,11 +39,11 @@ public class CustomXmlPart
 | --- | --- |
 | [Clone](../../aspose.words.markup/customxmlpart/clone/)() | Делает «достаточно глубокую» копию объекта. Не дублирует байты[`Data`](./data/) значение. |
 
-### Примечания
+## Примечания
 
 Документ DOCX или DOC может содержать одну или несколько частей пользовательского хранилища данных XML. Aspose.Words сохраняет, а позволяет создавать и извлекать пользовательские XML-данные с помощью[`CustomXmlParts`](../../aspose.words/document/customxmlparts/) коллекция.
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа с пользовательскими данными XML.
 
@@ -109,5 +111,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * пространство имен [Aspose.Words.Markup](../../aspose.words.markup/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: ConditionalStyleCollection 财产. 获取集合中条件样式的数量
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: ConditionalStyleCollection Count 财产. 获取集合中条件样式的数量 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/conditionalstylecollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/conditionalstylecollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用表格的某些区域样式。
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### 也可以看看
 
 * class [ConditionalStyleCollection](../)
-* 命名空间 [Aspose.Words](../../conditionalstylecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

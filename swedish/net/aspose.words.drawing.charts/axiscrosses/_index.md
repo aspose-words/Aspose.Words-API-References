@@ -1,7 +1,9 @@
 ---
-title: Enum AxisCrosses
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.AxisCrosses uppräkning. Anger möjliga korsningspunkter för en axel.
+title: AxisCrosses Enum
+linktitle: AxisCrosses
+articleTitle: AxisCrosses
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.AxisCrosses uppräkning. Anger möjliga korsningspunkter för en axel i C#.
 type: docs
 weight: 540
 url: /sv/net/aspose.words.drawing.charts/axiscrosses/
@@ -23,7 +25,7 @@ public enum AxisCrosses
 | Minimum | `2` | En vinkelrät axel korsar vid axelns minimivärde. |
 | Custom | `3` | En vinkelrät axel korsar vid det angivna värdet på axeln. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett diagram och ändrar utseendet på dess axlar.
 
@@ -77,5 +79,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

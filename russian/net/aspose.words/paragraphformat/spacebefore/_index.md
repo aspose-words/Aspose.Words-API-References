@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceBefore
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает величину интервала в пунктах перед абзацем.
+linktitle: SpaceBefore
+articleTitle: SpaceBefore
+second_title: Aspose.Words для .NET
+description: ParagraphFormat SpaceBefore свойство. Получает или задает величину интервала в пунктах перед абзацем на С#.
 type: docs
 weight: 320
 url: /ru/net/aspose.words/paragraphformat/spacebefore/
@@ -20,13 +22,13 @@ public double SpaceBefore { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Выдает, когда аргумент выходит за пределы допустимого диапазона значений. |
 
-### Примечания
+## Примечания
 
 Не имеет эффекта, когда[`SpaceBeforeAuto`](../spacebeforeauto/) является`истинный`.
 
 Допустимые значения находятся в диапазоне от 0 до 1584 включительно.
 
-### Примеры
+## Примеры
 
 Показывает, как установить автоматический интервал между абзацами.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

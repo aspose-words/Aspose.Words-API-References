@@ -1,7 +1,9 @@
 ---
 title: OlePackage.DisplayName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OlePackage propriété. Obtient ou définit le nom daffichage du package OLE.
+linktitle: DisplayName
+articleTitle: DisplayName
+second_title: Aspose.Words pour .NET
+description: OlePackage DisplayName propriété. Obtient ou définit le nom daffichage du package OLE en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing/olepackage/displayname/
@@ -14,7 +16,7 @@ Obtient ou définit le nom d'affichage du package OLE.
 public string DisplayName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un objet OLE dans un document.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 ### Voir également
 
 * class [OlePackage](../)
-* espace de noms [Aspose.Words.Drawing](../../olepackage/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

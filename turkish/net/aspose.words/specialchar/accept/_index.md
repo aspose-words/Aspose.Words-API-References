@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: SpecialChar yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: SpecialChar Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/specialchar/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 `YANLIŞ` ziyaretçi numaralandırmanın durdurulmasını talep ederse.
 
-### Notlar
+## Notlar
 
 Aramalar[`VisitSpecialChar`](../../documentvisitor/visitspecialchar/).
 
@@ -32,7 +34,5 @@ Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [SpecialChar](../)
-* ad alanı [Aspose.Words](../../specialchar/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

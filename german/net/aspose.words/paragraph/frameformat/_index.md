@@ -1,7 +1,9 @@
 ---
 title: Paragraph.FrameFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. Bietet Zugriff auf die FrameFormatierungseigenschaften.
+linktitle: FrameFormat
+articleTitle: FrameFormat
+second_title: Aspose.Words für .NET
+description: Paragraph FrameFormat eigendom. Bietet Zugriff auf die FrameFormatierungseigenschaften in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/paragraph/frameformat/
@@ -14,7 +16,7 @@ Bietet Zugriff auf die Frame-Formatierungseigenschaften.
 public FrameFormat FrameFormat { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * class [FrameFormat](../../frameformat/)
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

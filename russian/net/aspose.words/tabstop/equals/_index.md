@@ -1,7 +1,9 @@
 ---
 title: TabStop.Equals
-second_title: Справочник по API Aspose.Words для .NET
-description: TabStop метод. Сравнивает с указаннымTabStop .
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words для .NET
+description: TabStop Equals метод. Сравнивает с указаннымTabStop  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/tabstop/equals/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/tabstop/equals/
 public bool Equals(TabStop rhs)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией табуляции документа.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Смотрите также
 
 * class [TabStop](../)
-* пространство имен [Aspose.Words](../../tabstop/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

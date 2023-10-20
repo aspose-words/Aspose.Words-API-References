@@ -1,7 +1,9 @@
 ---
-title: RtfLoadOptions.RtfLoadOptions
-second_title: Aspose.Words لمراجع .NET API
-description: RtfLoadOptions البناء. تهيئة مثيل جديد لهذه الفئة بالقيم الافتراضية.
+title: RtfLoadOptions
+linktitle: RtfLoadOptions
+articleTitle: RtfLoadOptions
+second_title: Aspose.Words لـ .NET
+description: RtfLoadOptions البناء. تهيئة مثيل جديد لهذه الفئة بالقيم الافتراضية في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.loading/rtfloadoptions/rtfloadoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/rtfloadoptions/rtfloadoptions/
 public RtfLoadOptions()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اكتشاف أحرف UTF-8 أثناء تحميل مستند RTF.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(
 ### أنظر أيضا
 
 * class [RtfLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../rtfloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

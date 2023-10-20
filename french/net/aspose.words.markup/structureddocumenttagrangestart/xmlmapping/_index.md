@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.XmlMapping
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart propriété. Obtient un objet qui représente le mappage de cette plage de balises de document structuré vers XML data dans une partie XML personnalisée du document actuel.
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTagRangeStart XmlMapping propriété. Obtient un objet qui représente le mappage de cette plage de balises de document structuré vers XML data dans une partie XML personnalisée du document actuel en C#.
 type: docs
 weight: 180
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/
@@ -14,11 +16,11 @@ Obtient un objet qui représente le mappage de cette plage de balises de documen
 public XmlMapping XmlMapping { get; }
 ```
 
-### Remarques
+## Remarques
 
 Vous pouvez utiliser le[`SetMapping`](../../xmlmapping/setmapping/) méthode de l'objet this pour mapper une plage de balises de document structuré à des données XML.
 
-### Exemples
+## Exemples
 
 Montre comment définir des mappages XML pour le début de plage d’une balise de document structuré.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.StructuredDocumentTagRangeStartXm
 
 * class [XmlMapping](../../xmlmapping/)
 * class [StructuredDocumentTagRangeStart](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

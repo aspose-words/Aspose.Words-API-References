@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.LegendEntry
-second_title: Aspose.Words for .NET API 参考
-description: ChartSeries 财产. 获取此图表系列的图例条目
+linktitle: LegendEntry
+articleTitle: LegendEntry
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartSeries LegendEntry 财产. 获取此图表系列的图例条目 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.drawing.charts/chartseries/legendentry/
@@ -18,7 +20,5 @@ public ChartLegendEntry LegendEntry { get; }
 
 * class [ChartLegendEntry](../../chartlegendentry/)
 * class [ChartSeries](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseries/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

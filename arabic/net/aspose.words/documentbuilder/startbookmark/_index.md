@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartBookmark
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. يحدد الموضع الحالي في المستند كبداية إشارة مرجعية.
+linktitle: StartBookmark
+articleTitle: StartBookmark
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder StartBookmark طريقة. يحدد الموضع الحالي في المستند كبداية إشارة مرجعية في C#.
 type: docs
-weight: 620
+weight: 610
 url: /ar/net/aspose.words/documentbuilder/startbookmark/
 ---
 ## DocumentBuilder.StartBookmark method
@@ -22,13 +24,13 @@ public BookmarkStart StartBookmark(string bookmarkName)
 
 عقدة بداية الإشارة المرجعية التي تم إنشاؤها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكن أن تتداخل الإشارات المرجعية الموجودة في المستند وتمتد إلى أي نطاق. لإنشاء إشارة مرجعية صالحة تحتاج إلى استدعاء كليهما`StartBookmark` و[`EndBookmark`](../endbookmark/) مع نفس الشيء*bookmarkName* المعلمة.
 
 سيتم تجاهل الإشارات المرجعية التي تم تكوينها بشكل سيئ أو الإشارات المرجعية ذات الأسماء المكررة عند حفظ المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء إشارة مرجعية.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

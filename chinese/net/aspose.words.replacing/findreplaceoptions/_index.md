@@ -1,7 +1,9 @@
 ---
-title: Class FindReplaceOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Replacing.FindReplaceOptions 班级. 指定查找/替换操作的选项
+title: FindReplaceOptions Class
+linktitle: FindReplaceOptions
+articleTitle: FindReplaceOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Replacing.FindReplaceOptions 班级. 指定查找/替换操作的选项 在 C#.
 type: docs
 weight: 4620
 url: /zh/net/aspose.words.replacing/findreplaceoptions/
@@ -21,9 +23,9 @@ public class FindReplaceOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [FindReplaceOptions](findreplaceoptions/#constructor)() | 默认构造函数。 |
-| [FindReplaceOptions](findreplaceoptions/#constructor_1)(FindReplaceDirection) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_3)(IReplacingCallback) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_2)(FindReplaceDirection, IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_1)(*[FindReplaceDirection](../findreplacedirection/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_3)(*[IReplacingCallback](../ireplacingcallback/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_2)(*[FindReplaceDirection](../findreplacedirection/), [IReplacingCallback](../ireplacingcallback/)*) |  |
 
 ## 特性
 
@@ -47,7 +49,7 @@ public class FindReplaceOptions
 | [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | True 表示考虑文本框从上到下顺序执行文本搜索。 默认值为`错误的`. |
 | [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions/) { get; set; } | 获取或设置一个布尔值，指示是否在替换模式中识别和使用替换。 默认值为`错误的`. |
 
-### 例子
+## 例子
 
 演示如何在执行查找和替换操作时切换区分大小写。
 
@@ -96,5 +98,3 @@ Assert.AreEqual(
 
 * 命名空间 [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../)
-
-

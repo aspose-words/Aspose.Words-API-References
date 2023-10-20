@@ -1,7 +1,9 @@
 ---
 title: OlePackage.DisplayName
-second_title: Aspose.Words für .NET-API-Referenz
-description: OlePackage eigendom. Ruft den Anzeigenamen des OLEPakets ab oder legt diesen fest.
+linktitle: DisplayName
+articleTitle: DisplayName
+second_title: Aspose.Words für .NET
+description: OlePackage DisplayName eigendom. Ruft den Anzeigenamen des OLEPakets ab oder legt diesen fest in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/olepackage/displayname/
@@ -14,7 +16,7 @@ Ruft den Anzeigenamen des OLE-Pakets ab oder legt diesen fest.
 public string DisplayName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein OLE-Objekt in ein Dokument eingefügt wird.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 ### Siehe auch
 
 * class [OlePackage](../)
-* namensraum [Aspose.Words.Drawing](../../olepackage/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Footnote.StoryType
-second_title: Aspose.Words för .NET API Referens
-description: Footnote fast egendom. ReturnerarFootnotes ellerEndnotes .
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words för .NET
+description: Footnote StoryType fast egendom. ReturnerarFootnotes ellerEndnotes  i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.notes/footnote/storytype/
@@ -14,7 +16,7 @@ ReturnerarFootnotes ellerEndnotes .
 public override StoryType StoryType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar InlineStory-noder.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../../aspose.words/storytype/)
 * class [Footnote](../)
-* namnutrymme [Aspose.Words.Notes](../../footnote/)
+* namnutrymme [Aspose.Words.Notes](../../../aspose.words.notes/)
 * hopsättning [Aspose.Words](../../../)
-
-

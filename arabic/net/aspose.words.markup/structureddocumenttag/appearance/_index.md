@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Appearance
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. الحصول على/تعيين مظهر علامة المستند المنظمة.
+linktitle: Appearance
+articleTitle: Appearance
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag Appearance ملكية. الحصول على/تعيين مظهر علامة المستند المنظمة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.markup/structureddocumenttag/appearance/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttag/appearance/
 public SdtAppearance Appearance { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة في مربع نص عادي وتعديل مظهرها.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * enum [SdtAppearance](../../sdtappearance/)
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

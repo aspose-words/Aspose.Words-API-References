@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Smooth
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartSeries propriété. Permet de spécifier si la ligne reliant les points sur le graphique doit être lissée à laide des splines CatmullRom.
+linktitle: Smooth
+articleTitle: Smooth
+second_title: Aspose.Words pour .NET
+description: ChartSeries Smooth propriété. Permet de spécifier si la ligne reliant les points sur le graphique doit être lissée à laide des splines CatmullRom en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.drawing.charts/chartseries/smooth/
@@ -14,7 +16,7 @@ Permet de spécifier si la ligne reliant les points sur le graphique doit être 
 public bool Smooth { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser des points de données sur un graphique linéaire.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Voir également
 
 * class [ChartSeries](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartseries/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

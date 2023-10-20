@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: RevisionCollection 财产. 返回集合中的修订版本数
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionCollection Count 财产. 返回集合中的修订版本数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/revisioncollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/revisioncollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何处理文档中的修订。
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### 也可以看看
 
 * class [RevisionCollection](../)
-* 命名空间 [Aspose.Words](../../revisioncollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

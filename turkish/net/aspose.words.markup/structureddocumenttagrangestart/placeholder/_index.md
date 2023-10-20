@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Placeholder
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart mülk. AlırBuildingBlockbu yapılandırılmış belge etiketi çalıştırma içerikleri boş olduğunda görüntülenmesi gereken yer tutucu metni içerir ilgili eşlenen XML öğesi belirtilen aracılığıyla boşturXmlMapping eleman veyaIsShowingPlaceholderText elemandoğru .
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagRangeStart Placeholder mülk. AlırBuildingBlockbu yapılandırılmış belge etiketi çalıştırma içerikleri boş olduğunda görüntülenmesi gereken yer tutucu metni içerir ilgili eşlenen XML öğesi belirtilen aracılığıyla boşturXmlMapping eleman veyaIsShowingPlaceholderText elemandoğru  C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/placeholder/
@@ -14,7 +16,7 @@ Alır[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)bu ya
 public BuildingBlock Placeholder { get; }
 ```
 
-### Notlar
+## Notlar
 
 Olabilir`hükümsüz`, bu, yer tutucunun bu yapılandırılmış belge etiketi için geçerli olmadığı anlamına gelir.
 
@@ -22,7 +24,5 @@ Olabilir`hükümsüz`, bu, yer tutucunun bu yapılandırılmış belge etiketi i
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTagRangeStart](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

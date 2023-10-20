@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ViewMergedData
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Указывает что Microsoft Word должен отображать данные из указанного внешнего источника данных в который были вставлены поля слияния например предварительный просмотр объединенных данных. Значение по умолчаниюЛОЖЬ .
+linktitle: ViewMergedData
+articleTitle: ViewMergedData
+second_title: Aspose.Words для .NET
+description: MailMergeSettings ViewMergedData свойство. Указывает что Microsoft Word должен отображать данные из указанного внешнего источника данных в который были вставлены поля слияния например предварительный просмотр объединенных данных. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.settings/mailmergesettings/viewmergeddata/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/mailmergesettings/viewmergeddata/
 public bool ViewMergedData { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Смотрите также
 
 * class [MailMergeSettings](../)
-* пространство имен [Aspose.Words.Settings](../../mailmergesettings/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

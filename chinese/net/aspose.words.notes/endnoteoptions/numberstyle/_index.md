@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.NumberStyle
-second_title: Aspose.Words for .NET API 参考
-description: EndnoteOptions 财产. 指定自动编号尾注的编号格式
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: EndnoteOptions NumberStyle 财产. 指定自动编号尾注的编号格式 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.notes/endnoteoptions/numberstyle/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.notes/endnoteoptions/numberstyle/
 public NumberStyle NumberStyle { get; set; }
 ```
 
-### 评论
+## 评论
 
 并非所有数字样式都适用于该属性。有关适用的 数字样式的列表，请参阅 Microsoft Word 中的“插入脚注”或“尾注”对话框。如果您选择 不适用的数字样式，Microsoft Word 将恢复为默认值。
 
-### 例子
+## 例子
 
 演示如何更改脚注/尾注引用标记的编号样式。
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "InlineStory.RefMarkNumberStyle.docx");
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [EndnoteOptions](../)
-* 命名空间 [Aspose.Words.Notes](../../endnoteoptions/)
+* 命名空间 [Aspose.Words.Notes](../../../aspose.words.notes/)
 * 部件 [Aspose.Words](../../../)
-
-

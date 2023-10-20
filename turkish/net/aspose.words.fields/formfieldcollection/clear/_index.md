@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: FormFieldCollection yöntem. Tüm form alanlarını bu koleksiyondan ve belgeden kaldırır.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: FormFieldCollection Clear yöntem. Tüm form alanlarını bu koleksiyondan ve belgeden kaldırır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/formfieldcollection/clear/
@@ -14,7 +16,7 @@ Tüm form alanlarını bu koleksiyondan ve belgeden kaldırır.
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormFieldCollection](../)
-* ad alanı [Aspose.Words.Fields](../../formfieldcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

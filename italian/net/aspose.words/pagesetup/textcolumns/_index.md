@@ -1,7 +1,9 @@
 ---
 title: PageSetup.TextColumns
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Restituisce una raccolta che rappresenta linsieme di colonne di testo.
+linktitle: TextColumns
+articleTitle: TextColumns
+second_title: Aspose.Words per .NET
+description: PageSetup TextColumns proprietà. Restituisce una raccolta che rappresenta linsieme di colonne di testo in C#.
 type: docs
 weight: 420
 url: /it/net/aspose.words/pagesetup/textcolumns/
@@ -14,7 +16,7 @@ Restituisce una raccolta che rappresenta l'insieme di colonne di testo.
 public TextColumnCollection TextColumns { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare più colonne equidistanti in una sezione.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 
 * class [TextColumnCollection](../../textcolumncollection/)
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

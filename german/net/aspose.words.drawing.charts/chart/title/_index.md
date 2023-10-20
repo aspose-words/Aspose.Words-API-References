@@ -1,7 +1,9 @@
 ---
 title: Chart.Title
-second_title: Aspose.Words für .NET-API-Referenz
-description: Chart eigendom. Bietet Zugriff auf die Eigenschaften des Diagrammtitels.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words für .NET
+description: Chart Title eigendom. Bietet Zugriff auf die Eigenschaften des Diagrammtitels in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.drawing.charts/chart/title/
@@ -14,7 +16,7 @@ Bietet Zugriff auf die Eigenschaften des Diagrammtitels.
 public ChartTitle Title { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und einen Titel festlegt.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * class [ChartTitle](../../charttitle/)
 * class [Chart](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chart/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

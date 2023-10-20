@@ -1,7 +1,9 @@
 ---
-title: FieldLastSavedBy.FieldLastSavedBy
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldLastSavedBy строитель. Конструктор по умолчанию.
+title: FieldLastSavedBy
+linktitle: FieldLastSavedBy
+articleTitle: FieldLastSavedBy
+second_title: Aspose.Words для .NET
+description: FieldLastSavedBy строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldlastsavedby/fieldlastsavedby/
@@ -17,7 +19,5 @@ public FieldLastSavedBy()
 ### Смотрите также
 
 * class [FieldLastSavedBy](../)
-* пространство имен [Aspose.Words.Fields](../../fieldlastsavedby/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

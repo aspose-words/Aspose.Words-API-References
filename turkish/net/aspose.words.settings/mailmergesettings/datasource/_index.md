@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DataSource
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Adresmektup birleştirme veri kaynağının yolunu belirtir. Varsayılan değer boş bir dizedir.
+linktitle: DataSource
+articleTitle: DataSource
+second_title: Aspose.Words for .NET
+description: MailMergeSettings DataSource mülk. Adresmektup birleştirme veri kaynağının yolunu belirtir. Varsayılan değer boş bir dizedir C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.settings/mailmergesettings/datasource/
@@ -14,7 +16,7 @@ Adres-mektup birleştirme veri kaynağının yolunu belirtir. Varsayılan değer
 public string DataSource { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Üst bilgi kaynağından ve veri kaynağından adres-mektup birleştirme için veri kaynağının nasıl oluşturulacağını gösterir.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.docx");
 ### Ayrıca bakınız
 
 * class [MailMergeSettings](../)
-* ad alanı [Aspose.Words.Settings](../../mailmergesettings/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WidthRelative
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على أو تعيين القيمة التي تمثل النسبة المئوية للعرض النسبي للشكل.
+linktitle: WidthRelative
+articleTitle: WidthRelative
+second_title: Aspose.Words لـ .NET
+description: ShapeBase WidthRelative ملكية. الحصول على أو تعيين القيمة التي تمثل النسبة المئوية للعرض النسبي للشكل في C#.
 type: docs
 weight: 580
 url: /ar/net/aspose.words.drawing/shapebase/widthrelative/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/widthrelative/
 public float WidthRelative { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط الحجم والموضع النسبي.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

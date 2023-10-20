@@ -1,7 +1,9 @@
 ---
-title: Enum FootnoteNumberingRule
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Notes.FootnoteNumberingRule enum. Determina quando riavvia la numerazione automatica delle note a piè di pagina o delle note di chiusura.
+title: FootnoteNumberingRule Enum
+linktitle: FootnoteNumberingRule
+articleTitle: FootnoteNumberingRule
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Notes.FootnoteNumberingRule enum. Determina quando riavvia la numerazione automatica delle note a piè di pagina o delle note di chiusura in C#.
 type: docs
 weight: 4270
 url: /it/net/aspose.words.notes/footnotenumberingrule/
@@ -23,7 +25,7 @@ public enum FootnoteNumberingRule
 | RestartPage | `2` | La numerazione ricomincia da ogni pagina. Valido solo per le note a piè di pagina. |
 | Default | `0` | UgualeContinuous . |
 
-### Esempi
+## Esempi
 
 Mostra come riavviare la numerazione delle note a piè di pagina/note di chiusura in determinati punti del documento.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * class [EndnoteOptions](../endnoteoptions/)
 * spazio dei nomi [Aspose.Words.Notes](../../aspose.words.notes/)
 * assemblea [Aspose.Words](../../)
-
-

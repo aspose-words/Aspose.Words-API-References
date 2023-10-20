@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.VerticalAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Gibt an wie die Form vertikal positioniert wird.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words für .NET
+description: ShapeBase VerticalAlignment eigendom. Gibt an wie die Form vertikal positioniert wird in C#.
 type: docs
 weight: 560
 url: /de/net/aspose.words.drawing/shapebase/verticalalignment/
@@ -14,13 +16,13 @@ Gibt an, wie die Form vertikal positioniert wird.
 public VerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istNone.
 
 Hat nur Auswirkungen auf schwebende Formen der obersten Ebene.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein schwebendes Bild in der Mitte einer Seite einfügt.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [VerticalAlignment](../../verticalalignment/)
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

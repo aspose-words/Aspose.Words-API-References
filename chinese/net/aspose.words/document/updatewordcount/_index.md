@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateWordCount
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 更新文档的字数统计属性
+linktitle: UpdateWordCount
+articleTitle: UpdateWordCount
+second_title: 用于 .NET 的 Aspose.Words
+description: Document UpdateWordCount 方法. 更新文档的字数统计属性 在 C#.
 type: docs
-weight: 810
+weight: 790
 url: /zh/net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/updatewordcount/
 public void UpdateWordCount()
 ```
 
-### 评论
+## 评论
 
 `UpdateWordCount`重新计算并更新字符、单词和段落 属性[`BuiltInDocumentProperties`](../builtindocumentproperties/)的集合[`Document`](../)。
 
@@ -22,7 +24,7 @@ public void UpdateWordCount()
 
 当您使用评估版本时，评估水印也将包含 在字数统计中。
 
-### 例子
+## 例子
 
 演示如何更新文档中的所有列表标签。
 
@@ -59,12 +61,12 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## UpdateWordCount(bool) {#updatewordcount_1}
+## UpdateWordCount(*bool*) {#updatewordcount_1}
 
 更新文档的字数统计属性，可选择更新[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/)属性.
 
@@ -76,11 +78,11 @@ public void UpdateWordCount(bool updateLinesCount)
 | --- | --- | --- |
 | updateLinesCount | Boolean | `真的`是否要计算文档中的行数。 |
 
-### 评论
+## 评论
 
 此方法将重建文档的页面布局。
 
-### 例子
+## 例子
 
 演示如何更新文档中的所有列表标签。
 
@@ -117,7 +119,5 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

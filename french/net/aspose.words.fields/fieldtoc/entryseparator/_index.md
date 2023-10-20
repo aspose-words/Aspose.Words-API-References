@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntrySeparator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldToc propriété. Obtient ou définit une séquence de caractères qui séparent une entrée et son numéro de page.
+linktitle: EntrySeparator
+articleTitle: EntrySeparator
+second_title: Aspose.Words pour .NET
+description: FieldToc EntrySeparator propriété. Obtient ou définit une séquence de caractères qui séparent une entrée et son numéro de page en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fields/fieldtoc/entryseparator/
@@ -14,7 +16,7 @@ Obtient ou définit une séquence de caractères qui séparent une entrée et so
 public string EntrySeparator { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer une table des matières et la remplir avec des entrées basées sur les styles de titre.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Voir également
 
 * class [FieldToc](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtoc/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

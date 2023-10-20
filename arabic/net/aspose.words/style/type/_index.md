@@ -1,9 +1,11 @@
 ---
 title: Style.Type
-second_title: Aspose.Words لمراجع .NET API
-description: Style ملكية. الحصول على نوع النمط فقرة أو حرف.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: Style Type ملكية. الحصول على نوع النمط فقرة أو حرف في C#.
 type: docs
-weight: 180
+weight: 170
 url: /ar/net/aspose.words/style/type/
 ---
 ## Style.Type property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/style/type/
 public StyleType Type { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة أنماط المستند.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * enum [StyleType](../../styletype/)
 * class [Style](../)
-* مساحة الاسم [Aspose.Words](../../style/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

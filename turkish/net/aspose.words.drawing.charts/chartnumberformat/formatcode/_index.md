@@ -1,7 +1,9 @@
 ---
 title: ChartNumberFormat.FormatCode
-second_title: Aspose.Words for .NET API Referansı
-description: ChartNumberFormat mülk. Bir veri etiketine uygulanan biçim kodunu alır veya ayarlar.
+linktitle: FormatCode
+articleTitle: FormatCode
+second_title: Aspose.Words for .NET
+description: ChartNumberFormat FormatCode mülk. Bir veri etiketine uygulanan biçim kodunu alır veya ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartnumberformat/formatcode/
@@ -14,7 +16,7 @@ Bir veri etiketine uygulanan biçim kodunu alır veya ayarlar.
 public string FormatCode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Sayı biçimlendirmesi, bir değerin veri etiketinde görünme biçimini değiştirmek için kullanılır ve çok yaratıcı şekillerde kullanılabilir. Sayı biçimi örnekleri:
 
@@ -38,7 +40,7 @@ Muhasebe - "_-\"$\"* #,##0.00_-;-\"$\"* #,##0.00_-;_-\"$\"* \"-\"??_ -;_-@_-"
 
 Renkle özel - "[Kırmızı]-#,##0.0"
 
-### Örnekler
+## Örnekler
 
 Grafik değerleri için biçimlendirmenin nasıl ayarlanacağını gösterir.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ### Ayrıca bakınız
 
 * class [ChartNumberFormat](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartnumberformat/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

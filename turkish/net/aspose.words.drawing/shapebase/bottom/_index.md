@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Bottom
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin taşıyıcı bloğunun alt kenarının konumunu alır.
+linktitle: Bottom
+articleTitle: Bottom
+second_title: Aspose.Words for .NET
+description: ShapeBase Bottom mülk. Şeklin taşıyıcı bloğunun alt kenarının konumunu alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing/shapebase/bottom/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.drawing/shapebase/bottom/
 public double Bottom { get; }
 ```
 
-### Notlar
+## Notlar
 
 Üst düzey bir şekil için değer nokta cinsindendir ve şekil bağlantısına göredir.
 
 Bir gruptaki şekiller için değer, üst grubun koordinat alanında ve birimlerindedir.
 
-### Örnekler
+## Örnekler
 
 Kayan bir görüntünün nasıl ekleneceğini ve konumunun ve boyutunun nasıl belirleneceğini gösterir.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

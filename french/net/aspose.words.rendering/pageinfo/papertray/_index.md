@@ -1,7 +1,9 @@
 ---
 title: PageInfo.PaperTray
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageInfo propriété. Obtient le bac à papier bac pour cette page comme spécifié dans le document. La valeur est spécifique à limplémentation imprimante.
+linktitle: PaperTray
+articleTitle: PaperTray
+second_title: Aspose.Words pour .NET
+description: PageInfo PaperTray propriété. Obtient le bac à papier bac pour cette page comme spécifié dans le document. La valeur est spécifique à limplémentation imprimante en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.rendering/pageinfo/papertray/
@@ -14,7 +16,7 @@ Obtient le bac à papier (bac) pour cette page comme spécifié dans le document
 public int PaperTray { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment imprimer les informations sur la taille et l’orientation de chaque page d’un document Word.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Voir également
 
 * class [PageInfo](../)
-* espace de noms [Aspose.Words.Rendering](../../pageinfo/)
+* espace de noms [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Assemblée [Aspose.Words](../../../)
-
-

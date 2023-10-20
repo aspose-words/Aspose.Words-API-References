@@ -1,12 +1,14 @@
 ---
 title: Document.Protect
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Skyddar dokumentet från ändringar utan att ändra det befintliga lösenordet eller tilldelar ett slumpmässigt lösenord.
+linktitle: Protect
+articleTitle: Protect
+second_title: Aspose.Words för .NET
+description: Document Protect metod. Skyddar dokumentet från ändringar utan att ändra det befintliga lösenordet eller tilldelar ett slumpmässigt lösenord i C#.
 type: docs
-weight: 670
+weight: 650
 url: /sv/net/aspose.words/document/protect/
 ---
-## Protect(ProtectionType) {#protect}
+## Protect(*[ProtectionType](../../protectiontype/)*) {#protect}
 
 Skyddar dokumentet från ändringar utan att ändra det befintliga lösenordet eller tilldelar ett slumpmässigt lösenord.
 
@@ -18,7 +20,7 @@ public void Protect(ProtectionType type)
 | --- | --- | --- |
 | type | ProtectionType | Anger skyddstypen för dokumentet. |
 
-### Anmärkningar
+## Anmärkningar
 
 När ett dokument är skyddat kan användaren endast göra begränsade ändringar, som att lägga till kommentarer, göra ändringar eller fylla i ett formulär.
 
@@ -26,7 +28,7 @@ När du skyddar ett dokument och dokumentet redan har ett skyddslösenord, ändr
 
 När du skyddar ett dokument och dokumentet inte har något skyddslösenord, tilldelar denna metod ett slumpmässigt lösenord som gör det omöjligt att avskydda dokumentet i Microsoft Word, men du kan fortfarande avskydda dokumentet i Aspose.Words eftersom det inte kräva ett lösenord när du tar bort skyddet.
 
-### Exempel
+## Exempel
 
 Visar hur man stänger av skyddet för en sektion.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Protect(ProtectionType, string) {#protect_1}
+## Protect(*[ProtectionType](../../protectiontype/), string*) {#protect_1}
 
 Skyddar dokumentet från ändringar och anger valfritt ett skyddslösenord.
 
@@ -74,13 +76,13 @@ public void Protect(ProtectionType type, string password)
 | type | ProtectionType | Anger skyddstypen för dokumentet. |
 | password | String | Lösenordet för att skydda dokumentet med. Ange`null`eller tom sträng om du vill skydda dokumentet utan lösenord. |
 
-### Anmärkningar
+## Anmärkningar
 
 När ett dokument är skyddat kan användaren endast göra begränsade ändringar, som att lägga till kommentarer, göra ändringar eller fylla i ett formulär.
 
 Observera att dokumentskydd skiljer sig från skrivskydd. Skrivskydd specificeras med hjälp av[`WriteProtection`](../writeprotection/).
 
-### Exempel
+## Exempel
 
 Visar hur man skyddar och avskyddar ett dokument.
 
@@ -126,7 +128,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

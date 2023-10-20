@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Clear
-second_title: Aspose.Words per .NET API Reference
-description: NodeCollection metodo. Rimuove tutti i nodi da questa raccolta e dal documento.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words per .NET
+description: NodeCollection Clear metodo. Rimuove tutti i nodi da questa raccolta e dal documento in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/nodecollection/clear/
@@ -14,7 +16,7 @@ Rimuove tutti i nodi da questa raccolta e dal documento.
 public void Clear()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere tutte le sezioni da un documento.
 
@@ -36,7 +38,5 @@ Assert.AreEqual(string.Empty, doc.GetText().Trim());
 ### Guarda anche
 
 * class [NodeCollection](../)
-* spazio dei nomi [Aspose.Words](../../nodecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

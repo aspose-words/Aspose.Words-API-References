@@ -1,7 +1,9 @@
 ---
 title: Odso.Clone
-second_title: Aspose.Words för .NET API Referens
-description: Odso metod. Returnerar en djup klon av detta objekt.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words för .NET
+description: Odso Clone metod. Returnerar en djup klon av detta objekt i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.settings/odso/clone/
@@ -14,7 +16,7 @@ Returnerar en djup klon av detta objekt.
 public Odso Clone()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Se även
 
 * class [Odso](../)
-* namnutrymme [Aspose.Words.Settings](../../odso/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

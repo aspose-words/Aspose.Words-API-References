@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.FromPoints
-second_title: Aspose.Words لمراجع .NET API
-description: PreferredWidth طريقة. طريقة إنشاء تقوم بإرجاع مثيل جديد يمثل العرض المفضل المحدد باستخدام عدد من النقاط.
+linktitle: FromPoints
+articleTitle: FromPoints
+second_title: Aspose.Words لـ .NET
+description: PreferredWidth FromPoints طريقة. طريقة إنشاء تقوم بإرجاع مثيل جديد يمثل العرض المفضل المحدد باستخدام عدد من النقاط في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.tables/preferredwidth/frompoints/
@@ -18,7 +20,7 @@ public static PreferredWidth FromPoints(double points)
 | --- | --- | --- |
 | points | Double | يجب أن تكون القيمة من 0 إلى 22 بوصة (22*72 نقطة). |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أدوات تحويل الوحدات أثناء تحديد العرض المفضل للخلية.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### أنظر أيضا
 
 * class [PreferredWidth](../)
-* مساحة الاسم [Aspose.Words.Tables](../../preferredwidth/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeVerticalPosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Gibt relativ zur vertikalen Positionierung der Form an.
+linktitle: RelativeVerticalPosition
+articleTitle: RelativeVerticalPosition
+second_title: Aspose.Words für .NET
+description: ShapeBase RelativeVerticalPosition eigendom. Gibt relativ zur vertikalen Positionierung der Form an in C#.
 type: docs
 weight: 440
 url: /de/net/aspose.words.drawing/shapebase/relativeverticalposition/
@@ -14,13 +16,13 @@ Gibt relativ zur vertikalen Positionierung der Form an.
 public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istParagraph.
 
 Hat nur Auswirkungen auf schwebende Formen der obersten Ebene.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein schwebendes Bild in der Mitte einer Seite einfügt.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [RelativeVerticalPosition](../../relativeverticalposition/)
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.IsBookmark
-second_title: Aspose.Words per .NET API Reference
-description: BarcodeParameters proprietà. SePostalAddress è il nome di un segnalibro.
+linktitle: IsBookmark
+articleTitle: IsBookmark
+second_title: Aspose.Words per .NET
+description: BarcodeParameters IsBookmark proprietà. SePostalAddress è il nome di un segnalibro in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.fields/barcodeparameters/isbookmark/
@@ -14,7 +16,7 @@ Se[`PostalAddress`](../postaladdress/) è il nome di un segnalibro.
 public bool IsBookmark { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un generatore di codici a barre.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Guarda anche
 
 * class [BarcodeParameters](../)
-* spazio dei nomi [Aspose.Words.Fields](../../barcodeparameters/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

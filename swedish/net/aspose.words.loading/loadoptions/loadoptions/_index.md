@@ -1,7 +1,9 @@
 ---
-title: LoadOptions.LoadOptions
-second_title: Aspose.Words för .NET API Referens
-description: LoadOptions byggare. Initierar en ny instans av denna klass med standardvärden.
+title: LoadOptions
+linktitle: LoadOptions
+articleTitle: LoadOptions
+second_title: Aspose.Words för .NET
+description: LoadOptions byggare. Initierar en ny instans av denna klass med standardvärden i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.loading/loadoptions/loadoptions/
@@ -14,7 +16,7 @@ Initierar en ny instans av denna klass med standardvärden.
 public LoadOptions()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man öppnar ett HTML-dokument med bilder från en ström med en bas-URI.
 
@@ -41,12 +43,12 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 ### Se även
 
 * class [LoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../loadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## LoadOptions(string) {#constructor_2}
+## LoadOptions(*string*) {#constructor_2}
 
 En genväg för att initiera en ny instans av denna klass med det angivna lösenordet för att ladda ett krypterat dokument.
 
@@ -58,7 +60,7 @@ public LoadOptions(string password)
 | --- | --- | --- |
 | password | String | Lösenordet för att öppna ett krypterat dokument. Kan vara`null` eller tom sträng. |
 
-### Exempel
+## Exempel
 
 Visar hur man laddar ett krypterat Microsoft Word-dokument.
 
@@ -84,12 +86,12 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 ### Se även
 
 * class [LoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../loadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## LoadOptions(LoadFormat, string, string) {#constructor_1}
+## LoadOptions(*[LoadFormat](../../../aspose.words/loadformat/), string, string*) {#constructor_1}
 
 En genväg för att initiera en ny instans av denna klass med egenskaper inställda på de angivna värdena.
 
@@ -103,7 +105,7 @@ public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | password | String | Lösenordet för att öppna ett krypterat dokument. Kan vara`null` eller tom sträng. |
 | baseUri | String | Strängen som kommer att användas för att lösa relativa URI:er till absoluta. Kan vara`null` eller tom sträng. |
 
-### Exempel
+## Exempel
 
 Visar hur du sparar en webbsida som en .docx-fil.
 
@@ -151,7 +153,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 
 * enum [LoadFormat](../../../aspose.words/loadformat/)
 * class [LoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../loadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ReplaceAction
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Replacing.ReplaceAction enumeración. Permite al usuario especificar qué sucede con la coincidencia actual durante una operación de reemplazo.
+title: ReplaceAction Enum
+linktitle: ReplaceAction
+articleTitle: ReplaceAction
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Replacing.ReplaceAction enumeración. Permite al usuario especificar qué sucede con la coincidencia actual durante una operación de reemplazo en C#.
 type: docs
 weight: 4640
 url: /es/net/aspose.words.replacing/replaceaction/
@@ -22,7 +24,7 @@ public enum ReplaceAction
 | Skip | `1` | Saltar la partida actual. |
 | Stop | `2` | Finalice la operación de reemplazo. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar el contenido completo de un documento como reemplazo de una coincidencia en una operación de buscar y reemplazar.
 
@@ -100,5 +102,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * method [Replace](../../aspose.words/range/replace/)
 * espacio de nombres [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * asamblea [Aspose.Words](../../)
-
-

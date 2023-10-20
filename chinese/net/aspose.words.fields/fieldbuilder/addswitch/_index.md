@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.AddSwitch
-second_title: Aspose.Words for .NET API 参考
-description: FieldBuilder 方法. 添加字段的开关
+linktitle: AddSwitch
+articleTitle: AddSwitch
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldBuilder AddSwitch 方法. 添加字段的开关 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldbuilder/addswitch/
 ---
-## AddSwitch(string) {#addswitch}
+## AddSwitch(*string*) {#addswitch}
 
 添加字段的开关。
 
@@ -18,11 +20,11 @@ public FieldBuilder AddSwitch(string switchName)
 | --- | --- | --- |
 | switchName | String | 交换机名称。 |
 
-### 评论
+## 评论
 
 此重载添加了一个标志（不带参数的开关）。
 
-### 例子
+## 例子
 
 演示如何使用字段生成器构造字段，然后将它们插入到文档中。
 
@@ -105,12 +107,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### 也可以看看
 
 * class [FieldBuilder](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldbuilder/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, string) {#addswitch_3}
+## AddSwitch(*string, string*) {#addswitch_3}
 
 添加字段的开关。
 
@@ -123,7 +125,7 @@ public FieldBuilder AddSwitch(string switchName, string switchArgument)
 | switchName | String | 交换机名称。 |
 | switchArgument | String | 开关值。 |
 
-### 例子
+## 例子
 
 演示如何使用字段生成器构造字段，然后将它们插入到文档中。
 
@@ -206,12 +208,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### 也可以看看
 
 * class [FieldBuilder](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldbuilder/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, int) {#addswitch_2}
+## AddSwitch(*string, int*) {#addswitch_2}
 
 添加字段的开关。
 
@@ -224,7 +226,7 @@ public FieldBuilder AddSwitch(string switchName, int switchArgument)
 | switchName | String | 交换机名称。 |
 | switchArgument | Int32 | 开关值。 |
 
-### 例子
+## 例子
 
 演示如何使用字段生成器构造字段，然后将它们插入到文档中。
 
@@ -307,12 +309,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### 也可以看看
 
 * class [FieldBuilder](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldbuilder/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## AddSwitch(string, double) {#addswitch_1}
+## AddSwitch(*string, double*) {#addswitch_1}
 
 添加字段的开关。
 
@@ -325,7 +327,7 @@ public FieldBuilder AddSwitch(string switchName, double switchArgument)
 | switchName | String | 交换机名称。 |
 | switchArgument | Double | 开关值。 |
 
-### 例子
+## 例子
 
 演示如何使用字段生成器构造字段，然后将它们插入到文档中。
 
@@ -408,7 +410,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### 也可以看看
 
 * class [FieldBuilder](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldbuilder/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListLevel.GetEffectiveValue
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel methode. Meldet die Zeichenfolgendarstellung vonListLevelObjekt für den angegebenen index des Listenelements. Parameter geben die anNumberStyle und ein optionales Format string  das verwendet wird wennCustom angegeben ist.
+linktitle: GetEffectiveValue
+articleTitle: GetEffectiveValue
+second_title: Aspose.Words für .NET
+description: ListLevel GetEffectiveValue methode. Meldet die Zeichenfolgendarstellung vonListLevelObjekt für den angegebenen index des Listenelements. Parameter geben die anNumberStyle und ein optionales Format string  das verwendet wird wennCustom angegeben ist in C#.
 type: docs
 weight: 190
 url: /de/net/aspose.words.lists/listlevel/geteffectivevalue/
@@ -32,7 +34,7 @@ Die String-Darstellung von[`ListLevel`](../) Objekt, beschrieben durch die*numbe
 | ArgumentException | *customNumberStyleFormat* Ist`Null` oder leer, wenn die*numberStyle* ist benutzerdefiniert.-oder- *customNumberStyleFormat* ist nicht`Null` oder leer, wenn die*numberStyle* ist nicht benutzerdefiniert.-oder- *customNumberStyleFormat* ist ungültig. |
 | ArgumentOutOfRangeException | Der Index liegt außerhalb des zulässigen Bereichs. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man das Format für eine Liste mit dem benutzerdefinierten Zahlenstil erhält.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, custom
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.Prefix
-second_title: Aspose.Words för .NET API Referens
-description: FieldCitation fast egendom. Hämtar eller ställer in ett prefix som föregås av citatet.
+linktitle: Prefix
+articleTitle: Prefix
+second_title: Aspose.Words för .NET
+description: FieldCitation Prefix fast egendom. Hämtar eller ställer in ett prefix som föregås av citatet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldcitation/prefix/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett prefix som föregås av citatet.
 public string Prefix { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CITATION och BIBLIOGRAPHY-fält.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Se även
 
 * class [FieldCitation](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcitation/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

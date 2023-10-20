@@ -1,7 +1,9 @@
 ---
 title: ListLevel.StartAt
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevel ملكية. إرجاع أو تعيين رقم البداية لمستوى القائمة هذا.
+linktitle: StartAt
+articleTitle: StartAt
+second_title: Aspose.Words لـ .NET
+description: ListLevel StartAt ملكية. إرجاع أو تعيين رقم البداية لمستوى القائمة هذا في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.lists/listlevel/startat/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/listlevel/startat/
 public int StartAt { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي 1.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعادة تشغيل الترقيم في القائمة عن طريق نسخ القائمة.
 
@@ -116,7 +118,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### أنظر أيضا
 
 * class [ListLevel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

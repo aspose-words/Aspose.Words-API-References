@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldEnd
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när ett fält slutar i dokumentet.
+linktitle: VisitFieldEnd
+articleTitle: VisitFieldEnd
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitFieldEnd metod. Anropas när ett fält slutar i dokumentet i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words/documentvisitor/visitfieldend/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Anmärkningar
+## Anmärkningar
 
 För mer info se[`VisitFieldStart`](../visitfieldstart/)
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje fält i ett dokument.
 
@@ -131,7 +133,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldEnd](../../../aspose.words.fields/fieldend/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.ConsecutiveHyphenLimit
-second_title: Aspose.Words for .NET API Referansı
-description: HyphenationOptions mülk. Kısa çizgilerle bitebilecek ardışık satırların maksimum sayısını alır veya ayarlar. Bu özelliğin varsayılan değeri 0. dir
+linktitle: ConsecutiveHyphenLimit
+articleTitle: ConsecutiveHyphenLimit
+second_title: Aspose.Words for .NET
+description: HyphenationOptions ConsecutiveHyphenLimit mülk. Kısa çizgilerle bitebilecek ardışık satırların maksimum sayısını alır veya ayarlar. Bu özelliğin varsayılan değeri 0. dir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/
@@ -14,13 +16,13 @@ Kısa çizgilerle bitebilecek ardışık satırların maksimum sayısını alır
 public int ConsecutiveHyphenLimit { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliğin değeri 0 olarak ayarlanırsa ardışık herhangi bir sayıda satır tire ile bitebilir.
 
 Bu özelliğin, örneğin PDF gibi sabit sayfa formatlarına kaydederken etkisi yoktur.
 
-### Örnekler
+## Örnekler
 
 Otomatik tirelemenin nasıl yapılandırılacağını gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### Ayrıca bakınız
 
 * class [HyphenationOptions](../)
-* ad alanı [Aspose.Words.Settings](../../hyphenationoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

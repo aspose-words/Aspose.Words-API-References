@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.UseGdiEmfRenderer
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions свойство. Получает или задает значение определяющее использовать ли средство визуализации метафайлов GDI или Aspose.Words при сохранении в EMF.
+linktitle: UseGdiEmfRenderer
+articleTitle: UseGdiEmfRenderer
+second_title: Aspose.Words для .NET
+description: ImageSaveOptions UseGdiEmfRenderer свойство. Получает или задает значение определяющее использовать ли средство визуализации метафайлов GDI или Aspose.Words при сохранении в EMF на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
 public bool UseGdiEmfRenderer { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если установлено значение`истинный` Используется средство рендеринга метафайлов GDI+. Т.е. контент записывается в объект GDI+graphics и сохраняется в метафайл.
 
@@ -26,7 +28,7 @@ public bool UseGdiEmfRenderer { get; set; }
 
 Значение по умолчанию:`истинный`.
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать средство визуализации при преобразовании документа в .emf.
 
@@ -60,7 +62,5 @@ Document doc = new Document();
 ### Смотрите также
 
 * class [ImageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../imagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

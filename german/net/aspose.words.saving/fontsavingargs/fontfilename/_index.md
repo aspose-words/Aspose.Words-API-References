@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontFileName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSavingArgs eigendom. Ruft den Dateinamen ohne Pfad ab unter dem die Schriftart gespeichert wird oder legt diesen fest.
+linktitle: FontFileName
+articleTitle: FontFileName
+second_title: Aspose.Words für .NET
+description: FontSavingArgs FontFileName eigendom. Ruft den Dateinamen ohne Pfad ab unter dem die Schriftart gespeichert wird oder legt diesen fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/fontsavingargs/fontfilename/
@@ -14,7 +16,7 @@ Ruft den Dateinamen (ohne Pfad) ab, unter dem die Schriftart gespeichert wird, o
 public string FontFileName { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Mit dieser Eigenschaft können Sie neu definieren, wie die Schriftartdateinamen beim Export nach HTML generiert werden .
 
@@ -28,7 +30,7 @@ Beim Speichern eines Dokuments in einem Stream sieht der Name der generierten Sc
 
 `FontFileName` darf nur den Dateinamen ohne den Pfad enthalten. Aspose.Words bestimmt den Pfad zum Speichern anhand des Dateinamens des Dokuments, [`FontsFolder`](../../htmlsaveoptions/fontsfolder/) and [`FontsFolderAlias`](../../htmlsaveoptions/fontsfolderalias/) Eigenschaften.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
 
@@ -88,7 +90,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Siehe auch
 
 * class [FontSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../fontsavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

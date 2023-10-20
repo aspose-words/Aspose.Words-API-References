@@ -1,7 +1,9 @@
 ---
 title: Field.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: Field طريقة. إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل فسيتم إرجاعهباطل .
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: Field Remove طريقة. إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل فسيتم إرجاعهباطل  في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.fields/field/remove/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/field/remove/
 public Node Remove()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الحقول من مجموعة الحقول.
 
@@ -123,7 +125,5 @@ public class FieldPrivateRemover : DocumentVisitor
 
 * class [Node](../../../aspose.words/node/)
 * class [Field](../)
-* مساحة الاسم [Aspose.Words.Fields](../../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

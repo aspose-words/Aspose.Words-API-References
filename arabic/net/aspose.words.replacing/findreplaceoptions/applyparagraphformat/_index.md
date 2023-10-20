@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ApplyParagraphFormat
-second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. تطبيق تنسيق الفقرة على المحتوى الجديد.
+linktitle: ApplyParagraphFormat
+articleTitle: ApplyParagraphFormat
+second_title: Aspose.Words لـ .NET
+description: FindReplaceOptions ApplyParagraphFormat ملكية. تطبيق تنسيق الفقرة على المحتوى الجديد في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
 public ParagraphFormat ApplyParagraphFormat { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة تنسيق إلى الفقرات التي عثرت فيها عملية البحث والاستبدال على تطابقات.
 
@@ -55,7 +57,5 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 
 * class [ParagraphFormat](../../../aspose.words/paragraphformat/)
 * class [FindReplaceOptions](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../findreplaceoptions/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

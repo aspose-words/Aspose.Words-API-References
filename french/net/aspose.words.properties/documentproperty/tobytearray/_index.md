@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToByteArray
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentProperty méthode. Renvoie la valeur de la propriété sous forme de tableau doctets.
+linktitle: ToByteArray
+articleTitle: ToByteArray
+second_title: Aspose.Words pour .NET
+description: DocumentProperty ToByteArray méthode. Renvoie la valeur de la propriété sous forme de tableau doctets en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.properties/documentproperty/tobytearray/
@@ -14,11 +16,11 @@ Renvoie la valeur de la propriété sous forme de tableau d'octets.
 public byte[] ToByteArray()
 ```
 
-### Remarques
+## Remarques
 
 Lève une exception si le type de propriété n'est pasByteArray.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une vignette à un document que nous enregistrons au format Epub.
 
@@ -44,7 +46,5 @@ File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.
 ### Voir également
 
 * class [DocumentProperty](../)
-* espace de noms [Aspose.Words.Properties](../../documentproperty/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

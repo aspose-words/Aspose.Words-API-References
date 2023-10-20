@@ -1,7 +1,9 @@
 ---
 title: FieldSkipIf.LeftExpression
-second_title: Aspose.Words för .NET API Referens
-description: FieldSkipIf fast egendom. Hämtar eller ställer in den vänstra delen av jämförelseuttrycket.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words för .NET
+description: FieldSkipIf LeftExpression fast egendom. Hämtar eller ställer in den vänstra delen av jämförelseuttrycket i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldskipif/leftexpression/
@@ -14,7 +16,7 @@ Hämtar eller ställer in den vänstra delen av jämförelseuttrycket.
 public string LeftExpression { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man hoppar över sidor i en sammanfogning med hjälp av SKIPIF-fältet.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ### Se även
 
 * class [FieldSkipIf](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldskipif/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

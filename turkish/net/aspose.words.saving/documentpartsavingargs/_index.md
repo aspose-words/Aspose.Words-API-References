@@ -1,7 +1,9 @@
 ---
-title: Class DocumentPartSavingArgs
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.DocumentPartSavingArgs sınıf. Şunun için veri sağlarDocumentPartSaving geri arama.
+title: DocumentPartSavingArgs Class
+linktitle: DocumentPartSavingArgs
+articleTitle: DocumentPartSavingArgs
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.DocumentPartSavingArgs sınıf. Şunun için veri sağlarDocumentPartSaving geri arama C#'da.
 type: docs
 weight: 4940
 url: /tr/net/aspose.words.saving/documentpartsavingargs/
@@ -25,7 +27,7 @@ public class DocumentPartSavingArgs
 | [DocumentPartStream](../../aspose.words.saving/documentpartsavingargs/documentpartstream/) { get; set; } | Belge bölümünün kaydedileceği akışı belirtmeye izin verir. |
 | [KeepDocumentPartStreamOpen](../../aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/) { get; set; } | Aspose.Words'ün belge bölümünü kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir. |
 
-### Notlar
+## Notlar
 
 Aspose.Words bir belgeyi HTML'ye veya ilgili formatlara kaydettiğinde ve[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/) belirtilir, belge parçalara bölünür ve varsayılan olarak her belge bölümü ayrı bir dosyaya kaydedilir.
 
@@ -33,7 +35,7 @@ Sınıf`DocumentPartSavingArgs` her belge bölümünün nasıl kaydedileceğini 
 
 Belge bölümlerini dosyalar yerine akışlara kaydetmek için[`DocumentPartStream`](./documentpartstream/) mülk.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin nasıl parçalara ayrılacağını ve kaydedileceğini gösterir.
 
@@ -151,5 +153,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

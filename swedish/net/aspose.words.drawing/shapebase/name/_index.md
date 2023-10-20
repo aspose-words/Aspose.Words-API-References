@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Name
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Hämtar eller ställer in det valfria formnamnet.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words för .NET
+description: ShapeBase Name fast egendom. Hämtar eller ställer in det valfria formnamnet i C#.
 type: docs
 weight: 400
 url: /sv/net/aspose.words.drawing/shapebase/name/
@@ -14,13 +16,13 @@ Hämtar eller ställer in det valfria formnamnet.
 public string Name { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standard är tom sträng.
 
 Kan inte vara`null`, men kan vara en tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en forms alternativa text.
 
@@ -44,7 +46,5 @@ File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

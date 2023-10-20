@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.PageSavingCallback
-second_title: Aspose.Words for .NET API 参考
-description: FixedPageSaveOptions 财产. 允许控制将文档导出为固定页面格式时如何保存单独的页面
+linktitle: PageSavingCallback
+articleTitle: PageSavingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: FixedPageSaveOptions PageSavingCallback 财产. 允许控制将文档导出为固定页面格式时如何保存单独的页面 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/
 public IPageSavingCallback PageSavingCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用回调将文档逐页保存为 HTML。
 
@@ -72,7 +74,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * interface [IPageSavingCallback](../../ipagesavingcallback/)
 * class [FixedPageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

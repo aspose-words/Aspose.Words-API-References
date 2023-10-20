@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Drawing.Ole
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Contient des classes pour travailler avec les contrôles et formulaires OLE / ActiveX dans les documents Microsoft Word.
+linktitle: Aspose.Words.Drawing.Ole
+articleTitle: Aspose.Words.Drawing.Ole
+second_title: Aspose.Words pour .NET
+description: Contient des classes pour travailler avec les contrôles et formulaires OLE / ActiveX dans les documents Microsoft Word en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.drawing.ole/
@@ -20,5 +22,3 @@ Contient des classes pour travailler avec les contrôles et formulaires OLE / Ac
 | Énumération | La description |
 | --- | --- |
 | [Forms2OleControlType](./forms2olecontroltype/) | Énumère les types de contrôles Forms 2.0. |
-
-

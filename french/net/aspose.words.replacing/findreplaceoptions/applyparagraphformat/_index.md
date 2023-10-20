@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ApplyParagraphFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FindReplaceOptions propriété. Mise en forme du paragraphe appliquée au nouveau contenu.
+linktitle: ApplyParagraphFormat
+articleTitle: ApplyParagraphFormat
+second_title: Aspose.Words pour .NET
+description: FindReplaceOptions ApplyParagraphFormat propriété. Mise en forme du paragraphe appliquée au nouveau contenu en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
@@ -14,7 +16,7 @@ Mise en forme du paragraphe appliquée au nouveau contenu.
 public ParagraphFormat ApplyParagraphFormat { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une mise en forme aux paragraphes dans lesquels une opération de recherche et de remplacement a trouvé des correspondances.
 
@@ -55,7 +57,5 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 
 * class [ParagraphFormat](../../../aspose.words/paragraphformat/)
 * class [FindReplaceOptions](../)
-* espace de noms [Aspose.Words.Replacing](../../findreplaceoptions/)
+* espace de noms [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Assemblée [Aspose.Words](../../../)
-
-

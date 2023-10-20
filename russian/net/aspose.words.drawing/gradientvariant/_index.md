@@ -1,7 +1,9 @@
 ---
-title: Enum GradientVariant
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.GradientVariant перечисление. Указывает вариант градиентной заливки.
+title: GradientVariant Enum
+linktitle: GradientVariant
+articleTitle: GradientVariant
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.GradientVariant перечисление. Указывает вариант градиентной заливки на С#.
 type: docs
 weight: 1010
 url: /ru/net/aspose.words.drawing/gradientvariant/
@@ -24,11 +26,11 @@ public enum GradientVariant
 | Variant3 | `3` | Вариант градиента 3. |
 | Variant4 | `4` | Вариант градиента 4. |
 
-### Примечания
+## Примечания
 
 Соответствует четырем вариантам на вкладке «Градиент» диалогового окна «Эффекты заливки» в Word.
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить фигуру градиентами.
 
@@ -70,5 +72,3 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

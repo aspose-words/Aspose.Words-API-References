@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SubjectName
-second_title: Aspose.Words for .NET API 参考
-description: DigitalSignature 财产. 返回用于签署文档的证书的主题可分辨名称
+linktitle: SubjectName
+articleTitle: SubjectName
+second_title: 用于 .NET 的 Aspose.Words
+description: DigitalSignature SubjectName 财产. 返回用于签署文档的证书的主题可分辨名称 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.digitalsignatures/digitalsignature/subjectname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.digitalsignatures/digitalsignature/subjectname/
 public string SubjectName { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 X.509 证书签署文档。
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### 也可以看看
 
 * class [DigitalSignature](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

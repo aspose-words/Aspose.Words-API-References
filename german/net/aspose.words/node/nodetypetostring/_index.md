@@ -1,7 +1,9 @@
 ---
 title: Node.NodeTypeToString
-second_title: Aspose.Words für .NET-API-Referenz
-description: Node methode. Eine Dienstprogrammmethode die einen KnotentypEnumerationswert in eine benutzerfreundliche Zeichenfolge konvertiert.
+linktitle: NodeTypeToString
+articleTitle: NodeTypeToString
+second_title: Aspose.Words für .NET
+description: Node NodeTypeToString methode. Eine Dienstprogrammmethode die einen KnotentypEnumerationswert in eine benutzerfreundliche Zeichenfolge konvertiert in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words/node/nodetypetostring/
@@ -14,7 +16,7 @@ Eine Dienstprogrammmethode, die einen Knotentyp-Enumerationswert in eine benutze
 public static string NodeTypeToString(NodeType nodeType)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die NextSibling-Eigenschaft eines Knotens verwendet wird, um seine unmittelbaren untergeordneten Knoten aufzuzählen.
 
@@ -77,7 +79,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* namensraum [Aspose.Words](../../node/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

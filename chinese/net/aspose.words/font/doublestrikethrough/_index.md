@@ -1,7 +1,9 @@
 ---
 title: Font.DoubleStrikeThrough
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 如果字体格式为双删除线文本则为 True
+linktitle: DoubleStrikeThrough
+articleTitle: DoubleStrikeThrough
+second_title: 用于 .NET 的 Aspose.Words
+description: Font DoubleStrikeThrough 财产. 如果字体格式为双删除线文本则为 True 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/font/doublestrikethrough/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/doublestrikethrough/
 public bool DoubleStrikeThrough { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何向文本添加行删除线。
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Font.StrikeThrough.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

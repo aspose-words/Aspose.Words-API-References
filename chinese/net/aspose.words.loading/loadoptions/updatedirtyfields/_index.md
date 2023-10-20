@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.UpdateDirtyFields
-second_title: Aspose.Words for .NET API 参考
-description: LoadOptions 财产. 指定是否更新字段肮脏的属性.
+linktitle: UpdateDirtyFields
+articleTitle: UpdateDirtyFields
+second_title: 用于 .NET 的 Aspose.Words
+description: LoadOptions UpdateDirtyFields 财产. 指定是否更新字段肮脏的属性 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.loading/loadoptions/updatedirtyfields/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.loading/loadoptions/updatedirtyfields/
 public bool UpdateDirtyFields { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用特殊属性来更新字段结果。
 
@@ -71,7 +73,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### 也可以看看
 
 * class [LoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../loadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

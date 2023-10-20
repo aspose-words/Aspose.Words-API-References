@@ -1,7 +1,9 @@
 ---
 title: TableStyle.AllowBreakAcrossPages
-second_title: Aspose.Words for .NET API Referansı
-description: TableStyle mülk. Tablo satırındaki metnin sayfa sonu boyunca bölünmesine izin verilip verilmeyeceğini belirten bayrağı alır veya ayarlar.
+linktitle: AllowBreakAcrossPages
+articleTitle: AllowBreakAcrossPages
+second_title: Aspose.Words for .NET
+description: TableStyle AllowBreakAcrossPages mülk. Tablo satırındaki metnin sayfa sonu boyunca bölünmesine izin verilip verilmeyeceğini belirten bayrağı alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/tablestyle/allowbreakacrosspages/
@@ -14,11 +16,11 @@ Tablo satırındaki metnin sayfa sonu boyunca bölünmesine izin verilip verilme
 public bool AllowBreakAcrossPages { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`doğru` .
 
-### Örnekler
+## Örnekler
 
 Tablo için özel stil ayarlarının nasıl oluşturulacağını gösterir.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Ayrıca bakınız
 
 * class [TableStyle](../)
-* ad alanı [Aspose.Words](../../tablestyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.DataLabels
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeries ملكية. يحدد إعدادات تسميات البيانات للسلسلة بأكملها.
+linktitle: DataLabels
+articleTitle: DataLabels
+second_title: Aspose.Words لـ .NET
+description: ChartSeries DataLabels ملكية. يحدد إعدادات تسميات البيانات للسلسلة بأكملها في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartseries/datalabels/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartseries/datalabels/
 public ChartDataLabelCollection DataLabels { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataLabelCollection](../../chartdatalabelcollection/)
 * class [ChartSeries](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseries/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

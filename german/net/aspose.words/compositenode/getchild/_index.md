@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetChild
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompositeNode methode. Gibt einen Nten untergeordneten Knoten zurück der dem angegebenen Typ entspricht.
+linktitle: GetChild
+articleTitle: GetChild
+second_title: Aspose.Words für .NET
+description: CompositeNode GetChild methode. Gibt einen Nten untergeordneten Knoten zurück der dem angegebenen Typ entspricht in C#.
 type: docs
-weight: 100
+weight: 80
 url: /de/net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
@@ -24,13 +26,13 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 
 Der untergeordnete Knoten, der den Kriterien entspricht oder`Null` wenn kein passender Knoten gefunden wird.
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn der Index außerhalb des Bereichs liegt, a`Null` ist zurück gekommen.
 
 Beachten Sie, dass Markup-Knoten (StructuredDocumentTag UndSmartTag ) werden auch dann durchlaufen, wenn*isDeep* =`FALSCH` Und`GetChild` wird für Nicht-Markup-Knotentypen aufgerufen. Wenn beispielsweise der erste Lauf in einem para in einen eingeschlossen ist[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , es wird trotzdem von zurückgegeben`GetChild`(Run , 0,`FALSCH`).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften eines Tabellenstils direkt auf die Elemente der Tabelle angewendet werden.
 
@@ -103,7 +105,5 @@ foreach (Node child in children)
 * class [Node](../../node/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* namensraum [Aspose.Words](../../compositenode/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

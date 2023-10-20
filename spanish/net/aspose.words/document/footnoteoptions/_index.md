@@ -1,7 +1,9 @@
 ---
 title: Document.FootnoteOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Proporciona opciones que controlan la numeración y la ubicación de las notas a pie de página en este documento.
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: Aspose.Words para .NET
+description: Document FootnoteOptions propiedad. Proporciona opciones que controlan la numeración y la ubicación de las notas a pie de página en este documento en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words/document/footnoteoptions/
@@ -14,7 +16,7 @@ Proporciona opciones que controlan la numeración y la ubicación de las notas a
 public FootnoteOptions FootnoteOptions { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo seleccionar un lugar diferente donde el documento recopila y muestra sus notas a pie de página.
 
@@ -186,7 +188,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

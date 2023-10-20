@@ -1,7 +1,9 @@
 ---
 title: Range.UnlinkFields
-second_title: Referencia de API de Aspose.Words para .NET
-description: Range método. Desvincula campos en este rango.
+linktitle: UnlinkFields
+articleTitle: UnlinkFields
+second_title: Aspose.Words para .NET
+description: Range UnlinkFields método. Desvincula campos en este rango en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words/range/unlinkfields/
@@ -14,13 +16,13 @@ Desvincula campos en este rango.
 public void UnlinkFields()
 ```
 
-### Observaciones
+## Observaciones
 
 Reemplaza todos los campos en este rango con sus resultados más recientes.
 
 Para desvincular campos en todo el documento utilice`UnlinkFields`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo desvincular todos los campos de un rango.
 
@@ -36,7 +38,5 @@ doc.Sections[1].Range.UnlinkFields();
 ### Ver también
 
 * class [Range](../)
-* espacio de nombres [Aspose.Words](../../range/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

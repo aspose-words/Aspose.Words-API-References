@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.BookmarkName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIndex eigendom. Ruft den Namen des Lesezeichens ab das den Teil des Dokuments markiert der zum Erstellen des Index verwendet wird oder legt diesen fest.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words für .NET
+description: FieldIndex BookmarkName eigendom. Ruft den Namen des Lesezeichens ab das den Teil des Dokuments markiert der zum Erstellen des Index verwendet wird oder legt diesen fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldindex/bookmarkname/
@@ -14,7 +16,7 @@ Ruft den Namen des Lesezeichens ab, das den Teil des Dokuments markiert, der zum
 public string BookmarkName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie ein INDEX-Feld erstellen und es dann mithilfe von XE-Feldern mit Einträgen füllen.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 ### Siehe auch
 
 * class [FieldIndex](../)
-* namensraum [Aspose.Words.Fields](../../fieldindex/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

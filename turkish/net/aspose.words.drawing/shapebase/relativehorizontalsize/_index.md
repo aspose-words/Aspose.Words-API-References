@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeHorizontalSize
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin göreceli boyutunun değerini yatay yönde alır veya ayarlar.
+linktitle: RelativeHorizontalSize
+articleTitle: RelativeHorizontalSize
+second_title: Aspose.Words for .NET
+description: ShapeBase RelativeHorizontalSize mülk. Şeklin göreceli boyutunun değerini yatay yönde alır veya ayarlar C#'da.
 type: docs
 weight: 430
 url: /tr/net/aspose.words.drawing/shapebase/relativehorizontalsize/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.drawing/shapebase/relativehorizontalsize/
 public RelativeHorizontalSize RelativeHorizontalSize { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:[`RelativeHorizontalSize`](../../relativehorizontalsize/).
 
 Yalnızca şu durumlarda etkilidir:[`WidthRelative`](../widthrelative/) ayarlandı.
 
-### Örnekler
+## Örnekler
 
 Göreli boyut ve konumun nasıl ayarlanacağını gösterir.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 
 * enum [RelativeHorizontalSize](../../relativehorizontalsize/)
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

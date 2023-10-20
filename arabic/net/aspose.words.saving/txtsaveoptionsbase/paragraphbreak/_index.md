@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ParagraphBreak
-second_title: Aspose.Words لمراجع .NET API
-description: TxtSaveOptionsBase ملكية. يحدد السلسلة التي سيتم استخدامها كفواصل فقرات عند التصدير بتنسيقات نصية.
+linktitle: ParagraphBreak
+articleTitle: ParagraphBreak
+second_title: Aspose.Words لـ .NET
+description: TxtSaveOptionsBase ParagraphBreak ملكية. يحدد السلسلة التي سيتم استخدامها كفواصل فقرات عند التصدير بتنسيقات نصية في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
 public string ParagraphBreak { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي[`CrLf`](../../../aspose.words/controlchar/crlf/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند .txt مع فاصل فقرات مخصص.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 ### أنظر أيضا
 
 * class [TxtSaveOptionsBase](../)
-* مساحة الاسم [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

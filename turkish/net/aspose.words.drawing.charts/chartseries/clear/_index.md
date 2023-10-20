@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeries yöntem. Tüm veri değerlerini grafik serisinden kaldırır. Tüm bireysel veri noktalarının ve veri etiketlerinin formatı temizlendi.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: ChartSeries Clear yöntem. Tüm veri değerlerini grafik serisinden kaldırır. Tüm bireysel veri noktalarının ve veri etiketlerinin formatı temizlendi C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.drawing.charts/chartseries/clear/
@@ -17,7 +19,5 @@ public void Clear()
 ### Ayrıca bakınız
 
 * class [ChartSeries](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseries/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

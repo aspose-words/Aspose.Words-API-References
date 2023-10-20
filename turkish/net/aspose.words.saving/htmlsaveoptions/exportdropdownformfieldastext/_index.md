@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportDropDownFormFieldAsText
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Açılır form alanlarının HTML veya MHTMLye nasıl kaydedileceğini kontrol eder. Varsayılan değerYANLIŞ .
+linktitle: ExportDropDownFormFieldAsText
+articleTitle: ExportDropDownFormFieldAsText
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ExportDropDownFormFieldAsText mülk. Açılır form alanlarının HTML veya MHTMLye nasıl kaydedileceğini kontrol eder. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
@@ -14,13 +16,13 @@ Açılır form alanlarının HTML veya MHTML'ye nasıl kaydedileceğini kontrol 
 public bool ExportDropDownFormFieldAsText { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 olarak ayarlandığında`doğru` , açılır form alanlarını normal metin olarak dışa aktarır. Ne zaman`YANLIŞ`, açılır form alanlarını HTML'deki SELECT öğesi olarak dışa aktarır.
 
 EPUB'a dışa aktarırken, metin açılır form alanları, bu formatın gereklilikleri nedeniyle nedeniyle her zaman metin olarak kaydedilir.
 
-### Örnekler
+## Örnekler
 
 Html'ye kaydederken açılır açılan kutu form alanlarının paragraf metniyle nasıl harmanlanacağını gösterir.
 
@@ -58,7 +60,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

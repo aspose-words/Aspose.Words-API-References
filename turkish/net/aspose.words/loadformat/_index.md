@@ -1,7 +1,9 @@
 ---
-title: Enum LoadFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.LoadFormat Sıralama. Yüklenecek belgenin formatını belirtir.
+title: LoadFormat Enum
+linktitle: LoadFormat
+articleTitle: LoadFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.LoadFormat Sıralama. Yüklenecek belgenin formatını belirtir C#'da.
 type: docs
 weight: 3550
 url: /tr/net/aspose.words/loadformat/
@@ -46,7 +48,7 @@ public enum LoadFormat
 | Xml | `65` | XML belgesi. |
 | Unknown | `255` | Tanınmayan format, Aspose.Words tarafından yüklenemez. |
 
-### Örnekler
+## Örnekler
 
 Bir web sayfasının .docx dosyası olarak nasıl kaydedildiğini gösterir.
 
@@ -122,5 +124,3 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

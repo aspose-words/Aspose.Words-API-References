@@ -1,7 +1,9 @@
 ---
-title: Interface IHyphenationCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.IHyphenationCallback 界面. 由可以注册连字符字典的类实现
+title: IHyphenationCallback Interface
+linktitle: IHyphenationCallback
+articleTitle: IHyphenationCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.IHyphenationCallback 界面. 由可以注册连字符字典的类实现 在 C#.
 type: docs
 weight: 3190
 url: /zh/net/aspose.words/ihyphenationcallback/
@@ -18,9 +20,9 @@ public interface IHyphenationCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(string) | 通知应用程序未找到指定语言的连字符字典，可能需要注册。 |
+| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(*string*) | 通知应用程序未找到指定语言的连字符字典，可能需要注册。 |
 
-### 例子
+## 例子
 
 演示如何从文件打开和注册字典。
 
@@ -97,5 +99,3 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

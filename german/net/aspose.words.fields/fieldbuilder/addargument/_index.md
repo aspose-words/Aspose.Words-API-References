@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.AddArgument
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldBuilder methode. Fügt das Argument eines Feldes hinzu.
+linktitle: AddArgument
+articleTitle: AddArgument
+second_title: Aspose.Words für .NET
+description: FieldBuilder AddArgument methode. Fügt das Argument eines Feldes hinzu in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldbuilder/addargument/
 ---
-## AddArgument(string) {#addargument_4}
+## AddArgument(*string*) {#addargument_4}
 
 Fügt das Argument eines Feldes hinzu.
 
@@ -18,7 +20,7 @@ public FieldBuilder AddArgument(string argument)
 | --- | --- | --- |
 | argument | String | Der Argumentwert. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Felder mit einem Feld-Builder erstellt und dann in das Dokument eingefügt werden.
 
@@ -101,12 +103,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Siehe auch
 
 * class [FieldBuilder](../)
-* namensraum [Aspose.Words.Fields](../../fieldbuilder/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(int) {#addargument_3}
+## AddArgument(*int*) {#addargument_3}
 
 Fügt das Argument eines Feldes hinzu.
 
@@ -118,7 +120,7 @@ public FieldBuilder AddArgument(int argument)
 | --- | --- | --- |
 | argument | Int32 | Der Argumentwert. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Felder mit einem Feld-Builder erstellt und dann in das Dokument eingefügt werden.
 
@@ -201,12 +203,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Siehe auch
 
 * class [FieldBuilder](../)
-* namensraum [Aspose.Words.Fields](../../fieldbuilder/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(double) {#addargument_2}
+## AddArgument(*double*) {#addargument_2}
 
 Fügt das Argument eines Feldes hinzu.
 
@@ -218,7 +220,7 @@ public FieldBuilder AddArgument(double argument)
 | --- | --- | --- |
 | argument | Double | Der Argumentwert. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Felder mit einem Feld-Builder erstellt und dann in das Dokument eingefügt werden.
 
@@ -301,12 +303,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Siehe auch
 
 * class [FieldBuilder](../)
-* namensraum [Aspose.Words.Fields](../../fieldbuilder/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(FieldBuilder) {#addargument_1}
+## AddArgument(*[FieldBuilder](../)*) {#addargument_1}
 
 Fügt ein untergeordnetes Feld hinzu, das durch ein anderes dargestellt wird[`FieldBuilder`](../) zum Code des Feldes.
 
@@ -314,11 +316,11 @@ Fügt ein untergeordnetes Feld hinzu, das durch ein anderes dargestellt wird[`Fi
 public FieldBuilder AddArgument(FieldBuilder argument)
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Überladung wird verwendet, wenn das Argument aus einem einzelnen untergeordneten Feld besteht.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Felder mit einem Feld-Builder erstellt und dann in das Dokument eingefügt werden.
 
@@ -401,12 +403,12 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Siehe auch
 
 * class [FieldBuilder](../)
-* namensraum [Aspose.Words.Fields](../../fieldbuilder/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## AddArgument(FieldArgumentBuilder) {#addargument}
+## AddArgument(*[FieldArgumentBuilder](../../fieldargumentbuilder/)*) {#addargument}
 
 Fügt das Argument eines Feldes hinzu, das durch dargestellt wird[`FieldArgumentBuilder`](../../fieldargumentbuilder/) zum Code des Feldes.
 
@@ -414,11 +416,11 @@ Fügt das Argument eines Feldes hinzu, das durch dargestellt wird[`FieldArgument
 public FieldBuilder AddArgument(FieldArgumentBuilder argument)
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Überladung wird verwendet, wenn das Argument aus einer Mischung verschiedener Teile wie untergeordneten Feldern, Knoten und einfachem Text besteht.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Felder mit einem Feld-Builder erstellt und dann in das Dokument eingefügt werden.
 
@@ -502,7 +504,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [FieldArgumentBuilder](../../fieldargumentbuilder/)
 * class [FieldBuilder](../)
-* namensraum [Aspose.Words.Fields](../../fieldbuilder/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

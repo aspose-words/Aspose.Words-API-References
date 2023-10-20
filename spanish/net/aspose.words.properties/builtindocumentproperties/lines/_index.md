@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Lines
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuiltInDocumentProperties propiedad. Representa una estimación del número de líneas del documento.
+linktitle: Lines
+articleTitle: Lines
+second_title: Aspose.Words para .NET
+description: BuiltInDocumentProperties Lines propiedad. Representa una estimación del número de líneas del documento en C#.
 type: docs
 weight: 180
 url: /es/net/aspose.words.properties/builtindocumentproperties/lines/
@@ -14,11 +16,11 @@ Representa una estimación del número de líneas del documento.
 public int Lines { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Aspose.Words actualiza esta propiedad cuando llamas[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo actualizar todas las etiquetas de lista en un documento.
 
@@ -160,7 +162,5 @@ private class LineCounter
 ### Ver también
 
 * class [BuiltInDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum BreakType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.BreakType 枚举. 指定文档内的中断类型
+title: BreakType Enum
+linktitle: BreakType
+articleTitle: BreakType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.BreakType 枚举. 指定文档内的中断类型 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words/breaktype/
@@ -28,7 +30,7 @@ public enum BreakType
 | SectionBreakOddPage | `7` | 指定奇数页上新节的开始。 |
 | LineBreak | `8` | 显式换行符。 |
 
-### 例子
+## 例子
 
 演示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
 
@@ -138,5 +140,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Inline.Font
-second_title: Aspose.Words لمراجع .NET API
-description: Inline ملكية. يوفر الوصول إلى تنسيق الخط لهذا الكائن.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words لـ .NET
+description: Inline Font ملكية. يوفر الوصول إلى تنسيق الخط لهذا الكائن في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/inline/font/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/inline/font/
 public Font Font { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند Aspose.Words يدويًا.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [Font](../../font/)
 * class [Inline](../)
-* مساحة الاسم [Aspose.Words](../../inline/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

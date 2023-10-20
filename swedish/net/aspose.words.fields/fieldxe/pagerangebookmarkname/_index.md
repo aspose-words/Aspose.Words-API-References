@@ -1,7 +1,9 @@
 ---
 title: FieldXE.PageRangeBookmarkName
-second_title: Aspose.Words för .NET API Referens
-description: FieldXE fast egendom. Hämtar eller ställer in namnet på bokmärket som markerar ett intervall av sidor som infogas som postens sidnummer.
+linktitle: PageRangeBookmarkName
+articleTitle: PageRangeBookmarkName
+second_title: Aspose.Words för .NET
+description: FieldXE PageRangeBookmarkName fast egendom. Hämtar eller ställer in namnet på bokmärket som markerar ett intervall av sidor som infogas som postens sidnummer i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldxe/pagerangebookmarkname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på bokmärket som markerar ett intervall av si
 public string PageRangeBookmarkName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man anger ett bokmärkes spännade sidor som ett sidintervall för en INDEX-fältpost.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ### Se även
 
 * class [FieldXE](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldxe/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

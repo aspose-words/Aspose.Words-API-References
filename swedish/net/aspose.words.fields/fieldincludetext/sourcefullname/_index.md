@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.SourceFullName
-second_title: Aspose.Words för .NET API Referens
-description: FieldIncludeText fast egendom. Hämtar eller ställer in platsen för dokumentet med en IRI.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words för .NET
+description: FieldIncludeText SourceFullName fast egendom. Hämtar eller ställer in platsen för dokumentet med en IRI i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/fieldincludetext/sourcefullname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in platsen för dokumentet med en IRI.
 public string SourceFullName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett INCLUDETEXT-fält och ställer in dess egenskaper.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Se även
 
 * class [FieldIncludeText](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldincludetext/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

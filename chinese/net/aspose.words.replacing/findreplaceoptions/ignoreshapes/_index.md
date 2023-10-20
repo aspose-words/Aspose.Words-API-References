@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreShapes
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. 获取或设置一个布尔值指示忽略文本中的形状
+linktitle: IgnoreShapes
+articleTitle: IgnoreShapes
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions IgnoreShapes 财产. 获取或设置一个布尔值指示忽略文本中的形状 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.replacing/findreplaceoptions/ignoreshapes/
@@ -16,7 +18,7 @@ url: /zh/net/aspose.words.replacing/findreplaceoptions/ignoreshapes/
 public bool IgnoreShapes { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在替换文本时忽略形状。
 
@@ -36,7 +38,5 @@ Assert.AreEqual("Lorem ipsum dolor sit amet, consectetur adipiscing elit.", buil
 ### 也可以看看
 
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

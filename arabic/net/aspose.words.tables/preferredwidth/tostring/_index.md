@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.ToString
-second_title: Aspose.Words لمراجع .NET API
-description: PreferredWidth طريقة. تُرجع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words لـ .NET
+description: PreferredWidth ToString طريقة. تُرجع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.tables/preferredwidth/tostring/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/preferredwidth/tostring/
 public override string ToString()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين العرض المفضل لخلايا الجدول.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### أنظر أيضا
 
 * class [PreferredWidth](../)
-* مساحة الاسم [Aspose.Words.Tables](../../preferredwidth/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

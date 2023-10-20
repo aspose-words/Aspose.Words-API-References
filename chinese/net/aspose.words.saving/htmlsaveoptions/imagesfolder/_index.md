@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImagesFolder
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定将文档导出为 HTML 格式时保存图像的物理文件夹 默认为空字符串
+linktitle: ImagesFolder
+articleTitle: ImagesFolder
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions ImagesFolder 财产. 指定将文档导出为 HTML 格式时保存图像的物理文件夹 默认为空字符串 在 C#.
 type: docs
 weight: 360
 url: /zh/net/aspose.words.saving/htmlsaveoptions/imagesfolder/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/imagesfolder/
 public string ImagesFolder { get; set; }
 ```
 
-### 评论
+## 评论
 
 当您保存一个[`Document`](../../../aspose.words/document/)在 HTML 格式中，Aspose.Words 需要将文档中嵌入的所有 图像保存为独立文件。`ImagesFolder` 允许您指定图像的保存位置[`ImagesFolderAlias`](../imagesfolderalias/) 允许指定如何构建图像 URI。
 
@@ -26,7 +28,7 @@ public string ImagesFolder { get; set; }
 
 [`ResourceFolder`](../resourcefolder/)是指定保存图像的文件夹的另一种方法。
 
-### 例子
+## 例子
 
 显示如何在保存到 .html 后指定用于存储链接图像的文件夹。
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

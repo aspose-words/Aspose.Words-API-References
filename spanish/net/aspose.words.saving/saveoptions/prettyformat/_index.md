@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.PrettyFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: SaveOptions propiedad. cuandoverdadero salida con bonitos formatos cuando corresponda. El valor predeterminado esFALSO .
+linktitle: PrettyFormat
+articleTitle: PrettyFormat
+second_title: Aspose.Words para .NET
+description: SaveOptions PrettyFormat propiedad. cuandoverdadero salida con bonitos formatos cuando corresponda. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.saving/saveoptions/prettyformat/
@@ -14,11 +16,11 @@ cuando`verdadero` salida con bonitos formatos cuando corresponda. El valor prede
 public bool PrettyFormat { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Ajustado a`verdadero` para hacer que los resultados HTML, MHTML, EPUB, WordML, RTF, DOCX y ODT sean legibles para humanos. Útil para pruebas o depuración.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo mejorar la legibilidad del código sin formato de un documento .html guardado.
 
@@ -69,7 +71,5 @@ else
 ### Ver también
 
 * class [SaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../saveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

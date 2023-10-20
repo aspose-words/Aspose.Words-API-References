@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.NumberStyle
-second_title: Aspose.Words für .NET-API-Referenz
-description: FootnoteOptions eigendom. Gibt das Zahlenformat für automatisch nummerierte Fußnoten an.
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words für .NET
+description: FootnoteOptions NumberStyle eigendom. Gibt das Zahlenformat für automatisch nummerierte Fußnoten an in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.notes/footnoteoptions/numberstyle/
@@ -14,11 +16,11 @@ Gibt das Zahlenformat für automatisch nummerierte Fußnoten an.
 public NumberStyle NumberStyle { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Für diese Eigenschaft sind nicht alle Zahlenstile anwendbar. Die Liste der anwendbaren -Zahlenstile finden Sie im Dialogfeld „Fußnote oder Endnote einfügen“ in Microsoft Word. Wenn Sie einen nicht anwendbaren Zahlenstil auswählen , wird Microsoft Word auf einen Standardwert zurückgesetzt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Nummernstil von Fußnoten-/Endnoten-Referenzzeichen geändert wird.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "InlineStory.RefMarkNumberStyle.docx");
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [FootnoteOptions](../)
-* namensraum [Aspose.Words.Notes](../../footnoteoptions/)
+* namensraum [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Montage [Aspose.Words](../../../)
-
-

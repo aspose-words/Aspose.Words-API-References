@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.OpenHyperlinksInNewWindow
-second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Ottiene o imposta un valore che determina se i collegamenti ipertestuali nel documento Pdf di output devono essere aperti in una nuova finestra o scheda di un browser.
+linktitle: OpenHyperlinksInNewWindow
+articleTitle: OpenHyperlinksInNewWindow
+second_title: Aspose.Words per .NET
+description: PdfSaveOptions OpenHyperlinksInNewWindow proprietà. Ottiene o imposta un valore che determina se i collegamenti ipertestuali nel documento Pdf di output devono essere aperti in una nuova finestra o scheda di un browser in C#.
 type: docs
 weight: 230
 url: /it/net/aspose.words.saving/pdfsaveoptions/openhyperlinksinnewwindow/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore che determina se i collegamenti ipertestuali nel doc
 public bool OpenHyperlinksInNewWindow { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`falso` . Quando questo valore è impostato su`VERO` i collegamenti ipertestuali vengono salvati utilizzando il codice JavaScript. Il codice JavaScript è`app.launchURL("URL", true);` , dove`URL` è un collegamento ipertestuale.
 
@@ -22,7 +24,7 @@ Tieni presente che se questa opzione è impostata su`VERO` i collegamenti iperte
 
 Le azioni JavaScript sono vietate dalla conformità PDF/A-1 e PDF/A-2.`falso`verrà utilizzato automaticamente durante il salvataggio in PDF/A-1 e PDF/A-2.
 
-### Esempi
+## Esempi
 
 Mostra come salvare i collegamenti ipertestuali in un documento che convertiamo in PDF in modo che aprano nuove pagine quando facciamo clic su di essi.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.OpenHyperlinksInNewWindow.pdf", options)
 ### Guarda anche
 
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

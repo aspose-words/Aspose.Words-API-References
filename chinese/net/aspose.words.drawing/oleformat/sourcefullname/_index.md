@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SourceFullName
-second_title: Aspose.Words for .NET API 参考
-description: OleFormat 财产. 获取或设置链接的 OLE 对象的源文件的路径和名称
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: 用于 .NET 的 Aspose.Words
+description: OleFormat SourceFullName 财产. 获取或设置链接的 OLE 对象的源文件的路径和名称 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.drawing/oleformat/sourcefullname/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/oleformat/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为空字符串。
 
 如果`SourceFullName`不是空字符串，OLE 对象已链接。
 
-### 例子
+## 例子
 
 演示如何插入链接和未链接的 OLE 对象。
 
@@ -70,7 +72,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### 也可以看看
 
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

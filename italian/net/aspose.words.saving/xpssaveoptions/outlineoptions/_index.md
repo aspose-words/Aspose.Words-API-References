@@ -1,7 +1,9 @@
 ---
 title: XpsSaveOptions.OutlineOptions
-second_title: Aspose.Words per .NET API Reference
-description: XpsSaveOptions proprietà. Permette di specificare le opzioni del contorno.
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words per .NET
+description: XpsSaveOptions OutlineOptions proprietà. Permette di specificare le opzioni del contorno in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/xpssaveoptions/outlineoptions/
@@ -14,11 +16,11 @@ Permette di specificare le opzioni del contorno.
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Notare che[`ExpandedOutlineLevels`](../../outlineoptions/expandedoutlinelevels/) l'opzione non funzionerà durante il salvataggio su XPS.
 
-### Esempi
+## Esempi
 
 Mostra come limitare il livello delle intestazioni che appariranno nella struttura di un documento XPS salvato.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [XpsSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../xpssaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

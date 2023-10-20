@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.LastRecord
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDatabase propiedad. Obtiene o establece el número de registro integral del último registro de datos a insertar.
+linktitle: LastRecord
+articleTitle: LastRecord
+second_title: Aspose.Words para .NET
+description: FieldDatabase LastRecord propiedad. Obtiene o establece el número de registro integral del último registro de datos a insertar en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.fields/fielddatabase/lastrecord/
@@ -14,7 +16,7 @@ Obtiene o establece el número de registro integral del último registro de dato
 public string LastRecord { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer datos de una base de datos e insertarlos como un campo en un documento.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Ver también
 
 * class [FieldDatabase](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddatabase/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

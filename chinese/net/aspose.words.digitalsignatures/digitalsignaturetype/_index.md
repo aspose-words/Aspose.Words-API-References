@@ -1,7 +1,9 @@
 ---
-title: Enum DigitalSignatureType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.DigitalSignatures.DigitalSignatureType 枚举. 指定数字签名的类型
+title: DigitalSignatureType Enum
+linktitle: DigitalSignatureType
+articleTitle: DigitalSignatureType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.DigitalSignatures.DigitalSignatureType 枚举. 指定数字签名的类型 在 C#.
 type: docs
 weight: 400
 url: /zh/net/aspose.words.digitalsignatures/digitalsignaturetype/
@@ -22,7 +24,7 @@ public enum DigitalSignatureType
 | CryptoApi | `1` | Microsoft Word 97-2003 .DOC 二进制文档中使用的加密 API 签名方法。 |
 | XmlDsig | `2` | OOXML 和 OpenDocument 文档中使用的 XmlDsig 签名方法。 |
 
-### 例子
+## 例子
 
 演示如何使用 X.509 证书签署文档。
 
@@ -66,5 +68,3 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * 命名空间 [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../)
-
-

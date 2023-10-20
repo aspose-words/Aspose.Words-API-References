@@ -1,7 +1,9 @@
 ---
 title: FieldSet.BookmarkText
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldSet propiedad. Obtiene o establece el nuevo texto del marcador.
+linktitle: BookmarkText
+articleTitle: BookmarkText
+second_title: Aspose.Words para .NET
+description: FieldSet BookmarkText propiedad. Obtiene o establece el nuevo texto del marcador en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldset/bookmarktext/
@@ -14,7 +16,7 @@ Obtiene o establece el nuevo texto del marcador.
 public string BookmarkText { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear texto marcado con un campo SET y luego mostrarlo en el documento usando un campo REF.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 ### Ver también
 
 * class [FieldSet](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldset/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

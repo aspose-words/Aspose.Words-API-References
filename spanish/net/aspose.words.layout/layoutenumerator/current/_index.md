@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Current
-second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutEnumerator propiedad. Obtiene o establece la posición actual en el modelo de diseño de página. Esta propiedad devuelve un objeto opaco que corresponde a la entidad de diseño actual.
+linktitle: Current
+articleTitle: Current
+second_title: Aspose.Words para .NET
+description: LayoutEnumerator Current propiedad. Obtiene o establece la posición actual en el modelo de diseño de página. Esta propiedad devuelve un objeto opaco que corresponde a la entidad de diseño actual en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.layout/layoutenumerator/current/
@@ -14,7 +16,7 @@ Obtiene o establece la posición actual en el modelo de diseño de página. Esta
 public object Current { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ver los rangos de páginas que abarca un nodo.
 
@@ -72,7 +74,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 ### Ver también
 
 * class [LayoutEnumerator](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutenumerator/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

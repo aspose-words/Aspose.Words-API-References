@@ -1,7 +1,9 @@
 ---
-title: Class HyphenationOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Settings.HyphenationOptions klass. Gör det möjligt att konfigurera alternativ för dokumentavstavning.
+title: HyphenationOptions Class
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Settings.HyphenationOptions klass. Gör det möjligt att konfigurera alternativ för dokumentavstavning i C#.
 type: docs
 weight: 5790
 url: /sv/net/aspose.words.settings/hyphenationoptions/
@@ -31,7 +33,7 @@ public class HyphenationOptions
 | [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Hämtar eller ställer in ett värde som avgör om ord skrivna med stora bokstäver är avstavade. Standardvärdet för den här egenskapen är`Sann` . |
 | [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Hämtar eller ställer in avståndet i 1/20 av en punkt från högermarginalen inom vilken du inte vill att ska avstava ord. Standardvärdet för den här egenskapen är 360 (0,25 tum). |
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar automatisk avstavning.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 
 * namnutrymme [Aspose.Words.Settings](../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../)
-
-

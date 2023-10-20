@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.BookmarkName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldNoteRef eigendom. Ruft den Namen des Lesezeichens ab oder legt ihn fest.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words für .NET
+description: FieldNoteRef BookmarkName eigendom. Ruft den Namen des Lesezeichens ab oder legt ihn fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldnoteref/bookmarkname/
@@ -14,7 +16,7 @@ Ruft den Namen des Lesezeichens ab oder legt ihn fest.
 public string BookmarkName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt das Einfügen von NOTEREF-Feldern und das Ändern ihres Erscheinungsbilds an.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### Siehe auch
 
 * class [FieldNoteRef](../)
-* namensraum [Aspose.Words.Fields](../../fieldnoteref/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

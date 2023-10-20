@@ -1,7 +1,9 @@
 ---
 title: PrinterSettingsContainer.PaperSizes
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PrinterSettingsContainer propriété. VoirPaperSizes .
+linktitle: PaperSizes
+articleTitle: PaperSizes
+second_title: Aspose.Words pour .NET
+description: PrinterSettingsContainer PaperSizes propriété. VoirPaperSizes  en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.rendering/printersettingscontainer/papersizes/
@@ -14,7 +16,7 @@ VoirPaperSizes .
 public PaperSizeCollection PaperSizes { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder et répertorier les sources et formats de papier de votre imprimante.
 
@@ -47,7 +49,5 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 ### Voir également
 
 * class [PrinterSettingsContainer](../)
-* espace de noms [Aspose.Words.Rendering](../../printersettingscontainer/)
+* espace de noms [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class CustomPartCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.CustomPartCollection сорт. Представляет коллекциюCustomPart объекты.
+title: CustomPartCollection Class
+linktitle: CustomPartCollection
+articleTitle: CustomPartCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Markup.CustomPartCollection сорт. Представляет коллекциюCustomPart объекты на С#.
 type: docs
 weight: 3910
 url: /ru/net/aspose.words.markup/custompartcollection/
@@ -33,17 +35,17 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.markup/custompartcollection/add/)(CustomPart) | Добавляет элемент в коллекцию. |
+| [Add](../../aspose.words.markup/custompartcollection/add/)(*[CustomPart](../custompart/)*) | Добавляет элемент в коллекцию. |
 | [Clear](../../aspose.words.markup/custompartcollection/clear/)() | Удаляет все элементы из коллекции. |
 | [Clone](../../aspose.words.markup/custompartcollection/clone/)() | Создает глубокую копию этой коллекции и ее элементов. |
 | [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
-| [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(int) | Удаляет элемент по указанному индексу. |
+| [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(*int*) | Удаляет элемент по указанному индексу. |
 
-### Примечания
+## Примечания
 
 Обычно вам не нужно создавать экземпляры этого класса. Вы получаете доступ к пользовательским частям , связанным с пакетом OOXML, через[`PackageCustomParts`](../../aspose.words/document/packagecustomparts/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
 
@@ -89,5 +91,3 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 * class [CustomPart](../custompart/)
 * пространство имен [Aspose.Words.Markup](../../aspose.words.markup/)
 * сборка [Aspose.Words](../../)
-
-

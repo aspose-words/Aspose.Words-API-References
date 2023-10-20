@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.StyleName
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft den Namen des Absatzstils ab der auf diese Formatierung angewendet wird oder legt diesen fest.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words für .NET
+description: ParagraphFormat StyleName eigendom. Ruft den Namen des Absatzstils ab der auf diese Formatierung angewendet wird oder legt diesen fest in C#.
 type: docs
 weight: 360
 url: /de/net/aspose.words/paragraphformat/stylename/
@@ -14,7 +16,7 @@ Ruft den Namen des Absatzstils ab, der auf diese Formatierung angewendet wird, o
 public string StyleName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Aspose.Words-Dokument manuell erstellt.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

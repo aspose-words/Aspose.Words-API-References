@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToBookmark
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Sposta il cursore su un segnalibro.
+linktitle: MoveToBookmark
+articleTitle: MoveToBookmark
+second_title: Aspose.Words per .NET
+description: DocumentBuilder MoveToBookmark metodo. Sposta il cursore su un segnalibro in C#.
 type: docs
-weight: 500
+weight: 490
 url: /it/net/aspose.words/documentbuilder/movetobookmark/
 ---
-## MoveToBookmark(string) {#movetobookmark}
+## MoveToBookmark(*string*) {#movetobookmark}
 
 Sposta il cursore su un segnalibro.
 
@@ -22,7 +24,7 @@ public bool MoveToBookmark(string bookmarkName)
 
 `VERO` se il segnalibro è stato trovato;`falso` Altrimenti.
 
-### Osservazioni
+## Osservazioni
 
 Sposta il cursore in una posizione subito dopo l'inizio del segnalibro con il nome specificato.
 
@@ -32,7 +34,7 @@ L'inserimento di un nuovo testo non sostituisce il testo esistente del segnalibr
 
 Tieni presente che alcuni segnalibri nel documento sono assegnati a campi modulo. Passando a tale segnalibro e inserendo del testo lì, si inserisce il testo nel codice del campo modulo . Sebbene ciò non invaliderà il campo del modulo, il testo inserito non sarà visibile perché diventa parte del codice del campo.
 
-### Esempi
+## Esempi
 
 Mostra come spostare il cursore di un generatore di documenti su diversi nodi in un documento.
 
@@ -86,12 +88,12 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Guarda anche
 
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## MoveToBookmark(string, bool, bool) {#movetobookmark_1}
+## MoveToBookmark(*string, bool, bool*) {#movetobookmark_1}
 
 Sposta il cursore su un segnalibro con maggiore precisione.
 
@@ -109,7 +111,7 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 
 `VERO` se il segnalibro è stato trovato;`falso` Altrimenti.
 
-### Osservazioni
+## Osservazioni
 
 Sposta il cursore in una posizione prima o dopo l'inizio o la fine del segnalibro.
 
@@ -117,7 +119,7 @@ Se la posizione desiderata non è a livello in linea, passa al paragrafo success
 
 Il confronto non fa distinzione tra maiuscole e minuscole. Se il segnalibro non è stato trovato,`falso` viene restituito is e il cursore non viene spostato.
 
-### Esempi
+## Esempi
 
 Mostra come spostare il cursore del punto di inserimento del nodo di un generatore di documenti su un segnalibro.
 
@@ -166,7 +168,5 @@ Assert.AreEqual("1. 2. Hello world! 3. 4.", doc.GetText().Trim());
 ### Guarda anche
 
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

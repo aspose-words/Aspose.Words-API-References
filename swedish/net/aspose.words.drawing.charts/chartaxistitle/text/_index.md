@@ -1,9 +1,11 @@
 ---
 title: ChartAxisTitle.Text
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxisTitle fast egendom. Hämtar eller ställer in texten i axeltiteln. Omnull eller tomt värde anges kommer automatiskt genererad titel att visas.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: ChartAxisTitle Text fast egendom. Hämtar eller ställer in texten i axeltiteln. Omnull eller tomt värde anges kommer automatiskt genererad titel att visas i C#.
 type: docs
-weight: 40
+weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartaxistitle/text/
 ---
 ## ChartAxisTitle.Text property
@@ -14,11 +16,11 @@ Hämtar eller ställer in texten i axeltiteln. Om`null` eller tomt värde anges,
 public string Text { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Använda sig av[`Show`](../show/) alternativet om du behöver visa titeln.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in diagramaxelns titel.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ### Se även
 
 * class [ChartAxisTitle](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

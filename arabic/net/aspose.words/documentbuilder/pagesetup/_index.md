@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.PageSetup
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. إرجاع كائن يمثل إعداد الصفحة الحالية وخصائص القسم.
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder PageSetup ملكية. إرجاع كائن يمثل إعداد الصفحة الحالية وخصائص القسم في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words/documentbuilder/pagesetup/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbuilder/pagesetup/
 public PageSetup PageSetup { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * class [PageSetup](../../pagesetup/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

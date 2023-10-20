@@ -1,7 +1,9 @@
 ---
-title: Class ListCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Lists.ListCollection 班级. 存储和管理文档中使用的项目符号列表和编号列表的格式
+title: ListCollection Class
+linktitle: ListCollection
+articleTitle: ListCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Lists.ListCollection 班级. 存储和管理文档中使用的项目符号列表和编号列表的格式 在 C#.
 type: docs
 weight: 3470
 url: /zh/net/aspose.words.lists/listcollection/
@@ -28,13 +30,13 @@ public class ListCollection : IEnumerable<List>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | 根据预定义模板创建新列表并将其添加到文档中的列表集合中。 |
-| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | 创建引用列表样式的新列表并将其添加到文档中的列表集合中。 |
-| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(List) | 通过复制指定列表并将其添加到文档中的列表集合中来创建新列表。 |
+| [Add](../../aspose.words.lists/listcollection/add/#add)(*[ListTemplate](../listtemplate/)*) | 根据预定义模板创建新列表并将其添加到文档中的列表集合中。 |
+| [Add](../../aspose.words.lists/listcollection/add/#add_1)(*[Style](../../aspose.words/style/)*) | 创建引用列表样式的新列表并将其添加到文档中的列表集合中。 |
+| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(*[List](../list/)*) | 通过复制指定列表并将其添加到文档中的列表集合中来创建新列表。 |
 | [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | 获取将枚举文档中列表的枚举器对象。 |
-| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(int) | 通过列表标识符获取列表。 |
+| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(*int*) | 通过列表标识符获取列表。 |
 
-### 评论
+## 评论
 
 Microsoft Word 文档中的列表是一组列表格式属性。 列表的格式存储在`ListCollection`从文本段落中分别收集 。
 
@@ -54,7 +56,7 @@ Microsoft Word 文档中的列表是一组列表格式属性。 列表的格式�
 
 一旦列表在当前版本的 Aspose.Words. 中创建，就无法删除列表，这类似于 Microsoft Word，用户对列表定义没有明确的控制权。
 
-### 例子
+## 例子
 
 演示如何使用另一个文档中的所有列表的示例创建文档。
 
@@ -182,5 +184,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 * class [List](../list/)
 * 命名空间 [Aspose.Words.Lists](../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../)
-
-

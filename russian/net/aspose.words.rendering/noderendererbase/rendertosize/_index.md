@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.RenderToSize
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeRendererBase метод. Преобразует фигуру вGraphics объект указанного размера.
+linktitle: RenderToSize
+articleTitle: RenderToSize
+second_title: Aspose.Words для .NET
+description: NodeRendererBase RenderToSize метод. Преобразует фигуру вGraphics объект указанного размера на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.rendering/noderendererbase/rendertosize/
@@ -26,7 +28,7 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 
 Масштаб, автоматически рассчитанный для отображаемой фигуры, чтобы соответствовать указанному размеру.
 
-### Примеры
+## Примеры
 
 Показывает, как визуализировать фигуру с помощью объекта Graphics и отобразить ее с помощью формы Windows.
 
@@ -136,7 +138,5 @@ private class ShapeForm : Form
 ### Смотрите также
 
 * class [NodeRendererBase](../)
-* пространство имен [Aspose.Words.Rendering](../../noderendererbase/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

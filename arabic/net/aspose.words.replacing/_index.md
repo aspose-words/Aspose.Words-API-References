@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Replacing
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Replaceing توفر مساحة الاسم فئات للتعامل مع من خلال عمليات البحث/الاستبدال عبر شجرة المستندات.
+linktitle: Aspose.Words.Replacing
+articleTitle: Aspose.Words.Replacing
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Replaceing توفر مساحة الاسم فئات للتعامل مع من خلال عمليات البحث/الاستبدال عبر شجرة المستندات في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words.replacing/
 ---
-ال **Aspose.Words.Replaceing** توفر مساحة الاسم فئات للتعامل مع من خلال عمليات البحث/الاستبدال عبر شجرة المستندات.
+ال**Aspose.Words.Replaceing** توفر مساحة الاسم فئات للتعامل مع من خلال عمليات البحث/الاستبدال عبر شجرة المستندات.
 
 ## الطبقات
 
@@ -25,5 +27,3 @@ url: /ar/net/aspose.words.replacing/
 | --- | --- |
 | [FindReplaceDirection](./findreplacedirection/) | يحدد اتجاه عمليات الاستبدال. |
 | [ReplaceAction](./replaceaction/) | يسمح للمستخدم بتحديد ما يحدث للمطابقة الحالية أثناء عملية الاستبدال. |
-
-

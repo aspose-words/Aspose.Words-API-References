@@ -1,24 +1,26 @@
 ---
 title: SignOptions.SignatureLineId
-second_title: Справочник по API Aspose.Words для .NET
-description: SignOptions свойство. Идентификатор строки подписи. Значение по умолчанию Пустой все нули Guid .
+linktitle: SignatureLineId
+articleTitle: SignatureLineId
+second_title: Aspose.Words для .NET
+description: SignOptions SignatureLineId свойство. Идентификатор строки подписи. Значение по умолчаниюПустой все нули Guid  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.digitalsignatures/signoptions/signaturelineid/
 ---
 ## SignOptions.SignatureLineId property
 
-Идентификатор строки подписи. Значение по умолчанию: **Пустой (все нули) Guid** .
+Идентификатор строки подписи. Значение по умолчанию:**Пустой (все нули) Guid** .
 
 ```csharp
 public Guid SignatureLineId { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если установлено, он связывается[`SignatureLine`](../../../aspose.words.drawing/signatureline/) с соответствующими[`DigitalSignature`](../../digitalsignature/) .
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ строку подписи, а затем подписать его с помощью цифрового сертификата.
 
@@ -134,7 +136,5 @@ public Guid SignatureLineId { get; set; }
 ### Смотрите также
 
 * class [SignOptions](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../signoptions/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Hash
-second_title: Aspose.Words per .NET API Reference
-description: OdsoRecipientData proprietà. Rappresenta il codice hash per questo record. A volte utilizza Microsoft WordHash di un intero record invece di aUniqueTag valore. Il valore predefinito è 0.
+linktitle: Hash
+articleTitle: Hash
+second_title: Aspose.Words per .NET
+description: OdsoRecipientData Hash proprietà. Rappresenta il codice hash per questo record. A volte utilizza Microsoft WordHash di un intero record invece di aUniqueTag valore. Il valore predefinito è 0 in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.settings/odsorecipientdata/hash/
@@ -14,7 +16,7 @@ Rappresenta il codice hash per questo record. A volte utilizza Microsoft Word`Ha
 public int Hash { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Guarda anche
 
 * class [OdsoRecipientData](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odsorecipientdata/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

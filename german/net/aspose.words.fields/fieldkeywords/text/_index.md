@@ -1,7 +1,9 @@
 ---
 title: FieldKeywords.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldKeywords eigendom. Ruft den Text der Schlüsselwörter ab oder legt ihn fest.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: FieldKeywords Text eigendom. Ruft den Text der Schlüsselwörter ab oder legt ihn fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldkeywords/text/
@@ -14,7 +16,7 @@ Ruft den Text der Schlüsselwörter ab oder legt ihn fest.
 public string Text { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt das Einfügen eines KEYWORDS-Felds an.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.KEYWORDS.docx");
 ### Siehe auch
 
 * class [FieldKeywords](../)
-* namensraum [Aspose.Words.Fields](../../fieldkeywords/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

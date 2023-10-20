@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: StyleCollection 方法. 获取一个枚举器对象该对象将按名称的字母顺序枚举样式
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: StyleCollection GetEnumerator 方法. 获取一个枚举器对象该对象将按名称的字母顺序枚举样式 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/stylecollection/getenumerator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/stylecollection/getenumerator/
 public IEnumerator<Style> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 演示如何访问文档的样式集合。
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* 命名空间 [Aspose.Words](../../stylecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

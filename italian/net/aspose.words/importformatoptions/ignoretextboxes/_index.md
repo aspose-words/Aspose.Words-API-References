@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.IgnoreTextBoxes
-second_title: Aspose.Words per .NET API Reference
-description: ImportFormatOptions proprietà. Ottiene o imposta un valore booleano che specifica che la formattazione di origine del contenuto delle caselle di testo viene ignorata seKeepSourceFormatting viene utilizzata la modalità. Il valore predefinito èVERO .
+linktitle: IgnoreTextBoxes
+articleTitle: IgnoreTextBoxes
+second_title: Aspose.Words per .NET
+description: ImportFormatOptions IgnoreTextBoxes proprietà. Ottiene o imposta un valore booleano che specifica che la formattazione di origine del contenuto delle caselle di testo viene ignorata seKeepSourceFormatting viene utilizzata la modalità. Il valore predefinito èVERO  in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/importformatoptions/ignoretextboxes/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore booleano che specifica che la formattazione di origi
 public bool IgnoreTextBoxes { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come gestire la formattazione della casella di testo durante l'aggiunta di un documento.
 
@@ -63,7 +65,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.IgnoreTextBoxes.docx");
 ### Guarda anche
 
 * class [ImportFormatOptions](../)
-* spazio dei nomi [Aspose.Words](../../importformatoptions/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

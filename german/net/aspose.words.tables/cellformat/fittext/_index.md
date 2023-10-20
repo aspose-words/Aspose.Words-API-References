@@ -1,7 +1,9 @@
 ---
 title: CellFormat.FitText
-second_title: Aspose.Words für .NET-API-Referenz
-description: CellFormat eigendom. WennWAHR  passt den Text in die Zelle ein und komprimiert jeden Absatz auf die Breite der Zelle.
+linktitle: FitText
+articleTitle: FitText
+second_title: Aspose.Words für .NET
+description: CellFormat FitText eigendom. WennWAHR  passt den Text in die Zelle ein und komprimiert jeden Absatz auf die Breite der Zelle in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.tables/cellformat/fittext/
@@ -14,7 +16,7 @@ Wenn`WAHR` , passt den Text in die Zelle ein und komprimiert jeden Absatz auf di
 public bool FitText { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Tabelle mit benutzerdefinierten Rändern erstellt.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Siehe auch
 
 * class [CellFormat](../)
-* namensraum [Aspose.Words.Tables](../../cellformat/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

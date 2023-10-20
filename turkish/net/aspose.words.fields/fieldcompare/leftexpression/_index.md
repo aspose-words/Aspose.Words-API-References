@@ -1,7 +1,9 @@
 ---
 title: FieldCompare.LeftExpression
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCompare mülk. Karşılaştırma ifadesinin sol kısmını alır veya ayarlar.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words for .NET
+description: FieldCompare LeftExpression mülk. Karşılaştırma ifadesinin sol kısmını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldcompare/leftexpression/
@@ -14,7 +16,7 @@ Karşılaştırma ifadesinin sol kısmını alır veya ayarlar.
 public string LeftExpression { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 KARŞILAŞTIRMA alanı kullanılarak ifadelerin nasıl karşılaştırılacağını gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.COMPARE.docx");
 ### Ayrıca bakınız
 
 * class [FieldCompare](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcompare/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

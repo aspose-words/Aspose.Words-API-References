@@ -1,7 +1,9 @@
 ---
 title: Shading.BackgroundPatternColor
-second_title: Aspose.Words for .NET API Referansı
-description: Shading mülk. Arka plana uygulanan rengi alır veya ayarlar.Shading nesne.
+linktitle: BackgroundPatternColor
+articleTitle: BackgroundPatternColor
+second_title: Aspose.Words for .NET
+description: Shading BackgroundPatternColor mülk. Arka plana uygulanan rengi alır veya ayarlar.Shading nesne C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/shading/backgroundpatterncolor/
@@ -14,7 +16,7 @@ Arka plana uygulanan rengi alır veya ayarlar.[`Shading`](../) nesne.
 public Color BackgroundPatternColor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metnin kenarlıklar ve gölgelendirmeyle nasıl süsleneceğini gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ### Ayrıca bakınız
 
 * class [Shading](../)
-* ad alanı [Aspose.Words](../../shading/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

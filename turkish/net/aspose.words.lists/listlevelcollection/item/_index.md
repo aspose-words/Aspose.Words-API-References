@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevelCollection mülk. Dizine göre bir liste düzeyi alır.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: ListLevelCollection Item mülk. Dizine göre bir liste düzeyi alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.lists/listlevelcollection/item/
@@ -14,7 +16,7 @@ Dizine göre bir liste düzeyi alır.
 public ListLevel this[int index] { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Liste stilinin nasıl oluşturulacağını ve belgede nasıl kullanılacağını gösterir.
 
@@ -130,7 +132,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListLevelCollection](../)
-* ad alanı [Aspose.Words.Lists](../../listlevelcollection/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

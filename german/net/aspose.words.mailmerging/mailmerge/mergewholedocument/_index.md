@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MergeWholeDocument
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob Felder im gesamten Dokument beim Ausführen eines Seriendrucks mit Regionen aktualisiert werden.
+linktitle: MergeWholeDocument
+articleTitle: MergeWholeDocument
+second_title: Aspose.Words für .NET
+description: MailMerge MergeWholeDocument eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob Felder im gesamten Dokument beim Ausführen eines Seriendrucks mit Regionen aktualisiert werden in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.mailmerging/mailmerge/mergewholedocument/
@@ -14,11 +16,11 @@ Ruft einen Wert ab oder legt diesen fest, der angibt, ob Felder im gesamten Doku
 public bool MergeWholeDocument { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH` .
 
-### Beispiele
+## Beispiele
 
 Zeigt die Beziehung zwischen Serienbriefen mit Regionen und der Feldaktualisierung.
 
@@ -85,7 +87,5 @@ private static DataTable CreateSourceTableMergeWholeDocument()
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

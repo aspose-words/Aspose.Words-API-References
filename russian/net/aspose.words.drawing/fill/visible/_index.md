@@ -1,9 +1,11 @@
 ---
 title: Fill.Visible
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill свойство. Получает или задает значениеистинный если форматирование примененное к этому экземпляру видимо.
+linktitle: Visible
+articleTitle: Visible
+second_title: Aspose.Words для .NET
+description: Fill Visible свойство. Получает или задает значениеистинный если форматирование примененное к этому экземпляру видимо на С#.
 type: docs
-weight: 210
+weight: 200
 url: /ru/net/aspose.words.drawing/fill/visible/
 ---
 ## Fill.Visible property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/fill/visible/
 public bool Visible { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Смотрите также
 
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

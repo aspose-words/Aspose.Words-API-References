@@ -1,7 +1,9 @@
 ---
 title: Document.WriteProtection
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Ger åtkomst till alternativen för dokumentskrivskydd.
+linktitle: WriteProtection
+articleTitle: WriteProtection
+second_title: Aspose.Words för .NET
+description: Document WriteProtection fast egendom. Ger åtkomst till alternativen för dokumentskrivskydd i C#.
 type: docs
 weight: 500
 url: /sv/net/aspose.words/document/writeprotection/
@@ -14,7 +16,7 @@ Ger åtkomst till alternativen för dokumentskrivskydd.
 public WriteProtection WriteProtection { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skyddar ett dokument med ett lösenord.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 
 * class [WriteProtection](../../../aspose.words.settings/writeprotection/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

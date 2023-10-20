@@ -1,7 +1,9 @@
 ---
-title: Class BarcodeParameters
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.BarcodeParameters klass. Behållarklass för streckkodsparametrar att skickas till BarcodeGenerator.
+title: BarcodeParameters Class
+linktitle: BarcodeParameters
+articleTitle: BarcodeParameters
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.BarcodeParameters klass. Behållarklass för streckkodsparametrar att skickas till BarcodeGenerator i C#.
 type: docs
 weight: 1470
 url: /sv/net/aspose.words.fields/barcodeparameters/
@@ -44,11 +46,11 @@ public class BarcodeParameters
 | [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight/) { get; set; } | Streckkodsbildhöjd (i twips - 1/1440 tum) |
 | [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation/) { get; set; } | Rotation av streckkodssymbolen. Giltiga värden är [0, 3]. |
 
-### Anmärkningar
+## Anmärkningar
 
 Parametrarnas uppsättning är enligt DISPLAYBARCODE fältalternativ. Se den exakta listan på[https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx)
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -125,5 +127,3 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

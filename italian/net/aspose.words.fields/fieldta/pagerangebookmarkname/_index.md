@@ -1,7 +1,9 @@
 ---
 title: FieldTA.PageRangeBookmarkName
-second_title: Aspose.Words per .NET API Reference
-description: FieldTA proprietà. Ottiene o imposta il nome del segnalibro che contrassegna un intervallo di pagine inserito come numero di pagina della voce.
+linktitle: PageRangeBookmarkName
+articleTitle: PageRangeBookmarkName
+second_title: Aspose.Words per .NET
+description: FieldTA PageRangeBookmarkName proprietà. Ottiene o imposta il nome del segnalibro che contrassegna un intervallo di pagine inserito come numero di pagina della voce in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/fieldta/pagerangebookmarkname/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del segnalibro che contrassegna un intervallo di pagin
 public string PageRangeBookmarkName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare e personalizzare una tabella di autorità utilizzando i campi TOA e TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Guarda anche
 
 * class [FieldTA](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldta/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

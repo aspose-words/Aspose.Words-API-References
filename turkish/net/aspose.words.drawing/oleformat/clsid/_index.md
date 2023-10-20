@@ -1,7 +1,9 @@
 ---
 title: OleFormat.Clsid
-second_title: Aspose.Words for .NET API Referansı
-description: OleFormat mülk. OLE nesnesinin CLSIDsini alır.
+linktitle: Clsid
+articleTitle: Clsid
+second_title: Aspose.Words for .NET
+description: OleFormat Clsid mülk. OLE nesnesinin CLSIDsini alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing/oleformat/clsid/
@@ -14,7 +16,7 @@ OLE nesnesinin CLSID'sini alır.
 public Guid Clsid { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye katıştırılmış bir OLE denetimine ve onun alt denetimlerine nasıl erişileceğini gösterir.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 ### Ayrıca bakınız
 
 * class [OleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../oleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

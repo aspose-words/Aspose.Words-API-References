@@ -1,7 +1,9 @@
 ---
 title: Style.Font
-second_title: Справочник по API Aspose.Words для .NET
-description: Style свойство. Получает форматирование символов стиля.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words для .NET
+description: Style Font свойство. Получает форматирование символов стиля на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/style/font/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/style/font/
 public Font Font { get; }
 ```
 
-### Примечания
+## Примечания
 
 Для стилей списков это свойство возвращает`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как создать и использовать стиль абзаца с форматированием списка.
 
@@ -85,7 +87,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 * class [Font](../../font/)
 * class [Style](../)
-* пространство имен [Aspose.Words](../../style/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

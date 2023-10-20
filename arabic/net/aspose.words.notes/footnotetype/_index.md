@@ -1,7 +1,9 @@
 ---
-title: Enum FootnoteType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Notes.FootnoteType تعداد. يحدد ما إذا كانت هذه حاشية سفلية أم تعليق ختامي.
+title: FootnoteType Enum
+linktitle: FootnoteType
+articleTitle: FootnoteType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Notes.FootnoteType تعداد. يحدد ما إذا كانت هذه حاشية سفلية أم تعليق ختامي في C#.
 type: docs
 weight: 4300
 url: /ar/net/aspose.words.notes/footnotetype/
@@ -21,11 +23,11 @@ public enum FootnoteType
 | Footnote | `0` | الكائن عبارة عن حاشية سفلية. |
 | Endnote | `1` | الكائن عبارة عن تعليق ختامي. |
 
-### ملاحظات
+## ملاحظات
 
 يتم تمثيل كل من الحواشي السفلية والتعليقات الختامية بكائنات بواسطةFootnote فئة. يستخدم[`FootnoteType`](../footnote/footnotetype/) للتمييز بين الحواشي السفلية والتعليقات الختامية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الإشارة إلى النص باستخدام حاشية سفلية وتعليق ختامي.
 
@@ -100,5 +102,3 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * مساحة الاسم [Aspose.Words.Notes](../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../)
-
-

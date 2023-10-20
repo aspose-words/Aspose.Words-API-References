@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SplitPgBreakAndParaMark
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Absatzmarke nach einem Seitenumbruch immer auf die Seite verschieben.
+linktitle: SplitPgBreakAndParaMark
+articleTitle: SplitPgBreakAndParaMark
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions SplitPgBreakAndParaMark eigendom. Absatzmarke nach einem Seitenumbruch immer auf die Seite verschieben in C#.
 type: docs
 weight: 460
 url: /de/net/aspose.words.settings/compatibilityoptions/splitpgbreakandparamark/
@@ -17,7 +19,5 @@ public bool SplitPgBreakAndParaMark { get; set; }
 ### Siehe auch
 
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

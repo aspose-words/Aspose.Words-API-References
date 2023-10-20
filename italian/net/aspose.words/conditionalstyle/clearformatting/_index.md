@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.ClearFormatting
-second_title: Aspose.Words per .NET API Reference
-description: ConditionalStyle metodo. Cancella la formattazione di questo stile condizionale.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words per .NET
+description: ConditionalStyle ClearFormatting metodo. Cancella la formattazione di questo stile condizionale in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words/conditionalstyle/clearformatting/
@@ -14,7 +16,7 @@ Cancella la formattazione di questo stile condizionale.
 public void ClearFormatting()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come reimpostare gli stili di tabella condizionale.
 
@@ -54,7 +56,5 @@ Assert.True(tableStyle.ConditionalStyles.All(s => s.Borders.Color == Color.Empty
 ### Guarda anche
 
 * class [ConditionalStyle](../)
-* spazio dei nomi [Aspose.Words](../../conditionalstyle/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

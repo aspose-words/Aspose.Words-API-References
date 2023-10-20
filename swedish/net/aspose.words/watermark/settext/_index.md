@@ -1,12 +1,14 @@
 ---
 title: Watermark.SetText
-second_title: Aspose.Words för .NET API Referens
-description: Watermark metod. Lägger till textvattenstämpel i dokumentet.
+linktitle: SetText
+articleTitle: SetText
+second_title: Aspose.Words för .NET
+description: Watermark SetText metod. Lägger till textvattenstämpel i dokumentet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/watermark/settext/
 ---
-## SetText(string) {#settext}
+## SetText(*string*) {#settext}
 
 Lägger till textvattenstämpel i dokumentet.
 
@@ -25,11 +27,11 @@ public void SetText(string text)
 | ArgumentOutOfRangeException | Kastar när textlängden är utanför intervallet eller texten endast innehåller blanksteg. |
 | ArgumentNullException | Kastar när texten är`null` . |
 
-### Anmärkningar
+## Anmärkningar
 
 Textlängden måste vara i intervallet från 1 till 200 inklusive. Texten kan inte vara`null` eller bara innehålla blanksteg.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en textvattenstämpel.
 
@@ -60,12 +62,12 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Se även
 
 * class [Watermark](../)
-* namnutrymme [Aspose.Words](../../watermark/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## SetText(string, TextWatermarkOptions) {#settext_1}
+## SetText(*string, [TextWatermarkOptions](../../textwatermarkoptions/)*) {#settext_1}
 
 Lägger till textvattenstämpel i dokumentet.
 
@@ -85,13 +87,13 @@ public void SetText(string text, TextWatermarkOptions options)
 | ArgumentOutOfRangeException | Kastar när textlängden är utanför intervallet eller texten bara innehåller blanksteg. |
 | ArgumentNullException | Kastar när texten är`null` . |
 
-### Anmärkningar
+## Anmärkningar
 
 Textlängden måste vara i intervallet från 1 till 200 inklusive. Texten kan inte vara`null` eller bara innehålla blanksteg.
 
 Om[`TextWatermarkOptions`](../../textwatermarkoptions/) är`null`, kommer vattenstämpeln att ställas in med standardalternativ.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en textvattenstämpel.
 
@@ -123,7 +125,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * class [TextWatermarkOptions](../../textwatermarkoptions/)
 * class [Watermark](../)
-* namnutrymme [Aspose.Words](../../watermark/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

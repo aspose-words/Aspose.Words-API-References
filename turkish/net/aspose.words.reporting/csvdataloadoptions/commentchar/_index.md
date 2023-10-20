@@ -1,7 +1,9 @@
 ---
 title: CsvDataLoadOptions.CommentChar
-second_title: Aspose.Words for .NET API Referansı
-description: CsvDataLoadOptions mülk. CSV verilerinin satırlarına yorum yapmak için kullanılan karakteri alır veya ayarlar.
+linktitle: CommentChar
+articleTitle: CommentChar
+second_title: Aspose.Words for .NET
+description: CsvDataLoadOptions CommentChar mülk. CSV verilerinin satırlarına yorum yapmak için kullanılan karakteri alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.reporting/csvdataloadoptions/commentchar/
@@ -14,14 +16,12 @@ CSV verilerinin satırlarına yorum yapmak için kullanılan karakteri alır vey
 public char CommentChar { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer '#'dir (sayı işareti).
 
 ### Ayrıca bakınız
 
 * class [CsvDataLoadOptions](../)
-* ad alanı [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
-
-

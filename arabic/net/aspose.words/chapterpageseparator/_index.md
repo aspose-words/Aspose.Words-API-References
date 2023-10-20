@@ -1,7 +1,9 @@
 ---
-title: Enum ChapterPageSeparator
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.ChapterPageSeparator تعداد. تحديد الحرف الفاصل الذي يظهر بين رقم الفصل والصفحة.
+title: ChapterPageSeparator Enum
+linktitle: ChapterPageSeparator
+articleTitle: ChapterPageSeparator
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.ChapterPageSeparator تعداد. تحديد الحرف الفاصل الذي يظهر بين رقم الفصل والصفحة في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words/chapterpageseparator/
@@ -24,7 +26,7 @@ public enum ChapterPageSeparator
 | EmDash | `3` | شرطة مشددة. |
 | EnDash | `4` | شرطة قياسية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع فصول الصفحة.
 
@@ -44,5 +46,3 @@ pageSetup.HeadingLevelForChapter = 1;
 * property [ChapterPageSeparator](../pagesetup/chapterpageseparator/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OleFormat.GetOleEntry
-second_title: Aspose.Words لمراجع .NET API
-description: OleFormat طريقة. يحصل على إدخال بيانات كائن OLE.
+linktitle: GetOleEntry
+articleTitle: GetOleEntry
+second_title: Aspose.Words لـ .NET
+description: OleFormat GetOleEntry طريقة. يحصل على إدخال بيانات كائن OLE في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.drawing/oleformat/getoleentry/
@@ -22,7 +24,7 @@ public MemoryStream GetOleEntry(string oleEntryName)
 
 دفق بيانات OLE أو`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج كائنات OLE المرتبطة وغير المرتبطة.
 
@@ -72,7 +74,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### أنظر أيضا
 
 * class [OleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../oleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

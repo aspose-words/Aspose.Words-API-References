@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TabPosition
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevel mülk. Liste düzeyi için sekme konumunu nokta cinsinden döndürür veya ayarlar.
+linktitle: TabPosition
+articleTitle: TabPosition
+second_title: Aspose.Words for .NET
+description: ListLevel TabPosition mülk. Liste düzeyi için sekme konumunu nokta cinsinden döndürür veya ayarlar C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.lists/listlevel/tabposition/
@@ -14,11 +16,11 @@ Liste düzeyi için sekme konumunu (nokta cinsinden) döndürür veya ayarlar.
 public double TabPosition { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yalnızca şu durumlarda etkili olur:[`TrailingCharacter`](../trailingcharacter/) bir sekmedir.
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Ayrıca bakınız
 
 * class [ListLevel](../)
-* ad alanı [Aspose.Words.Lists](../../listlevel/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

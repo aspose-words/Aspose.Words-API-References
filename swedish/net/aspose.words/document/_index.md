@@ -1,7 +1,9 @@
 ---
-title: Class Document
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Document klass. Representerar ett Worddokument.
+title: Document Class
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Document klass. Representerar ett Worddokument i C#.
 type: docs
 weight: 430
 url: /sv/net/aspose.words/document/
@@ -21,10 +23,10 @@ public class Document : DocumentBase
 | namn | Beskrivning |
 | --- | --- |
 | [Document](document/#constructor)() | Skapar ett tomt Word-dokument. |
-| [Document](document/#constructor_1)(Stream) | Öppnar ett befintligt dokument från en ström. Upptäcker automatiskt filformatet. |
-| [Document](document/#constructor_3)(string) | Öppnar ett befintligt dokument från en fil. Upptäcker automatiskt filformatet. |
-| [Document](document/#constructor_2)(Stream, LoadOptions) | Öppnar ett befintligt dokument från en ström. Tillåter att ange ytterligare alternativ såsom ett krypteringslösenord. |
-| [Document](document/#constructor_4)(string, LoadOptions) | Öppnar ett befintligt dokument från en fil. Tillåter att ange ytterligare alternativ såsom ett krypteringslösenord. |
+| [Document](document/#constructor_1)(*Stream*) | Öppnar ett befintligt dokument från en ström. Upptäcker automatiskt filformatet. |
+| [Document](document/#constructor_3)(*string*) | Öppnar ett befintligt dokument från en fil. Upptäcker automatiskt filformatet. |
+| [Document](document/#constructor_2)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Öppnar ett befintligt dokument från en ström. Tillåter att ange ytterligare alternativ såsom ett krypteringslösenord. |
+| [Document](document/#constructor_4)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Öppnar ett befintligt dokument från en fil. Tillåter att ange ytterligare alternativ såsom ett krypteringslösenord. |
 
 ## Egenskaper
 
@@ -34,7 +36,7 @@ public class Document : DocumentBase
 | [AutomaticallyUpdateStyles](../../aspose.words/document/automaticallyupdatestyles/) { get; set; } | Hämtar eller ställer in en flagga som anger om stilarna i dokumentet uppdateras för att matcha stilarna i den bifogade mallen varje gång dokumentet öppnas i MS Word. |
 | [BackgroundShape](../../aspose.words/documentbase/backgroundshape/) { get; set; } | Hämtar eller ställer in bakgrundsformen för dokumentet. Kan vara`null` . |
 | [BuiltInDocumentProperties](../../aspose.words/document/builtindocumentproperties/) { get; } | Returnerar en samling som representerar alla inbyggda dokumentegenskaper i dokumentet. |
-| [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/) { get; } | Ger tillgång till dokumentkompatibilitetsalternativ (det vill säga användarinställningarna som anges på **Kompatibilitet** fliken i **alternativ** dialog i Word). |
+| [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/) { get; } | Ger tillgång till dokumentkompatibilitetsalternativ (det vill säga användarinställningarna som anges på**Kompatibilitet** fliken i**alternativ** dialog i Word). |
 | [Compliance](../../aspose.words/document/compliance/) { get; } | Får OOXML-kompatibilitetsversionen fastställd från det inlästa dokumentinnehållet. Är meningsfullt endast för OOXML-dokument. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Hämtar antalet omedelbara barn till denna nod. |
 | [CustomDocumentProperties](../../aspose.words/document/customdocumentproperties/) { get; } | Returnerar en samling som representerar alla anpassade dokumentegenskaper för dokumentet. |
@@ -103,81 +105,79 @@ public class Document : DocumentBase
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words/document/accept/)(DocumentVisitor) | Accepterar en besökare. |
+| override [Accept](../../aspose.words/document/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare. |
 | [AcceptAllRevisions](../../aspose.words/document/acceptallrevisions/)() | Accepterar alla spårade ändringar i dokumentet. |
-| override [AcceptEnd](../../aspose.words/document/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/document/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument)(Document, ImportFormatMode) | Lägger till det angivna dokumentet i slutet av detta dokument. |
-| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Lägger till det angivna dokumentet i slutet av detta dokument. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Lägger till den angivna noden i slutet av listan över underordnade noder för denna nod. |
+| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument)(*Document, [ImportFormatMode](../importformatmode/)*) | Lägger till det angivna dokumentet i slutet av detta dokument. |
+| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(*Document, [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)*) | Lägger till det angivna dokumentet i slutet av detta dokument. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup)() | Rensar oanvända stilar och listor från dokumentet. |
-| [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(CleanupOptions) | Rensar oanvända stilar och listor från dokumentet beroende på givet[`CleanupOptions`](../cleanupoptions/) . |
+| [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(*[CleanupOptions](../cleanupoptions/)*) | Rensar oanvända stilar och listor från dokumentet beroende på givet[`CleanupOptions`](../cleanupoptions/) . |
 | [Clone](../../aspose.words/document/clone/#clone)() | Utför en djup kopia av`Document` . |
-| [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
-| [Compare](../../aspose.words/document/compare/#compare)(Document, string, DateTime) | Jämför detta dokument med ett annat dokument som ger ändringar som antal redigeringar och formatrevisioner[`Revision`](../revision/) . |
-| [Compare](../../aspose.words/document/compare/#compare_1)(Document, string, DateTime, CompareOptions) | Jämför detta dokument med ett annat dokument som ger ändringar som ett antal redigerings- och formatrevisioner[`Revision`](../revision/) . Gör det möjligt att ange jämförelsealternativ med hjälp av[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
-| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate)(Document) | Kopierar stilar från den angivna mallen till ett dokument. |
-| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate_1)(string) | Kopierar stilar från den angivna mallen till ett dokument. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
+| [Compare](../../aspose.words/document/compare/#compare)(*Document, string, DateTime*) | Jämför detta dokument med ett annat dokument som ger ändringar som antal redigeringar och formatrevisioner[`Revision`](../revision/) . |
+| [Compare](../../aspose.words/document/compare/#compare_1)(*Document, string, DateTime, [CompareOptions](../../aspose.words.comparing/compareoptions/)*) | Jämför detta dokument med ett annat dokument som ger ändringar som ett antal redigerings- och formatrevisioner[`Revision`](../revision/) . Gör det möjligt att ange jämförelsealternativ med hjälp av[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
+| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate)(*Document*) | Kopierar stilar från den angivna mallen till ett dokument. |
+| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate_1)(*string*) | Kopierar stilar från den angivna mallen till ett dokument. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Skapar navigator som kan användas för att korsa och läsa noder. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum/)() | Om dokumentet inte innehåller några avsnitt skapas ett avsnitt med ett stycke. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting/)() | Konverterar formatering som anges i tabellstilar till direkt formatering på tabeller i dokumentet. |
-| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Returnerar`Document` objekt som representerar specificerat intervall av sidor. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Returnerar en N:te underordnad nod som matchar den angivna typen. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Returnerar en aktiv samling av underordnade noder som matchar den angivna typen. |
+| [ExtractPages](../../aspose.words/document/extractpages/)(*int, int*) | Returnerar`Document` objekt som representerar specificerat intervall av sidor. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Returnerar en N:te underordnad nod som matchar den angivna typen. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Returnerar en aktiv samling av underordnade noder som matchar den angivna typen. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Tillhandahåller stöd för varje stiliteration över undernoderna för denna nod. |
-| [GetPageInfo](../../aspose.words/document/getpageinfo/)(int) | Hämtar sidstorlek, orientering och annan information om en sida som kan vara användbar för utskrift eller rendering. |
+| [GetPageInfo](../../aspose.words/document/getpageinfo/)(*int*) | Hämtar sidstorlek, orientering och annan information om en sida som kan vara användbar för utskrift eller rendering. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
-| [ImportNode](../../aspose.words/documentbase/importnode/)(Node, bool) | Importerar en nod från ett annat dokument till det aktuella dokumentet. |
-| [ImportNode](../../aspose.words/documentbase/importnode/)(Node, bool, ImportFormatMode) | Importerar en nod från ett annat dokument till det aktuella dokumentet med ett alternativ för att styra formateringen. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Returnerar indexet för den angivna undernoden i den underordnade nodmatrisen. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
+| [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../node/), bool*) | Importerar en nod från ett annat dokument till det aktuella dokumentet. |
+| [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../node/), bool, [ImportFormatMode](../importformatmode/)*) | Importerar en nod från ett annat dokument till det aktuella dokumentet med ett alternativ för att styra formateringen. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Returnerar indexet för den angivna undernoden i den underordnade nodmatrisen. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Infogar den angivna noden omedelbart efter den angivna referensnoden. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Infogar den angivna noden omedelbart före den angivna referensnoden. |
 | [JoinRunsWithSameFormatting](../../aspose.words/document/joinrunswithsameformatting/)() | Sammanfogar körningar med samma formatering i alla stycken i dokumentet. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
 | [NormalizeFieldTypes](../../aspose.words/document/normalizefieldtypes/)() | Ändrar fälttypvärden[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) av[`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) i hela dokumentet så att de motsvarar fälttyperna som finns i fältkoderna. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Lägger till den angivna noden i början av listan över underordnade noder för denna nod. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
 | [Print](../../aspose.words/document/print/#print)() | Skriver ut hela dokumentet till standardskrivaren. |
-| [Print](../../aspose.words/document/print/#print_1)(PrinterSettings) | Skriver ut dokumentet enligt de angivna skrivarinställningarna, med standardutskriftskontrollern (utan användargränssnitt). |
-| [Print](../../aspose.words/document/print/#print_3)(string) | Skriv ut hela dokumentet till den angivna skrivaren, med standardutskriftskontrollern (inget användargränssnitt). |
-| [Print](../../aspose.words/document/print/#print_2)(PrinterSettings, string) | Skriver ut dokumentet enligt de angivna skrivarinställningarna, med standardutskriftskontrollern (inget användargränssnitt) och ett dokumentnamn. |
-| [Protect](../../aspose.words/document/protect/#protect)(ProtectionType) | Skyddar dokumentet från ändringar utan att ändra det befintliga lösenordet eller tilldelar ett slumpmässigt lösenord. |
-| [Protect](../../aspose.words/document/protect/#protect_1)(ProtectionType, string) | Skyddar dokumentet från ändringar och anger valfritt ett skyddslösenord. |
+| [Print](../../aspose.words/document/print/#print_1)(*PrinterSettings*) | Skriver ut dokumentet enligt de angivna skrivarinställningarna, med standardutskriftskontrollern (utan användargränssnitt). |
+| [Print](../../aspose.words/document/print/#print_3)(*string*) | Skriv ut hela dokumentet till den angivna skrivaren, med standardutskriftskontrollern (inget användargränssnitt). |
+| [Print](../../aspose.words/document/print/#print_2)(*PrinterSettings, string*) | Skriver ut dokumentet enligt de angivna skrivarinställningarna, med standardutskriftskontrollern (inget användargränssnitt) och ett dokumentnamn. |
+| [Protect](../../aspose.words/document/protect/#protect)(*[ProtectionType](../protectiontype/)*) | Skyddar dokumentet från ändringar utan att ändra det befintliga lösenordet eller tilldelar ett slumpmässigt lösenord. |
+| [Protect](../../aspose.words/document/protect/#protect_1)(*[ProtectionType](../protectiontype/), string*) | Skyddar dokumentet från ändringar och anger valfritt ett skyddslösenord. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Tar bort alla undernoder för den aktuella noden. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Tar bort den angivna underordnade noden. |
 | [RemoveExternalSchemaReferences](../../aspose.words/document/removeexternalschemareferences/)() | Tar bort externa XML-schemareferenser från detta dokument. |
 | [RemoveMacros](../../aspose.words/document/removemacros/)() | Tar bort alla makron (VBA-projektet) samt verktygsfält och kommandoanpassningar från dokumentet. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/)underliggande noder till den aktuella noden. |
-| [RenderToScale](../../aspose.words/document/rendertoscale/)(int, Graphics, float, float, float) | Gör en dokumentsida till enGraphics objekt i en angiven skala. |
-| [RenderToSize](../../aspose.words/document/rendertosize/)(int, Graphics, float, float, float, float) | Gör en dokumentsida till enGraphics objekt till en angiven storlek. |
-| [Save](../../aspose.words/document/save/#save_2)(string) | Sparar dokumentet till en fil. Bestämmer automatiskt sparformatet från tillägget. |
-| [Save](../../aspose.words/document/save/#save)(Stream, SaveFormat) | Sparar dokumentet i en ström med det angivna formatet. |
-| [Save](../../aspose.words/document/save/#save_1)(Stream, SaveOptions) | Sparar dokumentet i en ström med de angivna sparalternativen. |
-| [Save](../../aspose.words/document/save/#save_3)(string, SaveFormat) | Sparar dokumentet till en fil i angivet format. |
-| [Save](../../aspose.words/document/save/#save_4)(string, SaveOptions) | Sparar dokumentet till en fil med de angivna sparalternativen. |
-| [Save](../../aspose.words/document/save/#save_5)(HttpResponse, string, ContentDisposition, SaveOptions) | Skickar dokumentet till klientens webbläsare. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Väljer en lista med noder som matchar XPath-uttrycket. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Väljer den första[`Node`](../node/) som matchar XPath-uttrycket. |
-| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions)(string) | Börjar automatiskt markera alla ytterligare ändringar du gör i dokumentet programmatiskt som revisionsändringar. |
-| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions_1)(string, DateTime) | Börjar automatiskt markera alla ytterligare ändringar du gör i dokumentet programmatiskt som revisionsändringar. |
+| [RenderToScale](../../aspose.words/document/rendertoscale/)(*int, Graphics, float, float, float*) | Gör en dokumentsida till enGraphics objekt i en angiven skala. |
+| [RenderToSize](../../aspose.words/document/rendertosize/)(*int, Graphics, float, float, float, float*) | Gör en dokumentsida till enGraphics objekt till en angiven storlek. |
+| [Save](../../aspose.words/document/save/#save_2)(*string*) | Sparar dokumentet till en fil. Bestämmer automatiskt sparformatet från tillägget. |
+| [Save](../../aspose.words/document/save/#save)(*Stream, [SaveFormat](../saveformat/)*) | Sparar dokumentet i en ström med det angivna formatet. |
+| [Save](../../aspose.words/document/save/#save_1)(*Stream, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Sparar dokumentet i en ström med de angivna sparalternativen. |
+| [Save](../../aspose.words/document/save/#save_3)(*string, [SaveFormat](../saveformat/)*) | Sparar dokumentet till en fil i angivet format. |
+| [Save](../../aspose.words/document/save/#save_4)(*string, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Sparar dokumentet till en fil med de angivna sparalternativen. |
+| [Save](../../aspose.words/document/save/#save_5)(*HttpResponse, string, [ContentDisposition](../contentdisposition/), [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Skickar dokumentet till klientens webbläsare. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Väljer en lista med noder som matchar XPath-uttrycket. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Väljer den första[`Node`](../node/) som matchar XPath-uttrycket. |
+| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions)(*string*) | Börjar automatiskt markera alla ytterligare ändringar du gör i dokumentet programmatiskt som revisionsändringar. |
+| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions_1)(*string, DateTime*) | Börjar automatiskt markera alla ytterligare ändringar du gör i dokumentet programmatiskt som revisionsändringar. |
 | [StopTrackRevisions](../../aspose.words/document/stoptrackrevisions/)() | Stoppar automatisk markering av dokumentändringar som revisioner. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
 | [UnlinkFields](../../aspose.words/document/unlinkfields/)() | Tar bort länkar till fält i hela dokumentet. |
 | [Unprotect](../../aspose.words/document/unprotect/#unprotect_1)() | Tar bort skyddet från dokumentet oavsett lösenord. |
-| [Unprotect](../../aspose.words/document/unprotect/#unprotect)(string) | Tar bort skyddet från dokumentet om ett korrekt lösenord anges. |
+| [Unprotect](../../aspose.words/document/unprotect/#unprotect)(*string*) | Tar bort skyddet från dokumentet om ett korrekt lösenord anges. |
 | [UpdateFields](../../aspose.words/document/updatefields/)() | Uppdaterar värdena för fält i hela dokumentet. |
 | [UpdateListLabels](../../aspose.words/document/updatelistlabels/)() | Uppdaterar listetiketter för alla listobjekt i dokumentet. |
 | [UpdatePageLayout](../../aspose.words/document/updatepagelayout/)() | Bygger om dokumentets sidlayout. |
 | [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail)() | Uppdateringar[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) av dokumentet med standardalternativ. |
-| [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail_1)(ThumbnailGeneratingOptions) | Uppdateringar[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) av dokumentet enligt de angivna alternativen. |
+| [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail_1)(*[ThumbnailGeneratingOptions](../../aspose.words.rendering/thumbnailgeneratingoptions/)*) | Uppdateringar[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) av dokumentet enligt de angivna alternativen. |
 | [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount)() | Uppdaterar ordräkningsegenskaper för dokumentet. |
-| [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount_1)(bool) | Uppdaterar ordräkningsegenskaper för dokumentet, uppdaterar eventuellt[`Lines`](../../aspose.words.properties/builtindocumentproperties/lines/) egenskap. |
+| [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount_1)(*bool*) | Uppdaterar ordräkningsegenskaper för dokumentet, uppdaterar eventuellt[`Lines`](../../aspose.words.properties/builtindocumentproperties/lines/) egenskap. |
 
-### Anmärkningar
+## Anmärkningar
 
 De`Document` är ett centralt objekt i Aspose.Words-biblioteket.
 
@@ -185,11 +185,11 @@ För att ladda ett befintligt dokument i någon av[`LoadFormat`](../loadformat/)
 
 Använd en av överbelastningsmetoderna för att spara dokumentet i någon av the [`SaveFormat`](../saveformat/) format.
 
-Att rita dokumentsidor direkt på en **Grafik** objekt användning [`RenderToScale`](./rendertoscale/) eller[`RenderToSize`](./rendertosize/) metod.
+Att rita dokumentsidor direkt på en**Grafik** objekt användning [`RenderToScale`](./rendertoscale/) eller[`RenderToSize`](./rendertosize/) metod.
 
 För att skriva ut dokumentet, använd en av[`Print`](./print/) metoder.
 
-[`MailMerge`](./mailmerge/) är Aspose.Words rapportmotor som gör det möjligt att snabbt och enkelt fylla rapporter designade i Microsoft Word med data från olika datakällor. Datan kan vara från en DataSet, DataTable, DataView, IDataReader eller en uppsättning värden.  **MailMerge** kommer att gå igenom posterna som finns i datakällan och infoga dem i e-postsammanslagningsfält i dokumentet och utöka det vid behov.
+[`MailMerge`](./mailmerge/) är Aspose.Words rapportmotor som gör det möjligt att snabbt och enkelt fylla rapporter designade i Microsoft Word med data från olika datakällor. Datan kan vara från en DataSet, DataTable, DataView, IDataReader eller en uppsättning värden. **MailMerge** kommer att gå igenom posterna som finns i datakällan och infoga dem i e-postsammanslagningsfält i dokumentet och utöka det vid behov.
 
 `Document` lagrar dokumentövergripande information som t.ex[`Styles`](../documentbase/styles/) , [`BuiltInDocumentProperties`](./builtindocumentproperties/) ,[`CustomDocumentProperties`](./customdocumentproperties/) listor och makron. De flesta av dessa objekt är tillgängliga via motsvarande egenskaper för`Document`.
 
@@ -197,7 +197,7 @@ De`Document` är en rotnod i ett träd som innehåller alla andra noder i dokume
 
 * Dokumentets noder kan till exempel nås via maskinskrivna samlingar[`Sections`](./sections/) , [`ParagraphCollection`](../paragraphcollection/) etc.
 * Dokumentets noder kan väljas efter deras nodtyp med hjälp av [`GetChildNodes`](../compositenode/getchildnodes/) eller använda en XPath-fråga med[`SelectNodes`](../compositenode/selectnodes/) eller[`SelectSingleNode`](../compositenode/selectsinglenode/).
-* Innehållsnoder kan läggas till eller tas bort från var som helst i dokumentet med Node) ,Node) , Node) och andra metoder som tillhandahålls av basklassen[`CompositeNode`](../compositenode/).
+* Innehållsnoder kan läggas till eller tas bort från var som helst i dokumentet med [`InsertBefore`](../compositenode/insertbefore/) ,[`InsertAfter`](../compositenode/insertafter/) , [`RemoveChild`](../compositenode/removechild/) och andra metoder som tillhandahålls av basklassen[`CompositeNode`](../compositenode/).
 * Formateringsattributen för varje nod kan ändras via egenskaperna för den noden.
 
 Överväg att använda[`DocumentBuilder`](../documentbuilder/)som förenklar uppgiften att programmatiskt skapa eller fylla i dokumentträdet.
@@ -206,7 +206,7 @@ De`Document` kan endast innehålla[`Section`](../section/) föremål.
 
 I Microsoft Word måste ett giltigt dokument ha minst ett avsnitt.
 
-### Exempel
+## Exempel
 
 Visar hur man kör en e-postsammanfogning med data från en datatabell.
 
@@ -256,5 +256,3 @@ private static Document CreateSourceDocExecuteDataTable()
 * class [DocumentBase](../documentbase/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

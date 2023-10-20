@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MailSubject
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Gibt den Text an der in der Betreffzeile der beim Seriendruck erstellten EMails oder Faxe erscheinen soll. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: MailSubject
+articleTitle: MailSubject
+second_title: Aspose.Words für .NET
+description: MailMergeSettings MailSubject eigendom. Gibt den Text an der in der Betreffzeile der beim Seriendruck erstellten EMails oder Faxe erscheinen soll. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.settings/mailmergesettings/mailsubject/
@@ -14,7 +16,7 @@ Gibt den Text an, der in der Betreffzeile der beim Seriendruck erstellten E-Mail
 public string MailSubject { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief ausgeführt wird, während eine Verbindung zu einer externen Datenquelle hergestellt wird.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Siehe auch
 
 * class [MailMergeSettings](../)
-* namensraum [Aspose.Words.Settings](../../mailmergesettings/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Style.AutomaticallyUpdate
-second_title: Справочник по API Aspose.Words для .NET
-description: Style свойство. Указывает будет ли этот стиль автоматически переопределяться на основе соответствующего значения.
+linktitle: AutomaticallyUpdate
+articleTitle: AutomaticallyUpdate
+second_title: Aspose.Words для .NET
+description: Style AutomaticallyUpdate свойство. Указывает будет ли этот стиль автоматически переопределяться на основе соответствующего значения на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/style/automaticallyupdate/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/style/automaticallyupdate/
 public bool AutomaticallyUpdate { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если для свойства установлено значение true, MS Word автоматически переопределяет текущий стиль, когда соответствующее форматирование абзаца было изменено.
 
@@ -22,7 +24,7 @@ public bool AutomaticallyUpdate { get; set; }
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как создать и применить собственный стиль.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 ### Смотрите также
 
 * class [Style](../)
-* пространство имен [Aspose.Words](../../style/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

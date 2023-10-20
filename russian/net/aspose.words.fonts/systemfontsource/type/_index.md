@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: SystemFontSource свойство. Возвращает тип источника шрифта.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: SystemFontSource Type свойство. Возвращает тип источника шрифта на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/systemfontsource/type/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/systemfontsource/type/
 public override FontSourceType Type { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [SystemFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../systemfontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

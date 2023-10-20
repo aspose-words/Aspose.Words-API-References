@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Add
-second_title: Aspose.Words per .NET API Reference
-description: SdtListItemCollection metodo. Aggiunge un elemento a questa raccolta.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words per .NET
+description: SdtListItemCollection Add metodo. Aggiunge un elemento a questa raccolta in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.markup/sdtlistitemcollection/add/
@@ -14,7 +16,7 @@ Aggiunge un elemento a questa raccolta.
 public void Add(SdtListItem item)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i tag dei documenti strutturati con elenco a discesa.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

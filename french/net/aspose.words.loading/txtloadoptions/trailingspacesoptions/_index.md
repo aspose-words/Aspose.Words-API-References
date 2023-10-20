@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.TrailingSpacesOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TxtLoadOptions propriété. Obtient ou définit loption préférée de gestion de lespace de fin. La valeur par défaut estTrim .
+linktitle: TrailingSpacesOptions
+articleTitle: TrailingSpacesOptions
+second_title: Aspose.Words pour .NET
+description: TxtLoadOptions TrailingSpacesOptions propriété. Obtient ou définit loption préférée de gestion de lespace de fin. La valeur par défaut estTrim  en C#.
 type: docs
-weight: 70
+weight: 60
 url: /fr/net/aspose.words.loading/txtloadoptions/trailingspacesoptions/
 ---
 ## TxtLoadOptions.TrailingSpacesOptions property
@@ -14,7 +16,7 @@ Obtient ou définit l'option préférée de gestion de l'espace de fin. La valeu
 public TxtTrailingSpacesOptions TrailingSpacesOptions { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment réduire les espaces lors du chargement de documents en texte brut.
 
@@ -91,7 +93,5 @@ switch (txtTrailingSpacesOptions)
 
 * enum [TxtTrailingSpacesOptions](../../txttrailingspacesoptions/)
 * class [TxtLoadOptions](../)
-* espace de noms [Aspose.Words.Loading](../../txtloadoptions/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

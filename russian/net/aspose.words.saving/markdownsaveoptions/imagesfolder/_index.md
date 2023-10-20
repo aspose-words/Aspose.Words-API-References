@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ImagesFolder
-second_title: Справочник по API Aspose.Words для .NET
-description: MarkdownSaveOptions свойство. Указывает физическую папку в которой сохраняются изображения при экспорте документа в Markdown формат. По умолчанию  пустая строка.
+linktitle: ImagesFolder
+articleTitle: ImagesFolder
+second_title: Aspose.Words для .NET
+description: MarkdownSaveOptions ImagesFolder свойство. Указывает физическую папку в которой сохраняются изображения при экспорте документа в Markdown формат. По умолчанию  пустая строка на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/markdownsaveoptions/imagesfolder/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/markdownsaveoptions/imagesfolder/
 public string ImagesFolder { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Когда вы сохраняете[`Document`](../../../aspose.words/document/) вMarkdownformat, Aspose.Words необходимо сохранить все изображения, встроенные в документ, как отдельные файлы. `ImagesFolder` позволяет указать, где будут сохраняться изображения.
 
@@ -24,7 +26,7 @@ public string ImagesFolder { get; set; }
 
 Если папка, указанная`ImagesFolder` не существует, он будет создан автоматически.
 
-### Примеры
+## Примеры
 
 Показывает, как указать имя папки, используемой для создания URI изображений.
 
@@ -69,7 +71,5 @@ builder.Document.Save(ArtifactsDir + "MarkdownSaveOptions.ImagesFolder.md", save
 ### Смотрите также
 
 * class [MarkdownSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../markdownsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SignOptions.SignatureLineImage
-second_title: Referencia de API de Aspose.Words para .NET
-description: SignOptions propiedad. La imagen que se mostrará en asociadoSignatureLine . El valor predeterminado esnulo .
+linktitle: SignatureLineImage
+articleTitle: SignatureLineImage
+second_title: Aspose.Words para .NET
+description: SignOptions SignatureLineImage propiedad. La imagen que se mostrará en asociadoSignatureLine . El valor predeterminado esnulo  en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
@@ -14,7 +16,7 @@ La imagen que se mostrará en asociado[`SignatureLine`](../../../aspose.words.dr
 public byte[] SignatureLineImage { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar una línea de firma a un documento y luego firmarlo usando un certificado digital.
 
@@ -130,7 +132,5 @@ Muestra cómo agregar una línea de firma a un documento y luego firmarlo usando
 ### Ver también
 
 * class [SignOptions](../)
-* espacio de nombres [Aspose.Words.DigitalSignatures](../../signoptions/)
+* espacio de nombres [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * asamblea [Aspose.Words](../../../)
-
-

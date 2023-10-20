@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.BaseTimeUnit
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Zaman kategorisi ekseninde temsil edilen en küçük zaman birimini döndürür veya ayarlar.
+linktitle: BaseTimeUnit
+articleTitle: BaseTimeUnit
+second_title: Aspose.Words for .NET
+description: ChartAxis BaseTimeUnit mülk. Zaman kategorisi ekseninde temsil edilen en küçük zaman birimini döndürür veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartaxis/basetimeunit/
@@ -14,11 +16,11 @@ Zaman kategorisi ekseninde temsil edilen en küçük zaman birimini döndürür 
 public AxisTimeUnit BaseTimeUnit { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Özelliğin yalnızca zaman kategorisi eksenleri için etkisi vardır.
 
-### Örnekler
+## Örnekler
 
 Tarih/saat değerleriyle grafiğin nasıl ekleneceğini gösterir.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

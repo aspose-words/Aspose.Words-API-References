@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.ToaCategories
-second_title: Aspose.Words for .NET API 参考
-description: FieldOptions 财产. 获取或设置权限类别表
+linktitle: ToaCategories
+articleTitle: ToaCategories
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldOptions ToaCategories 财产. 获取或设置权限类别表 在 C#.
 type: docs
 weight: 200
 url: /zh/net/aspose.words.fields/fieldoptions/toacategories/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldoptions/toacategories/
 public ToaCategories ToaCategories { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何为 TOA 字段指定一组类别。
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 
 * class [ToaCategories](../../toacategories/)
 * class [FieldOptions](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldoptions/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

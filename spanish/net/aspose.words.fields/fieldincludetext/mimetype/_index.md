@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.MimeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldIncludeText propiedad. Obtiene o establece el tipo MIME del archivo al que se hace referencia.
+linktitle: MimeType
+articleTitle: MimeType
+second_title: Aspose.Words para .NET
+description: FieldIncludeText MimeType propiedad. Obtiene o establece el tipo MIME del archivo al que se hace referencia en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fieldincludetext/mimetype/
@@ -14,7 +16,7 @@ Obtiene o establece el tipo MIME del archivo al que se hace referencia.
 public string MimeType { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un campo INCLUDETEXT y establecer sus propiedades.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Ver también
 
 * class [FieldIncludeText](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldincludetext/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

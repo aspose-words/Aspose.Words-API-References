@@ -1,7 +1,9 @@
 ---
-title: Class FieldDatabaseDataTable
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.FieldDatabaseDataTable 班级. 提供数据FieldDatabase现场结果请参见DataTable实例.
+title: FieldDatabaseDataTable Class
+linktitle: FieldDatabaseDataTable
+articleTitle: FieldDatabaseDataTable
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.FieldDatabaseDataTable 班级. 提供数据FieldDatabase现场结果请参见DataTable实例 在 C#.
 type: docs
 weight: 1760
 url: /zh/net/aspose.words.fields/fielddatabasedatatable/
@@ -20,7 +22,7 @@ public class FieldDatabaseDataTable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | 初始化一个新实例`FieldDatabaseDataTable`类. |
+| [FieldDatabaseDataTable](fielddatabasedatatable/)(*params string[]*) | 初始化一个新实例`FieldDatabaseDataTable`类. |
 
 ## 特性
 
@@ -33,11 +35,9 @@ public class FieldDatabaseDataTable
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | 初始化一个新实例`FieldDatabaseDataTable`类 来自DataTable实例. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(*DataTable*) | 初始化一个新实例`FieldDatabaseDataTable`类 来自DataTable实例. |
 
 ### 也可以看看
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.MatchNode
-second_title: Referencia de API de Aspose.Words para .NET
-description: ReplacingArgs propiedad. Obtiene el nodo que contiene el inicio de la coincidencia.
+linktitle: MatchNode
+articleTitle: MatchNode
+second_title: Aspose.Words para .NET
+description: ReplacingArgs MatchNode propiedad. Obtiene el nodo que contiene el inicio de la coincidencia en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.replacing/replacingargs/matchnode/
@@ -14,7 +16,7 @@ Obtiene el nodo que contiene el inicio de la coincidencia.
 public Node MatchNode { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar el contenido completo de un documento como reemplazo de una coincidencia en una operación de buscar y reemplazar.
 
@@ -89,7 +91,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * class [Node](../../../aspose.words/node/)
 * class [ReplacingArgs](../)
-* espacio de nombres [Aspose.Words.Replacing](../../replacingargs/)
+* espacio de nombres [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * asamblea [Aspose.Words](../../../)
-
-

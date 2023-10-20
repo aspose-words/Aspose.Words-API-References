@@ -1,7 +1,9 @@
 ---
-title: Enum HeaderFooterType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.HeaderFooterType 枚举. 标识 Word 文件中找到的页眉或页脚的类型
+title: HeaderFooterType Enum
+linktitle: HeaderFooterType
+articleTitle: HeaderFooterType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.HeaderFooterType 枚举. 标识 Word 文件中找到的页眉或页脚的类型 在 C#.
 type: docs
 weight: 3120
 url: /zh/net/aspose.words/headerfootertype/
@@ -25,7 +27,7 @@ public enum HeaderFooterType
 | HeaderFirst | `4` | 该部分第一页的标题。 |
 | FooterFirst | `5` | 该部分第一页的页脚。 |
 
-### 例子
+## 例子
 
 演示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

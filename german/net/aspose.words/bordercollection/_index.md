@@ -1,7 +1,9 @@
 ---
-title: Class BorderCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.BorderCollection klas. Eine Sammlung vonBorder Objekte.
+title: BorderCollection Class
+linktitle: BorderCollection
+articleTitle: BorderCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.BorderCollection klas. Eine Sammlung vonBorder Objekte in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words/bordercollection/
@@ -39,14 +41,14 @@ public sealed class BorderCollection : IEnumerable<Border>
 | Name | Beschreibung |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/bordercollection/clearformatting/)() | Entfernt alle Ränder eines Objekts. |
-| [Equals](../../aspose.words/bordercollection/equals/#equals)(BorderCollection) | Vergleicht Sammlungen von Rahmen. |
+| [Equals](../../aspose.words/bordercollection/equals/#equals)(*BorderCollection*) | Vergleicht Sammlungen von Rahmen. |
 | [GetEnumerator](../../aspose.words/bordercollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Grenzen in der Sammlung verwendet werden kann. |
 
-### Bemerkungen
+## Bemerkungen
 
 Verschiedene Dokumentelemente haben unterschiedliche Ränder. Zum Beispiel:[`ParagraphFormat`](../paragraphformat/)hat[`Bottom`](./bottom/) ,[`Left`](./left/) ,[`Right`](./right/) Und[`Top`](./top/) borders. Sie können für jeden Rahmen unabhängig eine andere Formatierung festlegen oder alle Rahmen auflisten und dieselbe Formatierung anwenden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Absatz mit einem oberen Rand eingefügt wird.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 * class [Border](../border/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

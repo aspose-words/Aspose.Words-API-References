@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SubstitutionSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSettings свойство. Настройки связанные с механизмом подстановки шрифтов.
+linktitle: SubstitutionSettings
+articleTitle: SubstitutionSettings
+second_title: Aspose.Words для .NET
+description: FontSettings SubstitutionSettings свойство. Настройки связанные с механизмом подстановки шрифтов на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fonts/fontsettings/substitutionsettings/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/fontsettings/substitutionsettings/
 public FontSubstitutionSettings SubstitutionSettings { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * class [FontSubstitutionSettings](../../fontsubstitutionsettings/)
 * class [FontSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

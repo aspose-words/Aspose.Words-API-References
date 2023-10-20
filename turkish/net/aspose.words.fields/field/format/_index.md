@@ -1,7 +1,9 @@
 ---
 title: Field.Format
-second_title: Aspose.Words for .NET API Referansı
-description: Field mülk. Bir alırFieldFormat Alanın formatlamasına yazılı erişim sağlayan nesne.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words for .NET
+description: Field Format mülk. Bir alırFieldFormat Alanın formatlamasına yazılı erişim sağlayan nesne C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/field/format/
@@ -14,7 +16,7 @@ Bir alır[`FieldFormat`](../../fieldformat/) Alanın formatlamasına yazılı er
 public FieldFormat Format { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Alan sonuçlarının nasıl biçimlendirileceğini gösterir.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * class [FieldFormat](../../fieldformat/)
 * class [Field](../)
-* ad alanı [Aspose.Words.Fields](../../field/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

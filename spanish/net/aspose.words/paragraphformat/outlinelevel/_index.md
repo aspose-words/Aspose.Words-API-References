@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.OutlineLevel
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Especifica el nivel de esquema del párrafo en el documento.
+linktitle: OutlineLevel
+articleTitle: OutlineLevel
+second_title: Aspose.Words para .NET
+description: ParagraphFormat OutlineLevel propiedad. Especifica el nivel de esquema del párrafo en el documento en C#.
 type: docs
 weight: 250
 url: /es/net/aspose.words/paragraphformat/outlinelevel/
@@ -14,7 +16,7 @@ Especifica el nivel de esquema del párrafo en el documento.
 public OutlineLevel OutlineLevel { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar niveles de esquema de párrafo para crear texto plegable.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphOutlineLevel.docx");
 
 * enum [OutlineLevel](../../outlinelevel/)
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

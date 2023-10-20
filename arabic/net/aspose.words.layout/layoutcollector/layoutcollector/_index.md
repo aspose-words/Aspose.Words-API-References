@@ -1,7 +1,9 @@
 ---
-title: LayoutCollector.LayoutCollector
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutCollector البناء. تهيئة مثيل لهذه الفئة.
+title: LayoutCollector
+linktitle: LayoutCollector
+articleTitle: LayoutCollector
+second_title: Aspose.Words لـ .NET
+description: LayoutCollector البناء. تهيئة مثيل لهذه الفئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.layout/layoutcollector/layoutcollector/
@@ -18,7 +20,7 @@ public LayoutCollector(Document doc)
 | --- | --- | --- |
 | doc | Document | المستند الذي سيتم إرفاق مثيل المجمع به. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية رؤية نطاقات الصفحات التي تمتد عليها العقدة.
 
@@ -77,7 +79,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutCollector](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutcollector/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

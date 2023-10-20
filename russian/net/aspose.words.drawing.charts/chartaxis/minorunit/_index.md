@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorUnit
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Возвращает или устанавливает расстояние между второстепенными делениями.
+linktitle: MinorUnit
+articleTitle: MinorUnit
+second_title: Aspose.Words для .NET
+description: ChartAxis MinorUnit свойство. Возвращает или устанавливает расстояние между второстепенными делениями на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.drawing.charts/chartaxis/minorunit/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/minorunit/
 public double MinorUnit { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Допустимый диапазон значения больше нуля. Свойство действует для осей значений категории времени и .
 
 Установка этого свойства устанавливает[`MinorUnitIsAuto`](../minorunitisauto/) собственность`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и изменить внешний вид ее осей.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Смотрите также
 
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

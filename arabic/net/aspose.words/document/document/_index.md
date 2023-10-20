@@ -1,7 +1,9 @@
 ---
-title: Document.Document
-second_title: Aspose.Words لمراجع .NET API
-description: Document البناء. إنشاء مستند Word فارغ.
+title: Document
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words لـ .NET
+description: Document البناء. إنشاء مستند Word فارغ في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/document/document/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/document/document/
 public Document()
 ```
 
-### ملاحظات
+## ملاحظات
 
 حجم ورق المستند هو Letter بشكل افتراضي. إذا كنت تريد تغيير إعداد الصفحة، فاستخدم [`PageSetup`](../../section/pagesetup/).
 
 بعد الإنشاء، يمكنك استخدام[`DocumentBuilder`](../../documentbuilder/) لإضافة محتوى المستند بسهولة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق مجموعة من النص باستخدام خاصية الخط الخاصة به.
 
@@ -64,12 +66,12 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Document(string) {#constructor_3}
+## Document(*string*) {#constructor_3}
 
 فتح مستند موجود من ملف. يكتشف تنسيق الملف تلقائيًا.
 
@@ -92,7 +94,7 @@ public Document(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه، ولكنك أدخلت كلمة مرور غير صحيحة. |
 | ArgumentException | لا يمكن أن يكون اسم الملف سلسلة فارغة أو فارغة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية فتح مستند وتحويله إلى .PDF.
 
@@ -146,12 +148,12 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Document(string, LoadOptions) {#constructor_4}
+## Document(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_4}
 
 فتح مستند موجود من ملف. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
 
@@ -175,7 +177,7 @@ public Document(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه، ولكنك أدخلت كلمة مرور غير صحيحة. |
 | ArgumentException | لا يمكن أن يكون اسم الملف سلسلة فارغة أو فارغة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل مستند Microsoft Word المشفر.
 
@@ -226,12 +228,12 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Document(Stream) {#constructor_1}
+## Document(*Stream*) {#constructor_1}
 
 فتح مستند موجود من الدفق. يكتشف تنسيق الملف تلقائيًا.
 
@@ -256,11 +258,11 @@ public Document(Stream stream)
 | NotSupportedException | الدفق لا يدعم القراءة أو البحث. |
 | ObjectDisposedException | الدفق هو كائن تم التخلص منه. |
 
-### ملاحظات
+## ملاحظات
 
 يجب تخزين المستند في بداية الدفق. يجب أن يدعم الدفق تحديد المواقع العشوائية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل مستند باستخدام الدفق.
 
@@ -302,12 +304,12 @@ using (HttpClient webClient = new HttpClient())
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Document(Stream, LoadOptions) {#constructor_2}
+## Document(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_2}
 
 فتح مستند موجود من الدفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
 
@@ -333,11 +335,11 @@ public Document(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | الدفق لا يدعم القراءة أو البحث. |
 | ObjectDisposedException | الدفق هو كائن تم التخلص منه. |
 
-### ملاحظات
+## ملاحظات
 
 يجب تخزين المستند في بداية الدفق. يجب أن يدعم الدفق تحديد المواقع العشوائية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية فتح مستند HTML يحتوي على صور من دفق باستخدام عنوان URI أساسي.
 
@@ -408,7 +410,5 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

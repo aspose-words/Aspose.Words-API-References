@@ -1,7 +1,9 @@
 ---
 title: TextPath.Kerning
-second_title: Aspose.Words for .NET API Referansı
-description: TextPath mülk. Karakter aralığının açık olup olmadığını belirler.
+linktitle: Kerning
+articleTitle: Kerning
+second_title: Aspose.Words for .NET
+description: TextPath Kerning mülk. Karakter aralığının açık olup olmadığını belirler C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing/textpath/kerning/
@@ -14,11 +16,11 @@ Karakter aralığının açık olup olmadığını belirler.
 public bool Kerning { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 WordArt'la nasıl çalışılacağını gösterir.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ayrıca bakınız
 
 * class [TextPath](../)
-* ad alanı [Aspose.Words.Drawing](../../textpath/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

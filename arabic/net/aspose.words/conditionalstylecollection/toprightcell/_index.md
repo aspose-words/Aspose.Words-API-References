@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.TopRightCell
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyleCollection ملكية. الحصول على نمط الخلية العلوي الأيمن.
+linktitle: TopRightCell
+articleTitle: TopRightCell
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyleCollection TopRightCell ملكية. الحصول على نمط الخلية العلوي الأيمن في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words/conditionalstylecollection/toprightcell/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstylecollection/toprightcell/
 public ConditionalStyle TopRightCell { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

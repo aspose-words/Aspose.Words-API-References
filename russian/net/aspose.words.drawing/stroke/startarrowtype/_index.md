@@ -1,9 +1,11 @@
 ---
 title: Stroke.StartArrowType
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Определяет стрелку начала штриха.
+linktitle: StartArrowType
+articleTitle: StartArrowType
+second_title: Aspose.Words для .NET
+description: Stroke StartArrowType свойство. Определяет стрелку начала штриха на С#.
 type: docs
-weight: 180
+weight: 170
 url: /ru/net/aspose.words.drawing/stroke/startarrowtype/
 ---
 ## Stroke.StartArrowType property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/startarrowtype/
 public ArrowType StartArrowType { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:None.
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowType](../../arrowtype/)
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

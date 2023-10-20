@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Hash
-second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoRecipientData propiedad. Representa el código hash de este registro. A veces se utiliza Microsoft WordHash de un registro completo en lugar de unUniqueTag valor. El valor predeterminado es 0.
+linktitle: Hash
+articleTitle: Hash
+second_title: Aspose.Words para .NET
+description: OdsoRecipientData Hash propiedad. Representa el código hash de este registro. A veces se utiliza Microsoft WordHash de un registro completo en lugar de unUniqueTag valor. El valor predeterminado es 0 en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.settings/odsorecipientdata/hash/
@@ -14,7 +16,7 @@ Representa el código hash de este registro. A veces se utiliza Microsoft Word`H
 public int Hash { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos de combinación excluirá una combinación de correspondencia.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ver también
 
 * class [OdsoRecipientData](../)
-* espacio de nombres [Aspose.Words.Settings](../../odsorecipientdata/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

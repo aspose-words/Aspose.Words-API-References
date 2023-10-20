@@ -1,7 +1,9 @@
 ---
 title: FramesetCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: FramesetCollection свойство. Получает кадр или страницу кадров по указанному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: FramesetCollection Item свойство. Получает кадр или страницу кадров по указанному индексу на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.framesets/framesetcollection/item/
@@ -18,7 +20,5 @@ public Frameset this[int index] { get; }
 
 * class [Frameset](../../frameset/)
 * class [FramesetCollection](../)
-* пространство имен [Aspose.Words.Framesets](../../framesetcollection/)
+* пространство имен [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * сборка [Aspose.Words](../../../)
-
-

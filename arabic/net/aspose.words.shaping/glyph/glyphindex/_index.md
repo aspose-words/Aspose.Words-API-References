@@ -1,7 +1,9 @@
 ---
 title: Glyph.GlyphIndex
-second_title: Aspose.Words لمراجع .NET API
-description: Glyph ملكية. فهرس الصورة الرمزية GID بالخط الفعلي.
+linktitle: GlyphIndex
+articleTitle: GlyphIndex
+second_title: Aspose.Words لـ .NET
+description: Glyph GlyphIndex ملكية. فهرس الصورة الرمزية GID بالخط الفعلي في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.shaping/glyph/glyphindex/
@@ -17,7 +19,5 @@ public int GlyphIndex { get; }
 ### أنظر أيضا
 
 * class [Glyph](../)
-* مساحة الاسم [Aspose.Words.Shaping](../../glyph/)
+* مساحة الاسم [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * المجسم [Aspose.Words](../../../)
-
-

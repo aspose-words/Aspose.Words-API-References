@@ -1,7 +1,9 @@
 ---
 title: Document.CustomXmlParts
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取或设置自定义 XML 数据存储部分的集合
+linktitle: CustomXmlParts
+articleTitle: CustomXmlParts
+second_title: 用于 .NET 的 Aspose.Words
+description: Document CustomXmlParts 财产. 获取或设置自定义 XML 数据存储部分的集合 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/document/customxmlparts/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/document/customxmlparts/
 public CustomXmlPartCollection CustomXmlParts { get; set; }
 ```
 
-### 评论
+## 评论
 
 Aspose.Words 仅将自定义 XML 部件加载并保存到 OOXML 和 DOC 文档中。
 
 该属性不能`无效的`。
 
-### 例子
+## 例子
 
 演示如何使用自定义 XML 数据创建结构化文档标签。
 
@@ -88,7 +90,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPartCollection](../../../aspose.words.markup/customxmlpartcollection/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

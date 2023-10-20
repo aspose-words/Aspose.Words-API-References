@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionReference
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.WebExtensions.WebExtensionReference 班级. 表示对 Web 扩展的引用该引用用于标识 扩展的提供程序位置和版本
+title: WebExtensionReference Class
+linktitle: WebExtensionReference
+articleTitle: WebExtensionReference
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.WebExtensions.WebExtensionReference 班级. 表示对 Web 扩展的引用该引用用于标识 扩展的提供程序位置和版本 在 C#.
 type: docs
 weight: 6800
 url: /zh/net/aspose.words.webextensions/webextensionreference/
@@ -35,5 +37,3 @@ public class WebExtensionReference
 
 * 命名空间 [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../)
-
-

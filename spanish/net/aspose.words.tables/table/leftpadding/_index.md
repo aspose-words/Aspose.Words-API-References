@@ -1,7 +1,9 @@
 ---
 title: Table.LeftPadding
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. Obtiene o establece la cantidad de espacio en puntos que se agregará a la izquierda del contenido de las celdas.
+linktitle: LeftPadding
+articleTitle: LeftPadding
+second_title: Aspose.Words para .NET
+description: Table LeftPadding propiedad. Obtiene o establece la cantidad de espacio en puntos que se agregará a la izquierda del contenido de las celdas en C#.
 type: docs
 weight: 200
 url: /es/net/aspose.words.tables/table/leftpadding/
@@ -14,7 +16,7 @@ Obtiene o establece la cantidad de espacio (en puntos) que se agregará a la izq
 public double LeftPadding { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar el relleno de contenido en una tabla.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### Ver también
 
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

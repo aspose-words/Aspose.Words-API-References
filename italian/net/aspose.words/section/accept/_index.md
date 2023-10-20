@@ -1,7 +1,9 @@
 ---
 title: Section.Accept
-second_title: Aspose.Words per .NET API Reference
-description: Section metodo. Accetta un visitatore.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words per .NET
+description: Section Accept metodo. Accetta un visitatore in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/section/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../documentvisitor/) ha interrotto l'operazione prima di visitare tutti i nodi.
 
-### Osservazioni
+## Osservazioni
 
 Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../documentvisitor/).
 
@@ -34,7 +36,5 @@ Chiamate[`VisitSectionStart`](../../documentvisitor/visitsectionstart/) , poi ch
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Section](../)
-* spazio dei nomi [Aspose.Words](../../section/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.HtmlVersion
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Belgeyi HTML veya MHTMLye kaydederken kullanılması gereken HTML standardı sürümünü belirtir. Varsayılan değerXhtml .
+linktitle: HtmlVersion
+articleTitle: HtmlVersion
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions HtmlVersion mülk. Belgeyi HTML veya MHTMLye kaydederken kullanılması gereken HTML standardı sürümünü belirtir. Varsayılan değerXhtml  C#'da.
 type: docs
 weight: 330
 url: /tr/net/aspose.words.saving/htmlsaveoptions/htmlversion/
@@ -14,7 +16,7 @@ Belgeyi HTML veya MHTML'ye kaydederken kullanılması gereken HTML standardı s�
 public HtmlVersion HtmlVersion { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgeleri Xhtml 1.0 geçiş standardına dönüştürürken DOCTYPE başlığının nasıl görüntüleneceğini gösterir.
 
@@ -80,7 +82,5 @@ switch (htmlVersion)
 
 * enum [HtmlVersion](../../htmlversion/)
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

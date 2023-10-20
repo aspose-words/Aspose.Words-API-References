@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Gallery
-second_title: Справочник по API Aspose.Words для .NET
-description: BuildingBlock свойство. Определяет категоризацию первого уровня для стандартного блока для целей классификации или сортировки пользовательского интерфейса.
+linktitle: Gallery
+articleTitle: Gallery
+second_title: Aspose.Words для .NET
+description: BuildingBlock Gallery свойство. Определяет категоризацию первого уровня для стандартного блока для целей классификации или сортировки пользовательского интерфейса на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.buildingblocks/buildingblock/gallery/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.buildingblocks/buildingblock/gallery/
 public BuildingBlockGallery Gallery { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Строительные блоки пользовательского интерфейса Microsoft Word сгруппированы в галереи. Каждый`Gallery` может иметь несколько категорий. Каждый блок внутри a[`Category`](../category/) имеет[`Name`](../name/).
 
-Соответствует **docPartPr.category.gallery** элемент в OOXML.
+Соответствует**docPartPr.category.gallery** элемент в OOXML.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ пользовательский стандартный блок.
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [BuildingBlock](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

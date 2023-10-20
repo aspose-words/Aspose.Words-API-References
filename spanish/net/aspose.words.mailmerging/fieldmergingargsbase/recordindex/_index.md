@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.RecordIndex
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergingArgsBase propiedad. Obtiene el índice de base cero del registro que se está fusionando.
+linktitle: RecordIndex
+articleTitle: RecordIndex
+second_title: Aspose.Words para .NET
+description: FieldMergingArgsBase RecordIndex propiedad. Obtiene el índice de base cero del registro que se está fusionando en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
@@ -14,7 +16,7 @@ Obtiene el índice de base cero del registro que se está fusionando.
 public int RecordIndex { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar campos de formulario de casilla de verificación en MERGEFIELD como datos de combinación durante la combinación de correspondencia.
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Ver también
 
 * class [FieldMergingArgsBase](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

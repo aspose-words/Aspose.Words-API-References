@@ -1,7 +1,9 @@
 ---
 title: ChartAxisCollection.Count
-second_title: Aspose.Words per .NET API Reference
-description: ChartAxisCollection proprietà. Ottiene il numero di assi in questa raccolta.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: ChartAxisCollection Count proprietà. Ottiene il numero di assi in questa raccolta in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/chartaxiscollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Guarda anche
 
 * class [ChartAxisCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartaxiscollection/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

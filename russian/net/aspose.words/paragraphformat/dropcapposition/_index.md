@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.DropCapPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает положение текста буквицы.
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: Aspose.Words для .NET
+description: ParagraphFormat DropCapPosition свойство. Получает или задает положение текста буквицы на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/paragraphformat/dropcapposition/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/dropcapposition/
 public DropCapPosition DropCapPosition { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вложить список в другой список.
 
@@ -69,7 +71,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 
 * enum [DropCapPosition](../../dropcapposition/)
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

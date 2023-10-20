@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldSeparatorChar
-second_title: Referencia de API de Aspose.Words para .NET
-description: ControlChar campo. El carácter separador de campo separa el código de campo del valor del campo. Opcional en algunos campos. Valor carácter20.
+linktitle: FieldSeparatorChar
+articleTitle: FieldSeparatorChar
+second_title: Aspose.Words para .NET
+description: ControlChar FieldSeparatorChar campo. El carácter separador de campo separa el código de campo del valor del campo. Opcional en algunos campos. Valor carácter20 en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words/controlchar/fieldseparatorchar/
@@ -14,7 +16,7 @@ El carácter separador de campo separa el código de campo del valor del campo. 
 public const char FieldSeparatorChar;
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar varios caracteres de control a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ver también
 
 * class [ControlChar](../)
-* espacio de nombres [Aspose.Words](../../controlchar/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

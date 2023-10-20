@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.DateTimeFormat
-second_title: Aspose.Words for .NET API Referansı
-description: FieldFormat mülk. Tarih ve saat alanı sonucuna uygulanan biçimlendirmeyi alır veya ayarlar.  anahtarına karşılık gelir.
+linktitle: DateTimeFormat
+articleTitle: DateTimeFormat
+second_title: Aspose.Words for .NET
+description: FieldFormat DateTimeFormat mülk. Tarih ve saat alanı sonucuna uygulanan biçimlendirmeyi alır veya ayarlar.  anahtarına karşılık gelir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldformat/datetimeformat/
@@ -14,7 +16,7 @@ Tarih ve saat alanı sonucuna uygulanan biçimlendirmeyi alır veya ayarlar. \@ 
 public string DateTimeFormat { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Alan sonuçlarının nasıl biçimlendirileceğini gösterir.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Ayrıca bakınız
 
 * class [FieldFormat](../)
-* ad alanı [Aspose.Words.Fields](../../fieldformat/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

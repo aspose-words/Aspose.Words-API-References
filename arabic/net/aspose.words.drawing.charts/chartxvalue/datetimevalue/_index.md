@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.DateTimeValue
-second_title: Aspose.Words لمراجع .NET API
-description: ChartXValue ملكية. الحصول على قيمة التاريخ والوقت المخزنة.
+linktitle: DateTimeValue
+articleTitle: DateTimeValue
+second_title: Aspose.Words لـ .NET
+description: ChartXValue DateTimeValue ملكية. الحصول على قيمة التاريخ والوقت المخزنة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing.charts/chartxvalue/datetimevalue/
@@ -17,7 +19,5 @@ public DateTime DateTimeValue { get; }
 ### أنظر أيضا
 
 * class [ChartXValue](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

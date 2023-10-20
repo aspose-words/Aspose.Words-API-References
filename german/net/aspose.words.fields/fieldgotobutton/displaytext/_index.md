@@ -1,7 +1,9 @@
 ---
 title: FieldGoToButton.DisplayText
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldGoToButton eigendom. Ruft den Text der Schaltfläche ab die im Dokument angezeigt wird oder legt diesen fest sodass er zum Aktivieren des Sprungs ausgewählt werden kann.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words für .NET
+description: FieldGoToButton DisplayText eigendom. Ruft den Text der Schaltfläche ab die im Dokument angezeigt wird oder legt diesen fest sodass er zum Aktivieren des Sprungs ausgewählt werden kann in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldgotobutton/displaytext/
@@ -14,7 +16,7 @@ Ruft den Text der „Schaltfläche“ ab, die im Dokument angezeigt wird, oder l
 public string DisplayText { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt an, dass ein GOTOBUTTON-Feld eingefügt werden soll.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Field.GOTOBUTTON.docx");
 ### Siehe auch
 
 * class [FieldGoToButton](../)
-* namensraum [Aspose.Words.Fields](../../fieldgotobutton/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

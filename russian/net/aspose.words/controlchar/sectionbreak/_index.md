@@ -1,7 +1,9 @@
 ---
 title: ControlChar.SectionBreak
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Символ конца раздела x000c или f. Обратите внимание что оно имеет то же значение что иPageBreak .
+linktitle: SectionBreak
+articleTitle: SectionBreak
+second_title: Aspose.Words для .NET
+description: ControlChar SectionBreak поле. Символ конца раздела x000c или f. Обратите внимание что оно имеет то же значение что иPageBreak  на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words/controlchar/sectionbreak/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/sectionbreak/
 public static readonly string SectionBreak;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

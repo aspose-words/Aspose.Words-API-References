@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.LoadWindowsSettings
-second_title: Referencia de API de Aspose.Words para .NET
-description: TableSubstitutionRule método. Carga la configuración de sustitución de tablas predefinida para la plataforma Windows.
+linktitle: LoadWindowsSettings
+articleTitle: LoadWindowsSettings
+second_title: Aspose.Words para .NET
+description: TableSubstitutionRule LoadWindowsSettings método. Carga la configuración de sustitución de tablas predefinida para la plataforma Windows en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/
@@ -14,7 +16,7 @@ Carga la configuración de sustitución de tablas predefinida para la plataforma
 public void LoadWindowsSettings()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a las tablas de sustitución de fuentes para Windows y Linux.
 
@@ -53,7 +55,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Ver también
 
 * class [TableSubstitutionRule](../)
-* espacio de nombres [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

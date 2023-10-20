@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Author
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. الحصول على اسم مؤلف المستند أو تعيينه.
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties Author ملكية. الحصول على اسم مؤلف المستند أو تعيينه في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.properties/builtindocumentproperties/author/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/author/
 public string Author { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند المضمنة في فئة "الوصف".
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

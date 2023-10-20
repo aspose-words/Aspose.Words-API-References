@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTag.StructuredDocumentTag
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag inşaatçı. Yeni bir örneğini başlatır Yapılandırılmış belge etiketi class.
+title: StructuredDocumentTag
+linktitle: StructuredDocumentTag
+articleTitle: StructuredDocumentTag
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag inşaatçı. Yeni bir örneğini başlatırYapılandırılmış belge etiketi class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-Yeni bir örneğini başlatır **Yapılandırılmış belge etiketi** class.
+Yeni bir örneğini başlatır**Yapılandırılmış belge etiketi** class.
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
@@ -20,7 +22,7 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 | type | SdtType | SDT düğümünün türü. |
 | level | MarkupLevel | Belge içindeki SDT düğümünün düzeyi. |
 
-### Notlar
+## Notlar
 
 Aşağıdaki SDT türleri oluşturulabilir:
 
@@ -34,7 +36,7 @@ Aşağıdaki SDT türleri oluşturulabilir:
 * RichText
 * PlainText
 
-### Örnekler
+## Örnekler
 
 Onay kutusu biçiminde yapılandırılmış belge etiketinin nasıl oluşturulacağını gösterin.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 * enum [SdtType](../../sdttype/)
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

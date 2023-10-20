@@ -1,7 +1,9 @@
 ---
-title: Enum PageVerticalAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.PageVerticalAlignment Sıralama. Her sayfadaki metnin dikey hizalamasını belirtir.
+title: PageVerticalAlignment Enum
+linktitle: PageVerticalAlignment
+articleTitle: PageVerticalAlignment
+second_title: Aspose.Words for .NET
+description: Aspose.Words.PageVerticalAlignment Sıralama. Her sayfadaki metnin dikey hizalamasını belirtir C#'da.
 type: docs
 weight: 4370
 url: /tr/net/aspose.words/pageverticalalignment/
@@ -23,7 +25,7 @@ public enum PageVerticalAlignment
 | Justify | `2` | Metin sayfayı dolduracak şekilde yayılır. |
 | Top | `0` | Metin sayfanın üst kısmına hizalanır. |
 
-### Örnekler
+## Örnekler
 
 Sayfa yapısı ayarlarının bir belgedeki bölümlere nasıl uygulanacağını ve geri döndürüleceğini gösterir.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 * property [VerticalAlignment](../pagesetup/verticalalignment/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

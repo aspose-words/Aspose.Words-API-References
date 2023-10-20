@@ -1,7 +1,9 @@
 ---
-title: Class EditableRange
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.EditableRange فصل. يمثل نطاقًا واحدًا قابلاً للتحرير.
+title: EditableRange Class
+linktitle: EditableRange
+articleTitle: EditableRange
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.EditableRange فصل. يمثل نطاقًا واحدًا قابلاً للتحرير في C#.
 type: docs
 weight: 1420
 url: /ar/net/aspose.words/editablerange/
@@ -32,11 +34,11 @@ public class EditableRange
 | --- | --- |
 | [Remove](../../aspose.words/editablerange/remove/)() | يزيل النطاق القابل للتحرير من المستند. لا يزيل المحتوى الموجود داخل النطاق القابل للتحرير. |
 
-### ملاحظات
+## ملاحظات
 
 `EditableRange` هو كائن "واجهة" يحتوي على عقدتين[`EditableRangeStart`](./editablerangestart/) و[`EditableRangeEnd`](./editablerangeend/) في شجرة المستندات ويسمح بالعمل مع نطاق قابل للتحرير ككائن واحد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع نطاق قابل للتحرير.
 
@@ -189,5 +191,3 @@ public class EditableRangePrinter : DocumentVisitor
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

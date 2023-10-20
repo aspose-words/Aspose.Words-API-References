@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Name
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. İsteğe bağlı şekil adını alır veya ayarlar.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words for .NET
+description: ShapeBase Name mülk. İsteğe bağlı şekil adını alır veya ayarlar C#'da.
 type: docs
 weight: 400
 url: /tr/net/aspose.words.drawing/shapebase/name/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.drawing/shapebase/name/
 public string Name { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan boş dizedir.
 
 Olamaz`hükümsüz`, ancak boş bir dize olabilir.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin alternatif metninin nasıl kullanılacağını gösterir.
 
@@ -44,7 +46,5 @@ File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

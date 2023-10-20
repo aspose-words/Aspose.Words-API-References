@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.Remove
-second_title: Aspose.Words per .NET API Reference
-description: GeneralFormatCollection metodo. Rimuove tutte le occorrenze del formato generale specificato dalla raccolta.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words per .NET
+description: GeneralFormatCollection Remove metodo. Rimuove tutte le occorrenze del formato generale specificato dalla raccolta in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/generalformatcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(GeneralFormat item)
 | --- | --- | --- |
 | item | GeneralFormat | Un formato generale. |
 
-### Esempi
+## Esempi
 
 Mostra come formattare i risultati dei campi.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * enum [GeneralFormat](../../generalformat/)
 * class [GeneralFormatCollection](../)
-* spazio dei nomi [Aspose.Words.Fields](../../generalformatcollection/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

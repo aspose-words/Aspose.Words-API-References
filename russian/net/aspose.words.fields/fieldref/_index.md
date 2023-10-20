@@ -1,7 +1,9 @@
 ---
-title: Class FieldRef
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldRef сорт. Реализует поле REF.
+title: FieldRef Class
+linktitle: FieldRef
+articleTitle: FieldRef
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldRef сорт. Реализует поле REF на С#.
 type: docs
 weight: 2330
 url: /ru/net/aspose.words.fields/fieldref/
@@ -51,17 +53,17 @@ public class FieldRef : Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
-### Примечания
+## Примечания
 
 Вставляет текст или графику, представленную указанной закладкой.
 
-### Примеры
+## Примеры
 
 Показывает, как создать текст с закладкой с помощью поля SET, а затем отобразить его в документе с помощью поля REF.
 
@@ -179,5 +181,3 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

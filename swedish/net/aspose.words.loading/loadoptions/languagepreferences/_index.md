@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.LanguagePreferences
-second_title: Aspose.Words för .NET API Referens
-description: LoadOptions fast egendom. Får språkinställningar som kommer att användas när dokumentet laddas.
+linktitle: LanguagePreferences
+articleTitle: LanguagePreferences
+second_title: Aspose.Words för .NET
+description: LoadOptions LanguagePreferences fast egendom. Får språkinställningar som kommer att användas när dokumentet laddas i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.loading/loadoptions/languagepreferences/
@@ -14,7 +16,7 @@ Får språkinställningar som kommer att användas när dokumentet laddas.
 public LanguagePreferences LanguagePreferences { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder språkinställningar när du laddar ett dokument.
 
@@ -34,7 +36,5 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * class [LanguagePreferences](../../languagepreferences/)
 * class [LoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../loadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.ValueType
-second_title: Aspose.Words för .NET API Referens
-description: ChartXValue fast egendom. Hämtar typen av Xvärde som lagras i objektet.
+linktitle: ValueType
+articleTitle: ValueType
+second_title: Aspose.Words för .NET
+description: ChartXValue ValueType fast egendom. Hämtar typen av Xvärde som lagras i objektet i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.drawing.charts/chartxvalue/valuetype/
@@ -18,7 +20,5 @@ public ChartXValueType ValueType { get; }
 
 * enum [ChartXValueType](../../chartxvaluetype/)
 * class [ChartXValue](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageData.GrayScale
-second_title: Aspose.Words for .NET API 参考
-description: ImageData 财产. 确定图片是否以灰度模式显示
+linktitle: GrayScale
+articleTitle: GrayScale
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageData GrayScale 财产. 确定图片是否以灰度模式显示 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.drawing/imagedata/grayscale/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/imagedata/grayscale/
 public bool GrayScale { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`。
 
-### 例子
+## 例子
 
 演示如何编辑形状的图像数据。
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### 也可以看看
 
 * class [ImageData](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagedata/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

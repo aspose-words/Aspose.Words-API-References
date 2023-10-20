@@ -1,7 +1,9 @@
 ---
-title: Class ChartXValue
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartXValue فصل. يمثل قيمة X لسلسلة المخططات.
+title: ChartXValue Class
+linktitle: ChartXValue
+articleTitle: ChartXValue
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartXValue فصل. يمثل قيمة X لسلسلة المخططات في C#.
 type: docs
 weight: 840
 url: /ar/net/aspose.words.drawing.charts/chartxvalue/
@@ -29,15 +31,15 @@ public class ChartXValue
 
 | اسم | وصف |
 | --- | --- |
-| static [FromDateTime](../../aspose.words.drawing.charts/chartxvalue/fromdatetime/)(DateTime) | إنشاء ملف`ChartXValue` مثال علىDateTime اكتب. |
-| static [FromDouble](../../aspose.words.drawing.charts/chartxvalue/fromdouble/)(double) | إنشاء ملف`ChartXValue` مثال علىDouble اكتب. |
-| static [FromMultilevelValue](../../aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/)(ChartMultilevelValue) | إنشاء ملف`ChartXValue` مثال علىMultilevel اكتب. |
-| static [FromString](../../aspose.words.drawing.charts/chartxvalue/fromstring/)(string) | إنشاء ملف`ChartXValue` مثال علىString اكتب. |
-| static [FromTimeSpan](../../aspose.words.drawing.charts/chartxvalue/fromtimespan/)(TimeSpan) | إنشاء ملف`ChartXValue` مثال علىTime اكتب. |
-| override [Equals](../../aspose.words.drawing.charts/chartxvalue/equals/)(object) | الحصول على علامة تشير إلى ما إذا كان الكائن المحدد يساوي كائن القيمة X الحالي. |
+| static [FromDateTime](../../aspose.words.drawing.charts/chartxvalue/fromdatetime/)(*DateTime*) | إنشاء ملف`ChartXValue` مثال علىDateTime اكتب. |
+| static [FromDouble](../../aspose.words.drawing.charts/chartxvalue/fromdouble/)(*double*) | إنشاء ملف`ChartXValue` مثال علىDouble اكتب. |
+| static [FromMultilevelValue](../../aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/)(*[ChartMultilevelValue](../chartmultilevelvalue/)*) | إنشاء ملف`ChartXValue` مثال علىMultilevel اكتب. |
+| static [FromString](../../aspose.words.drawing.charts/chartxvalue/fromstring/)(*string*) | إنشاء ملف`ChartXValue` مثال علىString اكتب. |
+| static [FromTimeSpan](../../aspose.words.drawing.charts/chartxvalue/fromtimespan/)(*TimeSpan*) | إنشاء ملف`ChartXValue` مثال علىTime اكتب. |
+| override [Equals](../../aspose.words.drawing.charts/chartxvalue/equals/)(*object*) | الحصول على علامة تشير إلى ما إذا كان الكائن المحدد يساوي كائن القيمة X الحالي. |
 | override [GetHashCode](../../aspose.words.drawing.charts/chartxvalue/gethashcode/)() | الحصول على رمز التجزئة لكائن القيمة X الحالي. |
 
-### ملاحظات
+## ملاحظات
 
 تحتوي هذه الفئة على عدد من الطرق الثابتة لإنشاء قيمة X لنوع معين. The [`ValueType`](./valuetype/) تسمح لك الخاصية بتحديد نوع قيمة X الموجودة.
 
@@ -47,5 +49,3 @@ public class ChartXValue
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

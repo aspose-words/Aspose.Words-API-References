@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignatureCollection ملكية. الحصول على توقيع المستند في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: DigitalSignatureCollection Item ملكية. الحصول على توقيع المستند في الفهرس المحدد في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.digitalsignatures/digitalsignaturecollection/item/
@@ -18,7 +20,7 @@ public DigitalSignature this[int index] { get; }
 | --- | --- |
 | index | الفهرس الصفري للتوقيع. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع المستندات بشهادات X.509.
 
@@ -62,7 +64,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [DigitalSignature](../../digitalsignature/)
 * class [DigitalSignatureCollection](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

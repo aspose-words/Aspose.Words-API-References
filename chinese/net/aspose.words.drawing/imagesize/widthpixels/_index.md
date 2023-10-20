@@ -1,7 +1,9 @@
 ---
 title: ImageSize.WidthPixels
-second_title: Aspose.Words for .NET API 参考
-description: ImageSize 财产. 获取图像的宽度以像素为单位
+linktitle: WidthPixels
+articleTitle: WidthPixels
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSize WidthPixels 财产. 获取图像的宽度以像素为单位 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing/imagesize/widthpixels/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/imagesize/widthpixels/
 public int WidthPixels { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何读取形状中图像的属性。
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### 也可以看看
 
 * class [ImageSize](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagesize/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum AxisScaleType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.AxisScaleType uppräkning. Anger möjliga skaltyper för en axel.
+title: AxisScaleType Enum
+linktitle: AxisScaleType
+articleTitle: AxisScaleType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.AxisScaleType uppräkning. Anger möjliga skaltyper för en axel i C#.
 type: docs
 weight: 560
 url: /sv/net/aspose.words.drawing.charts/axisscaletype/
@@ -21,7 +23,7 @@ public enum AxisScaleType
 | Linear | `0` | Linjär skalning. |
 | Logarithmic | `1` | Logaritmisk skalning. |
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar logaritmisk skalning på en diagramaxel.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class DocumentProperty
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Properties.DocumentProperty sınıf. Özel veya yerleşik bir belge özelliğini temsil eder.
+title: DocumentProperty Class
+linktitle: DocumentProperty
+articleTitle: DocumentProperty
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Properties.DocumentProperty sınıf. Özel veya yerleşik bir belge özelliğini temsil eder C#'da.
 type: docs
 weight: 4470
 url: /tr/net/aspose.words.properties/documentproperty/
@@ -32,12 +34,12 @@ public class DocumentProperty
 | --- | --- |
 | [ToBool](../../aspose.words.properties/documentproperty/tobool/)() | Özellik değerini bool. olarak döndürür |
 | [ToByteArray](../../aspose.words.properties/documentproperty/tobytearray/)() | Özellik değerini bayt dizisi olarak döndürür. |
-| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Özellik değerini şu şekilde döndürür: **TarihSaat** UTC. 'de |
+| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Özellik değerini şu şekilde döndürür:**TarihSaat** UTC. 'de |
 | [ToDouble](../../aspose.words.properties/documentproperty/todouble/)() | Özellik değerini double olarak döndürür. |
 | [ToInt](../../aspose.words.properties/documentproperty/toint/)() | Özellik değerini tamsayı olarak döndürür. |
 | override [ToString](../../aspose.words.properties/documentproperty/tostring/)() | Özellik değerini geçerli yerel ayara göre biçimlendirilmiş bir dize olarak döndürür. |
 
-### Örnekler
+## Örnekler
 
 Yerleşik belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -73,5 +75,3 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
 * ad alanı [Aspose.Words.Properties](../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../)
-
-

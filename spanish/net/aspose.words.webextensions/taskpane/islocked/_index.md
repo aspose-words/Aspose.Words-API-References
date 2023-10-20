@@ -1,7 +1,9 @@
 ---
 title: TaskPane.IsLocked
-second_title: Referencia de API de Aspose.Words para .NET
-description: TaskPane propiedad. Especifica si el panel de tareas está bloqueado en el documento en la interfaz de usuario y el usuario no puede cerrarlo.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words para .NET
+description: TaskPane IsLocked propiedad. Especifica si el panel de tareas está bloqueado en el documento en la interfaz de usuario y el usuario no puede cerrarlo en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.webextensions/taskpane/islocked/
@@ -14,7 +16,7 @@ Especifica si el panel de tareas está bloqueado en el documento en la interfaz 
 public bool IsLocked { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar una extensión web a un documento.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ver también
 
 * class [TaskPane](../)
-* espacio de nombres [Aspose.Words.WebExtensions](../../taskpane/)
+* espacio de nombres [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../../)
-
-

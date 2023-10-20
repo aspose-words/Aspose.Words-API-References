@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.Email
-second_title: Aspose.Words for .NET API Referansı
-description: SignatureLine mülk. Önerilen imzalayanın eposta adresini alır veya ayarlar. Bu özelliğin varsayılan değeri boş dize Empty.
+linktitle: Email
+articleTitle: Email
+second_title: Aspose.Words for .NET
+description: SignatureLine Email mülk. Önerilen imzalayanın eposta adresini alır veya ayarlar. Bu özelliğin varsayılan değeriboş dize Empty C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing/signatureline/email/
 ---
 ## SignatureLine.Email property
 
-Önerilen imzalayanın e-posta adresini alır veya ayarlar. Bu özelliğin varsayılan değeri: **boş dize** (Empty).
+Önerilen imzalayanın e-posta adresini alır veya ayarlar. Bu özelliğin varsayılan değeri:**boş dize** (Empty).
 
 ```csharp
 public string Email { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İmza için nasıl satır oluşturulacağını ve bunun belgeye nasıl ekleneceğini gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Ayrıca bakınız
 
 * class [SignatureLine](../)
-* ad alanı [Aspose.Words.Drawing](../../signatureline/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

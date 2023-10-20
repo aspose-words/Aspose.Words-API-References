@@ -1,7 +1,9 @@
 ---
-title: Interface IReplacingCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Replacing.IReplacingCallback 界面. 如果您想在查找和替换操作期间调用自己的自定义方法请实现此接口
+title: IReplacingCallback Interface
+linktitle: IReplacingCallback
+articleTitle: IReplacingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Replacing.IReplacingCallback 界面. 如果您想在查找和替换操作期间调用自己的自定义方法请实现此接口 在 C#.
 type: docs
 weight: 4630
 url: /zh/net/aspose.words.replacing/ireplacingcallback/
@@ -18,9 +20,9 @@ public interface IReplacingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(ReplacingArgs) | 用户定义的方法，在替换操作期间为替换之前找到的每个匹配项调用。 |
+| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | 用户定义的方法，在替换操作期间为替换之前找到的每个匹配项调用。 |
 
-### 例子
+## 例子
 
 演示如何将所有出现的正则表达式模式替换为另一个字符串，同时跟踪所有此类替换。
 
@@ -196,5 +198,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * 命名空间 [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../)
-
-

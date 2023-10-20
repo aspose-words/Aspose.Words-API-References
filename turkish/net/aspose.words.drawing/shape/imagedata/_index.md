@@ -1,7 +1,9 @@
 ---
 title: Shape.ImageData
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Şeklin görüntüsüne erişim sağlar. Döndürürhükümsüz şeklin bir resmi olamazsa.
+linktitle: ImageData
+articleTitle: ImageData
+second_title: Aspose.Words for .NET
+description: Shape ImageData mülk. Şeklin görüntüsüne erişim sağlar. Döndürürhükümsüz şeklin bir resmi olamazsa C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.drawing/shape/imagedata/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shape/imagedata/
 public ImageData ImageData { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeden görüntülerin nasıl çıkarılacağını ve bunların yerel dosya sistemine ayrı dosyalar olarak nasıl kaydedileceğini gösterir.
 
@@ -83,7 +85,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * class [ImageData](../../imagedata/)
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: Document.CompatibilityOptions
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 提供对文档兼容性选项的访问即在文档上输入的用户首选项 兼容性 选项卡 选项Word 中的对话框.
+linktitle: CompatibilityOptions
+articleTitle: CompatibilityOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Document CompatibilityOptions 财产. 提供对文档兼容性选项的访问即在文档上输入的用户首选项兼容性 选项卡选项Word 中的对话框 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/document/compatibilityoptions/
 ---
 ## Document.CompatibilityOptions property
 
-提供对文档兼容性选项的访问（即在文档上输入的用户首选项） **兼容性** 选项卡 **选项**Word 中的对话框）.
+提供对文档兼容性选项的访问（即在文档上输入的用户首选项）**兼容性** 选项卡**选项**Word 中的对话框）.
 
 ```csharp
 public CompatibilityOptions CompatibilityOptions { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何针对不同版本的 Microsoft Word 优化文档。
 
@@ -74,7 +76,5 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * class [CompatibilityOptions](../../../aspose.words.settings/compatibilityoptions/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldPrintDate.UseUmAlQuraCalendar
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldPrintDate свойство. Получает или задает необходимость использования календаря УмальКура.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words для .NET
+description: FieldPrintDate UseUmAlQuraCalendar свойство. Получает или задает необходимость использования календаря УмальКура на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldprintdate/useumalquracalendar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldprintdate/useumalquracalendar/
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает прочитанные поля PRINTDATE.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### Смотрите также
 
 * class [FieldPrintDate](../)
-* пространство имен [Aspose.Words.Fields](../../fieldprintdate/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

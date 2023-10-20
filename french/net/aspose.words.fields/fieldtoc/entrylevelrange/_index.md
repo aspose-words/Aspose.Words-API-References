@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntryLevelRange
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldToc propriété. Obtient ou définit une plage de niveaux dentrées de table des matières à inclure.
+linktitle: EntryLevelRange
+articleTitle: EntryLevelRange
+second_title: Aspose.Words pour .NET
+description: FieldToc EntryLevelRange propriété. Obtient ou définit une plage de niveaux dentrées de table des matières à inclure en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/fieldtoc/entrylevelrange/
@@ -14,7 +16,7 @@ Obtient ou définit une plage de niveaux d'entrées de table des matières à in
 public string EntryLevelRange { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ TOC et filtrer les champs TC qui finissent comme entrées.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Voir également
 
 * class [FieldToc](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtoc/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

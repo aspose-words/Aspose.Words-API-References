@@ -1,14 +1,16 @@
 ---
-title: Class CompatibilityOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.CompatibilityOptions 班级. 包含兼容性选项即在 兼容性 选项卡 选项Microsoft Word 中的对话框.
+title: CompatibilityOptions Class
+linktitle: CompatibilityOptions
+articleTitle: CompatibilityOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.CompatibilityOptions 班级. 包含兼容性选项即在兼容性 选项卡选项Microsoft Word 中的对话框 在 C#.
 type: docs
 weight: 5780
 url: /zh/net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
 
-包含兼容性选项（即在 **兼容性** 选项卡 **选项**Microsoft Word 中的对话框).
+包含兼容性选项（即在**兼容性** 选项卡**选项**Microsoft Word 中的对话框).
 
 要了解更多信息，请访问[检测文件格式并检查格式兼容性](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/)文档文章。
 
@@ -96,9 +98,9 @@ public class CompatibilityOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(MsWordVersion) | 允许优化文档内容以及针对特定版本的 MS Word 的默认 Aspose.Words 行为。 |
+| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(*[MsWordVersion](../mswordversion/)*) | 允许优化文档内容以及针对特定版本的 MS Word 的默认 Aspose.Words 行为。 |
 
-### 例子
+## 例子
 
 演示如何垂直对齐文本框的文本内容。
 
@@ -214,5 +216,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 * property [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/)
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

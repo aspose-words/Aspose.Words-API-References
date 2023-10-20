@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickMarkSpacing
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 获取或设置绘制刻度线的间隔
+linktitle: TickMarkSpacing
+articleTitle: TickMarkSpacing
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis TickMarkSpacing 财产. 获取或设置绘制刻度线的间隔 在 C#.
 type: docs
 weight: 270
 url: /zh/net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
 public int TickMarkSpacing { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性对文本类别和系列轴有效。 MS Office 2016 新图表不支持它。
 
 值的有效范围大于或等于 1。
 
-### 例子
+## 例子
 
 演示如何插入图表并修改其轴的外观。
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### 也可以看看
 
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

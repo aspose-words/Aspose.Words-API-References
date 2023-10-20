@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Font
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 提供对此对象的字体格式的访问
+linktitle: Font
+articleTitle: Font
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase Font 财产. 提供对此对象的字体格式的访问 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words.drawing/shapebase/font/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shapebase/font/
 public Font Font { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入文本框并设置其内容的字体。
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

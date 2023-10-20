@@ -1,7 +1,9 @@
 ---
-title: Enum AxisCategoryType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.AxisCategoryType 枚举. 指定类别轴的类型
+title: AxisCategoryType Enum
+linktitle: AxisCategoryType
+articleTitle: AxisCategoryType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.AxisCategoryType 枚举. 指定类别轴的类型 在 C#.
 type: docs
 weight: 530
 url: /zh/net/aspose.words.drawing.charts/axiscategorytype/
@@ -22,7 +24,7 @@ public enum AxisCategoryType
 | Category | `1` | 指定任意一组类别的轴。 |
 | Time | `2` | 指定时间类别轴。 |
 
-### 例子
+## 例子
 
 演示如何插入图表并修改其轴的外观。
 
@@ -76,5 +78,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

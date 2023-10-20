@@ -1,7 +1,9 @@
 ---
 title: SdtListItem.DisplayText
-second_title: Referencia de API de Aspose.Words para .NET
-description: SdtListItem propiedad. Obtiene el texto que se mostrará en el contenido de la ejecución en lugar delValue Contenido del atributo para este elemento de la lista.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words para .NET
+description: SdtListItem DisplayText propiedad. Obtiene el texto que se mostrará en el contenido de la ejecución en lugar delValue Contenido del atributo para este elemento de la lista en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.markup/sdtlistitem/displaytext/
@@ -14,11 +16,11 @@ Obtiene el texto que se mostrará en el contenido de la ejecución en lugar del[
 public string DisplayText { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 No puede ser`nulo` y no puede ser una cadena vacía.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con etiquetas de documentos estructurados de lista desplegable.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Ver también
 
 * class [SdtListItem](../)
-* espacio de nombres [Aspose.Words.Markup](../../sdtlistitem/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

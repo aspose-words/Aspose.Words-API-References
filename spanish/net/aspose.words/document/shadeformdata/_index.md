@@ -1,7 +1,9 @@
 ---
 title: Document.ShadeFormData
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Especifica si se activa el sombreado gris en los campos del formulario.
+linktitle: ShadeFormData
+articleTitle: ShadeFormData
+second_title: Aspose.Words para .NET
+description: Document ShadeFormData propiedad. Especifica si se activa el sombreado gris en los campos del formulario en C#.
 type: docs
 weight: 380
 url: /es/net/aspose.words/document/shadeformdata/
@@ -14,7 +16,7 @@ Especifica si se activa el sombreado gris en los campos del formulario.
 public bool ShadeFormData { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar sombreado gris a los campos de formulario.
 
@@ -33,7 +35,5 @@ doc.Save(ArtifactsDir + "Document.ShadeFormData.docx");
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

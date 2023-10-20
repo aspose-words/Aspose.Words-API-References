@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUserPromptRespondent
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.IFieldUserPromptRespondent interfaz. Representa al encuestado ante las indicaciones del usuario durante la actualización del campo.
+title: IFieldUserPromptRespondent Interface
+linktitle: IFieldUserPromptRespondent
+articleTitle: IFieldUserPromptRespondent
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.IFieldUserPromptRespondent interfaz. Representa al encuestado ante las indicaciones del usuario durante la actualización del campo en C#.
 type: docs
 weight: 2740
 url: /es/net/aspose.words.fields/ifielduserpromptrespondent/
@@ -18,13 +20,13 @@ public interface IFieldUserPromptRespondent
 
 | Nombre | Descripción |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | Cuando se implementa, devuelve una respuesta del usuario cuando se le solicita. Su implementación debería devolver`nulo` para indicar que el usuario no ha respondido al mensaje (es decir, el usuario ha presionado el botón Cancelar en la ventana del mensaje). |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(*string, string*) | Cuando se implementa, devuelve una respuesta del usuario cuando se le solicita. Su implementación debería devolver`nulo` para indicar que el usuario no ha respondido al mensaje (es decir, el usuario ha presionado el botón Cancelar en la ventana del mensaje). |
 
-### Observaciones
+## Observaciones
 
 Los campos PREGUNTAR y FILLIN son ejemplos de campos que solicitan al usuario alguna respuesta. Implemente esta interfaz y asígnela al[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) propiedad para establecer la interacción entre el campo update y el usuario.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un campo ASK y establecer sus propiedades.
 
@@ -87,5 +89,3 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

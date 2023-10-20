@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.ExpandedOutlineLevels
-second_title: Aspose.Words for .NET API Referansı
-description: OutlineOptions mülk. Dosya görüntülendiğinde belge anahattında kaç düzeyin genişletilmiş olarak gösterileceğini belirtir.
+linktitle: ExpandedOutlineLevels
+articleTitle: ExpandedOutlineLevels
+second_title: Aspose.Words for .NET
+description: OutlineOptions ExpandedOutlineLevels mülk. Dosya görüntülendiğinde belge anahattında kaç düzeyin genişletilmiş olarak gösterileceğini belirtir C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/outlineoptions/expandedoutlinelevels/
@@ -14,7 +16,7 @@ Dosya görüntülendiğinde belge anahattında kaç düzeyin genişletilmiş ola
 public int ExpandedOutlineLevels { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 XPS'ye kaydederken bu seçeneklerin çalışmayacağını unutmayın.
 
@@ -22,7 +24,7 @@ XPS'ye kaydederken bu seçeneklerin çalışmayacağını unutmayın.
 
 Varsayılan 0'dır. Geçerli aralık 0 ila 9'dur.
 
-### Örnekler
+## Örnekler
 
 Belgenin ana hatlarında üç düzeyde bir belgenin tamamının PDF'ye nasıl dönüştürüleceğini gösterir.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 ### Ayrıca bakınız
 
 * class [OutlineOptions](../)
-* ad alanı [Aspose.Words.Saving](../../outlineoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

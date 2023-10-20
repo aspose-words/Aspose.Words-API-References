@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.GetHashCode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PreferredWidth méthode. Sert de fonction de hachage pour ce type.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words pour .NET
+description: PreferredWidth GetHashCode méthode. Sert de fonction de hachage pour ce type en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.tables/preferredwidth/gethashcode/
@@ -14,7 +16,7 @@ Sert de fonction de hachage pour ce type.
 public override int GetHashCode()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir une largeur préférée pour les cellules du tableau.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Voir également
 
 * class [PreferredWidth](../)
-* espace de noms [Aspose.Words.Tables](../../preferredwidth/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

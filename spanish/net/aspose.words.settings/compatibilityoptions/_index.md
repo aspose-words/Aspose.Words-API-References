@@ -1,14 +1,16 @@
 ---
-title: Class CompatibilityOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.CompatibilityOptions clase. Contiene opciones de compatibilidad es decir las preferencias de usuario ingresadas en el Compatibilidad pestaña del Opciones cuadro de diálogo en Microsoft Word.
+title: CompatibilityOptions Class
+linktitle: CompatibilityOptions
+articleTitle: CompatibilityOptions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Settings.CompatibilityOptions clase. Contiene opciones de compatibilidad es decir las preferencias de usuario ingresadas en elCompatibilidad pestaña delOpciones cuadro de diálogo en Microsoft Word en C#.
 type: docs
 weight: 5780
 url: /es/net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
 
-Contiene opciones de compatibilidad (es decir, las preferencias de usuario ingresadas en el **Compatibilidad** pestaña del **Opciones** cuadro de diálogo en Microsoft Word).
+Contiene opciones de compatibilidad (es decir, las preferencias de usuario ingresadas en el**Compatibilidad** pestaña del**Opciones** cuadro de diálogo en Microsoft Word).
 
 Para obtener más información, visite el[Detectar formato de archivo y comprobar la compatibilidad del formato](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) artículo de documentación.
 
@@ -96,9 +98,9 @@ public class CompatibilityOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(MsWordVersion) | Permite optimizar el contenido del documento, así como el comportamiento predeterminado de Aspose.Words para versiones particulares de MS Word. |
+| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(*[MsWordVersion](../mswordversion/)*) | Permite optimizar el contenido del documento, así como el comportamiento predeterminado de Aspose.Words para versiones particulares de MS Word. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo alinear verticalmente el contenido de texto de un cuadro de texto.
 
@@ -214,5 +216,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 * property [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/)
 * espacio de nombres [Aspose.Words.Settings](../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../)
-
-

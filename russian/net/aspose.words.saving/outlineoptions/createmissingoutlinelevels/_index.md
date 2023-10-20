@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateMissingOutlineLevels
-second_title: Справочник по API Aspose.Words для .NET
-description: OutlineOptions свойство. Получает или задает значение определяющее создавать ли отсутствующие уровни структуры при экспорте документа .
+linktitle: CreateMissingOutlineLevels
+articleTitle: CreateMissingOutlineLevels
+second_title: Aspose.Words для .NET
+description: OutlineOptions CreateMissingOutlineLevels свойство. Получает или задает значение определяющее создавать ли отсутствующие уровни структуры при экспорте документа  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/outlineoptions/createmissingoutlinelevels/
@@ -16,7 +18,7 @@ url: /ru/net/aspose.words.saving/outlineoptions/createmissingoutlinelevels/
 public bool CreateMissingOutlineLevels { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с уровнями структуры, не содержащими соответствующих заголовков, при сохранении документа PDF.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 ### Смотрите также
 
 * class [OutlineOptions](../)
-* пространство имен [Aspose.Words.Saving](../../outlineoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

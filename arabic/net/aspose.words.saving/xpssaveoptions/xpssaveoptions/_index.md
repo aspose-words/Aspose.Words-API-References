@@ -1,7 +1,9 @@
 ---
-title: XpsSaveOptions.XpsSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: XpsSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيXps التنسيق.
+title: XpsSaveOptions
+linktitle: XpsSaveOptions
+articleTitle: XpsSaveOptions
+second_title: Aspose.Words لـ .NET
+description: XpsSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيXps التنسيق في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/xpssaveoptions/xpssaveoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/xpssaveoptions/xpssaveoptions/
 public XpsSaveOptions()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مستوى العناوين التي ستظهر في المخطط التفصيلي لمستند XPS المحفوظ.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 ### أنظر أيضا
 
 * class [XpsSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../xpssaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## XpsSaveOptions(SaveFormat) {#constructor_1}
+## XpsSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيXps أوOpenXps التنسيق.
 
@@ -70,7 +72,7 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 public XpsSaveOptions(SaveFormat saveFormat)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند بتنسيق XPS على شكل طية كتاب.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.BookFold.xps", xpsOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XpsSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../xpssaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

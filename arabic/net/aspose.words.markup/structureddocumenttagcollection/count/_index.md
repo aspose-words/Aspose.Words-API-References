@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagCollection ملكية. إرجاع عدد علامات المستندات المنظمة في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagCollection Count ملكية. إرجاع عدد علامات المستندات المنظمة في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/structureddocumenttagcollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### أنظر أيضا
 
 * class [StructuredDocumentTagCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

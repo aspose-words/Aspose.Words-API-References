@@ -1,7 +1,9 @@
 ---
-title: Enum TabLeader
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.TabLeader opsomming. Gibt den Typ der Führungslinie an die unter dem Tabulatorzeichen angezeigt wird.
+title: TabLeader Enum
+linktitle: TabLeader
+articleTitle: TabLeader
+second_title: Aspose.Words für .NET
+description: Aspose.Words.TabLeader opsomming. Gibt den Typ der Führungslinie an die unter dem Tabulatorzeichen angezeigt wird in C#.
 type: docs
 weight: 6190
 url: /de/net/aspose.words/tableader/
@@ -29,5 +31,3 @@ public enum TabLeader
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

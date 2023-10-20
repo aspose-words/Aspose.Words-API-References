@@ -1,7 +1,9 @@
 ---
-title: Class VbaModuleCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Vba.VbaModuleCollection فصل. يمثل مجموعة منVbaModule الكائنات.
+title: VbaModuleCollection Class
+linktitle: VbaModuleCollection
+articleTitle: VbaModuleCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Vba.VbaModuleCollection فصل. يمثل مجموعة منVbaModule الكائنات في C#.
 type: docs
 weight: 6560
 url: /ar/net/aspose.words.vba/vbamodulecollection/
@@ -27,10 +29,10 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.vba/vbamodulecollection/add/)(VbaModule) | إضافة وحدة إلى المجموعة. |
-| [Remove](../../aspose.words.vba/vbamodulecollection/remove/)(VbaModule) | إزالة الوحدة المحددة من المجموعة. |
+| [Add](../../aspose.words.vba/vbamodulecollection/add/)(*[VbaModule](../vbamodule/)*) | إضافة وحدة إلى المجموعة. |
+| [Remove](../../aspose.words.vba/vbamodulecollection/remove/)(*[VbaModule](../vbamodule/)*) | إزالة الوحدة المحددة من المجموعة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى معلومات مشروع VBA الخاص بالمستند.
 
@@ -63,5 +65,3 @@ vbaModules.Remove(vbaModules[2]);
 * class [VbaModule](../vbamodule/)
 * مساحة الاسم [Aspose.Words.Vba](../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. İmleci geçerli bölümdeki bir paragrafa taşır.
+linktitle: MoveToParagraph
+articleTitle: MoveToParagraph
+second_title: Aspose.Words for .NET
+description: DocumentBuilder MoveToParagraph yöntem. İmleci geçerli bölümdeki bir paragrafa taşır C#'da.
 type: docs
-weight: 570
+weight: 560
 url: /tr/net/aspose.words/documentbuilder/movetoparagraph/
 ---
 ## DocumentBuilder.MoveToParagraph method
@@ -19,13 +21,13 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex)
 | paragraphIndex | Int32 | Taşınacak paragrafın dizini. |
 | characterIndex | Int32 | Paragrafın içindeki karakterin dizini. Negatif bir değer, paragrafın sonundan itibaren bir konum belirtmenize olanak tanır. Paragrafın sonuna gitmek için -1'i kullanın. |
 
-### Notlar
+## Notlar
 
 Gezinme, geçerli bölümün geçerli öyküsü içinde gerçekleştirilir. Yani, imleci ilk bölümün birincil başlığına, götürdüyseniz, ardından*paragraphIndex* bölümün başlık içindeki paragrafın dizinini belirtti.
 
 Ne zaman*paragraphIndex* 0'dan büyük veya ona eşitse, 0'ın ilk paragraf olduğu bölümün başlangıcındaki dizinini belirtir. Ne zaman*paragraphIndex* 0, 'den küçükse, son paragraf -1 olmak üzere bölümün sonundan itibaren bir dizin belirtir.
 
-### Örnekler
+## Örnekler
 
 Oluşturucunun imleç konumunun belirli bir paragrafa nasıl taşınacağını gösterir.
 
@@ -51,7 +53,5 @@ builder.Writeln("This is a new third paragraph. ");
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

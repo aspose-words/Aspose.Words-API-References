@@ -1,7 +1,9 @@
 ---
-title: Enum ColorMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.ColorMode Sıralama. Renklerin nasıl oluşturulacağını belirtir.
+title: ColorMode Enum
+linktitle: ColorMode
+articleTitle: ColorMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.ColorMode Sıralama. Renklerin nasıl oluşturulacağını belirtir C#'da.
 type: docs
 weight: 4860
 url: /tr/net/aspose.words.saving/colormode/
@@ -21,7 +23,7 @@ public enum ColorMode
 | Normal | `0` | Değiştirilmemiş renklerle görüntü oluşturma. |
 | Grayscale | `1` | Beyazdan siyaha kadar çeşitli gri tonlarındaki renklerle görüntü oluşturma. |
 
-### Örnekler
+## Örnekler
 
 Kaydetme seçenekleri özelliğiyle görüntü renginin nasıl değiştirileceğini gösterir.
 
@@ -42,5 +44,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

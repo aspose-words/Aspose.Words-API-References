@@ -1,7 +1,9 @@
 ---
 title: MemoryFontSource.Type
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MemoryFontSource propriété. Renvoie le type de la source de police.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words pour .NET
+description: MemoryFontSource Type propriété. Renvoie le type de la source de police en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fonts/memoryfontsource/type/
@@ -14,7 +16,7 @@ Renvoie le type de la source de police.
 public override FontSourceType Type { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un tableau d'octets avec les données d'un fichier de police comme source de police.
 
@@ -34,7 +36,5 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [MemoryFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../memoryfontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

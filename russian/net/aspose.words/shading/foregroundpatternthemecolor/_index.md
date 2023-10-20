@@ -1,7 +1,9 @@
 ---
 title: Shading.ForegroundPatternThemeColor
-second_title: Справочник по API Aspose.Words для .NET
-description: Shading свойство. Получает или задает цвет темы узора переднего плана в применяемой цветовой схеме связанной с этимShading объект.
+linktitle: ForegroundPatternThemeColor
+articleTitle: ForegroundPatternThemeColor
+second_title: Aspose.Words для .NET
+description: Shading ForegroundPatternThemeColor свойство. Получает или задает цвет темы узора переднего плана в применяемой цветовой схеме связанной с этимShading объект на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/shading/foregroundpatternthemecolor/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/shading/foregroundpatternthemecolor/
 public ThemeColor ForegroundPatternThemeColor { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить цвета переднего плана и фона для затенения текстуры.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.ForegroundAndBackground.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Shading](../)
-* пространство имен [Aspose.Words](../../shading/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

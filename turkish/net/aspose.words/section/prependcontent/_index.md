@@ -1,9 +1,11 @@
 ---
 title: Section.PrependContent
-second_title: Aspose.Words for .NET API Referansı
-description: Section yöntem. Kaynak bölümünün içeriğinin bir kopyasını bu bölümün başına ekler.
+linktitle: PrependContent
+articleTitle: PrependContent
+second_title: Aspose.Words for .NET
+description: Section PrependContent yöntem. Kaynak bölümünün içeriğinin bir kopyasını bu bölümün başına ekler C#'da.
 type: docs
-weight: 160
+weight: 140
 url: /tr/net/aspose.words/section/prependcontent/
 ---
 ## Section.PrependContent method
@@ -18,7 +20,7 @@ public void PrependContent(Section sourceSection)
 | --- | --- | --- |
 | sourceSection | Section | İçeriğin kopyalanacağı bölüm. |
 
-### Notlar
+## Notlar
 
 Yalnızca içeriği[`Body`](../body/) kaynak bölümünün kopyalanması, sayfa düzeni, üstbilgi ve altbilgilerin kopyalanmaması.
 
@@ -26,7 +28,7 @@ Kaynak bölümü farklı bir belgeye aitse düğümler otomatik olarak içe akta
 
 Hedef belgede yeni bölüm oluşturulmaz.
 
-### Örnekler
+## Örnekler
 
 Bir bölümün içeriğinin başka bir bölüme nasıl ekleneceğini gösterir.
 
@@ -62,7 +64,5 @@ Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
 ### Ayrıca bakınız
 
 * class [Section](../)
-* ad alanı [Aspose.Words](../../section/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Thumbnail
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 获取或设置文档的缩略图
+linktitle: Thumbnail
+articleTitle: Thumbnail
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties Thumbnail 财产. 获取或设置文档的缩略图 在 C#.
 type: docs
 weight: 280
 url: /zh/net/aspose.words.properties/builtindocumentproperties/thumbnail/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/thumbnail/
 public byte[] Thumbnail { get; set; }
 ```
 
-### 评论
+## 评论
 
 目前，此属性仅在将文档导出到 ePub 时使用， 不会从其他文档格式读取或写入其他文档格式。
 
@@ -22,7 +24,7 @@ public byte[] Thumbnail { get; set; }
 
 只有 gif、jpeg 和 png 图像可用于 ePub 发布。
 
-### 例子
+## 例子
 
 演示如何向保存为 Epub 的文档添加缩略图。
 
@@ -48,7 +50,5 @@ File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

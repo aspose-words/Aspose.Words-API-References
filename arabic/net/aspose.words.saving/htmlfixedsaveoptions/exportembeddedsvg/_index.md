@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedSvg
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يحدد ما إذا كان يجب تضمين موارد SVG في مستند Html. القيمة الافتراضية هيحقيقي .
+linktitle: ExportEmbeddedSvg
+articleTitle: ExportEmbeddedSvg
+second_title: Aspose.Words لـ .NET
+description: HtmlFixedSaveOptions ExportEmbeddedSvg ملكية. يحدد ما إذا كان يجب تضمين موارد SVG في مستند Html. القيمة الافتراضية هيحقيقي  في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedsvg/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedsvg/
 public bool ExportEmbeddedSvg { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مكان تخزين كائنات SVG عند تصدير مستند إلى Html.
 
@@ -53,7 +55,5 @@ else
 ### أنظر أيضا
 
 * class [HtmlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

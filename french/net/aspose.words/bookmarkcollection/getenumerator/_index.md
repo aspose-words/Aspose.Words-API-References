@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarkCollection méthode. Renvoie un objet énumérateur.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: BookmarkCollection GetEnumerator méthode. Renvoie un objet énumérateur en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/bookmarkcollection/getenumerator/
@@ -14,7 +16,7 @@ Renvoie un objet énumérateur.
 public IEnumerator<Bookmark> GetEnumerator()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des signets et mettre à jour leur contenu.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* espace de noms [Aspose.Words](../../bookmarkcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

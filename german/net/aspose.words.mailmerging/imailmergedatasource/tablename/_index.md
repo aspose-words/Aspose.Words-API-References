@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.TableName
-second_title: Aspose.Words für .NET-API-Referenz
-description: IMailMergeDataSource eigendom. Gibt den Namen der Datenquelle zurück.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words für .NET
+description: IMailMergeDataSource TableName eigendom. Gibt den Namen der Datenquelle zurück in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.mailmerging/imailmergedatasource/tablename/
@@ -18,13 +20,13 @@ public string TableName { get; }
 
 Der Name der Datenquelle. Leere Zeichenfolge, wenn die Datenquelle keinen Namen hat.
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Sie implementieren[`IMailMergeDataSource`](../), geben Sie den Namen der data -Quelle aus dieser Eigenschaft zurück.
 
 Aspose.Words verwendet diesen Namen zum Abgleich mit dem im Vorlagendokument angegebenen Seriendruck-Regionsnamen . Beim Vergleich zwischen dem Namen der Datenquelle und dem Namen der Seriendruckregion wird die Groß-/Kleinschreibung nicht beachtet.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit einer Datenquelle in Form eines benutzerdefinierten Objekts ausgeführt wird.
 
@@ -138,7 +140,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Siehe auch
 
 * interface [IMailMergeDataSource](../)
-* namensraum [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

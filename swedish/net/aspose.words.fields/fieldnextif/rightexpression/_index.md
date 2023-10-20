@@ -1,7 +1,9 @@
 ---
 title: FieldNextIf.RightExpression
-second_title: Aspose.Words för .NET API Referens
-description: FieldNextIf fast egendom. Hämtar eller ställer in den högra delen av jämförelseuttrycket.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words för .NET
+description: FieldNextIf RightExpression fast egendom. Hämtar eller ställer in den högra delen av jämförelseuttrycket i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldnextif/rightexpression/
@@ -14,7 +16,7 @@ Hämtar eller ställer in den högra delen av jämförelseuttrycket.
 public string RightExpression { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder NEXT/NEXTIF-fält för att slå samman flera rader till en sida under en e-postkoppling.
 
@@ -96,7 +98,5 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 ### Se även
 
 * class [FieldNextIf](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldnextif/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

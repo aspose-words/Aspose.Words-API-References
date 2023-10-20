@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Add
-second_title: Aspose.Words for .NET API Referansı
-description: NodeCollection yöntem. Koleksiyonun sonuna bir düğüm ekler.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: NodeCollection Add yöntem. Koleksiyonun sonuna bir düğüm ekler C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/nodecollection/add/
@@ -24,13 +26,13 @@ public void Add(Node node)
 | --- | --- |
 | NotSupportedException | [`NodeCollection`](../) "derin" bir koleksiyondur. |
 
-### Notlar
+## Notlar
 
 Düğüm, koleksiyonun oluşturulduğu düğüm nesnesine alt öğe olarak eklenir.
 
 Eklenen düğüm başka bir belgeden oluşturulmuşsa kullanmalısınız[`ImportNode`](../../documentbase/importnode/) Düğümü geçerli belgeye aktarmak için. İçe aktarılan düğüm daha sonra geçerli belgeye eklenebilir.
 
-### Örnekler
+## Örnekler
 
 Düzenleme için yeni bir bölüm düğümünün nasıl hazırlanacağını gösterir.
 
@@ -63,7 +65,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* ad alanı [Aspose.Words](../../nodecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

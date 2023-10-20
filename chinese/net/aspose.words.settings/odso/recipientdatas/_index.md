@@ -1,7 +1,9 @@
 ---
 title: Odso.RecipientDatas
-second_title: Aspose.Words for .NET API 参考
-description: Odso 财产. 获取或设置指定在邮件合并中包含/排除单个记录的对象集合 该对象从不无效的.
+linktitle: RecipientDatas
+articleTitle: RecipientDatas
+second_title: 用于 .NET 的 Aspose.Words
+description: Odso RecipientDatas 财产. 获取或设置指定在邮件合并中包含/排除单个记录的对象集合 该对象从不无效的 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.settings/odso/recipientdatas/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/odso/recipientdatas/
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何访问指定邮件合并将排除哪些合并数据源记录的数据集合。
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientDataCollection](../../odsorecipientdatacollection/)
 * class [Odso](../)
-* 命名空间 [Aspose.Words.Settings](../../odso/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

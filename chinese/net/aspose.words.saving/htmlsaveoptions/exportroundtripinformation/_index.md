@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportRoundtripInformation
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定保存为 HTMLMHTML 或 EPUB 时是否写入往返信息 默认值为真的对于 HTML 和错误的适用于 MHTML 和 EPUB
+linktitle: ExportRoundtripInformation
+articleTitle: ExportRoundtripInformation
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions ExportRoundtripInformation 财产. 指定保存为 HTMLMHTML 或 EPUB 时是否写入往返信息 默认值为真的对于 HTML 和错误的适用于 MHTML 和 EPUB 在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
 public bool ExportRoundtripInformation { get; set; }
 ```
 
-### 评论
+## 评论
 
 保存往返信息可以在 HTML 文档加载回文件期间恢复文档属性，例如制表位、 注释、页眉和页脚。[`Document`](../../../aspose.words/document/)目的。
 
@@ -22,7 +24,7 @@ public bool ExportRoundtripInformation { get; set; }
 
 什么时候`错误的`，导致没有往返信息输出到生成的文件中。
 
-### 例子
+## 例子
 
 演示如何在转换为 .html 时保留隐藏元素。
 
@@ -99,7 +101,5 @@ else
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

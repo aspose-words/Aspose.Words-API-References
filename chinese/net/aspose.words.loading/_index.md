@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Loading
-second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words.Loading命名空间提供类和枚举 允许在加载文档时指定其他选项
+linktitle: Aspose.Words.Loading
+articleTitle: Aspose.Words.Loading
+second_title: 用于 .NET 的 Aspose.Words
+description: 这Aspose.Words.Loading命名空间提供类和枚举 允许在加载文档时指定其他选项 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.loading/
 ---
-这 **Aspose.Words.Loading**命名空间提供类和枚举， 允许在加载文档时指定其他选项。
+这**Aspose.Words.Loading**命名空间提供类和枚举， 允许在加载文档时指定其他选项。
 
 ## 课程
 
@@ -39,5 +41,3 @@ url: /zh/net/aspose.words.loading/
 | [ResourceType](./resourcetype/) | 加载资源的类型。 |
 | [TxtLeadingSpacesOptions](./txtleadingspacesoptions/) | 指定导入期间用于前导空格处理的可用选项Text文件. |
 | [TxtTrailingSpacesOptions](./txttrailingspacesoptions/) | 指定导入期间尾随空格处理的可用选项Text文件. |
-
-

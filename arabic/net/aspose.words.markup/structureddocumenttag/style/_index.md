@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Style
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. الحصول على نمط علامة المستند المنظمة أو تعيينه.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag Style ملكية. الحصول على نمط علامة المستند المنظمة أو تعيينه في C#.
 type: docs
 weight: 260
 url: /ar/net/aspose.words.markup/structureddocumenttag/style/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.markup/structureddocumenttag/style/
 public Style Style { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 فقطCharacter أسلوب أوParagraph يمكن ضبط النمط مع نمط الحرف المرتبط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط عناصر التحكم في المحتوى.
 
@@ -58,7 +60,5 @@ foreach (Node node in tags)
 
 * class [Style](../../../aspose.words/style/)
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

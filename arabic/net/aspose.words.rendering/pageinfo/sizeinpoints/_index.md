@@ -1,7 +1,9 @@
 ---
 title: PageInfo.SizeInPoints
-second_title: Aspose.Words لمراجع .NET API
-description: PageInfo ملكية. الحصول على حجم الصفحة بالنقاط.
+linktitle: SizeInPoints
+articleTitle: SizeInPoints
+second_title: Aspose.Words لـ .NET
+description: PageInfo SizeInPoints ملكية. الحصول على حجم الصفحة بالنقاط في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.rendering/pageinfo/sizeinpoints/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.rendering/pageinfo/sizeinpoints/
 public SizeF SizeInPoints { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة حجم الصفحة ومعلومات الاتجاه لكل صفحة في مستند Word.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### أنظر أيضا
 
 * class [PageInfo](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../pageinfo/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

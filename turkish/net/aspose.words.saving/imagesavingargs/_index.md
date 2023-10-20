@@ -1,7 +1,9 @@
 ---
-title: Class ImageSavingArgs
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.ImageSavingArgs sınıf. Şunun için veri sağlarImageSaving olay.
+title: ImageSavingArgs Class
+linktitle: ImageSavingArgs
+articleTitle: ImageSavingArgs
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.ImageSavingArgs sınıf. Şunun için veri sağlarImageSaving olay C#'da.
 type: docs
 weight: 5240
 url: /tr/net/aspose.words.saving/imagesavingargs/
@@ -27,7 +29,7 @@ public class ImageSavingArgs
 | [IsImageAvailable](../../aspose.words.saving/imagesavingargs/isimageavailable/) { get; } | İadeler`doğru` mevcut görüntü dışa aktarım için mevcutsa. |
 | [KeepImageStreamOpen](../../aspose.words.saving/imagesavingargs/keepimagestreamopen/) { get; set; } | Aspose.Words'ün görüntüyü kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir. |
 
-### Notlar
+## Notlar
 
 Varsayılan olarak Aspose.Words bir belgeyi HTML'ye kaydettiğinde her görüntüyü ayrı bir dosyaya kaydeder. Aspose.Words, belgede bulunan her görüntü için benzersiz dosya name oluşturmak amacıyla belge dosya adını ve benzersiz bir numarayı kullanır.
 
@@ -37,7 +39,7 @@ Görüntü dosyası adları oluşturmak için kendi mantığınızı uygulamak i
 
 Görüntüleri dosyalar yerine akışlara kaydetmek için[`ImageStream`](./imagestream/) mülk.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin nasıl parçalara ayrılacağını ve kaydedileceğini gösterir.
 
@@ -155,5 +157,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.UseEmfEmbeddedToWmf
-second_title: Справочник по API Aspose.Words для .NET
-description: MetafileRenderingOptions свойство. Получает или задает значение определяющее как должны отображаться метафайлы WMF со встроенными метафайлами EMF.
+linktitle: UseEmfEmbeddedToWmf
+articleTitle: UseEmfEmbeddedToWmf
+second_title: Aspose.Words для .NET
+description: MetafileRenderingOptions UseEmfEmbeddedToWmf свойство. Получает или задает значение определяющее как должны отображаться метафайлы WMF со встроенными метафайлами EMF на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
 public bool UseEmfEmbeddedToWmf { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Метафайлы WMF могут содержать встроенные данные EMF. MS Word в большинстве случаев использует встроенные данные EMF. GDI+ всегда использует данные WMF.
 
@@ -26,7 +28,7 @@ public bool UseEmfEmbeddedToWmf { get; set; }
 
 Значение по умолчанию:`истинный`.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить параметры рендеринга, связанные с расширенными метафайлами Windows, при сохранении в PDF.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 ### Смотрите также
 
 * class [MetafileRenderingOptions](../)
-* пространство имен [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

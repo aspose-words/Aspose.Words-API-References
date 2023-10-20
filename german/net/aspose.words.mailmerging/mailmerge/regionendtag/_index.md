@@ -1,7 +1,9 @@
 ---
 title: MailMerge.RegionEndTag
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge eigendom. Ruft ein EndTag für den Seriendruckbereich ab oder legt es fest.
+linktitle: RegionEndTag
+articleTitle: RegionEndTag
+second_title: Aspose.Words für .NET
+description: MailMerge RegionEndTag eigendom. Ruft ein EndTag für den Seriendruckbereich ab oder legt es fest in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.mailmerging/mailmerge/regionendtag/
@@ -14,7 +16,7 @@ Ruft ein End-Tag für den Seriendruckbereich ab oder legt es fest.
 public string RegionEndTag { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seriendruckbereiche erstellt, aufgelistet und gelesen werden.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

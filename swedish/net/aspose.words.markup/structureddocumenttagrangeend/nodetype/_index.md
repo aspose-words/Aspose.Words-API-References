@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeEnd.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeEnd fast egendom. ReturnerarStructuredDocumentTagRangeEnd .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeEnd NodeType fast egendom. ReturnerarStructuredDocumentTagRangeEnd  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/structureddocumenttagrangeend/nodetype/
@@ -18,7 +20,5 @@ public override NodeType NodeType { get; }
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [StructuredDocumentTagRangeEnd](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangeend/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

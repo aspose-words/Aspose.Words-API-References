@@ -1,7 +1,9 @@
 ---
 title: TextPath.Size
-second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. Определяет размер шрифта в пунктах.
+linktitle: Size
+articleTitle: Size
+second_title: Aspose.Words для .NET
+description: TextPath Size свойство. Определяет размер шрифта в пунктах на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.drawing/textpath/size/
@@ -14,14 +16,12 @@ url: /ru/net/aspose.words.drawing/textpath/size/
 public double Size { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 36.
 
 ### Смотрите также
 
 * class [TextPath](../)
-* пространство имен [Aspose.Words.Drawing](../../textpath/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

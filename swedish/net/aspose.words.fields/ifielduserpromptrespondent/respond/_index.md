@@ -1,7 +1,9 @@
 ---
 title: IFieldUserPromptRespondent.Respond
-second_title: Aspose.Words för .NET API Referens
-description: IFieldUserPromptRespondent metod. När den är implementerad returneras ett svar från användaren vid uppmaning. Din implementering bör returnerasnull för att indikera att användaren inte har svarat på prompten dvs användaren har tryckt på knappen Avbryt i promptfönstret.
+linktitle: Respond
+articleTitle: Respond
+second_title: Aspose.Words för .NET
+description: IFieldUserPromptRespondent Respond metod. När den är implementerad returneras ett svar från användaren vid uppmaning. Din implementering bör returnerasnull för att indikera att användaren inte har svarat på prompten dvs användaren har tryckt på knappen Avbryt i promptfönstret i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/ifielduserpromptrespondent/respond/
@@ -23,7 +25,7 @@ public string Respond(string promptText, string defaultResponse)
 
 Användarsvar (dvs. bekräftat värde som finns i uppmaningsfönstret).
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett ASK-fält och ställer in dess egenskaper.
 
@@ -85,7 +87,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Se även
 
 * interface [IFieldUserPromptRespondent](../)
-* namnutrymme [Aspose.Words.Fields](../../ifielduserpromptrespondent/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

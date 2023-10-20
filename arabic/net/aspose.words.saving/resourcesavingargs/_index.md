@@ -1,7 +1,9 @@
 ---
-title: Class ResourceSavingArgs
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.ResourceSavingArgs فصل. يوفر بيانات لـResourceSaving حدث.
+title: ResourceSavingArgs Class
+linktitle: ResourceSavingArgs
+articleTitle: ResourceSavingArgs
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.ResourceSavingArgs فصل. يوفر بيانات لـResourceSaving حدث في C#.
 type: docs
 weight: 5560
 url: /ar/net/aspose.words.saving/resourcesavingargs/
@@ -26,7 +28,7 @@ public class ResourceSavingArgs
 | [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri/) { get; set; } | الحصول على أو تعيين معرف المورد الموحد (URI) المستخدم للإشارة إلى ملف المورد من المستند. |
 | [ResourceStream](../../aspose.words.saving/resourcesavingargs/resourcestream/) { get; set; } | يسمح بتحديد الدفق الذي سيتم حفظ المورد فيه. |
 
-### ملاحظات
+## ملاحظات
 
 افتراضيًا، عندما يقوم Aspose.Words بحفظ مستند في صفحة ثابتة بتنسيق HTML أو SVG، فإنه يحفظ كل مورد في ملف منفصل. يستخدم Aspose.Words اسم ملف المستند ورقمًا فريدًا لإنشاء ملف name فريد لكل مورد موجود في المستند.
 
@@ -36,7 +38,7 @@ public class ResourceSavingArgs
 
 لحفظ الموارد في التدفقات بدلاً من الملفات، استخدم الملف[`ResourceStream`](./resourcestream/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد اتصال لتتبع الموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
@@ -82,5 +84,3 @@ private class FontSavingCallback : IResourceSavingCallback
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

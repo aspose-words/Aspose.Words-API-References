@@ -1,7 +1,9 @@
 ---
 title: FormField.Enabled
-second_title: Referencia de API de Aspose.Words para .NET
-description: FormField propiedad. Verdadero si un campo de formulario está habilitado.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words para .NET
+description: FormField Enabled propiedad. Verdadero si un campo de formulario está habilitado en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/formfield/enabled/
@@ -14,11 +16,11 @@ Verdadero si un campo de formulario está habilitado.
 public bool Enabled { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si un campo de formulario está habilitado, su contenido se puede cambiar a medida que se completa el formulario.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ver también
 
 * class [FormField](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfield/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

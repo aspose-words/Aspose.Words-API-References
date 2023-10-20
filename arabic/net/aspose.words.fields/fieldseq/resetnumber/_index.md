@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.ResetNumber
-second_title: Aspose.Words لمراجع .NET API
-description: FieldSeq ملكية. الحصول على رقم صحيح أو تعيينه لإعادة تعيين الرقم التسلسلي إليه. يُرجع 1 إذا كان الرقم غائبًا.
+linktitle: ResetNumber
+articleTitle: ResetNumber
+second_title: Aspose.Words لـ .NET
+description: FieldSeq ResetNumber ملكية. الحصول على رقم صحيح أو تعيينه لإعادة تعيين الرقم التسلسلي إليه. يُرجع 1 إذا كان الرقم غائبًا في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldseq/resetnumber/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldseq/resetnumber/
 public string ResetNumber { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر إنشاء الترقيم باستخدام حقول SEQ.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### أنظر أيضا
 
 * class [FieldSeq](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldseq/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

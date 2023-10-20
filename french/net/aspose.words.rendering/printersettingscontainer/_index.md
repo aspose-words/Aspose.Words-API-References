@@ -1,7 +1,9 @@
 ---
-title: Class PrinterSettingsContainer
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Rendering.PrinterSettingsContainer classe. Représente un stockage pour certains paramètres dePrinterSettings objet.
+title: PrinterSettingsContainer Class
+linktitle: PrinterSettingsContainer
+articleTitle: PrinterSettingsContainer
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Rendering.PrinterSettingsContainer classe. Représente un stockage pour certains paramètres dePrinterSettings objet en C#.
 type: docs
 weight: 4580
 url: /fr/net/aspose.words.rendering/printersettingscontainer/
@@ -20,7 +22,7 @@ public class PrinterSettingsContainer
 
 | Nom | La description |
 | --- | --- |
-| [PrinterSettingsContainer](printersettingscontainer/)(PrinterSettings) | Crée un conteneur pourPrinterSettings . |
+| [PrinterSettingsContainer](printersettingscontainer/)(*PrinterSettings*) | Crée un conteneur pourPrinterSettings . |
 
 ## Propriétés
 
@@ -30,11 +32,11 @@ public class PrinterSettingsContainer
 | [PaperSizes](../../aspose.words.rendering/printersettingscontainer/papersizes/) { get; } | VoirPaperSizes . |
 | [PaperSources](../../aspose.words.rendering/printersettingscontainer/papersources/) { get; } | VoirPaperSources . |
 
-### Remarques
+## Remarques
 
 Accès aux données dePrinterSettings prend beaucoup de temps. `PrinterSettingsContainer` met en cache les paramètres dePrinterSettings , pour que l'impression fonctionne plus rapidement.
 
-### Exemples
+## Exemples
 
 Montre comment accéder et répertorier les sources et formats de papier de votre imprimante.
 
@@ -68,5 +70,3 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 
 * espace de noms [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * Assemblée [Aspose.Words](../../)
-
-

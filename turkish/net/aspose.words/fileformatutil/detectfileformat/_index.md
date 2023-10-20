@@ -1,12 +1,14 @@
 ---
 title: FileFormatUtil.DetectFileFormat
-second_title: Aspose.Words for .NET API Referansı
-description: FileFormatUtil yöntem. Disk dosyasında saklanan bir belgenin biçimi hakkındaki bilgileri algılar ve döndürür.
+linktitle: DetectFileFormat
+articleTitle: DetectFileFormat
+second_title: Aspose.Words for .NET
+description: FileFormatUtil DetectFileFormat yöntem. Disk dosyasında saklanan bir belgenin biçimi hakkındaki bilgileri algılar ve döndürür C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/fileformatutil/detectfileformat/
 ---
-## DetectFileFormat(string) {#detectfileformat_1}
+## DetectFileFormat(*string*) {#detectfileformat_1}
 
 Disk dosyasında saklanan bir belgenin biçimi hakkındaki bilgileri algılar ve döndürür.
 
@@ -22,13 +24,13 @@ public static FileFormatInfo DetectFileFormat(string fileName)
 
 A[`FileFormatInfo`](../../fileformatinfo/) algılanan bilgileri içeren nesne.
 
-### Notlar
+## Notlar
 
 Bu yöntem belge biçimini algılasa bile, 'nin belirtilen belgenin geçerli olduğunu garanti etmez. Bu yöntem yalnızca belge biçimini, algılama için yeterli olan okuma verileriyle algılar. Bir belgenin geçerli olduğunu tam olarak doğrulamak için belgeyi bir[`Document`](../../document/) nesne.
 
 Bu yöntem atar[`FileCorruptedException`](../../filecorruptedexception/) biçim tanındığında ancak bozulma nedeniyle algılama tamamlanamadığında.
 
-### Örnekler
+## Örnekler
 
 Belge biçimini ve şifrelemeyi algılamak için FileFormatUtil sınıfının nasıl kullanılacağını gösterir.
 
@@ -75,12 +77,12 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 
 * class [FileFormatInfo](../../fileformatinfo/)
 * class [FileFormatUtil](../)
-* ad alanı [Aspose.Words](../../fileformatutil/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## DetectFileFormat(Stream) {#detectfileformat}
+## DetectFileFormat(*Stream*) {#detectfileformat}
 
 Bir akışta saklanan bir belgenin biçimi hakkındaki bilgileri algılar ve döndürür.
 
@@ -96,7 +98,7 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 
 A[`FileFormatInfo`](../../fileformatinfo/) algılanan bilgileri içeren nesne.
 
-### Notlar
+## Notlar
 
 Akış belgenin başına yerleştirilmelidir.
 
@@ -106,7 +108,7 @@ Bu yöntem belge biçimini algılasa bile, 'nin belirtilen belgenin geçerli old
 
 Bu yöntem atar[`FileCorruptedException`](../../filecorruptedexception/) biçim tanındığında ancak bozulma nedeniyle algılama tamamlanamadığında.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin biçimini algılamak için FileFormatUtil yöntemlerinin nasıl kullanılacağını gösterir.
 
@@ -140,7 +142,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * class [FileFormatInfo](../../fileformatinfo/)
 * class [FileFormatUtil](../)
-* ad alanı [Aspose.Words](../../fileformatutil/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

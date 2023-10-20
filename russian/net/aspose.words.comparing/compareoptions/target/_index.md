@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.Target
-second_title: Справочник по API Aspose.Words для .NET
-description: CompareOptions свойство. Указывает какой документ будет использоваться в качестве целевого при сравнении.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words для .NET
+description: CompareOptions Target свойство. Указывает какой документ будет использоваться в качестве целевого при сравнении на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.comparing/compareoptions/target/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.comparing/compareoptions/target/
 public ComparisonTargetType Target { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как фильтровать определенные типы элементов документа при сравнении.
 
@@ -89,7 +91,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * enum [ComparisonTargetType](../../comparisontargettype/)
 * class [CompareOptions](../)
-* пространство имен [Aspose.Words.Comparing](../../compareoptions/)
+* пространство имен [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * сборка [Aspose.Words](../../../)
-
-

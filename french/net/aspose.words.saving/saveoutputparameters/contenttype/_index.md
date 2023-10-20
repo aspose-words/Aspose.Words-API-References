@@ -1,7 +1,9 @@
 ---
 title: SaveOutputParameters.ContentType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SaveOutputParameters propriété. Renvoie la chaîne ContentType Internet Media Type qui identifie le type du document enregistré.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: Aspose.Words pour .NET
+description: SaveOutputParameters ContentType propriété. Renvoie la chaîne ContentType Internet Media Type qui identifie le type du document enregistré en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/saveoutputparameters/contenttype/
@@ -14,7 +16,7 @@ Renvoie la chaîne Content-Type (Internet Media Type) qui identifie le type du d
 public string ContentType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder aux paramètres de sortie de l’opération d’enregistrement d’un document.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("application/pdf", parameters.ContentType);
 ### Voir également
 
 * class [SaveOutputParameters](../)
-* espace de noms [Aspose.Words.Saving](../../saveoutputparameters/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

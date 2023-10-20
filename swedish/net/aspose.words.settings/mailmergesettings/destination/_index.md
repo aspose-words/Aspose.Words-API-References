@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Destination
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeSettings fast egendom. Anger hur Microsoft Word kommer att mata ut resultaten av en epostsammanfogning. Standardvärdet ärDefault .
+linktitle: Destination
+articleTitle: Destination
+second_title: Aspose.Words för .NET
+description: MailMergeSettings Destination fast egendom. Anger hur Microsoft Word kommer att mata ut resultaten av en epostsammanfogning. Standardvärdet ärDefault  i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.settings/mailmergesettings/destination/
@@ -14,7 +16,7 @@ Anger hur Microsoft Word kommer att mata ut resultaten av en e-postsammanfogning
 public MailMergeDestination Destination { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeDestination](../../mailmergedestination/)
 * class [MailMergeSettings](../)
-* namnutrymme [Aspose.Words.Settings](../../mailmergesettings/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

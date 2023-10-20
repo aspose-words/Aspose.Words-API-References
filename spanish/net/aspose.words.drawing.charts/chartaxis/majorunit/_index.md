@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorUnit
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Devuelve o establece la distancia entre las marcas principales.
+linktitle: MajorUnit
+articleTitle: MajorUnit
+second_title: Aspose.Words para .NET
+description: ChartAxis MajorUnit propiedad. Devuelve o establece la distancia entre las marcas principales en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.drawing.charts/chartaxis/majorunit/
@@ -14,13 +16,13 @@ Devuelve o establece la distancia entre las marcas principales.
 public double MajorUnit { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El rango válido de un valor es mayor que cero. La propiedad tiene efecto para la categoría de tiempo y los ejes de valor .
 
 Establecer esta propiedad establece el[`MajorUnitIsAuto`](../majorunitisauto/) propiedad a`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico y modificar la apariencia de sus ejes.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Ver también
 
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

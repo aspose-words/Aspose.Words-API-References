@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Clone
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions طريقة. إنشاء نسخة عميقة لهذا الكائن.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions Clone طريقة. إنشاء نسخة عميقة لهذا الكائن في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words.saving/imagesaveoptions/clone/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/imagesaveoptions/clone/
 public ImageSaveOptions Clone()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد معدل بت لكل بكسل لعرض مستند على صورة.
 
@@ -79,7 +81,5 @@ Document doc = new Document();
 ### أنظر أيضا
 
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

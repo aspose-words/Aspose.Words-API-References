@@ -1,7 +1,9 @@
 ---
 title: ImageData.IsLink
-second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. ReturnerarSann om bilden är länkad till formen närSourceFullName anges.
+linktitle: IsLink
+articleTitle: IsLink
+second_title: Aspose.Words för .NET
+description: ImageData IsLink fast egendom. ReturnerarSann om bilden är länkad till formen närSourceFullName anges i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.drawing/imagedata/islink/
@@ -14,7 +16,7 @@ Returnerar`Sann` om bilden är länkad till formen (när[`SourceFullName`](../so
 public bool IsLink { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar en forms bilddata.
 
@@ -77,7 +79,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

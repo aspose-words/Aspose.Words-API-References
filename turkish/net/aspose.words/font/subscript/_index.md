@@ -1,7 +1,9 @@
 ---
 title: Font.Subscript
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Yazı tipi alt simge olarak biçimlendirilmişse doğrudur.
+linktitle: Subscript
+articleTitle: Subscript
+second_title: Aspose.Words for .NET
+description: Font Subscript mülk. Yazı tipi alt simge olarak biçimlendirilmişse doğrudur C#'da.
 type: docs
 weight: 430
 url: /tr/net/aspose.words/font/subscript/
@@ -14,7 +16,7 @@ Yazı tipi alt simge olarak biçimlendirilmişse doğrudur.
 public bool Subscript { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Konumunu dengelemek için metnin nasıl biçimlendirileceğini gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

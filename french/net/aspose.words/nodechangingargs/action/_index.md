@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.Action
-second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeChangingArgs propriété. Obtient une valeur indiquant le type dévénement de changement de nœud qui se produit.
+linktitle: Action
+articleTitle: Action
+second_title: Aspose.Words pour .NET
+description: NodeChangingArgs Action propriété. Obtient une valeur indiquant le type dévénement de changement de nœud qui se produit en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/nodechangingargs/action/
@@ -14,7 +16,7 @@ Obtient une valeur indiquant le type d'événement de changement de nœud qui se
 public NodeChangingAction Action { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un NodeChangingCallback pour surveiller les modifications apportées à l'arborescence du document en temps réel au fur et à mesure que nous la modifions.
 
@@ -90,7 +92,5 @@ private class NodeChangingPrinter : INodeChangingCallback
 
 * enum [NodeChangingAction](../../nodechangingaction/)
 * class [NodeChangingArgs](../)
-* espace de noms [Aspose.Words](../../nodechangingargs/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

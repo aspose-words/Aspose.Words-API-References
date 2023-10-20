@@ -1,7 +1,9 @@
 ---
 title: VbaReference.Type
-second_title: Référence de l'API Aspose.Words pour .NET
-description: VbaReference propriété. ObtientVbaReferenceType objet qui indique le type de référence quunVbaReference lobjet représente.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words pour .NET
+description: VbaReference Type propriété. ObtientVbaReferenceType objet qui indique le type de référence quunVbaReference lobjet représente en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.vba/vbareference/type/
@@ -18,7 +20,5 @@ public abstract VbaReferenceType Type { get; }
 
 * enum [VbaReferenceType](../../vbareferencetype/)
 * class [VbaReference](../)
-* espace de noms [Aspose.Words.Vba](../../vbareference/)
+* espace de noms [Aspose.Words.Vba](../../../aspose.words.vba/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum OoxmlCompliance
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.OoxmlCompliance enum. Permette di specificare quale specifica OOXML verrà utilizzata durante il salvataggio in formato DOCX.
+title: OoxmlCompliance Enum
+linktitle: OoxmlCompliance
+articleTitle: OoxmlCompliance
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.OoxmlCompliance enum. Permette di specificare quale specifica OOXML verrà utilizzata durante il salvataggio in formato DOCX in C#.
 type: docs
 weight: 5340
 url: /it/net/aspose.words.saving/ooxmlcompliance/
@@ -22,7 +24,7 @@ public enum OoxmlCompliance
 | Iso29500_2008_Transitional | `1` | Livello di conformità transitorio ISO/IEC 29500:2008. |
 | Iso29500_2008_Strict | `2` | Livello di conformità ISO/IEC 29500:2008 rigoroso. |
 
-### Esempi
+## Esempi
 
 Mostra come inserire forme DML in un documento.
 
@@ -114,5 +116,3 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

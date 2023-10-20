@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: NodeCollection ملكية. الحصول على عدد العقد في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: NodeCollection Count ملكية. الحصول على عدد العقد في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/nodecollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/nodecollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز مجموعة العقد الفرعية للعقدة المركبة.
 
@@ -132,7 +134,5 @@ private static int GetChildTableCount(Table table)
 ### أنظر أيضا
 
 * class [NodeCollection](../)
-* مساحة الاسم [Aspose.Words](../../nodecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

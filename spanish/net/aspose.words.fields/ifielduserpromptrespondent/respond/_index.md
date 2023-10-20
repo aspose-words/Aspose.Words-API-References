@@ -1,7 +1,9 @@
 ---
 title: IFieldUserPromptRespondent.Respond
-second_title: Referencia de API de Aspose.Words para .NET
-description: IFieldUserPromptRespondent método. Cuando se implementa devuelve una respuesta del usuario cuando se le solicita. Su implementación debería devolvernulo para indicar que el usuario no ha respondido al mensaje es decir el usuario ha presionado el botón Cancelar en la ventana del mensaje.
+linktitle: Respond
+articleTitle: Respond
+second_title: Aspose.Words para .NET
+description: IFieldUserPromptRespondent Respond método. Cuando se implementa devuelve una respuesta del usuario cuando se le solicita. Su implementación debería devolvernulo para indicar que el usuario no ha respondido al mensaje es decir el usuario ha presionado el botón Cancelar en la ventana del mensaje en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/ifielduserpromptrespondent/respond/
@@ -23,7 +25,7 @@ public string Respond(string promptText, string defaultResponse)
 
 Respuesta del usuario (es decir, valor confirmado contenido en la ventana de solicitud).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un campo ASK y establecer sus propiedades.
 
@@ -85,7 +87,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Ver también
 
 * interface [IFieldUserPromptRespondent](../)
-* espacio de nombres [Aspose.Words.Fields](../../ifielduserpromptrespondent/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

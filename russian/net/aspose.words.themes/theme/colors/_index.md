@@ -1,7 +1,9 @@
 ---
 title: Theme.Colors
-second_title: Справочник по API Aspose.Words для .NET
-description: Theme свойство. Позволяет указать набор цветов темы для документа.
+linktitle: Colors
+articleTitle: Colors
+second_title: Aspose.Words для .NET
+description: Theme Colors свойство. Позволяет указать набор цветов темы для документа на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.themes/theme/colors/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.themes/theme/colors/
 public ThemeColors Colors { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как устанавливать собственные цвета и шрифты для тем.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeColors](../../themecolors/)
 * class [Theme](../)
-* пространство имен [Aspose.Words.Themes](../../theme/)
+* пространство имен [Aspose.Words.Themes](../../../aspose.words.themes/)
 * сборка [Aspose.Words](../../../)
-
-

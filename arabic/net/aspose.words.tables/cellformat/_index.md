@@ -1,7 +1,9 @@
 ---
-title: Class CellFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Tables.CellFormat فصل. يمثل كافة التنسيقات لخلية الجدول.
+title: CellFormat Class
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Tables.CellFormat فصل. يمثل كافة التنسيقات لخلية الجدول في C#.
 type: docs
 weight: 6260
 url: /ar/net/aspose.words.tables/cellformat/
@@ -23,7 +25,6 @@ public class CellFormat
 | [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | الحصول على مجموعة حدود الخلية. |
 | [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | إرجاع أو تعيين مقدار المسافة (بالنقاط) لإضافتها أسفل محتويات الخلية. |
 | [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | إذا`حقيقي` ، لاحتواء النص في الخلية، وضغط كل فقرة على عرض الخلية. |
-| [HideMark](../../aspose.words.tables/cellformat/hidemark/) { get; set; } |  |
 | [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | يحدد كيفية دمج الخلية أفقيًا مع الخلايا الأخرى في الصف. |
 | [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | إرجاع أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها إلى يسار محتويات الخلية. |
 | [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | إرجاع أو تعيين اتجاه النص في خلية جدول. |
@@ -41,9 +42,9 @@ public class CellFormat
 | اسم | وصف |
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | إعادة التعيين إلى تنسيق الخلية الافتراضي. لا يغير عرض الخلية. |
-| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | يضبط مقدار المسافة (بالنقاط) المراد إضافتها إلى يسار/أعلى/يمين/أسفل محتويات الخلية. |
+| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(*double, double, double, double*) | يضبط مقدار المسافة (بالنقاط) المراد إضافتها إلى يسار/أعلى/يمين/أسفل محتويات الخلية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل تنسيق خلية الجدول.
 
@@ -157,5 +158,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * مساحة الاسم [Aspose.Words.Tables](../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../)
-
-

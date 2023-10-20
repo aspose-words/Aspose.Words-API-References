@@ -1,9 +1,11 @@
 ---
 title: Fill.Transparency
-second_title: Aspose.Words für .NET-API-Referenz
-description: Fill eigendom. Ruft den Transparenzgrad der angegebenen Füllung als Wert zwischen 00 undurchsichtig und 10 klar ab oder legt diesen fest.
+linktitle: Transparency
+articleTitle: Transparency
+second_title: Aspose.Words für .NET
+description: Fill Transparency eigendom. Ruft den Transparenzgrad der angegebenen Füllung als Wert zwischen 00 undurchsichtig und 10 klar ab oder legt diesen fest in C#.
 type: docs
-weight: 200
+weight: 190
 url: /de/net/aspose.words.drawing/fill/transparency/
 ---
 ## Fill.Transparency property
@@ -14,14 +16,12 @@ Ruft den Transparenzgrad der angegebenen Füllung als Wert zwischen 0,0 (undurch
 public double Transparency { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft ist das Gegenteil von Eigentum[`Opacity`](../opacity/).
 
 ### Siehe auch
 
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.Source
-second_title: Aspose.Words für .NET-API-Referenz
-description: WarningInfo eigendom. Gibt die Quelle der Warnung zurück.
+linktitle: Source
+articleTitle: Source
+second_title: Aspose.Words für .NET
+description: WarningInfo Source eigendom. Gibt die Quelle der Warnung zurück in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/warninginfo/source/
@@ -18,7 +20,5 @@ public WarningSource Source { get; }
 
 * enum [WarningSource](../../warningsource/)
 * class [WarningInfo](../)
-* namensraum [Aspose.Words](../../warninginfo/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

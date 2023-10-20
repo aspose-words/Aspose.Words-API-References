@@ -1,7 +1,9 @@
 ---
-title: Enum TextDmlEffect
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.TextDmlEffect تعداد. تأثير نص Dml لتشغيل النص.
+title: TextDmlEffect Enum
+linktitle: TextDmlEffect
+articleTitle: TextDmlEffect
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.TextDmlEffect تعداد. تأثير نص Dml لتشغيل النص في C#.
 type: docs
 weight: 6410
 url: /ar/net/aspose.words/textdmleffect/
@@ -29,5 +31,3 @@ public enum TextDmlEffect
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

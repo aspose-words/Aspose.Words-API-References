@@ -1,7 +1,9 @@
 ---
 title: FormField.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Gibt zurückFormField .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: FormField NodeType eigendom. Gibt zurückFormField  in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.fields/formfield/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückFormField .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

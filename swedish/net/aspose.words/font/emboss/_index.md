@@ -1,7 +1,9 @@
 ---
 title: Font.Emboss
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. True om teckensnittet är formaterat som relief.
+linktitle: Emboss
+articleTitle: Emboss
+second_title: Aspose.Words för .NET
+description: Font Emboss fast egendom. True om teckensnittet är formaterat som relief i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/font/emboss/
@@ -14,7 +16,7 @@ True om teckensnittet är formaterat som relief.
 public bool Emboss { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar gravyr-/präglingseffekter på text.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.EngraveEmboss.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

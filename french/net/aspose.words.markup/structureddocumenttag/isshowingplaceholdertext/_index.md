@@ -1,14 +1,16 @@
 ---
 title: StructuredDocumentTag.IsShowingPlaceholderText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Spécifie si le contenu de ce TSDdoit être interprété comme contenant un espace réservé text par opposition au contenu textuel normal dans le SDT.
+linktitle: IsShowingPlaceholderText
+articleTitle: IsShowingPlaceholderText
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag IsShowingPlaceholderText propriété. Spécifie si le contenu de ceTSDdoit être interprété comme contenant un espace réservé text par opposition au contenu textuel normal dans le SDT en C#.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.markup/structureddocumenttag/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTag.IsShowingPlaceholderText property
 
-Spécifie si le contenu de ce **TSD**doit être interprété comme contenant un espace réservé text (par opposition au contenu textuel normal dans le SDT).
+Spécifie si le contenu de ce**TSD**doit être interprété comme contenant un espace réservé text (par opposition au contenu textuel normal dans le SDT).
 
 si défini sur`vrai` , cet état doit être repris (affichant le texte d'espace réservé) à l'ouverture de ce document.
 
@@ -16,7 +18,7 @@ si défini sur`vrai` , cet état doit être repris (affichant le texte d'espace 
 public bool IsShowingPlaceholderText { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser le contenu d'un bloc de construction comme texte d'espace réservé personnalisé pour une balise de document structuré.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### Voir également
 
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

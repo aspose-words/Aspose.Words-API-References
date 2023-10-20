@@ -1,7 +1,9 @@
 ---
 title: FieldMacroButton.MacroName
-second_title: Aspose.Words for .NET API 参考
-description: FieldMacroButton 财产. 获取或设置要运行的宏或命令的名称
+linktitle: MacroName
+articleTitle: MacroName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMacroButton MacroName 财产. 获取或设置要运行的宏或命令的名称 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldmacrobutton/macroname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldmacrobutton/macroname/
 public string MacroName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 MACROBUTTON 字段来允许我们通过单击来运行文档的宏。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 ### 也可以看看
 
 * class [FieldMacroButton](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldmacrobutton/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

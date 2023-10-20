@@ -1,7 +1,9 @@
 ---
 title: TextPath.FontFamily
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextPath eigendom. Definiert die Familie der TextpfadSchriftart.
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words für .NET
+description: TextPath FontFamily eigendom. Definiert die Familie der TextpfadSchriftart in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing/textpath/fontfamily/
@@ -14,11 +16,11 @@ Definiert die Familie der Textpfad-Schriftart.
 public string FontFamily { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist Arial.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit WordArt arbeitet.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Siehe auch
 
 * class [TextPath](../)
-* namensraum [Aspose.Words.Drawing](../../textpath/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

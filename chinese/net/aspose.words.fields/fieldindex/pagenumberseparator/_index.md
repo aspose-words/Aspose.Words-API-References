@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.PageNumberSeparator
-second_title: Aspose.Words for .NET API 参考
-description: FieldIndex 财产. 获取或设置用于分隔索引条目及其页码的字符序列
+linktitle: PageNumberSeparator
+articleTitle: PageNumberSeparator
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIndex PageNumberSeparator 财产. 获取或设置用于分隔索引条目及其页码的字符序列 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.fields/fieldindex/pagenumberseparator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldindex/pagenumberseparator/
 public string PageNumberSeparator { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何编辑 INDEX 字段中的页码分隔符。
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageNumberList.docx");
 ### 也可以看看
 
 * class [FieldIndex](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldindex/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

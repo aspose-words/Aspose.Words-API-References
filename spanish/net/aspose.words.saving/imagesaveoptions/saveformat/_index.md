@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.SaveFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSaveOptions propiedad. Especifica el formato en el que se guardarán las páginas o formas del documento renderizado si se utiliza este objeto de opciones de guardado. Puede ser un ráster Tiff Png Bmp  Jpeg o vectorEmf Eps  Svg .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words para .NET
+description: ImageSaveOptions SaveFormat propiedad. Especifica el formato en el que se guardarán las páginas o formas del documento renderizado si se utiliza este objeto de opciones de guardado. Puede ser un ráster Tiff Png Bmp  Jpeg o vectorEmf Eps  Svg  en C#.
 type: docs
 weight: 140
 url: /es/net/aspose.words.saving/imagesaveoptions/saveformat/
@@ -14,13 +16,13 @@ Especifica el formato en el que se guardarán las páginas o formas del document
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La cantidad de otras opciones depende del formato seleccionado.
 
 Además, es posible guardar en SVG tanto mediante[`ImageSaveOptions`](../) y vía[`SvgSaveOptions`](../../svgsaveoptions/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo editar la imagen mientras Aspose.Words convierte un documento en uno.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [ImageSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../imagesaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

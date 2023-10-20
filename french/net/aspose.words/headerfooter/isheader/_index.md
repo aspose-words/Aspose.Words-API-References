@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsHeader
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HeaderFooter propriété. Vrai si ceciHeaderFooter lobjet est un entête.
+linktitle: IsHeader
+articleTitle: IsHeader
+second_title: Aspose.Words pour .NET
+description: HeaderFooter IsHeader propriété. Vrai si ceciHeaderFooter lobjet est un entête en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/headerfooter/isheader/
@@ -14,7 +16,7 @@ Vrai si ceci[`HeaderFooter`](../) l'objet est un en-tête.
 public bool IsHeader { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un en-tête et un pied de page.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### Voir également
 
 * class [HeaderFooter](../)
-* espace de noms [Aspose.Words](../../headerfooter/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

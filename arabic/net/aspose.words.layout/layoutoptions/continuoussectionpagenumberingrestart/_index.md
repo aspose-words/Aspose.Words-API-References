@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ContinuousSectionPageNumberingRestart
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutOptions ملكية. الحصول على أو تعيين وضع السلوك لحساب أرقام الصفحات عندما يقوم قسم مستمر بإعادة تشغيل ترقيم الصفحات.
+linktitle: ContinuousSectionPageNumberingRestart
+articleTitle: ContinuousSectionPageNumberingRestart
+second_title: Aspose.Words لـ .NET
+description: LayoutOptions ContinuousSectionPageNumberingRestart ملكية. الحصول على أو تعيين وضع السلوك لحساب أرقام الصفحات عندما يقوم قسم مستمر بإعادة تشغيل ترقيم الصفحات في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingres
 public ContinuousSectionRestart ContinuousSectionPageNumberingRestart { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيAlways. إنه يطابق سلوك MS Word 2019 الذي كان الإصدار الأحدث في وقت تقديم الخيار. يتوفر منطق ترقيم الصفحات الأقدم الذي أظهره MS Word 2016 عبر هذا الخيار. من فضلك[`ContinuousSectionRestart`](../../continuoussectionrestart/) لوصف السلوك.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحكم في ترقيم الصفحات في قسم مستمر.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Layout.RestartPageNumberingInContinuousSection.pdf");
 
 * enum [ContinuousSectionRestart](../../continuoussectionrestart/)
 * class [LayoutOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

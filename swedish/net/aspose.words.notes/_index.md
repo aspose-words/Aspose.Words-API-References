@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Notes
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Notesnamnutrymme tillhandahåller klasser för att arbeta med Microsoft Wordslutnoter och fotnoter.
+linktitle: Aspose.Words.Notes
+articleTitle: Aspose.Words.Notes
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.Notesnamnutrymme tillhandahåller klasser för att arbeta med Microsoft Wordslutnoter och fotnoter i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.notes/
 ---
-De **Aspose.Words.Notes**namnutrymme tillhandahåller klasser för att arbeta med Microsoft Word-slutnoter och fotnoter.
+De**Aspose.Words.Notes**namnutrymme tillhandahåller klasser för att arbeta med Microsoft Word-slutnoter och fotnoter.
 
 ## Klasser
 
@@ -23,5 +25,3 @@ De **Aspose.Words.Notes**namnutrymme tillhandahåller klasser för att arbeta me
 | [FootnoteNumberingRule](./footnotenumberingrule/) | Bestämmer när automatisk fotnots- eller slutnotsnumrering startar om. |
 | [FootnotePosition](./footnoteposition/) | Definierar fotnotspositionen. |
 | [FootnoteType](./footnotetype/) | Anger om detta är en fotnot eller en slutnot. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.SymbolRotation
-second_title: Aspose.Words for .NET API 参考
-description: FieldMergeBarcode 财产. 获取或设置条形码符号的旋转有效值为 0 3
+linktitle: SymbolRotation
+articleTitle: SymbolRotation
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMergeBarcode SymbolRotation 财产. 获取或设置条形码符号的旋转有效值为 0 3 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.fields/fieldmergebarcode/symbolrotation/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldmergebarcode/symbolrotation/
 public string SymbolRotation { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何对 QR 条形码执行邮件合并。
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### 也可以看看
 
 * class [FieldMergeBarcode](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldmergebarcode/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

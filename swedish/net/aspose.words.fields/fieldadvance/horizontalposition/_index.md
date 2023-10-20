@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.HorizontalPosition
-second_title: Aspose.Words för .NET API Referens
-description: FieldAdvance fast egendom. Hämtar eller ställer in antalet punkter med vilka texten som följer efter fältet ska flyttas horisontellt från den vänstra kanten av kolumnen ramen eller textrutan.
+linktitle: HorizontalPosition
+articleTitle: HorizontalPosition
+second_title: Aspose.Words för .NET
+description: FieldAdvance HorizontalPosition fast egendom. Hämtar eller ställer in antalet punkter med vilka texten som följer efter fältet ska flyttas horisontellt från den vänstra kanten av kolumnen ramen eller textrutan i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldadvance/horizontalposition/
@@ -14,7 +16,7 @@ Hämtar eller ställer in antalet punkter med vilka texten som följer efter fä
 public string HorizontalPosition { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett ADVANCE-fält och redigerar dess egenskaper.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### Se även
 
 * class [FieldAdvance](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldadvance/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

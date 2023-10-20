@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Clear
-second_title: Referencia de API de Aspose.Words para .NET
-description: BookmarkCollection método. Elimina todos los marcadores de esta colección y del documento.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words para .NET
+description: BookmarkCollection Clear método. Elimina todos los marcadores de esta colección y del documento en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/bookmarkcollection/clear/
@@ -14,7 +16,7 @@ Elimina todos los marcadores de esta colección y del documento.
 public void Clear()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar marcadores de un documento.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Ver también
 
 * class [BookmarkCollection](../)
-* espacio de nombres [Aspose.Words](../../bookmarkcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

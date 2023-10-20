@@ -1,7 +1,9 @@
 ---
-title: Interface IBibliographyStylesProvider
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.IBibliographyStylesProvider интерфейс. Реализуйте этот интерфейс чтобы обеспечить стиль библиографии для FieldBibliography иFieldCitation поля когда они обновляются.
+title: IBibliographyStylesProvider Interface
+linktitle: IBibliographyStylesProvider
+articleTitle: IBibliographyStylesProvider
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.IBibliographyStylesProvider интерфейс. Реализуйте этот интерфейс чтобы обеспечить стиль библиографии для FieldBibliography иFieldCitation поля когда они обновляются на С#.
 type: docs
 weight: 2670
 url: /ru/net/aspose.words.fields/ibibliographystylesprovider/
@@ -18,9 +20,9 @@ public interface IBibliographyStylesProvider
 
 | Имя | Описание |
 | --- | --- |
-| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(string) | Возвращает стиль библиографии. |
+| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(*string*) | Возвращает стиль библиографии. |
 
-### Примеры
+## Примеры
 
 Показывает, как переопределить встроенные стили или использовать собственные.
 
@@ -48,5 +50,3 @@ public class BibliographyStylesProvider : IBibliographyStylesProvider
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

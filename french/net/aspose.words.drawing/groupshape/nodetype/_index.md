@@ -1,7 +1,9 @@
 ---
 title: GroupShape.NodeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GroupShape propriété. RetoursGroupShape .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words pour .NET
+description: GroupShape NodeType propriété. RetoursGroupShape  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing/groupshape/nodetype/
@@ -14,7 +16,7 @@ RetoursGroupShape .
 public override NodeType NodeType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [GroupShape](../)
-* espace de noms [Aspose.Words.Drawing](../../groupshape/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

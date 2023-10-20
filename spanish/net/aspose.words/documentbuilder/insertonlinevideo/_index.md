@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOnlineVideo
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Inserta un objeto de vídeo en línea en el documento y lo escala al tamaño especificado.
+linktitle: InsertOnlineVideo
+articleTitle: InsertOnlineVideo
+second_title: Aspose.Words para .NET
+description: DocumentBuilder InsertOnlineVideo método. Inserta un objeto de vídeo en línea en el documento y lo escala al tamaño especificado en C#.
 type: docs
-weight: 420
+weight: 410
 url: /es/net/aspose.words/documentbuilder/insertonlinevideo/
 ---
-## InsertOnlineVideo(string, double, double) {#insertonlinevideo_1}
+## InsertOnlineVideo(*string, double, double*) {#insertonlinevideo_1}
 
 Inserta un objeto de vídeo en línea en el documento y lo escala al tamaño especificado.
 
@@ -24,7 +26,7 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 
 El nodo de imagen que se acaba de insertar.
 
-### Observaciones
+## Observaciones
 
 Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
@@ -37,7 +39,7 @@ Si su video en línea no se muestra correctamente, use`InsertOnlineVideo`, que a
 
 El código para incrustar video puede variar entre proveedores; consulte con el proveedor correspondiente de su elección para obtener más detalles.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un vídeo en línea en un documento mediante una URL.
 
@@ -55,12 +57,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo}
+## InsertOnlineVideo(*string, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo}
 
 Inserta un objeto de vídeo en línea en el documento y lo escala al tamaño especificado.
 
@@ -84,7 +86,7 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 
 El nodo de imagen que se acaba de insertar.
 
-### Observaciones
+## Observaciones
 
 Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
@@ -97,7 +99,7 @@ Si su video en línea no se muestra correctamente, use`InsertOnlineVideo`, que a
 
 El código para incrustar video puede variar entre proveedores; consulte con el proveedor correspondiente de su elección para obtener más detalles.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un vídeo en línea en un documento.
 
@@ -124,12 +126,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], double, double) {#insertonlinevideo_3}
+## InsertOnlineVideo(*string, string, byte[], double, double*) {#insertonlinevideo_3}
 
 Inserta un objeto de vídeo en línea en el documento y lo escala al tamaño especificado.
 
@@ -150,11 +152,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 El nodo de imagen que se acaba de insertar.
 
-### Observaciones
+## Observaciones
 
 Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un vídeo en línea en un documento con una miniatura personalizada.
 
@@ -197,12 +199,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo_2}
+## InsertOnlineVideo(*string, string, byte[], [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo_2}
 
 Inserta un objeto de vídeo en línea en el documento y lo escala al tamaño especificado.
 
@@ -229,11 +231,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 El nodo de imagen que se acaba de insertar.
 
-### Observaciones
+## Observaciones
 
 Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un vídeo en línea en un documento con una miniatura personalizada.
 
@@ -279,7 +281,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Text
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutEnumerator mülk. Geçerli yayılma varlığının metnini alır. Diğer varlık türleri için fırlatmalar.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words for .NET
+description: LayoutEnumerator Text mülk. Geçerli yayılma varlığının metnini alır. Diğer varlık türleri için fırlatmalar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.layout/layoutenumerator/text/
@@ -14,7 +16,7 @@ Geçerli yayılma varlığının metnini alır. Diğer varlık türleri için f�
 public string Text { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ayrıca bakınız
 
 * class [LayoutEnumerator](../)
-* ad alanı [Aspose.Words.Layout](../../layoutenumerator/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

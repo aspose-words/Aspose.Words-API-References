@@ -1,7 +1,9 @@
 ---
 title: PdfLoadOptions.PageCount
-second_title: Aspose.Words for .NET API Referansı
-description: PdfLoadOptions mülk. Okunacak sayfa sayısını alır veya ayarlar. Varsayılan MaxValuedur bu belgenin tüm sayfalarının okunacağı anlamına gelir.
+linktitle: PageCount
+articleTitle: PageCount
+second_title: Aspose.Words for .NET
+description: PdfLoadOptions PageCount mülk. Okunacak sayfa sayısını alır veya ayarlar. Varsayılan MaxValuedur bu belgenin tüm sayfalarının okunacağı anlamına gelir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.loading/pdfloadoptions/pagecount/
@@ -17,7 +19,5 @@ public int PageCount { get; set; }
 ### Ayrıca bakınız
 
 * class [PdfLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../pdfloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

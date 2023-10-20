@@ -1,7 +1,9 @@
 ---
 title: ToaCategories.DefaultCategories
-second_title: Aspose.Words for .NET API 参考
-description: ToaCategories 财产. 获取默认的权威类别表
+linktitle: DefaultCategories
+articleTitle: DefaultCategories
+second_title: 用于 .NET 的 Aspose.Words
+description: ToaCategories DefaultCategories 财产. 获取默认的权威类别表 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/toacategories/defaultcategories/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/toacategories/defaultcategories/
 public static ToaCategories DefaultCategories { get; }
 ```
 
-### 评论
+## 评论
 
 使用[`ToaCategories`](../../fieldoptions/toacategories/)属性来指定单个文档的权限类别表。
 
-### 例子
+## 例子
 
 演示如何为 TOA 字段指定一组类别。
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 ### 也可以看看
 
 * class [ToaCategories](../)
-* 命名空间 [Aspose.Words.Fields](../../toacategories/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

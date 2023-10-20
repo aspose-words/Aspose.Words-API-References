@@ -1,7 +1,9 @@
 ---
 title: Paragraph.Runs
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 提供对段落内文本片段的键入集合的访问
+linktitle: Runs
+articleTitle: Runs
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph Runs 财产. 提供对段落内文本片段的键入集合的访问 在 C#.
 type: docs
 weight: 220
 url: /zh/net/aspose.words/paragraph/runs/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/runs/
 public RunCollection Runs { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何确定内联节点的修订类型。
 
@@ -71,7 +73,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [RunCollection](../../runcollection/)
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

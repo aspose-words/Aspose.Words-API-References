@@ -1,7 +1,9 @@
 ---
 title: Row.RowFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Row свойство. Предоставляет доступ к свойствам форматирования строки.
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: Aspose.Words для .NET
+description: Row RowFormat свойство. Предоставляет доступ к свойствам форматирования строки на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.tables/row/rowformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/row/rowformat/
 public RowFormat RowFormat { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить форматирование строки таблицы.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 
 * class [RowFormat](../../rowformat/)
 * class [Row](../)
-* пространство имен [Aspose.Words.Tables](../../row/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

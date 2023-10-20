@@ -1,9 +1,11 @@
 ---
 title: Comment.RemoveReply
-second_title: Справочник по API Aspose.Words для .NET
-description: Comment метод. Удаляет указанный ответ на этот комментарий.
+linktitle: RemoveReply
+articleTitle: RemoveReply
+second_title: Aspose.Words для .NET
+description: Comment RemoveReply метод. Удаляет указанный ответ на этот комментарий на С#.
 type: docs
-weight: 170
+weight: 140
 url: /ru/net/aspose.words/comment/removereply/
 ---
 ## Comment.RemoveReply method
@@ -18,11 +20,11 @@ public void RemoveReply(Comment reply)
 | --- | --- | --- |
 | reply | Comment | Узел комментария удаляющего ответа. |
 
-### Примечания
+## Примечания
 
 Все составляющие узлы ответа будут удалены из документа.
 
-### Примеры
+## Примеры
 
 Показывает, как удалить ответы на комментарии.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 ### Смотрите также
 
 * class [Comment](../)
-* пространство имен [Aspose.Words](../../comment/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

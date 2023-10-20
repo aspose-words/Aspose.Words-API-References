@@ -1,9 +1,11 @@
 ---
 title: Stroke.StartArrowType
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Definierar pilspetsen för starten av ett slag.
+linktitle: StartArrowType
+articleTitle: StartArrowType
+second_title: Aspose.Words för .NET
+description: Stroke StartArrowType fast egendom. Definierar pilspetsen för starten av ett slag i C#.
 type: docs
-weight: 180
+weight: 170
 url: /sv/net/aspose.words.drawing/stroke/startarrowtype/
 ---
 ## Stroke.StartArrowType property
@@ -14,11 +16,11 @@ Definierar pilspetsen för starten av ett slag.
 public ArrowType StartArrowType { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärNone.
 
-### Exempel
+## Exempel
 
 Visar för att skapa en mängd olika former.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowType](../../arrowtype/)
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

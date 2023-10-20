@@ -1,7 +1,9 @@
 ---
 title: FormField.Checked
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Ottiene o imposta lo stato selezionato del campo del modulo della casella di controllo. Il valore predefinito per questa proprietà èfalso .
+linktitle: Checked
+articleTitle: Checked
+second_title: Aspose.Words per .NET
+description: FormField Checked proprietà. Ottiene o imposta lo stato selezionato del campo del modulo della casella di controllo. Il valore predefinito per questa proprietà èfalso  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/formfield/checked/
@@ -14,11 +16,11 @@ Ottiene o imposta lo stato selezionato del campo del modulo della casella di con
 public bool Checked { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Applicabile solo per un campo modulo con casella di controllo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

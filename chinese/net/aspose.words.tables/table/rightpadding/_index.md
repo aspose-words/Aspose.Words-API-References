@@ -1,7 +1,9 @@
 ---
 title: Table.RightPadding
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取或设置要添加到单元格内容右侧的空间量以磅为单位
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: 用于 .NET 的 Aspose.Words
+description: Table RightPadding 财产. 获取或设置要添加到单元格内容右侧的空间量以磅为单位 在 C#.
 type: docs
 weight: 250
 url: /zh/net/aspose.words.tables/table/rightpadding/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/table/rightpadding/
 public double RightPadding { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何在表格中配置内容填充。
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### 也可以看看
 
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: DigitalSignatureCollection.DigitalSignatureCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: DigitalSignatureCollection constructeur. Default_Constructor
+title: DigitalSignatureCollection
+linktitle: DigitalSignatureCollection
+articleTitle: DigitalSignatureCollection
+second_title: Aspose.Words für .NET
+description: DigitalSignatureCollection constructeur. Default_Constructor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.digitalsignatures/digitalsignaturecollection/digitalsignaturecollection/
@@ -17,7 +19,5 @@ public DigitalSignatureCollection()
 ### Siehe auch
 
 * class [DigitalSignatureCollection](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

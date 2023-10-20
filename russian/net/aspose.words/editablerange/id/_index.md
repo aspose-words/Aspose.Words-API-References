@@ -1,7 +1,9 @@
 ---
 title: EditableRange.Id
-second_title: Справочник по API Aspose.Words для .NET
-description: EditableRange свойство. Получает редактируемый идентификатор диапазона.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words для .NET
+description: EditableRange Id свойство. Получает редактируемый идентификатор диапазона на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/editablerange/id/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/editablerange/id/
 public int Id { get; }
 ```
 
-### Примечания
+## Примечания
 
 Территория должна быть разграничена с помощью[`EditableRangeStart`](../editablerangestart/) и[`EditableRangeEnd`](../editablerangeend/)
 
 Идентификаторы редактируемого диапазона должны быть уникальными во всем документе, и Aspose.Words автоматически поддерживает идентификаторы редактируемого диапазона при загрузке, сохранении и объединении документов.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с редактируемым диапазоном.
 
@@ -66,7 +68,5 @@ editableRange.Remove();
 ### Смотрите также
 
 * class [EditableRange](../)
-* пространство имен [Aspose.Words](../../editablerange/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

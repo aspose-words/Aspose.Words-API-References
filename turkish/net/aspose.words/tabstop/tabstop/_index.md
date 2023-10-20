@@ -1,12 +1,14 @@
 ---
-title: TabStop.TabStop
-second_title: Aspose.Words for .NET API Referansı
-description: TabStop inşaatçı. Bu sınıfın yeni bir örneğini başlatır.
+title: TabStop
+linktitle: TabStop
+articleTitle: TabStop
+second_title: Aspose.Words for .NET
+description: TabStop inşaatçı. Bu sınıfın yeni bir örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/tabstop/tabstop/
 ---
-## TabStop(double) {#constructor}
+## TabStop(*double*) {#constructor}
 
 Bu sınıfın yeni bir örneğini başlatır.
 
@@ -14,7 +16,7 @@ Bu sınıfın yeni bir örneğini başlatır.
 public TabStop(double position)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sekme durakları koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Ayrıca bakınız
 
 * class [TabStop](../)
-* ad alanı [Aspose.Words](../../tabstop/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## TabStop(double, TabAlignment, TabLeader) {#constructor_1}
+## TabStop(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#constructor_1}
 
 Bu sınıfın yeni bir örneğini başlatır.
 
@@ -77,7 +79,7 @@ public TabStop(double position, TabAlignment alignment, TabLeader leader)
 | alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/) that değeri metnin bu sekme durağındaki hizalamasını belirtir. |
 | leader | TabLeader | A[`TabLeader`](../../tableader/) Sekme karakterinin altında görüntülenen öncü satırın türünü belirten değer. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sekme durakları koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -123,7 +125,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 * enum [TabAlignment](../../tabalignment/)
 * enum [TabLeader](../../tableader/)
 * class [TabStop](../)
-* ad alanı [Aspose.Words](../../tabstop/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

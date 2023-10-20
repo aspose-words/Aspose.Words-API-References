@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FootnoteOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Предоставляет параметры управляющие нумерацией и расположением сносок в этом разделе.
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: Aspose.Words для .NET
+description: PageSetup FootnoteOptions свойство. Предоставляет параметры управляющие нумерацией и расположением сносок в этом разделе на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words/pagesetup/footnoteoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/footnoteoptions/
 public FootnoteOptions FootnoteOptions { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить параметры, влияющие на сноски/концевые сноски в разделе.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.FootnoteOptions.docx");
 
 * class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

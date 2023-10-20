@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.SmartStyleBehavior
-second_title: Aspose.Words لمراجع .NET API
-description: ImportFormatOptions ملكية. الحصول على أو تعيين قيمة منطقية تحدد كيفية استيراد الأنماط عندما يكون لها أسماء متساوية في المستندات المصدر والوجهة. القيمة الافتراضية هيخطأ شنيع .
+linktitle: SmartStyleBehavior
+articleTitle: SmartStyleBehavior
+second_title: Aspose.Words لـ .NET
+description: ImportFormatOptions SmartStyleBehavior ملكية. الحصول على أو تعيين قيمة منطقية تحدد كيفية استيراد الأنماط عندما يكون لها أسماء متساوية في المستندات المصدر والوجهة. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/importformatoptions/smartstylebehavior/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/importformatoptions/smartstylebehavior/
 public bool SmartStyleBehavior { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-عندما يكون هذا الخيار **ممكّن** ، سيتم توسيع النمط المصدر إلى سمات مباشرة داخل مستند الوجهة a ، إذاKeepSourceFormatting يتم استخدام وضع الاستيراد.
+عندما يكون هذا الخيار**ممكّن** ، سيتم توسيع النمط المصدر إلى سمات مباشرة داخل مستند الوجهة a ، إذاKeepSourceFormatting يتم استخدام وضع الاستيراد.
 
-عندما يكون هذا الخيار **عاجز**، سيتم توسيع نمط المصدر فقط إذا كان مرقمًا. لن يتم تجاوز سمات الوجهة Existing ، بما في ذلك القوائم.
+عندما يكون هذا الخيار**عاجز**، سيتم توسيع نمط المصدر فقط إذا كان مرقمًا. لن يتم تجاوز سمات الوجهة Existing ، بما في ذلك القوائم.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حل الأنماط المكررة أثناء إدراج المستندات.
 
@@ -55,7 +57,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 ### أنظر أيضا
 
 * class [ImportFormatOptions](../)
-* مساحة الاسم [Aspose.Words](../../importformatoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

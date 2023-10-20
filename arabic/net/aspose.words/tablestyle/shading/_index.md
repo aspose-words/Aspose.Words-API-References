@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Shading
-second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. يحصل علىShading الكائن الذي يشير إلى تنسيق التظليل لخلايا الجدول.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words لـ .NET
+description: TableStyle Shading ملكية. يحصل علىShading الكائن الذي يشير إلى تنسيق التظليل لخلايا الجدول في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words/tablestyle/shading/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tablestyle/shading/
 public Shading Shading { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء إعدادات نمط مخصصة للجدول.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * class [Shading](../../shading/)
 * class [TableStyle](../)
-* مساحة الاسم [Aspose.Words](../../tablestyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

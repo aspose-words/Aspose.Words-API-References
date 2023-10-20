@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Contains
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentPropertyCollection метод. Возвращаетистинный если свойство с указанным именем существует в коллекции.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words для .NET
+description: DocumentPropertyCollection Contains метод. Возвращаетистинный если свойство с указанным именем существует в коллекции на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.properties/documentpropertycollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `истинный` если свойство существует в коллекции;`ЛОЖЬ` в противном случае.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с настраиваемыми свойствами документа.
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, properties.Count);
 ### Смотрите также
 
 * class [DocumentPropertyCollection](../)
-* пространство имен [Aspose.Words.Properties](../../documentpropertycollection/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

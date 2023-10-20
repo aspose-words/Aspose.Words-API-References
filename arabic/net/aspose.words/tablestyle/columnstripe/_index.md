@@ -1,7 +1,9 @@
 ---
 title: TableStyle.ColumnStripe
-second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. الحصول على أو تعيين عدد من الأعمدة لتضمينها في النطاق عندما يحدد النمط نطاق الأعمدة الفردية/الزوجية.
+linktitle: ColumnStripe
+articleTitle: ColumnStripe
+second_title: Aspose.Words لـ .NET
+description: TableStyle ColumnStripe ملكية. الحصول على أو تعيين عدد من الأعمدة لتضمينها في النطاق عندما يحدد النمط نطاق الأعمدة الفردية/الزوجية في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/tablestyle/columnstripe/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tablestyle/columnstripe/
 public int ColumnStripe { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء أنماط جدول شرطية تتناوب بين الصفوف.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");
 ### أنظر أيضا
 
 * class [TableStyle](../)
-* مساحة الاسم [Aspose.Words](../../tablestyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

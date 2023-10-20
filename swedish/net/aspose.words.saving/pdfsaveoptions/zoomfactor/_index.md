@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ZoomFactor
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer zoomfaktor i procent för ett dokument.
+linktitle: ZoomFactor
+articleTitle: ZoomFactor
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions ZoomFactor fast egendom. Hämtar eller ställer in ett värde som bestämmer zoomfaktor i procent för ett dokument i C#.
 type: docs
 weight: 330
 url: /sv/net/aspose.words.saving/pdfsaveoptions/zoomfactor/
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett värde som bestämmer zoomfaktor (i procent) för 
 public int ZoomFactor { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Detta värde används endast om[`ZoomBehavior`](../zoombehavior/) är satt tillZoomFactor .
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in standardzoomningen som en läsare tillämpar när du öppnar ett renderat PDF-dokument.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 ### Se även
 
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

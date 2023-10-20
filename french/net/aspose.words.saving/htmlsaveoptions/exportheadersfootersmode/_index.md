@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportHeadersFootersMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie comment les entêtes et les pieds de page sont générés au format HTML MHTML ou EPUB. La valeur par défaut estPerSection pour HTML/MHTML etNone pour EPUB.
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions ExportHeadersFootersMode propriété. Spécifie comment les entêtes et les pieds de page sont générés au format HTML MHTML ou EPUB. La valeur par défaut estPerSection pour HTML/MHTML etNone pour EPUB en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
@@ -14,7 +16,7 @@ Spécifie comment les en-têtes et les pieds de page sont générés au format H
 public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Il est difficile de générer des en-têtes et des pieds de page de manière significative au format HTML car le HTML n'est pas paginé.
 
@@ -24,7 +26,7 @@ Lorsqu'il estFirstSectionHeaderLastSectionFooter seuls le premier en-tête princ
 
 Vous pouvez désactiver complètement l'exportation des en-têtes et des pieds de page en définissant cette propriété surNone.
 
-### Exemples
+## Exemples
 
 Montre comment omettre les en-têtes/pieds de page lors de l’enregistrement d’un document au format HTML.
 
@@ -53,7 +55,5 @@ Assert.IsFalse(doc.Range.Text.Contains("First header"));
 
 * enum [ExportHeadersFootersMode](../../exportheadersfootersmode/)
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

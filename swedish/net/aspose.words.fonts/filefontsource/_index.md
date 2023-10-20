@@ -1,7 +1,9 @@
 ---
-title: Class FileFontSource
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.FileFontSource klass. Representerar den enda TrueTypeteckensnittsfilen som är lagrad i filsystemet.
+title: FileFontSource Class
+linktitle: FileFontSource
+articleTitle: FileFontSource
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.FileFontSource klass. Representerar den enda TrueTypeteckensnittsfilen som är lagrad i filsystemet i C#.
 type: docs
 weight: 2870
 url: /sv/net/aspose.words.fonts/filefontsource/
@@ -20,9 +22,9 @@ public class FileFontSource : FontSourceBase
 
 | namn | Beskrivning |
 | --- | --- |
-| [FileFontSource](filefontsource/#constructor)(string) | Ctor. |
-| [FileFontSource](filefontsource/#constructor_1)(string, int) | Ctor. |
-| [FileFontSource](filefontsource/#constructor_2)(string, int, string) | Ctor. |
+| [FileFontSource](filefontsource/#constructor)(*string*) | Ctor. |
+| [FileFontSource](filefontsource/#constructor_1)(*string, int*) | Ctor. |
+| [FileFontSource](filefontsource/#constructor_2)(*string, int, string*) | Ctor. |
 
 ## Egenskaper
 
@@ -40,7 +42,7 @@ public class FileFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Returnerar en lista över teckensnitt som är tillgängliga via den här källan. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder en teckensnittsfil i det lokala filsystemet som en teckensnittskälla.
 
@@ -61,5 +63,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

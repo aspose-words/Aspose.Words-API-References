@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.LoadFormat
-second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. Yüklenecek belgenin biçimini belirtir. VarsayılanAuto .
+linktitle: LoadFormat
+articleTitle: LoadFormat
+second_title: Aspose.Words for .NET
+description: LoadOptions LoadFormat mülk. Yüklenecek belgenin biçimini belirtir. VarsayılanAuto  C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.loading/loadoptions/loadformat/
@@ -14,11 +16,11 @@ Yüklenecek belgenin biçimini belirtir. Varsayılan:Auto .
 public LoadFormat LoadFormat { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 belirtmeniz önerilir.Auto değerini girin ve Aspose.Words'ün dosya formatını otomatik olarak tespit etmesine izin verin . Yüklemek üzere olduğunuz belgenin formatını biliyorsanız, format 'yi açıkça belirleyebilirsiniz ve bu, formatın otomatik olarak algılanmasıyla ilişkili ek yük nedeniyle yükleme süresini biraz azaltır. Açık bir yükleme formatı belirtirseniz, o da açılacaktır. yanlış olduğu anlaşılırsa, otomatik algılama başlatılacak ve dosyayı yüklemek için Second denemesi yapılacaktır.
 
-### Örnekler
+## Örnekler
 
 Bir html belgesini açarken temel URI'nin nasıl belirtileceğini gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 
 * enum [LoadFormat](../../../aspose.words/loadformat/)
 * class [LoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../loadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

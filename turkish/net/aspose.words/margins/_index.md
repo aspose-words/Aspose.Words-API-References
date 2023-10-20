@@ -1,7 +1,9 @@
 ---
-title: Enum Margins
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Margins Sıralama. Önceden ayarlanmış kenar boşluklarını belirtir.
+title: Margins Enum
+linktitle: Margins
+articleTitle: Margins
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Margins Sıralama. Önceden ayarlanmış kenar boşluklarını belirtir C#'da.
 type: docs
 weight: 3890
 url: /tr/net/aspose.words/margins/
@@ -29,5 +31,3 @@ public enum Margins
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

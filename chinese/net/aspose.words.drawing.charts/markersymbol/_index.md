@@ -1,7 +1,9 @@
 ---
-title: Enum MarkerSymbol
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.MarkerSymbol 枚举. 指定标记符号样式
+title: MarkerSymbol Enum
+linktitle: MarkerSymbol
+articleTitle: MarkerSymbol
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.MarkerSymbol 枚举. 指定标记符号样式 在 C#.
 type: docs
 weight: 920
 url: /zh/net/aspose.words.drawing.charts/markersymbol/
@@ -31,7 +33,7 @@ public enum MarkerSymbol
 | Triangle | `10` | 指定应在每个数据点绘制一个三角形。 |
 | X | `11` | 指定应在每个数据点处绘制 X。 |
 
-### 例子
+## 例子
 
 展示如何使用折线图上的数据点。
 
@@ -94,5 +96,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum FontFamily
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.FontFamily перечисление. Представляет семейство шрифтов.
+title: FontFamily Enum
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.FontFamily перечисление. Представляет семейство шрифтов на С#.
 type: docs
 weight: 2910
 url: /ru/net/aspose.words.fonts/fontfamily/
@@ -25,11 +27,11 @@ public enum FontFamily
 | Script | `4` | Определяет шрифт, похожий на рукописный; примеры включают Script и Cursive. . |
 | Decorative | `5` | Указывает новый шрифт. Примером является древнеанглийский. . |
 
-### Примечания
+## Примечания
 
 Семейство шрифтов — это набор шрифтов, имеющих общую ширину штриха и характеристики засечек.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ и распечатать сведения о каждом шрифте в документе.
 
@@ -69,5 +71,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

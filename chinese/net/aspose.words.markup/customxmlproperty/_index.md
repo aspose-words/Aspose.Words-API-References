@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlProperty
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Markup.CustomXmlProperty 班级. 表示单个自定义 XML 属性或智能标记属性
+title: CustomXmlProperty Class
+linktitle: CustomXmlProperty
+articleTitle: CustomXmlProperty
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Markup.CustomXmlProperty 班级. 表示单个自定义 XML 属性或智能标记属性 在 C#.
 type: docs
 weight: 3940
 url: /zh/net/aspose.words.markup/customxmlproperty/
@@ -20,7 +22,7 @@ public class CustomXmlProperty
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CustomXmlProperty](customxmlproperty/)(string, string, string) | 初始化此类的新实例。 |
+| [CustomXmlProperty](customxmlproperty/)(*string, string, string*) | 初始化此类的新实例。 |
 
 ## 特性
 
@@ -30,11 +32,11 @@ public class CustomXmlProperty
 | [Uri](../../aspose.words.markup/customxmlproperty/uri/) { get; set; } | 获取或设置自定义 XML 属性或智能标记属性的命名空间 URI。 |
 | [Value](../../aspose.words.markup/customxmlproperty/value/) { get; set; } | 获取或设置自定义 XML 属性或智能标记属性的值。 |
 
-### 评论
+## 评论
 
 用作 a 的项目[`CustomXmlPropertyCollection`](../customxmlpropertycollection/)收藏。
 
-### 例子
+## 例子
 
 展示如何创建智能标签。
 
@@ -136,5 +138,3 @@ private class SmartTagPrinter : DocumentVisitor
 
 * 命名空间 [Aspose.Words.Markup](../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../)
-
-

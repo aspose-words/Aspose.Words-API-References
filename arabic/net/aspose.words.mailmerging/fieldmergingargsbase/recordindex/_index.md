@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.RecordIndex
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergingArgsBase ملكية. الحصول على الفهرس الصفري للسجل الذي يتم دمجه.
+linktitle: RecordIndex
+articleTitle: RecordIndex
+second_title: Aspose.Words لـ .NET
+description: FieldMergingArgsBase RecordIndex ملكية. الحصول على الفهرس الصفري للسجل الذي يتم دمجه في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
 public int RecordIndex { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقول نموذج خانة الاختيار في MERGEFIELDs كبيانات دمج أثناء دمج البريد.
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### أنظر أيضا
 
 * class [FieldMergingArgsBase](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

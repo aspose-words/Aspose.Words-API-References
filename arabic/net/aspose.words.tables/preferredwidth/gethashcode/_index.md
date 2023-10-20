@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.GetHashCode
-second_title: Aspose.Words لمراجع .NET API
-description: PreferredWidth طريقة. بمثابة دالة تجزئة لهذا النوع.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words لـ .NET
+description: PreferredWidth GetHashCode طريقة. بمثابة دالة تجزئة لهذا النوع في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.tables/preferredwidth/gethashcode/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/preferredwidth/gethashcode/
 public override int GetHashCode()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين العرض المفضل لخلايا الجدول.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### أنظر أيضا
 
 * class [PreferredWidth](../)
-* مساحة الاسم [Aspose.Words.Tables](../../preferredwidth/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

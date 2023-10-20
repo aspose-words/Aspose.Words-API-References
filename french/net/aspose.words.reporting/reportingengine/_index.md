@@ -1,7 +1,9 @@
 ---
-title: Class ReportingEngine
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Reporting.ReportingEngine classe. Fournit des routines pour remplir les documents modèles avec des données et un ensemble de paramètres pour contrôler ces routines.
+title: ReportingEngine Class
+linktitle: ReportingEngine
+articleTitle: ReportingEngine
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Reporting.ReportingEngine classe. Fournit des routines pour remplir les documents modèles avec des données et un ensemble de paramètres pour contrôler ces routines en C#.
 type: docs
 weight: 4730
 url: /fr/net/aspose.words.reporting/reportingengine/
@@ -34,15 +36,13 @@ public class ReportingEngine
 
 | Nom | La description |
 | --- | --- |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(Document, object) | Remplit le document modèle spécifié avec les données de la source spécifiée, ce qui en fait un rapport prêt. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(Document, object, string) | Remplit le document modèle spécifié avec les données de la source spécifiée, ce qui en fait un rapport prêt. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(Document, object[], string[]) | Remplit le document modèle spécifié avec les données des sources spécifiées, ce qui en fait un rapport prêt. |
-| [Equals](../../aspose.words.reporting/reportingengine/equals/)(object) | Détermine si l'objet spécifié a une valeur égale à l'objet actuel. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(*[Document](../../aspose.words/document/), object*) | Remplit le document modèle spécifié avec les données de la source spécifiée, ce qui en fait un rapport prêt. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(*[Document](../../aspose.words/document/), object, string*) | Remplit le document modèle spécifié avec les données de la source spécifiée, ce qui en fait un rapport prêt. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(*[Document](../../aspose.words/document/), object[], string[]*) | Remplit le document modèle spécifié avec les données des sources spécifiées, ce qui en fait un rapport prêt. |
+| [Equals](../../aspose.words.reporting/reportingengine/equals/)(*object*) | Détermine si l'objet spécifié a une valeur égale à l'objet actuel. |
 | [GetHashCode](../../aspose.words.reporting/reportingengine/gethashcode/)() | Sert de fonction de hachage pour ce type. |
 
 ### Voir également
 
 * espace de noms [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../)
-
-

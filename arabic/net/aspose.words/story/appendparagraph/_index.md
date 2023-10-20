@@ -1,7 +1,9 @@
 ---
 title: Story.AppendParagraph
-second_title: Aspose.Words لمراجع .NET API
-description: Story طريقة. طريقة اختصار لإنشاء ملفParagraph كائن بنص اختياري وإلحاقه بنهاية هذا الكائن.
+linktitle: AppendParagraph
+articleTitle: AppendParagraph
+second_title: Aspose.Words لـ .NET
+description: Story AppendParagraph طريقة. طريقة اختصار لإنشاء ملفParagraph كائن بنص اختياري وإلحاقه بنهاية هذا الكائن في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/story/appendparagraph/
@@ -22,7 +24,7 @@ public Paragraph AppendParagraph(string text)
 
 الفقرة التي تم إنشاؤها وإلحاقها حديثًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء رأس وتذييل.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* مساحة الاسم [Aspose.Words](../../story/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

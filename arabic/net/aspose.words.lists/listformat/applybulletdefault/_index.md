@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ApplyBulletDefault
-second_title: Aspose.Words لمراجع .NET API
-description: ListFormat طريقة. يبدأ قائمة نقطية افتراضية جديدة ويطبقها على الفقرة.
+linktitle: ApplyBulletDefault
+articleTitle: ApplyBulletDefault
+second_title: Aspose.Words لـ .NET
+description: ListFormat ApplyBulletDefault طريقة. يبدأ قائمة نقطية افتراضية جديدة ويطبقها على الفقرة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.lists/listformat/applybulletdefault/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/listformat/applybulletdefault/
 public void ApplyBulletDefault()
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذه طريقة اختصار تقوم بإنشاء قائمة جديدة باستخدام قالب Bullet الافتراضي، وتطبيقها على الفقرة وتحديد مستوى القائمة الأول.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء قوائم ذات تعداد نقطي ومرقمة.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### أنظر أيضا
 
 * class [ListFormat](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listformat/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

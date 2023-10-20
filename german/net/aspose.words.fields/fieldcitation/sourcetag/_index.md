@@ -1,20 +1,22 @@
 ---
 title: FieldCitation.SourceTag
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCitation eigendom. Ruft einen Wert ab der mit dem übereinstimmt oder legt diesen fest Etikett Elementwert der einzufügenden Quelle.
+linktitle: SourceTag
+articleTitle: SourceTag
+second_title: Aspose.Words für .NET
+description: FieldCitation SourceTag eigendom. Ruft einen Wert ab der mit dem übereinstimmt oder legt diesen festEtikett Elementwert der einzufügenden Quelle in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldcitation/sourcetag/
 ---
 ## FieldCitation.SourceTag property
 
-Ruft einen Wert ab, der mit dem übereinstimmt, oder legt diesen fest **Etikett** Elementwert der einzufügenden Quelle.
+Ruft einen Wert ab, der mit dem übereinstimmt, oder legt diesen fest**Etikett** Elementwert der einzufügenden Quelle.
 
 ```csharp
 public string SourceTag { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den Feldern CITATION und BIBLIOGRAPHY gearbeitet wird.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Siehe auch
 
 * class [FieldCitation](../)
-* namensraum [Aspose.Words.Fields](../../fieldcitation/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

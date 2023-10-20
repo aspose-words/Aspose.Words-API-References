@@ -1,7 +1,9 @@
 ---
-title: Class Hyphenation
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Hyphenation classe. Fournit des méthodes pour travailler avec des dictionnaires de césure. Ces dictionnaires prescrivent où les mots dune langue spécifique peuvent être coupés.
+title: Hyphenation Class
+linktitle: Hyphenation
+articleTitle: Hyphenation
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Hyphenation classe. Fournit des méthodes pour travailler avec des dictionnaires de césure. Ces dictionnaires prescrivent où les mots dune langue spécifique peuvent être coupés en C#.
 type: docs
 weight: 3150
 url: /fr/net/aspose.words/hyphenation/
@@ -27,12 +29,12 @@ public static class Hyphenation
 
 | Nom | La description |
 | --- | --- |
-| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(string) | Retours`FAUX` si pour la langue spécifiée aucun dictionnaire n'est enregistré ou s'il s'agit d'un dictionnaire nul,`vrai` sinon. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(string, Stream) | Enregistre et charge un dictionnaire de césure pour la langue spécifiée à partir d'un flux. Lance si le dictionnaire ne peut pas être lu ou a un format non valide. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(string, string) | Enregistre et charge un dictionnaire de césure pour la langue spécifiée à partir du fichier. Lance si le dictionnaire ne peut pas être lu ou a un format non valide. |
-| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(string) | Désenregistre un dictionnaire de césure pour la langue spécifiée. |
+| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(*string*) | Retours`FAUX` si pour la langue spécifiée aucun dictionnaire n'est enregistré ou s'il s'agit d'un dictionnaire nul,`vrai` sinon. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(*string, Stream*) | Enregistre et charge un dictionnaire de césure pour la langue spécifiée à partir d'un flux. Lance si le dictionnaire ne peut pas être lu ou a un format non valide. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(*string, string*) | Enregistre et charge un dictionnaire de césure pour la langue spécifiée à partir du fichier. Lance si le dictionnaire ne peut pas être lu ou a un format non valide. |
+| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(*string*) | Désenregistre un dictionnaire de césure pour la langue spécifiée. |
 
-### Exemples
+## Exemples
 
 Montre comment ouvrir et enregistrer un dictionnaire à partir d’un fichier.
 
@@ -109,5 +111,3 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

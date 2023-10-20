@@ -1,7 +1,9 @@
 ---
-title: Enum ImportFormatMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.ImportFormatMode перечисление. Указывает как форматирование объединяется при импорте содержимого из другого документа.
+title: ImportFormatMode Enum
+linktitle: ImportFormatMode
+articleTitle: ImportFormatMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.ImportFormatMode перечисление. Указывает как форматирование объединяется при импорте содержимого из другого документа на С#.
 type: docs
 weight: 3230
 url: /ru/net/aspose.words/importformatmode/
@@ -22,7 +24,7 @@ public enum ImportFormatMode
 | KeepSourceFormatting | `1` | Скопируйте все необходимые стили в целевой документ, при необходимости создайте уникальные имена стилей. |
 | KeepDifferentStyles | `2` | Копировать только те стили, которые отличаются от стилей в исходном документе. |
 
-### Примечания
+## Примечания
 
 Когда вы копируете узлы из одного документа в другой, этот параметр определяет, как разрешается форматирование , когда оба документа имеют стиль с одинаковым именем, но разное форматирование.
 
@@ -42,7 +44,7 @@ KeepSourceFormattingпозволяет убедиться, что импорти
 
 С использованиемKeepDifferentStyles Опция позволяет повторно использовать целевые стили , если предоставляемое ими форматирование идентично стилям в исходном документе. Если стиль в целевом документе отличается от исходного, то он импортируется.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить документ в другой документ.
 
@@ -63,5 +65,3 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

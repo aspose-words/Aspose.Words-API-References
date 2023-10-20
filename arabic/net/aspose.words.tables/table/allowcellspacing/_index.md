@@ -1,7 +1,9 @@
 ---
 title: Table.AllowCellSpacing
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على خيار السماح بالتباعد بين الخلايا أو تعيينه.
+linktitle: AllowCellSpacing
+articleTitle: AllowCellSpacing
+second_title: Aspose.Words لـ .NET
+description: Table AllowCellSpacing ملكية. الحصول على خيار السماح بالتباعد بين الخلايا أو تعيينه في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.tables/table/allowcellspacing/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/allowcellspacing/
 public bool AllowCellSpacing { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين التباعد بين الخلايا الفردية في الجدول.
 
@@ -53,7 +55,5 @@ Assert.True(table.AllowCellSpacing);
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

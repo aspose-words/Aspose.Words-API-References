@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.PromptText
-second_title: Aspose.Words för .NET API Referens
-description: FieldFillIn fast egendom. Hämtar eller ställer in prompttexten titeln på promptfönstret.
+linktitle: PromptText
+articleTitle: PromptText
+second_title: Aspose.Words för .NET
+description: FieldFillIn PromptText fast egendom. Hämtar eller ställer in prompttexten titeln på promptfönstret i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldfillin/prompttext/
@@ -14,7 +16,7 @@ Hämtar eller ställer in prompttexten (titeln på promptfönstret).
 public string PromptText { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder FILLIN-fältet för att fråga användaren om ett svar.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### Se även
 
 * class [FieldFillIn](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldfillin/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

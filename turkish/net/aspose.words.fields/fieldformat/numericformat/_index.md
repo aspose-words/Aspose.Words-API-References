@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.NumericFormat
-second_title: Aspose.Words for .NET API Referansı
-description: FieldFormat mülk. Sayısal alan sonucuna uygulanan biçimlendirmeyi alır veya ayarlar.  anahtarına karşılık gelir.
+linktitle: NumericFormat
+articleTitle: NumericFormat
+second_title: Aspose.Words for .NET
+description: FieldFormat NumericFormat mülk. Sayısal alan sonucuna uygulanan biçimlendirmeyi alır veya ayarlar.  anahtarına karşılık gelir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldformat/numericformat/
@@ -14,7 +16,7 @@ Sayısal alan sonucuna uygulanan biçimlendirmeyi alır veya ayarlar. \# anahtar
 public string NumericFormat { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Alan sonuçlarının nasıl biçimlendirileceğini gösterir.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Ayrıca bakınız
 
 * class [FieldFormat](../)
-* ad alanı [Aspose.Words.Fields](../../fieldformat/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

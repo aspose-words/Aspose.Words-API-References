@@ -1,7 +1,9 @@
 ---
 title: Revision.ParentNode
-second_title: Aspose.Words لمراجع .NET API
-description: Revision ملكية. الحصول على العقدة الأصلية المباشرة المالك لهذه المراجعة. ستعمل هذه الخاصية مع أي نوع مراجعة آخر غيرStyleDefinitionChange .
+linktitle: ParentNode
+articleTitle: ParentNode
+second_title: Aspose.Words لـ .NET
+description: Revision ParentNode ملكية. الحصول على العقدة الأصلية المباشرة المالك لهذه المراجعة. ستعمل هذه الخاصية مع أي نوع مراجعة آخر غيرStyleDefinitionChange  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/revision/parentnode/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/revision/parentnode/
 public Node ParentNode { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا كانت هذه المراجعة تتعلق بتغيير تنسيق النمط، فاستخدم[`ParentStyle`](../parentstyle/) بدلا من ذلك.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد نوع المراجعة للعقدة المضمنة.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Node](../../node/)
 * class [Revision](../)
-* مساحة الاسم [Aspose.Words](../../revision/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PaperSize
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Возвращает или устанавливает размер бумаги.
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words для .NET
+description: PageSetup PaperSize свойство. Возвращает или устанавливает размер бумаги на С#.
 type: docs
 weight: 350
 url: /ru/net/aspose.words/pagesetup/papersize/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/pagesetup/papersize/
 public PaperSize PaperSize { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Установка обновлений этого свойства[`PageWidth`](../pagewidth/) и[`PageHeight`](../pageheight/) значения. Установка этого значения наCustom не меняет существующие значения.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить размер бумаги, ориентацию, поля и другие параметры раздела.
 
@@ -129,7 +131,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [PaperSize](../../papersize/)
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

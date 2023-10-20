@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlSchemaCollection yöntem. Belirtilen değeri koleksiyondan kaldırır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: CustomXmlSchemaCollection Remove yöntem. Belirtilen değeri koleksiyondan kaldırır C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.markup/customxmlschemacollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Kaldırılacak büyük/küçük harfe duyarlı değer. |
 
-### Örnekler
+## Örnekler
 
 XML şeması koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Ayrıca bakınız
 
 * class [CustomXmlSchemaCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlschemacollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

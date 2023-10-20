@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportDocumentProperties
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定是否将内置和自定义文档属性导出为 HTMLMHTML 或 EPUB 默认值为错误的.
+linktitle: ExportDocumentProperties
+articleTitle: ExportDocumentProperties
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions ExportDocumentProperties 财产. 指定是否将内置和自定义文档属性导出为 HTMLMHTML 或 EPUB 默认值为错误的 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportdocumentproperties/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/exportdocumentproperties/
 public bool ExportDocumentProperties { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示将文档保存为 .epub 时如何使用特定编码。
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

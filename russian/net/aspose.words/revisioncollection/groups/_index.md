@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.Groups
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionCollection свойство. Коллекция групп редакций.
+linktitle: Groups
+articleTitle: Groups
+second_title: Aspose.Words для .NET
+description: RevisionCollection Groups свойство. Коллекция групп редакций на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/revisioncollection/groups/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/revisioncollection/groups/
 public RevisionGroupCollection Groups { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией редакций документа.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [RevisionGroupCollection](../../revisiongroupcollection/)
 * class [RevisionCollection](../)
-* пространство имен [Aspose.Words](../../revisioncollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

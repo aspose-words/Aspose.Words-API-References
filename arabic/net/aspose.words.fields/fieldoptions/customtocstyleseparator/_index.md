@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.CustomTocStyleSeparator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على فاصل نمط مخصص أو تعيينه للتبديل tFieldToc الحقل.
+linktitle: CustomTocStyleSeparator
+articleTitle: CustomTocStyleSeparator
+second_title: Aspose.Words لـ .NET
+description: FieldOptions CustomTocStyleSeparator ملكية. الحصول على فاصل نمط مخصص أو تعيينه للتبديل tFieldToc الحقل في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
 public string CustomTocStyleSeparator { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 بشكل افتراضي، يتم تحديد الأنماط المخصصة بواسطة رمز التبديل \t في ملف[`FieldToc`](../../fieldtoc/)يتم فصل الحقول بمحدد مأخوذ من الثقافة الحالية. تتجاوز هذه الخاصية هذا السلوك عن طريق تحديد محدد محدد من قبل المستخدم.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج جدول محتويات، وتعبئته بالإدخالات بناءً على أنماط العناوين.
 
@@ -103,7 +105,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### أنظر أيضا
 
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

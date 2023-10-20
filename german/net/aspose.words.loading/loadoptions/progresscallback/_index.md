@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.ProgressCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: LoadOptions eigendom. Wird während des Ladens eines Dokuments aufgerufen und akzeptiert Daten über den Ladefortschritt.
+linktitle: ProgressCallback
+articleTitle: ProgressCallback
+second_title: Aspose.Words für .NET
+description: LoadOptions ProgressCallback eigendom. Wird während des Ladens eines Dokuments aufgerufen und akzeptiert Daten über den Ladefortschritt in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.loading/loadoptions/progresscallback/
@@ -14,11 +16,11 @@ Wird während des Ladens eines Dokuments aufgerufen und akzeptiert Daten über d
 public IDocumentLoadingCallback ProgressCallback { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Docx ,FlatOpc ,Docm ,Dotm ,Dotx ,Markdown ,Rtf ,WordML ,Doc ,Dot ,Odt ,Ott Unterstützte Formate.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Benutzer benachrichtigt wird, wenn das Laden des Dokuments die erwartete Ladezeit überschreitet.
 
@@ -83,7 +85,5 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
 
 * interface [IDocumentLoadingCallback](../../idocumentloadingcallback/)
 * class [LoadOptions](../)
-* namensraum [Aspose.Words.Loading](../../loadoptions/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

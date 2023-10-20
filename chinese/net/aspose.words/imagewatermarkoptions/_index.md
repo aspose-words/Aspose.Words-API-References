@@ -1,7 +1,9 @@
 ---
-title: Class ImageWatermarkOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.ImageWatermarkOptions 班级. 包含为图像添加水印时可以指定的选项
+title: ImageWatermarkOptions Class
+linktitle: ImageWatermarkOptions
+articleTitle: ImageWatermarkOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.ImageWatermarkOptions 班级. 包含为图像添加水印时可以指定的选项 在 C#.
 type: docs
 weight: 3220
 url: /zh/net/aspose.words/imagewatermarkoptions/
@@ -33,5 +35,3 @@ public class ImageWatermarkOptions
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

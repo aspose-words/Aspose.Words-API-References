@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Tables
-second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words.Tables命名空间包含 表示表行单元格及其格式的类
+linktitle: Aspose.Words.Tables
+articleTitle: Aspose.Words.Tables
+second_title: 用于 .NET 的 Aspose.Words
+description: 这Aspose.Words.Tables命名空间包含 表示表行单元格及其格式的类 在 C#.
 type: docs
 weight: 260
 url: /zh/net/aspose.words.tables/
 ---
-这 **Aspose.Words.Tables**命名空间包含 表示表、行、单元格及其格式的类。
+这**Aspose.Words.Tables**命名空间包含 表示表、行、单元格及其格式的类。
 
 ## 课程
 
@@ -32,5 +34,3 @@ url: /zh/net/aspose.words.tables/
 | [TableAlignment](./tablealignment/) | 指定内联表的对齐方式。 |
 | [TableStyleOptions](./tablestyleoptions/) | 指定如何将表格样式应用于表格。 |
 | [TextWrapping](./textwrapping/) | 指定文本如何环绕表格。 |
-
-

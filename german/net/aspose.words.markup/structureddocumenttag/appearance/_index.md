@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Appearance
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Ruft das Erscheinungsbild eines strukturierten DokumentTags ab bzw. legt es fest.
+linktitle: Appearance
+articleTitle: Appearance
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag Appearance eigendom. Ruft das Erscheinungsbild eines strukturierten DokumentTags ab bzw. legt es fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.markup/structureddocumenttag/appearance/
@@ -14,7 +16,7 @@ Ruft das Erscheinungsbild eines strukturierten Dokument-Tags ab bzw. legt es fes
 public SdtAppearance Appearance { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein strukturiertes Dokument-Tag in einem Nur-Text-Feld erstellt und sein Erscheinungsbild ändert.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * enum [SdtAppearance](../../sdtappearance/)
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

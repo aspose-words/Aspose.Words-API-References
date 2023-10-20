@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.ImagesFolder
-second_title: Aspose.Words لمراجع .NET API
-description: XamlFlowSaveOptions ملكية. يحدد المجلد الفعلي حيث يتم حفظ الصور عند تصدير مستند إلى تنسيق XAML. الافتراضي هو سلسلة فارغة.
+linktitle: ImagesFolder
+articleTitle: ImagesFolder
+second_title: Aspose.Words لـ .NET
+description: XamlFlowSaveOptions ImagesFolder ملكية. يحدد المجلد الفعلي حيث يتم حفظ الصور عند تصدير مستند إلى تنسيق XAML. الافتراضي هو سلسلة فارغة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/xamlflowsaveoptions/imagesfolder/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/xamlflowsaveoptions/imagesfolder/
 public string ImagesFolder { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عندما تقوم بحفظ أ[`Document`](../../../aspose.words/document/) بتنسيق XAML، يحتاج Aspose.Words إلى حفظ كافة الصور المضمنة في المستند كملفات مستقلة.`ImagesFolder` يسمح لك بتحديد مكان حفظ الصور و[`ImagesFolderAlias`](../imagesfolderalias/) يسمح بتحديد كيفية إنشاء معرفات URI للصورة.
 
@@ -22,7 +24,7 @@ public string ImagesFolder { get; set; }
 
 إذا قمت بحفظ مستند في دفق، فلن يحتوي Aspose.Words على مجلد لحفظ الصور، ولكنه لا يزال بحاجة إلى حفظ الصور في مكان ما. في هذه الحالة، تحتاج إلى تحديد مجلد يمكن الوصول إليه في ملف`ImagesFolder` الملكية أو تقديم تدفقات مخصصة عبر the[`ImageSavingCallback`](../imagesavingcallback/) معالج الحدث.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة أسماء ملفات الصور المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى شكل تدفق .xaml.
 
@@ -88,7 +90,5 @@ private class ImageUriPrinter : IImageSavingCallback
 ### أنظر أيضا
 
 * class [XamlFlowSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShadowFormat.Type
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShadowFormat eigendom. Ruft das angegebene ab oder legt es festShadowType für ShadowFormat.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words für .NET
+description: ShadowFormat Type eigendom. Ruft das angegebene ab oder legt es festShadowType für ShadowFormat in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/shadowformat/type/
@@ -18,7 +20,5 @@ public ShadowType Type { get; set; }
 
 * enum [ShadowType](../../shadowtype/)
 * class [ShadowFormat](../)
-* namensraum [Aspose.Words.Drawing](../../shadowformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

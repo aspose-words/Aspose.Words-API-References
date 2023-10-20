@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution
-second_title: Aspose.Words för .NET API Referens
-description: MetafileRenderingOptions fast egendom. Hämtar eller ställer in upplösningen i pixlar per tum för emulering av metafilrendering till storleken på sidan.
+linktitle: EmulateRenderingToSizeOnPageResolution
+articleTitle: EmulateRenderingToSizeOnPageResolution
+second_title: Aspose.Words för .NET
+description: MetafileRenderingOptions EmulateRenderingToSizeOnPageResolution fast egendom. Hämtar eller ställer in upplösningen i pixlar per tum för emulering av metafilrendering till storleken på sidan i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/
@@ -14,13 +16,13 @@ Hämtar eller ställer in upplösningen i pixlar per tum för emulering av metaf
 public int EmulateRenderingToSizeOnPageResolution { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Detta alternativ används endast när[`EmulateRenderingToSizeOnPage`](../emulaterenderingtosizeonpage/) är satt till`Sann`.
 
 Standardvärdet är 96. Detta är en standardskärmupplösning. Dvs metafilrendering kommer att emulera visningen av metafilen i MS Word med en 100% zoomfaktor.
 
-### Exempel
+## Exempel
 
 Visar hur man visar metafilen enligt storleken på sidan.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf", saveO
 ### Se även
 
 * class [MetafileRenderingOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

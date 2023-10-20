@@ -1,7 +1,9 @@
 ---
-title: Enum TextEffect
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.TextEffect enumeración. Efecto de animación para ejecuciones de texto.
+title: TextEffect Enum
+linktitle: TextEffect
+articleTitle: TextEffect
+second_title: Aspose.Words para .NET
+description: Aspose.Words.TextEffect enumeración. Efecto de animación para ejecuciones de texto en C#.
 type: docs
 weight: 6420
 url: /es/net/aspose.words/texteffect/
@@ -30,5 +32,3 @@ public enum TextEffect
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

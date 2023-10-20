@@ -1,7 +1,9 @@
 ---
 title: Bookmark.LastColumn
-second_title: Aspose.Words per .NET API Reference
-description: Bookmark proprietà. Ottiene lindice in base zero dellultima colonna dellintervallo di colonne della tabella associato al segnalibro.
+linktitle: LastColumn
+articleTitle: LastColumn
+second_title: Aspose.Words per .NET
+description: Bookmark LastColumn proprietà. Ottiene lindice in base zero dellultima colonna dellintervallo di colonne della tabella associato al segnalibro in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/bookmark/lastcolumn/
@@ -14,11 +16,11 @@ Ottiene l'indice in base zero dell'ultima colonna dell'intervallo di colonne del
 public int LastColumn { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
-Restituisce **-1** se questo segnalibro non è un segnalibro di colonna di tabella.
+Restituisce**-1** se questo segnalibro non è un segnalibro di colonna di tabella.
 
-### Esempi
+## Esempi
 
 Mostra come ottenere informazioni sui segnalibri delle colonne della tabella.
 
@@ -45,7 +47,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### Guarda anche
 
 * class [Bookmark](../)
-* spazio dei nomi [Aspose.Words](../../bookmark/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

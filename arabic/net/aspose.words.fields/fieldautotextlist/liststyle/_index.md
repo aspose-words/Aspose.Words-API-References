@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.ListStyle
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAutoTextList ملكية. الحصول على أو تعيين اسم النمط الذي تعتمد عليه القائمة التي تحتوي على إدخالات.
+linktitle: ListStyle
+articleTitle: ListStyle
+second_title: Aspose.Words لـ .NET
+description: FieldAutoTextList ListStyle ملكية. الحصول على أو تعيين اسم النمط الذي تعتمد عليه القائمة التي تحتوي على إدخالات في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldautotextlist/liststyle/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldautotextlist/liststyle/
 public string ListStyle { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل AUTOTEXTLIST للاختيار من قائمة إدخالات النص التلقائي.
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### أنظر أيضا
 
 * class [FieldAutoTextList](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldautotextlist/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

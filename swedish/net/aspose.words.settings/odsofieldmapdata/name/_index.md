@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Name
-second_title: Aspose.Words för .NET API Referens
-description: OdsoFieldMapData fast egendom. Anger kolumnnamnet inom en extern datakälla för kolumnen vars index anges avColumnproperty. Standardvärdet är en tom sträng.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words för .NET
+description: OdsoFieldMapData Name fast egendom. Anger kolumnnamnet inom en extern datakälla för kolumnen vars index anges avColumnproperty. Standardvärdet är en tom sträng i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.settings/odsofieldmapdata/name/
@@ -14,7 +16,7 @@ Anger kolumnnamnet inom en extern datakälla för kolumnen vars index anges av[`
 public string Name { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får åtkomst till insamlingen av data som mappar datakällans kolumner för att slå samman fält.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Se även
 
 * class [OdsoFieldMapData](../)
-* namnutrymme [Aspose.Words.Settings](../../odsofieldmapdata/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.ShowSpellingErrors
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Especifica si se muestran errores ortográficos en este documento.
+linktitle: ShowSpellingErrors
+articleTitle: ShowSpellingErrors
+second_title: Aspose.Words para .NET
+description: Document ShowSpellingErrors propiedad. Especifica si se muestran errores ortográficos en este documento en C#.
 type: docs
 weight: 400
 url: /es/net/aspose.words/document/showspellingerrors/
@@ -14,7 +16,7 @@ Especifica si se muestran errores ortográficos en este documento.
 public bool ShowSpellingErrors { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo mostrar/ocultar errores en el documento.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.SpellingAndGrammarErrors.docx");
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

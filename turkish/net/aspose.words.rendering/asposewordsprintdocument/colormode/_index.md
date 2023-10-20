@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.ColorMode
-second_title: Aspose.Words for .NET API Referansı
-description: AsposeWordsPrintDocument mülk. Aygıt renkli yazdırmayı destekliyorsa renkli olmayan sayfaların nasıl yazdırılacağını alır veya ayarlar.
+linktitle: ColorMode
+articleTitle: ColorMode
+second_title: Aspose.Words for .NET
+description: AsposeWordsPrintDocument ColorMode mülk. Aygıt renkli yazdırmayı destekliyorsa renkli olmayan sayfaların nasıl yazdırılacağını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.rendering/asposewordsprintdocument/colormode/
@@ -14,11 +16,11 @@ Aygıt renkli yazdırmayı destekliyorsa, renkli olmayan sayfaların nasıl yazd
 public ColorPrintMode ColorMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Kitapçık yazdırmayı etkilemez.
 
-### Örnekler
+## Örnekler
 
 Belgenin yazdırılacağı sayfa aralığının ve yazıcının nasıl seçileceğini ve ardından bir baskı önizlemesinin nasıl açılacağını gösterir.
 
@@ -68,7 +70,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 
 * enum [ColorPrintMode](../../colorprintmode/)
 * class [AsposeWordsPrintDocument](../)
-* ad alanı [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

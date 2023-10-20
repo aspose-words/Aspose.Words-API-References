@@ -1,7 +1,9 @@
 ---
 title: FontInfo.GetEmbeddedFont
-second_title: Справочник по API Aspose.Words для .NET
-description: FontInfo метод. Получает определенный файл встроенного шрифта.
+linktitle: GetEmbeddedFont
+articleTitle: GetEmbeddedFont
+second_title: Aspose.Words для .NET
+description: FontInfo GetEmbeddedFont метод. Получает определенный файл встроенного шрифта на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fonts/fontinfo/getembeddedfont/
@@ -23,7 +25,7 @@ public byte[] GetEmbeddedFont(EmbeddedFontFormat format, EmbeddedFontStyle style
 
 Возврат`нулевой`если указанный шрифт не встроен.
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь встроенный шрифт из документа и сохранить его в локальной файловой системе.
 
@@ -52,7 +54,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 * enum [EmbeddedFontFormat](../../embeddedfontformat/)
 * enum [EmbeddedFontStyle](../../embeddedfontstyle/)
 * class [FontInfo](../)
-* пространство имен [Aspose.Words.Fonts](../../fontinfo/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

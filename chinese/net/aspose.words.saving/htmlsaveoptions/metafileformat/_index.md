@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.MetafileFormat
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定导出为 HTMLMHTML 或 EPUB 时保存图元文件的格式 默认值为Png这意味着图元文件被渲染为光栅 PNG 图像
+linktitle: MetafileFormat
+articleTitle: MetafileFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions MetafileFormat 财产. 指定导出为 HTMLMHTML 或 EPUB 时保存图元文件的格式 默认值为Png这意味着图元文件被渲染为光栅 PNG 图像 在 C#.
 type: docs
 weight: 380
 url: /zh/net/aspose.words.saving/htmlsaveoptions/metafileformat/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/metafileformat/
 public HtmlMetafileFormat MetafileFormat { get; set; }
 ```
 
-### 评论
+## 评论
 
 HTML 浏览器本身并不显示图元文件。默认情况下，Aspose.Words 在导出为 HTML 时将 WMF 和 EMF 图像转换为 PNG 文件。其他选项是将图元文件转换为 SVG 图像或按原样导出 它们而不进行转换。
 
 如果将元文件图像 导出为 HTML 而不进行转换，则某些图像转换（特别是图像裁剪）将不会应用于图元文件图像。
 
-### 例子
+## 例子
 
 演示如何在保存 HTML 文档时将 SVG 对象转换为其他格式。
 
@@ -82,7 +84,5 @@ switch (htmlMetafileFormat)
 * property [ScaleImageToShapeSize](../scaleimagetoshapesize/)
 * enum [HtmlMetafileFormat](../../htmlmetafileformat/)
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

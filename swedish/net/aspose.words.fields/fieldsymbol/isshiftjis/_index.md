@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.IsShiftJis
-second_title: Aspose.Words för .NET API Referens
-description: FieldSymbol fast egendom. Hämtar eller ställer in om teckenkoden ska tolkas som värdet av ett SHIFTJIStecken.
+linktitle: IsShiftJis
+articleTitle: IsShiftJis
+second_title: Aspose.Words för .NET
+description: FieldSymbol IsShiftJis fast egendom. Hämtar eller ställer in om teckenkoden ska tolkas som värdet av ett SHIFTJIStecken i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/fieldsymbol/isshiftjis/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om teckenkoden ska tolkas som värdet av ett SHIFT-JIS
 public bool IsShiftJis { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder SYMBOL-fältet.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Se även
 
 * class [FieldSymbol](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldsymbol/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

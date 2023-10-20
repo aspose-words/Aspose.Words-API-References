@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Keywords
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Hämtar eller ställer in dokumentets nyckelord.
+linktitle: Keywords
+articleTitle: Keywords
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties Keywords fast egendom. Hämtar eller ställer in dokumentets nyckelord i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.properties/builtindocumentproperties/keywords/
@@ -14,7 +16,7 @@ Hämtar eller ställer in dokumentets nyckelord.
 public string Keywords { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med inbyggda dokumentegenskaper i kategorin "Beskrivning".
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ShadowType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.ShadowType uppräkning. Anger typen av en formskugga.
+title: ShadowType Enum
+linktitle: ShadowType
+articleTitle: ShadowType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.ShadowType uppräkning. Anger typen av en formskugga i C#.
 type: docs
 weight: 1240
 url: /sv/net/aspose.words.drawing/shadowtype/
@@ -63,11 +65,11 @@ public enum ShadowType
 | Shadow8 | `8` | Åttonde skuggtyp. |
 | Shadow9 | `9` | Nionde skuggtyp. |
 
-### Anmärkningar
+## Anmärkningar
 
 ShadowType är inte ett enkelt attribut, utan en förinställning som ställer in flera attribut samtidigt som bildar skuggans utseende.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en skuggformatering för formen.
 
@@ -86,5 +88,3 @@ if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
 
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

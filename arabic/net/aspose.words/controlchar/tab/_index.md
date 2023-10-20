@@ -1,7 +1,9 @@
 ---
 title: ControlChar.Tab
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. حرف علامة التبويب x0009 أو t.
+linktitle: Tab
+articleTitle: Tab
+second_title: Aspose.Words لـ .NET
+description: ControlChar Tab مجال. حرف علامة التبويب x0009 أو t في C#.
 type: docs
 weight: 270
 url: /ar/net/aspose.words/controlchar/tab/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/controlchar/tab/
 public static readonly string Tab;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين فاصل زمني مخصص لمواضع علامات الجدولة.
 
@@ -33,7 +35,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

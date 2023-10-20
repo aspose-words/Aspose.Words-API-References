@@ -1,7 +1,9 @@
 ---
 title: FieldTC.TypeIdentifier
-second_title: Aspose.Words for .NET API 参考
-description: FieldTC 财产. 获取或设置此字段的类型标识符通常是字母
+linktitle: TypeIdentifier
+articleTitle: TypeIdentifier
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldTC TypeIdentifier 财产. 获取或设置此字段的类型标识符通常是字母 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldtc/typeidentifier/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldtc/typeidentifier/
 public string TypeIdentifier { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何插入 TOC 字段，以及过滤哪些 TC 字段最终作为条目。
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### 也可以看看
 
 * class [FieldTC](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldtc/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

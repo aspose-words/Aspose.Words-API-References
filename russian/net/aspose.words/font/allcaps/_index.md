@@ -1,7 +1,9 @@
 ---
 title: Font.AllCaps
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. True если шрифт отформатирован как заглавные буквы.
+linktitle: AllCaps
+articleTitle: AllCaps
+second_title: Aspose.Words для .NET
+description: Font AllCaps свойство. True если шрифт отформатирован как заглавные буквы на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/font/allcaps/
@@ -14,7 +16,7 @@ True, если шрифт отформатирован как заглавные
 public bool AllCaps { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как отформатировать прогон для отображения его содержимого заглавными буквами.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Font.Caps.docx");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

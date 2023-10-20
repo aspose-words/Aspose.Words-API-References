@@ -1,7 +1,9 @@
 ---
-title: Enum JustificationMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Settings.JustificationMode énumération. Spécifie lajustement de lespacement des caractères pour un document. La valeur par défaut estDévelopper .
+title: JustificationMode Enum
+linktitle: JustificationMode
+articleTitle: JustificationMode
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Settings.JustificationMode énumération. Spécifie lajustement de lespacement des caractères pour un document. La valeur par défaut estDévelopper  en C#.
 type: docs
 weight: 5800
 url: /fr/net/aspose.words.settings/justificationmode/
@@ -22,7 +24,7 @@ public enum JustificationMode
 | Compress | `1` |  |
 | CompressKana | `2` |  |
 
-### Exemples
+## Exemples
 
 Montre comment gérer le contrôle de l’espacement des caractères.
 
@@ -40,5 +42,3 @@ doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");
 
 * espace de noms [Aspose.Words.Settings](../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../)
-
-

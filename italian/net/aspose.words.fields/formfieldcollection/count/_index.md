@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Count
-second_title: Aspose.Words per .NET API Reference
-description: FormFieldCollection proprietà. Restituisce il numero di campi modulo nella raccolta.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: FormFieldCollection Count proprietà. Restituisce il numero di campi modulo nella raccolta in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/formfieldcollection/count/
@@ -14,7 +16,7 @@ Restituisce il numero di campi modulo nella raccolta.
 public int Count { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [FormFieldCollection](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfieldcollection/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

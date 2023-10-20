@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.LoadNotoFallbackSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: FontFallbackSettings метод. Загружает предопределенные резервные настройки в которых используются шрифты Google Noto.
+linktitle: LoadNotoFallbackSettings
+articleTitle: LoadNotoFallbackSettings
+second_title: Aspose.Words для .NET
+description: FontFallbackSettings LoadNotoFallbackSettings метод. Загружает предопределенные резервные настройки в которых используются шрифты Google Noto на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/
 public void LoadNotoFallbackSettings()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить предопределенные настройки резервного шрифта для шрифтов Google Noto.
 
@@ -65,7 +67,5 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNoto
 ### Смотрите также
 
 * class [FontFallbackSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

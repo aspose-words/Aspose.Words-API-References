@@ -1,7 +1,9 @@
 ---
 title: IImageSavingCallback.ImageSaving
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IImageSavingCallback méthode. Appelé lorsque Aspose.Words enregistre une image au format HTML.
+linktitle: ImageSaving
+articleTitle: ImageSaving
+second_title: Aspose.Words pour .NET
+description: IImageSavingCallback ImageSaving méthode. Appelé lorsque Aspose.Words enregistre une image au format HTML en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/iimagesavingcallback/imagesaving/
@@ -14,7 +16,7 @@ Appelé lorsque Aspose.Words enregistre une image au format HTML.
 public void ImageSaving(ImageSavingArgs args)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment diviser un document en parties et les enregistrer.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [ImageSavingArgs](../../imagesavingargs/)
 * interface [IImageSavingCallback](../)
-* espace de noms [Aspose.Words.Saving](../../iimagesavingcallback/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.MappedName
-second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoFieldMapData propiedad. Especifica el nombre del campo de combinación predefinido que se asignará al número de columna especificado porColumn propiedad dentro de esta asignación de campos. El valor predeterminado es una cadena vacía.
+linktitle: MappedName
+articleTitle: MappedName
+second_title: Aspose.Words para .NET
+description: OdsoFieldMapData MappedName propiedad. Especifica el nombre del campo de combinación predefinido que se asignará al número de columna especificado porColumn propiedad dentro de esta asignación de campos. El valor predeterminado es una cadena vacía en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.settings/odsofieldmapdata/mappedname/
@@ -14,7 +16,7 @@ Especifica el nombre del campo de combinación predefinido que se asignará al n
 public string MappedName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que asigna columnas de origen de datos para fusionar campos.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ver también
 
 * class [OdsoFieldMapData](../)
-* espacio de nombres [Aspose.Words.Settings](../../odsofieldmapdata/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

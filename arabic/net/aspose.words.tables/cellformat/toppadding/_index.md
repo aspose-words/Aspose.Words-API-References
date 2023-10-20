@@ -1,9 +1,11 @@
 ---
 title: CellFormat.TopPadding
-second_title: Aspose.Words لمراجع .NET API
-description: CellFormat ملكية. إرجاع أو تعيين مقدار المسافة بالنقاط المراد إضافتها فوق محتويات الخلية.
+linktitle: TopPadding
+articleTitle: TopPadding
+second_title: Aspose.Words لـ .NET
+description: CellFormat TopPadding ملكية. إرجاع أو تعيين مقدار المسافة بالنقاط المراد إضافتها فوق محتويات الخلية في C#.
 type: docs
-weight: 110
+weight: 100
 url: /ar/net/aspose.words.tables/cellformat/toppadding/
 ---
 ## CellFormat.TopPadding property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cellformat/toppadding/
 public double TopPadding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق الخلايا باستخدام أداة إنشاء المستندات.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### أنظر أيضا
 
 * class [CellFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cellformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

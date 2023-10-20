@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Clear
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomXmlSchemaCollection methode. Entfernt alle Elemente aus der Sammlung.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words für .NET
+description: CustomXmlSchemaCollection Clear methode. Entfernt alle Elemente aus der Sammlung in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.markup/customxmlschemacollection/clear/
@@ -14,7 +16,7 @@ Entfernt alle Elemente aus der Sammlung.
 public void Clear()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einer XML-Schemasammlung gearbeitet wird.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Siehe auch
 
 * class [CustomXmlSchemaCollection](../)
-* namensraum [Aspose.Words.Markup](../../customxmlschemacollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

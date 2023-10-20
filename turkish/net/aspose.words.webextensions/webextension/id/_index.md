@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Id
-second_title: Aspose.Words for .NET API Referansı
-description: WebExtension mülk. Geçerli belgedeki web uzantısı örneğini benzersiz şekilde tanımlar.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words for .NET
+description: WebExtension Id mülk. Geçerli belgedeki web uzantısı örneğini benzersiz şekilde tanımlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.webextensions/webextension/id/
@@ -17,7 +19,5 @@ public string Id { get; set; }
 ### Ayrıca bakınız
 
 * class [WebExtension](../)
-* ad alanı [Aspose.Words.WebExtensions](../../webextension/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

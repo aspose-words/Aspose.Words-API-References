@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCleanupOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.MailMerging.MailMergeCleanupOptions enum. Specifica le opzioni che determinano quali elementi vengono rimossi durante la stampa unione.
+title: MailMergeCleanupOptions Enum
+linktitle: MailMergeCleanupOptions
+articleTitle: MailMergeCleanupOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.MailMerging.MailMergeCleanupOptions enum. Specifica le opzioni che determinano quali elementi vengono rimossi durante la stampa unione in C#.
 type: docs
 weight: 3850
 url: /it/net/aspose.words.mailmerging/mailmergecleanupoptions/
@@ -27,7 +29,7 @@ public enum MailMergeCleanupOptions
 | RemoveStaticFields | `10` | Specifica se i campi statici devono essere rimossi dal documento. I campi statici sono campi i cui risultati rimangono gli stessi dopo qualsiasi modifica del documento. I campi che non memorizzano i risultati in un document e vengono calcolati al volo (comeFieldListNum , FieldSymbol , ecc.) non sono considerati statici. |
 | RemoveEmptyTableRows | `20` | Specifica se le righe vuote che contengono aree di stampa unione devono essere rimosse dal documento. |
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere i paragrafi vuoti che una stampa unione può creare dal documento di output dell'unione.
 
@@ -100,5 +102,3 @@ else
 
 * spazio dei nomi [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../)
-
-

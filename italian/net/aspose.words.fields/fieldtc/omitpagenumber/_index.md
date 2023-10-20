@@ -1,7 +1,9 @@
 ---
 title: FieldTC.OmitPageNumber
-second_title: Aspose.Words per .NET API Reference
-description: FieldTC proprietà. Ottiene o imposta se il numero di pagina nel sommario deve essere omesso per questo campo.
+linktitle: OmitPageNumber
+articleTitle: OmitPageNumber
+second_title: Aspose.Words per .NET
+description: FieldTC OmitPageNumber proprietà. Ottiene o imposta se il numero di pagina nel sommario deve essere omesso per questo campo in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldtc/omitpagenumber/
@@ -14,7 +16,7 @@ Ottiene o imposta se il numero di pagina nel sommario deve essere omesso per que
 public bool OmitPageNumber { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo TOC e filtrare quali campi TC finiscono come voci.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Guarda anche
 
 * class [FieldTC](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtc/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormFieldCollection propriété. Renvoie un champ de formulaire à lindex spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: FormFieldCollection Item propriété. Renvoie un champ de formulaire à lindex spécifié en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/formfieldcollection/item/
@@ -18,7 +20,7 @@ public FormField this[int index] { get; }
 | --- | --- |
 | index | Un index dans la collection. |
 
-### Remarques
+## Remarques
 
 L'indice est de base zéro.
 
@@ -28,7 +30,7 @@ Si l'index est supérieur ou égal au nombre d'éléments de la liste, cela renv
 
 Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
 
-### Exemples
+## Exemples
 
 Montre comment insérer différents types de champs de formulaire dans un document et les traiter à l'aide d'une implémentation de visiteur de document.
 
@@ -163,7 +165,7 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormField](../../formfield/)
 * class [FormFieldCollection](../)
-* espace de noms [Aspose.Words.Fields](../../formfieldcollection/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -180,11 +182,11 @@ public FormField this[string bookmarkName] { get; }
 | --- | --- |
 | bookmarkName | Nom du signet qui ne respecte pas la casse. |
 
-### Remarques
+## Remarques
 
 Retours`nul` si le champ de formulaire avec le nom du signet spécifié est introuvable.
 
-### Exemples
+## Exemples
 
 Montre comment insérer différents types de champs de formulaire dans un document et les traiter à l'aide d'une implémentation de visiteur de document.
 
@@ -319,7 +321,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormField](../../formfield/)
 * class [FormFieldCollection](../)
-* espace de noms [Aspose.Words.Fields](../../formfieldcollection/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

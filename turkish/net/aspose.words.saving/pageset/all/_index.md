@@ -1,7 +1,9 @@
 ---
 title: PageSet.All
-second_title: Aspose.Words for .NET API Referansı
-description: PageSet mülk. Belgenin tüm sayfalarını orijinal sıralarında içeren bir set alır.
+linktitle: All
+articleTitle: All
+second_title: Aspose.Words for .NET
+description: PageSet All mülk. Belgenin tüm sayfalarını orijinal sıralarında içeren bir set alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/pageset/all/
@@ -17,7 +19,5 @@ public static PageSet All { get; }
 ### Ayrıca bakınız
 
 * class [PageSet](../)
-* ad alanı [Aspose.Words.Saving](../../pageset/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

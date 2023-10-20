@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitGlossaryDocumentStart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsque lénumération dun document glossaire a commencé.
+linktitle: VisitGlossaryDocumentStart
+articleTitle: VisitGlossaryDocumentStart
+second_title: Aspose.Words pour .NET
+description: DocumentVisitor VisitGlossaryDocumentStart méthode. Appelé lorsque lénumération dun document glossaire a commencé en C#.
 type: docs
 weight: 250
 url: /fr/net/aspose.words/documentvisitor/visitglossarydocumentstart/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitGlossaryDocumentStart(GlossaryDocument glossar
 
 UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
-### Remarques
+## Remarques
 
 Remarque : Un nœud de document de glossaire et ses enfants ne sont pas visités lorsque vous exécutez a Visitor sur un[`Document`](../../document/) . Si vous souhaitez exécuter un Visiteur sur un document glossaire , vous devez appeler[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
 
-### Exemples
+## Exemples
 
 Montre les moyens d'accéder aux blocs de construction dans un document glossaire.
 
@@ -132,7 +134,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)
 * class [DocumentVisitor](../)
-* espace de noms [Aspose.Words](../../documentvisitor/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

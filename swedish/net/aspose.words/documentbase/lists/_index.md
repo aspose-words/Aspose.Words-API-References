@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Lists
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBase fast egendom. Ger tillgång till listformateringen som används i dokumentet.
+linktitle: Lists
+articleTitle: Lists
+second_title: Aspose.Words för .NET
+description: DocumentBase Lists fast egendom. Ger tillgång till listformateringen som används i dokumentet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/documentbase/lists/
@@ -14,11 +16,11 @@ Ger tillgång till listformateringen som används i dokumentet.
 public ListCollection Lists { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För mer information se beskrivningen av[`ListCollection`](../../../aspose.words.lists/listcollection/) klass.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med listnivåer.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * class [ListCollection](../../../aspose.words.lists/listcollection/)
 * class [DocumentBase](../)
-* namnutrymme [Aspose.Words](../../documentbase/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldUserName.UserName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldUserName ملكية. قم بإيماء أو تعيين اسم المستخدم الحالي.
+linktitle: UserName
+articleTitle: UserName
+second_title: Aspose.Words لـ .NET
+description: FieldUserName UserName ملكية. قم بإيماء أو تعيين اسم المستخدم الحالي في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldusername/username/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldusername/username/
 public string UserName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل USERNAME.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Field.USERNAME.docx");
 ### أنظر أيضا
 
 * class [FieldUserName](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldusername/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

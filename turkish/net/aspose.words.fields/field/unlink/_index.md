@@ -1,7 +1,9 @@
 ---
 title: Field.Unlink
-second_title: Aspose.Words for .NET API Referansı
-description: Field yöntem. Alanın bağlantısını kaldırır.
+linktitle: Unlink
+articleTitle: Unlink
+second_title: Aspose.Words for .NET
+description: Field Unlink yöntem. Alanın bağlantısını kaldırır C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.fields/field/unlink/
@@ -18,13 +20,13 @@ public bool Unlink()
 
 `doğru` alanın bağlantısı kaldırılmışsa, aksi halde`YANLIŞ` .
 
-### Notlar
+## Notlar
 
 Alanı en son sonucuyla değiştirir.
 
 XE (Dizin Girişi) alanları ve SEQ (Sıra) alanları gibi bazı alanların bağlantısı kaldırılamaz.
 
-### Örnekler
+## Örnekler
 
 Bir alanın bağlantısının nasıl kaldırılacağını gösterir.
 
@@ -36,7 +38,5 @@ doc.Range.Fields[1].Unlink();
 ### Ayrıca bakınız
 
 * class [Field](../)
-* ad alanı [Aspose.Words.Fields](../../field/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

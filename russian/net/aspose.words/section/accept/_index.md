@@ -1,7 +1,9 @@
 ---
 title: Section.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: Section метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: Section Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/section/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../documentvisitor/) остановил операцию перед посещением всех узлов.
 
-### Примечания
+## Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../documentvisitor/).
 
@@ -34,7 +36,5 @@ public override bool Accept(DocumentVisitor visitor)
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Section](../)
-* пространство имен [Aspose.Words](../../section/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

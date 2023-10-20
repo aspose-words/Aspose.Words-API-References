@@ -1,7 +1,9 @@
 ---
 title: Odso.ColumnDelimiter
-second_title: Aspose.Words for .NET API 参考
-description: Odso 财产. 指定应解释为用于分隔外部数据源中的列的列分隔符的字符 默认值为 0这意味着没有定义列分隔符
+linktitle: ColumnDelimiter
+articleTitle: ColumnDelimiter
+second_title: 用于 .NET 的 Aspose.Words
+description: Odso ColumnDelimiter 财产. 指定应解释为用于分隔外部数据源中的列的列分隔符的字符 默认值为 0这意味着没有定义列分隔符 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.settings/odso/columndelimiter/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.settings/odso/columndelimiter/
 public char ColumnDelimiter { get; set; }
 ```
 
-### 评论
+## 评论
 
 RK 我从未见过它被使用过。
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### 也可以看看
 
 * class [Odso](../)
-* 命名空间 [Aspose.Words.Settings](../../odso/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Contains
-second_title: Aspose.Words لمراجع .NET API
-description: VariableCollection طريقة. تحديد ما إذا كانت المجموعة تحتوي على متغير مستند بالاسم المحدد.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words لـ .NET
+description: VariableCollection Contains طريقة. تحديد ما إذا كانت المجموعة تحتوي على متغير مستند بالاسم المحدد في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/variablecollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `حقيقي` إذا تم العثور على العنصر في المجموعة؛ خلاف ذلك،`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة متغيرات المستند.
 
@@ -89,7 +91,5 @@ Assert.That(variables, Is.Empty);
 ### أنظر أيضا
 
 * class [VariableCollection](../)
-* مساحة الاسم [Aspose.Words](../../variablecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

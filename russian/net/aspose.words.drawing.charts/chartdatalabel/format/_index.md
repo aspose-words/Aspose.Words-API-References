@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Format
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabel свойство. Предоставляет доступ к заполнению и форматированию строк метки данных.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words для .NET
+description: ChartDataLabel Format свойство. Предоставляет доступ к заполнению и форматированию строк метки данных на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/format/
@@ -18,7 +20,5 @@ public ChartFormat Format { get; }
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataLabel](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

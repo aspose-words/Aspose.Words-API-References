@@ -1,7 +1,9 @@
 ---
 title: Field.IsLocked
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Field propriété. Obtient ou définit si le champ est verrouillé ne doit pas recalculer son résultat.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words pour .NET
+description: Field IsLocked propriété. Obtient ou définit si le champ est verrouillé ne doit pas recalculer son résultat en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/field/islocked/
@@ -14,7 +16,7 @@ Obtient ou définit si le champ est verrouillé (ne doit pas recalculer son rés
 public bool IsLocked { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec un nœud FieldStart.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Voir également
 
 * class [Field](../)
-* espace de noms [Aspose.Words.Fields](../../field/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

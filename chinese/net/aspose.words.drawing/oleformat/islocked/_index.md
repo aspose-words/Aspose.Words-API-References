@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IsLocked
-second_title: Aspose.Words for .NET API 参考
-description: OleFormat 财产. 指定是否锁定 OLE 对象的链接以防止更新
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: 用于 .NET 的 Aspose.Words
+description: OleFormat IsLocked 财产. 指定是否锁定 OLE 对象的链接以防止更新 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing/oleformat/islocked/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/oleformat/islocked/
 public bool IsLocked { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`。
 
-### 例子
+## 例子
 
 演示如何将嵌入的 OLE 对象提取到文件中。
 
@@ -53,7 +55,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### 也可以看看
 
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

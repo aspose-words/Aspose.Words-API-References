@@ -1,7 +1,9 @@
 ---
-title: Enum FlipOrientation
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.FlipOrientation تعداد. القيم المحتملة لاتجاه الشكل.
+title: FlipOrientation Enum
+linktitle: FlipOrientation
+articleTitle: FlipOrientation
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.FlipOrientation تعداد. القيم المحتملة لاتجاه الشكل في C#.
 type: docs
 weight: 970
 url: /ar/net/aspose.words.drawing/fliporientation/
@@ -24,7 +26,7 @@ public enum FlipOrientation
 | Vertical | `2` | اقلب على طول المحور x، مع عكس إحداثيات y. |
 | Both | `3` | اقلب على طول المحورين y وx. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قلب الشكل على المحور.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");
 * property [FlipOrientation](../shapebase/fliporientation/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

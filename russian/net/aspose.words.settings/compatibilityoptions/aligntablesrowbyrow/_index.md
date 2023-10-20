@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.AlignTablesRowByRow
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Независимое выравнивание строк таблицы.
+linktitle: AlignTablesRowByRow
+articleTitle: AlignTablesRowByRow
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions AlignTablesRowByRow свойство. Независимое выравнивание строк таблицы на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.settings/compatibilityoptions/aligntablesrowbyrow/
@@ -17,7 +19,5 @@ public bool AlignTablesRowByRow { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

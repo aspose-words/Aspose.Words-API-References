@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. متىحقيقي SpaceBefore وSpaceAfter سيتم تجاهل بين الفقرات ذات نفس النمط.
+linktitle: NoSpaceBetweenParagraphsOfSameStyle
+articleTitle: NoSpaceBetweenParagraphsOfSameStyle
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat NoSpaceBetweenParagraphsOfSameStyle ملكية. متىحقيقي SpaceBefore وSpaceAfter سيتم تجاهل بين الفقرات ذات نفس النمط في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يسري هذا الإعداد إلا عند تطبيقه على نمط الفقرة. إذا تم تطبيقه على فقرة مباشرة، فلن يكون له أي تأثير.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق عدم وجود مسافات بين الفقرات بنفس النمط.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.DocumentPartSavingCallback
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 允许控制将文档保存为 HTML 或 EPUB 时如何保存文档部分
+linktitle: DocumentPartSavingCallback
+articleTitle: DocumentPartSavingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions DocumentPartSavingCallback 财产. 允许控制将文档保存为 HTML 或 EPUB 时如何保存文档部分 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/
 public IDocumentPartSavingCallback DocumentPartSavingCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将文档拆分为多个部分并保存它们。
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * interface [IDocumentPartSavingCallback](../../idocumentpartsavingcallback/)
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

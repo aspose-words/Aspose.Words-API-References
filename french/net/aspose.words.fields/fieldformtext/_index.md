@@ -1,7 +1,9 @@
 ---
-title: Class FieldFormText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldFormText classe. Implémente le champ FORMTEXT.
+title: FieldFormText Class
+linktitle: FieldFormText
+articleTitle: FieldFormText
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldFormText classe. Implémente le champ FORMTEXT en C#.
 type: docs
 weight: 1930
 url: /fr/net/aspose.words.fields/fieldformtext/
@@ -42,17 +44,17 @@ public class FieldFormText : Field
 | Nom | La description |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
-### Remarques
+## Remarques
 
 Insère un champ de formulaire de style zone de texte.
 
-### Exemples
+## Exemples
 
 Montre comment traiter les champs FORMCHECKBOX, FORMDROPDOWN et FORMTEXT.
 
@@ -76,5 +78,3 @@ Assert.AreEqual(" FORMTEXT \u0001", fieldFormText.GetFieldCode());
 * class [Field](../field/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Document
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSavingArgs eigendom. Ruft das Dokumentobjekt ab das gespeichert wird.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words für .NET
+description: FontSavingArgs Document eigendom. Ruft das Dokumentobjekt ab das gespeichert wird in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/fontsavingargs/document/
@@ -14,7 +16,7 @@ Ruft das Dokumentobjekt ab, das gespeichert wird.
 public Document Document { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [FontSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../fontsavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

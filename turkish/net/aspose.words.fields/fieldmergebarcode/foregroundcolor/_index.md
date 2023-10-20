@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.ForegroundColor
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeBarcode mülk. Barkod sembolünün ön plan rengini alır veya ayarlar. Geçerli değerler 0 0xFFFFFF aralığındadır
+linktitle: ForegroundColor
+articleTitle: ForegroundColor
+second_title: Aspose.Words for .NET
+description: FieldMergeBarcode ForegroundColor mülk. Barkod sembolünün ön plan rengini alır veya ayarlar. Geçerli değerler 0 0xFFFFFF aralığındadır C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/fieldmergebarcode/foregroundcolor/
@@ -14,7 +16,7 @@ Barkod sembolünün ön plan rengini alır veya ayarlar. Geçerli değerler [0, 
 public string ForegroundColor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 QR barkodlarında adres-mektup birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Ayrıca bakınız
 
 * class [FieldMergeBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmergebarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

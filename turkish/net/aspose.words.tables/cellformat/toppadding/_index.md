@@ -1,9 +1,11 @@
 ---
 title: CellFormat.TopPadding
-second_title: Aspose.Words for .NET API Referansı
-description: CellFormat mülk. Hücre içeriğinin üzerine eklenecek alan miktarını nokta cinsinden döndürür veya ayarlar.
+linktitle: TopPadding
+articleTitle: TopPadding
+second_title: Aspose.Words for .NET
+description: CellFormat TopPadding mülk. Hücre içeriğinin üzerine eklenecek alan miktarını nokta cinsinden döndürür veya ayarlar C#'da.
 type: docs
-weight: 110
+weight: 100
 url: /tr/net/aspose.words.tables/cellformat/toppadding/
 ---
 ## CellFormat.TopPadding property
@@ -14,7 +16,7 @@ Hücre içeriğinin üzerine eklenecek alan miktarını (nokta cinsinden) dönd�
 public double TopPadding { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucuyla hücrelerin nasıl biçimlendirileceğini gösterir.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Ayrıca bakınız
 
 * class [CellFormat](../)
-* ad alanı [Aspose.Words.Tables](../../cellformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

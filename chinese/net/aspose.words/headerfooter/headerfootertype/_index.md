@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.HeaderFooterType
-second_title: Aspose.Words for .NET API 参考
-description: HeaderFooter 财产. 获取此页眉/页脚的类型
+linktitle: HeaderFooterType
+articleTitle: HeaderFooterType
+second_title: 用于 .NET 的 Aspose.Words
+description: HeaderFooter HeaderFooterType 财产. 获取此页眉/页脚的类型 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/headerfooter/headerfootertype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/headerfooter/headerfootertype/
 public HeaderFooterType HeaderFooterType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建页眉和页脚。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooter](../)
-* 命名空间 [Aspose.Words](../../headerfooter/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

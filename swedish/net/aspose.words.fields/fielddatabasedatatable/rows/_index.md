@@ -1,7 +1,9 @@
 ---
 title: FieldDatabaseDataTable.Rows
-second_title: Aspose.Words för .NET API Referens
-description: FieldDatabaseDataTable fast egendom. Hämtar rader som hör till den här tabellen.
+linktitle: Rows
+articleTitle: Rows
+second_title: Aspose.Words för .NET
+description: FieldDatabaseDataTable Rows fast egendom. Hämtar rader som hör till den här tabellen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fielddatabasedatatable/rows/
@@ -18,7 +20,5 @@ public IList<FieldDatabaseDataRow> Rows { get; }
 
 * class [FieldDatabaseDataRow](../../fielddatabasedatarow/)
 * class [FieldDatabaseDataTable](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddatabasedatatable/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

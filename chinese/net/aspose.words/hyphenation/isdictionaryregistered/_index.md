@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.IsDictionaryRegistered
-second_title: Aspose.Words for .NET API 参考
-description: Hyphenation 方法. 返回错误的如果对于指定的语言没有注册词典或者如果注册的是空词典真的否则.
+linktitle: IsDictionaryRegistered
+articleTitle: IsDictionaryRegistered
+second_title: 用于 .NET 的 Aspose.Words
+description: Hyphenation IsDictionaryRegistered 方法. 返回错误的如果对于指定的语言没有注册词典或者如果注册的是空词典真的否则 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/hyphenation/isdictionaryregistered/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/hyphenation/isdictionaryregistered/
 public static bool IsDictionaryRegistered(string language)
 ```
 
-### 例子
+## 例子
 
 展示如何注册连字符字典。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### 也可以看看
 
 * class [Hyphenation](../)
-* 命名空间 [Aspose.Words](../../hyphenation/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

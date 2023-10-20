@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.ErrorCorrectionLevel
-second_title: Aspose.Words for .NET API 参考
-description: FieldMergeBarcode 财产. 获取或设置QR码的纠错级别有效值为 0 3.
+linktitle: ErrorCorrectionLevel
+articleTitle: ErrorCorrectionLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMergeBarcode ErrorCorrectionLevel 财产. 获取或设置QR码的纠错级别有效值为 0 3 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/
 public string ErrorCorrectionLevel { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何对 QR 条形码执行邮件合并。
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### 也可以看看
 
 * class [FieldMergeBarcode](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldmergebarcode/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Border.TintAndShade
-second_title: Aspose.Words لمراجع .NET API
-description: Border ملكية. الحصول على أو تعيين قيمة مزدوجة تعمل على تفتيح اللون أو تغميقه.
+linktitle: TintAndShade
+articleTitle: TintAndShade
+second_title: Aspose.Words لـ .NET
+description: Border TintAndShade ملكية. الحصول على أو تعيين قيمة مزدوجة تعمل على تفتيح اللون أو تغميقه في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/border/tintandshade/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/border/tintandshade/
 public double TintAndShade { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تتراوح القيم المسموح بها من -1 (الأغمق) إلى 1 (الأفتح) لهذه الخاصية. الصفر (0) محايد. محاولة تعيين هذه الخاصية إلى قيمة أقل من -1 أو أكثر من 1 تؤدي إلىArgumentOutOfRangeException.
 
 يؤدي تعيين هذه الخاصية للكائن الحدودي الذي يحتوي على ألوان غير موضوعية إلى حدوث ذلكInvalidOperationException.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج فقرة ذات حد علوي.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 ### أنظر أيضا
 
 * class [Border](../)
-* مساحة الاسم [Aspose.Words](../../border/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

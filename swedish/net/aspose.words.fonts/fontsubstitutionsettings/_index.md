@@ -1,7 +1,9 @@
 ---
-title: Class FontSubstitutionSettings
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.FontSubstitutionSettings klass. Anger inställningar för teckensnittsersättningsmekanism.
+title: FontSubstitutionSettings Class
+linktitle: FontSubstitutionSettings
+articleTitle: FontSubstitutionSettings
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.FontSubstitutionSettings klass. Anger inställningar för teckensnittsersättningsmekanism i C#.
 type: docs
 weight: 3010
 url: /sv/net/aspose.words.fonts/fontsubstitutionsettings/
@@ -26,7 +28,7 @@ public class FontSubstitutionSettings
 | [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/) { get; } | Inställningar relaterade till regel för teckensnittsnamnsersättning. |
 | [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/) { get; } | Inställningar relaterade till regel för tabellersättning. |
 
-### Anmärkningar
+## Anmärkningar
 
 Teckensnittsersättningsprocessen består av flera regler som kontrolleras en efter en i specifik ordning. Om den första regeln inte kan lösa teckensnittet kontrolleras den andra regeln och så vidare.
 
@@ -36,7 +38,7 @@ Observera att regeln för ersättning av teckensnittsinformation alltid kommer a
 
 Observera att ersättningsregeln för teckensnittskonfiguration kommer att lösa teckensnittet i de flesta fall och åsidosätter därmed alla andra regler.
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt ett dokuments systemteckensnittskälla och ställer in teckensnittsersättningar.
 
@@ -93,5 +95,3 @@ Assert.AreEqual(1,
 
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

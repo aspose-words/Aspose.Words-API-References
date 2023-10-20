@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.ContentType
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 获取或设置ContentType文档的.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties ContentType 财产. 获取或设置ContentType文档的 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.properties/builtindocumentproperties/contenttype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/contenttype/
 public string ContentType { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用“内容”类别中的文档属性。
 
@@ -124,7 +126,5 @@ private class LineCounter
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

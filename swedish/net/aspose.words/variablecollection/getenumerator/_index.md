@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: VariableCollection metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla variabler i samlingen.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: VariableCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla variabler i samlingen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/variablecollection/getenumerator/
@@ -14,7 +16,7 @@ Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla 
 public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments variabelsamling.
 
@@ -81,7 +83,5 @@ Assert.That(variables, Is.Empty);
 ### Se även
 
 * class [VariableCollection](../)
-* namnutrymme [Aspose.Words](../../variablecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

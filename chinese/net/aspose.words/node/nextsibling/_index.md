@@ -1,7 +1,9 @@
 ---
 title: Node.NextSibling
-second_title: Aspose.Words for .NET API 参考
-description: Node 财产. 获取紧随该节点的下一个节点
+linktitle: NextSibling
+articleTitle: NextSibling
+second_title: 用于 .NET 的 Aspose.Words
+description: Node NextSibling 财产. 获取紧随该节点的下一个节点 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/node/nextsibling/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/node/nextsibling/
 public Node NextSibling { get; }
 ```
 
-### 评论
+## 评论
 
 如果没有下一个节点，则`无效的`返回。
 
-### 例子
+## 例子
 
 演示如何使用节点的 NextSibling 属性来枚举其直接子节点。
 
@@ -80,7 +82,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### 也可以看看
 
 * class [Node](../)
-* 命名空间 [Aspose.Words](../../node/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

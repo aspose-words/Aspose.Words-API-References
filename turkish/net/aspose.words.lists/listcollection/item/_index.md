@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: ListCollection mülk. Dizine göre bir liste alır.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: ListCollection Item mülk. Dizine göre bir liste alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.lists/listcollection/item/
@@ -14,7 +16,7 @@ Dizine göre bir liste alır.
 public List this[int index] { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Listelerin sahip belge özelliklerinin nasıl doğrulanacağını gösterir.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* ad alanı [Aspose.Words.Lists](../../listcollection/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

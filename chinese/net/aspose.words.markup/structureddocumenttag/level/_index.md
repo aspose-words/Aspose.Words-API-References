@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Level
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 获取此级别 特殊测试出现在文档树中
+linktitle: Level
+articleTitle: Level
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag Level 财产. 获取此级别特殊测试出现在文档树中 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.markup/structureddocumenttag/level/
 ---
 ## StructuredDocumentTag.Level property
 
-获取此级别 **特殊测试**出现在文档树中。
+获取此级别**特殊测试**出现在文档树中。
 
 ```csharp
 public MarkupLevel Level { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在纯文本框中创建结构化文档标签并修改其外观。
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

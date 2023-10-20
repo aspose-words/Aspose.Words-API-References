@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LinksUpToDate
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 指示文档中的超链接是否是最新的
+linktitle: LinksUpToDate
+articleTitle: LinksUpToDate
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties LinksUpToDate 财产. 指示文档中的超链接是否是最新的 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words.properties/builtindocumentproperties/linksuptodate/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/linksuptodate/
 public bool LinksUpToDate { get; set; }
 ```
 
-### 评论
+## 评论
 
 Aspose.Words 不会更新此属性。
 
-### 例子
+## 例子
 
 展示如何使用“内容”类别中的文档属性。
 
@@ -128,7 +130,5 @@ private class LineCounter
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

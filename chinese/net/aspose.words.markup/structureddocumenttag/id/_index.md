@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Id
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 为此指定一个唯一的只读持久数字 ID 特殊测试
+linktitle: Id
+articleTitle: Id
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag Id 财产. 为此指定一个唯一的只读持久数字 ID特殊测试 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.markup/structureddocumenttag/id/
 ---
 ## StructuredDocumentTag.Id property
 
-为此指定一个唯一的只读持久数字 ID **特殊测试**。
+为此指定一个唯一的只读持久数字 ID**特殊测试**。
 
 ```csharp
 public int Id { get; }
 ```
 
-### 评论
+## 评论
 
 Id 属性应遵循以下规则：
 
@@ -24,7 +26,7 @@ Id 属性应遵循以下规则：
 * 独立 SDT 期间INodeCloningListener)操作将为克隆的 SDT 节点生成新的唯一 ID。
 * 如果源文档中未指定 Id，则在加载文档时，SDT 节点应分配一个新的唯一标识符 。
 
-### 例子
+## 例子
 
 演示如何在纯文本框中创建结构化文档标签并修改其外观。
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

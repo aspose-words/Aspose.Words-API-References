@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Font
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyle ملكية. الحصول على تنسيق الأحرف للنمط الشرطي.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyle Font ملكية. الحصول على تنسيق الأحرف للنمط الشرطي في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/conditionalstyle/font/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstyle/font/
 public Font Font { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [Font](../../font/)
 * class [ConditionalStyle](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

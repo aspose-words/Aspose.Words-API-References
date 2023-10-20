@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxisCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisCollection сорт. Представляет коллекцию осей диаграммы.
+title: ChartAxisCollection Class
+linktitle: ChartAxisCollection
+articleTitle: ChartAxisCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisCollection сорт. Представляет коллекцию осей диаграммы на С#.
 type: docs
 weight: 640
 url: /ru/net/aspose.words.drawing.charts/chartaxiscollection/
@@ -27,7 +29,7 @@ public class ChartAxisCollection : IEnumerable<ChartAxis>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartaxiscollection/getenumerator/)() | Возвращает объект перечислителя. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией осей.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "Charts.AxisCollection.docx");
 * class [ChartAxis](../chartaxis/)
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

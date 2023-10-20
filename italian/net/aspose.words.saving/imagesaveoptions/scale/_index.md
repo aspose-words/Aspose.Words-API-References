@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Scale
-second_title: Aspose.Words per .NET API Reference
-description: ImageSaveOptions proprietà. Ottiene o imposta il fattore di zoom per le immagini generate.
+linktitle: Scale
+articleTitle: Scale
+second_title: Aspose.Words per .NET
+description: ImageSaveOptions Scale proprietà. Ottiene o imposta il fattore di zoom per le immagini generate in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words.saving/imagesaveoptions/scale/
@@ -14,11 +16,11 @@ Ottiene o imposta il fattore di zoom per le immagini generate.
 public float Scale { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è 1.0. Il valore deve essere maggiore di 0.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire il rendering di un oggetto Office Math in un file di immagine nel file system locale.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### Guarda anche
 
 * class [ImageSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../imagesaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Stroke.On
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Yolun vuruşlu olup olmayacağını tanımlar.
+linktitle: On
+articleTitle: On
+second_title: Aspose.Words for .NET
+description: Stroke On mülk. Yolun vuruşlu olup olmayacağını tanımlar C#'da.
 type: docs
-weight: 150
+weight: 140
 url: /tr/net/aspose.words.drawing/stroke/on/
 ---
 ## Stroke.On property
@@ -14,11 +16,11 @@ Yolun vuruşlu olup olmayacağını tanımlar.
 public bool On { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir için varsayılan değer[`Shape`](../../shape/) dır-dir`doğru`.
 
-### Örnekler
+## Örnekler
 
 Kontur özelliklerinin nasıl değiştirildiğini gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ### Ayrıca bakınız
 
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

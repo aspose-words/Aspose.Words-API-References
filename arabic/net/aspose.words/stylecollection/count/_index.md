@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: StyleCollection ملكية. الحصول على عدد الأنماط في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: StyleCollection Count ملكية. الحصول على عدد الأنماط في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/stylecollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/stylecollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نمط إلى مجموعة أنماط المستند.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 ### أنظر أيضا
 
 * class [StyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../stylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

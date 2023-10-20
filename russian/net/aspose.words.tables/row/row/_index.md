@@ -1,7 +1,9 @@
 ---
-title: Row.Row
-second_title: Справочник по API Aspose.Words для .NET
-description: Row строитель. Инициализирует новый экземплярRow класс.
+title: Row
+linktitle: Row
+articleTitle: Row
+second_title: Aspose.Words для .NET
+description: Row строитель. Инициализирует новый экземплярRow класс на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.tables/row/row/
@@ -18,13 +20,13 @@ public Row(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Документ владельца. |
 
-### Примечания
+## Примечания
 
 Когда[`Row`](../) создан, он принадлежит указанному документу, но еще не является частью документа и[`ParentNode`](../../../aspose.words/node/parentnode/) является`нулевой`.
 
-Чтобы добавить[`Row`](../) к использованию документаNode) илиNode) в таблице, куда вы хотите вставить строку.
+Чтобы добавить[`Row`](../) к использованию документа[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) или[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) в таблице, куда вы хотите вставить строку.
 
-### Примеры
+## Примеры
 
 Показывает, как построить вложенную таблицу без использования построителя документов.
 
@@ -81,7 +83,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Row](../)
-* пространство имен [Aspose.Words.Tables](../../row/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

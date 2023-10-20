@@ -1,7 +1,9 @@
 ---
 title: Font.TextEffect
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Får eller ställer in teckensnittsanimeringseffekten.
+linktitle: TextEffect
+articleTitle: TextEffect
+second_title: Aspose.Words för .NET
+description: Font TextEffect fast egendom. Får eller ställer in teckensnittsanimeringseffekten i C#.
 type: docs
 weight: 450
 url: /sv/net/aspose.words/font/texteffect/
@@ -14,7 +16,7 @@ Får eller ställer in teckensnittsanimeringseffekten.
 public TextEffect TextEffect { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar en visuell effekt på en löpning.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.SparklingText.doc");
 
 * enum [TextEffect](../../texteffect/)
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

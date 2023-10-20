@@ -1,7 +1,9 @@
 ---
-title: Class HtmlLoadOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.HtmlLoadOptions sınıf. HTML belgesini bir dosyaya yüklerken ek seçenekleri belirtmenize olanak tanır.Document nesne.
+title: HtmlLoadOptions Class
+linktitle: HtmlLoadOptions
+articleTitle: HtmlLoadOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Loading.HtmlLoadOptions sınıf. HTML belgesini bir dosyaya yüklerken ek seçenekleri belirtmenize olanak tanır.Document nesne C#'da.
 type: docs
 weight: 3620
 url: /tr/net/aspose.words.loading/htmlloadoptions/
@@ -21,8 +23,8 @@ public class HtmlLoadOptions : LoadOptions
 | İsim | Tanım |
 | --- | --- |
 | [HtmlLoadOptions](htmlloadoptions/#constructor)() | Bu sınıfın yeni bir örneğini varsayılan değerlerle başlatır. |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(string) | Şifrelenmiş bir belgeyi yüklemek için bu sınıfın yeni bir örneğini belirtilen parolayla başlatmak için kullanılan bir kısayol. |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(LoadFormat, string, string) | Özellikleri belirtilen değerlere ayarlanmış olarak bu sınıfın yeni bir örneğini başlatmak için kullanılan bir kısayol. |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(*string*) | Şifrelenmiş bir belgeyi yüklemek için bu sınıfın yeni bir örneğini belirtilen parolayla başlatmak için kullanılan bir kısayol. |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(*[LoadFormat](../../aspose.words/loadformat/), string, string*) | Özellikleri belirtilen değerlere ayarlanmış olarak bu sınıfın yeni bir örneğini başlatmak için kullanılan bir kısayol. |
 
 ## Özellikleri
 
@@ -55,12 +57,10 @@ public class HtmlLoadOptions : LoadOptions
 
 | İsim | Tanım |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### Ayrıca bakınız
 
 * class [LoadOptions](../loadoptions/)
 * ad alanı [Aspose.Words.Loading](../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../)
-
-

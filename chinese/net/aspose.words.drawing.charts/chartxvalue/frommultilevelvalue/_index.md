@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromMultilevelValue
-second_title: Aspose.Words for .NET API 参考
-description: ChartXValue 方法. 创建一个ChartXValue的实例Multilevel类型.
+linktitle: FromMultilevelValue
+articleTitle: FromMultilevelValue
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartXValue FromMultilevelValue 方法. 创建一个ChartXValue的实例Multilevel类型 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/
@@ -18,7 +20,5 @@ public static ChartXValue FromMultilevelValue(ChartMultilevelValue value)
 
 * class [ChartMultilevelValue](../../chartmultilevelvalue/)
 * class [ChartXValue](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

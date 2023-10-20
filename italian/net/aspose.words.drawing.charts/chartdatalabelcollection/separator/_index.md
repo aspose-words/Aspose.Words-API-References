@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Separator
-second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabelCollection proprietà. Ottiene o imposta il separatore di stringa utilizzato per le etichette dati dellintera serie. Il valore predefinito è una virgola ad eccezione dei grafici a torta che mostrano solo il nome della categoria e la percentuale quando invece deve essere utilizzata uninterruzione di riga .
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words per .NET
+description: ChartDataLabelCollection Separator proprietà. Ottiene o imposta il separatore di stringa utilizzato per le etichette dati dellintera serie. Il valore predefinito è una virgola ad eccezione dei grafici a torta che mostrano solo il nome della categoria e la percentuale quando invece deve essere utilizzata uninterruzione di riga  in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
@@ -14,11 +16,11 @@ Ottiene o imposta il separatore di stringa utilizzato per le etichette dati dell
 public string Separator { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore definito per questa proprietà può essere sovrascritto per una singola etichetta dati utilizzando [`Separator`](../../chartdatalabel/separator/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le etichette dati di un grafico a bolle.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Guarda anche
 
 * class [ChartDataLabelCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Revision
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Revision 班级. 表示文档节点或样式中的修订跟踪更改 使用RevisionType检查此修订的类型
+title: Revision Class
+linktitle: Revision
+articleTitle: Revision
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Revision 班级. 表示文档节点或样式中的修订跟踪更改 使用RevisionType检查此修订的类型 在 C#.
 type: docs
 weight: 4760
 url: /zh/net/aspose.words/revision/
@@ -34,7 +36,7 @@ public class Revision
 | [Accept](../../aspose.words/revision/accept/)() | 接受此修订。 |
 | [Reject](../../aspose.words/revision/reject/)() | 拒绝此修订。 |
 
-### 例子
+## 例子
 
 展示如何处理文档中的修订。
 
@@ -118,5 +120,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

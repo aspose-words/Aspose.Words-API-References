@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelSpacing
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. الحصول على أو تعيين الفاصل الزمني الذي يتم عنده رسم تسميات التجزئة.
+linktitle: TickLabelSpacing
+articleTitle: TickLabelSpacing
+second_title: Aspose.Words لـ .NET
+description: ChartAxis TickLabelSpacing ملكية. الحصول على أو تعيين الفاصل الزمني الذي يتم عنده رسم تسميات التجزئة في C#.
 type: docs
 weight: 250
 url: /ar/net/aspose.words.drawing.charts/chartaxis/ticklabelspacing/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/ticklabelspacing/
 public int TickLabelSpacing { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الخاصية لها تأثير على فئة النص ومحاور السلسلة. وهو غير مدعوم من قبل المخططات الجديدة لـ MS Office 2016 . النطاق الصالح للقيمة أكبر من أو يساوي 1.
 
 يؤدي تعيين هذه الخاصية إلى تعيين[`TickLabelSpacingIsAuto`](../ticklabelspacingisauto/) الملكية ل`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع علامات التجزئة والقيم المعروضة لمحور المخطط.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### أنظر أيضا
 
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.IndexOfKey
-second_title: Aspose.Words für .NET-API-Referenz
-description: BookmarksOutlineLevelCollection methode. Gibt den nullbasierten Index des angegebenen Lesezeichens in der Sammlung zurück.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words für .NET
+description: BookmarksOutlineLevelCollection IndexOfKey methode. Gibt den nullbasierten Index des angegebenen Lesezeichens in der Sammlung zurück in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 Der auf Null basierende Index. Negativer Wert, wenn nicht gefunden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Gliederungsebenen für Lesezeichen festgelegt werden.
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### Siehe auch
 
 * class [BookmarksOutlineLevelCollection](../)
-* namensraum [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Field.DisplayResult
-second_title: Aspose.Words for .NET API Referansı
-description: Field mülk. Görüntülenen alan sonucunu temsil eden metni alır.
+linktitle: DisplayResult
+articleTitle: DisplayResult
+second_title: Aspose.Words for .NET
+description: Field DisplayResult mülk. Görüntülenen alan sonucunu temsil eden metni alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/field/displayresult/
@@ -14,11 +16,11 @@ Görüntülenen alan sonucunu temsil eden metni alır.
 public string DisplayResult { get; }
 ```
 
-### Notlar
+## Notlar
 
 [`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) the için doğru değeri elde etmek için yöntem çağrılmalıdır[`FieldListNum`](../../fieldlistnum/) ,[`FieldAutoNum`](../../fieldautonum/) ,[`FieldAutoNumOut`](../../fieldautonumout/) Ve[`FieldAutoNumLgl`](../../fieldautonumlgl/) alanlar.
 
-### Örnekler
+## Örnekler
 
 Bir alanın belgede görüntülediği gerçek metnin nasıl alınacağını gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.DisplayResult.docx");
 ### Ayrıca bakınız
 
 * class [Field](../)
-* ad alanı [Aspose.Words.Fields](../../field/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

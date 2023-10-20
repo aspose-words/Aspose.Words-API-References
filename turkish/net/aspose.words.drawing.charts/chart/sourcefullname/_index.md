@@ -1,7 +1,9 @@
 ---
 title: Chart.SourceFullName
-second_title: Aspose.Words for .NET API Referansı
-description: Chart mülk. Bu grafiğin bağlı olduğu xls/xlsx dosyasının yolunu ve adını alır.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words for .NET
+description: Chart SourceFullName mülk. Bu grafiğin bağlı olduğu xls/xlsx dosyasının yolunu ve adını alır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing.charts/chart/sourcefullname/
@@ -14,7 +16,7 @@ Bu grafiğin bağlı olduğu xls/xlsx dosyasının yolunu ve adını alır.
 public string SourceFullName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Grafik bağlıysa harici xls/xlsx belgesinin tam adının nasıl alınacağını/ayarlanacağını gösterir.
 
@@ -33,7 +35,5 @@ Assert.True(sourceFullName.Equals("D:\\Documents\\ChartData.xlsx", StringCompari
 ### Ayrıca bakınız
 
 * class [Chart](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chart/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

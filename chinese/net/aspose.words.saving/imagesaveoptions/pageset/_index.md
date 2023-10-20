@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PageSet
-second_title: Aspose.Words for .NET API 参考
-description: ImageSaveOptions 财产. 获取或设置要呈现的页面 默认为文档中的所有页面
+linktitle: PageSet
+articleTitle: PageSet
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSaveOptions PageSet 财产. 获取或设置要呈现的页面 默认为文档中的所有页面 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.saving/imagesaveoptions/pageset/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/imagesaveoptions/pageset/
 public PageSet PageSet { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性仅在渲染文档页面时有效。将形状渲染到图像时会忽略此属性。
 
-### 例子
+## 例子
 
 展示如何根据确切的页面范围提取页面。
 
@@ -122,7 +124,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 
 * class [PageSet](../../pageset/)
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

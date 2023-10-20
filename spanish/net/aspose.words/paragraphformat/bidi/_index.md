@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Bidi
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene o establece si se trata de un párrafo que se escribe de derecha a izquierda.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words para .NET
+description: ParagraphFormat Bidi propiedad. Obtiene o establece si se trata de un párrafo que se escribe de derecha a izquierda en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/paragraphformat/bidi/
@@ -14,11 +16,11 @@ Obtiene o establece si se trata de un párrafo que se escribe de derecha a izqui
 public bool Bidi { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando`verdadero`, los tramos y otros objetos en línea en este párrafo están dispuestos de derecha a izquierda.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo detectar la dirección del texto de un documento sin formato.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ### Ver también
 
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

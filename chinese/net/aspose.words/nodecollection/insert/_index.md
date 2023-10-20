@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Insert
-second_title: Aspose.Words for .NET API 参考
-description: NodeCollection 方法. 将节点插入集合中指定索引处
+linktitle: Insert
+articleTitle: Insert
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeCollection Insert 方法. 将节点插入集合中指定索引处 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/nodecollection/insert/
@@ -25,7 +27,7 @@ public void Insert(int index, Node node)
 | --- | --- |
 | NotSupportedException | 这[`NodeCollection`](../)是一个“深度”的集合。 |
 
-### 评论
+## 评论
 
 该节点作为子节点插入到创建集合的节点对象中。
 
@@ -35,7 +37,7 @@ public void Insert(int index, Node node)
 
 如果插入的节点是从另一个文档创建的，则应使用 [`ImportNode`](../../documentbase/importnode/)将节点导入到当前文档。 然后可以将导入的节点插入到当前文档中。
 
-### 例子
+## 例子
 
 展示如何使用 NodeCollection。
 
@@ -73,7 +75,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* 命名空间 [Aspose.Words](../../nodecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.HorizontalPosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAdvance eigendom. Ruft die Anzahl der Punkte ab um die der Text der auf das Feld folgt horizontal vom linken Rand der Spalte des Rahmens oder des Textfelds verschoben werden soll oder legt diese fest.
+linktitle: HorizontalPosition
+articleTitle: HorizontalPosition
+second_title: Aspose.Words für .NET
+description: FieldAdvance HorizontalPosition eigendom. Ruft die Anzahl der Punkte ab um die der Text der auf das Feld folgt horizontal vom linken Rand der Spalte des Rahmens oder des Textfelds verschoben werden soll oder legt diese fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldadvance/horizontalposition/
@@ -14,7 +16,7 @@ Ruft die Anzahl der Punkte ab, um die der Text, der auf das Feld folgt, horizont
 public string HorizontalPosition { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein ADVANCE-Feld einfügt und seine Eigenschaften bearbeitet.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### Siehe auch
 
 * class [FieldAdvance](../)
-* namensraum [Aspose.Words.Fields](../../fieldadvance/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

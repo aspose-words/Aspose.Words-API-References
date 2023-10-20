@@ -1,7 +1,9 @@
 ---
 title: Table.FirstRow
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. Renvoie le premierRow nœud dans la table.
+linktitle: FirstRow
+articleTitle: FirstRow
+second_title: Aspose.Words pour .NET
+description: Table FirstRow propriété. Renvoie le premierRow nœud dans la table en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.tables/table/firstrow/
@@ -14,7 +16,7 @@ Renvoie le premier[`Row`](../../row/) nœud dans la table.
 public Row FirstRow { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment supprimer les première et dernière lignes de tous les tableaux d’un document.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 
 * class [Row](../../row/)
 * class [Table](../)
-* espace de noms [Aspose.Words.Tables](../../table/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

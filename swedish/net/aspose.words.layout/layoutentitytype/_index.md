@@ -1,7 +1,9 @@
 ---
-title: Enum LayoutEntityType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Layout.LayoutEntityType uppräkning. Typer av layoutentiteter.
+title: LayoutEntityType Enum
+linktitle: LayoutEntityType
+articleTitle: LayoutEntityType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Layout.LayoutEntityType uppräkning. Typer av layoutentiteter i C#.
 type: docs
 weight: 3330
 url: /sv/net/aspose.words.layout/layoutentitytype/
@@ -34,7 +36,7 @@ public enum LayoutEntityType
 | Comment | `1000` | Representerar platshållare för kommentarsinnehåll. Kommentar kan haLine ochRow underordnade enheter. |
 | NoteSeparator | `2000` | Representerar fotnots-/slutnotsavgränsare. NoteSeparator kan haLine ochRow underordnade enheter. |
 
-### Exempel
+## Exempel
 
 Visar sätt att gå igenom ett dokuments layoutenheter.
 
@@ -180,5 +182,3 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * namnutrymme [Aspose.Words.Layout](../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.AllowOverlap
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Indica se una tabella mobile deve consentire ad altri oggetti mobili nel documento di sovrapporsi alle sue estensioni quando viene visualizzato. Il valore predefinito èVERO .
+linktitle: AllowOverlap
+articleTitle: AllowOverlap
+second_title: Aspose.Words per .NET
+description: Table AllowOverlap proprietà. Indica se una tabella mobile deve consentire ad altri oggetti mobili nel documento di sovrapporsi alle sue estensioni quando viene visualizzato. Il valore predefinito èVERO  in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.tables/table/allowoverlap/
@@ -14,7 +16,7 @@ Indica se una tabella mobile deve consentire ad altri oggetti mobili nel documen
 public bool AllowOverlap { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le proprietà delle tabelle mobili.
 
@@ -42,7 +44,5 @@ if (table.TextWrapping == TextWrapping.Around)
 ### Guarda anche
 
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

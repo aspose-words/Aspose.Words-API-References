@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitHeaderFooterEnd
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när uppräkningen av en sidhuvud eller sidfot i ett avsnitt har avslutats.
+linktitle: VisitHeaderFooterEnd
+articleTitle: VisitHeaderFooterEnd
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitHeaderFooterEnd metod. Anropas när uppräkningen av en sidhuvud eller sidfot i ett avsnitt har avslutats i C#.
 type: docs
 weight: 280
 url: /sv/net/aspose.words/documentvisitor/visitheaderfooterend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut nodstrukturen för varje sidhuvud och sidfot i ett dokument.
 
@@ -117,7 +119,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [HeaderFooter](../../headerfooter/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

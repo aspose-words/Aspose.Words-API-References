@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MailAsAttachment
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Adresmektup birleştirme işlemi sırasında oluşturulan belgelerin gerçek epostanın gövdesi yerine eki olarak epostayla gönderilmesi gerektiğini belirtir. Varsayılan değerYANLIŞ .
+linktitle: MailAsAttachment
+articleTitle: MailAsAttachment
+second_title: Aspose.Words for .NET
+description: MailMergeSettings MailAsAttachment mülk. Adresmektup birleştirme işlemi sırasında oluşturulan belgelerin gerçek epostanın gövdesi yerine eki olarak epostayla gönderilmesi gerektiğini belirtir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.settings/mailmergesettings/mailasattachment/
@@ -14,7 +16,7 @@ Adres-mektup birleştirme işlemi sırasında oluşturulan belgelerin gerçek e-
 public bool MailAsAttachment { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Dış veri kaynağına bağlanırken adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Ayrıca bakınız
 
 * class [MailMergeSettings](../)
-* ad alanı [Aspose.Words.Settings](../../mailmergesettings/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

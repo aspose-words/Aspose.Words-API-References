@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.NumberFormat
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. إرجاع أChartNumberFormat كائن يسمح بتحديد تنسيقات الأرقام للمحور.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words لـ .NET
+description: ChartAxis NumberFormat ملكية. إرجاع أChartNumberFormat كائن يسمح بتحديد تنسيقات الأرقام للمحور في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.drawing.charts/chartaxis/numberformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/numberformat/
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين التنسيق لقيم المخطط.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

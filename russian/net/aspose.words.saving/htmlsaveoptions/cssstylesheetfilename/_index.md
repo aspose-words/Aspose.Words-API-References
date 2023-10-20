@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssStyleSheetFileName
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает путь и имя файла каскадной таблицы стилей CSS записываемого при экспорте документа в HTML. По умолчанию  пустая строка.
+linktitle: CssStyleSheetFileName
+articleTitle: CssStyleSheetFileName
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions CssStyleSheetFileName свойство. Указывает путь и имя файла каскадной таблицы стилей CSS записываемого при экспорте документа в HTML. По умолчанию  пустая строка на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/
 public string CssStyleSheetFileName { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство действует только при сохранении документа в формате HTML и внешней таблице стилей CSS, запрашиваемой с помощью[`CssStyleSheetType`](../cssstylesheettype/).
 
@@ -26,7 +28,7 @@ public string CssStyleSheetFileName { get; set; }
 
 Другой способ указать папку, в которой сохраняется внешний файл CSS, — использовать[`ResourceFolder`](../resourcefolder/) .
 
-### Примеры
+## Примеры
 
 Показывает, как работать с таблицами стилей CSS, создаваемыми преобразованием HTML.
 
@@ -87,7 +89,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

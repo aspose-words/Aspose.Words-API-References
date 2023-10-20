@@ -1,9 +1,11 @@
 ---
 title: Stroke.Weight
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Definierar penseltjockleken som sträcker banan för en form i punkter.
+linktitle: Weight
+articleTitle: Weight
+second_title: Aspose.Words för .NET
+description: Stroke Weight fast egendom. Definierar penseltjockleken som sträcker banan för en form i punkter i C#.
 type: docs
-weight: 220
+weight: 210
 url: /sv/net/aspose.words.drawing/stroke/weight/
 ---
 ## Stroke.Weight property
@@ -14,11 +16,11 @@ Definierar penseltjockleken som sträcker banan för en form i punkter.
 public double Weight { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet för a[`Shape`](../../shape/) är 0,75.
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar slagegenskaper.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ### Se även
 
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

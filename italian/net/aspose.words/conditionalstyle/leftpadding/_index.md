@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.LeftPadding
-second_title: Aspose.Words per .NET API Reference
-description: ConditionalStyle proprietà. Ottiene o imposta la quantità di spazio in punti da aggiungere a sinistra del contenuto delle celle della tabella.
+linktitle: LeftPadding
+articleTitle: LeftPadding
+second_title: Aspose.Words per .NET
+description: ConditionalStyle LeftPadding proprietà. Ottiene o imposta la quantità di spazio in punti da aggiungere a sinistra del contenuto delle celle della tabella in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/conditionalstyle/leftpadding/
@@ -14,7 +16,7 @@ Ottiene o imposta la quantità di spazio (in punti) da aggiungere a sinistra del
 public double LeftPadding { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con determinati stili di area di una tabella.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Guarda anche
 
 * class [ConditionalStyle](../)
-* spazio dei nomi [Aspose.Words](../../conditionalstyle/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

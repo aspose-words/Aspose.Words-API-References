@@ -1,7 +1,9 @@
 ---
-title: Enum TxtTrailingSpacesOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.TxtTrailingSpacesOptions تعداد. يحدد الخيارات المتاحة لمعالجة المسافات الزائدة أثناء الاستيراد منText ملف.
+title: TxtTrailingSpacesOptions Enum
+linktitle: TxtTrailingSpacesOptions
+articleTitle: TxtTrailingSpacesOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.TxtTrailingSpacesOptions تعداد. يحدد الخيارات المتاحة لمعالجة المسافات الزائدة أثناء الاستيراد منText ملف في C#.
 type: docs
 weight: 3740
 url: /ar/net/aspose.words.loading/txttrailingspacesoptions/
@@ -21,7 +23,7 @@ public enum TxtTrailingSpacesOptions
 | Trim | `0` |  |
 | Preserve | `1` |  |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قطع المسافة البيضاء عند تحميل مستندات النص العادي.
 
@@ -98,5 +100,3 @@ switch (txtTrailingSpacesOptions)
 
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

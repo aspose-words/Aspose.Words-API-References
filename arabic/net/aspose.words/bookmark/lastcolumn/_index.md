@@ -1,7 +1,9 @@
 ---
 title: Bookmark.LastColumn
-second_title: Aspose.Words لمراجع .NET API
-description: Bookmark ملكية. الحصول على الفهرس الصفري للعمود الأخير من نطاق أعمدة الجدول المرتبط بالإشارة المرجعية.
+linktitle: LastColumn
+articleTitle: LastColumn
+second_title: Aspose.Words لـ .NET
+description: Bookmark LastColumn ملكية. الحصول على الفهرس الصفري للعمود الأخير من نطاق أعمدة الجدول المرتبط بالإشارة المرجعية في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/bookmark/lastcolumn/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/bookmark/lastcolumn/
 public int LastColumn { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
-إرجاع **-1** إذا كانت هذه الإشارة المرجعية ليست إشارة مرجعية لعمود الجدول.
+إرجاع**-1** إذا كانت هذه الإشارة المرجعية ليست إشارة مرجعية لعمود الجدول.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على معلومات حول الإشارات المرجعية لأعمدة الجدول.
 
@@ -45,7 +47,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### أنظر أيضا
 
 * class [Bookmark](../)
-* مساحة الاسم [Aspose.Words](../../bookmark/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreCaseChanges
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompareOptions eigendom. True gibt an dass beim Dokumentenvergleich die Groß/Kleinschreibung nicht beachtet wird. Standardmäßig wird beim Vergleich die Groß/Kleinschreibung beachtet.
+linktitle: IgnoreCaseChanges
+articleTitle: IgnoreCaseChanges
+second_title: Aspose.Words für .NET
+description: CompareOptions IgnoreCaseChanges eigendom. True gibt an dass beim Dokumentenvergleich die Groß/Kleinschreibung nicht beachtet wird. Standardmäßig wird beim Vergleich die Groß/Kleinschreibung beachtet in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.comparing/compareoptions/ignorecasechanges/
@@ -14,7 +16,7 @@ True gibt an, dass beim Dokumentenvergleich die Groß-/Kleinschreibung nicht bea
 public bool IgnoreCaseChanges { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie bei einem Vergleich bestimmte Arten von Dokumentelementen gefiltert werden.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Siehe auch
 
 * class [CompareOptions](../)
-* namensraum [Aspose.Words.Comparing](../../compareoptions/)
+* namensraum [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * Montage [Aspose.Words](../../../)
-
-

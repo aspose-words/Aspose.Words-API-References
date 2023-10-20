@@ -1,7 +1,9 @@
 ---
 title: Range.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: Range eigendom. Ruft den Text des Bereichs ab.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: Range Text eigendom. Ruft den Text des Bereichs ab in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/range/text/
@@ -14,11 +16,11 @@ Ruft den Text des Bereichs ab.
 public string Text { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die zurückgegebene Zeichenfolge enthält alle Steuer- und Sonderzeichen, wie in beschrieben[`ControlChar`](../../controlchar/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Textinhalt aller Knoten abgerufen wird, die ein Bereich abdeckt.
 
@@ -34,7 +36,5 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 ### Siehe auch
 
 * class [Range](../)
-* namensraum [Aspose.Words](../../range/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

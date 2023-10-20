@@ -1,7 +1,9 @@
 ---
 title: ChartYValueCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: ChartYValueCollection proprietà. Ottiene o imposta il valore Y in corrispondenza dellindice specificato.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: ChartYValueCollection Item proprietà. Ottiene o imposta il valore Y in corrispondenza dellindice specificato in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing.charts/chartyvaluecollection/item/
@@ -14,15 +16,13 @@ Ottiene o imposta il valore Y in corrispondenza dell'indice specificato.
 public ChartYValue this[int index] { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
-I valori vuoti sono rappresentati come **nullo** .
+I valori vuoti sono rappresentati come**nullo** .
 
 ### Guarda anche
 
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartYValueCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartyvaluecollection/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

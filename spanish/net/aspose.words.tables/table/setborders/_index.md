@@ -1,9 +1,11 @@
 ---
 title: Table.SetBorders
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table método. Establece todos los bordes de la tabla con el estilo ancho y color de línea especificados.
+linktitle: SetBorders
+articleTitle: SetBorders
+second_title: Aspose.Words para .NET
+description: Table SetBorders método. Establece todos los bordes de la tabla con el estilo ancho y color de línea especificados en C#.
 type: docs
-weight: 440
+weight: 420
 url: /es/net/aspose.words.tables/table/setborders/
 ---
 ## Table.SetBorders method
@@ -20,7 +22,7 @@ public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
 | lineWidth | Double | El ancho de línea a establecer (en puntos). |
 | color | Color | El color que se utilizará para el borde. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo formatear todos los bordes de una tabla a la vez.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * enum [LineStyle](../../../aspose.words/linestyle/)
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

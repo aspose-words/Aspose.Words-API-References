@@ -1,7 +1,9 @@
 ---
 title: OleFormat.GetOleEntry
-second_title: Aspose.Words for .NET API 参考
-description: OleFormat 方法. 获取 OLE 对象数据条目
+linktitle: GetOleEntry
+articleTitle: GetOleEntry
+second_title: 用于 .NET 的 Aspose.Words
+description: OleFormat GetOleEntry 方法. 获取 OLE 对象数据条目 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.drawing/oleformat/getoleentry/
@@ -22,7 +24,7 @@ public MemoryStream GetOleEntry(string oleEntryName)
 
 OLE 数据流或`无效的`。
 
-### 例子
+## 例子
 
 演示如何插入链接和未链接的 OLE 对象。
 
@@ -72,7 +74,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### 也可以看看
 
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

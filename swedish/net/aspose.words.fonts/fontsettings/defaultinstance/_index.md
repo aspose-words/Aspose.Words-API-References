@@ -1,7 +1,9 @@
 ---
 title: FontSettings.DefaultInstance
-second_title: Aspose.Words för .NET API Referens
-description: FontSettings fast egendom. Statiska standardteckensnittsinställningar.
+linktitle: DefaultInstance
+articleTitle: DefaultInstance
+second_title: Aspose.Words för .NET
+description: FontSettings DefaultInstance fast egendom. Statiska standardteckensnittsinställningar i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/fontsettings/defaultinstance/
@@ -14,11 +16,11 @@ Statiska standardteckensnittsinställningar.
 public static FontSettings DefaultInstance { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna instans används som standard i ett dokument om inte[`FontSettings`](../../../aspose.words/document/fontsettings/) anges.
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar standardtypsnittsinställningarna.
 
@@ -94,7 +96,5 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 ### Se även
 
 * class [FontSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontsettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

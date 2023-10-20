@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveAllChildren
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart метод. Удаляет все узлы между этим начальным узлом диапазона и конечным узлом диапазона.
+linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagRangeStart RemoveAllChildren метод. Удаляет все узлы между этим начальным узлом диапазона и конечным узлом диапазона на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildr
 public void RemoveAllChildren()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать/удалить тег структурированного документа и его содержимое.
 
@@ -66,7 +68,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 ### Смотрите также
 
 * class [StructuredDocumentTagRangeStart](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

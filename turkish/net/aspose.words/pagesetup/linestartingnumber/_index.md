@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineStartingNumber
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Başlangıç satırı numarasını alır veya ayarlar.
+linktitle: LineStartingNumber
+articleTitle: LineStartingNumber
+second_title: Aspose.Words for .NET
+description: PageSetup LineStartingNumber mülk. Başlangıç satırı numarasını alır veya ayarlar C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words/pagesetup/linestartingnumber/
@@ -14,7 +16,7 @@ Başlangıç satırı numarasını alır veya ayarlar.
 public int LineStartingNumber { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir bölüm için satır numaralandırmanın nasıl etkinleştirileceğini gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

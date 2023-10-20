@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Placeholder
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeStart 财产. 获取BuildingBlock包含当 此结构化文档标记运行内容为空时应显示的占位符文本关联的映射 XML 元素为空如指定的 所示XmlMapping元素或IsShowingPlaceholderText元素是真的
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTagRangeStart Placeholder 财产. 获取BuildingBlock包含当 此结构化文档标记运行内容为空时应显示的占位符文本关联的映射 XML 元素为空如指定的 所示XmlMapping元素或IsShowingPlaceholderText元素是真的 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/placeholder/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/placeholder/
 public BuildingBlock Placeholder { get; }
 ```
 
-### 评论
+## 评论
 
 可`无效的`，这意味着占位符不适用于此结构化文档标记。
 
@@ -22,7 +24,5 @@ public BuildingBlock Placeholder { get; }
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTagRangeStart](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

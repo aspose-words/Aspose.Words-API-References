@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CustomPropertiesExport
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على أو تحديد قيمة تحدد الطريقCustomDocumentProperties يتم تصديرها إلى ملف PDF.
+linktitle: CustomPropertiesExport
+articleTitle: CustomPropertiesExport
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions CustomPropertiesExport ملكية. الحصول على أو تحديد قيمة تحدد الطريقCustomDocumentProperties يتم تصديرها إلى ملف PDF في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/pdfsaveoptions/custompropertiesexport/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/custompropertiesexport/
 public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيNone.
 
@@ -22,7 +24,7 @@ Metadata القيمة غير مدعومة عند الحفظ بتنسيق PDF/A. 
 
 Standard القيمة غير مدعومة عند الحفظ في PDF 2.0. Metadata سيتم استخدامها بدلا من ذلك.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تصدير الخصائص المخصصة أثناء تحويل مستند إلى PDF.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CustomPropertiesExport.pdf", options);
 
 * enum [PdfCustomPropertiesExport](../../pdfcustompropertiesexport/)
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

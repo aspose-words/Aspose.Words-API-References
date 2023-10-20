@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreDeleted
-second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Silme düzeltmeleri içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ .
+linktitle: IgnoreDeleted
+articleTitle: IgnoreDeleted
+second_title: Aspose.Words for .NET
+description: FindReplaceOptions IgnoreDeleted mülk. Silme düzeltmeleri içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/
@@ -14,7 +16,7 @@ Silme düzeltmeleri içindeki metnin yoksayılacağını belirten bir boole değ
 public bool IgnoreDeleted { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bul ve değiştir işlemi sırasında düzeltmelerin içine metnin nasıl dahil edileceğini veya yok sayılacağını gösterir.
 
@@ -53,7 +55,5 @@ Assert.AreEqual(
 ### Ayrıca bakınız
 
 * class [FindReplaceOptions](../)
-* ad alanı [Aspose.Words.Replacing](../../findreplaceoptions/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

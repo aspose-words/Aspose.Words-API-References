@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsInsertRevision
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. Gibt true zurück wenn dieses Objekt in Microsoft Word eingefügt wurde während die Änderungsverfolgung aktiviert war.
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: Aspose.Words für .NET
+description: Paragraph IsInsertRevision eigendom. Gibt true zurück wenn dieses Objekt in Microsoft Word eingefügt wurde während die Änderungsverfolgung aktiviert war in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words/paragraph/isinsertrevision/
@@ -14,7 +16,7 @@ Gibt „true“ zurück, wenn dieses Objekt in Microsoft Word eingefügt wurde, 
 public bool IsInsertRevision { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Revisionsabsätzen gearbeitet wird.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(
 ### Siehe auch
 
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListLevel.RestartAfterLevel
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevel ملكية. يقوم بتعيين أو إرجاع مستوى القائمة الذي يجب أن يظهر قبل أن يقوم مستوى القائمة المحدد بإعادة تشغيل الترقيم.
+linktitle: RestartAfterLevel
+articleTitle: RestartAfterLevel
+second_title: Aspose.Words لـ .NET
+description: ListLevel RestartAfterLevel ملكية. يقوم بتعيين أو إرجاع مستوى القائمة الذي يجب أن يظهر قبل أن يقوم مستوى القائمة المحدد بإعادة تشغيل الترقيم في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.lists/listlevel/restartafterlevel/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/listlevel/restartafterlevel/
 public int RestartAfterLevel { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 قيمة -1 تعني أن الترقيم سيستمر.
 
-### أمثلة
+## أمثلة
 
 يعرض طرقًا متقدمة لتخصيص تسميات القائمة.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### أنظر أيضا
 
 * class [ListLevel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

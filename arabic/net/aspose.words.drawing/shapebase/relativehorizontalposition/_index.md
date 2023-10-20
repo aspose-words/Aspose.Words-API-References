@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeHorizontalPosition
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. يحدد نسبة إلى ما يتم وضعه أفقيًا.
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: Aspose.Words لـ .NET
+description: ShapeBase RelativeHorizontalPosition ملكية. يحدد نسبة إلى ما يتم وضعه أفقيًا في C#.
 type: docs
 weight: 420
 url: /ar/net/aspose.words.drawing/shapebase/relativehorizontalposition/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shapebase/relativehorizontalposition/
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيColumn.
 
 له تأثير فقط على الأشكال العائمة ذات المستوى الأعلى.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة عائمة في وسط الصفحة.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [RelativeHorizontalPosition](../../relativehorizontalposition/)
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

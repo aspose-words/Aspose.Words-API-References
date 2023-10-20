@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IconCaption
-second_title: Aspose.Words لمراجع .NET API
-description: OleFormat ملكية. الحصول على تسمية توضيحية لكائن OLE.
+linktitle: IconCaption
+articleTitle: IconCaption
+second_title: Aspose.Words لـ .NET
+description: OleFormat IconCaption ملكية. الحصول على تسمية توضيحية لكائن OLE في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/oleformat/iconcaption/
@@ -16,7 +18,7 @@ url: /ar/net/aspose.words.drawing/oleformat/iconcaption/
 public string IconCaption { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج كائنات OLE المرتبطة وغير المرتبطة.
 
@@ -66,7 +68,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### أنظر أيضا
 
 * class [OleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../oleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Top
-second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. يحصل على الحد العلوي.
+linktitle: Top
+articleTitle: Top
+second_title: Aspose.Words لـ .NET
+description: BorderCollection Top ملكية. يحصل على الحد العلوي في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/bordercollection/top/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bordercollection/top/
 public Border Top { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق لون الحدود والتظليل أثناء إنشاء الجدول.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* مساحة الاسم [Aspose.Words](../../bordercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Run.IsPhoneticGuide
-second_title: Aspose.Words för .NET API Referens
-description: Run fast egendom. Får ett booleskt värde som anger att antingen körningen är en fonetisk guide.
+linktitle: IsPhoneticGuide
+articleTitle: IsPhoneticGuide
+second_title: Aspose.Words för .NET
+description: Run IsPhoneticGuide fast egendom. Får ett booleskt värde som anger att antingen körningen är en fonetisk guide i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/run/isphoneticguide/
@@ -14,7 +16,7 @@ Får ett booleskt värde som anger att antingen körningen är en fonetisk guide
 public bool IsPhoneticGuide { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får egenskaper för den fonetiska guiden.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### Se även
 
 * class [Run](../)
-* namnutrymme [Aspose.Words](../../run/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

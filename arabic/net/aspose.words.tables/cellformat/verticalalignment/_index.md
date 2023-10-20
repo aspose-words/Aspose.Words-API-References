@@ -1,9 +1,11 @@
 ---
 title: CellFormat.VerticalAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: CellFormat ملكية. إرجاع أو تعيين المحاذاة الرأسية للنص في الخلية.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words لـ .NET
+description: CellFormat VerticalAlignment ملكية. إرجاع أو تعيين المحاذاة الرأسية للنص في الخلية في C#.
 type: docs
-weight: 120
+weight: 110
 url: /ar/net/aspose.words.tables/cellformat/verticalalignment/
 ---
 ## CellFormat.VerticalAlignment property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cellformat/verticalalignment/
 public CellVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول بحدود مخصصة.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * enum [CellVerticalAlignment](../../cellverticalalignment/)
 * class [CellFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cellformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

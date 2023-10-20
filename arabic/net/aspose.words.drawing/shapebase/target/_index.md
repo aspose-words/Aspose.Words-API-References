@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Target
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على الإطار المستهدف للارتباط التشعبي للشكل أو تعيينه.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words لـ .NET
+description: ShapeBase Target ملكية. الحصول على الإطار المستهدف للارتباط التشعبي للشكل أو تعيينه في C#.
 type: docs
 weight: 520
 url: /ar/net/aspose.words.drawing/shapebase/target/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/shapebase/target/
 public string Target { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج شكل يحتوي على صورة، ويكون أيضًا ارتباطًا تشعبيًا.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

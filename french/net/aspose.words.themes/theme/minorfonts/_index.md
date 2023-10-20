@@ -1,7 +1,9 @@
 ---
 title: Theme.MinorFonts
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Theme propriété. Permet de spécifier lensemble des polices mineures pour différentes langues.
+linktitle: MinorFonts
+articleTitle: MinorFonts
+second_title: Aspose.Words pour .NET
+description: Theme MinorFonts propriété. Permet de spécifier lensemble des polices mineures pour différentes langues en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.themes/theme/minorfonts/
@@ -14,7 +16,7 @@ Permet de spécifier l'ensemble des polices mineures pour différentes langues.
 public ThemeFonts MinorFonts { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir des couleurs et des polices personnalisées pour les thèmes.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeFonts](../../themefonts/)
 * class [Theme](../)
-* espace de noms [Aspose.Words.Themes](../../theme/)
+* espace de noms [Aspose.Words.Themes](../../../aspose.words.themes/)
 * Assemblée [Aspose.Words](../../../)
-
-

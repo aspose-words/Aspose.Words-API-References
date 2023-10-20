@@ -1,7 +1,9 @@
 ---
 title: FieldPrint.PostScriptGroup
-second_title: Aspose.Words for .NET API Referansı
-description: FieldPrint mülk. PostScript talimatlarının üzerinde çalıştığı çizim dikdörtgenini alır veya ayarlar.
+linktitle: PostScriptGroup
+articleTitle: PostScriptGroup
+second_title: Aspose.Words for .NET
+description: FieldPrint PostScriptGroup mülk. PostScript talimatlarının üzerinde çalıştığı çizim dikdörtgenini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldprint/postscriptgroup/
@@ -14,7 +16,7 @@ PostScript talimatlarının üzerinde çalıştığı çizim dikdörtgenini alı
 public string PostScriptGroup { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 PRINT alanının eklenmesini gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Field.PRINT.docx");
 ### Ayrıca bakınız
 
 * class [FieldPrint](../)
-* ad alanı [Aspose.Words.Fields](../../fieldprint/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

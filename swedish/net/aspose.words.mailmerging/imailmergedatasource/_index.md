@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeDataSource
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.MailMerging.IMailMergeDataSource gränssnitt. Implementera detta gränssnitt för att tillåta sammanslagning av epost från en anpassad datakälla till exempel en lista med objekt. Masterdetalj data stöds också.
+title: IMailMergeDataSource Interface
+linktitle: IMailMergeDataSource
+articleTitle: IMailMergeDataSource
+second_title: Aspose.Words för .NET
+description: Aspose.Words.MailMerging.IMailMergeDataSource gränssnitt. Implementera detta gränssnitt för att tillåta sammanslagning av epost från en anpassad datakälla till exempel en lista med objekt. Masterdetalj data stöds också i C#.
 type: docs
 weight: 3810
 url: /sv/net/aspose.words.mailmerging/imailmergedatasource/
@@ -24,15 +26,15 @@ public interface IMailMergeDataSource
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(string) | Aspose.Words kopplingsmotor anropar den här metoden när den stöter på början av en kapslad kopplingsregion. |
-| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(string, out object) | Returnerar ett värde för det angivna fältnamnet eller`falsk` om fältet inte hittas. |
+| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | Aspose.Words kopplingsmotor anropar den här metoden när den stöter på början av en kapslad kopplingsregion. |
+| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(*string, out object*) | Returnerar ett värde för det angivna fältnamnet eller`falsk` om fältet inte hittas. |
 | [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | Avancerar till nästa post i datakällan. |
 
-### Anmärkningar
+## Anmärkningar
 
 När en datakälla skapas ska den initieras så att den pekar på BOF (före den första posten). Aspose.Words e-postsammanfogningsmotor kommer att anropa[`MoveNext`](./movenext/) för att gå vidare till nästa post och anropa sedan[`GetValue`](./getvalue/) för varje kopplingsfält som det stöter på i dokumentet eller den aktuella kopplingsregionen.
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med en datakälla i form av ett anpassat objekt.
 
@@ -147,5 +149,3 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 
 * namnutrymme [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../)
-
-

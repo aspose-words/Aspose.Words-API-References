@@ -1,7 +1,9 @@
 ---
-title: Enum CommentDisplayMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Layout.CommentDisplayMode перечисление. Определяет режим рендеринга комментариев к документу.
+title: CommentDisplayMode Enum
+linktitle: CommentDisplayMode
+articleTitle: CommentDisplayMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Layout.CommentDisplayMode перечисление. Определяет режим рендеринга комментариев к документу на С#.
 type: docs
 weight: 3290
 url: /ru/net/aspose.words.layout/commentdisplaymode/
@@ -22,7 +24,7 @@ public enum CommentDisplayMode
 | ShowInBalloons | `1` | Отображает комментарии к документу в виде выносок на полях. Это значение по умолчанию. |
 | ShowInAnnotations | `2` | Отображает комментарии к документу в аннотациях. Это доступно только для формата PDF. |
 
-### Примеры
+## Примеры
 
 Показывает, как отображать комментарии при сохранении документа в визуализированном формате.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Document.ShowCommentsInBalloons.pdf");
 
 * пространство имен [Aspose.Words.Layout](../../aspose.words.layout/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.LegendEntry
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeries ملكية. الحصول على إدخال وسيلة إيضاح لسلسلة المخططات هذه.
+linktitle: LegendEntry
+articleTitle: LegendEntry
+second_title: Aspose.Words لـ .NET
+description: ChartSeries LegendEntry ملكية. الحصول على إدخال وسيلة إيضاح لسلسلة المخططات هذه في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.drawing.charts/chartseries/legendentry/
@@ -18,7 +20,5 @@ public ChartLegendEntry LegendEntry { get; }
 
 * class [ChartLegendEntry](../../chartlegendentry/)
 * class [ChartSeries](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseries/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

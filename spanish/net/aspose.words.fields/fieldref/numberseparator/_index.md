@@ -1,7 +1,9 @@
 ---
 title: FieldRef.NumberSeparator
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldRef propiedad. Obtiene o establece la secuencia de caracteres que se utiliza para separar los números de secuencia y los números de página.
+linktitle: NumberSeparator
+articleTitle: NumberSeparator
+second_title: Aspose.Words para .NET
+description: FieldRef NumberSeparator propiedad. Obtiene o establece la secuencia de caracteres que se utiliza para separar los números de secuencia y los números de página en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.fields/fieldref/numberseparator/
@@ -14,7 +16,7 @@ Obtiene o establece la secuencia de caracteres que se utiliza para separar los n
 public string NumberSeparator { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar campos REF para hacer referencia a marcadores.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Ver también
 
 * class [FieldRef](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldref/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

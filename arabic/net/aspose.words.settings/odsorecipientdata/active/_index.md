@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Active
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoRecipientData ملكية. تحديد ما إذا كان سيتم استيراد السجل من مصدر البيانات إلى مستند عند إجراء دمج المراسلات. القيمة الافتراضية هيحقيقي .
+linktitle: Active
+articleTitle: Active
+second_title: Aspose.Words لـ .NET
+description: OdsoRecipientData Active ملكية. تحديد ما إذا كان سيتم استيراد السجل من مصدر البيانات إلى مستند عند إجراء دمج المراسلات. القيمة الافتراضية هيحقيقي  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.settings/odsorecipientdata/active/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odsorecipientdata/active/
 public bool Active { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### أنظر أيضا
 
 * class [OdsoRecipientData](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsorecipientdata/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShadowFormat.Visible
-second_title: Справочник по API Aspose.Words для .NET
-description: ShadowFormat свойство. Возвращаетистинный если форматирование примененное к этому экземпляру видимо.
+linktitle: Visible
+articleTitle: Visible
+second_title: Aspose.Words для .NET
+description: ShadowFormat Visible свойство. Возвращаетистинный если форматирование примененное к этому экземпляру видимо на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/shadowformat/visible/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/shadowformat/visible/
 public bool Visible { get; }
 ```
 
-### Примечания
+## Примечания
 
 В отличие от[`Clear`](../clear/) , назначение`ЛОЖЬ` to Visible не очищает форматирование, он только скрывает эффект формы.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с форматированием тени для фигуры.
 
@@ -36,7 +38,5 @@ if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
 ### Смотрите также
 
 * class [ShadowFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../shadowformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

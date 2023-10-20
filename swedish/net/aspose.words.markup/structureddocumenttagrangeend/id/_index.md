@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTagRangeEnd.Id
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeEnd fast egendom. Anger ett unikt skrivskyddat beständigt numeriskt ID för detta StructuredDocumentTagRange node. MotsvarandeStructuredDocumentTagRangeStart noden har sammaId .
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeEnd Id fast egendom. Anger ett unikt skrivskyddat beständigt numeriskt ID för dettaStructuredDocumentTagRange node. MotsvarandeStructuredDocumentTagRangeStart noden har sammaId  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-Anger ett unikt skrivskyddat beständigt numeriskt ID för detta **StructuredDocumentTagRange** node. Motsvarande[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) noden har samma[`Id`](../../structureddocumenttagrangestart/id/) .
+Anger ett unikt skrivskyddat beständigt numeriskt ID för detta**StructuredDocumentTagRange** node. Motsvarande[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) noden har samma[`Id`](../../structureddocumenttagrangestart/id/) .
 
 ```csharp
 public int Id { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Se även
 
 * class [StructuredDocumentTagRangeEnd](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangeend/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: OutlineOptions.OutlineOptions
-second_title: Aspose.Words per .NET API Reference
-description: OutlineOptions costruttore. Default_Costruttore
+title: OutlineOptions
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words per .NET
+description: OutlineOptions costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/outlineoptions/outlineoptions/
@@ -17,7 +19,5 @@ public OutlineOptions()
 ### Guarda anche
 
 * class [OutlineOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../outlineoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RowFormat.ClearFormatting
-second_title: Aspose.Words for .NET API Referansı
-description: RowFormat yöntem. Varsayılan satır formatına sıfırlar.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words for .NET
+description: RowFormat ClearFormatting yöntem. Varsayılan satır formatına sıfırlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.tables/rowformat/clearformatting/
@@ -14,7 +16,7 @@ Varsayılan satır formatına sıfırlar.
 public void ClearFormatting()
 ```
 
-### Örnekler
+## Örnekler
 
 Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Ayrıca bakınız
 
 * class [RowFormat](../)
-* ad alanı [Aspose.Words.Tables](../../rowformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

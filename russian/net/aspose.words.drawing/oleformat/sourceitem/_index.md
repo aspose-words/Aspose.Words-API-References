@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SourceItem
-second_title: Справочник по API Aspose.Words для .NET
-description: OleFormat свойство. Получает или задает строку которая используется для идентификации части исходного файла на которую осуществляется ссылка.
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: Aspose.Words для .NET
+description: OleFormat SourceItem свойство. Получает или задает строку которая используется для идентификации части исходного файла на которую осуществляется ссылка на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.drawing/oleformat/sourceitem/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/oleformat/sourceitem/
 public string SourceItem { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — пустая строка.
 
 Например, если исходным файлом является книга Microsoft Excel,`SourceItem` Свойство может возвращать «Workbook1!R3C1:R4C2», если объект OLE содержит только несколько ячеек из рабочего листа.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять связанные и несвязанные объекты OLE.
 
@@ -70,7 +72,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Смотрите также
 
 * class [OleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../oleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

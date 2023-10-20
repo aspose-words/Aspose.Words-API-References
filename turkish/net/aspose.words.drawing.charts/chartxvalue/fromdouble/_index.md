@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromDouble
-second_title: Aspose.Words for .NET API Referansı
-description: ChartXValue yöntem. Bir oluştururChartXValue örneğiDouble type.
+linktitle: FromDouble
+articleTitle: FromDouble
+second_title: Aspose.Words for .NET
+description: ChartXValue FromDouble yöntem. Bir oluştururChartXValue örneğiDouble type C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartxvalue/fromdouble/
@@ -14,7 +16,7 @@ Bir oluşturur[`ChartXValue`](../) örneğiDouble type.
 public static ChartXValue FromDouble(double value)
 ```
 
-### Örnekler
+## Örnekler
 
 Grafik serisinin verilerle nasıl doldurulacağını gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ### Ayrıca bakınız
 
 * class [ChartXValue](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

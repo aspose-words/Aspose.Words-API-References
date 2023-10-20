@@ -1,7 +1,9 @@
 ---
 title: Section.ProtectedForForms
-second_title: Aspose.Words for .NET API 参考
-description: Section 财产. 如果该部分受表单保护则为真当某个部分受到表单保护时 用户只能选择和修改 Microsoft Word 中表单字段中的文本
+linktitle: ProtectedForForms
+articleTitle: ProtectedForForms
+second_title: 用于 .NET 的 Aspose.Words
+description: Section ProtectedForForms 财产. 如果该部分受表单保护则为真当某个部分受到表单保护时 用户只能选择和修改 Microsoft Word 中表单字段中的文本 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/section/protectedforforms/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/section/protectedforforms/
 public bool ProtectedForForms { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何关闭某个部分的保护。
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 ### 也可以看看
 
 * class [Section](../)
-* 命名空间 [Aspose.Words](../../section/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

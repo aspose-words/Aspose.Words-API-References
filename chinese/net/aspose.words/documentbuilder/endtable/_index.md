@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndTable
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 结束文档中的表格
+linktitle: EndTable
+articleTitle: EndTable
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder EndTable 方法. 结束文档中的表格 在 C#.
 type: docs
 weight: 250
 url: /zh/net/aspose.words/documentbuilder/endtable/
@@ -18,11 +20,11 @@ public Table EndTable()
 
 刚刚完成的表节点。
 
-### 评论
+## 评论
 
 此方法只应在之后调用一次[`EndRow`](../endrow/)被称为。当调用时， `EndTable`将光标移出当前单元格以指向表格后面。
 
-### 例子
+## 例子
 
 演示如何使用文档生成器设置单元格格式。
 
@@ -172,7 +174,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

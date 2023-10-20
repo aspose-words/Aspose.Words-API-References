@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.InsertAsRtf
-second_title: Aspose.Words per .NET API Reference
-description: FieldDdeAuto proprietà. Ottiene o imposta se inserire loggetto collegato in formato richtext RTF.
+linktitle: InsertAsRtf
+articleTitle: InsertAsRtf
+second_title: Aspose.Words per .NET
+description: FieldDdeAuto InsertAsRtf proprietà. Ottiene o imposta se inserire loggetto collegato in formato richtext RTF in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldddeauto/insertasrtf/
@@ -14,7 +16,7 @@ Ottiene o imposta se inserire l'oggetto collegato in formato rich-text (RTF).
 public bool InsertAsRtf { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare vari tipi di campo per collegarsi ad altri documenti nel file system locale e visualizzarne il contenuto.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Guarda anche
 
 * class [FieldDdeAuto](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldddeauto/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.ZoomType
-second_title: Aspose.Words for .NET API Referansı
-description: ViewOptions mülk. Pencerenin boyutuna göre bir yakınlaştırma değeri alır veya ayarlar.
+linktitle: ZoomType
+articleTitle: ZoomType
+second_title: Aspose.Words for .NET
+description: ViewOptions ZoomType mülk. Pencerenin boyutuna göre bir yakınlaştırma değeri alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.settings/viewoptions/zoomtype/
@@ -14,7 +16,7 @@ Pencerenin boyutuna göre bir yakınlaştırma değeri alır veya ayarlar.
 public ZoomType ZoomType { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Microsoft Word'ün eski sürümlerinin yükleme sırasında bir belgeye uygulayacağı özel yakınlaştırma faktörünün nasıl ayarlanacağını gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");
 
 * enum [ZoomType](../../zoomtype/)
 * class [ViewOptions](../)
-* ad alanı [Aspose.Words.Settings](../../viewoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

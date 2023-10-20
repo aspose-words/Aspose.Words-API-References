@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.FirstColumn
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyleCollection свойство. Получает стиль первого столбца.
+linktitle: FirstColumn
+articleTitle: FirstColumn
+second_title: Aspose.Words для .NET
+description: ConditionalStyleCollection FirstColumn свойство. Получает стиль первого столбца на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/conditionalstylecollection/firstcolumn/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstylecollection/firstcolumn/
 public ConditionalStyle FirstColumn { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* пространство имен [Aspose.Words](../../conditionalstylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

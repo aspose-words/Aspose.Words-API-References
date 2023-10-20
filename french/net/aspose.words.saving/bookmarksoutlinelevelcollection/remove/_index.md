@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Remove
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarksOutlineLevelCollection méthode. Supprime un signet portant le nom spécifié de la collection.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words pour .NET
+description: BookmarksOutlineLevelCollection Remove méthode. Supprime un signet portant le nom spécifié de la collection en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.saving/bookmarksoutlinelevelcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Le nom du signet qui ne respecte pas la casse. |
 
-### Exemples
+## Exemples
 
 Montre comment définir les niveaux de plan pour les signets.
 
@@ -76,7 +78,5 @@ outlineLevels.Clear();
 ### Voir également
 
 * class [BookmarksOutlineLevelCollection](../)
-* espace de noms [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

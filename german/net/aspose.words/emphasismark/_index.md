@@ -1,7 +1,9 @@
 ---
-title: Enum EmphasisMark
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.EmphasisMark opsomming. Gibt mögliche Arten von Hervorhebungsmarkierungen an.
+title: EmphasisMark Enum
+linktitle: EmphasisMark
+articleTitle: EmphasisMark
+second_title: Aspose.Words für .NET
+description: Aspose.Words.EmphasisMark opsomming. Gibt mögliche Arten von Hervorhebungsmarkierungen an in C#.
 type: docs
 weight: 1460
 url: /de/net/aspose.words/emphasismark/
@@ -24,7 +26,7 @@ public enum EmphasisMark
 | OverWhiteCircle | `3` | Hervorhebungszeichen ist ein leerer weißer Kreis, der über dem Text angezeigt wird. |
 | UnderSolidCircle | `4` | Hervorhebungszeichen ist ein durchgehender schwarzer Kreis, der unter dem Text angezeigt wird. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man zusätzliche Zeichen hinzufügt, die über/unter dem Glyphenzeichen gerendert werden.
 
@@ -47,5 +49,3 @@ builder.Document.Save(ArtifactsDir + "Fonts.SetEmphasisMark.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

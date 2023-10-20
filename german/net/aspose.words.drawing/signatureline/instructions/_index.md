@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.Instructions
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignatureLine eigendom. Ruft Anweisungen an den Unterzeichner ab oder legt diese fest die beim Signieren der Signaturzeile angezeigt werden. Diese Eigenschaft wird ignoriert wennDefaultInstructionsist set. Der Standardwert für diese Eigenschaft ist leerer String Empty.
+linktitle: Instructions
+articleTitle: Instructions
+second_title: Aspose.Words für .NET
+description: SignatureLine Instructions eigendom. Ruft Anweisungen an den Unterzeichner ab oder legt diese fest die beim Signieren der Signaturzeile angezeigt werden. Diese Eigenschaft wird ignoriert wennDefaultInstructionsist set. Der Standardwert für diese Eigenschaft istleerer String Empty in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-Ruft Anweisungen an den Unterzeichner ab oder legt diese fest, die beim Signieren der Signaturzeile angezeigt werden. Diese Eigenschaft wird ignoriert, wenn[`DefaultInstructions`](../defaultinstructions/)ist set. Der Standardwert für diese Eigenschaft ist **leerer String** (Empty).
+Ruft Anweisungen an den Unterzeichner ab oder legt diese fest, die beim Signieren der Signaturzeile angezeigt werden. Diese Eigenschaft wird ignoriert, wenn[`DefaultInstructions`](../defaultinstructions/)ist set. Der Standardwert für diese Eigenschaft ist**leerer String** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Zeile für eine Signatur erstellt und in ein Dokument eingefügt wird.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Siehe auch
 
 * class [SignatureLine](../)
-* namensraum [Aspose.Words.Drawing](../../signatureline/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

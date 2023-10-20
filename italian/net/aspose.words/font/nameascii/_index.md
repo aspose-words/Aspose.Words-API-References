@@ -1,7 +1,9 @@
 ---
 title: Font.NameAscii
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Restituisce o imposta il carattere utilizzato per il testo latino caratteri con codici carattere da 0 zero a 127.
+linktitle: NameAscii
+articleTitle: NameAscii
+second_title: Aspose.Words per .NET
+description: Font NameAscii proprietà. Restituisce o imposta il carattere utilizzato per il testo latino caratteri con codici carattere da 0 zero a 127 in C#.
 type: docs
 weight: 240
 url: /it/net/aspose.words/font/nameascii/
@@ -14,7 +16,7 @@ Restituisce o imposta il carattere utilizzato per il testo latino (caratteri con
 public string NameAscii { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come Microsoft Word può combinare due caratteri diversi in un'unica esecuzione.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

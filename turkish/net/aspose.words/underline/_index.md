@@ -1,7 +1,9 @@
 ---
-title: Enum Underline
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Underline Sıralama. Fonta uygulanan alt çizginin türünü belirtir.
+title: Underline Enum
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Underline Sıralama. Fonta uygulanan alt çizginin türünü belirtir C#'da.
 type: docs
 weight: 6510
 url: /tr/net/aspose.words/underline/
@@ -37,7 +39,7 @@ public enum Underline
 | WavyHeavy | `27` |  |
 | WavyDouble | `43` |  |
 
-### Örnekler
+## Örnekler
 
 Köprü alanının nasıl ekleneceğini gösterir.
 
@@ -63,5 +65,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderDistanceFrom
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Hämtar eller ställer in ett värde som anger om den angivna sidkanten mäts från sidans kant eller från texten den omger.
+linktitle: BorderDistanceFrom
+articleTitle: BorderDistanceFrom
+second_title: Aspose.Words för .NET
+description: PageSetup BorderDistanceFrom fast egendom. Hämtar eller ställer in ett värde som anger om den angivna sidkanten mäts från sidans kant eller från texten den omger i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/pagesetup/borderdistancefrom/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som anger om den angivna sidkanten mäts fr
 public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en bred blå bandkant längst upp på första sidan.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 
 * enum [PageBorderDistanceFrom](../../pageborderdistancefrom/)
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BibliographyStylesProvider
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или задает поставщика который возвращает стиль библиографии для FieldBibliography иFieldCitation поля.
+linktitle: BibliographyStylesProvider
+articleTitle: BibliographyStylesProvider
+second_title: Aspose.Words для .NET
+description: FieldOptions BibliographyStylesProvider свойство. Получает или задает поставщика который возвращает стиль библиографии для FieldBibliography иFieldCitation поля на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldoptions/bibliographystylesprovider/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldoptions/bibliographystylesprovider/
 public IBibliographyStylesProvider BibliographyStylesProvider { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как переопределить встроенные стили или использовать собственные.
 
@@ -42,7 +44,5 @@ public class BibliographyStylesProvider : IBibliographyStylesProvider
 
 * interface [IBibliographyStylesProvider](../../ibibliographystylesprovider/)
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

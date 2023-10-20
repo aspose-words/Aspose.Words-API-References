@@ -1,12 +1,14 @@
 ---
 title: FontSettings.SetFontsSources
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSettings método. Establece las fuentes donde Aspose.Words busca fuentes TrueType al renderizar documentos o incrustar fuentes.
+linktitle: SetFontsSources
+articleTitle: SetFontsSources
+second_title: Aspose.Words para .NET
+description: FontSettings SetFontsSources método. Establece las fuentes donde Aspose.Words busca fuentes TrueType al renderizar documentos o incrustar fuentes en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.fonts/fontsettings/setfontssources/
 ---
-## SetFontsSources(FontSourceBase[]) {#setfontssources}
+## SetFontsSources(*FontSourceBase[]*) {#setfontssources}
 
 Establece las fuentes donde Aspose.Words busca fuentes TrueType al renderizar documentos o incrustar fuentes.
 
@@ -18,13 +20,13 @@ public void SetFontsSources(FontSourceBase[] sources)
 | --- | --- | --- |
 | sources | FontSourceBase[] | Una variedad de fuentes que contienen fuentes TrueType. |
 
-### Observaciones
+## Observaciones
 
 De forma predeterminada, Aspose.Words busca fuentes instaladas en el sistema.
 
 Establecer esta propiedad restablece el caché de todas las fuentes cargadas anteriormente.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar una fuente de fuente a nuestras fuentes de fuentes existentes.
 
@@ -74,12 +76,12 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontsettings/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## SetFontsSources(FontSourceBase[], Stream) {#setfontssources_1}
+## SetFontsSources(*FontSourceBase[], Stream*) {#setfontssources_1}
 
 Establece las fuentes donde Aspose.Words busca fuentes TrueType y, además, carga la caché de búsqueda de fuentes previamente guardada .
 
@@ -92,7 +94,7 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 | sources | FontSourceBase[] | Una variedad de fuentes que contienen fuentes TrueType. |
 | cacheInputStream | Stream | Flujo de entrada con caché de búsqueda de fuentes guardadas. |
 
-### Observaciones
+## Observaciones
 
 Cargar la caché de búsqueda de fuentes previamente guardada acelerará el proceso de inicialización de la caché de fuentes. Es especialmente útil cuando el acceso a las fuentes de fuentes es complicado (por ejemplo, cuando las fuentes se cargan a través de la red).
 
@@ -100,7 +102,7 @@ Al guardar y cargar el caché de búsqueda de fuentes, las fuentes en las fuente
 
 Se recomienda encarecidamente proporcionar las mismas fuentes de fuentes al cargar el caché que en el momento en que se guardó. Cualquier cambio en las fuentes de fuentes (por ejemplo, agregar nuevas fuentes, mover archivos de fuentes o cambiar la clave de caché) puede provocar que la fuente sea inexacta. resolviendo por Aspose.Words.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acelerar el proceso de inicialización de la caché de fuentes.
 
@@ -152,7 +154,5 @@ private class SearchCacheStream : StreamFontSource
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontsettings/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

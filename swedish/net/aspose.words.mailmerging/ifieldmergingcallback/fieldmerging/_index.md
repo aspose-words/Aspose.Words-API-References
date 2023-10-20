@@ -1,7 +1,9 @@
 ---
 title: IFieldMergingCallback.FieldMerging
-second_title: Aspose.Words för .NET API Referens
-description: IFieldMergingCallback metod. Anropas när kopplingsmotorn i Aspose.Words håller på att infoga data i ett sammanfogningsfält i dokumentet.
+linktitle: FieldMerging
+articleTitle: FieldMerging
+second_title: Aspose.Words för .NET
+description: IFieldMergingCallback FieldMerging metod. Anropas när kopplingsmotorn i Aspose.Words håller på att infoga data i ett sammanfogningsfält i dokumentet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/
@@ -14,7 +16,7 @@ Anropas när kopplingsmotorn i Aspose.Words håller på att infoga data i ett sa
 public void FieldMerging(FieldMergingArgs args)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar bilder lagrade i ett databas BLOB-fält i en rapport.
 
@@ -127,7 +129,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [FieldMergingArgs](../../fieldmergingargs/)
 * interface [IFieldMergingCallback](../)
-* namnutrymme [Aspose.Words.MailMerging](../../ifieldmergingcallback/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

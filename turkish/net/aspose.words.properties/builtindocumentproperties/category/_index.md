@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Category
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Belgenin kategorisini alır veya ayarlar.
+linktitle: Category
+articleTitle: Category
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties Category mülk. Belgenin kategorisini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.properties/builtindocumentproperties/category/
@@ -14,7 +16,7 @@ Belgenin kategorisini alır veya ayarlar.
 public string Category { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 "Açıklama" kategorisinde yerleşik belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreFootnotes
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompareOptions propriété. Spécifie sil faut comparer les différences entre les notes de bas de page et les notes de fin. Par défaut les notes de bas de page ne sont pas ignorées.
+linktitle: IgnoreFootnotes
+articleTitle: IgnoreFootnotes
+second_title: Aspose.Words pour .NET
+description: CompareOptions IgnoreFootnotes propriété. Spécifie sil faut comparer les différences entre les notes de bas de page et les notes de fin. Par défaut les notes de bas de page ne sont pas ignorées en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.comparing/compareoptions/ignorefootnotes/
@@ -14,7 +16,7 @@ Spécifie s'il faut comparer les différences entre les notes de bas de page et 
 public bool IgnoreFootnotes { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment filtrer des types spécifiques d’éléments de document lors d’une comparaison.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Voir également
 
 * class [CompareOptions](../)
-* espace de noms [Aspose.Words.Comparing](../../compareoptions/)
+* espace de noms [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * Assemblée [Aspose.Words](../../../)
-
-

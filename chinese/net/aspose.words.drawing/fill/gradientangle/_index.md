@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientAngle
-second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获取或设置渐变填充的角度
+linktitle: GradientAngle
+articleTitle: GradientAngle
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill GradientAngle 财产. 获取或设置渐变填充的角度 在 C#.
 type: docs
-weight: 100
+weight: 90
 url: /zh/net/aspose.words.drawing/fill/gradientangle/
 ---
 ## Fill.GradientAngle property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/fill/gradientangle/
 public double GradientAngle { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用渐变填充形状。
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 ### 也可以看看
 
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

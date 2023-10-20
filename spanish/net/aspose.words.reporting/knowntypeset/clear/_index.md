@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.Clear
-second_title: Referencia de API de Aspose.Words para .NET
-description: KnownTypeSet método. Elimina todos los elementos del conjunto.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words para .NET
+description: KnownTypeSet Clear método. Elimina todos los elementos del conjunto en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.reporting/knowntypeset/clear/
@@ -17,7 +19,5 @@ public void Clear()
 ### Ver también
 
 * class [KnownTypeSet](../)
-* espacio de nombres [Aspose.Words.Reporting](../../knowntypeset/)
+* espacio de nombres [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * asamblea [Aspose.Words](../../../)
-
-

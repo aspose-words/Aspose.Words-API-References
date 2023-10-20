@@ -1,7 +1,9 @@
 ---
-title: Interface INodeChangingCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.INodeChangingCallback 界面. 如果您希望在文档中插入或删除节点时收到通知请实现此接口
+title: INodeChangingCallback Interface
+linktitle: INodeChangingCallback
+articleTitle: INodeChangingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.INodeChangingCallback 界面. 如果您希望在文档中插入或删除节点时收到通知请实现此接口 在 C#.
 type: docs
 weight: 3200
 url: /zh/net/aspose.words/inodechangingcallback/
@@ -18,12 +20,12 @@ public interface INodeChangingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(NodeChangingArgs) | 当属于此文档的节点已插入到另一个节点时调用。 |
-| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | 在属于该文档的节点即将插入另一个节点之前调用。 |
-| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(NodeChangingArgs) | 当属于此文档的节点已从其父节点中删除时调用。 |
-| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(NodeChangingArgs) | 在属于该文档的节点即将从文档中删除之前调用。 |
+| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(*[NodeChangingArgs](../nodechangingargs/)*) | 当属于此文档的节点已插入到另一个节点时调用。 |
+| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(*[NodeChangingArgs](../nodechangingargs/)*) | 在属于该文档的节点即将插入另一个节点之前调用。 |
+| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(*[NodeChangingArgs](../nodechangingargs/)*) | 当属于此文档的节点已从其父节点中删除时调用。 |
+| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(*[NodeChangingArgs](../nodechangingargs/)*) | 在属于该文档的节点即将从文档中删除之前调用。 |
 
-### 例子
+## 例子
 
 展示如何通过回调自定义节点更改。
 
@@ -101,5 +103,3 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

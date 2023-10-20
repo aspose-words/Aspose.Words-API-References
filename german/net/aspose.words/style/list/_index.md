@@ -1,7 +1,9 @@
 ---
 title: Style.List
-second_title: Aspose.Words für .NET-API-Referenz
-description: Style eigendom. Ruft die Liste ab die die Formatierung dieses Listenstils definiert.
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words für .NET
+description: Style List eigendom. Ruft die Liste ab die die Formatierung dieses Listenstils definiert in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words/style/list/
@@ -14,11 +16,11 @@ Ruft die Liste ab, die die Formatierung dieses Listenstils definiert.
 public List List { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft ist nur für Listenstile gültig. Für andere Stiltypen gibt diese Eigenschaft zurück`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Listenstil erstellt und in einem Dokument verwendet wird.
 
@@ -80,7 +82,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 
 * class [List](../../../aspose.words.lists/list/)
 * class [Style](../)
-* namensraum [Aspose.Words](../../style/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class SystemFontSource
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.SystemFontSource сорт. Представляет все шрифты TrueType установленные в системе.
+title: SystemFontSource Class
+linktitle: SystemFontSource
+articleTitle: SystemFontSource
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.SystemFontSource сорт. Представляет все шрифты TrueType установленные в системе на С#.
 type: docs
 weight: 3050
 url: /ru/net/aspose.words.fonts/systemfontsource/
@@ -21,7 +23,7 @@ public class SystemFontSource : FontSourceBase
 | Имя | Описание |
 | --- | --- |
 | [SystemFontSource](systemfontsource/#constructor)() | Cтор. |
-| [SystemFontSource](systemfontsource/#constructor_1)(int) | Cтор. |
+| [SystemFontSource](systemfontsource/#constructor_1)(*int*) | Cтор. |
 
 ## Характеристики
 
@@ -38,7 +40,7 @@ public class SystemFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Возвращает список шрифтов, доступных через этот источник. |
 | static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders/)() | Возвращает папки системных шрифтов или пустой массив, если папки недоступны. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
 
@@ -96,5 +98,3 @@ Assert.AreEqual(1,
 * class [FontSourceBase](../fontsourcebase/)
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

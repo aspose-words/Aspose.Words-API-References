@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.GetById
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlPartCollection метод. Находит и возвращает пользовательскую часть XML по ее идентификатору.
+linktitle: GetById
+articleTitle: GetById
+second_title: Aspose.Words для .NET
+description: CustomXmlPartCollection GetById метод. Находит и возвращает пользовательскую часть XML по ее идентификатору на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.markup/customxmlpartcollection/getbyid/
@@ -22,7 +24,7 @@ public CustomXmlPart GetById(string id)
 
 Возврат`нулевой` если пользовательская часть XML с указанным идентификатором не найдена.
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа с пользовательскими данными XML.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpartcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

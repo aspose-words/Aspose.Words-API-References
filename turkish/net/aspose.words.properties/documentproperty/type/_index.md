@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Type
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentProperty mülk. Özelliğin veri türünü alır.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: DocumentProperty Type mülk. Özelliğin veri türünü alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.properties/documentproperty/type/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.properties/documentproperty/type/
 public PropertyType Type { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerleşik belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -104,7 +106,5 @@ Assert.AreEqual(0, properties.Count);
 
 * enum [PropertyType](../../propertytype/)
 * class [DocumentProperty](../)
-* ad alanı [Aspose.Words.Properties](../../documentproperty/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

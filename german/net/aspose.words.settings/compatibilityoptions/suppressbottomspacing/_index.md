@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SuppressBottomSpacing
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Genaue Zeilenhöhe für letzte Zeile auf Seite ignorieren.
+linktitle: SuppressBottomSpacing
+articleTitle: SuppressBottomSpacing
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions SuppressBottomSpacing eigendom. Genaue Zeilenhöhe für letzte Zeile auf Seite ignorieren in C#.
 type: docs
 weight: 480
 url: /de/net/aspose.words.settings/compatibilityoptions/suppressbottomspacing/
@@ -17,7 +19,5 @@ public bool SuppressBottomSpacing { get; set; }
 ### Siehe auch
 
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Inline.IsFormatRevision
-second_title: Справочник по API Aspose.Words для .NET
-description: Inline свойство. Возвращает true если форматирование объекта было изменено в Microsoft Word при включенном отслеживании изменений.
+linktitle: IsFormatRevision
+articleTitle: IsFormatRevision
+second_title: Aspose.Words для .NET
+description: Inline IsFormatRevision свойство. Возвращает true если форматирование объекта было изменено в Microsoft Word при включенном отслеживании изменений на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/inline/isformatrevision/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/inline/isformatrevision/
 public bool IsFormatRevision { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить тип редакции встроенного узла.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### Смотрите также
 
 * class [Inline](../)
-* пространство имен [Aspose.Words](../../inline/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

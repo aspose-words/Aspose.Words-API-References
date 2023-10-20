@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Name
-second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlock mülk. Bu yapı bloğunun adını alır veya ayarlar.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words for .NET
+description: BuildingBlock Name mülk. Bu yapı bloğunun adını alır veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.buildingblocks/buildingblock/name/
@@ -14,15 +16,15 @@ Bu yapı bloğunun adını alır veya ayarlar.
 public string Name { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Ad, genellikle kolay bir tanımlayıcı olan herhangi bir dize içeriğini içerebilir. Birden çok yapı taşı aynı ada sahip olabilir.
 
 Olamaz`hükümsüz` ve boş bir dize olamaz.
 
-karşılık gelir **docPartPr.name** OOXML'deki öğe.
+karşılık gelir**docPartPr.name** OOXML'deki öğe.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [BuildingBlock](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

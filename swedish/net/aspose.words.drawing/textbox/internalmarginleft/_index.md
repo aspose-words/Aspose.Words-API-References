@@ -1,7 +1,9 @@
 ---
 title: TextBox.InternalMarginLeft
-second_title: Aspose.Words för .NET API Referens
-description: TextBox fast egendom. Anger den inre vänstra marginalen i punkter för en form.
+linktitle: InternalMarginLeft
+articleTitle: InternalMarginLeft
+second_title: Aspose.Words för .NET
+description: TextBox InternalMarginLeft fast egendom. Anger den inre vänstra marginalen i punkter för en form i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing/textbox/internalmarginleft/
@@ -14,11 +16,11 @@ Anger den inre vänstra marginalen i punkter för en form.
 public double InternalMarginLeft { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är 1/10 tum.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in interna marginaler för en textruta.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxMargins.docx");
 ### Se även
 
 * class [TextBox](../)
-* namnutrymme [Aspose.Words.Drawing](../../textbox/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

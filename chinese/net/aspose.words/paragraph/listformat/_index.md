@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ListFormat
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 提供对段落的列表格式属性的访问
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph ListFormat 财产. 提供对段落的列表格式属性的访问 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words/paragraph/listformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/listformat/
 public ListFormat ListFormat { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何输出文档中作为列表项的所有段落。
 
@@ -47,7 +49,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

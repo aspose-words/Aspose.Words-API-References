@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ThresholdForFloydSteinbergDithering
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSaveOptions eigendom. Ruft den Schwellenwert ab oder legt diesen fest der den Wert des Binärisierungsfehlers in der FloydSteinbergMethode bestimmt. wannImageBinarizationMethod IstFloydSteinbergDithering .
+linktitle: ThresholdForFloydSteinbergDithering
+articleTitle: ThresholdForFloydSteinbergDithering
+second_title: Aspose.Words für .NET
+description: ImageSaveOptions ThresholdForFloydSteinbergDithering eigendom. Ruft den Schwellenwert ab oder legt diesen fest der den Wert des Binärisierungsfehlers in der FloydSteinbergMethode bestimmt. wannImageBinarizationMethod IstFloydSteinbergDithering  in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/
@@ -14,11 +16,11 @@ Ruft den Schwellenwert ab oder legt diesen fest, der den Wert des Binärisierung
 public byte ThresholdForFloydSteinbergDithering { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist 128.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der TIFF-Binarisierungsfehlerschwellenwert festgelegt wird, wenn die Floyd-Steinberg-Methode zum Rendern eines TIFF-Bilds verwendet wird.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.FloydSteinbergDithering.tiff", options
 ### Siehe auch
 
 * class [ImageSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../imagesaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

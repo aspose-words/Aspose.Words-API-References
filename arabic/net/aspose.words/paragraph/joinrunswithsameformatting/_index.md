@@ -1,9 +1,11 @@
 ---
 title: Paragraph.JoinRunsWithSameFormatting
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph طريقة. يتم تشغيل عمليات الانضمام بنفس التنسيق في الفقرة.
+linktitle: JoinRunsWithSameFormatting
+articleTitle: JoinRunsWithSameFormatting
+second_title: Aspose.Words لـ .NET
+description: Paragraph JoinRunsWithSameFormatting طريقة. يتم تشغيل عمليات الانضمام بنفس التنسيق في الفقرة في C#.
 type: docs
-weight: 300
+weight: 280
 url: /ar/net/aspose.words/paragraph/joinrunswithsameformatting/
 ---
 ## Paragraph.JoinRunsWithSameFormatting method
@@ -16,9 +18,9 @@ public int JoinRunsWithSameFormatting()
 
 ### قيمة الإرجاع
 
-عدد الصلات التي تم تنفيذها. متى **ن** يتم ضم الأشواط المجاورة التي يتم احتسابها **ن - 1** ينضم.
+عدد الصلات التي تم تنفيذها. متى**ن** يتم ضم الأشواط المجاورة التي يتم احتسابها**ن - 1** ينضم.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تبسيط الفقرات عن طريق دمج عمليات التشغيل الزائدة.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("Run 4. ", para.Runs[1].Text);
 ### أنظر أيضا
 
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

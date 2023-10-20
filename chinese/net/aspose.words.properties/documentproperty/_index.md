@@ -1,7 +1,9 @@
 ---
-title: Class DocumentProperty
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Properties.DocumentProperty 班级. 表示自定义或内置文档属性
+title: DocumentProperty Class
+linktitle: DocumentProperty
+articleTitle: DocumentProperty
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Properties.DocumentProperty 班级. 表示自定义或内置文档属性 在 C#.
 type: docs
 weight: 4470
 url: /zh/net/aspose.words.properties/documentproperty/
@@ -32,12 +34,12 @@ public class DocumentProperty
 | --- | --- |
 | [ToBool](../../aspose.words.properties/documentproperty/tobool/)() | 以 bool 形式返回属性值。 |
 | [ToByteArray](../../aspose.words.properties/documentproperty/tobytearray/)() | 以字节数组形式返回属性值。 |
-| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | 将属性值返回为 **约会时间**以 UTC 时间表示。 |
+| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | 将属性值返回为**约会时间**以 UTC 时间表示。 |
 | [ToDouble](../../aspose.words.properties/documentproperty/todouble/)() | 以双精度形式返回属性值。 |
 | [ToInt](../../aspose.words.properties/documentproperty/toint/)() | 以整数形式返回属性值。 |
 | override [ToString](../../aspose.words.properties/documentproperty/tostring/)() | 以根据当前区域设置格式化的字符串形式返回属性值。 |
 
-### 例子
+## 例子
 
 展示如何使用内置文档属性。
 
@@ -73,5 +75,3 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
 * 命名空间 [Aspose.Words.Properties](../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../)
-
-

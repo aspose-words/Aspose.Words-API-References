@@ -1,7 +1,9 @@
 ---
 title: INodeChangingCallback.NodeInserting
-second_title: Referencia de API de Aspose.Words para .NET
-description: INodeChangingCallback método. Se llama justo antes de que un nodo que pertenece a este documento esté a punto de insertarse en otro nodo.
+linktitle: NodeInserting
+articleTitle: NodeInserting
+second_title: Aspose.Words para .NET
+description: INodeChangingCallback NodeInserting método. Se llama justo antes de que un nodo que pertenece a este documento esté a punto de insertarse en otro nodo en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/inodechangingcallback/nodeinserting/
@@ -14,7 +16,7 @@ Se llama justo antes de que un nodo que pertenece a este documento esté a punto
 public void NodeInserting(NodeChangingArgs args)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo personalizar el cambio de nodo con una devolución de llamada.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [NodeChangingArgs](../../nodechangingargs/)
 * interface [INodeChangingCallback](../)
-* espacio de nombres [Aspose.Words](../../inodechangingcallback/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

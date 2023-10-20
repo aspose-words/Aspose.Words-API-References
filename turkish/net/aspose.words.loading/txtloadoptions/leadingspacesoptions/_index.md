@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.LeadingSpacesOptions
-second_title: Aspose.Words for .NET API Referansı
-description: TxtLoadOptions mülk. Önde gelen alan işlemenin tercih edilen seçeneğini alır veya ayarlar. Varsayılan değerConvertToIndent .
+linktitle: LeadingSpacesOptions
+articleTitle: LeadingSpacesOptions
+second_title: Aspose.Words for .NET
+description: TxtLoadOptions LeadingSpacesOptions mülk. Önde gelen alan işlemenin tercih edilen seçeneğini alır veya ayarlar. Varsayılan değerConvertToIndent  C#'da.
 type: docs
-weight: 60
+weight: 50
 url: /tr/net/aspose.words.loading/txtloadoptions/leadingspacesoptions/
 ---
 ## TxtLoadOptions.LeadingSpacesOptions property
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.loading/txtloadoptions/leadingspacesoptions/
 public TxtLeadingSpacesOptions LeadingSpacesOptions { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düz metin belgeleri yüklerken boşlukların nasıl kırpılacağını gösterir.
 
@@ -91,7 +93,5 @@ switch (txtTrailingSpacesOptions)
 
 * enum [TxtLeadingSpacesOptions](../../txtleadingspacesoptions/)
 * class [TxtLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../txtloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

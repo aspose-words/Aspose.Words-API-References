@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.RemoveAt
-second_title: Referencia de API de Aspose.Words para .NET
-description: NodeCollection método. Elimina el nodo en el índice especificado de la colección y del documento.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words para .NET
+description: NodeCollection RemoveAt método. Elimina el nodo en el índice especificado de la colección y del documento en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words/nodecollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | El índice de base cero del nodo. Se permiten índices negativos e indican el acceso desde el final de la lista. Por ejemplo, -1 significa el último nodo, -2 significa el penúltimo y así sucesivamente. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar y eliminar secciones en un documento.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ### Ver también
 
 * class [NodeCollection](../)
-* espacio de nombres [Aspose.Words](../../nodecollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

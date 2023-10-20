@@ -1,7 +1,9 @@
 ---
-title: Enum ImageColorMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.ImageColorMode Sıralama. Belge sayfalarının oluşturulan görüntüleri için renk modunu belirtir.
+title: ImageColorMode Enum
+linktitle: ImageColorMode
+articleTitle: ImageColorMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.ImageColorMode Sıralama. Belge sayfalarının oluşturulan görüntüleri için renk modunu belirtir C#'da.
 type: docs
 weight: 5210
 url: /tr/net/aspose.words.saving/imagecolormode/
@@ -22,7 +24,7 @@ public enum ImageColorMode
 | Grayscale | `1` | Belgenin sayfaları gri tonlamalı resimler olarak oluşturulacaktır. |
 | BlackAndWhite | `2` | Belgenin sayfaları siyah beyaz resimler olarak gösterilecektir. |
 
-### Örnekler
+## Örnekler
 
 Belgeleri işlerken renk modunun nasıl ayarlanacağını gösterir.
 
@@ -82,5 +84,3 @@ Document doc = new Document();
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

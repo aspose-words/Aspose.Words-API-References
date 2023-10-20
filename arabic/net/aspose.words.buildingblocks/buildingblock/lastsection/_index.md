@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.LastSection
-second_title: Aspose.Words لمراجع .NET API
-description: BuildingBlock ملكية. الحصول على القسم الأخير في الكتلة البرمجية الإنشائية.
+linktitle: LastSection
+articleTitle: LastSection
+second_title: Aspose.Words لـ .NET
+description: BuildingBlock LastSection ملكية. الحصول على القسم الأخير في الكتلة البرمجية الإنشائية في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.buildingblocks/buildingblock/lastsection/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.buildingblocks/buildingblock/lastsection/
 public Section LastSection { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إرجاع`باطل` إذا لم تكن هناك أقسام.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة كتلة إنشاء مخصصة إلى مستند.
 
@@ -116,7 +118,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [Section](../../../aspose.words/section/)
 * class [BuildingBlock](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

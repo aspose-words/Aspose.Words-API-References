@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.ScreenTip
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAutoTextList mülk. Gösterilecek Ekran İpucu metnini alır veya ayarlar.
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: Aspose.Words for .NET
+description: FieldAutoTextList ScreenTip mülk. Gösterilecek Ekran İpucu metnini alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldautotextlist/screentip/
@@ -14,7 +16,7 @@ Gösterilecek Ekran İpucu metnini alır veya ayarlar.
 public string ScreenTip { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Otomatik Metin girişleri listesinden seçim yapmak için AUTOTEXTLIST alanının nasıl kullanılacağını gösterir.
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### Ayrıca bakınız
 
 * class [FieldAutoTextList](../)
-* ad alanı [Aspose.Words.Fields](../../fieldautotextlist/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

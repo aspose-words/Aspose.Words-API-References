@@ -1,7 +1,9 @@
 ---
 title: OleFormat.Clsid
-second_title: Aspose.Words لمراجع .NET API
-description: OleFormat ملكية. الحصول على CLSID لكائن OLE.
+linktitle: Clsid
+articleTitle: Clsid
+second_title: Aspose.Words لـ .NET
+description: OleFormat Clsid ملكية. الحصول على CLSID لكائن OLE في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/oleformat/clsid/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/oleformat/clsid/
 public Guid Clsid { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى عنصر تحكم OLE المضمن في المستند وعناصر التحكم التابعة له.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 ### أنظر أيضا
 
 * class [OleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../oleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

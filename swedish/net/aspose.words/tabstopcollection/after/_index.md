@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.After
-second_title: Aspose.Words för .NET API Referens
-description: TabStopCollection metod. Får ett första tabbstopp till höger om den angivna positionen.
+linktitle: After
+articleTitle: After
+second_title: Aspose.Words för .NET
+description: TabStopCollection After metod. Får ett första tabbstopp till höger om den angivna positionen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/tabstopcollection/after/
@@ -22,11 +24,11 @@ public TabStop After(double position)
 
 Ett tabbstoppobjekt eller`null` om ett lämpligt tabbstopp inte hittades.
 
-### Anmärkningar
+## Anmärkningar
 
 Hoppar över tabbstopp med[`Alignment`](../../tabstop/alignment/) satt tillBar.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av tabbstopp.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* namnutrymme [Aspose.Words](../../tabstopcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

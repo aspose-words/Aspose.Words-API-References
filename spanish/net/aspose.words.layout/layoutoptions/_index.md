@@ -1,7 +1,9 @@
 ---
-title: Class LayoutOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Layout.LayoutOptions clase. Contiene las opciones que permiten controlar el proceso de diseño del documento.
+title: LayoutOptions Class
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Layout.LayoutOptions clase. Contiene las opciones que permiten controlar el proceso de diseño del documento en C#.
 type: docs
 weight: 3350
 url: /es/net/aspose.words.layout/layoutoptions/
@@ -36,13 +38,13 @@ public class LayoutOptions
 | [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Obtiene o establece una indicación de si se representan las marcas de párrafo. El valor predeterminado es`FALSO` . |
 | [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory/) { get; set; } | Obtiene o establece[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory/) implementación utilizada para funciones de representación de tipografía avanzada. |
 
-### Observaciones
+## Observaciones
 
 No crea instancias de esta clase directamente. Utilizar el[`LayoutOptions`](../../aspose.words/document/layoutoptions/) propiedad para acceder a las opciones de diseño de este documento.
 
 Tenga en cuenta que después de cambiar cualquiera de las opciones presentes en esta clase,[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) Se debe llamar a método para que las opciones modificadas se apliquen al diseño.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ocultar texto en un documento de salida renderizado.
 
@@ -98,5 +100,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * espacio de nombres [Aspose.Words.Layout](../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../)
-
-

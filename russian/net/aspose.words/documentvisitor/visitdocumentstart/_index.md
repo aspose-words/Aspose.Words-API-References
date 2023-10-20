@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitDocumentStart
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда началось перечисление документа.
+linktitle: VisitDocumentStart
+articleTitle: VisitDocumentStart
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitDocumentStart метод. Вызывается когда началось перечисление документа на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words/documentvisitor/visitdocumentstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitDocumentStart(Document doc)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать посетитель документа для печати структуры узла документа.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Document](../../document/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

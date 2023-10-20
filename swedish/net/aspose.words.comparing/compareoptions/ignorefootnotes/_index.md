@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreFootnotes
-second_title: Aspose.Words för .NET API Referens
-description: CompareOptions fast egendom. Anger om skillnader i fotnoter och slutnoter ska jämföras. Som standard ignoreras inte fotnoter.
+linktitle: IgnoreFootnotes
+articleTitle: IgnoreFootnotes
+second_title: Aspose.Words för .NET
+description: CompareOptions IgnoreFootnotes fast egendom. Anger om skillnader i fotnoter och slutnoter ska jämföras. Som standard ignoreras inte fotnoter i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.comparing/compareoptions/ignorefootnotes/
@@ -14,7 +16,7 @@ Anger om skillnader i fotnoter och slutnoter ska jämföras. Som standard ignore
 public bool IgnoreFootnotes { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man filtrerar specifika typer av dokumentelement när man gör en jämförelse.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Se även
 
 * class [CompareOptions](../)
-* namnutrymme [Aspose.Words.Comparing](../../compareoptions/)
+* namnutrymme [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * hopsättning [Aspose.Words](../../../)
-
-

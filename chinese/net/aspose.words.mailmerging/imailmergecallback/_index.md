@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.MailMerging.IMailMergeCallback 界面. 如果您想在执行邮件合并时接收通知请实现此接口
+title: IMailMergeCallback Interface
+linktitle: IMailMergeCallback
+articleTitle: IMailMergeCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.MailMerging.IMailMergeCallback 界面. 如果您想在执行邮件合并时接收通知请实现此接口 在 C#.
 type: docs
 weight: 3800
 url: /zh/net/aspose.words.mailmerging/imailmergecallback/
@@ -20,7 +22,7 @@ public interface IMailMergeCallback
 | --- | --- |
 | [TagsReplaced](../../aspose.words.mailmerging/imailmergecallback/tagsreplaced/)() | 当“mustache”文本标记替换为 MERGEFIELD 字段时调用。 |
 
-### 例子
+## 例子
 
 演示如何定义用于在邮件合并期间处理事件的自定义逻辑。
 
@@ -72,5 +74,3 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * 命名空间 [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../)
-
-

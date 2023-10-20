@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToParagraph
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将光标移动到当前节中的段落
+linktitle: MoveToParagraph
+articleTitle: MoveToParagraph
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder MoveToParagraph 方法. 将光标移动到当前节中的段落 在 C#.
 type: docs
-weight: 570
+weight: 560
 url: /zh/net/aspose.words/documentbuilder/movetoparagraph/
 ---
 ## DocumentBuilder.MoveToParagraph method
@@ -19,13 +21,13 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex)
 | paragraphIndex | Int32 | 要移动到的段落的索引。 |
 | characterIndex | Int32 | 段落内字符的索引。 负值允许您指定从段落末尾开始的位置。使用 -1 移至段落末尾 of 。 |
 
-### 评论
+## 评论
 
 导航在当前章节的当前故事内执行。 也就是说，如果您将光标移至第一章节的主标题， 那么*paragraphIndex*指定该节的 header 内段落的索引。
 
 什么时候*paragraphIndex*大于或等于 0，它指定索引 from 节的开头，其中 0 为第一段。什么时候*paragraphIndex*小于 0， 它指定从该节末尾开始的索引，-1 是最后一段。
 
-### 例子
+## 例子
 
 演示如何将构建器的光标位置移动到指定段落。
 
@@ -51,7 +53,5 @@ builder.Writeln("This is a new third paragraph. ");
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

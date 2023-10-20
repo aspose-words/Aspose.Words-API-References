@@ -1,7 +1,9 @@
 ---
 title: Metered.GetConsumptionCredit
-second_title: Aspose.Words for .NET API 参考
-description: Metered 方法. 获取消费积分
+linktitle: GetConsumptionCredit
+articleTitle: GetConsumptionCredit
+second_title: 用于 .NET 的 Aspose.Words
+description: Metered GetConsumptionCredit 方法. 获取消费积分 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/metered/getconsumptioncredit/
@@ -18,7 +20,7 @@ public static decimal GetConsumptionCredit()
 
 消费数量
 
-### 例子
+## 例子
 
 展示如何激活计量许可证并跟踪信用/消耗。
 
@@ -45,7 +47,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### 也可以看看
 
 * class [Metered](../)
-* 命名空间 [Aspose.Words](../../metered/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListCollection.GetListByListId
-second_title: Referencia de API de Aspose.Words para .NET
-description: ListCollection método. Obtiene una lista mediante un identificador de lista.
+linktitle: GetListByListId
+articleTitle: GetListByListId
+second_title: Aspose.Words para .NET
+description: ListCollection GetListByListId método. Obtiene una lista mediante un identificador de lista en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.lists/listcollection/getlistbylistid/
@@ -22,11 +24,11 @@ public List GetListByListId(int listId)
 
 Devuelve el objeto de lista. Devoluciones`nulo` si no se encontró una lista con el identificador especificado.
 
-### Observaciones
+## Observaciones
 
 Normalmente no es necesario utilizar este método. La mayoría de las veces aplica el formato de lista a los párrafos simplemente configurando el[`List`](../../listformat/list/) propiedad del[`ListFormat`](../../listformat/) objeto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo verificar las propiedades del documento del propietario de las listas.
 
@@ -49,7 +51,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* espacio de nombres [Aspose.Words.Lists](../../listcollection/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

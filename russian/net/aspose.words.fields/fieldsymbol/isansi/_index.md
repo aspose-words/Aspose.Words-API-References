@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.IsAnsi
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSymbol свойство. Получает или задает интерпретируется ли код символа как значение символа ANSI.
+linktitle: IsAnsi
+articleTitle: IsAnsi
+second_title: Aspose.Words для .NET
+description: FieldSymbol IsAnsi свойство. Получает или задает интерпретируется ли код символа как значение символа ANSI на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldsymbol/isansi/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldsymbol/isansi/
 public bool IsAnsi { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле СИМВОЛ.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Смотрите также
 
 * class [FieldSymbol](../)
-* пространство имен [Aspose.Words.Fields](../../fieldsymbol/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

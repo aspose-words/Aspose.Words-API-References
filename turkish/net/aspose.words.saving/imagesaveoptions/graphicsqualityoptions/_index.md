@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.GraphicsQualityOptions
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Görüntü oluşturma modunu ve kalitesini belirlemeye olanak tanır.Graphics nesne.
+linktitle: GraphicsQualityOptions
+articleTitle: GraphicsQualityOptions
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions GraphicsQualityOptions mülk. Görüntü oluşturma modunu ve kalitesini belirlemeye olanak tanır.Graphics nesne C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/imagesaveoptions/graphicsqualityoptions/
@@ -14,13 +16,13 @@ Görüntü oluşturma modunu ve kalitesini belirlemeye olanak tanır.Graphics ne
 public GraphicsQualityOptions GraphicsQualityOptions { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words motoru tarafından varsayılan olarak sağlanan Grafik ayarlarını geçersiz kılmak için bu özelliği kullanın.
 
 Yalnızca bir belge resim benzeri bir formatta kaydedildiğinde etkili olacaktır.
 
-### Örnekler
+## Örnekler
 
 Belgeleri görüntü formatlarına dönüştürürken işleme kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 
 * class [GraphicsQualityOptions](../../graphicsqualityoptions/)
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: CustomXmlProperty.CustomXmlProperty
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlProperty строитель. Инициализирует новый экземпляр этого класса.
+title: CustomXmlProperty
+linktitle: CustomXmlProperty
+articleTitle: CustomXmlProperty
+second_title: Aspose.Words для .NET
+description: CustomXmlProperty строитель. Инициализирует новый экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/customxmlproperty/customxmlproperty/
@@ -20,7 +22,7 @@ public CustomXmlProperty(string name, string uri, string value)
 | uri | String | URI пространства имен свойства. Не может быть`нулевой`. |
 | value | String | Стоимость недвижимости. Не может быть`нулевой`. |
 
-### Примеры
+## Примеры
 
 Показывает, как создавать смарт-теги.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Смотрите также
 
 * class [CustomXmlProperty](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlproperty/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

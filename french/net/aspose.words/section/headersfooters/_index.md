@@ -1,7 +1,9 @@
 ---
 title: Section.HeadersFooters
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Section propriété. Donne accès aux nœuds dentêtes et de pieds de page de la section.
+linktitle: HeadersFooters
+articleTitle: HeadersFooters
+second_title: Aspose.Words pour .NET
+description: Section HeadersFooters propriété. Donne accès aux nœuds dentêtes et de pieds de page de la section en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/section/headersfooters/
@@ -14,7 +16,7 @@ Donne accès aux nœuds d'en-têtes et de pieds de page de la section.
 public HeaderFooterCollection HeadersFooters { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment remplacer du texte dans le pied de page d'un document.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 
 * class [HeaderFooterCollection](../../headerfootercollection/)
 * class [Section](../)
-* espace de noms [Aspose.Words](../../section/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

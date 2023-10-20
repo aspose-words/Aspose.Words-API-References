@@ -1,7 +1,9 @@
 ---
 title: FormField.DropDownSelectedIndex
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Получает или задает индекс определяющий текущий выбранный элемент в поле раскрывающейся формы.
+linktitle: DropDownSelectedIndex
+articleTitle: DropDownSelectedIndex
+second_title: Aspose.Words для .NET
+description: FormField DropDownSelectedIndex свойство. Получает или задает индекс определяющий текущий выбранный элемент в поле раскрывающейся формы на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/formfield/dropdownselectedindex/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/formfield/dropdownselectedindex/
 public int DropDownSelectedIndex { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

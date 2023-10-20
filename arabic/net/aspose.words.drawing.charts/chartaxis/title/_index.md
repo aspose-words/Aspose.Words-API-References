@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Title
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. يوفر الوصول إلى خصائص عنوان المحور.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words لـ .NET
+description: ChartAxis Title ملكية. يوفر الوصول إلى خصائص عنوان المحور في C#.
 type: docs
 weight: 280
 url: /ar/net/aspose.words.drawing.charts/chartaxis/title/
@@ -18,7 +20,5 @@ public ChartAxisTitle Title { get; }
 
 * class [ChartAxisTitle](../../chartaxistitle/)
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.SimplifyListLabels
-second_title: Aspose.Words per .NET API Reference
-description: TxtSaveOptions proprietà. Specifica se il programma deve semplificare le etichette dellelenco nel caso in cui la formattazione complessa delle etichette non sia adeguatamente rappresentata da testo semplice.
+linktitle: SimplifyListLabels
+articleTitle: SimplifyListLabels
+second_title: Aspose.Words per .NET
+description: TxtSaveOptions SimplifyListLabels proprietà. Specifica se il programma deve semplificare le etichette dellelenco nel caso in cui la formattazione complessa delle etichette non sia adeguatamente rappresentata da testo semplice in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
@@ -16,7 +18,7 @@ Se impostato su`VERO` , le etichette degli elenchi numerati sono scritte in form
 public bool SimplifyListLabels { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come modificare l'aspetto degli elenchi quando si salva un documento in testo normale.
 
@@ -66,7 +68,5 @@ else
 ### Guarda anche
 
 * class [TxtSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../txtsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

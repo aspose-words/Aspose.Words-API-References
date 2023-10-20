@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.NumberStyle
-second_title: Referencia de API de Aspose.Words para .NET
-description: EndnoteOptions propiedad. Especifica el formato numérico para las notas finales numeradas automáticamente.
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words para .NET
+description: EndnoteOptions NumberStyle propiedad. Especifica el formato numérico para las notas finales numeradas automáticamente en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.notes/endnoteoptions/numberstyle/
@@ -14,11 +16,11 @@ Especifica el formato numérico para las notas finales numeradas automáticament
 public NumberStyle NumberStyle { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 No todos los estilos de números son aplicables para esta propiedad. Para obtener la lista de estilos de números aplicables, consulte el cuadro de diálogo Insertar nota al pie o nota al final en Microsoft Word. Si selecciona un estilo de número que no es aplicable, Microsoft Word volverá a un valor predeterminado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cambiar el estilo numérico de las marcas de referencia de notas al pie/notas al final.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "InlineStory.RefMarkNumberStyle.docx");
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [EndnoteOptions](../)
-* espacio de nombres [Aspose.Words.Notes](../../endnoteoptions/)
+* espacio de nombres [Aspose.Words.Notes](../../../aspose.words.notes/)
 * asamblea [Aspose.Words](../../../)
-
-

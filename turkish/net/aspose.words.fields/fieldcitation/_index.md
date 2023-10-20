@@ -1,7 +1,9 @@
 ---
-title: Class FieldCitation
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldCitation sınıf. CITATION alanını uygular.
+title: FieldCitation Class
+linktitle: FieldCitation
+articleTitle: FieldCitation
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldCitation sınıf. CITATION alanını uygular C#'da.
 type: docs
 weight: 1680
 url: /tr/net/aspose.words.fields/fieldcitation/
@@ -26,7 +28,7 @@ public class FieldCitation : Field
 
 | İsim | Tanım |
 | --- | --- |
-| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | Eşleşen bir değer alır veya ayarlar. **Etiket** Alıntıya dahil edilecek başka bir kaynağın öğesinin değeri. |
+| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | Eşleşen bir değer alır veya ayarlar.**Etiket** Alıntıya dahil edilecek başka bir kaynağın öğesinin değeri. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Görüntülenen alan sonucunu temsil eden metni alır. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Alan sonunu temsil eden düğümü alır. |
 | [Format](../../aspose.words.fields/field/format/) { get; } | Bir alır[`FieldFormat`](../fieldformat/) Alanın formatlamasına yazılı erişim sağlayan nesne. |
@@ -38,7 +40,7 @@ public class FieldCitation : Field
 | [Prefix](../../aspose.words.fields/fieldcitation/prefix/) { get; set; } | Alıntıya eklenen öneki alır veya ayarlar. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Alan ayırıcı ile alan sonu arasındaki metni alır veya ayarlar. |
 | [Separator](../../aspose.words.fields/field/separator/) { get; } | Alan ayırıcıyı temsil eden düğümü alır. Olabilir`hükümsüz` . |
-| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | Eşleşen bir değer alır veya ayarlar. **Etiket** eklenecek kaynağın öğenin değeri. |
+| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | Eşleşen bir değer alır veya ayarlar.**Etiket** eklenecek kaynağın öğenin değeri. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Alanın başlangıcını temsil eden düğümü alır. |
 | [Suffix](../../aspose.words.fields/fieldcitation/suffix/) { get; set; } | Alıntıya eklenen bir son eki alır veya ayarlar. |
 | [SuppressAuthor](../../aspose.words.fields/fieldcitation/suppressauthor/) { get; set; } | Yazar bilgilerinin alıntıdan gizlenip gizlenmeyeceğini alır veya ayarlar. |
@@ -52,17 +54,17 @@ public class FieldCitation : Field
 | İsim | Tanım |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
-### Notlar
+## Notlar
 
-İçeriğini ekler **Kaynak** belirtilen bir öğe **Etiket** bibliyografik stil kullanan öğe.
+İçeriğini ekler**Kaynak** belirtilen bir öğe**Etiket** bibliyografik stil kullanan öğe.
 
-### Örnekler
+## Örnekler
 
 CITATION ve KAYNAKÇA alanlarıyla nasıl çalışılacağını gösterir.
 
@@ -118,5 +120,3 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 * class [Field](../field/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

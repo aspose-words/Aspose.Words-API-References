@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdateCultureProvider
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Ruft einen Anbieter ab oder legt diesen fest der ein für jedes bestimmte Feld spezifisches Kulturobjekt zurückgibt.
+linktitle: FieldUpdateCultureProvider
+articleTitle: FieldUpdateCultureProvider
+second_title: Aspose.Words für .NET
+description: FieldOptions FieldUpdateCultureProvider eigendom. Ruft einen Anbieter ab oder legt diesen fest der ein für jedes bestimmte Feld spezifisches Kulturobjekt zurückgibt in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
@@ -14,13 +16,13 @@ Ruft einen Anbieter ab oder legt diesen fest, der ein für jedes bestimmte Feld 
 public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Anbieter wird abgefragt, wenn der Wert von[`FieldUpdateCultureSource`](../fieldupdateculturesource/) IstFieldCode.
 
 Wenn der Anbieter vorhanden ist, wird das von ihm zurückgegebene Kulturobjekt für die Feldaktualisierung verwendet. Ansonsten wird eine Systemkultur verwendet.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Kultur angibt, die die Datums-/Uhrzeitformatierung für jedes Feld analysiert.
 
@@ -92,7 +94,5 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * interface [IFieldUpdateCultureProvider](../../ifieldupdatecultureprovider/)
 * class [FieldOptions](../)
-* namensraum [Aspose.Words.Fields](../../fieldoptions/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

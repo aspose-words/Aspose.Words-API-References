@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.OptimizeFor
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions methode. Ermöglicht die Optimierung des Dokumentinhalts sowie des Standardverhaltens von Aspose.Words für bestimmte Versionen von MS Word.
+linktitle: OptimizeFor
+articleTitle: OptimizeFor
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions OptimizeFor methode. Ermöglicht die Optimierung des Dokumentinhalts sowie des Standardverhaltens von Aspose.Words für bestimmte Versionen von MS Word in C#.
 type: docs
 weight: 720
 url: /de/net/aspose.words.settings/compatibilityoptions/optimizefor/
@@ -16,7 +18,7 @@ Verwenden Sie diese Methode, um zu verhindern, dass MS Word beim Laden des Dokum
 public void OptimizeFor(MsWordVersion version)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Textinhalt eines Textfelds vertikal ausgerichtet wird.
 
@@ -130,7 +132,5 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * enum [MsWordVersion](../../mswordversion/)
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

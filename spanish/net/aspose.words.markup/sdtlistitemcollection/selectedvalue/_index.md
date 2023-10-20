@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.SelectedValue
-second_title: Referencia de API de Aspose.Words para .NET
-description: SdtListItemCollection propiedad. Especifica el valor seleccionado actualmente en esta lista. Se permite un valor nulo lo que significa que no hay ninguna entrada seleccionada actualmente asociada con esta colección de elementos de la lista.
+linktitle: SelectedValue
+articleTitle: SelectedValue
+second_title: Aspose.Words para .NET
+description: SdtListItemCollection SelectedValue propiedad. Especifica el valor seleccionado actualmente en esta lista. Se permite un valor nulo lo que significa que no hay ninguna entrada seleccionada actualmente asociada con esta colección de elementos de la lista en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.markup/sdtlistitemcollection/selectedvalue/
@@ -14,7 +16,7 @@ Especifica el valor seleccionado actualmente en esta lista. Se permite un valor 
 public SdtListItem SelectedValue { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con etiquetas de documentos estructurados de lista desplegable.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

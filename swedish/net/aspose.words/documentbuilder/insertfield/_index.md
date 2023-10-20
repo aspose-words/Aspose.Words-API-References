@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertField
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar ett Wordfält i ett dokument och uppdaterar eventuellt fältresultatet.
+linktitle: InsertField
+articleTitle: InsertField
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertField metod. Infogar ett Wordfält i ett dokument och uppdaterar eventuellt fältresultatet i C#.
 type: docs
-weight: 330
+weight: 320
 url: /sv/net/aspose.words/documentbuilder/insertfield/
 ---
-## InsertField(FieldType, bool) {#insertfield}
+## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#insertfield}
 
 Infogar ett Word-fält i ett dokument och uppdaterar eventuellt fältresultatet.
 
@@ -23,11 +25,11 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det infogade fältet.
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod infogar ett fält i ett dokument. Aspose.Words kan uppdatera fält av de flesta typer, men inte alla. För mer information se the `InsertField` överbelastning.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett fält i ett dokument med hjälp av FieldType.
 
@@ -74,12 +76,12 @@ else
 * class [Field](../../../aspose.words.fields/field/)
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string) {#insertfield_1}
+## InsertField(*string*) {#insertfield_1}
 
 Infogar ett Word-fält i ett dokument och uppdaterar fältresultatet.
 
@@ -95,11 +97,11 @@ public Field InsertField(string fieldCode)
 
 A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det infogade fältet.
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod infogar ett fält i ett dokument och uppdaterar fältresultatet omedelbart. Aspose.Words kan uppdatera fält av de flesta typer, men inte alla. För mer information se the `InsertField` överbelastning.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett fält i ett dokument med hjälp av en fältkod.
 
@@ -144,12 +146,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, string) {#insertfield_2}
+## InsertField(*string, string*) {#insertfield_2}
 
 Infogar ett Word-fält i ett dokument utan att uppdatera fältresultatet.
 
@@ -166,7 +168,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det infogade fältet.
 
-### Anmärkningar
+## Anmärkningar
 
 Fält i Microsoft Word-dokument består av en fältkod och ett fältresultat. Fältkoden är som en formel och fältresultatet är som det värde som formeln ger. Fältkoden kan också innehålla fältomkopplare som är som ytterligare instruktioner för att utföra en specifik åtgärd.
 
@@ -176,7 +178,7 @@ För att skapa ett fält måste du ange en fälttyp, fältkod och ett "platshål
 
 Aspose.Words kan beräkna fältresultat för de flesta fälttyper, men denna metod uppdaterar inte fältresultatet automatiskt. Eftersom fältresultatet inte beräknas automatiskt, förväntas du skicka något strängvärde (eller till och med en tom sträng) som kommer att infogas i fältresultatet. Detta värde kommer att finnas kvar i fältresultatet som en platshållare tills fältet är updated. För att uppdatera fältresultatet kan du ringa[`Update`](../../../aspose.words.fields/field/update/)på fältobjektet returned till dig eller[`UpdateFields`](../../document/updatefields/) för att uppdatera fält i hela dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in sidnumrering i ett avsnitt.
 
@@ -234,7 +236,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

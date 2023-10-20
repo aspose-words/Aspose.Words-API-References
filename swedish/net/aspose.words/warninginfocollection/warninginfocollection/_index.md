@@ -1,7 +1,9 @@
 ---
-title: WarningInfoCollection.WarningInfoCollection
-second_title: Aspose.Words för .NET API Referens
-description: WarningInfoCollection byggare. Default_Constructor
+title: WarningInfoCollection
+linktitle: WarningInfoCollection
+articleTitle: WarningInfoCollection
+second_title: Aspose.Words för .NET
+description: WarningInfoCollection byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/warninginfocollection/warninginfocollection/
@@ -17,7 +19,5 @@ public WarningInfoCollection()
 ### Se även
 
 * class [WarningInfoCollection](../)
-* namnutrymme [Aspose.Words](../../warninginfocollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

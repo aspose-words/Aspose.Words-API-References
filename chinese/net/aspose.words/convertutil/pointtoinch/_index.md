@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.PointToInch
-second_title: Aspose.Words for .NET API 参考
-description: ConvertUtil 方法. 将点转换为英寸
+linktitle: PointToInch
+articleTitle: PointToInch
+second_title: 用于 .NET 的 Aspose.Words
+description: ConvertUtil PointToInch 方法. 将点转换为英寸 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/convertutil/pointtoinch/
@@ -18,11 +20,11 @@ public static double PointToInch(double points)
 | --- | --- | --- |
 | points | Double | 要转换的值。 |
 
-### 评论
+## 评论
 
 1 英寸等于 72 点。
 
-### 例子
+## 例子
 
 显示如何指定以英寸为单位的页面属性。
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndInches.docx");
 ### 也可以看看
 
 * class [ConvertUtil](../)
-* 命名空间 [Aspose.Words](../../convertutil/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

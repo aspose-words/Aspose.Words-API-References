@@ -1,7 +1,9 @@
 ---
-title: Enum ExportHeadersFootersMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.ExportHeadersFootersMode перечисление. Указывает как верхние и нижние колонтитулы экспортируются в HTML MHTML или EPUB.
+title: ExportHeadersFootersMode Enum
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.ExportHeadersFootersMode перечисление. Указывает как верхние и нижние колонтитулы экспортируются в HTML MHTML или EPUB на С#.
 type: docs
 weight: 5000
 url: /ru/net/aspose.words.saving/exportheadersfootersmode/
@@ -23,7 +25,7 @@ public enum ExportHeadersFootersMode
 | FirstSectionHeaderLastSectionFooter | `2` | Основной заголовок первого раздела экспортируется в начало документа, а основной нижний колонтитул — в конец. |
 | FirstPageHeaderFooterPerSection | `3` | Верхний и нижний колонтитулы первой страницы экспортируются в начало и конец каждого раздела. |
 
-### Примеры
+## Примеры
 
 Показывает, как пропустить верхние и нижние колонтитулы при сохранении документа в формате HTML.
 
@@ -53,5 +55,3 @@ Assert.IsFalse(doc.Range.Text.Contains("First header"));
 * property [ExportHeadersFootersMode](../htmlsaveoptions/exportheadersfootersmode/)
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

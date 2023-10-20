@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.AddStartStopChar
-second_title: Aspose.Words for .NET API Referansı
-description: BarcodeParameters mülk. NW7 ve CODE39 barkod türleri için Başlat/Durdur karakterlerinin eklenip eklenmeyeceği.
+linktitle: AddStartStopChar
+articleTitle: AddStartStopChar
+second_title: Aspose.Words for .NET
+description: BarcodeParameters AddStartStopChar mülk. NW7 ve CODE39 barkod türleri için Başlat/Durdur karakterlerinin eklenip eklenmeyeceği C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/barcodeparameters/addstartstopchar/
@@ -14,7 +16,7 @@ NW7 ve CODE39 barkod türleri için Başlat/Durdur karakterlerinin eklenip eklen
 public bool AddStartStopChar { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Barkod oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ayrıca bakınız
 
 * class [BarcodeParameters](../)
-* ad alanı [Aspose.Words.Fields](../../barcodeparameters/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

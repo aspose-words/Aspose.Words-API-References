@@ -1,7 +1,9 @@
 ---
 title: Row.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: Row метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: Row Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.tables/row/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
 
-### Примечания
+## Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Звонки[`VisitRowStart`](../../../aspose.words/documentvisitor/visitrowstart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для всех дочерних узловsection и вызовов[`VisitRowEnd`](../../../aspose.words/documentvisitor/visitrowend/) в конце.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждой таблицы в документе.
 
@@ -194,7 +196,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Row](../)
-* пространство имен [Aspose.Words.Tables](../../row/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

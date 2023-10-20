@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.UseTileFlipMode
-second_title: Aspose.Words لمراجع .NET API
-description: GraphicsQualityOptions ملكية. الحصول على علامة تشير إلى ما إذا كان WrapMode هو TileFlipXY أو تعيينها.
+linktitle: UseTileFlipMode
+articleTitle: UseTileFlipMode
+second_title: Aspose.Words لـ .NET
+description: GraphicsQualityOptions UseTileFlipMode ملكية. الحصول على علامة تشير إلى ما إذا كان WrapMode هو TileFlipXY أو تعيينها في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
 public bool UseTileFlipMode { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الWrapMode يحدد كيفية تجانب المادة أو التدرج عندما يكون أصغر من المساحة التي يتم ملؤها.
 
@@ -22,7 +24,7 @@ public bool UseTileFlipMode { get; set; }
 
 تسمح هذه الخاصية بتبديل WrapMode إلىTileFlipXY (يحدد أنه يتم قلب المربعات أفقيًا أثناء تحركك على طول الصف وقلبها رأسيًا أثناء تحركك على طول عمود).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية منع ظهور الخط الأبيض عند العرض بدقة عالية.
 
@@ -42,7 +44,5 @@ renderer.Save(ArtifactsDir + "ImageSaveOptions.UseTileFlipMode.png", saveOptions
 ### أنظر أيضا
 
 * class [GraphicsQualityOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

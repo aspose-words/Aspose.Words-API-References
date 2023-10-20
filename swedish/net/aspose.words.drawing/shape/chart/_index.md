@@ -1,7 +1,9 @@
 ---
 title: Shape.Chart
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Ger tillgång till diagramegenskaperna om denna form har enChart .
+linktitle: Chart
+articleTitle: Chart
+second_title: Aspose.Words för .NET
+description: Shape Chart fast egendom. Ger tillgång till diagramegenskaperna om denna form har enChart  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing/shape/chart/
@@ -14,11 +16,11 @@ Ger tillgång till diagramegenskaperna om denna form har en[`Chart`](../../../as
 public Chart Chart { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna egenskap kommer att returnera[`Chart`](../../../aspose.words.drawing.charts/chart/) invända endast om[`HasChart`](../haschart/) egenskapen är`Sann` för detta[`Shape`](../)och kommer att göra ett undantag annars.
 
-### Exempel
+## Exempel
 
 Visar hur man itererar över alla former i ett dokument.
 
@@ -142,7 +144,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [Chart](../../../aspose.words.drawing.charts/chart/)
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,14 +1,16 @@
 ---
-title: Class CompatibilityOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Settings.CompatibilityOptions klass. Innehåller kompatibilitetsalternativ det vill säga användarinställningarna som anges på Kompatibilitet fliken i alternativ dialogrutan i Microsoft Word.
+title: CompatibilityOptions Class
+linktitle: CompatibilityOptions
+articleTitle: CompatibilityOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Settings.CompatibilityOptions klass. Innehåller kompatibilitetsalternativ det vill säga användarinställningarna som anges påKompatibilitet fliken ialternativ dialogrutan i Microsoft Word i C#.
 type: docs
 weight: 5780
 url: /sv/net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
 
-Innehåller kompatibilitetsalternativ (det vill säga användarinställningarna som anges på **Kompatibilitet** fliken i **alternativ** dialogrutan i Microsoft Word).
+Innehåller kompatibilitetsalternativ (det vill säga användarinställningarna som anges på**Kompatibilitet** fliken i**alternativ** dialogrutan i Microsoft Word).
 
 För att lära dig mer, besök[Upptäck filformat och kontrollera formatkompatibilitet](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) dokumentationsartikel.
 
@@ -96,9 +98,9 @@ public class CompatibilityOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(MsWordVersion) | Tillåter att optimera dokumentinnehållet såväl som standard Aspose.Words-beteende för en viss version av MS Word. |
+| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(*[MsWordVersion](../mswordversion/)*) | Tillåter att optimera dokumentinnehållet såväl som standard Aspose.Words-beteende för en viss version av MS Word. |
 
-### Exempel
+## Exempel
 
 Visar hur man vertikalt justerar textinnehållet i en textruta.
 
@@ -214,5 +216,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 * property [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/)
 * namnutrymme [Aspose.Words.Settings](../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../)
-
-

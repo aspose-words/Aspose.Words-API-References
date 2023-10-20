@@ -1,7 +1,9 @@
 ---
-title: Class FontSettings
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontSettings classe. Spécifie les paramètres de police pour un document.
+title: FontSettings Class
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.FontSettings classe. Spécifie les paramètres de police pour un document en C#.
 type: docs
 weight: 2970
 url: /fr/net/aspose.words.fonts/fontsettings/
@@ -36,13 +38,13 @@ public class FontSettings
 | --- | --- |
 | [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources/)() | Obtient une copie du tableau qui contient la liste des sources dans lesquelles Aspose.Words recherche les polices TrueType. |
 | [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources/)() | Réinitialise les sources de polices aux valeurs par défaut du système. |
-| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(Stream) | Enregistre le cache de recherche de polices dans le flux. |
-| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder/)(string, bool) | Définit le dossier dans lequel Aspose.Words recherche les polices TrueType lors du rendu de documents ou de l'intégration de polices. Il s'agit d'un raccourci vers[`SetFontsFolders`](./setfontsfolders/) pour définir un seul répertoire de polices. |
-| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders/)(string[], bool) | Définit les dossiers dans lesquels Aspose.Words recherche les polices TrueType lors du rendu de documents ou de l'intégration de polices. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources)(FontSourceBase[]) | Définit les sources dans lesquelles Aspose.Words recherche les polices TrueType lors du rendu de documents ou de l'intégration de polices. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(FontSourceBase[], Stream) | Définit les sources dans lesquelles Aspose.Words recherche les polices TrueType et charge en outre le cache de recherche de polices précédemment enregistré . |
+| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(*Stream*) | Enregistre le cache de recherche de polices dans le flux. |
+| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder/)(*string, bool*) | Définit le dossier dans lequel Aspose.Words recherche les polices TrueType lors du rendu de documents ou de l'intégration de polices. Il s'agit d'un raccourci vers[`SetFontsFolders`](./setfontsfolders/) pour définir un seul répertoire de polices. |
+| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders/)(*string[], bool*) | Définit les dossiers dans lesquels Aspose.Words recherche les polices TrueType lors du rendu de documents ou de l'intégration de polices. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources)(*FontSourceBase[]*) | Définit les sources dans lesquelles Aspose.Words recherche les polices TrueType lors du rendu de documents ou de l'intégration de polices. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(*FontSourceBase[], Stream*) | Définit les sources dans lesquelles Aspose.Words recherche les polices TrueType et charge en outre le cache de recherche de polices précédemment enregistré . |
 
-### Remarques
+## Remarques
 
 Aspose.Words utilise les paramètres de police pour résoudre les polices du document. Les polices sont résolues principalement lors de la création du document layout ou du rendu dans des formats de page fixes. Mais lors du chargement de certains formats, Aspose.Words peut également nécessiter une résolution des polices. Par exemple, lors du chargement de documents HTML lors du chargement de documents HTML, Aspose.Words peut résoudre les polices pour effectuer un remplacement de police. Il est donc recommandé de définir les paramètres de police dans [`LoadOptions`](../../aspose.words.loading/loadoptions/) lors du chargement du document. Ou du moins avant de créer la mise en page ou de rendre le document au format de page fixe.
 
@@ -50,7 +52,7 @@ Par défaut, tous les documents utilisent une seule instance de paramètres de p
 
 La modification des paramètres de police est sécurisée à tout moment depuis n'importe quel fil de discussion. Mais il est recommandé de ne pas modifier les paramètres de police pendant que traite certains documents qui utilisent ces paramètres. Cela peut conduire au fait que la même police sera résolue différemment dans différentes parties du document.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une source de polices à nos sources de polices existantes.
 
@@ -209,5 +211,3 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

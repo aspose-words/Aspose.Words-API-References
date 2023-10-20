@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.Connection
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDatabase свойство. Получает или устанавливает соединение с данными.
+linktitle: Connection
+articleTitle: Connection
+second_title: Aspose.Words для .NET
+description: FieldDatabase Connection свойство. Получает или устанавливает соединение с данными на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fielddatabase/connection/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddatabase/connection/
 public string Connection { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь данные из базы данных и вставить их как поле в документ.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Смотрите также
 
 * class [FieldDatabase](../)
-* пространство имен [Aspose.Words.Fields](../../fielddatabase/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

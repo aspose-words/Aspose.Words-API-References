@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.IgnoreHeaderFooter
-second_title: Справочник по API Aspose.Words для .NET
-description: ImportFormatOptions свойство. Получает или задает логическое значение указывающее что исходное форматирование содержимого верхних и нижних колонтитулов игнорируется  еслиKeepSourceFormatting используется режим. Значение по умолчаниюистинный .
+linktitle: IgnoreHeaderFooter
+articleTitle: IgnoreHeaderFooter
+second_title: Aspose.Words для .NET
+description: ImportFormatOptions IgnoreHeaderFooter свойство. Получает или задает логическое значение указывающее что исходное форматирование содержимого верхних и нижних колонтитулов игнорируется  еслиKeepSourceFormatting используется режим. Значение по умолчаниюистинный  на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/importformatoptions/ignoreheaderfooter/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/importformatoptions/ignoreheaderfooter/
 public bool IgnoreHeaderFooter { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как указать игнорирование или отсутствие исходного форматирования содержимого верхних и нижних колонтитулов.
 
@@ -33,7 +35,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.DoNotIgnoreHeaderFooter.docx");
 ### Смотрите также
 
 * class [ImportFormatOptions](../)
-* пространство имен [Aspose.Words](../../importformatoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

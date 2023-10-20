@@ -1,7 +1,9 @@
 ---
 title: RowFormat.Height
-second_title: Справочник по API Aspose.Words для .NET
-description: RowFormat свойство. Получает или задает высоту строки таблицы в пунктах.
+linktitle: Height
+articleTitle: Height
+second_title: Aspose.Words для .NET
+description: RowFormat Height свойство. Получает или задает высоту строки таблицы в пунктах на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.tables/rowformat/height/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/rowformat/height/
 public double Height { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать строки с помощью построителя документов.
 
@@ -109,7 +111,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### Смотрите также
 
 * class [RowFormat](../)
-* пространство имен [Aspose.Words.Tables](../../rowformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

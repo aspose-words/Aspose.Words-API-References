@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Gibt zurückStructuredDocumentTag .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag NodeType eigendom. Gibt zurückStructuredDocumentTag  in C#.
 type: docs
 weight: 220
 url: /de/net/aspose.words.markup/structureddocumenttag/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückStructuredDocumentTag .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Stilen für Inhaltssteuerelemente gearbeitet wird.
 
@@ -54,7 +56,5 @@ foreach (Node node in tags)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

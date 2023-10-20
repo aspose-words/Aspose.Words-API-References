@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorUnitIsAuto
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 获取或设置一个标志指示是否应使用小刻度线之间的默认距离
+linktitle: MinorUnitIsAuto
+articleTitle: MinorUnitIsAuto
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis MinorUnitIsAuto 财产. 获取或设置一个标志指示是否应使用小刻度线之间的默认距离 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.drawing.charts/chartaxis/minorunitisauto/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/minorunitisauto/
 public bool MinorUnitIsAuto { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性对时间类别和值轴有影响。
 
-### 例子
+## 例子
 
 演示如何操作图表轴的刻度线和显示值。
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### 也可以看看
 
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

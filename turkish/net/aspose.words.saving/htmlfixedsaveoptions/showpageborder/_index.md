@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ShowPageBorder
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Sayfaların etrafındaki kenarlığın gösterilip gösterilmeyeceğini belirtir. Varsayılandoğru .
+linktitle: ShowPageBorder
+articleTitle: ShowPageBorder
+second_title: Aspose.Words for .NET
+description: HtmlFixedSaveOptions ShowPageBorder mülk. Sayfaların etrafındaki kenarlığın gösterilip gösterilmeyeceğini belirtir. Varsayılandoğru  C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/showpageborder/
@@ -14,7 +16,7 @@ Sayfaların etrafındaki kenarlığın gösterilip gösterilmeyeceğini belirtir
 public bool ShowPageBorder { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi HTML'ye dönüştürürken oluşturulan dış kaynakların URI'lerini yazdırmak için geri aramanın nasıl kullanılacağını gösterir.
 
@@ -93,7 +95,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Ayrıca bakınız
 
 * class [HtmlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

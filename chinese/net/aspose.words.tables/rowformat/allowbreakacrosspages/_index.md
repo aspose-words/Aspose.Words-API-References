@@ -1,7 +1,9 @@
 ---
 title: RowFormat.AllowBreakAcrossPages
-second_title: Aspose.Words for .NET API 参考
-description: RowFormat 财产. 如果允许表格行中的文本跨分页符拆分则为 True
+linktitle: AllowBreakAcrossPages
+articleTitle: AllowBreakAcrossPages
+second_title: 用于 .NET 的 Aspose.Words
+description: RowFormat AllowBreakAcrossPages 财产. 如果允许表格行中的文本跨分页符拆分则为 True 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.tables/rowformat/allowbreakacrosspages/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/rowformat/allowbreakacrosspages/
 public bool AllowBreakAcrossPages { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何禁用表中每一行的跨页行分隔。
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Table.AllowBreakAcrossPages.docx");
 ### 也可以看看
 
 * class [RowFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../rowformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

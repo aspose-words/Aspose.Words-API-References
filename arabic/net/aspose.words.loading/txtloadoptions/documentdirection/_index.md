@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.DocumentDirection
-second_title: Aspose.Words لمراجع .NET API
-description: TxtLoadOptions ملكية. الحصول على اتجاه المستند أو تحديده. القيمة الافتراضية هيLeftToRight .
+linktitle: DocumentDirection
+articleTitle: DocumentDirection
+second_title: Aspose.Words لـ .NET
+description: TxtLoadOptions DocumentDirection ملكية. الحصول على اتجاه المستند أو تحديده. القيمة الافتراضية هيLeftToRight  في C#.
 type: docs
-weight: 50
+weight: 40
 url: /ar/net/aspose.words.loading/txtloadoptions/documentdirection/
 ---
 ## TxtLoadOptions.DocumentDirection property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/txtloadoptions/documentdirection/
 public DocumentDirection DocumentDirection { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اكتشاف اتجاه نص مستند النص العادي.
 
@@ -43,7 +45,5 @@ Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 
 * enum [DocumentDirection](../../documentdirection/)
 * class [TxtLoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../txtloadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

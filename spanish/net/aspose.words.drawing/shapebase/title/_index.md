@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Title
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Obtiene o establece el título título del objeto de forma actual.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words para .NET
+description: ShapeBase Title propiedad. Obtiene o establece el título título del objeto de forma actual en C#.
 type: docs
 weight: 530
 url: /es/net/aspose.words.drawing/shapebase/title/
@@ -14,13 +16,13 @@ Obtiene o establece el título (título) del objeto de forma actual.
 public string Title { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es una cadena vacía.
 
 No puede ser`nulo`, pero puede ser una cadena vacía.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer el título de una forma.
 
@@ -50,7 +52,5 @@ Assert.AreEqual("Title: My cube", shape.AlternativeText);
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

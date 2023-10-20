@@ -1,7 +1,9 @@
 ---
 title: PageSetup.TextColumns
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Devuelve una colección que representa el conjunto de columnas de texto.
+linktitle: TextColumns
+articleTitle: TextColumns
+second_title: Aspose.Words para .NET
+description: PageSetup TextColumns propiedad. Devuelve una colección que representa el conjunto de columnas de texto en C#.
 type: docs
 weight: 420
 url: /es/net/aspose.words/pagesetup/textcolumns/
@@ -14,7 +16,7 @@ Devuelve una colección que representa el conjunto de columnas de texto.
 public TextColumnCollection TextColumns { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear varias columnas espaciadas uniformemente en una sección.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 
 * class [TextColumnCollection](../../textcolumncollection/)
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

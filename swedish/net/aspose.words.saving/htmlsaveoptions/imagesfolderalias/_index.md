@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImagesFolderAlias
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger namnet på mappen som används för att konstruera bildURIer inskrivna i ett HTMLdokument. Standard är en tom sträng.
+linktitle: ImagesFolderAlias
+articleTitle: ImagesFolderAlias
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ImagesFolderAlias fast egendom. Anger namnet på mappen som används för att konstruera bildURIer inskrivna i ett HTMLdokument. Standard är en tom sträng i C#.
 type: docs
 weight: 370
 url: /sv/net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/
@@ -14,7 +16,7 @@ Anger namnet på mappen som används för att konstruera bild-URI:er inskrivna i
 public string ImagesFolderAlias { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När du sparar en[`Document`](../../../aspose.words/document/) i HTML-format måste Aspose.Words spara alla -bilder som är inbäddade i dokumentet som fristående filer.[`ImagesFolder`](../imagesfolder/) låter dig ange var bilderna ska sparas och`ImagesFolderAlias` tillåter att specificera hur bildens URI:er kommer att konstrueras.
 
@@ -26,7 +28,7 @@ Om`ImagesFolderAlias`är satt till '.' (prick), då kommer bildfilens namn att s
 
 Ett alternativt sätt att ange namnet på mappen för att konstruera bilden URIs är att använda[`ResourceFolderAlias`](../resourcefolderalias/).
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in mappar och mappalias för externt sparade resurser som Aspose.Words skapar när ett dokument sparas till HTML.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

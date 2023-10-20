@@ -1,7 +1,9 @@
 ---
-title: Class StructuredDocumentTagCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Markup.StructuredDocumentTagCollection clase. Una colección deIStructuredDocumentTag instancias que representan las etiquetas de documentos estructurados en el rango especificado.
+title: StructuredDocumentTagCollection Class
+linktitle: StructuredDocumentTagCollection
+articleTitle: StructuredDocumentTagCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Markup.StructuredDocumentTagCollection clase. Una colección deIStructuredDocumentTag instancias que representan las etiquetas de documentos estructurados en el rango especificado en C#.
 type: docs
 weight: 4070
 url: /es/net/aspose.words.markup/structureddocumenttagcollection/
@@ -27,17 +29,15 @@ public class StructuredDocumentTagCollection : IEnumerable<IStructuredDocumentTa
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetById](../../aspose.words.markup/structureddocumenttagcollection/getbyid/)(int) | Devuelve la etiqueta del documento estructurado por identificador. |
-| [GetByTag](../../aspose.words.markup/structureddocumenttagcollection/getbytag/)(string) | Devuelve la primera etiqueta de documento estructurado encontrada en la colección con la etiqueta especificada. |
-| [GetByTitle](../../aspose.words.markup/structureddocumenttagcollection/getbytitle/)(string) | Devuelve la primera etiqueta de documento estructurado encontrada en la colección con el título especificado. |
+| [GetById](../../aspose.words.markup/structureddocumenttagcollection/getbyid/)(*int*) | Devuelve la etiqueta del documento estructurado por identificador. |
+| [GetByTag](../../aspose.words.markup/structureddocumenttagcollection/getbytag/)(*string*) | Devuelve la primera etiqueta de documento estructurado encontrada en la colección con la etiqueta especificada. |
+| [GetByTitle](../../aspose.words.markup/structureddocumenttagcollection/getbytitle/)(*string*) | Devuelve la primera etiqueta de documento estructurado encontrada en la colección con el título especificado. |
 | [GetEnumerator](../../aspose.words.markup/structureddocumenttagcollection/getenumerator/)() | Devuelve un objeto enumerador. |
-| [Remove](../../aspose.words.markup/structureddocumenttagcollection/remove/)(int) | Elimina la etiqueta del documento estructurado con el identificador especificado. |
-| [RemoveAt](../../aspose.words.markup/structureddocumenttagcollection/removeat/)(int) | Elimina una etiqueta de documento estructurado en el índice especificado. |
+| [Remove](../../aspose.words.markup/structureddocumenttagcollection/remove/)(*int*) | Elimina la etiqueta del documento estructurado con el identificador especificado. |
+| [RemoveAt](../../aspose.words.markup/structureddocumenttagcollection/removeat/)(*int*) | Elimina una etiqueta de documento estructurado en el índice especificado. |
 
 ### Ver también
 
 * interface [IStructuredDocumentTag](../istructureddocumenttag/)
 * espacio de nombres [Aspose.Words.Markup](../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../)
-
-

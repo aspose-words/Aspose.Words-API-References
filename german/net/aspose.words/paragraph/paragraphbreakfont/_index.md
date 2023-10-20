@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParagraphBreakFont
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. Bietet Zugriff auf die Schriftartformatierung des Absatzumbruchzeichens.
+linktitle: ParagraphBreakFont
+articleTitle: ParagraphBreakFont
+second_title: Aspose.Words für .NET
+description: Paragraph ParagraphBreakFont eigendom. Bietet Zugriff auf die Schriftartformatierung des Absatzumbruchzeichens in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words/paragraph/paragraphbreakfont/
@@ -14,7 +16,7 @@ Bietet Zugriff auf die Schriftartformatierung des Absatzumbruchzeichens.
 public Font ParagraphBreakFont { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie mithilfe einer DocumentVisitor-Implementierung alle ausgeblendeten Inhalte aus einem Dokument entfernen.
 
@@ -211,7 +213,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [Font](../../font/)
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldTA.IsBold
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldTA eigendom. Ruft ab oder legt fest ob Fettformatierung auf die Seitenzahl für den Eintrag angewendet werden soll.
+linktitle: IsBold
+articleTitle: IsBold
+second_title: Aspose.Words für .NET
+description: FieldTA IsBold eigendom. Ruft ab oder legt fest ob Fettformatierung auf die Seitenzahl für den Eintrag angewendet werden soll in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldta/isbold/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob Fettformatierung auf die Seitenzahl für den Eintrag 
 public bool IsBold { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe von TOA- und TA-Feldern ein Autoritätsverzeichnis erstellt und anpasst.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Siehe auch
 
 * class [FieldTA](../)
-* namensraum [Aspose.Words.Fields](../../fieldta/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

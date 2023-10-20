@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ApplyFont
-second_title: Aspose.Words för .NET API Referens
-description: FindReplaceOptions fast egendom. Textformatering tillämpas på nytt innehåll.
+linktitle: ApplyFont
+articleTitle: ApplyFont
+second_title: Aspose.Words för .NET
+description: FindReplaceOptions ApplyFont fast egendom. Textformatering tillämpas på nytt innehåll i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.replacing/findreplaceoptions/applyfont/
@@ -14,7 +16,7 @@ Textformatering tillämpas på nytt innehåll.
 public Font ApplyFont { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
 
@@ -88,7 +90,5 @@ private class NumberHexer : IReplacingCallback
 
 * class [Font](../../../aspose.words/font/)
 * class [FindReplaceOptions](../)
-* namnutrymme [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

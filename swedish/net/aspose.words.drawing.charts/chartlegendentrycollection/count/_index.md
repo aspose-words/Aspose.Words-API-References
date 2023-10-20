@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntryCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: ChartLegendEntryCollection fast egendom. Returnerar antaletChartLegendEntry i den här samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: ChartLegendEntryCollection Count fast egendom. Returnerar antaletChartLegendEntry i den här samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartlegendentrycollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Se även
 
 * class [ChartLegendEntryCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartlegendentrycollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

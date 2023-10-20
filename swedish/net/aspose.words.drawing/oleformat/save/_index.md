@@ -1,12 +1,14 @@
 ---
 title: OleFormat.Save
-second_title: Aspose.Words för .NET API Referens
-description: OleFormat metod. Sparar data för det inbäddade objektet i den angivna strömmen.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words för .NET
+description: OleFormat Save metod. Sparar data för det inbäddade objektet i den angivna strömmen i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.drawing/oleformat/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Sparar data för det inbäddade objektet i den angivna strömmen.
 
@@ -24,11 +26,11 @@ public void Save(Stream stream)
 | --- | --- |
 | InvalidOperationException | Kastar om du försöker spara ett länkat objekt. |
 
-### Anmärkningar
+## Anmärkningar
 
 Det är uppringarens ansvar att göra sig av med strömmen.
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar inbäddade OLE-objekt till filer.
 
@@ -63,12 +65,12 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Se även
 
 * class [OleFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../oleformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Sparar data för det inbäddade objektet i en fil med det angivna namnet.
 
@@ -86,7 +88,7 @@ public void Save(string fileName)
 | --- | --- |
 | InvalidOperationException | Kastar om du försöker spara ett länkat objekt. |
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar inbäddade OLE-objekt till filer.
 
@@ -121,7 +123,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Se även
 
 * class [OleFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../oleformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

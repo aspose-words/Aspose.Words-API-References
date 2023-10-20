@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Sections
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuildingBlock propriété. Renvoie une collection qui représente toutes les sections du bloc de construction.
+linktitle: Sections
+articleTitle: Sections
+second_title: Aspose.Words pour .NET
+description: BuildingBlock Sections propriété. Renvoie une collection qui représente toutes les sections du bloc de construction en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.buildingblocks/buildingblock/sections/
@@ -14,7 +16,7 @@ Renvoie une collection qui représente toutes les sections du bloc de constructi
 public SectionCollection Sections { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter un bloc de construction personnalisé à un document.
 
@@ -112,7 +114,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [SectionCollection](../../../aspose.words/sectioncollection/)
 * class [BuildingBlock](../)
-* espace de noms [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* espace de noms [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Assemblée [Aspose.Words](../../../)
-
-

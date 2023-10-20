@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: FormFieldCollection mülk. Belirtilen dizindeki bir form alanını döndürür.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: FormFieldCollection Item mülk. Belirtilen dizindeki bir form alanını döndürür C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/formfieldcollection/item/
@@ -18,7 +20,7 @@ public FormField this[int index] { get; }
 | --- | --- |
 | index | Koleksiyona bir dizin. |
 
-### Notlar
+## Notlar
 
 Endeks sıfır bazlıdır.
 
@@ -28,7 +30,7 @@ Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvur
 
 Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -163,7 +165,7 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormField](../../formfield/)
 * class [FormFieldCollection](../)
-* ad alanı [Aspose.Words.Fields](../../formfieldcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -180,11 +182,11 @@ public FormField this[string bookmarkName] { get; }
 | --- | --- |
 | bookmarkName | Büyük/küçük harfe duyarlı olmayan yer imi adı. |
 
-### Notlar
+## Notlar
 
 İadeler`hükümsüz` belirtilen yer imi adına sahip form alanı bulunamıyorsa.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -319,7 +321,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormField](../../formfield/)
 * class [FormFieldCollection](../)
-* ad alanı [Aspose.Words.Fields](../../formfieldcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

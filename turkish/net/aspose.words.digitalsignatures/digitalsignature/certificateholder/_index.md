@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.CertificateHolder
-second_title: Aspose.Words for .NET API Referansı
-description: DigitalSignature mülk. Belgeyi imzalamak için kullanılan sertifikayı içeren sertifika sahibi nesnesini döndürür.
+linktitle: CertificateHolder
+articleTitle: CertificateHolder
+second_title: Aspose.Words for .NET
+description: DigitalSignature CertificateHolder mülk. Belgeyi imzalamak için kullanılan sertifikayı içeren sertifika sahibi nesnesini döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.digitalsignatures/digitalsignature/certificateholder/
@@ -14,7 +16,7 @@ Belgeyi imzalamak için kullanılan sertifikayı içeren sertifika sahibi nesnes
 public CertificateHolder CertificateHolder { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 X.509 sertifikalarına sahip belgelerin nasıl imzalanacağını gösterir.
 
@@ -58,7 +60,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignature](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

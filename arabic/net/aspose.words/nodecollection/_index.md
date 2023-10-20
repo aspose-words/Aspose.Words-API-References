@@ -1,7 +1,9 @@
 ---
-title: Class NodeCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.NodeCollection فصل. يمثل مجموعة من العقد من نوع معين.
+title: NodeCollection Class
+linktitle: NodeCollection
+articleTitle: NodeCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.NodeCollection فصل. يمثل مجموعة من العقد من نوع معين في C#.
 type: docs
 weight: 4200
 url: /ar/net/aspose.words/nodecollection/
@@ -27,17 +29,17 @@ public class NodeCollection : IEnumerable<Node>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | إضافة عقدة إلى نهاية المجموعة. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | إضافة عقدة إلى نهاية المجموعة. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | إزالة كافة العقد من هذه المجموعة ومن المستند. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | تحديد ما إذا كانت العقدة موجودة في المجموعة. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | تحديد ما إذا كانت العقدة موجودة في المجموعة. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | يوفر تكرارًا بسيطًا لنمط "foreach" عبر مجموعة العقد. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | إرجاع الفهرس الصفري للعقدة المحددة. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | إدراج عقدة في المجموعة في الفهرس المحدد. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | إزالة العقدة من المجموعة ومن المستند. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | إزالة العقدة الموجودة في الفهرس المحدد من المجموعة ومن المستند. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | إرجاع الفهرس الصفري للعقدة المحددة. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | إدراج عقدة في المجموعة في الفهرس المحدد. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | إزالة العقدة من المجموعة ومن المستند. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | إزالة العقدة الموجودة في الفهرس المحدد من المجموعة ومن المستند. |
 | [ToArray](../../aspose.words/nodecollection/toarray/)() | نسخ كافة العقد من المجموعة إلى مجموعة جديدة من العقد. |
 
-### ملاحظات
+## ملاحظات
 
 `NodeCollection` لا يمتلك العقد التي يحتوي عليها، بل هو مجرد مجموعة مختارة من العقد من النوع المحدد، ولكن يتم تخزين العقد في الشجرة تحت العقد الأصلية الخاصة بها.
 
@@ -49,7 +51,7 @@ public class NodeCollection : IEnumerable<Node>
 
 `NodeCollection` يمكن أن تكون "مسطحة" وتحتوي فقط على العناصر الفرعية المباشرة للعقدة التي تم إنشاؤها منها، أو يمكن أن تكون "عميقة" وتحتوي على جميع العناصر الفرعية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استبدال جميع أشكال مربعات النص بأشكال الصور.
 
@@ -96,5 +98,3 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 * class [Node](../node/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

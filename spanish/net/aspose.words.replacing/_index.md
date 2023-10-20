@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Replacing
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Aspose.Palabras.Reemplazando El espacio de nombres proporciona clases para manipular con operaciones de búsqueda/reemplazo en el árbol de documentos.
+linktitle: Aspose.Words.Replacing
+articleTitle: Aspose.Words.Replacing
+second_title: Aspose.Words para .NET
+description: ElAspose.Palabras.Reemplazando El espacio de nombres proporciona clases para manipular con operaciones de búsqueda/reemplazo en el árbol de documentos en C#.
 type: docs
 weight: 210
 url: /es/net/aspose.words.replacing/
 ---
-El **Aspose.Palabras.Reemplazando** El espacio de nombres proporciona clases para manipular con operaciones de búsqueda/reemplazo en el árbol de documentos.
+El**Aspose.Palabras.Reemplazando** El espacio de nombres proporciona clases para manipular con operaciones de búsqueda/reemplazo en el árbol de documentos.
 
 ## Clases
 
@@ -25,5 +27,3 @@ El **Aspose.Palabras.Reemplazando** El espacio de nombres proporciona clases par
 | --- | --- |
 | [FindReplaceDirection](./findreplacedirection/) | Especifica la dirección para las operaciones de reemplazo. |
 | [ReplaceAction](./replaceaction/) | Permite al usuario especificar qué sucede con la coincidencia actual durante una operación de reemplazo. |
-
-

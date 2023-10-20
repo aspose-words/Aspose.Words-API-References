@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowPercentage
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabelCollection свойство. Позволяет указать должно ли отображаться процентное значение для меток данных всей серии. Значение по умолчаниюЛОЖЬ . Применяется только к круговым диаграммам.
+linktitle: ShowPercentage
+articleTitle: ShowPercentage
+second_title: Aspose.Words для .NET
+description: ChartDataLabelCollection ShowPercentage свойство. Позволяет указать должно ли отображаться процентное значение для меток данных всей серии. Значение по умолчаниюЛОЖЬ . Применяется только к круговым диаграммам на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage
 public bool ShowPercentage { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение, определенное для этого свойства, можно переопределить для отдельной метки данных с помощью the [`ShowPercentage`](../../chartdatalabel/showpercentage/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с метками данных на круговой диаграмме.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Смотрите также
 
 * class [ChartDataLabelCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

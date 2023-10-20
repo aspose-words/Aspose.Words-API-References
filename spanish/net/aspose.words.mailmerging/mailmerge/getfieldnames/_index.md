@@ -1,7 +1,9 @@
 ---
 title: MailMerge.GetFieldNames
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge método. Devuelve una colección de nombres de campos de combinación de correspondencia disponibles en el documento.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words para .NET
+description: MailMerge GetFieldNames método. Devuelve una colección de nombres de campos de combinación de correspondencia disponibles en el documento en C#.
 type: docs
 weight: 220
 url: /es/net/aspose.words.mailmerging/mailmerge/getfieldnames/
@@ -14,7 +16,7 @@ Devuelve una colección de nombres de campos de combinación de correspondencia 
 public string[] GetFieldNames()
 ```
 
-### Observaciones
+## Observaciones
 
 Devuelve nombres completos de campos de combinación, incluido el prefijo opcional. No elimina nombres de campos duplicados.
 
@@ -22,7 +24,7 @@ Se crea una nueva matriz de cadenas en cada llamada.
 
 Incluye nombres de campos "bigote" si[`UseNonMergeFields`](../usenonmergefields/) es`verdadero`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener nombres de todos los campos de combinación en un documento.
 
@@ -58,7 +60,5 @@ doc.MailMerge.Execute(dataTable);
 ### Ver también
 
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.FromDouble
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartYValue methode. Erstellt eineChartYValue Instanz derDouble Typ.
+linktitle: FromDouble
+articleTitle: FromDouble
+second_title: Aspose.Words für .NET
+description: ChartYValue FromDouble methode. Erstellt eineChartYValue Instanz derDouble Typ in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chartyvalue/fromdouble/
@@ -14,7 +16,7 @@ Erstellt eine[`ChartYValue`](../) Instanz derDouble Typ.
 public static ChartYValue FromDouble(double value)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Diagrammreihen mit Daten gefüllt werden.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ### Siehe auch
 
 * class [ChartYValue](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IFieldResultFormatter.FormatDateTime
-second_title: Referencia de API de Aspose.Words para .NET
-description: IFieldResultFormatter método. Se llama cuando Aspose.Words aplica un cambio de formato de fecha/hora es decir  dd.MM.yyyy.
+linktitle: FormatDateTime
+articleTitle: FormatDateTime
+second_title: Aspose.Words para .NET
+description: IFieldResultFormatter FormatDateTime método. Se llama cuando Aspose.Words aplica un cambio de formato de fecha/hora es decir  dd.MM.yyyy en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/ifieldresultformatter/formatdatetime/
@@ -14,11 +16,11 @@ Se llama cuando Aspose.Words aplica un cambio de formato de fecha/hora, es decir
 public string FormatDateTime(DateTime value, string format, CalendarType calendarType)
 ```
 
-### Observaciones
+## Observaciones
 
 La implementación debería regresar`nulo` para indicar que se debe aplicar el formato predeterminado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar automáticamente un formato personalizado a los resultados de los campos a medida que se actualizan los campos.
 
@@ -156,7 +158,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [CalendarType](../../../aspose.words/calendartype/)
 * interface [IFieldResultFormatter](../)
-* espacio de nombres [Aspose.Words.Fields](../../ifieldresultformatter/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

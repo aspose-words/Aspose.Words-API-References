@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: BorderCollection свойство. Получает количество границ в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: BorderCollection Count свойство. Получает количество границ в коллекции на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/bordercollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/bordercollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как коллекции границ могут совместно использовать элементы.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Смотрите также
 
 * class [BorderCollection](../)
-* пространство имен [Aspose.Words](../../bordercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

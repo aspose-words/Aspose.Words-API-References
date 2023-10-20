@@ -1,7 +1,9 @@
 ---
-title: Class PageInfo
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Rendering.PageInfo 班级. 表示有关特定文档页面的信息
+title: PageInfo Class
+linktitle: PageInfo
+articleTitle: PageInfo
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Rendering.PageInfo 班级. 表示有关特定文档页面的信息 在 C#.
 type: docs
 weight: 4570
 url: /zh/net/aspose.words.rendering/pageinfo/
@@ -32,16 +34,16 @@ public class PageInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | 获取PaperSize适合打印 由此表示的页面的对象`PageInfo`. |
-| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(float, float) | 计算指定缩放系数和分辨率的页面大小（以像素为单位）。 |
-| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | 计算指定缩放系数和分辨率的页面大小（以像素为单位）。 |
-| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | 获取PaperSource适合打印 由此表示的页面的对象`PageInfo`. |
+| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(*PaperSizeCollection*) | 获取PaperSize适合打印 由此表示的页面的对象`PageInfo`. |
+| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(*float, float*) | 计算指定缩放系数和分辨率的页面大小（以像素为单位）。 |
+| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(*float, float, float*) | 计算指定缩放系数和分辨率的页面大小（以像素为单位）。 |
+| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(*PaperSourceCollection, PaperSource*) | 获取PaperSource适合打印 由此表示的页面的对象`PageInfo`. |
 
-### 评论
+## 评论
 
 该对象返回的页面宽度和高度表示页面的“最终”尺寸，例如它们 已经旋转到正确的方向。
 
-### 例子
+## 例子
 
 演示如何打印 Word 文档中每个页面的页面大小和方向信息。
 
@@ -84,5 +86,3 @@ for (int i = 0; i < doc.PageCount; i++)
 
 * 命名空间 [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../)
-
-

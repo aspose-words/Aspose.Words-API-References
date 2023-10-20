@@ -1,7 +1,9 @@
 ---
-title: Class AsposeWordsPrintDocument
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Rendering.AsposeWordsPrintDocument sınıf. Bir belgenin yazdırılması için varsayılan bir uygulama sağlar.Document .NET yazdırma çerçevesi dahilinde .
+title: AsposeWordsPrintDocument Class
+linktitle: AsposeWordsPrintDocument
+articleTitle: AsposeWordsPrintDocument
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Rendering.AsposeWordsPrintDocument sınıf. Bir belgenin yazdırılması için varsayılan bir uygulama sağlar.Document .NET yazdırma çerçevesi dahilinde  C#'da.
 type: docs
 weight: 4530
 url: /tr/net/aspose.words.rendering/asposewordsprintdocument/
@@ -20,7 +22,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 | İsim | Tanım |
 | --- | --- |
-| [AsposeWordsPrintDocument](asposewordsprintdocument/)(Document) | Bu sınıfın yeni bir örneğini başlatır. |
+| [AsposeWordsPrintDocument](asposewordsprintdocument/)(*[Document](../../aspose.words/document/)*) | Bu sınıfın yeni bir örneğini başlatır. |
 
 ## Özellikleri
 
@@ -35,7 +37,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 | --- | --- |
 | [CachePrinterSettings](../../aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/)() | Bazı alanları okur ve önbelleğe alırPrinterSettings yazdırma süresini azaltmak için. |
 
-### Notlar
+## Notlar
 
 `AsposeWordsPrintDocument` geçersiz kılmalarPrintEventArgs) belirtilen sayfa aralığını yazdırmak içinPrinterSettings.
 
@@ -47,5 +49,3 @@ Microsoft Word, kağıt tepsileri için yazıcıya özgü değerleri bir Word be
 
 * ad alanı [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../)
-
-

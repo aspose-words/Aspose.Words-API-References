@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.PlaceholderName
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. الحصول على أو تعيين اسمBuildingBlock تحتوي على نص نائب.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag PlaceholderName ملكية. الحصول على أو تعيين اسمBuildingBlock تحتوي على نص نائب في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words.markup/structureddocumenttag/placeholdername/
@@ -16,7 +18,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttag/placeholdername/
 public string PlaceholderName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام محتويات الكتلة البرمجية الإنشائية كنص عنصر نائب مخصص لعلامة مستند منظمة.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

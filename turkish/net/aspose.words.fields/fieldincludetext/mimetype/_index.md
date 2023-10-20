@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.MimeType
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIncludeText mülk. Başvurulan dosyanın MIME türünü alır veya ayarlar.
+linktitle: MimeType
+articleTitle: MimeType
+second_title: Aspose.Words for .NET
+description: FieldIncludeText MimeType mülk. Başvurulan dosyanın MIME türünü alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldincludetext/mimetype/
@@ -14,7 +16,7 @@ Başvurulan dosyanın MIME türünü alır veya ayarlar.
 public string MimeType { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 INCLUDETEXT alanının nasıl oluşturulacağını ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Ayrıca bakınız
 
 * class [FieldIncludeText](../)
-* ad alanı [Aspose.Words.Fields](../../fieldincludetext/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

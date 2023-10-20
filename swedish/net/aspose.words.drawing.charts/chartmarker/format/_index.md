@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Format
-second_title: Aspose.Words för .NET API Referens
-description: ChartMarker fast egendom. Ger tillgång till fyllnings och linjeformatering av denna markör.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words för .NET
+description: ChartMarker Format fast egendom. Ger tillgång till fyllnings och linjeformatering av denna markör i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartmarker/format/
@@ -14,7 +16,7 @@ Ger tillgång till fyllnings- och linjeformatering av denna markör.
 public ChartFormat Format { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visa hur du ställer in markörformatering.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartMarker](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

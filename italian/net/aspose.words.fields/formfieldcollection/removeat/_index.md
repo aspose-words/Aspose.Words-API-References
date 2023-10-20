@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.RemoveAt
-second_title: Aspose.Words per .NET API Reference
-description: FormFieldCollection metodo. Rimuove un campo modulo nellindice specificato.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words per .NET
+description: FormFieldCollection RemoveAt metodo. Rimuove un campo modulo nellindice specificato in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/formfieldcollection/removeat/
@@ -18,11 +20,11 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | L'indice in base zero del campo modulo da rimuovere. |
 
-### Osservazioni
+## Osservazioni
 
 Se è presente un segnalibro associato al campo del modulo, il segnalibro non verrà rimosso.
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [FormFieldCollection](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfieldcollection/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

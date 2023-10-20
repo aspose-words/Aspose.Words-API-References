@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentSavingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.IDocumentSavingCallback arayüz. Bir belgeyi kaydederken kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın.
+title: IDocumentSavingCallback Interface
+linktitle: IDocumentSavingCallback
+articleTitle: IDocumentSavingCallback
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.IDocumentSavingCallback arayüz. Bir belgeyi kaydederken kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın C#'da.
 type: docs
 weight: 5150
 url: /tr/net/aspose.words.saving/idocumentsavingcallback/
@@ -18,9 +20,9 @@ public interface IDocumentSavingCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(DocumentSavingArgs) | Bu, belge kaydetme işleminin ilerlemesini bildirmek için çağrılır. |
+| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(*[DocumentSavingArgs](../documentsavingargs/)*) | Bu, belge kaydetme işleminin ilerlemesini bildirmek için çağrılır. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi html'ye kaydederken nasıl yönetileceğini gösterir.
 
@@ -191,5 +193,3 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

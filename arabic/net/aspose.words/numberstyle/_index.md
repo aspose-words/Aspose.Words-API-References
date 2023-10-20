@@ -1,7 +1,9 @@
 ---
-title: Enum NumberStyle
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.NumberStyle تعداد. يحدد نمط الأرقام للقائمة والحواشي السفلية والتعليقات الختامية وأرقام الصفحات.
+title: NumberStyle Enum
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.NumberStyle تعداد. يحدد نمط الأرقام للقائمة والحواشي السفلية والتعليقات الختامية وأرقام الصفحات في C#.
 type: docs
 weight: 4310
 url: /ar/net/aspose.words/numberstyle/
@@ -81,7 +83,7 @@ public enum NumberStyle
 | None | `255` | لا يوجد رمز نقطي أو رقم. |
 | Custom | `65280` | تنسيق الأرقام المخصص. وهو مدعوم بتنسيق DOCX فقط. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق القائمة المخصصة على الفقرات عند استخدام DocumentBuilder.
 
@@ -141,5 +143,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

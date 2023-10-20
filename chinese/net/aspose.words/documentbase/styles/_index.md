@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Styles
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBase 财产. 返回文档中定义的样式集合
+linktitle: Styles
+articleTitle: Styles
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBase Styles 财产. 返回文档中定义的样式集合 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/documentbase/styles/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/documentbase/styles/
 public StyleCollection Styles { get; }
 ```
 
-### 评论
+## 评论
 
 欲了解更多信息，请参阅描述[`StyleCollection`](../../stylecollection/)班级。
 
-### 例子
+## 例子
 
 演示如何访问文档的样式集合。
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [StyleCollection](../../stylecollection/)
 * class [DocumentBase](../)
-* 命名空间 [Aspose.Words](../../documentbase/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

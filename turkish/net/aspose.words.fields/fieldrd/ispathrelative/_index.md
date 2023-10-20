@@ -1,7 +1,9 @@
 ---
 title: FieldRD.IsPathRelative
-second_title: Aspose.Words for .NET API Referansı
-description: FieldRD mülk. Yolun geçerli belgeye göre olup olmadığını alır veya ayarlar.
+linktitle: IsPathRelative
+articleTitle: IsPathRelative
+second_title: Aspose.Words for .NET
+description: FieldRD IsPathRelative mülk. Yolun geçerli belgeye göre olup olmadığını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldrd/ispathrelative/
@@ -14,7 +16,7 @@ Yolun geçerli belgeye göre olup olmadığını alır veya ayarlar.
 public bool IsPathRelative { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Diğer belgelerdeki başlıklardan bir içindekiler tablosu girişleri oluşturmak için RD alanının nasıl kullanılacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.RD.docx");
 ### Ayrıca bakınız
 
 * class [FieldRD](../)
-* ad alanı [Aspose.Words.Fields](../../fieldrd/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

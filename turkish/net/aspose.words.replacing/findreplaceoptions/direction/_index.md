@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.Direction
-second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Değiştirme yönünü seçer. Varsayılan değerForward .
+linktitle: Direction
+articleTitle: Direction
+second_title: Aspose.Words for .NET
+description: FindReplaceOptions Direction mülk. Değiştirme yönünü seçer. Varsayılan değerForward  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.replacing/findreplaceoptions/direction/
@@ -14,7 +16,7 @@ Değiştirme yönünü seçer. Varsayılan değer:Forward .
 public FindReplaceDirection Direction { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bul ve değiştir işleminin belgeyi hangi yönde geçeceğinin nasıl belirleneceğini gösterir.
 
@@ -81,7 +83,5 @@ private class TextReplacementRecorder : IReplacingCallback
 
 * enum [FindReplaceDirection](../../findreplacedirection/)
 * class [FindReplaceOptions](../)
-* ad alanı [Aspose.Words.Replacing](../../findreplaceoptions/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

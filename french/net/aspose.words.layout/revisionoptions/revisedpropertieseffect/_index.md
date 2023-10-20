@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisedPropertiesEffect
-second_title: Référence de l'API Aspose.Words pour .NET
-description: RevisionOptions propriété. Permet de spécifier leffet pour les zones de contenu avec des modifications des propriétés de formatageFormatChange La valeur par défaut estNone
+linktitle: RevisedPropertiesEffect
+articleTitle: RevisedPropertiesEffect
+second_title: Aspose.Words pour .NET
+description: RevisionOptions RevisedPropertiesEffect propriété. Permet de spécifier leffet pour les zones de contenu avec des modifications des propriétés de formatageFormatChange La valeur par défaut estNone en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.layout/revisionoptions/revisedpropertieseffect/
@@ -14,11 +16,11 @@ Permet de spécifier l'effet pour les zones de contenu avec des modifications de
 public RevisionTextEffect RevisedPropertiesEffect { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Hiddenn'est pas autorisé et entraîneraArgumentOutOfRangeException.
 
-### Exemples
+## Exemples
 
 Montre comment modifier l’apparence des révisions.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* espace de noms [Aspose.Words.Layout](../../revisionoptions/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.StyleName
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين اسم نمط الأحرف المطبق على هذا التنسيق.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words لـ .NET
+description: Font StyleName ملكية. الحصول على أو تعيين اسم نمط الأحرف المطبق على هذا التنسيق في C#.
 type: docs
 weight: 420
 url: /ar/net/aspose.words/font/stylename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/stylename/
 public string StyleName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير نمط النص الموجود.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

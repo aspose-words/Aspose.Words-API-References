@@ -1,7 +1,9 @@
 ---
 title: Document.RevisionsView
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Obtient ou définit une valeur indiquant sil faut utiliser la version originale ou révisée dun document.
+linktitle: RevisionsView
+articleTitle: RevisionsView
+second_title: Aspose.Words pour .NET
+description: Document RevisionsView propriété. Obtient ou définit une valeur indiquant sil faut utiliser la version originale ou révisée dun document en C#.
 type: docs
 weight: 360
 url: /fr/net/aspose.words/document/revisionsview/
@@ -14,11 +16,11 @@ Obtient ou définit une valeur indiquant s'il faut utiliser la version originale
 public RevisionsView RevisionsView { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est .
 
-### Exemples
+## Exemples
 
 Montre comment basculer entre la vue révisée et la vue originale d'un document.
 
@@ -43,7 +45,5 @@ Assert.AreEqual("a.", paragraphs[2].ListLabel.LabelString);
 
 * enum [RevisionsView](../../revisionsview/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

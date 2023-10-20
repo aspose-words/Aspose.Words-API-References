@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Paragraphs
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuiltInDocumentProperties eigendom. Stellt eine Schätzung der Anzahl der Absätze im Dokument dar.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words für .NET
+description: BuiltInDocumentProperties Paragraphs eigendom. Stellt eine Schätzung der Anzahl der Absätze im Dokument dar in C#.
 type: docs
 weight: 230
 url: /de/net/aspose.words.properties/builtindocumentproperties/paragraphs/
@@ -14,11 +16,11 @@ Stellt eine Schätzung der Anzahl der Absätze im Dokument dar.
 public int Paragraphs { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Aspose.Words aktualisiert diese Eigenschaft, wenn Sie aufrufen[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Listenbezeichnungen in einem Dokument aktualisiert werden.
 
@@ -160,7 +162,5 @@ private class LineCounter
 ### Siehe auch
 
 * class [BuiltInDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

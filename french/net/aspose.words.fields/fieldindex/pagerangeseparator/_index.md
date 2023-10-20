@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.PageRangeSeparator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldIndex propriété. Obtient ou définit la séquence de caractères utilisée pour séparer le début et la fin dune plage de pages.
+linktitle: PageRangeSeparator
+articleTitle: PageRangeSeparator
+second_title: Aspose.Words pour .NET
+description: FieldIndex PageRangeSeparator propriété. Obtient ou définit la séquence de caractères utilisée pour séparer le début et la fin dune plage de pages en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.fields/fieldindex/pagerangeseparator/
@@ -14,7 +16,7 @@ Obtient ou définit la séquence de caractères utilisée pour séparer le débu
 public string PageRangeSeparator { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment spécifier les pages étendues d’un signet comme plage de pages pour une entrée de champ INDEX.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ### Voir également
 
 * class [FieldIndex](../)
-* espace de noms [Aspose.Words.Fields](../../fieldindex/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

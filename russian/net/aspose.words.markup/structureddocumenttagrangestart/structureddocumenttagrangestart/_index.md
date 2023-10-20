@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTagRangeStart.StructuredDocumentTagRangeStart
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart строитель. Инициализирует новый экземпляр Начало диапазона тегов структурированного документа класс.
+title: StructuredDocumentTagRangeStart
+linktitle: StructuredDocumentTagRangeStart
+articleTitle: StructuredDocumentTagRangeStart
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagRangeStart строитель. Инициализирует новый экземплярНачало диапазона тегов структурированного документа класс на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart constructor
 
-Инициализирует новый экземпляр **Начало диапазона тегов структурированного документа** класс.
+Инициализирует новый экземпляр**Начало диапазона тегов структурированного документа** класс.
 
 ```csharp
 public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
@@ -19,7 +21,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 | doc | DocumentBase | Документ владельца. |
 | type | SdtType | Тип узла SDT. |
 
-### Примечания
+## Примечания
 
 Могут быть созданы следующие типы SDT:
 
@@ -33,7 +35,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 * RichText
 * PlainText
 
-### Примеры
+## Примеры
 
 Показывает, как создать/удалить тег структурированного документа и его содержимое.
 
@@ -87,7 +89,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [SdtType](../../sdttype/)
 * class [StructuredDocumentTagRangeStart](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

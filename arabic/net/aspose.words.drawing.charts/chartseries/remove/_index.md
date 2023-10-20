@@ -1,9 +1,11 @@
 ---
 title: ChartSeries.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeries طريقة. إزالة القيمة X والقيمة Y وحجم الفقاعة إذا كانت مدعومة من سلسلة المخططات في الفهرس المحدد. تتم أيضًا إزالة نقطة البيانات المقابلة وتسمية البيانات.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: ChartSeries Remove طريقة. إزالة القيمة X والقيمة Y وحجم الفقاعة إذا كانت مدعومة من سلسلة المخططات في الفهرس المحدد. تتم أيضًا إزالة نقطة البيانات المقابلة وتسمية البيانات في C#.
 type: docs
-weight: 210
+weight: 200
 url: /ar/net/aspose.words.drawing.charts/chartseries/remove/
 ---
 ## ChartSeries.Remove method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartseries/remove/
 public void Remove(int index)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة/إزالة قيم بيانات المخطط.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartDataValues.docx");
 ### أنظر أيضا
 
 * class [ChartSeries](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseries/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MemoryFontSource.Type
-second_title: Aspose.Words für .NET-API-Referenz
-description: MemoryFontSource eigendom. Gibt den Typ der Schriftartquelle zurück.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words für .NET
+description: MemoryFontSource Type eigendom. Gibt den Typ der Schriftartquelle zurück in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fonts/memoryfontsource/type/
@@ -14,7 +16,7 @@ Gibt den Typ der Schriftartquelle zurück.
 public override FontSourceType Type { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Byte-Array mit Daten aus einer Schriftartdatei als Schriftartquelle verwendet wird.
 
@@ -34,7 +36,5 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [MemoryFontSource](../)
-* namensraum [Aspose.Words.Fonts](../../memoryfontsource/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

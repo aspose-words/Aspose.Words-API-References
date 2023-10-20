@@ -1,7 +1,9 @@
 ---
 title: Footnote.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: Footnote fast egendom. ReturnerarFootnote .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: Footnote NodeType fast egendom. ReturnerarFootnote  i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.notes/footnote/nodetype/
@@ -14,7 +16,7 @@ ReturnerarFootnote .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Footnote](../)
-* namnutrymme [Aspose.Words.Notes](../../footnote/)
+* namnutrymme [Aspose.Words.Notes](../../../aspose.words.notes/)
 * hopsättning [Aspose.Words](../../../)
-
-

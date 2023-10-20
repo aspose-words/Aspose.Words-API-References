@@ -1,7 +1,9 @@
 ---
-title: Class PdfLoadOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.PdfLoadOptions 班级. 允许在将 Pdf 文档加载到 PDF 文档时指定其他选项Document对象.
+title: PdfLoadOptions Class
+linktitle: PdfLoadOptions
+articleTitle: PdfLoadOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.PdfLoadOptions 班级. 允许在将 Pdf 文档加载到 PDF 文档时指定其他选项Document对象 在 C#.
 type: docs
 weight: 3670
 url: /zh/net/aspose.words.loading/pdfloadoptions/
@@ -50,12 +52,10 @@ public class PdfLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### 也可以看看
 
 * class [LoadOptions](../loadoptions/)
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: StyleCollection ملكية. الحصول على النمط بالاسم أو الاسم المستعار.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: StyleCollection Item ملكية. الحصول على النمط بالاسم أو الاسم المستعار في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/stylecollection/item/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/stylecollection/item/
 public Style this[string name] { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 حساس لحالة الأحرف، المرتجعات`باطل` إذا لم يتم العثور على النمط الذي يحمل الاسم المحدد.
 
 إذا كان هذا اسمًا إنجليزيًا لنمط مضمن غير موجود بعد، فقم بإنشائه تلقائيًا.
 
-### أمثلة
+## أمثلة
 
 يوضح متى يجب إعادة حساب تخطيط صفحة المستند.
 
@@ -48,7 +50,7 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../stylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -65,11 +67,11 @@ public Style this[StyleIdentifier sti] { get; }
 | --- | --- |
 | sti | أ[`StyleIdentifier`](../../styleidentifier/) القيمة التي تحدد النمط المدمج الذي سيتم استرداده. |
 
-### ملاحظات
+## ملاحظات
 
 عند الوصول إلى نمط غير موجود بعد، يتم إنشاؤه تلقائيًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نمط إلى مجموعة أنماط المستند.
 
@@ -94,7 +96,7 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 * class [Style](../../style/)
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [StyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../stylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -107,7 +109,7 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 public Style this[int index] { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نمط إلى مجموعة أنماط المستند.
 
@@ -131,7 +133,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../stylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

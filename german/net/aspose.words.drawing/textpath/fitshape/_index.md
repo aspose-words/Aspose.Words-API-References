@@ -1,7 +1,9 @@
 ---
 title: TextPath.FitShape
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextPath eigendom. Definiert ob der Text in den Begrenzungsrahmen einer Form passt.
+linktitle: FitShape
+articleTitle: FitShape
+second_title: Aspose.Words für .NET
+description: TextPath FitShape eigendom. Definiert ob der Text in den Begrenzungsrahmen einer Form passt in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing/textpath/fitshape/
@@ -14,11 +16,11 @@ Definiert, ob der Text in den Begrenzungsrahmen einer Form passt.
 public bool FitShape { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit WordArt arbeitet.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Siehe auch
 
 * class [TextPath](../)
-* namensraum [Aspose.Words.Drawing](../../textpath/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

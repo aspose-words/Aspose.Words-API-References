@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.IsValid
-second_title: Referencia de API de Aspose.Words para .NET
-description: DigitalSignatureCollection propiedad. Devolucionesverdadero si todas las firmas digitales de esta colección son válidas y el documento no ha sido manipulado También devuelveverdadero si no hay firmas digitales. DevuelveFALSO si al menos una firma digital no es válida.
+linktitle: IsValid
+articleTitle: IsValid
+second_title: Aspose.Words para .NET
+description: DigitalSignatureCollection IsValid propiedad. Devolucionesverdadero si todas las firmas digitales de esta colección son válidas y el documento no ha sido manipulado También devuelveverdadero si no hay firmas digitales. DevuelveFALSO si al menos una firma digital no es válida en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
@@ -14,7 +16,7 @@ Devoluciones`verdadero` si todas las firmas digitales de esta colección son vá
 public bool IsValid { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo firmar documentos con certificados X.509.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### Ver también
 
 * class [DigitalSignatureCollection](../)
-* espacio de nombres [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* espacio de nombres [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * asamblea [Aspose.Words](../../../)
-
-

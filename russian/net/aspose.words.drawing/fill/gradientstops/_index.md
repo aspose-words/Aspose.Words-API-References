@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientStops
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill свойство. Получает коллекциюGradientStop объекты для заливки.
+linktitle: GradientStops
+articleTitle: GradientStops
+second_title: Aspose.Words для .NET
+description: Fill GradientStops свойство. Получает коллекциюGradientStop объекты для заливки на С#.
 type: docs
-weight: 110
+weight: 100
 url: /ru/net/aspose.words.drawing/fill/gradientstops/
 ---
 ## Fill.GradientStops property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/fill/gradientstops/
 public GradientStopCollection GradientStops { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить остановки градиента к градиентной заливке.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStopCollection](../../gradientstopcollection/)
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

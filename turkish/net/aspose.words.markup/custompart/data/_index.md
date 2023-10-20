@@ -1,7 +1,9 @@
 ---
 title: CustomPart.Data
-second_title: Aspose.Words for .NET API Referansı
-description: CustomPart mülk. Bu özel parçanın verilerini içerir.
+linktitle: Data
+articleTitle: Data
+second_title: Aspose.Words for .NET
+description: CustomPart Data mülk. Bu özel parçanın verilerini içerir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.markup/custompart/data/
@@ -14,13 +16,13 @@ Bu özel parçanın verilerini içerir.
 public byte[] Data { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca şu durumlarda geçerlidir:[`IsExternal`](../isexternal/) dır-dir`YANLIŞ`.
 
 Varsayılan değer boş bir bayt dizisidir. Değer olamaz`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Ayrıca bakınız
 
 * class [CustomPart](../)
-* ad alanı [Aspose.Words.Markup](../../custompart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

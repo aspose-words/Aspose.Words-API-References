@@ -1,9 +1,11 @@
 ---
 title: Body.EnsureMinimum
-second_title: Aspose.Words لمراجع .NET API
-description: Body طريقة. إذا لم يكن العنصر الفرعي الأخير فقرة فسيتم إنشاء فقرة واحدة فارغة وإلحاقها.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words لـ .NET
+description: Body EnsureMinimum طريقة. إذا لم يكن العنصر الفرعي الأخير فقرة فسيتم إنشاء فقرة واحدة فارغة وإلحاقها في C#.
 type: docs
-weight: 70
+weight: 50
 url: /ar/net/aspose.words/body/ensureminimum/
 ---
 ## Body.EnsureMinimum method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/body/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### أمثلة
+## أمثلة
 
 مسح النص الرئيسي من كافة أقسام المستند مع ترك الأقسام نفسها.
 
@@ -52,7 +54,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### أنظر أيضا
 
 * class [Body](../)
-* مساحة الاسم [Aspose.Words](../../body/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

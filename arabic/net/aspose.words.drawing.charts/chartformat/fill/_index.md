@@ -1,7 +1,9 @@
 ---
 title: ChartFormat.Fill
-second_title: Aspose.Words لمراجع .NET API
-description: ChartFormat ملكية. الحصول على تنسيق التعبئة لعنصر المخطط الأصلي.
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words لـ .NET
+description: ChartFormat Fill ملكية. الحصول على تنسيق التعبئة لعنصر المخطط الأصلي في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartformat/fill/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartformat/fill/
 public Fill Fill { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 أظهر كيفية ضبط تنسيق العلامة.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [Fill](../../../aspose.words.drawing/fill/)
 * class [ChartFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartformat/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

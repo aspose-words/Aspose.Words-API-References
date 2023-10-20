@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.SubAddress
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldHyperlink eigendom. Ruft eine Position in der Datei ab oder legt diese fest beispielsweise ein Lesezeichen an die dieser Hyperlink springt.
+linktitle: SubAddress
+articleTitle: SubAddress
+second_title: Aspose.Words für .NET
+description: FieldHyperlink SubAddress eigendom. Ruft eine Position in der Datei ab oder legt diese fest beispielsweise ein Lesezeichen an die dieser Hyperlink springt in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldhyperlink/subaddress/
@@ -14,7 +16,7 @@ Ruft eine Position in der Datei ab oder legt diese fest, beispielsweise ein Lese
 public string SubAddress { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie HYPERLINK-Felder zum Verknüpfen mit Dokumenten im lokalen Dateisystem verwendet werden.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Siehe auch
 
 * class [FieldHyperlink](../)
-* namensraum [Aspose.Words.Fields](../../fieldhyperlink/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

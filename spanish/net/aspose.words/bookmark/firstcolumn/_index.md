@@ -1,7 +1,9 @@
 ---
 title: Bookmark.FirstColumn
-second_title: Referencia de API de Aspose.Words para .NET
-description: Bookmark propiedad. Obtiene el índice de base cero de la primera columna del rango de columnas de la tabla asociado con el marcador.
+linktitle: FirstColumn
+articleTitle: FirstColumn
+second_title: Aspose.Words para .NET
+description: Bookmark FirstColumn propiedad. Obtiene el índice de base cero de la primera columna del rango de columnas de la tabla asociado con el marcador en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/bookmark/firstcolumn/
@@ -14,11 +16,11 @@ Obtiene el índice de base cero de la primera columna del rango de columnas de l
 public int FirstColumn { get; }
 ```
 
-### Observaciones
+## Observaciones
 
-Devoluciones **-1** si este marcador no es un marcador de columna de tabla.
+Devoluciones**-1** si este marcador no es un marcador de columna de tabla.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener información sobre los marcadores de columnas de la tabla.
 
@@ -45,7 +47,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### Ver también
 
 * class [Bookmark](../)
-* espacio de nombres [Aspose.Words](../../bookmark/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

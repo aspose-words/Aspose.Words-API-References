@@ -1,7 +1,9 @@
 ---
 title: Document.TrackRevisions
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 如果在 Microsoft Word 中编辑此文档时跟踪更改则为 True
+linktitle: TrackRevisions
+articleTitle: TrackRevisions
+second_title: 用于 .NET 的 Aspose.Words
+description: Document TrackRevisions 财产. 如果在 Microsoft Word 中编辑此文档时跟踪更改则为 True 在 C#.
 type: docs
 weight: 430
 url: /zh/net/aspose.words/document/trackrevisions/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/document/trackrevisions/
 public bool TrackRevisions { get; set; }
 ```
 
-### 评论
+## 评论
 
 设置此选项仅指示 Microsoft Word 轨道更改 是打开还是关闭。此属性对您通过 Aspose.Words 以编程方式 make 进行的文档更改没有影响。
 
 如果您想自动跟踪 Aspose.Words 以编程方式对此文档所做的更改，请使用[`StartTrackRevisions`](../starttrackrevisions/)方法。
 
-### 例子
+## 例子
 
 展示如何处理文档中的修订。
 
@@ -103,7 +105,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

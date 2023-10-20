@@ -1,20 +1,22 @@
 ---
 title: SignOptions.Comments
-second_title: Aspose.Words for .NET API 参考
-description: SignOptions 财产. 指定数字签名的注释 默认值为 空字符串Empty.
+linktitle: Comments
+articleTitle: Comments
+second_title: 用于 .NET 的 Aspose.Words
+description: SignOptions Comments 财产. 指定数字签名的注释 默认值为空字符串Empty 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.digitalsignatures/signoptions/comments/
 ---
 ## SignOptions.Comments property
 
-指定数字签名的注释。 默认值为 **空字符串**（Empty).
+指定数字签名的注释。 默认值为**空字符串**（Empty).
 
 ```csharp
 public string Comments { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何对文档进行数字签名。
 
@@ -43,7 +45,5 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### 也可以看看
 
 * class [SignOptions](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../signoptions/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

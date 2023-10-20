@@ -1,7 +1,9 @@
 ---
-title: Class LayoutCollector
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Layout.LayoutCollector klass. Denna klass gör det möjligt att beräkna sidnummer för dokumentnoder.
+title: LayoutCollector Class
+linktitle: LayoutCollector
+articleTitle: LayoutCollector
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Layout.LayoutCollector klass. Denna klass gör det möjligt att beräkna sidnummer för dokumentnoder i C#.
 type: docs
 weight: 3320
 url: /sv/net/aspose.words.layout/layoutcollector/
@@ -20,7 +22,7 @@ public class LayoutCollector
 
 | namn | Beskrivning |
 | --- | --- |
-| [LayoutCollector](layoutcollector/)(Document) | Initierar en instans av denna klass. |
+| [LayoutCollector](layoutcollector/)(*[Document](../../aspose.words/document/)*) | Initierar en instans av denna klass. |
 
 ## Egenskaper
 
@@ -33,12 +35,12 @@ public class LayoutCollector
 | namn | Beskrivning |
 | --- | --- |
 | [Clear](../../aspose.words.layout/layoutcollector/clear/)() | Rensar alla insamlade layoutdata. Anrop den här metoden efter att dokumentet har uppdaterats manuellt eller efter att layouten byggts om. |
-| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(Node) | Hämtar 1-baserat index på sidan där noden slutar. Returnerar 0 om noden inte kan mappas till en sida. |
-| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(Node) | Returnerar en ogenomskinlig position för[`LayoutEnumerator`](../layoutenumerator/) som motsvarar den angivna noden. Du kan använda returnerat värde som ett argument till[`Current`](../layoutenumerator/current/) givet att dokumentet som räknas upp och dokumentet för noden är desamma. |
-| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(Node) | Hämtar antal sidor som den angivna noden sträcker sig över. 0 om noden är inom en enda sida. Detta är samma sak som[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
-| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(Node) | Hämtar 1-baserat index på sidan där noden börjar. Returnerar 0 om noden inte kan mappas till en sida. |
+| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(*[Node](../../aspose.words/node/)*) | Hämtar 1-baserat index på sidan där noden slutar. Returnerar 0 om noden inte kan mappas till en sida. |
+| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(*[Node](../../aspose.words/node/)*) | Returnerar en ogenomskinlig position för[`LayoutEnumerator`](../layoutenumerator/) som motsvarar den angivna noden. Du kan använda returnerat värde som ett argument till[`Current`](../layoutenumerator/current/) givet att dokumentet som räknas upp och dokumentet för noden är desamma. |
+| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(*[Node](../../aspose.words/node/)*) | Hämtar antal sidor som den angivna noden sträcker sig över. 0 om noden är inom en enda sida. Detta är samma sak som[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
+| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(*[Node](../../aspose.words/node/)*) | Hämtar 1-baserat index på sidan där noden börjar. Returnerar 0 om noden inte kan mappas till en sida. |
 
-### Anmärkningar
+## Anmärkningar
 
 När du skapar en`LayoutCollector` och ange a[`Document`](../../aspose.words/document/) dokumentobjekt att bifoga till, samlaren kommer att spela in mappning av dokumentnoder till layoutobjekt när dokumentet formateras till sidor.
 
@@ -46,7 +48,7 @@ Du kommer att kunna ta reda på vilken sida en viss dokumentnod (t.ex. körning,
 
 När du inte längre behöver samla in layoutinformation är det bäst att ställa in[`Document`](./document/) egendom till`null` för att undvika onödig insamling av fler layoutmappningar.
 
-### Exempel
+## Exempel
 
 Visar hur man kan se sidorna som en nod sträcker sig över.
 
@@ -105,5 +107,3 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * namnutrymme [Aspose.Words.Layout](../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../)
-
-

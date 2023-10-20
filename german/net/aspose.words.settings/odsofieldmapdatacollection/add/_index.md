@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Add
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoFieldMapDataCollection methode. Fügt ein Objekt am Ende dieser Sammlung hinzu.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words für .NET
+description: OdsoFieldMapDataCollection Add methode. Fügt ein Objekt am Ende dieser Sammlung hinzu in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.settings/odsofieldmapdatacollection/add/
@@ -18,7 +20,7 @@ public int Add(OdsoFieldMapData value)
 | --- | --- | --- |
 | value | OdsoFieldMapData | Das hinzuzufügende Objekt. Kann nicht sein`Null`. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Briefvorlagenfeldern zuordnet.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* namensraum [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

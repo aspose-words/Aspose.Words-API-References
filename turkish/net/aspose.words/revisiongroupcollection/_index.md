@@ -1,7 +1,9 @@
 ---
-title: Class RevisionGroupCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.RevisionGroupCollection sınıf. Bir koleksiyonRevisionGroup belgedeki revizyon gruplarını temsil eden nesneler.
+title: RevisionGroupCollection Class
+linktitle: RevisionGroupCollection
+articleTitle: RevisionGroupCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.RevisionGroupCollection sınıf. Bir koleksiyonRevisionGroup belgedeki revizyon gruplarını temsil eden nesneler C#'da.
 type: docs
 weight: 4790
 url: /tr/net/aspose.words/revisiongroupcollection/
@@ -29,11 +31,11 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 | --- | --- |
 | [GetEnumerator](../../aspose.words/revisiongroupcollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
 
-### Notlar
+## Notlar
 
 Bu sınıfın örneklerini doğrudan oluşturmazsınız. Kullan[`Groups`](../revisioncollection/groups/) Bir belgede revizyon gruplarının bulunmasını sağlayan özelliği.
 
-### Örnekler
+## Örnekler
 
 Bir belgede bir grup revizyonun nasıl alınacağını gösterir.
 
@@ -62,5 +64,3 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 * class [RevisionGroup](../revisiongroup/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Node.ToString
-second_title: Aspose.Words för .NET API Referens
-description: Node metod. Exporterar innehållet i noden till en sträng i angivet format.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words för .NET
+description: Node ToString metod. Exporterar innehållet i noden till en sträng i angivet format i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words/node/tostring/
 ---
-## ToString(SaveFormat) {#tostring_1}
+## ToString(*[SaveFormat](../../saveformat/)*) {#tostring_1}
 
 Exporterar innehållet i noden till en sträng i angivet format.
 
@@ -18,7 +20,7 @@ public string ToString(SaveFormat saveFormat)
 
 Innehållet i noden i det angivna formatet.
 
-### Exempel
+## Exempel
 
 Visar skillnaden mellan att anropa GetText- och ToString-metoderna på en nod.
 
@@ -91,12 +93,12 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * enum [SaveFormat](../../saveformat/)
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## ToString(SaveOptions) {#tostring_2}
+## ToString(*[SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#tostring_2}
 
 Exporterar innehållet i noden till en sträng med de angivna sparalternativen.
 
@@ -112,7 +114,7 @@ public string ToString(SaveOptions saveOptions)
 
 Innehållet i noden i det angivna formatet.
 
-### Exempel
+## Exempel
 
 Exporterar innehållet i en nod till String i HTML-format.
 
@@ -140,7 +142,5 @@ Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\
 
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

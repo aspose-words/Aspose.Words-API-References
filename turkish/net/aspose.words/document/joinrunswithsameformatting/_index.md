@@ -1,9 +1,11 @@
 ---
 title: Document.JoinRunsWithSameFormatting
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Birleştirmeler belgenin tüm paragraflarında aynı formatta çalışır.
+linktitle: JoinRunsWithSameFormatting
+articleTitle: JoinRunsWithSameFormatting
+second_title: Aspose.Words for .NET
+description: Document JoinRunsWithSameFormatting yöntem. Birleştirmeler belgenin tüm paragraflarında aynı formatta çalışır C#'da.
 type: docs
-weight: 640
+weight: 620
 url: /tr/net/aspose.words/document/joinrunswithsameformatting/
 ---
 ## Document.JoinRunsWithSameFormatting method
@@ -16,15 +18,15 @@ public int JoinRunsWithSameFormatting()
 
 ### Geri dönüş değeri
 
-Gerçekleştirilen birleştirme sayısı. Ne zaman **N** bitişik koşular birleştiriliyor, sayılırlar **N - 1** katıldı.
+Gerçekleştirilen birleştirme sayısı. Ne zaman**N** bitişik koşular birleştiriliyor, sayılırlar**N - 1** katıldı.
 
-### Notlar
+## Notlar
 
 Bu bir optimizasyon yöntemidir. Bazı belgeler aynı biçimlendirmeye sahip bitişik çalışmalar içerir. Genellikle bu, bir belge yoğun bir şekilde manuel olarak düzenlendiyse meydana gelir. Bu işlemleri birleştirerek belge boyutunu küçültebilir ve daha sonraki işlemleri hızlandırabilirsiniz.
 
 Operasyon her şeyi kontrol ediyor[`Paragraph`](../../paragraph/) bitişik için belgedeki düğüm[`Run`](../../run/) düğümleri aynı özelliklere sahip. run oluşturma ve değiştirme düzenleme oturumlarını izlemek için kullanılan benzersiz tanımlayıcıları yok sayar. Her birleştirme sırasındaki ilk çalıştırma tüm metni biriktirir. Remaining çalıştırmalar belgeden silinir.
 
-### Örnekler
+## Örnekler
 
 Gereksiz çalıştırmaları azaltmak için bir belgede çalıştırmaların nasıl birleştirileceğini gösterir.
 
@@ -48,7 +50,5 @@ Assert.AreEqual(196, doc.GetChildNodes(NodeType.Run, true).Count);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

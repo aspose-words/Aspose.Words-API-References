@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Properties
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Aspose.Words.Propiedades El espacio de nombres proporciona clases para work con propiedades de documento personalizadas e integradas como título palabras clave empresa etc.
+linktitle: Aspose.Words.Properties
+articleTitle: Aspose.Words.Properties
+second_title: Aspose.Words para .NET
+description: ElAspose.Words.Propiedades El espacio de nombres proporciona clases para work con propiedades de documento personalizadas e integradas como título palabras clave empresa etc en C#.
 type: docs
 weight: 190
 url: /es/net/aspose.words.properties/
 ---
-El **Aspose.Words.Propiedades** El espacio de nombres proporciona clases para work con propiedades de documento personalizadas e integradas, como título, palabras clave, empresa, etc.
+El**Aspose.Words.Propiedades** El espacio de nombres proporciona clases para work con propiedades de documento personalizadas e integradas, como título, palabras clave, empresa, etc.
 
 ## Clases
 
@@ -22,5 +24,3 @@ El **Aspose.Words.Propiedades** El espacio de nombres proporciona clases para wo
 | --- | --- |
 | [DocumentSecurity](./documentsecurity/) | Se utiliza como valor para el[`Security`](../aspose.words.properties/builtindocumentproperties/security/) propiedad. Especifica el nivel de seguridad de un documento como un valor numérico. |
 | [PropertyType](./propertytype/) | Especifica el tipo de datos de una propiedad de documento. |
-
-

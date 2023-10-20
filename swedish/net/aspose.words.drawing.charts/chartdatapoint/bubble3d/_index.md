@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Bubble3D
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataPoint fast egendom. Anger om bubblorna i bubbeldiagrammet ska ha en 3Deffekt på dem.
+linktitle: Bubble3D
+articleTitle: Bubble3D
+second_title: Aspose.Words för .NET
+description: ChartDataPoint Bubble3D fast egendom. Anger om bubblorna i bubbeldiagrammet ska ha en 3Deffekt på dem i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartdatapoint/bubble3d/
@@ -17,7 +19,5 @@ public bool Bubble3D { get; set; }
 ### Se även
 
 * class [ChartDataPoint](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

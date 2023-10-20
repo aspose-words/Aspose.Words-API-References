@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToHeaderFooter
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将光标移动到当前节中页眉或页脚的开头
+linktitle: MoveToHeaderFooter
+articleTitle: MoveToHeaderFooter
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder MoveToHeaderFooter 方法. 将光标移动到当前节中页眉或页脚的开头 在 C#.
 type: docs
-weight: 550
+weight: 540
 url: /zh/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
@@ -18,7 +20,7 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 | --- | --- | --- |
 | headerFooterType | HeaderFooterType | 指定要移动到的页眉或页脚。 |
 
-### 评论
+## 评论
 
 将光标移至页眉或页脚后，您可以使用其余部分[`DocumentBuilder`](../) 修改页眉或页脚内容的方法。
 
@@ -28,7 +30,7 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 
 使用[`MoveToSection`](../movetosection/)从标题移到正文中。
 
-### 例子
+## 例子
 
 演示如何插入图像并将其用作水印。
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

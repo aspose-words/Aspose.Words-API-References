@@ -1,24 +1,26 @@
 ---
 title: SignOptions.DecryptionPassword
-second_title: Aspose.Words for .NET API Referansı
-description: SignOptions mülk. Kaynak belgenin şifresini çözmek için kullanılan parola. Varsayılan değer boş dize Empty.
+linktitle: DecryptionPassword
+articleTitle: DecryptionPassword
+second_title: Aspose.Words for .NET
+description: SignOptions DecryptionPassword mülk. Kaynak belgenin şifresini çözmek için kullanılan parola. Varsayılan değerboş dize Empty C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.digitalsignatures/signoptions/decryptionpassword/
 ---
 ## SignOptions.DecryptionPassword property
 
-Kaynak belgenin şifresini çözmek için kullanılan parola. Varsayılan değer: **boş dize** (Empty).
+Kaynak belgenin şifresini çözmek için kullanılan parola. Varsayılan değer:**boş dize** (Empty).
 
 ```csharp
 public string DecryptionPassword { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 OOXML belgesi şifrelenmişse, imzalanmadan önce kaynak belgenin şifresini çözmek için şifre çözme parolasını sağlamalısınız. Bu, ikili DOC biçimindeki belgeler için gerekli değildir.
 
-### Örnekler
+## Örnekler
 
 Şifrelenmiş belge dosyasının nasıl imzalanacağını gösterir.
 
@@ -44,7 +46,5 @@ DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, sign
 ### Ayrıca bakınız
 
 * class [SignOptions](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../signoptions/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Cell.FirstParagraph
-second_title: Aspose.Words per .NET API Reference
-description: Cell proprietà. Ottiene il primo paragrafo tra i figli immediati.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words per .NET
+description: Cell FirstParagraph proprietà. Ottiene il primo paragrafo tra i figli immediati in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.tables/cell/firstparagraph/
@@ -14,7 +16,7 @@ Ottiene il primo paragrafo tra i figli immediati.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare una tabella nidificata utilizzando un generatore di documenti.
 
@@ -95,7 +97,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cell/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

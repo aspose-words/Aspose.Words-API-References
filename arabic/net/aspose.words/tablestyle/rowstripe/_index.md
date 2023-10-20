@@ -1,7 +1,9 @@
 ---
 title: TableStyle.RowStripe
-second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. الحصول على أو تعيين عدد من الصفوف لتضمينها في النطاق عندما يحدد النمط نطاق الصفوف الفردية/الزوجية.
+linktitle: RowStripe
+articleTitle: RowStripe
+second_title: Aspose.Words لـ .NET
+description: TableStyle RowStripe ملكية. الحصول على أو تعيين عدد من الصفوف لتضمينها في النطاق عندما يحدد النمط نطاق الصفوف الفردية/الزوجية في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/tablestyle/rowstripe/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tablestyle/rowstripe/
 public int RowStripe { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء أنماط جدول شرطية تتناوب بين الصفوف.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");
 ### أنظر أيضا
 
 * class [TableStyle](../)
-* مساحة الاسم [Aspose.Words](../../tablestyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

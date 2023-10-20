@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlSchemaCollection mülk. Koleksiyonda yer alan öğelerin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: CustomXmlSchemaCollection Count mülk. Koleksiyonda yer alan öğelerin sayısını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.markup/customxmlschemacollection/count/
@@ -14,7 +16,7 @@ Koleksiyonda yer alan öğelerin sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 XML şeması koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Ayrıca bakınız
 
 * class [CustomXmlSchemaCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlschemacollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

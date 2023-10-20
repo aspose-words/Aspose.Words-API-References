@@ -1,7 +1,9 @@
 ---
 title: FieldXE.Yomi
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldXE свойство. Получает или задает ёми первый фонетический символ для сортировки индексов для индекса enter
+linktitle: Yomi
+articleTitle: Yomi
+second_title: Aspose.Words для .NET
+description: FieldXE Yomi свойство. Получает или задает ёми первый фонетический символ для сортировки индексов для индекса enter на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/fieldxe/yomi/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldxe/yomi/
 public string Yomi { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как фонетически сортировать записи поля INDEX.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Yomi.docx");
 ### Смотрите также
 
 * class [FieldXE](../)
-* пространство имен [Aspose.Words.Fields](../../fieldxe/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

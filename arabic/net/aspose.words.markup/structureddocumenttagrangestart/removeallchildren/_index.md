@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveAllChildren
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart طريقة. إزالة كافة العقد بين عقدة بداية النطاق وعقدة نهاية النطاق.
+linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeStart RemoveAllChildren طريقة. إزالة كافة العقد بين عقدة بداية النطاق وعقدة نهاية النطاق في C#.
 type: docs
 weight: 230
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildr
 public void RemoveAllChildren()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء/إزالة علامة المستند المنظمة ومحتواها.
 
@@ -66,7 +68,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 ### أنظر أيضا
 
 * class [StructuredDocumentTagRangeStart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

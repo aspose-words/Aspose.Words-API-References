@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.ColorMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: AsposeWordsPrintDocument eigendom. Ruft ab oder legt fest wie nicht farbige Seiten gedruckt werden wenn das Gerät Farbdruck unterstützt.
+linktitle: ColorMode
+articleTitle: ColorMode
+second_title: Aspose.Words für .NET
+description: AsposeWordsPrintDocument ColorMode eigendom. Ruft ab oder legt fest wie nicht farbige Seiten gedruckt werden wenn das Gerät Farbdruck unterstützt in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.rendering/asposewordsprintdocument/colormode/
@@ -14,11 +16,11 @@ Ruft ab oder legt fest, wie nicht farbige Seiten gedruckt werden, wenn das Gerä
 public ColorPrintMode ColorMode { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Hat keinen Einfluss auf den Broschürendruck.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen Seitenbereich und einen Drucker zum Drucken des Dokuments auswählen und dann eine Druckvorschau aufrufen.
 
@@ -68,7 +70,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 
 * enum [ColorPrintMode](../../colorprintmode/)
 * class [AsposeWordsPrintDocument](../)
-* namensraum [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* namensraum [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../../)
-
-

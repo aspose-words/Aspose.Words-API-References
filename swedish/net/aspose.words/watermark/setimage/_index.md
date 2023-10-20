@@ -1,12 +1,14 @@
 ---
 title: Watermark.SetImage
-second_title: Aspose.Words för .NET API Referens
-description: Watermark metod. Lägger till bildvattenstämpel i dokumentet.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words för .NET
+description: Watermark SetImage metod. Lägger till bildvattenstämpel i dokumentet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/watermark/setimage/
 ---
-## SetImage(Image) {#setimage}
+## SetImage(*Image*) {#setimage}
 
 Lägger till bildvattenstämpel i dokumentet.
 
@@ -27,12 +29,12 @@ public void SetImage(Image image)
 ### Se även
 
 * class [Watermark](../)
-* namnutrymme [Aspose.Words](../../watermark/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Image, ImageWatermarkOptions) {#setimage_1}
+## SetImage(*Image, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_1}
 
 Lägger till bildvattenstämpel i dokumentet.
 
@@ -51,11 +53,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Kastar när bilden är`null` . |
 
-### Anmärkningar
+## Anmärkningar
 
 Om[`ImageWatermarkOptions`](../../imagewatermarkoptions/) är`null`, kommer vattenstämpeln att ställas in med standardalternativ.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en vattenstämpel från en bild i det lokala filsystemet.
 
@@ -84,12 +86,12 @@ Document doc = new Document();
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* namnutrymme [Aspose.Words](../../watermark/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## SetImage(string, ImageWatermarkOptions) {#setimage_2}
+## SetImage(*string, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_2}
 
 Lägger till bildvattenstämpel i dokumentet.
 
@@ -108,7 +110,7 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Kastar när sökvägen är`null` . |
 
-### Anmärkningar
+## Anmärkningar
 
 Om[`ImageWatermarkOptions`](../../imagewatermarkoptions/) är`null`, kommer vattenstämpeln att ställas in med standardalternativ.
 
@@ -116,7 +118,5 @@ Om[`ImageWatermarkOptions`](../../imagewatermarkoptions/) är`null`, kommer vatt
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * class [Watermark](../)
-* namnutrymme [Aspose.Words](../../watermark/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

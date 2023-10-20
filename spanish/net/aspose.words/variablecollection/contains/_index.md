@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Contains
-second_title: Referencia de API de Aspose.Words para .NET
-description: VariableCollection método. Determina si la colección contiene una variable de documento con el nombre indicado.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words para .NET
+description: VariableCollection Contains método. Determina si la colección contiene una variable de documento con el nombre indicado en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/variablecollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `verdadero` si el artículo se encuentra en la colección; de lo contrario,`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con la colección de variables de un documento.
 
@@ -89,7 +91,5 @@ Assert.That(variables, Is.Empty);
 ### Ver también
 
 * class [VariableCollection](../)
-* espacio de nombres [Aspose.Words](../../variablecollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageFileName
-second_title: Aspose.Words for .NET API Referansı
-description: PageSavingArgs mülk. Belge sayfasının kaydedileceği dosya adını alır veya ayarlar.
+linktitle: PageFileName
+articleTitle: PageFileName
+second_title: Aspose.Words for .NET
+description: PageSavingArgs PageFileName mülk. Belge sayfasının kaydedileceği dosya adını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/pagesavingargs/pagefilename/
@@ -14,11 +16,11 @@ Belge sayfasının kaydedileceği dosya adını alır veya ayarlar.
 public string PageFileName { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Belirtilmezse sayfa dosya adı ve yolu, orijinal dosya adı kullanılarak otomatik olarak oluşturulacaktır.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi sayfa sayfa HTML'ye kaydetmek için geri aramanın nasıl kullanılacağını gösterir.
 
@@ -75,7 +77,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Ayrıca bakınız
 
 * class [PageSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../pagesavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

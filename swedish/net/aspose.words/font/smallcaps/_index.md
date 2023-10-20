@@ -1,7 +1,9 @@
 ---
 title: Font.SmallCaps
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Sant om teckensnittet är formaterat som små versaler.
+linktitle: SmallCaps
+articleTitle: SmallCaps
+second_title: Aspose.Words för .NET
+description: Font SmallCaps fast egendom. Sant om teckensnittet är formaterat som små versaler i C#.
 type: docs
 weight: 360
 url: /sv/net/aspose.words/font/smallcaps/
@@ -14,7 +16,7 @@ Sant om teckensnittet är formaterat som små versaler.
 public bool SmallCaps { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar en körning för att visa dess innehåll med versaler.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Font.Caps.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

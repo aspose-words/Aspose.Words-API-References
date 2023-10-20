@@ -1,12 +1,14 @@
 ---
 title: ChartSeriesCollection.Add
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeriesCollection metod. Lägger till nyttChartSeries till denna samling. Använd den här metoden för att lägga till serier till alla typer av stapel kolumn linje och ytdiagram.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: ChartSeriesCollection Add metod. Lägger till nyttChartSeries till denna samling. Använd den här metoden för att lägga till serier till alla typer av stapel kolumn linje och ytdiagram i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
-## Add(string, string[], double[]) {#add_3}
+## Add(*string, string[], double[]*) {#add_3}
 
 Lägger till nytt[`ChartSeries`](../../chartseries/) till denna samling. Använd den här metoden för att lägga till serier till alla typer av stapel-, kolumn-, linje- och ytdiagram.
 
@@ -18,7 +20,7 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 Nyligen tillagd[`ChartSeries`](../../chartseries/) objekt.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
 
@@ -108,12 +110,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double[], double[]) {#add}
+## Add(*string, double[], double[]*) {#add}
 
 Lägger till nytt[`ChartSeries`](../../chartseries/) till denna samling. Använd den här metoden för att lägga till serier till alla typer av punktdiagram.
 
@@ -125,7 +127,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 Nyligen tillagd[`ChartSeries`](../../chartseries/) objekt.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
 
@@ -215,12 +217,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Add(string, DateTime[], double[]) {#add_2}
+## Add(*string, DateTime[], double[]*) {#add_2}
 
 Lägger till nytt[`ChartSeries`](../../chartseries/) till denna samling. Använd den här metoden för att lägga till serier till alla typer av områdes-, radar- och aktiediagram.
 
@@ -228,7 +230,7 @@ Lägger till nytt[`ChartSeries`](../../chartseries/) till denna samling. Använd
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
 
@@ -318,12 +320,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double[], double[], double[]) {#add_1}
+## Add(*string, double[], double[], double[]*) {#add_1}
 
 Lägger till nytt[`ChartSeries`](../../chartseries/)till denna samling. Använd den här metoden för att lägga till serier till alla typer av bubbeldiagram.
 
@@ -335,7 +337,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 Nyligen tillagd[`ChartSeries`](../../chartseries/) objekt.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
 
@@ -425,7 +427,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: InlineStory.EnsureMinimum
-second_title: Aspose.Words for .NET API Referansı
-description: InlineStory yöntem. Son alt öğe bir paragraf değilse boş bir paragraf oluşturur ve ekler.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words for .NET
+description: InlineStory EnsureMinimum yöntem. Son alt öğe bir paragraf değilse boş bir paragraf oluşturur ve ekler C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/inlinestory/ensureminimum/
@@ -14,7 +16,7 @@ Son alt öğe bir paragraf değilse, boş bir paragraf oluşturur ve ekler.
 public void EnsureMinimum()
 ```
 
-### Örnekler
+## Örnekler
 
 InlineStory düğümlerinin nasıl ekleneceğini gösterir.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 ### Ayrıca bakınız
 
 * class [InlineStory](../)
-* ad alanı [Aspose.Words](../../inlinestory/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

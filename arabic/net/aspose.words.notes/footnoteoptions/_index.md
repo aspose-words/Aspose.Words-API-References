@@ -1,7 +1,9 @@
 ---
-title: Class FootnoteOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Notes.FootnoteOptions فصل. يمثل خيارات ترقيم الحواشي السفلية لمستند أو قسم.
+title: FootnoteOptions Class
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Notes.FootnoteOptions فصل. يمثل خيارات ترقيم الحواشي السفلية لمستند أو قسم في C#.
 type: docs
 weight: 4280
 url: /ar/net/aspose.words.notes/footnoteoptions/
@@ -26,7 +28,7 @@ public sealed class FootnoteOptions
 | [RestartRule](../../aspose.words.notes/footnoteoptions/restartrule/) { get; set; } | تحديد وقت إعادة تشغيل الترقيم التلقائي. |
 | [StartNumber](../../aspose.words.notes/footnoteoptions/startnumber/) { get; set; } | يحدد رقم البداية أو الحرف لأول الحواشي السفلية المرقمة تلقائيًا. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقسيم قسم الحاشية السفلية إلى عدد معين من الأعمدة.
 
@@ -208,5 +210,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * property [FootnoteOptions](../../aspose.words/pagesetup/footnoteoptions/)
 * مساحة الاسم [Aspose.Words.Notes](../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum DropCapPosition
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.DropCapPosition enumeración. Especifica la posición de un texto capitular.
+title: DropCapPosition Enum
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: Aspose.Words para .NET
+description: Aspose.Words.DropCapPosition enumeración. Especifica la posición de un texto capitular en C#.
 type: docs
 weight: 1410
 url: /es/net/aspose.words/dropcapposition/
@@ -22,7 +24,7 @@ public enum DropCapPosition
 | Normal | `1` | La letra capitular se coloca dentro del margen del texto en el párrafo de anclaje. |
 | Margin | `2` | La letra capitular se coloca fuera del margen del texto en el párrafo de anclaje. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una letra capitular.
 
@@ -57,5 +59,3 @@ doc.Save(ArtifactsDir + "ParagraphFormat.DropCap.docx");
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.Encoding
-second_title: Aspose.Words for .NET API 参考
-description: FieldIncludeText 财产. 获取或设置应用于引用文件内数据的编码
+linktitle: Encoding
+articleTitle: Encoding
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIncludeText Encoding 财产. 获取或设置应用于引用文件内数据的编码 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldincludetext/encoding/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldincludetext/encoding/
 public string Encoding { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建 INCLUDETEXT 字段并设置其属性。
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### 也可以看看
 
 * class [FieldIncludeText](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldincludetext/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

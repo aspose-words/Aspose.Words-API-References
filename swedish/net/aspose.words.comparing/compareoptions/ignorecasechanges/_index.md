@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreCaseChanges
-second_title: Aspose.Words för .NET API Referens
-description: CompareOptions fast egendom. True indikerar att dokumentjämförelse är skiftlägesokänslig. Som standard är jämförelse skiftlägeskänslig.
+linktitle: IgnoreCaseChanges
+articleTitle: IgnoreCaseChanges
+second_title: Aspose.Words för .NET
+description: CompareOptions IgnoreCaseChanges fast egendom. True indikerar att dokumentjämförelse är skiftlägesokänslig. Som standard är jämförelse skiftlägeskänslig i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.comparing/compareoptions/ignorecasechanges/
@@ -14,7 +16,7 @@ True indikerar att dokumentjämförelse är skiftlägesokänslig. Som standard �
 public bool IgnoreCaseChanges { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man filtrerar specifika typer av dokumentelement när man gör en jämförelse.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Se även
 
 * class [CompareOptions](../)
-* namnutrymme [Aspose.Words.Comparing](../../compareoptions/)
+* namnutrymme [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * hopsättning [Aspose.Words](../../../)
-
-

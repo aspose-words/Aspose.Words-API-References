@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.KeepWithNext
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Verdadero si el párrafo debe permanecer en la misma página que el párrafo que le sigue.
+linktitle: KeepWithNext
+articleTitle: KeepWithNext
+second_title: Aspose.Words para .NET
+description: ParagraphFormat KeepWithNext propiedad. Verdadero si el párrafo debe permanecer en la misma página que el párrafo que le sigue en C#.
 type: docs
 weight: 170
 url: /es/net/aspose.words/paragraphformat/keepwithnext/
@@ -14,7 +16,7 @@ Verdadero si el párrafo debe permanecer en la misma página que el párrafo que
 public bool KeepWithNext { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar una mesa para que permanezcan juntas en la misma página.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Ver también
 
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

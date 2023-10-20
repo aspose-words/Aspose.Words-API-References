@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ContentTypeToLoadFormat
-second_title: Aspose.Words for .NET API 参考
-description: FileFormatUtil 方法. 将 IANA 内容类型转换为加载格式枚举值
+linktitle: ContentTypeToLoadFormat
+articleTitle: ContentTypeToLoadFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: FileFormatUtil ContentTypeToLoadFormat 方法. 将 IANA 内容类型转换为加载格式枚举值 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/fileformatutil/contenttypetoloadformat/
@@ -20,7 +22,7 @@ public static LoadFormat ContentTypeToLoadFormat(string contentType)
 | --- | --- |
 | ArgumentException | 无法转换时抛出。 |
 
-### 例子
+## 例子
 
 展示如何从每个媒体类型字符串中查找相应的 Aspose 加载/保存格式。
 
@@ -75,7 +77,5 @@ Assert.AreEqual(SaveFormat.Mhtml, FileFormatUtil.ContentTypeToSaveFormat("multip
 
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatUtil](../)
-* 命名空间 [Aspose.Words](../../fileformatutil/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

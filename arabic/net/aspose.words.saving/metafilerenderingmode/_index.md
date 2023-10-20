@@ -1,7 +1,9 @@
 ---
-title: Enum MetafileRenderingMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.MetafileRenderingMode تعداد. يحدد كيفية عرض Aspose.Words لملفات تعريف WMF وEMF.
+title: MetafileRenderingMode Enum
+linktitle: MetafileRenderingMode
+articleTitle: MetafileRenderingMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.MetafileRenderingMode تعداد. يحدد كيفية عرض Aspose.Words لملفات تعريف WMF وEMF في C#.
 type: docs
 weight: 5290
 url: /ar/net/aspose.words.saving/metafilerenderingmode/
@@ -22,7 +24,7 @@ public enum MetafileRenderingMode
 | Vector | `1` | يعرض Aspose.Words ملف تعريف كرسومات متجهة. |
 | Bitmap | `2` | يستدعي Aspose.Words GDI+ لتقديم ملف تعريف إلى صورة نقطية ثم يحفظ الصورة النقطية في مستند الإخراج. |
 
-### أمثلة
+## أمثلة
 
 تمت إضافة بديل لعرض الصور النقطية وتغيير نوع التحذيرات حول سجلات ملفات التعريف غير المدعومة.
 
@@ -78,5 +80,3 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

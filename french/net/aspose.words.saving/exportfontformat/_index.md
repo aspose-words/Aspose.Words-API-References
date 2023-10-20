@@ -1,7 +1,9 @@
 ---
-title: Enum ExportFontFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.ExportFontFormat énumération. Indique le format utilisé pour exporter les polices lors du rendu au format HTML fixe.
+title: ExportFontFormat Enum
+linktitle: ExportFontFormat
+articleTitle: ExportFontFormat
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.ExportFontFormat énumération. Indique le format utilisé pour exporter les polices lors du rendu au format HTML fixe en C#.
 type: docs
 weight: 4990
 url: /fr/net/aspose.words.saving/exportfontformat/
@@ -21,7 +23,7 @@ public enum ExportFontFormat
 | Woff | `0` | WOFF (Format de police ouvert Web). |
 | Ttf | `1` | TTF (format de police TrueType). |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les polices uniquement de la machine cible lors de l'enregistrement d'un document au format HTML.
 
@@ -53,5 +55,3 @@ else
 * property [FontFormat](../htmlfixedsaveoptions/fontformat/)
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

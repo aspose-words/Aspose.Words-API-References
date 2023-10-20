@@ -1,7 +1,9 @@
 ---
-title: Enum BorderType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.BorderType 枚举. 指定边框的边
+title: BorderType Enum
+linktitle: BorderType
+articleTitle: BorderType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.BorderType 枚举. 指定边框的边 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words/bordertype/
@@ -30,7 +32,7 @@ public enum BorderType
 | DiagonalDown | `6` | 指定表格单元格中的对角边框。 |
 | DiagonalUp | `7` | 指定表格单元格中的对角边框。 |
 
-### 例子
+## 例子
 
 演示如何插入带有上边框的段落。
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

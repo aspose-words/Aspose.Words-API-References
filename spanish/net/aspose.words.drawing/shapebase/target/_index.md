@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Target
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Obtiene o establece el marco de destino para el hipervínculo de forma.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words para .NET
+description: ShapeBase Target propiedad. Obtiene o establece el marco de destino para el hipervínculo de forma en C#.
 type: docs
 weight: 520
 url: /es/net/aspose.words.drawing/shapebase/target/
@@ -14,11 +16,11 @@ Obtiene o establece el marco de destino para el hipervínculo de forma.
 public string Target { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es una cadena vacía.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una forma que contiene una imagen y también es un hipervínculo.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

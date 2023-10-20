@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsSignatureLine
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 表示形状是SignatureLine.
+linktitle: IsSignatureLine
+articleTitle: IsSignatureLine
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase IsSignatureLine 财产. 表示形状是SignatureLine 在 C#.
 type: docs
 weight: 340
 url: /zh/net/aspose.words.drawing/shapebase/issignatureline/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shapebase/issignatureline/
 public bool IsSignatureLine { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建签名行并将其插入文档中。
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldRD.IsPathRelative
-second_title: Aspose.Words för .NET API Referens
-description: FieldRD fast egendom. Hämtar eller ställer in om sökvägen är relativ till det aktuella dokumentet.
+linktitle: IsPathRelative
+articleTitle: IsPathRelative
+second_title: Aspose.Words för .NET
+description: FieldRD IsPathRelative fast egendom. Hämtar eller ställer in om sökvägen är relativ till det aktuella dokumentet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldrd/ispathrelative/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om sökvägen är relativ till det aktuella dokumentet
 public bool IsPathRelative { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar att använda RD-fältet för att skapa en innehållsförteckning från rubriker i andra dokument.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.RD.docx");
 ### Se även
 
 * class [FieldRD](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldrd/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

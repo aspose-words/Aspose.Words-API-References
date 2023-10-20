@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.FallbackFontName
-second_title: Aspose.Words för .NET API Referens
-description: PclSaveOptions fast egendom. Namn på teckensnittet som kommer att användas om inget förväntat teckensnitt hittas i skrivare och inbyggda teckensnittssamlingar.
+linktitle: FallbackFontName
+articleTitle: FallbackFontName
+second_title: Aspose.Words för .NET
+description: PclSaveOptions FallbackFontName fast egendom. Namn på teckensnittet som kommer att användas om inget förväntat teckensnitt hittas i skrivare och inbyggda teckensnittssamlingar i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/pclsaveoptions/fallbackfontname/
@@ -14,11 +16,11 @@ Namn på teckensnittet som kommer att användas om inget förväntat teckensnitt
 public string FallbackFontName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om ingen reserv hittas genereras en varning och "Arial"-teckensnitt används.
 
-### Exempel
+## Exempel
 
 Visar hur man deklarerar ett teckensnitt som en skrivare kommer att tillämpa på tryckt text som ersättning om dess ursprungliga teckensnitt inte är tillgängligt.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.SetPrinterFont.pcl", saveOptions);
 ### Se även
 
 * class [PclSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pclsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,24 +1,26 @@
 ---
 title: ReplacingArgs.Match
-second_title: Aspose.Words für .NET-API-Referenz
-description: ReplacingArgs eigendom. DieMatch resultierend aus einer einzelnen regulären Ausdrucksübereinstimmung während eines Ersetzen .
+linktitle: Match
+articleTitle: Match
+second_title: Aspose.Words für .NET
+description: ReplacingArgs Match eigendom. DieMatch resultierend aus einer einzelnen regulären Ausdrucksübereinstimmung während einesErsetzen  in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-DieMatch resultierend aus einer einzelnen regulären -Ausdrucksübereinstimmung während eines **Ersetzen** .
+DieMatch resultierend aus einer einzelnen regulären -Ausdrucksübereinstimmung während eines**Ersetzen** .
 
 ```csharp
 public Match Match { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 **Match.Index"** Ruft die nullbasierte Startposition der Übereinstimmung vom Anfang des Such- und Ersetzungsbereichs ab.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie über FindReplaceOptions eine andere Schriftart auf neue Inhalte anwenden.
 
@@ -91,7 +93,5 @@ private class NumberHexer : IReplacingCallback
 ### Siehe auch
 
 * class [ReplacingArgs](../)
-* namensraum [Aspose.Words.Replacing](../../replacingargs/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

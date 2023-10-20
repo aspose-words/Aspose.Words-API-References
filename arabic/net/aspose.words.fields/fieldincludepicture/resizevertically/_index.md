@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.ResizeVertically
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIncludePicture ملكية. الحصول على أو تعيين ما إذا كان سيتم تغيير حجم الصورة عموديًا من المصدر.
+linktitle: ResizeVertically
+articleTitle: ResizeVertically
+second_title: Aspose.Words لـ .NET
+description: FieldIncludePicture ResizeVertically ملكية. الحصول على أو تعيين ما إذا كان سيتم تغيير حجم الصورة عموديًا من المصدر في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldincludepicture/resizevertically/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldincludepicture/resizevertically/
 public bool ResizeVertically { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج الصور باستخدام حقلي الاستيراد والتضمين.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### أنظر أيضا
 
 * class [FieldIncludePicture](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldincludepicture/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

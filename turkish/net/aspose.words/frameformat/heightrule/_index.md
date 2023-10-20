@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HeightRule
-second_title: Aspose.Words for .NET API Referansı
-description: FrameFormat mülk. Belirtilen çerçevenin yüksekliğini belirleme kuralını alır.
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: Aspose.Words for .NET
+description: FrameFormat HeightRule mülk. Belirtilen çerçevenin yüksekliğini belirleme kuralını alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/frameformat/heightrule/
@@ -14,7 +16,7 @@ Belirtilen çerçevenin yüksekliğini belirleme kuralını alır.
 public HeightRule HeightRule { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [HeightRule](../../heightrule/)
 * class [FrameFormat](../)
-* ad alanı [Aspose.Words](../../frameformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

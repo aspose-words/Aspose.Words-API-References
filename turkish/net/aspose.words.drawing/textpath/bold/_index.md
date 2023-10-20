@@ -1,7 +1,9 @@
 ---
 title: TextPath.Bold
-second_title: Aspose.Words for .NET API Referansı
-description: TextPath mülk. Yazı tipi kalın olarak biçimlendirilmişse doğrudur.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words for .NET
+description: TextPath Bold mülk. Yazı tipi kalın olarak biçimlendirilmişse doğrudur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/textpath/bold/
@@ -14,11 +16,11 @@ Yazı tipi kalın olarak biçimlendirilmişse doğrudur.
 public bool Bold { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 WordArt'la nasıl çalışılacağını gösterir.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ayrıca bakınız
 
 * class [TextPath](../)
-* ad alanı [Aspose.Words.Drawing](../../textpath/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

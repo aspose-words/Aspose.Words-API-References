@@ -1,7 +1,9 @@
 ---
-title: Enum FontSourceType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.FontSourceType Sıralama. Yazı tipi kaynağının türünü belirtir.
+title: FontSourceType Enum
+linktitle: FontSourceType
+articleTitle: FontSourceType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.FontSourceType Sıralama. Yazı tipi kaynağının türünü belirtir C#'da.
 type: docs
 weight: 2990
 url: /tr/net/aspose.words.fonts/fontsourcetype/
@@ -24,7 +26,7 @@ public enum FontSourceType
 | SystemFonts | `3` | A[`SystemFontSource`](../systemfontsource/) sisteme yüklenen tüm yazı tiplerini temsil eden nesne. |
 | FontStream | `4` | A[`StreamFontSource`](../streamfontsource/) yazı tipi verilerini içeren bir akışı temsil eden nesne. |
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki bir yazı tipi dosyasının yazı tipi kaynağı olarak nasıl kullanılacağını gösterir.
 
@@ -44,5 +46,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

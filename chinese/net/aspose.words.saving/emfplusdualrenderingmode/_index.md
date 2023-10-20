@@ -1,7 +1,9 @@
 ---
-title: Enum EmfPlusDualRenderingMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.EmfPlusDualRenderingMode 枚举. 指定 Aspose.Words 应如何渲染 EMF 双图元文件
+title: EmfPlusDualRenderingMode Enum
+linktitle: EmfPlusDualRenderingMode
+articleTitle: EmfPlusDualRenderingMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.EmfPlusDualRenderingMode 枚举. 指定 Aspose.Words 应如何渲染 EMF 双图元文件 在 C#.
 type: docs
 weight: 4980
 url: /zh/net/aspose.words.saving/emfplusdualrenderingmode/
@@ -22,7 +24,7 @@ public enum EmfPlusDualRenderingMode
 | EmfPlus | `1` | Aspose.Words 渲染 EMF+ 双图元文件的 EMF+ 部分。 |
 | Emf | `2` | Aspose.Words 渲染 EMF+ Dual 图元文件的 EMF 部分。 |
 
-### 例子
+## 例子
 
 演示如何在保存为 PDF 时配置增强型 Windows 图元文件相关的渲染选项。
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

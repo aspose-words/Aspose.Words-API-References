@@ -1,7 +1,9 @@
 ---
-title: Interface IWarningCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.IWarningCallback 界面. 如果您希望调用自己的自定义方法来捕获文档加载或保存期间可能发生的保真度损失警告请实现此接口
+title: IWarningCallback Interface
+linktitle: IWarningCallback
+articleTitle: IWarningCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.IWarningCallback 界面. 如果您希望调用自己的自定义方法来捕获文档加载或保存期间可能发生的保真度损失警告请实现此接口 在 C#.
 type: docs
 weight: 3210
 url: /zh/net/aspose.words/iwarningcallback/
@@ -18,9 +20,9 @@ public interface IWarningCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Warning](../../aspose.words/iwarningcallback/warning/)(WarningInfo) | Aspose.Words 在文档加载 或保存过程中遇到某些可能导致格式或数据保真度丢失的问题时调用此方法。 |
+| [Warning](../../aspose.words/iwarningcallback/warning/)(*[WarningInfo](../warninginfo/)*) | Aspose.Words 在文档加载 或保存过程中遇到某些可能导致格式或数据保真度丢失的问题时调用此方法。 |
 
-### 例子
+## 例子
 
 演示如何使用 IWarningCallback 接口来监视字体替换警告。
 
@@ -179,5 +181,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

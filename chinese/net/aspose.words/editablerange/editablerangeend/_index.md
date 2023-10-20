@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditableRangeEnd
-second_title: Aspose.Words for .NET API 参考
-description: EditableRange 财产. 获取表示可编辑范围末尾的节点
+linktitle: EditableRangeEnd
+articleTitle: EditableRangeEnd
+second_title: 用于 .NET 的 Aspose.Words
+description: EditableRange EditableRangeEnd 财产. 获取表示可编辑范围末尾的节点 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/editablerange/editablerangeend/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/editablerange/editablerangeend/
 public EditableRangeEnd EditableRangeEnd { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用可编辑范围。
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRange](../)
-* 命名空间 [Aspose.Words](../../editablerange/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

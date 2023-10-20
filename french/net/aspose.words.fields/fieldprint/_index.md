@@ -1,7 +1,9 @@
 ---
-title: Class FieldPrint
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldPrint classe. Implémente le champ PRINT.
+title: FieldPrint Class
+linktitle: FieldPrint
+articleTitle: FieldPrint
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldPrint classe. Implémente le champ PRINT en C#.
 type: docs
 weight: 2280
 url: /fr/net/aspose.words.fields/fieldprint/
@@ -44,17 +46,17 @@ public class FieldPrint : Field
 | Nom | La description |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
-### Remarques
+## Remarques
 
 Une instruction pour envoyer les caractères du code de contrôle spécifiques à l'imprimante à l'imprimante sélectionnée lorsque le document est imprimé.
 
-### Exemples
+## Exemples
 
 Montre pour insérer un champ PRINT.
 
@@ -86,5 +88,3 @@ doc.Save(ArtifactsDir + "Field.PRINT.docx");
 * class [Field](../field/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

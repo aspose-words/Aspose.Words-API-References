@@ -1,7 +1,9 @@
 ---
-title: Enum OfficeMathJustification
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Math.OfficeMathJustification تعداد. يحدد مبرر المعادلة.
+title: OfficeMathJustification Enum
+linktitle: OfficeMathJustification
+articleTitle: OfficeMathJustification
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Math.OfficeMathJustification تعداد. يحدد مبرر المعادلة في C#.
 type: docs
 weight: 4140
 url: /ar/net/aspose.words.math/officemathjustification/
@@ -25,7 +27,7 @@ public enum OfficeMathJustification
 | Inline | `7` | الموضع المضمّن للرياضيات. |
 | Default | `1` | القيمة الافتراضيةCenterGroup . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط تنسيق عرض الرياضيات المكتبية.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * مساحة الاسم [Aspose.Words.Math](../../aspose.words.math/)
 * المجسم [Aspose.Words](../../)
-
-

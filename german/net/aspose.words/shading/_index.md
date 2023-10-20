@@ -1,7 +1,9 @@
 ---
-title: Class Shading
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Shading klas. Enthält Schattierungsattribute für ein Objekt.
+title: Shading Class
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Shading klas. Enthält Schattierungsattribute für ein Objekt in C#.
 type: docs
 weight: 5990
 url: /de/net/aspose.words/shading/
@@ -33,11 +35,11 @@ public class Shading : InternableComplexAttr
 | Name | Beschreibung |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting/)() | Entfernt die Schattierung vom Objekt. |
-| override [Equals](../../aspose.words/shading/equals/#equals_1)(object) | Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat. |
-| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Bestimmt, ob die angegebene`Shading` ist vom Wert her gleich dem Strom`Shading` . |
+| override [Equals](../../aspose.words/shading/equals/#equals_1)(*object*) | Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat. |
+| [Equals](../../aspose.words/shading/equals/#equals)(*Shading*) | Bestimmt, ob die angegebene`Shading` ist vom Wert her gleich dem Strom`Shading` . |
 | override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Dient als Hash-Funktion für diesen Typ. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text mit Rändern und Schattierungen dekoriert wird.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

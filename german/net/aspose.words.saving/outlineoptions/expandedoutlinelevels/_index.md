@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.ExpandedOutlineLevels
-second_title: Aspose.Words für .NET-API-Referenz
-description: OutlineOptions eigendom. Gibt an wie viele Ebenen in der Dokumentgliederung erweitert angezeigt werden sollen wenn die Datei angezeigt wird.
+linktitle: ExpandedOutlineLevels
+articleTitle: ExpandedOutlineLevels
+second_title: Aspose.Words für .NET
+description: OutlineOptions ExpandedOutlineLevels eigendom. Gibt an wie viele Ebenen in der Dokumentgliederung erweitert angezeigt werden sollen wenn die Datei angezeigt wird in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.saving/outlineoptions/expandedoutlinelevels/
@@ -14,7 +16,7 @@ Gibt an, wie viele Ebenen in der Dokumentgliederung erweitert angezeigt werden s
 public int ExpandedOutlineLevels { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Beachten Sie, dass diese Optionen beim Speichern auf XPS nicht funktionieren.
 
@@ -22,7 +24,7 @@ Geben Sie 0 an und die Dokumentgliederung wird reduziert; Geben Sie 1 an und die
 
 Der Standardwert ist 0. Der gültige Bereich liegt zwischen 0 und 9.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein gesamtes Dokument mit drei Ebenen in der Dokumentgliederung in PDF konvertiert wird.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 ### Siehe auch
 
 * class [OutlineOptions](../)
-* namensraum [Aspose.Words.Saving](../../outlineoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

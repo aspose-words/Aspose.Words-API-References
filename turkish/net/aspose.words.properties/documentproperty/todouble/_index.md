@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToDouble
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentProperty yöntem. Özellik değerini double olarak döndürür.
+linktitle: ToDouble
+articleTitle: ToDouble
+second_title: Aspose.Words for .NET
+description: DocumentProperty ToDouble yöntem. Özellik değerini double olarak döndürür C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.properties/documentproperty/todouble/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.properties/documentproperty/todouble/
 public double ToDouble()
 ```
 
-### Notlar
+## Notlar
 
 Özellik türü değilse bir istisna atarNumber .
 
-### Örnekler
+## Örnekler
 
 Özel belge özelliklerinin çeşitli tür dönüştürme yöntemlerini gösterir.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ### Ayrıca bakınız
 
 * class [DocumentProperty](../)
-* ad alanı [Aspose.Words.Properties](../../documentproperty/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.Shape
-second_title: Aspose.Words per .NET API Reference
-description: ImageFieldMergingArgs proprietà. Specifica la forma che il motore di stampa unione deve inserire nel documento.
+linktitle: Shape
+articleTitle: Shape
+second_title: Aspose.Words per .NET
+description: ImageFieldMergingArgs Shape proprietà. Specifica la forma che il motore di stampa unione deve inserire nel documento in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.mailmerging/imagefieldmergingargs/shape/
@@ -14,7 +16,7 @@ Specifica la forma che il motore di stampa unione deve inserire nel documento.
 public Shape Shape { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando questa proprietà è specificata, il motore di stampa unione ignora tutte le altre proprietà come[`ImageFileName`](../imagefilename/) O[`ImageStream`](../imagestream/) e inserisce semplicemente la forma nel documento.
 
@@ -24,7 +26,5 @@ Utilizza questa proprietà per controllare completamente il processo di unione d
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [ImageFieldMergingArgs](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: WebExtensionProperty.WebExtensionProperty
-second_title: Aspose.Words für .NET-API-Referenz
-description: WebExtensionProperty constructeur. Erstellt eine benutzerdefinierte Weberweiterungseigenschaft mit dem angegebenen Namen und Wert.
+title: WebExtensionProperty
+linktitle: WebExtensionProperty
+articleTitle: WebExtensionProperty
+second_title: Aspose.Words für .NET
+description: WebExtensionProperty constructeur. Erstellt eine benutzerdefinierte Weberweiterungseigenschaft mit dem angegebenen Namen und Wert in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.webextensions/webextensionproperty/webextensionproperty/
@@ -19,7 +21,7 @@ public WebExtensionProperty(string name, string value)
 | name | String | Name des Anwesens. |
 | value | String | Eigentumswert. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Weberweiterung hinzufügt.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Siehe auch
 
 * class [WebExtensionProperty](../)
-* namensraum [Aspose.Words.WebExtensions](../../webextensionproperty/)
+* namensraum [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../../)
-
-

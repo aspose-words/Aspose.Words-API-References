@@ -1,12 +1,14 @@
 ---
 title: Node.GetAncestor
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Node méthode. Obtient le premier ancêtre du type dobjet spécifié.
+linktitle: GetAncestor
+articleTitle: GetAncestor
+second_title: Aspose.Words pour .NET
+description: Node GetAncestor méthode. Obtient le premier ancêtre du type dobjet spécifié en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words/node/getancestor/
 ---
-## GetAncestor(Type) {#getancestor_1}
+## GetAncestor(*Type*) {#getancestor_1}
 
 Obtient le premier ancêtre du type d'objet spécifié.
 
@@ -22,11 +24,11 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 L'ancêtre du type spécifié ou`nul` si aucun ancêtre de ce type n'a été trouvé.
 
-### Remarques
+## Remarques
 
 Le type d'ancêtre correspond s'il est égal à*ancestorType* ou dérivé de*ancestorType*.
 
-### Exemples
+## Exemples
 
 Montre comment savoir si des tables sont imbriquées.
 
@@ -105,12 +107,12 @@ private static int GetChildTableCount(Table table)
 
 * class [CompositeNode](../../compositenode/)
 * class [Node](../)
-* espace de noms [Aspose.Words](../../node/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## GetAncestor(NodeType) {#getancestor}
+## GetAncestor(*[NodeType](../../nodetype/)*) {#getancestor}
 
 Obtient le premier ancêtre du spécifié[`NodeType`](../../nodetype/) .
 
@@ -126,7 +128,7 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 L'ancêtre du type spécifié ou`nul` si aucun ancêtre de ce type n'a été trouvé.
 
-### Exemples
+## Exemples
 
 Montre comment savoir si des tables sont imbriquées.
 
@@ -206,7 +208,5 @@ private static int GetChildTableCount(Table table)
 * class [CompositeNode](../../compositenode/)
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* espace de noms [Aspose.Words](../../node/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

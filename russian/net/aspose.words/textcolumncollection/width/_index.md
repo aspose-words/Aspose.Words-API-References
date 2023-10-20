@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Width
-second_title: Справочник по API Aspose.Words для .NET
-description: TextColumnCollection свойство. Если столбцы расположены на равном расстоянии друг от друга получает ширину столбцов.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words для .NET
+description: TextColumnCollection Width свойство. Если столбцы расположены на равном расстоянии друг от друга получает ширину столбцов на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/textcolumncollection/width/
@@ -14,14 +16,12 @@ url: /ru/net/aspose.words/textcolumncollection/width/
 public double Width { get; }
 ```
 
-### Примечания
+## Примечания
 
 Имеет эффект только тогда, когда[`EvenlySpaced`](../evenlyspaced/) установлено на`истинный`.
 
 ### Смотрите также
 
 * class [TextColumnCollection](../)
-* пространство имен [Aspose.Words](../../textcolumncollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

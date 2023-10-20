@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Type
-second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlock mülk. Yapı bloğu türünü belirtir.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: BuildingBlock Type mülk. Yapı bloğu türünü belirtir C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.buildingblocks/buildingblock/type/
@@ -14,13 +16,13 @@ Yapı bloğu türünü belirtir.
 public BuildingBlockType Type { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yapı taşı türü, Microsoft Word'deki yapı bloğunun görünürlüğünü ve davranışını etkileyebilir.
 
-karşılık gelir **docPartPr.types** OOXML'deki öğe.
+karşılık gelir**docPartPr.types** OOXML'deki öğe.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockType](../../buildingblocktype/)
 * class [BuildingBlock](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

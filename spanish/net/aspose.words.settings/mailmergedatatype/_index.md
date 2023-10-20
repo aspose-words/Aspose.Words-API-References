@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeDataType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.MailMergeDataType enumeración. Especifica el tipo de fuente de datos de combinación de correspondencia externa.
+title: MailMergeDataType Enum
+linktitle: MailMergeDataType
+articleTitle: MailMergeDataType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Settings.MailMergeDataType enumeración. Especifica el tipo de fuente de datos de combinación de correspondencia externa en C#.
 type: docs
 weight: 5820
 url: /es/net/aspose.words.settings/mailmergedatatype/
@@ -27,7 +29,7 @@ public enum MailMergeDataType
 | Native | `5` | Especifica que un documento determinado se ha conectado a una fuente de datos externa a través de la interfaz del objeto de fuente de datos de Office (ODSO). |
 | Default | `-1` | Igual aNone . |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [DataType](../mailmergesettings/datatype/)
 * espacio de nombres [Aspose.Words.Settings](../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../)
-
-

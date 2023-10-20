@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WrapSide
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Spécifie comment le texte est enroulé autour de la forme.
+linktitle: WrapSide
+articleTitle: WrapSide
+second_title: Aspose.Words pour .NET
+description: ShapeBase WrapSide propriété. Spécifie comment le texte est enroulé autour de la forme en C#.
 type: docs
 weight: 590
 url: /fr/net/aspose.words.drawing/shapebase/wrapside/
@@ -14,13 +16,13 @@ Spécifie comment le texte est enroulé autour de la forme.
 public WrapSide WrapSide { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estBoth.
 
 N'a d'effet que sur les formes de niveau supérieur.
 
-### Exemples
+## Exemples
 
 Montre comment remplacer toutes les formes de zone de texte par des formes d’image.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 
 * enum [WrapSide](../../wrapside/)
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

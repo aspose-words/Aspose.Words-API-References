@@ -1,7 +1,9 @@
 ---
-title: Enum AutoFitBehavior
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Tables.AutoFitBehavior opsomming. Bestimmt wie Aspose.Words die Größe der Tabelle ändert wenn Sie das aufrufenAutoFit method.
+title: AutoFitBehavior Enum
+linktitle: AutoFitBehavior
+articleTitle: AutoFitBehavior
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Tables.AutoFitBehavior opsomming. Bestimmt wie Aspose.Words die Größe der Tabelle ändert wenn Sie das aufrufenAutoFit method in C#.
 type: docs
 weight: 6230
 url: /de/net/aspose.words.tables/autofitbehavior/
@@ -22,7 +24,7 @@ public enum AutoFitBehavior
 | AutoFitToWindow | `1` | Wenn Sie diesen Wert verwenden, aktiviert Aspose.Words die Option „AutoFit“, legt die bevorzugte Breite für die Tabelle auf 100 % fest, entfernt die bevorzugten Breiten aus allen Zellen und aktualisiert dann das Tabellenlayout. |
 | FixedColumnWidths | `2` | Aspose.Words deaktiviert die Option „AutoFit“ und entfernt das bevorzugte Wort aus der Tabelle. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine neue Tabelle erstellt und dabei einen Stil anwendet.
 
@@ -115,5 +117,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * namensraum [Aspose.Words.Tables](../../aspose.words.tables/)
 * Montage [Aspose.Words](../../)
-
-

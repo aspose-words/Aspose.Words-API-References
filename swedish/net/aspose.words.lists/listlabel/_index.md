@@ -1,7 +1,9 @@
 ---
-title: Class ListLabel
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Lists.ListLabel klass. Definierar egenskaper som är specifika för en listetikett.
+title: ListLabel Class
+linktitle: ListLabel
+articleTitle: ListLabel
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Lists.ListLabel klass. Definierar egenskaper som är specifika för en listetikett i C#.
 type: docs
 weight: 3490
 url: /sv/net/aspose.words.lists/listlabel/
@@ -24,7 +26,7 @@ public class ListLabel
 | [LabelString](../../aspose.words.lists/listlabel/labelstring/) { get; } | Får en strängrepresentation av listetikett. |
 | [LabelValue](../../aspose.words.lists/listlabel/labelvalue/) { get; } | Får ett numeriskt värde för denna etikett. |
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar listetiketterna för alla stycken som är listobjekt.
 
@@ -60,5 +62,3 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * namnutrymme [Aspose.Words.Lists](../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../)
-
-

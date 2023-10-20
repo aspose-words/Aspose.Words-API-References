@@ -1,7 +1,9 @@
 ---
 title: RevisionGroupCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionGroupCollection ملكية. إرجاع مجموعة المراجعة في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: RevisionGroupCollection Item ملكية. إرجاع مجموعة المراجعة في الفهرس المحدد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/revisiongroupcollection/item/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/revisiongroupcollection/item/
 public RevisionGroup this[int index] { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على مجموعة من المراجعات في مستند.
 
@@ -28,7 +30,5 @@ RevisionGroup revisionGroup = doc.Revisions.Groups[0];
 
 * class [RevisionGroup](../../revisiongroup/)
 * class [RevisionGroupCollection](../)
-* مساحة الاسم [Aspose.Words](../../revisiongroupcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

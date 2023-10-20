@@ -1,7 +1,9 @@
 ---
 title: FieldMacroButton.MacroName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMacroButton mülk. Çalıştırılacak makronun veya komutun adını alır veya ayarlar.
+linktitle: MacroName
+articleTitle: MacroName
+second_title: Aspose.Words for .NET
+description: FieldMacroButton MacroName mülk. Çalıştırılacak makronun veya komutun adını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldmacrobutton/macroname/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.fields/fieldmacrobutton/macroname/
 public string MacroName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tıklayarak bir belgenin makrolarını çalıştırmamıza izin vermek için MACROBUTTON alanlarının nasıl kullanılacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 ### Ayrıca bakınız
 
 * class [FieldMacroButton](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmacrobutton/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

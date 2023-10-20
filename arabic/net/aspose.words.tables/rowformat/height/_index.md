@@ -1,7 +1,9 @@
 ---
 title: RowFormat.Height
-second_title: Aspose.Words لمراجع .NET API
-description: RowFormat ملكية. الحصول على أو تحديد ارتفاع صف الجدول بالنقاط.
+linktitle: Height
+articleTitle: Height
+second_title: Aspose.Words لـ .NET
+description: RowFormat Height ملكية. الحصول على أو تحديد ارتفاع صف الجدول بالنقاط في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.tables/rowformat/height/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/rowformat/height/
 public double Height { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق الصفوف باستخدام أداة إنشاء المستندات.
 
@@ -109,7 +111,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### أنظر أيضا
 
 * class [RowFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../rowformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

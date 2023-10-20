@@ -1,9 +1,11 @@
 ---
 title: Document.ExpandTableStylesToDirectFormatting
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document método. Convierte el formato especificado en los estilos de tabla en formato directo en las tablas del documento.
+linktitle: ExpandTableStylesToDirectFormatting
+articleTitle: ExpandTableStylesToDirectFormatting
+second_title: Aspose.Words para .NET
+description: Document ExpandTableStylesToDirectFormatting método. Convierte el formato especificado en los estilos de tabla en formato directo en las tablas del documento en C#.
 type: docs
-weight: 610
+weight: 590
 url: /es/net/aspose.words/document/expandtablestylestodirectformatting/
 ---
 ## Document.ExpandTableStylesToDirectFormatting method
@@ -14,7 +16,7 @@ Convierte el formato especificado en los estilos de tabla en formato directo en 
 public void ExpandTableStylesToDirectFormatting()
 ```
 
-### Observaciones
+## Observaciones
 
 Este método existe porque esta versión de Aspose.Words proporciona solo soporte limitado para los estilos de tabla (ver más abajo). Este método puede resultar útil cuando carga un documento DOCX o WordprocessingML que contiene tablas formateadas con estilos de tabla y necesita consultar el formato de tablas, celdas, párrafos o texto.
 
@@ -24,7 +26,7 @@ Esta versión de Aspose.Words proporciona soporte limitado para los estilos de t
 * Los estilos de tabla definidos en documentos DOCX o WordprocessingML se convierten automáticamente al formato directo en tablas al guardar el documento en cualquier otro formato, renderizado o impresión.
 * Los estilos de tabla definidos en documentos DOC se conservan como estilos de tabla cuando se guarda el documento solo como DOC.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar las propiedades del estilo de una tabla directamente a los elementos de la tabla.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Document.TableStyleToDirectFormatting.docx");
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

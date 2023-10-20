@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlInsertOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.HtmlInsertOptions تعداد. يحدد خياراتInsertHtml الطريقة.
+title: HtmlInsertOptions Enum
+linktitle: HtmlInsertOptions
+articleTitle: HtmlInsertOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.HtmlInsertOptions تعداد. يحدد خياراتInsertHtml الطريقة في C#.
 type: docs
 weight: 3140
 url: /ar/net/aspose.words/htmlinsertoptions/
@@ -24,7 +26,7 @@ public enum HtmlInsertOptions
 | RemoveLastEmptyParagraph | `2` | إزالة الفقرة الفارغة التي يتم إدراجها عادةً بعد HTML والتي تنتهي بعنصر على مستوى الكتلة. |
 | PreserveBlocks | `4` | الحفاظ على خصائص العناصر على مستوى الكتلة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحفاظ على الحدود والهوامش بشكل أفضل.
 
@@ -51,5 +53,3 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.PreserveBlocks.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

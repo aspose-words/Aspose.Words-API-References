@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.FallbackFontName
-second_title: Aspose.Words for .NET API Referansı
-description: PclSaveOptions mülk. Yazıcıda ve yerleşik yazı tipi koleksiyonlarında beklenen yazı tipi bulunamazsa kullanılacak yazı tipinin adı .
+linktitle: FallbackFontName
+articleTitle: FallbackFontName
+second_title: Aspose.Words for .NET
+description: PclSaveOptions FallbackFontName mülk. Yazıcıda ve yerleşik yazı tipi koleksiyonlarında beklenen yazı tipi bulunamazsa kullanılacak yazı tipinin adı  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/pclsaveoptions/fallbackfontname/
@@ -14,11 +16,11 @@ Yazıcıda ve yerleşik yazı tipi koleksiyonlarında beklenen yazı tipi buluna
 public string FallbackFontName { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Geri dönüş bulunamazsa uyarı oluşturulur ve "Arial" yazı tipi kullanılır.
 
-### Örnekler
+## Örnekler
 
 Orijinal yazı tipinin mevcut olmaması durumunda, yazıcının basılı metne yedek olarak uygulayacağı yazı tipinin nasıl bildirileceğini gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.SetPrinterFont.pcl", saveOptions);
 ### Ayrıca bakınız
 
 * class [PclSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pclsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

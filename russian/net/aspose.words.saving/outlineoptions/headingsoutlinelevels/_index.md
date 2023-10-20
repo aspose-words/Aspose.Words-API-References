@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.HeadingsOutlineLevels
-second_title: Справочник по API Aspose.Words для .NET
-description: OutlineOptions свойство. Указывает сколько уровней заголовков абзацев отформатированных с использованием стилей заголовков включить в структуру документа .
+linktitle: HeadingsOutlineLevels
+articleTitle: HeadingsOutlineLevels
+second_title: Aspose.Words для .NET
+description: OutlineOptions HeadingsOutlineLevels свойство. Указывает сколько уровней заголовков абзацев отформатированных с использованием стилей заголовков включить в структуру документа  на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/
 public int HeadingsOutlineLevels { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Укажите 0, чтобы в структуре не было заголовков; укажите 1 для одного уровня заголовков в структуре и так далее.
 
 По умолчанию — 0. Допустимый диапазон — от 0 до 9.
 
-### Примеры
+## Примеры
 
 Показывает, как преобразовать весь документ в PDF с тремя уровнями структуры документа.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 ### Смотрите также
 
 * class [OutlineOptions](../)
-* пространство имен [Aspose.Words.Saving](../../outlineoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

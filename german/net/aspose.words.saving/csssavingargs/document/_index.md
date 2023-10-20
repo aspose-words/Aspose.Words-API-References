@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.Document
-second_title: Aspose.Words für .NET-API-Referenz
-description: CssSavingArgs eigendom. Ruft das Dokumentobjekt ab das gerade gespeichert wird.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words für .NET
+description: CssSavingArgs Document eigendom. Ruft das Dokumentobjekt ab das gerade gespeichert wird in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/csssavingargs/document/
@@ -14,7 +16,7 @@ Ruft das Dokumentobjekt ab, das gerade gespeichert wird.
 public Document Document { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit CSS-Stylesheets gearbeitet wird, die bei einer HTML-Konvertierung erstellt werden.
 
@@ -76,7 +78,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [CssSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../csssavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

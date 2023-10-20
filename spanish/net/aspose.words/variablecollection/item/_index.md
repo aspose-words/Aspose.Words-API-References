@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: VariableCollection propiedad. Obtiene o establece una variable de documento con un nombre que no distingue entre mayúsculas y minúsculas. nulo Los valores no están permitidos en el lado derecho de la asignación y serán reemplazados por una cadena vacía.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: VariableCollection Item propiedad. Obtiene o establece una variable de documento con un nombre que no distingue entre mayúsculas y minúsculas. nulo Los valores no están permitidos en el lado derecho de la asignación y serán reemplazados por una cadena vacía en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/variablecollection/item/
@@ -17,7 +19,7 @@ public string this[string name] { get; set; }
 ### Ver también
 
 * class [VariableCollection](../)
-* espacio de nombres [Aspose.Words](../../variablecollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -37,7 +39,5 @@ public string this[int index] { get; set; }
 ### Ver también
 
 * class [VariableCollection](../)
-* espacio de nombres [Aspose.Words](../../variablecollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineUnitAfter
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene o establece la cantidad de espaciado en líneas de cuadrícula después de los párrafos.
+linktitle: LineUnitAfter
+articleTitle: LineUnitAfter
+second_title: Aspose.Words para .NET
+description: ParagraphFormat LineUnitAfter propiedad. Obtiene o establece la cantidad de espaciado en líneas de cuadrícula después de los párrafos en C#.
 type: docs
 weight: 220
 url: /es/net/aspose.words/paragraphformat/lineunitafter/
@@ -14,7 +16,7 @@ Obtiene o establece la cantidad de espaciado (en líneas de cuadrícula) despué
 public double LineUnitAfter { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cambiar el espaciado y la sangría de los párrafos.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Ver también
 
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

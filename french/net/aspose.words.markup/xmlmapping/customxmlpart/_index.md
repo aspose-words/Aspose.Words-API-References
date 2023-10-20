@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.CustomXmlPart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: XmlMapping propriété. Renvoie la partie de données XML personnalisée à laquelle la balise du document structuré parent est mappée.
+linktitle: CustomXmlPart
+articleTitle: CustomXmlPart
+second_title: Aspose.Words pour .NET
+description: XmlMapping CustomXmlPart propriété. Renvoie la partie de données XML personnalisée à laquelle la balise du document structuré parent est mappée en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.markup/xmlmapping/customxmlpart/
@@ -14,7 +16,7 @@ Renvoie la partie de données XML personnalisée à laquelle la balise du docume
 public CustomXmlPart CustomXmlPart { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir des mappages XML pour les parties XML personnalisées.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [XmlMapping](../)
-* espace de noms [Aspose.Words.Markup](../../xmlmapping/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

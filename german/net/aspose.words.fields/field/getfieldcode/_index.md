@@ -1,7 +1,9 @@
 ---
 title: Field.GetFieldCode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Field methode. Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück oder Feldende wenn kein Trennzeichen vorhanden ist. Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten.
+linktitle: GetFieldCode
+articleTitle: GetFieldCode
+second_title: Aspose.Words für .NET
+description: Field GetFieldCode methode. Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück oder Feldende wenn kein Trennzeichen vorhanden ist. Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.fields/field/getfieldcode/
@@ -14,7 +16,7 @@ Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn 
 public string GetFieldCode()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe eines Feldcodes ein Feld in ein Dokument einfügt.
 
@@ -53,12 +55,12 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### Siehe auch
 
 * class [Field](../)
-* namensraum [Aspose.Words.Fields](../../field/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## GetFieldCode(bool) {#getfieldcode_1}
+## GetFieldCode(*bool*) {#getfieldcode_1}
 
 Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist).
 
@@ -70,7 +72,7 @@ public string GetFieldCode(bool includeChildFieldCodes)
 | --- | --- | --- |
 | includeChildFieldCodes | Boolean | `WAHR` wenn untergeordnete Feldcodes enthalten sein sollen. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man den Feldcode eines Feldes erhält.
 
@@ -94,7 +96,5 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### Siehe auch
 
 * class [Field](../)
-* namensraum [Aspose.Words.Fields](../../field/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

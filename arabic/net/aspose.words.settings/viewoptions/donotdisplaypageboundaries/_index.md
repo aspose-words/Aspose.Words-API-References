@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.DoNotDisplayPageBoundaries
-second_title: Aspose.Words لمراجع .NET API
-description: ViewOptions ملكية. إيقاف عرض المسافة بين أعلى النص والحافة العلوية للصفحة.
+linktitle: DoNotDisplayPageBoundaries
+articleTitle: DoNotDisplayPageBoundaries
+second_title: Aspose.Words لـ .NET
+description: ViewOptions DoNotDisplayPageBoundaries ملكية. إيقاف عرض المسافة بين أعلى النص والحافة العلوية للصفحة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.settings/viewoptions/donotdisplaypageboundaries/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/viewoptions/donotdisplaypageboundaries/
 public bool DoNotDisplayPageBoundaries { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إخفاء المسافات البيضاء الرأسية والرؤوس/التذييلات في خيارات العرض.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "ViewOptions.DisplayPageBoundaries.doc");
 ### أنظر أيضا
 
 * class [ViewOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../viewoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

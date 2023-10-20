@@ -1,7 +1,9 @@
 ---
 title: Node.GetText
-second_title: Aspose.Words for .NET API Referansı
-description: Node yöntem. Bu düğümün ve tüm alt öğelerinin metnini alır.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words for .NET
+description: Node GetText yöntem. Bu düğümün ve tüm alt öğelerinin metnini alır C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/node/gettext/
@@ -14,11 +16,11 @@ Bu düğümün ve tüm alt öğelerinin metnini alır.
 public virtual string GetText()
 ```
 
-### Notlar
+## Notlar
 
 Döndürülen dize, yukarıda açıklandığı gibi tüm kontrol ve özel karakterleri içerir.[`ControlChar`](../../controlchar/).
 
-### Örnekler
+## Örnekler
 
 Kontrol karakterlerinin nasıl kullanılacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Ayrıca bakınız
 
 * class [Node](../)
-* ad alanı [Aspose.Words](../../node/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

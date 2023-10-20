@@ -1,7 +1,9 @@
 ---
 title: Table.FirstRow
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. إرجاع الأولRow العقدة في الجدول.
+linktitle: FirstRow
+articleTitle: FirstRow
+second_title: Aspose.Words لـ .NET
+description: Table FirstRow ملكية. إرجاع الأولRow العقدة في الجدول في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.tables/table/firstrow/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/firstrow/
 public Row FirstRow { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الصفين الأول والأخير من كافة الجداول في المستند.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 
 * class [Row](../../row/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

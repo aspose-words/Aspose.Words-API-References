@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.DateDisplayFormat
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Stringa che rappresenta il formato in cui vengono visualizzate le date. Non può esserenullo . Le date per linglese USA sono mm/gg/aaaa
+linktitle: DateDisplayFormat
+articleTitle: DateDisplayFormat
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag DateDisplayFormat proprietà. Stringa che rappresenta il formato in cui vengono visualizzate le date. Non può esserenullo . Le date per linglese USA sono mm/gg/aaaa in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.markup/structureddocumenttag/datedisplayformat/
@@ -14,13 +16,13 @@ Stringa che rappresenta il formato in cui vengono visualizzate le date. Non può
 public string DateDisplayFormat { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'accesso a questa proprietà funzionerà solo perDate Tipo SDT.
 
 Per tutti gli altri tipi di SDT si verificherà un'eccezione.
 
-### Esempi
+## Esempi
 
 Mostra come richiedere all'utente di inserire una data con un tag di documento strutturato.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### Guarda anche
 
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

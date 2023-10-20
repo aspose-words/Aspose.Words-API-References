@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.Position
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartLegend eigendom. Gibt die Position der Legende in einem Diagramm an. Der Standardwert istRight .
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words für .NET
+description: ChartLegend Position eigendom. Gibt die Position der Legende in einem Diagramm an. Der Standardwert istRight  in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.charts/chartlegend/position/
@@ -14,7 +16,7 @@ Gibt die Position der Legende in einem Diagramm an. Der Standardwert istRight .
 public LegendPosition Position { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Erscheinungsbild der Legende eines Diagramms bearbeitet wird.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * enum [LegendPosition](../../legendposition/)
 * class [ChartLegend](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

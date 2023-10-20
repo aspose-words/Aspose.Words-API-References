@@ -1,7 +1,9 @@
 ---
 title: Document.Frameset
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 返回一个Frameset实例如果该文档代表一个框架页面
+linktitle: Frameset
+articleTitle: Frameset
+second_title: 用于 .NET 的 Aspose.Words
+description: Document Frameset 财产. 返回一个Frameset实例如果该文档代表一个框架页面 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words/document/frameset/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/document/frameset/
 public Frameset Frameset { get; }
 ```
 
-### 评论
+## 评论
 
 如果文档没有加框，则该属性具有`无效的`值.
 
-### 例子
+## 例子
 
 展示如何访问页面上的框架。
 
@@ -44,7 +46,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * class [Frameset](../../../aspose.words.framesets/frameset/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeDataSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.MailMerging.IMailMergeDataSource interfaz. Implemente esta interfaz para permitir la combinación de correspondencia desde una fuente de datos personalizada como una lista de objetos. También se admiten datos maestrodetalle.
+title: IMailMergeDataSource Interface
+linktitle: IMailMergeDataSource
+articleTitle: IMailMergeDataSource
+second_title: Aspose.Words para .NET
+description: Aspose.Words.MailMerging.IMailMergeDataSource interfaz. Implemente esta interfaz para permitir la combinación de correspondencia desde una fuente de datos personalizada como una lista de objetos. También se admiten datos maestrodetalle en C#.
 type: docs
 weight: 3810
 url: /es/net/aspose.words.mailmerging/imailmergedatasource/
@@ -24,15 +26,15 @@ public interface IMailMergeDataSource
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(string) | El motor de combinación de correspondencia Aspose.Words invoca este método cuando encuentra el comienzo de una región de combinación de correspondencia anidada. |
-| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(string, out object) | Devuelve un valor para el nombre de campo especificado o`FALSO` si no se encuentra el campo. |
+| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | El motor de combinación de correspondencia Aspose.Words invoca este método cuando encuentra el comienzo de una región de combinación de correspondencia anidada. |
+| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(*string, out object*) | Devuelve un valor para el nombre de campo especificado o`FALSO` si no se encuentra el campo. |
 | [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | Avanza al siguiente registro en la fuente de datos. |
 
-### Observaciones
+## Observaciones
 
 Cuando se crea una fuente de datos, se debe inicializar para que apunte a BOF (antes del primer registro). El motor de combinación de correspondencia Aspose.Words invocará[`MoveNext`](./movenext/) para avanzar al siguiente registro y luego invocar[`GetValue`](./getvalue/) para cada campo de combinación que encuentre en el documento o en la región de combinación de correspondencia actual.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con una fuente de datos en forma de objeto personalizado.
 
@@ -147,5 +149,3 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 
 * espacio de nombres [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../)
-
-

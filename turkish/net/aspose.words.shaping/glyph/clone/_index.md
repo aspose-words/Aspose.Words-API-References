@@ -1,7 +1,9 @@
 ---
 title: Glyph.Clone
-second_title: Aspose.Words for .NET API Referansı
-description: Glyph yöntem. Bu örneğin bir kopyasını döndürür.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words for .NET
+description: Glyph Clone yöntem. Bu örneğin bir kopyasını döndürür C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.shaping/glyph/clone/
@@ -17,7 +19,5 @@ public virtual Glyph Clone()
 ### Ayrıca bakınız
 
 * class [Glyph](../)
-* ad alanı [Aspose.Words.Shaping](../../glyph/)
+* ad alanı [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ImageSavingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: MarkdownSaveOptions mülk. Bir belge ye kaydedildiğinde görüntülerin nasıl kaydedileceğini kontrol etmenize izin verirMarkdown format.
+linktitle: ImageSavingCallback
+articleTitle: ImageSavingCallback
+second_title: Aspose.Words for .NET
+description: MarkdownSaveOptions ImageSavingCallback mülk. Bir belge ye kaydedildiğinde görüntülerin nasıl kaydedileceğini kontrol etmenize izin verirMarkdown format C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
@@ -14,7 +16,7 @@ Bir belge 'ye kaydedildiğinde görüntülerin nasıl kaydedileceğini kontrol e
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Markdown belgesine kaydederken görüntü adının nasıl yeniden adlandırılacağını gösterir.
 
@@ -74,7 +76,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * interface [IImageSavingCallback](../../iimagesavingcallback/)
 * class [MarkdownSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../markdownsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

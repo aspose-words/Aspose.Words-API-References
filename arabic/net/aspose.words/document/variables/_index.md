@@ -1,7 +1,9 @@
 ---
 title: Document.Variables
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. إرجاع مجموعة المتغيرات المضافة إلى مستند أو قالب.
+linktitle: Variables
+articleTitle: Variables
+second_title: Aspose.Words لـ .NET
+description: Document Variables ملكية. إرجاع مجموعة المتغيرات المضافة إلى مستند أو قالب في C#.
 type: docs
 weight: 440
 url: /ar/net/aspose.words/document/variables/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/variables/
 public VariableCollection Variables { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة متغيرات المستند.
 
@@ -82,7 +84,5 @@ Assert.That(variables, Is.Empty);
 
 * class [VariableCollection](../../variablecollection/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

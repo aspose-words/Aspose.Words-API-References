@@ -1,12 +1,14 @@
 ---
 title: TabStopCollection.Equals
-second_title: Referencia de API de Aspose.Words para .NET
-description: TabStopCollection método. Determina si el especificadoTabStopCollection es igual en valor a la corrienteTabStopCollection .
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words para .NET
+description: TabStopCollection Equals método. Determina si el especificadoTabStopCollection es igual en valor a la corrienteTabStopCollection  en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words/tabstopcollection/equals/
 ---
-## Equals(TabStopCollection) {#equals}
+## Equals(*[TabStopCollection](../)*) {#equals}
 
 Determina si el especificado[`TabStopCollection`](../) es igual en valor a la corriente[`TabStopCollection`](../) .
 
@@ -14,7 +16,7 @@ Determina si el especificado[`TabStopCollection`](../) es igual en valor a la co
 public bool Equals(TabStopCollection rhs)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con la colección de tabulaciones de un documento.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Ver también
 
 * class [TabStopCollection](../)
-* espacio de nombres [Aspose.Words](../../tabstopcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 Determina si el objeto especificado tiene el mismo valor que el objeto actual.
 
@@ -71,7 +73,7 @@ Determina si el objeto especificado tiene el mismo valor que el objeto actual.
 public override bool Equals(object obj)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con la colección de tabulaciones de un documento.
 
@@ -115,7 +117,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Ver también
 
 * class [TabStopCollection](../)
-* espacio de nombres [Aspose.Words](../../tabstopcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

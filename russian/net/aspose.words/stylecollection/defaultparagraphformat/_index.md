@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.DefaultParagraphFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: StyleCollection свойство. Получает форматирование абзаца документа по умолчанию.
+linktitle: DefaultParagraphFormat
+articleTitle: DefaultParagraphFormat
+second_title: Aspose.Words для .NET
+description: StyleCollection DefaultParagraphFormat свойство. Получает форматирование абзаца документа по умолчанию на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/stylecollection/defaultparagraphformat/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/stylecollection/defaultparagraphformat/
 public ParagraphFormat DefaultParagraphFormat { get; }
 ```
 
-### Примечания
+## Примечания
 
 Обратите внимание, что значения по умолчанию для всего документа были введены в Microsoft Word 2007 и полностью поддерживаются в форматах OOXML (Docx) only. Более ранние форматы документов не поддерживают форматирование абзацев документа по умолчанию.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить стиль в коллекцию стилей документа.
 
@@ -42,7 +44,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [StyleCollection](../)
-* пространство имен [Aspose.Words](../../stylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

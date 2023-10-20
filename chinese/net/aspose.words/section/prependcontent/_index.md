@@ -1,9 +1,11 @@
 ---
 title: Section.PrependContent
-second_title: Aspose.Words for .NET API 参考
-description: Section 方法. 在本节的开头插入源节内容的副本
+linktitle: PrependContent
+articleTitle: PrependContent
+second_title: 用于 .NET 的 Aspose.Words
+description: Section PrependContent 方法. 在本节的开头插入源节内容的副本 在 C#.
 type: docs
-weight: 160
+weight: 140
 url: /zh/net/aspose.words/section/prependcontent/
 ---
 ## Section.PrependContent method
@@ -18,7 +20,7 @@ public void PrependContent(Section sourceSection)
 | --- | --- | --- |
 | sourceSection | Section | 从中复制内容的部分。 |
 
-### 评论
+## 评论
 
 仅内容[`Body`](../body/)复制源部分的内容，不复制页面设置、 页眉和页脚。
 
@@ -26,7 +28,7 @@ public void PrependContent(Section sourceSection)
 
 目标文档中不会创建新部分。
 
-### 例子
+## 例子
 
 演示如何将一个部分的内容附加到另一个部分。
 
@@ -62,7 +64,5 @@ Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
 ### 也可以看看
 
 * class [Section](../)
-* 命名空间 [Aspose.Words](../../section/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

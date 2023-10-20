@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BuiltInTemplatesPaths
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldOptions propiedad. Obtiene o establece rutas de las plantillas integradas de MS Word.
+linktitle: BuiltInTemplatesPaths
+articleTitle: BuiltInTemplatesPaths
+second_title: Aspose.Words para .NET
+description: FieldOptions BuiltInTemplatesPaths propiedad. Obtiene o establece rutas de las plantillas integradas de MS Word en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
@@ -14,13 +16,13 @@ Obtiene o establece rutas de las plantillas integradas de MS Word.
 public string[] BuiltInTemplatesPaths { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad es utilizada por el[`FieldAutoText`](../../fieldautotext/) y[`FieldGlossary`](../../fieldglossary/) campos, si la entrada de texto automático referenciada no se encuentra en el[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) plantilla.
 
 De forma predeterminada, MS Word almacena las plantillas integradas en c:\Users\&lt;nombre de usuario&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\&lt;nombre de usuario&gt;\ Archivos AppData\Roaming\Microsoft\Templates\Normal.dotm.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo mostrar un bloque de construcción con campos AUTOTEXTO y GLOSARIO.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### Ver también
 
 * class [FieldOptions](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldoptions/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

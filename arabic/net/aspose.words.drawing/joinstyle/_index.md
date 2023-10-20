@@ -1,7 +1,9 @@
 ---
-title: Enum JoinStyle
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.JoinStyle تعداد. نمط ربط الخط.
+title: JoinStyle Enum
+linktitle: JoinStyle
+articleTitle: JoinStyle
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.JoinStyle تعداد. نمط ربط الخط في C#.
 type: docs
 weight: 1090
 url: /ar/net/aspose.words.drawing/joinstyle/
@@ -22,7 +24,7 @@ public enum JoinStyle
 | Miter | `1` | تمديد الحواف حتى تنضم. |
 | Round | `2` | ارسم قوسًا بين الحافتين. |
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -99,5 +101,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [JoinStyle](../stroke/joinstyle/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

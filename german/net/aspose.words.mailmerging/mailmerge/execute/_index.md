@@ -1,12 +1,14 @@
 ---
 title: MailMerge.Execute
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge methode. Führt einen Seriendruck aus einer benutzerdefinierten Datenquelle durch.
+linktitle: Execute
+articleTitle: Execute
+second_title: Aspose.Words für .NET
+description: MailMerge Execute methode. Führt einen Seriendruck aus einer benutzerdefinierten Datenquelle durch in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words.mailmerging/mailmerge/execute/
 ---
-## Execute(IMailMergeDataSource) {#execute}
+## Execute(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#execute}
 
 Führt einen Seriendruck aus einer benutzerdefinierten Datenquelle durch.
 
@@ -18,7 +20,7 @@ public void Execute(IMailMergeDataSource dataSource)
 | --- | --- | --- |
 | dataSource | IMailMergeDataSource | Ein Objekt, das die benutzerdefinierte Serienbrief-Datenquellenschnittstelle implementiert. |
 
-### Bemerkungen
+## Bemerkungen
 
 Verwenden Sie diese Methode, um Seriendruckfelder im Dokument mit Werten aus einer beliebigen Datenquelle wie einer Liste, einer Hashtabelle oder Objekten zu füllen. Sie müssen Ihre eigene Klasse schreiben, die das implementiert[`IMailMergeDataSource`](../../imailmergedatasource/) Schnittstelle.
 
@@ -30,12 +32,12 @@ Diese Methode ignoriert dieRemoveUnusedRegions Möglichkeit.
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Execute(string[], object[]) {#execute_5}
+## Execute(*string[], object[]*) {#execute_5}
 
 Führt einen Seriendruckvorgang für einen einzelnen Datensatz durch.
 
@@ -48,7 +50,7 @@ public void Execute(string[] fieldNames, object[] values)
 | fieldNames | String[] | Array von Zusammenführungsfeldnamen. Bei Feldnamen wird die Groß-/Kleinschreibung nicht beachtet. Wenn ein Feldname gefunden wird, der im Dokument nicht gefunden wird, wird er ignoriert. |
 | values | Object[] | Array von Werten, die in die Zusammenführungsfelder eingefügt werden sollen. Die Anzahl der Elemente in diesem Array muss mit der Anzahl der Elemente in übereinstimmen*fieldNames*. |
 
-### Bemerkungen
+## Bemerkungen
 
 Verwenden Sie diese Methode, um Serienbrieffelder im Dokument mit Werten aus einem Array von Objekten zu füllen.
 
@@ -58,7 +60,7 @@ Bei dieser Methode werden keine Seriendruckbereiche verwendet.
 
 Diese Methode ignoriert dieRemoveUnusedRegions Möglichkeit.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Bild aus einem URI als Serienbriefdaten in ein MERGEFIELD zusammengeführt wird.
 
@@ -111,12 +113,12 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataTable) {#execute_2}
+## Execute(*DataTable*) {#execute_2}
 
 Führt einen Serienbrief von einer Datentabelle in das Dokument durch.
 
@@ -128,19 +130,19 @@ public void Execute(DataTable table)
 | --- | --- | --- |
 | table | DataTable | Tabelle, die Daten enthält, die in Serienbrieffelder eingefügt werden sollen. Bei Feldnamen wird die Groß-/Kleinschreibung nicht beachtet. Wenn ein Feldname gefunden wird, der im Dokument nicht gefunden wird, wird er ignoriert. |
 
-### Bemerkungen
+## Bemerkungen
 
-Verwenden Sie diese Methode, um Serienbrieffelder im Dokument mit Werten aus a zu füllen. **Datentabelle**.
+Verwenden Sie diese Methode, um Serienbrieffelder im Dokument mit Werten aus a zu füllen.**Datentabelle**.
 
 Alle Datensätze aus der Tabelle werden in das Dokument eingefügt.
 
-Sie können das NEXT-Feld im Word-Dokument verwenden, um dies zu veranlassen[`MailMerge`](../) Objekt zur Auswahl des nächsten Datensatzes aus dem **Datentabelle** und fahren Sie mit dem Zusammenführen fort. Dies kann beim Erstellen von Dokumenten wie Versandetiketten verwendet werden.
+Sie können das NEXT-Feld im Word-Dokument verwenden, um dies zu veranlassen[`MailMerge`](../) Objekt zur Auswahl des nächsten Datensatzes aus dem**Datentabelle** und fahren Sie mit dem Zusammenführen fort. Dies kann beim Erstellen von Dokumenten wie Versandetiketten verwendet werden.
 
-Wann[`MailMerge`](../) Das Objekt erreicht das Ende des Hauptdokuments und es sind noch weitere Zeilen darin **Datentabelle**, kopiert es den gesamten Inhalt des Hauptdokuments und hängt ihn an das Ende des Zieldokuments an, wobei ein Abschnitt -Umbruch als Trennzeichen verwendet wird.
+Wann[`MailMerge`](../) Das Objekt erreicht das Ende des Hauptdokuments und es sind noch weitere Zeilen darin**Datentabelle**, kopiert es den gesamten Inhalt des Hauptdokuments und hängt ihn an das Ende des Zieldokuments an, wobei ein Abschnitt -Umbruch als Trennzeichen verwendet wird.
 
 Diese Methode ignoriert dieRemoveUnusedRegions Möglichkeit.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einer DataTable ausgeführt wird.
 
@@ -188,14 +190,14 @@ private static Document CreateSourceDocExecuteDataTable()
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Execute(IDataReader) {#execute_4}
+## Execute(*IDataReader*) {#execute_4}
 
-Führt einen Serienbrief durch **IDataReader** in das Dokument.
+Führt einen Serienbrief durch**IDataReader** in das Dokument.
 
 ```csharp
 public void Execute(IDataReader dataReader)
@@ -205,15 +207,15 @@ public void Execute(IDataReader dataReader)
 | --- | --- | --- |
 | dataReader | IDataReader | Datenquelle für den Seriendruckvorgang. |
 
-### Bemerkungen
+## Bemerkungen
 
-Du kannst passieren **SqlDataReader** oder **OleDbDataReader** Objekt als Parameter in die Methode this ein, da beide implementiert sind **IDataReader** Schnittstelle.
+Du kannst passieren**SqlDataReader** oder**OleDbDataReader** Objekt als Parameter in die Methode this ein, da beide implementiert sind**IDataReader** Schnittstelle.
 
 Beachten Sie, dass diese Methode keine Seriendruckbereiche verwendet und bei mehreren Datensätzen das -Dokument durch Wiederholung des gesamten Dokuments wächst.
 
 Diese Methode ignoriert dieRemoveUnusedRegions Möglichkeit.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten von einem Datenleser ausgeführt wird.
 
@@ -267,14 +269,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataView) {#execute_3}
+## Execute(*DataView*) {#execute_3}
 
-Führt einen Serienbrief von einem aus **Datenansicht** in das Dokument.
+Führt einen Serienbrief von einem aus**Datenansicht** in das Dokument.
 
 ```csharp
 public void Execute(DataView dataView)
@@ -284,15 +286,15 @@ public void Execute(DataView dataView)
 | --- | --- | --- |
 | dataView | DataView | Datenquelle für den Seriendruckvorgang. |
 
-### Bemerkungen
+## Bemerkungen
 
-Diese Methode ist nützlich, wenn Sie Daten in a abrufen **Datentabelle** aber dann muss vor dem Seriendruck ein Filter oder eine Sortierung angewendet werden.
+Diese Methode ist nützlich, wenn Sie Daten in a abrufen**Datentabelle** aber dann muss vor dem Seriendruck ein Filter oder eine Sortierung angewendet werden.
 
 Beachten Sie, dass diese Methode keine Seriendruckbereiche verwendet und bei mehreren Datensätzen das -Dokument durch Wiederholung des gesamten Dokuments wächst.
 
 Diese Methode ignoriert dieRemoveUnusedRegions Möglichkeit.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Serienbriefdaten mit einem DataView bearbeitet werden.
 
@@ -329,14 +331,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataRow) {#execute_1}
+## Execute(*DataRow*) {#execute_1}
 
-Führt einen Serienbrief von einem aus **Datenzeile** in das Dokument.
+Führt einen Serienbrief von einem aus**Datenzeile** in das Dokument.
 
 ```csharp
 public void Execute(DataRow row)
@@ -346,13 +348,13 @@ public void Execute(DataRow row)
 | --- | --- | --- |
 | row | DataRow | Zeile, die Daten enthält, die in Serienbrieffelder eingefügt werden sollen. Bei Feldnamen wird die Groß-/Kleinschreibung nicht beachtet. Wenn ein Feldname gefunden wird, der im Dokument nicht gefunden wird, wird er ignoriert. |
 
-### Bemerkungen
+## Bemerkungen
 
-Verwenden Sie diese Methode, um Serienbrieffelder im Dokument mit Werten aus a zu füllen **Datenzeile**.
+Verwenden Sie diese Methode, um Serienbrieffelder im Dokument mit Werten aus a zu füllen**Datenzeile**.
 
 Diese Methode ignoriert dieRemoveUnusedRegions Möglichkeit.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einer DataTable ausgeführt wird.
 
@@ -400,7 +402,5 @@ private static Document CreateSourceDocExecuteDataTable()
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

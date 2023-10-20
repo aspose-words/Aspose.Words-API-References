@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.KeepFontStreamOpen
-second_title: Aspose.Words لمراجع .NET API
-description: FontSavingArgs ملكية. يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ الخط.
+linktitle: KeepFontStreamOpen
+articleTitle: KeepFontStreamOpen
+second_title: Aspose.Words لـ .NET
+description: FontSavingArgs KeepFontStreamOpen ملكية. يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ الخط في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.saving/fontsavingargs/keepfontstreamopen/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/fontsavingargs/keepfontstreamopen/
 public bool KeepFontStreamOpen { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الافتراضي هو`خطأ شنيع` وسيقوم Aspose.Words بإغلاق الدفق الذي قدمته في ملف[`FontStream`](../fontstream/) الخاصية بعد كتابة الخط فيها. تحديد`حقيقي` لإبقاء الدفق مفتوحًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المنطق المخصص لتصدير الخطوط عند الحفظ إلى HTML.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### أنظر أيضا
 
 * class [FontSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../fontsavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

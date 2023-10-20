@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateLastPrintedProperty
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. الحصول على أو تعيين قيمة لتحديد ما إذا كانLastPrinted يتم تحديث الخاصية قبل الحفظ.
+linktitle: UpdateLastPrintedProperty
+articleTitle: UpdateLastPrintedProperty
+second_title: Aspose.Words لـ .NET
+description: SaveOptions UpdateLastPrintedProperty ملكية. الحصول على أو تعيين قيمة لتحديد ما إذا كانLastPrinted يتم تحديث الخاصية قبل الحفظ في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.saving/saveoptions/updatelastprintedproperty/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/saveoptions/updatelastprintedproperty/
 public bool UpdateLastPrintedProperty { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديث خاصية "CreatedTime" للمستند عند الحفظ.
 
@@ -61,7 +63,5 @@ Assert.AreNotEqual(isUpdateLastPrintedProperty, new DateTime(2019, 12, 20) == do
 ### أنظر أيضا
 
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

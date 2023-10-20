@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.ScalingFactor
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergeBarcode propriété. Obtient ou définit un facteur de mise à léchelle pour le symbole. La valeur est en points de pourcentage entiers et les valeurs valides sont 10 1000
+linktitle: ScalingFactor
+articleTitle: ScalingFactor
+second_title: Aspose.Words pour .NET
+description: FieldMergeBarcode ScalingFactor propriété. Obtient ou définit un facteur de mise à léchelle pour le symbole. La valeur est en points de pourcentage entiers et les valeurs valides sont 10 1000 en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.fields/fieldmergebarcode/scalingfactor/
@@ -14,7 +16,7 @@ Obtient ou définit un facteur de mise à l'échelle pour le symbole. La valeur 
 public string ScalingFactor { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment effectuer un publipostage sur des codes-barres QR.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Voir également
 
 * class [FieldMergeBarcode](../)
-* espace de noms [Aspose.Words.Fields](../../fieldmergebarcode/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

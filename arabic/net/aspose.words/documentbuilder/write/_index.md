@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.Write
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج سلسلة في المستند في موضع الإدراج الحالي.
+linktitle: Write
+articleTitle: Write
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder Write طريقة. إدراج سلسلة في المستند في موضع الإدراج الحالي في C#.
 type: docs
-weight: 660
+weight: 650
 url: /ar/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
@@ -18,11 +20,11 @@ public void Write(string text)
 | --- | --- | --- |
 | text | String | السلسلة المراد إدراجها في المستند. |
 
-### ملاحظات
+## ملاحظات
 
 تنسيق الخط الحالي المحدد بواسطة[`Font`](../font/) الخاصية مستخدمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
 
@@ -168,7 +170,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

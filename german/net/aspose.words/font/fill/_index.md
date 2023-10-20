@@ -1,7 +1,9 @@
 ---
 title: Font.Fill
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Füllformatierung für abFont .
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words für .NET
+description: Font Fill eigendom. Ruft die Füllformatierung für abFont  in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words/font/fill/
@@ -18,7 +20,5 @@ public Fill Fill { get; }
 
 * class [Fill](../../../aspose.words.drawing/fill/)
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

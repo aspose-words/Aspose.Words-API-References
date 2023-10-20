@@ -1,7 +1,9 @@
 ---
 title: Frameset.ChildFramesets
-second_title: Aspose.Words for .NET API Referansı
-description: Frameset mülk. Alt çerçevelerin ve çerçeve sayfalarının koleksiyonunu alır.
+linktitle: ChildFramesets
+articleTitle: ChildFramesets
+second_title: Aspose.Words for .NET
+description: Frameset ChildFramesets mülk. Alt çerçevelerin ve çerçeve sayfalarının koleksiyonunu alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.framesets/frameset/childframesets/
@@ -14,7 +16,7 @@ Alt çerçevelerin ve çerçeve sayfalarının koleksiyonunu alır.
 public FramesetCollection ChildFramesets { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Sayfadaki çerçevelere nasıl erişileceğini gösterir.
 
@@ -40,7 +42,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * class [FramesetCollection](../../framesetcollection/)
 * class [Frameset](../)
-* ad alanı [Aspose.Words.Framesets](../../frameset/)
+* ad alanı [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * toplantı [Aspose.Words](../../../)
-
-

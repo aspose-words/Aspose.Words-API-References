@@ -1,7 +1,9 @@
 ---
-title: Class TextColumnCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.TextColumnCollection فصل. مجموعة منTextColumn الكائنات التي تمثل كافة أعمدة النص في قسم من المستند.
+title: TextColumnCollection Class
+linktitle: TextColumnCollection
+articleTitle: TextColumnCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.TextColumnCollection فصل. مجموعة منTextColumn الكائنات التي تمثل كافة أعمدة النص في قسم من المستند في C#.
 type: docs
 weight: 6400
 url: /ar/net/aspose.words/textcolumncollection/
@@ -31,9 +33,9 @@ public class TextColumnCollection
 
 | اسم | وصف |
 | --- | --- |
-| [SetCount](../../aspose.words/textcolumncollection/setcount/)(int) | ترتيب النص في العدد المحدد من أعمدة النص. |
+| [SetCount](../../aspose.words/textcolumncollection/setcount/)(*int*) | ترتيب النص في العدد المحدد من أعمدة النص. |
 
-### ملاحظات
+## ملاحظات
 
 يستخدم[`SetCount`](./setcount/) لتعيين عدد أعمدة النص.
 
@@ -43,7 +45,7 @@ public class TextColumnCollection
 
 عند استخدام عروض الأعمدة المخصصة، تأكد من أن مجموع كل عروض الأعمدة والمسافات بينها يساوي عرض الصفحة ناقص هوامش الصفحة اليمنى واليسرى.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء عدة أعمدة متباعدة بشكل متساوٍ في القسم.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldBuilder.FieldBuilder
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldBuilder строитель. Инициализирует экземплярFieldBuilder класс.
+title: FieldBuilder
+linktitle: FieldBuilder
+articleTitle: FieldBuilder
+second_title: Aspose.Words для .NET
+description: FieldBuilder строитель. Инициализирует экземплярFieldBuilder класс на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldbuilder/fieldbuilder/
@@ -18,7 +20,7 @@ public FieldBuilder(FieldType fieldType)
 | --- | --- | --- |
 | fieldType | FieldType | Тип поля для построения. |
 
-### Примеры
+## Примеры
 
 Показывает, как создать и вставить поле с помощью построителя полей.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldBuilder](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbuilder/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.Prefix
-second_title: Aspose.Words لمراجع .NET API
-description: FieldCitation ملكية. الحصول على أو تعيين بادئة مُلحقة بالاقتباس.
+linktitle: Prefix
+articleTitle: Prefix
+second_title: Aspose.Words لـ .NET
+description: FieldCitation Prefix ملكية. الحصول على أو تعيين بادئة مُلحقة بالاقتباس في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldcitation/prefix/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldcitation/prefix/
 public string Prefix { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع حقول CITATION وBIBLIOGRAPHY.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### أنظر أيضا
 
 * class [FieldCitation](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcitation/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

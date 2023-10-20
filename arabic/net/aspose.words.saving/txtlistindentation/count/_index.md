@@ -1,7 +1,9 @@
 ---
 title: TxtListIndentation.Count
-second_title: Aspose.Words لمراجع .NET API
-description: TxtListIndentation ملكية. الحصول على العدد أو تعيينهCharacter لاستخدامها كمسافة بادئة لكل مستوى قائمة. القيمة الافتراضية هي 0 وهذا يعني عدم وجود مسافة بادئة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: TxtListIndentation Count ملكية. الحصول على العدد أو تعيينهCharacter لاستخدامها كمسافة بادئة لكل مستوى قائمة. القيمة الافتراضية هي 0 وهذا يعني عدم وجود مسافة بادئة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/txtlistindentation/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/txtlistindentation/count/
 public int Count { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين المسافة البادئة للقائمة عند حفظ مستند إلى نص عادي.
 
@@ -54,7 +56,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 ### أنظر أيضا
 
 * class [TxtListIndentation](../)
-* مساحة الاسم [Aspose.Words.Saving](../../txtlistindentation/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

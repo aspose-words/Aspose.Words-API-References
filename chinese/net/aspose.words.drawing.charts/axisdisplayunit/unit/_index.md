@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.Unit
-second_title: Aspose.Words for .NET API 参考
-description: AxisDisplayUnit 财产. 获取或设置显示单位的缩放值作为预定义值之一
+linktitle: Unit
+articleTitle: Unit
+second_title: 用于 .NET 的 Aspose.Words
+description: AxisDisplayUnit Unit 财产. 获取或设置显示单位的缩放值作为预定义值之一 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing.charts/axisdisplayunit/unit/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/axisdisplayunit/unit/
 public AxisBuiltInUnit Unit { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为None 。这Custom和 Percentage某些图表类型中不提供值；参见 [`AxisBuiltInUnit`](../../axisbuiltinunit/)了解更多信息。
 
-### 例子
+## 例子
 
 演示如何操作图表轴的刻度线和显示值。
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisBuiltInUnit](../../axisbuiltinunit/)
 * class [AxisDisplayUnit](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

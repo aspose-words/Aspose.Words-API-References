@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.RevisionOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutOptions свойство. Получает параметры версии.
+linktitle: RevisionOptions
+articleTitle: RevisionOptions
+second_title: Aspose.Words для .NET
+description: LayoutOptions RevisionOptions свойство. Получает параметры версии на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.layout/layoutoptions/revisionoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/layoutoptions/revisionoptions/
 public RevisionOptions RevisionOptions { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид редакций в готовом к просмотру выходном документе.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * class [RevisionOptions](../../revisionoptions/)
 * class [LayoutOptions](../)
-* пространство имен [Aspose.Words.Layout](../../layoutoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

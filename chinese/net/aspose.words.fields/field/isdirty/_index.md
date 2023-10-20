@@ -1,7 +1,9 @@
 ---
 title: Field.IsDirty
-second_title: Aspose.Words for .NET API 参考
-description: Field 财产. 获取或设置字段的当前结果是否由于对文档进行的其他修改而不再正确陈旧
+linktitle: IsDirty
+articleTitle: IsDirty
+second_title: 用于 .NET 的 Aspose.Words
+description: Field IsDirty 财产. 获取或设置字段的当前结果是否由于对文档进行的其他修改而不再正确陈旧 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/field/isdirty/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/field/isdirty/
 public bool IsDirty { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用特殊属性来更新字段结果。
 
@@ -71,7 +73,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### 也可以看看
 
 * class [Field](../)
-* 命名空间 [Aspose.Words.Fields](../../field/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

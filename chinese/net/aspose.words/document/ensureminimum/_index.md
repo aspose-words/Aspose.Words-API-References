@@ -1,9 +1,11 @@
 ---
 title: Document.EnsureMinimum
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 如果文档不包含任何节则创建一个包含一个段落的节
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: 用于 .NET 的 Aspose.Words
+description: Document EnsureMinimum 方法. 如果文档不包含任何节则创建一个包含一个段落的节 在 C#.
 type: docs
-weight: 600
+weight: 580
 url: /zh/net/aspose.words/document/ensureminimum/
 ---
 ## Document.EnsureMinimum method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### 例子
+## 例子
 
 演示如何确保文档包含编辑其内容所需的最小节点集。
 
@@ -52,7 +54,5 @@ Assert.AreEqual(NodeType.Paragraph, nodes[2].NodeType);
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

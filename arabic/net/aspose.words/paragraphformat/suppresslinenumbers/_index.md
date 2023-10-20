@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SuppressLineNumbers
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. يحدد ما إذا كان ينبغي استثناء أسطر الفقرة الحالية من ترقيم السطر الذي يتم تطبيقه في القسم الأصلي.
+linktitle: SuppressLineNumbers
+articleTitle: SuppressLineNumbers
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat SuppressLineNumbers ملكية. يحدد ما إذا كان ينبغي استثناء أسطر الفقرة الحالية من ترقيم السطر الذي يتم تطبيقه في القسم الأصلي في C#.
 type: docs
 weight: 380
 url: /ar/net/aspose.words/paragraphformat/suppresslinenumbers/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/suppresslinenumbers/
 public bool SuppressLineNumbers { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين ترقيم الأسطر لقسم ما.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

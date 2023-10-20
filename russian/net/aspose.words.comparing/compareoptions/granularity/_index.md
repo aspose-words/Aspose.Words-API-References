@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.Granularity
-second_title: Справочник по API Aspose.Words для .NET
-description: CompareOptions свойство. Указывает отслеживаются ли изменения посимвольно или пословно. Значение по умолчаниюWordLevel .
+linktitle: Granularity
+articleTitle: Granularity
+second_title: Aspose.Words для .NET
+description: CompareOptions Granularity свойство. Указывает отслеживаются ли изменения посимвольно или пословно. Значение по умолчаниюWordLevel  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.comparing/compareoptions/granularity/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.comparing/compareoptions/granularity/
 public Granularity Granularity { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, чтобы указать степень детализации при сравнении документов.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(5, groups.Count);
 
 * enum [Granularity](../../granularity/)
 * class [CompareOptions](../)
-* пространство имен [Aspose.Words.Comparing](../../compareoptions/)
+* пространство имен [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * сборка [Aspose.Words](../../../)
-
-

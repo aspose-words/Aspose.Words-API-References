@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.ContentsFont
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Teckensnittsformatering som kommer att tillämpas på text som skrivs in SDT .
+linktitle: ContentsFont
+articleTitle: ContentsFont
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag ContentsFont fast egendom. Teckensnittsformatering som kommer att tillämpas på text som skrivs inSDT  i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.markup/structureddocumenttag/contentsfont/
 ---
 ## StructuredDocumentTag.ContentsFont property
 
-Teckensnittsformatering som kommer att tillämpas på text som skrivs in **SDT** .
+Teckensnittsformatering som kommer att tillämpas på text som skrivs in**SDT** .
 
 ```csharp
 public Font ContentsFont { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg i en vanlig textruta och ändrar dess utseende.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

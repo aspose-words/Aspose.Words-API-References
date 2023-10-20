@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageIndex
-second_title: Aspose.Words for .NET API 参考
-description: PageSavingArgs 财产. 当前页面索引
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSavingArgs PageIndex 财产. 当前页面索引 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/pagesavingargs/pageindex/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pagesavingargs/pageindex/
 public int PageIndex { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用回调将文档逐页保存为 HTML。
 
@@ -71,7 +73,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### 也可以看看
 
 * class [PageSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../pagesavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

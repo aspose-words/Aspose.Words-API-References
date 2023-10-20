@@ -1,7 +1,9 @@
 ---
-title: WebExtensionBinding.WebExtensionBinding
-second_title: Aspose.Words för .NET API Referens
-description: WebExtensionBinding byggare. Skapar webbtilläggsbindning med angivna parametrar.
+title: WebExtensionBinding
+linktitle: WebExtensionBinding
+articleTitle: WebExtensionBinding
+second_title: Aspose.Words för .NET
+description: WebExtensionBinding byggare. Skapar webbtilläggsbindning med angivna parametrar i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.webextensions/webextensionbinding/webextensionbinding/
@@ -20,7 +22,7 @@ public WebExtensionBinding(string id, WebExtensionBindingType bindingType, strin
 | bindingType | WebExtensionBindingType | Bindningstyp. |
 | appRef | String | Bindningsnyckel som används för att mappa bindningsposten i den här listan med bundna data i dokumentet. |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -66,7 +68,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [WebExtensionBindingType](../../webextensionbindingtype/)
 * class [WebExtensionBinding](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

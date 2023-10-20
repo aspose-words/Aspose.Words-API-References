@@ -1,7 +1,9 @@
 ---
 title: Table.LastRow
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Returnerar den sistaRow nod i tabellen.
+linktitle: LastRow
+articleTitle: LastRow
+second_title: Aspose.Words för .NET
+description: Table LastRow fast egendom. Returnerar den sistaRow nod i tabellen i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.tables/table/lastrow/
@@ -14,7 +16,7 @@ Returnerar den sista[`Row`](../../row/) nod i tabellen.
 public Row LastRow { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort den första och sista raden i alla tabeller i ett dokument.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 
 * class [Row](../../row/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

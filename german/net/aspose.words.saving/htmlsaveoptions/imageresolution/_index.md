@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImageResolution
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt die Ausgabeauflösung für Bilder beim Exportieren nach HTML MHTML oder EPUB an. Die Standardeinstellung ist96 dpi .
+linktitle: ImageResolution
+articleTitle: ImageResolution
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ImageResolution eigendom. Gibt die Ausgabeauflösung für Bilder beim Exportieren nach HTML MHTML oder EPUB an. Die Standardeinstellung ist96 dpi  in C#.
 type: docs
 weight: 340
 url: /de/net/aspose.words.saving/htmlsaveoptions/imageresolution/
@@ -14,11 +16,11 @@ Gibt die Ausgabeauflösung für Bilder beim Exportieren nach HTML, MHTML oder EP
 public int ImageResolution { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft wirkt sich auf Rasterbilder aus, wenn[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) ist`WAHR` und Effektmetadateien, die als Rasterbilder exportiert werden. Einige Bildeigenschaften wie Zuschneiden oder Drehung erfordern das Speichern transformierter Bilder. In diesem Fall werden transformierte Bilder in der angegebenen -Auflösung erstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Ordner und Ordneraliase für extern gespeicherte Ressourcen festgelegt werden, die Aspose.Words beim Speichern eines Dokuments in HTML erstellt.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 
 * property [ScaleImageToShapeSize](../scaleimagetoshapesize/)
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

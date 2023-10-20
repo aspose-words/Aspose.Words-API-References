@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontFarEast
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene o imposta il carattere del tema dellAsia orientale nello schema di caratteri applicato associato a questoFont oggetto.
+linktitle: ThemeFontFarEast
+articleTitle: ThemeFontFarEast
+second_title: Aspose.Words per .NET
+description: Font ThemeFontFarEast proprietà. Ottiene o imposta il carattere del tema dellAsia orientale nello schema di caratteri applicato associato a questoFont oggetto in C#.
 type: docs
 weight: 500
 url: /it/net/aspose.words/font/themefontfareast/
@@ -14,7 +16,7 @@ Ottiene o imposta il carattere del tema dell'Asia orientale nello schema di cara
 public ThemeFont ThemeFontFarEast { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i caratteri e i colori del tema.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

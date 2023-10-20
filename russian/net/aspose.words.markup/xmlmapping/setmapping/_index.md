@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.SetMapping
-second_title: Справочник по API Aspose.Words для .NET
-description: XmlMapping метод. Устанавливает сопоставление между тегом родительского структурированного документа и узлом XML пользовательской части данных XML.
+linktitle: SetMapping
+articleTitle: SetMapping
+second_title: Aspose.Words для .NET
+description: XmlMapping SetMapping метод. Устанавливает сопоставление между тегом родительского структурированного документа и узлом XML пользовательской части данных XML на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.markup/xmlmapping/setmapping/
@@ -24,7 +26,7 @@ public bool SetMapping(CustomXmlPart customXmlPart, string xPath, string prefixM
 
 Флаг, указывающий, успешно ли сопоставлен тег родительского структурированного документа с узлом XML.
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа с пользовательскими данными XML.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [XmlMapping](../)
-* пространство имен [Aspose.Words.Markup](../../xmlmapping/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

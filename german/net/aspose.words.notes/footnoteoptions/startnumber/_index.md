@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.StartNumber
-second_title: Aspose.Words für .NET-API-Referenz
-description: FootnoteOptions eigendom. Gibt die Startnummer oder das Anfangszeichen für die ersten automatisch nummerierten Fußnoten an.
+linktitle: StartNumber
+articleTitle: StartNumber
+second_title: Aspose.Words für .NET
+description: FootnoteOptions StartNumber eigendom. Gibt die Startnummer oder das Anfangszeichen für die ersten automatisch nummerierten Fußnoten an in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.notes/footnoteoptions/startnumber/
@@ -14,11 +16,11 @@ Gibt die Startnummer oder das Anfangszeichen für die ersten automatisch nummeri
 public int StartNumber { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft ist nur wirksam, wenn[`RestartRule`](../restartrule/) ist auf gesetztContinuous.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Zahl festlegt, bei der das Dokument mit der Fußnoten-/Endnotenzählung beginnt.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.StartNumber.docx");
 ### Siehe auch
 
 * class [FootnoteOptions](../)
-* namensraum [Aspose.Words.Notes](../../footnoteoptions/)
+* namensraum [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Montage [Aspose.Words](../../../)
-
-

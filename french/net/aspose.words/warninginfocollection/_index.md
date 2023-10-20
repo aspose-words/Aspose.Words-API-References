@@ -1,7 +1,9 @@
 ---
-title: Class WarningInfoCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.WarningInfoCollection classe. Représente une collection typée deWarningInfo objets.
+title: WarningInfoCollection Class
+linktitle: WarningInfoCollection
+articleTitle: WarningInfoCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.WarningInfoCollection classe. Représente une collection typée deWarningInfo objets en C#.
 type: docs
 weight: 6640
 url: /fr/net/aspose.words/warninginfocollection/
@@ -35,13 +37,13 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear/)() | Supprime tous les éléments de la collection. |
 | [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection. |
-| [Warning](../../aspose.words/warninginfocollection/warning/)(WarningInfo) | Implémente le[`IWarningCallback`](../iwarningcallback/) interface. Ajoute un avertissement à cette collection. |
+| [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | Implémente le[`IWarningCallback`](../iwarningcallback/) interface. Ajoute un avertissement à cette collection. |
 
-### Remarques
+## Remarques
 
 Vous pouvez utiliser cet objet de collection comme la forme la plus simple de[`IWarningCallback`](../iwarningcallback/) implémentation pour rassembler tous les avertissements générés par Aspose.Words lors d'une opération de chargement ou de sauvegarde. Créez une instance de cette classe et attribuez-la au[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) ou[`WarningCallback`](../documentbase/warningcallback/) propriété.
 
-### Exemples
+## Exemples
 
 Montre comment définir la propriété permettant de trouver la correspondance la plus proche pour une police manquante à partir des sources de polices disponibles.
 
@@ -104,5 +106,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 * interface [IWarningCallback](../iwarningcallback/)
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

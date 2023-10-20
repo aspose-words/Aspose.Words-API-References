@@ -1,7 +1,9 @@
 ---
 title: Document.Compliance
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Obtient la version de conformité OOXML déterminée à partir du contenu du document chargé. Na de sens que pour les documents OOXML.
+linktitle: Compliance
+articleTitle: Compliance
+second_title: Aspose.Words pour .NET
+description: Document Compliance propriété. Obtient la version de conformité OOXML déterminée à partir du contenu du document chargé. Na de sens que pour les documents OOXML en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/document/compliance/
@@ -14,11 +16,11 @@ Obtient la version de conformité OOXML déterminée à partir du contenu du doc
 public OoxmlCompliance Compliance { get; }
 ```
 
-### Remarques
+## Remarques
 
 Si vous avez créé un nouveau document vierge ou chargé un document non OOXML, document renvoie leEcma376_2006 valeur.
 
-### Exemples
+## Exemples
 
 Montre comment lire la version de conformité Open Office XML d’un document chargé.
 
@@ -37,7 +39,5 @@ Assert.AreEqual(doc.Compliance, OoxmlCompliance.Iso29500_2008_Transitional);
 
 * enum [OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.Replacement
-second_title: Aspose.Words for .NET API Referansı
-description: ReplacingArgs mülk. Değiştirme dizesini alır veya ayarlar.
+linktitle: Replacement
+articleTitle: Replacement
+second_title: Aspose.Words for .NET
+description: ReplacingArgs Replacement mülk. Değiştirme dizesini alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.replacing/replacingargs/replacement/
@@ -14,7 +16,7 @@ Değiştirme dizesini alır veya ayarlar.
 public string Replacement { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tüm bu değiştirmeleri izlerken, düzenli ifade modelinin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
 
@@ -70,7 +72,5 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 ### Ayrıca bakınız
 
 * class [ReplacingArgs](../)
-* ad alanı [Aspose.Words.Replacing](../../replacingargs/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

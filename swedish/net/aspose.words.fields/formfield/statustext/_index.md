@@ -1,7 +1,9 @@
 ---
 title: FormField.StatusText
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Returnerar eller ställer in texten som visas i statusfältet när ett formulärfält har fokus.
+linktitle: StatusText
+articleTitle: StatusText
+second_title: Aspose.Words för .NET
+description: FormField StatusText fast egendom. Returnerar eller ställer in texten som visas i statusfältet när ett formulärfält har fokus i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.fields/formfield/statustext/
@@ -14,13 +16,13 @@ Returnerar eller ställer in texten som visas i statusfältet när ett formulär
 public string StatusText { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om[`OwnStatus`](../ownstatus/) egenskapen är inställd på`Sann` , den`StatusText` egenskapen anger statusfältets text. Om[`OwnStatus`](../ownstatus/) egenskapen är inställd på`falsk` , den`StatusText` egenskapen anger namnet på en AutoText -post som innehåller statusfältstext för formulärfältet.
 
 Microsoft Word tillåter strängar med högst 138 tecken.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

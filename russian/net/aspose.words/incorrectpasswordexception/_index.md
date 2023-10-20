@@ -1,7 +1,9 @@
 ---
-title: Class IncorrectPasswordException
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.IncorrectPasswordException сорт. Выдается если документ зашифрован паролем а пароль указанный при открытии документа неверен или отсутствует.
+title: IncorrectPasswordException Class
+linktitle: IncorrectPasswordException
+articleTitle: IncorrectPasswordException
+second_title: Aspose.Words для .NET
+description: Aspose.Words.IncorrectPasswordException сорт. Выдается если документ зашифрован паролем а пароль указанный при открытии документа неверен или отсутствует на С#.
 type: docs
 weight: 3250
 url: /ru/net/aspose.words/incorrectpasswordexception/
@@ -20,5 +22,3 @@ public class IncorrectPasswordException : Exception
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

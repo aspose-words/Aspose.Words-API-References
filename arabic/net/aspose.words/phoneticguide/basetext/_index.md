@@ -1,7 +1,9 @@
 ---
 title: PhoneticGuide.BaseText
-second_title: Aspose.Words لمراجع .NET API
-description: PhoneticGuide ملكية. يحصل على النص الأساسي للدليل الصوتي.
+linktitle: BaseText
+articleTitle: BaseText
+second_title: Aspose.Words لـ .NET
+description: PhoneticGuide BaseText ملكية. يحصل على النص الأساسي للدليل الصوتي في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/phoneticguide/basetext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/phoneticguide/basetext/
 public string BaseText { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يبين كيفية الحصول على خصائص الدليل الصوتي.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### أنظر أيضا
 
 * class [PhoneticGuide](../)
-* مساحة الاسم [Aspose.Words](../../phoneticguide/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

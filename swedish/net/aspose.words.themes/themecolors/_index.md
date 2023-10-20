@@ -1,7 +1,9 @@
 ---
-title: Class ThemeColors
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Themes.ThemeColors klass. Representerar färgschemat för dokumenttemat som innehåller tolv färger.
+title: ThemeColors Class
+linktitle: ThemeColors
+articleTitle: ThemeColors
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Themes.ThemeColors klass. Representerar färgschemat för dokumenttemat som innehåller tolv färger i C#.
 type: docs
 weight: 6480
 url: /sv/net/aspose.words.themes/themecolors/
@@ -33,7 +35,7 @@ public class ThemeColors
 | [Light1](../../aspose.words.themes/themecolors/light1/) { get; set; } | Anger färg Ljus 1. |
 | [Light2](../../aspose.words.themes/themecolors/light2/) { get; set; } | Anger färg Ljus 2. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in anpassade färger och teckensnitt för teman.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * namnutrymme [Aspose.Words.Themes](../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../)
-
-

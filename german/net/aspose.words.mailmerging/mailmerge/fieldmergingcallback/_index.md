@@ -1,7 +1,9 @@
 ---
 title: MailMerge.FieldMergingCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge eigendom. Tritt beim Serienbrief auf wenn im Dokument ein Serienbrieffeld gefunden wird.
+linktitle: FieldMergingCallback
+articleTitle: FieldMergingCallback
+second_title: Aspose.Words für .NET
+description: MailMerge FieldMergingCallback eigendom. Tritt beim Serienbrief auf wenn im Dokument ein Serienbrieffeld gefunden wird in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.mailmerging/mailmerge/fieldmergingcallback/
@@ -14,7 +16,7 @@ Tritt beim Serienbrief auf, wenn im Dokument ein Serienbrieffeld gefunden wird.
 public IFieldMergingCallback FieldMergingCallback { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie in einem Datenbank-BLOB-Feld gespeicherte Bilder in einen Bericht eingefügt werden.
 
@@ -127,7 +129,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * interface [IFieldMergingCallback](../../ifieldmergingcallback/)
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

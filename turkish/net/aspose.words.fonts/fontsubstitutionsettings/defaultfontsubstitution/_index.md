@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.DefaultFontSubstitution
-second_title: Aspose.Words for .NET API Referansı
-description: FontSubstitutionSettings mülk. Varsayılan yazı tipi değiştirme kuralıyla ilgili ayarlar.
+linktitle: DefaultFontSubstitution
+articleTitle: DefaultFontSubstitution
+second_title: Aspose.Words for .NET
+description: FontSubstitutionSettings DefaultFontSubstitution mülk. Varsayılan yazı tipi değiştirme kuralıyla ilgili ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
@@ -14,7 +16,7 @@ Varsayılan yazı tipi değiştirme kuralıyla ilgili ayarlar.
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Varsayılan yazı tipi değiştirme kuralının nasıl ayarlanacağını gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 
 * class [DefaultFontSubstitutionRule](../../defaultfontsubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: NodeImporter.NodeImporter
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeImporter строитель. Инициализирует новый экземплярNodeImporter класс.
+title: NodeImporter
+linktitle: NodeImporter
+articleTitle: NodeImporter
+second_title: Aspose.Words для .NET
+description: NodeImporter строитель. Инициализирует новый экземплярNodeImporter класс на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/nodeimporter/nodeimporter/
 ---
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode) {#constructor}
+## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/)*) {#constructor}
 
 Инициализирует новый экземпляр[`NodeImporter`](../) класс.
 
@@ -20,7 +22,7 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | dstDoc | DocumentBase | Целевой документ, который будет владельцем импортированных узлов. |
 | importFormatMode | ImportFormatMode | Указывает, как объединить конфликтующее форматирование стилей. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить содержимое одного документа в закладку в другом документе.
 
@@ -90,12 +92,12 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 * class [DocumentBase](../../documentbase/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [NodeImporter](../)
-* пространство имен [Aspose.Words](../../nodeimporter/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) {#constructor_1}
+## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#constructor_1}
 
 Инициализирует новый экземпляр[`NodeImporter`](../) класс.
 
@@ -111,7 +113,7 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | importFormatMode | ImportFormatMode | Указывает, как объединить конфликтующее форматирование стилей. |
 | importFormatOptions | ImportFormatOptions | Указывает различные параметры форматирования импортированного узла. |
 
-### Примеры
+## Примеры
 
 Показывает, как разрешить конфликт при импорте документов, имеющих списки с одинаковым идентификатором определения списка.
 
@@ -186,7 +188,5 @@ else
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [NodeImporter](../)
-* пространство имен [Aspose.Words](../../nodeimporter/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

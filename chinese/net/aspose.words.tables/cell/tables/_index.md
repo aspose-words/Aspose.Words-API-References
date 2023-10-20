@@ -1,7 +1,9 @@
 ---
 title: Cell.Tables
-second_title: Aspose.Words for .NET API 参考
-description: Cell 财产. 获取单元格直接子代的表的集合
+linktitle: Tables
+articleTitle: Tables
+second_title: 用于 .NET 的 Aspose.Words
+description: Cell Tables 财产. 获取单元格直接子代的表的集合 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.tables/cell/tables/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/cell/tables/
 public TableCollection Tables { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何查明表是否嵌套。
 
@@ -93,7 +95,5 @@ private static int GetChildTableCount(Table table)
 
 * class [TableCollection](../../tablecollection/)
 * class [Cell](../)
-* 命名空间 [Aspose.Words.Tables](../../cell/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

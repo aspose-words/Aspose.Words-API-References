@@ -1,9 +1,11 @@
 ---
 title: Section.DeleteHeaderFooterShapes
-second_title: Aspose.Words for .NET API Referansı
-description: Section yöntem. Bu bölümün üst bilgilerinden ve alt bilgilerinden tüm şekilleri çizim nesneleri siler.
+linktitle: DeleteHeaderFooterShapes
+articleTitle: DeleteHeaderFooterShapes
+second_title: Aspose.Words for .NET
+description: Section DeleteHeaderFooterShapes yöntem. Bu bölümün üst bilgilerinden ve alt bilgilerinden tüm şekilleri çizim nesneleri siler C#'da.
 type: docs
-weight: 140
+weight: 120
 url: /tr/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
@@ -14,7 +16,7 @@ Bu bölümün üst bilgilerinden ve alt bilgilerinden tüm şekilleri (çizim ne
 public void DeleteHeaderFooterShapes()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir bölümdeki tüm üst bilgi alt bilgilerinden tüm şekillerin nasıl kaldırılacağını gösterir.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimar
 ### Ayrıca bakınız
 
 * class [Section](../)
-* ad alanı [Aspose.Words](../../section/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

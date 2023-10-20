@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.FacingIdentificationMark
-second_title: Aspose.Words لمراجع .NET API
-description: BarcodeParameters ملكية. نوع علامة تعريف الوجه FIM.
+linktitle: FacingIdentificationMark
+articleTitle: FacingIdentificationMark
+second_title: Aspose.Words لـ .NET
+description: BarcodeParameters FacingIdentificationMark ملكية. نوع علامة تعريف الوجه FIM في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.fields/barcodeparameters/facingidentificationmark/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/barcodeparameters/facingidentificationmark/
 public string FacingIdentificationMark { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مولد الباركود.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### أنظر أيضا
 
 * class [BarcodeParameters](../)
-* مساحة الاسم [Aspose.Words.Fields](../../barcodeparameters/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

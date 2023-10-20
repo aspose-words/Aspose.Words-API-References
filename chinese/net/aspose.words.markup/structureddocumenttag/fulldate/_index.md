@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.FullDate
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 指定上次输入此内容的完整日期和时间 特殊测试.
+linktitle: FullDate
+articleTitle: FullDate
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag FullDate 财产. 指定上次输入此内容的完整日期和时间特殊测试 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.markup/structureddocumenttag/fulldate/
 ---
 ## StructuredDocumentTag.FullDate property
 
-指定上次输入此内容的完整日期和时间 **特殊测试**.
+指定上次输入此内容的完整日期和时间**特殊测试**.
 
 ```csharp
 public DateTime FullDate { get; set; }
 ```
 
-### 评论
+## 评论
 
 访问该属性仅适用于DateSDT 类型.
 
 对于所有其他 SDT 类型，都会发生异常。
 
-### 例子
+## 例子
 
 演示如何提示用户输入带有结构化文档标记的日期。
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

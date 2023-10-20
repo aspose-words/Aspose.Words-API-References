@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Layout
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Le Aspose.Words.Layout Lespace de noms fournit des classes qui permettent daccéder aux informations telles que sur quelle page et où sur une page des éléments de document particuliers sont positionnés lorsque le document est formaté en pages.
+linktitle: Aspose.Words.Layout
+articleTitle: Aspose.Words.Layout
+second_title: Aspose.Words pour .NET
+description: LeAspose.Words.Layout Lespace de noms fournit des classes qui permettent daccéder aux informations telles que sur quelle page et où sur une page des éléments de document particuliers sont positionnés lorsque le document est formaté en pages en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.layout/
 ---
-Le **Aspose.Words.Layout** L'espace de noms fournit des classes qui permettent d'accéder aux informations telles que sur quelle page et où sur une page des éléments de document particuliers sont positionnés, lorsque le document est formaté en pages.
+Le**Aspose.Words.Layout** L'espace de noms fournit des classes qui permettent d'accéder aux informations telles que sur quelle page et où sur une page des éléments de document particuliers sont positionnés, lorsque le document est formaté en pages.
 
 ## Des classes
 
@@ -33,5 +35,3 @@ Le **Aspose.Words.Layout** L'espace de noms fournit des classes qui permettent d
 | [RevisionColor](./revisioncolor/) | Permet de spécifier la couleur des révisions du document. |
 | [RevisionTextEffect](./revisiontexteffect/) | Permet de spécifier l'effet de décoration pour les révisions du texte du document. |
 | [ShowInBalloons](./showinballoons/) | Spécifie quelles révisions sont rendues dans les bulles. |
-
-

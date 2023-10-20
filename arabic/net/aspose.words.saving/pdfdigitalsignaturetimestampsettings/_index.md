@@ -1,7 +1,9 @@
 ---
-title: Class PdfDigitalSignatureTimestampSettings
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.PdfDigitalSignatureTimestampSettings فصل. يحتوي على إعدادات الطابع الزمني للتوقيع الرقمي.
+title: PdfDigitalSignatureTimestampSettings Class
+linktitle: PdfDigitalSignatureTimestampSettings
+articleTitle: PdfDigitalSignatureTimestampSettings
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.PdfDigitalSignatureTimestampSettings فصل. يحتوي على إعدادات الطابع الزمني للتوقيع الرقمي في C#.
 type: docs
 weight: 5450
 url: /ar/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
@@ -21,8 +23,8 @@ public class PdfDigitalSignatureTimestampSettings
 | اسم | وصف |
 | --- | --- |
 | [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor)() | تهيئة مثيل لهذه الفئة. |
-| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor_1)(string, string, string) | تهيئة مثيل لهذه الفئة. |
-| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor_2)(string, string, string, TimeSpan) | تهيئة مثيل لهذه الفئة. |
+| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor_1)(*string, string, string*) | تهيئة مثيل لهذه الفئة. |
+| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings/#constructor_2)(*string, string, string, TimeSpan*) | تهيئة مثيل لهذه الفئة. |
 
 ## الخصائص
 
@@ -33,7 +35,7 @@ public class PdfDigitalSignatureTimestampSettings
 | [Timeout](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/) { get; set; } | قيمة المهلة للوصول إلى خادم الطابع الزمني. |
 | [UserName](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/username/) { get; set; } | اسم مستخدم خادم الطابع الزمني. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع مستند PDF محفوظ رقميًا ووضع طابع زمني عليه.
 
@@ -74,5 +76,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

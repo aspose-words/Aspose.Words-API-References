@@ -1,7 +1,9 @@
 ---
-title: Class BuiltInDocumentProperties
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Properties.BuiltInDocumentProperties فصل. مجموعة من خصائص المستند المضمنة.
+title: BuiltInDocumentProperties Class
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Properties.BuiltInDocumentProperties فصل. مجموعة من خصائص المستند المضمنة في C#.
 type: docs
 weight: 4450
 url: /ar/net/aspose.words.properties/builtindocumentproperties/
@@ -61,13 +63,13 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | اسم | وصف |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | إزالة كافة الخصائص من المجموعة. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | إرجاع`حقيقي` في حالة وجود خاصية بالاسم المحدد في المجموعة. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | إرجاع`حقيقي` في حالة وجود خاصية بالاسم المحدد في المجموعة. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | الحصول على فهرس الخاصية بالاسم. |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | إزالة خاصية بالاسم المحدد من المجموعة. |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | إزالة خاصية في الفهرس المحدد. |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | الحصول على فهرس الخاصية بالاسم. |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | إزالة خاصية بالاسم المحدد من المجموعة. |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | إزالة خاصية في الفهرس المحدد. |
 
-### ملاحظات
+## ملاحظات
 
 يوفر الوصول إلى[`DocumentProperty`](../documentproperty/) الكائنات بأسمائها (باستخدام مفهرس) و عبر مجموعة من الخصائص المكتوبة التي ترجع قيم الأنواع المناسبة.
 
@@ -75,7 +77,7 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 
 يتم فرز الخصائص الموجودة في المجموعة أبجديًا حسب الاسم.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند المضمنة.
 
@@ -114,5 +116,3 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
 * مساحة الاسم [Aspose.Words.Properties](../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../)
-
-

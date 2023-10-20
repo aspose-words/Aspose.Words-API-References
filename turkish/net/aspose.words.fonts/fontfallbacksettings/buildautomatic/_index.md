@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.BuildAutomatic
-second_title: Aspose.Words for .NET API Referansı
-description: FontFallbackSettings yöntem. Mevcut yazı tiplerini tarayarak yedek ayarları otomatik olarak oluşturur.
+linktitle: BuildAutomatic
+articleTitle: BuildAutomatic
+second_title: Aspose.Words for .NET
+description: FontFallbackSettings BuildAutomatic yöntem. Mevcut yazı tiplerini tarayarak yedek ayarları otomatik olarak oluşturur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/
@@ -14,11 +16,11 @@ Mevcut yazı tiplerini tarayarak yedek ayarları otomatik olarak oluşturur.
 public void BuildAutomatic()
 ```
 
-### Notlar
+## Notlar
 
 Bu yöntem, optimum olmayan geri dönüş ayarları üretebilir. Yazı tipleri şu kişi tarafından kontrol edilir:[ Unicode Karakter Aralığı](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) alanlar ve gerçek gliflerin varlığıyla değil. Ayrıca Unicode aralıkları ayrı ayrı kontrol edilir ve tek dil/kodla ilgili çeşitli aralıklar farklı geri dönüş yazı tipleri kullanabilir.
 
-### Örnekler
+## Örnekler
 
 Yedek yazı tiplerinin Unicode karakter kodu aralıklarına nasıl dağıtılacağını gösterir.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 ### Ayrıca bakınız
 
 * class [FontFallbackSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

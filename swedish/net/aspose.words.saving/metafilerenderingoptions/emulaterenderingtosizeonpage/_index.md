@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRenderingToSizeOnPage
-second_title: Aspose.Words för .NET API Referens
-description: MetafileRenderingOptions fast egendom. Hämtar eller ställer in ett värde som avgör om metafilrendering emulerar visningen av metafilen enligt storleken på page eller visningen av metafilen i dess standardstorlek.
+linktitle: EmulateRenderingToSizeOnPage
+articleTitle: EmulateRenderingToSizeOnPage
+second_title: Aspose.Words för .NET
+description: MetafileRenderingOptions EmulateRenderingToSizeOnPage fast egendom. Hämtar eller ställer in ett värde som avgör om metafilrendering emulerar visningen av metafilen enligt storleken på page eller visningen av metafilen i dess standardstorlek i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som avgör om metafil-rendering emulerar vi
 public bool EmulateRenderingToSizeOnPage { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När metafiler visas i MS Word kan en del grafik skalas enligt den faktiska metafilstorleken i pixlar. Dvs även zoomning kan påverka metafilvisningen.
 
@@ -26,7 +28,7 @@ Det här alternativet används endast när metafilen renderas som vektorgrafik.
 
 Standardvärdet är`Sann`.
 
-### Exempel
+## Exempel
 
 Visar hur man visar metafilen enligt storleken på sidan.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf", saveO
 ### Se även
 
 * class [MetafileRenderingOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

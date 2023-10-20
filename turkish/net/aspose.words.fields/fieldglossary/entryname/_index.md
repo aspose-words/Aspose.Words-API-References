@@ -1,7 +1,9 @@
 ---
 title: FieldGlossary.EntryName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldGlossary mülk. Eklenecek sözlük girişinin adını alır veya ayarlar.
+linktitle: EntryName
+articleTitle: EntryName
+second_title: Aspose.Words for .NET
+description: FieldGlossary EntryName mülk. Eklenecek sözlük girişinin adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldglossary/entryname/
@@ -14,7 +16,7 @@ Eklenecek sözlük girişinin adını alır veya ayarlar.
 public string EntryName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 OTOMETİN ve SÖZLÜK alanlarıyla bir yapı taşının nasıl görüntüleneceğini gösterir.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### Ayrıca bakınız
 
 * class [FieldGlossary](../)
-* ad alanı [Aspose.Words.Fields](../../fieldglossary/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

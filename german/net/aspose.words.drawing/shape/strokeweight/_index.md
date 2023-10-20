@@ -1,7 +1,9 @@
 ---
 title: Shape.StrokeWeight
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Definiert die Pinselstärke die den Pfad einer Form in Punkten streicht.
+linktitle: StrokeWeight
+articleTitle: StrokeWeight
+second_title: Aspose.Words für .NET
+description: Shape StrokeWeight eigendom. Definiert die Pinselstärke die den Pfad einer Form in Punkten streicht in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words.drawing/shape/strokeweight/
@@ -14,13 +16,13 @@ Definiert die Pinselstärke, die den Pfad einer Form in Punkten streicht.
 public double StrokeWeight { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Dies ist eine Verknüpfung zum[`Weight`](../../stroke/weight/) Eigentum.
 
 Der Standardwert ist 0,75.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Formen in einem Dokument durchlaufen werden.
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Siehe auch
 
 * class [Shape](../)
-* namensraum [Aspose.Words.Drawing](../../shape/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

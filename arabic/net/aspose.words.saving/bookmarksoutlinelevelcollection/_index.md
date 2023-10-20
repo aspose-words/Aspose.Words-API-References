@@ -1,7 +1,9 @@
 ---
-title: Class BookmarksOutlineLevelCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.BookmarksOutlineLevelCollection فصل. مجموعة من مستوى المخطط التفصيلي للإشارات المرجعية الفردية.
+title: BookmarksOutlineLevelCollection Class
+linktitle: BookmarksOutlineLevelCollection
+articleTitle: BookmarksOutlineLevelCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.BookmarksOutlineLevelCollection فصل. مجموعة من مستوى المخطط التفصيلي للإشارات المرجعية الفردية في C#.
 type: docs
 weight: 4850
 url: /ar/net/aspose.words.saving/bookmarksoutlinelevelcollection/
@@ -33,21 +35,21 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(string, int) | إضافة إشارة مرجعية إلى المجموعة. |
+| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(*string, int*) | إضافة إشارة مرجعية إلى المجموعة. |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | إزالة كافة العناصر من المجموعة. |
-| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(string) | يحدد ما إذا كانت المجموعة تحتوي على إشارة مرجعية بالاسم المحدد. |
+| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | يحدد ما إذا كانت المجموعة تحتوي على إشارة مرجعية بالاسم المحدد. |
 | [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
-| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(string) | إرجاع الفهرس الصفري للإشارة المرجعية المحددة في المجموعة. |
-| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(string) | إزالة إشارة مرجعية بالاسم المحدد من المجموعة. |
-| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(int) | إزالة الإشارة المرجعية في الفهرس المحدد. |
+| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(*string*) | إرجاع الفهرس الصفري للإشارة المرجعية المحددة في المجموعة. |
+| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(*string*) | إزالة إشارة مرجعية بالاسم المحدد من المجموعة. |
+| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(*int*) | إزالة الإشارة المرجعية في الفهرس المحدد. |
 
-### ملاحظات
+## ملاحظات
 
 المفتاح هو اسم إشارة مرجعية لسلسلة غير حساسة لحالة الأحرف. القيمة هي مستوى المخطط التفصيلي للإشارة المرجعية.
 
 قد يكون مستوى المخطط التفصيلي للإشارة المرجعية قيمة من 0 إلى 9. حدد 0 ولن يتم عرض إشارة Word المرجعية في المخطط التفصيلي للمستند. حدد 1 وسيتم عرض الإشارة المرجعية Word في المخطط التفصيلي للمستند عند المستوى 1؛ 2 للمستوى 2 وهكذا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين مستويات المخطط التفصيلي للإشارات المرجعية.
 
@@ -106,5 +108,3 @@ outlineLevels.Clear();
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

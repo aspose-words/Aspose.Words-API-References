@@ -1,7 +1,9 @@
 ---
-title: Class FieldSaveDate
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldSaveDate klas. Implementiert das SAVEDATEFeld.
+title: FieldSaveDate Class
+linktitle: FieldSaveDate
+articleTitle: FieldSaveDate
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.FieldSaveDate klas. Implementiert das SAVEDATEFeld in C#.
 type: docs
 weight: 2350
 url: /de/net/aspose.words.fields/fieldsavedate/
@@ -45,17 +47,17 @@ public class FieldSaveDate : Field
 | Name | Beschreibung |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
 | [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
-### Bemerkungen
+## Bemerkungen
 
 Ruft das Datum und die Uhrzeit ab, an dem das Dokument zuletzt gespeichert wurde. Standardmäßig wird der gregorianische Kalender verwendet.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie das Feld SAVEDATE verwenden, um Datum und Uhrzeit des letzten mit Microsoft Word durchgeführten Speichervorgangs des Dokuments anzuzeigen.
 
@@ -103,5 +105,3 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 * class [Field](../field/)
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

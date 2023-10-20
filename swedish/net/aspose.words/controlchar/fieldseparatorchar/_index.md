@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldSeparatorChar
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Fältseparatortecken separerar fältkoden från fältvärdet. Valfritt i vissa fält. Värde char20.
+linktitle: FieldSeparatorChar
+articleTitle: FieldSeparatorChar
+second_title: Aspose.Words för .NET
+description: ControlChar FieldSeparatorChar fält. Fältseparatortecken separerar fältkoden från fältvärdet. Valfritt i vissa fält. Värde char20 i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/controlchar/fieldseparatorchar/
@@ -14,7 +16,7 @@ Fältseparatortecken separerar fältkoden från fältvärdet. Valfritt i vissa f
 public const char FieldSeparatorChar;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

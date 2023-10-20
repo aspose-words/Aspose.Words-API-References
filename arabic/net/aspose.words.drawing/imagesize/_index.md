@@ -1,7 +1,9 @@
 ---
-title: Class ImageSize
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.ImageSize فصل. يحتوي على معلومات حول حجم الصورة ودقتها.
+title: ImageSize Class
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.ImageSize فصل. يحتوي على معلومات حول حجم الصورة ودقتها في C#.
 type: docs
 weight: 1070
 url: /ar/net/aspose.words.drawing/imagesize/
@@ -20,8 +22,8 @@ public class ImageSize
 
 | اسم | وصف |
 | --- | --- |
-| [ImageSize](imagesize/#constructor)(int, int) | تهيئة العرض والارتفاع للقيم المحددة بالبكسل. تهيئة الدقة إلى 96 نقطة في البوصة. |
-| [ImageSize](imagesize/#constructor_1)(int, int, double, double) | تهيئة العرض والارتفاع والدقة للقيم المحددة. |
+| [ImageSize](imagesize/#constructor)(*int, int*) | تهيئة العرض والارتفاع للقيم المحددة بالبكسل. تهيئة الدقة إلى 96 نقطة في البوصة. |
+| [ImageSize](imagesize/#constructor_1)(*int, int, double, double*) | تهيئة العرض والارتفاع والدقة للقيم المحددة. |
 
 ## الخصائص
 
@@ -34,7 +36,7 @@ public class ImageSize
 | [WidthPixels](../../aspose.words.drawing/imagesize/widthpixels/) { get; } | الحصول على عرض الصورة بالبكسل. |
 | [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints/) { get; } | الحصول على عرض الصورة بالنقاط. النقطة الواحدة هي 1/72 بوصة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير حجم الشكل باستخدام الصورة.
 
@@ -93,5 +95,3 @@ public class ImageSize
 * property [ImageSize](../imagedata/imagesize/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

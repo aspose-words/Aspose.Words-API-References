@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.DownsampleImages
-second_title: Aspose.Words لمراجع .NET API
-description: DownsampleOptions ملكية. يحدد ما إذا كان يجب تقليل حجم الصور أم لا.
+linktitle: DownsampleImages
+articleTitle: DownsampleImages
+second_title: Aspose.Words لـ .NET
+description: DownsampleOptions DownsampleImages ملكية. يحدد ما إذا كان يجب تقليل حجم الصور أم لا في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/downsampleoptions/downsampleimages/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/downsampleoptions/downsampleimages/
 public bool DownsampleImages { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`حقيقي` .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير دقة الصور في مستند PDF.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### أنظر أيضا
 
 * class [DownsampleOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../downsampleoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldUserAddress.UserAddress
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldUserAddress eigendom. Ruft die Postanschrift des aktuellen Benutzers ab oder legt diese fest.
+linktitle: UserAddress
+articleTitle: UserAddress
+second_title: Aspose.Words für .NET
+description: FieldUserAddress UserAddress eigendom. Ruft die Postanschrift des aktuellen Benutzers ab oder legt diese fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fielduseraddress/useraddress/
@@ -14,7 +16,7 @@ Ruft die Postanschrift des aktuellen Benutzers ab oder legt diese fest.
 public string UserAddress { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Feld USERADDRESS verwendet wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.USERADDRESS.docx");
 ### Siehe auch
 
 * class [FieldUserAddress](../)
-* namensraum [Aspose.Words.Fields](../../fielduseraddress/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

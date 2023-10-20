@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.EvenColumnBanding
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyleCollection ملكية. الحصول على نمط ربط الأعمدة الزوجية.
+linktitle: EvenColumnBanding
+articleTitle: EvenColumnBanding
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyleCollection EvenColumnBanding ملكية. الحصول على نمط ربط الأعمدة الزوجية في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/conditionalstylecollection/evencolumnbanding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstylecollection/evencolumnbanding/
 public ConditionalStyle EvenColumnBanding { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

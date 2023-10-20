@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.AllowSpaceOfSameStyleInTable
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Разрешить контекстное расстояние между абзацами в таблицах.
+linktitle: AllowSpaceOfSameStyleInTable
+articleTitle: AllowSpaceOfSameStyleInTable
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions AllowSpaceOfSameStyleInTable свойство. Разрешить контекстное расстояние между абзацами в таблицах на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.settings/compatibilityoptions/allowspaceofsamestyleintable/
@@ -17,7 +19,5 @@ public bool AllowSpaceOfSameStyleInTable { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

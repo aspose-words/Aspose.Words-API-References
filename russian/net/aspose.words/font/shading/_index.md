@@ -1,7 +1,9 @@
 ---
 title: Font.Shading
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. ВозвращаетShading объект который относится к форматированию затенения для шрифта.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words для .NET
+description: Font Shading свойство. ВозвращаетShading объект который относится к форматированию затенения для шрифта на С#.
 type: docs
 weight: 320
 url: /ru/net/aspose.words/font/shading/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/shading/
 public Shading Shading { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить затенение к тексту, созданному с помощью конструктора документов.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.Shading.docx");
 
 * class [Shading](../../shading/)
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

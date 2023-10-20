@@ -1,12 +1,14 @@
 ---
-title: MemoryFontSource.MemoryFontSource
-second_title: Aspose.Words för .NET API Referens
-description: MemoryFontSource byggare. Ctor.
+title: MemoryFontSource
+linktitle: MemoryFontSource
+articleTitle: MemoryFontSource
+second_title: Aspose.Words för .NET
+description: MemoryFontSource byggare. Ctor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
-## MemoryFontSource(byte[]) {#constructor}
+## MemoryFontSource(*byte[]*) {#constructor}
 
 Ctor.
 
@@ -18,7 +20,7 @@ public MemoryFontSource(byte[] fontData)
 | --- | --- | --- |
 | fontData | Byte[] | Binära teckensnittsdata. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder en byte-array med data från en teckensnittsfil som teckensnittskälla.
 
@@ -37,12 +39,12 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### Se även
 
 * class [MemoryFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../memoryfontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## MemoryFontSource(byte[], int) {#constructor_1}
+## MemoryFontSource(*byte[], int*) {#constructor_1}
 
 Ctor.
 
@@ -55,7 +57,7 @@ public MemoryFontSource(byte[] fontData, int priority)
 | fontData | Byte[] | Binära teckensnittsdata. |
 | priority | Int32 | Teckensnittskällas prioritet. Se den[`Priority`](../../fontsourcebase/priority/) fastighetsbeskrivning för mer information. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder en byte-array med data från en teckensnittsfil som teckensnittskälla.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### Se även
 
 * class [MemoryFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../memoryfontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## MemoryFontSource(byte[], int, string) {#constructor_2}
+## MemoryFontSource(*byte[], int, string*) {#constructor_2}
 
 Ctor.
 
@@ -93,7 +95,7 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | priority | Int32 | Teckensnittskällas prioritet. Se den[`Priority`](../../fontsourcebase/priority/) fastighetsbeskrivning för mer information. |
 | cacheKey | String | Nyckeln till denna källa i cachen. Ser[`CacheKey`](../cachekey/) fastighetsbeskrivning för mer information. |
 
-### Exempel
+## Exempel
 
 Visar hur man snabbar upp initieringsprocessen för teckensnittscache.
 
@@ -144,7 +146,5 @@ private class SearchCacheStream : StreamFontSource
 ### Se även
 
 * class [MemoryFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../memoryfontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

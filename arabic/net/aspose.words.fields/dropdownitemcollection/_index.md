@@ -1,7 +1,9 @@
 ---
-title: Class DropDownItemCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.DropDownItemCollection فصل. مجموعة من السلاسل التي تمثل كافة العناصر الموجودة في حقل النموذج المنسدل.
+title: DropDownItemCollection Class
+linktitle: DropDownItemCollection
+articleTitle: DropDownItemCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.DropDownItemCollection فصل. مجموعة من السلاسل التي تمثل كافة العناصر الموجودة في حقل النموذج المنسدل في C#.
 type: docs
 weight: 1500
 url: /ar/net/aspose.words.fields/dropdownitemcollection/
@@ -27,16 +29,16 @@ public class DropDownItemCollection : IEnumerable<string>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(string) | إضافة سلسلة إلى نهاية المجموعة. |
+| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(*string*) | إضافة سلسلة إلى نهاية المجموعة. |
 | [Clear](../../aspose.words.fields/dropdownitemcollection/clear/)() | إزالة كافة العناصر من المجموعة. |
-| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(string) | تحديد ما إذا كانت المجموعة تحتوي على القيمة المحددة. |
+| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(*string*) | تحديد ما إذا كانت المجموعة تحتوي على القيمة المحددة. |
 | [GetEnumerator](../../aspose.words.fields/dropdownitemcollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
-| [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(string) | إرجاع الفهرس الصفري للقيمة المحددة في المجموعة. |
-| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(int, string) | إدراج سلسلة في المجموعة في الفهرس المحدد. |
-| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(string) | إزالة القيمة المحددة من المجموعة. |
-| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(int) | إزالة قيمة في الفهرس المحدد. |
+| [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(*string*) | إرجاع الفهرس الصفري للقيمة المحددة في المجموعة. |
+| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(*int, string*) | إدراج سلسلة في المجموعة في الفهرس المحدد. |
+| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(*string*) | إزالة القيمة المحددة من المجموعة. |
+| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(*int*) | إزالة قيمة في الفهرس المحدد. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل مربع التحرير والسرد، وتحرير العناصر الموجودة في مجموعة العناصر الخاصة به.
 
@@ -93,5 +95,3 @@ dropDownItems.Clear();
 * property [DropDownItems](../formfield/dropdownitems/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

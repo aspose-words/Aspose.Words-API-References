@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetChild
-second_title: Aspose.Words for .NET API 参考
-description: CompositeNode 方法. 返回与指定类型匹配的第 N 个子节点
+linktitle: GetChild
+articleTitle: GetChild
+second_title: 用于 .NET 的 Aspose.Words
+description: CompositeNode GetChild 方法. 返回与指定类型匹配的第 N 个子节点 在 C#.
 type: docs
-weight: 100
+weight: 80
 url: /zh/net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
@@ -24,13 +26,13 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 
 符合条件的子节点或`无效的`如果没有找到匹配的节点。
 
-### 评论
+## 评论
 
 如果索引超出范围，则`无效的`被返回。
 
 请注意，标记节点 (StructuredDocumentTag和SmartTag ) 即使在以下情况下也会被遍历*isDeep*=`错误的`和`GetChild`为非标记节点类型调用。例如，如果 para 中的第一次运行被包装在[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)，它仍然会被返回`GetChild`（Run , 0,`错误的`）。
 
-### 例子
+## 例子
 
 演示如何将表格样式的属性直接应用于表格的元素。
 
@@ -103,7 +105,5 @@ foreach (Node child in children)
 * class [Node](../../node/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* 命名空间 [Aspose.Words](../../compositenode/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

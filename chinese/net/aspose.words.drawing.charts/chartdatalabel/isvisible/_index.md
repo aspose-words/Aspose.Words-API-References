@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.IsVisible
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabel 财产. 返回真的如果此数据标签有要显示的内容
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabel IsVisible 财产. 返回真的如果此数据标签有要显示的内容 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/isvisible/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabel/isvisible/
 public bool IsVisible { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何将标签应用到折线图中的数据点。
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### 也可以看看
 
 * class [ChartDataLabel](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

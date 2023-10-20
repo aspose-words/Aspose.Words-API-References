@@ -1,12 +1,14 @@
 ---
 title: Document.UpdateThumbnail
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. UppdateringarThumbnail av dokumentet enligt de angivna alternativen.
+linktitle: UpdateThumbnail
+articleTitle: UpdateThumbnail
+second_title: Aspose.Words för .NET
+description: Document UpdateThumbnail metod. UppdateringarThumbnail av dokumentet enligt de angivna alternativen i C#.
 type: docs
-weight: 800
+weight: 780
 url: /sv/net/aspose.words/document/updatethumbnail/
 ---
-## UpdateThumbnail(ThumbnailGeneratingOptions) {#updatethumbnail_1}
+## UpdateThumbnail(*[ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)*) {#updatethumbnail_1}
 
 Uppdateringar[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) av dokumentet enligt de angivna alternativen.
 
@@ -18,11 +20,11 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 | --- | --- | --- |
 | options | ThumbnailGeneratingOptions | Genereringsalternativen att använda. |
 
-### Anmärkningar
+## Anmärkningar
 
 Den[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) låter dig ange källan till miniatyrbilden, storlek och andra alternativ. Om försöket att generera miniatyrer misslyckas, ändras inte en.
 
-### Exempel
+## Exempel
 
 Visar hur man uppdaterar ett dokuments miniatyrbild.
 
@@ -51,7 +53,7 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 * class [ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -64,7 +66,7 @@ Uppdateringar[`Thumbnail`](../../../aspose.words.properties/builtindocumentprope
 public void UpdateThumbnail()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man uppdaterar ett dokuments miniatyrbild.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

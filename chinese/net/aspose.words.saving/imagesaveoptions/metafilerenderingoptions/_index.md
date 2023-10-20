@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.MetafileRenderingOptions
-second_title: Aspose.Words for .NET API 参考
-description: ImageSaveOptions 财产. 允许指定如何在渲染输出中处理图元文件
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSaveOptions MetafileRenderingOptions 财产. 允许指定如何在渲染输出中处理图元文件 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/
 public MetafileRenderingOptions MetafileRenderingOptions { get; }
 ```
 
-### 评论
+## 评论
 
 什么时候Vector指定后，Aspose.Words 首先使用自己的元文件渲染引擎将 元文件渲染为矢量图形，然后将矢量 图形渲染为图像。
 
@@ -24,7 +26,7 @@ GDI+ 图元文件渲染引擎工作速度更快，支持几乎所有图元文件
 
 默认值为[`MetafileRenderingMode`](../../metafilerenderingmode/)是Bitmap。
 
-### 例子
+## 例子
 
 演示将包含 Windows 图元文件图像的文档保存为其他图像格式时如何设置渲染模式。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.WindowsMetaFile.png", options);
 
 * class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

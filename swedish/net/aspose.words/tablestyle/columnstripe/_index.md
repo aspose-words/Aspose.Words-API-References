@@ -1,7 +1,9 @@
 ---
 title: TableStyle.ColumnStripe
-second_title: Aspose.Words för .NET API Referens
-description: TableStyle fast egendom. Hämtar eller ställer in ett antal kolumner som ska inkluderas i bandningen när stilen anger udda/jämna kolumner.
+linktitle: ColumnStripe
+articleTitle: ColumnStripe
+second_title: Aspose.Words för .NET
+description: TableStyle ColumnStripe fast egendom. Hämtar eller ställer in ett antal kolumner som ska inkluderas i bandningen när stilen anger udda/jämna kolumner i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/tablestyle/columnstripe/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett antal kolumner som ska inkluderas i bandningen nä
 public int ColumnStripe { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar villkorliga tabellstilar som växlar mellan rader.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");
 ### Se även
 
 * class [TableStyle](../)
-* namnutrymme [Aspose.Words](../../tablestyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

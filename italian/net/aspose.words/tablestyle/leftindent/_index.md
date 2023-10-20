@@ -1,7 +1,9 @@
 ---
 title: TableStyle.LeftIndent
-second_title: Aspose.Words per .NET API Reference
-description: TableStyle proprietà. Ottiene o imposta il valore che rappresenta il rientro sinistro di una tabella.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words per .NET
+description: TableStyle LeftIndent proprietà. Ottiene o imposta il valore che rappresenta il rientro sinistro di una tabella in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words/tablestyle/leftindent/
@@ -14,7 +16,7 @@ Ottiene o imposta il valore che rappresenta il rientro sinistro di una tabella.
 public double LeftIndent { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la posizione di una tabella.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.SetTableAlignment.docx");
 ### Guarda anche
 
 * class [TableStyle](../)
-* spazio dei nomi [Aspose.Words](../../tablestyle/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

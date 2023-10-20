@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.PrettyFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: SaveOptions eigendom. WannWAHR hübsche Ausgabeformate sofern zutreffend. Der Standardwert istFALSCH .
+linktitle: PrettyFormat
+articleTitle: PrettyFormat
+second_title: Aspose.Words für .NET
+description: SaveOptions PrettyFormat eigendom. WannWAHR hübsche Ausgabeformate sofern zutreffend. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.saving/saveoptions/prettyformat/
@@ -14,11 +16,11 @@ Wann`WAHR` hübsche Ausgabeformate, sofern zutreffend. Der Standardwert ist`FALS
 public bool PrettyFormat { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Einstellen`WAHR` um HTML-, MHTML-, EPUB-, WordML-, RTF-, DOCX- und ODT-Ausgaben für Menschen lesbar zu machen. Nützlich zum Testen oder Debuggen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Lesbarkeit des Rohcodes eines gespeicherten HTML-Dokuments verbessert werden kann.
 
@@ -69,7 +71,5 @@ else
 ### Siehe auch
 
 * class [SaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../saveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

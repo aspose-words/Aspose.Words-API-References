@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToHeaderFooter
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Bewegt den Cursor an den Anfang einer Kopf oder Fußzeile im aktuellen Abschnitt.
+linktitle: MoveToHeaderFooter
+articleTitle: MoveToHeaderFooter
+second_title: Aspose.Words für .NET
+description: DocumentBuilder MoveToHeaderFooter methode. Bewegt den Cursor an den Anfang einer Kopf oder Fußzeile im aktuellen Abschnitt in C#.
 type: docs
-weight: 550
+weight: 540
 url: /de/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
@@ -18,7 +20,7 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 | --- | --- | --- |
 | headerFooterType | HeaderFooterType | Gibt die Kopf- oder Fußzeile an, zu der verschoben werden soll. |
 
-### Bemerkungen
+## Bemerkungen
 
 Nachdem Sie den Cursor in eine Kopf- oder Fußzeile bewegt haben, können Sie den Rest verwenden[`DocumentBuilder`](../) -Methoden zum Ändern des Inhalts der Kopf- oder Fußzeile.
 
@@ -28,7 +30,7 @@ Wenn Sie Kopf- und Fußzeilen für gerade und ungerade Seiten unterschiedlich er
 
 Verwenden[`MoveToSection`](../movetosection/) um aus der Kopfzeile in den Haupttext zu gelangen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Bild einfügt und es als Wasserzeichen verwendet.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

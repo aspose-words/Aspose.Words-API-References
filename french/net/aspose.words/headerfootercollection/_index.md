@@ -1,7 +1,9 @@
 ---
-title: Class HeaderFooterCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.HeaderFooterCollection classe. Fournit un accès typé àHeaderFooter nœuds dunSection .
+title: HeaderFooterCollection Class
+linktitle: HeaderFooterCollection
+articleTitle: HeaderFooterCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.HeaderFooterCollection classe. Fournit un accès typé àHeaderFooter nœuds dunSection  en C#.
 type: docs
 weight: 3110
 url: /fr/net/aspose.words/headerfootercollection/
@@ -27,19 +29,19 @@ public class HeaderFooterCollection : NodeCollection
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Ajoute un nœud à la fin de la collection. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Ajoute un nœud à la fin de la collection. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Supprime tous les nœuds de cette collection et du document. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Détermine si un nœud fait partie de la collection. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Détermine si un nœud fait partie de la collection. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Fournit une simple itération de style "foreach" sur la collection de nœuds. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Renvoie l'index de base zéro du nœud spécifié. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Insère un nœud dans la collection à l'index spécifié. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(bool) | Lie ou dissocie tous les en-têtes et pieds de page aux en-têtes et pieds de page correspondants dans la section précédente. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(HeaderFooterType, bool) | Lie ou dissocie l'en-tête ou le pied de page spécifié à l'en-tête ou au pied de page correspondant dans la section précédente. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Supprime le nœud de la collection et du document. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Supprime le nœud à l'index spécifié de la collection et du document. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Renvoie l'index de base zéro du nœud spécifié. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Insère un nœud dans la collection à l'index spécifié. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(*bool*) | Lie ou dissocie tous les en-têtes et pieds de page aux en-têtes et pieds de page correspondants dans la section précédente. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(*[HeaderFooterType](../headerfootertype/), bool*) | Lie ou dissocie l'en-tête ou le pied de page spécifié à l'en-tête ou au pied de page correspondant dans la section précédente. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Supprime le nœud de la collection et du document. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Supprime le nœud à l'index spécifié de la collection et du document. |
 | [ToArray](../../aspose.words/headerfootercollection/toarray/#toarray)() | Copie tout`En-têteFoorter` s de la collection à une nouvelle gamme de`En-têteFoorter` s. (2 methods) |
 
-### Remarques
+## Remarques
 
 Il peut y en avoir au maximum un[`HeaderFooter`](../headerfooter/)
 
@@ -47,7 +49,7 @@ de chaque[`HeaderFooterType`](../headerfootertype/) par [`Section`](../section/)
 
 [`HeaderFooter`](../headerfooter/) les objets peuvent apparaître dans n’importe quel ordre dans la collection.
 
-### Exemples
+## Exemples
 
 Montre comment supprimer tous les pieds de page d’un document.
 
@@ -113,5 +115,3 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 * class [NodeCollection](../nodecollection/)
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

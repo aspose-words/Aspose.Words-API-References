@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.SaveImagesAsWmf
-second_title: Aspose.Words لمراجع .NET API
-description: RtfSaveOptions ملكية. متىحقيقي سيتم حفظ جميع الصور بتنسيق WMF.
+linktitle: SaveImagesAsWmf
+articleTitle: SaveImagesAsWmf
+second_title: Aspose.Words لـ .NET
+description: RtfSaveOptions SaveImagesAsWmf ملكية. متىحقيقي سيتم حفظ جميع الصور بتنسيق WMF في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/rtfsaveoptions/saveimagesaswmf/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/rtfsaveoptions/saveimagesaswmf/
 public bool SaveImagesAsWmf { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 قد يساعد هذا الخيار في تجنب رسائل تحذير الدفتر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحويل جميع الصور في مستند إلى تنسيق Windows Metafile حيث نقوم بحفظ المستند بتنسيق RTF.
 
@@ -67,7 +69,5 @@ else
 ### أنظر أيضا
 
 * class [RtfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../rtfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

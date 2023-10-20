@@ -1,9 +1,11 @@
 ---
 title: Stroke.Color
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Konturun rengini tanımlar.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words for .NET
+description: Stroke Color mülk. Konturun rengini tanımlar C#'da.
 type: docs
-weight: 30
+weight: 20
 url: /tr/net/aspose.words.drawing/stroke/color/
 ---
 ## Stroke.Color property
@@ -14,11 +16,11 @@ Konturun rengini tanımlar.
 public Color Color { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir için varsayılan değer[`Shape`](../../shape/) is Black.
 
-### Örnekler
+## Örnekler
 
 Çeşitli şekiller oluşturmayı gösterir.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Ayrıca bakınız
 
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

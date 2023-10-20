@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: KnownTypeSet метод. Удаляет указанныйTypeпредмет из набора. БроскиArgumentException if type являетсянулевой .
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: KnownTypeSet Remove метод. Удаляет указанныйTypeпредмет из набора. БроскиArgumentException if type являетсянулевой  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.reporting/knowntypeset/remove/
@@ -21,7 +23,5 @@ public void Remove(Type type)
 ### Смотрите также
 
 * class [KnownTypeSet](../)
-* пространство имен [Aspose.Words.Reporting](../../knowntypeset/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
-
-

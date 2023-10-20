@@ -1,7 +1,9 @@
 ---
 title: ChartAxisCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: ChartAxisCollection proprietà. Ottiene lasse allindice specificato.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: ChartAxisCollection Item proprietà. Ottiene lasse allindice specificato in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing.charts/chartaxiscollection/item/
@@ -18,7 +20,5 @@ public ChartAxis this[int index] { get; }
 
 * class [ChartAxis](../../chartaxis/)
 * class [ChartAxisCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartaxiscollection/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

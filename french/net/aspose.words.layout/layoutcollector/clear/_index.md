@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.Clear
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutCollector méthode. Efface toutes les données de mise en page collectées. Appelez cette méthode après que le document a été mis à jour manuellement ou que la mise en page a été reconstruite.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words pour .NET
+description: LayoutCollector Clear méthode. Efface toutes les données de mise en page collectées. Appelez cette méthode après que le document a été mis à jour manuellement ou que la mise en page a été reconstruite en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.layout/layoutcollector/clear/
@@ -14,7 +16,7 @@ Efface toutes les données de mise en page collectées. Appelez cette méthode a
 public void Clear()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment afficher les plages de pages couvertes par un nœud.
 
@@ -72,7 +74,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 ### Voir également
 
 * class [LayoutCollector](../)
-* espace de noms [Aspose.Words.Layout](../../layoutcollector/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

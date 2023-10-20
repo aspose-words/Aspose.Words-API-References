@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndArrowLength
-second_title: Aspose.Words für .NET-API-Referenz
-description: Stroke eigendom. Definiert die Pfeilspitzenlänge für das Ende eines Strichs.
+linktitle: EndArrowLength
+articleTitle: EndArrowLength
+second_title: Aspose.Words für .NET
+description: Stroke EndArrowLength eigendom. Definiert die Pfeilspitzenlänge für das Ende eines Strichs in C#.
 type: docs
-weight: 60
+weight: 50
 url: /de/net/aspose.words.drawing/stroke/endarrowlength/
 ---
 ## Stroke.EndArrowLength property
@@ -14,11 +16,11 @@ Definiert die Pfeilspitzenlänge für das Ende eines Strichs.
 public ArrowLength EndArrowLength { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istMedium.
 
-### Beispiele
+## Beispiele
 
 Zeigt, um eine Vielzahl von Formen zu erstellen.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowLength](../../arrowlength/)
 * class [Stroke](../)
-* namensraum [Aspose.Words.Drawing](../../stroke/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

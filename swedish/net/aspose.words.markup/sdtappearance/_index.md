@@ -1,7 +1,9 @@
 ---
-title: Enum SdtAppearance
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Markup.SdtAppearance uppräkning. Anger utseendet på en strukturerad dokumenttagg.
+title: SdtAppearance Enum
+linktitle: SdtAppearance
+articleTitle: SdtAppearance
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Markup.SdtAppearance uppräkning. Anger utseendet på en strukturerad dokumenttagg i C#.
 type: docs
 weight: 3990
 url: /sv/net/aspose.words.markup/sdtappearance/
@@ -27,5 +29,3 @@ public enum SdtAppearance
 
 * namnutrymme [Aspose.Words.Markup](../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../)
-
-

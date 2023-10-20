@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.WPSpaceWidth
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Especifica si se debe establecer el ancho de un espacio como se hace en WordPerfect 5.x.
+linktitle: WPSpaceWidth
+articleTitle: WPSpaceWidth
+second_title: Aspose.Words para .NET
+description: CompatibilityOptions WPSpaceWidth propiedad. Especifica si se debe establecer el ancho de un espacio como se hace en WordPerfect 5.x en C#.
 type: docs
 weight: 700
 url: /es/net/aspose.words.settings/compatibilityoptions/wpspacewidth/
@@ -17,7 +19,5 @@ public bool WPSpaceWidth { get; set; }
 ### Ver también
 
 * class [CompatibilityOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../compatibilityoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

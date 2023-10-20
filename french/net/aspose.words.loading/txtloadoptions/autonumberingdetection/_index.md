@@ -1,7 +1,9 @@
 ---
 title: TxtLoadOptions.AutoNumberingDetection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TxtLoadOptions propriété. Obtient ou définit une valeur booléenne indiquant que la détection automatique de la numérotation sera effectuée lors du chargement dun document. La valeur par défaut estvrai .
+linktitle: AutoNumberingDetection
+articleTitle: AutoNumberingDetection
+second_title: Aspose.Words pour .NET
+description: TxtLoadOptions AutoNumberingDetection propriété. Obtient ou définit une valeur booléenne indiquant que la détection automatique de la numérotation sera effectuée lors du chargement dun document. La valeur par défaut estvrai  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.loading/txtloadoptions/autonumberingdetection/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur booléenne indiquant que la détection automatiqu
 public bool AutoNumberingDetection { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment désactiver la détection automatique de la numérotation.
 
@@ -26,7 +28,5 @@ Document doc = new Document(MyDir + "Number detection.txt", options);
 ### Voir également
 
 * class [TxtLoadOptions](../)
-* espace de noms [Aspose.Words.Loading](../../txtloadoptions/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: EditableRangeEnd.EditableRangeStart
-second_title: Referencia de API de Aspose.Words para .NET
-description: EditableRangeEnd propiedad. correspondienteEditableRangeStart  recibido por ID.
+linktitle: EditableRangeStart
+articleTitle: EditableRangeStart
+second_title: Aspose.Words para .NET
+description: EditableRangeEnd EditableRangeStart propiedad. correspondienteEditableRangeStart  recibido por ID en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/editablerangeend/editablerangestart/
@@ -14,7 +16,7 @@ correspondiente[`EditableRangeStart`](../../editablerangestart/) , recibido por 
 public EditableRangeStart EditableRangeStart { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con un rango editable.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [EditableRangeEnd](../)
-* espacio de nombres [Aspose.Words](../../editablerangeend/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

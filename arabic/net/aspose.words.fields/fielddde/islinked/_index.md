@@ -1,7 +1,9 @@
 ---
 title: FieldDde.IsLinked
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDde ملكية. الحصول على أو تعيين ما إذا كان سيتم تقليل حجم الملف من خلال عدم تخزين بيانات الرسومات مع المستند.
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: Aspose.Words لـ .NET
+description: FieldDde IsLinked ملكية. الحصول على أو تعيين ما إذا كان سيتم تقليل حجم الملف من خلال عدم تخزين بيانات الرسومات مع المستند في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.fields/fielddde/islinked/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddde/islinked/
 public bool IsLinked { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أنواع الحقول المختلفة للارتباط بالمستندات الأخرى في نظام الملفات المحلي وعرض محتوياتها.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### أنظر أيضا
 
 * class [FieldDde](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddde/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

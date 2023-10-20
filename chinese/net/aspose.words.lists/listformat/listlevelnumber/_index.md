@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListLevelNumber
-second_title: Aspose.Words for .NET API 参考
-description: ListFormat 财产. 获取或设置段落的列表级别编号0 到 8
+linktitle: ListLevelNumber
+articleTitle: ListLevelNumber
+second_title: 用于 .NET 的 Aspose.Words
+description: ListFormat ListLevelNumber 财产. 获取或设置段落的列表级别编号0 到 8 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.lists/listformat/listlevelnumber/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.lists/listformat/listlevelnumber/
 public int ListLevelNumber { get; set; }
 ```
 
-### 评论
+## 评论
 
 在 Word 文档中，列表可能由 1 或 9 级组成，编号为 0 到 8。
 
 仅当[`List`](../list/)属性设置为引用有效列表。
 
-### 例子
+## 例子
 
 展示如何使用列表级别。
 
@@ -153,7 +155,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### 也可以看看
 
 * class [ListFormat](../)
-* 命名空间 [Aspose.Words.Lists](../../listformat/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

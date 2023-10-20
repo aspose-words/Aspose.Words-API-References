@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.CaseCodeStyle
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDisplayBarcode mülk. ITF14 barkod tipi için Vaka Kodunun stilini alır veya ayarlar. Geçerli değerler şunlardır STDEXTADD
+linktitle: CaseCodeStyle
+articleTitle: CaseCodeStyle
+second_title: Aspose.Words for .NET
+description: FieldDisplayBarcode CaseCodeStyle mülk. ITF14 barkod tipi için Vaka Kodunun stilini alır veya ayarlar. Geçerli değerler şunlardır STDEXTADD C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fielddisplaybarcode/casecodestyle/
@@ -14,7 +16,7 @@ ITF14 barkod tipi için Vaka Kodunun stilini alır veya ayarlar. Geçerli değer
 public string CaseCodeStyle { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 DISPLAYBARCODE alanının nasıl ekleneceğini ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDisplayBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisedPropertiesColor
-second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Tillåter att ange färgen som ska användas för innehåll med ändringar av formateringsegenskaperFormatChange Standardvärdet ärNoHighlight .
+linktitle: RevisedPropertiesColor
+articleTitle: RevisedPropertiesColor
+second_title: Aspose.Words för .NET
+description: RevisionOptions RevisedPropertiesColor fast egendom. Tillåter att ange färgen som ska användas för innehåll med ändringar av formateringsegenskaperFormatChange Standardvärdet ärNoHighlight  i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.layout/revisionoptions/revisedpropertiescolor/
@@ -14,7 +16,7 @@ Tillåter att ange färgen som ska användas för innehåll med ändringar av fo
 public RevisionColor RevisedPropertiesColor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar utseendet på revisioner.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../revisionoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

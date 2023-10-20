@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.InsertRelativePosition
-second_title: Aspose.Words för .NET API Referens
-description: FieldNoteRef fast egendom. Hämtar eller ställer in om en relativ position för det bokmärkta stycket ska infogas.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words för .NET
+description: FieldNoteRef InsertRelativePosition fast egendom. Hämtar eller ställer in om en relativ position för det bokmärkta stycket ska infogas i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldnoteref/insertrelativeposition/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om en relativ position för det bokmärkta stycket ska
 public bool InsertRelativePosition { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar för att infoga NOTEREF-fält och ändra deras utseende.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### Se även
 
 * class [FieldNoteRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldnoteref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

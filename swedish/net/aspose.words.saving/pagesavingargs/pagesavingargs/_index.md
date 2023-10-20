@@ -1,7 +1,9 @@
 ---
-title: PageSavingArgs.PageSavingArgs
-second_title: Aspose.Words för .NET API Referens
-description: PageSavingArgs byggare. Default_Constructor
+title: PageSavingArgs
+linktitle: PageSavingArgs
+articleTitle: PageSavingArgs
+second_title: Aspose.Words för .NET
+description: PageSavingArgs byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/pagesavingargs/pagesavingargs/
@@ -17,7 +19,5 @@ public PageSavingArgs()
 ### Se även
 
 * class [PageSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../pagesavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

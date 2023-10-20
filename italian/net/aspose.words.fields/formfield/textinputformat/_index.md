@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputFormat
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Restituisce o imposta la formattazione del testo per un campo modulo di testo.
+linktitle: TextInputFormat
+articleTitle: TextInputFormat
+second_title: Aspose.Words per .NET
+description: FormField TextInputFormat proprietà. Restituisce o imposta la formattazione del testo per un campo modulo di testo in C#.
 type: docs
 weight: 200
 url: /it/net/aspose.words.fields/formfield/textinputformat/
@@ -14,7 +16,7 @@ Restituisce o imposta la formattazione del testo per un campo modulo di testo.
 public string TextInputFormat { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se il campo del modulo di testo contiene testo normale, le stringhe di formato valide sono "", "MAIUSCOLO", "MINUSCOLO", "PRIMA MAIUSCOLA" e "TITOLO CASE". Le stringhe non fanno distinzione tra maiuscole e minuscole.
 
@@ -22,7 +24,7 @@ Se il campo del modulo di testo contiene un numero o un valore di data/ora, le s
 
 Microsoft Word consente stringhe con un massimo di 64 caratteri.
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

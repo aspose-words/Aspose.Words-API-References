@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Smooth
-second_title: Aspose.Words for .NET API 参考
-description: ChartSeries 财产. 允许指定是否应使用 CatmullRom 样条线来平滑连接图表上的点的线
+linktitle: Smooth
+articleTitle: Smooth
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartSeries Smooth 财产. 允许指定是否应使用 CatmullRom 样条线来平滑连接图表上的点的线 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.drawing.charts/chartseries/smooth/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartseries/smooth/
 public bool Smooth { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用折线图上的数据点。
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### 也可以看看
 
 * class [ChartSeries](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseries/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

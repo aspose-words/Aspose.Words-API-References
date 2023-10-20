@@ -1,12 +1,14 @@
 ---
 title: FontFallbackSettings.Save
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontFallbackSettings méthode. Enregistre les paramètres de secours actuels dans stream.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words pour .NET
+description: FontFallbackSettings Save méthode. Enregistre les paramètres de secours actuels dans stream en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fonts/fontfallbacksettings/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Enregistre les paramètres de secours actuels dans stream.
 
@@ -18,7 +20,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Flux de sortie. |
 
-### Exemples
+## Exemples
 
 Montre comment charger et enregistrer les paramètres de secours des polices vers/depuis un flux.
 
@@ -47,12 +49,12 @@ using (FileStream fontFallbackStream =
 ### Voir également
 
 * class [FontFallbackSettings](../)
-* espace de noms [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Enregistre les paramètres de secours actuels dans un fichier.
 
@@ -64,7 +66,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Nom du fichier de sortie. |
 
-### Exemples
+## Exemples
 
 Montre comment charger et enregistrer les paramètres de secours des polices vers/depuis un document XML dans le système de fichiers local.
 
@@ -85,7 +87,5 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ### Voir également
 
 * class [FontFallbackSettings](../)
-* espace de noms [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

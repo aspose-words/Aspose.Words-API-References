@@ -1,7 +1,9 @@
 ---
 title: Font.HasDmlEffect
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font méthode. Vérifie si un effet de texte DrawingML particulier est appliqué.
+linktitle: HasDmlEffect
+articleTitle: HasDmlEffect
+second_title: Aspose.Words pour .NET
+description: Font HasDmlEffect méthode. Vérifie si un effet de texte DrawingML particulier est appliqué en C#.
 type: docs
 weight: 560
 url: /fr/net/aspose.words/font/hasdmleffect/
@@ -22,7 +24,7 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 
 `vrai` si un effet de texte DrawingML particulier est appliqué.
 
-### Exemples
+## Exemples
 
 Montre comment vérifier si une exécution affiche un effet de texte DrawingML.
 
@@ -42,7 +44,5 @@ Assert.True(runs[4].Font.HasDmlEffect(TextDmlEffect.Fill));
 
 * enum [TextDmlEffect](../../textdmleffect/)
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

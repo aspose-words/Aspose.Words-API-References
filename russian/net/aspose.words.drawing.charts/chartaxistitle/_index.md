@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxisTitle
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisTitle сорт. Предоставляет доступ к свойствам заголовка оси.
+title: ChartAxisTitle Class
+linktitle: ChartAxisTitle
+articleTitle: ChartAxisTitle
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisTitle сорт. Предоставляет доступ к свойствам заголовка оси на С#.
 type: docs
 weight: 650
 url: /ru/net/aspose.words.drawing.charts/chartaxistitle/
@@ -20,12 +22,11 @@ public class ChartAxisTitle
 
 | Имя | Описание |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/chartaxistitle/font/) { get; } |  |
 | [Overlay](../../aspose.words.drawing.charts/chartaxistitle/overlay/) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. Значение по умолчанию:`ЛОЖЬ` . |
 | [Show](../../aspose.words.drawing.charts/chartaxistitle/show/) { get; set; } | Определяет, будет ли отображаться заголовок для оси. Значение по умолчанию:`ЛОЖЬ` . |
 | [Text](../../aspose.words.drawing.charts/chartaxistitle/text/) { get; set; } | Получает или задает текст заголовка оси. Если`нулевой` или указано пустое значение, будет показан автоматически сгенерированный заголовок. |
 
-### Примеры
+## Примеры
 
 Показывает, как установить заголовок оси диаграммы.
 
@@ -56,5 +57,3 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

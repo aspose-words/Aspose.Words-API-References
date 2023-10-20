@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevelCollection ملكية. الحصول على مستوى القائمة حسب الفهرس.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: ListLevelCollection Item ملكية. الحصول على مستوى القائمة حسب الفهرس في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.lists/listlevelcollection/item/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/listlevelcollection/item/
 public ListLevel this[int index] { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نمط قائمة واستخدامه في مستند.
 
@@ -130,7 +132,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListLevelCollection](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevelcollection/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

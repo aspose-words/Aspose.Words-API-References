@@ -1,7 +1,9 @@
 ---
-title: XamlFlowSaveOptions.XamlFlowSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: XamlFlowSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara ett dokument iXamlFlow format.
+title: XamlFlowSaveOptions
+linktitle: XamlFlowSaveOptions
+articleTitle: XamlFlowSaveOptions
+second_title: Aspose.Words för .NET
+description: XamlFlowSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara ett dokument iXamlFlow format i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/xamlflowsaveoptions/xamlflowsaveoptions/
@@ -14,7 +16,7 @@ Initierar en ny instans av denna klass som kan användas för att spara ett doku
 public XamlFlowSaveOptions()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut filnamnen på länkade bilder som skapats när ett dokument konverteras till flödesformat .xaml.
 
@@ -80,12 +82,12 @@ private class ImageUriPrinter : IImageSavingCallback
 ### Se även
 
 * class [XamlFlowSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## XamlFlowSaveOptions(SaveFormat) {#constructor_1}
+## XamlFlowSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Initierar en ny instans av denna klass som kan användas för att spara ett dokument iXamlFlow ellerXamlFlowPack format.
 
@@ -97,7 +99,7 @@ public XamlFlowSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Kan varaXamlFlow ellerXamlFlowPack. |
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut filnamnen på länkade bilder som skapats när ett dokument konverteras till flödesformat .xaml.
 
@@ -164,7 +166,5 @@ private class ImageUriPrinter : IImageSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XamlFlowSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

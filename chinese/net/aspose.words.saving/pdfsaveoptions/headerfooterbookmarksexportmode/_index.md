@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.HeaderFooterBookmarksExportMode
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 确定如何导出页眉/页脚中的书签
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions HeaderFooterBookmarksExportMode 财产. 确定如何导出页眉/页脚中的书签 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为All。
 
 该属性与[`OutlineOptions`](../outlineoptions/)选项。
 
-### 例子
+## 例子
 
 演示如何处理我们正在渲染为 PDF 的文档中页眉/页脚中的书签。
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * enum [HeaderFooterBookmarksExportMode](../../headerfooterbookmarksexportmode/)
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

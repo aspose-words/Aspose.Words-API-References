@@ -1,7 +1,9 @@
 ---
 title: List.IsListStyleDefinition
-second_title: Aspose.Words for .NET API 参考
-description: List 财产. 返回真的如果此列表是列表样式的定义
+linktitle: IsListStyleDefinition
+articleTitle: IsListStyleDefinition
+second_title: 用于 .NET 的 Aspose.Words
+description: List IsListStyleDefinition 财产. 返回真的如果此列表是列表样式的定义 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.lists/list/isliststyledefinition/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.lists/list/isliststyledefinition/
 public bool IsListStyleDefinition { get; }
 ```
 
-### 评论
+## 评论
 
 当这个属性是`真的`， 这[`Style`](../style/)属性返回 此列表定义的列表样式。
 
@@ -22,7 +24,7 @@ public bool IsListStyleDefinition { get; }
 
 作为列表样式定义的列表不能直接应用于 paragraphs 以使其编号。
 
-### 例子
+## 例子
 
 演示如何创建列表样式并在文档中使用它。
 
@@ -83,7 +85,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### 也可以看看
 
 * class [List](../)
-* 命名空间 [Aspose.Words.Lists](../../list/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

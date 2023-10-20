@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.SymbolHeight
-second_title: Aspose.Words för .NET API Referens
-description: FieldDisplayBarcode fast egendom. Hämtar eller ställer in höjden på symbolen. Enheterna är i TWIPS 1/1440 tum.
+linktitle: SymbolHeight
+articleTitle: SymbolHeight
+second_title: Aspose.Words för .NET
+description: FieldDisplayBarcode SymbolHeight fast egendom. Hämtar eller ställer in höjden på symbolen. Enheterna är i TWIPS 1/1440 tum i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.fields/fielddisplaybarcode/symbolheight/
@@ -14,7 +16,7 @@ Hämtar eller ställer in höjden på symbolen. Enheterna är i TWIPS (1/1440 tu
 public string SymbolHeight { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett DISPLAYBARCODE-fält och ställer in dess egenskaper.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Se även
 
 * class [FieldDisplayBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

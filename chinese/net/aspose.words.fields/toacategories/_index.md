@@ -1,7 +1,9 @@
 ---
-title: Class ToaCategories
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.ToaCategories 班级. 表示权限类别表
+title: ToaCategories Class
+linktitle: ToaCategories
+articleTitle: ToaCategories
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.ToaCategories 班级. 表示权限类别表 在 C#.
 type: docs
 weight: 2780
 url: /zh/net/aspose.words.fields/toacategories/
@@ -29,7 +31,7 @@ public class ToaCategories
 | static [DefaultCategories](../../aspose.words.fields/toacategories/defaultcategories/) { get; } | 获取默认的权威类别表。 |
 | [Item](../../aspose.words.fields/toacategories/item/) { get; set; } | 按类别编号获取或设置类别标题。 |
 
-### 例子
+## 例子
 
 演示如何为 TOA 字段指定一组类别。
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

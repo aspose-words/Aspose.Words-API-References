@@ -1,7 +1,9 @@
 ---
-title: Enum StyleType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.StyleType Sıralama. Stilin türünü temsil eder.
+title: StyleType Enum
+linktitle: StyleType
+articleTitle: StyleType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.StyleType Sıralama. Stilin türünü temsil eder C#'da.
 type: docs
 weight: 6160
 url: /tr/net/aspose.words/styletype/
@@ -23,7 +25,7 @@ public enum StyleType
 | Table | `3` | Stil bir tablo stilidir. |
 | List | `4` | Stil bir liste stilidir. |
 
-### Örnekler
+## Örnekler
 
 Liste stilinin nasıl oluşturulacağını ve belgede nasıl kullanılacağını gösterir.
 
@@ -85,5 +87,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Stroke.DashStyle
-second_title: Referencia de API de Aspose.Words para .NET
-description: Stroke propiedad. Especifica el patrón de puntos y rayas para un trazo.
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: Aspose.Words para .NET
+description: Stroke DashStyle propiedad. Especifica el patrón de puntos y rayas para un trazo en C#.
 type: docs
-weight: 50
+weight: 40
 url: /es/net/aspose.words.drawing/stroke/dashstyle/
 ---
 ## Stroke.DashStyle property
@@ -14,11 +16,11 @@ Especifica el patrón de puntos y rayas para un trazo.
 public DashStyle DashStyle { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado esSolid.
 
-### Ejemplos
+## Ejemplos
 
 Muestra para crear una variedad de formas.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [DashStyle](../../dashstyle/)
 * class [Stroke](../)
-* espacio de nombres [Aspose.Words.Drawing](../../stroke/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

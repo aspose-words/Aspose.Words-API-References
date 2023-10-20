@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.InterpolateImages
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Флаг указывающий должна ли интерполяция изображения выполняться соответствующим считывателем. КогдаЛОЖЬ указан флаг не записывается в выходной документ и вместо него используется поведение чтения по умолчанию.
+linktitle: InterpolateImages
+articleTitle: InterpolateImages
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions InterpolateImages свойство. Флаг указывающий должна ли интерполяция изображения выполняться соответствующим считывателем. КогдаЛОЖЬ указан флаг не записывается в выходной документ и вместо него используется поведение чтения по умолчанию на С#.
 type: docs
 weight: 210
 url: /ru/net/aspose.words.saving/pdfsaveoptions/interpolateimages/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/interpolateimages/
 public bool InterpolateImages { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Когда разрешение исходного изображения значительно ниже разрешения устройства вывода, каждый исходный образец охватывает множество пикселей устройства. В результате изображения могут выглядеть неровными или блочными. Эти визуальные артефакты можно уменьшить, применив алгоритм интерполяции изображения во время рендеринга. Вместо окрашивания всех пикселей, покрытых исходным образцом, в один и тот же цвет, интерполяция изображения пытается создать плавное изображение. переход между соседними значениями выборки.
 
@@ -24,7 +26,7 @@ public bool InterpolateImages { get; set; }
 
 Флаг интерполяции запрещен стандартом PDF/A.`ЛОЖЬ` значение будет использоваться автоматически при сохранении в PDF/A.
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить интерполяцию изображений при сохранении документа в формате PDF.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.InterpolateImagesNetStandard2.pdf", save
 ### Смотрите также
 
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

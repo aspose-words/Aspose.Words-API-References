@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Thumbnail
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuiltInDocumentProperties propriété. Obtient ou définit la miniature du document.
+linktitle: Thumbnail
+articleTitle: Thumbnail
+second_title: Aspose.Words pour .NET
+description: BuiltInDocumentProperties Thumbnail propriété. Obtient ou définit la miniature du document en C#.
 type: docs
 weight: 280
 url: /fr/net/aspose.words.properties/builtindocumentproperties/thumbnail/
@@ -14,7 +16,7 @@ Obtient ou définit la miniature du document.
 public byte[] Thumbnail { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Pour l'instant, cette propriété n'est utilisée que lorsqu'un document est exporté vers ePub, il n'est ni lu ni écrit dans d'autres formats de document.
 
@@ -22,7 +24,7 @@ Une image de format arbitraire peut être définie sur cette propriété, mais l
 
 Seules les images gif, jpeg et png peuvent être utilisées pour la publication ePub.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une vignette à un document que nous enregistrons au format Epub.
 
@@ -48,7 +50,5 @@ File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.
 ### Voir également
 
 * class [BuiltInDocumentProperties](../)
-* espace de noms [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

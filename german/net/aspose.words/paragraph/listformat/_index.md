@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ListFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. Bietet Zugriff auf die Listenformatierungseigenschaften des Absatzes.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words für .NET
+description: Paragraph ListFormat eigendom. Bietet Zugriff auf die Listenformatierungseigenschaften des Absatzes in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words/paragraph/listformat/
@@ -14,7 +16,7 @@ Bietet Zugriff auf die Listenformatierungseigenschaften des Absatzes.
 public ListFormat ListFormat { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Absätze in einem Dokument ausgegeben werden, bei denen es sich um Listenelemente handelt.
 
@@ -47,7 +49,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

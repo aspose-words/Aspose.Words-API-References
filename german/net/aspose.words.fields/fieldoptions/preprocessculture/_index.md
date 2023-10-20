@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.PreProcessCulture
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Ruft die Kultur ab oder legt sie fest um Feldwerte vorzuverarbeiten.
+linktitle: PreProcessCulture
+articleTitle: PreProcessCulture
+second_title: Aspose.Words für .NET
+description: FieldOptions PreProcessCulture eigendom. Ruft die Kultur ab oder legt sie fest um Feldwerte vorzuverarbeiten in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words.fields/fieldoptions/preprocessculture/
@@ -14,13 +16,13 @@ Ruft die Kultur ab oder legt sie fest, um Feldwerte vorzuverarbeiten.
 public CultureInfo PreProcessCulture { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Derzeit wirkt sich diese Eigenschaft nur auf den Wert aus[`FieldDocProperty`](../../fielddocproperty/) Feld.
 
 Der Standardwert ist`Null` . Wenn diese Eigenschaft auf festgelegt ist`Null` , Die[`FieldDocProperty`](../../fielddocproperty/)Der Wert des Feldes ist preprocessed mit der Kultur, die von gesteuert wird[`FieldUpdateCultureSource`](../fieldupdateculturesource/) Eigentum.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Vorverarbeitungskultur festgelegt wird.
 
@@ -47,7 +49,5 @@ Assert.IsTrue(Regex.Match(field.Result, @"\d{2}[/]\d{2}[/]\d{4} \d{2}[:]\d{2}").
 ### Siehe auch
 
 * class [FieldOptions](../)
-* namensraum [Aspose.Words.Fields](../../fieldoptions/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

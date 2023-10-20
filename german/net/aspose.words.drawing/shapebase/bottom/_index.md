@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Bottom
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Ermittelt die Position der Unterkante des enthaltenden Blocks der Form.
+linktitle: Bottom
+articleTitle: Bottom
+second_title: Aspose.Words für .NET
+description: ShapeBase Bottom eigendom. Ermittelt die Position der Unterkante des enthaltenden Blocks der Form in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing/shapebase/bottom/
@@ -14,13 +16,13 @@ Ermittelt die Position der Unterkante des enthaltenden Blocks der Form.
 public double Bottom { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Für eine Form der obersten Ebene wird der Wert in Punkten und relativ zum Formanker angegeben.
 
 Für Formen in einer Gruppe liegt der Wert im Koordinatenraum und in den Einheiten der übergeordneten Gruppe.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein schwebendes Bild einfügt und seine Position und Größe angibt.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

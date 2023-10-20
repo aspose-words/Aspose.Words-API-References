@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.PostalAddress
-second_title: Aspose.Words لمراجع .NET API
-description: BarcodeParameters ملكية. العنوان البريدي للباركود.
+linktitle: PostalAddress
+articleTitle: PostalAddress
+second_title: Aspose.Words لـ .NET
+description: BarcodeParameters PostalAddress ملكية. العنوان البريدي للباركود في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.fields/barcodeparameters/postaladdress/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/barcodeparameters/postaladdress/
 public string PostalAddress { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مولد الباركود.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### أنظر أيضا
 
 * class [BarcodeParameters](../)
-* مساحة الاسم [Aspose.Words.Fields](../../barcodeparameters/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

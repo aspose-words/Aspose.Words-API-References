@@ -1,7 +1,9 @@
 ---
 title: PageSetup.TopMargin
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Возвращает или задает расстояние в пунктах между верхним краем страницы и верхней границей основного текста.
+linktitle: TopMargin
+articleTitle: TopMargin
+second_title: Aspose.Words для .NET
+description: PageSetup TopMargin свойство. Возвращает или задает расстояние в пунктах между верхним краем страницы и верхней границей основного текста на С#.
 type: docs
 weight: 440
 url: /ru/net/aspose.words/pagesetup/topmargin/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/topmargin/
 public double TopMargin { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить размер бумаги, ориентацию, поля и другие параметры раздела.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

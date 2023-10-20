@@ -1,7 +1,9 @@
 ---
-title: Enum MetafileRenderingMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.MetafileRenderingMode énumération. Spécifie comment Aspose.Words doit restituer les métafichiers WMF et EMF.
+title: MetafileRenderingMode Enum
+linktitle: MetafileRenderingMode
+articleTitle: MetafileRenderingMode
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.MetafileRenderingMode énumération. Spécifie comment Aspose.Words doit restituer les métafichiers WMF et EMF en C#.
 type: docs
 weight: 5290
 url: /fr/net/aspose.words.saving/metafilerenderingmode/
@@ -22,7 +24,7 @@ public enum MetafileRenderingMode
 | Vector | `1` | Aspose.Words restitue un métafichier sous forme de graphiques vectoriels. |
 | Bitmap | `2` | Aspose.Words appelle GDI+ pour restituer un métafichier en bitmap, puis enregistre le bitmap dans le document de sortie. |
 
-### Exemples
+## Exemples
 
 Affiche l'ajout d'une solution de secours au rendu bitmap et la modification du type d'avertissements concernant les enregistrements de métafichiers non pris en charge.
 
@@ -78,5 +80,3 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

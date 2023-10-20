@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToDocumentEnd
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Déplace le curseur à la fin du document.
+linktitle: MoveToDocumentEnd
+articleTitle: MoveToDocumentEnd
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder MoveToDocumentEnd méthode. Déplace le curseur à la fin du document en C#.
 type: docs
-weight: 520
+weight: 510
 url: /fr/net/aspose.words/documentbuilder/movetodocumentend/
 ---
 ## DocumentBuilder.MoveToDocumentEnd method
@@ -14,7 +16,7 @@ Déplace le curseur à la fin du document.
 public void MoveToDocumentEnd()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment déplacer le curseur d'un générateur de document vers différents nœuds d'un document.
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Voir également
 
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

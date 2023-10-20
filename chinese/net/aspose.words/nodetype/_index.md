@@ -1,7 +1,9 @@
 ---
-title: Enum NodeType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.NodeType 枚举. 指定 Word 文档节点的类型
+title: NodeType Enum
+linktitle: NodeType
+articleTitle: NodeType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.NodeType 枚举. 指定 Word 文档节点的类型 在 C#.
 type: docs
 weight: 4230
 url: /zh/net/aspose.words/nodetype/
@@ -47,8 +49,8 @@ public enum NodeType
 | SpecialChar | `26` | 不是更具体的特殊字符类型之一的特殊字符。 |
 | SmartTag | `27` | 段落中围绕一个或多个内联结构（运行、图像、字段等）的智能标记 |
 | StructuredDocumentTag | `28` | 允许定义客户特定的信息及其表示方式。 |
-| StructuredDocumentTagRangeStart | `29` | 的开始 **远程**接受多部分内容的结构化文档标签。 |
-| StructuredDocumentTagRangeEnd | `30` | 结束了 **远程**接受多部分内容的结构化文档标签。 |
+| StructuredDocumentTagRangeStart | `29` | 的开始**远程**接受多部分内容的结构化文档标签。 |
+| StructuredDocumentTagRangeEnd | `30` | 结束了**远程**接受多部分内容的结构化文档标签。 |
 | GlossaryDocument | `31` | 主文档中的术语表文档。 |
 | BuildingBlock | `32` | 术语表文档中的构建块（例如术语表文档条目）。 |
 | CommentRangeStart | `33` | 表示注释范围开始的标记节点。 |
@@ -58,7 +60,7 @@ public enum NodeType
 | System | `37` | 保留供 Aspose.Words. 内部使用 |
 | Null | `38` | 保留供 Aspose.Words. 内部使用 |
 
-### 例子
+## 例子
 
 演示如何遍历复合节点的子节点集合。
 
@@ -104,5 +106,3 @@ foreach (Node child in children)
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

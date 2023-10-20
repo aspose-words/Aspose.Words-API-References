@@ -1,9 +1,11 @@
 ---
 title: ChartAxisTitle.Show
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxisTitle mülk. Eksen için başlığın gösterilip gösterilmeyeceğini belirler. Varsayılan değerYANLIŞ .
+linktitle: Show
+articleTitle: Show
+second_title: Aspose.Words for .NET
+description: ChartAxisTitle Show mülk. Eksen için başlığın gösterilip gösterilmeyeceğini belirler. Varsayılan değerYANLIŞ  C#'da.
 type: docs
-weight: 30
+weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartaxistitle/show/
 ---
 ## ChartAxisTitle.Show property
@@ -14,7 +16,7 @@ Eksen için başlığın gösterilip gösterilmeyeceğini belirler. Varsayılan 
 public bool Show { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Grafik ekseni başlığının nasıl ayarlanacağını gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ### Ayrıca bakınız
 
 * class [ChartAxisTitle](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

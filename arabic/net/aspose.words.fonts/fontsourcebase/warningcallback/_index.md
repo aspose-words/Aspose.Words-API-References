@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.WarningCallback
-second_title: Aspose.Words لمراجع .NET API
-description: FontSourceBase ملكية. يتم استدعاؤه أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة التنسيق.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words لـ .NET
+description: FontSourceBase WarningCallback ملكية. يتم استدعاؤه أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة التنسيق في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/fontsourcebase/warningcallback/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontsourcebase/warningcallback/
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استدعاء رد الاتصال التحذيري عند التعامل مع مصادر الخطوط.
 
@@ -53,7 +55,5 @@ private class FontSourceWarningCollector : IWarningCallback
 
 * interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * class [FontSourceBase](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsourcebase/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

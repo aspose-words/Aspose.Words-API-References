@@ -1,7 +1,9 @@
 ---
-title: Enum ScriptShapingLevel
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Shaping.ScriptShapingLevel Sıralama. Bir komut dosyasının gerektirdiği şekillendirme düzeylerini açıklar.
+title: ScriptShapingLevel Enum
+linktitle: ScriptShapingLevel
+articleTitle: ScriptShapingLevel
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Shaping.ScriptShapingLevel Sıralama. Bir komut dosyasının gerektirdiği şekillendirme düzeylerini açıklar C#'da.
 type: docs
 weight: 6070
 url: /tr/net/aspose.words.shaping/scriptshapinglevel/
@@ -27,5 +29,3 @@ public enum ScriptShapingLevel
 
 * ad alanı [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldTitle.FieldTitle
-second_title: Aspose.Words لمراجع .NET API
-description: FieldTitle البناء. Default_Constructor
+title: FieldTitle
+linktitle: FieldTitle
+articleTitle: FieldTitle
+second_title: Aspose.Words لـ .NET
+description: FieldTitle البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldtitle/fieldtitle/
@@ -17,7 +19,5 @@ public FieldTitle()
 ### أنظر أيضا
 
 * class [FieldTitle](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtitle/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

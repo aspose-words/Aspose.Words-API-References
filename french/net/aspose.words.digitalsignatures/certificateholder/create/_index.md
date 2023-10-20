@@ -1,12 +1,14 @@
 ---
 title: CertificateHolder.Create
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CertificateHolder méthode. CréeCertificateHolder objet utilisant un tableau doctets du magasin PKCS12 et son mot de passe.
+linktitle: Create
+articleTitle: Create
+second_title: Aspose.Words pour .NET
+description: CertificateHolder Create méthode. CréeCertificateHolder objet utilisant un tableau doctets du magasin PKCS12 et son mot de passe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.digitalsignatures/certificateholder/create/
 ---
-## Create(byte[], SecureString) {#create}
+## Create(*byte[], SecureString*) {#create}
 
 Crée[`CertificateHolder`](../) objet utilisant un tableau d'octets du magasin PKCS12 et son mot de passe.
 
@@ -32,7 +34,7 @@ Un exemple de[`CertificateHolder`](../)
 | SecurityException | Levé si le magasin PKCS12 ne contient aucun alias |
 | IOException | Lancé en cas de mot de passe erroné ou de fichier corrompu. |
 
-### Exemples
+## Exemples
 
 Montre comment créer des objets CertificateHolder.
 
@@ -77,12 +79,12 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Voir également
 
 * class [CertificateHolder](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Create(byte[], string) {#create_1}
+## Create(*byte[], string*) {#create_1}
 
 Crée[`CertificateHolder`](../) objet utilisant un tableau d'octets du magasin PKCS12 et son mot de passe.
 
@@ -108,7 +110,7 @@ Un exemple de[`CertificateHolder`](../)
 | SecurityException | Levé si le magasin PKCS12 ne contient aucun alias |
 | IOException | Lancé en cas de mot de passe erroné ou de fichier corrompu. |
 
-### Exemples
+## Exemples
 
 Montre comment créer des objets CertificateHolder.
 
@@ -153,12 +155,12 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Voir également
 
 * class [CertificateHolder](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Create(string, string) {#create_2}
+## Create(*string, string*) {#create_2}
 
 Crée[`CertificateHolder`](../) objet utilisant le chemin d'accès au magasin PKCS12 et son mot de passe.
 
@@ -184,7 +186,7 @@ Un exemple de[`CertificateHolder`](../)
 | SecurityException | Levé si le magasin PKCS12 ne contient aucun alias |
 | IOException | Lancé en cas de mot de passe erroné ou de fichier corrompu. |
 
-### Exemples
+## Exemples
 
 Montre comment signer numériquement des documents.
 
@@ -213,12 +215,12 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### Voir également
 
 * class [CertificateHolder](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Create(string, string, string) {#create_3}
+## Create(*string, string, string*) {#create_3}
 
 Crée[`CertificateHolder`](../) objet utilisant le chemin d'accès au magasin PKCS12, son mot de passe et l'alias à l'aide duquel la clé privée et le certificat seront trouvés.
 
@@ -246,7 +248,7 @@ Un exemple de[`CertificateHolder`](../)
 | IOException | Lancé en cas de mot de passe erroné ou de fichier corrompu. |
 | SecurityException | Lancé s'il n'y a pas de clé privée avec l'alias donné |
 
-### Exemples
+## Exemples
 
 Montre comment créer des objets CertificateHolder.
 
@@ -291,7 +293,5 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Voir également
 
 * class [CertificateHolder](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
-
-

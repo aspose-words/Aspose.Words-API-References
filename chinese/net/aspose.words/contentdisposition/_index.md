@@ -1,7 +1,9 @@
 ---
-title: Enum ContentDisposition
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.ContentDisposition 枚举. 枚举在客户端浏览器上呈现文档的不同方式
+title: ContentDisposition Enum
+linktitle: ContentDisposition
+articleTitle: ContentDisposition
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.ContentDisposition 枚举. 枚举在客户端浏览器上呈现文档的不同方式 在 C#.
 type: docs
 weight: 340
 url: /zh/net/aspose.words/contentdisposition/
@@ -21,11 +23,11 @@ public enum ContentDisposition
 | Attachment | `0` | 将文档发送到浏览器，并提供将文档保存到磁盘或在与文档扩展名关联的应用程序 中打开的选项。 |
 | Inline | `1` | 将文档发送到浏览器并提供将文档保存到磁盘或在浏览器中打开的选项。 |
 
-### 评论
+## 评论
 
 请注意，客户端浏览器上的实际行为可能会受到浏览器安全配置的影响。
 
-### 例子
+## 例子
 
 演示如何执行邮件合并，然后将文档保存到客户端浏览器。
 
@@ -56,5 +58,3 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

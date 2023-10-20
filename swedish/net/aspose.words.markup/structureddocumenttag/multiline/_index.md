@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.Multiline
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Anger om detta SDT tillåter flera textrader.
+linktitle: Multiline
+articleTitle: Multiline
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag Multiline fast egendom. Anger om dettaSDT tillåter flera textrader i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words.markup/structureddocumenttag/multiline/
 ---
 ## StructuredDocumentTag.Multiline property
 
-Anger om detta **SDT** tillåter flera textrader.
+Anger om detta**SDT** tillåter flera textrader.
 
 ```csharp
 public bool Multiline { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Åtkomst till den här egenskapen fungerar bara förRichText ochPlainText SDT-typ.
 
 För alla andra SDT-typer kommer undantag att förekomma.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg i en vanlig textruta och ändrar dess utseende.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Se även
 
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

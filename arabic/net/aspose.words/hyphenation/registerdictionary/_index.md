@@ -1,12 +1,14 @@
 ---
 title: Hyphenation.RegisterDictionary
-second_title: Aspose.Words لمراجع .NET API
-description: Hyphenation طريقة. يقوم بتسجيل وتحميل قاموس الواصلة للغة المحددة من الدفق. يتم الرمي إذا تعذرت قراءة القاموس أو كان تنسيقه غير صالح.
+linktitle: RegisterDictionary
+articleTitle: RegisterDictionary
+second_title: Aspose.Words لـ .NET
+description: Hyphenation RegisterDictionary طريقة. يقوم بتسجيل وتحميل قاموس الواصلة للغة المحددة من الدفق. يتم الرمي إذا تعذرت قراءة القاموس أو كان تنسيقه غير صالح في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/hyphenation/registerdictionary/
 ---
-## RegisterDictionary(string, Stream) {#registerdictionary}
+## RegisterDictionary(*string, Stream*) {#registerdictionary}
 
 يقوم بتسجيل وتحميل قاموس الواصلة للغة المحددة من الدفق. يتم الرمي إذا تعذرت قراءة القاموس أو كان تنسيقه غير صالح.
 
@@ -19,7 +21,7 @@ public static void RegisterDictionary(string language, Stream stream)
 | language | String | اسم لغة، على سبيل المثال "en-US". راجع وثائق .NET لـ "اسم الثقافة" وRFC 4646 للحصول على التفاصيل. |
 | stream | Stream | دفق لملف القاموس بتنسيق OpenOffice. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية فتح وتسجيل قاموس من ملف.
 
@@ -95,12 +97,12 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### أنظر أيضا
 
 * class [Hyphenation](../)
-* مساحة الاسم [Aspose.Words](../../hyphenation/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## RegisterDictionary(string, string) {#registerdictionary_1}
+## RegisterDictionary(*string, string*) {#registerdictionary_1}
 
 يقوم بتسجيل وتحميل قاموس الواصلة للغة المحددة من الملف. يتم الرمي إذا تعذرت قراءة القاموس أو كان تنسيقه غير صالح.
 
@@ -115,7 +117,7 @@ public static void RegisterDictionary(string language, string fileName)
 | language | String | اسم لغة، على سبيل المثال "en-US". راجع وثائق .NET لـ "اسم الثقافة" وRFC 4646 للحصول على التفاصيل. |
 | fileName | String | مسار إلى ملف القاموس بتنسيق Open Office. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تسجيل قاموس الواصلة.
 
@@ -223,7 +225,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### أنظر أيضا
 
 * class [Hyphenation](../)
-* مساحة الاسم [Aspose.Words](../../hyphenation/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

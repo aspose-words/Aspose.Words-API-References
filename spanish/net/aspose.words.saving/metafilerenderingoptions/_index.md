@@ -1,7 +1,9 @@
 ---
-title: Class MetafileRenderingOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.MetafileRenderingOptions clase. Permite especificar opciones adicionales de representación de metarchivos.
+title: MetafileRenderingOptions Class
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.MetafileRenderingOptions clase. Permite especificar opciones adicionales de representación de metarchivos en C#.
 type: docs
 weight: 5300
 url: /es/net/aspose.words.saving/metafilerenderingoptions/
@@ -34,7 +36,7 @@ public class MetafileRenderingOptions
 | [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | Obtiene o establece un valor que determina cómo se deben representar los metarchivos WMF con metarchivos EMF incrustados. |
 | [UseGdiRasterOperationsEmulation](../../aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/) { get; set; } | Obtiene o establece un valor que determina si se utiliza o no GDI+ para la emulación de operaciones ráster. |
 
-### Ejemplos
+## Ejemplos
 
 Los programas agregaron un respaldo a la representación de mapas de bits y cambiaron el tipo de advertencias sobre registros de metarchivos no compatibles.
 
@@ -90,5 +92,3 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

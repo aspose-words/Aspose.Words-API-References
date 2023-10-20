@@ -1,7 +1,9 @@
 ---
 title: FormField.SetTextInputValue
-second_title: Aspose.Words لمراجع .NET API
-description: FormField طريقة. يطبق تنسيق النص المحدد فيTextInputFormat ويخزن القيمة فيهاResult .
+linktitle: SetTextInputValue
+articleTitle: SetTextInputValue
+second_title: Aspose.Words لـ .NET
+description: FormField SetTextInputValue طريقة. يطبق تنسيق النص المحدد فيTextInputFormat ويخزن القيمة فيهاResult  في C#.
 type: docs
 weight: 250
 url: /ar/net/aspose.words.fields/formfield/settextinputvalue/
@@ -16,13 +18,13 @@ public void SetTextInputValue(object newValue)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| newValue | Object | يمكن أن يكون سلسلة أو رقمًا أو أ **التاريخ والوقت** هدف. |
+| newValue | Object | يمكن أن يكون سلسلة أو رقمًا أو أ**التاريخ والوقت** هدف. |
 
-### ملاحظات
+## ملاحظات
 
 ال[`TextInputDefault`](../textinputdefault/)يتم تطبيق القيمة إذا*newValue* يكون`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

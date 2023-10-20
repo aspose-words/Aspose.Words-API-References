@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.FromPoints
-second_title: Aspose.Words für .NET-API-Referenz
-description: PreferredWidth methode. Eine Erstellungsmethode die eine neue Instanz zurückgibt die eine bevorzugte Breite darstellt die mithilfe einer Anzahl von Punkten angegeben wird.
+linktitle: FromPoints
+articleTitle: FromPoints
+second_title: Aspose.Words für .NET
+description: PreferredWidth FromPoints methode. Eine Erstellungsmethode die eine neue Instanz zurückgibt die eine bevorzugte Breite darstellt die mithilfe einer Anzahl von Punkten angegeben wird in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.tables/preferredwidth/frompoints/
@@ -18,7 +20,7 @@ public static PreferredWidth FromPoints(double points)
 | --- | --- | --- |
 | points | Double | Der Wert muss zwischen 0 und 22 Zoll (22 * 72 Punkte) liegen. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Tools zur Einheitenumrechnung verwenden und dabei eine bevorzugte Breite für eine Zelle angeben.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Siehe auch
 
 * class [PreferredWidth](../)
-* namensraum [Aspose.Words.Tables](../../preferredwidth/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

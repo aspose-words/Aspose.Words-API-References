@@ -1,7 +1,9 @@
 ---
 title: ListLabel.LabelString
-second_title: Aspose.Words لمراجع .NET API
-description: ListLabel ملكية. الحصول على تمثيل سلسلة لتسمية القائمة.
+linktitle: LabelString
+articleTitle: LabelString
+second_title: Aspose.Words لـ .NET
+description: ListLabel LabelString ملكية. الحصول على تمثيل سلسلة لتسمية القائمة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.lists/listlabel/labelstring/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/listlabel/labelstring/
 public string LabelString { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج تسميات القائمة لجميع الفقرات التي تمثل عناصر قائمة.
 
@@ -49,7 +51,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### أنظر أيضا
 
 * class [ListLabel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlabel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Math
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Math Пространство имен содержит классы представляющие элементы Office Math.
+linktitle: Aspose.Words.Math
+articleTitle: Aspose.Words.Math
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Math Пространство имен содержит классы представляющие элементы Office Math на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.math/
@@ -20,5 +22,3 @@ url: /ru/net/aspose.words.math/
 | [MathObjectType](./mathobjecttype/) | Указывает тип объекта Office Math. |
 | [OfficeMathDisplayType](./officemathdisplaytype/) | Указывает тип формата отображения уравнения. |
 | [OfficeMathJustification](./officemathjustification/) | Указывает выравнивание уравнения. |
-
-

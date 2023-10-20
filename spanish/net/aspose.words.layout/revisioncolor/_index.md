@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionColor
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Layout.RevisionColor enumeración. Permite especificar el color de las revisiones del documento.
+title: RevisionColor Enum
+linktitle: RevisionColor
+articleTitle: RevisionColor
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Layout.RevisionColor enumeración. Permite especificar el color de las revisiones del documento en C#.
 type: docs
 weight: 3380
 url: /es/net/aspose.words.layout/revisioncolor/
@@ -40,7 +42,7 @@ public enum RevisionColor
 | NoHighlight | `19` | No se utiliza ningún color para resaltar los cambios de revisión. |
 | ByAuthor | `20` | Las revisiones de cada autor reciben su propio color para resaltar de un conjunto predefinido de colores de alto contraste. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo alterar la apariencia de las revisiones en un documento de salida renderizado.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * espacio de nombres [Aspose.Words.Layout](../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../)
-
-

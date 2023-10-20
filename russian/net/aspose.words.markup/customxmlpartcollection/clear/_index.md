@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlPartCollection метод. Удаляет все элементы из коллекции.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: CustomXmlPartCollection Clear метод. Удаляет все элементы из коллекции на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.markup/customxmlpartcollection/clear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/customxmlpartcollection/clear/
 public void Clear()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа с пользовательскими данными XML.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Смотрите также
 
 * class [CustomXmlPartCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpartcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

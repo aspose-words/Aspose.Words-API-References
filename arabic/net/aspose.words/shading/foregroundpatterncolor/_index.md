@@ -1,7 +1,9 @@
 ---
 title: Shading.ForegroundPatternColor
-second_title: Aspose.Words لمراجع .NET API
-description: Shading ملكية. الحصول على أو تعيين اللون المطبق على مقدمة الصورةShading الكائن.
+linktitle: ForegroundPatternColor
+articleTitle: ForegroundPatternColor
+second_title: Aspose.Words لـ .NET
+description: Shading ForegroundPatternColor ملكية. الحصول على أو تعيين اللون المطبق على مقدمة الصورةShading الكائن في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/shading/foregroundpatterncolor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/shading/foregroundpatterncolor/
 public Color ForegroundPatternColor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تزيين النص بالحدود والتظليل.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ### أنظر أيضا
 
 * class [Shading](../)
-* مساحة الاسم [Aspose.Words](../../shading/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

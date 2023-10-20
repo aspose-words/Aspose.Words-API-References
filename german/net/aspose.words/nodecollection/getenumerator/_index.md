@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.GetEnumerator
-second_title: Aspose.Words für .NET-API-Referenz
-description: NodeCollection methode. Bietet eine einfache Iteration im foreachStil über die Sammlung von Knoten.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words für .NET
+description: NodeCollection GetEnumerator methode. Bietet eine einfache Iteration im foreachStil über die Sammlung von Knoten in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/nodecollection/getenumerator/
@@ -22,7 +24,5 @@ Ein IEnumerator.
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* namensraum [Aspose.Words](../../nodecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

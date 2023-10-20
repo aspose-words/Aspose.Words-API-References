@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsTopLevel
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 返回真的如果此形状不是组形状的子项.
+linktitle: IsTopLevel
+articleTitle: IsTopLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase IsTopLevel 财产. 返回真的如果此形状不是组形状的子项 在 C#.
 type: docs
 weight: 350
 url: /zh/net/aspose.words.drawing/shapebase/istoplevel/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shapebase/istoplevel/
 public bool IsTopLevel { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何判断形状是否是组形状的一部分。
 
@@ -39,7 +41,5 @@ Assert.False(shape.IsTopLevel);
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

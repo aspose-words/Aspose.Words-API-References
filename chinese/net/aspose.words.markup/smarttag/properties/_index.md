@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Properties
-second_title: Aspose.Words for .NET API 参考
-description: SmartTag 财产. 智能标记属性的集合
+linktitle: Properties
+articleTitle: Properties
+second_title: 用于 .NET 的 Aspose.Words
+description: SmartTag Properties 财产. 智能标记属性的集合 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/smarttag/properties/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.markup/smarttag/properties/
 public CustomXmlPropertyCollection Properties { get; }
 ```
 
-### 评论
+## 评论
 
 不可能是`无效的`。
 
-### 例子
+## 例子
 
 展示如何创建智能标签。
 
@@ -120,7 +122,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [CustomXmlPropertyCollection](../../customxmlpropertycollection/)
 * class [SmartTag](../)
-* 命名空间 [Aspose.Words.Markup](../../smarttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

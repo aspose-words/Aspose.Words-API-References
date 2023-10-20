@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.PromptText
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAsk ملكية. الحصول على نص المطالبة أو تعيينه عنوان نافذة المطالبة.
+linktitle: PromptText
+articleTitle: PromptText
+second_title: Aspose.Words لـ .NET
+description: FieldAsk PromptText ملكية. الحصول على نص المطالبة أو تعيينه عنوان نافذة المطالبة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldask/prompttext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldask/prompttext/
 public string PromptText { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل ASK وتعيين خصائصه.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### أنظر أيضا
 
 * class [FieldAsk](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldask/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

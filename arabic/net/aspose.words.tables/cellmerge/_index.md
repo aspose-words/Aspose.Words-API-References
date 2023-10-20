@@ -1,7 +1,9 @@
 ---
-title: Enum CellMerge
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Tables.CellMerge تعداد. يحدد كيفية دمج خلية في جدول مع خلايا أخرى.
+title: CellMerge Enum
+linktitle: CellMerge
+articleTitle: CellMerge
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Tables.CellMerge تعداد. يحدد كيفية دمج خلية في جدول مع خلايا أخرى في C#.
 type: docs
 weight: 6270
 url: /ar/net/aspose.words.tables/cellmerge/
@@ -22,7 +24,7 @@ public enum CellMerge
 | First | `1` | الخلية هي الخلية الأولى في نطاق من الخلايا المدمجة. |
 | Previous | `2` | يتم دمج الخلية مع الخلية السابقة أفقيا أو رأسيا. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج خلايا الجدول أفقياً.
 
@@ -121,5 +123,3 @@ doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 
 * مساحة الاسم [Aspose.Words.Tables](../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../)
-
-

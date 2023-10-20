@@ -1,7 +1,9 @@
 ---
 title: Font.Italic
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Yazı tipi italik olarak biçimlendirilmişse doğrudur.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words for .NET
+description: Font Italic mülk. Yazı tipi italik olarak biçimlendirilmişse doğrudur C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/font/italic/
@@ -14,7 +16,7 @@ Yazı tipi italik olarak biçimlendirilmişse doğrudur.
 public bool Italic { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belge oluşturucu kullanılarak italik metnin nasıl yazılacağını gösterir.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "Font.Italic.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

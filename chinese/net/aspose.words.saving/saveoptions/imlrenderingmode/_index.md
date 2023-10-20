@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.ImlRenderingMode
-second_title: Aspose.Words for .NET API 参考
-description: SaveOptions 财产. 获取或设置一个值确定如何呈现墨迹 InkML 对象
+linktitle: ImlRenderingMode
+articleTitle: ImlRenderingMode
+second_title: 用于 .NET 的 Aspose.Words
+description: SaveOptions ImlRenderingMode 财产. 获取或设置一个值确定如何呈现墨迹 InkML 对象 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.saving/saveoptions/imlrenderingmode/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/saveoptions/imlrenderingmode/
 public ImlRenderingMode ImlRenderingMode { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为InkML.
 
 当文档导出为固定页面格式时使用此属性。
 
-### 例子
+## 例子
 
 演示如何渲染 Ink 对象。
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
 
 * enum [ImlRenderingMode](../../imlrenderingmode/)
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../saveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

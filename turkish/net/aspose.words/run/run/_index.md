@@ -1,12 +1,14 @@
 ---
-title: Run.Run
-second_title: Aspose.Words for .NET API Referansı
-description: Run inşaatçı. Yeni bir örneğini başlatırRun class.
+title: Run
+linktitle: Run
+articleTitle: Run
+second_title: Aspose.Words for .NET
+description: Run inşaatçı. Yeni bir örneğini başlatırRun class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/run/run/
 ---
-## Run(DocumentBase) {#constructor}
+## Run(*[DocumentBase](../../documentbase/)*) {#constructor}
 
 Yeni bir örneğini başlatır[`Run`](../) class.
 
@@ -18,13 +20,13 @@ public Run(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Sahibi belgesi. |
 
-### Notlar
+## Notlar
 
 Ne zaman[`Run`](../) oluşturulduysa, belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../node/parentnode/) dır-dir`hükümsüz`.
 
-Eklemek[`Run`](../) belge kullanımınaNode) veyaNode) Çalıştırmanın eklenmesini istediğiniz paragrafta .
+Eklemek[`Run`](../) belge kullanımına[`InsertAfter`](../../compositenode/insertafter/) veya[`InsertBefore`](../../compositenode/insertbefore/) Çalıştırmanın eklenmesini istediğiniz paragrafta .
 
-### Örnekler
+## Örnekler
 
 Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
 
@@ -75,14 +77,14 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Run](../)
-* ad alanı [Aspose.Words](../../run/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Run(DocumentBase, string) {#constructor_1}
+## Run(*[DocumentBase](../../documentbase/), string*) {#constructor_1}
 
-Yeni bir örneğini başlatır **Koşmak** class.
+Yeni bir örneğini başlatır**Koşmak** class.
 
 ```csharp
 public Run(DocumentBase doc, string text)
@@ -93,13 +95,13 @@ public Run(DocumentBase doc, string text)
 | doc | DocumentBase | Sahibi belgesi. |
 | text | String | Çalıştırmanın metni. |
 
-### Notlar
+## Notlar
 
 Ne zaman[`Run`](../) oluşturulduysa, belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../node/parentnode/) dır-dir`hükümsüz`.
 
-Eklemek[`Run`](../) belge kullanımınaNode) veyaNode) Çalıştırmanın eklenmesini istediğiniz paragrafta .
+Eklemek[`Run`](../) belge kullanımına[`InsertAfter`](../../compositenode/insertafter/) veya[`InsertBefore`](../../compositenode/insertbefore/) Çalıştırmanın eklenmesini istediğiniz paragrafta .
 
-### Örnekler
+## Örnekler
 
 Font özelliğini kullanarak bir metin dizisinin nasıl biçimlendirileceğini gösterir.
 
@@ -120,7 +122,5 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Run](../)
-* ad alanı [Aspose.Words](../../run/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

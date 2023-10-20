@@ -1,7 +1,9 @@
 ---
 title: FieldImport.IsLinked
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldImport свойство. Получает или задает следует ли уменьшать размер файла не сохраняя графические данные вместе с документом.
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: Aspose.Words для .NET
+description: FieldImport IsLinked свойство. Получает или задает следует ли уменьшать размер файла не сохраняя графические данные вместе с документом на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldimport/islinked/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldimport/islinked/
 public bool IsLinked { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять изображения с помощью полей IMPORT и INCLUDEPICTURE.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Смотрите также
 
 * class [FieldImport](../)
-* пространство имен [Aspose.Words.Fields](../../fieldimport/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

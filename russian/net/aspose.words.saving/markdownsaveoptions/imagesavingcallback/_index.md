@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ImageSavingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: MarkdownSaveOptions свойство. Позволяет контролировать сохранение изображений при сохранении документа в .Markdown формат.
+linktitle: ImageSavingCallback
+articleTitle: ImageSavingCallback
+second_title: Aspose.Words для .NET
+description: MarkdownSaveOptions ImageSavingCallback свойство. Позволяет контролировать сохранение изображений при сохранении документа в .Markdown формат на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как переименовать имя изображения во время сохранения в документ Markdown.
 
@@ -74,7 +76,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * interface [IImageSavingCallback](../../iimagesavingcallback/)
 * class [MarkdownSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../markdownsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

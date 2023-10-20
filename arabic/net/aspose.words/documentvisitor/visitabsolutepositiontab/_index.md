@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitAbsolutePositionTab
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. تم الاتصال به عندما أAbsolutePositionTab تمت مصادفة عقدة في المستند.
+linktitle: VisitAbsolutePositionTab
+articleTitle: VisitAbsolutePositionTab
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitAbsolutePositionTab طريقة. تم الاتصال به عندما أAbsolutePositionTab تمت مصادفة عقدة في المستند في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/documentvisitor/visitabsolutepositiontab/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية معالجة أحرف علامة تبويب الموضع المطلق مع زائر المستند.
 
@@ -100,7 +102,5 @@ public class DocTextExtractor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [AbsolutePositionTab](../../absolutepositiontab/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomPart.Name
-second_title: Aspose.Words för .NET API Referens
-description: CustomPart fast egendom. Hämtar eller ställer in denna dels absoluta namn i OOXMLpaketet eller målURL.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words för .NET
+description: CustomPart Name fast egendom. Hämtar eller ställer in denna dels absoluta namn i OOXMLpaketet eller målURL i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.markup/custompart/name/
@@ -14,13 +16,13 @@ Hämtar eller ställer in denna dels absoluta namn i OOXML-paketet eller mål-UR
 public string Name { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om relationsmålet är internt är denna egenskap det absoluta delnamnet i paketet. Om relationsmålet är externt är den här egenskapen mål-URL.
 
 Standardvärdet är en tom sträng. Ett giltigt värde måste vara en icke-tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Se även
 
 * class [CustomPart](../)
-* namnutrymme [Aspose.Words.Markup](../../custompart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

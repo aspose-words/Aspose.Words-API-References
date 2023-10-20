@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: HeaderFooter ملكية. إرجاعHeaderFooter .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: HeaderFooter NodeType ملكية. إرجاعHeaderFooter  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/headerfooter/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/headerfooter/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار من خلال أبناء العقدة المركبة.
 
@@ -64,7 +66,5 @@ foreach (Node node in section)
 
 * enum [NodeType](../../nodetype/)
 * class [HeaderFooter](../)
-* مساحة الاسم [Aspose.Words](../../headerfooter/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

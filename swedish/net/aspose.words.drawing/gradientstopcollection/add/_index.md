@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Add
-second_title: Aspose.Words för .NET API Referens
-description: GradientStopCollection metod. Lägger till en specificeradGradientStop till en gradient.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: GradientStopCollection Add metod. Lägger till en specificeradGradientStop till en gradient i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing/gradientstopcollection/add/
@@ -14,7 +16,7 @@ Lägger till en specificerad[`GradientStop`](../../gradientstop/) till en gradie
 public GradientStop Add(GradientStop gradientStop)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till övertoningsstopp i övertoningsfyllningen.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* namnutrymme [Aspose.Words.Drawing](../../gradientstopcollection/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

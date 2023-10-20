@@ -1,7 +1,9 @@
 ---
 title: Node.Clone
-second_title: Aspose.Words för .NET API Referens
-description: Node metod. Skapar en dubblett av noden.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words för .NET
+description: Node Clone metod. Skapar en dubblett av noden i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/node/clone/
@@ -22,13 +24,13 @@ public Node Clone(bool isCloneChildren)
 
 Den klonade noden.
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod fungerar som en kopieringskonstruktor för noder. Den klonade noden har ingen förälder, men tillhör samma dokument som den ursprungliga noden.
 
 Denna metod utför alltid en djup kopia av noden. De*isCloneChildren* parameter anger om alla underordnade noder ska kopieras också.
 
-### Exempel
+## Exempel
 
 Visar hur man klona en sammansatt nod.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(string.Empty, cloneWithoutChildren.GetText().Trim());
 ### Se även
 
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

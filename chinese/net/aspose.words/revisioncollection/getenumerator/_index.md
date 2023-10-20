@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: RevisionCollection 方法. 返回一个枚举器对象
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/revisioncollection/getenumerator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/revisioncollection/getenumerator/
 public IEnumerator<Revision> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档的修订集合。
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [Revision](../../revision/)
 * class [RevisionCollection](../)
-* 命名空间 [Aspose.Words](../../revisioncollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

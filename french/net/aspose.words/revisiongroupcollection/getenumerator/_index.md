@@ -1,7 +1,9 @@
 ---
 title: RevisionGroupCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: RevisionGroupCollection méthode. Renvoie un objet énumérateur.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: RevisionGroupCollection GetEnumerator méthode. Renvoie un objet énumérateur en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/revisiongroupcollection/getenumerator/
@@ -14,7 +16,7 @@ Renvoie un objet énumérateur.
 public IEnumerator<RevisionGroup> GetEnumerator()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec la collection de révisions d’un document.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [RevisionGroup](../../revisiongroup/)
 * class [RevisionGroupCollection](../)
-* espace de noms [Aspose.Words](../../revisiongroupcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

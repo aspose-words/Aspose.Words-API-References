@@ -1,7 +1,9 @@
 ---
-title: Class TaskPaneCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WebExtensions.TaskPaneCollection сорт. Указывает список сохраненных объектов панели задач.
+title: TaskPaneCollection Class
+linktitle: TaskPaneCollection
+articleTitle: TaskPaneCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.WebExtensions.TaskPaneCollection сорт. Указывает список сохраненных объектов панели задач на С#.
 type: docs
 weight: 6720
 url: /ru/net/aspose.words.webextensions/taskpanecollection/
@@ -27,12 +29,12 @@ public class TaskPaneCollection : BaseWebExtensionCollection<TaskPane>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(TaskPane) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*[TaskPane](../taskpane/)*) |  |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) |  |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 * class [TaskPane](../taskpane/)
 * пространство имен [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../)
-
-

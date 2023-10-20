@@ -1,7 +1,9 @@
 ---
-title: LayoutEnumerator.LayoutEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutEnumerator строитель. Инициализирует новый экземпляр этого класса.
+title: LayoutEnumerator
+linktitle: LayoutEnumerator
+articleTitle: LayoutEnumerator
+second_title: Aspose.Words для .NET
+description: LayoutEnumerator строитель. Инициализирует новый экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.layout/layoutenumerator/layoutenumerator/
@@ -18,13 +20,13 @@ public LayoutEnumerator(Document document)
 | --- | --- | --- |
 | document | Document | Документ, модель макета страницы которого необходимо перечислить. |
 
-### Примечания
+## Примечания
 
 Если модель макета страницы документа не построена, перечислитель вызывает[`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) чтобы построить его.
 
 Всякий раз, когда документ обновляется и создается новая модель макета страницы, для доступа к ней необходимо использовать новый перечислитель.
 
-### Примеры
+## Примеры
 
 Показывает способы перемещения по объектам макета документа.
 
@@ -170,7 +172,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutEnumerator](../)
-* пространство имен [Aspose.Words.Layout](../../layoutenumerator/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

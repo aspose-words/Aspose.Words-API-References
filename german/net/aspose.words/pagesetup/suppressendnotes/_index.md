@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SuppressEndnotes
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. True wenn Endnoten am Ende des nächsten Abschnitts gedruckt werden der keine Endnoten unterdrückt. Unterdrückte Endnoten werden vor den Endnoten in diesem Abschnitt gedruckt.
+linktitle: SuppressEndnotes
+articleTitle: SuppressEndnotes
+second_title: Aspose.Words für .NET
+description: PageSetup SuppressEndnotes eigendom. True wenn Endnoten am Ende des nächsten Abschnitts gedruckt werden der keine Endnoten unterdrückt. Unterdrückte Endnoten werden vor den Endnoten in diesem Abschnitt gedruckt in C#.
 type: docs
 weight: 410
 url: /de/net/aspose.words/pagesetup/suppressendnotes/
@@ -14,7 +16,7 @@ True, wenn Endnoten am Ende des nächsten Abschnitts gedruckt werden, der keine 
 public bool SuppressEndnotes { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Endnoten am Ende jedes Abschnitts gespeichert und ihre Positionen geändert werden.
 
@@ -73,7 +75,5 @@ private static void InsertSectionWithEndnote(Document doc, string sectionBodyTex
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

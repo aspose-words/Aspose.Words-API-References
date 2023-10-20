@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetChild
-second_title: Справочник по API Aspose.Words для .NET
-description: CompositeNode метод. Возвращает Nй дочерний узел соответствующий указанному типу.
+linktitle: GetChild
+articleTitle: GetChild
+second_title: Aspose.Words для .NET
+description: CompositeNode GetChild метод. Возвращает Nй дочерний узел соответствующий указанному типу на С#.
 type: docs
-weight: 100
+weight: 80
 url: /ru/net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
@@ -24,13 +26,13 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 
 Дочерний узел, соответствующий критериям или`нулевой` если соответствующий узел не найден.
 
-### Примечания
+## Примечания
 
 Если индекс выходит за пределы диапазона,`нулевой` возвращается.
 
 Обратите внимание, что узлы разметки (StructuredDocumentTag иSmartTag ) пройдут, даже если*isDeep* "="`ЛОЖЬ` и`GetChild` вызывается для типа узла без разметки. Например, если первый запуск в para завернут в[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , он все равно будет возвращен`GetChild`(Run , 0,`ЛОЖЬ`).
 
-### Примеры
+## Примеры
 
 Показывает, как применить свойства стиля таблицы непосредственно к ее элементам.
 
@@ -103,7 +105,5 @@ foreach (Node child in children)
 * class [Node](../../node/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* пространство имен [Aspose.Words](../../compositenode/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

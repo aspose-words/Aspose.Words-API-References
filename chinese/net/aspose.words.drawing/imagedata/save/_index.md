@@ -1,12 +1,14 @@
 ---
 title: ImageData.Save
-second_title: Aspose.Words for .NET API 参考
-description: ImageData 方法. 将图像保存到指定的流中
+linktitle: Save
+articleTitle: Save
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageData Save 方法. 将图像保存到指定的流中 在 C#.
 type: docs
-weight: 200
+weight: 190
 url: /zh/net/aspose.words.drawing/imagedata/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 将图像保存到指定的流中。
 
@@ -18,11 +20,11 @@ public void Save(Stream stream)
 | --- | --- | --- |
 | stream | Stream | 将图像保存到的流。 |
 
-### 评论
+## 评论
 
 调用者有责任处置流对象吗？
 
-### 例子
+## 例子
 
 演示如何将文档中的所有图像保存到文件系统。
 
@@ -55,12 +57,12 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### 也可以看看
 
 * class [ImageData](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagedata/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 将图像保存到文件中。
 
@@ -72,7 +74,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | 保存图像的文件名。 |
 
-### 例子
+## 例子
 
 演示如何从文档中提取图像，并将它们作为单独的文件保存到本地文件系统。
 
@@ -103,7 +105,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 ### 也可以看看
 
 * class [ImageData](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagedata/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

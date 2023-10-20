@@ -1,7 +1,9 @@
 ---
 title: FormField.DropDownItems
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Обеспечивает доступ к элементам поля раскрывающейся формы.
+linktitle: DropDownItems
+articleTitle: DropDownItems
+second_title: Aspose.Words для .NET
+description: FormField DropDownItems свойство. Обеспечивает доступ к элементам поля раскрывающейся формы на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/formfield/dropdownitems/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/formfield/dropdownitems/
 public DropDownItemCollection DropDownItems { get; }
 ```
 
-### Примечания
+## Примечания
 
 Microsoft Word допускает максимум 25 элементов в поле раскрывающейся формы.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -153,7 +155,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [DropDownItemCollection](../../dropdownitemcollection/)
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

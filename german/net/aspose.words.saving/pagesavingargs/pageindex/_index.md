@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageIndex
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSavingArgs eigendom. Aktueller Seitenindex.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words für .NET
+description: PageSavingArgs PageIndex eigendom. Aktueller Seitenindex in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/pagesavingargs/pageindex/
@@ -14,7 +16,7 @@ Aktueller Seitenindex.
 public int PageIndex { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Rückruf verwendet wird, um ein Dokument Seite für Seite im HTML-Format zu speichern.
 
@@ -71,7 +73,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Siehe auch
 
 * class [PageSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../pagesavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

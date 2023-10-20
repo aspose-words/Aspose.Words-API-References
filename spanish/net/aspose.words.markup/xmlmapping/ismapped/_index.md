@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.IsMapped
-second_title: Referencia de API de Aspose.Words para .NET
-description: XmlMapping propiedad. Devolucionesverdadero si la etiqueta del documento estructurado principal se asigna correctamente a datos XML.
+linktitle: IsMapped
+articleTitle: IsMapped
+second_title: Aspose.Words para .NET
+description: XmlMapping IsMapped propiedad. Devolucionesverdadero si la etiqueta del documento estructurado principal se asigna correctamente a datos XML en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.markup/xmlmapping/ismapped/
@@ -14,7 +16,7 @@ Devoluciones`verdadero` si la etiqueta del documento estructurado principal se a
 public bool IsMapped { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar asignaciones XML para partes XML personalizadas.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Ver también
 
 * class [XmlMapping](../)
-* espacio de nombres [Aspose.Words.Markup](../../xmlmapping/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

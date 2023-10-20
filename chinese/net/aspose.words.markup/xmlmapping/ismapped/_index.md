@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.IsMapped
-second_title: Aspose.Words for .NET API 参考
-description: XmlMapping 财产. 返回真的如果父结构化文档标签成功映射到 XML 数据
+linktitle: IsMapped
+articleTitle: IsMapped
+second_title: 用于 .NET 的 Aspose.Words
+description: XmlMapping IsMapped 财产. 返回真的如果父结构化文档标签成功映射到 XML 数据 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/xmlmapping/ismapped/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/xmlmapping/ismapped/
 public bool IsMapped { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何为自定义 XML 部件设置 XML 映射。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### 也可以看看
 
 * class [XmlMapping](../)
-* 命名空间 [Aspose.Words.Markup](../../xmlmapping/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

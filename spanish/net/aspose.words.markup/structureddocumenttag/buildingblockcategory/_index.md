@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.BuildingBlockCategory
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag propiedad. Especifica la categoría del bloque de creación para este TED node. No puede sernulo .
+linktitle: BuildingBlockCategory
+articleTitle: BuildingBlockCategory
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag BuildingBlockCategory propiedad. Especifica la categoría del bloque de creación para esteTED node. No puede sernulo  en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.markup/structureddocumenttag/buildingblockcategory/
 ---
 ## StructuredDocumentTag.BuildingBlockCategory property
 
-Especifica la categoría del bloque de creación para este **TED** node. No puede ser`nulo` .
+Especifica la categoría del bloque de creación para este**TED** node. No puede ser`nulo` .
 
 ```csharp
 public string BuildingBlockCategory { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
-Acceder a esta propiedad sólo funcionará paraBuildingBlockGallery y DocPartObj Tipos de TDS. Es de sólo lectura para **TED** del tipo de parte del documento.
+Acceder a esta propiedad sólo funcionará paraBuildingBlockGallery y DocPartObj Tipos de TDS. Es de sólo lectura para**TED** del tipo de parte del documento.
 
 Para todos los demás tipos de SDT se producirá una excepción.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una etiqueta de documento estructurado como bloque de construcción y configurar su categoría y galería.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.BuildingBlockCategories.docx");
 ### Ver también
 
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

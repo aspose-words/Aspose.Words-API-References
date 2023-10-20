@@ -1,7 +1,9 @@
 ---
-title: Class FieldToc
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldToc classe. Implémente le champ TOC.
+title: FieldToc Class
+linktitle: FieldToc
+articleTitle: FieldToc
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldToc classe. Implémente le champ TOC en C#.
 type: docs
 weight: 2530
 url: /fr/net/aspose.words.fields/fieldtoc/
@@ -58,18 +60,18 @@ public class FieldToc : Field
 | Nom | La description |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 | [UpdatePageNumbers](../../aspose.words.fields/fieldtoc/updatepagenumbers/)() | Met à jour les numéros de page des éléments de cette table des matières. |
 
-### Remarques
+## Remarques
 
 Construit une table des matières (qui peut également être une table des figures) en utilisant les entrées spécifiées par les champs TC, leurs niveaux de titre et les styles spécifiés, et insère cette table à cet endroit dans le document.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une table des matières et la remplir avec des entrées basées sur les styles de titre.
 
@@ -227,5 +229,3 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 * class [Field](../field/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

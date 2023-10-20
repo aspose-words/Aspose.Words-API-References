@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EncryptionDetails
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Çıktı PDF belgesinin şifrelenmesine ilişkin ayrıntıları alır veya ayarlar.
+linktitle: EncryptionDetails
+articleTitle: EncryptionDetails
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions EncryptionDetails mülk. Çıktı PDF belgesinin şifrelenmesine ilişkin ayrıntıları alır veya ayarlar C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
 public PdfEncryptionDetails EncryptionDetails { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`hükümsüz` ve çıktı belgesi şifrelenmeyecektir. Bu özellik geçerli bir değere ayarlandığında[`PdfEncryptionDetails`](../../pdfencryptiondetails/) object, sonra çıktı PDF belgesi şifrelenecektir.
 
@@ -26,7 +28,7 @@ ContentCopyForAccessibility Çıktı belgesi şifrelenmişse PDF/UA uyumluluğu 
 
 ContentCopyForAccessibility izin PDF 2.0 formatında kullanımdan kaldırıldı. Bu izin, PDF 2.0'a kaydederken göz ardı edilecek.
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir PDF belgesinde izinlerin nasıl ayarlanacağını gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * class [PdfEncryptionDetails](../../pdfencryptiondetails/)
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitTableEnd
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 表枚举结束时调用
+linktitle: VisitTableEnd
+articleTitle: VisitTableEnd
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitTableEnd 方法. 表枚举结束时调用 在 C#.
 type: docs
 weight: 490
 url: /zh/net/aspose.words/documentvisitor/visittableend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitTableEnd(Table table)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
 演示如何打印文档中每个表的节点结构。
 
@@ -378,7 +380,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

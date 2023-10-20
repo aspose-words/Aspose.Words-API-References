@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: CustomPartCollection fast egendom. Hämtar antalet element som finns i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: CustomPartCollection Count fast egendom. Hämtar antalet element som finns i samlingen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/custompartcollection/count/
@@ -14,7 +16,7 @@ Hämtar antalet element som finns i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Se även
 
 * class [CustomPartCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../custompartcollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

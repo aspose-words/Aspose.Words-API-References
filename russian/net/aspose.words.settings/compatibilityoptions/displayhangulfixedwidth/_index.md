@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DisplayHangulFixedWidth
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Всегда используйте фиксированную ширину для символов хангыля.
+linktitle: DisplayHangulFixedWidth
+articleTitle: DisplayHangulFixedWidth
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions DisplayHangulFixedWidth свойство. Всегда используйте фиксированную ширину для символов хангыля на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.settings/compatibilityoptions/displayhangulfixedwidth/
@@ -17,7 +19,5 @@ public bool DisplayHangulFixedWidth { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class StreamFontSource
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.StreamFontSource sınıf. Kullanıcı tanımlı akış yazı tipi kaynağı için temel sınıf.
+title: StreamFontSource Class
+linktitle: StreamFontSource
+articleTitle: StreamFontSource
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.StreamFontSource sınıf. Kullanıcı tanımlı akış yazı tipi kaynağı için temel sınıf C#'da.
 type: docs
 weight: 3040
 url: /tr/net/aspose.words.fonts/streamfontsource/
@@ -32,7 +34,7 @@ public abstract class StreamFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Bu kaynak aracılığıyla kullanılabilen yazı tiplerinin listesini döndürür. |
 | abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream/)() | Bu yöntem, akışı isteğe bağlı olarak yazı tipi verileriyle açmalıdır. |
 
-### Notlar
+## Notlar
 
 Akış yazı tipi kaynağını kullanmak için türetilmiş bir sınıf oluşturmalısınız.`StreamFontSource` ve uygulanmasını sağlayın[`OpenFontDataStream`](./openfontdatastream/) yöntem.
 
@@ -40,7 +42,7 @@ Akış yazı tipi kaynağını kullanmak için türetilmiş bir sınıf oluştur
 
 `StreamFontSource` yazı tipi verilerinin yalnızca gerekli olduğunda yüklenmesine izin vermesi ve bunun için bellekte saklanmaması nedeniyle faydalı olabilir.[`FontSettings`](../fontsettings/) ömür.
 
-### Örnekler
+## Örnekler
 
 Akıştan yazı tiplerinin nasıl yükleneceğini gösterir.
 
@@ -76,5 +78,3 @@ private class StreamFontSourceFile : StreamFontSource
 * class [FontSourceBase](../fontsourcebase/)
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

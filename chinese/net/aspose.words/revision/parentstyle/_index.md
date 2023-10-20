@@ -1,7 +1,9 @@
 ---
 title: Revision.ParentStyle
-second_title: Aspose.Words for .NET API 参考
-description: Revision 财产. 获取此修订版的直接父样式所有者 此属性仅适用于StyleDefinitionChange修订类型.
+linktitle: ParentStyle
+articleTitle: ParentStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: Revision ParentStyle 财产. 获取此修订版的直接父样式所有者 此属性仅适用于StyleDefinitionChange修订类型 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/revision/parentstyle/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/revision/parentstyle/
 public Style ParentStyle { get; }
 ```
 
-### 评论
+## 评论
 
 如果此修订涉及文档节点上的更改，请使用[`ParentNode`](../parentnode/)相反.
 
-### 例子
+## 例子
 
 展示如何使用文档的修订集合。
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [Style](../../style/)
 * class [Revision](../)
-* 命名空间 [Aspose.Words](../../revision/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

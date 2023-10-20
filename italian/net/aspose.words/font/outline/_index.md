@@ -1,7 +1,9 @@
 ---
 title: Font.Outline
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Vero se il carattere è formattato come contorno.
+linktitle: Outline
+articleTitle: Outline
+second_title: Aspose.Words per .NET
+description: Font Outline proprietà. Vero se il carattere è formattato come contorno in C#.
 type: docs
 weight: 290
 url: /it/net/aspose.words/font/outline/
@@ -14,7 +16,7 @@ Vero se il carattere è formattato come contorno.
 public bool Outline { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare una sequenza di testo formattata come contorno.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "Font.Outline.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

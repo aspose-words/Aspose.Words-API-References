@@ -1,7 +1,9 @@
 ---
-title: Enum TextBoxAnchor
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.TextBoxAnchor 枚举. 指定用于形状文本垂直对齐的值
+title: TextBoxAnchor Enum
+linktitle: TextBoxAnchor
+articleTitle: TextBoxAnchor
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.TextBoxAnchor 枚举. 指定用于形状文本垂直对齐的值 在 C#.
 type: docs
 weight: 1330
 url: /zh/net/aspose.words.drawing/textboxanchor/
@@ -29,7 +31,7 @@ public enum TextBoxAnchor
 | TopCenteredBaseline | `8` | 文本与文本框顶部居中的基线对齐。 |
 | BottomCenteredBaseline | `9` | 文本与文本框底部居中的基线对齐。 |
 
-### 例子
+## 例子
 
 演示如何垂直对齐文本框的文本内容。
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

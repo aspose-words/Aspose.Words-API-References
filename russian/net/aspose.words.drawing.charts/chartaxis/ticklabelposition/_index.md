@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Возвращает или задает положение меток делений на оси.
+linktitle: TickLabelPosition
+articleTitle: TickLabelPosition
+second_title: Aspose.Words для .NET
+description: ChartAxis TickLabelPosition свойство. Возвращает или задает положение меток делений на оси на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.drawing.charts/chartaxis/ticklabelposition/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/ticklabelposition/
 public AxisTickLabelPosition TickLabelPosition { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство не поддерживается новыми диаграммами MS Office 2016.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и изменить внешний вид ее осей.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickLabelPosition](../../axisticklabelposition/)
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

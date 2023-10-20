@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.UnusedBuiltinStyles
-second_title: Справочник по API Aspose.Words для .NET
-description: CleanupOptions свойство. Указывает что не используетсяBuiltIn стили следует удалить из document.
+linktitle: UnusedBuiltinStyles
+articleTitle: UnusedBuiltinStyles
+second_title: Aspose.Words для .NET
+description: CleanupOptions UnusedBuiltinStyles свойство. Указывает что не используетсяBuiltIn стили следует удалить из document на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/cleanupoptions/unusedbuiltinstyles/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/cleanupoptions/unusedbuiltinstyles/
 public bool UnusedBuiltinStyles { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить из документа все неиспользуемые пользовательские стили.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 ### Смотрите также
 
 * class [CleanupOptions](../)
-* пространство имен [Aspose.Words](../../cleanupoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

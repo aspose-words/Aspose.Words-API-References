@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Text
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutEnumerator propriété. Obtient le texte de lentité span actuelle. Lance pour dautres types dentités.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words pour .NET
+description: LayoutEnumerator Text propriété. Obtient le texte de lentité span actuelle. Lance pour dautres types dentités en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.layout/layoutenumerator/text/
@@ -14,7 +16,7 @@ Obtient le texte de l'entité span actuelle. Lance pour d'autres types d'entité
 public string Text { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre les moyens de parcourir les entités de mise en page d'un document.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Voir également
 
 * class [LayoutEnumerator](../)
-* espace de noms [Aspose.Words.Layout](../../layoutenumerator/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ListLevel
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Lists.ListLevel 班级. 定义列表级别的格式
+title: ListLevel Class
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Lists.ListLevel 班级. 定义列表级别的格式 在 C#.
 type: docs
 weight: 3500
 url: /zh/net/aspose.words.lists/listlevel/
@@ -41,17 +43,17 @@ public class ListLevel
 | --- | --- |
 | [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet/)() | 为当前列表级别创建图片项目符号形状。 |
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | 删除当前列表级别的图片项目符号。 |
-| [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | 与指定的 ListLevel 进行比较。 |
+| [Equals](../../aspose.words.lists/listlevel/equals/#equals)(*ListLevel*) | 与指定的 ListLevel 进行比较。 |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | 计算该对象的哈希码。 |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | 报告的字符串表示形式`ListLevel`列表项的指定index 的对象。参数指定[`NumberStyle`](../../aspose.words/numberstyle/)以及可选格式 string 时使用Custom已指定。 |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(*int, [NumberStyle](../../aspose.words/numberstyle/), string*) | 报告的字符串表示形式`ListLevel`列表项的指定index 的对象。参数指定[`NumberStyle`](../../aspose.words/numberstyle/)以及可选格式 string 时使用Custom已指定。 |
 
-### 评论
+## 评论
 
 您不创建此类的对象。创建列表时，会自动创建列表级对象 。您访问`ListLevel`通过 the 的对象[`ListLevelCollection`](../listlevelcollection/)收藏。
 
 使用以下属性`ListLevel`为各个列表级别指定列表formatting 。
 
-### 例子
+## 例子
 
 演示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
 
@@ -111,5 +113,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * 命名空间 [Aspose.Words.Lists](../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Node
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Node classe. Classe de base pour tous les nœuds dun document Word.
+title: Node Class
+linktitle: Node
+articleTitle: Node
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Node classe. Classe de base pour tous les nœuds dun document Word en C#.
 type: docs
 weight: 4170
 url: /fr/net/aspose.words/node/
@@ -33,19 +35,19 @@ public abstract class Node
 
 | Nom | La description |
 | --- | --- |
-| abstract [Accept](../../aspose.words/node/accept/)(DocumentVisitor) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crée un duplicata du nœud. |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
+| abstract [Accept](../../aspose.words/node/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepte un visiteur. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un duplicata du nœud. |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(*[NodeType](../nodetype/)*) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(*Type*) | Obtient le premier ancêtre du type d'objet spécifié. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Récupère le texte de ce nœud et de tous ses enfants. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*Node*) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*Node*) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
-| [ToString](../../aspose.words/node/tostring/#tostring_1)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/#tostring_2)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
-| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(NodeType) | Une méthode utilitaire qui convertit une valeur d'énumération de type de nœud en une chaîne conviviale. |
+| [ToString](../../aspose.words/node/tostring/#tostring_1)(*[SaveFormat](../saveformat/)*) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
+| [ToString](../../aspose.words/node/tostring/#tostring_2)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
+| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(*[NodeType](../nodetype/)*) | Une méthode utilitaire qui convertit une valeur d'énumération de type de nœud en une chaîne conviviale. |
 
-### Remarques
+## Remarques
 
 Un document est représenté sous la forme d'une arborescence de nœuds, similaire au DOM ou à XmlDocument.
 
@@ -59,7 +61,7 @@ Le`Node` classe:
 * Implémente les mécanismes de nœud parent et de document propriétaire.
 * Implémente l'accès aux nœuds frères.
 
-### Exemples
+## Exemples
 
 Montre comment supprimer tous les nœuds enfants d’un type spécifique d’un nœud composite.
 
@@ -151,5 +153,3 @@ foreach (Node child in children)
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

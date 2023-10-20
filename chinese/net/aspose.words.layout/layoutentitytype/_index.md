@@ -1,7 +1,9 @@
 ---
-title: Enum LayoutEntityType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Layout.LayoutEntityType 枚举. 布局实体的类型
+title: LayoutEntityType Enum
+linktitle: LayoutEntityType
+articleTitle: LayoutEntityType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Layout.LayoutEntityType 枚举. 布局实体的类型 在 C#.
 type: docs
 weight: 3330
 url: /zh/net/aspose.words.layout/layoutentitytype/
@@ -34,7 +36,7 @@ public enum LayoutEntityType
 | Comment | `1000` | 代表评论内容的占位符。 评论可能有Line和Row子实体. |
 | NoteSeparator | `2000` | 表示脚注/尾注分隔符。 NoteSeparator 可能有Line和Row子实体. |
 
-### 例子
+## 例子
 
 显示遍历文档布局实体的方法。
 
@@ -180,5 +182,3 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * 命名空间 [Aspose.Words.Layout](../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../)
-
-

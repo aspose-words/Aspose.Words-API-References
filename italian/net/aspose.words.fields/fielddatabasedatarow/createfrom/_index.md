@@ -1,7 +1,9 @@
 ---
 title: FieldDatabaseDataRow.CreateFrom
-second_title: Aspose.Words per .NET API Reference
-description: FieldDatabaseDataRow metodo. Inizializza una nuova istanza diFieldDatabaseDataRow class dalDataRow istanza.
+linktitle: CreateFrom
+articleTitle: CreateFrom
+second_title: Aspose.Words per .NET
+description: FieldDatabaseDataRow CreateFrom metodo. Inizializza una nuova istanza diFieldDatabaseDataRow class dalDataRow istanza in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fielddatabasedatarow/createfrom/
@@ -17,7 +19,5 @@ public static FieldDatabaseDataRow CreateFrom(DataRow dataRow)
 ### Guarda anche
 
 * class [FieldDatabaseDataRow](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fielddatabasedatarow/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

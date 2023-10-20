@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertCheckBox
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج حقل نموذج خانة الاختيار في الموضع الحالي.
+linktitle: InsertCheckBox
+articleTitle: InsertCheckBox
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertCheckBox طريقة. إدراج حقل نموذج خانة الاختيار في الموضع الحالي في C#.
 type: docs
 weight: 290
 url: /ar/net/aspose.words/documentbuilder/insertcheckbox/
 ---
-## InsertCheckBox(string, bool, int) {#insertcheckbox_1}
+## InsertCheckBox(*string, bool, int*) {#insertcheckbox_1}
 
 إدراج حقل نموذج خانة الاختيار في الموضع الحالي.
 
@@ -24,11 +26,11 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 
 عقدة حقل النموذج التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 إذا قمت بتحديد اسم لحقل النموذج، فسيتم إنشاء إشارة مرجعية تلقائيًا بنفس الاسم.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج خانات الاختيار في المستند.
 
@@ -59,12 +61,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertCheckBox(string, bool, bool, int) {#insertcheckbox}
+## InsertCheckBox(*string, bool, bool, int*) {#insertcheckbox}
 
 إدراج حقل نموذج خانة الاختيار في الموضع الحالي.
 
@@ -83,11 +85,11 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 
 عقدة حقل النموذج التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 إذا قمت بتحديد اسم لحقل النموذج، فسيتم إنشاء إشارة مرجعية تلقائيًا بنفس الاسم.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج خانات الاختيار في المستند.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: CsvDataSource.CsvDataSource
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CsvDataSource constructeur. Crée une nouvelle source de données avec les données dun fichier CSV en utilisant les options par défaut pour analyser les données CSV.
+title: CsvDataSource
+linktitle: CsvDataSource
+articleTitle: CsvDataSource
+second_title: Aspose.Words pour .NET
+description: CsvDataSource constructeur. Crée une nouvelle source de données avec les données dun fichier CSV en utilisant les options par défaut pour analyser les données CSV en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.reporting/csvdatasource/csvdatasource/
 ---
-## CsvDataSource(string) {#constructor_2}
+## CsvDataSource(*string*) {#constructor_2}
 
 Crée une nouvelle source de données avec les données d'un fichier CSV en utilisant les options par défaut pour analyser les données CSV.
 
@@ -21,12 +23,12 @@ public CsvDataSource(string csvPath)
 ### Voir également
 
 * class [CsvDataSource](../)
-* espace de noms [Aspose.Words.Reporting](../../csvdatasource/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## CsvDataSource(string, CsvDataLoadOptions) {#constructor_3}
+## CsvDataSource(*string, [CsvDataLoadOptions](../../csvdataloadoptions/)*) {#constructor_3}
 
 Crée une nouvelle source de données avec les données d'un fichier CSV à l'aide des options spécifiées pour l'analyse des données CSV.
 
@@ -43,12 +45,12 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 
 * class [CsvDataLoadOptions](../../csvdataloadoptions/)
 * class [CsvDataSource](../)
-* espace de noms [Aspose.Words.Reporting](../../csvdatasource/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## CsvDataSource(Stream) {#constructor}
+## CsvDataSource(*Stream*) {#constructor}
 
 Crée une nouvelle source de données avec les données d'un flux CSV à l'aide des options par défaut pour l'analyse des données CSV.
 
@@ -63,12 +65,12 @@ public CsvDataSource(Stream csvStream)
 ### Voir également
 
 * class [CsvDataSource](../)
-* espace de noms [Aspose.Words.Reporting](../../csvdatasource/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## CsvDataSource(Stream, CsvDataLoadOptions) {#constructor_1}
+## CsvDataSource(*Stream, [CsvDataLoadOptions](../../csvdataloadoptions/)*) {#constructor_1}
 
 Crée une nouvelle source de données avec les données d'un flux CSV à l'aide des options spécifiées pour l'analyse des données CSV.
 
@@ -85,7 +87,5 @@ public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
 
 * class [CsvDataLoadOptions](../../csvdataloadoptions/)
 * class [CsvDataSource](../)
-* espace de noms [Aspose.Words.Reporting](../../csvdatasource/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
-
-

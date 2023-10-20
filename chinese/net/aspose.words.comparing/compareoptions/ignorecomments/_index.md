@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreComments
-second_title: Aspose.Words for .NET API 参考
-description: CompareOptions 财产. 指定是否比较注释中的差异 默认情况下不忽略注释
+linktitle: IgnoreComments
+articleTitle: IgnoreComments
+second_title: 用于 .NET 的 Aspose.Words
+description: CompareOptions IgnoreComments 财产. 指定是否比较注释中的差异 默认情况下不忽略注释 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.comparing/compareoptions/ignorecomments/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.comparing/compareoptions/ignorecomments/
 public bool IgnoreComments { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在进行比较时过滤特定类型的文档元素。
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### 也可以看看
 
 * class [CompareOptions](../)
-* 命名空间 [Aspose.Words.Comparing](../../compareoptions/)
+* 命名空间 [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * 部件 [Aspose.Words](../../../)
-
-

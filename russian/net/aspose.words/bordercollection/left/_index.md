@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Left
-second_title: Справочник по API Aspose.Words для .NET
-description: BorderCollection свойство. Получает левую границу.
+linktitle: Left
+articleTitle: Left
+second_title: Aspose.Words для .NET
+description: BorderCollection Left свойство. Получает левую границу на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/bordercollection/left/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/bordercollection/left/
 public Border Left { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять цвет границы и заливки при построении таблицы.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* пространство имен [Aspose.Words](../../bordercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

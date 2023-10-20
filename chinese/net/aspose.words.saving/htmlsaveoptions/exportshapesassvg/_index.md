@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportShapesAsSvg
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 控制是否Shape将 保存为 HTMLMHTMLEPUB 或 AZW3 时节点将转换为 SVG 图像 默认值为错误的.
+linktitle: ExportShapesAsSvg
+articleTitle: ExportShapesAsSvg
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions ExportShapesAsSvg 财产. 控制是否Shape将 保存为 HTMLMHTMLEPUB 或 AZW3 时节点将转换为 SVG 图像 默认值为错误的 在 C#.
 type: docs
 weight: 250
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
 public bool ExportShapesAsSvg { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果此选项设置为`真的`,[`Shape`](../../../aspose.words.drawing/shape/)节点将导出为 &lt;svg&gt; 元素。 否则，它们将渲染为位图并导出为 &lt;img&gt; 元素。
 
-### 例子
+## 例子
 
 演示如何将形状导出为可缩放矢量图形。
 
@@ -61,7 +63,5 @@ else
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

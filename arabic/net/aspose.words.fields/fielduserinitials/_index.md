@@ -1,7 +1,9 @@
 ---
-title: Class FieldUserInitials
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldUserInitials فصل. ينفذ حقل USERINITIALS.
+title: FieldUserInitials Class
+linktitle: FieldUserInitials
+articleTitle: FieldUserInitials
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldUserInitials فصل. ينفذ حقل USERINITIALS في C#.
 type: docs
 weight: 2590
 url: /ar/net/aspose.words.fields/fielduserinitials/
@@ -43,17 +45,17 @@ public class FieldUserInitials : Field
 | اسم | وصف |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
 | [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
 | [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
-### ملاحظات
+## ملاحظات
 
 استرداد الأحرف الأولى من اسم المستخدم الحالي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل USERINITIALS.
 
@@ -93,5 +95,3 @@ doc.Save(ArtifactsDir + "Field.USERINITIALS.docx");
 * class [Field](../field/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

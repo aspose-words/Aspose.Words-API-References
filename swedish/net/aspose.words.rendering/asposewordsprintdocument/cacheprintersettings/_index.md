@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.CachePrinterSettings
-second_title: Aspose.Words för .NET API Referens
-description: AsposeWordsPrintDocument metod. Läser och cachar vissa fält avPrinterSettings för att minska utskriftstiden.
+linktitle: CachePrinterSettings
+articleTitle: CachePrinterSettings
+second_title: Aspose.Words för .NET
+description: AsposeWordsPrintDocument CachePrinterSettings metod. Läser och cachar vissa fält avPrinterSettings för att minska utskriftstiden i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/
@@ -14,11 +16,11 @@ Läser och cachar vissa fält avPrinterSettings för att minska utskriftstiden.
 public void CachePrinterSettings()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod anropas innan utskriften startar om den inte utfördes tidigare.
 
-### Exempel
+## Exempel
 
 Visar hur du väljer ett sidintervall och en skrivare att skriva ut dokumentet med och sedan tar fram en förhandsgranskning.
 
@@ -67,7 +69,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 ### Se även
 
 * class [AsposeWordsPrintDocument](../)
-* namnutrymme [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

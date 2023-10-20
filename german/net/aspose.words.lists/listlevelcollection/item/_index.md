@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevelCollection eigendom. Ruft eine Listenebene nach Index ab.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: ListLevelCollection Item eigendom. Ruft eine Listenebene nach Index ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.lists/listlevelcollection/item/
@@ -14,7 +16,7 @@ Ruft eine Listenebene nach Index ab.
 public ListLevel this[int index] { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Listenstil erstellt und in einem Dokument verwendet wird.
 
@@ -130,7 +132,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListLevelCollection](../)
-* namensraum [Aspose.Words.Lists](../../listlevelcollection/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

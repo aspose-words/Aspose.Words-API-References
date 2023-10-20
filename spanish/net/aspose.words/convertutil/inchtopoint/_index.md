@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.InchToPoint
-second_title: Referencia de API de Aspose.Words para .NET
-description: ConvertUtil método. Convierte pulgadas a puntos.
+linktitle: InchToPoint
+articleTitle: InchToPoint
+second_title: Aspose.Words para .NET
+description: ConvertUtil InchToPoint método. Convierte pulgadas a puntos en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/convertutil/inchtopoint/
@@ -18,11 +20,11 @@ public static double InchToPoint(double inches)
 | --- | --- | --- |
 | inches | Double | El valor a convertir. |
 
-### Observaciones
+## Observaciones
 
 1 pulgada equivale a 72 puntos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ajustar el tamaño del papel, la orientación, los márgenes y otras configuraciones para una sección.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndInches.docx");
 ### Ver también
 
 * class [ConvertUtil](../)
-* espacio de nombres [Aspose.Words](../../convertutil/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

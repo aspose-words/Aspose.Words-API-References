@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.HasChildNodes
-second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode ملكية. إرجاعحقيقي إذا كانت هذه العقدة تحتوي على أي عقد فرعية.
+linktitle: HasChildNodes
+articleTitle: HasChildNodes
+second_title: Aspose.Words لـ .NET
+description: CompositeNode HasChildNodes ملكية. إرجاعحقيقي إذا كانت هذه العقدة تحتوي على أي عقد فرعية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/compositenode/haschildnodes/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/compositenode/haschildnodes/
 public bool HasChildNodes { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج الصفوف من جدولين في جدول واحد.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ### أنظر أيضا
 
 * class [CompositeNode](../)
-* مساحة الاسم [Aspose.Words](../../compositenode/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: AxisBound.Equals
-second_title: Aspose.Words for .NET API Referansı
-description: AxisBound yöntem. Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words for .NET
+description: AxisBound Equals yöntem. Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing.charts/axisbound/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### Ayrıca bakınız
 
 * class [AxisBound](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../axisbound/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

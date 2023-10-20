@@ -1,12 +1,14 @@
 ---
 title: FontFallbackSettings.Save
-second_title: Aspose.Words for .NET API Referansı
-description: FontFallbackSettings yöntem. Geçerli geri dönüş ayarlarını akışa kaydeder.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words for .NET
+description: FontFallbackSettings Save yöntem. Geçerli geri dönüş ayarlarını akışa kaydeder C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fonts/fontfallbacksettings/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Geçerli geri dönüş ayarlarını akışa kaydeder.
 
@@ -18,7 +20,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Çıkış akışı. |
 
-### Örnekler
+## Örnekler
 
 Yazı tipi geri dönüş ayarlarının bir akışa nasıl yüklenip kaydedileceğini gösterir.
 
@@ -47,12 +49,12 @@ using (FileStream fontFallbackStream =
 ### Ayrıca bakınız
 
 * class [FontFallbackSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Geçerli geri dönüş ayarlarını dosyaya kaydeder.
 
@@ -64,7 +66,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Çıkış dosyası adı. |
 
-### Örnekler
+## Örnekler
 
 Yazı tipi geri dönüş ayarlarının yerel dosya sistemindeki bir XML belgesine/bir XML belgesinden nasıl yükleneceğini ve kaydedileceğini gösterir.
 
@@ -85,7 +87,5 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ### Ayrıca bakınız
 
 * class [FontFallbackSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

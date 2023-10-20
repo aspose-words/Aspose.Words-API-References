@@ -1,7 +1,9 @@
 ---
 title: Fill.BackTintAndShade
-second_title: Aspose.Words für .NET-API-Referenz
-description: Fill eigendom. Ruft einen DoubleWert ab oder legt diesen fest der die Hintergrundfarbe heller oder dunkler macht.
+linktitle: BackTintAndShade
+articleTitle: BackTintAndShade
+second_title: Aspose.Words für .NET
+description: Fill BackTintAndShade eigendom. Ruft einen DoubleWert ab oder legt diesen fest der die Hintergrundfarbe heller oder dunkler macht in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing/fill/backtintandshade/
@@ -14,11 +16,11 @@ Ruft einen Double-Wert ab oder legt diesen fest, der die Hintergrundfarbe heller
 public double BackTintAndShade { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die zulässigen Werte liegen für diese Eigenschaft im Bereich von -1 (am dunkelsten) bis 1 (am hellsten). Null (0) ist neutral. Der Versuch, diese Eigenschaft auf einen Wert kleiner als -1 oder mehr als 1 festzulegen, führt zuArgumentOutOfRangeException.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Designfarbe für die Vordergrund-/Hintergrundformfarbe festgelegt wird.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 ### Siehe auch
 
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

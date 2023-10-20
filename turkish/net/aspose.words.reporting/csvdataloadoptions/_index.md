@@ -1,7 +1,9 @@
 ---
-title: Class CsvDataLoadOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Reporting.CsvDataLoadOptions sınıf. CSV verilerini ayrıştırmaya yönelik seçenekleri temsil eder.
+title: CsvDataLoadOptions Class
+linktitle: CsvDataLoadOptions
+articleTitle: CsvDataLoadOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Reporting.CsvDataLoadOptions sınıf. CSV verilerini ayrıştırmaya yönelik seçenekleri temsil eder C#'da.
 type: docs
 weight: 4660
 url: /tr/net/aspose.words.reporting/csvdataloadoptions/
@@ -21,7 +23,7 @@ public class CsvDataLoadOptions
 | İsim | Tanım |
 | --- | --- |
 | [CsvDataLoadOptions](csvdataloadoptions/#constructor)() | Bu sınıfın yeni bir örneğini varsayılan seçeneklerle başlatır. |
-| [CsvDataLoadOptions](csvdataloadoptions/#constructor_1)(bool) | CSV verilerinin ilk satırda name sütununu içerip içermediğini belirterek bu sınıfın yeni bir örneğini başlatır. |
+| [CsvDataLoadOptions](csvdataloadoptions/#constructor_1)(*bool*) | CSV verilerinin ilk satırda name sütununu içerip içermediğini belirterek bu sınıfın yeni bir örneğini başlatır. |
 
 ## Özellikleri
 
@@ -32,7 +34,7 @@ public class CsvDataLoadOptions
 | [HasHeaders](../../aspose.words.reporting/csvdataloadoptions/hasheaders/) { get; set; } | CSV verilerinin ilk kaydının sütun adlarını içerip içermediğini belirten bir değer alır veya ayarlar. |
 | [QuoteChar](../../aspose.words.reporting/csvdataloadoptions/quotechar/) { get; set; } | Alan değerlerini alıntılamak için kullanılan karakteri alır veya ayarlar. |
 
-### Notlar
+## Notlar
 
 Bu sınıfın bir örneği, yapıcılarına aktarılabilir.[`CsvDataSource`](../csvdatasource/) .
 
@@ -40,5 +42,3 @@ Bu sınıfın bir örneği, yapıcılarına aktarılabilir.[`CsvDataSource`](../
 
 * ad alanı [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../)
-
-

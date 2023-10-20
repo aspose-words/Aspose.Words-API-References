@@ -1,7 +1,9 @@
 ---
 title: Section.PageSetup
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Section propriété. Renvoie un objet qui représente la mise en page et les propriétés de section.
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words pour .NET
+description: Section PageSetup propriété. Renvoie un objet qui représente la mise en page et les propriétés de section en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/section/pagesetup/
@@ -14,7 +16,7 @@ Renvoie un objet qui représente la mise en page et les propriétés de section.
 public PageSetup PageSetup { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une large bordure bleue en haut de la première page.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [PageSetup](../../pagesetup/)
 * class [Section](../)
-* espace de noms [Aspose.Words](../../section/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

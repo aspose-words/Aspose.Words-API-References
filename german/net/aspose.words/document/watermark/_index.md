@@ -1,7 +1,9 @@
 ---
 title: Document.Watermark
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Bietet Zugriff auf das Dokumentwasserzeichen.
+linktitle: Watermark
+articleTitle: Watermark
+second_title: Aspose.Words für .NET
+description: Document Watermark eigendom. Bietet Zugriff auf das Dokumentwasserzeichen in C#.
 type: docs
 weight: 480
 url: /de/net/aspose.words/document/watermark/
@@ -18,7 +20,5 @@ public Watermark Watermark { get; }
 
 * class [Watermark](../../watermark/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

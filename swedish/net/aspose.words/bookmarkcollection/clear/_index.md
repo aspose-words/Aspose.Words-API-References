@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Clear
-second_title: Aspose.Words för .NET API Referens
-description: BookmarkCollection metod. Tar bort alla bokmärken från den här samlingen och från dokumentet.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: BookmarkCollection Clear metod. Tar bort alla bokmärken från den här samlingen och från dokumentet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/bookmarkcollection/clear/
@@ -14,7 +16,7 @@ Tar bort alla bokmärken från den här samlingen och från dokumentet.
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort bokmärken från ett dokument.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Se även
 
 * class [BookmarkCollection](../)
-* namnutrymme [Aspose.Words](../../bookmarkcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

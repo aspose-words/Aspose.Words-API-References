@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.ValueType
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartXValue eigendom. Ruft den Typ des im Objekt gespeicherten XWerts ab.
+linktitle: ValueType
+articleTitle: ValueType
+second_title: Aspose.Words für .NET
+description: ChartXValue ValueType eigendom. Ruft den Typ des im Objekt gespeicherten XWerts ab in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.drawing.charts/chartxvalue/valuetype/
@@ -18,7 +20,5 @@ public ChartXValueType ValueType { get; }
 
 * enum [ChartXValueType](../../chartxvaluetype/)
 * class [ChartXValue](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

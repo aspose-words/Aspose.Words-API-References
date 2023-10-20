@@ -1,7 +1,9 @@
 ---
 title: OdtSaveOptions.MeasureUnit
-second_title: Referencia de API de Aspose.Words para .NET
-description: OdtSaveOptions propiedad. Permite especificar unidades de medida para aplicar al contenido del documento. El valor predeterminado esCentimeters
+linktitle: MeasureUnit
+articleTitle: MeasureUnit
+second_title: Aspose.Words para .NET
+description: OdtSaveOptions MeasureUnit propiedad. Permite especificar unidades de medida para aplicar al contenido del documento. El valor predeterminado esCentimeters en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/odtsaveoptions/measureunit/
@@ -14,11 +16,11 @@ Permite especificar unidades de medida para aplicar al contenido del documento. 
 public OdtSaveMeasureUnit MeasureUnit { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Open Office usa centímetros al especificar longitudes, anchos y otros formatos medibles y propiedades de contenido en documentos, mientras que MS Office usa pulgadas.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar diferentes unidades de medida para definir parámetros de estilo de un documento ODT guardado.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 * enum [OdtSaveMeasureUnit](../../odtsavemeasureunit/)
 * class [OdtSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../odtsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum TextureAlignment
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.TextureAlignment enum. Specifica lallineamento per laffiancamento del riempimento texture.
+title: TextureAlignment Enum
+linktitle: TextureAlignment
+articleTitle: TextureAlignment
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.TextureAlignment enum. Specifica lallineamento per laffiancamento del riempimento texture in C#.
 type: docs
 weight: 1370
 url: /it/net/aspose.words.drawing/texturealignment/
@@ -29,7 +31,7 @@ public enum TextureAlignment
 | BottomRight | `8` | Allineamento texture in basso a destra. |
 | None | `9` | Nessuno allineamento texture. |
 
-### Esempi
+## Esempi
 
 Mostra come riempire e affiancare la texture all'interno della forma.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

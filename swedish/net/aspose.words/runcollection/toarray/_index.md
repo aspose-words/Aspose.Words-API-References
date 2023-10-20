@@ -1,7 +1,9 @@
 ---
 title: RunCollection.ToArray
-second_title: Aspose.Words för .NET API Referens
-description: RunCollection metod. Kopierar alla körningar från samlingen till en ny array av körningar.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words för .NET
+description: RunCollection ToArray metod. Kopierar alla körningar från samlingen till en ny array av körningar i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/runcollection/toarray/
@@ -18,7 +20,7 @@ public Run[] ToArray()
 
 En rad körningar.
 
-### Exempel
+## Exempel
 
 Visar hur man bestämmer revisionstypen för en inline-nod.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Run](../../run/)
 * class [RunCollection](../)
-* namnutrymme [Aspose.Words](../../runcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

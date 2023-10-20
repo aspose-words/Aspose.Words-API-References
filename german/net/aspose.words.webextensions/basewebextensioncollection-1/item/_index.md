@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: BaseWebExtensionCollection eigendom. Ruft ein Element am angegebenen Index ab oder legt es fest.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: BaseWebExtensionCollection Item eigendom. Ruft ein Element am angegebenen Index ab oder legt es fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.webextensions/basewebextensioncollection-1/item/
@@ -18,7 +20,7 @@ public T this[int index] { get; set; }
 | --- | --- |
 | index | Nullbasierter Index des Elements. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Sammlung von Weberweiterungen eines Dokuments gearbeitet wird.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Siehe auch
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* namensraum [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* namensraum [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../../)
-
-

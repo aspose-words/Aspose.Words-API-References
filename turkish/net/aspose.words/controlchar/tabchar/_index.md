@@ -1,7 +1,9 @@
 ---
 title: ControlChar.TabChar
-second_title: Aspose.Words for .NET API Referansı
-description: ControlChar alan. Sekme karakteri char9 veya t.
+linktitle: TabChar
+articleTitle: TabChar
+second_title: Aspose.Words for .NET
+description: ControlChar TabChar alan. Sekme karakteri char9 veya t C#'da.
 type: docs
 weight: 280
 url: /tr/net/aspose.words/controlchar/tabchar/
@@ -14,7 +16,7 @@ Sekme karakteri: (char)9 veya "\t".
 public const char TabChar;
 ```
 
-### Örnekler
+## Örnekler
 
 Sekme durağı konumları için özel aralığın nasıl ayarlanacağını gösterir.
 
@@ -33,7 +35,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ### Ayrıca bakınız
 
 * class [ControlChar](../)
-* ad alanı [Aspose.Words](../../controlchar/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

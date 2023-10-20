@@ -1,18 +1,20 @@
 ---
 title: Aspose.Words.Settings
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Settings namnrymden innehåller klasser och enums som används när du anger olika inställningar och alternativ som lagras i ett dokument. Dessa är sammanslagning skrivskydd kompatibilitet och andra inställningar.
+linktitle: Aspose.Words.Settings
+articleTitle: Aspose.Words.Settings
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.Settings namnrymden innehåller klasser och enums som används när du anger olika inställningar och alternativ som lagras i ett dokument. Dessa är sammanslagning skrivskydd kompatibilitet och andra inställningar i C#.
 type: docs
 weight: 240
 url: /sv/net/aspose.words.settings/
 ---
-De **Aspose.Words.Settings** namnrymden innehåller klasser och enums som används när du anger olika inställningar och alternativ som lagras i ett dokument. Dessa är sammanslagning, skrivskydd, kompatibilitet och andra inställningar.
+De**Aspose.Words.Settings** namnrymden innehåller klasser och enums som används när du anger olika inställningar och alternativ som lagras i ett dokument. Dessa är sammanslagning, skrivskydd, kompatibilitet och andra inställningar.
 
 ## Klasser
 
 | Klass | Beskrivning |
 | --- | --- |
-| [CompatibilityOptions](./compatibilityoptions/) | Innehåller kompatibilitetsalternativ (det vill säga användarinställningarna som anges på **Kompatibilitet** fliken i **alternativ** dialogrutan i Microsoft Word). |
+| [CompatibilityOptions](./compatibilityoptions/) | Innehåller kompatibilitetsalternativ (det vill säga användarinställningarna som anges på**Kompatibilitet** fliken i**alternativ** dialogrutan i Microsoft Word). |
 | [HyphenationOptions](./hyphenationoptions/) | Gör det möjligt att konfigurera alternativ för dokumentavstavning. |
 | [MailMergeSettings](./mailmergesettings/) | Anger all kopplingsinformation för ett dokument. |
 | [Odso](./odso/) | Anger ODSO-inställningarna (Office Data Source Object) för en kopplingsdatakälla. |
@@ -38,5 +40,3 @@ De **Aspose.Words.Settings** namnrymden innehåller klasser och enums som använ
 | [OdsoFieldMappingType](./odsofieldmappingtype/) | Anger möjliga typer som används för att indikera om ett givet kopplingsfält har mappats till en kolumn i den givna externa datakällan. |
 | [ViewType](./viewtype/) | Möjliga värden för visningsläget i Microsoft Word. |
 | [ZoomType](./zoomtype/) | Möjliga värden för hur stort eller litet dokumentet visas på skärmen i Microsoft Word. |
-
-

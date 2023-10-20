@@ -1,7 +1,9 @@
 ---
 title: FieldToc.HideInWebLayout
-second_title: Aspose.Words for .NET API 参考
-description: FieldToc 财产. 获取或设置是否在 Web 布局视图中隐藏制表符前导符和页码
+linktitle: HideInWebLayout
+articleTitle: HideInWebLayout
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldToc HideInWebLayout 财产. 获取或设置是否在 Web 布局视图中隐藏制表符前导符和页码 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.fields/fieldtoc/hideinweblayout/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldtoc/hideinweblayout/
 public bool HideInWebLayout { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入目录，并使用基于标题样式的条目填充它。
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### 也可以看看
 
 * class [FieldToc](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldtoc/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Bindings
-second_title: Referencia de API de Aspose.Words para .NET
-description: WebExtension propiedad. Especifica una lista de enlaces de extensiones web.
+linktitle: Bindings
+articleTitle: Bindings
+second_title: Aspose.Words para .NET
+description: WebExtension Bindings propiedad. Especifica una lista de enlaces de extensiones web en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.webextensions/webextension/bindings/
@@ -14,7 +16,7 @@ Especifica una lista de enlaces de extensiones web.
 public WebExtensionBindingCollection Bindings { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar una extensión web a un documento.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionBindingCollection](../../webextensionbindingcollection/)
 * class [WebExtension](../)
-* espacio de nombres [Aspose.Words.WebExtensions](../../webextension/)
+* espacio de nombres [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../../)
-
-

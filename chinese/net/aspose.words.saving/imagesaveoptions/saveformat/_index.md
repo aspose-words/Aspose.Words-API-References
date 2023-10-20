@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.SaveFormat
-second_title: Aspose.Words for .NET API 参考
-description: ImageSaveOptions 财产. 指定在使用此保存选项对象时保存渲染文档页面或形状的格式 可以是栅格 TiffPngBmp Jpeg或矢量EmfEps Svg.
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSaveOptions SaveFormat 财产. 指定在使用此保存选项对象时保存渲染文档页面或形状的格式 可以是栅格 TiffPngBmp Jpeg或矢量EmfEps Svg 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.saving/imagesaveoptions/saveformat/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/imagesaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### 评论
+## 评论
 
 其他选项的数量取决于所选的格式。
 
 此外，还可以通过以下方式保存到 SVG：[`ImageSaveOptions`](../)并通过[`SvgSaveOptions`](../../svgsaveoptions/)。
 
-### 例子
+## 例子
 
 演示如何在 Aspose.Words 将文档转换为文档时编辑图像。
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LinesToDrop
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取或设置用于计算首字下沉高度的段落文本的行数
+linktitle: LinesToDrop
+articleTitle: LinesToDrop
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat LinesToDrop 财产. 获取或设置用于计算首字下沉高度的段落文本的行数 在 C#.
 type: docs
 weight: 210
 url: /zh/net/aspose.words/paragraphformat/linestodrop/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/linestodrop/
 public int LinesToDrop { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置首字下沉的大小。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LinesToDrop.odt");
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.MergePastedLists
-second_title: Aspose.Words för .NET API Referens
-description: ImportFormatOptions fast egendom. Hämtar eller ställer in ett booleskt värde som anger om inklistrade listor ska slås samman med omgivande listor. Standardvärdet ärfalsk .
+linktitle: MergePastedLists
+articleTitle: MergePastedLists
+second_title: Aspose.Words för .NET
+description: ImportFormatOptions MergePastedLists fast egendom. Hämtar eller ställer in ett booleskt värde som anger om inklistrade listor ska slås samman med omgivande listor. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/importformatoptions/mergepastedlists/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett booleskt värde som anger om inklistrade listor sk
 public bool MergePastedLists { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man slår samman listor från ett dokument.
 
@@ -33,7 +35,5 @@ dstDoc.Save(ArtifactsDir + "Document.MergePastedLists.docx");
 ### Se även
 
 * class [ImportFormatOptions](../)
-* namnutrymme [Aspose.Words](../../importformatoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

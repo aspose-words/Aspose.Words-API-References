@@ -1,24 +1,26 @@
 ---
 title: SignOptions.SignatureLineId
-second_title: Aspose.Words for .NET API 参考
-description: SignOptions 财产. 签名行标识符 默认值为 空全零指南.
+linktitle: SignatureLineId
+articleTitle: SignatureLineId
+second_title: 用于 .NET 的 Aspose.Words
+description: SignOptions SignatureLineId 财产. 签名行标识符 默认值为空全零指南 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.digitalsignatures/signoptions/signaturelineid/
 ---
 ## SignOptions.SignatureLineId property
 
-签名行标识符。 默认值为 **空（全零）指南**.
+签名行标识符。 默认值为**空（全零）指南**.
 
 ```csharp
 public Guid SignatureLineId { get; set; }
 ```
 
-### 评论
+## 评论
 
 设置后，它关联[`SignatureLine`](../../../aspose.words.drawing/signatureline/)与相应的[`DigitalSignature`](../../digitalsignature/).
 
-### 例子
+## 例子
 
 演示如何向文档添加签名行，然后使用数字证书对其进行签名。
 
@@ -134,7 +136,5 @@ public Guid SignatureLineId { get; set; }
 ### 也可以看看
 
 * class [SignOptions](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../signoptions/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

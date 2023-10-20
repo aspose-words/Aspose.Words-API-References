@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetChildNodes
-second_title: Aspose.Words för .NET API Referens
-description: CompositeNode metod. Returnerar en aktiv samling av underordnade noder som matchar den angivna typen.
+linktitle: GetChildNodes
+articleTitle: GetChildNodes
+second_title: Aspose.Words för .NET
+description: CompositeNode GetChildNodes metod. Returnerar en aktiv samling av underordnade noder som matchar den angivna typen i C#.
 type: docs
-weight: 110
+weight: 90
 url: /sv/net/aspose.words/compositenode/getchildnodes/
 ---
 ## CompositeNode.GetChildNodes method
@@ -23,13 +25,13 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 
 En livesamling av underordnade noder av den angivna typen.
 
-### Anmärkningar
+## Anmärkningar
 
 Samlingen av noder som returneras av denna metod är alltid live.
 
 En livesamling är alltid synkroniserad med dokumentet. Till exempel, om you markerade alla avsnitt i ett dokument och räknar upp genom att samlingen tar bort avsnitten, tas avsnittet bort från samlingen omedelbart när det tas bort från dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut alla kommentarer i ett dokument och deras svar.
 
@@ -171,7 +173,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 * class [NodeCollection](../../nodecollection/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* namnutrymme [Aspose.Words](../../compositenode/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowWidth
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.ArrowWidth 枚举. 行尾箭头的宽度
+title: ArrowWidth Enum
+linktitle: ArrowWidth
+articleTitle: ArrowWidth
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.ArrowWidth 枚举. 行尾箭头的宽度 在 C#.
 type: docs
 weight: 500
 url: /zh/net/aspose.words.drawing/arrowwidth/
@@ -23,7 +25,7 @@ public enum ArrowWidth
 | Wide | `2` |  |
 | Default | `0` | 与相同Narrow. |
 
-### 例子
+## 例子
 
 展示创造出各种形状。
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowWidth](../stroke/endarrowwidth/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

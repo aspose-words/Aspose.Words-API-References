@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.TextOutputMode
-second_title: Справочник по API Aspose.Words для .NET
-description: SvgSaveOptions свойство. Получает или задает значение определяющее способ отображения текста в SVG.
+linktitle: TextOutputMode
+articleTitle: TextOutputMode
+second_title: Aspose.Words для .NET
+description: SvgSaveOptions TextOutputMode свойство. Получает или задает значение определяющее способ отображения текста в SVG на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.saving/svgsaveoptions/textoutputmode/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/svgsaveoptions/textoutputmode/
 public SvgTextOutputMode TextOutputMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Используйте это свойство, чтобы получить или установить режим отображения текста внутри документа при сохранении в формате SVG.
 
 Значение по умолчанию:UseTargetMachineFonts.
 
-### Примеры
+## Примеры
 
 Показывает, как имитировать свойства изображений при преобразовании документа .docx в .svg.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "SvgSaveOptions.SaveLikeImage.svg", options);
 
 * enum [SvgTextOutputMode](../../svgtextoutputmode/)
 * class [SvgSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../svgsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

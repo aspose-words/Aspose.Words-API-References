@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageBytes
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData ملكية. الحصول على أو تعيين البايتات الأولية للصورة المخزنة في الشكل.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words لـ .NET
+description: ImageData ImageBytes ملكية. الحصول على أو تعيين البايتات الأولية للصورة المخزنة في الشكل في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.drawing/imagedata/imagebytes/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/imagedata/imagebytes/
 public byte[] ImageBytes { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 ضبط القيمة على`باطل` أو ستقوم مجموعة فارغة بإزالة الصورة من الشكل.
 
 عائدات`باطل` إذا لم تكن الصورة مخزنة في المستند (على سبيل المثال، من المحتمل أن تكون الصورة مرتبطة في هذه الحالة).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء ملف صورة من بيانات الصورة الأولية للشكل.
 
@@ -47,7 +49,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

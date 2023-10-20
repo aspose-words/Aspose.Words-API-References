@@ -1,7 +1,9 @@
 ---
-title: Class VbaExecutableAttribute
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Vba.VbaExecutableAttribute classe. 
+title: VbaExecutableAttribute Class
+linktitle: VbaExecutableAttribute
+articleTitle: VbaExecutableAttribute
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Vba.VbaExecutableAttribute classe.  en C#.
 type: docs
 weight: 6540
 url: /fr/net/aspose.words.vba/vbaexecutableattribute/
@@ -23,5 +25,3 @@ public class VbaExecutableAttribute : Attribute
 
 * espace de noms [Aspose.Words.Vba](../../aspose.words.vba/)
 * Assemblée [Aspose.Words](../../)
-
-

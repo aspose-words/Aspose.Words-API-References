@@ -1,9 +1,11 @@
 ---
 title: CellFormat.VerticalMerge
-second_title: Справочник по API Aspose.Words для .NET
-description: CellFormat свойство. Указывает как ячейка объединяется с другими ячейками по вертикали.
+linktitle: VerticalMerge
+articleTitle: VerticalMerge
+second_title: Aspose.Words для .NET
+description: CellFormat VerticalMerge свойство. Указывает как ячейка объединяется с другими ячейками по вертикали на С#.
 type: docs
-weight: 130
+weight: 120
 url: /ru/net/aspose.words.tables/cellformat/verticalmerge/
 ---
 ## CellFormat.VerticalMerge property
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.tables/cellformat/verticalmerge/
 public CellMerge VerticalMerge { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Ячейки можно объединить по вертикали только в том случае, если их левая и правая границы идентичны.
 
 При вертикальном объединении ячеек области отображения объединенных ячеек объединяются. Объединенная область используется для отображения содержимого первой вертикально объединенной ячейки , а все остальные вертикально объединенные ячейки должны быть пустыми.
 
-### Примеры
+## Примеры
 
 Печатает тип горизонтального и вертикального слияния ячейки.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 
 * enum [CellMerge](../../cellmerge/)
 * class [CellFormat](../)
-* пространство имен [Aspose.Words.Tables](../../cellformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

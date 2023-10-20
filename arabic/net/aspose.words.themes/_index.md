@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Themes
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Themes توفر مساحة الاسم فئات تسمح بالوصول إلى معلومات السمات في مستندات Microsoft Word.
+linktitle: Aspose.Words.Themes
+articleTitle: Aspose.Words.Themes
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Themes توفر مساحة الاسم فئات تسمح بالوصول إلى معلومات السمات في مستندات Microsoft Word في C#.
 type: docs
 weight: 270
 url: /ar/net/aspose.words.themes/
 ---
-ال **Aspose.Words.Themes** توفر مساحة الاسم فئات تسمح بالوصول إلى معلومات السمات في مستندات Microsoft Word.
+ال**Aspose.Words.Themes** توفر مساحة الاسم فئات تسمح بالوصول إلى معلومات السمات في مستندات Microsoft Word.
 
 ## الطبقات
 
@@ -21,5 +23,3 @@ url: /ar/net/aspose.words.themes/
 | --- | --- |
 | [ThemeColor](./themecolor/) | تحديد ألوان السمات لموضوعات المستند. |
 | [ThemeFont](./themefont/) | يحدد أنواع أسماء خطوط السمات لموضوعات المستند. |
-
-

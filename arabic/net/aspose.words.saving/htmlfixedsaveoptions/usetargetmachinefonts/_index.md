@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.UseTargetMachineFonts
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. تشير العلامة إلى ما إذا كان يجب استخدام الخطوط من الجهاز المستهدف لعرض المستند. إذا تم تعيين هذه العلامة علىحقيقي FontFormat وExportEmbeddedFonts الخصائص ليس لها تأثير أيضًاResourceSavingCallback لم يتم تشغيله للخطوط. الافتراضي هوخطأ شنيع .
+linktitle: UseTargetMachineFonts
+articleTitle: UseTargetMachineFonts
+second_title: Aspose.Words لـ .NET
+description: HtmlFixedSaveOptions UseTargetMachineFonts ملكية. تشير العلامة إلى ما إذا كان يجب استخدام الخطوط من الجهاز المستهدف لعرض المستند. إذا تم تعيين هذه العلامة علىحقيقي FontFormat وExportEmbeddedFonts الخصائص ليس لها تأثير أيضًاResourceSavingCallback لم يتم تشغيله للخطوط. الافتراضي هوخطأ شنيع  في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 public bool UseTargetMachineFonts { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام الخطوط فقط من الجهاز المستهدف عند حفظ مستند بتنسيق HTML.
 
@@ -44,7 +46,5 @@ else
 ### أنظر أيضا
 
 * class [HtmlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

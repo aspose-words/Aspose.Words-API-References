@@ -1,7 +1,9 @@
 ---
-title: Class XlsxSaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.XlsxSaveOptions сорт. Может использоваться для указания дополнительных параметров при сохранении документа вXlsx формат.
+title: XlsxSaveOptions Class
+linktitle: XlsxSaveOptions
+articleTitle: XlsxSaveOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.XlsxSaveOptions сорт. Может использоваться для указания дополнительных параметров при сохранении документа вXlsx формат на С#.
 type: docs
 weight: 5710
 url: /ru/net/aspose.words.saving/xlsxsaveoptions/
@@ -29,7 +31,7 @@ public class XlsxSaveOptions : SaveOptions
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Получает или задает логическое значение, указывающее, разрешено ли встраивание шрифтов PostScript в контуры PostScript при встраивании шрифтов TrueType в документ после его сохранения. Значение по умолчанию:`ЛОЖЬ` . |
 | [CompressionLevel](../../aspose.words.saving/xlsxsaveoptions/compressionlevel/) { get; set; } | Указывает уровень сжатия, используемый для сохранения документа. Значение по умолчанию:Normal . |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Получает или задает пользовательский часовой пояс, используемый для полей даты и времени. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Получает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства: **пустая строка** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Получает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства:**пустая строка** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ визуализации 3D-эффектов. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ визуализации эффектов DrawingML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Получает или задает значение, определяющее способ отрисовки фигур DrawingML. |
@@ -52,5 +54,3 @@ public class XlsxSaveOptions : SaveOptions
 * class [SaveOptions](../saveoptions/)
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

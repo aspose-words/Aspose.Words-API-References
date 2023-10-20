@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.IsUSPostalAddress
-second_title: Aspose.Words för .NET API Referens
-description: BarcodeParameters fast egendom. OmPostalAddress är en amerikansk postadress.
+linktitle: IsUSPostalAddress
+articleTitle: IsUSPostalAddress
+second_title: Aspose.Words för .NET
+description: BarcodeParameters IsUSPostalAddress fast egendom. OmPostalAddress är en amerikansk postadress i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.fields/barcodeparameters/isuspostaladdress/
@@ -14,7 +16,7 @@ Om[`PostalAddress`](../postaladdress/) är en amerikansk postadress.
 public bool IsUSPostalAddress { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Se även
 
 * class [BarcodeParameters](../)
-* namnutrymme [Aspose.Words.Fields](../../barcodeparameters/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum FieldIfComparisonResult
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.FieldIfComparisonResult 枚举. 指定 IF 字段条件评估的结果
+title: FieldIfComparisonResult Enum
+linktitle: FieldIfComparisonResult
+articleTitle: FieldIfComparisonResult
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.FieldIfComparisonResult 枚举. 指定 IF 字段条件评估的结果 在 C#.
 type: docs
 weight: 2010
 url: /zh/net/aspose.words.fields/fieldifcomparisonresult/
@@ -22,7 +24,7 @@ public enum FieldIfComparisonResult
 | True | `1` | 条件是`真的`. |
 | False | `2` | 条件是`错误的`. |
 
-### 例子
+## 例子
 
 演示如何插入 IF 字段。
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

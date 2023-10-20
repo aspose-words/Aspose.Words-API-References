@@ -1,7 +1,9 @@
 ---
 title: SaveOutputParameters.ContentType
-second_title: Aspose.Words för .NET API Referens
-description: SaveOutputParameters fast egendom. Returnerar strängen ContentType Internet Media Type som identifierar typen av det sparade dokumentet.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: Aspose.Words för .NET
+description: SaveOutputParameters ContentType fast egendom. Returnerar strängen ContentType Internet Media Type som identifierar typen av det sparade dokumentet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/saveoutputparameters/contenttype/
@@ -14,7 +16,7 @@ Returnerar strängen Content-Type (Internet Media Type) som identifierar typen a
 public string ContentType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt utdataparametrar för ett dokuments lagringsoperation.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("application/pdf", parameters.ContentType);
 ### Se även
 
 * class [SaveOutputParameters](../)
-* namnutrymme [Aspose.Words.Saving](../../saveoutputparameters/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

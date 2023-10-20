@@ -1,7 +1,9 @@
 ---
 title: FieldSaveDate.UseSakaEraCalendar
-second_title: Aspose.Words for .NET API Referansı
-description: FieldSaveDate mülk. Saka Dönemi takviminin kullanılıp kullanılmayacağını alır veya ayarlar.
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: Aspose.Words for .NET
+description: FieldSaveDate UseSakaEraCalendar mülk. Saka Dönemi takviminin kullanılıp kullanılmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldsavedate/usesakaeracalendar/
@@ -14,7 +16,7 @@ Saka Dönemi takviminin kullanılıp kullanılmayacağını alır veya ayarlar.
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgenin Microsoft Word kullanılarak gerçekleştirilen en son kaydetme işleminin tarihini/saatini görüntülemek için KAYIT TARİHİ alanının nasıl kullanılacağını gösterir.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### Ayrıca bakınız
 
 * class [FieldSaveDate](../)
-* ad alanı [Aspose.Words.Fields](../../fieldsavedate/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

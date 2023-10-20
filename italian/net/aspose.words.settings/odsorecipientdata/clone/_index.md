@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Clone
-second_title: Aspose.Words per .NET API Reference
-description: OdsoRecipientData metodo. Restituisce un clone profondo di questo oggetto.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words per .NET
+description: OdsoRecipientData Clone metodo. Restituisce un clone profondo di questo oggetto in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.settings/odsorecipientdata/clone/
@@ -14,7 +16,7 @@ Restituisce un clone profondo di questo oggetto.
 public OdsoRecipientData Clone()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Guarda anche
 
 * class [OdsoRecipientData](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odsorecipientdata/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

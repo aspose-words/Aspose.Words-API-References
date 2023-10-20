@@ -1,9 +1,11 @@
 ---
 title: CellFormat.SetPaddings
-second_title: Aspose.Words for .NET API 参考
-description: CellFormat 方法. 设置添加到单元格内容的左侧/顶部/右侧/底部的空间量以磅为单位
+linktitle: SetPaddings
+articleTitle: SetPaddings
+second_title: 用于 .NET 的 Aspose.Words
+description: CellFormat SetPaddings 方法. 设置添加到单元格内容的左侧/顶部/右侧/底部的空间量以磅为单位 在 C#.
 type: docs
-weight: 170
+weight: 160
 url: /zh/net/aspose.words.tables/cellformat/setpaddings/
 ---
 ## CellFormat.SetPaddings method
@@ -15,7 +17,7 @@ public void SetPaddings(double leftPadding, double topPadding, double rightPaddi
     double bottomPadding)
 ```
 
-### 例子
+## 例子
 
 演示如何用空格填充单元格的内容。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "CellFormat.Padding.docx");
 ### 也可以看看
 
 * class [CellFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../cellformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

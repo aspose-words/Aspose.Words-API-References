@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ResourcesFolder
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Bir belgeyi Html biçiminde dışa aktarırken kaynakların resimler yazı tipleri css kaydedildiği fiziksel klasörü belirtir. Varsayılanhükümsüz .
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: Aspose.Words for .NET
+description: HtmlFixedSaveOptions ResourcesFolder mülk. Bir belgeyi Html biçiminde dışa aktarırken kaynakların resimler yazı tipleri css kaydedildiği fiziksel klasörü belirtir. Varsayılanhükümsüz  C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ Bir belgeyi Html biçiminde dışa aktarırken kaynakların (resimler, yazı tip
 public string ResourcesFolder { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yalnızca şu durumlarda etkilidir:[`ExportEmbeddedImages`](../exportembeddedimages/) mülkiyet`YANLIŞ`.
 
@@ -24,7 +26,7 @@ Bir belgeyi bir dosyaya kaydederseniz ve bir dosya adı sağlarsanız, Aspose.Wo
 
 Bir belgeyi bir akışa kaydederseniz, Aspose.Words'de görüntülerin kaydedileceği bir klasör yoktur, ancak yine de görüntüleri bir yere kaydetmesi gerekir. Bu durumda, erişilebilir bir klasör belirtmeniz gerekir.`ResourcesFolder` mülk
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi HTML'ye dönüştürürken oluşturulan dış kaynakların URI'lerini yazdırmak için geri aramanın nasıl kullanılacağını gösterir.
 
@@ -103,7 +105,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Ayrıca bakınız
 
 * class [HtmlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

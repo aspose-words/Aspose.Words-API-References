@@ -1,7 +1,9 @@
 ---
 title: Shading.ForegroundTintAndShade
-second_title: Aspose.Words for .NET API Referansı
-description: Shading mülk. Ön plan tema rengini açan veya koyulaştıran bir çift değer alır veya ayarlar.
+linktitle: ForegroundTintAndShade
+articleTitle: ForegroundTintAndShade
+second_title: Aspose.Words for .NET
+description: Shading ForegroundTintAndShade mülk. Ön plan tema rengini açan veya koyulaştıran bir çift değer alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/shading/foregroundtintandshade/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words/shading/foregroundtintandshade/
 public double ForegroundTintAndShade { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik için izin verilen değerler -1 (en koyu) ila 1 (en açık) aralığındadır. Sıfır (0) nötrdür. Bu özelliği -1'den küçük veya 1 'den büyük bir değere ayarlamaya çalışmak şu sonuçlarla sonuçlanır:ArgumentOutOfRangeException.
 
 Bu özelliğin tema dışı renkler ile Gölgelendirme nesnesi için ayarlanması şu sonucu doğurur:InvalidOperationException.
 
-### Örnekler
+## Örnekler
 
 Gölgelendirme dokusu için ön plan ve arka plan renklerinin nasıl ayarlanacağını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Font.ForegroundAndBackground.docx");
 ### Ayrıca bakınız
 
 * class [Shading](../)
-* ad alanı [Aspose.Words](../../shading/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

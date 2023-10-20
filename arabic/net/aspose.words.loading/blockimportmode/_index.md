@@ -1,7 +1,9 @@
 ---
-title: Enum BlockImportMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.BlockImportMode تعداد. يحدد كيفية استيراد خصائص عناصر مستوى الكتلة من المستندات المستندة إلى HTML.
+title: BlockImportMode Enum
+linktitle: BlockImportMode
+articleTitle: BlockImportMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.BlockImportMode تعداد. يحدد كيفية استيراد خصائص عناصر مستوى الكتلة من المستندات المستندة إلى HTML في C#.
 type: docs
 weight: 3560
 url: /ar/net/aspose.words.loading/blockimportmode/
@@ -21,7 +23,7 @@ public enum BlockImportMode
 | Merge | `0` | يتم دمج خصائص الكتل الرئيسية وتخزينها في العناصر الفرعية (أي الفقرات أو الجداول). |
 | Preserve | `1` | يتم استيراد خصائص الكتل الأصلية إلى بنية منطقية خاصة ويتم تخزينها بشكل منفصل عن عقد الوثيقة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استيراد خصائص العناصر على مستوى الكتلة من المستندات المستندة إلى HTML.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BlockImport.docx");
 
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

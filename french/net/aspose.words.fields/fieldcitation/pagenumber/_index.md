@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.PageNumber
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldCitation propriété. Obtient ou définit un numéro de page associé à la citation.
+linktitle: PageNumber
+articleTitle: PageNumber
+second_title: Aspose.Words pour .NET
+description: FieldCitation PageNumber propriété. Obtient ou définit un numéro de page associé à la citation en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldcitation/pagenumber/
@@ -14,7 +16,7 @@ Obtient ou définit un numéro de page associé à la citation.
 public string PageNumber { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec les champs CITATION et BIBLIOGRAPHIE.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Voir également
 
 * class [FieldCitation](../)
-* espace de noms [Aspose.Words.Fields](../../fieldcitation/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

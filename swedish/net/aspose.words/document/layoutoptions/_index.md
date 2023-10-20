@@ -1,7 +1,9 @@
 ---
 title: Document.LayoutOptions
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Får enLayoutOptions objekt som representerar alternativ för att styra layoutprocessen för detta dokument.
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: Aspose.Words för .NET
+description: Document LayoutOptions fast egendom. Får enLayoutOptions objekt som representerar alternativ för att styra layoutprocessen för detta dokument i C#.
 type: docs
 weight: 250
 url: /sv/net/aspose.words/document/layoutoptions/
@@ -14,7 +16,7 @@ Får en[`LayoutOptions`](../../../aspose.words.layout/layoutoptions/) objekt som
 public LayoutOptions LayoutOptions { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man döljer text i ett renderat utdatadokument.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * class [LayoutOptions](../../../aspose.words.layout/layoutoptions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Placeholder
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart propriété. Obtient leBuildingBlockcontenant du texte despace réservé qui doit être affiché lorsque le contenu de cette exécution de balise de document structuré est vide lélément XML mappé associé est vide comme spécifié via leXmlMapping élément ou leIsShowingPlaceholderText lélément estvrai .
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTagRangeStart Placeholder propriété. Obtient leBuildingBlockcontenant du texte despace réservé qui doit être affiché lorsque le contenu de cette exécution de balise de document structuré est vide lélément XML mappé associé est vide comme spécifié via leXmlMapping élément ou leIsShowingPlaceholderText lélément estvrai  en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/placeholder/
@@ -14,7 +16,7 @@ Obtient le[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)
 public BuildingBlock Placeholder { get; }
 ```
 
-### Remarques
+## Remarques
 
 Peut être`nul`, ce qui signifie que l'espace réservé ne s'applique pas à cette balise de document structuré.
 
@@ -22,7 +24,5 @@ Peut être`nul`, ce qui signifie que l'espace réservé ne s'applique pas à cet
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTagRangeStart](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

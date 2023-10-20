@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.IgnoreTextBoxes
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImportFormatOptions propiedad. Obtiene o establece un valor booleano que especifica que el formato de origen del contenido de los cuadros de texto se ignora siKeepSourceFormatting Se utiliza el modo. El valor predeterminado esverdadero .
+linktitle: IgnoreTextBoxes
+articleTitle: IgnoreTextBoxes
+second_title: Aspose.Words para .NET
+description: ImportFormatOptions IgnoreTextBoxes propiedad. Obtiene o establece un valor booleano que especifica que el formato de origen del contenido de los cuadros de texto se ignora siKeepSourceFormatting Se utiliza el modo. El valor predeterminado esverdadero  en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/importformatoptions/ignoretextboxes/
@@ -14,7 +16,7 @@ Obtiene o establece un valor booleano que especifica que el formato de origen de
 public bool IgnoreTextBoxes { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo administrar el formato de cuadro de texto al agregar un documento.
 
@@ -63,7 +65,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.IgnoreTextBoxes.docx");
 ### Ver también
 
 * class [ImportFormatOptions](../)
-* espacio de nombres [Aspose.Words](../../importformatoptions/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

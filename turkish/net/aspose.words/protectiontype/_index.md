@@ -1,7 +1,9 @@
 ---
-title: Enum ProtectionType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.ProtectionType Sıralama. Bir belge için koruma türü.
+title: ProtectionType Enum
+linktitle: ProtectionType
+articleTitle: ProtectionType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.ProtectionType Sıralama. Bir belge için koruma türü C#'da.
 type: docs
 weight: 4510
 url: /tr/net/aspose.words/protectiontype/
@@ -24,7 +26,7 @@ public enum ProtectionType
 | ReadOnly | `3` | Belgede değişiklik yapılmasına izin verilmez. Microsoft Word 2003. 'den beri mevcuttur |
 | NoProtection | `-1` | Belge korunmuyor. |
 
-### Örnekler
+## Örnekler
 
 Bir bölüm için korumanın nasıl kapatılacağını gösterir.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

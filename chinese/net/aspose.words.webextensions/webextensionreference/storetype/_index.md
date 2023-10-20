@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.StoreType
-second_title: Aspose.Words for .NET API 参考
-description: WebExtensionReference 财产. 指定市场类型
+linktitle: StoreType
+articleTitle: StoreType
+second_title: 用于 .NET 的 Aspose.Words
+description: WebExtensionReference StoreType 财产. 指定市场类型 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.webextensions/webextensionreference/storetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.webextensions/webextensionreference/storetype/
 public WebExtensionStoreType StoreType { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [WebExtensionStoreType](../../webextensionstoretype/)
 * class [WebExtensionReference](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../webextensionreference/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

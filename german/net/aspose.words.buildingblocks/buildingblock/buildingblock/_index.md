@@ -1,7 +1,9 @@
 ---
-title: BuildingBlock.BuildingBlock
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuildingBlock constructeur. Initialisiert eine neue Instanz dieser Klasse.
+title: BuildingBlock
+linktitle: BuildingBlock
+articleTitle: BuildingBlock
+second_title: Aspose.Words für .NET
+description: BuildingBlock constructeur. Initialisiert eine neue Instanz dieser Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.buildingblocks/buildingblock/buildingblock/
@@ -18,13 +20,13 @@ public BuildingBlock(GlossaryDocument glossaryDoc)
 | --- | --- | --- |
 | glossaryDoc | GlossaryDocument | Das Eigentümerdokument. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wann[`BuildingBlock`](../)erstellt wird, gehört es zum angegebenen Glossardokument , ist aber noch nicht Teil des Glossardokuments und[`ParentNode`](../../../aspose.words/node/parentnode/) Ist`Null`.
 
-Anhängen[`BuildingBlock`](../)zu einem[`GlossaryDocument`](../../glossarydocument/) benutze Node).
+Anhängen[`BuildingBlock`](../)zu einem[`GlossaryDocument`](../../glossarydocument/) benutze [`AppendChild`](../../../aspose.words/compositenode/appendchild/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument einen benutzerdefinierten Baustein hinzufügt.
 
@@ -122,7 +124,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [GlossaryDocument](../../glossarydocument/)
 * class [BuildingBlock](../)
-* namensraum [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namensraum [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../../)
-
-

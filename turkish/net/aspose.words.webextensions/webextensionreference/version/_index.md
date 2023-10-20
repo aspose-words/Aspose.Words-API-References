@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.Version
-second_title: Aspose.Words for .NET API Referansı
-description: WebExtensionReference mülk. Web uzantısının sürümünü belirtir.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words for .NET
+description: WebExtensionReference Version mülk. Web uzantısının sürümünü belirtir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.webextensions/webextensionreference/version/
@@ -14,7 +16,7 @@ Web uzantısının sürümünü belirtir.
 public string Version { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ayrıca bakınız
 
 * class [WebExtensionReference](../)
-* ad alanı [Aspose.Words.WebExtensions](../../webextensionreference/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

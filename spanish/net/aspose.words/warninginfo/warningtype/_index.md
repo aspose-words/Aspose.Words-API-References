@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.WarningType
-second_title: Referencia de API de Aspose.Words para .NET
-description: WarningInfo propiedad. Devuelve el tipo de advertencia.
+linktitle: WarningType
+articleTitle: WarningType
+second_title: Aspose.Words para .NET
+description: WarningInfo WarningType propiedad. Devuelve el tipo de advertencia en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/warninginfo/warningtype/
@@ -14,7 +16,7 @@ Devuelve el tipo de advertencia.
 public WarningType WarningType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la propiedad para encontrar la coincidencia más cercana para una fuente faltante entre las fuentes de fuentes disponibles.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * enum [WarningType](../../warningtype/)
 * class [WarningInfo](../)
-* espacio de nombres [Aspose.Words](../../warninginfo/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

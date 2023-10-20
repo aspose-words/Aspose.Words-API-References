@@ -1,7 +1,9 @@
 ---
-title: Theme.Theme
-second_title: Aspose.Words für .NET-API-Referenz
-description: Theme constructeur. Default_Constructor
+title: Theme
+linktitle: Theme
+articleTitle: Theme
+second_title: Aspose.Words für .NET
+description: Theme constructeur. Default_Constructor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.themes/theme/theme/
@@ -17,7 +19,5 @@ public Theme()
 ### Siehe auch
 
 * class [Theme](../)
-* namensraum [Aspose.Words.Themes](../../theme/)
+* namensraum [Aspose.Words.Themes](../../../aspose.words.themes/)
 * Montage [Aspose.Words](../../../)
-
-

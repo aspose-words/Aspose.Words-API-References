@@ -1,12 +1,14 @@
 ---
 title: Document.AppendDocument
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Добавляет указанный документ в конец этого документа.
+linktitle: AppendDocument
+articleTitle: AppendDocument
+second_title: Aspose.Words для .NET
+description: Document AppendDocument метод. Добавляет указанный документ в конец этого документа на С#.
 type: docs
-weight: 550
+weight: 530
 url: /ru/net/aspose.words/document/appenddocument/
 ---
-## AppendDocument(Document, ImportFormatMode) {#appenddocument}
+## AppendDocument(*[Document](../), [ImportFormatMode](../../importformatmode/)*) {#appenddocument}
 
 Добавляет указанный документ в конец этого документа.
 
@@ -19,7 +21,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode)
 | srcDoc | Document | Документ для добавления. |
 | importFormatMode | ImportFormatMode | Указывает, как объединить конфликтующее форматирование стилей. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить документ в конец другого документа.
 
@@ -66,12 +68,12 @@ dstDoc.Save(ArtifactsDir + "Document.AppendAllDocumentsInFolder.doc");
 
 * enum [ImportFormatMode](../../importformatmode/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## AppendDocument(Document, ImportFormatMode, ImportFormatOptions) {#appenddocument_1}
+## AppendDocument(*[Document](../), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#appenddocument_1}
 
 Добавляет указанный документ в конец этого документа.
 
@@ -86,7 +88,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode,
 | importFormatMode | ImportFormatMode | Указывает, как объединить конфликтующее форматирование стилей. |
 | importFormatOptions | ImportFormatOptions | Позволяет указать параметры, влияющие на форматирование результирующего документа. |
 
-### Примеры
+## Примеры
 
 Показывает, как управлять конфликтами стилей списка при добавлении клона документа к самому себе.
 
@@ -170,7 +172,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.AppendDocumentAndResolveStyles.docx"
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RevisionGroup.Author
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionGroup ملكية. الحصول على مؤلف مجموعة المراجعة هذه.
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words لـ .NET
+description: RevisionGroup Author ملكية. الحصول على مؤلف مجموعة المراجعة هذه في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/revisiongroup/author/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/revisiongroup/author/
 public string Author { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة معلومات حول مجموعة من المراجعات في مستند.
 
@@ -33,7 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### أنظر أيضا
 
 * class [RevisionGroup](../)
-* مساحة الاسم [Aspose.Words](../../revisiongroup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

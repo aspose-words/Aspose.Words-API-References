@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportPageMargins
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定页边距是否导出为 HTMLMHTML 或 EPUB 默认为错误的.
+linktitle: ExportPageMargins
+articleTitle: ExportPageMargins
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions ExportPageMargins 财产. 指定页边距是否导出为 HTMLMHTML 或 EPUB 默认为错误的 在 C#.
 type: docs
 weight: 210
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
 public bool ExportPageMargins { get; set; }
 ```
 
-### 评论
+## 评论
 
 Aspose.Words 默认情况下不显示页边距区域。 如果任何元素被文档边缘完全或部分剪切，则可以使用 此选项扩展显示区域。
 
-### 例子
+## 例子
 
 演示如何在输出 HTML 文档中显示越界对象。
 
@@ -63,7 +65,5 @@ else
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

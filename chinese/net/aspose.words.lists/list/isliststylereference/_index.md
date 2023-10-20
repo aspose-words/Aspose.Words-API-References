@@ -1,7 +1,9 @@
 ---
 title: List.IsListStyleReference
-second_title: Aspose.Words for .NET API 参考
-description: List 财产. 返回真的如果此列表是对列表样式的引用
+linktitle: IsListStyleReference
+articleTitle: IsListStyleReference
+second_title: 用于 .NET 的 Aspose.Words
+description: List IsListStyleReference 财产. 返回真的如果此列表是对列表样式的引用 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.lists/list/isliststylereference/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.lists/list/isliststylereference/
 public bool IsListStyleReference { get; }
 ```
 
-### 评论
+## 评论
 
 请注意，修改引用列表样式的列表的属性没有任何效果。 列表样式本身中指定的列表格式始终优先。
 
-### 例子
+## 例子
 
 演示如何创建列表样式并在文档中使用它。
 
@@ -79,7 +81,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### 也可以看看
 
 * class [List](../)
-* 命名空间 [Aspose.Words.Lists](../../list/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

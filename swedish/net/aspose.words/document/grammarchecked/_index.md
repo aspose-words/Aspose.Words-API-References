@@ -1,7 +1,9 @@
 ---
 title: Document.GrammarChecked
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. ReturnerarSann om dokumentet har kontrollerats för grammatik.
+linktitle: GrammarChecked
+articleTitle: GrammarChecked
+second_title: Aspose.Words för .NET
+description: Document GrammarChecked fast egendom. ReturnerarSann om dokumentet har kontrollerats för grammatik i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words/document/grammarchecked/
@@ -14,11 +16,11 @@ Returnerar`Sann` om dokumentet har kontrollerats för grammatik.
 public bool GrammarChecked { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För att kontrollera grammatiken i dokumentet igen, ställ in den här egenskapen till`falsk` .
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in stavning eller grammatikverifiering.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.SpellingOrGrammar.docx");
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

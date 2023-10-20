@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.Node
-second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeChangingArgs propriété. Obtient leNode qui est ajouté ou supprimé.
+linktitle: Node
+articleTitle: Node
+second_title: Aspose.Words pour .NET
+description: NodeChangingArgs Node propriété. Obtient leNode qui est ajouté ou supprimé en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/nodechangingargs/node/
@@ -14,7 +16,7 @@ Obtient le`Node` qui est ajouté ou supprimé.
 public Node Node { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment personnaliser le changement de nœud avec un rappel.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* espace de noms [Aspose.Words](../../nodechangingargs/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

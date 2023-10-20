@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontSavingCallback
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Gör det möjligt att styra hur teckensnitt sparas när ett dokument sparas i HTML MHTML eller EPUB.
+linktitle: FontSavingCallback
+articleTitle: FontSavingCallback
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions FontSavingCallback fast egendom. Gör det möjligt att styra hur teckensnitt sparas när ett dokument sparas i HTML MHTML eller EPUB i C#.
 type: docs
 weight: 300
 url: /sv/net/aspose.words.saving/htmlsaveoptions/fontsavingcallback/
@@ -14,7 +16,7 @@ Gör det möjligt att styra hur teckensnitt sparas när ett dokument sparas i HT
 public IFontSavingCallback FontSavingCallback { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * interface [IFontSavingCallback](../../ifontsavingcallback/)
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Row.RowFormat
-second_title: Aspose.Words for .NET API 参考
-description: Row 财产. 提供对行格式属性的访问
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Row RowFormat 财产. 提供对行格式属性的访问 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.tables/row/rowformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/row/rowformat/
 public RowFormat RowFormat { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何修改表行的格式。
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 
 * class [RowFormat](../../rowformat/)
 * class [Row](../)
-* 命名空间 [Aspose.Words.Tables](../../row/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

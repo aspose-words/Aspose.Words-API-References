@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.FarEastLineBreakControl
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar eller ställer in en flagga som indikerar om östasiatiska linjebrytande regler tillämpas på det aktuella stycket.
+linktitle: FarEastLineBreakControl
+articleTitle: FarEastLineBreakControl
+second_title: Aspose.Words för .NET
+description: ParagraphFormat FarEastLineBreakControl fast egendom. Hämtar eller ställer in en flagga som indikerar om östasiatiska linjebrytande regler tillämpas på det aktuella stycket i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/paragraphformat/fareastlinebreakcontrol/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en flagga som indikerar om östasiatiska linjebrytande
 public bool FarEastLineBreakControl { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in speciella egenskaper för asiatisk typografi.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

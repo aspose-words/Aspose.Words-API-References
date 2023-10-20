@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.CompositingQuality
-second_title: Aspose.Words for .NET API Referansı
-description: GraphicsQualityOptions mülk. Bu Grafiğe çizilen birleştirilmiş görüntülerin işleme kalitesini alır veya ayarlar.
+linktitle: CompositingQuality
+articleTitle: CompositingQuality
+second_title: Aspose.Words for .NET
+description: GraphicsQualityOptions CompositingQuality mülk. Bu Grafiğe çizilen birleştirilmiş görüntülerin işleme kalitesini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/graphicsqualityoptions/compositingquality/
@@ -14,7 +16,7 @@ Bu Grafiğe çizilen birleştirilmiş görüntülerin işleme kalitesini alır v
 public CompositingQuality? CompositingQuality { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgeleri görüntü formatlarına dönüştürürken işleme kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Ayrıca bakınız
 
 * class [GraphicsQualityOptions](../)
-* ad alanı [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

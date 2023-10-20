@@ -1,9 +1,11 @@
 ---
 title: ChartDataPointCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataPointCollection metod. Returnerar ett uppräkningsobjekt.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: ChartDataPointCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt i C#.
 type: docs
-weight: 50
+weight: 40
 url: /sv/net/aspose.words.drawing.charts/chartdatapointcollection/getenumerator/
 ---
 ## ChartDataPointCollection.GetEnumerator method
@@ -14,7 +16,7 @@ Returnerar ett uppräkningsobjekt.
 public IEnumerator<ChartDataPoint> GetEnumerator()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * class [ChartDataPoint](../../chartdatapoint/)
 * class [ChartDataPointCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

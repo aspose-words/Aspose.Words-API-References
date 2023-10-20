@@ -1,7 +1,9 @@
 ---
 title: List.ListLevels
-second_title: Aspose.Words for .NET API 参考
-description: List 财产. 获取此列表的列表级别的集合
+linktitle: ListLevels
+articleTitle: ListLevels
+second_title: 用于 .NET 的 Aspose.Words
+description: List ListLevels 财产. 获取此列表的列表级别的集合 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.lists/list/listlevels/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.lists/list/listlevels/
 public ListLevelCollection ListLevels { get; }
 ```
 
-### 评论
+## 评论
 
 使用此属性可以访问和修改列表每个级别的单独格式。
 
-### 例子
+## 例子
 
 演示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
 
@@ -78,7 +80,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevelCollection](../../listlevelcollection/)
 * class [List](../)
-* 命名空间 [Aspose.Words.Lists](../../list/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

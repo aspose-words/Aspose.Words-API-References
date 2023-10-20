@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeHorizontalSize
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.RelativeHorizontalSize تعداد. يحدد نسبيًا ما يتم حساب عرض الشكل أو إطار النص أفقيًا.
+title: RelativeHorizontalSize Enum
+linktitle: RelativeHorizontalSize
+articleTitle: RelativeHorizontalSize
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.RelativeHorizontalSize تعداد. يحدد نسبيًا ما يتم حساب عرض الشكل أو إطار النص أفقيًا في C#.
 type: docs
 weight: 1200
 url: /ar/net/aspose.words.drawing/relativehorizontalsize/
@@ -26,7 +28,7 @@ public enum RelativeHorizontalSize
 | OuterMargin | `5` | يحدد أن العرض يتم حسابه نسبيًا لحجم مساحة الهامش الخارجي، لحجم مساحة الهامش الأيمن للصفحات الفردية وحجم مساحة الهامش الأيسر للصفحات الزوجية. |
 | Default | `1` | القيمة الافتراضية هيMargin . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط الحجم والموضع النسبي.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 * property [RelativeHorizontalSize](../shapebase/relativehorizontalsize/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

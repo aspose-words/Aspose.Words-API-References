@@ -1,7 +1,9 @@
 ---
-title: Class GraphicsQualityOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.GraphicsQualityOptions 班级. 允许指定额外的Graphics质量选项.
+title: GraphicsQualityOptions Class
+linktitle: GraphicsQualityOptions
+articleTitle: GraphicsQualityOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.GraphicsQualityOptions 班级. 允许指定额外的Graphics质量选项 在 C#.
 type: docs
 weight: 5040
 url: /zh/net/aspose.words.saving/graphicsqualityoptions/
@@ -34,7 +36,7 @@ public class GraphicsQualityOptions
 | [TextRenderingHint](../../aspose.words.saving/graphicsqualityoptions/textrenderinghint/) { get; set; } | 获取或设置与此 Graphics 关联的文本的呈现模式。 |
 | [UseTileFlipMode](../../aspose.words.saving/graphicsqualityoptions/usetileflipmode/) { get; set; } | 获取或设置一个标志，指示 WrapMode 是否为 TileFlipXY。 |
 
-### 例子
+## 例子
 
 演示如何在将文档转换为图像格式时设置渲染质量选项。
 
@@ -61,5 +63,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ColorPrintMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Rendering.ColorPrintMode uppräkning. Anger hur ickefärgade sidor skrivs ut om enheten stöder färgutskrift.
+title: ColorPrintMode Enum
+linktitle: ColorPrintMode
+articleTitle: ColorPrintMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Rendering.ColorPrintMode uppräkning. Anger hur ickefärgade sidor skrivs ut om enheten stöder färgutskrift i C#.
 type: docs
 weight: 4540
 url: /sv/net/aspose.words.rendering/colorprintmode/
@@ -21,7 +23,7 @@ public enum ColorPrintMode
 | Normal | `0` | Alla sidor skrivs ut enligt skrivarens kapacitet och inställningar. |
 | GrayscaleAuto | `1` | Icke-färgade sidor om de upptäcks skrivs ut i gråskala. |
 
-### Exempel
+## Exempel
 
 Visar hur du väljer ett sidintervall och en skrivare att skriva ut dokumentet med och sedan tar fram en förhandsgranskning.
 
@@ -71,5 +73,3 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 
 * namnutrymme [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../)
-
-

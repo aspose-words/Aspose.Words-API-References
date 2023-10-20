@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberStyle
-second_title: Aspose.Words for .NET API 参考
-description: ListLevel 财产. 返回或设置此列表级别的数字样式
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevel NumberStyle 财产. 返回或设置此列表级别的数字样式 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.lists/listlevel/numberstyle/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.lists/listlevel/numberstyle/
 public NumberStyle NumberStyle { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
 
@@ -130,7 +132,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [ListLevel](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevel/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

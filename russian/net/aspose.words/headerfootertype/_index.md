@@ -1,7 +1,9 @@
 ---
-title: Enum HeaderFooterType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.HeaderFooterType перечисление. Определяет тип верхнего или нижнего колонтитула в файле Word.
+title: HeaderFooterType Enum
+linktitle: HeaderFooterType
+articleTitle: HeaderFooterType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.HeaderFooterType перечисление. Определяет тип верхнего или нижнего колонтитула в файле Word на С#.
 type: docs
 weight: 3120
 url: /ru/net/aspose.words/headerfootertype/
@@ -25,7 +27,7 @@ public enum HeaderFooterType
 | HeaderFirst | `4` | Заголовок первой страницы раздела. |
 | FooterFirst | `5` | Нижний колонтитул первой страницы раздела. |
 
-### Примеры
+## Примеры
 
 Показывает, как создавать верхние и нижние колонтитулы в документе с помощью DocumentBuilder.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

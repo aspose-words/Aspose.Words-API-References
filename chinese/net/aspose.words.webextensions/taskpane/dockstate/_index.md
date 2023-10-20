@@ -1,7 +1,9 @@
 ---
 title: TaskPane.DockState
-second_title: Aspose.Words for .NET API 参考
-description: TaskPane 财产. 指定此任务窗格对象的最后停靠位置
+linktitle: DockState
+articleTitle: DockState
+second_title: 用于 .NET 的 Aspose.Words
+description: TaskPane DockState 财产. 指定此任务窗格对象的最后停靠位置 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.webextensions/taskpane/dockstate/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.webextensions/taskpane/dockstate/
 public TaskPaneDockState DockState { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [TaskPaneDockState](../../taskpanedockstate/)
 * class [TaskPane](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../taskpane/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.ImageSavingCallback
-second_title: Aspose.Words for .NET API 参考
-description: XamlFlowSaveOptions 财产. 允许控制将文档保存到 XAML 时图像的保存方式
+linktitle: ImageSavingCallback
+articleTitle: ImageSavingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: XamlFlowSaveOptions ImageSavingCallback 财产. 允许控制将文档保存到 XAML 时图像的保存方式 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/xamlflowsaveoptions/imagesavingcallback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/xamlflowsaveoptions/imagesavingcallback/
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何打印在将文档转换为流格式 .xaml 时创建的链接图像的文件名。
 
@@ -81,7 +83,5 @@ private class ImageUriPrinter : IImageSavingCallback
 
 * interface [IImageSavingCallback](../../iimagesavingcallback/)
 * class [XamlFlowSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

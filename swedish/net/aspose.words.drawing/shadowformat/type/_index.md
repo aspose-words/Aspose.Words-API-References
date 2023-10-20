@@ -1,7 +1,9 @@
 ---
 title: ShadowFormat.Type
-second_title: Aspose.Words för .NET API Referens
-description: ShadowFormat fast egendom. Hämtar eller ställer in den angivnaShadowType för ShadowFormat.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: ShadowFormat Type fast egendom. Hämtar eller ställer in den angivnaShadowType för ShadowFormat i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/shadowformat/type/
@@ -18,7 +20,5 @@ public ShadowType Type { get; set; }
 
 * enum [ShadowType](../../shadowtype/)
 * class [ShadowFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../shadowformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

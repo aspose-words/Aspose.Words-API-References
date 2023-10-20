@@ -1,7 +1,9 @@
 ---
 title: PageInfo.HeightInPoints
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageInfo propiedad. Obtiene la altura de la página en puntos.
+linktitle: HeightInPoints
+articleTitle: HeightInPoints
+second_title: Aspose.Words para .NET
+description: PageInfo HeightInPoints propiedad. Obtiene la altura de la página en puntos en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.rendering/pageinfo/heightinpoints/
@@ -14,7 +16,7 @@ Obtiene la altura de la página en puntos.
 public float HeightInPoints { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir información sobre el tamaño y la orientación de cada página de un documento de Word.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Ver también
 
 * class [PageInfo](../)
-* espacio de nombres [Aspose.Words.Rendering](../../pageinfo/)
+* espacio de nombres [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * asamblea [Aspose.Words](../../../)
-
-

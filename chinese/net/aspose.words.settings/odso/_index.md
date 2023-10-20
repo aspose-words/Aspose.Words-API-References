@@ -1,7 +1,9 @@
 ---
-title: Class Odso
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.Odso 班级. 指定邮件合并数据源的 Office 数据源对象 ODSO 设置
+title: Odso Class
+linktitle: Odso
+articleTitle: Odso
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.Odso 班级. 指定邮件合并数据源的 Office 数据源对象 ODSO 设置 在 C#.
 type: docs
 weight: 5880
 url: /zh/net/aspose.words.settings/odso/
@@ -41,7 +43,7 @@ public class Odso
 | --- | --- |
 | [Clone](../../aspose.words.settings/odso/clone/)() | 返回此对象的深度克隆。 |
 
-### 评论
+## 评论
 
 ODSO 似乎是较新的 Microsoft Word 版本在为邮件合并文档指定某些 类型的数据源时更喜欢使用的“新”方式。 ODSO 可能首先出现在 Microsoft Word 2000 中。
 
@@ -49,7 +51,7 @@ ODSO 的使用记录很少，了解如何使用此对象 的属性的最佳方�
 
 您通常不需要直接创建此类的对象，因为 ODSO settings 始终可通过[`Odso`](../mailmergesettings/odso/)财产。
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

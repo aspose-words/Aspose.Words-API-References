@@ -1,7 +1,9 @@
 ---
-title: Class FontNameSubstitutionRule
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.FontNameSubstitutionRule klass. Regel för teckensnittsersättning för bearbetning av teckensnittsnamn.
+title: FontNameSubstitutionRule Class
+linktitle: FontNameSubstitutionRule
+articleTitle: FontNameSubstitutionRule
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.FontNameSubstitutionRule klass. Regel för teckensnittsersättning för bearbetning av teckensnittsnamn i C#.
 type: docs
 weight: 2950
 url: /sv/net/aspose.words.fonts/fontnamesubstitutionrule/
@@ -22,7 +24,7 @@ public class FontNameSubstitutionRule : FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Anger om regeln är aktiverad eller inte. |
 
-### Anmärkningar
+## Anmärkningar
 
 Enligt denna regel försöker Aspose.Words bearbeta teckensnittsnamnet för att få ersättningen. Speciellt Aspose.Words försöker ta bort suffix med '-', ',' och '('-separatorer som det gör i MS Word.
 
@@ -31,5 +33,3 @@ Enligt denna regel försöker Aspose.Words bearbeta teckensnittsnamnet för att 
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

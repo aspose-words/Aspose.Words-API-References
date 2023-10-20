@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Symbol
-second_title: Aspose.Words for .NET API Referansı
-description: ChartMarker mülk. Grafik işaretleyici sembolünü alır veya ayarlar.
+linktitle: Symbol
+articleTitle: Symbol
+second_title: Aspose.Words for .NET
+description: ChartMarker Symbol mülk. Grafik işaretleyici sembolünü alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartmarker/symbol/
@@ -14,7 +16,7 @@ Grafik işaretleyici sembolünü alır veya ayarlar.
 public MarkerSymbol Symbol { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikte veri noktalarıyla nasıl çalışılacağını gösterir.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * enum [MarkerSymbol](../../markersymbol/)
 * class [ChartMarker](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

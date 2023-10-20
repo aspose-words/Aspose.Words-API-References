@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeDataSourceRoot
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot интерфейс. Внедрите этот интерфейс чтобы разрешить слияние почты из пользовательского источника данных с основными и подробными данными.
+title: IMailMergeDataSourceRoot Interface
+linktitle: IMailMergeDataSourceRoot
+articleTitle: IMailMergeDataSourceRoot
+second_title: Aspose.Words для .NET
+description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot интерфейс. Внедрите этот интерфейс чтобы разрешить слияние почты из пользовательского источника данных с основными и подробными данными на С#.
 type: docs
 weight: 3820
 url: /ru/net/aspose.words.mailmerging/imailmergedatasourceroot/
@@ -18,9 +20,9 @@ public interface IMailMergeDataSourceRoot
 
 | Имя | Описание |
 | --- | --- |
-| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(string) | Механизм слияния почты Aspose.Words вызывает этот метод, когда обнаруживает начало региона слияния почты верхнего уровня. |
+| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(*string*) | Механизм слияния почты Aspose.Words вызывает этот метод, когда обнаруживает начало региона слияния почты верхнего уровня. |
 
-### Примеры
+## Примеры
 
 Выполняет слияние почты из пользовательского источника данных с основными и подробными данными.
 
@@ -204,5 +206,3 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * пространство имен [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../)
-
-

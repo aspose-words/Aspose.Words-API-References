@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontResourcesSubsettingSizeThreshold
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Contrôle quelles ressources de police nécessitent des sousensembles lors de lenregistrement au format HTML MHTML ou EPUB. La valeur par défaut est0 .
+linktitle: FontResourcesSubsettingSizeThreshold
+articleTitle: FontResourcesSubsettingSizeThreshold
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions FontResourcesSubsettingSizeThreshold propriété. Contrôle quelles ressources de police nécessitent des sousensembles lors de lenregistrement au format HTML MHTML ou EPUB. La valeur par défaut est0  en C#.
 type: docs
 weight: 290
 url: /fr/net/aspose.words.saving/htmlsaveoptions/fontresourcessubsettingsizethreshold/
@@ -14,7 +16,7 @@ Contrôle quelles ressources de police nécessitent des sous-ensembles lors de l
 public int FontResourcesSubsettingSizeThreshold { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 [`ExportFontResources`](../exportfontresources/) permet d'exporter des polices en tant que fichiers subsidiaires ou en tant que parties du package output . Si le document utilise de nombreuses polices, en particulier avec un grand nombre de glyphes, la taille de sortie peut augmenter considérablement de . Le sous-paramètre de police réduit la taille de la ressource de police exportée en filtrant les glyphes that ne sont pas utilisés par le document actuel.
 
@@ -24,9 +26,9 @@ Le sous-ensemble de polices fonctionne comme suit :
 * Paramètre`FontResourcesSubsettingSizeThreshold`à une valeur positive, demande à Aspose.Words de sous-ensembler les polices dont la taille de fichier est supérieure à la valeur spécifiée.
 * Définir la propriété surMaxValue supprime le sous-ensemble de polices.
 
-**Important!** Lors de l’exportation de ressources de polices, les problèmes de licence de polices doivent être pris en compte. Les auteurs qui souhaitent utiliser des polices spécifiques via un mécanisme de police downloadable doivent toujours vérifier soigneusement que leur utilisation prévue entre dans le cadre de la licence de police. De nombreuses polices commerciales ne permettent actuellement pas de télécharger leurs polices sur le Web sous quelque forme que ce soit. Les contrats de licence qui couvrent certaines polices indiquent spécifiquement que l'utilisation via **@font-face** Rules dans les feuilles de style CSS n'est pas autorisé. Les sous-ensembles de polices peuvent également enfreindre les termes de la licence.
+**Important!** Lors de l’exportation de ressources de polices, les problèmes de licence de polices doivent être pris en compte. Les auteurs qui souhaitent utiliser des polices spécifiques via un mécanisme de police downloadable doivent toujours vérifier soigneusement que leur utilisation prévue entre dans le cadre de la licence de police. De nombreuses polices commerciales ne permettent actuellement pas de télécharger leurs polices sur le Web sous quelque forme que ce soit. Les contrats de licence qui couvrent certaines polices indiquent spécifiquement que l'utilisation via**@font-face** Rules dans les feuilles de style CSS n'est pas autorisé. Les sous-ensembles de polices peuvent également enfreindre les termes de la licence.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les sous-ensembles de polices.
 
@@ -83,7 +85,5 @@ foreach (string filename in fontFileNames)
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

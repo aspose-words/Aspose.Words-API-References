@@ -1,7 +1,9 @@
 ---
-title: Class FootnoteOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Notes.FootnoteOptions 班级. 表示文档或部分的脚注编号选项
+title: FootnoteOptions Class
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Notes.FootnoteOptions 班级. 表示文档或部分的脚注编号选项 在 C#.
 type: docs
 weight: 4280
 url: /zh/net/aspose.words.notes/footnoteoptions/
@@ -26,7 +28,7 @@ public sealed class FootnoteOptions
 | [RestartRule](../../aspose.words.notes/footnoteoptions/restartrule/) { get; set; } | 确定自动编号何时重新启动。 |
 | [StartNumber](../../aspose.words.notes/footnoteoptions/startnumber/) { get; set; } | 指定第一个自动编号脚注的起始数字或字符。 |
 
-### 例子
+## 例子
 
 演示如何将脚注部分拆分为给定数量的列。
 
@@ -208,5 +210,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * property [FootnoteOptions](../../aspose.words/pagesetup/footnoteoptions/)
 * 命名空间 [Aspose.Words.Notes](../../aspose.words.notes/)
 * 部件 [Aspose.Words](../../)
-
-

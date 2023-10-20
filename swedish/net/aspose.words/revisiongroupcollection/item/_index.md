@@ -1,7 +1,9 @@
 ---
 title: RevisionGroupCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: RevisionGroupCollection fast egendom. Returnerar en revisionsgrupp vid det angivna indexet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: RevisionGroupCollection Item fast egendom. Returnerar en revisionsgrupp vid det angivna indexet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/revisiongroupcollection/item/
@@ -14,7 +16,7 @@ Returnerar en revisionsgrupp vid det angivna indexet.
 public RevisionGroup this[int index] { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får en grupp av revisioner i ett dokument.
 
@@ -28,7 +30,5 @@ RevisionGroup revisionGroup = doc.Revisions.Groups[0];
 
 * class [RevisionGroup](../../revisiongroup/)
 * class [RevisionGroupCollection](../)
-* namnutrymme [Aspose.Words](../../revisiongroupcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

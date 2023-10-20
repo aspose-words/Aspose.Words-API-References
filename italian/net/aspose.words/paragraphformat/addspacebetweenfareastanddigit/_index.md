@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Ottiene o imposta un flag che indica se la spaziatura tra caratteri viene regolata automaticamente tra le regioni dei numeri e le regioni del testo dellAsia orientale nel paragrafo corrente.
+linktitle: AddSpaceBetweenFarEastAndDigit
+articleTitle: AddSpaceBetweenFarEastAndDigit
+second_title: Aspose.Words per .NET
+description: ParagraphFormat AddSpaceBetweenFarEastAndDigit proprietà. Ottiene o imposta un flag che indica se la spaziatura tra caratteri viene regolata automaticamente tra le regioni dei numeri e le regioni del testo dellAsia orientale nel paragrafo corrente in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
@@ -14,7 +16,7 @@ Ottiene o imposta un flag che indica se la spaziatura tra caratteri viene regola
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un paragrafo nel documento.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

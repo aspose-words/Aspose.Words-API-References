@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.Instructions
-second_title: Aspose.Words لمراجع .NET API
-description: SignatureLineOptions ملكية. الحصول على أو تعيين التعليمات للمُوقع التي يتم عرضها عند توقيع سطر التوقيع. القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty.
+linktitle: Instructions
+articleTitle: Instructions
+second_title: Aspose.Words لـ .NET
+description: SignatureLineOptions Instructions ملكية. الحصول على أو تعيين التعليمات للمُوقع التي يتم عرضها عند توقيع سطر التوقيع. القيمة الافتراضية لهذه الخاصية هيسلسلة فارغة Empty في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/signaturelineoptions/instructions/
 ---
 ## SignatureLineOptions.Instructions property
 
-الحصول على أو تعيين التعليمات للمُوقع التي يتم عرضها عند توقيع سطر التوقيع. القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty).
+الحصول على أو تعيين التعليمات للمُوقع التي يتم عرضها عند توقيع سطر التوقيع. القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع مستند باستخدام شهادة شخصية وسطر التوقيع.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### أنظر أيضا
 
 * class [SignatureLineOptions](../)
-* مساحة الاسم [Aspose.Words](../../signaturelineoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

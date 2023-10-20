@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgs.Text
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergingArgs ملكية. الحصول على أو تعيين النص الذي سيتم إدراجه في المستند لحقل الدمج الحالي.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words لـ .NET
+description: FieldMergingArgs Text ملكية. الحصول على أو تعيين النص الذي سيتم إدراجه في المستند لحقل الدمج الحالي في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.mailmerging/fieldmergingargs/text/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/fieldmergingargs/text/
 public string Text { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عندما يتم استدعاء معالج الحدث الخاص بك، يتم تعيين هذه الخاصية إلى`باطل`.
 
@@ -22,7 +24,7 @@ public string Text { get; set; }
 
 إذا قمت بتعيين النص إلى أي سلسلة (بما في ذلك فارغة)، فسيتم إدراج السلسلة في المستند بدلاً من حقل الدمج.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ عملية دمج البريد باستخدام رد اتصال مخصص يتعامل مع بيانات الدمج في شكل مستندات HTML.
 
@@ -90,7 +92,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### أنظر أيضا
 
 * class [FieldMergingArgs](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../fieldmergingargs/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

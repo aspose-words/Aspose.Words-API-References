@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.IsWriteProtected
-second_title: Aspose.Words för .NET API Referens
-description: WriteProtection fast egendom. ReturnerarSann när ett skrivskyddslösenord är inställt.
+linktitle: IsWriteProtected
+articleTitle: IsWriteProtected
+second_title: Aspose.Words för .NET
+description: WriteProtection IsWriteProtected fast egendom. ReturnerarSann när ett skrivskyddslösenord är inställt i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.settings/writeprotection/iswriteprotected/
@@ -14,7 +16,7 @@ Returnerar`Sann` när ett skrivskyddslösenord är inställt.
 public bool IsWriteProtected { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skyddar ett dokument med ett lösenord.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### Se även
 
 * class [WriteProtection](../)
-* namnutrymme [Aspose.Words.Settings](../../writeprotection/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

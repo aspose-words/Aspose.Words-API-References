@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfDocument
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في القسم الأخير من المستند.
+linktitle: IsEndOfDocument
+articleTitle: IsEndOfDocument
+second_title: Aspose.Words لـ .NET
+description: Paragraph IsEndOfDocument ملكية. صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في القسم الأخير من المستند في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/paragraph/isendofdocument/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/isendofdocument/
 public bool IsEndOfDocument { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج فقرة في المستند.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### أنظر أيضا
 
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

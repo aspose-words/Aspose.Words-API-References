@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertNode
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. İmlecin önüne bir düğüm ekler.
+linktitle: InsertNode
+articleTitle: InsertNode
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertNode yöntem. İmlecin önüne bir düğüm ekler C#'da.
 type: docs
-weight: 390
+weight: 380
 url: /tr/net/aspose.words/documentbuilder/insertnode/
 ---
 ## DocumentBuilder.InsertNode method
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/documentbuilder/insertnode/
 public void InsertNode(Node node)
 ```
 
-### Örnekler
+## Örnekler
 
 Bağlantılı bir görüntünün belgeye nasıl ekleneceğini gösterir.
 
@@ -57,7 +59,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

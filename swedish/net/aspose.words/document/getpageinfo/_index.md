@@ -1,9 +1,11 @@
 ---
 title: Document.GetPageInfo
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Hämtar sidstorlek orientering och annan information om en sida som kan vara användbar för utskrift eller rendering.
+linktitle: GetPageInfo
+articleTitle: GetPageInfo
+second_title: Aspose.Words för .NET
+description: Document GetPageInfo metod. Hämtar sidstorlek orientering och annan information om en sida som kan vara användbar för utskrift eller rendering i C#.
 type: docs
-weight: 630
+weight: 610
 url: /sv/net/aspose.words/document/getpageinfo/
 ---
 ## Document.GetPageInfo method
@@ -22,7 +24,5 @@ public PageInfo GetPageInfo(int pageIndex)
 
 * class [PageInfo](../../../aspose.words.rendering/pageinfo/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

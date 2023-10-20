@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.PageMargins
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يحدد الهوامش حول الصفحات في مستند HTML. يتم قياس قيمة الهوامش بالنقاط ويجب أن تكون مساوية أو أكبر من 0. القيمة الافتراضية هي 10 نقاط.
+linktitle: PageMargins
+articleTitle: PageMargins
+second_title: Aspose.Words لـ .NET
+description: HtmlFixedSaveOptions PageMargins ملكية. يحدد الهوامش حول الصفحات في مستند HTML. يتم قياس قيمة الهوامش بالنقاط ويجب أن تكون مساوية أو أكبر من 0. القيمة الافتراضية هي 10 نقاط في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/
 public double PageMargins { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يعتمد على قيمة[`PageHorizontalAlignment`](../pagehorizontalalignment/) ملكية:
 
@@ -22,7 +24,7 @@ public double PageMargins { get; set; }
 * يحدد هوامش الصفحة العلوية والسفلية واليمنى إذا كانت القيمة كذلكRight .
 * يحدد هوامش الصفحة العلوية والسفلية إذا كانت القيمةCenter .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط هوامش الصفحة عند حفظ مستند بتنسيق HTML.
 
@@ -45,7 +47,5 @@ Assert.True(Regex.Match(outDocContents,
 ### أنظر أيضا
 
 * class [HtmlFixedSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

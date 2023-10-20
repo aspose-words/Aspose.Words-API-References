@@ -1,7 +1,9 @@
 ---
-title: Class DigitalSignatureUtil
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.DigitalSignatures.DigitalSignatureUtil сорт. Предоставляет методы для подписания документа.
+title: DigitalSignatureUtil Class
+linktitle: DigitalSignatureUtil
+articleTitle: DigitalSignatureUtil
+second_title: Aspose.Words для .NET
+description: Aspose.Words.DigitalSignatures.DigitalSignatureUtil сорт. Предоставляет методы для подписания документа на С#.
 type: docs
 weight: 410
 url: /ru/net/aspose.words.digitalsignatures/digitalsignatureutil/
@@ -20,22 +22,22 @@ public static class DigitalSignatureUtil
 
 | Имя | Описание |
 | --- | --- |
-| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures)(Stream) | Загружает цифровые подписи из документа с помощью потока. |
-| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures_1)(string) | Загружает цифровые подписи из документа. |
-| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures)(Stream, Stream) | Удаляет все цифровые подписи из документа в исходном потоке и записывает неподписанный документ в целевой поток. |
-| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures_1)(string, string) | Удаляет все цифровые подписи из исходного файла и записывает неподписанный файл в файл назначения. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign)(Stream, Stream, CertificateHolder) | Подписывает исходный документ, используя заданные[`CertificateHolder`](../certificateholder/)с цифровой подписью и записывает подписанный документ в поток назначения. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_2)(string, string, CertificateHolder) | Подписывает исходный документ, используя заданные[`CertificateHolder`](../certificateholder/) с цифровой подписью и записывает подписанный документ в файл назначения. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_1)(Stream, Stream, CertificateHolder, SignOptions) | Подписывает исходный документ, используя заданные[`CertificateHolder`](../certificateholder/) и[`SignOptions`](../signoptions/) с цифровой подписью и записывает подписанный документ в поток назначения. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_3)(string, string, CertificateHolder, SignOptions) | Подписывает исходный документ, используя заданные[`CertificateHolder`](../certificateholder/) и[`SignOptions`](../signoptions/) с цифровой подписью и записывает подписанный документ в файл назначения. |
+| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures)(*Stream*) | Загружает цифровые подписи из документа с помощью потока. |
+| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures_1)(*string*) | Загружает цифровые подписи из документа. |
+| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures)(*Stream, Stream*) | Удаляет все цифровые подписи из документа в исходном потоке и записывает неподписанный документ в целевой поток. |
+| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures_1)(*string, string*) | Удаляет все цифровые подписи из исходного файла и записывает неподписанный файл в файл назначения. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign)(*Stream, Stream, [CertificateHolder](../certificateholder/)*) | Подписывает исходный документ, используя заданные[`CertificateHolder`](../certificateholder/)с цифровой подписью и записывает подписанный документ в поток назначения. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_2)(*string, string, [CertificateHolder](../certificateholder/)*) | Подписывает исходный документ, используя заданные[`CertificateHolder`](../certificateholder/) с цифровой подписью и записывает подписанный документ в файл назначения. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_1)(*Stream, Stream, [CertificateHolder](../certificateholder/), [SignOptions](../signoptions/)*) | Подписывает исходный документ, используя заданные[`CertificateHolder`](../certificateholder/) и[`SignOptions`](../signoptions/) с цифровой подписью и записывает подписанный документ в поток назначения. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_3)(*string, string, [CertificateHolder](../certificateholder/), [SignOptions](../signoptions/)*) | Подписывает исходный документ, используя заданные[`CertificateHolder`](../certificateholder/) и[`SignOptions`](../signoptions/) с цифровой подписью и записывает подписанный документ в файл назначения. |
 
-### Примечания
+## Примечания
 
 Поскольку цифровая подпись работает с содержимым файла, а не с объектной моделью документа, эти методы вынесены в отдельный класс.
 
 Поддерживаемые форматы:Doc иDocx.
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить подписи из документа с цифровой подписью.
 
@@ -83,5 +85,3 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 * пространство имен [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../)
-
-

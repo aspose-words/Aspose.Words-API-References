@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.UseTileFlipMode
-second_title: Aspose.Words per .NET API Reference
-description: GraphicsQualityOptions proprietà. Ottiene o imposta un flag che indica se WrapMode è TileFlipXY.
+linktitle: UseTileFlipMode
+articleTitle: UseTileFlipMode
+second_title: Aspose.Words per .NET
+description: GraphicsQualityOptions UseTileFlipMode proprietà. Ottiene o imposta un flag che indica se WrapMode è TileFlipXY in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
@@ -14,7 +16,7 @@ Ottiene o imposta un flag che indica se WrapMode è TileFlipXY.
 public bool UseTileFlipMode { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 ILWrapMode specifica come viene affiancata una texture o un gradiente quando è più piccolo dell'area da riempire.
 
@@ -22,7 +24,7 @@ Per impostazione predefinita utilizzaTile (specifica l'affiancamento senza capov
 
 Questa proprietà consente di passare a WrapModeTileFlipXY (specifica che le tessere vengono girate orizzontalmente mentre ti muovi lungo una riga e girate verticalmente mentre ti muovi lungo una colonna).
 
-### Esempi
+## Esempi
 
 Mostra come evitare che appaia la linea bianca durante il rendering ad alta risoluzione.
 
@@ -42,7 +44,5 @@ renderer.Save(ArtifactsDir + "ImageSaveOptions.UseTileFlipMode.png", saveOptions
 ### Guarda anche
 
 * class [GraphicsQualityOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

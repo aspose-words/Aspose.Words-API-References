@@ -1,7 +1,9 @@
 ---
 title: TextBox.InternalMarginLeft
-second_title: Справочник по API Aspose.Words для .NET
-description: TextBox свойство. Определяет внутреннее левое поле фигуры в пунктах.
+linktitle: InternalMarginLeft
+articleTitle: InternalMarginLeft
+second_title: Aspose.Words для .NET
+description: TextBox InternalMarginLeft свойство. Определяет внутреннее левое поле фигуры в пунктах на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing/textbox/internalmarginleft/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textbox/internalmarginleft/
 public double InternalMarginLeft { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 1/10 дюйма.
 
-### Примеры
+## Примеры
 
 Показывает, как установить внутренние поля для текстового поля.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxMargins.docx");
 ### Смотрите также
 
 * class [TextBox](../)
-* пространство имен [Aspose.Words.Drawing](../../textbox/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

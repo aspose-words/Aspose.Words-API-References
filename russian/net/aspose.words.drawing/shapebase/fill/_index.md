@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Fill
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает форматирование заливки фигуры.
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words для .NET
+description: ShapeBase Fill свойство. Получает форматирование заливки фигуры на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.drawing/shapebase/fill/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/fill/
 public Fill Fill { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как залить фигуру сплошным цветом.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 
 * class [Fill](../../fill/)
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

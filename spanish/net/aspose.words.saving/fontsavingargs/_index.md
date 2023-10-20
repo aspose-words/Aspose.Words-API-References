@@ -1,7 +1,9 @@
 ---
-title: Class FontSavingArgs
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.FontSavingArgs clase. Proporciona datos para elFontSaving evento.
+title: FontSavingArgs Class
+linktitle: FontSavingArgs
+articleTitle: FontSavingArgs
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.FontSavingArgs clase. Proporciona datos para elFontSaving evento en C#.
 type: docs
 weight: 5030
 url: /es/net/aspose.words.saving/fontsavingargs/
@@ -32,7 +34,7 @@ public class FontSavingArgs
 | [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename/) { get; } | Obtiene el nombre del archivo de fuente original con una extensión. |
 | [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize/) { get; } | Obtiene el tamaño del archivo de fuente original. |
 
-### Observaciones
+## Observaciones
 
 Cuando Aspose.Words guarda un documento en HTML o formatos relacionados y[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) está configurado en`verdadero`, guarda cada tema de fuente para exportarlo en un archivo separado.
 
@@ -44,7 +46,7 @@ Para decidir si desea guardar un recurso de fuente en particular, utilice el[`Is
 
 Para guardar fuentes en secuencias en lugar de archivos, use el[`FontStream`](./fontstream/) propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
 
@@ -105,5 +107,3 @@ public class HandleFontSaving : IFontSavingCallback
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

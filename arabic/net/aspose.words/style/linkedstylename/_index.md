@@ -1,7 +1,9 @@
 ---
 title: Style.LinkedStyleName
-second_title: Aspose.Words لمراجع .NET API
-description: Style ملكية. يحصل على اسمStyle مرتبطة بهذا. إرجاع سلسلة فارغة إذا لم يتم ربط أي أنماط.
+linktitle: LinkedStyleName
+articleTitle: LinkedStyleName
+second_title: Aspose.Words لـ .NET
+description: Style LinkedStyleName ملكية. يحصل على اسمStyle مرتبطة بهذا. إرجاع سلسلة فارغة إذا لم يتم ربط أي أنماط في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/style/linkedstylename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/style/linkedstylename/
 public string LinkedStyleName { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام الأسماء المستعارة للأسلوب.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### أنظر أيضا
 
 * class [Style](../)
-* مساحة الاسم [Aspose.Words](../../style/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

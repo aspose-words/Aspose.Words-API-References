@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfCell
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. True wenn dieser Absatz der letzte Absatz in a istCell  sonst falsch.
+linktitle: IsEndOfCell
+articleTitle: IsEndOfCell
+second_title: Aspose.Words für .NET
+description: Paragraph IsEndOfCell eigendom. True wenn dieser Absatz der letzte Absatz in a istCell  sonst falsch in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/paragraph/isendofcell/
@@ -14,7 +16,7 @@ True, wenn dieser Absatz der letzte Absatz in a ist[`Cell`](../../../aspose.word
 public bool IsEndOfCell { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Tabelle so einrichtet, dass sie auf derselben Seite bleibt.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Siehe auch
 
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

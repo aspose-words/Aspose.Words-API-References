@@ -1,7 +1,9 @@
 ---
-title: Class BarcodeParameters
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.BarcodeParameters sınıf. BarcodeGeneratora aktarılacak barkod parametreleri için konteyner sınıfı.
+title: BarcodeParameters Class
+linktitle: BarcodeParameters
+articleTitle: BarcodeParameters
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.BarcodeParameters sınıf. BarcodeGeneratora aktarılacak barkod parametreleri için konteyner sınıfı C#'da.
 type: docs
 weight: 1470
 url: /tr/net/aspose.words.fields/barcodeparameters/
@@ -44,11 +46,11 @@ public class BarcodeParameters
 | [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight/) { get; set; } | Barkod görüntü yüksekliği (twips cinsinden - 1/1440 inç) |
 | [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation/) { get; set; } | Barkod sembolünün dönüşü. Geçerli değerler şunlardır: [0, 3]. |
 
-### Notlar
+## Notlar
 
 Parametre seti DISPLAYBARCODE alan seçeneklerine göredir. Tam listeye bakın:[https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx)
 
-### Örnekler
+## Örnekler
 
 Barkod oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -125,5 +127,3 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

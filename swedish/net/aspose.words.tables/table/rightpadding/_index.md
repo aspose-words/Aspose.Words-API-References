@@ -1,7 +1,9 @@
 ---
 title: Table.RightPadding
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till till höger om innehållet i celler.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words för .NET
+description: Table RightPadding fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till till höger om innehållet i celler i C#.
 type: docs
 weight: 250
 url: /sv/net/aspose.words.tables/table/rightpadding/
@@ -14,7 +16,7 @@ Hämtar eller ställer in mängden utrymme (i poäng) som ska läggas till till 
 public double RightPadding { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man konfigurerar innehållsutfyllnad i en tabell.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### Se även
 
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

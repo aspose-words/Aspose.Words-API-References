@@ -1,7 +1,9 @@
 ---
 title: RevisionGroup.Text
-second_title: Referencia de API de Aspose.Words para .NET
-description: RevisionGroup propiedad. Devuelve texto insertado/eliminado/movido o descripción del cambio de formato.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words para .NET
+description: RevisionGroup Text propiedad. Devuelve texto insertado/eliminado/movido o descripción del cambio de formato en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/revisiongroup/text/
@@ -14,7 +16,7 @@ Devuelve texto insertado/eliminado/movido o descripción del cambio de formato.
 public string Text { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir información sobre un grupo de revisiones en un documento.
 
@@ -33,7 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### Ver también
 
 * class [RevisionGroup](../)
-* espacio de nombres [Aspose.Words](../../revisiongroup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

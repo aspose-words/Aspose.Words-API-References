@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.LoadSignatures
-second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignatureUtil طريقة. تحميل التوقيعات الرقمية من المستند.
+linktitle: LoadSignatures
+articleTitle: LoadSignatures
+second_title: Aspose.Words لـ .NET
+description: DigitalSignatureUtil LoadSignatures طريقة. تحميل التوقيعات الرقمية من المستند في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/
 ---
-## LoadSignatures(string) {#loadsignatures_1}
+## LoadSignatures(*string*) {#loadsignatures_1}
 
 تحميل التوقيعات الرقمية من المستند.
 
@@ -22,7 +24,7 @@ public static DigitalSignatureCollection LoadSignatures(string fileName)
 
 مجموعة من التوقيعات الرقمية. إرجاع مجموعة فارغة إذا لم يتم توقيع الملف.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل التوقيعات من مستند موقع رقميًا.
 
@@ -70,12 +72,12 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 * class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * class [DigitalSignatureUtil](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## LoadSignatures(Stream) {#loadsignatures}
+## LoadSignatures(*Stream*) {#loadsignatures}
 
 تحميل التوقيعات الرقمية من المستند باستخدام الدفق.
 
@@ -91,7 +93,7 @@ public static DigitalSignatureCollection LoadSignatures(Stream stream)
 
 مجموعة من التوقيعات الرقمية. إرجاع مجموعة فارغة إذا لم يتم توقيع الملف.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل التوقيعات من مستند موقع رقميًا.
 
@@ -116,7 +118,5 @@ using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.
 
 * class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * class [DigitalSignatureUtil](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

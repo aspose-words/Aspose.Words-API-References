@@ -1,7 +1,9 @@
 ---
 title: Font.Color
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Farbe der Schriftart ab oder legt sie fest.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words für .NET
+description: Font Color eigendom. Ruft die Farbe der Schriftart ab oder legt sie fest in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/font/color/
@@ -14,7 +16,7 @@ Ruft die Farbe der Schriftart ab oder legt sie fest.
 public Color Color { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie formatierter Text mit DocumentBuilder eingefügt wird.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

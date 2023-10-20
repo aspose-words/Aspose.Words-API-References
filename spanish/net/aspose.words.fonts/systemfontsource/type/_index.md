@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.Type
-second_title: Referencia de API de Aspose.Words para .NET
-description: SystemFontSource propiedad. Devuelve el tipo de fuente fuente.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words para .NET
+description: SystemFontSource Type propiedad. Devuelve el tipo de fuente fuente en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fonts/systemfontsource/type/
@@ -14,7 +16,7 @@ Devuelve el tipo de fuente fuente.
 public override FontSourceType Type { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la fuente de fuentes del sistema de un documento y configurar fuentes sustitutas.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [SystemFontSource](../)
-* espacio de nombres [Aspose.Words.Fonts](../../systemfontsource/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

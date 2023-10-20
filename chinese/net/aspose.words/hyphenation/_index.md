@@ -1,7 +1,9 @@
 ---
-title: Class Hyphenation
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Hyphenation 班级. 提供使用连字符字典的方法这些词典规定了特定语言的单词可以用连字符连接的位置
+title: Hyphenation Class
+linktitle: Hyphenation
+articleTitle: Hyphenation
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Hyphenation 班级. 提供使用连字符字典的方法这些词典规定了特定语言的单词可以用连字符连接的位置 在 C#.
 type: docs
 weight: 3150
 url: /zh/net/aspose.words/hyphenation/
@@ -27,12 +29,12 @@ public static class Hyphenation
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(string) | 返回`错误的`如果对于指定的语言没有注册词典或者如果注册的是空词典，`真的`否则. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(string, Stream) | 从流中注册并加载指定语言的连字符字典。如果字典无法读取或格式无效，则抛出异常。 |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(string, string) | 从文件中注册并加载指定语言的连字符字典。如果字典无法读取或格式无效，则抛出异常。 |
-| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(string) | 注销指定语言的连字符字典。 |
+| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(*string*) | 返回`错误的`如果对于指定的语言没有注册词典或者如果注册的是空词典，`真的`否则. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(*string, Stream*) | 从流中注册并加载指定语言的连字符字典。如果字典无法读取或格式无效，则抛出异常。 |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(*string, string*) | 从文件中注册并加载指定语言的连字符字典。如果字典无法读取或格式无效，则抛出异常。 |
+| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(*string*) | 注销指定语言的连字符字典。 |
 
-### 例子
+## 例子
 
 演示如何从文件打开和注册字典。
 
@@ -109,5 +111,3 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

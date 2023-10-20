@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.RunSubentriesOnSameLine
-second_title: Aspose.Words for .NET API 参考
-description: FieldIndex 财产. 获取或设置是否将子条目运行到与主条目相同的行中
+linktitle: RunSubentriesOnSameLine
+articleTitle: RunSubentriesOnSameLine
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIndex RunSubentriesOnSameLine 财产. 获取或设置是否将子条目运行到与主条目相同的行中 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.fields/fieldindex/runsubentriesonsameline/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldindex/runsubentriesonsameline/
 public bool RunSubentriesOnSameLine { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用 INDEX 字段中的子条目。
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + $"Field.INDEX.XE.Subheading.docx");
 ### 也可以看看
 
 * class [FieldIndex](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldindex/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

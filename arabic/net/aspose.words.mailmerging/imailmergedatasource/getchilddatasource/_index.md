@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.GetChildDataSource
-second_title: Aspose.Words لمراجع .NET API
-description: IMailMergeDataSource طريقة. يقوم محرك دمج المراسلات Aspose.Words باستدعاء هذه الطريقة عندما يواجه بداية منطقة دمج المراسلات المتداخلة.
+linktitle: GetChildDataSource
+articleTitle: GetChildDataSource
+second_title: Aspose.Words لـ .NET
+description: IMailMergeDataSource GetChildDataSource طريقة. يقوم محرك دمج المراسلات Aspose.Words باستدعاء هذه الطريقة عندما يواجه بداية منطقة دمج المراسلات المتداخلة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/
@@ -22,7 +24,7 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 كائن مصدر بيانات يوفر الوصول إلى سجلات البيانات الخاصة بالجدول المحدد.
 
-### ملاحظات
+## ملاحظات
 
 عندما تقوم محركات دمج المراسلات Aspose.Words بملء منطقة دمج المراسلات بالبيانات وتواجه بداية منطقة دمج المراسلات المتداخلة في شكل MERGEFIELD TableStart:TableName، فإنها تستدعي`GetChildDataSource` على كائن مصدر البيانات current . يحتاج التنفيذ الخاص بك إلى إرجاع كائن مصدر بيانات جديد يوفر الوصول إلى سجلات Child للسجل الأصلي الحالي. سيستخدم Aspose.Words مصدر البيانات الذي تم إرجاعه لملء منطقة دمج المراسلات المتداخلة.
 
@@ -34,7 +36,7 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 في حالة عدم وجود جدول بالاسم المحدد، يجب أن يعود التنفيذ الخاص بك`باطل` .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع مصدر بيانات في شكل كائن مخصص.
 
@@ -148,7 +150,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### أنظر أيضا
 
 * interface [IMailMergeDataSource](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

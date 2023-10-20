@@ -1,7 +1,9 @@
 ---
-title: Enum OfficeMathDisplayType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Math.OfficeMathDisplayType 枚举. 指定方程的显示格式类型
+title: OfficeMathDisplayType Enum
+linktitle: OfficeMathDisplayType
+articleTitle: OfficeMathDisplayType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Math.OfficeMathDisplayType 枚举. 指定方程的显示格式类型 在 C#.
 type: docs
 weight: 4130
 url: /zh/net/aspose.words.math/officemathdisplaytype/
@@ -21,7 +23,7 @@ public enum OfficeMathDisplayType
 | Display | `0` | Office Math 显示在其自己的行上。 |
 | Inline | `1` | Office Math 与文本内联显示。 |
 
-### 例子
+## 例子
 
 演示如何设置 Office 数学显示格式。
 
@@ -47,5 +49,3 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * 命名空间 [Aspose.Words.Math](../../aspose.words.math/)
 * 部件 [Aspose.Words](../../)
-
-

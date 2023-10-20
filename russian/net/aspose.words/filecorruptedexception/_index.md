@@ -1,7 +1,9 @@
 ---
-title: Class FileCorruptedException
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.FileCorruptedException сорт. Выдается во время загрузки документа когда документ кажется поврежденным и его невозможно загрузить.
+title: FileCorruptedException Class
+linktitle: FileCorruptedException
+articleTitle: FileCorruptedException
+second_title: Aspose.Words для .NET
+description: Aspose.Words.FileCorruptedException сорт. Выдается во время загрузки документа когда документ кажется поврежденным и его невозможно загрузить на С#.
 type: docs
 weight: 2800
 url: /ru/net/aspose.words/filecorruptedexception/
@@ -16,7 +18,7 @@ url: /ru/net/aspose.words/filecorruptedexception/
 public class FileCorruptedException : Exception
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перехватить FileCorruptedException.
 
@@ -37,5 +39,3 @@ catch (FileCorruptedException e)
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

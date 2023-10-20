@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Contains
-second_title: Aspose.Words for .NET API Referansı
-description: DropDownItemCollection yöntem. Koleksiyonun belirtilen değeri içerip içermediğini belirler.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words for .NET
+description: DropDownItemCollection Contains yöntem. Koleksiyonun belirtilen değeri içerip içermediğini belirler C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/dropdownitemcollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string value)
 
 `doğru` öğe koleksiyonda bulunursa; aksi takdirde,`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Açılan kutu alanının nasıl ekleneceğini ve öğe koleksiyonundaki öğelerin nasıl düzenleneceğini gösterir.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### Ayrıca bakınız
 
 * class [DropDownItemCollection](../)
-* ad alanı [Aspose.Words.Fields](../../dropdownitemcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

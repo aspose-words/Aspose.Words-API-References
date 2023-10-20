@@ -1,7 +1,9 @@
 ---
-title: Class OdsoRecipientData
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Settings.OdsoRecipientData klass. Representerar information om en enskild post inom en extern datakälla som ska uteslutas från kopplingen.
+title: OdsoRecipientData Class
+linktitle: OdsoRecipientData
+articleTitle: OdsoRecipientData
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Settings.OdsoRecipientData klass. Representerar information om en enskild post inom en extern datakälla som ska uteslutas från kopplingen i C#.
 type: docs
 weight: 5930
 url: /sv/net/aspose.words.settings/odsorecipientdata/
@@ -37,11 +39,11 @@ public class OdsoRecipientData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsorecipientdata/clone/)() | Returnerar en djup klon av detta objekt. |
 
-### Anmärkningar
+## Anmärkningar
 
 Om en post ska slås samman till en sammanfogad handling, behövs ingen information om den posten. Men om en given post inte ska slås samman till ett sammanfogat dokument, ska värdet på den unika nyckeln för den posten lagras i[`UniqueTag`](./uniquetag/)egenskapen för detta objekt för att indikera detta undantag.
 
-### Exempel
+## Exempel
 
 Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
 
@@ -82,5 +84,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * namnutrymme [Aspose.Words.Settings](../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../)
-
-

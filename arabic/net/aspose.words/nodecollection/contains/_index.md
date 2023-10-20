@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Contains
-second_title: Aspose.Words لمراجع .NET API
-description: NodeCollection طريقة. تحديد ما إذا كانت العقدة موجودة في المجموعة.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words لـ .NET
+description: NodeCollection Contains طريقة. تحديد ما إذا كانت العقدة موجودة في المجموعة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/nodecollection/contains/
@@ -22,11 +24,11 @@ public bool Contains(Node node)
 
 `حقيقي` إذا تم العثور على العنصر في المجموعة؛ خلاف ذلك،`خطأ شنيع`.
 
-### ملاحظات
+## ملاحظات
 
 تقوم هذه الطريقة بإجراء بحث خطي؛ ولذلك فإن متوسط وقت التنفيذ يتناسب مع[`Count`](../count/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع NodeCollection.
 
@@ -64,7 +66,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* مساحة الاسم [Aspose.Words](../../nodecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

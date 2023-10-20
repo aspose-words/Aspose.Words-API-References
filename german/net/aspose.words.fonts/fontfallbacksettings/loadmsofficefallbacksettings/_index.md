@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.LoadMsOfficeFallbackSettings
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontFallbackSettings methode. Lädt vordefinierte FallbackEinstellungen die den Microsoft WordFallback imitieren und Microsoft OfficeSchriftarten verwenden.
+linktitle: LoadMsOfficeFallbackSettings
+articleTitle: LoadMsOfficeFallbackSettings
+second_title: Aspose.Words für .NET
+description: FontFallbackSettings LoadMsOfficeFallbackSettings methode. Lädt vordefinierte FallbackEinstellungen die den Microsoft WordFallback imitieren und Microsoft OfficeSchriftarten verwenden in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/
@@ -14,7 +16,7 @@ Lädt vordefinierte Fallback-Einstellungen, die den Microsoft Word-Fallback imit
 public void LoadMsOfficeFallbackSettings()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie vordefinierte Fallback-Schriftarteinstellungen geladen werden.
 
@@ -44,7 +46,5 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNoto
 ### Siehe auch
 
 * class [FontFallbackSettings](../)
-* namensraum [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

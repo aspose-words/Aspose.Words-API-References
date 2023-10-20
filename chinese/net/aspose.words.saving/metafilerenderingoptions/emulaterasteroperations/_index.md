@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRasterOperations
-second_title: Aspose.Words for .NET API 参考
-description: MetafileRenderingOptions 财产. 获取或设置一个值确定是否应模拟光栅操作
+linktitle: EmulateRasterOperations
+articleTitle: EmulateRasterOperations
+second_title: 用于 .NET 的 Aspose.Words
+description: MetafileRenderingOptions EmulateRasterOperations 财产. 获取或设置一个值确定是否应模拟光栅操作 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperation
 public bool EmulateRasterOperations { get; set; }
 ```
 
-### 评论
+## 评论
 
 可以在图元文件中使用特定的光栅操作。它们无法直接渲染为矢量图形。 模拟光栅操作需要对生成的矢量图形进行部分光栅化，这可能会影响 图元文件渲染性能。
 
@@ -26,7 +28,7 @@ public bool EmulateRasterOperations { get; set; }
 
 默认值为`真的`。
 
-### 例子
+## 例子
 
 显示添加了位图渲染的回退和更改有关不支持的图元文件记录的警告类型。
 
@@ -81,7 +83,5 @@ public class HandleDocumentWarnings : IWarningCallback
 ### 也可以看看
 
 * class [MetafileRenderingOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

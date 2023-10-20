@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOleObject
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج كائن OLE مضمن من دفق في المستند.
+linktitle: InsertOleObject
+articleTitle: InsertOleObject
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertOleObject طريقة. إدراج كائن OLE مضمن من دفق في المستند في C#.
 type: docs
-weight: 400
+weight: 390
 url: /ar/net/aspose.words/documentbuilder/insertoleobject/
 ---
-## InsertOleObject(Stream, string, bool, Stream) {#insertoleobject}
+## InsertOleObject(*Stream, string, bool, Stream*) {#insertoleobject}
 
 إدراج كائن OLE مضمن من دفق في المستند.
 
@@ -25,7 +27,7 @@ public Shape InsertOleObject(Stream stream, string progId, bool asIcon, Stream p
 
 عقدة الشكل تحتوي على كائن Ole وتم إدراجها في موضع Builder الحالي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام منشئ المستندات لتضمين كائنات OLE في المستند.
 
@@ -69,12 +71,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjects.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObject(string, bool, bool, Stream) {#insertoleobject_1}
+## InsertOleObject(*string, bool, bool, Stream*) {#insertoleobject_1}
 
 يقوم بإدراج كائن OLE مضمن أو مرتبط من ملف في المستند. يكتشف نوع كائن OLE باستخدام امتداد الملف.
 
@@ -93,7 +95,7 @@ public Shape InsertOleObject(string fileName, bool isLinked, bool asIcon, Stream
 
 عقدة الشكل تحتوي على كائن Ole وتم إدراجها في موضع Builder الحالي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج كائن OLE في مستند.
 
@@ -130,12 +132,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObject(string, string, bool, bool, Stream) {#insertoleobject_2}
+## InsertOleObject(*string, string, bool, bool, Stream*) {#insertoleobject_2}
 
 يقوم بإدراج كائن OLE مضمن أو مرتبط من ملف في المستند. يكتشف نوع كائن OLE باستخدام معلمة progID المحددة.
 
@@ -156,7 +158,7 @@ public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool
 
 عقدة الشكل تحتوي على كائن Ole وتم إدراجها في موضع Builder الحالي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج كائن OLE في مستند.
 
@@ -193,7 +195,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

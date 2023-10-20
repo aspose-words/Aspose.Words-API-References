@@ -1,7 +1,9 @@
 ---
-title: LayoutEnumerator.LayoutEnumerator
-second_title: Aspose.Words per .NET API Reference
-description: LayoutEnumerator costruttore. Inizializza la nuova istanza di questa classe.
+title: LayoutEnumerator
+linktitle: LayoutEnumerator
+articleTitle: LayoutEnumerator
+second_title: Aspose.Words per .NET
+description: LayoutEnumerator costruttore. Inizializza la nuova istanza di questa classe in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.layout/layoutenumerator/layoutenumerator/
@@ -18,13 +20,13 @@ public LayoutEnumerator(Document document)
 | --- | --- | --- |
 | document | Document | Un documento di cui enumerare il modello di layout della pagina. |
 
-### Osservazioni
+## Osservazioni
 
 Se il modello di layout della pagina del documento non è stato creato, l'enumeratore chiama[`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) per costruirlo.
 
 Ogni volta che un documento viene aggiornato e viene creato un nuovo modello di layout di pagina, è necessario utilizzare un nuovo enumeratore per accedervi.
 
-### Esempi
+## Esempi
 
 Mostra le modalità per attraversare le entità di layout di un documento.
 
@@ -170,7 +172,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutEnumerator](../)
-* spazio dei nomi [Aspose.Words.Layout](../../layoutenumerator/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

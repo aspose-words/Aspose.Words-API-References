@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Light2
-second_title: Aspose.Words for .NET API Referansı
-description: ThemeColors mülk. Açık renk 2. yi belirtir
+linktitle: Light2
+articleTitle: Light2
+second_title: Aspose.Words for .NET
+description: ThemeColors Light2 mülk. Açık renk 2. yi belirtir C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.themes/themecolors/light2/
@@ -14,7 +16,7 @@ Açık renk 2. 'yi belirtir
 public Color Light2 { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını gösterir.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Ayrıca bakınız
 
 * class [ThemeColors](../)
-* ad alanı [Aspose.Words.Themes](../../themecolors/)
+* ad alanı [Aspose.Words.Themes](../../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum BaselineAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.BaselineAlignment opsomming. Gibt die vertikale Position der Schriftarten in einer Zeile an.
+title: BaselineAlignment Enum
+linktitle: BaselineAlignment
+articleTitle: BaselineAlignment
+second_title: Aspose.Words für .NET
+description: Aspose.Words.BaselineAlignment opsomming. Gibt die vertikale Position der Schriftarten in einer Zeile an in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/baselinealignment/
@@ -24,7 +26,7 @@ public enum BaselineAlignment
 | Bottom | `3` | Wird am unteren Rand jeder Schriftart ausgerichtet. |
 | Auto | `4` | Die Grundlinie wird automatisch angepasst. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die vertikale Position von Schriftarten in einer Zeile festgelegt wird.
 
@@ -44,5 +46,3 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphBaselineAlignment.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

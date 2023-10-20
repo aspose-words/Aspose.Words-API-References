@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SuppressLineNumbers
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Anger om det aktuella styckets rader ska undantas från radnumrering som tillämpas i det överordnade avsnittet.
+linktitle: SuppressLineNumbers
+articleTitle: SuppressLineNumbers
+second_title: Aspose.Words för .NET
+description: ParagraphFormat SuppressLineNumbers fast egendom. Anger om det aktuella styckets rader ska undantas från radnumrering som tillämpas i det överordnade avsnittet i C#.
 type: docs
 weight: 380
 url: /sv/net/aspose.words/paragraphformat/suppresslinenumbers/
@@ -14,7 +16,7 @@ Anger om det aktuella styckets rader ska undantas från radnumrering som tilläm
 public bool SuppressLineNumbers { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man aktiverar radnumrering för en sektion.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

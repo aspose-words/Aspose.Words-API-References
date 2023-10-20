@@ -1,7 +1,9 @@
 ---
-title: Enum PreferredWidthType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Tables.PreferredWidthType تعداد. يحدد وحدة القياس للعرض المفضل للجدول أو الخلية.
+title: PreferredWidthType Enum
+linktitle: PreferredWidthType
+articleTitle: PreferredWidthType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Tables.PreferredWidthType تعداد. يحدد وحدة القياس للعرض المفضل للجدول أو الخلية في C#.
 type: docs
 weight: 6300
 url: /ar/net/aspose.words.tables/preferredwidthtype/
@@ -22,7 +24,7 @@ public enum PreferredWidthType
 | Percent | `2` | قياس عرض العنصر الحالي باستخدام نسبة مئوية محددة. |
 | Points | `3` | قياس عرض العنصر الحالي باستخدام عدد محدد من النقاط (1/72 بوصة). |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من نوع العرض المفضل وقيمة خلية الجدول.
 
@@ -41,5 +43,3 @@ Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
 * class [PreferredWidth](../preferredwidth/)
 * مساحة الاسم [Aspose.Words.Tables](../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../)
-
-

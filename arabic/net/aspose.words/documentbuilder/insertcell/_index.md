@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertCell
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج خلية جدول في المستند.
+linktitle: InsertCell
+articleTitle: InsertCell
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertCell طريقة. إدراج خلية جدول في المستند في C#.
 type: docs
 weight: 270
 url: /ar/net/aspose.words/documentbuilder/insertcell/
@@ -18,7 +20,7 @@ public Cell InsertCell()
 
 عقدة الخلية التي تم إدراجها للتو.
 
-### ملاحظات
+## ملاحظات
 
 لبدء طاولة، فقط اتصل`InsertCell` . بعد ذلك، أي محتوى تضيفه باستخدام طرق أخرى[`DocumentBuilder`](../) ستتم إضافة الفئة إلى الخلية الحالية.
 
@@ -28,7 +30,7 @@ public Cell InsertCell()
 
 استخدم ال[`CellFormat`](../cellformat/)خاصية تحديد تنسيق الخلية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام منشئ المستندات لإنشاء جدول.
 
@@ -119,7 +121,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Cell](../../../aspose.words.tables/cell/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

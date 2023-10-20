@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfHeaderFooter
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Bu paragraf paragraftaki son paragrafsa doğruHeaderFooter ana metin hikayesi birSection  aksi halde yanlış.
+linktitle: IsEndOfHeaderFooter
+articleTitle: IsEndOfHeaderFooter
+second_title: Aspose.Words for .NET
+description: Paragraph IsEndOfHeaderFooter mülk. Bu paragraf paragraftaki son paragrafsa doğruHeaderFooter ana metin hikayesi birSection  aksi halde yanlış C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/paragraph/isendofheaderfooter/
@@ -14,7 +16,7 @@ Bu paragraf paragraftaki son paragrafsa doğru[`HeaderFooter`](../../headerfoote
 public bool IsEndOfHeaderFooter { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Üstbilgi ve altbilginin nasıl oluşturulacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### Ayrıca bakınız
 
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

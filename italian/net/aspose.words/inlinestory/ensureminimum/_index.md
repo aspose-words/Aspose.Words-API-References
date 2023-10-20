@@ -1,7 +1,9 @@
 ---
 title: InlineStory.EnsureMinimum
-second_title: Aspose.Words per .NET API Reference
-description: InlineStory metodo. Se lultimo figlio non è un paragrafo crea e aggiunge un paragrafo vuoto.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words per .NET
+description: InlineStory EnsureMinimum metodo. Se lultimo figlio non è un paragrafo crea e aggiunge un paragrafo vuoto in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words/inlinestory/ensureminimum/
@@ -14,7 +16,7 @@ Se l'ultimo figlio non è un paragrafo, crea e aggiunge un paragrafo vuoto.
 public void EnsureMinimum()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire i nodi InlineStory.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 ### Guarda anche
 
 * class [InlineStory](../)
-* spazio dei nomi [Aspose.Words](../../inlinestory/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PageSet
-second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions fast egendom. Hämtar eller ställer in sidorna att rendera. Standard är alla sidor i dokumentet.
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words för .NET
+description: ImageSaveOptions PageSet fast egendom. Hämtar eller ställer in sidorna att rendera. Standard är alla sidor i dokumentet i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.saving/imagesaveoptions/pageset/
@@ -14,11 +16,11 @@ Hämtar eller ställer in sidorna att rendera. Standard är alla sidor i dokumen
 public PageSet PageSet { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen har endast effekt vid rendering av dokumentsidor. Den här egenskapen ignoreras när former renderas till bilder.
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar sidor baserat på exakta sidintervall.
 
@@ -122,7 +124,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 
 * class [PageSet](../../pageset/)
 * class [ImageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

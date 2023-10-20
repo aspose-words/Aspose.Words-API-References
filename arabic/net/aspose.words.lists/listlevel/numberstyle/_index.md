@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberStyle
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevel ملكية. إرجاع أو تعيين نمط الأرقام لمستوى القائمة هذا.
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words لـ .NET
+description: ListLevel NumberStyle ملكية. إرجاع أو تعيين نمط الأرقام لمستوى القائمة هذا في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.lists/listlevel/numberstyle/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/listlevel/numberstyle/
 public NumberStyle NumberStyle { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق القائمة المخصصة على الفقرات عند استخدام DocumentBuilder.
 
@@ -130,7 +132,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [ListLevel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

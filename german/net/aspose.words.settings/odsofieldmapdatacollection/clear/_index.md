@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Clear
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoFieldMapDataCollection methode. Entfernt alle Elemente aus dieser Sammlung.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words für .NET
+description: OdsoFieldMapDataCollection Clear methode. Entfernt alle Elemente aus dieser Sammlung in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.settings/odsofieldmapdatacollection/clear/
@@ -14,7 +16,7 @@ Entfernt alle Elemente aus dieser Sammlung.
 public void Clear()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Briefvorlagenfeldern zuordnet.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Siehe auch
 
 * class [OdsoFieldMapDataCollection](../)
-* namensraum [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

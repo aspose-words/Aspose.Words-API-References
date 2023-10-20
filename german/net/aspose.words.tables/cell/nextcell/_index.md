@@ -1,7 +1,9 @@
 ---
 title: Cell.NextCell
-second_title: Aspose.Words für .NET-API-Referenz
-description: Cell eigendom. Ruft den nächsten abCell node.
+linktitle: NextCell
+articleTitle: NextCell
+second_title: Aspose.Words für .NET
+description: Cell NextCell eigendom. Ruft den nächsten abCell node in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.tables/cell/nextcell/
@@ -14,11 +16,11 @@ Ruft den nächsten ab[`Cell`](../) node.
 public Cell NextCell { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Methode kann verwendet werden, wenn Sie typisierten Zugriff auf Zellen von a benötigen[`Row`](../../row/) . Wenn a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) Wird ein Knoten in einer Zeile statt in einer Zelle gefunden, wird er automatisch durchlaufen, um eine darin enthaltene Zelle zu erhalten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Tabellenzellen aufgezählt werden.
 
@@ -39,7 +41,5 @@ for (Row row = table.FirstRow; row != null; row = row.NextRow)
 ### Siehe auch
 
 * class [Cell](../)
-* namensraum [Aspose.Words.Tables](../../cell/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

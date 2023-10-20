@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSpecialChar
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Şu durumlarda çağrılırSpecialChar Belgede düğümle karşılaşıldı.
+linktitle: VisitSpecialChar
+articleTitle: VisitSpecialChar
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitSpecialChar yöntem. Şu durumlarda çağrılırSpecialChar Belgede düğümle karşılaşıldı C#'da.
 type: docs
 weight: 430
 url: /tr/net/aspose.words/documentvisitor/visitspecialchar/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitSpecialChar(SpecialChar specialChar)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Notlar
+## Notlar
 
 Bu yöntem genel kontrol karakterleri için çağrılmaz (bkz.[`ControlChar`](../../controlchar/) ) belgede mevcut olabilir.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm gizli içeriği kaldırmak için DocumentVisitor uygulamasının nasıl kullanılacağını gösterir.
 
@@ -224,7 +226,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [SpecialChar](../../specialchar/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

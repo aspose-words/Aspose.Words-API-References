@@ -1,7 +1,9 @@
 ---
 title: ImageWatermarkOptions.IsWashout
-second_title: Aspose.Words لمراجع .NET API
-description: ImageWatermarkOptions ملكية. الحصول على أو تعيين قيمة منطقية مسؤولة عن تأثير تبييض العلامة المائية. القيمة الافتراضية هيحقيقي .
+linktitle: IsWashout
+articleTitle: IsWashout
+second_title: Aspose.Words لـ .NET
+description: ImageWatermarkOptions IsWashout ملكية. الحصول على أو تعيين قيمة منطقية مسؤولة عن تأثير تبييض العلامة المائية. القيمة الافتراضية هيحقيقي  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/imagewatermarkoptions/iswashout/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/imagewatermarkoptions/iswashout/
 public bool IsWashout { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مائية من صورة في نظام الملفات المحلي.
 
@@ -42,7 +44,5 @@ Document doc = new Document();
 ### أنظر أيضا
 
 * class [ImageWatermarkOptions](../)
-* مساحة الاسم [Aspose.Words](../../imagewatermarkoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

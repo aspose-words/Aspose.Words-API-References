@@ -1,7 +1,9 @@
 ---
-title: FieldBuilder.FieldBuilder
-second_title: Aspose.Words لمراجع .NET API
-description: FieldBuilder البناء. تهيئة مثيل لـFieldBuilder فئة.
+title: FieldBuilder
+linktitle: FieldBuilder
+articleTitle: FieldBuilder
+second_title: Aspose.Words لـ .NET
+description: FieldBuilder البناء. تهيئة مثيل لـFieldBuilder فئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldbuilder/fieldbuilder/
@@ -18,7 +20,7 @@ public FieldBuilder(FieldType fieldType)
 | --- | --- | --- |
 | fieldType | FieldType | نوع الحقل المراد بناءه. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل وإدراجه باستخدام منشئ الحقول.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldBuilder](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbuilder/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

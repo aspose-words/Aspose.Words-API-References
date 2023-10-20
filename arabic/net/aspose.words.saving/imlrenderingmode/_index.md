@@ -1,7 +1,9 @@
 ---
-title: Enum ImlRenderingMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.ImlRenderingMode تعداد. يحدد كيفية عرض كائنات الحبر InkML إلى تنسيقات الصفحات الثابتة.
+title: ImlRenderingMode Enum
+linktitle: ImlRenderingMode
+articleTitle: ImlRenderingMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.ImlRenderingMode تعداد. يحدد كيفية عرض كائنات الحبر InkML إلى تنسيقات الصفحات الثابتة في C#.
 type: docs
 weight: 5250
 url: /ar/net/aspose.words.saving/imlrenderingmode/
@@ -21,7 +23,7 @@ public enum ImlRenderingMode
 | Fallback | `0` | إذا كان الشكل الاحتياطي متاحًا لكائن الحبر (InkML)، فإن Aspose.Words يعرض الشكل الاحتياطي بدلاً من InkML. |
 | InkML | `1` | يتجاهل Aspose.Words الشكل الاحتياطي لكائن الحبر (InkML) ويعرض InkML نفسه. هذا هو الوضع الافتراضي. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقديم كائن الحبر.
 
@@ -43,5 +45,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.Sign
-second_title: Справочник по API Aspose.Words для .NET
-description: DigitalSignatureUtil метод. Подписывает исходный документ используя заданныеCertificateHolder иSignOptions с цифровой подписью и записывает подписанный документ в поток назначения.
+linktitle: Sign
+articleTitle: Sign
+second_title: Aspose.Words для .NET
+description: DigitalSignatureUtil Sign метод. Подписывает исходный документ используя заданныеCertificateHolder иSignOptions с цифровой подписью и записывает подписанный документ в поток назначения на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
-## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
+## Sign(*Stream, Stream, [CertificateHolder](../../certificateholder/), [SignOptions](../../signoptions/)*) {#sign_1}
 
 Подписывает исходный документ, используя заданные[`CertificateHolder`](../../certificateholder/) и[`SignOptions`](../../signoptions/) с цифровой подписью и записывает подписанный документ в поток назначения.
 
@@ -26,7 +28,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) объект с сертификатом, который использовался для подписи файла. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions/) объект с различными вариантами подписи. |
 
-### Примеры
+## Примеры
 
 Показывает, как подписывать документы цифровой подписью.
 
@@ -57,12 +59,12 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 * class [CertificateHolder](../../certificateholder/)
 * class [SignOptions](../../signoptions/)
 * class [DigitalSignatureUtil](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
+## Sign(*string, string, [CertificateHolder](../../certificateholder/), [SignOptions](../../signoptions/)*) {#sign_3}
 
 Подписывает исходный документ, используя заданные[`CertificateHolder`](../../certificateholder/) и[`SignOptions`](../../signoptions/) с цифровой подписью и записывает подписанный документ в файл назначения.
 
@@ -80,7 +82,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) объект с сертификатом, который использовался для подписи файла. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions/) объект с различными вариантами подписи. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ строку подписи, а затем подписать его с помощью цифрового сертификата.
 
@@ -198,12 +200,12 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 * class [CertificateHolder](../../certificateholder/)
 * class [SignOptions](../../signoptions/)
 * class [DigitalSignatureUtil](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Sign(Stream, Stream, CertificateHolder) {#sign}
+## Sign(*Stream, Stream, [CertificateHolder](../../certificateholder/)*) {#sign}
 
 Подписывает исходный документ, используя заданные[`CertificateHolder`](../../certificateholder/)с цифровой подписью и записывает подписанный документ в поток назначения.
 
@@ -221,7 +223,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | dstStream | Stream | Поток, в который подписан документ, будет записан. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) объект с сертификатом, который использовался для подписи файла. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
 
-### Примеры
+## Примеры
 
 Показывает, как подписывать документы с помощью сертификатов X.509.
 
@@ -265,12 +267,12 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignatureUtil](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Sign(string, string, CertificateHolder) {#sign_2}
+## Sign(*string, string, [CertificateHolder](../../certificateholder/)*) {#sign_2}
 
 Подписывает исходный документ, используя заданные[`CertificateHolder`](../../certificateholder/) с цифровой подписью и записывает подписанный документ в файл назначения.
 
@@ -286,7 +288,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | dstFileName | String | Имя файла вывода подписанного документа. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) объект с сертификатом, который использовался для подписи файла. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
 
-### Примеры
+## Примеры
 
 Показывает, как подписывать документы с помощью сертификатов X.509.
 
@@ -330,7 +332,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignatureUtil](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

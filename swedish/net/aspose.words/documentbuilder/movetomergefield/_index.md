@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToMergeField
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Flyttar markören till en position strax bortom det angivna kopplingsfältet och tar bort kopplingsfältet.
+linktitle: MoveToMergeField
+articleTitle: MoveToMergeField
+second_title: Aspose.Words för .NET
+description: DocumentBuilder MoveToMergeField metod. Flyttar markören till en position strax bortom det angivna kopplingsfältet och tar bort kopplingsfältet i C#.
 type: docs
-weight: 560
+weight: 550
 url: /sv/net/aspose.words/documentbuilder/movetomergefield/
 ---
-## MoveToMergeField(string) {#movetomergefield}
+## MoveToMergeField(*string*) {#movetomergefield}
 
 Flyttar markören till en position strax bortom det angivna kopplingsfältet och tar bort kopplingsfältet.
 
@@ -22,11 +24,11 @@ public bool MoveToMergeField(string fieldName)
 
 `Sann` om sammanslagningsfältet hittades och markören flyttades;`falsk` annat.
 
-### Anmärkningar
+## Anmärkningar
 
 Observera att den här metoden tar bort sammanslagningsfältet från dokumentet efter att du har flyttat markören.
 
-### Exempel
+## Exempel
 
 Visar hur man fyller MERGEFIELDs med data med en dokumentbyggare istället för en brevkoppling.
 
@@ -139,12 +141,12 @@ private static DataTable GetStudentCourseDataTable()
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## MoveToMergeField(string, bool, bool) {#movetomergefield_1}
+## MoveToMergeField(*string, bool, bool*) {#movetomergefield_1}
 
 Flyttar kopplingsfältet till det angivna kopplingsfältet.
 
@@ -162,7 +164,7 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 `Sann` om sammanslagningsfältet hittades och markören flyttades;`falsk` annat.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar fält och flyttar dokumentbyggarens markör till dem.
 
@@ -191,7 +193,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.Query
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDatabase eigendom. Ruft eine Reihe von SQLAnweisungen ab die die Datenbank abfragen oder legt diese fest.
+linktitle: Query
+articleTitle: Query
+second_title: Aspose.Words für .NET
+description: FieldDatabase Query eigendom. Ruft eine Reihe von SQLAnweisungen ab die die Datenbank abfragen oder legt diese fest in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.fields/fielddatabase/query/
@@ -14,7 +16,7 @@ Ruft eine Reihe von SQL-Anweisungen ab, die die Datenbank abfragen, oder legt di
 public string Query { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Daten aus einer Datenbank extrahiert und als Feld in ein Dokument einfügt.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Siehe auch
 
 * class [FieldDatabase](../)
-* namensraum [Aspose.Words.Fields](../../fielddatabase/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

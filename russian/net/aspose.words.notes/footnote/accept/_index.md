@@ -1,7 +1,9 @@
 ---
 title: Footnote.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: Footnote метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: Footnote Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.notes/footnote/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
 
-### Примечания
+## Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Вызывает DocumentVisitor.VisitFootnoteStart, затем вызывает Accept для всех дочерних узлов footnote и вызывает DocumentVisitor.VisitFootnoteEnd в конце.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждой сноски в документе.
 
@@ -123,7 +125,5 @@ public class FootnoteStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Footnote](../)
-* пространство имен [Aspose.Words.Notes](../../footnote/)
+* пространство имен [Aspose.Words.Notes](../../../aspose.words.notes/)
 * сборка [Aspose.Words](../../../)
-
-

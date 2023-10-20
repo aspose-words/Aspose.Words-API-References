@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: GradientStop طريقة. إزالة علامة التوقف المتدرجة من الأصلGradientStopCollection .
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: GradientStop Remove طريقة. إزالة علامة التوقف المتدرجة من الأصلGradientStopCollection  في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing/gradientstop/remove/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/gradientstop/remove/
 public void Remove()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نقاط توقف متدرجة إلى التعبئة المتدرجة.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### أنظر أيضا
 
 * class [GradientStop](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../gradientstop/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

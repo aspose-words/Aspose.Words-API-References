@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.CurrentUser
-second_title: Aspose.Words för .NET API Referens
-description: FieldOptions fast egendom. Hämtar eller ställer in aktuell användarinformation.
+linktitle: CurrentUser
+articleTitle: CurrentUser
+second_title: Aspose.Words för .NET
+description: FieldOptions CurrentUser fast egendom. Hämtar eller ställer in aktuell användarinformation i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldoptions/currentuser/
@@ -14,7 +16,7 @@ Hämtar eller ställer in aktuell användarinformation.
 public UserInformation CurrentUser { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in användarinformation och visar dem med hjälp av fält.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 
 * class [UserInformation](../../userinformation/)
 * class [FieldOptions](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldoptions/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.EntryMacro
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Возвращает или задает имя макроса записи для поля формы.
+linktitle: EntryMacro
+articleTitle: EntryMacro
+second_title: Aspose.Words для .NET
+description: FormField EntryMacro свойство. Возвращает или задает имя макроса записи для поля формы на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/formfield/entrymacro/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.fields/formfield/entrymacro/
 public string EntryMacro { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Макрос ввода запускается, когда поле формы получает фокус в Microsoft Word.
 
 Microsoft Word допускает строки длиной не более 32 символов.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class AxisDisplayUnit
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.AxisDisplayUnit clase. Proporciona acceso a las opciones de escala de las unidades de visualización para el eje de valores.
+title: AxisDisplayUnit Class
+linktitle: AxisDisplayUnit
+articleTitle: AxisDisplayUnit
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.Charts.AxisDisplayUnit clase. Proporciona acceso a las opciones de escala de las unidades de visualización para el eje de valores en C#.
 type: docs
 weight: 550
 url: /es/net/aspose.words.drawing.charts/axisdisplayunit/
@@ -30,7 +32,7 @@ public class AxisDisplayUnit
 | [Document](../../aspose.words.drawing.charts/axisdisplayunit/document/) { get; } | Devuelve el Documento al que pertenece el titular. |
 | [Unit](../../aspose.words.drawing.charts/axisdisplayunit/unit/) { get; set; } | Obtiene o establece el valor de escala de las unidades de visualización como uno de los valores predefinidos. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo manipular las marcas y los valores mostrados de un eje de gráfico.
 
@@ -89,5 +91,3 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * espacio de nombres [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../)
-
-

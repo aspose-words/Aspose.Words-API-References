@@ -1,9 +1,11 @@
 ---
 title: Document.Cleanup
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Belgedeki kullanılmayan stilleri ve listeleri temizler.
+linktitle: Cleanup
+articleTitle: Cleanup
+second_title: Aspose.Words for .NET
+description: Document Cleanup yöntem. Belgedeki kullanılmayan stilleri ve listeleri temizler C#'da.
 type: docs
-weight: 560
+weight: 540
 url: /tr/net/aspose.words/document/cleanup/
 ---
 ## Cleanup() {#cleanup}
@@ -14,7 +16,7 @@ Belgedeki kullanılmayan stilleri ve listeleri temizler.
 public void Cleanup()
 ```
 
-### Örnekler
+## Örnekler
 
 Kullanılmayan özel stillerin bir belgeden nasıl kaldırılacağını gösterir.
 
@@ -56,12 +58,12 @@ Assert.AreEqual(4, doc.Styles.Count);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Cleanup(CleanupOptions) {#cleanup_1}
+## Cleanup(*[CleanupOptions](../../cleanupoptions/)*) {#cleanup_1}
 
 Verilenlere bağlı olarak kullanılmayan stilleri ve listeleri belgeden temizler.[`CleanupOptions`](../../cleanupoptions/) .
 
@@ -69,7 +71,7 @@ Verilenlere bağlı olarak kullanılmayan stilleri ve listeleri belgeden temizle
 public void Cleanup(CleanupOptions options)
 ```
 
-### Örnekler
+## Örnekler
 
 Kullanılmayan tüm özel stillerin bir belgeden nasıl kaldırılacağını gösterir.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 
 * class [CleanupOptions](../../cleanupoptions/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

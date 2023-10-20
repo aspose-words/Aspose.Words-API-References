@@ -1,12 +1,14 @@
 ---
 title: TabStopCollection.Equals
-second_title: Aspose.Words for .NET API 参考
-description: TabStopCollection 方法. 判断是否指定TabStopCollection与当前值相等TabStopCollection.
+linktitle: Equals
+articleTitle: Equals
+second_title: 用于 .NET 的 Aspose.Words
+description: TabStopCollection Equals 方法. 判断是否指定TabStopCollection与当前值相等TabStopCollection 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/tabstopcollection/equals/
 ---
-## Equals(TabStopCollection) {#equals}
+## Equals(*[TabStopCollection](../)*) {#equals}
 
 判断是否指定[`TabStopCollection`](../)与当前值相等[`TabStopCollection`](../).
 
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/tabstopcollection/equals/
 public bool Equals(TabStopCollection rhs)
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档的制表位集合。
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### 也可以看看
 
 * class [TabStopCollection](../)
-* 命名空间 [Aspose.Words](../../tabstopcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 确定指定对象的值是否等于当前对象。
 
@@ -71,7 +73,7 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 public override bool Equals(object obj)
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档的制表位集合。
 
@@ -115,7 +117,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### 也可以看看
 
 * class [TabStopCollection](../)
-* 命名空间 [Aspose.Words](../../tabstopcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

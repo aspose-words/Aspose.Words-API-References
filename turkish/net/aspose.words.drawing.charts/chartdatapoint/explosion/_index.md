@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Explosion
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataPoint mülk. Veri noktasının pastanın merkezinden ne kadar uzağa taşınacağını belirtir. Negatif olabilir negatif özelliğin ayarlanmadığı ve hiçbir patlamanın uygulanmaması gerektiği anlamına gelir. Yalnızca Pasta grafikleri için geçerlidir.
+linktitle: Explosion
+articleTitle: Explosion
+second_title: Aspose.Words for .NET
+description: ChartDataPoint Explosion mülk. Veri noktasının pastanın merkezinden ne kadar uzağa taşınacağını belirtir. Negatif olabilir negatif özelliğin ayarlanmadığı ve hiçbir patlamanın uygulanmaması gerektiği anlamına gelir. Yalnızca Pasta grafikleri için geçerlidir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartdatapoint/explosion/
@@ -17,7 +19,5 @@ public int Explosion { get; set; }
 ### Ayrıca bakınız
 
 * class [ChartDataPoint](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

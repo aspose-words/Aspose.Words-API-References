@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Name
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeries ملكية. الحصول على اسم السلسلة أو تعيينه إذا لم يتم تعيين الاسم بشكل صريح فسيتم إنشاؤه باستخدام الفهرس. بشكل افتراضي يتم إرجاع السلسلة بالإضافة إلى فهرس واحد.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words لـ .NET
+description: ChartSeries Name ملكية. الحصول على اسم السلسلة أو تعيينه إذا لم يتم تعيين الاسم بشكل صريح فسيتم إنشاؤه باستخدام الفهرس. بشكل افتراضي يتم إرجاع السلسلة بالإضافة إلى فهرس واحد في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.drawing.charts/chartseries/name/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartseries/name/
 public string Name { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### أنظر أيضا
 
 * class [ChartSeries](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseries/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

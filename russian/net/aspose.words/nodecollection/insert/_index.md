@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Insert
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeCollection метод. Вставляет узел в коллекцию по указанному индексу.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words для .NET
+description: NodeCollection Insert метод. Вставляет узел в коллекцию по указанному индексу на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/nodecollection/insert/
@@ -25,7 +27,7 @@ public void Insert(int index, Node node)
 | --- | --- |
 | NotSupportedException | [`NodeCollection`](../) это «глубокая» коллекция. |
 
-### Примечания
+## Примечания
 
 Узел вставляется как дочерний в объект узла, из которого была создана коллекция.
 
@@ -35,7 +37,7 @@ public void Insert(int index, Node node)
 
 Если вставляемый узел был создан из другого документа, вам следует использовать [`ImportNode`](../../documentbase/importnode/) для импорта узла в текущий документ. Импортированный узел можно затем вставить в текущий документ.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с NodeCollection.
 
@@ -73,7 +75,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* пространство имен [Aspose.Words](../../nodecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

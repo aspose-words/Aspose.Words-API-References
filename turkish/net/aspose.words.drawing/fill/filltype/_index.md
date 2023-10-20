@@ -1,9 +1,11 @@
 ---
 title: Fill.FillType
-second_title: Aspose.Words for .NET API Referansı
-description: Fill mülk. Bir dolgu türü alır.
+linktitle: FillType
+articleTitle: FillType
+second_title: Aspose.Words for .NET
+description: Fill FillType mülk. Bir dolgu türü alır C#'da.
 type: docs
-weight: 60
+weight: 50
 url: /tr/net/aspose.words.drawing/fill/filltype/
 ---
 ## Fill.FillType property
@@ -18,7 +20,5 @@ public FillType FillType { get; }
 
 * enum [FillType](../../filltype/)
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

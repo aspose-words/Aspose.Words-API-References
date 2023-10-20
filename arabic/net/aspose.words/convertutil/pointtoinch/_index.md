@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.PointToInch
-second_title: Aspose.Words لمراجع .NET API
-description: ConvertUtil طريقة. تحويل النقاط إلى بوصات.
+linktitle: PointToInch
+articleTitle: PointToInch
+second_title: Aspose.Words لـ .NET
+description: ConvertUtil PointToInch طريقة. تحويل النقاط إلى بوصات في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/convertutil/pointtoinch/
@@ -18,11 +20,11 @@ public static double PointToInch(double points)
 | --- | --- | --- |
 | points | Double | القيمة المراد تحويلها. |
 
-### ملاحظات
+## ملاحظات
 
 1 بوصة تساوي 72 نقطة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد خصائص الصفحة بالبوصة.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndInches.docx");
 ### أنظر أيضا
 
 * class [ConvertUtil](../)
-* مساحة الاسم [Aspose.Words](../../convertutil/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

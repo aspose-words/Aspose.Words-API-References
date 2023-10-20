@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertCheckBox
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет поле формы флажка в текущую позицию.
+linktitle: InsertCheckBox
+articleTitle: InsertCheckBox
+second_title: Aspose.Words для .NET
+description: DocumentBuilder InsertCheckBox метод. Вставляет поле формы флажка в текущую позицию на С#.
 type: docs
 weight: 290
 url: /ru/net/aspose.words/documentbuilder/insertcheckbox/
 ---
-## InsertCheckBox(string, bool, int) {#insertcheckbox_1}
+## InsertCheckBox(*string, bool, int*) {#insertcheckbox_1}
 
 Вставляет поле формы флажка в текущую позицию.
 
@@ -24,11 +26,11 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 
 Узел поля формы, который был только что вставлен.
 
-### Примечания
+## Примечания
 
 Если вы укажете имя для поля формы, то автоматически создастся закладка с таким же именем.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять флажки в документ.
 
@@ -59,12 +61,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## InsertCheckBox(string, bool, bool, int) {#insertcheckbox}
+## InsertCheckBox(*string, bool, bool, int*) {#insertcheckbox}
 
 Вставляет поле формы флажка в текущую позицию.
 
@@ -83,11 +85,11 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 
 Узел поля формы, который был только что вставлен.
 
-### Примечания
+## Примечания
 
 Если вы укажете имя для поля формы, то автоматически создастся закладка с таким же именем.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять флажки в документ.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

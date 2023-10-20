@@ -1,7 +1,9 @@
 ---
-title: Class FieldArgumentBuilder
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldArgumentBuilder clase. Crea un argumento de campo complejo que consta de campos nodos y texto sin formato.
+title: FieldArgumentBuilder Class
+linktitle: FieldArgumentBuilder
+articleTitle: FieldArgumentBuilder
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldArgumentBuilder clase. Crea un argumento de campo complejo que consta de campos nodos y texto sin formato en C#.
 type: docs
 weight: 1550
 url: /es/net/aspose.words.fields/fieldargumentbuilder/
@@ -26,11 +28,11 @@ public class FieldArgumentBuilder
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield/)(FieldBuilder) | Agrega un campo representado por un[`FieldBuilder`](../fieldbuilder/) al argumento. |
-| [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode/)(Inline) | Agrega un nodo al argumento. |
-| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(string) | Agrega un texto sin formato al argumento. |
+| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield/)(*[FieldBuilder](../fieldbuilder/)*) | Agrega un campo representado por un[`FieldBuilder`](../fieldbuilder/) al argumento. |
+| [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode/)(*[Inline](../../aspose.words/inline/)*) | Agrega un nodo al argumento. |
+| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(*string*) | Agrega un texto sin formato al argumento. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir campos usando un generador de campos y luego insertarlos en el documento.
 
@@ -114,5 +116,3 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

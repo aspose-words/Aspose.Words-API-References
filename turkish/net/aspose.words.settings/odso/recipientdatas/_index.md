@@ -1,7 +1,9 @@
 ---
 title: Odso.RecipientDatas
-second_title: Aspose.Words for .NET API Referansı
-description: Odso mülk. Bireysel kayıtların adresmektup birleştirmeye dahil edilmesini/hariç tutulmasını belirten bir nesne koleksiyonunu alır veya ayarlar. Bu nesne hiçbir zamanhükümsüz .
+linktitle: RecipientDatas
+articleTitle: RecipientDatas
+second_title: Aspose.Words for .NET
+description: Odso RecipientDatas mülk. Bireysel kayıtların adresmektup birleştirmeye dahil edilmesini/hariç tutulmasını belirten bir nesne koleksiyonunu alır veya ayarlar. Bu nesne hiçbir zamanhükümsüz  C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.settings/odso/recipientdatas/
@@ -14,7 +16,7 @@ Bireysel kayıtların adres-mektup birleştirmeye dahil edilmesini/hariç tutulm
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientDataCollection](../../odsorecipientdatacollection/)
 * class [Odso](../)
-* ad alanı [Aspose.Words.Settings](../../odso/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

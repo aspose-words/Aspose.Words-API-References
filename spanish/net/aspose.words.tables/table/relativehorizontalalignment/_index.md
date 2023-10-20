@@ -1,7 +1,9 @@
 ---
 title: Table.RelativeHorizontalAlignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. Obtiene o establece la alineación horizontal relativa de la tabla flotante.
+linktitle: RelativeHorizontalAlignment
+articleTitle: RelativeHorizontalAlignment
+second_title: Aspose.Words para .NET
+description: Table RelativeHorizontalAlignment propiedad. Obtiene o establece la alineación horizontal relativa de la tabla flotante en C#.
 type: docs
 weight: 230
 url: /es/net/aspose.words.tables/table/relativehorizontalalignment/
@@ -14,7 +16,7 @@ Obtiene o establece la alineación horizontal relativa de la tabla flotante.
 public HorizontalAlignment RelativeHorizontalAlignment { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la ubicación de las tablas flotantes.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

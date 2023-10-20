@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.ValueType
-second_title: Aspose.Words for .NET API Referansı
-description: ChartYValue mülk. Nesnede saklanan Y değerinin türünü alır.
+linktitle: ValueType
+articleTitle: ValueType
+second_title: Aspose.Words for .NET
+description: ChartYValue ValueType mülk. Nesnede saklanan Y değerinin türünü alır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing.charts/chartyvalue/valuetype/
@@ -18,7 +20,5 @@ public ChartYValueType ValueType { get; }
 
 * enum [ChartYValueType](../../chartyvaluetype/)
 * class [ChartYValue](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

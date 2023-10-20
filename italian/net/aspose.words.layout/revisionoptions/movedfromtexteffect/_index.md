@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.MovedFromTextEffect
-second_title: Aspose.Words per .NET API Reference
-description: RevisionOptions proprietà. Permette di specificare leffetto da applicare alle aree da cui è stato spostato il contenutoMoving . Il valore predefinito èDoubleStrikeThrough
+linktitle: MovedFromTextEffect
+articleTitle: MovedFromTextEffect
+second_title: Aspose.Words per .NET
+description: RevisionOptions MovedFromTextEffect proprietà. Permette di specificare leffetto da applicare alle aree da cui è stato spostato il contenutoMoving . Il valore predefinito èDoubleStrikeThrough in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.layout/revisionoptions/movedfromtexteffect/
@@ -14,7 +16,7 @@ Permette di specificare l'effetto da applicare alle aree da cui è stato spostat
 public RevisionTextEffect MovedFromTextEffect { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come modificare l'aspetto delle revisioni.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* spazio dei nomi [Aspose.Words.Layout](../../revisionoptions/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

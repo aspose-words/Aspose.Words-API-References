@@ -1,7 +1,9 @@
 ---
-title: FieldNext.FieldNext
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldNext строитель. Конструктор по умолчанию.
+title: FieldNext
+linktitle: FieldNext
+articleTitle: FieldNext
+second_title: Aspose.Words для .NET
+description: FieldNext строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldnext/fieldnext/
@@ -17,7 +19,5 @@ public FieldNext()
 ### Смотрите также
 
 * class [FieldNext](../)
-* пространство имен [Aspose.Words.Fields](../../fieldnext/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

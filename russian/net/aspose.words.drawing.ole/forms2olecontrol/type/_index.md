@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: Forms2OleControl свойство. Получает тип элемента управления Forms 2.0.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: Forms2OleControl Type свойство. Получает тип элемента управления Forms 2.0 на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing.ole/forms2olecontrol/type/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.ole/forms2olecontrol/type/
 public abstract Forms2OleControlType Type { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить свойства элемента управления ActiveX.
 
@@ -45,7 +47,5 @@ if (oleControl.IsForms2OleControl)
 
 * enum [Forms2OleControlType](../../forms2olecontroltype/)
 * class [Forms2OleControl](../)
-* пространство имен [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* пространство имен [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * сборка [Aspose.Words](../../../)
-
-

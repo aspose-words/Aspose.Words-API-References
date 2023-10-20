@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderSurroundsHeader
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 指定页面边框是包含还是排除页眉
+linktitle: BorderSurroundsHeader
+articleTitle: BorderSurroundsHeader
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup BorderSurroundsHeader 财产. 指定页面边框是包含还是排除页眉 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/pagesetup/bordersurroundsheader/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/pagesetup/bordersurroundsheader/
 public bool BorderSurroundsHeader { get; set; }
 ```
 
-### 评论
+## 评论
 
 注意，更改此属性会影响文档中的所有部分。
 
-### 例子
+## 例子
 
 演示如何将边框应用到页面和页眉/页脚。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorder.docx");
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

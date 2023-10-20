@@ -1,7 +1,9 @@
 ---
-title: Enum MergeFieldImageDimensionUnit
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.MergeFieldImageDimensionUnit enumeración. Especifica una unidad de dimensión de imagen es decir el ancho o el alto utilizada en un proceso de combinación de correspondencia.
+title: MergeFieldImageDimensionUnit Enum
+linktitle: MergeFieldImageDimensionUnit
+articleTitle: MergeFieldImageDimensionUnit
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.MergeFieldImageDimensionUnit enumeración. Especifica una unidad de dimensión de imagen es decir el ancho o el alto utilizada en un proceso de combinación de correspondencia en C#.
 type: docs
 weight: 2760
 url: /es/net/aspose.words.fields/mergefieldimagedimensionunit/
@@ -21,7 +23,7 @@ public enum MergeFieldImageDimensionUnit
 | Point | `0` | El punto (es decir, 1/72 de pulgada). |
 | Percent | `1` | El porcentaje del valor de dimensión de la imagen original. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar las dimensiones de las imágenes según las acepta MERGEFIELDS durante una combinación de correspondencia.
 
@@ -92,5 +94,3 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

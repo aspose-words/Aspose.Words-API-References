@@ -1,7 +1,9 @@
 ---
 title: Story.Tables
-second_title: Aspose.Words لمراجع .NET API
-description: Story ملكية. الحصول على مجموعة من الجداول التي تعتبر أبناء القصة مباشرة.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words لـ .NET
+description: Story Tables ملكية. الحصول على مجموعة من الجداول التي تعتبر أبناء القصة مباشرة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/story/tables/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/story/tables/
 public TableCollection Tables { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الصفين الأول والأخير من كافة الجداول في المستند.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 
 * class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * class [Story](../)
-* مساحة الاسم [Aspose.Words](../../story/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

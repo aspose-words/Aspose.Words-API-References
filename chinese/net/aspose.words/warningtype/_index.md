@@ -1,7 +1,9 @@
 ---
-title: Enum WarningType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.WarningType 枚举. 指定在文档加载或保存期间 Aspose.Words 发出的警告类型
+title: WarningType Enum
+linktitle: WarningType
+articleTitle: WarningType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.WarningType 枚举. 指定在文档加载或保存期间 Aspose.Words 发出的警告类型 在 C#.
 type: docs
 weight: 6660
 url: /zh/net/aspose.words/warningtype/
@@ -31,7 +33,7 @@ public enum WarningType
 | UnexpectedContent | `1000000` | 通用意外内容，没有特定代码。 |
 | Hint | `10000000` | 对潜在问题提出建议或提出改进建议。 |
 
-### 例子
+## 例子
 
 演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
@@ -92,5 +94,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

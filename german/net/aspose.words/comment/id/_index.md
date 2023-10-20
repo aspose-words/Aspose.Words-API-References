@@ -1,7 +1,9 @@
 ---
 title: Comment.Id
-second_title: Aspose.Words für .NET-API-Referenz
-description: Comment eigendom. Ruft die KommentarID ab.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words für .NET
+description: Comment Id eigendom. Ruft die KommentarID ab in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/comment/id/
@@ -11,10 +13,10 @@ url: /de/net/aspose.words/comment/id/
 Ruft die Kommentar-ID ab.
 
 ```csharp
-public int Id { get; set; }
+public int Id { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Mit der Kommentarkennung können Sie einen Kommentar in einem Textbereich im Dokument verankern. Der Bereich muss mithilfe von abgegrenzt werden[`CommentRangeStart`](../../commentrangestart/) Und[`CommentRangeEnd`](../../commentrangeend/) -Objekt mit demselben Bezeichnerwert wie das[`Comment`](../) Objekt.
 
@@ -22,7 +24,7 @@ Sie würden diesen Wert verwenden, wenn Sie nach dem suchen[`CommentRangeStart`]
 
 Kommentar-IDs sollen in einem Dokument eindeutig sein und Aspose.Words verwaltet automatisch Kommentar-IDs beim Laden, Speichern und Kombinieren von Dokumenten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt aller Kommentare und deren Kommentarbereiche mithilfe eines Dokumentbesuchers gedruckt wird.
 
@@ -183,7 +185,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Siehe auch
 
 * class [Comment](../)
-* namensraum [Aspose.Words](../../comment/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.JustificationMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает или задает настройку межсимвольного интервала в документе.
+linktitle: JustificationMode
+articleTitle: JustificationMode
+second_title: Aspose.Words для .NET
+description: Document JustificationMode свойство. Получает или задает настройку межсимвольного интервала в документе на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words/document/justificationmode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/justificationmode/
 public JustificationMode JustificationMode { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как управлять интервалом между символами.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");
 
 * enum [JustificationMode](../../../aspose.words.settings/justificationmode/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

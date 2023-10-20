@@ -1,7 +1,9 @@
 ---
 title: TextColumn.Width
-second_title: Aspose.Words per .NET API Reference
-description: TextColumn proprietà. Ottiene o imposta la larghezza della colonna di testo in punti.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words per .NET
+description: TextColumn Width proprietà. Ottiene o imposta la larghezza della colonna di testo in punti in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/textcolumn/width/
@@ -14,7 +16,7 @@ Ottiene o imposta la larghezza della colonna di testo in punti.
 public double Width { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare colonne con spaziatura non uniforme.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### Guarda anche
 
 * class [TextColumn](../)
-* spazio dei nomi [Aspose.Words](../../textcolumn/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

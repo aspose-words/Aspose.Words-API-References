@@ -1,7 +1,9 @@
 ---
 title: TabStop.IsClear
-second_title: Aspose.Words for .NET API Referansı
-description: TabStop mülk. İadelerdoğru bu sekme durağı bu konumdaki mevcut sekme duraklarını siliyorsa.
+linktitle: IsClear
+articleTitle: IsClear
+second_title: Aspose.Words for .NET
+description: TabStop IsClear mülk. İadelerdoğru bu sekme durağı bu konumdaki mevcut sekme duraklarını siliyorsa C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/tabstop/isclear/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/tabstop/isclear/
 public bool IsClear { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sekme durakları koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Ayrıca bakınız
 
 * class [TabStop](../)
-* ad alanı [Aspose.Words](../../tabstop/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

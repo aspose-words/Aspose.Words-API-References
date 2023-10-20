@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SuppressAutoHyphens
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Указывает следует ли освободить текущий абзац от любых переносов которые применяются в настройках документа.
+linktitle: SuppressAutoHyphens
+articleTitle: SuppressAutoHyphens
+second_title: Aspose.Words для .NET
+description: ParagraphFormat SuppressAutoHyphens свойство. Указывает следует ли освободить текущий абзац от любых переносов которые применяются в настройках документа на С#.
 type: docs
 weight: 370
 url: /ru/net/aspose.words/paragraphformat/suppressautohyphens/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/suppressautohyphens/
 public bool SuppressAutoHyphens { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как подавить переносы в абзаце.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.SuppressHyphens.pdf");
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

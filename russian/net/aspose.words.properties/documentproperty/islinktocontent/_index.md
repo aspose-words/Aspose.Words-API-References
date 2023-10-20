@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.IsLinkToContent
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentProperty свойство. Показывает связано ли это свойство с содержимым или нет.
+linktitle: IsLinkToContent
+articleTitle: IsLinkToContent
+second_title: Aspose.Words для .NET
+description: DocumentProperty IsLinkToContent свойство. Показывает связано ли это свойство с содержимым или нет на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.properties/documentproperty/islinktocontent/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.properties/documentproperty/islinktocontent/
 public bool IsLinkToContent { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как связать настраиваемое свойство документа с закладкой.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 ### Смотрите также
 
 * class [DocumentProperty](../)
-* пространство имен [Aspose.Words.Properties](../../documentproperty/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

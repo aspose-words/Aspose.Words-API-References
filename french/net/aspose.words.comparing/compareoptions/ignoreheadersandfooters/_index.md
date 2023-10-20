@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreHeadersAndFooters
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompareOptions propriété. True indique que le contenu des entêtes et des pieds de page est ignoré. Par défaut les entêtes et les pieds de page ne sont pas ignorés.
+linktitle: IgnoreHeadersAndFooters
+articleTitle: IgnoreHeadersAndFooters
+second_title: Aspose.Words pour .NET
+description: CompareOptions IgnoreHeadersAndFooters propriété. True indique que le contenu des entêtes et des pieds de page est ignoré. Par défaut les entêtes et les pieds de page ne sont pas ignorés en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/
@@ -14,7 +16,7 @@ True indique que le contenu des en-têtes et des pieds de page est ignoré. Par 
 public bool IgnoreHeadersAndFooters { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment filtrer des types spécifiques d’éléments de document lors d’une comparaison.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Voir également
 
 * class [CompareOptions](../)
-* espace de noms [Aspose.Words.Comparing](../../compareoptions/)
+* espace de noms [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * Assemblée [Aspose.Words](../../../)
-
-

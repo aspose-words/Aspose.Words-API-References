@@ -1,7 +1,9 @@
 ---
 title: Node.NextPreOrder
-second_title: Справочник по API Aspose.Words для .NET
-description: Node метод. Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа.
+linktitle: NextPreOrder
+articleTitle: NextPreOrder
+second_title: Aspose.Words для .NET
+description: Node NextPreOrder метод. Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words/node/nextpreorder/
@@ -22,7 +24,7 @@ public Node NextPreOrder(Node rootNode)
 
 Следующий узел в порядке предзаказа. Нуль, если достигнуто*rootNode*.
 
-### Примеры
+## Примеры
 
 Показывает, как пройти по дереву узлов документа с помощью алгоритма обхода предварительного порядка и удалить любую встреченную фигуру с изображением.
 
@@ -53,7 +55,5 @@ Assert.AreEqual(0,
 ### Смотрите также
 
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

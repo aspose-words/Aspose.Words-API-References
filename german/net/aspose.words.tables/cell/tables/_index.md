@@ -1,7 +1,9 @@
 ---
 title: Cell.Tables
-second_title: Aspose.Words für .NET-API-Referenz
-description: Cell eigendom. Ruft eine Sammlung von Tabellen ab die unmittelbar untergeordnete Elemente der Zelle sind.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words für .NET
+description: Cell Tables eigendom. Ruft eine Sammlung von Tabellen ab die unmittelbar untergeordnete Elemente der Zelle sind in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.tables/cell/tables/
@@ -14,7 +16,7 @@ Ruft eine Sammlung von Tabellen ab, die unmittelbar untergeordnete Elemente der 
 public TableCollection Tables { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man herausfindet, ob Tabellen verschachtelt sind.
 
@@ -93,7 +95,5 @@ private static int GetChildTableCount(Table table)
 
 * class [TableCollection](../../tablecollection/)
 * class [Cell](../)
-* namensraum [Aspose.Words.Tables](../../cell/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

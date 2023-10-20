@@ -1,7 +1,9 @@
 ---
 title: Theme.MinorFonts
-second_title: Aspose.Words for .NET API 参考
-description: Theme 财产. 允许为不同语言指定小字体集
+linktitle: MinorFonts
+articleTitle: MinorFonts
+second_title: 用于 .NET 的 Aspose.Words
+description: Theme MinorFonts 财产. 允许为不同语言指定小字体集 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.themes/theme/minorfonts/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.themes/theme/minorfonts/
 public ThemeFonts MinorFonts { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置主题的自定义颜色和字体。
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeFonts](../../themefonts/)
 * class [Theme](../)
-* 命名空间 [Aspose.Words.Themes](../../theme/)
+* 命名空间 [Aspose.Words.Themes](../../../aspose.words.themes/)
 * 部件 [Aspose.Words](../../../)
-
-

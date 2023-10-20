@@ -1,7 +1,9 @@
 ---
-title: Class FramesetCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Framesets.FramesetCollection 班级. 表示实例的集合Frameset类.
+title: FramesetCollection Class
+linktitle: FramesetCollection
+articleTitle: FramesetCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Framesets.FramesetCollection 班级. 表示实例的集合Frameset类 在 C#.
 type: docs
 weight: 3090
 url: /zh/net/aspose.words.framesets/framesetcollection/
@@ -40,5 +42,3 @@ public class FramesetCollection : IEnumerable<Frameset>
 * class [Frameset](../frameset/)
 * 命名空间 [Aspose.Words.Framesets](../../aspose.words.framesets/)
 * 部件 [Aspose.Words](../../)
-
-

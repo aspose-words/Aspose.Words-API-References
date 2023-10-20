@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.StyleName
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Bu biçimlendirmeye uygulanan paragraf stilinin adını alır veya ayarlar.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words for .NET
+description: ParagraphFormat StyleName mülk. Bu biçimlendirmeye uygulanan paragraf stilinin adını alır veya ayarlar C#'da.
 type: docs
 weight: 360
 url: /tr/net/aspose.words/paragraphformat/stylename/
@@ -14,7 +16,7 @@ Bu biçimlendirmeye uygulanan paragraf stilinin adını alır veya ayarlar.
 public string StyleName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

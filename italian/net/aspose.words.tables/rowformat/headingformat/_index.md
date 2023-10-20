@@ -1,7 +1,9 @@
 ---
 title: RowFormat.HeadingFormat
-second_title: Aspose.Words per .NET API Reference
-description: RowFormat proprietà. Vero se la riga viene ripetuta come intestazione di tabella su ogni pagina quando la tabella si estende su più di una pagina.
+linktitle: HeadingFormat
+articleTitle: HeadingFormat
+second_title: Aspose.Words per .NET
+description: RowFormat HeadingFormat proprietà. Vero se la riga viene ripetuta come intestazione di tabella su ogni pagina quando la tabella si estende su più di una pagina in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.tables/rowformat/headingformat/
@@ -14,7 +16,7 @@ Vero se la riga viene ripetuta come intestazione di tabella su ogni pagina quand
 public bool HeadingFormat { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare una tabella con righe che si ripetono su ogni pagina.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableSetHeadingRow.docx");
 ### Guarda anche
 
 * class [RowFormat](../)
-* spazio dei nomi [Aspose.Words.Tables](../../rowformat/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class TxtListIndentation
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.TxtListIndentation فصل. يحدد كيفية وضع مسافة بادئة لمستويات القائمة عند تصدير المستند إليهاText التنسيق.
+title: TxtListIndentation Class
+linktitle: TxtListIndentation
+articleTitle: TxtListIndentation
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.TxtListIndentation فصل. يحدد كيفية وضع مسافة بادئة لمستويات القائمة عند تصدير المستند إليهاText التنسيق في C#.
 type: docs
 weight: 5650
 url: /ar/net/aspose.words.saving/txtlistindentation/
@@ -29,7 +31,7 @@ public class TxtListIndentation
 | [Character](../../aspose.words.saving/txtlistindentation/character/) { get; set; } | الحصول على أو تعيين الحرف الذي سيتم استخدامه لوضع مسافة بادئة على مستويات القائمة. القيمة الافتراضية هي '\0'، وهذا يعني عدم وجود مسافة بادئة. |
 | [Count](../../aspose.words.saving/txtlistindentation/count/) { get; set; } | الحصول على العدد أو تعيينه[`Character`](./character/) لاستخدامها كمسافة بادئة لكل مستوى قائمة. القيمة الافتراضية هي 0، وهذا يعني عدم وجود مسافة بادئة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين المسافة البادئة للقائمة عند حفظ مستند إلى نص عادي.
 
@@ -70,5 +72,3 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

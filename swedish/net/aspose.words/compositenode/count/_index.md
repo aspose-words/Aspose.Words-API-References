@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.Count
-second_title: Aspose.Words för .NET API Referens
-description: CompositeNode fast egendom. Hämtar antalet omedelbara barn till denna nod.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: CompositeNode Count fast egendom. Hämtar antalet omedelbara barn till denna nod i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/compositenode/count/
@@ -14,7 +16,7 @@ Hämtar antalet omedelbara barn till denna nod.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till, uppdaterar och tar bort underordnade noder i en CompositeNodes samling av barn.
 
@@ -67,7 +69,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 ### Se även
 
 * class [CompositeNode](../)
-* namnutrymme [Aspose.Words](../../compositenode/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

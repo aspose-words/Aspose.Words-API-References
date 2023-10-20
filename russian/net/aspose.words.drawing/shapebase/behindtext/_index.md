@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BehindText
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Указывает находится ли фигура ниже или выше текста.
+linktitle: BehindText
+articleTitle: BehindText
+second_title: Aspose.Words для .NET
+description: ShapeBase BehindText свойство. Указывает находится ли фигура ниже или выше текста на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/shapebase/behindtext/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/shapebase/behindtext/
 public bool BehindText { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Имеет эффект только для фигур верхнего уровня.
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить плавающее изображение в центр страницы.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

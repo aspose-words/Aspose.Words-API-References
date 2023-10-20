@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.BackgroundColor
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergeBarcode fast egendom. Hämtar eller ställer in bakgrundsfärgen för streckkodssymbolen. Giltiga värden ligger inom intervallet 0 0xFFFFFF
+linktitle: BackgroundColor
+articleTitle: BackgroundColor
+second_title: Aspose.Words för .NET
+description: FieldMergeBarcode BackgroundColor fast egendom. Hämtar eller ställer in bakgrundsfärgen för streckkodssymbolen. Giltiga värden ligger inom intervallet 0 0xFFFFFF i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldmergebarcode/backgroundcolor/
@@ -14,7 +16,7 @@ Hämtar eller ställer in bakgrundsfärgen för streckkodssymbolen. Giltiga vär
 public string BackgroundColor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man utför en sammanfogning på QR-streckkoder.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Se även
 
 * class [FieldMergeBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

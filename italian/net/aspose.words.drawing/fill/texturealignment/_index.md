@@ -1,9 +1,11 @@
 ---
 title: Fill.TextureAlignment
-second_title: Aspose.Words per .NET API Reference
-description: Fill proprietà. Ottiene o imposta lallineamento per il riempimento della texture delle tessere.
+linktitle: TextureAlignment
+articleTitle: TextureAlignment
+second_title: Aspose.Words per .NET
+description: Fill TextureAlignment proprietà. Ottiene o imposta lallineamento per il riempimento della texture delle tessere in C#.
 type: docs
-weight: 190
+weight: 180
 url: /it/net/aspose.words.drawing/fill/texturealignment/
 ---
 ## Fill.TextureAlignment property
@@ -14,7 +16,7 @@ Ottiene o imposta l'allineamento per il riempimento della texture delle tessere.
 public TextureAlignment TextureAlignment { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come riempire e affiancare la texture all'interno della forma.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 
 * enum [TextureAlignment](../../texturealignment/)
 * class [Fill](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../fill/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

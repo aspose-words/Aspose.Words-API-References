@@ -1,7 +1,9 @@
 ---
 title: ListFormat.RemoveNumbers
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListFormat méthode. Supprime les chiffres ou les puces du paragraphe actuel et définit le niveau de liste sur zéro.
+linktitle: RemoveNumbers
+articleTitle: RemoveNumbers
+second_title: Aspose.Words pour .NET
+description: ListFormat RemoveNumbers méthode. Supprime les chiffres ou les puces du paragraphe actuel et définit le niveau de liste sur zéro en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.lists/listformat/removenumbers/
@@ -14,11 +16,11 @@ Supprime les chiffres ou les puces du paragraphe actuel et définit le niveau de
 public void RemoveNumbers()
 ```
 
-### Remarques
+## Remarques
 
 Appeler cette méthode équivaut à définir le[`List`](../list/) propriété à`nul`.
 
-### Exemples
+## Exemples
 
 Montre comment supprimer la mise en forme de liste de tous les paragraphes du texte principal d’une section.
 
@@ -124,7 +126,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Voir également
 
 * class [ListFormat](../)
-* espace de noms [Aspose.Words.Lists](../../listformat/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

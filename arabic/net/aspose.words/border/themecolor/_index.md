@@ -1,7 +1,9 @@
 ---
 title: Border.ThemeColor
-second_title: Aspose.Words لمراجع .NET API
-description: Border ملكية. الحصول على لون السمة أو تعيينه في نظام الألوان المطبق المرتبط بكائن الحدود هذا.
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words لـ .NET
+description: Border ThemeColor ملكية. الحصول على لون السمة أو تعيينه في نظام الألوان المطبق المرتبط بكائن الحدود هذا في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/border/themecolor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/border/themecolor/
 public ThemeColor ThemeColor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج فقرة ذات حد علوي.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Border](../)
-* مساحة الاسم [Aspose.Words](../../border/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

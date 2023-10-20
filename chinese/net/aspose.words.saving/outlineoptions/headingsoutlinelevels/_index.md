@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.HeadingsOutlineLevels
-second_title: Aspose.Words for .NET API 参考
-description: OutlineOptions 财产. 指定要包含在 文档大纲中的标题级别使用标题样式格式化的段落
+linktitle: HeadingsOutlineLevels
+articleTitle: HeadingsOutlineLevels
+second_title: 用于 .NET 的 Aspose.Words
+description: OutlineOptions HeadingsOutlineLevels 财产. 指定要包含在 文档大纲中的标题级别使用标题样式格式化的段落 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/
 public int HeadingsOutlineLevels { get; set; }
 ```
 
-### 评论
+## 评论
 
 指定 0 表示大纲中没有标题；为大纲中的一级标题指定 1，依此类推。
 
 默认值为 0。有效范围为 0 到 9。
 
-### 例子
+## 例子
 
 演示如何将整个文档转换为具有文档大纲三个级别的 PDF。
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 ### 也可以看看
 
 * class [OutlineOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../outlineoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.BookmarkName
-second_title: Aspose.Words per .NET API Reference
-description: FieldIndex proprietà. Ottiene o imposta il nome del segnalibro che contrassegna la parte del documento utilizzata per creare lindice.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words per .NET
+description: FieldIndex BookmarkName proprietà. Ottiene o imposta il nome del segnalibro che contrassegna la parte del documento utilizzata per creare lindice in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldindex/bookmarkname/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del segnalibro che contrassegna la parte del documento
 public string BookmarkName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un campo INDICE e quindi utilizzare i campi XE per compilarlo con le voci.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 ### Guarda anche
 
 * class [FieldIndex](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldindex/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FormFieldCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FormFieldCollection sınıf. Bir koleksiyonFormField bir aralıktaki tüm form alanlarını temsil eden nesneler.
+title: FormFieldCollection Class
+linktitle: FormFieldCollection
+articleTitle: FormFieldCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FormFieldCollection sınıf. Bir koleksiyonFormField bir aralıktaki tüm form alanlarını temsil eden nesneler C#'da.
 type: docs
 weight: 2630
 url: /tr/net/aspose.words.fields/formfieldcollection/
@@ -29,10 +31,10 @@ public class FormFieldCollection : IEnumerable<FormField>
 | --- | --- |
 | [Clear](../../aspose.words.fields/formfieldcollection/clear/)() | Tüm form alanlarını bu koleksiyondan ve belgeden kaldırır. |
 | [GetEnumerator](../../aspose.words.fields/formfieldcollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
-| [Remove](../../aspose.words.fields/formfieldcollection/remove/)(string) | Belirtilen ada sahip bir form alanını kaldırır. |
-| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(int) | Belirtilen dizindeki bir form alanını kaldırır. |
+| [Remove](../../aspose.words.fields/formfieldcollection/remove/)(*string*) | Belirtilen ada sahip bir form alanını kaldırır. |
+| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(*int*) | Belirtilen dizindeki bir form alanını kaldırır. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -168,5 +170,3 @@ public class FormFieldVisitor : DocumentVisitor
 * class [FormField](../formfield/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

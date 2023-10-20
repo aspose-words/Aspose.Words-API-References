@@ -1,7 +1,9 @@
 ---
 title: Document.Theme
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. FårTheme objekt för detta dokument.
+linktitle: Theme
+articleTitle: Theme
+second_title: Aspose.Words för .NET
+description: Document Theme fast egendom. FårTheme objekt för detta dokument i C#.
 type: docs
 weight: 420
 url: /sv/net/aspose.words/document/theme/
@@ -14,7 +16,7 @@ Får`Theme` objekt för detta dokument.
 public Theme Theme { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in anpassade färger och teckensnitt för teman.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [Theme](../../../aspose.words.themes/theme/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

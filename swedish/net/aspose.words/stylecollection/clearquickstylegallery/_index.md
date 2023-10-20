@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.ClearQuickStyleGallery
-second_title: Aspose.Words för .NET API Referens
-description: StyleCollection metod. Tar bort alla stilar från panelen Quick Style Gallery.
+linktitle: ClearQuickStyleGallery
+articleTitle: ClearQuickStyleGallery
+second_title: Aspose.Words för .NET
+description: StyleCollection ClearQuickStyleGallery metod. Tar bort alla stilar från panelen Quick Style Gallery i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/stylecollection/clearquickstylegallery/
@@ -14,7 +16,7 @@ Tar bort alla stilar från panelen Quick Style Gallery.
 public void ClearQuickStyleGallery()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du tar bort stilar från Style Gallery-panelen.
 
@@ -29,7 +31,5 @@ doc.Save(ArtifactsDir + "Styles.RemoveStylesFromStyleGallery.docx");
 ### Se även
 
 * class [StyleCollection](../)
-* namnutrymme [Aspose.Words](../../stylecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

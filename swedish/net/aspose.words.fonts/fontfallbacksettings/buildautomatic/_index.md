@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.BuildAutomatic
-second_title: Aspose.Words för .NET API Referens
-description: FontFallbackSettings metod. Skapar automatiskt reservinställningarna genom att skanna tillgängliga teckensnitt.
+linktitle: BuildAutomatic
+articleTitle: BuildAutomatic
+second_title: Aspose.Words för .NET
+description: FontFallbackSettings BuildAutomatic metod. Skapar automatiskt reservinställningarna genom att skanna tillgängliga teckensnitt i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/
@@ -14,11 +16,11 @@ Skapar automatiskt reservinställningarna genom att skanna tillgängliga teckens
 public void BuildAutomatic()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här metoden kan ge icke-optimala reservinställningar. Teckensnitt kontrolleras av[ Unicode-teckenintervall](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) fält och inte av den faktiska närvaron av glyfer. Unicode-intervall kontrolleras också individuellt och flera intervall relaterade till ett enda språk/skript kan använda olika reservteckensnitt.
 
-### Exempel
+## Exempel
 
 Visar hur man distribuerar reservteckensnitt över Unicode-teckenkodintervall.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 ### Se även
 
 * class [FontFallbackSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

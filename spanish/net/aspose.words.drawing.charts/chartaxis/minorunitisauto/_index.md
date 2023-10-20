@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorUnitIsAuto
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Obtiene o establece una bandera que indica si se debe utilizar la distancia predeterminada entre marcas menores.
+linktitle: MinorUnitIsAuto
+articleTitle: MinorUnitIsAuto
+second_title: Aspose.Words para .NET
+description: ChartAxis MinorUnitIsAuto propiedad. Obtiene o establece una bandera que indica si se debe utilizar la distancia predeterminada entre marcas menores en C#.
 type: docs
 weight: 170
 url: /es/net/aspose.words.drawing.charts/chartaxis/minorunitisauto/
@@ -14,11 +16,11 @@ Obtiene o establece una bandera que indica si se debe utilizar la distancia pred
 public bool MinorUnitIsAuto { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La propiedad tiene efecto para la categoría de tiempo y los ejes de valor.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo manipular las marcas y los valores mostrados de un eje de gráfico.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Ver también
 
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

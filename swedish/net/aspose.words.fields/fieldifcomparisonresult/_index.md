@@ -1,7 +1,9 @@
 ---
-title: Enum FieldIfComparisonResult
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldIfComparisonResult uppräkning. Anger resultatet av IFfältets tillståndsutvärdering.
+title: FieldIfComparisonResult Enum
+linktitle: FieldIfComparisonResult
+articleTitle: FieldIfComparisonResult
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldIfComparisonResult uppräkning. Anger resultatet av IFfältets tillståndsutvärdering i C#.
 type: docs
 weight: 2010
 url: /sv/net/aspose.words.fields/fieldifcomparisonresult/
@@ -22,7 +24,7 @@ public enum FieldIfComparisonResult
 | True | `1` | Villkoret är`Sann` . |
 | False | `2` | Villkoret är`falsk` . |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett IF-fält.
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

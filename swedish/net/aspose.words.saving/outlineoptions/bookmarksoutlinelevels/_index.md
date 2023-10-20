@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.BookmarksOutlineLevels
-second_title: Aspose.Words för .NET API Referens
-description: OutlineOptions fast egendom. Gör det möjligt att ange individuella bokmärkens konturnivå.
+linktitle: BookmarksOutlineLevels
+articleTitle: BookmarksOutlineLevels
+second_title: Aspose.Words för .NET
+description: OutlineOptions BookmarksOutlineLevels fast egendom. Gör det möjligt att ange individuella bokmärkens konturnivå i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
@@ -14,11 +16,11 @@ Gör det möjligt att ange individuella bokmärkens konturnivå.
 public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om bokmärkesnivån inte anges i den här samlingen då[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel/) värde används.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in konturnivåer för bokmärken.
 
@@ -77,7 +79,5 @@ outlineLevels.Clear();
 
 * class [BookmarksOutlineLevelCollection](../../bookmarksoutlinelevelcollection/)
 * class [OutlineOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../outlineoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

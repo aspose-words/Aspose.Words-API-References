@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LeftIndent
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取或设置表示段落左缩进的值以磅为单位
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat LeftIndent 财产. 获取或设置表示段落左缩进的值以磅为单位 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words/paragraphformat/leftindent/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/leftindent/
 public double LeftIndent { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何配置段落格式以创建偏离中心的文本。
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetParagraphFormatting.docx");
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

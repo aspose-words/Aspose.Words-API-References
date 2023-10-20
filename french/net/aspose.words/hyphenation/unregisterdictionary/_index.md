@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.UnregisterDictionary
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Hyphenation méthode. Désenregistre un dictionnaire de césure pour la langue spécifiée.
+linktitle: UnregisterDictionary
+articleTitle: UnregisterDictionary
+second_title: Aspose.Words pour .NET
+description: Hyphenation UnregisterDictionary méthode. Désenregistre un dictionnaire de césure pour la langue spécifiée en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/hyphenation/unregisterdictionary/
@@ -20,7 +22,7 @@ public static void UnregisterDictionary(string language)
 | --- | --- | --- |
 | language | String | Un nom de langue, par exemple "en-US". Consultez la documentation .NET pour le « nom de la culture » et la RFC 4646 pour plus de détails. |
 
-### Exemples
+## Exemples
 
 Montre comment enregistrer un dictionnaire de césure.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### Voir également
 
 * class [Hyphenation](../)
-* espace de noms [Aspose.Words](../../hyphenation/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

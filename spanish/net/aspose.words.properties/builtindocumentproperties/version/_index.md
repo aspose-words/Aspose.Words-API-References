@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Version
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuiltInDocumentProperties propiedad. Representa el número de versión de la aplicación que creó el documento.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words para .NET
+description: BuiltInDocumentProperties Version propiedad. Representa el número de versión de la aplicación que creó el documento en C#.
 type: docs
 weight: 320
 url: /es/net/aspose.words.properties/builtindocumentproperties/version/
@@ -14,11 +16,11 @@ Representa el número de versión de la aplicación que creó el documento.
 public int Version { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando Microsoft Word creó un documento, los 16 bits altos representan la versión principal y los 16 bits bajos representan el número de compilación.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de documentos en la categoría "Origen".
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Ver también
 
 * class [BuiltInDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

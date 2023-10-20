@@ -1,7 +1,9 @@
 ---
 title: Font.Style
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in teckenstilen som tillämpas på denna formatering.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words för .NET
+description: Font Style fast egendom. Hämtar eller ställer in teckenstilen som tillämpas på denna formatering i C#.
 type: docs
 weight: 400
 url: /sv/net/aspose.words/font/style/
@@ -14,7 +16,7 @@ Hämtar eller ställer in teckenstilen som tillämpas på denna formatering.
 public Style Style { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Tillämpar en dubbel understrykning på alla körningar i ett dokument som är formaterade med anpassade teckenstilar.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Font.Style.docx");
 
 * class [Style](../../style/)
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StreamFontSource.Type
-second_title: Aspose.Words för .NET API Referens
-description: StreamFontSource fast egendom. Returnerar typen av teckensnittskälla.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: StreamFontSource Type fast egendom. Returnerar typen av teckensnittskälla i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/streamfontsource/type/
@@ -18,7 +20,5 @@ public FontSourceType Type { get; }
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [StreamFontSource](../)
-* namnutrymme [Aspose.Words.Fonts](../../streamfontsource/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

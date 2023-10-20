@@ -1,7 +1,9 @@
 ---
 title: MailMerge.FieldMergingCallback
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge propiedad. Ocurre durante la combinación de correspondencia cuando se encuentra un campo de combinación de correspondencia en el documento.
+linktitle: FieldMergingCallback
+articleTitle: FieldMergingCallback
+second_title: Aspose.Words para .NET
+description: MailMerge FieldMergingCallback propiedad. Ocurre durante la combinación de correspondencia cuando se encuentra un campo de combinación de correspondencia en el documento en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.mailmerging/mailmerge/fieldmergingcallback/
@@ -14,7 +16,7 @@ Ocurre durante la combinación de correspondencia cuando se encuentra un campo d
 public IFieldMergingCallback FieldMergingCallback { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar imágenes almacenadas en un campo BLOB de la base de datos en un informe.
 
@@ -127,7 +129,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * interface [IFieldMergingCallback](../../ifieldmergingcallback/)
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

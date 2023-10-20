@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.MailMerging
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.MailMergingПространство имен содержит классы механизма отчетов о слиянии the original.
+linktitle: Aspose.Words.MailMerging
+articleTitle: Aspose.Words.MailMerging
+second_title: Aspose.Words для .NET
+description: Aspose.Words.MailMergingПространство имен содержит классы механизма отчетов о слиянии the original на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.mailmerging/
@@ -12,7 +14,7 @@ url: /ru/net/aspose.words.mailmerging/
 
 | Учебный класс | Описание |
 | --- | --- |
-| [FieldMergingArgs](./fieldmergingargs/) | Предоставляет данные для **Объединить поле** событие. |
+| [FieldMergingArgs](./fieldmergingargs/) | Предоставляет данные для**Объединить поле** событие. |
 | [FieldMergingArgsBase](./fieldmergingargsbase/) | Базовый класс для[`FieldMergingArgs`](../aspose.words.mailmerging/fieldmergingargs/) и[`ImageFieldMergingArgs`](../aspose.words.mailmerging/imagefieldmergingargs/) . |
 | [ImageFieldMergingArgs](./imagefieldmergingargs/) | Предоставляет данные для[`ImageFieldMerging`](../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/) событие. |
 | [MailMerge](./mailmerge/) | Представляет функцию слияния почты. |
@@ -32,5 +34,3 @@ url: /ru/net/aspose.words.mailmerging/
 | перечисление | Описание |
 | --- | --- |
 | [MailMergeCleanupOptions](./mailmergecleanupoptions/) | Указывает параметры, определяющие, какие элементы удаляются во время слияния почты. |
-
-

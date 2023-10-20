@@ -1,7 +1,9 @@
 ---
 title: MemoryFontSource.CacheKey
-second_title: Aspose.Words for .NET API Referansı
-description: MemoryFontSource mülk. Bu kaynağın önbellekteki anahtarı.
+linktitle: CacheKey
+articleTitle: CacheKey
+second_title: Aspose.Words for .NET
+description: MemoryFontSource CacheKey mülk. Bu kaynağın önbellekteki anahtarı C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fonts/memoryfontsource/cachekey/
@@ -14,14 +16,12 @@ Bu kaynağın önbellekteki anahtarı.
 public string CacheKey { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu anahtar, yazı tipi arama önbelleğini ile kaydederken/yüklerken önbellek öğesini tanımlamak için kullanılır[`SaveSearchCache`](../../fontsettings/savesearchcache/) Ve[`SetFontsSources`](../../fontsettings/setfontssources/)yöntemler.
 
 ### Ayrıca bakınız
 
 * class [MemoryFontSource](../)
-* ad alanı [Aspose.Words.Fonts](../../memoryfontsource/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

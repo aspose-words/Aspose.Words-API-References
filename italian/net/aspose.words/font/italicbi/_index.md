@@ -1,7 +1,9 @@
 ---
 title: Font.ItalicBi
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Vero se il testo da destra a sinistra è formattato in corsivo.
+linktitle: ItalicBi
+articleTitle: ItalicBi
+second_title: Aspose.Words per .NET
+description: Font ItalicBi proprietà. Vero se il testo da destra a sinistra è formattato in corsivo in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words/font/italicbi/
@@ -14,7 +16,7 @@ Vero se il testo da destra a sinistra è formattato in corsivo.
 public bool ItalicBi { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come definire set separati di impostazioni dei caratteri per il testo da destra a sinistra e da destra a sinistra.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

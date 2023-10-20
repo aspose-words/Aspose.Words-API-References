@@ -1,7 +1,9 @@
 ---
 title: Row.IsFirstRow
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Row propriété. True sil sagit de la première ligne dun tableau  faux sinon.
+linktitle: IsFirstRow
+articleTitle: IsFirstRow
+second_title: Aspose.Words pour .NET
+description: Row IsFirstRow propriété. True sil sagit de la première ligne dun tableau  faux sinon en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.tables/row/isfirstrow/
@@ -14,7 +16,7 @@ True s'il s'agit de la première ligne d'un tableau ; faux sinon.
 public bool IsFirstRow { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure des nœuds de chaque table d'un document.
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Voir également
 
 * class [Row](../)
-* espace de noms [Aspose.Words.Tables](../../row/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

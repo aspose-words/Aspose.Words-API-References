@@ -1,7 +1,9 @@
 ---
 title: CellFormat.Borders
-second_title: Aspose.Words für .NET-API-Referenz
-description: CellFormat eigendom. Ruft eine Sammlung von Rändern der Zelle ab.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words für .NET
+description: CellFormat Borders eigendom. Ruft eine Sammlung von Rändern der Zelle ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.tables/cellformat/borders/
@@ -14,7 +16,7 @@ Ruft eine Sammlung von Rändern der Zelle ab.
 public BorderCollection Borders { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Zeilen aus zwei Tabellen zu einer kombiniert werden.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [CellFormat](../)
-* namensraum [Aspose.Words.Tables](../../cellformat/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

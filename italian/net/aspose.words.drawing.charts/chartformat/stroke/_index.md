@@ -1,9 +1,11 @@
 ---
 title: ChartFormat.Stroke
-second_title: Aspose.Words per .NET API Reference
-description: ChartFormat proprietà. Ottiene la formattazione della linea per lelemento del grafico principale.
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words per .NET
+description: ChartFormat Stroke proprietà. Ottiene la formattazione della linea per lelemento del grafico principale in C#.
 type: docs
-weight: 40
+weight: 30
 url: /it/net/aspose.words.drawing.charts/chartformat/stroke/
 ---
 ## ChartFormat.Stroke property
@@ -14,7 +16,7 @@ Ottiene la formattazione della linea per l'elemento del grafico principale.
 public Stroke Stroke { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la formattazione del marcatore.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [Stroke](../../../aspose.words.drawing/stroke/)
 * class [ChartFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartformat/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

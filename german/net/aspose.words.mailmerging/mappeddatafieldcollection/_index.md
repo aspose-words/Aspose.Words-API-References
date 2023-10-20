@@ -1,7 +1,9 @@
 ---
-title: Class MappedDataFieldCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.MailMerging.MappedDataFieldCollection klas. Ermöglicht die automatische Zuordnung zwischen Namen von Feldern in Ihrer Datenquelle und Namen von Serienbrieffeldern im Dokument.
+title: MappedDataFieldCollection Class
+linktitle: MappedDataFieldCollection
+articleTitle: MappedDataFieldCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.MailMerging.MappedDataFieldCollection klas. Ermöglicht die automatische Zuordnung zwischen Namen von Feldern in Ihrer Datenquelle und Namen von Serienbrieffeldern im Dokument in C#.
 type: docs
 weight: 3870
 url: /de/net/aspose.words.mailmerging/mappeddatafieldcollection/
@@ -27,18 +29,18 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(string, string) | Fügt eine neue Feldzuordnung hinzu. |
+| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(*string, string*) | Fügt eine neue Feldzuordnung hinzu. |
 | [Clear](../../aspose.words.mailmerging/mappeddatafieldcollection/clear/)() | Entfernt alle Elemente aus der Sammlung. |
-| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(string) | Bestimmt, ob eine Zuordnung aus dem angegebenen Feld im Dokument in der Sammlung vorhanden ist. |
-| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(string) | Bestimmt, ob eine Zuordnung aus dem angegebenen Feld in der Datenquelle in der Sammlung vorhanden ist. |
+| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | Bestimmt, ob eine Zuordnung aus dem angegebenen Feld im Dokument in der Sammlung vorhanden ist. |
+| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | Bestimmt, ob eine Zuordnung aus dem angegebenen Feld in der Datenquelle in der Sammlung vorhanden ist. |
 | [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Gibt ein Wörterbuch-Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann. |
-| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(string) | Entfernt eine Feldzuordnung. |
+| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(*string*) | Entfernt eine Feldzuordnung. |
 
-### Bemerkungen
+## Bemerkungen
 
 Dies wird als Sammlung von Zeichenfolgenschlüsseln in Zeichenfolgenwerte implementiert. Die Schlüssel sind die Namen der Serienbrieffelder im Dokument und die Werte sind die Namen der Felder in Ihrer Datenquelle.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Datenspalten und MERGEFIELDs mit unterschiedlichen Namen zugeordnet werden, damit die Daten während eines Seriendrucks zwischen ihnen übertragen werden.
 
@@ -124,5 +126,3 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * namensraum [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../)
-
-

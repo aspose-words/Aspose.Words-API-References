@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.ScalingFactor
-second_title: Aspose.Words لمراجع .NET API
-description: BarcodeParameters ملكية. عامل القياس للرمز. القيمة بنقاط مئوية كاملة والقيم الصالحة هي 10 1000.
+linktitle: ScalingFactor
+articleTitle: ScalingFactor
+second_title: Aspose.Words لـ .NET
+description: BarcodeParameters ScalingFactor ملكية. عامل القياس للرمز. القيمة بنقاط مئوية كاملة والقيم الصالحة هي 10 1000 في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.fields/barcodeparameters/scalingfactor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/barcodeparameters/scalingfactor/
 public string ScalingFactor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مولد الباركود.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### أنظر أيضا
 
 * class [BarcodeParameters](../)
-* مساحة الاسم [Aspose.Words.Fields](../../barcodeparameters/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

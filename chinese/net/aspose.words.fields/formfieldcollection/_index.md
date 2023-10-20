@@ -1,7 +1,9 @@
 ---
-title: Class FormFieldCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.FormFieldCollection 班级. 的集合FormField代表范围内所有表单字段的对象
+title: FormFieldCollection Class
+linktitle: FormFieldCollection
+articleTitle: FormFieldCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.FormFieldCollection 班级. 的集合FormField代表范围内所有表单字段的对象 在 C#.
 type: docs
 weight: 2630
 url: /zh/net/aspose.words.fields/formfieldcollection/
@@ -29,10 +31,10 @@ public class FormFieldCollection : IEnumerable<FormField>
 | --- | --- |
 | [Clear](../../aspose.words.fields/formfieldcollection/clear/)() | 从此集合和文档中删除所有表单字段。 |
 | [GetEnumerator](../../aspose.words.fields/formfieldcollection/getenumerator/)() | 返回一个枚举器对象。 |
-| [Remove](../../aspose.words.fields/formfieldcollection/remove/)(string) | 删除具有指定名称的表单字段。 |
-| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(int) | 删除指定索引处的表单字段。 |
+| [Remove](../../aspose.words.fields/formfieldcollection/remove/)(*string*) | 删除具有指定名称的表单字段。 |
+| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(*int*) | 删除指定索引处的表单字段。 |
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -168,5 +170,3 @@ public class FormFieldVisitor : DocumentVisitor
 * class [FormField](../formfield/)
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

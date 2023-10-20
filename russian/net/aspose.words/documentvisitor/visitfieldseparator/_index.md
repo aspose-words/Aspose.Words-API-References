@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldSeparator
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда в документе встречается разделитель полей.
+linktitle: VisitFieldSeparator
+articleTitle: VisitFieldSeparator
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitFieldSeparator метод. Вызывается когда в документе встречается разделитель полей на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words/documentvisitor/visitfieldseparator/
@@ -22,13 +24,13 @@ public virtual VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примечания
+## Примечания
 
 Разделитель полей отделяет код поля от значения поля в документе. Обратите внимание, что некоторые поля содержат только код поля и не имеют разделителя полей и значения поля.
 
 Для получения дополнительной информации см.[`VisitFieldStart`](../visitfieldstart/)
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узла каждого поля в документе.
 
@@ -133,7 +135,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldSeparator](../../../aspose.words.fields/fieldseparator/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: CustomXmlSchemaCollection 方法. 返回一个枚举器对象可用于迭代集合中的所有项目
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomXmlSchemaCollection GetEnumerator 方法. 返回一个枚举器对象可用于迭代集合中的所有项目 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.markup/customxmlschemacollection/getenumerator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/customxmlschemacollection/getenumerator/
 public IEnumerator<string> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 展示如何使用 XML 架构集合。
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### 也可以看看
 
 * class [CustomXmlSchemaCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../customxmlschemacollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

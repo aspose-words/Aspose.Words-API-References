@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertShape
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt eine InlineForm mit dem angegebenen Typ und der angegebenen Größe ein.
+linktitle: InsertShape
+articleTitle: InsertShape
+second_title: Aspose.Words für .NET
+description: DocumentBuilder InsertShape methode. Fügt eine InlineForm mit dem angegebenen Typ und der angegebenen Größe ein in C#.
 type: docs
-weight: 440
+weight: 430
 url: /de/net/aspose.words/documentbuilder/insertshape/
 ---
-## InsertShape(ShapeType, double, double) {#insertshape_1}
+## InsertShape(*[ShapeType](../../../aspose.words.drawing/shapetype/), double, double*) {#insertshape_1}
 
 Fügt eine Inline-Form mit dem angegebenen Typ und der angegebenen Größe ein.
 
@@ -24,7 +26,7 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 
 Der eingefügte Formknoten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie DML-Formen in ein Dokument eingefügt werden.
 
@@ -54,12 +56,12 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 * class [Shape](../../../aspose.words.drawing/shape/)
 * enum [ShapeType](../../../aspose.words.drawing/shapetype/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## InsertShape(ShapeType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertshape}
+## InsertShape(*[ShapeType](../../../aspose.words.drawing/shapetype/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertshape}
 
 Fügt eine frei schwebende Form mit angegebener Position, Größe und Textumbruchtyp ein.
 
@@ -83,7 +85,7 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 
 Der eingefügte Formknoten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie DML-Formen in ein Dokument eingefügt werden.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

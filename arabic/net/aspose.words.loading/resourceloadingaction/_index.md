@@ -1,7 +1,9 @@
 ---
-title: Enum ResourceLoadingAction
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.ResourceLoadingAction تعداد. يحدد طريقة تحميل الموارد.
+title: ResourceLoadingAction Enum
+linktitle: ResourceLoadingAction
+articleTitle: ResourceLoadingAction
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.ResourceLoadingAction تعداد. يحدد طريقة تحميل الموارد في C#.
 type: docs
 weight: 3680
 url: /ar/net/aspose.words.loading/resourceloadingaction/
@@ -24,7 +26,7 @@ public enum ResourceLoadingAction
 | Skip | `1` | سوف يتخطى Aspose.Words تحميل هذا المورد. سيتم تخزين الرابط الذي لا يحتوي على بيانات فقط للصورة، وسيتم تجاهل ورقة أنماط CSS لتنسيق HTML. |
 | UserProvided | `2` | سوف يستخدم Aspose.Words مصفوفة البايت التي يوفرها المستخدم[`SetData`](../resourceloadingargs/setdata/) كبيانات الموارد. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخصيص عملية تحميل الموارد الخارجية إلى مستند.
 
@@ -88,5 +90,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

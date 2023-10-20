@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.HorizontalPosition
-second_title: Aspose.Words per .NET API Reference
-description: FieldAdvance proprietà. Ottiene o imposta il numero di punti in base ai quali il testo che segue il campo deve essere spostato orizzontalmente dal bordo sinistro della colonna cornice o casella di testo.
+linktitle: HorizontalPosition
+articleTitle: HorizontalPosition
+second_title: Aspose.Words per .NET
+description: FieldAdvance HorizontalPosition proprietà. Ottiene o imposta il numero di punti in base ai quali il testo che segue il campo deve essere spostato orizzontalmente dal bordo sinistro della colonna cornice o casella di testo in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldadvance/horizontalposition/
@@ -14,7 +16,7 @@ Ottiene o imposta il numero di punti in base ai quali il testo che segue il camp
 public string HorizontalPosition { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo ADVANCE e modificarne le proprietà.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### Guarda anche
 
 * class [FieldAdvance](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldadvance/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

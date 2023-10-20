@@ -1,7 +1,9 @@
 ---
 title: SaveOutputParameters.ContentType
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOutputParameters ملكية. إرجاع سلسلة نوع المحتوى نوع وسائط الإنترنت التي تحدد نوع المستند المحفوظ.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: Aspose.Words لـ .NET
+description: SaveOutputParameters ContentType ملكية. إرجاع سلسلة نوع المحتوى نوع وسائط الإنترنت التي تحدد نوع المستند المحفوظ في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/saveoutputparameters/contenttype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/saveoutputparameters/contenttype/
 public string ContentType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى معلمات الإخراج لعملية حفظ المستند.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("application/pdf", parameters.ContentType);
 ### أنظر أيضا
 
 * class [SaveOutputParameters](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoutputparameters/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

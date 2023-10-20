@@ -1,7 +1,9 @@
 ---
-title: BuildingBlock.BuildingBlock
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuildingBlock constructor. Inicializa una nueva instancia de esta clase.
+title: BuildingBlock
+linktitle: BuildingBlock
+articleTitle: BuildingBlock
+second_title: Aspose.Words para .NET
+description: BuildingBlock constructor. Inicializa una nueva instancia de esta clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.buildingblocks/buildingblock/buildingblock/
@@ -18,13 +20,13 @@ public BuildingBlock(GlossaryDocument glossaryDoc)
 | --- | --- | --- |
 | glossaryDoc | GlossaryDocument | El documento del propietario. |
 
-### Observaciones
+## Observaciones
 
 Cuando[`BuildingBlock`](../)se crea, pertenece al documento de glosario especificado, pero aún no forma parte del documento de glosario y[`ParentNode`](../../../aspose.words/node/parentnode/) es`nulo`.
 
-Para anexar[`BuildingBlock`](../) un[`GlossaryDocument`](../../glossarydocument/) utilizar Node).
+Para anexar[`BuildingBlock`](../) un[`GlossaryDocument`](../../glossarydocument/) utilizar [`AppendChild`](../../../aspose.words/compositenode/appendchild/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar un bloque de creación personalizado a un documento.
 
@@ -122,7 +124,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [GlossaryDocument](../../glossarydocument/)
 * class [BuildingBlock](../)
-* espacio de nombres [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* espacio de nombres [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * asamblea [Aspose.Words](../../../)
-
-

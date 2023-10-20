@@ -1,7 +1,9 @@
 ---
-title: Class ParagraphFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.ParagraphFormat 班级. 表示段落的所有格式
+title: ParagraphFormat Class
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.ParagraphFormat 班级. 表示段落的所有格式 在 C#.
 type: docs
 weight: 4420
 url: /zh/net/aspose.words/paragraphformat/
@@ -68,7 +70,7 @@ public class ParagraphFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words/paragraphformat/clearformatting/)() | 重置为默认段落格式。 |
 
-### 例子
+## 例子
 
 展示如何手动构建 Aspose.Words 文档。
 
@@ -119,5 +121,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

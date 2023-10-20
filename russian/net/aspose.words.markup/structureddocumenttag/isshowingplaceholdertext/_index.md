@@ -1,14 +1,16 @@
 ---
 title: StructuredDocumentTag.IsShowingPlaceholderText
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Указывает будет ли содержимое этого СДТдолжно интерпретироваться как содержащее заполнитель text в отличие от обычного текстового содержимого в SDT.
+linktitle: IsShowingPlaceholderText
+articleTitle: IsShowingPlaceholderText
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag IsShowingPlaceholderText свойство. Указывает будет ли содержимое этогоСДТдолжно интерпретироваться как содержащее заполнитель text в отличие от обычного текстового содержимого в SDT на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.markup/structureddocumenttag/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTag.IsShowingPlaceholderText property
 
-Указывает, будет ли содержимое этого **СДТ**должно интерпретироваться как содержащее заполнитель text (в отличие от обычного текстового содержимого в SDT).
+Указывает, будет ли содержимое этого**СДТ**должно интерпретироваться как содержащее заполнитель text (в отличие от обычного текстового содержимого в SDT).
 
 , если установлено значение`истинный` , это состояние будет возобновлено (с отображением текста-заполнителя) при открытии этого документа.
 
@@ -16,7 +18,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttag/isshowingplaceholdertext/
 public bool IsShowingPlaceholderText { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать содержимое стандартного блока в качестве пользовательского текста-заполнителя для тега структурированного документа.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

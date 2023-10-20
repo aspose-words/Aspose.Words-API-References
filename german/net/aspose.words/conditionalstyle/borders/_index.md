@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Borders
-second_title: Aspose.Words für .NET-API-Referenz
-description: ConditionalStyle eigendom. Ruft die Sammlung von StandardZellenrändern für den bedingten Stil ab.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words für .NET
+description: ConditionalStyle Borders eigendom. Ruft die Sammlung von StandardZellenrändern für den bedingten Stil ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/conditionalstyle/borders/
@@ -14,7 +16,7 @@ Ruft die Sammlung von Standard-Zellenrändern für den bedingten Stil ab.
 public BorderCollection Borders { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [ConditionalStyle](../)
-* namensraum [Aspose.Words](../../conditionalstyle/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

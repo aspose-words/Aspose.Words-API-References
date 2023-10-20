@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitCellEnd
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند انتهاء تعداد خلية الجدول.
+linktitle: VisitCellEnd
+articleTitle: VisitCellEnd
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitCellEnd طريقة. يتم استدعاؤه عند انتهاء تعداد خلية الجدول في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/documentvisitor/visitcellend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitCellEnd(Cell cell)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل جدول في المستند.
 
@@ -378,7 +380,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Cell](../../../aspose.words.tables/cell/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

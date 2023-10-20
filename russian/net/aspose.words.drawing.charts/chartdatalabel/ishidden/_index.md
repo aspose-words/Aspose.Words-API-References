@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.IsHidden
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabel свойство. Получает/устанавливает флаг указывающий скрыта ли эта метка. Значение по умолчаниюЛОЖЬ .
+linktitle: IsHidden
+articleTitle: IsHidden
+second_title: Aspose.Words для .NET
+description: ChartDataLabel IsHidden свойство. Получает/устанавливает флаг указывающий скрыта ли эта метка. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/ishidden/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabel/ishidden/
 public bool IsHidden { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Смотрите также
 
 * class [ChartDataLabel](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Odso.UdlConnectString
-second_title: Справочник по API Aspose.Words для .NET
-description: Odso свойство. Указывает строку подключения Universal Data Link UDL используемую для подключения к внешнему источнику данных. Значение по умолчанию  пустая строка.
+linktitle: UdlConnectString
+articleTitle: UdlConnectString
+second_title: Aspose.Words для .NET
+description: Odso UdlConnectString свойство. Указывает строку подключения Universal Data Link UDL используемую для подключения к внешнему источнику данных. Значение по умолчанию  пустая строка на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.settings/odso/udlconnectstring/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odso/udlconnectstring/
 public string UdlConnectString { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты при подключении к внешнему источнику данных.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Смотрите также
 
 * class [Odso](../)
-* пространство имен [Aspose.Words.Settings](../../odso/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.Delete
-second_title: Aspose.Words for .NET API 参考
-description: XmlMapping 方法. 删除父结构化文档到 XML 数据的映射
+linktitle: Delete
+articleTitle: Delete
+second_title: 用于 .NET 的 Aspose.Words
+description: XmlMapping Delete 方法. 删除父结构化文档到 XML 数据的映射 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.markup/xmlmapping/delete/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/xmlmapping/delete/
 public void Delete()
 ```
 
-### 例子
+## 例子
 
 演示如何为自定义 XML 部件设置 XML 映射。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### 也可以看看
 
 * class [XmlMapping](../)
-* 命名空间 [Aspose.Words.Markup](../../xmlmapping/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.Password
-second_title: Aspose.Words per .NET API Reference
-description: OoxmlSaveOptions proprietà. Ottiene/imposta una password per crittografare il documento utilizzando lalgoritmo di crittografia standard ECMA376.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words per .NET
+description: OoxmlSaveOptions Password proprietà. Ottiene/imposta una password per crittografare il documento utilizzando lalgoritmo di crittografia standard ECMA376 in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/ooxmlsaveoptions/password/
@@ -14,11 +16,11 @@ Ottiene/imposta una password per crittografare il documento utilizzando l'algori
 public string Password { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Per salvare il documento senza crittografia, questa proprietà dovrebbe essere`nullo` o stringa vuota.
 
-### Esempi
+## Esempi
 
 Mostra come creare un documento Office Open XML crittografato con password.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Guarda anche
 
 * class [OoxmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

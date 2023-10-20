@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.Equals
-second_title: Aspose.Words لمراجع .NET API
-description: LoadOptions طريقة. 
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words لـ .NET
+description: LoadOptions Equals طريقة.  في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.loading/loadoptions/equals/
@@ -15,7 +17,5 @@ public override bool Equals(object obj)
 ### أنظر أيضا
 
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../loadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

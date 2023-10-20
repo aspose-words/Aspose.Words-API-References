@@ -1,7 +1,9 @@
 ---
 title: Table.AbsoluteVerticalDistance
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Ottiene o imposta la posizione assoluta della tabella mobile verticale specificata dalle proprietà della tabella in punti. Il valore predefinito è 0.
+linktitle: AbsoluteVerticalDistance
+articleTitle: AbsoluteVerticalDistance
+second_title: Aspose.Words per .NET
+description: Table AbsoluteVerticalDistance proprietà. Ottiene o imposta la posizione assoluta della tabella mobile verticale specificata dalle proprietà della tabella in punti. Il valore predefinito è 0 in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.tables/table/absoluteverticaldistance/
@@ -14,7 +16,7 @@ Ottiene o imposta la posizione assoluta della tabella mobile verticale specifica
 public double AbsoluteVerticalDistance { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la posizione delle tabelle mobili.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 ### Guarda anche
 
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: List.GetHashCode
-second_title: Aspose.Words لمراجع .NET API
-description: List طريقة. لحساب رمز التجزئة لكائن القائمة هذا.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words لـ .NET
+description: List GetHashCode طريقة. لحساب رمز التجزئة لكائن القائمة هذا في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.lists/list/gethashcode/
@@ -17,7 +19,5 @@ public override int GetHashCode()
 ### أنظر أيضا
 
 * class [List](../)
-* مساحة الاسم [Aspose.Words.Lists](../../list/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

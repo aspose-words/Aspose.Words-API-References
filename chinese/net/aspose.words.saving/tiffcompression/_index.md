@@ -1,7 +1,9 @@
 ---
-title: Enum TiffCompression
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.TiffCompression 枚举. 指定将页面图像保存到 TIFF 文件时应用什么类型的压缩
+title: TiffCompression Enum
+linktitle: TiffCompression
+articleTitle: TiffCompression
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.TiffCompression 枚举. 指定将页面图像保存到 TIFF 文件时应用什么类型的压缩 在 C#.
 type: docs
 weight: 5630
 url: /zh/net/aspose.words.saving/tiffcompression/
@@ -24,7 +26,7 @@ public enum TiffCompression
 | Ccitt3 | `3` | 指定 CCITT3 压缩方案。 |
 | Ccitt4 | `4` | 指定 CCITT4 压缩方案。 |
 
-### 例子
+## 例子
 
 演示如何选择要应用于转换为 TIFF 图像的文档的压缩方案。
 
@@ -76,5 +78,3 @@ Document doc = new Document();
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

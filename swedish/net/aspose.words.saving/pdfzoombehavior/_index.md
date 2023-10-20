@@ -1,7 +1,9 @@
 ---
-title: Enum PdfZoomBehavior
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.PdfZoomBehavior uppräkning. Anger typen av zoom som tillämpas på ett PDFdokument när det öppnas i en PDFvisare.
+title: PdfZoomBehavior Enum
+linktitle: PdfZoomBehavior
+articleTitle: PdfZoomBehavior
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.PdfZoomBehavior uppräkning. Anger typen av zoom som tillämpas på ett PDFdokument när det öppnas i en PDFvisare i C#.
 type: docs
 weight: 5540
 url: /sv/net/aspose.words.saving/pdfzoombehavior/
@@ -25,7 +27,7 @@ public enum PdfZoomBehavior
 | FitHeight | `4` | Passar höjden på sidan. |
 | FitBox | `5` | Passar begränsningsrutan (rektangel som innehåller alla synliga element på sidan). |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in standardzoomningen som en läsare tillämpar när du öppnar ett renderat PDF-dokument.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

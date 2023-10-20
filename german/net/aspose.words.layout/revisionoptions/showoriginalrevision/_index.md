@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowOriginalRevision
-second_title: Aspose.Words für .NET-API-Referenz
-description: RevisionOptions eigendom. Ermöglicht die Angabe ob der Originaltext anstelle des überarbeiteten angezeigt werden soll. Der Standardwert istFALSCH .
+linktitle: ShowOriginalRevision
+articleTitle: ShowOriginalRevision
+second_title: Aspose.Words für .NET
+description: RevisionOptions ShowOriginalRevision eigendom. Ermöglicht die Angabe ob der Originaltext anstelle des überarbeiteten angezeigt werden soll. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words.layout/revisionoptions/showoriginalrevision/
@@ -14,7 +16,7 @@ Ermöglicht die Angabe, ob der Originaltext anstelle des überarbeiteten angezei
 public bool ShowOriginalRevision { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Erscheinungsbild von Revisionen geändert wird.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### Siehe auch
 
 * class [RevisionOptions](../)
-* namensraum [Aspose.Words.Layout](../../revisionoptions/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

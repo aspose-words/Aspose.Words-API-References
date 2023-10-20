@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ImageColorMode
-second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions fast egendom. Hämtar eller ställer in färgläget för de genererade bilderna.
+linktitle: ImageColorMode
+articleTitle: ImageColorMode
+second_title: Aspose.Words för .NET
+description: ImageSaveOptions ImageColorMode fast egendom. Hämtar eller ställer in färgläget för de genererade bilderna i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/imagesaveoptions/imagecolormode/
@@ -14,13 +16,13 @@ Hämtar eller ställer in färgläget för de genererade bilderna.
 public ImageColorMode ImageColorMode { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen har endast effekt när du sparar i rasterbildsformat.
 
 Standardvärdet ärNone.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in ett färgläge när du renderar dokument.
 
@@ -80,7 +82,5 @@ Document doc = new Document();
 
 * enum [ImageColorMode](../../imagecolormode/)
 * class [ImageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

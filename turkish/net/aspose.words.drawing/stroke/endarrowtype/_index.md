@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndArrowType
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Konturun sonu için ok ucunu tanımlar.
+linktitle: EndArrowType
+articleTitle: EndArrowType
+second_title: Aspose.Words for .NET
+description: Stroke EndArrowType mülk. Konturun sonu için ok ucunu tanımlar C#'da.
 type: docs
-weight: 70
+weight: 60
 url: /tr/net/aspose.words.drawing/stroke/endarrowtype/
 ---
 ## Stroke.EndArrowType property
@@ -14,11 +16,11 @@ Konturun sonu için ok ucunu tanımlar.
 public ArrowType EndArrowType { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:None.
 
-### Örnekler
+## Örnekler
 
 Çeşitli şekiller oluşturmayı gösterir.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowType](../../arrowtype/)
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.Password
-second_title: Aspose.Words för .NET API Referens
-description: OoxmlSaveOptions fast egendom. Hämtar/ställer in ett lösenord för att kryptera dokument med ECMA376 Standard krypteringsalgoritm.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words för .NET
+description: OoxmlSaveOptions Password fast egendom. Hämtar/ställer in ett lösenord för att kryptera dokument med ECMA376 Standard krypteringsalgoritm i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/ooxmlsaveoptions/password/
@@ -14,11 +16,11 @@ Hämtar/ställer in ett lösenord för att kryptera dokument med ECMA376 Standar
 public string Password { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För att spara dokument utan kryptering bör denna egenskap vara`null` eller tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett lösenordskrypterat Office Open XML-dokument.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Se även
 
 * class [OoxmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

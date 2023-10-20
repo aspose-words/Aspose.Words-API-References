@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.RejectAll
-second_title: Referencia de API de Aspose.Words para .NET
-description: RevisionCollection método. Rechaza todas las revisiones de esta colección.
+linktitle: RejectAll
+articleTitle: RejectAll
+second_title: Aspose.Words para .NET
+description: RevisionCollection RejectAll método. Rechaza todas las revisiones de esta colección en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/revisioncollection/rejectall/
@@ -14,7 +16,7 @@ Rechaza todas las revisiones de esta colección.
 public void RejectAll()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con la colección de revisiones de un documento.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(0, revisions.Count);
 ### Ver también
 
 * class [RevisionCollection](../)
-* espacio de nombres [Aspose.Words](../../revisioncollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Description
-second_title: Aspose.Words för .NET API Referens
-description: BuildingBlock fast egendom. Hämtar eller ställer in beskrivningen som är kopplad till detta byggblock.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words för .NET
+description: BuildingBlock Description fast egendom. Hämtar eller ställer in beskrivningen som är kopplad till detta byggblock i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.buildingblocks/buildingblock/description/
@@ -14,15 +16,15 @@ Hämtar eller ställer in beskrivningen som är kopplad till detta byggblock.
 public string Description { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Beskrivningen kan innehålla valfritt stränginnehåll, vanligtvis ytterligare information.
 
 Kan inte vara`null`, men kan vara en tom sträng.
 
-Motsvarar **docPartPr.description** element i OOXML.
+Motsvarar**docPartPr.description** element i OOXML.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett anpassat byggblock till ett dokument.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Se även
 
 * class [BuildingBlock](../)
-* namnutrymme [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namnutrymme [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../../)
-
-

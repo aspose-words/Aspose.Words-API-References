@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateLastSavedTimeProperty
-second_title: Aspose.Words für .NET-API-Referenz
-description: SaveOptions eigendom. Ruft einen Wert ab oder legt ihn fest der bestimmt ob dieLastSavedTime Eigenschaft wird vor dem Speichern aktualisiert.
+linktitle: UpdateLastSavedTimeProperty
+articleTitle: UpdateLastSavedTimeProperty
+second_title: Aspose.Words für .NET
+description: SaveOptions UpdateLastSavedTimeProperty eigendom. Ruft einen Wert ab oder legt ihn fest der bestimmt ob dieLastSavedTime Eigenschaft wird vor dem Speichern aktualisiert in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
@@ -14,7 +16,7 @@ Ruft einen Wert ab oder legt ihn fest, der bestimmt, ob die[`LastSavedTime`](../
 public bool UpdateLastSavedTimeProperty { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bestimmen können, ob die Eigenschaft „Zuletzt gespeicherte Zeit“ des Dokuments beim Speichern beibehalten werden soll.
 
@@ -48,7 +50,5 @@ else
 ### Siehe auch
 
 * class [SaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../saveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

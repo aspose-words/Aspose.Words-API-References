@@ -1,7 +1,9 @@
 ---
-title: Class FieldUpdatingProgressArgs
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldUpdatingProgressArgs فصل. يوفر بيانات لحدث تقدم التحديث الميداني.
+title: FieldUpdatingProgressArgs Class
+linktitle: FieldUpdatingProgressArgs
+articleTitle: FieldUpdatingProgressArgs
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldUpdatingProgressArgs فصل. يوفر بيانات لحدث تقدم التحديث الميداني في C#.
 type: docs
 weight: 2570
 url: /ar/net/aspose.words.fields/fieldupdatingprogressargs/
@@ -26,5 +28,3 @@ public sealed class FieldUpdatingProgressArgs
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

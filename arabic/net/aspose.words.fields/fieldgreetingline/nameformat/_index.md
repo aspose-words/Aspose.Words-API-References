@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.NameFormat
-second_title: Aspose.Words لمراجع .NET API
-description: FieldGreetingLine ملكية. الحصول على أو تعيين تنسيق الاسم المدرج في الحقل.
+linktitle: NameFormat
+articleTitle: NameFormat
+second_title: Aspose.Words لـ .NET
+description: FieldGreetingLine NameFormat ملكية. الحصول على أو تعيين تنسيق الاسم المدرج في الحقل في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldgreetingline/nameformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldgreetingline/nameformat/
 public string NameFormat { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل GREETINGLINE.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### أنظر أيضا
 
 * class [FieldGreetingLine](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldgreetingline/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

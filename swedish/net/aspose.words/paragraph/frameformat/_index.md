@@ -1,7 +1,9 @@
 ---
 title: Paragraph.FrameFormat
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Ger tillgång till ramformateringsegenskaperna.
+linktitle: FrameFormat
+articleTitle: FrameFormat
+second_title: Aspose.Words för .NET
+description: Paragraph FrameFormat fast egendom. Ger tillgång till ramformateringsegenskaperna i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/paragraph/frameformat/
@@ -14,7 +16,7 @@ Ger tillgång till ramformateringsegenskaperna.
 public FrameFormat FrameFormat { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får information om formateringsegenskaper för stycken som är ramar.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * class [FrameFormat](../../frameformat/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

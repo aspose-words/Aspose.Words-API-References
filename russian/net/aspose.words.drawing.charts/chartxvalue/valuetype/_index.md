@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.ValueType
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartXValue свойство. Получает тип значения X хранящегося в объекте.
+linktitle: ValueType
+articleTitle: ValueType
+second_title: Aspose.Words для .NET
+description: ChartXValue ValueType свойство. Получает тип значения X хранящегося в объекте на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.drawing.charts/chartxvalue/valuetype/
@@ -18,7 +20,5 @@ public ChartXValueType ValueType { get; }
 
 * enum [ChartXValueType](../../chartxvaluetype/)
 * class [ChartXValue](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

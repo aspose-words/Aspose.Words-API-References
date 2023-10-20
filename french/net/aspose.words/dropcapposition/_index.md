@@ -1,7 +1,9 @@
 ---
-title: Enum DropCapPosition
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.DropCapPosition énumération. Spécifie la position dun texte en lettrine.
+title: DropCapPosition Enum
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.DropCapPosition énumération. Spécifie la position dun texte en lettrine en C#.
 type: docs
 weight: 1410
 url: /fr/net/aspose.words/dropcapposition/
@@ -22,7 +24,7 @@ public enum DropCapPosition
 | Normal | `1` | La lettrine est positionnée à l'intérieur de la marge de texte du paragraphe d'ancrage. |
 | Margin | `2` | La lettrine est positionnée en dehors de la marge de texte sur le paragraphe d'ancrage. |
 
-### Exemples
+## Exemples
 
 Montre comment créer une lettrine.
 
@@ -57,5 +59,3 @@ doc.Save(ArtifactsDir + "ParagraphFormat.DropCap.docx");
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

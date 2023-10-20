@@ -1,7 +1,9 @@
 ---
 title: EditableRangeEnd.EditableRangeStart
-second_title: Aspose.Words per .NET API Reference
-description: EditableRangeEnd proprietà. CorrispondenteEditableRangeStart  ricevuto da ID.
+linktitle: EditableRangeStart
+articleTitle: EditableRangeStart
+second_title: Aspose.Words per .NET
+description: EditableRangeEnd EditableRangeStart proprietà. CorrispondenteEditableRangeStart  ricevuto da ID in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/editablerangeend/editablerangestart/
@@ -14,7 +16,7 @@ Corrispondente[`EditableRangeStart`](../../editablerangestart/) , ricevuto da ID
 public EditableRangeStart EditableRangeStart { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con un intervallo modificabile.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [EditableRangeEnd](../)
-* spazio dei nomi [Aspose.Words](../../editablerangeend/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

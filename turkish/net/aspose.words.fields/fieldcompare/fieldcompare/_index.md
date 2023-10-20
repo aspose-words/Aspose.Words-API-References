@@ -1,7 +1,9 @@
 ---
-title: FieldCompare.FieldCompare
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCompare inşaatçı. Default_Constructor
+title: FieldCompare
+linktitle: FieldCompare
+articleTitle: FieldCompare
+second_title: Aspose.Words for .NET
+description: FieldCompare inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldcompare/fieldcompare/
@@ -17,7 +19,5 @@ public FieldCompare()
 ### Ayrıca bakınız
 
 * class [FieldCompare](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcompare/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

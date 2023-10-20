@@ -1,7 +1,9 @@
 ---
 title: FieldStart.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldStart eigendom. Gibt zurückFieldStart .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: FieldStart NodeType eigendom. Gibt zurückFieldStart  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldstart/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückFieldStart .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FieldStart](../)
-* namensraum [Aspose.Words.Fields](../../fieldstart/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

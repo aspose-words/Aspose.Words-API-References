@@ -1,9 +1,11 @@
 ---
 title: Stroke.ForeColor
-second_title: Aspose.Words for .NET API 参考
-description: Stroke 财产. 获取或设置笔划的前景色
+linktitle: ForeColor
+articleTitle: ForeColor
+second_title: 用于 .NET 的 Aspose.Words
+description: Stroke ForeColor 财产. 获取或设置笔划的前景色 在 C#.
 type: docs
-weight: 110
+weight: 100
 url: /zh/net/aspose.words.drawing/stroke/forecolor/
 ---
 ## Stroke.ForeColor property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/stroke/forecolor/
 public Color ForeColor { get; set; }
 ```
 
-### 评论
+## 评论
 
 a 的默认值[`Shape`](../../shape/)is Black。
 
-### 例子
+## 例子
 
 展示如何设置标记格式。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### 也可以看看
 
 * class [Stroke](../)
-* 命名空间 [Aspose.Words.Drawing](../../stroke/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

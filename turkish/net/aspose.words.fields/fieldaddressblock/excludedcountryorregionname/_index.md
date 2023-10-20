@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.ExcludedCountryOrRegionName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAddressBlock mülk. Hariç tutulan ülke/bölge adını alır veya ayarlar.
+linktitle: ExcludedCountryOrRegionName
+articleTitle: ExcludedCountryOrRegionName
+second_title: Aspose.Words for .NET
+description: FieldAddressBlock ExcludedCountryOrRegionName mülk. Hariç tutulan ülke/bölge adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldaddressblock/excludedcountryorregionname/
@@ -14,7 +16,7 @@ Hariç tutulan ülke/bölge adını alır veya ayarlar.
 public string ExcludedCountryOrRegionName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 ADRESSBLOCK alanının nasıl ekleneceğini gösterir.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Ayrıca bakınız
 
 * class [FieldAddressBlock](../)
-* ad alanı [Aspose.Words.Fields](../../fieldaddressblock/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

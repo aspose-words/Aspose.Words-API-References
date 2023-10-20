@@ -1,7 +1,9 @@
 ---
 title: SdtListItem.Value
-second_title: Справочник по API Aspose.Words для .NET
-description: SdtListItem свойство. Получает значение этого элемента списка.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words для .NET
+description: SdtListItem Value свойство. Получает значение этого элемента списка на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/sdtlistitem/value/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.markup/sdtlistitem/value/
 public string Value { get; }
 ```
 
-### Примечания
+## Примечания
 
 Не может быть`нулевой` и не может быть пустой строкой.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами структурированных документов с раскрывающимся списком.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Смотрите также
 
 * class [SdtListItem](../)
-* пространство имен [Aspose.Words.Markup](../../sdtlistitem/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

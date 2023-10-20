@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Scaling
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 提供对轴缩放选项的访问
+linktitle: Scaling
+articleTitle: Scaling
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis Scaling 财产. 提供对轴缩放选项的访问 在 C#.
 type: docs
 weight: 210
 url: /zh/net/aspose.words.drawing.charts/chartaxis/scaling/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/scaling/
 public AxisScaling Scaling { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入带有日期/时间值的图表。
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisScaling](../../axisscaling/)
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

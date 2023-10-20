@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.FontSize
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSymbol свойство. Получает или задает размер в пунктах шрифта символа полученного по полю.
+linktitle: FontSize
+articleTitle: FontSize
+second_title: Aspose.Words для .NET
+description: FieldSymbol FontSize свойство. Получает или задает размер в пунктах шрифта символа полученного по полю на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldsymbol/fontsize/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldsymbol/fontsize/
 public string FontSize { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле СИМВОЛ.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Смотрите также
 
 * class [FieldSymbol](../)
-* пространство имен [Aspose.Words.Fields](../../fieldsymbol/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

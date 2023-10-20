@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToDocumentStart
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Flyttar markören till början av dokumentet.
+linktitle: MoveToDocumentStart
+articleTitle: MoveToDocumentStart
+second_title: Aspose.Words för .NET
+description: DocumentBuilder MoveToDocumentStart metod. Flyttar markören till början av dokumentet i C#.
 type: docs
-weight: 530
+weight: 520
 url: /sv/net/aspose.words/documentbuilder/movetodocumentstart/
 ---
 ## DocumentBuilder.MoveToDocumentStart method
@@ -14,7 +16,7 @@ Flyttar markören till början av dokumentet.
 public void MoveToDocumentStart()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man flyttar en dokumentbyggares markör till olika noder i ett dokument.
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

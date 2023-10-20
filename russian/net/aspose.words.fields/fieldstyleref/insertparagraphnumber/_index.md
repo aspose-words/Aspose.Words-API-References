@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertParagraphNumber
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldStyleRef свойство. Получает или задает следует ли вставлять номер абзаца на который указана ссылка точно так как он отображается в документе.
+linktitle: InsertParagraphNumber
+articleTitle: InsertParagraphNumber
+second_title: Aspose.Words для .NET
+description: FieldStyleRef InsertParagraphNumber свойство. Получает или задает следует ли вставлять номер абзаца на который указана ссылка точно так как он отображается в документе на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldstyleref/insertparagraphnumber/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldstyleref/insertparagraphnumber/
 public bool InsertParagraphNumber { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля STYLEREF.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Смотрите также
 
 * class [FieldStyleRef](../)
-* пространство имен [Aspose.Words.Fields](../../fieldstyleref/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

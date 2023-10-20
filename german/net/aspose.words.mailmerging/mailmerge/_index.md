@@ -1,7 +1,9 @@
 ---
-title: Class MailMerge
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.MailMerging.MailMerge klas. Stellt die Serienbrieffunktion dar.
+title: MailMerge Class
+linktitle: MailMerge
+articleTitle: MailMerge
+second_title: Aspose.Words für .NET
+description: Aspose.Words.MailMerging.MailMerge klas. Stellt die Serienbrieffunktion dar in C#.
 type: docs
 weight: 3840
 url: /de/net/aspose.words.mailmerging/mailmerge/
@@ -35,48 +37,48 @@ public class MailMerge
 | [TrimWhitespaces](../../aspose.words.mailmerging/mailmerge/trimwhitespaces/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der angibt, ob nachgestellte und führende Leerzeichen aus Serienbriefwerten entfernt werden. |
 | [UnconditionalMergeFieldsAndRegions](../../aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der angibt, ob Zusammenführungsfelder und Zusammenführungsbereiche unabhängig von der Bedingung des übergeordneten IF-Felds zusammengeführt werden. |
 | [UseNonMergeFields](../../aspose.words.mailmerging/mailmerge/usenonmergefields/) { get; set; } | Wann`WAHR` , gibt an, dass der Seriendruck zusätzlich zu MERGEFIELD-Feldern auch in einigen anderen Feldtypen und auch in „{{fieldName}}“-Tags durchgeführt wird. |
-| [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der angibt, ob ein ganzer Absatz vorhanden ist **TableStart** oder **TableEnd** field oder ein bestimmter Bereich dazwischen **TableStart** Und **TableEnd** Felder sollten in den Serienbriefbereich aufgenommen werden. |
+| [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der angibt, ob ein ganzer Absatz vorhanden ist**TableStart** oder**TableEnd** field oder ein bestimmter Bereich dazwischen**TableStart** Und**TableEnd** Felder sollten in den Serienbriefbereich aufgenommen werden. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | [DeleteFields](../../aspose.words.mailmerging/mailmerge/deletefields/)() | Entfernt Serienbrieffelder aus dem Dokument. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_1)(DataRow) | Führt einen Serienbrief von einem aus **Datenzeile** in das Dokument. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_2)(DataTable) | Führt einen Serienbrief von einer Datentabelle in das Dokument durch. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_3)(DataView) | Führt einen Serienbrief von einem aus **Datenansicht** in das Dokument. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_4)(IDataReader) | Führt einen Serienbrief durch **IDataReader** in das Dokument. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute)(IMailMergeDataSource) | Führt einen Seriendruck aus einer benutzerdefinierten Datenquelle durch. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_5)(string[], object[]) | Führt einen Seriendruckvorgang für einen einzelnen Datensatz durch. |
-| [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado/)(object) | Führt einen Serienbrief von einem ADO-Recordset-Objekt in das Dokument durch. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_2)(DataSet) | Führt einen Serienbrief von einem aus **Datensatz** in ein Dokument mit Seriendruckbereichen. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_3)(DataTable) | Führt einen Serienbrief von einem aus **Datentabelle** in das Dokument mit Seriendruckbereichen. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_4)(DataView) | Führt einen Serienbrief von einem aus **Datenansicht** in das Dokument mit Seriendruckbereichen. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions)(IMailMergeDataSource) | Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Serienbriefbereichen durch. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_1)(IMailMergeDataSourceRoot) | Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Serienbriefbereichen durch. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_5)(IDataReader, string) | Führt einen Serienbrief durch **IDataReader** in das Dokument mit Seriendruckbereichen. |
-| [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado/)(object, string) | Führt einen Serienbrief von einem ADO-Recordset-Objekt in das Dokument mit Serienbriefbereichen durch. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_1)(*DataRow*) | Führt einen Serienbrief von einem aus**Datenzeile** in das Dokument. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_2)(*DataTable*) | Führt einen Serienbrief von einer Datentabelle in das Dokument durch. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_3)(*DataView*) | Führt einen Serienbrief von einem aus**Datenansicht** in das Dokument. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_4)(*IDataReader*) | Führt einen Serienbrief durch**IDataReader** in das Dokument. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute)(*[IMailMergeDataSource](../imailmergedatasource/)*) | Führt einen Seriendruck aus einer benutzerdefinierten Datenquelle durch. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_5)(*string[], object[]*) | Führt einen Seriendruckvorgang für einen einzelnen Datensatz durch. |
+| [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado/)(*object*) | Führt einen Serienbrief von einem ADO-Recordset-Objekt in das Dokument durch. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_2)(*DataSet*) | Führt einen Serienbrief von einem aus**Datensatz** in ein Dokument mit Seriendruckbereichen. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_3)(*DataTable*) | Führt einen Serienbrief von einem aus**Datentabelle** in das Dokument mit Seriendruckbereichen. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_4)(*DataView*) | Führt einen Serienbrief von einem aus**Datenansicht** in das Dokument mit Seriendruckbereichen. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions)(*[IMailMergeDataSource](../imailmergedatasource/)*) | Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Serienbriefbereichen durch. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_1)(*[IMailMergeDataSourceRoot](../imailmergedatasourceroot/)*) | Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Serienbriefbereichen durch. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_5)(*IDataReader, string*) | Führt einen Serienbrief durch**IDataReader** in das Dokument mit Seriendruckbereichen. |
+| [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado/)(*object, string*) | Führt einen Serienbrief von einem ADO-Recordset-Objekt in das Dokument mit Serienbriefbereichen durch. |
 | [GetFieldNames](../../aspose.words.mailmerging/mailmerge/getfieldnames/)() | Gibt eine Sammlung von im Dokument verfügbaren Serienbrieffeldnamen zurück. |
-| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion)(string) | Gibt eine Sammlung von Serienbrieffeldnamen zurück, die in der Region verfügbar sind. |
-| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion_1)(string, int) | Gibt eine Sammlung von Serienbrieffeldnamen zurück, die in der Region verfügbar sind. |
-| [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname/)(string) | Gibt eine Sammlung von Serienbriefregionen mit dem angegebenen Namen zurück. |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion)(*string*) | Gibt eine Sammlung von Serienbrieffeldnamen zurück, die in der Region verfügbar sind. |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion_1)(*string, int*) | Gibt eine Sammlung von Serienbrieffeldnamen zurück, die in der Region verfügbar sind. |
+| [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname/)(*string*) | Gibt eine Sammlung von Serienbriefregionen mit dem angegebenen Namen zurück. |
 | [GetRegionsHierarchy](../../aspose.words.mailmerging/mailmerge/getregionshierarchy/)() | Gibt eine vollständige Hierarchie der im Dokument verfügbaren Regionen (mit Feldern) zurück. |
 
-### Bemerkungen
+## Bemerkungen
 
 Damit der Seriendruckvorgang funktioniert, sollte das Dokument Word-Felder MERGEFIELD und (optional NEXT) enthalten. Während des Serienbriefvorgangs werden die Briefvorlagenfelder im Dokument durch Werte aus Ihrer Datenquelle ersetzt.
 
 Es gibt zwei unterschiedliche Möglichkeiten, den Seriendruck zu verwenden: mit Seriendruckbereichen und ohne.
 
-Der einfachste Seriendruck erfolgt ohne Regionen und ähnelt stark der Funktionsweise von Serienbrief in Word. VerwendenAusführen Methoden zum Zusammenführen von Informationen aus einer -Datenquelle, z. B **Datentabelle** , **Datensatz** , **Datenansicht** , **IDataReader** oder ein Array von Objekten in Ihr Dokument. The `MailMerge` Das Objekt verarbeitet alle Datensätze der Datenquelle und kopiert und hängt den Inhalt des gesamten Dokuments für jeden Datensatz an.
+Der einfachste Seriendruck erfolgt ohne Regionen und ähnelt stark der Funktionsweise von Serienbrief in Word. VerwendenAusführen Methoden zum Zusammenführen von Informationen aus einer -Datenquelle, z. B**Datentabelle** ,**Datensatz** ,**Datenansicht** ,**IDataReader** oder ein Array von Objekten in Ihr Dokument. The `MailMerge` Das Objekt verarbeitet alle Datensätze der Datenquelle und kopiert und hängt den Inhalt des gesamten Dokuments für jeden Datensatz an.
 
 Beachten Sie, wann`MailMerge` Wenn das Objekt auf ein NEXT-Feld trifft, wählt es den nächsten Datensatz in der Datenquelle aus und setzt die Zusammenführung fort, ohne Inhalte zu kopieren.
 
-Verwenden[`ExecuteWithRegions`](./executewithregions/) und andere Überladungen zum Zusammenführen von Informationen in einem -Dokument mit definierten Seriendruckbereichen. Sie können verwenden **Datensatz** , **Datentabelle** , **Datenansicht** oder **IDataReader** als Datenquellen für diesen Vorgang.
+Verwenden[`ExecuteWithRegions`](./executewithregions/) und andere Überladungen zum Zusammenführen von Informationen in einem -Dokument mit definierten Seriendruckbereichen. Sie können verwenden**Datensatz** ,**Datentabelle** ,**Datenansicht** oder**IDataReader** als Datenquellen für diesen Vorgang.
 
 Sie müssen Serienbriefbereiche verwenden, wenn Sie Teile innerhalb des -Dokuments dynamisch vergrößern möchten. Ohne Seriendruckbereiche wird das gesamte Dokument für jeden Datensatz der Datenquelle wiederholt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einer DataTable ausgeführt wird.
 
@@ -125,5 +127,3 @@ private static Document CreateSourceDocExecuteDataTable()
 
 * namensraum [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../)
-
-

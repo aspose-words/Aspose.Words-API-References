@@ -1,7 +1,9 @@
 ---
-title: Class ConvertUtil
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.ConvertUtil 班级. 提供辅助函数以在各种测量单位之间进行转换
+title: ConvertUtil Class
+linktitle: ConvertUtil
+articleTitle: ConvertUtil
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.ConvertUtil 班级. 提供辅助函数以在各种测量单位之间进行转换 在 C#.
 type: docs
 weight: 360
 url: /zh/net/aspose.words/convertutil/
@@ -20,16 +22,16 @@ public static class ConvertUtil
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [InchToPoint](../../aspose.words/convertutil/inchtopoint/)(double) | 将英寸转换为点。 |
-| static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint/)(double) | 将毫米转换为点。 |
-| static [PixelToNewDpi](../../aspose.words/convertutil/pixeltonewdpi/)(double, double, double) | 将像素从一种分辨率转换为另一种分辨率。 |
-| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(double) | 将像素转换为 96 dpi 的点。 |
-| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint_1)(double, double) | 将像素转换为指定像素分辨率的点。 |
-| static [PointToInch](../../aspose.words/convertutil/pointtoinch/)(double) | 将点转换为英寸。 |
-| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(double) | 将点转换为 96 dpi 的像素。 |
-| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(double, double) | 将点转换为指定像素分辨率的像素。 |
+| static [InchToPoint](../../aspose.words/convertutil/inchtopoint/)(*double*) | 将英寸转换为点。 |
+| static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint/)(*double*) | 将毫米转换为点。 |
+| static [PixelToNewDpi](../../aspose.words/convertutil/pixeltonewdpi/)(*double, double, double*) | 将像素从一种分辨率转换为另一种分辨率。 |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(*double*) | 将像素转换为 96 dpi 的点。 |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint_1)(*double, double*) | 将像素转换为指定像素分辨率的点。 |
+| static [PointToInch](../../aspose.words/convertutil/pointtoinch/)(*double*) | 将点转换为英寸。 |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(*double*) | 将点转换为 96 dpi 的像素。 |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(*double, double*) | 将点转换为指定像素分辨率的像素。 |
 
-### 例子
+## 例子
 
 展示如何调整纸张尺寸、方向、边距以及某个部分的其他设置。
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndInches.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

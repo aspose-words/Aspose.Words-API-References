@@ -1,7 +1,9 @@
 ---
 title: PageInfo.PaperTray
-second_title: Aspose.Words för .NET API Referens
-description: PageInfo fast egendom. Hämtar pappersfacket fack för den här sidan som specificerats i dokumentet. Värdet är implementeringsskrivarspecifikt.
+linktitle: PaperTray
+articleTitle: PaperTray
+second_title: Aspose.Words för .NET
+description: PageInfo PaperTray fast egendom. Hämtar pappersfacket fack för den här sidan som specificerats i dokumentet. Värdet är implementeringsskrivarspecifikt i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.rendering/pageinfo/papertray/
@@ -14,7 +16,7 @@ Hämtar pappersfacket (fack) för den här sidan som specificerats i dokumentet.
 public int PaperTray { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut information om sidstorlek och orientering för varje sida i ett Word-dokument.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Se även
 
 * class [PageInfo](../)
-* namnutrymme [Aspose.Words.Rendering](../../pageinfo/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

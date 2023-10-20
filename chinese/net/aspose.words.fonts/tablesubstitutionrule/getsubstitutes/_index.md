@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.GetSubstitutes
-second_title: Aspose.Words for .NET API 参考
-description: TableSubstitutionRule 方法. 返回包含指定原始字体名称的替代字体名称的数组
+linktitle: GetSubstitutes
+articleTitle: GetSubstitutes
+second_title: 用于 .NET 的 Aspose.Words
+description: TableSubstitutionRule GetSubstitutes 方法. 返回包含指定原始字体名称的替代字体名称的数组 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fonts/tablesubstitutionrule/getsubstitutes/
@@ -22,7 +24,7 @@ public IEnumerable<string> GetSubstitutes(string originalFontName)
 
 替代字体名称列表。
 
-### 例子
+## 例子
 
 演示如何访问文档的系统字体源并设置字体替代品。
 
@@ -134,7 +136,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### 也可以看看
 
 * class [TableSubstitutionRule](../)
-* 命名空间 [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.DoubleStrikeThrough
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Vero se il carattere è formattato come testo barrato doppio.
+linktitle: DoubleStrikeThrough
+articleTitle: DoubleStrikeThrough
+second_title: Aspose.Words per .NET
+description: Font DoubleStrikeThrough proprietà. Vero se il carattere è formattato come testo barrato doppio in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words/font/doublestrikethrough/
@@ -14,7 +16,7 @@ Vero se il carattere è formattato come testo barrato doppio.
 public bool DoubleStrikeThrough { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere una riga barrata al testo.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Font.StrikeThrough.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

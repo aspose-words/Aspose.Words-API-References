@@ -1,9 +1,11 @@
 ---
 title: Document.UpdatePageLayout
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 重建文档的页面布局
+linktitle: UpdatePageLayout
+articleTitle: UpdatePageLayout
+second_title: 用于 .NET 的 Aspose.Words
+description: Document UpdatePageLayout 方法. 重建文档的页面布局 在 C#.
 type: docs
-weight: 790
+weight: 770
 url: /zh/net/aspose.words/document/updatepagelayout/
 ---
 ## Document.UpdatePageLayout method
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/document/updatepagelayout/
 public void UpdatePageLayout()
 ```
 
-### 评论
+## 评论
 
 此方法将文档格式化为页面，并更新文档中与页码相关的字段，如 PAGE、PAGES、PAGEREF 和 REF。将 document 正确呈现为固定页面格式需要最新的页面布局信息。
 
 当您第一次将文档转换为 PDF、XPS、图像或打印时，会自动调用此方法。 但是，如果您在渲染后修改文档，然后尝试再次渲染它 - Aspose.Words 将不会 自动更新页面布局。在这种情况下你应该打电话`UpdatePageLayout`before 再次渲染。
 
-### 例子
+## 例子
 
 显示何时重新计算文档的页面布局。
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

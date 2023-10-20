@@ -1,7 +1,9 @@
 ---
-title: Enum OutlineLevel
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.OutlineLevel 枚举. 指定文档中段落的大纲级别
+title: OutlineLevel Enum
+linktitle: OutlineLevel
+articleTitle: OutlineLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.OutlineLevel 枚举. 指定文档中段落的大纲级别 在 C#.
 type: docs
 weight: 4330
 url: /zh/net/aspose.words/outlinelevel/
@@ -33,5 +35,3 @@ public enum OutlineLevel
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

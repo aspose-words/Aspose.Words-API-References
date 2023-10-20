@@ -1,7 +1,9 @@
 ---
 title: FieldDatabaseDataTable.ColumnNames
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDatabaseDataTable ملكية. الحصول على الأعمدة التي تنتمي إلى هذا الجدول.
+linktitle: ColumnNames
+articleTitle: ColumnNames
+second_title: Aspose.Words لـ .NET
+description: FieldDatabaseDataTable ColumnNames ملكية. الحصول على الأعمدة التي تنتمي إلى هذا الجدول في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fielddatabasedatatable/columnnames/
@@ -17,7 +19,5 @@ public string[] ColumnNames { get; }
 ### أنظر أيضا
 
 * class [FieldDatabaseDataTable](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddatabasedatatable/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

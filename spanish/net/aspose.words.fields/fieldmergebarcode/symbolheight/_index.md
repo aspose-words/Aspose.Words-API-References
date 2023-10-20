@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.SymbolHeight
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergeBarcode propiedad. Obtiene o establece la altura del símbolo. Las unidades están en TWIPS 1/1440 pulgada.
+linktitle: SymbolHeight
+articleTitle: SymbolHeight
+second_title: Aspose.Words para .NET
+description: FieldMergeBarcode SymbolHeight propiedad. Obtiene o establece la altura del símbolo. Las unidades están en TWIPS 1/1440 pulgada en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words.fields/fieldmergebarcode/symbolheight/
@@ -14,7 +16,7 @@ Obtiene o establece la altura del símbolo. Las unidades están en TWIPS (1/1440
 public string SymbolHeight { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo realizar una combinación de correspondencia en códigos de barras QR.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Ver también
 
 * class [FieldMergeBarcode](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldmergebarcode/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

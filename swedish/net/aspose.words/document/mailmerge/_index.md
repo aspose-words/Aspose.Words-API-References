@@ -1,7 +1,9 @@
 ---
 title: Document.MailMerge
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Returnerar enMailMerge objekt som representerar kopplingsfunktionen för dokumentet.
+linktitle: MailMerge
+articleTitle: MailMerge
+second_title: Aspose.Words för .NET
+description: Document MailMerge fast egendom. Returnerar enMailMerge objekt som representerar kopplingsfunktionen för dokumentet i C#.
 type: docs
 weight: 260
 url: /sv/net/aspose.words/document/mailmerge/
@@ -14,7 +16,7 @@ Returnerar en[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) objekt 
 public MailMerge MailMerge { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kör en e-postsammanfogning med data från en datatabell.
 
@@ -63,7 +65,5 @@ private static Document CreateSourceDocExecuteDataTable()
 
 * class [MailMerge](../../../aspose.words.mailmerging/mailmerge/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

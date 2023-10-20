@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreFootnotes
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompareOptions propiedad. Especifica si se comparan las diferencias en las notas al pie y al final. De forma predeterminada las notas al pie no se ignoran.
+linktitle: IgnoreFootnotes
+articleTitle: IgnoreFootnotes
+second_title: Aspose.Words para .NET
+description: CompareOptions IgnoreFootnotes propiedad. Especifica si se comparan las diferencias en las notas al pie y al final. De forma predeterminada las notas al pie no se ignoran en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.comparing/compareoptions/ignorefootnotes/
@@ -14,7 +16,7 @@ Especifica si se comparan las diferencias en las notas al pie y al final. De for
 public bool IgnoreFootnotes { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo filtrar tipos específicos de elementos del documento al realizar una comparación.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Ver también
 
 * class [CompareOptions](../)
-* espacio de nombres [Aspose.Words.Comparing](../../compareoptions/)
+* espacio de nombres [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * asamblea [Aspose.Words](../../../)
-
-

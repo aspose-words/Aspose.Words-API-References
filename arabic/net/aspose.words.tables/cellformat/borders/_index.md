@@ -1,7 +1,9 @@
 ---
 title: CellFormat.Borders
-second_title: Aspose.Words لمراجع .NET API
-description: CellFormat ملكية. الحصول على مجموعة حدود الخلية.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words لـ .NET
+description: CellFormat Borders ملكية. الحصول على مجموعة حدود الخلية في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/cellformat/borders/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cellformat/borders/
 public BorderCollection Borders { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج الصفوف من جدولين في جدول واحد.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [CellFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cellformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

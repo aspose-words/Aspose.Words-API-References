@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Format
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartSeries propriété. Donne accès au formatage de remplissage et de ligne de la série.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words pour .NET
+description: ChartSeries Format propriété. Donne accès au formatage de remplissage et de ligne de la série en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.drawing.charts/chartseries/format/
@@ -14,7 +16,7 @@ Donne accès au formatage de remplissage et de ligne de la série.
 public ChartFormat Format { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir la couleur de la série.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.SeriesColor.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartSeries](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartseries/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

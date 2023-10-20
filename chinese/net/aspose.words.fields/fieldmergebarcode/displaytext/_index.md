@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.DisplayText
-second_title: Aspose.Words for .NET API 参考
-description: FieldMergeBarcode 财产. 获取或设置是否与图像一起显示条形码数据文本
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMergeBarcode DisplayText 财产. 获取或设置是否与图像一起显示条形码数据文本 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/fieldmergebarcode/displaytext/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldmergebarcode/displaytext/
 public bool DisplayText { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何对 EAN13 条形码执行邮件合并。
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ### 也可以看看
 
 * class [FieldMergeBarcode](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldmergebarcode/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

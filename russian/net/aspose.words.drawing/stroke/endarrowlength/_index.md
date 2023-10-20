@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndArrowLength
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Определяет длину наконечника стрелки в конце штриха.
+linktitle: EndArrowLength
+articleTitle: EndArrowLength
+second_title: Aspose.Words для .NET
+description: Stroke EndArrowLength свойство. Определяет длину наконечника стрелки в конце штриха на С#.
 type: docs
-weight: 60
+weight: 50
 url: /ru/net/aspose.words.drawing/stroke/endarrowlength/
 ---
 ## Stroke.EndArrowLength property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/endarrowlength/
 public ArrowLength EndArrowLength { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Medium.
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowLength](../../arrowlength/)
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

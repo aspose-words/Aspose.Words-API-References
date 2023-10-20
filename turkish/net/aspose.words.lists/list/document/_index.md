@@ -1,7 +1,9 @@
 ---
 title: List.Document
-second_title: Aspose.Words for .NET API Referansı
-description: List mülk. Sahip belgesini alır.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: List Document mülk. Sahip belgesini alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.lists/list/document/
@@ -14,11 +16,11 @@ Sahip belgesini alır.
 public DocumentBase Document { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bir listenin her zaman bir ana belgesi vardır ve yalnızca o belgenin bağlamında geçerlidir.
 
-### Örnekler
+## Örnekler
 
 Listelerin sahip belge özelliklerinin nasıl doğrulanacağını gösterir.
 
@@ -41,7 +43,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [List](../)
-* ad alanı [Aspose.Words.Lists](../../list/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

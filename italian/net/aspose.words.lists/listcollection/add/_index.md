@@ -1,12 +1,14 @@
 ---
 title: ListCollection.Add
-second_title: Aspose.Words per .NET API Reference
-description: ListCollection metodo. Crea un nuovo elenco basato su un modello predefinito e lo aggiunge alla raccolta di elenchi nel documento.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words per .NET
+description: ListCollection Add metodo. Crea un nuovo elenco basato su un modello predefinito e lo aggiunge alla raccolta di elenchi nel documento in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.lists/listcollection/add/
 ---
-## Add(ListTemplate) {#add}
+## Add(*[ListTemplate](../../listtemplate/)*) {#add}
 
 Crea un nuovo elenco basato su un modello predefinito e lo aggiunge alla raccolta di elenchi nel documento.
 
@@ -22,13 +24,13 @@ public List Add(ListTemplate listTemplate)
 
 L'elenco appena creato.
 
-### Osservazioni
+## Osservazioni
 
 I modelli di elenco Aspose.Words corrispondono ai 21 modelli di elenco disponibili nella finestra di dialogo Elenchi puntati e numerati in Microsoft Word 2003.
 
 Tutti gli elenchi creati utilizzando questo metodo hanno 9 livelli di elenco.
 
-### Esempi
+## Esempi
 
 Mostra come creare un elenco applicando un nuovo formato elenco a una raccolta di paragrafi.
 
@@ -147,12 +149,12 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 * class [List](../../list/)
 * enum [ListTemplate](../../listtemplate/)
 * class [ListCollection](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listcollection/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Add(Style) {#add_1}
+## Add(*[Style](../../../aspose.words/style/)*) {#add_1}
 
 Crea un nuovo elenco che fa riferimento a uno stile di elenco e lo aggiunge alla raccolta di elenchi nel documento.
 
@@ -168,11 +170,11 @@ public List Add(Style listStyle)
 
 L'elenco appena creato.
 
-### Osservazioni
+## Osservazioni
 
 L'elenco appena creato fa riferimento allo stile dell'elenco. Se modifichi le proprietà dello stile list , ciò si riflette nelle proprietà dell'elenco. Viceversa, se si modificano le proprietà dell'elenco, ciò si riflette nelle proprietà dello stile elenco.
 
-### Esempi
+## Esempi
 
 Mostra come creare uno stile di elenco e utilizzarlo in un documento.
 
@@ -235,7 +237,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 * class [List](../../list/)
 * class [Style](../../../aspose.words/style/)
 * class [ListCollection](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listcollection/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

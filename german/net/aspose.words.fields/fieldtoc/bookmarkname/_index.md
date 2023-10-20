@@ -1,7 +1,9 @@
 ---
 title: FieldToc.BookmarkName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToc eigendom. Ruft den Namen des Lesezeichens ab das den Teil des Dokuments markiert der zum Erstellen der Tabelle verwendet wird oder legt diesen fest.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words für .NET
+description: FieldToc BookmarkName eigendom. Ruft den Namen des Lesezeichens ab das den Teil des Dokuments markiert der zum Erstellen der Tabelle verwendet wird oder legt diesen fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldtoc/bookmarkname/
@@ -14,7 +16,7 @@ Ruft den Namen des Lesezeichens ab, das den Teil des Dokuments markiert, der zum
 public string BookmarkName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Inhaltsverzeichnis einfügt und es mit Einträgen füllt, die auf Überschriftenstilen basieren.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Siehe auch
 
 * class [FieldToc](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ImageColorMode
-second_title: Aspose.Words for .NET API 参考
-description: ImageSaveOptions 财产. 获取或设置生成图像的颜色模式
+linktitle: ImageColorMode
+articleTitle: ImageColorMode
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSaveOptions ImageColorMode 财产. 获取或设置生成图像的颜色模式 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/imagesaveoptions/imagecolormode/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/imagesaveoptions/imagecolormode/
 public ImageColorMode ImageColorMode { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性仅在保存为光栅图像格式时有效。
 
 默认值为None。
 
-### 例子
+## 例子
 
 演示如何在渲染文档时设置颜色模式。
 
@@ -80,7 +82,5 @@ Document doc = new Document();
 
 * enum [ImageColorMode](../../imagecolormode/)
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

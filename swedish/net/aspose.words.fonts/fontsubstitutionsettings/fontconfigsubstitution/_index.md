@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontConfigSubstitution
-second_title: Aspose.Words för .NET API Referens
-description: FontSubstitutionSettings fast egendom. Inställningar relaterade till regel för teckensnittskonfigurationsersättning.
+linktitle: FontConfigSubstitution
+articleTitle: FontConfigSubstitution
+second_title: Aspose.Words för .NET
+description: FontSubstitutionSettings FontConfigSubstitution fast egendom. Inställningar relaterade till regel för teckensnittskonfigurationsersättning i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
@@ -14,7 +16,7 @@ Inställningar relaterade till regel för teckensnittskonfigurationsersättning.
 public FontConfigSubstitutionRule FontConfigSubstitution { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar operativsystemberoende teckensnittskonfigurationsersättning.
 
@@ -51,7 +53,5 @@ if (isLinuxOrMac)
 
 * class [FontConfigSubstitutionRule](../../fontconfigsubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

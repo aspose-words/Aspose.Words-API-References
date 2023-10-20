@@ -1,7 +1,9 @@
 ---
-title: ImageWatermarkOptions.ImageWatermarkOptions
-second_title: Aspose.Words för .NET API Referens
-description: ImageWatermarkOptions byggare. Default_Constructor
+title: ImageWatermarkOptions
+linktitle: ImageWatermarkOptions
+articleTitle: ImageWatermarkOptions
+second_title: Aspose.Words för .NET
+description: ImageWatermarkOptions byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/imagewatermarkoptions/imagewatermarkoptions/
@@ -17,7 +19,5 @@ public ImageWatermarkOptions()
 ### Se även
 
 * class [ImageWatermarkOptions](../)
-* namnutrymme [Aspose.Words](../../imagewatermarkoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

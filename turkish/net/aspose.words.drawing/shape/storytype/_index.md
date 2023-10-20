@@ -1,7 +1,9 @@
 ---
 title: Shape.StoryType
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. İadelerTextbox .
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words for .NET
+description: Shape StoryType mülk. İadelerTextbox  C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.drawing/shape/storytype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shape/storytype/
 public StoryType StoryType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
 
@@ -138,7 +140,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * enum [StoryType](../../../aspose.words/storytype/)
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

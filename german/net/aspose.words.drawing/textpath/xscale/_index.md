@@ -1,7 +1,9 @@
 ---
 title: TextPath.XScale
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextPath eigendom. Legt fest ob ein gerader Textpfad anstelle des Formpfads verwendet wird.
+linktitle: XScale
+articleTitle: XScale
+second_title: Aspose.Words für .NET
+description: TextPath XScale eigendom. Legt fest ob ein gerader Textpfad anstelle des Formpfads verwendet wird in C#.
 type: docs
 weight: 200
 url: /de/net/aspose.words.drawing/textpath/xscale/
@@ -14,13 +16,13 @@ Legt fest, ob ein gerader Textpfad anstelle des Formpfads verwendet wird.
 public bool XScale { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`.
 
 Wenn`WAHR`verläuft der Text entlang eines Pfads von links nach rechts entlang des x-Werts von , der unteren Grenze der Form.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit WordArt arbeitet.
 
@@ -123,7 +125,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Siehe auch
 
 * class [TextPath](../)
-* namensraum [Aspose.Words.Drawing](../../textpath/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

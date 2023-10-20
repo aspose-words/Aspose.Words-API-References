@@ -1,7 +1,9 @@
 ---
-title: Class PreferredWidth
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Tables.PreferredWidth classe. Représente une valeur et son unité de mesure utilisée pour spécifier la largeur préférée dun tableau ou dune cellule.
+title: PreferredWidth Class
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Tables.PreferredWidth classe. Représente une valeur et son unité de mesure utilisée pour spécifier la largeur préférée dun tableau ou dune cellule en C#.
 type: docs
 weight: 6290
 url: /fr/net/aspose.words.tables/preferredwidth/
@@ -27,10 +29,10 @@ public sealed class PreferredWidth
 
 | Nom | La description |
 | --- | --- |
-| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(double) | Une méthode de création qui renvoie une nouvelle instance qui représente une largeur préférée spécifiée sous forme de pourcentage. |
-| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(double) | Une méthode de création qui renvoie une nouvelle instance qui représente une largeur préférée spécifiée à l'aide d'un nombre de points. |
-| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(object) | Détermine si l'objet spécifié a une valeur égale à l'objet actuel. |
-| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(PreferredWidth) | Détermine si le`PreferredWidth` est égale en valeur au courant`PreferredWidth` . |
+| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(*double*) | Une méthode de création qui renvoie une nouvelle instance qui représente une largeur préférée spécifiée sous forme de pourcentage. |
+| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(*double*) | Une méthode de création qui renvoie une nouvelle instance qui représente une largeur préférée spécifiée à l'aide d'un nombre de points. |
+| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(*object*) | Détermine si l'objet spécifié a une valeur égale à l'objet actuel. |
+| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(*PreferredWidth*) | Détermine si le`PreferredWidth` est égale en valeur au courant`PreferredWidth` . |
 | override [GetHashCode](../../aspose.words.tables/preferredwidth/gethashcode/)() | Sert de fonction de hachage pour ce type. |
 | override [ToString](../../aspose.words.tables/preferredwidth/tostring/)() | Renvoie une chaîne conviviale qui affiche la valeur de cet objet. |
 
@@ -40,13 +42,13 @@ public sealed class PreferredWidth
 | --- | --- |
 | static readonly [Auto](../../aspose.words.tables/preferredwidth/auto/) | Renvoie une instance qui représente la valeur « la largeur préférée n'est pas spécifiée ». |
 
-### Remarques
+## Remarques
 
 La largeur préférée peut être spécifiée sous forme de pourcentage, de nombre de points ou d'une valeur spéciale « aucun/auto ».
 
 Les instances de cette classe sont immuables.
 
-### Exemples
+## Exemples
 
 Montre comment définir un tableau pour qu'il s'ajuste automatiquement à 50 % de la largeur de la page.
 
@@ -106,5 +108,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 * espace de noms [Aspose.Words.Tables](../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../)
-
-

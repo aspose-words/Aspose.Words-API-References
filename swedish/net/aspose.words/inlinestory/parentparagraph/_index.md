@@ -1,7 +1,9 @@
 ---
 title: InlineStory.ParentParagraph
-second_title: Aspose.Words för .NET API Referens
-description: InlineStory fast egendom. Hämtar föräldernParagraph av denna nod.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words för .NET
+description: InlineStory ParentParagraph fast egendom. Hämtar föräldernParagraph av denna nod i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/inlinestory/parentparagraph/
@@ -14,7 +16,7 @@ Hämtar föräldern[`Paragraph`](../../paragraph/) av denna nod.
 public Paragraph ParentParagraph { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar InlineStory-noder.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* namnutrymme [Aspose.Words](../../inlinestory/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

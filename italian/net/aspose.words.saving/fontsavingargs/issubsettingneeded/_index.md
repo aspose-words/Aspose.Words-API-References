@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.IsSubsettingNeeded
-second_title: Aspose.Words per .NET API Reference
-description: FontSavingArgs proprietà. Permette di specificare se il carattere corrente verrà sottoinsieme prima dellesportazione come risorsa carattere.
+linktitle: IsSubsettingNeeded
+articleTitle: IsSubsettingNeeded
+second_title: Aspose.Words per .NET
+description: FontSavingArgs IsSubsettingNeeded proprietà. Permette di specificare se il carattere corrente verrà sottoinsieme prima dellesportazione come risorsa carattere in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.saving/fontsavingargs/issubsettingneeded/
@@ -14,13 +16,13 @@ Permette di specificare se il carattere corrente verrà sottoinsieme prima dell'
 public bool IsSubsettingNeeded { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 I caratteri possono essere esportati come file di caratteri originali completi o sottoinsiemi per includere solo i caratteri utilizzati nel documento. Il sottoinsieme consente di ridurre la dimensione della risorsa carattere risultante.
 
 Per impostazione predefinita, Aspose.Words decide se eseguire o meno il sottoinsieme confrontando la dimensione del file del carattere originale con quella specificata in[`FontResourcesSubsettingSizeThreshold`](../../htmlsaveoptions/fontresourcessubsettingsizethreshold/) . Puoi ignorare questo comportamento per i singoli caratteri impostando il file`IsSubsettingNeeded` proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come definire la logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
 
@@ -80,7 +82,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Guarda anche
 
 * class [FontSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../fontsavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

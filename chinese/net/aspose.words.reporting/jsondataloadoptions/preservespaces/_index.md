@@ -1,7 +1,9 @@
 ---
 title: JsonDataLoadOptions.PreserveSpaces
-second_title: Aspose.Words for .NET API 参考
-description: JsonDataLoadOptions 财产. 获取或设置一个标志该标志指示在加载 JSON 数据的 string 值时是否应保留前导空格和尾随空格
+linktitle: PreserveSpaces
+articleTitle: PreserveSpaces
+second_title: 用于 .NET 的 Aspose.Words
+description: JsonDataLoadOptions PreserveSpaces 财产. 获取或设置一个标志该标志指示在加载 JSON 数据的 string 值时是否应保留前导空格和尾随空格 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.reporting/jsondataloadoptions/preservespaces/
@@ -14,14 +16,12 @@ url: /zh/net/aspose.words.reporting/jsondataloadoptions/preservespaces/
 public bool PreserveSpaces { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`.
 
 ### 也可以看看
 
 * class [JsonDataLoadOptions](../)
-* 命名空间 [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
-
-

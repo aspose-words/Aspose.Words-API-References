@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.FullDate
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحدد التاريخ والوقت الكاملين لآخر إدخال في هذا المعاملة الخاصة والتفضيلية .
+linktitle: FullDate
+articleTitle: FullDate
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag FullDate ملكية. يحدد التاريخ والوقت الكاملين لآخر إدخال في هذاالمعاملة الخاصة والتفضيلية  في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.markup/structureddocumenttag/fulldate/
 ---
 ## StructuredDocumentTag.FullDate property
 
-يحدد التاريخ والوقت الكاملين لآخر إدخال في هذا **المعاملة الخاصة والتفضيلية** .
+يحدد التاريخ والوقت الكاملين لآخر إدخال في هذا**المعاملة الخاصة والتفضيلية** .
 
 ```csharp
 public DateTime FullDate { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الوصول إلى هذه الخاصية سوف يعمل فقط من أجلDate نوع المعاملة الخاصة والتفضيلية.
 
 بالنسبة لجميع أنواع SDT الأخرى، سيحدث استثناء.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية مطالبة المستخدم بإدخال تاريخ باستخدام علامة مستند منظمة.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

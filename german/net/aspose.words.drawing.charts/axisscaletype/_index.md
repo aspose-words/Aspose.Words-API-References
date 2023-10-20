@@ -1,7 +1,9 @@
 ---
-title: Enum AxisScaleType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.AxisScaleType opsomming. Gibt die möglichen Skalentypen für eine Achse an.
+title: AxisScaleType Enum
+linktitle: AxisScaleType
+articleTitle: AxisScaleType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.AxisScaleType opsomming. Gibt die möglichen Skalentypen für eine Achse an in C#.
 type: docs
 weight: 560
 url: /de/net/aspose.words.drawing.charts/axisscaletype/
@@ -21,7 +23,7 @@ public enum AxisScaleType
 | Linear | `0` | Lineare Skalierung. |
 | Logarithmic | `1` | Logarithmische Skalierung. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine logarithmische Skalierung auf eine Diagrammachse angewendet wird.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

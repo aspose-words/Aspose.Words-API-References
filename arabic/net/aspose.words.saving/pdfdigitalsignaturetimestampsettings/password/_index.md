@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.Password
-second_title: Aspose.Words لمراجع .NET API
-description: PdfDigitalSignatureTimestampSettings ملكية. كلمة مرور خادم الطابع الزمني.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words لـ .NET
+description: PdfDigitalSignatureTimestampSettings Password ملكية. كلمة مرور خادم الطابع الزمني في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/password/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/password/
 public string Password { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`باطل` .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع مستند PDF محفوظ رقميًا ووضع طابع زمني عليه.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### أنظر أيضا
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Add
-second_title: Aspose.Words for .NET API 参考
-description: SdtListItemCollection 方法. 将项目添加到此集合
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: SdtListItemCollection Add 方法. 将项目添加到此集合 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/sdtlistitemcollection/add/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/sdtlistitemcollection/add/
 public void Add(SdtListItem item)
 ```
 
-### 例子
+## 例子
 
 展示如何使用下拉列表结构化文档标签。
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

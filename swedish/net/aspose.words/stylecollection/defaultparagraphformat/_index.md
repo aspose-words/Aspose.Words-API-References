@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.DefaultParagraphFormat
-second_title: Aspose.Words för .NET API Referens
-description: StyleCollection fast egendom. Får dokumentets standardstyckeformatering.
+linktitle: DefaultParagraphFormat
+articleTitle: DefaultParagraphFormat
+second_title: Aspose.Words för .NET
+description: StyleCollection DefaultParagraphFormat fast egendom. Får dokumentets standardstyckeformatering i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/stylecollection/defaultparagraphformat/
@@ -14,11 +16,11 @@ Får dokumentets standardstyckeformatering.
 public ParagraphFormat DefaultParagraphFormat { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Observera att dokumentomfattande standardinställningar introducerades i Microsoft Word 2007 och stöds fullt ut i OOXML-format (Docx) only. Tidigare dokumentformat har inget stöd för dokumentets standardstyckeformatering.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till en stil till ett dokuments stilsamling.
 
@@ -42,7 +44,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [StyleCollection](../)
-* namnutrymme [Aspose.Words](../../stylecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

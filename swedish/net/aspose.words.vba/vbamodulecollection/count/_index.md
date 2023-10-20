@@ -1,7 +1,9 @@
 ---
 title: VbaModuleCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: VbaModuleCollection fast egendom. Returnerar antalet VBAmoduler i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: VbaModuleCollection Count fast egendom. Returnerar antalet VBAmoduler i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.vba/vbamodulecollection/count/
@@ -14,7 +16,7 @@ Returnerar antalet VBA-moduler i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments VBA-projektinformation.
 
@@ -45,7 +47,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Se även
 
 * class [VbaModuleCollection](../)
-* namnutrymme [Aspose.Words.Vba](../../vbamodulecollection/)
+* namnutrymme [Aspose.Words.Vba](../../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../../)
-
-

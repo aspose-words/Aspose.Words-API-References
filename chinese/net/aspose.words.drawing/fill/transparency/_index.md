@@ -1,9 +1,11 @@
 ---
 title: Fill.Transparency
-second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获取或设置指定填充的透明度其值介于 0.0不透明和 1.0透明之间
+linktitle: Transparency
+articleTitle: Transparency
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill Transparency 财产. 获取或设置指定填充的透明度其值介于 0.0不透明和 1.0透明之间 在 C#.
 type: docs
-weight: 200
+weight: 190
 url: /zh/net/aspose.words.drawing/fill/transparency/
 ---
 ## Fill.Transparency property
@@ -14,14 +16,12 @@ url: /zh/net/aspose.words.drawing/fill/transparency/
 public double Transparency { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性与属性相反[`Opacity`](../opacity/)。
 
 ### 也可以看看
 
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

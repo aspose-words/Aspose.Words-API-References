@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ConnectString
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. يحدد سلسلة الاتصال المستخدمة للاتصال بمصدر بيانات خارجي. القيمة الافتراضية هي سلسلة فارغة.
+linktitle: ConnectString
+articleTitle: ConnectString
+second_title: Aspose.Words لـ .NET
+description: MailMergeSettings ConnectString ملكية. يحدد سلسلة الاتصال المستخدمة للاتصال بمصدر بيانات خارجي. القيمة الافتراضية هي سلسلة فارغة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.settings/mailmergesettings/connectstring/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/mailmergesettings/connectstring/
 public string ConnectString { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ عملية دمج البريد أثناء الاتصال بمصدر بيانات خارجي.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### أنظر أيضا
 
 * class [MailMergeSettings](../)
-* مساحة الاسم [Aspose.Words.Settings](../../mailmergesettings/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

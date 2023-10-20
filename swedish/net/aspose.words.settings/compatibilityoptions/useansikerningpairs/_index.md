@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseAnsiKerningPairs
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Använd ANSI Kerningpar från teckensnitt.
+linktitle: UseAnsiKerningPairs
+articleTitle: UseAnsiKerningPairs
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions UseAnsiKerningPairs fast egendom. Använd ANSI Kerningpar från teckensnitt i C#.
 type: docs
 weight: 610
 url: /sv/net/aspose.words.settings/compatibilityoptions/useansikerningpairs/
@@ -17,7 +19,5 @@ public bool UseAnsiKerningPairs { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

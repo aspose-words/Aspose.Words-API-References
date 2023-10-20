@@ -1,7 +1,9 @@
 ---
 title: Font.Hidden
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Verdadero si la fuente tiene el formato de texto oculto.
+linktitle: Hidden
+articleTitle: Hidden
+second_title: Aspose.Words para .NET
+description: Font Hidden propiedad. Verdadero si la fuente tiene el formato de texto oculto en C#.
 type: docs
 weight: 140
 url: /es/net/aspose.words/font/hidden/
@@ -14,7 +16,7 @@ Verdadero si la fuente tiene el formato de texto oculto.
 public bool Hidden { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una serie de texto oculto.
 
@@ -229,7 +231,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToStructuredDocumentTag
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Flyttar markören till en strukturerad dokumenttagg i det aktuella avsnittet.
+linktitle: MoveToStructuredDocumentTag
+articleTitle: MoveToStructuredDocumentTag
+second_title: Aspose.Words för .NET
+description: DocumentBuilder MoveToStructuredDocumentTag metod. Flyttar markören till en strukturerad dokumenttagg i det aktuella avsnittet i C#.
 type: docs
-weight: 590
+weight: 580
 url: /sv/net/aspose.words/documentbuilder/movetostructureddocumenttag/
 ---
-## MoveToStructuredDocumentTag(int, int) {#movetostructureddocumenttag_1}
+## MoveToStructuredDocumentTag(*int, int*) {#movetostructureddocumenttag_1}
 
 Flyttar markören till en strukturerad dokumenttagg i det aktuella avsnittet.
 
@@ -19,13 +21,13 @@ public void MoveToStructuredDocumentTag(int structuredDocumentTagIndex, int char
 | structuredDocumentTagIndex | Int32 | Indexet för den strukturerade dokumenttaggen att flytta till. |
 | characterIndex | Int32 | Indexet för tecknet inuti den strukturerade dokumenttaggen. Ett negativt värde låter dig ange en position från slutet av den strukturerade dokumenttaggen. Använd -1 för att flytta till slutet av den strukturerade dokumenttaggen. Om den strukturerade dokumenttaggen är på blocknivå och du vill flytta markören till slutet av dess sista stycke, ange -2. |
 
-### Anmärkningar
+## Anmärkningar
 
 Navigeringen utförs i den aktuella berättelsen i det aktuella avsnittet. Det vill säga, om du flyttade markören till den primära rubriken i det första avsnittet,*structuredDocumentTagIndex* angav indexet för den strukturerade dokumenttaggen inuti den rubriken i det avsnittet.
 
 När*structuredDocumentTagIndex* är större än eller lika med 0, anger den ett index från början av avsnittet där 0 är den första strukturerade dokumenttaggen. When *structuredDocumentTagIndex* är mindre än 0, specificerade det ett index från slutet av sektionen med -1 som den sista strukturerade dokumenttaggen.
 
-### Exempel
+## Exempel
 
 Visar hur man flyttar markören för DocumentBuilder inuti en strukturerad dokumenttagg.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## MoveToStructuredDocumentTag(StructuredDocumentTag, int) {#movetostructureddocumenttag}
+## MoveToStructuredDocumentTag(*[StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/), int*) {#movetostructureddocumenttag}
 
 Flyttar markören till den strukturerade dokumenttaggen.
 
@@ -76,7 +78,7 @@ public void MoveToStructuredDocumentTag(StructuredDocumentTag structuredDocument
 | structuredDocumentTag | StructuredDocumentTag | Den strukturerade dokumenttaggen att flytta till. |
 | characterIndex | Int32 | Indexet för tecknet inuti den strukturerade dokumenttaggen. Ett negativt värde låter dig ange en position från slutet av den strukturerade dokumenttaggen. Använd -1 för att flytta till slutet av den strukturerade dokumenttaggen. Om den strukturerade dokumenttaggen är på blocknivå och du vill flytta markören till slutet av dess sista stycke, ange -2. |
 
-### Exempel
+## Exempel
 
 Visar hur man flyttar markören för DocumentBuilder inuti en strukturerad dokumenttagg.
 
@@ -109,7 +111,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

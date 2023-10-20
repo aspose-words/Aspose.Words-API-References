@@ -1,7 +1,9 @@
 ---
-title: Class FrameFormat
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.FrameFormat klass. Representerar ramrelaterad formatering för ett stycke.
+title: FrameFormat Class
+linktitle: FrameFormat
+articleTitle: FrameFormat
+second_title: Aspose.Words för .NET
+description: Aspose.Words.FrameFormat klass. Representerar ramrelaterad formatering för ett stycke i C#.
 type: docs
 weight: 3070
 url: /sv/net/aspose.words/frameformat/
@@ -31,13 +33,13 @@ public class FrameFormat
 | [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Får vertikalt avstånd mellan kanten på ramen och objektet som anges av[`RelativeVerticalPosition`](./relativeverticalposition/) egenskap. |
 | [Width](../../aspose.words/frameformat/width/) { get; } | Hämtar bredden på den angivna ramen, i punkter. |
 
-### Anmärkningar
+## Anmärkningar
 
 Detta objekt skapas alltid. Om ett stycke är en ram kommer alla egenskaper att innehålla respektive värden, annars är alla egenskaper inställda på sina standardvärden.
 
 Använda sig av[`IsFrame`](./isframe/) för att kontrollera om stycket är en ram.
 
-### Exempel
+## Exempel
 
 Visar hur man får information om formateringsegenskaper för stycken som är ramar.
 
@@ -63,5 +65,3 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

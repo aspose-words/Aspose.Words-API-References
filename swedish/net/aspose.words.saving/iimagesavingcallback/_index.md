@@ -1,7 +1,9 @@
 ---
-title: Interface IImageSavingCallback
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.IImageSavingCallback gränssnitt. Implementera detta gränssnitt om du vill kontrollera hur Aspose.Words sparar bilder när sparar ett dokument till HTML. Kan användas av andra format.
+title: IImageSavingCallback Interface
+linktitle: IImageSavingCallback
+articleTitle: IImageSavingCallback
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.IImageSavingCallback gränssnitt. Implementera detta gränssnitt om du vill kontrollera hur Aspose.Words sparar bilder när sparar ett dokument till HTML. Kan användas av andra format i C#.
 type: docs
 weight: 5170
 url: /sv/net/aspose.words.saving/iimagesavingcallback/
@@ -18,9 +20,9 @@ public interface IImageSavingCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(ImageSavingArgs) | Anropas när Aspose.Words sparar en bild i HTML. |
+| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(*[ImageSavingArgs](../imagesavingargs/)*) | Anropas när Aspose.Words sparar en bild i HTML. |
 
-### Exempel
+## Exempel
 
 Visar hur du byter namn på bildnamnet när du sparar i Markdown-dokument.
 
@@ -192,5 +194,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

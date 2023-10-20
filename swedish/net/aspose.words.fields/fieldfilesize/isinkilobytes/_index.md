@@ -1,7 +1,9 @@
 ---
 title: FieldFileSize.IsInKilobytes
-second_title: Aspose.Words för .NET API Referens
-description: FieldFileSize fast egendom. Hämtar eller ställer in om filstorleken ska visas i kilobyte.
+linktitle: IsInKilobytes
+articleTitle: IsInKilobytes
+second_title: Aspose.Words för .NET
+description: FieldFileSize IsInKilobytes fast egendom. Hämtar eller ställer in om filstorleken ska visas i kilobyte i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldfilesize/isinkilobytes/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om filstorleken ska visas i kilobyte.
 public bool IsInKilobytes { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man visar filstorleken för ett dokument med ett FILESIZE-fält.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ### Se även
 
 * class [FieldFileSize](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldfilesize/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

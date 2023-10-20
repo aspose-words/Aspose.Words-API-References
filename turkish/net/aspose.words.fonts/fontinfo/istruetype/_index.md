@@ -1,7 +1,9 @@
 ---
 title: FontInfo.IsTrueType
-second_title: Aspose.Words for .NET API Referansı
-description: FontInfo mülk. Bu yazı tipinin raster veya vektör yazı tipi yerine TrueType veya OpenType yazı tipi olduğunu belirtir. Varsayılandoğru .
+linktitle: IsTrueType
+articleTitle: IsTrueType
+second_title: Aspose.Words for .NET
+description: FontInfo IsTrueType mülk. Bu yazı tipinin raster veya vektör yazı tipi yerine TrueType veya OpenType yazı tipi olduğunu belirtir. Varsayılandoğru  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fonts/fontinfo/istruetype/
@@ -14,7 +16,7 @@ Bu yazı tipinin raster veya vektör yazı tipi yerine TrueType veya OpenType ya
 public bool IsTrueType { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgede hangi yazı tiplerinin mevcut olduğuna ilişkin ayrıntıların nasıl yazdırılacağını gösterir.
 
@@ -34,7 +36,5 @@ for (int i = 0; i < allFonts.Count; i++)
 ### Ayrıca bakınız
 
 * class [FontInfo](../)
-* ad alanı [Aspose.Words.Fonts](../../fontinfo/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

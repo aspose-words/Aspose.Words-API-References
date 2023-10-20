@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Add
-second_title: Aspose.Words لمراجع .NET API
-description: BaseWebExtensionCollection طريقة. إضافة عنصر محدد إلى المجموعة.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: BaseWebExtensionCollection Add طريقة. إضافة عنصر محدد إلى المجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.webextensions/basewebextensioncollection-1/add/
@@ -18,7 +20,7 @@ public void Add(T item)
 | --- | --- | --- |
 | item | T | عنصر للإضافة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### أنظر أيضا
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

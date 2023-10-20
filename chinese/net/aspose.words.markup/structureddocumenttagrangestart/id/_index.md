@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Id
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeStart 财产. 为此结构化文档标记指定唯一的只读持久数字 ID
+linktitle: Id
+articleTitle: Id
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTagRangeStart Id 财产. 为此结构化文档标记指定唯一的只读持久数字 ID 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/id/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/id/
 public int Id { get; }
 ```
 
-### 评论
+## 评论
 
 Id 属性应遵循以下规则：
 
@@ -24,7 +26,7 @@ Id 属性应遵循以下规则：
 * 在独立结构化文档标记期间INodeCloningListener)操作将为克隆的结构化文档标签节点生成新的唯一ID。
 * 如果源文档中未指定 Id，则在加载文档时，结构化文档标记节点应分配一个新的唯一标识符 。
 
-### 例子
+## 例子
 
 演示如何获取多节结构化文档标签的属性。
 
@@ -59,7 +61,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### 也可以看看
 
 * class [StructuredDocumentTagRangeStart](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

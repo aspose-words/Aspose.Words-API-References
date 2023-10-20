@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ExportParagraphGraphicsToArtifact
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Bir paragraf grafiğinin yapıt olarak işaretlenip işaretlenmeyeceğini belirleyen bir değer alır veya ayarlar.
+linktitle: ExportParagraphGraphicsToArtifact
+articleTitle: ExportParagraphGraphicsToArtifact
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions ExportParagraphGraphicsToArtifact mülk. Bir paragraf grafiğinin yapıt olarak işaretlenip işaretlenmeyeceğini belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.saving/pdfsaveoptions/exportparagraphgraphicstoartifact/
@@ -14,7 +16,7 @@ Bir paragraf grafiğinin yapıt olarak işaretlenip işaretlenmeyeceğini belirl
 public bool ExportParagraphGraphicsToArtifact { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ` ve paragraf grafikleri (alt çizgi, metin vurgusu vb.) belgenin mantıksal yapısında "Span" olarak işaretlenecektir.
 
@@ -22,7 +24,7 @@ Değer ne zaman`doğru` paragraf grafikleri "Yapı" olarak işaretlenecektir.
 
 Bu değer şu durumlarda göz ardı edilir:[`ExportDocumentStructure`](../exportdocumentstructure/) dır-dir`YANLIŞ` .
 
-### Örnekler
+## Örnekler
 
 Paragraf grafiklerinin yapay olarak nasıl dışa aktarılacağını gösterir (alt çizgiler, metin vurgusu vb.).
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportParagraphGraphicsToArtifact.pdf", 
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

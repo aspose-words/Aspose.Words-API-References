@@ -1,7 +1,9 @@
 ---
 title: Node.Clone
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Node méthode. Crée un duplicata du nœud.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words pour .NET
+description: Node Clone méthode. Crée un duplicata du nœud en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words/node/clone/
@@ -22,13 +24,13 @@ public Node Clone(bool isCloneChildren)
 
 Le nœud cloné.
 
-### Remarques
+## Remarques
 
 Cette méthode sert de constructeur de copie pour les nœuds. Le nœud cloné n'a pas de parent, mais appartient au même document que le nœud d'origine.
 
 Cette méthode effectue toujours une copie complète du nœud. Le*isCloneChildren* paramètre spécifie s'il faut également copier tous les nœuds enfants.
 
-### Exemples
+## Exemples
 
 Montre comment cloner un nœud composite.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(string.Empty, cloneWithoutChildren.GetText().Trim());
 ### Voir également
 
 * class [Node](../)
-* espace de noms [Aspose.Words](../../node/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

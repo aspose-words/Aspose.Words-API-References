@@ -1,7 +1,9 @@
 ---
-title: Enum TxtExportHeadersFootersMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.TxtExportHeadersFootersMode uppräkning. Anger hur sidhuvuden och sidfötter exporteras till vanligt textformat.
+title: TxtExportHeadersFootersMode Enum
+linktitle: TxtExportHeadersFootersMode
+articleTitle: TxtExportHeadersFootersMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.TxtExportHeadersFootersMode uppräkning. Anger hur sidhuvuden och sidfötter exporteras till vanligt textformat i C#.
 type: docs
 weight: 5640
 url: /sv/net/aspose.words.saving/txtexportheadersfootersmode/
@@ -22,7 +24,7 @@ public enum TxtExportHeadersFootersMode
 | PrimaryOnly | `1` | Endast primära sidhuvuden och sidfötter exporteras i början och slutet av varje avsnitt. |
 | AllAtEnd | `2` | Alla sidhuvuden och sidfötter placeras efter alla avsnittsbröder i slutet av ett dokument. |
 
-### Exempel
+## Exempel
 
 Visar hur man anger hur man exporterar sidhuvuden och sidfötter till vanligt textformat.
 
@@ -94,5 +96,3 @@ switch (txtExportHeadersFootersMode)
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

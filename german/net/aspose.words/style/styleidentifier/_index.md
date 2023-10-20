@@ -1,9 +1,11 @@
 ---
 title: Style.StyleIdentifier
-second_title: Aspose.Words für .NET-API-Referenz
-description: Style eigendom. Ruft die vom Gebietsschema unabhängige Stilkennung für einen integrierten Stil ab.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words für .NET
+description: Style StyleIdentifier eigendom. Ruft die vom Gebietsschema unabhängige Stilkennung für einen integrierten Stil ab in C#.
 type: docs
-weight: 160
+weight: 150
 url: /de/net/aspose.words/style/styleidentifier/
 ---
 ## Style.StyleIdentifier property
@@ -14,11 +16,11 @@ Ruft die vom Gebietsschema unabhängige Stilkennung für einen integrierten Stil
 public StyleIdentifier StyleIdentifier { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Für benutzerdefinierte (benutzerdefinierte) Stile wird diese Eigenschaft zurückgegebenUser.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Position des rechten Tabstopps in Inhaltsverzeichnis-bezogenen Absätzen geändert wird.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [Style](../)
-* namensraum [Aspose.Words](../../style/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

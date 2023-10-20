@@ -1,7 +1,9 @@
 ---
 title: IMailMergeCallback.TagsReplaced
-second_title: Aspose.Words for .NET API 参考
-description: IMailMergeCallback 方法. 当mustache文本标记替换为 MERGEFIELD 字段时调用
+linktitle: TagsReplaced
+articleTitle: TagsReplaced
+second_title: 用于 .NET 的 Aspose.Words
+description: IMailMergeCallback TagsReplaced 方法. 当mustache文本标记替换为 MERGEFIELD 字段时调用 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
 public void TagsReplaced()
 ```
 
-### 例子
+## 例子
 
 演示如何定义用于在邮件合并期间处理事件的自定义逻辑。
 
@@ -66,7 +68,5 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * property [UseNonMergeFields](../../mailmerge/usenonmergefields/)
 * interface [IMailMergeCallback](../)
-* 命名空间 [Aspose.Words.MailMerging](../../imailmergecallback/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Metered.GetConsumptionQuantity
-second_title: Aspose.Words per .NET API Reference
-description: Metered metodo. Ottiene la dimensione del file di consumo
+linktitle: GetConsumptionQuantity
+articleTitle: GetConsumptionQuantity
+second_title: Aspose.Words per .NET
+description: Metered GetConsumptionQuantity metodo. Ottiene la dimensione del file di consumo in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/metered/getconsumptionquantity/
@@ -18,7 +20,7 @@ public static decimal GetConsumptionQuantity()
 
 quantità di consumo
 
-### Esempi
+## Esempi
 
 Mostra come attivare una licenza a consumo e tenere traccia del credito/consumo.
 
@@ -45,7 +47,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### Guarda anche
 
 * class [Metered](../)
-* spazio dei nomi [Aspose.Words](../../metered/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

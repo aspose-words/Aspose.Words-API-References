@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.Source
-second_title: Справочник по API Aspose.Words для .NET
-description: WarningInfo свойство. Возвращает источник предупреждения.
+linktitle: Source
+articleTitle: Source
+second_title: Aspose.Words для .NET
+description: WarningInfo Source свойство. Возвращает источник предупреждения на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/warninginfo/source/
@@ -18,7 +20,5 @@ public WarningSource Source { get; }
 
 * enum [WarningSource](../../warningsource/)
 * class [WarningInfo](../)
-* пространство имен [Aspose.Words](../../warninginfo/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

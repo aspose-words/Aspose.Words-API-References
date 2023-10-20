@@ -1,7 +1,9 @@
 ---
 title: TextBox.VerticalAnchor
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextBox eigendom. Gibt die vertikale Ausrichtung des Textes innerhalb einer Form an.
+linktitle: VerticalAnchor
+articleTitle: VerticalAnchor
+second_title: Aspose.Words für .NET
+description: TextBox VerticalAnchor eigendom. Gibt die vertikale Ausrichtung des Textes innerhalb einer Form an in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.drawing/textbox/verticalanchor/
@@ -14,11 +16,11 @@ Gibt die vertikale Ausrichtung des Textes innerhalb einer Form an.
 public TextBoxAnchor VerticalAnchor { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istTop.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Textinhalt eines Textfelds vertikal ausgerichtet wird.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 
 * enum [TextBoxAnchor](../../textboxanchor/)
 * class [TextBox](../)
-* namensraum [Aspose.Words.Drawing](../../textbox/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.IsListItem
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. True wenn der Absatz ein Element in einer Liste mit Aufzählungszeichen oder Nummern ist.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words für .NET
+description: ParagraphFormat IsListItem eigendom. True wenn der Absatz ein Element in einer Liste mit Aufzählungszeichen oder Nummern ist in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words/paragraphformat/islistitem/
@@ -14,7 +16,7 @@ True, wenn der Absatz ein Element in einer Liste mit Aufzählungszeichen oder Nu
 public bool IsListItem { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Liste in einer anderen Liste verschachtelt wird.
 
@@ -68,7 +70,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

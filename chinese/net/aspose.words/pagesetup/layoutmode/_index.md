@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LayoutMode
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 获取或设置此部分的布局模式
+linktitle: LayoutMode
+articleTitle: LayoutMode
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup LayoutMode 财产. 获取或设置此部分的布局模式 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words/pagesetup/layoutmode/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/layoutmode/
 public SectionLayoutMode LayoutMode { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何指定每行可以包含的字符数。
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 
 * enum [SectionLayoutMode](../../sectionlayoutmode/)
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

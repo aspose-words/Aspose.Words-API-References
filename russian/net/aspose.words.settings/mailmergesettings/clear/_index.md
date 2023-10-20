@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings метод. Очищает настройки слияния почты таким образом что при сохранении документа никакие настройки слияния почты не сохраняются и он становится обычным документом.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: MailMergeSettings Clear метод. Очищает настройки слияния почты таким образом что при сохранении документа никакие настройки слияния почты не сохраняются и он становится обычным документом на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.settings/mailmergesettings/clear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/mailmergesettings/clear/
 public void Clear()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты при подключении к внешнему источнику данных.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Смотрите также
 
 * class [MailMergeSettings](../)
-* пространство имен [Aspose.Words.Settings](../../mailmergesettings/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

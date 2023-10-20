@@ -1,7 +1,9 @@
 ---
 title: IFieldDatabaseProvider.GetQueryResult
-second_title: Aspose.Words for .NET API Referansı
-description: IFieldDatabaseProvider yöntem. Sorgu sonucunu döndürür.
+linktitle: GetQueryResult
+articleTitle: GetQueryResult
+second_title: Aspose.Words for .NET
+description: IFieldDatabaseProvider GetQueryResult yöntem. Sorgu sonucunu döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/ifielddatabaseprovider/getqueryresult/
@@ -31,7 +33,5 @@ public FieldDatabaseDataTable GetQueryResult(string fileName, string connection,
 * class [FieldDatabaseDataTable](../../fielddatabasedatatable/)
 * class [FieldDatabase](../../fielddatabase/)
 * interface [IFieldDatabaseProvider](../)
-* ad alanı [Aspose.Words.Fields](../../ifielddatabaseprovider/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

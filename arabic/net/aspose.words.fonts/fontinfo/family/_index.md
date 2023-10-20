@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Family
-second_title: Aspose.Words لمراجع .NET API
-description: FontInfo ملكية. الحصول على عائلة الخطوط التي ينتمي إليها هذا الخط أو تعيينها.
+linktitle: Family
+articleTitle: Family
+second_title: Aspose.Words لـ .NET
+description: FontInfo Family ملكية. الحصول على عائلة الخطوط التي ينتمي إليها هذا الخط أو تعيينها في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/fontinfo/family/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontinfo/family/
 public FontFamily Family { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى تفاصيل كل خط في المستند وطباعتها.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontFamily](../../fontfamily/)
 * class [FontInfo](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontinfo/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

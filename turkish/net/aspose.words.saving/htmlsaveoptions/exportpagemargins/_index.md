@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportPageMargins
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Sayfa kenar boşluklarının HTMLye mi MHTMLye mi yoksa EPUBa mı aktarılacağını belirtir. VarsayılanYANLIŞ .
+linktitle: ExportPageMargins
+articleTitle: ExportPageMargins
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ExportPageMargins mülk. Sayfa kenar boşluklarının HTMLye mi MHTMLye mi yoksa EPUBa mı aktarılacağını belirtir. VarsayılanYANLIŞ  C#'da.
 type: docs
 weight: 210
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
@@ -14,11 +16,11 @@ Sayfa kenar boşluklarının HTML'ye mi, MHTML'ye mi yoksa EPUB'a mı aktarılac
 public bool ExportPageMargins { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words varsayılan olarak sayfa kenar boşluklarının alanını göstermez. Herhangi bir öğe belgenin kenarı tarafından tamamen veya kısmen kırpılmışsa, görüntülenen alan bu seçenekle genişletilebilir.
 
-### Örnekler
+## Örnekler
 
 Çıkış HTML belgelerinde sınırların dışındaki nesnelerin nasıl gösterileceğini gösterir.
 
@@ -63,7 +65,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

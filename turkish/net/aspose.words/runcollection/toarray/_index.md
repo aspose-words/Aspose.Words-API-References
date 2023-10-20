@@ -1,7 +1,9 @@
 ---
 title: RunCollection.ToArray
-second_title: Aspose.Words for .NET API Referansı
-description: RunCollection yöntem. Koleksiyondaki tüm çalıştırmaları yeni bir çalıştırma dizisine kopyalar.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words for .NET
+description: RunCollection ToArray yöntem. Koleksiyondaki tüm çalıştırmaları yeni bir çalıştırma dizisine kopyalar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/runcollection/toarray/
@@ -18,7 +20,7 @@ public Run[] ToArray()
 
 Bir dizi çalıştırma.
 
-### Örnekler
+## Örnekler
 
 Satır içi düğümün revizyon türünün nasıl belirleneceğini gösterir.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Run](../../run/)
 * class [RunCollection](../)
-* ad alanı [Aspose.Words](../../runcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

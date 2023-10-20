@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.Callback
-second_title: Aspose.Words for .NET API Referansı
-description: Hyphenation mülk. Belgenin sayfa düzeni oluşturulduğunda sözlük istemek için kullanılan geri arama arayüzünü alır veya ayarlar. Bu birçok dilde belgeler işlenirken faydalı olabilecek sözlüklerin gecikmeli yüklenmesine olanak tanır.
+linktitle: Callback
+articleTitle: Callback
+second_title: Aspose.Words for .NET
+description: Hyphenation Callback mülk. Belgenin sayfa düzeni oluşturulduğunda sözlük istemek için kullanılan geri arama arayüzünü alır veya ayarlar. Bu birçok dilde belgeler işlenirken faydalı olabilecek sözlüklerin gecikmeli yüklenmesine olanak tanır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/hyphenation/callback/
@@ -14,7 +16,7 @@ Belgenin sayfa düzeni oluşturulduğunda sözlük istemek için kullanılan ger
 public static IHyphenationCallback Callback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir dosyadan sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
 
@@ -91,7 +93,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * interface [IHyphenationCallback](../../ihyphenationcallback/)
 * class [Hyphenation](../)
-* ad alanı [Aspose.Words](../../hyphenation/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

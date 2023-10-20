@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageIndex
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSavingArgs propiedad. Índice de la página actual.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words para .NET
+description: PageSavingArgs PageIndex propiedad. Índice de la página actual en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/pagesavingargs/pageindex/
@@ -14,7 +16,7 @@ url: /es/net/aspose.words.saving/pagesavingargs/pageindex/
 public int PageIndex { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una devolución de llamada para guardar un documento en HTML página por página.
 
@@ -71,7 +73,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Ver también
 
 * class [PageSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../pagesavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

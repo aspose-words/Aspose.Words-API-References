@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.ScalingFactor
-second_title: Aspose.Words per .NET API Reference
-description: BarcodeParameters proprietà. Fattore di scala per il simbolo. Il valore è espresso in punti percentuali interi e i valori validi sono 10 1000.
+linktitle: ScalingFactor
+articleTitle: ScalingFactor
+second_title: Aspose.Words per .NET
+description: BarcodeParameters ScalingFactor proprietà. Fattore di scala per il simbolo. Il valore è espresso in punti percentuali interi e i valori validi sono 10 1000 in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.fields/barcodeparameters/scalingfactor/
@@ -14,7 +16,7 @@ Fattore di scala per il simbolo. Il valore è espresso in punti percentuali inte
 public string ScalingFactor { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un generatore di codici a barre.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Guarda anche
 
 * class [BarcodeParameters](../)
-* spazio dei nomi [Aspose.Words.Fields](../../barcodeparameters/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

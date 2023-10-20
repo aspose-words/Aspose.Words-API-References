@@ -1,7 +1,9 @@
 ---
 title: SmartTag.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: SmartTag mülk. İadelerSmartTag .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: SmartTag NodeType mülk. İadelerSmartTag  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.markup/smarttag/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.markup/smarttag/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [SmartTag](../)
-* ad alanı [Aspose.Words.Markup](../../smarttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

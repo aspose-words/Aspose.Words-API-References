@@ -1,7 +1,9 @@
 ---
-title: Enum TextureAlignment
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.TextureAlignment 枚举. 指定纹理填充平铺的对齐方式
+title: TextureAlignment Enum
+linktitle: TextureAlignment
+articleTitle: TextureAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.TextureAlignment 枚举. 指定纹理填充平铺的对齐方式 在 C#.
 type: docs
 weight: 1370
 url: /zh/net/aspose.words.drawing/texturealignment/
@@ -29,7 +31,7 @@ public enum TextureAlignment
 | BottomRight | `8` | 右下纹理对齐。 |
 | None | `9` | 无纹理对齐。 |
 
-### 例子
+## 例子
 
 展示如何填充和平铺形状内的纹理。
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

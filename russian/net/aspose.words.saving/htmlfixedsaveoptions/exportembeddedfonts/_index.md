@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedFonts
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlFixedSaveOptions свойство. Указывает должны ли шрифты быть встроены в HTMLдокумент в формате Base64. Обратите внимание что установка этого флага может значительно увеличить размер выходного HTMLфайла.
+linktitle: ExportEmbeddedFonts
+articleTitle: ExportEmbeddedFonts
+second_title: Aspose.Words для .NET
+description: HtmlFixedSaveOptions ExportEmbeddedFonts свойство. Указывает должны ли шрифты быть встроены в HTMLдокумент в формате Base64. Обратите внимание что установка этого флага может значительно увеличить размер выходного HTMLфайла на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts/
 public bool ExportEmbeddedFonts { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить, где хранить встроенные шрифты при экспорте документа в Html.
 
@@ -54,7 +56,5 @@ else
 ### Смотрите также
 
 * class [HtmlFixedSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

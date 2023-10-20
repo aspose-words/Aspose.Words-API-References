@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertCheckBox
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 在当前位置插入复选框表单字段
+linktitle: InsertCheckBox
+articleTitle: InsertCheckBox
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertCheckBox 方法. 在当前位置插入复选框表单字段 在 C#.
 type: docs
 weight: 290
 url: /zh/net/aspose.words/documentbuilder/insertcheckbox/
 ---
-## InsertCheckBox(string, bool, int) {#insertcheckbox_1}
+## InsertCheckBox(*string, bool, int*) {#insertcheckbox_1}
 
 在当前位置插入复选框表单字段。
 
@@ -24,11 +26,11 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 
 刚刚插入的表单字段节点。
 
-### 评论
+## 评论
 
 如果您为表单字段指定名称，则会自动创建同名的书签。
 
-### 例子
+## 例子
 
 演示如何将复选框插入到文档中。
 
@@ -59,12 +61,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertCheckBox(string, bool, bool, int) {#insertcheckbox}
+## InsertCheckBox(*string, bool, bool, int*) {#insertcheckbox}
 
 在当前位置插入复选框表单字段。
 
@@ -83,11 +85,11 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 
 刚刚插入的表单字段节点。
 
-### 评论
+## 评论
 
 如果您为表单字段指定名称，则会自动创建同名的书签。
 
-### 例子
+## 例子
 
 演示如何将复选框插入到文档中。
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

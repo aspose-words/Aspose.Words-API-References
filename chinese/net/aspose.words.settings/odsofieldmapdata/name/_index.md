@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Name
-second_title: Aspose.Words for .NET API 参考
-description: OdsoFieldMapData 财产. 指定外部数据源中 索引由Column属性 默认值为空字符串
+linktitle: Name
+articleTitle: Name
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoFieldMapData Name 财产. 指定外部数据源中 索引由Column属性 默认值为空字符串 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.settings/odsofieldmapdata/name/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/odsofieldmapdata/name/
 public string Name { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问将数据源列映射到合并字段的数据集合。
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### 也可以看看
 
 * class [OdsoFieldMapData](../)
-* 命名空间 [Aspose.Words.Settings](../../odsofieldmapdata/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

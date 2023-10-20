@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Name
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoFieldMapData mülk. dizini tarafından belirtilen sütun için harici veri kaynağı içindeki sütun adını belirtir.Columnözellik. Varsayılan değer boş bir dizedir.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words for .NET
+description: OdsoFieldMapData Name mülk. dizini tarafından belirtilen sütun için harici veri kaynağı içindeki sütun adını belirtir.Columnözellik. Varsayılan değer boş bir dizedir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.settings/odsofieldmapdata/name/
@@ -14,7 +16,7 @@ dizini tarafından belirtilen sütun için harici veri kaynağı içindeki sütu
 public string Name { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ayrıca bakınız
 
 * class [OdsoFieldMapData](../)
-* ad alanı [Aspose.Words.Settings](../../odsofieldmapdata/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

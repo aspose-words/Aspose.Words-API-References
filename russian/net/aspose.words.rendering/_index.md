@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Rendering
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Rendering пространство имен предоставляет классы которые позволяют to настраивать печать или отображение документов.
+linktitle: Aspose.Words.Rendering
+articleTitle: Aspose.Words.Rendering
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Rendering пространство имен предоставляет классы которые позволяют to настраивать печать или отображение документов на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.rendering/
@@ -24,5 +26,3 @@ url: /ru/net/aspose.words.rendering/
 | перечисление | Описание |
 | --- | --- |
 | [ColorPrintMode](./colorprintmode/) | Указывает, как печатаются нецветные страницы, если устройство поддерживает цветную печать. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.InvertIfNegative
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeries mülk. Değer negatifse ana öğenin renklerini ters çevirip çevirmeyeceğini belirtir.
+linktitle: InvertIfNegative
+articleTitle: InvertIfNegative
+second_title: Aspose.Words for .NET
+description: ChartSeries InvertIfNegative mülk. Değer negatifse ana öğenin renklerini ters çevirip çevirmeyeceğini belirtir C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.drawing.charts/chartseries/invertifnegative/
@@ -17,7 +19,5 @@ public bool InvertIfNegative { get; set; }
 ### Ayrıca bakınız
 
 * class [ChartSeries](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseries/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

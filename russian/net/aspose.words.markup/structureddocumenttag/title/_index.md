@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Title
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Указывает понятное имя связанное с этим СДТ . Не может бытьнулевой .
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag Title свойство. Указывает понятное имя связанное с этимСДТ . Не может бытьнулевой  на С#.
 type: docs
 weight: 290
 url: /ru/net/aspose.words.markup/structureddocumenttag/title/
 ---
 ## StructuredDocumentTag.Title property
 
-Указывает понятное имя, связанное с этим **СДТ** . Не может быть`нулевой` .
+Указывает понятное имя, связанное с этим**СДТ** . Не может быть`нулевой` .
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа в текстовом поле и изменить его внешний вид.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

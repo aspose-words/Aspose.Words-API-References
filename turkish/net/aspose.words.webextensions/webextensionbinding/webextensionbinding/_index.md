@@ -1,7 +1,9 @@
 ---
-title: WebExtensionBinding.WebExtensionBinding
-second_title: Aspose.Words for .NET API Referansı
-description: WebExtensionBinding inşaatçı. Belirtilen parametrelerle web uzantısı bağlaması oluşturur.
+title: WebExtensionBinding
+linktitle: WebExtensionBinding
+articleTitle: WebExtensionBinding
+second_title: Aspose.Words for .NET
+description: WebExtensionBinding inşaatçı. Belirtilen parametrelerle web uzantısı bağlaması oluşturur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.webextensions/webextensionbinding/webextensionbinding/
@@ -20,7 +22,7 @@ public WebExtensionBinding(string id, WebExtensionBindingType bindingType, strin
 | bindingType | WebExtensionBindingType | Bağlama türü. |
 | appRef | String | Bu listedeki bağlama girişini belgedeki bağlı verilerle eşlemek için kullanılan bağlama anahtarı. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -66,7 +68,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [WebExtensionBindingType](../../webextensionbindingtype/)
 * class [WebExtensionBinding](../)
-* ad alanı [Aspose.Words.WebExtensions](../../webextensionbinding/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

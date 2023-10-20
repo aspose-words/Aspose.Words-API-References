@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.SizeInPoints
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin boyutunu nokta cinsinden alır.
+linktitle: SizeInPoints
+articleTitle: SizeInPoints
+second_title: Aspose.Words for .NET
+description: ShapeBase SizeInPoints mülk. Şeklin boyutunu nokta cinsinden alır C#'da.
 type: docs
 weight: 510
 url: /tr/net/aspose.words.drawing/shapebase/sizeinpoints/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shapebase/sizeinpoints/
 public SizeF SizeInPoints { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şeklin boyutunun ve işaretleme dilinin nasıl doğrulanacağını gösterir.
 
@@ -31,7 +33,5 @@ Assert.AreEqual(new SizeF(300, 300), shape.SizeInPoints);
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

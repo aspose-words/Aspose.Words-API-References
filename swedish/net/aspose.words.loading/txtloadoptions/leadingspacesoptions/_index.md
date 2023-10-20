@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.LeadingSpacesOptions
-second_title: Aspose.Words för .NET API Referens
-description: TxtLoadOptions fast egendom. Hämtar eller ställer in föredraget alternativ för en ledande utrymmeshantering. Standardvärdet ärConvertToIndent .
+linktitle: LeadingSpacesOptions
+articleTitle: LeadingSpacesOptions
+second_title: Aspose.Words för .NET
+description: TxtLoadOptions LeadingSpacesOptions fast egendom. Hämtar eller ställer in föredraget alternativ för en ledande utrymmeshantering. Standardvärdet ärConvertToIndent  i C#.
 type: docs
-weight: 60
+weight: 50
 url: /sv/net/aspose.words.loading/txtloadoptions/leadingspacesoptions/
 ---
 ## TxtLoadOptions.LeadingSpacesOptions property
@@ -14,7 +16,7 @@ Hämtar eller ställer in föredraget alternativ för en ledande utrymmeshanteri
 public TxtLeadingSpacesOptions LeadingSpacesOptions { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man beskär blanktecken när du laddar dokument i klartext.
 
@@ -91,7 +93,5 @@ switch (txtTrailingSpacesOptions)
 
 * enum [TxtLeadingSpacesOptions](../../txtleadingspacesoptions/)
 * class [TxtLoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../txtloadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

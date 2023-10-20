@@ -1,7 +1,9 @@
 ---
-title: Class GradientStop
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.GradientStop classe. Rappresenta uninterruzione del gradiente.
+title: GradientStop Class
+linktitle: GradientStop
+articleTitle: GradientStop
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.GradientStop classe. Rappresenta uninterruzione del gradiente in C#.
 type: docs
 weight: 980
 url: /it/net/aspose.words.drawing/gradientstop/
@@ -20,8 +22,8 @@ public class GradientStop
 
 | Nome | Descrizione |
 | --- | --- |
-| [GradientStop](gradientstop/#constructor)(Color, double) | Inizializza una nuova istanza di`GradientStop` classe. |
-| [GradientStop](gradientstop/#constructor_1)(Color, double, double) | Inizializza una nuova istanza di`GradientStop` classe. |
+| [GradientStop](gradientstop/#constructor)(*Color, double*) | Inizializza una nuova istanza di`GradientStop` classe. |
+| [GradientStop](gradientstop/#constructor_1)(*Color, double, double*) | Inizializza una nuova istanza di`GradientStop` classe. |
 
 ## Proprietà
 
@@ -42,5 +44,3 @@ public class GradientStop
 
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

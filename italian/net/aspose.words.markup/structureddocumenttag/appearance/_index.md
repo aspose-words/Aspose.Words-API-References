@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Appearance
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Ottiene/imposta laspetto di un tag di documento strutturato.
+linktitle: Appearance
+articleTitle: Appearance
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag Appearance proprietà. Ottiene/imposta laspetto di un tag di documento strutturato in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.markup/structureddocumenttag/appearance/
@@ -14,7 +16,7 @@ Ottiene/imposta l'aspetto di un tag di documento strutturato.
 public SdtAppearance Appearance { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un tag di documento strutturato in una casella di testo semplice e modificarne l'aspetto.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * enum [SdtAppearance](../../sdtappearance/)
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

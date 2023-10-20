@@ -1,7 +1,9 @@
 ---
-title: FieldToc.FieldToc
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToc строитель. Конструктор по умолчанию.
+title: FieldToc
+linktitle: FieldToc
+articleTitle: FieldToc
+second_title: Aspose.Words для .NET
+description: FieldToc строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldtoc/fieldtoc/
@@ -17,7 +19,5 @@ public FieldToc()
 ### Смотрите также
 
 * class [FieldToc](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

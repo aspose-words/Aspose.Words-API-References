@@ -1,7 +1,9 @@
 ---
 title: PageSetup.CharactersPerLine
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. الحصول على أو تعيين عدد الأحرف لكل سطر في شبكة المستند.
+linktitle: CharactersPerLine
+articleTitle: CharactersPerLine
+second_title: Aspose.Words لـ .NET
+description: PageSetup CharactersPerLine ملكية. الحصول على أو تعيين عدد الأحرف لكل سطر في شبكة المستند في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/pagesetup/charactersperline/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/pagesetup/charactersperline/
 public int CharactersPerLine { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الحد الأدنى لقيمة الخاصية هو 1. وتعتمد القيمة القصوى على عرض الصفحة وحجم الخط للنمط Normal . الحد الأدنى لمسافة الأحرف هو 90 بالمائة من حجم الخط. على سبيل المثال، الحد الأقصى لعدد الأحرف لكل سطر من صفحة الرسالة بهوامش مقاس بوصة واحدة هو 43.
 
 افتراضيًا، تحتوي الخاصية على قيمة، حيث تساوي درجة الأحرف حجم الخط للنمط Normal .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد عدد الأحرف التي قد يحتوي عليها كل سطر.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

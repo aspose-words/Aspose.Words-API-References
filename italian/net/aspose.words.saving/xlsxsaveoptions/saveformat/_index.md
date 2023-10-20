@@ -1,7 +1,9 @@
 ---
 title: XlsxSaveOptions.SaveFormat
-second_title: Aspose.Words per .NET API Reference
-description: XlsxSaveOptions proprietà. Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereXlsx .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words per .NET
+description: XlsxSaveOptions SaveFormat proprietà. Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereXlsx  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/xlsxsaveoptions/saveformat/
@@ -18,7 +20,5 @@ public override SaveFormat SaveFormat { get; set; }
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XlsxSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../xlsxsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

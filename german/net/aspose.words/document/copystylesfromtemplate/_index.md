@@ -1,12 +1,14 @@
 ---
 title: Document.CopyStylesFromTemplate
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Kopiert Stile aus der angegebenen Vorlage in ein Dokument.
+linktitle: CopyStylesFromTemplate
+articleTitle: CopyStylesFromTemplate
+second_title: Aspose.Words für .NET
+description: Document CopyStylesFromTemplate methode. Kopiert Stile aus der angegebenen Vorlage in ein Dokument in C#.
 type: docs
-weight: 590
+weight: 570
 url: /de/net/aspose.words/document/copystylesfromtemplate/
 ---
-## CopyStylesFromTemplate(string) {#copystylesfromtemplate_1}
+## CopyStylesFromTemplate(*string*) {#copystylesfromtemplate_1}
 
 Kopiert Stile aus der angegebenen Vorlage in ein Dokument.
 
@@ -14,11 +16,11 @@ Kopiert Stile aus der angegebenen Vorlage in ein Dokument.
 public void CopyStylesFromTemplate(string template)
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Stile von einer Vorlage in ein Dokument kopiert werden, werden gleichnamige Stile im Dokument neu definiert, damit sie mit den Stilbeschreibungen in der Vorlage übereinstimmen. Eindeutige Stile aus der Vorlage werden in das Dokument kopiert. Einzigartige Stile im Dokument bleiben erhalten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Stile von einem Dokument in ein anderes kopiert werden.
 
@@ -70,12 +72,12 @@ Assert.AreEqual(21, target.Styles.Count);
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## CopyStylesFromTemplate(Document) {#copystylesfromtemplate}
+## CopyStylesFromTemplate(*[Document](../)*) {#copystylesfromtemplate}
 
 Kopiert Stile aus der angegebenen Vorlage in ein Dokument.
 
@@ -83,11 +85,11 @@ Kopiert Stile aus der angegebenen Vorlage in ein Dokument.
 public void CopyStylesFromTemplate(Document template)
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Stile von einer Vorlage in ein Dokument kopiert werden, werden gleichnamige Stile im Dokument neu definiert, damit sie mit den Stilbeschreibungen in der Vorlage übereinstimmen. Eindeutige Stile aus der Vorlage werden in das Dokument kopiert. Einzigartige Stile im Dokument bleiben erhalten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Stile aus der Vorlage über Dokument in ein Dokument kopiert werden.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(21, target.Styles.Count);
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

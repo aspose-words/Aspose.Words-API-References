@@ -1,9 +1,11 @@
 ---
 title: Fill.Visible
-second_title: Aspose.Words for .NET API Referansı
-description: Fill mülk. Şu değeri alır veya ayarlardoğru bu örneğe uygulanan biçimlendirme görünüyorsa.
+linktitle: Visible
+articleTitle: Visible
+second_title: Aspose.Words for .NET
+description: Fill Visible mülk. Şu değeri alır veya ayarlardoğru bu örneğe uygulanan biçimlendirme görünüyorsa C#'da.
 type: docs
-weight: 210
+weight: 200
 url: /tr/net/aspose.words.drawing/fill/visible/
 ---
 ## Fill.Visible property
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/fill/visible/
 public bool Visible { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çeşitli şekiller oluşturmayı gösterir.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Ayrıca bakınız
 
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.BuildingBlocks
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.BuildingBlocks توفر مساحة الاسم فئات تسمح بالوصول إلى واستخدام النص التلقائي وإدخالات التصحيح التلقائي والكتل البرمجية الإنشائية في المستند.
+linktitle: Aspose.Words.BuildingBlocks
+articleTitle: Aspose.Words.BuildingBlocks
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.BuildingBlocks توفر مساحة الاسم فئات تسمح بالوصول إلى واستخدام النص التلقائي وإدخالات التصحيح التلقائي والكتل البرمجية الإنشائية في المستند في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.buildingblocks/
 ---
-ال **Aspose.Words.BuildingBlocks** توفر مساحة الاسم فئات تسمح بالوصول إلى واستخدام النص التلقائي وإدخالات التصحيح التلقائي والكتل البرمجية الإنشائية في المستند.
+ال**Aspose.Words.BuildingBlocks** توفر مساحة الاسم فئات تسمح بالوصول إلى واستخدام النص التلقائي وإدخالات التصحيح التلقائي والكتل البرمجية الإنشائية في المستند.
 
 ## الطبقات
 
@@ -22,5 +24,3 @@ url: /ar/net/aspose.words.buildingblocks/
 | [BuildingBlockBehavior](./buildingblockbehavior/) | يحدد السلوك الذي يجب تطبيقه على محتويات الكتلة البرمجية الإنشائية عند إدراجها في المستند الرئيسي. |
 | [BuildingBlockGallery](./buildingblockgallery/) | يحدد المعرض المحدد مسبقًا الذي تم تصنيف الكتلة البرمجية الإنشائية فيه. |
 | [BuildingBlockType](./buildingblocktype/) | يحدد نوع الكتلة البرمجية الإنشائية. قد يؤثر النوع على رؤية وسلوك الكتلة البرمجية الإنشائية في Microsoft Word. |
-
-

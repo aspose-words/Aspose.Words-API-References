@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: BorderCollection 财产. 获取集合中的边框数
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: BorderCollection Count 财产. 获取集合中的边框数 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/bordercollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/bordercollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 展示边框集合如何共享元素。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### 也可以看看
 
 * class [BorderCollection](../)
-* 命名空间 [Aspose.Words](../../bordercollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Node.NodeTypeToString
-second_title: Aspose.Words for .NET API Referansı
-description: Node yöntem. Düğüm türü numaralandırma değerini kullanıcı dostu bir dizeye dönüştüren bir yardımcı program yöntemi.
+linktitle: NodeTypeToString
+articleTitle: NodeTypeToString
+second_title: Aspose.Words for .NET
+description: Node NodeTypeToString yöntem. Düğüm türü numaralandırma değerini kullanıcı dostu bir dizeye dönüştüren bir yardımcı program yöntemi C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words/node/nodetypetostring/
@@ -14,7 +16,7 @@ Düğüm türü numaralandırma değerini kullanıcı dostu bir dizeye dönüşt
 public static string NodeTypeToString(NodeType nodeType)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir düğümün NextSibling özelliğinin, doğrudan alt öğeleri aracılığıyla numaralandırmak için nasıl kullanılacağını gösterir.
 
@@ -77,7 +79,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* ad alanı [Aspose.Words](../../node/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

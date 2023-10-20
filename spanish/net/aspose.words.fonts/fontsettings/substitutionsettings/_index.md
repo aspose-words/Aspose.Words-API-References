@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SubstitutionSettings
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSettings propiedad. Configuraciones relacionadas con el mecanismo de sustitución de fuentes.
+linktitle: SubstitutionSettings
+articleTitle: SubstitutionSettings
+second_title: Aspose.Words para .NET
+description: FontSettings SubstitutionSettings propiedad. Configuraciones relacionadas con el mecanismo de sustitución de fuentes en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fonts/fontsettings/substitutionsettings/
@@ -14,7 +16,7 @@ Configuraciones relacionadas con el mecanismo de sustitución de fuentes.
 public FontSubstitutionSettings SubstitutionSettings { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la fuente de fuentes del sistema de un documento y configurar fuentes sustitutas.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * class [FontSubstitutionSettings](../../fontsubstitutionsettings/)
 * class [FontSettings](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontsettings/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

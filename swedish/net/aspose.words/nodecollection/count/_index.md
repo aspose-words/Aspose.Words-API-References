@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: NodeCollection fast egendom. Hämtar antalet noder i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: NodeCollection Count fast egendom. Hämtar antalet noder i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/nodecollection/count/
@@ -14,7 +16,7 @@ Hämtar antalet noder i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man går igenom en sammansatt nods samling av undernoder.
 
@@ -132,7 +134,5 @@ private static int GetChildTableCount(Table table)
 ### Se även
 
 * class [NodeCollection](../)
-* namnutrymme [Aspose.Words](../../nodecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

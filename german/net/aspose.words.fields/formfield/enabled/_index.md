@@ -1,7 +1,9 @@
 ---
 title: FormField.Enabled
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. True wenn ein Formularfeld aktiviert ist.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words für .NET
+description: FormField Enabled eigendom. True wenn ein Formularfeld aktiviert ist in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/formfield/enabled/
@@ -14,11 +16,11 @@ True, wenn ein Formularfeld aktiviert ist.
 public bool Enabled { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn ein Formularfeld aktiviert ist, kann sein Inhalt beim Ausfüllen des Formulars geändert werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschiedene Arten von Formularfeldern in ein Dokument eingefügt und mithilfe einer Dokumentbesucherimplementierung verarbeitet werden.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

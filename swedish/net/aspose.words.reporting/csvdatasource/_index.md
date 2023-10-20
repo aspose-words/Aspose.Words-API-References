@@ -1,7 +1,9 @@
 ---
-title: Class CsvDataSource
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Reporting.CsvDataSource klass. Ger tillgång till data från en CSVfil eller ström som ska användas i en rapport.
+title: CsvDataSource Class
+linktitle: CsvDataSource
+articleTitle: CsvDataSource
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Reporting.CsvDataSource klass. Ger tillgång till data från en CSVfil eller ström som ska användas i en rapport i C#.
 type: docs
 weight: 4670
 url: /sv/net/aspose.words.reporting/csvdatasource/
@@ -20,12 +22,12 @@ public class CsvDataSource
 
 | namn | Beskrivning |
 | --- | --- |
-| [CsvDataSource](csvdatasource/#constructor)(Stream) | Skapar en ny datakälla med data från en CSV-ström med standardalternativ för att analysera CSV-data. |
-| [CsvDataSource](csvdatasource/#constructor_2)(string) | Skapar en ny datakälla med data från en CSV-fil med standardalternativ för att analysera CSV-data. |
-| [CsvDataSource](csvdatasource/#constructor_1)(Stream, CsvDataLoadOptions) | Skapar en ny datakälla med data från en CSV-ström med de angivna alternativen för att analysera CSV-data. |
-| [CsvDataSource](csvdatasource/#constructor_3)(string, CsvDataLoadOptions) | Skapar en ny datakälla med data från en CSV-fil med de angivna alternativen för att tolka CSV-data. |
+| [CsvDataSource](csvdatasource/#constructor)(*Stream*) | Skapar en ny datakälla med data från en CSV-ström med standardalternativ för att analysera CSV-data. |
+| [CsvDataSource](csvdatasource/#constructor_2)(*string*) | Skapar en ny datakälla med data från en CSV-fil med standardalternativ för att analysera CSV-data. |
+| [CsvDataSource](csvdatasource/#constructor_1)(*Stream, [CsvDataLoadOptions](../csvdataloadoptions/)*) | Skapar en ny datakälla med data från en CSV-ström med de angivna alternativen för att analysera CSV-data. |
+| [CsvDataSource](csvdatasource/#constructor_3)(*string, [CsvDataLoadOptions](../csvdataloadoptions/)*) | Skapar en ny datakälla med data från en CSV-fil med de angivna alternativen för att tolka CSV-data. |
 
-### Anmärkningar
+## Anmärkningar
 
 För att komma åt data för motsvarande fil eller ström medan du genererar en rapport, skicka en instans av den här klassen as en datakälla till en av[`ReportingEngine`](../reportingengine/) .BuildReport overloads.
 
@@ -47,5 +49,3 @@ För att åsidosätta standardbeteendet för CSV-dataladdning, initiera och skic
 
 * namnutrymme [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: TableSubstitutionRule.Save
-second_title: Aspose.Words لمراجع .NET API
-description: TableSubstitutionRule طريقة. يحفظ إعدادات استبدال الجدول الحالية في ملف.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words لـ .NET
+description: TableSubstitutionRule Save طريقة. يحفظ إعدادات استبدال الجدول الحالية في ملف في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 يحفظ إعدادات استبدال الجدول الحالية في ملف.
 
@@ -18,7 +20,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | ضع اسم الملف. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى جداول استبدال الخطوط لنظامي التشغيل Windows وLinux.
 
@@ -57,12 +59,12 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### أنظر أيضا
 
 * class [TableSubstitutionRule](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 يحفظ إعدادات استبدال الجدول الحالية للبث.
 
@@ -74,7 +76,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | تيار الإخراج. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى جداول استبدال الخطوط لنظامي التشغيل Windows وLinux.
 
@@ -113,7 +115,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### أنظر أيضا
 
 * class [TableSubstitutionRule](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

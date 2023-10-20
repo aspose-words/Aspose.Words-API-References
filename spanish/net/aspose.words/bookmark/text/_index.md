@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Text
-second_title: Referencia de API de Aspose.Words para .NET
-description: Bookmark propiedad. Obtiene o establece el texto incluido en el marcador.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words para .NET
+description: Bookmark Text propiedad. Obtiene o establece el texto incluido en el marcador en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words/bookmark/text/
@@ -14,7 +16,7 @@ Obtiene o establece el texto incluido en el marcador.
 public string Text { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar marcadores y actualizar su contenido.
 
@@ -103,7 +105,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Ver también
 
 * class [Bookmark](../)
-* espacio de nombres [Aspose.Words](../../bookmark/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

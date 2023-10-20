@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Hidden
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Bu eksenin gizli olup olmadığını belirten bir bayrağı alır veya ayarlar.
+linktitle: Hidden
+articleTitle: Hidden
+second_title: Aspose.Words for .NET
+description: ChartAxis Hidden mülk. Bu eksenin gizli olup olmadığını belirten bir bayrağı alır veya ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.drawing.charts/chartaxis/hidden/
@@ -14,11 +16,11 @@ Bu eksenin gizli olup olmadığını belirten bir bayrağı alır veya ayarlar.
 public bool Hidden { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ` .
 
-### Örnekler
+## Örnekler
 
 Grafik eksenlerinin nasıl gizleneceğini gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.HideChartAxis.docx");
 ### Ayrıca bakınız
 
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

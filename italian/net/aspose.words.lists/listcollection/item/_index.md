@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: ListCollection proprietà. Ottiene un elenco per indice.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: ListCollection Item proprietà. Ottiene un elenco per indice in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.lists/listcollection/item/
@@ -14,7 +16,7 @@ Ottiene un elenco per indice.
 public List this[int index] { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come verificare le proprietà del documento proprietario degli elenchi.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listcollection/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

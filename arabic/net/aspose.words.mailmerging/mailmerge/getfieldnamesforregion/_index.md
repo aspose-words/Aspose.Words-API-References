@@ -1,12 +1,14 @@
 ---
 title: MailMerge.GetFieldNamesForRegion
-second_title: Aspose.Words لمراجع .NET API
-description: MailMerge طريقة. إرجاع مجموعة من أسماء حقول دمج المراسلات المتوفرة في المنطقة.
+linktitle: GetFieldNamesForRegion
+articleTitle: GetFieldNamesForRegion
+second_title: Aspose.Words لـ .NET
+description: MailMerge GetFieldNamesForRegion طريقة. إرجاع مجموعة من أسماء حقول دمج المراسلات المتوفرة في المنطقة في C#.
 type: docs
 weight: 230
 url: /ar/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/
 ---
-## GetFieldNamesForRegion(string) {#getfieldnamesforregion}
+## GetFieldNamesForRegion(*string*) {#getfieldnamesforregion}
 
 إرجاع مجموعة من أسماء حقول دمج المراسلات المتوفرة في المنطقة.
 
@@ -18,7 +20,7 @@ public string[] GetFieldNamesForRegion(string regionName)
 | --- | --- | --- |
 | regionName | String | اسم المنطقة (حساس لحالة الأحرف). |
 
-### ملاحظات
+## ملاحظات
 
 إرجاع أسماء حقول الدمج الكاملة بما في ذلك البادئة الاختيارية. لا يزيل أسماء الحقول المكررة.
 
@@ -26,7 +28,7 @@ public string[] GetFieldNamesForRegion(string regionName)
 
 يتم إنشاء مصفوفة سلسلة جديدة في كل مكالمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مناطق دمج البريد وإدراجها وقراءتها.
 
@@ -81,12 +83,12 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### أنظر أيضا
 
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## GetFieldNamesForRegion(string, int) {#getfieldnamesforregion_1}
+## GetFieldNamesForRegion(*string, int*) {#getfieldnamesforregion_1}
 
 إرجاع مجموعة من أسماء حقول دمج المراسلات المتوفرة في المنطقة.
 
@@ -99,7 +101,7 @@ public string[] GetFieldNamesForRegion(string regionName, int regionIndex)
 | regionName | String | اسم المنطقة (حساس لحالة الأحرف). |
 | regionIndex | Int32 | مؤشر المنطقة (صفر). |
 
-### ملاحظات
+## ملاحظات
 
 إرجاع أسماء حقول الدمج الكاملة بما في ذلك البادئة الاختيارية. لا يزيل أسماء الحقول المكررة.
 
@@ -107,7 +109,7 @@ public string[] GetFieldNamesForRegion(string regionName, int regionIndex)
 
 يتم إنشاء مصفوفة سلسلة جديدة في كل مكالمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مناطق دمج البريد وإدراجها وقراءتها.
 
@@ -162,7 +164,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### أنظر أيضا
 
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

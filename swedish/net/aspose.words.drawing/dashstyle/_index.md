@@ -1,7 +1,9 @@
 ---
-title: Enum DashStyle
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.DashStyle uppräkning. Streckad linjestil.
+title: DashStyle Enum
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.DashStyle uppräkning. Streckad linjestil i C#.
 type: docs
 weight: 930
 url: /sv/net/aspose.words.drawing/dashstyle/
@@ -31,7 +33,7 @@ public enum DashStyle
 | LongDashDotDot | `10` | Långt streck kort streck kort streck. |
 | Default | `0` | Samma somSolid . |
 
-### Exempel
+## Exempel
 
 Visar för att skapa en mängd olika former.
 
@@ -108,5 +110,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [DashStyle](../stroke/dashstyle/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

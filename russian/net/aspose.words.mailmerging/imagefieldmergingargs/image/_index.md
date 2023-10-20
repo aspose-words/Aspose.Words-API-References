@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.Image
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageFieldMergingArgs свойство. Указывает изображение которое механизм слияния почты должен вставить в документ.
+linktitle: Image
+articleTitle: Image
+second_title: Aspose.Words для .NET
+description: ImageFieldMergingArgs Image свойство. Указывает изображение которое механизм слияния почты должен вставить в документ на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/image/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/image/
 public Image Image { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для настройки логики слияния изображений.
 
@@ -88,7 +90,5 @@ private class ImageFilenameCallback : IFieldMergingCallback
 ### Смотрите также
 
 * class [ImageFieldMergingArgs](../)
-* пространство имен [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

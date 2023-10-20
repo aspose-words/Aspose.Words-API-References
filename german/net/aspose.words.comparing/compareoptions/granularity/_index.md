@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.Granularity
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompareOptions eigendom. Gibt an ob Änderungen nach Zeichen oder Wort verfolgt werden. Der Standardwert istWordLevel .
+linktitle: Granularity
+articleTitle: Granularity
+second_title: Aspose.Words für .NET
+description: CompareOptions Granularity eigendom. Gibt an ob Änderungen nach Zeichen oder Wort verfolgt werden. Der Standardwert istWordLevel  in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.comparing/compareoptions/granularity/
@@ -14,7 +16,7 @@ Gibt an, ob Änderungen nach Zeichen oder Wort verfolgt werden. Der Standardwert
 public Granularity Granularity { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Wird angezeigt, um beim Vergleichen von Dokumenten eine Granularität anzugeben.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(5, groups.Count);
 
 * enum [Granularity](../../granularity/)
 * class [CompareOptions](../)
-* namensraum [Aspose.Words.Comparing](../../compareoptions/)
+* namensraum [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * Montage [Aspose.Words](../../../)
-
-

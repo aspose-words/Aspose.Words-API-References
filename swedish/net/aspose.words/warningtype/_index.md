@@ -1,7 +1,9 @@
 ---
-title: Enum WarningType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.WarningType uppräkning. Anger typen av varning som utfärdas av Aspose.Words under dokumentladdning eller sparande.
+title: WarningType Enum
+linktitle: WarningType
+articleTitle: WarningType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.WarningType uppräkning. Anger typen av varning som utfärdas av Aspose.Words under dokumentladdning eller sparande i C#.
 type: docs
 weight: 6660
 url: /sv/net/aspose.words/warningtype/
@@ -31,7 +33,7 @@ public enum WarningType
 | UnexpectedContent | `1000000` | Generiskt oväntat innehåll, ingen specifik kod. |
 | Hint | `10000000` | ger råd om ett potentiellt problem eller föreslår en förbättring. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
 
@@ -92,5 +94,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

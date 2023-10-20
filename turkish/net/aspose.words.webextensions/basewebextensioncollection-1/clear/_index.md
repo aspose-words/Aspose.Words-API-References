@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: BaseWebExtensionCollection yöntem. Koleksiyondaki tüm öğeleri kaldırır.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: BaseWebExtensionCollection Clear yöntem. Koleksiyondaki tüm öğeleri kaldırır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.webextensions/basewebextensioncollection-1/clear/
@@ -14,7 +16,7 @@ Koleksiyondaki tüm öğeleri kaldırır.
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ayrıca bakınız
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* ad alanı [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

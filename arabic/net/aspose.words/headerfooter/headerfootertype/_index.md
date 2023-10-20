@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.HeaderFooterType
-second_title: Aspose.Words لمراجع .NET API
-description: HeaderFooter ملكية. يحصل على نوع هذا الرأس/التذييل.
+linktitle: HeaderFooterType
+articleTitle: HeaderFooterType
+second_title: Aspose.Words لـ .NET
+description: HeaderFooter HeaderFooterType ملكية. يحصل على نوع هذا الرأس/التذييل في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/headerfooter/headerfootertype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/headerfooter/headerfootertype/
 public HeaderFooterType HeaderFooterType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء رأس وتذييل.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooter](../)
-* مساحة الاسم [Aspose.Words](../../headerfooter/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.Color
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IStructuredDocumentTag propriété. Obtient ou définit la couleur de la balise du document structuré.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words pour .NET
+description: IStructuredDocumentTag Color propriété. Obtient ou définit la couleur de la balise du document structuré en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.markup/istructureddocumenttag/color/
@@ -17,7 +19,5 @@ public Color Color { get; set; }
 ### Voir également
 
 * interface [IStructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../istructureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

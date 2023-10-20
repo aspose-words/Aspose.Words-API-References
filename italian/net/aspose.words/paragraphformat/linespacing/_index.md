@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineSpacing
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Ottiene o imposta linterlinea in punti per il paragrafo.
+linktitle: LineSpacing
+articleTitle: LineSpacing
+second_title: Aspose.Words per .NET
+description: ParagraphFormat LineSpacing proprietà. Ottiene o imposta linterlinea in punti per il paragrafo in C#.
 type: docs
 weight: 190
 url: /it/net/aspose.words/paragraphformat/linespacing/
@@ -14,13 +16,13 @@ Ottiene o imposta l'interlinea (in punti) per il paragrafo.
 public double LineSpacing { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando[`LineSpacingRule`](../linespacingrule/) la proprietà è impostata suAtLeast , l'interlinea può essere maggiore o uguale a, ma mai inferiore a quella specificata`LineSpacing` valore.
 
 Quando[`LineSpacingRule`](../linespacingrule/) la proprietà è impostata suExactly , l'interlinea non cambia mai da a quella specificata`LineSpacing` valore, anche se all'interno del paragrafo viene utilizzato un carattere più grande.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con l'interlinea.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LineSpacing.docx");
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

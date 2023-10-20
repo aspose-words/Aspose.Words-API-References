@@ -1,7 +1,9 @@
 ---
-title: Enum WatermarkType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.WatermarkType énumération. Spécifie le type de filigrane.
+title: WatermarkType Enum
+linktitle: WatermarkType
+articleTitle: WatermarkType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.WatermarkType énumération. Spécifie le type de filigrane en C#.
 type: docs
 weight: 6690
 url: /fr/net/aspose.words/watermarktype/
@@ -22,7 +24,7 @@ public enum WatermarkType
 | Image | `1` | Indique que l'image sera utilisée comme filigrane. |
 | None | `2` | Indique que le filigrane n'est pas défini. |
 
-### Exemples
+## Exemples
 
 Montre comment créer un filigrane de texte.
 
@@ -54,5 +56,3 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: OdsoFieldMapData свойство. Указывает сопоставлено ли данное поле слияния почты со столбцом в данном внешнем источнике данных или нет. Значение по умолчаниюDefault .
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: OdsoFieldMapData Type свойство. Указывает сопоставлено ли данное поле слияния почты со столбцом в данном внешнем источнике данных или нет. Значение по умолчаниюDefault  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.settings/odsofieldmapdata/type/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odsofieldmapdata/type/
 public OdsoFieldMappingType Type { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, которая сопоставляет столбцы источника данных с полями слияния.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * enum [OdsoFieldMappingType](../../odsofieldmappingtype/)
 * class [OdsoFieldMapData](../)
-* пространство имен [Aspose.Words.Settings](../../odsofieldmapdata/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

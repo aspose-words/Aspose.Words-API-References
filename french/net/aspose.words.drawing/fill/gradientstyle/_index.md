@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientStyle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill propriété. Obtient le style de dégradéGradientStyle pour le remplissage.
+linktitle: GradientStyle
+articleTitle: GradientStyle
+second_title: Aspose.Words pour .NET
+description: Fill GradientStyle propriété. Obtient le style de dégradéGradientStyle pour le remplissage en C#.
 type: docs
-weight: 120
+weight: 110
 url: /fr/net/aspose.words.drawing/fill/gradientstyle/
 ---
 ## Fill.GradientStyle property
@@ -14,7 +16,7 @@ Obtient le style de dégradé[`GradientStyle`](../../gradientstyle/) pour le rem
 public GradientStyle GradientStyle { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment remplir une forme avec des dégradés.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * enum [GradientStyle](../../gradientstyle/)
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

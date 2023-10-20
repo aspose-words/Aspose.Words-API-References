@@ -1,7 +1,9 @@
 ---
-title: FieldHyperlink.FieldHyperlink
-second_title: Aspose.Words لمراجع .NET API
-description: FieldHyperlink البناء. Default_Constructor
+title: FieldHyperlink
+linktitle: FieldHyperlink
+articleTitle: FieldHyperlink
+second_title: Aspose.Words لـ .NET
+description: FieldHyperlink البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldhyperlink/fieldhyperlink/
@@ -17,7 +19,5 @@ public FieldHyperlink()
 ### أنظر أيضا
 
 * class [FieldHyperlink](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldhyperlink/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

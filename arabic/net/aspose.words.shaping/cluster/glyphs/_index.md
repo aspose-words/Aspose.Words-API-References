@@ -1,7 +1,9 @@
 ---
 title: Cluster.Glyphs
-second_title: Aspose.Words لمراجع .NET API
-description: Cluster ملكية. يحصل على الحروف الرسومية للمجموعة.
+linktitle: Glyphs
+articleTitle: Glyphs
+second_title: Aspose.Words لـ .NET
+description: Cluster Glyphs ملكية. يحصل على الحروف الرسومية للمجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.shaping/cluster/glyphs/
@@ -18,7 +20,5 @@ public Glyph[] Glyphs { get; }
 
 * class [Glyph](../../glyph/)
 * class [Cluster](../)
-* مساحة الاسم [Aspose.Words.Shaping](../../cluster/)
+* مساحة الاسم [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * المجسم [Aspose.Words](../../../)
-
-

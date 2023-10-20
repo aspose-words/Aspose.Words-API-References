@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Remove
-second_title: Referencia de API de Aspose.Words para .NET
-description: Bookmark método. Elimina el marcador del documento. No elimina el texto dentro del marcador.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words para .NET
+description: Bookmark Remove método. Elimina el marcador del documento. No elimina el texto dentro del marcador en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words/bookmark/remove/
@@ -14,7 +16,7 @@ Elimina el marcador del documento. No elimina el texto dentro del marcador.
 public void Remove()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar marcadores de un documento.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Ver también
 
 * class [Bookmark](../)
-* espacio de nombres [Aspose.Words](../../bookmark/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

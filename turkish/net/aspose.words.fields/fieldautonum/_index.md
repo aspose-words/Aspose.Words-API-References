@@ -1,7 +1,9 @@
 ---
-title: Class FieldAutoNum
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldAutoNum sınıf. AUTONUM alanını uygular.
+title: FieldAutoNum Class
+linktitle: FieldAutoNum
+articleTitle: FieldAutoNum
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldAutoNum sınıf. AUTONUM alanını uygular C#'da.
 type: docs
 weight: 1580
 url: /tr/net/aspose.words.fields/fieldautonum/
@@ -43,17 +45,17 @@ public class FieldAutoNum : Field
 | İsim | Tanım |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
-### Notlar
+## Notlar
 
 Otomatik bir numara ekler.
 
-### Örnekler
+## Örnekler
 
 Autonum alanlarını kullanarak paragrafların nasıl numaralandırılacağını gösterir.
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Field.AUTONUM.docx");
 * class [Field](../field/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

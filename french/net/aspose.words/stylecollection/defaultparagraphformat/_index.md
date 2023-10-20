@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.DefaultParagraphFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StyleCollection propriété. Obtient le formatage de paragraphe par défaut du document.
+linktitle: DefaultParagraphFormat
+articleTitle: DefaultParagraphFormat
+second_title: Aspose.Words pour .NET
+description: StyleCollection DefaultParagraphFormat propriété. Obtient le formatage de paragraphe par défaut du document en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/stylecollection/defaultparagraphformat/
@@ -14,11 +16,11 @@ Obtient le formatage de paragraphe par défaut du document.
 public ParagraphFormat DefaultParagraphFormat { get; }
 ```
 
-### Remarques
+## Remarques
 
 Notez que les valeurs par défaut à l'échelle du document ont été introduites dans Microsoft Word 2007 et sont entièrement prises en charge dans les formats OOXML (Docx) uniquement. Les formats de document antérieurs ne prennent pas en charge le formatage de paragraphe par défaut du document.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter un style à la collection de styles d’un document.
 
@@ -42,7 +44,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [StyleCollection](../)
-* espace de noms [Aspose.Words](../../stylecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

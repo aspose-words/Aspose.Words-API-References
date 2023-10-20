@@ -1,7 +1,9 @@
 ---
 title: XamlFixedSaveOptions.ResourcesFolder
-second_title: Aspose.Words för .NET API Referens
-description: XamlFixedSaveOptions fast egendom. Anger den fysiska mappen där resurser bilder och typsnitt sparas vid export av ett dokument till fast sid Xamlformat. Standard ärnull .
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: Aspose.Words för .NET
+description: XamlFixedSaveOptions ResourcesFolder fast egendom. Anger den fysiska mappen där resurser bilder och typsnitt sparas vid export av ett dokument till fast sid Xamlformat. Standard ärnull  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ Anger den fysiska mappen där resurser (bilder och typsnitt) sparas vid export a
 public string ResourcesFolder { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När du sparar en[`Document`](../../../aspose.words/document/) i Xaml-format med fast sida måste Aspose.Words spara all bilder som är inbäddade i dokumentet som fristående filer.`ResourcesFolder` låter dig ange var bilderna ska sparas och[`ResourcesFolderAlias`](../resourcesfolderalias/) tillåter att specificera hur bildens URI:er kommer att konstrueras.
 
@@ -22,7 +24,7 @@ Om du sparar ett dokument i en fil och anger ett filnamn, sparar Aspose.Words, s
 
 Om du sparar ett dokument i en ström, har Aspose.Words ingen mapp där du kan spara bilderna, men behöver fortfarande spara bilderna någonstans. I det här fallet måste du ange en tillgänglig mapp genom att använda`ResourcesFolder` fast egendom
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut URI:erna för länkade resurser som skapats när ett dokument konverteras till .xaml i fast form.
 
@@ -85,7 +87,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Se även
 
 * class [XamlFixedSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

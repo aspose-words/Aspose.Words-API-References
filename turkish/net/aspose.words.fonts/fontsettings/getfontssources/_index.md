@@ -1,7 +1,9 @@
 ---
 title: FontSettings.GetFontsSources
-second_title: Aspose.Words for .NET API Referansı
-description: FontSettings yöntem. Aspose.Wordsün TrueType yazı tiplerini aradığı kaynakların listesini içeren dizinin bir kopyasını alır.
+linktitle: GetFontsSources
+articleTitle: GetFontsSources
+second_title: Aspose.Words for .NET
+description: FontSettings GetFontsSources yöntem. Aspose.Wordsün TrueType yazı tiplerini aradığı kaynakların listesini içeren dizinin bir kopyasını alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fonts/fontsettings/getfontssources/
@@ -18,11 +20,11 @@ public FontSourceBase[] GetFontsSources()
 
 Geçerli yazı tipi kaynaklarının bir kopyası.
 
-### Notlar
+## Notlar
 
 Döndürülen değer Aspose.Words'ün kullandığı verilerin bir kopyasıdır. Döndürülen dizideki entry değerini değiştirirseniz, bunun belge oluşturma üzerinde hiçbir etkisi olmayacaktır. Yeni yazı tipi kaynakları belirtmek için şunu kullanın:[`SetFontsSources`](../setfontssources/) yöntem.
 
-### Örnekler
+## Örnekler
 
 Mevcut yazı tipi kaynaklarımıza nasıl yazı tipi kaynağı ekleneceğini gösterir.
 
@@ -72,7 +74,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * class [FontSourceBase](../../fontsourcebase/)
 * class [FontSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

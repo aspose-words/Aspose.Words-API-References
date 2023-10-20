@@ -1,7 +1,9 @@
 ---
-title: Class PhysicalFontInfo
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.PhysicalFontInfo clase. Especifica información sobre la fuente física disponible para el motor de fuentes Aspose.Words.
+title: PhysicalFontInfo Class
+linktitle: PhysicalFontInfo
+articleTitle: PhysicalFontInfo
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fonts.PhysicalFontInfo clase. Especifica información sobre la fuente física disponible para el motor de fuentes Aspose.Words en C#.
 type: docs
 weight: 3030
 url: /es/net/aspose.words.fonts/physicalfontinfo/
@@ -25,7 +27,7 @@ public class PhysicalFontInfo
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Nombre completo de la fuente. |
 | [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Cadena de versión de la fuente. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo enumerar las fuentes disponibles.
 
@@ -46,5 +48,3 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 
 * espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.LockContentControl
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart propriété. Lorsquil est défini survrai  cette propriété interdira à un utilisateur de supprimer cette balise de document structuré.
+linktitle: LockContentControl
+articleTitle: LockContentControl
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTagRangeStart LockContentControl propriété. Lorsquil est défini survrai  cette propriété interdira à un utilisateur de supprimer cette balise de document structuré en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/lockcontentcontrol/
@@ -14,7 +16,7 @@ Lorsqu'il est défini sur`vrai` , cette propriété interdira à un utilisateur 
 public bool LockContentControl { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment obtenir les propriétés des balises de documents structurés à plusieurs sections.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Voir également
 
 * class [StructuredDocumentTagRangeStart](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ComparisonEvaluationResult.Result
-second_title: Справочник по API Aspose.Words для .NET
-description: ComparisonEvaluationResult свойство. Получает результат сравнения.
+linktitle: Result
+articleTitle: Result
+second_title: Aspose.Words для .NET
+description: ComparisonEvaluationResult Result свойство. Получает результат сравнения на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/comparisonevaluationresult/result/
@@ -17,7 +19,5 @@ public bool Result { get; }
 ### Смотрите также
 
 * class [ComparisonEvaluationResult](../)
-* пространство имен [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

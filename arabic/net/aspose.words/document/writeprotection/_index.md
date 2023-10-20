@@ -1,7 +1,9 @@
 ---
 title: Document.WriteProtection
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. يوفر الوصول إلى خيارات الحماية ضد الكتابة في المستند.
+linktitle: WriteProtection
+articleTitle: WriteProtection
+second_title: Aspose.Words لـ .NET
+description: Document WriteProtection ملكية. يوفر الوصول إلى خيارات الحماية ضد الكتابة في المستند في C#.
 type: docs
 weight: 500
 url: /ar/net/aspose.words/document/writeprotection/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/writeprotection/
 public WriteProtection WriteProtection { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حماية مستند بكلمة مرور.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 
 * class [WriteProtection](../../../aspose.words.settings/writeprotection/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

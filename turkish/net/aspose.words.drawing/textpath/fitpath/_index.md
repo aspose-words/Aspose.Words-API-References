@@ -1,7 +1,9 @@
 ---
 title: TextPath.FitPath
-second_title: Aspose.Words for .NET API Referansı
-description: TextPath mülk. Metnin bir şeklin yoluna uyup uymayacağını tanımlar.
+linktitle: FitPath
+articleTitle: FitPath
+second_title: Aspose.Words for .NET
+description: TextPath FitPath mülk. Metnin bir şeklin yoluna uyup uymayacağını tanımlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing/textpath/fitpath/
@@ -14,11 +16,11 @@ Metnin bir şeklin yoluna uyup uymayacağını tanımlar.
 public bool FitPath { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 WordArt'la nasıl çalışılacağını gösterir.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ayrıca bakınız
 
 * class [TextPath](../)
-* ad alanı [Aspose.Words.Drawing](../../textpath/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

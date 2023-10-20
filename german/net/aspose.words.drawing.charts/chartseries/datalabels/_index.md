@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.DataLabels
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartSeries eigendom. Gibt die Einstellungen für die Datenbeschriftungen für die gesamte Serie an.
+linktitle: DataLabels
+articleTitle: DataLabels
+second_title: Aspose.Words für .NET
+description: ChartSeries DataLabels eigendom. Gibt die Einstellungen für die Datenbeschriftungen für die gesamte Serie an in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.charts/chartseries/datalabels/
@@ -14,7 +16,7 @@ Gibt die Einstellungen für die Datenbeschriftungen für die gesamte Serie an.
 public ChartDataLabelCollection DataLabels { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataLabelCollection](../../chartdatalabelcollection/)
 * class [ChartSeries](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

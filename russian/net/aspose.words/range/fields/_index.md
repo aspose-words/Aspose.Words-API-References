@@ -1,7 +1,9 @@
 ---
 title: Range.Fields
-second_title: Справочник по API Aspose.Words для .NET
-description: Range свойство. ВозвращаетFields коллекция представляющая все поля в диапазоне.
+linktitle: Fields
+articleTitle: Fields
+second_title: Aspose.Words для .NET
+description: Range Fields свойство. ВозвращаетFields коллекция представляющая все поля в диапазоне на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/range/fields/
@@ -18,7 +20,5 @@ public FieldCollection Fields { get; }
 
 * class [FieldCollection](../../../aspose.words.fields/fieldcollection/)
 * class [Range](../)
-* пространство имен [Aspose.Words](../../range/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

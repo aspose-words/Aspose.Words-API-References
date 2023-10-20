@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdatingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или устанавливаетIFieldUpdatingCallback реализация
+linktitle: FieldUpdatingCallback
+articleTitle: FieldUpdatingCallback
+second_title: Aspose.Words для .NET
+description: FieldOptions FieldUpdatingCallback свойство. Получает или устанавливаетIFieldUpdatingCallback реализация на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.fields/fieldoptions/fieldupdatingcallback/
@@ -18,7 +20,5 @@ public IFieldUpdatingCallback FieldUpdatingCallback { get; set; }
 
 * interface [IFieldUpdatingCallback](../../ifieldupdatingcallback/)
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

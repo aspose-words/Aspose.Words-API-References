@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.WarningCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Hyphenation ملكية. يتم استدعاؤه أثناء تحميل أنماط الواصلة عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة التنسيق.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words لـ .NET
+description: Hyphenation WarningCallback ملكية. يتم استدعاؤه أثناء تحميل أنماط الواصلة عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة التنسيق في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/hyphenation/warningcallback/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/hyphenation/warningcallback/
 public static IWarningCallback WarningCallback { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية فتح وتسجيل قاموس من ملف.
 
@@ -91,7 +93,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * interface [IWarningCallback](../../iwarningcallback/)
 * class [Hyphenation](../)
-* مساحة الاسم [Aspose.Words](../../hyphenation/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

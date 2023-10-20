@@ -1,7 +1,9 @@
 ---
-title: Enum DropCapPosition
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.DropCapPosition Sıralama. Gömme metninin konumunu belirtir.
+title: DropCapPosition Enum
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: Aspose.Words for .NET
+description: Aspose.Words.DropCapPosition Sıralama. Gömme metninin konumunu belirtir C#'da.
 type: docs
 weight: 1410
 url: /tr/net/aspose.words/dropcapposition/
@@ -22,7 +24,7 @@ public enum DropCapPosition
 | Normal | `1` | Gömme, bağlantı paragrafındaki metin kenar boşluğunun içine yerleştirilir. |
 | Margin | `2` | Gömme, bağlantı paragrafındaki metin kenar boşluğunun dışına yerleştirilir. |
 
-### Örnekler
+## Örnekler
 
 Gömme işleminin nasıl oluşturulacağını gösterir.
 
@@ -57,5 +59,3 @@ doc.Save(ArtifactsDir + "ParagraphFormat.DropCap.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

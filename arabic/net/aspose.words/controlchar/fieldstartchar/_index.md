@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldStartChar
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. بداية حرف حقل MS Word char19.
+linktitle: FieldStartChar
+articleTitle: FieldStartChar
+second_title: Aspose.Words لـ .NET
+description: ControlChar FieldStartChar مجال. بداية حرف حقل MS Word char19 في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/controlchar/fieldstartchar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/controlchar/fieldstartchar/
 public const char FieldStartChar;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة أحرف تحكم مختلفة إلى مستند.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

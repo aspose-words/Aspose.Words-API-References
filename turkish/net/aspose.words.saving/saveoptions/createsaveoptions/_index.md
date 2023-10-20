@@ -1,12 +1,14 @@
 ---
 title: SaveOptions.CreateSaveOptions
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions yöntem. Belirtilen kaydetme biçimine uygun bir sınıfın kaydetme seçenekleri nesnesini oluşturur.
+linktitle: CreateSaveOptions
+articleTitle: CreateSaveOptions
+second_title: Aspose.Words for .NET
+description: SaveOptions CreateSaveOptions yöntem. Belirtilen kaydetme biçimine uygun bir sınıfın kaydetme seçenekleri nesnesini oluşturur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/saveoptions/createsaveoptions/
 ---
-## CreateSaveOptions(SaveFormat) {#createsaveoptions}
+## CreateSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#createsaveoptions}
 
 Belirtilen kaydetme biçimine uygun bir sınıfın kaydetme seçenekleri nesnesini oluşturur.
 
@@ -22,7 +24,7 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 
 Türetilen bir sınıfın nesnesi[`SaveOptions`](../).
 
-### Örnekler
+## Örnekler
 
 Büyük belgeleri PDF'ye dönüştürürken bellek tüketimini optimize etme seçeneğini gösterir.
 
@@ -45,12 +47,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## CreateSaveOptions(string) {#createsaveoptions_1}
+## CreateSaveOptions(*string*) {#createsaveoptions_1}
 
 Verilen dosya adında belirtilen dosya uzantısına uygun bir sınıfın kaydetme seçenekleri nesnesini oluşturur.
 
@@ -66,7 +68,7 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 Türetilen bir sınıfın nesnesi[`SaveOptions`](../).
 
-### Örnekler
+## Örnekler
 
 Ekli şablonları olmayan belgeler için varsayılan şablonun nasıl ayarlanacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Ayrıca bakınız
 
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

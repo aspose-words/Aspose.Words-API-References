@@ -1,7 +1,9 @@
 ---
 title: Field.End
-second_title: Aspose.Words لمراجع .NET API
-description: Field ملكية. يحصل على العقدة التي تمثل نهاية الحقل.
+linktitle: End
+articleTitle: End
+second_title: Aspose.Words لـ .NET
+description: Field End ملكية. يحصل على العقدة التي تمثل نهاية الحقل في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/field/end/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/field/end/
 public FieldEnd End { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة من الحقول.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldEnd](../../fieldend/)
 * class [Field](../)
-* مساحة الاسم [Aspose.Words.Fields](../../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

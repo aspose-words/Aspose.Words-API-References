@@ -1,7 +1,9 @@
 ---
-title: Class VbaReferenceCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Vba.VbaReferenceCollection сорт. Представляет коллекциюVbaReference объекты.
+title: VbaReferenceCollection Class
+linktitle: VbaReferenceCollection
+articleTitle: VbaReferenceCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Vba.VbaReferenceCollection сорт. Представляет коллекциюVbaReference объекты на С#.
 type: docs
 weight: 6600
 url: /ru/net/aspose.words.vba/vbareferencecollection/
@@ -27,10 +29,10 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 
 | Имя | Описание |
 | --- | --- |
-| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | Удаляет первое вхождение указанного[`VbaReference`](../vbareference/) предмет из коллекции. |
-| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | Удаляет[`VbaReference`](../vbareference/) элемент по указанному индексу коллекции. |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(*[VbaReference](../vbareference/)*) | Удаляет первое вхождение указанного[`VbaReference`](../vbareference/) предмет из коллекции. |
+| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(*int*) | Удаляет[`VbaReference`](../vbareference/) элемент по указанному индексу коллекции. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить или удалить элемент из коллекции ссылок VBA.
 
@@ -106,5 +108,3 @@ private static string GetLibIdProjectPath(string libIdProject)
 * class [VbaReference](../vbareference/)
 * пространство имен [Aspose.Words.Vba](../../aspose.words.vba/)
 * сборка [Aspose.Words](../../)
-
-

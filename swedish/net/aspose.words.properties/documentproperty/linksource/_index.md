@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.LinkSource
-second_title: Aspose.Words för .NET API Referens
-description: DocumentProperty fast egendom. Hämtar källan till en länkad anpassad dokumentegenskap.
+linktitle: LinkSource
+articleTitle: LinkSource
+second_title: Aspose.Words för .NET
+description: DocumentProperty LinkSource fast egendom. Hämtar källan till en länkad anpassad dokumentegenskap i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.properties/documentproperty/linksource/
@@ -14,7 +16,7 @@ Hämtar källan till en länkad anpassad dokumentegenskap.
 public string LinkSource { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man länkar en anpassad dokumentegenskap till ett bokmärke.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 ### Se även
 
 * class [DocumentProperty](../)
-* namnutrymme [Aspose.Words.Properties](../../documentproperty/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

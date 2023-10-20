@@ -1,7 +1,9 @@
 ---
 title: FieldPageRef.InsertHyperlink
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldPageRef свойство. Получает или задает необходимость вставки гиперссылки на абзац отмеченный закладкой.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words для .NET
+description: FieldPageRef InsertHyperlink свойство. Получает или задает необходимость вставки гиперссылки на абзац отмеченный закладкой на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldpageref/inserthyperlink/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldpageref/inserthyperlink/
 public bool InsertHyperlink { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поля PAGEREF для отображения относительного расположения закладок.
 
@@ -84,7 +86,5 @@ private static void InsertAndNameBookmark(DocumentBuilder builder, string bookma
 ### Смотрите также
 
 * class [FieldPageRef](../)
-* пространство имен [Aspose.Words.Fields](../../fieldpageref/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

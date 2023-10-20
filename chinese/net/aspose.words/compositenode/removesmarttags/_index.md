@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.RemoveSmartTags
-second_title: Aspose.Words for .NET API 参考
-description: CompositeNode 方法. 删除所有SmartTag当前节点的后代节点.
+linktitle: RemoveSmartTags
+articleTitle: RemoveSmartTags
+second_title: 用于 .NET 的 Aspose.Words
+description: CompositeNode RemoveSmartTags 方法. 删除所有SmartTag当前节点的后代节点 在 C#.
 type: docs
-weight: 200
+weight: 180
 url: /zh/net/aspose.words/compositenode/removesmarttags/
 ---
 ## CompositeNode.RemoveSmartTags method
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/compositenode/removesmarttags/
 public void RemoveSmartTags()
 ```
 
-### 评论
+## 评论
 
 此方法不会删除智能标签的内容。
 
-### 例子
+## 例子
 
 从复合节点的后代节点中删除所有智能标记。
 
@@ -131,7 +133,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### 也可以看看
 
 * class [CompositeNode](../)
-* 命名空间 [Aspose.Words](../../compositenode/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

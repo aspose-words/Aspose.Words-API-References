@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.SetPassword
-second_title: Aspose.Words för .NET API Referens
-description: WriteProtection metod. Ställer in skrivskyddslösenordet för dokumentet.
+linktitle: SetPassword
+articleTitle: SetPassword
+second_title: Aspose.Words för .NET
+description: WriteProtection SetPassword metod. Ställer in skrivskyddslösenordet för dokumentet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.settings/writeprotection/setpassword/
@@ -18,11 +20,11 @@ public void SetPassword(string password)
 | --- | --- | --- |
 | password | String | Lösenordet att ställa in. Kan inte vara`null`, men kan vara en tom sträng. |
 
-### Anmärkningar
+## Anmärkningar
 
 Om ett lösenord är inställt kommer Microsoft Word att kräva att användaren anger det eller öppnar dokumentet som skrivskyddat.
 
-### Exempel
+## Exempel
 
 Visar hur man skyddar ett dokument med ett lösenord.
 
@@ -54,7 +56,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### Se även
 
 * class [WriteProtection](../)
-* namnutrymme [Aspose.Words.Settings](../../writeprotection/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

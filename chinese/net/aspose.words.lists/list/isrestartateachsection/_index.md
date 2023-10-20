@@ -1,7 +1,9 @@
 ---
 title: List.IsRestartAtEachSection
-second_title: Aspose.Words for .NET API 参考
-description: List 财产. 指定是否应在每个部分重新启动列表 默认值为错误的.
+linktitle: IsRestartAtEachSection
+articleTitle: IsRestartAtEachSection
+second_title: 用于 .NET 的 Aspose.Words
+description: List IsRestartAtEachSection 财产. 指定是否应在每个部分重新启动列表 默认值为错误的 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.lists/list/isrestartateachsection/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.lists/list/isrestartateachsection/
 public bool IsRestartAtEachSection { get; set; }
 ```
 
-### 评论
+## 评论
 
 仅 RTF、DOC 和 DOCX 文档格式支持此选项。
 
 仅当以下情况时，此选项才会写入 DOCX：[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)则更高Ecma376_2006。
 
-### 例子
+## 例子
 
 展示如何配置列表以在每个部分重新开始编号。
 
@@ -58,7 +60,5 @@ Assert.AreEqual(restartListAtEachSection, doc.Lists[0].IsRestartAtEachSection);
 ### 也可以看看
 
 * class [List](../)
-* 命名空间 [Aspose.Words.Lists](../../list/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

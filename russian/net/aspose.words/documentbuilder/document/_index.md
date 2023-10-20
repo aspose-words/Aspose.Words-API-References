@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Document
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Получает или задаетDocumentобъект к которому прикреплен этот объект.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words для .NET
+description: DocumentBuilder Document свойство. Получает или задаетDocumentобъект к которому прикреплен этот объект на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/documentbuilder/document/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/documentbuilder/document/
 public Document Document { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить и вернуть параметры настройки страницы к разделам документа.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

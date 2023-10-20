@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCleanupOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.MailMerging.MailMergeCleanupOptions opsomming. Gibt Optionen an die bestimmen welche Elemente beim Seriendruck entfernt werden.
+title: MailMergeCleanupOptions Enum
+linktitle: MailMergeCleanupOptions
+articleTitle: MailMergeCleanupOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.MailMerging.MailMergeCleanupOptions opsomming. Gibt Optionen an die bestimmen welche Elemente beim Seriendruck entfernt werden in C#.
 type: docs
 weight: 3850
 url: /de/net/aspose.words.mailmerging/mailmergecleanupoptions/
@@ -27,7 +29,7 @@ public enum MailMergeCleanupOptions
 | RemoveStaticFields | `10` | Gibt an, ob statische Felder aus dem Dokument entfernt werden sollen. Statische Felder sind Felder, deren Ergebnisse bei jeder Dokumentänderung gleich bleiben. Felder, deren Ergebnisse nicht in einem document gespeichert werden und im laufenden Betrieb berechnet werden (z. BFieldListNum , FieldSymbol usw.) gelten nicht als statisch. |
 | RemoveEmptyTableRows | `20` | Gibt an, ob leere Zeilen, die Seriendruckbereiche enthalten, aus dem Dokument entfernt werden sollen. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie leere Absätze, die bei einem Seriendruck entstehen könnten, aus dem Seriendruck-Ausgabedokument entfernt werden.
 
@@ -100,5 +102,3 @@ else
 
 * namensraum [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../)
-
-

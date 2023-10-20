@@ -1,7 +1,9 @@
 ---
 title: FieldTA.PageRangeBookmarkName
-second_title: Aspose.Words för .NET API Referens
-description: FieldTA fast egendom. Hämtar eller ställer in namnet på bokmärket som markerar ett intervall av sidor som infogas som postens sidnummer.
+linktitle: PageRangeBookmarkName
+articleTitle: PageRangeBookmarkName
+second_title: Aspose.Words för .NET
+description: FieldTA PageRangeBookmarkName fast egendom. Hämtar eller ställer in namnet på bokmärket som markerar ett intervall av sidor som infogas som postens sidnummer i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldta/pagerangebookmarkname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på bokmärket som markerar ett intervall av si
 public string PageRangeBookmarkName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bygger och anpassar en tabell över myndigheter med hjälp av TOA- och TA-fält.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Se även
 
 * class [FieldTA](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldta/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

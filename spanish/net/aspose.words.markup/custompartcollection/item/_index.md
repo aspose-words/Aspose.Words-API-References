@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomPartCollection propiedad. Obtiene o establece un elemento en el índice especificado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: CustomPartCollection Item propiedad. Obtiene o establece un elemento en el índice especificado en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.markup/custompartcollection/item/
@@ -18,7 +20,7 @@ public CustomPart this[int index] { get; set; }
 | --- | --- |
 | index | Índice de base cero del artículo. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de piezas personalizadas arbitrarias de un documento.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPart](../../custompart/)
 * class [CustomPartCollection](../)
-* espacio de nombres [Aspose.Words.Markup](../../custompartcollection/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

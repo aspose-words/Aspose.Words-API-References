@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.LogBase
-second_title: Aspose.Words for .NET API 参考
-description: AxisScaling 财产. 获取或设置对数轴的对数底
+linktitle: LogBase
+articleTitle: LogBase
+second_title: 用于 .NET 的 Aspose.Words
+description: AxisScaling LogBase 财产. 获取或设置对数轴的对数底 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/axisscaling/logbase/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/axisscaling/logbase/
 public double LogBase { get; set; }
 ```
 
-### 评论
+## 评论
 
 MS Office 2016 新图表不支持该属性。
 
@@ -22,7 +24,7 @@ MS Office 2016 新图表不支持该属性。
 
 设置此属性会设置[`Type`](../type/)财产给Logarithmic.
 
-### 例子
+## 例子
 
 展示如何将对数缩放应用于图表轴。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 ### 也可以看看
 
 * class [AxisScaling](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

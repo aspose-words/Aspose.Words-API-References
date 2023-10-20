@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.IsValid
-second_title: Aspose.Words för .NET API Referens
-description: SignatureLine fast egendom. Indikerar att signaturraden är signerad med digital signatur och att denna digitala signatur är giltig.
+linktitle: IsValid
+articleTitle: IsValid
+second_title: Aspose.Words för .NET
+description: SignatureLine IsValid fast egendom. Indikerar att signaturraden är signerad med digital signatur och att denna digitala signatur är giltig i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing/signatureline/isvalid/
@@ -14,7 +16,7 @@ Indikerar att signaturraden är signerad med digital signatur och att denna digi
 public bool IsValid { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett dokument med ett personligt certifikat och en signaturrad.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Se även
 
 * class [SignatureLine](../)
-* namnutrymme [Aspose.Words.Drawing](../../signatureline/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

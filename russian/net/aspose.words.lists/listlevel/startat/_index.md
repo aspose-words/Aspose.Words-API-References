@@ -1,7 +1,9 @@
 ---
 title: ListLevel.StartAt
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevel свойство. Возвращает или устанавливает начальный номер для этого уровня списка.
+linktitle: StartAt
+articleTitle: StartAt
+second_title: Aspose.Words для .NET
+description: ListLevel StartAt свойство. Возвращает или устанавливает начальный номер для этого уровня списка на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.lists/listlevel/startat/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/listlevel/startat/
 public int StartAt { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 1.
 
-### Примеры
+## Примеры
 
 Показывает, как возобновить нумерацию в списке путем копирования списка.
 
@@ -116,7 +118,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Смотрите также
 
 * class [ListLevel](../)
-* пространство имен [Aspose.Words.Lists](../../listlevel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

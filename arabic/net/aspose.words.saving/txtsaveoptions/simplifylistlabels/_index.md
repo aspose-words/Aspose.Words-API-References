@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.SimplifyListLabels
-second_title: Aspose.Words لمراجع .NET API
-description: TxtSaveOptions ملكية. يحدد ما إذا كان يجب على البرنامج تبسيط تسميات القائمة في حالة عدم تمثيل تنسيق التسمية المعقد بشكل مناسب بنص عادي.
+linktitle: SimplifyListLabels
+articleTitle: SimplifyListLabels
+second_title: Aspose.Words لـ .NET
+description: TxtSaveOptions SimplifyListLabels ملكية. يحدد ما إذا كان يجب على البرنامج تبسيط تسميات القائمة في حالة عدم تمثيل تنسيق التسمية المعقد بشكل مناسب بنص عادي في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
@@ -16,7 +18,7 @@ url: /ar/net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
 public bool SimplifyListLabels { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير مظهر القوائم عند حفظ مستند إلى نص عادي.
 
@@ -66,7 +68,5 @@ else
 ### أنظر أيضا
 
 * class [TxtSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../txtsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

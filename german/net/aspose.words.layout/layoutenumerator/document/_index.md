@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Document
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutEnumerator eigendom. Ruft das Dokument ab das diese Instanz auflistet.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words für .NET
+description: LayoutEnumerator Document eigendom. Ruft das Dokument ab das diese Instanz auflistet in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.layout/layoutenumerator/document/
@@ -14,7 +16,7 @@ Ruft das Dokument ab, das diese Instanz auflistet.
 public Document Document { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten zum Durchlaufen der Layoutelemente eines Dokuments.
 
@@ -160,7 +162,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutEnumerator](../)
-* namensraum [Aspose.Words.Layout](../../layoutenumerator/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

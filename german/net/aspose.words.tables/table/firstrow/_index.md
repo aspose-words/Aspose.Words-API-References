@@ -1,7 +1,9 @@
 ---
 title: Table.FirstRow
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Gibt den ersten zurückRow Knoten in der Tabelle.
+linktitle: FirstRow
+articleTitle: FirstRow
+second_title: Aspose.Words für .NET
+description: Table FirstRow eigendom. Gibt den ersten zurückRow Knoten in der Tabelle in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.tables/table/firstrow/
@@ -14,7 +16,7 @@ Gibt den ersten zurück[`Row`](../../row/) Knoten in der Tabelle.
 public Row FirstRow { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die ersten und letzten Zeilen aller Tabellen in einem Dokument entfernt werden.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 
 * class [Row](../../row/)
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

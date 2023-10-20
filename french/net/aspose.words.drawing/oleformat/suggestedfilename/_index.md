@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SuggestedFileName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OleFormat propriété. Obtient le nom de fichier suggéré pour lobjet incorporé actuel si vous souhaitez lenregistrer dans un fichier.
+linktitle: SuggestedFileName
+articleTitle: SuggestedFileName
+second_title: Aspose.Words pour .NET
+description: OleFormat SuggestedFileName propriété. Obtient le nom de fichier suggéré pour lobjet incorporé actuel si vous souhaitez lenregistrer dans un fichier en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.drawing/oleformat/suggestedfilename/
@@ -14,7 +16,7 @@ Obtient le nom de fichier suggéré pour l'objet incorporé actuel si vous souha
 public string SuggestedFileName { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment obtenir le nom de fichier suggéré par un objet OLE.
 
@@ -38,7 +40,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + suggestedFileName, 
 ### Voir également
 
 * class [OleFormat](../)
-* espace de noms [Aspose.Words.Drawing](../../oleformat/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

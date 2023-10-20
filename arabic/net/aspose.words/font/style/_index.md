@@ -1,7 +1,9 @@
 ---
 title: Font.Style
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين نمط الأحرف المطبق على هذا التنسيق.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words لـ .NET
+description: Font Style ملكية. الحصول على أو تعيين نمط الأحرف المطبق على هذا التنسيق في C#.
 type: docs
 weight: 400
 url: /ar/net/aspose.words/font/style/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/style/
 public Style Style { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يطبق تسطيرًا مزدوجًا على كافة عمليات التشغيل في مستند تم تنسيقه باستخدام أنماط أحرف مخصصة.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Font.Style.docx");
 
 * class [Style](../../style/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

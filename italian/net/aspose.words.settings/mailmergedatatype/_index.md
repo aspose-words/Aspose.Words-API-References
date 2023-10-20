@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeDataType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.MailMergeDataType enum. Specifica il tipo di unorigine dati di stampa unione esterna.
+title: MailMergeDataType Enum
+linktitle: MailMergeDataType
+articleTitle: MailMergeDataType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Settings.MailMergeDataType enum. Specifica il tipo di unorigine dati di stampa unione esterna in C#.
 type: docs
 weight: 5820
 url: /it/net/aspose.words.settings/mailmergedatatype/
@@ -27,7 +29,7 @@ public enum MailMergeDataType
 | Native | `5` | Specifica che un determinato documento è stato connesso a un'origine dati esterna tramite l'interfaccia ODSO (Office Data Source Object). |
 | Default | `-1` | Uguale aNone . |
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [DataType](../mailmergesettings/datatype/)
 * spazio dei nomi [Aspose.Words.Settings](../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../)
-
-

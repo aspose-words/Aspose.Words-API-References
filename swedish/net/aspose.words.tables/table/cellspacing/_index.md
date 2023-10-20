@@ -1,7 +1,9 @@
 ---
 title: Table.CellSpacing
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller ställer in mängden utrymme i poäng mellan cellerna.
+linktitle: CellSpacing
+articleTitle: CellSpacing
+second_title: Aspose.Words för .NET
+description: Table CellSpacing fast egendom. Hämtar eller ställer in mängden utrymme i poäng mellan cellerna i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.tables/table/cellspacing/
@@ -14,7 +16,7 @@ Hämtar eller ställer in mängden utrymme (i poäng) mellan cellerna.
 public double CellSpacing { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man aktiverar avstånd mellan enskilda celler i en tabell.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Se även
 
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

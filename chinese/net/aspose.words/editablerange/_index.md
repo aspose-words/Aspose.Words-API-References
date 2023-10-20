@@ -1,7 +1,9 @@
 ---
-title: Class EditableRange
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.EditableRange 班级. 表示单个可编辑范围
+title: EditableRange Class
+linktitle: EditableRange
+articleTitle: EditableRange
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.EditableRange 班级. 表示单个可编辑范围 在 C#.
 type: docs
 weight: 1420
 url: /zh/net/aspose.words/editablerange/
@@ -32,11 +34,11 @@ public class EditableRange
 | --- | --- |
 | [Remove](../../aspose.words/editablerange/remove/)() | 从文档中删除可编辑范围。不删除可编辑范围内的内容。 |
 
-### 评论
+## 评论
 
 `EditableRange`是一个封装了两个节点的“facade”对象[`EditableRangeStart`](./editablerangestart/) 和[`EditableRangeEnd`](./editablerangeend/)在文档树中，并允许将可编辑范围作为单个对象使用。
 
-### 例子
+## 例子
 
 展示如何使用可编辑范围。
 
@@ -189,5 +191,3 @@ public class EditableRangePrinter : DocumentVisitor
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

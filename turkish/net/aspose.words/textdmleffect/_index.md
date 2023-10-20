@@ -1,7 +1,9 @@
 ---
-title: Enum TextDmlEffect
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.TextDmlEffect Sıralama. Metin çalıştırmaları için Dml metin efekti.
+title: TextDmlEffect Enum
+linktitle: TextDmlEffect
+articleTitle: TextDmlEffect
+second_title: Aspose.Words for .NET
+description: Aspose.Words.TextDmlEffect Sıralama. Metin çalıştırmaları için Dml metin efekti C#'da.
 type: docs
 weight: 6410
 url: /tr/net/aspose.words/textdmleffect/
@@ -29,5 +31,3 @@ public enum TextDmlEffect
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

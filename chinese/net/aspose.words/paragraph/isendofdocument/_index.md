@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfDocument
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 如果该段落是文档最后一部分的最后一段则为 True
+linktitle: IsEndOfDocument
+articleTitle: IsEndOfDocument
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph IsEndOfDocument 财产. 如果该段落是文档最后一部分的最后一段则为 True 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/paragraph/isendofdocument/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/isendofdocument/
 public bool IsEndOfDocument { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在文档中插入段落。
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### 也可以看看
 
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.StatusText
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 返回或设置当表单字段获得焦点时状态栏中显示的文本
+linktitle: StatusText
+articleTitle: StatusText
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField StatusText 财产. 返回或设置当表单字段获得焦点时状态栏中显示的文本 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.fields/formfield/statustext/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.fields/formfield/statustext/
 public string StatusText { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果[`OwnStatus`](../ownstatus/)属性设置为`真的`， 这`StatusText`属性指定状态栏文本。 如果[`OwnStatus`](../ownstatus/)属性设置为`错误的`， 这`StatusText`属性指定包含表单字段状态栏文本的 AutoText 条目的名称。
 
 Microsoft Word 允许最多包含 138 个字符的字符串。
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

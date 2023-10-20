@@ -1,7 +1,9 @@
 ---
 title: FieldShape.Text
-second_title: Aspose.Words لمراجع .NET API
-description: FieldShape ملكية. الحصول على النص أو تعيينه لاسترداده.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words لـ .NET
+description: FieldShape Text ملكية. الحصول على النص أو تعيينه لاسترداده في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldshape/text/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldshape/text/
 public string Text { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء قوائم متوافقة مع اللغة من اليمين إلى اليسار باستخدام حقول BIDIOUTLINE.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(ShapeType.OleObject, shape.ShapeType);
 ### أنظر أيضا
 
 * class [FieldShape](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldshape/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

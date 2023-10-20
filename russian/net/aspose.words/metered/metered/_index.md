@@ -1,7 +1,9 @@
 ---
-title: Metered.Metered
-second_title: Справочник по API Aspose.Words для .NET
-description: Metered строитель. Инициализирует новый экземпляр этого класса.
+title: Metered
+linktitle: Metered
+articleTitle: Metered
+second_title: Aspose.Words для .NET
+description: Metered строитель. Инициализирует новый экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/metered/metered/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/metered/metered/
 public Metered()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как активировать дозированную лицензию и отслеживать кредит/потребление.
 
@@ -41,7 +43,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### Смотрите также
 
 * class [Metered](../)
-* пространство имен [Aspose.Words](../../metered/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

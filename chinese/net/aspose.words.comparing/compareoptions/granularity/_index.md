@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.Granularity
-second_title: Aspose.Words for .NET API 参考
-description: CompareOptions 财产. 指定是按字符还是按单词跟踪更改 默认值为WordLevel.
+linktitle: Granularity
+articleTitle: Granularity
+second_title: 用于 .NET 的 Aspose.Words
+description: CompareOptions Granularity 财产. 指定是按字符还是按单词跟踪更改 默认值为WordLevel 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.comparing/compareoptions/granularity/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.comparing/compareoptions/granularity/
 public Granularity Granularity { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示在比较文档时指定粒度。
 
@@ -43,7 +45,5 @@ Assert.AreEqual(5, groups.Count);
 
 * enum [Granularity](../../granularity/)
 * class [CompareOptions](../)
-* 命名空间 [Aspose.Words.Comparing](../../compareoptions/)
+* 命名空间 [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * 部件 [Aspose.Words](../../../)
-
-

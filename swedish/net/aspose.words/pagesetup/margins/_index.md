@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Margins
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Returnerar eller ställer in förinställningMargins av sidan.
+linktitle: Margins
+articleTitle: Margins
+second_title: Aspose.Words för .NET
+description: PageSetup Margins fast egendom. Returnerar eller ställer in förinställningMargins av sidan i C#.
 type: docs
 weight: 260
 url: /sv/net/aspose.words/pagesetup/margins/
@@ -14,7 +16,7 @@ Returnerar eller ställer in förinställning[`Margins`](../../margins/) av sida
 public Margins Margins { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar när sidlayouten för dokumentet ska beräknas om.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 * enum [Margins](../../margins/)
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

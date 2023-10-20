@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LayoutMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Obtient ou définit le mode de mise en page de cette section.
+linktitle: LayoutMode
+articleTitle: LayoutMode
+second_title: Aspose.Words pour .NET
+description: PageSetup LayoutMode propriété. Obtient ou définit le mode de mise en page de cette section en C#.
 type: docs
 weight: 190
 url: /fr/net/aspose.words/pagesetup/layoutmode/
@@ -14,7 +16,7 @@ Obtient ou définit le mode de mise en page de cette section.
 public SectionLayoutMode LayoutMode { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment spécifier a pour le nombre de caractères que chaque ligne peut contenir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 
 * enum [SectionLayoutMode](../../sectionlayoutmode/)
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

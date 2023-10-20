@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssClassNamePrefix
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Tüm CSS sınıfı adlarına eklenen bir öneki belirtir. Varsayılan değer boş bir dizedir ve oluşturulan CSS sınıfı adlarının ortak bir öneki yoktur.
+linktitle: CssClassNamePrefix
+articleTitle: CssClassNamePrefix
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions CssClassNamePrefix mülk. Tüm CSS sınıfı adlarına eklenen bir öneki belirtir. Varsayılan değer boş bir dizedir ve oluşturulan CSS sınıfı adlarının ortak bir öneki yoktur C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/htmlsaveoptions/cssclassnameprefix/
@@ -20,13 +22,13 @@ public string CssClassNamePrefix { get; set; }
 | --- | --- |
 | ArgumentException | Değer boş değil ve geçerli bir CSS tanımlayıcısı değil. |
 
-### Notlar
+## Notlar
 
 Bu değer boş değilse Aspose.Words tarafından oluşturulan tüm CSS sınıfları belirtilen önekle başlayacaktır. Bu, örneğin oluşturulan belgelere özel CSS eklerseniz ve class ad çakışmalarını önlemek istiyorsanız faydalı olabilir.
 
 Değer değilse`hükümsüz` veya boşsa geçerli bir CSS tanımlayıcısı olmalıdır.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin HTML'ye nasıl kaydedileceğini ve tüm CSS sınıfı adlarına nasıl önek ekleneceğini gösterir.
 
@@ -55,7 +57,5 @@ Assert.True(outDocContents.Contains(".myprefix-Footer { margin-bottom:0pt; line-
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

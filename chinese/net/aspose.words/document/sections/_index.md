@@ -1,7 +1,9 @@
 ---
 title: Document.Sections
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 返回表示文档中所有部分的集合
+linktitle: Sections
+articleTitle: Sections
+second_title: 用于 .NET 的 Aspose.Words
+description: Document Sections 财产. 返回表示文档中所有部分的集合 在 C#.
 type: docs
 weight: 370
 url: /zh/net/aspose.words/document/sections/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/sections/
 public SectionCollection Sections { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在文档中添加和删除部分。
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * class [SectionCollection](../../sectioncollection/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

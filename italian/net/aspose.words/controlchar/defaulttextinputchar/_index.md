@@ -1,7 +1,9 @@
 ---
 title: ControlChar.DefaultTextInputChar
-second_title: Aspose.Words per .NET API Reference
-description: ControlChar campo. Questo è il carattere o utilizzato come valore predefinito nei campi del modulo di immissione testo.
+linktitle: DefaultTextInputChar
+articleTitle: DefaultTextInputChar
+second_title: Aspose.Words per .NET
+description: ControlChar DefaultTextInputChar campo. Questo è il carattere o utilizzato come valore predefinito nei campi del modulo di immissione testo in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/controlchar/defaulttextinputchar/
@@ -14,7 +16,7 @@ Questo è il carattere "o" utilizzato come valore predefinito nei campi del modu
 public const char DefaultTextInputChar;
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere vari caratteri di controllo a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Guarda anche
 
 * class [ControlChar](../)
-* spazio dei nomi [Aspose.Words](../../controlchar/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

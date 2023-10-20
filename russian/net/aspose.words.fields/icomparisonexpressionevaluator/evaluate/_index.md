@@ -1,7 +1,9 @@
 ---
 title: IComparisonExpressionEvaluator.Evaluate
-second_title: Справочник по API Aspose.Words для .NET
-description: IComparisonExpressionEvaluator метод. Вычисляет выражение сравнения.
+linktitle: Evaluate
+articleTitle: Evaluate
+second_title: Aspose.Words для .NET
+description: IComparisonExpressionEvaluator Evaluate метод. Вычисляет выражение сравнения на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/icomparisonexpressionevaluator/evaluate/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/icomparisonexpressionevaluator/evaluate/
 public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)
 ```
 
-### Примечания
+## Примечания
 
 Реализация должна вернуть результат`нулевой` чтобы указать, что должна быть выполнена оценка по умолчанию.
 
@@ -24,7 +26,5 @@ public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression exp
 * class [Field](../../field/)
 * class [ComparisonExpression](../../comparisonexpression/)
 * interface [IComparisonExpressionEvaluator](../)
-* пространство имен [Aspose.Words.Fields](../../icomparisonexpressionevaluator/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

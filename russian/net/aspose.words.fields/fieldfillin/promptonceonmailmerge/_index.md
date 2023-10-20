@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.PromptOnceOnMailMerge
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldFillIn свойство. Получает или задает следует ли получать ответ пользователя один раз за операцию слияния почты.
+linktitle: PromptOnceOnMailMerge
+articleTitle: PromptOnceOnMailMerge
+second_title: Aspose.Words для .NET
+description: FieldFillIn PromptOnceOnMailMerge свойство. Получает или задает следует ли получать ответ пользователя один раз за операцию слияния почты на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldfillin/promptonceonmailmerge/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldfillin/promptonceonmailmerge/
 public bool PromptOnceOnMailMerge { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле ЗАПОЛНИТЬ, чтобы запросить у пользователя ответ.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### Смотрите также
 
 * class [FieldFillIn](../)
-* пространство имен [Aspose.Words.Fields](../../fieldfillin/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

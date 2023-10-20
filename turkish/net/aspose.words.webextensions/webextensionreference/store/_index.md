@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.Store
-second_title: Aspose.Words for .NET API Referansı
-description: WebExtensionReference mülk. Web uzantısının depolandığı pazar yerinin örneğini belirtir.
+linktitle: Store
+articleTitle: Store
+second_title: Aspose.Words for .NET
+description: WebExtensionReference Store mülk. Web uzantısının depolandığı pazar yerinin örneğini belirtir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.webextensions/webextensionreference/store/
@@ -14,7 +16,7 @@ Web uzantısının depolandığı pazar yerinin örneğini belirtir.
 public string Store { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ayrıca bakınız
 
 * class [WebExtensionReference](../)
-* ad alanı [Aspose.Words.WebExtensions](../../webextensionreference/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum EditorType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.EditorType 枚举. 指定一组可能的别名或编辑组可用作别名来 确定是否允许当前用户编辑由文档中的可编辑范围定义的单个范围 
+title: EditorType Enum
+linktitle: EditorType
+articleTitle: EditorType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.EditorType 枚举. 指定一组可能的别名或编辑组可用作别名来 确定是否允许当前用户编辑由文档中的可编辑范围定义的单个范围  在 C#.
 type: docs
 weight: 1450
 url: /zh/net/aspose.words/editortype/
@@ -28,7 +30,7 @@ public enum EditorType
 | Owners | `7` | 指定在启用文档保护时，应允许与 Owners 组关联的用户使用 this 编辑类型编辑可编辑范围。 |
 | Default | `0` | 与相同Unspecified. |
 
-### 例子
+## 例子
 
 展示如何将可编辑范围的编辑权限限制为特定组/用户。
 
@@ -140,5 +142,3 @@ public class EditableRangePrinter : DocumentVisitor
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

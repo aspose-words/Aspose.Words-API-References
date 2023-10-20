@@ -1,7 +1,9 @@
 ---
 title: FieldToa.RemoveEntryFormatting
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToa eigendom. Ruft ab oder legt fest ob die Formatierung des Eintragstexts im Dokument aus dem Eintrag im Rechtsgrundlagenverzeichnis entfernt werden soll.
+linktitle: RemoveEntryFormatting
+articleTitle: RemoveEntryFormatting
+second_title: Aspose.Words für .NET
+description: FieldToa RemoveEntryFormatting eigendom. Ruft ab oder legt fest ob die Formatierung des Eintragstexts im Dokument aus dem Eintrag im Rechtsgrundlagenverzeichnis entfernt werden soll in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldtoa/removeentryformatting/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Formatierung des Eintragstexts im Dokument aus de
 public bool RemoveEntryFormatting { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe von TOA- und TA-Feldern ein Autoritätsverzeichnis erstellt und anpasst.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Siehe auch
 
 * class [FieldToa](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoa/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

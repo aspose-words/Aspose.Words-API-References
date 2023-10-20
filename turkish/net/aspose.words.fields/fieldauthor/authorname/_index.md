@@ -1,7 +1,9 @@
 ---
 title: FieldAuthor.AuthorName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAuthor mülk. Belge yazarının adını alır veya ayarlar.
+linktitle: AuthorName
+articleTitle: AuthorName
+second_title: Aspose.Words for .NET
+description: FieldAuthor AuthorName mülk. Belge yazarının adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldauthor/authorname/
@@ -14,7 +16,7 @@ Belge yazarının adını alır veya ayarlar.
 public string AuthorName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgeyi oluşturan kişinin adını görüntülemek için YAZAR alanının nasıl kullanılacağını gösterir.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Field.AUTHOR.docx");
 ### Ayrıca bakınız
 
 * class [FieldAuthor](../)
-* ad alanı [Aspose.Words.Fields](../../fieldauthor/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

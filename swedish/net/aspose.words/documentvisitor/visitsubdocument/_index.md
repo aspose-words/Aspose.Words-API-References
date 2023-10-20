@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSubDocument
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när ett underdokument påträffas.
+linktitle: VisitSubDocument
+articleTitle: VisitSubDocument
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitSubDocument metod. Anropas när ett underdokument påträffas i C#.
 type: docs
 weight: 480
 url: /sv/net/aspose.words/documentvisitor/visitsubdocument/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitSubDocument(SubDocument subDocument)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en dokumentbesökare för att skriva ut ett dokuments nodstruktur.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [SubDocument](../../subdocument/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontConfigSubstitution
-second_title: Aspose.Words per .NET API Reference
-description: FontSubstitutionSettings proprietà. Impostazioni relative alla regola di sostituzione della configurazione dei caratteri.
+linktitle: FontConfigSubstitution
+articleTitle: FontConfigSubstitution
+second_title: Aspose.Words per .NET
+description: FontSubstitutionSettings FontConfigSubstitution proprietà. Impostazioni relative alla regola di sostituzione della configurazione dei caratteri in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
@@ -14,7 +16,7 @@ Impostazioni relative alla regola di sostituzione della configurazione dei carat
 public FontConfigSubstitutionRule FontConfigSubstitution { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra la sostituzione della configurazione dei caratteri dipendente dal sistema operativo.
 
@@ -51,7 +53,5 @@ if (isLinuxOrMac)
 
 * class [FontConfigSubstitutionRule](../../fontconfigsubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

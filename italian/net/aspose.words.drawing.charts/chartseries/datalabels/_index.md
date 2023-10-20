@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.DataLabels
-second_title: Aspose.Words per .NET API Reference
-description: ChartSeries proprietà. Specifica le impostazioni per le etichette dati per lintera serie.
+linktitle: DataLabels
+articleTitle: DataLabels
+second_title: Aspose.Words per .NET
+description: ChartSeries DataLabels proprietà. Specifica le impostazioni per le etichette dati per lintera serie in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing.charts/chartseries/datalabels/
@@ -14,7 +16,7 @@ Specifica le impostazioni per le etichette dati per l'intera serie.
 public ChartDataLabelCollection DataLabels { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare etichette ai punti dati in un grafico a linee.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataLabelCollection](../../chartdatalabelcollection/)
 * class [ChartSeries](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartseries/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

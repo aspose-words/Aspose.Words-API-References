@@ -1,7 +1,9 @@
 ---
 title: MailMerge.ExecuteADO
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge yöntem. Bir ADO Recordset nesnesinden belgeye adresmektup birleştirme gerçekleştirir.
+linktitle: ExecuteADO
+articleTitle: ExecuteADO
+second_title: Aspose.Words for .NET
+description: MailMerge ExecuteADO yöntem. Bir ADO Recordset nesnesinden belgeye adresmektup birleştirme gerçekleştirir C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.mailmerging/mailmerge/executeado/
@@ -18,7 +20,7 @@ public void ExecuteADO(object recordset)
 | --- | --- | --- |
 | recordset | Object | ADO Kayıt Kümesi veya Kayıt nesnesi. |
 
-### Notlar
+## Notlar
 
 Bu yöntem, Aspose.Words sınıflarını as COM nesnelerini, örneğin ASP veya Visual Basic 6.0 kullanılarak oluşturulan bir uygulama gibi yönetilmeyen koddan kullanmayı planladığınızda kullanışlıdır.
 
@@ -26,7 +28,7 @@ Bu yöntem göz ardı edilirRemoveUnusedRegions seçenek.
 
 Daha fazla bilgi için açıklamasına bakın[`Execute`](../execute/).
 
-### Örnekler
+## Örnekler
 
 ```csharp
 [VBScript]
@@ -101,7 +103,5 @@ private static Document CreateSourceDocADOMailMerge()
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

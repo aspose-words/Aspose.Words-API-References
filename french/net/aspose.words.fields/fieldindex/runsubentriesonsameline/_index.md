@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.RunSubentriesOnSameLine
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldIndex propriété. Obtient ou définit si les sousentrées doivent être exécutées sur la même ligne que lentrée principale.
+linktitle: RunSubentriesOnSameLine
+articleTitle: RunSubentriesOnSameLine
+second_title: Aspose.Words pour .NET
+description: FieldIndex RunSubentriesOnSameLine propriété. Obtient ou définit si les sousentrées doivent être exécutées sur la même ligne que lentrée principale en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.fields/fieldindex/runsubentriesonsameline/
@@ -14,7 +16,7 @@ Obtient ou définit si les sous-entrées doivent être exécutées sur la même 
 public bool RunSubentriesOnSameLine { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec des sous-entrées dans un champ INDEX.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + $"Field.INDEX.XE.Subheading.docx");
 ### Voir également
 
 * class [FieldIndex](../)
-* espace de noms [Aspose.Words.Fields](../../fieldindex/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

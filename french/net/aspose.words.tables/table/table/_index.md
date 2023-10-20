@@ -1,7 +1,9 @@
 ---
-title: Table.Table
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Table constructeur. Initialise une nouvelle instance duTable classe.
+title: Table
+linktitle: Table
+articleTitle: Table
+second_title: Aspose.Words pour .NET
+description: Table constructeur. Initialise une nouvelle instance duTable classe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.tables/table/table/
@@ -18,13 +20,13 @@ public Table(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Le document du propriétaire. |
 
-### Remarques
+## Remarques
 
 Quand[`Table`](../) est créé, il appartient au document spécifié, mais ne fait pas encore partie du document et[`ParentNode`](../../../aspose.words/node/parentnode/) est`nul`.
 
-À ajouter[`Table`](../) à l'utilisation du documentNode) ouNode) sur l'étage où vous souhaitez insérer le tableau.
+À ajouter[`Table`](../) à l'utilisation du document[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) ou[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) sur l'étage où vous souhaitez insérer le tableau.
 
-### Exemples
+## Exemples
 
 Montre comment créer un tableau.
 
@@ -108,7 +110,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Table](../)
-* espace de noms [Aspose.Words.Tables](../../table/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

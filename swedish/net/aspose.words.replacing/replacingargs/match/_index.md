@@ -1,24 +1,26 @@
 ---
 title: ReplacingArgs.Match
-second_title: Aspose.Words för .NET API Referens
-description: ReplacingArgs fast egendom. DenMatch som ett resultat av en enda regular uttrycksmatchning under en Byta ut .
+linktitle: Match
+articleTitle: Match
+second_title: Aspose.Words för .NET
+description: ReplacingArgs Match fast egendom. DenMatch som ett resultat av en enda regular uttrycksmatchning under enByta ut  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-DenMatch som ett resultat av en enda regular uttrycksmatchning under en **Byta ut** .
+DenMatch som ett resultat av en enda regular uttrycksmatchning under en**Byta ut** .
 
 ```csharp
 public Match Match { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 **Match.Index"** får den nollbaserade start positionen för matchen från början av sök- och ersätt-intervallet.
 
-### Exempel
+## Exempel
 
 Visar hur du använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
 
@@ -91,7 +93,5 @@ private class NumberHexer : IReplacingCallback
 ### Se även
 
 * class [ReplacingArgs](../)
-* namnutrymme [Aspose.Words.Replacing](../../replacingargs/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

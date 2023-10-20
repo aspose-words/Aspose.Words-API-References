@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Bottom
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Obtient la position du bord inférieur du bloc contenant la forme.
+linktitle: Bottom
+articleTitle: Bottom
+second_title: Aspose.Words pour .NET
+description: ShapeBase Bottom propriété. Obtient la position du bord inférieur du bloc contenant la forme en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.drawing/shapebase/bottom/
@@ -14,13 +16,13 @@ Obtient la position du bord inférieur du bloc contenant la forme.
 public double Bottom { get; }
 ```
 
-### Remarques
+## Remarques
 
 Pour une forme de niveau supérieur, la valeur est en points et par rapport à l'ancre de la forme.
 
 Pour les formes d'un groupe, la valeur se trouve dans l'espace de coordonnées et les unités du groupe parent.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une image flottante et spécifier sa position et sa taille.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

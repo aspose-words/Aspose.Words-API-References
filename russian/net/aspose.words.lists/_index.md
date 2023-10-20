@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Lists
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Lists пространство имен содержит классы дляwork с маркированными и нумерованными списками определенными в документе.
+linktitle: Aspose.Words.Lists
+articleTitle: Aspose.Words.Lists
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Lists пространство имен содержит классы дляwork с маркированными и нумерованными списками определенными в документе на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.lists/
@@ -25,5 +27,3 @@ url: /ru/net/aspose.words.lists/
 | [ListLevelAlignment](./listlevelalignment/) | Определяет выравнивание номера списка или маркера. |
 | [ListTemplate](./listtemplate/) | Указывает один из предопределенных форматов списка, доступных в Microsoft Word. |
 | [ListTrailingCharacter](./listtrailingcharacter/) | Указывает символ, отделяющий метку списка от текста абзаца. |
-
-

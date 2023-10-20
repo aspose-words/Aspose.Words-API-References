@@ -1,7 +1,9 @@
 ---
 title: InlineStory.StoryType
-second_title: Aspose.Words för .NET API Referens
-description: InlineStory fast egendom. Returnerar typen av berättelse.
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words för .NET
+description: InlineStory StoryType fast egendom. Returnerar typen av berättelse i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/inlinestory/storytype/
@@ -14,7 +16,7 @@ Returnerar typen av berättelse.
 public abstract StoryType StoryType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar InlineStory-noder.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../storytype/)
 * class [InlineStory](../)
-* namnutrymme [Aspose.Words](../../inlinestory/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

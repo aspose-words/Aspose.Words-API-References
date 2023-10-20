@@ -1,7 +1,9 @@
 ---
 title: Font.NameAscii
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Latince metin için kullanılan yazı tipini döndürür veya ayarlar 0 sıfır ile 127 arasında karakter kodlarına sahip karakterler.
+linktitle: NameAscii
+articleTitle: NameAscii
+second_title: Aspose.Words for .NET
+description: Font NameAscii mülk. Latince metin için kullanılan yazı tipini döndürür veya ayarlar 0 sıfır ile 127 arasında karakter kodlarına sahip karakterler C#'da.
 type: docs
 weight: 240
 url: /tr/net/aspose.words/font/nameascii/
@@ -14,7 +16,7 @@ Latince metin için kullanılan yazı tipini döndürür veya ayarlar (0 (sıfı
 public string NameAscii { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Microsoft Word'ün iki farklı yazı tipini tek seferde nasıl birleştirebileceğini gösterir.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

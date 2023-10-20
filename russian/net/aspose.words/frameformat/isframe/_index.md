@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.IsFrame
-second_title: Справочник по API Aspose.Words для .NET
-description: FrameFormat свойство. Возвращаетистинный если абзац представляет собой фрейм.
+linktitle: IsFrame
+articleTitle: IsFrame
+second_title: Aspose.Words для .NET
+description: FrameFormat IsFrame свойство. Возвращаетистинный если абзац представляет собой фрейм на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/frameformat/isframe/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/frameformat/isframe/
 public bool IsFrame { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить информацию о свойствах форматирования абзацев, являющихся фреймами.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Смотрите также
 
 * class [FrameFormat](../)
-* пространство имен [Aspose.Words](../../frameformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

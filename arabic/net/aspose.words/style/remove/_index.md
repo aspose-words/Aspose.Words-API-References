@@ -1,9 +1,11 @@
 ---
 title: Style.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: Style طريقة. إزالة النمط المحدد من المستند.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: Style Remove طريقة. إزالة النمط المحدد من المستند في C#.
 type: docs
-weight: 200
+weight: 190
 url: /ar/net/aspose.words/style/remove/
 ---
 ## Style.Remove method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/style/remove/
 public void Remove()
 ```
 
-### ملاحظات
+## ملاحظات
 
 إزالة النمط لها التأثيرات التالية على طراز المستند:
 
@@ -22,7 +24,7 @@ public void Remove()
 * إذا تمت إزالة النمط الأساسي، فسيتم نقل تنسيقه إلى الأنماط الفرعية.
 * إذا كان النمط المراد حذفه يحتوي على نمط مرتبط، فسيتم حذف كليهما.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نمط مخصص وتطبيقه.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 ### أنظر أيضا
 
 * class [Style](../)
-* مساحة الاسم [Aspose.Words](../../style/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

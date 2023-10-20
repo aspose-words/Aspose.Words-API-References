@@ -1,7 +1,9 @@
 ---
-title: Class ReportingEngine
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Reporting.ReportingEngine 班级. 提供用数据填充模板文档的例程以及控制这些例程的一组设置
+title: ReportingEngine Class
+linktitle: ReportingEngine
+articleTitle: ReportingEngine
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Reporting.ReportingEngine 班级. 提供用数据填充模板文档的例程以及控制这些例程的一组设置 在 C#.
 type: docs
 weight: 4730
 url: /zh/net/aspose.words.reporting/reportingengine/
@@ -34,15 +36,13 @@ public class ReportingEngine
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(Document, object) | 使用指定源的数据填充指定的模板文档，使其成为就绪报告。 |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(Document, object, string) | 使用指定源的数据填充指定的模板文档，使其成为就绪报告。 |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(Document, object[], string[]) | 使用指定源的数据填充指定的模板文档，使其成为就绪报告。 |
-| [Equals](../../aspose.words.reporting/reportingengine/equals/)(object) | 确定指定对象的值是否等于当前对象。 |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(*[Document](../../aspose.words/document/), object*) | 使用指定源的数据填充指定的模板文档，使其成为就绪报告。 |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(*[Document](../../aspose.words/document/), object, string*) | 使用指定源的数据填充指定的模板文档，使其成为就绪报告。 |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(*[Document](../../aspose.words/document/), object[], string[]*) | 使用指定源的数据填充指定的模板文档，使其成为就绪报告。 |
+| [Equals](../../aspose.words.reporting/reportingengine/equals/)(*object*) | 确定指定对象的值是否等于当前对象。 |
 | [GetHashCode](../../aspose.words.reporting/reportingengine/gethashcode/)() | 用作此类型的哈希函数。 |
 
 ### 也可以看看
 
 * 命名空间 [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../)
-
-

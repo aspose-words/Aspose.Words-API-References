@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.WordWrap
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Si esta propiedad esFALSO  El texto latino en medio de una palabra se puede ajustar para el párrafo actual. De lo contrario el texto en latín se envuelve con palabras completas.
+linktitle: WordWrap
+articleTitle: WordWrap
+second_title: Aspose.Words para .NET
+description: ParagraphFormat WordWrap propiedad. Si esta propiedad esFALSO  El texto latino en medio de una palabra se puede ajustar para el párrafo actual. De lo contrario el texto en latín se envuelve con palabras completas en C#.
 type: docs
 weight: 410
 url: /es/net/aspose.words/paragraphformat/wordwrap/
@@ -14,7 +16,7 @@ Si esta propiedad es`FALSO` , El texto latino en medio de una palabra se puede a
 public bool WordWrap { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer propiedades especiales para la tipografía asiática.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### Ver también
 
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

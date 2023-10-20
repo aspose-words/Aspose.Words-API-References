@@ -1,7 +1,9 @@
 ---
 title: FormField.Type
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField propriété. Renvoie le type de champ du formulaire.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words pour .NET
+description: FormField Type propriété. Renvoie le type de champ du formulaire en C#.
 type: docs
 weight: 220
 url: /fr/net/aspose.words.fields/formfield/type/
@@ -14,7 +16,7 @@ Renvoie le type de champ du formulaire.
 public FieldType Type { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer une zone de liste déroulante.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 
 * enum [FieldType](../../fieldtype/)
 * class [FormField](../)
-* espace de noms [Aspose.Words.Fields](../../formfield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

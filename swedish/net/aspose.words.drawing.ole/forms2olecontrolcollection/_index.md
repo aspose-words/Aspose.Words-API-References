@@ -1,7 +1,9 @@
 ---
-title: Class Forms2OleControlCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection klass. Representerar samling avForms2OleControl objekt.
+title: Forms2OleControlCollection Class
+linktitle: Forms2OleControlCollection
+articleTitle: Forms2OleControlCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection klass. Representerar samling avForms2OleControl objekt i C#.
 type: docs
 weight: 1120
 url: /sv/net/aspose.words.drawing.ole/forms2olecontrolcollection/
@@ -35,7 +37,7 @@ public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/)() | Får enumerator. |
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt en OLE-kontroll inbäddad i ett dokument och dess underordnade kontroller.
 
@@ -69,5 +71,3 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 * class [Forms2OleControl](../forms2olecontrol/)
 * namnutrymme [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * hopsättning [Aspose.Words](../../)
-
-

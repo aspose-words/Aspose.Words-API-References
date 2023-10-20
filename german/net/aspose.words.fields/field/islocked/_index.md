@@ -1,7 +1,9 @@
 ---
 title: Field.IsLocked
-second_title: Aspose.Words für .NET-API-Referenz
-description: Field eigendom. Ruft ab oder legt fest ob das Feld gesperrt ist sollte sein Ergebnis nicht neu berechnen.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words für .NET
+description: Field IsLocked eigendom. Ruft ab oder legt fest ob das Feld gesperrt ist sollte sein Ergebnis nicht neu berechnen in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/field/islocked/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu
 public bool IsLocked { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einem FieldStart-Knoten gearbeitet wird.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Siehe auch
 
 * class [Field](../)
-* namensraum [Aspose.Words.Fields](../../field/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

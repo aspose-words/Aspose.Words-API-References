@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderSurroundsFooter
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. يحدد ما إذا كان حد الصفحة يتضمن التذييل أم لا.
+linktitle: BorderSurroundsFooter
+articleTitle: BorderSurroundsFooter
+second_title: Aspose.Words لـ .NET
+description: PageSetup BorderSurroundsFooter ملكية. يحدد ما إذا كان حد الصفحة يتضمن التذييل أم لا في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/pagesetup/bordersurroundsfooter/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/pagesetup/bordersurroundsfooter/
 public bool BorderSurroundsFooter { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أن تغيير هذه الخاصية يؤثر على كافة الأقسام في المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق حد على الصفحة والرأس/التذييل.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorder.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

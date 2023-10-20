@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.InsertReferenceMark
-second_title: Aspose.Words for .NET API Referansı
-description: FieldNoteRef mülk. Dipnot Referansı veya Sonnot Referansı stiliyle aynı karakter formatına sahip referans işaretini ekler.
+linktitle: InsertReferenceMark
+articleTitle: InsertReferenceMark
+second_title: Aspose.Words for .NET
+description: FieldNoteRef InsertReferenceMark mülk. Dipnot Referansı veya Sonnot Referansı stiliyle aynı karakter formatına sahip referans işaretini ekler C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldnoteref/insertreferencemark/
@@ -14,7 +16,7 @@ Dipnot Referansı veya Sonnot Referansı stiliyle aynı karakter formatına sahi
 public bool InsertReferenceMark { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 NOTEREF alanlarının eklenmesini ve görünümlerinin değiştirilmesini gösterir.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### Ayrıca bakınız
 
 * class [FieldNoteRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldnoteref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

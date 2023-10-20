@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.ExportGeneratorName
-second_title: Aspose.Words för .NET API Referens
-description: SaveOptions fast egendom. NärSann  gör att namnet och versionen av Aspose.Words bäddas in i producerade filer. Standardvärdet ärSann .
+linktitle: ExportGeneratorName
+articleTitle: ExportGeneratorName
+second_title: Aspose.Words för .NET
+description: SaveOptions ExportGeneratorName fast egendom. NärSann  gör att namnet och versionen av Aspose.Words bäddas in i producerade filer. Standardvärdet ärSann  i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.saving/saveoptions/exportgeneratorname/
@@ -14,7 +16,7 @@ När`Sann` , gör att namnet och versionen av Aspose.Words bäddas in i producer
 public bool ExportGeneratorName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man inaktiverar att lägga till namn och version av Aspose.Words i producerade filer.
 
@@ -30,7 +32,5 @@ doc.Save(ArtifactsDir + "OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions
 ### Se även
 
 * class [SaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../saveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

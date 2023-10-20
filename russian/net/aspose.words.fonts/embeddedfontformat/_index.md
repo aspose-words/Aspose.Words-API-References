@@ -1,7 +1,9 @@
 ---
-title: Enum EmbeddedFontFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.EmbeddedFontFormat перечисление. Указывает формат конкретного встроенного шрифта внутриFontInfo объект.
+title: EmbeddedFontFormat Enum
+linktitle: EmbeddedFontFormat
+articleTitle: EmbeddedFontFormat
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.EmbeddedFontFormat перечисление. Указывает формат конкретного встроенного шрифта внутриFontInfo объект на С#.
 type: docs
 weight: 2850
 url: /ru/net/aspose.words.fonts/embeddedfontformat/
@@ -23,7 +25,7 @@ public enum EmbeddedFontFormat
 | EmbeddedOpenType | `0` | Указывает встроенный формат файла OpenType (EOT). |
 | OpenType | `1` | Указывает шрифт, внедренный как обычная копия файла шрифта OpenType (TrueType). |
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь встроенный шрифт из документа и сохранить его в локальной файловой системе.
 
@@ -51,5 +53,3 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

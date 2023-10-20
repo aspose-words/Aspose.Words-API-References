@@ -1,7 +1,9 @@
 ---
 title: Revision.ParentNode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Revision eigendom. Ruft den unmittelbar übergeordneten Knoten Eigentümer dieser Revision ab. Diese Eigenschaft funktioniert für jeden Revisionstyp außerStyleDefinitionChange .
+linktitle: ParentNode
+articleTitle: ParentNode
+second_title: Aspose.Words für .NET
+description: Revision ParentNode eigendom. Ruft den unmittelbar übergeordneten Knoten Eigentümer dieser Revision ab. Diese Eigenschaft funktioniert für jeden Revisionstyp außerStyleDefinitionChange  in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/revision/parentnode/
@@ -14,11 +16,11 @@ Ruft den unmittelbar übergeordneten Knoten (Eigentümer) dieser Revision ab. Di
 public Node ParentNode { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn sich diese Überarbeitung auf eine Änderung der Stilformatierung bezieht, verwenden Sie[`ParentStyle`](../parentstyle/) stattdessen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Revisionstyp eines Inline-Knotens ermittelt wird.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Node](../../node/)
 * class [Revision](../)
-* namensraum [Aspose.Words](../../revision/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

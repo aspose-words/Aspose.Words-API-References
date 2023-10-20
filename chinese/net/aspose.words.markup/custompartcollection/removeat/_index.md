@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.RemoveAt
-second_title: Aspose.Words for .NET API 参考
-description: CustomPartCollection 方法. 删除指定索引处的项目
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomPartCollection RemoveAt 方法. 删除指定索引处的项目 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.markup/custompartcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 从零开始的索引。 |
 
-### 例子
+## 例子
 
 演示如何访问文档的任意自定义部件集合。
 
@@ -62,7 +64,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### 也可以看看
 
 * class [CustomPartCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../custompartcollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

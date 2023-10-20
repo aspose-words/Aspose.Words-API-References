@@ -1,12 +1,14 @@
 ---
 title: FontFallbackSettings.Save
-second_title: Aspose.Words for .NET API 参考
-description: FontFallbackSettings 方法. 将当前后备设置保存到流中
+linktitle: Save
+articleTitle: Save
+second_title: 用于 .NET 的 Aspose.Words
+description: FontFallbackSettings Save 方法. 将当前后备设置保存到流中 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fonts/fontfallbacksettings/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 将当前后备设置保存到流中。
 
@@ -18,7 +20,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | 输出流。 |
 
-### 例子
+## 例子
 
 演示如何从流中加载和保存字体后备设置。
 
@@ -47,12 +49,12 @@ using (FileStream fontFallbackStream =
 ### 也可以看看
 
 * class [FontFallbackSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 将当前后备设置保存到文件。
 
@@ -64,7 +66,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | 输出文件名。 |
 
-### 例子
+## 例子
 
 演示如何在本地文件系统中的 XML 文档中加载和保存字体后备设置。
 
@@ -85,7 +87,5 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ### 也可以看看
 
 * class [FontFallbackSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FontFallbackSettings
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.FontFallbackSettings klass. Anger inställningar för reservmekanism för teckensnitt.
+title: FontFallbackSettings Class
+linktitle: FontFallbackSettings
+articleTitle: FontFallbackSettings
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.FontFallbackSettings klass. Anger inställningar för reservmekanism för teckensnitt i C#.
 type: docs
 weight: 2900
 url: /sv/net/aspose.words.fonts/fontfallbacksettings/
@@ -21,18 +23,18 @@ public class FontFallbackSettings
 | namn | Beskrivning |
 | --- | --- |
 | [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic/)() | Skapar automatiskt reservinställningarna genom att skanna tillgängliga teckensnitt. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(Stream) | Laddar reservinställningar från XML-ström. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(string) | Läser in alternativa teckensnittsinställningar från XML-fil. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(*Stream*) | Laddar reservinställningar från XML-ström. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(*string*) | Läser in alternativa teckensnittsinställningar från XML-fil. |
 | [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/)() | Laddar fördefinierade reservinställningar som efterliknar Microsoft Word reserv och använder Microsoft office-teckensnitt. |
 | [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)() | Laddar fördefinierade reservinställningar som använder Google Noto-teckensnitt. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(Stream) | Sparar de aktuella reservinställningarna för att streama. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(string) | Sparar de aktuella reservinställningarna i filen. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(*Stream*) | Sparar de aktuella reservinställningarna för att streama. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(*string*) | Sparar de aktuella reservinställningarna i filen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Som standard initieras reservinställningar med fördefinierade inställningar som efterliknar Microsoft Word reserv.
 
-### Exempel
+## Exempel
 
 Visar hur man distribuerar reservteckensnitt över Unicode-teckenkodintervall.
 
@@ -92,5 +94,3 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

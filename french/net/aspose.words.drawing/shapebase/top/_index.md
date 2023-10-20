@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Top
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Obtient ou définit la position du bord supérieur du bloc contenant la forme.
+linktitle: Top
+articleTitle: Top
+second_title: Aspose.Words pour .NET
+description: ShapeBase Top propriété. Obtient ou définit la position du bord supérieur du bloc contenant la forme en C#.
 type: docs
 weight: 540
 url: /fr/net/aspose.words.drawing/shapebase/top/
@@ -14,7 +16,7 @@ Obtient ou définit la position du bord supérieur du bloc contenant la forme.
 public double Top { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Pour une forme de niveau supérieur, la valeur est en points et par rapport à l'ancre de la forme.
 
@@ -24,7 +26,7 @@ La valeur par défaut est 0.
 
 N'a d'effet que sur les formes flottantes.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une image flottante et spécifier sa position et sa taille.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

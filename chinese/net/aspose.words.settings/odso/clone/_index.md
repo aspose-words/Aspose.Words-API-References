@@ -1,7 +1,9 @@
 ---
 title: Odso.Clone
-second_title: Aspose.Words for .NET API 参考
-description: Odso 方法. 返回此对象的深度克隆
+linktitle: Clone
+articleTitle: Clone
+second_title: 用于 .NET 的 Aspose.Words
+description: Odso Clone 方法. 返回此对象的深度克隆 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.settings/odso/clone/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/odso/clone/
 public Odso Clone()
 ```
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### 也可以看看
 
 * class [Odso](../)
-* 命名空间 [Aspose.Words.Settings](../../odso/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

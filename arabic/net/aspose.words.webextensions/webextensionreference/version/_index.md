@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.Version
-second_title: Aspose.Words لمراجع .NET API
-description: WebExtensionReference ملكية. يحدد إصدار ملحق الويب.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words لـ .NET
+description: WebExtensionReference Version ملكية. يحدد إصدار ملحق الويب في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.webextensions/webextensionreference/version/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.webextensions/webextensionreference/version/
 public string Version { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### أنظر أيضا
 
 * class [WebExtensionReference](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../webextensionreference/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

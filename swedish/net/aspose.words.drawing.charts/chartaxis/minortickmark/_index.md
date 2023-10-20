@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorTickMark
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Returnerar eller ställer in de mindre bockmarkeringarna för axeln.
+linktitle: MinorTickMark
+articleTitle: MinorTickMark
+second_title: Aspose.Words för .NET
+description: ChartAxis MinorTickMark fast egendom. Returnerar eller ställer in de mindre bockmarkeringarna för axeln i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.drawing.charts/chartaxis/minortickmark/
@@ -14,7 +16,7 @@ Returnerar eller ställer in de mindre bockmarkeringarna för axeln.
 public AxisTickMark MinorTickMark { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett diagram och ändrar utseendet på dess axlar.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickMark](../../axistickmark/)
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

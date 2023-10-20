@@ -1,7 +1,9 @@
 ---
-title: Interface IChartDataPoint
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.IChartDataPoint 界面. 包含图表上单个数据点的属性
+title: IChartDataPoint Interface
+linktitle: IChartDataPoint
+articleTitle: IChartDataPoint
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.IChartDataPoint 界面. 包含图表上单个数据点的属性 在 C#.
 type: docs
 weight: 900
 url: /zh/net/aspose.words.drawing.charts/ichartdatapoint/
@@ -23,7 +25,7 @@ public interface IChartDataPoint
 | [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative/) { get; set; } | 指定如果值为负数，父元素是否应反转其颜色。 |
 | [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker/) { get; } | 指定数据标记。根据请求自动创建标记。 |
 
-### 例子
+## 例子
 
 展示如何使用折线图上的数据点。
 
@@ -86,5 +88,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowRevisionBars
-second_title: Référence de l'API Aspose.Words pour .NET
-description: RevisionOptions propriété. Permet de spécifier si les barres de révision doivent être rendues près des lignes contenant du contenu révisé. La valeur par défaut estvrai .
+linktitle: ShowRevisionBars
+articleTitle: ShowRevisionBars
+second_title: Aspose.Words pour .NET
+description: RevisionOptions ShowRevisionBars propriété. Permet de spécifier si les barres de révision doivent être rendues près des lignes contenant du contenu révisé. La valeur par défaut estvrai  en C#.
 type: docs
 weight: 180
 url: /fr/net/aspose.words.layout/revisionoptions/showrevisionbars/
@@ -14,7 +16,7 @@ Permet de spécifier si les barres de révision doivent être rendues près des 
 public bool ShowRevisionBars { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment modifier l’apparence des révisions dans un document de sortie rendu.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 ### Voir également
 
 * class [RevisionOptions](../)
-* espace de noms [Aspose.Words.Layout](../../revisionoptions/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

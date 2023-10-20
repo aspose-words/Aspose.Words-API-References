@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ColumnBreakChar
-second_title: Aspose.Words for .NET API 参考
-description: ControlChar 场地. 列结束字符char14.
+linktitle: ColumnBreakChar
+articleTitle: ColumnBreakChar
+second_title: 用于 .NET 的 Aspose.Words
+description: ControlChar ColumnBreakChar 场地. 列结束字符char14 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/controlchar/columnbreakchar/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/controlchar/columnbreakchar/
 public const char ColumnBreakChar;
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加各种控制字符。
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### 也可以看看
 
 * class [ControlChar](../)
-* 命名空间 [Aspose.Words](../../controlchar/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

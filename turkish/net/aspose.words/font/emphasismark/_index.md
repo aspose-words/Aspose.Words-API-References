@@ -1,7 +1,9 @@
 ---
 title: Font.EmphasisMark
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bu biçimlendirmeye uygulanan vurgu işaretini alır veya ayarlar.
+linktitle: EmphasisMark
+articleTitle: EmphasisMark
+second_title: Aspose.Words for .NET
+description: Font EmphasisMark mülk. Bu biçimlendirmeye uygulanan vurgu işaretini alır veya ayarlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/font/emphasismark/
@@ -14,7 +16,7 @@ Bu biçimlendirmeye uygulanan vurgu işaretini alır veya ayarlar.
 public EmphasisMark EmphasisMark { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Glif karakterinin üstünde/altında oluşturulan ek karakterlerin nasıl ekleneceğini gösterir.
 
@@ -37,7 +39,5 @@ builder.Document.Save(ArtifactsDir + "Fonts.SetEmphasisMark.docx");
 
 * enum [EmphasisMark](../../emphasismark/)
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

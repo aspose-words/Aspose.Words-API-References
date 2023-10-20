@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertTableOfContents
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgeye bir TOC içindekiler tablosu alanı ekler.
+linktitle: InsertTableOfContents
+articleTitle: InsertTableOfContents
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertTableOfContents yöntem. Belgeye bir TOC içindekiler tablosu alanı ekler C#'da.
 type: docs
-weight: 470
+weight: 460
 url: /tr/net/aspose.words/documentbuilder/inserttableofcontents/
 ---
 ## DocumentBuilder.InsertTableOfContents method
@@ -18,7 +20,7 @@ public Field InsertTableOfContents(string switches)
 | --- | --- | --- |
 | switches | String | TOC alanı değişir. |
 
-### Notlar
+## Notlar
 
 Bu yöntem, belgenin konumunda geçerli konumuna bir TOC (içindekiler tablosu) alanı ekler.
 
@@ -26,7 +28,7 @@ Bir Word belgesindeki içindekiler tablosu çeşitli şekillerde oluşturulabili
 
 Anahtarları belirtmenin en kolay yolu, Ekle-&gt;Referans-&gt;Dizin ve Tablolar menüsünü, kullanarak bir Word belgesine içerikli bir tablo eklemek ve yapılandırmak, ardından anahtarları görmek için alan kodlarının görünümünü açmaktır. Alan kodlarının görüntülenmesini açmak veya kapatmak için Microsoft Word'de Alt+F9 tuşlarına basabilirsiniz.
 
-Örneğin, bir içindekiler tablosu oluşturduktan sonra belgeye aşağıdaki alan eklenir : **{ TOC \o "1-3" \h \z \u }** . Kopyalayabilirsiniz **\o "1-3" \h \z \u** ve bunu switch parametresi olarak kullanın.
+Örneğin, bir içindekiler tablosu oluşturduktan sonra belgeye aşağıdaki alan eklenir :**{ TOC \o "1-3" \h \z \u }** . Kopyalayabilirsiniz**\o "1-3" \h \z \u** ve bunu switch parametresi olarak kullanın.
 
 Dikkat`InsertTableOfContents` yalnızca bir İçindekiler alanı ekleyecektir, but aslında içindekiler tablosunu oluşturmayacaktır. İçindekiler tablosu, alan güncellendiğinde Microsoft Word tarafından oluşturulur.
 
@@ -34,7 +36,7 @@ Bu yöntemi kullanarak bir içindekiler tablosu eklerseniz ve ardından file dos
 
 Microsoft Word'de, bir belge açıldığında alanlar otomatik olarak güncellenmez, ancak bir belgedeki alanları istediğiniz zaman F9 tuşuna basarak güncelleyebilirsiniz.
 
-### Örnekler
+## Örnekler
 
 Giriş olarak başlık stillerini kullanarak bir belgeye içindekiler tablosunun (TOC) nasıl ekleneceğini gösterir.
 
@@ -87,7 +89,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

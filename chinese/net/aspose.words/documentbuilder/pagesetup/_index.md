@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.PageSetup
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 财产. 返回一个表示当前页面设置和节属性的对象
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder PageSetup 财产. 返回一个表示当前页面设置和节属性的对象 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words/documentbuilder/pagesetup/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbuilder/pagesetup/
 public PageSetup PageSetup { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将页面设置设置应用和恢复到文档中的各个部分。
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * class [PageSetup](../../pagesetup/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

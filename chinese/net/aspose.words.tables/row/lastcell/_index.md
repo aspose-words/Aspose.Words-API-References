@@ -1,7 +1,9 @@
 ---
 title: Row.LastCell
-second_title: Aspose.Words for .NET API 参考
-description: Row 财产. 返回最后一个Cell在行中.
+linktitle: LastCell
+articleTitle: LastCell
+second_title: 用于 .NET 的 Aspose.Words
+description: Row LastCell 财产. 返回最后一个Cell在行中 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.tables/row/lastcell/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/row/lastcell/
 public Cell LastCell { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何打印文档中每个表的节点结构。
 
@@ -178,7 +180,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Cell](../../cell/)
 * class [Row](../)
-* 命名空间 [Aspose.Words.Tables](../../row/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

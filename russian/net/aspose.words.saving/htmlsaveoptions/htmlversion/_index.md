@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.HtmlVersion
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает версию стандарта HTML которую следует использовать при сохранении документа в формате HTML или MHTML. Значение по умолчаниюXhtml .
+linktitle: HtmlVersion
+articleTitle: HtmlVersion
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions HtmlVersion свойство. Указывает версию стандарта HTML которую следует использовать при сохранении документа в формате HTML или MHTML. Значение по умолчаниюXhtml  на С#.
 type: docs
 weight: 330
 url: /ru/net/aspose.words.saving/htmlsaveoptions/htmlversion/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/htmlversion/
 public HtmlVersion HtmlVersion { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как отображать заголовок DOCTYPE при преобразовании документов в переходный стандарт Xhtml 1.0.
 
@@ -80,7 +82,5 @@ switch (htmlVersion)
 
 * enum [HtmlVersion](../../htmlversion/)
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreStructuredDocumentTags
-second_title: Referencia de API de Aspose.Words para .NET
-description: FindReplaceOptions propiedad. Obtiene o establece un valor booleano que indica que se debe ignorar el contenido deStructuredDocumentTag . El valor predeterminado esFALSO .
+linktitle: IgnoreStructuredDocumentTags
+articleTitle: IgnoreStructuredDocumentTags
+second_title: Aspose.Words para .NET
+description: FindReplaceOptions IgnoreStructuredDocumentTags propiedad. Obtiene o establece un valor booleano que indica que se debe ignorar el contenido deStructuredDocumentTag . El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/
@@ -14,13 +16,13 @@ Obtiene o establece un valor booleano que indica que se debe ignorar el contenid
 public bool IgnoreStructuredDocumentTags { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando esta opción está configurada en`verdadero` , el contenido de[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) será tratado como un texto simple.
 
 De lo contrario,[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) se procesará como Story independiente y el patrón de reemplazo se buscará por separado para cada[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/), de modo que si el patrón cruza un[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , entonces no se realizará el reemplazo para dicho patrón.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ignorar el contenido de las etiquetas durante el reemplazo.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.IgnoreStructuredDocumentTags.docx
 ### Ver también
 
 * class [FindReplaceOptions](../)
-* espacio de nombres [Aspose.Words.Replacing](../../findreplaceoptions/)
+* espacio de nombres [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * asamblea [Aspose.Words](../../../)
-
-

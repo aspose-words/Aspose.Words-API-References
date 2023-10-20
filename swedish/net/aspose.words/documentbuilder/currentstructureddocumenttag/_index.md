@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentStructuredDocumentTag
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Hämtar den strukturerade dokumenttaggen som för närvarande är vald i dennaDocumentBuilder .
+linktitle: CurrentStructuredDocumentTag
+articleTitle: CurrentStructuredDocumentTag
+second_title: Aspose.Words för .NET
+description: DocumentBuilder CurrentStructuredDocumentTag fast egendom. Hämtar den strukturerade dokumenttaggen som för närvarande är vald i dennaDocumentBuilder  i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/documentbuilder/currentstructureddocumenttag/
@@ -14,7 +16,7 @@ Hämtar den strukturerade dokumenttaggen som för närvarande är vald i denna[`
 public StructuredDocumentTag CurrentStructuredDocumentTag { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man flyttar markören för DocumentBuilder inuti en strukturerad dokumenttagg.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.LeftExpression
-second_title: Справочник по API Aspose.Words для .NET
-description: ComparisonExpression свойство. Получает левое выражение.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words для .NET
+description: ComparisonExpression LeftExpression свойство. Получает левое выражение на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/comparisonexpression/leftexpression/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/comparisonexpression/leftexpression/
 public string LeftExpression { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как реализовать пользовательскую оценку для полей IF и COMPARE.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Смотрите также
 
 * class [ComparisonExpression](../)
-* пространство имен [Aspose.Words.Fields](../../comparisonexpression/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

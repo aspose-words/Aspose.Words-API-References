@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndBookmark
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Markiert die aktuelle Position im Dokument als Lesezeichenende.
+linktitle: EndBookmark
+articleTitle: EndBookmark
+second_title: Aspose.Words für .NET
+description: DocumentBuilder EndBookmark methode. Markiert die aktuelle Position im Dokument als Lesezeichenende in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words/documentbuilder/endbookmark/
@@ -22,13 +24,13 @@ public BookmarkEnd EndBookmark(string bookmarkName)
 
 Der Lesezeichen-Endknoten, der gerade erstellt wurde.
 
-### Bemerkungen
+## Bemerkungen
 
 Lesezeichen in einem Dokument können sich überlappen und einen beliebigen Bereich umfassen. Um ein gültiges Lesezeichen zu erstellen, müssen Sie beide aufrufen[`StartBookmark`](../startbookmark/) Und`EndBookmark` mit dem gleichen*bookmarkName* -Parameter.
 
 Falsch formatierte Lesezeichen oder Lesezeichen mit doppelten Namen werden beim Speichern des Dokuments ignoriert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Lesezeichen erstellt wird.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

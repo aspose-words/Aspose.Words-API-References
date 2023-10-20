@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBookmarkStart
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند مواجهة بداية إشارة مرجعية في المستند.
+linktitle: VisitBookmarkStart
+articleTitle: VisitBookmarkStart
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitBookmarkStart طريقة. يتم استدعاؤه عند مواجهة بداية إشارة مرجعية في المستند في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/documentvisitor/visitbookmarkstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitBookmarkStart(BookmarkStart bookmarkStart)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة الإشارات المرجعية وتحديث محتوياتها.
 
@@ -113,7 +115,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

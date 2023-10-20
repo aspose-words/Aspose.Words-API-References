@@ -1,18 +1,20 @@
 ---
 title: Aspose.Words.MailMerging
-second_title: Aspose.Words für .NET-API-Referenz
-description: Der Aspose.Words.MailMergingDer Namespace enthält Klassen der ursprünglichen MailMergeBerichtsEngine.
+linktitle: Aspose.Words.MailMerging
+articleTitle: Aspose.Words.MailMerging
+second_title: Aspose.Words für .NET
+description: DerAspose.Words.MailMergingDer Namespace enthält Klassen der ursprünglichen MailMergeBerichtsEngine in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words.mailmerging/
 ---
-Der **Aspose.Words.MailMerging**Der Namespace enthält Klassen der „ursprünglichen“ Mail-Merge-Berichts-Engine.
+Der**Aspose.Words.MailMerging**Der Namespace enthält Klassen der „ursprünglichen“ Mail-Merge-Berichts-Engine.
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [FieldMergingArgs](./fieldmergingargs/) | Stellt Daten für die bereit **MergeField** event. |
+| [FieldMergingArgs](./fieldmergingargs/) | Stellt Daten für die bereit**MergeField** event. |
 | [FieldMergingArgsBase](./fieldmergingargsbase/) | Basisklasse für[`FieldMergingArgs`](../aspose.words.mailmerging/fieldmergingargs/) Und[`ImageFieldMergingArgs`](../aspose.words.mailmerging/imagefieldmergingargs/) . |
 | [ImageFieldMergingArgs](./imagefieldmergingargs/) | Stellt Daten für die bereit[`ImageFieldMerging`](../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/) event. |
 | [MailMerge](./mailmerge/) | Stellt die Serienbrieffunktion dar. |
@@ -32,5 +34,3 @@ Der **Aspose.Words.MailMerging**Der Namespace enthält Klassen der „ursprüngl
 | Aufzählung | Beschreibung |
 | --- | --- |
 | [MailMergeCleanupOptions](./mailmergecleanupoptions/) | Gibt Optionen an, die bestimmen, welche Elemente beim Seriendruck entfernt werden. |
-
-

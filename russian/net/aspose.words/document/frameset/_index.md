@@ -1,7 +1,9 @@
 ---
 title: Document.Frameset
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. ВозвращаетFramesetэкземпляр если этот документ представляет собой страницу фреймов.
+linktitle: Frameset
+articleTitle: Frameset
+second_title: Aspose.Words для .NET
+description: Document Frameset свойство. ВозвращаетFramesetэкземпляр если этот документ представляет собой страницу фреймов на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/document/frameset/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/document/frameset/
 public Frameset Frameset { get; }
 ```
 
-### Примечания
+## Примечания
 
 Если документ не заключен в рамку, свойство имеет`нулевой` значение.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к фреймам на странице.
 
@@ -44,7 +46,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * class [Frameset](../../../aspose.words.framesets/frameset/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

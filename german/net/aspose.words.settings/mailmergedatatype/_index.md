@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeDataType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Settings.MailMergeDataType opsomming. Gibt den Typ einer externen SerienbriefDatenquelle an.
+title: MailMergeDataType Enum
+linktitle: MailMergeDataType
+articleTitle: MailMergeDataType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Settings.MailMergeDataType opsomming. Gibt den Typ einer externen SerienbriefDatenquelle an in C#.
 type: docs
 weight: 5820
 url: /de/net/aspose.words.settings/mailmergedatatype/
@@ -27,7 +29,7 @@ public enum MailMergeDataType
 | Native | `5` | Gibt an, dass ein bestimmtes Dokument über die Office Data Source Object (ODSO)-Schnittstelle mit einer externen Datenquelle verbunden wurde. |
 | Default | `-1` | EntsprichtNone . |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [DataType](../mailmergesettings/datatype/)
 * namensraum [Aspose.Words.Settings](../../aspose.words.settings/)
 * Montage [Aspose.Words](../../)
-
-

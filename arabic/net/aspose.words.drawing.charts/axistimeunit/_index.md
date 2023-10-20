@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTimeUnit
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.AxisTimeUnit تعداد. تحديد الوحدة الزمنية للمحاور.
+title: AxisTimeUnit Enum
+linktitle: AxisTimeUnit
+articleTitle: AxisTimeUnit
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.AxisTimeUnit تعداد. تحديد الوحدة الزمنية للمحاور في C#.
 type: docs
 weight: 600
 url: /ar/net/aspose.words.drawing.charts/axistimeunit/
@@ -23,7 +25,7 @@ public enum AxisTimeUnit
 | Months | `2` | يحدد أن بيانات المخطط يجب أن تظهر خلال أشهر. |
 | Years | `3` | يحدد أن بيانات المخطط يجب أن تظهر بالسنوات. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط بقيم التاريخ/الوقت.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

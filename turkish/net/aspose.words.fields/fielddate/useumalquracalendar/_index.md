@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseUmAlQuraCalendar
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDate mülk. UmalQura takviminin kullanılıp kullanılmayacağını alır veya ayarlar.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words for .NET
+description: FieldDate UseUmAlQuraCalendar mülk. UmalQura takviminin kullanılıp kullanılmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fielddate/useumalquracalendar/
@@ -14,7 +16,7 @@ Um-al-Qura takviminin kullanılıp kullanılmayacağını alır veya ayarlar.
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Farklı takvim türlerine göre tarihleri görüntülemek için TARİH alanlarının nasıl kullanılacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDate](../)
-* ad alanı [Aspose.Words.Fields](../../fielddate/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

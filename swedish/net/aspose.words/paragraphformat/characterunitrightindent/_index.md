@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.CharacterUnitRightIndent
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar eller ställer in rätt indragsvärde i tecken för de angivna styckena.
+linktitle: CharacterUnitRightIndent
+articleTitle: CharacterUnitRightIndent
+second_title: Aspose.Words för .NET
+description: ParagraphFormat CharacterUnitRightIndent fast egendom. Hämtar eller ställer in rätt indragsvärde i tecken för de angivna styckena i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/paragraphformat/characterunitrightindent/
@@ -14,7 +16,7 @@ Hämtar eller ställer in rätt indragsvärde (i tecken) för de angivna stycken
 public double CharacterUnitRightIndent { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ändrar styckeavstånd och indrag.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

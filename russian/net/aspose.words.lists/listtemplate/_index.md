@@ -1,7 +1,9 @@
 ---
-title: Enum ListTemplate
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Lists.ListTemplate перечисление. Указывает один из предопределенных форматов списка доступных в Microsoft Word.
+title: ListTemplate Enum
+linktitle: ListTemplate
+articleTitle: ListTemplate
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Lists.ListTemplate перечисление. Указывает один из предопределенных форматов списка доступных в Microsoft Word на С#.
 type: docs
 weight: 3530
 url: /ru/net/aspose.words.lists/listtemplate/
@@ -41,13 +43,13 @@ public enum ListTemplate
 | OutlineHeadingsNumbers | `18` | Контурный список с уровнями, связанными со стилями заголовков. |
 | OutlineHeadingsChapter | `19` | Контурный список с уровнями, связанными со стилями заголовков. |
 
-### Примечания
+## Примечания
 
 Значение шаблона списка используется в качестве параметра в the .[`Add`](../listcollection/add/) метод.
 
 Шаблоны списков Aspose.Words соответствуют 21 шаблону списков Available в диалоговом окне «Маркеры и нумерация» в Microsoft Word 2003.
 
-### Примеры
+## Примеры
 
 Показывает, как создать документ, содержащий все шаблоны списков структурных заголовков.
 
@@ -184,5 +186,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * пространство имен [Aspose.Words.Lists](../../aspose.words.lists/)
 * сборка [Aspose.Words](../../)
-
-

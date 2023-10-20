@@ -1,7 +1,9 @@
 ---
 title: TextBox.Next
-second_title: Справочник по API Aspose.Words для .NET
-description: TextBox свойство. Возвращает или устанавливаетTextBox который представляет собой следующийTextBox в последовательности фигур.
+linktitle: Next
+articleTitle: Next
+second_title: Aspose.Words для .NET
+description: TextBox Next свойство. Возвращает или устанавливаетTextBox который представляет собой следующийTextBox в последовательности фигур на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing/textbox/next/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/textbox/next/
 public TextBox Next { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как связать текстовые поля.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Смотрите также
 
 * class [TextBox](../)
-* пространство имен [Aspose.Words.Drawing](../../textbox/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

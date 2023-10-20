@@ -1,9 +1,11 @@
 ---
 title: CellFormat.ClearFormatting
-second_title: Aspose.Words för .NET API Referens
-description: CellFormat metod. Återställer till standardcellformatering. Ändrar inte cellens bredd.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words för .NET
+description: CellFormat ClearFormatting metod. Återställer till standardcellformatering. Ändrar inte cellens bredd i C#.
 type: docs
-weight: 160
+weight: 150
 url: /sv/net/aspose.words.tables/cellformat/clearformatting/
 ---
 ## CellFormat.ClearFormatting method
@@ -14,7 +16,7 @@ url: /sv/net/aspose.words.tables/cellformat/clearformatting/
 public void ClearFormatting()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kombinerar raderna från två tabeller till en.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ### Se även
 
 * class [CellFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../cellformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

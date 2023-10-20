@@ -1,7 +1,9 @@
 ---
-title: Enum MsWordVersion
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Settings.MsWordVersion uppräkning. Tillåter Aspose.Wods att efterlikna MS Wordversionsspecifikt programbeteende.
+title: MsWordVersion Enum
+linktitle: MsWordVersion
+articleTitle: MsWordVersion
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Settings.MsWordVersion uppräkning. Tillåter Aspose.Wods att efterlikna MS Wordversionsspecifikt programbeteende i C#.
 type: docs
 weight: 5860
 url: /sv/net/aspose.words.settings/mswordversion/
@@ -27,7 +29,7 @@ public enum MsWordVersion
 | Word2016 | `6` | Optimera Aspose.Words-beteendet för att matcha MS Word 2016-versionen. |
 | Word2019 | `7` | Optimera Aspose.Words-beteendet för att matcha MS Word 2019-versionen. |
 
-### Exempel
+## Exempel
 
 Visar hur man optimerar dokumentet för olika versioner av Microsoft Word.
 
@@ -87,5 +89,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * namnutrymme [Aspose.Words.Settings](../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../)
-
-

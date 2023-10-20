@@ -1,7 +1,9 @@
 ---
 title: ListCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListCollection méthode. Obtient lobjet énumérateur qui énumérera les listes dans le document.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: ListCollection GetEnumerator méthode. Obtient lobjet énumérateur qui énumérera les listes dans le document en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.lists/listcollection/getenumerator/
@@ -14,7 +16,7 @@ Obtient l'objet énumérateur qui énumérera les listes dans le document.
 public IEnumerator<List> GetEnumerator()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un document avec un échantillon de toutes les listes d'un autre document.
 
@@ -54,7 +56,5 @@ private static void AddListSample(DocumentBuilder builder, List list)
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* espace de noms [Aspose.Words.Lists](../../listcollection/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ResourceLoadingArgs
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.ResourceLoadingArgs فصل. يوفر بيانات لـResourceLoading الطريقة.
+title: ResourceLoadingArgs Class
+linktitle: ResourceLoadingArgs
+articleTitle: ResourceLoadingArgs
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.ResourceLoadingArgs فصل. يوفر بيانات لـResourceLoading الطريقة في C#.
 type: docs
 weight: 3690
 url: /ar/net/aspose.words.loading/resourceloadingargs/
@@ -26,9 +28,9 @@ public class ResourceLoadingArgs
 
 | اسم | وصف |
 | --- | --- |
-| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(byte[]) | يعين البيانات المقدمة من المستخدم للمورد الذي يستخدم if[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) يعودUserProvided . |
+| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(*byte[]*) | يعين البيانات المقدمة من المستخدم للمورد الذي يستخدم if[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) يعودUserProvided . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخصيص عملية تحميل الموارد الخارجية إلى مستند.
 
@@ -92,5 +94,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

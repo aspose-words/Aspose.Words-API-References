@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Title
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 获取或设置当前形状对象的标题 caption
+linktitle: Title
+articleTitle: Title
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase Title 财产. 获取或设置当前形状对象的标题 caption 在 C#.
 type: docs
 weight: 530
 url: /zh/net/aspose.words.drawing/shapebase/title/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/shapebase/title/
 public string Title { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认为空字符串。
 
 不可能是`无效的`，但可以是空字符串。
 
-### 例子
+## 例子
 
 演示如何设置形状的标题。
 
@@ -50,7 +52,5 @@ Assert.AreEqual("Title: My cube", shape.AlternativeText);
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

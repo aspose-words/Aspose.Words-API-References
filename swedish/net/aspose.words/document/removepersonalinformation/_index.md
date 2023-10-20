@@ -1,7 +1,9 @@
 ---
 title: Document.RemovePersonalInformation
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar eller ställer in en flagga som indikerar att Microsoft Word kommer att ta bort all användarinformation från kommentarer revisioner och dokumentegenskaper när dokumentet sparas.
+linktitle: RemovePersonalInformation
+articleTitle: RemovePersonalInformation
+second_title: Aspose.Words för .NET
+description: Document RemovePersonalInformation fast egendom. Hämtar eller ställer in en flagga som indikerar att Microsoft Word kommer att ta bort all användarinformation från kommentarer revisioner och dokumentegenskaper när dokumentet sparas i C#.
 type: docs
 weight: 340
 url: /sv/net/aspose.words/document/removepersonalinformation/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en flagga som indikerar att Microsoft Word kommer att 
 public bool RemovePersonalInformation { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man aktiverar borttagning av personlig information under en manuell lagring.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("John Doe", doc.Revisions[0].Author);
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.UseInvariantCultureNumberFormat
-second_title: Aspose.Words for .NET API 参考
-description: FieldOptions 财产. 获取或设置指示使用不变区域性解析数字格式的值或 not
+linktitle: UseInvariantCultureNumberFormat
+articleTitle: UseInvariantCultureNumberFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldOptions UseInvariantCultureNumberFormat 财产. 获取或设置指示使用不变区域性解析数字格式的值或 not 在 C#.
 type: docs
 weight: 210
 url: /zh/net/aspose.words.fields/fieldoptions/useinvariantculturenumberformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldoptions/useinvariantculturenumberformat/
 public bool UseInvariantCultureNumberFormat { get; set; }
 ```
 
-### 评论
+## 评论
 
 当此属性设置为`真的`，数字格式取自不变区域性。
 
@@ -22,7 +24,7 @@ public bool UseInvariantCultureNumberFormat { get; set; }
 
 默认值为`错误的`。
 
-### 例子
+## 例子
 
 演示如何根据不变区域性设置数字格式。
 
@@ -50,7 +52,5 @@ Assert.AreEqual("$1.234.567,89", field.Result);
 ### 也可以看看
 
 * class [FieldOptions](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldoptions/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

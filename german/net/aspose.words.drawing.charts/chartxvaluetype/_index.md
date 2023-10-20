@@ -1,7 +1,9 @@
 ---
-title: Enum ChartXValueType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartXValueType opsomming. Ermöglicht die Angabe des Typs eines XWerts einer Diagrammreihe.
+title: ChartXValueType Enum
+linktitle: ChartXValueType
+articleTitle: ChartXValueType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartXValueType opsomming. Ermöglicht die Angabe des Typs eines XWerts einer Diagrammreihe in C#.
 type: docs
 weight: 860
 url: /de/net/aspose.words.drawing.charts/chartxvaluetype/
@@ -28,5 +30,3 @@ public enum ChartXValueType
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

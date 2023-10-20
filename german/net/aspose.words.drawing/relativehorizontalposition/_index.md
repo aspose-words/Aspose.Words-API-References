@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeHorizontalPosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.RelativeHorizontalPosition opsomming. Gibt an wie relativ die horizontale Position einer Form oder eines Textrahmens ist.
+title: RelativeHorizontalPosition Enum
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.RelativeHorizontalPosition opsomming. Gibt an wie relativ die horizontale Position einer Form oder eines Textrahmens ist in C#.
 type: docs
 weight: 1190
 url: /de/net/aspose.words.drawing/relativehorizontalposition/
@@ -28,7 +30,7 @@ public enum RelativeHorizontalPosition
 | OutsideMargin | `7` | Gibt an, dass die horizontale Positionierung relativ zum äußeren Rand der aktuellen Seite sein soll (der rechte Rand auf ungeraden Seiten, der linke auf geraden Seiten). |
 | Default | `2` | Der Standardwert istColumn . |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein schwebendes Bild in der Mitte einer Seite einfügt.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [RelativeHorizontalPosition](../shapebase/relativehorizontalposition/)
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.BottomLeftCell
-second_title: Aspose.Words für .NET-API-Referenz
-description: ConditionalStyleCollection eigendom. Ruft den Zellenstil unten links ab.
+linktitle: BottomLeftCell
+articleTitle: BottomLeftCell
+second_title: Aspose.Words für .NET
+description: ConditionalStyleCollection BottomLeftCell eigendom. Ruft den Zellenstil unten links ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/conditionalstylecollection/bottomleftcell/
@@ -14,7 +16,7 @@ Ruft den Zellenstil unten links ab.
 public ConditionalStyle BottomLeftCell { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* namensraum [Aspose.Words](../../conditionalstylecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

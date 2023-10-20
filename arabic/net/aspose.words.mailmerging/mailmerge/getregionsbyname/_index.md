@@ -1,7 +1,9 @@
 ---
 title: MailMerge.GetRegionsByName
-second_title: Aspose.Words لمراجع .NET API
-description: MailMerge طريقة. إرجاع مجموعة من مناطق دمج البريد بالاسم المحدد.
+linktitle: GetRegionsByName
+articleTitle: GetRegionsByName
+second_title: Aspose.Words لـ .NET
+description: MailMerge GetRegionsByName طريقة. إرجاع مجموعة من مناطق دمج البريد بالاسم المحدد في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words.mailmerging/mailmerge/getregionsbyname/
@@ -22,7 +24,7 @@ public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
 
 قائمة المناطق.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مناطق دمج البريد وإدراجها وقراءتها.
 
@@ -78,7 +80,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 
 * class [MailMergeRegionInfo](../../mailmergeregioninfo/)
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

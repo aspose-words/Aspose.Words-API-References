@@ -1,20 +1,22 @@
 ---
 title: IStructuredDocumentTag.Title
-second_title: Aspose.Words for .NET API 参考
-description: IStructuredDocumentTag 财产. 指定与此关联的友好名称 特殊测试 . 不能为空
+linktitle: Title
+articleTitle: Title
+second_title: 用于 .NET 的 Aspose.Words
+description: IStructuredDocumentTag Title 财产. 指定与此关联的友好名称特殊测试 . 不能为空 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.markup/istructureddocumenttag/title/
 ---
 ## IStructuredDocumentTag.Title property
 
-指定与此关联的友好名称 **特殊测试** . 不能为空。
+指定与此关联的友好名称**特殊测试** . 不能为空。
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何获取结构化文档标签。
 
@@ -34,7 +36,5 @@ Console.WriteLine(sdt.Id);
 ### 也可以看看
 
 * interface [IStructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../istructureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

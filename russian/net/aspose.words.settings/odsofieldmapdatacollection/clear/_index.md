@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: OdsoFieldMapDataCollection метод. Удаляет все элементы из этой коллекции.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: OdsoFieldMapDataCollection Clear метод. Удаляет все элементы из этой коллекции на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/clear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/clear/
 public void Clear()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, которая сопоставляет столбцы источника данных с полями слияния.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Смотрите также
 
 * class [OdsoFieldMapDataCollection](../)
-* пространство имен [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

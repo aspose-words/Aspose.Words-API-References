@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedFonts
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlFixedSaveOptions propriété. Spécifie si les polices doivent être intégrées dans le document HTML au format Base64. Remarque  la définition de cet indicateur peut augmenter considérablement la taille du fichier HTML de sortie.
+linktitle: ExportEmbeddedFonts
+articleTitle: ExportEmbeddedFonts
+second_title: Aspose.Words pour .NET
+description: HtmlFixedSaveOptions ExportEmbeddedFonts propriété. Spécifie si les polices doivent être intégrées dans le document HTML au format Base64. Remarque  la définition de cet indicateur peut augmenter considérablement la taille du fichier HTML de sortie en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts/
@@ -14,7 +16,7 @@ Spécifie si les polices doivent être intégrées dans le document HTML au form
 public bool ExportEmbeddedFonts { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment déterminer où stocker les polices incorporées lors de l’exportation d’un document au format HTML.
 
@@ -54,7 +56,5 @@ else
 ### Voir également
 
 * class [HtmlFixedSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

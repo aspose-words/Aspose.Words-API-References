@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeDataSource
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.MailMerging.IMailMergeDataSource interfaccia. Implementa questa interfaccia per consentire la stampa unione da unorigine dati personalizzata ad esempio un elenco di oggetti. Sono supportati anche i dati anagrafici.
+title: IMailMergeDataSource Interface
+linktitle: IMailMergeDataSource
+articleTitle: IMailMergeDataSource
+second_title: Aspose.Words per .NET
+description: Aspose.Words.MailMerging.IMailMergeDataSource interfaccia. Implementa questa interfaccia per consentire la stampa unione da unorigine dati personalizzata ad esempio un elenco di oggetti. Sono supportati anche i dati anagrafici in C#.
 type: docs
 weight: 3810
 url: /it/net/aspose.words.mailmerging/imailmergedatasource/
@@ -24,15 +26,15 @@ public interface IMailMergeDataSource
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(string) | Il motore di stampa unione Aspose.Words richiama questo metodo quando incontra l'inizio di una regione di stampa unione nidificata. |
-| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(string, out object) | Restituisce un valore per il nome del campo specificato o`falso` se il campo non viene trovato. |
+| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | Il motore di stampa unione Aspose.Words richiama questo metodo quando incontra l'inizio di una regione di stampa unione nidificata. |
+| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(*string, out object*) | Restituisce un valore per il nome del campo specificato o`falso` se il campo non viene trovato. |
 | [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | Avanza al record successivo nell'origine dati. |
 
-### Osservazioni
+## Osservazioni
 
 Quando viene creata un'origine dati, deve essere inizializzata in modo che punti a BOF (prima del primo record). Il motore di stampa unione Aspose.Words invocherà[`MoveNext`](./movenext/) per avanzare al record successivo e quindi invocare[`GetValue`](./getvalue/) per ogni campo di unione che incontra nel documento o nell'area di stampa unione corrente.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con un'origine dati sotto forma di oggetto personalizzato.
 
@@ -147,5 +149,3 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 
 * spazio dei nomi [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../)
-
-

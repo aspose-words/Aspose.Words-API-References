@@ -1,7 +1,9 @@
 ---
 title: RevisionGroupCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionGroupCollection метод. Возвращает объект перечислителя.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: RevisionGroupCollection GetEnumerator метод. Возвращает объект перечислителя на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/revisiongroupcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/revisiongroupcollection/getenumerator/
 public IEnumerator<RevisionGroup> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией редакций документа.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [RevisionGroup](../../revisiongroup/)
 * class [RevisionGroupCollection](../)
-* пространство имен [Aspose.Words](../../revisiongroupcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

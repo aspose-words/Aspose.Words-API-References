@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.ScalingFactor
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDisplayBarcode eigendom. Ruft einen Skalierungsfaktor für das Symbol ab oder legt diesen fest. Der Wert wird in ganzen Prozentpunkten angegeben und die gültigen Werte sind 10 1000
+linktitle: ScalingFactor
+articleTitle: ScalingFactor
+second_title: Aspose.Words für .NET
+description: FieldDisplayBarcode ScalingFactor eigendom. Ruft einen Skalierungsfaktor für das Symbol ab oder legt diesen fest. Der Wert wird in ganzen Prozentpunkten angegeben und die gültigen Werte sind 10 1000 in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.fields/fielddisplaybarcode/scalingfactor/
@@ -14,7 +16,7 @@ Ruft einen Skalierungsfaktor für das Symbol ab oder legt diesen fest. Der Wert 
 public string ScalingFactor { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein DISPLAYBARCODE-Feld eingefügt und seine Eigenschaften festgelegt werden.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Siehe auch
 
 * class [FieldDisplayBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

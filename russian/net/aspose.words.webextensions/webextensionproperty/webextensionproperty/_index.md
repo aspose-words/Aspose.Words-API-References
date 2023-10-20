@@ -1,7 +1,9 @@
 ---
-title: WebExtensionProperty.WebExtensionProperty
-second_title: Справочник по API Aspose.Words для .NET
-description: WebExtensionProperty строитель. Создает пользовательское свойство вебрасширения с указанным именем и значением.
+title: WebExtensionProperty
+linktitle: WebExtensionProperty
+articleTitle: WebExtensionProperty
+second_title: Aspose.Words для .NET
+description: WebExtensionProperty строитель. Создает пользовательское свойство вебрасширения с указанным именем и значением на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.webextensions/webextensionproperty/webextensionproperty/
@@ -19,7 +21,7 @@ public WebExtensionProperty(string name, string value)
 | name | String | Имя свойства. |
 | value | String | Стоимость имущества. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Смотрите также
 
 * class [WebExtensionProperty](../)
-* пространство имен [Aspose.Words.WebExtensions](../../webextensionproperty/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

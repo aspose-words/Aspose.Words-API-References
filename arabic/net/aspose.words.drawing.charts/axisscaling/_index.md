@@ -1,7 +1,9 @@
 ---
-title: Class AxisScaling
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.AxisScaling فصل. يمثل خيارات القياس للمحور.
+title: AxisScaling Class
+linktitle: AxisScaling
+articleTitle: AxisScaling
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.AxisScaling فصل. يمثل خيارات القياس للمحور في C#.
 type: docs
 weight: 570
 url: /ar/net/aspose.words.drawing.charts/axisscaling/
@@ -31,7 +33,7 @@ public class AxisScaling
 | [Minimum](../../aspose.words.drawing.charts/axisscaling/minimum/) { get; set; } | الحصول على أو تعيين الحد الأدنى لقيمة المحور. |
 | [Type](../../aspose.words.drawing.charts/axisscaling/type/) { get; set; } | الحصول على أو تعيين نوع القياس للمحور. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق القياس اللوغاريتمي على محور المخطط.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Row.Cells
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Row propriété. Fournit un accès typé auCell nœuds enfants de la ligne.
+linktitle: Cells
+articleTitle: Cells
+second_title: Aspose.Words pour .NET
+description: Row Cells propriété. Fournit un accès typé auCell nœuds enfants de la ligne en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.tables/row/cells/
@@ -14,7 +16,7 @@ Fournit un accès typé au[`Cell`](../../cell/) nœuds enfants de la ligne.
 public CellCollection Cells { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir tous les tableaux du document et imprimer le contenu de chaque cellule.
 
@@ -61,7 +63,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [CellCollection](../../cellcollection/)
 * class [Row](../)
-* espace de noms [Aspose.Words.Tables](../../row/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

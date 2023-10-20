@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.DistanceTop
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Belge metni ile şeklin üst kenarı arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar.
+linktitle: DistanceTop
+articleTitle: DistanceTop
+second_title: Aspose.Words for .NET
+description: ShapeBase DistanceTop mülk. Belge metni ile şeklin üst kenarı arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.drawing/shapebase/distancetop/
@@ -14,13 +16,13 @@ Belge metni ile şeklin üst kenarı arasındaki mesafeyi (nokta cinsinden) dön
 public double DistanceTop { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 0'dır.
 
 Yalnızca üst düzey şekiller için etkilidir.
 
-### Örnekler
+## Örnekler
 
 Bir şekli çevreleyen metnin sarma mesafesinin nasıl ayarlanacağını gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Shape.Coordinates.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

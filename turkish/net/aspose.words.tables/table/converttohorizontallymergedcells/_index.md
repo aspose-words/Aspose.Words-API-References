@@ -1,9 +1,11 @@
 ---
 title: Table.ConvertToHorizontallyMergedCells
-second_title: Aspose.Words for .NET API Referansı
-description: Table yöntem. Yatay olarak genişliğe göre birleştirilmiş hücreleri genişliğe göre birleştirilmiş hücrelere dönüştürürHorizontalMerge .
+linktitle: ConvertToHorizontallyMergedCells
+articleTitle: ConvertToHorizontallyMergedCells
+second_title: Aspose.Words for .NET
+description: Table ConvertToHorizontallyMergedCells yöntem. Yatay olarak genişliğe göre birleştirilmiş hücreleri genişliğe göre birleştirilmiş hücrelere dönüştürürHorizontalMerge  C#'da.
 type: docs
-weight: 410
+weight: 390
 url: /tr/net/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
 ## Table.ConvertToHorizontallyMergedCells method
@@ -14,7 +16,7 @@ Yatay olarak genişliğe göre birleştirilmiş hücreleri, genişliğe göre bi
 public void ConvertToHorizontallyMergedCells()
 ```
 
-### Notlar
+## Notlar
 
 Tablo hücreleri, birleştirme bayrakları kullanılarak yatay olarak birleştirilebilir[`HorizontalMerge`](../../cellformat/horizontalmerge/) veya hücre genişliğini kullanarak[`Width`](../../cellformat/width/).
 
@@ -22,7 +24,7 @@ Tablo hücresi genişlik özelliğine göre birleştirildiğinde[`HorizontalMerg
 
 Genişliğe göre yatay olarak birleştirilen tablo hücrelerini, birleştirme bayraklarıyla birleştirilen hücrelere dönüştürmek için bu yöntemi kullanın.
 
-### Örnekler
+## Örnekler
 
 Genişliğe göre yatay olarak birleştirilen hücrelerin CellFormat.HorizontalMerge tarafından birleştirilen hücrelere nasıl dönüştürüleceğini gösterir.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(CellMerge.None, row.Cells[6].CellFormat.HorizontalMerge);
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

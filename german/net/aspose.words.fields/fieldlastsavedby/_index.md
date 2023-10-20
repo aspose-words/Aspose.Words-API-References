@@ -1,7 +1,9 @@
 ---
-title: Class FieldLastSavedBy
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldLastSavedBy klas. Implementiert das Feld LASTSAVEDBY.
+title: FieldLastSavedBy Class
+linktitle: FieldLastSavedBy
+articleTitle: FieldLastSavedBy
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.FieldLastSavedBy klas. Implementiert das Feld LASTSAVEDBY in C#.
 type: docs
 weight: 2100
 url: /de/net/aspose.words.fields/fieldlastsavedby/
@@ -42,17 +44,17 @@ public class FieldLastSavedBy : Field
 | Name | Beschreibung |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
 | [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
-### Bemerkungen
+## Bemerkungen
 
-Ruft den Namen des Benutzers ab, der das aktuelle Dokument zuletzt geändert und gespeichert hat, wie im aufgezeichnet **Zuletzt geändert durch** Eigenschaft der integrierten Dokumenteigenschaften.
+Ruft den Namen des Benutzers ab, der das aktuelle Dokument zuletzt geändert und gespeichert hat, wie im aufgezeichnet**Zuletzt geändert durch** Eigenschaft der integrierten Dokumenteigenschaften.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Feld LASTSAVEDBY verwendet wird.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Field.LASTSAVEDBY.docx");
 * class [Field](../field/)
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

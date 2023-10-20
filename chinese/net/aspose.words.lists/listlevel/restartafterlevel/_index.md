@@ -1,7 +1,9 @@
 ---
 title: ListLevel.RestartAfterLevel
-second_title: Aspose.Words for .NET API 参考
-description: ListLevel 财产. 设置或返回指定列表级别重新编号之前必须出现的列表级别
+linktitle: RestartAfterLevel
+articleTitle: RestartAfterLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevel RestartAfterLevel 财产. 设置或返回指定列表级别重新编号之前必须出现的列表级别 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.lists/listlevel/restartafterlevel/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.lists/listlevel/restartafterlevel/
 public int RestartAfterLevel { get; set; }
 ```
 
-### 评论
+## 评论
 
 值-1表示将继续编号。
 
-### 例子
+## 例子
 
 显示自定义列表标签的高级方法。
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### 也可以看看
 
 * class [ListLevel](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevel/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

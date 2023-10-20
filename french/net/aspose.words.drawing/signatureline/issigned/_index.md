@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.IsSigned
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SignatureLine propriété. Indique que la ligne de signature est signée par signature numérique.
+linktitle: IsSigned
+articleTitle: IsSigned
+second_title: Aspose.Words pour .NET
+description: SignatureLine IsSigned propriété. Indique que la ligne de signature est signée par signature numérique en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.drawing/signatureline/issigned/
@@ -14,7 +16,7 @@ Indique que la ligne de signature est signée par signature numérique.
 public bool IsSigned { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment signer un document avec un certificat personnel et une ligne de signature.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Voir également
 
 * class [SignatureLine](../)
-* espace de noms [Aspose.Words.Drawing](../../signatureline/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

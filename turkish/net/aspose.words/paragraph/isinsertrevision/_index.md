@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsInsertRevision
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Bu nesne Microsoft Worde değişiklik izleme etkinken eklenmişse doğru değerini döndürür.
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: Aspose.Words for .NET
+description: Paragraph IsInsertRevision mülk. Bu nesne Microsoft Worde değişiklik izleme etkinken eklenmişse doğru değerini döndürür C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/paragraph/isinsertrevision/
@@ -14,7 +16,7 @@ Bu nesne Microsoft Word'e değişiklik izleme etkinken eklenmişse doğru değer
 public bool IsInsertRevision { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Revizyon paragraflarıyla nasıl çalışılacağını gösterir.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(
 ### Ayrıca bakınız
 
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

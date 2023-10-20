@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Family
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontInfo propriété. Obtient ou définit la famille de polices à laquelle appartient cette police.
+linktitle: Family
+articleTitle: Family
+second_title: Aspose.Words pour .NET
+description: FontInfo Family propriété. Obtient ou définit la famille de polices à laquelle appartient cette police en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fonts/fontinfo/family/
@@ -14,7 +16,7 @@ Obtient ou définit la famille de polices à laquelle appartient cette police.
 public FontFamily Family { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder et imprimer les détails de chaque police dans un document.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontFamily](../../fontfamily/)
 * class [FontInfo](../)
-* espace de noms [Aspose.Words.Fonts](../../fontinfo/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

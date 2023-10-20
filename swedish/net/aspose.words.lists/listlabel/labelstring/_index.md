@@ -1,7 +1,9 @@
 ---
 title: ListLabel.LabelString
-second_title: Aspose.Words för .NET API Referens
-description: ListLabel fast egendom. Får en strängrepresentation av listetikett.
+linktitle: LabelString
+articleTitle: LabelString
+second_title: Aspose.Words för .NET
+description: ListLabel LabelString fast egendom. Får en strängrepresentation av listetikett i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.lists/listlabel/labelstring/
@@ -14,7 +16,7 @@ Får en strängrepresentation av listetikett.
 public string LabelString { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar listetiketterna för alla stycken som är listobjekt.
 
@@ -49,7 +51,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### Se även
 
 * class [ListLabel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlabel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

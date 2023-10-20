@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndEditableRange
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将文档中的当前位置标记为可编辑范围结束
+linktitle: EndEditableRange
+articleTitle: EndEditableRange
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder EndEditableRange 方法. 将文档中的当前位置标记为可编辑范围结束 在 C#.
 type: docs
 weight: 230
 url: /zh/net/aspose.words/documentbuilder/endeditablerange/
@@ -18,13 +20,13 @@ public EditableRangeEnd EndEditableRange()
 
 刚刚创建的可编辑范围结束节点。
 
-### 评论
+## 评论
 
 文档中的可编辑范围可以重叠和跨越任何范围。要创建有效的可编辑范围，您需要 调用两者[`StartEditableRange`](../starteditablerange/)和`EndEditableRange` 或`EndEditableRange`方法。
 
 保存文档时，格式错误的可编辑范围将被忽略。
 
-### 例子
+## 例子
 
 展示如何使用可编辑范围。
 
@@ -71,12 +73,12 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## EndEditableRange(EditableRangeStart) {#endeditablerange_1}
+## EndEditableRange(*[EditableRangeStart](../../editablerangestart/)*) {#endeditablerange_1}
 
 将文档中的当前位置标记为可编辑范围结束。
 
@@ -92,7 +94,7 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 
 刚刚创建的可编辑范围结束节点。
 
-### 评论
+## 评论
 
 在创建嵌套可编辑范围期间使用此重载。
 
@@ -100,7 +102,7 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 
 保存文档时，格式错误的可编辑范围将被忽略。
 
-### 例子
+## 例子
 
 演示如何创建嵌套的可编辑范围。
 
@@ -143,7 +145,5 @@ doc.Save(ArtifactsDir + "EditableRange.Nested.docx");
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

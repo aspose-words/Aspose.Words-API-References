@@ -1,7 +1,9 @@
 ---
 title: Odso.FieldMapDatas
-second_title: Aspose.Words for .NET API 参考
-description: Odso 财产. 获取或设置对象集合这些对象指定如何将外部数据源 中的列映射到文档中的预定义合并字段名称 该对象从不无效的.
+linktitle: FieldMapDatas
+articleTitle: FieldMapDatas
+second_title: 用于 .NET 的 Aspose.Words
+description: Odso FieldMapDatas 财产. 获取或设置对象集合这些对象指定如何将外部数据源 中的列映射到文档中的预定义合并字段名称 该对象从不无效的 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.settings/odso/fieldmapdatas/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/odso/fieldmapdatas/
 public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问将数据源列映射到合并字段的数据集合。
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapDataCollection](../../odsofieldmapdatacollection/)
 * class [Odso](../)
-* 命名空间 [Aspose.Words.Settings](../../odso/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

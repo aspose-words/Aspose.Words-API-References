@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.RemoveAt
-second_title: Aspose.Words لمراجع .NET API
-description: SdtListItemCollection طريقة. إزالة عنصر قائمة في الفهرس المحدد.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words لـ .NET
+description: SdtListItemCollection RemoveAt طريقة. إزالة عنصر قائمة في الفهرس المحدد في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.markup/sdtlistitemcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | الفهرس الصفري للعنصر المراد إزالته. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع علامات المستندات المنظمة ذات القائمة المنسدلة.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### أنظر أيضا
 
 * class [SdtListItemCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

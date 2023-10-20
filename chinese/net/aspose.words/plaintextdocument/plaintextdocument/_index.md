@@ -1,12 +1,14 @@
 ---
-title: PlainTextDocument.PlainTextDocument
-second_title: Aspose.Words for .NET API 参考
-description: PlainTextDocument 构造函数. 从文件创建纯文本文档自动检测文件格式
+title: PlainTextDocument
+linktitle: PlainTextDocument
+articleTitle: PlainTextDocument
+second_title: 用于 .NET 的 Aspose.Words
+description: PlainTextDocument 构造函数. 从文件创建纯文本文档自动检测文件格式 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/plaintextdocument/plaintextdocument/
 ---
-## PlainTextDocument(string) {#constructor_2}
+## PlainTextDocument(*string*) {#constructor_2}
 
 从文件创建纯文本文档。自动检测文件格式。
 
@@ -29,7 +31,7 @@ public PlainTextDocument(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | 该文档已加密，需要密码才能打开，但您提供的密码不正确。 |
 | ArgumentException | 文件名不能为空或空字符串。 |
 
-### 例子
+## 例子
 
 演示如何以纯文本形式加载 Microsoft Word 文档的内容。
 
@@ -48,12 +50,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### 也可以看看
 
 * class [PlainTextDocument](../)
-* 命名空间 [Aspose.Words](../../plaintextdocument/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(string, LoadOptions) {#constructor_3}
+## PlainTextDocument(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_3}
 
 从文件创建纯文本文档。允许指定其他选项，例如加密密码。
 
@@ -77,7 +79,7 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | 该文档已加密，需要密码才能打开，但您提供的密码不正确。 |
 | ArgumentException | 文件名不能为空或空字符串。 |
 
-### 例子
+## 例子
 
 演示如何以纯文本形式加载加密的 Microsoft Word 文档的内容。
 
@@ -103,12 +105,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* 命名空间 [Aspose.Words](../../plaintextdocument/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream) {#constructor}
+## PlainTextDocument(*Stream*) {#constructor}
 
 从流创建纯文本文档。自动检测文件格式。
 
@@ -133,11 +135,11 @@ public PlainTextDocument(Stream stream)
 | NotSupportedException | 该流不支持读取或查找。 |
 | ObjectDisposedException | 流是一个已处理的对象。 |
 
-### 评论
+## 评论
 
 文档必须存储在流的开头。流必须支持随机定位。
 
-### 例子
+## 例子
 
 演示如何使用流以纯文本形式加载 Microsoft Word 文档的内容。
 
@@ -159,12 +161,12 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 ### 也可以看看
 
 * class [PlainTextDocument](../)
-* 命名空间 [Aspose.Words](../../plaintextdocument/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream, LoadOptions) {#constructor_1}
+## PlainTextDocument(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_1}
 
 从流创建纯文本文档。允许指定其他选项，例如加密密码。
 
@@ -190,11 +192,11 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | 该流不支持读取或查找。 |
 | ObjectDisposedException | 流是一个已处理的对象。 |
 
-### 评论
+## 评论
 
 文档必须存储在流的开头。流必须支持随机定位。
 
-### 例子
+## 例子
 
 演示如何使用流以纯文本形式加载加密的 Microsoft Word 文档的内容。
 
@@ -224,7 +226,5 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* 命名空间 [Aspose.Words](../../plaintextdocument/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

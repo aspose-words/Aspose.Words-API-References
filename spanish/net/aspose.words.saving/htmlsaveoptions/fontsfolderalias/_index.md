@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontsFolderAlias
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica el nombre de la carpeta utilizada para construir URI de fuentes escritas en un documento HTML. El valor predeterminado es una cadena vacía.
+linktitle: FontsFolderAlias
+articleTitle: FontsFolderAlias
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions FontsFolderAlias propiedad. Especifica el nombre de la carpeta utilizada para construir URI de fuentes escritas en un documento HTML. El valor predeterminado es una cadena vacía en C#.
 type: docs
 weight: 320
 url: /es/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/
@@ -14,7 +16,7 @@ Especifica el nombre de la carpeta utilizada para construir URI de fuentes escri
 public string FontsFolderAlias { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando guardas un[`Document`](../../../aspose.words/document/) en formato HTML y[`ExportFontResources`](../exportfontresources/) está configurado en`verdadero` , Aspose.Words necesita guardar las fuentes utilizadas en el documento como archivos independientes. [`FontsFolder`](../fontsfolder/) le permite especificar dónde se guardarán las fuentes y `FontsFolderAlias` permite especificar cómo se construirán los URI de fuente.
 
@@ -26,7 +28,7 @@ Si`FontsFolderAlias`se establece en '.' (punto), el nombre del archivo de fuente
 
 Una forma alternativa de especificar el nombre de la carpeta para construir la fuente URIs es usar[`ResourceFolderAlias`](../resourcefolderalias/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar carpetas y alias de carpetas para recursos guardados externamente que Aspose.Words creará al guardar un documento en HTML.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Ver también
 
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

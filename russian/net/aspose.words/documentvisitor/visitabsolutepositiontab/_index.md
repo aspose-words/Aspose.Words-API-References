@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitAbsolutePositionTab
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когдаAbsolutePositionTab в документе встречается узел.
+linktitle: VisitAbsolutePositionTab
+articleTitle: VisitAbsolutePositionTab
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitAbsolutePositionTab метод. Вызывается когдаAbsolutePositionTab в документе встречается узел на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/documentvisitor/visitabsolutepositiontab/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как обрабатывать символы табуляции абсолютного положения с помощью посетителя документа.
 
@@ -100,7 +102,5 @@ public class DocTextExtractor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [AbsolutePositionTab](../../absolutepositiontab/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

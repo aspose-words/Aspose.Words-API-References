@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: SdtListItemCollection fast egendom. Får antal föremål i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: SdtListItemCollection Count fast egendom. Får antal föremål i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/sdtlistitemcollection/count/
@@ -14,7 +16,7 @@ Får antal föremål i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med strukturerade dokumenttaggar i listrutan.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Se även
 
 * class [SdtListItemCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataPointCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataPointCollection 财产. 返回数量ChartDataPoint在这个集合中.
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataPointCollection Count 财产. 返回数量ChartDataPoint在这个集合中 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartdatapointcollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartdatapointcollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用折线图上的数据点。
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### 也可以看看
 
 * class [ChartDataPointCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

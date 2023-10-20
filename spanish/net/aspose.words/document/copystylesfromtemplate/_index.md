@@ -1,12 +1,14 @@
 ---
 title: Document.CopyStylesFromTemplate
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document método. Copia estilos de la plantilla especificada a un documento.
+linktitle: CopyStylesFromTemplate
+articleTitle: CopyStylesFromTemplate
+second_title: Aspose.Words para .NET
+description: Document CopyStylesFromTemplate método. Copia estilos de la plantilla especificada a un documento en C#.
 type: docs
-weight: 590
+weight: 570
 url: /es/net/aspose.words/document/copystylesfromtemplate/
 ---
-## CopyStylesFromTemplate(string) {#copystylesfromtemplate_1}
+## CopyStylesFromTemplate(*string*) {#copystylesfromtemplate_1}
 
 Copia estilos de la plantilla especificada a un documento.
 
@@ -14,11 +16,11 @@ Copia estilos de la plantilla especificada a un documento.
 public void CopyStylesFromTemplate(string template)
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando se copian estilos de una plantilla a un documento, los estilos con nombres similares en el documento se redefinen para que coincidan con las descripciones de estilo en la plantilla. Los estilos únicos de la plantilla se copian en el documento. Los estilos únicos del documento permanecen intactos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo copiar estilos de un documento a otro.
 
@@ -70,12 +72,12 @@ Assert.AreEqual(21, target.Styles.Count);
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## CopyStylesFromTemplate(Document) {#copystylesfromtemplate}
+## CopyStylesFromTemplate(*[Document](../)*) {#copystylesfromtemplate}
 
 Copia estilos de la plantilla especificada a un documento.
 
@@ -83,11 +85,11 @@ Copia estilos de la plantilla especificada a un documento.
 public void CopyStylesFromTemplate(Document template)
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando se copian estilos de una plantilla a un documento, los estilos con nombres similares en el documento se redefinen para que coincidan con las descripciones de estilo en la plantilla. Los estilos únicos de la plantilla se copian en el documento. Los estilos únicos del documento permanecen intactos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo copiar estilos de la plantilla a un documento a través de Documento.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(21, target.Styles.Count);
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

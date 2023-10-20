@@ -1,7 +1,9 @@
 ---
 title: VbaReferenceCollection.RemoveAt
-second_title: Aspose.Words لمراجع .NET API
-description: VbaReferenceCollection طريقة. يزيلVbaReference العنصر في الفهرس المحدد للمجموعة.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words لـ .NET
+description: VbaReferenceCollection RemoveAt طريقة. يزيلVbaReference العنصر في الفهرس المحدد للمجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.vba/vbareferencecollection/removeat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.vba/vbareferencecollection/removeat/
 public void RemoveAt(int index)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على/إزالة عنصر من المجموعة المرجعية لـ VBA.
 
@@ -88,7 +90,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 ### أنظر أيضا
 
 * class [VbaReferenceCollection](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbareferencecollection/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: WarningInfoCollection 财产. 获取集合中包含的元素数量
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: WarningInfoCollection Count 财产. 获取集合中包含的元素数量 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/warninginfocollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### 也可以看看
 
 * class [WarningInfoCollection](../)
-* 命名空间 [Aspose.Words](../../warninginfocollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

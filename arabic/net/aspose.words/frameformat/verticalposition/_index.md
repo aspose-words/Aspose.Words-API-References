@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalPosition
-second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. يحصل على المسافة العمودية بين حافة الإطار والعنصر المحدد بواسطةRelativeVerticalPosition الملكية.
+linktitle: VerticalPosition
+articleTitle: VerticalPosition
+second_title: Aspose.Words لـ .NET
+description: FrameFormat VerticalPosition ملكية. يحصل على المسافة العمودية بين حافة الإطار والعنصر المحدد بواسطةRelativeVerticalPosition الملكية في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/frameformat/verticalposition/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/frameformat/verticalposition/
 public double VerticalPosition { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### أنظر أيضا
 
 * class [FrameFormat](../)
-* مساحة الاسم [Aspose.Words](../../frameformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

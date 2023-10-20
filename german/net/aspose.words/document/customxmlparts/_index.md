@@ -1,7 +1,9 @@
 ---
 title: Document.CustomXmlParts
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft die Sammlung benutzerdefinierter XMLDatenspeicherteile ab oder legt diese fest.
+linktitle: CustomXmlParts
+articleTitle: CustomXmlParts
+second_title: Aspose.Words für .NET
+description: Document CustomXmlParts eigendom. Ruft die Sammlung benutzerdefinierter XMLDatenspeicherteile ab oder legt diese fest in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/document/customxmlparts/
@@ -14,13 +16,13 @@ Ruft die Sammlung benutzerdefinierter XML-Datenspeicherteile ab oder legt diese 
 public CustomXmlPartCollection CustomXmlParts { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Aspose.Words lädt und speichert benutzerdefinierte XML-Teile nur in OOXML- und DOC-Dokumenten.
 
 Diese Eigenschaft kann nicht sein`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein strukturiertes Dokument-Tag mit benutzerdefinierten XML-Daten erstellt wird.
 
@@ -88,7 +90,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPartCollection](../../../aspose.words.markup/customxmlpartcollection/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

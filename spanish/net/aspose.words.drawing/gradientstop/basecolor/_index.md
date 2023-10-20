@@ -1,7 +1,9 @@
 ---
 title: GradientStop.BaseColor
-second_title: Referencia de API de Aspose.Words para .NET
-description: GradientStop propiedad. Obtiene un valor que representa el color del punto de parada del degradado sin ningún modificador.
+linktitle: BaseColor
+articleTitle: BaseColor
+second_title: Aspose.Words para .NET
+description: GradientStop BaseColor propiedad. Obtiene un valor que representa el color del punto de parada del degradado sin ningún modificador en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing/gradientstop/basecolor/
@@ -14,7 +16,7 @@ Obtiene un valor que representa el color del punto de parada del degradado sin n
 public Color BaseColor { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar paradas de degradado al relleno de degradado.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Ver también
 
 * class [GradientStop](../)
-* espacio de nombres [Aspose.Words.Drawing](../../gradientstop/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ResourcesFolderAlias
-second_title: Aspose.Words för .NET API Referens
-description: HtmlFixedSaveOptions fast egendom. Anger namnet på mappen som används för att konstruera bildURIer inskrivna i ett HTMLdokument. Standard ärnull .
+linktitle: ResourcesFolderAlias
+articleTitle: ResourcesFolderAlias
+second_title: Aspose.Words för .NET
+description: HtmlFixedSaveOptions ResourcesFolderAlias fast egendom. Anger namnet på mappen som används för att konstruera bildURIer inskrivna i ett HTMLdokument. Standard ärnull  i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolderalias/
@@ -14,11 +16,11 @@ Anger namnet på mappen som används för att konstruera bild-URI:er inskrivna i
 public string ResourcesFolderAlias { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När du sparar en[`Document`](../../../aspose.words/document/) i HTML-format måste Aspose.Words spara all bilder inbäddade i dokumentet som fristående filer.[`ResourcesFolder`](../resourcesfolder/) låter dig ange var bilderna ska sparas och`ResourcesFolderAlias` tillåter att specificera hur bildens URI:er kommer att konstrueras.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att skriva ut URI:erna för externa resurser som skapats när ett dokument konverterades till HTML.
 
@@ -97,7 +99,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Se även
 
 * class [HtmlFixedSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

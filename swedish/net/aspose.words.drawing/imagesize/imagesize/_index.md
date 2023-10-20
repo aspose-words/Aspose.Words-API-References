@@ -1,12 +1,14 @@
 ---
-title: ImageSize.ImageSize
-second_title: Aspose.Words för .NET API Referens
-description: ImageSize byggare. Initierar bredd och höjd till de givna värdena i pixlar. Initierar upplösning till 96 dpi.
+title: ImageSize
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words för .NET
+description: ImageSize byggare. Initierar bredd och höjd till de givna värdena i pixlar. Initierar upplösning till 96 dpi i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/imagesize/imagesize/
 ---
-## ImageSize(int, int) {#constructor}
+## ImageSize(*int, int*) {#constructor}
 
 Initierar bredd och höjd till de givna värdena i pixlar. Initierar upplösning till 96 dpi.
 
@@ -22,12 +24,12 @@ public ImageSize(int widthPixels, int heightPixels)
 ### Se även
 
 * class [ImageSize](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagesize/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## ImageSize(int, int, double, double) {#constructor_1}
+## ImageSize(*int, int, double, double*) {#constructor_1}
 
 Initierar bredd, höjd och upplösning till de givna värdena.
 
@@ -46,7 +48,5 @@ public ImageSize(int widthPixels, int heightPixels, double horizontalResolution,
 ### Se även
 
 * class [ImageSize](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagesize/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

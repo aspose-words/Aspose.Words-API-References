@@ -1,7 +1,9 @@
 ---
-title: Class PageInfo
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Rendering.PageInfo сорт. Представляет информацию об определенной странице документа.
+title: PageInfo Class
+linktitle: PageInfo
+articleTitle: PageInfo
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Rendering.PageInfo сорт. Представляет информацию об определенной странице документа на С#.
 type: docs
 weight: 4570
 url: /ru/net/aspose.words.rendering/pageinfo/
@@ -32,16 +34,16 @@ public class PageInfo
 
 | Имя | Описание |
 | --- | --- |
-| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | ПолучаетPaperSize объект, подходящий для печати страницы, представленной этим`PageInfo` . |
-| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(float, float) | Вычисляет размер страницы в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | Вычисляет размер страницы в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | ПолучаетPaperSource объект, подходящий для печати страницы, представленной этим`PageInfo` . |
+| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(*PaperSizeCollection*) | ПолучаетPaperSize объект, подходящий для печати страницы, представленной этим`PageInfo` . |
+| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(*float, float*) | Вычисляет размер страницы в пикселях для указанного коэффициента масштабирования и разрешения. |
+| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(*float, float, float*) | Вычисляет размер страницы в пикселях для указанного коэффициента масштабирования и разрешения. |
+| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(*PaperSourceCollection, PaperSource*) | ПолучаетPaperSource объект, подходящий для печати страницы, представленной этим`PageInfo` . |
 
-### Примечания
+## Примечания
 
 Ширина и высота страницы, возвращаемые этим объектом, представляют «окончательный» размер страницы, например, они уже повернуты в правильную ориентацию.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать информацию о размере и ориентации страницы для каждой страницы документа Word.
 
@@ -84,5 +86,3 @@ for (int i = 0; i < doc.PageCount; i++)
 
 * пространство имен [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../)
-
-

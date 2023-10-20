@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.BlockImportMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlLoadOptions propriété. Obtient ou définit une valeur qui spécifie la manière dont les propriétés des éléments de niveau bloc sont importées. La valeur par défaut estMerge .
+linktitle: BlockImportMode
+articleTitle: BlockImportMode
+second_title: Aspose.Words pour .NET
+description: HtmlLoadOptions BlockImportMode propriété. Obtient ou définit une valeur qui spécifie la manière dont les propriétés des éléments de niveau bloc sont importées. La valeur par défaut estMerge  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.loading/htmlloadoptions/blockimportmode/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur qui spécifie la manière dont les propriétés d
 public BlockImportMode BlockImportMode { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment les propriétés des éléments de niveau bloc sont importées à partir de documents HTML.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BlockImport.docx");
 
 * enum [BlockImportMode](../../blockimportmode/)
 * class [HtmlLoadOptions](../)
-* espace de noms [Aspose.Words.Loading](../../htmlloadoptions/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

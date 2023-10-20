@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Text
-second_title: Aspose.Words per .NET API Reference
-description: LayoutEnumerator proprietà. Ottiene il testo dellentità span corrente. Lancia per altri tipi di entità.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words per .NET
+description: LayoutEnumerator Text proprietà. Ottiene il testo dellentità span corrente. Lancia per altri tipi di entità in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.layout/layoutenumerator/text/
@@ -14,7 +16,7 @@ Ottiene il testo dell'entità span corrente. Lancia per altri tipi di entità.
 public string Text { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra le modalità per attraversare le entità di layout di un documento.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Guarda anche
 
 * class [LayoutEnumerator](../)
-* spazio dei nomi [Aspose.Words.Layout](../../layoutenumerator/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

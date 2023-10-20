@@ -1,7 +1,9 @@
 ---
-title: Class VbaExecutableAttribute
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Vba.VbaExecutableAttribute فصل. 
+title: VbaExecutableAttribute Class
+linktitle: VbaExecutableAttribute
+articleTitle: VbaExecutableAttribute
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Vba.VbaExecutableAttribute فصل.  في C#.
 type: docs
 weight: 6540
 url: /ar/net/aspose.words.vba/vbaexecutableattribute/
@@ -23,5 +25,3 @@ public class VbaExecutableAttribute : Attribute
 
 * مساحة الاسم [Aspose.Words.Vba](../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../)
-
-

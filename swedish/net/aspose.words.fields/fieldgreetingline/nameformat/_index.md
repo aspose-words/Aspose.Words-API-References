@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.NameFormat
-second_title: Aspose.Words för .NET API Referens
-description: FieldGreetingLine fast egendom. Hämtar eller ställer in formatet för namnet som ingår i fältet.
+linktitle: NameFormat
+articleTitle: NameFormat
+second_title: Aspose.Words för .NET
+description: FieldGreetingLine NameFormat fast egendom. Hämtar eller ställer in formatet för namnet som ingår i fältet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldgreetingline/nameformat/
@@ -14,7 +16,7 @@ Hämtar eller ställer in formatet för namnet som ingår i fältet.
 public string NameFormat { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett HÄLSNINGSLINJE-fält.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Se även
 
 * class [FieldGreetingLine](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldgreetingline/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

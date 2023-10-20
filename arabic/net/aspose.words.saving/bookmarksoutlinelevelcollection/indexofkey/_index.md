@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.IndexOfKey
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarksOutlineLevelCollection طريقة. إرجاع الفهرس الصفري للإشارة المرجعية المحددة في المجموعة.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words لـ .NET
+description: BookmarksOutlineLevelCollection IndexOfKey طريقة. إرجاع الفهرس الصفري للإشارة المرجعية المحددة في المجموعة في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 المؤشر القائم على الصفر. قيمة سلبية إذا لم يتم العثور عليها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين مستويات المخطط التفصيلي للإشارات المرجعية.
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### أنظر أيضا
 
 * class [BookmarksOutlineLevelCollection](../)
-* مساحة الاسم [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

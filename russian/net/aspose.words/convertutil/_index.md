@@ -1,7 +1,9 @@
 ---
-title: Class ConvertUtil
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.ConvertUtil сорт. Предоставляет вспомогательные функции для преобразования различных единиц измерения.
+title: ConvertUtil Class
+linktitle: ConvertUtil
+articleTitle: ConvertUtil
+second_title: Aspose.Words для .NET
+description: Aspose.Words.ConvertUtil сорт. Предоставляет вспомогательные функции для преобразования различных единиц измерения на С#.
 type: docs
 weight: 360
 url: /ru/net/aspose.words/convertutil/
@@ -20,16 +22,16 @@ public static class ConvertUtil
 
 | Имя | Описание |
 | --- | --- |
-| static [InchToPoint](../../aspose.words/convertutil/inchtopoint/)(double) | Преобразует дюймы в пункты. |
-| static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint/)(double) | Преобразует миллиметры в точки. |
-| static [PixelToNewDpi](../../aspose.words/convertutil/pixeltonewdpi/)(double, double, double) | Преобразует пиксели из одного разрешения в другое. |
-| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(double) | Преобразует пиксели в точки с разрешением 96 точек на дюйм. |
-| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint_1)(double, double) | Преобразует пиксели в точки с указанным разрешением в пикселях. |
-| static [PointToInch](../../aspose.words/convertutil/pointtoinch/)(double) | Преобразует точки в дюймы. |
-| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(double) | Преобразует точки в пиксели с разрешением 96 точек на дюйм. |
-| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(double, double) | Преобразует точки в пиксели с указанным разрешением в пикселях. |
+| static [InchToPoint](../../aspose.words/convertutil/inchtopoint/)(*double*) | Преобразует дюймы в пункты. |
+| static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint/)(*double*) | Преобразует миллиметры в точки. |
+| static [PixelToNewDpi](../../aspose.words/convertutil/pixeltonewdpi/)(*double, double, double*) | Преобразует пиксели из одного разрешения в другое. |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(*double*) | Преобразует пиксели в точки с разрешением 96 точек на дюйм. |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint_1)(*double, double*) | Преобразует пиксели в точки с указанным разрешением в пикселях. |
+| static [PointToInch](../../aspose.words/convertutil/pointtoinch/)(*double*) | Преобразует точки в дюймы. |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(*double*) | Преобразует точки в пиксели с разрешением 96 точек на дюйм. |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(*double, double*) | Преобразует точки в пиксели с указанным разрешением в пикселях. |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить размер бумаги, ориентацию, поля и другие параметры раздела.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndInches.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

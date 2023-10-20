@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.PageIndex
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutEnumerator ملكية. الحصول على الفهرس المستند إلى 1 للصفحة التي تحتوي على الكيان الحالي.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words لـ .NET
+description: LayoutEnumerator PageIndex ملكية. الحصول على الفهرس المستند إلى 1 للصفحة التي تحتوي على الكيان الحالي في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.layout/layoutenumerator/pageindex/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/layoutenumerator/pageindex/
 public int PageIndex { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يُظهر طرق اجتياز كيانات تخطيط المستند.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### أنظر أيضا
 
 * class [LayoutEnumerator](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutenumerator/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

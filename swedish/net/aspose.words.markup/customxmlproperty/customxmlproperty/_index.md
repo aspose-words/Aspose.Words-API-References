@@ -1,7 +1,9 @@
 ---
-title: CustomXmlProperty.CustomXmlProperty
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlProperty byggare. Initierar en ny instans av den här klassen.
+title: CustomXmlProperty
+linktitle: CustomXmlProperty
+articleTitle: CustomXmlProperty
+second_title: Aspose.Words för .NET
+description: CustomXmlProperty byggare. Initierar en ny instans av den här klassen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/customxmlproperty/customxmlproperty/
@@ -20,7 +22,7 @@ public CustomXmlProperty(string name, string uri, string value)
 | uri | String | Namnutrymmets URI för egendomen. Kan inte vara`null`. |
 | value | String | Fastighetens värde. Kan inte vara`null`. |
 
-### Exempel
+## Exempel
 
 Visar hur man skapar smarta taggar.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Se även
 
 * class [CustomXmlProperty](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlproperty/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

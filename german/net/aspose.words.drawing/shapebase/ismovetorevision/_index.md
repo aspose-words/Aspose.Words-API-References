@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsMoveToRevision
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Gibt zurückWAHR wenn dieses Objekt in Microsoft Word verschoben eingefügt wurde während die Änderungsverfolgung aktiviert war.
+linktitle: IsMoveToRevision
+articleTitle: IsMoveToRevision
+second_title: Aspose.Words für .NET
+description: ShapeBase IsMoveToRevision eigendom. Gibt zurückWAHR wenn dieses Objekt in Microsoft Word verschoben eingefügt wurde während die Änderungsverfolgung aktiviert war in C#.
 type: docs
 weight: 330
 url: /de/net/aspose.words.drawing/shapebase/ismovetorevision/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn dieses Objekt in Microsoft Word verschoben (eingefügt) 
 public bool IsMoveToRevision { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Verschiebungsrevisionsformen identifiziert werden.
 
@@ -46,7 +48,5 @@ Assert.False(shapes[1].IsMoveToRevision);
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

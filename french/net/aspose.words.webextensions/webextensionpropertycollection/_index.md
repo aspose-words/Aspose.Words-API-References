@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionPropertyCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.WebExtensions.WebExtensionPropertyCollection classe. Spécifie un ensemble de propriétés personnalisées dextension Web.
+title: WebExtensionPropertyCollection Class
+linktitle: WebExtensionPropertyCollection
+articleTitle: WebExtensionPropertyCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.WebExtensions.WebExtensionPropertyCollection classe. Spécifie un ensemble de propriétés personnalisées dextension Web en C#.
 type: docs
 weight: 6790
 url: /fr/net/aspose.words.webextensions/webextensionpropertycollection/
@@ -27,12 +29,12 @@ public class WebExtensionPropertyCollection : BaseWebExtensionCollection<WebExte
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(WebExtensionProperty) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*[WebExtensionProperty](../webextensionproperty/)*) |  |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) |  |
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une extension Web à un document.
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 * class [WebExtensionProperty](../webextensionproperty/)
 * espace de noms [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class CustomPart
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Markup.CustomPart فصل. يمثل جزءًا مخصصًا محتوى عشوائيًا لم يتم تعريفه بواسطة معيار ISO/IEC 29500.
+title: CustomPart Class
+linktitle: CustomPart
+articleTitle: CustomPart
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Markup.CustomPart فصل. يمثل جزءًا مخصصًا محتوى عشوائيًا لم يتم تعريفه بواسطة معيار ISO/IEC 29500 في C#.
 type: docs
 weight: 3900
 url: /ar/net/aspose.words.markup/custompart/
@@ -38,7 +40,7 @@ public class CustomPart
 | --- | --- |
 | [Clone](../../aspose.words.markup/custompart/clone/)() | يقوم بإنشاء نسخة "عميقة بما فيه الكفاية" من الكائن. لا يكرر بايتات ملف[`Data`](./data/) القيمة. |
 
-### ملاحظات
+## ملاحظات
 
 تمثل هذه الفئة جزء OOXML الذي يعد هدفًا لـ "علاقة غير معروفة". تعتبر جميع العلاقات غير المحددة ضمن ISO/IEC 29500 "علاقات غير معروفة". يُسمح بالعلاقات غير المعروفة ضمن مستند Office Open XML بشرط أن تكون متوافقة لإرشادات ترميز العلاقة.
 
@@ -48,7 +50,7 @@ public class CustomPart
 
 لا تخلط بين الأجزاء المخصصة وبيانات XML المخصصة. يستخدم[`CustomXmlPart`](../customxmlpart/) إذا كنت بحاجة إلى للوصول إلى بيانات XML المخصصة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
@@ -93,5 +95,3 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * مساحة الاسم [Aspose.Words.Markup](../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../)
-
-

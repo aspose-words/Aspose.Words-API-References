@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ShapeType
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على نوع الشكل.
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: Aspose.Words لـ .NET
+description: ShapeBase ShapeType ملكية. الحصول على نوع الشكل في C#.
 type: docs
 weight: 500
 url: /ar/net/aspose.words.drawing/shapebase/shapetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/shapetype/
 public ShapeType ShapeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مجموعة من الأشكال، وطباعة محتوياتها باستخدام زائر المستند.
 
@@ -106,7 +108,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 
 * enum [ShapeType](../../shapetype/)
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

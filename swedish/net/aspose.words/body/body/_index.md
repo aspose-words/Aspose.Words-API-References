@@ -1,7 +1,9 @@
 ---
-title: Body.Body
-second_title: Aspose.Words för .NET API Referens
-description: Body byggare. Initierar en ny instans avBody class.
+title: Body
+linktitle: Body
+articleTitle: Body
+second_title: Aspose.Words för .NET
+description: Body byggare. Initierar en ny instans avBody class i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/body/body/
@@ -18,13 +20,13 @@ public Body(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Ägardokumentet. |
 
-### Anmärkningar
+## Anmärkningar
 
 När[`Body`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
 
-Att lägga till[`Body`](../)till a[`Section`](../../section/) använda sig avAppendChild , InsertAfter ellerInsertBefore metoder.
+Att lägga till[`Body`](../)till a[`Section`](../../section/) använda sig av[`AppendChild`](../../compositenode/appendchild/) , [`InsertAfter`](../../compositenode/insertafter/) eller[`InsertBefore`](../../compositenode/insertbefore/) metoder.
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar ett Aspose.Words-dokument för hand.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Body](../)
-* namnutrymme [Aspose.Words](../../body/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

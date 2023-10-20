@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.ClearQuickStyleGallery
-second_title: Aspose.Words for .NET API 参考
-description: StyleCollection 方法. 从快速样式库面板中删除所有样式
+linktitle: ClearQuickStyleGallery
+articleTitle: ClearQuickStyleGallery
+second_title: 用于 .NET 的 Aspose.Words
+description: StyleCollection ClearQuickStyleGallery 方法. 从快速样式库面板中删除所有样式 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/stylecollection/clearquickstylegallery/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/stylecollection/clearquickstylegallery/
 public void ClearQuickStyleGallery()
 ```
 
-### 例子
+## 例子
 
 演示如何从样式库面板中删除样式。
 
@@ -29,7 +31,5 @@ doc.Save(ArtifactsDir + "Styles.RemoveStylesFromStyleGallery.docx");
 ### 也可以看看
 
 * class [StyleCollection](../)
-* 命名空间 [Aspose.Words](../../stylecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

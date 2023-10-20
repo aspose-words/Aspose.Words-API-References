@@ -1,7 +1,9 @@
 ---
-title: FieldTC.FieldTC
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldTC constructeur. Default_Constructor
+title: FieldTC
+linktitle: FieldTC
+articleTitle: FieldTC
+second_title: Aspose.Words für .NET
+description: FieldTC constructeur. Default_Constructor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldtc/fieldtc/
@@ -17,7 +19,5 @@ public FieldTC()
 ### Siehe auch
 
 * class [FieldTC](../)
-* namensraum [Aspose.Words.Fields](../../fieldtc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

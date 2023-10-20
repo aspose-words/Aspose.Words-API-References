@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.IndexOf
-second_title: Aspose.Words for .NET API Referansı
-description: NodeCollection yöntem. Belirtilen düğümün sıfır tabanlı dizinini döndürür.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words for .NET
+description: NodeCollection IndexOf yöntem. Belirtilen düğümün sıfır tabanlı dizinini döndürür C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/nodecollection/indexof/
@@ -22,11 +24,11 @@ public int IndexOf(Node node)
 
 Bulunursa koleksiyon içindeki düğümün sıfır tabanlı dizini; aksi halde -1.
 
-### Notlar
+## Notlar
 
 Bu yöntem doğrusal bir arama gerçekleştirir; bu nedenle, ortalama yürütme süresi orantılıdır[`Count`](../count/).
 
-### Örnekler
+## Örnekler
 
 Koleksiyondaki bir düğümün dizininin nasıl alınacağını gösterir.
 
@@ -51,7 +53,5 @@ Assert.AreEqual(4, row.IndexOf(cell));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* ad alanı [Aspose.Words](../../nodecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

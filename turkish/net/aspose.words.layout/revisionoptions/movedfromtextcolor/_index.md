@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.MovedFromTextColor
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. İçeriğin taşındığı alanlar için kullanılacak rengi belirlemeye olanak tanırMoving . Varsayılan değerByAuthor .
+linktitle: MovedFromTextColor
+articleTitle: MovedFromTextColor
+second_title: Aspose.Words for .NET
+description: RevisionOptions MovedFromTextColor mülk. İçeriğin taşındığı alanlar için kullanılacak rengi belirlemeye olanak tanırMoving . Varsayılan değerByAuthor  C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.layout/revisionoptions/movedfromtextcolor/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.layout/revisionoptions/movedfromtextcolor/
 public RevisionColor MovedFromTextColor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* ad alanı [Aspose.Words.Layout](../../revisionoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

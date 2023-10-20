@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.XValues
-second_title: Aspose.Words for .NET API 参考
-description: ChartSeries 财产. 获取此图表系列的 X 值的集合
+linktitle: XValues
+articleTitle: XValues
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartSeries XValues 财产. 获取此图表系列的 X 值的集合 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.drawing.charts/chartseries/xvalues/
@@ -18,7 +20,5 @@ public ChartXValueCollection XValues { get; }
 
 * class [ChartXValueCollection](../../chartxvaluecollection/)
 * class [ChartSeries](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseries/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

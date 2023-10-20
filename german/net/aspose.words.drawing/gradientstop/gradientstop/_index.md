@@ -1,12 +1,14 @@
 ---
-title: GradientStop.GradientStop
-second_title: Aspose.Words für .NET-API-Referenz
-description: GradientStop constructeur. Initialisiert eine neue Instanz vonGradientStop Klasse.
+title: GradientStop
+linktitle: GradientStop
+articleTitle: GradientStop
+second_title: Aspose.Words für .NET
+description: GradientStop constructeur. Initialisiert eine neue Instanz vonGradientStop Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/gradientstop/gradientstop/
 ---
-## GradientStop(Color, double) {#constructor}
+## GradientStop(*Color, double*) {#constructor}
 
 Initialisiert eine neue Instanz von[`GradientStop`](../) Klasse.
 
@@ -19,7 +21,7 @@ public GradientStop(Color color, double position)
 | color | Color | Stellt die Farbe des Verlaufsstopps dar. |
 | position | Double | Stellt die Position eines Stopps innerhalb des Gradienten dar, ausgedrückt in Prozent im Bereich von 0,0 bis 1,0. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man der Verlaufsfüllung Verlaufsstopps hinzufügt.
 
@@ -72,12 +74,12 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Siehe auch
 
 * class [GradientStop](../)
-* namensraum [Aspose.Words.Drawing](../../gradientstop/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## GradientStop(Color, double, double) {#constructor_1}
+## GradientStop(*Color, double, double*) {#constructor_1}
 
 Initialisiert eine neue Instanz von[`GradientStop`](../) Klasse.
 
@@ -91,7 +93,7 @@ public GradientStop(Color color, double position, double transparency)
 | position | Double | Stellt die Position eines Stopps innerhalb des Gradienten dar, ausgedrückt in Prozent im Bereich von 0,0 bis 1,0. |
 | transparency | Double | Stellt die Transparenz eines Stopps innerhalb des Gradienten dar, ausgedrückt in Prozent im Bereich von 0,0 bis 1,0. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man der Verlaufsfüllung Verlaufsstopps hinzufügt.
 
@@ -144,7 +146,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Siehe auch
 
 * class [GradientStop](../)
-* namensraum [Aspose.Words.Drawing](../../gradientstop/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

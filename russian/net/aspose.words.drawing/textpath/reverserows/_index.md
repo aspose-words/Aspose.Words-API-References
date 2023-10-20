@@ -1,7 +1,9 @@
 ---
 title: TextPath.ReverseRows
-second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. Определяет обратный ли порядок расположения строк.
+linktitle: ReverseRows
+articleTitle: ReverseRows
+second_title: Aspose.Words для .NET
+description: TextPath ReverseRows свойство. Определяет обратный ли порядок расположения строк на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.drawing/textpath/reverserows/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/textpath/reverserows/
 public bool ReverseRows { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
 Если`истинный`, порядок расположения строк меняется на обратный. Этот атрибут используется для вертикального расположения текста.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -123,7 +125,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Смотрите также
 
 * class [TextPath](../)
-* пространство имен [Aspose.Words.Drawing](../../textpath/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

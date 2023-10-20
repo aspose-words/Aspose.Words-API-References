@@ -1,7 +1,9 @@
 ---
 title: Run.Text
-second_title: Aspose.Words لمراجع .NET API
-description: Run ملكية. الحصول على نص التشغيل أو تعيينه.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words لـ .NET
+description: Run Text ملكية. الحصول على نص التشغيل أو تعيينه في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/run/text/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/run/text/
 public string Text { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند Aspose.Words يدويًا.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### أنظر أيضا
 
 * class [Run](../)
-* مساحة الاسم [Aspose.Words](../../run/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

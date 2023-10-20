@@ -1,7 +1,9 @@
 ---
-title: Class Range
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Range klas. Stellt einen zusammenhängenden Bereich in einem Dokument dar.
+title: Range Class
+linktitle: Range
+articleTitle: Range
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Range klas. Stellt einen zusammenhängenden Bereich in einem Dokument dar in C#.
 type: docs
 weight: 4520
 url: /de/net/aspose.words/range/
@@ -33,15 +35,15 @@ public class Range
 | --- | --- |
 | [Delete](../../aspose.words/range/delete/)() | Löscht alle Zeichen des Bereichs. |
 | [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes/)() | Ändert Feldtypwerte[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) von[`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) in diesem Bereich, damit sie den in den Feldcodes enthaltenen Feldtypen entsprechen. |
-| [Replace](../../aspose.words/range/replace/#replace_2)(Regex, string) | Ersetzt alle Vorkommen eines durch einen regulären Ausdruck angegebenen Zeichenmusters durch eine andere Zeichenfolge. |
-| [Replace](../../aspose.words/range/replace/#replace)(string, string) | Ersetzt alle Vorkommen eines angegebenen Zeichenfolgenmusters durch eine Ersatzzeichenfolge. |
-| [Replace](../../aspose.words/range/replace/#replace_3)(Regex, string, FindReplaceOptions) | Ersetzt alle Vorkommen eines durch einen regulären Ausdruck angegebenen Zeichenmusters durch eine andere Zeichenfolge. |
-| [Replace](../../aspose.words/range/replace/#replace_1)(string, string, FindReplaceOptions) | Ersetzt alle Vorkommen eines angegebenen Zeichenfolgenmusters durch eine Ersatzzeichenfolge. |
+| [Replace](../../aspose.words/range/replace/#replace_2)(*Regex, string*) | Ersetzt alle Vorkommen eines durch einen regulären Ausdruck angegebenen Zeichenmusters durch eine andere Zeichenfolge. |
+| [Replace](../../aspose.words/range/replace/#replace)(*string, string*) | Ersetzt alle Vorkommen eines angegebenen Zeichenfolgenmusters durch eine Ersatzzeichenfolge. |
+| [Replace](../../aspose.words/range/replace/#replace_3)(*Regex, string, [FindReplaceOptions](../../aspose.words.replacing/findreplaceoptions/)*) | Ersetzt alle Vorkommen eines durch einen regulären Ausdruck angegebenen Zeichenmusters durch eine andere Zeichenfolge. |
+| [Replace](../../aspose.words/range/replace/#replace_1)(*string, string, [FindReplaceOptions](../../aspose.words.replacing/findreplaceoptions/)*) | Ersetzt alle Vorkommen eines angegebenen Zeichenfolgenmusters durch eine Ersatzzeichenfolge. |
 | [ToDocument](../../aspose.words/range/todocument/)() | Erstellt ein neues, vollständig geformtes Dokument, das den Bereich enthält. |
 | [UnlinkFields](../../aspose.words/range/unlinkfields/)() | Hebt die Verknüpfung von Feldern in diesem Bereich auf. |
 | [UpdateFields](../../aspose.words/range/updatefields/)() | Aktualisiert die Werte von Dokumentfeldern in diesem Bereich. |
 
-### Bemerkungen
+## Bemerkungen
 
 Das Dokument wird durch einen Knotenbaum dargestellt und die Knoten stellen Operationen für die Arbeit mit dem Baum bereit. Einige Operationen sind jedoch einfacher auszuführen, wenn das Dokument als zusammenhängende Textsequenz behandelt wird.
 
@@ -49,7 +51,7 @@ Das Dokument wird durch einen Knotenbaum dargestellt und die Knoten stellen Oper
 
 `Range` enthält keinen Text oder Knoten, es ist lediglich eine Ansicht oder ein „Fenster“ über ein Fragment eines Dokuments.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Textinhalt aller Knoten abgerufen wird, die ein Bereich abdeckt.
 
@@ -66,5 +68,3 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Shape.SignatureLine
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. يحصلSignatureLine كائن إذا كان الشكل عبارة عن خط توقيع. عائداتباطل وإلا.
+linktitle: SignatureLine
+articleTitle: SignatureLine
+second_title: Aspose.Words لـ .NET
+description: Shape SignatureLine ملكية. يحصلSignatureLine كائن إذا كان الشكل عبارة عن خط توقيع. عائداتباطل وإلا في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.drawing/shape/signatureline/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/shape/signatureline/
 public SignatureLine SignatureLine { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكنك إدراج جديد[`SignatureLine`](../../signatureline/) في المستند باستخدام[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) و
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء سطر للتوقيع وإدراجه في مستند.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 
 * class [SignatureLine](../../signatureline/)
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

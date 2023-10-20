@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.Checked
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. الحصول على/تعيين الحالة الحالية لمربع الاختيار المعاملة الخاصة والتفضيلية . القيمة الافتراضية لهذه الخاصية هيخطأ شنيع .
+linktitle: Checked
+articleTitle: Checked
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag Checked ملكية. الحصول على/تعيين الحالة الحالية لمربع الاختيارالمعاملة الخاصة والتفضيلية . القيمة الافتراضية لهذه الخاصية هيخطأ شنيع  في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.markup/structureddocumenttag/checked/
 ---
 ## StructuredDocumentTag.Checked property
 
-الحصول على/تعيين الحالة الحالية لمربع الاختيار **المعاملة الخاصة والتفضيلية** . القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` .
+الحصول على/تعيين الحالة الحالية لمربع الاختيار**المعاملة الخاصة والتفضيلية** . القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` .
 
 ```csharp
 public bool Checked { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الوصول إلى هذه الخاصية سوف يعمل فقط من أجلCheckbox أنواع المعاملة الخاصة والتفضيلية.
 
 بالنسبة لجميع أنواع SDT الأخرى، سيحدث استثناء.
 
-### أمثلة
+## أمثلة
 
 أظهر كيفية إنشاء علامة مستند منظمة على شكل مربع اختيار.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

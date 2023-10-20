@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.FontFamily
-second_title: Aspose.Words for .NET API Referansı
-description: TextWatermarkOptions mülk. Yazı tipi ailesi adını alır veya ayarlar. Varsayılan değer Calibridir.
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words for .NET
+description: TextWatermarkOptions FontFamily mülk. Yazı tipi ailesi adını alır veya ayarlar. Varsayılan değer Calibridir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/textwatermarkoptions/fontfamily/
@@ -14,7 +16,7 @@ Yazı tipi ailesi adını alır veya ayarlar. Varsayılan değer "Calibri"dir.
 public string FontFamily { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metin filigranının nasıl oluşturulacağını gösterir.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Ayrıca bakınız
 
 * class [TextWatermarkOptions](../)
-* ad alanı [Aspose.Words](../../textwatermarkoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: XmlDataSource.XmlDataSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: XmlDataSource constructeur. Erstellt eine neue Datenquelle mit Daten aus einer XMLDatei unter Verwendung der Standardoptionen für das Laden von XMLDaten.
+title: XmlDataSource
+linktitle: XmlDataSource
+articleTitle: XmlDataSource
+second_title: Aspose.Words für .NET
+description: XmlDataSource constructeur. Erstellt eine neue Datenquelle mit Daten aus einer XMLDatei unter Verwendung der Standardoptionen für das Laden von XMLDaten in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.reporting/xmldatasource/xmldatasource/
 ---
-## XmlDataSource(string) {#constructor_4}
+## XmlDataSource(*string*) {#constructor_4}
 
 Erstellt eine neue Datenquelle mit Daten aus einer XML-Datei unter Verwendung der Standardoptionen für das Laden von XML-Daten.
 
@@ -21,12 +23,12 @@ public XmlDataSource(string xmlPath)
 ### Siehe auch
 
 * class [XmlDataSource](../)
-* namensraum [Aspose.Words.Reporting](../../xmldatasource/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream) {#constructor}
+## XmlDataSource(*Stream*) {#constructor}
 
 Erstellt eine neue Datenquelle mit Daten aus einem XML-Stream unter Verwendung der Standardoptionen für das Laden von XML-Daten.
 
@@ -41,12 +43,12 @@ public XmlDataSource(Stream xmlStream)
 ### Siehe auch
 
 * class [XmlDataSource](../)
-* namensraum [Aspose.Words.Reporting](../../xmldatasource/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, string) {#constructor_6}
+## XmlDataSource(*string, string*) {#constructor_6}
 
 Erstellt eine neue Datenquelle mit Daten aus einer XML-Datei mithilfe einer XML-Schemadefinitionsdatei. Standardoptionen werden für das Laden von XML-Daten verwendet.
 
@@ -62,12 +64,12 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath)
 ### Siehe auch
 
 * class [XmlDataSource](../)
-* namensraum [Aspose.Words.Reporting](../../xmldatasource/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, Stream) {#constructor_2}
+## XmlDataSource(*Stream, Stream*) {#constructor_2}
 
 Erstellt eine neue Datenquelle mit Daten aus einem XML-Stream unter Verwendung eines XML-Schemadefinitions-Streams. Standardoptionen werden für das Laden von XML-Daten verwendet.
 
@@ -83,12 +85,12 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream)
 ### Siehe auch
 
 * class [XmlDataSource](../)
-* namensraum [Aspose.Words.Reporting](../../xmldatasource/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, XmlDataLoadOptions) {#constructor_5}
+## XmlDataSource(*string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_5}
 
 Erstellt eine neue Datenquelle mit Daten aus einer XML-Datei unter Verwendung der angegebenen Optionen für das Laden von XML-Daten.
 
@@ -105,12 +107,12 @@ public XmlDataSource(string xmlPath, XmlDataLoadOptions options)
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* namensraum [Aspose.Words.Reporting](../../xmldatasource/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, XmlDataLoadOptions) {#constructor_1}
+## XmlDataSource(*Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_1}
 
 Erstellt eine neue Datenquelle mit Daten aus einem XML-Stream unter Verwendung der angegebenen Optionen für das Laden von XML-Daten.
 
@@ -127,12 +129,12 @@ public XmlDataSource(Stream xmlStream, XmlDataLoadOptions options)
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* namensraum [Aspose.Words.Reporting](../../xmldatasource/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(string, string, XmlDataLoadOptions) {#constructor_7}
+## XmlDataSource(*string, string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_7}
 
 Erstellt eine neue Datenquelle mit Daten aus einer XML-Datei mithilfe einer XML-Schemadefinitionsdatei. Die angegebenen -Optionen werden zum Laden von XML-Daten verwendet.
 
@@ -150,12 +152,12 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions op
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* namensraum [Aspose.Words.Reporting](../../xmldatasource/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## XmlDataSource(Stream, Stream, XmlDataLoadOptions) {#constructor_3}
+## XmlDataSource(*Stream, Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_3}
 
 Erstellt eine neue Datenquelle mit Daten aus einem XML-Stream unter Verwendung eines XML-Schemadefinitions-Streams. Die angegebenen -Optionen werden zum Laden von XML-Daten verwendet.
 
@@ -173,7 +175,5 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream, XmlDataLoadOption
 
 * class [XmlDataLoadOptions](../../xmldataloadoptions/)
 * class [XmlDataSource](../)
-* namensraum [Aspose.Words.Reporting](../../xmldatasource/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
-
-

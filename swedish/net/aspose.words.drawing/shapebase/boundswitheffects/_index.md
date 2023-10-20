@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BoundsWithEffects
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Får den slutliga omfattningen som detta formobjekt har efter applicering av ritningseffekter. Värdet mäts i punkter.
+linktitle: BoundsWithEffects
+articleTitle: BoundsWithEffects
+second_title: Aspose.Words för .NET
+description: ShapeBase BoundsWithEffects fast egendom. Får den slutliga omfattningen som detta formobjekt har efter applicering av ritningseffekter. Värdet mäts i punkter i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.drawing/shapebase/boundswitheffects/
@@ -14,7 +16,7 @@ Får den slutliga omfattningen som detta formobjekt har efter applicering av rit
 public RectangleF BoundsWithEffects { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du kontrollerar hur en forms gränser påverkas av formeffekter.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(279, shape.BoundsWithEffects.Height);
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

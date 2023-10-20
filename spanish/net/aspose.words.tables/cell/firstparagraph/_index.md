@@ -1,7 +1,9 @@
 ---
 title: Cell.FirstParagraph
-second_title: Referencia de API de Aspose.Words para .NET
-description: Cell propiedad. Obtiene el primer párrafo entre los hijos inmediatos.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words para .NET
+description: Cell FirstParagraph propiedad. Obtiene el primer párrafo entre los hijos inmediatos en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.tables/cell/firstparagraph/
@@ -14,7 +16,7 @@ Obtiene el primer párrafo entre los hijos inmediatos.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una tabla anidada utilizando un generador de documentos.
 
@@ -95,7 +97,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* espacio de nombres [Aspose.Words.Tables](../../cell/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

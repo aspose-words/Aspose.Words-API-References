@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.SymbolRotation
-second_title: Aspose.Words لمراجع .NET API
-description: BarcodeParameters ملكية. تدوير رمز الباركود. القيم الصالحة هي 0 3.
+linktitle: SymbolRotation
+articleTitle: SymbolRotation
+second_title: Aspose.Words لـ .NET
+description: BarcodeParameters SymbolRotation ملكية. تدوير رمز الباركود. القيم الصالحة هي 0 3 في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.fields/barcodeparameters/symbolrotation/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/barcodeparameters/symbolrotation/
 public string SymbolRotation { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مولد الباركود.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### أنظر أيضا
 
 * class [BarcodeParameters](../)
-* مساحة الاسم [Aspose.Words.Fields](../../barcodeparameters/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

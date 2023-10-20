@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.RemoveByIndex
-second_title: Aspose.Words per .NET API Reference
-description: TabStopCollection metodo. Rimuove dalla raccolta un punto di tabulazione in corrispondenza dellindice specificato.
+linktitle: RemoveByIndex
+articleTitle: RemoveByIndex
+second_title: Aspose.Words per .NET
+description: TabStopCollection RemoveByIndex metodo. Rimuove dalla raccolta un punto di tabulazione in corrispondenza dellindice specificato in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words/tabstopcollection/removebyindex/
@@ -18,7 +20,7 @@ public void RemoveByIndex(int index)
 | --- | --- | --- |
 | index | Int32 | Un indice nella raccolta di tabulazioni. |
 
-### Esempi
+## Esempi
 
 Mostra come selezionare una tabulazione in un documento tramite il suo indice e rimuoverla.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.RemoveByIndex.docx");
 ### Guarda anche
 
 * class [TabStopCollection](../)
-* spazio dei nomi [Aspose.Words](../../tabstopcollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Document.AppendDocument
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 将指定文档追加到该文档的末尾
+linktitle: AppendDocument
+articleTitle: AppendDocument
+second_title: 用于 .NET 的 Aspose.Words
+description: Document AppendDocument 方法. 将指定文档追加到该文档的末尾 在 C#.
 type: docs
-weight: 550
+weight: 530
 url: /zh/net/aspose.words/document/appenddocument/
 ---
-## AppendDocument(Document, ImportFormatMode) {#appenddocument}
+## AppendDocument(*[Document](../), [ImportFormatMode](../../importformatmode/)*) {#appenddocument}
 
 将指定文档追加到该文档的末尾。
 
@@ -19,7 +21,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode)
 | srcDoc | Document | 要附加的文档。 |
 | importFormatMode | ImportFormatMode | 指定如何合并冲突的样式格式。 |
 
-### 例子
+## 例子
 
 演示如何将一个文档附加到另一个文档的末尾。
 
@@ -66,12 +68,12 @@ dstDoc.Save(ArtifactsDir + "Document.AppendAllDocumentsInFolder.doc");
 
 * enum [ImportFormatMode](../../importformatmode/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## AppendDocument(Document, ImportFormatMode, ImportFormatOptions) {#appenddocument_1}
+## AppendDocument(*[Document](../), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#appenddocument_1}
 
 将指定文档追加到该文档的末尾。
 
@@ -86,7 +88,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode,
 | importFormatMode | ImportFormatMode | 指定如何合并冲突的样式格式。 |
 | importFormatOptions | ImportFormatOptions | 允许指定影响结果文档格式的选项。 |
 
-### 例子
+## 例子
 
 演示如何在将文档的克隆附加到自身时管理列表样式冲突。
 
@@ -170,7 +172,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.AppendDocumentAndResolveStyles.docx"
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

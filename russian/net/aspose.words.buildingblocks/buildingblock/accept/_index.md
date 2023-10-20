@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: BuildingBlock метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: BuildingBlock Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.buildingblocks/buildingblock/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
 
-### Примечания
+## Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -32,7 +34,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Примечание. Узел стандартного блока и его дочерние элементы не посещаются, когда вы выполняете a Visitor через[`Document`](../../../aspose.words/document/) . Если вы хотите выполнить посетителя поверх строительного блока a , вам необходимо выполнить посетителя поверх[`GlossaryDocument`](../../glossarydocument/) or звонок`Accept` .
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ пользовательский стандартный блок.
 
@@ -130,7 +132,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [BuildingBlock](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

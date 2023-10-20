@@ -1,7 +1,9 @@
 ---
-title: Class FieldArgumentBuilder
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldArgumentBuilder فصل. إنشاء وسيطة حقل معقدة تتكون من حقول وعقد ونص عادي.
+title: FieldArgumentBuilder Class
+linktitle: FieldArgumentBuilder
+articleTitle: FieldArgumentBuilder
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldArgumentBuilder فصل. إنشاء وسيطة حقل معقدة تتكون من حقول وعقد ونص عادي في C#.
 type: docs
 weight: 1550
 url: /ar/net/aspose.words.fields/fieldargumentbuilder/
@@ -26,11 +28,11 @@ public class FieldArgumentBuilder
 
 | اسم | وصف |
 | --- | --- |
-| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield/)(FieldBuilder) | يضيف حقلاً يمثله أ[`FieldBuilder`](../fieldbuilder/) إلى الوسيطة. |
-| [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode/)(Inline) | إضافة عقدة إلى الوسيطة. |
-| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(string) | إضافة نص عادي إلى الوسيطة. |
+| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield/)(*[FieldBuilder](../fieldbuilder/)*) | يضيف حقلاً يمثله أ[`FieldBuilder`](../fieldbuilder/) إلى الوسيطة. |
+| [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode/)(*[Inline](../../aspose.words/inline/)*) | إضافة عقدة إلى الوسيطة. |
+| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(*string*) | إضافة نص عادي إلى الوسيطة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
@@ -114,5 +116,3 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

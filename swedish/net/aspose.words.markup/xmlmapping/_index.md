@@ -1,7 +1,9 @@
 ---
-title: Class XmlMapping
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Markup.XmlMapping klass. Anger informationen som används för att upprätta en mappning mellan den strukturerade dokumenttaggen parent och ett XMLelement lagrat i en anpassad XMLdatadel i dokumentet.
+title: XmlMapping Class
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Markup.XmlMapping klass. Anger informationen som används för att upprätta en mappning mellan den strukturerade dokumenttaggen parent och ett XMLelement lagrat i en anpassad XMLdatadel i dokumentet i C#.
 type: docs
 weight: 4100
 url: /sv/net/aspose.words.markup/xmlmapping/
@@ -31,9 +33,9 @@ public class XmlMapping
 | namn | Beskrivning |
 | --- | --- |
 | [Delete](../../aspose.words.markup/xmlmapping/delete/)() | Tar bort mappningen av det överordnade strukturerade dokumentet till XML-data. |
-| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(CustomXmlPart, string, string) | Ställer in en mappning mellan den överordnade strukturerade dokumenttaggen och en XML-nod för en anpassad XML-datadel. |
+| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(*[CustomXmlPart](../customxmlpart/), string, string*) | Ställer in en mappning mellan den överordnade strukturerade dokumenttaggen och en XML-nod för en anpassad XML-datadel. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in XML-mappningar för anpassade XML-delar.
 
@@ -70,5 +72,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 
 * namnutrymme [Aspose.Words.Markup](../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../)
-
-

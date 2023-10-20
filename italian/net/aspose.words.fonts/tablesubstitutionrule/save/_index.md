@@ -1,12 +1,14 @@
 ---
 title: TableSubstitutionRule.Save
-second_title: Aspose.Words per .NET API Reference
-description: TableSubstitutionRule metodo. Salva le impostazioni di sostituzione della tabella correnti nel file.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words per .NET
+description: TableSubstitutionRule Save metodo. Salva le impostazioni di sostituzione della tabella correnti nel file in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Salva le impostazioni di sostituzione della tabella correnti nel file.
 
@@ -18,7 +20,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Nome del file di output. |
 
-### Esempi
+## Esempi
 
 Mostra come accedere alle tabelle di sostituzione dei caratteri per Windows e Linux.
 
@@ -57,12 +59,12 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Guarda anche
 
 * class [TableSubstitutionRule](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Salva le impostazioni di sostituzione della tabella correnti nello streaming.
 
@@ -74,7 +76,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Flusso di uscita. |
 
-### Esempi
+## Esempi
 
 Mostra come accedere alle tabelle di sostituzione dei caratteri per Windows e Linux.
 
@@ -113,7 +115,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Guarda anche
 
 * class [TableSubstitutionRule](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

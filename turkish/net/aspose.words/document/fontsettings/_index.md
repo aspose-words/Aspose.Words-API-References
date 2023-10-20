@@ -1,7 +1,9 @@
 ---
 title: Document.FontSettings
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Belge yazı tipi ayarlarını alır veya ayarlar.
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words for .NET
+description: Document FontSettings mülk. Belge yazı tipi ayarlarını alır veya ayarlar C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words/document/fontsettings/
@@ -14,13 +16,13 @@ Belge yazı tipi ayarlarını alır veya ayarlar.
 public FontSettings FontSettings { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, belge başına yazı tipi ayarlarının belirlenmesine olanak tanır. Eğer ayarlanmışsa`hükümsüz` , varsayılan statik yazı tipi ayarları [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) kullanılacak.
 
 Varsayılan değer:`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Yazı tipi değiştirme kurallarının nasıl ayarlandığını gösterir.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Node.ToString
-second_title: Справочник по API Aspose.Words для .NET
-description: Node метод. Экспортирует содержимое узла в строку указанного формата.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words для .NET
+description: Node ToString метод. Экспортирует содержимое узла в строку указанного формата на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/node/tostring/
 ---
-## ToString(SaveFormat) {#tostring_1}
+## ToString(*[SaveFormat](../../saveformat/)*) {#tostring_1}
 
 Экспортирует содержимое узла в строку указанного формата.
 
@@ -18,7 +20,7 @@ public string ToString(SaveFormat saveFormat)
 
 Содержимое узла в указанном формате.
 
-### Примеры
+## Примеры
 
 Показывает разницу между вызовом методов GetText и ToString на узле.
 
@@ -91,12 +93,12 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * enum [SaveFormat](../../saveformat/)
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## ToString(SaveOptions) {#tostring_2}
+## ToString(*[SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#tostring_2}
 
 Экспортирует содержимое узла в строку, используя указанные параметры сохранения.
 
@@ -112,7 +114,7 @@ public string ToString(SaveOptions saveOptions)
 
 Содержимое узла в указанном формате.
 
-### Примеры
+## Примеры
 
 Экспортирует содержимое узла в строку в формате HTML.
 
@@ -140,7 +142,5 @@ Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\
 
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

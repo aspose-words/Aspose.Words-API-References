@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalPosition
-second_title: Aspose.Words for .NET API Referansı
-description: FrameFormat mülk. Çerçevenin kenarı ile öğe tarafından belirtilen öğe arasındaki dikey mesafeyi alır.RelativeVerticalPosition özellik.
+linktitle: VerticalPosition
+articleTitle: VerticalPosition
+second_title: Aspose.Words for .NET
+description: FrameFormat VerticalPosition mülk. Çerçevenin kenarı ile öğe tarafından belirtilen öğe arasındaki dikey mesafeyi alır.RelativeVerticalPosition özellik C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/frameformat/verticalposition/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/frameformat/verticalposition/
 public double VerticalPosition { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Ayrıca bakınız
 
 * class [FrameFormat](../)
-* ad alanı [Aspose.Words](../../frameformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreFootnotes
-second_title: Aspose.Words per .NET API Reference
-description: FindReplaceOptions proprietà. Ottiene o imposta un valore booleano che indica di ignorare le note a piè di pagina. Il valore predefinito èfalso .
+linktitle: IgnoreFootnotes
+articleTitle: IgnoreFootnotes
+second_title: Aspose.Words per .NET
+description: FindReplaceOptions IgnoreFootnotes proprietà. Ottiene o imposta un valore booleano che indica di ignorare le note a piè di pagina. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore booleano che indica di ignorare le note a piè di pa
 public bool IgnoreFootnotes { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ignorare le note a piè di pagina durante un'operazione di ricerca e sostituzione.
 
@@ -41,7 +43,5 @@ doc.Range.Replace("Lorem ipsum", "Replaced Lorem ipsum", options);
 ### Guarda anche
 
 * class [FindReplaceOptions](../)
-* spazio dei nomi [Aspose.Words.Replacing](../../findreplaceoptions/)
+* spazio dei nomi [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assemblea [Aspose.Words](../../../)
-
-

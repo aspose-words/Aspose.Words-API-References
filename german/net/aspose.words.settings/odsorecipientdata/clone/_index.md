@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Clone
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoRecipientData methode. Gibt einen tiefen Klon dieses Objekts zurück.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words für .NET
+description: OdsoRecipientData Clone methode. Gibt einen tiefen Klon dieses Objekts zurück in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.settings/odsorecipientdata/clone/
@@ -14,7 +16,7 @@ Gibt einen tiefen Klon dieses Objekts zurück.
 public OdsoRecipientData Clone()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Siehe auch
 
 * class [OdsoRecipientData](../)
-* namensraum [Aspose.Words.Settings](../../odsorecipientdata/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Type
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutEnumerator ملكية. الحصول على نوع الكيان الحالي.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: LayoutEnumerator Type ملكية. الحصول على نوع الكيان الحالي في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.layout/layoutenumerator/type/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/layoutenumerator/type/
 public LayoutEntityType Type { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يُظهر طرق اجتياز كيانات تخطيط المستند.
 
@@ -160,7 +162,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * enum [LayoutEntityType](../../layoutentitytype/)
 * class [LayoutEnumerator](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutenumerator/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OlePackage
-second_title: Aspose.Words für .NET-API-Referenz
-description: OleFormat eigendom. Zugriff gewähren aufOlePackage wenn das OLEObjekt ein OLEPaket ist. Gibt zurückNull sonst.
+linktitle: OlePackage
+articleTitle: OlePackage
+second_title: Aspose.Words für .NET
+description: OleFormat OlePackage eigendom. Zugriff gewähren aufOlePackage wenn das OLEObjekt ein OLEPaket ist. Gibt zurückNull sonst in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.drawing/oleformat/olepackage/
@@ -14,11 +16,11 @@ Zugriff gewähren auf[`OlePackage`](../../olepackage/) wenn das OLE-Objekt ein O
 public OlePackage OlePackage { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 OLE Package ist eine Legacy-Technologie, die es ermöglicht, jedes Dateiformat, das nicht in der OLE-Registrierung von einem Windows-System vorhanden ist, in ein generisches Paket zu packen, mit dem fast alles in ein Dokument eingebettet werden kann. Siehe[`OlePackage`](../../olepackage/) Geben Sie für weitere Informationen Folgendes ein.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein OLE-Objekt in ein Dokument eingefügt wird.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 
 * class [OlePackage](../../olepackage/)
 * class [OleFormat](../)
-* namensraum [Aspose.Words.Drawing](../../oleformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontAscii
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين خط السمة المستخدم للنص اللاتيني الأحرف ذات رموز الأحرف من 0 صفر إلى 127 في نظام الخطوط المطبق المرتبط بهذاFont الكائن.
+linktitle: ThemeFontAscii
+articleTitle: ThemeFontAscii
+second_title: Aspose.Words لـ .NET
+description: Font ThemeFontAscii ملكية. الحصول على أو تعيين خط السمة المستخدم للنص اللاتيني الأحرف ذات رموز الأحرف من 0 صفر إلى 127 في نظام الخطوط المطبق المرتبط بهذاFont الكائن في C#.
 type: docs
 weight: 480
 url: /ar/net/aspose.words/font/themefontascii/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/themefontascii/
 public ThemeFont ThemeFontAscii { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خطوط وألوان السمات.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

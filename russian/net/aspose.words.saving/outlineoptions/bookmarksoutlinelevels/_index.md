@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.BookmarksOutlineLevels
-second_title: Справочник по API Aspose.Words для .NET
-description: OutlineOptions свойство. Позволяет указать уровень структуры отдельных закладок.
+linktitle: BookmarksOutlineLevels
+articleTitle: BookmarksOutlineLevels
+second_title: Aspose.Words для .NET
+description: OutlineOptions BookmarksOutlineLevels свойство. Позволяет указать уровень структуры отдельных закладок на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
 public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
 ```
 
-### Примечания
+## Примечания
 
 Если в этой коллекции не указан уровень закладки, то[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel/) используется значение.
 
-### Примеры
+## Примеры
 
 Показывает, как установить уровни структуры для закладок.
 
@@ -77,7 +79,5 @@ outlineLevels.Clear();
 
 * class [BookmarksOutlineLevelCollection](../../bookmarksoutlinelevelcollection/)
 * class [OutlineOptions](../)
-* пространство имен [Aspose.Words.Saving](../../outlineoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

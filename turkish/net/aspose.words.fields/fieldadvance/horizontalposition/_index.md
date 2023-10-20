@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.HorizontalPosition
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAdvance mülk. Alanı takip eden metnin sütunun çerçevenin veya metin kutusunun sol kenarından yatay olarak taşınması gereken nokta sayısını alır veya ayarlar.
+linktitle: HorizontalPosition
+articleTitle: HorizontalPosition
+second_title: Aspose.Words for .NET
+description: FieldAdvance HorizontalPosition mülk. Alanı takip eden metnin sütunun çerçevenin veya metin kutusunun sol kenarından yatay olarak taşınması gereken nokta sayısını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldadvance/horizontalposition/
@@ -14,7 +16,7 @@ Alanı takip eden metnin sütunun, çerçevenin veya metin kutusunun sol kenarı
 public string HorizontalPosition { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 ADVANCE alanının nasıl ekleneceğini ve özelliklerinin nasıl düzenleneceğini gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### Ayrıca bakınız
 
 * class [FieldAdvance](../)
-* ad alanı [Aspose.Words.Fields](../../fieldadvance/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

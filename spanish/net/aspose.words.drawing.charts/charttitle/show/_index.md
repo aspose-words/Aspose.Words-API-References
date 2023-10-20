@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Show
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartTitle propiedad. Determina si el título se mostrará para este gráfico. El valor predeterminado esverdadero .
+linktitle: Show
+articleTitle: Show
+second_title: Aspose.Words para .NET
+description: ChartTitle Show propiedad. Determina si el título se mostrará para este gráfico. El valor predeterminado esverdadero  en C#.
 type: docs
-weight: 30
+weight: 20
 url: /es/net/aspose.words.drawing.charts/charttitle/show/
 ---
 ## ChartTitle.Show property
@@ -14,7 +16,7 @@ Determina si el título se mostrará para este gráfico. El valor predeterminado
 public bool Show { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico y establecer un título.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### Ver también
 
 * class [ChartTitle](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../charttitle/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

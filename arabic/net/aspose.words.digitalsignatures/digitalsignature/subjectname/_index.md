@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SubjectName
-second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignature ملكية. إرجاع الاسم المميز للموضوع للشهادة التي تم استخدامها لتوقيع المستند.
+linktitle: SubjectName
+articleTitle: SubjectName
+second_title: Aspose.Words لـ .NET
+description: DigitalSignature SubjectName ملكية. إرجاع الاسم المميز للموضوع للشهادة التي تم استخدامها لتوقيع المستند في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.digitalsignatures/digitalsignature/subjectname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.digitalsignatures/digitalsignature/subjectname/
 public string SubjectName { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع المستندات بشهادات X.509.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### أنظر أيضا
 
 * class [DigitalSignature](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

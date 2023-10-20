@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxis
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartAxis klass. Representerar axelalternativen för diagrammet.
+title: ChartAxis Class
+linktitle: ChartAxis
+articleTitle: ChartAxis
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartAxis klass. Representerar axelalternativen för diagrammet i C#.
 type: docs
 weight: 630
 url: /sv/net/aspose.words.drawing.charts/chartaxis/
@@ -50,7 +52,7 @@ public class ChartAxis
 | [Title](../../aspose.words.drawing.charts/chartaxis/title/) { get; } | Ger tillgång till egenskaperna för axeltiteln. |
 | [Type](../../aspose.words.drawing.charts/chartaxis/type/) { get; } | Returnerar typ av axel. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett diagram och ändrar utseendet på dess axlar.
 
@@ -104,5 +106,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

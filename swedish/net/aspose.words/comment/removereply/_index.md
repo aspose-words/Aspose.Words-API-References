@@ -1,9 +1,11 @@
 ---
 title: Comment.RemoveReply
-second_title: Aspose.Words för .NET API Referens
-description: Comment metod. Tar bort det angivna svaret på denna kommentar.
+linktitle: RemoveReply
+articleTitle: RemoveReply
+second_title: Aspose.Words för .NET
+description: Comment RemoveReply metod. Tar bort det angivna svaret på denna kommentar i C#.
 type: docs
-weight: 170
+weight: 140
 url: /sv/net/aspose.words/comment/removereply/
 ---
 ## Comment.RemoveReply method
@@ -18,11 +20,11 @@ public void RemoveReply(Comment reply)
 | --- | --- | --- |
 | reply | Comment | Kommentarnoden för det raderande svaret. |
 
-### Anmärkningar
+## Anmärkningar
 
 Alla ingående noder i svaret kommer att raderas från dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort kommentarsvar.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 ### Se även
 
 * class [Comment](../)
-* namnutrymme [Aspose.Words](../../comment/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

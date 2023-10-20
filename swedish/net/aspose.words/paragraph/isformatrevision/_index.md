@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsFormatRevision
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Returnerar sant om formateringen av objektet ändrades i Microsoft Word medan ändringsspårning var aktiverad.
+linktitle: IsFormatRevision
+articleTitle: IsFormatRevision
+second_title: Aspose.Words för .NET
+description: Paragraph IsFormatRevision fast egendom. Returnerar sant om formateringen av objektet ändrades i Microsoft Word medan ändringsspårning var aktiverad i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/paragraph/isformatrevision/
@@ -14,7 +16,7 @@ Returnerar sant om formateringen av objektet ändrades i Microsoft Word medan ä
 public bool IsFormatRevision { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kontrollerar om ett stycke är en formatversion.
 
@@ -29,7 +31,5 @@ Assert.True(doc.FirstSection.Body.FirstParagraph.IsFormatRevision);
 ### Se även
 
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

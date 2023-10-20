@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Remove
-second_title: Aspose.Words for .NET API 参考
-description: BookmarksOutlineLevelCollection 方法. 从集合中删除具有指定名称的书签
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: BookmarksOutlineLevelCollection Remove 方法. 从集合中删除具有指定名称的书签 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.saving/bookmarksoutlinelevelcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | 书签的名称（不区分大小写）。 |
 
-### 例子
+## 例子
 
 演示如何设置书签的大纲级别。
 
@@ -76,7 +78,5 @@ outlineLevels.Clear();
 ### 也可以看看
 
 * class [BookmarksOutlineLevelCollection](../)
-* 命名空间 [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

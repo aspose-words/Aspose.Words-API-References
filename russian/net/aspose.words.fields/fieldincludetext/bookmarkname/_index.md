@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.BookmarkName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIncludeText свойство. Получает или задает имя закладки в документе который необходимо включить.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words для .NET
+description: FieldIncludeText BookmarkName свойство. Получает или задает имя закладки в документе который необходимо включить на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldincludetext/bookmarkname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldincludetext/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле INCLUDETEXT и установить его свойства.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Смотрите также
 
 * class [FieldIncludeText](../)
-* пространство имен [Aspose.Words.Fields](../../fieldincludetext/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

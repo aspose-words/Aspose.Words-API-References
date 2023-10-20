@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreTables
-second_title: Справочник по API Aspose.Words для .NET
-description: CompareOptions свойство. Указывает следует ли сравнивать различия в данных содержащихся в таблицах. По умолчанию таблицы не игнорируются.
+linktitle: IgnoreTables
+articleTitle: IgnoreTables
+second_title: Aspose.Words для .NET
+description: CompareOptions IgnoreTables свойство. Указывает следует ли сравнивать различия в данных содержащихся в таблицах. По умолчанию таблицы не игнорируются на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.comparing/compareoptions/ignoretables/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.comparing/compareoptions/ignoretables/
 public bool IgnoreTables { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как фильтровать определенные типы элементов документа при сравнении.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Смотрите также
 
 * class [CompareOptions](../)
-* пространство имен [Aspose.Words.Comparing](../../compareoptions/)
+* пространство имен [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * сборка [Aspose.Words](../../../)
-
-

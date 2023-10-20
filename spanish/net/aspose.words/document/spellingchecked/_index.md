@@ -1,7 +1,9 @@
 ---
 title: Document.SpellingChecked
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Devolucionesverdadero si se ha revisado la ortografía del documento.
+linktitle: SpellingChecked
+articleTitle: SpellingChecked
+second_title: Aspose.Words para .NET
+description: Document SpellingChecked propiedad. Devolucionesverdadero si se ha revisado la ortografía del documento en C#.
 type: docs
 weight: 410
 url: /es/net/aspose.words/document/spellingchecked/
@@ -14,11 +16,11 @@ Devoluciones`verdadero` si se ha revisado la ortografía del documento.
 public bool SpellingChecked { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Para volver a revisar la ortografía del documento, establezca esta propiedad en`FALSO` .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la verificación ortográfica o gramatical.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.SpellingOrGrammar.docx");
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: ImageData.ToStream
-second_title: Aspose.Words för .NET API Referens
-description: ImageData metod. Skapar och returnerar en ström som innehåller bildbytes.
+linktitle: ToStream
+articleTitle: ToStream
+second_title: Aspose.Words för .NET
+description: ImageData ToStream metod. Skapar och returnerar en ström som innehåller bildbytes i C#.
 type: docs
-weight: 240
+weight: 230
 url: /sv/net/aspose.words.drawing/imagedata/tostream/
 ---
 ## ImageData.ToStream method
@@ -14,7 +16,7 @@ Skapar och returnerar en ström som innehåller bildbytes.
 public Stream ToStream()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om bildbytena lagras i formen, skapas och returneras enMemoryStream objekt.
 
@@ -24,7 +26,7 @@ Om bilden är länkad och lagrad i en extern URL, laddar ned filen och returnera
 
 Är det uppringarens ansvar att kassera strömobjektet.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en bildfil från en forms råa bilddata.
 
@@ -51,7 +53,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

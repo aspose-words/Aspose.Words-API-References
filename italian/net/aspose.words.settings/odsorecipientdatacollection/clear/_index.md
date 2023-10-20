@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Clear
-second_title: Aspose.Words per .NET API Reference
-description: OdsoRecipientDataCollection metodo. Rimuove tutti gli elementi da questa raccolta.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words per .NET
+description: OdsoRecipientDataCollection Clear metodo. Rimuove tutti gli elementi da questa raccolta in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.settings/odsorecipientdatacollection/clear/
@@ -14,7 +16,7 @@ Rimuove tutti gli elementi da questa raccolta.
 public void Clear()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Guarda anche
 
 * class [OdsoRecipientDataCollection](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

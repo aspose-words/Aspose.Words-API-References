@@ -1,7 +1,9 @@
 ---
 title: Style.BaseStyleName
-second_title: Aspose.Words لمراجع .NET API
-description: Style ملكية. الحصول على/تعيين اسم النمط الذي يعتمد عليه هذا النمط.
+linktitle: BaseStyleName
+articleTitle: BaseStyleName
+second_title: Aspose.Words لـ .NET
+description: Style BaseStyleName ملكية. الحصول على/تعيين اسم النمط الذي يعتمد عليه هذا النمط في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/style/basestylename/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/style/basestylename/
 public string BaseStyleName { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 ستكون هذه سلسلة فارغة إذا كان النمط لا يعتمد على أي نمط آخر ويمكن ضبطه على سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام الأسماء المستعارة للأسلوب.
 
@@ -49,7 +51,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### أنظر أيضا
 
 * class [Style](../)
-* مساحة الاسم [Aspose.Words](../../style/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

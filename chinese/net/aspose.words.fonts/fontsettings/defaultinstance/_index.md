@@ -1,7 +1,9 @@
 ---
 title: FontSettings.DefaultInstance
-second_title: Aspose.Words for .NET API 参考
-description: FontSettings 财产. 静态默认字体设置
+linktitle: DefaultInstance
+articleTitle: DefaultInstance
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSettings DefaultInstance 财产. 静态默认字体设置 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fonts/fontsettings/defaultinstance/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fonts/fontsettings/defaultinstance/
 public static FontSettings DefaultInstance { get; }
 ```
 
-### 评论
+## 评论
 
 文档中默认使用此实例，除非[`FontSettings`](../../../aspose.words/document/fontsettings/)已指定。
 
-### 例子
+## 例子
 
 演示如何配置默认字体设置实例。
 
@@ -94,7 +96,5 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 ### 也可以看看
 
 * class [FontSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

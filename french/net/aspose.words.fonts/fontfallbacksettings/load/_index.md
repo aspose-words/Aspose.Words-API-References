@@ -1,12 +1,14 @@
 ---
 title: FontFallbackSettings.Load
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontFallbackSettings méthode. Charge les paramètres de secours des polices à partir du fichier XML.
+linktitle: Load
+articleTitle: Load
+second_title: Aspose.Words pour .NET
+description: FontFallbackSettings Load méthode. Charge les paramètres de secours des polices à partir du fichier XML en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/fontfallbacksettings/load/
 ---
-## Load(string) {#load_1}
+## Load(*string*) {#load_1}
 
 Charge les paramètres de secours des polices à partir du fichier XML.
 
@@ -18,7 +20,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | Nom du fichier d'entrée. |
 
-### Exemples
+## Exemples
 
 Montre comment charger et enregistrer les paramètres de secours des polices vers/depuis un document XML dans le système de fichiers local.
 
@@ -39,12 +41,12 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ### Voir également
 
 * class [FontFallbackSettings](../)
-* espace de noms [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Load(Stream) {#load}
+## Load(*Stream*) {#load}
 
 Charge les paramètres de secours à partir du flux XML.
 
@@ -56,7 +58,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Flux d'entrée. |
 
-### Exemples
+## Exemples
 
 Montre comment charger et enregistrer les paramètres de secours des polices vers/depuis un flux.
 
@@ -85,7 +87,5 @@ using (FileStream fontFallbackStream =
 ### Voir également
 
 * class [FontFallbackSettings](../)
-* espace de noms [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

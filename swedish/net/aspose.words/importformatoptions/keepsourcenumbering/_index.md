@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.KeepSourceNumbering
-second_title: Aspose.Words för .NET API Referens
-description: ImportFormatOptions fast egendom. Hämtar eller ställer in ett booleskt värde som anger hur numreringen kommer att importeras när den krockar i käll och destinationsdokument. Standardvärdet ärfalsk .
+linktitle: KeepSourceNumbering
+articleTitle: KeepSourceNumbering
+second_title: Aspose.Words för .NET
+description: ImportFormatOptions KeepSourceNumbering fast egendom. Hämtar eller ställer in ett booleskt värde som anger hur numreringen kommer att importeras när den krockar i käll och destinationsdokument. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/importformatoptions/keepsourcenumbering/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett booleskt värde som anger hur numreringen kommer a
 public bool KeepSourceNumbering { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man löser en konflikt när man importerar dokument som har listor med samma listdefinitionsidentifierare.
 
@@ -108,7 +110,5 @@ else
 ### Se även
 
 * class [ImportFormatOptions](../)
-* namnutrymme [Aspose.Words](../../importformatoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

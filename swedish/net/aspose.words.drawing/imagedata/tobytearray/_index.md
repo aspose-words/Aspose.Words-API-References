@@ -1,9 +1,11 @@
 ---
 title: ImageData.ToByteArray
-second_title: Aspose.Words för .NET API Referens
-description: ImageData metod. Returnerar bildbyte för alla bilder oavsett om bilden är lagrad eller länkad.
+linktitle: ToByteArray
+articleTitle: ToByteArray
+second_title: Aspose.Words för .NET
+description: ImageData ToByteArray metod. Returnerar bildbyte för alla bilder oavsett om bilden är lagrad eller länkad i C#.
 type: docs
-weight: 220
+weight: 210
 url: /sv/net/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData.ToByteArray method
@@ -14,11 +16,11 @@ Returnerar bildbyte för alla bilder oavsett om bilden är lagrad eller länkad.
 public byte[] ToByteArray()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om bilden är länkad, laddar ner bilden varje gång den anropas.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en bildfil från en forms råa bilddata.
 
@@ -45,7 +47,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

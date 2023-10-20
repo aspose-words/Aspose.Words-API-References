@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.HeadingPairs
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Anger dokumentrubriker och deras namn.
+linktitle: HeadingPairs
+articleTitle: HeadingPairs
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties HeadingPairs fast egendom. Anger dokumentrubriker och deras namn i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.properties/builtindocumentproperties/headingpairs/
@@ -14,7 +16,7 @@ Anger dokumentrubriker och deras namn.
 public object[] HeadingPairs { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Varje rubrikpar upptar två element i denna array.
 
@@ -24,7 +26,7 @@ Den totala summan av antal för alla rubrikpar i den här egenskapen måste vara
 
 Aspose.Words uppdaterar inte den här egenskapen.
 
-### Exempel
+## Exempel
 
 Visar förhållandet mellan "HeadingPairs" och "TitlesOfParts" egenskaper.
 
@@ -55,7 +57,5 @@ while (headingPairsIndex < headingPairs.Length)
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

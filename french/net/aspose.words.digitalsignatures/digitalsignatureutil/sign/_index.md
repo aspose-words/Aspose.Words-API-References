@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.Sign
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DigitalSignatureUtil méthode. Signe le document source en utilisant ce qui est donnéCertificateHolder etSignOptions avec signature numérique et écrit le document signé dans le flux de destination.
+linktitle: Sign
+articleTitle: Sign
+second_title: Aspose.Words pour .NET
+description: DigitalSignatureUtil Sign méthode. Signe le document source en utilisant ce qui est donnéCertificateHolder etSignOptions avec signature numérique et écrit le document signé dans le flux de destination en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
-## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
+## Sign(*Stream, Stream, [CertificateHolder](../../certificateholder/), [SignOptions](../../signoptions/)*) {#sign_1}
 
 Signe le document source en utilisant ce qui est donné[`CertificateHolder`](../../certificateholder/) et[`SignOptions`](../../signoptions/) avec signature numérique et écrit le document signé dans le flux de destination.
 
@@ -26,7 +28,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objet avec le certificat utilisé pour signer file. Le certificat dans le support DOIT contenir des clés privées et avoir l'indicateur X509KeyStorageFlags.Exportable défini. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions/) objet avec diverses options de signature. |
 
-### Exemples
+## Exemples
 
 Montre comment signer numériquement des documents.
 
@@ -57,12 +59,12 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 * class [CertificateHolder](../../certificateholder/)
 * class [SignOptions](../../signoptions/)
 * class [DigitalSignatureUtil](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
+## Sign(*string, string, [CertificateHolder](../../certificateholder/), [SignOptions](../../signoptions/)*) {#sign_3}
 
 Signe le document source en utilisant ce qui est donné[`CertificateHolder`](../../certificateholder/) et[`SignOptions`](../../signoptions/) avec signature numérique et écrit le document signé dans le fichier de destination.
 
@@ -80,7 +82,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objet avec le certificat utilisé pour signer file. Le certificat dans le support DOIT contenir des clés privées et avoir l'indicateur X509KeyStorageFlags.Exportable défini. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions/) objet avec diverses options de signature. |
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une ligne de signature à un document, puis le signer à l'aide d'un certificat numérique.
 
@@ -198,12 +200,12 @@ Montre comment ajouter une ligne de signature à un document, puis le signer à 
 * class [CertificateHolder](../../certificateholder/)
 * class [SignOptions](../../signoptions/)
 * class [DigitalSignatureUtil](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Sign(Stream, Stream, CertificateHolder) {#sign}
+## Sign(*Stream, Stream, [CertificateHolder](../../certificateholder/)*) {#sign}
 
 Signe le document source en utilisant ce qui est donné[`CertificateHolder`](../../certificateholder/)avec signature numérique et écrit le document signé dans le flux de destination.
 
@@ -221,7 +223,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | dstStream | Stream | Le flux dans lequel le document signé sera écrit. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objet avec le certificat utilisé pour signer file. Le certificat dans le support DOIT contenir des clés privées et avoir l'indicateur X509KeyStorageFlags.Exportable défini. |
 
-### Exemples
+## Exemples
 
 Montre comment signer des documents avec des certificats X.509.
 
@@ -265,12 +267,12 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignatureUtil](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## Sign(string, string, CertificateHolder) {#sign_2}
+## Sign(*string, string, [CertificateHolder](../../certificateholder/)*) {#sign_2}
 
 Signe le document source en utilisant ce qui est donné[`CertificateHolder`](../../certificateholder/) avec signature numérique et écrit le document signé dans le fichier de destination.
 
@@ -286,7 +288,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | dstFileName | String | Le nom de fichier de la sortie du document signé. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objet avec le certificat utilisé pour signer file. Le certificat dans le support DOIT contenir des clés privées et avoir l'indicateur X509KeyStorageFlags.Exportable défini. |
 
-### Exemples
+## Exemples
 
 Montre comment signer des documents avec des certificats X.509.
 
@@ -330,7 +332,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignatureUtil](../)
-* espace de noms [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* espace de noms [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../../)
-
-

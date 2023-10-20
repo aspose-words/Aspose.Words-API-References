@@ -1,7 +1,9 @@
 ---
 title: FieldTA.ShortCitation
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldTA eigendom. Ruft das Kurzzitat für den Eintrag ab oder legt es fest.
+linktitle: ShortCitation
+articleTitle: ShortCitation
+second_title: Aspose.Words für .NET
+description: FieldTA ShortCitation eigendom. Ruft das Kurzzitat für den Eintrag ab oder legt es fest in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldta/shortcitation/
@@ -14,7 +16,7 @@ Ruft das Kurzzitat für den Eintrag ab oder legt es fest.
 public string ShortCitation { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe von TOA- und TA-Feldern ein Autoritätsverzeichnis erstellt und anpasst.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Siehe auch
 
 * class [FieldTA](../)
-* namensraum [Aspose.Words.Fields](../../fieldta/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

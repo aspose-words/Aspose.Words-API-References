@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.LeftPadding
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyle ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يسار محتويات خلايا الجدول.
+linktitle: LeftPadding
+articleTitle: LeftPadding
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyle LeftPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يسار محتويات خلايا الجدول في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/conditionalstyle/leftpadding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstyle/leftpadding/
 public double LeftPadding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### أنظر أيضا
 
 * class [ConditionalStyle](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeList.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: NodeList eigendom. Ruft die Anzahl der Knoten in der Liste ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: NodeList Count eigendom. Ruft die Anzahl der Knoten in der Liste ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/nodelist/count/
@@ -14,7 +16,7 @@ Ruft die Anzahl der Knoten in der Liste ab.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie XPaths zum Navigieren in einer NodeList verwendet werden.
 
@@ -72,7 +74,5 @@ Assert.True(shape.HasImage);
 ### Siehe auch
 
 * class [NodeList](../)
-* namensraum [Aspose.Words](../../nodelist/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

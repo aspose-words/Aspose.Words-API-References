@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentStructuredDocumentTag
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder proprietà. Ottiene il tag del documento strutturato attualmente selezionato in thisDocumentBuilder .
+linktitle: CurrentStructuredDocumentTag
+articleTitle: CurrentStructuredDocumentTag
+second_title: Aspose.Words per .NET
+description: DocumentBuilder CurrentStructuredDocumentTag proprietà. Ottiene il tag del documento strutturato attualmente selezionato in thisDocumentBuilder  in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words/documentbuilder/currentstructureddocumenttag/
@@ -14,7 +16,7 @@ Ottiene il tag del documento strutturato attualmente selezionato in this[`Docume
 public StructuredDocumentTag CurrentStructuredDocumentTag { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come spostare il cursore di DocumentBuilder all'interno di un tag di documento strutturato.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldToc.FieldToc
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldToc constructor. Constructor predeterminado
+title: FieldToc
+linktitle: FieldToc
+articleTitle: FieldToc
+second_title: Aspose.Words para .NET
+description: FieldToc constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldtoc/fieldtoc/
@@ -17,7 +19,5 @@ public FieldToc()
 ### Ver también
 
 * class [FieldToc](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldtoc/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

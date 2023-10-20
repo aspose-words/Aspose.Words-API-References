@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Target
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Ottiene o imposta il frame di destinazione per il collegamento ipertestuale della forma.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words per .NET
+description: ShapeBase Target proprietà. Ottiene o imposta il frame di destinazione per il collegamento ipertestuale della forma in C#.
 type: docs
 weight: 520
 url: /it/net/aspose.words.drawing/shapebase/target/
@@ -14,11 +16,11 @@ Ottiene o imposta il frame di destinazione per il collegamento ipertestuale dell
 public string Target { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è una stringa vuota.
 
-### Esempi
+## Esempi
 
 Mostra come inserire una forma che contiene un'immagine ed è anche un collegamento ipertestuale.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### Guarda anche
 
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

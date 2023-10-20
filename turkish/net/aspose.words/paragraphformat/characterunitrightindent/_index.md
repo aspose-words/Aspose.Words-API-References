@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.CharacterUnitRightIndent
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Belirtilen paragraflar için doğru girinti değerini karakter cinsinden alır veya ayarlar.
+linktitle: CharacterUnitRightIndent
+articleTitle: CharacterUnitRightIndent
+second_title: Aspose.Words for .NET
+description: ParagraphFormat CharacterUnitRightIndent mülk. Belirtilen paragraflar için doğru girinti değerini karakter cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/paragraphformat/characterunitrightindent/
@@ -14,7 +16,7 @@ Belirtilen paragraflar için doğru girinti değerini (karakter cinsinden) alır
 public double CharacterUnitRightIndent { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Paragraf aralığının ve girintilerin nasıl değiştirileceğini gösterir.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

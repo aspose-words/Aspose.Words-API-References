@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.DateTimeValue
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartXValue свойство. Получает сохраненное значение даты и времени.
+linktitle: DateTimeValue
+articleTitle: DateTimeValue
+second_title: Aspose.Words для .NET
+description: ChartXValue DateTimeValue свойство. Получает сохраненное значение даты и времени на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing.charts/chartxvalue/datetimevalue/
@@ -17,7 +19,5 @@ public DateTime DateTimeValue { get; }
 ### Смотрите также
 
 * class [ChartXValue](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

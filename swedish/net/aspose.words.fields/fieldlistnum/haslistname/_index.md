@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.HasListName
-second_title: Aspose.Words för .NET API Referens
-description: FieldListNum fast egendom. Returnerar ett värde som anger om namnet på en abstrakt numreringsdefinition tillhandahålls av fältets kod.
+linktitle: HasListName
+articleTitle: HasListName
+second_title: Aspose.Words för .NET
+description: FieldListNum HasListName fast egendom. Returnerar ett värde som anger om namnet på en abstrakt numreringsdefinition tillhandahålls av fältets kod i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldlistnum/haslistname/
@@ -14,7 +16,7 @@ Returnerar ett värde som anger om namnet på en abstrakt numreringsdefinition t
 public bool HasListName { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man numrerar stycken med LISTNUM-fält.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Se även
 
 * class [FieldListNum](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldlistnum/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

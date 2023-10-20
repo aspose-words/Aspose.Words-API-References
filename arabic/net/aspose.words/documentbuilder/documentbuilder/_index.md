@@ -1,7 +1,9 @@
 ---
-title: DocumentBuilder.DocumentBuilder
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder البناء. تهيئة مثيل جديد لهذه الفئة.
+title: DocumentBuilder
+linktitle: DocumentBuilder
+articleTitle: DocumentBuilder
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder البناء. تهيئة مثيل جديد لهذه الفئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/documentbuilder/documentbuilder/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/documentbuilder/documentbuilder/
 public DocumentBuilder()
 ```
 
-### ملاحظات
+## ملاحظات
 
 إنشاء ملف جديد[`DocumentBuilder`](../) الكائن وإرفاقه بكائن جديد[`Document`](../../document/) الكائن.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج نص منسق باستخدام DocumentBuilder.
 
@@ -40,12 +42,12 @@ builder.Write("Hello world!");
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## DocumentBuilder(Document) {#constructor_1}
+## DocumentBuilder(*[Document](../../document/)*) {#constructor_1}
 
 تهيئة مثيل جديد لهذه الفئة.
 
@@ -57,11 +59,11 @@ public DocumentBuilder(Document doc)
 | --- | --- | --- |
 | doc | Document | ال[`Document`](../../document/) كائن لنعلق عليه. |
 
-### ملاحظات
+## ملاحظات
 
 إنشاء ملف جديد[`DocumentBuilder`](../) كائن، يعلق على المحدد[`Document`](../../document/)object. تم وضع المؤشر في بداية المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الرؤوس والتذييلات في مستند باستخدام DocumentBuilder.
 
@@ -142,7 +144,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

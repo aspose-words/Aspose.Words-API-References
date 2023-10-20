@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontSavingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يسمح بالتحكم في كيفية حفظ الخطوط عند حفظ مستند بتنسيق HTML أو MHTML أو EPUB.
+linktitle: FontSavingCallback
+articleTitle: FontSavingCallback
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions FontSavingCallback ملكية. يسمح بالتحكم في كيفية حفظ الخطوط عند حفظ مستند بتنسيق HTML أو MHTML أو EPUB في C#.
 type: docs
 weight: 300
 url: /ar/net/aspose.words.saving/htmlsaveoptions/fontsavingcallback/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/fontsavingcallback/
 public IFontSavingCallback FontSavingCallback { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المنطق المخصص لتصدير الخطوط عند الحفظ إلى HTML.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * interface [IFontSavingCallback](../../ifontsavingcallback/)
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

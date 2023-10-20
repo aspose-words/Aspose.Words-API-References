@@ -1,7 +1,9 @@
 ---
 title: Border.ClearFormatting
-second_title: Referencia de API de Aspose.Words para .NET
-description: Border método. Restablece las propiedades del borde a los valores predeterminados.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words para .NET
+description: Border ClearFormatting método. Restablece las propiedades del borde a los valores predeterminados en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words/border/clearformatting/
@@ -14,11 +16,11 @@ Restablece las propiedades del borde a los valores predeterminados.
 public void ClearFormatting()
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando las propiedades del borde se restablecen a los valores predeterminados, el borde es invisible.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar bordes de un párrafo.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Border.ClearFormatting.docx");
 ### Ver también
 
 * class [Border](../)
-* espacio de nombres [Aspose.Words](../../border/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

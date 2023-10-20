@@ -1,18 +1,20 @@
 ---
 title: Aspose.Words.MailMerging
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.MailMergingتحتوي مساحة الاسم على فئات محرك تقارير دمج المراسلات الأصلي .
+linktitle: Aspose.Words.MailMerging
+articleTitle: Aspose.Words.MailMerging
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.MailMergingتحتوي مساحة الاسم على فئات محرك تقارير دمج المراسلات الأصلي  في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.mailmerging/
 ---
-ال **Aspose.Words.MailMerging**تحتوي مساحة الاسم على فئات محرك تقارير دمج المراسلات "الأصلي" .
+ال**Aspose.Words.MailMerging**تحتوي مساحة الاسم على فئات محرك تقارير دمج المراسلات "الأصلي" .
 
 ## الطبقات
 
 | فصل | وصف |
 | --- | --- |
-| [FieldMergingArgs](./fieldmergingargs/) | يوفر بيانات لـ **مجال مدمج** حدث. |
+| [FieldMergingArgs](./fieldmergingargs/) | يوفر بيانات لـ**مجال مدمج** حدث. |
 | [FieldMergingArgsBase](./fieldmergingargsbase/) | الفئة الأساسية لـ[`FieldMergingArgs`](../aspose.words.mailmerging/fieldmergingargs/) و[`ImageFieldMergingArgs`](../aspose.words.mailmerging/imagefieldmergingargs/) . |
 | [ImageFieldMergingArgs](./imagefieldmergingargs/) | يوفر بيانات لـ[`ImageFieldMerging`](../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/) حدث. |
 | [MailMerge](./mailmerge/) | يمثل وظيفة دمج البريد. |
@@ -32,5 +34,3 @@ url: /ar/net/aspose.words.mailmerging/
 | تعداد | وصف |
 | --- | --- |
 | [MailMergeCleanupOptions](./mailmergecleanupoptions/) | تحديد الخيارات التي تحدد العناصر التي تتم إزالتها أثناء دمج البريد. |
-
-

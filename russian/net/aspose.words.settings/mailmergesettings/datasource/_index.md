@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DataSource
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Указывает путь к источнику данных слияния почты. Значение по умолчанию  пустая строка.
+linktitle: DataSource
+articleTitle: DataSource
+second_title: Aspose.Words для .NET
+description: MailMergeSettings DataSource свойство. Указывает путь к источнику данных слияния почты. Значение по умолчанию  пустая строка на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.settings/mailmergesettings/datasource/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/mailmergesettings/datasource/
 public string DataSource { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать источник данных для слияния почты из источника заголовка и источника данных.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.docx");
 ### Смотрите также
 
 * class [MailMergeSettings](../)
-* пространство имен [Aspose.Words.Settings](../../mailmergesettings/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

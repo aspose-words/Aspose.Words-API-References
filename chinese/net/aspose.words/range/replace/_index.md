@@ -1,12 +1,14 @@
 ---
 title: Range.Replace
-second_title: Aspose.Words for .NET API 参考
-description: Range 方法. 用替换字符串替换所有出现的指定字符串模式
+linktitle: Replace
+articleTitle: Replace
+second_title: 用于 .NET 的 Aspose.Words
+description: Range Replace 方法. 用替换字符串替换所有出现的指定字符串模式 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/range/replace/
 ---
-## Replace(string, string) {#replace}
+## Replace(*string, string*) {#replace}
 
 用替换字符串替换所有出现的指定字符串模式。
 
@@ -23,7 +25,7 @@ public int Replace(string pattern, string replacement)
 
 进行替换的次数。
 
-### 评论
+## 评论
 
 该模式不会用作正则表达式。 请使用`Replace`如果你需要正则表达式。
 
@@ -40,7 +42,7 @@ public int Replace(string pattern, string replacement)
 
 使用方法`Replace`拥有更灵活的定制.
 
-### 例子
+## 例子
 
 ```csharp
 Document doc = new Document();
@@ -104,12 +106,12 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 ### 也可以看看
 
 * class [Range](../)
-* 命名空间 [Aspose.Words](../../range/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Replace(Regex, string) {#replace_2}
+## Replace(*Regex, string*) {#replace_2}
 
 将正则表达式指定的所有出现的字符模式替换为另一个字符串。
 
@@ -126,7 +128,7 @@ public int Replace(Regex pattern, string replacement)
 
 进行替换的次数。
 
-### 评论
+## 评论
 
 替换正则表达式捕获的整个匹配项。
 
@@ -141,7 +143,7 @@ public int Replace(Regex pattern, string replacement)
 
 使用方法`Replace`拥有更灵活的定制.
 
-### 例子
+## 例子
 
 ```csharp
 Document doc = new Document();
@@ -168,12 +170,12 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 ### 也可以看看
 
 * class [Range](../)
-* 命名空间 [Aspose.Words](../../range/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Replace(string, string, FindReplaceOptions) {#replace_1}
+## Replace(*string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_1}
 
 用替换字符串替换所有出现的指定字符串模式。
 
@@ -191,7 +193,7 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 
 进行替换的次数。
 
-### 评论
+## 评论
 
 该模式不会用作正则表达式。 请使用`Replace`如果你需要正则表达式。
 
@@ -205,7 +207,7 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 * **&amp;l** 手动换行
 * **&amp;&amp;** - ＆ 特点
 
-### 例子
+## 例子
 
 ```csharp
 Document doc = new Document();
@@ -315,12 +317,12 @@ Assert.AreEqual("Eggs\a50\a\a" +
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* 命名空间 [Aspose.Words](../../range/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Replace(Regex, string, FindReplaceOptions) {#replace_3}
+## Replace(*Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_3}
 
 将正则表达式指定的所有出现的字符模式替换为另一个字符串。
 
@@ -338,7 +340,7 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 
 进行替换的次数。
 
-### 评论
+## 评论
 
 替换正则表达式捕获的整个匹配项。
 
@@ -352,7 +354,7 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 * **&amp;l** 手动换行
 * **&amp;&amp;** - ＆ 特点
 
-### 例子
+## 例子
 
 ```csharp
 Document doc = new Document();
@@ -487,7 +489,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* 命名空间 [Aspose.Words](../../range/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

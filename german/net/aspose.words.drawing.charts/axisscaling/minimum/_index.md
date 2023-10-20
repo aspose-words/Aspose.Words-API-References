@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Minimum
-second_title: Aspose.Words für .NET-API-Referenz
-description: AxisScaling eigendom. Ruft den Minimalwert der Achse ab oder legt diesen fest.
+linktitle: Minimum
+articleTitle: Minimum
+second_title: Aspose.Words für .NET
+description: AxisScaling Minimum eigendom. Ruft den Minimalwert der Achse ab oder legt diesen fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing.charts/axisscaling/minimum/
@@ -14,11 +16,11 @@ Ruft den Minimalwert der Achse ab oder legt diesen fest.
 public AxisBound Minimum { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist „auto“.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Diagramm mit Datums-/Uhrzeitwerten eingefügt wird.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisBound](../../axisbound/)
 * class [AxisScaling](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

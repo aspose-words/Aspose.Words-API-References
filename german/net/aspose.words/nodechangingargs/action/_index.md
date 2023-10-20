@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.Action
-second_title: Aspose.Words für .NET-API-Referenz
-description: NodeChangingArgs eigendom. Ruft einen Wert ab der angibt welche Art von Knotenänderungsereignis auftritt.
+linktitle: Action
+articleTitle: Action
+second_title: Aspose.Words für .NET
+description: NodeChangingArgs Action eigendom. Ruft einen Wert ab der angibt welche Art von Knotenänderungsereignis auftritt in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/nodechangingargs/action/
@@ -14,7 +16,7 @@ Ruft einen Wert ab, der angibt, welche Art von Knotenänderungsereignis auftritt
 public NodeChangingAction Action { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein NodeChangingCallback verwendet wird, um Änderungen am Dokumentbaum in Echtzeit zu überwachen, während wir ihn bearbeiten.
 
@@ -90,7 +92,5 @@ private class NodeChangingPrinter : INodeChangingCallback
 
 * enum [NodeChangingAction](../../nodechangingaction/)
 * class [NodeChangingArgs](../)
-* namensraum [Aspose.Words](../../nodechangingargs/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

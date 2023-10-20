@@ -1,7 +1,9 @@
 ---
 title: Font.Kerning
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in teckenstorleken vid vilken kerning startar.
+linktitle: Kerning
+articleTitle: Kerning
+second_title: Aspose.Words för .NET
+description: Font Kerning fast egendom. Hämtar eller ställer in teckenstorleken vid vilken kerning startar i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words/font/kerning/
@@ -14,7 +16,7 @@ Hämtar eller ställer in teckenstorleken vid vilken kerning startar.
 public double Kerning { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man anger teckenstorleken vid vilken kerning börjar träda i kraft.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.Kerning.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

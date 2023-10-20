@@ -1,7 +1,9 @@
 ---
 title: PageSetup.RestartPageNumbering
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 如果页码从节的开头重新开始则为 True
+linktitle: RestartPageNumbering
+articleTitle: RestartPageNumbering
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup RestartPageNumbering 财产. 如果页码从节的开头重新开始则为 True 在 C#.
 type: docs
 weight: 360
 url: /zh/net/aspose.words/pagesetup/restartpagenumbering/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/pagesetup/restartpagenumbering/
 public bool RestartPageNumbering { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果设置为`错误的`， 这`RestartPageNumbering`属性将覆盖 the [`PageStartingNumber`](../pagestartingnumber/)属性，以便页码可以从上一节继续。
 
-### 例子
+## 例子
 
 展示如何在节中设置页码。
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

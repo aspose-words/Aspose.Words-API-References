@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.GetById
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlPartCollection metod. Hittar och returnerar en anpassad XMLdel med dess identifierare.
+linktitle: GetById
+articleTitle: GetById
+second_title: Aspose.Words för .NET
+description: CustomXmlPartCollection GetById metod. Hittar och returnerar en anpassad XMLdel med dess identifierare i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.markup/customxmlpartcollection/getbyid/
@@ -22,7 +24,7 @@ public CustomXmlPart GetById(string id)
 
 Returnerar`null` om en anpassad XML-del med den angivna identifieraren inte hittas.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg med anpassade XML-data.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlpartcollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

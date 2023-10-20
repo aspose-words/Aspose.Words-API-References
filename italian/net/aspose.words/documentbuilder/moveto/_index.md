@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveTo
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Sposta il cursore su un nodo in linea o alla fine di un paragrafo.
+linktitle: MoveTo
+articleTitle: MoveTo
+second_title: Aspose.Words per .NET
+description: DocumentBuilder MoveTo metodo. Sposta il cursore su un nodo in linea o alla fine di un paragrafo in C#.
 type: docs
-weight: 490
+weight: 480
 url: /it/net/aspose.words/documentbuilder/moveto/
 ---
 ## DocumentBuilder.MoveTo method
@@ -18,7 +20,7 @@ public void MoveTo(Node node)
 | --- | --- | --- |
 | node | Node | Il nodo deve essere un paragrafo o un figlio diretto di un paragrafo. |
 
-### Osservazioni
+## Osservazioni
 
 Quandonodo è un nodo a livello in linea, il cursore viene spostato su questo nodo e ulteriore contenuto verrà inserito prima di quel nodo.
 
@@ -26,7 +28,7 @@ Quandonodo è un[`Paragraph`](../../paragraph/), il cursore viene spostato alla 
 
 Quandonodo è un nodo a livello di blocco ma non a[`Paragraph`](../../paragraph/), il cursore viene spostato alla fine del primo paragrafo nel nodo a livello di blocco node e ulteriore contenuto verrà inserito subito prima dell'interruzione di paragrafo.
 
-### Esempi
+## Esempi
 
 Mostra come spostare la posizione del cursore di DocumentBuilder su un nodo specificato.
 
@@ -108,7 +110,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

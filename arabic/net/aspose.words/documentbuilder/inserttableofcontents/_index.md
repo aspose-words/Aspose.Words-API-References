@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertTableOfContents
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج حقل TOC جدول المحتويات في المستند.
+linktitle: InsertTableOfContents
+articleTitle: InsertTableOfContents
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertTableOfContents طريقة. إدراج حقل TOC جدول المحتويات في المستند في C#.
 type: docs
-weight: 470
+weight: 460
 url: /ar/net/aspose.words/documentbuilder/inserttableofcontents/
 ---
 ## DocumentBuilder.InsertTableOfContents method
@@ -18,7 +20,7 @@ public Field InsertTableOfContents(string switches)
 | --- | --- | --- |
 | switches | String | يقوم حقل TOC بالتبديل. |
 
-### ملاحظات
+## ملاحظات
 
 تقوم هذه الطريقة بإدراج حقل TOC (جدول المحتويات) في المستند عند الموضع الحالي.
 
@@ -26,7 +28,7 @@ public Field InsertTableOfContents(string switches)
 
 أسهل طريقة لتحديد المفاتيح هي إدراج جدول محتويات وتكوينه في مستند Word باستخدام القائمة إدراج-&gt;مرجع-&gt;الفهرس والجداول، ثم تشغيل عرض رموز الحقول لرؤية المفاتيح. يمكنك الضغط على Alt+F9 in Microsoft Word للتبديل بين تشغيل أو إيقاف عرض رموز الحقول.
 
-على سبيل المثال، بعد إنشاء جدول المحتويات، يتم إدراج الحقل التالي في المستند: **{ جدول المحتويات \o "1-3" \h \z \u }** . يمكنك النسخ **\o "1-3" \h \z \u** واستخدامها كمعلمة التبديل.
+على سبيل المثال، بعد إنشاء جدول المحتويات، يتم إدراج الحقل التالي في المستند:**{ جدول المحتويات \o "1-3" \h \z \u }** . يمكنك النسخ**\o "1-3" \h \z \u** واستخدامها كمعلمة التبديل.
 
 لاحظ أن`InsertTableOfContents` سيقوم فقط بإدراج حقل جدول المحتويات، لكن لن يقوم فعليًا بإنشاء جدول المحتويات. تم إنشاء جدول المحتويات بواسطة Microsoft Word عند تحديث الحقل.
 
@@ -34,7 +36,7 @@ public Field InsertTableOfContents(string switches)
 
 في Microsoft Word، لا يتم تحديث الحقول تلقائيًا عند فتح مستند، ولكن يمكنك تحديث الحقول في مستند في أي وقت بالضغط على F9.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج جدول محتويات (TOC) في مستند باستخدام أنماط العناوين كإدخالات.
 
@@ -87,7 +89,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

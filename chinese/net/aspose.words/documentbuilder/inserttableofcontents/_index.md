@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertTableOfContents
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将 TOC目录字段插入到文档中
+linktitle: InsertTableOfContents
+articleTitle: InsertTableOfContents
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertTableOfContents 方法. 将 TOC目录字段插入到文档中 在 C#.
 type: docs
-weight: 470
+weight: 460
 url: /zh/net/aspose.words/documentbuilder/inserttableofcontents/
 ---
 ## DocumentBuilder.InsertTableOfContents method
@@ -18,7 +20,7 @@ public Field InsertTableOfContents(string switches)
 | --- | --- | --- |
 | switches | String | TOC 字段切换。 |
 
-### 评论
+## 评论
 
 此方法将 TOC（目录）字段插入到文档 at 的当前位置。
 
@@ -26,7 +28,7 @@ Word 文档中的目录可以通过多种方式构建并使用多种选项进行
 
 指定开关的最简单方法是使用“插入”-&gt;“参考”-&gt;“索引和表格”菜单将 内容表插入并配置到Word 文档中， 然后打开域代码显示以查看开关。您可以在 Microsoft Word 中按 Alt+F9 打开或关闭域代码的显示。
 
-例如，创建目录后，以下字段将 insert 到文档中： **{ 目录 \o "1-3" \h \z \u }** . 您可以复制 **\o“1-3”\h\z\u**并将其用作开关参数。
+例如，创建目录后，以下字段将 insert 到文档中：**{ 目录 \o "1-3" \h \z \u }** . 您可以复制**\o“1-3”\h\z\u**并将其用作开关参数。
 
 注意`InsertTableOfContents`只会插入一个 TOC 字段，但 不会实际构建目录。当字段更新时，目录由 Microsoft Word 构建。
 
@@ -34,7 +36,7 @@ Word 文档中的目录可以通过多种方式构建并使用多种选项进行
 
 在 Microsoft Word 中，打开文档时不会自动更新字段 ，但您可以随时按 F9 更新文档中的字段。
 
-### 例子
+## 例子
 
 演示如何使用标题样式作为条目将目录 (TOC) 插入到文档中。
 
@@ -87,7 +89,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

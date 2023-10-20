@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.IndexOfKey
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlPropertyCollection yöntem. Koleksiyonda belirtilen özelliğin sıfır tabanlı dizinini döndürür.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words for .NET
+description: CustomXmlPropertyCollection IndexOfKey yöntem. Koleksiyonda belirtilen özelliğin sıfır tabanlı dizinini döndürür C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.markup/customxmlpropertycollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 Sıfır tabanlı endeks. Bulunamazsa negatif değer.
 
-### Örnekler
+## Örnekler
 
 Akıllı etiketler hakkında ayrıntılı bilgi almak için akıllı etiket özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ayrıca bakınız
 
 * class [CustomXmlPropertyCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

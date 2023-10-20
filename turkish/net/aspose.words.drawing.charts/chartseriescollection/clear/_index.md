@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Clear
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeriesCollection yöntem. Tümünü kaldırırChartSeries bu koleksiyondan.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words for .NET
+description: ChartSeriesCollection Clear yöntem. Tümünü kaldırırChartSeries bu koleksiyondan C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.charts/chartseriescollection/clear/
@@ -14,7 +16,7 @@ Tümünü kaldırır[`ChartSeries`](../../chartseries/) bu koleksiyondan.
 public void Clear()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir grafiğe seri verilerinin nasıl eklenip kaldırılacağını gösterir.
 
@@ -61,7 +63,5 @@ chartData.Clear();
 ### Ayrıca bakınız
 
 * class [ChartSeriesCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

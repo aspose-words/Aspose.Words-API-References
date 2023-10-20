@@ -1,7 +1,9 @@
 ---
-title: Enum Underline
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Underline تعداد. يشير إلى نوع التسطير المطبق على الخط.
+title: Underline Enum
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Underline تعداد. يشير إلى نوع التسطير المطبق على الخط في C#.
 type: docs
 weight: 6510
 url: /ar/net/aspose.words/underline/
@@ -37,7 +39,7 @@ public enum Underline
 | WavyHeavy | `27` |  |
 | WavyDouble | `43` |  |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل الارتباط التشعبي.
 
@@ -63,5 +65,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

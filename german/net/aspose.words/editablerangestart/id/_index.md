@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.Id
-second_title: Aspose.Words für .NET-API-Referenz
-description: EditableRangeStart eigendom. Gibt die Kennung des bearbeitbaren Bereichs an.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words für .NET
+description: EditableRangeStart Id eigendom. Gibt die Kennung des bearbeitbaren Bereichs an in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/editablerangestart/id/
@@ -14,7 +16,7 @@ Gibt die Kennung des bearbeitbaren Bereichs an.
 public int Id { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einem bearbeitbaren Bereich gearbeitet wird.
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### Siehe auch
 
 * class [EditableRangeStart](../)
-* namensraum [Aspose.Words](../../editablerangestart/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

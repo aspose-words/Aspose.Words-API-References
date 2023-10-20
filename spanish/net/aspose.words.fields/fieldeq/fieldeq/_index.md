@@ -1,7 +1,9 @@
 ---
-title: FieldEQ.FieldEQ
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldEQ constructor. Constructor predeterminado
+title: FieldEQ
+linktitle: FieldEQ
+articleTitle: FieldEQ
+second_title: Aspose.Words para .NET
+description: FieldEQ constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldeq/fieldeq/
@@ -17,7 +19,5 @@ public FieldEQ()
 ### Ver también
 
 * class [FieldEQ](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldeq/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

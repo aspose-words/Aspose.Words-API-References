@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceFileUri
-second_title: Aspose.Words for .NET API 参考
-description: ResourceSavingArgs 财产. 获取或设置用于从文档引用资源文件的统一资源标识符 URI
+linktitle: ResourceFileUri
+articleTitle: ResourceFileUri
+second_title: 用于 .NET 的 Aspose.Words
+description: ResourceSavingArgs ResourceFileUri 财产. 获取或设置用于从文档引用资源文件的统一资源标识符 URI 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/resourcesavingargs/resourcefileuri/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/resourcesavingargs/resourcefileuri/
 public string ResourceFileUri { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性允许您更改导出到固定页面 HTML 或 SVG 文档的资源文件的 URI。
 
@@ -24,7 +26,7 @@ public string ResourceFileUri { get; set; }
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
-### 例子
+## 例子
 
 演示如何使用回调来跟踪将文档转换为 HTML 时创建的外部资源。
 
@@ -69,7 +71,5 @@ private class FontSavingCallback : IResourceSavingCallback
 ### 也可以看看
 
 * class [ResourceSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../resourcesavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

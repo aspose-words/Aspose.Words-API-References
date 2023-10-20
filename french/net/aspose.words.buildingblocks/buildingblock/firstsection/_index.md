@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.FirstSection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuildingBlock propriété. Obtient la première section du bloc de construction.
+linktitle: FirstSection
+articleTitle: FirstSection
+second_title: Aspose.Words pour .NET
+description: BuildingBlock FirstSection propriété. Obtient la première section du bloc de construction en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.buildingblocks/buildingblock/firstsection/
@@ -14,11 +16,11 @@ Obtient la première section du bloc de construction.
 public Section FirstSection { get; }
 ```
 
-### Remarques
+## Remarques
 
 Retours`nul` s'il n'y a pas de sections.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter un bloc de construction personnalisé à un document.
 
@@ -116,7 +118,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [Section](../../../aspose.words/section/)
 * class [BuildingBlock](../)
-* espace de noms [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* espace de noms [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Assemblée [Aspose.Words](../../../)
-
-

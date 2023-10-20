@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.IgnoreNoscriptElements
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlLoadOptions mülk. noscript HTML öğelerinin göz ardı edilip edilmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değerYANLIŞ .
+linktitle: IgnoreNoscriptElements
+articleTitle: IgnoreNoscriptElements
+second_title: Aspose.Words for .NET
+description: HtmlLoadOptions IgnoreNoscriptElements mülk. noscript HTML öğelerinin göz ardı edilip edilmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.loading/htmlloadoptions/ignorenoscriptelements/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.loading/htmlloadoptions/ignorenoscriptelements/
 public bool IgnoreNoscriptElements { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 MS Word gibi, Aspose.Words da komut dosyalarını desteklemez ve varsayılan olarak &lt;noscript&gt; elements içeriğini sonuçtaki belgeye yükler. Ancak çoğu tarayıcıda komut dosyaları desteklenir ve &lt;noscript&gt; içeriği görünmez. Bu özelliği şu şekilde ayarlamak`doğru` Aspose.Words'ü tüm &lt;noscript&gt; öğelerini yoksaymaya zorlar ve tarayıcılarda görülene daha yakın görünen belgeler üretilmesine yardımcı olur.
 
-### Örnekler
+## Örnekler
 
 &lt;noscript&gt; HTML öğelerinin nasıl yok sayılacağını gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.IgnoreNoscriptElements.pdf");
 ### Ayrıca bakınız
 
 * class [HtmlLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../htmlloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

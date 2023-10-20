@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Enabled
-second_title: Aspose.Words für .NET-API-Referenz
-description: Forms2OleControl eigendom. Gibt zurückWAHR wenn die Steuerung im aktivierten Zustand ist.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words für .NET
+description: Forms2OleControl Enabled eigendom. Gibt zurückWAHR wenn die Steuerung im aktivierten Zustand ist in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.ole/forms2olecontrol/enabled/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn die Steuerung im aktivierten Zustand ist.
 public bool Enabled { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften eines ActiveX-Steuerelements überprüft werden.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Siehe auch
 
 * class [Forms2OleControl](../)
-* namensraum [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* namensraum [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * Montage [Aspose.Words](../../../)
-
-

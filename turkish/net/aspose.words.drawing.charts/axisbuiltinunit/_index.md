@@ -1,7 +1,9 @@
 ---
-title: Enum AxisBuiltInUnit
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit Sıralama. Bir eksen için görüntüleme birimlerini belirtir.
+title: AxisBuiltInUnit Enum
+linktitle: AxisBuiltInUnit
+articleTitle: AxisBuiltInUnit
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit Sıralama. Bir eksen için görüntüleme birimlerini belirtir C#'da.
 type: docs
 weight: 520
 url: /tr/net/aspose.words.drawing.charts/axisbuiltinunit/
@@ -31,7 +33,7 @@ public enum AxisBuiltInUnit
 | Trillions | `10` | Grafikteki değerlerin 1.000.000.000.0000'e bölünmesi gerektiğini belirtir. |
 | Percentage | `11` | Grafikteki değerlerin 0,01'e bölünmesi gerektiğini belirtir. Bu değer yalnızca MS Office 2016'nın yeni chart türleri tarafından desteklenir. |
 
-### Örnekler
+## Örnekler
 
 Bir grafik ekseninin onay işaretlerinin ve görüntülenen değerlerinin nasıl değiştirileceğini gösterir.
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

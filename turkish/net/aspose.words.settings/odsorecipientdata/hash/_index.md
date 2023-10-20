@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Hash
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoRecipientData mülk. Bu kaydın karma kodunu temsil eder. Bazen Microsoft Word kullanırHash bir kayıt yerine tüm bir kaydınUniqueTag değer. Varsayılan değer 0. dir
+linktitle: Hash
+articleTitle: Hash
+second_title: Aspose.Words for .NET
+description: OdsoRecipientData Hash mülk. Bu kaydın karma kodunu temsil eder. Bazen Microsoft Word kullanırHash bir kayıt yerine tüm bir kaydınUniqueTag değer. Varsayılan değer 0. dir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.settings/odsorecipientdata/hash/
@@ -14,7 +16,7 @@ Bu kaydın karma kodunu temsil eder. Bazen Microsoft Word kullanır`Hash` bir ka
 public int Hash { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ayrıca bakınız
 
 * class [OdsoRecipientData](../)
-* ad alanı [Aspose.Words.Settings](../../odsorecipientdata/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

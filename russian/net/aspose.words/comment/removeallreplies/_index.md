@@ -1,9 +1,11 @@
 ---
 title: Comment.RemoveAllReplies
-second_title: Справочник по API Aspose.Words для .NET
-description: Comment метод. Удаляет все ответы на этот комментарий.
+linktitle: RemoveAllReplies
+articleTitle: RemoveAllReplies
+second_title: Aspose.Words для .NET
+description: Comment RemoveAllReplies метод. Удаляет все ответы на этот комментарий на С#.
 type: docs
-weight: 160
+weight: 130
 url: /ru/net/aspose.words/comment/removeallreplies/
 ---
 ## Comment.RemoveAllReplies method
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/comment/removeallreplies/
 public void RemoveAllReplies()
 ```
 
-### Примечания
+## Примечания
 
 Все составляющие узлы ответов будут удалены из документа.
 
-### Примеры
+## Примеры
 
 Показывает, как удалить ответы на комментарии.
 
@@ -50,7 +52,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 ### Смотрите также
 
 * class [Comment](../)
-* пространство имен [Aspose.Words](../../comment/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

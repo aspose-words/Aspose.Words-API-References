@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.ReadOnlyRecommended
-second_title: Aspose.Words لمراجع .NET API
-description: WriteProtection ملكية. يحدد ما إذا كان مؤلف المستند قد أوصى بفتح المستند للقراءة فقط.
+linktitle: ReadOnlyRecommended
+articleTitle: ReadOnlyRecommended
+second_title: Aspose.Words لـ .NET
+description: WriteProtection ReadOnlyRecommended ملكية. يحدد ما إذا كان مؤلف المستند قد أوصى بفتح المستند للقراءة فقط في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.settings/writeprotection/readonlyrecommended/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/writeprotection/readonlyrecommended/
 public bool ReadOnlyRecommended { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حماية مستند بكلمة مرور.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### أنظر أيضا
 
 * class [WriteProtection](../)
-* مساحة الاسم [Aspose.Words.Settings](../../writeprotection/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

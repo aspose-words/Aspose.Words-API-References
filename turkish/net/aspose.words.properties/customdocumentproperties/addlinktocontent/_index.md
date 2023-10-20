@@ -1,7 +1,9 @@
 ---
 title: CustomDocumentProperties.AddLinkToContent
-second_title: Aspose.Words for .NET API Referansı
-description: CustomDocumentProperties yöntem. İçeriğe bağlı yeni bir özel belge özelliği oluşturur.
+linktitle: AddLinkToContent
+articleTitle: AddLinkToContent
+second_title: Aspose.Words for .NET
+description: CustomDocumentProperties AddLinkToContent yöntem. İçeriğe bağlı yeni bir özel belge özelliği oluşturur C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.properties/customdocumentproperties/addlinktocontent/
@@ -23,7 +25,7 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 
 Yeni oluşturulan özellik nesnesi veya`hükümsüz` ne zaman*linkSource* geçersizdir.
 
-### Örnekler
+## Örnekler
 
 Özel bir belge özelliğinin bir yer imine nasıl bağlanacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../customdocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

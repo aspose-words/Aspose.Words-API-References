@@ -1,7 +1,9 @@
 ---
-title: Enum TaskPaneDockState
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.WebExtensions.TaskPaneDockState énumération. Énumère les emplacements disponibles de lobjet du volet des tâches.
+title: TaskPaneDockState Enum
+linktitle: TaskPaneDockState
+articleTitle: TaskPaneDockState
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.WebExtensions.TaskPaneDockState énumération. Énumère les emplacements disponibles de lobjet du volet des tâches en C#.
 type: docs
 weight: 6730
 url: /fr/net/aspose.words.webextensions/taskpanedockstate/
@@ -21,7 +23,7 @@ public enum TaskPaneDockState
 | Right | `0` | Ancrez le volet des tâches sur le côté droit de la fenêtre du document. |
 | Left | `1` | Ancrez le volet des tâches sur le côté gauche de la fenêtre du document. |
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une extension Web à un document.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * espace de noms [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../)
-
-

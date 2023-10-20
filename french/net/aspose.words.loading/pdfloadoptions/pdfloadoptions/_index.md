@@ -1,7 +1,9 @@
 ---
-title: PdfLoadOptions.PdfLoadOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfLoadOptions constructeur. Default_Constructor
+title: PdfLoadOptions
+linktitle: PdfLoadOptions
+articleTitle: PdfLoadOptions
+second_title: Aspose.Words pour .NET
+description: PdfLoadOptions constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.loading/pdfloadoptions/pdfloadoptions/
@@ -17,7 +19,5 @@ public PdfLoadOptions()
 ### Voir également
 
 * class [PdfLoadOptions](../)
-* espace de noms [Aspose.Words.Loading](../../pdfloadoptions/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

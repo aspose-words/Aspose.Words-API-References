@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: TabStopCollection fast egendom. Får ett tabbstopp vid det givna indexet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: TabStopCollection Item fast egendom. Får ett tabbstopp vid det givna indexet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/tabstopcollection/item/
@@ -18,7 +20,7 @@ public TabStop this[int index] { get; }
 | --- | --- |
 | index | Ett index över samlingen av tabbstopp. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av tabbstopp.
 
@@ -63,7 +65,7 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* namnutrymme [Aspose.Words](../../tabstopcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -80,11 +82,11 @@ public TabStop this[double position] { get; }
 | --- | --- |
 | position | Läget (i punkter) för tabbstoppet. |
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar`null` om inget tabbstopp hittas på angiven position.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av tabbstopp.
 
@@ -129,7 +131,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* namnutrymme [Aspose.Words](../../tabstopcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.ReadOnlyRecommended
-second_title: Aspose.Words for .NET API Referansı
-description: WriteProtection mülk. Belge yazarının belgenin salt okunur olarak açılmasını önerip önermediğini belirtir.
+linktitle: ReadOnlyRecommended
+articleTitle: ReadOnlyRecommended
+second_title: Aspose.Words for .NET
+description: WriteProtection ReadOnlyRecommended mülk. Belge yazarının belgenin salt okunur olarak açılmasını önerip önermediğini belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.settings/writeprotection/readonlyrecommended/
@@ -14,7 +16,7 @@ Belge yazarının belgenin salt okunur olarak açılmasını önerip önermediğ
 public bool ReadOnlyRecommended { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin parolayla nasıl korunacağını gösterir.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### Ayrıca bakınız
 
 * class [WriteProtection](../)
-* ad alanı [Aspose.Words.Settings](../../writeprotection/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

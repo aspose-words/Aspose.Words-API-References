@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.MustacheTags
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeRegionInfo propiedad. Devuelve una lista de etiquetas secundarias de bigote.
+linktitle: MustacheTags
+articleTitle: MustacheTags
+second_title: Aspose.Words para .NET
+description: MailMergeRegionInfo MustacheTags propiedad. Devuelve una lista de etiquetas secundarias de bigote en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.mailmerging/mailmergeregioninfo/mustachetags/
@@ -18,7 +20,5 @@ public IList<MustacheTag> MustacheTags { get; }
 
 * class [MustacheTag](../../mustachetag/)
 * class [MailMergeRegionInfo](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

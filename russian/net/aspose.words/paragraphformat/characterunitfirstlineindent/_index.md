@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.CharacterUnitFirstLineIndent
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает значение в символах для первой строки или выступающего отступа.
+linktitle: CharacterUnitFirstLineIndent
+articleTitle: CharacterUnitFirstLineIndent
+second_title: Aspose.Words для .NET
+description: ParagraphFormat CharacterUnitFirstLineIndent свойство. Получает или задает значение в символах для первой строки или выступающего отступа на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/paragraphformat/characterunitfirstlineindent/
@@ -16,7 +18,7 @@ url: /ru/net/aspose.words/paragraphformat/characterunitfirstlineindent/
 public double CharacterUnitFirstLineIndent { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить интервал между абзацами и отступы.
 
@@ -70,7 +72,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

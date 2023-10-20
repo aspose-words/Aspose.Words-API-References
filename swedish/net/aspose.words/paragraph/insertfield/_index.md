@@ -1,12 +1,14 @@
 ---
 title: Paragraph.InsertField
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph metod. Infogar ett fält i detta stycke.
+linktitle: InsertField
+articleTitle: InsertField
+second_title: Aspose.Words för .NET
+description: Paragraph InsertField metod. Infogar ett fält i detta stycke i C#.
 type: docs
-weight: 290
+weight: 270
 url: /sv/net/aspose.words/paragraph/insertfield/
 ---
-## InsertField(FieldType, bool, Node, bool) {#insertfield}
+## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool, [Node](../../node/), bool*) {#insertfield}
 
 Infogar ett fält i detta stycke.
 
@@ -25,7 +27,7 @@ public Field InsertField(FieldType fieldType, bool updateField, Node refNode, bo
 
 A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det infogade fältet.
 
-### Exempel
+## Exempel
 
 Visar olika sätt att lägga till fält i ett stycke.
 
@@ -67,12 +69,12 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, Node, bool) {#insertfield_1}
+## InsertField(*string, [Node](../../node/), bool*) {#insertfield_1}
 
 Infogar ett fält i detta stycke.
 
@@ -90,7 +92,7 @@ public Field InsertField(string fieldCode, Node refNode, bool isAfter)
 
 A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det infogade fältet.
 
-### Exempel
+## Exempel
 
 Visar olika sätt att lägga till fält i ett stycke.
 
@@ -131,12 +133,12 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, string, Node, bool) {#insertfield_2}
+## InsertField(*string, string, [Node](../../node/), bool*) {#insertfield_2}
 
 Infogar ett fält i detta stycke.
 
@@ -155,7 +157,7 @@ public Field InsertField(string fieldCode, string fieldValue, Node refNode, bool
 
 A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det infogade fältet.
 
-### Exempel
+## Exempel
 
 Visar olika sätt att lägga till fält i ett stycke.
 
@@ -196,7 +198,5 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * class [Node](../../node/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

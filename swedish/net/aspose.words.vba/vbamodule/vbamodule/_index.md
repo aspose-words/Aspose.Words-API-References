@@ -1,7 +1,9 @@
 ---
-title: VbaModule.VbaModule
-second_title: Aspose.Words för .NET API Referens
-description: VbaModule byggare. Skapar en tom modul.
+title: VbaModule
+linktitle: VbaModule
+articleTitle: VbaModule
+second_title: Aspose.Words för .NET
+description: VbaModule byggare. Skapar en tom modul i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.vba/vbamodule/vbamodule/
@@ -14,7 +16,7 @@ Skapar en tom modul.
 public VbaModule()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett VBA-projekt med hjälp av makron.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 ### Se även
 
 * class [VbaModule](../)
-* namnutrymme [Aspose.Words.Vba](../../vbamodule/)
+* namnutrymme [Aspose.Words.Vba](../../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../../)
-
-

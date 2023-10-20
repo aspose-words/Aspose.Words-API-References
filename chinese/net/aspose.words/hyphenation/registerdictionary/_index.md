@@ -1,12 +1,14 @@
 ---
 title: Hyphenation.RegisterDictionary
-second_title: Aspose.Words for .NET API 参考
-description: Hyphenation 方法. 从流中注册并加载指定语言的连字符字典如果字典无法读取或格式无效则抛出异常
+linktitle: RegisterDictionary
+articleTitle: RegisterDictionary
+second_title: 用于 .NET 的 Aspose.Words
+description: Hyphenation RegisterDictionary 方法. 从流中注册并加载指定语言的连字符字典如果字典无法读取或格式无效则抛出异常 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/hyphenation/registerdictionary/
 ---
-## RegisterDictionary(string, Stream) {#registerdictionary}
+## RegisterDictionary(*string, Stream*) {#registerdictionary}
 
 从流中注册并加载指定语言的连字符字典。如果字典无法读取或格式无效，则抛出异常。
 
@@ -19,7 +21,7 @@ public static void RegisterDictionary(string language, Stream stream)
 | language | String | 语言名称，例如“en-US”。有关详细信息，请参阅 .NET 文档中的“区域性名称”和 RFC 4646。 |
 | stream | Stream | OpenOffice 格式的字典文件的流。 |
 
-### 例子
+## 例子
 
 演示如何从文件打开和注册字典。
 
@@ -95,12 +97,12 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### 也可以看看
 
 * class [Hyphenation](../)
-* 命名空间 [Aspose.Words](../../hyphenation/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## RegisterDictionary(string, string) {#registerdictionary_1}
+## RegisterDictionary(*string, string*) {#registerdictionary_1}
 
 从文件中注册并加载指定语言的连字符字典。如果字典无法读取或格式无效，则抛出异常。
 
@@ -115,7 +117,7 @@ public static void RegisterDictionary(string language, string fileName)
 | language | String | 语言名称，例如“en-US”。有关详细信息，请参阅 .NET 文档中的“区域性名称”和 RFC 4646。 |
 | fileName | String | Open Office 格式的词典文件的路径。 |
 
-### 例子
+## 例子
 
 展示如何注册连字符字典。
 
@@ -223,7 +225,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### 也可以看看
 
 * class [Hyphenation](../)
-* 命名空间 [Aspose.Words](../../hyphenation/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

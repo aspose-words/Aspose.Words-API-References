@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OleControl
-second_title: Aspose.Words för .NET API Referens
-description: OleFormat fast egendom. BlirOleControl objekt om detta OLEobjekt är en ActiveXkontroll. Annars är den här egenskapen null.
+linktitle: OleControl
+articleTitle: OleControl
+second_title: Aspose.Words för .NET
+description: OleFormat OleControl fast egendom. BlirOleControl objekt om detta OLEobjekt är en ActiveXkontroll. Annars är den här egenskapen null i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing/oleformat/olecontrol/
@@ -14,7 +16,7 @@ Blir`OleControl` objekt om detta OLE-objekt är en ActiveX-kontroll. Annars är 
 public OleControl OleControl { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du verifierar egenskaperna för en ActiveX-kontroll.
 
@@ -45,7 +47,5 @@ if (oleControl.IsForms2OleControl)
 
 * class [OleControl](../../../aspose.words.drawing.ole/olecontrol/)
 * class [OleFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../oleformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

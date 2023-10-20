@@ -1,7 +1,9 @@
 ---
 title: Row.ParentTable
-second_title: Aspose.Words für .NET-API-Referenz
-description: Row eigendom. Gibt die unmittelbar übergeordnete Tabelle der Zeile zurück.
+linktitle: ParentTable
+articleTitle: ParentTable
+second_title: Aspose.Words für .NET
+description: Row ParentTable eigendom. Gibt die unmittelbar übergeordnete Tabelle der Zeile zurück in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.tables/row/parenttable/
@@ -14,11 +16,11 @@ Gibt die unmittelbar übergeordnete Tabelle der Zeile zurück.
 public Table ParentTable { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 GleichwertigFirstNonMarkupParentNode gegossen zu[`Table`](../../table/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jeder Tabelle in einem Dokument gedruckt wird.
 
@@ -182,7 +184,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Table](../../table/)
 * class [Row](../)
-* namensraum [Aspose.Words.Tables](../../row/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

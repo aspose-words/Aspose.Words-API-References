@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Size
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartMarker propiedad. Obtiene o establece el tamaño del marcador del gráfico. El valor predeterminado es 7.
+linktitle: Size
+articleTitle: Size
+second_title: Aspose.Words para .NET
+description: ChartMarker Size propiedad. Obtiene o establece el tamaño del marcador del gráfico. El valor predeterminado es 7 en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing.charts/chartmarker/size/
@@ -14,7 +16,7 @@ Obtiene o establece el tamaño del marcador del gráfico. El valor predeterminad
 public int Size { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con puntos de datos en un gráfico de líneas.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Ver también
 
 * class [ChartMarker](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

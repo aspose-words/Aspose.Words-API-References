@@ -1,7 +1,9 @@
 ---
-title: Enum UnicodeScript
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Shaping.UnicodeScript 枚举. Unicode 字符数据库属性脚本 sc.
+title: UnicodeScript Enum
+linktitle: UnicodeScript
+articleTitle: UnicodeScript
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Shaping.UnicodeScript 枚举. Unicode 字符数据库属性脚本 sc 在 C#.
 type: docs
 weight: 6080
 url: /zh/net/aspose.words.shaping/unicodescript/
@@ -177,7 +179,7 @@ public enum UnicodeScript
 | Common | `1517910393` | 通用脚本. |
 | Unknown | `1517976186` | 未知脚本。 |
 
-### 评论
+## 评论
 
 http://www.unicode.org/reports/tr24/tr24-29.html https://www.unicode.org/iso15924/ http://goo.gl/x9ilM
 
@@ -185,5 +187,3 @@ http://www.unicode.org/reports/tr24/tr24-29.html https://www.unicode.org/iso1592
 
 * 命名空间 [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * 部件 [Aspose.Words](../../)
-
-

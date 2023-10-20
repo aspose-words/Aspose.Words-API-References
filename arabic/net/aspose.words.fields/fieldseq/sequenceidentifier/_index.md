@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.SequenceIdentifier
-second_title: Aspose.Words لمراجع .NET API
-description: FieldSeq ملكية. الحصول على أو تعيين الاسم المخصص لسلسلة العناصر التي سيتم ترقيمها.
+linktitle: SequenceIdentifier
+articleTitle: SequenceIdentifier
+second_title: Aspose.Words لـ .NET
+description: FieldSeq SequenceIdentifier ملكية. الحصول على أو تعيين الاسم المخصص لسلسلة العناصر التي سيتم ترقيمها في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldseq/sequenceidentifier/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldseq/sequenceidentifier/
 public string SequenceIdentifier { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر إنشاء الترقيم باستخدام حقول SEQ.
 
@@ -149,7 +151,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### أنظر أيضا
 
 * class [FieldSeq](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldseq/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

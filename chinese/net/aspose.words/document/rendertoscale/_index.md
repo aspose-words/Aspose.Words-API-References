@@ -1,9 +1,11 @@
 ---
 title: Document.RenderToScale
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 将文档页面呈现为Graphics指定比例的对象
+linktitle: RenderToScale
+articleTitle: RenderToScale
+second_title: 用于 .NET 的 Aspose.Words
+description: Document RenderToScale 方法. 将文档页面呈现为Graphics指定比例的对象 在 C#.
 type: docs
-weight: 700
+weight: 680
 url: /zh/net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
@@ -26,7 +28,7 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 
 渲染页面的宽度和高度（以世界单位表示）。
 
-### 例子
+## 例子
 
 演示如何将文档的各个页面转换为图形，以创建带有所有页面缩略图的一张图像。
 
@@ -133,7 +135,5 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

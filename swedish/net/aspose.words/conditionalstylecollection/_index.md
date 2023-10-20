@@ -1,7 +1,9 @@
 ---
-title: Class ConditionalStyleCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.ConditionalStyleCollection klass. Representerar en samling avConditionalStyle objekt.
+title: ConditionalStyleCollection Class
+linktitle: ConditionalStyleCollection
+articleTitle: ConditionalStyleCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.ConditionalStyleCollection klass. Representerar en samling avConditionalStyle objekt i C#.
 type: docs
 weight: 320
 url: /sv/net/aspose.words/conditionalstylecollection/
@@ -42,11 +44,11 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 | [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | Rensar alla villkorliga stilar i tabellstilen. |
 | [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla villkorliga stilar i samlingen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Det är inte möjligt att lägga till eller ta bort objekt från den här samlingen. Den innehåller permanent uppsättning objekt: ett objekt för varje värde av[`ConditionalStyleType`](../conditionalstyletype/) uppräkningstyp.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -118,5 +120,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 * class [ConditionalStyle](../conditionalstyle/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

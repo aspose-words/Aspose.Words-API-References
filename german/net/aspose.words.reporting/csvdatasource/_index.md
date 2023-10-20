@@ -1,7 +1,9 @@
 ---
-title: Class CsvDataSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Reporting.CsvDataSource klas. Bietet Zugriff auf Daten einer CSVDatei oder eines CSVStreams zur Verwendung in einem Bericht.
+title: CsvDataSource Class
+linktitle: CsvDataSource
+articleTitle: CsvDataSource
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Reporting.CsvDataSource klas. Bietet Zugriff auf Daten einer CSVDatei oder eines CSVStreams zur Verwendung in einem Bericht in C#.
 type: docs
 weight: 4670
 url: /de/net/aspose.words.reporting/csvdatasource/
@@ -20,12 +22,12 @@ public class CsvDataSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [CsvDataSource](csvdatasource/#constructor)(Stream) | Erstellt eine neue Datenquelle mit Daten aus einem CSV-Stream unter Verwendung von Standardoptionen zum Parsen von CSV-Daten. |
-| [CsvDataSource](csvdatasource/#constructor_2)(string) | Erstellt eine neue Datenquelle mit Daten aus einer CSV-Datei unter Verwendung der Standardoptionen zum Parsen von CSV-Daten. |
-| [CsvDataSource](csvdatasource/#constructor_1)(Stream, CsvDataLoadOptions) | Erstellt eine neue Datenquelle mit Daten aus einem CSV-Stream unter Verwendung der angegebenen Optionen zum Parsen von CSV-Daten. |
-| [CsvDataSource](csvdatasource/#constructor_3)(string, CsvDataLoadOptions) | Erstellt eine neue Datenquelle mit Daten aus einer CSV-Datei unter Verwendung der angegebenen Optionen zum Parsen von CSV-Daten. |
+| [CsvDataSource](csvdatasource/#constructor)(*Stream*) | Erstellt eine neue Datenquelle mit Daten aus einem CSV-Stream unter Verwendung von Standardoptionen zum Parsen von CSV-Daten. |
+| [CsvDataSource](csvdatasource/#constructor_2)(*string*) | Erstellt eine neue Datenquelle mit Daten aus einer CSV-Datei unter Verwendung der Standardoptionen zum Parsen von CSV-Daten. |
+| [CsvDataSource](csvdatasource/#constructor_1)(*Stream, [CsvDataLoadOptions](../csvdataloadoptions/)*) | Erstellt eine neue Datenquelle mit Daten aus einem CSV-Stream unter Verwendung der angegebenen Optionen zum Parsen von CSV-Daten. |
+| [CsvDataSource](csvdatasource/#constructor_3)(*string, [CsvDataLoadOptions](../csvdataloadoptions/)*) | Erstellt eine neue Datenquelle mit Daten aus einer CSV-Datei unter Verwendung der angegebenen Optionen zum Parsen von CSV-Daten. |
 
-### Bemerkungen
+## Bemerkungen
 
 Um beim Erstellen eines Berichts auf Daten der entsprechenden Datei oder des entsprechenden Streams zuzugreifen, übergeben Sie eine Instanz dieser Klasse als eine Datenquelle an eine von[`ReportingEngine`](../reportingengine/) .BuildReport-Überladungen.
 
@@ -47,5 +49,3 @@ Um das Standardverhalten beim Laden von CSV-Daten zu überschreiben, initialisie
 
 * namensraum [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Glyph.Clone
-second_title: Aspose.Words for .NET API 参考
-description: Glyph 方法. 返回此实例的克隆
+linktitle: Clone
+articleTitle: Clone
+second_title: 用于 .NET 的 Aspose.Words
+description: Glyph Clone 方法. 返回此实例的克隆 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.shaping/glyph/clone/
@@ -17,7 +19,5 @@ public virtual Glyph Clone()
 ### 也可以看看
 
 * class [Glyph](../)
-* 命名空间 [Aspose.Words.Shaping](../../glyph/)
+* 命名空间 [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * 部件 [Aspose.Words](../../../)
-
-

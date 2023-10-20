@@ -1,7 +1,9 @@
 ---
 title: ChartNumberFormat.IsLinkedToSource
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartNumberFormat свойство. Указывает связан ли код формата с исходной ячейкой. Значение по умолчанию  true.
+linktitle: IsLinkedToSource
+articleTitle: IsLinkedToSource
+second_title: Aspose.Words для .NET
+description: ChartNumberFormat IsLinkedToSource свойство. Указывает связан ли код формата с исходной ячейкой. Значение по умолчанию  true на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartnumberformat/islinkedtosource/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartnumberformat/islinkedtosource/
 public bool IsLinkedToSource { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 NumberFormat будет сброшен до общего значения, если код формата связан с исходным кодом.
 
-### Примеры
+## Примеры
 
 Показывает, как задать форматирование значений диаграммы.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 ### Смотрите также
 
 * class [ChartNumberFormat](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartnumberformat/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

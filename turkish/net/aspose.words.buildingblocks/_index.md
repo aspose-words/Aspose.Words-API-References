@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.BuildingBlocks
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.BuildingBlocks ad alanı bir belgede öğesine erişmeye ve Otomatik Metin Otomatik Düzelt girdilerini ve Yapı Taşlarını kullanmaya izin veren sınıflar sağlar.
+linktitle: Aspose.Words.BuildingBlocks
+articleTitle: Aspose.Words.BuildingBlocks
+second_title: Aspose.Words for .NET
+description: Aspose.Words.BuildingBlocks ad alanı bir belgede öğesine erişmeye ve Otomatik Metin Otomatik Düzelt girdilerini ve Yapı Taşlarını kullanmaya izin veren sınıflar sağlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.buildingblocks/
@@ -22,5 +24,3 @@ url: /tr/net/aspose.words.buildingblocks/
 | [BuildingBlockBehavior](./buildingblockbehavior/) | Ana belgeye eklendiğinde yapı bloğunun içeriğine uygulanacak davranışı belirtir. |
 | [BuildingBlockGallery](./buildingblockgallery/) | Bir yapı bloğunun sınıflandırıldığı önceden tanımlanmış galeriyi belirtir. |
 | [BuildingBlockType](./buildingblocktype/) | Bir yapı taşı türünü belirtir. Tür, Microsoft Word. yapı bloğunun görünürlüğünü ve davranışını etkileyebilir. |
-
-

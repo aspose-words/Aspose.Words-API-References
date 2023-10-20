@@ -1,7 +1,9 @@
 ---
 title: Field.DisplayResult
-second_title: Aspose.Words لمراجع .NET API
-description: Field ملكية. الحصول على النص الذي يمثل نتيجة الحقل المعروض.
+linktitle: DisplayResult
+articleTitle: DisplayResult
+second_title: Aspose.Words لـ .NET
+description: Field DisplayResult ملكية. الحصول على النص الذي يمثل نتيجة الحقل المعروض في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/field/displayresult/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/field/displayresult/
 public string DisplayResult { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 ال[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) يجب استدعاء الطريقة للحصول على القيمة الصحيحة لـ the [`FieldListNum`](../../fieldlistnum/) ,[`FieldAutoNum`](../../fieldautonum/) ,[`FieldAutoNumOut`](../../fieldautonumout/) و[`FieldAutoNumLgl`](../../fieldautonumlgl/) الحقول.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على النص الحقيقي الذي يعرضه الحقل في المستند.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.DisplayResult.docx");
 ### أنظر أيضا
 
 * class [Field](../)
-* مساحة الاسم [Aspose.Words.Fields](../../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

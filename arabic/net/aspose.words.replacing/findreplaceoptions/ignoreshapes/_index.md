@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreShapes
-second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى تجاهل الأشكال داخل النص.
+linktitle: IgnoreShapes
+articleTitle: IgnoreShapes
+second_title: Aspose.Words لـ .NET
+description: FindReplaceOptions IgnoreShapes ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى تجاهل الأشكال داخل النص في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.replacing/findreplaceoptions/ignoreshapes/
@@ -16,7 +18,7 @@ url: /ar/net/aspose.words.replacing/findreplaceoptions/ignoreshapes/
 public bool IgnoreShapes { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تجاهل الأشكال أثناء استبدال النص.
 
@@ -36,7 +38,5 @@ Assert.AreEqual("Lorem ipsum dolor sit amet, consectetur adipiscing elit.", buil
 ### أنظر أيضا
 
 * class [FindReplaceOptions](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../findreplaceoptions/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

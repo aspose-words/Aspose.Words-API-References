@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.CurrentShape
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSavingArgs eigendom. Ruft die abShapeBase Objekt das der Form oder Gruppenform entspricht die gespeichert werden soll.
+linktitle: CurrentShape
+articleTitle: CurrentShape
+second_title: Aspose.Words für .NET
+description: ImageSavingArgs CurrentShape eigendom. Ruft die abShapeBase Objekt das der Form oder Gruppenform entspricht die gespeichert werden soll in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/imagesavingargs/currentshape/
@@ -14,7 +16,7 @@ Ruft die ab[`ShapeBase`](../../../aspose.words.drawing/shapebase/) Objekt, das d
 public ShapeBase CurrentShape { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 [`IImageSavingCallback`](../../iimagesavingcallback/) kann beim Speichern einer Form oder einer Gruppenform ausgelöst werden. Deshalb hat die Immobilie[`ShapeBase`](../../../aspose.words.drawing/shapebase/) Typ. Sie können überprüfen, ob es sich um eine Gruppenform handelt, indem Sie vergleichen.[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) mitGroup oder durch Umwandlung in eine der abgeleiteten Klassen: [`Shape`](../../../aspose.words.drawing/shape/) oder[`GroupShape`](../../../aspose.words.drawing/groupshape/).
 
@@ -22,7 +24,7 @@ Aspose.Words verwendet den Dateinamen des Dokuments und eine eindeutige Nummer, 
 
 Einige Bilder im Dokument sind möglicherweise nicht verfügbar. Um die Bildverfügbarkeit zu überprüfen, verwenden Sie [`IsImageAvailable`](../isimageavailable/) Eigentum.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Rückruf zum Speichern von Bildern in einen HTML-Konvertierungsprozess einbezogen wird.
 
@@ -69,7 +71,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * class [ImageSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../imagesavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

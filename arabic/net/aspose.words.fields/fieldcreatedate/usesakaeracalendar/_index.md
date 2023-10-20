@@ -1,7 +1,9 @@
 ---
 title: FieldCreateDate.UseSakaEraCalendar
-second_title: Aspose.Words لمراجع .NET API
-description: FieldCreateDate ملكية. الحصول على أو تعيين ما إذا كان سيتم استخدام تقويم Saka Era.
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: Aspose.Words لـ .NET
+description: FieldCreateDate UseSakaEraCalendar ملكية. الحصول على أو تعيين ما إذا كان سيتم استخدام تقويم Saka Era في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldcreatedate/usesakaeracalendar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldcreatedate/usesakaeracalendar/
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل "تاريخ الإنشاء" لعرض تاريخ/وقت إنشاء المستند.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");
 ### أنظر أيضا
 
 * class [FieldCreateDate](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcreatedate/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

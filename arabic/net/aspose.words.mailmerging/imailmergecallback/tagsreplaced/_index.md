@@ -1,7 +1,9 @@
 ---
 title: IMailMergeCallback.TagsReplaced
-second_title: Aspose.Words لمراجع .NET API
-description: IMailMergeCallback طريقة. يتم الاتصال به عند استبدال العلامات النصية الشارب بحقول MERGEFIELD.
+linktitle: TagsReplaced
+articleTitle: TagsReplaced
+second_title: Aspose.Words لـ .NET
+description: IMailMergeCallback TagsReplaced طريقة. يتم الاتصال به عند استبدال العلامات النصية الشارب بحقول MERGEFIELD في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
 public void TagsReplaced()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المنطق المخصص للتعامل مع الأحداث أثناء دمج البريد.
 
@@ -66,7 +68,5 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * property [UseNonMergeFields](../../mailmerge/usenonmergefields/)
 * interface [IMailMergeCallback](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../imailmergecallback/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

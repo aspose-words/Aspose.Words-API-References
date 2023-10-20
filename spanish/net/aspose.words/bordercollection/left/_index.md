@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Left
-second_title: Referencia de API de Aspose.Words para .NET
-description: BorderCollection propiedad. Obtiene el borde izquierdo.
+linktitle: Left
+articleTitle: Left
+second_title: Aspose.Words para .NET
+description: BorderCollection Left propiedad. Obtiene el borde izquierdo en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words/bordercollection/left/
@@ -14,7 +16,7 @@ Obtiene el borde izquierdo.
 public Border Left { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar colores de borde y sombreado mientras construye una tabla.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* espacio de nombres [Aspose.Words](../../bordercollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.GlossaryDocument
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على مستند المسرد أو تعيينه داخل هذا المستند أو القالب. مستند المسرد عبارة عن وحدة تخزين لإدخالات النص التلقائي والتصحيح التلقائي وكتل البناء المحددة في المستند.
+linktitle: GlossaryDocument
+articleTitle: GlossaryDocument
+second_title: Aspose.Words لـ .NET
+description: Document GlossaryDocument ملكية. الحصول على مستند المسرد أو تعيينه داخل هذا المستند أو القالب. مستند المسرد عبارة عن وحدة تخزين لإدخالات النص التلقائي والتصحيح التلقائي وكتل البناء المحددة في المستند في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words/document/glossarydocument/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/document/glossarydocument/
 public GlossaryDocument GlossaryDocument { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تعود هذه الخاصية`باطل` إذا لم يكن المستند يحتوي على مستند مسرد.
 
 يمكنك إضافة مستند مسرد إلى مستند عن طريق إنشاء a [`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) كائن وتعيين لهذه الخاصية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة كتلة إنشاء مخصصة إلى مستند.
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

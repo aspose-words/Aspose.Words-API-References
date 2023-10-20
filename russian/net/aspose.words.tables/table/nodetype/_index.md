@@ -1,7 +1,9 @@
 ---
 title: Table.NodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. ВозвращаетTable .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words для .NET
+description: Table NodeType свойство. ВозвращаетTable  на С#.
 type: docs
 weight: 210
 url: /ru/net/aspose.words.tables/table/nodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перемещаться по дереву дочерних узлов составного узла.
 
@@ -135,7 +137,5 @@ private static int GetChildTableCount(Table table)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

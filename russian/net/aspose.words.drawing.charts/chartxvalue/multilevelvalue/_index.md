@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.MultilevelValue
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartXValue свойство. Получает сохраненное многоуровневое значение.
+linktitle: MultilevelValue
+articleTitle: MultilevelValue
+second_title: Aspose.Words для .NET
+description: ChartXValue MultilevelValue свойство. Получает сохраненное многоуровневое значение на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.drawing.charts/chartxvalue/multilevelvalue/
@@ -18,7 +20,5 @@ public ChartMultilevelValue MultilevelValue { get; }
 
 * class [ChartMultilevelValue](../../chartmultilevelvalue/)
 * class [ChartXValue](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

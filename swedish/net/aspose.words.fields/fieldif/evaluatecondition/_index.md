@@ -1,7 +1,9 @@
 ---
 title: FieldIf.EvaluateCondition
-second_title: Aspose.Words för .NET API Referens
-description: FieldIf metod. Utvärderar villkoret.
+linktitle: EvaluateCondition
+articleTitle: EvaluateCondition
+second_title: Aspose.Words för .NET
+description: FieldIf EvaluateCondition metod. Utvärderar villkoret i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/fieldif/evaluatecondition/
@@ -18,7 +20,7 @@ public FieldIfComparisonResult EvaluateCondition()
 
 A[`FieldIfComparisonResult`](../../fieldifcomparisonresult/) värde som representerar resultatet av villkorsutvärderingen.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett IF-fält.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 
 * enum [FieldIfComparisonResult](../../fieldifcomparisonresult/)
 * class [FieldIf](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldif/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

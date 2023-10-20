@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: ConditionalStyleCollection eigendom. Ruft a abConditionalStyle Objekt nach bedingtem Stiltyp.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: ConditionalStyleCollection Item eigendom. Ruft a abConditionalStyle Objekt nach bedingtem Stiltyp in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/conditionalstylecollection/item/
@@ -14,7 +16,7 @@ Ruft a ab[`ConditionalStyle`](../../conditionalstyle/) Objekt nach bedingtem Sti
 public ConditionalStyle this[ConditionalStyleType conditionalStyleType] { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -86,7 +88,7 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 * class [ConditionalStyle](../../conditionalstyle/)
 * enum [ConditionalStyleType](../../conditionalstyletype/)
 * class [ConditionalStyleCollection](../)
-* namensraum [Aspose.Words](../../conditionalstylecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -103,7 +105,7 @@ public ConditionalStyle this[int index] { get; }
 | --- | --- |
 | index | Nullbasierter Index des abzurufenden bedingten Stils. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* namensraum [Aspose.Words](../../conditionalstylecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

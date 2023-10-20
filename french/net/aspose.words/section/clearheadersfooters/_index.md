@@ -1,9 +1,11 @@
 ---
 title: Section.ClearHeadersFooters
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Section méthode. Efface les entêtes et pieds de page de cette section.
+linktitle: ClearHeadersFooters
+articleTitle: ClearHeadersFooters
+second_title: Aspose.Words pour .NET
+description: Section ClearHeadersFooters méthode. Efface les entêtes et pieds de page de cette section en C#.
 type: docs
-weight: 120
+weight: 100
 url: /fr/net/aspose.words/section/clearheadersfooters/
 ---
 ## Section.ClearHeadersFooters method
@@ -14,13 +16,13 @@ Efface les en-têtes et pieds de page de cette section.
 public void ClearHeadersFooters()
 ```
 
-### Remarques
+## Remarques
 
 Le texte de tous les en-têtes et pieds de page est effacé, mais[`HeaderFooter`](../../headerfooter/) les objets eux-mêmes ne sont pas supprimés.
 
 Cela rend les en-têtes et pieds de page de cette section liés aux en-têtes et pieds de page de la section précédente.
 
-### Exemples
+## Exemples
 
 Montre comment effacer le contenu de tous les en-têtes et pieds de page d’une section.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(string.Empty, doc.FirstSection.HeadersFooters[HeaderFooterType.F
 ### Voir également
 
 * class [Section](../)
-* espace de noms [Aspose.Words](../../section/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

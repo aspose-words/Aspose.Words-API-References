@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCollection eigendom. Gibt die Anzahl der Felder in der Sammlung zurück.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: FieldCollection Count eigendom. Gibt die Anzahl der Felder in der Sammlung zurück in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldcollection/count/
@@ -14,7 +16,7 @@ Gibt die Anzahl der Felder in der Sammlung zurück.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Felder aus einer Feldsammlung entfernt werden.
 
@@ -154,7 +156,5 @@ public class FieldVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [FieldCollection](../)
-* namensraum [Aspose.Words.Fields](../../fieldcollection/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

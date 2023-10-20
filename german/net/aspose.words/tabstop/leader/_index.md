@@ -1,7 +1,9 @@
 ---
 title: TabStop.Leader
-second_title: Aspose.Words für .NET-API-Referenz
-description: TabStop eigendom. Ruft den Typ der Führungslinie ab die unter dem Tabulatorzeichen angezeigt wird oder legt diesen fest.
+linktitle: Leader
+articleTitle: Leader
+second_title: Aspose.Words für .NET
+description: TabStop Leader eigendom. Ruft den Typ der Führungslinie ab die unter dem Tabulatorzeichen angezeigt wird oder legt diesen fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/tabstop/leader/
@@ -14,7 +16,7 @@ Ruft den Typ der Führungslinie ab, die unter dem Tabulatorzeichen angezeigt wir
 public TabLeader Leader { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Position des rechten Tabstopps in Inhaltsverzeichnis-bezogenen Absätzen geändert wird.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [TabLeader](../../tableader/)
 * class [TabStop](../)
-* namensraum [Aspose.Words](../../tabstop/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

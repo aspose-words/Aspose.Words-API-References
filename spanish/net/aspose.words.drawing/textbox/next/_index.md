@@ -1,7 +1,9 @@
 ---
 title: TextBox.Next
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextBox propiedad. Devuelve o establece unTextBox que representa el siguienteTextBox en una secuencia de formas.
+linktitle: Next
+articleTitle: Next
+second_title: Aspose.Words para .NET
+description: TextBox Next propiedad. Devuelve o establece unTextBox que representa el siguienteTextBox en una secuencia de formas en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.drawing/textbox/next/
@@ -14,7 +16,7 @@ Devuelve o establece un[`TextBox`](../) que representa el siguiente[`TextBox`](.
 public TextBox Next { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo vincular cuadros de texto.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Ver también
 
 * class [TextBox](../)
-* espacio de nombres [Aspose.Words.Drawing](../../textbox/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

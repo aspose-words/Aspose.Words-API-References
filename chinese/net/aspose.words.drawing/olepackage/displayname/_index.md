@@ -1,7 +1,9 @@
 ---
 title: OlePackage.DisplayName
-second_title: Aspose.Words for .NET API 参考
-description: OlePackage 财产. 获取或设置 OLE 包显示名称
+linktitle: DisplayName
+articleTitle: DisplayName
+second_title: 用于 .NET 的 Aspose.Words
+description: OlePackage DisplayName 财产. 获取或设置 OLE 包显示名称 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing/olepackage/displayname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/olepackage/displayname/
 public string DisplayName { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何将 OLE 对象插入到文档中。
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 ### 也可以看看
 
 * class [OlePackage](../)
-* 命名空间 [Aspose.Words.Drawing](../../olepackage/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

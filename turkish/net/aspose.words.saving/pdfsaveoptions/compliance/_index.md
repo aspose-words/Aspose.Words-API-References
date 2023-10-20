@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.Compliance
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Çıktı belgeleri için PDF standartları uyumluluk düzeyini belirtir.
+linktitle: Compliance
+articleTitle: Compliance
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions Compliance mülk. Çıktı belgeleri için PDF standartları uyumluluk düzeyini belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/pdfsaveoptions/compliance/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.saving/pdfsaveoptions/compliance/
 public PdfCompliance Compliance { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan:Pdf17.
 
-### Örnekler
+## Örnekler
 
 Kaydedilen PDF belgelerinin PDF standartlarına uygunluk düzeyinin nasıl ayarlanacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.Compliance.pdf", saveOptions);
 
 * enum [PdfCompliance](../../pdfcompliance/)
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

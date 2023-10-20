@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Color
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BorderCollection propriété. Obtient ou définit la couleur de la bordure.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words pour .NET
+description: BorderCollection Color propriété. Obtient ou définit la couleur de la bordure en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/bordercollection/color/
@@ -14,13 +16,13 @@ Obtient ou définit la couleur de la bordure.
 public Color Color { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Renvoie la couleur de la première bordure de la collection.
 
 Définit la couleur de toutes les bordures de la collection, à l'exception des bordures diagonales.
 
-### Exemples
+## Exemples
 
 Montre comment créer une bordure de page ondulée verte avec une ombre.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Voir également
 
 * class [BorderCollection](../)
-* espace de noms [Aspose.Words](../../bordercollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

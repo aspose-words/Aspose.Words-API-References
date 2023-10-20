@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.BottomRightCell
-second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyleCollection mülk. Sağ alttaki hücre stilini alır.
+linktitle: BottomRightCell
+articleTitle: BottomRightCell
+second_title: Aspose.Words for .NET
+description: ConditionalStyleCollection BottomRightCell mülk. Sağ alttaki hücre stilini alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/conditionalstylecollection/bottomrightcell/
@@ -14,7 +16,7 @@ Sağ alttaki hücre stilini alır.
 public ConditionalStyle BottomRightCell { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* ad alanı [Aspose.Words](../../conditionalstylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

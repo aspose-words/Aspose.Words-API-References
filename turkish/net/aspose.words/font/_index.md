@@ -1,7 +1,9 @@
 ---
-title: Class Font
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Font sınıf. Bir nesnenin yazı tipi niteliklerini yazı tipi adı yazı tipi boyutu rengi vb. içerir.
+title: Font Class
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Font sınıf. Bir nesnenin yazı tipi niteliklerini yazı tipi adı yazı tipi boyutu rengi vb. içerir C#'da.
 type: docs
 weight: 2830
 url: /tr/net/aspose.words/font/
@@ -80,13 +82,13 @@ public class Font
 | İsim | Tanım |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/font/clearformatting/)() | Varsayılan yazı tipi formatına sıfırlar. |
-| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(TextDmlEffect) | Belirli bir DrawingML metin efektinin uygulanıp uygulanmadığını kontrol eder. |
+| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(*[TextDmlEffect](../textdmleffect/)*) | Belirli bir DrawingML metin efektinin uygulanıp uygulanmadığını kontrol eder. |
 
-### Notlar
+## Notlar
 
 Örneklerini oluşturmazsınız`Font`doğrudan sınıf. Sadece kullanıyorsunuz`Font` gibi çeşitli nesnelerin yazı tipi özelliklerine erişmek için[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
 
-### Örnekler
+## Örnekler
 
 Font özelliğini kullanarak bir metin dizisinin nasıl biçimlendirileceğini gösterir.
 
@@ -149,5 +151,3 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

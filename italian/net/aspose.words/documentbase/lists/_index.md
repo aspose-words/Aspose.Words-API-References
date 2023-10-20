@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Lists
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBase proprietà. Fornisce laccesso alla formattazione dellelenco utilizzata nel documento.
+linktitle: Lists
+articleTitle: Lists
+second_title: Aspose.Words per .NET
+description: DocumentBase Lists proprietà. Fornisce laccesso alla formattazione dellelenco utilizzata nel documento in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/documentbase/lists/
@@ -14,11 +16,11 @@ Fornisce l'accesso alla formattazione dell'elenco utilizzata nel documento.
 public ListCollection Lists { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Per maggiori informazioni consultare la descrizione del[`ListCollection`](../../../aspose.words.lists/listcollection/) classe.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i livelli di elenco.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * class [ListCollection](../../../aspose.words.lists/listcollection/)
 * class [DocumentBase](../)
-* spazio dei nomi [Aspose.Words](../../documentbase/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

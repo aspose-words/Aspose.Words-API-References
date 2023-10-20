@@ -1,7 +1,9 @@
 ---
 title: PageInfo.GetSpecifiedPrinterPaperSource
-second_title: Aspose.Words لمراجع .NET API
-description: PageInfo طريقة. يحصل علىPaperSource كائن مناسب لطباعة الصفحة التي يمثلها هذاPageInfo .
+linktitle: GetSpecifiedPrinterPaperSource
+articleTitle: GetSpecifiedPrinterPaperSource
+second_title: Aspose.Words لـ .NET
+description: PageInfo GetSpecifiedPrinterPaperSource طريقة. يحصل علىPaperSource كائن مناسب لطباعة الصفحة التي يمثلها هذاPageInfo  في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/
@@ -24,11 +26,11 @@ public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSou
 
 كائن يمكنك استخدامه في إطار عمل الطباعة .NET لتحديد مصدر الورق.
 
-### ملاحظات
+## ملاحظات
 
 تتطلب هذه الطريقة الإصدار .NET Framework 2.0 أو إصدار أحدث.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة حجم الصفحة ومعلومات الاتجاه لكل صفحة في مستند Word.
 
@@ -70,7 +72,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### أنظر أيضا
 
 * class [PageInfo](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../pageinfo/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

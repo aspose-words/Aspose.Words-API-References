@@ -1,7 +1,9 @@
 ---
 title: FieldToa.EntrySeparator
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToa eigendom. Ruft die Zeichenfolge ab die zum Trennen eines Normverzeichniseintrags und seiner Seitenzahl verwendet wird oder legt diese fest.
+linktitle: EntrySeparator
+articleTitle: EntrySeparator
+second_title: Aspose.Words für .NET
+description: FieldToa EntrySeparator eigendom. Ruft die Zeichenfolge ab die zum Trennen eines Normverzeichniseintrags und seiner Seitenzahl verwendet wird oder legt diese fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldtoa/entryseparator/
@@ -14,7 +16,7 @@ Ruft die Zeichenfolge ab, die zum Trennen eines Normverzeichniseintrags und sein
 public string EntrySeparator { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe von TOA- und TA-Feldern ein Autoritätsverzeichnis erstellt und anpasst.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Siehe auch
 
 * class [FieldToa](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoa/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

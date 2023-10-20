@@ -1,7 +1,9 @@
 ---
 title: VbaReferenceCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: VbaReferenceCollection fast egendom. BlirVbaReference objekt vid angivet index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: VbaReferenceCollection Item fast egendom. BlirVbaReference objekt vid angivet index i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.vba/vbareferencecollection/item/
@@ -22,7 +24,5 @@ public VbaReference this[int index] { get; }
 
 * class [VbaReference](../../vbareference/)
 * class [VbaReferenceCollection](../)
-* namnutrymme [Aspose.Words.Vba](../../vbareferencecollection/)
+* namnutrymme [Aspose.Words.Vba](../../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../../)
-
-

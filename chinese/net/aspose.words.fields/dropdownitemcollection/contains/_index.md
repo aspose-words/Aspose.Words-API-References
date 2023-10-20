@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Contains
-second_title: Aspose.Words for .NET API 参考
-description: DropDownItemCollection 方法. 确定集合中是否包含指定值
+linktitle: Contains
+articleTitle: Contains
+second_title: 用于 .NET 的 Aspose.Words
+description: DropDownItemCollection Contains 方法. 确定集合中是否包含指定值 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/dropdownitemcollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string value)
 
 `真的`如果在集合中找到该项目；否则，`错误的`。
 
-### 例子
+## 例子
 
 演示如何插入组合框字段以及编辑其项目集合中的元素。
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### 也可以看看
 
 * class [DropDownItemCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../dropdownitemcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

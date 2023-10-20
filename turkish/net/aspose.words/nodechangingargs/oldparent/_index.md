@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.OldParent
-second_title: Aspose.Words for .NET API Referansı
-description: NodeChangingArgs mülk. İşlem başlamadan önce düğümün ebeveynini alır.
+linktitle: OldParent
+articleTitle: OldParent
+second_title: Aspose.Words for .NET
+description: NodeChangingArgs OldParent mülk. İşlem başlamadan önce düğümün ebeveynini alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/nodechangingargs/oldparent/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/nodechangingargs/oldparent/
 public Node OldParent { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belge ağacını düzenlerken gerçek zamanlı olarak yapılan değişiklikleri izlemek için NodeChangingCallback'in nasıl kullanılacağını gösterir.
 
@@ -90,7 +92,5 @@ private class NodeChangingPrinter : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* ad alanı [Aspose.Words](../../nodechangingargs/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

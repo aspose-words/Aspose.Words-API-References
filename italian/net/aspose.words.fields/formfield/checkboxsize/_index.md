@@ -1,7 +1,9 @@
 ---
 title: FormField.CheckBoxSize
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Ottiene o imposta la dimensione della casella di controllo in punti. Ha effetto solo quandoIsCheckBoxExactSize ÈVERO .
+linktitle: CheckBoxSize
+articleTitle: CheckBoxSize
+second_title: Aspose.Words per .NET
+description: FormField CheckBoxSize proprietà. Ottiene o imposta la dimensione della casella di controllo in punti. Ha effetto solo quandoIsCheckBoxExactSize ÈVERO  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/formfield/checkboxsize/
@@ -14,11 +16,11 @@ Ottiene o imposta la dimensione della casella di controllo in punti. Ha effetto 
 public double CheckBoxSize { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Applicabile solo per un campo modulo con casella di controllo.
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

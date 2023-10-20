@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.DateTimeValue
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartYValue propriété. Obtient la valeur datetime stockée.
+linktitle: DateTimeValue
+articleTitle: DateTimeValue
+second_title: Aspose.Words pour .NET
+description: ChartYValue DateTimeValue propriété. Obtient la valeur datetime stockée en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.drawing.charts/chartyvalue/datetimevalue/
@@ -17,7 +19,5 @@ public DateTime DateTimeValue { get; }
 ### Voir également
 
 * class [ChartYValue](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

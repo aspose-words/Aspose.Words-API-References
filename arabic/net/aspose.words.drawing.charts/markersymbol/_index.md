@@ -1,7 +1,9 @@
 ---
-title: Enum MarkerSymbol
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.MarkerSymbol تعداد. يحدد نمط رمز العلامة.
+title: MarkerSymbol Enum
+linktitle: MarkerSymbol
+articleTitle: MarkerSymbol
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.MarkerSymbol تعداد. يحدد نمط رمز العلامة في C#.
 type: docs
 weight: 920
 url: /ar/net/aspose.words.drawing.charts/markersymbol/
@@ -31,7 +33,7 @@ public enum MarkerSymbol
 | Triangle | `10` | يحدد رسم المثلث عند كل نقطة بيانات. |
 | X | `11` | يحدد رسم X عند كل نقطة بيانات. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع نقاط البيانات على مخطط خطي.
 
@@ -94,5 +96,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

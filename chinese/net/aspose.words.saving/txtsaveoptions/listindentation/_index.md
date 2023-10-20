@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.ListIndentation
-second_title: Aspose.Words for .NET API 参考
-description: TxtSaveOptions 财产. 获得TxtListIndentation指定用于列表级别缩进的字符数和哪个字符的对象 默认情况下字符 0 的计数为零这意味着没有缩进
+linktitle: ListIndentation
+articleTitle: ListIndentation
+second_title: 用于 .NET 的 Aspose.Words
+description: TxtSaveOptions ListIndentation 财产. 获得TxtListIndentation指定用于列表级别缩进的字符数和哪个字符的对象 默认情况下字符 0 的计数为零这意味着没有缩进 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/txtsaveoptions/listindentation/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/txtsaveoptions/listindentation/
 public TxtListIndentation ListIndentation { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在将文档保存为纯文本时配置列表缩进。
 
@@ -55,7 +57,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * class [TxtListIndentation](../../txtlistindentation/)
 * class [TxtSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../txtsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.Heading
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIndex mülk. Verilen herhangi bir harf için her giriş kümesinin başında görünen başlığı alır veya ayarlar.
+linktitle: Heading
+articleTitle: Heading
+second_title: Aspose.Words for .NET
+description: FieldIndex Heading mülk. Verilen herhangi bir harf için her giriş kümesinin başında görünen başlığı alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldindex/heading/
@@ -14,7 +16,7 @@ Verilen herhangi bir harf için her giriş kümesinin başında görünen başl�
 public string Heading { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir INDEX alanının XE alanlarını kullanarak girişlerle nasıl doldurulacağını ve ayrıca görünümünün nasıl değiştirileceğini gösterir.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Ayrıca bakınız
 
 * class [FieldIndex](../)
-* ad alanı [Aspose.Words.Fields](../../fieldindex/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

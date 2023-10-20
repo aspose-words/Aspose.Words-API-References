@@ -1,7 +1,9 @@
 ---
-title: Enum PaperSize
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.PaperSize 枚举. 指定纸张尺寸
+title: PaperSize Enum
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.PaperSize 枚举. 指定纸张尺寸 在 C#.
 type: docs
 weight: 4380
 url: /zh/net/aspose.words/papersize/
@@ -37,7 +39,7 @@ public enum PaperSize
 | Number10Envelope | `16` | 4.125 x 9.5 英寸。 |
 | Custom | `17` | 自定义纸张尺寸。 |
 
-### 例子
+## 例子
 
 展示如何调整纸张尺寸、方向、边距以及某个部分的其他设置。
 
@@ -148,5 +150,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

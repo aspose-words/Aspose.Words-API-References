@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowBubbleSize
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabel ملكية. يسمح بتحديد ما إذا كان سيتم عرض حجم الفقاعة لتسميات البيانات على المخطط. ينطبق فقط على المخططات الفقاعية. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ShowBubbleSize
+articleTitle: ShowBubbleSize
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabel ShowBubbleSize ملكية. يسمح بتحديد ما إذا كان سيتم عرض حجم الفقاعة لتسميات البيانات على المخطط. ينطبق فقط على المخططات الفقاعية. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showbubblesize/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showbubblesize/
 public bool ShowBubbleSize { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام التأثيرات ثلاثية الأبعاد مع المخططات الفقاعية.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 ### أنظر أيضا
 
 * class [ChartDataLabel](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Comment.Replies
-second_title: Aspose.Words för .NET API Referens
-description: Comment fast egendom. Returnerar en samling avComment objekt som är omedelbara underordnade av den angivna kommentaren.
+linktitle: Replies
+articleTitle: Replies
+second_title: Aspose.Words för .NET
+description: Comment Replies fast egendom. Returnerar en samling avComment objekt som är omedelbara underordnade av den angivna kommentaren i C#.
 type: docs
-weight: 100
+weight: 90
 url: /sv/net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property
@@ -14,7 +16,7 @@ Returnerar en samling av[`Comment`](../) objekt som är omedelbara underordnade 
 public CommentCollection Replies { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut alla kommentarer i ett dokument och deras svar.
 
@@ -41,7 +43,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 
 * class [CommentCollection](../../commentcollection/)
 * class [Comment](../)
-* namnutrymme [Aspose.Words](../../comment/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

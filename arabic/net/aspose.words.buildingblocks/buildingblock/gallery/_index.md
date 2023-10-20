@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Gallery
-second_title: Aspose.Words لمراجع .NET API
-description: BuildingBlock ملكية. يحدد تصنيف المستوى الأول للكتلة البرمجية الإنشائية لأغراض تصنيف أو فرز واجهة المستخدم.
+linktitle: Gallery
+articleTitle: Gallery
+second_title: Aspose.Words لـ .NET
+description: BuildingBlock Gallery ملكية. يحدد تصنيف المستوى الأول للكتلة البرمجية الإنشائية لأغراض تصنيف أو فرز واجهة المستخدم في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.buildingblocks/buildingblock/gallery/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.buildingblocks/buildingblock/gallery/
 public BuildingBlockGallery Gallery { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تم ترتيب الكتل البرمجية الإنشائية في واجهة مستخدم Microsoft Word في المعارض. كل`Gallery` يمكن أن تحتوي على فئات متعددة. كل كتلة داخل أ[`Category`](../category/) لديه[`Name`](../name/).
 
-يتوافق مع **docPartPr.category.gallery** العنصر في OOXML
+يتوافق مع**docPartPr.category.gallery** العنصر في OOXML
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة كتلة إنشاء مخصصة إلى مستند.
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [BuildingBlock](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

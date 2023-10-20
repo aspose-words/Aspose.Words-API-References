@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceStream
-second_title: Referencia de API de Aspose.Words para .NET
-description: ResourceSavingArgs propiedad. Permite especificar la secuencia donde se guardará el recurso.
+linktitle: ResourceStream
+articleTitle: ResourceStream
+second_title: Aspose.Words para .NET
+description: ResourceSavingArgs ResourceStream propiedad. Permite especificar la secuencia donde se guardará el recurso en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.saving/resourcesavingargs/resourcestream/
@@ -14,7 +16,7 @@ Permite especificar la secuencia donde se guardará el recurso.
 public Stream ResourceStream { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad le permite guardar recursos en secuencias en lugar de archivos.
 
@@ -22,7 +24,7 @@ El valor predeterminado es`nulo` . Cuando esta propiedad es`nulo` , el recurso s
 
 Usando[`IResourceSavingCallback`](../../iresourcesavingcallback/) no se puede sustituir un recurso por otro. Está destinado únicamente al control de la ubicación donde ahorrar recursos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una devolución de llamada para imprimir los URI de recursos externos creados al convertir un documento a HTML.
 
@@ -101,7 +103,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Ver también
 
 * class [ResourceSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../resourcesavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

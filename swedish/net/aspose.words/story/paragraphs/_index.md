@@ -1,7 +1,9 @@
 ---
 title: Story.Paragraphs
-second_title: Aspose.Words för .NET API Referens
-description: Story fast egendom. Får en samling stycken som är omedelbara barn till berättelsen.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words för .NET
+description: Story Paragraphs fast egendom. Får en samling stycken som är omedelbara barn till berättelsen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/story/paragraphs/
@@ -14,7 +16,7 @@ Får en samling stycken som är omedelbara barn till berättelsen.
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kontrollerar om ett stycke är en flyttversion.
 
@@ -49,7 +51,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 
 * class [ParagraphCollection](../../paragraphcollection/)
 * class [Story](../)
-* namnutrymme [Aspose.Words](../../story/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

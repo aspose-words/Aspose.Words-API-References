@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.LocalToParent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase méthode. Convertit une valeur de lespace de coordonnées local dans lespace de coordonnées de la forme parent.
+linktitle: LocalToParent
+articleTitle: LocalToParent
+second_title: Aspose.Words pour .NET
+description: ShapeBase LocalToParent méthode. Convertit une valeur de lespace de coordonnées local dans lespace de coordonnées de la forme parent en C#.
 type: docs
 weight: 670
 url: /fr/net/aspose.words.drawing/shapebase/localtoparent/
@@ -14,7 +16,7 @@ Convertit une valeur de l'espace de coordonnées local dans l'espace de coordonn
 public PointF LocalToParent(PointF value)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment traduire l’emplacement des coordonnées x et y sur le plan de coordonnées d’une forme en un emplacement sur le plan de coordonnées de la forme parent.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Shape.LocalToParent.docx");
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

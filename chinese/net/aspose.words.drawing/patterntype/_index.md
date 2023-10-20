@@ -1,7 +1,9 @@
 ---
-title: Enum PatternType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.PatternType 枚举. 指定用于填充形状的填充图案
+title: PatternType Enum
+linktitle: PatternType
+articleTitle: PatternType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.PatternType 枚举. 指定用于填充形状的填充图案 在 C#.
 type: docs
 weight: 1170
 url: /zh/net/aspose.words.drawing/patterntype/
@@ -78,5 +80,3 @@ public enum PatternType
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

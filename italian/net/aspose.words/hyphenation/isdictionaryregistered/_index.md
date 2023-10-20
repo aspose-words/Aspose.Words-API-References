@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.IsDictionaryRegistered
-second_title: Aspose.Words per .NET API Reference
-description: Hyphenation metodo. Restituiscefalso se per la lingua specificata non è registrato alcun dizionario o se è registrato un dizionario nulloVERO altrimenti.
+linktitle: IsDictionaryRegistered
+articleTitle: IsDictionaryRegistered
+second_title: Aspose.Words per .NET
+description: Hyphenation IsDictionaryRegistered metodo. Restituiscefalso se per la lingua specificata non è registrato alcun dizionario o se è registrato un dizionario nulloVERO altrimenti in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/hyphenation/isdictionaryregistered/
@@ -14,7 +16,7 @@ Restituisce`falso` se per la lingua specificata non è registrato alcun dizionar
 public static bool IsDictionaryRegistered(string language)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come registrare un dizionario di sillabazione.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### Guarda anche
 
 * class [Hyphenation](../)
-* spazio dei nomi [Aspose.Words](../../hyphenation/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

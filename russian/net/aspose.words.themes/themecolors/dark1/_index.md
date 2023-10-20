@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Dark1
-second_title: Справочник по API Aspose.Words для .NET
-description: ThemeColors свойство. Определяет цвет Темный 1.
+linktitle: Dark1
+articleTitle: Dark1
+second_title: Aspose.Words для .NET
+description: ThemeColors Dark1 свойство. Определяет цвет Темный 1 на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.themes/themecolors/dark1/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.themes/themecolors/dark1/
 public Color Dark1 { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как устанавливать собственные цвета и шрифты для тем.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Смотрите также
 
 * class [ThemeColors](../)
-* пространство имен [Aspose.Words.Themes](../../themecolors/)
+* пространство имен [Aspose.Words.Themes](../../../aspose.words.themes/)
 * сборка [Aspose.Words](../../../)
-
-

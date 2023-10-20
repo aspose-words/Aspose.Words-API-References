@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateMissingOutlineLevels
-second_title: Aspose.Words für .NET-API-Referenz
-description: OutlineOptions eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob fehlende Gliederungsebenen erstellt werden sollen wenn das Dokument exportiert wird.
+linktitle: CreateMissingOutlineLevels
+articleTitle: CreateMissingOutlineLevels
+second_title: Aspose.Words für .NET
+description: OutlineOptions CreateMissingOutlineLevels eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt ob fehlende Gliederungsebenen erstellt werden sollen wenn das Dokument exportiert wird in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/outlineoptions/createmissingoutlinelevels/
@@ -16,7 +18,7 @@ Der Standardwert für diese Eigenschaft ist`FALSCH`.
 public bool CreateMissingOutlineLevels { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie beim Speichern eines PDF-Dokuments mit Gliederungsebenen gearbeitet wird, die keine entsprechenden Überschriften enthalten.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 ### Siehe auch
 
 * class [OutlineOptions](../)
-* namensraum [Aspose.Words.Saving](../../outlineoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

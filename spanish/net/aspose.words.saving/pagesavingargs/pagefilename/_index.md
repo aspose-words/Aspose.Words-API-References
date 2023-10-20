@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageFileName
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSavingArgs propiedad. Obtiene o establece el nombre del archivo donde se guardará la página del documento.
+linktitle: PageFileName
+articleTitle: PageFileName
+second_title: Aspose.Words para .NET
+description: PageSavingArgs PageFileName propiedad. Obtiene o establece el nombre del archivo donde se guardará la página del documento en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/pagesavingargs/pagefilename/
@@ -14,11 +16,11 @@ Obtiene o establece el nombre del archivo donde se guardará la página del docu
 public string PageFileName { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si no se especifica, el nombre del archivo de la página y la ruta se generarán automáticamente utilizando el nombre del archivo original.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una devolución de llamada para guardar un documento en HTML página por página.
 
@@ -75,7 +77,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Ver también
 
 * class [PageSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../pagesavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

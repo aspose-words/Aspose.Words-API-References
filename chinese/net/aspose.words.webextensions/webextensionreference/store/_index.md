@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.Store
-second_title: Aspose.Words for .NET API 参考
-description: WebExtensionReference 财产. 指定存储 Web 扩展的市场实例
+linktitle: Store
+articleTitle: Store
+second_title: 用于 .NET 的 Aspose.Words
+description: WebExtensionReference Store 财产. 指定存储 Web 扩展的市场实例 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.webextensions/webextensionreference/store/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.webextensions/webextensionreference/store/
 public string Store { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### 也可以看看
 
 * class [WebExtensionReference](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../webextensionreference/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

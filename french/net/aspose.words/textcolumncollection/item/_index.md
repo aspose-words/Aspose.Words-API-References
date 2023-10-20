@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextColumnCollection propriété. Renvoie une colonne de texte à lindex spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: TextColumnCollection Item propriété. Renvoie une colonne de texte à lindex spécifié en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/textcolumncollection/item/
@@ -14,7 +16,7 @@ Renvoie une colonne de texte à l'index spécifié.
 public TextColumn this[int index] { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer des colonnes inégalement espacées.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 
 * class [TextColumn](../../textcolumn/)
 * class [TextColumnCollection](../)
-* espace de noms [Aspose.Words](../../textcolumncollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

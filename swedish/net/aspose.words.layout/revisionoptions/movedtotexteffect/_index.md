@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.MovedToTextEffect
-second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Tillåter att ange effekten som ska tillämpas på de områden där innehållet flyttades tillMoving . Standardvärdet ärDoubleUnderline
+linktitle: MovedToTextEffect
+articleTitle: MovedToTextEffect
+second_title: Aspose.Words för .NET
+description: RevisionOptions MovedToTextEffect fast egendom. Tillåter att ange effekten som ska tillämpas på de områden där innehållet flyttades tillMoving . Standardvärdet ärDoubleUnderline i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.layout/revisionoptions/movedtotexteffect/
@@ -14,11 +16,11 @@ Tillåter att ange effekten som ska tillämpas på de områden där innehållet 
 public RevisionTextEffect MovedToTextEffect { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Värden avHidden ochDoubleStrikeThrough är inte tillåtna och kommer att orsakaArgumentOutOfRangeException.
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar utseendet på revisioner.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* namnutrymme [Aspose.Words.Layout](../../revisionoptions/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

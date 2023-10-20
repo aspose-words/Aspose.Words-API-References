@@ -1,7 +1,9 @@
 ---
 title: Glyph.AscenderOffset
-second_title: Aspose.Words für .NET-API-Referenz
-description: Glyph eigendom. Vertikaler y Versatz relativ zur Glyphenposition. Wird hauptsächlich zum Anhängen von Markierungen wie diakritischen Zeichen an Basiszeichen verwendet.
+linktitle: AscenderOffset
+articleTitle: AscenderOffset
+second_title: Aspose.Words für .NET
+description: Glyph AscenderOffset eigendom. Vertikaler y Versatz relativ zur Glyphenposition. Wird hauptsächlich zum Anhängen von Markierungen wie diakritischen Zeichen an Basiszeichen verwendet in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.shaping/glyph/ascenderoffset/
@@ -17,7 +19,5 @@ public short AscenderOffset { get; }
 ### Siehe auch
 
 * class [Glyph](../)
-* namensraum [Aspose.Words.Shaping](../../glyph/)
+* namensraum [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * Montage [Aspose.Words](../../../)
-
-

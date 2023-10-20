@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.HeaderSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Gibt den Pfad zur Quelle des SerienbriefHeaders an. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: HeaderSource
+articleTitle: HeaderSource
+second_title: Aspose.Words für .NET
+description: MailMergeSettings HeaderSource eigendom. Gibt den Pfad zur Quelle des SerienbriefHeaders an. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.settings/mailmergesettings/headersource/
@@ -14,7 +16,7 @@ Gibt den Pfad zur Quelle des Serienbrief-Headers an. Der Standardwert ist eine l
 public string HeaderSource { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Datenquelle für einen Serienbrief aus einer Header-Quelle und einer Datenquelle erstellt wird.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.docx");
 ### Siehe auch
 
 * class [MailMergeSettings](../)
-* namensraum [Aspose.Words.Settings](../../mailmergesettings/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

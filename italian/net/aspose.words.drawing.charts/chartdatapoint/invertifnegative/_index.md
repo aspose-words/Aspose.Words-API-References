@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.InvertIfNegative
-second_title: Aspose.Words per .NET API Reference
-description: ChartDataPoint proprietà. Specifica se lelemento genitore deve invertire i suoi colori se il valore è negativo.
+linktitle: InvertIfNegative
+articleTitle: InvertIfNegative
+second_title: Aspose.Words per .NET
+description: ChartDataPoint InvertIfNegative proprietà. Specifica se lelemento genitore deve invertire i suoi colori se il valore è negativo in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing.charts/chartdatapoint/invertifnegative/
@@ -17,7 +19,5 @@ public bool InvertIfNegative { get; set; }
 ### Guarda anche
 
 * class [ChartDataPoint](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

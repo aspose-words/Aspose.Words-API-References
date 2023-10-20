@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Clear
-second_title: Aspose.Words för .NET API Referens
-description: DocumentPropertyCollection metod. Tar bort alla egenskaper från samlingen.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: DocumentPropertyCollection Clear metod. Tar bort alla egenskaper från samlingen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.properties/documentpropertycollection/clear/
@@ -14,7 +16,7 @@ Tar bort alla egenskaper från samlingen.
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments anpassade egenskaper.
 
@@ -74,7 +76,5 @@ Assert.AreEqual(0, properties.Count);
 ### Se även
 
 * class [DocumentPropertyCollection](../)
-* namnutrymme [Aspose.Words.Properties](../../documentpropertycollection/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

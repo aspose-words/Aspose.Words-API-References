@@ -1,7 +1,9 @@
 ---
 title: Style.ListFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Style свойство. Предоставляет доступ к свойствам форматирования списка стиля абзаца.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words для .NET
+description: Style ListFormat свойство. Предоставляет доступ к свойствам форматирования списка стиля абзаца на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/style/listformat/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/style/listformat/
 public ListFormat ListFormat { get; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство допустимо только для стилей абзацев. Для других типов стилей это свойство возвращает значение.`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как создать и использовать стиль абзаца с форматированием списка.
 
@@ -51,7 +53,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [Style](../)
-* пространство имен [Aspose.Words](../../style/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

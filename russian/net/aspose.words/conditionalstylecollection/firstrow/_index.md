@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.FirstRow
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyleCollection свойство. Получает стиль первой строки.
+linktitle: FirstRow
+articleTitle: FirstRow
+second_title: Aspose.Words для .NET
+description: ConditionalStyleCollection FirstRow свойство. Получает стиль первой строки на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/conditionalstylecollection/firstrow/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstylecollection/firstrow/
 public ConditionalStyle FirstRow { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* пространство имен [Aspose.Words](../../conditionalstylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

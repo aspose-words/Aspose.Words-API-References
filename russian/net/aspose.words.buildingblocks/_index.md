@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.BuildingBlocks
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.BuildingBlocks пространство имен предоставляет классы которые позволяют получить доступ к и использовать автотекст записи автозамены и стандартные блоки в документе.
+linktitle: Aspose.Words.BuildingBlocks
+articleTitle: Aspose.Words.BuildingBlocks
+second_title: Aspose.Words для .NET
+description: Aspose.Words.BuildingBlocks пространство имен предоставляет классы которые позволяют получить доступ к и использовать автотекст записи автозамены и стандартные блоки в документе на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.buildingblocks/
@@ -22,5 +24,3 @@ url: /ru/net/aspose.words.buildingblocks/
 | [BuildingBlockBehavior](./buildingblockbehavior/) | Определяет поведение, которое должно применяться к содержимому стандартного блока при его вставке в основной документ. |
 | [BuildingBlockGallery](./buildingblockgallery/) | Указывает предопределенную галерею, в которую классифицируется стандартный блок. |
 | [BuildingBlockType](./buildingblocktype/) | Указывает тип стандартного блока. Тип может повлиять на видимость и поведение стандартного блока в Microsoft Word. . |
-
-

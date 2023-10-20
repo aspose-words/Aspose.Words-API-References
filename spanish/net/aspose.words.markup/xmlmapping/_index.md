@@ -1,7 +1,9 @@
 ---
-title: Class XmlMapping
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Markup.XmlMapping clase. Especifica la información que se utiliza para establecer una asignación entre la etiqueta del documento estructurado parent y un elemento XML almacenado dentro de una parte de datos XML personalizada en el documento.
+title: XmlMapping Class
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Markup.XmlMapping clase. Especifica la información que se utiliza para establecer una asignación entre la etiqueta del documento estructurado parent y un elemento XML almacenado dentro de una parte de datos XML personalizada en el documento en C#.
 type: docs
 weight: 4100
 url: /es/net/aspose.words.markup/xmlmapping/
@@ -31,9 +33,9 @@ public class XmlMapping
 | Nombre | Descripción |
 | --- | --- |
 | [Delete](../../aspose.words.markup/xmlmapping/delete/)() | Elimina la asignación del documento estructurado principal a datos XML. |
-| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(CustomXmlPart, string, string) | Establece una asignación entre la etiqueta del documento estructurado principal y un nodo XML de una parte de datos XML personalizada. |
+| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(*[CustomXmlPart](../customxmlpart/), string, string*) | Establece una asignación entre la etiqueta del documento estructurado principal y un nodo XML de una parte de datos XML personalizada. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar asignaciones XML para partes XML personalizadas.
 
@@ -70,5 +72,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 
 * espacio de nombres [Aspose.Words.Markup](../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../)
-
-

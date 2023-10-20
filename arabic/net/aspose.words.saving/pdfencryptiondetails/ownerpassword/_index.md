@@ -1,7 +1,9 @@
 ---
 title: PdfEncryptionDetails.OwnerPassword
-second_title: Aspose.Words لمراجع .NET API
-description: PdfEncryptionDetails ملكية. يحدد كلمة مرور المالك لمستند PDF المشفر.
+linktitle: OwnerPassword
+articleTitle: OwnerPassword
+second_title: Aspose.Words لـ .NET
+description: PdfEncryptionDetails OwnerPassword ملكية. يحدد كلمة مرور المالك لمستند PDF المشفر في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/pdfencryptiondetails/ownerpassword/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/pdfencryptiondetails/ownerpassword/
 public string OwnerPassword { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تسمح كلمة مرور المالك للمستخدم بفتح مستند PDF مشفر دون أي قيود وصول محددة في[`Permissions`](../permissions/).
 
 لا يمكن أن تكون كلمة مرور المالك هي نفس كلمة مرور المستخدم.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الأذونات على مستند PDF محفوظ.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 ### أنظر أيضا
 
 * class [PdfEncryptionDetails](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

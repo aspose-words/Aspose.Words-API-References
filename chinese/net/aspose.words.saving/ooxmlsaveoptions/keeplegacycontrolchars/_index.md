@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.KeepLegacyControlChars
-second_title: Aspose.Words for .NET API 参考
-description: OoxmlSaveOptions 财产. 保留旧控制字符的原始表示形式
+linktitle: KeepLegacyControlChars
+articleTitle: KeepLegacyControlChars
+second_title: 用于 .NET 的 Aspose.Words
+description: OoxmlSaveOptions KeepLegacyControlChars 财产. 保留旧控制字符的原始表示形式 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/
 public bool KeepLegacyControlChars { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在转换为 .docx 时支持旧控制字符。
 
@@ -41,7 +43,5 @@ Assert.AreEqual(keepLegacyControlChars ? "\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0
 ### 也可以看看
 
 * class [OoxmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

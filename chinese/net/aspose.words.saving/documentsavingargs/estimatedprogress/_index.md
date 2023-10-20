@@ -1,7 +1,9 @@
 ---
 title: DocumentSavingArgs.EstimatedProgress
-second_title: Aspose.Words for .NET API 参考
-description: DocumentSavingArgs 财产. 总体估计进度百分比
+linktitle: EstimatedProgress
+articleTitle: EstimatedProgress
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentSavingArgs EstimatedProgress 财产. 总体估计进度百分比 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/documentsavingargs/estimatedprogress/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/documentsavingargs/estimatedprogress/
 public double EstimatedProgress { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何在保存为 html 的同时管理文档。
 
@@ -184,7 +186,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 ### 也可以看看
 
 * class [DocumentSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../documentsavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

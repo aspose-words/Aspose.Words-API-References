@@ -1,7 +1,9 @@
 ---
-title: Enum ListLevelAlignment
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Lists.ListLevelAlignment enum. Specifica lallineamento per il numero dellelenco o il punto elenco.
+title: ListLevelAlignment Enum
+linktitle: ListLevelAlignment
+articleTitle: ListLevelAlignment
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Lists.ListLevelAlignment enum. Specifica lallineamento per il numero dellelenco o il punto elenco in C#.
 type: docs
 weight: 3510
 url: /it/net/aspose.words.lists/listlevelalignment/
@@ -22,11 +24,11 @@ public enum ListLevelAlignment
 | Center | `1` | L'etichetta dell'elenco è centrata nella posizione del numero. |
 | Right | `2` | Questa etichetta dell'elenco è allineata a destra della posizione del numero. |
 
-### Osservazioni
+## Osservazioni
 
 Utilizzato come valore per il[`Alignment`](../listlevel/alignment/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come applicare la formattazione dell'elenco personalizzato ai paragrafi quando si utilizza DocumentBuilder.
 
@@ -86,5 +88,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * spazio dei nomi [Aspose.Words.Lists](../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../)
-
-

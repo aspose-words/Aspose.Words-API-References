@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.LoadNotoFallbackSettings
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontFallbackSettings méthode. Charge les paramètres de secours prédéfinis qui utilisent les polices Google Noto.
+linktitle: LoadNotoFallbackSettings
+articleTitle: LoadNotoFallbackSettings
+second_title: Aspose.Words pour .NET
+description: FontFallbackSettings LoadNotoFallbackSettings méthode. Charge les paramètres de secours prédéfinis qui utilisent les polices Google Noto en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/
@@ -14,7 +16,7 @@ Charge les paramètres de secours prédéfinis qui utilisent les polices Google 
 public void LoadNotoFallbackSettings()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des paramètres de secours de police prédéfinis pour les polices Google Noto.
 
@@ -65,7 +67,5 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNoto
 ### Voir également
 
 * class [FontFallbackSettings](../)
-* espace de noms [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

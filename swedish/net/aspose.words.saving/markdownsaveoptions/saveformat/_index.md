@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.SaveFormat
-second_title: Aspose.Words för .NET API Referens
-description: MarkdownSaveOptions fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan endastMarkdown .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words för .NET
+description: MarkdownSaveOptions SaveFormat fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan endastMarkdown  i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.saving/markdownsaveoptions/saveformat/
@@ -18,7 +20,5 @@ public override SaveFormat SaveFormat { get; set; }
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [MarkdownSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../markdownsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

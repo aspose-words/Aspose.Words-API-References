@@ -1,7 +1,9 @@
 ---
 title: FormField.OwnStatus
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Указывает источник текста который отображается в строке состояния когда поле формы имеет фокус.
+linktitle: OwnStatus
+articleTitle: OwnStatus
+second_title: Aspose.Words для .NET
+description: FormField OwnStatus свойство. Указывает источник текста который отображается в строке состояния когда поле формы имеет фокус на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.fields/formfield/ownstatus/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/formfield/ownstatus/
 public bool OwnStatus { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если`истинный` , текст, заданный[`StatusText`](../statustext/) отображается свойство. Если`ЛОЖЬ` , текст записи автотекста, указанный[`StatusText`](../statustext/) отображается свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

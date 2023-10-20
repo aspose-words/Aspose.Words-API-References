@@ -1,7 +1,9 @@
 ---
 title: FieldUpdatingProgressArgs.UpdateCompleted
-second_title: Aspose.Words لمراجع .NET API
-description: FieldUpdatingProgressArgs ملكية. الحصول على قيمة تشير إلى اكتمال تحديث الحقل.
+linktitle: UpdateCompleted
+articleTitle: UpdateCompleted
+second_title: Aspose.Words لـ .NET
+description: FieldUpdatingProgressArgs UpdateCompleted ملكية. الحصول على قيمة تشير إلى اكتمال تحديث الحقل في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldupdatingprogressargs/updatecompleted/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldupdatingprogressargs/updatecompleted/
 public bool UpdateCompleted { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام طرق رد الاتصال أثناء التحديث الميداني.
 
@@ -82,7 +84,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 ### أنظر أيضا
 
 * class [FieldUpdatingProgressArgs](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldupdatingprogressargs/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

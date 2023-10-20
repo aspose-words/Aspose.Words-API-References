@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. ReturnerarStructuredDocumentTag .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag NodeType fast egendom. ReturnerarStructuredDocumentTag  i C#.
 type: docs
 weight: 220
 url: /sv/net/aspose.words.markup/structureddocumenttag/nodetype/
@@ -14,7 +16,7 @@ ReturnerarStructuredDocumentTag .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med stilar för innehållskontrollelement.
 
@@ -54,7 +56,5 @@ foreach (Node node in tags)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

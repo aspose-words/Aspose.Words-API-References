@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.NodeType
-second_title: Aspose.Words for .NET API 参考
-description: SpecialChar 财产. 返回SpecialChar.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: 用于 .NET 的 Aspose.Words
+description: SpecialChar NodeType 财产. 返回SpecialChar 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/specialchar/nodetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/specialchar/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何遍历复合节点的子节点树。
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [SpecialChar](../)
-* 命名空间 [Aspose.Words](../../specialchar/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

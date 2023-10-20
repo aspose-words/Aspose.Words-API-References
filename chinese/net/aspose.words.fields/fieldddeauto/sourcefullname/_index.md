@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.SourceFullName
-second_title: Aspose.Words for .NET API 参考
-description: FieldDdeAuto 财产. 获取或设置源文件的名称和位置
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldDdeAuto SourceFullName 财产. 获取或设置源文件的名称和位置 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.fields/fieldddeauto/sourcefullname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldddeauto/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用各种字段类型链接到本地文件系统中的其他文档并显示其内容。
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### 也可以看看
 
 * class [FieldDdeAuto](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldddeauto/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

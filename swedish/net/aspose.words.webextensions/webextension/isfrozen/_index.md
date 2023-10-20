@@ -1,7 +1,9 @@
 ---
 title: WebExtension.IsFrozen
-second_title: Aspose.Words för .NET API Referens
-description: WebExtension fast egendom. Anger om användaren kan interagera med webbtillägget eller inte.
+linktitle: IsFrozen
+articleTitle: IsFrozen
+second_title: Aspose.Words för .NET
+description: WebExtension IsFrozen fast egendom. Anger om användaren kan interagera med webbtillägget eller inte i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.webextensions/webextension/isfrozen/
@@ -14,7 +16,7 @@ Anger om användaren kan interagera med webbtillägget eller inte.
 public bool IsFrozen { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Se även
 
 * class [WebExtension](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../webextension/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

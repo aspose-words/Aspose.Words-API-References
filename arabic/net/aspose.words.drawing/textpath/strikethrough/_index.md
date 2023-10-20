@@ -1,7 +1,9 @@
 ---
 title: TextPath.StrikeThrough
-second_title: Aspose.Words لمراجع .NET API
-description: TextPath ملكية. صحيح إذا تم تنسيق الخط كنص يتوسطه خط.
+linktitle: StrikeThrough
+articleTitle: StrikeThrough
+second_title: Aspose.Words لـ .NET
+description: TextPath StrikeThrough ملكية. صحيح إذا تم تنسيق الخط كنص يتوسطه خط في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.drawing/textpath/strikethrough/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/textpath/strikethrough/
 public bool StrikeThrough { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### أنظر أيضا
 
 * class [TextPath](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textpath/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum MarkerSymbol
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.MarkerSymbol Sıralama. İşaretçi sembolü stilini belirtir.
+title: MarkerSymbol Enum
+linktitle: MarkerSymbol
+articleTitle: MarkerSymbol
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.MarkerSymbol Sıralama. İşaretçi sembolü stilini belirtir C#'da.
 type: docs
 weight: 920
 url: /tr/net/aspose.words.drawing.charts/markersymbol/
@@ -31,7 +33,7 @@ public enum MarkerSymbol
 | Triangle | `10` | Her veri noktasında bir üçgen çizileceğini belirtir. |
 | X | `11` | Her veri noktasında bir X çizileceğini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikte veri noktalarıyla nasıl çalışılacağını gösterir.
 
@@ -94,5 +96,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

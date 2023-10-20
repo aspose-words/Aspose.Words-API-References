@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Level
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart propiedad. Obtiene el nivel en el que se produce el inicio del rango de etiquetas de documento estructurado en el árbol del documento.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTagRangeStart Level propiedad. Obtiene el nivel en el que se produce el inicio del rango de etiquetas de documento estructurado en el árbol del documento en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/level/
@@ -14,7 +16,7 @@ Obtiene el nivel en el que se produce el inicio del rango de etiquetas de docume
 public MarkupLevel Level { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
 
@@ -50,7 +52,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTagRangeStart](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

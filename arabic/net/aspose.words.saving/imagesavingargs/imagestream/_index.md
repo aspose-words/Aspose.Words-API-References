@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.ImageStream
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSavingArgs ملكية. يسمح بتحديد الدفق الذي سيتم حفظ الصورة فيه.
+linktitle: ImageStream
+articleTitle: ImageStream
+second_title: Aspose.Words لـ .NET
+description: ImageSavingArgs ImageStream ملكية. يسمح بتحديد الدفق الذي سيتم حفظ الصورة فيه في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/imagesavingargs/imagestream/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/imagesavingargs/imagestream/
 public Stream ImageStream { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تتيح لك هذه الخاصية حفظ الصور في التدفقات بدلاً من الملفات أثناء HTML.
 
@@ -22,7 +24,7 @@ public Stream ImageStream { get; set; }
 
 استخدام[`IImageSavingCallback`](../../iimagesavingcallback/) لا يمكنك استبدال صورة بـ أخرى. الغرض منه هو فقط التحكم في الموقع حيث يتم حفظ الصور.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تضمين رد اتصال لحفظ الصورة في عملية تحويل HTML.
 
@@ -68,7 +70,5 @@ private class ImageShapePrinter : IImageSavingCallback
 ### أنظر أيضا
 
 * class [ImageSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

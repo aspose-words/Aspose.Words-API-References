@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: SdtListItemCollection eigendom. Ruft die Anzahl der Elemente in der Sammlung ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: SdtListItemCollection Count eigendom. Ruft die Anzahl der Elemente in der Sammlung ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.markup/sdtlistitemcollection/count/
@@ -14,7 +16,7 @@ Ruft die Anzahl der Elemente in der Sammlung ab.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit strukturierten Dropdown-Dokument-Tags gearbeitet wird.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Siehe auch
 
 * class [SdtListItemCollection](../)
-* namensraum [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

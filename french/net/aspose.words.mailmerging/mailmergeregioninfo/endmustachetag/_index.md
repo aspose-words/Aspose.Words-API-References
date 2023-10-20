@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.EndMustacheTag
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeRegionInfo propriété. Renvoie une balise de fin moustache pour la région.
+linktitle: EndMustacheTag
+articleTitle: EndMustacheTag
+second_title: Aspose.Words pour .NET
+description: MailMergeRegionInfo EndMustacheTag propriété. Renvoie une balise de fin moustache pour la région en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/
@@ -14,7 +16,7 @@ Renvoie une balise de fin "moustache" pour la région.
 public MustacheTag EndMustacheTag { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les balises de moustache.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [MustacheTag](../../mustachetag/)
 * class [MailMergeRegionInfo](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

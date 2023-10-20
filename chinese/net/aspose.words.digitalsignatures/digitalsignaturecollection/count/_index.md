@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: DigitalSignatureCollection 财产. 获取集合中包含的元素数量
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: DigitalSignatureCollection Count 财产. 获取集合中包含的元素数量 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 X.509 证书签署文档。
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### 也可以看看
 
 * class [DigitalSignatureCollection](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

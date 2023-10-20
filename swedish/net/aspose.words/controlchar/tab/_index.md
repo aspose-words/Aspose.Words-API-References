@@ -1,7 +1,9 @@
 ---
 title: ControlChar.Tab
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Tabtecken x0009 eller t.
+linktitle: Tab
+articleTitle: Tab
+second_title: Aspose.Words för .NET
+description: ControlChar Tab fält. Tabtecken x0009 eller t i C#.
 type: docs
 weight: 270
 url: /sv/net/aspose.words/controlchar/tab/
@@ -14,7 +16,7 @@ Tab-tecken: "\x0009" eller "\t".
 public static readonly string Tab;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in ett anpassat intervall för tabbstopppositioner.
 
@@ -33,7 +35,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

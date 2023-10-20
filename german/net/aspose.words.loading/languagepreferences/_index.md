@@ -1,7 +1,9 @@
 ---
-title: Class LanguagePreferences
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Loading.LanguagePreferences klas. Ermöglicht das Einrichten von Spracheinstellungen.
+title: LanguagePreferences Class
+linktitle: LanguagePreferences
+articleTitle: LanguagePreferences
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Loading.LanguagePreferences klas. Ermöglicht das Einrichten von Spracheinstellungen in C#.
 type: docs
 weight: 3650
 url: /de/net/aspose.words.loading/languagepreferences/
@@ -32,14 +34,14 @@ public class LanguagePreferences
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(EditingLanguage) | Fügt zusätzliche Bearbeitungssprache hinzu. |
-| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(EditingLanguage[]) | Fügt zusätzliche Bearbeitungssprachen hinzu. |
+| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(*[EditingLanguage](../editinglanguage/)*) | Fügt zusätzliche Bearbeitungssprache hinzu. |
+| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(*EditingLanguage[]*) | Fügt zusätzliche Bearbeitungssprachen hinzu. |
 
-### Bemerkungen
+## Bemerkungen
 
 Implementiert das Dialogfeld „Office-Spracheinstellungen festlegen“ in Word.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie beim Laden eines Dokuments Spracheinstellungen angewendet werden.
 
@@ -59,5 +61,3 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * namensraum [Aspose.Words.Loading](../../aspose.words.loading/)
 * Montage [Aspose.Words](../../)
-
-

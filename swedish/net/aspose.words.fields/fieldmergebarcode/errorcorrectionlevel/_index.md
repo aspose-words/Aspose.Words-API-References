@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.ErrorCorrectionLevel
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergeBarcode fast egendom. Hämtar eller ställer in en felkorrigeringsnivå för QRkoden. Giltiga värden är 0 3.
+linktitle: ErrorCorrectionLevel
+articleTitle: ErrorCorrectionLevel
+second_title: Aspose.Words för .NET
+description: FieldMergeBarcode ErrorCorrectionLevel fast egendom. Hämtar eller ställer in en felkorrigeringsnivå för QRkoden. Giltiga värden är 0 3 i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en felkorrigeringsnivå för QR-koden. Giltiga värden
 public string ErrorCorrectionLevel { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man utför en sammanfogning på QR-streckkoder.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Se även
 
 * class [FieldMergeBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

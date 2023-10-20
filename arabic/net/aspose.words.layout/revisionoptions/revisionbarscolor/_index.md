@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsColor
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionOptions ملكية. يسمح بتحديد اللون الذي سيتم استخدامه للأشرطة الجانبية التي تحدد أسطر المستند التي تحتوي على معلومات تمت مراجعتها. القيمة الافتراضية هيRed .
+linktitle: RevisionBarsColor
+articleTitle: RevisionBarsColor
+second_title: Aspose.Words لـ .NET
+description: RevisionOptions RevisionBarsColor ملكية. يسمح بتحديد اللون الذي سيتم استخدامه للأشرطة الجانبية التي تحدد أسطر المستند التي تحتوي على معلومات تمت مراجعتها. القيمة الافتراضية هيRed  في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.layout/revisionoptions/revisionbarscolor/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.layout/revisionoptions/revisionbarscolor/
 public RevisionColor RevisionBarsColor { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تعيين هذه الخاصية إلىByAuthor أوNoHighlight ستؤدي value إلى إخفاء أشرطة المراجعة من التخطيط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل مظهر المراجعات.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../revisionoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

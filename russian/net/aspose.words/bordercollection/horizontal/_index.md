@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Horizontal
-second_title: Справочник по API Aspose.Words для .NET
-description: BorderCollection свойство. Получает горизонтальную границу которая используется между ячейками или соответствующими абзацами.
+linktitle: Horizontal
+articleTitle: Horizontal
+second_title: Aspose.Words для .NET
+description: BorderCollection Horizontal свойство. Получает горизонтальную границу которая используется между ячейками или соответствующими абзацами на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/bordercollection/horizontal/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/bordercollection/horizontal/
 public Border Horizontal { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить настройки к горизонтальным границам формата абзаца.
 
@@ -83,7 +85,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* пространство имен [Aspose.Words](../../bordercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

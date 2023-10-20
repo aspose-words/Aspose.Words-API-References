@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.IsExportNeeded
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CssSavingArgs propriété. Permet de spécifier si le CSS sera exporté dans un fichier et intégré dans un document HTML. La valeur par défaut estvrai . Lorsque cette propriété estFAUX  les informations CSS ne seront pas enregistrées dans un fichier CSS et ne seront pas intégrées au document HTML.
+linktitle: IsExportNeeded
+articleTitle: IsExportNeeded
+second_title: Aspose.Words pour .NET
+description: CssSavingArgs IsExportNeeded propriété. Permet de spécifier si le CSS sera exporté dans un fichier et intégré dans un document HTML. La valeur par défaut estvrai . Lorsque cette propriété estFAUX  les informations CSS ne seront pas enregistrées dans un fichier CSS et ne seront pas intégrées au document HTML en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/csssavingargs/isexportneeded/
@@ -14,7 +16,7 @@ Permet de spécifier si le CSS sera exporté dans un fichier et intégré dans u
 public bool IsExportNeeded { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les feuilles de style CSS créées par une conversion HTML.
 
@@ -75,7 +77,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### Voir également
 
 * class [CssSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../csssavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

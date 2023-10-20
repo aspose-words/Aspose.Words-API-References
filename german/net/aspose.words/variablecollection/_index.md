@@ -1,7 +1,9 @@
 ---
-title: Class VariableCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.VariableCollection klas. Eine Sammlung von Dokumentvariablen.
+title: VariableCollection Class
+linktitle: VariableCollection
+articleTitle: VariableCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.VariableCollection klas. Eine Sammlung von Dokumentvariablen in C#.
 type: docs
 weight: 6530
 url: /de/net/aspose.words/variablecollection/
@@ -27,21 +29,21 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words/variablecollection/add/)(string, string) | Fügt der Sammlung eine Dokumentvariable hinzu. |
+| [Add](../../aspose.words/variablecollection/add/)(*string, string*) | Fügt der Sammlung eine Dokumentvariable hinzu. |
 | [Clear](../../aspose.words/variablecollection/clear/)() | Entfernt alle Elemente aus der Sammlung. |
-| [Contains](../../aspose.words/variablecollection/contains/)(string) | Ermittelt, ob die Sammlung eine Dokumentvariable mit dem angegebenen Namen enthält. |
+| [Contains](../../aspose.words/variablecollection/contains/)(*string*) | Ermittelt, ob die Sammlung eine Dokumentvariable mit dem angegebenen Namen enthält. |
 | [GetEnumerator](../../aspose.words/variablecollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Variablen in der Sammlung verwendet werden kann. |
-| [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(string) | Gibt den nullbasierten Index der angegebenen Dokumentvariablen in der Sammlung zurück. |
-| [Remove](../../aspose.words/variablecollection/remove/)(string) | Entfernt eine Dokumentvariable mit dem angegebenen Namen aus der Sammlung. |
-| [RemoveAt](../../aspose.words/variablecollection/removeat/)(int) | Entfernt eine Dokumentvariable am angegebenen Index. |
+| [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(*string*) | Gibt den nullbasierten Index der angegebenen Dokumentvariablen in der Sammlung zurück. |
+| [Remove](../../aspose.words/variablecollection/remove/)(*string*) | Entfernt eine Dokumentvariable mit dem angegebenen Namen aus der Sammlung. |
+| [RemoveAt](../../aspose.words/variablecollection/removeat/)(*int*) | Entfernt eine Dokumentvariable am angegebenen Index. |
 
-### Bemerkungen
+## Bemerkungen
 
 Variablennamen und -werte sind Zeichenfolgen.
 
 Bei Variablennamen wird die Groß-/Kleinschreibung nicht beachtet.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Variablensammlung eines Dokuments gearbeitet wird.
 
@@ -109,5 +111,3 @@ Assert.That(variables, Is.Empty);
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

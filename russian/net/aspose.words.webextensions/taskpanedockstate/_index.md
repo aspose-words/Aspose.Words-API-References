@@ -1,7 +1,9 @@
 ---
-title: Enum TaskPaneDockState
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WebExtensions.TaskPaneDockState перечисление. Перечисляет доступные местоположения объекта панели задач.
+title: TaskPaneDockState Enum
+linktitle: TaskPaneDockState
+articleTitle: TaskPaneDockState
+second_title: Aspose.Words для .NET
+description: Aspose.Words.WebExtensions.TaskPaneDockState перечисление. Перечисляет доступные местоположения объекта панели задач на С#.
 type: docs
 weight: 6730
 url: /ru/net/aspose.words.webextensions/taskpanedockstate/
@@ -21,7 +23,7 @@ public enum TaskPaneDockState
 | Right | `0` | Закрепите панель задач в правой части окна документа. |
 | Left | `1` | Закрепите панель задач в левой части окна документа. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * пространство имен [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../)
-
-

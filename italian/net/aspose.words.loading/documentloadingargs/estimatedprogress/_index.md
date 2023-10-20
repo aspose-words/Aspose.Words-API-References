@@ -1,7 +1,9 @@
 ---
 title: DocumentLoadingArgs.EstimatedProgress
-second_title: Aspose.Words per .NET API Reference
-description: DocumentLoadingArgs proprietà. Progresso percentuale stimato complessivo.
+linktitle: EstimatedProgress
+articleTitle: EstimatedProgress
+second_title: Aspose.Words per .NET
+description: DocumentLoadingArgs EstimatedProgress proprietà. Progresso percentuale stimato complessivo in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.loading/documentloadingargs/estimatedprogress/
@@ -17,7 +19,5 @@ public double EstimatedProgress { get; }
 ### Guarda anche
 
 * class [DocumentLoadingArgs](../)
-* spazio dei nomi [Aspose.Words.Loading](../../documentloadingargs/)
+* spazio dei nomi [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class OdsoRecipientDataCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.OdsoRecipientDataCollection sınıf. Yazılı bir koleksiyonOdsoRecipientData
+title: OdsoRecipientDataCollection Class
+linktitle: OdsoRecipientDataCollection
+articleTitle: OdsoRecipientDataCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.OdsoRecipientDataCollection sınıf. Yazılı bir koleksiyonOdsoRecipientData C#'da.
 type: docs
 weight: 5940
 url: /tr/net/aspose.words.settings/odsorecipientdatacollection/
@@ -33,12 +35,12 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(OdsoRecipientData) | Bu koleksiyonun sonuna bir nesne ekler. |
+| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(*[OdsoRecipientData](../odsorecipientdata/)*) | Bu koleksiyonun sonuna bir nesne ekler. |
 | [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | Bu koleksiyondaki tüm öğeleri kaldırır. |
 | [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
-| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(int) | Belirtilen dizindeki öğeyi kaldırır. |
+| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(*int*) | Belirtilen dizindeki öğeyi kaldırır. |
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * class [OdsoRecipientData](../odsorecipientdata/)
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

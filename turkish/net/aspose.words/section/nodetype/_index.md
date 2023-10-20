@@ -1,7 +1,9 @@
 ---
 title: Section.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: Section mülk. İadelerSection .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: Section NodeType mülk. İadelerSection  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/section/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/section/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Section](../)
-* ad alanı [Aspose.Words](../../section/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

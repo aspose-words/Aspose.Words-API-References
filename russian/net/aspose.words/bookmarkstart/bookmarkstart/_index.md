@@ -1,7 +1,9 @@
 ---
-title: BookmarkStart.BookmarkStart
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarkStart строитель. Инициализирует новый экземплярBookmarkStart класс.
+title: BookmarkStart
+linktitle: BookmarkStart
+articleTitle: BookmarkStart
+second_title: Aspose.Words для .NET
+description: BookmarkStart строитель. Инициализирует новый экземплярBookmarkStart класс на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/bookmarkstart/bookmarkstart/
@@ -19,7 +21,7 @@ public BookmarkStart(DocumentBase doc, string name)
 | doc | DocumentBase | Документ владельца. |
 | name | String | Имя закладки. Не может быть`нулевой`. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять закладки и обновлять их содержимое.
 
@@ -109,7 +111,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [BookmarkStart](../)
-* пространство имен [Aspose.Words](../../bookmarkstart/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

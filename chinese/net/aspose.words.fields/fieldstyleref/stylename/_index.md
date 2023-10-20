@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.StyleName
-second_title: Aspose.Words for .NET API 参考
-description: FieldStyleRef 财产. 获取或设置要搜索的文本的格式化样式名称
+linktitle: StyleName
+articleTitle: StyleName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldStyleRef StyleName 财产. 获取或设置要搜索的文本的格式化样式名称 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/fieldstyleref/stylename/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldstyleref/stylename/
 public string StyleName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 STYLEREF 字段。
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### 也可以看看
 
 * class [FieldStyleRef](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldstyleref/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

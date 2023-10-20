@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentPropertyCollection ملكية. الحصول على عدد العناصر الموجودة في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: DocumentPropertyCollection Count ملكية. الحصول على عدد العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.properties/documentpropertycollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.properties/documentpropertycollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند المخصصة.
 
@@ -39,7 +41,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 ### أنظر أيضا
 
 * class [DocumentPropertyCollection](../)
-* مساحة الاسم [Aspose.Words.Properties](../../documentpropertycollection/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

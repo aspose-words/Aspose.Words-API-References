@@ -1,7 +1,9 @@
 ---
-title: Enum OdtSaveMeasureUnit
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.OdtSaveMeasureUnit enumeración. Unidades de medida especificadas para aplicar al contenido del documento medible como la forma el ancho y otros durante el guardado.
+title: OdtSaveMeasureUnit Enum
+linktitle: OdtSaveMeasureUnit
+articleTitle: OdtSaveMeasureUnit
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.OdtSaveMeasureUnit enumeración. Unidades de medida especificadas para aplicar al contenido del documento medible como la forma el ancho y otros durante el guardado en C#.
 type: docs
 weight: 5320
 url: /es/net/aspose.words.saving/odtsavemeasureunit/
@@ -21,7 +23,7 @@ public enum OdtSaveMeasureUnit
 | Centimeters | `0` | Especifica que el contenido del documento se guarda en centímetros. |
 | Inches | `1` | Especifica que el contenido del documento se guarda en pulgadas. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar diferentes unidades de medida para definir parámetros de estilo de un documento ODT guardado.
 
@@ -45,5 +47,3 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

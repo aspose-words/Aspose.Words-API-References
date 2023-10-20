@@ -1,7 +1,9 @@
 ---
 title: JsonDataLoadOptions.PreserveSpaces
-second_title: Aspose.Words für .NET-API-Referenz
-description: JsonDataLoadOptions eigendom. Ruft ein Flag ab oder setzt es das angibt ob führende und nachfolgende Leerzeichen beim Laden von string Werten von JSONDaten beibehalten werden sollen.
+linktitle: PreserveSpaces
+articleTitle: PreserveSpaces
+second_title: Aspose.Words für .NET
+description: JsonDataLoadOptions PreserveSpaces eigendom. Ruft ein Flag ab oder setzt es das angibt ob führende und nachfolgende Leerzeichen beim Laden von string Werten von JSONDaten beibehalten werden sollen in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.reporting/jsondataloadoptions/preservespaces/
@@ -14,14 +16,12 @@ Ruft ein Flag ab oder setzt es, das angibt, ob führende und nachfolgende Leerze
 public bool PreserveSpaces { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH` .
 
 ### Siehe auch
 
 * class [JsonDataLoadOptions](../)
-* namensraum [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
-
-

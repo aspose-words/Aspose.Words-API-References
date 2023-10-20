@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.SaveFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: MarkdownSaveOptions propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo se puedeMarkdown .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words para .NET
+description: MarkdownSaveOptions SaveFormat propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo se puedeMarkdown  en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.saving/markdownsaveoptions/saveformat/
@@ -18,7 +20,5 @@ public override SaveFormat SaveFormat { get; set; }
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [MarkdownSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../markdownsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

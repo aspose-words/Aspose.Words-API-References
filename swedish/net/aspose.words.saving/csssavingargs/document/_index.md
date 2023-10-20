@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.Document
-second_title: Aspose.Words för .NET API Referens
-description: CssSavingArgs fast egendom. Hämtar dokumentobjektet som för närvarande sparas.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words för .NET
+description: CssSavingArgs Document fast egendom. Hämtar dokumentobjektet som för närvarande sparas i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/csssavingargs/document/
@@ -14,7 +16,7 @@ Hämtar dokumentobjektet som för närvarande sparas.
 public Document Document { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CSS-formatmallar som en HTML-konvertering skapar.
 
@@ -76,7 +78,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [CssSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../csssavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

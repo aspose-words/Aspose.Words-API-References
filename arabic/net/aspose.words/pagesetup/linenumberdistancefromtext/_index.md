@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberDistanceFromText
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. الحصول على أو تعيين المسافة بين الحافة اليمنى لأرقام الأسطر والحافة اليسرى للمستند.
+linktitle: LineNumberDistanceFromText
+articleTitle: LineNumberDistanceFromText
+second_title: Aspose.Words لـ .NET
+description: PageSetup LineNumberDistanceFromText ملكية. الحصول على أو تعيين المسافة بين الحافة اليمنى لأرقام الأسطر والحافة اليسرى للمستند في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words/pagesetup/linenumberdistancefromtext/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/pagesetup/linenumberdistancefromtext/
 public double LineNumberDistanceFromText { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 اضبط هذه الخاصية على صفر للمسافة التلقائية بين أرقام الأسطر ونص المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين ترقيم الأسطر لقسم ما.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

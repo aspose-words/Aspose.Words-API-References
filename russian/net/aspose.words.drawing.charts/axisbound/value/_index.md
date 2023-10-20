@@ -1,7 +1,9 @@
 ---
 title: AxisBound.Value
-second_title: Справочник по API Aspose.Words для .NET
-description: AxisBound свойство. Возвращает числовое значение границы оси.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words для .NET
+description: AxisBound Value свойство. Возвращает числовое значение границы оси на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/axisbound/value/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/axisbound/value/
 public double Value { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить пользовательские границы оси.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Смотрите также
 
 * class [AxisBound](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../axisbound/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

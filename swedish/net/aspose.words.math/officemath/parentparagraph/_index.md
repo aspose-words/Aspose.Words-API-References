@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.ParentParagraph
-second_title: Aspose.Words för .NET API Referens
-description: OfficeMath fast egendom. Hämtar föräldernParagraph av denna nod.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words för .NET
+description: OfficeMath ParentParagraph fast egendom. Hämtar föräldernParagraph av denna nod i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.math/officemath/parentparagraph/
@@ -14,7 +16,7 @@ Hämtar föräldern[`Paragraph`](../../../aspose.words/paragraph/) av denna nod.
 public Paragraph ParentParagraph { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in kontorsmattevisningsformatering.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [OfficeMath](../)
-* namnutrymme [Aspose.Words.Math](../../officemath/)
+* namnutrymme [Aspose.Words.Math](../../../aspose.words.math/)
 * hopsättning [Aspose.Words](../../../)
-
-

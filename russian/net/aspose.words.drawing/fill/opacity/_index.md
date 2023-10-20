@@ -1,9 +1,11 @@
 ---
 title: Fill.Opacity
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill свойство. Получает или задает степень непрозрачности указанной заливки как значение от 00 прозрачный до 10 непрозрачный.
+linktitle: Opacity
+articleTitle: Opacity
+second_title: Aspose.Words для .NET
+description: Fill Opacity свойство. Получает или задает степень непрозрачности указанной заливки как значение от 00 прозрачный до 10 непрозрачный на С#.
 type: docs
-weight: 150
+weight: 140
 url: /ru/net/aspose.words.drawing/fill/opacity/
 ---
 ## Fill.Opacity property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/fill/opacity/
 public double Opacity { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство противоположно свойству[`Transparency`](../transparency/).
 
-### Примеры
+## Примеры
 
 Показывает, как залить фигуру сплошным цветом.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ### Смотрите также
 
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

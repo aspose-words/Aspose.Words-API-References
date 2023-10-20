@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRasterOperations
-second_title: Aspose.Words for .NET API Referansı
-description: MetafileRenderingOptions mülk. Tarama işlemlerinin taklit edilip edilmeyeceğini belirleyen bir değer alır veya ayarlar.
+linktitle: EmulateRasterOperations
+articleTitle: EmulateRasterOperations
+second_title: Aspose.Words for .NET
+description: MetafileRenderingOptions EmulateRasterOperations mülk. Tarama işlemlerinin taklit edilip edilmeyeceğini belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/
@@ -14,7 +16,7 @@ Tarama işlemlerinin taklit edilip edilmeyeceğini belirleyen bir değer alır v
 public bool EmulateRasterOperations { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Meta dosyalarda belirli tarama işlemleri kullanılabilir. Doğrudan vektör grafiklerine dönüştürülemezler. Raster işlemlerinin taklit edilmesi, elde edilen vektör grafiklerinin kısmi rasterleştirilmesini gerektirir; bu, the meta dosyası oluşturma performansını etkileyebilir.
 
@@ -26,7 +28,7 @@ Bu seçenek yalnızca meta dosyası vektör grafikleri olarak işlendiğinde kul
 
 Varsayılan değer:`doğru`.
 
-### Örnekler
+## Örnekler
 
 Gösteriler, bitmap oluşturmaya bir geri dönüş ekledi ve desteklenmeyen meta dosyası kayıtlarıyla ilgili uyarı türlerini değiştirdi.
 
@@ -81,7 +83,5 @@ public class HandleDocumentWarnings : IWarningCallback
 ### Ayrıca bakınız
 
 * class [MetafileRenderingOptions](../)
-* ad alanı [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: GradientStopCollection ملكية. الحصول على قيمة عددية تشير إلى عدد العناصر الموجودة في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: GradientStopCollection Count ملكية. الحصول على قيمة عددية تشير إلى عدد العناصر الموجودة في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/gradientstopcollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/gradientstopcollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نقاط توقف متدرجة إلى التعبئة المتدرجة.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### أنظر أيضا
 
 * class [GradientStopCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../gradientstopcollection/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

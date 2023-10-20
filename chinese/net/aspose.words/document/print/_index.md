@@ -1,9 +1,11 @@
 ---
 title: Document.Print
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 将整个文档打印到默认打印机
+linktitle: Print
+articleTitle: Print
+second_title: 用于 .NET 的 Aspose.Words
+description: Document Print 方法. 将整个文档打印到默认打印机 在 C#.
 type: docs
-weight: 660
+weight: 640
 url: /zh/net/aspose.words/document/print/
 ---
 ## Print() {#print}
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/print/
 public void Print()
 ```
 
-### 例子
+## 例子
 
 显示如何使用默认打印机打印文档。
 
@@ -38,12 +40,12 @@ doc.Print(myPrinter);
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Print(string) {#print_3}
+## Print(*string*) {#print_3}
 
 使用标准（无用户界面）打印控制器将整个文档打印到指定打印机。
 
@@ -55,7 +57,7 @@ public void Print(string printerName)
 | --- | --- | --- |
 | printerName | String | 打印机的名称。 |
 
-### 例子
+## 例子
 
 显示如何使用默认打印机打印文档。
 
@@ -79,12 +81,12 @@ doc.Print(myPrinter);
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Print(PrinterSettings) {#print_1}
+## Print(*PrinterSettings*) {#print_1}
 
 根据指定的打印机设置打印文档， 使用标准（无用户界面）打印控制器。
 
@@ -96,11 +98,11 @@ public void Print(PrinterSettings printerSettings)
 | --- | --- | --- |
 | printerSettings | PrinterSettings | 要使用的打印机设置。 |
 
-### 评论
+## 评论
 
 这PrinterSettings 对象允许您指定要打印的打印机、要打印的页面范围和其他选项。
 
-### 例子
+## 例子
 
 展示如何打印一系列页面。
 
@@ -131,12 +133,12 @@ doc.Print(printerSettings, "My rendered document");
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Print(PrinterSettings, string) {#print_2}
+## Print(*PrinterSettings, string*) {#print_2}
 
 根据指定的打印机设置打印文档， 使用标准（无用户界面）打印控制器和文档名称。
 
@@ -149,11 +151,11 @@ public void Print(PrinterSettings printerSettings, string documentName)
 | printerSettings | PrinterSettings | 要使用的打印机设置。 |
 | documentName | String | 打印文档时要显示的文档名称（例如，在打印状态对话框 框或打印机队列中）。 |
 
-### 评论
+## 评论
 
 这PrinterSettings 对象允许您指定要打印的打印机、要打印的页面范围和其他选项。
 
-### 例子
+## 例子
 
 展示如何打印一系列页面。
 
@@ -184,7 +186,5 @@ doc.Print(printerSettings, "My rendered document");
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

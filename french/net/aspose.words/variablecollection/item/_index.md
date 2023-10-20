@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: VariableCollection propriété. Obtient ou définit une variable de document par le nom qui ne respecte pas la casse. nul les valeurs ne sont pas autorisées comme côté droit de laffectation et seront remplacées par une chaîne vide.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: VariableCollection Item propriété. Obtient ou définit une variable de document par le nom qui ne respecte pas la casse. nul les valeurs ne sont pas autorisées comme côté droit de laffectation et seront remplacées par une chaîne vide en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/variablecollection/item/
@@ -17,7 +19,7 @@ public string this[string name] { get; set; }
 ### Voir également
 
 * class [VariableCollection](../)
-* espace de noms [Aspose.Words](../../variablecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -37,7 +39,5 @@ public string this[int index] { get; set; }
 ### Voir également
 
 * class [VariableCollection](../)
-* espace de noms [Aspose.Words](../../variablecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

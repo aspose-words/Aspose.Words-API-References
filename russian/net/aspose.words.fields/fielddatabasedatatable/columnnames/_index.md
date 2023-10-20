@@ -1,7 +1,9 @@
 ---
 title: FieldDatabaseDataTable.ColumnNames
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDatabaseDataTable свойство. Получает столбцы принадлежащие этой таблице.
+linktitle: ColumnNames
+articleTitle: ColumnNames
+second_title: Aspose.Words для .NET
+description: FieldDatabaseDataTable ColumnNames свойство. Получает столбцы принадлежащие этой таблице на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fielddatabasedatatable/columnnames/
@@ -17,7 +19,5 @@ public string[] ColumnNames { get; }
 ### Смотрите также
 
 * class [FieldDatabaseDataTable](../)
-* пространство имен [Aspose.Words.Fields](../../fielddatabasedatatable/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

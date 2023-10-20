@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.ContentsFont
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Formattazione dei caratteri che verrà applicata al testo inserito SDT .
+linktitle: ContentsFont
+articleTitle: ContentsFont
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag ContentsFont proprietà. Formattazione dei caratteri che verrà applicata al testo inseritoSDT  in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.markup/structureddocumenttag/contentsfont/
 ---
 ## StructuredDocumentTag.ContentsFont property
 
-Formattazione dei caratteri che verrà applicata al testo inserito **SDT** .
+Formattazione dei caratteri che verrà applicata al testo inserito**SDT** .
 
 ```csharp
 public Font ContentsFont { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un tag di documento strutturato in una casella di testo semplice e modificarne l'aspetto.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

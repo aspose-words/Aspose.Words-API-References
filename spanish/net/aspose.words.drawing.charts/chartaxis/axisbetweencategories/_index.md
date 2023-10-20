@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.AxisBetweenCategories
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Obtiene o establece un indicador que indica si el eje de valores cruza el eje de categorías entre categorías.
+linktitle: AxisBetweenCategories
+articleTitle: AxisBetweenCategories
+second_title: Aspose.Words para .NET
+description: ChartAxis AxisBetweenCategories propiedad. Obtiene o establece un indicador que indica si el eje de valores cruza el eje de categorías entre categorías en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
@@ -14,11 +16,11 @@ Obtiene o establece un indicador que indica si el eje de valores cruza el eje de
 public bool AxisBetweenCategories { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La propiedad tiene efecto solo para los ejes de valores. No es compatible con los nuevos gráficos de MS Office 2016.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo hacer que un eje de gráfico se cruce en una ubicación personalizada.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCross.docx");
 ### Ver también
 
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

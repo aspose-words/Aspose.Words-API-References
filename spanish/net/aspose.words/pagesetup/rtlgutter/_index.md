@@ -1,7 +1,9 @@
 ---
 title: PageSetup.RtlGutter
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Obtiene o establece si Microsoft Word usa medianiles para la sección en función de un idioma de derecha a izquierda o de izquierda a derecha.
+linktitle: RtlGutter
+articleTitle: RtlGutter
+second_title: Aspose.Words para .NET
+description: PageSetup RtlGutter propiedad. Obtiene o establece si Microsoft Word usa medianiles para la sección en función de un idioma de derecha a izquierda o de izquierda a derecha en C#.
 type: docs
 weight: 380
 url: /es/net/aspose.words/pagesetup/rtlgutter/
@@ -14,7 +16,7 @@ Obtiene o establece si Microsoft Word usa medianiles para la sección en funció
 public bool RtlGutter { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar los márgenes del medianil.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 ### Ver también
 
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Node.Remove
-second_title: Aspose.Words per .NET API Reference
-description: Node metodo. Si rimuove dal genitore.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words per .NET
+description: Node Remove metodo. Si rimuove dal genitore in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words/node/remove/
@@ -14,7 +16,7 @@ Si rimuove dal genitore.
 public void Remove()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eliminare tutte le forme con immagini da un documento.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 ### Guarda anche
 
 * class [Node](../)
-* spazio dei nomi [Aspose.Words](../../node/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

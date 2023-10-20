@@ -1,9 +1,11 @@
 ---
 title: Stroke.LineStyle
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Konturun çizgi stilini tanımlar.
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words for .NET
+description: Stroke LineStyle mülk. Konturun çizgi stilini tanımlar C#'da.
 type: docs
-weight: 140
+weight: 130
 url: /tr/net/aspose.words.drawing/stroke/linestyle/
 ---
 ## Stroke.LineStyle property
@@ -14,11 +16,11 @@ Konturun çizgi stilini tanımlar.
 public ShapeLineStyle LineStyle { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Single.
 
-### Örnekler
+## Örnekler
 
 Kontur özelliklerinin nasıl değiştirildiğini gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * enum [ShapeLineStyle](../../shapelinestyle/)
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

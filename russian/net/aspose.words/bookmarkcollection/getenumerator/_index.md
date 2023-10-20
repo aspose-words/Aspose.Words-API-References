@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarkCollection метод. Возвращает объект перечислителя.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: BookmarkCollection GetEnumerator метод. Возвращает объект перечислителя на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/bookmarkcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/bookmarkcollection/getenumerator/
 public IEnumerator<Bookmark> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять закладки и обновлять их содержимое.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* пространство имен [Aspose.Words](../../bookmarkcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

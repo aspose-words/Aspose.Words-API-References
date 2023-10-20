@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Keywords
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuiltInDocumentProperties propriété. Obtient ou définit les motsclés du document.
+linktitle: Keywords
+articleTitle: Keywords
+second_title: Aspose.Words pour .NET
+description: BuiltInDocumentProperties Keywords propriété. Obtient ou définit les motsclés du document en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.properties/builtindocumentproperties/keywords/
@@ -14,7 +16,7 @@ Obtient ou définit les mots-clés du document.
 public string Keywords { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés de document intégrées dans la catégorie « Description ».
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Voir également
 
 * class [BuiltInDocumentProperties](../)
-* espace de noms [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

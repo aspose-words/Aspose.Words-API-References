@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.KeepWithNext
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 如果该段落与其后面的段落保留在同一页上则为 True
+linktitle: KeepWithNext
+articleTitle: KeepWithNext
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat KeepWithNext 财产. 如果该段落与其后面的段落保留在同一页上则为 True 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words/paragraphformat/keepwithnext/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/keepwithnext/
 public bool KeepWithNext { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何将表格设置为在同一页面上保持在一起。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

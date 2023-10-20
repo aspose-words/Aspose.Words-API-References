@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageStream
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSavingArgs eigendom. Ermöglicht die Angabe des Streams in dem die Dokumentseite gespeichert wird.
+linktitle: PageStream
+articleTitle: PageStream
+second_title: Aspose.Words für .NET
+description: PageSavingArgs PageStream eigendom. Ermöglicht die Angabe des Streams in dem die Dokumentseite gespeichert wird in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/pagesavingargs/pagestream/
@@ -14,7 +16,7 @@ Ermöglicht die Angabe des Streams, in dem die Dokumentseite gespeichert wird.
 public Stream PageStream { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Mit dieser Eigenschaft können Sie Dokumentseiten in Streams statt in Dateien speichern.
 
@@ -22,7 +24,7 @@ Der Standardwert ist`Null` . Wenn diese Eigenschaft ist`Null` , wird die Dokumen
 
 Wenn beides`PageStream` Und[`PageFileName`](../pagefilename/) festgelegt sind, wird PageStream verwendet.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Rückruf verwendet wird, um ein Dokument Seite für Seite im HTML-Format zu speichern.
 
@@ -79,7 +81,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Siehe auch
 
 * class [PageSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../pagesavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

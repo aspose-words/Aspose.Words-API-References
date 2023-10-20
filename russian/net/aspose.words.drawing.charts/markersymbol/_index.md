@@ -1,7 +1,9 @@
 ---
-title: Enum MarkerSymbol
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.MarkerSymbol перечисление. Определяет стиль символа маркера.
+title: MarkerSymbol Enum
+linktitle: MarkerSymbol
+articleTitle: MarkerSymbol
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.MarkerSymbol перечисление. Определяет стиль символа маркера на С#.
 type: docs
 weight: 920
 url: /ru/net/aspose.words.drawing.charts/markersymbol/
@@ -31,7 +33,7 @@ public enum MarkerSymbol
 | Triangle | `10` | Указывает, что в каждой точке данных должен быть нарисован треугольник. |
 | X | `11` | Указывает, что в каждой точке данных должен быть нарисован X. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с точками данных на линейной диаграмме.
 
@@ -94,5 +96,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

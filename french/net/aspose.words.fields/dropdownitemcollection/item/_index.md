@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DropDownItemCollection propriété. Obtient ou définit lélément à lindex spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: DropDownItemCollection Item propriété. Obtient ou définit lélément à lindex spécifié en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/dropdownitemcollection/item/
@@ -14,7 +16,7 @@ Obtient ou définit l'élément à l'index spécifié.
 public string this[int index] { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ de zone de liste déroulante et modifier les éléments de sa collection d'éléments.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### Voir également
 
 * class [DropDownItemCollection](../)
-* espace de noms [Aspose.Words.Fields](../../dropdownitemcollection/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

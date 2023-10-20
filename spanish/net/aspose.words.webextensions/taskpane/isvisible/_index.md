@@ -1,7 +1,9 @@
 ---
 title: TaskPane.IsVisible
-second_title: Referencia de API de Aspose.Words para .NET
-description: TaskPane propiedad. Especifica si el panel de tareas se muestra como visible de forma predeterminada cuando se abre el documento.
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words para .NET
+description: TaskPane IsVisible propiedad. Especifica si el panel de tareas se muestra como visible de forma predeterminada cuando se abre el documento en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.webextensions/taskpane/isvisible/
@@ -14,7 +16,7 @@ Especifica si el panel de tareas se muestra como visible de forma predeterminada
 public bool IsVisible { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar una extensión web a un documento.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ver también
 
 * class [TaskPane](../)
-* espacio de nombres [Aspose.Words.WebExtensions](../../taskpane/)
+* espacio de nombres [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../../)
-
-

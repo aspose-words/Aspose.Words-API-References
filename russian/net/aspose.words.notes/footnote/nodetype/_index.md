@@ -1,7 +1,9 @@
 ---
 title: Footnote.NodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: Footnote свойство. ВозвращаетFootnote .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words для .NET
+description: Footnote NodeType свойство. ВозвращаетFootnote  на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.notes/footnote/nodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.notes/footnote/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перемещаться по дереву дочерних узлов составного узла.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Footnote](../)
-* пространство имен [Aspose.Words.Notes](../../footnote/)
+* пространство имен [Aspose.Words.Notes](../../../aspose.words.notes/)
 * сборка [Aspose.Words](../../../)
-
-

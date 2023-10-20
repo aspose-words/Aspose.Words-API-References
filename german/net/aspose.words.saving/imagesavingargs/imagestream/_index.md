@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.ImageStream
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSavingArgs eigendom. Ermöglicht die Angabe des Streams in dem das Bild gespeichert wird.
+linktitle: ImageStream
+articleTitle: ImageStream
+second_title: Aspose.Words für .NET
+description: ImageSavingArgs ImageStream eigendom. Ermöglicht die Angabe des Streams in dem das Bild gespeichert wird in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/imagesavingargs/imagestream/
@@ -14,7 +16,7 @@ Ermöglicht die Angabe des Streams, in dem das Bild gespeichert wird.
 public Stream ImageStream { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Mit dieser Eigenschaft können Sie Bilder während HTML in Streams statt in Dateien speichern.
 
@@ -22,7 +24,7 @@ Der Standardwert ist`Null` . Wenn diese Eigenschaft ist`Null` , wird das Bild in
 
 Benutzen[`IImageSavingCallback`](../../iimagesavingcallback/) Sie können ein Bild nicht durch ein anderes ersetzen. Es dient lediglich der Kontrolle über den Speicherort von Bildern.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Rückruf zum Speichern von Bildern in einen HTML-Konvertierungsprozess einbezogen wird.
 
@@ -68,7 +70,5 @@ private class ImageShapePrinter : IImageSavingCallback
 ### Siehe auch
 
 * class [ImageSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../imagesavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

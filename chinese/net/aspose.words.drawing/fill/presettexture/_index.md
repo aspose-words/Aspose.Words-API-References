@@ -1,9 +1,11 @@
 ---
 title: Fill.PresetTexture
-second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获得PresetTexture用于填充.
+linktitle: PresetTexture
+articleTitle: PresetTexture
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill PresetTexture 财产. 获得PresetTexture用于填充 在 C#.
 type: docs
-weight: 170
+weight: 160
 url: /zh/net/aspose.words.drawing/fill/presettexture/
 ---
 ## Fill.PresetTexture property
@@ -18,7 +20,5 @@ public PresetTexture PresetTexture { get; }
 
 * enum [PresetTexture](../../presettexture/)
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

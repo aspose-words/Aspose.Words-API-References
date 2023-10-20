@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedSvg
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. SVG kaynaklarının Html belgesine gömülmesi gerekip gerekmediğini belirtir. Varsayılan değerdoğru .
+linktitle: ExportEmbeddedSvg
+articleTitle: ExportEmbeddedSvg
+second_title: Aspose.Words for .NET
+description: HtmlFixedSaveOptions ExportEmbeddedSvg mülk. SVG kaynaklarının Html belgesine gömülmesi gerekip gerekmediğini belirtir. Varsayılan değerdoğru  C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedsvg/
@@ -14,7 +16,7 @@ SVG kaynaklarının Html belgesine gömülmesi gerekip gerekmediğini belirtir. 
 public bool ExportEmbeddedSvg { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi Html'ye aktarırken SVG nesnelerinin nerede saklanacağının nasıl belirleneceğini gösterir.
 
@@ -53,7 +55,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class DocumentPartSavingArgs
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.DocumentPartSavingArgs 班级. 提供数据DocumentPartSaving回调.
+title: DocumentPartSavingArgs Class
+linktitle: DocumentPartSavingArgs
+articleTitle: DocumentPartSavingArgs
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.DocumentPartSavingArgs 班级. 提供数据DocumentPartSaving回调 在 C#.
 type: docs
 weight: 4940
 url: /zh/net/aspose.words.saving/documentpartsavingargs/
@@ -25,7 +27,7 @@ public class DocumentPartSavingArgs
 | [DocumentPartStream](../../aspose.words.saving/documentpartsavingargs/documentpartstream/) { get; set; } | 允许指定文档部分将保存到的流。 |
 | [KeepDocumentPartStreamOpen](../../aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/) { get; set; } | 指定 Aspose.Words 在保存文档部分后是否应保持流打开或关闭它。 |
 
-### 评论
+## 评论
 
 当 Aspose.Words 将文档保存为 HTML 或相关格式并[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/)指定 时，文档将被拆分为多个部分，并且默认情况下，每个文档部分都保存到单独的文件中。
 
@@ -33,7 +35,7 @@ public class DocumentPartSavingArgs
 
 要将文档部分保存到流而不是文件中，请使用[`DocumentPartStream`](./documentpartstream/)财产。
 
-### 例子
+## 例子
 
 演示如何将文档拆分为多个部分并保存它们。
 
@@ -151,5 +153,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

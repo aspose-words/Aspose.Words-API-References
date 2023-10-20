@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: Odso eigendom. Gibt den Speicherort der externen Datenquelle an die mit einem Dokument verbunden werden soll um den Seriendruck durchzuführen. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: DataSource
+articleTitle: DataSource
+second_title: Aspose.Words für .NET
+description: Odso DataSource eigendom. Gibt den Speicherort der externen Datenquelle an die mit einem Dokument verbunden werden soll um den Seriendruck durchzuführen. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.settings/odso/datasource/
@@ -14,7 +16,7 @@ Gibt den Speicherort der externen Datenquelle an, die mit einem Dokument verbund
 public string DataSource { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Siehe auch
 
 * class [Odso](../)
-* namensraum [Aspose.Words.Settings](../../odso/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

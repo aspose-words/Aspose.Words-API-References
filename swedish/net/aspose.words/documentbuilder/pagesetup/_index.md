@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.PageSetup
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Returnerar ett objekt som representerar aktuell siduppsättning och avsnittsegenskaper.
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words för .NET
+description: DocumentBuilder PageSetup fast egendom. Returnerar ett objekt som representerar aktuell siduppsättning och avsnittsegenskaper i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words/documentbuilder/pagesetup/
@@ -14,7 +16,7 @@ Returnerar ett objekt som representerar aktuell siduppsättning och avsnittsegen
 public PageSetup PageSetup { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar och återställer sidinställningar till avsnitt i ett dokument.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * class [PageSetup](../../pagesetup/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

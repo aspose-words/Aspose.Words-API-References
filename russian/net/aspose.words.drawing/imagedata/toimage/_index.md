@@ -1,9 +1,11 @@
 ---
 title: ImageData.ToImage
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageData метод. Получает изображение хранящееся в фигуре в видеImage объект.
+linktitle: ToImage
+articleTitle: ToImage
+second_title: Aspose.Words для .NET
+description: ImageData ToImage метод. Получает изображение хранящееся в фигуре в видеImage объект на С#.
 type: docs
-weight: 230
+weight: 220
 url: /ru/net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/imagedata/toimage/
 public Image ToImage()
 ```
 
-### Примечания
+## Примечания
 
 новыйImage объект создается каждый раз при вызове этого метода.
 
 Ответственность за удаление объекта изображения лежит на вызывающем объекте.
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить все изображения из документа в файловую систему.
 
@@ -53,7 +55,5 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### Смотрите также
 
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

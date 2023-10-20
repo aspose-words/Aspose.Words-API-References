@@ -1,7 +1,9 @@
 ---
 title: Document.CustomDocumentProperties
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Renvoie une collection qui représente toutes les propriétés de document personnalisées du document.
+linktitle: CustomDocumentProperties
+articleTitle: CustomDocumentProperties
+second_title: Aspose.Words pour .NET
+description: Document CustomDocumentProperties propriété. Renvoie une collection qui représente toutes les propriétés de document personnalisées du document en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/document/customdocumentproperties/
@@ -14,7 +16,7 @@ Renvoie une collection qui représente toutes les propriétés de document perso
 public CustomDocumentProperties CustomDocumentProperties { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés de document intégrées.
 
@@ -49,7 +51,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 
 * class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

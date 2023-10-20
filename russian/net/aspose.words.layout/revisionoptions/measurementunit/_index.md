@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.MeasurementUnit
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionOptions свойство. Позволяет указать единицы измерения для комментариев к редакции. Значение по умолчаниюCentimeters
+linktitle: MeasurementUnit
+articleTitle: MeasurementUnit
+second_title: Aspose.Words для .NET
+description: RevisionOptions MeasurementUnit свойство. Позволяет указать единицы измерения для комментариев к редакции. Значение по умолчаниюCentimeters на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.layout/revisionoptions/measurementunit/
@@ -18,7 +20,5 @@ public MeasurementUnits MeasurementUnit { get; set; }
 
 * enum [MeasurementUnits](../../../aspose.words/measurementunits/)
 * class [RevisionOptions](../)
-* пространство имен [Aspose.Words.Layout](../../revisionoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

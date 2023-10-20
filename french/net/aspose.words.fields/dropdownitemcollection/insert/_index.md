@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Insert
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DropDownItemCollection méthode. Insère une chaîne dans la collection à lindex spécifié.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words pour .NET
+description: DropDownItemCollection Insert méthode. Insère une chaîne dans la collection à lindex spécifié en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.fields/dropdownitemcollection/insert/
@@ -19,7 +21,7 @@ public void Insert(int index, string value)
 | index | Int32 | Index de base zéro auquel la valeur est insérée. |
 | value | String | La chaîne à insérer. |
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ de zone de liste déroulante et modifier les éléments de sa collection d'éléments.
 
@@ -73,7 +75,5 @@ dropDownItems.Clear();
 ### Voir également
 
 * class [DropDownItemCollection](../)
-* espace de noms [Aspose.Words.Fields](../../dropdownitemcollection/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

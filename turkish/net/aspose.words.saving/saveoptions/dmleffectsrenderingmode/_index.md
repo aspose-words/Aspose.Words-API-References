@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.DmlEffectsRenderingMode
-second_title: Aspose.Words for .NET API Referansı
-description: SaveOptions mülk. DrawingML efektlerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar.
+linktitle: DmlEffectsRenderingMode
+articleTitle: DmlEffectsRenderingMode
+second_title: Aspose.Words for .NET
+description: SaveOptions DmlEffectsRenderingMode mülk. DrawingML efektlerinin nasıl oluşturulacağını belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/
@@ -14,13 +16,13 @@ DrawingML efektlerinin nasıl oluşturulacağını belirleyen bir değer alır v
 public virtual DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Simplified .
 
 Bu özellik, belge sabit sayfa formatlarına aktarıldığında kullanılır.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi PDF'ye kaydederken, DrawingML efektlerinin görüntü oluşturma kalitesinin nasıl yapılandırılacağını gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * enum [DmlEffectsRenderingMode](../../dmleffectsrenderingmode/)
 * class [SaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../saveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

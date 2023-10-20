@@ -1,7 +1,9 @@
 ---
 title: ListLevel.Font
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListLevel propriété. Spécifie le formatage des caractères utilisé pour létiquette de la liste.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words pour .NET
+description: ListLevel Font propriété. Spécifie le formatage des caractères utilisé pour létiquette de la liste en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.lists/listlevel/font/
@@ -14,7 +16,7 @@ Spécifie le formatage des caractères utilisé pour l'étiquette de la liste.
 public Font Font { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ListLevel](../)
-* espace de noms [Aspose.Words.Lists](../../listlevel/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

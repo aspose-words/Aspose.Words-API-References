@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent1
-second_title: Aspose.Words لمراجع .NET API
-description: ThemeColors ملكية. يحدد اللون المميز 1.
+linktitle: Accent1
+articleTitle: Accent1
+second_title: Aspose.Words لـ .NET
+description: ThemeColors Accent1 ملكية. يحدد اللون المميز 1 في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.themes/themecolors/accent1/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.themes/themecolors/accent1/
 public Color Accent1 { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### أنظر أيضا
 
 * class [ThemeColors](../)
-* مساحة الاسم [Aspose.Words.Themes](../../themecolors/)
+* مساحة الاسم [Aspose.Words.Themes](../../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../../)
-
-

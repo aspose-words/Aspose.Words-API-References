@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.DataChecksum
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlPart proprietà. Specifica un checksum del controllo di ridondanza ciclico CRC diData contenuto.
+linktitle: DataChecksum
+articleTitle: DataChecksum
+second_title: Aspose.Words per .NET
+description: CustomXmlPart DataChecksum proprietà. Specifica un checksum del controllo di ridondanza ciclico CRC diData contenuto in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.markup/customxmlpart/datachecksum/
@@ -14,7 +16,7 @@ Specifica un checksum del controllo di ridondanza ciclico (CRC) di[`Data`](../da
 public long DataChecksum { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come viene calcolato il checksum in un runtime.
 
@@ -44,7 +46,5 @@ Assert.AreNotEqual(checksum, updatedChecksum);
 ### Guarda anche
 
 * class [CustomXmlPart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlpart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

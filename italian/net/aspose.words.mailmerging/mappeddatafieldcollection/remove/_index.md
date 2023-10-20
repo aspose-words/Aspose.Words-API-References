@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Remove
-second_title: Aspose.Words per .NET API Reference
-description: MappedDataFieldCollection metodo. Rimuove una mappatura di campo.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words per .NET
+description: MappedDataFieldCollection Remove metodo. Rimuove una mappatura di campo in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.mailmerging/mappeddatafieldcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string documentFieldName)
 | --- | --- | --- |
 | documentFieldName | String | Nome del campo di stampa unione nel documento, con distinzione tra maiuscole e minuscole. |
 
-### Esempi
+## Esempi
 
 Mostra come mappare colonne di dati e MERGEFIELD con nomi diversi in modo che i dati vengano trasferiti tra loro durante una stampa unione.
 
@@ -103,7 +105,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Guarda anche
 
 * class [MappedDataFieldCollection](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

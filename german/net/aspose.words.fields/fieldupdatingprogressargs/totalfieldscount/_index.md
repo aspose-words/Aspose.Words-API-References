@@ -1,7 +1,9 @@
 ---
 title: FieldUpdatingProgressArgs.TotalFieldsCount
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldUpdatingProgressArgs eigendom. Ruft die Gesamtzahl der zu aktualisierenden Felder ab.
+linktitle: TotalFieldsCount
+articleTitle: TotalFieldsCount
+second_title: Aspose.Words für .NET
+description: FieldUpdatingProgressArgs TotalFieldsCount eigendom. Ruft die Gesamtzahl der zu aktualisierenden Felder ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldupdatingprogressargs/totalfieldscount/
@@ -14,11 +16,11 @@ Ruft die Gesamtzahl der zu aktualisierenden Felder ab.
 public int TotalFieldsCount { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Wert ist nicht konstant und kann während des Aktualisierungsprozesses erhöht werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Callback-Methoden während einer Feldaktualisierung verwendet werden.
 
@@ -86,7 +88,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 ### Siehe auch
 
 * class [FieldUpdatingProgressArgs](../)
-* namensraum [Aspose.Words.Fields](../../fieldupdatingprogressargs/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

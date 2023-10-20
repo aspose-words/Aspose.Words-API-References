@@ -1,7 +1,9 @@
 ---
 title: Metered.SetMeteredKey
-second_title: Aspose.Words for .NET API Referansı
-description: Metered yöntem. Ölçülü genel ve özel anahtarı ayarlar. Ölçülü lisans satın aldıysanız uygulamayı başlattığınızda bu APInin çağrılması gerekir normalde bu yeterlidir. Bununla birlikte tüketim verilerinin yüklenmesinde her zaman başarısız olunması ve 24 saatin aşılması durumunda lisans değerlendirme durumuna ayarlanacaktır böyle bir durumu önlemek için lisans durumunu düzenli olarak kontrol etmelisiniz değerlendirme durumu ise bu APIyi tekrar çağırın.
+linktitle: SetMeteredKey
+articleTitle: SetMeteredKey
+second_title: Aspose.Words for .NET
+description: Metered SetMeteredKey yöntem. Ölçülü genel ve özel anahtarı ayarlar. Ölçülü lisans satın aldıysanız uygulamayı başlattığınızda bu APInin çağrılması gerekir normalde bu yeterlidir. Bununla birlikte tüketim verilerinin yüklenmesinde her zaman başarısız olunması ve 24 saatin aşılması durumunda lisans değerlendirme durumuna ayarlanacaktır böyle bir durumu önlemek için lisans durumunu düzenli olarak kontrol etmelisiniz değerlendirme durumu ise bu APIyi tekrar çağırın C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/metered/setmeteredkey/
@@ -19,7 +21,7 @@ public void SetMeteredKey(string publicKey, string privateKey)
 | publicKey | String | Genel anahtar |
 | privateKey | String | Özel anahtar |
 
-### Örnekler
+## Örnekler
 
 Ölçülü lisansın nasıl etkinleştirileceğini ve kredinin/tüketimin nasıl izleneceğini gösterir.
 
@@ -46,7 +48,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### Ayrıca bakınız
 
 * class [Metered](../)
-* ad alanı [Aspose.Words](../../metered/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

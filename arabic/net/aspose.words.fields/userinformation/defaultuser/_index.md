@@ -1,7 +1,9 @@
 ---
 title: UserInformation.DefaultUser
-second_title: Aspose.Words لمراجع .NET API
-description: UserInformation ملكية. معلومات المستخدم الافتراضية.
+linktitle: DefaultUser
+articleTitle: DefaultUser
+second_title: Aspose.Words لـ .NET
+description: UserInformation DefaultUser ملكية. معلومات المستخدم الافتراضية في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/userinformation/defaultuser/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/userinformation/defaultuser/
 public static UserInformation DefaultUser { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 استخدم[`CurrentUser`](../../fieldoptions/currentuser/) خاصية لتحديد معلومات المستخدم لمستند واحد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين تفاصيل المستخدم وعرضها باستخدام الحقول.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### أنظر أيضا
 
 * class [UserInformation](../)
-* مساحة الاسم [Aspose.Words.Fields](../../userinformation/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListLevel
-second_title: Aspose.Words för .NET API Referens
-description: ListFormat fast egendom. Returnerar formateringen på listnivå plus eventuella formateringsöverskridanden som tillämpas på det aktuella stycket.
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: Aspose.Words för .NET
+description: ListFormat ListLevel fast egendom. Returnerar formateringen på listnivå plus eventuella formateringsöverskridanden som tillämpas på det aktuella stycket i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.lists/listformat/listlevel/
@@ -14,7 +16,7 @@ Returnerar formateringen på listnivå plus eventuella formateringsöverskridand
 public ListLevel ListLevel { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListFormat](../)
-* namnutrymme [Aspose.Words.Lists](../../listformat/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreInserted
-second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Ekleme düzeltmeleri içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ .
+linktitle: IgnoreInserted
+articleTitle: IgnoreInserted
+second_title: Aspose.Words for .NET
+description: FindReplaceOptions IgnoreInserted mülk. Ekleme düzeltmeleri içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/
@@ -14,7 +16,7 @@ Ekleme düzeltmeleri içindeki metnin yoksayılacağını belirten bir boole de�
 public bool IgnoreInserted { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bul ve değiştir işlemi sırasında ekleme düzeltmelerinin içine metnin nasıl dahil edileceğini veya yok sayılacağını gösterir.
 
@@ -51,7 +53,5 @@ Assert.AreEqual(
 ### Ayrıca bakınız
 
 * class [FindReplaceOptions](../)
-* ad alanı [Aspose.Words.Replacing](../../findreplaceoptions/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

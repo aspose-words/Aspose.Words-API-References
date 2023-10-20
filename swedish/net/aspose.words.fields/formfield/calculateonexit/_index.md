@@ -1,7 +1,9 @@
 ---
 title: FormField.CalculateOnExit
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Sant om referenser till det angivna formulärfältet uppdateras automatiskt när fältet avslutas.
+linktitle: CalculateOnExit
+articleTitle: CalculateOnExit
+second_title: Aspose.Words för .NET
+description: FormField CalculateOnExit fast egendom. Sant om referenser till det angivna formulärfältet uppdateras automatiskt när fältet avslutas i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/formfield/calculateonexit/
@@ -14,11 +16,11 @@ Sant om referenser till det angivna formulärfältet uppdateras automatiskt när
 public bool CalculateOnExit { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Miljö`CalculateOnExit` påverkar bara beteendet för formulärfältet när dokumentet öppnas i Microsoft Word. Aspose.Words uppdaterar aldrig referenser till formulärfältet.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

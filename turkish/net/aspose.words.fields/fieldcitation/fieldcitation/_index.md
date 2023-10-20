@@ -1,7 +1,9 @@
 ---
-title: FieldCitation.FieldCitation
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCitation inşaatçı. Default_Constructor
+title: FieldCitation
+linktitle: FieldCitation
+articleTitle: FieldCitation
+second_title: Aspose.Words for .NET
+description: FieldCitation inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldcitation/fieldcitation/
@@ -17,7 +19,5 @@ public FieldCitation()
 ### Ayrıca bakınız
 
 * class [FieldCitation](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcitation/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

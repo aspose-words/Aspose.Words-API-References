@@ -1,7 +1,9 @@
 ---
-title: Class FontSettings
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.FontSettings 班级. 指定文档的字体设置
+title: FontSettings Class
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fonts.FontSettings 班级. 指定文档的字体设置 在 C#.
 type: docs
 weight: 2970
 url: /zh/net/aspose.words.fonts/fontsettings/
@@ -36,13 +38,13 @@ public class FontSettings
 | --- | --- |
 | [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources/)() | 获取包含 Aspose.Words 查找 TrueType 字体的源列表的数组的副本。 |
 | [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources/)() | 将字体源重置为系统默认值。 |
-| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(Stream) | 将字体搜索缓存保存到流中。 |
-| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder/)(string, bool) | 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的文件夹。 这是指向的快捷方式[`SetFontsFolders`](./setfontsfolders/)仅设置一种字体目录。 |
-| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders/)(string[], bool) | 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的文件夹。 |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources)(FontSourceBase[]) | 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的源。 |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(FontSourceBase[], Stream) | 设置 Aspose.Words 查找 TrueType 字体的来源，并另外加载之前保存的 字体搜索缓存。 |
+| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(*Stream*) | 将字体搜索缓存保存到流中。 |
+| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder/)(*string, bool*) | 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的文件夹。 这是指向的快捷方式[`SetFontsFolders`](./setfontsfolders/)仅设置一种字体目录。 |
+| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders/)(*string[], bool*) | 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的文件夹。 |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources)(*FontSourceBase[]*) | 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的源。 |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(*FontSourceBase[], Stream*) | 设置 Aspose.Words 查找 TrueType 字体的来源，并另外加载之前保存的 字体搜索缓存。 |
 
-### 评论
+## 评论
 
 Aspose.Words 使用字体设置来解析文档中的字体。字体主要在构建文档布局 或渲染为固定页面格式时解析。但在加载某些格式时，Aspose.Words 也可能需要解析字体。例如，当 加载HTML文档时，Aspose.Words可能会解析字体以执行字体回退。所以建议您在 中设置字体设置[`LoadOptions`](../../aspose.words.loading/loadoptions/)加载文档时。或者至少在构建布局或将文档渲染为固定页面格式之前。
 
@@ -50,7 +52,7 @@ Aspose.Words 使用字体设置来解析文档中的字体。字体主要在构�
 
 随时从任何线程更改字体设置都是安全的。但建议您在 处理某些使用此设置的文档时不要更改字体设置。这可能导致相同的字体在文档的不同部分会有不同的解析 。
 
-### 例子
+## 例子
 
 展示如何将字体源添加到我们现有的字体源。
 
@@ -209,5 +211,3 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 * 命名空间 [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../)
-
-

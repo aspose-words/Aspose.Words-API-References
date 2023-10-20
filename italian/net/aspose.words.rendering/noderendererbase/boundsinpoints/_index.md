@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.BoundsInPoints
-second_title: Aspose.Words per .NET API Reference
-description: NodeRendererBase proprietà. Ottiene i limiti effettivi della forma in punti.
+linktitle: BoundsInPoints
+articleTitle: BoundsInPoints
+second_title: Aspose.Words per .NET
+description: NodeRendererBase BoundsInPoints proprietà. Ottiene i limiti effettivi della forma in punti in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.rendering/noderendererbase/boundsinpoints/
@@ -14,11 +16,11 @@ Ottiene i limiti effettivi della forma in punti.
 public RectangleF BoundsInPoints { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà restituisce il riquadro di delimitazione effettivo (come visualizzato nella pagina) della forma. I limiti tengono conto della rotazione della forma (se presente).
 
-### Esempi
+## Esempi
 
 Mostra come misurare e ridimensionare le forme.
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Guarda anche
 
 * class [NodeRendererBase](../)
-* spazio dei nomi [Aspose.Words.Rendering](../../noderendererbase/)
+* spazio dei nomi [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assemblea [Aspose.Words](../../../)
-
-

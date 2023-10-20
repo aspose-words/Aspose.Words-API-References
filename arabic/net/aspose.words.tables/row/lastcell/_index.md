@@ -1,7 +1,9 @@
 ---
 title: Row.LastCell
-second_title: Aspose.Words لمراجع .NET API
-description: Row ملكية. إرجاع الأخيرCell في الصف.
+linktitle: LastCell
+articleTitle: LastCell
+second_title: Aspose.Words لـ .NET
+description: Row LastCell ملكية. إرجاع الأخيرCell في الصف في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.tables/row/lastcell/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/row/lastcell/
 public Cell LastCell { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل جدول في المستند.
 
@@ -178,7 +180,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Cell](../../cell/)
 * class [Row](../)
-* مساحة الاسم [Aspose.Words.Tables](../../row/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

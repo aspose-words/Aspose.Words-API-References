@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartTable
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Startar en tabell i dokumentet.
+linktitle: StartTable
+articleTitle: StartTable
+second_title: Aspose.Words för .NET
+description: DocumentBuilder StartTable metod. Startar en tabell i dokumentet i C#.
 type: docs
-weight: 650
+weight: 640
 url: /sv/net/aspose.words/documentbuilder/starttable/
 ---
 ## DocumentBuilder.StartTable method
@@ -18,13 +20,13 @@ public Table StartTable()
 
 Tabellnoden som just skapades.
 
-### Anmärkningar
+## Anmärkningar
 
 Nästa metod att ringa är[`InsertCell`](../insertcell/).
 
 Denna metod startar en kapslad tabell när den anropas inuti en cell.
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar celler med en dokumentbyggare.
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

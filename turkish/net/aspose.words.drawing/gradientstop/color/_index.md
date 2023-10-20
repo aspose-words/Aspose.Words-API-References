@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Color
-second_title: Aspose.Words for .NET API Referansı
-description: GradientStop mülk. Degrade durağının rengini temsil eden bir değer alır veya ayarlar.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words for .NET
+description: GradientStop Color mülk. Degrade durağının rengini temsil eden bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing/gradientstop/color/
@@ -14,7 +16,7 @@ Degrade durağının rengini temsil eden bir değer alır veya ayarlar.
 public Color Color { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Degrade dolgusuna degrade duraklarının nasıl ekleneceğini gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Ayrıca bakınız
 
 * class [GradientStop](../)
-* ad alanı [Aspose.Words.Drawing](../../gradientstop/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.IssuerName
-second_title: Aspose.Words per .NET API Reference
-description: DigitalSignature proprietà. Restituisce il nome distinto del soggetto del certificato emesso.
+linktitle: IssuerName
+articleTitle: IssuerName
+second_title: Aspose.Words per .NET
+description: DigitalSignature IssuerName proprietà. Restituisce il nome distinto del soggetto del certificato emesso in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.digitalsignatures/digitalsignature/issuername/
@@ -14,7 +16,7 @@ Restituisce il nome distinto del soggetto del certificato emesso.
 public string IssuerName { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come firmare documenti con certificati X.509.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### Guarda anche
 
 * class [DigitalSignature](../)
-* spazio dei nomi [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* spazio dei nomi [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Range.FormFields
-second_title: Aspose.Words för .NET API Referens
-description: Range fast egendom. Returnerar enFormFields samling som representerar alla formulärfält i intervallet.
+linktitle: FormFields
+articleTitle: FormFields
+second_title: Aspose.Words för .NET
+description: Range FormFields fast egendom. Returnerar enFormFields samling som representerar alla formulärfält i intervallet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/range/formfields/
@@ -14,7 +16,7 @@ Returnerar en`FormFields` samling som representerar alla formulärfält i interv
 public FormFieldCollection FormFields { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormFieldCollection](../../../aspose.words.fields/formfieldcollection/)
 * class [Range](../)
-* namnutrymme [Aspose.Words](../../range/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

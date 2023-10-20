@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LinksUpToDate
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Указывает актуальны ли гиперссылки в документе.
+linktitle: LinksUpToDate
+articleTitle: LinksUpToDate
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties LinksUpToDate свойство. Указывает актуальны ли гиперссылки в документе на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.properties/builtindocumentproperties/linksuptodate/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/linksuptodate/
 public bool LinksUpToDate { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Aspose.Words не обновляет это свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами документа в категории «Содержимое».
 
@@ -128,7 +130,5 @@ private class LineCounter
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfDocument
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Sant om detta stycke är det sista stycket i den sista delen av dokumentet.
+linktitle: IsEndOfDocument
+articleTitle: IsEndOfDocument
+second_title: Aspose.Words för .NET
+description: Paragraph IsEndOfDocument fast egendom. Sant om detta stycke är det sista stycket i den sista delen av dokumentet i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/paragraph/isendofdocument/
@@ -14,7 +16,7 @@ Sant om detta stycke är det sista stycket i den sista delen av dokumentet.
 public bool IsEndOfDocument { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett stycke i dokumentet.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Se även
 
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

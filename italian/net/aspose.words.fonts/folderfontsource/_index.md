@@ -1,7 +1,9 @@
 ---
-title: Class FolderFontSource
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.FolderFontSource classe. Rappresenta la cartella che contiene i file dei caratteri TrueType.
+title: FolderFontSource Class
+linktitle: FolderFontSource
+articleTitle: FolderFontSource
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fonts.FolderFontSource classe. Rappresenta la cartella che contiene i file dei caratteri TrueType in C#.
 type: docs
 weight: 2880
 url: /it/net/aspose.words.fonts/folderfontsource/
@@ -20,8 +22,8 @@ public class FolderFontSource : FontSourceBase
 
 | Nome | Descrizione |
 | --- | --- |
-| [FolderFontSource](folderfontsource/#constructor)(string, bool) | Ctor. |
-| [FolderFontSource](folderfontsource/#constructor_1)(string, bool, int) | Ctor. |
+| [FolderFontSource](folderfontsource/#constructor)(*string, bool*) | Ctor. |
+| [FolderFontSource](folderfontsource/#constructor_1)(*string, bool, int*) | Ctor. |
 
 ## Proprietà
 
@@ -39,7 +41,7 @@ public class FolderFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Restituisce l'elenco dei caratteri disponibili tramite questa origine. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare una cartella di sistema locale che contiene i caratteri come origine dei caratteri.
 
@@ -62,5 +64,3 @@ Assert.AreEqual(1, folderFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../)
-
-

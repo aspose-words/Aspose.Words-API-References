@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.UserPromptRespondent
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или задает респондента на запросы пользователя во время обновления поля.
+linktitle: UserPromptRespondent
+articleTitle: UserPromptRespondent
+second_title: Aspose.Words для .NET
+description: FieldOptions UserPromptRespondent свойство. Получает или задает респондента на запросы пользователя во время обновления поля на С#.
 type: docs
 weight: 220
 url: /ru/net/aspose.words.fields/fieldoptions/userpromptrespondent/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.fields/fieldoptions/userpromptrespondent/
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если значение этого свойства установлено равным`нулевой` , поля, которые требуют ответа пользователя на Promting (например,[`FieldAsk`](../../fieldask/) или[`FieldFillIn`](../../fieldfillin/)) не обновляются.
 
 Значение по умолчанию:`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле ASK и настроить его свойства.
 
@@ -83,7 +85,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 
 * interface [IFieldUserPromptRespondent](../../ifielduserpromptrespondent/)
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

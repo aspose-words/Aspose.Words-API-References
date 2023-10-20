@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: NodeCollection eigendom. Ruft die Anzahl der Knoten in der Sammlung ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: NodeCollection Count eigendom. Ruft die Anzahl der Knoten in der Sammlung ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/nodecollection/count/
@@ -14,7 +16,7 @@ Ruft die Anzahl der Knoten in der Sammlung ab.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Sammlung untergeordneter Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -132,7 +134,5 @@ private static int GetChildTableCount(Table table)
 ### Siehe auch
 
 * class [NodeCollection](../)
-* namensraum [Aspose.Words](../../nodecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

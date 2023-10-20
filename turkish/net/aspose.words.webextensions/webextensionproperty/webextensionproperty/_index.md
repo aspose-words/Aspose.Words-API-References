@@ -1,7 +1,9 @@
 ---
-title: WebExtensionProperty.WebExtensionProperty
-second_title: Aspose.Words for .NET API Referansı
-description: WebExtensionProperty inşaatçı. Belirtilen ad ve değerle web uzantısı özel özelliği oluşturur.
+title: WebExtensionProperty
+linktitle: WebExtensionProperty
+articleTitle: WebExtensionProperty
+second_title: Aspose.Words for .NET
+description: WebExtensionProperty inşaatçı. Belirtilen ad ve değerle web uzantısı özel özelliği oluşturur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.webextensions/webextensionproperty/webextensionproperty/
@@ -19,7 +21,7 @@ public WebExtensionProperty(string name, string value)
 | name | String | Mülkiyet adı. |
 | value | String | Mülk değeri. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ayrıca bakınız
 
 * class [WebExtensionProperty](../)
-* ad alanı [Aspose.Words.WebExtensions](../../webextensionproperty/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldGoToButton.FieldGoToButton
-second_title: Aspose.Words for .NET API Referansı
-description: FieldGoToButton inşaatçı. Default_Constructor
+title: FieldGoToButton
+linktitle: FieldGoToButton
+articleTitle: FieldGoToButton
+second_title: Aspose.Words for .NET
+description: FieldGoToButton inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldgotobutton/fieldgotobutton/
@@ -17,7 +19,5 @@ public FieldGoToButton()
 ### Ayrıca bakınız
 
 * class [FieldGoToButton](../)
-* ad alanı [Aspose.Words.Fields](../../fieldgotobutton/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

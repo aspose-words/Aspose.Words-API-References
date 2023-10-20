@@ -1,7 +1,9 @@
 ---
 title: PdfEncryptionDetails.Permissions
-second_title: Aspose.Words per .NET API Reference
-description: PdfEncryptionDetails proprietà. Specifica le operazioni consentite a un utente su un documento PDF crittografato. Il valore predefinito èDisallowAll .
+linktitle: Permissions
+articleTitle: Permissions
+second_title: Aspose.Words per .NET
+description: PdfEncryptionDetails Permissions proprietà. Specifica le operazioni consentite a un utente su un documento PDF crittografato. Il valore predefinito èDisallowAll  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/pdfencryptiondetails/permissions/
@@ -14,7 +16,7 @@ Specifica le operazioni consentite a un utente su un documento PDF crittografato
 public PdfPermissions Permissions { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare le autorizzazioni su un documento PDF salvato.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * enum [PdfPermissions](../../pdfpermissions/)
 * class [PdfEncryptionDetails](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

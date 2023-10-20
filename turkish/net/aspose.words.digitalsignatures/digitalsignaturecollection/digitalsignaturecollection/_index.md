@@ -1,7 +1,9 @@
 ---
-title: DigitalSignatureCollection.DigitalSignatureCollection
-second_title: Aspose.Words for .NET API Referansı
-description: DigitalSignatureCollection inşaatçı. Default_Constructor
+title: DigitalSignatureCollection
+linktitle: DigitalSignatureCollection
+articleTitle: DigitalSignatureCollection
+second_title: Aspose.Words for .NET
+description: DigitalSignatureCollection inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.digitalsignatures/digitalsignaturecollection/digitalsignaturecollection/
@@ -17,7 +19,5 @@ public DigitalSignatureCollection()
 ### Ayrıca bakınız
 
 * class [DigitalSignatureCollection](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

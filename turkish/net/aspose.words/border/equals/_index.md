@@ -1,12 +1,14 @@
 ---
 title: Border.Equals
-second_title: Aspose.Words for .NET API Referansı
-description: Border yöntem. Belirtilen kenarlığın değer olarak geçerli kenarlığa eşit olup olmadığını belirler.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words for .NET
+description: Border Equals yöntem. Belirtilen kenarlığın değer olarak geçerli kenarlığa eşit olup olmadığını belirler C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/border/equals/
 ---
-## Equals(Border) {#equals}
+## Equals(*[Border](../)*) {#equals}
 
 Belirtilen kenarlığın değer olarak geçerli kenarlığa eşit olup olmadığını belirler.
 
@@ -14,7 +16,7 @@ Belirtilen kenarlığın değer olarak geçerli kenarlığa eşit olup olmadığ
 public bool Equals(Border rhs)
 ```
 
-### Örnekler
+## Örnekler
 
 Kenarlık koleksiyonlarının öğeleri nasıl paylaşabildiğini gösterir.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Ayrıca bakınız
 
 * class [Border](../)
-* ad alanı [Aspose.Words](../../border/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler.
 
@@ -69,7 +71,7 @@ Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını bel
 public override bool Equals(object obj)
 ```
 
-### Örnekler
+## Örnekler
 
 Kenarlık koleksiyonlarının öğeleri nasıl paylaşabildiğini gösterir.
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Ayrıca bakınız
 
 * class [Border](../)
-* ad alanı [Aspose.Words](../../border/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IFieldResultFormatter.FormatNumeric
-second_title: Aspose.Words لمراجع .NET API
-description: IFieldResultFormatter طريقة. يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق مفتاح تنسيق رقمي على سبيل المثال  ..
+linktitle: FormatNumeric
+articleTitle: FormatNumeric
+second_title: Aspose.Words لـ .NET
+description: IFieldResultFormatter FormatNumeric طريقة. يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق مفتاح تنسيق رقمي على سبيل المثال   في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/ifieldresultformatter/formatnumeric/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/ifieldresultformatter/formatnumeric/
 public string FormatNumeric(double value, string format)
 ```
 
-### ملاحظات
+## ملاحظات
 
 يجب أن يعود التنفيذ`باطل` للإشارة إلى ضرورة تطبيق التنسيق الافتراضي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول عندما يتم تحديث الحقول.
 
@@ -155,7 +157,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 ### أنظر أيضا
 
 * interface [IFieldResultFormatter](../)
-* مساحة الاسم [Aspose.Words.Fields](../../ifieldresultformatter/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

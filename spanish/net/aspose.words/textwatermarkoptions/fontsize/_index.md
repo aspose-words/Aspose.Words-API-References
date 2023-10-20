@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.FontSize
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextWatermarkOptions propiedad. Obtiene o establece un tamaño de fuente. El valor predeterminado es 0  auto.
+linktitle: FontSize
+articleTitle: FontSize
+second_title: Aspose.Words para .NET
+description: TextWatermarkOptions FontSize propiedad. Obtiene o establece un tamaño de fuente. El valor predeterminado es 0  auto en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/textwatermarkoptions/fontsize/
@@ -20,13 +22,13 @@ public float FontSize { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Se lanza cuando el argumento estaba fuera del rango de valores válidos. |
 
-### Observaciones
+## Observaciones
 
 Los valores válidos oscilan entre 0 y 65,5 inclusive.
 
 El tamaño de fuente automático significa que la marca de agua se escalará a su ancho y alto máximos en relación con los márgenes de la página.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una marca de agua de texto.
 
@@ -57,7 +59,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Ver también
 
 * class [TextWatermarkOptions](../)
-* espacio de nombres [Aspose.Words](../../textwatermarkoptions/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

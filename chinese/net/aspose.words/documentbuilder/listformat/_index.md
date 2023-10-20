@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.ListFormat
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 财产. 返回一个表示当前列表格式属性的对象
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder ListFormat 财产. 返回一个表示当前列表格式属性的对象 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words/documentbuilder/listformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbuilder/listformat/
 public ListFormat ListFormat { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建项目符号列表和编号列表。
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

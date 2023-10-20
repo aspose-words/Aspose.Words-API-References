@@ -1,7 +1,9 @@
 ---
 title: ChartFormat.Fill
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartFormat свойство. Получает форматирование заливки для родительского элемента диаграммы.
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words для .NET
+description: ChartFormat Fill свойство. Получает форматирование заливки для родительского элемента диаграммы на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartformat/fill/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartformat/fill/
 public Fill Fill { get; }
 ```
 
-### Примеры
+## Примеры
 
 Покажите, как установить форматирование маркера.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [Fill](../../../aspose.words.drawing/fill/)
 * class [ChartFormat](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartformat/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

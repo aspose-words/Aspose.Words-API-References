@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.ProgressCallback
-second_title: Aspose.Words per .NET API Reference
-description: SaveOptions proprietà. Chiamato durante il salvataggio di un documento e accetta i dati sullavanzamento del salvataggio.
+linktitle: ProgressCallback
+articleTitle: ProgressCallback
+second_title: Aspose.Words per .NET
+description: SaveOptions ProgressCallback proprietà. Chiamato durante il salvataggio di un documento e accetta i dati sullavanzamento del salvataggio in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.saving/saveoptions/progresscallback/
@@ -14,11 +16,11 @@ Chiamato durante il salvataggio di un documento e accetta i dati sull'avanzament
 public IDocumentSavingCallback ProgressCallback { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'avanzamento viene segnalato durante il salvataggio inDocx ,FlatOpc , Docm ,Dotm ,Dotx , Doc ,Dot , Html ,Mhtml ,Epub , XamlFlow , OXamlFlowPack .
 
-### Esempi
+## Esempi
 
 Mostra come gestire un documento durante il salvataggio in html.
 
@@ -189,7 +191,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * interface [IDocumentSavingCallback](../../idocumentsavingcallback/)
 * class [SaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../saveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

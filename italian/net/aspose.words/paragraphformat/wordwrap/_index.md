@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.WordWrap
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Se questa proprietà lo èfalso  il testo latino nel mezzo di una parola può essere mandato a capo per il paragrafo corrente. Altrimenti il testo latino viene avvolto da parole intere.
+linktitle: WordWrap
+articleTitle: WordWrap
+second_title: Aspose.Words per .NET
+description: ParagraphFormat WordWrap proprietà. Se questa proprietà lo èfalso  il testo latino nel mezzo di una parola può essere mandato a capo per il paragrafo corrente. Altrimenti il testo latino viene avvolto da parole intere in C#.
 type: docs
 weight: 410
 url: /it/net/aspose.words/paragraphformat/wordwrap/
@@ -14,7 +16,7 @@ Se questa proprietà lo è`falso` , il testo latino nel mezzo di una parola può
 public bool WordWrap { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare proprietà speciali per la tipografia asiatica.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

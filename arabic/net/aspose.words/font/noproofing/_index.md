@@ -1,7 +1,9 @@
 ---
 title: Font.NoProofing
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. صحيح عندما لا يتم التدقيق الإملائي على الأحرف المنسقة.
+linktitle: NoProofing
+articleTitle: NoProofing
+second_title: Aspose.Words لـ .NET
+description: Font NoProofing ملكية. صحيح عندما لا يتم التدقيق الإملائي على الأحرف المنسقة في C#.
 type: docs
 weight: 280
 url: /ar/net/aspose.words/font/noproofing/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/noproofing/
 public bool NoProofing { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية منع النص من التدقيق الإملائي بواسطة Microsoft Word.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.NoProofing.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.AutomaticallyUpdateStyles
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Obtiene o establece una marca que indica si los estilos del documento se actualizan para coincidir con los estilos de la plantilla adjunta cada vez que se abre el documento en MS Word.
+linktitle: AutomaticallyUpdateStyles
+articleTitle: AutomaticallyUpdateStyles
+second_title: Aspose.Words para .NET
+description: Document AutomaticallyUpdateStyles propiedad. Obtiene o establece una marca que indica si los estilos del documento se actualizan para coincidir con los estilos de la plantilla adjunta cada vez que se abre el documento en MS Word en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/document/automaticallyupdatestyles/
@@ -14,7 +16,7 @@ Obtiene o establece una marca que indica si los estilos del documento se actuali
 public bool AutomaticallyUpdateStyles { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo adjuntar una plantilla a un documento.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

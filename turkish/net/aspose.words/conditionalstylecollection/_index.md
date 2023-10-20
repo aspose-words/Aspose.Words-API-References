@@ -1,7 +1,9 @@
 ---
-title: Class ConditionalStyleCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.ConditionalStyleCollection sınıf. Aşağıdakilerin bir koleksiyonunu temsil ederConditionalStyle nesneler.
+title: ConditionalStyleCollection Class
+linktitle: ConditionalStyleCollection
+articleTitle: ConditionalStyleCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.ConditionalStyleCollection sınıf. Aşağıdakilerin bir koleksiyonunu temsil ederConditionalStyle nesneler C#'da.
 type: docs
 weight: 320
 url: /tr/net/aspose.words/conditionalstylecollection/
@@ -42,11 +44,11 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 | [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | Tablo stilinin tüm koşullu stillerini temizler. |
 | [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | Koleksiyondaki tüm koşullu stilleri yinelemek için kullanılabilecek bir numaralandırıcı nesnesi döndürür. |
 
-### Notlar
+## Notlar
 
 Bu koleksiyona öğe eklemek veya koleksiyondan öğe çıkarmak mümkün değildir. Kalıcı öğe kümesi içerir: her değer için için bir öğe[`ConditionalStyleType`](../conditionalstyletype/) numaralandırma türü.
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -118,5 +120,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 * class [ConditionalStyle](../conditionalstyle/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

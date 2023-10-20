@@ -1,7 +1,9 @@
 ---
-title: Class FieldOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldOptions sınıf. Bir belgedeki alan işlemeyi denetleme seçeneklerini temsil eder.
+title: FieldOptions Class
+linktitle: FieldOptions
+articleTitle: FieldOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldOptions sınıf. Bir belgedeki alan işlemeyi denetleme seçeneklerini temsil eder C#'da.
 type: docs
 weight: 2250
 url: /tr/net/aspose.words.fields/fieldoptions/
@@ -43,7 +45,7 @@ public sealed class FieldOptions
 | [UseInvariantCultureNumberFormat](../../aspose.words.fields/fieldoptions/useinvariantculturenumberformat/) { get; set; } | Sayı biçiminin değişmez kültür veya not kullanılarak ayrıştırıldığını belirten değeri alır veya ayarlar. |
 | [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent/) { get; set; } | Alan güncellemesi sırasında kullanıcı istemlerine yanıt vereni alır veya ayarlar. |
 
-### Örnekler
+## Örnekler
 
 Alan güncelleştirmesi veya adres-mektup birleştirme sırasında tarih biçimlendirmesi için kullanılan kültürün kaynağının nasıl belirtileceğini gösterir.
 
@@ -79,5 +81,3 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

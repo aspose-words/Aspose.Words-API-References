@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.StartNumber
-second_title: Aspose.Words لمراجع .NET API
-description: EndnoteOptions ملكية. يحدد رقم البداية أو الحرف للتعليقات الختامية الأولى المرقمة تلقائيًا.
+linktitle: StartNumber
+articleTitle: StartNumber
+second_title: Aspose.Words لـ .NET
+description: EndnoteOptions StartNumber ملكية. يحدد رقم البداية أو الحرف للتعليقات الختامية الأولى المرقمة تلقائيًا في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.notes/endnoteoptions/startnumber/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.notes/endnoteoptions/startnumber/
 public int StartNumber { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذه الخاصية لها تأثير فقط عندما[`RestartRule`](../restartrule/) تم ضبطه على Continuous.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين رقم يبدأ عنده المستند عدد الحواشي السفلية/التعليقات الختامية.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.StartNumber.docx");
 ### أنظر أيضا
 
 * class [EndnoteOptions](../)
-* مساحة الاسم [Aspose.Words.Notes](../../endnoteoptions/)
+* مساحة الاسم [Aspose.Words.Notes](../../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../../)
-
-

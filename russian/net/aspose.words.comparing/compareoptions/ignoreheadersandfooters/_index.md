@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreHeadersAndFooters
-second_title: Справочник по API Aspose.Words для .NET
-description: CompareOptions свойство. True указывает что содержимое верхних и нижних колонтитулов игнорируется. По умолчанию верхние и нижние колонтитулы не игнорируются.
+linktitle: IgnoreHeadersAndFooters
+articleTitle: IgnoreHeadersAndFooters
+second_title: Aspose.Words для .NET
+description: CompareOptions IgnoreHeadersAndFooters свойство. True указывает что содержимое верхних и нижних колонтитулов игнорируется. По умолчанию верхние и нижние колонтитулы не игнорируются на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/
@@ -14,7 +16,7 @@ True указывает, что содержимое верхних и нижн�
 public bool IgnoreHeadersAndFooters { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как фильтровать определенные типы элементов документа при сравнении.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Смотрите также
 
 * class [CompareOptions](../)
-* пространство имен [Aspose.Words.Comparing](../../compareoptions/)
+* пространство имен [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * сборка [Aspose.Words](../../../)
-
-

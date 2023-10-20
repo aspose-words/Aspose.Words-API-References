@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Clear
-second_title: Aspose.Words for .NET API 参考
-description: BookmarksOutlineLevelCollection 方法. 从集合中删除所有元素
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: BookmarksOutlineLevelCollection Clear 方法. 从集合中删除所有元素 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/bookmarksoutlinelevelcollection/clear/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/bookmarksoutlinelevelcollection/clear/
 public void Clear()
 ```
 
-### 例子
+## 例子
 
 演示如何设置书签的大纲级别。
 
@@ -72,7 +74,5 @@ outlineLevels.Clear();
 ### 也可以看看
 
 * class [BookmarksOutlineLevelCollection](../)
-* 命名空间 [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

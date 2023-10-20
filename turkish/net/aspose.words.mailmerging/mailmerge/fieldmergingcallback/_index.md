@@ -1,7 +1,9 @@
 ---
 title: MailMerge.FieldMergingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge mülk. Adresmektup birleştirme sırasında belgede adresmektup birleştirme alanıyla karşılaşıldığında oluşur.
+linktitle: FieldMergingCallback
+articleTitle: FieldMergingCallback
+second_title: Aspose.Words for .NET
+description: MailMerge FieldMergingCallback mülk. Adresmektup birleştirme sırasında belgede adresmektup birleştirme alanıyla karşılaşıldığında oluşur C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.mailmerging/mailmerge/fieldmergingcallback/
@@ -14,7 +16,7 @@ Adres-mektup birleştirme sırasında belgede adres-mektup birleştirme alanıyl
 public IFieldMergingCallback FieldMergingCallback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Veritabanı BLOB alanında saklanan görüntülerin bir rapora nasıl ekleneceğini gösterir.
 
@@ -127,7 +129,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * interface [IFieldMergingCallback](../../ifieldmergingcallback/)
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

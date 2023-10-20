@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: BorderCollection eigendom. Ruft die Anzahl der Rahmen in der Sammlung ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: BorderCollection Count eigendom. Ruft die Anzahl der Rahmen in der Sammlung ab in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/bordercollection/count/
@@ -14,7 +16,7 @@ Ruft die Anzahl der Rahmen in der Sammlung ab.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Rahmensammlungen Elemente gemeinsam nutzen können.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Siehe auch
 
 * class [BorderCollection](../)
-* namensraum [Aspose.Words](../../bordercollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

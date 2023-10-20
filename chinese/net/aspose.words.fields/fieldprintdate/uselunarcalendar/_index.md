@@ -1,7 +1,9 @@
 ---
 title: FieldPrintDate.UseLunarCalendar
-second_title: Aspose.Words for .NET API 参考
-description: FieldPrintDate 财产. 获取或设置是否使用回历农历或希伯来农历
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldPrintDate UseLunarCalendar 财产. 获取或设置是否使用回历农历或希伯来农历 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldprintdate/uselunarcalendar/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldprintdate/uselunarcalendar/
 public bool UseLunarCalendar { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示读取的 PRINTDATE 字段。
 
@@ -56,7 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### 也可以看看
 
 * class [FieldPrintDate](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldprintdate/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

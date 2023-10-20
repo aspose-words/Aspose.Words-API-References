@@ -1,7 +1,9 @@
 ---
-title: CommentRangeEnd.CommentRangeEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: CommentRangeEnd строитель. Инициализирует новый экземпляр этого класса.
+title: CommentRangeEnd
+linktitle: CommentRangeEnd
+articleTitle: CommentRangeEnd
+second_title: Aspose.Words для .NET
+description: CommentRangeEnd строитель. Инициализирует новый экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/commentrangeend/commentrangeend/
@@ -19,13 +21,13 @@ public CommentRangeEnd(DocumentBase doc, int id)
 | doc | DocumentBase | Документ владельца. |
 | id | Int32 | Идентификатор комментария, с которым связан этот объект. |
 
-### Примечания
+## Примечания
 
 Когда[`CommentRangeEnd`](../) создан, он принадлежит указанному документу, но еще не является частью документа и[`ParentNode`](../../node/parentnode/) является`нулевой`.
 
 Чтобы добавить[`CommentRangeEnd`](../) к документу используйте InsertAfter или InsertBefore в абзаце, в который вы хотите вставить комментарий.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать содержимое всех комментариев и их диапазоны комментариев с помощью посетителя документов.
 
@@ -187,7 +189,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [CommentRangeEnd](../)
-* пространство имен [Aspose.Words](../../commentrangeend/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

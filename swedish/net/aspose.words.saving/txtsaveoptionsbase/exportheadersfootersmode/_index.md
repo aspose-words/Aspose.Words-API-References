@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ExportHeadersFootersMode
-second_title: Aspose.Words för .NET API Referens
-description: TxtSaveOptionsBase fast egendom. Anger hur sidhuvuden och sidfötter exporteras till textformaten. Standardvärdet ärPrimaryOnly .
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words för .NET
+description: TxtSaveOptionsBase ExportHeadersFootersMode fast egendom. Anger hur sidhuvuden och sidfötter exporteras till textformaten. Standardvärdet ärPrimaryOnly  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/
@@ -14,7 +16,7 @@ Anger hur sidhuvuden och sidfötter exporteras till textformaten. Standardvärde
 public TxtExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man anger hur man exporterar sidhuvuden och sidfötter till vanligt textformat.
 
@@ -86,7 +88,5 @@ switch (txtExportHeadersFootersMode)
 
 * enum [TxtExportHeadersFootersMode](../../txtexportheadersfootersmode/)
 * class [TxtSaveOptionsBase](../)
-* namnutrymme [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

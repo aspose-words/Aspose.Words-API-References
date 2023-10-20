@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.FarEastLineBreakControl
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft ein Flag ab oder legt es fest das angibt ob ostasiatische Zeilenumbruchregeln auf den aktuellen Absatz angewendet werden.
+linktitle: FarEastLineBreakControl
+articleTitle: FarEastLineBreakControl
+second_title: Aspose.Words für .NET
+description: ParagraphFormat FarEastLineBreakControl eigendom. Ruft ein Flag ab oder legt es fest das angibt ob ostasiatische Zeilenumbruchregeln auf den aktuellen Absatz angewendet werden in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words/paragraphformat/fareastlinebreakcontrol/
@@ -14,7 +16,7 @@ Ruft ein Flag ab oder legt es fest, das angibt, ob ostasiatische Zeilenumbruchre
 public bool FarEastLineBreakControl { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie spezielle Eigenschaften für asiatische Typografie festgelegt werden.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

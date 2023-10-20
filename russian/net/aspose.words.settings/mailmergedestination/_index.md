@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeDestination
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.MailMergeDestination перечисление. Указывает возможные результаты которые могут быть сгенерированы при выполнении слияния почты в документе.
+title: MailMergeDestination Enum
+linktitle: MailMergeDestination
+articleTitle: MailMergeDestination
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Settings.MailMergeDestination перечисление. Указывает возможные результаты которые могут быть сгенерированы при выполнении слияния почты в документе на С#.
 type: docs
 weight: 5830
 url: /ru/net/aspose.words.settings/mailmergedestination/
@@ -24,7 +26,7 @@ public enum MailMergeDestination
 | Fax | `4` | Указывает, что соответствующие хост-приложения должны генерировать факсы, используя документы, полученные в результате , заполняя поля в данном документе данными из указанного внешнего источника данных. |
 | Default | `0` | РавноNewDocument значение. |
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [Destination](../mailmergesettings/destination/)
 * пространство имен [Aspose.Words.Settings](../../aspose.words.settings/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum TextBoxAnchor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.TextBoxAnchor opsomming. Gibt Werte an die für die vertikale Ausrichtung von Formtext verwendet werden.
+title: TextBoxAnchor Enum
+linktitle: TextBoxAnchor
+articleTitle: TextBoxAnchor
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.TextBoxAnchor opsomming. Gibt Werte an die für die vertikale Ausrichtung von Formtext verwendet werden in C#.
 type: docs
 weight: 1330
 url: /de/net/aspose.words.drawing/textboxanchor/
@@ -29,7 +31,7 @@ public enum TextBoxAnchor
 | TopCenteredBaseline | `8` | Der Text wird an der oberen zentrierten Grundlinie des Textfelds ausgerichtet. |
 | BottomCenteredBaseline | `9` | Der Text wird an der unteren zentrierten Grundlinie des Textfelds ausgerichtet. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Textinhalt eines Textfelds vertikal ausgerichtet wird.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

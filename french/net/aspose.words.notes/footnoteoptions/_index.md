@@ -1,7 +1,9 @@
 ---
-title: Class FootnoteOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Notes.FootnoteOptions classe. Représente les options de numérotation des notes de bas de page pour un document ou une section.
+title: FootnoteOptions Class
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Notes.FootnoteOptions classe. Représente les options de numérotation des notes de bas de page pour un document ou une section en C#.
 type: docs
 weight: 4280
 url: /fr/net/aspose.words.notes/footnoteoptions/
@@ -26,7 +28,7 @@ public sealed class FootnoteOptions
 | [RestartRule](../../aspose.words.notes/footnoteoptions/restartrule/) { get; set; } | Détermine quand la numérotation automatique redémarre. |
 | [StartNumber](../../aspose.words.notes/footnoteoptions/startnumber/) { get; set; } | Spécifie le numéro ou le caractère de départ des premières notes de bas de page numérotées automatiquement. |
 
-### Exemples
+## Exemples
 
 Montre comment diviser la section de note de bas de page en un nombre donné de colonnes.
 
@@ -208,5 +210,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * property [FootnoteOptions](../../aspose.words/pagesetup/footnoteoptions/)
 * espace de noms [Aspose.Words.Notes](../../aspose.words.notes/)
 * Assemblée [Aspose.Words](../../)
-
-

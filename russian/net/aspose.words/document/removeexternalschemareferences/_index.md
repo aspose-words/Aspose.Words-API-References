@@ -1,9 +1,11 @@
 ---
 title: Document.RemoveExternalSchemaReferences
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Удаляет внешние ссылки на схемы XML из этого документа.
+linktitle: RemoveExternalSchemaReferences
+articleTitle: RemoveExternalSchemaReferences
+second_title: Aspose.Words для .NET
+description: Document RemoveExternalSchemaReferences метод. Удаляет внешние ссылки на схемы XML из этого документа на С#.
 type: docs
-weight: 680
+weight: 660
 url: /ru/net/aspose.words/document/removeexternalschemareferences/
 ---
 ## Document.RemoveExternalSchemaReferences method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/removeexternalschemareferences/
 public void RemoveExternalSchemaReferences()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить из документа все ссылки на внешние схемы XML.
 
@@ -27,7 +29,5 @@ doc.RemoveExternalSchemaReferences();
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

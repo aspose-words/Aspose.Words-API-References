@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.XslTransformation
-second_title: Aspose.Words per .NET API Reference
-description: FieldIncludeText proprietà. Ottiene o imposta il percorso della trasformazione XSL per formattare i dati XML.
+linktitle: XslTransformation
+articleTitle: XslTransformation
+second_title: Aspose.Words per .NET
+description: FieldIncludeText XslTransformation proprietà. Ottiene o imposta il percorso della trasformazione XSL per formattare i dati XML in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.fields/fieldincludetext/xsltransformation/
@@ -14,7 +16,7 @@ Ottiene o imposta il percorso della trasformazione XSL per formattare i dati XML
 public string XslTransformation { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un campo INCLUDETEXT e impostarne le proprietà.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Guarda anche
 
 * class [FieldIncludeText](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldincludetext/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

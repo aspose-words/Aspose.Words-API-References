@@ -1,7 +1,9 @@
 ---
 title: FieldQuote.Text
-second_title: Aspose.Words for .NET API 参考
-description: FieldQuote 财产. 获取或设置要检索的文本
+linktitle: Text
+articleTitle: Text
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldQuote Text 财产. 获取或设置要检索的文本 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldquote/text/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldquote/text/
 public string Text { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示使用 QUOTE 字段。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.QUOTE.docx");
 ### 也可以看看
 
 * class [FieldQuote](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldquote/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

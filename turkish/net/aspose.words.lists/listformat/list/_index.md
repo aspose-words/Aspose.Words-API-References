@@ -1,7 +1,9 @@
 ---
 title: ListFormat.List
-second_title: Aspose.Words for .NET API Referansı
-description: ListFormat mülk. Bu paragrafın üyesi olduğu listeyi alır veya ayarlar.
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words for .NET
+description: ListFormat List mülk. Bu paragrafın üyesi olduğu listeyi alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.lists/listformat/list/
@@ -14,7 +16,7 @@ Bu paragrafın üyesi olduğu listeyi alır veya ayarlar.
 public List List { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliğe atanan listenin geçerli belgeye ait olması gerekir.
 
@@ -22,7 +24,7 @@ Bu özelliğe atanan liste, liste stili tanımı olmamalıdır.
 
 Bu özelliği şu şekilde ayarlamak`hükümsüz` paragraf 'deki madde işaretlerini ve numaralandırmayı kaldırır ve liste düzeyi numarasını sıfıra ayarlar. Bu özelliği şu şekilde ayarlamak`hükümsüz` aramaya eşdeğer [`RemoveNumbers`](../removenumbers/).
 
-### Örnekler
+## Örnekler
 
 Bir listenin başka bir listenin içine nasıl yerleştirileceğini gösterir.
 
@@ -125,7 +127,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * class [List](../../list/)
 * class [ListFormat](../)
-* ad alanı [Aspose.Words.Lists](../../listformat/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

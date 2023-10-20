@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Clear
-second_title: Referencia de API de Aspose.Words para .NET
-description: BaseWebExtensionCollection método. Elimina todos los elementos de la colección.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words para .NET
+description: BaseWebExtensionCollection Clear método. Elimina todos los elementos de la colección en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.webextensions/basewebextensioncollection-1/clear/
@@ -14,7 +16,7 @@ Elimina todos los elementos de la colección.
 public void Clear()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar una extensión web a un documento.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ver también
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* espacio de nombres [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* espacio de nombres [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../../)
-
-

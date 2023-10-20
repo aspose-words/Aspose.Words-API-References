@@ -1,7 +1,9 @@
 ---
-title: Enum ListTemplate
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Lists.ListTemplate uppräkning. Anger ett av de fördefinierade listformaten som är tillgängliga i Microsoft Word.
+title: ListTemplate Enum
+linktitle: ListTemplate
+articleTitle: ListTemplate
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Lists.ListTemplate uppräkning. Anger ett av de fördefinierade listformaten som är tillgängliga i Microsoft Word i C#.
 type: docs
 weight: 3530
 url: /sv/net/aspose.words.lists/listtemplate/
@@ -41,13 +43,13 @@ public enum ListTemplate
 | OutlineHeadingsNumbers | `18` | En dispositionslista med nivåer kopplade till rubrikstilar. |
 | OutlineHeadingsChapter | `19` | En dispositionslista med nivåer kopplade till rubrikstilar. |
 
-### Anmärkningar
+## Anmärkningar
 
 Ett listmallvärde används som en parameter i the [`Add`](../listcollection/add/) metod.
 
 Aspose.Words listmallar motsvarar de 21 listmallarna available i dialogrutan Bullets and Numbering i Microsoft Word 2003.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett dokument som innehåller alla listmallar för dispositionsrubriker.
 
@@ -184,5 +186,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * namnutrymme [Aspose.Words.Lists](../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../)
-
-

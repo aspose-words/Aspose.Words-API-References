@@ -1,12 +1,14 @@
 ---
 title: ChartSeriesCollection.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeriesCollection метод. Добавляет новыеChartSeries в эту коллекцию. Используйте этот метод для добавления рядов в линейчатые столбчатые линейные и поверхностные диаграммы любого типа.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: ChartSeriesCollection Add метод. Добавляет новыеChartSeries в эту коллекцию. Используйте этот метод для добавления рядов в линейчатые столбчатые линейные и поверхностные диаграммы любого типа на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
-## Add(string, string[], double[]) {#add_3}
+## Add(*string, string[], double[]*) {#add_3}
 
 Добавляет новые[`ChartSeries`](../../chartseries/) в эту коллекцию. Используйте этот метод для добавления рядов в линейчатые, столбчатые, линейные и поверхностные диаграммы любого типа.
 
@@ -18,7 +20,7 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 Недавно добавленный[`ChartSeries`](../../chartseries/) объект.
 
-### Примеры
+## Примеры
 
 Показывает, как создать серию диаграмм, соответствующую типу диаграммы.
 
@@ -108,12 +110,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double[], double[]) {#add}
+## Add(*string, double[], double[]*) {#add}
 
 Добавляет новые[`ChartSeries`](../../chartseries/) в эту коллекцию. Используйте этот метод для добавления серий в точечные диаграммы любого типа.
 
@@ -125,7 +127,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 Недавно добавленный[`ChartSeries`](../../chartseries/) объект.
 
-### Примеры
+## Примеры
 
 Показывает, как создать серию диаграмм, соответствующую типу диаграммы.
 
@@ -215,12 +217,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Add(string, DateTime[], double[]) {#add_2}
+## Add(*string, DateTime[], double[]*) {#add_2}
 
 Добавляет новые[`ChartSeries`](../../chartseries/) в эту коллекцию. Используйте этот метод для добавления серий к любым типам площадных, радарных и биржевых диаграмм.
 
@@ -228,7 +230,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать серию диаграмм, соответствующую типу диаграммы.
 
@@ -318,12 +320,12 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Add(string, double[], double[], double[]) {#add_1}
+## Add(*string, double[], double[], double[]*) {#add_1}
 
 Добавляет новые[`ChartSeries`](../../chartseries/)в эту коллекцию. Используйте этот метод для добавления рядов в пузырьковые диаграммы любого типа.
 
@@ -335,7 +337,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 Недавно добавленный[`ChartSeries`](../../chartseries/) объект.
 
-### Примеры
+## Примеры
 
 Показывает, как создать серию диаграмм, соответствующую типу диаграммы.
 
@@ -425,7 +427,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeries](../../chartseries/)
 * class [ChartSeriesCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

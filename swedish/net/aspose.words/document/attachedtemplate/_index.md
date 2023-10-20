@@ -1,7 +1,9 @@
 ---
 title: Document.AttachedTemplate
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar eller ställer in hela sökvägen för mallen som är bifogad till dokumentet.
+linktitle: AttachedTemplate
+articleTitle: AttachedTemplate
+second_title: Aspose.Words för .NET
+description: Document AttachedTemplate fast egendom. Hämtar eller ställer in hela sökvägen för mallen som är bifogad till dokumentet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/document/attachedtemplate/
@@ -20,11 +22,11 @@ public string AttachedTemplate { get; set; }
 | --- | --- |
 | ArgumentNullException | Kastar om du försöker ställa in till a`null` värde. |
 
-### Anmärkningar
+## Anmärkningar
 
 Tom sträng betyder att dokumentet är bifogat till mallen Normal.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in en standardmall för dokument som inte har bifogade mallar.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

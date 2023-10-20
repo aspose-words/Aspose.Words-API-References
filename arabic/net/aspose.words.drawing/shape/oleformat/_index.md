@@ -1,7 +1,9 @@
 ---
 title: Shape.OleFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. يوفر الوصول إلى بيانات OLE الخاصة بالشكل. بالنسبة للشكل الذي لا يعد كائن OLE أو عنصر تحكم ActiveX يتم إرجاعهباطل .
+linktitle: OleFormat
+articleTitle: OleFormat
+second_title: Aspose.Words لـ .NET
+description: Shape OleFormat ملكية. يوفر الوصول إلى بيانات OLE الخاصة بالشكل. بالنسبة للشكل الذي لا يعد كائن OLE أو عنصر تحكم ActiveX يتم إرجاعهباطل  في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.drawing/shape/oleformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shape/oleformat/
 public OleFormat OleFormat { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار على كافة الأشكال في المستند.
 
@@ -138,7 +140,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [OleFormat](../../oleformat/)
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum WebExtensionBindingType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.WebExtensions.WebExtensionBindingType uppräkning. Räknar upp tillgängliga typer av bindning mellan ett webbtillägg och data i dokumentet.
+title: WebExtensionBindingType Enum
+linktitle: WebExtensionBindingType
+articleTitle: WebExtensionBindingType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.WebExtensions.WebExtensionBindingType uppräkning. Räknar upp tillgängliga typer av bindning mellan ett webbtillägg och data i dokumentet i C#.
 type: docs
 weight: 6770
 url: /sv/net/aspose.words.webextensions/webextensionbindingtype/
@@ -23,7 +25,7 @@ public enum WebExtensionBindingType
 | Text | `2` | Oformaterad text. |
 | Default | `0` |  |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -69,5 +71,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * namnutrymme [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../)
-
-

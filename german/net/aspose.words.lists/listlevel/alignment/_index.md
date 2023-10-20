@@ -1,7 +1,9 @@
 ---
 title: ListLevel.Alignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel eigendom. Ruft die Begründung der tatsächlichen Nummer des Listenelements ab oder legt diese fest.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words für .NET
+description: ListLevel Alignment eigendom. Ruft die Begründung der tatsächlichen Nummer des Listenelements ab oder legt diese fest in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.lists/listlevel/alignment/
@@ -14,11 +16,11 @@ Ruft die Begründung der tatsächlichen Nummer des Listenelements ab oder legt d
 public ListLevelAlignment Alignment { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Listenbezeichnung ist relativ zum ausgerichtet[`NumberPosition`](../numberposition/) Eigentum.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listenformatierung auf Absätze anwenden.
 
@@ -78,7 +80,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * enum [ListLevelAlignment](../../listlevelalignment/)
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

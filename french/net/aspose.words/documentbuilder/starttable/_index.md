@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartTable
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Démarre un tableau dans le document.
+linktitle: StartTable
+articleTitle: StartTable
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder StartTable méthode. Démarre un tableau dans le document en C#.
 type: docs
-weight: 650
+weight: 640
 url: /fr/net/aspose.words/documentbuilder/starttable/
 ---
 ## DocumentBuilder.StartTable method
@@ -18,13 +20,13 @@ public Table StartTable()
 
 Le nœud de table qui vient d'être créé.
 
-### Remarques
+## Remarques
 
 La prochaine méthode à appeler est[`InsertCell`](../insertcell/).
 
 Cette méthode démarre un tableau imbriqué lorsqu’elle est appelée à l’intérieur d’une cellule.
 
-### Exemples
+## Exemples
 
 Montre comment formater des cellules avec un générateur de documents.
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Type
-second_title: Aspose.Words for .NET API Referansı
-description: AxisScaling mülk. Eksenin ölçeklendirme türünü alır veya ayarlar.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: AxisScaling Type mülk. Eksenin ölçeklendirme türünü alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing.charts/axisscaling/type/
@@ -14,11 +16,11 @@ Eksenin ölçeklendirme türünü alır veya ayarlar.
 public AxisScaleType Type { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Linear MS Office 2016 yeni grafiklerinde izin verilen tek değerdir.
 
-### Örnekler
+## Örnekler
 
 Logaritmik ölçeklendirmenin bir grafik eksenine nasıl uygulanacağını gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * enum [AxisScaleType](../../axisscaletype/)
 * class [AxisScaling](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

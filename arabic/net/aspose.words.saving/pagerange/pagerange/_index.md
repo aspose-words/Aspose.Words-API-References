@@ -1,7 +1,9 @@
 ---
-title: PageRange.PageRange
-second_title: Aspose.Words لمراجع .NET API
-description: PageRange البناء. إنشاء كائن نطاق صفحات جديد.
+title: PageRange
+linktitle: PageRange
+articleTitle: PageRange
+second_title: Aspose.Words لـ .NET
+description: PageRange البناء. إنشاء كائن نطاق صفحات جديد في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/pagerange/pagerange/
@@ -19,11 +21,11 @@ public PageRange(int from, int to)
 | from | Int32 | الفهرس الصفري لصفحة البداية. |
 | to | Int32 | فهرس الصفحة النهائية ذو الأساس الصفري. إذا تجاوز فهرس الصفحة الأخيرة في المستند، فسيتم اقتطاعه ليناسب المستند عند العرض. |
 
-### ملاحظات
+## ملاحظات
 
 MaxValue تعني الصفحة الأخيرة في المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج الصفحات بناءً على نطاقات الصفحات المحددة.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOp
 ### أنظر أيضا
 
 * class [PageRange](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pagerange/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

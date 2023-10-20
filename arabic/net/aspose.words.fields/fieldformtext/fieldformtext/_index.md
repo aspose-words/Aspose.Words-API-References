@@ -1,7 +1,9 @@
 ---
-title: FieldFormText.FieldFormText
-second_title: Aspose.Words لمراجع .NET API
-description: FieldFormText البناء. Default_Constructor
+title: FieldFormText
+linktitle: FieldFormText
+articleTitle: FieldFormText
+second_title: Aspose.Words لـ .NET
+description: FieldFormText البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldformtext/fieldformtext/
@@ -17,7 +19,5 @@ public FieldFormText()
 ### أنظر أيضا
 
 * class [FieldFormText](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldformtext/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

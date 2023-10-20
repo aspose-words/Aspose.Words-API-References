@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.Groups
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionCollection ملكية. مجموعة مجموعات المراجعة.
+linktitle: Groups
+articleTitle: Groups
+second_title: Aspose.Words لـ .NET
+description: RevisionCollection Groups ملكية. مجموعة مجموعات المراجعة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/revisioncollection/groups/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/revisioncollection/groups/
 public RevisionGroupCollection Groups { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع مجموعة مراجعات المستند.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [RevisionGroupCollection](../../revisiongroupcollection/)
 * class [RevisionCollection](../)
-* مساحة الاسم [Aspose.Words](../../revisioncollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

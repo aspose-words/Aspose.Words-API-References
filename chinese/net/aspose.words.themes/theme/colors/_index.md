@@ -1,7 +1,9 @@
 ---
 title: Theme.Colors
-second_title: Aspose.Words for .NET API 参考
-description: Theme 财产. 允许指定文档的主题颜色集
+linktitle: Colors
+articleTitle: Colors
+second_title: 用于 .NET 的 Aspose.Words
+description: Theme Colors 财产. 允许指定文档的主题颜色集 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.themes/theme/colors/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.themes/theme/colors/
 public ThemeColors Colors { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置主题的自定义颜色和字体。
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeColors](../../themecolors/)
 * class [Theme](../)
-* 命名空间 [Aspose.Words.Themes](../../theme/)
+* 命名空间 [Aspose.Words.Themes](../../../aspose.words.themes/)
 * 部件 [Aspose.Words](../../../)
-
-

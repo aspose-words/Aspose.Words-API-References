@@ -1,7 +1,9 @@
 ---
 title: FieldMacroButton.DisplayText
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMacroButton ملكية. الحصول على النص أو تعيينه ليظهر على أنه الزر المحدد لتشغيل الماكرو أو الأمر.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words لـ .NET
+description: FieldMacroButton DisplayText ملكية. الحصول على النص أو تعيينه ليظهر على أنه الزر المحدد لتشغيل الماكرو أو الأمر في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldmacrobutton/displaytext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldmacrobutton/displaytext/
 public string DisplayText { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول MACROBUTTON للسماح لنا بتشغيل وحدات ماكرو للمستند من خلال النقر.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 ### أنظر أيضا
 
 * class [FieldMacroButton](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldmacrobutton/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

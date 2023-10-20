@@ -1,12 +1,14 @@
 ---
 title: MailMerge.Execute
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 方法. 从自定义数据源执行邮件合并
+linktitle: Execute
+articleTitle: Execute
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge Execute 方法. 从自定义数据源执行邮件合并 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.mailmerging/mailmerge/execute/
 ---
-## Execute(IMailMergeDataSource) {#execute}
+## Execute(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#execute}
 
 从自定义数据源执行邮件合并。
 
@@ -18,7 +20,7 @@ public void Execute(IMailMergeDataSource dataSource)
 | --- | --- | --- |
 | dataSource | IMailMergeDataSource | 实现自定义邮件合并数据源接口的对象。 |
 
-### 评论
+## 评论
 
 使用此方法可以使用来自 任何数据源（例如列表、哈希表或对象）的值填充文档中的邮件合并字段。您需要编写 your 自己的类来实现[`IMailMergeDataSource`](../../imailmergedatasource/)界面。
 
@@ -30,12 +32,12 @@ public void Execute(IMailMergeDataSource dataSource)
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Execute(string[], object[]) {#execute_5}
+## Execute(*string[], object[]*) {#execute_5}
 
 对单个记录执行邮件合并操作。
 
@@ -48,7 +50,7 @@ public void Execute(string[] fieldNames, object[] values)
 | fieldNames | String[] | 合并字段名称数组。字段名称不区分大小写。 如果遇到文档中未找到的字段名称，则会将其忽略。 |
 | values | Object[] | 要插入到合并字段中的值的数组。 该数组中的元素数量必须与*fieldNames*。 |
 
-### 评论
+## 评论
 
 使用此方法可以使用 from 对象数组的值填充文档中的邮件合并字段。
 
@@ -58,7 +60,7 @@ public void Execute(string[] fieldNames, object[] values)
 
 该方法忽略了RemoveUnusedRegions选项。
 
-### 例子
+## 例子
 
 演示如何将 URI 中的图像作为邮件合并数据合并到 MERGEFIELD 中。
 
@@ -111,12 +113,12 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataTable) {#execute_2}
+## Execute(*DataTable*) {#execute_2}
 
 将数据表中的邮件合并到文档中。
 
@@ -128,19 +130,19 @@ public void Execute(DataTable table)
 | --- | --- | --- |
 | table | DataTable | 包含要插入邮件合并字段的数据的表。 字段名称不区分大小写。 如果遇到在文档中找不到的字段名称，则会将其忽略。 |
 
-### 评论
+## 评论
 
-使用此方法用 a 中的值填充文档中的邮件合并字段 **数据表**。
+使用此方法用 a 中的值填充文档中的邮件合并字段**数据表**。
 
 表中的所有记录都将合并到文档中。
 
-您可以在Word文档中使用NEXT字段来引起[`MailMerge`](../)从对象中选择 下一条记录 **数据表**并继续合并。 这可以在创建邮件标签等文档时使用。
+您可以在Word文档中使用NEXT字段来引起[`MailMerge`](../)从对象中选择 下一条记录**数据表**并继续合并。 这可以在创建邮件标签等文档时使用。
 
-什么时候[`MailMerge`](../)对象到达主文档末尾，并且仍有 more 行 **数据表**，它复制 主文档的全部内容，并使用section 中断作为分隔符将其附加到目标文档的末尾。
+什么时候[`MailMerge`](../)对象到达主文档末尾，并且仍有 more 行**数据表**，它复制 主文档的全部内容，并使用section 中断作为分隔符将其附加到目标文档的末尾。
 
 该方法忽略了RemoveUnusedRegions选项。
 
-### 例子
+## 例子
 
 演示如何使用数据表中的数据执行邮件合并。
 
@@ -188,14 +190,14 @@ private static Document CreateSourceDocExecuteDataTable()
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Execute(IDataReader) {#execute_4}
+## Execute(*IDataReader*) {#execute_4}
 
-执行邮件合并 **数据读取器**进入文档.
+执行邮件合并**数据读取器**进入文档.
 
 ```csharp
 public void Execute(IDataReader dataReader)
@@ -205,15 +207,15 @@ public void Execute(IDataReader dataReader)
 | --- | --- | --- |
 | dataReader | IDataReader | 邮件合并操作的数据源。 |
 
-### 评论
+## 评论
 
-你可以通过 **数据库读取器**或者 **OleDb数据读取器**对象作为参数传入 this 方法，因为它们都实现了 **数据读取器**界面。
+你可以通过**数据库读取器**或者**OleDb数据读取器**对象作为参数传入 this 方法，因为它们都实现了**数据读取器**界面。
 
 请注意，此方法不使用邮件合并区域，并且对于多个记录，the 文档将通过重复整个文档来增长。
 
 该方法忽略了RemoveUnusedRegions选项。
 
-### 例子
+## 例子
 
 演示如何使用数据读取器中的数据运行邮件合并。
 
@@ -267,14 +269,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataView) {#execute_3}
+## Execute(*DataView*) {#execute_3}
 
-从 a 执行邮件合并 **数据视图**进入文档.
+从 a 执行邮件合并**数据视图**进入文档.
 
 ```csharp
 public void Execute(DataView dataView)
@@ -284,15 +286,15 @@ public void Execute(DataView dataView)
 | --- | --- | --- |
 | dataView | DataView | 邮件合并操作的数据源。 |
 
-### 评论
+## 评论
 
-如果您将数据检索到 **数据表**但 then 需要在邮件合并之前应用过滤器或排序。
+如果您将数据检索到**数据表**但 then 需要在邮件合并之前应用过滤器或排序。
 
 请注意，此方法不使用邮件合并区域，并且对于多个记录，the 文档将通过重复整个文档来增长。
 
 该方法忽略了RemoveUnusedRegions选项。
 
-### 例子
+## 例子
 
 演示如何使用 DataView 编辑邮件合并数据。
 
@@ -329,14 +331,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataRow) {#execute_1}
+## Execute(*DataRow*) {#execute_1}
 
-从 a 执行邮件合并 **数据行**进入文档.
+从 a 执行邮件合并**数据行**进入文档.
 
 ```csharp
 public void Execute(DataRow row)
@@ -346,13 +348,13 @@ public void Execute(DataRow row)
 | --- | --- | --- |
 | row | DataRow | 包含要插入邮件合并字段的数据的行。 字段名称不区分大小写。 如果遇到在文档中找不到的字段名称，则会将其忽略。 |
 
-### 评论
+## 评论
 
-使用此方法可以使用来自某个文档的值填充文档中的邮件合并字段。 **数据行**。
+使用此方法可以使用来自某个文档的值填充文档中的邮件合并字段。**数据行**。
 
 该方法忽略了RemoveUnusedRegions选项。
 
-### 例子
+## 例子
 
 演示如何使用数据表中的数据执行邮件合并。
 
@@ -400,7 +402,5 @@ private static Document CreateSourceDocExecuteDataTable()
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

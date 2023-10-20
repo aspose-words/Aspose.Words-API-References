@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabelCollection свойство. ВозвращаетChartDataLabel для указанного индекса.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: ChartDataLabelCollection Item свойство. ВозвращаетChartDataLabel для указанного индекса на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/item/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/item/
 public ChartDataLabel this[int index] { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartDataLabel](../../chartdatalabel/)
 * class [ChartDataLabelCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

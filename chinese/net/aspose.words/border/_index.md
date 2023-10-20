@@ -1,7 +1,9 @@
 ---
-title: Class Border
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Border 班级. 表示对象的边框
+title: Border Class
+linktitle: Border
+articleTitle: Border
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Border 班级. 表示对象的边框 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/border/
@@ -34,15 +36,15 @@ public class Border : InternableComplexAttr
 | 姓名 | 描述 |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/border/clearformatting/)() | 将边框属性重置为默认值。 |
-| [Equals](../../aspose.words/border/equals/#equals)(Border) | 确定指定边框的值是否等于当前边框。 |
-| override [Equals](../../aspose.words/border/equals/#equals_1)(object) | 确定指定对象的值是否等于当前对象。 |
+| [Equals](../../aspose.words/border/equals/#equals)(*Border*) | 确定指定边框的值是否等于当前边框。 |
+| override [Equals](../../aspose.words/border/equals/#equals_1)(*object*) | 确定指定对象的值是否等于当前对象。 |
 | override [GetHashCode](../../aspose.words/border/gethashcode/)() | 用作此类型的哈希函数。 |
 
-### 评论
+## 评论
 
 边框可以应用于各种文档元素，包括段落、段落或表格单元格内的文本。
 
-### 例子
+## 例子
 
 演示如何将边框包围的字符串插入到文档中。
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

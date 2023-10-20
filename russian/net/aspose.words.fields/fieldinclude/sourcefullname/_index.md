@@ -1,7 +1,9 @@
 ---
 title: FieldInclude.SourceFullName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldInclude свойство. Получает или задает местоположение документа.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words для .NET
+description: FieldInclude SourceFullName свойство. Получает или задает местоположение документа на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldinclude/sourcefullname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldinclude/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле INCLUDE и установить его свойства.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### Смотрите также
 
 * class [FieldInclude](../)
-* пространство имен [Aspose.Words.Fields](../../fieldinclude/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

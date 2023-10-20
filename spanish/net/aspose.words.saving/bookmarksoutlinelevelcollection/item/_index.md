@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: BookmarksOutlineLevelCollection propiedad. Obtiene o establece un nivel de esquema de marcador por el nombre del marcador.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: BookmarksOutlineLevelCollection Item propiedad. Obtiene o establece un nivel de esquema de marcador por el nombre del marcador en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/bookmarksoutlinelevelcollection/item/
@@ -22,7 +24,7 @@ public int this[string name] { get; set; }
 
 El nivel de esquema del marcador. El rango válido es de 0 a 9.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer niveles de contorno para marcadores.
 
@@ -80,7 +82,7 @@ outlineLevels.Clear();
 ### Ver también
 
 * class [BookmarksOutlineLevelCollection](../)
-* espacio de nombres [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -101,7 +103,7 @@ public int this[int index] { get; set; }
 
 El nivel de esquema del marcador. El rango válido es de 0 a 9.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer niveles de contorno para marcadores.
 
@@ -159,7 +161,5 @@ outlineLevels.Clear();
 ### Ver también
 
 * class [BookmarksOutlineLevelCollection](../)
-* espacio de nombres [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

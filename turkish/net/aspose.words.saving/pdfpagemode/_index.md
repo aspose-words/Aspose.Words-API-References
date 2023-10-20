@@ -1,7 +1,9 @@
 ---
-title: Enum PdfPageMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.PdfPageMode Sıralama. PDF belgesinin PDF okuyucuda açıldığında nasıl görüntülenmesi gerektiğini belirtir.
+title: PdfPageMode Enum
+linktitle: PdfPageMode
+articleTitle: PdfPageMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.PdfPageMode Sıralama. PDF belgesinin PDF okuyucuda açıldığında nasıl görüntülenmesi gerektiğini belirtir C#'da.
 type: docs
 weight: 5500
 url: /tr/net/aspose.words.saving/pdfpagemode/
@@ -25,7 +27,7 @@ public enum PdfPageMode
 | UseOC | `4` | İsteğe bağlı içerik grubu paneli görünür. |
 | UseAttachments | `5` | Ekler paneli görünür. |
 
-### Örnekler
+## Örnekler
 
 Bazı PDF okuyucularının bir çıktı belgesini açarken izleyeceği talimatların nasıl ayarlanacağını gösterir.
 
@@ -84,5 +86,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

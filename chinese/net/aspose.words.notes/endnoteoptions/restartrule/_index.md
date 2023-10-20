@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.RestartRule
-second_title: Aspose.Words for .NET API 参考
-description: EndnoteOptions 财产. 确定自动编号何时重新启动
+linktitle: RestartRule
+articleTitle: RestartRule
+second_title: 用于 .NET 的 Aspose.Words
+description: EndnoteOptions RestartRule 财产. 确定自动编号何时重新启动 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.notes/endnoteoptions/restartrule/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.notes/endnoteoptions/restartrule/
 public FootnoteNumberingRule RestartRule { get; set; }
 ```
 
-### 评论
+## 评论
 
 并非所有值都适用于尾注。 要确定哪些值适用，请参阅[`FootnoteNumberingRule`](../../footnotenumberingrule/)。
 
-### 例子
+## 例子
 
 显示如何在文档中的某些位置重新开始脚注/尾注编号。
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * enum [FootnoteNumberingRule](../../footnotenumberingrule/)
 * class [EndnoteOptions](../)
-* 命名空间 [Aspose.Words.Notes](../../endnoteoptions/)
+* 命名空间 [Aspose.Words.Notes](../../../aspose.words.notes/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToBookmark
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. ينقل المؤشر إلى إشارة مرجعية.
+linktitle: MoveToBookmark
+articleTitle: MoveToBookmark
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder MoveToBookmark طريقة. ينقل المؤشر إلى إشارة مرجعية في C#.
 type: docs
-weight: 500
+weight: 490
 url: /ar/net/aspose.words/documentbuilder/movetobookmark/
 ---
-## MoveToBookmark(string) {#movetobookmark}
+## MoveToBookmark(*string*) {#movetobookmark}
 
 ينقل المؤشر إلى إشارة مرجعية.
 
@@ -22,7 +24,7 @@ public bool MoveToBookmark(string bookmarkName)
 
 `حقيقي` إذا تم العثور على الإشارة المرجعية؛`خطأ شنيع` خلاف ذلك.
 
-### ملاحظات
+## ملاحظات
 
 يحرك المؤشر إلى موضع بعد بداية الإشارة المرجعية بالاسم المحدد .
 
@@ -32,7 +34,7 @@ public bool MoveToBookmark(string bookmarkName)
 
 لاحظ أنه تم تعيين بعض الإشارات المرجعية في المستند لحقول النموذج. الانتقال إلى مثل هذه الإشارة المرجعية وإدراج نص هناك يؤدي إلى إدراج النص في رمز حقل النموذج . على الرغم من أن هذا لن يؤدي إلى إبطال حقل النموذج، إلا أن النص المدرج لن يكون مرئيًا لأنه يصبح جزءًا من رمز الحقل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية نقل مؤشر أداة إنشاء المستندات إلى عقد مختلفة في المستند.
 
@@ -86,12 +88,12 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## MoveToBookmark(string, bool, bool) {#movetobookmark_1}
+## MoveToBookmark(*string, bool, bool*) {#movetobookmark_1}
 
 ينقل المؤشر إلى إشارة مرجعية بدقة أكبر.
 
@@ -109,7 +111,7 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 
 `حقيقي` إذا تم العثور على الإشارة المرجعية؛`خطأ شنيع` خلاف ذلك.
 
-### ملاحظات
+## ملاحظات
 
 يحرك المؤشر إلى موضع قبل أو بعد بداية الإشارة المرجعية أو نهايتها.
 
@@ -117,7 +119,7 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 
 المقارنة ليست حساسة لحالة الأحرف. إذا لم يتم العثور على الإشارة المرجعية،`خطأ شنيع` تم إرجاع is ولم يتم تحريك المؤشر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية نقل مؤشر نقطة إدراج عقدة أداة إنشاء المستندات إلى إشارة مرجعية.
 
@@ -166,7 +168,5 @@ Assert.AreEqual("1. 2. Hello world! 3. 4.", doc.GetText().Trim());
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

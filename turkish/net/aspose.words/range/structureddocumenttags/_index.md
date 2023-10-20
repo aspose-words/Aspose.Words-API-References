@@ -1,7 +1,9 @@
 ---
 title: Range.StructuredDocumentTags
-second_title: Aspose.Words for .NET API Referansı
-description: Range mülk. Bir değeri döndürürStructuredDocumentTags aralıktaki tüm yapılandırılmış belge etiketlerini temsil eden koleksiyon.
+linktitle: StructuredDocumentTags
+articleTitle: StructuredDocumentTags
+second_title: Aspose.Words for .NET
+description: Range StructuredDocumentTags mülk. Bir değeri döndürürStructuredDocumentTags aralıktaki tüm yapılandırılmış belge etiketlerini temsil eden koleksiyon C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/range/structureddocumenttags/
@@ -18,7 +20,5 @@ public StructuredDocumentTagCollection StructuredDocumentTags { get; }
 
 * class [StructuredDocumentTagCollection](../../../aspose.words.markup/structureddocumenttagcollection/)
 * class [Range](../)
-* ad alanı [Aspose.Words](../../range/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

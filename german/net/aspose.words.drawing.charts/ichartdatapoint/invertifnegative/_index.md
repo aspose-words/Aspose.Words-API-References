@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.InvertIfNegative
-second_title: Aspose.Words für .NET-API-Referenz
-description: IChartDataPoint eigendom. Gibt an ob das übergeordnete Element seine Farben invertieren soll wenn der Wert negativ ist.
+linktitle: InvertIfNegative
+articleTitle: InvertIfNegative
+second_title: Aspose.Words für .NET
+description: IChartDataPoint InvertIfNegative eigendom. Gibt an ob das übergeordnete Element seine Farben invertieren soll wenn der Wert negativ ist in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.charts/ichartdatapoint/invertifnegative/
@@ -14,7 +16,7 @@ Gibt an, ob das übergeordnete Element seine Farben invertieren soll, wenn der W
 public bool InvertIfNegative { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenpunkten in einem Liniendiagramm gearbeitet wird.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Siehe auch
 
 * interface [IChartDataPoint](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

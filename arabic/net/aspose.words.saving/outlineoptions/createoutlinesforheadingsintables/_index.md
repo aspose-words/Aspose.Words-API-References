@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateOutlinesForHeadingsInTables
-second_title: Aspose.Words لمراجع .NET API
-description: OutlineOptions ملكية. يحدد ما إذا كان سيتم إنشاء مخططات تفصيلية للعناوين الفقرات المنسقة باستخدام أنماط العناوين داخل الجداول أم لا.
+linktitle: CreateOutlinesForHeadingsInTables
+articleTitle: CreateOutlinesForHeadingsInTables
+second_title: Aspose.Words لـ .NET
+description: OutlineOptions CreateOutlinesForHeadingsInTables ملكية. يحدد ما إذا كان سيتم إنشاء مخططات تفصيلية للعناوين الفقرات المنسقة باستخدام أنماط العناوين داخل الجداول أم لا في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/outlineoptions/createoutlinesforheadingsintables/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/outlineoptions/createoutlinesforheadingsintable
 public bool CreateOutlinesForHeadingsInTables { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء إدخالات مخطط تفصيلي لمستند PDF للعناوين داخل الجداول.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TableHeadingOutlines.pdf", pdfSaveOption
 ### أنظر أيضا
 
 * class [OutlineOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../outlineoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

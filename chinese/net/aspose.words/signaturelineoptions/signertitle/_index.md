@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.SignerTitle
-second_title: Aspose.Words for .NET API 参考
-description: SignatureLineOptions 财产. 获取或设置建议签名者的头衔 此属性的默认值为 空字符串Empty.
+linktitle: SignerTitle
+articleTitle: SignerTitle
+second_title: 用于 .NET 的 Aspose.Words
+description: SignatureLineOptions SignerTitle 财产. 获取或设置建议签名者的头衔 此属性的默认值为空字符串Empty 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/signaturelineoptions/signertitle/
 ---
 ## SignatureLineOptions.SignerTitle property
 
-获取或设置建议签名者的头衔。 此属性的默认值为 **空字符串**（Empty).
+获取或设置建议签名者的头衔。 此属性的默认值为**空字符串**（Empty).
 
 ```csharp
 public string SignerTitle { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加签名行，然后使用数字证书对其进行签名。
 
@@ -130,7 +132,5 @@ public string SignerTitle { get; set; }
 ### 也可以看看
 
 * class [SignatureLineOptions](../)
-* 命名空间 [Aspose.Words](../../signaturelineoptions/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

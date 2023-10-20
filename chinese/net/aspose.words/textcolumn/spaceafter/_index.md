@@ -1,7 +1,9 @@
 ---
 title: TextColumn.SpaceAfter
-second_title: Aspose.Words for .NET API 参考
-description: TextColumn 财产. 获取或设置此列与下一列之间的间距以磅为单位最后一列不需要
+linktitle: SpaceAfter
+articleTitle: SpaceAfter
+second_title: 用于 .NET 的 Aspose.Words
+description: TextColumn SpaceAfter 财产. 获取或设置此列与下一列之间的间距以磅为单位最后一列不需要 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/textcolumn/spaceafter/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/textcolumn/spaceafter/
 public double SpaceAfter { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何创建间隔不均匀的列。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### 也可以看看
 
 * class [TextColumn](../)
-* 命名空间 [Aspose.Words](../../textcolumn/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

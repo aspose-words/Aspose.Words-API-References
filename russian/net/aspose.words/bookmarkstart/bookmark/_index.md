@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.Bookmark
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarkStart свойство. Получает объект фасада который инкапсулирует начало и конец этой закладки.
+linktitle: Bookmark
+articleTitle: Bookmark
+second_title: Aspose.Words для .NET
+description: BookmarkStart Bookmark свойство. Получает объект фасада который инкапсулирует начало и конец этой закладки на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/bookmarkstart/bookmark/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/bookmarkstart/bookmark/
 public Bookmark Bookmark { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять закладки и обновлять их содержимое.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkStart](../)
-* пространство имен [Aspose.Words](../../bookmarkstart/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

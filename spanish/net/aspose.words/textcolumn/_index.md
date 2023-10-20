@@ -1,7 +1,9 @@
 ---
-title: Class TextColumn
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.TextColumn clase. Representa una única columna de texto.TextColumn es miembro de laTextColumnCollection colección. ElTextColumn la colección incluye todas las columnas de una sección de un documento.
+title: TextColumn Class
+linktitle: TextColumn
+articleTitle: TextColumn
+second_title: Aspose.Words para .NET
+description: Aspose.Words.TextColumn clase. Representa una única columna de texto.TextColumn es miembro de laTextColumnCollection colección. ElTextColumn la colección incluye todas las columnas de una sección de un documento en C#.
 type: docs
 weight: 6390
 url: /es/net/aspose.words/textcolumn/
@@ -23,13 +25,13 @@ public class TextColumn
 | [SpaceAfter](../../aspose.words/textcolumn/spaceafter/) { get; set; } | Obtiene o establece el espacio entre esta columna y la siguiente columna en puntos. No es necesario para la última columna. |
 | [Width](../../aspose.words/textcolumn/width/) { get; set; } | Obtiene o establece el ancho de la columna de texto en puntos. |
 
-### Observaciones
+## Observaciones
 
 `TextColumn` Los objetos solo se utilizan para especificar columnas con ancho y espaciado personalizados. Si desea que las columnas del documento tengan el mismo ancho, configure TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) a`verdadero`.
 
 cuando un nuevo`TextColumn` Cuando se crea, su ancho y espaciado se establecen en cero.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear columnas espaciadas de manera desigual.
 
@@ -67,5 +69,3 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

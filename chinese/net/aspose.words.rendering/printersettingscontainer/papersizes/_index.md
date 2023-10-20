@@ -1,7 +1,9 @@
 ---
 title: PrinterSettingsContainer.PaperSizes
-second_title: Aspose.Words for .NET API 参考
-description: PrinterSettingsContainer 财产. 参见PaperSizes.
+linktitle: PaperSizes
+articleTitle: PaperSizes
+second_title: 用于 .NET 的 Aspose.Words
+description: PrinterSettingsContainer PaperSizes 财产. 参见PaperSizes 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.rendering/printersettingscontainer/papersizes/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.rendering/printersettingscontainer/papersizes/
 public PaperSizeCollection PaperSizes { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问并列出打印机的纸张来源和尺寸。
 
@@ -47,7 +49,5 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 ### 也可以看看
 
 * class [PrinterSettingsContainer](../)
-* 命名空间 [Aspose.Words.Rendering](../../printersettingscontainer/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

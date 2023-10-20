@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.FromDouble
-second_title: Aspose.Words per .NET API Reference
-description: ChartYValue metodo. Crea unChartYValue istanza delDouble tipo.
+linktitle: FromDouble
+articleTitle: FromDouble
+second_title: Aspose.Words per .NET
+description: ChartYValue FromDouble metodo. Crea unChartYValue istanza delDouble tipo in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing.charts/chartyvalue/fromdouble/
@@ -14,7 +16,7 @@ Crea un[`ChartYValue`](../) istanza delDouble tipo.
 public static ChartYValue FromDouble(double value)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come popolare le serie di grafici con i dati.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ### Guarda anche
 
 * class [ChartYValue](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

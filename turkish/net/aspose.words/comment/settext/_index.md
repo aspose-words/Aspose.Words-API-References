@@ -1,9 +1,11 @@
 ---
 title: Comment.SetText
-second_title: Aspose.Words for .NET API Referansı
-description: Comment yöntem. Bu yorum metnini kolayca ayarlamanıza olanak tanıyan kullanışlı bir yöntemdir.
+linktitle: SetText
+articleTitle: SetText
+second_title: Aspose.Words for .NET
+description: Comment SetText yöntem. Bu yorum metnini kolayca ayarlamanıza olanak tanıyan kullanışlı bir yöntemdir C#'da.
 type: docs
-weight: 180
+weight: 150
 url: /tr/net/aspose.words/comment/settext/
 ---
 ## Comment.SetText method
@@ -18,11 +20,11 @@ public void SetText(string text)
 | --- | --- | --- |
 | text | String | Yorumun yeni metni. |
 
-### Notlar
+## Notlar
 
 Bu yöntem, bir dizeden bir yorumun metninin hızlı bir şekilde ayarlanmasına olanak tanır. Dize paragraf sonlarını içerebilir, bu da yorumda buna göre paragraflar oluşturacaktır. Yoruma daha karmaşık öğeler (örneğin, yer imleri veya tablolar) eklemek veya zengin biçimlendirme uygulamak istiyorsanız, uygun düğüm sınıflarını kullanmanız gerekir. yorum metnini oluşturmak için.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl yorum ekleneceğini ve ardından ona nasıl yanıt verileceğini gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 ### Ayrıca bakınız
 
 * class [Comment](../)
-* ad alanı [Aspose.Words](../../comment/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

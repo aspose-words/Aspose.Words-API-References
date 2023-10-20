@@ -1,9 +1,11 @@
 ---
 title: Stroke.DashStyle
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Anger punkt och streckmönstret för ett streck.
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: Aspose.Words för .NET
+description: Stroke DashStyle fast egendom. Anger punkt och streckmönstret för ett streck i C#.
 type: docs
-weight: 50
+weight: 40
 url: /sv/net/aspose.words.drawing/stroke/dashstyle/
 ---
 ## Stroke.DashStyle property
@@ -14,11 +16,11 @@ Anger punkt- och streckmönstret för ett streck.
 public DashStyle DashStyle { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärSolid.
 
-### Exempel
+## Exempel
 
 Visar för att skapa en mängd olika former.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [DashStyle](../../dashstyle/)
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

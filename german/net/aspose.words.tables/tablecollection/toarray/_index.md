@@ -1,7 +1,9 @@
 ---
 title: TableCollection.ToArray
-second_title: Aspose.Words für .NET-API-Referenz
-description: TableCollection methode. Kopiert alle Tabellen aus der Sammlung in ein neues Tabellenarray.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words für .NET
+description: TableCollection ToArray methode. Kopiert alle Tabellen aus der Sammlung in ein neues Tabellenarray in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.tables/tablecollection/toarray/
@@ -18,7 +20,7 @@ public Table[] ToArray()
 
 Ein Array von Tabellen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt werden.
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Table](../../table/)
 * class [TableCollection](../)
-* namensraum [Aspose.Words.Tables](../../tablecollection/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

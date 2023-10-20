@@ -1,7 +1,9 @@
 ---
 title: IImageSavingCallback.ImageSaving
-second_title: Aspose.Words for .NET API 参考
-description: IImageSavingCallback 方法. 当 Aspose.Words 将图像保存为 HTML 时调用
+linktitle: ImageSaving
+articleTitle: ImageSaving
+second_title: 用于 .NET 的 Aspose.Words
+description: IImageSavingCallback ImageSaving 方法. 当 Aspose.Words 将图像保存为 HTML 时调用 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/iimagesavingcallback/imagesaving/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/iimagesavingcallback/imagesaving/
 public void ImageSaving(ImageSavingArgs args)
 ```
 
-### 例子
+## 例子
 
 演示如何将文档拆分为多个部分并保存它们。
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [ImageSavingArgs](../../imagesavingargs/)
 * interface [IImageSavingCallback](../)
-* 命名空间 [Aspose.Words.Saving](../../iimagesavingcallback/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

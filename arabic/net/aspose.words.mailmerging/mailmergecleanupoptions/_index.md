@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCleanupOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.MailMerging.MailMergeCleanupOptions تعداد. تحديد الخيارات التي تحدد العناصر التي تتم إزالتها أثناء دمج البريد.
+title: MailMergeCleanupOptions Enum
+linktitle: MailMergeCleanupOptions
+articleTitle: MailMergeCleanupOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.MailMerging.MailMergeCleanupOptions تعداد. تحديد الخيارات التي تحدد العناصر التي تتم إزالتها أثناء دمج البريد في C#.
 type: docs
 weight: 3850
 url: /ar/net/aspose.words.mailmerging/mailmergecleanupoptions/
@@ -27,7 +29,7 @@ public enum MailMergeCleanupOptions
 | RemoveStaticFields | `10` | يحدد ما إذا كان يجب إزالة الحقول الثابتة من المستند. الحقول الثابتة هي حقول تظل نتائجها كما هي عند أي تغيير في المستند. الحقول التي لا تخزن نتائجها في document ويتم حسابها بسرعة (مثلFieldListNumFieldSymbol ، وما إلى ذلك) لا تعتبر ثابتة. |
 | RemoveEmptyTableRows | `20` | تحديد ما إذا كان يجب إزالة الصفوف الفارغة التي تحتوي على مناطق دمج المراسلات من المستند. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الفقرات الفارغة التي قد تنشئها عملية دمج البريد من مستند إخراج الدمج.
 
@@ -100,5 +102,3 @@ else
 
 * مساحة الاسم [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: FontFallbackSettings.Save
-second_title: Aspose.Words لمراجع .NET API
-description: FontFallbackSettings طريقة. يحفظ الإعدادات الاحتياطية الحالية للبث.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words لـ .NET
+description: FontFallbackSettings Save طريقة. يحفظ الإعدادات الاحتياطية الحالية للبث في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fonts/fontfallbacksettings/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 يحفظ الإعدادات الاحتياطية الحالية للبث.
 
@@ -18,7 +20,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | تيار الإخراج. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل وحفظ إعدادات الخط الاحتياطية من/إلى التدفق.
 
@@ -47,12 +49,12 @@ using (FileStream fontFallbackStream =
 ### أنظر أيضا
 
 * class [FontFallbackSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 يحفظ الإعدادات الاحتياطية الحالية في الملف.
 
@@ -64,7 +66,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | ضع اسم الملف. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل وحفظ إعدادات الخط الاحتياطية من/إلى مستند XML في نظام الملفات المحلي.
 
@@ -85,7 +87,5 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ### أنظر أيضا
 
 * class [FontFallbackSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

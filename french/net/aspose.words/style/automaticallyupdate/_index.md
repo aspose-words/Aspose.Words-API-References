@@ -1,7 +1,9 @@
 ---
 title: Style.AutomaticallyUpdate
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Style propriété. Spécifie si ce style est automatiquement redéfini en fonction de la valeur appropriée.
+linktitle: AutomaticallyUpdate
+articleTitle: AutomaticallyUpdate
+second_title: Aspose.Words pour .NET
+description: Style AutomaticallyUpdate propriété. Spécifie si ce style est automatiquement redéfini en fonction de la valeur appropriée en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/style/automaticallyupdate/
@@ -14,7 +16,7 @@ Spécifie si ce style est automatiquement redéfini en fonction de la valeur app
 public bool AutomaticallyUpdate { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Si la valeur de la propriété est définie sur true, MS Word redéfinit automatiquement le style actuel lorsque le formatage de paragraphe approprié a été modifié.
 
@@ -22,7 +24,7 @@ La propriété AutomaticallyUpdate s’applique uniquement aux styles de paragra
 
 La valeur par défaut est`FAUX`.
 
-### Exemples
+## Exemples
 
 Montre comment créer et appliquer un style personnalisé.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 ### Voir également
 
 * class [Style](../)
-* espace de noms [Aspose.Words](../../style/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

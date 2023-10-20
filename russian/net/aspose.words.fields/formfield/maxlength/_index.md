@@ -1,7 +1,9 @@
 ---
 title: FormField.MaxLength
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Максимальная длина текстового поля. Ноль если длина не ограничена.
+linktitle: MaxLength
+articleTitle: MaxLength
+second_title: Aspose.Words для .NET
+description: FormField MaxLength свойство. Максимальная длина текстового поля. Ноль если длина не ограничена на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.fields/formfield/maxlength/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/formfield/maxlength/
 public int MaxLength { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

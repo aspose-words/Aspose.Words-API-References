@@ -1,7 +1,9 @@
 ---
 title: Row.FirstCell
-second_title: Aspose.Words لمراجع .NET API
-description: Row ملكية. إرجاع الأولCell في الصف.
+linktitle: FirstCell
+articleTitle: FirstCell
+second_title: Aspose.Words لـ .NET
+description: Row FirstCell ملكية. إرجاع الأولCell في الصف في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.tables/row/firstcell/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/row/firstcell/
 public Cell FirstCell { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل جدول في المستند.
 
@@ -178,7 +180,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Cell](../../cell/)
 * class [Row](../)
-* مساحة الاسم [Aspose.Words.Tables](../../row/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

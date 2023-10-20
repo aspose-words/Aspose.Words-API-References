@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.RejectAll
-second_title: Aspose.Words for .NET API 参考
-description: RevisionCollection 方法. 拒绝此集合中的所有修订
+linktitle: RejectAll
+articleTitle: RejectAll
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionCollection RejectAll 方法. 拒绝此集合中的所有修订 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/revisioncollection/rejectall/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/revisioncollection/rejectall/
 public void RejectAll()
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档的修订集合。
 
@@ -70,7 +72,5 @@ Assert.AreEqual(0, revisions.Count);
 ### 也可以看看
 
 * class [RevisionCollection](../)
-* 命名空间 [Aspose.Words](../../revisioncollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

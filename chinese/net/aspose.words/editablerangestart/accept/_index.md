@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.Accept
-second_title: Aspose.Words for .NET API 参考
-description: EditableRangeStart 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: EditableRangeStart Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/editablerangestart/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `错误的`如果访问者请求停止枚举。
 
-### 评论
+## 评论
 
 通话[`VisitEditableRangeStart`](../../documentvisitor/visiteditablerangestart/)。
 
 有关更多信息，请参阅访客设计模式。
 
-### 例子
+## 例子
 
 展示如何将可编辑范围的编辑权限限制为特定组/用户。
 
@@ -140,7 +142,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [EditableRangeStart](../)
-* 命名空间 [Aspose.Words](../../editablerangestart/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

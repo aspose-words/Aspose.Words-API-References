@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlElementSizeOutputMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.HtmlElementSizeOutputMode تعداد. يحدد كيفية تصدير Aspose.Words لعروض العناصر وارتفاعاتها إلى HTML وMHTML وEPUB.
+title: HtmlElementSizeOutputMode Enum
+linktitle: HtmlElementSizeOutputMode
+articleTitle: HtmlElementSizeOutputMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.HtmlElementSizeOutputMode تعداد. يحدد كيفية تصدير Aspose.Words لعروض العناصر وارتفاعاتها إلى HTML وMHTML وEPUB في C#.
 type: docs
 weight: 5060
 url: /ar/net/aspose.words.saving/htmlelementsizeoutputmode/
@@ -22,7 +24,7 @@ public enum HtmlElementSizeOutputMode
 | RelativeOnly | `1` | لا يتم تصدير أحجام العناصر إلا إذا تم تحديدها بوحدات نسبية في المستند. لا يتم تصدير الأحجام الثابتة في هذا الوضع. سيقوم الوكلاء المرئيون بحساب الأحجام المفقودة لجعل تخطيط المستند أكثر طبيعية. |
 | None | `2` | لا يتم تصدير أحجام العناصر. سيقوم الوكلاء المرئيون ببناء التخطيط تلقائيًا وفقًا للعلاقة بين العناصر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحفاظ على المسافات البادئة السلبية في ملف .html للإخراج.
 
@@ -86,5 +88,3 @@ else
 * property [TableWidthOutputMode](../htmlsaveoptions/tablewidthoutputmode/)
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

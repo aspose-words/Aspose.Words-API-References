@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeVerticalPosition
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.RelativeVerticalPosition 枚举. 指定形状或文本框架的垂直位置的相对位置
+title: RelativeVerticalPosition Enum
+linktitle: RelativeVerticalPosition
+articleTitle: RelativeVerticalPosition
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.RelativeVerticalPosition 枚举. 指定形状或文本框架的垂直位置的相对位置 在 C#.
 type: docs
 weight: 1210
 url: /zh/net/aspose.words.drawing/relativeverticalposition/
@@ -29,7 +31,7 @@ public enum RelativeVerticalPosition
 | TableDefault | `0` | 默认值为Margin。 |
 | TextFrameDefault | `2` | 默认值为Paragraph。 |
 
-### 例子
+## 例子
 
 演示如何将浮动图像插入到页面中央。
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [RelativeVerticalPosition](../shapebase/relativeverticalposition/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ThumbnailGeneratingOptions.GenerateFromFirstPage
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ThumbnailGeneratingOptions propriété. Spécifie sil faut générer une vignette à partir de la première page du document ou de la première image.
+linktitle: GenerateFromFirstPage
+articleTitle: GenerateFromFirstPage
+second_title: Aspose.Words pour .NET
+description: ThumbnailGeneratingOptions GenerateFromFirstPage propriété. Spécifie sil faut générer une vignette à partir de la première page du document ou de la première image en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/
@@ -14,11 +16,11 @@ Spécifie s'il faut générer une vignette à partir de la première page du doc
 public bool GenerateFromFirstPage { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`vrai` , ce qui signifie que la vignette sera générée à partir de la première page du document. Si la valeur est`FAUX` et il n'y a pas d'image dans le document, la vignette sera générée à partir de la première page du document.
 
-### Exemples
+## Exemples
 
 Montre comment mettre à jour la miniature d'un document.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### Voir également
 
 * class [ThumbnailGeneratingOptions](../)
-* espace de noms [Aspose.Words.Rendering](../../thumbnailgeneratingoptions/)
+* espace de noms [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Assemblée [Aspose.Words](../../../)
-
-

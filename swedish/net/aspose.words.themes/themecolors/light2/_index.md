@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Light2
-second_title: Aspose.Words för .NET API Referens
-description: ThemeColors fast egendom. Anger färg Ljus 2.
+linktitle: Light2
+articleTitle: Light2
+second_title: Aspose.Words för .NET
+description: ThemeColors Light2 fast egendom. Anger färg Ljus 2 i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.themes/themecolors/light2/
@@ -14,7 +16,7 @@ Anger färg Ljus 2.
 public Color Light2 { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in anpassade färger och teckensnitt för teman.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Se även
 
 * class [ThemeColors](../)
-* namnutrymme [Aspose.Words.Themes](../../themecolors/)
+* namnutrymme [Aspose.Words.Themes](../../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../../)
-
-

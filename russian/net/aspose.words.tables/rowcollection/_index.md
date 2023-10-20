@@ -1,7 +1,9 @@
 ---
-title: Class RowCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Tables.RowCollection сорт. Обеспечивает типизированный доступ к коллекцииRow узлы.
+title: RowCollection Class
+linktitle: RowCollection
+articleTitle: RowCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Tables.RowCollection сорт. Обеспечивает типизированный доступ к коллекцииRow узлы на С#.
 type: docs
 weight: 6320
 url: /ru/net/aspose.words.tables/rowcollection/
@@ -27,17 +29,17 @@ public class RowCollection : NodeCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Добавляет узел в конец коллекции. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | Добавляет узел в конец коллекции. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Удаляет все узлы из этой коллекции и из документа. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Определяет, находится ли узел в коллекции. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | Определяет, находится ли узел в коллекции. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию стиля foreach по коллекции узлов. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Возвращает индекс указанного узла, начинающийся с нуля. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Вставляет узел в коллекцию по указанному индексу. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Удаляет узел из коллекции и из документа. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Удаляет узел по указанному индексу из коллекции и из документа. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | Возвращает индекс указанного узла, начинающийся с нуля. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | Вставляет узел в коллекцию по указанному индексу. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../../aspose.words/node/)*) | Удаляет узел из коллекции и из документа. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Удаляет узел по указанному индексу из коллекции и из документа. |
 | [ToArray](../../aspose.words.tables/rowcollection/toarray/#toarray_1)() | Копирует все строки из коллекции в новый массив строк. (2 methods) |
 
-### Примеры
+## Примеры
 
 Показывает, как перебрать все таблицы в документе и распечатать содержимое каждой ячейки.
 
@@ -85,5 +87,3 @@ for (int i = 0; i < tables.Count; i++)
 * class [NodeCollection](../../aspose.words/nodecollection/)
 * пространство имен [Aspose.Words.Tables](../../aspose.words.tables/)
 * сборка [Aspose.Words](../../)
-
-

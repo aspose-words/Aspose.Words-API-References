@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.TotalEditingTime
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. الحصول على أو تعيين إجمالي وقت التحرير بالدقائق.
+linktitle: TotalEditingTime
+articleTitle: TotalEditingTime
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties TotalEditingTime ملكية. الحصول على أو تعيين إجمالي وقت التحرير بالدقائق في C#.
 type: docs
 weight: 310
 url: /ar/net/aspose.words.properties/builtindocumentproperties/totaleditingtime/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/totaleditingtime/
 public int TotalEditingTime { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند في فئة "الأصل".
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

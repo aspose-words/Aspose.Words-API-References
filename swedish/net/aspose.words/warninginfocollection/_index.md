@@ -1,7 +1,9 @@
 ---
-title: Class WarningInfoCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.WarningInfoCollection klass. Representerar en maskinskriven samling avWarningInfo objekt.
+title: WarningInfoCollection Class
+linktitle: WarningInfoCollection
+articleTitle: WarningInfoCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.WarningInfoCollection klass. Representerar en maskinskriven samling avWarningInfo objekt i C#.
 type: docs
 weight: 6640
 url: /sv/net/aspose.words/warninginfocollection/
@@ -35,13 +37,13 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear/)() | Tar bort alla element från samlingen. |
 | [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
-| [Warning](../../aspose.words/warninginfocollection/warning/)(WarningInfo) | Implementerar[`IWarningCallback`](../iwarningcallback/) gränssnitt. Lägger till en varning för den här samlingen. |
+| [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | Implementerar[`IWarningCallback`](../iwarningcallback/) gränssnitt. Lägger till en varning för den här samlingen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan använda detta samlingsobjekt som den enklaste formen av[`IWarningCallback`](../iwarningcallback/) implementering för att samla in alla varningar som Aspose.Words genererar under en laddnings- eller sparoperation. Skapa en instans av den här klassen och tilldela den till[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) eller[`WarningCallback`](../documentbase/warningcallback/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
 
@@ -104,5 +106,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 * interface [IWarningCallback](../iwarningcallback/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

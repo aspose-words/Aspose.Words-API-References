@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.IsFrame
-second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. إرجاعحقيقي إذا كانت الفقرة عبارة عن إطار.
+linktitle: IsFrame
+articleTitle: IsFrame
+second_title: Aspose.Words لـ .NET
+description: FrameFormat IsFrame ملكية. إرجاعحقيقي إذا كانت الفقرة عبارة عن إطار في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/frameformat/isframe/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/frameformat/isframe/
 public bool IsFrame { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### أنظر أيضا
 
 * class [FrameFormat](../)
-* مساحة الاسم [Aspose.Words](../../frameformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

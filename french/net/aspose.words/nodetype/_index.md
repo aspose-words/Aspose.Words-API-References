@@ -1,7 +1,9 @@
 ---
-title: Enum NodeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.NodeType énumération. Spécifie le type dun nœud de document Word.
+title: NodeType Enum
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.NodeType énumération. Spécifie le type dun nœud de document Word en C#.
 type: docs
 weight: 4230
 url: /fr/net/aspose.words/nodetype/
@@ -47,8 +49,8 @@ public enum NodeType
 | SpecialChar | `26` | Caractère spécial qui ne fait pas partie des types de caractères spéciaux les plus spécifiques. |
 | SmartTag | `27` | Une balise active autour d'une ou plusieurs structures en ligne (exécutions, images, champs, etc.) dans un paragraphe |
 | StructuredDocumentTag | `28` | Permet de définir les informations spécifiques au client et ses modalités de présentation. |
-| StructuredDocumentTagRangeStart | `29` | Un début de **à distance** balise de document structuré qui accepte le contenu multi-sections. |
-| StructuredDocumentTagRangeEnd | `30` | Une fin de **à distance** balise de document structuré qui accepte le contenu multi-sections. |
+| StructuredDocumentTagRangeStart | `29` | Un début de**à distance** balise de document structuré qui accepte le contenu multi-sections. |
+| StructuredDocumentTagRangeEnd | `30` | Une fin de**à distance** balise de document structuré qui accepte le contenu multi-sections. |
 | GlossaryDocument | `31` | Un document glossaire dans le document principal. |
 | BuildingBlock | `32` | Un élément de base dans un document de glossaire (par exemple, entrée de document de glossaire). |
 | CommentRangeStart | `33` | Un nœud marqueur qui représente le début d'une plage commentée. |
@@ -58,7 +60,7 @@ public enum NodeType
 | System | `37` | Réservé à un usage interne par Aspose.Words. |
 | Null | `38` | Réservé à un usage interne par Aspose.Words. |
 
-### Exemples
+## Exemples
 
 Montre comment parcourir la collection de nœuds enfants d’un nœud composite.
 
@@ -104,5 +106,3 @@ foreach (Node child in children)
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportImagesAsBase64
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt an ob Bilder im Base64Format in der AusgabeHTML MHTML oder EPUB gespeichert werden. Standard istFALSCH .
+linktitle: ExportImagesAsBase64
+articleTitle: ExportImagesAsBase64
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ExportImagesAsBase64 eigendom. Gibt an ob Bilder im Base64Format in der AusgabeHTML MHTML oder EPUB gespeichert werden. Standard istFALSCH  in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportimagesasbase64/
@@ -14,11 +16,11 @@ Gibt an, ob Bilder im Base64-Format in der Ausgabe-HTML, MHTML oder EPUB gespeic
 public bool ExportImagesAsBase64 { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
-Wenn diese Eigenschaft auf festgelegt ist`WAHR` Bilddaten werden direkt in das exportiert  **Bild** Elemente und separate Dateien werden nicht erstellt.
+Wenn diese Eigenschaft auf festgelegt ist`WAHR` Bilddaten werden direkt in das exportiert **Bild** Elemente und separate Dateien werden nicht erstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Schriftarten in ein gespeichertes HTML-Dokument eingebettet werden.
 
@@ -58,7 +60,5 @@ Assert.True(exportImagesAsBase64
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

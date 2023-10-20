@@ -1,7 +1,9 @@
 ---
 title: FormField.Type
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Gibt den Formularfeldtyp zurück.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words für .NET
+description: FormField Type eigendom. Gibt den Formularfeldtyp zurück in C#.
 type: docs
 weight: 220
 url: /de/net/aspose.words.fields/formfield/type/
@@ -14,7 +16,7 @@ Gibt den Formularfeldtyp zurück.
 public FieldType Type { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Kombinationsfeld eingefügt wird.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 
 * enum [FieldType](../../fieldtype/)
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

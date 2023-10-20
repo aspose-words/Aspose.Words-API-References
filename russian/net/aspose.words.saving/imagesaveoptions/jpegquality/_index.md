@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.JpegQuality
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions свойство. Получает или задает значение определяющее качество создаваемых изображений JPEG.
+linktitle: JpegQuality
+articleTitle: JpegQuality
+second_title: Aspose.Words для .NET
+description: ImageSaveOptions JpegQuality свойство. Получает или задает значение определяющее качество создаваемых изображений JPEG на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/imagesaveoptions/jpegquality/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/imagesaveoptions/jpegquality/
 public int JpegQuality { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Действует только при сохранении в формате JPEG.
 
@@ -22,7 +24,7 @@ public int JpegQuality { get; set; }
 
 Значение по умолчанию — 95.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить сжатие при сохранении документа в формате JPEG.
 
@@ -55,7 +57,5 @@ Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Jpe
 ### Смотрите также
 
 * class [ImageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../imagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TaskPane.Width
-second_title: Referencia de API de Aspose.Words para .NET
-description: TaskPane propiedad. Especifica el valor de ancho predeterminado para esta instancia del panel de tareas.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words para .NET
+description: TaskPane Width propiedad. Especifica el valor de ancho predeterminado para esta instancia del panel de tareas en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.webextensions/taskpane/width/
@@ -14,7 +16,7 @@ Especifica el valor de ancho predeterminado para esta instancia del panel de tar
 public double Width { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar una extensión web a un documento.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ver también
 
 * class [TaskPane](../)
-* espacio de nombres [Aspose.Words.WebExtensions](../../taskpane/)
+* espacio de nombres [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../../)
-
-

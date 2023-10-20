@@ -1,7 +1,9 @@
 ---
 title: FieldCreateDate.UseSakaEraCalendar
-second_title: Aspose.Words för .NET API Referens
-description: FieldCreateDate fast egendom. Hämtar eller ställer in om Saka Erakalendern ska användas.
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: Aspose.Words för .NET
+description: FieldCreateDate UseSakaEraCalendar fast egendom. Hämtar eller ställer in om Saka Erakalendern ska användas i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldcreatedate/usesakaeracalendar/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om Saka Era-kalendern ska användas.
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder fältet CREATEDATE för att visa datum/tid för dokumentet.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");
 ### Se även
 
 * class [FieldCreateDate](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcreatedate/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

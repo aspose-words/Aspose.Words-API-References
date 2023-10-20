@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.Text
-second_title: Aspose.Words for .NET API Referansı
-description: MustacheTag mülk. Etiketin metnini alır.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words for .NET
+description: MustacheTag Text mülk. Etiketin metnini alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.mailmerging/mustachetag/text/
@@ -14,7 +16,7 @@ Etiketin metnini alır.
 public string Text { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bıyık etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -41,7 +43,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 ### Ayrıca bakınız
 
 * class [MustacheTag](../)
-* ad alanı [Aspose.Words.MailMerging](../../mustachetag/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

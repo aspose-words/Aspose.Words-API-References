@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Description
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuildingBlock eigendom. Ruft die diesem Baustein zugeordnete Beschreibung ab oder legt diese fest.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words für .NET
+description: BuildingBlock Description eigendom. Ruft die diesem Baustein zugeordnete Beschreibung ab oder legt diese fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.buildingblocks/buildingblock/description/
@@ -14,15 +16,15 @@ Ruft die diesem Baustein zugeordnete Beschreibung ab oder legt diese fest.
 public string Description { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Beschreibung kann beliebige Zeichenfolgeninhalte enthalten, in der Regel zusätzliche Informationen.
 
 Kann nicht sein`Null`, kann aber eine leere Zeichenfolge sein.
 
-Entspricht dem **docPartPr.description** Element in OOXML.
+Entspricht dem**docPartPr.description** Element in OOXML.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument einen benutzerdefinierten Baustein hinzufügt.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [BuildingBlock](../)
-* namensraum [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namensraum [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../../)
-
-

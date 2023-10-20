@@ -1,7 +1,9 @@
 ---
-title: Class PageSavingArgs
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.PageSavingArgs clase. Proporciona datos para elPageSaving evento.
+title: PageSavingArgs Class
+linktitle: PageSavingArgs
+articleTitle: PageSavingArgs
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.PageSavingArgs clase. Proporciona datos para elPageSaving evento en C#.
 type: docs
 weight: 5380
 url: /es/net/aspose.words.saving/pagesavingargs/
@@ -31,7 +33,7 @@ public class PageSavingArgs
 | [PageIndex](../../aspose.words.saving/pagesavingargs/pageindex/) { get; } | Índice de la página actual. |
 | [PageStream](../../aspose.words.saving/pagesavingargs/pagestream/) { get; set; } | Permite especificar la secuencia donde se guardará la página del documento. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una devolución de llamada para guardar un documento en HTML página por página.
 
@@ -89,5 +91,3 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

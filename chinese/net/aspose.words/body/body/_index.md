@@ -1,7 +1,9 @@
 ---
-title: Body.Body
-second_title: Aspose.Words for .NET API 参考
-description: Body 构造函数. 初始化一个新实例Body类.
+title: Body
+linktitle: Body
+articleTitle: Body
+second_title: 用于 .NET 的 Aspose.Words
+description: Body 构造函数. 初始化一个新实例Body类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/body/body/
@@ -18,13 +20,13 @@ public Body(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | 所有者文件。 |
 
-### 评论
+## 评论
 
 什么时候[`Body`](../)创建后，它属于指定文档，但还不是 文档的一部分并且[`ParentNode`](../../node/parentnode/)是`无效的`。
 
-追加[`Body`](../)到一个[`Section`](../../section/)使用附加子项, 之后插入或者插入之前方法。
+追加[`Body`](../)到一个[`Section`](../../section/)使用[`附加子项`](../../compositenode/appendchild/), [`之后插入`](../../compositenode/insertafter/)或者[`插入之前`](../../compositenode/insertbefore/)方法。
 
-### 例子
+## 例子
 
 展示如何手动构建 Aspose.Words 文档。
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Body](../)
-* 命名空间 [Aspose.Words](../../body/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

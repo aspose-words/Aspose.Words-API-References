@@ -1,9 +1,11 @@
 ---
 title: Fill.ForeThemeColor
-second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获取或设置一个 ThemeColor 对象该对象表示填充的前景色
+linktitle: ForeThemeColor
+articleTitle: ForeThemeColor
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill ForeThemeColor 财产. 获取或设置一个 ThemeColor 对象该对象表示填充的前景色 在 C#.
 type: docs
-weight: 80
+weight: 70
 url: /zh/net/aspose.words.drawing/fill/forethemecolor/
 ---
 ## Fill.ForeThemeColor property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/fill/forethemecolor/
 public ThemeColor ForeThemeColor { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置前景色/背景形状颜色的主题颜色。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

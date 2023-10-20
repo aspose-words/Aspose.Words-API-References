@@ -1,7 +1,9 @@
 ---
-title: Enum PropertyType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Properties.PropertyType Sıralama. Bir belge özelliğinin veri türünü belirtir.
+title: PropertyType Enum
+linktitle: PropertyType
+articleTitle: PropertyType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Properties.PropertyType Sıralama. Bir belge özelliğinin veri türünü belirtir C#'da.
 type: docs
 weight: 4500
 url: /tr/net/aspose.words.properties/propertytype/
@@ -28,7 +30,7 @@ public enum PropertyType
 | ByteArray | `7` | Özellik bir bayt dizisidir. |
 | Other | `8` | Özellik başka bir türdedir. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin özel özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -91,5 +93,3 @@ Assert.AreEqual(0, properties.Count);
 * property [Type](../documentproperty/type/)
 * ad alanı [Aspose.Words.Properties](../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../)
-
-

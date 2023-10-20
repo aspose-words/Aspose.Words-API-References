@@ -1,7 +1,9 @@
 ---
 title: FontInfo.AltName
-second_title: Aspose.Words لمراجع .NET API
-description: FontInfo ملكية. الحصول على الاسم البديل للخط أو تعيينه.
+linktitle: AltName
+articleTitle: AltName
+second_title: Aspose.Words لـ .NET
+description: FontInfo AltName ملكية. الحصول على الاسم البديل للخط أو تعيينه في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/fontinfo/altname/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fonts/fontinfo/altname/
 public string AltName { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن`باطل`. يمكن أن تكون سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى تفاصيل كل خط في المستند وطباعتها.
 
@@ -57,7 +59,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### أنظر أيضا
 
 * class [FontInfo](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontinfo/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

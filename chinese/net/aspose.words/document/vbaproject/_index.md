@@ -1,7 +1,9 @@
 ---
 title: Document.VbaProject
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取或设置VbaProject.
+linktitle: VbaProject
+articleTitle: VbaProject
+second_title: 用于 .NET 的 Aspose.Words
+description: Document VbaProject 财产. 获取或设置VbaProject 在 C#.
 type: docs
 weight: 450
 url: /zh/net/aspose.words/document/vbaproject/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/vbaproject/
 public VbaProject VbaProject { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问文档的 VBA 项目信息。
 
@@ -46,7 +48,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaProject](../../../aspose.words.vba/vbaproject/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

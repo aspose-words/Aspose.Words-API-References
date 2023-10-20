@@ -1,7 +1,9 @@
 ---
 title: ImageData.IsLink
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageData eigendom. Gibt zurückWAHR wenn das Bild mit der Form verknüpft ist wannSourceFullName angegeben ist.
+linktitle: IsLink
+articleTitle: IsLink
+second_title: Aspose.Words für .NET
+description: ImageData IsLink eigendom. Gibt zurückWAHR wenn das Bild mit der Form verknüpft ist wannSourceFullName angegeben ist in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words.drawing/imagedata/islink/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn das Bild mit der Form verknüpft ist (wann[`SourceFullNa
 public bool IsLink { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Bilddaten einer Form bearbeitet werden.
 
@@ -77,7 +79,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Siehe auch
 
 * class [ImageData](../)
-* namensraum [Aspose.Words.Drawing](../../imagedata/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

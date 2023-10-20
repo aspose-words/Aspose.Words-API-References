@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Remove
-second_title: Aspose.Words for .NET API 参考
-description: FormFieldCollection 方法. 删除具有指定名称的表单字段
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: FormFieldCollection Remove 方法. 删除具有指定名称的表单字段 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/formfieldcollection/remove/
@@ -18,11 +20,11 @@ public void Remove(string formField)
 | --- | --- | --- |
 | formField | String | 要删除的表单字段的名称（不区分大小写）。 |
 
-### 评论
+## 评论
 
 如果存在与表单字段关联的书签，则不会删除该书签。
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormFieldCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../formfieldcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

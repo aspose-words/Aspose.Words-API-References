@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFootnoteEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда перечисление текста сноски или концевой сноски завершено.
+linktitle: VisitFootnoteEnd
+articleTitle: VisitFootnoteEnd
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitFootnoteEnd метод. Вызывается когда перечисление текста сноски или концевой сноски завершено на С#.
 type: docs
 weight: 210
 url: /ru/net/aspose.words/documentvisitor/visitfootnoteend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждой сноски в документе.
 
@@ -116,7 +118,5 @@ public class FootnoteStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

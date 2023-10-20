@@ -1,7 +1,9 @@
 ---
 title: Run.IsPhoneticGuide
-second_title: Aspose.Words for .NET API 参考
-description: Run 财产. 获取一个布尔值指示该运行是语音指南
+linktitle: IsPhoneticGuide
+articleTitle: IsPhoneticGuide
+second_title: 用于 .NET 的 Aspose.Words
+description: Run IsPhoneticGuide 财产. 获取一个布尔值指示该运行是语音指南 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/run/isphoneticguide/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/run/isphoneticguide/
 public bool IsPhoneticGuide { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何获取拼音指南的属性。
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### 也可以看看
 
 * class [Run](../)
-* 命名空间 [Aspose.Words](../../run/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

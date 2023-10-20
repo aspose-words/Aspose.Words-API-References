@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: ListLevelCollection 财产. 按索引获取列表级别
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevelCollection Item 财产. 按索引获取列表级别 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.lists/listlevelcollection/item/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.lists/listlevelcollection/item/
 public ListLevel this[int index] { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建列表样式并在文档中使用它。
 
@@ -130,7 +132,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListLevelCollection](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevelcollection/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

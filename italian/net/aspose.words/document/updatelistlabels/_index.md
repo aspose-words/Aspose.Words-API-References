@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateListLabels
-second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Aggiorna le etichette dellelenco per tutti gli elementi dellelenco nel documento.
+linktitle: UpdateListLabels
+articleTitle: UpdateListLabels
+second_title: Aspose.Words per .NET
+description: Document UpdateListLabels metodo. Aggiorna le etichette dellelenco per tutti gli elementi dellelenco nel documento in C#.
 type: docs
-weight: 780
+weight: 760
 url: /it/net/aspose.words/document/updatelistlabels/
 ---
 ## Document.UpdateListLabels method
@@ -14,13 +16,13 @@ Aggiorna le etichette dell'elenco per tutti gli elementi dell'elenco nel documen
 public void UpdateListLabels()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo aggiorna le proprietà dell'etichetta dell'elenco come[`LabelValue`](../../../aspose.words.lists/listlabel/labelvalue/) e [`LabelString`](../../../aspose.words.lists/listlabel/labelstring/) per ciascuno[`ListLabel`](../../paragraph/listlabel/)oggetto nel documento.
 
 Inoltre, questo metodo a volte viene chiamato implicitamente durante l'aggiornamento dei campi nel documento. Questo è obbligatorio perché alcuni campi che possono fare riferimento a numeri di elenco (come TOC o REF) necessitano che siano aggiornati.
 
-### Esempi
+## Esempi
 
 Mostra come estrarre le etichette dell'elenco di tutti i paragrafi che sono elementi dell'elenco.
 
@@ -55,7 +57,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

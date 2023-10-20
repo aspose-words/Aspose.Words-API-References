@@ -1,7 +1,9 @@
 ---
-title: Class FieldUpdatingProgressArgs
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldUpdatingProgressArgs сорт. Предоставляет данные для события хода обновления поля.
+title: FieldUpdatingProgressArgs Class
+linktitle: FieldUpdatingProgressArgs
+articleTitle: FieldUpdatingProgressArgs
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldUpdatingProgressArgs сорт. Предоставляет данные для события хода обновления поля на С#.
 type: docs
 weight: 2570
 url: /ru/net/aspose.words.fields/fieldupdatingprogressargs/
@@ -26,5 +28,3 @@ public sealed class FieldUpdatingProgressArgs
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

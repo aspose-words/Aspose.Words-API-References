@@ -1,7 +1,9 @@
 ---
-title: Class KnownTypeSet
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Reporting.KnownTypeSet sınıf. Aşağıdakileri içeren sırasız bir kümeyi yani benzersiz öğelerden oluşan bir koleksiyon temsil ederType karşılık gelen türlerinin statik üyelerini çağırmak tür dönüşümleri gerçekleştirmek vb. için rapor şablonları içinde tamamen veya kısmen nitelenmiş adların kullanılabildiği nesneleri.
+title: KnownTypeSet Class
+linktitle: KnownTypeSet
+articleTitle: KnownTypeSet
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Reporting.KnownTypeSet sınıf. Aşağıdakileri içeren sırasız bir kümeyi yani benzersiz öğelerden oluşan bir koleksiyon temsil ederType karşılık gelen türlerinin statik üyelerini çağırmak tür dönüşümleri gerçekleştirmek vb. için rapor şablonları içinde tamamen veya kısmen nitelenmiş adların kullanılabildiği nesneleri C#'da.
 type: docs
 weight: 4710
 url: /tr/net/aspose.words.reporting/knowntypeset/
@@ -26,14 +28,12 @@ public class KnownTypeSet : IEnumerable<Type>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.reporting/knowntypeset/add/)(Type) | Belirtilenleri eklerType sete itiraz ediyorum. AtarArgumentException in aşağıdaki durumlarda: |
+| [Add](../../aspose.words.reporting/knowntypeset/add/)(*Type*) | Belirtilenleri eklerType sete itiraz ediyorum. AtarArgumentException in aşağıdaki durumlarda: |
 | [Clear](../../aspose.words.reporting/knowntypeset/clear/)() | Setteki tüm öğeleri kaldırır. |
 | [GetEnumerator](../../aspose.words.reporting/knowntypeset/getenumerator/)() | Bir Değeri DöndürürIEnumerator kümenin öğeleri üzerinde yinelenecek nesne. |
-| [Remove](../../aspose.words.reporting/knowntypeset/remove/)(Type) | Belirtilenleri kaldırırTypekümeden nesne. AtarArgumentException if *type* dır-dir`hükümsüz` . |
+| [Remove](../../aspose.words.reporting/knowntypeset/remove/)(*Type*) | Belirtilenleri kaldırırTypekümeden nesne. AtarArgumentException if *type* dır-dir`hükümsüz` . |
 
 ### Ayrıca bakınız
 
 * ad alanı [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../)
-
-

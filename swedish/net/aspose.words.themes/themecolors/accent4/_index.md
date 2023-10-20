@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent4
-second_title: Aspose.Words för .NET API Referens
-description: ThemeColors fast egendom. Anger färg Accent 4.
+linktitle: Accent4
+articleTitle: Accent4
+second_title: Aspose.Words för .NET
+description: ThemeColors Accent4 fast egendom. Anger färg Accent 4 i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.themes/themecolors/accent4/
@@ -14,7 +16,7 @@ Anger färg Accent 4.
 public Color Accent4 { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in anpassade färger och teckensnitt för teman.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Se även
 
 * class [ThemeColors](../)
-* namnutrymme [Aspose.Words.Themes](../../themecolors/)
+* namnutrymme [Aspose.Words.Themes](../../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../../)
-
-

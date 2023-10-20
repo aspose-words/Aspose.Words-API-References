@@ -1,7 +1,9 @@
 ---
 title: TextBox.Previous
-second_title: Aspose.Words لمراجع .NET API
-description: TextBox ملكية. إرجاع أTextBox الذي يمثل السابقTextBox في تسلسل من الأشكال.
+linktitle: Previous
+articleTitle: Previous
+second_title: Aspose.Words لـ .NET
+description: TextBox Previous ملكية. إرجاع أTextBox الذي يمثل السابقTextBox في تسلسل من الأشكال في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.drawing/textbox/previous/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/textbox/previous/
 public TextBox Previous { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ربط مربعات النص.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### أنظر أيضا
 
 * class [TextBox](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textbox/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

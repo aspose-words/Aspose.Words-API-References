@@ -1,7 +1,9 @@
 ---
 title: TabStop.Equals
-second_title: Aspose.Words لمراجع .NET API
-description: TabStop طريقة. يقارن مع المحددTabStop .
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words لـ .NET
+description: TabStop Equals طريقة. يقارن مع المحددTabStop  في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/tabstop/equals/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tabstop/equals/
 public bool Equals(TabStop rhs)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع مجموعة علامات الجدولة الخاصة بالمستند.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### أنظر أيضا
 
 * class [TabStop](../)
-* مساحة الاسم [Aspose.Words](../../tabstop/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

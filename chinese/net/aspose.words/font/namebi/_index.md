@@ -1,7 +1,9 @@
 ---
 title: Font.NameBi
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 返回或设置从右到左语言文档中的字体名称
+linktitle: NameBi
+articleTitle: NameBi
+second_title: 用于 .NET 的 Aspose.Words
+description: Font NameBi 财产. 返回或设置从右到左语言文档中的字体名称 在 C#.
 type: docs
 weight: 250
 url: /zh/net/aspose.words/font/namebi/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/namebi/
 public string NameBi { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何为从右到左和从右到左的文本定义单独的字体设置集。
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

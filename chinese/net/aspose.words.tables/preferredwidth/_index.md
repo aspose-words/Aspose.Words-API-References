@@ -1,7 +1,9 @@
 ---
-title: Class PreferredWidth
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Tables.PreferredWidth 班级. 表示一个值及其测量单位用于指定表格或单元格的首选宽度
+title: PreferredWidth Class
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Tables.PreferredWidth 班级. 表示一个值及其测量单位用于指定表格或单元格的首选宽度 在 C#.
 type: docs
 weight: 6290
 url: /zh/net/aspose.words.tables/preferredwidth/
@@ -27,10 +29,10 @@ public sealed class PreferredWidth
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(double) | 一种创建方法，返回一个新实例，该实例表示指定为百分比的首选宽度。 |
-| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(double) | 一种创建方法，返回一个新实例，该实例表示使用多个点指定的首选宽度。 |
-| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(object) | 确定指定对象的值是否等于当前对象。 |
-| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(PreferredWidth) | 判断是否指定`PreferredWidth`与当前值相等`PreferredWidth`. |
+| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(*double*) | 一种创建方法，返回一个新实例，该实例表示指定为百分比的首选宽度。 |
+| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(*double*) | 一种创建方法，返回一个新实例，该实例表示使用多个点指定的首选宽度。 |
+| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(*object*) | 确定指定对象的值是否等于当前对象。 |
+| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(*PreferredWidth*) | 判断是否指定`PreferredWidth`与当前值相等`PreferredWidth`. |
 | override [GetHashCode](../../aspose.words.tables/preferredwidth/gethashcode/)() | 用作此类型的哈希函数。 |
 | override [ToString](../../aspose.words.tables/preferredwidth/tostring/)() | 返回一个用户友好的字符串，显示该对象的值。 |
 
@@ -40,13 +42,13 @@ public sealed class PreferredWidth
 | --- | --- |
 | static readonly [Auto](../../aspose.words.tables/preferredwidth/auto/) | 返回一个表示“未指定首选宽度”值的实例。 |
 
-### 评论
+## 评论
 
 首选宽度可以指定为百分比、点数或特殊的“无/自动”值。
 
 该类的实例是不可变的。
 
-### 例子
+## 例子
 
 演示如何将表格设置为自动适合页面宽度的 50%。
 
@@ -106,5 +108,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 * 命名空间 [Aspose.Words.Tables](../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../)
-
-

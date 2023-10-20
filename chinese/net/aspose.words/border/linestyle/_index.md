@@ -1,7 +1,9 @@
 ---
 title: Border.LineStyle
-second_title: Aspose.Words for .NET API 参考
-description: Border 财产. 获取或设置边框样式
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: Border LineStyle 财产. 获取或设置边框样式 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/border/linestyle/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/border/linestyle/
 public LineStyle LineStyle { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果将线条样式设置为无，则线条宽度将自动更改为零。
 
-### 例子
+## 例子
 
 演示如何将边框包围的字符串插入到文档中。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * enum [LineStyle](../../linestyle/)
 * class [Border](../)
-* 命名空间 [Aspose.Words](../../border/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

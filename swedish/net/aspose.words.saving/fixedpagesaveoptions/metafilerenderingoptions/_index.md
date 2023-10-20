@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.MetafileRenderingOptions
-second_title: Aspose.Words för .NET API Referens
-description: FixedPageSaveOptions fast egendom. Tillåter att ange alternativ för metafilrendering.
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: Aspose.Words för .NET
+description: FixedPageSaveOptions MetafileRenderingOptions fast egendom. Tillåter att ange alternativ för metafilrendering i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/
@@ -14,7 +16,7 @@ Tillåter att ange alternativ för metafilrendering.
 public MetafileRenderingOptions MetafileRenderingOptions { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar lade till en reserv till bitmappsrendering och ändrade typ av varningar om metafilposter som inte stöds.
 
@@ -70,7 +72,5 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * class [FixedPageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

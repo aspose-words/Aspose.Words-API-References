@@ -1,7 +1,9 @@
 ---
 title: FieldAuthor.AuthorName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAuthor свойство. Получает или задает имя автора документа.
+linktitle: AuthorName
+articleTitle: AuthorName
+second_title: Aspose.Words для .NET
+description: FieldAuthor AuthorName свойство. Получает или задает имя автора документа на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldauthor/authorname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldauthor/authorname/
 public string AuthorName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле АВТОР для отображения имени создателя документа.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Field.AUTHOR.docx");
 ### Смотрите также
 
 * class [FieldAuthor](../)
-* пространство имен [Aspose.Words.Fields](../../fieldauthor/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

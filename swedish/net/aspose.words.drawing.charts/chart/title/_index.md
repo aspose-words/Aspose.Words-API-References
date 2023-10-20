@@ -1,7 +1,9 @@
 ---
 title: Chart.Title
-second_title: Aspose.Words för .NET API Referens
-description: Chart fast egendom. Ger tillgång till egenskaperna för diagramtiteln.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words för .NET
+description: Chart Title fast egendom. Ger tillgång till egenskaperna för diagramtiteln i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.drawing.charts/chart/title/
@@ -14,7 +16,7 @@ Ger tillgång till egenskaperna för diagramtiteln.
 public ChartTitle Title { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett diagram och ställer in en titel.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * class [ChartTitle](../../charttitle/)
 * class [Chart](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chart/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

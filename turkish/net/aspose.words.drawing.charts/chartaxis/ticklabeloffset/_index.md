@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelOffset
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Etiketlerin eksene olan mesafesini alır veya ayarlar.
+linktitle: TickLabelOffset
+articleTitle: TickLabelOffset
+second_title: Aspose.Words for .NET
+description: ChartAxis TickLabelOffset mülk. Etiketlerin eksene olan mesafesini alır veya ayarlar C#'da.
 type: docs
 weight: 230
 url: /tr/net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/
@@ -14,7 +16,7 @@ Etiketlerin eksene olan mesafesini alır veya ayarlar.
 public int TickLabelOffset { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Özellik, varsayılan etiket uzaklığının bir yüzdesini temsil eder.
 
@@ -22,7 +24,7 @@ Geçerli aralık yüzde 0 ila 1000 arasındadır. Varsayılan değer %100'dür.
 
 Özelliğin yalnızca kategori eksenleri için etkisi vardır. MS Office 2016 yeni çizelgeleri tarafından desteklenmemektedir.
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Ayrıca bakınız
 
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

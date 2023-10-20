@@ -1,7 +1,9 @@
 ---
 title: Font.Border
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Gibt a zurückBorder Objekt das den Rahmen für die Schriftart angibt.
+linktitle: Border
+articleTitle: Border
+second_title: Aspose.Words für .NET
+description: Font Border eigendom. Gibt a zurückBorder Objekt das den Rahmen für die Schriftart angibt in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/font/border/
@@ -14,7 +16,7 @@ Gibt a zurück[`Border`](../../border/) Objekt, das den Rahmen für die Schrifta
 public Border Border { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine von einem Rahmen umgebene Zeichenfolge in ein Dokument einfügt.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * class [Border](../../border/)
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

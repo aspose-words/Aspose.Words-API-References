@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: FieldCollection 财产. 返回指定索引处的字段
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldCollection Item 财产. 返回指定索引处的字段 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldcollection/item/
@@ -18,7 +20,7 @@ public Field this[int index] { get; }
 | --- | --- |
 | index | 集合的索引。 |
 
-### 评论
+## 评论
 
 该索引是从零开始的。
 
@@ -28,7 +30,7 @@ public Field this[int index] { get; }
 
 如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
 
-### 例子
+## 例子
 
 演示如何从字段集合中删除字段。
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, fields.Count);
 
 * class [Field](../../field/)
 * class [FieldCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: FontFallbackSettings.Load
-second_title: Aspose.Words لمراجع .NET API
-description: FontFallbackSettings طريقة. تحميل الإعدادات الاحتياطية للخط من ملف XML.
+linktitle: Load
+articleTitle: Load
+second_title: Aspose.Words لـ .NET
+description: FontFallbackSettings Load طريقة. تحميل الإعدادات الاحتياطية للخط من ملف XML في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/fontfallbacksettings/load/
 ---
-## Load(string) {#load_1}
+## Load(*string*) {#load_1}
 
 تحميل الإعدادات الاحتياطية للخط من ملف XML.
 
@@ -18,7 +20,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | اسم ملف الإدخال. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل وحفظ إعدادات الخط الاحتياطية من/إلى مستند XML في نظام الملفات المحلي.
 
@@ -39,12 +41,12 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ### أنظر أيضا
 
 * class [FontFallbackSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Load(Stream) {#load}
+## Load(*Stream*) {#load}
 
 يقوم بتحميل الإعدادات الاحتياطية من تدفق XML.
 
@@ -56,7 +58,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | تيار الإدخال. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل وحفظ إعدادات الخط الاحتياطية من/إلى التدفق.
 
@@ -85,7 +87,5 @@ using (FileStream fontFallbackStream =
 ### أنظر أيضا
 
 * class [FontFallbackSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.Add
-second_title: Aspose.Words for .NET API Referansı
-description: KnownTypeSet yöntem. Belirtilenleri eklerType sete itiraz ediyorum. AtarArgumentException in aşağıdaki durumlarda
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: KnownTypeSet Add yöntem. Belirtilenleri eklerType sete itiraz ediyorum. AtarArgumentException in aşağıdaki durumlarda C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.reporting/knowntypeset/add/
@@ -33,7 +35,5 @@ public void Add(Type type)
 ### Ayrıca bakınız
 
 * class [KnownTypeSet](../)
-* ad alanı [Aspose.Words.Reporting](../../knowntypeset/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
-
-

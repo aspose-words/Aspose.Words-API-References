@@ -1,7 +1,9 @@
 ---
-title: Enum PreferredWidthType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Tables.PreferredWidthType opsomming. Gibt die Maßeinheit für die bevorzugte Breite einer Tabelle oder Zelle an.
+title: PreferredWidthType Enum
+linktitle: PreferredWidthType
+articleTitle: PreferredWidthType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Tables.PreferredWidthType opsomming. Gibt die Maßeinheit für die bevorzugte Breite einer Tabelle oder Zelle an in C#.
 type: docs
 weight: 6300
 url: /de/net/aspose.words.tables/preferredwidthtype/
@@ -22,7 +24,7 @@ public enum PreferredWidthType
 | Percent | `2` | Messen Sie die aktuelle Artikelbreite mit einem angegebenen Prozentsatz. |
 | Points | `3` | Messen Sie die aktuelle Artikelbreite anhand einer angegebenen Anzahl von Punkten (1/72 Zoll). |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie den bevorzugten Breitentyp und Wert einer Tabellenzelle überprüfen.
 
@@ -41,5 +43,3 @@ Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
 * class [PreferredWidth](../preferredwidth/)
 * namensraum [Aspose.Words.Tables](../../aspose.words.tables/)
 * Montage [Aspose.Words](../../)
-
-

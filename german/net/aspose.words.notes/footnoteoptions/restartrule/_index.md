@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.RestartRule
-second_title: Aspose.Words für .NET-API-Referenz
-description: FootnoteOptions eigendom. Legt fest wann die automatische Nummerierung neu startet.
+linktitle: RestartRule
+articleTitle: RestartRule
+second_title: Aspose.Words für .NET
+description: FootnoteOptions RestartRule eigendom. Legt fest wann die automatische Nummerierung neu startet in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.notes/footnoteoptions/restartrule/
@@ -14,7 +16,7 @@ Legt fest, wann die automatische Nummerierung neu startet.
 public FootnoteNumberingRule RestartRule { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Fußnoten-/Endnotennummerierung an bestimmten Stellen im Dokument neu gestartet wird.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * enum [FootnoteNumberingRule](../../footnotenumberingrule/)
 * class [FootnoteOptions](../)
-* namensraum [Aspose.Words.Notes](../../footnoteoptions/)
+* namensraum [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Montage [Aspose.Words](../../../)
-
-

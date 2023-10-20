@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.PrefixMappings
-second_title: Referencia de API de Aspose.Words para .NET
-description: XmlMapping propiedad. Devuelve asignaciones de prefijos de espacios de nombres XML para evaluar laXPath .
+linktitle: PrefixMappings
+articleTitle: PrefixMappings
+second_title: Aspose.Words para .NET
+description: XmlMapping PrefixMappings propiedad. Devuelve asignaciones de prefijos de espacios de nombres XML para evaluar laXPath  en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.markup/xmlmapping/prefixmappings/
@@ -14,11 +16,11 @@ Devuelve asignaciones de prefijos de espacios de nombres XML para evaluar la[`XP
 public string PrefixMappings { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Especifica el conjunto de asignaciones de prefijos, que se utilizarán para interpretar la expresión XPath cuando la expresión XPath se evalúe con las partes de datos XML personalizadas en el documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar asignaciones XML para partes XML personalizadas.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Ver también
 
 * class [XmlMapping](../)
-* espacio de nombres [Aspose.Words.Markup](../../xmlmapping/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

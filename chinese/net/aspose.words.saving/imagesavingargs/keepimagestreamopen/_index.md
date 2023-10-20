@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.KeepImageStreamOpen
-second_title: Aspose.Words for .NET API 参考
-description: ImageSavingArgs 财产. 指定 Aspose.Words 在保存图像后是否应保持流打开或关闭它
+linktitle: KeepImageStreamOpen
+articleTitle: KeepImageStreamOpen
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSavingArgs KeepImageStreamOpen 财产. 指定 Aspose.Words 在保存图像后是否应保持流打开或关闭它 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
 public bool KeepImageStreamOpen { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认为`错误的` Aspose.Words 将关闭您提供的流 [`ImageStream`](../imagestream/)写入图像后的属性。 指定`真的`以保持流打开。
 
-### 例子
+## 例子
 
 演示如何在 HTML 转换过程中涉及图像保存回调。
 
@@ -64,7 +66,5 @@ private class ImageShapePrinter : IImageSavingCallback
 ### 也可以看看
 
 * class [ImageSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

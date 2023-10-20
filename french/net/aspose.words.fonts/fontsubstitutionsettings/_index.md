@@ -1,7 +1,9 @@
 ---
-title: Class FontSubstitutionSettings
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontSubstitutionSettings classe. Spécifie les paramètres du mécanisme de substitution de police.
+title: FontSubstitutionSettings Class
+linktitle: FontSubstitutionSettings
+articleTitle: FontSubstitutionSettings
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.FontSubstitutionSettings classe. Spécifie les paramètres du mécanisme de substitution de police en C#.
 type: docs
 weight: 3010
 url: /fr/net/aspose.words.fonts/fontsubstitutionsettings/
@@ -26,7 +28,7 @@ public class FontSubstitutionSettings
 | [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/) { get; } | Paramètres liés à la règle de substitution du nom de police. |
 | [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/) { get; } | Paramètres liés à la règle de substitution de table. |
 
-### Remarques
+## Remarques
 
 Le processus de substitution de police se compose de plusieurs règles qui sont vérifiées une par une dans un ordre spécifique. Si la première règle ne peut pas résoudre la police, la deuxième règle est vérifiée et ainsi de suite.
 
@@ -36,7 +38,7 @@ Notez que la règle de substitution des informations sur la police résoudra tou
 
 Notez que la règle de substitution de configuration de police résoudra la police dans la plupart des cas et remplacera ainsi toutes les autres règles.
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la source de police système d’un document et définir des substituts de police.
 
@@ -93,5 +95,3 @@ Assert.AreEqual(1,
 
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

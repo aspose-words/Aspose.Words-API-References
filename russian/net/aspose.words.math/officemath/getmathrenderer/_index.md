@@ -1,9 +1,11 @@
 ---
 title: OfficeMath.GetMathRenderer
-second_title: Справочник по API Aspose.Words для .NET
-description: OfficeMath метод. Создает и возвращает объект который можно использовать для преобразования этого уравнения в изображение.
+linktitle: GetMathRenderer
+articleTitle: GetMathRenderer
+second_title: Aspose.Words для .NET
+description: OfficeMath GetMathRenderer метод. Создает и возвращает объект который можно использовать для преобразования этого уравнения в изображение на С#.
 type: docs
-weight: 90
+weight: 70
 url: /ru/net/aspose.words.math/officemath/getmathrenderer/
 ---
 ## OfficeMath.GetMathRenderer method
@@ -18,11 +20,11 @@ public OfficeMathRenderer GetMathRenderer()
 
 Объект средства визуализации для этого уравнения.
 
-### Примечания
+## Примечания
 
 Этот метод просто вызывает[`OfficeMathRenderer`](../../../aspose.words.rendering/officemathrenderer/) конструктор и передает этот объект в качестве параметра.
 
-### Примеры
+## Примеры
 
 Показывает, как преобразовать объект Office Math в файл изображения в локальной файловой системе.
 
@@ -45,7 +47,5 @@ math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOpt
 
 * class [OfficeMathRenderer](../../../aspose.words.rendering/officemathrenderer/)
 * class [OfficeMath](../)
-* пространство имен [Aspose.Words.Math](../../officemath/)
+* пространство имен [Aspose.Words.Math](../../../aspose.words.math/)
 * сборка [Aspose.Words](../../../)
-
-

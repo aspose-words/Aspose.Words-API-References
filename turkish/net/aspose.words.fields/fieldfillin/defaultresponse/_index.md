@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.DefaultResponse
-second_title: Aspose.Words for .NET API Referansı
-description: FieldFillIn mülk. Varsayılan kullanıcı yanıtını alır veya ayarlar bilgi istemi penceresinde yer alan başlangıç değeri.
+linktitle: DefaultResponse
+articleTitle: DefaultResponse
+second_title: Aspose.Words for .NET
+description: FieldFillIn DefaultResponse mülk. Varsayılan kullanıcı yanıtını alır veya ayarlar bilgi istemi penceresinde yer alan başlangıç değeri C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldfillin/defaultresponse/
@@ -14,7 +16,7 @@ Varsayılan kullanıcı yanıtını alır veya ayarlar (bilgi istemi penceresind
 public string DefaultResponse { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kullanıcıdan yanıt istemek için FILLIN alanının nasıl kullanılacağını gösterir.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### Ayrıca bakınız
 
 * class [FieldFillIn](../)
-* ad alanı [Aspose.Words.Fields](../../fieldfillin/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

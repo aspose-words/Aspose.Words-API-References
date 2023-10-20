@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.MillimeterToPoint
-second_title: Aspose.Words för .NET API Referens
-description: ConvertUtil metod. Konverterar millimeter till punkter.
+linktitle: MillimeterToPoint
+articleTitle: MillimeterToPoint
+second_title: Aspose.Words för .NET
+description: ConvertUtil MillimeterToPoint metod. Konverterar millimeter till punkter i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/convertutil/millimetertopoint/
@@ -18,11 +20,11 @@ public static double MillimeterToPoint(double millimeters)
 | --- | --- | --- |
 | millimeters | Double | Värdet att konvertera. |
 
-### Anmärkningar
+## Anmärkningar
 
 1 tum är lika med 25,4 millimeter. 1 tum är lika med 72 poäng.
 
-### Exempel
+## Exempel
 
 Visar hur man anger sidegenskaper i millimeter.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndMillimeters.docx");
 ### Se även
 
 * class [ConvertUtil](../)
-* namnutrymme [Aspose.Words](../../convertutil/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

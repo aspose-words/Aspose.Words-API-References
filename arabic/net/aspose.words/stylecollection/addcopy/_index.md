@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.AddCopy
-second_title: Aspose.Words لمراجع .NET API
-description: StyleCollection طريقة. لنسخ النمط إلى هذه المجموعة.
+linktitle: AddCopy
+articleTitle: AddCopy
+second_title: Aspose.Words لـ .NET
+description: StyleCollection AddCopy طريقة. لنسخ النمط إلى هذه المجموعة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/stylecollection/addcopy/
@@ -22,7 +24,7 @@ public Style AddCopy(Style style)
 
 النمط المنسوخ جاهز للاستخدام.
 
-### ملاحظات
+## ملاحظات
 
 يمكن أن ينتمي النمط المراد نسخه إلى نفس المستند بالإضافة إلى مستند مختلف.
 
@@ -32,7 +34,7 @@ public Style AddCopy(Style style)
 
 إذا كانت المجموعة تحتوي بالفعل على نمط يحمل نفس الاسم، فسيتم إنشاء الاسم الجديد تلقائيًا عن طريق إضافة لاحقة "_number" بدءًا من 0، على سبيل المثال "Normal_0" و"العنوان 1_1" وما إلى ذلك. الاستخدام[`Name`](../../style/name/) أداة ضبط لتغيير اسم النمط المستورد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استيراد نمط من مستند إلى مستند مختلف.
 
@@ -81,7 +83,5 @@ Assert.AreNotEqual(doc.Styles["Heading 1"].Font.Color, newStyle.Font.Color);
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../stylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

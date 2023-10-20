@@ -1,7 +1,9 @@
 ---
 title: Inline.IsDeleteRevision
-second_title: Aspose.Words für .NET-API-Referenz
-description: Inline eigendom. Gibt true zurück wenn dieses Objekt in Microsoft Word gelöscht wurde während die Änderungsverfolgung aktiviert war.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words für .NET
+description: Inline IsDeleteRevision eigendom. Gibt true zurück wenn dieses Objekt in Microsoft Word gelöscht wurde während die Änderungsverfolgung aktiviert war in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/inline/isdeleterevision/
@@ -14,7 +16,7 @@ Gibt „true“ zurück, wenn dieses Objekt in Microsoft Word gelöscht wurde, w
 public bool IsDeleteRevision { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Revisionstyp eines Inline-Knotens ermittelt wird.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### Siehe auch
 
 * class [Inline](../)
-* namensraum [Aspose.Words](../../inline/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

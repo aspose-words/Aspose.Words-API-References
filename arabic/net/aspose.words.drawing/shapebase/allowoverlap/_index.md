@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AllowOverlap
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على أو تعيين القيمة التي تحدد ما إذا كان هذا الشكل يمكن أن يتداخل مع الأشكال الأخرى.
+linktitle: AllowOverlap
+articleTitle: AllowOverlap
+second_title: Aspose.Words لـ .NET
+description: ShapeBase AllowOverlap ملكية. الحصول على أو تعيين القيمة التي تحدد ما إذا كان هذا الشكل يمكن أن يتداخل مع الأشكال الأخرى في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/shapebase/allowoverlap/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/allowoverlap/
 public bool AllowOverlap { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تؤثر هذه الخاصية على سلوك الشكل في Microsoft Word. Aspose.Words يتجاهل قيمة هذه الخاصية.
 
@@ -22,7 +24,7 @@ public bool AllowOverlap { get; set; }
 
 القيمة الافتراضية هي`حقيقي`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص الجداول العائمة.
 
@@ -50,7 +52,5 @@ if (table.TextWrapping == TextWrapping.Around)
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

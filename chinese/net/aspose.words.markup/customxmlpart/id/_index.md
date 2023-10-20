@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Id
-second_title: Aspose.Words for .NET API 参考
-description: CustomXmlPart 财产. 获取或设置在 OOXML 文档中标识此自定义 XML 部分的字符串
+linktitle: Id
+articleTitle: Id
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomXmlPart Id 财产. 获取或设置在 OOXML 文档中标识此自定义 XML 部分的字符串 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/customxmlpart/id/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/customxmlpart/id/
 public string Id { get; set; }
 ```
 
-### 评论
+## 评论
 
 ISO/IEC 29500 指定该值是 GUID，但旧版本的 Microsoft Word 允许此处使用任何 字符串。 Aspose.Words 对 ECMA-376 格式执行相同的操作。但请注意，Microsoft Word Online 无法 打开使用非 GUID 值创建的文档。因此，GUID 是此属性的首选值。
 
@@ -22,7 +24,7 @@ ISO/IEC 29500 指定该值是 GUID，但旧版本的 Microsoft Word 允许此处
 
 默认值为空字符串。该值不能是`无效的`。
 
-### 例子
+## 例子
 
 演示如何使用自定义 XML 数据创建结构化文档标签。
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### 也可以看看
 
 * class [CustomXmlPart](../)
-* 命名空间 [Aspose.Words.Markup](../../customxmlpart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: BookmarkStart.BookmarkStart
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarkStart inşaatçı. Yeni bir örneğini başlatırBookmarkStart class.
+title: BookmarkStart
+linktitle: BookmarkStart
+articleTitle: BookmarkStart
+second_title: Aspose.Words for .NET
+description: BookmarkStart inşaatçı. Yeni bir örneğini başlatırBookmarkStart class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/bookmarkstart/bookmarkstart/
@@ -19,7 +21,7 @@ public BookmarkStart(DocumentBase doc, string name)
 | doc | DocumentBase | Sahibi belgesi. |
 | name | String | Yer iminin adı. Olamaz`hükümsüz`. |
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
@@ -109,7 +111,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [BookmarkStart](../)
-* ad alanı [Aspose.Words](../../bookmarkstart/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

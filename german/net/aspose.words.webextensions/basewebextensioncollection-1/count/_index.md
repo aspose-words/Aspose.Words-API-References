@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: BaseWebExtensionCollection eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: BaseWebExtensionCollection Count eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.webextensions/basewebextensioncollection-1/count/
@@ -14,7 +16,7 @@ Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Sammlung von Weberweiterungen eines Dokuments gearbeitet wird.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Siehe auch
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* namensraum [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* namensraum [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../../)
-
-

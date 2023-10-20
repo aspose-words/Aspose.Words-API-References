@@ -1,12 +1,14 @@
 ---
 title: Document.UpdateThumbnail
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. ОбновленияThumbnail документа согласно указанным параметрам.
+linktitle: UpdateThumbnail
+articleTitle: UpdateThumbnail
+second_title: Aspose.Words для .NET
+description: Document UpdateThumbnail метод. ОбновленияThumbnail документа согласно указанным параметрам на С#.
 type: docs
-weight: 800
+weight: 780
 url: /ru/net/aspose.words/document/updatethumbnail/
 ---
-## UpdateThumbnail(ThumbnailGeneratingOptions) {#updatethumbnail_1}
+## UpdateThumbnail(*[ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)*) {#updatethumbnail_1}
 
 Обновления[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) документа согласно указанным параметрам.
 
@@ -18,11 +20,11 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 | --- | --- | --- |
 | options | ThumbnailGeneratingOptions | Варианты генерации, которые можно использовать. |
 
-### Примечания
+## Примечания
 
 [`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) позволяет указать источник миниатюры, размер и другие параметры. Если попытка создания миниатюры не удалась, она не меняется.
 
-### Примеры
+## Примеры
 
 Показывает, как обновить миниатюру документа.
 
@@ -51,7 +53,7 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 * class [ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -64,7 +66,7 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 public void UpdateThumbnail()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как обновить миниатюру документа.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

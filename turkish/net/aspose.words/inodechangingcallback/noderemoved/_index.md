@@ -1,7 +1,9 @@
 ---
 title: INodeChangingCallback.NodeRemoved
-second_title: Aspose.Words for .NET API Referansı
-description: INodeChangingCallback yöntem. Bu belgeye ait bir düğüm üst öğesinden kaldırıldığında çağrılır.
+linktitle: NodeRemoved
+articleTitle: NodeRemoved
+second_title: Aspose.Words for .NET
+description: INodeChangingCallback NodeRemoved yöntem. Bu belgeye ait bir düğüm üst öğesinden kaldırıldığında çağrılır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/inodechangingcallback/noderemoved/
@@ -14,7 +16,7 @@ Bu belgeye ait bir düğüm üst öğesinden kaldırıldığında çağrılır.
 public void NodeRemoved(NodeChangingArgs args)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir geri aramayla düğüm değişiminin nasıl özelleştirileceğini gösterir.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [NodeChangingArgs](../../nodechangingargs/)
 * interface [INodeChangingCallback](../)
-* ad alanı [Aspose.Words](../../inodechangingcallback/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

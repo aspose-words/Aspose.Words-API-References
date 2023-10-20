@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Document
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Devuelve el Documento al que pertenece el titular.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words para .NET
+description: ChartAxis Document propiedad. Devuelve el Documento al que pertenece el titular en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.drawing.charts/chartaxis/document/
@@ -18,7 +20,5 @@ public DocumentBase Document { get; }
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

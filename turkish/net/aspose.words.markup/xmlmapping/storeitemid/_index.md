@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.StoreItemId
-second_title: Aspose.Words for .NET API Referansı
-description: XmlMapping mülk. Özel XML veri kısmı için özel XML veri tanımlayıcısını belirtir ve bu parçanın değerlendirilmesinde kullanılır.XPath ifade.
+linktitle: StoreItemId
+articleTitle: StoreItemId
+second_title: Aspose.Words for .NET
+description: XmlMapping StoreItemId mülk. Özel XML veri kısmı için özel XML veri tanımlayıcısını belirtir ve bu parçanın değerlendirilmesinde kullanılır.XPath ifade C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/xmlmapping/storeitemid/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.markup/xmlmapping/storeitemid/
 public string StoreItemId { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir XML bölümünün özel XML veri tanımlayıcısının nasıl alınacağını gösterir.
 
@@ -30,7 +32,5 @@ Assert.AreEqual("{F3029283-4FF8-4DD2-9F31-395F19ACEE85}", tag.XmlMapping.StoreIt
 ### Ayrıca bakınız
 
 * class [XmlMapping](../)
-* ad alanı [Aspose.Words.Markup](../../xmlmapping/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

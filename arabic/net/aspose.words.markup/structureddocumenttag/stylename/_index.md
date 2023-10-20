@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.StyleName
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. الحصول على أو تعيين اسم النمط المطبق على علامة المستند المنظمة.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag StyleName ملكية. الحصول على أو تعيين اسم النمط المطبق على علامة المستند المنظمة في C#.
 type: docs
 weight: 270
 url: /ar/net/aspose.words.markup/structureddocumenttag/stylename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttag/stylename/
 public string StyleName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط عناصر التحكم في المحتوى.
 
@@ -53,7 +55,5 @@ foreach (Node node in tags)
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

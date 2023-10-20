@@ -1,7 +1,9 @@
 ---
 title: TextBox.LayoutFlow
-second_title: Справочник по API Aspose.Words для .NET
-description: TextBox свойство. Определяет расположение текста в фигуре.
+linktitle: LayoutFlow
+articleTitle: LayoutFlow
+second_title: Aspose.Words для .NET
+description: TextBox LayoutFlow свойство. Определяет расположение текста в фигуре на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing/textbox/layoutflow/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textbox/layoutflow/
 public LayoutFlow LayoutFlow { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Horizontal.
 
-### Примеры
+## Примеры
 
 Показывает, как задать ориентацию текста внутри текстового поля.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * enum [LayoutFlow](../../layoutflow/)
 * class [TextBox](../)
-* пространство имен [Aspose.Words.Drawing](../../textbox/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

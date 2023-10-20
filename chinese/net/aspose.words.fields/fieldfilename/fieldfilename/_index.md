@@ -1,7 +1,9 @@
 ---
-title: FieldFileName.FieldFileName
-second_title: Aspose.Words for .NET API 参考
-description: FieldFileName 构造函数. 默认构造函数
+title: FieldFileName
+linktitle: FieldFileName
+articleTitle: FieldFileName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldFileName 构造函数. 默认构造函数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldfilename/fieldfilename/
@@ -17,7 +19,5 @@ public FieldFileName()
 ### 也可以看看
 
 * class [FieldFileName](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldfilename/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

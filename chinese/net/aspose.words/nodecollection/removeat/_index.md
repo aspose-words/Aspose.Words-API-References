@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.RemoveAt
-second_title: Aspose.Words for .NET API 参考
-description: NodeCollection 方法. 从集合和文档中删除指定索引处的节点
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeCollection RemoveAt 方法. 从集合和文档中删除指定索引处的节点 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words/nodecollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 节点从零开始的索引。 允许使用负索引，表示从列表的后面进行访问。 例如 -1 表示最后一个节点，-2 表示倒数第二个节点，依此类推。 |
 
-### 例子
+## 例子
 
 演示如何在文档中添加和删除部分。
 
@@ -48,7 +50,5 @@ Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ### 也可以看看
 
 * class [NodeCollection](../)
-* 命名空间 [Aspose.Words](../../nodecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

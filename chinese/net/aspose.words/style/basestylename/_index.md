@@ -1,7 +1,9 @@
 ---
 title: Style.BaseStyleName
-second_title: Aspose.Words for .NET API 参考
-description: Style 财产. 获取/设置此样式所基于的样式的名称
+linktitle: BaseStyleName
+articleTitle: BaseStyleName
+second_title: 用于 .NET 的 Aspose.Words
+description: Style BaseStyleName 财产. 获取/设置此样式所基于的样式的名称 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/style/basestylename/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/style/basestylename/
 public string BaseStyleName { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果样式不基于任何其他样式，则这将是一个空字符串，并且可以将 设置为空字符串。
 
-### 例子
+## 例子
 
 展示如何使用样式别名。
 
@@ -49,7 +51,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### 也可以看看
 
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

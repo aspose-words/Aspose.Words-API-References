@@ -1,12 +1,14 @@
 ---
 title: CertificateHolder.Create
-second_title: Aspose.Words für .NET-API-Referenz
-description: CertificateHolder methode. ErstelltCertificateHolder Objekt unter Verwendung des ByteArrays des PKCS12Speichers und seines Passworts.
+linktitle: Create
+articleTitle: Create
+second_title: Aspose.Words für .NET
+description: CertificateHolder Create methode. ErstelltCertificateHolder Objekt unter Verwendung des ByteArrays des PKCS12Speichers und seines Passworts in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.digitalsignatures/certificateholder/create/
 ---
-## Create(byte[], SecureString) {#create}
+## Create(*byte[], SecureString*) {#create}
 
 Erstellt[`CertificateHolder`](../) Objekt unter Verwendung des Byte-Arrays des PKCS12-Speichers und seines Passworts.
 
@@ -32,7 +34,7 @@ Ein Beispiel für[`CertificateHolder`](../)
 | SecurityException | Wird ausgelöst, wenn der PKCS12-Speicher keine Aliase enthält |
 | IOException | Wird ausgelöst, wenn das Passwort falsch ist oder die Datei beschädigt ist. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie CertificateHolder-Objekte erstellt werden.
 
@@ -77,12 +79,12 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Siehe auch
 
 * class [CertificateHolder](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Create(byte[], string) {#create_1}
+## Create(*byte[], string*) {#create_1}
 
 Erstellt[`CertificateHolder`](../) Objekt unter Verwendung des Byte-Arrays des PKCS12-Speichers und seines Passworts.
 
@@ -108,7 +110,7 @@ Ein Beispiel für[`CertificateHolder`](../)
 | SecurityException | Wird ausgelöst, wenn der PKCS12-Speicher keine Aliase enthält |
 | IOException | Wird ausgelöst, wenn das Passwort falsch ist oder die Datei beschädigt ist. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie CertificateHolder-Objekte erstellt werden.
 
@@ -153,12 +155,12 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Siehe auch
 
 * class [CertificateHolder](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Create(string, string) {#create_2}
+## Create(*string, string*) {#create_2}
 
 Erstellt[`CertificateHolder`](../) Objekt unter Verwendung des Pfads zum PKCS12-Speicher und seines Passworts.
 
@@ -184,7 +186,7 @@ Ein Beispiel für[`CertificateHolder`](../)
 | SecurityException | Wird ausgelöst, wenn der PKCS12-Speicher keine Aliase enthält |
 | IOException | Wird ausgelöst, wenn das Passwort falsch ist oder die Datei beschädigt ist. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Dokumente digital signiert.
 
@@ -213,12 +215,12 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### Siehe auch
 
 * class [CertificateHolder](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Create(string, string, string) {#create_3}
+## Create(*string, string, string*) {#create_3}
 
 Erstellt[`CertificateHolder`](../) Objekt unter Verwendung des Pfads zum PKCS12-Speicher, seines Passworts und des Alias, mit dem der private Schlüssel und das Zertifikat gefunden werden.
 
@@ -246,7 +248,7 @@ Ein Beispiel für[`CertificateHolder`](../)
 | IOException | Wird ausgelöst, wenn das Passwort falsch ist oder die Datei beschädigt ist. |
 | SecurityException | Wird ausgelöst, wenn kein privater Schlüssel mit dem angegebenen Alias vorhanden ist |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie CertificateHolder-Objekte erstellt werden.
 
@@ -291,7 +293,5 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### Siehe auch
 
 * class [CertificateHolder](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

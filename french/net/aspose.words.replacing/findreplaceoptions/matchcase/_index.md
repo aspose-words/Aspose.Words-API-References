@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.MatchCase
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FindReplaceOptions propriété. True indique une comparaison sensible à la casse false indique une comparaison insensible à la casse.
+linktitle: MatchCase
+articleTitle: MatchCase
+second_title: Aspose.Words pour .NET
+description: FindReplaceOptions MatchCase propriété. True indique une comparaison sensible à la casse false indique une comparaison insensible à la casse en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.replacing/findreplaceoptions/matchcase/
@@ -14,7 +16,7 @@ True indique une comparaison sensible à la casse, false indique une comparaison
 public bool MatchCase { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment activer/désactiver le respect de la casse lors d'une opération de recherche et de remplacement.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade
 ### Voir également
 
 * class [FindReplaceOptions](../)
-* espace de noms [Aspose.Words.Replacing](../../findreplaceoptions/)
+* espace de noms [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Assemblée [Aspose.Words](../../../)
-
-

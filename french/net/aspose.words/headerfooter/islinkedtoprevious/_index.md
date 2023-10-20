@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsLinkedToPrevious
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HeaderFooter propriété. Vrai si cet entête ou pied de page est lié à lentête ou au pied de page correspondant dans la section précédente.
+linktitle: IsLinkedToPrevious
+articleTitle: IsLinkedToPrevious
+second_title: Aspose.Words pour .NET
+description: HeaderFooter IsLinkedToPrevious propriété. Vrai si cet entête ou pied de page est lié à lentête ou au pied de page correspondant dans la section précédente en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/headerfooter/islinkedtoprevious/
@@ -14,13 +16,13 @@ Vrai si cet en-tête ou pied de page est lié à l'en-tête ou au pied de page c
 public bool IsLinkedToPrevious { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`vrai`.
 
 Notez que lorsque vous créez un lien vers un en-tête ou un pied de page, son contenu est effacé.
 
-### Exemples
+## Exemples
 
 Montre comment lier les en-têtes et les pieds de page entre les sections.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### Voir également
 
 * class [HeaderFooter](../)
-* espace de noms [Aspose.Words](../../headerfooter/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

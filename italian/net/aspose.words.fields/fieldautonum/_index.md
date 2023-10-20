@@ -1,7 +1,9 @@
 ---
-title: Class FieldAutoNum
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.FieldAutoNum classe. Implementa il campo AUTONUM.
+title: FieldAutoNum Class
+linktitle: FieldAutoNum
+articleTitle: FieldAutoNum
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.FieldAutoNum classe. Implementa il campo AUTONUM in C#.
 type: docs
 weight: 1580
 url: /it/net/aspose.words.fields/fieldautonum/
@@ -43,17 +45,17 @@ public class FieldAutoNum : Field
 | Nome | Descrizione |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo compreso tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi secondari. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo figlio del suo nodo genitore, restituisce il paragrafo genitore. Se il campo è già stato rimosso, restituisce`nullo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Esegue lo scollegamento del campo. |
 | [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Esegue un aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Esegue un aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
 
-### Osservazioni
+## Osservazioni
 
 Inserisce un numero automatico.
 
-### Esempi
+## Esempi
 
 Mostra come numerare i paragrafi utilizzando i campi numerazione automatica.
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Field.AUTONUM.docx");
 * class [Field](../field/)
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

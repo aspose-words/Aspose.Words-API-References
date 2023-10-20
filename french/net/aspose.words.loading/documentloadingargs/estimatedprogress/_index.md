@@ -1,7 +1,9 @@
 ---
 title: DocumentLoadingArgs.EstimatedProgress
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentLoadingArgs propriété. Pourcentage de progression global estimé.
+linktitle: EstimatedProgress
+articleTitle: EstimatedProgress
+second_title: Aspose.Words pour .NET
+description: DocumentLoadingArgs EstimatedProgress propriété. Pourcentage de progression global estimé en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.loading/documentloadingargs/estimatedprogress/
@@ -17,7 +19,5 @@ public double EstimatedProgress { get; }
 ### Voir également
 
 * class [DocumentLoadingArgs](../)
-* espace de noms [Aspose.Words.Loading](../../documentloadingargs/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

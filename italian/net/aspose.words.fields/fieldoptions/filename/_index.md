@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FileName
-second_title: Aspose.Words per .NET API Reference
-description: FieldOptions proprietà. Ottiene o imposta il nome del file del documento.
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words per .NET
+description: FieldOptions FileName proprietà. Ottiene o imposta il nome del file del documento in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.fields/fieldoptions/filename/
@@ -14,11 +16,11 @@ Ottiene o imposta il nome del file del documento.
 public string FileName { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà è utilizzata da[`FieldFileName`](../../fieldfilename/) campo con priorità più alta di[`OriginalFileName`](../../../aspose.words/document/originalfilename/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare FieldOptions per sovrascrivere il valore predefinito per il campo FILENAME.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + doc.FieldOptions.FileName);
 ### Guarda anche
 
 * class [FieldOptions](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldoptions/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

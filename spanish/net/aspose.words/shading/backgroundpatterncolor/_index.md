@@ -1,7 +1,9 @@
 ---
 title: Shading.BackgroundPatternColor
-second_title: Referencia de API de Aspose.Words para .NET
-description: Shading propiedad. Obtiene o establece el color que se aplica al fondo delShading objeto.
+linktitle: BackgroundPatternColor
+articleTitle: BackgroundPatternColor
+second_title: Aspose.Words para .NET
+description: Shading BackgroundPatternColor propiedad. Obtiene o establece el color que se aplica al fondo delShading objeto en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/shading/backgroundpatterncolor/
@@ -14,7 +16,7 @@ Obtiene o establece el color que se aplica al fondo del[`Shading`](../) objeto.
 public Color BackgroundPatternColor { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo decorar texto con bordes y sombreado.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ### Ver también
 
 * class [Shading](../)
-* espacio de nombres [Aspose.Words](../../shading/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

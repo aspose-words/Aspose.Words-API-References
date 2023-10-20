@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.PageNumber
-second_title: Aspose.Words لمراجع .NET API
-description: FieldCitation ملكية. الحصول على أو تعيين رقم الصفحة المرتبطة بالاقتباس.
+linktitle: PageNumber
+articleTitle: PageNumber
+second_title: Aspose.Words لـ .NET
+description: FieldCitation PageNumber ملكية. الحصول على أو تعيين رقم الصفحة المرتبطة بالاقتباس في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldcitation/pagenumber/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldcitation/pagenumber/
 public string PageNumber { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع حقول CITATION وBIBLIOGRAPHY.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### أنظر أيضا
 
 * class [FieldCitation](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcitation/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

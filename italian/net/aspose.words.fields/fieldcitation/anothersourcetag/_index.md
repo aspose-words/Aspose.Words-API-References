@@ -1,20 +1,22 @@
 ---
 title: FieldCitation.AnotherSourceTag
-second_title: Aspose.Words per .NET API Reference
-description: FieldCitation proprietà. Ottiene o imposta un valore che corrisponde a Etichetta valore dellelemento di unaltra fonte da includere nella citazione.
+linktitle: AnotherSourceTag
+articleTitle: AnotherSourceTag
+second_title: Aspose.Words per .NET
+description: FieldCitation AnotherSourceTag proprietà. Ottiene o imposta un valore che corrisponde aEtichetta valore dellelemento di unaltra fonte da includere nella citazione in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldcitation/anothersourcetag/
 ---
 ## FieldCitation.AnotherSourceTag property
 
-Ottiene o imposta un valore che corrisponde a **Etichetta** valore dell'elemento di un'altra fonte da includere nella citazione.
+Ottiene o imposta un valore che corrisponde a**Etichetta** valore dell'elemento di un'altra fonte da includere nella citazione.
 
 ```csharp
 public string AnotherSourceTag { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i campi CITAZIONE e BIBLIOGRAFIA.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Guarda anche
 
 * class [FieldCitation](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldcitation/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

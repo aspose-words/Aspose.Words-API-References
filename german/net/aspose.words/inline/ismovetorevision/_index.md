@@ -1,7 +1,9 @@
 ---
 title: Inline.IsMoveToRevision
-second_title: Aspose.Words für .NET-API-Referenz
-description: Inline eigendom. Gibt zurückWAHR wenn dieses Objekt in Microsoft Word verschoben eingefügt wurde während die Änderungsverfolgung aktiviert war.
+linktitle: IsMoveToRevision
+articleTitle: IsMoveToRevision
+second_title: Aspose.Words für .NET
+description: Inline IsMoveToRevision eigendom. Gibt zurückWAHR wenn dieses Objekt in Microsoft Word verschoben eingefügt wurde während die Änderungsverfolgung aktiviert war in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/inline/ismovetorevision/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn dieses Objekt in Microsoft Word verschoben (eingefügt) 
 public bool IsMoveToRevision { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Revisionstyp eines Inline-Knotens ermittelt wird.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### Siehe auch
 
 * class [Inline](../)
-* namensraum [Aspose.Words](../../inline/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

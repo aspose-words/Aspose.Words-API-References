@@ -1,7 +1,9 @@
 ---
 title: Bookmark.BookmarkStart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Bookmark propriété. Obtient le nœud qui représente le début du signet.
+linktitle: BookmarkStart
+articleTitle: BookmarkStart
+second_title: Aspose.Words pour .NET
+description: Bookmark BookmarkStart propriété. Obtient le nœud qui représente le début du signet en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/bookmark/bookmarkstart/
@@ -14,7 +16,7 @@ Obtient le nœud qui représente le début du signet.
 public BookmarkStart BookmarkStart { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des signets et mettre à jour leur contenu.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [Bookmark](../)
-* espace de noms [Aspose.Words](../../bookmark/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

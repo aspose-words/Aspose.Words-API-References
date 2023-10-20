@@ -1,7 +1,9 @@
 ---
 title: Document.OriginalFileName
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar originalfilnamnet för dokumentet.
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: Aspose.Words för .NET
+description: Document OriginalFileName fast egendom. Hämtar originalfilnamnet för dokumentet i C#.
 type: docs
 weight: 290
 url: /sv/net/aspose.words/document/originalfilename/
@@ -14,11 +16,11 @@ Hämtar originalfilnamnet för dokumentet.
 public string OriginalFileName { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar`null` om dokumentet laddades från en ström eller skapades tomt.
 
-### Exempel
+## Exempel
 
 Visar hur man hämtar information om ett dokuments laddningsoperation.
 
@@ -60,7 +62,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.EntryType
-second_title: Aspose.Words för .NET API Referens
-description: FieldIndex fast egendom. Hämtar eller ställer in en indexposttyp som används för att bygga indexet.
+linktitle: EntryType
+articleTitle: EntryType
+second_title: Aspose.Words för .NET
+description: FieldIndex EntryType fast egendom. Hämtar eller ställer in en indexposttyp som används för att bygga indexet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldindex/entrytype/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en indexposttyp som används för att bygga indexet.
 public string EntryType { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett INDEX-fält och sedan använder XE-fält för att fylla i det med poster.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 ### Se även
 
 * class [FieldIndex](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldindex/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

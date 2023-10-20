@@ -1,7 +1,9 @@
 ---
 title: Style.AutomaticallyUpdate
-second_title: Aspose.Words for .NET API 参考
-description: Style 财产. 指定是否根据适当的值自动重新定义此样式
+linktitle: AutomaticallyUpdate
+articleTitle: AutomaticallyUpdate
+second_title: 用于 .NET 的 Aspose.Words
+description: Style AutomaticallyUpdate 财产. 指定是否根据适当的值自动重新定义此样式 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/style/automaticallyupdate/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/style/automaticallyupdate/
 public bool AutomaticallyUpdate { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果该属性值设置为 true，则当 适当的段落格式已更改时，MS Word 会自动重新定义当前样式。
 
@@ -22,7 +24,7 @@ public bool AutomaticallyUpdate { get; set; }
 
 默认值为`错误的`。
 
-### 例子
+## 例子
 
 展示如何创建和应用自定义样式。
 
@@ -61,7 +63,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 ### 也可以看看
 
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

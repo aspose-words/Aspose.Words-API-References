@@ -1,7 +1,9 @@
 ---
-title: FieldComments.FieldComments
-second_title: Aspose.Words per .NET API Reference
-description: FieldComments costruttore. Default_Costruttore
+title: FieldComments
+linktitle: FieldComments
+articleTitle: FieldComments
+second_title: Aspose.Words per .NET
+description: FieldComments costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldcomments/fieldcomments/
@@ -17,7 +19,5 @@ public FieldComments()
 ### Guarda anche
 
 * class [FieldComments](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldcomments/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

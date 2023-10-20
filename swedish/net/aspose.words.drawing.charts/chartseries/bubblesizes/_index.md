@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.BubbleSizes
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeries fast egendom. Får en samling bubbelstorlekar för denna diagramserie.
+linktitle: BubbleSizes
+articleTitle: BubbleSizes
+second_title: Aspose.Words för .NET
+description: ChartSeries BubbleSizes fast egendom. Får en samling bubbelstorlekar för denna diagramserie i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartseries/bubblesizes/
@@ -18,7 +20,5 @@ public BubbleSizeCollection BubbleSizes { get; }
 
 * class [BubbleSizeCollection](../../bubblesizecollection/)
 * class [ChartSeries](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

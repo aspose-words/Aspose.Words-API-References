@@ -1,7 +1,9 @@
 ---
-title: Class MustacheTag
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.MailMerging.MustacheTag 班级. 代表小胡子标签
+title: MustacheTag Class
+linktitle: MustacheTag
+articleTitle: MustacheTag
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.MailMerging.MustacheTag 班级. 代表小胡子标签 在 C#.
 type: docs
 weight: 3880
 url: /zh/net/aspose.words.mailmerging/mustachetag/
@@ -26,5 +28,3 @@ public class MustacheTag
 
 * 命名空间 [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum BaselineAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.BaselineAlignment Sıralama. Yazı tiplerinin bir satırdaki dikey konumunu belirtir.
+title: BaselineAlignment Enum
+linktitle: BaselineAlignment
+articleTitle: BaselineAlignment
+second_title: Aspose.Words for .NET
+description: Aspose.Words.BaselineAlignment Sıralama. Yazı tiplerinin bir satırdaki dikey konumunu belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/baselinealignment/
@@ -24,7 +26,7 @@ public enum BaselineAlignment
 | Bottom | `3` | Her yazı tipinin alt kısmına hizalar. |
 | Auto | `4` | Taban çizgisi otomatik olarak ayarlanır. |
 
-### Örnekler
+## Örnekler
 
 Yazı tiplerinin bir satırdaki dikey konumunun nasıl ayarlanacağını gösterir.
 
@@ -44,5 +46,3 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphBaselineAlignment.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

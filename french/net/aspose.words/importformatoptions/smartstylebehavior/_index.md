@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.SmartStyleBehavior
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImportFormatOptions propriété. Obtient ou définit une valeur booléenne qui spécifie comment les styles seront importés lorsquils ont des noms identiques dans les documents source et de destination. La valeur par défaut estFAUX .
+linktitle: SmartStyleBehavior
+articleTitle: SmartStyleBehavior
+second_title: Aspose.Words pour .NET
+description: ImportFormatOptions SmartStyleBehavior propriété. Obtient ou définit une valeur booléenne qui spécifie comment les styles seront importés lorsquils ont des noms identiques dans les documents source et de destination. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/importformatoptions/smartstylebehavior/
@@ -14,13 +16,13 @@ Obtient ou définit une valeur booléenne qui spécifie comment les styles seron
 public bool SmartStyleBehavior { get; set; }
 ```
 
-### Remarques
+## Remarques
 
-Lorsque cette option est **activé** , le style source sera développé en attributs directs dans le document de destination a , siKeepSourceFormatting le mode d’importation est utilisé.
+Lorsque cette option est**activé** , le style source sera développé en attributs directs dans le document de destination a , siKeepSourceFormatting le mode d’importation est utilisé.
 
-Lorsque cette option est **désactivé**, le style source sera développé uniquement s'il est numéroté. Les attributs de destination Existing ne seront pas remplacés, y compris les listes.
+Lorsque cette option est**désactivé**, le style source sera développé uniquement s'il est numéroté. Les attributs de destination Existing ne seront pas remplacés, y compris les listes.
 
-### Exemples
+## Exemples
 
 Montre comment résoudre les styles en double lors de l’insertion de documents.
 
@@ -55,7 +57,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 ### Voir également
 
 * class [ImportFormatOptions](../)
-* espace de noms [Aspose.Words](../../importformatoptions/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Equals
-second_title: Справочник по API Aspose.Words для .NET
-description: BorderCollection метод. Сравнивает коллекции границ.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words для .NET
+description: BorderCollection Equals метод. Сравнивает коллекции границ на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words/bordercollection/equals/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/bordercollection/equals/
 public bool Equals(BorderCollection brColl)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как коллекции границ могут совместно использовать элементы.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Смотрите также
 
 * class [BorderCollection](../)
-* пространство имен [Aspose.Words](../../bordercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

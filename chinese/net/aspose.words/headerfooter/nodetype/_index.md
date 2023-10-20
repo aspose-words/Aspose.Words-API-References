@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.NodeType
-second_title: Aspose.Words for .NET API 参考
-description: HeaderFooter 财产. 返回HeaderFooter.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: 用于 .NET 的 Aspose.Words
+description: HeaderFooter NodeType 财产. 返回HeaderFooter 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/headerfooter/nodetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/headerfooter/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何迭代复合节点的子节点。
 
@@ -64,7 +66,5 @@ foreach (Node node in section)
 
 * enum [NodeType](../../nodetype/)
 * class [HeaderFooter](../)
-* 命名空间 [Aspose.Words](../../headerfooter/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

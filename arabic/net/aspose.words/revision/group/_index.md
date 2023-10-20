@@ -1,7 +1,9 @@
 ---
 title: Revision.Group
-second_title: Aspose.Words لمراجع .NET API
-description: Revision ملكية. يحصل على مجموعة المراجعة. عائداتباطل إذا كانت المراجعة لا تنتمي إلى أي مجموعة.
+linktitle: Group
+articleTitle: Group
+second_title: Aspose.Words لـ .NET
+description: Revision Group ملكية. يحصل على مجموعة المراجعة. عائداتباطل إذا كانت المراجعة لا تنتمي إلى أي مجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/revision/group/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/revision/group/
 public RevisionGroup Group { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا تحتوي المراجعة على مجموعة إذا كان نوع المراجعة كذلكStyleDefinitionChangeأو إذا لم تعد المراجعة موجودة في سياق المستند (مقبولة/مرفوضة).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع المراجعات في المستند.
 
@@ -102,7 +104,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [RevisionGroup](../../revisiongroup/)
 * class [Revision](../)
-* مساحة الاسم [Aspose.Words](../../revision/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

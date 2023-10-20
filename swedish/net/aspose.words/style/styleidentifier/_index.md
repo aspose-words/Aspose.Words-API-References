@@ -1,9 +1,11 @@
 ---
 title: Style.StyleIdentifier
-second_title: Aspose.Words för .NET API Referens
-description: Style fast egendom. Hämtar den lokala stilidentifieraren för en inbyggd stil.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words för .NET
+description: Style StyleIdentifier fast egendom. Hämtar den lokala stilidentifieraren för en inbyggd stil i C#.
 type: docs
-weight: 160
+weight: 150
 url: /sv/net/aspose.words/style/styleidentifier/
 ---
 ## Style.StyleIdentifier property
@@ -14,11 +16,11 @@ Hämtar den lokala stilidentifieraren för en inbyggd stil.
 public StyleIdentifier StyleIdentifier { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För användardefinierade (anpassade) stilar returneras den här egenskapenUser.
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar positionen för höger tabbstopp i innehållsförteckningsrelaterade stycken.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

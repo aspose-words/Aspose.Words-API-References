@@ -1,9 +1,11 @@
 ---
 title: CellFormat.TopPadding
-second_title: Aspose.Words för .NET API Referens
-description: CellFormat fast egendom. Returnerar eller ställer in mängden utrymme i poäng som ska läggas till ovanför innehållet i cellen.
+linktitle: TopPadding
+articleTitle: TopPadding
+second_title: Aspose.Words för .NET
+description: CellFormat TopPadding fast egendom. Returnerar eller ställer in mängden utrymme i poäng som ska läggas till ovanför innehållet i cellen i C#.
 type: docs
-weight: 110
+weight: 100
 url: /sv/net/aspose.words.tables/cellformat/toppadding/
 ---
 ## CellFormat.TopPadding property
@@ -14,7 +16,7 @@ Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till ov
 public double TopPadding { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar celler med en dokumentbyggare.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Se även
 
 * class [CellFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../cellformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

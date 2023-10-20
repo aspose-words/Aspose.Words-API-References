@@ -1,7 +1,9 @@
 ---
-title: HtmlLoadOptions.HtmlLoadOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlLoadOptions строитель. Инициализирует новый экземпляр этого класса со значениями по умолчанию.
+title: HtmlLoadOptions
+linktitle: HtmlLoadOptions
+articleTitle: HtmlLoadOptions
+second_title: Aspose.Words для .NET
+description: HtmlLoadOptions строитель. Инициализирует новый экземпляр этого класса со значениями по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.loading/htmlloadoptions/htmlloadoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.loading/htmlloadoptions/htmlloadoptions/
 public HtmlLoadOptions()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как поддерживать условные комментарии при загрузке HTML-документа.
 
@@ -39,12 +41,12 @@ else
 ### Смотрите также
 
 * class [HtmlLoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../htmlloadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## HtmlLoadOptions(string) {#constructor_2}
+## HtmlLoadOptions(*string*) {#constructor_2}
 
 Ярлык для инициализации нового экземпляра этого класса с указанным паролем для загрузки зашифрованного документа.
 
@@ -56,7 +58,7 @@ public HtmlLoadOptions(string password)
 | --- | --- | --- |
 | password | String | Пароль для открытия зашифрованного документа. Возможно`нулевой` или пустая строка. |
 
-### Примеры
+## Примеры
 
 Показывает, как зашифровать документ Html, а затем открыть его с помощью пароля.
 
@@ -89,12 +91,12 @@ Assert.AreEqual("Test encrypted document.", doc.GetText().Trim());
 ### Смотрите также
 
 * class [HtmlLoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../htmlloadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## HtmlLoadOptions(LoadFormat, string, string) {#constructor_1}
+## HtmlLoadOptions(*[LoadFormat](../../../aspose.words/loadformat/), string, string*) {#constructor_1}
 
 Ярлык для инициализации нового экземпляра этого класса со свойствами, установленными в указанные значения.
 
@@ -108,7 +110,7 @@ public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | password | String | Пароль для открытия зашифрованного документа. Возможно`нулевой` или пустая строка. |
 | baseUri | String | Строка, которая будет использоваться для преобразования относительных URI в абсолютные. Возможно`нулевой` или пустая строка. |
 
-### Примеры
+## Примеры
 
 Показывает, как указать базовый URI при открытии HTML-документа.
 
@@ -134,7 +136,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 
 * enum [LoadFormat](../../../aspose.words/loadformat/)
 * class [HtmlLoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../htmlloadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum MergeFieldImageDimensionUnit
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.MergeFieldImageDimensionUnit 枚举. 指定邮件合并过程中使用的图像尺寸单位即宽度或高度
+title: MergeFieldImageDimensionUnit Enum
+linktitle: MergeFieldImageDimensionUnit
+articleTitle: MergeFieldImageDimensionUnit
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.MergeFieldImageDimensionUnit 枚举. 指定邮件合并过程中使用的图像尺寸单位即宽度或高度 在 C#.
 type: docs
 weight: 2760
 url: /zh/net/aspose.words.fields/mergefieldimagedimensionunit/
@@ -21,7 +23,7 @@ public enum MergeFieldImageDimensionUnit
 | Point | `0` | 点（即 1/72 英寸）。 |
 | Percent | `1` | 原始图像尺寸值的百分比。 |
 
-### 例子
+## 例子
 
 展示如何在 MERGEFIELDS 在邮件合并期间接受图像时设置图像尺寸。
 
@@ -92,5 +94,3 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

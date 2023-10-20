@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowSeriesName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataLabelCollection propriété. Renvoie ou définit un booléen pour indiquer le comportement daffichage du nom de série pour les étiquettes de données de la série entière. vrai pour afficher le nom de la série FAUX cacher. Par défautFAUX .
+linktitle: ShowSeriesName
+articleTitle: ShowSeriesName
+second_title: Aspose.Words pour .NET
+description: ChartDataLabelCollection ShowSeriesName propriété. Renvoie ou définit un booléen pour indiquer le comportement daffichage du nom de série pour les étiquettes de données de la série entière. vrai pour afficher le nom de la série FAUX cacher. Par défautFAUX  en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/
@@ -14,11 +16,11 @@ Renvoie ou définit un booléen pour indiquer le comportement d'affichage du nom
 public bool ShowSeriesName { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur définie pour cette propriété peut être remplacée pour une étiquette de données individuelle en utilisant the [`ShowSeriesName`](../../chartdatalabel/showseriesname/) propriété.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les étiquettes de données d’un graphique à bulles.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### Voir également
 
 * class [ChartDataLabelCollection](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

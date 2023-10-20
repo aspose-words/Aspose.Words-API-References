@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyleCollection metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla villkorliga stilar i samlingen.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: ConditionalStyleCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla villkorliga stilar i samlingen i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words/conditionalstylecollection/getenumerator/
@@ -14,7 +16,7 @@ Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla 
 public IEnumerator<ConditionalStyle> GetEnumerator()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* namnutrymme [Aspose.Words](../../conditionalstylecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

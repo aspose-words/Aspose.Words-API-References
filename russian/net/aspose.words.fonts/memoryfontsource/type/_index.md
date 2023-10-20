@@ -1,7 +1,9 @@
 ---
 title: MemoryFontSource.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: MemoryFontSource свойство. Возвращает тип источника шрифта.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: MemoryFontSource Type свойство. Возвращает тип источника шрифта на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fonts/memoryfontsource/type/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/memoryfontsource/type/
 public override FontSourceType Type { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать массив байтов с данными из файла шрифта в качестве источника шрифта.
 
@@ -34,7 +36,5 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [MemoryFontSource](../)
-* пространство имен [Aspose.Words.Fonts](../../memoryfontsource/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

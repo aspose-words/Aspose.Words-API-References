@@ -1,12 +1,14 @@
 ---
-title: GradientStop.GradientStop
-second_title: Aspose.Words för .NET API Referens
-description: GradientStop byggare. Initierar en ny instans avGradientStop class.
+title: GradientStop
+linktitle: GradientStop
+articleTitle: GradientStop
+second_title: Aspose.Words för .NET
+description: GradientStop byggare. Initierar en ny instans avGradientStop class i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/gradientstop/gradientstop/
 ---
-## GradientStop(Color, double) {#constructor}
+## GradientStop(*Color, double*) {#constructor}
 
 Initierar en ny instans av[`GradientStop`](../) class.
 
@@ -19,7 +21,7 @@ public GradientStop(Color color, double position)
 | color | Color | Representerar färgen på gradientstoppet. |
 | position | Double | Representerar positionen för ett stopp inom gradienten uttryckt som en procent i intervallet 0,0 till 1,0. |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till övertoningsstopp i övertoningsfyllningen.
 
@@ -72,12 +74,12 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Se även
 
 * class [GradientStop](../)
-* namnutrymme [Aspose.Words.Drawing](../../gradientstop/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## GradientStop(Color, double, double) {#constructor_1}
+## GradientStop(*Color, double, double*) {#constructor_1}
 
 Initierar en ny instans av[`GradientStop`](../) class.
 
@@ -91,7 +93,7 @@ public GradientStop(Color color, double position, double transparency)
 | position | Double | Representerar positionen för ett stopp inom gradienten uttryckt som en procent i intervallet 0,0 till 1,0. |
 | transparency | Double | Representerar genomskinligheten för ett stopp inom gradienten uttryckt som en procent i intervallet 0,0 till 1,0. |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till övertoningsstopp i övertoningsfyllningen.
 
@@ -144,7 +146,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Se även
 
 * class [GradientStop](../)
-* namnutrymme [Aspose.Words.Drawing](../../gradientstop/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

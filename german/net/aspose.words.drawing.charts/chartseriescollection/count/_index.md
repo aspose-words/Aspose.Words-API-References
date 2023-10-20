@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartSeriesCollection eigendom. Gibt die Anzahl zurückChartSeries in dieser Sammlung.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: ChartSeriesCollection Count eigendom. Gibt die Anzahl zurückChartSeries in dieser Sammlung in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/chartseriescollection/count/
@@ -14,7 +16,7 @@ Gibt die Anzahl zurück[`ChartSeries`](../../chartseries/) in dieser Sammlung.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Reihendaten in einem Diagramm hinzufügt und entfernt.
 
@@ -61,7 +63,5 @@ chartData.Clear();
 ### Siehe auch
 
 * class [ChartSeriesCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

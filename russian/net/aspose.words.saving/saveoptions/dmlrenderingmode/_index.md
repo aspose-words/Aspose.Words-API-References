@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.DmlRenderingMode
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Получает или задает значение определяющее способ отрисовки фигур DrawingML.
+linktitle: DmlRenderingMode
+articleTitle: DmlRenderingMode
+second_title: Aspose.Words для .NET
+description: SaveOptions DmlRenderingMode свойство. Получает или задает значение определяющее способ отрисовки фигур DrawingML на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/saveoptions/dmlrenderingmode/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/saveoptions/dmlrenderingmode/
 public DmlRenderingMode DmlRenderingMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Fallback .
 
 Это свойство используется, когда документ экспортируется в фиксированные форматы страниц.
 
-### Примеры
+## Примеры
 
 Показывает, как визуализировать резервные фигуры при сохранении в PDF.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * enum [DmlRenderingMode](../../dmlrenderingmode/)
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.SuppressAuthor
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCitation eigendom. Ruft ab oder legt fest ob die Autoreninformationen aus der Zitierung unterdrückt werden.
+linktitle: SuppressAuthor
+articleTitle: SuppressAuthor
+second_title: Aspose.Words für .NET
+description: FieldCitation SuppressAuthor eigendom. Ruft ab oder legt fest ob die Autoreninformationen aus der Zitierung unterdrückt werden in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/fieldcitation/suppressauthor/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Autoreninformationen aus der Zitierung unterdrüc
 public bool SuppressAuthor { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den Feldern CITATION und BIBLIOGRAPHY gearbeitet wird.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Siehe auch
 
 * class [FieldCitation](../)
-* namensraum [Aspose.Words.Fields](../../fieldcitation/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

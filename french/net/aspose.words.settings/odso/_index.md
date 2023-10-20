@@ -1,7 +1,9 @@
 ---
-title: Class Odso
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Settings.Odso classe. Spécifie les paramètres ODSO Office Data Source Object pour une source de données de publipostage.
+title: Odso Class
+linktitle: Odso
+articleTitle: Odso
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Settings.Odso classe. Spécifie les paramètres ODSO Office Data Source Object pour une source de données de publipostage en C#.
 type: docs
 weight: 5880
 url: /fr/net/aspose.words.settings/odso/
@@ -41,7 +43,7 @@ public class Odso
 | --- | --- |
 | [Clone](../../aspose.words.settings/odso/clone/)() | Renvoie un clone profond de cet objet. |
 
-### Remarques
+## Remarques
 
 ODSO semble être la "nouvelle" façon que les versions les plus récentes de Microsoft Word préfèrent utiliser lors de la spécification de certains types de sources de données pour un document de fusion et publipostage. ODSO est probablement apparu pour la première fois dans Microsoft Word 2000.
 
@@ -49,7 +51,7 @@ L'utilisation d'ODSO est mal documentée et la meilleure façon d'apprendre à u
 
 Vous n'avez normalement pas besoin de créer directement des objets de cette classe car ODSO settings sont toujours disponibles via le[`Odso`](../mailmergesettings/odso/) propriété.
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * espace de noms [Aspose.Words.Settings](../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../)
-
-

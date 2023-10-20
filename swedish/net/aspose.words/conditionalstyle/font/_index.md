@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Font
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyle fast egendom. Hämtar teckenformateringen för den villkorliga stilen.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words för .NET
+description: ConditionalStyle Font fast egendom. Hämtar teckenformateringen för den villkorliga stilen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/conditionalstyle/font/
@@ -14,7 +16,7 @@ Hämtar teckenformateringen för den villkorliga stilen.
 public Font Font { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [Font](../../font/)
 * class [ConditionalStyle](../)
-* namnutrymme [Aspose.Words](../../conditionalstyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

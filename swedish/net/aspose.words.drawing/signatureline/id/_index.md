@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.Id
-second_title: Aspose.Words för .NET API Referens
-description: SignatureLine fast egendom. Hämtar eller ställer in identifierare för denna signaturrad.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words för .NET
+description: SignatureLine Id fast egendom. Hämtar eller ställer in identifierare för denna signaturrad i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing/signatureline/id/
@@ -16,7 +18,7 @@ Denna identifierare kan associeras med en digital signatur när du signerar doku
 public Guid Id { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till en signaturrad i ett dokument och sedan signerar den med ett digitalt certifikat.
 
@@ -132,7 +134,5 @@ Visar hur man lägger till en signaturrad i ett dokument och sedan signerar den 
 ### Se även
 
 * class [SignatureLine](../)
-* namnutrymme [Aspose.Words.Drawing](../../signatureline/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

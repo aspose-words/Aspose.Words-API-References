@@ -1,7 +1,9 @@
 ---
 title: PageInfo.HeightInPoints
-second_title: Aspose.Words for .NET API Referansı
-description: PageInfo mülk. Sayfanın yüksekliğini puan olarak alır.
+linktitle: HeightInPoints
+articleTitle: HeightInPoints
+second_title: Aspose.Words for .NET
+description: PageInfo HeightInPoints mülk. Sayfanın yüksekliğini puan olarak alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.rendering/pageinfo/heightinpoints/
@@ -14,7 +16,7 @@ Sayfanın yüksekliğini puan olarak alır.
 public float HeightInPoints { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir Word belgesindeki her sayfa için sayfa boyutu ve yön bilgilerinin nasıl yazdırılacağını gösterir.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Ayrıca bakınız
 
 * class [PageInfo](../)
-* ad alanı [Aspose.Words.Rendering](../../pageinfo/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

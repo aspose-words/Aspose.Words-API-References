@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeDestination
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Settings.MailMergeDestination énumération. Spécifie les résultats possibles qui peuvent être générés lorsquun publipostage est effectué sur un document.
+title: MailMergeDestination Enum
+linktitle: MailMergeDestination
+articleTitle: MailMergeDestination
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Settings.MailMergeDestination énumération. Spécifie les résultats possibles qui peuvent être générés lorsquun publipostage est effectué sur un document en C#.
 type: docs
 weight: 5830
 url: /fr/net/aspose.words.settings/mailmergedestination/
@@ -24,7 +26,7 @@ public enum MailMergeDestination
 | Fax | `4` | Spécifie que les applications d'hébergement conformes doivent générer des fax en utilisant les documents résultant de en remplissant les champs d'un document donné avec les données de la source de données externe spécifiée. |
 | Default | `0` | Égal àNewDocument valeur. |
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [Destination](../mailmergesettings/destination/)
 * espace de noms [Aspose.Words.Settings](../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum AxisScaleType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.AxisScaleType перечисление. Указывает возможные типы масштаба для оси.
+title: AxisScaleType Enum
+linktitle: AxisScaleType
+articleTitle: AxisScaleType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.AxisScaleType перечисление. Указывает возможные типы масштаба для оси на С#.
 type: docs
 weight: 560
 url: /ru/net/aspose.words.drawing.charts/axisscaletype/
@@ -21,7 +23,7 @@ public enum AxisScaleType
 | Linear | `0` | Линейное масштабирование. |
 | Logarithmic | `1` | Логарифмическое масштабирование. |
 
-### Примеры
+## Примеры
 
 Показывает, как применить логарифмическое масштабирование к оси диаграммы.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

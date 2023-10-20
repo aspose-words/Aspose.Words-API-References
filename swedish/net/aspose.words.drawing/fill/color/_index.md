@@ -1,9 +1,11 @@
 ---
 title: Fill.Color
-second_title: Aspose.Words för .NET API Referens
-description: Fill fast egendom. Hämtar eller ställer in ett färgobjekt som representerar förgrundsfärgen för fyllningen.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words för .NET
+description: Fill Color fast egendom. Hämtar eller ställer in ett färgobjekt som representerar förgrundsfärgen för fyllningen i C#.
 type: docs
-weight: 50
+weight: 40
 url: /sv/net/aspose.words.drawing/fill/color/
 ---
 ## Fill.Color property
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett färgobjekt som representerar förgrundsfärgen f�
 public Color Color { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen bevarar alfakomponenten iColor , till skillnad från[`ForeColor`](../forecolor/)egenskap, som återställer den till helt ogenomskinlig färg.
 
-### Exempel
+## Exempel
 
 Visar hur man konverterar någon av fyllningarna tillbaka till fast fyllning.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
 ### Se även
 
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

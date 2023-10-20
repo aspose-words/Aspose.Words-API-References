@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsListItem
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. صحيح عندما تكون الفقرة عنصرًا في قائمة ذات تعداد نقطي أو رقمي في المراجعة الأصلية.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words لـ .NET
+description: Paragraph IsListItem ملكية. صحيح عندما تكون الفقرة عنصرًا في قائمة ذات تعداد نقطي أو رقمي في المراجعة الأصلية في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/paragraph/islistitem/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/islistitem/
 public bool IsListItem { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج قائمة داخل قائمة أخرى.
 
@@ -68,7 +70,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### أنظر أيضا
 
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

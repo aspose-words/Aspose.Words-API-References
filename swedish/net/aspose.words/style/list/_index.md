@@ -1,7 +1,9 @@
 ---
 title: Style.List
-second_title: Aspose.Words för .NET API Referens
-description: Style fast egendom. Hämtar listan som definierar formateringen av denna liststil.
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words för .NET
+description: Style List fast egendom. Hämtar listan som definierar formateringen av denna liststil i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/style/list/
@@ -14,11 +16,11 @@ Hämtar listan som definierar formateringen av denna liststil.
 public List List { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen är endast giltig för liststilar. För andra stiltyper returnerar den här egenskapen`null`.
 
-### Exempel
+## Exempel
 
 Visar hur du skapar en liststil och använder den i ett dokument.
 
@@ -80,7 +82,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 
 * class [List](../../../aspose.words.lists/list/)
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

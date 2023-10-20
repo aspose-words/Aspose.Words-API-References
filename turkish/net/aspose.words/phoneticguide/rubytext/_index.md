@@ -1,7 +1,9 @@
 ---
 title: PhoneticGuide.RubyText
-second_title: Aspose.Words for .NET API Referansı
-description: PhoneticGuide mülk. Fonetik kılavuzun ruby metnini alır.
+linktitle: RubyText
+articleTitle: RubyText
+second_title: Aspose.Words for .NET
+description: PhoneticGuide RubyText mülk. Fonetik kılavuzun ruby metnini alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/phoneticguide/rubytext/
@@ -14,7 +16,7 @@ Fonetik kılavuzun ruby metnini alır.
 public string RubyText { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Fonetik kılavuzun özelliklerinin nasıl alınacağını gösterir.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### Ayrıca bakınız
 
 * class [PhoneticGuide](../)
-* ad alanı [Aspose.Words](../../phoneticguide/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListLevel.GetEffectiveValue
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevel метод. Сообщает строковое представлениеListLevelобъект для указанного index элемента списка. Параметры определяютNumberStyle и необязательный формат string  используемый когдаCustom указано.
+linktitle: GetEffectiveValue
+articleTitle: GetEffectiveValue
+second_title: Aspose.Words для .NET
+description: ListLevel GetEffectiveValue метод. Сообщает строковое представлениеListLevelобъект для указанного index элемента списка. Параметры определяютNumberStyle и необязательный формат string  используемый когдаCustom указано на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.lists/listlevel/geteffectivevalue/
@@ -32,7 +34,7 @@ public static string GetEffectiveValue(int index, NumberStyle numberStyle,
 | ArgumentException | *customNumberStyleFormat* является`нулевой` или пусто, когда*numberStyle* является пользовательским.-или- *customNumberStyleFormat* не является`нулевой` или пусто, когда*numberStyle* не является пользовательским.-или- *customNumberStyleFormat* неверно. |
 | ArgumentOutOfRangeException | индекс выходит за пределы допустимого диапазона. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить формат списка с пользовательским числовым стилем.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, custom
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [ListLevel](../)
-* пространство имен [Aspose.Words.Lists](../../listlevel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

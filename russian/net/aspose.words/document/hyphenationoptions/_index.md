@@ -1,7 +1,9 @@
 ---
 title: Document.HyphenationOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Предоставляет доступ к параметрам расстановки переносов в документе.
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words для .NET
+description: Document HyphenationOptions свойство. Предоставляет доступ к параметрам расстановки переносов в документе на С#.
 type: docs
 weight: 210
 url: /ru/net/aspose.words/document/hyphenationoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/hyphenationoptions/
 public HyphenationOptions HyphenationOptions { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить автоматическую расстановку переносов.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 
 * class [HyphenationOptions](../../../aspose.words.settings/hyphenationoptions/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldXE.Text
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldXE свойство. Получает или задает текст записи.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words для .NET
+description: FieldXE Text свойство. Получает или задает текст записи на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldxe/text/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldxe/text/
 public string Text { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле INDEX, а затем использовать поля XE для заполнения его записями.
 
@@ -140,7 +142,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Смотрите также
 
 * class [FieldXE](../)
-* пространство имен [Aspose.Words.Fields](../../fieldxe/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

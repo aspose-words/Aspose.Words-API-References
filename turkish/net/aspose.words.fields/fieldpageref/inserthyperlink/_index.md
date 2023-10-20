@@ -1,7 +1,9 @@
 ---
 title: FieldPageRef.InsertHyperlink
-second_title: Aspose.Words for .NET API Referansı
-description: FieldPageRef mülk. Yer imine eklenen paragrafa köprü eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words for .NET
+description: FieldPageRef InsertHyperlink mülk. Yer imine eklenen paragrafa köprü eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldpageref/inserthyperlink/
@@ -14,7 +16,7 @@ Yer imine eklenen paragrafa köprü eklenip eklenmeyeceğini alır veya ayarlar.
 public bool InsertHyperlink { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yer imlerinin göreceli konumunu görüntülemek için PAGEREF alanlarının eklenmesini gösterir.
 
@@ -84,7 +86,5 @@ private static void InsertAndNameBookmark(DocumentBuilder builder, string bookma
 ### Ayrıca bakınız
 
 * class [FieldPageRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldpageref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

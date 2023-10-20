@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.CaseCodeStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Стиль регистрового кода для типа штрихкода ITF14. Допустимые значения STDEXTADD .
+linktitle: CaseCodeStyle
+articleTitle: CaseCodeStyle
+second_title: Aspose.Words для .NET
+description: BarcodeParameters CaseCodeStyle свойство. Стиль регистрового кода для типа штрихкода ITF14. Допустимые значения STDEXTADD  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/barcodeparameters/casecodestyle/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/barcodeparameters/casecodestyle/
 public string CaseCodeStyle { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать генератор штрих-кода.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Смотрите также
 
 * class [BarcodeParameters](../)
-* пространство имен [Aspose.Words.Fields](../../barcodeparameters/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

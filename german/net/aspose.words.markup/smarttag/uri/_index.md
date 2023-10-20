@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Uri
-second_title: Aspose.Words für .NET-API-Referenz
-description: SmartTag eigendom. Gibt den NamespaceURI des Smarttags an.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words für .NET
+description: SmartTag Uri eigendom. Gibt den NamespaceURI des Smarttags an in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.markup/smarttag/uri/
@@ -14,13 +16,13 @@ Gibt den Namespace-URI des Smarttags an.
 public string Uri { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kann nicht sein`Null`.
 
 Der Standardwert ist eine leere Zeichenfolge.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Smarttags erstellt.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Siehe auch
 
 * class [SmartTag](../)
-* namensraum [Aspose.Words.Markup](../../smarttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

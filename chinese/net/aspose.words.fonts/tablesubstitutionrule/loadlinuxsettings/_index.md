@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.LoadLinuxSettings
-second_title: Aspose.Words for .NET API 参考
-description: TableSubstitutionRule 方法. 加载 Linux 平台的预定义表替换设置
+linktitle: LoadLinuxSettings
+articleTitle: LoadLinuxSettings
+second_title: 用于 .NET 的 Aspose.Words
+description: TableSubstitutionRule LoadLinuxSettings 方法. 加载 Linux 平台的预定义表替换设置 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/
 public void LoadLinuxSettings()
 ```
 
-### 例子
+## 例子
 
 演示如何访问 Windows 和 Linux 的字体替换表。
 
@@ -53,7 +55,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### 也可以看看
 
 * class [TableSubstitutionRule](../)
-* 命名空间 [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

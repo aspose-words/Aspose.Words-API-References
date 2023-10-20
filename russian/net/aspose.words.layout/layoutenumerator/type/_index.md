@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutEnumerator свойство. Получает тип текущего объекта.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: LayoutEnumerator Type свойство. Получает тип текущего объекта на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.layout/layoutenumerator/type/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/layoutenumerator/type/
 public LayoutEntityType Type { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает способы перемещения по объектам макета документа.
 
@@ -160,7 +162,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * enum [LayoutEntityType](../../layoutentitytype/)
 * class [LayoutEnumerator](../)
-* пространство имен [Aspose.Words.Layout](../../layoutenumerator/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.LineBetween
-second_title: Aspose.Words for .NET API 参考
-description: TextColumnCollection 财产. 当真的在列之间添加一条垂直线
+linktitle: LineBetween
+articleTitle: LineBetween
+second_title: 用于 .NET 的 Aspose.Words
+description: TextColumnCollection LineBetween 财产. 当真的在列之间添加一条垂直线 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/textcolumncollection/linebetween/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/textcolumncollection/linebetween/
 public bool LineBetween { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何用垂直线分隔列。
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "PageSetup.VerticalLineBetweenColumns.docx");
 ### 也可以看看
 
 * class [TextColumnCollection](../)
-* 命名空间 [Aspose.Words](../../textcolumncollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

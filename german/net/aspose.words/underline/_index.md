@@ -1,7 +1,9 @@
 ---
-title: Enum Underline
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Underline opsomming. Gibt den Typ der Unterstreichung an die auf eine Schriftart angewendet wird.
+title: Underline Enum
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Underline opsomming. Gibt den Typ der Unterstreichung an die auf eine Schriftart angewendet wird in C#.
 type: docs
 weight: 6510
 url: /de/net/aspose.words/underline/
@@ -37,7 +39,7 @@ public enum Underline
 | WavyHeavy | `27` |  |
 | WavyDouble | `43` |  |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Hyperlinkfeld eingefügt wird.
 
@@ -63,5 +65,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

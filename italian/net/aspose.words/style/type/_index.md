@@ -1,9 +1,11 @@
 ---
 title: Style.Type
-second_title: Aspose.Words per .NET API Reference
-description: Style proprietà. Ottiene il tipo di stile paragrafo o carattere.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words per .NET
+description: Style Type proprietà. Ottiene il tipo di stile paragrafo o carattere in C#.
 type: docs
-weight: 180
+weight: 170
 url: /it/net/aspose.words/style/type/
 ---
 ## Style.Type property
@@ -14,7 +16,7 @@ Ottiene il tipo di stile (paragrafo o carattere).
 public StyleType Type { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di stili di un documento.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * enum [StyleType](../../styletype/)
 * class [Style](../)
-* spazio dei nomi [Aspose.Words](../../style/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

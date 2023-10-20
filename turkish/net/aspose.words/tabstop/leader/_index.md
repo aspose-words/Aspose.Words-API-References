@@ -1,7 +1,9 @@
 ---
 title: TabStop.Leader
-second_title: Aspose.Words for .NET API Referansı
-description: TabStop mülk. Sekme karakterinin altında görüntülenen öncü çizginin türünü alır veya ayarlar.
+linktitle: Leader
+articleTitle: Leader
+second_title: Aspose.Words for .NET
+description: TabStop Leader mülk. Sekme karakterinin altında görüntülenen öncü çizginin türünü alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/tabstop/leader/
@@ -14,7 +16,7 @@ Sekme karakterinin altında görüntülenen öncü çizginin türünü alır vey
 public TabLeader Leader { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İçindekiler ile ilgili paragraflarda sağ sekme durağının konumunun nasıl değiştirileceğini gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [TabLeader](../../tableader/)
 * class [TabStop](../)
-* ad alanı [Aspose.Words](../../tabstop/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

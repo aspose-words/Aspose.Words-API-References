@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevelCollection метод. Получает объект перечислителя который будет перечислять уровни в этом списке.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: ListLevelCollection GetEnumerator метод. Получает объект перечислителя который будет перечислять уровни в этом списке на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.lists/listlevelcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.lists/listlevelcollection/getenumerator/
 public IEnumerator<ListLevel> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает усовершенствованные способы настройки меток списков.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListLevelCollection](../)
-* пространство имен [Aspose.Words.Lists](../../listlevelcollection/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

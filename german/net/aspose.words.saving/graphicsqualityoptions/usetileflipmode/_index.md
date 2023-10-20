@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.UseTileFlipMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: GraphicsQualityOptions eigendom. Ruft ein Flag ab oder setzt es das angibt ob WrapMode TileFlipXY ist.
+linktitle: UseTileFlipMode
+articleTitle: UseTileFlipMode
+second_title: Aspose.Words für .NET
+description: GraphicsQualityOptions UseTileFlipMode eigendom. Ruft ein Flag ab oder setzt es das angibt ob WrapMode TileFlipXY ist in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
@@ -14,7 +16,7 @@ Ruft ein Flag ab oder setzt es, das angibt, ob WrapMode TileFlipXY ist.
 public bool UseTileFlipMode { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 DerWrapMode Gibt an, wie eine Textur oder ein Farbverlauf gekachelt wird, wenn sie kleiner als der zu füllende Bereich ist.
 
@@ -22,7 +24,7 @@ Standardmäßig verwendetTile (gibt Kacheln ohne Spiegeln an). Dies führt zu ei
 
 Mit dieser Eigenschaft kann WrapMode auf umgeschaltet werdenTileFlipXY (Gibt an, dass Kacheln horizontal gespiegelt werden, wenn Sie sich entlang einer Zeile bewegen, und vertikal gespiegelt werden, wenn Sie sich entlang einer Spalte bewegen.)
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verhindert werden kann, dass beim Rendern mit hoher Auflösung eine weiße Linie erscheint.
 
@@ -42,7 +44,5 @@ renderer.Save(ArtifactsDir + "ImageSaveOptions.UseTileFlipMode.png", saveOptions
 ### Siehe auch
 
 * class [GraphicsQualityOptions](../)
-* namensraum [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

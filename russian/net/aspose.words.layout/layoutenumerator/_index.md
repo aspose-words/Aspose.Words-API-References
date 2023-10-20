@@ -1,7 +1,9 @@
 ---
-title: Class LayoutEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Layout.LayoutEnumerator сорт. Перечисляет объекты макета страницы документа. Этот класс можно использовать для обхода модели макета страницы. Доступными свойствами являются тип геометрия текст и индекс страницы на которой отображается объект  а также общая структура и связи. Используйте комбинациюGetEntity иCurrent перейти к объекту который соответствует узлу документа.
+title: LayoutEnumerator Class
+linktitle: LayoutEnumerator
+articleTitle: LayoutEnumerator
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Layout.LayoutEnumerator сорт. Перечисляет объекты макета страницы документа. Этот класс можно использовать для обхода модели макета страницы. Доступными свойствами являются тип геометрия текст и индекс страницы на которой отображается объект  а также общая структура и связи. Используйте комбинациюGetEntity иCurrent перейти к объекту который соответствует узлу документа на С#.
 type: docs
 weight: 3340
 url: /ru/net/aspose.words.layout/layoutenumerator/
@@ -20,7 +22,7 @@ public class LayoutEnumerator
 
 | Имя | Описание |
 | --- | --- |
-| [LayoutEnumerator](layoutenumerator/)(Document) | Инициализирует новый экземпляр этого класса. |
+| [LayoutEnumerator](layoutenumerator/)(*[Document](../../aspose.words/document/)*) | Инициализирует новый экземпляр этого класса. |
 
 ## Характеристики
 
@@ -44,12 +46,12 @@ public class LayoutEnumerator
 | [MoveNext](../../aspose.words.layout/layoutenumerator/movenext/)() | Переходит к следующему одноуровневому объекту в визуальном порядке. При повторении строк абзаца, разбитого на страницы, этот метод не перемещается на следующую страницу, а скорее переходит к следующему объекту на той же странице. |
 | [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical/)() | Переходит к следующему одноуровневому объекту в логическом порядке. При повторении строк абзаца, разбитого на страницы, этот метод перейдет к следующей строке, даже если он находится на другой странице. |
 | [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent)() | Перемещается к родительскому объекту. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(LayoutEntityType) | Перемещается к родительскому объекту указанного типа. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(*[LayoutEntityType](../layoutentitytype/)*) | Перемещается к родительскому объекту указанного типа. |
 | [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious/)() | Переход к предыдущему родственному объекту. |
 | [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical/)() | Переходит к предыдущему одноуровневому объекту в логическом порядке. При повторении строк абзаца, разбитого на страницы, этот метод переместится на предыдущую строку, даже если она находится на другой странице. |
 | [Reset](../../aspose.words.layout/layoutenumerator/reset/)() | Перемещает перечислитель на первую страницу документа. |
 
-### Примеры
+## Примеры
 
 Показывает способы перемещения по объектам макета документа.
 
@@ -195,5 +197,3 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * пространство имен [Aspose.Words.Layout](../../aspose.words.layout/)
 * сборка [Aspose.Words](../../)
-
-

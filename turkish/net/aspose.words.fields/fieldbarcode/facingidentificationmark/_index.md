@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.FacingIdentificationMark
-second_title: Aspose.Words for .NET API Referansı
-description: FieldBarcode mülk. Eklenecek Karşılıklı Tanımlama İşaretinin FIM türünü alır veya ayarlar.
+linktitle: FacingIdentificationMark
+articleTitle: FacingIdentificationMark
+second_title: Aspose.Words for .NET
+description: FieldBarcode FacingIdentificationMark mülk. Eklenecek Karşılıklı Tanımlama İşaretinin FIM türünü alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldbarcode/facingidentificationmark/
@@ -14,7 +16,7 @@ Eklenecek Karşılıklı Tanımlama İşaretinin (FIM) türünü alır veya ayar
 public string FacingIdentificationMark { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 ABD Posta kodlarını barkod biçiminde görüntülemek için BARKOD alanının nasıl kullanılacağını gösterir.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### Ayrıca bakınız
 
 * class [FieldBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fieldbarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

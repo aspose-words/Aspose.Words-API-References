@@ -1,7 +1,9 @@
 ---
-title: Class AxisScaling
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.AxisScaling klass. Representerar skalningsalternativen för axeln.
+title: AxisScaling Class
+linktitle: AxisScaling
+articleTitle: AxisScaling
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.AxisScaling klass. Representerar skalningsalternativen för axeln i C#.
 type: docs
 weight: 570
 url: /sv/net/aspose.words.drawing.charts/axisscaling/
@@ -31,7 +33,7 @@ public class AxisScaling
 | [Minimum](../../aspose.words.drawing.charts/axisscaling/minimum/) { get; set; } | Hämtar eller ställer in minimivärdet för axeln. |
 | [Type](../../aspose.words.drawing.charts/axisscaling/type/) { get; set; } | Hämtar eller ställer in skalningstyp för axeln. |
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar logaritmisk skalning på en diagramaxel.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

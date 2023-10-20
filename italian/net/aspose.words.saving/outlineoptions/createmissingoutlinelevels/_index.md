@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateMissingOutlineLevels
-second_title: Aspose.Words per .NET API Reference
-description: OutlineOptions proprietà. Ottiene o imposta un valore che determina se creare o meno livelli di struttura mancanti quando il documento viene esportato.
+linktitle: CreateMissingOutlineLevels
+articleTitle: CreateMissingOutlineLevels
+second_title: Aspose.Words per .NET
+description: OutlineOptions CreateMissingOutlineLevels proprietà. Ottiene o imposta un valore che determina se creare o meno livelli di struttura mancanti quando il documento viene esportato in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/outlineoptions/createmissingoutlinelevels/
@@ -16,7 +18,7 @@ Il valore predefinito per questa proprietà è`falso`.
 public bool CreateMissingOutlineLevels { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i livelli di struttura che non contengono intestazioni corrispondenti quando si salva un documento PDF.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 ### Guarda anche
 
 * class [OutlineOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../outlineoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListLevel.IsLegal
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevel mülk. Düzey devralınan tüm sayıları Arapçaya çeviriyorsa doğru sayı stilini koruyorsa yanlış.
+linktitle: IsLegal
+articleTitle: IsLegal
+second_title: Aspose.Words for .NET
+description: ListLevel IsLegal mülk. Düzey devralınan tüm sayıları Arapçaya çeviriyorsa doğru sayı stilini koruyorsa yanlış C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.lists/listlevel/islegal/
@@ -14,7 +16,7 @@ Düzey devralınan tüm sayıları Arapçaya çeviriyorsa doğru, sayı stilini 
 public bool IsLegal { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Liste etiketlerini özelleştirmenin gelişmiş yollarını gösterir.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### Ayrıca bakınız
 
 * class [ListLevel](../)
-* ad alanı [Aspose.Words.Lists](../../listlevel/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

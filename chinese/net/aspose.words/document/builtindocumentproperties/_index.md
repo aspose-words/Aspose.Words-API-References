@@ -1,7 +1,9 @@
 ---
 title: Document.BuiltInDocumentProperties
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 返回一个集合表示文档的所有内置文档属性
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: 用于 .NET 的 Aspose.Words
+description: Document BuiltInDocumentProperties 财产. 返回一个集合表示文档的所有内置文档属性 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/document/builtindocumentproperties/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/builtindocumentproperties/
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用内置文档属性。
 
@@ -49,7 +51,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 
 * class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

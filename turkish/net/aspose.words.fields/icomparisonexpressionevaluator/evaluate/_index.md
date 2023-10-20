@@ -1,7 +1,9 @@
 ---
 title: IComparisonExpressionEvaluator.Evaluate
-second_title: Aspose.Words for .NET API Referansı
-description: IComparisonExpressionEvaluator yöntem. Karşılaştırma ifadesini değerlendirir.
+linktitle: Evaluate
+articleTitle: Evaluate
+second_title: Aspose.Words for .NET
+description: IComparisonExpressionEvaluator Evaluate yöntem. Karşılaştırma ifadesini değerlendirir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/icomparisonexpressionevaluator/evaluate/
@@ -14,7 +16,7 @@ Karşılaştırma ifadesini değerlendirir.
 public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)
 ```
 
-### Notlar
+## Notlar
 
 Uygulama geri dönmeli`hükümsüz` varsayılan değerlendirmenin yapılması gerektiğini belirtmek için.
 
@@ -24,7 +26,5 @@ Uygulama geri dönmeli`hükümsüz` varsayılan değerlendirmenin yapılması ge
 * class [Field](../../field/)
 * class [ComparisonExpression](../../comparisonexpression/)
 * interface [IComparisonExpressionEvaluator](../)
-* ad alanı [Aspose.Words.Fields](../../icomparisonexpressionevaluator/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: BookmarkEnd.BookmarkEnd
-second_title: Aspose.Words für .NET-API-Referenz
-description: BookmarkEnd constructeur. Initialisiert eine neue Instanz vonBookmarkEnd Klasse.
+title: BookmarkEnd
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words für .NET
+description: BookmarkEnd constructeur. Initialisiert eine neue Instanz vonBookmarkEnd Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/bookmarkend/bookmarkend/
@@ -19,7 +21,7 @@ public BookmarkEnd(DocumentBase doc, string name)
 | doc | DocumentBase | Das Eigentümerdokument. |
 | name | String | Der Name des Lesezeichens. Kann nicht sein`Null`. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Lesezeichen hinzufügen und deren Inhalte aktualisieren.
 
@@ -109,7 +111,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [BookmarkEnd](../)
-* namensraum [Aspose.Words](../../bookmarkend/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

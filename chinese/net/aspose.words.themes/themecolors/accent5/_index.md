@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent5
-second_title: Aspose.Words for .NET API 参考
-description: ThemeColors 财产. 指定颜色强调 5.
+linktitle: Accent5
+articleTitle: Accent5
+second_title: 用于 .NET 的 Aspose.Words
+description: ThemeColors Accent5 财产. 指定颜色强调 5 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.themes/themecolors/accent5/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.themes/themecolors/accent5/
 public Color Accent5 { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置主题的自定义颜色和字体。
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### 也可以看看
 
 * class [ThemeColors](../)
-* 命名空间 [Aspose.Words.Themes](../../themecolors/)
+* 命名空间 [Aspose.Words.Themes](../../../aspose.words.themes/)
 * 部件 [Aspose.Words](../../../)
-
-

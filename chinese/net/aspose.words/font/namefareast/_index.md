@@ -1,7 +1,9 @@
 ---
 title: Font.NameFarEast
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 返回或设置东亚字体名称
+linktitle: NameFarEast
+articleTitle: NameFarEast
+second_title: 用于 .NET 的 Aspose.Words
+description: Font NameFarEast 财产. 返回或设置东亚字体名称 在 C#.
 type: docs
 weight: 260
 url: /zh/net/aspose.words/font/namefareast/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/namefareast/
 public string NameFarEast { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何用远东语言插入文本并设置其格式。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Font.FarEast.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LanguagePreferences.AddEditingLanguages
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LanguagePreferences méthode. Ajoute des langues dédition supplémentaires.
+linktitle: AddEditingLanguages
+articleTitle: AddEditingLanguages
+second_title: Aspose.Words pour .NET
+description: LanguagePreferences AddEditingLanguages méthode. Ajoute des langues dédition supplémentaires en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.loading/languagepreferences/addeditinglanguages/
@@ -18,7 +20,5 @@ public void AddEditingLanguages(EditingLanguage[] languages)
 
 * enum [EditingLanguage](../../editinglanguage/)
 * class [LanguagePreferences](../)
-* espace de noms [Aspose.Words.Loading](../../languagepreferences/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

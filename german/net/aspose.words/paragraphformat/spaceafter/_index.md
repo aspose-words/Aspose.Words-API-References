@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceAfter
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft den Abstand in Punkt nach dem Absatz ab oder legt diesen fest.
+linktitle: SpaceAfter
+articleTitle: SpaceAfter
+second_title: Aspose.Words für .NET
+description: ParagraphFormat SpaceAfter eigendom. Ruft den Abstand in Punkt nach dem Absatz ab oder legt diesen fest in C#.
 type: docs
 weight: 300
 url: /de/net/aspose.words/paragraphformat/spaceafter/
@@ -20,13 +22,13 @@ public double SpaceAfter { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Wird ausgelöst, wenn das Argument außerhalb des gültigen Wertebereichs lag. |
 
-### Bemerkungen
+## Bemerkungen
 
 Hat keine Auswirkung, wenn[`SpaceAfterAuto`](../spaceafterauto/) Ist`WAHR`.
 
 Gültige Werte reichen von 0 bis einschließlich 1584.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der automatische Absatzabstand eingestellt wird.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum CommentDisplayMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Layout.CommentDisplayMode énumération. Spécifie le mode de rendu des commentaires du document.
+title: CommentDisplayMode Enum
+linktitle: CommentDisplayMode
+articleTitle: CommentDisplayMode
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Layout.CommentDisplayMode énumération. Spécifie le mode de rendu des commentaires du document en C#.
 type: docs
 weight: 3290
 url: /fr/net/aspose.words.layout/commentdisplaymode/
@@ -22,7 +24,7 @@ public enum CommentDisplayMode
 | ShowInBalloons | `1` | Affiche les commentaires du document dans des bulles dans la marge. Il s'agit de la valeur par défaut. |
 | ShowInAnnotations | `2` | Rend les commentaires du document sous forme d'annotations. Ceci n'est disponible que pour le format Pdf. |
 
-### Exemples
+## Exemples
 
 Montre comment afficher les commentaires lors de l'enregistrement d'un document dans un format rendu.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Document.ShowCommentsInBalloons.pdf");
 
 * espace de noms [Aspose.Words.Layout](../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeriesCollection ملكية. إرجاع عددChartSeries في هذه المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: ChartSeriesCollection Count ملكية. إرجاع عددChartSeries في هذه المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartseriescollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartseriescollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة وإزالة بيانات السلسلة في مخطط.
 
@@ -61,7 +63,5 @@ chartData.Clear();
 ### أنظر أيضا
 
 * class [ChartSeriesCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

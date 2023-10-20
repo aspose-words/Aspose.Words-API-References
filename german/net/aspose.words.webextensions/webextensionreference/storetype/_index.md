@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.StoreType
-second_title: Aspose.Words für .NET-API-Referenz
-description: WebExtensionReference eigendom. Gibt die Art des Marktplatzes an.
+linktitle: StoreType
+articleTitle: StoreType
+second_title: Aspose.Words für .NET
+description: WebExtensionReference StoreType eigendom. Gibt die Art des Marktplatzes an in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.webextensions/webextensionreference/storetype/
@@ -14,7 +16,7 @@ Gibt die Art des Marktplatzes an.
 public WebExtensionStoreType StoreType { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Weberweiterung hinzufügt.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [WebExtensionStoreType](../../webextensionstoretype/)
 * class [WebExtensionReference](../)
-* namensraum [Aspose.Words.WebExtensions](../../webextensionreference/)
+* namensraum [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../../)
-
-

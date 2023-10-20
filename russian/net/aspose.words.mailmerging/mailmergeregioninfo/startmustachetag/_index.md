@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.StartMustacheTag
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeRegionInfo свойство. Возвращает начальный тег усы для региона.
+linktitle: StartMustacheTag
+articleTitle: StartMustacheTag
+second_title: Aspose.Words для .NET
+description: MailMergeRegionInfo StartMustacheTag свойство. Возвращает начальный тег усы для региона на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/
 public MustacheTag StartMustacheTag { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами усов.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [MustacheTag](../../mustachetag/)
 * class [MailMergeRegionInfo](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

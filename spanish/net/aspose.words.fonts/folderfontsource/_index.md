@@ -1,7 +1,9 @@
 ---
-title: Class FolderFontSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.FolderFontSource clase. Representa la carpeta que contiene archivos de fuentes TrueType.
+title: FolderFontSource Class
+linktitle: FolderFontSource
+articleTitle: FolderFontSource
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fonts.FolderFontSource clase. Representa la carpeta que contiene archivos de fuentes TrueType en C#.
 type: docs
 weight: 2880
 url: /es/net/aspose.words.fonts/folderfontsource/
@@ -20,8 +22,8 @@ public class FolderFontSource : FontSourceBase
 
 | Nombre | Descripción |
 | --- | --- |
-| [FolderFontSource](folderfontsource/#constructor)(string, bool) | Director. |
-| [FolderFontSource](folderfontsource/#constructor_1)(string, bool, int) | Director. |
+| [FolderFontSource](folderfontsource/#constructor)(*string, bool*) | Director. |
+| [FolderFontSource](folderfontsource/#constructor_1)(*string, bool, int*) | Director. |
 
 ## Propiedades
 
@@ -39,7 +41,7 @@ public class FolderFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Devuelve una lista de fuentes disponibles a través de esta fuente. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una carpeta del sistema local que contiene fuentes como fuente de fuentes.
 
@@ -62,5 +64,3 @@ Assert.AreEqual(1, folderFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../)
-
-

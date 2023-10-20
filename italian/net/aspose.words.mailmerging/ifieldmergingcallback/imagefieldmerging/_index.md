@@ -1,7 +1,9 @@
 ---
 title: IFieldMergingCallback.ImageFieldMerging
-second_title: Aspose.Words per .NET API Reference
-description: IFieldMergingCallback metodo. Chiamato quando il motore di stampa unione Aspose.Words sta per inserire unimmagine in un campo di unione.
+linktitle: ImageFieldMerging
+articleTitle: ImageFieldMerging
+second_title: Aspose.Words per .NET
+description: IFieldMergingCallback ImageFieldMerging metodo. Chiamato quando il motore di stampa unione Aspose.Words sta per inserire unimmagine in un campo di unione in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/
@@ -14,7 +16,7 @@ Chiamato quando il motore di stampa unione Aspose.Words sta per inserire un'imma
 public void ImageFieldMerging(ImageFieldMergingArgs args)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire in un report le immagini archiviate in un campo BLOB del database.
 
@@ -64,7 +66,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 
 * class [ImageFieldMergingArgs](../../imagefieldmergingargs/)
 * interface [IFieldMergingCallback](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../ifieldmergingcallback/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldDde.FieldDde
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDde constructeur. Default_Constructor
+title: FieldDde
+linktitle: FieldDde
+articleTitle: FieldDde
+second_title: Aspose.Words pour .NET
+description: FieldDde constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fielddde/fielddde/
@@ -17,7 +19,5 @@ public FieldDde()
 ### Voir également
 
 * class [FieldDde](../)
-* espace de noms [Aspose.Words.Fields](../../fielddde/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.ShadeFormData
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 指定是否打开表单字段上的灰色底纹
+linktitle: ShadeFormData
+articleTitle: ShadeFormData
+second_title: 用于 .NET 的 Aspose.Words
+description: Document ShadeFormData 财产. 指定是否打开表单字段上的灰色底纹 在 C#.
 type: docs
 weight: 380
 url: /zh/net/aspose.words/document/shadeformdata/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/shadeformdata/
 public bool ShadeFormData { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将灰色底纹应用到表单字段。
 
@@ -33,7 +35,5 @@ doc.Save(ArtifactsDir + "Document.ShadeFormData.docx");
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

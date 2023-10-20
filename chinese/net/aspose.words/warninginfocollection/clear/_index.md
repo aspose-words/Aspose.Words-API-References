@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Clear
-second_title: Aspose.Words for .NET API 参考
-description: WarningInfoCollection 方法. 从集合中删除所有元素
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: WarningInfoCollection Clear 方法. 从集合中删除所有元素 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/warninginfocollection/clear/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/warninginfocollection/clear/
 public void Clear()
 ```
 
-### 例子
+## 例子
 
 演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### 也可以看看
 
 * class [WarningInfoCollection](../)
-* 命名空间 [Aspose.Words](../../warninginfocollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

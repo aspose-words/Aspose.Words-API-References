@@ -1,7 +1,9 @@
 ---
 title: List.Style
-second_title: Aspose.Words för .NET API Referens
-description: List fast egendom. Hämtar liststilen som den här listan refererar till eller definierar.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words för .NET
+description: List Style fast egendom. Hämtar liststilen som den här listan refererar till eller definierar i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.lists/list/style/
@@ -14,7 +16,7 @@ Hämtar liststilen som den här listan refererar till eller definierar.
 public Style Style { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om den här listan inte är associerad med en liststil kommer egenskapen tillbaka`null`.
 
@@ -22,7 +24,7 @@ En lista kan i detta fall vara en referens till en liststil[`IsListStyleReferenc
 
 En lista kan vara en definition av en liststil, i det här fallet[`IsListStyleDefinition`](../isliststyledefinition/) kommer att vara`Sann`. En sådan lista kan inte tillämpas på stycken i dokumentet direkt.
 
-### Exempel
+## Exempel
 
 Visar hur du skapar en liststil och använder den i ett dokument.
 
@@ -84,7 +86,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [List](../)
-* namnutrymme [Aspose.Words.Lists](../../list/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

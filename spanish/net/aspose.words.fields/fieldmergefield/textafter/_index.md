@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.TextAfter
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergeField propiedad. Obtiene o establece el texto que se insertará después del campo si el campo no está en blanco.
+linktitle: TextAfter
+articleTitle: TextAfter
+second_title: Aspose.Words para .NET
+description: FieldMergeField TextAfter propiedad. Obtiene o establece el texto que se insertará después del campo si el campo no está en blanco en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fieldmergefield/textafter/
@@ -14,7 +16,7 @@ Obtiene o establece el texto que se insertará después del campo si el campo no
 public string TextAfter { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los campos MERGEFIELD para realizar una combinación de correspondencia.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Ver también
 
 * class [FieldMergeField](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldmergefield/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

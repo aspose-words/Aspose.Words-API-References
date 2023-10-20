@@ -1,7 +1,9 @@
 ---
 title: NodeList.Count
-second_title: Aspose.Words för .NET API Referens
-description: NodeList fast egendom. Hämtar antalet noder i listan.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: NodeList Count fast egendom. Hämtar antalet noder i listan i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/nodelist/count/
@@ -14,7 +16,7 @@ Hämtar antalet noder i listan.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder XPaths för att navigera i en nodlista.
 
@@ -72,7 +74,5 @@ Assert.True(shape.HasImage);
 ### Se även
 
 * class [NodeList](../)
-* namnutrymme [Aspose.Words](../../nodelist/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

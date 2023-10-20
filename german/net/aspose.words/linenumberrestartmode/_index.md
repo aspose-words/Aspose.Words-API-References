@@ -1,7 +1,9 @@
 ---
-title: Enum LineNumberRestartMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.LineNumberRestartMode opsomming. Legt fest wann die automatische Zeilennummerierung neu startet.
+title: LineNumberRestartMode Enum
+linktitle: LineNumberRestartMode
+articleTitle: LineNumberRestartMode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.LineNumberRestartMode opsomming. Legt fest wann die automatische Zeilennummerierung neu startet in C#.
 type: docs
 weight: 3430
 url: /de/net/aspose.words/linenumberrestartmode/
@@ -22,7 +24,7 @@ public enum LineNumberRestartMode
 | RestartSection | `1` | Die Zeilennummerierung beginnt wieder am Abschnittsanfang. |
 | Continuous | `2` | Zeilennummerierung fortlaufend vom vorherigen Abschnitt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Zeilennummerierung für einen Abschnitt aktiviert wird.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 * property [LineNumberRestartMode](../pagesetup/linenumberrestartmode/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: GeneralFormatCollection طريقة. يُرجع كائن العداد.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: GeneralFormatCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/generalformatcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/generalformatcollection/getenumerator/
 public IEnumerator<GeneralFormat> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق النتائج الميدانية.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * enum [GeneralFormat](../../generalformat/)
 * class [GeneralFormatCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../generalformatcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

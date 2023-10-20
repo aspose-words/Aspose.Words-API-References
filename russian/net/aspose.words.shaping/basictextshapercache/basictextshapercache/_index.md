@@ -1,7 +1,9 @@
 ---
-title: BasicTextShaperCache.BasicTextShaperCache
-second_title: Справочник по API Aspose.Words для .NET
-description: BasicTextShaperCache строитель. Обертыванияfactory и кэшиGetTextShaper результаты.
+title: BasicTextShaperCache
+linktitle: BasicTextShaperCache
+articleTitle: BasicTextShaperCache
+second_title: Aspose.Words для .NET
+description: BasicTextShaperCache строитель. Обертыванияfactory и кэшиGetTextShaper результаты на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.shaping/basictextshapercache/basictextshapercache/
@@ -18,7 +20,5 @@ public BasicTextShaperCache(ITextShaperFactory factory)
 
 * interface [ITextShaperFactory](../../itextshaperfactory/)
 * class [BasicTextShaperCache](../)
-* пространство имен [Aspose.Words.Shaping](../../basictextshapercache/)
+* пространство имен [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * сборка [Aspose.Words](../../../)
-
-

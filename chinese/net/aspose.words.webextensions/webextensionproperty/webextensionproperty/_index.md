@@ -1,7 +1,9 @@
 ---
-title: WebExtensionProperty.WebExtensionProperty
-second_title: Aspose.Words for .NET API 参考
-description: WebExtensionProperty 构造函数. 创建具有指定名称和值的 Web 扩展自定义属性
+title: WebExtensionProperty
+linktitle: WebExtensionProperty
+articleTitle: WebExtensionProperty
+second_title: 用于 .NET 的 Aspose.Words
+description: WebExtensionProperty 构造函数. 创建具有指定名称和值的 Web 扩展自定义属性 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.webextensions/webextensionproperty/webextensionproperty/
@@ -19,7 +21,7 @@ public WebExtensionProperty(string name, string value)
 | name | String | 属性名称。 |
 | value | String | 适当的价值。 |
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### 也可以看看
 
 * class [WebExtensionProperty](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../webextensionproperty/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

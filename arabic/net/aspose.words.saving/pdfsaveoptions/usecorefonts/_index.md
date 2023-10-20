@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.UseCoreFonts
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استبدال خطوط TrueType Arial وTimes New Roman و Courier New وSymbol بخطوط PDF Type 1 الأساسية أم لا.
+linktitle: UseCoreFonts
+articleTitle: UseCoreFonts
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions UseCoreFonts ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استبدال خطوط TrueType Arial وTimes New Roman و Courier New وSymbol بخطوط PDF Type 1 الأساسية أم لا في C#.
 type: docs
 weight: 310
 url: /ar/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
 public bool UseCoreFonts { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع` . عندما يتم ضبط هذه القيمة على`حقيقي` يتم استبدال خطوط Arial وTimes New Roman و Courier New وSymbol في مستند PDF بالخط الأساسي المطابق من النوع 1.
 
@@ -28,7 +30,7 @@ public bool UseCoreFonts { get; set; }
 
 هذا الخيار له أولوية أعلى بعد ذلك[`FontEmbeddingMode`](../fontembeddingmode/) خيار.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين/تعطيل استبدال خط PDF من النوع 1.
 
@@ -61,7 +63,5 @@ else
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

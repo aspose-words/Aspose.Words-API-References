@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.CreateNavigator
-second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode طريقة. إنشاء متصفح يمكن استخدامه لاجتياز العقد وقراءتها.
+linktitle: CreateNavigator
+articleTitle: CreateNavigator
+second_title: Aspose.Words لـ .NET
+description: CompositeNode CreateNavigator طريقة. إنشاء متصفح يمكن استخدامه لاجتياز العقد وقراءتها في C#.
 type: docs
-weight: 90
+weight: 70
 url: /ar/net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
@@ -15,7 +17,7 @@ url: /ar/net/aspose.words/compositenode/createnavigator/
 public XPathNavigator CreateNavigator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء XPathNavigator، ثم استخدامه لاجتياز العقد وقراءتها.
 
@@ -81,7 +83,5 @@ private static void MapDocument(XPathNavigator navigator, StringBuilder stringBu
 ### أنظر أيضا
 
 * class [CompositeNode](../)
-* مساحة الاسم [Aspose.Words](../../compositenode/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

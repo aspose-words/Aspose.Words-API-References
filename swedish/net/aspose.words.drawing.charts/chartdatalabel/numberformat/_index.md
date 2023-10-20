@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.NumberFormat
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabel fast egendom. Returnerar talformatet för det överordnade elementet.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words för .NET
+description: ChartDataLabel NumberFormat fast egendom. Returnerar talformatet för det överordnade elementet i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/numberformat/
@@ -14,7 +16,7 @@ Returnerar talformatet för det överordnade elementet.
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartDataLabel](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

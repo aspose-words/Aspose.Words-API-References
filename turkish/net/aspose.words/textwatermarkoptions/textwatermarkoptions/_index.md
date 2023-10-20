@@ -1,7 +1,9 @@
 ---
-title: TextWatermarkOptions.TextWatermarkOptions
-second_title: Aspose.Words for .NET API Referansı
-description: TextWatermarkOptions inşaatçı. Default_Constructor
+title: TextWatermarkOptions
+linktitle: TextWatermarkOptions
+articleTitle: TextWatermarkOptions
+second_title: Aspose.Words for .NET
+description: TextWatermarkOptions inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/textwatermarkoptions/textwatermarkoptions/
@@ -17,7 +19,5 @@ public TextWatermarkOptions()
 ### Ayrıca bakınız
 
 * class [TextWatermarkOptions](../)
-* ad alanı [Aspose.Words](../../textwatermarkoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

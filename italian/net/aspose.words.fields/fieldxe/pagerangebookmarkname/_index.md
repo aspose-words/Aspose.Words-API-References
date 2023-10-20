@@ -1,7 +1,9 @@
 ---
 title: FieldXE.PageRangeBookmarkName
-second_title: Aspose.Words per .NET API Reference
-description: FieldXE proprietà. Ottiene o imposta il nome del segnalibro che contrassegna un intervallo di pagine inserito come numero di pagina della voce.
+linktitle: PageRangeBookmarkName
+articleTitle: PageRangeBookmarkName
+second_title: Aspose.Words per .NET
+description: FieldXE PageRangeBookmarkName proprietà. Ottiene o imposta il nome del segnalibro che contrassegna un intervallo di pagine inserito come numero di pagina della voce in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/fieldxe/pagerangebookmarkname/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del segnalibro che contrassegna un intervallo di pagin
 public string PageRangeBookmarkName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come specificare le pagine estese di un segnalibro come intervallo di pagine per una voce del campo INDICE.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ### Guarda anche
 
 * class [FieldXE](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldxe/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

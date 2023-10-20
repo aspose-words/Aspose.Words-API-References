@@ -1,7 +1,9 @@
 ---
 title: ListLevel.CreatePictureBullet
-second_title: Aspose.Words for .NET API 参考
-description: ListLevel 方法. 为当前列表级别创建图片项目符号形状
+linktitle: CreatePictureBullet
+articleTitle: CreatePictureBullet
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevel CreatePictureBullet 方法. 为当前列表级别创建图片项目符号形状 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.lists/listlevel/createpicturebullet/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.lists/listlevel/createpicturebullet/
 public void CreatePictureBullet()
 ```
 
-### 评论
+## 评论
 
 请注意，[`NumberStyle`](../numberstyle/)将被设置为Bullet和 [`NumberFormat`](../numberformat/)到“\xF0B7”以正确显示图片项目符号。 红十字图像将在创建时设置为图片项目符号图像。 要更改它，请使用[`ImageData`](../imagedata/)。
 
-### 例子
+## 例子
 
 演示如何为列表项标签设置自定义图像图标。
 
@@ -50,7 +52,5 @@ Assert.IsNull(list.ListLevels[0].ImageData);
 ### 也可以看看
 
 * class [ListLevel](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevel/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

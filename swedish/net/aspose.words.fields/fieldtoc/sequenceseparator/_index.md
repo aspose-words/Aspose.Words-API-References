@@ -1,7 +1,9 @@
 ---
 title: FieldToc.SequenceSeparator
-second_title: Aspose.Words för .NET API Referens
-description: FieldToc fast egendom. Hämtar eller ställer in teckensekvensen som används för att separera sekvensnummer och sidnummer.
+linktitle: SequenceSeparator
+articleTitle: SequenceSeparator
+second_title: Aspose.Words för .NET
+description: FieldToc SequenceSeparator fast egendom. Hämtar eller ställer in teckensekvensen som används för att separera sekvensnummer och sidnummer i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.fields/fieldtoc/sequenceseparator/
@@ -14,7 +16,7 @@ Hämtar eller ställer in teckensekvensen som används för att separera sekvens
 public string SequenceSeparator { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller i ett innehållsförteckningsfält med poster med hjälp av SEQ-fält.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Se även
 
 * class [FieldToc](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtoc/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: ListCollection.Add
-second_title: Aspose.Words لمراجع .NET API
-description: ListCollection طريقة. إنشاء قائمة جديدة بناءً على قالب محدد مسبقًا وإضافتها إلى مجموعة القوائم في المستند.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: ListCollection Add طريقة. إنشاء قائمة جديدة بناءً على قالب محدد مسبقًا وإضافتها إلى مجموعة القوائم في المستند في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.lists/listcollection/add/
 ---
-## Add(ListTemplate) {#add}
+## Add(*[ListTemplate](../../listtemplate/)*) {#add}
 
 إنشاء قائمة جديدة بناءً على قالب محدد مسبقًا وإضافتها إلى مجموعة القوائم في المستند.
 
@@ -22,13 +24,13 @@ public List Add(ListTemplate listTemplate)
 
 القائمة التي تم إنشاؤها حديثا.
 
-### ملاحظات
+## ملاحظات
 
 تتوافق قوالب قائمة Aspose.Words مع قوالب القائمة الـ 21 المتوفرة في مربع حوار التعداد النقطي والترقيم في Microsoft Word 2003.
 
 تحتوي جميع القوائم التي تم إنشاؤها باستخدام هذه الطريقة على 9 مستويات للقائمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء قائمة من خلال تطبيق تنسيق قائمة جديد على مجموعة من الفقرات.
 
@@ -147,12 +149,12 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 * class [List](../../list/)
 * enum [ListTemplate](../../listtemplate/)
 * class [ListCollection](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listcollection/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Add(Style) {#add_1}
+## Add(*[Style](../../../aspose.words/style/)*) {#add_1}
 
 إنشاء قائمة جديدة تشير إلى نمط قائمة وإضافته إلى مجموعة القوائم في المستند.
 
@@ -168,11 +170,11 @@ public List Add(Style listStyle)
 
 القائمة التي تم إنشاؤها حديثا.
 
-### ملاحظات
+## ملاحظات
 
 تشير القائمة التي تم إنشاؤها حديثًا إلى نمط القائمة. إذا قمت بتغيير خصائص نمط list ، فسينعكس ذلك في خصائص القائمة. والعكس صحيح، إذا قمت بتغيير خصائص القائمة x000d_، فسوف ينعكس ذلك في خصائص نمط القائمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نمط قائمة واستخدامه في مستند.
 
@@ -235,7 +237,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 * class [List](../../list/)
 * class [Style](../../../aspose.words/style/)
 * class [ListCollection](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listcollection/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

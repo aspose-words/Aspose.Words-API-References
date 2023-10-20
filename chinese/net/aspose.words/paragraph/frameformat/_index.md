@@ -1,7 +1,9 @@
 ---
 title: Paragraph.FrameFormat
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 提供对帧格式属性的访问
+linktitle: FrameFormat
+articleTitle: FrameFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph FrameFormat 财产. 提供对帧格式属性的访问 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/paragraph/frameformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/frameformat/
 public FrameFormat FrameFormat { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何获取有关框架段落的格式设置属性的信息。
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * class [FrameFormat](../../frameformat/)
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

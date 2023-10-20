@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SuggestedFileName
-second_title: Aspose.Words för .NET API Referens
-description: OleFormat fast egendom. Hämtar filnamnet som föreslås för det aktuella inbäddade objektet om du vill spara det i en fil.
+linktitle: SuggestedFileName
+articleTitle: SuggestedFileName
+second_title: Aspose.Words för .NET
+description: OleFormat SuggestedFileName fast egendom. Hämtar filnamnet som föreslås för det aktuella inbäddade objektet om du vill spara det i en fil i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.drawing/oleformat/suggestedfilename/
@@ -14,7 +16,7 @@ Hämtar filnamnet som föreslås för det aktuella inbäddade objektet om du vil
 public string SuggestedFileName { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får ett OLE-objekts föreslagna filnamn.
 
@@ -38,7 +40,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + suggestedFileName, 
 ### Se även
 
 * class [OleFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../oleformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

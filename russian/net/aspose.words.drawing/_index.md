@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Drawing
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing пространство имен предоставляет классы которые позволяют создавать и изменять объекты рисования.
+linktitle: Aspose.Words.Drawing
+articleTitle: Aspose.Words.Drawing
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing пространство имен предоставляет классы которые позволяют создавать и изменять объекты рисования на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/
@@ -63,5 +65,3 @@ url: /ru/net/aspose.words.drawing/
 | [VerticalAlignment](./verticalalignment/) | Определяет вертикальное выравнивание плавающей фигуры, текстового фрейма или плавающей таблицы. |
 | [WrapSide](./wrapside/) | Указывает, какие стороны фигуры или изображения обтекает текст. |
 | [WrapType](./wraptype/) | Указывает, как текст обтекает фигуру или изображение. |
-
-

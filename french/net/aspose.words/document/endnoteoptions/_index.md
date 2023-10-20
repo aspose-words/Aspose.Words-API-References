@@ -1,7 +1,9 @@
 ---
 title: Document.EndnoteOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Fournit des options qui contrôlent la numérotation et le positionnement des notes de fin dans ce document.
+linktitle: EndnoteOptions
+articleTitle: EndnoteOptions
+second_title: Aspose.Words pour .NET
+description: Document EndnoteOptions propriété. Fournit des options qui contrôlent la numérotation et le positionnement des notes de fin dans ce document en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words/document/endnoteoptions/
@@ -14,7 +16,7 @@ Fournit des options qui contrôlent la numérotation et le positionnement des no
 public EndnoteOptions EndnoteOptions { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment sélectionner un autre emplacement où le document collecte et affiche ses notes de fin.
 
@@ -188,7 +190,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * class [EndnoteOptions](../../../aspose.words.notes/endnoteoptions/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

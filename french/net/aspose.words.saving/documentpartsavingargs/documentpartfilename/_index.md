@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.DocumentPartFileName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentPartSavingArgs propriété. Obtient ou définit le nom du fichier sans chemin dans lequel la partie du document sera enregistrée.
+linktitle: DocumentPartFileName
+articleTitle: DocumentPartFileName
+second_title: Aspose.Words pour .NET
+description: DocumentPartSavingArgs DocumentPartFileName propriété. Obtient ou définit le nom du fichier sans chemin dans lequel la partie du document sera enregistrée en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/documentpartsavingargs/documentpartfilename/
@@ -14,7 +16,7 @@ Obtient ou définit le nom du fichier (sans chemin) dans lequel la partie du doc
 public string DocumentPartFileName { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété vous permet de redéfinir la façon dont les noms de fichiers des parties du document sont générés lors de l'exportation au format HTML ou EPUB.
 
@@ -22,7 +24,7 @@ Lorsque le rappel est appelé, cette propriété contient le nom de fichier gén
 
 `DocumentPartFileName` doit contenir uniquement le nom du fichier sans le chemin. Aspose.Words détermine le chemin d'enregistrement en utilisant le nom du fichier du document. Si le nom du fichier du document de sortie n'a pas été spécifié, par exemple lors de l'enregistrement dans un flux, ce nom de fichier est utilisé uniquement pour référencer des parties du document. Il en va de même lors de l'enregistrement au format EPUB.
 
-### Exemples
+## Exemples
 
 Montre comment diviser un document en parties et les enregistrer.
 
@@ -139,7 +141,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Voir également
 
 * class [DocumentPartSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../documentpartsavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Name
-second_title: Aspose.Words per .NET API Reference
-description: DocumentProperty proprietà. Restituisce il nome della proprietà.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words per .NET
+description: DocumentProperty Name proprietà. Restituisce il nome della proprietà in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.properties/documentproperty/name/
@@ -14,11 +16,11 @@ Restituisce il nome della proprietà.
 public string Name { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Non può essere`nullo` e non può essere una stringa vuota.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le proprietà del documento integrate.
 
@@ -52,7 +54,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 ### Guarda anche
 
 * class [DocumentProperty](../)
-* spazio dei nomi [Aspose.Words.Properties](../../documentproperty/)
+* spazio dei nomi [Aspose.Words.Properties](../../../aspose.words.properties/)
 * assemblea [Aspose.Words](../../../)
-
-

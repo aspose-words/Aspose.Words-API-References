@@ -1,7 +1,9 @@
 ---
 title: Cell.FirstParagraph
-second_title: Aspose.Words لمراجع .NET API
-description: Cell ملكية. يحصل على الفقرة الأولى بين الأطفال المباشرين.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words لـ .NET
+description: Cell FirstParagraph ملكية. يحصل على الفقرة الأولى بين الأطفال المباشرين في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.tables/cell/firstparagraph/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cell/firstparagraph/
 public Paragraph FirstParagraph { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول متداخل باستخدام أداة إنشاء المستندات.
 
@@ -95,7 +97,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cell/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

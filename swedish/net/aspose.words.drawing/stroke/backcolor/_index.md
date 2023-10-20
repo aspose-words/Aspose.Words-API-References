@@ -1,7 +1,9 @@
 ---
 title: Stroke.BackColor
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Hämtar eller ställer in bakgrundsfärgen för strecket.
+linktitle: BackColor
+articleTitle: BackColor
+second_title: Aspose.Words för .NET
+description: Stroke BackColor fast egendom. Hämtar eller ställer in bakgrundsfärgen för strecket i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/stroke/backcolor/
@@ -14,11 +16,11 @@ Hämtar eller ställer in bakgrundsfärgen för strecket.
 public Color BackColor { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet för a[`Shape`](../../shape/) är White.
 
-### Exempel
+## Exempel
 
 Visa hur du ställer in markörformatering.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Se även
 
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

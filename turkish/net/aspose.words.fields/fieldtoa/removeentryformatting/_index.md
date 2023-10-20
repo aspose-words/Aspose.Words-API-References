@@ -1,7 +1,9 @@
 ---
 title: FieldToa.RemoveEntryFormatting
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToa mülk. Belgedeki giriş metninin formatının yetki tablosundaki girişinden kaldırılıp kaldırılmayacağını alır veya ayarlar.
+linktitle: RemoveEntryFormatting
+articleTitle: RemoveEntryFormatting
+second_title: Aspose.Words for .NET
+description: FieldToa RemoveEntryFormatting mülk. Belgedeki giriş metninin formatının yetki tablosundaki girişinden kaldırılıp kaldırılmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldtoa/removeentryformatting/
@@ -14,7 +16,7 @@ Belgedeki giriş metninin formatının yetki tablosundaki girişinden kaldırıl
 public bool RemoveEntryFormatting { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TOA ve TA alanlarını kullanarak bir yetki tablosunun nasıl oluşturulacağını ve özelleştirileceğini gösterir.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Ayrıca bakınız
 
 * class [FieldToa](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoa/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Field.Update
-second_title: Aspose.Words för .NET API Referens
-description: Field metod. Utför fältuppdateringen. Kastar om fältet redan uppdateras.
+linktitle: Update
+articleTitle: Update
+second_title: Aspose.Words för .NET
+description: Field Update metod. Utför fältuppdateringen. Kastar om fältet redan uppdateras i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.fields/field/update/
@@ -14,7 +16,7 @@ Utför fältuppdateringen. Kastar om fältet redan uppdateras.
 public void Update()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett fält i ett dokument med hjälp av FieldType.
 
@@ -118,12 +120,12 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Se även
 
 * class [Field](../)
-* namnutrymme [Aspose.Words.Fields](../../field/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Update(bool) {#update_1}
+## Update(*bool*) {#update_1}
 
 Utför en fältuppdatering. Kastar om fältet redan uppdateras.
 
@@ -135,7 +137,7 @@ public void Update(bool ignoreMergeFormat)
 | --- | --- | --- |
 | ignoreMergeFormat | Boolean | Om`Sann` då överges direkt fältresultatformatering, oavsett MERGEFORMAT-växeln, annars utförs normal uppdatering. |
 
-### Exempel
+## Exempel
 
 Visar hur man bevarar eller kasserar INCLUDEPICTURE-fält när ett dokument laddas.
 
@@ -177,7 +179,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Se även
 
 * class [Field](../)
-* namnutrymme [Aspose.Words.Fields](../../field/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: GlossaryDocument.GlossaryDocument
-second_title: Referencia de API de Aspose.Words para .NET
-description: GlossaryDocument constructor. Constructor predeterminado
+title: GlossaryDocument
+linktitle: GlossaryDocument
+articleTitle: GlossaryDocument
+second_title: Aspose.Words para .NET
+description: GlossaryDocument constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.buildingblocks/glossarydocument/glossarydocument/
@@ -17,7 +19,5 @@ public GlossaryDocument()
 ### Ver también
 
 * class [GlossaryDocument](../)
-* espacio de nombres [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* espacio de nombres [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * asamblea [Aspose.Words](../../../)
-
-

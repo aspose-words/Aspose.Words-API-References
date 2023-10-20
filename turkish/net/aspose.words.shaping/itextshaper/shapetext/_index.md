@@ -1,7 +1,9 @@
 ---
 title: ITextShaper.ShapeText
-second_title: Aspose.Words for .NET API Referansı
-description: ITextShaper yöntem. İadelerClusterbir dizi metin parçasından oluşturulan nesneler. Döndürülen dizinin uzunluğu uzunluğuna eşittirruns . Bir dizinde çalıştırmanın karşılık gelen kümeleri varsa aynı dizindeki sonuç bunları kaydedecektir.
+linktitle: ShapeText
+articleTitle: ShapeText
+second_title: Aspose.Words for .NET
+description: ITextShaper ShapeText yöntem. İadelerClusterbir dizi metin parçasından oluşturulan nesneler. Döndürülen dizinin uzunluğu uzunluğuna eşittirruns . Bir dizinde çalıştırmanın karşılık gelen kümeleri varsa aynı dizindeki sonuç bunları kaydedecektir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.shaping/itextshaper/shapetext/
@@ -29,7 +31,5 @@ public Cluster[][] ShapeText(string[] runs, Direction direction, UnicodeScript s
 * enum [UnicodeScript](../../unicodescript/)
 * enum [FontFeature](../../fontfeature/)
 * interface [ITextShaper](../)
-* ad alanı [Aspose.Words.Shaping](../../itextshaper/)
+* ad alanı [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * toplantı [Aspose.Words](../../../)
-
-

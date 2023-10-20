@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ExportParagraphGraphicsToArtifact
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان يجب وضع علامة على رسم الفقرة كقطعة أثرية.
+linktitle: ExportParagraphGraphicsToArtifact
+articleTitle: ExportParagraphGraphicsToArtifact
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions ExportParagraphGraphicsToArtifact ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان يجب وضع علامة على رسم الفقرة كقطعة أثرية في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.saving/pdfsaveoptions/exportparagraphgraphicstoartifact/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/exportparagraphgraphicstoartifac
 public bool ExportParagraphGraphicsToArtifact { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع` ورسومات الفقرات (التسطير، إبراز النص، وما إلى ذلك) سيتم تمييزها على أنها "Span" في البنية المنطقية للمستند.
 
@@ -22,7 +24,7 @@ public bool ExportParagraphGraphicsToArtifact { get; set; }
 
 يتم تجاهل هذه القيمة عندما[`ExportDocumentStructure`](../exportdocumentstructure/) يكون`خطأ شنيع` .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تصدير رسومات الفقرة كمنتج (تسطير، إبراز النص، وما إلى ذلك).
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportParagraphGraphicsToArtifact.pdf", 
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

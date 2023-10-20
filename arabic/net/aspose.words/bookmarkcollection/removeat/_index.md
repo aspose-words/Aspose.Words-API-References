@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.RemoveAt
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarkCollection طريقة. إزالة الإشارة المرجعية في الفهرس المحدد.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words لـ .NET
+description: BookmarkCollection RemoveAt طريقة. إزالة الإشارة المرجعية في الفهرس المحدد في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/bookmarkcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | الفهرس الصفري للإشارة المرجعية المراد إزالتها. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الإشارات المرجعية من مستند.
 
@@ -79,7 +81,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### أنظر أيضا
 
 * class [BookmarkCollection](../)
-* مساحة الاسم [Aspose.Words](../../bookmarkcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.UniqueTag
-second_title: Справочник по API Aspose.Words для .NET
-description: OdsoRecipientData свойство. Указывает содержимое данной записи в столбце содержащем уникальные данные. Значение по умолчаниюнулевой .
+linktitle: UniqueTag
+articleTitle: UniqueTag
+second_title: Aspose.Words для .NET
+description: OdsoRecipientData UniqueTag свойство. Указывает содержимое данной записи в столбце содержащем уникальные данные. Значение по умолчаниюнулевой  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.settings/odsorecipientdata/uniquetag/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odsorecipientdata/uniquetag/
 public byte[] UniqueTag { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Смотрите также
 
 * class [OdsoRecipientData](../)
-* пространство имен [Aspose.Words.Settings](../../odsorecipientdata/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

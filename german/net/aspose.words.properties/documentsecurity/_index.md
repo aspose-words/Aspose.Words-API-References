@@ -1,7 +1,9 @@
 ---
-title: Enum DocumentSecurity
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Properties.DocumentSecurity opsomming. Wird als Wert für verwendetSecurity property. Gibt die Sicherheitsstufe eines Dokuments als numerischen Wert an.
+title: DocumentSecurity Enum
+linktitle: DocumentSecurity
+articleTitle: DocumentSecurity
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Properties.DocumentSecurity opsomming. Wird als Wert für verwendetSecurity property. Gibt die Sicherheitsstufe eines Dokuments als numerischen Wert an in C#.
 type: docs
 weight: 4490
 url: /de/net/aspose.words.properties/documentsecurity/
@@ -25,7 +27,7 @@ public enum DocumentSecurity
 | ReadOnlyEnforced | `4` | Das Dokument, das immer schreibgeschützt geöffnet werden soll. |
 | ReadOnlyExceptAnnotations | `8` | Das Dokument soll immer schreibgeschützt geöffnet werden, mit Ausnahme von Anmerkungen. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumenteigenschaften verwendet werden, um die Sicherheitsstufe eines Dokuments anzuzeigen.
 
@@ -71,5 +73,3 @@ Assert.AreEqual(DocumentSecurity.ReadOnlyExceptAnnotations,
 
 * namensraum [Aspose.Words.Properties](../../aspose.words.properties/)
 * Montage [Aspose.Words](../../)
-
-

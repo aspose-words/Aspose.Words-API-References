@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseLastFormat
-second_title: Aspose.Words för .NET API Referens
-description: FieldDate fast egendom. Hämtar eller ställer in om ett format som senast användes av värdapplikationen ska användas när ett nytt DATUMfält infogas.
+linktitle: UseLastFormat
+articleTitle: UseLastFormat
+second_title: Aspose.Words för .NET
+description: FieldDate UseLastFormat fast egendom. Hämtar eller ställer in om ett format som senast användes av värdapplikationen ska användas när ett nytt DATUMfält infogas i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fielddate/uselastformat/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om ett format som senast användes av värdapplikation
 public bool UseLastFormat { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder DATUM-fält för att visa datum enligt olika typer av kalendrar.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### Se även
 
 * class [FieldDate](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddate/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

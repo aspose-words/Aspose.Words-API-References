@@ -1,7 +1,9 @@
 ---
 title: ReportingEngine.Options
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ReportingEngine propriété. Obtient ou définit un ensemble dindicateurs contrôlant le comportement de ceReportingEngine instance lors de la création dun rapport.
+linktitle: Options
+articleTitle: Options
+second_title: Aspose.Words pour .NET
+description: ReportingEngine Options propriété. Obtient ou définit un ensemble dindicateurs contrôlant le comportement de ceReportingEngine instance lors de la création dun rapport en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.reporting/reportingengine/options/
@@ -18,7 +20,5 @@ public ReportBuildOptions Options { get; set; }
 
 * enum [ReportBuildOptions](../../reportbuildoptions/)
 * class [ReportingEngine](../)
-* espace de noms [Aspose.Words.Reporting](../../reportingengine/)
+* espace de noms [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../../)
-
-

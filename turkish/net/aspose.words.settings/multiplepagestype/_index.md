@@ -1,7 +1,9 @@
 ---
-title: Enum MultiplePagesType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.MultiplePagesType Sıralama. Belgenin nasıl yazdırılacağını belirtir.
+title: MultiplePagesType Enum
+linktitle: MultiplePagesType
+articleTitle: MultiplePagesType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.MultiplePagesType Sıralama. Belgenin nasıl yazdırılacağını belirtir C#'da.
 type: docs
 weight: 5870
 url: /tr/net/aspose.words.settings/multiplepagestype/
@@ -29,5 +31,3 @@ public enum MultiplePagesType
 
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

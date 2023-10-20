@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.WarningType
-second_title: Aspose.Words for .NET API Referansı
-description: WarningInfo mülk. Uyarının türünü döndürür.
+linktitle: WarningType
+articleTitle: WarningType
+second_title: Aspose.Words for .NET
+description: WarningInfo WarningType mülk. Uyarının türünü döndürür C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/warninginfo/warningtype/
@@ -14,7 +16,7 @@ Uyarının türünü döndürür.
 public WarningType WarningType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Mevcut yazı tipi kaynaklarından eksik bir yazı tipi için en yakın eşleşmeyi bulma özelliğinin nasıl ayarlanacağını gösterir.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * enum [WarningType](../../warningtype/)
 * class [WarningInfo](../)
-* ad alanı [Aspose.Words](../../warninginfo/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

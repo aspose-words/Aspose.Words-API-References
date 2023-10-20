@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.ExportCompactSize
-second_title: Aspose.Words for .NET API Referansı
-description: RtfSaveOptions mülk. Çıkış RTF belgelerinin boyutunun küçültülmesine izin verir ancak RTL sağdan sola metin içeriyorsa doğru şekilde görüntülenmez. Varsayılan değerYANLIŞ .
+linktitle: ExportCompactSize
+articleTitle: ExportCompactSize
+second_title: Aspose.Words for .NET
+description: RtfSaveOptions ExportCompactSize mülk. Çıkış RTF belgelerinin boyutunun küçültülmesine izin verir ancak RTL sağdan sola metin içeriyorsa doğru şekilde görüntülenmez. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/rtfsaveoptions/exportcompactsize/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.saving/rtfsaveoptions/exportcompactsize/
 public bool ExportCompactSize { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words kullanarak RTF'ye dönüştürmek istediğiniz belge Arapça gibi dillerde sağdan sola metni içermiyorsa bu seçeneği şu şekilde ayarlayabilirsiniz:`doğru` Ortaya çıkan RTF'nin boyutunu azaltmak için .
 
-### Örnekler
+## Örnekler
 
 Özel seçeneklerle bir belgenin .rtf'ye nasıl kaydedileceğini gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);
 ### Ayrıca bakınız
 
 * class [RtfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../rtfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

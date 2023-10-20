@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Insert
-second_title: Aspose.Words per .NET API Reference
-description: GradientStopCollection metodo. Inserisce aGradientStop alla raccolta in un indice specificato.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words per .NET
+description: GradientStopCollection Insert metodo. Inserisce aGradientStop alla raccolta in un indice specificato in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing/gradientstopcollection/insert/
@@ -14,7 +16,7 @@ Inserisce a[`GradientStop`](../../gradientstop/) alla raccolta in un indice spec
 public GradientStop Insert(int index, GradientStop gradientStop)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere interruzioni sfumatura al riempimento sfumatura.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../gradientstopcollection/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

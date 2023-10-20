@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.GetHashCode
-second_title: Aspose.Words لمراجع .NET API
-description: ChartYValue طريقة. الحصول على رمز التجزئة لكائن القيمة Y الحالي.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words لـ .NET
+description: ChartYValue GetHashCode طريقة. الحصول على رمز التجزئة لكائن القيمة Y الحالي في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.drawing.charts/chartyvalue/gethashcode/
@@ -17,7 +19,5 @@ public override int GetHashCode()
 ### أنظر أيضا
 
 * class [ChartYValue](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

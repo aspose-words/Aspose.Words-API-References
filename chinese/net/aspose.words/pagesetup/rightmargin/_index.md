@@ -1,7 +1,9 @@
 ---
 title: PageSetup.RightMargin
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 返回或设置页面右边缘与正文右边界之间的距离以磅为单位
+linktitle: RightMargin
+articleTitle: RightMargin
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup RightMargin 财产. 返回或设置页面右边缘与正文右边界之间的距离以磅为单位 在 C#.
 type: docs
 weight: 370
 url: /zh/net/aspose.words/pagesetup/rightmargin/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/rightmargin/
 public double RightMargin { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何调整纸张尺寸、方向、边距以及某个部分的其他设置。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

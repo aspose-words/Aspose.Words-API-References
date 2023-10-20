@@ -1,7 +1,9 @@
 ---
 title: Font.AllCaps
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Yazı tipinin tamamı büyük harflerle biçimlendirilmişse doğrudur.
+linktitle: AllCaps
+articleTitle: AllCaps
+second_title: Aspose.Words for .NET
+description: Font AllCaps mülk. Yazı tipinin tamamı büyük harflerle biçimlendirilmişse doğrudur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/font/allcaps/
@@ -14,7 +16,7 @@ Yazı tipinin tamamı büyük harflerle biçimlendirilmişse doğrudur.
 public bool AllCaps { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir çalıştırmanın içeriğini büyük harflerle görüntüleyecek şekilde nasıl biçimlendirileceğini gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Font.Caps.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

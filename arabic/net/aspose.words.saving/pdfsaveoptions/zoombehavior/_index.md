@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ZoomBehavior
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على قيمة أو تعيينها لتحديد نوع التكبير/التصغير الذي يجب تطبيقه عند فتح مستند باستخدام عارض PDF.
+linktitle: ZoomBehavior
+articleTitle: ZoomBehavior
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions ZoomBehavior ملكية. الحصول على قيمة أو تعيينها لتحديد نوع التكبير/التصغير الذي يجب تطبيقه عند فتح مستند باستخدام عارض PDF في C#.
 type: docs
 weight: 320
 url: /ar/net/aspose.words.saving/pdfsaveoptions/zoombehavior/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/zoombehavior/
 public PdfZoomBehavior ZoomBehavior { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيNone ، أي لم يتم تطبيق أي ملاءمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط التكبير/التصغير الافتراضي الذي يطبقه القارئ عند فتح مستند PDF معروض.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 
 * enum [PdfZoomBehavior](../../pdfzoombehavior/)
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

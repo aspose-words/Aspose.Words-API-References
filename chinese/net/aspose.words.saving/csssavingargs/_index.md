@@ -1,7 +1,9 @@
 ---
-title: Class CssSavingArgs
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.CssSavingArgs 班级. 提供数据CssSaving事件.
+title: CssSavingArgs Class
+linktitle: CssSavingArgs
+articleTitle: CssSavingArgs
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.CssSavingArgs 班级. 提供数据CssSaving事件 在 C#.
 type: docs
 weight: 4880
 url: /zh/net/aspose.words.saving/csssavingargs/
@@ -25,9 +27,9 @@ public class CssSavingArgs
 | [IsExportNeeded](../../aspose.words.saving/csssavingargs/isexportneeded/) { get; set; } | 允许指定 CSS 是否导出到文件并嵌入到 HTML 文档。默认为`真的`. 当此属性为`错误的`，CSS信息不会保存到CSS文件中，也不会嵌入到HTML文档中。 |
 | [KeepCssStreamOpen](../../aspose.words.saving/csssavingargs/keepcssstreamopen/) { get; set; } | 指定 Aspose.Words 在保存 CSS 信息后是否应保持流打开或关闭它。 |
 
-### 评论
+## 评论
 
-默认情况下，当 Aspose.Words 将文档保存为 HTML 时，它会保存 CSS 信息 inline （作为 **风格**每个元素上的属性）.
+默认情况下，当 Aspose.Words 将文档保存为 HTML 时，它会保存 CSS 信息 inline （作为**风格**每个元素上的属性）.
 
 `CssSavingArgs`允许通过提供您自己的流对象将 CSS 信息保存到文件中。
 
@@ -35,7 +37,7 @@ public class CssSavingArgs
 
 要禁止将 CSS 保存到文件中并嵌入到 HTML 文档中，请使用[`IsExportNeeded`](./isexportneeded/)财产。
 
-### 例子
+## 例子
 
 演示如何使用 HTML 转换创建的 CSS 样式表。
 
@@ -97,5 +99,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

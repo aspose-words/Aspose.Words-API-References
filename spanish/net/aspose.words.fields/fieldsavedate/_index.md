@@ -1,7 +1,9 @@
 ---
-title: Class FieldSaveDate
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldSaveDate clase. Implementa el campo SAVEDATE.
+title: FieldSaveDate Class
+linktitle: FieldSaveDate
+articleTitle: FieldSaveDate
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldSaveDate clase. Implementa el campo SAVEDATE en C#.
 type: docs
 weight: 2350
 url: /es/net/aspose.words.fields/fieldsavedate/
@@ -45,17 +47,17 @@ public class FieldSaveDate : Field
 | Nombre | Descripción |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
 | [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
-### Observaciones
+## Observaciones
 
 Recupera la fecha y hora en que se guardó el documento por última vez. Por defecto se utiliza el calendario gregoriano.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar el campo GUARDAR FECHA para mostrar la fecha/hora de la operación de guardado más reciente del documento realizada con Microsoft Word.
 
@@ -103,5 +105,3 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 * class [Field](../field/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Name
-second_title: Справочник по API Aspose.Words для .NET
-description: Bookmark свойство. Получает или задает имя закладки.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words для .NET
+description: Bookmark Name свойство. Получает или задает имя закладки на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/bookmark/name/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/bookmark/name/
 public string Name { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Обратите внимание: если вы измените имя закладки на имя, которое уже существует в документе, ошибка не возникнет, и при сохранении документа будет сохранена только первая закладка.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить закладку.
 
@@ -127,7 +129,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Смотрите также
 
 * class [Bookmark](../)
-* пространство имен [Aspose.Words](../../bookmark/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

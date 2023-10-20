@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Bottom
-second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection mülk. Alt kenarlığı alır.
+linktitle: Bottom
+articleTitle: Bottom
+second_title: Aspose.Words for .NET
+description: BorderCollection Bottom mülk. Alt kenarlığı alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/bordercollection/bottom/
@@ -14,7 +16,7 @@ Alt kenarlığı alır.
 public Border Bottom { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo oluştururken kenarlık ve gölgeleme renginin nasıl uygulanacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* ad alanı [Aspose.Words](../../bordercollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

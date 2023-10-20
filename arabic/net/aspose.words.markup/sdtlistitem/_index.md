@@ -1,7 +1,9 @@
 ---
-title: Class SdtListItem
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Markup.SdtListItem فصل. يحدد هذا العنصر عنصر قائمة واحدًا داخل أحد الوالدينComboBox أوDropDownList علامة المستند المنظمة.
+title: SdtListItem Class
+linktitle: SdtListItem
+articleTitle: SdtListItem
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Markup.SdtListItem فصل. يحدد هذا العنصر عنصر قائمة واحدًا داخل أحد الوالدينComboBox أوDropDownList علامة المستند المنظمة في C#.
 type: docs
 weight: 4020
 url: /ar/net/aspose.words.markup/sdtlistitem/
@@ -20,8 +22,8 @@ public class SdtListItem
 
 | اسم | وصف |
 | --- | --- |
-| [SdtListItem](sdtlistitem/#constructor)(string) | تهيئة مثيل جديد لهذه الفئة. |
-| [SdtListItem](sdtlistitem/#constructor_1)(string, string) | تهيئة مثيل جديد لهذه الفئة. |
+| [SdtListItem](sdtlistitem/#constructor)(*string*) | تهيئة مثيل جديد لهذه الفئة. |
+| [SdtListItem](sdtlistitem/#constructor_1)(*string, string*) | تهيئة مثيل جديد لهذه الفئة. |
 
 ## الخصائص
 
@@ -30,7 +32,7 @@ public class SdtListItem
 | [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext/) { get; } | يحصل على النص الذي سيتم عرضه في محتوى التشغيل بدلاً من[`Value`](./value/) محتويات السمة لعنصر القائمة هذا. |
 | [Value](../../aspose.words.markup/sdtlistitem/value/) { get; } | يحصل على قيمة عنصر القائمة هذا. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع علامات المستندات المنظمة ذات القائمة المنسدلة.
 
@@ -88,5 +90,3 @@ Assert.AreEqual(0, listItems.Count);
 
 * مساحة الاسم [Aspose.Words.Markup](../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../)
-
-

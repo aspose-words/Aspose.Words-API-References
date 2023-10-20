@@ -1,7 +1,9 @@
 ---
-title: Enum DmlEffectsRenderingMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.DmlEffectsRenderingMode 枚举. 指定如何将 DrawingML 效果呈现为固定页面格式
+title: DmlEffectsRenderingMode Enum
+linktitle: DmlEffectsRenderingMode
+articleTitle: DmlEffectsRenderingMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.DmlEffectsRenderingMode 枚举. 指定如何将 DrawingML 效果呈现为固定页面格式 在 C#.
 type: docs
 weight: 4910
 url: /zh/net/aspose.words.saving/dmleffectsrenderingmode/
@@ -22,7 +24,7 @@ public enum DmlEffectsRenderingMode
 | None | `1` | 未渲染 DrawingML 效果。 |
 | Fine | `2` | DrawingML 效果以精细模式渲染，涉及高级处理。 在此模式下，效果渲染可提供更好的结果，但性能成本高于Simplified模式. |
 
-### 例子
+## 例子
 
 演示如何在将文档保存为 PDF 时配置 DrawingML 效果的渲染质量。
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.NodeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField propriété. RetoursFormField .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words pour .NET
+description: FormField NodeType propriété. RetoursFormField  en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.fields/formfield/nodetype/
@@ -14,7 +16,7 @@ RetoursFormField .
 public override NodeType NodeType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FormField](../)
-* espace de noms [Aspose.Words.Fields](../../formfield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

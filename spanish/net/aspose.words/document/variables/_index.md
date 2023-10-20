@@ -1,7 +1,9 @@
 ---
 title: Document.Variables
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Devuelve la colección de variables agregadas a un documento o plantilla.
+linktitle: Variables
+articleTitle: Variables
+second_title: Aspose.Words para .NET
+description: Document Variables propiedad. Devuelve la colección de variables agregadas a un documento o plantilla en C#.
 type: docs
 weight: 440
 url: /es/net/aspose.words/document/variables/
@@ -14,7 +16,7 @@ Devuelve la colección de variables agregadas a un documento o plantilla.
 public VariableCollection Variables { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con la colección de variables de un documento.
 
@@ -82,7 +84,5 @@ Assert.That(variables, Is.Empty);
 
 * class [VariableCollection](../../variablecollection/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

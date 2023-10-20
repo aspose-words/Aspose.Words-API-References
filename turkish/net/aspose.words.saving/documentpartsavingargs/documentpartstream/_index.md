@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.DocumentPartStream
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentPartSavingArgs mülk. Belge bölümünün kaydedileceği akışı belirtmeye izin verir.
+linktitle: DocumentPartStream
+articleTitle: DocumentPartStream
+second_title: Aspose.Words for .NET
+description: DocumentPartSavingArgs DocumentPartStream mülk. Belge bölümünün kaydedileceği akışı belirtmeye izin verir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/documentpartsavingargs/documentpartstream/
@@ -14,7 +16,7 @@ Belge bölümünün kaydedileceği akışı belirtmeye izin verir.
 public Stream DocumentPartStream { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, HTML dışa aktarımı sırasında belge bölümlerini dosyalar yerine akışlara kaydetmenize olanak tanır.
 
@@ -24,7 +26,7 @@ Bir akışa HTML biçiminde kaydetme istendiğinde[`Save`](../../../aspose.words
 
 HTML tabanlı bir kapsayıcı format olan EPUB formatına kaydederken,`DocumentPartStream` Tüm yardımcı parçalar tek bir çıktı paketinde kapsülleneceği için belirtilemez.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin nasıl parçalara ayrılacağını ve kaydedileceğini gösterir.
 
@@ -141,7 +143,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Ayrıca bakınız
 
 * class [DocumentPartSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../documentpartsavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

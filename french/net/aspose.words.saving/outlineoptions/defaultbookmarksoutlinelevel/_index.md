@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.DefaultBookmarksOutlineLevel
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OutlineOptions propriété. Spécifie le niveau par défaut dans le plan du document auquel afficher les signets Word.
+linktitle: DefaultBookmarksOutlineLevel
+articleTitle: DefaultBookmarksOutlineLevel
+second_title: Aspose.Words pour .NET
+description: OutlineOptions DefaultBookmarksOutlineLevel propriété. Spécifie le niveau par défaut dans le plan du document auquel afficher les signets Word en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/
@@ -14,7 +16,7 @@ Spécifie le niveau par défaut dans le plan du document auquel afficher les sig
 public int DefaultBookmarksOutlineLevel { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Le niveau des signets individuels peut être spécifié en utilisant[`BookmarksOutlineLevels`](../bookmarksoutlinelevels/) propriété.
 
@@ -22,7 +24,7 @@ Spécifiez 0 et les signets Word ne seront pas affichés dans le plan du documen
 
 La valeur par défaut est 0. La plage valide est comprise entre 0 et 9.
 
-### Exemples
+## Exemples
 
 Montre comment traiter les signets dans les en-têtes/pieds de page d'un document que nous rendons au format PDF.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 ### Voir également
 
 * class [OutlineOptions](../)
-* espace de noms [Aspose.Words.Saving](../../outlineoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

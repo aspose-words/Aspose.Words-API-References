@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.InsertReferenceMark
-second_title: Aspose.Words for .NET API 参考
-description: FieldNoteRef 财产. 插入与脚注参考 或尾注参考样式具有相同字符格式的引用标记
+linktitle: InsertReferenceMark
+articleTitle: InsertReferenceMark
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldNoteRef InsertReferenceMark 财产. 插入与脚注参考 或尾注参考样式具有相同字符格式的引用标记 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldnoteref/insertreferencemark/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldnoteref/insertreferencemark/
 public bool InsertReferenceMark { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示插入NOTEREF 字段并修改其外观。
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### 也可以看看
 
 * class [FieldNoteRef](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldnoteref/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

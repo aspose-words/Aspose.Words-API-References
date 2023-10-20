@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MappedDataFields
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge propriété. Renvoie une collection qui représente les champs de données mappés pour lopération de publipostage.
+linktitle: MappedDataFields
+articleTitle: MappedDataFields
+second_title: Aspose.Words pour .NET
+description: MailMerge MappedDataFields propriété. Renvoie une collection qui représente les champs de données mappés pour lopération de publipostage en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.mailmerging/mailmerge/mappeddatafields/
@@ -14,11 +16,11 @@ Renvoie une collection qui représente les champs de données mappés pour l'op�
 public MappedDataFieldCollection MappedDataFields { get; }
 ```
 
-### Remarques
+## Remarques
 
 Les champs de données mappés permettent de mapper automatiquement entre les noms des champs de votre source de données et les noms des champs de publipostage dans le document.
 
-### Exemples
+## Exemples
 
 Montre comment mapper des colonnes de données et des MERGEFIELD avec des noms différents afin que les données soient transférées entre elles lors d'un publipostage.
 
@@ -104,7 +106,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * class [MappedDataFieldCollection](../../mappeddatafieldcollection/)
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

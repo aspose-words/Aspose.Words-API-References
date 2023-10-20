@@ -1,7 +1,9 @@
 ---
-title: Class Node
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Node сорт. Базовый класс для всех узлов документа Word.
+title: Node Class
+linktitle: Node
+articleTitle: Node
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Node сорт. Базовый класс для всех узлов документа Word на С#.
 type: docs
 weight: 4170
 url: /ru/net/aspose.words/node/
@@ -33,19 +35,19 @@ public abstract class Node
 
 | Имя | Описание |
 | --- | --- |
-| abstract [Accept](../../aspose.words/node/accept/)(DocumentVisitor) | Принимает посетителя. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(Type) | Получает первого предка указанного типа объекта. |
+| abstract [Accept](../../aspose.words/node/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Принимает посетителя. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Создает дубликат узла. |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(*[NodeType](../nodetype/)*) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(*Type*) | Получает первого предка указанного типа объекта. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Получает текст этого узла и всех его дочерних элементов. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*Node*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*Node*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
 | [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
-| [ToString](../../aspose.words/node/tostring/#tostring_1)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
-| [ToString](../../aspose.words/node/tostring/#tostring_2)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
-| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(NodeType) | Служебный метод, который преобразует значение перечисления типа узла в удобную для пользователя строку. |
+| [ToString](../../aspose.words/node/tostring/#tostring_1)(*[SaveFormat](../saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
+| [ToString](../../aspose.words/node/tostring/#tostring_2)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(*[NodeType](../nodetype/)*) | Служебный метод, который преобразует значение перечисления типа узла в удобную для пользователя строку. |
 
-### Примечания
+## Примечания
 
 Документ представлен в виде дерева узлов, аналогично DOM или XmlDocument.
 
@@ -59,7 +61,7 @@ public abstract class Node
 * Реализует механизмы родительского узла и документа владельца.
 * Реализует доступ к родственным узлам.
 
-### Примеры
+## Примеры
 
 Показывает, как удалить все дочерние узлы определенного типа из составного узла.
 
@@ -151,5 +153,3 @@ foreach (Node child in children)
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Shape.FillColor
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 定义填充形状闭合路径的画笔颜色
+linktitle: FillColor
+articleTitle: FillColor
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape FillColor 财产. 定义填充形状闭合路径的画笔颜色 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing/shape/fillcolor/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/shape/fillcolor/
 public Color FillColor { get; set; }
 ```
 
-### 评论
+## 评论
 
 这是一个快捷方式[`Color`](../../fill/color/)财产。
 
 默认值为 White。
 
-### 例子
+## 例子
 
 演示如何用纯色填充形状。
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ### 也可以看看
 
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

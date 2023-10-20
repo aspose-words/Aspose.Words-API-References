@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.Clear
-second_title: Aspose.Words för .NET API Referens
-description: KnownTypeSet metod. Tar bort alla objekt från uppsättningen.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: KnownTypeSet Clear metod. Tar bort alla objekt från uppsättningen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.reporting/knowntypeset/clear/
@@ -17,7 +19,5 @@ public void Clear()
 ### Se även
 
 * class [KnownTypeSet](../)
-* namnutrymme [Aspose.Words.Reporting](../../knowntypeset/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
-
-

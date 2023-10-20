@@ -1,7 +1,9 @@
 ---
-title: Class FindReplaceOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Replacing.FindReplaceOptions сорт. Определяет параметры для операций поиска/замены.
+title: FindReplaceOptions Class
+linktitle: FindReplaceOptions
+articleTitle: FindReplaceOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Replacing.FindReplaceOptions сорт. Определяет параметры для операций поиска/замены на С#.
 type: docs
 weight: 4620
 url: /ru/net/aspose.words.replacing/findreplaceoptions/
@@ -21,9 +23,9 @@ public class FindReplaceOptions
 | Имя | Описание |
 | --- | --- |
 | [FindReplaceOptions](findreplaceoptions/#constructor)() | Конструктор по умолчанию. |
-| [FindReplaceOptions](findreplaceoptions/#constructor_1)(FindReplaceDirection) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_3)(IReplacingCallback) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_2)(FindReplaceDirection, IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_1)(*[FindReplaceDirection](../findreplacedirection/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_3)(*[IReplacingCallback](../ireplacingcallback/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_2)(*[FindReplaceDirection](../findreplacedirection/), [IReplacingCallback](../ireplacingcallback/)*) |  |
 
 ## Характеристики
 
@@ -47,7 +49,7 @@ public class FindReplaceOptions
 | [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | True указывает, что текстовый поиск выполняется последовательно сверху вниз с учетом текстовых полей. Значение по умолчанию:`ЛОЖЬ` . |
 | [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions/) { get; set; } | Получает или задает логическое значение, указывающее, следует ли распознавать и использовать замены в шаблонах замены. Значение по умолчанию:`ЛОЖЬ` . |
 
-### Примеры
+## Примеры
 
 Показывает, как переключить чувствительность к регистру при выполнении операции поиска и замены.
 
@@ -96,5 +98,3 @@ Assert.AreEqual(
 
 * пространство имен [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../)
-
-

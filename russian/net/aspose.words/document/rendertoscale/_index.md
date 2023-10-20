@@ -1,9 +1,11 @@
 ---
 title: Document.RenderToScale
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Преобразует страницу документа вGraphics объект в указанном масштабе.
+linktitle: RenderToScale
+articleTitle: RenderToScale
+second_title: Aspose.Words для .NET
+description: Document RenderToScale метод. Преобразует страницу документа вGraphics объект в указанном масштабе на С#.
 type: docs
-weight: 700
+weight: 680
 url: /ru/net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
@@ -26,7 +28,7 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 
 Ширина и высота (в мировых единицах) отображаемой страницы.
 
-### Примеры
+## Примеры
 
 Показывает, как из отдельных страниц документа с графикой создать одно изображение с миниатюрами всех страниц.
 
@@ -133,7 +135,5 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Clone
-second_title: Aspose.Words för .NET API Referens
-description: OdsoRecipientData metod. Returnerar en djup klon av detta objekt.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words för .NET
+description: OdsoRecipientData Clone metod. Returnerar en djup klon av detta objekt i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.settings/odsorecipientdata/clone/
@@ -14,7 +16,7 @@ Returnerar en djup klon av detta objekt.
 public OdsoRecipientData Clone()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Se även
 
 * class [OdsoRecipientData](../)
-* namnutrymme [Aspose.Words.Settings](../../odsorecipientdata/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

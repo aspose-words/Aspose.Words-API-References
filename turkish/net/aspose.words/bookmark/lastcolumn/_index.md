@@ -1,7 +1,9 @@
 ---
 title: Bookmark.LastColumn
-second_title: Aspose.Words for .NET API Referansı
-description: Bookmark mülk. Yer işaretiyle ilişkili tablo sütunu aralığının son sütununun sıfır tabanlı dizinini alır.
+linktitle: LastColumn
+articleTitle: LastColumn
+second_title: Aspose.Words for .NET
+description: Bookmark LastColumn mülk. Yer işaretiyle ilişkili tablo sütunu aralığının son sütununun sıfır tabanlı dizinini alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/bookmark/lastcolumn/
@@ -14,11 +16,11 @@ Yer işaretiyle ilişkili tablo sütunu aralığının son sütununun sıfır ta
 public int LastColumn { get; }
 ```
 
-### Notlar
+## Notlar
 
-İadeler **-1** bu yer imi bir tablo sütunu yer imi değilse.
+İadeler**-1** bu yer imi bir tablo sütunu yer imi değilse.
 
-### Örnekler
+## Örnekler
 
 Tablo sütunu yer imleri hakkında nasıl bilgi alınacağını gösterir.
 
@@ -45,7 +47,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### Ayrıca bakınız
 
 * class [Bookmark](../)
-* ad alanı [Aspose.Words](../../bookmark/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

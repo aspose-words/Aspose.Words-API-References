@@ -1,7 +1,9 @@
 ---
 title: Document.JustificationMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft die Zeichenabstandsanpassung eines Dokuments ab oder legt diese fest.
+linktitle: JustificationMode
+articleTitle: JustificationMode
+second_title: Aspose.Words für .NET
+description: Document JustificationMode eigendom. Ruft die Zeichenabstandsanpassung eines Dokuments ab oder legt diese fest in C#.
 type: docs
 weight: 230
 url: /de/net/aspose.words/document/justificationmode/
@@ -14,7 +16,7 @@ Ruft die Zeichenabstandsanpassung eines Dokuments ab oder legt diese fest.
 public JustificationMode JustificationMode { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Steuerung des Zeichenabstands verwaltet wird.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");
 
 * enum [JustificationMode](../../../aspose.words.settings/justificationmode/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

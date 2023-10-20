@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderSurroundsFooter
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Указывает включает ли граница страницы нижний колонтитул или исключает его.
+linktitle: BorderSurroundsFooter
+articleTitle: BorderSurroundsFooter
+second_title: Aspose.Words для .NET
+description: PageSetup BorderSurroundsFooter свойство. Указывает включает ли граница страницы нижний колонтитул или исключает его на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/pagesetup/bordersurroundsfooter/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/pagesetup/bordersurroundsfooter/
 public bool BorderSurroundsFooter { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Обратите внимание: изменение этого свойства влияет на все разделы документа.
 
-### Примеры
+## Примеры
 
 Показывает, как применить рамку к странице и верхнему/нижнему колонтитулу.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorder.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

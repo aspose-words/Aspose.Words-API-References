@@ -1,12 +1,14 @@
 ---
 title: FontFallbackSettings.Save
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontFallbackSettings methode. Speichert die aktuellen FallbackEinstellungen im Stream.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words für .NET
+description: FontFallbackSettings Save methode. Speichert die aktuellen FallbackEinstellungen im Stream in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fonts/fontfallbacksettings/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Speichert die aktuellen Fallback-Einstellungen im Stream.
 
@@ -18,7 +20,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Ausgabestrom. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Schriftart-Fallback-Einstellungen in/aus einem Stream geladen und gespeichert werden.
 
@@ -47,12 +49,12 @@ using (FileStream fontFallbackStream =
 ### Siehe auch
 
 * class [FontFallbackSettings](../)
-* namensraum [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Speichert die aktuellen Fallback-Einstellungen in der Datei.
 
@@ -64,7 +66,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Name der Ausgabedatei. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Schriftart-Fallback-Einstellungen in/aus einem XML-Dokument im lokalen Dateisystem geladen und gespeichert werden.
 
@@ -85,7 +87,5 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ### Siehe auch
 
 * class [FontFallbackSettings](../)
-* namensraum [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

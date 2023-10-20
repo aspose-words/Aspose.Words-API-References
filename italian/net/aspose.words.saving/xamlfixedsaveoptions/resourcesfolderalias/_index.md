@@ -1,7 +1,9 @@
 ---
 title: XamlFixedSaveOptions.ResourcesFolderAlias
-second_title: Aspose.Words per .NET API Reference
-description: XamlFixedSaveOptions proprietà. Specifica il nome della cartella utilizzata per costruire URI di immagine scritti in un documento Xaml a pagina fissa. Limpostazione predefinita ènullo .
+linktitle: ResourcesFolderAlias
+articleTitle: ResourcesFolderAlias
+second_title: Aspose.Words per .NET
+description: XamlFixedSaveOptions ResourcesFolderAlias proprietà. Specifica il nome della cartella utilizzata per costruire URI di immagine scritti in un documento Xaml a pagina fissa. Limpostazione predefinita ènullo  in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolderalias/
@@ -14,11 +16,11 @@ Specifica il nome della cartella utilizzata per costruire URI di immagine scritt
 public string ResourcesFolderAlias { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando salvi un file[`Document`](../../../aspose.words/document/) nel formato Xaml a pagina fissa, Aspose.Words deve salvare tutte le immagini incorporate nel documento come file autonomi.[`ResourcesFolder`](../resourcesfolder/) ti consente di specificare dove verranno salvate le immagini e`ResourcesFolderAlias` consente di specificare come verranno costruiti gli URI dell'immagine.
 
-### Esempi
+## Esempi
 
 Mostra come stampare gli URI delle risorse collegate create durante la conversione di un documento in formato .xaml.
 
@@ -81,7 +83,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Guarda anche
 
 * class [XamlFixedSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

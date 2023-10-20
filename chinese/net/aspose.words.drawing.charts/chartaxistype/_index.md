@@ -1,7 +1,9 @@
 ---
-title: Enum ChartAxisType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartAxisType 枚举. 指定图表轴的类型
+title: ChartAxisType Enum
+linktitle: ChartAxisType
+articleTitle: ChartAxisType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartAxisType 枚举. 指定图表轴的类型 在 C#.
 type: docs
 weight: 660
 url: /zh/net/aspose.words.drawing.charts/chartaxistype/
@@ -22,7 +24,7 @@ public enum ChartAxisType
 | Series | `1` | 图表的系列轴。 |
 | Value | `2` | 图表的值轴。 |
 
-### 例子
+## 例子
 
 展示如何为图形类型创建适当类型的图表系列。
 
@@ -112,5 +114,3 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

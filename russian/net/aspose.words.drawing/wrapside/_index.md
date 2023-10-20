@@ -1,7 +1,9 @@
 ---
-title: Enum WrapSide
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.WrapSide перечисление. Указывает какие стороны фигуры или изображения обтекает текст.
+title: WrapSide Enum
+linktitle: WrapSide
+articleTitle: WrapSide
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.WrapSide перечисление. Указывает какие стороны фигуры или изображения обтекает текст на С#.
 type: docs
 weight: 1390
 url: /ru/net/aspose.words.drawing/wrapside/
@@ -24,7 +26,7 @@ public enum WrapSide
 | Largest | `3` | Текст документа переносится на ту сторону фигуры, которая находится дальше всего от края страницы, оставляя свободную от текста область на другой стороне фигуры. |
 | Default | `0` | Значение по умолчанию:Both . |
 
-### Примеры
+## Примеры
 
 Показывает, как заменить все фигуры текстовых полей фигурами изображений.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 * property [WrapSide](../shapebase/wrapside/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

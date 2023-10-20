@@ -1,7 +1,9 @@
 ---
-title: Interface IPageSavingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.IPageSavingCallback arayüz. Bir belgeyi sabit sayfa formatlarında kaydederken Aspose.Wordsün ayrı sayfaları nasıl kaydettiğini kontrol etmek istiyorsanız bu arayüzü uygulayın.
+title: IPageSavingCallback Interface
+linktitle: IPageSavingCallback
+articleTitle: IPageSavingCallback
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.IPageSavingCallback arayüz. Bir belgeyi sabit sayfa formatlarında kaydederken Aspose.Wordsün ayrı sayfaları nasıl kaydettiğini kontrol etmek istiyorsanız bu arayüzü uygulayın C#'da.
 type: docs
 weight: 5180
 url: /tr/net/aspose.words.saving/ipagesavingcallback/
@@ -18,9 +20,9 @@ public interface IPageSavingCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [PageSaving](../../aspose.words.saving/ipagesavingcallback/pagesaving/)(PageSavingArgs) | Aspose.Words ayrı bir sayfayı sabit sayfa formatlarına kaydettiğinde çağrılır. |
+| [PageSaving](../../aspose.words.saving/ipagesavingcallback/pagesaving/)(*[PageSavingArgs](../pagesavingargs/)*) | Aspose.Words ayrı bir sayfayı sabit sayfa formatlarına kaydettiğinde çağrılır. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi sayfa sayfa HTML'ye kaydetmek için geri aramanın nasıl kullanılacağını gösterir.
 
@@ -78,5 +80,3 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

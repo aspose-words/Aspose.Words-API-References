@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.ShowBreaksInFrames
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Отображать разрывы страниц/столбцов в кадрах.
+linktitle: ShowBreaksInFrames
+articleTitle: ShowBreaksInFrames
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions ShowBreaksInFrames свойство. Отображать разрывы страниц/столбцов в кадрах на С#.
 type: docs
 weight: 430
 url: /ru/net/aspose.words.settings/compatibilityoptions/showbreaksinframes/
@@ -17,7 +19,5 @@ public bool ShowBreaksInFrames { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

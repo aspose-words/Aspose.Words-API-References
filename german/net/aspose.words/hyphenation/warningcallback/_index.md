@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.WarningCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: Hyphenation eigendom. Wird während des Ladens von Silbentrennungsmustern aufgerufen wenn ein Problem erkannt wird das zu einem Verlust der Formatierungstreue führen könnte.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words für .NET
+description: Hyphenation WarningCallback eigendom. Wird während des Ladens von Silbentrennungsmustern aufgerufen wenn ein Problem erkannt wird das zu einem Verlust der Formatierungstreue führen könnte in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/hyphenation/warningcallback/
@@ -14,7 +16,7 @@ Wird während des Ladens von Silbentrennungsmustern aufgerufen, wenn ein Problem
 public static IWarningCallback WarningCallback { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Wörterbuch aus einer Datei öffnet und registriert.
 
@@ -91,7 +93,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * interface [IWarningCallback](../../iwarningcallback/)
 * class [Hyphenation](../)
-* namensraum [Aspose.Words](../../hyphenation/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.Document
-second_title: Aspose.Words per .NET API Reference
-description: DocumentPartSavingArgs proprietà. Ottiene loggetto documento che viene salvato.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words per .NET
+description: DocumentPartSavingArgs Document proprietà. Ottiene loggetto documento che viene salvato in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/documentpartsavingargs/document/
@@ -14,7 +16,7 @@ Ottiene l'oggetto documento che viene salvato.
 public Document Document { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come dividere un documento in parti e salvarle.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [DocumentPartSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../documentpartsavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

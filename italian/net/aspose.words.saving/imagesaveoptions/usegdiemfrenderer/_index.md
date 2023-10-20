@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.UseGdiEmfRenderer
-second_title: Aspose.Words per .NET API Reference
-description: ImageSaveOptions proprietà. Ottiene o imposta un valore che determina se utilizzare il renderer di metafile GDI o Aspose.Words durante il salvataggio in EMF.
+linktitle: UseGdiEmfRenderer
+articleTitle: UseGdiEmfRenderer
+second_title: Aspose.Words per .NET
+description: ImageSaveOptions UseGdiEmfRenderer proprietà. Ottiene o imposta un valore che determina se utilizzare il renderer di metafile GDI o Aspose.Words durante il salvataggio in EMF in C#.
 type: docs
 weight: 190
 url: /it/net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore che determina se utilizzare il renderer di metafile 
 public bool UseGdiEmfRenderer { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se impostato su`VERO` Viene utilizzato il renderer di metafile GDI+. Cioè il contenuto viene scritto nell'oggetto GDI+ graphics e salvato nel metafile.
 
@@ -26,7 +28,7 @@ Il salvataggio GDI+ funziona solo su .NET.
 
 Il valore predefinito è`VERO`.
 
-### Esempi
+## Esempi
 
 Mostra come scegliere un renderer durante la conversione di un documento in .emf.
 
@@ -60,7 +62,5 @@ Document doc = new Document();
 ### Guarda anche
 
 * class [ImageSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../imagesaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

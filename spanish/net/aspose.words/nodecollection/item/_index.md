@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: NodeCollection propiedad. Recupera un nodo en el índice dado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: NodeCollection Item propiedad. Recupera un nodo en el índice dado en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/nodecollection/item/
@@ -18,7 +20,7 @@ public Node this[int index] { get; }
 | --- | --- |
 | index | Un índice de la colección de nodos. |
 
-### Observaciones
+## Observaciones
 
 El índice tiene base cero.
 
@@ -28,7 +30,7 @@ Si el índice es mayor o igual que el número de elementos de la lista, esto dev
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer la colección de nodos secundarios de un nodo compuesto.
 
@@ -74,7 +76,5 @@ foreach (Node child in children)
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* espacio de nombres [Aspose.Words](../../nodecollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageData.Borders
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData ملكية. الحصول على مجموعة حدود الصورة. الحدود لها تأثير فقط على الصور المضمنة.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words لـ .NET
+description: ImageData Borders ملكية. الحصول على مجموعة حدود الصورة. الحدود لها تأثير فقط على الصور المضمنة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/imagedata/borders/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/imagedata/borders/
 public BorderCollection Borders { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير بيانات صورة الشكل.
 
@@ -78,7 +80,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

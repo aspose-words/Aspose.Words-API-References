@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxis
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartAxis فصل. يمثل خيارات محاور المخطط.
+title: ChartAxis Class
+linktitle: ChartAxis
+articleTitle: ChartAxis
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartAxis فصل. يمثل خيارات محاور المخطط في C#.
 type: docs
 weight: 630
 url: /ar/net/aspose.words.drawing.charts/chartaxis/
@@ -50,7 +52,7 @@ public class ChartAxis
 | [Title](../../aspose.words.drawing.charts/chartaxis/title/) { get; } | يوفر الوصول إلى خصائص عنوان المحور. |
 | [Type](../../aspose.words.drawing.charts/chartaxis/type/) { get; } | إرجاع نوع المحور. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعديل مظهر محاوره.
 
@@ -104,5 +106,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

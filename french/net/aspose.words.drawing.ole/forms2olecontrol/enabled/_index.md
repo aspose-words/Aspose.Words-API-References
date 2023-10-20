@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Enabled
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Forms2OleControl propriété. Retoursvrai si le contrôle est dans létat activé.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words pour .NET
+description: Forms2OleControl Enabled propriété. Retoursvrai si le contrôle est dans létat activé en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing.ole/forms2olecontrol/enabled/
@@ -14,7 +16,7 @@ Retours`vrai` si le contrôle est dans l'état activé.
 public bool Enabled { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment vérifier les propriétés d'un contrôle ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Voir également
 
 * class [Forms2OleControl](../)
-* espace de noms [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* espace de noms [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * Assemblée [Aspose.Words](../../../)
-
-

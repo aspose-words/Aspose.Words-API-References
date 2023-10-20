@@ -1,7 +1,9 @@
 ---
 title: Range.Delete
-second_title: Aspose.Words för .NET API Referens
-description: Range metod. Tar bort alla tecken i intervallet.
+linktitle: Delete
+articleTitle: Delete
+second_title: Aspose.Words för .NET
+description: Range Delete metod. Tar bort alla tecken i intervallet i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/range/delete/
@@ -14,7 +16,7 @@ Tar bort alla tecken i intervallet.
 public void Delete()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort alla noder från ett område.
 
@@ -40,7 +42,5 @@ Assert.AreEqual("Section 2.", doc.GetText().Trim());
 ### Se även
 
 * class [Range](../)
-* namnutrymme [Aspose.Words](../../range/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

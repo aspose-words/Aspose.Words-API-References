@@ -1,7 +1,9 @@
 ---
 title: DefaultFontSubstitutionRule.DefaultFontName
-second_title: Aspose.Words for .NET API 参考
-description: DefaultFontSubstitutionRule 财产. 获取或设置默认字体名称
+linktitle: DefaultFontName
+articleTitle: DefaultFontName
+second_title: 用于 .NET 的 Aspose.Words
+description: DefaultFontSubstitutionRule DefaultFontName 财产. 获取或设置默认字体名称 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/
 public string DefaultFontName { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为“Times New Roman”。
 
-### 例子
+## 例子
 
 演示如何设置默认字体替换规则。
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontName.pdf");
 ### 也可以看看
 
 * class [DefaultFontSubstitutionRule](../)
-* 命名空间 [Aspose.Words.Fonts](../../defaultfontsubstitutionrule/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

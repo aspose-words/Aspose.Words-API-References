@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LayoutMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Ruft den Layoutmodus dieses Abschnitts ab oder legt diesen fest.
+linktitle: LayoutMode
+articleTitle: LayoutMode
+second_title: Aspose.Words für .NET
+description: PageSetup LayoutMode eigendom. Ruft den Layoutmodus dieses Abschnitts ab oder legt diesen fest in C#.
 type: docs
 weight: 190
 url: /de/net/aspose.words/pagesetup/layoutmode/
@@ -14,7 +16,7 @@ Ruft den Layoutmodus dieses Abschnitts ab oder legt diesen fest.
 public SectionLayoutMode LayoutMode { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man a für die Anzahl der Zeichen angibt, die jede Zeile enthalten darf.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 
 * enum [SectionLayoutMode](../../sectionlayoutmode/)
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

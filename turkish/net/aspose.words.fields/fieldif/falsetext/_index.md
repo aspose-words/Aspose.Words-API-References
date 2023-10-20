@@ -1,7 +1,9 @@
 ---
 title: FieldIf.FalseText
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIf mülk. Karşılaştırma ifadesi ise görüntülenen metni alır veya ayarlar.YANLIŞ .
+linktitle: FalseText
+articleTitle: FalseText
+second_title: Aspose.Words for .NET
+description: FieldIf FalseText mülk. Karşılaştırma ifadesi ise görüntülenen metni alır veya ayarlar.YANLIŞ  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldif/falsetext/
@@ -14,7 +16,7 @@ Karşılaştırma ifadesi ise görüntülenen metni alır veya ayarlar.`YANLIŞ`
 public string FalseText { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 IF alanının nasıl ekleneceğini gösterir.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### Ayrıca bakınız
 
 * class [FieldIf](../)
-* ad alanı [Aspose.Words.Fields](../../fieldif/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

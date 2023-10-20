@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.DoNotDisplayPageBoundaries
-second_title: Aspose.Words for .NET API Referansı
-description: ViewOptions mülk. Metnin üst kısmı ile sayfanın üst kenarı arasındaki boşluğun görüntülenmesini kapatır.
+linktitle: DoNotDisplayPageBoundaries
+articleTitle: DoNotDisplayPageBoundaries
+second_title: Aspose.Words for .NET
+description: ViewOptions DoNotDisplayPageBoundaries mülk. Metnin üst kısmı ile sayfanın üst kenarı arasındaki boşluğun görüntülenmesini kapatır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.settings/viewoptions/donotdisplaypageboundaries/
@@ -14,7 +16,7 @@ Metnin üst kısmı ile sayfanın üst kenarı arasındaki boşluğun görüntü
 public bool DoNotDisplayPageBoundaries { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Görünüm seçeneklerinde dikey boşlukların ve üstbilgilerin/altbilgilerin nasıl gizleneceğini gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "ViewOptions.DisplayPageBoundaries.doc");
 ### Ayrıca bakınız
 
 * class [ViewOptions](../)
-* ad alanı [Aspose.Words.Settings](../../viewoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

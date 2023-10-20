@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.Count
-second_title: Aspose.Words för .NET API Referens
-description: KnownTypeSet fast egendom. Hämtar antalet objekt i uppsättningen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: KnownTypeSet Count fast egendom. Hämtar antalet objekt i uppsättningen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.reporting/knowntypeset/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Se även
 
 * class [KnownTypeSet](../)
-* namnutrymme [Aspose.Words.Reporting](../../knowntypeset/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
-
-

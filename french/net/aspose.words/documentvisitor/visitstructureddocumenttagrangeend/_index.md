@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitStructuredDocumentTagRangeEnd
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsquun StructuredDocumentTagRangeEnd est rencontré.
+linktitle: VisitStructuredDocumentTagRangeEnd
+articleTitle: VisitStructuredDocumentTagRangeEnd
+second_title: Aspose.Words pour .NET
+description: DocumentVisitor VisitStructuredDocumentTagRangeEnd méthode. Appelé lorsquun StructuredDocumentTagRangeEnd est rencontré en C#.
 type: docs
 weight: 450
 url: /fr/net/aspose.words/documentvisitor/visitstructureddocumenttagrangeend/
@@ -20,7 +22,5 @@ public virtual VisitorAction VisitStructuredDocumentTagRangeEnd(
 * enum [VisitorAction](../../visitoraction/)
 * class [StructuredDocumentTagRangeEnd](../../../aspose.words.markup/structureddocumenttagrangeend/)
 * class [DocumentVisitor](../)
-* espace de noms [Aspose.Words](../../documentvisitor/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

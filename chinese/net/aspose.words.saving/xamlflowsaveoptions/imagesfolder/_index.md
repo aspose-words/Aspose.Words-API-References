@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.ImagesFolder
-second_title: Aspose.Words for .NET API 参考
-description: XamlFlowSaveOptions 财产. 指定将文档导出为 XAML 格式时保存图像的物理文件夹 默认为空字符串
+linktitle: ImagesFolder
+articleTitle: ImagesFolder
+second_title: 用于 .NET 的 Aspose.Words
+description: XamlFlowSaveOptions ImagesFolder 财产. 指定将文档导出为 XAML 格式时保存图像的物理文件夹 默认为空字符串 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/xamlflowsaveoptions/imagesfolder/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/xamlflowsaveoptions/imagesfolder/
 public string ImagesFolder { get; set; }
 ```
 
-### 评论
+## 评论
 
 当您保存一个[`Document`](../../../aspose.words/document/)在 XAML 格式中，Aspose.Words 需要将文档中嵌入的所有 图像保存为独立文件。`ImagesFolder` 允许您指定图像的保存位置[`ImagesFolderAlias`](../imagesfolderalias/) 允许指定如何构建图像 URI。
 
@@ -22,7 +24,7 @@ public string ImagesFolder { get; set; }
 
 如果将文档保存到流中，Aspose.Words 没有用于保存图像的文件夹 ，但仍需要将图像保存在某处。在这种情况下，您需要在`ImagesFolder`属性或通过 提供自定义流[`ImageSavingCallback`](../imagesavingcallback/)事件处理程序。
 
-### 例子
+## 例子
 
 演示如何打印在将文档转换为流格式 .xaml 时创建的链接图像的文件名。
 
@@ -88,7 +90,5 @@ private class ImageUriPrinter : IImageSavingCallback
 ### 也可以看看
 
 * class [XamlFlowSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

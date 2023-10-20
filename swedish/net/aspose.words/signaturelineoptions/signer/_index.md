@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.Signer
-second_title: Aspose.Words för .NET API Referens
-description: SignatureLineOptions fast egendom. Hämtar eller ställer in föreslagen undertecknare av signaturraden. Standardvärdet för den här egenskapen är tom sträng Empty.
+linktitle: Signer
+articleTitle: Signer
+second_title: Aspose.Words för .NET
+description: SignatureLineOptions Signer fast egendom. Hämtar eller ställer in föreslagen undertecknare av signaturraden. Standardvärdet för den här egenskapen ärtom sträng Empty i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/signaturelineoptions/signer/
 ---
 ## SignatureLineOptions.Signer property
 
-Hämtar eller ställer in föreslagen undertecknare av signaturraden. Standardvärdet för den här egenskapen är **tom sträng** (Empty).
+Hämtar eller ställer in föreslagen undertecknare av signaturraden. Standardvärdet för den här egenskapen är**tom sträng** (Empty).
 
 ```csharp
 public string Signer { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till en signaturrad i ett dokument och sedan signerar den med ett digitalt certifikat.
 
@@ -130,7 +132,5 @@ Visar hur man lägger till en signaturrad i ett dokument och sedan signerar den 
 ### Se även
 
 * class [SignatureLineOptions](../)
-* namnutrymme [Aspose.Words](../../signaturelineoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

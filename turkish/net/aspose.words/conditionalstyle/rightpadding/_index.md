@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.RightPadding
-second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyle mülk. Tablo hücrelerinin içeriğinin sağına eklenecek alan miktarını puan cinsinden alır veya ayarlar.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words for .NET
+description: ConditionalStyle RightPadding mülk. Tablo hücrelerinin içeriğinin sağına eklenecek alan miktarını puan cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/conditionalstyle/rightpadding/
@@ -14,7 +16,7 @@ Tablo hücrelerinin içeriğinin sağına eklenecek alan miktarını (puan cinsi
 public double RightPadding { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Ayrıca bakınız
 
 * class [ConditionalStyle](../)
-* ad alanı [Aspose.Words](../../conditionalstyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

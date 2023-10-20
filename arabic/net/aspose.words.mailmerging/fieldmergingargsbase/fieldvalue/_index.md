@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.FieldValue
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergingArgsBase ملكية. الحصول على قيمة الحقل أو تعيينها من مصدر البيانات.
+linktitle: FieldValue
+articleTitle: FieldValue
+second_title: Aspose.Words لـ .NET
+description: FieldMergingArgsBase FieldValue ملكية. الحصول على قيمة الحقل أو تعيينها من مصدر البيانات في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/
 public object FieldValue { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تحتوي هذه الخاصية على قيمة تم تحديدها للتو من مصدر البيانات الخاص بك لهذا الحقل بواسطة محرك دمج المراسلات. يمكنك أيضًا استبدال القيمة عن طريق تعيين الخاصية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير القيم التي تتلقاها MERGEFIELDs عند حدوث عملية دمج البريد.
 
@@ -71,7 +73,5 @@ private class FieldValueMergingCallback : IFieldMergingCallback
 ### أنظر أيضا
 
 * class [FieldMergingArgsBase](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

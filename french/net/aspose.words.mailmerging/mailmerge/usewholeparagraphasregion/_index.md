@@ -1,24 +1,26 @@
 ---
 title: MailMerge.UseWholeParagraphAsRegion
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge propriété. Obtient ou définit une valeur indiquant si un paragraphe entier avec Début de la table ou Fin de table field ou plage particulière entre Début de la table et Fin de table les champs doivent être inclus dans la région de publipostage.
+linktitle: UseWholeParagraphAsRegion
+articleTitle: UseWholeParagraphAsRegion
+second_title: Aspose.Words pour .NET
+description: MailMerge UseWholeParagraphAsRegion propriété. Obtient ou définit une valeur indiquant si un paragraphe entier avecDébut de la table ouFin de table field ou plage particulière entreDébut de la table etFin de table les champs doivent être inclus dans la région de publipostage en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-Obtient ou définit une valeur indiquant si un paragraphe entier avec **Début de la table** ou **Fin de table** field ou plage particulière entre **Début de la table** et **Fin de table** les champs doivent être inclus dans la région de publipostage.
+Obtient ou définit une valeur indiquant si un paragraphe entier avec**Début de la table** ou**Fin de table** field ou plage particulière entre**Début de la table** et**Fin de table** les champs doivent être inclus dans la région de publipostage.
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`vrai` .
 
-### Exemples
+## Exemples
 
 Affiche la relation entre les régions de publipostage et les paragraphes.
 
@@ -85,7 +87,5 @@ private static DataTable CreateSourceTableDataTableForOneRegion()
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageData.ChromaKey
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData ملكية. يحدد قيمة اللون للصورة التي سيتم التعامل معها على أنها شفافة.
+linktitle: ChromaKey
+articleTitle: ChromaKey
+second_title: Aspose.Words لـ .NET
+description: ImageData ChromaKey ملكية. يحدد قيمة اللون للصورة التي سيتم التعامل معها على أنها شفافة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing/imagedata/chromakey/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/imagedata/chromakey/
 public Color ChromaKey { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي 0.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير بيانات صورة الشكل.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

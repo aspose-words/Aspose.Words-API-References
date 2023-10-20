@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SectionStart
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Belirtilen nesne için bölüm sonu türünü döndürür veya ayarlar.
+linktitle: SectionStart
+articleTitle: SectionStart
+second_title: Aspose.Words for .NET
+description: PageSetup SectionStart mülk. Belirtilen nesne için bölüm sonu türünü döndürür veya ayarlar C#'da.
 type: docs
 weight: 390
 url: /tr/net/aspose.words/pagesetup/sectionstart/
@@ -14,7 +16,7 @@ Belirtilen nesne için bölüm sonu türünü döndürür veya ayarlar.
 public SectionStart SectionStart { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * enum [SectionStart](../../sectionstart/)
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

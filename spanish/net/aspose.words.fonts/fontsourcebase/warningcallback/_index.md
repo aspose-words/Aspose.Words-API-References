@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.WarningCallback
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSourceBase propiedad. Se llama durante el procesamiento del origen de la fuente cuando se detecta un problema que podría provocar una pérdida de fidelidad del formato.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words para .NET
+description: FontSourceBase WarningCallback propiedad. Se llama durante el procesamiento del origen de la fuente cuando se detecta un problema que podría provocar una pérdida de fidelidad del formato en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fonts/fontsourcebase/warningcallback/
@@ -14,7 +16,7 @@ Se llama durante el procesamiento del origen de la fuente cuando se detecta un p
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo llamar a una devolución de llamada de advertencia cuando se trabaja con las fuentes de fuentes.
 
@@ -53,7 +55,5 @@ private class FontSourceWarningCollector : IWarningCallback
 
 * interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * class [FontSourceBase](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontsourcebase/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

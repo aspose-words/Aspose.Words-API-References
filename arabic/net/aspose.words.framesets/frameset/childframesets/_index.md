@@ -1,7 +1,9 @@
 ---
 title: Frameset.ChildFramesets
-second_title: Aspose.Words لمراجع .NET API
-description: Frameset ملكية. الحصول على مجموعة الإطارات الفرعية وصفحات الإطارات.
+linktitle: ChildFramesets
+articleTitle: ChildFramesets
+second_title: Aspose.Words لـ .NET
+description: Frameset ChildFramesets ملكية. الحصول على مجموعة الإطارات الفرعية وصفحات الإطارات في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.framesets/frameset/childframesets/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.framesets/frameset/childframesets/
 public FramesetCollection ChildFramesets { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى الإطارات الموجودة على الصفحة.
 
@@ -40,7 +42,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * class [FramesetCollection](../../framesetcollection/)
 * class [Frameset](../)
-* مساحة الاسم [Aspose.Words.Framesets](../../frameset/)
+* مساحة الاسم [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * المجسم [Aspose.Words](../../../)
-
-

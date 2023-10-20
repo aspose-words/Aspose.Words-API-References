@@ -1,7 +1,9 @@
 ---
-title: CommentRangeStart.CommentRangeStart
-second_title: Aspose.Words för .NET API Referens
-description: CommentRangeStart byggare. Initierar en ny instans av den här klassen.
+title: CommentRangeStart
+linktitle: CommentRangeStart
+articleTitle: CommentRangeStart
+second_title: Aspose.Words för .NET
+description: CommentRangeStart byggare. Initierar en ny instans av den här klassen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/commentrangestart/commentrangestart/
@@ -19,13 +21,13 @@ public CommentRangeStart(DocumentBase doc, int id)
 | doc | DocumentBase | Ägardokumentet. |
 | id | Int32 | Kommentarsidentifieraren som detta objekt är länkat till. |
 
-### Anmärkningar
+## Anmärkningar
 
 När[`CommentRangeStart`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
 
 Att lägga till en[`CommentRangeStart`](../) till dokumentet använd InsertAfter eller InsertBefore på stycket där du vill infoga kommentaren.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut innehållet i alla kommentarer och deras kommentarintervall med hjälp av en dokumentbesökare.
 
@@ -187,7 +189,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [CommentRangeStart](../)
-* namnutrymme [Aspose.Words](../../commentrangestart/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

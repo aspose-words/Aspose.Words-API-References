@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Id
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. يحدد معرفًا رقميًا ثابتًا فريدًا للقراءة فقط لعلامة المستند المنظمة هذه.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeStart Id ملكية. يحدد معرفًا رقميًا ثابتًا فريدًا للقراءة فقط لعلامة المستند المنظمة هذه في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/id/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/id/
 public int Id { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يجب أن تتبع سمة المعرف هذه القواعد:
 
@@ -24,7 +26,7 @@ public int Id { get; }
 * خلال علامة المستند المنظمة المستقلةINodeCloningListener)سيتم إنشاء معرف فريد جديد للعملية لعقدة علامة المستند المنظمة المستنسخة.
 * إذا لم يتم تحديد المعرف في المستند المصدر، فيجب أن يكون لعقدة علامة المستند المنظمة معرف فريد جديد معين لها عند تحميل المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
 
@@ -59,7 +61,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### أنظر أيضا
 
 * class [StructuredDocumentTagRangeStart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.BuildingBlockGallery
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Bunun için yapı taşının türünü belirtir SDT . Olamazhükümsüz .
+linktitle: BuildingBlockGallery
+articleTitle: BuildingBlockGallery
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag BuildingBlockGallery mülk. Bunun için yapı taşının türünü belirtirSDT . Olamazhükümsüz  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/structureddocumenttag/buildingblockgallery/
 ---
 ## StructuredDocumentTag.BuildingBlockGallery property
 
-Bunun için yapı taşının türünü belirtir **SDT** . Olamaz`hükümsüz` .
+Bunun için yapı taşının türünü belirtir**SDT** . Olamaz`hükümsüz` .
 
 ```csharp
 public string BuildingBlockGallery { get; set; }
 ```
 
-### Notlar
+## Notlar
 
-Bu özelliğe erişim yalnızca şunun için işe yarayacaktır:BuildingBlockGallery ve DocPartObj SDT türleri. Bunun için salt okunurdur **SDT** belge parçası türünün.
+Bu özelliğe erişim yalnızca şunun için işe yarayacaktır:BuildingBlockGallery ve DocPartObj SDT türleri. Bunun için salt okunurdur**SDT** belge parçası türünün.
 
 Diğer tüm SDT türleri için istisna meydana gelecektir.
 
-### Örnekler
+## Örnekler
 
 Yapılandırılmış belge etiketinin yapı taşı olarak nasıl ekleneceğini ve kategorisi ile galerisinin nasıl ayarlanacağını gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.BuildingBlockCategories.docx");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

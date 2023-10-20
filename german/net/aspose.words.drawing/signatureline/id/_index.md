@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.Id
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignatureLine eigendom. Ruft die Kennung für diese Signaturzeile ab oder legt diese fest.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words für .NET
+description: SignatureLine Id eigendom. Ruft die Kennung für diese Signaturzeile ab oder legt diese fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing/signatureline/id/
@@ -16,7 +18,7 @@ Diese Kennung kann beim Signieren eines Dokuments mit einer digitalen Signatur v
 public Guid Id { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Signaturzeile hinzufügt und es dann mit einem digitalen Zertifikat signiert.
 
@@ -132,7 +134,5 @@ Zeigt, wie man einem Dokument eine Signaturzeile hinzufügt und es dann mit eine
 ### Siehe auch
 
 * class [SignatureLine](../)
-* namensraum [Aspose.Words.Drawing](../../signatureline/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

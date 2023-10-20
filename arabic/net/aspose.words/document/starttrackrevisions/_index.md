@@ -1,12 +1,14 @@
 ---
 title: Document.StartTrackRevisions
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. يبدأ تلقائيًا بوضع علامة على كافة التغييرات الإضافية التي تجريها على المستند برمجيًا باعتبارها تغييرات مراجعة.
+linktitle: StartTrackRevisions
+articleTitle: StartTrackRevisions
+second_title: Aspose.Words لـ .NET
+description: Document StartTrackRevisions طريقة. يبدأ تلقائيًا بوضع علامة على كافة التغييرات الإضافية التي تجريها على المستند برمجيًا باعتبارها تغييرات مراجعة في C#.
 type: docs
-weight: 730
+weight: 710
 url: /ar/net/aspose.words/document/starttrackrevisions/
 ---
-## StartTrackRevisions(string, DateTime) {#starttrackrevisions_1}
+## StartTrackRevisions(*string, DateTime*) {#starttrackrevisions_1}
 
 يبدأ تلقائيًا بوضع علامة على كافة التغييرات الإضافية التي تجريها على المستند برمجيًا باعتبارها تغييرات مراجعة.
 
@@ -19,7 +21,7 @@ public void StartTrackRevisions(string author, DateTime dateTime)
 | author | String | الأحرف الأولى من اسم المؤلف لاستخدامها في المراجعات. |
 | dateTime | DateTime | التاريخ والوقت المستخدم للمراجعات. |
 
-### ملاحظات
+## ملاحظات
 
 إذا قمت باستدعاء هذه الطريقة ثم قمت بإجراء بعض التغييرات على المستند برمجيًا، فاحفظ المستند ثم افتح المستند لاحقًا في برنامج MS Word، وسترى هذه التغييرات كمراجعات.
 
@@ -29,7 +31,7 @@ public void StartTrackRevisions(string author, DateTime dateTime)
 
 هذه الطريقة لا تغير[`TrackRevisions`](../trackrevisions/) الخيار ولا يستخدم value الخاص به لأغراض تتبع المراجعة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تتبع المراجعات أثناء تحرير مستند.
 
@@ -78,12 +80,12 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StopTrackRevisions](../stoptrackrevisions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## StartTrackRevisions(string) {#starttrackrevisions}
+## StartTrackRevisions(*string*) {#starttrackrevisions}
 
 يبدأ تلقائيًا بوضع علامة على كافة التغييرات الإضافية التي تجريها على المستند برمجيًا باعتبارها تغييرات مراجعة.
 
@@ -95,7 +97,7 @@ public void StartTrackRevisions(string author)
 | --- | --- | --- |
 | author | String | الأحرف الأولى من اسم المؤلف لاستخدامها في المراجعات. |
 
-### ملاحظات
+## ملاحظات
 
 إذا قمت باستدعاء هذه الطريقة ثم قمت بإجراء بعض التغييرات على المستند برمجيًا، فاحفظ المستند ثم افتح المستند لاحقًا في برنامج MS Word، وسترى هذه التغييرات كمراجعات.
 
@@ -105,7 +107,7 @@ public void StartTrackRevisions(string author)
 
 هذه الطريقة لا تغير[`TrackRevisions`](../trackrevisions/) الخيار ولا يستخدم value الخاص به لأغراض تتبع المراجعة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تتبع المراجعات أثناء تحرير مستند.
 
@@ -154,7 +156,5 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StopTrackRevisions](../stoptrackrevisions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

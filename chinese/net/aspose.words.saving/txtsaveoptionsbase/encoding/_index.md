@@ -1,20 +1,22 @@
 ---
 title: TxtSaveOptionsBase.Encoding
-second_title: Aspose.Words for .NET API 参考
-description: TxtSaveOptionsBase 财产. 指定以文本格式导出时要使用的编码 默认值为 编码.UTF8.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: 用于 .NET 的 Aspose.Words
+description: TxtSaveOptionsBase Encoding 财产. 指定以文本格式导出时要使用的编码 默认值为编码.UTF8 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/txtsaveoptionsbase/encoding/
 ---
 ## TxtSaveOptionsBase.Encoding property
 
-指定以文本格式导出时要使用的编码。 默认值为 **编码.UTF8**.
+指定以文本格式导出时要使用的编码。 默认值为**编码.UTF8**.
 
 ```csharp
 public Encoding Encoding { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置 .txt 输出文档的编码。
 
@@ -49,7 +51,5 @@ Assert.AreEqual("? ? ? ? ?.\r\n", docText);
 ### 也可以看看
 
 * class [TxtSaveOptionsBase](../)
-* 命名空间 [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.OriginalFileSize
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSavingArgs eigendom. Ruft die ursprüngliche Schriftdateigröße ab.
+linktitle: OriginalFileSize
+articleTitle: OriginalFileSize
+second_title: Aspose.Words für .NET
+description: FontSavingArgs OriginalFileSize eigendom. Ruft die ursprüngliche Schriftdateigröße ab in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.saving/fontsavingargs/originalfilesize/
@@ -14,11 +16,11 @@ Ruft die ursprüngliche Schriftdateigröße ab.
 public int OriginalFileSize { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft enthält die ursprüngliche Dateigröße der aktuellen Schriftart, sofern diese bekannt ist. Andernfalls kann es Null sein.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Siehe auch
 
 * class [FontSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../fontsavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

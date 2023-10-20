@@ -1,7 +1,9 @@
 ---
-title: Shape.Shape
-second_title: Aspose.Words för .NET API Referens
-description: Shape byggare. Skapar ett nytt formobjekt.
+title: Shape
+linktitle: Shape
+articleTitle: Shape
+second_title: Aspose.Words för .NET
+description: Shape byggare. Skapar ett nytt formobjekt i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/shape/shape/
@@ -19,11 +21,11 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 | doc | DocumentBase | Ägardokumentet. |
 | shapeType | ShapeType | Typen av formen som ska skapas. |
 
-### Anmärkningar
+## Anmärkningar
 
 Du bör ange önskade formegenskaper efter att du skapat en form.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en form med en bild från det lokala filsystemet i ett dokument.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [ShapeType](../../shapetype/)
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Document.RenderToSize
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Rendert eine Dokumentseite in eineGraphics Objekt auf eine angegebene Größe.
+linktitle: RenderToSize
+articleTitle: RenderToSize
+second_title: Aspose.Words für .NET
+description: Document RenderToSize methode. Rendert eine Dokumentseite in eineGraphics Objekt auf eine angegebene Größe in C#.
 type: docs
-weight: 710
+weight: 690
 url: /de/net/aspose.words/document/rendertosize/
 ---
 ## Document.RenderToSize method
@@ -28,7 +30,7 @@ public float RenderToSize(int pageIndex, Graphics graphics, float x, float y, fl
 
 Der Maßstab, der automatisch für die gerenderte Seite berechnet wurde, damit sie der angegebenen Größe entspricht.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Dokument als Bitmap an einer angegebenen Position und Größe gerendert wird (.NetStandard 2.0).
 
@@ -144,7 +146,5 @@ using (Bitmap bmp = new Bitmap(700, 700))
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

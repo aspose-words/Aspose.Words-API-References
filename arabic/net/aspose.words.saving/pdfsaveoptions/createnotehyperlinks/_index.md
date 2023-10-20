@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CreateNoteHyperlinks
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. يحدد ما إذا كان سيتم تحويل مراجع الحواشي السفلية/التعليقات الختامية في القصة النصية الرئيسية إلى ارتباطات تشعبية نشطة. عند النقر فوق الارتباط التشعبي سيؤدي إلى الحاشية السفلية/التعليقات الختامية المقابلة. الافتراضي هوخطأ شنيع .
+linktitle: CreateNoteHyperlinks
+articleTitle: CreateNoteHyperlinks
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions CreateNoteHyperlinks ملكية. يحدد ما إذا كان سيتم تحويل مراجع الحواشي السفلية/التعليقات الختامية في القصة النصية الرئيسية إلى ارتباطات تشعبية نشطة. عند النقر فوق الارتباط التشعبي سيؤدي إلى الحاشية السفلية/التعليقات الختامية المقابلة. الافتراضي هوخطأ شنيع  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
 public bool CreateNoteHyperlinks { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية جعل الحواشي السفلية والتعليقات الختامية تعمل كارتباطات تشعبية.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.NoteHyperlinks.pdf", options);
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

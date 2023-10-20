@@ -1,7 +1,9 @@
 ---
-title: Class PhysicalFontInfo
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.PhysicalFontInfo klas. Gibt Informationen über die physische Schriftart an die für die Aspose.WordsSchriftartEngine verfügbar ist.
+title: PhysicalFontInfo Class
+linktitle: PhysicalFontInfo
+articleTitle: PhysicalFontInfo
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fonts.PhysicalFontInfo klas. Gibt Informationen über die physische Schriftart an die für die Aspose.WordsSchriftartEngine verfügbar ist in C#.
 type: docs
 weight: 3030
 url: /de/net/aspose.words.fonts/physicalfontinfo/
@@ -25,7 +27,7 @@ public class PhysicalFontInfo
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Vollständiger Name der Schriftart. |
 | [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Versionszeichenfolge der Schriftart. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verfügbare Schriftarten aufgelistet werden.
 
@@ -46,5 +48,3 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 
 * namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
-
-

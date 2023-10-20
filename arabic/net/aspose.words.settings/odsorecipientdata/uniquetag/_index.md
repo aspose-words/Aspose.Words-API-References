@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.UniqueTag
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoRecipientData ملكية. يحدد محتويات سجل معين في العمود الذي يحتوي على بيانات فريدة. القيمة الافتراضية هيباطل .
+linktitle: UniqueTag
+articleTitle: UniqueTag
+second_title: Aspose.Words لـ .NET
+description: OdsoRecipientData UniqueTag ملكية. يحدد محتويات سجل معين في العمود الذي يحتوي على بيانات فريدة. القيمة الافتراضية هيباطل  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.settings/odsorecipientdata/uniquetag/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odsorecipientdata/uniquetag/
 public byte[] UniqueTag { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### أنظر أيضا
 
 * class [OdsoRecipientData](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsorecipientdata/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

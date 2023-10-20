@@ -1,12 +1,14 @@
 ---
 title: OleFormat.Save
-second_title: Aspose.Words für .NET-API-Referenz
-description: OleFormat methode. Speichert die Daten des eingebetteten Objekts im angegebenen Stream.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words für .NET
+description: OleFormat Save methode. Speichert die Daten des eingebetteten Objekts im angegebenen Stream in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.drawing/oleformat/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Speichert die Daten des eingebetteten Objekts im angegebenen Stream.
 
@@ -24,11 +26,11 @@ public void Save(Stream stream)
 | --- | --- |
 | InvalidOperationException | Wird ausgelöst, wenn Sie versuchen, ein verknüpftes Objekt zu speichern. |
 
-### Bemerkungen
+## Bemerkungen
 
 Es liegt in der Verantwortung des Anrufers, den Stream zu entsorgen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eingebettete OLE-Objekte in Dateien extrahiert werden.
 
@@ -63,12 +65,12 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Siehe auch
 
 * class [OleFormat](../)
-* namensraum [Aspose.Words.Drawing](../../oleformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Speichert die Daten des eingebetteten Objekts in einer Datei mit dem angegebenen Namen.
 
@@ -86,7 +88,7 @@ public void Save(string fileName)
 | --- | --- |
 | InvalidOperationException | Wird ausgelöst, wenn Sie versuchen, ein verknüpftes Objekt zu speichern. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eingebettete OLE-Objekte in Dateien extrahiert werden.
 
@@ -121,7 +123,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Siehe auch
 
 * class [OleFormat](../)
-* namensraum [Aspose.Words.Drawing](../../oleformat/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

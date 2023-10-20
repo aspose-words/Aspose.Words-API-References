@@ -1,14 +1,16 @@
 ---
-title: Class CompatibilityOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.CompatibilityOptions сорт. Содержит параметры совместимости т. е. пользовательские настройки введенные на Совместимость вкладка  Параметры диалог в Microsoft Word.
+title: CompatibilityOptions Class
+linktitle: CompatibilityOptions
+articleTitle: CompatibilityOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Settings.CompatibilityOptions сорт. Содержит параметры совместимости т. е. пользовательские настройки введенные наСовместимость вкладка Параметры диалог в Microsoft Word на С#.
 type: docs
 weight: 5780
 url: /ru/net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
 
-Содержит параметры совместимости (т. е. пользовательские настройки, введенные на **Совместимость** вкладка  **Параметры** диалог в Microsoft Word).
+Содержит параметры совместимости (т. е. пользовательские настройки, введенные на**Совместимость** вкладка **Параметры** диалог в Microsoft Word).
 
 Чтобы узнать больше, посетите[Определить формат файла и проверить совместимость форматов](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) статья документации.
 
@@ -96,9 +98,9 @@ public class CompatibilityOptions
 
 | Имя | Описание |
 | --- | --- |
-| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(MsWordVersion) | Позволяет оптимизировать содержимое документа, а также поведение Aspose.Words по умолчанию для определенных версий MS Word. |
+| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(*[MsWordVersion](../mswordversion/)*) | Позволяет оптимизировать содержимое документа, а также поведение Aspose.Words по умолчанию для определенных версий MS Word. |
 
-### Примеры
+## Примеры
 
 Показывает, как выровнять текстовое содержимое текстового поля по вертикали.
 
@@ -214,5 +216,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 * property [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/)
 * пространство имен [Aspose.Words.Settings](../../aspose.words.settings/)
 * сборка [Aspose.Words](../../)
-
-

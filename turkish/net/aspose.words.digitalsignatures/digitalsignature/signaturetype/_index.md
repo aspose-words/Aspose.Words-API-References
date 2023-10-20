@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SignatureType
-second_title: Aspose.Words for .NET API Referansı
-description: DigitalSignature mülk. Dijital imzanın türünü alır.
+linktitle: SignatureType
+articleTitle: SignatureType
+second_title: Aspose.Words for .NET
+description: DigitalSignature SignatureType mülk. Dijital imzanın türünü alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.digitalsignatures/digitalsignature/signaturetype/
@@ -14,7 +16,7 @@ Dijital imzanın türünü alır.
 public DigitalSignatureType SignatureType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her imza hakkındaki bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
 
@@ -37,7 +39,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 
 * enum [DigitalSignatureType](../../digitalsignaturetype/)
 * class [DigitalSignature](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

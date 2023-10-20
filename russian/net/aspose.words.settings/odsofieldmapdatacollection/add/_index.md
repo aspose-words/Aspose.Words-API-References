@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: OdsoFieldMapDataCollection метод. Добавляет объект в конец этой коллекции.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: OdsoFieldMapDataCollection Add метод. Добавляет объект в конец этой коллекции на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/add/
@@ -18,7 +20,7 @@ public int Add(OdsoFieldMapData value)
 | --- | --- | --- |
 | value | OdsoFieldMapData | Объект, который нужно добавить. Не может быть`нулевой`. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, которая сопоставляет столбцы источника данных с полями слияния.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* пространство имен [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

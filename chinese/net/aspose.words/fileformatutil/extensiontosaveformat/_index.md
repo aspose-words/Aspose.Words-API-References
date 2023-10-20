@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ExtensionToSaveFormat
-second_title: Aspose.Words for .NET API 参考
-description: FileFormatUtil 方法. 将文件扩展名转换为SaveFormat值.
+linktitle: ExtensionToSaveFormat
+articleTitle: ExtensionToSaveFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: FileFormatUtil ExtensionToSaveFormat 方法. 将文件扩展名转换为SaveFormat值 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/fileformatutil/extensiontosaveformat/
@@ -24,11 +26,11 @@ public static SaveFormat ExtensionToSaveFormat(string extension)
 | --- | --- |
 | ArgumentNullException | 如果参数是则抛出`无效的`。 |
 
-### 评论
+## 评论
 
 如果无法识别扩展名，则返回Unknown。
 
-### 例子
+## 例子
 
 演示如何使用 FileFormatUtil 方法来检测文档的格式。
 
@@ -62,7 +64,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* 命名空间 [Aspose.Words](../../fileformatutil/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

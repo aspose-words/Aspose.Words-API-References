@@ -1,7 +1,9 @@
 ---
 title: Comment.Initial
-second_title: Aspose.Words for .NET API Referansı
-description: Comment mülk. Belirli bir yorumla ilişkili kullanıcının baş harflerini döndürür veya ayarlar.
+linktitle: Initial
+articleTitle: Initial
+second_title: Aspose.Words for .NET
+description: Comment Initial mülk. Belirli bir yorumla ilişkili kullanıcının baş harflerini döndürür veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/comment/initial/
@@ -14,13 +16,13 @@ Belirli bir yorumla ilişkili kullanıcının baş harflerini döndürür veya a
 public string Initial { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Olamaz`hükümsüz`.
 
 Varsayılan boş dizedir.
 
-### Örnekler
+## Örnekler
 
 Bir belge ziyaretçisi kullanılarak tüm yorumların içeriğinin ve yorum aralıklarının nasıl yazdırıldığını gösterir.
 
@@ -181,7 +183,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [Comment](../)
-* ad alanı [Aspose.Words](../../comment/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

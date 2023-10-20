@@ -1,7 +1,9 @@
 ---
 title: ChartFormat.Fill
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartFormat propiedad. Obtiene el formato de relleno para el elemento del gráfico principal.
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words para .NET
+description: ChartFormat Fill propiedad. Obtiene el formato de relleno para el elemento del gráfico principal en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/chartformat/fill/
@@ -14,7 +16,7 @@ Obtiene el formato de relleno para el elemento del gráfico principal.
 public Fill Fill { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestre cómo configurar el formato del marcador.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [Fill](../../../aspose.words.drawing/fill/)
 * class [ChartFormat](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartformat/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

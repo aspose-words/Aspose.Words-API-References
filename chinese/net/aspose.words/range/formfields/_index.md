@@ -1,7 +1,9 @@
 ---
 title: Range.FormFields
-second_title: Aspose.Words for .NET API 参考
-description: Range 财产. 返回一个FormFields表示范围内所有表单字段的集合
+linktitle: FormFields
+articleTitle: FormFields
+second_title: 用于 .NET 的 Aspose.Words
+description: Range FormFields 财产. 返回一个FormFields表示范围内所有表单字段的集合 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/range/formfields/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/range/formfields/
 public FormFieldCollection FormFields { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormFieldCollection](../../../aspose.words.fields/formfieldcollection/)
 * class [Range](../)
-* 命名空间 [Aspose.Words](../../range/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

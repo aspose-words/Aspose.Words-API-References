@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListCollection eigendom. Ruft die Anzahl der nummerierten und Aufzählungslisten im Dokument ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: ListCollection Count eigendom. Ruft die Anzahl der nummerierten und Aufzählungslisten im Dokument ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.lists/listcollection/count/
@@ -14,7 +16,7 @@ Ruft die Anzahl der nummerierten und Aufzählungslisten im Dokument ab.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Besitzerdokumenteigenschaften von Listen überprüft werden.
 
@@ -36,7 +38,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 ### Siehe auch
 
 * class [ListCollection](../)
-* namensraum [Aspose.Words.Lists](../../listcollection/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

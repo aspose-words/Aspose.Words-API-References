@@ -1,7 +1,9 @@
 ---
-title: SvgSaveOptions.SvgSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: SvgSaveOptions البناء. Default_Constructor
+title: SvgSaveOptions
+linktitle: SvgSaveOptions
+articleTitle: SvgSaveOptions
+second_title: Aspose.Words لـ .NET
+description: SvgSaveOptions البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/svgsaveoptions/svgsaveoptions/
@@ -17,7 +19,5 @@ public SvgSaveOptions()
 ### أنظر أيضا
 
 * class [SvgSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../svgsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

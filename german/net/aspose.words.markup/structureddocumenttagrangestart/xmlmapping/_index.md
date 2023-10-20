@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.XmlMapping
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart eigendom. Ruft ein Objekt ab das die Zuordnung dieses strukturierten DokumentTagBereichs zu XMLDaten in einem benutzerdefinierten XMLTeil des aktuellen Dokuments darstellt.
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTagRangeStart XmlMapping eigendom. Ruft ein Objekt ab das die Zuordnung dieses strukturierten DokumentTagBereichs zu XMLDaten in einem benutzerdefinierten XMLTeil des aktuellen Dokuments darstellt in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/
@@ -14,11 +16,11 @@ Ruft ein Objekt ab, das die Zuordnung dieses strukturierten Dokument-Tag-Bereich
 public XmlMapping XmlMapping { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Sie können das verwenden[`SetMapping`](../../xmlmapping/setmapping/) Methode dieses -Objekts zum Zuordnen eines strukturierten Dokument-Tag-Bereichs zu XML-Daten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie XML-Zuordnungen für den Bereichsanfang eines strukturierten Dokument-Tags festgelegt werden.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.StructuredDocumentTagRangeStartXm
 
 * class [XmlMapping](../../xmlmapping/)
 * class [StructuredDocumentTagRangeStart](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

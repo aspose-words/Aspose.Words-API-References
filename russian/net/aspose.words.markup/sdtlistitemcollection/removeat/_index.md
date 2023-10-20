@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.RemoveAt
-second_title: Справочник по API Aspose.Words для .NET
-description: SdtListItemCollection метод. Удаляет элемент списка по указанному индексу.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words для .NET
+description: SdtListItemCollection RemoveAt метод. Удаляет элемент списка по указанному индексу на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.markup/sdtlistitemcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Отсчитываемый от нуля индекс элемента, который нужно удалить. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами структурированных документов с раскрывающимся списком.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Смотрите также
 
 * class [SdtListItemCollection](../)
-* пространство имен [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

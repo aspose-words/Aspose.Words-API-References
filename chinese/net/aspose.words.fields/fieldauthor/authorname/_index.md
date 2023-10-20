@@ -1,7 +1,9 @@
 ---
 title: FieldAuthor.AuthorName
-second_title: Aspose.Words for .NET API 参考
-description: FieldAuthor 财产. 获取或设置文档作者姓名
+linktitle: AuthorName
+articleTitle: AuthorName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldAuthor AuthorName 财产. 获取或设置文档作者姓名 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldauthor/authorname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldauthor/authorname/
 public string AuthorName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 AUTHOR 字段来显示文档创建者的姓名。
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Field.AUTHOR.docx");
 ### 也可以看看
 
 * class [FieldAuthor](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldauthor/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

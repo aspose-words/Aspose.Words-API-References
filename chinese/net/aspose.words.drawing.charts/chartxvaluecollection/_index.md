@@ -1,7 +1,9 @@
 ---
-title: Class ChartXValueCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartXValueCollection 班级. 表示图表系列的 X 值的集合
+title: ChartXValueCollection Class
+linktitle: ChartXValueCollection
+articleTitle: ChartXValueCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartXValueCollection 班级. 表示图表系列的 X 值的集合 在 C#.
 type: docs
 weight: 850
 url: /zh/net/aspose.words.drawing.charts/chartxvaluecollection/
@@ -27,13 +29,13 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartxvaluecollection/getenumerator/)() | 返回一个枚举器对象。 |
 
-### 评论
+## 评论
 
-除以下以外的所有收藏品 **无效的**必须有相同的[`ValueType`](../chartxvalue/valuetype/)。
+除以下以外的所有收藏品**无效的**必须有相同的[`ValueType`](../chartxvalue/valuetype/)。
 
 该集合仅允许更改 X 值。要向图表系列添加或插入新值，或删除值， 的相应方法[`ChartSeries`](../chartseries/)可以使用类。
 
-### 例子
+## 例子
 
 展示如何获取图表系列数据。
 
@@ -89,5 +91,3 @@ doc.Save(ArtifactsDir + "Charts.GetChartSeriesData.docx");
 * class [ChartXValue](../chartxvalue/)
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

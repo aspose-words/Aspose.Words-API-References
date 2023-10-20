@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Clear
-second_title: Aspose.Words för .NET API Referens
-description: SdtListItemCollection metod. Rensar alla objekt från den här samlingen.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: SdtListItemCollection Clear metod. Rensar alla objekt från den här samlingen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.markup/sdtlistitemcollection/clear/
@@ -14,7 +16,7 @@ Rensar alla objekt från den här samlingen.
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med strukturerade dokumenttaggar i listrutan.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Se även
 
 * class [SdtListItemCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

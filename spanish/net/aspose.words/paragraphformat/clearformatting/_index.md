@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.ClearFormatting
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat método. Restablece el formato de párrafo predeterminado.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words para .NET
+description: ParagraphFormat ClearFormatting método. Restablece el formato de párrafo predeterminado en C#.
 type: docs
 weight: 420
 url: /es/net/aspose.words/paragraphformat/clearformatting/
@@ -14,11 +16,11 @@ Restablece el formato de párrafo predeterminado.
 public void ClearFormatting()
 ```
 
-### Observaciones
+## Observaciones
 
 El formato de párrafo predeterminado es Estilo normal, alineado a la izquierda, sin sangría, sin espacios, sin bordes ni sombreado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo anidar una lista dentro de otra lista.
 
@@ -72,7 +74,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### Ver también
 
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

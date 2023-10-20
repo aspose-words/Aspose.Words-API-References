@@ -1,7 +1,9 @@
 ---
-title: Enum CommentDisplayMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Layout.CommentDisplayMode opsomming. Gibt den RenderingModus für Dokumentkommentare an.
+title: CommentDisplayMode Enum
+linktitle: CommentDisplayMode
+articleTitle: CommentDisplayMode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Layout.CommentDisplayMode opsomming. Gibt den RenderingModus für Dokumentkommentare an in C#.
 type: docs
 weight: 3290
 url: /de/net/aspose.words.layout/commentdisplaymode/
@@ -22,7 +24,7 @@ public enum CommentDisplayMode
 | ShowInBalloons | `1` | Rendert Dokumentkommentare in Sprechblasen am Rand. Dies ist der Standardwert. |
 | ShowInAnnotations | `2` | Rendert Dokumentkommentare in Anmerkungen. Dies ist nur für das PDF-Format verfügbar. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Kommentare angezeigt werden, wenn ein Dokument in einem gerenderten Format gespeichert wird.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Document.ShowCommentsInBalloons.pdf");
 
 * namensraum [Aspose.Words.Layout](../../aspose.words.layout/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,24 +1,26 @@
 ---
 title: SaveOptions.DefaultTemplate
-second_title: Referencia de API de Aspose.Words para .NET
-description: SaveOptions propiedad. Obtiene o establece la ruta a la plantilla predeterminada incluido el nombre del archivo. El valor predeterminado para esta propiedad es cuerda vacía Empty.
+linktitle: DefaultTemplate
+articleTitle: DefaultTemplate
+second_title: Aspose.Words para .NET
+description: SaveOptions DefaultTemplate propiedad. Obtiene o establece la ruta a la plantilla predeterminada incluido el nombre del archivo. El valor predeterminado para esta propiedad escuerda vacía Empty en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/saveoptions/defaulttemplate/
 ---
 ## SaveOptions.DefaultTemplate property
 
-Obtiene o establece la ruta a la plantilla predeterminada (incluido el nombre del archivo). El valor predeterminado para esta propiedad es **cuerda vacía** (Empty).
+Obtiene o establece la ruta a la plantilla predeterminada (incluido el nombre del archivo). El valor predeterminado para esta propiedad es**cuerda vacía** (Empty).
 
 ```csharp
 public string DefaultTemplate { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si se especifica, esta ruta se utiliza para cargar la plantilla cuando[`AutomaticallyUpdateStyles`](../../../aspose.words/document/automaticallyupdatestyles/) es`verdadero` , pero[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) esta vacio.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar una plantilla predeterminada para documentos que no tienen plantillas adjuntas.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Ver también
 
 * class [SaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../saveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

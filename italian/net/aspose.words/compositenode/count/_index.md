@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.Count
-second_title: Aspose.Words per .NET API Reference
-description: CompositeNode proprietà. Ottiene il numero di figli immediati di questo nodo.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: CompositeNode Count proprietà. Ottiene il numero di figli immediati di questo nodo in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/compositenode/count/
@@ -14,7 +16,7 @@ Ottiene il numero di figli immediati di questo nodo.
 public int Count { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere, aggiornare ed eliminare i nodi figlio nella raccolta di figli di un CompositeNode.
 
@@ -67,7 +69,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 ### Guarda anche
 
 * class [CompositeNode](../)
-* spazio dei nomi [Aspose.Words](../../compositenode/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

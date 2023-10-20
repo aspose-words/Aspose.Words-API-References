@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.Add
-second_title: Aspose.Words för .NET API Referens
-description: GeneralFormatCollection metod. Lägger till ett allmänt format till samlingen.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: GeneralFormatCollection Add metod. Lägger till ett allmänt format till samlingen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/generalformatcollection/add/
@@ -18,7 +20,7 @@ public void Add(GeneralFormat item)
 | --- | --- | --- |
 | item | GeneralFormat | Ett allmänt format. |
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar fältresultat.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * enum [GeneralFormat](../../generalformat/)
 * class [GeneralFormatCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../generalformatcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

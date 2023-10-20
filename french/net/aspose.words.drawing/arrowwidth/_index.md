@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowWidth
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.ArrowWidth énumération. Largeur de la flèche en fin de ligne.
+title: ArrowWidth Enum
+linktitle: ArrowWidth
+articleTitle: ArrowWidth
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.ArrowWidth énumération. Largeur de la flèche en fin de ligne en C#.
 type: docs
 weight: 500
 url: /fr/net/aspose.words.drawing/arrowwidth/
@@ -23,7 +25,7 @@ public enum ArrowWidth
 | Wide | `2` |  |
 | Default | `0` | Identique àNarrow . |
 
-### Exemples
+## Exemples
 
 Montre pour créer une variété de formes.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowWidth](../stroke/endarrowwidth/)
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

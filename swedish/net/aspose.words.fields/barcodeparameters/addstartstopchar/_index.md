@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.AddStartStopChar
-second_title: Aspose.Words för .NET API Referens
-description: BarcodeParameters fast egendom. Om start/stopptecken ska läggas till för streckkodstyperna NW7 och CODE39.
+linktitle: AddStartStopChar
+articleTitle: AddStartStopChar
+second_title: Aspose.Words för .NET
+description: BarcodeParameters AddStartStopChar fast egendom. Om start/stopptecken ska läggas till för streckkodstyperna NW7 och CODE39 i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/barcodeparameters/addstartstopchar/
@@ -14,7 +16,7 @@ Om start-/stopptecken ska läggas till för streckkodstyperna NW7 och CODE39.
 public bool AddStartStopChar { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Se även
 
 * class [BarcodeParameters](../)
-* namnutrymme [Aspose.Words.Fields](../../barcodeparameters/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

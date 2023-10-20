@@ -1,7 +1,9 @@
 ---
 title: OleControl.Name
-second_title: Aspose.Words für .NET-API-Referenz
-description: OleControl eigendom. Ruft den Namen des ActiveXSteuerelements ab oder legt diesen fest.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words für .NET
+description: OleControl Name eigendom. Ruft den Namen des ActiveXSteuerelements ab oder legt diesen fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.ole/olecontrol/name/
@@ -14,7 +16,7 @@ Ruft den Namen des ActiveX-Steuerelements ab oder legt diesen fest.
 public string Name { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften eines ActiveX-Steuerelements überprüft werden.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Siehe auch
 
 * class [OleControl](../)
-* namensraum [Aspose.Words.Drawing.Ole](../../olecontrol/)
+* namensraum [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Fill.Color
-second_title: Aspose.Words for .NET API Referansı
-description: Fill mülk. Dolgunun ön plan rengini temsil eden bir Color nesnesini alır veya ayarlar.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words for .NET
+description: Fill Color mülk. Dolgunun ön plan rengini temsil eden bir Color nesnesini alır veya ayarlar C#'da.
 type: docs
-weight: 50
+weight: 40
 url: /tr/net/aspose.words.drawing/fill/color/
 ---
 ## Fill.Color property
@@ -14,11 +16,11 @@ Dolgunun ön plan rengini temsil eden bir Color nesnesini alır veya ayarlar.
 public Color Color { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik alfa bileşenini korur.Color , aksine[`ForeColor`](../forecolor/)tamamen opak renge sıfırlayan özellik.
 
-### Örnekler
+## Örnekler
 
 Herhangi bir dolgunun tekrar katı dolguya nasıl dönüştürüleceğini gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
 ### Ayrıca bakınız
 
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.ProgId
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDdeAuto propriété. Obtient ou définit le type dapplication des informations de lien.
+linktitle: ProgId
+articleTitle: ProgId
+second_title: Aspose.Words pour .NET
+description: FieldDdeAuto ProgId propriété. Obtient ou définit le type dapplication des informations de lien en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.fields/fieldddeauto/progid/
@@ -14,7 +16,7 @@ Obtient ou définit le type d'application des informations de lien.
 public string ProgId { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser différents types de champs pour créer des liens vers d’autres documents dans le système de fichiers local et afficher leur contenu.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Voir également
 
 * class [FieldDdeAuto](../)
-* espace de noms [Aspose.Words.Fields](../../fieldddeauto/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

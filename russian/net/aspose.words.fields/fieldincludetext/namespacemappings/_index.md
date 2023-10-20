@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.NamespaceMappings
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIncludeText свойство. Получает или задает сопоставления пространств имен для запросов XPath.
+linktitle: NamespaceMappings
+articleTitle: NamespaceMappings
+second_title: Aspose.Words для .NET
+description: FieldIncludeText NamespaceMappings свойство. Получает или задает сопоставления пространств имен для запросов XPath на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldincludetext/namespacemappings/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldincludetext/namespacemappings/
 public string NamespaceMappings { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле INCLUDETEXT и установить его свойства.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Смотрите также
 
 * class [FieldIncludeText](../)
-* пространство имен [Aspose.Words.Fields](../../fieldincludetext/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PreserveTabs
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToc ملكية. الحصول على أو تعيين ما إذا كان سيتم الاحتفاظ بإدخالات علامة التبويب ضمن إدخالات الجدول.
+linktitle: PreserveTabs
+articleTitle: PreserveTabs
+second_title: Aspose.Words لـ .NET
+description: FieldToc PreserveTabs ملكية. الحصول على أو تعيين ما إذا كان سيتم الاحتفاظ بإدخالات علامة التبويب ضمن إدخالات الجدول في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.fields/fieldtoc/preservetabs/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoc/preservetabs/
 public bool PreserveTabs { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج جدول محتويات، وتعبئته بالإدخالات بناءً على أنماط العناوين.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### أنظر أيضا
 
 * class [FieldToc](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

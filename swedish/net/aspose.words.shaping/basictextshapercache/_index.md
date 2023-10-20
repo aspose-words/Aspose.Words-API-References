@@ -1,7 +1,9 @@
 ---
-title: Class BasicTextShaperCache
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Shaping.BasicTextShaperCache klass. Implementerar grundläggande cache förITextShaper instanser. Den här klassen är trådsäker.
+title: BasicTextShaperCache Class
+linktitle: BasicTextShaperCache
+articleTitle: BasicTextShaperCache
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Shaping.BasicTextShaperCache klass. Implementerar grundläggande cache förITextShaper instanser. Den här klassen är trådsäker i C#.
 type: docs
 weight: 6000
 url: /sv/net/aspose.words.shaping/basictextshapercache/
@@ -18,7 +20,7 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 
 | namn | Beskrivning |
 | --- | --- |
-| [BasicTextShaperCache](basictextshapercache/)(ITextShaperFactory) | Wraps*factory* och cacher[`GetTextShaper`](../itextshaperfactory/gettextshaper/) resultat. |
+| [BasicTextShaperCache](basictextshapercache/)(*[ITextShaperFactory](../itextshaperfactory/)*) | Wraps*factory* och cacher[`GetTextShaper`](../itextshaperfactory/gettextshaper/) resultat. |
 
 ## Metoder
 
@@ -31,5 +33,3 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 * interface [ITextShaperFactory](../itextshaperfactory/)
 * namnutrymme [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * hopsättning [Aspose.Words](../../)
-
-

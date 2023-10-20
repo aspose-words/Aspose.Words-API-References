@@ -1,7 +1,9 @@
 ---
-title: Class FieldSeq
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldSeq classe. Implémente le champ SEQ.
+title: FieldSeq Class
+linktitle: FieldSeq
+articleTitle: FieldSeq
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldSeq classe. Implémente le champ SEQ en C#.
 type: docs
 weight: 2390
 url: /fr/net/aspose.words.fields/fieldseq/
@@ -47,17 +49,17 @@ public class FieldSeq : Field
 | Nom | La description |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
-### Remarques
+## Remarques
 
 Numérote séquentiellement les chapitres, tableaux, figures et autres listes d'éléments définies par l'utilisateur dans un document.
 
-### Exemples
+## Exemples
 
 Affiche la création d'une numérotation à l'aide des champs SEQ.
 
@@ -265,5 +267,3 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 * class [Field](../field/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

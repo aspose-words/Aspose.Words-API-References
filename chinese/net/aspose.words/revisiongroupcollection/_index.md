@@ -1,7 +1,9 @@
 ---
-title: Class RevisionGroupCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.RevisionGroupCollection 班级. 的集合RevisionGroup代表文档中修订组的对象
+title: RevisionGroupCollection Class
+linktitle: RevisionGroupCollection
+articleTitle: RevisionGroupCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.RevisionGroupCollection 班级. 的集合RevisionGroup代表文档中修订组的对象 在 C#.
 type: docs
 weight: 4790
 url: /zh/net/aspose.words/revisiongroupcollection/
@@ -29,11 +31,11 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 | --- | --- |
 | [GetEnumerator](../../aspose.words/revisiongroupcollection/getenumerator/)() | 返回一个枚举器对象。 |
 
-### 评论
+## 评论
 
 您不直接创建此类的实例。使用[`Groups`](../revisioncollection/groups/) 属性来获取文档中存在的修订组。
 
-### 例子
+## 例子
 
 演示如何获取文档中的一组修订。
 
@@ -62,5 +64,3 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 * class [RevisionGroup](../revisiongroup/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: ConditionalStyleCollection 财产. 检索ConditionalStyle按条件样式类型的对象.
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: ConditionalStyleCollection Item 财产. 检索ConditionalStyle按条件样式类型的对象 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/conditionalstylecollection/item/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/conditionalstylecollection/item/
 public ConditionalStyle this[ConditionalStyleType conditionalStyleType] { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用表格的某些区域样式。
 
@@ -86,7 +88,7 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 * class [ConditionalStyle](../../conditionalstyle/)
 * enum [ConditionalStyleType](../../conditionalstyletype/)
 * class [ConditionalStyleCollection](../)
-* 命名空间 [Aspose.Words](../../conditionalstylecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
@@ -103,7 +105,7 @@ public ConditionalStyle this[int index] { get; }
 | --- | --- |
 | index | 要检索的条件样式的从零开始的索引。 |
 
-### 例子
+## 例子
 
 展示如何使用表格的某些区域样式。
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* 命名空间 [Aspose.Words](../../conditionalstylecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

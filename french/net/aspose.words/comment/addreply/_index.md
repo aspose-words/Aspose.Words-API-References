@@ -1,9 +1,11 @@
 ---
 title: Comment.AddReply
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Comment méthode. Ajoute une réponse à ce commentaire.
+linktitle: AddReply
+articleTitle: AddReply
+second_title: Aspose.Words pour .NET
+description: Comment AddReply méthode. Ajoute une réponse à ce commentaire en C#.
 type: docs
-weight: 150
+weight: 120
 url: /fr/net/aspose.words/comment/addreply/
 ---
 ## Comment.AddReply method
@@ -25,11 +27,11 @@ public Comment AddReply(string author, string initial, DateTime dateTime, string
 
 Le créé[`Comment`](../) nœud pour la réponse.
 
-### Remarques
+## Remarques
 
 En raison des limitations existantes de MS Office, seul 1 niveau de réponses est autorisé dans le document. Une exception de typeInvalidOperationException sera déclenché si cette méthode est appelée sur le commentaire de réponse existant.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter un commentaire à un document, puis y répondre.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 ### Voir également
 
 * class [Comment](../)
-* espace de noms [Aspose.Words](../../comment/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

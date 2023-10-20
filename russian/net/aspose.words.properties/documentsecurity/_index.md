@@ -1,7 +1,9 @@
 ---
-title: Enum DocumentSecurity
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Properties.DocumentSecurity перечисление. Используется как значение дляSecurity property. Указывает уровень безопасности документа в виде числового значения.
+title: DocumentSecurity Enum
+linktitle: DocumentSecurity
+articleTitle: DocumentSecurity
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Properties.DocumentSecurity перечисление. Используется как значение дляSecurity property. Указывает уровень безопасности документа в виде числового значения на С#.
 type: docs
 weight: 4490
 url: /ru/net/aspose.words.properties/documentsecurity/
@@ -25,7 +27,7 @@ public enum DocumentSecurity
 | ReadOnlyEnforced | `4` | Документ, который всегда будет открыт только для чтения. |
 | ReadOnlyExceptAnnotations | `8` | Документ, который всегда открывается только для чтения, за исключением аннотаций. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать свойства документа для отображения уровня безопасности документа.
 
@@ -71,5 +73,3 @@ Assert.AreEqual(DocumentSecurity.ReadOnlyExceptAnnotations,
 
 * пространство имен [Aspose.Words.Properties](../../aspose.words.properties/)
 * сборка [Aspose.Words](../../)
-
-

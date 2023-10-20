@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageHeight
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Sayfanın yüksekliğini nokta cinsinden döndürür veya ayarlar.
+linktitle: PageHeight
+articleTitle: PageHeight
+second_title: Aspose.Words for .NET
+description: PageSetup PageHeight mülk. Sayfanın yüksekliğini nokta cinsinden döndürür veya ayarlar C#'da.
 type: docs
 weight: 310
 url: /tr/net/aspose.words/pagesetup/pageheight/
@@ -14,7 +16,7 @@ Sayfanın yüksekliğini nokta cinsinden döndürür veya ayarlar.
 public double PageHeight { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir görüntünün nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

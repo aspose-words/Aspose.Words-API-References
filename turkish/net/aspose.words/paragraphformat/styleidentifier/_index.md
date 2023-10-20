@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.StyleIdentifier
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Bu biçimlendirmeye uygulanan paragraf stilinin yerel ayardan bağımsız stil tanımlayıcısını alır veya ayarlar.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words for .NET
+description: ParagraphFormat StyleIdentifier mülk. Bu biçimlendirmeye uygulanan paragraf stilinin yerel ayardan bağımsız stil tanımlayıcısını alır veya ayarlar C#'da.
 type: docs
 weight: 350
 url: /tr/net/aspose.words/paragraphformat/styleidentifier/
@@ -14,7 +16,7 @@ Bu biçimlendirmeye uygulanan paragraf stilinin yerel ayardan bağımsız stil t
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Giriş olarak başlık stillerini kullanarak bir belgeye içindekiler tablosunun (TOC) nasıl ekleneceğini gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Name
-second_title: Aspose.Words för .NET API Referens
-description: UserInformation fast egendom. Hämtar eller ställer in användarens namn.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words för .NET
+description: UserInformation Name fast egendom. Hämtar eller ställer in användarens namn i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/userinformation/name/
@@ -14,7 +16,7 @@ Hämtar eller ställer in användarens namn.
 public string Name { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in användarinformation och visar dem med hjälp av fält.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Se även
 
 * class [UserInformation](../)
-* namnutrymme [Aspose.Words.Fields](../../userinformation/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

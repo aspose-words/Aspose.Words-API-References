@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.ErrorCorrectionLevel
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDisplayBarcode mülk. QR Kodunun hata düzeltme düzeyini alır veya ayarlar. Geçerli değerler şunlardır 0 3.
+linktitle: ErrorCorrectionLevel
+articleTitle: ErrorCorrectionLevel
+second_title: Aspose.Words for .NET
+description: FieldDisplayBarcode ErrorCorrectionLevel mülk. QR Kodunun hata düzeltme düzeyini alır veya ayarlar. Geçerli değerler şunlardır 0 3 C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/fielddisplaybarcode/errorcorrectionlevel/
@@ -14,7 +16,7 @@ QR Kodunun hata düzeltme düzeyini alır veya ayarlar. Geçerli değerler şunl
 public string ErrorCorrectionLevel { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 DISPLAYBARCODE alanının nasıl ekleneceğini ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDisplayBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

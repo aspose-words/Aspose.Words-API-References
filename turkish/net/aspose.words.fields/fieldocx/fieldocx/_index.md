@@ -1,7 +1,9 @@
 ---
-title: FieldOcx.FieldOcx
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOcx inşaatçı. Default_Constructor
+title: FieldOcx
+linktitle: FieldOcx
+articleTitle: FieldOcx
+second_title: Aspose.Words for .NET
+description: FieldOcx inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldocx/fieldocx/
@@ -17,7 +19,5 @@ public FieldOcx()
 ### Ayrıca bakınız
 
 * class [FieldOcx](../)
-* ad alanı [Aspose.Words.Fields](../../fieldocx/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

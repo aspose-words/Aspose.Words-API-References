@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EncryptionDetails
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على أو تعيين تفاصيل تشفير مستند PDF الناتج.
+linktitle: EncryptionDetails
+articleTitle: EncryptionDetails
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions EncryptionDetails ملكية. الحصول على أو تعيين تفاصيل تشفير مستند PDF الناتج في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
 public PdfEncryptionDetails EncryptionDetails { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`باطل` ولن يتم تشفير مستند الإخراج. عندما يتم تعيين هذه الخاصية إلى صالحة[`PdfEncryptionDetails`](../../pdfencryptiondetails/) object, ثم سيتم تشفير مستند PDF الناتج.
 
@@ -26,7 +28,7 @@ ContentCopyForAccessibility مطلوب إذن من خلال الامتثال ل�
 
 ContentCopyForAccessibility تم إهمال الإذن بتنسيق PDF 2.0. سيتم تجاهل هذا الإذن عند الحفظ في PDF 2.0.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الأذونات على مستند PDF محفوظ.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * class [PdfEncryptionDetails](../../pdfencryptiondetails/)
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Hyperlink
-second_title: Aspose.Words für .NET-API-Referenz
-description: ThemeColors eigendom. Gibt die Farbe für einen Hyperlink an.
+linktitle: Hyperlink
+articleTitle: Hyperlink
+second_title: Aspose.Words für .NET
+description: ThemeColors Hyperlink eigendom. Gibt die Farbe für einen Hyperlink an in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.themes/themecolors/hyperlink/
@@ -14,7 +16,7 @@ Gibt die Farbe für einen Hyperlink an.
 public Color Hyperlink { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Farben und Schriftarten für Designs festlegen.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Siehe auch
 
 * class [ThemeColors](../)
-* namensraum [Aspose.Words.Themes](../../themecolors/)
+* namensraum [Aspose.Words.Themes](../../../aspose.words.themes/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageInfo.SizeInPoints
-second_title: Aspose.Words för .NET API Referens
-description: PageInfo fast egendom. Får sidstorleken i poäng.
+linktitle: SizeInPoints
+articleTitle: SizeInPoints
+second_title: Aspose.Words för .NET
+description: PageInfo SizeInPoints fast egendom. Får sidstorleken i poäng i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.rendering/pageinfo/sizeinpoints/
@@ -14,7 +16,7 @@ Får sidstorleken i poäng.
 public SizeF SizeInPoints { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut information om sidstorlek och orientering för varje sida i ett Word-dokument.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Se även
 
 * class [PageInfo](../)
-* namnutrymme [Aspose.Words.Rendering](../../pageinfo/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

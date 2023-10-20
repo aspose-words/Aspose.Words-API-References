@@ -1,7 +1,9 @@
 ---
-title: Class FieldSkipIf
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldSkipIf сорт. Реализует поле SKIPIF.
+title: FieldSkipIf Class
+linktitle: FieldSkipIf
+articleTitle: FieldSkipIf
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldSkipIf сорт. Реализует поле SKIPIF на С#.
 type: docs
 weight: 2420
 url: /ru/net/aspose.words.fields/fieldskipif/
@@ -45,17 +47,17 @@ public class FieldSkipIf : Field
 | Имя | Описание |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
-### Примечания
+## Примечания
 
 Сравнивает значения, указанные в выражениях.[`LeftExpression`](./leftexpression/) и[`RightExpression`](./rightexpression/) в сравнении с использованием оператора, обозначенного[`ComparisonOperator`](./comparisonoperator/) . Если сравнение истинно, SKIPIF отменяет текущий документ слияния, переходит к следующей записи данных в источнике данных и запускает новый документ слияния. Если сравнение ложно, текущий документ слияния продолжается.
 
-### Примеры
+## Примеры
 
 Показывает, как пропускать страницы при слиянии писем с помощью поля SKIPIF.
 
@@ -150,5 +152,3 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

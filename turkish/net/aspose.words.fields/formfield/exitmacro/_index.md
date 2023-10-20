@@ -1,7 +1,9 @@
 ---
 title: FormField.ExitMacro
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Form alanı için bir çıkış makrosu adı döndürür veya ayarlar.
+linktitle: ExitMacro
+articleTitle: ExitMacro
+second_title: Aspose.Words for .NET
+description: FormField ExitMacro mülk. Form alanı için bir çıkış makrosu adı döndürür veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.fields/formfield/exitmacro/
@@ -14,13 +16,13 @@ Form alanı için bir çıkış makrosu adı döndürür veya ayarlar.
 public string ExitMacro { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Çıkış makrosu, Microsoft Word'deki form alanı odağı kaybettiğinde çalışır.
 
 Microsoft Word, en fazla 32 karakterden oluşan dizelere izin verir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

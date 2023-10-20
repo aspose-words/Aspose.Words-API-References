@@ -1,7 +1,9 @@
 ---
 title: FieldInclude.SourceFullName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldInclude mülk. Belgenin konumunu alır veya ayarlar.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words for .NET
+description: FieldInclude SourceFullName mülk. Belgenin konumunu alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldinclude/sourcefullname/
@@ -14,7 +16,7 @@ Belgenin konumunu alır veya ayarlar.
 public string SourceFullName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 INCLUDE alanının nasıl oluşturulacağını ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### Ayrıca bakınız
 
 * class [FieldInclude](../)
-* ad alanı [Aspose.Words.Fields](../../fieldinclude/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

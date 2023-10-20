@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.RemoveAt
-second_title: Aspose.Words für .NET-API-Referenz
-description: BookmarkCollection methode. Entfernt ein Lesezeichen am angegebenen Index.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words für .NET
+description: BookmarkCollection RemoveAt methode. Entfernt ein Lesezeichen am angegebenen Index in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/bookmarkcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Der nullbasierte Index des zu entfernenden Lesezeichens. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Lesezeichen aus einem Dokument entfernt werden.
 
@@ -79,7 +81,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Siehe auch
 
 * class [BookmarkCollection](../)
-* namensraum [Aspose.Words](../../bookmarkcollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

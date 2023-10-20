@@ -1,9 +1,11 @@
 ---
 title: Document.UpdatePageLayout
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document método. Reconstruye el diseño de página del documento.
+linktitle: UpdatePageLayout
+articleTitle: UpdatePageLayout
+second_title: Aspose.Words para .NET
+description: Document UpdatePageLayout método. Reconstruye el diseño de página del documento en C#.
 type: docs
-weight: 790
+weight: 770
 url: /es/net/aspose.words/document/updatepagelayout/
 ---
 ## Document.UpdatePageLayout method
@@ -14,13 +16,13 @@ Reconstruye el diseño de página del documento.
 public void UpdatePageLayout()
 ```
 
-### Observaciones
+## Observaciones
 
 Este método formatea un documento en páginas y actualiza los campos relacionados con el número de página en el documento, como PAGE, PAGES, PAGEREF y REF. Se requiere información de diseño de página actualizada para una representación correcta del document en formatos de página fija.
 
 Este método se invoca automáticamente cuando convierte por primera vez un documento a PDF, XPS, imagen o lo imprime. Sin embargo, si modifica el documento después de renderizarlo y luego intenta renderizarlo nuevamente, Aspose.Words no actualizará el diseño de la página automáticamente. En este caso deberías llamar`UpdatePageLayout` before renderizando nuevamente.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cuándo volver a calcular el diseño de página del documento.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 ### Ver también
 
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: BorderCollection fast egendom. Hämtar enBorder objekt efter kanttyp.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: BorderCollection Item fast egendom. Hämtar enBorder objekt efter kanttyp i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/bordercollection/item/
@@ -18,11 +20,11 @@ public Border this[BorderType borderType] { get; }
 | --- | --- |
 | borderType | A[`BorderType`](../../bordertype/) värde som anger vilken typ av gräns som ska hämtas. |
 
-### Anmärkningar
+## Anmärkningar
 
 Observera att inte alla gränser finns för olika dokumentelement. Denna metod ger ett undantag om du begär en gräns som inte är tillämplig på det aktuella objektet.
 
-### Exempel
+## Exempel
 
 Visar hur man dekorerar text med kanter och skuggningar.
 
@@ -51,7 +53,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 * class [Border](../../border/)
 * enum [BorderType](../../bordertype/)
 * class [BorderCollection](../)
-* namnutrymme [Aspose.Words](../../bordercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -68,7 +70,7 @@ public Border this[int index] { get; }
 | --- | --- |
 | index | Nollbaserat index för gränsen att hämta. |
 
-### Exempel
+## Exempel
 
 Visar hur gränssamlingar kan dela element.
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* namnutrymme [Aspose.Words](../../bordercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

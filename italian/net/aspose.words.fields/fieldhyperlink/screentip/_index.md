@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.ScreenTip
-second_title: Aspose.Words per .NET API Reference
-description: FieldHyperlink proprietà. Ottiene o imposta il testo della descrizione comando per il collegamento ipertestuale.
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: Aspose.Words per .NET
+description: FieldHyperlink ScreenTip proprietà. Ottiene o imposta il testo della descrizione comando per il collegamento ipertestuale in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldhyperlink/screentip/
@@ -14,7 +16,7 @@ Ottiene o imposta il testo della descrizione comando per il collegamento ipertes
 public string ScreenTip { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i campi HYPERLINK per collegarsi ai documenti nel file system locale.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Guarda anche
 
 * class [FieldHyperlink](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldhyperlink/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

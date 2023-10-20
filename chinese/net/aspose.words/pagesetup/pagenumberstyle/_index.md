@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageNumberStyle
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 获取或设置页码格式
+linktitle: PageNumberStyle
+articleTitle: PageNumberStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup PageNumberStyle 财产. 获取或设置页码格式 在 C#.
 type: docs
 weight: 320
 url: /zh/net/aspose.words/pagesetup/pagenumberstyle/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/pagenumberstyle/
 public NumberStyle PageNumberStyle { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何在节中设置页码。
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 * enum [NumberStyle](../../numberstyle/)
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

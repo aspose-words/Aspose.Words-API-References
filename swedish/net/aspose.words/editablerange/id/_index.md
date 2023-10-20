@@ -1,7 +1,9 @@
 ---
 title: EditableRange.Id
-second_title: Aspose.Words för .NET API Referens
-description: EditableRange fast egendom. Hämtar den redigerbara intervallidentifieraren.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words för .NET
+description: EditableRange Id fast egendom. Hämtar den redigerbara intervallidentifieraren i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/editablerange/id/
@@ -14,13 +16,13 @@ Hämtar den redigerbara intervallidentifieraren.
 public int Id { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Regionen måste avgränsas med hjälp av[`EditableRangeStart`](../editablerangestart/) och[`EditableRangeEnd`](../editablerangeend/)
 
 Redigerbara intervallidentifierare ska vara unika i ett dokument och Aspose.Words bibehåller automatiskt redigerbara intervallidentifierare när dokument laddas, sparas och kombineras.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett redigerbart område.
 
@@ -66,7 +68,5 @@ editableRange.Remove();
 ### Se även
 
 * class [EditableRange](../)
-* namnutrymme [Aspose.Words](../../editablerange/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

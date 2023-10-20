@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.ContentsFont
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Formatage de police qui sera appliqué au texte saisi dans TSD .
+linktitle: ContentsFont
+articleTitle: ContentsFont
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag ContentsFont propriété. Formatage de police qui sera appliqué au texte saisi dansTSD  en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.markup/structureddocumenttag/contentsfont/
 ---
 ## StructuredDocumentTag.ContentsFont property
 
-Formatage de police qui sera appliqué au texte saisi dans **TSD** .
+Formatage de police qui sera appliqué au texte saisi dans**TSD** .
 
 ```csharp
 public Font ContentsFont { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une balise de document structuré dans une zone de texte brut et modifier son apparence.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

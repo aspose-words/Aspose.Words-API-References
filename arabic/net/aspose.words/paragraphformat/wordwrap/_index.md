@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.WordWrap
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. إذا كانت هذه الخاصيةخطأ شنيع  يمكن تغليف النص اللاتيني الموجود في منتصف الكلمة بـ الفقرة الحالية. وإلا فسيتم تغليف النص اللاتيني بكلمات كاملة.
+linktitle: WordWrap
+articleTitle: WordWrap
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat WordWrap ملكية. إذا كانت هذه الخاصيةخطأ شنيع  يمكن تغليف النص اللاتيني الموجود في منتصف الكلمة بـ الفقرة الحالية. وإلا فسيتم تغليف النص اللاتيني بكلمات كاملة في C#.
 type: docs
 weight: 410
 url: /ar/net/aspose.words/paragraphformat/wordwrap/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/wordwrap/
 public bool WordWrap { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين خصائص خاصة للطباعة الآسيوية.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

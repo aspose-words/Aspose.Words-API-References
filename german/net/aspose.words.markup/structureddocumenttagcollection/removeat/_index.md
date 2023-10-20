@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.RemoveAt
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagCollection methode. Entfernt ein strukturiertes DokumentTag am angegebenen Index.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTagCollection RemoveAt methode. Entfernt ein strukturiertes DokumentTag am angegebenen Index in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.markup/structureddocumenttagcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Ein Index in die Sammlung. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man strukturierte Dokument-Tags entfernt.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(3, structuredDocumentTags.Count);
 ### Siehe auch
 
 * class [StructuredDocumentTagCollection](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Template
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuiltInDocumentProperties propiedad. Obtiene o establece el nombre informativo de la plantilla del documento.
+linktitle: Template
+articleTitle: Template
+second_title: Aspose.Words para .NET
+description: BuiltInDocumentProperties Template propiedad. Obtiene o establece el nombre informativo de la plantilla del documento en C#.
 type: docs
 weight: 270
 url: /es/net/aspose.words.properties/builtindocumentproperties/template/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre informativo de la plantilla del documento.
 public string Template { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 En Microsoft Word, esta propiedad tiene solo fines informativos y generalmente contiene solo el nombre del archivo de la plantilla sin la ruta.
 
@@ -22,7 +24,7 @@ Cadena vacía significa que el documento está adjunto a la plantilla Normal.
 
 Para obtener o establecer el nombre real de la plantilla adjunta, utilice the [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de documentos en la categoría "Origen".
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Ver también
 
 * class [BuiltInDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

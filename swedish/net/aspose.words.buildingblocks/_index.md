@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.BuildingBlocks
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Building Blocks namnområdet tillhandahåller klasser som gör det möjligt att komma åt och använda autotext autokorrigeringsposter och byggblock i ett dokument.
+linktitle: Aspose.Words.BuildingBlocks
+articleTitle: Aspose.Words.BuildingBlocks
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.Building Blocks namnområdet tillhandahåller klasser som gör det möjligt att komma åt och använda autotext autokorrigeringsposter och byggblock i ett dokument i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.buildingblocks/
 ---
-De **Aspose.Words.Building Blocks** namnområdet tillhandahåller klasser som gör det möjligt att komma åt och använda autotext, autokorrigeringsposter och byggblock i ett dokument.
+De**Aspose.Words.Building Blocks** namnområdet tillhandahåller klasser som gör det möjligt att komma åt och använda autotext, autokorrigeringsposter och byggblock i ett dokument.
 
 ## Klasser
 
@@ -22,5 +24,3 @@ De **Aspose.Words.Building Blocks** namnområdet tillhandahåller klasser som g�
 | [BuildingBlockBehavior](./buildingblockbehavior/) | Anger beteendet som ska tillämpas på innehållet i byggblocket när det infogas i huvuddokumentet. |
 | [BuildingBlockGallery](./buildingblockgallery/) | Anger det fördefinierade galleriet som ett byggblock klassificeras i. |
 | [BuildingBlockType](./buildingblocktype/) | Anger en byggblockstyp. Typen kan påverka synligheten och beteendet för byggstenen i Microsoft Word. |
-
-

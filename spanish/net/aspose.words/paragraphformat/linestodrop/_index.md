@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LinesToDrop
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene o establece el número de líneas del texto del párrafo utilizado para calcular la altura de la letra capitular.
+linktitle: LinesToDrop
+articleTitle: LinesToDrop
+second_title: Aspose.Words para .NET
+description: ParagraphFormat LinesToDrop propiedad. Obtiene o establece el número de líneas del texto del párrafo utilizado para calcular la altura de la letra capitular en C#.
 type: docs
 weight: 210
 url: /es/net/aspose.words/paragraphformat/linestodrop/
@@ -14,7 +16,7 @@ Obtiene o establece el número de líneas del texto del párrafo utilizado para 
 public int LinesToDrop { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer el tamaño de una letra capitular.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LinesToDrop.odt");
 ### Ver también
 
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

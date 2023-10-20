@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.OriginalFileName
-second_title: Aspose.Words per .NET API Reference
-description: FontSavingArgs proprietà. Ottiene il nome del file del carattere originale con unestensione.
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: Aspose.Words per .NET
+description: FontSavingArgs OriginalFileName proprietà. Ottiene il nome del file del carattere originale con unestensione in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.saving/fontsavingargs/originalfilename/
@@ -14,11 +16,11 @@ Ottiene il nome del file del carattere originale con un'estensione.
 public string OriginalFileName { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà contiene il nome del file originale del carattere corrente, se noto. Altrimenti può essere una stringa vuota.
 
-### Esempi
+## Esempi
 
 Mostra come definire la logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Guarda anche
 
 * class [FontSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../fontsavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

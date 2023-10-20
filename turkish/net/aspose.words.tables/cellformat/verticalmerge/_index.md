@@ -1,9 +1,11 @@
 ---
 title: CellFormat.VerticalMerge
-second_title: Aspose.Words for .NET API Referansı
-description: CellFormat mülk. Hücrenin diğer hücrelerle dikey olarak nasıl birleştirileceğini belirtir.
+linktitle: VerticalMerge
+articleTitle: VerticalMerge
+second_title: Aspose.Words for .NET
+description: CellFormat VerticalMerge mülk. Hücrenin diğer hücrelerle dikey olarak nasıl birleştirileceğini belirtir C#'da.
 type: docs
-weight: 130
+weight: 120
 url: /tr/net/aspose.words.tables/cellformat/verticalmerge/
 ---
 ## CellFormat.VerticalMerge property
@@ -14,13 +16,13 @@ Hücrenin diğer hücrelerle dikey olarak nasıl birleştirileceğini belirtir.
 public CellMerge VerticalMerge { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Hücreler yalnızca sol ve sağ sınırları aynıysa dikey olarak birleştirilebilir.
 
 Hücreler dikey olarak birleştirildiğinde, birleştirilen hücrelerin görüntüleme alanları birleştirilir. Birleştirilmiş alan, dikey olarak birleştirilen ilk hücrenin içeriğini görüntülemek için kullanılır ve dikey olarak birleştirilen diğer tüm hücrelerin boş olması gerekir.
 
-### Örnekler
+## Örnekler
 
 Bir hücrenin yatay ve dikey birleştirme türünü yazdırır.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 
 * enum [CellMerge](../../cellmerge/)
 * class [CellFormat](../)
-* ad alanı [Aspose.Words.Tables](../../cellformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

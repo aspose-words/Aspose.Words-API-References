@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.AxisBetweenCategories
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Hämtar eller sätter en flagga som indikerar om värdeaxeln korsar kategoriaxeln mellan kategorier.
+linktitle: AxisBetweenCategories
+articleTitle: AxisBetweenCategories
+second_title: Aspose.Words för .NET
+description: ChartAxis AxisBetweenCategories fast egendom. Hämtar eller sätter en flagga som indikerar om värdeaxeln korsar kategoriaxeln mellan kategorier i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
@@ -14,11 +16,11 @@ Hämtar eller sätter en flagga som indikerar om värdeaxeln korsar kategoriaxel
 public bool AxisBetweenCategories { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Egenskapen har effekt endast för värdeaxlar. Det stöds inte av MS Office 2016 nya diagram.
 
-### Exempel
+## Exempel
 
 Visar hur man får en grafaxel att korsa på en anpassad plats.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCross.docx");
 ### Se även
 
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

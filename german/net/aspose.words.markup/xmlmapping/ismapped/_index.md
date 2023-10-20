@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.IsMapped
-second_title: Aspose.Words für .NET-API-Referenz
-description: XmlMapping eigendom. Gibt zurückWAHR wenn das Tag des übergeordneten strukturierten Dokuments erfolgreich XMLDaten zugeordnet wurde.
+linktitle: IsMapped
+articleTitle: IsMapped
+second_title: Aspose.Words für .NET
+description: XmlMapping IsMapped eigendom. Gibt zurückWAHR wenn das Tag des übergeordneten strukturierten Dokuments erfolgreich XMLDaten zugeordnet wurde in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.markup/xmlmapping/ismapped/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn das Tag des übergeordneten strukturierten Dokuments erf
 public bool IsMapped { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie XML-Zuordnungen für benutzerdefinierte XML-Teile festgelegt werden.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Siehe auch
 
 * class [XmlMapping](../)
-* namensraum [Aspose.Words.Markup](../../xmlmapping/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: VbaExecutableAttribute.VbaExecutableAttribute
-second_title: Referencia de API de Aspose.Words para .NET
-description: VbaExecutableAttribute constructor. Constructor predeterminado
+title: VbaExecutableAttribute
+linktitle: VbaExecutableAttribute
+articleTitle: VbaExecutableAttribute
+second_title: Aspose.Words para .NET
+description: VbaExecutableAttribute constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.vba/vbaexecutableattribute/vbaexecutableattribute/
@@ -17,7 +19,5 @@ public VbaExecutableAttribute()
 ### Ver también
 
 * class [VbaExecutableAttribute](../)
-* espacio de nombres [Aspose.Words.Vba](../../vbaexecutableattribute/)
+* espacio de nombres [Aspose.Words.Vba](../../../aspose.words.vba/)
 * asamblea [Aspose.Words](../../../)
-
-

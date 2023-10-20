@@ -1,7 +1,9 @@
 ---
-title: Enum OdsoFieldMappingType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.OdsoFieldMappingType Sıralama. Belirli bir adresmektup birleştirme alanının belirtilen dış veri kaynağındaki bir sütunla eşlenip eşlenmediğini belirtmek için kullanılan olası türleri belirtir.
+title: OdsoFieldMappingType Enum
+linktitle: OdsoFieldMappingType
+articleTitle: OdsoFieldMappingType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.OdsoFieldMappingType Sıralama. Belirli bir adresmektup birleştirme alanının belirtilen dış veri kaynağındaki bir sütunla eşlenip eşlenmediğini belirtmek için kullanılan olası türleri belirtir C#'da.
 type: docs
 weight: 5920
 url: /tr/net/aspose.words.settings/odsofieldmappingtype/
@@ -22,7 +24,7 @@ public enum OdsoFieldMappingType
 | Null | `1` | Adres-mektup birleştirme alanının, belirtilen harici veri kaynağındaki bir sütunla eşlenmediğini belirtir. |
 | Default | `1` | Şuna eşittir:Null . |
 
-### Örnekler
+## Örnekler
 
 Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * property [Type](../odsofieldmapdata/type/)
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.SourceItem
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDdeAuto mülk. Kaynak dosyanın bağlanılan kısmını alır veya ayarlar.
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: Aspose.Words for .NET
+description: FieldDdeAuto SourceItem mülk. Kaynak dosyanın bağlanılan kısmını alır veya ayarlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.fields/fieldddeauto/sourceitem/
@@ -14,7 +16,7 @@ Kaynak dosyanın bağlanılan kısmını alır veya ayarlar.
 public string SourceItem { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntülemek için çeşitli alan türlerinin nasıl kullanılacağını gösterir.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ayrıca bakınız
 
 * class [FieldDdeAuto](../)
-* ad alanı [Aspose.Words.Fields](../../fieldddeauto/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

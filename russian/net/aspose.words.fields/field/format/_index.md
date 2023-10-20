@@ -1,7 +1,9 @@
 ---
 title: Field.Format
-second_title: Справочник по API Aspose.Words для .NET
-description: Field свойство. ПолучаетFieldFormat объект обеспечивающий типизированный доступ к форматированию поля.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words для .NET
+description: Field Format свойство. ПолучаетFieldFormat объект обеспечивающий типизированный доступ к форматированию поля на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/field/format/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/field/format/
 public FieldFormat Format { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать результаты полей.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * class [FieldFormat](../../fieldformat/)
 * class [Field](../)
-* пространство имен [Aspose.Words.Fields](../../field/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.DoNotDisplayPageBoundaries
-second_title: Aspose.Words für .NET-API-Referenz
-description: ViewOptions eigendom. Deaktiviert die Anzeige des Abstands zwischen dem oberen Rand des Textes und dem oberen Rand der Seite.
+linktitle: DoNotDisplayPageBoundaries
+articleTitle: DoNotDisplayPageBoundaries
+second_title: Aspose.Words für .NET
+description: ViewOptions DoNotDisplayPageBoundaries eigendom. Deaktiviert die Anzeige des Abstands zwischen dem oberen Rand des Textes und dem oberen Rand der Seite in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.settings/viewoptions/donotdisplaypageboundaries/
@@ -14,7 +16,7 @@ Deaktiviert die Anzeige des Abstands zwischen dem oberen Rand des Textes und dem
 public bool DoNotDisplayPageBoundaries { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie vertikale Leerzeichen und Kopf-/Fußzeilen in den Ansichtsoptionen ausgeblendet werden.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "ViewOptions.DisplayPageBoundaries.doc");
 ### Siehe auch
 
 * class [ViewOptions](../)
-* namensraum [Aspose.Words.Settings](../../viewoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

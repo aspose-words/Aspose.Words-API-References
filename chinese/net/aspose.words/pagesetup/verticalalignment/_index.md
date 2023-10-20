@@ -1,7 +1,9 @@
 ---
 title: PageSetup.VerticalAlignment
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 返回或设置文档或节中每个页面上文本的垂直对齐方式
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup VerticalAlignment 财产. 返回或设置文档或节中每个页面上文本的垂直对齐方式 在 C#.
 type: docs
 weight: 450
 url: /zh/net/aspose.words/pagesetup/verticalalignment/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/verticalalignment/
 public PageVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将页面设置设置应用和恢复到文档中的各个部分。
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * enum [PageVerticalAlignment](../../pageverticalalignment/)
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

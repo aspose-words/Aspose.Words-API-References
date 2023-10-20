@@ -1,12 +1,14 @@
 ---
 title: Hyphenation.RegisterDictionary
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Hyphenation méthode. Enregistre et charge un dictionnaire de césure pour la langue spécifiée à partir dun flux. Lance si le dictionnaire ne peut pas être lu ou a un format non valide.
+linktitle: RegisterDictionary
+articleTitle: RegisterDictionary
+second_title: Aspose.Words pour .NET
+description: Hyphenation RegisterDictionary méthode. Enregistre et charge un dictionnaire de césure pour la langue spécifiée à partir dun flux. Lance si le dictionnaire ne peut pas être lu ou a un format non valide en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/hyphenation/registerdictionary/
 ---
-## RegisterDictionary(string, Stream) {#registerdictionary}
+## RegisterDictionary(*string, Stream*) {#registerdictionary}
 
 Enregistre et charge un dictionnaire de césure pour la langue spécifiée à partir d'un flux. Lance si le dictionnaire ne peut pas être lu ou a un format non valide.
 
@@ -19,7 +21,7 @@ public static void RegisterDictionary(string language, Stream stream)
 | language | String | Un nom de langue, par exemple "en-US". Consultez la documentation .NET pour le « nom de la culture » et la RFC 4646 pour plus de détails. |
 | stream | Stream | Un flux pour le fichier dictionnaire au format OpenOffice. |
 
-### Exemples
+## Exemples
 
 Montre comment ouvrir et enregistrer un dictionnaire à partir d’un fichier.
 
@@ -95,12 +97,12 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### Voir également
 
 * class [Hyphenation](../)
-* espace de noms [Aspose.Words](../../hyphenation/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## RegisterDictionary(string, string) {#registerdictionary_1}
+## RegisterDictionary(*string, string*) {#registerdictionary_1}
 
 Enregistre et charge un dictionnaire de césure pour la langue spécifiée à partir du fichier. Lance si le dictionnaire ne peut pas être lu ou a un format non valide.
 
@@ -115,7 +117,7 @@ public static void RegisterDictionary(string language, string fileName)
 | language | String | Un nom de langue, par exemple "en-US". Consultez la documentation .NET pour le « nom de la culture » et la RFC 4646 pour plus de détails. |
 | fileName | String | Un chemin d'accès au fichier de dictionnaire au format Open Office. |
 
-### Exemples
+## Exemples
 
 Montre comment enregistrer un dictionnaire de césure.
 
@@ -223,7 +225,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 ### Voir également
 
 * class [Hyphenation](../)
-* espace de noms [Aspose.Words](../../hyphenation/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

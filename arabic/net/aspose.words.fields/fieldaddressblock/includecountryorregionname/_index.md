@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.IncludeCountryOrRegionName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAddressBlock ملكية. الحصول على أو تحديد ما إذا كان سيتم تضمين اسم البلد/المنطقة أم لا.
+linktitle: IncludeCountryOrRegionName
+articleTitle: IncludeCountryOrRegionName
+second_title: Aspose.Words لـ .NET
+description: FieldAddressBlock IncludeCountryOrRegionName ملكية. الحصول على أو تحديد ما إذا كان سيتم تضمين اسم البلد/المنطقة أم لا في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldaddressblock/includecountryorregionname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldaddressblock/includecountryorregionname/
 public string IncludeCountryOrRegionName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل ADDRESSBLOCK.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### أنظر أيضا
 
 * class [FieldAddressBlock](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldaddressblock/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.ValueType
-second_title: Aspose.Words for .NET API Referansı
-description: ChartXValue mülk. Nesnede saklanan X değerinin türünü alır.
+linktitle: ValueType
+articleTitle: ValueType
+second_title: Aspose.Words for .NET
+description: ChartXValue ValueType mülk. Nesnede saklanan X değerinin türünü alır C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.drawing.charts/chartxvalue/valuetype/
@@ -18,7 +20,5 @@ public ChartXValueType ValueType { get; }
 
 * enum [ChartXValueType](../../chartxvaluetype/)
 * class [ChartXValue](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSize.WidthPoints
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSize eigendom. Ermittelt die Breite des Bildes in Punkten. 1 Punkt ist 1/72 Zoll.
+linktitle: WidthPoints
+articleTitle: WidthPoints
+second_title: Aspose.Words für .NET
+description: ImageSize WidthPoints eigendom. Ermittelt die Breite des Bildes in Punkten. 1 Punkt ist 1/72 Zoll in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing/imagesize/widthpoints/
@@ -14,7 +16,7 @@ Ermittelt die Breite des Bildes in Punkten. 1 Punkt ist 1/72 Zoll.
 public double WidthPoints { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Größe einer Form mit einem Bild geändert wird.
 
@@ -71,7 +73,5 @@ Zeigt, wie die Größe einer Form mit einem Bild geändert wird.
 ### Siehe auch
 
 * class [ImageSize](../)
-* namensraum [Aspose.Words.Drawing](../../imagesize/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

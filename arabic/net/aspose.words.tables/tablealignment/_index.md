@@ -1,7 +1,9 @@
 ---
-title: Enum TableAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Tables.TableAlignment تعداد. تحديد المحاذاة للجدول المضمن.
+title: TableAlignment Enum
+linktitle: TableAlignment
+articleTitle: TableAlignment
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Tables.TableAlignment تعداد. تحديد المحاذاة للجدول المضمن في C#.
 type: docs
 weight: 6350
 url: /ar/net/aspose.words.tables/tablealignment/
@@ -22,7 +24,7 @@ public enum TableAlignment
 | Center | `1` | الجدول في المنتصف. |
 | Right | `2` | تمت محاذاة الجدول إلى اليمين. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق حدود المخطط التفصيلي على جدول.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * مساحة الاسم [Aspose.Words.Tables](../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../)
-
-

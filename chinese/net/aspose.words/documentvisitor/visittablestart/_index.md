@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitTableStart
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 在开始枚举表时调用
+linktitle: VisitTableStart
+articleTitle: VisitTableStart
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitTableStart 方法. 在开始枚举表时调用 在 C#.
 type: docs
 weight: 500
 url: /zh/net/aspose.words/documentvisitor/visittablestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitTableStart(Table table)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
 演示如何打印文档中每个表的节点结构。
 
@@ -187,7 +189,5 @@ public class TableStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: LayoutCollector.LayoutCollector
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutCollector constructeur. Initialise une instance de cette classe.
+title: LayoutCollector
+linktitle: LayoutCollector
+articleTitle: LayoutCollector
+second_title: Aspose.Words pour .NET
+description: LayoutCollector constructeur. Initialise une instance de cette classe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.layout/layoutcollector/layoutcollector/
@@ -18,7 +20,7 @@ public LayoutCollector(Document doc)
 | --- | --- | --- |
 | doc | Document | Le document auquel cette instance de collecteur sera attachée. |
 
-### Exemples
+## Exemples
 
 Montre comment afficher les plages de pages couvertes par un nœud.
 
@@ -77,7 +79,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutCollector](../)
-* espace de noms [Aspose.Words.Layout](../../layoutcollector/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

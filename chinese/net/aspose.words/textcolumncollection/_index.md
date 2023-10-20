@@ -1,7 +1,9 @@
 ---
-title: Class TextColumnCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.TextColumnCollection 班级. 的集合TextColumn表示文档某个部分中所有文本列的对象
+title: TextColumnCollection Class
+linktitle: TextColumnCollection
+articleTitle: TextColumnCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.TextColumnCollection 班级. 的集合TextColumn表示文档某个部分中所有文本列的对象 在 C#.
 type: docs
 weight: 6400
 url: /zh/net/aspose.words/textcolumncollection/
@@ -31,9 +33,9 @@ public class TextColumnCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetCount](../../aspose.words/textcolumncollection/setcount/)(int) | 将文本排列到指定数量的文本列中。 |
+| [SetCount](../../aspose.words/textcolumncollection/setcount/)(*int*) | 将文本排列到指定数量的文本列中。 |
 
-### 评论
+## 评论
 
 使用[`SetCount`](./setcount/)设置文本列的数量。
 
@@ -43,7 +45,7 @@ public class TextColumnCollection
 
 使用自定义列宽时，请确保所有列宽和它们之间的间距 的总和等于页面宽度减去左右页边距。
 
-### 例子
+## 例子
 
 演示如何在一个部分中创建多个均匀间隔的列。
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IWarningCallback.Warning
-second_title: Aspose.Words لمراجع .NET API
-description: IWarningCallback طريقة. يستدعي Aspose.Words هذه الطريقة عندما يواجه مشكلة أثناء تحميل المستند أو حفظه مما قد يؤدي إلى فقدان التنسيق أو دقة البيانات.
+linktitle: Warning
+articleTitle: Warning
+second_title: Aspose.Words لـ .NET
+description: IWarningCallback Warning طريقة. يستدعي Aspose.Words هذه الطريقة عندما يواجه مشكلة أثناء تحميل المستند أو حفظه مما قد يؤدي إلى فقدان التنسيق أو دقة البيانات في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/iwarningcallback/warning/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/iwarningcallback/warning/
 public void Warning(WarningInfo info)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخطوط المتوفرة.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * interface [IWarningCallback](../)
-* مساحة الاسم [Aspose.Words](../../iwarningcallback/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

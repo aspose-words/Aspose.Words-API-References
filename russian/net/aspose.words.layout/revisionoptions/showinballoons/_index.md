@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowInBalloons
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionOptions свойство. Позволяет указать отображаются ли изменения в выносках. Значение по умолчаниюNone .
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: Aspose.Words для .NET
+description: RevisionOptions ShowInBalloons свойство. Позволяет указать отображаются ли изменения в выносках. Значение по умолчаниюNone  на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.layout/revisionoptions/showinballoons/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.layout/revisionoptions/showinballoons/
 public ShowInBalloons ShowInBalloons { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Обратите внимание, что изменения не отображаются в выносках дляShowInAnnotations .
 
-### Примеры
+## Примеры
 
 Показывает, как отображать изменения в выносках.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [ShowInBalloons](../../showinballoons/)
 * class [RevisionOptions](../)
-* пространство имен [Aspose.Words.Layout](../../revisionoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

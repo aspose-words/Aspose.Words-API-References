@@ -1,7 +1,9 @@
 ---
 title: FieldSkipIf.ComparisonOperator
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSkipIf eigendom. Ruft den Vergleichsoperator ab oder legt ihn fest.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words für .NET
+description: FieldSkipIf ComparisonOperator eigendom. Ruft den Vergleichsoperator ab oder legt ihn fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldskipif/comparisonoperator/
@@ -14,7 +16,7 @@ Ruft den Vergleichsoperator ab oder legt ihn fest.
 public string ComparisonOperator { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seiten in einem Seriendruck mithilfe des SKIPIF-Felds übersprungen werden.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ### Siehe auch
 
 * class [FieldSkipIf](../)
-* namensraum [Aspose.Words.Fields](../../fieldskipif/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

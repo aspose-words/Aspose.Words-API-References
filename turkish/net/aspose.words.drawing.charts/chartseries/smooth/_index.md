@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Smooth
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeries mülk. Grafikteki noktaları birleştiren çizginin CatmullRom splineları kullanılarak yumuşatılıp yumuşatılmayacağını belirlemeye izin verir.
+linktitle: Smooth
+articleTitle: Smooth
+second_title: Aspose.Words for .NET
+description: ChartSeries Smooth mülk. Grafikteki noktaları birleştiren çizginin CatmullRom splineları kullanılarak yumuşatılıp yumuşatılmayacağını belirlemeye izin verir C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.drawing.charts/chartseries/smooth/
@@ -14,7 +16,7 @@ Grafikteki noktaları birleştiren çizginin Catmull-Rom spline'ları kullanıla
 public bool Smooth { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikte veri noktalarıyla nasıl çalışılacağını gösterir.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Ayrıca bakınız
 
 * class [ChartSeries](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseries/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

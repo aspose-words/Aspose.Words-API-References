@@ -1,7 +1,9 @@
 ---
 title: ListLevel.IsLegal
-second_title: Aspose.Words for .NET API 参考
-description: ListLevel 财产. 如果关卡将所有继承的数字转换为阿拉伯数字则为 true如果保留其数字样式则为 false
+linktitle: IsLegal
+articleTitle: IsLegal
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevel IsLegal 财产. 如果关卡将所有继承的数字转换为阿拉伯数字则为 true如果保留其数字样式则为 false 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.lists/listlevel/islegal/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.lists/listlevel/islegal/
 public bool IsLegal { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示自定义列表标签的高级方法。
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### 也可以看看
 
 * class [ListLevel](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevel/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

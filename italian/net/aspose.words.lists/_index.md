@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Lists
-second_title: Aspose.Words per .NET API Reference
-description: IL Aspose.Words.Lists lo spazio dei nomi contiene classi per working con elenchi puntati e numerati definiti in un documento.
+linktitle: Aspose.Words.Lists
+articleTitle: Aspose.Words.Lists
+second_title: Aspose.Words per .NET
+description: ILAspose.Words.Lists lo spazio dei nomi contiene classi per working con elenchi puntati e numerati definiti in un documento in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.lists/
 ---
-IL **Aspose.Words.Lists** lo spazio dei nomi contiene classi per working con elenchi puntati e numerati definiti in un documento.
+IL**Aspose.Words.Lists** lo spazio dei nomi contiene classi per working con elenchi puntati e numerati definiti in un documento.
 
 ## Classi
 
@@ -25,5 +27,3 @@ IL **Aspose.Words.Lists** lo spazio dei nomi contiene classi per working con ele
 | [ListLevelAlignment](./listlevelalignment/) | Specifica l'allineamento per il numero dell'elenco o il punto elenco. |
 | [ListTemplate](./listtemplate/) | Specifica uno dei formati di elenco predefiniti disponibili in Microsoft Word. |
 | [ListTrailingCharacter](./listtrailingcharacter/) | Specifica il carattere che separa l'etichetta dell'elenco dal testo del paragrafo. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.SmartStyleBehavior
-second_title: Aspose.Words per .NET API Reference
-description: ImportFormatOptions proprietà. Ottiene o imposta un valore booleano che specifica come verranno importati gli stili quando hanno nomi uguali nei documenti di origine e di destinazione. Il valore predefinito èfalso .
+linktitle: SmartStyleBehavior
+articleTitle: SmartStyleBehavior
+second_title: Aspose.Words per .NET
+description: ImportFormatOptions SmartStyleBehavior proprietà. Ottiene o imposta un valore booleano che specifica come verranno importati gli stili quando hanno nomi uguali nei documenti di origine e di destinazione. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words/importformatoptions/smartstylebehavior/
@@ -14,13 +16,13 @@ Ottiene o imposta un valore booleano che specifica come verranno importati gli s
 public bool SmartStyleBehavior { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
-Quando questa opzione è **abilitato** , lo stile di origine verrà espanso in attributi diretti all'interno di un documento di destinazione a , seKeepSourceFormatting viene utilizzata la modalità di importazione.
+Quando questa opzione è**abilitato** , lo stile di origine verrà espanso in attributi diretti all'interno di un documento di destinazione a , seKeepSourceFormatting viene utilizzata la modalità di importazione.
 
-Quando questa opzione è **Disabilitato**, lo stile di origine verrà espanso solo se è numerato. Gli attributi di destinazione esistenti non verranno sovrascritti, inclusi gli elenchi.
+Quando questa opzione è**Disabilitato**, lo stile di origine verrà espanso solo se è numerato. Gli attributi di destinazione esistenti non verranno sovrascritti, inclusi gli elenchi.
 
-### Esempi
+## Esempi
 
 Mostra come risolvere gli stili duplicati durante l'inserimento di documenti.
 
@@ -55,7 +57,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 ### Guarda anche
 
 * class [ImportFormatOptions](../)
-* spazio dei nomi [Aspose.Words](../../importformatoptions/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

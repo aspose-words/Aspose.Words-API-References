@@ -1,7 +1,9 @@
 ---
 title: Paragraph.Accept
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Paragraph méthode. Accepte un visiteur.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words pour .NET
+description: Paragraph Accept méthode. Accepte un visiteur en C#.
 type: docs
 weight: 230
 url: /fr/net/aspose.words/paragraph/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../documentvisitor/) arrêté l'opération avant de visiter tous les nœuds.
 
-### Remarques
+## Remarques
 
 Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur[`DocumentVisitor`](../../documentvisitor/).
 
@@ -30,7 +32,7 @@ Pour plus d’informations, consultez le modèle de conception Visiteur.
 
 Appels[`VisitParagraphStart`](../../documentvisitor/visitparagraphstart/) , puis appelle[`Accept`](../../node/accept/) pour tous les nœuds enfants du paragraphe et des appels[`VisitParagraphEnd`](../../documentvisitor/visitparagraphend/) à la fin.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser une implémentation de DocumentVisitor pour supprimer tout le contenu masqué d'un document.
 
@@ -227,7 +229,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Paragraph](../)
-* espace de noms [Aspose.Words](../../paragraph/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

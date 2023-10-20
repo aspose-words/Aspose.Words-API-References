@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Behavior
-second_title: Aspose.Words för .NET API Referens
-description: BuildingBlock fast egendom. Anger beteendet som ska tillämpas när innehållet i byggstenen infogas i huvuddokumentet.
+linktitle: Behavior
+articleTitle: Behavior
+second_title: Aspose.Words för .NET
+description: BuildingBlock Behavior fast egendom. Anger beteendet som ska tillämpas när innehållet i byggstenen infogas i huvuddokumentet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.buildingblocks/buildingblock/behavior/
@@ -14,7 +16,7 @@ Anger beteendet som ska tillämpas när innehållet i byggstenen infogas i huvud
 public BuildingBlockBehavior Behavior { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett anpassat byggblock till ett dokument.
 
@@ -112,7 +114,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockBehavior](../../buildingblockbehavior/)
 * class [BuildingBlock](../)
-* namnutrymme [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namnutrymme [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../../)
-
-

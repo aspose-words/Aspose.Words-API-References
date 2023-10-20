@@ -1,7 +1,9 @@
 ---
 title: Range.Delete
-second_title: Aspose.Words für .NET-API-Referenz
-description: Range methode. Löscht alle Zeichen des Bereichs.
+linktitle: Delete
+articleTitle: Delete
+second_title: Aspose.Words für .NET
+description: Range Delete methode. Löscht alle Zeichen des Bereichs in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/range/delete/
@@ -14,7 +16,7 @@ Löscht alle Zeichen des Bereichs.
 public void Delete()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Knoten aus einem Bereich gelöscht werden.
 
@@ -40,7 +42,5 @@ Assert.AreEqual("Section 2.", doc.GetText().Trim());
 ### Siehe auch
 
 * class [Range](../)
-* namensraum [Aspose.Words](../../range/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

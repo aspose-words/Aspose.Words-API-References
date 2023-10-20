@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.InsertRelativePosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldNoteRef eigendom. Ruft ab oder legt fest ob eine relative Position des mit einem Lesezeichen versehenen Absatzes eingefügt werden soll.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words für .NET
+description: FieldNoteRef InsertRelativePosition eigendom. Ruft ab oder legt fest ob eine relative Position des mit einem Lesezeichen versehenen Absatzes eingefügt werden soll in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldnoteref/insertrelativeposition/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob eine relative Position des mit einem Lesezeichen vers
 public bool InsertRelativePosition { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt das Einfügen von NOTEREF-Feldern und das Ändern ihres Erscheinungsbilds an.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### Siehe auch
 
 * class [FieldNoteRef](../)
-* namensraum [Aspose.Words.Fields](../../fieldnoteref/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

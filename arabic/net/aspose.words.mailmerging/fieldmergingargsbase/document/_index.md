@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.Document
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergingArgsBase ملكية. إرجاعDocument الكائن الذي يتم تنفيذ دمج البريد له.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words لـ .NET
+description: FieldMergingArgsBase Document ملكية. إرجاعDocument الكائن الذي يتم تنفيذ دمج البريد له في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/document/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/document/
 public Document Document { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ عملية دمج البريد باستخدام رد اتصال مخصص يتعامل مع بيانات الدمج في شكل مستندات HTML.
 
@@ -83,7 +85,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [FieldMergingArgsBase](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

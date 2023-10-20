@@ -1,7 +1,9 @@
 ---
-title: Enum HeaderFooterBookmarksExportMode
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode enum. Specifica come vengono esportati i segnalibri nelle intestazioni/piè di pagina.
+title: HeaderFooterBookmarksExportMode Enum
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.HeaderFooterBookmarksExportMode enum. Specifica come vengono esportati i segnalibri nelle intestazioni/piè di pagina in C#.
 type: docs
 weight: 5050
 url: /it/net/aspose.words.saving/headerfooterbookmarksexportmode/
@@ -22,7 +24,7 @@ public enum HeaderFooterBookmarksExportMode
 | First | `1` | Viene esportato solo il segnalibro nella prima intestazione/piè di pagina della sezione. |
 | All | `2` | I segnalibri in tutte le intestazioni/piè di pagina vengono esportati. |
 
-### Esempi
+## Esempi
 
 Mostra per elaborare i segnalibri nelle intestazioni/piè di pagina in un documento che stiamo convertendo in PDF.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

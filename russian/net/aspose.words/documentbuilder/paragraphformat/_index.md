@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.ParagraphFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Возвращает объект представляющий текущие свойства форматирования абзаца.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words для .NET
+description: DocumentBuilder ParagraphFormat свойство. Возвращает объект представляющий текущие свойства форматирования абзаца на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words/documentbuilder/paragraphformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/documentbuilder/paragraphformat/
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать форматированную таблицу с помощью DocumentBuilder.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

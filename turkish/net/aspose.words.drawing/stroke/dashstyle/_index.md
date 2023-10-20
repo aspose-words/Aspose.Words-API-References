@@ -1,9 +1,11 @@
 ---
 title: Stroke.DashStyle
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Kontur için nokta ve çizgi desenini belirtir.
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: Aspose.Words for .NET
+description: Stroke DashStyle mülk. Kontur için nokta ve çizgi desenini belirtir C#'da.
 type: docs
-weight: 50
+weight: 40
 url: /tr/net/aspose.words.drawing/stroke/dashstyle/
 ---
 ## Stroke.DashStyle property
@@ -14,11 +16,11 @@ Kontur için nokta ve çizgi desenini belirtir.
 public DashStyle DashStyle { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Solid.
 
-### Örnekler
+## Örnekler
 
 Çeşitli şekiller oluşturmayı gösterir.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [DashStyle](../../dashstyle/)
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

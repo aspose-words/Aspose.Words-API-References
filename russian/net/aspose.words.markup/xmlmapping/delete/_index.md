@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.Delete
-second_title: Справочник по API Aspose.Words для .NET
-description: XmlMapping метод. Удаляет сопоставление родительского структурированного документа с данными XML.
+linktitle: Delete
+articleTitle: Delete
+second_title: Aspose.Words для .NET
+description: XmlMapping Delete метод. Удаляет сопоставление родительского структурированного документа с данными XML на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/xmlmapping/delete/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/xmlmapping/delete/
 public void Delete()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить сопоставления XML для пользовательских частей XML.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Смотрите также
 
 * class [XmlMapping](../)
-* пространство имен [Aspose.Words.Markup](../../xmlmapping/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

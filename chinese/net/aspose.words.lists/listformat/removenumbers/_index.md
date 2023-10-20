@@ -1,7 +1,9 @@
 ---
 title: ListFormat.RemoveNumbers
-second_title: Aspose.Words for .NET API 参考
-description: ListFormat 方法. 从当前段落中删除数字或项目符号并将列表级别设置为零
+linktitle: RemoveNumbers
+articleTitle: RemoveNumbers
+second_title: 用于 .NET 的 Aspose.Words
+description: ListFormat RemoveNumbers 方法. 从当前段落中删除数字或项目符号并将列表级别设置为零 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.lists/listformat/removenumbers/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.lists/listformat/removenumbers/
 public void RemoveNumbers()
 ```
 
-### 评论
+## 评论
 
 调用该方法相当于设置[`List`](../list/)财产给`无效的`。
 
-### 例子
+## 例子
 
 演示如何从节的正文中的所有段落中删除列表格式。
 
@@ -124,7 +126,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### 也可以看看
 
 * class [ListFormat](../)
-* 命名空间 [Aspose.Words.Lists](../../listformat/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

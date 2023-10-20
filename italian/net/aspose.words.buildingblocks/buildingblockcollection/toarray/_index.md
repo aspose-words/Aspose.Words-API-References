@@ -1,7 +1,9 @@
 ---
 title: BuildingBlockCollection.ToArray
-second_title: Aspose.Words per .NET API Reference
-description: BuildingBlockCollection metodo. Copia tutti i blocchi costitutivi dalla raccolta in una nuova serie di blocchi costitutivi.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words per .NET
+description: BuildingBlockCollection ToArray metodo. Copia tutti i blocchi costitutivi dalla raccolta in una nuova serie di blocchi costitutivi in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.buildingblocks/buildingblockcollection/toarray/
@@ -18,7 +20,7 @@ public BuildingBlock[] ToArray()
 
 Una serie di elementi costitutivi.
 
-### Esempi
+## Esempi
 
 Mostra le modalità di accesso agli elementi costitutivi in un documento di glossario.
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [BuildingBlockCollection](../)
-* spazio dei nomi [Aspose.Words.BuildingBlocks](../../buildingblockcollection/)
+* spazio dei nomi [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assemblea [Aspose.Words](../../../)
-
-

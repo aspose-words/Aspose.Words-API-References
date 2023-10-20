@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OlePackage
-second_title: Aspose.Words لمراجع .NET API
-description: OleFormat ملكية. توفير الوصول إلىOlePackage إذا كان كائن OLE عبارة عن حزمة OLE. Returnsباطل وإلا.
+linktitle: OlePackage
+articleTitle: OlePackage
+second_title: Aspose.Words لـ .NET
+description: OleFormat OlePackage ملكية. توفير الوصول إلىOlePackage إذا كان كائن OLE عبارة عن حزمة OLE. Returnsباطل وإلا في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.drawing/oleformat/olepackage/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/oleformat/olepackage/
 public OlePackage OlePackage { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 حزمة OLE هي تقنية قديمة تسمح بتغليف أي تنسيق ملف غير موجود في سجل OLE الخاص بـ نظام Windows في حزمة عامة تسمح بتضمين أي شيء تقريبًا في المستند. راجع[`OlePackage`](../../olepackage/) اكتب لمزيد من المعلومات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج كائن OLE في المستند.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 
 * class [OlePackage](../../olepackage/)
 * class [OleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../oleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.AllowNegativeIndent
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. HTML MHTML veya EPUBa kaydederken paragrafların negatif sol ve sağ girintilerinin normalize edilip edilmeyeceğini belirtir. Varsayılan değerYANLIŞ .
+linktitle: AllowNegativeIndent
+articleTitle: AllowNegativeIndent
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions AllowNegativeIndent mülk. HTML MHTML veya EPUBa kaydederken paragrafların negatif sol ve sağ girintilerinin normalize edilip edilmeyeceğini belirtir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
@@ -14,11 +16,11 @@ HTML, MHTML veya EPUB'a kaydederken paragrafların negatif sol ve sağ girintile
 public bool AllowNegativeIndent { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Negatif girintiye izin verilmediğinde, HTML'ye sıfır kenar boşluğu olarak dışa aktarılır. Negatif girintiye izin verildiğinde, paragraf kısmen tarayıcı penceresinin dışında görünebilir.
 
-### Örnekler
+## Örnekler
 
 .html çıktısında negatif girintilerin nasıl korunacağını gösterir.
 
@@ -80,7 +82,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

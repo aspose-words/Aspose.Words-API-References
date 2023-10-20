@@ -1,7 +1,9 @@
 ---
-title: FieldFileName.FieldFileName
-second_title: Aspose.Words per .NET API Reference
-description: FieldFileName costruttore. Default_Costruttore
+title: FieldFileName
+linktitle: FieldFileName
+articleTitle: FieldFileName
+second_title: Aspose.Words per .NET
+description: FieldFileName costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldfilename/fieldfilename/
@@ -17,7 +19,5 @@ public FieldFileName()
 ### Guarda anche
 
 * class [FieldFileName](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldfilename/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

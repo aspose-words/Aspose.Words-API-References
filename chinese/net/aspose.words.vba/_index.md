@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Vba
-second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words.Vba命名空间提供了用于 VBA 项目的类
+linktitle: Aspose.Words.Vba
+articleTitle: Aspose.Words.Vba
+second_title: 用于 .NET 的 Aspose.Words
+description: 这Aspose.Words.Vba命名空间提供了用于 VBA 项目的类 在 C#.
 type: docs
 weight: 280
 url: /zh/net/aspose.words.vba/
 ---
-这 **Aspose.Words.Vba**命名空间提供了用于 VBA 项目的类。
+这**Aspose.Words.Vba**命名空间提供了用于 VBA 项目的类。
 
 ## 课程
 
@@ -24,5 +26,3 @@ url: /zh/net/aspose.words.vba/
 | --- | --- |
 | [VbaModuleType](./vbamoduletype/) | 指定 VBA 项目中模型的类型。 |
 | [VbaReferenceType](./vbareferencetype/) | 允许指定 a 的类型[`VbaReference`](../aspose.words.vba/vbareference/)对象. |
-
-

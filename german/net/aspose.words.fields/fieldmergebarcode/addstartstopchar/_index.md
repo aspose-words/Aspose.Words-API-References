@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.AddStartStopChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergeBarcode eigendom. Ruft ab oder legt fest ob Start/Stoppzeichen für die Barcodetypen NW7 und CODE39 hinzugefügt werden sollen.
+linktitle: AddStartStopChar
+articleTitle: AddStartStopChar
+second_title: Aspose.Words für .NET
+description: FieldMergeBarcode AddStartStopChar eigendom. Ruft ab oder legt fest ob Start/Stoppzeichen für die Barcodetypen NW7 und CODE39 hinzugefügt werden sollen in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldmergebarcode/addstartstopchar/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob Start-/Stoppzeichen für die Barcodetypen NW7 und COD
 public bool AddStartStopChar { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief für CODE39-Barcodes durchgeführt wird.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.CODE39.docx");
 ### Siehe auch
 
 * class [FieldMergeBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

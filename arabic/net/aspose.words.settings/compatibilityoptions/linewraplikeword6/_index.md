@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.LineWrapLikeWord6
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. محاكاة التفاف سطر Word 6.0 لنص شرق آسيا.
+linktitle: LineWrapLikeWord6
+articleTitle: LineWrapLikeWord6
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions LineWrapLikeWord6 ملكية. محاكاة التفاف سطر Word 6.0 لنص شرق آسيا في C#.
 type: docs
 weight: 310
 url: /ar/net/aspose.words.settings/compatibilityoptions/linewraplikeword6/
@@ -17,7 +19,5 @@ public bool LineWrapLikeWord6 { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCreateDate.UseLunarCalendar
-second_title: Aspose.Words لمراجع .NET API
-description: FieldCreateDate ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام التقويم القمري الهجري أو القمري العبري.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words لـ .NET
+description: FieldCreateDate UseLunarCalendar ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام التقويم القمري الهجري أو القمري العبري في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldcreatedate/uselunarcalendar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldcreatedate/uselunarcalendar/
 public bool UseLunarCalendar { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل "تاريخ الإنشاء" لعرض تاريخ/وقت إنشاء المستند.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");
 ### أنظر أيضا
 
 * class [FieldCreateDate](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcreatedate/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

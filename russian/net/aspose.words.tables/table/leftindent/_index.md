@@ -1,7 +1,9 @@
 ---
 title: Table.LeftIndent
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или задает значение представляющее левый отступ таблицы.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words для .NET
+description: Table LeftIndent свойство. Получает или задает значение представляющее левый отступ таблицы на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.tables/table/leftindent/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/leftindent/
 public double LeftIndent { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать форматированную таблицу с помощью DocumentBuilder.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### Смотрите также
 
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

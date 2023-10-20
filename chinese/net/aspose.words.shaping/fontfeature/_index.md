@@ -1,7 +1,9 @@
 ---
-title: Enum FontFeature
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Shaping.FontFeature 枚举. 功能提供有关如何在字体中使用字形来呈现脚本的信息 https//docs.microsoft.com/enus/typography/opentype/spec/featuretags
+title: FontFeature Enum
+linktitle: FontFeature
+articleTitle: FontFeature
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Shaping.FontFeature 枚举. 功能提供有关如何在字体中使用字形来呈现脚本的信息 https//docs.microsoft.com/enus/typography/opentype/spec/featuretags 在 C#.
 type: docs
 weight: 6030
 url: /zh/net/aspose.words.shaping/fontfeature/
@@ -56,5 +58,3 @@ public enum FontFeature
 
 * 命名空间 [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * 部件 [Aspose.Words](../../)
-
-

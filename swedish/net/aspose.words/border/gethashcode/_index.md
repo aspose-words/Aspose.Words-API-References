@@ -1,7 +1,9 @@
 ---
 title: Border.GetHashCode
-second_title: Aspose.Words för .NET API Referens
-description: Border metod. Fungerar som en hashfunktion för denna typ.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words för .NET
+description: Border GetHashCode metod. Fungerar som en hashfunktion för denna typ i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/border/gethashcode/
@@ -14,7 +16,7 @@ Fungerar som en hashfunktion för denna typ.
 public override int GetHashCode()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur gränssamlingar kan dela element.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### Se även
 
 * class [Border](../)
-* namnutrymme [Aspose.Words](../../border/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

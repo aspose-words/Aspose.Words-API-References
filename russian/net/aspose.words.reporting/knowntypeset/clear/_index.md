@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: KnownTypeSet метод. Удаляет все элементы из набора.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: KnownTypeSet Clear метод. Удаляет все элементы из набора на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.reporting/knowntypeset/clear/
@@ -17,7 +19,5 @@ public void Clear()
 ### Смотрите также
 
 * class [KnownTypeSet](../)
-* пространство имен [Aspose.Words.Reporting](../../knowntypeset/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
-
-

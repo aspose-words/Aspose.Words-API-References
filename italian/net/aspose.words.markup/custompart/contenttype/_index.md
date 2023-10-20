@@ -1,7 +1,9 @@
 ---
 title: CustomPart.ContentType
-second_title: Aspose.Words per .NET API Reference
-description: CustomPart proprietà. Specifica il tipo di contenuto di questa parte personalizzata.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: Aspose.Words per .NET
+description: CustomPart ContentType proprietà. Specifica il tipo di contenuto di questa parte personalizzata in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.markup/custompart/contenttype/
@@ -14,13 +16,13 @@ Specifica il tipo di contenuto di questa parte personalizzata.
 public string ContentType { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà è applicabile solo quando[`IsExternal`](../isexternal/) È`falso`.
 
 Il valore predefinito è una stringa vuota. Un valore valido deve essere una stringa non vuota.
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di parti personalizzate arbitrarie di un documento.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Guarda anche
 
 * class [CustomPart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../custompart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

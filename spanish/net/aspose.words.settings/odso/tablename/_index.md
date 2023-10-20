@@ -1,7 +1,9 @@
 ---
 title: Odso.TableName
-second_title: Referencia de API de Aspose.Words para .NET
-description: Odso propiedad. Especifica el conjunto particular de datos al que se conectará una fuente dentro de una fuente de datos externa. El valor predeterminado es una cadena vacía.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words para .NET
+description: Odso TableName propiedad. Especifica el conjunto particular de datos al que se conectará una fuente dentro de una fuente de datos externa. El valor predeterminado es una cadena vacía en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.settings/odso/tablename/
@@ -14,7 +16,7 @@ Especifica el conjunto particular de datos al que se conectará una fuente dentr
 public string TableName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia mientras se conecta a una fuente de datos externa.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Ver también
 
 * class [Odso](../)
-* espacio de nombres [Aspose.Words.Settings](../../odso/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

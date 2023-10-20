@@ -1,7 +1,9 @@
 ---
 title: RowCollection.ToArray
-second_title: Aspose.Words für .NET-API-Referenz
-description: RowCollection methode. Kopiert alle Zeilen aus der Sammlung in ein neues Array von Zeilen.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words für .NET
+description: RowCollection ToArray methode. Kopiert alle Zeilen aus der Sammlung in ein neues Array von Zeilen in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.tables/rowcollection/toarray/
@@ -18,7 +20,7 @@ public Row[] ToArray()
 
 Ein Array von Zeilen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt werden.
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Row](../../row/)
 * class [RowCollection](../)
-* namensraum [Aspose.Words.Tables](../../rowcollection/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ScaleImageToShapeSize
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定在导出为 HTMLMHTML 或 EPUB 时Aspose.Words 是否将图像缩放至边界形状大小 默认值为真的.
+linktitle: ScaleImageToShapeSize
+articleTitle: ScaleImageToShapeSize
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions ScaleImageToShapeSize 财产. 指定在导出为 HTMLMHTML 或 EPUB 时Aspose.Words 是否将图像缩放至边界形状大小 默认值为真的 在 C#.
 type: docs
 weight: 450
 url: /zh/net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
 public bool ScaleImageToShapeSize { get; set; }
 ```
 
-### 评论
+## 评论
 
 Microsoft Word 文档中的图像是一种形状。形状有一个大小，image 有它自己的大小。尺寸没有直接联系。例如，图像可以是 1024x786 像素 ，但显示该图像的形状可以是 400x300 点。
 
@@ -26,7 +28,7 @@ Microsoft Word 文档中的图像是一种形状。形状有一个大小，image
 
 除了包含单个光栅图像的形状外，此选项还会影响由光栅图像组成的 组形状。如果`ScaleImageToShapeSize`是`错误的`并且组形状包含光栅图像 ，其固有分辨率高于中指定的值[`ImageResolution`](../imageresolution/)Aspose.Words will 增加该组的渲染分辨率。这样可以在保存为 HTML 时更好地保持分组高分辨率 图像的质量。
 
-### 例子
+## 例子
 
 演示如何在保存为 .html 时禁用图像缩放至其父形状尺寸。
 
@@ -82,7 +84,5 @@ Document doc = new Document();
 
 * property [ImageResolution](../imageresolution/)
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

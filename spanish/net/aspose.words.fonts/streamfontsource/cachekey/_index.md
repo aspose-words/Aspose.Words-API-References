@@ -1,7 +1,9 @@
 ---
 title: StreamFontSource.CacheKey
-second_title: Referencia de API de Aspose.Words para .NET
-description: StreamFontSource propiedad. La clave de esta fuente en el caché.
+linktitle: CacheKey
+articleTitle: CacheKey
+second_title: Aspose.Words para .NET
+description: StreamFontSource CacheKey propiedad. La clave de esta fuente en el caché en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fonts/streamfontsource/cachekey/
@@ -14,14 +16,12 @@ La clave de esta fuente en el caché.
 public string CacheKey { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta clave se utiliza para identificar el elemento de caché al guardar/cargar caché de búsqueda de fuentes con [`SaveSearchCache`](../../fontsettings/savesearchcache/) y[`SetFontsSources`](../../fontsettings/setfontssources/)métodos.
 
 ### Ver también
 
 * class [StreamFontSource](../)
-* espacio de nombres [Aspose.Words.Fonts](../../streamfontsource/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

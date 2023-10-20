@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Bidi
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt an dass dieser Abschnitt bidirektionalen Text komplexe Skripts enthält.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words für .NET
+description: PageSetup Bidi eigendom. Gibt an dass dieser Abschnitt bidirektionalen Text komplexe Skripts enthält in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/pagesetup/bidi/
@@ -14,11 +16,11 @@ Gibt an, dass dieser Abschnitt bidirektionalen Text (komplexe Skripts) enthält.
 public bool Bidi { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wann`WAHR`die Spalten in diesem Abschnitt sind von rechts nach links angeordnet.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Reihenfolge der Textspalten in einem Abschnitt festgelegt wird.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PageSetup.Bidi.docx");
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.Document
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ResourceSavingArgs propriété. Obtient lobjet document en cours denregistrement.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words pour .NET
+description: ResourceSavingArgs Document propriété. Obtient lobjet document en cours denregistrement en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/resourcesavingargs/document/
@@ -14,7 +16,7 @@ Obtient l'objet document en cours d'enregistrement.
 public Document Document { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un rappel pour suivre les ressources externes créées lors de la conversion d'un document au format HTML.
 
@@ -60,7 +62,5 @@ private class FontSavingCallback : IResourceSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [ResourceSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../resourcesavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

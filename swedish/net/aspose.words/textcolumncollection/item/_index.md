@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: TextColumnCollection fast egendom. Returnerar en textkolumn vid det angivna indexet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: TextColumnCollection Item fast egendom. Returnerar en textkolumn vid det angivna indexet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/textcolumncollection/item/
@@ -14,7 +16,7 @@ Returnerar en textkolumn vid det angivna indexet.
 public TextColumn this[int index] { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ojämnt fördelade kolumner.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 
 * class [TextColumn](../../textcolumn/)
 * class [TextColumnCollection](../)
-* namnutrymme [Aspose.Words](../../textcolumncollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

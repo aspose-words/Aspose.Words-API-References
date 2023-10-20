@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertTableOfContents
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Inserta un campo TOC tabla de contenido en el documento.
+linktitle: InsertTableOfContents
+articleTitle: InsertTableOfContents
+second_title: Aspose.Words para .NET
+description: DocumentBuilder InsertTableOfContents método. Inserta un campo TOC tabla de contenido en el documento en C#.
 type: docs
-weight: 470
+weight: 460
 url: /es/net/aspose.words/documentbuilder/inserttableofcontents/
 ---
 ## DocumentBuilder.InsertTableOfContents method
@@ -18,7 +20,7 @@ public Field InsertTableOfContents(string switches)
 | --- | --- | --- |
 | switches | String | El campo TOC cambia. |
 
-### Observaciones
+## Observaciones
 
 Este método inserta un campo TOC (tabla de contenido) en el documento en la posición actual.
 
@@ -26,7 +28,7 @@ Una tabla de contenido en un documento de Word se puede crear de varias maneras 
 
 La forma más sencilla de especificar los modificadores es insertar y configurar una tabla de contenido en un documento de Word usando el menú Insertar-&gt;Referencia-&gt;Índice y tablas, y luego activar la visualización de códigos de campo para ver los modificadores. Puede presionar Alt+F9 en Microsoft Word para activar o desactivar la visualización de códigos de campo.
 
-Por ejemplo, después de crear una tabla de contenido, se inserta el siguiente campo en el documento: **{ TOC \o "1-3" \h \z \u }** . Puedes copiar **\o "1-3" \h \z \u** y utilícelo como parámetro de interruptores.
+Por ejemplo, después de crear una tabla de contenido, se inserta el siguiente campo en el documento:**{ TOC \o "1-3" \h \z \u }** . Puedes copiar**\o "1-3" \h \z \u** y utilícelo como parámetro de interruptores.
 
 Tenga en cuenta que`InsertTableOfContents` solo insertará un campo TOC, pero en realidad no creará la tabla de contenido. La tabla de contenido la crea Microsoft Word cuando se actualiza el campo.
 
@@ -34,7 +36,7 @@ Si inserta una tabla de contenido usando este método y luego abre el archivo en
 
 En Microsoft Word, los campos no se actualizan automáticamente cuando se abre un documento, pero puede actualizar los campos de un documento en cualquier momento presionando F9.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una tabla de contenido (TOC) en un documento utilizando estilos de encabezado como entradas.
 
@@ -87,7 +89,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

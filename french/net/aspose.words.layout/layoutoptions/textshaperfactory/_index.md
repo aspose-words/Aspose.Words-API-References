@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.TextShaperFactory
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutOptions propriété. Obtient ou définitITextShaperFactory implémentation utilisée pour les fonctionnalités de rendu de typographie avancée.
+linktitle: TextShaperFactory
+articleTitle: TextShaperFactory
+second_title: Aspose.Words pour .NET
+description: LayoutOptions TextShaperFactory propriété. Obtient ou définitITextShaperFactory implémentation utilisée pour les fonctionnalités de rendu de typographie avancée en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.layout/layoutoptions/textshaperfactory/
@@ -14,7 +16,7 @@ Obtient ou définit[`ITextShaperFactory`](../../../aspose.words.shaping/itextsha
 public ITextShaperFactory TextShaperFactory { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment prendre en charge les fonctionnalités OpenType à l’aide du moteur de mise en forme de texte HarfBuzz.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "Document.OpenType.pdf");
 
 * interface [ITextShaperFactory](../../../aspose.words.shaping/itextshaperfactory/)
 * class [LayoutOptions](../)
-* espace de noms [Aspose.Words.Layout](../../layoutoptions/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

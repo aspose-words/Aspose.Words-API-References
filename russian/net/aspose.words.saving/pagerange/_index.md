@@ -1,7 +1,9 @@
 ---
-title: Class PageRange
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.PageRange сорт. Представляет непрерывный диапазон страниц.
+title: PageRange Class
+linktitle: PageRange
+articleTitle: PageRange
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.PageRange сорт. Представляет непрерывный диапазон страниц на С#.
 type: docs
 weight: 5370
 url: /ru/net/aspose.words.saving/pagerange/
@@ -20,11 +22,9 @@ public sealed class PageRange
 
 | Имя | Описание |
 | --- | --- |
-| [PageRange](pagerange/)(int, int) | Создает новый объект диапазона страниц. |
+| [PageRange](pagerange/)(*int, int*) | Создает новый объект диапазона страниц. |
 
 ### Смотрите также
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Style.Aliases
-second_title: Справочник по API Aspose.Words для .NET
-description: Style свойство. Получает все псевдонимы этого стиля. Если стиль не имеет псевдонимов возвращается пустой массив строк.
+linktitle: Aliases
+articleTitle: Aliases
+second_title: Aspose.Words для .NET
+description: Style Aliases свойство. Получает все псевдонимы этого стиля. Если стиль не имеет псевдонимов возвращается пустой массив строк на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/style/aliases/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/style/aliases/
 public string[] Aliases { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать псевдонимы стилей.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Смотрите также
 
 * class [Style](../)
-* пространство имен [Aspose.Words](../../style/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

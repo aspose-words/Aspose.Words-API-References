@@ -1,7 +1,9 @@
 ---
-title: Enum SaveFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.SaveFormat opsomming. Gibt das Format an in dem das Dokument gespeichert ist.
+title: SaveFormat Enum
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words für .NET
+description: Aspose.Words.SaveFormat opsomming. Gibt das Format an in dem das Dokument gespeichert ist in C#.
 type: docs
 weight: 4840
 url: /de/net/aspose.words/saveformat/
@@ -59,7 +61,7 @@ public enum SaveFormat
 | Gif | `105` | Rendert eine Seite des Dokuments und speichert sie als GIF-Datei. |
 | Eps | `106` | Rendert eine Seite des Dokuments und speichert sie als EPS-Datei. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man vom DOCX- in das HTML-Format konvertiert.
 
@@ -75,5 +77,3 @@ doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
 * class [SaveOptions](../../aspose.words.saving/saveoptions/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

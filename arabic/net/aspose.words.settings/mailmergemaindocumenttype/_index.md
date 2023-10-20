@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeMainDocumentType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.MailMergeMainDocumentType تعداد. تحديد الأنواع المحتملة للمستند المصدر لدمج المراسلات.
+title: MailMergeMainDocumentType Enum
+linktitle: MailMergeMainDocumentType
+articleTitle: MailMergeMainDocumentType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.MailMergeMainDocumentType تعداد. تحديد الأنواع المحتملة للمستند المصدر لدمج المراسلات في C#.
 type: docs
 weight: 5840
 url: /ar/net/aspose.words.settings/mailmergemaindocumenttype/
@@ -27,7 +29,7 @@ public enum MailMergeMainDocumentType
 | Fax | `32` | تحديد أن المستند المصدر لدمج المراسلات من نوع الفاكس. |
 | Default | `0` | يساويNotAMergeDocument |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [MainDocumentType](../mailmergesettings/maindocumenttype/)
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

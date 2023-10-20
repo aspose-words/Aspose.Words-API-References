@@ -1,7 +1,9 @@
 ---
 title: VbaModule.Name
-second_title: Справочник по API Aspose.Words для .NET
-description: VbaModule свойство. Получает или задает имя модуля проекта VBA.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words для .NET
+description: VbaModule Name свойство. Получает или задает имя модуля проекта VBA на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.vba/vbamodule/name/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.vba/vbamodule/name/
 public string Name { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать проект VBA с помощью макросов.
 
@@ -67,7 +69,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Смотрите также
 
 * class [VbaModule](../)
-* пространство имен [Aspose.Words.Vba](../../vbamodule/)
+* пространство имен [Aspose.Words.Vba](../../../aspose.words.vba/)
 * сборка [Aspose.Words](../../../)
-
-

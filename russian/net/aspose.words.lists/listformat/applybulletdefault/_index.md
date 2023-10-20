@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ApplyBulletDefault
-second_title: Справочник по API Aspose.Words для .NET
-description: ListFormat метод. Запускает новый маркированный список по умолчанию и применяет его к абзацу.
+linktitle: ApplyBulletDefault
+articleTitle: ApplyBulletDefault
+second_title: Aspose.Words для .NET
+description: ListFormat ApplyBulletDefault метод. Запускает новый маркированный список по умолчанию и применяет его к абзацу на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.lists/listformat/applybulletdefault/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/listformat/applybulletdefault/
 public void ApplyBulletDefault()
 ```
 
-### Примечания
+## Примечания
 
 Это сокращенный метод, который создает новый список с использованием шаблона Bulleted по умолчанию, применяет его к абзацу и выбирает первый уровень списка.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать маркированные и нумерованные списки.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Смотрите также
 
 * class [ListFormat](../)
-* пространство имен [Aspose.Words.Lists](../../listformat/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveNext
-second_title: Aspose.Words for .NET API 参考
-description: LayoutEnumerator 方法. 按视觉顺序移动到下一个同级实体 当迭代跨页的段落行时此方法 不会移动到下一页而是移动到同一页面上的下一个实体
+linktitle: MoveNext
+articleTitle: MoveNext
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutEnumerator MoveNext 方法. 按视觉顺序移动到下一个同级实体 当迭代跨页的段落行时此方法 不会移动到下一页而是移动到同一页面上的下一个实体 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.layout/layoutenumerator/movenext/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/layoutenumerator/movenext/
 public bool MoveNext()
 ```
 
-### 例子
+## 例子
 
 显示遍历文档布局实体的方法。
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### 也可以看看
 
 * class [LayoutEnumerator](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutenumerator/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

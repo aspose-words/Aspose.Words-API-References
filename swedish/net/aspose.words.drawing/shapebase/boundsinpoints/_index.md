@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BoundsInPoints
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Hämtar platsen och storleken på formens innehållande block i punkter i förhållande till ankaret för den översta formen.
+linktitle: BoundsInPoints
+articleTitle: BoundsInPoints
+second_title: Aspose.Words för .NET
+description: ShapeBase BoundsInPoints fast egendom. Hämtar platsen och storleken på formens innehållande block i punkter i förhållande till ankaret för den översta formen i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.drawing/shapebase/boundsinpoints/
@@ -14,7 +16,7 @@ Hämtar platsen och storleken på formens innehållande block i punkter, i förh
 public RectangleF BoundsInPoints { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man verifierar form som innehåller blockgränser.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Shape.Bounds.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

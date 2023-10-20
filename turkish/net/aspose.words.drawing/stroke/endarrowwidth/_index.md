@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndArrowWidth
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Konturun sonu için ok ucu genişliğini tanımlar.
+linktitle: EndArrowWidth
+articleTitle: EndArrowWidth
+second_title: Aspose.Words for .NET
+description: Stroke EndArrowWidth mülk. Konturun sonu için ok ucu genişliğini tanımlar C#'da.
 type: docs
-weight: 80
+weight: 70
 url: /tr/net/aspose.words.drawing/stroke/endarrowwidth/
 ---
 ## Stroke.EndArrowWidth property
@@ -14,11 +16,11 @@ Konturun sonu için ok ucu genişliğini tanımlar.
 public ArrowWidth EndArrowWidth { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Medium.
 
-### Örnekler
+## Örnekler
 
 Çeşitli şekiller oluşturmayı gösterir.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowWidth](../../arrowwidth/)
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

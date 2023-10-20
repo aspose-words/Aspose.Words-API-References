@@ -1,7 +1,9 @@
 ---
-title: Class TabStop
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.TabStop 班级. 表示单个自定义制表位这TabStop对象是 the 的成员TabStopCollection集合.
+title: TabStop Class
+linktitle: TabStop
+articleTitle: TabStop
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.TabStop 班级. 表示单个自定义制表位这TabStop对象是 the 的成员TabStopCollection集合 在 C#.
 type: docs
 weight: 6200
 url: /zh/net/aspose.words/tabstop/
@@ -20,8 +22,8 @@ public sealed class TabStop
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TabStop](tabstop/#constructor)(double) | 初始化此类的新实例。 |
-| [TabStop](tabstop/#constructor_1)(double, TabAlignment, TabLeader) | 初始化此类的新实例。 |
+| [TabStop](tabstop/#constructor)(*double*) | 初始化此类的新实例。 |
+| [TabStop](tabstop/#constructor_1)(*double, [TabAlignment](../tabalignment/), [TabLeader](../tableader/)*) | 初始化此类的新实例。 |
 
 ## 特性
 
@@ -36,16 +38,16 @@ public sealed class TabStop
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | 与指定的比较`TabStop`. |
+| [Equals](../../aspose.words/tabstop/equals/#equals)(*TabStop*) | 与指定的比较`TabStop`. |
 | override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | 计算该对象的哈希码。 |
 
-### 评论
+## 评论
 
 通常，制表位指定制表位存在的位置。但由于 制表位可以从父样式继承，因此子对象 可能需要显式定义给定位置没有制表位。要清除 给定位置处继承的制表位，请创建一个`TabStop`对象和 set [`Alignment`](./alignment/)到Clear。
 
 欲了解更多信息，请参阅[`TabStopCollection`](../tabstopcollection/)。
 
-### 例子
+## 例子
 
 演示如何修改目录相关段落中右侧制表位的位置。
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

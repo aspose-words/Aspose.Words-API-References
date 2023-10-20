@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberStyle
-second_title: Aspose.Words för .NET API Referens
-description: ListLevel fast egendom. Returnerar eller ställer in talstilen för denna listnivå.
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words för .NET
+description: ListLevel NumberStyle fast egendom. Returnerar eller ställer in talstilen för denna listnivå i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.lists/listlevel/numberstyle/
@@ -14,7 +16,7 @@ Returnerar eller ställer in talstilen för denna listnivå.
 public NumberStyle NumberStyle { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
 
@@ -130,7 +132,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [ListLevel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

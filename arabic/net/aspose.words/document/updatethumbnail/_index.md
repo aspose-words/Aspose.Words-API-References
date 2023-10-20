@@ -1,12 +1,14 @@
 ---
 title: Document.UpdateThumbnail
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. التحديثاتThumbnail للمستند حسب الخيارات المحددة.
+linktitle: UpdateThumbnail
+articleTitle: UpdateThumbnail
+second_title: Aspose.Words لـ .NET
+description: Document UpdateThumbnail طريقة. التحديثاتThumbnail للمستند حسب الخيارات المحددة في C#.
 type: docs
-weight: 800
+weight: 780
 url: /ar/net/aspose.words/document/updatethumbnail/
 ---
-## UpdateThumbnail(ThumbnailGeneratingOptions) {#updatethumbnail_1}
+## UpdateThumbnail(*[ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)*) {#updatethumbnail_1}
 
 التحديثات[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) للمستند حسب الخيارات المحددة.
 
@@ -18,11 +20,11 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 | --- | --- | --- |
 | options | ThumbnailGeneratingOptions | خيارات توليد للاستخدام. |
 
-### ملاحظات
+## ملاحظات
 
 ال[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) يسمح لك بتحديد مصدر الصورة المصغرة والحجم والخيارات الأخرى. إذا فشلت محاولة إنشاء صورة مصغرة، فلا يغير واحدة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديث الصورة المصغرة للمستند.
 
@@ -51,7 +53,7 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 * class [ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -64,7 +66,7 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 public void UpdateThumbnail()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديث الصورة المصغرة للمستند.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

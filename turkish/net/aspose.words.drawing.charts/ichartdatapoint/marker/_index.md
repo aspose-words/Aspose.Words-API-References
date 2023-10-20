@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Marker
-second_title: Aspose.Words for .NET API Referansı
-description: IChartDataPoint mülk. Bir veri işaretçisini belirtir. İşaretleyici istendiğinde otomatik olarak oluşturulur.
+linktitle: Marker
+articleTitle: Marker
+second_title: Aspose.Words for .NET
+description: IChartDataPoint Marker mülk. Bir veri işaretçisini belirtir. İşaretleyici istendiğinde otomatik olarak oluşturulur C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.charts/ichartdatapoint/marker/
@@ -14,7 +16,7 @@ Bir veri işaretçisini belirtir. İşaretleyici istendiğinde otomatik olarak o
 public ChartMarker Marker { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikte veri noktalarıyla nasıl çalışılacağını gösterir.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * class [ChartMarker](../../chartmarker/)
 * interface [IChartDataPoint](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

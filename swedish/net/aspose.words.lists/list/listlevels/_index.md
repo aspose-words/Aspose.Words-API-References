@@ -1,7 +1,9 @@
 ---
 title: List.ListLevels
-second_title: Aspose.Words för .NET API Referens
-description: List fast egendom. Hämtar samlingen av listnivåer för den här listan.
+linktitle: ListLevels
+articleTitle: ListLevels
+second_title: Aspose.Words för .NET
+description: List ListLevels fast egendom. Hämtar samlingen av listnivåer för den här listan i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.lists/list/listlevels/
@@ -14,11 +16,11 @@ Hämtar samlingen av listnivåer för den här listan.
 public ListLevelCollection ListLevels { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Använd den här egenskapen för att komma åt och ändra individuell formatering för varje nivå i listan.
 
-### Exempel
+## Exempel
 
 Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
 
@@ -78,7 +80,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevelCollection](../../listlevelcollection/)
 * class [List](../)
-* namnutrymme [Aspose.Words.Lists](../../list/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

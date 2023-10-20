@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.FontSettings
-second_title: Aspose.Words لمراجع .NET API
-description: LoadOptions ملكية. يسمح بتحديد إعدادات خط المستند.
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words لـ .NET
+description: LoadOptions FontSettings ملكية. يسمح بتحديد إعدادات خط المستند في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.loading/loadoptions/fontsettings/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/loadoptions/fontsettings/
 public FontSettings FontSettings { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عند تحميل بعض التنسيقات، قد يتطلب Aspose.Words حل الخطوط. على سبيل المثال، عند تحميل مستندات HTML، قد يقوم Aspose.Words بتحليل الخطوط لإجراء عملية احتياطية للخط.
 
@@ -22,7 +24,7 @@ public FontSettings FontSettings { get; set; }
 
 القيمة الافتراضية هي`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق إعدادات استبدال الخط أثناء تحميل مستند.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../loadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

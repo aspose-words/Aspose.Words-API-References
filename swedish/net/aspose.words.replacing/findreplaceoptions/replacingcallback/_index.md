@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ReplacingCallback
-second_title: Aspose.Words för .NET API Referens
-description: FindReplaceOptions fast egendom. Den användardefinierade metoden som anropas före varje ersättningsförekomst.
+linktitle: ReplacingCallback
+articleTitle: ReplacingCallback
+second_title: Aspose.Words för .NET
+description: FindReplaceOptions ReplacingCallback fast egendom. Den användardefinierade metoden som anropas före varje ersättningsförekomst i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
@@ -14,7 +16,7 @@ Den användardefinierade metoden som anropas före varje ersättningsförekomst.
 public IReplacingCallback ReplacingCallback { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ersätter alla förekomster av ett reguljärt uttrycksmönster med en annan sträng, samtidigt som alla sådana ersättningar spåras.
 
@@ -139,7 +141,5 @@ private class NumberHexer : IReplacingCallback
 
 * interface [IReplacingCallback](../../ireplacingcallback/)
 * class [FindReplaceOptions](../)
-* namnutrymme [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceAfter
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit la quantité despacement en points après le paragraphe.
+linktitle: SpaceAfter
+articleTitle: SpaceAfter
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat SpaceAfter propriété. Obtient ou définit la quantité despacement en points après le paragraphe en C#.
 type: docs
 weight: 300
 url: /fr/net/aspose.words/paragraphformat/spaceafter/
@@ -20,13 +22,13 @@ public double SpaceAfter { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Lance lorsque l'argument est hors de la plage des valeurs valides. |
 
-### Remarques
+## Remarques
 
 N'a aucun effet lorsque[`SpaceAfterAuto`](../spaceafterauto/) est`vrai`.
 
 Les valeurs valides vont de 0 à 1584 inclus.
 
-### Exemples
+## Exemples
 
 Montre comment définir l’espacement automatique des paragraphes.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

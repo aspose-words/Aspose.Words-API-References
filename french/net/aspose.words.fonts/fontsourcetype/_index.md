@@ -1,7 +1,9 @@
 ---
-title: Enum FontSourceType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontSourceType énumération. Spécifie le type dune source de police.
+title: FontSourceType Enum
+linktitle: FontSourceType
+articleTitle: FontSourceType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.FontSourceType énumération. Spécifie le type dune source de police en C#.
 type: docs
 weight: 2990
 url: /fr/net/aspose.words.fonts/fontsourcetype/
@@ -24,7 +26,7 @@ public enum FontSourceType
 | SystemFonts | `3` | A[`SystemFontSource`](../systemfontsource/) objet qui représente toutes les polices installées sur le système. |
 | FontStream | `4` | A[`StreamFontSource`](../streamfontsource/) objet qui représente un flux avec des données de police. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un fichier de police dans le système de fichiers local comme source de police.
 
@@ -44,5 +46,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

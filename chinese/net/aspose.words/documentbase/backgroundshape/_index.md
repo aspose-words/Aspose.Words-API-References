@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.BackgroundShape
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBase 财产. 获取或设置文档的背景形状可无效的.
+linktitle: BackgroundShape
+articleTitle: BackgroundShape
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBase BackgroundShape 财产. 获取或设置文档的背景形状可无效的 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/documentbase/backgroundshape/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbase/backgroundshape/
 public Shape BackgroundShape { get; set; }
 ```
 
-### 评论
+## 评论
 
 Microsoft Word 只允许具有其自身形状的形状[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/)属性 equal 至Rectangle用作文档的背景形状。
 
@@ -22,7 +24,7 @@ Microsoft Word 仅支持背景形状的填充属性。所有其他属性 都将�
 
 将此属性设置为非空值也会设置[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/)到`真的`。
 
-### 例子
+## 例子
 
 演示如何为文档的每个页面设置背景形状。
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf", saveOptions);
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBase](../)
-* 命名空间 [Aspose.Words](../../documentbase/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

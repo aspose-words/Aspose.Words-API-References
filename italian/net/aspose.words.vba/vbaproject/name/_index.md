@@ -1,7 +1,9 @@
 ---
 title: VbaProject.Name
-second_title: Aspose.Words per .NET API Reference
-description: VbaProject proprietà. Ottiene o imposta il nome del progetto VBA.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words per .NET
+description: VbaProject Name proprietà. Ottiene o imposta il nome del progetto VBA in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.vba/vbaproject/name/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del progetto VBA.
 public string Name { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un progetto VBA utilizzando le macro.
 
@@ -67,7 +69,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Guarda anche
 
 * class [VbaProject](../)
-* spazio dei nomi [Aspose.Words.Vba](../../vbaproject/)
+* spazio dei nomi [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assemblea [Aspose.Words](../../../)
-
-

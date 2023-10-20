@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.BuildingBlocks.BuildingBlockType Sıralama. Bir yapı taşı türünü belirtir. Tür Microsoft Word. yapı bloğunun görünürlüğünü ve davranışını etkileyebilir.
+title: BuildingBlockType Enum
+linktitle: BuildingBlockType
+articleTitle: BuildingBlockType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockType Sıralama. Bir yapı taşı türünü belirtir. Tür Microsoft Word. yapı bloğunun görünürlüğünü ve davranışını etkileyebilir C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.buildingblocks/buildingblocktype/
@@ -28,11 +30,11 @@ public enum BuildingBlockType
 | All | `7` | Yapı bloğu tüm türlerle ilişkilidir. |
 | Default | `0` | Farklı kaydetNone . |
 
-### Notlar
+## Notlar
 
-karşılık gelir **ST_DocPartType** OOXML yazın.
+karşılık gelir**ST_DocPartType** OOXML yazın.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 
@@ -130,5 +132,3 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * ad alanı [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../)
-
-

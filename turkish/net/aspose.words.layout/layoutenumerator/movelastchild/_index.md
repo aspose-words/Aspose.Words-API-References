@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveLastChild
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutEnumerator yöntem. Son alt varlığa gider.
+linktitle: MoveLastChild
+articleTitle: MoveLastChild
+second_title: Aspose.Words for .NET
+description: LayoutEnumerator MoveLastChild yöntem. Son alt varlığa gider C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.layout/layoutenumerator/movelastchild/
@@ -14,7 +16,7 @@ Son alt varlığa gider.
 public bool MoveLastChild()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ayrıca bakınız
 
 * class [LayoutEnumerator](../)
-* ad alanı [Aspose.Words.Layout](../../layoutenumerator/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

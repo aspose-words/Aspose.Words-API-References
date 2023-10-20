@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.WebRequestTimeout
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlLoadOptions mülk. Web isteği zaman aşımına uğramadan önce beklenecek milisaniye sayısı. Varsayılan değer 100000 milliseconds 100 saniye. dir.
+linktitle: WebRequestTimeout
+articleTitle: WebRequestTimeout
+second_title: Aspose.Words for .NET
+description: HtmlLoadOptions WebRequestTimeout mülk. Web isteği zaman aşımına uğramadan önce beklenecek milisaniye sayısı. Varsayılan değer 100000 milliseconds 100 saniye. dir C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.loading/htmlloadoptions/webrequesttimeout/
@@ -14,11 +16,11 @@ Web isteği zaman aşımına uğramadan önce beklenecek milisaniye sayısı. Va
 public int WebRequestTimeout { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 HTML ve MHTML belgelerine bağlı harici kaynakları (resimler, style sayfalar) yüklerken Aspose.Words'ün yanıt için bekleyeceği milisaniye sayısı.
 
-### Örnekler
+## Örnekler
 
 URL'lerle bağlanan harici kaynaklara sahip bir belge yüklenirken web istekleri için zaman sınırının nasıl ayarlanacağını gösterir.
 
@@ -87,7 +89,5 @@ private class ListDocumentWarnings : IWarningCallback
 ### Ayrıca bakınız
 
 * class [HtmlLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../htmlloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

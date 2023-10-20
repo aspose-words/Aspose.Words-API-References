@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ActiveRecord
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeSettings propriété. Spécifie lindex de base un de lenregistrement de la source de données qui doit être affiché dans Microsoft Word. La valeur par défaut est 1.
+linktitle: ActiveRecord
+articleTitle: ActiveRecord
+second_title: Aspose.Words pour .NET
+description: MailMergeSettings ActiveRecord propriété. Spécifie lindex de base un de lenregistrement de la source de données qui doit être affiché dans Microsoft Word. La valeur par défaut est 1 en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.settings/mailmergesettings/activerecord/
@@ -14,7 +16,7 @@ Spécifie l'index de base un de l'enregistrement de la source de données qui do
 public int ActiveRecord { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage lors de la connexion à une source de données externe.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Voir également
 
 * class [MailMergeSettings](../)
-* espace de noms [Aspose.Words.Settings](../../mailmergesettings/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImageResolution
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. HTML MHTML veya EPUBa dışa aktarırken görüntülerin çıktı çözünürlüğünü belirtir. Varsayılan96 dpi .
+linktitle: ImageResolution
+articleTitle: ImageResolution
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ImageResolution mülk. HTML MHTML veya EPUBa dışa aktarırken görüntülerin çıktı çözünürlüğünü belirtir. Varsayılan96 dpi  C#'da.
 type: docs
 weight: 340
 url: /tr/net/aspose.words.saving/htmlsaveoptions/imageresolution/
@@ -14,11 +16,11 @@ HTML, MHTML veya EPUB'a dışa aktarırken görüntülerin çıktı çözünürl
 public int ImageResolution { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, taramalı görüntüleri aşağıdaki durumlarda etkiler:[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) :`doğru` ve raster görüntüler olarak dışa aktarılan efekt meta dosyaları. Cropping veya rotasyon gibi bazı görüntü özellikleri, dönüştürülmüş görüntülerin kaydedilmesini gerektirir ve bu durumda dönüştürülmüş görüntüler, verilen çözünürlükte oluşturulur.
 
-### Örnekler
+## Örnekler
 
 Aspose.Words'ün bir belgeyi HTML'ye kaydederken oluşturacağı harici olarak kaydedilen kaynaklar için klasörlerin ve klasör takma adlarının nasıl ayarlanacağını gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 
 * property [ScaleImageToShapeSize](../scaleimagetoshapesize/)
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

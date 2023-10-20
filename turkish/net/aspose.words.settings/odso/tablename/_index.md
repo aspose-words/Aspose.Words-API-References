@@ -1,7 +1,9 @@
 ---
 title: Odso.TableName
-second_title: Aspose.Words for .NET API Referansı
-description: Odso mülk. Bir kaynağın harici bir veri kaynağı dahilinde bağlanacağı belirli veri kümesini belirtir. Varsayılan değer boş bir dizedir.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words for .NET
+description: Odso TableName mülk. Bir kaynağın harici bir veri kaynağı dahilinde bağlanacağı belirli veri kümesini belirtir. Varsayılan değer boş bir dizedir C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.settings/odso/tablename/
@@ -14,7 +16,7 @@ Bir kaynağın harici bir veri kaynağı dahilinde bağlanacağı belirli veri k
 public string TableName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Dış veri kaynağına bağlanırken adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Ayrıca bakınız
 
 * class [Odso](../)
-* ad alanı [Aspose.Words.Settings](../../odso/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

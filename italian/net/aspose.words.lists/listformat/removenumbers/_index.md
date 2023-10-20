@@ -1,7 +1,9 @@
 ---
 title: ListFormat.RemoveNumbers
-second_title: Aspose.Words per .NET API Reference
-description: ListFormat metodo. Rimuove numeri o punti elenco dal paragrafo corrente e imposta il livello dellelenco su zero.
+linktitle: RemoveNumbers
+articleTitle: RemoveNumbers
+second_title: Aspose.Words per .NET
+description: ListFormat RemoveNumbers metodo. Rimuove numeri o punti elenco dal paragrafo corrente e imposta il livello dellelenco su zero in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.lists/listformat/removenumbers/
@@ -14,11 +16,11 @@ Rimuove numeri o punti elenco dal paragrafo corrente e imposta il livello dell'e
 public void RemoveNumbers()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Chiamare questo metodo equivale a impostare il file[`List`](../list/) proprietà a`nullo`.
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere la formattazione dell'elenco da tutti i paragrafi nel testo principale di una sezione.
 
@@ -124,7 +126,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Guarda anche
 
 * class [ListFormat](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listformat/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

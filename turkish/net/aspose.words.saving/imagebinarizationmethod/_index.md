@@ -1,7 +1,9 @@
 ---
-title: Enum ImageBinarizationMethod
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.ImageBinarizationMethod Sıralama. Görüntüyü ikili hale getirmek için kullanılan yöntemi belirtir.
+title: ImageBinarizationMethod Enum
+linktitle: ImageBinarizationMethod
+articleTitle: ImageBinarizationMethod
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.ImageBinarizationMethod Sıralama. Görüntüyü ikili hale getirmek için kullanılan yöntemi belirtir C#'da.
 type: docs
 weight: 5200
 url: /tr/net/aspose.words.saving/imagebinarizationmethod/
@@ -21,7 +23,7 @@ public enum ImageBinarizationMethod
 | Threshold | `0` | Eşik yöntemini belirtir. |
 | FloydSteinbergDithering | `1` | Floyd-Steinberg hata dağıtma yöntemini kullanarak renk taklidini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Bir TIFF görüntüsünü oluşturmak için Floyd-Steinberg yöntemini kullanırken TIFF ikilileştirme hatası eşiğinin nasıl ayarlanacağını gösterir.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.FloydSteinbergDithering.tiff", options
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

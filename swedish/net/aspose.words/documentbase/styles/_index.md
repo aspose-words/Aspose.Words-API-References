@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Styles
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBase fast egendom. Returnerar en samling stilar definierade i dokumentet.
+linktitle: Styles
+articleTitle: Styles
+second_title: Aspose.Words för .NET
+description: DocumentBase Styles fast egendom. Returnerar en samling stilar definierade i dokumentet i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/documentbase/styles/
@@ -14,11 +16,11 @@ Returnerar en samling stilar definierade i dokumentet.
 public StyleCollection Styles { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För mer information se beskrivningen av[`StyleCollection`](../../stylecollection/) klass.
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt ett dokuments stilsamling.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [StyleCollection](../../stylecollection/)
 * class [DocumentBase](../)
-* namnutrymme [Aspose.Words](../../documentbase/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

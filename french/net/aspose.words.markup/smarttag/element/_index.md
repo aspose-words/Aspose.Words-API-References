@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Element
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SmartTag propriété. Spécifie le nom de la balise active dans le document.
+linktitle: Element
+articleTitle: Element
+second_title: Aspose.Words pour .NET
+description: SmartTag Element propriété. Spécifie le nom de la balise active dans le document en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.markup/smarttag/element/
@@ -14,13 +16,13 @@ Spécifie le nom de la balise active dans le document.
 public string Element { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 C'est pas possible`nul`.
 
 La valeur par défaut est une chaîne vide.
 
-### Exemples
+## Exemples
 
 Montre comment créer des balises intelligentes.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Voir également
 
 * class [SmartTag](../)
-* espace de noms [Aspose.Words.Markup](../../smarttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

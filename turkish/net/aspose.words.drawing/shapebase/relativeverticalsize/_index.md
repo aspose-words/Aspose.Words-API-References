@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeVerticalSize
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin göreli boyutunun değerini dikey yönde alır veya ayarlar.
+linktitle: RelativeVerticalSize
+articleTitle: RelativeVerticalSize
+second_title: Aspose.Words for .NET
+description: ShapeBase RelativeVerticalSize mülk. Şeklin göreli boyutunun değerini dikey yönde alır veya ayarlar C#'da.
 type: docs
 weight: 450
 url: /tr/net/aspose.words.drawing/shapebase/relativeverticalsize/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.drawing/shapebase/relativeverticalsize/
 public RelativeVerticalSize RelativeVerticalSize { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Margin.
 
 Yalnızca şu durumlarda etkilidir:[`HeightRelative`](../heightrelative/) ayarlandı.
 
-### Örnekler
+## Örnekler
 
 Göreli boyut ve konumun nasıl ayarlanacağını gösterir.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 
 * enum [RelativeVerticalSize](../../relativeverticalsize/)
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

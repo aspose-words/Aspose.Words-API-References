@@ -1,7 +1,9 @@
 ---
-title: Class VariableCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.VariableCollection 班级. 文档变量的集合
+title: VariableCollection Class
+linktitle: VariableCollection
+articleTitle: VariableCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.VariableCollection 班级. 文档变量的集合 在 C#.
 type: docs
 weight: 6530
 url: /zh/net/aspose.words/variablecollection/
@@ -27,21 +29,21 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words/variablecollection/add/)(string, string) | 将文档变量添加到集合中。 |
+| [Add](../../aspose.words/variablecollection/add/)(*string, string*) | 将文档变量添加到集合中。 |
 | [Clear](../../aspose.words/variablecollection/clear/)() | 从集合中删除所有元素。 |
-| [Contains](../../aspose.words/variablecollection/contains/)(string) | 确定集合中是否包含具有给定名称的文档变量。 |
+| [Contains](../../aspose.words/variablecollection/contains/)(*string*) | 确定集合中是否包含具有给定名称的文档变量。 |
 | [GetEnumerator](../../aspose.words/variablecollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有变量。 |
-| [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(string) | 返回集合中指定文档变量的从零开始的索引。 |
-| [Remove](../../aspose.words/variablecollection/remove/)(string) | 从集合中删除具有指定名称的文档变量。 |
-| [RemoveAt](../../aspose.words/variablecollection/removeat/)(int) | 删除指定索引处的文档变量。 |
+| [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(*string*) | 返回集合中指定文档变量的从零开始的索引。 |
+| [Remove](../../aspose.words/variablecollection/remove/)(*string*) | 从集合中删除具有指定名称的文档变量。 |
+| [RemoveAt](../../aspose.words/variablecollection/removeat/)(*int*) | 删除指定索引处的文档变量。 |
 
-### 评论
+## 评论
 
 变量名称和值是字符串。
 
 变量名不区分大小写。
 
-### 例子
+## 例子
 
 展示如何使用文档的变量集合。
 
@@ -109,5 +111,3 @@ Assert.That(variables, Is.Empty);
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

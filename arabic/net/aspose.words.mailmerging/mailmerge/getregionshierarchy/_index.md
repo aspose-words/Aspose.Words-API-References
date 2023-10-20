@@ -1,7 +1,9 @@
 ---
 title: MailMerge.GetRegionsHierarchy
-second_title: Aspose.Words لمراجع .NET API
-description: MailMerge طريقة. يُرجع التسلسل الهرمي الكامل للمناطق مع الحقول المتوفرة في المستند.
+linktitle: GetRegionsHierarchy
+articleTitle: GetRegionsHierarchy
+second_title: Aspose.Words لـ .NET
+description: MailMerge GetRegionsHierarchy طريقة. يُرجع التسلسل الهرمي الكامل للمناطق مع الحقول المتوفرة في المستند في C#.
 type: docs
 weight: 250
 url: /ar/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/
@@ -18,11 +20,11 @@ public MailMergeRegionInfo GetRegionsHierarchy()
 
 التسلسل الهرمي للمناطق.
 
-### ملاحظات
+## ملاحظات
 
 يتم إرجاع التسلسل الهرمي في شكل[`MailMergeRegionInfo`](../../mailmergeregioninfo/) فصل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من مناطق دمج البريد.
 
@@ -68,7 +70,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * class [MailMergeRegionInfo](../../mailmergeregioninfo/)
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

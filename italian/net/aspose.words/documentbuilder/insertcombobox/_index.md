@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertComboBox
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce un campo modulo combobox nella posizione corrente.
+linktitle: InsertComboBox
+articleTitle: InsertComboBox
+second_title: Aspose.Words per .NET
+description: DocumentBuilder InsertComboBox metodo. Inserisce un campo modulo combobox nella posizione corrente in C#.
 type: docs
 weight: 300
 url: /it/net/aspose.words/documentbuilder/insertcombobox/
@@ -24,11 +26,11 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 Il nodo del campo modulo appena inserito.
 
-### Osservazioni
+## Osservazioni
 
 Se specifichi un nome per il campo modulo, verrà creato automaticamente un segnalibro con lo stesso nome.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un campo modulo di una casella combinata in un documento.
 
@@ -71,7 +73,5 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

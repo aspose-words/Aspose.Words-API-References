@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.FirstColumn
-second_title: Aspose.Words per .NET API Reference
-description: ConditionalStyleCollection proprietà. Ottiene lo stile della prima colonna.
+linktitle: FirstColumn
+articleTitle: FirstColumn
+second_title: Aspose.Words per .NET
+description: ConditionalStyleCollection FirstColumn proprietà. Ottiene lo stile della prima colonna in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/conditionalstylecollection/firstcolumn/
@@ -14,7 +16,7 @@ Ottiene lo stile della prima colonna.
 public ConditionalStyle FirstColumn { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con determinati stili di area di una tabella.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* spazio dei nomi [Aspose.Words](../../conditionalstylecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

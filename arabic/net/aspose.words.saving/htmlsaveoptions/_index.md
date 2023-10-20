@@ -1,7 +1,9 @@
 ---
-title: Class HtmlSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.HtmlSaveOptions فصل. يمكن استخدامه لتحديد خيارات إضافية عند حفظ مستند في Html Mhtml EpubAzw3 أوMobi التنسيق.
+title: HtmlSaveOptions Class
+linktitle: HtmlSaveOptions
+articleTitle: HtmlSaveOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.HtmlSaveOptions فصل. يمكن استخدامه لتحديد خيارات إضافية عند حفظ مستند في Html Mhtml EpubAzw3 أوMobi التنسيق في C#.
 type: docs
 weight: 5110
 url: /ar/net/aspose.words.saving/htmlsaveoptions/
@@ -21,7 +23,7 @@ public class HtmlSaveOptions : SaveOptions
 | اسم | وصف |
 | --- | --- |
 | [HtmlSaveOptions](htmlsaveoptions/#constructor)() | تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيHtml التنسيق. |
-| [HtmlSaveOptions](htmlsaveoptions/#constructor_1)(SaveFormat) | تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيHtml ,Mhtml ,EpubAzw3 أوMobi التنسيق. |
+| [HtmlSaveOptions](htmlsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ document فيHtml ,Mhtml ,EpubAzw3 أوMobi التنسيق. |
 
 ## الخصائص
 
@@ -34,7 +36,7 @@ public class HtmlSaveOptions : SaveOptions
 | [CssStyleSheetFileName](../../aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/) { get; set; } | يحدد المسار واسم ملف ورقة الأنماط المتتالية (CSS) الذي يتم كتابته عند تصدير مستند إلى HTML. الافتراضي هو سلسلة فارغة. |
 | [CssStyleSheetType](../../aspose.words.saving/htmlsaveoptions/cssstylesheettype/) { get; set; } | يحدد كيفية تصدير أنماط CSS (ورقة الأنماط المتتالية) إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيInline لـ HTML/MHTML و External لـ EPUB. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | الحصول على أو تعيين المنطقة الزمنية المحلية المخصصة المستخدمة لحقول التاريخ/الوقت. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض التأثيرات ثلاثية الأبعاد. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض تأثيرات DrawML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض أشكال DrawML. |
@@ -91,7 +93,7 @@ public class HtmlSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام الصقل للعرض أم لا. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام خوارزميات عرض عالية الجودة (أي بطيئة) أم لا. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المجلد لتخزين الصور المرتبطة بعد حفظها في .html.
 
@@ -254,5 +256,3 @@ public class SavedImageRename : IImageSavingCallback
 * class [SaveOptions](../saveoptions/)
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

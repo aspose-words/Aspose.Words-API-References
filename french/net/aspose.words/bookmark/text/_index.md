@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Text
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Bookmark propriété. Obtient ou définit le texte inclus dans le signet.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words pour .NET
+description: Bookmark Text propriété. Obtient ou définit le texte inclus dans le signet en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/bookmark/text/
@@ -14,7 +16,7 @@ Obtient ou définit le texte inclus dans le signet.
 public string Text { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des signets et mettre à jour leur contenu.
 
@@ -103,7 +105,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Voir également
 
 * class [Bookmark](../)
-* espace de noms [Aspose.Words](../../bookmark/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

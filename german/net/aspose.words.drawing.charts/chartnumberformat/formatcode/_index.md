@@ -1,7 +1,9 @@
 ---
 title: ChartNumberFormat.FormatCode
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartNumberFormat eigendom. Ruft den auf eine Datenbeschriftung angewendeten Formatcode ab oder legt diesen fest.
+linktitle: FormatCode
+articleTitle: FormatCode
+second_title: Aspose.Words für .NET
+description: ChartNumberFormat FormatCode eigendom. Ruft den auf eine Datenbeschriftung angewendeten Formatcode ab oder legt diesen fest in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/chartnumberformat/formatcode/
@@ -14,7 +16,7 @@ Ruft den auf eine Datenbeschriftung angewendeten Formatcode ab oder legt diesen 
 public string FormatCode { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die Zahlenformatierung wird verwendet, um die Art und Weise zu ändern, wie ein Wert in der Datenbeschriftung angezeigt wird, und kann auf sehr kreative Weise verwendet werden. Die Beispiele für Zahlenformate:
 
@@ -38,7 +40,7 @@ Buchhaltung - "_-\"$\"* #,##0.00_-;-\"$\"* #,##0.00_-;_-\"$\"* \"-\"??_ -;_-@_-"
 
 Benutzerdefiniert mit Farbe – „[Rot]-#,##0.0“
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Formatierung für Diagrammwerte festgelegt wird.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ### Siehe auch
 
 * class [ChartNumberFormat](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartnumberformat/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

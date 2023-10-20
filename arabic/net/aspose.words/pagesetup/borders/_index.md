@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Borders
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. الحصول على مجموعة من حدود الصفحة.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words لـ .NET
+description: PageSetup Borders ملكية. الحصول على مجموعة من حدود الصفحة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/pagesetup/borders/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/borders/
 public BorderCollection Borders { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حدود صفحة خضراء متموجة مع الظل.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

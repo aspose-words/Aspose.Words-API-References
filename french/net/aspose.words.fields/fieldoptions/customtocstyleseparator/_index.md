@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.CustomTocStyleSeparator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldOptions propriété. Obtient ou définit un séparateur de style personnalisé pour le commutateur t dansFieldToc champ.
+linktitle: CustomTocStyleSeparator
+articleTitle: CustomTocStyleSeparator
+second_title: Aspose.Words pour .NET
+description: FieldOptions CustomTocStyleSeparator propriété. Obtient ou définit un séparateur de style personnalisé pour le commutateur t dansFieldToc champ en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
@@ -14,11 +16,11 @@ Obtient ou définit un séparateur de style personnalisé pour le commutateur \t
 public string CustomTocStyleSeparator { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Par défaut, les styles personnalisés définis par le commutateur \t dans le[`FieldToc`](../../fieldtoc/)Les champs sont séparés par un délimiteur issu de la culture actuelle. Cette propriété remplace ce comportement en spécifiant un délimiteur défini par l'utilisateur.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une table des matières et la remplir avec des entrées basées sur les styles de titre.
 
@@ -103,7 +105,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Voir également
 
 * class [FieldOptions](../)
-* espace de noms [Aspose.Words.Fields](../../fieldoptions/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

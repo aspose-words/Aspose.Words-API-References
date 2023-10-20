@@ -1,7 +1,9 @@
 ---
 title: Fill.BackTintAndShade
-second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. الحصول على أو تعيين قيمة مزدوجة تؤدي إلى تفتيح أو تغميق لون الخلفية.
+linktitle: BackTintAndShade
+articleTitle: BackTintAndShade
+second_title: Aspose.Words لـ .NET
+description: Fill BackTintAndShade ملكية. الحصول على أو تعيين قيمة مزدوجة تؤدي إلى تفتيح أو تغميق لون الخلفية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/fill/backtintandshade/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/fill/backtintandshade/
 public double BackTintAndShade { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيم المسموح بها تقع ضمن النطاق من -1 (الأغمق) إلى 1 (الأفتح) لهذه الخاصية. الصفر (0) محايد. محاولة تعيين هذه الخاصية إلى قيمة أقل من -1 أو أكثر من 1 تؤدي إلىArgumentOutOfRangeException.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين لون السمة للون شكل المقدمة/الخلفية.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 ### أنظر أيضا
 
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

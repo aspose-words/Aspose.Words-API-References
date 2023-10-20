@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParentStory
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 检索父部分级别的故事可以Body或者HeaderFooter.
+linktitle: ParentStory
+articleTitle: ParentStory
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph ParentStory 财产. 检索父部分级别的故事可以Body或者HeaderFooter 在 C#.
 type: docs
 weight: 210
 url: /zh/net/aspose.words/paragraph/parentstory/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/parentstory/
 public Story ParentStory { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建页眉和页脚。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Story](../../story/)
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

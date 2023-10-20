@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ForcePageBreaks
-second_title: Aspose.Words for .NET API 参考
-description: TxtSaveOptionsBase 财产. 允许指定导出期间是否应保留分页符
+linktitle: ForcePageBreaks
+articleTitle: ForcePageBreaks
+second_title: 用于 .NET 的 Aspose.Words
+description: TxtSaveOptionsBase ForcePageBreaks 财产. 允许指定导出期间是否应保留分页符 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
@@ -16,11 +18,11 @@ url: /zh/net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
 public bool ForcePageBreaks { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性仅影响显式插入到文档中的分页符。 MS Word 在每页末尾自动插入的分页符与分页符无关。
 
-### 例子
+## 例子
 
 演示如何指定在将文档导出为纯文本时是否保留分页符。
 
@@ -56,7 +58,5 @@ Assert.AreEqual(forcePageBreaks ? 3 : 1, doc.PageCount);
 ### 也可以看看
 
 * class [TxtSaveOptionsBase](../)
-* 命名空间 [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

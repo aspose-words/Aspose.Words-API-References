@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ListFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph propiedad. Proporciona acceso a las propiedades de formato de lista del párrafo.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words para .NET
+description: Paragraph ListFormat propiedad. Proporciona acceso a las propiedades de formato de lista del párrafo en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words/paragraph/listformat/
@@ -14,7 +16,7 @@ Proporciona acceso a las propiedades de formato de lista del párrafo.
 public ListFormat ListFormat { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo generar todos los párrafos de un documento que son elementos de lista.
 
@@ -47,7 +49,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

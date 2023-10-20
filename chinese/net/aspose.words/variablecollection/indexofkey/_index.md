@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.IndexOfKey
-second_title: Aspose.Words for .NET API 参考
-description: VariableCollection 方法. 返回集合中指定文档变量的从零开始的索引
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: 用于 .NET 的 Aspose.Words
+description: VariableCollection IndexOfKey 方法. 返回集合中指定文档变量的从零开始的索引 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/variablecollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 从零开始的索引。如果没有找到则为负值。
 
-### 例子
+## 例子
 
 展示如何使用文档的变量集合。
 
@@ -89,7 +91,5 @@ Assert.That(variables, Is.Empty);
 ### 也可以看看
 
 * class [VariableCollection](../)
-* 命名空间 [Aspose.Words](../../variablecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

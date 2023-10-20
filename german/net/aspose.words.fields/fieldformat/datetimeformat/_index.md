@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.DateTimeFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldFormat eigendom. Ruft eine Formatierung ab die auf ein Datums und Uhrzeitfeldergebnis angewendet wird oder legt diese fest. Entspricht dem  switch.
+linktitle: DateTimeFormat
+articleTitle: DateTimeFormat
+second_title: Aspose.Words für .NET
+description: FieldFormat DateTimeFormat eigendom. Ruft eine Formatierung ab die auf ein Datums und Uhrzeitfeldergebnis angewendet wird oder legt diese fest. Entspricht dem  switch in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldformat/datetimeformat/
@@ -14,7 +16,7 @@ Ruft eine Formatierung ab, die auf ein Datums- und Uhrzeitfeldergebnis angewende
 public string DateTimeFormat { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Feldergebnisse formatiert werden.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Siehe auch
 
 * class [FieldFormat](../)
-* namensraum [Aspose.Words.Fields](../../fieldformat/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

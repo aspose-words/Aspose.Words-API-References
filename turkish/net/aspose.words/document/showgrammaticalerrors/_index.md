@@ -1,7 +1,9 @@
 ---
 title: Document.ShowGrammaticalErrors
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bu belgede dilbilgisi hatalarının görüntülenip görüntülenmeyeceğini belirtir.
+linktitle: ShowGrammaticalErrors
+articleTitle: ShowGrammaticalErrors
+second_title: Aspose.Words for .NET
+description: Document ShowGrammaticalErrors mülk. Bu belgede dilbilgisi hatalarının görüntülenip görüntülenmeyeceğini belirtir C#'da.
 type: docs
 weight: 390
 url: /tr/net/aspose.words/document/showgrammaticalerrors/
@@ -14,7 +16,7 @@ Bu belgede dilbilgisi hatalarının görüntülenip görüntülenmeyeceğini bel
 public bool ShowGrammaticalErrors { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgedeki hataların nasıl gösterileceğini/gizleneceğini gösterir.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.SpellingAndGrammarErrors.docx");
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

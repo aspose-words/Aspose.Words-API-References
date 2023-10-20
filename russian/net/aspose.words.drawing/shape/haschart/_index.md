@@ -1,7 +1,9 @@
 ---
 title: Shape.HasChart
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Возвращаетистинный если этоShape имеетChart .
+linktitle: HasChart
+articleTitle: HasChart
+second_title: Aspose.Words для .NET
+description: Shape HasChart свойство. Возвращаетистинный если этоShape имеетChart  на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing/shape/haschart/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shape/haschart/
 public bool HasChart { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перебирать все фигуры в документе.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Смотрите также
 
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

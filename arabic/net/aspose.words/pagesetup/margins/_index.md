@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Margins
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. إرجاع أو ضبط الإعداد المسبقMargins من الصفحة.
+linktitle: Margins
+articleTitle: Margins
+second_title: Aspose.Words لـ .NET
+description: PageSetup Margins ملكية. إرجاع أو ضبط الإعداد المسبقMargins من الصفحة في C#.
 type: docs
 weight: 260
 url: /ar/net/aspose.words/pagesetup/margins/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/margins/
 public Margins Margins { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح متى يجب إعادة حساب تخطيط صفحة المستند.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 * enum [Margins](../../margins/)
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

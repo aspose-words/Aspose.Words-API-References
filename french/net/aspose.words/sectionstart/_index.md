@@ -1,7 +1,9 @@
 ---
-title: Enum SectionStart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.SectionStart énumération. Le type de saut en début de section.
+title: SectionStart Enum
+linktitle: SectionStart
+articleTitle: SectionStart
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.SectionStart énumération. Le type de saut en début de section en C#.
 type: docs
 weight: 5760
 url: /fr/net/aspose.words/sectionstart/
@@ -24,7 +26,7 @@ public enum SectionStart
 | EvenPage | `3` | La section commence sur une nouvelle page paire. |
 | OddPage | `4` | La section commence sur une nouvelle page impaire. |
 
-### Exemples
+## Exemples
 
 Montre comment construire manuellement un document Aspose.Words.
 
@@ -120,5 +122,3 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

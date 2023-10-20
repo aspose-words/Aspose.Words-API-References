@@ -1,7 +1,9 @@
 ---
 title: FramesetCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: FramesetCollection fast egendom. Hämtar antalet ramar eller ramsidor som finns i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: FramesetCollection Count fast egendom. Hämtar antalet ramar eller ramsidor som finns i samlingen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.framesets/framesetcollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Se även
 
 * class [FramesetCollection](../)
-* namnutrymme [Aspose.Words.Framesets](../../framesetcollection/)
+* namnutrymme [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * hopsättning [Aspose.Words](../../../)
-
-

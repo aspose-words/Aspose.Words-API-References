@@ -1,7 +1,9 @@
 ---
 title: InlineStory.IsInsertRevision
-second_title: Aspose.Words för .NET API Referens
-description: InlineStory fast egendom. Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad.
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: Aspose.Words för .NET
+description: InlineStory IsInsertRevision fast egendom. Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/inlinestory/isinsertrevision/
@@ -14,7 +16,7 @@ Returnerar sant om det här objektet infogades i Microsoft Word medan ändringss
 public bool IsInsertRevision { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man visar revisionsrelaterade egenskaper för InlineStory-noder.
 
@@ -62,7 +64,5 @@ Assert.IsTrue(footnotes[3].IsDeleteRevision);
 ### Se även
 
 * class [InlineStory](../)
-* namnutrymme [Aspose.Words](../../inlinestory/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

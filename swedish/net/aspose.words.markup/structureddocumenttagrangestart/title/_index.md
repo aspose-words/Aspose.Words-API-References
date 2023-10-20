@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Title
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart fast egendom. Anger det vänliga namnet som är kopplat till denna strukturerade dokumenttagg. Kan intenull .
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeStart Title fast egendom. Anger det vänliga namnet som är kopplat till denna strukturerade dokumenttagg. Kan intenull  i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/title/
@@ -14,7 +16,7 @@ Anger det vänliga namnet som är kopplat till denna strukturerade dokumenttagg.
 public string Title { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Se även
 
 * class [StructuredDocumentTagRangeStart](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

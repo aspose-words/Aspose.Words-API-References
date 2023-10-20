@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.LegacyMode
-second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Eski bul/değiştir algoritmasının kullanıldığını belirten bir boole değeri alır veya ayarlar.
+linktitle: LegacyMode
+articleTitle: LegacyMode
+second_title: Aspose.Words for .NET
+description: FindReplaceOptions LegacyMode mülk. Eski bul/değiştir algoritmasının kullanıldığını belirten bir boole değeri alır veya ayarlar C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.replacing/findreplaceoptions/legacymode/
@@ -14,11 +16,11 @@ Eski bul/değiştir algoritmasının kullanıldığını belirten bir boole değ
 public bool LegacyMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Gelişmiş bul/değiştir özelliğinin tanıtılmasından önceki davranışın tam olarak aynısına ihtiyacınız varsa bu bayrağı kullanın. Eski algoritmanın, aralarla değiştirme, biçimlendirme uygulama vb. gibi gelişmiş özellikleri desteklemediğini unutmayın.
 
-### Örnekler
+## Örnekler
 
 Değiştirme kalıpları içindeki değiştirmelerin nasıl tanınacağını ve kullanılacağını gösterir.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(doc.GetText(), "Paul took money from Jason.\f");
 ### Ayrıca bakınız
 
 * class [FindReplaceOptions](../)
-* ad alanı [Aspose.Words.Replacing](../../findreplaceoptions/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetSizeInPixels
-second_title: Aspose.Words لمراجع .NET API
-description: NodeRendererBase طريقة. حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين.
+linktitle: GetSizeInPixels
+articleTitle: GetSizeInPixels
+second_title: Aspose.Words لـ .NET
+description: NodeRendererBase GetSizeInPixels طريقة. حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.rendering/noderendererbase/getsizeinpixels/
 ---
-## GetSizeInPixels(float, float) {#getsizeinpixels}
+## GetSizeInPixels(*float, float*) {#getsizeinpixels}
 
 حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين.
 
@@ -23,11 +25,11 @@ public Size GetSizeInPixels(float scale, float dpi)
 
 حجم الشكل بالبكسل.
 
-### ملاحظات
+## ملاحظات
 
 هذه الطريقة تحول[`SizeInPoints`](../sizeinpoints/) إلى الحجم بالبكسل وهو مفيد عندما تريد إنشاء صورة نقطية لعرض الشكل بدقة على الصورة النقطية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قياس الأشكال وحجمها.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### أنظر أيضا
 
 * class [NodeRendererBase](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../noderendererbase/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
+## GetSizeInPixels(*float, float, float*) {#getsizeinpixels_1}
 
 حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين.
 
@@ -97,11 +99,11 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 حجم الشكل بالبكسل.
 
-### ملاحظات
+## ملاحظات
 
 هذه الطريقة تحول[`SizeInPoints`](../sizeinpoints/) إلى الحجم بالبكسل وهو مفيد عندما تريد إنشاء صورة نقطية لعرض الشكل بدقة على الصورة النقطية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قياس الأشكال وحجمها.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### أنظر أيضا
 
 * class [NodeRendererBase](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../noderendererbase/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

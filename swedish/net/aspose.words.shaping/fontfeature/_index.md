@@ -1,7 +1,9 @@
 ---
-title: Enum FontFeature
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Shaping.FontFeature uppräkning. Funktioner ger information om hur glyfer används i ett teckensnitt för att rendera ett skript. https//docs.microsoft.com/enus/typography/opentype/spec/featuretags
+title: FontFeature Enum
+linktitle: FontFeature
+articleTitle: FontFeature
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Shaping.FontFeature uppräkning. Funktioner ger information om hur glyfer används i ett teckensnitt för att rendera ett skript. https//docs.microsoft.com/enus/typography/opentype/spec/featuretags i C#.
 type: docs
 weight: 6030
 url: /sv/net/aspose.words.shaping/fontfeature/
@@ -56,5 +58,3 @@ public enum FontFeature
 
 * namnutrymme [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * hopsättning [Aspose.Words](../../)
-
-

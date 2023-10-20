@@ -1,7 +1,9 @@
 ---
 title: ListLevel.StartAt
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevel mülk. Bu liste düzeyi için başlangıç numarasını döndürür veya ayarlar.
+linktitle: StartAt
+articleTitle: StartAt
+second_title: Aspose.Words for .NET
+description: ListLevel StartAt mülk. Bu liste düzeyi için başlangıç numarasını döndürür veya ayarlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.lists/listlevel/startat/
@@ -14,11 +16,11 @@ Bu liste düzeyi için başlangıç numarasını döndürür veya ayarlar.
 public int StartAt { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 1'dir.
 
-### Örnekler
+## Örnekler
 
 Bir listeyi kopyalayarak listedeki numaralandırmanın nasıl yeniden başlatılacağını gösterir.
 
@@ -116,7 +118,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Ayrıca bakınız
 
 * class [ListLevel](../)
-* ad alanı [Aspose.Words.Lists](../../listlevel/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

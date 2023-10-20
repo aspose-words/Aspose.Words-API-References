@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Remove
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GradientStopCollection méthode. Supprime un spécifiéGradientStop de la collection.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words pour .NET
+description: GradientStopCollection Remove méthode. Supprime un spécifiéGradientStop de la collection en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.drawing/gradientstopcollection/remove/
@@ -18,7 +20,7 @@ public bool Remove(GradientStop gradientStop)
 
 `vrai` si l'arrêt du dégradé a été supprimé avec succès, sinon`FAUX`.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des points de dégradé au remplissage dégradé.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* espace de noms [Aspose.Words.Drawing](../../gradientstopcollection/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

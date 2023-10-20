@@ -1,7 +1,9 @@
 ---
 title: Story.Tables
-second_title: Referencia de API de Aspose.Words para .NET
-description: Story propiedad. Obtiene una colección de tablas que son hijas inmediatas de la historia.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words para .NET
+description: Story Tables propiedad. Obtiene una colección de tablas que son hijas inmediatas de la historia en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/story/tables/
@@ -14,7 +16,7 @@ Obtiene una colección de tablas que son hijas inmediatas de la historia.
 public TableCollection Tables { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar la primera y la última fila de todas las tablas de un documento.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 
 * class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * class [Story](../)
-* espacio de nombres [Aspose.Words](../../story/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

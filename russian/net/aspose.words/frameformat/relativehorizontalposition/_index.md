@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.RelativeHorizontalPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: FrameFormat свойство. Получает относительное горизонтальное положение кадра.
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: Aspose.Words для .NET
+description: FrameFormat RelativeHorizontalPosition свойство. Получает относительное горизонтальное положение кадра на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/frameformat/relativehorizontalposition/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/frameformat/relativehorizontalposition/
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить информацию о свойствах форматирования абзацев, являющихся фреймами.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * class [FrameFormat](../)
-* пространство имен [Aspose.Words](../../frameformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

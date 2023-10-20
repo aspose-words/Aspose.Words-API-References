@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBookmarkStart
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Se llama cuando se encuentra el inicio de un marcador en el documento.
+linktitle: VisitBookmarkStart
+articleTitle: VisitBookmarkStart
+second_title: Aspose.Words para .NET
+description: DocumentVisitor VisitBookmarkStart método. Se llama cuando se encuentra el inicio de un marcador en el documento en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/documentvisitor/visitbookmarkstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitBookmarkStart(BookmarkStart bookmarkStart)
 
 A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la enumeración.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar marcadores y actualizar su contenido.
 
@@ -113,7 +115,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentVisitor](../)
-* espacio de nombres [Aspose.Words](../../documentvisitor/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

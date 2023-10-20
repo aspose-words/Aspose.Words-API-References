@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddNode
-second_title: Aspose.Words لمراجع .NET API
-description: FieldArgumentBuilder طريقة. إضافة عقدة إلى الوسيطة.
+linktitle: AddNode
+articleTitle: AddNode
+second_title: Aspose.Words لـ .NET
+description: FieldArgumentBuilder AddNode طريقة. إضافة عقدة إلى الوسيطة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldargumentbuilder/addnode/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/fieldargumentbuilder/addnode/
 public FieldArgumentBuilder AddNode(Inline node)
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم دعم العقد على مستوى النص فقط في الوقت الحالي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
@@ -102,7 +104,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [Inline](../../../aspose.words/inline/)
 * class [FieldArgumentBuilder](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

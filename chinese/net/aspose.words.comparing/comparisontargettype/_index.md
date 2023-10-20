@@ -1,7 +1,9 @@
 ---
-title: Enum ComparisonTargetType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Comparing.ComparisonTargetType 枚举. 允许指定比较期间将使用的基础文档默认值为Current.
+title: ComparisonTargetType Enum
+linktitle: ComparisonTargetType
+articleTitle: ComparisonTargetType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Comparing.ComparisonTargetType 枚举. 允许指定比较期间将使用的基础文档默认值为Current 在 C#.
 type: docs
 weight: 280
 url: /zh/net/aspose.words.comparing/comparisontargettype/
@@ -21,11 +23,11 @@ public enum ComparisonTargetType
 | Current | `0` | 本文档作为比较时的基础。 |
 | New | `1` | 比较时使用其他文档作为基础。 |
 
-### 评论
+## 评论
 
 与 Microsoft Word“比较文档”对话框中的“显示更改”选项相关。
 
-### 例子
+## 例子
 
 演示如何在进行比较时过滤特定类型的文档元素。
 
@@ -100,5 +102,3 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * 命名空间 [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * 部件 [Aspose.Words](../../)
-
-

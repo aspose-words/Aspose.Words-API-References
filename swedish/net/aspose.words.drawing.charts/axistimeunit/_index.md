@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTimeUnit
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.AxisTimeUnit uppräkning. Anger tidsenheten för axlar.
+title: AxisTimeUnit Enum
+linktitle: AxisTimeUnit
+articleTitle: AxisTimeUnit
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.AxisTimeUnit uppräkning. Anger tidsenheten för axlar i C#.
 type: docs
 weight: 600
 url: /sv/net/aspose.words.drawing.charts/axistimeunit/
@@ -23,7 +25,7 @@ public enum AxisTimeUnit
 | Months | `2` | Anger att diagramdata ska visas i månader. |
 | Years | `3` | Anger att sjökortsdata ska visas i år. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar diagram med datum/tidsvärden.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

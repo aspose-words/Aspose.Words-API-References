@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.BarcodeValue
-second_title: Aspose.Words för .NET API Referens
-description: FieldDisplayBarcode fast egendom. Hämtar eller ställer in streckkodsvärdet.
+linktitle: BarcodeValue
+articleTitle: BarcodeValue
+second_title: Aspose.Words för .NET
+description: FieldDisplayBarcode BarcodeValue fast egendom. Hämtar eller ställer in streckkodsvärdet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fielddisplaybarcode/barcodevalue/
@@ -14,7 +16,7 @@ Hämtar eller ställer in streckkodsvärdet.
 public string BarcodeValue { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett DISPLAYBARCODE-fält och ställer in dess egenskaper.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Se även
 
 * class [FieldDisplayBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

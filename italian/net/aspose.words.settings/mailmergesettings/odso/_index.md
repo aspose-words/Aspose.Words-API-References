@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Odso
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Ottiene o imposta loggetto che specifica le impostazioni ODSO Office Data Source Object.
+linktitle: Odso
+articleTitle: Odso
+second_title: Aspose.Words per .NET
+description: MailMergeSettings Odso proprietà. Ottiene o imposta loggetto che specifica le impostazioni ODSO Office Data Source Object in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words.settings/mailmergesettings/odso/
@@ -14,11 +16,11 @@ Ottiene o imposta l'oggetto che specifica le impostazioni ODSO (Office Data Sour
 public Odso Odso { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questo oggetto non lo è mai`nullo`.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [Odso](../../odso/)
 * class [MailMergeSettings](../)
-* spazio dei nomi [Aspose.Words.Settings](../../mailmergesettings/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

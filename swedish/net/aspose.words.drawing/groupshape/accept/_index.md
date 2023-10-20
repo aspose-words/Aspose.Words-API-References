@@ -1,7 +1,9 @@
 ---
 title: GroupShape.Accept
-second_title: Aspose.Words för .NET API Referens
-description: GroupShape metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: GroupShape Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing/groupshape/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
 
-### Anmärkningar
+## Anmärkningar
 
 Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ För mer information se Visitor design mönster.
 
 Samtal[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , sedan ringer[`Accept`](../../../aspose.words/node/accept/) för alla underordnade former av denna gruppform och anrop[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) i slutet.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en grupp av former och skriver ut dess innehåll med hjälp av en dokumentbesökare.
 
@@ -122,7 +124,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [GroupShape](../)
-* namnutrymme [Aspose.Words.Drawing](../../groupshape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

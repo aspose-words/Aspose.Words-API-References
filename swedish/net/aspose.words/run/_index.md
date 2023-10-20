@@ -1,7 +1,9 @@
 ---
-title: Class Run
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Run klass. Representerar en serie tecken med samma teckensnittsformatering.
+title: Run Class
+linktitle: Run
+articleTitle: Run
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Run klass. Representerar en serie tecken med samma teckensnittsformatering i C#.
 type: docs
 weight: 4820
 url: /sv/net/aspose.words/run/
@@ -20,8 +22,8 @@ public class Run : Inline
 
 | namn | Beskrivning |
 | --- | --- |
-| [Run](run/#constructor)(DocumentBase) | Initierar en ny instans av`Run` class. |
-| [Run](run/#constructor_1)(DocumentBase, string) | Initierar en ny instans av **Springa** class. |
+| [Run](run/#constructor)(*[DocumentBase](../documentbase/)*) | Initierar en ny instans av`Run` class. |
+| [Run](run/#constructor_1)(*[DocumentBase](../documentbase/), string*) | Initierar en ny instans av**Springa** class. |
 
 ## Egenskaper
 
@@ -50,24 +52,24 @@ public class Run : Inline
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words/run/accept/)(DocumentVisitor) | Accepterar en besökare. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
+| override [Accept](../../aspose.words/run/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
 | override [GetText](../../aspose.words/run/gettext/)() | Hämtar texten för körningen. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
 
-### Anmärkningar
+## Anmärkningar
 
 All text i dokumentet lagras i rader av text.
 
 `Run` kan bara vara ett barn av[`Paragraph`](../paragraph/) eller inline[`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/).
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar en serie text med dess teckensnittsegenskap.
 
@@ -182,5 +184,3 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 * class [Inline](../inline/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

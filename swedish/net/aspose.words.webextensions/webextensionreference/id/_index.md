@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.Id
-second_title: Aspose.Words för .NET API Referens
-description: WebExtensionReference fast egendom. Identifierare som är kopplad till webbtillägget inom en katalogleverantör.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words för .NET
+description: WebExtensionReference Id fast egendom. Identifierare som är kopplad till webbtillägget inom en katalogleverantör i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.webextensions/webextensionreference/id/
@@ -14,7 +16,7 @@ Identifierare som är kopplad till webbtillägget inom en katalogleverantör.
 public string Id { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Se även
 
 * class [WebExtensionReference](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../webextensionreference/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

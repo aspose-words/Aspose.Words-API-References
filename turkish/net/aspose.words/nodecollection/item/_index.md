@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: NodeCollection mülk. Verilen dizindeki bir düğümü alır.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: NodeCollection Item mülk. Verilen dizindeki bir düğümü alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/nodecollection/item/
@@ -18,7 +20,7 @@ public Node this[int index] { get; }
 | --- | --- |
 | index | Düğümlerin koleksiyonuna ilişkin bir dizin. |
 
-### Notlar
+## Notlar
 
 Endeks sıfır bazlıdır.
 
@@ -28,7 +30,7 @@ Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvur
 
 Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçiş yapılacağını gösterir.
 
@@ -74,7 +76,5 @@ foreach (Node child in children)
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* ad alanı [Aspose.Words](../../nodecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Document.CopyStylesFromTemplate
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Kopierar stilar från den angivna mallen till ett dokument.
+linktitle: CopyStylesFromTemplate
+articleTitle: CopyStylesFromTemplate
+second_title: Aspose.Words för .NET
+description: Document CopyStylesFromTemplate metod. Kopierar stilar från den angivna mallen till ett dokument i C#.
 type: docs
-weight: 590
+weight: 570
 url: /sv/net/aspose.words/document/copystylesfromtemplate/
 ---
-## CopyStylesFromTemplate(string) {#copystylesfromtemplate_1}
+## CopyStylesFromTemplate(*string*) {#copystylesfromtemplate_1}
 
 Kopierar stilar från den angivna mallen till ett dokument.
 
@@ -14,11 +16,11 @@ Kopierar stilar från den angivna mallen till ett dokument.
 public void CopyStylesFromTemplate(string template)
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När stilar kopieras från en mall till ett dokument, omdefinieras stilar med liknande namn i dokumentet för att matcha stilbeskrivningarna i mallen. Unika stilar från mallen kopieras till dokumentet. Unika stilar i dokumentet förblir intakta.
 
-### Exempel
+## Exempel
 
 Visar hur man kopierar stilar från ett dokument till ett annat.
 
@@ -70,12 +72,12 @@ Assert.AreEqual(21, target.Styles.Count);
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## CopyStylesFromTemplate(Document) {#copystylesfromtemplate}
+## CopyStylesFromTemplate(*[Document](../)*) {#copystylesfromtemplate}
 
 Kopierar stilar från den angivna mallen till ett dokument.
 
@@ -83,11 +85,11 @@ Kopierar stilar från den angivna mallen till ett dokument.
 public void CopyStylesFromTemplate(Document template)
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När stilar kopieras från en mall till ett dokument, omdefinieras stilar med liknande namn i dokumentet för att matcha stilbeskrivningarna i mallen. Unika stilar från mallen kopieras till dokumentet. Unika stilar i dokumentet förblir intakta.
 
-### Exempel
+## Exempel
 
 Visar hur man kopierar stilar från mallen till ett dokument via Dokument.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(21, target.Styles.Count);
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

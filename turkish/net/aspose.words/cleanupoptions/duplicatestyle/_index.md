@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.DuplicateStyle
-second_title: Aspose.Words for .NET API Referansı
-description: CleanupOptions mülk. Yinelenen stillerin belgeden kaldırılması gerekip gerekmediğini belirten bir bayrak alır/ayarlar. Varsayılan değerYANLIŞ .
+linktitle: DuplicateStyle
+articleTitle: DuplicateStyle
+second_title: Aspose.Words for .NET
+description: CleanupOptions DuplicateStyle mülk. Yinelenen stillerin belgeden kaldırılması gerekip gerekmediğini belirten bir bayrak alır/ayarlar. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/cleanupoptions/duplicatestyle/
@@ -14,7 +16,7 @@ Yinelenen stillerin belgeden kaldırılması gerekip gerekmediğini belirten bir
 public bool DuplicateStyle { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yinelenen stillerin belgeden nasıl kaldırılacağını gösterir.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(myStyle, paragraphs[1].ParagraphFormat.Style);
 ### Ayrıca bakınız
 
 * class [CleanupOptions](../)
-* ad alanı [Aspose.Words](../../cleanupoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

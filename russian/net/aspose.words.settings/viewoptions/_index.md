@@ -1,7 +1,9 @@
 ---
-title: Class ViewOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.ViewOptions сорт. Предоставляет различные параметры управляющие отображением документа в Microsoft Word.
+title: ViewOptions Class
+linktitle: ViewOptions
+articleTitle: ViewOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Settings.ViewOptions сорт. Предоставляет различные параметры управляющие отображением документа в Microsoft Word на С#.
 type: docs
 weight: 5950
 url: /ru/net/aspose.words.settings/viewoptions/
@@ -27,7 +29,7 @@ public class ViewOptions
 | [ZoomPercent](../../aspose.words.settings/viewoptions/zoompercent/) { get; set; } | Получает или задает процент (от 10 до 500), с которым вы хотите просмотреть документ. |
 | [ZoomType](../../aspose.words.settings/viewoptions/zoomtype/) { get; set; } | Получает или задает значение масштабирования в зависимости от размера окна. |
 
-### Примеры
+## Примеры
 
 Показывает, как установить пользовательский коэффициент масштабирования, который старые версии Microsoft Word будут применять к документу при загрузке.
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");
 * property [ViewOptions](../../aspose.words/document/viewoptions/)
 * пространство имен [Aspose.Words.Settings](../../aspose.words.settings/)
 * сборка [Aspose.Words](../../)
-
-

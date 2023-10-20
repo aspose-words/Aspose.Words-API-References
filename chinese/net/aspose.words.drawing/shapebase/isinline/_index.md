@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsInline
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 确定此形状是否与文本内联放置的快速方法
+linktitle: IsInline
+articleTitle: IsInline
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase IsInline 财产. 确定此形状是否与文本内联放置的快速方法 在 C#.
 type: docs
 weight: 290
 url: /zh/net/aspose.words.drawing/shapebase/isinline/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/shapebase/isinline/
 public bool IsInline { get; }
 ```
 
-### 评论
+## 评论
 
 仅对顶级形状有效。
 
-### 例子
+## 例子
 
 演示如何确定形状是内联形状还是浮动形状。
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.IsInline.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

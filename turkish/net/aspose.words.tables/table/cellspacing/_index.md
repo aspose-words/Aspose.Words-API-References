@@ -1,7 +1,9 @@
 ---
 title: Table.CellSpacing
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Hücreler arasındaki boşluk miktarını nokta cinsinden alır veya ayarlar.
+linktitle: CellSpacing
+articleTitle: CellSpacing
+second_title: Aspose.Words for .NET
+description: Table CellSpacing mülk. Hücreler arasındaki boşluk miktarını nokta cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.tables/table/cellspacing/
@@ -14,7 +16,7 @@ Hücreler arasındaki boşluk miktarını (nokta cinsinden) alır veya ayarlar.
 public double CellSpacing { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tablodaki tek tek hücreler arasındaki boşluğun nasıl etkinleştirileceğini gösterir.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

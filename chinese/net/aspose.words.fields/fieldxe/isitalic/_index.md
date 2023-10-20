@@ -1,7 +1,9 @@
 ---
 title: FieldXE.IsItalic
-second_title: Aspose.Words for .NET API 参考
-description: FieldXE 财产. 获取或设置是否将斜体格式应用于条目的页码
+linktitle: IsItalic
+articleTitle: IsItalic
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldXE IsItalic 财产. 获取或设置是否将斜体格式应用于条目的页码 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldxe/isitalic/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldxe/isitalic/
 public bool IsItalic { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 XE 字段用条目填充 INDEX 字段，并修改其外观。
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### 也可以看看
 
 * class [FieldXE](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldxe/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

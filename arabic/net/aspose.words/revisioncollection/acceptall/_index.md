@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.AcceptAll
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionCollection طريقة. يقبل كافة المراجعات في هذه المجموعة.
+linktitle: AcceptAll
+articleTitle: AcceptAll
+second_title: Aspose.Words لـ .NET
+description: RevisionCollection AcceptAll طريقة. يقبل كافة المراجعات في هذه المجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/revisioncollection/acceptall/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/revisioncollection/acceptall/
 public void AcceptAll()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية مقارنة المستندات.
 
@@ -48,7 +50,5 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 ### أنظر أيضا
 
 * class [RevisionCollection](../)
-* مساحة الاسم [Aspose.Words](../../revisioncollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

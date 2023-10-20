@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.Encoding
-second_title: Aspose.Words für .NET-API-Referenz
-description: LoadOptions eigendom. Ruft die Kodierung ab die zum Laden eines HTML TXT oder CHMDokuments verwendet wird oder legt diese fest wenn die Kodierung im Dokument nicht angegeben ist . Kann seinNull . Standard istNull .
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words für .NET
+description: LoadOptions Encoding eigendom. Ruft die Kodierung ab die zum Laden eines HTML TXT oder CHMDokuments verwendet wird oder legt diese fest wenn die Kodierung im Dokument nicht angegeben ist . Kann seinNull . Standard istNull  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.loading/loadoptions/encoding/
@@ -14,13 +16,13 @@ Ruft die Kodierung ab, die zum Laden eines HTML-, TXT- oder CHM-Dokuments verwen
 public Encoding Encoding { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft wird nur beim Laden von HTML-, TXT- oder CHM-Dokumenten verwendet.
 
 Wenn im Dokument keine Kodierung angegeben ist, diese Eigenschaft jedoch vorhanden ist`Null`dann versucht das System, die Kodierung automatisch zu erkennen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Kodierung festgelegt wird, mit der ein Dokument geöffnet wird.
 
@@ -39,7 +41,5 @@ Assert.True(doc.ToString(SaveFormat.Text).Contains("This is a sample text in Eng
 ### Siehe auch
 
 * class [LoadOptions](../)
-* namensraum [Aspose.Words.Loading](../../loadoptions/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveTo
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将光标移动到内联节点或段落末尾
+linktitle: MoveTo
+articleTitle: MoveTo
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder MoveTo 方法. 将光标移动到内联节点或段落末尾 在 C#.
 type: docs
-weight: 490
+weight: 480
 url: /zh/net/aspose.words/documentbuilder/moveto/
 ---
 ## DocumentBuilder.MoveTo method
@@ -18,7 +20,7 @@ public void MoveTo(Node node)
 | --- | --- | --- |
 | node | Node | 该节点必须是段落或段落的直接子级。 |
 
-### 评论
+## 评论
 
 什么时候节点是内联级节点，光标将移动到此node ，并且将在该节点之前插入更多内容。
 
@@ -26,7 +28,7 @@ public void MoveTo(Node node)
 
 什么时候节点是一个块级节点但不是[`Paragraph`](../../paragraph/)，光标移动到块级node 中第一个段落的末尾，并且将在段落分隔符之前插入更多内容。
 
-### 例子
+## 例子
 
 演示如何将 DocumentBuilder 的光标位置移动到指定节点。
 
@@ -108,7 +110,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

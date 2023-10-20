@@ -1,7 +1,9 @@
 ---
-title: Class DigitalSignatureCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection 班级. 提供附加到文档的数字签名的只读集合
+title: DigitalSignatureCollection Class
+linktitle: DigitalSignatureCollection
+articleTitle: DigitalSignatureCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection 班级. 提供附加到文档的数字签名的只读集合 在 C#.
 type: docs
 weight: 390
 url: /zh/net/aspose.words.digitalsignatures/digitalsignaturecollection/
@@ -36,11 +38,11 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/)() | 返回一个字典枚举器对象，可用于迭代集合中的所有项目。 |
 
-### 评论
+## 评论
 
 [`DigitalSignatures`](../../aspose.words/document/digitalsignatures/)
 
-### 例子
+## 例子
 
 演示如何验证和显示有关文档中每个签名的信息。
 
@@ -102,5 +104,3 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 * class [DigitalSignature](../digitalsignature/)
 * 命名空间 [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../)
-
-

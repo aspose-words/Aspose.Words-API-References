@@ -1,7 +1,9 @@
 ---
 title: Fill.BackTintAndShade
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill propriété. Obtient ou définit une valeur double qui éclaircit ou assombrit la couleur darrièreplan.
+linktitle: BackTintAndShade
+articleTitle: BackTintAndShade
+second_title: Aspose.Words pour .NET
+description: Fill BackTintAndShade propriété. Obtient ou définit une valeur double qui éclaircit ou assombrit la couleur darrièreplan en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing/fill/backtintandshade/
@@ -14,11 +16,11 @@ Obtient ou définit une valeur double qui éclaircit ou assombrit la couleur d'a
 public double BackTintAndShade { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Les valeurs autorisées sont comprises entre -1 (le plus sombre) et 1 (le plus clair) pour cette propriété. Zéro (0) est neutre. Tenter de définir cette propriété sur une valeur inférieure à -1 ou supérieure à 1 entraîneArgumentOutOfRangeException.
 
-### Exemples
+## Exemples
 
 Montre comment définir la couleur du thème pour la couleur de la forme de premier plan/arrière-plan.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 ### Voir également
 
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class TextPath
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.TextPath sınıf. Metin yolunun bir WordArt nesnesinin metnini ve biçimlendirmesini tanımlar.
+title: TextPath Class
+linktitle: TextPath
+articleTitle: TextPath
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.TextPath sınıf. Metin yolunun bir WordArt nesnesinin metnini ve biçimlendirmesini tanımlar C#'da.
 type: docs
 weight: 1350
 url: /tr/net/aspose.words.drawing/textpath/
@@ -41,11 +43,11 @@ public class TextPath
 | [Underline](../../aspose.words.drawing/textpath/underline/) { get; set; } | Yazı tipinin altı çiziliyse doğrudur. |
 | [XScale](../../aspose.words.drawing/textpath/xscale/) { get; set; } | Şekil yolu yerine düz metin yolunun kullanılıp kullanılmayacağını belirler. |
 
-### Notlar
+## Notlar
 
 Kullan[`TextPath`](../shape/textpath/) bir şeklin WordArt özelliklerine erişim özelliği. Şeklin örneklerini oluşturmazsınız`TextPath` doğrudan sınıf.
 
-### Örnekler
+## Örnekler
 
 WordArt'la nasıl çalışılacağını gösterir.
 
@@ -149,5 +151,3 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

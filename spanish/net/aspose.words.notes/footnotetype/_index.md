@@ -1,7 +1,9 @@
 ---
-title: Enum FootnoteType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Notes.FootnoteType enumeración. Especifica si se trata de una nota al pie o una nota al final.
+title: FootnoteType Enum
+linktitle: FootnoteType
+articleTitle: FootnoteType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Notes.FootnoteType enumeración. Especifica si se trata de una nota al pie o una nota al final en C#.
 type: docs
 weight: 4300
 url: /es/net/aspose.words.notes/footnotetype/
@@ -21,11 +23,11 @@ public enum FootnoteType
 | Footnote | `0` | El objeto es una nota al pie. |
 | Endnote | `1` | El objeto es una nota al final. |
 
-### Observaciones
+## Observaciones
 
 Tanto las notas a pie de página como las notas al final están representadas por objetos mediante elFootnote clase. Usar[`FootnoteType`](../footnote/footnotetype/) para distinguir entre notas al pie y notas al final.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo hacer referencia al texto con una nota al pie y una nota al final.
 
@@ -100,5 +102,3 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * espacio de nombres [Aspose.Words.Notes](../../aspose.words.notes/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Initials
-second_title: Справочник по API Aspose.Words для .NET
-description: UserInformation свойство. Получает или задает инициалы пользователя.
+linktitle: Initials
+articleTitle: Initials
+second_title: Aspose.Words для .NET
+description: UserInformation Initials свойство. Получает или задает инициалы пользователя на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/userinformation/initials/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/userinformation/initials/
 public string Initials { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как задать сведения о пользователе и отобразить их с помощью полей.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Смотрите также
 
 * class [UserInformation](../)
-* пространство имен [Aspose.Words.Fields](../../userinformation/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

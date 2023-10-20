@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfHeaderFooter
-second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph propiedad. Verdadero si este párrafo es el último párrafo delHeaderFooter historia del texto principal de unSection  falso en caso contrario.
+linktitle: IsEndOfHeaderFooter
+articleTitle: IsEndOfHeaderFooter
+second_title: Aspose.Words para .NET
+description: Paragraph IsEndOfHeaderFooter propiedad. Verdadero si este párrafo es el último párrafo delHeaderFooter historia del texto principal de unSection  falso en caso contrario en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words/paragraph/isendofheaderfooter/
@@ -14,7 +16,7 @@ Verdadero si este párrafo es el último párrafo del[`HeaderFooter`](../../head
 public bool IsEndOfHeaderFooter { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un encabezado y un pie de página.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### Ver también
 
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

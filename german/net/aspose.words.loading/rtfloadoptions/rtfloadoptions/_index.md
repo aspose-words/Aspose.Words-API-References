@@ -1,7 +1,9 @@
 ---
-title: RtfLoadOptions.RtfLoadOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: RtfLoadOptions constructeur. Initialisiert eine neue Instanz dieser Klasse mit Standardwerten.
+title: RtfLoadOptions
+linktitle: RtfLoadOptions
+articleTitle: RtfLoadOptions
+second_title: Aspose.Words für .NET
+description: RtfLoadOptions constructeur. Initialisiert eine neue Instanz dieser Klasse mit Standardwerten in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.loading/rtfloadoptions/rtfloadoptions/
@@ -14,7 +16,7 @@ Initialisiert eine neue Instanz dieser Klasse mit Standardwerten.
 public RtfLoadOptions()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie UTF-8-Zeichen beim Laden eines RTF-Dokuments erkannt werden.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(
 ### Siehe auch
 
 * class [RtfLoadOptions](../)
-* namensraum [Aspose.Words.Loading](../../rtfloadoptions/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

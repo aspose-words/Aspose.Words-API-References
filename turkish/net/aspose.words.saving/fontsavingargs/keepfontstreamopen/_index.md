@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.KeepFontStreamOpen
-second_title: Aspose.Words for .NET API Referansı
-description: FontSavingArgs mülk. Aspose.Wordsün bir yazı tipini kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir.
+linktitle: KeepFontStreamOpen
+articleTitle: KeepFontStreamOpen
+second_title: Aspose.Words for .NET
+description: FontSavingArgs KeepFontStreamOpen mülk. Aspose.Wordsün bir yazı tipini kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.saving/fontsavingargs/keepfontstreamopen/
@@ -14,11 +16,11 @@ Aspose.Words'ün bir yazı tipini kaydettikten sonra akışı açık mı tutmas�
 public bool KeepFontStreamOpen { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan:`YANLIŞ` ve Aspose.Words, sağladığınız akışını kapatacaktır.[`FontStream`](../fontstream/) içine bir yazı tipi yazdıktan sonra özellik. Belirt`doğru` Akışı açık tutmak için.
 
-### Örnekler
+## Örnekler
 
 HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nasıl tanımlanacağını gösterir.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ayrıca bakınız
 
 * class [FontSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../fontsavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

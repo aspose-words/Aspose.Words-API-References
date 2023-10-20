@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToBool
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentProperty yöntem. Özellik değerini bool. olarak döndürür
+linktitle: ToBool
+articleTitle: ToBool
+second_title: Aspose.Words for .NET
+description: DocumentProperty ToBool yöntem. Özellik değerini bool. olarak döndürür C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.properties/documentproperty/tobool/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.properties/documentproperty/tobool/
 public bool ToBool()
 ```
 
-### Notlar
+## Notlar
 
 Özellik türü değilse bir istisna atarBoolean.
 
-### Örnekler
+## Örnekler
 
 Özel belge özelliklerinin çeşitli tür dönüştürme yöntemlerini gösterir.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ### Ayrıca bakınız
 
 * class [DocumentProperty](../)
-* ad alanı [Aspose.Words.Properties](../../documentproperty/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

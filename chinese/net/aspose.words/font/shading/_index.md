@@ -1,7 +1,9 @@
 ---
 title: Font.Shading
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 返回一个Shading引用字体阴影格式的对象
+linktitle: Shading
+articleTitle: Shading
+second_title: 用于 .NET 的 Aspose.Words
+description: Font Shading 财产. 返回一个Shading引用字体阴影格式的对象 在 C#.
 type: docs
 weight: 320
 url: /zh/net/aspose.words/font/shading/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/shading/
 public Shading Shading { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将底纹应用于文档生成器创建的文本。
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.Shading.docx");
 
 * class [Shading](../../shading/)
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

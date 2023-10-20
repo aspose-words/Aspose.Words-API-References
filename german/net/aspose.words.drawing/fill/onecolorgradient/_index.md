@@ -1,12 +1,14 @@
 ---
 title: Fill.OneColorGradient
-second_title: Aspose.Words für .NET-API-Referenz
-description: Fill methode. Setzt die angegebene Füllung auf einen einfarbigen Farbverlauf.
+linktitle: OneColorGradient
+articleTitle: OneColorGradient
+second_title: Aspose.Words für .NET
+description: Fill OneColorGradient methode. Setzt die angegebene Füllung auf einen einfarbigen Farbverlauf in C#.
 type: docs
-weight: 220
+weight: 210
 url: /de/net/aspose.words.drawing/fill/onecolorgradient/
 ---
-## OneColorGradient(GradientStyle, GradientVariant, double) {#onecolorgradient}
+## OneColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient}
 
 Setzt die angegebene Füllung auf einen einfarbigen Farbverlauf.
 
@@ -20,7 +22,7 @@ public void OneColorGradient(GradientStyle style, GradientVariant variant, doubl
 | variant | GradientVariant | Die Verlaufsvariante[`GradientVariant`](../../gradientvariant/) |
 | degree | Double | Der Grad der Steigung. Kann ein Wert zwischen 0,0 (dunkel) und 1,0 (hell) sein. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Form mit Farbverläufen gefüllt wird.
 
@@ -63,12 +65,12 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## OneColorGradient(Color, GradientStyle, GradientVariant, double) {#onecolorgradient_1}
+## OneColorGradient(*Color, [GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient_1}
 
 Setzt die angegebene Füllung auf einen einfarbigen Farbverlauf unter Verwendung der angegebenen Farbe.
 
@@ -84,7 +86,7 @@ public void OneColorGradient(Color color, GradientStyle style, GradientVariant v
 | variant | GradientVariant | Die Verlaufsvariante[`GradientVariant`](../../gradientvariant/) |
 | degree | Double | Der Grad der Steigung. Kann ein Wert zwischen 0,0 (dunkel) und 1,0 (hell) sein. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Form mit Farbverläufen gefüllt wird.
 
@@ -127,7 +129,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

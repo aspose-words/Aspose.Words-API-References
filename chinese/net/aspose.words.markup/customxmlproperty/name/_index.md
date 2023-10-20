@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Name
-second_title: Aspose.Words for .NET API 参考
-description: CustomXmlProperty 财产. 指定自定义 XML 属性或智能标记属性的名称
+linktitle: Name
+articleTitle: Name
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomXmlProperty Name 财产. 指定自定义 XML 属性或智能标记属性的名称 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/customxmlproperty/name/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.markup/customxmlproperty/name/
 public string Name { get; }
 ```
 
-### 评论
+## 评论
 
 不可能是`无效的`。
 
 默认为空字符串。
 
-### 例子
+## 例子
 
 展示如何创建智能标签。
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### 也可以看看
 
 * class [CustomXmlProperty](../)
-* 命名空间 [Aspose.Words.Markup](../../customxmlproperty/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

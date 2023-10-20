@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.PromptOnceOnMailMerge
-second_title: Aspose.Words لمراجع .NET API
-description: FieldFillIn ملكية. الحصول على أو تعيين ما إذا كان يجب تلقي استجابة المستخدم مرة واحدة لكل عملية دمج البريد.
+linktitle: PromptOnceOnMailMerge
+articleTitle: PromptOnceOnMailMerge
+second_title: Aspose.Words لـ .NET
+description: FieldFillIn PromptOnceOnMailMerge ملكية. الحصول على أو تعيين ما إذا كان يجب تلقي استجابة المستخدم مرة واحدة لكل عملية دمج البريد في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldfillin/promptonceonmailmerge/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldfillin/promptonceonmailmerge/
 public bool PromptOnceOnMailMerge { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل FILLIN لمطالبة المستخدم بالرد.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### أنظر أيضا
 
 * class [FieldFillIn](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldfillin/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

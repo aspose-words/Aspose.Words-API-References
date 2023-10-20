@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineBreakChar
-second_title: Referencia de API de Aspose.Words para .NET
-description: ControlChar campo. Carácter de salto de línea char11 o v.
+linktitle: LineBreakChar
+articleTitle: LineBreakChar
+second_title: Aspose.Words para .NET
+description: ControlChar LineBreakChar campo. Carácter de salto de línea char11 o v en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words/controlchar/linebreakchar/
@@ -14,7 +16,7 @@ Carácter de salto de línea: (char)11 o "\v".
 public const char LineBreakChar;
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar varios caracteres de control a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ver también
 
 * class [ControlChar](../)
-* espacio de nombres [Aspose.Words](../../controlchar/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

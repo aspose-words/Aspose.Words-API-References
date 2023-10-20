@@ -1,7 +1,9 @@
 ---
 title: ChartDataPointCollection.ClearFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataPointCollection метод. Очищает формат всехChartDataPoint в этой коллекции.
+linktitle: ClearFormat
+articleTitle: ClearFormat
+second_title: Aspose.Words для .NET
+description: ChartDataPointCollection ClearFormat метод. Очищает формат всехChartDataPoint в этой коллекции на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartdatapointcollection/clearformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatapointcollection/clearformat/
 public void ClearFormat()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с точками данных на линейной диаграмме.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Смотрите также
 
 * class [ChartDataPointCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

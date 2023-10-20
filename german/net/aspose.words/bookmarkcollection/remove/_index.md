@@ -1,12 +1,14 @@
 ---
 title: BookmarkCollection.Remove
-second_title: Aspose.Words für .NET-API-Referenz
-description: BookmarkCollection methode. Entfernt das angegebene Lesezeichen aus dem Dokument.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words für .NET
+description: BookmarkCollection Remove methode. Entfernt das angegebene Lesezeichen aus dem Dokument in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/bookmarkcollection/remove/
 ---
-## Remove(Bookmark) {#remove}
+## Remove(*[Bookmark](../../bookmark/)*) {#remove}
 
 Entfernt das angegebene Lesezeichen aus dem Dokument.
 
@@ -18,7 +20,7 @@ public void Remove(Bookmark bookmark)
 | --- | --- | --- |
 | bookmark | Bookmark | Das zu entfernende Lesezeichen. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Lesezeichen aus einem Dokument entfernt werden.
 
@@ -80,12 +82,12 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* namensraum [Aspose.Words](../../bookmarkcollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Remove(string) {#remove_1}
+## Remove(*string*) {#remove_1}
 
 Entfernt ein Lesezeichen mit dem angegebenen Namen.
 
@@ -97,7 +99,7 @@ public void Remove(string bookmarkName)
 | --- | --- | --- |
 | bookmarkName | String | Der Name des zu entfernenden Lesezeichens ohne Berücksichtigung der Groß-/Kleinschreibung. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Lesezeichen aus einem Dokument entfernt werden.
 
@@ -158,7 +160,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Siehe auch
 
 * class [BookmarkCollection](../)
-* namensraum [Aspose.Words](../../bookmarkcollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

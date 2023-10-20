@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DownsampleOptions
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. Gör det möjligt att ange alternativ för nedsampling.
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions DownsampleOptions fast egendom. Gör det möjligt att ange alternativ för nedsampling i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/
@@ -14,7 +16,7 @@ Gör det möjligt att ange alternativ för nedsampling.
 public DownsampleOptions DownsampleOptions { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ändrar upplösningen på bilder i PDF-dokumentet.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 
 * class [DownsampleOptions](../../downsampleoptions/)
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Gutter
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Ruft die Menge an zusätzlichem Platz ab der dem Rand für die Dokumentbindung hinzugefügt wird oder legt diesen fest.
+linktitle: Gutter
+articleTitle: Gutter
+second_title: Aspose.Words für .NET
+description: PageSetup Gutter eigendom. Ruft die Menge an zusätzlichem Platz ab der dem Rand für die Dokumentbindung hinzugefügt wird oder legt diesen fest in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words/pagesetup/gutter/
@@ -14,7 +16,7 @@ Ruft die Menge an zusätzlichem Platz ab, der dem Rand für die Dokumentbindung 
 public double Gutter { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument konfiguriert wird, das als Buchfalte gedruckt werden kann.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.CalculateOnExit
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField propriété. True si les références au champ de formulaire spécifié sont automatiquement mises à jour chaque fois que vous quittez le champ.
+linktitle: CalculateOnExit
+articleTitle: CalculateOnExit
+second_title: Aspose.Words pour .NET
+description: FormField CalculateOnExit propriété. True si les références au champ de formulaire spécifié sont automatiquement mises à jour chaque fois que vous quittez le champ en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/formfield/calculateonexit/
@@ -14,11 +16,11 @@ True si les références au champ de formulaire spécifié sont automatiquement 
 public bool CalculateOnExit { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Paramètre`CalculateOnExit` n'affecte le comportement du champ du formulaire que lorsque le document est ouvert dans Microsoft Word. Aspose.Words ne met jamais à jour references dans le champ du formulaire.
 
-### Exemples
+## Exemples
 
 Montre comment insérer différents types de champs de formulaire dans un document et les traiter à l'aide d'une implémentation de visiteur de document.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Voir également
 
 * class [FormField](../)
-* espace de noms [Aspose.Words.Fields](../../formfield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

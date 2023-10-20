@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertParagraphNumberInRelativeContext
-second_title: Aspose.Words for .NET API 参考
-description: FieldRef 财产. 获取或设置是否在相对上下文中插入引用段落的段落编号
+linktitle: InsertParagraphNumberInRelativeContext
+articleTitle: InsertParagraphNumberInRelativeContext
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldRef InsertParagraphNumberInRelativeContext 财产. 获取或设置是否在相对上下文中插入引用段落的段落编号 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/fieldref/insertparagraphnumberinrelativecontext/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldref/insertparagraphnumberinrelativecontext
 public bool InsertParagraphNumberInRelativeContext { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将 REF 字段插入到参考书签。
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### 也可以看看
 
 * class [FieldRef](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldref/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

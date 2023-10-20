@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.IsSubsettingNeeded
-second_title: Aspose.Words för .NET API Referens
-description: FontSavingArgs fast egendom. Tillåter att ange om det aktuella teckensnittet kommer att underordnas innan det exporteras som en teckensnittsresurs.
+linktitle: IsSubsettingNeeded
+articleTitle: IsSubsettingNeeded
+second_title: Aspose.Words för .NET
+description: FontSavingArgs IsSubsettingNeeded fast egendom. Tillåter att ange om det aktuella teckensnittet kommer att underordnas innan det exporteras som en teckensnittsresurs i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.saving/fontsavingargs/issubsettingneeded/
@@ -14,13 +16,13 @@ Tillåter att ange om det aktuella teckensnittet kommer att underordnas innan de
 public bool IsSubsettingNeeded { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Teckensnitt kan exporteras som kompletta originalteckensnittsfiler eller underuppsättning för att endast inkludera de tecken som används i dokumentet. Delinställning gör det möjligt att minska den resulterande teckensnittsresursstorleken.
 
 Som standard bestämmer Aspose.Words om det ska utföras delinställning eller inte genom att jämföra den ursprungliga teckensnittsfilstorleken med den som anges i[`FontResourcesSubsettingSizeThreshold`](../../htmlsaveoptions/fontresourcessubsettingsizethreshold/) . Du kan åsidosätta detta beteende för enskilda teckensnitt genom att ställa in`IsSubsettingNeeded` fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
@@ -80,7 +82,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Se även
 
 * class [FontSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../fontsavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

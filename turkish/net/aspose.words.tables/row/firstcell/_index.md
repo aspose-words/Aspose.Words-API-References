@@ -1,7 +1,9 @@
 ---
 title: Row.FirstCell
-second_title: Aspose.Words for .NET API Referansı
-description: Row mülk. İlkini döndürürCell satırda.
+linktitle: FirstCell
+articleTitle: FirstCell
+second_title: Aspose.Words for .NET
+description: Row FirstCell mülk. İlkini döndürürCell satırda C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.tables/row/firstcell/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.tables/row/firstcell/
 public Cell FirstCell { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her tablonun düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -178,7 +180,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Cell](../../cell/)
 * class [Row](../)
-* ad alanı [Aspose.Words.Tables](../../row/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

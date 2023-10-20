@@ -1,7 +1,9 @@
 ---
-title: Class FieldFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldFormat clase. Proporciona acceso escrito al formato numérico de fecha y hora y al formato general del campo.
+title: FieldFormat Class
+linktitle: FieldFormat
+articleTitle: FieldFormat
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldFormat clase. Proporciona acceso escrito al formato numérico de fecha y hora y al formato general del campo en C#.
 type: docs
 weight: 1940
 url: /es/net/aspose.words.fields/fieldformat/
@@ -24,7 +26,7 @@ public class FieldFormat
 | [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | Obtiene una colección de formatos generales que se aplican a un resultado numérico, de texto o de cualquier campo. Corresponde a los modificadores \*. |
 | [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | Obtiene o establece un formato que se aplica al resultado de un campo numérico. Corresponde al \# switch. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dar formato a los resultados de los campos.
 
@@ -89,5 +91,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

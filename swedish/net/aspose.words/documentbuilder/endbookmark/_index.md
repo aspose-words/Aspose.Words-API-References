@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndBookmark
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Markerar den aktuella positionen i dokumentet som ett bokmärkesslut.
+linktitle: EndBookmark
+articleTitle: EndBookmark
+second_title: Aspose.Words för .NET
+description: DocumentBuilder EndBookmark metod. Markerar den aktuella positionen i dokumentet som ett bokmärkesslut i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words/documentbuilder/endbookmark/
@@ -22,13 +24,13 @@ public BookmarkEnd EndBookmark(string bookmarkName)
 
 Bokmärkets slutnod som just skapades.
 
-### Anmärkningar
+## Anmärkningar
 
 Bokmärken i ett dokument kan överlappa och sträcka sig över alla områden. För att skapa ett giltigt bokmärke måste du anropa båda[`StartBookmark`](../startbookmark/) och`EndBookmark` med samma*bookmarkName* parameter.
 
 Dåligt utformade bokmärken eller bokmärken med dubbletter av namn kommer att ignoreras när dokumentet sparas.
 
-### Exempel
+## Exempel
 
 Visar hur du skapar ett bokmärke.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

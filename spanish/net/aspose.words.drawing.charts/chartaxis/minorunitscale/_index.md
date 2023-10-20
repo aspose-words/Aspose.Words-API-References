@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorUnitScale
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Devuelve o establece el valor de escala para marcas menores en el eje de categoría de tiempo.
+linktitle: MinorUnitScale
+articleTitle: MinorUnitScale
+second_title: Aspose.Words para .NET
+description: ChartAxis MinorUnitScale propiedad. Devuelve o establece el valor de escala para marcas menores en el eje de categoría de tiempo en C#.
 type: docs
 weight: 180
 url: /es/net/aspose.words.drawing.charts/chartaxis/minorunitscale/
@@ -14,11 +16,11 @@ Devuelve o establece el valor de escala para marcas menores en el eje de categor
 public AxisTimeUnit MinorUnitScale { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La propiedad tiene efecto solo para ejes de categoría de tiempo.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo manipular las marcas y los valores mostrados de un eje de gráfico.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

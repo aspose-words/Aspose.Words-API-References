@@ -1,9 +1,11 @@
 ---
 title: ChartAxisTitle.Overlay
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxisTitle 财产. 确定是否允许其他图表元素与标题重叠 默认值为错误的.
+linktitle: Overlay
+articleTitle: Overlay
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxisTitle Overlay 财产. 确定是否允许其他图表元素与标题重叠 默认值为错误的 在 C#.
 type: docs
-weight: 20
+weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartaxistitle/overlay/
 ---
 ## ChartAxisTitle.Overlay property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartaxistitle/overlay/
 public bool Overlay { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何设置图表轴标题。
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ### 也可以看看
 
 * class [ChartAxisTitle](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

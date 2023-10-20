@@ -1,7 +1,9 @@
 ---
 title: Story.FirstParagraph
-second_title: Aspose.Words för .NET API Referens
-description: Story fast egendom. Får första stycket i berättelsen.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words för .NET
+description: Story FirstParagraph fast egendom. Får första stycket i berättelsen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/story/firstparagraph/
@@ -14,7 +16,7 @@ Får första stycket i berättelsen.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar en serie text med dess teckensnittsegenskap.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* namnutrymme [Aspose.Words](../../story/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

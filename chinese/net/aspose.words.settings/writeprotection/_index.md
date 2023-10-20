@@ -1,7 +1,9 @@
 ---
-title: Class WriteProtection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.WriteProtection 班级. 指定文档的写保护设置
+title: WriteProtection Class
+linktitle: WriteProtection
+articleTitle: WriteProtection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.WriteProtection 班级. 指定文档的写保护设置 在 C#.
 type: docs
 weight: 5970
 url: /zh/net/aspose.words.settings/writeprotection/
@@ -27,10 +29,10 @@ public class WriteProtection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(string) | 设置文档的写保护密码。 |
-| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(string) | 返回`真的`如果指定的密码与保护文档的写保护密码相同。 如果文档没有使用密码写保护，则返回`错误的`. |
+| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(*string*) | 设置文档的写保护密码。 |
+| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | 返回`真的`如果指定的密码与保护文档的写保护密码相同。 如果文档没有使用密码写保护，则返回`错误的`. |
 
-### 评论
+## 评论
 
 写保护指定作者是否建议 以只读方式打开文档和/或需要密码才能修改文档。
 
@@ -38,7 +40,7 @@ public class WriteProtection
 
 您不直接创建此类的实例。您可以通过以下方式访问文档保护设置 [`WriteProtection`](../../aspose.words/document/writeprotection/)财产。
 
-### 例子
+## 例子
 
 演示如何使用密码保护文档。
 
@@ -71,5 +73,3 @@ Assert.AreEqual("Hello world! This document is protected." +
 
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

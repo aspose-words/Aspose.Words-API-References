@@ -1,7 +1,9 @@
 ---
-title: BookmarkStart.BookmarkStart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarkStart constructeur. Initialise une nouvelle instance duBookmarkStart classe.
+title: BookmarkStart
+linktitle: BookmarkStart
+articleTitle: BookmarkStart
+second_title: Aspose.Words pour .NET
+description: BookmarkStart constructeur. Initialise une nouvelle instance duBookmarkStart classe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/bookmarkstart/bookmarkstart/
@@ -19,7 +21,7 @@ public BookmarkStart(DocumentBase doc, string name)
 | doc | DocumentBase | Le document du propriétaire. |
 | name | String | Le nom du signet. C'est pas possible`nul`. |
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des signets et mettre à jour leur contenu.
 
@@ -109,7 +111,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [BookmarkStart](../)
-* espace de noms [Aspose.Words](../../bookmarkstart/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

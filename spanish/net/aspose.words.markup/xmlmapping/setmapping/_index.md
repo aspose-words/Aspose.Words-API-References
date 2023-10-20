@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.SetMapping
-second_title: Referencia de API de Aspose.Words para .NET
-description: XmlMapping método. Establece una asignación entre la etiqueta del documento estructurado principal y un nodo XML de una parte de datos XML personalizada.
+linktitle: SetMapping
+articleTitle: SetMapping
+second_title: Aspose.Words para .NET
+description: XmlMapping SetMapping método. Establece una asignación entre la etiqueta del documento estructurado principal y un nodo XML de una parte de datos XML personalizada en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.markup/xmlmapping/setmapping/
@@ -24,7 +26,7 @@ public bool SetMapping(CustomXmlPart customXmlPart, string xPath, string prefixM
 
 Un indicador que indica si la etiqueta del documento estructurado principal se asigna correctamente a el nodo XML.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una etiqueta de documento estructurado con datos XML personalizados.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [XmlMapping](../)
-* espacio de nombres [Aspose.Words.Markup](../../xmlmapping/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

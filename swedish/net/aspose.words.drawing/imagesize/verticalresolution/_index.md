@@ -1,7 +1,9 @@
 ---
 title: ImageSize.VerticalResolution
-second_title: Aspose.Words för .NET API Referens
-description: ImageSize fast egendom. Får den vertikala upplösningen i DPI.
+linktitle: VerticalResolution
+articleTitle: VerticalResolution
+second_title: Aspose.Words för .NET
+description: ImageSize VerticalResolution fast egendom. Får den vertikala upplösningen i DPI i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing/imagesize/verticalresolution/
@@ -14,7 +16,7 @@ Får den vertikala upplösningen i DPI.
 public double VerticalResolution { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man läser egenskaperna för en bild i en form.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### Se även
 
 * class [ImageSize](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagesize/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: ChartAxisTitle.Show
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxisTitle propriété. Détermine si le titre doit être affiché pour laxe. La valeur par défaut estFAUX .
+linktitle: Show
+articleTitle: Show
+second_title: Aspose.Words pour .NET
+description: ChartAxisTitle Show propriété. Détermine si le titre doit être affiché pour laxe. La valeur par défaut estFAUX  en C#.
 type: docs
-weight: 30
+weight: 20
 url: /fr/net/aspose.words.drawing.charts/chartaxistitle/show/
 ---
 ## ChartAxisTitle.Show property
@@ -14,7 +16,7 @@ Détermine si le titre doit être affiché pour l'axe. La valeur par défaut est
 public bool Show { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir le titre de l’axe du graphique.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ### Voir également
 
 * class [ChartAxisTitle](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

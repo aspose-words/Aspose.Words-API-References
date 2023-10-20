@@ -1,7 +1,9 @@
 ---
 title: FieldUpdatingProgressArgs.UpdateCompleted
-second_title: Aspose.Words för .NET API Referens
-description: FieldUpdatingProgressArgs fast egendom. Får ett värde som indikerar om fältuppdateringen är klar.
+linktitle: UpdateCompleted
+articleTitle: UpdateCompleted
+second_title: Aspose.Words för .NET
+description: FieldUpdatingProgressArgs UpdateCompleted fast egendom. Får ett värde som indikerar om fältuppdateringen är klar i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldupdatingprogressargs/updatecompleted/
@@ -14,7 +16,7 @@ Får ett värde som indikerar om fältuppdateringen är klar.
 public bool UpdateCompleted { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder återuppringningsmetoder under en fältuppdatering.
 
@@ -82,7 +84,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 ### Se även
 
 * class [FieldUpdatingProgressArgs](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldupdatingprogressargs/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

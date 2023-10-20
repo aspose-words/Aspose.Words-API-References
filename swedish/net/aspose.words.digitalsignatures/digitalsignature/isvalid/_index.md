@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.IsValid
-second_title: Aspose.Words för .NET API Referens
-description: DigitalSignature fast egendom. ReturnerarSann om denna digitala signatur är giltig och dokumentet inte har manipulerats.
+linktitle: IsValid
+articleTitle: IsValid
+second_title: Aspose.Words för .NET
+description: DigitalSignature IsValid fast egendom. ReturnerarSann om denna digitala signatur är giltig och dokumentet inte har manipulerats i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
@@ -14,7 +16,7 @@ Returnerar`Sann` om denna digitala signatur är giltig och dokumentet inte har m
 public bool IsValid { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man validerar och visar information om varje signatur i ett dokument.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Se även
 
 * class [DigitalSignature](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldFileName.FieldFileName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldFileName строитель. Конструктор по умолчанию.
+title: FieldFileName
+linktitle: FieldFileName
+articleTitle: FieldFileName
+second_title: Aspose.Words для .NET
+description: FieldFileName строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldfilename/fieldfilename/
@@ -17,7 +19,5 @@ public FieldFileName()
 ### Смотрите также
 
 * class [FieldFileName](../)
-* пространство имен [Aspose.Words.Fields](../../fieldfilename/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

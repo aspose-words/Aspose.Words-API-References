@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Show
-second_title: Aspose.Words for .NET API 参考
-description: ChartTitle 财产. 确定是否应显示此图表的标题 默认值为真的.
+linktitle: Show
+articleTitle: Show
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartTitle Show 财产. 确定是否应显示此图表的标题 默认值为真的 在 C#.
 type: docs
-weight: 30
+weight: 20
 url: /zh/net/aspose.words.drawing.charts/charttitle/show/
 ---
 ## ChartTitle.Show property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/charttitle/show/
 public bool Show { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入图表并设置标题。
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### 也可以看看
 
 * class [ChartTitle](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../charttitle/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

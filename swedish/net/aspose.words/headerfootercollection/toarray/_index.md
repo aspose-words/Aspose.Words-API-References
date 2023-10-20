@@ -1,7 +1,9 @@
 ---
 title: HeaderFooterCollection.ToArray
-second_title: Aspose.Words för .NET API Referens
-description: HeaderFooterCollection metod. Kopierar allaHeaderFoorter s från samlingen till en ny uppsättning avHeaderFoorter s.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words för .NET
+description: HeaderFooterCollection ToArray metod. Kopierar allaHeaderFoorter s från samlingen till en ny uppsättning avHeaderFoorter s i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/headerfootercollection/toarray/
@@ -18,7 +20,7 @@ public HeaderFooter[] ToArray()
 
 En uppställning av`HeaderFoorter`s.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut nodstrukturen för varje sidhuvud och sidfot i ett dokument.
 
@@ -112,7 +114,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* namnutrymme [Aspose.Words](../../headerfootercollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum VbaModuleType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Vba.VbaModuleType تعداد. يحدد نوع النموذج في مشروع VBA.
+title: VbaModuleType Enum
+linktitle: VbaModuleType
+articleTitle: VbaModuleType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Vba.VbaModuleType تعداد. يحدد نوع النموذج في مشروع VBA في C#.
 type: docs
 weight: 6570
 url: /ar/net/aspose.words.vba/vbamoduletype/
@@ -23,7 +25,7 @@ public enum VbaModuleType
 | ClassModule | `2` | وحدة تحتوي على تعريف كائن جديد. يقوم كل مثيل لفئة بإنشاء كائن جديد، وتصبح الإجراءات التي تم تحديدها في الوحدة خصائص وأساليب للكائن. |
 | DesignerModule | `3` | وحدة VBA التي تعمل على توسيع أساليب وخصائص عنصر تحكم ActiveX الذي تم تسجيله في المشروع. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مشروع VBA باستخدام وحدات الماكرو.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 
 * مساحة الاسم [Aspose.Words.Vba](../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../)
-
-

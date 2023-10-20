@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SheetsPerBooklet
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Devuelve o establece el número de páginas que se incluirán en cada folleto.
+linktitle: SheetsPerBooklet
+articleTitle: SheetsPerBooklet
+second_title: Aspose.Words para .NET
+description: PageSetup SheetsPerBooklet propiedad. Devuelve o establece el número de páginas que se incluirán en cada folleto en C#.
 type: docs
 weight: 400
 url: /es/net/aspose.words/pagesetup/sheetsperbooklet/
@@ -14,7 +16,7 @@ Devuelve o establece el número de páginas que se incluirán en cada folleto.
 public int SheetsPerBooklet { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar un documento que se puede imprimir como un pliegue de libro.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");
 ### Ver también
 
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

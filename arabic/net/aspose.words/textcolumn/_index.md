@@ -1,7 +1,9 @@
 ---
-title: Class TextColumn
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.TextColumn فصل. يمثل عمود نص واحد.TextColumn هو عضو فيTextColumnCollection المجموعة. الTextColumn تتضمن المجموعة جميع الأعمدة الموجودة في قسم من المستند.
+title: TextColumn Class
+linktitle: TextColumn
+articleTitle: TextColumn
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.TextColumn فصل. يمثل عمود نص واحد.TextColumn هو عضو فيTextColumnCollection المجموعة. الTextColumn تتضمن المجموعة جميع الأعمدة الموجودة في قسم من المستند في C#.
 type: docs
 weight: 6390
 url: /ar/net/aspose.words/textcolumn/
@@ -23,13 +25,13 @@ public class TextColumn
 | [SpaceAfter](../../aspose.words/textcolumn/spaceafter/) { get; set; } | الحصول على أو تعيين المسافة بين هذا العمود والعمود التالي بالنقاط. غير مطلوب للعمود الأخير. |
 | [Width](../../aspose.words/textcolumn/width/) { get; set; } | الحصول على أو تعيين عرض عمود النص بالنقاط. |
 
-### ملاحظات
+## ملاحظات
 
 `TextColumn` يتم استخدام الكائنات فقط لتحديد الأعمدة ذات العرض والتباعد المخصصين. إذا كنت تريد أن تكون الأعمدة الموجودة في المستند متساوية العرض، فقم بتعيين TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) ل`حقيقي`.
 
 عندما جديد`TextColumn` تم إنشاؤه وتم ضبط عرضه وتباعده على الصفر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء أعمدة متباعدة بشكل غير متساو.
 
@@ -67,5 +69,3 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

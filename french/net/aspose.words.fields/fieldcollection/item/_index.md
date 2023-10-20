@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldCollection propriété. Renvoie un champ à lindex spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: FieldCollection Item propriété. Renvoie un champ à lindex spécifié en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldcollection/item/
@@ -18,7 +20,7 @@ public Field this[int index] { get; }
 | --- | --- |
 | index | Un index dans la collection. |
 
-### Remarques
+## Remarques
 
 L'indice est de base zéro.
 
@@ -28,7 +30,7 @@ Si l'index est supérieur ou égal au nombre d'éléments de la liste, cela renv
 
 Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
 
-### Exemples
+## Exemples
 
 Montre comment supprimer des champs d’une collection de champs.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, fields.Count);
 
 * class [Field](../../field/)
 * class [FieldCollection](../)
-* espace de noms [Aspose.Words.Fields](../../fieldcollection/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

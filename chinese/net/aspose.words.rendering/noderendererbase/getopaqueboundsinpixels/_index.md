@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetOpaqueBoundsInPixels
-second_title: Aspose.Words for .NET API 参考
-description: NodeRendererBase 方法. 计算指定缩放系数和分辨率的形状的不透明边界以像素为单位
+linktitle: GetOpaqueBoundsInPixels
+articleTitle: GetOpaqueBoundsInPixels
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeRendererBase GetOpaqueBoundsInPixels 方法. 计算指定缩放系数和分辨率的形状的不透明边界以像素为单位 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/
 ---
-## GetOpaqueBoundsInPixels(float, float) {#getopaqueboundsinpixels}
+## GetOpaqueBoundsInPixels(*float, float*) {#getopaqueboundsinpixels}
 
 计算指定缩放系数和分辨率的形状的不透明边界（以像素为单位）。
 
@@ -23,11 +25,11 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float dpi)
 
 形状的不透明矩形（以像素为单位）。
 
-### 评论
+## 评论
 
 这个方法转换[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/)成以像素为单位的矩形，当您想要创建一个位图来渲染仅具有形状的不透明部分的形状时，它很有用 。
 
-### 例子
+## 例子
 
 展示如何测量和缩放形状。
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### 也可以看看
 
 * class [NodeRendererBase](../)
-* 命名空间 [Aspose.Words.Rendering](../../noderendererbase/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## GetOpaqueBoundsInPixels(float, float, float) {#getopaqueboundsinpixels_1}
+## GetOpaqueBoundsInPixels(*float, float, float*) {#getopaqueboundsinpixels_1}
 
 计算指定缩放系数和分辨率的形状的不透明边界（以像素为单位）。
 
@@ -97,11 +99,11 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float horizontalDpi, float
 
 形状的不透明矩形（以像素为单位）。
 
-### 评论
+## 评论
 
 这个方法转换[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/)成以像素为单位的矩形，当您想要创建一个位图来渲染仅具有形状的不透明部分的形状时，它很有用 。
 
-### 例子
+## 例子
 
 展示如何测量和缩放形状。
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### 也可以看看
 
 * class [NodeRendererBase](../)
-* 命名空间 [Aspose.Words.Rendering](../../noderendererbase/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

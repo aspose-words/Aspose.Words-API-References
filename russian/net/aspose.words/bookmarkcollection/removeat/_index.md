@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.RemoveAt
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarkCollection метод. Удаляет закладку по указанному индексу.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words для .NET
+description: BookmarkCollection RemoveAt метод. Удаляет закладку по указанному индексу на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/bookmarkcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Отсчитываемый от нуля индекс закладки, которую нужно удалить. |
 
-### Примеры
+## Примеры
 
 Показывает, как удалить закладки из документа.
 
@@ -79,7 +81,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Смотрите также
 
 * class [BookmarkCollection](../)
-* пространство имен [Aspose.Words](../../bookmarkcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

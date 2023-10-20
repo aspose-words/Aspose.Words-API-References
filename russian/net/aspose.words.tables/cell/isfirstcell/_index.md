@@ -1,7 +1,9 @@
 ---
 title: Cell.IsFirstCell
-second_title: Справочник по API Aspose.Words для .NET
-description: Cell свойство. True если это первая ячейка внутри строки ложь в противном случае.
+linktitle: IsFirstCell
+articleTitle: IsFirstCell
+second_title: Aspose.Words для .NET
+description: Cell IsFirstCell свойство. True если это первая ячейка внутри строки ложь в противном случае на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.tables/cell/isfirstcell/
@@ -14,7 +16,7 @@ True, если это первая ячейка внутри строки; ло�
 public bool IsFirstCell { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждой таблицы в документе.
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Смотрите также
 
 * class [Cell](../)
-* пространство имен [Aspose.Words.Tables](../../cell/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

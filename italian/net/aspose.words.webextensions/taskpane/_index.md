@@ -1,7 +1,9 @@
 ---
-title: Class TaskPane
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.WebExtensions.TaskPane classe. Rappresenta un oggetto del riquadro attività del componente aggiuntivo.
+title: TaskPane Class
+linktitle: TaskPane
+articleTitle: TaskPane
+second_title: Aspose.Words per .NET
+description: Aspose.Words.WebExtensions.TaskPane classe. Rappresenta un oggetto del riquadro attività del componente aggiuntivo in C#.
 type: docs
 weight: 6710
 url: /it/net/aspose.words.webextensions/taskpane/
@@ -33,7 +35,7 @@ public class TaskPane
 | [WebExtension](../../aspose.words.webextensions/taskpane/webextension/) { get; } | Rappresenta un oggetto estensione web. |
 | [Width](../../aspose.words.webextensions/taskpane/width/) { get; set; } | Specifica il valore di larghezza predefinito per questa istanza del riquadro attività. |
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un'estensione Web a un documento.
 
@@ -79,5 +81,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * spazio dei nomi [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * assemblea [Aspose.Words](../../)
-
-

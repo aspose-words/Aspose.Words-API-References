@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Layout.RevisionColor opsomming. Ermöglicht die Angabe der Farbe von Dokumentrevisionen.
+title: RevisionColor Enum
+linktitle: RevisionColor
+articleTitle: RevisionColor
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Layout.RevisionColor opsomming. Ermöglicht die Angabe der Farbe von Dokumentrevisionen in C#.
 type: docs
 weight: 3380
 url: /de/net/aspose.words.layout/revisioncolor/
@@ -40,7 +42,7 @@ public enum RevisionColor
 | NoHighlight | `19` | Es wird keine Farbe verwendet, um Revisionsänderungen hervorzuheben. |
 | ByAuthor | `20` | Überarbeitungen jedes Autors erhalten eine eigene Farbe zur Hervorhebung aus einem vordefinierten Satz kontrastreicher Farben. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Erscheinungsbild von Revisionen in einem gerenderten Ausgabedokument geändert wird.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * namensraum [Aspose.Words.Layout](../../aspose.words.layout/)
 * Montage [Aspose.Words](../../)
-
-

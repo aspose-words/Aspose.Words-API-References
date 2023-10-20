@@ -1,7 +1,9 @@
 ---
 title: Frameset.ChildFramesets
-second_title: Aspose.Words per .NET API Reference
-description: Frameset proprietà. Ottiene la raccolta di frame secondari e pagine di frame.
+linktitle: ChildFramesets
+articleTitle: ChildFramesets
+second_title: Aspose.Words per .NET
+description: Frameset ChildFramesets proprietà. Ottiene la raccolta di frame secondari e pagine di frame in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.framesets/frameset/childframesets/
@@ -14,7 +16,7 @@ Ottiene la raccolta di frame secondari e pagine di frame.
 public FramesetCollection ChildFramesets { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere ai frame sulla pagina.
 
@@ -40,7 +42,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * class [FramesetCollection](../../framesetcollection/)
 * class [Frameset](../)
-* spazio dei nomi [Aspose.Words.Framesets](../../frameset/)
+* spazio dei nomi [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * assemblea [Aspose.Words](../../../)
-
-

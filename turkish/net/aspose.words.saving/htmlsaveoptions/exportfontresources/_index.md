@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportFontResources
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Yazı tipi kaynaklarının HTMLye mi MHTMLye mi yoksa EPUBa mı aktarılacağını belirtir. VarsayılanYANLIŞ .
+linktitle: ExportFontResources
+articleTitle: ExportFontResources
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ExportFontResources mülk. Yazı tipi kaynaklarının HTMLye mi MHTMLye mi yoksa EPUBa mı aktarılacağını belirtir. VarsayılanYANLIŞ  C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportfontresources/
@@ -14,17 +16,17 @@ Yazı tipi kaynaklarının HTML'ye mi, MHTML'ye mi yoksa EPUB'a mı aktarılaca�
 public bool ExportFontResources { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yazı tipi kaynaklarının dışa aktarılması, belirli bir kullanıcı ortamında mevcut yazı tiplerinden bağımsız olarak tutarlı belge oluşturmaya olanak tanır.
 
-Eğer`ExportFontResources` ayarlandı`doğru` , ana HTML belgesi CSS 3'teki aracılığıyla her yazı tipine atıfta bulunacaktır **@yazı tipi yüzü** at-rule ve yazı tipleri ayrı dosyalar olarak yayınlanacaktır. IDPF EPUB veya MHTML formatlarına dışa aktarırken yazı tipleri, diğer yardımcı dosyalarla birlikte ilgili pakete eklenecektir.
+Eğer`ExportFontResources` ayarlandı`doğru` , ana HTML belgesi CSS 3'teki aracılığıyla her yazı tipine atıfta bulunacaktır**@yazı tipi yüzü** at-rule ve yazı tipleri ayrı dosyalar olarak yayınlanacaktır. IDPF EPUB veya MHTML formatlarına dışa aktarırken yazı tipleri, diğer yardımcı dosyalarla birlikte ilgili pakete eklenecektir.
 
-Eğer[`ExportFontsAsBase64`](../exportfontsasbase64/) ayarlandı`doğru` yazı tipleri ayrı dosyalara kaydedilmeyecektir. Bunun yerine, yazı tipleri ayrı dosyalara kaydedilmeyecektir. **@yazı tipi yüzü** Base64 kodlamasında kurallarda.
+Eğer[`ExportFontsAsBase64`](../exportfontsasbase64/) ayarlandı`doğru` yazı tipleri ayrı dosyalara kaydedilmeyecektir. Bunun yerine, yazı tipleri ayrı dosyalara kaydedilmeyecektir.**@yazı tipi yüzü** Base64 kodlamasında kurallarda.
 
-**Önemli!** Yazı tipi kaynaklarını dışa aktarırken yazı tipi lisanslama sorunları dikkate alınmalıdır. Downloadable yazı tipi mekanizması aracılığıyla belirli yazı tiplerini kullanmak isteyen yazarların, kullanım amaçlarının yazı tipi lisansı kapsamında olduğunu her zaman dikkatli bir şekilde doğrulamaları gerekir. Pek çok ticari yazı tipi şu anda kendi yazı tiplerinin herhangi bir biçimde web'den indirilmesine izin vermemektedir. Bazı yazı tiplerini kapsayan lisans sözleşmeleri, özellikle şunu belirtir: **@yazı tipi yüzü** CSS stil sayfalarında Rules 'ye izin verilmiyor. Yazı tipi alt kümelemesi aynı zamanda lisans koşullarını da ihlal edebilir.
+**Önemli!** Yazı tipi kaynaklarını dışa aktarırken yazı tipi lisanslama sorunları dikkate alınmalıdır. Downloadable yazı tipi mekanizması aracılığıyla belirli yazı tiplerini kullanmak isteyen yazarların, kullanım amaçlarının yazı tipi lisansı kapsamında olduğunu her zaman dikkatli bir şekilde doğrulamaları gerekir. Pek çok ticari yazı tipi şu anda kendi yazı tiplerinin herhangi bir biçimde web'den indirilmesine izin vermemektedir. Bazı yazı tiplerini kapsayan lisans sözleşmeleri, özellikle şunu belirtir:**@yazı tipi yüzü** CSS stil sayfalarında Rules 'ye izin verilmiyor. Yazı tipi alt kümelemesi aynı zamanda lisans koşullarını da ihlal edebilir.
 
-### Örnekler
+## Örnekler
 
 HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nasıl tanımlanacağını gösterir.
 
@@ -84,7 +86,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

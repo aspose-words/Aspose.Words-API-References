@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Rectangle
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutEnumerator mülk. Geçerli varlığın sınırlayıcı dikdörtgenini sayfanın sol üst köşesine göre nokta cinsinden döndürür.
+linktitle: Rectangle
+articleTitle: Rectangle
+second_title: Aspose.Words for .NET
+description: LayoutEnumerator Rectangle mülk. Geçerli varlığın sınırlayıcı dikdörtgenini sayfanın sol üst köşesine göre nokta cinsinden döndürür C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.layout/layoutenumerator/rectangle/
@@ -14,7 +16,7 @@ Geçerli varlığın sınırlayıcı dikdörtgenini sayfanın sol üst köşesin
 public RectangleF Rectangle { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ayrıca bakınız
 
 * class [LayoutEnumerator](../)
-* ad alanı [Aspose.Words.Layout](../../layoutenumerator/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

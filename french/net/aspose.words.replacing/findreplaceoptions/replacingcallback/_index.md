@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ReplacingCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FindReplaceOptions propriété. La méthode définie par lutilisateur qui est appelée avant chaque occurrence de remplacement.
+linktitle: ReplacingCallback
+articleTitle: ReplacingCallback
+second_title: Aspose.Words pour .NET
+description: FindReplaceOptions ReplacingCallback propriété. La méthode définie par lutilisateur qui est appelée avant chaque occurrence de remplacement en C#.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
@@ -14,7 +16,7 @@ La méthode définie par l'utilisateur qui est appelée avant chaque occurrence 
 public IReplacingCallback ReplacingCallback { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment remplacer toutes les occurrences d'un modèle d'expression régulière par une autre chaîne, tout en suivant tous ces remplacements.
 
@@ -139,7 +141,5 @@ private class NumberHexer : IReplacingCallback
 
 * interface [IReplacingCallback](../../ireplacingcallback/)
 * class [FindReplaceOptions](../)
-* espace de noms [Aspose.Words.Replacing](../../findreplaceoptions/)
+* espace de noms [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Assemblée [Aspose.Words](../../../)
-
-

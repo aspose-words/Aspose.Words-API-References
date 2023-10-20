@@ -1,7 +1,9 @@
 ---
 title: TextBox.TextBoxWrapMode
-second_title: Aspose.Words för .NET API Referens
-description: TextBox fast egendom. Bestämmer hur text radbryts inuti en form.
+linktitle: TextBoxWrapMode
+articleTitle: TextBoxWrapMode
+second_title: Aspose.Words för .NET
+description: TextBox TextBoxWrapMode fast egendom. Bestämmer hur text radbryts inuti en form i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.drawing/textbox/textboxwrapmode/
@@ -14,11 +16,11 @@ Bestämmer hur text radbryts inuti en form.
 public TextBoxWrapMode TextBoxWrapMode { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärSquare.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in ett radbrytningsläge för innehållet i en textruta.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxContentsWrapMode.docx");
 
 * enum [TextBoxWrapMode](../../textboxwrapmode/)
 * class [TextBox](../)
-* namnutrymme [Aspose.Words.Drawing](../../textbox/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

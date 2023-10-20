@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.RemoveSmartTags
-second_title: Справочник по API Aspose.Words для .NET
-description: CompositeNode метод. Удаляет всеSmartTagузлыпотомки текущего узла.
+linktitle: RemoveSmartTags
+articleTitle: RemoveSmartTags
+second_title: Aspose.Words для .NET
+description: CompositeNode RemoveSmartTags метод. Удаляет всеSmartTagузлыпотомки текущего узла на С#.
 type: docs
-weight: 200
+weight: 180
 url: /ru/net/aspose.words/compositenode/removesmarttags/
 ---
 ## CompositeNode.RemoveSmartTags method
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/compositenode/removesmarttags/
 public void RemoveSmartTags()
 ```
 
-### Примечания
+## Примечания
 
 Этот метод не удаляет содержимое смарт-тегов.
 
-### Примеры
+## Примеры
 
 Удаляет все смарт-теги из узлов-потомков составного узла.
 
@@ -131,7 +133,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Смотрите также
 
 * class [CompositeNode](../)
-* пространство имен [Aspose.Words](../../compositenode/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

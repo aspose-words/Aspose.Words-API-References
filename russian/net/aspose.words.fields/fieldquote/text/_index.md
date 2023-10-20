@@ -1,7 +1,9 @@
 ---
 title: FieldQuote.Text
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldQuote свойство. Получает или задает извлекаемый текст.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words для .NET
+description: FieldQuote Text свойство. Получает или задает извлекаемый текст на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldquote/text/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldquote/text/
 public string Text { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает использование поля ЦИТАТЫ.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.QUOTE.docx");
 ### Смотрите также
 
 * class [FieldQuote](../)
-* пространство имен [Aspose.Words.Fields](../../fieldquote/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

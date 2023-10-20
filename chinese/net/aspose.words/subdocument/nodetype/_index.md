@@ -1,7 +1,9 @@
 ---
 title: SubDocument.NodeType
-second_title: Aspose.Words for .NET API 参考
-description: SubDocument 财产. 返回SubDocument.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: 用于 .NET 的 Aspose.Words
+description: SubDocument NodeType 财产. 返回SubDocument 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/subdocument/nodetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/subdocument/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问主文档的子文档。
 
@@ -32,7 +34,5 @@ Assert.False(subDocument.IsComposite);
 
 * enum [NodeType](../../nodetype/)
 * class [SubDocument](../)
-* 命名空间 [Aspose.Words](../../subdocument/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

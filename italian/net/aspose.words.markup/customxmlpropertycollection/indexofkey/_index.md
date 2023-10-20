@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.IndexOfKey
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlPropertyCollection metodo. Restituisce lindice in base zero della proprietà specificata nella raccolta.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words per .NET
+description: CustomXmlPropertyCollection IndexOfKey metodo. Restituisce lindice in base zero della proprietà specificata nella raccolta in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.markup/customxmlpropertycollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 L'indice a base zero. Valore negativo se non trovato.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le proprietà degli smart tag per ottenere informazioni approfondite sugli smart tag.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, properties.Count);
 ### Guarda anche
 
 * class [CustomXmlPropertyCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

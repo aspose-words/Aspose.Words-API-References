@@ -1,7 +1,9 @@
 ---
-title: FieldAutoNum.FieldAutoNum
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAutoNum constructeur. Default_Constructor
+title: FieldAutoNum
+linktitle: FieldAutoNum
+articleTitle: FieldAutoNum
+second_title: Aspose.Words für .NET
+description: FieldAutoNum constructeur. Default_Constructor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldautonum/fieldautonum/
@@ -17,7 +19,5 @@ public FieldAutoNum()
 ### Siehe auch
 
 * class [FieldAutoNum](../)
-* namensraum [Aspose.Words.Fields](../../fieldautonum/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

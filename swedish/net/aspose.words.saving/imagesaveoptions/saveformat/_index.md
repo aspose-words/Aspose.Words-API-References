@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.SaveFormat
-second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions fast egendom. Anger formatet som de renderade dokumentsidorna eller formerna kommer att sparas i om detta sparaalternativobjekt används. Kan vara ett raster Tiff Png Bmp  Jpeg eller vektorEmf Eps  Svg .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words för .NET
+description: ImageSaveOptions SaveFormat fast egendom. Anger formatet som de renderade dokumentsidorna eller formerna kommer att sparas i om detta sparaalternativobjekt används. Kan vara ett raster Tiff Png Bmp  Jpeg eller vektorEmf Eps  Svg  i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.saving/imagesaveoptions/saveformat/
@@ -14,13 +16,13 @@ Anger formatet som de renderade dokumentsidorna eller formerna kommer att sparas
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Antalet andra alternativ beror på det valda formatet.
 
 Det är också möjligt att spara till SVG både via[`ImageSaveOptions`](../) och via[`SvgSaveOptions`](../../svgsaveoptions/).
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar bilden medan Aspose.Words konverterar ett dokument till ett.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [ImageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

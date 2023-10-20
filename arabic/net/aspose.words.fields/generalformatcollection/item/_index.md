@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: GeneralFormatCollection ملكية. الحصول على تنسيق عام في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: GeneralFormatCollection Item ملكية. الحصول على تنسيق عام في الفهرس المحدد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/generalformatcollection/item/
@@ -22,7 +24,7 @@ public GeneralFormat this[int index] { get; }
 
 صيغة عامة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق النتائج الميدانية.
 
@@ -87,7 +89,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * enum [GeneralFormat](../../generalformat/)
 * class [GeneralFormatCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../generalformatcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

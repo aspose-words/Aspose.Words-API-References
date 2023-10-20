@@ -1,7 +1,9 @@
 ---
 title: PageSetup.EndnoteOptions
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. يوفر خيارات تتحكم في ترقيم التعليقات الختامية وموضعها في هذا القسم.
+linktitle: EndnoteOptions
+articleTitle: EndnoteOptions
+second_title: Aspose.Words لـ .NET
+description: PageSetup EndnoteOptions ملكية. يوفر خيارات تتحكم في ترقيم التعليقات الختامية وموضعها في هذا القسم في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/pagesetup/endnoteoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/endnoteoptions/
 public EndnoteOptions EndnoteOptions { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين الخيارات التي تؤثر على الحواشي السفلية/التعليقات الختامية في القسم.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.FootnoteOptions.docx");
 
 * class [EndnoteOptions](../../../aspose.words.notes/endnoteoptions/)
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

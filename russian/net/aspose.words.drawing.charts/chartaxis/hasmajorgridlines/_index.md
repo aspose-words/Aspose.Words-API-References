@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.HasMajorGridlines
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Получает или задает флаг указывающий есть ли на оси основные линии сетки.
+linktitle: HasMajorGridlines
+articleTitle: HasMajorGridlines
+second_title: Aspose.Words для .NET
+description: ChartAxis HasMajorGridlines свойство. Получает или задает флаг указывающий есть ли на оси основные линии сетки на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.drawing.charts/chartaxis/hasmajorgridlines/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/hasmajorgridlines/
 public bool HasMajorGridlines { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму со значениями даты и времени.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Смотрите также
 
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

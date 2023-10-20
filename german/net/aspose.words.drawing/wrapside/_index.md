@@ -1,7 +1,9 @@
 ---
-title: Enum WrapSide
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.WrapSide opsomming. Gibt an welche Seiten der Form oder des Bildes der Text umschließt.
+title: WrapSide Enum
+linktitle: WrapSide
+articleTitle: WrapSide
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.WrapSide opsomming. Gibt an welche Seiten der Form oder des Bildes der Text umschließt in C#.
 type: docs
 weight: 1390
 url: /de/net/aspose.words.drawing/wrapside/
@@ -24,7 +26,7 @@ public enum WrapSide
 | Largest | `3` | Der Dokumenttext wird auf der Seite der Form umbrochen, die am weitesten vom Seitenrand entfernt ist, sodass auf der anderen Seite der Form textfreier Bereich verbleibt. |
 | Default | `0` | Der Standardwert istBoth . |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Textfeldformen durch Bildformen ersetzt werden.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 * property [WrapSide](../shapebase/wrapside/)
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

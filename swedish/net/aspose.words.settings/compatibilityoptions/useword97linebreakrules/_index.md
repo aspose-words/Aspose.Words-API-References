@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseWord97LineBreakRules
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Emulera Word 97 East Asian Line Breaking.
+linktitle: UseWord97LineBreakRules
+articleTitle: UseWord97LineBreakRules
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions UseWord97LineBreakRules fast egendom. Emulera Word 97 East Asian Line Breaking i C#.
 type: docs
 weight: 680
 url: /sv/net/aspose.words.settings/compatibilityoptions/useword97linebreakrules/
@@ -17,7 +19,5 @@ public bool UseWord97LineBreakRules { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

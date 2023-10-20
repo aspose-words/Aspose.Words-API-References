@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.ScreenTip
-second_title: Aspose.Words for .NET API Referansı
-description: FieldHyperlink mülk. Köprü için Ekran İpucu metnini alır veya ayarlar.
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: Aspose.Words for .NET
+description: FieldHyperlink ScreenTip mülk. Köprü için Ekran İpucu metnini alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldhyperlink/screentip/
@@ -14,7 +16,7 @@ Köprü için Ekran İpucu metnini alır veya ayarlar.
 public string ScreenTip { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki belgelere bağlanmak için KÖPRÜ alanlarının nasıl kullanılacağını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Ayrıca bakınız
 
 * class [FieldHyperlink](../)
-* ad alanı [Aspose.Words.Fields](../../fieldhyperlink/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

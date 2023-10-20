@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ParagraphBreak
-second_title: Aspose.Words für .NET-API-Referenz
-description: TxtSaveOptionsBase eigendom. Gibt die Zeichenfolge an die beim Exportieren in Textformate als Absatzumbruch verwendet werden soll.
+linktitle: ParagraphBreak
+articleTitle: ParagraphBreak
+second_title: Aspose.Words für .NET
+description: TxtSaveOptionsBase ParagraphBreak eigendom. Gibt die Zeichenfolge an die beim Exportieren in Textformate als Absatzumbruch verwendet werden soll in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
@@ -14,11 +16,11 @@ Gibt die Zeichenfolge an, die beim Exportieren in Textformate als Absatzumbruch 
 public string ParagraphBreak { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist[`CrLf`](../../../aspose.words/controlchar/crlf/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein TXT-Dokument mit einem benutzerdefinierten Absatzumbruch speichert.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 ### Siehe auch
 
 * class [TxtSaveOptionsBase](../)
-* namensraum [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

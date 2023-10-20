@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ExportParagraphGraphicsToArtifact
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 获取或设置一个值确定段落图形是否应标记为工件
+linktitle: ExportParagraphGraphicsToArtifact
+articleTitle: ExportParagraphGraphicsToArtifact
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions ExportParagraphGraphicsToArtifact 财产. 获取或设置一个值确定段落图形是否应标记为工件 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.saving/pdfsaveoptions/exportparagraphgraphicstoartifact/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/exportparagraphgraphicstoartifac
 public bool ExportParagraphGraphicsToArtifact { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`而段落图形（下划线、文本强调等） 将在文档的逻辑结构中标记为“Span”。
 
@@ -22,7 +24,7 @@ public bool ExportParagraphGraphicsToArtifact { get; set; }
 
 当以下情况时该值被忽略[`ExportDocumentStructure`](../exportdocumentstructure/)是`错误的` 。
 
-### 例子
+## 例子
 
 演示如何将段落图形导出为工件（下划线、文本强调等）。
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportParagraphGraphicsToArtifact.pdf", 
 ### 也可以看看
 
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

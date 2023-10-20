@@ -1,7 +1,9 @@
 ---
-title: Class TabStop
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.TabStop сорт. Представляет одну настраиваемую позицию табуляции.TabStopобъект является членом the TabStopCollection коллекция.
+title: TabStop Class
+linktitle: TabStop
+articleTitle: TabStop
+second_title: Aspose.Words для .NET
+description: Aspose.Words.TabStop сорт. Представляет одну настраиваемую позицию табуляции.TabStopобъект является членом the TabStopCollection коллекция на С#.
 type: docs
 weight: 6200
 url: /ru/net/aspose.words/tabstop/
@@ -20,8 +22,8 @@ public sealed class TabStop
 
 | Имя | Описание |
 | --- | --- |
-| [TabStop](tabstop/#constructor)(double) | Инициализирует новый экземпляр этого класса. |
-| [TabStop](tabstop/#constructor_1)(double, TabAlignment, TabLeader) | Инициализирует новый экземпляр этого класса. |
+| [TabStop](tabstop/#constructor)(*double*) | Инициализирует новый экземпляр этого класса. |
+| [TabStop](tabstop/#constructor_1)(*double, [TabAlignment](../tabalignment/), [TabLeader](../tableader/)*) | Инициализирует новый экземпляр этого класса. |
 
 ## Характеристики
 
@@ -36,16 +38,16 @@ public sealed class TabStop
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | Сравнивает с указанным`TabStop` . |
+| [Equals](../../aspose.words/tabstop/equals/#equals)(*TabStop*) | Сравнивает с указанным`TabStop` . |
 | override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | Вычисляет хеш-код для этого объекта. |
 
-### Примечания
+## Примечания
 
 Обычно позиция табуляции указывает позицию, в которой существует позиция табуляции. Но поскольку позиции табуляции могут быть унаследованы от родительских стилей, дочернему объекту object может потребоваться явно определить, что в данной позиции нет позиции табуляции. Чтобы очистить унаследованную позицию табуляции в заданной позиции, создайте`TabStop` объект и set [`Alignment`](./alignment/) кClear.
 
 Для получения дополнительной информации см.[`TabStopCollection`](../tabstopcollection/).
 
-### Примеры
+## Примеры
 
 Показывает, как изменить положение правой позиции табуляции в абзацах, связанных с содержанием.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

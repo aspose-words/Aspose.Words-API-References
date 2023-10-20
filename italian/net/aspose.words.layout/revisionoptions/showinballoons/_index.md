@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowInBalloons
-second_title: Aspose.Words per .NET API Reference
-description: RevisionOptions proprietà. Permette di specificare se le revisioni vengono renderizzate nei fumetti. Il valore predefinito èNone .
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: Aspose.Words per .NET
+description: RevisionOptions ShowInBalloons proprietà. Permette di specificare se le revisioni vengono renderizzate nei fumetti. Il valore predefinito èNone  in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.layout/revisionoptions/showinballoons/
@@ -14,11 +16,11 @@ Permette di specificare se le revisioni vengono renderizzate nei fumetti. Il val
 public ShowInBalloons ShowInBalloons { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Tieni presente che le revisioni non vengono visualizzate nei fumetti perShowInAnnotations .
 
-### Esempi
+## Esempi
 
 Mostra come visualizzare le revisioni nei fumetti.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [ShowInBalloons](../../showinballoons/)
 * class [RevisionOptions](../)
-* spazio dei nomi [Aspose.Words.Layout](../../revisionoptions/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

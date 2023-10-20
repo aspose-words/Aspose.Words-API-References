@@ -1,7 +1,9 @@
 ---
 title: PhoneticGuide.BaseText
-second_title: Справочник по API Aspose.Words для .NET
-description: PhoneticGuide свойство. Получает базовый текст фонетического руководства.
+linktitle: BaseText
+articleTitle: BaseText
+second_title: Aspose.Words для .NET
+description: PhoneticGuide BaseText свойство. Получает базовый текст фонетического руководства на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/phoneticguide/basetext/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/phoneticguide/basetext/
 public string BaseText { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить свойства фонетического справочника.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### Смотрите также
 
 * class [PhoneticGuide](../)
-* пространство имен [Aspose.Words](../../phoneticguide/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

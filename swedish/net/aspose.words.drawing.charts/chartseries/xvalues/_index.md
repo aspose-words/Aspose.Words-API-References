@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.XValues
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeries fast egendom. Får en samling Xvärden för denna diagramserie.
+linktitle: XValues
+articleTitle: XValues
+second_title: Aspose.Words för .NET
+description: ChartSeries XValues fast egendom. Får en samling Xvärden för denna diagramserie i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.drawing.charts/chartseries/xvalues/
@@ -18,7 +20,5 @@ public ChartXValueCollection XValues { get; }
 
 * class [ChartXValueCollection](../../chartxvaluecollection/)
 * class [ChartSeries](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

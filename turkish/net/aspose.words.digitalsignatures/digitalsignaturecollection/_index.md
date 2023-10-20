@@ -1,7 +1,9 @@
 ---
-title: Class DigitalSignatureCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection sınıf. Bir belgeye eklenen dijital imzaların salt okunur bir koleksiyonunu sağlar.
+title: DigitalSignatureCollection Class
+linktitle: DigitalSignatureCollection
+articleTitle: DigitalSignatureCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection sınıf. Bir belgeye eklenen dijital imzaların salt okunur bir koleksiyonunu sağlar C#'da.
 type: docs
 weight: 390
 url: /tr/net/aspose.words.digitalsignatures/digitalsignaturecollection/
@@ -36,11 +38,11 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir sözlük numaralandırıcı nesnesini döndürür. |
 
-### Notlar
+## Notlar
 
 [`DigitalSignatures`](../../aspose.words/document/digitalsignatures/)
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her imza hakkındaki bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
 
@@ -102,5 +104,3 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 * class [DigitalSignature](../digitalsignature/)
 * ad alanı [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../)
-
-

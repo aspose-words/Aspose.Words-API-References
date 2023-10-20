@@ -1,12 +1,14 @@
 ---
 title: ImageData.SetImage
-second_title: Aspose.Words för .NET API Referens
-description: ImageData metod. Ställer in bilden som formen visar.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words för .NET
+description: ImageData SetImage metod. Ställer in bilden som formen visar i C#.
 type: docs
-weight: 210
+weight: 200
 url: /sv/net/aspose.words.drawing/imagedata/setimage/
 ---
-## SetImage(Image) {#setimage}
+## SetImage(*Image*) {#setimage}
 
 Ställer in bilden som formen visar.
 
@@ -18,7 +20,7 @@ public void SetImage(Image image)
 | --- | --- | --- |
 | image | Image | Bildobjektet. |
 
-### Exempel
+## Exempel
 
 Visar hur man visar bilder från det lokala filsystemet i ett dokument.
 
@@ -53,12 +55,12 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Stream) {#setimage_1}
+## SetImage(*Stream*) {#setimage_1}
 
 Ställer in bilden som formen visar.
 
@@ -70,7 +72,7 @@ public void SetImage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Strömmen som innehåller bilden. |
 
-### Exempel
+## Exempel
 
 Visar hur man visar bilder från det lokala filsystemet i ett dokument.
 
@@ -105,12 +107,12 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## SetImage(string) {#setimage_2}
+## SetImage(*string*) {#setimage_2}
 
 Ställer in bilden som formen visar.
 
@@ -122,7 +124,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | Bildfilen. Kan vara ett filnamn eller en URL. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en länkad bild i ett dokument.
 
@@ -164,7 +166,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ExportHeadersFootersMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.ExportHeadersFootersMode énumération. Spécifie comment les entêtes et les pieds de page sont exportés au format HTML MHTML ou EPUB.
+title: ExportHeadersFootersMode Enum
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.ExportHeadersFootersMode énumération. Spécifie comment les entêtes et les pieds de page sont exportés au format HTML MHTML ou EPUB en C#.
 type: docs
 weight: 5000
 url: /fr/net/aspose.words.saving/exportheadersfootersmode/
@@ -23,7 +25,7 @@ public enum ExportHeadersFootersMode
 | FirstSectionHeaderLastSectionFooter | `2` | L'en-tête principal de la première section est exporté au début du document et le pied de page principal est à la fin. |
 | FirstPageHeaderFooterPerSection | `3` | L'en-tête et le pied de page de la première page sont exportés au début et à la fin de chaque section. |
 
-### Exemples
+## Exemples
 
 Montre comment omettre les en-têtes/pieds de page lors de l’enregistrement d’un document au format HTML.
 
@@ -53,5 +55,3 @@ Assert.IsFalse(doc.Range.Text.Contains("First header"));
 * property [ExportHeadersFootersMode](../htmlsaveoptions/exportheadersfootersmode/)
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

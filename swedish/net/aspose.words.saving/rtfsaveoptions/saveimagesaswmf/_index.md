@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.SaveImagesAsWmf
-second_title: Aspose.Words för .NET API Referens
-description: RtfSaveOptions fast egendom. NärSann alla bilder kommer att sparas som WMF.
+linktitle: SaveImagesAsWmf
+articleTitle: SaveImagesAsWmf
+second_title: Aspose.Words för .NET
+description: RtfSaveOptions SaveImagesAsWmf fast egendom. NärSann alla bilder kommer att sparas som WMF i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/rtfsaveoptions/saveimagesaswmf/
@@ -14,11 +16,11 @@ När`Sann` alla bilder kommer att sparas som WMF.
 public bool SaveImagesAsWmf { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Det här alternativet kan hjälpa till att undvika WordPad-varningsmeddelanden.
 
-### Exempel
+## Exempel
 
 Visar hur man konverterar alla bilder i ett dokument till Windows Metafile-format när vi sparar dokumentet som en RTF.
 
@@ -67,7 +69,5 @@ else
 ### Se även
 
 * class [RtfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../rtfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

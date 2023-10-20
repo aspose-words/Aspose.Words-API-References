@@ -1,9 +1,11 @@
 ---
 title: CellFormat.RightPadding
-second_title: Aspose.Words for .NET API Referansı
-description: CellFormat mülk. Hücre içeriğinin sağına eklenecek alan miktarını nokta cinsinden döndürür veya ayarlar.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words for .NET
+description: CellFormat RightPadding mülk. Hücre içeriğinin sağına eklenecek alan miktarını nokta cinsinden döndürür veya ayarlar C#'da.
 type: docs
-weight: 90
+weight: 80
 url: /tr/net/aspose.words.tables/cellformat/rightpadding/
 ---
 ## CellFormat.RightPadding property
@@ -14,7 +16,7 @@ Hücre içeriğinin sağına eklenecek alan miktarını (nokta cinsinden) dönd�
 public double RightPadding { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucuyla hücrelerin nasıl biçimlendirileceğini gösterir.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Ayrıca bakınız
 
 * class [CellFormat](../)
-* ad alanı [Aspose.Words.Tables](../../cellformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

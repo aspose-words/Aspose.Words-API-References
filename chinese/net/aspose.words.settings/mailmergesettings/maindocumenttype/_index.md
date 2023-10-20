@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MainDocumentType
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeSettings 财产. 指定邮件合并主文档类型 默认值为Default.
+linktitle: MainDocumentType
+articleTitle: MainDocumentType
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeSettings MainDocumentType 财产. 指定邮件合并主文档类型 默认值为Default 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.settings/mailmergesettings/maindocumenttype/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.settings/mailmergesettings/maindocumenttype/
 public MailMergeMainDocumentType MainDocumentType { get; set; }
 ```
 
-### 评论
+## 评论
 
 主文档是包含合并文档的每个版本的相同信息的文档。
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeMainDocumentType](../../mailmergemaindocumenttype/)
 * class [MailMergeSettings](../)
-* 命名空间 [Aspose.Words.Settings](../../mailmergesettings/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

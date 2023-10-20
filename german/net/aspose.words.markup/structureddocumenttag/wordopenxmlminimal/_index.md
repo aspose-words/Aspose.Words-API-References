@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.WordOpenXMLMinimal
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Ruft eine Zeichenfolge ab die das im Knoten im enthaltene XML darstelltFlatOpc format. Im Gegensatz zuWordOpenXMLEigenschaft generiert diese Methode ein reduziertes Dokument das alle nicht inhaltsbezogenen Teile ausschließt.
+linktitle: WordOpenXMLMinimal
+articleTitle: WordOpenXMLMinimal
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag WordOpenXMLMinimal eigendom. Ruft eine Zeichenfolge ab die das im Knoten im enthaltene XML darstelltFlatOpc format. Im Gegensatz zuWordOpenXMLEigenschaft generiert diese Methode ein reduziertes Dokument das alle nicht inhaltsbezogenen Teile ausschließt in C#.
 type: docs
 weight: 310
 url: /de/net/aspose.words.markup/structureddocumenttag/wordopenxmlminimal/
@@ -14,7 +16,7 @@ Ruft eine Zeichenfolge ab, die das im Knoten im enthaltene XML darstelltFlatOpc 
 public string WordOpenXMLMinimal { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Stilen für Inhaltssteuerelemente gearbeitet wird.
 
@@ -53,7 +55,5 @@ foreach (Node node in tags)
 ### Siehe auch
 
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

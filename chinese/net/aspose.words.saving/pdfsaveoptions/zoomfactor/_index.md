@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ZoomFactor
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 获取或设置确定文档缩放系数以百分比表示的值
+linktitle: ZoomFactor
+articleTitle: ZoomFactor
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions ZoomFactor 财产. 获取或设置确定文档缩放系数以百分比表示的值 在 C#.
 type: docs
 weight: 330
 url: /zh/net/aspose.words.saving/pdfsaveoptions/zoomfactor/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/zoomfactor/
 public int ZoomFactor { get; set; }
 ```
 
-### 评论
+## 评论
 
 仅当以下情况时才使用该值[`ZoomBehavior`](../zoombehavior/)被设定为ZoomFactor.
 
-### 例子
+## 例子
 
 演示如何设置读者在打开渲染的 PDF 文档时应用的默认缩放。
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 ### 也可以看看
 
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

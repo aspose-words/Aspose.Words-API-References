@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.DisplayUnit
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. يحدد قيمة القياس لوحدات العرض لمحور القيمة.
+linktitle: DisplayUnit
+articleTitle: DisplayUnit
+second_title: Aspose.Words لـ .NET
+description: ChartAxis DisplayUnit ملكية. يحدد قيمة القياس لوحدات العرض لمحور القيمة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing.charts/chartaxis/displayunit/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/displayunit/
 public AxisDisplayUnit DisplayUnit { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الخاصية لها تأثير فقط على محاور القيمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع علامات التجزئة والقيم المعروضة لمحور المخطط.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * class [AxisDisplayUnit](../../axisdisplayunit/)
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.HyphenateCaps
-second_title: Aspose.Words för .NET API Referens
-description: HyphenationOptions fast egendom. Hämtar eller ställer in ett värde som avgör om ord skrivna med stora bokstäver är avstavade. Standardvärdet för den här egenskapen ärSann .
+linktitle: HyphenateCaps
+articleTitle: HyphenateCaps
+second_title: Aspose.Words för .NET
+description: HyphenationOptions HyphenateCaps fast egendom. Hämtar eller ställer in ett värde som avgör om ord skrivna med stora bokstäver är avstavade. Standardvärdet för den här egenskapen ärSann  i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som avgör om ord skrivna med stora bokstä
 public bool HyphenateCaps { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar automatisk avstavning.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### Se även
 
 * class [HyphenationOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../hyphenationoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

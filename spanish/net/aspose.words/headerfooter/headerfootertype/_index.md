@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.HeaderFooterType
-second_title: Referencia de API de Aspose.Words para .NET
-description: HeaderFooter propiedad. Obtiene el tipo de este encabezado/pie de página.
+linktitle: HeaderFooterType
+articleTitle: HeaderFooterType
+second_title: Aspose.Words para .NET
+description: HeaderFooter HeaderFooterType propiedad. Obtiene el tipo de este encabezado/pie de página en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/headerfooter/headerfootertype/
@@ -14,7 +16,7 @@ Obtiene el tipo de este encabezado/pie de página.
 public HeaderFooterType HeaderFooterType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un encabezado y un pie de página.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooter](../)
-* espacio de nombres [Aspose.Words](../../headerfooter/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.Alignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. Especifica cómo se alinea una tabla en línea en el documento.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words para .NET
+description: Table Alignment propiedad. Especifica cómo se alinea una tabla en línea en el documento en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.tables/table/alignment/
@@ -14,11 +16,11 @@ Especifica cómo se alinea una tabla en línea en el documento.
 public TableAlignment Alignment { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado esLeft.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar un borde de contorno a una tabla.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * enum [TableAlignment](../../tablealignment/)
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class OlePackage
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.OlePackage 班级. 允许访问 OLE 包属性
+title: OlePackage Class
+linktitle: OlePackage
+articleTitle: OlePackage
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.OlePackage 班级. 允许访问 OLE 包属性 在 C#.
 type: docs
 weight: 1160
 url: /zh/net/aspose.words.drawing/olepackage/
@@ -23,11 +25,11 @@ public class OlePackage
 | [DisplayName](../../aspose.words.drawing/olepackage/displayname/) { get; set; } | 获取或设置 OLE 包显示名称。 |
 | [FileName](../../aspose.words.drawing/olepackage/filename/) { get; set; } | 获取或设置 OLE 包文件名。 |
 
-### 评论
+## 评论
 
 OLE 包是一种传统且“未记录”的方式，用于在 OLE 处理程序未知的情况下存储嵌入对象。 早期 Windows 版本（例如 Windows 3.1、95 和 98）具有 Packager.exe 应用程序，可用于将任何类型的数据嵌入到文档中. 现在此应用程序已从 Windows 中排除，但如果 OLE 处理程序丢失或未知，MS Word 和其他应用程序仍使用它来嵌入数据。
 
-### 例子
+## 例子
 
 显示如何将 OLE 对象插入到文档中。
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

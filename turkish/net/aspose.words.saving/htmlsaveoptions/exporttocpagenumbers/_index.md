@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportTocPageNumbers
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. HTML MHTML ve EPUBu kaydederken içindekiler tablosuna sayfa numaralarının yazıp yazmayacağını belirtir. Varsayılan değerYANLIŞ .
+linktitle: ExportTocPageNumbers
+articleTitle: ExportTocPageNumbers
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ExportTocPageNumbers mülk. HTML MHTML ve EPUBu kaydederken içindekiler tablosuna sayfa numaralarının yazıp yazmayacağını belirtir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 270
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
@@ -14,7 +16,7 @@ HTML, MHTML ve EPUB'u kaydederken içindekiler tablosuna sayfa numaralarının y
 public bool ExportTocPageNumbers { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İçindekiler tablosu içeren bir belgeyi .html'ye kaydederken sayfa numaralarının nasıl görüntüleneceğini gösterir.
 
@@ -72,7 +74,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

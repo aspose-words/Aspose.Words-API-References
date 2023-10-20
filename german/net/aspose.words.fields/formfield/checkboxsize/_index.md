@@ -1,7 +1,9 @@
 ---
 title: FormField.CheckBoxSize
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Ruft die Größe des Kontrollkästchens in Punkten ab oder legt diese fest. Wirkt nur wennIsCheckBoxExactSize IstWAHR .
+linktitle: CheckBoxSize
+articleTitle: CheckBoxSize
+second_title: Aspose.Words für .NET
+description: FormField CheckBoxSize eigendom. Ruft die Größe des Kontrollkästchens in Punkten ab oder legt diese fest. Wirkt nur wennIsCheckBoxExactSize IstWAHR  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/formfield/checkboxsize/
@@ -14,11 +16,11 @@ Ruft die Größe des Kontrollkästchens in Punkten ab oder legt diese fest. Wirk
 public double CheckBoxSize { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Gilt nur für ein Kontrollkästchen-Formularfeld.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschiedene Arten von Formularfeldern in ein Dokument eingefügt und mithilfe einer Dokumentbesucherimplementierung verarbeitet werden.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

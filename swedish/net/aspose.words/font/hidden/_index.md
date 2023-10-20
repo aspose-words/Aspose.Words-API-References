@@ -1,7 +1,9 @@
 ---
 title: Font.Hidden
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Sant om teckensnittet är formaterat som dold text.
+linktitle: Hidden
+articleTitle: Hidden
+second_title: Aspose.Words för .NET
+description: Font Hidden fast egendom. Sant om teckensnittet är formaterat som dold text i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words/font/hidden/
@@ -14,7 +16,7 @@ Sant om teckensnittet är formaterat som dold text.
 public bool Hidden { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en serie dold text.
 
@@ -229,7 +231,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum FontPitch
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.FontPitch opsomming. Stellt den Schriftabstand dar.
+title: FontPitch Enum
+linktitle: FontPitch
+articleTitle: FontPitch
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fonts.FontPitch opsomming. Stellt den Schriftabstand dar in C#.
 type: docs
 weight: 2960
 url: /de/net/aspose.words.fonts/fontpitch/
@@ -22,11 +24,11 @@ public enum FontPitch
 | Fixed | `1` | Gibt an, dass es sich um eine Schriftart mit fester Breite handelt. |
 | Variable | `2` | Gibt an, dass es sich um eine Schriftart mit proportionaler Breite handelt. |
 
-### Bemerkungen
+## Bemerkungen
 
 Die Tonhöhe gibt an, ob die Schriftart eine feste Tonhöhe oder einen proportionalen Abstand hat oder auf einer Standardeinstellung basiert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie auf Details zu jeder Schriftart in einem Dokument zugreifen und diese drucken können.
 
@@ -66,5 +68,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.PlaceholderName
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 获取或设置名称BuildingBlock包含占位符文本
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag PlaceholderName 财产. 获取或设置名称BuildingBlock包含占位符文本 在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words.markup/structureddocumenttag/placeholdername/
@@ -16,7 +18,7 @@ url: /zh/net/aspose.words.markup/structureddocumenttag/placeholdername/
 public string PlaceholderName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用构建块的内容作为结构化文档标记的自定义占位符文本。
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

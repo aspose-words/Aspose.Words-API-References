@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Add
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoFieldMapDataCollection yöntem. Bu koleksiyonun sonuna bir nesne ekler.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: OdsoFieldMapDataCollection Add yöntem. Bu koleksiyonun sonuna bir nesne ekler C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.settings/odsofieldmapdatacollection/add/
@@ -18,7 +20,7 @@ public int Add(OdsoFieldMapData value)
 | --- | --- | --- |
 | value | OdsoFieldMapData | Eklenecek nesne. Olamaz`hükümsüz`. |
 
-### Örnekler
+## Örnekler
 
 Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* ad alanı [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

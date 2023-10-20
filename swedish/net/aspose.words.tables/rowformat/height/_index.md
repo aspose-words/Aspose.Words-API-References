@@ -1,7 +1,9 @@
 ---
 title: RowFormat.Height
-second_title: Aspose.Words för .NET API Referens
-description: RowFormat fast egendom. Hämtar eller ställer in höjden på tabellraden i poäng.
+linktitle: Height
+articleTitle: Height
+second_title: Aspose.Words för .NET
+description: RowFormat Height fast egendom. Hämtar eller ställer in höjden på tabellraden i poäng i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.tables/rowformat/height/
@@ -14,7 +16,7 @@ Hämtar eller ställer in höjden på tabellraden i poäng.
 public double Height { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar rader med en dokumentbyggare.
 
@@ -109,7 +111,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### Se även
 
 * class [RowFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../rowformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

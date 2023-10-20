@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowWidth
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.ArrowWidth opsomming. Breite des Pfeils am Ende einer Zeile.
+title: ArrowWidth Enum
+linktitle: ArrowWidth
+articleTitle: ArrowWidth
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.ArrowWidth opsomming. Breite des Pfeils am Ende einer Zeile in C#.
 type: docs
 weight: 500
 url: /de/net/aspose.words.drawing/arrowwidth/
@@ -23,7 +25,7 @@ public enum ArrowWidth
 | Wide | `2` |  |
 | Default | `0` | Das Gleiche wieNarrow . |
 
-### Beispiele
+## Beispiele
 
 Zeigt, um eine Vielzahl von Formen zu erstellen.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowWidth](../stroke/endarrowwidth/)
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

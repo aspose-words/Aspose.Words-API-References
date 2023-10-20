@@ -1,7 +1,9 @@
 ---
-title: Class FrameFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.FrameFormat klas. Stellt die rahmenbezogene Formatierung für einen Absatz dar.
+title: FrameFormat Class
+linktitle: FrameFormat
+articleTitle: FrameFormat
+second_title: Aspose.Words für .NET
+description: Aspose.Words.FrameFormat klas. Stellt die rahmenbezogene Formatierung für einen Absatz dar in C#.
 type: docs
 weight: 3070
 url: /de/net/aspose.words/frameformat/
@@ -31,13 +33,13 @@ public class FrameFormat
 | [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Ruft den vertikalen Abstand zwischen der Kante des Rahmens und dem durch das angegebenen Element ab[`RelativeVerticalPosition`](./relativeverticalposition/) Eigenschaft. |
 | [Width](../../aspose.words/frameformat/width/) { get; } | Ruft die Breite des angegebenen Rahmens in Punkten ab. |
 
-### Bemerkungen
+## Bemerkungen
 
 Dieses Objekt wird immer erstellt. Wenn es sich bei einem Absatz um einen Rahmen handelt, enthalten alle Eigenschaften entsprechende Werte, andernfalls werden alle Eigenschaften auf ihre Standardwerte gesetzt.
 
 Verwenden[`IsFrame`](./isframe/) um zu prüfen, ob der Absatz ein Rahmen ist.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
@@ -63,5 +65,3 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

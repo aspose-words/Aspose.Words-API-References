@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: ChartSeriesCollection 财产. 返回数量ChartSeries在这个集合中.
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartSeriesCollection Count 财产. 返回数量ChartSeries在这个集合中 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartseriescollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartseriescollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在图表中添加和删除系列数据。
 
@@ -61,7 +63,5 @@ chartData.Clear();
 ### 也可以看看
 
 * class [ChartSeriesCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.Uri
-second_title: Aspose.Words för .NET API Referens
-description: ResourceLoadingArgs fast egendom. URI för resursen som används för nedladdning ifResourceLoading returnerarDefault.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words för .NET
+description: ResourceLoadingArgs Uri fast egendom. URI för resursen som används för nedladdning ifResourceLoading returnerarDefault i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.loading/resourceloadingargs/uri/
@@ -19,7 +21,5 @@ public string Uri { get; set; }
 ### Se även
 
 * class [ResourceLoadingArgs](../)
-* namnutrymme [Aspose.Words.Loading](../../resourceloadingargs/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

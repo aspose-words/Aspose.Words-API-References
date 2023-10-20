@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.Image
-second_title: Aspose.Words for .NET API Referansı
-description: ImageFieldMergingArgs mülk. Adresmektup birleştirme motorunun belgeye eklemesi gereken resmi belirtir.
+linktitle: Image
+articleTitle: Image
+second_title: Aspose.Words for .NET
+description: ImageFieldMergingArgs Image mülk. Adresmektup birleştirme motorunun belgeye eklemesi gereken resmi belirtir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.mailmerging/imagefieldmergingargs/image/
@@ -14,7 +16,7 @@ Adres-mektup birleştirme motorunun belgeye eklemesi gereken resmi belirtir.
 public Image Image { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Görüntü birleştirme mantığını özelleştirmek için geri aramanın nasıl kullanılacağını gösterir.
 
@@ -88,7 +90,5 @@ private class ImageFilenameCallback : IFieldMergingCallback
 ### Ayrıca bakınız
 
 * class [ImageFieldMergingArgs](../)
-* ad alanı [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

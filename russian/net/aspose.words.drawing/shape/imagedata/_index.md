@@ -1,7 +1,9 @@
 ---
 title: Shape.ImageData
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Предоставляет доступ к изображению фигуры. Возвращаетнулевой если фигура не может иметь изображение.
+linktitle: ImageData
+articleTitle: ImageData
+second_title: Aspose.Words для .NET
+description: Shape ImageData свойство. Предоставляет доступ к изображению фигуры. Возвращаетнулевой если фигура не может иметь изображение на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.drawing/shape/imagedata/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shape/imagedata/
 public ImageData ImageData { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь изображения из документа и сохранить их в локальной файловой системе как отдельные файлы.
 
@@ -83,7 +85,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * class [ImageData](../../imagedata/)
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

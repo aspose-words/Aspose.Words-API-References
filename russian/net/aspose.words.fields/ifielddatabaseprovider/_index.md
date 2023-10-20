@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldDatabaseProvider
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.IFieldDatabaseProvider интерфейс. Реализуйте этот интерфейс для предоставления данных дляFieldDatabase поле когда оно обновляется.
+title: IFieldDatabaseProvider Interface
+linktitle: IFieldDatabaseProvider
+articleTitle: IFieldDatabaseProvider
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.IFieldDatabaseProvider интерфейс. Реализуйте этот интерфейс для предоставления данных дляFieldDatabase поле когда оно обновляется на С#.
 type: docs
 weight: 2690
 url: /ru/net/aspose.words.fields/ifielddatabaseprovider/
@@ -18,11 +20,9 @@ public interface IFieldDatabaseProvider
 
 | Имя | Описание |
 | --- | --- |
-| [GetQueryResult](../../aspose.words.fields/ifielddatabaseprovider/getqueryresult/)(string, string, string, FieldDatabase) | Возвращает результат запроса. |
+| [GetQueryResult](../../aspose.words.fields/ifielddatabaseprovider/getqueryresult/)(*string, string, string, [FieldDatabase](../fielddatabase/)*) | Возвращает результат запроса. |
 
 ### Смотрите также
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

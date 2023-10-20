@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTagRangeStart.StructuredDocumentTagRangeStart
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart البناء. تهيئة مثيل جديد لـ يبدأ نطاق علامات المستند المنظم فئة.
+title: StructuredDocumentTagRangeStart
+linktitle: StructuredDocumentTagRangeStart
+articleTitle: StructuredDocumentTagRangeStart
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeStart البناء. تهيئة مثيل جديد لـيبدأ نطاق علامات المستند المنظم فئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart constructor
 
-تهيئة مثيل جديد لـ **يبدأ نطاق علامات المستند المنظم** فئة.
+تهيئة مثيل جديد لـ**يبدأ نطاق علامات المستند المنظم** فئة.
 
 ```csharp
 public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
@@ -19,7 +21,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 | doc | DocumentBase | وثيقة المالك. |
 | type | SdtType | نوع العقدة SDT. |
 
-### ملاحظات
+## ملاحظات
 
 يمكن إنشاء الأنواع التالية من المعاملة الخاصة والتفضيلية:
 
@@ -33,7 +35,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 * RichText
 * PlainText
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء/إزالة علامة المستند المنظمة ومحتواها.
 
@@ -87,7 +89,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [SdtType](../../sdttype/)
 * class [StructuredDocumentTagRangeStart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

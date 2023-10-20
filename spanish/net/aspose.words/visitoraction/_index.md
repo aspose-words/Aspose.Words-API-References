@@ -1,7 +1,9 @@
 ---
-title: Enum VisitorAction
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.VisitorAction enumeración. Permite al visitante controlar la enumeración de nodos.
+title: VisitorAction Enum
+linktitle: VisitorAction
+articleTitle: VisitorAction
+second_title: Aspose.Words para .NET
+description: Aspose.Words.VisitorAction enumeración. Permite al visitante controlar la enumeración de nodos en C#.
 type: docs
 weight: 6620
 url: /es/net/aspose.words/visitoraction/
@@ -26,5 +28,3 @@ public enum VisitorAction
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

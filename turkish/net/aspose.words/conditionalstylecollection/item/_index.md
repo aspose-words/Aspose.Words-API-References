@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyleCollection mülk. Bir öğeyi alırConditionalStyle koşullu stil türüne göre nesne.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: ConditionalStyleCollection Item mülk. Bir öğeyi alırConditionalStyle koşullu stil türüne göre nesne C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/conditionalstylecollection/item/
@@ -14,7 +16,7 @@ Bir öğeyi alır[`ConditionalStyle`](../../conditionalstyle/) koşullu stil tü
 public ConditionalStyle this[ConditionalStyleType conditionalStyleType] { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -86,7 +88,7 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 * class [ConditionalStyle](../../conditionalstyle/)
 * enum [ConditionalStyleType](../../conditionalstyletype/)
 * class [ConditionalStyleCollection](../)
-* ad alanı [Aspose.Words](../../conditionalstylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -103,7 +105,7 @@ public ConditionalStyle this[int index] { get; }
 | --- | --- |
 | index | Alınacak koşullu stilin sıfır tabanlı dizini. |
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* ad alanı [Aspose.Words](../../conditionalstylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

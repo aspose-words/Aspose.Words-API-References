@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputDefault
-second_title: Referencia de API de Aspose.Words para .NET
-description: FormField propiedad. Obtiene o establece la cadena predeterminada o una expresión de cálculo de un campo de formulario de texto.
+linktitle: TextInputDefault
+articleTitle: TextInputDefault
+second_title: Aspose.Words para .NET
+description: FormField TextInputDefault propiedad. Obtiene o establece la cadena predeterminada o una expresión de cálculo de un campo de formulario de texto en C#.
 type: docs
 weight: 190
 url: /es/net/aspose.words.fields/formfield/textinputdefault/
@@ -14,7 +16,7 @@ Obtiene o establece la cadena predeterminada o una expresión de cálculo de un 
 public string TextInputDefault { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El significado de esta propiedad depende del valor de la[`TextInputType`](../textinputtype/) propiedad.
 
@@ -24,7 +26,7 @@ Cuando[`TextInputType`](../textinputtype/) esCalculated, entonces esta cadena co
 
 Microsoft Word permite cadenas con un máximo de 255 caracteres.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
@@ -158,7 +160,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ver también
 
 * class [FormField](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfield/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

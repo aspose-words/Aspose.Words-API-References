@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.ImagesFolder
-second_title: Справочник по API Aspose.Words для .NET
-description: XamlFlowSaveOptions свойство. Указывает физическую папку в которой сохраняются изображения при экспорте документа в формат XAML. По умолчанию  пустая строка.
+linktitle: ImagesFolder
+articleTitle: ImagesFolder
+second_title: Aspose.Words для .NET
+description: XamlFlowSaveOptions ImagesFolder свойство. Указывает физическую папку в которой сохраняются изображения при экспорте документа в формат XAML. По умолчанию  пустая строка на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/xamlflowsaveoptions/imagesfolder/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/xamlflowsaveoptions/imagesfolder/
 public string ImagesFolder { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Когда вы сохраняете[`Document`](../../../aspose.words/document/) в формате XAML Aspose.Words необходимо сохранить все изображения , встроенные в документ, как отдельные файлы.`ImagesFolder` позволяет указать, где будут сохраняться изображения и[`ImagesFolderAlias`](../imagesfolderalias/) позволяет указать, как будут создаваться URI изображения.
 
@@ -22,7 +24,7 @@ public string ImagesFolder { get; set; }
 
 Если вы сохраняете документ в поток, Aspose.Words не имеет папки для сохранения изображений , но все равно необходимо где-то сохранять изображения. В этом случае вам необходимо указать доступную папку в`ImagesFolder` или предоставить собственные потоки через [`ImageSavingCallback`](../imagesavingcallback/) обработчик события.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать имена файлов связанных изображений, созданных при преобразовании документа в потоковую форму .xaml.
 
@@ -88,7 +90,5 @@ private class ImageUriPrinter : IImageSavingCallback
 ### Смотрите также
 
 * class [XamlFlowSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Section.PrependContent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Section méthode. Insère une copie du contenu de la section source au début de cette section.
+linktitle: PrependContent
+articleTitle: PrependContent
+second_title: Aspose.Words pour .NET
+description: Section PrependContent méthode. Insère une copie du contenu de la section source au début de cette section en C#.
 type: docs
-weight: 160
+weight: 140
 url: /fr/net/aspose.words/section/prependcontent/
 ---
 ## Section.PrependContent method
@@ -18,7 +20,7 @@ public void PrependContent(Section sourceSection)
 | --- | --- | --- |
 | sourceSection | Section | Section à partir de laquelle copier le contenu. |
 
-### Remarques
+## Remarques
 
 Seul le contenu de[`Body`](../body/) de la section source est copiée, la mise en page, les en-têtes et pieds de page ne sont pas copiés.
 
@@ -26,7 +28,7 @@ Les nœuds sont automatiquement importés si la section source appartient à un 
 
 Aucune nouvelle section n'est créée dans le document de destination.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter le contenu d’une section à une autre section.
 
@@ -62,7 +64,5 @@ Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
 ### Voir également
 
 * class [Section](../)
-* espace de noms [Aspose.Words](../../section/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

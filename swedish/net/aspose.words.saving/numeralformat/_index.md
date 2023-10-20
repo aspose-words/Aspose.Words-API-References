@@ -1,7 +1,9 @@
 ---
-title: Enum NumeralFormat
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.NumeralFormat uppräkning. Indikerar symboluppsättningen som används för att representera siffror vid återgivning till fasta sidformat.
+title: NumeralFormat Enum
+linktitle: NumeralFormat
+articleTitle: NumeralFormat
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.NumeralFormat uppräkning. Indikerar symboluppsättningen som används för att representera siffror vid återgivning till fasta sidformat i C#.
 type: docs
 weight: 5310
 url: /sv/net/aspose.words.saving/numeralformat/
@@ -24,7 +26,7 @@ public enum NumeralFormat
 | Context | `3` | Symboluppsättningen bestäms utifrån kontext (lokal och RTL-egenskap). |
 | System | `4` | DETTA ALTERNATIV STÖDS INTE. Symboluppsättningen bestäms från regionala inställningar. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in det sifferformat som används när du sparar till PDF.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

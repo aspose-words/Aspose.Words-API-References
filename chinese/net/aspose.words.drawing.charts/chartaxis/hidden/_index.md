@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Hidden
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 获取或设置一个标志指示该轴是否隐藏
+linktitle: Hidden
+articleTitle: Hidden
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis Hidden 财产. 获取或设置一个标志指示该轴是否隐藏 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.drawing.charts/chartaxis/hidden/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/hidden/
 public bool Hidden { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`.
 
-### 例子
+## 例子
 
 展示如何隐藏图表轴。
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.HideChartAxis.docx");
 ### 也可以看看
 
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

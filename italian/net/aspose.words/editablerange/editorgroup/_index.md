@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditorGroup
-second_title: Aspose.Words per .NET API Reference
-description: EditableRange proprietà. Restituisce o imposta un alias o gruppo di modifica che verrà utilizzato per determinare se lutente corrente potrà modificare questo intervallo modificabile.
+linktitle: EditorGroup
+articleTitle: EditorGroup
+second_title: Aspose.Words per .NET
+description: EditableRange EditorGroup proprietà. Restituisce o imposta un alias o gruppo di modifica che verrà utilizzato per determinare se lutente corrente potrà modificare questo intervallo modificabile in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/editablerange/editorgroup/
@@ -14,11 +16,11 @@ Restituisce o imposta un alias (o gruppo di modifica) che verrà utilizzato per 
 public EditorType EditorGroup { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Non è possibile impostare contemporaneamente un singolo utente e un gruppo di editor per l'intervallo modificabile specifico, se uno è impostato, l'altro sarà cancellato.
 
-### Esempi
+## Esempi
 
 Mostra come creare intervalli modificabili nidificati.
 
@@ -166,7 +168,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * enum [EditorType](../../editortype/)
 * class [EditableRange](../)
-* spazio dei nomi [Aspose.Words](../../editablerange/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

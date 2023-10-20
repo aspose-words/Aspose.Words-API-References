@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.Type
-second_title: Aspose.Words für .NET-API-Referenz
-description: SystemFontSource eigendom. Gibt den Typ der Schriftartquelle zurück.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words für .NET
+description: SystemFontSource Type eigendom. Gibt den Typ der Schriftartquelle zurück in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fonts/systemfontsource/type/
@@ -14,7 +16,7 @@ Gibt den Typ der Schriftartquelle zurück.
 public override FontSourceType Type { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie auf die Systemschriftquelle eines Dokuments zugreifen und Schriftartersatz festlegen.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [SystemFontSource](../)
-* namensraum [Aspose.Words.Fonts](../../systemfontsource/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Run.PhoneticGuide
-second_title: Aspose.Words för .NET API Referens
-description: Run fast egendom. Får enPhoneticGuide objekt.
+linktitle: PhoneticGuide
+articleTitle: PhoneticGuide
+second_title: Aspose.Words för .NET
+description: Run PhoneticGuide fast egendom. Får enPhoneticGuide objekt i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/run/phoneticguide/
@@ -14,7 +16,7 @@ Får en`PhoneticGuide` objekt.
 public PhoneticGuide PhoneticGuide { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får egenskaper för den fonetiska guiden.
 
@@ -32,7 +34,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 
 * class [PhoneticGuide](../../phoneticguide/)
 * class [Run](../)
-* namnutrymme [Aspose.Words](../../run/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

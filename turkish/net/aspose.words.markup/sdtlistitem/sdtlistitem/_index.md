@@ -1,12 +1,14 @@
 ---
-title: SdtListItem.SdtListItem
-second_title: Aspose.Words for .NET API Referansı
-description: SdtListItem inşaatçı. Bu sınıfın yeni bir örneğini başlatır.
+title: SdtListItem
+linktitle: SdtListItem
+articleTitle: SdtListItem
+second_title: Aspose.Words for .NET
+description: SdtListItem inşaatçı. Bu sınıfın yeni bir örneğini başlatır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.markup/sdtlistitem/sdtlistitem/
 ---
-## SdtListItem(string, string) {#constructor_1}
+## SdtListItem(*string, string*) {#constructor_1}
 
 Bu sınıfın yeni bir örneğini başlatır.
 
@@ -14,7 +16,7 @@ Bu sınıfın yeni bir örneğini başlatır.
 public SdtListItem(string displayText, string value)
 ```
 
-### Örnekler
+## Örnekler
 
 Açılır liste yapılandırılmış belge etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -71,12 +73,12 @@ Assert.AreEqual(0, listItems.Count);
 ### Ayrıca bakınız
 
 * class [SdtListItem](../)
-* ad alanı [Aspose.Words.Markup](../../sdtlistitem/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## SdtListItem(string) {#constructor}
+## SdtListItem(*string*) {#constructor}
 
 Bu sınıfın yeni bir örneğini başlatır.
 
@@ -84,7 +86,7 @@ Bu sınıfın yeni bir örneğini başlatır.
 public SdtListItem(string value)
 ```
 
-### Örnekler
+## Örnekler
 
 Açılır liste yapılandırılmış belge etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -141,7 +143,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Ayrıca bakınız
 
 * class [SdtListItem](../)
-* ad alanı [Aspose.Words.Markup](../../sdtlistitem/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

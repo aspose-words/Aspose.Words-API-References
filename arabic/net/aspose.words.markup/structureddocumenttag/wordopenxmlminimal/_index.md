@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.WordOpenXMLMinimal
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc تنسيق. خلافا لWordOpenXMLالخاصية تقوم هذه الطريقة بإنشاء مستند مبسط يستبعد أي أجزاء غير متعلقة بالمحتوى.
+linktitle: WordOpenXMLMinimal
+articleTitle: WordOpenXMLMinimal
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag WordOpenXMLMinimal ملكية. يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc تنسيق. خلافا لWordOpenXMLالخاصية تقوم هذه الطريقة بإنشاء مستند مبسط يستبعد أي أجزاء غير متعلقة بالمحتوى في C#.
 type: docs
 weight: 310
 url: /ar/net/aspose.words.markup/structureddocumenttag/wordopenxmlminimal/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttag/wordopenxmlminimal/
 public string WordOpenXMLMinimal { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط عناصر التحكم في المحتوى.
 
@@ -53,7 +55,5 @@ foreach (Node node in tags)
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

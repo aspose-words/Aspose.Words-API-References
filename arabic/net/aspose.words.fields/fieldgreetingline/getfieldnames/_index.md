@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.GetFieldNames
-second_title: Aspose.Words لمراجع .NET API
-description: FieldGreetingLine طريقة. إرجاع مجموعة من أسماء حقول دمج المراسلات المستخدمة بواسطة الحقل.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words لـ .NET
+description: FieldGreetingLine GetFieldNames طريقة. إرجاع مجموعة من أسماء حقول دمج المراسلات المستخدمة بواسطة الحقل في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldgreetingline/getfieldnames/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldgreetingline/getfieldnames/
 public string[] GetFieldNames()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل GREETINGLINE.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### أنظر أيضا
 
 * class [FieldGreetingLine](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldgreetingline/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BubbleSizeCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: BubbleSizeCollection mülk. Bu koleksiyondaki öğelerin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: BubbleSizeCollection Count mülk. Bu koleksiyondaki öğelerin sayısını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/bubblesizecollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Ayrıca bakınız
 
 * class [BubbleSizeCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../bubblesizecollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

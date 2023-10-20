@@ -1,7 +1,9 @@
 ---
 title: Document.Frameset
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bir değeri döndürürFramesetörneğin bu belge bir çerçeve sayfasını temsil ediyorsa.
+linktitle: Frameset
+articleTitle: Frameset
+second_title: Aspose.Words for .NET
+description: Document Frameset mülk. Bir değeri döndürürFramesetörneğin bu belge bir çerçeve sayfasını temsil ediyorsa C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/document/frameset/
@@ -14,11 +16,11 @@ Bir değeri döndürür`Frameset`örneğin bu belge bir çerçeve sayfasını te
 public Frameset Frameset { get; }
 ```
 
-### Notlar
+## Notlar
 
 Belge çerçevelenmemişse, özellik`hükümsüz` değer.
 
-### Örnekler
+## Örnekler
 
 Sayfadaki çerçevelere nasıl erişileceğini gösterir.
 
@@ -44,7 +46,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * class [Frameset](../../../aspose.words.framesets/frameset/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

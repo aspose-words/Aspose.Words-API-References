@@ -1,7 +1,9 @@
 ---
 title: Node.Document
-second_title: Referencia de API de Aspose.Words para .NET
-description: Node propiedad. Obtiene el documento al que pertenece este nodo.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words para .NET
+description: Node Document propiedad. Obtiene el documento al que pertenece este nodo en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/node/document/
@@ -14,11 +16,11 @@ Obtiene el documento al que pertenece este nodo.
 public virtual DocumentBase Document { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 El nodo siempre pertenece a un documento incluso si acaba de crearse y aún no se ha agregado al árbol, o si se ha eliminado del árbol.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un nodo y configurar su documento propietario.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [DocumentBase](../../documentbase/)
 * class [Node](../)
-* espacio de nombres [Aspose.Words](../../node/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

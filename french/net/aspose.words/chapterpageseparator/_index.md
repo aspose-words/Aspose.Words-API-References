@@ -1,7 +1,9 @@
 ---
-title: Enum ChapterPageSeparator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.ChapterPageSeparator énumération. Définit le caractère séparateur qui apparaît entre le chapitre et le numéro de page.
+title: ChapterPageSeparator Enum
+linktitle: ChapterPageSeparator
+articleTitle: ChapterPageSeparator
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.ChapterPageSeparator énumération. Définit le caractère séparateur qui apparaît entre le chapitre et le numéro de page en C#.
 type: docs
 weight: 200
 url: /fr/net/aspose.words/chapterpageseparator/
@@ -24,7 +26,7 @@ public enum ChapterPageSeparator
 | EmDash | `3` | Un tiret accentué. |
 | EnDash | `4` | Un tiret standard. |
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec les chapitres de page.
 
@@ -44,5 +46,3 @@ pageSetup.HeadingLevelForChapter = 1;
 * property [ChapterPageSeparator](../pagesetup/chapterpageseparator/)
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

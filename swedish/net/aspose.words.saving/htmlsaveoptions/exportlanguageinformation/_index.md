@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportLanguageInformation
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger om språkinformation exporteras till HTML MHTML eller EPUB. Standard ärfalsk .
+linktitle: ExportLanguageInformation
+articleTitle: ExportLanguageInformation
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ExportLanguageInformation fast egendom. Anger om språkinformation exporteras till HTML MHTML eller EPUB. Standard ärfalsk  i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
@@ -14,11 +16,11 @@ Anger om språkinformation exporteras till HTML, MHTML eller EPUB. Standard är`
 public bool ExportLanguageInformation { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
-När den här egenskapen är inställd på`Sann` Aspose.Words-utgångar **lang** HTML-attribut på elementen document som anger språk. Detta kan behövas för att bevara språkrelaterad semantik.
+När den här egenskapen är inställd på`Sann` Aspose.Words-utgångar**lang** HTML-attribut på elementen document som anger språk. Detta kan behövas för att bevara språkrelaterad semantik.
 
-### Exempel
+## Exempel
 
 Visar hur du bevarar språkinformation när du sparar till .html.
 
@@ -69,7 +71,5 @@ else
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.AddSpaceBetweenFarEastAndAlpha
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Geçerli paragraftaki Latin metninin bölgeleri ile Doğu Asya metninin bölgeleri arasında karakterler arası aralığın otomatik olarak ayarlanıp ayarlanmadığını belirten bir işaret alır veya ayarlar.
+linktitle: AddSpaceBetweenFarEastAndAlpha
+articleTitle: AddSpaceBetweenFarEastAndAlpha
+second_title: Aspose.Words for .NET
+description: ParagraphFormat AddSpaceBetweenFarEastAndAlpha mülk. Geçerli paragraftaki Latin metninin bölgeleri ile Doğu Asya metninin bölgeleri arasında karakterler arası aralığın otomatik olarak ayarlanıp ayarlanmadığını belirten bir işaret alır veya ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/paragraphformat/addspacebetweenfareastandalpha/
@@ -14,7 +16,7 @@ Geçerli paragraftaki Latin metninin bölgeleri ile Doğu Asya metninin bölgele
 public bool AddSpaceBetweenFarEastAndAlpha { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgeye nasıl paragraf ekleneceğini gösterir.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

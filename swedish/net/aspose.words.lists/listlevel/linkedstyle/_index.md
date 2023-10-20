@@ -1,7 +1,9 @@
 ---
 title: ListLevel.LinkedStyle
-second_title: Aspose.Words för .NET API Referens
-description: ListLevel fast egendom. Hämtar eller ställer in styckeformatet som är länkat till denna listnivå.
+linktitle: LinkedStyle
+articleTitle: LinkedStyle
+second_title: Aspose.Words för .NET
+description: ListLevel LinkedStyle fast egendom. Hämtar eller ställer in styckeformatet som är länkat till denna listnivå i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.lists/listlevel/linkedstyle/
@@ -14,11 +16,11 @@ Hämtar eller ställer in styckeformatet som är länkat till denna listnivå.
 public Style LinkedStyle { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna fastighet är`null` när listnivån inte är länkad till en styckestil. Den här egenskapen kan ställas in på`null`.
 
-### Exempel
+## Exempel
 
 Visar avancerade sätt att anpassa listetiketter.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [ListLevel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

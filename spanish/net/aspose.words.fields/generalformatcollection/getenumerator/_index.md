@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.GetEnumerator
-second_title: Referencia de API de Aspose.Words para .NET
-description: GeneralFormatCollection método. Devuelve un objeto enumerador.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words para .NET
+description: GeneralFormatCollection GetEnumerator método. Devuelve un objeto enumerador en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/generalformatcollection/getenumerator/
@@ -14,7 +16,7 @@ Devuelve un objeto enumerador.
 public IEnumerator<GeneralFormat> GetEnumerator()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dar formato a los resultados de los campos.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * enum [GeneralFormat](../../generalformat/)
 * class [GeneralFormatCollection](../)
-* espacio de nombres [Aspose.Words.Fields](../../generalformatcollection/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

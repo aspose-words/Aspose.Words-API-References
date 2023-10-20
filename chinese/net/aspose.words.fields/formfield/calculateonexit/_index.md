@@ -1,7 +1,9 @@
 ---
 title: FormField.CalculateOnExit
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 如果每当退出指定表单字段时都会自动更新该字段的引用则为 True
+linktitle: CalculateOnExit
+articleTitle: CalculateOnExit
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField CalculateOnExit 财产. 如果每当退出指定表单字段时都会自动更新该字段的引用则为 True 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/formfield/calculateonexit/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/formfield/calculateonexit/
 public bool CalculateOnExit { get; set; }
 ```
 
-### 评论
+## 评论
 
 环境`CalculateOnExit`仅在 在 Microsoft Word 中打开文档时影响表单字段的行为。 Aspose.Words 永远不会将references 更新到表单字段。
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.PreferredWidth
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على العرض المفضل للجدول أو تعيينه.
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words لـ .NET
+description: Table PreferredWidth ملكية. الحصول على العرض المفضل للجدول أو تعيينه في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.tables/table/preferredwidth/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.tables/table/preferredwidth/
 public PreferredWidth PreferredWidth { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي[`Auto`](../../preferredwidth/auto/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين جدول ليتناسب تلقائيًا مع 50% من عرض الصفحة.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithPreferredWidth.docx");
 
 * class [PreferredWidth](../../preferredwidth/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

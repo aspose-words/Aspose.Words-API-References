@@ -1,12 +1,14 @@
 ---
 title: CertificateHolder.Create
-second_title: Aspose.Words for .NET API 参考
-description: CertificateHolder 方法. 创建CertificateHolder使用 PKCS12 存储的字节数组及其密码的对象
+linktitle: Create
+articleTitle: Create
+second_title: 用于 .NET 的 Aspose.Words
+description: CertificateHolder Create 方法. 创建CertificateHolder使用 PKCS12 存储的字节数组及其密码的对象 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.digitalsignatures/certificateholder/create/
 ---
-## Create(byte[], SecureString) {#create}
+## Create(*byte[], SecureString*) {#create}
 
 创建[`CertificateHolder`](../)使用 PKCS12 存储的字节数组及其密码的对象。
 
@@ -32,7 +34,7 @@ public static CertificateHolder Create(byte[] certBytes, SecureString password)
 | SecurityException | 如果 PKCS12 存储不包含别名，则抛出此错误 |
 | IOException | 如果密码错误或文件损坏，则抛出此异常。 |
 
-### 例子
+## 例子
 
 演示如何创建CertificateHolder对象。
 
@@ -77,12 +79,12 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### 也可以看看
 
 * class [CertificateHolder](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Create(byte[], string) {#create_1}
+## Create(*byte[], string*) {#create_1}
 
 创建[`CertificateHolder`](../)使用 PKCS12 存储的字节数组及其密码的对象。
 
@@ -108,7 +110,7 @@ public static CertificateHolder Create(byte[] certBytes, string password)
 | SecurityException | 如果 PKCS12 存储不包含别名，则抛出此错误 |
 | IOException | 如果密码错误或文件损坏，则抛出此异常。 |
 
-### 例子
+## 例子
 
 演示如何创建CertificateHolder对象。
 
@@ -153,12 +155,12 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### 也可以看看
 
 * class [CertificateHolder](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Create(string, string) {#create_2}
+## Create(*string, string*) {#create_2}
 
 创建[`CertificateHolder`](../)使用 PKCS12 存储路径及其密码的对象。
 
@@ -184,7 +186,7 @@ public static CertificateHolder Create(string fileName, string password)
 | SecurityException | 如果 PKCS12 存储不包含别名，则抛出此错误 |
 | IOException | 如果密码错误或文件损坏，则抛出此异常。 |
 
-### 例子
+## 例子
 
 展示如何对文档进行数字签名。
 
@@ -213,12 +215,12 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### 也可以看看
 
 * class [CertificateHolder](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Create(string, string, string) {#create_3}
+## Create(*string, string, string*) {#create_3}
 
 创建[`CertificateHolder`](../)使用 PKCS12 存储路径、其密码和别名的对象，通过使用该对象将找到私钥和证书。
 
@@ -246,7 +248,7 @@ public static CertificateHolder Create(string fileName, string password, string 
 | IOException | 如果密码错误或文件损坏，则抛出此异常。 |
 | SecurityException | 如果没有具有给定别名的私钥，则抛出此异常 |
 
-### 例子
+## 例子
 
 演示如何创建CertificateHolder对象。
 
@@ -291,7 +293,5 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ### 也可以看看
 
 * class [CertificateHolder](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

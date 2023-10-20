@@ -1,7 +1,9 @@
 ---
-title: Enum TxtTrailingSpacesOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loading.TxtTrailingSpacesOptions перечисление. Указывает доступные параметры обработки конечных пробелов во время импорта изText файл.
+title: TxtTrailingSpacesOptions Enum
+linktitle: TxtTrailingSpacesOptions
+articleTitle: TxtTrailingSpacesOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Loading.TxtTrailingSpacesOptions перечисление. Указывает доступные параметры обработки конечных пробелов во время импорта изText файл на С#.
 type: docs
 weight: 3740
 url: /ru/net/aspose.words.loading/txttrailingspacesoptions/
@@ -21,7 +23,7 @@ public enum TxtTrailingSpacesOptions
 | Trim | `0` |  |
 | Preserve | `1` |  |
 
-### Примеры
+## Примеры
 
 Показывает, как обрезать пробелы при загрузке документов с открытым текстом.
 
@@ -98,5 +100,3 @@ switch (txtTrailingSpacesOptions)
 
 * пространство имен [Aspose.Words.Loading](../../aspose.words.loading/)
 * сборка [Aspose.Words](../../)
-
-

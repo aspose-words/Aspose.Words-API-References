@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.RemoveAllChildren
-second_title: Aspose.Words per .NET API Reference
-description: CompositeNode metodo. Rimuove tutti i nodi figlio del nodo corrente.
+linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
+second_title: Aspose.Words per .NET
+description: CompositeNode RemoveAllChildren metodo. Rimuove tutti i nodi figlio del nodo corrente in C#.
 type: docs
-weight: 180
+weight: 160
 url: /it/net/aspose.words/compositenode/removeallchildren/
 ---
 ## CompositeNode.RemoveAllChildren method
@@ -14,7 +16,7 @@ Rimuove tutti i nodi figlio del nodo corrente.
 public void RemoveAllChildren()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come costruire manualmente un documento Aspose.Words.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Guarda anche
 
 * class [CompositeNode](../)
-* spazio dei nomi [Aspose.Words](../../compositenode/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Borders
-second_title: Aspose.Words für .NET-API-Referenz
-description: TableStyle eigendom. Ruft die Sammlung von StandardZellenrändern für den Stil ab.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words für .NET
+description: TableStyle Borders eigendom. Ruft die Sammlung von StandardZellenrändern für den Stil ab in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/tablestyle/borders/
@@ -14,7 +16,7 @@ Ruft die Sammlung von Standard-Zellenrändern für den Stil ab.
 public BorderCollection Borders { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Stileinstellungen für die Tabelle erstellen.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [TableStyle](../)
-* namensraum [Aspose.Words](../../tablestyle/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

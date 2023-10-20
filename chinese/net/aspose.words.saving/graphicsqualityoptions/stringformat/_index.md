@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.StringFormat
-second_title: Aspose.Words for .NET API 参考
-description: GraphicsQualityOptions 财产. 获取或设置文本布局信息例如对齐方向和制表位显示操作 例如省略号插入和国家数字替换和 OpenType 功能
+linktitle: StringFormat
+articleTitle: StringFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: GraphicsQualityOptions StringFormat 财产. 获取或设置文本布局信息例如对齐方向和制表位显示操作 例如省略号插入和国家数字替换和 OpenType 功能 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/graphicsqualityoptions/stringformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/graphicsqualityoptions/stringformat/
 public StringFormat StringFormat { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在将文档转换为图像格式时设置渲染质量选项。
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### 也可以看看
 
 * class [GraphicsQualityOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

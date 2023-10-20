@@ -1,7 +1,9 @@
 ---
 title: Run.Accept
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Run méthode. Accepte un visiteur.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words pour .NET
+description: Run Accept méthode. Accepte un visiteur en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/run/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `FAUX` si le visiteur a demandé l'arrêt de l'énumération.
 
-### Remarques
+## Remarques
 
 Appels[`VisitRun`](../../documentvisitor/visitrun/).
 
 Pour plus d’informations, consultez le modèle de conception Visiteur.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer la structure des nœuds de chaque en-tête et pied de page d'un document.
 
@@ -122,7 +124,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Run](../)
-* espace de noms [Aspose.Words](../../run/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

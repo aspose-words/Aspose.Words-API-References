@@ -1,7 +1,9 @@
 ---
 title: CellCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: CellCollection eigendom. Ruft a abCell am angegebenen Index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: CellCollection Item eigendom. Ruft a abCell am angegebenen Index in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.tables/cellcollection/item/
@@ -18,7 +20,7 @@ public Cell this[int index] { get; }
 | --- | --- |
 | index | Ein Index in die Sammlung. |
 
-### Bemerkungen
+## Bemerkungen
 
 Der Index ist nullbasiert.
 
@@ -28,7 +30,7 @@ Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wi
 
 Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt werden.
 
@@ -75,7 +77,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Cell](../../cell/)
 * class [CellCollection](../)
-* namensraum [Aspose.Words.Tables](../../cellcollection/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

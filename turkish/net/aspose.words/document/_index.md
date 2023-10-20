@@ -1,7 +1,9 @@
 ---
-title: Class Document
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Document sınıf. Bir Word belgesini temsil eder.
+title: Document Class
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Document sınıf. Bir Word belgesini temsil eder C#'da.
 type: docs
 weight: 430
 url: /tr/net/aspose.words/document/
@@ -21,10 +23,10 @@ public class Document : DocumentBase
 | İsim | Tanım |
 | --- | --- |
 | [Document](document/#constructor)() | Boş bir Word belgesi oluşturur. |
-| [Document](document/#constructor_1)(Stream) | Bir akıştan mevcut bir belgeyi açar. Dosya biçimini otomatik olarak algılar. |
-| [Document](document/#constructor_3)(string) | Bir dosyadan mevcut bir belgeyi açar. Dosya biçimini otomatik olarak algılar. |
-| [Document](document/#constructor_2)(Stream, LoadOptions) | Bir akıştan mevcut bir belgeyi açar. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır. |
-| [Document](document/#constructor_4)(string, LoadOptions) | Bir dosyadan mevcut bir belgeyi açar. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır. |
+| [Document](document/#constructor_1)(*Stream*) | Bir akıştan mevcut bir belgeyi açar. Dosya biçimini otomatik olarak algılar. |
+| [Document](document/#constructor_3)(*string*) | Bir dosyadan mevcut bir belgeyi açar. Dosya biçimini otomatik olarak algılar. |
+| [Document](document/#constructor_2)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Bir akıştan mevcut bir belgeyi açar. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır. |
+| [Document](document/#constructor_4)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Bir dosyadan mevcut bir belgeyi açar. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır. |
 
 ## Özellikleri
 
@@ -34,7 +36,7 @@ public class Document : DocumentBase
 | [AutomaticallyUpdateStyles](../../aspose.words/document/automaticallyupdatestyles/) { get; set; } | Belgedeki stillerin, belge MS Word'de her açıldığında ekli şablondaki stilleriyle eşleşecek şekilde güncellenip güncellenmediğini belirten bir bayrak alır veya ayarlar. |
 | [BackgroundShape](../../aspose.words/documentbase/backgroundshape/) { get; set; } | Belgenin arka plan şeklini alır veya ayarlar. Olabilir`hükümsüz` . |
 | [BuiltInDocumentProperties](../../aspose.words/document/builtindocumentproperties/) { get; } | Belgenin tüm yerleşik belge özelliklerini temsil eden bir koleksiyon döndürür. |
-| [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/) { get; } | Belge uyumluluk seçeneklerine (yani, **Uyumluluk** sekmesi **Seçenekler** Word'deki iletişim kutusu). |
+| [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/) { get; } | Belge uyumluluk seçeneklerine (yani,**Uyumluluk** sekmesi**Seçenekler** Word'deki iletişim kutusu). |
 | [Compliance](../../aspose.words/document/compliance/) { get; } | Yüklenen belge içeriğinden belirlenen OOXML uyumluluk sürümünü alır. Yalnızca OOXML belgeleri için anlamlıdır. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Bu düğümün doğrudan alt öğelerinin sayısını alır. |
 | [CustomDocumentProperties](../../aspose.words/document/customdocumentproperties/) { get; } | Belgenin tüm özel belge özelliklerini temsil eden bir koleksiyon döndürür. |
@@ -103,81 +105,79 @@ public class Document : DocumentBase
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words/document/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
+| override [Accept](../../aspose.words/document/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Ziyaretçi kabul eder. |
 | [AcceptAllRevisions](../../aspose.words/document/acceptallrevisions/)() | Belgede izlenen tüm değişiklikleri kabul eder. |
-| override [AcceptEnd](../../aspose.words/document/acceptend/)(DocumentVisitor) |  |
-| override [AcceptStart](../../aspose.words/document/acceptstart/)(DocumentVisitor) |  |
-| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
-| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument)(Document, ImportFormatMode) | Belirtilen belgeyi bu belgenin sonuna ekler. |
-| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Belirtilen belgeyi bu belgenin sonuna ekler. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Belirtilen düğümü, bu düğüm için alt düğümler listesinin sonuna ekler. |
+| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument)(*Document, [ImportFormatMode](../importformatmode/)*) | Belirtilen belgeyi bu belgenin sonuna ekler. |
+| [AppendDocument](../../aspose.words/document/appenddocument/#appenddocument_1)(*Document, [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)*) | Belirtilen belgeyi bu belgenin sonuna ekler. |
 | [Cleanup](../../aspose.words/document/cleanup/#cleanup)() | Belgedeki kullanılmayan stilleri ve listeleri temizler. |
-| [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(CleanupOptions) | Verilenlere bağlı olarak kullanılmayan stilleri ve listeleri belgeden temizler.[`CleanupOptions`](../cleanupoptions/) . |
+| [Cleanup](../../aspose.words/document/cleanup/#cleanup_1)(*[CleanupOptions](../cleanupoptions/)*) | Verilenlere bağlı olarak kullanılmayan stilleri ve listeleri belgeden temizler.[`CleanupOptions`](../cleanupoptions/) . |
 | [Clone](../../aspose.words/document/clone/#clone)() | Derin bir kopyasını gerçekleştirir.`Document` . |
-| [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
-| [Compare](../../aspose.words/document/compare/#compare)(Document, string, DateTime) | Bu belgeyi, düzenleme ve biçim revizyonlarının sayısı olarak değişiklik üreten başka bir belgeyle karşılaştırır[`Revision`](../revision/) . |
-| [Compare](../../aspose.words/document/compare/#compare_1)(Document, string, DateTime, CompareOptions) | Bu belgeyi, bir dizi düzenleme ve biçim revizyonu şeklinde değişiklik üreten başka bir belgeyle karşılaştırır[`Revision`](../revision/) . Karşılaştırma seçeneklerini belirtmeye olanak sağlar.[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
-| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate)(Document) | Stilleri belirtilen şablondan bir belgeye kopyalar. |
-| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate_1)(string) | Stilleri belirtilen şablondan bir belgeye kopyalar. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Düğümün bir kopyasını oluşturur. |
+| [Compare](../../aspose.words/document/compare/#compare)(*Document, string, DateTime*) | Bu belgeyi, düzenleme ve biçim revizyonlarının sayısı olarak değişiklik üreten başka bir belgeyle karşılaştırır[`Revision`](../revision/) . |
+| [Compare](../../aspose.words/document/compare/#compare_1)(*Document, string, DateTime, [CompareOptions](../../aspose.words.comparing/compareoptions/)*) | Bu belgeyi, bir dizi düzenleme ve biçim revizyonu şeklinde değişiklik üreten başka bir belgeyle karşılaştırır[`Revision`](../revision/) . Karşılaştırma seçeneklerini belirtmeye olanak sağlar.[`CompareOptions`](../../aspose.words.comparing/compareoptions/) . |
+| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate)(*Document*) | Stilleri belirtilen şablondan bir belgeye kopyalar. |
+| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate_1)(*string*) | Stilleri belirtilen şablondan bir belgeye kopyalar. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Düğümlerin arasında geçiş yapmak ve düğümleri okumak için kullanılabilecek gezgini oluşturur. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum/)() | Belgede bölüm yoksa, tek paragraflı bir bölüm oluşturur. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting/)() | Tablo stillerinde belirtilen biçimlendirmeyi, belgedeki tablolardaki doğrudan biçimlendirmeye dönüştürür. |
-| [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Şunu döndürür:`Document` belirtilen sayfa aralığını temsil eden nesne. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk atayı alır. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Belirtilen türle eşleşen N'inci alt düğümü döndürür. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Belirtilen türle eşleşen alt düğümlerin canlı bir koleksiyonunu döndürür. |
+| [ExtractPages](../../aspose.words/document/extractpages/)(*int, int*) | Şunu döndürür:`Document` belirtilen sayfa aralığını temsil eden nesne. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Belirtilen nesne türünün ilk atayı alır. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Belirtilen türle eşleşen N'inci alt düğümü döndürür. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Belirtilen türle eşleşen alt düğümlerin canlı bir koleksiyonunu döndürür. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Bu düğümün alt düğümleri üzerindeki her stil yinelemesi için destek sağlar. |
-| [GetPageInfo](../../aspose.words/document/getpageinfo/)(int) | Yazdırma veya işleme için faydalı olabilecek sayfa boyutunu, yönünü ve bir sayfa hakkındaki diğer bilgileri alır. |
+| [GetPageInfo](../../aspose.words/document/getpageinfo/)(*int*) | Yazdırma veya işleme için faydalı olabilecek sayfa boyutunu, yönünü ve bir sayfa hakkındaki diğer bilgileri alır. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
-| [ImportNode](../../aspose.words/documentbase/importnode/)(Node, bool) | Başka bir belgedeki bir düğümü geçerli belgeye aktarır. |
-| [ImportNode](../../aspose.words/documentbase/importnode/)(Node, bool, ImportFormatMode) | Biçimlendirmeyi kontrol etme seçeneğiyle birlikte başka bir belgedeki bir düğümü geçerli belgeye aktarır. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Alt düğüm dizisinde belirtilen alt düğümün dizinini döndürür. |
-| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
-| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
+| [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../node/), bool*) | Başka bir belgedeki bir düğümü geçerli belgeye aktarır. |
+| [ImportNode](../../aspose.words/documentbase/importnode/)(*[Node](../node/), bool, [ImportFormatMode](../importformatmode/)*) | Biçimlendirmeyi kontrol etme seçeneğiyle birlikte başka bir belgedeki bir düğümü geçerli belgeye aktarır. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Alt düğüm dizisinde belirtilen alt düğümün dizinini döndürür. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Belirtilen düğümü, belirtilen referans düğümünün hemen sonrasına ekler. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Belirtilen düğümü, belirtilen referans düğümünün hemen öncesine ekler. |
 | [JoinRunsWithSameFormatting](../../aspose.words/document/joinrunswithsameformatting/)() | Birleştirmeler belgenin tüm paragraflarında aynı formatta çalışır. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
 | [NormalizeFieldTypes](../../aspose.words/document/normalizefieldtypes/)() | Alan türü değerlerini değiştirir[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) ile ilgili[`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) alan kodlarında yer alan alan türlerine karşılık gelecek şekilde tüm belgede. |
-| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Belirtilen düğümü, bu düğüm için alt düğümler listesinin başına ekler. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Print](../../aspose.words/document/print/#print)() | Belgenin tamamını varsayılan yazıcıya yazdırır. |
-| [Print](../../aspose.words/document/print/#print_1)(PrinterSettings) | Belgeyi belirtilen yazıcı ayarlarına göre standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak yazdırır. |
-| [Print](../../aspose.words/document/print/#print_3)(string) | Standart (Kullanıcı Arayüzü olmayan) yazdırma denetleyicisini kullanarak belgenin tamamını belirtilen yazıcıya, yazdırın. |
-| [Print](../../aspose.words/document/print/#print_2)(PrinterSettings, string) | Belgeyi belirtilen yazıcı ayarlarına göre standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini ve belge adını kullanarak yazdırır. |
-| [Protect](../../aspose.words/document/protect/#protect)(ProtectionType) | Mevcut şifreyi değiştirmeden belgeyi değişikliklere karşı korur veya rastgele bir şifre atar. |
-| [Protect](../../aspose.words/document/protect/#protect_1)(ProtectionType, string) | Belgeyi değişikliklere karşı korur ve isteğe bağlı olarak bir koruma parolası ayarlar. |
+| [Print](../../aspose.words/document/print/#print_1)(*PrinterSettings*) | Belgeyi belirtilen yazıcı ayarlarına göre standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini kullanarak yazdırır. |
+| [Print](../../aspose.words/document/print/#print_3)(*string*) | Standart (Kullanıcı Arayüzü olmayan) yazdırma denetleyicisini kullanarak belgenin tamamını belirtilen yazıcıya, yazdırın. |
+| [Print](../../aspose.words/document/print/#print_2)(*PrinterSettings, string*) | Belgeyi belirtilen yazıcı ayarlarına göre standart (Kullanıcı Arayüzü yok) yazdırma denetleyicisini ve belge adını kullanarak yazdırır. |
+| [Protect](../../aspose.words/document/protect/#protect)(*[ProtectionType](../protectiontype/)*) | Mevcut şifreyi değiştirmeden belgeyi değişikliklere karşı korur veya rastgele bir şifre atar. |
+| [Protect](../../aspose.words/document/protect/#protect_1)(*[ProtectionType](../protectiontype/), string*) | Belgeyi değişikliklere karşı korur ve isteğe bağlı olarak bir koruma parolası ayarlar. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Geçerli düğümün tüm alt düğümlerini kaldırır. |
-| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Belirtilen alt düğümü kaldırır. |
 | [RemoveExternalSchemaReferences](../../aspose.words/document/removeexternalschemareferences/)() | Bu belgeden harici XML şeması referanslarını kaldırır. |
 | [RemoveMacros](../../aspose.words/document/removemacros/)() | Tüm makroların (VBA projesinin) yanı sıra araç çubuklarını ve komut özelleştirmelerini belgeden kaldırır. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tümünü kaldırır[`SmartTag`](../../aspose.words.markup/smarttag/)Geçerli düğümün alt düğümleri. |
-| [RenderToScale](../../aspose.words/document/rendertoscale/)(int, Graphics, float, float, float) | Bir belge sayfasını birGraphics belirtilen ölçeğe itiraz. |
-| [RenderToSize](../../aspose.words/document/rendertosize/)(int, Graphics, float, float, float, float) | Bir belge sayfasını birGraphics belirtilen boyuta nesne. |
-| [Save](../../aspose.words/document/save/#save_2)(string) | Belgeyi bir dosyaya kaydeder. Uzantıdan kaydetme biçimini otomatik olarak belirler. |
-| [Save](../../aspose.words/document/save/#save)(Stream, SaveFormat) | Belirtilen formatı kullanarak belgeyi bir akışa kaydeder. |
-| [Save](../../aspose.words/document/save/#save_1)(Stream, SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak belgeyi bir akışa kaydeder. |
-| [Save](../../aspose.words/document/save/#save_3)(string, SaveFormat) | Belgeyi belirtilen formatta bir dosyaya kaydeder. |
-| [Save](../../aspose.words/document/save/#save_4)(string, SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak belgeyi bir dosyaya kaydeder. |
-| [Save](../../aspose.words/document/save/#save_5)(HttpResponse, string, ContentDisposition, SaveOptions) | Belgeyi istemci tarayıcısına gönderir. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | XPath ifadesiyle eşleşen düğümlerin listesini seçer. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | İlkini seçer[`Node`](../node/) XPath ifadesiyle eşleşen. |
-| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions)(string) | Belgede yaptığınız diğer tüm değişiklikleri otomatik olarak revizyon değişiklikleri olarak işaretlemeye başlar. |
-| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions_1)(string, DateTime) | Belgede yaptığınız diğer tüm değişiklikleri otomatik olarak revizyon değişiklikleri olarak işaretlemeye başlar. |
+| [RenderToScale](../../aspose.words/document/rendertoscale/)(*int, Graphics, float, float, float*) | Bir belge sayfasını birGraphics belirtilen ölçeğe itiraz. |
+| [RenderToSize](../../aspose.words/document/rendertosize/)(*int, Graphics, float, float, float, float*) | Bir belge sayfasını birGraphics belirtilen boyuta nesne. |
+| [Save](../../aspose.words/document/save/#save_2)(*string*) | Belgeyi bir dosyaya kaydeder. Uzantıdan kaydetme biçimini otomatik olarak belirler. |
+| [Save](../../aspose.words/document/save/#save)(*Stream, [SaveFormat](../saveformat/)*) | Belirtilen formatı kullanarak belgeyi bir akışa kaydeder. |
+| [Save](../../aspose.words/document/save/#save_1)(*Stream, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen kaydetme seçeneklerini kullanarak belgeyi bir akışa kaydeder. |
+| [Save](../../aspose.words/document/save/#save_3)(*string, [SaveFormat](../saveformat/)*) | Belgeyi belirtilen formatta bir dosyaya kaydeder. |
+| [Save](../../aspose.words/document/save/#save_4)(*string, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen kaydetme seçeneklerini kullanarak belgeyi bir dosyaya kaydeder. |
+| [Save](../../aspose.words/document/save/#save_5)(*HttpResponse, string, [ContentDisposition](../contentdisposition/), [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belgeyi istemci tarayıcısına gönderir. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | XPath ifadesiyle eşleşen düğümlerin listesini seçer. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | İlkini seçer[`Node`](../node/) XPath ifadesiyle eşleşen. |
+| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions)(*string*) | Belgede yaptığınız diğer tüm değişiklikleri otomatik olarak revizyon değişiklikleri olarak işaretlemeye başlar. |
+| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions_1)(*string, DateTime*) | Belgede yaptığınız diğer tüm değişiklikleri otomatik olarak revizyon değişiklikleri olarak işaretlemeye başlar. |
 | [StopTrackRevisions](../../aspose.words/document/stoptrackrevisions/)() | Belge değişikliklerinin otomatik olarak revizyon olarak işaretlenmesini durdurur. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 | [UnlinkFields](../../aspose.words/document/unlinkfields/)() | Tüm belgedeki alanların bağlantısını kaldırır. |
 | [Unprotect](../../aspose.words/document/unprotect/#unprotect_1)() | Paroladan bağımsız olarak belgedeki korumayı kaldırır. |
-| [Unprotect](../../aspose.words/document/unprotect/#unprotect)(string) | Doğru parola belirtilirse belgedeki korumayı kaldırır. |
+| [Unprotect](../../aspose.words/document/unprotect/#unprotect)(*string*) | Doğru parola belirtilirse belgedeki korumayı kaldırır. |
 | [UpdateFields](../../aspose.words/document/updatefields/)() | Belgenin tamamındaki alanların değerlerini günceller. |
 | [UpdateListLabels](../../aspose.words/document/updatelistlabels/)() | Belgedeki tüm liste öğeleri için liste etiketlerini günceller. |
 | [UpdatePageLayout](../../aspose.words/document/updatepagelayout/)() | Belgenin sayfa düzenini yeniden oluşturur. |
 | [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail)() | Güncellemeler[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) varsayılan seçenekleri kullanarak belgenin. |
-| [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail_1)(ThumbnailGeneratingOptions) | Güncellemeler[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) belirtilen seçeneklere göre belgenin. |
+| [UpdateThumbnail](../../aspose.words/document/updatethumbnail/#updatethumbnail_1)(*[ThumbnailGeneratingOptions](../../aspose.words.rendering/thumbnailgeneratingoptions/)*) | Güncellemeler[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) belirtilen seçeneklere göre belgenin. |
 | [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount)() | Belgenin kelime sayısı özelliklerini günceller. |
-| [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount_1)(bool) | Belgenin kelime sayısı özelliklerini günceller, isteğe bağlı olarak günceller[`Lines`](../../aspose.words.properties/builtindocumentproperties/lines/) özellik. |
+| [UpdateWordCount](../../aspose.words/document/updatewordcount/#updatewordcount_1)(*bool*) | Belgenin kelime sayısı özelliklerini günceller, isteğe bağlı olarak günceller[`Lines`](../../aspose.words.properties/builtindocumentproperties/lines/) özellik. |
 
-### Notlar
+## Notlar
 
 `Document` Aspose.Words kütüphanesindeki merkezi bir nesnedir.
 
@@ -185,11 +185,11 @@ Mevcut bir belgeyi herhangi bir yere yüklemek için[`LoadFormat`](../loadformat
 
 Belgeyi the 'den herhangi birine kaydetmek için Save yöntemi aşırı yüklemelerinden birini kullanın.[`SaveFormat`](../saveformat/) formatlar.
 
-Belge sayfalarını doğrudan bir sayfaya çizmek için **Grafik** nesne kullanımı [`RenderToScale`](./rendertoscale/) veya[`RenderToSize`](./rendertosize/) yöntem.
+Belge sayfalarını doğrudan bir sayfaya çizmek için**Grafik** nesne kullanımı [`RenderToScale`](./rendertoscale/) veya[`RenderToSize`](./rendertosize/) yöntem.
 
 Belgeyi yazdırmak için aşağıdakilerden birini kullanın:[`Print`](./print/) yöntemler.
 
-[`MailMerge`](./mailmerge/) Aspose.Words'ün Microsoft Word'de tasarlanmış raporların çeşitli veri kaynaklarından gelen verilerle hızlı ve kolay bir şekilde doldurulmasına olanak sağlayan raporlama motorudur. Veriler bir DataSet, DataTable, DataView, IDataReader veya bir değer dizisinden olabilir.  **Posta birleştirme** veri kaynağında bulunan kayıtları inceleyecek ve bunları gerektiği gibi büyüterek belgedeki adres-mektup birleştirme alanlarına ekleyecektir.
+[`MailMerge`](./mailmerge/) Aspose.Words'ün Microsoft Word'de tasarlanmış raporların çeşitli veri kaynaklarından gelen verilerle hızlı ve kolay bir şekilde doldurulmasına olanak sağlayan raporlama motorudur. Veriler bir DataSet, DataTable, DataView, IDataReader veya bir değer dizisinden olabilir. **Posta birleştirme** veri kaynağında bulunan kayıtları inceleyecek ve bunları gerektiği gibi büyüterek belgedeki adres-mektup birleştirme alanlarına ekleyecektir.
 
 `Document` gibi belge genelindeki bilgileri saklar[`Styles`](../documentbase/styles/) , [`BuiltInDocumentProperties`](./builtindocumentproperties/) ,[`CustomDocumentProperties`](./customdocumentproperties/) listeler ve makrolar. Bu nesnelerin çoğuna, ilgili nesnenin ilgili özellikleri aracılığıyla erişilebilir.`Document`.
 
@@ -197,7 +197,7 @@ Belgeyi yazdırmak için aşağıdakilerden birini kullanın:[`Print`](./print/)
 
 * Belgenin düğümlerine, örneğin yazılan koleksiyonlar aracılığıyla erişilebilir.[`Sections`](./sections/) , [`ParagraphCollection`](../paragraphcollection/) vesaire.
 * Belgenin düğümleri, kullanılarak düğüm türlerine göre seçilebilir[`GetChildNodes`](../compositenode/getchildnodes/) veya bir XPath sorgusu kullanarak[`SelectNodes`](../compositenode/selectnodes/) veya[`SelectSingleNode`](../compositenode/selectsinglenode/).
-* İçerik düğümleri, kullanılarak belgenin herhangi bir yerinden eklenebilir veya kaldırılabilirNode) ,Node) , Node) ve temel sınıf tarafından sağlanan other yöntemleri[`CompositeNode`](../compositenode/).
+* İçerik düğümleri, kullanılarak belgenin herhangi bir yerinden eklenebilir veya kaldırılabilir[`InsertBefore`](../compositenode/insertbefore/) ,[`InsertAfter`](../compositenode/insertafter/) , [`RemoveChild`](../compositenode/removechild/) ve temel sınıf tarafından sağlanan other yöntemleri[`CompositeNode`](../compositenode/).
 * Her düğümün biçimlendirme öznitelikleri, o düğümün özellikleri aracılığıyla değiştirilebilir.
 
 Kullanmayı düşünün[`DocumentBuilder`](../documentbuilder/)bu, programlı olarak oluşturma veya belge ağacını doldurma görevini basitleştirir.
@@ -206,7 +206,7 @@ Kullanmayı düşünün[`DocumentBuilder`](../documentbuilder/)bu, programlı ol
 
 Microsoft Word'de geçerli bir belgenin en az bir bölümü olması gerekir.
 
-### Örnekler
+## Örnekler
 
 DataTable'daki verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -256,5 +256,3 @@ private static Document CreateSourceDocExecuteDataTable()
 * class [DocumentBase](../documentbase/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

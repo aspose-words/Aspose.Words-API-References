@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.RemoveSelfOnly
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 方法. 仅删除此 SDT 节点本身但将其内容保留在文档树中
+linktitle: RemoveSelfOnly
+articleTitle: RemoveSelfOnly
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag RemoveSelfOnly 方法. 仅删除此 SDT 节点本身但将其内容保留在文档树中 在 C#.
 type: docs
-weight: 370
+weight: 350
 url: /zh/net/aspose.words.markup/structureddocumenttag/removeselfonly/
 ---
 ## StructuredDocumentTag.RemoveSelfOnly method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/structureddocumenttag/removeselfonly/
 public void RemoveSelfOnly()
 ```
 
-### 例子
+## 例子
 
 演示如何在纯文本框中创建结构化文档标签并修改其外观。
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

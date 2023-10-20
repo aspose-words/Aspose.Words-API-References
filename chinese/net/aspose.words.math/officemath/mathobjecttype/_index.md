@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.MathObjectType
-second_title: Aspose.Words for .NET API 参考
-description: OfficeMath 财产. 获取类型MathObjectType此 Office Math 对象的 .
+linktitle: MathObjectType
+articleTitle: MathObjectType
+second_title: 用于 .NET 的 Aspose.Words
+description: OfficeMath MathObjectType 财产. 获取类型MathObjectType此 Office Math 对象的  在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.math/officemath/mathobjecttype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.math/officemath/mathobjecttype/
 public MathObjectType MathObjectType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何打印文档中每个 Office Math 节点的节点结构。
 
@@ -107,7 +109,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * enum [MathObjectType](../../mathobjecttype/)
 * class [OfficeMath](../)
-* 命名空间 [Aspose.Words.Math](../../officemath/)
+* 命名空间 [Aspose.Words.Math](../../../aspose.words.math/)
 * 部件 [Aspose.Words](../../../)
-
-

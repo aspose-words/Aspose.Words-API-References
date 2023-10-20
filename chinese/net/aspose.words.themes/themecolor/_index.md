@@ -1,7 +1,9 @@
 ---
-title: Enum ThemeColor
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Themes.ThemeColor 枚举. 指定文档主题的主题颜色
+title: ThemeColor Enum
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Themes.ThemeColor 枚举. 指定文档主题的主题颜色 在 C#.
 type: docs
 weight: 6470
 url: /zh/net/aspose.words.themes/themecolor/
@@ -38,11 +40,11 @@ public enum ThemeColor
 | Background1 | `14` | 背景颜色 1. |
 | Background2 | `15` | 背景颜色 2. |
 
-### 评论
+## 评论
 
 指定的主题颜色是对预定义主题颜色之一的引用，位于 文档的主题部分，它允许在文档中集中设置颜色信息。
 
-### 例子
+## 例子
 
 展示如何创建和使用主题样式。
 
@@ -147,5 +149,3 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * 命名空间 [Aspose.Words.Themes](../../aspose.words.themes/)
 * 部件 [Aspose.Words](../../)
-
-

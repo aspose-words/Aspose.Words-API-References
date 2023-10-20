@@ -1,7 +1,9 @@
 ---
 title: ChartYValueCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartYValueCollection свойство. Получает или задает значение Y по указанному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: ChartYValueCollection Item свойство. Получает или задает значение Y по указанному индексу на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartyvaluecollection/item/
@@ -14,15 +16,13 @@ url: /ru/net/aspose.words.drawing.charts/chartyvaluecollection/item/
 public ChartYValue this[int index] { get; set; }
 ```
 
-### Примечания
+## Примечания
 
-Пустые значения представлены как **нулевой** .
+Пустые значения представлены как**нулевой** .
 
 ### Смотрите также
 
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartYValueCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartyvaluecollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

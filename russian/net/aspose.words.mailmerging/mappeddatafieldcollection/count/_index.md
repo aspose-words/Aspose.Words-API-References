@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: MappedDataFieldCollection свойство. Получает количество элементов содержащихся в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: MappedDataFieldCollection Count свойство. Получает количество элементов содержащихся в коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.mailmerging/mappeddatafieldcollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/mappeddatafieldcollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как сопоставить столбцы данных и поля MERGEFIELD с разными именами, чтобы данные передавались между ними во время слияния почты.
 
@@ -99,7 +101,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Смотрите также
 
 * class [MappedDataFieldCollection](../)
-* пространство имен [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

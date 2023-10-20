@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.PlaceholderName
-second_title: Справочник по API Aspose.Words для .NET
-description: IStructuredDocumentTag свойство. Получает или задает ИмяBuildingBlock содержащий текстзаполнитель.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words для .NET
+description: IStructuredDocumentTag PlaceholderName свойство. Получает или задает ИмяBuildingBlock содержащий текстзаполнитель на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.markup/istructureddocumenttag/placeholdername/
@@ -19,7 +21,5 @@ public string PlaceholderName { get; set; }
 ### Смотрите также
 
 * interface [IStructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../istructureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

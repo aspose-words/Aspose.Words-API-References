@@ -1,7 +1,9 @@
 ---
 title: Row.IsFirstRow
-second_title: Справочник по API Aspose.Words для .NET
-description: Row свойство. True если это первая строка в таблице ложь в противном случае.
+linktitle: IsFirstRow
+articleTitle: IsFirstRow
+second_title: Aspose.Words для .NET
+description: Row IsFirstRow свойство. True если это первая строка в таблице ложь в противном случае на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.tables/row/isfirstrow/
@@ -14,7 +16,7 @@ True, если это первая строка в таблице; ложь в �
 public bool IsFirstRow { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждой таблицы в документе.
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Смотрите также
 
 * class [Row](../)
-* пространство имен [Aspose.Words.Tables](../../row/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

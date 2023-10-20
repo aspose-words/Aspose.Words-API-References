@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Pitch
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontInfo eigendom. Die Tonhöhe gibt an ob die Schriftart eine feste Tonhöhe einen proportionalen Abstand oder eine Standardeinstellung hat.
+linktitle: Pitch
+articleTitle: Pitch
+second_title: Aspose.Words für .NET
+description: FontInfo Pitch eigendom. Die Tonhöhe gibt an ob die Schriftart eine feste Tonhöhe einen proportionalen Abstand oder eine Standardeinstellung hat in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fonts/fontinfo/pitch/
@@ -14,7 +16,7 @@ Die Tonhöhe gibt an, ob die Schriftart eine feste Tonhöhe, einen proportionale
 public FontPitch Pitch { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie auf Details zu jeder Schriftart in einem Dokument zugreifen und diese drucken können.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontPitch](../../fontpitch/)
 * class [FontInfo](../)
-* namensraum [Aspose.Words.Fonts](../../fontinfo/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

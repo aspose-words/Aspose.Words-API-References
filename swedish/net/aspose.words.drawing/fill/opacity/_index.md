@@ -1,9 +1,11 @@
 ---
 title: Fill.Opacity
-second_title: Aspose.Words för .NET API Referens
-description: Fill fast egendom. Hämtar eller ställer in graden av opacitet för den angivna fyllningen som ett värde mellan 00 clear och 10 opak.
+linktitle: Opacity
+articleTitle: Opacity
+second_title: Aspose.Words för .NET
+description: Fill Opacity fast egendom. Hämtar eller ställer in graden av opacitet för den angivna fyllningen som ett värde mellan 00 clear och 10 opak i C#.
 type: docs
-weight: 150
+weight: 140
 url: /sv/net/aspose.words.drawing/fill/opacity/
 ---
 ## Fill.Opacity property
@@ -14,11 +16,11 @@ Hämtar eller ställer in graden av opacitet för den angivna fyllningen som ett
 public double Opacity { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna egenskap är motsatsen till egendom[`Transparency`](../transparency/).
 
-### Exempel
+## Exempel
 
 Visar hur man fyller en form med enfärgad.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ### Se även
 
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

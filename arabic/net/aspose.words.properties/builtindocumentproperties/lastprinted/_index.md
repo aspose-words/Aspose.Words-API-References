@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LastPrinted
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. الحصول على أو تعيين تاريخ آخر طباعة للمستند بالتوقيت العالمي المنسق UTC.
+linktitle: LastPrinted
+articleTitle: LastPrinted
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties LastPrinted ملكية. الحصول على أو تعيين تاريخ آخر طباعة للمستند بالتوقيت العالمي المنسق UTC في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.properties/builtindocumentproperties/lastprinted/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/lastprinted/
 public DateTime LastPrinted { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 بالنسبة للمستندات التي تم إنشاؤها من تنسيق RTF، تقوم هذه الخاصية بإرجاع التوقيت المحلي لآخر عملية طباعة.
 
@@ -22,7 +24,7 @@ public DateTime LastPrinted { get; set; }
 
 لا يقوم Aspose.Words بتحديث هذه الخاصية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند في فئة "الأصل".
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

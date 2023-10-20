@@ -1,7 +1,9 @@
 ---
-title: Class GradientStop
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.GradientStop 班级. 代表一个梯度停止点
+title: GradientStop Class
+linktitle: GradientStop
+articleTitle: GradientStop
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.GradientStop 班级. 代表一个梯度停止点 在 C#.
 type: docs
 weight: 980
 url: /zh/net/aspose.words.drawing/gradientstop/
@@ -20,8 +22,8 @@ public class GradientStop
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GradientStop](gradientstop/#constructor)(Color, double) | 初始化一个新实例`GradientStop`类. |
-| [GradientStop](gradientstop/#constructor_1)(Color, double, double) | 初始化一个新实例`GradientStop`类. |
+| [GradientStop](gradientstop/#constructor)(*Color, double*) | 初始化一个新实例`GradientStop`类. |
+| [GradientStop](gradientstop/#constructor_1)(*Color, double, double*) | 初始化一个新实例`GradientStop`类. |
 
 ## 特性
 
@@ -42,5 +44,3 @@ public class GradientStop
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

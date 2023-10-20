@@ -1,7 +1,9 @@
 ---
-title: Interface IBibliographyStylesProvider
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.IBibliographyStylesProvider 界面. 实现此接口为 提供参考书目样式FieldBibliography和FieldCitation更新时的字段
+title: IBibliographyStylesProvider Interface
+linktitle: IBibliographyStylesProvider
+articleTitle: IBibliographyStylesProvider
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.IBibliographyStylesProvider 界面. 实现此接口为 提供参考书目样式FieldBibliography和FieldCitation更新时的字段 在 C#.
 type: docs
 weight: 2670
 url: /zh/net/aspose.words.fields/ibibliographystylesprovider/
@@ -18,9 +20,9 @@ public interface IBibliographyStylesProvider
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(string) | 返回参考书目样式。 |
+| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(*string*) | 返回参考书目样式。 |
 
-### 例子
+## 例子
 
 展示如何覆盖内置样式或提供自定义样式。
 
@@ -48,5 +50,3 @@ public class BibliographyStylesProvider : IBibliographyStylesProvider
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

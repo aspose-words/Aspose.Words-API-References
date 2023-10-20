@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Column
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoFieldMapData mülk. Belirli bir MERGEFIELD alanının yerel adıyla eşlenmesi gereken harici bir veri kaynağı içindeki sütunun sıfır tabanlı dizinini belirtir. Varsayılan değer 0. dir
+linktitle: Column
+articleTitle: Column
+second_title: Aspose.Words for .NET
+description: OdsoFieldMapData Column mülk. Belirli bir MERGEFIELD alanının yerel adıyla eşlenmesi gereken harici bir veri kaynağı içindeki sütunun sıfır tabanlı dizinini belirtir. Varsayılan değer 0. dir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.settings/odsofieldmapdata/column/
@@ -14,7 +16,7 @@ Belirli bir MERGEFIELD alanının yerel adıyla eşlenmesi gereken, harici bir v
 public int Column { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ayrıca bakınız
 
 * class [OdsoFieldMapData](../)
-* ad alanı [Aspose.Words.Settings](../../odsofieldmapdata/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Level
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحصل على المستوى الذي عنده المعاملة الخاصة والتفضيلية يحدث في شجرة المستندات.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag Level ملكية. يحصل على المستوى الذي عندهالمعاملة الخاصة والتفضيلية يحدث في شجرة المستندات في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.markup/structureddocumenttag/level/
 ---
 ## StructuredDocumentTag.Level property
 
-يحصل على المستوى الذي عنده **المعاملة الخاصة والتفضيلية** يحدث في شجرة المستندات.
+يحصل على المستوى الذي عنده**المعاملة الخاصة والتفضيلية** يحدث في شجرة المستندات.
 
 ```csharp
 public MarkupLevel Level { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة في مربع نص عادي وتعديل مظهرها.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

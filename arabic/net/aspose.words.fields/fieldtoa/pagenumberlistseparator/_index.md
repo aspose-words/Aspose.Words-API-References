@@ -1,7 +1,9 @@
 ---
 title: FieldToa.PageNumberListSeparator
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToa ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم للفصل بين رقمي الصفحات في قائمة أرقام الصفحات.
+linktitle: PageNumberListSeparator
+articleTitle: PageNumberListSeparator
+second_title: Aspose.Words لـ .NET
+description: FieldToa PageNumberListSeparator ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم للفصل بين رقمي الصفحات في قائمة أرقام الصفحات في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldtoa/pagenumberlistseparator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoa/pagenumberlistseparator/
 public string PageNumberListSeparator { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول المراجع المصدقة وتخصيصه باستخدام حقلي TOA وTA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### أنظر أيضا
 
 * class [FieldToa](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoa/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

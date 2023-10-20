@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.TiffCompression
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Oluşturulan görüntüleri TIFF formatında kaydederken uygulanacak sıkıştırma türünü alır veya ayarlar.
+linktitle: TiffCompression
+articleTitle: TiffCompression
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions TiffCompression mülk. Oluşturulan görüntüleri TIFF formatında kaydederken uygulanacak sıkıştırma türünü alır veya ayarlar C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.saving/imagesaveoptions/tiffcompression/
@@ -14,13 +16,13 @@ Oluşturulan görüntüleri TIFF formatında kaydederken uygulanacak sıkıştı
 public TiffCompression TiffCompression { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yalnızca TIFF'e kaydederken etkili olur.
 
 Varsayılan değer:Lzw.
 
-### Örnekler
+## Örnekler
 
 TIFF görüntüsüne dönüştürdüğümüz bir belgeye uygulanacak sıkıştırma şemasının nasıl seçileceğini gösterir.
 
@@ -72,7 +74,5 @@ Document doc = new Document();
 
 * enum [TiffCompression](../../tiffcompression/)
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

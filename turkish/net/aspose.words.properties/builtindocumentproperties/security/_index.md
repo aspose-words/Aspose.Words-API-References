@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Security
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Bir belgenin güvenlik düzeyini sayısal bir değer olarak belirtir.
+linktitle: Security
+articleTitle: Security
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties Security mülk. Bir belgenin güvenlik düzeyini sayısal bir değer olarak belirtir C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words.properties/builtindocumentproperties/security/
@@ -14,7 +16,7 @@ Bir belgenin güvenlik düzeyini sayısal bir değer olarak belirtir.
 public DocumentSecurity Security { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliği yalnızca bilgilendirme amacıyla kullanın, çünkü Microsoft Word bu özelliği her zaman ayarlamaz. Bu özellik yalnızca DOC ve OOXML belgelerinde mevcuttur.
 
@@ -22,7 +24,7 @@ Bir belgeyi korumak veya korumayı kaldırmak için the kullanın[`Protect`](../
 
 Aspose.Words, bir belgeyi kaydetmeden önce bu özelliği doğru bir değere günceller.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin güvenlik düzeyini görüntülemek için belge özelliklerinin nasıl kullanılacağını gösterir.
 
@@ -68,7 +70,5 @@ Assert.AreEqual(DocumentSecurity.ReadOnlyExceptAnnotations,
 
 * enum [DocumentSecurity](../../documentsecurity/)
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

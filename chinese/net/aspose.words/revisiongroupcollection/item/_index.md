@@ -1,7 +1,9 @@
 ---
 title: RevisionGroupCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: RevisionGroupCollection 财产. 返回指定索引处的修订组
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionGroupCollection Item 财产. 返回指定索引处的修订组 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/revisiongroupcollection/item/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/revisiongroupcollection/item/
 public RevisionGroup this[int index] { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何获取文档中的一组修订。
 
@@ -28,7 +30,5 @@ RevisionGroup revisionGroup = doc.Revisions.Groups[0];
 
 * class [RevisionGroup](../../revisiongroup/)
 * class [RevisionGroupCollection](../)
-* 命名空间 [Aspose.Words](../../revisiongroupcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

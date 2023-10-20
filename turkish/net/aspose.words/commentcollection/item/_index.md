@@ -1,7 +1,9 @@
 ---
 title: CommentCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: CommentCollection mülk. Bir öğeyi alırComment verilen dizinde.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: CommentCollection Item mülk. Bir öğeyi alırComment verilen dizinde C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/commentcollection/item/
@@ -18,7 +20,7 @@ public Comment this[int index] { get; }
 | --- | --- |
 | index | Koleksiyona bir dizin. |
 
-### Notlar
+## Notlar
 
 Endeks sıfır bazlıdır.
 
@@ -28,7 +30,7 @@ Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvur
 
 Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
-### Örnekler
+## Örnekler
 
 Yorum yanıtlarının nasıl kaldırılacağını gösterir.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 
 * class [Comment](../../comment/)
 * class [CommentCollection](../)
-* ad alanı [Aspose.Words](../../commentcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.DateDisplayLocale
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 允许设置/获取在此显示的日期的语言格式 特殊测试.
+linktitle: DateDisplayLocale
+articleTitle: DateDisplayLocale
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag DateDisplayLocale 财产. 允许设置/获取在此显示的日期的语言格式特殊测试 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.markup/structureddocumenttag/datedisplaylocale/
 ---
 ## StructuredDocumentTag.DateDisplayLocale property
 
-允许设置/获取在此显示的日期的语言格式 **特殊测试**.
+允许设置/获取在此显示的日期的语言格式**特殊测试**.
 
 ```csharp
 public int DateDisplayLocale { get; set; }
 ```
 
-### 评论
+## 评论
 
 访问该属性仅适用于DateSDT 类型.
 
 对于所有其他 SDT 类型，都会发生异常。
 
-### 例子
+## 例子
 
 演示如何提示用户输入带有结构化文档标记的日期。
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

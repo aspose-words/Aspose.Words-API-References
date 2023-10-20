@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.IsHeading
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Sant när styckeformatet är en av de inbyggda rubrikstilarna.
+linktitle: IsHeading
+articleTitle: IsHeading
+second_title: Aspose.Words för .NET
+description: ParagraphFormat IsHeading fast egendom. Sant när styckeformatet är en av de inbyggda rubrikstilarna i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words/paragraphformat/isheading/
@@ -14,7 +16,7 @@ Sant när styckeformatet är en av de inbyggda rubrikstilarna.
 public bool IsHeading { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man begränsar rubrikernas nivå som kommer att visas i konturerna av ett sparat PDF-dokument.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeadingsOutlineLevels.pdf", saveOptions)
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

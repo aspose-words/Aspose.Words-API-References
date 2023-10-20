@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Keywords
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Belge anahtar sözcüklerini alır veya ayarlar.
+linktitle: Keywords
+articleTitle: Keywords
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties Keywords mülk. Belge anahtar sözcüklerini alır veya ayarlar C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.properties/builtindocumentproperties/keywords/
@@ -14,7 +16,7 @@ Belge anahtar sözcüklerini alır veya ayarlar.
 public string Keywords { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 "Açıklama" kategorisinde yerleşik belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

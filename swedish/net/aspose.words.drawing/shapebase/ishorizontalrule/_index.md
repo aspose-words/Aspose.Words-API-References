@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsHorizontalRule
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. ReturnerarSann om denna form är en horisontell regel.
+linktitle: IsHorizontalRule
+articleTitle: IsHorizontalRule
+second_title: Aspose.Words för .NET
+description: ShapeBase IsHorizontalRule fast egendom. ReturnerarSann om denna form är en horisontell regel i C#.
 type: docs
 weight: 270
 url: /sv/net/aspose.words.drawing/shapebase/ishorizontalrule/
@@ -14,7 +16,7 @@ Returnerar`Sann` om denna form är en horisontell regel.
 public bool IsHorizontalRule { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en horisontell regelform och anpassar dess formatering.
 
@@ -37,7 +39,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Bottom
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Hämtar positionen för den nedre kanten av det innehållande blocket av formen.
+linktitle: Bottom
+articleTitle: Bottom
+second_title: Aspose.Words för .NET
+description: ShapeBase Bottom fast egendom. Hämtar positionen för den nedre kanten av det innehållande blocket av formen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing/shapebase/bottom/
@@ -14,13 +16,13 @@ Hämtar positionen för den nedre kanten av det innehållande blocket av formen.
 public double Bottom { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För en form på toppnivå är värdet i punkter och i förhållande till formankaret.
 
 För former i en grupp finns värdet i koordinatutrymmet och enheterna för den överordnade gruppen.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en flytande bild och anger dess position och storlek.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

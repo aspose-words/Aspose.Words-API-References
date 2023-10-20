@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FooterDistance
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Alt bilgi ile sayfanın altı arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar.
+linktitle: FooterDistance
+articleTitle: FooterDistance
+second_title: Aspose.Words for .NET
+description: PageSetup FooterDistance mülk. Alt bilgi ile sayfanın altı arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words/pagesetup/footerdistance/
@@ -14,7 +16,7 @@ Alt bilgi ile sayfanın altı arasındaki mesafeyi (nokta cinsinden) döndürür
 public double FooterDistance { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

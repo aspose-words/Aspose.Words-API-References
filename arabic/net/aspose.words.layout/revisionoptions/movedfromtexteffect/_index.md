@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.MovedFromTextEffect
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionOptions ملكية. يسمح بتحديد التأثير الذي سيتم تطبيقه على المناطق التي تم نقل المحتوى منهاMoving . القيمة الافتراضية هيDoubleStrikeThrough
+linktitle: MovedFromTextEffect
+articleTitle: MovedFromTextEffect
+second_title: Aspose.Words لـ .NET
+description: RevisionOptions MovedFromTextEffect ملكية. يسمح بتحديد التأثير الذي سيتم تطبيقه على المناطق التي تم نقل المحتوى منهاMoving . القيمة الافتراضية هيDoubleStrikeThrough في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.layout/revisionoptions/movedfromtexteffect/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/revisionoptions/movedfromtexteffect/
 public RevisionTextEffect MovedFromTextEffect { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل مظهر المراجعات.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../revisionoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OleFormat.Clsid
-second_title: Aspose.Words for .NET API 参考
-description: OleFormat 财产. 获取 OLE 对象的 CLSID
+linktitle: Clsid
+articleTitle: Clsid
+second_title: 用于 .NET 的 Aspose.Words
+description: OleFormat Clsid 财产. 获取 OLE 对象的 CLSID 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing/oleformat/clsid/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/oleformat/clsid/
 public Guid Clsid { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问嵌入在文档中的 OLE 控件及其子控件。
 
@@ -46,7 +48,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 ### 也可以看看
 
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

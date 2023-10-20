@@ -1,7 +1,9 @@
 ---
 title: AxisBound.IsAuto
-second_title: Aspose.Words for .NET API 参考
-description: AxisBound 财产. 返回一个标志指示应自动确定轴边界
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: 用于 .NET 的 Aspose.Words
+description: AxisBound IsAuto 财产. 返回一个标志指示应自动确定轴边界 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/axisbound/isauto/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/axisbound/isauto/
 public bool IsAuto { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置自定义轴边界。
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### 也可以看看
 
 * class [AxisBound](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../axisbound/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

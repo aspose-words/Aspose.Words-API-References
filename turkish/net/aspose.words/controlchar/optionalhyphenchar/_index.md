@@ -1,7 +1,9 @@
 ---
 title: ControlChar.OptionalHyphenChar
-second_title: Aspose.Words for .NET API Referansı
-description: ControlChar alan. Microsoft Worddeki İsteğe Bağlı Kısa Çizgi char31. dir
+linktitle: OptionalHyphenChar
+articleTitle: OptionalHyphenChar
+second_title: Aspose.Words for .NET
+description: ControlChar OptionalHyphenChar alan. Microsoft Worddeki İsteğe Bağlı Kısa Çizgi char31. dir C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words/controlchar/optionalhyphenchar/
@@ -14,11 +16,11 @@ Microsoft Word'deki İsteğe Bağlı Kısa Çizgi (char)31. 'dir
 public const char OptionalHyphenChar;
 ```
 
-### Notlar
+## Notlar
 
 Microsoft Word'deki İsteğe Bağlı Kısa Çizgi, Unicode karakteri U+00AD yumuşak tireye karşılık gelmez. Bunun yerine, Word'e olası bir tireleme noktası hakkında bilgi veren dahili bilgileri ekler.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye çeşitli kontrol karakterlerinin nasıl ekleneceğini gösterir.
 
@@ -90,7 +92,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ayrıca bakınız
 
 * class [ControlChar](../)
-* ad alanı [Aspose.Words](../../controlchar/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

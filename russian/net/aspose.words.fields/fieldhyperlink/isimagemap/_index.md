@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.IsImageMap
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldHyperlink свойство. Получает или задает необходимость добавления координат к гиперссылке для карты изображения на стороне сервера.
+linktitle: IsImageMap
+articleTitle: IsImageMap
+second_title: Aspose.Words для .NET
+description: FieldHyperlink IsImageMap свойство. Получает или задает необходимость добавления координат к гиперссылке для карты изображения на стороне сервера на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldhyperlink/isimagemap/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldhyperlink/isimagemap/
 public bool IsImageMap { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поля HYPERLINK для создания ссылок на документы в локальной файловой системе.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Смотрите также
 
 * class [FieldHyperlink](../)
-* пространство имен [Aspose.Words.Fields](../../fieldhyperlink/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

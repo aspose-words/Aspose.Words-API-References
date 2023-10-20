@@ -1,7 +1,9 @@
 ---
-title: DocumentBuilder.DocumentBuilder
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder constructor. Inicializa una nueva instancia de esta clase.
+title: DocumentBuilder
+linktitle: DocumentBuilder
+articleTitle: DocumentBuilder
+second_title: Aspose.Words para .NET
+description: DocumentBuilder constructor. Inicializa una nueva instancia de esta clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/documentbuilder/documentbuilder/
@@ -14,11 +16,11 @@ Inicializa una nueva instancia de esta clase.
 public DocumentBuilder()
 ```
 
-### Observaciones
+## Observaciones
 
 Crea un nuevo[`DocumentBuilder`](../) objeto y lo adjunta a un nuevo[`Document`](../../document/) objeto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar texto formateado usando DocumentBuilder.
 
@@ -40,12 +42,12 @@ builder.Write("Hello world!");
 ### Ver también
 
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## DocumentBuilder(Document) {#constructor_1}
+## DocumentBuilder(*[Document](../../document/)*) {#constructor_1}
 
 Inicializa una nueva instancia de esta clase.
 
@@ -57,11 +59,11 @@ public DocumentBuilder(Document doc)
 | --- | --- | --- |
 | doc | Document | El[`Document`](../../document/) objeto al que adjuntar. |
 
-### Observaciones
+## Observaciones
 
 Crea un nuevo[`DocumentBuilder`](../) objeto, se adjunta al especificado[`Document`](../../document/)object. El cursor se posiciona al principio del documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear encabezados y pies de página en un documento usando DocumentBuilder.
 
@@ -142,7 +144,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

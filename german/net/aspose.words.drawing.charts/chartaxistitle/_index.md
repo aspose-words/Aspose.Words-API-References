@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxisTitle
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartAxisTitle klas. Bietet Zugriff auf die Eigenschaften des Achsentitels.
+title: ChartAxisTitle Class
+linktitle: ChartAxisTitle
+articleTitle: ChartAxisTitle
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisTitle klas. Bietet Zugriff auf die Eigenschaften des Achsentitels in C#.
 type: docs
 weight: 650
 url: /de/net/aspose.words.drawing.charts/chartaxistitle/
@@ -20,12 +22,11 @@ public class ChartAxisTitle
 
 | Name | Beschreibung |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/chartaxistitle/font/) { get; } |  |
 | [Overlay](../../aspose.words.drawing.charts/chartaxistitle/overlay/) { get; set; } | Legt fest, ob andere Diagrammelemente den Titel überlappen dürfen. Der Standardwert ist`FALSCH` . |
 | [Show](../../aspose.words.drawing.charts/chartaxistitle/show/) { get; set; } | Legt fest, ob der Titel für die Achse angezeigt werden soll. Der Standardwert ist`FALSCH` . |
 | [Text](../../aspose.words.drawing.charts/chartaxistitle/text/) { get; set; } | Ruft den Text des Achsentitels ab oder legt ihn fest. Wenn`Null` oder ein leerer Wert angegeben wird, wird der automatisch generierte Titel angezeigt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Titel der Diagrammachse festgelegt wird.
 
@@ -56,5 +57,3 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

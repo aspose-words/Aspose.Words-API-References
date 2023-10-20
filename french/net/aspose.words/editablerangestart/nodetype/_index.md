@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.NodeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: EditableRangeStart propriété. RetoursEditableRangeStart .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words pour .NET
+description: EditableRangeStart NodeType propriété. RetoursEditableRangeStart  en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/editablerangestart/nodetype/
@@ -14,7 +16,7 @@ RetoursEditableRangeStart .
 public override NodeType NodeType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec une plage modifiable.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * enum [NodeType](../../nodetype/)
 * class [EditableRangeStart](../)
-* espace de noms [Aspose.Words](../../editablerangestart/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

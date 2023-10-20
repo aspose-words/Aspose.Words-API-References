@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: FieldCollection ملكية. إرجاع عدد الحقول في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: FieldCollection Count ملكية. إرجاع عدد الحقول في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldcollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldcollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الحقول من مجموعة الحقول.
 
@@ -154,7 +156,5 @@ public class FieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FieldCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

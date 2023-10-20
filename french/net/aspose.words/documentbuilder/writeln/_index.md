@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.Writeln
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Insère une chaîne et un saut de paragraphe dans le document.
+linktitle: Writeln
+articleTitle: Writeln
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder Writeln méthode. Insère une chaîne et un saut de paragraphe dans le document en C#.
 type: docs
-weight: 670
+weight: 660
 url: /fr/net/aspose.words/documentbuilder/writeln/
 ---
-## Writeln(string) {#writeln_1}
+## Writeln(*string*) {#writeln_1}
 
 Insère une chaîne et un saut de paragraphe dans le document.
 
@@ -18,11 +20,11 @@ public void Writeln(string text)
 | --- | --- | --- |
 | text | String | La chaîne à insérer dans le document. |
 
-### Remarques
+## Remarques
 
 Formatage actuel de la police et du paragraphe spécifié par le[`Font`](../font/) et[`ParagraphFormat`](../paragraphformat/) les propriétés sont utilisées.
 
-### Exemples
+## Exemples
 
 Montre comment créer un tableau 2x2 formaté.
 
@@ -68,7 +70,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ### Voir également
 
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -81,11 +83,11 @@ Insère un saut de paragraphe dans le document.
 public void Writeln()
 ```
 
-### Remarques
+## Remarques
 
 Appels[`InsertParagraph`](../insertparagraph/).
 
-### Exemples
+## Exemples
 
 Montre comment créer des en-têtes et des pieds de page dans un document à l'aide de DocumentBuilder.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ### Voir également
 
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

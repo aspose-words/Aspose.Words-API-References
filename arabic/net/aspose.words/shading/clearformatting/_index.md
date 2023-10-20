@@ -1,7 +1,9 @@
 ---
 title: Shading.ClearFormatting
-second_title: Aspose.Words لمراجع .NET API
-description: Shading طريقة. إزالة التظليل من الكائن.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words لـ .NET
+description: Shading ClearFormatting طريقة. إزالة التظليل من الكائن في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/shading/clearformatting/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/shading/clearformatting/
 public void ClearFormatting()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول بحدود مخصصة.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### أنظر أيضا
 
 * class [Shading](../)
-* مساحة الاسم [Aspose.Words](../../shading/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.SubAddress
-second_title: Aspose.Words for .NET API 参考
-description: FieldHyperlink 财产. 获取或设置文件中此超链接跳转的位置例如书签
+linktitle: SubAddress
+articleTitle: SubAddress
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldHyperlink SubAddress 财产. 获取或设置文件中此超链接跳转的位置例如书签 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldhyperlink/subaddress/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldhyperlink/subaddress/
 public string SubAddress { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 HYPERLINK 字段链接到本地文件系统中的文档。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### 也可以看看
 
 * class [FieldHyperlink](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldhyperlink/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

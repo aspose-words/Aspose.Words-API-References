@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.Location
-second_title: Aspose.Words per .NET API Reference
-description: PdfDigitalSignatureDetails proprietà. Ottiene o imposta il percorso della firma.
+linktitle: Location
+articleTitle: Location
+second_title: Aspose.Words per .NET
+description: PdfDigitalSignatureDetails Location proprietà. Ottiene o imposta il percorso della firma in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/pdfdigitalsignaturedetails/location/
@@ -14,11 +16,11 @@ Ottiene o imposta il percorso della firma.
 public string Location { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`nullo` .
 
-### Esempi
+## Esempi
 
 Mostra come firmare un documento PDF generato.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Guarda anche
 
 * class [PdfDigitalSignatureDetails](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

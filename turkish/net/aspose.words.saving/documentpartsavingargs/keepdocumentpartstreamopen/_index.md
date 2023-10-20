@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.KeepDocumentPartStreamOpen
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentPartSavingArgs mülk. Aspose.Wordsün belge bölümünü kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir.
+linktitle: KeepDocumentPartStreamOpen
+articleTitle: KeepDocumentPartStreamOpen
+second_title: Aspose.Words for .NET
+description: DocumentPartSavingArgs KeepDocumentPartStreamOpen mülk. Aspose.Wordsün belge bölümünü kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/
@@ -14,11 +16,11 @@ Aspose.Words'ün belge bölümünü kaydettikten sonra akışı açık mı tutma
 public bool KeepDocumentPartStreamOpen { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan:`YANLIŞ` ve Aspose.Words, sağladığınız akışını kapatacaktır.[`DocumentPartStream`](../documentpartstream/) içine bir belge parçası yazdıktan sonra özellik. Belirt`doğru` Akışı açık tutmak için. Lütfen çağrıda sağlanan ana çıkış akışının olduğunu unutmayın.[`Save`](../../../aspose.words/document/save/)veya [`Save`](../../../aspose.words/document/save/) Aspose.Words tarafından asla kapatılmayacaktır.`KeepDocumentPartStreamOpen` ayarlandı`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin nasıl parçalara ayrılacağını ve kaydedileceğini gösterir.
 
@@ -135,7 +137,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Ayrıca bakınız
 
 * class [DocumentPartSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../documentpartsavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.ZoomType
-second_title: Aspose.Words لمراجع .NET API
-description: ViewOptions ملكية. الحصول على قيمة التكبير/التصغير أو تعيينها بناءً على حجم النافذة.
+linktitle: ZoomType
+articleTitle: ZoomType
+second_title: Aspose.Words لـ .NET
+description: ViewOptions ZoomType ملكية. الحصول على قيمة التكبير/التصغير أو تعيينها بناءً على حجم النافذة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.settings/viewoptions/zoomtype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/viewoptions/zoomtype/
 public ZoomType ZoomType { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين عامل تكبير مخصص، أي الإصدارات الأقدم من Microsoft Word سيتم تطبيقها على المستند عند التحميل.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");
 
 * enum [ZoomType](../../zoomtype/)
 * class [ViewOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../viewoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontFamilyName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSavingArgs eigendom. Gibt den aktuellen Namen der Schriftfamilie an.
+linktitle: FontFamilyName
+articleTitle: FontFamilyName
+second_title: Aspose.Words für .NET
+description: FontSavingArgs FontFamilyName eigendom. Gibt den aktuellen Namen der Schriftfamilie an in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/fontsavingargs/fontfamilyname/
@@ -14,7 +16,7 @@ Gibt den aktuellen Namen der Schriftfamilie an.
 public string FontFamilyName { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Siehe auch
 
 * class [FontSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../fontsavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

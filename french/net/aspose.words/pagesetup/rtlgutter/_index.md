@@ -1,7 +1,9 @@
 ---
 title: PageSetup.RtlGutter
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Obtient ou définit si Microsoft Word utilise des gouttières pour la section basée sur une langue de droite à gauche ou une langue de gauche à droite.
+linktitle: RtlGutter
+articleTitle: RtlGutter
+second_title: Aspose.Words pour .NET
+description: PageSetup RtlGutter propriété. Obtient ou définit si Microsoft Word utilise des gouttières pour la section basée sur une langue de droite à gauche ou une langue de gauche à droite en C#.
 type: docs
 weight: 380
 url: /fr/net/aspose.words/pagesetup/rtlgutter/
@@ -14,7 +16,7 @@ Obtient ou définit si Microsoft Word utilise des gouttières pour la section ba
 public bool RtlGutter { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir les marges de gouttière.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 ### Voir également
 
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

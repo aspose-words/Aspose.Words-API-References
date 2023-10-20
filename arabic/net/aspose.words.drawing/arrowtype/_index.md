@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.ArrowType تعداد. يحدد نوع السهم في نهاية السطر.
+title: ArrowType Enum
+linktitle: ArrowType
+articleTitle: ArrowType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.ArrowType تعداد. يحدد نوع السهم في نهاية السطر في C#.
 type: docs
 weight: 490
 url: /ar/net/aspose.words.drawing/arrowtype/
@@ -26,7 +28,7 @@ public enum ArrowType
 | Open | `5` | السهم سهم مفتوح. |
 | Default | `0` | نفسNone . |
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -104,5 +106,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowType](../stroke/endarrowtype/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

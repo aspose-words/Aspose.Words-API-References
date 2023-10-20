@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CoordSize
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Die Breite und Höhe des Koordinatenraums innerhalb des enthaltenden Blocks dieser Form.
+linktitle: CoordSize
+articleTitle: CoordSize
+second_title: Aspose.Words für .NET
+description: ShapeBase CoordSize eigendom. Die Breite und Höhe des Koordinatenraums innerhalb des enthaltenden Blocks dieser Form in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.drawing/shapebase/coordsize/
@@ -14,11 +16,11 @@ Die Breite und Höhe des Koordinatenraums innerhalb des enthaltenden Blocks dies
 public Size CoordSize { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist (1000, 1000).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die x- und y-Koordinatenposition auf der Koordinatenebene einer Form in eine Position auf der Koordinatenebene der übergeordneten Form übersetzt wird.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

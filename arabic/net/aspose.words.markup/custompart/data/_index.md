@@ -1,7 +1,9 @@
 ---
 title: CustomPart.Data
-second_title: Aspose.Words لمراجع .NET API
-description: CustomPart ملكية. يحتوي على بيانات هذا الجزء المخصص.
+linktitle: Data
+articleTitle: Data
+second_title: Aspose.Words لـ .NET
+description: CustomPart Data ملكية. يحتوي على بيانات هذا الجزء المخصص في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/custompart/data/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.markup/custompart/data/
 public byte[] Data { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذه الخاصية قابلة للتطبيق فقط عندما[`IsExternal`](../isexternal/) يكون`خطأ شنيع`.
 
 القيمة الافتراضية هي صفيف بايت فارغ. لا يمكن أن تكون القيمة`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### أنظر أيضا
 
 * class [CustomPart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../custompart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

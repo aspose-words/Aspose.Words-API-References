@@ -1,7 +1,9 @@
 ---
-title: Class TextPath
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.TextPath classe. Définit le texte et le formatage du chemin du texte dun objet WordArt.
+title: TextPath Class
+linktitle: TextPath
+articleTitle: TextPath
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.TextPath classe. Définit le texte et le formatage du chemin du texte dun objet WordArt en C#.
 type: docs
 weight: 1350
 url: /fr/net/aspose.words.drawing/textpath/
@@ -41,11 +43,11 @@ public class TextPath
 | [Underline](../../aspose.words.drawing/textpath/underline/) { get; set; } | Vrai si la police est soulignée. |
 | [XScale](../../aspose.words.drawing/textpath/xscale/) { get; set; } | Détermine si un chemin de texte droit sera utilisé à la place du chemin de forme. |
 
-### Remarques
+## Remarques
 
 Utilisez le[`TextPath`](../shape/textpath/) propriété pour accéder aux propriétés WordArt d'une forme. Vous ne créez pas d'instances de la`TextPath` classe directement.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec WordArt.
 
@@ -149,5 +151,3 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

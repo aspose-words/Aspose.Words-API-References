@@ -1,7 +1,9 @@
 ---
-title: Class ChartTitle
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartTitle sınıf. Grafik başlığı özelliklerine erişim sağlar.
+title: ChartTitle Class
+linktitle: ChartTitle
+articleTitle: ChartTitle
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartTitle sınıf. Grafik başlığı özelliklerine erişim sağlar C#'da.
 type: docs
 weight: 820
 url: /tr/net/aspose.words.drawing.charts/charttitle/
@@ -20,12 +22,11 @@ public class ChartTitle
 
 | İsim | Tanım |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/charttitle/font/) { get; } |  |
 | [Overlay](../../aspose.words.drawing.charts/charttitle/overlay/) { get; set; } | Diğer grafik öğelerinin başlıkla örtüşmesine izin verilip verilmeyeceğini belirler. Varsayılan olarak yer paylaşımı`YANLIŞ` . |
 | [Show](../../aspose.words.drawing.charts/charttitle/show/) { get; set; } | Bu grafikte başlığın gösterilip gösterilmeyeceğini belirler. Varsayılan değer:`doğru` . |
 | [Text](../../aspose.words.drawing.charts/charttitle/text/) { get; set; } | Grafik başlığının metnini alır veya ayarlar. If`hükümsüz` veya boş değer belirtilirse otomatik oluşturulan başlık gösterilecektir. |
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve başlığın nasıl ayarlanacağını gösterir.
 
@@ -54,5 +55,3 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

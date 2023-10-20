@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateOutlinesForHeadingsInTables
-second_title: Aspose.Words für .NET-API-Referenz
-description: OutlineOptions eigendom. Gibt an ob Gliederungen für Überschriften mit den Überschriftenstilen formatierte Absätze in Tabellen erstellt werden sollen.
+linktitle: CreateOutlinesForHeadingsInTables
+articleTitle: CreateOutlinesForHeadingsInTables
+second_title: Aspose.Words für .NET
+description: OutlineOptions CreateOutlinesForHeadingsInTables eigendom. Gibt an ob Gliederungen für Überschriften mit den Überschriftenstilen formatierte Absätze in Tabellen erstellt werden sollen in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/outlineoptions/createoutlinesforheadingsintables/
@@ -14,11 +16,11 @@ Gibt an, ob Gliederungen für Überschriften (mit den Überschriftenstilen forma
 public bool CreateOutlinesForHeadingsInTables { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Gliederungseinträge für PDF-Dokumente für Überschriften in Tabellen erstellen.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TableHeadingOutlines.pdf", pdfSaveOption
 ### Siehe auch
 
 * class [OutlineOptions](../)
-* namensraum [Aspose.Words.Saving](../../outlineoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

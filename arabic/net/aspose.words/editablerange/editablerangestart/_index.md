@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditableRangeStart
-second_title: Aspose.Words لمراجع .NET API
-description: EditableRange ملكية. يحصل على العقدة التي تمثل بداية النطاق القابل للتحرير.
+linktitle: EditableRangeStart
+articleTitle: EditableRangeStart
+second_title: Aspose.Words لـ .NET
+description: EditableRange EditableRangeStart ملكية. يحصل على العقدة التي تمثل بداية النطاق القابل للتحرير في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/editablerange/editablerangestart/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/editablerange/editablerangestart/
 public EditableRangeStart EditableRangeStart { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع نطاق قابل للتحرير.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [EditableRange](../)
-* مساحة الاسم [Aspose.Words](../../editablerange/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

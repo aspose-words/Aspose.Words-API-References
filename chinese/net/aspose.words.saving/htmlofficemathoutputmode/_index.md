@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlOfficeMathOutputMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.HtmlOfficeMathOutputMode 枚举. 指定 Aspose.Words 如何将 OfficeMath 导出为 HTMLMHTML 和 EPUB
+title: HtmlOfficeMathOutputMode Enum
+linktitle: HtmlOfficeMathOutputMode
+articleTitle: HtmlOfficeMathOutputMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.HtmlOfficeMathOutputMode 枚举. 指定 Aspose.Words 如何将 OfficeMath 导出为 HTMLMHTML 和 EPUB 在 C#.
 type: docs
 weight: 5100
 url: /zh/net/aspose.words.saving/htmlofficemathoutputmode/
@@ -22,7 +24,7 @@ public enum HtmlOfficeMathOutputMode
 | MathML | `1` | OfficeMath 使用 MathML 转换为 HTML。 |
 | Text | `2` | OfficeMath 作为 &lt;span&gt; 标记指定的运行序列转换为 HTML。 |
 
-### 例子
+## 例子
 
 显示如何指定如何将 Microsoft OfficeMath 对象导出为 HTML。
 
@@ -78,5 +80,3 @@ switch (htmlOfficeMathOutputMode)
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

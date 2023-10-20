@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.Callback
-second_title: Справочник по API Aspose.Words для .NET
-description: Hyphenation свойство. Получает или задает интерфейс обратного вызова используемый для запроса словарей при построении макета страницы документа. Это позволяет задерживать загрузку словарей что может быть полезно при обработке документов на многих языках.
+linktitle: Callback
+articleTitle: Callback
+second_title: Aspose.Words для .NET
+description: Hyphenation Callback свойство. Получает или задает интерфейс обратного вызова используемый для запроса словарей при построении макета страницы документа. Это позволяет задерживать загрузку словарей что может быть полезно при обработке документов на многих языках на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/hyphenation/callback/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/hyphenation/callback/
 public static IHyphenationCallback Callback { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как открыть и зарегистрировать словарь из файла.
 
@@ -91,7 +93,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * interface [IHyphenationCallback](../../ihyphenationcallback/)
 * class [Hyphenation](../)
-* пространство имен [Aspose.Words](../../hyphenation/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

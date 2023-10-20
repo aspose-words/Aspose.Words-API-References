@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: GradientStopCollection 财产. 获取一个整数值指示集合中的项目数
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: GradientStopCollection Count 财产. 获取一个整数值指示集合中的项目数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing/gradientstopcollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/gradientstopcollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何向渐变填充添加渐变停止点。
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### 也可以看看
 
 * class [GradientStopCollection](../)
-* 命名空间 [Aspose.Words.Drawing](../../gradientstopcollection/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

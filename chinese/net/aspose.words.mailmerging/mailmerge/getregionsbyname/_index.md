@@ -1,7 +1,9 @@
 ---
 title: MailMerge.GetRegionsByName
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 方法. 返回具有指定名称的邮件合并区域的集合
+linktitle: GetRegionsByName
+articleTitle: GetRegionsByName
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge GetRegionsByName 方法. 返回具有指定名称的邮件合并区域的集合 在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words.mailmerging/mailmerge/getregionsbyname/
@@ -22,7 +24,7 @@ public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
 
 区域列表。
 
-### 例子
+## 例子
 
 演示如何创建、列出和读取邮件合并区域。
 
@@ -78,7 +80,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 
 * class [MailMergeRegionInfo](../../mailmergeregioninfo/)
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

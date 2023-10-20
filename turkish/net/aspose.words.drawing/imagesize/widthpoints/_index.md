@@ -1,7 +1,9 @@
 ---
 title: ImageSize.WidthPoints
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSize mülk. Görüntünün genişliğini nokta cinsinden alır. 1 punto 1/72 inçtir.
+linktitle: WidthPoints
+articleTitle: WidthPoints
+second_title: Aspose.Words for .NET
+description: ImageSize WidthPoints mülk. Görüntünün genişliğini nokta cinsinden alır. 1 punto 1/72 inçtir C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing/imagesize/widthpoints/
@@ -14,7 +16,7 @@ Görüntünün genişliğini nokta cinsinden alır. 1 punto 1/72 inçtir.
 public double WidthPoints { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şeklin resimle nasıl yeniden boyutlandırılacağını gösterir.
 
@@ -71,7 +73,5 @@ Bir şeklin resimle nasıl yeniden boyutlandırılacağını gösterir.
 ### Ayrıca bakınız
 
 * class [ImageSize](../)
-* ad alanı [Aspose.Words.Drawing](../../imagesize/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.BoundsInPoints
-second_title: Aspose.Words for .NET API Referansı
-description: NodeRendererBase mülk. Şeklin gerçek sınırlarını nokta cinsinden alır.
+linktitle: BoundsInPoints
+articleTitle: BoundsInPoints
+second_title: Aspose.Words for .NET
+description: NodeRendererBase BoundsInPoints mülk. Şeklin gerçek sınırlarını nokta cinsinden alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.rendering/noderendererbase/boundsinpoints/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.rendering/noderendererbase/boundsinpoints/
 public RectangleF BoundsInPoints { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, şeklin gerçek (sayfada işlendiği şekliyle) sınırlayıcı kutusunu döndürür. Sınırlar, şekil dönüşünü (varsa) hesaba katar.
 
-### Örnekler
+## Örnekler
 
 Şekillerin nasıl ölçüleceğini ve ölçeklendirileceğini gösterir.
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Ayrıca bakınız
 
 * class [NodeRendererBase](../)
-* ad alanı [Aspose.Words.Rendering](../../noderendererbase/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

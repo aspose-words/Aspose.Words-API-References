@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ParagraphBreakChar
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Символ конца абзаца char13 или r.
+linktitle: ParagraphBreakChar
+articleTitle: ParagraphBreakChar
+second_title: Aspose.Words для .NET
+description: ControlChar ParagraphBreakChar поле. Символ конца абзаца char13 или r на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words/controlchar/paragraphbreakchar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/paragraphbreakchar/
 public const char ParagraphBreakChar;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

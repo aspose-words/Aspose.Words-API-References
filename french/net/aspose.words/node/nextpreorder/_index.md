@@ -1,7 +1,9 @@
 ---
 title: Node.NextPreOrder
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Node méthode. Obtient le nœud suivant selon lalgorithme de traversée de larbre de précommande.
+linktitle: NextPreOrder
+articleTitle: NextPreOrder
+second_title: Aspose.Words pour .NET
+description: Node NextPreOrder méthode. Obtient le nœud suivant selon lalgorithme de traversée de larbre de précommande en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words/node/nextpreorder/
@@ -22,7 +24,7 @@ public Node NextPreOrder(Node rootNode)
 
 Nœud suivant en précommande. Nul si atteint le*rootNode*.
 
-### Exemples
+## Exemples
 
 Montre comment parcourir l'arborescence des nœuds du document à l'aide de l'algorithme de parcours de pré-ordre et supprimer toute forme rencontrée avec une image.
 
@@ -53,7 +55,5 @@ Assert.AreEqual(0,
 ### Voir également
 
 * class [Node](../)
-* espace de noms [Aspose.Words](../../node/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

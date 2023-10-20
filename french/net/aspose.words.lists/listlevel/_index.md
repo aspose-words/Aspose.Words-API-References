@@ -1,7 +1,9 @@
 ---
-title: Class ListLevel
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Lists.ListLevel classe. Définit le formatage pour un niveau de liste.
+title: ListLevel Class
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Lists.ListLevel classe. Définit le formatage pour un niveau de liste en C#.
 type: docs
 weight: 3500
 url: /fr/net/aspose.words.lists/listlevel/
@@ -41,17 +43,17 @@ public class ListLevel
 | --- | --- |
 | [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet/)() | Crée une forme de puce d'image pour le niveau de liste actuel. |
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | Supprime la puce d'image pour le niveau de liste actuel. |
-| [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | Compare avec le ListLevel. spécifié |
+| [Equals](../../aspose.words.lists/listlevel/equals/#equals)(*ListLevel*) | Compare avec le ListLevel. spécifié |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | Calcule le code de hachage pour cet objet. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Indique la représentation sous forme de chaîne du`ListLevel`objet pour l'index spécifié de l'élément de liste. Les paramètres spécifient le[`NumberStyle`](../../aspose.words/numberstyle/) et un format facultatif string utilisé lorsqueCustom est spécifié. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(*int, [NumberStyle](../../aspose.words/numberstyle/), string*) | Indique la représentation sous forme de chaîne du`ListLevel`objet pour l'index spécifié de l'élément de liste. Les paramètres spécifient le[`NumberStyle`](../../aspose.words/numberstyle/) et un format facultatif string utilisé lorsqueCustom est spécifié. |
 
-### Remarques
+## Remarques
 
 Vous ne créez pas d'objets de cette classe. Les objets au niveau de la liste sont créés automatiquement lorsqu'une liste est créée. Vous accédez`ListLevel` objets via the [`ListLevelCollection`](../listlevelcollection/) collection.
 
 Utiliser les propriétés de`ListLevel` pour spécifier list formatting pour les niveaux de liste individuels.
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
 
@@ -111,5 +113,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * espace de noms [Aspose.Words.Lists](../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../)
-
-

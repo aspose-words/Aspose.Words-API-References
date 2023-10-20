@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.InsertNextNumber
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldSeq propriété. Obtient ou définit sil faut insérer le numéro de séquence suivant pour lélément spécifié.
+linktitle: InsertNextNumber
+articleTitle: InsertNextNumber
+second_title: Aspose.Words pour .NET
+description: FieldSeq InsertNextNumber propriété. Obtient ou définit sil faut insérer le numéro de séquence suivant pour lélément spécifié en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldseq/insertnextnumber/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut insérer le numéro de séquence suivant pour l'é
 public bool InsertNextNumber { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Affiche la création d'une numérotation à l'aide des champs SEQ.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### Voir également
 
 * class [FieldSeq](../)
-* espace de noms [Aspose.Words.Fields](../../fieldseq/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

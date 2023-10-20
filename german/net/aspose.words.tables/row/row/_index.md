@@ -1,7 +1,9 @@
 ---
-title: Row.Row
-second_title: Aspose.Words für .NET-API-Referenz
-description: Row constructeur. Initialisiert eine neue Instanz vonRow Klasse.
+title: Row
+linktitle: Row
+articleTitle: Row
+second_title: Aspose.Words für .NET
+description: Row constructeur. Initialisiert eine neue Instanz vonRow Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.tables/row/row/
@@ -18,13 +20,13 @@ public Row(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Das Eigentümerdokument. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wann[`Row`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../../aspose.words/node/parentnode/) Ist`Null`.
 
-Anhängen[`Row`](../) zur DokumentenverwendungNode) oderNode) in der Tabelle, in der die Zeile eingefügt werden soll.
+Anhängen[`Row`](../) zur Dokumentenverwendung[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) oder[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) in der Tabelle, in der die Zeile eingefügt werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine verschachtelte Tabelle erstellt, ohne einen Document Builder zu verwenden.
 
@@ -81,7 +83,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Row](../)
-* namensraum [Aspose.Words.Tables](../../row/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

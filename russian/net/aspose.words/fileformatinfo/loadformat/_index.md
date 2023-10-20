@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.LoadFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: FileFormatInfo свойство. Получает обнаруженный формат документа.
+linktitle: LoadFormat
+articleTitle: LoadFormat
+second_title: Aspose.Words для .NET
+description: FileFormatInfo LoadFormat свойство. Получает обнаруженный формат документа на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/fileformatinfo/loadformat/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/fileformatinfo/loadformat/
 public LoadFormat LoadFormat { get; }
 ```
 
-### Примечания
+## Примечания
 
 Когда документ OOXML зашифрован, невозможно определить, является ли он документом Excel, Word или PowerPoint, не расшифровав его предварительно, поэтому для зашифрованного документа OOXML это свойство всегда будет возвращать значение.Docx.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать класс FileFormatUtil для определения формата и шифрования документа.
 
@@ -93,7 +95,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatInfo](../)
-* пространство имен [Aspose.Words](../../fileformatinfo/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

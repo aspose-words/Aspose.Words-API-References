@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowValue
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabelCollection свойство. Позволяет указать должны ли значения отображаться в метках данных всей серии. Значение по умолчаниюЛОЖЬ .
+linktitle: ShowValue
+articleTitle: ShowValue
+second_title: Aspose.Words для .NET
+description: ChartDataLabelCollection ShowValue свойство. Позволяет указать должны ли значения отображаться в метках данных всей серии. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/
 public bool ShowValue { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение, определенное для этого свойства, можно переопределить для отдельной метки данных с помощью the [`ShowValue`](../../chartdatalabel/showvalue/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с метками данных на круговой диаграмме.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Смотрите также
 
 * class [ChartDataLabelCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

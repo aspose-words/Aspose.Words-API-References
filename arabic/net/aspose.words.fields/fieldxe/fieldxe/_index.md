@@ -1,7 +1,9 @@
 ---
-title: FieldXE.FieldXE
-second_title: Aspose.Words لمراجع .NET API
-description: FieldXE البناء. Default_Constructor
+title: FieldXE
+linktitle: FieldXE
+articleTitle: FieldXE
+second_title: Aspose.Words لـ .NET
+description: FieldXE البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldxe/fieldxe/
@@ -17,7 +19,5 @@ public FieldXE()
 ### أنظر أيضا
 
 * class [FieldXE](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldxe/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

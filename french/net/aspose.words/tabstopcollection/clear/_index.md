@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Clear
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TabStopCollection méthode. Supprime toutes les positions de taquet de tabulation.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words pour .NET
+description: TabStopCollection Clear méthode. Supprime toutes les positions de taquet de tabulation en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/tabstopcollection/clear/
@@ -14,7 +16,7 @@ Supprime toutes les positions de taquet de tabulation.
 public void Clear()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la collection de taquets de tabulation d’un document.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Voir également
 
 * class [TabStopCollection](../)
-* espace de noms [Aspose.Words](../../tabstopcollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

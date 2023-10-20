@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.Document
-second_title: Aspose.Words for .NET API 参考
-description: DocumentPartSavingArgs 财产. 获取正在保存的文档对象
+linktitle: Document
+articleTitle: Document
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentPartSavingArgs Document 财产. 获取正在保存的文档对象 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/documentpartsavingargs/document/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/documentpartsavingargs/document/
 public Document Document { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将文档拆分为多个部分并保存它们。
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [DocumentPartSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../documentpartsavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

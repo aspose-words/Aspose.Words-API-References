@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntry.Font
-second_title: Aspose.Words لمراجع .NET API
-description: ChartLegendEntry ملكية. يوفر الوصول إلى تنسيق الخط لإدخال وسيلة الإيضاح هذا.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words لـ .NET
+description: ChartLegendEntry Font ملكية. يوفر الوصول إلى تنسيق الخط لإدخال وسيلة الإيضاح هذا في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartlegendentry/font/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartlegendentry/font/
 public Font Font { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع إدخال وسيلة الإيضاح لسلسلة المخططات.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartLegendEntry](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartlegendentry/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

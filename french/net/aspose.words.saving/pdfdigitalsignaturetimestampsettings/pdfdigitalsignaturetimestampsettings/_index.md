@@ -1,7 +1,9 @@
 ---
-title: PdfDigitalSignatureTimestampSettings.PdfDigitalSignatureTimestampSettings
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfDigitalSignatureTimestampSettings constructeur. Initialise une instance de cette classe.
+title: PdfDigitalSignatureTimestampSettings
+linktitle: PdfDigitalSignatureTimestampSettings
+articleTitle: PdfDigitalSignatureTimestampSettings
+second_title: Aspose.Words pour .NET
+description: PdfDigitalSignatureTimestampSettings constructeur. Initialise une instance de cette classe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/pdfdigitalsignaturetimestampsettings/
@@ -14,7 +16,7 @@ Initialise une instance de cette classe.
 public PdfDigitalSignatureTimestampSettings()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment signer numériquement un document PDF enregistré et l'horodater.
 
@@ -54,12 +56,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Voir également
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* espace de noms [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## PdfDigitalSignatureTimestampSettings(string, string, string) {#constructor_1}
+## PdfDigitalSignatureTimestampSettings(*string, string, string*) {#constructor_1}
 
 Initialise une instance de cette classe.
 
@@ -73,7 +75,7 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 | userName | String | Nom d'utilisateur du serveur d'horodatage. |
 | password | String | Mot de passe du serveur d'horodatage. |
 
-### Exemples
+## Exemples
 
 Montre comment signer numériquement un document PDF enregistré et l'horodater.
 
@@ -113,12 +115,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Voir également
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* espace de noms [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## PdfDigitalSignatureTimestampSettings(string, string, string, TimeSpan) {#constructor_2}
+## PdfDigitalSignatureTimestampSettings(*string, string, string, TimeSpan*) {#constructor_2}
 
 Initialise une instance de cette classe.
 
@@ -134,7 +136,7 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 | password | String | Mot de passe du serveur d'horodatage. |
 | timeout | TimeSpan | Valeur du délai d'attente pour accéder au serveur d'horodatage. |
 
-### Exemples
+## Exemples
 
 Montre comment signer numériquement un document PDF enregistré et l'horodater.
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Voir également
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* espace de noms [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.ErrorCorrectionLevel
-second_title: Aspose.Words for .NET API 参考
-description: FieldDisplayBarcode 财产. 获取或设置QR码的纠错级别有效值为 0 3.
+linktitle: ErrorCorrectionLevel
+articleTitle: ErrorCorrectionLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldDisplayBarcode ErrorCorrectionLevel 财产. 获取或设置QR码的纠错级别有效值为 0 3 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/fielddisplaybarcode/errorcorrectionlevel/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fielddisplaybarcode/errorcorrectionlevel/
 public string ErrorCorrectionLevel { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入 DISPLAYBARCODE 字段并设置其属性。
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### 也可以看看
 
 * class [FieldDisplayBarcode](../)
-* 命名空间 [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphCollection.ToArray
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphCollection metodo. Copia tutti i paragrafi dalla raccolta in un nuovo array di paragrafi.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words per .NET
+description: ParagraphCollection ToArray metodo. Copia tutti i paragrafi dalla raccolta in un nuovo array di paragrafi in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/paragraphcollection/toarray/
@@ -18,7 +20,7 @@ public Paragraph[] ToArray()
 
 Una serie di paragrafi.
 
-### Esempi
+## Esempi
 
 Mostra come creare una matrice da una NodeCollection.
 
@@ -53,7 +55,5 @@ Assert.False(doc.GetText().Contains("The third paragraph"));
 
 * class [Paragraph](../../paragraph/)
 * class [ParagraphCollection](../)
-* spazio dei nomi [Aspose.Words](../../paragraphcollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

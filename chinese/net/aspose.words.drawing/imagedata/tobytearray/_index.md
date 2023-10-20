@@ -1,9 +1,11 @@
 ---
 title: ImageData.ToByteArray
-second_title: Aspose.Words for .NET API 参考
-description: ImageData 方法. 返回任何图像的图像字节无论图像是存储还是链接
+linktitle: ToByteArray
+articleTitle: ToByteArray
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageData ToByteArray 方法. 返回任何图像的图像字节无论图像是存储还是链接 在 C#.
 type: docs
-weight: 220
+weight: 210
 url: /zh/net/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData.ToByteArray method
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/imagedata/tobytearray/
 public byte[] ToByteArray()
 ```
 
-### 评论
+## 评论
 
 如果图像已链接，则每次调用时都会下载该图像。
 
-### 例子
+## 例子
 
 演示如何从形状的原始图像数据创建图像文件。
 
@@ -45,7 +47,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### 也可以看看
 
 * class [ImageData](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagedata/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

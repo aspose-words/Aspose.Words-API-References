@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlInsertOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.HtmlInsertOptions 枚举. 指定选项InsertHtml方法.
+title: HtmlInsertOptions Enum
+linktitle: HtmlInsertOptions
+articleTitle: HtmlInsertOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.HtmlInsertOptions 枚举. 指定选项InsertHtml方法 在 C#.
 type: docs
 weight: 3140
 url: /zh/net/aspose.words/htmlinsertoptions/
@@ -24,7 +26,7 @@ public enum HtmlInsertOptions
 | RemoveLastEmptyParagraph | `2` | 删除通常插入到以块级元素结尾的 HTML 之后的空段落。 |
 | PreserveBlocks | `4` | 保留块级元素的属性。 |
 
-### 例子
+## 例子
 
 展示如何更好地保留所看到的边框和边距。
 
@@ -51,5 +53,3 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.PreserveBlocks.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

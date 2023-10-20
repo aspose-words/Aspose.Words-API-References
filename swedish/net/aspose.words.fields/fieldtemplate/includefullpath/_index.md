@@ -1,7 +1,9 @@
 ---
 title: FieldTemplate.IncludeFullPath
-second_title: Aspose.Words för .NET API Referens
-description: FieldTemplate fast egendom. Hämtar eller ställer in om det fullständiga sökvägsnamnet ska inkluderas.
+linktitle: IncludeFullPath
+articleTitle: IncludeFullPath
+second_title: Aspose.Words för .NET
+description: FieldTemplate IncludeFullPath fast egendom. Hämtar eller ställer in om det fullständiga sökvägsnamnet ska inkluderas i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldtemplate/includefullpath/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om det fullständiga sökvägsnamnet ska inkluderas.
 public bool IncludeFullPath { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder ett MALL-fält för att visa den lokala filsystemets plats för ett dokuments mall.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Field.TEMPLATE.docx");
 ### Se även
 
 * class [FieldTemplate](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtemplate/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

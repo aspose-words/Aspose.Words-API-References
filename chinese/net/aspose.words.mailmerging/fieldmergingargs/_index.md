@@ -1,14 +1,16 @@
 ---
-title: Class FieldMergingArgs
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.MailMerging.FieldMergingArgs 班级. 提供数据 合并字段事件.
+title: FieldMergingArgs Class
+linktitle: FieldMergingArgs
+articleTitle: FieldMergingArgs
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.MailMerging.FieldMergingArgs 班级. 提供数据合并字段事件 在 C#.
 type: docs
 weight: 3770
 url: /zh/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
-提供数据 **合并字段**事件.
+提供数据**合并字段**事件.
 
 要了解更多信息，请访问[邮件合并和报告](https://docs.aspose.com/words/net/mail-merge-and-reporting/)文档文章。
 
@@ -29,11 +31,11 @@ public class FieldMergingArgs : FieldMergingArgsBase
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | 获取当前合并操作的数据表的名称，如果名称不可用，则获取空字符串。 |
 | [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | 获取或设置将插入当前合并字段文档中的文本。 |
 
-### 评论
+## 评论
 
-这 **合并字段**当文档中遇到简单的邮件 merge 字段时，在邮件合并期间会发生事件。您可以响应此事件以 return 文本，以便邮件合并引擎插入到文档中。
+这**合并字段**当文档中遇到简单的邮件 merge 字段时，在邮件合并期间会发生事件。您可以响应此事件以 return 文本，以便邮件合并引擎插入到文档中。
 
-### 例子
+## 例子
 
 演示如何使用自定义回调执行邮件合并，该回调处理 HTML 文档形式的合并数据。
 
@@ -103,5 +105,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * 命名空间 [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../)
-
-

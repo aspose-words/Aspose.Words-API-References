@@ -1,7 +1,9 @@
 ---
 title: PrinterSettingsContainer.DefaultPageSettingsPaperSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: PrinterSettingsContainer eigendom. SiehePaperSource vonDefaultPageSettings .
+linktitle: DefaultPageSettingsPaperSource
+articleTitle: DefaultPageSettingsPaperSource
+second_title: Aspose.Words für .NET
+description: PrinterSettingsContainer DefaultPageSettingsPaperSource eigendom. SiehePaperSource vonDefaultPageSettings  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource/
@@ -14,7 +16,7 @@ SiehePaperSource vonDefaultPageSettings .
 public PaperSource DefaultPageSettingsPaperSource { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie auf die Papierquellen und -formate Ihres Druckers zugreifen und diese auflisten können.
 
@@ -47,7 +49,5 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 ### Siehe auch
 
 * class [PrinterSettingsContainer](../)
-* namensraum [Aspose.Words.Rendering](../../printersettingscontainer/)
+* namensraum [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../../)
-
-

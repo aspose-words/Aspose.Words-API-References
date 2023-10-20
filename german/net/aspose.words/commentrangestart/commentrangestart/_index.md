@@ -1,7 +1,9 @@
 ---
-title: CommentRangeStart.CommentRangeStart
-second_title: Aspose.Words für .NET-API-Referenz
-description: CommentRangeStart constructeur. Initialisiert eine neue Instanz dieser Klasse.
+title: CommentRangeStart
+linktitle: CommentRangeStart
+articleTitle: CommentRangeStart
+second_title: Aspose.Words für .NET
+description: CommentRangeStart constructeur. Initialisiert eine neue Instanz dieser Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/commentrangestart/commentrangestart/
@@ -19,13 +21,13 @@ public CommentRangeStart(DocumentBase doc, int id)
 | doc | DocumentBase | Das Eigentümerdokument. |
 | id | Int32 | Der Kommentarbezeichner, mit dem dieses Objekt verknüpft ist. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wann[`CommentRangeStart`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../node/parentnode/) Ist`Null`.
 
 Um a anzuhängen[`CommentRangeStart`](../) Zum Dokument verwenden Sie „InsertAfter“ oder „InsertBefore “ für den Absatz, in den Sie den Kommentar einfügen möchten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt aller Kommentare und deren Kommentarbereiche mithilfe eines Dokumentbesuchers gedruckt wird.
 
@@ -187,7 +189,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [CommentRangeStart](../)
-* namensraum [Aspose.Words](../../commentrangestart/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

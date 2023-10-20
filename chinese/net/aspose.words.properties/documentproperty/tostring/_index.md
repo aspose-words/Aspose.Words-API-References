@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToString
-second_title: Aspose.Words for .NET API 参考
-description: DocumentProperty 方法. 以根据当前区域设置格式化的字符串形式返回属性值
+linktitle: ToString
+articleTitle: ToString
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentProperty ToString 方法. 以根据当前区域设置格式化的字符串形式返回属性值 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.properties/documentproperty/tostring/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.properties/documentproperty/tostring/
 public override string ToString()
 ```
 
-### 评论
+## 评论
 
 将布尔属性转换为“Y”或“N”。 将日期属性转换为短日期字符串。 对于所有其他类型，使用 Object.ToString() 转换属性。
 
-### 例子
+## 例子
 
 显示自定义文档属性的各种类型转换方法。
 
@@ -63,7 +65,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 ### 也可以看看
 
 * class [DocumentProperty](../)
-* 命名空间 [Aspose.Words.Properties](../../documentproperty/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

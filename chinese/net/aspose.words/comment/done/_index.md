@@ -1,7 +1,9 @@
 ---
 title: Comment.Done
-second_title: Aspose.Words for .NET API 参考
-description: Comment 财产. 获取或设置指示评论已标记为完成的标志
+linktitle: Done
+articleTitle: Done
+second_title: 用于 .NET 的 Aspose.Words
+description: Comment Done 财产. 获取或设置指示评论已标记为完成的标志 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/comment/done/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/comment/done/
 public bool Done { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何将评论标记为“完成”。
 
@@ -204,7 +206,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### 也可以看看
 
 * class [Comment](../)
-* 命名空间 [Aspose.Words](../../comment/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

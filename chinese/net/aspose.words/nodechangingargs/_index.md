@@ -1,7 +1,9 @@
 ---
-title: Class NodeChangingArgs
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.NodeChangingArgs 班级. 提供方法的数据INodeChangingCallback接口.
+title: NodeChangingArgs Class
+linktitle: NodeChangingArgs
+articleTitle: NodeChangingArgs
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.NodeChangingArgs 班级. 提供方法的数据INodeChangingCallback接口 在 C#.
 type: docs
 weight: 4190
 url: /zh/net/aspose.words/nodechangingargs/
@@ -25,7 +27,7 @@ public class NodeChangingArgs
 | [Node](../../aspose.words/nodechangingargs/node/) { get; } | 获取[`Node`](./node/)正在添加或删除。 |
 | [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | 在操作开始之前获取节点的父节点。 |
 
-### 例子
+## 例子
 
 展示如何通过回调自定义节点更改。
 
@@ -103,5 +105,3 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

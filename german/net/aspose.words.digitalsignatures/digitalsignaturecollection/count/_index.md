@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: DigitalSignatureCollection eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: DigitalSignatureCollection Count eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/
@@ -14,7 +16,7 @@ Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Dokumente mit X.509-Zertifikaten signiert werden.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### Siehe auch
 
 * class [DigitalSignatureCollection](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

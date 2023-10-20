@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Clone
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoRecipientData طريقة. يُرجع نسخة عميقة من هذا الكائن.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words لـ .NET
+description: OdsoRecipientData Clone طريقة. يُرجع نسخة عميقة من هذا الكائن في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.settings/odsorecipientdata/clone/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odsorecipientdata/clone/
 public OdsoRecipientData Clone()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### أنظر أيضا
 
 * class [OdsoRecipientData](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsorecipientdata/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

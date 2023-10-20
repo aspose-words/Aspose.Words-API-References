@@ -1,7 +1,9 @@
 ---
-title: Enum ThemeFont
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Themes.ThemeFont enum. Specifica i tipi di nomi dei caratteri dei temi per i temi dei documenti.
+title: ThemeFont Enum
+linktitle: ThemeFont
+articleTitle: ThemeFont
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Themes.ThemeFont enum. Specifica i tipi di nomi dei caratteri dei temi per i temi dei documenti in C#.
 type: docs
 weight: 6490
 url: /it/net/aspose.words.themes/themefont/
@@ -22,11 +24,11 @@ public enum ThemeFont
 | Major | `1` | Carattere del tema principale. |
 | Minor | `2` | Carattere tema minore. |
 
-### Osservazioni
+## Osservazioni
 
 Specifica un tipo di carattere del tema a cui è possibile fare riferimento come carattere del tema all'interno delle proprietà dell'oggetto principale. Questo carattere del tema è un riferimento a uno dei caratteri del tema predefiniti, situato nella parte del tema del documento, che consente di inserire informazioni sui caratteri essere impostato centralmente nel documento.
 
-### Esempi
+## Esempi
 
 Mostra come creare e utilizzare lo stile a tema.
 
@@ -131,5 +133,3 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * spazio dei nomi [Aspose.Words.Themes](../../aspose.words.themes/)
 * assemblea [Aspose.Words](../../)
-
-

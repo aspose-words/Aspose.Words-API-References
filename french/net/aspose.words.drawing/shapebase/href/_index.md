@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.HRef
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Obtient ou définit ladresse complète du lien hypertexte pour une forme.
+linktitle: HRef
+articleTitle: HRef
+second_title: Aspose.Words pour .NET
+description: ShapeBase HRef propriété. Obtient ou définit ladresse complète du lien hypertexte pour une forme en C#.
 type: docs
 weight: 230
 url: /fr/net/aspose.words.drawing/shapebase/href/
@@ -14,7 +16,7 @@ Obtient ou définit l'adresse complète du lien hypertexte pour une forme.
 public string HRef { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est une chaîne vide.
 
@@ -32,7 +34,7 @@ Ajouter aux favoris dans un autre document :`https://www.aspose.com/Products/Def
 
 Ajouter à vos favoris ce document :`#BookmakName`.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une forme contenant une image et qui constitue également un lien hypertexte.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

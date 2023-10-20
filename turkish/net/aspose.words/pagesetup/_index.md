@@ -1,7 +1,9 @@
 ---
-title: Class PageSetup
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.PageSetup sınıf. Bir bölümün sayfa düzeni özelliklerini temsil eder.
+title: PageSetup Class
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words for .NET
+description: Aspose.Words.PageSetup sınıf. Bir bölümün sayfa düzeni özelliklerini temsil eder C#'da.
 type: docs
 weight: 4360
 url: /tr/net/aspose.words/pagesetup/
@@ -72,11 +74,11 @@ public class PageSetup
 | --- | --- |
 | [ClearFormatting](../../aspose.words/pagesetup/clearformatting/)() | Sayfa düzenini varsayılan kağıt boyutuna, kenar boşluklarına ve yönlendirmeye sıfırlar. |
 
-### Notlar
+## Notlar
 
 `PageSetup` nesne, özellik olarak birsection 'nin tüm sayfa düzeni niteliklerini (sol kenar boşluğu, alt kenar boşluğu, kağıt boyutu vb.) içerir.
 
-### Örnekler
+## Örnekler
 
 Sayfa yapısı ayarlarının bir belgedeki bölümlere nasıl uygulanacağını ve geri döndürüleceğini gösterir.
 
@@ -111,5 +113,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.PackageCustomParts
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Obtient ou définit la collection de parties personnalisées contenu arbitraire liées au package OOXML à laide de  relations inconnues .
+linktitle: PackageCustomParts
+articleTitle: PackageCustomParts
+second_title: Aspose.Words pour .NET
+description: Document PackageCustomParts propriété. Obtient ou définit la collection de parties personnalisées contenu arbitraire liées au package OOXML à laide de  relations inconnues  en C#.
 type: docs
 weight: 310
 url: /fr/net/aspose.words/document/packagecustomparts/
@@ -14,7 +16,7 @@ Obtient ou définit la collection de parties personnalisées (contenu arbitraire
 public CustomPartCollection PackageCustomParts { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Ne confondez pas ces parties personnalisées avec les données XML personnalisées. Si vous devez accéder aux parties XML personnalisées, utilisez le[`CustomXmlParts`](../customxmlparts/) propriété.
 
@@ -24,7 +26,7 @@ Aspose.Words charge et enregistre les pièces personnalisées dans des documents
 
 Cette propriété ne peut pas être`nul`.
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de pièces personnalisées arbitraires d’un document.
 
@@ -69,7 +71,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPartCollection](../../../aspose.words.markup/custompartcollection/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

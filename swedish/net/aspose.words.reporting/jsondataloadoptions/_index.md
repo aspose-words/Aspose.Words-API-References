@@ -1,7 +1,9 @@
 ---
-title: Class JsonDataLoadOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Reporting.JsonDataLoadOptions klass. Representerar alternativ för att analysera JSONdata.
+title: JsonDataLoadOptions Class
+linktitle: JsonDataLoadOptions
+articleTitle: JsonDataLoadOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Reporting.JsonDataLoadOptions klass. Representerar alternativ för att analysera JSONdata i C#.
 type: docs
 weight: 4680
 url: /sv/net/aspose.words.reporting/jsondataloadoptions/
@@ -31,7 +33,7 @@ public class JsonDataLoadOptions
 | [PreserveSpaces](../../aspose.words.reporting/jsondataloadoptions/preservespaces/) { get; set; } | Hämtar eller ställer in en flagga som indikerar om inledande och efterföljande mellanslag ska bevaras när string värden för JSON-data laddas. |
 | [SimpleValueParseMode](../../aspose.words.reporting/jsondataloadoptions/simplevalueparsemode/) { get; set; } | Hämtar eller ställer in ett läge för att analysera JSON enkla värden (null, boolean, nummer, heltal och sträng) medan JSON laddas. Ett sådant läge påverkar inte analysen av datum-tid-värden. Standard är Loose . |
 
-### Anmärkningar
+## Anmärkningar
 
 En instans av denna klass kan skickas till konstruktörer av[`JsonDataSource`](../jsondatasource/) .
 
@@ -39,5 +41,3 @@ En instans av denna klass kan skickas till konstruktörer av[`JsonDataSource`](.
 
 * namnutrymme [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../)
-
-

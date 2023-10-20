@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.TableWidthOutputMode
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Controla cómo se exportan los anchos de tablas filas y celdas a HTML MHTML o EPUB. El valor predeterminado esAll .
+linktitle: TableWidthOutputMode
+articleTitle: TableWidthOutputMode
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions TableWidthOutputMode propiedad. Controla cómo se exportan los anchos de tablas filas y celdas a HTML MHTML o EPUB. El valor predeterminado esAll  en C#.
 type: docs
 weight: 460
 url: /es/net/aspose.words.saving/htmlsaveoptions/tablewidthoutputmode/
@@ -14,15 +16,15 @@ Controla cómo se exportan los anchos de tablas, filas y celdas a HTML, MHTML o 
 public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
-En el formato HTML, elementos de tabla, fila y celda ( **&lt;tabla&gt;** , **&lt;tr&gt;** , **&lt;th&gt;** , **&lt;td&gt;**) pueden tener sus anchos especificados en unidades relativas (porcentaje) o absolutas. En un documento en Aspose.Words, las tablas, filas y celdas pueden tener sus anchos especificados usando unidades relativas o absolutas también.
+En el formato HTML, elementos de tabla, fila y celda (**&lt;tabla&gt;** ,**&lt;tr&gt;** ,**&lt;th&gt;** ,**&lt;td&gt;**) pueden tener sus anchos especificados en unidades relativas (porcentaje) o absolutas. En un documento en Aspose.Words, las tablas, filas y celdas pueden tener sus anchos especificados usando unidades relativas o absolutas también.
 
 Cuando convierte un documento a HTML usando Aspose.Words, es posible que desee controlar cómo se exportan los anchos de tabla, fila y celda para afectar la forma en que se muestra el documento resultante en el agente visual (por ejemplo, un navegador o visor).
 
 Utilice esta propiedad como filtro para especificar qué valores de ancho de tabla se exportan al documento de destino. Por ejemplo, si está convirtiendo un documento a EPUB y tiene intención de verlo en un dispositivo de lectura móvil, entonces probablemente desee evitarlo. exportar valores de ancho absoluto. Para hacer esto necesita especificar el modo de salidaRelativeOnly oNone para que el espectador en el dispositivo móvil pueda diseñar la tabla para que se ajuste al ancho de la pantalla lo mejor posible.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo conservar sangrías negativas en el archivo .html de salida.
 
@@ -85,7 +87,5 @@ else
 
 * enum [HtmlElementSizeOutputMode](../../htmlelementsizeoutputmode/)
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

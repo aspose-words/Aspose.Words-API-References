@@ -1,7 +1,9 @@
 ---
 title: Body.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Body eigendom. Gibt zurückBody .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: Body NodeType eigendom. Gibt zurückBody  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/body/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückBody .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die untergeordneten Elemente eines zusammengesetzten Knotens durchlaufen werden.
 
@@ -64,7 +66,5 @@ foreach (Node node in section)
 
 * enum [NodeType](../../nodetype/)
 * class [Body](../)
-* namensraum [Aspose.Words](../../body/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

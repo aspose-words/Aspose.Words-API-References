@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlVersion
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.HtmlVersion énumération. Indique la version HTML utilisée lors de lenregistrement du document dansHtml et Mhtml formats.
+title: HtmlVersion Enum
+linktitle: HtmlVersion
+articleTitle: HtmlVersion
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.HtmlVersion énumération. Indique la version HTML utilisée lors de lenregistrement du document dansHtml et Mhtml formats en C#.
 type: docs
 weight: 5120
 url: /fr/net/aspose.words.saving/htmlversion/
@@ -21,7 +23,7 @@ public enum HtmlVersion
 | Xhtml | `0` | Enregistre le document conformément à la norme XHTML 1.0 Transitional. |
 | Html5 | `1` | Enregistre le document conformément à la norme HTML 5. |
 
-### Exemples
+## Exemples
 
 Montre comment afficher un en-tête DOCTYPE lors de la conversion de documents vers la norme de transition Xhtml 1.0.
 
@@ -87,5 +89,3 @@ switch (htmlVersion)
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.KeepLegacyControlChars
-second_title: Справочник по API Aspose.Words для .NET
-description: OoxmlSaveOptions свойство. Сохраняет исходное представление устаревших управляющих символов.
+linktitle: KeepLegacyControlChars
+articleTitle: KeepLegacyControlChars
+second_title: Aspose.Words для .NET
+description: OoxmlSaveOptions KeepLegacyControlChars свойство. Сохраняет исходное представление устаревших управляющих символов на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/
 public bool KeepLegacyControlChars { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как поддерживать устаревшие управляющие символы при преобразовании в формат .docx.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(keepLegacyControlChars ? "\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0
 ### Смотрите также
 
 * class [OoxmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

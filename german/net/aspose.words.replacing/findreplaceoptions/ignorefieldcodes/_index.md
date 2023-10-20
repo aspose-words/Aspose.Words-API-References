@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreFieldCodes
-second_title: Aspose.Words für .NET-API-Referenz
-description: FindReplaceOptions eigendom. Ruft einen booleschen Wert ab oder legt ihn fest der angibt ob Text in Feldcodes ignoriert werden soll. Der Standardwert istFALSCH .
+linktitle: IgnoreFieldCodes
+articleTitle: IgnoreFieldCodes
+second_title: Aspose.Words für .NET
+description: FindReplaceOptions IgnoreFieldCodes eigendom. Ruft einen booleschen Wert ab oder legt ihn fest der angibt ob Text in Feldcodes ignoriert werden soll. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/
@@ -14,13 +16,13 @@ Ruft einen booleschen Wert ab oder legt ihn fest, der angibt, ob Text in Feldcod
 public bool IgnoreFieldCodes { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Option betrifft nur Feldcodes (Knoten zwischen werden nicht ignoriert)FieldSeparator UndFieldEnd).
 
 Um das gesamte Feld zu ignorieren, verwenden Sie bitte die entsprechende Option[`IgnoreFields`](../ignorefields/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text in Feldcodes ignoriert wird.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Siehe auch
 
 * class [FindReplaceOptions](../)
-* namensraum [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

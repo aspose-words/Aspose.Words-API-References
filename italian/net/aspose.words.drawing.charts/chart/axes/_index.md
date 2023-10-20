@@ -1,7 +1,9 @@
 ---
 title: Chart.Axes
-second_title: Aspose.Words per .NET API Reference
-description: Chart proprietà. Ottiene una raccolta di tutti gli assi di questo grafico.
+linktitle: Axes
+articleTitle: Axes
+second_title: Aspose.Words per .NET
+description: Chart Axes proprietà. Ottiene una raccolta di tutti gli assi di questo grafico in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/chart/axes/
@@ -14,7 +16,7 @@ Ottiene una raccolta di tutti gli assi di questo grafico.
 public ChartAxisCollection Axes { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con la raccolta degli assi.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCollection.docx");
 
 * class [ChartAxisCollection](../../chartaxiscollection/)
 * class [Chart](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chart/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

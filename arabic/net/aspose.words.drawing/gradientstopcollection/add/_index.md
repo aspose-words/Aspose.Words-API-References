@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Add
-second_title: Aspose.Words لمراجع .NET API
-description: GradientStopCollection طريقة. يضيف المحددGradientStop إلى التدرج.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: GradientStopCollection Add طريقة. يضيف المحددGradientStop إلى التدرج في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/gradientstopcollection/add/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/gradientstopcollection/add/
 public GradientStop Add(GradientStop gradientStop)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نقاط توقف متدرجة إلى التعبئة المتدرجة.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../gradientstopcollection/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

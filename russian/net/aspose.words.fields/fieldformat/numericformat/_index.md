@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.NumericFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldFormat свойство. Получает или задает форматирование применяемое к результату числового поля. Соответствует переключателю .
+linktitle: NumericFormat
+articleTitle: NumericFormat
+second_title: Aspose.Words для .NET
+description: FieldFormat NumericFormat свойство. Получает или задает форматирование применяемое к результату числового поля. Соответствует переключателю  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldformat/numericformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldformat/numericformat/
 public string NumericFormat { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать результаты полей.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Смотрите также
 
 * class [FieldFormat](../)
-* пространство имен [Aspose.Words.Fields](../../fieldformat/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

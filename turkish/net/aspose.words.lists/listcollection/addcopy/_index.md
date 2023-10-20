@@ -1,7 +1,9 @@
 ---
 title: ListCollection.AddCopy
-second_title: Aspose.Words for .NET API Referansı
-description: ListCollection yöntem. Belirtilen listeyi kopyalayıp belgedeki listeler koleksiyonuna ekleyerek yeni bir liste oluşturur.
+linktitle: AddCopy
+articleTitle: AddCopy
+second_title: Aspose.Words for .NET
+description: ListCollection AddCopy yöntem. Belirtilen listeyi kopyalayıp belgedeki listeler koleksiyonuna ekleyerek yeni bir liste oluşturur C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.lists/listcollection/addcopy/
@@ -22,13 +24,13 @@ public List AddCopy(List srcList)
 
 Yeni oluşturulan liste.
 
-### Notlar
+## Notlar
 
 Kaynak listesi herhangi bir belgeden olabilir. Kaynak liste farklı bir belgeye aitse, listenin bir kopyası oluşturularak mevcut belgeye eklenir.
 
 Kaynak liste bir liste stiline referans veya tanım ise, yeni oluşturulan liste orijinal liste stiliyle ilişkili değildir.
 
-### Örnekler
+## Örnekler
 
 Başka bir belgedeki tüm listelerin bir örneğini içeren bir belgenin nasıl oluşturulacağını gösterir.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* ad alanı [Aspose.Words.Lists](../../listcollection/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

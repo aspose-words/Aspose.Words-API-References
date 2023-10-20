@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ParagraphBreakChar
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. حرف نهاية الفقرة char13 أو r.
+linktitle: ParagraphBreakChar
+articleTitle: ParagraphBreakChar
+second_title: Aspose.Words لـ .NET
+description: ControlChar ParagraphBreakChar مجال. حرف نهاية الفقرة char13 أو r في C#.
 type: docs
 weight: 230
 url: /ar/net/aspose.words/controlchar/paragraphbreakchar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/controlchar/paragraphbreakchar/
 public const char ParagraphBreakChar;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة أحرف تحكم مختلفة إلى مستند.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

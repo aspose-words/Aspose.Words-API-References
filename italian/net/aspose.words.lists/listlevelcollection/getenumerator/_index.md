@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.GetEnumerator
-second_title: Aspose.Words per .NET API Reference
-description: ListLevelCollection metodo. Ottiene loggetto enumeratore che enumererà i livelli in questo elenco.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words per .NET
+description: ListLevelCollection GetEnumerator metodo. Ottiene loggetto enumeratore che enumererà i livelli in questo elenco in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.lists/listlevelcollection/getenumerator/
@@ -14,7 +16,7 @@ Ottiene l'oggetto enumeratore che enumererà i livelli in questo elenco.
 public IEnumerator<ListLevel> GetEnumerator()
 ```
 
-### Esempi
+## Esempi
 
 Mostra modalità avanzate per personalizzare le etichette degli elenchi.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListLevelCollection](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listlevelcollection/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: MailMergeSettings.MailMergeSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings строитель. Конструктор по умолчанию.
+title: MailMergeSettings
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words для .NET
+description: MailMergeSettings строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.settings/mailmergesettings/mailmergesettings/
@@ -17,7 +19,5 @@ public MailMergeSettings()
 ### Смотрите также
 
 * class [MailMergeSettings](../)
-* пространство имен [Aspose.Words.Settings](../../mailmergesettings/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,24 +1,26 @@
 ---
 title: SignOptions.DecryptionPassword
-second_title: Aspose.Words for .NET API 参考
-description: SignOptions 财产. 解密源文档的密码 默认值为 空字符串Empty.
+linktitle: DecryptionPassword
+articleTitle: DecryptionPassword
+second_title: 用于 .NET 的 Aspose.Words
+description: SignOptions DecryptionPassword 财产. 解密源文档的密码 默认值为空字符串Empty 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.digitalsignatures/signoptions/decryptionpassword/
 ---
 ## SignOptions.DecryptionPassword property
 
-解密源文档的密码。 默认值为 **空字符串**（Empty).
+解密源文档的密码。 默认值为**空字符串**（Empty).
 
 ```csharp
 public string DecryptionPassword { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果 OOXML 文档已加密，您应提供解密密码 以在签名之前解密源文档。 对于二进制 DOC 格式的文档不需要此操作。
 
-### 例子
+## 例子
 
 演示如何签署加密的文档文件。
 
@@ -44,7 +46,5 @@ DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, sign
 ### 也可以看看
 
 * class [SignOptions](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../signoptions/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

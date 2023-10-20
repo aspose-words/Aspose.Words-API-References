@@ -1,7 +1,9 @@
 ---
-title: Enum ColorMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.ColorMode opsomming. Gibt an wie Farben gerendert werden.
+title: ColorMode Enum
+linktitle: ColorMode
+articleTitle: ColorMode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.ColorMode opsomming. Gibt an wie Farben gerendert werden in C#.
 type: docs
 weight: 4860
 url: /de/net/aspose.words.saving/colormode/
@@ -21,7 +23,7 @@ public enum ColorMode
 | Normal | `0` | Rendering mit unveränderten Farben. |
 | Grayscale | `1` | Rendering mit Farben in verschiedenen Grautönen von Weiß bis Schwarz. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man die Bildfarbe mit der Eigenschaft „Speicheroptionen“ ändert.
 
@@ -42,5 +44,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

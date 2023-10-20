@@ -1,7 +1,9 @@
 ---
 title: Document.PageCount
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على عدد الصفحات في المستند كما تم حسابه بواسطة عملية تخطيط الصفحة الأخيرة.
+linktitle: PageCount
+articleTitle: PageCount
+second_title: Aspose.Words لـ .NET
+description: Document PageCount ملكية. الحصول على عدد الصفحات في المستند كما تم حسابه بواسطة عملية تخطيط الصفحة الأخيرة في C#.
 type: docs
 weight: 320
 url: /ar/net/aspose.words/document/pagecount/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/pagecount/
 public int PageCount { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حساب عدد الصفحات في المستند.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Document.GetPageCount.pdf");
 
 * method [UpdatePageLayout](../updatepagelayout/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

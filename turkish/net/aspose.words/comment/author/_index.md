@@ -1,7 +1,9 @@
 ---
 title: Comment.Author
-second_title: Aspose.Words for .NET API Referansı
-description: Comment mülk. Bir yorumun yazar adını döndürür veya ayarlar.
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words for .NET
+description: Comment Author mülk. Bir yorumun yazar adını döndürür veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/comment/author/
@@ -14,13 +16,13 @@ Bir yorumun yazar adını döndürür veya ayarlar.
 public string Author { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Olamaz`hükümsüz`.
 
 Varsayılan boş dizedir.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm yorumların ve yanıtların nasıl yazdırılacağını gösterir.
 
@@ -46,7 +48,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 ### Ayrıca bakınız
 
 * class [Comment](../)
-* ad alanı [Aspose.Words](../../comment/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

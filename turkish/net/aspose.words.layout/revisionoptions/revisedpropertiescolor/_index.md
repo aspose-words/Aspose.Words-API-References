@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisedPropertiesColor
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. Biçimlendirme özelliklerinde değişiklik yapılarak içerik için kullanılacak rengi belirtmeye olanak tanırFormatChange Varsayılan değerNoHighlight .
+linktitle: RevisedPropertiesColor
+articleTitle: RevisedPropertiesColor
+second_title: Aspose.Words for .NET
+description: RevisionOptions RevisedPropertiesColor mülk. Biçimlendirme özelliklerinde değişiklik yapılarak içerik için kullanılacak rengi belirtmeye olanak tanırFormatChange Varsayılan değerNoHighlight  C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.layout/revisionoptions/revisedpropertiescolor/
@@ -14,7 +16,7 @@ Biçimlendirme özelliklerinde değişiklik yapılarak içerik için kullanılac
 public RevisionColor RevisedPropertiesColor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* ad alanı [Aspose.Words.Layout](../../revisionoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

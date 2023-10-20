@@ -1,7 +1,9 @@
 ---
 title: FontSettings.FallbackSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSettings свойство. Настройки связанные с механизмом возврата шрифтов.
+linktitle: FallbackSettings
+articleTitle: FallbackSettings
+second_title: Aspose.Words для .NET
+description: FontSettings FallbackSettings свойство. Настройки связанные с механизмом возврата шрифтов на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/fontsettings/fallbacksettings/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/fontsettings/fallbacksettings/
 public FontFallbackSettings FallbackSettings { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распределять резервные шрифты по диапазонам кодов символов Юникода.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 
 * class [FontFallbackSettings](../../fontfallbacksettings/)
 * class [FontSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

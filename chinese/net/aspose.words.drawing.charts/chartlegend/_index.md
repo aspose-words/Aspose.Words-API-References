@@ -1,7 +1,9 @@
 ---
-title: Class ChartLegend
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartLegend 班级. 表示图表图例属性
+title: ChartLegend Class
+linktitle: ChartLegend
+articleTitle: ChartLegend
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartLegend 班级. 表示图表图例属性 在 C#.
 type: docs
 weight: 720
 url: /zh/net/aspose.words.drawing.charts/chartlegend/
@@ -24,7 +26,7 @@ public class ChartLegend
 | [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | 确定是否允许其他图表元素与图例重叠。 默认值为`错误的`. |
 | [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | 指定图例在图表上的位置。 默认值为Right. |
 
-### 例子
+## 例子
 
 演示如何编辑图表图例的外观。
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

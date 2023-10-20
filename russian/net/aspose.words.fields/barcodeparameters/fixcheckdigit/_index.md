@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.FixCheckDigit
-second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Исправлять ли контрольную цифру если она недействительна.
+linktitle: FixCheckDigit
+articleTitle: FixCheckDigit
+second_title: Aspose.Words для .NET
+description: BarcodeParameters FixCheckDigit свойство. Исправлять ли контрольную цифру если она недействительна на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fields/barcodeparameters/fixcheckdigit/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/barcodeparameters/fixcheckdigit/
 public bool FixCheckDigit { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать генератор штрих-кода.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Смотрите также
 
 * class [BarcodeParameters](../)
-* пространство имен [Aspose.Words.Fields](../../barcodeparameters/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

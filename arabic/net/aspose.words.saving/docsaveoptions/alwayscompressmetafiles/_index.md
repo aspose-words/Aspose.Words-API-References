@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.AlwaysCompressMetafiles
-second_title: Aspose.Words لمراجع .NET API
-description: DocSaveOptions ملكية. متىخطأ شنيع  لا يتم ضغط ملفات التعريف الصغيرة لأسباب تتعلق بالأداء. القيمة الافتراضية هيحقيقي يتم ضغط كافة ملفات التعريف بغض النظر عن حجمها.
+linktitle: AlwaysCompressMetafiles
+articleTitle: AlwaysCompressMetafiles
+second_title: Aspose.Words لـ .NET
+description: DocSaveOptions AlwaysCompressMetafiles ملكية. متىخطأ شنيع  لا يتم ضغط ملفات التعريف الصغيرة لأسباب تتعلق بالأداء. القيمة الافتراضية هيحقيقي يتم ضغط كافة ملفات التعريف بغض النظر عن حجمها في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
 public bool AlwaysCompressMetafiles { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير ضغط ملفات التعريف في مستند أثناء الحفظ.
 
@@ -39,7 +41,5 @@ else
 ### أنظر أيضا
 
 * class [DocSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../docsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

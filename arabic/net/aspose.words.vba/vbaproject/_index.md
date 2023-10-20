@@ -1,7 +1,9 @@
 ---
-title: Class VbaProject
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Vba.VbaProject فصل. يوفر الوصول إلى معلومات مشروع VBA. يتم تعريف مشروع VBA الموجود داخل المستند على أنه مجموعة من وحدات VBA.
+title: VbaProject Class
+linktitle: VbaProject
+articleTitle: VbaProject
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Vba.VbaProject فصل. يوفر الوصول إلى معلومات مشروع VBA. يتم تعريف مشروع VBA الموجود داخل المستند على أنه مجموعة من وحدات VBA في C#.
 type: docs
 weight: 6580
 url: /ar/net/aspose.words.vba/vbaproject/
@@ -38,7 +40,7 @@ public class VbaProject
 | --- | --- |
 | [Clone](../../aspose.words.vba/vbaproject/clone/)() | ينفذ نسخة من`VbaProject` . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى معلومات مشروع VBA الخاص بالمستند.
 
@@ -70,5 +72,3 @@ vbaModules.Remove(vbaModules[2]);
 
 * مساحة الاسم [Aspose.Words.Vba](../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../)
-
-

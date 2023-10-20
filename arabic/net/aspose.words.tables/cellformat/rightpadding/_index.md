@@ -1,9 +1,11 @@
 ---
 title: CellFormat.RightPadding
-second_title: Aspose.Words لمراجع .NET API
-description: CellFormat ملكية. إرجاع أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يمين محتويات الخلية.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words لـ .NET
+description: CellFormat RightPadding ملكية. إرجاع أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يمين محتويات الخلية في C#.
 type: docs
-weight: 90
+weight: 80
 url: /ar/net/aspose.words.tables/cellformat/rightpadding/
 ---
 ## CellFormat.RightPadding property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cellformat/rightpadding/
 public double RightPadding { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق الخلايا باستخدام أداة إنشاء المستندات.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### أنظر أيضا
 
 * class [CellFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cellformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

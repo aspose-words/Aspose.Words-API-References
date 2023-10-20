@@ -1,7 +1,9 @@
 ---
 title: Section.ProtectedForForms
-second_title: Aspose.Words for .NET API Referansı
-description: Section mülk. Bölüm formlar için korunuyorsa doğrudur. Bir bölüm formlar için korunduğunda kullanıcıları yalnızca Microsoft Worddeki form alanlarındaki metni seçebilir ve değiştirebilir.
+linktitle: ProtectedForForms
+articleTitle: ProtectedForForms
+second_title: Aspose.Words for .NET
+description: Section ProtectedForForms mülk. Bölüm formlar için korunuyorsa doğrudur. Bir bölüm formlar için korunduğunda kullanıcıları yalnızca Microsoft Worddeki form alanlarındaki metni seçebilir ve değiştirebilir C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/section/protectedforforms/
@@ -14,7 +16,7 @@ Bölüm formlar için korunuyorsa doğrudur. Bir bölüm formlar için korunduğ
 public bool ProtectedForForms { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir bölüm için korumanın nasıl kapatılacağını gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 ### Ayrıca bakınız
 
 * class [Section](../)
-* ad alanı [Aspose.Words](../../section/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum DashStyle
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.DashStyle enumeración. Estilo de línea discontinua.
+title: DashStyle Enum
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.DashStyle enumeración. Estilo de línea discontinua en C#.
 type: docs
 weight: 930
 url: /es/net/aspose.words.drawing/dashstyle/
@@ -31,7 +33,7 @@ public enum DashStyle
 | LongDashDotDot | `10` | Guión largo guión corto guión corto. |
 | Default | `0` | Igual queSolid . |
 
-### Ejemplos
+## Ejemplos
 
 Muestra para crear una variedad de formas.
 
@@ -108,5 +110,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [DashStyle](../stroke/dashstyle/)
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

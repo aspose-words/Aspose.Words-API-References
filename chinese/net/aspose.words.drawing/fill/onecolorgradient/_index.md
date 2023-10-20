@@ -1,12 +1,14 @@
 ---
 title: Fill.OneColorGradient
-second_title: Aspose.Words for .NET API 参考
-description: Fill 方法. 将指定填充设置为单色渐变
+linktitle: OneColorGradient
+articleTitle: OneColorGradient
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill OneColorGradient 方法. 将指定填充设置为单色渐变 在 C#.
 type: docs
-weight: 220
+weight: 210
 url: /zh/net/aspose.words.drawing/fill/onecolorgradient/
 ---
-## OneColorGradient(GradientStyle, GradientVariant, double) {#onecolorgradient}
+## OneColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient}
 
 将指定填充设置为单色渐变。
 
@@ -20,7 +22,7 @@ public void OneColorGradient(GradientStyle style, GradientVariant variant, doubl
 | variant | GradientVariant | 梯度变体[`GradientVariant`](../../gradientvariant/) |
 | degree | Double | 梯度度。可以是 0.0（暗）到 1.0（亮）之间的值。 |
 
-### 例子
+## 例子
 
 演示如何使用渐变填充形状。
 
@@ -63,12 +65,12 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## OneColorGradient(Color, GradientStyle, GradientVariant, double) {#onecolorgradient_1}
+## OneColorGradient(*Color, [GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient_1}
 
 使用指定颜色将指定填充设置为单色渐变。
 
@@ -84,7 +86,7 @@ public void OneColorGradient(Color color, GradientStyle style, GradientVariant v
 | variant | GradientVariant | 梯度变体[`GradientVariant`](../../gradientvariant/) |
 | degree | Double | 梯度度。可以是 0.0（暗）到 1.0（亮）之间的值。 |
 
-### 例子
+## 例子
 
 演示如何使用渐变填充形状。
 
@@ -127,7 +129,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

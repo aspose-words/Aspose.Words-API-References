@@ -1,7 +1,9 @@
 ---
-title: Enum HeightRule
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.HeightRule Sıralama. Bir nesnenin yüksekliğini belirleme kuralını belirtir.
+title: HeightRule Enum
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: Aspose.Words for .NET
+description: Aspose.Words.HeightRule Sıralama. Bir nesnenin yüksekliğini belirleme kuralını belirtir C#'da.
 type: docs
 weight: 3130
 url: /tr/net/aspose.words/heightrule/
@@ -22,7 +24,7 @@ public enum HeightRule
 | Exactly | `1` | Yükseklik tam olarak nokta cinsinden belirtilir. Lütfen metnin bu yükseklikteki nesnenin içine sığamaması durumunda kesik görüneceğini unutmayın. |
 | Auto | `2` | Yükseklik, bir nesnenin içindeki tüm metni barındıracak şekilde otomatik olarak artacaktır. |
 
-### Örnekler
+## Örnekler
 
 Satırların bir belge oluşturucuyla nasıl biçimlendirileceğini gösterir.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

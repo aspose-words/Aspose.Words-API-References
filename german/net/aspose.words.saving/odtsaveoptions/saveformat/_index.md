@@ -1,7 +1,9 @@
 ---
 title: OdtSaveOptions.SaveFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdtSaveOptions eigendom. Gibt das Format an in dem das Dokument gespeichert wird wenn dieses Speicheroptionsobjekt verwendet wird. Kann seinOdt oderOtt .
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: Aspose.Words für .NET
+description: OdtSaveOptions SaveFormat eigendom. Gibt das Format an in dem das Dokument gespeichert wird wenn dieses Speicheroptionsobjekt verwendet wird. Kann seinOdt oderOtt  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/odtsaveoptions/saveformat/
@@ -14,7 +16,7 @@ Gibt das Format an, in dem das Dokument gespeichert wird, wenn dieses Speicherop
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein gespeichertes ODT/OTT-Dokument mit einem Passwort verschlüsselt und es dann mit Aspose.Words lädt.
 
@@ -50,7 +52,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [OdtSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../odtsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

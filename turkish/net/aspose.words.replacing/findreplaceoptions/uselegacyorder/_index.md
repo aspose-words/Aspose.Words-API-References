@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.UseLegacyOrder
-second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. True metin kutuları dikkate alınarak yukarıdan aşağıya doğru sırayla metin araması yapıldığını belirtir. Varsayılan değerYANLIŞ .
+linktitle: UseLegacyOrder
+articleTitle: UseLegacyOrder
+second_title: Aspose.Words for .NET
+description: FindReplaceOptions UseLegacyOrder mülk. True metin kutuları dikkate alınarak yukarıdan aşağıya doğru sırayla metin araması yapıldığını belirtir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
@@ -14,7 +16,7 @@ True, metin kutuları dikkate alınarak yukarıdan aşağıya doğru sırayla me
 public bool UseLegacyOrder { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metin bul ve değiştir işlemi gerçekleştirilirken düğümlerin arama sırasının nasıl değiştirileceğini gösterir.
 
@@ -71,7 +73,5 @@ private class TextReplacementTracker : IReplacingCallback
 ### Ayrıca bakınız
 
 * class [FindReplaceOptions](../)
-* ad alanı [Aspose.Words.Replacing](../../findreplaceoptions/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

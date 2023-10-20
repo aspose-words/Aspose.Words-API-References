@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowLegendKey
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabelCollection 财产. 允许指定是否为整个系列的数据标签显示图例键 默认值为错误的.
+linktitle: ShowLegendKey
+articleTitle: ShowLegendKey
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabelCollection ShowLegendKey 财产. 允许指定是否为整个系列的数据标签显示图例键 默认值为错误的 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/
 public bool ShowLegendKey { get; set; }
 ```
 
-### 评论
+## 评论
 
 可以使用 the 覆盖单个数据标签为此属性定义的值[`ShowLegendKey`](../../chartdatalabel/showlegendkey/)属性.
 
-### 例子
+## 例子
 
 展示如何使用饼图的数据标签。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### 也可以看看
 
 * class [ChartDataLabelCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

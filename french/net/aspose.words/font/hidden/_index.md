@@ -1,7 +1,9 @@
 ---
 title: Font.Hidden
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. True si la police est formatée en texte masqué.
+linktitle: Hidden
+articleTitle: Hidden
+second_title: Aspose.Words pour .NET
+description: Font Hidden propriété. True si la police est formatée en texte masqué en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words/font/hidden/
@@ -14,7 +16,7 @@ True si la police est formatée en texte masqué.
 public bool Hidden { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une série de texte masqué.
 
@@ -229,7 +231,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

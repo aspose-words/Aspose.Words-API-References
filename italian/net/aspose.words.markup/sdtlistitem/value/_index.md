@@ -1,7 +1,9 @@
 ---
 title: SdtListItem.Value
-second_title: Aspose.Words per .NET API Reference
-description: SdtListItem proprietà. Ottiene il valore di questa voce di elenco.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words per .NET
+description: SdtListItem Value proprietà. Ottiene il valore di questa voce di elenco in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.markup/sdtlistitem/value/
@@ -14,11 +16,11 @@ Ottiene il valore di questa voce di elenco.
 public string Value { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Non può essere`nullo` e non può essere una stringa vuota.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i tag dei documenti strutturati con elenco a discesa.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Guarda anche
 
 * class [SdtListItem](../)
-* spazio dei nomi [Aspose.Words.Markup](../../sdtlistitem/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: List.ListLevels
-second_title: Referencia de API de Aspose.Words para .NET
-description: List propiedad. Obtiene la colección de niveles de lista para esta lista.
+linktitle: ListLevels
+articleTitle: ListLevels
+second_title: Aspose.Words para .NET
+description: List ListLevels propiedad. Obtiene la colección de niveles de lista para esta lista en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.lists/list/listlevels/
@@ -14,11 +16,11 @@ Obtiene la colección de niveles de lista para esta lista.
 public ListLevelCollection ListLevels { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Utilice esta propiedad para acceder y modificar el formato individual de cada nivel de la lista.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar formato de lista personalizado a párrafos cuando se utiliza DocumentBuilder.
 
@@ -78,7 +80,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevelCollection](../../listlevelcollection/)
 * class [List](../)
-* espacio de nombres [Aspose.Words.Lists](../../list/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

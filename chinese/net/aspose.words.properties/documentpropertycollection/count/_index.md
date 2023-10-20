@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: DocumentPropertyCollection 财产. 获取集合中的项目数
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentPropertyCollection Count 财产. 获取集合中的项目数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.properties/documentpropertycollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.properties/documentpropertycollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用自定义文档属性。
 
@@ -39,7 +41,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 ### 也可以看看
 
 * class [DocumentPropertyCollection](../)
-* 命名空间 [Aspose.Words.Properties](../../documentpropertycollection/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

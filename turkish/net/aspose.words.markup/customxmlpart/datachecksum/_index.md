@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.DataChecksum
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlPart mülk. Döngüsel artıklık denetimi CRC sağlama toplamını belirtir.Data içerik.
+linktitle: DataChecksum
+articleTitle: DataChecksum
+second_title: Aspose.Words for .NET
+description: CustomXmlPart DataChecksum mülk. Döngüsel artıklık denetimi CRC sağlama toplamını belirtir.Data içerik C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.markup/customxmlpart/datachecksum/
@@ -14,7 +16,7 @@ Döngüsel artıklık denetimi (CRC) sağlama toplamını belirtir.[`Data`](../d
 public long DataChecksum { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir çalışma zamanında sağlama toplamının nasıl hesaplandığını gösterir.
 
@@ -44,7 +46,5 @@ Assert.AreNotEqual(checksum, updatedChecksum);
 ### Ayrıca bakınız
 
 * class [CustomXmlPart](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

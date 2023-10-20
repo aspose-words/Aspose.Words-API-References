@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.ForgetLastTabAlignment
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Ignora la larghezza dellultima tabulazione durante lallineamento del paragrafo se non è allineato a sinistra.
+linktitle: ForgetLastTabAlignment
+articleTitle: ForgetLastTabAlignment
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions ForgetLastTabAlignment proprietà. Ignora la larghezza dellultima tabulazione durante lallineamento del paragrafo se non è allineato a sinistra in C#.
 type: docs
 weight: 270
 url: /it/net/aspose.words.settings/compatibilityoptions/forgetlasttabalignment/
@@ -17,7 +19,5 @@ public bool ForgetLastTabAlignment { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

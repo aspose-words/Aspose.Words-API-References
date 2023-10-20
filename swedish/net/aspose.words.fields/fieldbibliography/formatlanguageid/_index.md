@@ -1,7 +1,9 @@
 ---
 title: FieldBibliography.FormatLanguageId
-second_title: Aspose.Words för .NET API Referens
-description: FieldBibliography fast egendom. Hämtar eller ställer in språkID som används för att formatera de bibliografiska källorna i dokumentet.
+linktitle: FormatLanguageId
+articleTitle: FormatLanguageId
+second_title: Aspose.Words för .NET
+description: FieldBibliography FormatLanguageId fast egendom. Hämtar eller ställer in språkID som används för att formatera de bibliografiska källorna i dokumentet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldbibliography/formatlanguageid/
@@ -14,7 +16,7 @@ Hämtar eller ställer in språk-ID som används för att formatera de bibliogra
 public string FormatLanguageId { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CITATION och BIBLIOGRAPHY-fält.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Se även
 
 * class [FieldBibliography](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbibliography/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

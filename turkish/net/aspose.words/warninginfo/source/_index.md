@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.Source
-second_title: Aspose.Words for .NET API Referansı
-description: WarningInfo mülk. Uyarının kaynağını döndürür.
+linktitle: Source
+articleTitle: Source
+second_title: Aspose.Words for .NET
+description: WarningInfo Source mülk. Uyarının kaynağını döndürür C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/warninginfo/source/
@@ -18,7 +20,5 @@ public WarningSource Source { get; }
 
 * enum [WarningSource](../../warningsource/)
 * class [WarningInfo](../)
-* ad alanı [Aspose.Words](../../warninginfo/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class PdfEncryptionDetails
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.PdfEncryptionDetails classe. Contient des détails sur le cryptage et les autorisations daccès à un document PDF.
+title: PdfEncryptionDetails Class
+linktitle: PdfEncryptionDetails
+articleTitle: PdfEncryptionDetails
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.PdfEncryptionDetails classe. Contient des détails sur le cryptage et les autorisations daccès à un document PDF en C#.
 type: docs
 weight: 5460
 url: /fr/net/aspose.words.saving/pdfencryptiondetails/
@@ -20,8 +22,8 @@ public class PdfEncryptionDetails
 
 | Nom | La description |
 | --- | --- |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(string, string) | Initialise une instance de cette classe. |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(string, string, PdfPermissions) | Initialise une instance de cette classe. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(*string, string*) | Initialise une instance de cette classe. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(*string, string, [PdfPermissions](../pdfpermissions/)*) | Initialise une instance de cette classe. |
 
 ## Propriétés
 
@@ -31,7 +33,7 @@ public class PdfEncryptionDetails
 | [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions/) { get; set; } | Spécifie les opérations autorisées à un utilisateur sur un document PDF crypté. La valeur par défaut estDisallowAll . |
 | [UserPassword](../../aspose.words.saving/pdfencryptiondetails/userpassword/) { get; set; } | Spécifie le mot de passe utilisateur requis pour ouvrir le document PDF crypté. |
 
-### Exemples
+## Exemples
 
 Montre comment définir les autorisations sur un document PDF enregistré.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

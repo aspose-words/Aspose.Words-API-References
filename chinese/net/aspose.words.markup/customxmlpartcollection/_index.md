@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPartCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Markup.CustomXmlPartCollection 班级. 表示自定义 XML 部件的集合这些项目是CustomXmlPart对象.
+title: CustomXmlPartCollection Class
+linktitle: CustomXmlPartCollection
+articleTitle: CustomXmlPartCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Markup.CustomXmlPartCollection 班级. 表示自定义 XML 部件的集合这些项目是CustomXmlPart对象 在 C#.
 type: docs
 weight: 3930
 url: /zh/net/aspose.words.markup/customxmlpartcollection/
@@ -33,19 +35,19 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add_1)(CustomXmlPart) | 将项目添加到集合中。 |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(string, string) | 使用指定的 XML 创建新的 XML 部分并将其添加到集合中。 |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add_1)(*[CustomXmlPart](../customxmlpart/)*) | 将项目添加到集合中。 |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(*string, string*) | 使用指定的 XML 创建新的 XML 部分并将其添加到集合中。 |
 | [Clear](../../aspose.words.markup/customxmlpartcollection/clear/)() | 从集合中删除所有元素。 |
 | [Clone](../../aspose.words.markup/customxmlpartcollection/clone/)() | 制作此集合及其项目的深层副本。 |
-| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(string) | 按标识符查找并返回自定义 XML 部分。 |
+| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(*string*) | 按标识符查找并返回自定义 XML 部分。 |
 | [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
-| [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(int) | 删除指定索引处的项目。 |
+| [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(*int*) | 删除指定索引处的项目。 |
 
-### 评论
+## 评论
 
 您通常不需要创建此类的实例。您可以通过以下方式访问存储在文档中的自定义 XML 数据 [`CustomXmlParts`](../../aspose.words/document/customxmlparts/)财产。
 
-### 例子
+## 例子
 
 演示如何使用自定义 XML 数据创建结构化文档标签。
 
@@ -114,5 +116,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 * class [CustomXmlPart](../customxmlpart/)
 * 命名空间 [Aspose.Words.Markup](../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../)
-
-

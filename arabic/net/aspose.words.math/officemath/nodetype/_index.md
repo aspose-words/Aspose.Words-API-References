@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: OfficeMath ملكية. إرجاعOfficeMath .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: OfficeMath NodeType ملكية. إرجاعOfficeMath  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.math/officemath/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.math/officemath/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط تنسيق عرض الرياضيات المكتبية.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [OfficeMath](../)
-* مساحة الاسم [Aspose.Words.Math](../../officemath/)
+* مساحة الاسم [Aspose.Words.Math](../../../aspose.words.math/)
 * المجسم [Aspose.Words](../../../)
-
-

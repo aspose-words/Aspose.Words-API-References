@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUserPromptRespondent
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.IFieldUserPromptRespondent интерфейс. Представляет респондента на запросы пользователя во время обновления поля.
+title: IFieldUserPromptRespondent Interface
+linktitle: IFieldUserPromptRespondent
+articleTitle: IFieldUserPromptRespondent
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.IFieldUserPromptRespondent интерфейс. Представляет респондента на запросы пользователя во время обновления поля на С#.
 type: docs
 weight: 2740
 url: /ru/net/aspose.words.fields/ifielduserpromptrespondent/
@@ -18,13 +20,13 @@ public interface IFieldUserPromptRespondent
 
 | Имя | Описание |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | При реализации возвращает ответ пользователя на запрос. Ваша реализация должна возвращать`нулевой` чтобы указать, что пользователь не ответил на приглашение (т. е. пользователь нажал кнопку «Отмена» в окне приглашения). |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(*string, string*) | При реализации возвращает ответ пользователя на запрос. Ваша реализация должна возвращать`нулевой` чтобы указать, что пользователь не ответил на приглашение (т. е. пользователь нажал кнопку «Отмена» в окне приглашения). |
 
-### Примечания
+## Примечания
 
 Поля ASK и FILLIN являются примерами полей, которые запрашивают у пользователя какой-либо ответ. Реализуйте этот интерфейс и назначьте его[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) свойство для установления взаимодействия между полем update и пользователем.
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле ASK и настроить его свойства.
 
@@ -87,5 +89,3 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

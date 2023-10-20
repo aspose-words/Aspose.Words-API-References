@@ -1,9 +1,11 @@
 ---
 title: CellFormat.WrapText
-second_title: Referencia de API de Aspose.Words para .NET
-description: CellFormat propiedad. siverdadero  ajusta el texto de la celda.
+linktitle: WrapText
+articleTitle: WrapText
+second_title: Aspose.Words para .NET
+description: CellFormat WrapText propiedad. siverdadero  ajusta el texto de la celda en C#.
 type: docs
-weight: 150
+weight: 140
 url: /es/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
@@ -14,7 +16,7 @@ si`verdadero` , ajusta el texto de la celda.
 public bool WrapText { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una tabla con bordes personalizados.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Ver también
 
 * class [CellFormat](../)
-* espacio de nombres [Aspose.Words.Tables](../../cellformat/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

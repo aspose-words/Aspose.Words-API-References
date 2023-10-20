@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ApplyNumberDefault
-second_title: Справочник по API Aspose.Words для .NET
-description: ListFormat метод. Запускает новый нумерованный список по умолчанию и применяет его к абзацу.
+linktitle: ApplyNumberDefault
+articleTitle: ApplyNumberDefault
+second_title: Aspose.Words для .NET
+description: ListFormat ApplyNumberDefault метод. Запускает новый нумерованный список по умолчанию и применяет его к абзацу на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.lists/listformat/applynumberdefault/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/listformat/applynumberdefault/
 public void ApplyNumberDefault()
 ```
 
-### Примечания
+## Примечания
 
 Это сокращенный метод, который создает новый список с использованием шаблона Numbered по умолчанию, применяет его к абзацу и выбирает первый уровень списка.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать маркированные и нумерованные списки.
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Смотрите также
 
 * class [ListFormat](../)
-* пространство имен [Aspose.Words.Lists](../../listformat/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: InlineStory.FirstParagraph
-second_title: Aspose.Words for .NET API 参考
-description: InlineStory 财产. 获取故事中的第一段
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: 用于 .NET 的 Aspose.Words
+description: InlineStory FirstParagraph 财产. 获取故事中的第一段 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/inlinestory/firstparagraph/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/inlinestory/firstparagraph/
 public Paragraph FirstParagraph { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何向段落添加注释。
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* 命名空间 [Aspose.Words](../../inlinestory/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

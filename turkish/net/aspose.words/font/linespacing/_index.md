@@ -1,7 +1,9 @@
 ---
 title: Font.LineSpacing
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bu yazı tipinin satır aralığını döndürür nokta cinsinden.
+linktitle: LineSpacing
+articleTitle: LineSpacing
+second_title: Aspose.Words for .NET
+description: Font LineSpacing mülk. Bu yazı tipinin satır aralığını döndürür nokta cinsinden C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words/font/linespacing/
@@ -14,7 +16,7 @@ Bu yazı tipinin satır aralığını döndürür (nokta cinsinden).
 public double LineSpacing { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir yazı tipinin satır aralığının nokta cinsinden nasıl alınacağını gösterir.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(13.798828125d, builder.Font.LineSpacing);
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

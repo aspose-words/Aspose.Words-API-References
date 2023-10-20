@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.MswVersion
-second_title: Aspose.Words for .NET API 参考
-description: LoadOptions 财产. 允许指定文档加载过程应与特定的 MS Word 版本匹配 默认值为Word2019
+linktitle: MswVersion
+articleTitle: MswVersion
+second_title: 用于 .NET 的 Aspose.Words
+description: LoadOptions MswVersion 财产. 允许指定文档加载过程应与特定的 MS Word 版本匹配 默认值为Word2019 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.loading/loadoptions/mswversion/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.loading/loadoptions/mswversion/
 public MsWordVersion MswVersion { get; set; }
 ```
 
-### 评论
+## 评论
 
 不同的 Word 版本在加载过程中处理文档内容和格式的某些方面可能略有不同 ，这可能会导致文档对象模型存在细微差异。
 
-### 例子
+## 例子
 
 演示如何在文档加载过程中模拟特定 Microsoft Word 版本的加载过程。
 
@@ -41,7 +43,5 @@ Assert.AreEqual(12.95d, doc.Styles.DefaultParagraphFormat.LineSpacing, 0.01d);
 
 * enum [MsWordVersion](../../../aspose.words.settings/mswordversion/)
 * class [LoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../loadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

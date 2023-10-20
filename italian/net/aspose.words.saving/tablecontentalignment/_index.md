@@ -1,7 +1,9 @@
 ---
-title: Enum TableContentAlignment
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.TableContentAlignment enum. Permette di specificare lallineamento del contenuto della tabella da utilizzare durante lesportazione in formato Markdown.
+title: TableContentAlignment Enum
+linktitle: TableContentAlignment
+articleTitle: TableContentAlignment
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.TableContentAlignment enum. Permette di specificare lallineamento del contenuto della tabella da utilizzare durante lesportazione in formato Markdown in C#.
 type: docs
 weight: 5620
 url: /it/net/aspose.words.saving/tablecontentalignment/
@@ -27,5 +29,3 @@ public enum TableContentAlignment
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

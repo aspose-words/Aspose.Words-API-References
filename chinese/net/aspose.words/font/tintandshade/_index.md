@@ -1,7 +1,9 @@
 ---
 title: Font.TintAndShade
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置使颜色变亮或变暗的双精度值
+linktitle: TintAndShade
+articleTitle: TintAndShade
+second_title: 用于 .NET 的 Aspose.Words
+description: Font TintAndShade 财产. 获取或设置使颜色变亮或变暗的双精度值 在 C#.
 type: docs
 weight: 520
 url: /zh/net/aspose.words/font/tintandshade/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/font/tintandshade/
 public double TintAndShade { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性允许的值范围为 -1（最暗）到 1（最亮）。 零 (0) 为中性。尝试将此属性设置为小于 -1 或大于 1 的值会导致ArgumentOutOfRangeException。
 
 设置该属性为[`Font`](../)具有非主题 color 的对象会导致InvalidOperationException。
 
-### 例子
+## 例子
 
 展示如何创建和使用主题样式。
 
@@ -43,7 +45,5 @@ builder.Writeln("Text with themed style");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

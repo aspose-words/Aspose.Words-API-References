@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreFootnotes
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompareOptions eigendom. Gibt an ob Unterschiede in Fußnoten und Endnoten verglichen werden sollen. Standardmäßig werden Fußnoten nicht ignoriert.
+linktitle: IgnoreFootnotes
+articleTitle: IgnoreFootnotes
+second_title: Aspose.Words für .NET
+description: CompareOptions IgnoreFootnotes eigendom. Gibt an ob Unterschiede in Fußnoten und Endnoten verglichen werden sollen. Standardmäßig werden Fußnoten nicht ignoriert in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.comparing/compareoptions/ignorefootnotes/
@@ -14,7 +16,7 @@ Gibt an, ob Unterschiede in Fußnoten und Endnoten verglichen werden sollen. Sta
 public bool IgnoreFootnotes { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie bei einem Vergleich bestimmte Arten von Dokumentelementen gefiltert werden.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Siehe auch
 
 * class [CompareOptions](../)
-* namensraum [Aspose.Words.Comparing](../../compareoptions/)
+* namensraum [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * Montage [Aspose.Words](../../../)
-
-

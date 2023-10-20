@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPartCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Markup.CustomXmlPartCollection فصل. يمثل مجموعة من أجزاء XML المخصصة. العناصر هيCustomXmlPart الكائنات.
+title: CustomXmlPartCollection Class
+linktitle: CustomXmlPartCollection
+articleTitle: CustomXmlPartCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Markup.CustomXmlPartCollection فصل. يمثل مجموعة من أجزاء XML المخصصة. العناصر هيCustomXmlPart الكائنات في C#.
 type: docs
 weight: 3930
 url: /ar/net/aspose.words.markup/customxmlpartcollection/
@@ -33,19 +35,19 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add_1)(CustomXmlPart) | إضافة عنصر إلى المجموعة. |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(string, string) | إنشاء جزء XML جديد باستخدام XML المحدد وإضافته إلى المجموعة. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add_1)(*[CustomXmlPart](../customxmlpart/)*) | إضافة عنصر إلى المجموعة. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(*string, string*) | إنشاء جزء XML جديد باستخدام XML المحدد وإضافته إلى المجموعة. |
 | [Clear](../../aspose.words.markup/customxmlpartcollection/clear/)() | إزالة كافة العناصر من المجموعة. |
 | [Clone](../../aspose.words.markup/customxmlpartcollection/clone/)() | عمل نسخة عميقة من هذه المجموعة وعناصرها. |
-| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(string) | يبحث عن جزء XML مخصص ويعيده بواسطة معرفه. |
+| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(*string*) | يبحث عن جزء XML مخصص ويعيده بواسطة معرفه. |
 | [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
-| [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(int) | إزالة عنصر في الفهرس المحدد. |
+| [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(*int*) | إزالة عنصر في الفهرس المحدد. |
 
-### ملاحظات
+## ملاحظات
 
 لا تحتاج عادةً إلى إنشاء مثيلات لهذه الفئة. يمكنك الوصول إلى بيانات XML المخصصة المخزنة في المستند عبر ملف[`CustomXmlParts`](../../aspose.words/document/customxmlparts/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة باستخدام بيانات XML المخصصة.
 
@@ -114,5 +116,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 * class [CustomXmlPart](../customxmlpart/)
 * مساحة الاسم [Aspose.Words.Markup](../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../)
-
-

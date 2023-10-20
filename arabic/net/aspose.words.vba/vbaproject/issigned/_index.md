@@ -1,7 +1,9 @@
 ---
 title: VbaProject.IsSigned
-second_title: Aspose.Words لمراجع .NET API
-description: VbaProject ملكية. يظهر ما إذا كانVbaProject تم التوقيع أم لا.
+linktitle: IsSigned
+articleTitle: IsSigned
+second_title: Aspose.Words لـ .NET
+description: VbaProject IsSigned ملكية. يظهر ما إذا كانVbaProject تم التوقيع أم لا في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.vba/vbaproject/issigned/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.vba/vbaproject/issigned/
 public bool IsSigned { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى معلومات مشروع VBA الخاص بالمستند.
 
@@ -45,7 +47,5 @@ vbaModules.Remove(vbaModules[2]);
 ### أنظر أيضا
 
 * class [VbaProject](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbaproject/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
-
-

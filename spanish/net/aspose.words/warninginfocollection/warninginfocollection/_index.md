@@ -1,7 +1,9 @@
 ---
-title: WarningInfoCollection.WarningInfoCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: WarningInfoCollection constructor. Constructor predeterminado
+title: WarningInfoCollection
+linktitle: WarningInfoCollection
+articleTitle: WarningInfoCollection
+second_title: Aspose.Words para .NET
+description: WarningInfoCollection constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/warninginfocollection/warninginfocollection/
@@ -17,7 +19,5 @@ public WarningInfoCollection()
 ### Ver también
 
 * class [WarningInfoCollection](../)
-* espacio de nombres [Aspose.Words](../../warninginfocollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

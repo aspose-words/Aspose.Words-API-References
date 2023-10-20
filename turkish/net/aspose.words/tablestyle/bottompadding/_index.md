@@ -1,7 +1,9 @@
 ---
 title: TableStyle.BottomPadding
-second_title: Aspose.Words for .NET API Referansı
-description: TableStyle mülk. Tablo hücrelerinin içeriğinin altına eklenecek alan miktarını puan cinsinden alır veya ayarlar.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words for .NET
+description: TableStyle BottomPadding mülk. Tablo hücrelerinin içeriğinin altına eklenecek alan miktarını puan cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/tablestyle/bottompadding/
@@ -14,7 +16,7 @@ Tablo hücrelerinin içeriğinin altına eklenecek alan miktarını (puan cinsin
 public double BottomPadding { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo için özel stil ayarlarının nasıl oluşturulacağını gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Ayrıca bakınız
 
 * class [TableStyle](../)
-* ad alanı [Aspose.Words](../../tablestyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

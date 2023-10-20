@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Document
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Ruft das ab oder legt es festDocumentObjekt an das dieses Objekt angehängt ist.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words für .NET
+description: DocumentBuilder Document eigendom. Ruft das ab oder legt es festDocumentObjekt an das dieses Objekt angehängt ist in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words/documentbuilder/document/
@@ -14,7 +16,7 @@ Ruft das ab oder legt es fest`Document`Objekt, an das dieses Objekt angehängt i
 public Document Document { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument angewendet und wiederhergestellt werden.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

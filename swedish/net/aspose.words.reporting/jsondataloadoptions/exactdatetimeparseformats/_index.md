@@ -1,7 +1,9 @@
 ---
 title: JsonDataLoadOptions.ExactDateTimeParseFormats
-second_title: Aspose.Words för .NET API Referens
-description: JsonDataLoadOptions fast egendom. Hämtar eller ställer in exakta format för att analysera JSONdatumtidvärden när JSON laddas. Standard ärnull .
+linktitle: ExactDateTimeParseFormats
+articleTitle: ExactDateTimeParseFormats
+second_title: Aspose.Words för .NET
+description: JsonDataLoadOptions ExactDateTimeParseFormats fast egendom. Hämtar eller ställer in exakta format för att analysera JSONdatumtidvärden när JSON laddas. Standard ärnull  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats/
@@ -14,7 +16,7 @@ Hämtar eller ställer in exakta format för att analysera JSON-datum-tid-värde
 public IEnumerable<string> ExactDateTimeParseFormats { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Strängar som är kodade med Microsoft® JSON datum-tid-format (till exempel "/Date(1224043200000)/") känns alltid igen som datum-tid-värden oavsett ett värde för den här egenskapen. Egenskapen definierar ytterligare -format som ska användas vid analys av datum-tid-värden från strängar på följande sätt:
 
@@ -25,7 +27,5 @@ Strängar som är kodade med Microsoft® JSON datum-tid-format (till exempel "/D
 ### Se även
 
 * class [JsonDataLoadOptions](../)
-* namnutrymme [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
-
-

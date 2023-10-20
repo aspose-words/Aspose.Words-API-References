@@ -1,7 +1,9 @@
 ---
 title: ImageData.ChromaKey
-second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. Definierar färgvärdet för bilden som kommer att behandlas som transparent.
+linktitle: ChromaKey
+articleTitle: ChromaKey
+second_title: Aspose.Words för .NET
+description: ImageData ChromaKey fast egendom. Definierar färgvärdet för bilden som kommer att behandlas som transparent i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing/imagedata/chromakey/
@@ -14,11 +16,11 @@ Definierar färgvärdet för bilden som kommer att behandlas som transparent.
 public Color ChromaKey { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är 0.
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar en forms bilddata.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

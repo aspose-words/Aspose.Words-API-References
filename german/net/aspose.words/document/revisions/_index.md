@@ -1,7 +1,9 @@
 ---
 title: Document.Revisions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft eine Sammlung von Revisionen nachverfolgten Änderungen ab die in diesem Dokument vorhanden sind.
+linktitle: Revisions
+articleTitle: Revisions
+second_title: Aspose.Words für .NET
+description: Document Revisions eigendom. Ruft eine Sammlung von Revisionen nachverfolgten Änderungen ab die in diesem Dokument vorhanden sind in C#.
 type: docs
 weight: 350
 url: /de/net/aspose.words/document/revisions/
@@ -14,11 +16,11 @@ Ruft eine Sammlung von Revisionen (nachverfolgten Änderungen) ab, die in diesem
 public RevisionCollection Revisions { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die zurückgegebene Sammlung ist eine „Live“-Sammlung. Das heißt, wenn Sie Teile eines Dokuments entfernen, die Revisionen enthalten, verschwinden die gelöschten Revisionen automatisch aus dieser Sammlung.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Revisionen in einem Dokument gearbeitet wird.
 
@@ -102,7 +104,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [RevisionCollection](../../revisioncollection/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

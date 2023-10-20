@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageFileName
-second_title: Aspose.Words لمراجع .NET API
-description: ImageFieldMergingArgs ملكية. يعين اسم ملف الصورة التي يجب على محرك دمج المراسلات إدراجها في المستند.
+linktitle: ImageFileName
+articleTitle: ImageFileName
+second_title: Aspose.Words لـ .NET
+description: ImageFieldMergingArgs ImageFileName ملكية. يعين اسم ملف الصورة التي يجب على محرك دمج المراسلات إدراجها في المستند في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.mailmerging/imagefieldmergingargs/imagefilename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/imagefieldmergingargs/imagefilename/
 public string ImageFileName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين أبعاد الصور كما يقبلها MERGEFIELDS أثناء دمج البريد.
 
@@ -84,7 +86,5 @@ private class MergedImageResizer : IFieldMergingCallback
 ### أنظر أيضا
 
 * class [ImageFieldMergingArgs](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

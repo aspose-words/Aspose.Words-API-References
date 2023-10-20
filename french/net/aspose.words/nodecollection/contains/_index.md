@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Contains
-second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeCollection méthode. Détermine si un nœud fait partie de la collection.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words pour .NET
+description: NodeCollection Contains méthode. Détermine si un nœud fait partie de la collection en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/nodecollection/contains/
@@ -22,11 +24,11 @@ public bool Contains(Node node)
 
 `vrai` si l'article est trouvé dans la collection ; sinon,`FAUX`.
 
-### Remarques
+## Remarques
 
 Cette méthode effectue une recherche linéaire ; par conséquent, le temps d'exécution moyen est proportionnel à[`Count`](../count/).
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec un NodeCollection.
 
@@ -64,7 +66,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* espace de noms [Aspose.Words](../../nodecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

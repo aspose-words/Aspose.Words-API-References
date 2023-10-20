@@ -1,7 +1,9 @@
 ---
 title: Range.Text
-second_title: Aspose.Words för .NET API Referens
-description: Range fast egendom. Hämtar intervallets text.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: Range Text fast egendom. Hämtar intervallets text i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/range/text/
@@ -14,11 +16,11 @@ Hämtar intervallets text.
 public string Text { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den returnerade strängen innehåller alla kontroll- och specialtecken som beskrivs i[`ControlChar`](../../controlchar/).
 
-### Exempel
+## Exempel
 
 Visar hur man får fram textinnehållet för alla noder som ett intervall täcker.
 
@@ -34,7 +36,5 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 ### Se även
 
 * class [Range](../)
-* namnutrymme [Aspose.Words](../../range/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

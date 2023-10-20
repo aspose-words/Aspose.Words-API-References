@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.HorizontalAlignment
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 指定形状如何水平定位
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase HorizontalAlignment 财产. 指定形状如何水平定位 在 C#.
 type: docs
 weight: 220
 url: /zh/net/aspose.words.drawing/shapebase/horizontalalignment/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/shapebase/horizontalalignment/
 public HorizontalAlignment HorizontalAlignment { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为None。
 
 仅对顶级浮动形状有效。
 
-### 例子
+## 例子
 
 演示如何将浮动图像插入到页面中央。
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [HorizontalAlignment](../../horizontalalignment/)
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

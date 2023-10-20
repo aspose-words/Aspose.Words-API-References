@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoSubstitutionRule
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.FontInfoSubstitutionRule klas. SchriftartInfoErsetzungsregel.
+title: FontInfoSubstitutionRule Class
+linktitle: FontInfoSubstitutionRule
+articleTitle: FontInfoSubstitutionRule
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fonts.FontInfoSubstitutionRule klas. SchriftartInfoErsetzungsregel in C#.
 type: docs
 weight: 2940
 url: /de/net/aspose.words.fonts/fontinfosubstitutionrule/
@@ -22,11 +24,11 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Gibt an, ob die Regel aktiviert ist oder nicht. |
 
-### Bemerkungen
+## Bemerkungen
 
 Gemäß dieser Regel wertet Aspose.Words alle zugehörigen Felder in aus[`FontInfo`](../fontinfo/) (Panose, Sig usw.) for die fehlende Schriftart und findet die beste Übereinstimmung unter den verfügbaren Schriftartquellen. Wenn[`FontInfo`](../fontinfo/)Ist die fehlende Schriftart nicht verfügbar, wird nichts unternommen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
 
@@ -88,5 +90,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
-
-

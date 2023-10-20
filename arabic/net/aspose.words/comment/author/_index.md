@@ -1,7 +1,9 @@
 ---
 title: Comment.Author
-second_title: Aspose.Words لمراجع .NET API
-description: Comment ملكية. إرجاع أو تعيين اسم المؤلف للتعليق.
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words لـ .NET
+description: Comment Author ملكية. إرجاع أو تعيين اسم المؤلف للتعليق في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/comment/author/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/comment/author/
 public string Author { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن`باطل`.
 
 الافتراضي هو سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة كافة تعليقات المستند والردود عليها.
 
@@ -46,7 +48,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 ### أنظر أيضا
 
 * class [Comment](../)
-* مساحة الاسم [Aspose.Words](../../comment/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreFootnotes
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. 获取或设置一个布尔值指示是否忽略脚注 默认值为错误的.
+linktitle: IgnoreFootnotes
+articleTitle: IgnoreFootnotes
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions IgnoreFootnotes 财产. 获取或设置一个布尔值指示是否忽略脚注 默认值为错误的 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/
 public bool IgnoreFootnotes { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在查找和替换操作期间忽略脚注。
 
@@ -41,7 +43,5 @@ doc.Range.Replace("Lorem ipsum", "Replaced Lorem ipsum", options);
 ### 也可以看看
 
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

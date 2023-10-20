@@ -1,7 +1,9 @@
 ---
 title: TabStop.IsClear
-second_title: Referencia de API de Aspose.Words para .NET
-description: TabStop propiedad. Devolucionesverdadero si esta tabulación borra cualquier tabulación existente en esta posición.
+linktitle: IsClear
+articleTitle: IsClear
+second_title: Aspose.Words para .NET
+description: TabStop IsClear propiedad. Devolucionesverdadero si esta tabulación borra cualquier tabulación existente en esta posición en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/tabstop/isclear/
@@ -14,7 +16,7 @@ Devoluciones`verdadero` si esta tabulación borra cualquier tabulación existent
 public bool IsClear { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con la colección de tabulaciones de un documento.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Ver también
 
 * class [TabStop](../)
-* espacio de nombres [Aspose.Words](../../tabstop/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

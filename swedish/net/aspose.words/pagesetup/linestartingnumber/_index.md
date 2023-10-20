@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineStartingNumber
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Hämtar eller ställer in startlinjenumret.
+linktitle: LineStartingNumber
+articleTitle: LineStartingNumber
+second_title: Aspose.Words för .NET
+description: PageSetup LineStartingNumber fast egendom. Hämtar eller ställer in startlinjenumret i C#.
 type: docs
 weight: 250
 url: /sv/net/aspose.words/pagesetup/linestartingnumber/
@@ -14,7 +16,7 @@ Hämtar eller ställer in startlinjenumret.
 public int LineStartingNumber { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man aktiverar radnumrering för en sektion.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

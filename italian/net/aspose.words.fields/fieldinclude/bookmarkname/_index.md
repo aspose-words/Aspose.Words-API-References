@@ -1,7 +1,9 @@
 ---
 title: FieldInclude.BookmarkName
-second_title: Aspose.Words per .NET API Reference
-description: FieldInclude proprietà. Ottiene o imposta il nome del segnalibro nel documento da includere.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words per .NET
+description: FieldInclude BookmarkName proprietà. Ottiene o imposta il nome del segnalibro nel documento da includere in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldinclude/bookmarkname/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del segnalibro nel documento da includere.
 public string BookmarkName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un campo INCLUDE e impostarne le proprietà.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### Guarda anche
 
 * class [FieldInclude](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldinclude/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

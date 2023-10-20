@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.WarningCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBase свойство. Вызывается во время различных процедур обработки документов при обнаружении проблемы которая может привести к потере данных или точности форматирования.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words для .NET
+description: DocumentBase WarningCallback свойство. Вызывается во время различных процедур обработки документов при обнаружении проблемы которая может привести к потере данных или точности форматирования на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/documentbase/warningcallback/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/documentbase/warningcallback/
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Документ может генерировать предупреждения на любом этапе своего существования, поэтому важно настроить обратный вызов с предупреждением как как можно раньше, чтобы избежать потери предупреждений. Например, такие свойства, как[`PageCount`](../../document/pagecount/) фактически создает макет документа, который позже используется для рендеринга, и предупреждения о макете могут быть потеряны, если обратный вызов предупреждения указан только для вызовов рендеринга позже.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать интерфейс IWarningCallback для отслеживания предупреждений о подмене шрифтов.
 
@@ -127,7 +129,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * interface [IWarningCallback](../../iwarningcallback/)
 * class [DocumentBase](../)
-* пространство имен [Aspose.Words](../../documentbase/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

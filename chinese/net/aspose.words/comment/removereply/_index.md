@@ -1,9 +1,11 @@
 ---
 title: Comment.RemoveReply
-second_title: Aspose.Words for .NET API 参考
-description: Comment 方法. 删除对此评论的指定回复
+linktitle: RemoveReply
+articleTitle: RemoveReply
+second_title: 用于 .NET 的 Aspose.Words
+description: Comment RemoveReply 方法. 删除对此评论的指定回复 在 C#.
 type: docs
-weight: 170
+weight: 140
 url: /zh/net/aspose.words/comment/removereply/
 ---
 ## Comment.RemoveReply method
@@ -18,11 +20,11 @@ public void RemoveReply(Comment reply)
 | --- | --- | --- |
 | reply | Comment | 删除回复的评论节点。 |
 
-### 评论
+## 评论
 
 回复的所有组成节点都将从文档中删除。
 
-### 例子
+## 例子
 
 显示如何删除评论回复。
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 ### 也可以看看
 
 * class [Comment](../)
-* 命名空间 [Aspose.Words](../../comment/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

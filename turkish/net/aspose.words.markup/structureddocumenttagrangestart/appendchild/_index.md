@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.AppendChild
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart yöntem. Belirtilen düğümü stdContent aralığının sonuna ekler.
+linktitle: AppendChild
+articleTitle: AppendChild
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagRangeStart AppendChild yöntem. Belirtilen düğümü stdContent aralığının sonuna ekler C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/appendchild/
@@ -26,7 +28,5 @@ Düğüm eklendi.
 
 * class [Node](../../../aspose.words/node/)
 * class [StructuredDocumentTagRangeStart](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

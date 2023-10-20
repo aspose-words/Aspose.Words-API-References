@@ -1,12 +1,14 @@
 ---
 title: ImageData.Save
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData yöntem. Görüntüyü belirtilen akışa kaydeder.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words for .NET
+description: ImageData Save yöntem. Görüntüyü belirtilen akışa kaydeder C#'da.
 type: docs
-weight: 200
+weight: 190
 url: /tr/net/aspose.words.drawing/imagedata/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Görüntüyü belirtilen akışa kaydeder.
 
@@ -18,11 +20,11 @@ public void Save(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Görüntünün kaydedileceği akış. |
 
-### Notlar
+## Notlar
 
 Akış nesnesini elden çıkarmak arayanın sorumluluğunda mıdır?
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm görüntülerin dosya sistemine nasıl kaydedileceğini gösterir.
 
@@ -55,12 +57,12 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Görüntüyü bir dosyaya kaydeder.
 
@@ -72,7 +74,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Görüntünün kaydedileceği dosya adı. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeden görüntülerin nasıl çıkarılacağını ve bunların yerel dosya sistemine ayrı dosyalar olarak nasıl kaydedileceğini gösterir.
 
@@ -103,7 +105,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

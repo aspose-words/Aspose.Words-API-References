@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Font
-second_title: Aspose.Words per .NET API Reference
-description: InlineStory proprietà. Fornisce laccesso alla formattazione del carattere del carattere di ancoraggio di questo oggetto.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words per .NET
+description: InlineStory Font proprietà. Fornisce laccesso alla formattazione del carattere del carattere di ancoraggio di questo oggetto in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/inlinestory/font/
@@ -14,7 +16,7 @@ Fornisce l'accesso alla formattazione del carattere del carattere di ancoraggio 
 public Font Font { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire i nodi InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Font](../../font/)
 * class [InlineStory](../)
-* spazio dei nomi [Aspose.Words](../../inlinestory/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

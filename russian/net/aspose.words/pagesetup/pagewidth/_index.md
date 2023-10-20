@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageWidth
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Возвращает или задает ширину страницы в пунктах.
+linktitle: PageWidth
+articleTitle: PageWidth
+second_title: Aspose.Words для .NET
+description: PageSetup PageWidth свойство. Возвращает или задает ширину страницы в пунктах на С#.
 type: docs
 weight: 340
 url: /ru/net/aspose.words/pagesetup/pagewidth/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/pagewidth/
 public double PageWidth { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить изображение и использовать его в качестве водяного знака.
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

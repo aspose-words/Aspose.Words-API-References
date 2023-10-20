@@ -1,7 +1,9 @@
 ---
 title: Border.Color
-second_title: Aspose.Words for .NET API Referansı
-description: Border mülk. Kenarlık rengini alır veya ayarlar.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words for .NET
+description: Border Color mülk. Kenarlık rengini alır veya ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/border/color/
@@ -14,7 +16,7 @@ Kenarlık rengini alır veya ayarlar.
 public Color Color { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kenarlıkla çevrelenmiş bir dizenin belgeye nasıl ekleneceğini gösterir.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ### Ayrıca bakınız
 
 * class [Border](../)
-* ad alanı [Aspose.Words](../../border/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

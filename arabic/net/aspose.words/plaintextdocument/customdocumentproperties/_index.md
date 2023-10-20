@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.CustomDocumentProperties
-second_title: Aspose.Words لمراجع .NET API
-description: PlainTextDocument ملكية. يحصلCustomDocumentProperties من الوثيقة.
+linktitle: CustomDocumentProperties
+articleTitle: CustomDocumentProperties
+second_title: Aspose.Words لـ .NET
+description: PlainTextDocument CustomDocumentProperties ملكية. يحصلCustomDocumentProperties من الوثيقة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/plaintextdocument/customdocumentproperties/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/plaintextdocument/customdocumentproperties/
 public CustomDocumentProperties CustomDocumentProperties { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحميل محتويات مستند Microsoft Word بنص عادي ثم الوصول إلى الخصائص المخصصة للمستند الأصلي.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("123 Main St, London, UK", plaintext.CustomDocumentProperties["L
 
 * class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
 * class [PlainTextDocument](../)
-* مساحة الاسم [Aspose.Words](../../plaintextdocument/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

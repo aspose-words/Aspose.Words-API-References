@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: TabStopCollection eigendom. Ruft die Anzahl der Tabstopps in der Sammlung ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: TabStopCollection Count eigendom. Ruft die Anzahl der Tabstopps in der Sammlung ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/tabstopcollection/count/
@@ -14,7 +16,7 @@ Ruft die Anzahl der Tabstopps in der Sammlung ab.
 public int Count { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Sammlung von Tabstopps eines Dokuments gearbeitet wird.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Siehe auch
 
 * class [TabStopCollection](../)
-* namensraum [Aspose.Words](../../tabstopcollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

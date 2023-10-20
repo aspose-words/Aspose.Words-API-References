@@ -1,7 +1,9 @@
 ---
-title: Enum FieldType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.FieldType 枚举. 指定 Microsoft Word 字段类型
+title: FieldType Enum
+linktitle: FieldType
+articleTitle: FieldType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.FieldType 枚举. 指定 Microsoft Word 字段类型 在 C#.
 type: docs
 weight: 2540
 url: /zh/net/aspose.words.fields/fieldtype/
@@ -116,7 +118,7 @@ public enum FieldType
 | FieldUserInitials | `61` | 指定 USERINITIALS 字段。 |
 | FieldUserName | `60` | 指定 USERNAME 字段。 |
 
-### 例子
+## 例子
 
 演示如何使用域代码将域插入到文档中。
 
@@ -163,5 +165,3 @@ field.Update();
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

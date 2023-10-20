@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CellFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Возвращает объект который представляет свойства форматирования текущей ячейки таблицы.
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: Aspose.Words для .NET
+description: DocumentBuilder CellFormat свойство. Возвращает объект который представляет свойства форматирования текущей ячейки таблицы на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/documentbuilder/cellformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/documentbuilder/cellformat/
 public CellFormat CellFormat { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать ячейки с помощью построителя документов.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [CellFormat](../../../aspose.words.tables/cellformat/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

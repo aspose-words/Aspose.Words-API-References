@@ -1,7 +1,9 @@
 ---
-title: Enum ReplaceAction
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Replacing.ReplaceAction uppräkning. Tillåter användaren att ange vad som händer med den aktuella matchningen under en ersättningsoperation.
+title: ReplaceAction Enum
+linktitle: ReplaceAction
+articleTitle: ReplaceAction
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Replacing.ReplaceAction uppräkning. Tillåter användaren att ange vad som händer med den aktuella matchningen under en ersättningsoperation i C#.
 type: docs
 weight: 4640
 url: /sv/net/aspose.words.replacing/replaceaction/
@@ -22,7 +24,7 @@ public enum ReplaceAction
 | Skip | `1` | Hoppa över den aktuella matchningen. |
 | Stop | `2` | Avsluta ersättningsoperationen. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett helt dokuments innehåll som ersättning för en matchning i en sök-och-ersätt-operation.
 
@@ -100,5 +102,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * method [Replace](../../aspose.words/range/replace/)
 * namnutrymme [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../)
-
-

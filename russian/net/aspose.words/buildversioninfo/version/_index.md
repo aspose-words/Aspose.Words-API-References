@@ -1,7 +1,9 @@
 ---
 title: BuildVersionInfo.Version
-second_title: Справочник по API Aspose.Words для .NET
-description: BuildVersionInfo свойство. Получает версию продукта.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words для .NET
+description: BuildVersionInfo Version свойство. Получает версию продукта на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/buildversioninfo/version/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/buildversioninfo/version/
 public static string Version { get; }
 ```
 
-### Примечания
+## Примечания
 
 Версия продукта имеет формат Major.Minor.Hotfix.0.
 
-### Примеры
+## Примеры
 
 Показывает, как отобразить информацию об установленной версии Aspose.Words.
 
@@ -29,7 +31,5 @@ Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version num
 ### Смотрите также
 
 * class [BuildVersionInfo](../)
-* пространство имен [Aspose.Words](../../buildversioninfo/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

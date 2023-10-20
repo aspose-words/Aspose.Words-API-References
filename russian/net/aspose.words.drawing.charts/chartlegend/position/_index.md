@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.Position
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartLegend свойство. Указывает положение легенды на диаграмме. Значение по умолчаниюRight .
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words для .NET
+description: ChartLegend Position свойство. Указывает положение легенды на диаграмме. Значение по умолчаниюRight  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartlegend/position/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartlegend/position/
 public LegendPosition Position { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид легенды диаграммы.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * enum [LegendPosition](../../legendposition/)
 * class [ChartLegend](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

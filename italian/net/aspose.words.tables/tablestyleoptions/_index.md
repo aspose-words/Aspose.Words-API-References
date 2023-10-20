@@ -1,7 +1,9 @@
 ---
-title: Enum TableStyleOptions
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Tables.TableStyleOptions enum. Specifica la modalità di applicazione dello stile tabella a una tabella.
+title: TableStyleOptions Enum
+linktitle: TableStyleOptions
+articleTitle: TableStyleOptions
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Tables.TableStyleOptions enum. Specifica la modalità di applicazione dello stile tabella a una tabella in C#.
 type: docs
 weight: 6370
 url: /it/net/aspose.words.tables/tablestyleoptions/
@@ -29,7 +31,7 @@ public enum TableStyleOptions
 | Default2003 | `600` | Viene applicata la suddivisione di righe e colonne. Questa è l'impostazione predefinita di Microsoft Word per i vecchi formati come DOC, WML e RTF. |
 | Default | `2A0` | Queste sono le impostazioni predefinite di Microsoft Word. |
 
-### Esempi
+## Esempi
 
 Mostra come creare una nuova tabella durante l'applicazione di uno stile.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 * property [StyleOptions](../table/styleoptions/)
 * spazio dei nomi [Aspose.Words.Tables](../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../)
-
-

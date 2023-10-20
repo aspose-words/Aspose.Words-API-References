@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.BookmarksOutlineLevels
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OutlineOptions propriété. Permet de spécifier le niveau de présentation des signets individuels.
+linktitle: BookmarksOutlineLevels
+articleTitle: BookmarksOutlineLevels
+second_title: Aspose.Words pour .NET
+description: OutlineOptions BookmarksOutlineLevels propriété. Permet de spécifier le niveau de présentation des signets individuels en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
@@ -14,11 +16,11 @@ Permet de spécifier le niveau de présentation des signets individuels.
 public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
 ```
 
-### Remarques
+## Remarques
 
 Si le niveau de signet n'est pas spécifié dans cette collection, alors[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel/) la valeur est utilisée.
 
-### Exemples
+## Exemples
 
 Montre comment définir les niveaux de plan pour les signets.
 
@@ -77,7 +79,5 @@ outlineLevels.Clear();
 
 * class [BookmarksOutlineLevelCollection](../../bookmarksoutlinelevelcollection/)
 * class [OutlineOptions](../)
-* espace de noms [Aspose.Words.Saving](../../outlineoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.OptimizeOutput
-second_title: Aspose.Words for .NET API Referansı
-description: FixedPageSaveOptions mülk. Bayrak çıktıyı optimize etmenin gerekli olup olmadığını belirtir. Bu bayrak ayarlanırsa yedekli iç içe tuvaller ve boş tuvaller kaldırılır ayrıca aynı biçimlendirmeye sahip komşu glifler birleştirilir. Not Aşağıdaki durumlarda içerik görüntüsünün doğruluğu etkilenebilir bu özellik şu şekilde ayarlandıdoğru . VarsayılanYANLIŞ .
+linktitle: OptimizeOutput
+articleTitle: OptimizeOutput
+second_title: Aspose.Words for .NET
+description: FixedPageSaveOptions OptimizeOutput mülk. Bayrak çıktıyı optimize etmenin gerekli olup olmadığını belirtir. Bu bayrak ayarlanırsa yedekli iç içe tuvaller ve boş tuvaller kaldırılır ayrıca aynı biçimlendirmeye sahip komşu glifler birleştirilir. Not Aşağıdaki durumlarda içerik görüntüsünün doğruluğu etkilenebilir bu özellik şu şekilde ayarlandıdoğru . VarsayılanYANLIŞ  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/
@@ -14,7 +16,7 @@ Bayrak, çıktıyı optimize etmenin gerekli olup olmadığını belirtir. Bu ba
 public virtual bool OptimizeOutput { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Xps'e kaydederken belge nesnelerinin nasıl optimize edileceğini gösterir.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OptimizeOutput.xps", saveOptions);
 ### Ayrıca bakınız
 
 * class [FixedPageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

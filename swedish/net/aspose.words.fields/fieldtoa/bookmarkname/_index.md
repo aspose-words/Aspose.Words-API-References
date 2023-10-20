@@ -1,7 +1,9 @@
 ---
 title: FieldToa.BookmarkName
-second_title: Aspose.Words för .NET API Referens
-description: FieldToa fast egendom. Hämtar eller ställer in namnet på bokmärket som markerar den del av dokumentet som används för att bygga tabellen.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words för .NET
+description: FieldToa BookmarkName fast egendom. Hämtar eller ställer in namnet på bokmärket som markerar den del av dokumentet som används för att bygga tabellen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldtoa/bookmarkname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på bokmärket som markerar den del av dokument
 public string BookmarkName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bygger och anpassar en tabell över myndigheter med hjälp av TOA- och TA-fält.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Se även
 
 * class [FieldToa](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtoa/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

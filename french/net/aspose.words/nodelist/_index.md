@@ -1,7 +1,9 @@
 ---
-title: Class NodeList
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.NodeList classe. Représente une collection de nœuds correspondant à une requête XPath exécutée à laide duSelectNodes méthode.
+title: NodeList Class
+linktitle: NodeList
+articleTitle: NodeList
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.NodeList classe. Représente une collection de nœuds correspondant à une requête XPath exécutée à laide duSelectNodes méthode en C#.
 type: docs
 weight: 4220
 url: /fr/net/aspose.words/nodelist/
@@ -30,7 +32,7 @@ public class NodeList : IEnumerable<Node>
 | [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Fournit une simple itération de style "foreach" sur la collection de nœuds. |
 | [ToArray](../../aspose.words/nodelist/toarray/)() | Copie tous les nœuds de la collection vers un nouveau tableau de nœuds. |
 
-### Remarques
+## Remarques
 
 `NodeList` est renvoyé par[`SelectNodes`](../compositenode/selectnodes/) et contient une collection de nœuds correspondant à la requête XPath.
 
@@ -38,7 +40,7 @@ public class NodeList : IEnumerable<Node>
 
 Traitez le`NodeList` collection sous forme de collection « instantané ».`NodeList`start en tant que collection "live" car les nœuds ne sont pas réellement récupérés lorsque la requête XPath est exécutée. Les nœuds ne sont récupérés qu'à l'accès et à ce moment, le nœud et tous les nœuds qui le précèdent sont mis en cache pour former une collection "instantané".
 
-### Exemples
+## Exemples
 
 Montre comment rechercher tous les liens hypertexte dans un document Word, puis modifier leurs URL et leurs noms d’affichage.
 
@@ -257,5 +259,3 @@ namespace ApiExamples
 * class [Node](../node/)
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

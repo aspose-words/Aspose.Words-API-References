@@ -1,7 +1,9 @@
 ---
 title: Table.RelativeHorizontalAlignment
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Ottiene o imposta lallineamento orizzontale relativo della tabella mobile.
+linktitle: RelativeHorizontalAlignment
+articleTitle: RelativeHorizontalAlignment
+second_title: Aspose.Words per .NET
+description: Table RelativeHorizontalAlignment proprietà. Ottiene o imposta lallineamento orizzontale relativo della tabella mobile in C#.
 type: docs
 weight: 230
 url: /it/net/aspose.words.tables/table/relativehorizontalalignment/
@@ -14,7 +16,7 @@ Ottiene o imposta l'allineamento orizzontale relativo della tabella mobile.
 public HorizontalAlignment RelativeHorizontalAlignment { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la posizione delle tabelle mobili.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

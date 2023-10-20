@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.MatchCase
-second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. يشير True إلى مقارنة حساسة لحالة الأحرف ويشير false إلى مقارنة حساسة لحالة الأحرف.
+linktitle: MatchCase
+articleTitle: MatchCase
+second_title: Aspose.Words لـ .NET
+description: FindReplaceOptions MatchCase ملكية. يشير True إلى مقارنة حساسة لحالة الأحرف ويشير false إلى مقارنة حساسة لحالة الأحرف في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.replacing/findreplaceoptions/matchcase/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.replacing/findreplaceoptions/matchcase/
 public bool MatchCase { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تبديل حساسية حالة الأحرف عند إجراء عملية البحث والاستبدال.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade
 ### أنظر أيضا
 
 * class [FindReplaceOptions](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../findreplaceoptions/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

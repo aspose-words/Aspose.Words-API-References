@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.MatchNode
-second_title: Справочник по API Aspose.Words для .NET
-description: ReplacingArgs свойство. Получает узел содержащий начало совпадения.
+linktitle: MatchNode
+articleTitle: MatchNode
+second_title: Aspose.Words для .NET
+description: ReplacingArgs MatchNode свойство. Получает узел содержащий начало совпадения на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.replacing/replacingargs/matchnode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.replacing/replacingargs/matchnode/
 public Node MatchNode { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить содержимое всего документа в качестве замены совпадения в операции поиска и замены.
 
@@ -89,7 +91,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * class [Node](../../../aspose.words/node/)
 * class [ReplacingArgs](../)
-* пространство имен [Aspose.Words.Replacing](../../replacingargs/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Section.Body
-second_title: Referencia de API de Aspose.Words para .NET
-description: Section propiedad. Devuelve elBody nodo hijo de la sección.
+linktitle: Body
+articleTitle: Body
+second_title: Aspose.Words para .NET
+description: Section Body propiedad. Devuelve elBody nodo hijo de la sección en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/section/body/
@@ -14,13 +16,13 @@ Devuelve el[`Body`](../../body/) nodo hijo de la sección.
 public Body Body { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 [`Body`](../../body/) contiene el texto principal de la sección.
 
 Devoluciones`nulo` si la sección no tiene un[`Body`](../../body/) nodo entre sus hijos.
 
-### Ejemplos
+## Ejemplos
 
 Borra el texto principal de todas las secciones del documento, dejando las secciones mismas.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Body](../../body/)
 * class [Section](../)
-* espacio de nombres [Aspose.Words](../../section/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

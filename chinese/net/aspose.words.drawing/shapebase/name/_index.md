@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Name
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 获取或设置可选形状名称
+linktitle: Name
+articleTitle: Name
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase Name 财产. 获取或设置可选形状名称 在 C#.
 type: docs
 weight: 400
 url: /zh/net/aspose.words.drawing/shapebase/name/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/shapebase/name/
 public string Name { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认为空字符串。
 
 不可能是`无效的`，但可以是空字符串。
 
-### 例子
+## 例子
 
 演示如何使用形状的替代文本。
 
@@ -44,7 +46,5 @@ File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

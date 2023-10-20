@@ -1,7 +1,9 @@
 ---
-title: Enum Underline
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Underline énumération. Indique le type de soulignement appliqué à une police.
+title: Underline Enum
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Underline énumération. Indique le type de soulignement appliqué à une police en C#.
 type: docs
 weight: 6510
 url: /fr/net/aspose.words/underline/
@@ -37,7 +39,7 @@ public enum Underline
 | WavyHeavy | `27` |  |
 | WavyDouble | `43` |  |
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ de lien hypertexte.
 
@@ -63,5 +65,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

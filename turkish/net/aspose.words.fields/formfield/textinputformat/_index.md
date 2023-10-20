@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputFormat
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Metin form alanı için metin formatını döndürür veya ayarlar.
+linktitle: TextInputFormat
+articleTitle: TextInputFormat
+second_title: Aspose.Words for .NET
+description: FormField TextInputFormat mülk. Metin form alanı için metin formatını döndürür veya ayarlar C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words.fields/formfield/textinputformat/
@@ -14,7 +16,7 @@ Metin form alanı için metin formatını döndürür veya ayarlar.
 public string TextInputFormat { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Metin formu alanı normal metin içeriyorsa, geçerli biçim dizeleri şunlardır: "", "BÜYÜK HARF", "KÜÇÜK HARF", "İLK BÜYÜK HARF" ve "BAŞLIK HARFİ". strings büyük/küçük harfe duyarlı değildir.
 
@@ -22,7 +24,7 @@ Metin formu alanı bir sayı veya tarih/saat değeri içeriyorsa valid biçim di
 
 Microsoft Word, en fazla 64 karakterden oluşan dizelere izin verir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

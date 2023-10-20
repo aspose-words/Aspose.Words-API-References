@@ -1,7 +1,9 @@
 ---
 title: FieldIf.TrueText
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIf свойство. Получает или задает текст отображаемый если выражение сравнения истинно.
+linktitle: TrueText
+articleTitle: TrueText
+second_title: Aspose.Words для .NET
+description: FieldIf TrueText свойство. Получает или задает текст отображаемый если выражение сравнения истинно на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldif/truetext/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldif/truetext/
 public string TrueText { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле ЕСЛИ.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### Смотрите также
 
 * class [FieldIf](../)
-* пространство имен [Aspose.Words.Fields](../../fieldif/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTagRangeStart.StructuredDocumentTagRangeStart
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart constructeur. Initialisiert eine neue Instanz von Strukturierter DokumentTagBereichsanfang Klasse.
+title: StructuredDocumentTagRangeStart
+linktitle: StructuredDocumentTagRangeStart
+articleTitle: StructuredDocumentTagRangeStart
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTagRangeStart constructeur. Initialisiert eine neue Instanz vonStrukturierter DokumentTagBereichsanfang Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart constructor
 
-Initialisiert eine neue Instanz von **Strukturierter Dokument-Tag-Bereichsanfang** Klasse.
+Initialisiert eine neue Instanz von**Strukturierter Dokument-Tag-Bereichsanfang** Klasse.
 
 ```csharp
 public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
@@ -19,7 +21,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 | doc | DocumentBase | Das Eigentümerdokument. |
 | type | SdtType | Typ des SDT-Knotens. |
 
-### Bemerkungen
+## Bemerkungen
 
 Die folgenden Arten von SDT können erstellt werden:
 
@@ -33,7 +35,7 @@ Die folgenden Arten von SDT können erstellt werden:
 * RichText
 * PlainText
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie strukturierte Dokument-Tags und deren Inhalt erstellt/entfernt werden.
 
@@ -87,7 +89,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [SdtType](../../sdttype/)
 * class [StructuredDocumentTagRangeStart](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

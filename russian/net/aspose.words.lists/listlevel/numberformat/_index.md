@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevel свойство. Возвращает или устанавливает числовой формат для уровня списка.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words для .NET
+description: ListLevel NumberFormat свойство. Возвращает или устанавливает числовой формат для уровня списка на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.lists/listlevel/numberformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.lists/listlevel/numberformat/
 public string NumberFormat { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Среди обычных текстовых символов строка может содержать символы-заполнители от \x0000 до \x0008 , представляющие числа из соответствующих уровней списка.
 
@@ -22,7 +24,7 @@ public string NumberFormat { get; set; }
 
 Значение NULL недопустимо, но пустая строка означает, что ни одно число не является допустимым.
 
-### Примеры
+## Примеры
 
 Показывает, как применить пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
 
@@ -137,7 +139,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### Смотрите также
 
 * class [ListLevel](../)
-* пространство имен [Aspose.Words.Lists](../../listlevel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

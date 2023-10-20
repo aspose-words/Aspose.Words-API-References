@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Title
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحدد الاسم المألوف المرتبط بهذا المعاملة الخاصة والتفضيلية . لا يمكن أن يكونباطل .
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag Title ملكية. يحدد الاسم المألوف المرتبط بهذاالمعاملة الخاصة والتفضيلية . لا يمكن أن يكونباطل  في C#.
 type: docs
 weight: 290
 url: /ar/net/aspose.words.markup/structureddocumenttag/title/
 ---
 ## StructuredDocumentTag.Title property
 
-يحدد الاسم المألوف المرتبط بهذا **المعاملة الخاصة والتفضيلية** . لا يمكن أن يكون`باطل` .
+يحدد الاسم المألوف المرتبط بهذا**المعاملة الخاصة والتفضيلية** . لا يمكن أن يكون`باطل` .
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة في مربع نص عادي وتعديل مظهرها.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

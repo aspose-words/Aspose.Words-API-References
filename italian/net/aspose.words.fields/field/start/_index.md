@@ -1,7 +1,9 @@
 ---
 title: Field.Start
-second_title: Aspose.Words per .NET API Reference
-description: Field proprietà. Ottiene il nodo che rappresenta linizio del campo.
+linktitle: Start
+articleTitle: Start
+second_title: Aspose.Words per .NET
+description: Field Start proprietà. Ottiene il nodo che rappresenta linizio del campo in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.fields/field/start/
@@ -14,7 +16,7 @@ Ottiene il nodo che rappresenta l'inizio del campo.
 public FieldStart Start { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con una raccolta di campi.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldStart](../../fieldstart/)
 * class [Field](../)
-* spazio dei nomi [Aspose.Words.Fields](../../field/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

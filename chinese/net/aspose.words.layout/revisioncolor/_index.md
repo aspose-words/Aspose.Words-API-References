@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionColor
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Layout.RevisionColor 枚举. 允许指定文档修订的颜色
+title: RevisionColor Enum
+linktitle: RevisionColor
+articleTitle: RevisionColor
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Layout.RevisionColor 枚举. 允许指定文档修订的颜色 在 C#.
 type: docs
 weight: 3380
 url: /zh/net/aspose.words.layout/revisioncolor/
@@ -40,7 +42,7 @@ public enum RevisionColor
 | NoHighlight | `19` | 没有使用颜色来突出显示修订版本更改。 |
 | ByAuthor | `20` | 每个作者的修订都会收到自己的颜色，用于从一组预定义的高对比度颜色中突出显示。 |
 
-### 例子
+## 例子
 
 演示如何更改渲染输出文档中修订的外观。
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * 命名空间 [Aspose.Words.Layout](../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../)
-
-

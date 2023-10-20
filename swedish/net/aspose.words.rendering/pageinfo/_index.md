@@ -1,7 +1,9 @@
 ---
-title: Class PageInfo
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Rendering.PageInfo klass. Representerar information om en viss dokumentsida.
+title: PageInfo Class
+linktitle: PageInfo
+articleTitle: PageInfo
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Rendering.PageInfo klass. Representerar information om en viss dokumentsida i C#.
 type: docs
 weight: 4570
 url: /sv/net/aspose.words.rendering/pageinfo/
@@ -32,16 +34,16 @@ public class PageInfo
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | FårPaperSize objekt som är lämpligt för utskrift sidan som representeras av detta`PageInfo` . |
-| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(float, float) | Beräknar sidstorleken i pixlar för en angiven zoomfaktor och upplösning. |
-| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | Beräknar sidstorleken i pixlar för en angiven zoomfaktor och upplösning. |
-| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | FårPaperSource objekt som är lämpligt för utskrift sidan som representeras av detta`PageInfo` . |
+| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(*PaperSizeCollection*) | FårPaperSize objekt som är lämpligt för utskrift sidan som representeras av detta`PageInfo` . |
+| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(*float, float*) | Beräknar sidstorleken i pixlar för en angiven zoomfaktor och upplösning. |
+| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(*float, float, float*) | Beräknar sidstorleken i pixlar för en angiven zoomfaktor och upplösning. |
+| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(*PaperSourceCollection, PaperSource*) | FårPaperSource objekt som är lämpligt för utskrift sidan som representeras av detta`PageInfo` . |
 
-### Anmärkningar
+## Anmärkningar
 
 Sidans bredd och höjd som returneras av detta objekt representerar den "slutliga" storleken på sidan, t.ex. är de redan roterade till korrekt orientering.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut information om sidstorlek och orientering för varje sida i ett Word-dokument.
 
@@ -84,5 +86,3 @@ for (int i = 0; i < doc.PageCount; i++)
 
 * namnutrymme [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../)
-
-

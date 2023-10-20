@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontFamilyName
-second_title: Aspose.Words for .NET API 参考
-description: FontSavingArgs 财产. 表示当前字体系列名称
+linktitle: FontFamilyName
+articleTitle: FontFamilyName
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSavingArgs FontFamilyName 财产. 表示当前字体系列名称 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/fontsavingargs/fontfamilyname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/fontsavingargs/fontfamilyname/
 public string FontFamilyName { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何定义保存为 HTML 时导出字体的自定义逻辑。
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### 也可以看看
 
 * class [FontSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../fontsavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

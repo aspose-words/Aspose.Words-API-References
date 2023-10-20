@@ -1,9 +1,11 @@
 ---
 title: Fill.ImageBytes
-second_title: Aspose.Words per .NET API Reference
-description: Fill proprietà. Ottiene i byte grezzi della trama o del motivo di riempimento.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words per .NET
+description: Fill ImageBytes proprietà. Ottiene i byte grezzi della trama o del motivo di riempimento in C#.
 type: docs
-weight: 140
+weight: 130
 url: /it/net/aspose.words.drawing/fill/imagebytes/
 ---
 ## Fill.ImageBytes property
@@ -14,11 +16,11 @@ Ottiene i byte grezzi della trama o del motivo di riempimento.
 public byte[] ImageBytes { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`nullo`.
 
-### Esempi
+## Esempi
 
 Mostra per creare una varietà di forme.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Guarda anche
 
 * class [Fill](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../fill/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

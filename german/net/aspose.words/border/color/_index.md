@@ -1,7 +1,9 @@
 ---
 title: Border.Color
-second_title: Aspose.Words für .NET-API-Referenz
-description: Border eigendom. Ruft die Rahmenfarbe ab oder legt sie fest.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words für .NET
+description: Border Color eigendom. Ruft die Rahmenfarbe ab oder legt sie fest in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/border/color/
@@ -14,7 +16,7 @@ Ruft die Rahmenfarbe ab oder legt sie fest.
 public Color Color { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine von einem Rahmen umgebene Zeichenfolge in ein Dokument einfügt.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ### Siehe auch
 
 * class [Border](../)
-* namensraum [Aspose.Words](../../border/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

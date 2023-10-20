@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreDeleted
-second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. Получает или задает логическое значение указывающее следует ли игнорировать текст внутри удаляемых ревизий. Значение по умолчаниюЛОЖЬ .
+linktitle: IgnoreDeleted
+articleTitle: IgnoreDeleted
+second_title: Aspose.Words для .NET
+description: FindReplaceOptions IgnoreDeleted свойство. Получает или задает логическое значение указывающее следует ли игнорировать текст внутри удаляемых ревизий. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/
 public bool IgnoreDeleted { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как включать или игнорировать текст внутри редакций удаления во время операции поиска и замены.
 
@@ -53,7 +55,5 @@ Assert.AreEqual(
 ### Смотрите также
 
 * class [FindReplaceOptions](../)
-* пространство имен [Aspose.Words.Replacing](../../findreplaceoptions/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

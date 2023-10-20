@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.DocumentPartSavingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Bir belge HTML veya EPUBa kaydedildiğinde belge bölümlerinin nasıl kaydedileceğini kontrol etmenizi sağlar.
+linktitle: DocumentPartSavingCallback
+articleTitle: DocumentPartSavingCallback
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions DocumentPartSavingCallback mülk. Bir belge HTML veya EPUBa kaydedildiğinde belge bölümlerinin nasıl kaydedileceğini kontrol etmenizi sağlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/
@@ -14,7 +16,7 @@ Bir belge HTML veya EPUB'a kaydedildiğinde belge bölümlerinin nasıl kaydedil
 public IDocumentPartSavingCallback DocumentPartSavingCallback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin nasıl parçalara ayrılacağını ve kaydedileceğini gösterir.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * interface [IDocumentPartSavingCallback](../../idocumentpartsavingcallback/)
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

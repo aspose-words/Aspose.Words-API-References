@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentStory
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Ruft die aktuell ausgewählte Story abDocumentBuilder .
+linktitle: CurrentStory
+articleTitle: CurrentStory
+second_title: Aspose.Words für .NET
+description: DocumentBuilder CurrentStory eigendom. Ruft die aktuell ausgewählte Story abDocumentBuilder  in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/documentbuilder/currentstory/
@@ -14,7 +16,7 @@ Ruft die aktuell ausgewählte Story ab[`DocumentBuilder`](../) .
 public Story CurrentStory { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der aktuellen Story eines Document Builders gearbeitet wird.
 
@@ -44,7 +46,5 @@ Assert.IsTrue(builder.CurrentStory.Tables.Contains(table));
 
 * class [Story](../../story/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

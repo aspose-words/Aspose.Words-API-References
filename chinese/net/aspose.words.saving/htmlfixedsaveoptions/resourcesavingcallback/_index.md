@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ResourceSavingCallback
-second_title: Aspose.Words for .NET API 参考
-description: HtmlFixedSaveOptions 财产. 允许控制当文档导出为固定页面 Html 格式时如何保存资源图像字体和 CSS
+linktitle: ResourceSavingCallback
+articleTitle: ResourceSavingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlFixedSaveOptions ResourceSavingCallback 财产. 允许控制当文档导出为固定页面 Html 格式时如何保存资源图像字体和 CSS 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback/
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用回调来打印在将文档转换为 HTML 时创建的外部资源的 URI。
 
@@ -94,7 +96,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * interface [IResourceSavingCallback](../../iresourcesavingcallback/)
 * class [HtmlFixedSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class BaseWebExtensionCollectionT
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T сорт. Базовый класс дляTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection иWebExtensionReferenceCollection коллекции.
+title: BaseWebExtensionCollectionT Class
+linktitle: BaseWebExtensionCollectionT
+articleTitle: BaseWebExtensionCollectionT
+second_title: Aspose.Words для .NET
+description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T сорт. Базовый класс дляTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection иWebExtensionReferenceCollection коллекции на С#.
 type: docs
 weight: 6700
 url: /ru/net/aspose.words.webextensions/basewebextensioncollection-1/
@@ -32,12 +34,12 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | Добавляет указанный элемент в коллекцию. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*T*) | Добавляет указанный элемент в коллекцию. |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | Удаляет все элементы из коллекции. |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Возвращает перечислитель, который может перебирать коллекцию. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | Удаляет элемент по указанному индексу из коллекции. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) | Удаляет элемент по указанному индексу из коллекции. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией веб-расширений документа.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * пространство имен [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.ScreenTip
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldAutoTextList eigendom. Ruft den Text der anzuzeigenden QuickInfo ab oder legt diesen fest.
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: Aspose.Words für .NET
+description: FieldAutoTextList ScreenTip eigendom. Ruft den Text der anzuzeigenden QuickInfo ab oder legt diesen fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldautotextlist/screentip/
@@ -14,7 +16,7 @@ Ruft den Text der anzuzeigenden QuickInfo ab oder legt diesen fest.
 public string ScreenTip { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein AUTOTEXTLIST-Feld verwendet wird, um aus einer Liste von AutoText-Einträgen auszuwählen.
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### Siehe auch
 
 * class [FieldAutoTextList](../)
-* namensraum [Aspose.Words.Fields](../../fieldautotextlist/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

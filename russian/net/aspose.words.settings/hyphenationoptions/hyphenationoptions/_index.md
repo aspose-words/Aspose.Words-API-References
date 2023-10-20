@@ -1,7 +1,9 @@
 ---
-title: HyphenationOptions.HyphenationOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: HyphenationOptions строитель. Конструктор по умолчанию.
+title: HyphenationOptions
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words для .NET
+description: HyphenationOptions строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.settings/hyphenationoptions/hyphenationoptions/
@@ -17,7 +19,5 @@ public HyphenationOptions()
 ### Смотрите также
 
 * class [HyphenationOptions](../)
-* пространство имен [Aspose.Words.Settings](../../hyphenationoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

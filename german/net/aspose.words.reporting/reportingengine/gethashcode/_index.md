@@ -1,7 +1,9 @@
 ---
 title: ReportingEngine.GetHashCode
-second_title: Aspose.Words für .NET-API-Referenz
-description: ReportingEngine methode. Dient als HashFunktion für diesen Typ.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words für .NET
+description: ReportingEngine GetHashCode methode. Dient als HashFunktion für diesen Typ in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.reporting/reportingengine/gethashcode/
@@ -17,7 +19,5 @@ public int GetHashCode()
 ### Siehe auch
 
 * class [ReportingEngine](../)
-* namensraum [Aspose.Words.Reporting](../../reportingengine/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
-
-

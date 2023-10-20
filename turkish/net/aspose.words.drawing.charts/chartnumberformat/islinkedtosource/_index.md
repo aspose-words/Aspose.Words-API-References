@@ -1,7 +1,9 @@
 ---
 title: ChartNumberFormat.IsLinkedToSource
-second_title: Aspose.Words for .NET API Referansı
-description: ChartNumberFormat mülk. Biçim kodunun bir kaynak hücreye bağlı olup olmadığını belirtir. Varsayılan doğrudur.
+linktitle: IsLinkedToSource
+articleTitle: IsLinkedToSource
+second_title: Aspose.Words for .NET
+description: ChartNumberFormat IsLinkedToSource mülk. Biçim kodunun bir kaynak hücreye bağlı olup olmadığını belirtir. Varsayılan doğrudur C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartnumberformat/islinkedtosource/
@@ -14,11 +16,11 @@ Biçim kodunun bir kaynak hücreye bağlı olup olmadığını belirtir. Varsay�
 public bool IsLinkedToSource { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Format kodu kaynağa bağlanırsa NumberFormat genel olarak sıfırlanacaktır.
 
-### Örnekler
+## Örnekler
 
 Grafik değerleri için biçimlendirmenin nasıl ayarlanacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 ### Ayrıca bakınız
 
 * class [ChartNumberFormat](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartnumberformat/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToa.EntryCategory
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToa mülk. Tabloda yer alan girdilerin integral kategorisini alır veya ayarlar.
+linktitle: EntryCategory
+articleTitle: EntryCategory
+second_title: Aspose.Words for .NET
+description: FieldToa EntryCategory mülk. Tabloda yer alan girdilerin integral kategorisini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldtoa/entrycategory/
@@ -14,7 +16,7 @@ Tabloda yer alan girdilerin integral kategorisini alır veya ayarlar.
 public string EntryCategory { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TOA ve TA alanlarını kullanarak bir yetki tablosunun nasıl oluşturulacağını ve özelleştirileceğini gösterir.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Ayrıca bakınız
 
 * class [FieldToa](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoa/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

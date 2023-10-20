@@ -1,14 +1,16 @@
 ---
-title: Class StructuredDocumentTagRangeEnd
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Markup.StructuredDocumentTagRangeEnd klass. Representerar ett slut på varierade strukturerad dokumenttagg som accepterar innehåll i flera sektioner. Se ävenStructuredDocumentTagRangeStart nod.
+title: StructuredDocumentTagRangeEnd Class
+linktitle: StructuredDocumentTagRangeEnd
+articleTitle: StructuredDocumentTagRangeEnd
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Markup.StructuredDocumentTagRangeEnd klass. Representerar ett slut påvarierade strukturerad dokumenttagg som accepterar innehåll i flera sektioner. Se ävenStructuredDocumentTagRangeStart nod i C#.
 type: docs
 weight: 4080
 url: /sv/net/aspose.words.markup/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd class
 
-Representerar ett slut på **varierade** strukturerad dokumenttagg som accepterar innehåll i flera sektioner. Se även[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) nod.
+Representerar ett slut på**varierade** strukturerad dokumenttagg som accepterar innehåll i flera sektioner. Se även[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) nod.
 
 För att lära dig mer, besök[Strukturerade dokumenttaggar eller innehållskontroll](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokumentationsartikel.
 
@@ -20,7 +22,7 @@ public class StructuredDocumentTagRangeEnd : Node
 
 | namn | Beskrivning |
 | --- | --- |
-| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(DocumentBase, int) | Initierar en ny instans av **Slut på intervall för strukturerade dokumenttaggar** class. |
+| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(*[DocumentBase](../../aspose.words/documentbase/), int*) | Initierar en ny instans av**Slut på intervall för strukturerade dokumenttaggar** class. |
 
 ## Egenskaper
 
@@ -28,7 +30,7 @@ public class StructuredDocumentTagRangeEnd : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
-| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | Anger ett unikt skrivskyddat beständigt numeriskt ID för detta **StructuredDocumentTagRange** node. Motsvarande[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) noden har samma[`Id`](../structureddocumenttagrangestart/id/) . |
+| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | Anger ett unikt skrivskyddat beständigt numeriskt ID för detta**StructuredDocumentTagRange** node. Motsvarande[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) noden har samma[`Id`](../structureddocumenttagrangestart/id/) . |
 | virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar`Sann` om denna nod kan innehålla andra noder. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
 | override [NodeType](../../aspose.words.markup/structureddocumenttagrangeend/nodetype/) { get; } | ReturnerarStructuredDocumentTagRangeEnd . |
@@ -40,22 +42,22 @@ public class StructuredDocumentTagRangeEnd : Node
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept/)(DocumentVisitor) | Accepterar en besökare. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
+| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepterar en besökare. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
 
-### Anmärkningar
+## Anmärkningar
 
-Kan vara omedelbart barn till[`Body`](../../aspose.words/body/) nod **endast** .
+Kan vara omedelbart barn till[`Body`](../../aspose.words/body/) nod**endast** .
 
-### Exempel
+## Exempel
 
 Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
 
@@ -92,5 +94,3 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 * class [Node](../../aspose.words/node/)
 * namnutrymme [Aspose.Words.Markup](../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../)
-
-

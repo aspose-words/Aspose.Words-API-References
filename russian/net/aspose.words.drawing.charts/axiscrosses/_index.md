@@ -1,7 +1,9 @@
 ---
-title: Enum AxisCrosses
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.AxisCrosses перечисление. Указывает возможные точки пересечения оси.
+title: AxisCrosses Enum
+linktitle: AxisCrosses
+articleTitle: AxisCrosses
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.AxisCrosses перечисление. Указывает возможные точки пересечения оси на С#.
 type: docs
 weight: 540
 url: /ru/net/aspose.words.drawing.charts/axiscrosses/
@@ -23,7 +25,7 @@ public enum AxisCrosses
 | Minimum | `2` | Перпендикулярная ось пересекает минимальное значение оси. |
 | Custom | `3` | Перпендикулярная ось пересекает указанное значение оси. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и изменить внешний вид ее осей.
 
@@ -77,5 +79,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

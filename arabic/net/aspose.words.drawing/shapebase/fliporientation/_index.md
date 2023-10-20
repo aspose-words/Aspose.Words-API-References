@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.FlipOrientation
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. تبديل اتجاه الشكل.
+linktitle: FlipOrientation
+articleTitle: FlipOrientation
+second_title: Aspose.Words لـ .NET
+description: ShapeBase FlipOrientation ملكية. تبديل اتجاه الشكل في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.drawing/shapebase/fliporientation/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/shapebase/fliporientation/
 public FlipOrientation FlipOrientation { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيNone.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية قلب الشكل على المحور.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");
 
 * enum [FlipOrientation](../../fliporientation/)
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

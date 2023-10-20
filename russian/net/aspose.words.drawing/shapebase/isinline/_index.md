@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsInline
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Быстрый способ определить расположена ли эта фигура внутри текста.
+linktitle: IsInline
+articleTitle: IsInline
+second_title: Aspose.Words для .NET
+description: ShapeBase IsInline свойство. Быстрый способ определить расположена ли эта фигура внутри текста на С#.
 type: docs
 weight: 290
 url: /ru/net/aspose.words.drawing/shapebase/isinline/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/shapebase/isinline/
 public bool IsInline { get; }
 ```
 
-### Примечания
+## Примечания
 
 Имеет эффект только для фигур верхнего уровня.
 
-### Примеры
+## Примеры
 
 Показывает, как определить, является ли фигура строковой или плавающей.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.IsInline.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

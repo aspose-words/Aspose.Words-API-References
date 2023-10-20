@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.IsSubsettingNeeded
-second_title: Aspose.Words for .NET API 参考
-description: FontSavingArgs 财产. 允许指定在导出为字体资源之前是否对当前字体进行子集化
+linktitle: IsSubsettingNeeded
+articleTitle: IsSubsettingNeeded
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSavingArgs IsSubsettingNeeded 财产. 允许指定在导出为字体资源之前是否对当前字体进行子集化 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/fontsavingargs/issubsettingneeded/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/fontsavingargs/issubsettingneeded/
 public bool IsSubsettingNeeded { get; set; }
 ```
 
-### 评论
+## 评论
 
 字体可以导出为完整的原始字体文件或子集化以仅包含文档中使用的字符 。子集化可以减少生成的字体资源大小。
 
 默认情况下，Aspose.Words 通过将原始字体文件大小 与中指定的大小进行比较来决定是否执行子集化。[`FontResourcesSubsettingSizeThreshold`](../../htmlsaveoptions/fontresourcessubsettingsizethreshold/) 。 您可以通过设置`IsSubsettingNeeded`财产。
 
-### 例子
+## 例子
 
 演示如何定义保存为 HTML 时导出字体的自定义逻辑。
 
@@ -80,7 +82,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### 也可以看看
 
 * class [FontSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../fontsavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

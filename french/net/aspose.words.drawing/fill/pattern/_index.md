@@ -1,9 +1,11 @@
 ---
 title: Fill.Pattern
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill propriété. Obtient unPatternType pour le remplissage.
+linktitle: Pattern
+articleTitle: Pattern
+second_title: Aspose.Words pour .NET
+description: Fill Pattern propriété. Obtient unPatternType pour le remplissage en C#.
 type: docs
-weight: 160
+weight: 150
 url: /fr/net/aspose.words.drawing/fill/pattern/
 ---
 ## Fill.Pattern property
@@ -18,7 +20,5 @@ public PatternType Pattern { get; }
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.TableFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDatabase свойство. Получает или задает формат который будет применен к результату запроса к базе данных.
+linktitle: TableFormat
+articleTitle: TableFormat
+second_title: Aspose.Words для .NET
+description: FieldDatabase TableFormat свойство. Получает или задает формат который будет применен к результату запроса к базе данных на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fields/fielddatabase/tableformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddatabase/tableformat/
 public string TableFormat { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь данные из базы данных и вставить их как поле в документ.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Смотрите также
 
 * class [FieldDatabase](../)
-* пространство имен [Aspose.Words.Fields](../../fielddatabase/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

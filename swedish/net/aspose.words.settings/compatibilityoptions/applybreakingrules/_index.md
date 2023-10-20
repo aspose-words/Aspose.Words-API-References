@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.ApplyBreakingRules
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Använd äldre etiopiska och amhariska linjebrytande regler.
+linktitle: ApplyBreakingRules
+articleTitle: ApplyBreakingRules
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions ApplyBreakingRules fast egendom. Använd äldre etiopiska och amhariska linjebrytande regler i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.settings/compatibilityoptions/applybreakingrules/
@@ -17,7 +19,5 @@ public bool ApplyBreakingRules { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

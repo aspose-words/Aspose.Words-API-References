@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CreateNoteHyperlinks
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfSaveOptions propriété. Spécifie sil faut convertir les références de note de bas de page/note de fin dans lhistoire du texte principal en hyperliens actifs. Lorsque vous cliquez dessus le lien hypertexte mènera à la note de bas de page/note de fin correspondante. La valeur par défaut estFAUX .
+linktitle: CreateNoteHyperlinks
+articleTitle: CreateNoteHyperlinks
+second_title: Aspose.Words pour .NET
+description: PdfSaveOptions CreateNoteHyperlinks propriété. Spécifie sil faut convertir les références de note de bas de page/note de fin dans lhistoire du texte principal en hyperliens actifs. Lorsque vous cliquez dessus le lien hypertexte mènera à la note de bas de page/note de fin correspondante. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
@@ -14,7 +16,7 @@ Spécifie s'il faut convertir les références de note de bas de page/note de fi
 public bool CreateNoteHyperlinks { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment faire en sorte que les notes de bas de page et les notes de fin fonctionnent comme des hyperliens.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.NoteHyperlinks.pdf", options);
 ### Voir également
 
 * class [PdfSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

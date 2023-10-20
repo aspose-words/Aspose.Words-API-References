@@ -1,7 +1,9 @@
 ---
 title: ImageSize.HeightPoints
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSize ملكية. الحصول على ارتفاع الصورة بالنقاط. النقطة الواحدة هي 1/72 بوصة.
+linktitle: HeightPoints
+articleTitle: HeightPoints
+second_title: Aspose.Words لـ .NET
+description: ImageSize HeightPoints ملكية. الحصول على ارتفاع الصورة بالنقاط. النقطة الواحدة هي 1/72 بوصة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/imagesize/heightpoints/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/imagesize/heightpoints/
 public double HeightPoints { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير حجم الشكل باستخدام الصورة.
 
@@ -71,7 +73,5 @@ public double HeightPoints { get; }
 ### أنظر أيضا
 
 * class [ImageSize](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagesize/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

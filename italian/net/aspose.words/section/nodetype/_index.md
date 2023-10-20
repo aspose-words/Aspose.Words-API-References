@@ -1,7 +1,9 @@
 ---
 title: Section.NodeType
-second_title: Aspose.Words per .NET API Reference
-description: Section proprietà. RestituisceSection .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: Section NodeType proprietà. RestituisceSection  in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/section/nodetype/
@@ -14,7 +16,7 @@ RestituisceSection .
 public override NodeType NodeType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come attraversare l'albero dei nodi figlio di un nodo composito.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Section](../)
-* spazio dei nomi [Aspose.Words](../../section/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

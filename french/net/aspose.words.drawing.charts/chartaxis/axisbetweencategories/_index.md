@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.AxisBetweenCategories
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxis propriété. Obtient ou définit un indicateur indiquant si laxe des valeurs croise laxe des catégories entre les catégories.
+linktitle: AxisBetweenCategories
+articleTitle: AxisBetweenCategories
+second_title: Aspose.Words pour .NET
+description: ChartAxis AxisBetweenCategories propriété. Obtient ou définit un indicateur indiquant si laxe des valeurs croise laxe des catégories entre les catégories en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
@@ -14,11 +16,11 @@ Obtient ou définit un indicateur indiquant si l'axe des valeurs croise l'axe de
 public bool AxisBetweenCategories { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La propriété n'a d'effet que pour les axes de valeurs. Il n'est pas pris en charge par les nouveaux graphiques MS Office 2016.
 
-### Exemples
+## Exemples
 
 Montre comment faire croiser un axe graphique à un emplacement personnalisé.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCross.docx");
 ### Voir également
 
 * class [ChartAxis](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

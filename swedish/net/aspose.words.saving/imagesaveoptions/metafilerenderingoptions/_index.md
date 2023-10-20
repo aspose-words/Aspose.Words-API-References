@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.MetafileRenderingOptions
-second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions fast egendom. Tillåter att ange hur metafiler behandlas i den renderade utdata.
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: Aspose.Words för .NET
+description: ImageSaveOptions MetafileRenderingOptions fast egendom. Tillåter att ange hur metafiler behandlas i den renderade utdata i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/
@@ -14,7 +16,7 @@ Tillåter att ange hur metafiler behandlas i den renderade utdata.
 public MetafileRenderingOptions MetafileRenderingOptions { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 NärVector anges, renderar Aspose.Words metafil till vektorgrafik med sin egen metafil-renderingsmotor först och renderar sedan vektor -grafik till bilden.
 
@@ -24,7 +26,7 @@ GDI+-metafilrenderingsmotorn fungerar snabbare, stöder nästan alla metafilfunk
 
 Standardvärdet för[`MetafileRenderingMode`](../../metafilerenderingmode/) ärBitmap.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in renderingsläget när du sparar dokument med Windows Metafile-bilder till andra bildformat.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.WindowsMetaFile.png", options);
 
 * class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * class [ImageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

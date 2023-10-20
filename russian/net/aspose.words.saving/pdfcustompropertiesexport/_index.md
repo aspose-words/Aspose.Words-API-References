@@ -1,7 +1,9 @@
 ---
-title: Enum PdfCustomPropertiesExport
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.PdfCustomPropertiesExport перечисление. Указывает путьCustomDocumentProperties экспортируются в файл PDF.
+title: PdfCustomPropertiesExport Enum
+linktitle: PdfCustomPropertiesExport
+articleTitle: PdfCustomPropertiesExport
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.PdfCustomPropertiesExport перечисление. Указывает путьCustomDocumentProperties экспортируются в файл PDF на С#.
 type: docs
 weight: 5420
 url: /ru/net/aspose.words.saving/pdfcustompropertiesexport/
@@ -22,7 +24,7 @@ public enum PdfCustomPropertiesExport
 | Standard | `1` | Пользовательские свойства экспортируются как записи в словаре /Info. |
 | Metadata | `2` | Пользовательские свойства — это метаданные. |
 
-### Примеры
+## Примеры
 
 Показывает, как экспортировать пользовательские свойства при преобразовании документа в PDF.
 
@@ -50,5 +52,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CustomPropertiesExport.pdf", options);
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

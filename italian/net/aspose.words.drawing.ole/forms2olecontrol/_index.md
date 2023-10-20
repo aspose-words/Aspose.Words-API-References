@@ -1,7 +1,9 @@
 ---
-title: Class Forms2OleControl
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Ole.Forms2OleControl classe. Rappresenta il controllo OLE di Microsoft Forms 2.0.
+title: Forms2OleControl Class
+linktitle: Forms2OleControl
+articleTitle: Forms2OleControl
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Ole.Forms2OleControl classe. Rappresenta il controllo OLE di Microsoft Forms 2.0 in C#.
 type: docs
 weight: 1110
 url: /it/net/aspose.words.drawing.ole/forms2olecontrol/
@@ -29,7 +31,7 @@ public abstract class Forms2OleControl : OleControl
 | abstract [Type](../../aspose.words.drawing.ole/forms2olecontrol/type/) { get; } | Ottiene il tipo di controllo Forms 2.0. |
 | [Value](../../aspose.words.drawing.ole/forms2olecontrol/value/) { get; } | Ottiene la proprietà Value sottostante che spesso rappresenta lo stato del controllo. Ad esempio il pulsante di opzione selezionato ha il valore '1' mentre quello deselezionato ha '0'. Il valore predefinito è una stringa vuota. |
 
-### Esempi
+## Esempi
 
 Mostra come verificare le proprietà di un controllo ActiveX.
 
@@ -61,5 +63,3 @@ if (oleControl.IsForms2OleControl)
 * class [OleControl](../olecontrol/)
 * spazio dei nomi [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * assemblea [Aspose.Words](../../)
-
-

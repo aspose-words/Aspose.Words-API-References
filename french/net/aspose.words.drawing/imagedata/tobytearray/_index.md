@@ -1,9 +1,11 @@
 ---
 title: ImageData.ToByteArray
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageData méthode. Renvoie les octets dimage pour nimporte quelle image que limage soit stockée ou liée.
+linktitle: ToByteArray
+articleTitle: ToByteArray
+second_title: Aspose.Words pour .NET
+description: ImageData ToByteArray méthode. Renvoie les octets dimage pour nimporte quelle image que limage soit stockée ou liée en C#.
 type: docs
-weight: 220
+weight: 210
 url: /fr/net/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData.ToByteArray method
@@ -14,11 +16,11 @@ Renvoie les octets d'image pour n'importe quelle image, que l'image soit stocké
 public byte[] ToByteArray()
 ```
 
-### Remarques
+## Remarques
 
 Si l'image est liée, télécharge l'image à chaque appel.
 
-### Exemples
+## Exemples
 
 Montre comment créer un fichier image à partir des données d’image brutes d’une forme.
 
@@ -45,7 +47,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### Voir également
 
 * class [ImageData](../)
-* espace de noms [Aspose.Words.Drawing](../../imagedata/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

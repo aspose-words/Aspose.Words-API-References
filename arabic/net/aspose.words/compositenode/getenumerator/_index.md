@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode طريقة. يوفر الدعم لتكرار كل نمط عبر العقد الفرعية لهذه العقدة.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: CompositeNode GetEnumerator طريقة. يوفر الدعم لتكرار كل نمط عبر العقد الفرعية لهذه العقدة في C#.
 type: docs
-weight: 120
+weight: 100
 url: /ar/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/compositenode/getenumerator/
 public IEnumerator<Node> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز مجموعة العقد الفرعية للعقدة المركبة.
 
@@ -60,7 +62,5 @@ foreach (Node child in children)
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* مساحة الاسم [Aspose.Words](../../compositenode/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

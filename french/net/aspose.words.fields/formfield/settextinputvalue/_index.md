@@ -1,7 +1,9 @@
 ---
 title: FormField.SetTextInputValue
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField méthode. Applique le format de texte spécifié dansTextInputFormat et stocke la valeur dansResult .
+linktitle: SetTextInputValue
+articleTitle: SetTextInputValue
+second_title: Aspose.Words pour .NET
+description: FormField SetTextInputValue méthode. Applique le format de texte spécifié dansTextInputFormat et stocke la valeur dansResult  en C#.
 type: docs
 weight: 250
 url: /fr/net/aspose.words.fields/formfield/settextinputvalue/
@@ -16,13 +18,13 @@ public void SetTextInputValue(object newValue)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| newValue | Object | Peut être une chaîne, un nombre ou un **DateHeure** objet. |
+| newValue | Object | Peut être une chaîne, un nombre ou un**DateHeure** objet. |
 
-### Remarques
+## Remarques
 
 Le[`TextInputDefault`](../textinputdefault/)la valeur est appliquée si*newValue* est`nul`.
 
-### Exemples
+## Exemples
 
 Montre comment insérer différents types de champs de formulaire dans un document et les traiter à l'aide d'une implémentation de visiteur de document.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Voir également
 
 * class [FormField](../)
-* espace de noms [Aspose.Words.Fields](../../formfield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

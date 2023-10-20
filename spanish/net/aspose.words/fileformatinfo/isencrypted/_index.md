@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.IsEncrypted
-second_title: Referencia de API de Aspose.Words para .NET
-description: FileFormatInfo propiedad. Devolucionesverdadero si el documento está cifrado y requiere una contraseña para abrirse.
+linktitle: IsEncrypted
+articleTitle: IsEncrypted
+second_title: Aspose.Words para .NET
+description: FileFormatInfo IsEncrypted propiedad. Devolucionesverdadero si el documento está cifrado y requiere una contraseña para abrirse en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/fileformatinfo/isencrypted/
@@ -14,11 +16,11 @@ Devoluciones`verdadero` si el documento está cifrado y requiere una contraseña
 public bool IsEncrypted { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad existe para ayudarle a clasificar los documentos que están cifrados de los que no lo están. Si intenta cargar un documento cifrado usando Aspose.Words sin proporcionar una contraseña, se generará una excepción . Puede utilizar esta propiedad para detectar si un documento requiere una contraseña y realizar alguna acción antes de cargar un documento, por ejemplo, solicitar una contraseña al usuario.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar la clase FileFormatUtil para detectar el formato y el cifrado del documento.
 
@@ -42,7 +44,5 @@ Assert.True(info.IsEncrypted);
 ### Ver también
 
 * class [FileFormatInfo](../)
-* espacio de nombres [Aspose.Words](../../fileformatinfo/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

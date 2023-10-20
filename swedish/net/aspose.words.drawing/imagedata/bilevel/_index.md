@@ -1,7 +1,9 @@
 ---
 title: ImageData.BiLevel
-second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. Bestämmer om en bild ska visas i svartvitt.
+linktitle: BiLevel
+articleTitle: BiLevel
+second_title: Aspose.Words för .NET
+description: ImageData BiLevel fast egendom. Bestämmer om en bild ska visas i svartvitt i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/imagedata/bilevel/
@@ -14,11 +16,11 @@ Bestämmer om en bild ska visas i svartvitt.
 public bool BiLevel { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar en forms bilddata.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Se även
 
 * class [ImageData](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagedata/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

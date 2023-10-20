@@ -1,7 +1,9 @@
 ---
-title: Enum GradientStyle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.GradientStyle énumération. Spécifie le style dun remplissage dégradé.
+title: GradientStyle Enum
+linktitle: GradientStyle
+articleTitle: GradientStyle
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.GradientStyle énumération. Spécifie le style dun remplissage dégradé en C#.
 type: docs
 weight: 1000
 url: /fr/net/aspose.words.drawing/gradientstyle/
@@ -26,7 +28,7 @@ public enum GradientStyle
 | FromCorner | `5` | Dégradé allant d'un coin aux trois autres coins. |
 | FromCenter | `6` | Dégradé allant du centre vers les coins. |
 
-### Exemples
+## Exemples
 
 Montre comment remplir une forme avec des dégradés.
 
@@ -68,5 +70,3 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Inline.IsMoveToRevision
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Inline propriété. Retoursvrai si cet objet a été déplacé inséré dans Microsoft Word alors que le suivi des modifications était activé.
+linktitle: IsMoveToRevision
+articleTitle: IsMoveToRevision
+second_title: Aspose.Words pour .NET
+description: Inline IsMoveToRevision propriété. Retoursvrai si cet objet a été déplacé inséré dans Microsoft Word alors que le suivi des modifications était activé en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/inline/ismovetorevision/
@@ -14,7 +16,7 @@ Retours`vrai` si cet objet a été déplacé (inséré) dans Microsoft Word alor
 public bool IsMoveToRevision { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment déterminer le type de révision d’un nœud en ligne.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### Voir également
 
 * class [Inline](../)
-* espace de noms [Aspose.Words](../../inline/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

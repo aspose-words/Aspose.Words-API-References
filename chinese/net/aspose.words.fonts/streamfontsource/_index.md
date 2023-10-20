@@ -1,7 +1,9 @@
 ---
-title: Class StreamFontSource
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.StreamFontSource 班级. 用户定义流字体源的基类
+title: StreamFontSource Class
+linktitle: StreamFontSource
+articleTitle: StreamFontSource
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fonts.StreamFontSource 班级. 用户定义流字体源的基类 在 C#.
 type: docs
 weight: 3040
 url: /zh/net/aspose.words.fonts/streamfontsource/
@@ -32,7 +34,7 @@ public abstract class StreamFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | 返回通过此源可用的字体列表。 |
 | abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream/)() | 此方法应根据需要打开包含字体数据的流。 |
 
-### 评论
+## 评论
 
 为了使用流字体源，您应该从`StreamFontSource` 并提供实施[`OpenFontDataStream`](./openfontdatastream/)方法。
 
@@ -40,7 +42,7 @@ public abstract class StreamFontSource : FontSourceBase
 
 `StreamFontSource`可能很有用，因为它允许仅在需要时加载字体数据 ，而不是将其存储在内存中[`FontSettings`](../fontsettings/)寿命。
 
-### 例子
+## 例子
 
 展示如何从流加载字体。
 
@@ -76,5 +78,3 @@ private class StreamFontSourceFile : StreamFontSource
 * class [FontSourceBase](../fontsourcebase/)
 * 命名空间 [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../)
-
-

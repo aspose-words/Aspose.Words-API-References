@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsListItem
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 当该段落是原始版本中项目符号列表或编号列表中的项目时为真
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph IsListItem 财产. 当该段落是原始版本中项目符号列表或编号列表中的项目时为真 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words/paragraph/islistitem/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/islistitem/
 public bool IsListItem { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将一个列表嵌套在另一个列表中。
 
@@ -68,7 +70,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### 也可以看看
 
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

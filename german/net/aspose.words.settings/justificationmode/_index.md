@@ -1,7 +1,9 @@
 ---
-title: Enum JustificationMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Settings.JustificationMode opsomming. Gibt die Anpassung des Zeichenabstands für ein Dokument an. Der Standardwert istExpandieren .
+title: JustificationMode Enum
+linktitle: JustificationMode
+articleTitle: JustificationMode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Settings.JustificationMode opsomming. Gibt die Anpassung des Zeichenabstands für ein Dokument an. Der Standardwert istExpandieren  in C#.
 type: docs
 weight: 5800
 url: /de/net/aspose.words.settings/justificationmode/
@@ -22,7 +24,7 @@ public enum JustificationMode
 | Compress | `1` |  |
 | CompressKana | `2` |  |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Steuerung des Zeichenabstands verwaltet wird.
 
@@ -40,5 +42,3 @@ doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");
 
 * namensraum [Aspose.Words.Settings](../../aspose.words.settings/)
 * Montage [Aspose.Words](../../)
-
-

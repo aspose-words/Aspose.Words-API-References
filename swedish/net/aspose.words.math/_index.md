@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Math
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Math namnrymden innehåller klasser som representerar Office Mathelement.
+linktitle: Aspose.Words.Math
+articleTitle: Aspose.Words.Math
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.Math namnrymden innehåller klasser som representerar Office Mathelement i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.math/
 ---
-De **Aspose.Words.Math** namnrymden innehåller klasser som representerar Office Math-element.
+De**Aspose.Words.Math** namnrymden innehåller klasser som representerar Office Math-element.
 
 ## Klasser
 
@@ -20,5 +22,3 @@ De **Aspose.Words.Math** namnrymden innehåller klasser som representerar Office
 | [MathObjectType](./mathobjecttype/) | Anger typen av ett Office Math-objekt. |
 | [OfficeMathDisplayType](./officemathdisplaytype/) | Anger visningsformattypen för ekvationen. |
 | [OfficeMathJustification](./officemathjustification/) | Anger motiveringen av ekvationen. |
-
-

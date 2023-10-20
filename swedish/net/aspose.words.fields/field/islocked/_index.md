@@ -1,7 +1,9 @@
 ---
 title: Field.IsLocked
-second_title: Aspose.Words för .NET API Referens
-description: Field fast egendom. Hämtar eller ställer in om fältet är låst ska inte räkna om resultatet.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words för .NET
+description: Field IsLocked fast egendom. Hämtar eller ställer in om fältet är låst ska inte räkna om resultatet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/field/islocked/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet).
 public bool IsLocked { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en FieldStart-nod.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Se även
 
 * class [Field](../)
-* namnutrymme [Aspose.Words.Fields](../../field/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.IsHeading
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Vrai lorsque le style de paragraphe est lun des styles de titre intégrés.
+linktitle: IsHeading
+articleTitle: IsHeading
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat IsHeading propriété. Vrai lorsque le style de paragraphe est lun des styles de titre intégrés en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words/paragraphformat/isheading/
@@ -14,7 +16,7 @@ Vrai lorsque le style de paragraphe est l'un des styles de titre intégrés.
 public bool IsHeading { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment limiter le niveau des titres qui apparaîtront dans le plan d'un document PDF enregistré.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeadingsOutlineLevels.pdf", saveOptions)
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

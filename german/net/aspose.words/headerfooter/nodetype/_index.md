@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: HeaderFooter eigendom. Gibt zurückHeaderFooter .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: HeaderFooter NodeType eigendom. Gibt zurückHeaderFooter  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/headerfooter/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückHeaderFooter .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die untergeordneten Elemente eines zusammengesetzten Knotens durchlaufen werden.
 
@@ -64,7 +66,5 @@ foreach (Node node in section)
 
 * enum [NodeType](../../nodetype/)
 * class [HeaderFooter](../)
-* namensraum [Aspose.Words](../../headerfooter/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

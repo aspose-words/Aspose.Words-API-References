@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.NodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. ВозвращаетStructuredDocumentTag .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag NodeType свойство. ВозвращаетStructuredDocumentTag  на С#.
 type: docs
 weight: 220
 url: /ru/net/aspose.words.markup/structureddocumenttag/nodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttag/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со стилями элементов управления содержимым.
 
@@ -54,7 +56,5 @@ foreach (Node node in tags)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

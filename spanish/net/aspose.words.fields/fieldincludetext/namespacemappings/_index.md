@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.NamespaceMappings
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldIncludeText propiedad. Obtiene o establece las asignaciones de espacios de nombres para consultas XPath.
+linktitle: NamespaceMappings
+articleTitle: NamespaceMappings
+second_title: Aspose.Words para .NET
+description: FieldIncludeText NamespaceMappings propiedad. Obtiene o establece las asignaciones de espacios de nombres para consultas XPath en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/fieldincludetext/namespacemappings/
@@ -14,7 +16,7 @@ Obtiene o establece las asignaciones de espacios de nombres para consultas XPath
 public string NamespaceMappings { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un campo INCLUDETEXT y establecer sus propiedades.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Ver también
 
 * class [FieldIncludeText](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldincludetext/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

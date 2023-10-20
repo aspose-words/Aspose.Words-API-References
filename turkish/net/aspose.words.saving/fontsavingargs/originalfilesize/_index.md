@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.OriginalFileSize
-second_title: Aspose.Words for .NET API Referansı
-description: FontSavingArgs mülk. Orijinal yazı tipi dosyasının boyutunu alır.
+linktitle: OriginalFileSize
+articleTitle: OriginalFileSize
+second_title: Aspose.Words for .NET
+description: FontSavingArgs OriginalFileSize mülk. Orijinal yazı tipi dosyasının boyutunu alır C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.saving/fontsavingargs/originalfilesize/
@@ -14,11 +16,11 @@ Orijinal yazı tipi dosyasının boyutunu alır.
 public int OriginalFileSize { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, biliniyorsa geçerli yazı tipinin orijinal dosya boyutunu içerir. Aksi takdirde sıfır olabilir.
 
-### Örnekler
+## Örnekler
 
 HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nasıl tanımlanacağını gösterir.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ayrıca bakınız
 
 * class [FontSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../fontsavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

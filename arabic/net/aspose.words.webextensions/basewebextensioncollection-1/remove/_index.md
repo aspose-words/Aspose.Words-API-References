@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: BaseWebExtensionCollection طريقة. إزالة العنصر الموجود في الفهرس المحدد من المجموعة.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: BaseWebExtensionCollection Remove طريقة. إزالة العنصر الموجود في الفهرس المحدد من المجموعة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.webextensions/basewebextensioncollection-1/remove/
@@ -18,7 +20,7 @@ public void Remove(int index)
 | --- | --- | --- |
 | index | Int32 | الفهرس الصفري لعنصر المجموعة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة ملحقات الويب الخاصة بالمستند.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### أنظر أيضا
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

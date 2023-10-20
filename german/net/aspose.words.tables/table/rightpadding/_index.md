@@ -1,7 +1,9 @@
 ---
 title: Table.RightPadding
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft die Menge an Platz in Punkten ab die rechts vom Inhalt der Zellen hinzugefügt werden soll oder legt diese fest.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words für .NET
+description: Table RightPadding eigendom. Ruft die Menge an Platz in Punkten ab die rechts vom Inhalt der Zellen hinzugefügt werden soll oder legt diese fest in C#.
 type: docs
 weight: 250
 url: /de/net/aspose.words.tables/table/rightpadding/
@@ -14,7 +16,7 @@ Ruft die Menge an Platz (in Punkten) ab, die rechts vom Inhalt der Zellen hinzug
 public double RightPadding { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Auffüllen von Inhalten in einer Tabelle konfiguriert wird.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### Siehe auch
 
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

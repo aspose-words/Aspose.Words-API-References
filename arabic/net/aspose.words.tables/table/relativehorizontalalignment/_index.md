@@ -1,7 +1,9 @@
 ---
 title: Table.RelativeHorizontalAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تعيين المحاذاة الأفقية النسبية للجدول العائم.
+linktitle: RelativeHorizontalAlignment
+articleTitle: RelativeHorizontalAlignment
+second_title: Aspose.Words لـ .NET
+description: Table RelativeHorizontalAlignment ملكية. الحصول على أو تعيين المحاذاة الأفقية النسبية للجدول العائم في C#.
 type: docs
 weight: 230
 url: /ar/net/aspose.words.tables/table/relativehorizontalalignment/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/relativehorizontalalignment/
 public HorizontalAlignment RelativeHorizontalAlignment { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط موقع الجداول العائمة.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

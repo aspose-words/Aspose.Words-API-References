@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControlCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: Forms2OleControlCollection 财产. 获取集合中对象的计数
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: Forms2OleControlCollection Count 财产. 获取集合中对象的计数 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问嵌入在文档中的 OLE 控件及其子控件。
 
@@ -46,7 +48,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 ### 也可以看看
 
 * class [Forms2OleControlCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* 命名空间 [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * 部件 [Aspose.Words](../../../)
-
-

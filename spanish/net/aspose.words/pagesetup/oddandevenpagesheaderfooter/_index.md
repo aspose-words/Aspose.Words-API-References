@@ -1,7 +1,9 @@
 ---
 title: PageSetup.OddAndEvenPagesHeaderFooter
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Verdadero si el documento tiene diferentes encabezados y pies de página para páginas pares e impares.
+linktitle: OddAndEvenPagesHeaderFooter
+articleTitle: OddAndEvenPagesHeaderFooter
+second_title: Aspose.Words para .NET
+description: PageSetup OddAndEvenPagesHeaderFooter propiedad. Verdadero si el documento tiene diferentes encabezados y pies de página para páginas pares e impares en C#.
 type: docs
 weight: 280
 url: /es/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
@@ -14,11 +16,11 @@ Verdadero si el documento tiene diferentes encabezados y pies de página para p�
 public bool OddAndEvenPagesHeaderFooter { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Nota: cambiar esta propiedad afecta a todas las secciones del documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear encabezados y pies de página en un documento usando DocumentBuilder.
 
@@ -91,7 +93,5 @@ doc.Save(ArtifactsDir + "PageSetup.OddAndEvenPagesHeaderFooter.docx");
 ### Ver también
 
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextBox.InternalMarginTop
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextBox eigendom. Gibt den inneren oberen Rand in Punkten für eine Form an.
+linktitle: InternalMarginTop
+articleTitle: InternalMarginTop
+second_title: Aspose.Words für .NET
+description: TextBox InternalMarginTop eigendom. Gibt den inneren oberen Rand in Punkten für eine Form an in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing/textbox/internalmargintop/
@@ -14,11 +16,11 @@ Gibt den inneren oberen Rand in Punkten für eine Form an.
 public double InternalMarginTop { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist 1/20 Zoll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie interne Ränder für ein Textfeld festgelegt werden.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxMargins.docx");
 ### Siehe auch
 
 * class [TextBox](../)
-* namensraum [Aspose.Words.Drawing](../../textbox/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

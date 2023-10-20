@@ -1,7 +1,9 @@
 ---
 title: TextPath.SmallCaps
-second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. True если шрифт отформатирован как маленькие заглавные буквы.
+linktitle: SmallCaps
+articleTitle: SmallCaps
+second_title: Aspose.Words для .NET
+description: TextPath SmallCaps свойство. True если шрифт отформатирован как маленькие заглавные буквы на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.drawing/textpath/smallcaps/
@@ -14,11 +16,11 @@ True, если шрифт отформатирован как маленькие
 public bool SmallCaps { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Смотрите также
 
 * class [TextPath](../)
-* пространство имен [Aspose.Words.Drawing](../../textpath/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontConfigSubstitutionRule.IsFontConfigAvailable
-second_title: Справочник по API Aspose.Words для .NET
-description: FontConfigSubstitutionRule метод. Проверьте доступна ли утилита fontconfig.
+linktitle: IsFontConfigAvailable
+articleTitle: IsFontConfigAvailable
+second_title: Aspose.Words для .NET
+description: FontConfigSubstitutionRule IsFontConfigAvailable метод. Проверьте доступна ли утилита fontconfig на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable
 public bool IsFontConfigAvailable()
 ```
 
-### Примеры
+## Примеры
 
 Показывает замену конфигурации шрифтов в зависимости от операционной системы.
 
@@ -50,7 +52,5 @@ if (isLinuxOrMac)
 ### Смотрите также
 
 * class [FontConfigSubstitutionRule](../)
-* пространство имен [Aspose.Words.Fonts](../../fontconfigsubstitutionrule/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

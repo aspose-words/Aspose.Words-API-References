@@ -1,7 +1,9 @@
 ---
 title: Cell.FirstParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: Cell mülk. Birinci paragrafın ilk paragrafını alır.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words for .NET
+description: Cell FirstParagraph mülk. Birinci paragrafın ilk paragrafını alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.tables/cell/firstparagraph/
@@ -14,7 +16,7 @@ Birinci paragrafın ilk paragrafını alır.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucu kullanılarak iç içe tablonun nasıl oluşturulacağını gösterir.
 
@@ -95,7 +97,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Cell](../)
-* ad alanı [Aspose.Words.Tables](../../cell/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

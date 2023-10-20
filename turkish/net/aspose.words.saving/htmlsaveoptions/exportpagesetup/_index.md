@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportPageSetup
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Sayfa düzeninin HTMLye mi MHTMLye mi yoksa EPUBa mı aktarılacağını belirtir. VarsayılanYANLIŞ .
+linktitle: ExportPageSetup
+articleTitle: ExportPageSetup
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ExportPageSetup mülk. Sayfa düzeninin HTMLye mi MHTMLye mi yoksa EPUBa mı aktarılacağını belirtir. VarsayılanYANLIŞ  C#'da.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
@@ -14,13 +16,13 @@ Sayfa düzeninin HTML'ye mi, MHTML'ye mi yoksa EPUB'a mı aktarılacağını bel
 public bool ExportPageSetup { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Her biri[`Section`](../../../aspose.words/section/) Aspose.Words belge modelinde sayfa düzeni bilgileri aracılığıyla sağlanır[`PageSetup`](../../../aspose.words/pagesetup/) sınıf. Bir belgeyi HTML formatına aktardığınızda, bu information bilgisini daha sonra kullanmak üzere saklamanız gerekebilir. Özellikle, sayfa düzeni, sayfalanmış ortama (yazdırma) veya daha sonra yerel Microsoft Word dosya biçimlerine (DOCX, DOC, RTF, WML) dönüştürme için önemli olabilir.
 
 Çoğu durumda HTML, sayfalandırmanın yapılmadığı tarayıcılarda görüntülenmek üzere tasarlanmıştır. Dolayısıyla bu feature varsayılan olarak etkin değildir.
 
-### Örnekler
+## Örnekler
 
 HTML'ye kaydederken bölüm yapısı/sayfa düzeni bilgilerinin korunup korunmayacağına nasıl karar verileceğini gösterir.
 
@@ -80,7 +82,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

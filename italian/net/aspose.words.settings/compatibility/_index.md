@@ -1,7 +1,9 @@
 ---
-title: Enum Compatibility
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.Compatibility enum. Specifica i nomi delle opzioni di compatibilità.
+title: Compatibility Enum
+linktitle: Compatibility
+articleTitle: Compatibility
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Settings.Compatibility enum. Specifica i nomi delle opzioni di compatibilità in C#.
 type: docs
 weight: 5770
 url: /it/net/aspose.words.settings/compatibility/
@@ -90,7 +92,7 @@ public enum Compatibility
 | SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning | `69` |  |
 | UseWord2010TableStyleRules | `70` |  |
 
-### Esempi
+## Esempi
 
 Mostra come ottimizzare il documento per diverse versioni di Microsoft Word.
 
@@ -150,5 +152,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * spazio dei nomi [Aspose.Words.Settings](../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../)
-
-

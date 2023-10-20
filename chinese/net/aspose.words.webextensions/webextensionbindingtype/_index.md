@@ -1,7 +1,9 @@
 ---
-title: Enum WebExtensionBindingType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.WebExtensions.WebExtensionBindingType 枚举. 枚举 Web 扩展与文档中的数据之间的可用绑定类型
+title: WebExtensionBindingType Enum
+linktitle: WebExtensionBindingType
+articleTitle: WebExtensionBindingType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.WebExtensions.WebExtensionBindingType 枚举. 枚举 Web 扩展与文档中的数据之间的可用绑定类型 在 C#.
 type: docs
 weight: 6770
 url: /zh/net/aspose.words.webextensions/webextensionbindingtype/
@@ -23,7 +25,7 @@ public enum WebExtensionBindingType
 | Text | `2` | 纯文本。 |
 | Default | `0` |  |
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -69,5 +71,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * 命名空间 [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportTocPageNumbers
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie sil faut écrire les numéros de page dans la table des matières lors de lenregistrement HTML MHTML et EPUB. La valeur par défaut estFAUX .
+linktitle: ExportTocPageNumbers
+articleTitle: ExportTocPageNumbers
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions ExportTocPageNumbers propriété. Spécifie sil faut écrire les numéros de page dans la table des matières lors de lenregistrement HTML MHTML et EPUB. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 270
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
@@ -14,7 +16,7 @@ Spécifie s'il faut écrire les numéros de page dans la table des matières lor
 public bool ExportTocPageNumbers { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment afficher les numéros de page lors de l'enregistrement d'un document avec une table des matières au format .html.
 
@@ -72,7 +74,5 @@ else
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

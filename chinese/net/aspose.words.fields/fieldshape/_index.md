@@ -1,7 +1,9 @@
 ---
-title: Class FieldShape
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.FieldShape 班级. 实现 SHAPE 字段
+title: FieldShape Class
+linktitle: FieldShape
+articleTitle: FieldShape
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.FieldShape 班级. 实现 SHAPE 字段 在 C#.
 type: docs
 weight: 2410
 url: /zh/net/aspose.words.fields/fieldshape/
@@ -43,17 +45,17 @@ public class FieldShape : Field
 | 姓名 | 描述 |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 包括子字段的字段代码和字段结果。 |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
 | [Remove](../../aspose.words.fields/field/remove/)() | 从文档中删除该字段。返回字段后面的节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回`无效的`. |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | 执行字段取消链接。 |
 | [Update](../../aspose.words.fields/field/update/)() | 执行字段更新。如果该字段已被更新，则抛出异常。 |
-| [Update](../../aspose.words.fields/field/update/)(bool) | 执行字段更新。如果该字段已被更新，则抛出异常。 |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | 执行字段更新。如果该字段已被更新，则抛出异常。 |
 
-### 评论
+## 评论
 
 检索指定文本。
 
-### 例子
+## 例子
 
 演示如何使用 BIDIOUTLINE 字段创建从右到左的语言兼容列表。
 
@@ -124,5 +126,3 @@ Assert.AreEqual(ShapeType.OleObject, shape.ShapeType);
 * class [Field](../field/)
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

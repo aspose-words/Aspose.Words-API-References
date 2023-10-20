@@ -1,7 +1,9 @@
 ---
-title: Enum PdfCompliance
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.PdfCompliance Sıralama. PDF standartları uyumluluk düzeyini belirtir.
+title: PdfCompliance Enum
+linktitle: PdfCompliance
+articleTitle: PdfCompliance
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.PdfCompliance Sıralama. PDF standartları uyumluluk düzeyini belirtir C#'da.
 type: docs
 weight: 5410
 url: /tr/net/aspose.words.saving/pdfcompliance/
@@ -27,7 +29,7 @@ public enum PdfCompliance
 | PdfA4 | `6` | Çıktı dosyası PDF/A-4 (ISO 19005-4:2020) standardıyla uyumlu olacaktır. PDF/A-4, araçlardan ve oluşturmak için kullanılan sistemlerden bağımsız olarak belgenin statik görsel görünümünü zaman içinde koruma amacına sahiptir , dosyaları depolamak veya işlemek. Ek olarak, document belgesinde bulunan herhangi bir metin, bir dizi Unicode kod noktası olarak güvenilir bir şekilde çıkarılabilir. |
 | PdfUa1 | `7` | Çıktı dosyası PDF/UA-1 (ISO 14289-1) standardına uygun olacaktır. PDF/UA'nın temel amacı, dosyanın görüntülenmesine izin verecek şekilde PDF formatındaki elektronik belgelerin a şeklinde nasıl temsil edileceğini tanımlamaktır. erişilebilir. |
 
-### Örnekler
+## Örnekler
 
 Kaydedilen PDF belgelerinin PDF standartlarına uygunluk düzeyinin nasıl ayarlanacağını gösterir.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.Compliance.pdf", saveOptions);
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

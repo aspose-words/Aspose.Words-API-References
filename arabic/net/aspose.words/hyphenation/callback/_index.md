@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.Callback
-second_title: Aspose.Words لمراجع .NET API
-description: Hyphenation ملكية. الحصول على أو تعيين واجهة رد الاتصال المستخدمة لطلب القواميس عند إنشاء تخطيط صفحة المستند. وهذا يسمح بتأخير تحميل القواميس مما قد يكون مفيدًا عند معالجة المستندات بالعديد من اللغات.
+linktitle: Callback
+articleTitle: Callback
+second_title: Aspose.Words لـ .NET
+description: Hyphenation Callback ملكية. الحصول على أو تعيين واجهة رد الاتصال المستخدمة لطلب القواميس عند إنشاء تخطيط صفحة المستند. وهذا يسمح بتأخير تحميل القواميس مما قد يكون مفيدًا عند معالجة المستندات بالعديد من اللغات في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/hyphenation/callback/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/hyphenation/callback/
 public static IHyphenationCallback Callback { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية فتح وتسجيل قاموس من ملف.
 
@@ -91,7 +93,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * interface [IHyphenationCallback](../../ihyphenationcallback/)
 * class [Hyphenation](../)
-* مساحة الاسم [Aspose.Words](../../hyphenation/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

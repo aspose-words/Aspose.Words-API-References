@@ -1,7 +1,9 @@
 ---
 title: Table.LeftPadding
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft den Abstand in Punkten ab der links vom Zellinhalt hinzugefügt werden soll oder legt diesen fest.
+linktitle: LeftPadding
+articleTitle: LeftPadding
+second_title: Aspose.Words für .NET
+description: Table LeftPadding eigendom. Ruft den Abstand in Punkten ab der links vom Zellinhalt hinzugefügt werden soll oder legt diesen fest in C#.
 type: docs
 weight: 200
 url: /de/net/aspose.words.tables/table/leftpadding/
@@ -14,7 +16,7 @@ Ruft den Abstand (in Punkten) ab, der links vom Zellinhalt hinzugefügt werden s
 public double LeftPadding { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Auffüllen von Inhalten in einer Tabelle konfiguriert wird.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### Siehe auch
 
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

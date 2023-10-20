@@ -1,20 +1,22 @@
 ---
 title: FieldCitation.SourceTag
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldCitation свойство. Получает или задает значение соответствующее Ярлык значение элемента источника для вставки.
+linktitle: SourceTag
+articleTitle: SourceTag
+second_title: Aspose.Words для .NET
+description: FieldCitation SourceTag свойство. Получает или задает значение соответствующееЯрлык значение элемента источника для вставки на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldcitation/sourcetag/
 ---
 ## FieldCitation.SourceTag property
 
-Получает или задает значение, соответствующее **Ярлык** значение элемента источника для вставки.
+Получает или задает значение, соответствующее**Ярлык** значение элемента источника для вставки.
 
 ```csharp
 public string SourceTag { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с полями ЦИТАТА и БИБЛИОГРАФИЯ.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Смотрите также
 
 * class [FieldCitation](../)
-* пространство имен [Aspose.Words.Fields](../../fieldcitation/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

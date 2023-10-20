@@ -1,7 +1,9 @@
 ---
 title: FileFontSource.FilePath
-second_title: Referencia de API de Aspose.Words para .NET
-description: FileFontSource propiedad. Ruta al archivo de fuente.
+linktitle: FilePath
+articleTitle: FilePath
+second_title: Aspose.Words para .NET
+description: FileFontSource FilePath propiedad. Ruta al archivo de fuente en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fonts/filefontsource/filepath/
@@ -14,7 +16,7 @@ Ruta al archivo de fuente.
 public string FilePath { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar un archivo de fuente en el sistema de archivos local como fuente de fuente.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(0, fileFontSource.Priority);
 ### Ver también
 
 * class [FileFontSource](../)
-* espacio de nombres [Aspose.Words.Fonts](../../filefontsource/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

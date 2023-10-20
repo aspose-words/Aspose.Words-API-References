@@ -1,7 +1,9 @@
 ---
 title: IFieldUserPromptRespondent.Respond
-second_title: Aspose.Words لمراجع .NET API
-description: IFieldUserPromptRespondent طريقة. عند التنفيذ يُرجع استجابة من المستخدم عند المطالبة. يجب أن يعود التنفيذ الخاص بكباطل للإشارة إلى أن المستخدم لم يستجب للمطالبة أي أن المستخدم قام بالضغط على زر إلغاء في نافذة المطالبة.
+linktitle: Respond
+articleTitle: Respond
+second_title: Aspose.Words لـ .NET
+description: IFieldUserPromptRespondent Respond طريقة. عند التنفيذ يُرجع استجابة من المستخدم عند المطالبة. يجب أن يعود التنفيذ الخاص بكباطل للإشارة إلى أن المستخدم لم يستجب للمطالبة أي أن المستخدم قام بالضغط على زر إلغاء في نافذة المطالبة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/ifielduserpromptrespondent/respond/
@@ -23,7 +25,7 @@ public string Respond(string promptText, string defaultResponse)
 
 استجابة المستخدم (أي القيمة المؤكدة الموجودة في نافذة المطالبة).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل ASK وتعيين خصائصه.
 
@@ -85,7 +87,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### أنظر أيضا
 
 * interface [IFieldUserPromptRespondent](../)
-* مساحة الاسم [Aspose.Words.Fields](../../ifielduserpromptrespondent/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.EndCharacterFont
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. تنسيق الخط الذي سيتم تطبيقه على الحرف الأخير من النص الذي تم إدخاله المعاملة الخاصة والتفضيلية .
+linktitle: EndCharacterFont
+articleTitle: EndCharacterFont
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag EndCharacterFont ملكية. تنسيق الخط الذي سيتم تطبيقه على الحرف الأخير من النص الذي تم إدخالهالمعاملة الخاصة والتفضيلية  في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.markup/structureddocumenttag/endcharacterfont/
 ---
 ## StructuredDocumentTag.EndCharacterFont property
 
-تنسيق الخط الذي سيتم تطبيقه على الحرف الأخير من النص الذي تم إدخاله **المعاملة الخاصة والتفضيلية** .
+تنسيق الخط الذي سيتم تطبيقه على الحرف الأخير من النص الذي تم إدخاله**المعاملة الخاصة والتفضيلية** .
 
 ```csharp
 public Font EndCharacterFont { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة في مربع نص عادي وتعديل مظهرها.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

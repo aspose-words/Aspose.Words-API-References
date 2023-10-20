@@ -1,7 +1,9 @@
 ---
-title: Class SignatureLine
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.SignatureLine 班级. 提供对签名行属性的访问
+title: SignatureLine Class
+linktitle: SignatureLine
+articleTitle: SignatureLine
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.SignatureLine 班级. 提供对签名行属性的访问 在 C#.
 type: docs
 weight: 1300
 url: /zh/net/aspose.words.drawing/signatureline/
@@ -22,17 +24,17 @@ public class SignatureLine
 | --- | --- |
 | [AllowComments](../../aspose.words.drawing/signatureline/allowcomments/) { get; set; } | 获取或设置一个值，该值指示签名者可以在“签名”对话框中添加注释。 此属性的默认值为`错误的`. |
 | [DefaultInstructions](../../aspose.words.drawing/signatureline/defaultinstructions/) { get; set; } | 获取或设置一个值，该值指示默认说明显示在“签名”对话框中。 此属性的默认值为`真的`. |
-| [Email](../../aspose.words.drawing/signatureline/email/) { get; set; } | 获取或设置建议签名者的电子邮件地址。 此属性的默认值为 **空字符串**（Empty). |
+| [Email](../../aspose.words.drawing/signatureline/email/) { get; set; } | 获取或设置建议签名者的电子邮件地址。 此属性的默认值为**空字符串**（Empty). |
 | [Id](../../aspose.words.drawing/signatureline/id/) { get; set; } | 获取或设置此签名行的标识符。 |
-| [Instructions](../../aspose.words.drawing/signatureline/instructions/) { get; set; } | 获取或设置在签署签名行时显示的给签名者的说明。 如果满足以下条件，则忽略此属性：[`DefaultInstructions`](./defaultinstructions/)已设置。 此属性的默认值为 **空字符串**（Empty). |
+| [Instructions](../../aspose.words.drawing/signatureline/instructions/) { get; set; } | 获取或设置在签署签名行时显示的给签名者的说明。 如果满足以下条件，则忽略此属性：[`DefaultInstructions`](./defaultinstructions/)已设置。 此属性的默认值为**空字符串**（Empty). |
 | [IsSigned](../../aspose.words.drawing/signatureline/issigned/) { get; } | 表示签名行由数字签名签名。 |
 | [IsValid](../../aspose.words.drawing/signatureline/isvalid/) { get; } | 表示签名行是由数字签名签署的，并且该数字签名有效。 |
 | [ProviderId](../../aspose.words.drawing/signatureline/providerid/) { get; set; } | 获取或设置此签名行的签名提供程序标识符。 默认值为“{00000000-0000-0000-0000-000000000000}”。 |
 | [ShowDate](../../aspose.words.drawing/signatureline/showdate/) { get; set; } | 获取或设置一个值，该值指示签名日期显示在签名行中。 此属性的默认值为`真的`. |
-| [Signer](../../aspose.words.drawing/signatureline/signer/) { get; set; } | 获取或设置签名行的建议签名者。 此属性的默认值为 **空字符串**（Empty). |
-| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle/) { get; set; } | 获取或设置建议签名者的头衔（例如，经理）。 此属性的默认值为 **空字符串**（Empty). |
+| [Signer](../../aspose.words.drawing/signatureline/signer/) { get; set; } | 获取或设置签名行的建议签名者。 此属性的默认值为**空字符串**（Empty). |
+| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle/) { get; set; } | 获取或设置建议签名者的头衔（例如，经理）。 此属性的默认值为**空字符串**（Empty). |
 
-### 例子
+## 例子
 
 演示如何创建签名行并将其插入文档中。
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

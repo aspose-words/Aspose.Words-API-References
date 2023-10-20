@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorUnitScale
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Returnerar eller ställer in skalvärdet för mindre bockmarkeringar på tidskategoriaxeln.
+linktitle: MinorUnitScale
+articleTitle: MinorUnitScale
+second_title: Aspose.Words för .NET
+description: ChartAxis MinorUnitScale fast egendom. Returnerar eller ställer in skalvärdet för mindre bockmarkeringar på tidskategoriaxeln i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.drawing.charts/chartaxis/minorunitscale/
@@ -14,11 +16,11 @@ Returnerar eller ställer in skalvärdet för mindre bockmarkeringar på tidskat
 public AxisTimeUnit MinorUnitScale { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Egenskapen har endast effekt för tidskategoriaxlar.
 
-### Exempel
+## Exempel
 
 Visar hur man manipulerar bockmarkeringarna och visade värden för en diagramaxel.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

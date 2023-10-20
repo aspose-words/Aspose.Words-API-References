@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.BookmarkName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSeq eigendom. Ruft einen Lesezeichennamen ab oder legt diesen fest der auf ein Element an einer anderen Stelle im Dokument und nicht an der aktuellen Position verweist.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words für .NET
+description: FieldSeq BookmarkName eigendom. Ruft einen Lesezeichennamen ab oder legt diesen fest der auf ein Element an einer anderen Stelle im Dokument und nicht an der aktuellen Position verweist in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldseq/bookmarkname/
@@ -14,7 +16,7 @@ Ruft einen Lesezeichennamen ab oder legt diesen fest, der auf ein Element an ein
 public string BookmarkName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Inhaltsverzeichnis- und Sequenzfelder kombiniert werden.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.Bookmark.docx");
 ### Siehe auch
 
 * class [FieldSeq](../)
-* namensraum [Aspose.Words.Fields](../../fieldseq/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

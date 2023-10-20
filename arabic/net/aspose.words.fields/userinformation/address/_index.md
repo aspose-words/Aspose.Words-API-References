@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Address
-second_title: Aspose.Words لمراجع .NET API
-description: UserInformation ملكية. الحصول على العنوان البريدي للمستخدم أو تعيينه.
+linktitle: Address
+articleTitle: Address
+second_title: Aspose.Words لـ .NET
+description: UserInformation Address ملكية. الحصول على العنوان البريدي للمستخدم أو تعيينه في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/userinformation/address/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/userinformation/address/
 public string Address { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين تفاصيل المستخدم وعرضها باستخدام الحقول.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### أنظر أيضا
 
 * class [UserInformation](../)
-* مساحة الاسم [Aspose.Words.Fields](../../userinformation/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

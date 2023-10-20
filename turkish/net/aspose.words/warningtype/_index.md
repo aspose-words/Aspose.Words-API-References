@@ -1,7 +1,9 @@
 ---
-title: Enum WarningType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WarningType Sıralama. Belge yükleme veya kaydetme sırasında Aspose.Words tarafından verilen uyarının türünü belirtir.
+title: WarningType Enum
+linktitle: WarningType
+articleTitle: WarningType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.WarningType Sıralama. Belge yükleme veya kaydetme sırasında Aspose.Words tarafından verilen uyarının türünü belirtir C#'da.
 type: docs
 weight: 6660
 url: /tr/net/aspose.words/warningtype/
@@ -31,7 +33,7 @@ public enum WarningType
 | UnexpectedContent | `1000000` | Genel beklenmeyen içerik, belirli bir kod yok. |
 | Hint | `10000000` | Potansiyel bir soruna ilişkin tavsiyelerde bulunur veya bir iyileştirme önerir. |
 
-### Örnekler
+## Örnekler
 
 Mevcut yazı tipi kaynaklarından eksik bir yazı tipi için en yakın eşleşmeyi bulma özelliğinin nasıl ayarlanacağını gösterir.
 
@@ -92,5 +94,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

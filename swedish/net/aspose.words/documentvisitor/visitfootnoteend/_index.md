@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFootnoteEnd
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när uppräkningen av en fotnot eller slutnotstext har avslutats.
+linktitle: VisitFootnoteEnd
+articleTitle: VisitFootnoteEnd
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitFootnoteEnd metod. Anropas när uppräkningen av en fotnot eller slutnotstext har avslutats i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words/documentvisitor/visitfootnoteend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje fotnot i ett dokument.
 
@@ -116,7 +118,5 @@ public class FootnoteStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

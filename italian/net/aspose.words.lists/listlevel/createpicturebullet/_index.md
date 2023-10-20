@@ -1,7 +1,9 @@
 ---
 title: ListLevel.CreatePictureBullet
-second_title: Aspose.Words per .NET API Reference
-description: ListLevel metodo. Crea la forma di un punto elenco per il livello di elenco corrente.
+linktitle: CreatePictureBullet
+articleTitle: CreatePictureBullet
+second_title: Aspose.Words per .NET
+description: ListLevel CreatePictureBullet metodo. Crea la forma di un punto elenco per il livello di elenco corrente in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words.lists/listlevel/createpicturebullet/
@@ -14,11 +16,11 @@ Crea la forma di un punto elenco per il livello di elenco corrente.
 public void CreatePictureBullet()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Notare che,[`NumberStyle`](../numberstyle/) sarà impostato suBullet e [`NumberFormat`](../numberformat/) su "\xF0B7" per visualizzare correttamente l'immagine del punto elenco. L'immagine della croce rossa verrà impostata come immagine del punto elenco al momento della creazione. Per modificarla, utilizzare[`ImageData`](../imagedata/).
 
-### Esempi
+## Esempi
 
 Mostra come impostare un'icona immagine personalizzata per le etichette degli elementi dell'elenco.
 
@@ -50,7 +52,5 @@ Assert.IsNull(list.ListLevels[0].ImageData);
 ### Guarda anche
 
 * class [ListLevel](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listlevel/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

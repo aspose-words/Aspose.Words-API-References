@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputDefault
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 获取或设置文本表单字段的默认字符串或计算表达式
+linktitle: TextInputDefault
+articleTitle: TextInputDefault
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField TextInputDefault 财产. 获取或设置文本表单字段的默认字符串或计算表达式 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words.fields/formfield/textinputdefault/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/formfield/textinputdefault/
 public string TextInputDefault { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性的含义取决于该属性的值[`TextInputType`](../textinputtype/)财产。
 
@@ -24,7 +26,7 @@ public string TextInputDefault { get; set; }
 
 Microsoft Word 允许字符串最多包含 255 个字符。
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -158,7 +160,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

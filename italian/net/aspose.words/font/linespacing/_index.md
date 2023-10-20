@@ -1,7 +1,9 @@
 ---
 title: Font.LineSpacing
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Restituisce linterlinea di questo carattere in punti.
+linktitle: LineSpacing
+articleTitle: LineSpacing
+second_title: Aspose.Words per .NET
+description: Font LineSpacing proprietà. Restituisce linterlinea di questo carattere in punti in C#.
 type: docs
 weight: 190
 url: /it/net/aspose.words/font/linespacing/
@@ -14,7 +16,7 @@ Restituisce l'interlinea di questo carattere (in punti).
 public double LineSpacing { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere l'interlinea di un carattere, in punti.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(13.798828125d, builder.Font.LineSpacing);
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

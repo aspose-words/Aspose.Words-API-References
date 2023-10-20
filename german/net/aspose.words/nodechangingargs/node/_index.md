@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.Node
-second_title: Aspose.Words für .NET-API-Referenz
-description: NodeChangingArgs eigendom. Ruft die abNode das hinzugefügt oder entfernt wird.
+linktitle: Node
+articleTitle: Node
+second_title: Aspose.Words für .NET
+description: NodeChangingArgs Node eigendom. Ruft die abNode das hinzugefügt oder entfernt wird in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/nodechangingargs/node/
@@ -14,7 +16,7 @@ Ruft die ab`Node` das hinzugefügt oder entfernt wird.
 public Node Node { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Knotenänderungen mit einem Rückruf angepasst werden.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* namensraum [Aspose.Words](../../nodechangingargs/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

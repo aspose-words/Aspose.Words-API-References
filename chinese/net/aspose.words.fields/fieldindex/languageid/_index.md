@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.LanguageId
-second_title: Aspose.Words for .NET API 参考
-description: FieldIndex 财产. 获取或设置用于生成索引的语言 ID
+linktitle: LanguageId
+articleTitle: LanguageId
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIndex LanguageId 财产. 获取或设置用于生成索引的语言 ID 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/fieldindex/languageid/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldindex/languageid/
 public string LanguageId { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 XE 字段用条目填充 INDEX 字段，并修改其外观。
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### 也可以看看
 
 * class [FieldIndex](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldindex/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

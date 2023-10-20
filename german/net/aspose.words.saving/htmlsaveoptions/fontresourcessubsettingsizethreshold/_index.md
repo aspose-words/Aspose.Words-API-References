@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontResourcesSubsettingSizeThreshold
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Steuert welche Schriftartressourcen beim Speichern in HTML MHTML oder EPUB untergeordnet werden müssen. Die Standardeinstellung ist0 .
+linktitle: FontResourcesSubsettingSizeThreshold
+articleTitle: FontResourcesSubsettingSizeThreshold
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions FontResourcesSubsettingSizeThreshold eigendom. Steuert welche Schriftartressourcen beim Speichern in HTML MHTML oder EPUB untergeordnet werden müssen. Die Standardeinstellung ist0  in C#.
 type: docs
 weight: 290
 url: /de/net/aspose.words.saving/htmlsaveoptions/fontresourcessubsettingsizethreshold/
@@ -14,7 +16,7 @@ Steuert, welche Schriftartressourcen beim Speichern in HTML, MHTML oder EPUB unt
 public int FontResourcesSubsettingSizeThreshold { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 [`ExportFontResources`](../exportfontresources/) ermöglicht den Export von Schriftarten als Nebendateien oder als Teile des Pakets „output “. Wenn das Dokument viele Schriftarten verwendet, insbesondere bei einer großen Anzahl von Glyphen, kann die Ausgabegröße erheblich ansteigen. Die Unterteilung von Schriftarten reduziert die Größe der exportierten Schriftartressource, indem Glyphen herausgefiltert werden, die vom aktuellen Dokument nicht verwendet werden.
 
@@ -24,9 +26,9 @@ Die Unterteilung von Schriftarten funktioniert wie folgt:
 * Einstellung`FontResourcesSubsettingSizeThreshold`auf einen positiven Wert weist Aspose.Words an, Schriftarten zu unterteilen, deren Dateigröße größer als der angegebene Wert ist.
 * Festlegen der Eigenschaft aufMaxValue unterdrückt die Unterteilung von Schriftarten.
 
-**Wichtig!** Beim Exportieren von Schriftartressourcen sollten Aspekte der Schriftartlizenzierung berücksichtigt werden. Autoren, die bestimmte Schriftarten über einen herunterladbaren -Schriftartenmechanismus verwenden möchten, müssen stets sorgfältig prüfen, ob ihre beabsichtigte Verwendung im Rahmen der Schriftartenlizenz liegt. Bei vielen kommerziellen Schriftarten ist das Herunterladen ihrer Schriftarten aus dem Internet in irgendeiner Form derzeit nicht möglich. In Lizenzvereinbarungen, die einige Schriftarten abdecken, wird ausdrücklich darauf hingewiesen, dass die Verwendung durch erfolgt **@Schriftart** Rules in CSS-Stylesheets ist nicht zulässig. Unterteilung von Schriftarten kann ebenfalls gegen Lizenzbedingungen verstoßen.
+**Wichtig!** Beim Exportieren von Schriftartressourcen sollten Aspekte der Schriftartlizenzierung berücksichtigt werden. Autoren, die bestimmte Schriftarten über einen herunterladbaren -Schriftartenmechanismus verwenden möchten, müssen stets sorgfältig prüfen, ob ihre beabsichtigte Verwendung im Rahmen der Schriftartenlizenz liegt. Bei vielen kommerziellen Schriftarten ist das Herunterladen ihrer Schriftarten aus dem Internet in irgendeiner Form derzeit nicht möglich. In Lizenzvereinbarungen, die einige Schriftarten abdecken, wird ausdrücklich darauf hingewiesen, dass die Verwendung durch erfolgt**@Schriftart** Rules in CSS-Stylesheets ist nicht zulässig. Unterteilung von Schriftarten kann ebenfalls gegen Lizenzbedingungen verstoßen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Schriftart-Untergruppen gearbeitet wird.
 
@@ -83,7 +85,5 @@ foreach (string filename in fontFileNames)
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

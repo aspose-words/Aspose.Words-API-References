@@ -1,7 +1,9 @@
 ---
 title: CustomPart.Data
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomPart eigendom. Enthält die Daten dieses benutzerdefinierten Teils.
+linktitle: Data
+articleTitle: Data
+second_title: Aspose.Words für .NET
+description: CustomPart Data eigendom. Enthält die Daten dieses benutzerdefinierten Teils in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/custompart/data/
@@ -14,13 +16,13 @@ Enthält die Daten dieses benutzerdefinierten Teils.
 public byte[] Data { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft ist nur anwendbar, wenn[`IsExternal`](../isexternal/) Ist`FALSCH`.
 
 Der Standardwert ist ein leeres Byte-Array. Der Wert kann nicht sein`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die beliebige benutzerdefinierte Teilesammlung eines Dokuments zugegriffen wird.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Siehe auch
 
 * class [CustomPart](../)
-* namensraum [Aspose.Words.Markup](../../custompart/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

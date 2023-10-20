@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.Justification
-second_title: Справочник по API Aspose.Words для .NET
-description: OfficeMath свойство. Получает/устанавливает выравнивание Office Math.
+linktitle: Justification
+articleTitle: Justification
+second_title: Aspose.Words для .NET
+description: OfficeMath Justification свойство. Получает/устанавливает выравнивание Office Math на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.math/officemath/justification/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.math/officemath/justification/
 public OfficeMathJustification Justification { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Для выравнивания нельзя установить Office Math с типом формата отображения.Inline.
 
@@ -22,7 +24,7 @@ public OfficeMathJustification Justification { get; set; }
 
 Соответствующий[`DisplayType`](../displaytype/) необходимо установить перед настройкой выравнивания Office Math.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить форматирование отображения математических функций Office.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * enum [OfficeMathJustification](../../officemathjustification/)
 * class [OfficeMath](../)
-* пространство имен [Aspose.Words.Math](../../officemath/)
+* пространство имен [Aspose.Words.Math](../../../aspose.words.math/)
 * сборка [Aspose.Words](../../../)
-
-

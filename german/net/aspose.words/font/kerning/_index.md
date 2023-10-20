@@ -1,7 +1,9 @@
 ---
 title: Font.Kerning
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Schriftgröße ab bei der das Kerning beginnt oder legt diese fest.
+linktitle: Kerning
+articleTitle: Kerning
+second_title: Aspose.Words für .NET
+description: Font Kerning eigendom. Ruft die Schriftgröße ab bei der das Kerning beginnt oder legt diese fest in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words/font/kerning/
@@ -14,7 +16,7 @@ Ruft die Schriftgröße ab, bei der das Kerning beginnt, oder legt diese fest.
 public double Kerning { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie die Schriftgröße festlegen, ab der das Kerning wirksam wird.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.Kerning.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

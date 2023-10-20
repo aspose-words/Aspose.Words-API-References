@@ -1,20 +1,22 @@
 ---
 title: SignOptions.ProviderId
-second_title: Aspose.Words for .NET API Referansı
-description: SignOptions mülk. İmza sağlayıcının sınıf kimliğini belirtir. Varsayılan değer Boş tümü sıfır Kılavuz .
+linktitle: ProviderId
+articleTitle: ProviderId
+second_title: Aspose.Words for .NET
+description: SignOptions ProviderId mülk. İmza sağlayıcının sınıf kimliğini belirtir. Varsayılan değerBoş tümü sıfır Kılavuz  C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
 ## SignOptions.ProviderId property
 
-İmza sağlayıcının sınıf kimliğini belirtir. Varsayılan değer: **Boş (tümü sıfır) Kılavuz** .
+İmza sağlayıcının sınıf kimliğini belirtir. Varsayılan değer:**Boş (tümü sıfır) Kılavuz** .
 
 ```csharp
 public Guid ProviderId { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Şifreleme servis sağlayıcısı (CSP), kimlik doğrulama, kodlama ve şifreleme için gerçekte şifreleme algoritmalarını gerçekleştiren bağımsız bir yazılım modülüdür. MS Office, varsayılan imza sağlayıcısı için {00000000-0000-0000-0000-000000000000} değerinin değerini ayırır.
 
@@ -22,7 +24,7 @@ Ek olarak yüklenen sağlayıcının GUID'i, sağlayıcıyla birlikte gönderile
 
 Ayrıca, kurulu tüm şifreleme sağlayıcıları Windows kayıt defterinde numaralandırılmıştır. Şu yolda bulunabilir: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Şuna karşılık gelen bir "CP Service UUID" anahtar adı vardır: imza sağlayıcısının GUID'i.
 
-### Örnekler
+## Örnekler
 
 Kişisel sertifika ve imza satırı içeren bir belgenin nasıl imzalanacağını gösterir.
 
@@ -75,7 +77,5 @@ Assert.True(signatureLine.IsValid);
 ### Ayrıca bakınız
 
 * class [SignOptions](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../signoptions/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

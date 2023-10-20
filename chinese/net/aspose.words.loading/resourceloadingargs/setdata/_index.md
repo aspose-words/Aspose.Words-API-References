@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.SetData
-second_title: Aspose.Words for .NET API 参考
-description: ResourceLoadingArgs 方法. 设置用户提供的所使用资源的数据 ifResourceLoading 返回UserProvided.
+linktitle: SetData
+articleTitle: SetData
+second_title: 用于 .NET 的 Aspose.Words
+description: ResourceLoadingArgs SetData 方法. 设置用户提供的所使用资源的数据 ifResourceLoading 返回UserProvided 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.loading/resourceloadingargs/setdata/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.loading/resourceloadingargs/setdata/
 public void SetData(byte[] data)
 ```
 
-### 例子
+## 例子
 
 演示如何自定义将外部资源加载到文档中的过程。
 
@@ -77,7 +79,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 ### 也可以看看
 
 * class [ResourceLoadingArgs](../)
-* 命名空间 [Aspose.Words.Loading](../../resourceloadingargs/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

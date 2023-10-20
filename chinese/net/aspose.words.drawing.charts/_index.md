@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Drawing.Charts
-second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words.Drawing.Charts命名空间提供允许访问 Microsoft Word 文档中的图表的类
+linktitle: Aspose.Words.Drawing.Charts
+articleTitle: Aspose.Words.Drawing.Charts
+second_title: 用于 .NET 的 Aspose.Words
+description: 这Aspose.Words.Drawing.Charts命名空间提供允许访问 Microsoft Word 文档中的图表的类 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing.charts/
 ---
-这 **Aspose.Words.Drawing.Charts**命名空间提供允许访问 Microsoft Word 文档中的图表的类。
+这**Aspose.Words.Drawing.Charts**命名空间提供允许访问 Microsoft Word 文档中的图表的类。
 
 ## 课程
 
@@ -62,5 +64,3 @@ url: /zh/net/aspose.words.drawing.charts/
 | [ChartYValueType](./chartyvaluetype/) | 允许指定图表系列的 Y 值的类型。 |
 | [LegendPosition](./legendposition/) | 指定图表图例的可能位置。 |
 | [MarkerSymbol](./markersymbol/) | 指定标记符号样式。 |
-
-

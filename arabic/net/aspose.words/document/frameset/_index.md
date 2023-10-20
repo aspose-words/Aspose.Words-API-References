@@ -1,7 +1,9 @@
 ---
 title: Document.Frameset
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. إرجاع أFramesetعلى سبيل المثال إذا كان هذا المستند يمثل صفحة إطارات.
+linktitle: Frameset
+articleTitle: Frameset
+second_title: Aspose.Words لـ .NET
+description: Document Frameset ملكية. إرجاع أFramesetعلى سبيل المثال إذا كان هذا المستند يمثل صفحة إطارات في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words/document/frameset/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/document/frameset/
 public Frameset Frameset { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا لم تكن الوثيقة مؤطرة، فإن الخاصية لها`باطل` القيمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى الإطارات الموجودة على الصفحة.
 
@@ -44,7 +46,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * class [Frameset](../../../aspose.words.framesets/frameset/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

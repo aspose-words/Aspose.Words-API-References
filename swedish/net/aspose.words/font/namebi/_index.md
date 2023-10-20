@@ -1,7 +1,9 @@
 ---
 title: Font.NameBi
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Returnerar eller ställer in namnet på teckensnittet i ett dokument på högertillvänsterspråk.
+linktitle: NameBi
+articleTitle: NameBi
+second_title: Aspose.Words för .NET
+description: Font NameBi fast egendom. Returnerar eller ställer in namnet på teckensnittet i ett dokument på högertillvänsterspråk i C#.
 type: docs
 weight: 250
 url: /sv/net/aspose.words/font/namebi/
@@ -14,7 +16,7 @@ Returnerar eller ställer in namnet på teckensnittet i ett dokument på höger-
 public string NameBi { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man definierar separata uppsättningar teckensnittsinställningar för text från höger till vänster och höger till vänster.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

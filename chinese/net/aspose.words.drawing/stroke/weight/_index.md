@@ -1,9 +1,11 @@
 ---
 title: Stroke.Weight
-second_title: Aspose.Words for .NET API 参考
-description: Stroke 财产. 定义描画形状路径的画笔厚度以点为单位
+linktitle: Weight
+articleTitle: Weight
+second_title: 用于 .NET 的 Aspose.Words
+description: Stroke Weight 财产. 定义描画形状路径的画笔厚度以点为单位 在 C#.
 type: docs
-weight: 220
+weight: 210
 url: /zh/net/aspose.words.drawing/stroke/weight/
 ---
 ## Stroke.Weight property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/stroke/weight/
 public double Weight { get; set; }
 ```
 
-### 评论
+## 评论
 
 的默认值[`Shape`](../../shape/)是0.75。
 
-### 例子
+## 例子
 
 显示如何更改笔划属性。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ### 也可以看看
 
 * class [Stroke](../)
-* 命名空间 [Aspose.Words.Drawing](../../stroke/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

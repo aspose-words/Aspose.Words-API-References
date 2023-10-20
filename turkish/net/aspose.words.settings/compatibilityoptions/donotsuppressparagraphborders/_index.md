@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotSuppressParagraphBorders
-second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Çerçevelerin Yanındaki Paragraf Kenarlıklarını Bastırma.
+linktitle: DoNotSuppressParagraphBorders
+articleTitle: DoNotSuppressParagraphBorders
+second_title: Aspose.Words for .NET
+description: CompatibilityOptions DoNotSuppressParagraphBorders mülk. Çerçevelerin Yanındaki Paragraf Kenarlıklarını Bastırma C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.settings/compatibilityoptions/donotsuppressparagraphborders/
@@ -17,7 +19,5 @@ public bool DoNotSuppressParagraphBorders { get; set; }
 ### Ayrıca bakınız
 
 * class [CompatibilityOptions](../)
-* ad alanı [Aspose.Words.Settings](../../compatibilityoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

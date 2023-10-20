@@ -1,7 +1,9 @@
 ---
 title: AxisBound.ValueAsDate
-second_title: Aspose.Words für .NET-API-Referenz
-description: AxisBound eigendom. Gibt den Wert der Achsengrenze zurück dargestellt als Datum/Uhrzeit.
+linktitle: ValueAsDate
+articleTitle: ValueAsDate
+second_title: Aspose.Words für .NET
+description: AxisBound ValueAsDate eigendom. Gibt den Wert der Achsengrenze zurück dargestellt als Datum/Uhrzeit in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing.charts/axisbound/valueasdate/
@@ -14,7 +16,7 @@ Gibt den Wert der Achsengrenze zurück, dargestellt als Datum/Uhrzeit.
 public DateTime ValueAsDate { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie benutzerdefinierte Achsengrenzen festgelegt werden.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Siehe auch
 
 * class [AxisBound](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../axisbound/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

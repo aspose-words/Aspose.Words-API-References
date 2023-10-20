@@ -1,7 +1,9 @@
 ---
 title: RevisionGroupCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionGroupCollection свойство. Возвращает количество групп редакций в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: RevisionGroupCollection Count свойство. Возвращает количество групп редакций в коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/revisiongroupcollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/revisiongroupcollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать информацию о группе редакций в документе.
 
@@ -33,7 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### Смотрите также
 
 * class [RevisionGroupCollection](../)
-* пространство имен [Aspose.Words](../../revisiongroupcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

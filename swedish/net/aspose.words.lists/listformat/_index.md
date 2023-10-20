@@ -1,7 +1,9 @@
 ---
-title: Class ListFormat
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Lists.ListFormat klass. Tillåter att styra vilken listformatering som tillämpas på ett stycke.
+title: ListFormat Class
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Lists.ListFormat klass. Tillåter att styra vilken listformatering som tillämpas på ett stycke i C#.
 type: docs
 weight: 3480
 url: /sv/net/aspose.words.lists/listformat/
@@ -35,7 +37,7 @@ public class ListFormat
 | [ListOutdent](../../aspose.words.lists/listformat/listoutdent/)() | Minskar listnivån för det aktuella stycket med en nivå. |
 | [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers/)() | Tar bort siffror eller punkter från det aktuella stycket och ställer in listnivån till noll. |
 
-### Anmärkningar
+## Anmärkningar
 
 Ett stycke i ett Microsoft Word-dokument kan punkteras eller numreras. När ett stycke är punkterat eller numrerat, sägs det att listformatering tillämpas på stycket.
 
@@ -51,7 +53,7 @@ Själva listformateringen lagras i en[`List`](../list/) objekt som lagras separa
 
 Styckena hör inte fysiskt till en lista. Styckena just refererar till ett visst listobjekt via[`List`](./list/) property och en viss nivå i listan via[`ListLevelNumber`](./listlevelnumber/) property. Genom att ställa in dessa två egenskaper styr du vilka punkter och numrering som ska tillämpas på ett stycke.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med listnivåer.
 
@@ -105,5 +107,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * namnutrymme [Aspose.Words.Lists](../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Insert
-second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeCollection méthode. Insère un nœud dans la collection à lindex spécifié.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words pour .NET
+description: NodeCollection Insert méthode. Insère un nœud dans la collection à lindex spécifié en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/nodecollection/insert/
@@ -25,7 +27,7 @@ public void Insert(int index, Node node)
 | --- | --- |
 | NotSupportedException | Le[`NodeCollection`](../) est une collection "profonde". |
 
-### Remarques
+## Remarques
 
 Le nœud est inséré en tant qu'enfant dans l'objet nœud à partir duquel la collection a été créée.
 
@@ -35,7 +37,7 @@ Si l'indice est négatif et que sa valeur absolue est supérieure à[`Count`](..
 
 Si le nœud en cours d'insertion a été créé à partir d'un autre document, vous devez utiliser [`ImportNode`](../../documentbase/importnode/) pour importer le nœud dans le document actuel. Le nœud importé peut ensuite être inséré dans le document actuel.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec un NodeCollection.
 
@@ -73,7 +75,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* espace de noms [Aspose.Words](../../nodecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

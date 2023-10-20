@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.Type
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FolderFontSource propriété. Renvoie le type de la source de police.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words pour .NET
+description: FolderFontSource Type propriété. Renvoie le type de la source de police en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fonts/folderfontsource/type/
@@ -14,7 +16,7 @@ Renvoie le type de la source de police.
 public override FontSourceType Type { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un dossier système local contenant des polices comme source de polices.
 
@@ -36,7 +38,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [FolderFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../folderfontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

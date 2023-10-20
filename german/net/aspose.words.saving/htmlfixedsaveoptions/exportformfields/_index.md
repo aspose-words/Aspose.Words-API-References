@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportFormFields
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlFixedSaveOptions eigendom. Ruft die Angabe ab ob Formularfelder als interaktive Elemente als EingabeTag exportiert und nicht in Text oder Grafiken konvertiert werden oder legt diese fest.
+linktitle: ExportFormFields
+articleTitle: ExportFormFields
+second_title: Aspose.Words für .NET
+description: HtmlFixedSaveOptions ExportFormFields eigendom. Ruft die Angabe ab ob Formularfelder als interaktive Elemente als EingabeTag exportiert und nicht in Text oder Grafiken konvertiert werden oder legt diese fest in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
@@ -14,7 +16,7 @@ Ruft die Angabe ab, ob Formularfelder als interaktive Elemente (als „Eingabe�
 public bool ExportFormFields { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Formularfelder nach HTML exportiert werden.
 
@@ -56,7 +58,5 @@ else
 ### Siehe auch
 
 * class [HtmlFixedSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Comparing
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Le Aspose.Words.Comparing lespace de noms fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires lors de la comparaison de documents.
+linktitle: Aspose.Words.Comparing
+articleTitle: Aspose.Words.Comparing
+second_title: Aspose.Words pour .NET
+description: LeAspose.Words.Comparing lespace de noms fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires lors de la comparaison de documents en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.comparing/
 ---
-Le **Aspose.Words.Comparing** l'espace de noms fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires lors de la comparaison de documents.
+Le**Aspose.Words.Comparing** l'espace de noms fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires lors de la comparaison de documents.
 
 ## Des classes
 
@@ -19,5 +21,3 @@ Le **Aspose.Words.Comparing** l'espace de noms fournit des classes et des énum�
 | --- | --- |
 | [ComparisonTargetType](./comparisontargettype/) | Permet de spécifier le document de base qui sera utilisé lors de la comparaison. La valeur par défaut estCurrent . |
 | [Granularity](./granularity/) | Spécifie la granularité des modifications à suivre lors de la comparaison de deux documents. |
-
-

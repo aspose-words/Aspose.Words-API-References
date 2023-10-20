@@ -1,7 +1,9 @@
 ---
-title: Enum ExportFontFormat
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.ExportFontFormat uppräkning. Indikerar formatet som används för att exportera teckensnitt vid rendering till HTMLfast format.
+title: ExportFontFormat Enum
+linktitle: ExportFontFormat
+articleTitle: ExportFontFormat
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.ExportFontFormat uppräkning. Indikerar formatet som används för att exportera teckensnitt vid rendering till HTMLfast format i C#.
 type: docs
 weight: 4990
 url: /sv/net/aspose.words.saving/exportfontformat/
@@ -21,7 +23,7 @@ public enum ExportFontFormat
 | Woff | `0` | WOFF (Web Open Font Format). |
 | Ttf | `1` | TTF (TrueType Font-format). |
 
-### Exempel
+## Exempel
 
 Visar hur teckensnitt endast används från målmaskinen när du sparar ett dokument i HTML.
 
@@ -53,5 +55,3 @@ else
 * property [FontFormat](../htmlfixedsaveoptions/fontformat/)
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

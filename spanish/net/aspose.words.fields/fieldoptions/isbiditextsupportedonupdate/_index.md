@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.IsBidiTextSupportedOnUpdate
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldOptions propiedad. Obtiene o establece el valor que indica si el texto bidireccional es totalmente compatible durante la actualización del campo o no.
+linktitle: IsBidiTextSupportedOnUpdate
+articleTitle: IsBidiTextSupportedOnUpdate
+second_title: Aspose.Words para .NET
+description: FieldOptions IsBidiTextSupportedOnUpdate propiedad. Obtiene o establece el valor que indica si el texto bidireccional es totalmente compatible durante la actualización del campo o no en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/
@@ -14,7 +16,7 @@ Obtiene o establece el valor que indica si el texto bidireccional es totalmente 
 public bool IsBidiTextSupportedOnUpdate { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando esta propiedad se establece en`verdadero`, se realizan pasos adicionales para producir un resultado de campo compatible con language de derecha a izquierda (es decir, árabe o hebreo) durante su actualización.
 
@@ -22,7 +24,7 @@ Cuando esta propiedad se establece en`FALSO` y se utiliza el lenguaje de derecha
 
 El valor predeterminado es`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar FieldOptions para garantizar que la actualización de campos admita totalmente el texto bidireccional.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "FieldOptions.Bidi.docx");
 ### Ver también
 
 * class [FieldOptions](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldoptions/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

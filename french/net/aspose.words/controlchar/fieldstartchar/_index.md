@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldStartChar
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ControlChar champ. Début du caractère du champ MS Word  car19.
+linktitle: FieldStartChar
+articleTitle: FieldStartChar
+second_title: Aspose.Words pour .NET
+description: ControlChar FieldStartChar champ. Début du caractère du champ MS Word  car19 en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words/controlchar/fieldstartchar/
@@ -14,7 +16,7 @@ Début du caractère du champ MS Word : (car)19.
 public const char FieldStartChar;
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter divers caractères de contrôle à un document.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Voir également
 
 * class [ControlChar](../)
-* espace de noms [Aspose.Words](../../controlchar/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

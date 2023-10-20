@@ -1,7 +1,9 @@
 ---
-title: Enum SectionStart
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.SectionStart تعداد. نوع الفاصل في بداية المقطع.
+title: SectionStart Enum
+linktitle: SectionStart
+articleTitle: SectionStart
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.SectionStart تعداد. نوع الفاصل في بداية المقطع في C#.
 type: docs
 weight: 5760
 url: /ar/net/aspose.words/sectionstart/
@@ -24,7 +26,7 @@ public enum SectionStart
 | EvenPage | `3` | يبدأ القسم في صفحة زوجية جديدة. |
 | OddPage | `4` | يبدأ القسم بصفحة فردية جديدة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند Aspose.Words يدويًا.
 
@@ -120,5 +122,3 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

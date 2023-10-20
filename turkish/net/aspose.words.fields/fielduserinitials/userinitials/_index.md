@@ -1,7 +1,9 @@
 ---
 title: FieldUserInitials.UserInitials
-second_title: Aspose.Words for .NET API Referansı
-description: FieldUserInitials mülk. Geçerli kullanıcının baş harflerini alır veya ayarlar.
+linktitle: UserInitials
+articleTitle: UserInitials
+second_title: Aspose.Words for .NET
+description: FieldUserInitials UserInitials mülk. Geçerli kullanıcının baş harflerini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fielduserinitials/userinitials/
@@ -14,7 +16,7 @@ Geçerli kullanıcının baş harflerini alır veya ayarlar.
 public string UserInitials { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 KULLANICI BAŞLANGIÇLARI alanının nasıl kullanılacağını gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.USERINITIALS.docx");
 ### Ayrıca bakınız
 
 * class [FieldUserInitials](../)
-* ad alanı [Aspose.Words.Fields](../../fielduserinitials/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

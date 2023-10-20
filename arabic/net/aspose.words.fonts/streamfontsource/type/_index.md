@@ -1,7 +1,9 @@
 ---
 title: StreamFontSource.Type
-second_title: Aspose.Words لمراجع .NET API
-description: StreamFontSource ملكية. إرجاع نوع مصدر الخط.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: StreamFontSource Type ملكية. إرجاع نوع مصدر الخط في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/streamfontsource/type/
@@ -18,7 +20,5 @@ public FontSourceType Type { get; }
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [StreamFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../streamfontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

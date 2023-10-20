@@ -1,7 +1,9 @@
 ---
 title: Range.Revisions
-second_title: Aspose.Words för .NET API Referens
-description: Range fast egendom. Hämtar en samling revisioner spårade ändringar som finns i detta intervall.
+linktitle: Revisions
+articleTitle: Revisions
+second_title: Aspose.Words för .NET
+description: Range Revisions fast egendom. Hämtar en samling revisioner spårade ändringar som finns i detta intervall i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/range/revisions/
@@ -14,11 +16,11 @@ Hämtar en samling revisioner (spårade ändringar) som finns i detta intervall.
 public RevisionCollection Revisions { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den returnerade samlingen är en "live"-samling, vilket innebär att om du tar bort delar av ett dokument som innehåller revisioner kommer de borttagna revisionerna automatiskt att försvinna från denna samling.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med revisioner inom intervallet.
 
@@ -40,7 +42,5 @@ doc.FirstSection.Range.Revisions.RejectAll();
 
 * class [RevisionCollection](../../revisioncollection/)
 * class [Range](../)
-* namnutrymme [Aspose.Words](../../range/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

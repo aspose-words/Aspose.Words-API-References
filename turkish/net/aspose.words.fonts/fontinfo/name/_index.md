@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Name
-second_title: Aspose.Words for .NET API Referansı
-description: FontInfo mülk. Yazı tipinin adını alır.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words for .NET
+description: FontInfo Name mülk. Yazı tipinin adını alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fonts/fontinfo/name/
@@ -14,11 +16,11 @@ Yazı tipinin adını alır.
 public string Name { get; }
 ```
 
-### Notlar
+## Notlar
 
 Olamaz`hükümsüz`. Boş bir dize olabilir.
 
-### Örnekler
+## Örnekler
 
 Bir belgede hangi yazı tiplerinin mevcut olduğuna ilişkin ayrıntıların nasıl yazdırılacağını gösterir.
 
@@ -38,7 +40,5 @@ for (int i = 0; i < allFonts.Count; i++)
 ### Ayrıca bakınız
 
 * class [FontInfo](../)
-* ad alanı [Aspose.Words.Fonts](../../fontinfo/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.UnderlineColor
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين لون التسطير المطبق على الخط.
+linktitle: UnderlineColor
+articleTitle: UnderlineColor
+second_title: Aspose.Words لـ .NET
+description: Font UnderlineColor ملكية. الحصول على أو تعيين لون التسطير المطبق على الخط في C#.
 type: docs
 weight: 540
 url: /ar/net/aspose.words/font/underlinecolor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/underlinecolor/
 public Color UnderlineColor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين نمط ولون التسطير في النص.
 
@@ -33,7 +35,5 @@ doc.Save(ArtifactsDir + "Font.Underlines.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Overlay
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartTitle свойство. Определяет разрешено ли другим элементам диаграммы перекрывать заголовок. По умолчанию наложение установлено.ЛОЖЬ .
+linktitle: Overlay
+articleTitle: Overlay
+second_title: Aspose.Words для .NET
+description: ChartTitle Overlay свойство. Определяет разрешено ли другим элементам диаграммы перекрывать заголовок. По умолчанию наложение установлено.ЛОЖЬ  на С#.
 type: docs
-weight: 20
+weight: 10
 url: /ru/net/aspose.words.drawing.charts/charttitle/overlay/
 ---
 ## ChartTitle.Overlay property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/charttitle/overlay/
 public bool Overlay { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и задать заголовок.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### Смотрите также
 
 * class [ChartTitle](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../charttitle/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

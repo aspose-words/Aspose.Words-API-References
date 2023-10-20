@@ -1,7 +1,9 @@
 ---
 title: Node.CustomNodeId
-second_title: Aspose.Words for .NET API Referansı
-description: Node mülk. Özel düğüm tanımlayıcısını belirtir.
+linktitle: CustomNodeId
+articleTitle: CustomNodeId
+second_title: Aspose.Words for .NET
+description: Node CustomNodeId mülk. Özel düğüm tanımlayıcısını belirtir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/node/customnodeid/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/node/customnodeid/
 public int CustomNodeId { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan sıfırdır.
 
@@ -22,7 +24,7 @@ Bu tanımlayıcı isteğe göre ayarlanabilir ve kullanılabilir. Örneğin, har
 
 Önemli not, belirtilen değer bir çıktı dosyasına kaydedilmez ve yalnızca düğümün ömrü boyunca mevcuttur.
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçiş yapılacağını gösterir.
 
@@ -67,7 +69,5 @@ foreach (Node child in children)
 ### Ayrıca bakınız
 
 * class [Node](../)
-* ad alanı [Aspose.Words](../../node/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

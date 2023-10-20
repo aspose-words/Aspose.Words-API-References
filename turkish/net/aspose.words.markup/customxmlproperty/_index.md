@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlProperty
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.CustomXmlProperty sınıf. Tek bir özel XML niteliğini veya akıllı etiket özelliğini temsil eder.
+title: CustomXmlProperty Class
+linktitle: CustomXmlProperty
+articleTitle: CustomXmlProperty
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Markup.CustomXmlProperty sınıf. Tek bir özel XML niteliğini veya akıllı etiket özelliğini temsil eder C#'da.
 type: docs
 weight: 3940
 url: /tr/net/aspose.words.markup/customxmlproperty/
@@ -20,7 +22,7 @@ public class CustomXmlProperty
 
 | İsim | Tanım |
 | --- | --- |
-| [CustomXmlProperty](customxmlproperty/)(string, string, string) | Bu sınıfın yeni bir örneğini başlatır. |
+| [CustomXmlProperty](customxmlproperty/)(*string, string, string*) | Bu sınıfın yeni bir örneğini başlatır. |
 
 ## Özellikleri
 
@@ -30,11 +32,11 @@ public class CustomXmlProperty
 | [Uri](../../aspose.words.markup/customxmlproperty/uri/) { get; set; } | Özel XML özniteliğinin veya akıllı etiket özelliğinin ad alanı URI'sini alır veya ayarlar. |
 | [Value](../../aspose.words.markup/customxmlproperty/value/) { get; set; } | Özel XML özniteliğinin veya akıllı etiket özelliğinin değerini alır veya ayarlar. |
 
-### Notlar
+## Notlar
 
 Bir eşya olarak kullanılır[`CustomXmlPropertyCollection`](../customxmlpropertycollection/) Toplamak.
 
-### Örnekler
+## Örnekler
 
 Akıllı etiketlerin nasıl oluşturulacağını gösterir.
 
@@ -136,5 +138,3 @@ private class SmartTagPrinter : DocumentVisitor
 
 * ad alanı [Aspose.Words.Markup](../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../)
-
-

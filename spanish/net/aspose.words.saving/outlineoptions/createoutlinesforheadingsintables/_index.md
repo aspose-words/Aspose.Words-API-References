@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateOutlinesForHeadingsInTables
-second_title: Referencia de API de Aspose.Words para .NET
-description: OutlineOptions propiedad. Especifica si se crean o no esquemas para los encabezados párrafos formateados con estilos de encabezado dentro de las tablas.
+linktitle: CreateOutlinesForHeadingsInTables
+articleTitle: CreateOutlinesForHeadingsInTables
+second_title: Aspose.Words para .NET
+description: OutlineOptions CreateOutlinesForHeadingsInTables propiedad. Especifica si se crean o no esquemas para los encabezados párrafos formateados con estilos de encabezado dentro de las tablas en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/outlineoptions/createoutlinesforheadingsintables/
@@ -14,11 +16,11 @@ Especifica si se crean o no esquemas para los encabezados (párrafos formateados
 public bool CreateOutlinesForHeadingsInTables { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear entradas de esquema de documentos PDF para encabezados dentro de tablas.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TableHeadingOutlines.pdf", pdfSaveOption
 ### Ver también
 
 * class [OutlineOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../outlineoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

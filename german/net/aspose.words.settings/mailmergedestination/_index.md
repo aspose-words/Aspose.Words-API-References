@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeDestination
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Settings.MailMergeDestination opsomming. Gibt die möglichen Ergebnisse an die generiert werden können wenn ein Serienbrief für ein Dokument ausgeführt wird.
+title: MailMergeDestination Enum
+linktitle: MailMergeDestination
+articleTitle: MailMergeDestination
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Settings.MailMergeDestination opsomming. Gibt die möglichen Ergebnisse an die generiert werden können wenn ein Serienbrief für ein Dokument ausgeführt wird in C#.
 type: docs
 weight: 5830
 url: /de/net/aspose.words.settings/mailmergedestination/
@@ -24,7 +26,7 @@ public enum MailMergeDestination
 | Fax | `4` | Gibt an, dass konforme Hosting-Anwendungen Faxe mit den Dokumenten generieren sollen, die aus resultieren, indem die Felder in einem bestimmten Dokument mit Daten aus der angegebenen externen Datenquelle gefüllt werden. |
 | Default | `0` | Entspricht demNewDocument value. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [Destination](../mailmergesettings/destination/)
 * namensraum [Aspose.Words.Settings](../../aspose.words.settings/)
 * Montage [Aspose.Words](../../)
-
-

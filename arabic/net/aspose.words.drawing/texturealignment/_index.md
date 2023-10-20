@@ -1,7 +1,9 @@
 ---
-title: Enum TextureAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.TextureAlignment تعداد. يحدد المحاذاة لتبليط تعبئة النسيج.
+title: TextureAlignment Enum
+linktitle: TextureAlignment
+articleTitle: TextureAlignment
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.TextureAlignment تعداد. يحدد المحاذاة لتبليط تعبئة النسيج في C#.
 type: docs
 weight: 1370
 url: /ar/net/aspose.words.drawing/texturealignment/
@@ -29,7 +31,7 @@ public enum TextureAlignment
 | BottomRight | `8` | محاذاة الملمس السفلي الأيمن. |
 | None | `9` | لا توجد محاذاة للنسيج. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة وتبليط النسيج داخل الشكل.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

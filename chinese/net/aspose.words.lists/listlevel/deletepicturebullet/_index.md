@@ -1,7 +1,9 @@
 ---
 title: ListLevel.DeletePictureBullet
-second_title: Aspose.Words for .NET API 参考
-description: ListLevel 方法. 删除当前列表级别的图片项目符号
+linktitle: DeletePictureBullet
+articleTitle: DeletePictureBullet
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevel DeletePictureBullet 方法. 删除当前列表级别的图片项目符号 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.lists/listlevel/deletepicturebullet/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.lists/listlevel/deletepicturebullet/
 public void DeletePictureBullet()
 ```
 
-### 评论
+## 评论
 
 删除后将显示默认项目符号。
 
-### 例子
+## 例子
 
 演示如何为列表项标签设置自定义图像图标。
 
@@ -50,7 +52,5 @@ Assert.IsNull(list.ListLevels[0].ImageData);
 ### 也可以看看
 
 * class [ListLevel](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevel/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

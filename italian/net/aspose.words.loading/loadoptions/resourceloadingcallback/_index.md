@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.ResourceLoadingCallback
-second_title: Aspose.Words per .NET API Reference
-description: LoadOptions proprietà. Permette di controllare come vengono caricate le risorse esterne immagini fogli di stile quando un documento viene importato da HTML MHTML.
+linktitle: ResourceLoadingCallback
+articleTitle: ResourceLoadingCallback
+second_title: Aspose.Words per .NET
+description: LoadOptions ResourceLoadingCallback proprietà. Permette di controllare come vengono caricate le risorse esterne immagini fogli di stile quando un documento viene importato da HTML MHTML in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.loading/loadoptions/resourceloadingcallback/
@@ -14,7 +16,7 @@ Permette di controllare come vengono caricate le risorse esterne (immagini, fogl
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come gestire le risorse esterne durante il caricamento di documenti HTML.
 
@@ -65,7 +67,5 @@ private class HtmlLinkedResourceLoadingCallback : IResourceLoadingCallback
 
 * interface [IResourceLoadingCallback](../../iresourceloadingcallback/)
 * class [LoadOptions](../)
-* spazio dei nomi [Aspose.Words.Loading](../../loadoptions/)
+* spazio dei nomi [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../../)
-
-

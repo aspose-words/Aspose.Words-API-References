@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarksOutlineLevelCollection propriété. Obtient ou définit un niveau de plan de signet par le nom du signet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: BookmarksOutlineLevelCollection Item propriété. Obtient ou définit un niveau de plan de signet par le nom du signet en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/bookmarksoutlinelevelcollection/item/
@@ -22,7 +24,7 @@ public int this[string name] { get; set; }
 
 Le niveau de plan du signet. La plage valide est comprise entre 0 et 9.
 
-### Exemples
+## Exemples
 
 Montre comment définir les niveaux de plan pour les signets.
 
@@ -80,7 +82,7 @@ outlineLevels.Clear();
 ### Voir également
 
 * class [BookmarksOutlineLevelCollection](../)
-* espace de noms [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -101,7 +103,7 @@ public int this[int index] { get; set; }
 
 Le niveau de plan du signet. La plage valide est comprise entre 0 et 9.
 
-### Exemples
+## Exemples
 
 Montre comment définir les niveaux de plan pour les signets.
 
@@ -159,7 +161,5 @@ outlineLevels.Clear();
 ### Voir également
 
 * class [BookmarksOutlineLevelCollection](../)
-* espace de noms [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

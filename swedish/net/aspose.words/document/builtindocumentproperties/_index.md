@@ -1,7 +1,9 @@
 ---
 title: Document.BuiltInDocumentProperties
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Returnerar en samling som representerar alla inbyggda dokumentegenskaper i dokumentet.
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: Aspose.Words för .NET
+description: Document BuiltInDocumentProperties fast egendom. Returnerar en samling som representerar alla inbyggda dokumentegenskaper i dokumentet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/document/builtindocumentproperties/
@@ -14,7 +16,7 @@ Returnerar en samling som representerar alla inbyggda dokumentegenskaper i dokum
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med inbyggda dokumentegenskaper.
 
@@ -49,7 +51,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 
 * class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.LastChild
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart mülk. StdContent aralığındaki son alt öğeyi alır.
+linktitle: LastChild
+articleTitle: LastChild
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagRangeStart LastChild mülk. StdContent aralığındaki son alt öğeyi alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/lastchild/
@@ -14,7 +16,7 @@ StdContent aralığındaki son alt öğeyi alır.
 public Node LastChild { get; }
 ```
 
-### Notlar
+## Notlar
 
 Son alt düğüm yoksa, bir`hükümsüz` döndürülür.
 
@@ -22,7 +24,5 @@ Son alt düğüm yoksa, bir`hükümsüz` döndürülür.
 
 * class [Node](../../../aspose.words/node/)
 * class [StructuredDocumentTagRangeStart](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

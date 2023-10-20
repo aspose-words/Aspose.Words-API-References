@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.AllowEmbeddingPostScriptFonts
-second_title: Aspose.Words für .NET-API-Referenz
-description: SaveOptions eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt ob das Einbetten von Schriftarten mit PostScriptUmrissen zulässig ist  wenn TrueTypeSchriftarten in ein Dokument eingebettet werden sobald es gespeichert wird. Der Standardwert istFALSCH .
+linktitle: AllowEmbeddingPostScriptFonts
+articleTitle: AllowEmbeddingPostScriptFonts
+second_title: Aspose.Words für .NET
+description: SaveOptions AllowEmbeddingPostScriptFonts eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt ob das Einbetten von Schriftarten mit PostScriptUmrissen zulässig ist  wenn TrueTypeSchriftarten in ein Dokument eingebettet werden sobald es gespeichert wird. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
@@ -14,13 +16,13 @@ Ruft einen booleschen Wert ab oder legt diesen fest, der angibt, ob das Einbette
 public bool AllowEmbeddingPostScriptFonts { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Beachten Sie, dass Word keine PostScript-Schriftarten einbettet, aber Dokumente mit eingebetteten Schriftarten dieses Typs öffnen kann.
 
 Diese Option funktioniert nur, wenn[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) des [`FontInfos`](../../../aspose.words/documentbase/fontinfos/) Die Eigenschaft ist auf festgelegt`WAHR`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Dokument mit der PostScript-Schriftart gespeichert wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Document.AllowEmbeddingPostScriptFonts.docx", saveOptio
 ### Siehe auch
 
 * class [SaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../saveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

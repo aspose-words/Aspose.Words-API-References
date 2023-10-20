@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Tables
-second_title: Справочник по API Aspose.Words для .NET
-description: InlineStory свойство. Получает коллекцию таблиц которые являются непосредственными дочерними элементами истории.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words для .NET
+description: InlineStory Tables свойство. Получает коллекцию таблиц которые являются непосредственными дочерними элементами истории на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/inlinestory/tables/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/inlinestory/tables/
 public TableCollection Tables { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять узлы InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * class [InlineStory](../)
-* пространство имен [Aspose.Words](../../inlinestory/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

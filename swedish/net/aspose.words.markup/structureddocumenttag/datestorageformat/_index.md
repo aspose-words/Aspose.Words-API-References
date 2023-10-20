@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.DateStorageFormat
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Hämtar/ställer in format i vilket datumet för ett datum SDT lagras när SDTär bunden till en XMLnod i dokumentets datalager. Standardvärdet ärDateTime
+linktitle: DateStorageFormat
+articleTitle: DateStorageFormat
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag DateStorageFormat fast egendom. Hämtar/ställer in format i vilket datumet för ett datum SDT lagras närSDTär bunden till en XMLnod i dokumentets datalager. Standardvärdet ärDateTime i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.markup/structureddocumenttag/datestorageformat/
 ---
 ## StructuredDocumentTag.DateStorageFormat property
 
-Hämtar/ställer in format i vilket datumet för ett datum SDT lagras när **SDT**är bunden till en XML-nod i dokumentets datalager. Standardvärdet ärDateTime
+Hämtar/ställer in format i vilket datumet för ett datum SDT lagras när**SDT**är bunden till en XML-nod i dokumentets datalager. Standardvärdet ärDateTime
 
 ```csharp
 public SdtDateStorageFormat DateStorageFormat { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Åtkomst till den här egenskapen fungerar bara förDate SDT-typ.
 
 För alla andra SDT-typer kommer undantag att förekomma.
 
-### Exempel
+## Exempel
 
 Visar hur man uppmanar användaren att ange ett datum med en strukturerad dokumenttagg.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 
 * enum [SdtDateStorageFormat](../../sdtdatestorageformat/)
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

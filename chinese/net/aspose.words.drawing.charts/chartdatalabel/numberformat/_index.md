@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.NumberFormat
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabel 财产. 返回父元素的数字格式
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabel NumberFormat 财产. 返回父元素的数字格式 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/numberformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabel/numberformat/
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何将标签应用到折线图中的数据点。
 
@@ -93,7 +95,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartDataLabel](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

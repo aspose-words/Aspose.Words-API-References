@@ -1,7 +1,9 @@
 ---
 title: CustomPart.IsExternal
-second_title: Aspose.Words for .NET API Referansı
-description: CustomPart mülk. Bu özel parça OOXML paketinin içinde saklanıyorsa yanlış. Bu özel parça harici bir hedefse doğrudur.
+linktitle: IsExternal
+articleTitle: IsExternal
+second_title: Aspose.Words for .NET
+description: CustomPart IsExternal mülk. Bu özel parça OOXML paketinin içinde saklanıyorsa yanlış. Bu özel parça harici bir hedefse doğrudur C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/custompart/isexternal/
@@ -14,11 +16,11 @@ Bu özel parça OOXML paketinin içinde saklanıyorsa yanlış. Bu özel parça 
 public bool IsExternal { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Ayrıca bakınız
 
 * class [CustomPart](../)
-* ad alanı [Aspose.Words.Markup](../../custompart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

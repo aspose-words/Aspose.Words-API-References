@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.UserPromptRespondent
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على المستجيب أو تعيينه لمطالبات المستخدم أثناء التحديث الميداني.
+linktitle: UserPromptRespondent
+articleTitle: UserPromptRespondent
+second_title: Aspose.Words لـ .NET
+description: FieldOptions UserPromptRespondent ملكية. الحصول على المستجيب أو تعيينه لمطالبات المستخدم أثناء التحديث الميداني في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.fields/fieldoptions/userpromptrespondent/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.fields/fieldoptions/userpromptrespondent/
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا تم تعيين قيمة هذه الخاصية على`باطل` ، الحقول التي تتطلب استجابة المستخدم على Prompting (مثل[`FieldAsk`](../../fieldask/) أو[`FieldFillIn`](../../fieldfillin/)) لم يتم تحديثها.
 
 القيمة الافتراضية هي`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل ASK وتعيين خصائصه.
 
@@ -83,7 +85,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 
 * interface [IFieldUserPromptRespondent](../../ifielduserpromptrespondent/)
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

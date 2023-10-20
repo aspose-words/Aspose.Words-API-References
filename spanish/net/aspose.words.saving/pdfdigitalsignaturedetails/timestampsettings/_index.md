@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.TimestampSettings
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfDigitalSignatureDetails propiedad. Obtiene o establece la configuración de la marca de tiempo de la firma digital.
+linktitle: TimestampSettings
+articleTitle: TimestampSettings
+second_title: Aspose.Words para .NET
+description: PdfDigitalSignatureDetails TimestampSettings propiedad. Obtiene o establece la configuración de la marca de tiempo de la firma digital en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/
@@ -14,11 +16,11 @@ Obtiene o establece la configuración de la marca de tiempo de la firma digital.
 public PdfDigitalSignatureTimestampSettings TimestampSettings { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`nulo` y la firma digital no tendrá marca de tiempo. Cuando esta propiedad se establece en un valor válido[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings/) object, entonces la firma digital en el documento PDF tendrá una marca de tiempo.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo firmar digitalmente un documento PDF guardado y ponerle una marca de tiempo.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 * class [PdfDigitalSignatureTimestampSettings](../../pdfdigitalsignaturetimestampsettings/)
 * class [PdfDigitalSignatureDetails](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToc.UpdatePageNumbers
-second_title: Aspose.Words för .NET API Referens
-description: FieldToc metod. Uppdaterar sidnumren för objekt i den här innehållsförteckningen.
+linktitle: UpdatePageNumbers
+articleTitle: UpdatePageNumbers
+second_title: Aspose.Words för .NET
+description: FieldToc UpdatePageNumbers metod. Uppdaterar sidnumren för objekt i den här innehållsförteckningen i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.fields/fieldtoc/updatepagenumbers/
@@ -18,7 +20,7 @@ public bool UpdatePageNumbers()
 
 `Sann` om operationen lyckas. Om något av de relaterade TOC-bokmärkena togs bort,`falsk` kommer att returneras.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en innehållsförteckning och fyller den med poster baserat på rubrikstilar.
 
@@ -103,7 +105,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Se även
 
 * class [FieldToc](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtoc/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

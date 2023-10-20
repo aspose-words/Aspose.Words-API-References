@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdatingProgressCallback
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. يحصل على أو مجموعاتIFieldUpdatingProgressCallback التنفيذ.
+linktitle: FieldUpdatingProgressCallback
+articleTitle: FieldUpdatingProgressCallback
+second_title: Aspose.Words لـ .NET
+description: FieldOptions FieldUpdatingProgressCallback ملكية. يحصل على أو مجموعاتIFieldUpdatingProgressCallback التنفيذ في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.fields/fieldoptions/fieldupdatingprogresscallback/
@@ -18,7 +20,5 @@ public IFieldUpdatingProgressCallback FieldUpdatingProgressCallback { get; set; 
 
 * interface [IFieldUpdatingProgressCallback](../../ifieldupdatingprogresscallback/)
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

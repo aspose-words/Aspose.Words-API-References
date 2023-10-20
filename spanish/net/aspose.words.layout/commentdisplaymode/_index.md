@@ -1,7 +1,9 @@
 ---
-title: Enum CommentDisplayMode
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Layout.CommentDisplayMode enumeración. Especifica el modo de representación de los comentarios del documento.
+title: CommentDisplayMode Enum
+linktitle: CommentDisplayMode
+articleTitle: CommentDisplayMode
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Layout.CommentDisplayMode enumeración. Especifica el modo de representación de los comentarios del documento en C#.
 type: docs
 weight: 3290
 url: /es/net/aspose.words.layout/commentdisplaymode/
@@ -22,7 +24,7 @@ public enum CommentDisplayMode
 | ShowInBalloons | `1` | Representa los comentarios del documento en globos en el margen. Este es el valor predeterminado. |
 | ShowInAnnotations | `2` | Representa los comentarios del documento en anotaciones. Esto sólo está disponible para formato PDF. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo mostrar comentarios al guardar un documento en un formato renderizado.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Document.ShowCommentsInBalloons.pdf");
 
 * espacio de nombres [Aspose.Words.Layout](../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../)
-
-

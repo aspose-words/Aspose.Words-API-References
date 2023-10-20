@@ -1,7 +1,9 @@
 ---
 title: VbaModuleCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: VbaModuleCollection 财产. 检索VbaModule按索引的对象.
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: VbaModuleCollection Item 财产. 检索VbaModule按索引的对象 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.vba/vbamodulecollection/item/
@@ -18,7 +20,7 @@ public VbaModule this[int index] { get; }
 | --- | --- |
 | index | 要检索的模块的从零开始的索引。 |
 
-### 例子
+## 例子
 
 演示如何访问文档的 VBA 项目信息。
 
@@ -50,7 +52,7 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* 命名空间 [Aspose.Words.Vba](../../vbamodulecollection/)
+* 命名空间 [Aspose.Words.Vba](../../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../../)
 
 ---
@@ -63,7 +65,7 @@ vbaModules.Remove(vbaModules[2]);
 public VbaModule this[string name] { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问文档的 VBA 项目信息。
 
@@ -95,7 +97,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* 命名空间 [Aspose.Words.Vba](../../vbamodulecollection/)
+* 命名空间 [Aspose.Words.Vba](../../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../../)
-
-

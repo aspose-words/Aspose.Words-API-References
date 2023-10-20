@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Contains
-second_title: Aspose.Words لمراجع .NET API
-description: DropDownItemCollection طريقة. تحديد ما إذا كانت المجموعة تحتوي على القيمة المحددة.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words لـ .NET
+description: DropDownItemCollection Contains طريقة. تحديد ما إذا كانت المجموعة تحتوي على القيمة المحددة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/dropdownitemcollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string value)
 
 `حقيقي` إذا تم العثور على العنصر في المجموعة؛ خلاف ذلك،`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل مربع التحرير والسرد، وتحرير العناصر الموجودة في مجموعة العناصر الخاصة به.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### أنظر أيضا
 
 * class [DropDownItemCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../dropdownitemcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

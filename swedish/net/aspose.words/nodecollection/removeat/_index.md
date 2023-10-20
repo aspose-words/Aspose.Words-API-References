@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.RemoveAt
-second_title: Aspose.Words för .NET API Referens
-description: NodeCollection metod. Tar bort noden vid det angivna indexet från samlingen och från dokumentet.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words för .NET
+description: NodeCollection RemoveAt metod. Tar bort noden vid det angivna indexet från samlingen och från dokumentet i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/nodecollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Det nollbaserade indexet för noden. Negativa index är tillåtna och indikerar åtkomst från baksidan av listan. Till exempel betyder -1 den sista noden, -2 betyder näst före sist och så vidare. |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till och tar bort avsnitt i ett dokument.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ### Se även
 
 * class [NodeCollection](../)
-* namnutrymme [Aspose.Words](../../nodecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

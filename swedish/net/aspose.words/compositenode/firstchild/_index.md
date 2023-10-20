@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.FirstChild
-second_title: Aspose.Words för .NET API Referens
-description: CompositeNode fast egendom. Får det första barnet i noden.
+linktitle: FirstChild
+articleTitle: FirstChild
+second_title: Aspose.Words för .NET
+description: CompositeNode FirstChild fast egendom. Får det första barnet i noden i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/compositenode/firstchild/
@@ -14,11 +16,11 @@ Får det första barnet i noden.
 public Node FirstChild { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om det inte finns någon första underordnad nod, a`null` returneras.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en nods NextSibling-egenskap för att räkna upp sina närmaste barn.
 
@@ -81,7 +83,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* namnutrymme [Aspose.Words](../../compositenode/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

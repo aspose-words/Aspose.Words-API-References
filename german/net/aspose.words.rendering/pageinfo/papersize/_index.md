@@ -1,7 +1,9 @@
 ---
 title: PageInfo.PaperSize
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageInfo eigendom. Ruft das Papierformat als Aufzählung ab.
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words für .NET
+description: PageInfo PaperSize eigendom. Ruft das Papierformat als Aufzählung ab in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.rendering/pageinfo/papersize/
@@ -14,7 +16,7 @@ Ruft das Papierformat als Aufzählung ab.
 public PaperSize PaperSize { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seitengrößen- und Ausrichtungsinformationen für jede Seite in einem Word-Dokument gedruckt werden.
 
@@ -57,7 +59,5 @@ for (int i = 0; i < doc.PageCount; i++)
 
 * enum [PaperSize](../../../aspose.words/papersize/)
 * class [PageInfo](../)
-* namensraum [Aspose.Words.Rendering](../../pageinfo/)
+* namensraum [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../../)
-
-

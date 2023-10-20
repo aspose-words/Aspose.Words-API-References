@@ -1,7 +1,9 @@
 ---
-title: Class StreamFontSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.StreamFontSource klas. Basisklasse für benutzerdefinierte StreamSchriftartquelle.
+title: StreamFontSource Class
+linktitle: StreamFontSource
+articleTitle: StreamFontSource
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fonts.StreamFontSource klas. Basisklasse für benutzerdefinierte StreamSchriftartquelle in C#.
 type: docs
 weight: 3040
 url: /de/net/aspose.words.fonts/streamfontsource/
@@ -32,7 +34,7 @@ public abstract class StreamFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Gibt eine Liste der über diese Quelle verfügbaren Schriftarten zurück. |
 | abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream/)() | Diese Methode sollte den Stream bei Bedarf mit Schriftartdaten öffnen. |
 
-### Bemerkungen
+## Bemerkungen
 
 Um die Stream-Schriftartquelle verwenden zu können, sollten Sie eine abgeleitete Klasse daraus erstellen`StreamFontSource` und stellen die Implementierung bereit[`OpenFontDataStream`](./openfontdatastream/) Methode.
 
@@ -40,7 +42,7 @@ Um die Stream-Schriftartquelle verwenden zu können, sollten Sie eine abgeleitet
 
 `StreamFontSource` kann nützlich sein, da es ermöglicht, die Schriftdaten nur dann zu laden, wenn sie benötigt werden und sie nicht im Speicher für den zu speichern[`FontSettings`](../fontsettings/) Lebensdauer.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Schriftarten aus dem Stream geladen werden.
 
@@ -76,5 +78,3 @@ private class StreamFontSourceFile : StreamFontSource
 * class [FontSourceBase](../fontsourcebase/)
 * namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
-
-

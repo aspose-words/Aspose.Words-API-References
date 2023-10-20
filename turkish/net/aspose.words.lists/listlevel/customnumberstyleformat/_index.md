@@ -1,7 +1,9 @@
 ---
 title: ListLevel.CustomNumberStyleFormat
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevel mülk. Bu liste düzeyi için özel sayı stili biçimini alır. Örneğin a ç ĝ ....
+linktitle: CustomNumberStyleFormat
+articleTitle: CustomNumberStyleFormat
+second_title: Aspose.Words for .NET
+description: ListLevel CustomNumberStyleFormat mülk. Bu liste düzeyi için özel sayı stili biçimini alır. Örneğin a ç ĝ  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.lists/listlevel/customnumberstyleformat/
@@ -14,7 +16,7 @@ Bu liste düzeyi için özel sayı stili biçimini alır. Örneğin: "a, ç, ĝ,
 public string CustomNumberStyleFormat { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel sayı stiline sahip bir listenin biçiminin nasıl alınacağını gösterir.
 
@@ -38,7 +40,5 @@ Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, custom
 ### Ayrıca bakınız
 
 * class [ListLevel](../)
-* ad alanı [Aspose.Words.Lists](../../listlevel/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

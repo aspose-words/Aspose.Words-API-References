@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.MergePastedLists
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImportFormatOptions eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt ob eingefügte Listen mit umgebenden Listen zusammengeführt werden. Der Standardwert istFALSCH .
+linktitle: MergePastedLists
+articleTitle: MergePastedLists
+second_title: Aspose.Words für .NET
+description: ImportFormatOptions MergePastedLists eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt ob eingefügte Listen mit umgebenden Listen zusammengeführt werden. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/importformatoptions/mergepastedlists/
@@ -14,7 +16,7 @@ Ruft einen booleschen Wert ab oder legt diesen fest, der angibt, ob eingefügte 
 public bool MergePastedLists { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Listen aus Dokumenten zusammengeführt werden.
 
@@ -33,7 +35,5 @@ dstDoc.Save(ArtifactsDir + "Document.MergePastedLists.docx");
 ### Siehe auch
 
 * class [ImportFormatOptions](../)
-* namensraum [Aspose.Words](../../importformatoptions/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

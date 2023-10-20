@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.IsValid
-second_title: Aspose.Words for .NET API Referansı
-description: DigitalSignatureCollection mülk. İadelerdoğru bu koleksiyondaki tüm dijital imzalar geçerliyse ve belgede değişiklik yapılmadıysa Ayrıca şunu döndürürdoğru dijital imza yoksa. DöndürürYANLIŞ en az bir dijital imza geçersizse.
+linktitle: IsValid
+articleTitle: IsValid
+second_title: Aspose.Words for .NET
+description: DigitalSignatureCollection IsValid mülk. İadelerdoğru bu koleksiyondaki tüm dijital imzalar geçerliyse ve belgede değişiklik yapılmadıysa Ayrıca şunu döndürürdoğru dijital imza yoksa. DöndürürYANLIŞ en az bir dijital imza geçersizse C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
 public bool IsValid { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 X.509 sertifikalarına sahip belgelerin nasıl imzalanacağını gösterir.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### Ayrıca bakınız
 
 * class [DigitalSignatureCollection](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Story.FirstParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: Story mülk. Hikayedeki ilk paragrafı alır.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words for .NET
+description: Story FirstParagraph mülk. Hikayedeki ilk paragrafı alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/story/firstparagraph/
@@ -14,7 +16,7 @@ Hikayedeki ilk paragrafı alır.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Font özelliğini kullanarak bir metin dizisinin nasıl biçimlendirileceğini gösterir.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* ad alanı [Aspose.Words](../../story/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

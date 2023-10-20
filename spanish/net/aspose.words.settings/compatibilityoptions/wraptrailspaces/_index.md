@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.WrapTrailSpaces
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Espacios finales de ajuste de línea.
+linktitle: WrapTrailSpaces
+articleTitle: WrapTrailSpaces
+second_title: Aspose.Words para .NET
+description: CompatibilityOptions WrapTrailSpaces propiedad. Espacios finales de ajuste de línea en C#.
 type: docs
 weight: 710
 url: /es/net/aspose.words.settings/compatibilityoptions/wraptrailspaces/
@@ -17,7 +19,5 @@ public bool WrapTrailSpaces { get; set; }
 ### Ver también
 
 * class [CompatibilityOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../compatibilityoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

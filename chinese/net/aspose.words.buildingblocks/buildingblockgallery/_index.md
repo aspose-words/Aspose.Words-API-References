@@ -1,7 +1,9 @@
 ---
-title: Enum BuildingBlockGallery
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.BuildingBlocks.BuildingBlockGallery 枚举. 指定构建块分类到的预定义库
+title: BuildingBlockGallery Enum
+linktitle: BuildingBlockGallery
+articleTitle: BuildingBlockGallery
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.BuildingBlocks.BuildingBlockGallery 枚举. 指定构建块分类到的预定义库 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.buildingblocks/buildingblockgallery/
@@ -58,11 +60,11 @@ public enum BuildingBlockGallery
 | Watermarks | `37` |  |
 | Default | `0` | 与相同All. |
 
-### 评论
+## 评论
 
-对应于 **ST_DocPartGallery**输入 OOXML。
+对应于**ST_DocPartGallery**输入 OOXML。
 
-### 例子
+## 例子
 
 显示访问术语表文档中的构建块的方法。
 
@@ -167,5 +169,3 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * 命名空间 [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../)
-
-

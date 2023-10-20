@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsPosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: RevisionOptions eigendom. Ruft die Renderposition der Revisionsbalken ab oder legt sie fest. Der Standardwert istOutside .
+linktitle: RevisionBarsPosition
+articleTitle: RevisionBarsPosition
+second_title: Aspose.Words für .NET
+description: RevisionOptions RevisionBarsPosition eigendom. Ruft die Renderposition der Revisionsbalken ab oder legt sie fest. Der Standardwert istOutside  in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.layout/revisionoptions/revisionbarsposition/
@@ -14,7 +16,7 @@ Ruft die Renderposition der Revisionsbalken ab oder legt sie fest. Der Standardw
 public HorizontalAlignment RevisionBarsPosition { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Werte vonCenter UndInside sind nicht zulässig und verursachenArgumentOutOfRangeException.
 
@@ -22,7 +24,5 @@ Werte vonCenter UndInside sind nicht zulässig und verursachenArgumentOutOfRange
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [RevisionOptions](../)
-* namensraum [Aspose.Words.Layout](../../revisionoptions/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

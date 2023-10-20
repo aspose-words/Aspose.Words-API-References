@@ -1,7 +1,9 @@
 ---
 title: ImageSize.HorizontalResolution
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSize mülk. Yatay çözünürlüğü DPI cinsinden alır.
+linktitle: HorizontalResolution
+articleTitle: HorizontalResolution
+second_title: Aspose.Words for .NET
+description: ImageSize HorizontalResolution mülk. Yatay çözünürlüğü DPI cinsinden alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing/imagesize/horizontalresolution/
@@ -14,7 +16,7 @@ Yatay çözünürlüğü DPI cinsinden alır.
 public double HorizontalResolution { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şekildeki görüntünün özelliklerinin nasıl okunacağını gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### Ayrıca bakınız
 
 * class [ImageSize](../)
-* ad alanı [Aspose.Words.Drawing](../../imagesize/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

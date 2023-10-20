@@ -1,7 +1,9 @@
 ---
 title: Document.Variables
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bir belgeye veya şablona eklenen değişkenlerin koleksiyonunu döndürür.
+linktitle: Variables
+articleTitle: Variables
+second_title: Aspose.Words for .NET
+description: Document Variables mülk. Bir belgeye veya şablona eklenen değişkenlerin koleksiyonunu döndürür C#'da.
 type: docs
 weight: 440
 url: /tr/net/aspose.words/document/variables/
@@ -14,7 +16,7 @@ Bir belgeye veya şablona eklenen değişkenlerin koleksiyonunu döndürür.
 public VariableCollection Variables { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin değişken koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -82,7 +84,5 @@ Assert.That(variables, Is.Empty);
 
 * class [VariableCollection](../../variablecollection/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

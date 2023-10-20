@@ -1,7 +1,9 @@
 ---
-title: Enum BreakType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.BreakType uppräkning. Anger typen av brytning i ett dokument.
+title: BreakType Enum
+linktitle: BreakType
+articleTitle: BreakType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.BreakType uppräkning. Anger typen av brytning i ett dokument i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/breaktype/
@@ -28,7 +30,7 @@ public enum BreakType
 | SectionBreakOddPage | `7` | Anger början av ett nytt avsnitt på en udda sida. |
 | LineBreak | `8` | Explicit radbrytning. |
 
-### Exempel
+## Exempel
 
 Visar hur du skapar sidhuvuden och sidfötter i ett dokument med DocumentBuilder.
 
@@ -138,5 +140,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

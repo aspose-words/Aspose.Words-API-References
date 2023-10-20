@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportPageSetup
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定是否将页面设置导出为 HTMLMHTML 或 EPUB 默认为错误的.
+linktitle: ExportPageSetup
+articleTitle: ExportPageSetup
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions ExportPageSetup 财产. 指定是否将页面设置导出为 HTMLMHTML 或 EPUB 默认为错误的 在 C#.
 type: docs
 weight: 220
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
 public bool ExportPageSetup { get; set; }
 ```
 
-### 评论
+## 评论
 
 每个[`Section`](../../../aspose.words/section/)在Aspose.Words文档模型中提供页面设置信息 via[`PageSetup`](../../../aspose.words/pagesetup/)班级。当您将文档导出为 HTML 格式时，您可能需要保留此信息 以供进一步使用。特别是，页面设置对于渲染到分页媒体（打印） 或随后转换为本机 Microsoft Word 文件格式（DOCX、DOC、RTF、WML）可能很重要。
 
 在大多数情况下，HTML 旨在在不执行分页的浏览器中查看。所以这个feature 默认是不活动的。
 
-### 例子
+## 例子
 
 显示在保存为 HTML 时如何决定是否保留部分结构/页面设置信息。
 
@@ -80,7 +82,5 @@ else
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.BalanceSingleByteDoubleByteWidth
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Balansera enkelbyte och dubbelbytetecken.
+linktitle: BalanceSingleByteDoubleByteWidth
+articleTitle: BalanceSingleByteDoubleByteWidth
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions BalanceSingleByteDoubleByteWidth fast egendom. Balansera enkelbyte och dubbelbytetecken i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.settings/compatibilityoptions/balancesinglebytedoublebytewidth/
@@ -17,7 +19,5 @@ public bool BalanceSingleByteDoubleByteWidth { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

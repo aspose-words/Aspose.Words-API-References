@@ -1,12 +1,14 @@
 ---
 title: TableSubstitutionRule.Load
-second_title: Aspose.Words for .NET API Referansı
-description: TableSubstitutionRule yöntem. XML dosyasından tablo değiştirme ayarlarını yükler.
+linktitle: Load
+articleTitle: Load
+second_title: Aspose.Words for .NET
+description: TableSubstitutionRule Load yöntem. XML dosyasından tablo değiştirme ayarlarını yükler C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/tablesubstitutionrule/load/
 ---
-## Load(string) {#load_1}
+## Load(*string*) {#load_1}
 
 XML dosyasından tablo değiştirme ayarlarını yükler.
 
@@ -18,7 +20,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | Dosya adını girin. |
 
-### Örnekler
+## Örnekler
 
 Özel yazı tipi değiştirme tablolarıyla nasıl çalışılacağını gösterir.
 
@@ -79,12 +81,12 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Ayrıca bakınız
 
 * class [TableSubstitutionRule](../)
-* ad alanı [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Load(Stream) {#load}
+## Load(*Stream*) {#load}
 
 XML akışından tablo değiştirme ayarlarını yükler.
 
@@ -96,7 +98,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Giriş akışı. |
 
-### Örnekler
+## Örnekler
 
 Özel yazı tipi değiştirme tablolarıyla nasıl çalışılacağını gösterir.
 
@@ -157,7 +159,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Ayrıca bakınız
 
 * class [TableSubstitutionRule](../)
-* ad alanı [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartBookmark
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Marca la posición actual en el documento como inicio de marcador.
+linktitle: StartBookmark
+articleTitle: StartBookmark
+second_title: Aspose.Words para .NET
+description: DocumentBuilder StartBookmark método. Marca la posición actual en el documento como inicio de marcador en C#.
 type: docs
-weight: 620
+weight: 610
 url: /es/net/aspose.words/documentbuilder/startbookmark/
 ---
 ## DocumentBuilder.StartBookmark method
@@ -22,13 +24,13 @@ public BookmarkStart StartBookmark(string bookmarkName)
 
 El nodo de inicio del marcador que se acaba de crear.
 
-### Observaciones
+## Observaciones
 
 Los marcadores de un documento pueden superponerse y abarcar cualquier rango. Para crear un marcador válido necesita llamar a ambos`StartBookmark` y[`EndBookmark`](../endbookmark/) con el mismo*bookmarkName* parámetro.
 
 Los marcadores mal formados o con nombres duplicados se ignorarán cuando se guarde el documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un marcador.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

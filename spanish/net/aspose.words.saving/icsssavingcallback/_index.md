@@ -1,7 +1,9 @@
 ---
-title: Interface ICssSavingCallback
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.ICssSavingCallback interfaz. Implemente esta interfaz si desea controlar cómo Aspose.Words guarda CSS hoja de estilo en cascada cuando guarda un documento en HTML.
+title: ICssSavingCallback Interface
+linktitle: ICssSavingCallback
+articleTitle: ICssSavingCallback
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.ICssSavingCallback interfaz. Implemente esta interfaz si desea controlar cómo Aspose.Words guarda CSS hoja de estilo en cascada cuando guarda un documento en HTML en C#.
 type: docs
 weight: 5130
 url: /es/net/aspose.words.saving/icsssavingcallback/
@@ -18,9 +20,9 @@ public interface ICssSavingCallback
 
 | Nombre | Descripción |
 | --- | --- |
-| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving/)(CssSavingArgs) | Se llama cuando Aspose.Words guarda un CSS (hoja de estilo en cascada). |
+| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving/)(*[CssSavingArgs](../csssavingargs/)*) | Se llama cuando Aspose.Words guarda un CSS (hoja de estilo en cascada). |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con hojas de estilo CSS que crea una conversión HTML.
 
@@ -82,5 +84,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

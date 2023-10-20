@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Hyperlink
-second_title: Aspose.Words for .NET API 参考
-description: ThemeColors 财产. 指定超链接的颜色
+linktitle: Hyperlink
+articleTitle: Hyperlink
+second_title: 用于 .NET 的 Aspose.Words
+description: ThemeColors Hyperlink 财产. 指定超链接的颜色 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.themes/themecolors/hyperlink/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.themes/themecolors/hyperlink/
 public Color Hyperlink { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置主题的自定义颜色和字体。
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### 也可以看看
 
 * class [ThemeColors](../)
-* 命名空间 [Aspose.Words.Themes](../../themecolors/)
+* 命名空间 [Aspose.Words.Themes](../../../aspose.words.themes/)
 * 部件 [Aspose.Words](../../../)
-
-

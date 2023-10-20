@@ -1,7 +1,9 @@
 ---
 title: FieldTemplate.IncludeFullPath
-second_title: Aspose.Words لمراجع .NET API
-description: FieldTemplate ملكية. الحصول على أو تحديد ما إذا كان سيتم تضمين اسم مسار الملف بالكامل أم لا.
+linktitle: IncludeFullPath
+articleTitle: IncludeFullPath
+second_title: Aspose.Words لـ .NET
+description: FieldTemplate IncludeFullPath ملكية. الحصول على أو تحديد ما إذا كان سيتم تضمين اسم مسار الملف بالكامل أم لا في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldtemplate/includefullpath/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtemplate/includefullpath/
 public bool IncludeFullPath { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل القالب لعرض موقع نظام الملفات المحلي لقالب المستند.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Field.TEMPLATE.docx");
 ### أنظر أيضا
 
 * class [FieldTemplate](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtemplate/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

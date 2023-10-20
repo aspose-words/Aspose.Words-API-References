@@ -1,7 +1,9 @@
 ---
 title: FontConfigSubstitutionRule.ResetCache
-second_title: Aspose.Words for .NET API 参考
-description: FontConfigSubstitutionRule 方法. 重置 fontconfig 调用结果的缓存
+linktitle: ResetCache
+articleTitle: ResetCache
+second_title: 用于 .NET 的 Aspose.Words
+description: FontConfigSubstitutionRule ResetCache 方法. 重置 fontconfig 调用结果的缓存 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/fontconfigsubstitutionrule/resetcache/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontconfigsubstitutionrule/resetcache/
 public void ResetCache()
 ```
 
-### 例子
+## 例子
 
 显示与操作系统相关的字体配置替换。
 
@@ -50,7 +52,5 @@ if (isLinuxOrMac)
 ### 也可以看看
 
 * class [FontConfigSubstitutionRule](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontconfigsubstitutionrule/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

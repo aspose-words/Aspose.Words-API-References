@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution
-second_title: Справочник по API Aspose.Words для .NET
-description: MetafileRenderingOptions свойство. Получает или задает разрешение в пикселях на дюйм для эмуляции рендеринга метафайла до размера на странице.
+linktitle: EmulateRenderingToSizeOnPageResolution
+articleTitle: EmulateRenderingToSizeOnPageResolution
+second_title: Aspose.Words для .NET
+description: MetafileRenderingOptions EmulateRenderingToSizeOnPageResolution свойство. Получает или задает разрешение в пикселях на дюйм для эмуляции рендеринга метафайла до размера на странице на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosize
 public int EmulateRenderingToSizeOnPageResolution { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Эта опция используется только тогда, когда[`EmulateRenderingToSizeOnPage`](../emulaterenderingtosizeonpage/) установлено на`истинный`.
 
 Значение по умолчанию — 96. Это разрешение экрана по умолчанию. Т.е. рендеринг метафайла будет эмулировать отображение метафайла в MS Word со 100% коэффициентом масштабирования.
 
-### Примеры
+## Примеры
 
 Показывает, как отображать метафайл в зависимости от размера на странице.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf", saveO
 ### Смотрите также
 
 * class [MetafileRenderingOptions](../)
-* пространство имен [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

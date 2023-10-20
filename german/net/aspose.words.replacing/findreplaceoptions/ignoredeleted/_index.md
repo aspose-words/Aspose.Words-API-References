@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreDeleted
-second_title: Aspose.Words für .NET-API-Referenz
-description: FindReplaceOptions eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt ob Text in Löschrevisionen ignoriert werden soll. Der Standardwert istFALSCH .
+linktitle: IgnoreDeleted
+articleTitle: IgnoreDeleted
+second_title: Aspose.Words für .NET
+description: FindReplaceOptions IgnoreDeleted eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt ob Text in Löschrevisionen ignoriert werden soll. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/
@@ -14,7 +16,7 @@ Ruft einen booleschen Wert ab oder legt diesen fest, der angibt, ob Text in Lös
 public bool IgnoreDeleted { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text in Löschrevisionen während eines Suchen-und-Ersetzen-Vorgangs eingefügt oder ignoriert wird.
 
@@ -53,7 +55,5 @@ Assert.AreEqual(
 ### Siehe auch
 
 * class [FindReplaceOptions](../)
-* namensraum [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

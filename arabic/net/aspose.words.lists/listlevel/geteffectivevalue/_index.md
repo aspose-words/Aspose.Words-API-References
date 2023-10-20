@@ -1,7 +1,9 @@
 ---
 title: ListLevel.GetEffectiveValue
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevel طريقة. يُبلغ عن تمثيل السلسلة لـListLevelكائن لـ Index المحدد لعنصر القائمة. تحدد المعلماتNumberStyle وتنسيق اختياري string يُستخدم متىCustom تم تحديده.
+linktitle: GetEffectiveValue
+articleTitle: GetEffectiveValue
+second_title: Aspose.Words لـ .NET
+description: ListLevel GetEffectiveValue طريقة. يُبلغ عن تمثيل السلسلة لـListLevelكائن لـ Index المحدد لعنصر القائمة. تحدد المعلماتNumberStyle وتنسيق اختياري string يُستخدم متىCustom تم تحديده في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.lists/listlevel/geteffectivevalue/
@@ -32,7 +34,7 @@ public static string GetEffectiveValue(int index, NumberStyle numberStyle,
 | ArgumentException | *customNumberStyleFormat* يكون`باطل` أو فارغة عندما*numberStyle* مخصص.-أو- *customNumberStyleFormat* ليس`باطل` أو فارغة عندما*numberStyle* غير مخصص.-أو- *customNumberStyleFormat* غير صالح. |
 | ArgumentOutOfRangeException | الفهرس خارج النطاق. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على تنسيق القائمة بنمط الأرقام المخصص.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, custom
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [ListLevel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

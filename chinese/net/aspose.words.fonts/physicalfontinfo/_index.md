@@ -1,7 +1,9 @@
 ---
-title: Class PhysicalFontInfo
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.PhysicalFontInfo 班级. 指定有关 Aspose.Words 字体引擎可用的物理字体的信息
+title: PhysicalFontInfo Class
+linktitle: PhysicalFontInfo
+articleTitle: PhysicalFontInfo
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fonts.PhysicalFontInfo 班级. 指定有关 Aspose.Words 字体引擎可用的物理字体的信息 在 C#.
 type: docs
 weight: 3030
 url: /zh/net/aspose.words.fonts/physicalfontinfo/
@@ -25,7 +27,7 @@ public class PhysicalFontInfo
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | 字体的全名。 |
 | [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | 字体的版本字符串。 |
 
-### 例子
+## 例子
 
 演示如何列出可用字体。
 
@@ -46,5 +48,3 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 
 * 命名空间 [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../)
-
-

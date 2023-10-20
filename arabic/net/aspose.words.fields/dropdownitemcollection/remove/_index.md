@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: DropDownItemCollection طريقة. إزالة القيمة المحددة من المجموعة.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: DropDownItemCollection Remove طريقة. إزالة القيمة المحددة من المجموعة في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.fields/dropdownitemcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | القيمة الحساسة لحالة الأحرف المطلوب إزالتها. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل مربع التحرير والسرد، وتحرير العناصر الموجودة في مجموعة العناصر الخاصة به.
 
@@ -72,7 +74,5 @@ dropDownItems.Clear();
 ### أنظر أيضا
 
 * class [DropDownItemCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../dropdownitemcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

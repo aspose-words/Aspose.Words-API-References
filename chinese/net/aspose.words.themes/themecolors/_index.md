@@ -1,7 +1,9 @@
 ---
-title: Class ThemeColors
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Themes.ThemeColors 班级. 表示文档主题的配色方案包含十二种颜色
+title: ThemeColors Class
+linktitle: ThemeColors
+articleTitle: ThemeColors
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Themes.ThemeColors 班级. 表示文档主题的配色方案包含十二种颜色 在 C#.
 type: docs
 weight: 6480
 url: /zh/net/aspose.words.themes/themecolors/
@@ -33,7 +35,7 @@ public class ThemeColors
 | [Light1](../../aspose.words.themes/themecolors/light1/) { get; set; } | 指定颜色光 1. |
 | [Light2](../../aspose.words.themes/themecolors/light2/) { get; set; } | 指定颜色 Light 2. |
 
-### 例子
+## 例子
 
 展示如何设置主题的自定义颜色和字体。
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * 命名空间 [Aspose.Words.Themes](../../aspose.words.themes/)
 * 部件 [Aspose.Words](../../)
-
-

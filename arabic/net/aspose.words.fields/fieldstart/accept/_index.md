@@ -1,7 +1,9 @@
 ---
 title: FieldStart.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: FieldStart طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: FieldStart Accept طريقة. يقبل الزائر في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldstart/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 **خطأ شنيع** إذا طلب الزائر إيقاف التعداد.
 
-### ملاحظات
+## ملاحظات
 
 المكالمات[`VisitFieldStart`](../../../aspose.words/documentvisitor/visitfieldstart/).
 
 لمزيد من المعلومات، راجع نمط تصميم الزائر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة من الحقول.
 
@@ -132,7 +134,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [FieldStart](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldstart/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

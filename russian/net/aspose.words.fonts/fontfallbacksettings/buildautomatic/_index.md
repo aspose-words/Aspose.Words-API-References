@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.BuildAutomatic
-second_title: Справочник по API Aspose.Words для .NET
-description: FontFallbackSettings метод. Автоматически создает резервные настройки путем сканирования доступных шрифтов.
+linktitle: BuildAutomatic
+articleTitle: BuildAutomatic
+second_title: Aspose.Words для .NET
+description: FontFallbackSettings BuildAutomatic метод. Автоматически создает резервные настройки путем сканирования доступных шрифтов на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/
 public void BuildAutomatic()
 ```
 
-### Примечания
+## Примечания
 
 Этот метод может привести к неоптимальным резервным настройкам. Шрифты проверяются[ Диапазон символов Юникода](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) поля, а не фактическое наличие глифов. Также диапазоны Юникода проверяются индивидуально , и несколько диапазонов, связанных с одним языком/скриптом, могут использовать разные резервные шрифты.
 
-### Примеры
+## Примеры
 
 Показывает, как распределять резервные шрифты по диапазонам кодов символов Юникода.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 ### Смотрите также
 
 * class [FontFallbackSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

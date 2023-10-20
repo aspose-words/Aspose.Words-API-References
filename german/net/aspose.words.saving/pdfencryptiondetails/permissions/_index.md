@@ -1,7 +1,9 @@
 ---
 title: PdfEncryptionDetails.Permissions
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfEncryptionDetails eigendom. Gibt die Vorgänge an die einem Benutzer für ein verschlüsseltes PDFDokument gestattet sind. Der Standardwert istDisallowAll .
+linktitle: Permissions
+articleTitle: Permissions
+second_title: Aspose.Words für .NET
+description: PdfEncryptionDetails Permissions eigendom. Gibt die Vorgänge an die einem Benutzer für ein verschlüsseltes PDFDokument gestattet sind. Der Standardwert istDisallowAll  in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/pdfencryptiondetails/permissions/
@@ -14,7 +16,7 @@ Gibt die Vorgänge an, die einem Benutzer für ein verschlüsseltes PDF-Dokument
 public PdfPermissions Permissions { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Berechtigungen für ein gespeichertes PDF-Dokument festgelegt werden.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * enum [PdfPermissions](../../pdfpermissions/)
 * class [PdfEncryptionDetails](../)
-* namensraum [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

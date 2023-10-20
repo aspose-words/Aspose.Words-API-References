@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCheckErrors
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.MailMergeCheckErrors перечисление. Указывает как Microsoft Word будет сообщать об ошибках обнаруженных во время слияния почты.
+title: MailMergeCheckErrors Enum
+linktitle: MailMergeCheckErrors
+articleTitle: MailMergeCheckErrors
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Settings.MailMergeCheckErrors перечисление. Указывает как Microsoft Word будет сообщать об ошибках обнаруженных во время слияния почты на С#.
 type: docs
 weight: 5810
 url: /ru/net/aspose.words.settings/mailmergecheckerrors/
@@ -23,7 +25,7 @@ public enum MailMergeCheckErrors
 | CollectErrors | `3` | Завершите объединение и сообщите об ошибках в новом документе. |
 | Default | `2` | РавноPauseOnError значение. |
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -77,5 +79,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [CheckErrors](../mailmergesettings/checkerrors/)
 * пространство имен [Aspose.Words.Settings](../../aspose.words.settings/)
 * сборка [Aspose.Words](../../)
-
-

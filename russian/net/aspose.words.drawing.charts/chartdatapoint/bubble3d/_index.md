@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Bubble3D
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataPoint свойство. Указывает должен ли к пузырькам на пузырьковой диаграмме применяться трехмерный эффект.
+linktitle: Bubble3D
+articleTitle: Bubble3D
+second_title: Aspose.Words для .NET
+description: ChartDataPoint Bubble3D свойство. Указывает должен ли к пузырькам на пузырьковой диаграмме применяться трехмерный эффект на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartdatapoint/bubble3d/
@@ -17,7 +19,5 @@ public bool Bubble3D { get; set; }
 ### Смотрите также
 
 * class [ChartDataPoint](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

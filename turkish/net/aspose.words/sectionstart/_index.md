@@ -1,7 +1,9 @@
 ---
-title: Enum SectionStart
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.SectionStart Sıralama. Bölümün başlangıcındaki kesme türü.
+title: SectionStart Enum
+linktitle: SectionStart
+articleTitle: SectionStart
+second_title: Aspose.Words for .NET
+description: Aspose.Words.SectionStart Sıralama. Bölümün başlangıcındaki kesme türü C#'da.
 type: docs
 weight: 5760
 url: /tr/net/aspose.words/sectionstart/
@@ -24,7 +26,7 @@ public enum SectionStart
 | EvenPage | `3` | Bölüm yeni bir çift sayfada başlar. |
 | OddPage | `4` | Bölüm yeni tek sayı sayfasında başlar. |
 
-### Örnekler
+## Örnekler
 
 Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
 
@@ -120,5 +122,3 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

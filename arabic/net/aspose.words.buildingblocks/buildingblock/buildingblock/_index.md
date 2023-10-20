@@ -1,7 +1,9 @@
 ---
-title: BuildingBlock.BuildingBlock
-second_title: Aspose.Words لمراجع .NET API
-description: BuildingBlock البناء. تهيئة مثيل جديد لهذه الفئة.
+title: BuildingBlock
+linktitle: BuildingBlock
+articleTitle: BuildingBlock
+second_title: Aspose.Words لـ .NET
+description: BuildingBlock البناء. تهيئة مثيل جديد لهذه الفئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.buildingblocks/buildingblock/buildingblock/
@@ -18,13 +20,13 @@ public BuildingBlock(GlossaryDocument glossaryDoc)
 | --- | --- | --- |
 | glossaryDoc | GlossaryDocument | وثيقة المالك. |
 
-### ملاحظات
+## ملاحظات
 
 متى[`BuildingBlock`](../)تم إنشاؤه، فهو ينتمي إلى مستند المسرد المحدد، ولكنه ليس جزءًا من مستند المسرد بعد و[`ParentNode`](../../../aspose.words/node/parentnode/) يكون`باطل`.
 
-لإلحاق[`BuildingBlock`](../)إلى أ[`GlossaryDocument`](../../glossarydocument/) استخدم Node).
+لإلحاق[`BuildingBlock`](../)إلى أ[`GlossaryDocument`](../../glossarydocument/) استخدم [`AppendChild`](../../../aspose.words/compositenode/appendchild/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة كتلة إنشاء مخصصة إلى مستند.
 
@@ -122,7 +124,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [GlossaryDocument](../../glossarydocument/)
 * class [BuildingBlock](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

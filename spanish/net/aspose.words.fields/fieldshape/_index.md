@@ -1,7 +1,9 @@
 ---
-title: Class FieldShape
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldShape clase. Implementa el campo FORMA.
+title: FieldShape Class
+linktitle: FieldShape
+articleTitle: FieldShape
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldShape clase. Implementa el campo FORMA en C#.
 type: docs
 weight: 2410
 url: /es/net/aspose.words.fields/fieldshape/
@@ -43,17 +45,17 @@ public class FieldShape : Field
 | Nombre | Descripción |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
 | [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
-### Observaciones
+## Observaciones
 
 Recupera el texto especificado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear listas compatibles con idiomas de derecha a izquierda con campos BIDIOUTLINE.
 
@@ -124,5 +126,3 @@ Assert.AreEqual(ShapeType.OleObject, shape.ShapeType);
 * class [Field](../field/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.Password
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocSaveOptions propriété. Obtient/définit un mot de passe pour chiffrer le document à laide de la méthode de chiffrement RC4.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words pour .NET
+description: DocSaveOptions Password propriété. Obtient/définit un mot de passe pour chiffrer le document à laide de la méthode de chiffrement RC4 en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/docsaveoptions/password/
@@ -14,11 +16,11 @@ Obtient/définit un mot de passe pour chiffrer le document à l'aide de la méth
 public string Password { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Afin d'enregistrer le document sans cryptage, cette propriété doit être`nul` ou une chaîne vide.
 
-### Exemples
+## Exemples
 
 Montre comment définir les options d’enregistrement pour les anciens formats Microsoft Word.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Voir également
 
 * class [DocSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../docsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

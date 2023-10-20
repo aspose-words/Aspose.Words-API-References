@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SuppressAutoHyphens
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Spécifie si le paragraphe actuel doit être exempté de toute césure qui est appliquée dans les paramètres du document.
+linktitle: SuppressAutoHyphens
+articleTitle: SuppressAutoHyphens
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat SuppressAutoHyphens propriété. Spécifie si le paragraphe actuel doit être exempté de toute césure qui est appliquée dans les paramètres du document en C#.
 type: docs
 weight: 370
 url: /fr/net/aspose.words/paragraphformat/suppressautohyphens/
@@ -14,7 +16,7 @@ Spécifie si le paragraphe actuel doit être exempté de toute césure qui est a
 public bool SuppressAutoHyphens { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment supprimer la césure d’un paragraphe.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.SuppressHyphens.pdf");
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

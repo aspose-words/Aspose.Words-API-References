@@ -1,7 +1,9 @@
 ---
-title: Class Forms2OleControlCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection classe. Rappresenta la raccolta diForms2OleControl oggetti.
+title: Forms2OleControlCollection Class
+linktitle: Forms2OleControlCollection
+articleTitle: Forms2OleControlCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection classe. Rappresenta la raccolta diForms2OleControl oggetti in C#.
 type: docs
 weight: 1120
 url: /it/net/aspose.words.drawing.ole/forms2olecontrolcollection/
@@ -35,7 +37,7 @@ public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/)() | Ottiene l'enumeratore. |
 
-### Esempi
+## Esempi
 
 Mostra come accedere a un controllo OLE incorporato in un documento e ai relativi controlli figlio.
 
@@ -69,5 +71,3 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 * class [Forms2OleControl](../forms2olecontrol/)
 * spazio dei nomi [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * assemblea [Aspose.Words](../../)
-
-

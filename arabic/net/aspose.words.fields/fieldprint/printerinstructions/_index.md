@@ -1,7 +1,9 @@
 ---
 title: FieldPrint.PrinterInstructions
-second_title: Aspose.Words لمراجع .NET API
-description: FieldPrint ملكية. الحصول على أو تعيين أحرف رمز التحكم الخاصة بالطابعة أو تعليمات PostScript.
+linktitle: PrinterInstructions
+articleTitle: PrinterInstructions
+second_title: Aspose.Words لـ .NET
+description: FieldPrint PrinterInstructions ملكية. الحصول على أو تعيين أحرف رمز التحكم الخاصة بالطابعة أو تعليمات PostScript في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldprint/printerinstructions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldprint/printerinstructions/
 public string PrinterInstructions { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر لإدراج حقل طباعة.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Field.PRINT.docx");
 ### أنظر أيضا
 
 * class [FieldPrint](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldprint/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

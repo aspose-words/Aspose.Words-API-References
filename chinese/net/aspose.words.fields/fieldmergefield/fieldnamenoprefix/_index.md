@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.FieldNameNoPrefix
-second_title: Aspose.Words for .NET API 参考
-description: FieldMergeField 财产. 仅返回数据字段的名称任何前缀都会被剥离到前缀属性中
+linktitle: FieldNameNoPrefix
+articleTitle: FieldNameNoPrefix
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMergeField FieldNameNoPrefix 财产. 仅返回数据字段的名称任何前缀都会被剥离到前缀属性中 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldmergefield/fieldnamenoprefix/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldmergefield/fieldnamenoprefix/
 public string FieldNameNoPrefix { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 MERGEFIELD 字段来执行邮件合并。
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### 也可以看看
 
 * class [FieldMergeField](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldmergefield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

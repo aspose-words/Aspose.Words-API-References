@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxisTitle
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartAxisTitle 班级. 提供对轴标题属性的访问
+title: ChartAxisTitle Class
+linktitle: ChartAxisTitle
+articleTitle: ChartAxisTitle
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartAxisTitle 班级. 提供对轴标题属性的访问 在 C#.
 type: docs
 weight: 650
 url: /zh/net/aspose.words.drawing.charts/chartaxistitle/
@@ -20,12 +22,11 @@ public class ChartAxisTitle
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/chartaxistitle/font/) { get; } |  |
 | [Overlay](../../aspose.words.drawing.charts/chartaxistitle/overlay/) { get; set; } | 确定是否允许其他图表元素与标题重叠。 默认值为`错误的`. |
 | [Show](../../aspose.words.drawing.charts/chartaxistitle/show/) { get; set; } | 确定是否应显示轴的标题。 默认值为`错误的`. |
 | [Text](../../aspose.words.drawing.charts/chartaxistitle/text/) { get; set; } | 获取或设置轴标题的文本。 如果`无效的`或指定空值，将显示自动生成的标题。 |
 
-### 例子
+## 例子
 
 显示如何设置图表轴标题。
 
@@ -56,5 +57,3 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

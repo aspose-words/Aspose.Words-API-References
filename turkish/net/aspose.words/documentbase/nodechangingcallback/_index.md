@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.NodeChangingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBase mülk. Belgeye bir düğüm eklendiğinde veya kaldırıldığında çağrılır.
+linktitle: NodeChangingCallback
+articleTitle: NodeChangingCallback
+second_title: Aspose.Words for .NET
+description: DocumentBase NodeChangingCallback mülk. Belgeye bir düğüm eklendiğinde veya kaldırıldığında çağrılır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/documentbase/nodechangingcallback/
@@ -14,7 +16,7 @@ Belgeye bir düğüm eklendiğinde veya kaldırıldığında çağrılır.
 public INodeChangingCallback NodeChangingCallback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir geri aramayla düğüm değişiminin nasıl özelleştirileceğini gösterir.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * interface [INodeChangingCallback](../../inodechangingcallback/)
 * class [DocumentBase](../)
-* ad alanı [Aspose.Words](../../documentbase/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

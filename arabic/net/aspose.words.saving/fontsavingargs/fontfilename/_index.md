@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontFileName
-second_title: Aspose.Words لمراجع .NET API
-description: FontSavingArgs ملكية. الحصول على أو تعيين اسم الملف بدون مسار حيث سيتم حفظ الخط.
+linktitle: FontFileName
+articleTitle: FontFileName
+second_title: Aspose.Words لـ .NET
+description: FontSavingArgs FontFileName ملكية. الحصول على أو تعيين اسم الملف بدون مسار حيث سيتم حفظ الخط في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/fontsavingargs/fontfilename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/fontsavingargs/fontfilename/
 public string FontFileName { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تتيح لك هذه الخاصية إعادة تعريف كيفية إنشاء أسماء ملفات الخطوط أثناء التصدير إلى HTML.
 
@@ -28,7 +30,7 @@ public string FontFileName { get; set; }
 
 `FontFileName` يجب أن يحتوي على اسم الملف فقط بدون المسار. يحدد Aspose.Words المسار للحفظ باستخدام اسم ملف المستند، [`FontsFolder`](../../htmlsaveoptions/fontsfolder/) و [`FontsFolderAlias`](../../htmlsaveoptions/fontsfolderalias/) ملكيات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المنطق المخصص لتصدير الخطوط عند الحفظ إلى HTML.
 
@@ -88,7 +90,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### أنظر أيضا
 
 * class [FontSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../fontsavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

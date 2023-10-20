@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.AddSpaceBetweenFarEastAndAlpha
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit un indicateur indiquant si lespacement entre les caractères est automatiquement ajusté entre les régions du texte latin et les régions du texte dAsie de lEst dans le paragraphe actuel.
+linktitle: AddSpaceBetweenFarEastAndAlpha
+articleTitle: AddSpaceBetweenFarEastAndAlpha
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat AddSpaceBetweenFarEastAndAlpha propriété. Obtient ou définit un indicateur indiquant si lespacement entre les caractères est automatiquement ajusté entre les régions du texte latin et les régions du texte dAsie de lEst dans le paragraphe actuel en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/paragraphformat/addspacebetweenfareastandalpha/
@@ -14,7 +16,7 @@ Obtient ou définit un indicateur indiquant si l'espacement entre les caractère
 public bool AddSpaceBetweenFarEastAndAlpha { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un paragraphe dans le document.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

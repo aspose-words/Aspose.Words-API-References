@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOleObjectAsIcon
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Inserta un objeto OLE incrustado o vinculado como icono en el documento. Permite especificar el archivo de icono y el título. Detecta el tipo de objeto OLE usando la extensión de archivo.
+linktitle: InsertOleObjectAsIcon
+articleTitle: InsertOleObjectAsIcon
+second_title: Aspose.Words para .NET
+description: DocumentBuilder InsertOleObjectAsIcon método. Inserta un objeto OLE incrustado o vinculado como icono en el documento. Permite especificar el archivo de icono y el título. Detecta el tipo de objeto OLE usando la extensión de archivo en C#.
 type: docs
-weight: 410
+weight: 400
 url: /es/net/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
-## InsertOleObjectAsIcon(string, bool, string, string) {#insertoleobjectasicon_1}
+## InsertOleObjectAsIcon(*string, bool, string, string*) {#insertoleobjectasicon_1}
 
 Inserta un objeto OLE incrustado o vinculado como icono en el documento. Permite especificar el archivo de icono y el título. Detecta el tipo de objeto OLE usando la extensión de archivo.
 
@@ -26,7 +28,7 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 
 Nodo de forma que contiene el objeto Ole e insertado en la posición actual del Constructor.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un objeto OLE en un documento.
 
@@ -63,12 +65,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObjectAsIcon(string, string, bool, string, string) {#insertoleobjectasicon_2}
+## InsertOleObjectAsIcon(*string, string, bool, string, string*) {#insertoleobjectasicon_2}
 
 Inserta un objeto OLE incrustado o vinculado como icono en el documento. Permite especificar el archivo de icono y el título. Detecta el tipo de objeto OLE utilizando el parámetro progID dado.
 
@@ -89,7 +91,7 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 
 Nodo de forma que contiene el objeto Ole e insertado en la posición actual del Constructor.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un objeto OLE incrustado o vinculado como icono en el documento.
 
@@ -122,12 +124,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObjectAsIcon(Stream, string, string, string) {#insertoleobjectasicon}
+## InsertOleObjectAsIcon(*Stream, string, string, string*) {#insertoleobjectasicon}
 
 Inserta un objeto OLE incrustado como icono de una secuencia en el documento. Permite especificar el archivo de icono y el título. Detecta el tipo de objeto OLE utilizando el parámetro progID dado.
 
@@ -147,7 +149,7 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 
 Nodo de forma que contiene el objeto Ole e insertado en la posición actual del Constructor.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un objeto OLE incrustado o vinculado como icono en el documento.
 
@@ -180,7 +182,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

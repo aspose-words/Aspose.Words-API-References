@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.RemoveByPosition
-second_title: Referencia de API de Aspose.Words para .NET
-description: TabStopCollection método. Elimina una tabulación en la posición especificada de la colección.
+linktitle: RemoveByPosition
+articleTitle: RemoveByPosition
+second_title: Aspose.Words para .NET
+description: TabStopCollection RemoveByPosition método. Elimina una tabulación en la posición especificada de la colección en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words/tabstopcollection/removebyposition/
@@ -18,7 +20,7 @@ public void RemoveByPosition(double position)
 | --- | --- | --- |
 | position | Double | La posición (en puntos) de la tabulación que se va a eliminar. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo modificar la posición de la tabulación derecha en párrafos relacionados con TOC.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 ### Ver también
 
 * class [TabStopCollection](../)
-* espacio de nombres [Aspose.Words](../../tabstopcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

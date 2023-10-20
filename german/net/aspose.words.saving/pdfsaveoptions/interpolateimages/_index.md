@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.InterpolateImages
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Ein Flag das angibt ob die Bildinterpolation von einem konformen Lesegerät durchgeführt werden soll. WannFALSCH angegeben ist wird das Flag nicht in das Ausgabedokument geschrieben und stattdessen wird das Standardverhalten des Readers verwendet.
+linktitle: InterpolateImages
+articleTitle: InterpolateImages
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions InterpolateImages eigendom. Ein Flag das angibt ob die Bildinterpolation von einem konformen Lesegerät durchgeführt werden soll. WannFALSCH angegeben ist wird das Flag nicht in das Ausgabedokument geschrieben und stattdessen wird das Standardverhalten des Readers verwendet in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words.saving/pdfsaveoptions/interpolateimages/
@@ -14,7 +16,7 @@ Ein Flag, das angibt, ob die Bildinterpolation von einem konformen Lesegerät du
 public bool InterpolateImages { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn die Auflösung eines Quellbilds deutlich niedriger ist als die des Ausgabegeräts, deckt jedes Quellbild viele Gerätepixel ab. Infolgedessen können Bilder zackig oder blockig erscheinen. Diese visuellen Artefakte können durch die Anwendung eines Bildinterpolationsalgorithmus während des Renderns reduziert werden. Anstatt alle von einem Quellmuster abgedeckten Pixel mit derselben Farbe zu malen, versucht die Bildinterpolation , eine Glättung zu erzeugen Übergang zwischen benachbarten Abtastwerten.
 
@@ -24,7 +26,7 @@ Der Standardwert ist`FALSCH`.
 
 Das Interpolationsflag ist aufgrund der PDF/A-Konformität verboten.`FALSCH` Beim Speichern in PDF/A wird der Wert automatisch verwendet.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man beim Speichern eines Dokuments als PDF eine Interpolation an Bildern durchführt.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.InterpolateImagesNetStandard2.pdf", save
 ### Siehe auch
 
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

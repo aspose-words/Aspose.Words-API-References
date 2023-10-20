@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotAutofitConstrainedTables
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. لا تقم باحتواء الجداول تلقائيًا لتلائم الكائنات الملتفة.
+linktitle: DoNotAutofitConstrainedTables
+articleTitle: DoNotAutofitConstrainedTables
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions DoNotAutofitConstrainedTables ملكية. لا تقم باحتواء الجداول تلقائيًا لتلائم الكائنات الملتفة في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.settings/compatibilityoptions/donotautofitconstrainedtables/
@@ -17,7 +19,5 @@ public bool DoNotAutofitConstrainedTables { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

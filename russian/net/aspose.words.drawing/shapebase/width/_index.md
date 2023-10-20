@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Width
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает или задает ширину содержащего блока фигуры.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words для .NET
+description: ShapeBase Width свойство. Получает или задает ширину содержащего блока фигуры на С#.
 type: docs
 weight: 570
 url: /ru/net/aspose.words.drawing/shapebase/width/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/width/
 public double Width { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Для фигуры верхнего уровня значение указывается в пунктах.
 
@@ -22,7 +24,7 @@ public double Width { get; set; }
 
 Значение по умолчанию — 0.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить плавающее изображение и указать его положение и размер.
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageInfo.WidthInPoints
-second_title: Aspose.Words for .NET API Referansı
-description: PageInfo mülk. Sayfanın genişliğini nokta olarak alır.
+linktitle: WidthInPoints
+articleTitle: WidthInPoints
+second_title: Aspose.Words for .NET
+description: PageInfo WidthInPoints mülk. Sayfanın genişliğini nokta olarak alır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.rendering/pageinfo/widthinpoints/
@@ -14,7 +16,7 @@ Sayfanın genişliğini nokta olarak alır.
 public float WidthInPoints { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir Word belgesindeki her sayfa için sayfa boyutu ve yön bilgilerinin nasıl yazdırılacağını gösterir.
 
@@ -56,7 +58,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Ayrıca bakınız
 
 * class [PageInfo](../)
-* ad alanı [Aspose.Words.Rendering](../../pageinfo/)
+* ad alanı [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../../)
-
-

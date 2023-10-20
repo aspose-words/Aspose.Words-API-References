@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarkCollection метод. Удаляет все закладки из этой коллекции и из документа.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: BookmarkCollection Clear метод. Удаляет все закладки из этой коллекции и из документа на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/bookmarkcollection/clear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/bookmarkcollection/clear/
 public void Clear()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить закладки из документа.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Смотрите также
 
 * class [BookmarkCollection](../)
-* пространство имен [Aspose.Words](../../bookmarkcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Minimum
-second_title: Aspose.Words for .NET API Referansı
-description: AxisScaling mülk. Eksenin minimum değerini alır veya ayarlar.
+linktitle: Minimum
+articleTitle: Minimum
+second_title: Aspose.Words for .NET
+description: AxisScaling Minimum mülk. Eksenin minimum değerini alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.charts/axisscaling/minimum/
@@ -14,11 +16,11 @@ Eksenin minimum değerini alır veya ayarlar.
 public AxisBound Minimum { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer "otomatik"tir.
 
-### Örnekler
+## Örnekler
 
 Tarih/saat değerleriyle grafiğin nasıl ekleneceğini gösterir.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisBound](../../axisbound/)
 * class [AxisScaling](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

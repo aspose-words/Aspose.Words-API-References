@@ -1,7 +1,9 @@
 ---
 title: SectionCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: SectionCollection proprietà. Recupera una sezione allindice specificato.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: SectionCollection Item proprietà. Recupera una sezione allindice specificato in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/sectioncollection/item/
@@ -18,7 +20,7 @@ public Section this[int index] { get; }
 | --- | --- |
 | index | Un indice nell'elenco delle sezioni. |
 
-### Osservazioni
+## Osservazioni
 
 L'indice è a base zero.
 
@@ -28,7 +30,7 @@ Se indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un
 
 Se indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento null.
 
-### Esempi
+## Esempi
 
 Mostra quando ricalcolare il layout di pagina del documento.
 
@@ -83,7 +85,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Section](../../section/)
 * class [SectionCollection](../)
-* spazio dei nomi [Aspose.Words](../../sectioncollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

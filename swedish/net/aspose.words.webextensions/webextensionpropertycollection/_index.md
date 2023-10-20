@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionPropertyCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.WebExtensions.WebExtensionPropertyCollection klass. Anger en uppsättning anpassade egenskaper för webbtillägg.
+title: WebExtensionPropertyCollection Class
+linktitle: WebExtensionPropertyCollection
+articleTitle: WebExtensionPropertyCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.WebExtensions.WebExtensionPropertyCollection klass. Anger en uppsättning anpassade egenskaper för webbtillägg i C#.
 type: docs
 weight: 6790
 url: /sv/net/aspose.words.webextensions/webextensionpropertycollection/
@@ -27,12 +29,12 @@ public class WebExtensionPropertyCollection : BaseWebExtensionCollection<WebExte
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(WebExtensionProperty) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*[WebExtensionProperty](../webextensionproperty/)*) |  |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) |  |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 * class [WebExtensionProperty](../webextensionproperty/)
 * namnutrymme [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../)
-
-

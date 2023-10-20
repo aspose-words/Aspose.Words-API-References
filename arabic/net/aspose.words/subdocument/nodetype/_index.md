@@ -1,7 +1,9 @@
 ---
 title: SubDocument.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: SubDocument ملكية. إرجاعSubDocument .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: SubDocument NodeType ملكية. إرجاعSubDocument  في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/subdocument/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/subdocument/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى المستند الثانوي للمستند الرئيسي.
 
@@ -32,7 +34,5 @@ Assert.False(subDocument.IsComposite);
 
 * enum [NodeType](../../nodetype/)
 * class [SubDocument](../)
-* مساحة الاسم [Aspose.Words](../../subdocument/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum MarkdownListExportMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.MarkdownListExportMode uppräkning. Anger hur listor exporteras till Markdown.
+title: MarkdownListExportMode Enum
+linktitle: MarkdownListExportMode
+articleTitle: MarkdownListExportMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.MarkdownListExportMode uppräkning. Anger hur listor exporteras till Markdown i C#.
 type: docs
 weight: 5270
 url: /sv/net/aspose.words.saving/markdownlistexportmode/
@@ -25,5 +27,3 @@ public enum MarkdownListExportMode
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

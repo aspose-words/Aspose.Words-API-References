@@ -1,7 +1,9 @@
 ---
 title: Document.FieldOptions
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Ottiene aFieldOptions oggetto che rappresenta le opzioni per controllare la gestione dei campi nel documento.
+linktitle: FieldOptions
+articleTitle: FieldOptions
+second_title: Aspose.Words per .NET
+description: Document FieldOptions proprietà. Ottiene aFieldOptions oggetto che rappresenta le opzioni per controllare la gestione dei campi nel documento in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words/document/fieldoptions/
@@ -14,7 +16,7 @@ Ottiene a[`FieldOptions`](../../../aspose.words.fields/fieldoptions/) oggetto ch
 public FieldOptions FieldOptions { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come specificare l'origine delle impostazioni cultura utilizzate per la formattazione della data durante un aggiornamento di campo o una stampa unione.
 
@@ -50,7 +52,5 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * class [FieldOptions](../../../aspose.words.fields/fieldoptions/)
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageData.Contrast
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData ملكية. الحصول على أو تعيين التباين للصورة المحددة. يجب أن تكون قيمة value لهذه الخاصية رقمًا يتراوح بين 0.0 أقل تباين إلى 1.0 أكبر تباين.
+linktitle: Contrast
+articleTitle: Contrast
+second_title: Aspose.Words لـ .NET
+description: ImageData Contrast ملكية. الحصول على أو تعيين التباين للصورة المحددة. يجب أن تكون قيمة value لهذه الخاصية رقمًا يتراوح بين 0.0 أقل تباين إلى 1.0 أكبر تباين في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/imagedata/contrast/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/imagedata/contrast/
 public double Contrast { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي 0.5.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير بيانات صورة الشكل.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

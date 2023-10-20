@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndEditableRange
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Marca la posición actual en el documento como un final de rango editable.
+linktitle: EndEditableRange
+articleTitle: EndEditableRange
+second_title: Aspose.Words para .NET
+description: DocumentBuilder EndEditableRange método. Marca la posición actual en el documento como un final de rango editable en C#.
 type: docs
 weight: 230
 url: /es/net/aspose.words/documentbuilder/endeditablerange/
@@ -18,13 +20,13 @@ public EditableRangeEnd EndEditableRange()
 
 El nodo final del rango editable que se acaba de crear.
 
-### Observaciones
+## Observaciones
 
 El rango editable en un documento puede superponerse y abarcar cualquier rango. Para crear un rango editable válido necesita llamar a ambos[`StartEditableRange`](../starteditablerange/) y`EndEditableRange` o`EndEditableRange` métodos.
 
 El rango editable mal formado se ignorará cuando se guarde el documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con un rango editable.
 
@@ -71,12 +73,12 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## EndEditableRange(EditableRangeStart) {#endeditablerange_1}
+## EndEditableRange(*[EditableRangeStart](../../editablerangestart/)*) {#endeditablerange_1}
 
 Marca la posición actual en el documento como un final de rango editable.
 
@@ -92,7 +94,7 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 
 El nodo final del rango editable que se acaba de crear.
 
-### Observaciones
+## Observaciones
 
 Utilice esta sobrecarga durante la creación de rangos editables anidados.
 
@@ -100,7 +102,7 @@ El rango editable en un documento puede superponerse y abarcar cualquier rango. 
 
 El rango editable mal formado se ignorará cuando se guarde el documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear rangos editables anidados.
 
@@ -143,7 +145,5 @@ doc.Save(ArtifactsDir + "EditableRange.Nested.docx");
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

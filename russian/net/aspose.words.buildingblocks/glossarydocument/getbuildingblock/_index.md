@@ -1,9 +1,11 @@
 ---
 title: GlossaryDocument.GetBuildingBlock
-second_title: Справочник по API Aspose.Words для .NET
-description: GlossaryDocument метод. Находит стандартный блок используя указанную галерею категорию и имя.
+linktitle: GetBuildingBlock
+articleTitle: GetBuildingBlock
+second_title: Aspose.Words для .NET
+description: GlossaryDocument GetBuildingBlock метод. Находит стандартный блок используя указанную галерею категорию и имя на С#.
 type: docs
-weight: 90
+weight: 70
 url: /ru/net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument.GetBuildingBlock method
@@ -24,13 +26,13 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 
 Соответствующий строительный блок или`нулевой` если совпадение не найдено.
 
-### Примечания
+## Примечания
 
 Это удобный метод, который перебирает все стандартные блоки в этой коллекции и возвращает первый стандартный блок, который соответствует указанной галерее, категории и имени.
 
 Microsoft Word объединяет стандартные блоки в галереи. Galleries предопределены с использованием[`BuildingBlockGallery`](../../buildingblockgallery/) enum. В каждой галерее стандартные блоки могут быть организованы в одну или несколько категорий. Имя категории представляет собой строку. Каждый строительный блок имеет имя. Уникальность имени строительного блока не гарантируется.
 
-### Примеры
+## Примеры
 
 Показывает способы доступа к строительным блокам в документе глоссария.
 
@@ -136,7 +138,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * class [BuildingBlock](../../buildingblock/)
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [GlossaryDocument](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

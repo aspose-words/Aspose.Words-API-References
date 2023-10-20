@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SuggestedFileName
-second_title: Aspose.Words لمراجع .NET API
-description: OleFormat ملكية. يحصل على اسم الملف المقترح للكائن المضمن الحالي إذا كنت تريد حفظه في ملف.
+linktitle: SuggestedFileName
+articleTitle: SuggestedFileName
+second_title: Aspose.Words لـ .NET
+description: OleFormat SuggestedFileName ملكية. يحصل على اسم الملف المقترح للكائن المضمن الحالي إذا كنت تريد حفظه في ملف في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.drawing/oleformat/suggestedfilename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/oleformat/suggestedfilename/
 public string SuggestedFileName { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على اسم الملف المقترح لكائن OLE.
 
@@ -38,7 +40,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + suggestedFileName, 
 ### أنظر أيضا
 
 * class [OleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../oleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

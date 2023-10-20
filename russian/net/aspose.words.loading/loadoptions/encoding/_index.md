@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.Encoding
-second_title: Справочник по API Aspose.Words для .NET
-description: LoadOptions свойство. Получает или задает кодировку которая будет использоваться для загрузки документа HTML TXT или CHM если кодировка не указана внутри документа. Может бытьнулевой . По умолчаниюнулевой .
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words для .NET
+description: LoadOptions Encoding свойство. Получает или задает кодировку которая будет использоваться для загрузки документа HTML TXT или CHM если кодировка не указана внутри документа. Может бытьнулевой . По умолчаниюнулевой  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.loading/loadoptions/encoding/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.loading/loadoptions/encoding/
 public Encoding Encoding { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство используется только при загрузке документов HTML, TXT или CHM.
 
 Если внутри документа не указана кодировка и это свойство`нулевой`то система попытается to автоматически определить кодировку.
 
-### Примеры
+## Примеры
 
 Показывает, как установить кодировку для открытия документа.
 
@@ -39,7 +41,5 @@ Assert.True(doc.ToString(SaveFormat.Text).Contains("This is a sample text in Eng
 ### Смотрите также
 
 * class [LoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../loadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

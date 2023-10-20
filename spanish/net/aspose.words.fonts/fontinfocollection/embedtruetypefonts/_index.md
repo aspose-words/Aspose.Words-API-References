@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.EmbedTrueTypeFonts
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontInfoCollection propiedad. Especifica si se incrustan o no fuentes TrueType en un documento cuando se guarda. El valor predeterminado para esta propiedad esFALSO .
+linktitle: EmbedTrueTypeFonts
+articleTitle: EmbedTrueTypeFonts
+second_title: Aspose.Words para .NET
+description: FontInfoCollection EmbedTrueTypeFonts propiedad. Especifica si se incrustan o no fuentes TrueType en un documento cuando se guarda. El valor predeterminado para esta propiedad esFALSO  en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fonts/fontinfocollection/embedtruetypefonts/
@@ -14,13 +16,13 @@ Especifica si se incrustan o no fuentes TrueType en un documento cuando se guard
 public bool EmbedTrueTypeFonts { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La incrustación de fuentes TrueType permite que otras personas vean el documento con las mismas fuentes que se utilizaron para crearlo, pero puede aumentar sustancialmente el tamaño del documento.
 
 Esta opción sólo funciona con formatos DOC, DOCX y RTF.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo guardar un documento con fuentes TrueType incrustadas.
 
@@ -43,7 +45,5 @@ else
 ### Ver también
 
 * class [FontInfoCollection](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontinfocollection/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

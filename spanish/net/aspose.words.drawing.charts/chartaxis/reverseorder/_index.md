@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.ReverseOrder
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Devuelve o establece un indicador que indica si los valores del eje deben mostrarse en orden inverso es decir de máximo a mínimo.
+linktitle: ReverseOrder
+articleTitle: ReverseOrder
+second_title: Aspose.Words para .NET
+description: ChartAxis ReverseOrder propiedad. Devuelve o establece un indicador que indica si los valores del eje deben mostrarse en orden inverso es decir de máximo a mínimo en C#.
 type: docs
 weight: 200
 url: /es/net/aspose.words.drawing.charts/chartaxis/reverseorder/
@@ -14,11 +16,11 @@ Devuelve o establece un indicador que indica si los valores del eje deben mostra
 public bool ReverseOrder { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La propiedad no es compatible con los nuevos gráficos de MS Office 2016. El valor predeterminado es`FALSO` .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico y modificar la apariencia de sus ejes.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Ver también
 
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

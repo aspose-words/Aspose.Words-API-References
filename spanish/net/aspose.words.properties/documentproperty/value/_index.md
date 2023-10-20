@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Value
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentProperty propiedad. Obtiene o establece el valor de la propiedad.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words para .NET
+description: DocumentProperty Value propiedad. Obtiene o establece el valor de la propiedad en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.properties/documentproperty/value/
@@ -14,11 +16,11 @@ Obtiene o establece el valor de la propiedad.
 public object Value { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 No puede ser`nulo`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con propiedades de documentos integradas.
 
@@ -52,7 +54,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 ### Ver también
 
 * class [DocumentProperty](../)
-* espacio de nombres [Aspose.Words.Properties](../../documentproperty/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

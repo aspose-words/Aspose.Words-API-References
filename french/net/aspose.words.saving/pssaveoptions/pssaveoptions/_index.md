@@ -1,7 +1,9 @@
 ---
-title: PsSaveOptions.PsSaveOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PsSaveOptions constructeur. Default_Constructor
+title: PsSaveOptions
+linktitle: PsSaveOptions
+articleTitle: PsSaveOptions
+second_title: Aspose.Words pour .NET
+description: PsSaveOptions constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/pssaveoptions/pssaveoptions/
@@ -17,7 +19,5 @@ public PsSaveOptions()
 ### Voir également
 
 * class [PsSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../pssaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

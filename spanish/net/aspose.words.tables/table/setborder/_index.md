@@ -1,9 +1,11 @@
 ---
 title: Table.SetBorder
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table método. Establece el borde de la tabla especificado con el estilo ancho y color de línea especificados.
+linktitle: SetBorder
+articleTitle: SetBorder
+second_title: Aspose.Words para .NET
+description: Table SetBorder método. Establece el borde de la tabla especificado con el estilo ancho y color de línea especificados en C#.
 type: docs
-weight: 430
+weight: 410
 url: /es/net/aspose.words.tables/table/setborder/
 ---
 ## Table.SetBorder method
@@ -23,7 +25,7 @@ public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWid
 | color | Color | El color que se utilizará para el borde. |
 | isOverrideCellBorders | Boolean | Cuando`verdadero`, hace que se eliminen todos los bordes de celda explícitos existentes. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar un borde de contorno a una tabla.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 * enum [BorderType](../../../aspose.words/bordertype/)
 * enum [LineStyle](../../../aspose.words/linestyle/)
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

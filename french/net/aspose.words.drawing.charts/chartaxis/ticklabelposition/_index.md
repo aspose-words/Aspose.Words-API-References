@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelPosition
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxis propriété. Renvoie ou définit la position des étiquettes de graduation sur laxe.
+linktitle: TickLabelPosition
+articleTitle: TickLabelPosition
+second_title: Aspose.Words pour .NET
+description: ChartAxis TickLabelPosition propriété. Renvoie ou définit la position des étiquettes de graduation sur laxe en C#.
 type: docs
 weight: 240
 url: /fr/net/aspose.words.drawing.charts/chartaxis/ticklabelposition/
@@ -14,11 +16,11 @@ Renvoie ou définit la position des étiquettes de graduation sur l'axe.
 public AxisTickLabelPosition TickLabelPosition { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La propriété n'est pas prise en charge par les nouveaux graphiques MS Office 2016.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un graphique et modifier l’apparence de ses axes.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickLabelPosition](../../axisticklabelposition/)
 * class [ChartAxis](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

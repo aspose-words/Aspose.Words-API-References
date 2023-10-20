@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.ToByteArray
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentProperty método. Devuelve el valor de la propiedad como matriz de bytes.
+linktitle: ToByteArray
+articleTitle: ToByteArray
+second_title: Aspose.Words para .NET
+description: DocumentProperty ToByteArray método. Devuelve el valor de la propiedad como matriz de bytes en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.properties/documentproperty/tobytearray/
@@ -14,11 +16,11 @@ Devuelve el valor de la propiedad como matriz de bytes.
 public byte[] ToByteArray()
 ```
 
-### Observaciones
+## Observaciones
 
 Lanza una excepción si el tipo de propiedad no esByteArray.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar una miniatura a un documento que guardamos como Epub.
 
@@ -44,7 +46,5 @@ File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.
 ### Ver también
 
 * class [DocumentProperty](../)
-* espacio de nombres [Aspose.Words.Properties](../../documentproperty/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

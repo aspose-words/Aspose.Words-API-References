@@ -1,7 +1,9 @@
 ---
-title: Enum WarningType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.WarningType énumération. Spécifie le type davertissement émis par Aspose.Words lors du chargement ou de lenregistrement du document.
+title: WarningType Enum
+linktitle: WarningType
+articleTitle: WarningType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.WarningType énumération. Spécifie le type davertissement émis par Aspose.Words lors du chargement ou de lenregistrement du document en C#.
 type: docs
 weight: 6660
 url: /fr/net/aspose.words/warningtype/
@@ -31,7 +33,7 @@ public enum WarningType
 | UnexpectedContent | `1000000` | Contenu générique inattendu, pas de code spécifique. |
 | Hint | `10000000` | Informe d'un problème potentiel ou suggère une amélioration. |
 
-### Exemples
+## Exemples
 
 Montre comment définir la propriété permettant de trouver la correspondance la plus proche pour une police manquante à partir des sources de polices disponibles.
 
@@ -92,5 +94,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

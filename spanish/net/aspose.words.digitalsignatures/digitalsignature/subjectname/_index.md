@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SubjectName
-second_title: Referencia de API de Aspose.Words para .NET
-description: DigitalSignature propiedad. Devuelve el nombre distinguido del sujeto del certificado que se utilizó para firmar el documento.
+linktitle: SubjectName
+articleTitle: SubjectName
+second_title: Aspose.Words para .NET
+description: DigitalSignature SubjectName propiedad. Devuelve el nombre distinguido del sujeto del certificado que se utilizó para firmar el documento en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.digitalsignatures/digitalsignature/subjectname/
@@ -14,7 +16,7 @@ Devuelve el nombre distinguido del sujeto del certificado que se utilizó para f
 public string SubjectName { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo firmar documentos con certificados X.509.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### Ver también
 
 * class [DigitalSignature](../)
-* espacio de nombres [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* espacio de nombres [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * asamblea [Aspose.Words](../../../)
-
-

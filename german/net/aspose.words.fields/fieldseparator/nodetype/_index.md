@@ -1,7 +1,9 @@
 ---
 title: FieldSeparator.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSeparator eigendom. Gibt zurückFieldSeparator .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: FieldSeparator NodeType eigendom. Gibt zurückFieldSeparator  in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldseparator/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückFieldSeparator .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FieldSeparator](../)
-* namensraum [Aspose.Words.Fields](../../fieldseparator/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

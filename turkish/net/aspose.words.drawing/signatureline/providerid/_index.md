@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.ProviderId
-second_title: Aspose.Words for .NET API Referansı
-description: SignatureLine mülk. Bu imza satırı için imza sağlayıcı tanımlayıcısını alır veya ayarlar. Varsayılan değer 00000000000000000000000000000000.
+linktitle: ProviderId
+articleTitle: ProviderId
+second_title: Aspose.Words for .NET
+description: SignatureLine ProviderId mülk. Bu imza satırı için imza sağlayıcı tanımlayıcısını alır veya ayarlar. Varsayılan değer 00000000000000000000000000000000 C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.drawing/signatureline/providerid/
@@ -14,7 +16,7 @@ Bu imza satırı için imza sağlayıcı tanımlayıcısını alır veya ayarlar
 public Guid ProviderId { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Şifreleme servis sağlayıcısı (CSP), kimlik doğrulama, kodlama ve şifreleme için gerçekte şifreleme algoritmalarını gerçekleştiren bağımsız bir yazılım modülüdür. MS Office, varsayılan imza sağlayıcısı için {00000000-0000-0000-0000-000000000000} değerinin değerini ayırır.
 
@@ -22,7 +24,7 @@ Ek olarak yüklenen sağlayıcının GUID'i, sağlayıcıyla birlikte gönderile
 
 Ayrıca, kurulu tüm şifreleme sağlayıcıları Windows kayıt defterinde numaralandırılmıştır. Şu yolda bulunabilir: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Şuna karşılık gelen bir "CP Service UUID" anahtar adı vardır: imza sağlayıcısının GUID'i.
 
-### Örnekler
+## Örnekler
 
 Kişisel sertifika ve imza satırı içeren bir belgenin nasıl imzalanacağını gösterir.
 
@@ -75,7 +77,5 @@ Assert.True(signatureLine.IsValid);
 ### Ayrıca bakınız
 
 * class [SignatureLine](../)
-* ad alanı [Aspose.Words.Drawing](../../signatureline/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

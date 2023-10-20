@@ -1,7 +1,9 @@
 ---
-title: FieldHyperlink.FieldHyperlink
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldHyperlink constructor. Constructor predeterminado
+title: FieldHyperlink
+linktitle: FieldHyperlink
+articleTitle: FieldHyperlink
+second_title: Aspose.Words para .NET
+description: FieldHyperlink constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldhyperlink/fieldhyperlink/
@@ -17,7 +19,5 @@ public FieldHyperlink()
 ### Ver también
 
 * class [FieldHyperlink](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldhyperlink/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

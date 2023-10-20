@@ -1,7 +1,9 @@
 ---
-title: Class TextColumnCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.TextColumnCollection сорт. КоллекцияTextColumn объекты которые представляют все столбцы текста в разделе документа.
+title: TextColumnCollection Class
+linktitle: TextColumnCollection
+articleTitle: TextColumnCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.TextColumnCollection сорт. КоллекцияTextColumn объекты которые представляют все столбцы текста в разделе документа на С#.
 type: docs
 weight: 6400
 url: /ru/net/aspose.words/textcolumncollection/
@@ -31,9 +33,9 @@ public class TextColumnCollection
 
 | Имя | Описание |
 | --- | --- |
-| [SetCount](../../aspose.words/textcolumncollection/setcount/)(int) | Упорядочивает текст в указанное количество текстовых столбцов. |
+| [SetCount](../../aspose.words/textcolumncollection/setcount/)(*int*) | Упорядочивает текст в указанное количество текстовых столбцов. |
 
-### Примечания
+## Примечания
 
 Использовать[`SetCount`](./setcount/) чтобы установить количество текстовых столбцов.
 
@@ -43,7 +45,7 @@ public class TextColumnCollection
 
 При использовании произвольной ширины столбцов убедитесь, что сумма ширин всех столбцов и интервалов между ними равна ширине страницы за вычетом левого и правого полей страницы.
 
-### Примеры
+## Примеры
 
 Показывает, как создать в разделе несколько равномерно расположенных столбцов.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

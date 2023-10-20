@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.ServerUrl
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfDigitalSignatureTimestampSettings propiedad. URL del servidor de marca de tiempo.
+linktitle: ServerUrl
+articleTitle: ServerUrl
+second_title: Aspose.Words para .NET
+description: PdfDigitalSignatureTimestampSettings ServerUrl propiedad. URL del servidor de marca de tiempo en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverurl/
@@ -14,11 +16,11 @@ URL del servidor de marca de tiempo.
 public string ServerUrl { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`nulo` . Si`nulo` , entonces la firma digital no tendrá marca de tiempo.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo firmar digitalmente un documento PDF guardado y ponerle una marca de tiempo.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Ver también
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

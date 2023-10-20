@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoSubstitutionRule
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.FontInfoSubstitutionRule сорт. Правило замены информации о шрифте.
+title: FontInfoSubstitutionRule Class
+linktitle: FontInfoSubstitutionRule
+articleTitle: FontInfoSubstitutionRule
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fonts.FontInfoSubstitutionRule сорт. Правило замены информации о шрифте на С#.
 type: docs
 weight: 2940
 url: /ru/net/aspose.words.fonts/fontinfosubstitutionrule/
@@ -22,11 +24,11 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Указывает, включено правило или нет. |
 
-### Примечания
+## Примечания
 
 Согласно этому правилу Aspose.Words оценивает все связанные поля в[`FontInfo`](../fontinfo/) (Panose, Sig и т. д.) for недостающий шрифт и находит наиболее близкое совпадение среди доступных источников шрифтов. Если[`FontInfo`](../fontinfo/)отсутствует для отсутствующего шрифта, то ничего не будет сделано.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
 
@@ -88,5 +90,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * пространство имен [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../)
-
-

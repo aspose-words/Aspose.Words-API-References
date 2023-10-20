@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToBookmark
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Déplace le curseur vers un signet.
+linktitle: MoveToBookmark
+articleTitle: MoveToBookmark
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder MoveToBookmark méthode. Déplace le curseur vers un signet en C#.
 type: docs
-weight: 500
+weight: 490
 url: /fr/net/aspose.words/documentbuilder/movetobookmark/
 ---
-## MoveToBookmark(string) {#movetobookmark}
+## MoveToBookmark(*string*) {#movetobookmark}
 
 Déplace le curseur vers un signet.
 
@@ -22,7 +24,7 @@ public bool MoveToBookmark(string bookmarkName)
 
 `vrai` si le signet a été trouvé ;`FAUX` sinon.
 
-### Remarques
+## Remarques
 
 Déplace le curseur vers une position juste après le début du signet portant le nom spécifié the .
 
@@ -32,7 +34,7 @@ L'insertion d'un nouveau texte ne remplace pas le texte existant du signet.
 
 Notez que certains signets dans le document sont affectés à des champs de formulaire. Passer à un tel signet et y insérer du texte insère le texte dans le code du champ de formulaire . Bien que cela n'invalide pas le champ du formulaire, le texte inséré ne sera pas visible car il fait partie du code du champ.
 
-### Exemples
+## Exemples
 
 Montre comment déplacer le curseur d'un générateur de document vers différents nœuds d'un document.
 
@@ -86,12 +88,12 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Voir également
 
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## MoveToBookmark(string, bool, bool) {#movetobookmark_1}
+## MoveToBookmark(*string, bool, bool*) {#movetobookmark_1}
 
 Déplace le curseur vers un signet avec une plus grande précision.
 
@@ -109,7 +111,7 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 
 `vrai` si le signet a été trouvé ;`FAUX` sinon.
 
-### Remarques
+## Remarques
 
 Déplace le curseur vers une position avant ou après le début ou la fin du signet.
 
@@ -117,7 +119,7 @@ Si la position souhaitée n'est pas au niveau en ligne, passe au paragraphe suiv
 
 La comparaison n'est pas sensible à la casse. Si le signet n'a pas été trouvé,`FAUX` is est renvoyé et le curseur n'est pas déplacé.
 
-### Exemples
+## Exemples
 
 Montre comment déplacer le curseur du point d'insertion du nœud d'un générateur de documents vers un signet.
 
@@ -166,7 +168,5 @@ Assert.AreEqual("1. 2. Hello world! 3. 4.", doc.GetText().Trim());
 ### Voir également
 
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Alignment
-second_title: Справочник по API Aspose.Words для .NET
-description: TableStyle свойство. Определяет выравнивание стиля таблицы.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words для .NET
+description: TableStyle Alignment свойство. Определяет выравнивание стиля таблицы на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/tablestyle/alignment/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/tablestyle/alignment/
 public TableAlignment Alignment { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Left .
 
-### Примеры
+## Примеры
 
 Показывает, как установить положение стола.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Table.SetTableAlignment.docx");
 
 * enum [TableAlignment](../../../aspose.words.tables/tablealignment/)
 * class [TableStyle](../)
-* пространство имен [Aspose.Words](../../tablestyle/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

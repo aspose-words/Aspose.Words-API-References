@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.HyphenationZone
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HyphenationOptions propriété. Obtient ou définit la distance en 1/20 de point à partir de la marge droite à lintérieur de laquelle vous ne souhaitez pas couper les mots. La valeur par défaut de cette propriété est 360 025 pouce.
+linktitle: HyphenationZone
+articleTitle: HyphenationZone
+second_title: Aspose.Words pour .NET
+description: HyphenationOptions HyphenationZone propriété. Obtient ou définit la distance en 1/20 de point à partir de la marge droite à lintérieur de laquelle vous ne souhaitez pas couper les mots. La valeur par défaut de cette propriété est 360 025 pouce en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.settings/hyphenationoptions/hyphenationzone/
@@ -14,7 +16,7 @@ Obtient ou définit la distance en 1/20 de point à partir de la marge droite à
 public int HyphenationZone { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment configurer la césure automatique.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### Voir également
 
 * class [HyphenationOptions](../)
-* espace de noms [Aspose.Words.Settings](../../hyphenationoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

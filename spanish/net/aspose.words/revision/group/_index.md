@@ -1,7 +1,9 @@
 ---
 title: Revision.Group
-second_title: Referencia de API de Aspose.Words para .NET
-description: Revision propiedad. Obtiene el grupo de revisión. Devolucionesnulo si la revisión no pertenece a ningún grupo.
+linktitle: Group
+articleTitle: Group
+second_title: Aspose.Words para .NET
+description: Revision Group propiedad. Obtiene el grupo de revisión. Devolucionesnulo si la revisión no pertenece a ningún grupo en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/revision/group/
@@ -14,11 +16,11 @@ Obtiene el grupo de revisión. Devoluciones`nulo` si la revisión no pertenece a
 public RevisionGroup Group { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 La revisión no tiene grupo si el tipo de revisión esStyleDefinitionChangeo si la revisión ya no existe en el contexto del documento (aceptada/rechazada).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con revisiones en un documento.
 
@@ -102,7 +104,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [RevisionGroup](../../revisiongroup/)
 * class [Revision](../)
-* espacio de nombres [Aspose.Words](../../revision/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Paragraph.GetEffectiveTabStops
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph yöntem. Stiller veya listeler tarafından dolaylı olarak uygulananlar da dahil olmak üzere bu paragrafa uygulanan tüm sekme duraklarının dizisini döndürür.
+linktitle: GetEffectiveTabStops
+articleTitle: GetEffectiveTabStops
+second_title: Aspose.Words for .NET
+description: Paragraph GetEffectiveTabStops yöntem. Stiller veya listeler tarafından dolaylı olarak uygulananlar da dahil olmak üzere bu paragrafa uygulanan tüm sekme duraklarının dizisini döndürür C#'da.
 type: docs
-weight: 270
+weight: 250
 url: /tr/net/aspose.words/paragraph/geteffectivetabstops/
 ---
 ## Paragraph.GetEffectiveTabStops method
@@ -14,7 +16,7 @@ Stiller veya listeler tarafından dolaylı olarak uygulananlar da dahil olmak ü
 public TabStop[] GetEffectiveTabStops()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir paragraf için özel sekme duraklarının nasıl ayarlanacağını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Paragraph.TabStops.docx");
 
 * class [TabStop](../../tabstop/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

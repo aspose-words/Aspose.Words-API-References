@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Text
-second_title: Referencia de API de Aspose.Words para .NET
-description: LayoutEnumerator propiedad. Obtiene el texto de la entidad de extensión actual. Lanzamientos para otros tipos de entidad.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words para .NET
+description: LayoutEnumerator Text propiedad. Obtiene el texto de la entidad de extensión actual. Lanzamientos para otros tipos de entidad en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.layout/layoutenumerator/text/
@@ -14,7 +16,7 @@ Obtiene el texto de la entidad de extensión actual. Lanzamientos para otros tip
 public string Text { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra formas de recorrer las entidades de diseño de un documento.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ver también
 
 * class [LayoutEnumerator](../)
-* espacio de nombres [Aspose.Words.Layout](../../layoutenumerator/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

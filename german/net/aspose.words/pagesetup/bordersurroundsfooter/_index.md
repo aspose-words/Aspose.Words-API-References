@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderSurroundsFooter
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt an ob der Seitenrand die Fußzeile einschließt oder ausschließt.
+linktitle: BorderSurroundsFooter
+articleTitle: BorderSurroundsFooter
+second_title: Aspose.Words für .NET
+description: PageSetup BorderSurroundsFooter eigendom. Gibt an ob der Seitenrand die Fußzeile einschließt oder ausschließt in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/pagesetup/bordersurroundsfooter/
@@ -14,11 +16,11 @@ Gibt an, ob der Seitenrand die Fußzeile einschließt oder ausschließt.
 public bool BorderSurroundsFooter { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Beachten Sie, dass sich die Änderung dieser Eigenschaft auf alle Abschnitte im Dokument auswirkt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen Rahmen auf die Seite und die Kopf-/Fußzeile anwendet.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorder.docx");
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

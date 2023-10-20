@@ -1,7 +1,9 @@
 ---
 title: BubbleSizeCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BubbleSizeCollection propriété. Obtient ou définit la valeur de la taille de la bulle à lindex spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: BubbleSizeCollection Item propriété. Obtient ou définit la valeur de la taille de la bulle à lindex spécifié en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/bubblesizecollection/item/
@@ -17,7 +19,5 @@ public double this[int index] { get; set; }
 ### Voir également
 
 * class [BubbleSizeCollection](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../bubblesizecollection/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldEQ.AsOfficeMath
-second_title: Aspose.Words per .NET API Reference
-description: FieldEQ metodo. Restituisce loggetto Office Math corrispondente al campo EQ.
+linktitle: AsOfficeMath
+articleTitle: AsOfficeMath
+second_title: Aspose.Words per .NET
+description: FieldEQ AsOfficeMath metodo. Restituisce loggetto Office Math corrispondente al campo EQ in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldeq/asofficemath/
@@ -22,7 +24,5 @@ Restituisce`nullo` se il codice del campo è vuoto o non valido, altrimenti an[`
 
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [FieldEQ](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldeq/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

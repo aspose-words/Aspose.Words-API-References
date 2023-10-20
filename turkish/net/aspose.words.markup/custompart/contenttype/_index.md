@@ -1,7 +1,9 @@
 ---
 title: CustomPart.ContentType
-second_title: Aspose.Words for .NET API Referansı
-description: CustomPart mülk. Bu özel bölümün içerik türünü belirtir.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: Aspose.Words for .NET
+description: CustomPart ContentType mülk. Bu özel bölümün içerik türünü belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/custompart/contenttype/
@@ -14,13 +16,13 @@ Bu özel bölümün içerik türünü belirtir.
 public string ContentType { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca şu durumlarda geçerlidir:[`IsExternal`](../isexternal/) dır-dir`YANLIŞ`.
 
 Varsayılan değer boş bir dizedir. Geçerli bir değer boş olmayan bir dize olmalıdır.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Ayrıca bakınız
 
 * class [CustomPart](../)
-* ad alanı [Aspose.Words.Markup](../../custompart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListLevelNumber
-second_title: Справочник по API Aspose.Words для .NET
-description: ListFormat свойство. Получает или задает номер уровня списка от 0 до 8 для абзаца.
+linktitle: ListLevelNumber
+articleTitle: ListLevelNumber
+second_title: Aspose.Words для .NET
+description: ListFormat ListLevelNumber свойство. Получает или задает номер уровня списка от 0 до 8 для абзаца на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.lists/listformat/listlevelnumber/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.lists/listformat/listlevelnumber/
 public int ListLevelNumber { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 В документах Word списки могут состоять из 1 или 9 уровней, пронумерованных от 0 до 8.
 
 Имеет эффект только тогда, когда[`List`](../list/) Свойство установлено для ссылки на действительный список.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с уровнями списка.
 
@@ -153,7 +155,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Смотрите также
 
 * class [ListFormat](../)
-* пространство имен [Aspose.Words.Lists](../../listformat/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

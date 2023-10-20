@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.ResolutionThreshold
-second_title: Aspose.Words per .NET API Reference
-description: DownsampleOptions proprietà. Specifica la risoluzione soglia in pixel per pollice. Se la risoluzione di unimmagine nel documento è inferiore al valore soglia lalgoritmo di downsampling non verrà applicato. Un valore pari a 0 significa che il controllo soglia non viene utilizzato e tutte le immagini le dimensioni possono essere ridotte vengono sottocampionate.
+linktitle: ResolutionThreshold
+articleTitle: ResolutionThreshold
+second_title: Aspose.Words per .NET
+description: DownsampleOptions ResolutionThreshold proprietà. Specifica la risoluzione soglia in pixel per pollice. Se la risoluzione di unimmagine nel documento è inferiore al valore soglia lalgoritmo di downsampling non verrà applicato. Un valore pari a 0 significa che il controllo soglia non viene utilizzato e tutte le immagini le dimensioni possono essere ridotte vengono sottocampionate in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/downsampleoptions/resolutionthreshold/
@@ -14,11 +16,11 @@ Specifica la risoluzione soglia in pixel per pollice. Se la risoluzione di un'im
 public int ResolutionThreshold { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è 0.
 
-### Esempi
+## Esempi
 
 Mostra come modificare la risoluzione delle immagini nel documento PDF.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### Guarda anche
 
 * class [DownsampleOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../downsampleoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

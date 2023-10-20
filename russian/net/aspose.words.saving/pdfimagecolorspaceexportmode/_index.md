@@ -1,7 +1,9 @@
 ---
-title: Enum PdfImageColorSpaceExportMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.PdfImageColorSpaceExportMode перечисление. Указывает как цветовое пространство будет выбрано для изображений в PDFдокументе.
+title: PdfImageColorSpaceExportMode Enum
+linktitle: PdfImageColorSpaceExportMode
+articleTitle: PdfImageColorSpaceExportMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.PdfImageColorSpaceExportMode перечисление. Указывает как цветовое пространство будет выбрано для изображений в PDFдокументе на С#.
 type: docs
 weight: 5480
 url: /ru/net/aspose.words.saving/pdfimagecolorspaceexportmode/
@@ -21,7 +23,7 @@ public enum PdfImageColorSpaceExportMode
 | Auto | `0` | Aspose.Words автоматически выбирает наиболее подходящее цветовое пространство для каждого изображения. |
 | SimpleCmyk | `1` | Aspose.Words преобразует изображения RGB в цветовое пространство CMYK, используя простую формулу. |
 
-### Примеры
+## Примеры
 
 Показывает, как установить другое цветовое пространство для изображений в документе при его экспорте в PDF.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveO
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ContentTypeToSaveFormat
-second_title: Aspose.Words لمراجع .NET API
-description: FileFormatUtil طريقة. تحويل نوع محتوى IANA إلى قيمة تعدادية لتنسيق الحفظ.
+linktitle: ContentTypeToSaveFormat
+articleTitle: ContentTypeToSaveFormat
+second_title: Aspose.Words لـ .NET
+description: FileFormatUtil ContentTypeToSaveFormat طريقة. تحويل نوع محتوى IANA إلى قيمة تعدادية لتنسيق الحفظ في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/fileformatutil/contenttypetosaveformat/
@@ -20,7 +22,7 @@ public static SaveFormat ContentTypeToSaveFormat(string contentType)
 | --- | --- |
 | ArgumentException | يرمي عندما لا يمكن تحويل. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العثور على تنسيق Aspose التحميل/الحفظ المطابق من كل سلسلة من أنواع الوسائط.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(SaveFormat.Mhtml, FileFormatUtil.ContentTypeToSaveFormat("multip
 
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* مساحة الاسم [Aspose.Words](../../fileformatutil/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

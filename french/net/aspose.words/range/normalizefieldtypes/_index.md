@@ -1,7 +1,9 @@
 ---
 title: Range.NormalizeFieldTypes
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Range méthode. Modifie les valeurs du type de champFieldType deFieldStart FieldSeparator FieldEnd dans cette plage afin quils correspondent aux types de champs contenus dans les codes de champs.
+linktitle: NormalizeFieldTypes
+articleTitle: NormalizeFieldTypes
+second_title: Aspose.Words pour .NET
+description: Range NormalizeFieldTypes méthode. Modifie les valeurs du type de champFieldType deFieldStart FieldSeparator FieldEnd dans cette plage afin quils correspondent aux types de champs contenus dans les codes de champs en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/range/normalizefieldtypes/
@@ -14,7 +16,7 @@ Modifie les valeurs du type de champ[`FieldType`](../../../aspose.words.fields/f
 public void NormalizeFieldTypes()
 ```
 
-### Remarques
+## Remarques
 
 Utilisez cette méthode après les modifications du document affectant les types de champs.
 
@@ -23,7 +25,5 @@ Pour modifier les valeurs du type de champ dans l'ensemble du document, utilisez
 ### Voir également
 
 * class [Range](../)
-* espace de noms [Aspose.Words](../../range/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum BorderType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.BorderType تعداد. يحدد جوانب الحدود.
+title: BorderType Enum
+linktitle: BorderType
+articleTitle: BorderType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.BorderType تعداد. يحدد جوانب الحدود في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/bordertype/
@@ -30,7 +32,7 @@ public enum BorderType
 | DiagonalDown | `6` | تحديد الحد القطري في خلية الجدول. |
 | DiagonalUp | `7` | تحديد الحد القطري في خلية الجدول. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج فقرة ذات حد علوي.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

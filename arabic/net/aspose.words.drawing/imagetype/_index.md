@@ -1,7 +1,9 @@
 ---
-title: Enum ImageType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.ImageType تعداد. يحدد نوع تنسيق الصورة في مستند Microsoft Word.
+title: ImageType Enum
+linktitle: ImageType
+articleTitle: ImageType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.ImageType تعداد. يحدد نوع تنسيق الصورة في مستند Microsoft Word في C#.
 type: docs
 weight: 1080
 url: /ar/net/aspose.words.drawing/imagetype/
@@ -28,7 +30,7 @@ public enum ImageType
 | Bmp | `7` | الصورة النقطية لنظام Windows. |
 | Eps | `8` | بوستسكريبت مغلف. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة صورة إلى شكل والتحقق من نوعها.
 
@@ -53,5 +55,3 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 * property [ImageType](../imagedata/imagetype/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

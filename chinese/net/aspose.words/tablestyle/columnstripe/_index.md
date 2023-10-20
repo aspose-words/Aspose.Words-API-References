@@ -1,7 +1,9 @@
 ---
 title: TableStyle.ColumnStripe
-second_title: Aspose.Words for .NET API 参考
-description: TableStyle 财产. 获取或设置当样式指定奇数/偶数列带区时要包含在带区中的列数
+linktitle: ColumnStripe
+articleTitle: ColumnStripe
+second_title: 用于 .NET 的 Aspose.Words
+description: TableStyle ColumnStripe 财产. 获取或设置当样式指定奇数/偶数列带区时要包含在带区中的列数 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/tablestyle/columnstripe/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/tablestyle/columnstripe/
 public int ColumnStripe { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建在行之间交替的条件表样式。
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");
 ### 也可以看看
 
 * class [TableStyle](../)
-* 命名空间 [Aspose.Words](../../tablestyle/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

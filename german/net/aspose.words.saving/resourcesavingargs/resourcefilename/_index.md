@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceFileName
-second_title: Aspose.Words für .NET-API-Referenz
-description: ResourceSavingArgs eigendom. Ruft den Dateinamen ohne Pfad ab unter dem die Ressource gespeichert wird oder legt diesen fest.
+linktitle: ResourceFileName
+articleTitle: ResourceFileName
+second_title: Aspose.Words für .NET
+description: ResourceSavingArgs ResourceFileName eigendom. Ruft den Dateinamen ohne Pfad ab unter dem die Ressource gespeichert wird oder legt diesen fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/resourcesavingargs/resourcefilename/
@@ -14,7 +16,7 @@ Ruft den Dateinamen (ohne Pfad) ab, unter dem die Ressource gespeichert wird, od
 public string ResourceFileName { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Mit dieser Eigenschaft können Sie neu definieren, wie die Ressourcendateinamen beim Export in feste Seiten-HTML oder SVG generiert werden .
 
@@ -30,7 +32,7 @@ Beim Speichern eines Dokuments in einem Stream sieht der generierte Ressourcenda
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen Rückruf verwenden, um externe Ressourcen zu verfolgen, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
 
@@ -75,7 +77,5 @@ private class FontSavingCallback : IResourceSavingCallback
 ### Siehe auch
 
 * class [ResourceSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../resourcesavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

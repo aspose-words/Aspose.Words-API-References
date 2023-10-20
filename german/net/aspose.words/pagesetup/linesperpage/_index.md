@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LinesPerPage
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Ruft die Anzahl der Zeilen pro Seite im Dokumentraster ab oder legt diese fest.
+linktitle: LinesPerPage
+articleTitle: LinesPerPage
+second_title: Aspose.Words für .NET
+description: PageSetup LinesPerPage eigendom. Ruft die Anzahl der Zeilen pro Seite im Dokumentraster ab oder legt diese fest in C#.
 type: docs
 weight: 240
 url: /de/net/aspose.words/pagesetup/linesperpage/
@@ -14,13 +16,13 @@ Ruft die Anzahl der Zeilen pro Seite im Dokumentraster ab oder legt diese fest.
 public int LinesPerPage { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Mindestwert der Eigenschaft ist 1. Der Höchstwert hängt von der Seitenhöhe und der Schriftgröße des Normal -Stils ab. Der minimale Zeilenabstand beträgt 136 Prozent der Schriftgröße. Beispielsweise beträgt die maximale Anzahl von Zeilen pro Seite einer Letter-Seite mit einem Zoll Rand 39.
 
 Standardmäßig hat die Eigenschaft einen Wert, bei dem der Zeilenabstand 1,5-mal größer ist als die Schriftgröße des Normalstils.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen Grenzwert für die Anzahl der Zeilen festlegen, die jede Seite haben darf.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

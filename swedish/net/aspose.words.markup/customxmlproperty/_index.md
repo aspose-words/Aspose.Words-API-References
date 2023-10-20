@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlProperty
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Markup.CustomXmlProperty klass. Representerar ett enda anpassat XMLattribut eller en smart taggegenskap.
+title: CustomXmlProperty Class
+linktitle: CustomXmlProperty
+articleTitle: CustomXmlProperty
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Markup.CustomXmlProperty klass. Representerar ett enda anpassat XMLattribut eller en smart taggegenskap i C#.
 type: docs
 weight: 3940
 url: /sv/net/aspose.words.markup/customxmlproperty/
@@ -20,7 +22,7 @@ public class CustomXmlProperty
 
 | namn | Beskrivning |
 | --- | --- |
-| [CustomXmlProperty](customxmlproperty/)(string, string, string) | Initierar en ny instans av den här klassen. |
+| [CustomXmlProperty](customxmlproperty/)(*string, string, string*) | Initierar en ny instans av den här klassen. |
 
 ## Egenskaper
 
@@ -30,11 +32,11 @@ public class CustomXmlProperty
 | [Uri](../../aspose.words.markup/customxmlproperty/uri/) { get; set; } | Hämtar eller ställer in namnutrymmes-URI för det anpassade XML-attributet eller smart tagg-egenskapen. |
 | [Value](../../aspose.words.markup/customxmlproperty/value/) { get; set; } | Hämtar eller ställer in värdet för det anpassade XML-attributet eller smart-taggen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Används som ett föremål för en[`CustomXmlPropertyCollection`](../customxmlpropertycollection/) samling.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar smarta taggar.
 
@@ -136,5 +138,3 @@ private class SmartTagPrinter : DocumentVisitor
 
 * namnutrymme [Aspose.Words.Markup](../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../)
-
-

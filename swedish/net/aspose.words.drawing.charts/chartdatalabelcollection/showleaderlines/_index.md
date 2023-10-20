@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowLeaderLines
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabelCollection fast egendom. Tillåter att ange om dataetikettledarlinjer behöver visas för dataetiketterna för hela serien. Standardvärdet ärfalsk .
+linktitle: ShowLeaderLines
+articleTitle: ShowLeaderLines
+second_title: Aspose.Words för .NET
+description: ChartDataLabelCollection ShowLeaderLines fast egendom. Tillåter att ange om dataetikettledarlinjer behöver visas för dataetiketterna för hela serien. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/
@@ -14,13 +16,13 @@ Tillåter att ange om dataetikettledarlinjer behöver visas för dataetiketterna
 public bool ShowLeaderLines { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Gäller endast cirkeldiagram. Ledarlinjer skapar en visuell koppling mellan en dataetikett och dess motsvarande datapunkt.
 
 Värdet som definierats för den här egenskapen kan åsidosättas för en individuell dataetikett med hjälp av the [`ShowLeaderLines`](../../chartdatalabel/showleaderlines/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dataetiketter i ett cirkeldiagram.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Se även
 
 * class [ChartDataLabelCollection](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

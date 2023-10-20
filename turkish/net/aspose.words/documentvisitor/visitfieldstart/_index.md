@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldStart
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Belgede bir alan başlatıldığında çağrılır.
+linktitle: VisitFieldStart
+articleTitle: VisitFieldStart
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitFieldStart yöntem. Belgede bir alan başlatıldığında çağrılır C#'da.
 type: docs
 weight: 200
 url: /tr/net/aspose.words/documentvisitor/visitfieldstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Notlar
+## Notlar
 
 Word belgesindeki bir alan, alan kodu ve alan değerinden oluşur.
 
@@ -34,7 +36,7 @@ Alan ayırıcı, alan kodunu belgedeki alan değerinden ayırır. Bazı alanlar�
 
 Alanlar iç içe yerleştirilebilir.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her alanın düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -139,7 +141,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldStart](../../../aspose.words.fields/fieldstart/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

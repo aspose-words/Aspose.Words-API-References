@@ -1,7 +1,9 @@
 ---
 title: Cluster.Codepoints
-second_title: Aspose.Words for .NET API 参考
-description: Cluster 财产. 获取集群的代码点
+linktitle: Codepoints
+articleTitle: Codepoints
+second_title: 用于 .NET 的 Aspose.Words
+description: Cluster Codepoints 财产. 获取集群的代码点 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.shaping/cluster/codepoints/
@@ -17,7 +19,5 @@ public int[] Codepoints { get; }
 ### 也可以看看
 
 * class [Cluster](../)
-* 命名空间 [Aspose.Words.Shaping](../../cluster/)
+* 命名空间 [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * 部件 [Aspose.Words](../../../)
-
-

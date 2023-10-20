@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlSchemaCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Markup.CustomXmlSchemaCollection 班级. 表示与自定义 XML 部分关联的 XML 架构的字符串集合
+title: CustomXmlSchemaCollection Class
+linktitle: CustomXmlSchemaCollection
+articleTitle: CustomXmlSchemaCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Markup.CustomXmlSchemaCollection 班级. 表示与自定义 XML 部分关联的 XML 架构的字符串集合 在 C#.
 type: docs
 weight: 3960
 url: /zh/net/aspose.words.markup/customxmlschemacollection/
@@ -27,19 +29,19 @@ public class CustomXmlSchemaCollection : IEnumerable<string>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlschemacollection/add/)(string) | 将项目添加到集合中。 |
+| [Add](../../aspose.words.markup/customxmlschemacollection/add/)(*string*) | 将项目添加到集合中。 |
 | [Clear](../../aspose.words.markup/customxmlschemacollection/clear/)() | 从集合中删除所有元素。 |
 | [Clone](../../aspose.words.markup/customxmlschemacollection/clone/)() | 对此对象进行深度克隆。 |
 | [GetEnumerator](../../aspose.words.markup/customxmlschemacollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
-| [IndexOf](../../aspose.words.markup/customxmlschemacollection/indexof/)(string) | 返回集合中指定值的从零开始的索引。 |
-| [Remove](../../aspose.words.markup/customxmlschemacollection/remove/)(string) | 从集合中删除指定值。 |
-| [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat/)(int) | 删除指定索引处的值。 |
+| [IndexOf](../../aspose.words.markup/customxmlschemacollection/indexof/)(*string*) | 返回集合中指定值的从零开始的索引。 |
+| [Remove](../../aspose.words.markup/customxmlschemacollection/remove/)(*string*) | 从集合中删除指定值。 |
+| [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat/)(*int*) | 删除指定索引处的值。 |
 
-### 评论
+## 评论
 
 您不创建此类的实例。您可以通过以下方式访问自定义 XML part 的 XML 架构集合：[`Schemas`](../customxmlpart/schemas/)财产。
 
-### 例子
+## 例子
 
 展示如何使用 XML 架构集合。
 
@@ -86,5 +88,3 @@ Assert.AreEqual(0, schemas.Count);
 
 * 命名空间 [Aspose.Words.Markup](../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../)
-
-

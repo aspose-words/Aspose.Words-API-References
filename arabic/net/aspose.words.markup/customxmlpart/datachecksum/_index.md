@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.DataChecksum
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPart ملكية. يحدد المجموع الاختباري لفحص التكرار الدوري CRC لـData المحتوى.
+linktitle: DataChecksum
+articleTitle: DataChecksum
+second_title: Aspose.Words لـ .NET
+description: CustomXmlPart DataChecksum ملكية. يحدد المجموع الاختباري لفحص التكرار الدوري CRC لـData المحتوى في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/customxmlpart/datachecksum/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/customxmlpart/datachecksum/
 public long DataChecksum { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حساب المجموع الاختباري في وقت التشغيل.
 
@@ -44,7 +46,5 @@ Assert.AreNotEqual(checksum, updatedChecksum);
 ### أنظر أيضا
 
 * class [CustomXmlPart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

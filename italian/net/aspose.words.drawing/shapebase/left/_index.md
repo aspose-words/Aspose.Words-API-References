@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Left
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Ottiene o imposta la posizione del bordo sinistro del blocco contenitore della forma.
+linktitle: Left
+articleTitle: Left
+second_title: Aspose.Words per .NET
+description: ShapeBase Left proprietà. Ottiene o imposta la posizione del bordo sinistro del blocco contenitore della forma in C#.
 type: docs
 weight: 370
 url: /it/net/aspose.words.drawing/shapebase/left/
@@ -14,7 +16,7 @@ Ottiene o imposta la posizione del bordo sinistro del blocco contenitore della f
 public double Left { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Per una forma di livello superiore, il valore è espresso in punti e relativo all'ancoraggio della forma.
 
@@ -24,7 +26,7 @@ Il valore predefinito è 0.
 
 Ha effetto solo per le forme fluttuanti.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine mobile e specificarne la posizione e le dimensioni.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Guarda anche
 
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

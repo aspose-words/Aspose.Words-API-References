@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.ResourceLoadingCallback
-second_title: Aspose.Words for .NET API 参考
-description: LoadOptions 财产. 允许控制从 HTMLMHTML 导入文档时如何加载外部资源图像样式表
+linktitle: ResourceLoadingCallback
+articleTitle: ResourceLoadingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: LoadOptions ResourceLoadingCallback 财产. 允许控制从 HTMLMHTML 导入文档时如何加载外部资源图像样式表 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.loading/loadoptions/resourceloadingcallback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.loading/loadoptions/resourceloadingcallback/
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示加载 Html 文档时如何处理外部资源。
 
@@ -65,7 +67,5 @@ private class HtmlLinkedResourceLoadingCallback : IResourceLoadingCallback
 
 * interface [IResourceLoadingCallback](../../iresourceloadingcallback/)
 * class [LoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../loadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

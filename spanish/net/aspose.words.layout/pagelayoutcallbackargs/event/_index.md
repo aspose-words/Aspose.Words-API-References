@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.Event
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageLayoutCallbackArgs propiedad. Obtiene el evento.
+linktitle: Event
+articleTitle: Event
+second_title: Aspose.Words para .NET
+description: PageLayoutCallbackArgs Event propiedad. Obtiene el evento en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.layout/pagelayoutcallbackargs/event/
@@ -14,7 +16,7 @@ Obtiene el evento.
 public PageLayoutEvent Event { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo realizar un seguimiento de los cambios de diseño con una devolución de llamada de diseño.
 
@@ -81,7 +83,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * enum [PageLayoutEvent](../../pagelayoutevent/)
 * class [PageLayoutCallbackArgs](../)
-* espacio de nombres [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* espacio de nombres [Aspose.Words.Layout](../../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../../)
-
-

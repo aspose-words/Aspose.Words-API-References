@@ -1,7 +1,9 @@
 ---
 title: ListFormat.RemoveNumbers
-second_title: Aspose.Words for .NET API Referansı
-description: ListFormat yöntem. Geçerli paragraftaki sayıları veya madde işaretlerini kaldırır ve liste düzeyini sıfıra ayarlar.
+linktitle: RemoveNumbers
+articleTitle: RemoveNumbers
+second_title: Aspose.Words for .NET
+description: ListFormat RemoveNumbers yöntem. Geçerli paragraftaki sayıları veya madde işaretlerini kaldırır ve liste düzeyini sıfıra ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.lists/listformat/removenumbers/
@@ -14,11 +16,11 @@ Geçerli paragraftaki sayıları veya madde işaretlerini kaldırır ve liste d�
 public void RemoveNumbers()
 ```
 
-### Notlar
+## Notlar
 
 Bu yöntemi çağırmak,[`List`](../list/) mülkiyet`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Bir bölümün ana metnindeki tüm paragraflardan liste formatının nasıl kaldırılacağını gösterir.
 
@@ -124,7 +126,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Ayrıca bakınız
 
 * class [ListFormat](../)
-* ad alanı [Aspose.Words.Lists](../../listformat/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

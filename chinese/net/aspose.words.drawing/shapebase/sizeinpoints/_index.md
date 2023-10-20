@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.SizeInPoints
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 获取形状的大小以磅为单位
+linktitle: SizeInPoints
+articleTitle: SizeInPoints
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase SizeInPoints 财产. 获取形状的大小以磅为单位 在 C#.
 type: docs
 weight: 510
 url: /zh/net/aspose.words.drawing/shapebase/sizeinpoints/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shapebase/sizeinpoints/
 public SizeF SizeInPoints { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何验证形状的大小和标记语言。
 
@@ -31,7 +33,5 @@ Assert.AreEqual(new SizeF(300, 300), shape.SizeInPoints);
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

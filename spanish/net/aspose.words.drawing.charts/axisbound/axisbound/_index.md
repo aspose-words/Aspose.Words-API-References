@@ -1,7 +1,9 @@
 ---
-title: AxisBound.AxisBound
-second_title: Referencia de API de Aspose.Words para .NET
-description: AxisBound constructor. Crea una nueva instancia que indica que el límite del eje debe determinarse automáticamente mediante una aplicación de procesamiento de textos .
+title: AxisBound
+linktitle: AxisBound
+articleTitle: AxisBound
+second_title: Aspose.Words para .NET
+description: AxisBound constructor. Crea una nueva instancia que indica que el límite del eje debe determinarse automáticamente mediante una aplicación de procesamiento de textos  en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/axisbound/axisbound/
@@ -14,7 +16,7 @@ Crea una nueva instancia que indica que el límite del eje debe determinarse aut
 public AxisBound()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer límites de eje personalizados.
 
@@ -74,12 +76,12 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Ver también
 
 * class [AxisBound](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../axisbound/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## AxisBound(double) {#constructor_1}
+## AxisBound(*double*) {#constructor_1}
 
 Crea un límite de eje representado como un número.
 
@@ -87,7 +89,7 @@ Crea un límite de eje representado como un número.
 public AxisBound(double value)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico con valores de fecha/hora.
 
@@ -141,12 +143,12 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Ver también
 
 * class [AxisBound](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../axisbound/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## AxisBound(DateTime) {#constructor_2}
+## AxisBound(*DateTime*) {#constructor_2}
 
 Crea un límite de eje representado como valor de fecha y hora.
 
@@ -154,7 +156,7 @@ Crea un límite de eje representado como valor de fecha y hora.
 public AxisBound(DateTime datetime)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico con valores de fecha/hora.
 
@@ -208,7 +210,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Ver también
 
 * class [AxisBound](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../axisbound/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

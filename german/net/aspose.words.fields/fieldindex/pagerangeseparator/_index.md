@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.PageRangeSeparator
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIndex eigendom. Ruft die Zeichenfolge ab die zum Trennen des Anfangs und Endes eines Seitenbereichs verwendet wird oder legt diese fest.
+linktitle: PageRangeSeparator
+articleTitle: PageRangeSeparator
+second_title: Aspose.Words für .NET
+description: FieldIndex PageRangeSeparator eigendom. Ruft die Zeichenfolge ab die zum Trennen des Anfangs und Endes eines Seitenbereichs verwendet wird oder legt diese fest in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.fields/fieldindex/pagerangeseparator/
@@ -14,7 +16,7 @@ Ruft die Zeichenfolge ab, die zum Trennen des Anfangs und Endes eines Seitenbere
 public string PageRangeSeparator { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die übergreifenden Seiten eines Lesezeichens als Seitenbereich für einen INDEX-Feldeintrag angegeben werden.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ### Siehe auch
 
 * class [FieldIndex](../)
-* namensraum [Aspose.Words.Fields](../../fieldindex/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

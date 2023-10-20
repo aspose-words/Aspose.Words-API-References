@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.UseYomi
-second_title: Aspose.Words för .NET API Referens
-description: FieldIndex fast egendom. Hämtar eller ställer in om användningen av yomitext ska aktiveras för indexposter.
+linktitle: UseYomi
+articleTitle: UseYomi
+second_title: Aspose.Words för .NET
+description: FieldIndex UseYomi fast egendom. Hämtar eller ställer in om användningen av yomitext ska aktiveras för indexposter i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.fields/fieldindex/useyomi/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om användningen av yomi-text ska aktiveras för index
 public bool UseYomi { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man sorterar INDEX-fältposter fonetiskt.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Yomi.docx");
 ### Se även
 
 * class [FieldIndex](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldindex/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

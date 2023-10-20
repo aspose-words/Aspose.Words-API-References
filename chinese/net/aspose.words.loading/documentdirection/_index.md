@@ -1,7 +1,9 @@
 ---
-title: Enum DocumentDirection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.DocumentDirection 枚举. 允许指定文档中文本的流动方向
+title: DocumentDirection Enum
+linktitle: DocumentDirection
+articleTitle: DocumentDirection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.DocumentDirection 枚举. 允许指定文档中文本的流动方向 在 C#.
 type: docs
 weight: 3580
 url: /zh/net/aspose.words.loading/documentdirection/
@@ -26,5 +28,3 @@ public enum DocumentDirection
 
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

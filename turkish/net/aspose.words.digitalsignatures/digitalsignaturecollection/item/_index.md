@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: DigitalSignatureCollection mülk. Belirtilen dizinde bir belge imzası alır.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: DigitalSignatureCollection Item mülk. Belirtilen dizinde bir belge imzası alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.digitalsignatures/digitalsignaturecollection/item/
@@ -18,7 +20,7 @@ public DigitalSignature this[int index] { get; }
 | --- | --- |
 | index | İmzanın sıfır tabanlı dizini. |
 
-### Örnekler
+## Örnekler
 
 X.509 sertifikalarına sahip belgelerin nasıl imzalanacağını gösterir.
 
@@ -62,7 +64,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [DigitalSignature](../../digitalsignature/)
 * class [DigitalSignatureCollection](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

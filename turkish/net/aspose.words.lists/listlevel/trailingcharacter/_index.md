@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TrailingCharacter
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevel mülk. Liste düzeyi için sayıdan sonra eklenen karakteri döndürür veya ayarlar.
+linktitle: TrailingCharacter
+articleTitle: TrailingCharacter
+second_title: Aspose.Words for .NET
+description: ListLevel TrailingCharacter mülk. Liste düzeyi için sayıdan sonra eklenen karakteri döndürür veya ayarlar C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.lists/listlevel/trailingcharacter/
@@ -14,7 +16,7 @@ Liste düzeyi için sayıdan sonra eklenen karakteri döndürür veya ayarlar.
 public ListTrailingCharacter TrailingCharacter { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * enum [ListTrailingCharacter](../../listtrailingcharacter/)
 * class [ListLevel](../)
-* ad alanı [Aspose.Words.Lists](../../listlevel/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompositeNode méthode. Récupère le texte de ce nœud et de tous ses enfants.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words pour .NET
+description: CompositeNode GetText méthode. Récupère le texte de ce nœud et de tous ses enfants en C#.
 type: docs
-weight: 130
+weight: 110
 url: /fr/net/aspose.words/compositenode/gettext/
 ---
 ## CompositeNode.GetText method
@@ -14,11 +16,11 @@ Récupère le texte de ce nœud et de tous ses enfants.
 public override string GetText()
 ```
 
-### Remarques
+## Remarques
 
 La chaîne renvoyée inclut tous les caractères de contrôle et spéciaux comme décrit dans[`ControlChar`](../../controlchar/).
 
-### Exemples
+## Exemples
 
 Montre la différence entre l'appel des méthodes GetText et ToString sur un nœud.
 
@@ -65,7 +67,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 ### Voir également
 
 * class [CompositeNode](../)
-* espace de noms [Aspose.Words](../../compositenode/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

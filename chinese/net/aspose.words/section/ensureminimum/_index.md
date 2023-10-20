@@ -1,9 +1,11 @@
 ---
 title: Section.EnsureMinimum
-second_title: Aspose.Words for .NET API 参考
-description: Section 方法. 确保该部分具有Body与一个Paragraph.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: 用于 .NET 的 Aspose.Words
+description: Section EnsureMinimum 方法. 确保该部分具有Body与一个Paragraph 在 C#.
 type: docs
-weight: 150
+weight: 130
 url: /zh/net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/section/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### 例子
+## 例子
 
 演示如何准备新的截面节点以进行编辑。
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### 也可以看看
 
 * class [Section](../)
-* 命名空间 [Aspose.Words](../../section/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

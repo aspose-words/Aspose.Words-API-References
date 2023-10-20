@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Clear
-second_title: Aspose.Words for .NET API 参考
-description: OdsoFieldMapDataCollection 方法. 从此集合中删除所有元素
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoFieldMapDataCollection Clear 方法. 从此集合中删除所有元素 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.settings/odsofieldmapdatacollection/clear/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/odsofieldmapdatacollection/clear/
 public void Clear()
 ```
 
-### 例子
+## 例子
 
 演示如何访问将数据源列映射到合并字段的数据集合。
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### 也可以看看
 
 * class [OdsoFieldMapDataCollection](../)
-* 命名空间 [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

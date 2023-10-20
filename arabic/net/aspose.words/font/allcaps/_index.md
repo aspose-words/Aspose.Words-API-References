@@ -1,7 +1,9 @@
 ---
 title: Font.AllCaps
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. صحيح إذا كان الخط منسقًا بأحرف كبيرة.
+linktitle: AllCaps
+articleTitle: AllCaps
+second_title: Aspose.Words لـ .NET
+description: Font AllCaps ملكية. صحيح إذا كان الخط منسقًا بأحرف كبيرة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/font/allcaps/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/allcaps/
 public bool AllCaps { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق التشغيل لعرض محتوياته بالأحرف الكبيرة.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Font.Caps.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

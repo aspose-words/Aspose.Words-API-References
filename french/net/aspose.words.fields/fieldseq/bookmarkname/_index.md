@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.BookmarkName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldSeq propriété. Obtient ou définit un nom de signet qui fait référence à un élément ailleurs dans le document plutôt quà lemplacement actuel.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words pour .NET
+description: FieldSeq BookmarkName propriété. Obtient ou définit un nom de signet qui fait référence à un élément ailleurs dans le document plutôt quà lemplacement actuel en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldseq/bookmarkname/
@@ -14,7 +16,7 @@ Obtient ou définit un nom de signet qui fait référence à un élément ailleu
 public string BookmarkName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment combiner la table des matières et les champs de séquence.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.Bookmark.docx");
 ### Voir également
 
 * class [FieldSeq](../)
-* espace de noms [Aspose.Words.Fields](../../fieldseq/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

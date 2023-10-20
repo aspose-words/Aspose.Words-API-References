@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Shaping
-second_title: Aspose.Words for .NET API 参考
-description: 的 Aspose.Words.Shaping命名空间包含使用外部文本整形引擎提供 OpenType 功能支持的类
+linktitle: Aspose.Words.Shaping
+articleTitle: Aspose.Words.Shaping
+second_title: 用于 .NET 的 Aspose.Words
+description: 的Aspose.Words.Shaping命名空间包含使用外部文本整形引擎提供 OpenType 功能支持的类 在 C#.
 type: docs
 weight: 250
 url: /zh/net/aspose.words.shaping/
 ---
-的 **Aspose.Words.Shaping**命名空间包含使用外部文本整形引擎提供 OpenType 功能支持的类。
+的**Aspose.Words.Shaping**命名空间包含使用外部文本整形引擎提供 OpenType 功能支持的类。
 
 ## 课程
 
@@ -29,5 +31,3 @@ url: /zh/net/aspose.words.shaping/
 | [FontFeature](./fontfeature/) | 功能提供有关如何在字体中使用字形来呈现脚本的信息。 https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags |
 | [ScriptShapingLevel](./scriptshapinglevel/) | 描述脚本所需的整形级别。 |
 | [UnicodeScript](./unicodescript/) | Unicode 字符数据库属性：脚本 (sc). |
-
-

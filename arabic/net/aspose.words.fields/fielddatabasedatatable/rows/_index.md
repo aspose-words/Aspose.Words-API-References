@@ -1,7 +1,9 @@
 ---
 title: FieldDatabaseDataTable.Rows
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDatabaseDataTable ملكية. الحصول على الصفوف التي تنتمي إلى هذا الجدول.
+linktitle: Rows
+articleTitle: Rows
+second_title: Aspose.Words لـ .NET
+description: FieldDatabaseDataTable Rows ملكية. الحصول على الصفوف التي تنتمي إلى هذا الجدول في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fielddatabasedatatable/rows/
@@ -18,7 +20,5 @@ public IList<FieldDatabaseDataRow> Rows { get; }
 
 * class [FieldDatabaseDataRow](../../fielddatabasedatarow/)
 * class [FieldDatabaseDataTable](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddatabasedatatable/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

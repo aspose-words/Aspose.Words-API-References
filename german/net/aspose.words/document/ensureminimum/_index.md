@@ -1,9 +1,11 @@
 ---
 title: Document.EnsureMinimum
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Wenn das Dokument keine Abschnitte enthält wird ein Abschnitt mit einem Absatz erstellt.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words für .NET
+description: Document EnsureMinimum methode. Wenn das Dokument keine Abschnitte enthält wird ein Abschnitt mit einem Absatz erstellt in C#.
 type: docs
-weight: 600
+weight: 580
 url: /de/net/aspose.words/document/ensureminimum/
 ---
 ## Document.EnsureMinimum method
@@ -14,7 +16,7 @@ Wenn das Dokument keine Abschnitte enthält, wird ein Abschnitt mit einem Absatz
 public void EnsureMinimum()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie sichergestellt wird, dass ein Dokument die minimale Menge an Knoten enthält, die zum Bearbeiten seines Inhalts erforderlich sind.
 
@@ -52,7 +54,5 @@ Assert.AreEqual(NodeType.Paragraph, nodes[2].NodeType);
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

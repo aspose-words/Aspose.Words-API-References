@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.FieldName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergingArgsBase propiedad. Obtiene el nombre del campo de combinación en la fuente de datos.
+linktitle: FieldName
+articleTitle: FieldName
+second_title: Aspose.Words para .NET
+description: FieldMergingArgsBase FieldName propiedad. Obtiene el nombre del campo de combinación en la fuente de datos en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
@@ -14,13 +16,13 @@ Obtiene el nombre del campo de combinación en la fuente de datos.
 public string FieldName { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si tiene una asignación de un nombre de campo de documento a un nombre de campo de origen de datos diferente, , entonces este es el nombre de campo asignado.
 
 Si especificó un prefijo de nombre de campo, por ejemplo "Imagen:MiNombreDeCampo" en el documento, entonces`FieldName` devuelve el nombre del campo sin el prefijo, es decir, "MyFieldName".
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar campos de formulario de casilla de verificación en MERGEFIELD como datos de combinación durante la combinación de correspondencia.
 
@@ -106,7 +108,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Ver también
 
 * class [FieldMergingArgsBase](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

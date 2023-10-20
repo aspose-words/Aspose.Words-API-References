@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.SupportVml
-second_title: Aspose.Words for .NET API 参考
-description: HtmlLoadOptions 财产. 获取或设置一个值指示是否支持 VML 图像
+linktitle: SupportVml
+articleTitle: SupportVml
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlLoadOptions SupportVml 财产. 获取或设置一个值指示是否支持 VML 图像 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.loading/htmlloadoptions/supportvml/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.loading/htmlloadoptions/supportvml/
 public bool SupportVml { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在加载 HTML 文档时支持条件注释。
 
@@ -39,7 +41,5 @@ else
 ### 也可以看看
 
 * class [HtmlLoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../htmlloadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

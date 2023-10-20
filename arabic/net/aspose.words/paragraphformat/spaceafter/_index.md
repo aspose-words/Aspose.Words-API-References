@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceAfter
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين مقدار التباعد بالنقاط بعد الفقرة.
+linktitle: SpaceAfter
+articleTitle: SpaceAfter
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat SpaceAfter ملكية. الحصول على أو تعيين مقدار التباعد بالنقاط بعد الفقرة في C#.
 type: docs
 weight: 300
 url: /ar/net/aspose.words/paragraphformat/spaceafter/
@@ -20,13 +22,13 @@ public double SpaceAfter { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | يتم طرحه عندما تكون الوسيطة خارج نطاق القيم الصالحة. |
 
-### ملاحظات
+## ملاحظات
 
 ليس له أي تأثير عندما[`SpaceAfterAuto`](../spaceafterauto/) يكون`حقيقي`.
 
 تتراوح القيم الصالحة من 0 إلى 1584 ضمناً.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط التباعد التلقائي للفقرات.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ChartSeriesType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.ChartSeriesType énumération. Spécifie un type de série de graphiques.
+title: ChartSeriesType Enum
+linktitle: ChartSeriesType
+articleTitle: ChartSeriesType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.Charts.ChartSeriesType énumération. Spécifie un type de série de graphiques en C#.
 type: docs
 weight: 800
 url: /fr/net/aspose.words.drawing.charts/chartseriestype/
@@ -63,7 +65,7 @@ public enum ChartSeriesType
 | Funnel | `42` | Représente une série de graphiques en entonnoir. |
 | RegionMap | `43` | Représente une série de graphiques de cartes de région. |
 
-### Exemples
+## Exemples
 
 Montre comment
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Charts.RemoveSpecificChartSeries.docx");
 
 * espace de noms [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Story.DeleteShapes
-second_title: Справочник по API Aspose.Words для .NET
-description: Story метод. Удаляет все фигуры из текста этой истории.
+linktitle: DeleteShapes
+articleTitle: DeleteShapes
+second_title: Aspose.Words для .NET
+description: Story DeleteShapes метод. Удаляет все фигуры из текста этой истории на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/story/deleteshapes/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/story/deleteshapes/
 public void DeleteShapes()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить все фигуры из узла.
 
@@ -38,7 +40,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 ### Смотрите также
 
 * class [Story](../)
-* пространство имен [Aspose.Words](../../story/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

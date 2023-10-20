@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.IndexOf
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlSchemaCollection метод. Возвращает отсчитываемый от нуля индекс указанного значения в коллекции.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words для .NET
+description: CustomXmlSchemaCollection IndexOf метод. Возвращает отсчитываемый от нуля индекс указанного значения в коллекции на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.markup/customxmlschemacollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string value)
 
 Индекс, отсчитываемый от нуля. Отрицательное значение, если не обнаружено.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией схем XML.
 
@@ -68,7 +70,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Смотрите также
 
 * class [CustomXmlSchemaCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlschemacollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

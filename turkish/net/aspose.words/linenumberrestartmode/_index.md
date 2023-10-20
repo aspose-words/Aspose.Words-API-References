@@ -1,7 +1,9 @@
 ---
-title: Enum LineNumberRestartMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.LineNumberRestartMode Sıralama. Otomatik satır numaralandırmanın ne zaman yeniden başlayacağını belirler.
+title: LineNumberRestartMode Enum
+linktitle: LineNumberRestartMode
+articleTitle: LineNumberRestartMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.LineNumberRestartMode Sıralama. Otomatik satır numaralandırmanın ne zaman yeniden başlayacağını belirler C#'da.
 type: docs
 weight: 3430
 url: /tr/net/aspose.words/linenumberrestartmode/
@@ -22,7 +24,7 @@ public enum LineNumberRestartMode
 | RestartSection | `1` | Satır numaralandırma bölüm başlangıcında yeniden başlar. |
 | Continuous | `2` | Önceki bölümden devam eden satır numaralandırma. |
 
-### Örnekler
+## Örnekler
 
 Bir bölüm için satır numaralandırmanın nasıl etkinleştirileceğini gösterir.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 * property [LineNumberRestartMode](../pagesetup/linenumberrestartmode/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

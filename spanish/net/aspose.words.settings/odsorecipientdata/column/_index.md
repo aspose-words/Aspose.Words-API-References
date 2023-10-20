@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Column
-second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoRecipientData propiedad. Especifica la columna dentro de la fuente de datos que contiene datos únicos para el registro actual. El valor predeterminado es 0.
+linktitle: Column
+articleTitle: Column
+second_title: Aspose.Words para .NET
+description: OdsoRecipientData Column propiedad. Especifica la columna dentro de la fuente de datos que contiene datos únicos para el registro actual. El valor predeterminado es 0 en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.settings/odsorecipientdata/column/
@@ -14,7 +16,7 @@ Especifica la columna dentro de la fuente de datos que contiene datos únicos pa
 public int Column { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos de combinación excluirá una combinación de correspondencia.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ver también
 
 * class [OdsoRecipientData](../)
-* espacio de nombres [Aspose.Words.Settings](../../odsorecipientdata/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

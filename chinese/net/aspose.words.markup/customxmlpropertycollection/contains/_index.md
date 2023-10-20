@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Contains
-second_title: Aspose.Words for .NET API 参考
-description: CustomXmlPropertyCollection 方法. 确定集合是否包含具有给定名称的属性
+linktitle: Contains
+articleTitle: Contains
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomXmlPropertyCollection Contains 方法. 确定集合是否包含具有给定名称的属性 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.markup/customxmlpropertycollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `真的`如果在集合中找到该项目；否则，`错误的`。
 
-### 例子
+## 例子
 
 展示如何使用智能标记属性来获取有关智能标记的深入信息。
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, properties.Count);
 ### 也可以看看
 
 * class [CustomXmlPropertyCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

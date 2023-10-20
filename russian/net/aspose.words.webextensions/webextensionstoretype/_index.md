@@ -1,7 +1,9 @@
 ---
-title: Enum WebExtensionStoreType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WebExtensions.WebExtensionStoreType перечисление. Перечисляет доступные типы магазина вебрасширений.
+title: WebExtensionStoreType Enum
+linktitle: WebExtensionStoreType
+articleTitle: WebExtensionStoreType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.WebExtensions.WebExtensionStoreType перечисление. Перечисляет доступные типы магазина вебрасширений на С#.
 type: docs
 weight: 6820
 url: /ru/net/aspose.words.webextensions/webextensionstoretype/
@@ -27,7 +29,7 @@ public enum WebExtensionStoreType
 | ExCatalog | `6` | Указывает, что тип хранилища — централизованное развертывание через Exchange. |
 | Default | `0` | Значение по умолчанию. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -73,5 +75,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * пространство имен [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../)
-
-

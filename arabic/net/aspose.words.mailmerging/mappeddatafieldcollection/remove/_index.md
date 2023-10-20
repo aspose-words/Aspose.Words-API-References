@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: MappedDataFieldCollection طريقة. إزالة تعيين الحقل.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: MappedDataFieldCollection Remove طريقة. إزالة تعيين الحقل في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.mailmerging/mappeddatafieldcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string documentFieldName)
 | --- | --- | --- |
 | documentFieldName | String | اسم حساس لحالة الأحرف لحقل دمج المراسلات في المستند. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين أعمدة البيانات وMERGEFIELD بأسماء مختلفة بحيث يتم نقل البيانات فيما بينها أثناء عملية دمج البريد.
 
@@ -103,7 +105,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### أنظر أيضا
 
 * class [MappedDataFieldCollection](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

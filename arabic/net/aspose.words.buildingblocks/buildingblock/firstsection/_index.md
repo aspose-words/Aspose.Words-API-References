@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.FirstSection
-second_title: Aspose.Words لمراجع .NET API
-description: BuildingBlock ملكية. الحصول على القسم الأول في الكتلة البرمجية الإنشائية.
+linktitle: FirstSection
+articleTitle: FirstSection
+second_title: Aspose.Words لـ .NET
+description: BuildingBlock FirstSection ملكية. الحصول على القسم الأول في الكتلة البرمجية الإنشائية في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.buildingblocks/buildingblock/firstsection/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.buildingblocks/buildingblock/firstsection/
 public Section FirstSection { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إرجاع`باطل` إذا لم تكن هناك أقسام.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة كتلة إنشاء مخصصة إلى مستند.
 
@@ -116,7 +118,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [Section](../../../aspose.words/section/)
 * class [BuildingBlock](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

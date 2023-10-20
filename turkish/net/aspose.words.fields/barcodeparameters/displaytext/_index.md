@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.DisplayText
-second_title: Aspose.Words for .NET API Referansı
-description: BarcodeParameters mülk. Resimle birlikte barkod verilerinin metin görüntülenip görüntülenmeyeceği.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words for .NET
+description: BarcodeParameters DisplayText mülk. Resimle birlikte barkod verilerinin metin görüntülenip görüntülenmeyeceği C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/barcodeparameters/displaytext/
@@ -14,7 +16,7 @@ Resimle birlikte barkod verilerinin (metin) görüntülenip görüntülenmeyece�
 public bool DisplayText { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Barkod oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ayrıca bakınız
 
 * class [BarcodeParameters](../)
-* ad alanı [Aspose.Words.Fields](../../barcodeparameters/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

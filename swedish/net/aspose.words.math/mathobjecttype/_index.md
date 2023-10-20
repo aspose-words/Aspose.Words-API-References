@@ -1,7 +1,9 @@
 ---
-title: Enum MathObjectType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Math.MathObjectType uppräkning. Anger typen av ett Office Mathobjekt.
+title: MathObjectType Enum
+linktitle: MathObjectType
+articleTitle: MathObjectType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Math.MathObjectType uppräkning. Anger typen av ett Office Mathobjekt i C#.
 type: docs
 weight: 4110
 url: /sv/net/aspose.words.math/mathobjecttype/
@@ -49,7 +51,7 @@ public enum MathObjectType
 | SubSuperscript | `28` | Sub-superscript-objekt, som består av ett baselement, ett reducerat skript placerat under och till höger, och ett reducerat skript placerat ovanför och till höger. |
 | Supercript | `29` | Superscript-objekt, som består av ett baselement och ett skript i förminskad storlek placerat ovanför och till höger. |
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje kontors matematisk nod i ett dokument.
 
@@ -142,5 +144,3 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * namnutrymme [Aspose.Words.Math](../../aspose.words.math/)
 * hopsättning [Aspose.Words](../../)
-
-

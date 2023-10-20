@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.BarcodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergeBarcode propiedad. Obtiene o establece el tipo de código de barras QR etc.
+linktitle: BarcodeType
+articleTitle: BarcodeType
+second_title: Aspose.Words para .NET
+description: FieldMergeBarcode BarcodeType propiedad. Obtiene o establece el tipo de código de barras QR etc en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldmergebarcode/barcodetype/
@@ -14,7 +16,7 @@ Obtiene o establece el tipo de código de barras (QR, etc.)
 public string BarcodeType { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo realizar una combinación de correspondencia en códigos de barras ITF14.
 
@@ -180,7 +182,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Ver también
 
 * class [FieldMergeBarcode](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldmergebarcode/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

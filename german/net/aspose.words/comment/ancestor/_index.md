@@ -1,7 +1,9 @@
 ---
 title: Comment.Ancestor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Comment eigendom. Gibt das übergeordnete Element zurückComment Objekt. Kehrt zurückNull für Kommentare der obersten Ebene.
+linktitle: Ancestor
+articleTitle: Ancestor
+second_title: Aspose.Words für .NET
+description: Comment Ancestor eigendom. Gibt das übergeordnete Element zurückComment Objekt. Kehrt zurückNull für Kommentare der obersten Ebene in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/comment/ancestor/
@@ -14,7 +16,7 @@ Gibt das übergeordnete Element zurück[`Comment`](../) Objekt. Kehrt zurück`Nu
 public Comment Ancestor { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Kommentare und Antworten eines Dokuments gedruckt werden.
 
@@ -40,7 +42,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 ### Siehe auch
 
 * class [Comment](../)
-* namensraum [Aspose.Words](../../comment/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

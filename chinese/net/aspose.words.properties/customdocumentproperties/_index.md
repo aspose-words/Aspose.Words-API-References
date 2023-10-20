@@ -1,7 +1,9 @@
 ---
-title: Class CustomDocumentProperties
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Properties.CustomDocumentProperties 班级. 自定义文档属性的集合
+title: CustomDocumentProperties Class
+linktitle: CustomDocumentProperties
+articleTitle: CustomDocumentProperties
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Properties.CustomDocumentProperties 班级. 自定义文档属性的集合 在 C#.
 type: docs
 weight: 4460
 url: /zh/net/aspose.words.properties/customdocumentproperties/
@@ -28,20 +30,20 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add)(string, bool) | 创建一个新的自定义文档属性Boolean数据类型. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_3)(string, DateTime) | 创建一个新的自定义文档属性DateTime数据类型. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_1)(string, double) | 创建一个新的自定义文档属性Double数据类型. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_2)(string, int) | 创建一个新的自定义文档属性Number数据类型. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_4)(string, string) | 创建一个新的自定义文档属性String数据类型. |
-| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent/)(string, string) | 创建一个新的链接到内容自定义文档属性。 |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add)(*string, bool*) | 创建一个新的自定义文档属性Boolean数据类型. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_3)(*string, DateTime*) | 创建一个新的自定义文档属性DateTime数据类型. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_1)(*string, double*) | 创建一个新的自定义文档属性Double数据类型. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_2)(*string, int*) | 创建一个新的自定义文档属性Number数据类型. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_4)(*string, string*) | 创建一个新的自定义文档属性String数据类型. |
+| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent/)(*string, string*) | 创建一个新的链接到内容自定义文档属性。 |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | 从集合中删除所有属性。 |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | 返回`真的`如果集合中存在具有指定名称的属性。 |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | 返回`真的`如果集合中存在具有指定名称的属性。 |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | 按名称获取属性的索引。 |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | 从集合中删除具有指定名称的属性。 |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | 删除指定索引处的属性。 |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | 按名称获取属性的索引。 |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | 从集合中删除具有指定名称的属性。 |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | 删除指定索引处的属性。 |
 
-### 评论
+## 评论
 
 每个[`DocumentProperty`](../documentproperty/)object 表示容器文档的自定义属性。
 
@@ -49,7 +51,7 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 
 集合中的属性按名称字母顺序排序。
 
-### 例子
+## 例子
 
 展示如何使用自定义文档属性。
 
@@ -79,5 +81,3 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
 * 命名空间 [Aspose.Words.Properties](../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../)
-
-

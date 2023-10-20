@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowSeriesName
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabelCollection 财产. 返回或设置一个布尔值以指示整个系列的数据标签的系列名称显示行为 真的显示系列名称错误的隐藏默认情况下错误的.
+linktitle: ShowSeriesName
+articleTitle: ShowSeriesName
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabelCollection ShowSeriesName 财产. 返回或设置一个布尔值以指示整个系列的数据标签的系列名称显示行为 真的显示系列名称错误的隐藏默认情况下错误的 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname
 public bool ShowSeriesName { get; set; }
 ```
 
-### 评论
+## 评论
 
 可以使用 the 覆盖单个数据标签为此属性定义的值[`ShowSeriesName`](../../chartdatalabel/showseriesname/)属性.
 
-### 例子
+## 例子
 
 演示如何使用气泡图的数据标签。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### 也可以看看
 
 * class [ChartDataLabelCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: CustomXmlSchemaCollection 财产. 获取或设置指定索引处的元素
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomXmlSchemaCollection Item 财产. 获取或设置指定索引处的元素 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/customxmlschemacollection/item/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/customxmlschemacollection/item/
 public string this[int index] { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用 XML 架构集合。
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### 也可以看看
 
 * class [CustomXmlSchemaCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../customxmlschemacollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

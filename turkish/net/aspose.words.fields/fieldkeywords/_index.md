@@ -1,7 +1,9 @@
 ---
-title: Class FieldKeywords
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldKeywords sınıf. ANAHTAR KELİMELER alanını uygular.
+title: FieldKeywords Class
+linktitle: FieldKeywords
+articleTitle: FieldKeywords
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldKeywords sınıf. ANAHTAR KELİMELER alanını uygular C#'da.
 type: docs
 weight: 2090
 url: /tr/net/aspose.words.fields/fieldkeywords/
@@ -43,17 +45,17 @@ public class FieldKeywords : Field
 | İsim | Tanım |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
-### Notlar
+## Notlar
 
-Belgenin anahtar sözcüklerini, belgede kaydedildiği şekliyle alır ve isteğe bağlı olarak ayarlar. **Anahtar Kelimeler** the yerleşik belge özelliklerinin özelliği.
+Belgenin anahtar sözcüklerini, belgede kaydedildiği şekliyle alır ve isteğe bağlı olarak ayarlar.**Anahtar Kelimeler** the yerleşik belge özelliklerinin özelliği.
 
-### Örnekler
+## Örnekler
 
 ANAHTAR KELİMELER alanının eklenmesini gösterir.
 
@@ -88,5 +90,3 @@ doc.Save(ArtifactsDir + "Field.KEYWORDS.docx");
 * class [Field](../field/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

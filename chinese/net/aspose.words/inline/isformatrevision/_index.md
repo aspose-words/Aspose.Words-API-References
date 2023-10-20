@@ -1,7 +1,9 @@
 ---
 title: Inline.IsFormatRevision
-second_title: Aspose.Words for .NET API 参考
-description: Inline 财产. 如果在启用更改跟踪的情况下在 Microsoft Word 中更改了对象的格式则返回 true
+linktitle: IsFormatRevision
+articleTitle: IsFormatRevision
+second_title: 用于 .NET 的 Aspose.Words
+description: Inline IsFormatRevision 财产. 如果在启用更改跟踪的情况下在 Microsoft Word 中更改了对象的格式则返回 true 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/inline/isformatrevision/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/inline/isformatrevision/
 public bool IsFormatRevision { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何确定内联节点的修订类型。
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### 也可以看看
 
 * class [Inline](../)
-* 命名空间 [Aspose.Words](../../inline/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

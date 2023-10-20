@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.WordOpenXML
-second_title: Aspose.Words för .NET API Referens
-description: IStructuredDocumentTag fast egendom. Får en sträng som representerar XML som finns i noden iFlatOpc format.
+linktitle: WordOpenXML
+articleTitle: WordOpenXML
+second_title: Aspose.Words för .NET
+description: IStructuredDocumentTag WordOpenXML fast egendom. Får en sträng som representerar XML som finns i noden iFlatOpc format i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.markup/istructureddocumenttag/wordopenxml/
@@ -17,7 +19,5 @@ public string WordOpenXML { get; }
 ### Se även
 
 * interface [IStructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../istructureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

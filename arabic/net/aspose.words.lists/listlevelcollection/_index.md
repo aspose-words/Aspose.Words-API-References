@@ -1,7 +1,9 @@
 ---
-title: Class ListLevelCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Lists.ListLevelCollection فصل. مجموعة من تنسيقات القائمة لكل مستوى في القائمة.
+title: ListLevelCollection Class
+linktitle: ListLevelCollection
+articleTitle: ListLevelCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Lists.ListLevelCollection فصل. مجموعة من تنسيقات القائمة لكل مستوى في القائمة في C#.
 type: docs
 weight: 3520
 url: /ar/net/aspose.words.lists/listlevelcollection/
@@ -29,7 +31,7 @@ public class ListLevelCollection : IEnumerable<ListLevel>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.lists/listlevelcollection/getenumerator/)() | الحصول على كائن العداد الذي سيقوم بتعداد المستويات في هذه القائمة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نمط قائمة واستخدامه في مستند.
 
@@ -146,5 +148,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 * class [ListLevel](../listlevel/)
 * مساحة الاسم [Aspose.Words.Lists](../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../)
-
-

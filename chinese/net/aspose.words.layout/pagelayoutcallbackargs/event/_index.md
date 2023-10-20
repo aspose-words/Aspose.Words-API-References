@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.Event
-second_title: Aspose.Words for .NET API 参考
-description: PageLayoutCallbackArgs 财产. 获取事件
+linktitle: Event
+articleTitle: Event
+second_title: 用于 .NET 的 Aspose.Words
+description: PageLayoutCallbackArgs Event 财产. 获取事件 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.layout/pagelayoutcallbackargs/event/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/pagelayoutcallbackargs/event/
 public PageLayoutEvent Event { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用布局回调跟踪布局更改。
 
@@ -81,7 +83,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * enum [PageLayoutEvent](../../pagelayoutevent/)
 * class [PageLayoutCallbackArgs](../)
-* 命名空间 [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

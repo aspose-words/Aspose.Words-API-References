@@ -1,12 +1,14 @@
 ---
 title: TableSubstitutionRule.Load
-second_title: Aspose.Words for .NET API 参考
-description: TableSubstitutionRule 方法. 从 XML 文件加载表替换设置
+linktitle: Load
+articleTitle: Load
+second_title: 用于 .NET 的 Aspose.Words
+description: TableSubstitutionRule Load 方法. 从 XML 文件加载表替换设置 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/tablesubstitutionrule/load/
 ---
-## Load(string) {#load_1}
+## Load(*string*) {#load_1}
 
 从 XML 文件加载表替换设置。
 
@@ -18,7 +20,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | 输入文件名。 |
 
-### 例子
+## 例子
 
 展示如何使用自定义字体替换表。
 
@@ -79,12 +81,12 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### 也可以看看
 
 * class [TableSubstitutionRule](../)
-* 命名空间 [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Load(Stream) {#load}
+## Load(*Stream*) {#load}
 
 从 XML 流加载表替换设置。
 
@@ -96,7 +98,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | 输入流。 |
 
-### 例子
+## 例子
 
 展示如何使用自定义字体替换表。
 
@@ -157,7 +159,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### 也可以看看
 
 * class [TableSubstitutionRule](../)
-* 命名空间 [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

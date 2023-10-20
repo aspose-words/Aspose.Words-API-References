@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsInsertRevision
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 如果在启用更改跟踪的情况下将此对象插入到 Microsoft Word 中则返回 true
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase IsInsertRevision 财产. 如果在启用更改跟踪的情况下将此对象插入到 Microsoft Word 中则返回 true 在 C#.
 type: docs
 weight: 300
 url: /zh/net/aspose.words.drawing/shapebase/isinsertrevision/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shapebase/isinsertrevision/
 public bool IsInsertRevision { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用修订形状。
 
@@ -61,7 +63,5 @@ Assert.True(shapes[1].IsInsertRevision);
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

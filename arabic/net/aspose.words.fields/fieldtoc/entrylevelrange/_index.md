@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntryLevelRange
-second_title: Aspose.Words لمراجع .NET API
-description: FieldToc ملكية. الحصول على أو تعيين نطاق من مستويات إدخالات جدول المحتويات المراد تضمينها.
+linktitle: EntryLevelRange
+articleTitle: EntryLevelRange
+second_title: Aspose.Words لـ .NET
+description: FieldToc EntryLevelRange ملكية. الحصول على أو تعيين نطاق من مستويات إدخالات جدول المحتويات المراد تضمينها في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldtoc/entrylevelrange/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtoc/entrylevelrange/
 public string EntryLevelRange { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل جدول المحتويات، وتصفية حقول TC التي تنتهي كمدخلات.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### أنظر أيضا
 
 * class [FieldToc](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtoc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

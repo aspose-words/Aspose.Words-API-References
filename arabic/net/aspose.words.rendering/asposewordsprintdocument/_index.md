@@ -1,7 +1,9 @@
 ---
-title: Class AsposeWordsPrintDocument
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Rendering.AsposeWordsPrintDocument فصل. يوفر تطبيقًا افتراضيًا لطباعة ملف aDocument ضمن إطار الطباعة .NET.
+title: AsposeWordsPrintDocument Class
+linktitle: AsposeWordsPrintDocument
+articleTitle: AsposeWordsPrintDocument
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Rendering.AsposeWordsPrintDocument فصل. يوفر تطبيقًا افتراضيًا لطباعة ملف aDocument ضمن إطار الطباعة .NET في C#.
 type: docs
 weight: 4530
 url: /ar/net/aspose.words.rendering/asposewordsprintdocument/
@@ -20,7 +22,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 | اسم | وصف |
 | --- | --- |
-| [AsposeWordsPrintDocument](asposewordsprintdocument/)(Document) | تهيئة مثيل جديد لهذه الفئة. |
+| [AsposeWordsPrintDocument](asposewordsprintdocument/)(*[Document](../../aspose.words/document/)*) | تهيئة مثيل جديد لهذه الفئة. |
 
 ## الخصائص
 
@@ -35,7 +37,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 | --- | --- |
 | [CachePrinterSettings](../../aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/)() | يقرأ ويخزن بعض حقولPrinterSettings لتقليل وقت الطباعة. |
 
-### ملاحظات
+## ملاحظات
 
 `AsposeWordsPrintDocument` يتجاوزPrintEventArgs) لطباعة نطاق الصفحات المحدد فيهPrinterSettings.
 
@@ -47,5 +49,3 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 * مساحة الاسم [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../)
-
-

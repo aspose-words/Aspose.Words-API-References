@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleId
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置格式化字符的区域设置标识符语言
+linktitle: LocaleId
+articleTitle: LocaleId
+second_title: 用于 .NET 的 Aspose.Words
+description: Font LocaleId 财产. 获取或设置格式化字符的区域设置标识符语言 在 C#.
 type: docs
 weight: 200
 url: /zh/net/aspose.words/font/localeid/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/font/localeid/
 public int LocaleId { get; set; }
 ```
 
-### 评论
+## 评论
 
 有关区域设置标识符的列表，请参阅 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### 例子
+## 例子
 
 展示如何设置我们使用文档生成器添加的文本的区域设置。
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Font.LocaleId.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

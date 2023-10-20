@@ -1,7 +1,9 @@
 ---
 title: TextPath.SameLetterHeights
-second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. Определяет будут ли все буквы одинаковой высоты независимо от начального регистра.
+linktitle: SameLetterHeights
+articleTitle: SameLetterHeights
+second_title: Aspose.Words для .NET
+description: TextPath SameLetterHeights свойство. Определяет будут ли все буквы одинаковой высоты независимо от начального регистра на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.drawing/textpath/sameletterheights/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textpath/sameletterheights/
 public bool SameLetterHeights { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Смотрите также
 
 * class [TextPath](../)
-* пространство имен [Aspose.Words.Drawing](../../textpath/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

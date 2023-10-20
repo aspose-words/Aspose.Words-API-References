@@ -1,7 +1,9 @@
 ---
 title: FormField.Name
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Ottiene o imposta il nome del campo del modulo.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words per .NET
+description: FormField Name proprietà. Ottiene o imposta il nome del campo del modulo in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words.fields/formfield/name/
@@ -14,11 +16,11 @@ Ottiene o imposta il nome del campo del modulo.
 public string Name { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Microsoft Word consente stringhe con un massimo di 20 caratteri.
 
-### Esempi
+## Esempi
 
 Mostra come inserire una casella combinata.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### Guarda anche
 
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

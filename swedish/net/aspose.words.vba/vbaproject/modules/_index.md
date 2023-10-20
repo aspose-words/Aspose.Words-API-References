@@ -1,7 +1,9 @@
 ---
 title: VbaProject.Modules
-second_title: Aspose.Words för .NET API Referens
-description: VbaProject fast egendom. Returnerar samling av VBAprojektmoduler.
+linktitle: Modules
+articleTitle: Modules
+second_title: Aspose.Words för .NET
+description: VbaProject Modules fast egendom. Returnerar samling av VBAprojektmoduler i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.vba/vbaproject/modules/
@@ -14,7 +16,7 @@ Returnerar samling av VBA-projektmoduler.
 public VbaModuleCollection Modules { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments VBA-projektinformation.
 
@@ -46,7 +48,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModuleCollection](../../vbamodulecollection/)
 * class [VbaProject](../)
-* namnutrymme [Aspose.Words.Vba](../../vbaproject/)
+* namnutrymme [Aspose.Words.Vba](../../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../../)
-
-

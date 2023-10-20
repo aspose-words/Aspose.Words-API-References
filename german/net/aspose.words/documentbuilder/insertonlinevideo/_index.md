@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOnlineVideo
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt ein OnlineVideoobjekt in das Dokument ein und skaliert es auf die angegebene Größe.
+linktitle: InsertOnlineVideo
+articleTitle: InsertOnlineVideo
+second_title: Aspose.Words für .NET
+description: DocumentBuilder InsertOnlineVideo methode. Fügt ein OnlineVideoobjekt in das Dokument ein und skaliert es auf die angegebene Größe in C#.
 type: docs
-weight: 420
+weight: 410
 url: /de/net/aspose.words/documentbuilder/insertonlinevideo/
 ---
-## InsertOnlineVideo(string, double, double) {#insertonlinevideo_1}
+## InsertOnlineVideo(*string, double, double*) {#insertonlinevideo_1}
 
 Fügt ein Online-Videoobjekt in das Dokument ein und skaliert es auf die angegebene Größe.
 
@@ -24,7 +26,7 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 
 Der Bildknoten, der gerade eingefügt wurde.
 
-### Bemerkungen
+## Bemerkungen
 
 Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern[`Shape`](../../../aspose.words.drawing/shape/) Von dieser Methode zurückgegebenes Objekt.
 
@@ -37,7 +39,7 @@ Wenn Ihr Online-Video nicht richtig angezeigt wird, verwenden Sie`InsertOnlineVi
 
 Der Code zum Einbetten von Videos kann je nach Anbieter unterschiedlich sein. Weitere Informationen erhalten Sie beim entsprechenden Anbieter Ihrer Wahl.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Online-Video mithilfe einer URL in ein Dokument einfügt.
 
@@ -55,12 +57,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo}
+## InsertOnlineVideo(*string, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo}
 
 Fügt ein Online-Videoobjekt in das Dokument ein und skaliert es auf die angegebene Größe.
 
@@ -84,7 +86,7 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 
 Der Bildknoten, der gerade eingefügt wurde.
 
-### Bemerkungen
+## Bemerkungen
 
 Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern[`Shape`](../../../aspose.words.drawing/shape/) Von dieser Methode zurückgegebenes Objekt.
 
@@ -97,7 +99,7 @@ Wenn Ihr Online-Video nicht richtig angezeigt wird, verwenden Sie`InsertOnlineVi
 
 Der Code zum Einbetten von Videos kann je nach Anbieter unterschiedlich sein. Weitere Informationen erhalten Sie beim entsprechenden Anbieter Ihrer Wahl.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Online-Video in ein Dokument einfügt.
 
@@ -124,12 +126,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], double, double) {#insertonlinevideo_3}
+## InsertOnlineVideo(*string, string, byte[], double, double*) {#insertonlinevideo_3}
 
 Fügt ein Online-Videoobjekt in das Dokument ein und skaliert es auf die angegebene Größe.
 
@@ -150,11 +152,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 Der Bildknoten, der gerade eingefügt wurde.
 
-### Bemerkungen
+## Bemerkungen
 
 Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern[`Shape`](../../../aspose.words.drawing/shape/) Von dieser Methode zurückgegebenes Objekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Online-Video mit einer benutzerdefinierten Miniaturansicht in ein Dokument einfügt.
 
@@ -197,12 +199,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo_2}
+## InsertOnlineVideo(*string, string, byte[], [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo_2}
 
 Fügt ein Online-Videoobjekt in das Dokument ein und skaliert es auf die angegebene Größe.
 
@@ -229,11 +231,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 Der Bildknoten, der gerade eingefügt wurde.
 
-### Bemerkungen
+## Bemerkungen
 
 Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern[`Shape`](../../../aspose.words.drawing/shape/) Von dieser Methode zurückgegebenes Objekt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Online-Video mit einer benutzerdefinierten Miniaturansicht in ein Dokument einfügt.
 
@@ -279,7 +281,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

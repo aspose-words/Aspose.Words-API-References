@@ -1,7 +1,9 @@
 ---
-title: Enum EmbeddedFontStyle
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.EmbeddedFontStyle opsomming. Gibt den Stil einer eingebetteten Schriftart in a anFontInfo Objekt.
+title: EmbeddedFontStyle Enum
+linktitle: EmbeddedFontStyle
+articleTitle: EmbeddedFontStyle
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fonts.EmbeddedFontStyle opsomming. Gibt den Stil einer eingebetteten Schriftart in a anFontInfo Objekt in C#.
 type: docs
 weight: 2860
 url: /de/net/aspose.words.fonts/embeddedfontstyle/
@@ -24,7 +26,7 @@ public enum EmbeddedFontStyle
 | Italic | `2` | Gibt die eingebettete Kursivschrift an. |
 | BoldItalic | `3` | Gibt die eingebettete Schriftart „Fett-Kursiv“ an. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine eingebettete Schriftart aus einem Dokument extrahiert und im lokalen Dateisystem speichert.
 
@@ -52,5 +54,3 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.SourceFullName
-second_title: Aspose.Words för .NET API Referens
-description: FieldDdeAuto fast egendom. Hämtar eller ställer in namnet och platsen för källfilen.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words för .NET
+description: FieldDdeAuto SourceFullName fast egendom. Hämtar eller ställer in namnet och platsen för källfilen i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.fields/fieldddeauto/sourcefullname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet och platsen för källfilen.
 public string SourceFullName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder olika fälttyper för att länka till andra dokument i det lokala filsystemet och visa deras innehåll.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Se även
 
 * class [FieldDdeAuto](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldddeauto/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

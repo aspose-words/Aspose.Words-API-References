@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FileName
-second_title: Aspose.Words for .NET API 参考
-description: FieldOptions 财产. 获取或设置文档的文件名
+linktitle: FileName
+articleTitle: FileName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldOptions FileName 财产. 获取或设置文档的文件名 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.fields/fieldoptions/filename/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/fieldoptions/filename/
 public string FileName { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性由[`FieldFileName`](../../fieldfilename/)优先级高于的字段[`OriginalFileName`](../../../aspose.words/document/originalfilename/)财产。
 
-### 例子
+## 例子
 
 演示如何使用 FieldOptions 覆盖 FILENAME 字段的默认值。
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + doc.FieldOptions.FileName);
 ### 也可以看看
 
 * class [FieldOptions](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldoptions/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.MappedName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoFieldMapData propriété. Spécifie le nom du champ de fusion prédéfini qui doit être mappé au numéro de colonne spécifié par leColumn propriété dans ce champ mapping. La valeur par défaut est une chaîne vide.
+linktitle: MappedName
+articleTitle: MappedName
+second_title: Aspose.Words pour .NET
+description: OdsoFieldMapData MappedName propriété. Spécifie le nom du champ de fusion prédéfini qui doit être mappé au numéro de colonne spécifié par leColumn propriété dans ce champ mapping. La valeur par défaut est une chaîne vide en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.settings/odsofieldmapdata/mappedname/
@@ -14,7 +16,7 @@ Spécifie le nom du champ de fusion prédéfini qui doit être mappé au numéro
 public string MappedName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui mappe les colonnes de la source de données aux champs de fusion.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Voir également
 
 * class [OdsoFieldMapData](../)
-* espace de noms [Aspose.Words.Settings](../../odsofieldmapdata/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

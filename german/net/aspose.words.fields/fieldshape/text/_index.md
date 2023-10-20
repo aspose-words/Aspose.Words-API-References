@@ -1,7 +1,9 @@
 ---
 title: FieldShape.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldShape eigendom. Ruft den abzurufenden Text ab oder legt ihn fest.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: FieldShape Text eigendom. Ruft den abzurufenden Text ab oder legt ihn fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldshape/text/
@@ -14,7 +16,7 @@ Ruft den abzurufenden Text ab oder legt ihn fest.
 public string Text { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit BIDIOUTLINE-Feldern sprachkompatible Listen mit der Schreibrichtung von rechts nach links erstellt.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(ShapeType.OleObject, shape.ShapeType);
 ### Siehe auch
 
 * class [FieldShape](../)
-* namensraum [Aspose.Words.Fields](../../fieldshape/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

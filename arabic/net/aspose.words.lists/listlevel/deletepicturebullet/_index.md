@@ -1,7 +1,9 @@
 ---
 title: ListLevel.DeletePictureBullet
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevel طريقة. حذف رمز نقطي للصورة لمستوى القائمة الحالي.
+linktitle: DeletePictureBullet
+articleTitle: DeletePictureBullet
+second_title: Aspose.Words لـ .NET
+description: ListLevel DeletePictureBullet طريقة. حذف رمز نقطي للصورة لمستوى القائمة الحالي في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.lists/listlevel/deletepicturebullet/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/listlevel/deletepicturebullet/
 public void DeletePictureBullet()
 ```
 
-### ملاحظات
+## ملاحظات
 
 سيتم عرض الرمز النقطي الافتراضي بعد الحذف.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين رمز صورة مخصص لتسميات عناصر القائمة.
 
@@ -50,7 +52,5 @@ Assert.IsNull(list.ListLevels[0].ImageData);
 ### أنظر أيضا
 
 * class [ListLevel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.NodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: BuildingBlock свойство. ВозвращаетBuildingBlock значение.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words для .NET
+description: BuildingBlock NodeType свойство. ВозвращаетBuildingBlock значение на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.buildingblocks/buildingblock/nodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.buildingblocks/buildingblock/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перемещаться по дереву дочерних узлов составного узла.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [BuildingBlock](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

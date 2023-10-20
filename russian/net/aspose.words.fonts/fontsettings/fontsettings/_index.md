@@ -1,7 +1,9 @@
 ---
-title: FontSettings.FontSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSettings строитель. Конструктор по умолчанию.
+title: FontSettings
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words для .NET
+description: FontSettings строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/fontsettings/fontsettings/
@@ -17,7 +19,5 @@ public FontSettings()
 ### Смотрите также
 
 * class [FontSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

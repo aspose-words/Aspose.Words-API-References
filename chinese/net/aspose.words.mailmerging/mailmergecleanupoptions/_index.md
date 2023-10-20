@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCleanupOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.MailMerging.MailMergeCleanupOptions 枚举. 指定确定在邮件合并期间删除哪些项目的选项
+title: MailMergeCleanupOptions Enum
+linktitle: MailMergeCleanupOptions
+articleTitle: MailMergeCleanupOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.MailMerging.MailMergeCleanupOptions 枚举. 指定确定在邮件合并期间删除哪些项目的选项 在 C#.
 type: docs
 weight: 3850
 url: /zh/net/aspose.words.mailmerging/mailmergecleanupoptions/
@@ -27,7 +29,7 @@ public enum MailMergeCleanupOptions
 | RemoveStaticFields | `10` | 指定是否应从文档中删除静态字段。静态字段是在任何文档更改后 结果保持不变的字段。字段，不将其结果存储在 document 中，而是动态计算的（例如FieldListNum, FieldSymbol等）不被认为是静态的。 |
 | RemoveEmptyTableRows | `20` | 指定是否应从文档中删除包含邮件合并区域的空行。 |
 
-### 例子
+## 例子
 
 演示如何删除邮件合并可能从合并输出文档中创建的空段落。
 
@@ -100,5 +102,3 @@ else
 
 * 命名空间 [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../)
-
-

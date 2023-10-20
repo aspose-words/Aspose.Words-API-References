@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.ReferenceOffset
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MustacheTag propriété. Obtient la position de départ de base zéro de la balise à partir du début de laReferenceRun .
+linktitle: ReferenceOffset
+articleTitle: ReferenceOffset
+second_title: Aspose.Words pour .NET
+description: MustacheTag ReferenceOffset propriété. Obtient la position de départ de base zéro de la balise à partir du début de laReferenceRun  en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.mailmerging/mustachetag/referenceoffset/
@@ -14,7 +16,7 @@ Obtient la position de départ de base zéro de la balise à partir du début de
 public int ReferenceOffset { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les balises de moustache.
 
@@ -41,7 +43,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 ### Voir également
 
 * class [MustacheTag](../)
-* espace de noms [Aspose.Words.MailMerging](../../mustachetag/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

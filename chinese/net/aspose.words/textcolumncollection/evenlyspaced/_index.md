@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.EvenlySpaced
-second_title: Aspose.Words for .NET API 参考
-description: TextColumnCollection 财产. 如果文本列宽度相等且间隔均匀则为 True
+linktitle: EvenlySpaced
+articleTitle: EvenlySpaced
+second_title: 用于 .NET 的 Aspose.Words
+description: TextColumnCollection EvenlySpaced 财产. 如果文本列宽度相等且间隔均匀则为 True 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/textcolumncollection/evenlyspaced/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/textcolumncollection/evenlyspaced/
 public bool EvenlySpaced { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何创建间隔不均匀的列。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### 也可以看看
 
 * class [TextColumnCollection](../)
-* 命名空间 [Aspose.Words](../../textcolumncollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

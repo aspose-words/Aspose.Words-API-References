@@ -1,7 +1,9 @@
 ---
-title: Class FontInfo
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.FontInfo 班级. 指定有关文档中使用的字体的信息
+title: FontInfo Class
+linktitle: FontInfo
+articleTitle: FontInfo
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fonts.FontInfo 班级. 指定有关文档中使用的字体的信息 在 C#.
 type: docs
 weight: 2920
 url: /zh/net/aspose.words.fonts/fontinfo/
@@ -32,14 +34,14 @@ public class FontInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(EmbeddedFontFormat, EmbeddedFontStyle) | 获取特定的嵌入字体文件。 |
-| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(EmbeddedFontStyle) | 获取 OpenType 格式的嵌入字体文件。嵌入式 OpenType 格式的字体将转换为 OpenType. |
+| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(*[EmbeddedFontFormat](../embeddedfontformat/), [EmbeddedFontStyle](../embeddedfontstyle/)*) | 获取特定的嵌入字体文件。 |
+| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(*[EmbeddedFontStyle](../embeddedfontstyle/)*) | 获取 OpenType 格式的嵌入字体文件。嵌入式 OpenType 格式的字体将转换为 OpenType. |
 
-### 评论
+## 评论
 
 您不直接创建此类的实例。 使用[`FontInfos`](../../aspose.words/documentbase/fontinfos/)属性来访问文档中定义的字体 集合。
 
-### 例子
+## 例子
 
 演示如何打印文档中存在的字体的详细信息。
 
@@ -60,5 +62,3 @@ for (int i = 0; i < allFonts.Count; i++)
 
 * 命名空间 [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../)
-
-

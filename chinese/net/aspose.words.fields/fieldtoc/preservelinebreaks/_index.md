@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PreserveLineBreaks
-second_title: Aspose.Words for .NET API 参考
-description: FieldToc 财产. 获取或设置是否在表条目中保留换行符
+linktitle: PreserveLineBreaks
+articleTitle: PreserveLineBreaks
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldToc PreserveLineBreaks 财产. 获取或设置是否在表条目中保留换行符 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.fields/fieldtoc/preservelinebreaks/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldtoc/preservelinebreaks/
 public bool PreserveLineBreaks { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入目录，并使用基于标题样式的条目填充它。
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### 也可以看看
 
 * class [FieldToc](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldtoc/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

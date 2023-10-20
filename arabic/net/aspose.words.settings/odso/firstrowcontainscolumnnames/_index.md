@@ -1,7 +1,9 @@
 ---
 title: Odso.FirstRowContainsColumnNames
-second_title: Aspose.Words لمراجع .NET API
-description: Odso ملكية. يحدد أن تطبيق الاستضافة يجب أن يتعامل مع الصف الأول من البيانات في مصدر data الخارجي المحدد كصف رأس يحتوي على أسماء كل عمود في مصدر البيانات. القيمة الافتراضية هيخطأ شنيع .
+linktitle: FirstRowContainsColumnNames
+articleTitle: FirstRowContainsColumnNames
+second_title: Aspose.Words لـ .NET
+description: Odso FirstRowContainsColumnNames ملكية. يحدد أن تطبيق الاستضافة يجب أن يتعامل مع الصف الأول من البيانات في مصدر data الخارجي المحدد كصف رأس يحتوي على أسماء كل عمود في مصدر البيانات. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
 public bool FirstRowContainsColumnNames { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 RK لم أر هذا قيد الاستخدام من قبل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### أنظر أيضا
 
 * class [Odso](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odso/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

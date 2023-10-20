@@ -1,7 +1,9 @@
 ---
 title: FieldUserName.UserName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldUserName свойство. Присвоение или установка имени текущего пользователя.
+linktitle: UserName
+articleTitle: UserName
+second_title: Aspose.Words для .NET
+description: FieldUserName UserName свойство. Присвоение или установка имени текущего пользователя на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldusername/username/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldusername/username/
 public string UserName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле USERNAME.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Field.USERNAME.docx");
 ### Смотрите также
 
 * class [FieldUserName](../)
-* пространство имен [Aspose.Words.Fields](../../fieldusername/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

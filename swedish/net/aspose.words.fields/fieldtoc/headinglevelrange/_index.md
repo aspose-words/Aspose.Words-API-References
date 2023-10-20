@@ -1,7 +1,9 @@
 ---
 title: FieldToc.HeadingLevelRange
-second_title: Aspose.Words för .NET API Referens
-description: FieldToc fast egendom. Hämtar eller ställer in ett intervall av rubriknivåer som ska inkluderas.
+linktitle: HeadingLevelRange
+articleTitle: HeadingLevelRange
+second_title: Aspose.Words för .NET
+description: FieldToc HeadingLevelRange fast egendom. Hämtar eller ställer in ett intervall av rubriknivåer som ska inkluderas i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.fields/fieldtoc/headinglevelrange/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett intervall av rubriknivåer som ska inkluderas.
 public string HeadingLevelRange { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en innehållsförteckning och fyller den med poster baserat på rubrikstilar.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Se även
 
 * class [FieldToc](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtoc/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

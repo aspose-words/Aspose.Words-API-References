@@ -1,7 +1,9 @@
 ---
-title: FieldInfo.FieldInfo
-second_title: Aspose.Words for .NET API Referansı
-description: FieldInfo inşaatçı. Default_Constructor
+title: FieldInfo
+linktitle: FieldInfo
+articleTitle: FieldInfo
+second_title: Aspose.Words for .NET
+description: FieldInfo inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldinfo/fieldinfo/
@@ -17,7 +19,5 @@ public FieldInfo()
 ### Ayrıca bakınız
 
 * class [FieldInfo](../)
-* ad alanı [Aspose.Words.Fields](../../fieldinfo/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

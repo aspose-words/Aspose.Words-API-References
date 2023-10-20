@@ -1,7 +1,9 @@
 ---
 title: IImageSavingCallback.ImageSaving
-second_title: Aspose.Words för .NET API Referens
-description: IImageSavingCallback metod. Anropas när Aspose.Words sparar en bild i HTML.
+linktitle: ImageSaving
+articleTitle: ImageSaving
+second_title: Aspose.Words för .NET
+description: IImageSavingCallback ImageSaving metod. Anropas när Aspose.Words sparar en bild i HTML i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/iimagesavingcallback/imagesaving/
@@ -14,7 +16,7 @@ Anropas när Aspose.Words sparar en bild i HTML.
 public void ImageSaving(ImageSavingArgs args)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man delar upp ett dokument i delar och sparar dem.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [ImageSavingArgs](../../imagesavingargs/)
 * interface [IImageSavingCallback](../)
-* namnutrymme [Aspose.Words.Saving](../../iimagesavingcallback/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

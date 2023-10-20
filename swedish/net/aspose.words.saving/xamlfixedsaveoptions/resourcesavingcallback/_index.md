@@ -1,7 +1,9 @@
 ---
 title: XamlFixedSaveOptions.ResourceSavingCallback
-second_title: Aspose.Words för .NET API Referens
-description: XamlFixedSaveOptions fast egendom. Gör det möjligt att styra hur resurser bilder och teckensnitt sparas när ett dokument exporteras till fast sidformat Xaml.
+linktitle: ResourceSavingCallback
+articleTitle: ResourceSavingCallback
+second_title: Aspose.Words för .NET
+description: XamlFixedSaveOptions ResourceSavingCallback fast egendom. Gör det möjligt att styra hur resurser bilder och teckensnitt sparas när ett dokument exporteras till fast sidformat Xaml i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/xamlfixedsaveoptions/resourcesavingcallback/
@@ -14,7 +16,7 @@ Gör det möjligt att styra hur resurser (bilder och teckensnitt) sparas när et
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut URI:erna för länkade resurser som skapats när ett dokument konverteras till .xaml i fast form.
 
@@ -78,7 +80,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * interface [IResourceSavingCallback](../../iresourcesavingcallback/)
 * class [XamlFixedSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

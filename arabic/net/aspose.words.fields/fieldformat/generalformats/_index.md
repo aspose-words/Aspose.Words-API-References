@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.GeneralFormats
-second_title: Aspose.Words لمراجع .NET API
-description: FieldFormat ملكية. يحصل على مجموعة من التنسيقات العامة التي يتم تطبيقها على نتيجة رقمية أو نصية أو أي نتيجة حقل. يتوافق مع مفاتيح .
+linktitle: GeneralFormats
+articleTitle: GeneralFormats
+second_title: Aspose.Words لـ .NET
+description: FieldFormat GeneralFormats ملكية. يحصل على مجموعة من التنسيقات العامة التي يتم تطبيقها على نتيجة رقمية أو نصية أو أي نتيجة حقل. يتوافق مع مفاتيح  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldformat/generalformats/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldformat/generalformats/
 public GeneralFormatCollection GeneralFormats { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق النتائج الميدانية.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * class [GeneralFormatCollection](../../generalformatcollection/)
 * class [FieldFormat](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldformat/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

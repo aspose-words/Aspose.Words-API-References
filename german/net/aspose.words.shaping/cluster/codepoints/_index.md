@@ -1,7 +1,9 @@
 ---
 title: Cluster.Codepoints
-second_title: Aspose.Words für .NET-API-Referenz
-description: Cluster eigendom. Ruft Codepunkte des Clusters ab.
+linktitle: Codepoints
+articleTitle: Codepoints
+second_title: Aspose.Words für .NET
+description: Cluster Codepoints eigendom. Ruft Codepunkte des Clusters ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.shaping/cluster/codepoints/
@@ -17,7 +19,5 @@ public int[] Codepoints { get; }
 ### Siehe auch
 
 * class [Cluster](../)
-* namensraum [Aspose.Words.Shaping](../../cluster/)
+* namensraum [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * Montage [Aspose.Words](../../../)
-
-

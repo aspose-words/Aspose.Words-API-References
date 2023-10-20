@@ -1,7 +1,9 @@
 ---
 title: Chart.Series
-second_title: Aspose.Words for .NET API 参考
-description: Chart 财产. 提供对系列集合的访问
+linktitle: Series
+articleTitle: Series
+second_title: 用于 .NET 的 Aspose.Words
+description: Chart Series 财产. 提供对系列集合的访问 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing.charts/chart/series/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chart/series/
 public ChartSeriesCollection Series { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何为图形类型创建适当类型的图表系列。
 
@@ -104,7 +106,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * class [ChartSeriesCollection](../../chartseriescollection/)
 * class [Chart](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chart/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

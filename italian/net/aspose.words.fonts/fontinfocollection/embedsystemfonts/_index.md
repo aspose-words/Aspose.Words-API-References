@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.EmbedSystemFonts
-second_title: Aspose.Words per .NET API Reference
-description: FontInfoCollection proprietà. Specifica se incorporare o meno i caratteri di sistema nel documento. Il valore predefinito per questa proprietà èfalso.
+linktitle: EmbedSystemFonts
+articleTitle: EmbedSystemFonts
+second_title: Aspose.Words per .NET
+description: FontInfoCollection EmbedSystemFonts proprietà. Specifica se incorporare o meno i caratteri di sistema nel documento. Il valore predefinito per questa proprietà èfalso in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
@@ -16,13 +18,13 @@ Questa opzione funziona solo quando[`EmbedTrueTypeFonts`](../embedtruetypefonts/
 public bool EmbedSystemFonts { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Impostazione di questa proprietà su`VERO`è utile se l'utente utilizza un sistema dell'Asia orientale e desidera creare un documento leggibile da altri che non dispongono di caratteri per quella lingua sul proprio sistema. Ad esempio, un utente su un sistema giapponese potrebbe scegliere di incorporare i caratteri in un documento in modo che il documento giapponese sia leggibile su tutti i sistemi.
 
 Questa opzione funziona solo per i formati DOC, DOCX e RTF.
 
-### Esempi
+## Esempi
 
 Mostra come salvare un documento con caratteri TrueType incorporati.
 
@@ -45,7 +47,5 @@ else
 ### Guarda anche
 
 * class [FontInfoCollection](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontinfocollection/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

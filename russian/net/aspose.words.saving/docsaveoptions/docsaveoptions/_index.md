@@ -1,7 +1,9 @@
 ---
-title: DocSaveOptions.DocSaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: DocSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вDoc формат.
+title: DocSaveOptions
+linktitle: DocSaveOptions
+articleTitle: DocSaveOptions
+second_title: Aspose.Words для .NET
+description: DocSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вDoc формат на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/docsaveoptions/docsaveoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/docsaveoptions/docsaveoptions/
 public DocSaveOptions()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить параметры сохранения для старых форматов Microsoft Word.
 
@@ -47,12 +49,12 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Смотрите также
 
 * class [DocSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../docsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## DocSaveOptions(SaveFormat) {#constructor_1}
+## DocSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вDoc или Dot формат.
 
@@ -64,7 +66,7 @@ public DocSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | ВозможноDoc илиDot. |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить параметры сохранения для старых форматов Microsoft Word.
 
@@ -98,7 +100,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [DocSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../docsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

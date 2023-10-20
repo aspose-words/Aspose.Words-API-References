@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.ShowBreaksInFrames
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Visualizza interruzioni di pagina/colonna presenti nei frame.
+linktitle: ShowBreaksInFrames
+articleTitle: ShowBreaksInFrames
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions ShowBreaksInFrames proprietà. Visualizza interruzioni di pagina/colonna presenti nei frame in C#.
 type: docs
 weight: 430
 url: /it/net/aspose.words.settings/compatibilityoptions/showbreaksinframes/
@@ -17,7 +19,5 @@ public bool ShowBreaksInFrames { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

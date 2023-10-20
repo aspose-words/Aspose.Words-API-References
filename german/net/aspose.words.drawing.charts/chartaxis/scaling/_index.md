@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Scaling
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Bietet Zugriff auf die Skalierungsoptionen der Achse.
+linktitle: Scaling
+articleTitle: Scaling
+second_title: Aspose.Words für .NET
+description: ChartAxis Scaling eigendom. Bietet Zugriff auf die Skalierungsoptionen der Achse in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words.drawing.charts/chartaxis/scaling/
@@ -14,7 +16,7 @@ Bietet Zugriff auf die Skalierungsoptionen der Achse.
 public AxisScaling Scaling { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Diagramm mit Datums-/Uhrzeitwerten eingefügt wird.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisScaling](../../axisscaling/)
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class RevisionGroup
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.RevisionGroup 班级. 代表一组顺序Revision对象.
+title: RevisionGroup Class
+linktitle: RevisionGroup
+articleTitle: RevisionGroup
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.RevisionGroup 班级. 代表一组顺序Revision对象 在 C#.
 type: docs
 weight: 4780
 url: /zh/net/aspose.words/revisiongroup/
@@ -24,7 +26,7 @@ public class RevisionGroup
 | [RevisionType](../../aspose.words/revisiongroup/revisiontype/) { get; } | 获取此组中包含的修订类型。 |
 | [Text](../../aspose.words/revisiongroup/text/) { get; } | 返回插入/删除/移动的文本或格式更改的描述。 |
 
-### 例子
+## 例子
 
 演示如何打印有关文档中一组修订的信息。
 
@@ -44,5 +46,3 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

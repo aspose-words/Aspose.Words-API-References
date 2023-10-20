@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageSize
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageData свойство. Получает информацию о размере и разрешении изображения.
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words для .NET
+description: ImageData ImageSize свойство. Получает информацию о размере и разрешении изображения на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.drawing/imagedata/imagesize/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/imagedata/imagesize/
 public ImageSize ImageSize { get; }
 ```
 
-### Примечания
+## Примечания
 
 Если изображение связано только с изображением и не хранится в документе, возвращается нулевой размер.
 
-### Примеры
+## Примеры
 
 Показывает, как изменить размер фигуры с помощью изображения.
 
@@ -76,7 +78,5 @@ public ImageSize ImageSize { get; }
 
 * class [ImageSize](../../imagesize/)
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

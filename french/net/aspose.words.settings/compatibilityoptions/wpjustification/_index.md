@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.WPJustification
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Émuler la justification de paragraphe WordPerfect 6.x.
+linktitle: WPJustification
+articleTitle: WPJustification
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions WPJustification propriété. Émuler la justification de paragraphe WordPerfect 6.x en C#.
 type: docs
 weight: 690
 url: /fr/net/aspose.words.settings/compatibilityoptions/wpjustification/
@@ -17,7 +19,5 @@ public bool WPJustification { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

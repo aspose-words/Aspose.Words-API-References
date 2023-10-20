@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: KnownTypeSet yöntem. Bir Değeri DöndürürIEnumerator kümenin öğeleri üzerinde yinelenecek nesne.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: KnownTypeSet GetEnumerator yöntem. Bir Değeri DöndürürIEnumerator kümenin öğeleri üzerinde yinelenecek nesne C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.reporting/knowntypeset/getenumerator/
@@ -21,7 +23,5 @@ BirIEnumerator kümenin öğeleri üzerinde yineleme yapılmasına itiraz edin.
 ### Ayrıca bakınız
 
 * class [KnownTypeSet](../)
-* ad alanı [Aspose.Words.Reporting](../../knowntypeset/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
-
-

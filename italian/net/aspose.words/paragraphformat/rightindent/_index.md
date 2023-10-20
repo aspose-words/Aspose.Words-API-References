@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.RightIndent
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Ottiene o imposta il valore in punti che rappresenta il rientro destro del paragrafo.
+linktitle: RightIndent
+articleTitle: RightIndent
+second_title: Aspose.Words per .NET
+description: ParagraphFormat RightIndent proprietà. Ottiene o imposta il valore in punti che rappresenta il rientro destro del paragrafo in C#.
 type: docs
 weight: 270
 url: /it/net/aspose.words/paragraphformat/rightindent/
@@ -14,7 +16,7 @@ Ottiene o imposta il valore (in punti) che rappresenta il rientro destro del par
 public double RightIndent { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come configurare la formattazione del paragrafo per creare testo decentrato.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetParagraphFormatting.docx");
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

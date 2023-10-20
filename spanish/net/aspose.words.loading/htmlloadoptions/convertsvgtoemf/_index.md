@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.ConvertSvgToEmf
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlLoadOptions propiedad. Obtiene o establece un valor que indica si se deben convertir imágenes SVG cargadas al formato EMF. El valor predeterminado esFALSO y si es posible las imágenes SVG cargadas se almacenan tal cual sin conversión.
+linktitle: ConvertSvgToEmf
+articleTitle: ConvertSvgToEmf
+second_title: Aspose.Words para .NET
+description: HtmlLoadOptions ConvertSvgToEmf propiedad. Obtiene o establece un valor que indica si se deben convertir imágenes SVG cargadas al formato EMF. El valor predeterminado esFALSO y si es posible las imágenes SVG cargadas se almacenan tal cual sin conversión en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.loading/htmlloadoptions/convertsvgtoemf/
@@ -14,13 +16,13 @@ Obtiene o establece un valor que indica si se deben convertir imágenes SVG carg
 public bool ConvertSvgToEmf { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Las versiones más recientes de MS Word admiten imágenes SVG de forma nativa. Si la versión de MS Word especificada en las opciones de carga admite SVG, Aspose.Words almacenará las imágenes SVG tal como están sin conversión. Si no se admite SVG, las imágenes SVG cargadas se se convertirán al formato EMF.
 
 Sin embargo, si esta opción está configurada en`verdadero` , Aspose.Words convertirá las imágenes SVG cargadas a EMF incluso si las imágenes SVG son compatibles con la versión especificada de MS Word.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo convertir objetos SVG a un formato diferente al guardar documentos HTML.
 
@@ -79,7 +81,5 @@ switch (htmlMetafileFormat)
 ### Ver también
 
 * class [HtmlLoadOptions](../)
-* espacio de nombres [Aspose.Words.Loading](../../htmlloadoptions/)
+* espacio de nombres [Aspose.Words.Loading](../../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IPageLayoutCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Layout.IPageLayoutCallback интерфейс. Реализуйте этот интерфейс если вы хотите чтобы во время построения и рендеринга модели макета страницы вызывался собственный метод.
+title: IPageLayoutCallback Interface
+linktitle: IPageLayoutCallback
+articleTitle: IPageLayoutCallback
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Layout.IPageLayoutCallback интерфейс. Реализуйте этот интерфейс если вы хотите чтобы во время построения и рендеринга модели макета страницы вызывался собственный метод на С#.
 type: docs
 weight: 3310
 url: /ru/net/aspose.words.layout/ipagelayoutcallback/
@@ -18,9 +20,9 @@ public interface IPageLayoutCallback
 
 | Имя | Описание |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | Вызывается для уведомления о построении макета и ходе рендеринга. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | Вызывается для уведомления о построении макета и ходе рендеринга. |
 
-### Примечания
+## Примечания
 
 Основное использование этого интерфейса — разрешить коду приложения прерывать процесс сборки.
 
@@ -30,7 +32,7 @@ public interface IPageLayoutCallback
 
 Этот метод может работать не для каждого документа или может оказаться неэффективным.
 
-### Примеры
+## Примеры
 
 Показывает, как отслеживать изменения макета с помощью обратного вызова макета.
 
@@ -98,5 +100,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 * property [Callback](../layoutoptions/callback/)
 * пространство имен [Aspose.Words.Layout](../../aspose.words.layout/)
 * сборка [Aspose.Words](../../)
-
-

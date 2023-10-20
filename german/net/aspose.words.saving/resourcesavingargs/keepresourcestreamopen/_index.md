@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.KeepResourceStreamOpen
-second_title: Aspose.Words für .NET-API-Referenz
-description: ResourceSavingArgs eigendom. Gibt an ob Aspose.Words den Stream offen halten oder schließen soll nachdem eine Ressource gespeichert wurde.
+linktitle: KeepResourceStreamOpen
+articleTitle: KeepResourceStreamOpen
+second_title: Aspose.Words für .NET
+description: ResourceSavingArgs KeepResourceStreamOpen eigendom. Gibt an ob Aspose.Words den Stream offen halten oder schließen soll nachdem eine Ressource gespeichert wurde in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/resourcesavingargs/keepresourcestreamopen/
@@ -14,11 +16,11 @@ Gibt an, ob Aspose.Words den Stream offen halten oder schließen soll, nachdem e
 public bool KeepResourceStreamOpen { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Standard ist`FALSCH` und Aspose.Words schließt den von Ihnen bereitgestellten Stream im[`ResourceStream`](../resourcestream/) Eigenschaft nach dem Schreiben einer Ressource in sie. Angeben`WAHR` um den Stream offen zu halten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen Rückruf verwenden, um die URIs externer Ressourcen zu drucken, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
 
@@ -97,7 +99,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Siehe auch
 
 * class [ResourceSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../resourcesavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

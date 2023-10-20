@@ -1,7 +1,9 @@
 ---
-title: FieldMergeRec.FieldMergeRec
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergeRec constructeur. Default_Constructor
+title: FieldMergeRec
+linktitle: FieldMergeRec
+articleTitle: FieldMergeRec
+second_title: Aspose.Words pour .NET
+description: FieldMergeRec constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldmergerec/fieldmergerec/
@@ -17,7 +19,5 @@ public FieldMergeRec()
 ### Voir également
 
 * class [FieldMergeRec](../)
-* espace de noms [Aspose.Words.Fields](../../fieldmergerec/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: License.License
-second_title: Aspose.Words für .NET-API-Referenz
-description: License constructeur. Initialisiert eine neue Instanz dieser Klasse.
+title: License
+linktitle: License
+articleTitle: License
+second_title: Aspose.Words für .NET
+description: License constructeur. Initialisiert eine neue Instanz dieser Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/license/license/
@@ -14,7 +16,7 @@ Initialisiert eine neue Instanz dieser Klasse.
 public License()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Lizenz für Aspose.Words mithilfe einer Lizenzdatei im lokalen Dateisystem initialisiert wird.
 
@@ -38,7 +40,5 @@ license.SetLicense("Aspose.Words.NET.lic");
 ### Siehe auch
 
 * class [License](../)
-* namensraum [Aspose.Words](../../license/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

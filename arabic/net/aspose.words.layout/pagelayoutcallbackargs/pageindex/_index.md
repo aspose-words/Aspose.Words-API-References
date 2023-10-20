@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.PageIndex
-second_title: Aspose.Words لمراجع .NET API
-description: PageLayoutCallbackArgs ملكية. الحصول على فهرس يستند إلى 0 للصفحة في المستند الذي يتعلق به هذا الحدث. إرجاع قيمة سالبة إذا لم تكن هناك صفحة مرتبطة أو إذا تمت إزالة الصفحة أثناء إعادة التدفق.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words لـ .NET
+description: PageLayoutCallbackArgs PageIndex ملكية. الحصول على فهرس يستند إلى 0 للصفحة في المستند الذي يتعلق به هذا الحدث. إرجاع قيمة سالبة إذا لم تكن هناك صفحة مرتبطة أو إذا تمت إزالة الصفحة أثناء إعادة التدفق في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
 public int PageIndex { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تتبع تغييرات التخطيط من خلال رد اتصال التخطيط.
 
@@ -80,7 +82,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 ### أنظر أيضا
 
 * class [PageLayoutCallbackArgs](../)
-* مساحة الاسم [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.UseTileFlipMode
-second_title: Referencia de API de Aspose.Words para .NET
-description: GraphicsQualityOptions propiedad. Obtiene o establece un indicador que indica si WrapMode es TileFlipXY.
+linktitle: UseTileFlipMode
+articleTitle: UseTileFlipMode
+second_title: Aspose.Words para .NET
+description: GraphicsQualityOptions UseTileFlipMode propiedad. Obtiene o establece un indicador que indica si WrapMode es TileFlipXY en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
@@ -14,7 +16,7 @@ Obtiene o establece un indicador que indica si WrapMode es TileFlipXY.
 public bool UseTileFlipMode { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 ElWrapMode especifica cómo se mosaico una textura o un degradado cuando es menor que el área que se está rellenando.
 
@@ -22,7 +24,7 @@ Por defecto utilizaTile (especifica mosaico sin voltear). Esto provoca una repre
 
 Esta propiedad permite cambiar WrapMode aTileFlipXY (especifica que los mosaicos se voltean horizontalmente a medida que se mueve a lo largo de una fila y se voltean verticalmente a medida que se mueve a lo largo de una columna).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo evitar que aparezca la línea blanca al renderizar con alta resolución.
 
@@ -42,7 +44,5 @@ renderer.Save(ArtifactsDir + "ImageSaveOptions.UseTileFlipMode.png", saveOptions
 ### Ver también
 
 * class [GraphicsQualityOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageInfo.GetDotNetPaperSize
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageInfo método. Obtiene elPaperSize objeto adecuado para imprimir la página representada por estePageInfo .
+linktitle: GetDotNetPaperSize
+articleTitle: GetDotNetPaperSize
+second_title: Aspose.Words para .NET
+description: PageInfo GetDotNetPaperSize método. Obtiene elPaperSize objeto adecuado para imprimir la página representada por estePageInfo  en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.rendering/pageinfo/getdotnetpapersize/
@@ -22,7 +24,7 @@ public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
 
 Un objeto que puede utilizar en el marco de impresión .NET para especificar el tamaño del papel.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo personalizar la impresión de documentos de Aspose.Words.
 
@@ -128,7 +130,5 @@ public class MyPrintDocument : PrintDocument
 ### Ver también
 
 * class [PageInfo](../)
-* espacio de nombres [Aspose.Words.Rendering](../../pageinfo/)
+* espacio de nombres [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * asamblea [Aspose.Words](../../../)
-
-

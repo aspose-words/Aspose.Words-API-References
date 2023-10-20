@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: CustomPartCollection ملكية. الحصول على عنصر أو تعيينه في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: CustomPartCollection Item ملكية. الحصول على عنصر أو تعيينه في الفهرس المحدد في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/custompartcollection/item/
@@ -18,7 +20,7 @@ public CustomPart this[int index] { get; set; }
 | --- | --- |
 | index | الفهرس الصفري للعنصر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPart](../../custompart/)
 * class [CustomPartCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../custompartcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

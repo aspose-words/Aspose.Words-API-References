@@ -1,7 +1,9 @@
 ---
 title: Body.NodeType
-second_title: Aspose.Words for .NET API 参考
-description: Body 财产. 返回Body.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: 用于 .NET 的 Aspose.Words
+description: Body NodeType 财产. 返回Body 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/body/nodetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/body/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何迭代复合节点的子节点。
 
@@ -64,7 +66,5 @@ foreach (Node node in section)
 
 * enum [NodeType](../../nodetype/)
 * class [Body](../)
-* 命名空间 [Aspose.Words](../../body/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.RemoveField
-second_title: Aspose.Words لمراجع .NET API
-description: FormField طريقة. إزالة حقل النموذج بالكامل وليس فقط الحرف الخاص لحقل النموذج.
+linktitle: RemoveField
+articleTitle: RemoveField
+second_title: Aspose.Words لـ .NET
+description: FormField RemoveField طريقة. إزالة حقل النموذج بالكامل وليس فقط الحرف الخاص لحقل النموذج في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words.fields/formfield/removefield/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/formfield/removefield/
 public void RemoveField()
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا كانت هناك إشارة مرجعية مرتبطة بحقل النموذج، فلن تتم إزالة الإشارة المرجعية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حذف حقل النموذج.
 
@@ -32,7 +34,5 @@ formField.RemoveField();
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

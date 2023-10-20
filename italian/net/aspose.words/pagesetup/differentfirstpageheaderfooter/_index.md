@@ -1,7 +1,9 @@
 ---
 title: PageSetup.DifferentFirstPageHeaderFooter
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Vero se nella prima pagina viene utilizzata unintestazione o un piè di pagina diverso.
+linktitle: DifferentFirstPageHeaderFooter
+articleTitle: DifferentFirstPageHeaderFooter
+second_title: Aspose.Words per .NET
+description: PageSetup DifferentFirstPageHeaderFooter proprietà. Vero se nella prima pagina viene utilizzata unintestazione o un piè di pagina diverso in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
@@ -14,7 +16,7 @@ Vero se nella prima pagina viene utilizzata un'intestazione o un piè di pagina 
 public bool DifferentFirstPageHeaderFooter { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare intestazioni e piè di pagina in un documento utilizzando DocumentBuilder.
 
@@ -136,7 +138,5 @@ public void Order(bool differentFirstPageHeaderFooter)
 ### Guarda anche
 
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

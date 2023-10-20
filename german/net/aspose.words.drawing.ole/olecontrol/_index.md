@@ -1,7 +1,9 @@
 ---
-title: Class OleControl
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Ole.OleControl klas. Stellt das OLE ActiveXSteuerelement dar.
+title: OleControl Class
+linktitle: OleControl
+articleTitle: OleControl
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Ole.OleControl klas. Stellt das OLE ActiveXSteuerelement dar in C#.
 type: docs
 weight: 1140
 url: /de/net/aspose.words.drawing.ole/olecontrol/
@@ -23,7 +25,7 @@ public class OleControl
 | [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol/) { get; } | Gibt zurück`WAHR` wenn die Kontrolle a ist[`Forms2OleControl`](../forms2olecontrol/) . |
 | [Name](../../aspose.words.drawing.ole/olecontrol/name/) { get; set; } | Ruft den Namen des ActiveX-Steuerelements ab oder legt diesen fest. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften eines ActiveX-Steuerelements überprüft werden.
 
@@ -54,5 +56,3 @@ if (oleControl.IsForms2OleControl)
 
 * namensraum [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.CaseCodeStyle
-second_title: Aspose.Words per .NET API Reference
-description: BarcodeParameters proprietà. Stile di un codice caso per il tipo di codice a barre ITF14. I valori validi sono STDEXTADD
+linktitle: CaseCodeStyle
+articleTitle: CaseCodeStyle
+second_title: Aspose.Words per .NET
+description: BarcodeParameters CaseCodeStyle proprietà. Stile di un codice caso per il tipo di codice a barre ITF14. I valori validi sono STDEXTADD in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/barcodeparameters/casecodestyle/
@@ -14,7 +16,7 @@ Stile di un codice caso per il tipo di codice a barre ITF14. I valori validi son
 public string CaseCodeStyle { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un generatore di codici a barre.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Guarda anche
 
 * class [BarcodeParameters](../)
-* spazio dei nomi [Aspose.Words.Fields](../../barcodeparameters/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

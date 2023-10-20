@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceFileName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ResourceSavingArgs propriété. Obtient ou définit le nom du fichier sans chemin dans lequel la ressource sera enregistrée.
+linktitle: ResourceFileName
+articleTitle: ResourceFileName
+second_title: Aspose.Words pour .NET
+description: ResourceSavingArgs ResourceFileName propriété. Obtient ou définit le nom du fichier sans chemin dans lequel la ressource sera enregistrée en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/resourcesavingargs/resourcefilename/
@@ -14,7 +16,7 @@ Obtient ou définit le nom du fichier (sans chemin) dans lequel la ressource ser
 public string ResourceFileName { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété vous permet de redéfinir la manière dont les noms de fichiers de ressources sont générés lors de l'exportation vers une page fixe HTML ou SVG.
 
@@ -30,7 +32,7 @@ Lors de l'enregistrement d'un document dans un flux, le nom du fichier de ressou
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un rappel pour suivre les ressources externes créées lors de la conversion d'un document au format HTML.
 
@@ -75,7 +77,5 @@ private class FontSavingCallback : IResourceSavingCallback
 ### Voir également
 
 * class [ResourceSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../resourcesavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

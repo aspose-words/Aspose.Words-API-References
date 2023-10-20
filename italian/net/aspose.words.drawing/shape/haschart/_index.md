@@ -1,7 +1,9 @@
 ---
 title: Shape.HasChart
-second_title: Aspose.Words per .NET API Reference
-description: Shape proprietà. RestituisceVERO se questoShape ha unChart .
+linktitle: HasChart
+articleTitle: HasChart
+second_title: Aspose.Words per .NET
+description: Shape HasChart proprietà. RestituisceVERO se questoShape ha unChart  in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.drawing/shape/haschart/
@@ -14,7 +16,7 @@ Restituisce`VERO` se questo[`Shape`](../) ha un[`Chart`](../../../aspose.words.d
 public bool HasChart { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come scorrere tutte le forme in un documento.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Guarda anche
 
 * class [Shape](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shape/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

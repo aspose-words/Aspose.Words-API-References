@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.IndexOf
-second_title: Aspose.Words for .NET API 参考
-description: DocumentPropertyCollection 方法. 按名称获取属性的索引
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentPropertyCollection IndexOf 方法. 按名称获取属性的索引 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.properties/documentpropertycollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string name)
 
 从零开始的索引。如果没有找到则为负值。
 
-### 例子
+## 例子
 
 展示如何使用文档的自定义属性。
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, properties.Count);
 ### 也可以看看
 
 * class [DocumentPropertyCollection](../)
-* 命名空间 [Aspose.Words.Properties](../../documentpropertycollection/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

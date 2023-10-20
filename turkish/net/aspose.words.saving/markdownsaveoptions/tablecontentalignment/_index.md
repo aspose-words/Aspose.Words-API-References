@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.TableContentAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: MarkdownSaveOptions mülk. Tablolara dışa aktarılırken içeriklerin nasıl hizalanacağını belirten bir değer alır veya ayarlar.Markdown format. Varsayılan değerAuto .
+linktitle: TableContentAlignment
+articleTitle: TableContentAlignment
+second_title: Aspose.Words for .NET
+description: MarkdownSaveOptions TableContentAlignment mülk. Tablolara dışa aktarılırken içeriklerin nasıl hizalanacağını belirten bir değer alır veya ayarlar.Markdown format. Varsayılan değerAuto  C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/
@@ -18,7 +20,5 @@ public TableContentAlignment TableContentAlignment { get; set; }
 
 * enum [TableContentAlignment](../../tablecontentalignment/)
 * class [MarkdownSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../markdownsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

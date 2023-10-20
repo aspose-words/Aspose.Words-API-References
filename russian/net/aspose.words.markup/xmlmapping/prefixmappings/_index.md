@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.PrefixMappings
-second_title: Справочник по API Aspose.Words для .NET
-description: XmlMapping свойство. Возвращает сопоставления префиксов пространства имен XML для оценкиXPath .
+linktitle: PrefixMappings
+articleTitle: PrefixMappings
+second_title: Aspose.Words для .NET
+description: XmlMapping PrefixMappings свойство. Возвращает сопоставления префиксов пространства имен XML для оценкиXPath  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/xmlmapping/prefixmappings/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.markup/xmlmapping/prefixmappings/
 public string PrefixMappings { get; }
 ```
 
-### Примечания
+## Примечания
 
 Указывает набор сопоставлений префиксов, которые будут использоваться для интерпретации выражения XPath , когда выражение XPath оценивается по пользовательским частям данных XML в документе.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить сопоставления XML для пользовательских частей XML.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Смотрите также
 
 * class [XmlMapping](../)
-* пространство имен [Aspose.Words.Markup](../../xmlmapping/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

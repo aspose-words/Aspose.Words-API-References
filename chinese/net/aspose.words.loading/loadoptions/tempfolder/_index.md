@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.TempFolder
-second_title: Aspose.Words for .NET API 参考
-description: LoadOptions 财产. 允许在读取文档时使用临时文件 默认情况下此属性为无效的并且没有使用临时文件
+linktitle: TempFolder
+articleTitle: TempFolder
+second_title: 用于 .NET 的 Aspose.Words
+description: LoadOptions TempFolder 财产. 允许在读取文档时使用临时文件 默认情况下此属性为无效的并且没有使用临时文件 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.loading/loadoptions/tempfolder/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.loading/loadoptions/tempfolder/
 public string TempFolder { get; set; }
 ```
 
-### 评论
+## 评论
 
 该文件夹必须存在且可写，否则会抛出异常。
 
 读取完成后，Aspose.Words 会自动删除所有临时文件。
 
-### 例子
+## 例子
 
 演示如何使用临时文件加载文档。
 
@@ -56,7 +58,5 @@ Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
 ### 也可以看看
 
 * class [LoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../loadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

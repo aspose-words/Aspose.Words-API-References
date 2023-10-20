@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Font
-second_title: Aspose.Words for .NET API 参考
-description: InlineStory 财产. 提供对此对象的锚字符的字体格式的访问
+linktitle: Font
+articleTitle: Font
+second_title: 用于 .NET 的 Aspose.Words
+description: InlineStory Font 财产. 提供对此对象的锚字符的字体格式的访问 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/inlinestory/font/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/inlinestory/font/
 public Font Font { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入 InlineStory 节点。
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Font](../../font/)
 * class [InlineStory](../)
-* 命名空间 [Aspose.Words](../../inlinestory/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

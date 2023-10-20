@@ -1,9 +1,11 @@
 ---
 title: Stroke.ForeColor
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Stroke propriété. Obtient ou définit la couleur de premier plan du trait.
+linktitle: ForeColor
+articleTitle: ForeColor
+second_title: Aspose.Words pour .NET
+description: Stroke ForeColor propriété. Obtient ou définit la couleur de premier plan du trait en C#.
 type: docs
-weight: 110
+weight: 100
 url: /fr/net/aspose.words.drawing/stroke/forecolor/
 ---
 ## Stroke.ForeColor property
@@ -14,11 +16,11 @@ Obtient ou définit la couleur de premier plan du trait.
 public Color ForeColor { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut d'un[`Shape`](../../shape/) est Black.
 
-### Exemples
+## Exemples
 
 Montrez comment définir le formatage des marqueurs.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Voir également
 
 * class [Stroke](../)
-* espace de noms [Aspose.Words.Drawing](../../stroke/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

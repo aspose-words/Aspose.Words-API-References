@@ -1,12 +1,14 @@
 ---
 title: FontFallbackSettings.Save
-second_title: Aspose.Words för .NET API Referens
-description: FontFallbackSettings metod. Sparar de aktuella reservinställningarna för att streama.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words för .NET
+description: FontFallbackSettings Save metod. Sparar de aktuella reservinställningarna för att streama i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fonts/fontfallbacksettings/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Sparar de aktuella reservinställningarna för att streama.
 
@@ -18,7 +20,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Utgångsström. |
 
-### Exempel
+## Exempel
 
 Visar hur man läser in och sparar reservinställningar för teckensnitt till/från en stream.
 
@@ -47,12 +49,12 @@ using (FileStream fontFallbackStream =
 ### Se även
 
 * class [FontFallbackSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Sparar de aktuella reservinställningarna i filen.
 
@@ -64,7 +66,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Utdatafilnamn. |
 
-### Exempel
+## Exempel
 
 Visar hur man läser in och sparar typsnittsalternativ till/från ett XML-dokument i det lokala filsystemet.
 
@@ -85,7 +87,5 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ### Se även
 
 * class [FontFallbackSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: FieldCollection metod. Returnerar ett uppräkningsobjekt.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: FieldCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldcollection/getenumerator/
@@ -14,7 +16,7 @@ Returnerar ett uppräkningsobjekt.
 public IEnumerator<Field> GetEnumerator()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en samling fält.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [Field](../../field/)
 * class [FieldCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

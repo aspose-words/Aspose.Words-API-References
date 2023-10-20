@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.DateDisplayFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Строка представляющая формат отображения дат. Не может бытьнулевой . Даты на английском языке США  мм/дд/гггг.
+linktitle: DateDisplayFormat
+articleTitle: DateDisplayFormat
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag DateDisplayFormat свойство. Строка представляющая формат отображения дат. Не может бытьнулевой . Даты на английском языке США  мм/дд/гггг на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.markup/structureddocumenttag/datedisplayformat/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.markup/structureddocumenttag/datedisplayformat/
 public string DateDisplayFormat { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Доступ к этому ресурсу будет работать только дляDate Тип SDT.
 
 Для всех остальных типов SDT возникнет исключение.
 
-### Примеры
+## Примеры
 
 Показывает, как предложить пользователю ввести дату с помощью тега структурированного документа.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

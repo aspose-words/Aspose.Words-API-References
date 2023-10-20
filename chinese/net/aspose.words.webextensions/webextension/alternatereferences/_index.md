@@ -1,7 +1,9 @@
 ---
 title: WebExtension.AlternateReferences
-second_title: Aspose.Words for .NET API 参考
-description: WebExtension 财产. 指定对 Web 扩展的备用引用
+linktitle: AlternateReferences
+articleTitle: AlternateReferences
+second_title: 用于 .NET 的 Aspose.Words
+description: WebExtension AlternateReferences 财产. 指定对 Web 扩展的备用引用 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.webextensions/webextension/alternatereferences/
@@ -18,7 +20,5 @@ public WebExtensionReferenceCollection AlternateReferences { get; }
 
 * class [WebExtensionReferenceCollection](../../webextensionreferencecollection/)
 * class [WebExtension](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../webextension/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

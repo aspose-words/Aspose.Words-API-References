@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.AllowEmbeddingPostScriptFonts
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SaveOptions propriété. Obtient ou définit une valeur booléenne indiquant sil faut autoriser lincorporation de polices avec des contours PostScript lors de lincorporation de polices TrueType dans un document lors de son enregistrement. La valeur par défaut estFAUX .
+linktitle: AllowEmbeddingPostScriptFonts
+articleTitle: AllowEmbeddingPostScriptFonts
+second_title: Aspose.Words pour .NET
+description: SaveOptions AllowEmbeddingPostScriptFonts propriété. Obtient ou définit une valeur booléenne indiquant sil faut autoriser lincorporation de polices avec des contours PostScript lors de lincorporation de polices TrueType dans un document lors de son enregistrement. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
@@ -14,13 +16,13 @@ Obtient ou définit une valeur booléenne indiquant s'il faut autoriser l'incorp
 public bool AllowEmbeddingPostScriptFonts { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Notez que Word n'intègre pas de polices PostScript, mais peut ouvrir des documents contenant des polices intégrées de ce type.
 
 Cette option ne fonctionne que lorsque[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) du [`FontInfos`](../../../aspose.words/documentbase/fontinfos/) la propriété est définie sur`vrai`.
 
-### Exemples
+## Exemples
 
 Montre comment enregistrer le document avec la police PostScript.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Document.AllowEmbeddingPostScriptFonts.docx", saveOptio
 ### Voir également
 
 * class [SaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../saveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

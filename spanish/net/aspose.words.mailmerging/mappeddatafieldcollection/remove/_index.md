@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Remove
-second_title: Referencia de API de Aspose.Words para .NET
-description: MappedDataFieldCollection método. Elimina una asignación de campo.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words para .NET
+description: MappedDataFieldCollection Remove método. Elimina una asignación de campo en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.mailmerging/mappeddatafieldcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string documentFieldName)
 | --- | --- | --- |
 | documentFieldName | String | Nombre que distingue entre mayúsculas y minúsculas del campo de combinación de correspondencia del documento. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo asignar columnas de datos y MERGEFIELD con diferentes nombres para que los datos se transfieran entre ellos durante una combinación de correspondencia.
 
@@ -103,7 +105,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Ver también
 
 * class [MappedDataFieldCollection](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

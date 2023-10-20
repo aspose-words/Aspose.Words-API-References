@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceFileUri
-second_title: Referencia de API de Aspose.Words para .NET
-description: ResourceSavingArgs propiedad. Obtiene o establece el identificador uniforme de recursos URI utilizado para hacer referencia al archivo de recursos del documento.
+linktitle: ResourceFileUri
+articleTitle: ResourceFileUri
+second_title: Aspose.Words para .NET
+description: ResourceSavingArgs ResourceFileUri propiedad. Obtiene o establece el identificador uniforme de recursos URI utilizado para hacer referencia al archivo de recursos del documento en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/resourcesavingargs/resourcefileuri/
@@ -14,7 +16,7 @@ Obtiene o establece el identificador uniforme de recursos (URI) utilizado para h
 public string ResourceFileUri { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad le permite cambiar los URI de los archivos de recursos exportados a documentos HTML o SVG de página fija.
 
@@ -24,7 +26,7 @@ Cuando se activa el evento, esta propiedad contiene el URI generado por Aspose.W
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una devolución de llamada para realizar un seguimiento de los recursos externos creados al convertir un documento a HTML.
 
@@ -69,7 +71,5 @@ private class FontSavingCallback : IResourceSavingCallback
 ### Ver también
 
 * class [ResourceSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../resourcesavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

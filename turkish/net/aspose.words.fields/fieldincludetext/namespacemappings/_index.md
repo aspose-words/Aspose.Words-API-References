@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.NamespaceMappings
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIncludeText mülk. XPath sorguları için ad alanı eşlemelerini alır veya ayarlar.
+linktitle: NamespaceMappings
+articleTitle: NamespaceMappings
+second_title: Aspose.Words for .NET
+description: FieldIncludeText NamespaceMappings mülk. XPath sorguları için ad alanı eşlemelerini alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fieldincludetext/namespacemappings/
@@ -14,7 +16,7 @@ XPath sorguları için ad alanı eşlemelerini alır veya ayarlar.
 public string NamespaceMappings { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 INCLUDETEXT alanının nasıl oluşturulacağını ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Ayrıca bakınız
 
 * class [FieldIncludeText](../)
-* ad alanı [Aspose.Words.Fields](../../fieldincludetext/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

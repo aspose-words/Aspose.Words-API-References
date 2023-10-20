@@ -1,7 +1,9 @@
 ---
 title: PageSetup.MultiplePages
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Pour les documents de plusieurs pages obtient ou définit la manière dont un document est imprimé ou rendu afin quil puisse être relié sous forme de livret.
+linktitle: MultiplePages
+articleTitle: MultiplePages
+second_title: Aspose.Words pour .NET
+description: PageSetup MultiplePages propriété. Pour les documents de plusieurs pages obtient ou définit la manière dont un document est imprimé ou rendu afin quil puisse être relié sous forme de livret en C#.
 type: docs
 weight: 270
 url: /fr/net/aspose.words/pagesetup/multiplepages/
@@ -14,7 +16,7 @@ Pour les documents de plusieurs pages, obtient ou définit la manière dont un d
 public MultiplePagesType MultiplePages { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment configurer un document pouvant être imprimé sous forme de pli de livre.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 
 * enum [MultiplePagesType](../../../aspose.words.settings/multiplepagestype/)
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

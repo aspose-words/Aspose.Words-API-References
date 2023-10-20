@@ -1,7 +1,9 @@
 ---
 title: FieldToc.BookmarkName
-second_title: Aspose.Words per .NET API Reference
-description: FieldToc proprietà. Ottiene o imposta il nome del segnalibro che contrassegna la porzione di documento utilizzata per creare la tabella.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words per .NET
+description: FieldToc BookmarkName proprietà. Ottiene o imposta il nome del segnalibro che contrassegna la porzione di documento utilizzata per creare la tabella in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldtoc/bookmarkname/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del segnalibro che contrassegna la porzione di documen
 public string BookmarkName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un sommario e popolarlo con voci basate sugli stili di intestazione.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Guarda anche
 
 * class [FieldToc](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoc/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.IsBookmark
-second_title: Aspose.Words لمراجع .NET API
-description: FieldBarcode ملكية. يحصل على أو يحدد ما إذا كانPostalAddress هو اسم الإشارة المرجعية.
+linktitle: IsBookmark
+articleTitle: IsBookmark
+second_title: Aspose.Words لـ .NET
+description: FieldBarcode IsBookmark ملكية. يحصل على أو يحدد ما إذا كانPostalAddress هو اسم الإشارة المرجعية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldbarcode/isbookmark/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldbarcode/isbookmark/
 public bool IsBookmark { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل BARCODE لعرض الرموز البريدية الأمريكية على شكل باركود.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### أنظر أيضا
 
 * class [FieldBarcode](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldbarcode/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

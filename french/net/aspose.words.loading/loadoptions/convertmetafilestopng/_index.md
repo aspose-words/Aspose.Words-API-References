@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.ConvertMetafilesToPng
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LoadOptions propriété. Obtient ou définit sil faut convertir le métafichier Wmf ouEmf  des images àPng format dimage.
+linktitle: ConvertMetafilesToPng
+articleTitle: ConvertMetafilesToPng
+second_title: Aspose.Words pour .NET
+description: LoadOptions ConvertMetafilesToPng propriété. Obtient ou définit sil faut convertir le métafichier Wmf ouEmf  des images àPng format dimage en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.loading/loadoptions/convertmetafilestopng/
@@ -14,11 +16,11 @@ Obtient ou définit s'il faut convertir le métafichier (Wmf ouEmf ) des images 
 public bool ConvertMetafilesToPng { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Métafichiers (Wmf ouEmf ) est un format d'image non compressé et nécessite parfois trop de RAM pour contenir et traiter le document. Cette option permet de convertir toutes les images de métafichier enPng lors du chargement du document. Veuillez noter que la conversion des graphiques vectoriels en raster diminue la qualité des images.
 
-### Exemples
+## Exemples
 
 Montre comment convertir WMF/EMF en PNG lors du chargement du document.
 
@@ -54,7 +56,5 @@ Document doc = new Document();
 ### Voir également
 
 * class [LoadOptions](../)
-* espace de noms [Aspose.Words.Loading](../../loadoptions/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListCollection.AddCopy
-second_title: Справочник по API Aspose.Words для .NET
-description: ListCollection метод. Создает новый список копируя указанный список и добавляя его в коллекцию списков в документе.
+linktitle: AddCopy
+articleTitle: AddCopy
+second_title: Aspose.Words для .NET
+description: ListCollection AddCopy метод. Создает новый список копируя указанный список и добавляя его в коллекцию списков в документе на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.lists/listcollection/addcopy/
@@ -22,13 +24,13 @@ public List AddCopy(List srcList)
 
 Недавно созданный список.
 
-### Примечания
+## Примечания
 
 Список источников может быть из любого документа. Если список источников принадлежит другому документу, копия списка создается и добавляется в текущий документ.
 
 Если исходный список является ссылкой или определением стиля списка, вновь созданный список не связан с исходным стилем списка.
 
-### Примеры
+## Примеры
 
 Показывает, как создать документ с выборкой всех списков из другого документа.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* пространство имен [Aspose.Words.Lists](../../listcollection/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

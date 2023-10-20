@@ -1,7 +1,9 @@
 ---
 title: FormField.OwnHelp
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField propriété. Spécifie la source du texte affiché dans une boîte de message lorsquun champ de formulaire a le focus et que lutilisateur appuie sur F1.
+linktitle: OwnHelp
+articleTitle: OwnHelp
+second_title: Aspose.Words pour .NET
+description: FormField OwnHelp propriété. Spécifie la source du texte affiché dans une boîte de message lorsquun champ de formulaire a le focus et que lutilisateur appuie sur F1 en C#.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.fields/formfield/ownhelp/
@@ -14,11 +16,11 @@ Spécifie la source du texte affiché dans une boîte de message lorsqu'un champ
 public bool OwnHelp { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Si`vrai` , le texte spécifié par le[`HelpText`](../helptext/) la propriété est affichée. Si`FAUX` , le texte de l'entrée d'insertion automatique spécifiée par le[`HelpText`](../helptext/) la propriété est affichée.
 
-### Exemples
+## Exemples
 
 Montre comment insérer différents types de champs de formulaire dans un document et les traiter à l'aide d'une implémentation de visiteur de document.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Voir également
 
 * class [FormField](../)
-* espace de noms [Aspose.Words.Fields](../../formfield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

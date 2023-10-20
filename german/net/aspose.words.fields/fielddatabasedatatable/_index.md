@@ -1,7 +1,9 @@
 ---
-title: Class FieldDatabaseDataTable
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldDatabaseDataTable klas. Stellt Daten für die bereitFieldDatabase Feldergebnis. Bitte sehenDataTable Instanz.
+title: FieldDatabaseDataTable Class
+linktitle: FieldDatabaseDataTable
+articleTitle: FieldDatabaseDataTable
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.FieldDatabaseDataTable klas. Stellt Daten für die bereitFieldDatabase Feldergebnis. Bitte sehenDataTable Instanz in C#.
 type: docs
 weight: 1760
 url: /de/net/aspose.words.fields/fielddatabasedatatable/
@@ -20,7 +22,7 @@ public class FieldDatabaseDataTable
 
 | Name | Beschreibung |
 | --- | --- |
-| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | Initialisiert eine neue Instanz von`FieldDatabaseDataTable` Klasse. |
+| [FieldDatabaseDataTable](fielddatabasedatatable/)(*params string[]*) | Initialisiert eine neue Instanz von`FieldDatabaseDataTable` Klasse. |
 
 ## Eigenschaften
 
@@ -33,11 +35,9 @@ public class FieldDatabaseDataTable
 
 | Name | Beschreibung |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | Initialisiert eine neue Instanz von`FieldDatabaseDataTable` class aus demDataTable Instanz. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(*DataTable*) | Initialisiert eine neue Instanz von`FieldDatabaseDataTable` class aus demDataTable Instanz. |
 
 ### Siehe auch
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PaperColor
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions свойство. Получает или задает цвет фона бумаги для сгенерированных изображений.
+linktitle: PaperColor
+articleTitle: PaperColor
+second_title: Aspose.Words для .NET
+description: ImageSaveOptions PaperColor свойство. Получает или задает цвет фона бумаги для сгенерированных изображений на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.saving/imagesaveoptions/papercolor/
@@ -16,11 +18,11 @@ url: /ru/net/aspose.words.saving/imagesaveoptions/papercolor/
 public Color PaperColor { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 При рендеринге страниц документа, для которого указан собственный цвет фона, , цвет фона документа будет переопределять цвет, указанный этим свойством.
 
-### Примеры
+## Примеры
 
 Преобразует страницу документа Word в изображение с прозрачным или цветным фоном.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.LightCoral.png", imgOptions
 ### Смотрите также
 
 * class [ImageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../imagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

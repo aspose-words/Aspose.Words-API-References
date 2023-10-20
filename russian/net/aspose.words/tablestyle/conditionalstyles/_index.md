@@ -1,7 +1,9 @@
 ---
 title: TableStyle.ConditionalStyles
-second_title: Справочник по API Aspose.Words для .NET
-description: TableStyle свойство. Коллекция условных стилей которые могут быть определены для этого стиля таблицы.
+linktitle: ConditionalStyles
+articleTitle: ConditionalStyles
+second_title: Aspose.Words для .NET
+description: TableStyle ConditionalStyles свойство. Коллекция условных стилей которые могут быть определены для этого стиля таблицы на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/tablestyle/conditionalstyles/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/tablestyle/conditionalstyles/
 public ConditionalStyleCollection ConditionalStyles { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyleCollection](../../conditionalstylecollection/)
 * class [TableStyle](../)
-* пространство имен [Aspose.Words](../../tablestyle/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

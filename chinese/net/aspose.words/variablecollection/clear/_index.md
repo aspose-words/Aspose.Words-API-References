@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Clear
-second_title: Aspose.Words for .NET API 参考
-description: VariableCollection 方法. 从集合中删除所有元素
+linktitle: Clear
+articleTitle: Clear
+second_title: 用于 .NET 的 Aspose.Words
+description: VariableCollection Clear 方法. 从集合中删除所有元素 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/variablecollection/clear/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/variablecollection/clear/
 public void Clear()
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档的变量集合。
 
@@ -81,7 +83,5 @@ Assert.That(variables, Is.Empty);
 ### 也可以看看
 
 * class [VariableCollection](../)
-* 命名空间 [Aspose.Words](../../variablecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

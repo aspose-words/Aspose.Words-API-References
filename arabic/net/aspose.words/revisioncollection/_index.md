@@ -1,7 +1,9 @@
 ---
-title: Class RevisionCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.RevisionCollection فصل. مجموعة منRevision الكائنات التي تمثل المراجعات في المستند.
+title: RevisionCollection Class
+linktitle: RevisionCollection
+articleTitle: RevisionCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.RevisionCollection فصل. مجموعة منRevision الكائنات التي تمثل المراجعات في المستند في C#.
 type: docs
 weight: 4770
 url: /ar/net/aspose.words/revisioncollection/
@@ -32,11 +34,11 @@ public class RevisionCollection : IEnumerable<Revision>
 | [GetEnumerator](../../aspose.words/revisioncollection/getenumerator/)() | يُرجع كائن العداد. |
 | [RejectAll](../../aspose.words/revisioncollection/rejectall/)() | يرفض كافة المراجعات في هذه المجموعة. |
 
-### ملاحظات
+## ملاحظات
 
 لا تقم بإنشاء مثيلات هذه الفئة مباشرة. استخدم ال[`Revisions`](../document/revisions/) الخاصية للحصول على المراجعات الموجودة في المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع المراجعات في المستند.
 
@@ -121,5 +123,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 * class [Revision](../revision/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

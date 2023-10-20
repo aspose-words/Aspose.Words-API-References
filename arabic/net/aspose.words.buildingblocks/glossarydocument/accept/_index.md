@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: GlossaryDocument طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: GlossaryDocument Accept طريقة. يقبل الزائر في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.buildingblocks/glossarydocument/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
 
-### ملاحظات
+## ملاحظات
 
 يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -32,7 +34,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 ملاحظة: لا تتم زيارة عقدة مستند المسرد وأبناءها عند تنفيذ a Visitor عبر a[`Document`](../../../aspose.words/document/) . إذا كنت تريد تنفيذ زائر عبر مستند مسرد a ، فستحتاج إلى الاتصال`Accept` .
 
-### أمثلة
+## أمثلة
 
 يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند المسرد.
 
@@ -137,7 +139,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [GlossaryDocument](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

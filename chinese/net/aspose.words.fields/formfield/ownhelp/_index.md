@@ -1,7 +1,9 @@
 ---
 title: FormField.OwnHelp
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 指定当表单域获得焦点并且用户按 F1 时消息框中显示的文本来源
+linktitle: OwnHelp
+articleTitle: OwnHelp
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField OwnHelp 财产. 指定当表单域获得焦点并且用户按 F1 时消息框中显示的文本来源 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.fields/formfield/ownhelp/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/formfield/ownhelp/
 public bool OwnHelp { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果`真的` ，由指定的文本[`HelpText`](../helptext/)显示属性。 如果`错误的` ，由指定的自动图文集条目中的文本[`HelpText`](../helptext/)显示属性。
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

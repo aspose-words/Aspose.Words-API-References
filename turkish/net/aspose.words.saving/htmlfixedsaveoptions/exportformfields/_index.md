@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportFormFields
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Form alanlarının metne veya grafiklere dönüştürülmek yerine interaktif öğeleri giriş etiketi olarak olarak dışa aktarılıp aktarılmadığına ilişkin göstergeyi alır veya ayarlar.
+linktitle: ExportFormFields
+articleTitle: ExportFormFields
+second_title: Aspose.Words for .NET
+description: HtmlFixedSaveOptions ExportFormFields mülk. Form alanlarının metne veya grafiklere dönüştürülmek yerine interaktif öğeleri giriş etiketi olarak olarak dışa aktarılıp aktarılmadığına ilişkin göstergeyi alır veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
@@ -14,7 +16,7 @@ Form alanlarının metne veya grafiklere dönüştürülmek yerine, interaktif �
 public bool ExportFormFields { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Form alanlarının Html'ye nasıl aktarılacağını gösterir.
 
@@ -56,7 +58,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

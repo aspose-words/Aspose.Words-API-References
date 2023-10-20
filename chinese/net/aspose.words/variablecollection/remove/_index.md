@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Remove
-second_title: Aspose.Words for .NET API 参考
-description: VariableCollection 方法. 从集合中删除具有指定名称的文档变量
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: VariableCollection Remove 方法. 从集合中删除具有指定名称的文档变量 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/variablecollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | 变量的名称不区分大小写。 |
 
-### 例子
+## 例子
 
 展示如何使用文档的变量集合。
 
@@ -85,7 +87,5 @@ Assert.That(variables, Is.Empty);
 ### 也可以看看
 
 * class [VariableCollection](../)
-* 命名空间 [Aspose.Words](../../variablecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

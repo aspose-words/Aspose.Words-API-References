@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomXmlPartCollection eigendom. Ruft ein Element am angegebenen Index ab oder legt es fest.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: CustomXmlPartCollection Item eigendom. Ruft ein Element am angegebenen Index ab oder legt es fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/customxmlpartcollection/item/
@@ -18,7 +20,7 @@ public CustomXmlPart this[int index] { get; set; }
 | --- | --- |
 | index | Nullbasierter Index des Elements. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein strukturiertes Dokument-Tag mit benutzerdefinierten XML-Daten erstellt wird.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [CustomXmlPartCollection](../)
-* namensraum [Aspose.Words.Markup](../../customxmlpartcollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

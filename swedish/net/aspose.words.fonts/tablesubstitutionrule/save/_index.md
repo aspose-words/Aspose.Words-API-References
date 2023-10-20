@@ -1,12 +1,14 @@
 ---
 title: TableSubstitutionRule.Save
-second_title: Aspose.Words för .NET API Referens
-description: TableSubstitutionRule metod. Sparar de aktuella inställningarna för tabellersättning i filen.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words för .NET
+description: TableSubstitutionRule Save metod. Sparar de aktuella inställningarna för tabellersättning i filen i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Sparar de aktuella inställningarna för tabellersättning i filen.
 
@@ -18,7 +20,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Utdatafilnamn. |
 
-### Exempel
+## Exempel
 
 Visar hur du får åtkomst till teckensnittsersättningstabeller för Windows och Linux.
 
@@ -57,12 +59,12 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Se även
 
 * class [TableSubstitutionRule](../)
-* namnutrymme [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Sparar de aktuella inställningarna för tabellersättning för att streama.
 
@@ -74,7 +76,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Utgångsström. |
 
-### Exempel
+## Exempel
 
 Visar hur du får åtkomst till teckensnittsersättningstabeller för Windows och Linux.
 
@@ -113,7 +115,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Se även
 
 * class [TableSubstitutionRule](../)
-* namnutrymme [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

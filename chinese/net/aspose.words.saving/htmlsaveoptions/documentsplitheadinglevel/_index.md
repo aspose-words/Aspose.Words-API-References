@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.DocumentSplitHeadingLevel
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定分割文档的最大标题级别 默认值为2.
+linktitle: DocumentSplitHeadingLevel
+articleTitle: DocumentSplitHeadingLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions DocumentSplitHeadingLevel 财产. 指定分割文档的最大标题级别 默认值为2 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/
 public int DocumentSplitHeadingLevel { get; set; }
 ```
 
-### 评论
+## 评论
 
-什么时候[`DocumentSplitCriteria`](../documentsplitcriteria/)包括HeadingParagraph 并且此属性设置为 1 到 9 之间的值，文档将按使用 格式化的段落进行分割 **标题 1**, **标题 2**, **标题 3**等样式达到指定的标题级别。
+什么时候[`DocumentSplitCriteria`](../documentsplitcriteria/)包括HeadingParagraph 并且此属性设置为 1 到 9 之间的值，文档将按使用 格式化的段落进行分割**标题 1**,**标题 2**,**标题 3**等样式达到指定的标题级别。
 
-默认情况下，仅 **标题 1**和 **标题 2**段落导致文档被分割。 将此属性设置为零将导致文档根本不会在标题段落处拆分。
+默认情况下，仅**标题 1**和**标题 2**段落导致文档被分割。 将此属性设置为零将导致文档根本不会在标题段落处拆分。
 
-### 例子
+## 例子
 
 演示如何按标题将输出 HTML 文档拆分为多个部分。
 
@@ -82,7 +84,5 @@ Assert.AreEqual("Heading #5\r" +
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

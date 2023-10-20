@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Bottom
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على موضع الحافة السفلية للكتلة التي تحتوي على الشكل.
+linktitle: Bottom
+articleTitle: Bottom
+second_title: Aspose.Words لـ .NET
+description: ShapeBase Bottom ملكية. الحصول على موضع الحافة السفلية للكتلة التي تحتوي على الشكل في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing/shapebase/bottom/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shapebase/bottom/
 public double Bottom { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 بالنسبة لشكل المستوى الأعلى، تكون القيمة بالنقاط وترتبط بنقطة ارتساء الشكل.
 
 بالنسبة للأشكال الموجودة في مجموعة، تكون القيمة في المساحة الإحداثية ووحدات المجموعة الأصلية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة عائمة وتحديد موضعها وحجمها.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

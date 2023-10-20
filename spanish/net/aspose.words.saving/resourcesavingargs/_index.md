@@ -1,7 +1,9 @@
 ---
-title: Class ResourceSavingArgs
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.ResourceSavingArgs clase. Proporciona datos para elResourceSaving evento.
+title: ResourceSavingArgs Class
+linktitle: ResourceSavingArgs
+articleTitle: ResourceSavingArgs
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.ResourceSavingArgs clase. Proporciona datos para elResourceSaving evento en C#.
 type: docs
 weight: 5560
 url: /es/net/aspose.words.saving/resourcesavingargs/
@@ -26,7 +28,7 @@ public class ResourceSavingArgs
 | [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri/) { get; set; } | Obtiene o establece el identificador uniforme de recursos (URI) utilizado para hacer referencia al archivo de recursos del documento. |
 | [ResourceStream](../../aspose.words.saving/resourcesavingargs/resourcestream/) { get; set; } | Permite especificar la secuencia donde se guardará el recurso. |
 
-### Observaciones
+## Observaciones
 
 De forma predeterminada, cuando Aspose.Words guarda un documento en una página HTML o SVG fija, guarda cada recurso en un archivo separado. Aspose.Words utiliza el nombre del archivo del documento y un número único para generar un nombre de archivo único para cada recurso que se encuentra en el documento.
 
@@ -36,7 +38,7 @@ Para aplicar su propia lógica para generar nombres de archivos de recursos, uti
 
 Para guardar recursos en secuencias en lugar de archivos, utilice el[`ResourceStream`](./resourcestream/) propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una devolución de llamada para realizar un seguimiento de los recursos externos creados al convertir un documento a HTML.
 
@@ -82,5 +84,3 @@ private class FontSavingCallback : IResourceSavingCallback
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

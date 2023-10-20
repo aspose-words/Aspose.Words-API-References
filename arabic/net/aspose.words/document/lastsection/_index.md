@@ -1,7 +1,9 @@
 ---
 title: Document.LastSection
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. للحصول على القسم الأخير في المستند.
+linktitle: LastSection
+articleTitle: LastSection
+second_title: Aspose.Words لـ .NET
+description: Document LastSection ملكية. للحصول على القسم الأخير في المستند في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words/document/lastsection/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/document/lastsection/
 public Section LastSection { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إرجاع`باطل` إذا لم تكن هناك أقسام.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء قسم جديد باستخدام أداة إنشاء المستندات.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Section.Create.docx");
 
 * class [Section](../../section/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

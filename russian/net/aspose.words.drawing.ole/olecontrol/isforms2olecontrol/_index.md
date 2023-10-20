@@ -1,7 +1,9 @@
 ---
 title: OleControl.IsForms2OleControl
-second_title: Справочник по API Aspose.Words для .NET
-description: OleControl свойство. Возвращаетистинный если контроль представляет собойForms2OleControl .
+linktitle: IsForms2OleControl
+articleTitle: IsForms2OleControl
+second_title: Aspose.Words для .NET
+description: OleControl IsForms2OleControl свойство. Возвращаетистинный если контроль представляет собойForms2OleControl  на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
 public bool IsForms2OleControl { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить свойства элемента управления ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Смотрите также
 
 * class [OleControl](../)
-* пространство имен [Aspose.Words.Drawing.Ole](../../olecontrol/)
+* пространство имен [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * сборка [Aspose.Words](../../../)
-
-

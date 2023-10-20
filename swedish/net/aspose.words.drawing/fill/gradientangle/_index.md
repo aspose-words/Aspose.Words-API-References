@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientAngle
-second_title: Aspose.Words för .NET API Referens
-description: Fill fast egendom. Hämtar eller ställer in vinkeln för gradientfyllningen.
+linktitle: GradientAngle
+articleTitle: GradientAngle
+second_title: Aspose.Words för .NET
+description: Fill GradientAngle fast egendom. Hämtar eller ställer in vinkeln för gradientfyllningen i C#.
 type: docs
-weight: 100
+weight: 90
 url: /sv/net/aspose.words.drawing/fill/gradientangle/
 ---
 ## Fill.GradientAngle property
@@ -14,7 +16,7 @@ Hämtar eller ställer in vinkeln för gradientfyllningen.
 public double GradientAngle { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller en form med övertoningar.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 ### Se även
 
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

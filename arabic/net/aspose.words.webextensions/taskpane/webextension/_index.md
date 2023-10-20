@@ -1,7 +1,9 @@
 ---
 title: TaskPane.WebExtension
-second_title: Aspose.Words لمراجع .NET API
-description: TaskPane ملكية. يمثل كائن ملحق الويب.
+linktitle: WebExtension
+articleTitle: WebExtension
+second_title: Aspose.Words لـ .NET
+description: TaskPane WebExtension ملكية. يمثل كائن ملحق الويب في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.webextensions/taskpane/webextension/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.webextensions/taskpane/webextension/
 public WebExtension WebExtension { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtension](../../webextension/)
 * class [TaskPane](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../taskpane/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

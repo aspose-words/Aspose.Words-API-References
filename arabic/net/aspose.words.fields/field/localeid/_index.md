@@ -1,7 +1,9 @@
 ---
 title: Field.LocaleId
-second_title: Aspose.Words لمراجع .NET API
-description: Field ملكية. الحصول على أو تعيين LCID الخاص بالحقل.
+linktitle: LocaleId
+articleTitle: LocaleId
+second_title: Aspose.Words لـ .NET
+description: Field LocaleId ملكية. الحصول على أو تعيين LCID الخاص بالحقل في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/field/localeid/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/field/localeid/
 public int LocaleId { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل والتعامل مع الإعدادات المحلية الخاصة به.
 
@@ -42,7 +44,5 @@ Console.WriteLine($"Today's date, as displayed according to the \"{CultureInfo.G
 ### أنظر أيضا
 
 * class [Field](../)
-* مساحة الاسم [Aspose.Words.Fields](../../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldBibliography.FormatLanguageId
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldBibliography свойство. Получает или задает идентификатор языка который используется для форматирования библиографических источников в документе.
+linktitle: FormatLanguageId
+articleTitle: FormatLanguageId
+second_title: Aspose.Words для .NET
+description: FieldBibliography FormatLanguageId свойство. Получает или задает идентификатор языка который используется для форматирования библиографических источников в документе на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldbibliography/formatlanguageid/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldbibliography/formatlanguageid/
 public string FormatLanguageId { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с полями ЦИТАТА и БИБЛИОГРАФИЯ.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Смотрите также
 
 * class [FieldBibliography](../)
-* пространство имен [Aspose.Words.Fields](../../fieldbibliography/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

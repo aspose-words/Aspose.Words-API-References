@@ -1,7 +1,9 @@
 ---
 title: Node.IsComposite
-second_title: Aspose.Words for .NET API Referansı
-description: Node mülk. İadelerdoğru bu düğüm başka düğümler içeriyorsa.
+linktitle: IsComposite
+articleTitle: IsComposite
+second_title: Aspose.Words for .NET
+description: Node IsComposite mülk. İadelerdoğru bu düğüm başka düğümler içeriyorsa C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/node/iscomposite/
@@ -18,7 +20,7 @@ public virtual bool IsComposite { get; }
 
 Bu yöntem döndürür`YANLIŞ` gibi[`Node`](../) alt düğümlere sahip olamaz.
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -65,7 +67,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### Ayrıca bakınız
 
 * class [Node](../)
-* ad alanı [Aspose.Words](../../node/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ClearFormat
-second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabel metodo. Cancella il formato di questa etichetta dati. Le proprietà vengono impostate sui valori predefiniti definiti nella raccolta di etichette padre data .
+linktitle: ClearFormat
+articleTitle: ClearFormat
+second_title: Aspose.Words per .NET
+description: ChartDataLabel ClearFormat metodo. Cancella il formato di questa etichetta dati. Le proprietà vengono impostate sui valori predefiniti definiti nella raccolta di etichette padre data  in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.drawing.charts/chartdatalabel/clearformat/
@@ -17,7 +19,5 @@ public void ClearFormat()
 ### Guarda anche
 
 * class [ChartDataLabel](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

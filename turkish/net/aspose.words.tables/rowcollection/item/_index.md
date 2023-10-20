@@ -1,7 +1,9 @@
 ---
 title: RowCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: RowCollection mülk. Bir öğeyi alırRow verilen dizinde.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: RowCollection Item mülk. Bir öğeyi alırRow verilen dizinde C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.tables/rowcollection/item/
@@ -18,7 +20,7 @@ public Row this[int index] { get; }
 | --- | --- |
 | index | Koleksiyona bir dizin. |
 
-### Notlar
+## Notlar
 
 Endeks sıfır bazlıdır.
 
@@ -28,7 +30,7 @@ Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvur
 
 Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
-### Örnekler
+## Örnekler
 
 Belgedeki tüm tabloların nasıl yineleneceğini ve her hücrenin içeriğinin nasıl yazdırılacağını gösterir.
 
@@ -75,7 +77,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Row](../../row/)
 * class [RowCollection](../)
-* ad alanı [Aspose.Words.Tables](../../rowcollection/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

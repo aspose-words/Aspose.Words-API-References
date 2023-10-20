@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MovePrevious
-second_title: Aspose.Words for .NET API 参考
-description: LayoutEnumerator 方法. 移动到上一个同级实体
+linktitle: MovePrevious
+articleTitle: MovePrevious
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutEnumerator MovePrevious 方法. 移动到上一个同级实体 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.layout/layoutenumerator/moveprevious/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/layoutenumerator/moveprevious/
 public bool MovePrevious()
 ```
 
-### 例子
+## 例子
 
 显示遍历文档布局实体的方法。
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### 也可以看看
 
 * class [LayoutEnumerator](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutenumerator/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

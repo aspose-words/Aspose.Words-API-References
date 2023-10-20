@@ -1,7 +1,9 @@
 ---
 title: Font.Spacing
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Karakterler arasındaki boşluğu nokta cinsinden döndürür veya ayarlar.
+linktitle: Spacing
+articleTitle: Spacing
+second_title: Aspose.Words for .NET
+description: Font Spacing mülk. Karakterler arasındaki boşluğu nokta cinsinden döndürür veya ayarlar C#'da.
 type: docs
 weight: 380
 url: /tr/net/aspose.words/font/spacing/
@@ -14,7 +16,7 @@ Karakterler arasındaki boşluğu (nokta cinsinden) döndürür veya ayarlar.
 public double Spacing { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Karakterler için yatay ölçeklendirmenin ve aralığın nasıl ayarlanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.ScalingSpacing.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldPageRef.InsertRelativePosition
-second_title: Aspose.Words per .NET API Reference
-description: FieldPageRef proprietà. Ottiene o imposta se inserire una posizione relativa del paragrafo con segnalibro.
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: Aspose.Words per .NET
+description: FieldPageRef InsertRelativePosition proprietà. Ottiene o imposta se inserire una posizione relativa del paragrafo con segnalibro in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldpageref/insertrelativeposition/
@@ -14,7 +16,7 @@ Ottiene o imposta se inserire una posizione relativa del paragrafo con segnalibr
 public bool InsertRelativePosition { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra per inserire i campi PAGEREF per visualizzare la posizione relativa dei segnalibri.
 
@@ -84,7 +86,5 @@ private static void InsertAndNameBookmark(DocumentBuilder builder, string bookma
 ### Guarda anche
 
 * class [FieldPageRef](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldpageref/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

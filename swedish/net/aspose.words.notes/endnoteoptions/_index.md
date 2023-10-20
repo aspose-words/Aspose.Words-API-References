@@ -1,7 +1,9 @@
 ---
-title: Class EndnoteOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Notes.EndnoteOptions klass. Representerar slutnotens numreringsalternativ för ett dokument eller avsnitt.
+title: EndnoteOptions Class
+linktitle: EndnoteOptions
+articleTitle: EndnoteOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Notes.EndnoteOptions klass. Representerar slutnotens numreringsalternativ för ett dokument eller avsnitt i C#.
 type: docs
 weight: 4240
 url: /sv/net/aspose.words.notes/endnoteoptions/
@@ -25,7 +27,7 @@ public sealed class EndnoteOptions
 | [RestartRule](../../aspose.words.notes/endnoteoptions/restartrule/) { get; set; } | Bestämmer när automatisk numrering startar om. |
 | [StartNumber](../../aspose.words.notes/endnoteoptions/startnumber/) { get; set; } | Anger startnumret eller tecknet för de första automatiskt numrerade slutnoterna. |
 
-### Exempel
+## Exempel
 
 Visar hur du väljer en annan plats där dokumentet samlas in och visar dess slutanteckningar.
 
@@ -201,5 +203,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * property [EndnoteOptions](../../aspose.words/pagesetup/endnoteoptions/)
 * namnutrymme [Aspose.Words.Notes](../../aspose.words.notes/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.RemoveAt
-second_title: Aspose.Words för .NET API Referens
-description: FieldCollection metod. Tar bort ett fält vid det angivna indexet från denna samling och från dokumentet.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words för .NET
+description: FieldCollection RemoveAt metod. Tar bort ett fält vid det angivna indexet från denna samling och från dokumentet i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Ett index i samlingen. |
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort fält från en fältsamling.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, fields.Count);
 ### Se även
 
 * class [FieldCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

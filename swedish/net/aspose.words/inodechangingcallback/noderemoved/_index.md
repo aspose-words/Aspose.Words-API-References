@@ -1,7 +1,9 @@
 ---
 title: INodeChangingCallback.NodeRemoved
-second_title: Aspose.Words för .NET API Referens
-description: INodeChangingCallback metod. Anropas när en nod som tillhör detta dokument har tagits bort från sin överordnade.
+linktitle: NodeRemoved
+articleTitle: NodeRemoved
+second_title: Aspose.Words för .NET
+description: INodeChangingCallback NodeRemoved metod. Anropas när en nod som tillhör detta dokument har tagits bort från sin överordnade i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/inodechangingcallback/noderemoved/
@@ -14,7 +16,7 @@ Anropas när en nod som tillhör detta dokument har tagits bort från sin övero
 public void NodeRemoved(NodeChangingArgs args)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du anpassar nodbyte med en återuppringning.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [NodeChangingArgs](../../nodechangingargs/)
 * interface [INodeChangingCallback](../)
-* namnutrymme [Aspose.Words](../../inodechangingcallback/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

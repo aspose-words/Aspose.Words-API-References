@@ -1,7 +1,9 @@
 ---
 title: Table.LeftIndent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. Obtient ou définit la valeur qui représente le retrait gauche du tableau.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words pour .NET
+description: Table LeftIndent propriété. Obtient ou définit la valeur qui représente le retrait gauche du tableau en C#.
 type: docs
 weight: 190
 url: /fr/net/aspose.words.tables/table/leftindent/
@@ -14,7 +16,7 @@ Obtient ou définit la valeur qui représente le retrait gauche du tableau.
 public double LeftIndent { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un tableau formaté à l’aide de DocumentBuilder.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### Voir également
 
 * class [Table](../)
-* espace de noms [Aspose.Words.Tables](../../table/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

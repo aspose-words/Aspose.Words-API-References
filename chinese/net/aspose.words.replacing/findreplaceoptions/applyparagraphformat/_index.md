@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ApplyParagraphFormat
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. 段落格式应用于新内容
+linktitle: ApplyParagraphFormat
+articleTitle: ApplyParagraphFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions ApplyParagraphFormat 财产. 段落格式应用于新内容 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
 public ParagraphFormat ApplyParagraphFormat { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何向查找和替换操作找到匹配项的段落添加格式设置。
 
@@ -55,7 +57,5 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 
 * class [ParagraphFormat](../../../aspose.words/paragraphformat/)
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

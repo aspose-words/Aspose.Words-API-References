@@ -1,7 +1,9 @@
 ---
-title: Class NodeImporter
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.NodeImporter sınıf. Düğümlerin bir belgeden diğerine tekrar tekrar içe aktarılmasının verimli bir şekilde gerçekleştirilmesine olanak tanır.
+title: NodeImporter Class
+linktitle: NodeImporter
+articleTitle: NodeImporter
+second_title: Aspose.Words for .NET
+description: Aspose.Words.NodeImporter sınıf. Düğümlerin bir belgeden diğerine tekrar tekrar içe aktarılmasının verimli bir şekilde gerçekleştirilmesine olanak tanır C#'da.
 type: docs
 weight: 4210
 url: /tr/net/aspose.words/nodeimporter/
@@ -20,16 +22,16 @@ public class NodeImporter
 
 | İsim | Tanım |
 | --- | --- |
-| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | Yeni bir örneğini başlatır`NodeImporter` class. |
-| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Yeni bir örneğini başlatır`NodeImporter` class. |
+| [NodeImporter](nodeimporter/#constructor)(*[DocumentBase](../documentbase/), [DocumentBase](../documentbase/), [ImportFormatMode](../importformatmode/)*) | Yeni bir örneğini başlatır`NodeImporter` class. |
+| [NodeImporter](nodeimporter/#constructor_1)(*[DocumentBase](../documentbase/), [DocumentBase](../documentbase/), [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)*) | Yeni bir örneğini başlatır`NodeImporter` class. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [ImportNode](../../aspose.words/nodeimporter/importnode/)(Node, bool) | Bir belgedeki düğümü diğerine aktarır. |
+| [ImportNode](../../aspose.words/nodeimporter/importnode/)(*[Node](../node/), bool*) | Bir belgedeki düğümü diğerine aktarır. |
 
-### Notlar
+## Notlar
 
 Aspose.Words, fragments 'nin Microsoft Word belgeleri arasında kolayca kopyalanması ve taşınması için işlevsellik sağlar. Bu, "düğümlerin içe aktarılması" olarak bilinir. Bir belgeden diğerine bir parça ekleyebilmeniz için önce onu "içe aktarmanız" gerekir. İçe aktarma, orijinal düğümün, hedef belgesine eklenmeye hazır derin bir klonunu oluşturur.
 
@@ -43,7 +45,7 @@ Zorluklar, stillerin ve listelerin farklı belgelerde farklı olmasından kaynak
 
 `NodeImporter`sınıf, içe aktarma sırasında "çeviri tablolarını" tutan bir bağlam gibidir. Kaynak ve hedef belgelerdeki stiller ve listeler arasında doğru şekilde çeviri yapar.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin içeriğinin başka bir belgedeki yer imine nasıl ekleneceğini gösterir.
 
@@ -112,5 +114,3 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleIdFarEast
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Biçimlendirilmiş Asya karakterlerinin yerel ayar tanımlayıcısını dili alır veya ayarlar.
+linktitle: LocaleIdFarEast
+articleTitle: LocaleIdFarEast
+second_title: Aspose.Words for .NET
+description: Font LocaleIdFarEast mülk. Biçimlendirilmiş Asya karakterlerinin yerel ayar tanımlayıcısını dili alır veya ayarlar C#'da.
 type: docs
 weight: 220
 url: /tr/net/aspose.words/font/localeidfareast/
@@ -14,11 +16,11 @@ Biçimlendirilmiş Asya karakterlerinin yerel ayar tanımlayıcısını (dili) a
 public int LocaleIdFarEast { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yerel tanımlayıcıların listesi için bkz. https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### Örnekler
+## Örnekler
 
 Uzak Doğu dilinde metnin nasıl ekleneceğini ve biçimlendirileceğini gösterir.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Font.FarEast.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

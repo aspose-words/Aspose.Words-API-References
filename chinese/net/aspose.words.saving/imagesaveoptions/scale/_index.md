@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Scale
-second_title: Aspose.Words for .NET API 参考
-description: ImageSaveOptions 财产. 获取或设置生成图像的缩放系数
+linktitle: Scale
+articleTitle: Scale
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSaveOptions Scale 财产. 获取或设置生成图像的缩放系数 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.saving/imagesaveoptions/scale/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/imagesaveoptions/scale/
 public float Scale { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为 1.0。该值必须大于 0.
 
-### 例子
+## 例子
 
 演示如何将 Office Math 对象呈现为本地文件系统中的图像文件。
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### 也可以看看
 
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: PsSaveOptions.PsSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: PsSaveOptions البناء. Default_Constructor
+title: PsSaveOptions
+linktitle: PsSaveOptions
+articleTitle: PsSaveOptions
+second_title: Aspose.Words لـ .NET
+description: PsSaveOptions البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/pssaveoptions/pssaveoptions/
@@ -17,7 +19,5 @@ public PsSaveOptions()
 ### أنظر أيضا
 
 * class [PsSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pssaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

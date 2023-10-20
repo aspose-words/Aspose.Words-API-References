@@ -1,9 +1,11 @@
 ---
 title: Comment.Replies
-second_title: Aspose.Words for .NET API 参考
-description: Comment 财产. 返回的集合Comment指定注释的直接子对象的对象
+linktitle: Replies
+articleTitle: Replies
+second_title: 用于 .NET 的 Aspose.Words
+description: Comment Replies 财产. 返回的集合Comment指定注释的直接子对象的对象 在 C#.
 type: docs
-weight: 100
+weight: 90
 url: /zh/net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/comment/replies/
 public CommentCollection Replies { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何打印文档的所有注释及其回复。
 
@@ -41,7 +43,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 
 * class [CommentCollection](../../commentcollection/)
 * class [Comment](../)
-* 命名空间 [Aspose.Words](../../comment/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.AllowOverlap
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取浮动表是否允许文档中的其他浮动对象 在显示时重叠其范围 默认值为真的.
+linktitle: AllowOverlap
+articleTitle: AllowOverlap
+second_title: 用于 .NET 的 Aspose.Words
+description: Table AllowOverlap 财产. 获取浮动表是否允许文档中的其他浮动对象 在显示时重叠其范围 默认值为真的 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.tables/table/allowoverlap/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/table/allowoverlap/
 public bool AllowOverlap { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用浮动表属性。
 
@@ -42,7 +44,5 @@ if (table.TextWrapping == TextWrapping.Around)
 ### 也可以看看
 
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

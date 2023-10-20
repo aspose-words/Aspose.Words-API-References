@@ -1,7 +1,9 @@
 ---
 title: Shape.ShadowEnabled
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Gibt zurückWAHR wenn ein Schatteneffekt aktiviert ist.
+linktitle: ShadowEnabled
+articleTitle: ShadowEnabled
+second_title: Aspose.Words für .NET
+description: Shape ShadowEnabled eigendom. Gibt zurückWAHR wenn ein Schatteneffekt aktiviert ist in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words.drawing/shape/shadowenabled/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn ein Schatteneffekt aktiviert ist.
 public bool ShadowEnabled { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Formen in einem Dokument durchlaufen werden.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Siehe auch
 
 * class [Shape](../)
-* namensraum [Aspose.Words.Drawing](../../shape/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

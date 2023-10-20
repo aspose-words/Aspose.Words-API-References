@@ -1,7 +1,9 @@
 ---
 title: Field.Result
-second_title: Referencia de API de Aspose.Words para .NET
-description: Field propiedad. Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo.
+linktitle: Result
+articleTitle: Result
+second_title: Aspose.Words para .NET
+description: Field Result propiedad. Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/field/result/
@@ -14,7 +16,7 @@ Obtiene o establece el texto que se encuentra entre el separador de campo y el f
 public string Result { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo en un documento usando un código de campo.
 
@@ -34,7 +36,5 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 ### Ver también
 
 * class [Field](../)
-* espacio de nombres [Aspose.Words.Fields](../../field/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Layout
-second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words.Layout命名空间提供允许访问 信息的类例如当文档格式化为页面时特定文档元素 位于哪个页面以及页面上的哪个位置
+linktitle: Aspose.Words.Layout
+articleTitle: Aspose.Words.Layout
+second_title: 用于 .NET 的 Aspose.Words
+description: 这Aspose.Words.Layout命名空间提供允许访问 信息的类例如当文档格式化为页面时特定文档元素 位于哪个页面以及页面上的哪个位置 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.layout/
 ---
-这 **Aspose.Words.Layout**命名空间提供允许访问 信息的类，例如当文档格式化为页面时，特定文档元素 位于哪个页面以及页面上的哪个位置。
+这**Aspose.Words.Layout**命名空间提供允许访问 信息的类，例如当文档格式化为页面时，特定文档元素 位于哪个页面以及页面上的哪个位置。
 
 ## 课程
 
@@ -33,5 +35,3 @@ url: /zh/net/aspose.words.layout/
 | [RevisionColor](./revisioncolor/) | 允许指定文档修订的颜色。 |
 | [RevisionTextEffect](./revisiontexteffect/) | 允许指定文档文本修订的装饰效果。 |
 | [ShowInBalloons](./showinballoons/) | 指定在气球中呈现哪些修订版本。 |
-
-

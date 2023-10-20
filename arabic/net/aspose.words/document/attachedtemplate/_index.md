@@ -1,7 +1,9 @@
 ---
 title: Document.AttachedTemplate
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على أو تعيين المسار الكامل للقالب المرفق بالمستند.
+linktitle: AttachedTemplate
+articleTitle: AttachedTemplate
+second_title: Aspose.Words لـ .NET
+description: Document AttachedTemplate ملكية. الحصول على أو تعيين المسار الكامل للقالب المرفق بالمستند في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/document/attachedtemplate/
@@ -20,11 +22,11 @@ public string AttachedTemplate { get; set; }
 | --- | --- |
 | ArgumentNullException | يلقي إذا حاولت التعيين على أ`باطل` قيمة. |
 
-### ملاحظات
+## ملاحظات
 
 تعني السلسلة الفارغة أن المستند مرفق بالقالب العادي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين قالب افتراضي للمستندات التي لا تحتوي على قوالب مرفقة.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

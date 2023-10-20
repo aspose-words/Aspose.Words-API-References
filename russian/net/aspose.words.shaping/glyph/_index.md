@@ -1,7 +1,9 @@
 ---
-title: Class Glyph
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Shaping.Glyph сорт. Представляет собой глиф .
+title: Glyph Class
+linktitle: Glyph
+articleTitle: Glyph
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Shaping.Glyph сорт. Представляет собой глиф  на С#.
 type: docs
 weight: 6040
 url: /ru/net/aspose.words.shaping/glyph/
@@ -18,7 +20,7 @@ public class Glyph
 
 | Имя | Описание |
 | --- | --- |
-| [Glyph](glyph/)(int, short, short, short) | Инициализирует новый экземпляр этого класса. |
+| [Glyph](glyph/)(*int, short, short, short*) | Инициализирует новый экземпляр этого класса. |
 
 ## Характеристики
 
@@ -34,11 +36,9 @@ public class Glyph
 | Имя | Описание |
 | --- | --- |
 | virtual [Clone](../../aspose.words.shaping/glyph/clone/)() | Возвращает клон этого экземпляра. |
-| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(int, float) | Возвращает ширину (прогресс) глифа в пунктах. |
+| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(*int, float*) | Возвращает ширину (прогресс) глифа в пунктах. |
 
 ### Смотрите также
 
 * пространство имен [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataPointCollection.ClearFormat
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataPointCollection طريقة. مسح التنسيق للجميعChartDataPoint في هذه المجموعة.
+linktitle: ClearFormat
+articleTitle: ClearFormat
+second_title: Aspose.Words لـ .NET
+description: ChartDataPointCollection ClearFormat طريقة. مسح التنسيق للجميعChartDataPoint في هذه المجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartdatapointcollection/clearformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatapointcollection/clearformat/
 public void ClearFormat()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع نقاط البيانات على مخطط خطي.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### أنظر أيضا
 
 * class [ChartDataPointCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

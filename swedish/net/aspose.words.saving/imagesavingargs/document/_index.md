@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.Document
-second_title: Aspose.Words för .NET API Referens
-description: ImageSavingArgs fast egendom. Hämtar dokumentobjektet som för närvarande sparas.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words för .NET
+description: ImageSavingArgs Document fast egendom. Hämtar dokumentobjektet som för närvarande sparas i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/imagesavingargs/document/
@@ -14,7 +16,7 @@ Hämtar dokumentobjektet som för närvarande sparas.
 public Document Document { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man involverar en bildsparande återuppringning i en HTML-konverteringsprocess.
 
@@ -61,7 +63,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [ImageSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

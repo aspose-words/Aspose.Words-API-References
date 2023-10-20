@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Name
-second_title: Aspose.Words per .NET API Reference
-description: UserInformation proprietà. Ottiene o imposta il nome dellutente.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words per .NET
+description: UserInformation Name proprietà. Ottiene o imposta il nome dellutente in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/userinformation/name/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome dell'utente.
 public string Name { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare i dettagli dell'utente e visualizzarli utilizzando i campi.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Guarda anche
 
 * class [UserInformation](../)
-* spazio dei nomi [Aspose.Words.Fields](../../userinformation/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

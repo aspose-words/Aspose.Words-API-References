@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Orientation
-second_title: Aspose.Words لمراجع .NET API
-description: CellFormat ملكية. إرجاع أو تعيين اتجاه النص في خلية جدول.
+linktitle: Orientation
+articleTitle: Orientation
+second_title: Aspose.Words لـ .NET
+description: CellFormat Orientation ملكية. إرجاع أو تعيين اتجاه النص في خلية جدول في C#.
 type: docs
-weight: 70
+weight: 60
 url: /ar/net/aspose.words.tables/cellformat/orientation/
 ---
 ## CellFormat.Orientation property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cellformat/orientation/
 public TextOrientation Orientation { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول منسق 2x2.
 
@@ -122,7 +124,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * enum [TextOrientation](../../../aspose.words/textorientation/)
 * class [CellFormat](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cellformat/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

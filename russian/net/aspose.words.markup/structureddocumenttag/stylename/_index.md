@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.StyleName
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Получает или задает имя стиля примененного к тегу структурированного документа.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag StyleName свойство. Получает или задает имя стиля примененного к тегу структурированного документа на С#.
 type: docs
 weight: 270
 url: /ru/net/aspose.words.markup/structureddocumenttag/stylename/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttag/stylename/
 public string StyleName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать со стилями элементов управления содержимым.
 
@@ -53,7 +55,5 @@ foreach (Node node in tags)
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

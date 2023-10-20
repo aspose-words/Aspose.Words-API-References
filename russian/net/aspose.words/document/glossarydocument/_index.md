@@ -1,7 +1,9 @@
 ---
 title: Document.GlossaryDocument
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает или задает документ глоссария в этом документе или шаблоне. Документ глоссария  это хранилище для записей автотекста автозамены и стандартных блоков определенных в документе.
+linktitle: GlossaryDocument
+articleTitle: GlossaryDocument
+second_title: Aspose.Words для .NET
+description: Document GlossaryDocument свойство. Получает или задает документ глоссария в этом документе или шаблоне. Документ глоссария  это хранилище для записей автотекста автозамены и стандартных блоков определенных в документе на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words/document/glossarydocument/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/document/glossarydocument/
 public GlossaryDocument GlossaryDocument { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство возвращает`нулевой` если в документе нет глоссария.
 
 Вы можете добавить документ глоссария в документ, создав a [`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) объект и присвоение этому свойству.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ пользовательский стандартный блок.
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

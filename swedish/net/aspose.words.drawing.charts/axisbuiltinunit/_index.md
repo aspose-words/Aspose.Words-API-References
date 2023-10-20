@@ -1,7 +1,9 @@
 ---
-title: Enum AxisBuiltInUnit
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit uppräkning. Anger visningsenheterna för en axel.
+title: AxisBuiltInUnit Enum
+linktitle: AxisBuiltInUnit
+articleTitle: AxisBuiltInUnit
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit uppräkning. Anger visningsenheterna för en axel i C#.
 type: docs
 weight: 520
 url: /sv/net/aspose.words.drawing.charts/axisbuiltinunit/
@@ -31,7 +33,7 @@ public enum AxisBuiltInUnit
 | Trillions | `10` | Anger att värdena på diagrammet ska delas med 1 000 000 000 0000. |
 | Percentage | `11` | Anger att värdena på diagrammet ska delas med 0,01. Detta värde stöds endast av de nya diagram -typerna av MS Office 2016. |
 
-### Exempel
+## Exempel
 
 Visar hur man manipulerar bockmarkeringarna och visade värden för en diagramaxel.
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

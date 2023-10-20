@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SectionStart
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Devuelve o establece el tipo de salto de sección para el objeto especificado.
+linktitle: SectionStart
+articleTitle: SectionStart
+second_title: Aspose.Words para .NET
+description: PageSetup SectionStart propiedad. Devuelve o establece el tipo de salto de sección para el objeto especificado en C#.
 type: docs
 weight: 390
 url: /es/net/aspose.words/pagesetup/sectionstart/
@@ -14,7 +16,7 @@ Devuelve o establece el tipo de salto de sección para el objeto especificado.
 public SectionStart SectionStart { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir un documento Aspose.Words a mano.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * enum [SectionStart](../../sectionstart/)
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

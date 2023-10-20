@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.ScreenTip
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldHyperlink propriété. Obtient ou définit le texte dinfobulle du lien hypertexte.
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: Aspose.Words pour .NET
+description: FieldHyperlink ScreenTip propriété. Obtient ou définit le texte dinfobulle du lien hypertexte en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldhyperlink/screentip/
@@ -14,7 +16,7 @@ Obtient ou définit le texte d'info-bulle du lien hypertexte.
 public string ScreenTip { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les champs HYPERLINK pour créer des liens vers des documents dans le système de fichiers local.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Voir également
 
 * class [FieldHyperlink](../)
-* espace de noms [Aspose.Words.Fields](../../fieldhyperlink/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

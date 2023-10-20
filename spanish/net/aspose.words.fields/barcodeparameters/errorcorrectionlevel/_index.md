@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.ErrorCorrectionLevel
-second_title: Referencia de API de Aspose.Words para .NET
-description: BarcodeParameters propiedad. Nivel de corrección de error del Código QR. Los valores válidos son 0 3.
+linktitle: ErrorCorrectionLevel
+articleTitle: ErrorCorrectionLevel
+second_title: Aspose.Words para .NET
+description: BarcodeParameters ErrorCorrectionLevel propiedad. Nivel de corrección de error del Código QR. Los valores válidos son 0 3 en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.fields/barcodeparameters/errorcorrectionlevel/
@@ -14,7 +16,7 @@ Nivel de corrección de error del Código QR. Los valores válidos son [0, 3].
 public string ErrorCorrectionLevel { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar un generador de códigos de barras.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ver también
 
 * class [BarcodeParameters](../)
-* espacio de nombres [Aspose.Words.Fields](../../barcodeparameters/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

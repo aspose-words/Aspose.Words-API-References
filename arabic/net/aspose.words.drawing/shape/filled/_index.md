@@ -1,7 +1,9 @@
 ---
 title: Shape.Filled
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. تحديد ما إذا كان سيتم ملء المسار المغلق للشكل أم لا.
+linktitle: Filled
+articleTitle: Filled
+second_title: Aspose.Words لـ .NET
+description: Shape Filled ملكية. تحديد ما إذا كان سيتم ملء المسار المغلق للشكل أم لا في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/shape/filled/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shape/filled/
 public bool Filled { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 هذا اختصار لل[`Visible`](../../fill/visible/) ملكية.
 
 القيمة الافتراضية هي`حقيقي`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار على كافة الأشكال في المستند.
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

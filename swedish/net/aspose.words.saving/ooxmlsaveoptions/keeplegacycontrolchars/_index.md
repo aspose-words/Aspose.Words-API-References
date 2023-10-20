@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.KeepLegacyControlChars
-second_title: Aspose.Words för .NET API Referens
-description: OoxmlSaveOptions fast egendom. Behåller originalrepresentationen av äldre kontrolltecken.
+linktitle: KeepLegacyControlChars
+articleTitle: KeepLegacyControlChars
+second_title: Aspose.Words för .NET
+description: OoxmlSaveOptions KeepLegacyControlChars fast egendom. Behåller originalrepresentationen av äldre kontrolltecken i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/
@@ -14,7 +16,7 @@ Behåller originalrepresentationen av äldre kontrolltecken.
 public bool KeepLegacyControlChars { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man stöder äldre kontrolltecken vid konvertering till .docx.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(keepLegacyControlChars ? "\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0
 ### Se även
 
 * class [OoxmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

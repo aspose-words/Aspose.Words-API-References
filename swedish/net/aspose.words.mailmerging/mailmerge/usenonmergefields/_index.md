@@ -1,7 +1,9 @@
 ---
 title: MailMerge.UseNonMergeFields
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge fast egendom. NärSann  anger att förutom MERGEFIELDfält utförs epostsammankoppling till vissa andra typer av fält och även i fieldNametaggar.
+linktitle: UseNonMergeFields
+articleTitle: UseNonMergeFields
+second_title: Aspose.Words för .NET
+description: MailMerge UseNonMergeFields fast egendom. NärSann  anger att förutom MERGEFIELDfält utförs epostsammankoppling till vissa andra typer av fält och även i fieldNametaggar i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.mailmerging/mailmerge/usenonmergefields/
@@ -14,7 +16,7 @@ När`Sann` , anger att förutom MERGEFIELD-fält utförs e-postsammankoppling ti
 public bool UseNonMergeFields { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Normalt utförs brevkoppling endast i MERGEFIELD-fält, men flera kunder hade sin reporting byggd med andra fält och hade många dokument skapade på detta sätt. För att förenkla migreringen (och eftersom detta tillvägagångssätt användes oberoende av flera kunder) introducerades möjligheten att sammanfoga e-post till andra fält.
 
@@ -28,7 +30,7 @@ OM 0 = 0 "{FieldName}" ""
 
 Även när`UseNonMergeFields` är satt till`Sann`, Aspose.Words kommer att utföra e-postsammanfogning till texttaggar "{{fieldName}}". Det här är inte fält, utan bara texttaggar.
 
-### Exempel
+## Exempel
 
 Visar hur man bevarar utseendet på alternativa kopplingsetiketter som inte används under en koppling.
 
@@ -92,7 +94,5 @@ private static DataTable CreateSourceTablePreserveUnusedTags()
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

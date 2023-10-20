@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.LoadMsOfficeFallbackSettings
-second_title: Aspose.Words för .NET API Referens
-description: FontFallbackSettings metod. Laddar fördefinierade reservinställningar som efterliknar Microsoft Word reserv och använder Microsoft officeteckensnitt.
+linktitle: LoadMsOfficeFallbackSettings
+articleTitle: LoadMsOfficeFallbackSettings
+second_title: Aspose.Words för .NET
+description: FontFallbackSettings LoadMsOfficeFallbackSettings metod. Laddar fördefinierade reservinställningar som efterliknar Microsoft Word reserv och använder Microsoft officeteckensnitt i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/
@@ -14,7 +16,7 @@ Laddar fördefinierade reservinställningar som efterliknar Microsoft Word reser
 public void LoadMsOfficeFallbackSettings()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man laddar fördefinierade reservteckensnittsinställningar.
 
@@ -44,7 +46,5 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNoto
 ### Se även
 
 * class [FontFallbackSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

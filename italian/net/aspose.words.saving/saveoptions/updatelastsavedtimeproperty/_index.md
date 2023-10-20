@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateLastSavedTimeProperty
-second_title: Aspose.Words per .NET API Reference
-description: SaveOptions proprietà. Ottiene o imposta un valore che determina se ilLastSavedTime la proprietà viene aggiornata prima del salvataggio.
+linktitle: UpdateLastSavedTimeProperty
+articleTitle: UpdateLastSavedTimeProperty
+second_title: Aspose.Words per .NET
+description: SaveOptions UpdateLastSavedTimeProperty proprietà. Ottiene o imposta un valore che determina se ilLastSavedTime la proprietà viene aggiornata prima del salvataggio in C#.
 type: docs
 weight: 180
 url: /it/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore che determina se il[`LastSavedTime`](../../../aspose
 public bool UpdateLastSavedTimeProperty { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come determinare se conservare la proprietà "Ultimo salvataggio" del documento durante il salvataggio.
 
@@ -48,7 +50,5 @@ else
 ### Guarda anche
 
 * class [SaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../saveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

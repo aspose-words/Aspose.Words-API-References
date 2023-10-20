@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. WannWAHR SpaceBefore UndSpaceAfter wird ignoriert zwischen den Absätzen desselben Stils.
+linktitle: NoSpaceBetweenParagraphsOfSameStyle
+articleTitle: NoSpaceBetweenParagraphsOfSameStyle
+second_title: Aspose.Words für .NET
+description: ParagraphFormat NoSpaceBetweenParagraphsOfSameStyle eigendom. WannWAHR SpaceBefore UndSpaceAfter wird ignoriert zwischen den Absätzen desselben Stils in C#.
 type: docs
 weight: 240
 url: /de/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
@@ -14,11 +16,11 @@ Wann`WAHR` ,[`SpaceBefore`](../spacebefore/) Und[`SpaceAfter`](../spaceafter/) w
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Einstellung wirkt sich nur aus, wenn sie auf einen Absatzstil angewendet wird. Wenn es direkt auf einen Absatz angewendet wird, hat es keine Auswirkung.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man keinen Abstand zwischen Absätzen mit demselben Stil anwendet.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UnderlineTabInNumList
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Sottolinea il carattere successivo la numerazione successiva.
+linktitle: UnderlineTabInNumList
+articleTitle: UnderlineTabInNumList
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions UnderlineTabInNumList proprietà. Sottolinea il carattere successivo la numerazione successiva in C#.
 type: docs
 weight: 590
 url: /it/net/aspose.words.settings/compatibilityoptions/underlinetabinnumlist/
@@ -17,7 +19,5 @@ public bool UnderlineTabInNumList { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

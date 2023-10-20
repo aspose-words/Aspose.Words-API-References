@@ -1,7 +1,9 @@
 ---
-title: Class WarningInfoCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WarningInfoCollection sınıf. Yazılı bir koleksiyonu temsil ederWarningInfo nesneler.
+title: WarningInfoCollection Class
+linktitle: WarningInfoCollection
+articleTitle: WarningInfoCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.WarningInfoCollection sınıf. Yazılı bir koleksiyonu temsil ederWarningInfo nesneler C#'da.
 type: docs
 weight: 6640
 url: /tr/net/aspose.words/warninginfocollection/
@@ -35,13 +37,13 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
 | [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
-| [Warning](../../aspose.words/warninginfocollection/warning/)(WarningInfo) | Uygular[`IWarningCallback`](../iwarningcallback/) arayüz. Bu koleksiyona bir uyarı ekler. |
+| [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | Uygular[`IWarningCallback`](../iwarningcallback/) arayüz. Bu koleksiyona bir uyarı ekler. |
 
-### Notlar
+## Notlar
 
 Bu koleksiyon nesnesini en basit biçimi olarak kullanabilirsiniz.[`IWarningCallback`](../iwarningcallback/) Aspose.Words'ün yükleme veya kaydetme işlemi sırasında ürettiği tüm uyarıları toplamak için uygulama. Bu sınıfın bir örneğini oluşturun ve onu olarak atayın.[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) veya[`WarningCallback`](../documentbase/warningcallback/) mülk.
 
-### Örnekler
+## Örnekler
 
 Mevcut yazı tipi kaynaklarından eksik bir yazı tipi için en yakın eşleşmeyi bulma özelliğinin nasıl ayarlanacağını gösterir.
 
@@ -104,5 +106,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 * interface [IWarningCallback](../iwarningcallback/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

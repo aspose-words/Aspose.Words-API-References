@@ -1,7 +1,9 @@
 ---
 title: Style.BaseStyleName
-second_title: Aspose.Words für .NET-API-Referenz
-description: Style eigendom. Ruft den Namen des Stils ab auf dem dieser Stil basiert bzw. legt ihn fest.
+linktitle: BaseStyleName
+articleTitle: BaseStyleName
+second_title: Aspose.Words für .NET
+description: Style BaseStyleName eigendom. Ruft den Namen des Stils ab auf dem dieser Stil basiert bzw. legt ihn fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/style/basestylename/
@@ -14,11 +16,11 @@ Ruft den Namen des Stils ab, auf dem dieser Stil basiert, bzw. legt ihn fest.
 public string BaseStyleName { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Dies ist eine leere Zeichenfolge, wenn der Stil nicht auf einem anderen Stil basiert, und er kann auf eine leere Zeichenfolge gesetzt werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Stilaliase verwendet werden.
 
@@ -49,7 +51,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Siehe auch
 
 * class [Style](../)
-* namensraum [Aspose.Words](../../style/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

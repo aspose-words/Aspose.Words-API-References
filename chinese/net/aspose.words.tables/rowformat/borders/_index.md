@@ -1,7 +1,9 @@
 ---
 title: RowFormat.Borders
-second_title: Aspose.Words for .NET API 参考
-description: RowFormat 财产. 获取行的默认单元格边框的集合
+linktitle: Borders
+articleTitle: Borders
+second_title: 用于 .NET 的 Aspose.Words
+description: RowFormat Borders 财产. 获取行的默认单元格边框的集合 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.tables/rowformat/borders/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/rowformat/borders/
 public BorderCollection Borders { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何构建具有自定义边框的表格。
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [RowFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../rowformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

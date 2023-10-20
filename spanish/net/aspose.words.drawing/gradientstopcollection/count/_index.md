@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Count
-second_title: Referencia de API de Aspose.Words para .NET
-description: GradientStopCollection propiedad. Obtiene un valor entero que indica el número de elementos de la colección.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words para .NET
+description: GradientStopCollection Count propiedad. Obtiene un valor entero que indica el número de elementos de la colección en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing/gradientstopcollection/count/
@@ -14,7 +16,7 @@ Obtiene un valor entero que indica el número de elementos de la colección.
 public int Count { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar paradas de degradado al relleno de degradado.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Ver también
 
 * class [GradientStopCollection](../)
-* espacio de nombres [Aspose.Words.Drawing](../../gradientstopcollection/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

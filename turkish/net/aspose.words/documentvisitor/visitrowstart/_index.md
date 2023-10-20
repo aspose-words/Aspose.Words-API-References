@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitRowStart
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Bir tablo satırının numaralandırılması başladığında çağrılır.
+linktitle: VisitRowStart
+articleTitle: VisitRowStart
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitRowStart yöntem. Bir tablo satırının numaralandırılması başladığında çağrılır C#'da.
 type: docs
 weight: 350
 url: /tr/net/aspose.words/documentvisitor/visitrowstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitRowStart(Row row)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her tablonun düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -187,7 +189,5 @@ public class TableStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

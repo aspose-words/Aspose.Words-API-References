@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.LastSection
-second_title: Aspose.Words per .NET API Reference
-description: BuildingBlock proprietà. Ottiene lultima sezione del blocco predefinito.
+linktitle: LastSection
+articleTitle: LastSection
+second_title: Aspose.Words per .NET
+description: BuildingBlock LastSection proprietà. Ottiene lultima sezione del blocco predefinito in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.buildingblocks/buildingblock/lastsection/
@@ -14,11 +16,11 @@ Ottiene l'ultima sezione del blocco predefinito.
 public Section LastSection { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Restituisce`nullo` se non ci sono sezioni.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un blocco predefinito personalizzato a un documento.
 
@@ -116,7 +118,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [Section](../../../aspose.words/section/)
 * class [BuildingBlock](../)
-* spazio dei nomi [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* spazio dei nomi [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assemblea [Aspose.Words](../../../)
-
-

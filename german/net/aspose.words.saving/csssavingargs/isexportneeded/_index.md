@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.IsExportNeeded
-second_title: Aspose.Words für .NET-API-Referenz
-description: CssSavingArgs eigendom. Ermöglicht die Angabe ob das CSS in eine Datei exportiert und in ein HTMLDokument eingebettet wird. Standard istWAHR . Wenn diese Eigenschaft istFALSCH  die CSSInformationen werden nicht in einer CSSDatei gespeichert und nicht in ein HTMLDokument eingebettet.
+linktitle: IsExportNeeded
+articleTitle: IsExportNeeded
+second_title: Aspose.Words für .NET
+description: CssSavingArgs IsExportNeeded eigendom. Ermöglicht die Angabe ob das CSS in eine Datei exportiert und in ein HTMLDokument eingebettet wird. Standard istWAHR . Wenn diese Eigenschaft istFALSCH  die CSSInformationen werden nicht in einer CSSDatei gespeichert und nicht in ein HTMLDokument eingebettet in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/csssavingargs/isexportneeded/
@@ -14,7 +16,7 @@ Ermöglicht die Angabe, ob das CSS in eine Datei exportiert und in ein HTML-Doku
 public bool IsExportNeeded { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit CSS-Stylesheets gearbeitet wird, die bei einer HTML-Konvertierung erstellt werden.
 
@@ -75,7 +77,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### Siehe auch
 
 * class [CssSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../csssavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

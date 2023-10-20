@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitTableStart
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Se llama cuando ha comenzado la enumeración de una tabla.
+linktitle: VisitTableStart
+articleTitle: VisitTableStart
+second_title: Aspose.Words para .NET
+description: DocumentVisitor VisitTableStart método. Se llama cuando ha comenzado la enumeración de una tabla en C#.
 type: docs
 weight: 500
 url: /es/net/aspose.words/documentvisitor/visittablestart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitTableStart(Table table)
 
 A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la enumeración.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir la estructura de nodos de cada tabla en un documento.
 
@@ -187,7 +189,5 @@ public class TableStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentVisitor](../)
-* espacio de nombres [Aspose.Words](../../documentvisitor/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

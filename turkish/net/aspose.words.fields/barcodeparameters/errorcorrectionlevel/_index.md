@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.ErrorCorrectionLevel
-second_title: Aspose.Words for .NET API Referansı
-description: BarcodeParameters mülk. QR Kodunun hata düzeltme düzeyi. Geçerli değerler şunlardır 0 3.
+linktitle: ErrorCorrectionLevel
+articleTitle: ErrorCorrectionLevel
+second_title: Aspose.Words for .NET
+description: BarcodeParameters ErrorCorrectionLevel mülk. QR Kodunun hata düzeltme düzeyi. Geçerli değerler şunlardır 0 3 C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/barcodeparameters/errorcorrectionlevel/
@@ -14,7 +16,7 @@ QR Kodunun hata düzeltme düzeyi. Geçerli değerler şunlardır: [0, 3].
 public string ErrorCorrectionLevel { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Barkod oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ayrıca bakınız
 
 * class [BarcodeParameters](../)
-* ad alanı [Aspose.Words.Fields](../../barcodeparameters/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

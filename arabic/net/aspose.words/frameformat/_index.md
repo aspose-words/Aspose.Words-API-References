@@ -1,7 +1,9 @@
 ---
-title: Class FrameFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.FrameFormat فصل. يمثل التنسيق المتعلق بالإطار للفقرة.
+title: FrameFormat Class
+linktitle: FrameFormat
+articleTitle: FrameFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.FrameFormat فصل. يمثل التنسيق المتعلق بالإطار للفقرة في C#.
 type: docs
 weight: 3070
 url: /ar/net/aspose.words/frameformat/
@@ -31,13 +33,13 @@ public class FrameFormat
 | [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | يحصل على المسافة العمودية بين حافة الإطار والعنصر المحدد بواسطة[`RelativeVerticalPosition`](./relativeverticalposition/) الملكية. |
 | [Width](../../aspose.words/frameformat/width/) { get; } | الحصول على عرض الإطار المحدد بالنقاط. |
 
-### ملاحظات
+## ملاحظات
 
 يتم إنشاء هذا الكائن دائمًا. إذا كانت الفقرة عبارة عن إطار، فستحتوي جميع الخصائص على قيم خاصة بها، وإلا فسيتم تعيين جميع الخصائص إلى إعداداتها الافتراضية.
 
 يستخدم[`IsFrame`](./isframe/) للتحقق مما إذا كانت الفقرة عبارة عن إطار.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
@@ -63,5 +65,3 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

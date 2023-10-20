@@ -1,7 +1,9 @@
 ---
-title: Class XmlMapping
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.XmlMapping сорт. Указывает информацию которая используется для установления сопоставления между тегом структурированного документа Parent и элементом XML хранящимся в пользовательской части данных XML в документе.
+title: XmlMapping Class
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Markup.XmlMapping сорт. Указывает информацию которая используется для установления сопоставления между тегом структурированного документа Parent и элементом XML хранящимся в пользовательской части данных XML в документе на С#.
 type: docs
 weight: 4100
 url: /ru/net/aspose.words.markup/xmlmapping/
@@ -31,9 +33,9 @@ public class XmlMapping
 | Имя | Описание |
 | --- | --- |
 | [Delete](../../aspose.words.markup/xmlmapping/delete/)() | Удаляет сопоставление родительского структурированного документа с данными XML. |
-| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(CustomXmlPart, string, string) | Устанавливает сопоставление между тегом родительского структурированного документа и узлом XML пользовательской части данных XML. |
+| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(*[CustomXmlPart](../customxmlpart/), string, string*) | Устанавливает сопоставление между тегом родительского структурированного документа и узлом XML пользовательской части данных XML. |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить сопоставления XML для пользовательских частей XML.
 
@@ -70,5 +72,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 
 * пространство имен [Aspose.Words.Markup](../../aspose.words.markup/)
 * сборка [Aspose.Words](../../)
-
-

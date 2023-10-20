@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndArrowType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Stroke propiedad. Define la punta de flecha para el final de un trazo.
+linktitle: EndArrowType
+articleTitle: EndArrowType
+second_title: Aspose.Words para .NET
+description: Stroke EndArrowType propiedad. Define la punta de flecha para el final de un trazo en C#.
 type: docs
-weight: 70
+weight: 60
 url: /es/net/aspose.words.drawing/stroke/endarrowtype/
 ---
 ## Stroke.EndArrowType property
@@ -14,11 +16,11 @@ Define la punta de flecha para el final de un trazo.
 public ArrowType EndArrowType { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado esNone.
 
-### Ejemplos
+## Ejemplos
 
 Muestra para crear una variedad de formas.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowType](../../arrowtype/)
 * class [Stroke](../)
-* espacio de nombres [Aspose.Words.Drawing](../../stroke/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

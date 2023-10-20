@@ -1,7 +1,9 @@
 ---
-title: Class CustomPartCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.CustomPartCollection sınıf. Aşağıdakilerin bir koleksiyonunu temsil ederCustomPart nesneler.
+title: CustomPartCollection Class
+linktitle: CustomPartCollection
+articleTitle: CustomPartCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Markup.CustomPartCollection sınıf. Aşağıdakilerin bir koleksiyonunu temsil ederCustomPart nesneler C#'da.
 type: docs
 weight: 3910
 url: /tr/net/aspose.words.markup/custompartcollection/
@@ -33,17 +35,17 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.markup/custompartcollection/add/)(CustomPart) | Koleksiyona bir öğe ekler. |
+| [Add](../../aspose.words.markup/custompartcollection/add/)(*[CustomPart](../custompart/)*) | Koleksiyona bir öğe ekler. |
 | [Clear](../../aspose.words.markup/custompartcollection/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
 | [Clone](../../aspose.words.markup/custompartcollection/clone/)() | Bu koleksiyonun ve içindeki öğelerin derin bir kopyasını oluşturur. |
 | [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
-| [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(int) | Belirtilen dizindeki bir öğeyi kaldırır. |
+| [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(*int*) | Belirtilen dizindeki bir öğeyi kaldırır. |
 
-### Notlar
+## Notlar
 
 Normalde bu sınıfın örneklerini oluşturmanıza gerek yoktur. OOXML paketiyle ilgili özel bölümlerine şu adresten erişebilirsiniz:[`PackageCustomParts`](../../aspose.words/document/packagecustomparts/) mülk.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -89,5 +91,3 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 * class [CustomPart](../custompart/)
 * ad alanı [Aspose.Words.Markup](../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../)
-
-

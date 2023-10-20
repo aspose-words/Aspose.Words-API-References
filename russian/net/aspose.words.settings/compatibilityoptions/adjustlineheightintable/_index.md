@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.AdjustLineHeightInTable
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Добавить шаг линий сетки документа к линиям в ячейках таблицы.
+linktitle: AdjustLineHeightInTable
+articleTitle: AdjustLineHeightInTable
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions AdjustLineHeightInTable свойство. Добавить шаг линий сетки документа к линиям в ячейках таблицы на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.settings/compatibilityoptions/adjustlineheightintable/
@@ -17,7 +19,5 @@ public bool AdjustLineHeightInTable { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

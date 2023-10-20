@@ -1,7 +1,9 @@
 ---
-title: Class CustomPart
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Markup.CustomPart klass. Representerar en anpassad godtyckligt innehåll del som inte definieras av ISO/IEC 29500standarden.
+title: CustomPart Class
+linktitle: CustomPart
+articleTitle: CustomPart
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Markup.CustomPart klass. Representerar en anpassad godtyckligt innehåll del som inte definieras av ISO/IEC 29500standarden i C#.
 type: docs
 weight: 3900
 url: /sv/net/aspose.words.markup/custompart/
@@ -38,7 +40,7 @@ public class CustomPart
 | --- | --- |
 | [Clone](../../aspose.words.markup/custompart/clone/)() | Gör en "tillräckligt djup" kopia av objektet. Duplicerar inte byten för[`Data`](./data/) värde. |
 
-### Anmärkningar
+## Anmärkningar
 
 Den här klassen representerar en OOXML-del som är ett mål för en "okänd relation". Alla relationer som inte definieras inom ISO/IEC 29500 anses vara "okända relationer". Okända relationer är tillåtna i ett Office Open XML-dokument förutsatt att de överensstämmer med till riktlinjer för uppmärkning av relationer.
 
@@ -48,7 +50,7 @@ Aspose.Words gör även anpassade delar tur och retur och tillåter dessutom att
 
 Blanda inte ihop anpassade delar med anpassade XML-data. Använda sig av[`CustomXmlPart`](../customxmlpart/) om du behöver för att komma åt anpassade XML-data.
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
 
@@ -93,5 +95,3 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * namnutrymme [Aspose.Words.Markup](../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../)
-
-

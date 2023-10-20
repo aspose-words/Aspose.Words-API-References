@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Bytes
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. يمثل تقديرًا لعدد البايتات في المستند.
+linktitle: Bytes
+articleTitle: Bytes
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties Bytes ملكية. يمثل تقديرًا لعدد البايتات في المستند في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.properties/builtindocumentproperties/bytes/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/bytes/
 public int Bytes { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يقوم Microsoft Word دائمًا بتعيين هذه الخاصية.
 
 لا يقوم Aspose.Words بتحديث هذه الخاصية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند في فئة "المحتوى".
 
@@ -130,7 +132,5 @@ private class LineCounter
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

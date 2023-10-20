@@ -1,7 +1,9 @@
 ---
-title: Class PageSavingArgs
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.PageSavingArgs 班级. 提供数据PageSaving事件.
+title: PageSavingArgs Class
+linktitle: PageSavingArgs
+articleTitle: PageSavingArgs
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.PageSavingArgs 班级. 提供数据PageSaving事件 在 C#.
 type: docs
 weight: 5380
 url: /zh/net/aspose.words.saving/pagesavingargs/
@@ -31,7 +33,7 @@ public class PageSavingArgs
 | [PageIndex](../../aspose.words.saving/pagesavingargs/pageindex/) { get; } | 当前页面索引。 |
 | [PageStream](../../aspose.words.saving/pagesavingargs/pagestream/) { get; set; } | 允许指定文档页面将保存到的流。 |
 
-### 例子
+## 例子
 
 演示如何使用回调将文档逐页保存为 HTML。
 
@@ -89,5 +91,3 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

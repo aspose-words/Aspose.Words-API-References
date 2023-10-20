@@ -1,7 +1,9 @@
 ---
 title: VbaReferenceCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: VbaReferenceCollection свойство. Возвращает количество ссылок VBA в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: VbaReferenceCollection Count свойство. Возвращает количество ссылок VBA в коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.vba/vbareferencecollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.vba/vbareferencecollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить или удалить элемент из коллекции ссылок VBA.
 
@@ -88,7 +90,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 ### Смотрите также
 
 * class [VbaReferenceCollection](../)
-* пространство имен [Aspose.Words.Vba](../../vbareferencecollection/)
+* пространство имен [Aspose.Words.Vba](../../../aspose.words.vba/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Footnote.IsAuto
-second_title: Справочник по API Aspose.Words для .NET
-description: Footnote свойство. Содержит значение указывающее является ли это сноской с автоматической нумерацией или сноской с определяемой пользователем пользовательской ссылочной пометкой.
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: Aspose.Words для .NET
+description: Footnote IsAuto свойство. Содержит значение указывающее является ли это сноской с автоматической нумерацией или сноской с определяемой пользователем пользовательской ссылочной пометкой на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.notes/footnote/isauto/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.notes/footnote/isauto/
 public bool IsAuto { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 [`ReferenceMark`](../referencemark/)инициализируется пустой строкой, если`IsAuto` установлен в`ЛОЖЬ` .
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять и настраивать сноски.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 ### Смотрите также
 
 * class [Footnote](../)
-* пространство имен [Aspose.Words.Notes](../../footnote/)
+* пространство имен [Aspose.Words.Notes](../../../aspose.words.notes/)
 * сборка [Aspose.Words](../../../)
-
-

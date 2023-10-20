@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetText
-second_title: Справочник по API Aspose.Words для .NET
-description: CompositeNode метод. Получает текст этого узла и всех его дочерних элементов.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words для .NET
+description: CompositeNode GetText метод. Получает текст этого узла и всех его дочерних элементов на С#.
 type: docs
-weight: 130
+weight: 110
 url: /ru/net/aspose.words/compositenode/gettext/
 ---
 ## CompositeNode.GetText method
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/compositenode/gettext/
 public override string GetText()
 ```
 
-### Примечания
+## Примечания
 
 Возвращенная строка включает все управляющие и специальные символы, как описано в разделе[`ControlChar`](../../controlchar/).
 
-### Примеры
+## Примеры
 
 Показывает разницу между вызовом методов GetText и ToString на узле.
 
@@ -65,7 +67,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 ### Смотрите также
 
 * class [CompositeNode](../)
-* пространство имен [Aspose.Words](../../compositenode/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

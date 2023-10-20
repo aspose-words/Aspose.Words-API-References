@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.HyperlinkBase
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuiltInDocumentProperties eigendom. Gibt die Basiszeichenfolge an die zur Auswertung relativer Hyperlinks in diesem Dokument verwendet wird.
+linktitle: HyperlinkBase
+articleTitle: HyperlinkBase
+second_title: Aspose.Words für .NET
+description: BuiltInDocumentProperties HyperlinkBase eigendom. Gibt die Basiszeichenfolge an die zur Auswertung relativer Hyperlinks in diesem Dokument verwendet wird in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.properties/builtindocumentproperties/hyperlinkbase/
@@ -14,11 +16,11 @@ Gibt die Basiszeichenfolge an, die zur Auswertung relativer Hyperlinks in diesem
 public string HyperlinkBase { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Aspose.Words verwendet diese Eigenschaft nicht.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Basisteil eines Hyperlinks in den Eigenschaften des Dokuments gespeichert wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.HyperlinkBase.WorkingLink.docx");
 ### Siehe auch
 
 * class [BuiltInDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

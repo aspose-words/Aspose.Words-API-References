@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.EvenRowBanding
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyleCollection fast egendom. Får den jämna radbandsstilen.
+linktitle: EvenRowBanding
+articleTitle: EvenRowBanding
+second_title: Aspose.Words för .NET
+description: ConditionalStyleCollection EvenRowBanding fast egendom. Får den jämna radbandsstilen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/conditionalstylecollection/evenrowbanding/
@@ -14,7 +16,7 @@ Får den jämna radbandsstilen.
 public ConditionalStyle EvenRowBanding { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* namnutrymme [Aspose.Words](../../conditionalstylecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

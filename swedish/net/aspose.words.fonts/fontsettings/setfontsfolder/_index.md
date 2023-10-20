@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SetFontsFolder
-second_title: Aspose.Words för .NET API Referens
-description: FontSettings metod. Ställer in mappen där Aspose.Words söker efter TrueTypeteckensnitt vid rendering av dokument eller inbäddning av teckensnitt. Detta är en genväg tillSetFontsFolders för att endast ställa in en teckensnittskatalog.
+linktitle: SetFontsFolder
+articleTitle: SetFontsFolder
+second_title: Aspose.Words för .NET
+description: FontSettings SetFontsFolder metod. Ställer in mappen där Aspose.Words söker efter TrueTypeteckensnitt vid rendering av dokument eller inbäddning av teckensnitt. Detta är en genväg tillSetFontsFolders för att endast ställa in en teckensnittskatalog i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.fonts/fontsettings/setfontsfolder/
@@ -19,7 +21,7 @@ public void SetFontsFolder(string fontFolder, bool recursive)
 | fontFolder | String | Mappen som innehåller TrueType-teckensnitt. |
 | recursive | Boolean | True för att skanna de angivna mapparna efter teckensnitt rekursivt. |
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in en teckensnittskällkatalog.
 
@@ -78,7 +80,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ### Se även
 
 * class [FontSettings](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontsettings/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

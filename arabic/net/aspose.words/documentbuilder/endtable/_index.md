@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndTable
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إنهاء جدول في المستند.
+linktitle: EndTable
+articleTitle: EndTable
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder EndTable طريقة. إنهاء جدول في المستند في C#.
 type: docs
 weight: 250
 url: /ar/net/aspose.words/documentbuilder/endtable/
@@ -18,11 +20,11 @@ public Table EndTable()
 
 عقدة الجدول التي تم الانتهاء منها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يجب أن يتم استدعاء هذه الطريقة مرة واحدة فقط بعد ذلك[`EndRow`](../endrow/) كان يسمى. عند الاتصال، `EndTable` يحرك المؤشر خارج الخلية الحالية ليشير بعد الجدول مباشرة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق الخلايا باستخدام أداة إنشاء المستندات.
 
@@ -172,7 +174,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

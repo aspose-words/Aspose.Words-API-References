@@ -1,7 +1,9 @@
 ---
 title: Style.ListFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Paragraf stilinin liste biçimlendirme özelliklerine erişim sağlar.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words for .NET
+description: Style ListFormat mülk. Paragraf stilinin liste biçimlendirme özelliklerine erişim sağlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/style/listformat/
@@ -14,11 +16,11 @@ Paragraf stilinin liste biçimlendirme özelliklerine erişim sağlar.
 public ListFormat ListFormat { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca paragraf stilleri için geçerlidir. Diğer stil türleri için bu özellik şunu döndürür:`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Liste formatıyla paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
 
@@ -51,7 +53,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [Style](../)
-* ad alanı [Aspose.Words](../../style/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldGlossary.FieldGlossary
-second_title: Aspose.Words för .NET API Referens
-description: FieldGlossary byggare. Default_Constructor
+title: FieldGlossary
+linktitle: FieldGlossary
+articleTitle: FieldGlossary
+second_title: Aspose.Words för .NET
+description: FieldGlossary byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldglossary/fieldglossary/
@@ -17,7 +19,5 @@ public FieldGlossary()
 ### Se även
 
 * class [FieldGlossary](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldglossary/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

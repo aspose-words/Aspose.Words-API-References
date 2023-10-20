@@ -1,14 +1,16 @@
 ---
 title: StructuredDocumentTag.IsShowingPlaceholderText
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Bunun içeriğinin olup olmadığını belirtir. SDTyer tutucu text yi SDT içindeki normal metin içeriklerinin aksine içerecek şekilde yorumlanacaktır.
+linktitle: IsShowingPlaceholderText
+articleTitle: IsShowingPlaceholderText
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag IsShowingPlaceholderText mülk. Bunun içeriğinin olup olmadığını belirtir.SDTyer tutucu text yi SDT içindeki normal metin içeriklerinin aksine içerecek şekilde yorumlanacaktır C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.markup/structureddocumenttag/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTag.IsShowingPlaceholderText property
 
-Bunun içeriğinin olup olmadığını belirtir. **SDT**yer tutucu text 'yi (SDT içindeki normal metin içeriklerinin aksine) içerecek şekilde yorumlanacaktır.
+Bunun içeriğinin olup olmadığını belirtir.**SDT**yer tutucu text 'yi (SDT içindeki normal metin içeriklerinin aksine) içerecek şekilde yorumlanacaktır.
 
 olarak ayarlanmışsa`doğru` , bu durum bu belge açıldığında devam ettirilecektir (yer tutucu metni göstererek).
 
@@ -16,7 +18,7 @@ olarak ayarlanmışsa`doğru` , bu durum bu belge açıldığında devam ettiril
 public bool IsShowingPlaceholderText { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir yapı taşının içeriğinin, yapılandırılmış bir belge etiketi için özel yer tutucu metin olarak nasıl kullanılacağını gösterir.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

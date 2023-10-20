@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.NumberFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabelCollection eigendom. Ruft eine abChartNumberFormat Instanz die es ermöglicht das Zahlenformat für die Datenbeschriftungen der gesamten Serie festzulegen.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words für .NET
+description: ChartDataLabelCollection NumberFormat eigendom. Ruft eine abChartNumberFormat Instanz die es ermöglicht das Zahlenformat für die Datenbeschriftungen der gesamten Serie festzulegen in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
@@ -14,7 +16,7 @@ Ruft eine ab[`ChartNumberFormat`](../../chartnumberformat/) Instanz, die es erm�
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Datenbeschriftungen für eine Diagrammreihe aktiviert und konfiguriert werden.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartDataLabelCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

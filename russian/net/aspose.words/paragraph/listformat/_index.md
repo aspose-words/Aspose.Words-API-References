@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ListFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. Предоставляет доступ к свойствам форматирования списка абзаца.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words для .NET
+description: Paragraph ListFormat свойство. Предоставляет доступ к свойствам форматирования списка абзаца на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words/paragraph/listformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraph/listformat/
 public ListFormat ListFormat { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вывести все абзацы документа, являющиеся элементами списка.
 
@@ -47,7 +49,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [Paragraph](../)
-* пространство имен [Aspose.Words](../../paragraph/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.IgnoreTextBoxes
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImportFormatOptions eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt dass die Quellformatierung des Inhalts von Textfeldern ignoriert wird wennKeepSourceFormatting Modus wird verwendet. Der Standardwert istWAHR .
+linktitle: IgnoreTextBoxes
+articleTitle: IgnoreTextBoxes
+second_title: Aspose.Words für .NET
+description: ImportFormatOptions IgnoreTextBoxes eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt dass die Quellformatierung des Inhalts von Textfeldern ignoriert wird wennKeepSourceFormatting Modus wird verwendet. Der Standardwert istWAHR  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/importformatoptions/ignoretextboxes/
@@ -14,7 +16,7 @@ Ruft einen booleschen Wert ab oder legt diesen fest, der angibt, dass die Quellf
 public bool IgnoreTextBoxes { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie die Formatierung von Textfeldern beim Anhängen eines Dokuments verwalten.
 
@@ -63,7 +65,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.IgnoreTextBoxes.docx");
 ### Siehe auch
 
 * class [ImportFormatOptions](../)
-* namensraum [Aspose.Words](../../importformatoptions/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

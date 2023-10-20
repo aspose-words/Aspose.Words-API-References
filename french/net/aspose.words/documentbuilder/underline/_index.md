@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Underline
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder propriété. Obtient/définit le type de soulignement pour la police actuelle.
+linktitle: Underline
+articleTitle: Underline
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder Underline propriété. Obtient/définit le type de soulignement pour la police actuelle en C#.
 type: docs
 weight: 190
 url: /fr/net/aspose.words/documentbuilder/underline/
@@ -14,7 +16,7 @@ Obtient/définit le type de soulignement pour la police actuelle.
 public Underline Underline { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment formater le texte inséré par un générateur de documents.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertUnderline.docx");
 
 * enum [Underline](../../underline/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

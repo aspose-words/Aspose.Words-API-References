@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateLastPrintedProperty
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SaveOptions propriété. Obtient ou définit une valeur déterminant si leLastPrinted la propriété est mise à jour avant lenregistrement.
+linktitle: UpdateLastPrintedProperty
+articleTitle: UpdateLastPrintedProperty
+second_title: Aspose.Words pour .NET
+description: SaveOptions UpdateLastPrintedProperty propriété. Obtient ou définit une valeur déterminant si leLastPrinted la propriété est mise à jour avant lenregistrement en C#.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.saving/saveoptions/updatelastprintedproperty/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur déterminant si le[`LastPrinted`](../../../aspose
 public bool UpdateLastPrintedProperty { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment mettre à jour la propriété « CreatedTime » d’un document lors de l’enregistrement.
 
@@ -61,7 +63,5 @@ Assert.AreNotEqual(isUpdateLastPrintedProperty, new DateTime(2019, 12, 20) == do
 ### Voir également
 
 * class [SaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../saveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

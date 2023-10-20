@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.WarningCallback
-second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. Yükleme işlemi sırasında veri veya biçimlendirme kalitesinin kaybına neden olabilecek bir sorun algılandığında çağrılır.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words for .NET
+description: LoadOptions WarningCallback mülk. Yükleme işlemi sırasında veri veya biçimlendirme kalitesinin kaybına neden olabilecek bir sorun algılandığında çağrılır C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.loading/loadoptions/warningcallback/
@@ -14,7 +16,7 @@ Yükleme işlemi sırasında, veri veya biçimlendirme kalitesinin kaybına nede
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belge yükleme sırasında oluşan uyarıların nasıl yazdırılacağını ve saklanacağını gösterir.
 
@@ -59,7 +61,5 @@ private class DocumentLoadingWarningCallback : IWarningCallback
 
 * interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * class [LoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../loadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

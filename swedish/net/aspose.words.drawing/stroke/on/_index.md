@@ -1,9 +1,11 @@
 ---
 title: Stroke.On
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Definierar om sökvägen ska streckas.
+linktitle: On
+articleTitle: On
+second_title: Aspose.Words för .NET
+description: Stroke On fast egendom. Definierar om sökvägen ska streckas i C#.
 type: docs
-weight: 150
+weight: 140
 url: /sv/net/aspose.words.drawing/stroke/on/
 ---
 ## Stroke.On property
@@ -14,11 +16,11 @@ Definierar om sökvägen ska streckas.
 public bool On { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet för a[`Shape`](../../shape/) är`Sann`.
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar slagegenskaper.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ### Se även
 
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

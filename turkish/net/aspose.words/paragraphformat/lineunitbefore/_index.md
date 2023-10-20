@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineUnitBefore
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragraflardan önceki boşluk miktarını kılavuz çizgilerinde alır veya ayarlar.
+linktitle: LineUnitBefore
+articleTitle: LineUnitBefore
+second_title: Aspose.Words for .NET
+description: ParagraphFormat LineUnitBefore mülk. Paragraflardan önceki boşluk miktarını kılavuz çizgilerinde alır veya ayarlar C#'da.
 type: docs
 weight: 230
 url: /tr/net/aspose.words/paragraphformat/lineunitbefore/
@@ -14,7 +16,7 @@ Paragraflardan önceki boşluk miktarını (kılavuz çizgilerinde) alır veya a
 public double LineUnitBefore { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Paragraf aralığının ve girintilerin nasıl değiştirileceğini gösterir.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

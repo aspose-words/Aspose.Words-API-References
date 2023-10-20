@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTagRangeStart.StructuredDocumentTagRangeStart
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart inşaatçı. Yeni bir örneğini başlatır Yapılandırılmış belge etiketi aralığı başlangıcı class.
+title: StructuredDocumentTagRangeStart
+linktitle: StructuredDocumentTagRangeStart
+articleTitle: StructuredDocumentTagRangeStart
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagRangeStart inşaatçı. Yeni bir örneğini başlatırYapılandırılmış belge etiketi aralığı başlangıcı class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart constructor
 
-Yeni bir örneğini başlatır **Yapılandırılmış belge etiketi aralığı başlangıcı** class.
+Yeni bir örneğini başlatır**Yapılandırılmış belge etiketi aralığı başlangıcı** class.
 
 ```csharp
 public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
@@ -19,7 +21,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 | doc | DocumentBase | Sahibi belgesi. |
 | type | SdtType | SDT düğümünün türü. |
 
-### Notlar
+## Notlar
 
 Aşağıdaki SDT türleri oluşturulabilir:
 
@@ -33,7 +35,7 @@ Aşağıdaki SDT türleri oluşturulabilir:
 * RichText
 * PlainText
 
-### Örnekler
+## Örnekler
 
 Yapılandırılmış belge etiketinin ve içeriğinin nasıl oluşturulacağını/kaldırılacağını gösterir.
 
@@ -87,7 +89,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [SdtType](../../sdttype/)
 * class [StructuredDocumentTagRangeStart](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

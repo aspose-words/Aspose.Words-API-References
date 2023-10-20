@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.AlternateText
-second_title: Aspose.Words för .NET API Referens
-description: FieldGreetingLine fast egendom. Hämtar eller ställer in texten att inkludera i fältet om namnet är tomt.
+linktitle: AlternateText
+articleTitle: AlternateText
+second_title: Aspose.Words för .NET
+description: FieldGreetingLine AlternateText fast egendom. Hämtar eller ställer in texten att inkludera i fältet om namnet är tomt i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldgreetingline/alternatetext/
@@ -14,7 +16,7 @@ Hämtar eller ställer in texten att inkludera i fältet om namnet är tomt.
 public string AlternateText { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett HÄLSNINGSLINJE-fält.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Se även
 
 * class [FieldGreetingLine](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldgreetingline/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

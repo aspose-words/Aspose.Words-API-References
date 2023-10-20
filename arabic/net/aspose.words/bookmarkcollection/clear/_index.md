@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: BookmarkCollection طريقة. إزالة كافة الإشارات المرجعية من هذه المجموعة ومن المستند.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: BookmarkCollection Clear طريقة. إزالة كافة الإشارات المرجعية من هذه المجموعة ومن المستند في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/bookmarkcollection/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bookmarkcollection/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الإشارات المرجعية من مستند.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### أنظر أيضا
 
 * class [BookmarkCollection](../)
-* مساحة الاسم [Aspose.Words](../../bookmarkcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: ListCollection ملكية. الحصول على قائمة حسب الفهرس.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: ListCollection Item ملكية. الحصول على قائمة حسب الفهرس في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.lists/listcollection/item/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/listcollection/item/
 public List this[int index] { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من خصائص مستند المالك للقوائم.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listcollection/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

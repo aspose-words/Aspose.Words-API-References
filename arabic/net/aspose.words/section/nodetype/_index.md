@@ -1,7 +1,9 @@
 ---
 title: Section.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: Section ملكية. إرجاعSection .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: Section NodeType ملكية. إرجاعSection  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/section/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/section/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Section](../)
-* مساحة الاسم [Aspose.Words](../../section/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

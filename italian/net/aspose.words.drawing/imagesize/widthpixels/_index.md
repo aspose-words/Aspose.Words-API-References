@@ -1,7 +1,9 @@
 ---
 title: ImageSize.WidthPixels
-second_title: Aspose.Words per .NET API Reference
-description: ImageSize proprietà. Ottiene la larghezza dellimmagine in pixel.
+linktitle: WidthPixels
+articleTitle: WidthPixels
+second_title: Aspose.Words per .NET
+description: ImageSize WidthPixels proprietà. Ottiene la larghezza dellimmagine in pixel in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.drawing/imagesize/widthpixels/
@@ -14,7 +16,7 @@ Ottiene la larghezza dell'immagine in pixel.
 public int WidthPixels { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come leggere le proprietà di un'immagine in una forma.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### Guarda anche
 
 * class [ImageSize](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../imagesize/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

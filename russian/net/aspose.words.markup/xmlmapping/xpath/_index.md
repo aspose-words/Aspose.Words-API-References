@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.XPath
-second_title: Справочник по API Aspose.Words для .NET
-description: XmlMapping свойство. Возвращает выражение XPath которое оценивается для поиска пользовательского узла XML  сопоставленного с тегом родительского структурированного документа.
+linktitle: XPath
+articleTitle: XPath
+second_title: Aspose.Words для .NET
+description: XmlMapping XPath свойство. Возвращает выражение XPath которое оценивается для поиска пользовательского узла XML  сопоставленного с тегом родительского структурированного документа на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.markup/xmlmapping/xpath/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/xmlmapping/xpath/
 public string XPath { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить сопоставления XML для пользовательских частей XML.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Смотрите также
 
 * class [XmlMapping](../)
-* пространство имен [Aspose.Words.Markup](../../xmlmapping/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

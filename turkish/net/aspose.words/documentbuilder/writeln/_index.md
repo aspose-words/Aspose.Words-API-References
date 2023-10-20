@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.Writeln
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgeye bir dize ve paragraf sonu ekler.
+linktitle: Writeln
+articleTitle: Writeln
+second_title: Aspose.Words for .NET
+description: DocumentBuilder Writeln yöntem. Belgeye bir dize ve paragraf sonu ekler C#'da.
 type: docs
-weight: 670
+weight: 660
 url: /tr/net/aspose.words/documentbuilder/writeln/
 ---
-## Writeln(string) {#writeln_1}
+## Writeln(*string*) {#writeln_1}
 
 Belgeye bir dize ve paragraf sonu ekler.
 
@@ -18,11 +20,11 @@ public void Writeln(string text)
 | --- | --- | --- |
 | text | String | Belgeye eklenecek dize. |
 
-### Notlar
+## Notlar
 
 Geçerli yazı tipi ve paragraf formatı,[`Font`](../font/) Ve[`ParagraphFormat`](../paragraphformat/) özellikler kullanılır.
 
-### Örnekler
+## Örnekler
 
 Biçimlendirilmiş bir 2x2 tablonun nasıl oluşturulacağını gösterir.
 
@@ -68,7 +70,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -81,11 +83,11 @@ Belgeye paragraf sonu ekler.
 public void Writeln()
 ```
 
-### Notlar
+## Notlar
 
 Aramalar[`InsertParagraph`](../insertparagraph/).
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder'ı kullanarak bir belgede üstbilgilerin ve altbilgilerin nasıl oluşturulacağını gösterir.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

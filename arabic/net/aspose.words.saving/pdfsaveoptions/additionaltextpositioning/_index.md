@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.AdditionalTextPositioning
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. علامة تحدد ما إذا كان سيتم كتابة عوامل إضافية لتحديد موضع النص أم لا.
+linktitle: AdditionalTextPositioning
+articleTitle: AdditionalTextPositioning
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions AdditionalTextPositioning ملكية. علامة تحدد ما إذا كان سيتم كتابة عوامل إضافية لتحديد موضع النص أم لا في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/pdfsaveoptions/additionaltextpositioning/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/additionaltextpositioning/
 public bool AdditionalTextPositioning { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا`حقيقي` ، تتم كتابة عوامل تشغيل إضافية لتحديد موضع النص في ملف PDF الناتج. قد يساعد هذا في التغلب على مشكلات تحديد موضع النص غير الدقيق في بعض الطابعات. الجانب السلبي هو زيادة حجم مستند PDF.
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 أظهر كيفية كتابة عوامل تشغيل إضافية لتحديد موضع النص.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.AdditionalTextPositioning.pdf", saveOpti
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

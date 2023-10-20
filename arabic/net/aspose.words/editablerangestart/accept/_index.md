@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: EditableRangeStart طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: EditableRangeStart Accept طريقة. يقبل الزائر في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/editablerangestart/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `خطأ شنيع` إذا طلب الزائر إيقاف التعداد.
 
-### ملاحظات
+## ملاحظات
 
 المكالمات[`VisitEditableRangeStart`](../../documentvisitor/visiteditablerangestart/).
 
 لمزيد من المعلومات، راجع نمط تصميم الزائر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقييد حقوق تحرير النطاقات القابلة للتحرير لمجموعة/مستخدم محدد.
 
@@ -140,7 +142,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [EditableRangeStart](../)
-* مساحة الاسم [Aspose.Words](../../editablerangestart/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

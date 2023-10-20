@@ -1,7 +1,9 @@
 ---
 title: FieldXE.PageRangeBookmarkName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldXE propriété. Obtient ou définit le nom du signet qui marque une plage de pages insérée comme numéro de page de lentrée.
+linktitle: PageRangeBookmarkName
+articleTitle: PageRangeBookmarkName
+second_title: Aspose.Words pour .NET
+description: FieldXE PageRangeBookmarkName propriété. Obtient ou définit le nom du signet qui marque une plage de pages insérée comme numéro de page de lentrée en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/fieldxe/pagerangebookmarkname/
@@ -14,7 +16,7 @@ Obtient ou définit le nom du signet qui marque une plage de pages insérée com
 public string PageRangeBookmarkName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment spécifier les pages étendues d’un signet comme plage de pages pour une entrée de champ INDEX.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ### Voir également
 
 * class [FieldXE](../)
-* espace de noms [Aspose.Words.Fields](../../fieldxe/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

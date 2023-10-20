@@ -1,7 +1,9 @@
 ---
-title: Enum CommentDisplayMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Layout.CommentDisplayMode uppräkning. Anger renderingsläget för dokumentkommentarer.
+title: CommentDisplayMode Enum
+linktitle: CommentDisplayMode
+articleTitle: CommentDisplayMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Layout.CommentDisplayMode uppräkning. Anger renderingsläget för dokumentkommentarer i C#.
 type: docs
 weight: 3290
 url: /sv/net/aspose.words.layout/commentdisplaymode/
@@ -22,7 +24,7 @@ public enum CommentDisplayMode
 | ShowInBalloons | `1` | Återger dokumentkommentarer i ballonger i marginalen. Detta är standardvärdet. |
 | ShowInAnnotations | `2` | Återger dokumentkommentarer i annoteringar. Detta är endast tillgängligt för pdf-format. |
 
-### Exempel
+## Exempel
 
 Visar hur du visar kommentarer när du sparar ett dokument i ett renderat format.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Document.ShowCommentsInBalloons.pdf");
 
 * namnutrymme [Aspose.Words.Layout](../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../)
-
-

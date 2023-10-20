@@ -1,7 +1,9 @@
 ---
 title: MailMerge.FieldMergingCallback
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 财产. 在邮件合并过程中当文档中遇到邮件合并字段时发生
+linktitle: FieldMergingCallback
+articleTitle: FieldMergingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge FieldMergingCallback 财产. 在邮件合并过程中当文档中遇到邮件合并字段时发生 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.mailmerging/mailmerge/fieldmergingcallback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/mailmerge/fieldmergingcallback/
 public IFieldMergingCallback FieldMergingCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将存储在数据库 BLOB 字段中的图像插入到报表中。
 
@@ -127,7 +129,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * interface [IFieldMergingCallback](../../ifieldmergingcallback/)
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.GetHashCode
-second_title: Aspose.Words for .NET API Referansı
-description: TabStopCollection yöntem. Bu tür için karma işlevi görevi görür.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words for .NET
+description: TabStopCollection GetHashCode yöntem. Bu tür için karma işlevi görevi görür C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words/tabstopcollection/gethashcode/
@@ -14,7 +16,7 @@ Bu tür için karma işlevi görevi görür.
 public override int GetHashCode()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sekme durakları koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Ayrıca bakınız
 
 * class [TabStopCollection](../)
-* ad alanı [Aspose.Words](../../tabstopcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

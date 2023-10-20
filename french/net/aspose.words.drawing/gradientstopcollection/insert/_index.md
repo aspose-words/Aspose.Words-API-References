@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Insert
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GradientStopCollection méthode. Insère unGradientStop à la collection à un index spécifié.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words pour .NET
+description: GradientStopCollection Insert méthode. Insère unGradientStop à la collection à un index spécifié en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.drawing/gradientstopcollection/insert/
@@ -14,7 +16,7 @@ Insère un[`GradientStop`](../../gradientstop/) à la collection à un index sp�
 public GradientStop Insert(int index, GradientStop gradientStop)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des points de dégradé au remplissage dégradé.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* espace de noms [Aspose.Words.Drawing](../../gradientstopcollection/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

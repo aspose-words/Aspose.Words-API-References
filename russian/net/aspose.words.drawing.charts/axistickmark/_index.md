@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTickMark
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.AxisTickMark перечисление. Указывает возможные положения делений.
+title: AxisTickMark Enum
+linktitle: AxisTickMark
+articleTitle: AxisTickMark
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.AxisTickMark перечисление. Указывает возможные положения делений на С#.
 type: docs
 weight: 590
 url: /ru/net/aspose.words.drawing.charts/axistickmark/
@@ -23,7 +25,7 @@ public enum AxisTickMark
 | Outside | `2` | Указывает, что деления должны находиться за пределами области графика. |
 | None | `3` | Указывает, что делений быть не должно. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму со значениями даты и времени.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

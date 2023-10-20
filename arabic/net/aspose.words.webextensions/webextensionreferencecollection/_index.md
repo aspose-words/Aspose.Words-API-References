@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionReferenceCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WebExtensions.WebExtensionReferenceCollection فصل. يحدد قائمة بمراجع امتدادات الويب.
+title: WebExtensionReferenceCollection Class
+linktitle: WebExtensionReferenceCollection
+articleTitle: WebExtensionReferenceCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.WebExtensions.WebExtensionReferenceCollection فصل. يحدد قائمة بمراجع امتدادات الويب في C#.
 type: docs
 weight: 6810
 url: /ar/net/aspose.words.webextensions/webextensionreferencecollection/
@@ -27,10 +29,10 @@ public class WebExtensionReferenceCollection : BaseWebExtensionCollection<WebExt
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(WebExtensionReference) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*[WebExtensionReference](../webextensionreference/)*) |  |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) |  |
 
 ### أنظر أيضا
 
@@ -38,5 +40,3 @@ public class WebExtensionReferenceCollection : BaseWebExtensionCollection<WebExt
 * class [WebExtensionReference](../webextensionreference/)
 * مساحة الاسم [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../)
-
-

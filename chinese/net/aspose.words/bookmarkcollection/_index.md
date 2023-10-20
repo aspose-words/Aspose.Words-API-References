@@ -1,7 +1,9 @@
 ---
-title: Class BookmarkCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.BookmarkCollection 班级. 的集合Bookmark代表指定范围内的书签的对象
+title: BookmarkCollection Class
+linktitle: BookmarkCollection
+articleTitle: BookmarkCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.BookmarkCollection 班级. 的集合Bookmark代表指定范围内的书签的对象 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/bookmarkcollection/
@@ -29,11 +31,11 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 | --- | --- |
 | [Clear](../../aspose.words/bookmarkcollection/clear/)() | 从此集合和文档中删除所有书签。 |
 | [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | 返回一个枚举器对象。 |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(Bookmark) | 从文档中删除指定的书签。 |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(string) | 删除具有指定名称的书签。 |
-| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(int) | 删除指定索引处的书签。 |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(*[Bookmark](../bookmark/)*) | 从文档中删除指定的书签。 |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(*string*) | 删除具有指定名称的书签。 |
+| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(*int*) | 删除指定索引处的书签。 |
 
-### 例子
+## 例子
 
 展示如何添加书签并更新其内容。
 
@@ -124,5 +126,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * class [Bookmark](../bookmark/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

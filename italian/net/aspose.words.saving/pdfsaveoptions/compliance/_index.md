@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.Compliance
-second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Specifica il livello di conformità agli standard PDF per i documenti di output.
+linktitle: Compliance
+articleTitle: Compliance
+second_title: Aspose.Words per .NET
+description: PdfSaveOptions Compliance proprietà. Specifica il livello di conformità agli standard PDF per i documenti di output in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/pdfsaveoptions/compliance/
@@ -14,11 +16,11 @@ Specifica il livello di conformità agli standard PDF per i documenti di output.
 public PdfCompliance Compliance { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'impostazione predefinita èPdf17.
 
-### Esempi
+## Esempi
 
 Mostra come impostare il livello di conformità agli standard PDF dei documenti PDF salvati.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.Compliance.pdf", saveOptions);
 
 * enum [PdfCompliance](../../pdfcompliance/)
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

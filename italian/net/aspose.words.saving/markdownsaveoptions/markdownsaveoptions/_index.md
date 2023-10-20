@@ -1,7 +1,9 @@
 ---
-title: MarkdownSaveOptions.MarkdownSaveOptions
-second_title: Aspose.Words per .NET API Reference
-description: MarkdownSaveOptions costruttore. Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nellaMarkdown formato.
+title: MarkdownSaveOptions
+linktitle: MarkdownSaveOptions
+articleTitle: MarkdownSaveOptions
+second_title: Aspose.Words per .NET
+description: MarkdownSaveOptions costruttore. Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nellaMarkdown formato in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/markdownsaveoptions/markdownsaveoptions/
@@ -17,7 +19,5 @@ public MarkdownSaveOptions()
 ### Guarda anche
 
 * class [MarkdownSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../markdownsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

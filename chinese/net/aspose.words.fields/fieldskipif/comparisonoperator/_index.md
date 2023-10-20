@@ -1,7 +1,9 @@
 ---
 title: FieldSkipIf.ComparisonOperator
-second_title: Aspose.Words for .NET API 参考
-description: FieldSkipIf 财产. 获取或设置比较运算符
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldSkipIf ComparisonOperator 财产. 获取或设置比较运算符 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldskipif/comparisonoperator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldskipif/comparisonoperator/
 public string ComparisonOperator { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 SKIPIF 字段在邮件合并中跳过页面。
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ### 也可以看看
 
 * class [FieldSkipIf](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldskipif/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

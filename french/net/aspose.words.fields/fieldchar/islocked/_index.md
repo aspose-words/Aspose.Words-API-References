@@ -1,7 +1,9 @@
 ---
 title: FieldChar.IsLocked
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldChar propriété. Obtient ou définit si le champ parent est verrouillé ne doit pas recalculer son résultat.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words pour .NET
+description: FieldChar IsLocked propriété. Obtient ou définit si le champ parent est verrouillé ne doit pas recalculer son résultat en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldchar/islocked/
@@ -14,7 +16,7 @@ Obtient ou définit si le champ parent est verrouillé (ne doit pas recalculer s
 public bool IsLocked { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec un nœud FieldStart.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Voir également
 
 * class [FieldChar](../)
-* espace de noms [Aspose.Words.Fields](../../fieldchar/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

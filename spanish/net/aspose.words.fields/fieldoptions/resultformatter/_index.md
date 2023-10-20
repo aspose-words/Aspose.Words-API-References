@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.ResultFormatter
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldOptions propiedad. Permite controlar cómo se formatea el resultado del campo.
+linktitle: ResultFormatter
+articleTitle: ResultFormatter
+second_title: Aspose.Words para .NET
+description: FieldOptions ResultFormatter propiedad. Permite controlar cómo se formatea el resultado del campo en C#.
 type: docs
 weight: 180
 url: /es/net/aspose.words.fields/fieldoptions/resultformatter/
@@ -14,7 +16,7 @@ Permite controlar cómo se formatea el resultado del campo.
 public IFieldResultFormatter ResultFormatter { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar automáticamente un formato personalizado a los resultados de los campos a medida que se actualizan los campos.
 
@@ -152,7 +154,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * interface [IFieldResultFormatter](../../ifieldresultformatter/)
 * class [FieldOptions](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldoptions/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Drawing
-second_title: Aspose.Words für .NET-API-Referenz
-description: Der Aspose.Words.Drawing Der Namespace stellt Klassen bereit mit denen Zeichnungsobjekte erstellt und geändert werden können.
+linktitle: Aspose.Words.Drawing
+articleTitle: Aspose.Words.Drawing
+second_title: Aspose.Words für .NET
+description: DerAspose.Words.Drawing Der Namespace stellt Klassen bereit mit denen Zeichnungsobjekte erstellt und geändert werden können in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing/
 ---
-Der **Aspose.Words.Drawing** Der Namespace stellt Klassen bereit, mit denen Zeichnungsobjekte erstellt und geändert werden können.
+Der**Aspose.Words.Drawing** Der Namespace stellt Klassen bereit, mit denen Zeichnungsobjekte erstellt und geändert werden können.
 
 ## Klassen
 
@@ -63,5 +65,3 @@ Der **Aspose.Words.Drawing** Der Namespace stellt Klassen bereit, mit denen Zeic
 | [VerticalAlignment](./verticalalignment/) | Gibt die vertikale Ausrichtung einer schwebenden Form, eines Textrahmens oder einer schwebenden Tabelle an. |
 | [WrapSide](./wrapside/) | Gibt an, welche Seite(n) der Form oder des Bildes der Text umschließt. |
 | [WrapType](./wraptype/) | Gibt an, wie Text um eine Form oder ein Bild gewickelt wird. |
-
-

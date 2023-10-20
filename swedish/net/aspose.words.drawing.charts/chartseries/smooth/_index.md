@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Smooth
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeries fast egendom. Gör det möjligt att ange om linjen som förbinder punkterna på diagrammet ska jämnas ut med CatmullRom splines.
+linktitle: Smooth
+articleTitle: Smooth
+second_title: Aspose.Words för .NET
+description: ChartSeries Smooth fast egendom. Gör det möjligt att ange om linjen som förbinder punkterna på diagrammet ska jämnas ut med CatmullRom splines i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.drawing.charts/chartseries/smooth/
@@ -14,7 +16,7 @@ Gör det möjligt att ange om linjen som förbinder punkterna på diagrammet ska
 public bool Smooth { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Se även
 
 * class [ChartSeries](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

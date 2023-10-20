@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeColor
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bununla ilişkili uygulanan renk şemasındaki tema rengini alır veya ayarlar.Font nesne.
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words for .NET
+description: Font ThemeColor mülk. Bununla ilişkili uygulanan renk şemasındaki tema rengini alır veya ayarlar.Font nesne C#'da.
 type: docs
 weight: 460
 url: /tr/net/aspose.words/font/themecolor/
@@ -14,7 +16,7 @@ Bununla ilişkili uygulanan renk şemasındaki tema rengini alır veya ayarlar.[
 public ThemeColor ThemeColor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Temalı stilin nasıl oluşturulacağını ve kullanılacağını gösterir.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

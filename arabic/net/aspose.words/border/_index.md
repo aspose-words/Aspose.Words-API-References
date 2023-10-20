@@ -1,7 +1,9 @@
 ---
-title: Class Border
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Border فصل. يمثل حدود الكائن.
+title: Border Class
+linktitle: Border
+articleTitle: Border
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Border فصل. يمثل حدود الكائن في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/border/
@@ -34,15 +36,15 @@ public class Border : InternableComplexAttr
 | اسم | وصف |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/border/clearformatting/)() | إعادة تعيين خصائص الحدود إلى القيم الافتراضية. |
-| [Equals](../../aspose.words/border/equals/#equals)(Border) | تحديد ما إذا كان الحد المحدد مساويًا في القيمة للحد الحالي. |
-| override [Equals](../../aspose.words/border/equals/#equals_1)(object) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
+| [Equals](../../aspose.words/border/equals/#equals)(*Border*) | تحديد ما إذا كان الحد المحدد مساويًا في القيمة للحد الحالي. |
+| override [Equals](../../aspose.words/border/equals/#equals_1)(*object*) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
 | override [GetHashCode](../../aspose.words/border/gethashcode/)() | بمثابة دالة تجزئة لهذا النوع. |
 
-### ملاحظات
+## ملاحظات
 
 يمكن تطبيق الحدود على عناصر الوثيقة المختلفة بما في ذلك الفقرة، ، تشغيل النص داخل فقرة أو خلية جدول.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

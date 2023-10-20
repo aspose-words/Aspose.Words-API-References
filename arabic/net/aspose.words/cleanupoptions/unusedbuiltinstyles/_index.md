@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.UnusedBuiltinStyles
-second_title: Aspose.Words لمراجع .NET API
-description: CleanupOptions ملكية. يحدد ما هو غير مستخدمBuiltIn يجب إزالة الأنماط من المستند.
+linktitle: UnusedBuiltinStyles
+articleTitle: UnusedBuiltinStyles
+second_title: Aspose.Words لـ .NET
+description: CleanupOptions UnusedBuiltinStyles ملكية. يحدد ما هو غير مستخدمBuiltIn يجب إزالة الأنماط من المستند في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/cleanupoptions/unusedbuiltinstyles/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/cleanupoptions/unusedbuiltinstyles/
 public bool UnusedBuiltinStyles { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة جميع الأنماط المخصصة غير المستخدمة من المستند.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 ### أنظر أيضا
 
 * class [CleanupOptions](../)
-* مساحة الاسم [Aspose.Words](../../cleanupoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

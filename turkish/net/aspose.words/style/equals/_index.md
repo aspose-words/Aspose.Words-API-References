@@ -1,9 +1,11 @@
 ---
 title: Style.Equals
-second_title: Aspose.Words for .NET API Referansı
-description: Style yöntem. Belirtilen stille karşılaştırır. Stiller Istdler yalnızca yerleşik stiller için karşılaştırılır. Stillerin varsayılanları karşılaştırmaya dahil edilmez. Temel stil bağlantılı stil ve sonraki paragraf stili yinelemeli olarak karşılaştırılır.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words for .NET
+description: Style Equals yöntem. Belirtilen stille karşılaştırır. Stiller Istdler yalnızca yerleşik stiller için karşılaştırılır. Stillerin varsayılanları karşılaştırmaya dahil edilmez. Temel stil bağlantılı stil ve sonraki paragraf stili yinelemeli olarak karşılaştırılır C#'da.
 type: docs
-weight: 190
+weight: 180
 url: /tr/net/aspose.words/style/equals/
 ---
 ## Style.Equals method
@@ -14,7 +16,7 @@ Belirtilen stille karşılaştırır. Stiller Istd'ler yalnızca yerleşik still
 public bool Equals(Style style)
 ```
 
-### Örnekler
+## Örnekler
 
 Stil takma adlarının nasıl kullanılacağını gösterir.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Ayrıca bakınız
 
 * class [Style](../)
-* ad alanı [Aspose.Words](../../style/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

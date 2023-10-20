@@ -1,7 +1,9 @@
 ---
-title: Enum ResourceType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Loading.ResourceType uppräkning. Typ av laddad resurs.
+title: ResourceType Enum
+linktitle: ResourceType
+articleTitle: ResourceType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Loading.ResourceType uppräkning. Typ av laddad resurs i C#.
 type: docs
 weight: 3700
 url: /sv/net/aspose.words.loading/resourcetype/
@@ -22,7 +24,7 @@ public enum ResourceType
 | CssStyleSheet | `1` | Css-formatmall. |
 | Document | `2` | Dokument. |
 
-### Exempel
+## Exempel
 
 Visar hur man anpassar processen för att ladda externa resurser i ett dokument.
 
@@ -86,5 +88,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * namnutrymme [Aspose.Words.Loading](../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SetFontsFolders
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSettings método. Establece las carpetas donde Aspose.Words busca fuentes TrueType al renderizar documentos o incrustar fuentes.
+linktitle: SetFontsFolders
+articleTitle: SetFontsFolders
+second_title: Aspose.Words para .NET
+description: FontSettings SetFontsFolders método. Establece las carpetas donde Aspose.Words busca fuentes TrueType al renderizar documentos o incrustar fuentes en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.fonts/fontsettings/setfontsfolders/
@@ -19,13 +21,13 @@ public void SetFontsFolders(string[] fontsFolders, bool recursive)
 | fontsFolders | String[] | Una serie de carpetas que contienen fuentes TrueType. |
 | recursive | Boolean | True para escanear las carpetas especificadas en busca de fuentes de forma recursiva. |
 
-### Observaciones
+## Observaciones
 
 De forma predeterminada, Aspose.Words busca fuentes instaladas en el sistema.
 
 Establecer esta propiedad restablece el caché de todas las fuentes cargadas anteriormente.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar múltiples directorios de fuentes de fuentes.
 
@@ -85,7 +87,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ### Ver también
 
 * class [FontSettings](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontsettings/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

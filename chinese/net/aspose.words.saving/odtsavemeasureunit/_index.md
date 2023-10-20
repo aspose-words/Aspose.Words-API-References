@@ -1,7 +1,9 @@
 ---
-title: Enum OdtSaveMeasureUnit
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.OdtSaveMeasureUnit 枚举. 保存期间应用于可测量文档内容例如形状宽度等的指定测量单位
+title: OdtSaveMeasureUnit Enum
+linktitle: OdtSaveMeasureUnit
+articleTitle: OdtSaveMeasureUnit
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.OdtSaveMeasureUnit 枚举. 保存期间应用于可测量文档内容例如形状宽度等的指定测量单位 在 C#.
 type: docs
 weight: 5320
 url: /zh/net/aspose.words.saving/odtsavemeasureunit/
@@ -21,7 +23,7 @@ public enum OdtSaveMeasureUnit
 | Centimeters | `0` | 指定文档内容以厘米为单位保存。 |
 | Inches | `1` | 指定文档内容以英寸为单位保存。 |
 
-### 例子
+## 例子
 
 演示如何使用不同的测量单位来定义已保存 ODT 文档的样式参数。
 
@@ -45,5 +47,3 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

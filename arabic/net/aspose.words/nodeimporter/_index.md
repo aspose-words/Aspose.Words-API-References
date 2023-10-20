@@ -1,7 +1,9 @@
 ---
-title: Class NodeImporter
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.NodeImporter فصل. يسمح بإجراء الاستيراد المتكرر للعقد من مستند إلى آخر بكفاءة.
+title: NodeImporter Class
+linktitle: NodeImporter
+articleTitle: NodeImporter
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.NodeImporter فصل. يسمح بإجراء الاستيراد المتكرر للعقد من مستند إلى آخر بكفاءة في C#.
 type: docs
 weight: 4210
 url: /ar/net/aspose.words/nodeimporter/
@@ -20,16 +22,16 @@ public class NodeImporter
 
 | اسم | وصف |
 | --- | --- |
-| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | تهيئة مثيل جديد لـ`NodeImporter` فئة. |
-| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | تهيئة مثيل جديد لـ`NodeImporter` فئة. |
+| [NodeImporter](nodeimporter/#constructor)(*[DocumentBase](../documentbase/), [DocumentBase](../documentbase/), [ImportFormatMode](../importformatmode/)*) | تهيئة مثيل جديد لـ`NodeImporter` فئة. |
+| [NodeImporter](nodeimporter/#constructor_1)(*[DocumentBase](../documentbase/), [DocumentBase](../documentbase/), [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)*) | تهيئة مثيل جديد لـ`NodeImporter` فئة. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [ImportNode](../../aspose.words/nodeimporter/importnode/)(Node, bool) | يستورد عقدة من مستند إلى آخر. |
+| [ImportNode](../../aspose.words/nodeimporter/importnode/)(*[Node](../node/), bool*) | يستورد عقدة من مستند إلى آخر. |
 
-### ملاحظات
+## ملاحظات
 
 يوفر Aspose.Words وظيفة لسهولة نسخ ونقل fragments بين مستندات Microsoft Word. يُعرف هذا باسم "استيراد العقد". قبل أن تتمكن من إدراج جزء من مستند إلى آخر، تحتاج إلى "استيراده". يؤدي الاستيراد إلى إنشاء نسخة عميقة من العقدة الأصلية، جاهزة للإدراج في مستند الوجهة .
 
@@ -43,7 +45,7 @@ public class NodeImporter
 
 ال`NodeImporter`تشبه الفئة السياق الذي يحتوي على "جداول الترجمة" أثناء الاستيراد. إنه يترجم بشكل صحيح بين الأنماط والقوائم في المستندات المصدر و الوجهة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج محتويات مستند واحد في إشارة مرجعية في مستند آخر.
 
@@ -112,5 +114,3 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

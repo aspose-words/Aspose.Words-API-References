@@ -1,7 +1,9 @@
 ---
 title: VbaReferenceCollection.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: VbaReferenceCollection طريقة. إزالة التواجد الأول لعنصر محددVbaReference عنصر من المجموعة.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: VbaReferenceCollection Remove طريقة. إزالة التواجد الأول لعنصر محددVbaReference عنصر من المجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.vba/vbareferencecollection/remove/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.vba/vbareferencecollection/remove/
 public void Remove(VbaReference item)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على/إزالة عنصر من المجموعة المرجعية لـ VBA.
 
@@ -89,7 +91,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 
 * class [VbaReference](../../vbareference/)
 * class [VbaReferenceCollection](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbareferencecollection/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
-
-

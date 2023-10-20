@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsHeader
-second_title: Aspose.Words für .NET-API-Referenz
-description: HeaderFooter eigendom. True wenn dies der Fall istHeaderFooter Objekt ist ein Header.
+linktitle: IsHeader
+articleTitle: IsHeader
+second_title: Aspose.Words für .NET
+description: HeaderFooter IsHeader eigendom. True wenn dies der Fall istHeaderFooter Objekt ist ein Header in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/headerfooter/isheader/
@@ -14,7 +16,7 @@ True, wenn dies der Fall ist[`HeaderFooter`](../) Objekt ist ein Header.
 public bool IsHeader { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Kopf- und Fußzeile erstellt wird.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### Siehe auch
 
 * class [HeaderFooter](../)
-* namensraum [Aspose.Words](../../headerfooter/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

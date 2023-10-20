@@ -1,7 +1,9 @@
 ---
 title: SubDocument.NodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: SubDocument свойство. ВозвращаетSubDocument .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words для .NET
+description: SubDocument NodeType свойство. ВозвращаетSubDocument  на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/subdocument/nodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/subdocument/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к вложенному документу составного документа.
 
@@ -32,7 +34,5 @@ Assert.False(subDocument.IsComposite);
 
 * enum [NodeType](../../nodetype/)
 * class [SubDocument](../)
-* пространство имен [Aspose.Words](../../subdocument/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.CleanupOptions
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge mülk. Adresmektup birleştirme sırasında hangi öğelerin kaldırılması gerektiğini belirten bir dizi işaret alır veya ayarlar.
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: Aspose.Words for .NET
+description: MailMerge CleanupOptions mülk. Adresmektup birleştirme sırasında hangi öğelerin kaldırılması gerektiğini belirten bir dizi işaret alır veya ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
@@ -14,7 +16,7 @@ Adres-mektup birleştirme sırasında hangi öğelerin kaldırılması gerektiğ
 public MailMergeCleanupOptions CleanupOptions { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirmenin birleştirme çıktı belgesinden oluşturabileceği boş paragrafların nasıl kaldırılacağını gösterir.
 
@@ -87,7 +89,5 @@ else
 
 * enum [MailMergeCleanupOptions](../../mailmergecleanupoptions/)
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

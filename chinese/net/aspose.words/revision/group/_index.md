@@ -1,7 +1,9 @@
 ---
 title: Revision.Group
-second_title: Aspose.Words for .NET API 参考
-description: Revision 财产. 获取修订组退货无效的如果修订版不属于任何组
+linktitle: Group
+articleTitle: Group
+second_title: 用于 .NET 的 Aspose.Words
+description: Revision Group 财产. 获取修订组退货无效的如果修订版不属于任何组 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/revision/group/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/revision/group/
 public RevisionGroup Group { get; }
 ```
 
-### 评论
+## 评论
 
 如果修订类型为，则修订没有组StyleDefinitionChange或 如果修订版本不再存在于文档上下文中（接受/拒绝）。
 
-### 例子
+## 例子
 
 展示如何处理文档中的修订。
 
@@ -102,7 +104,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [RevisionGroup](../../revisiongroup/)
 * class [Revision](../)
-* 命名空间 [Aspose.Words](../../revision/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

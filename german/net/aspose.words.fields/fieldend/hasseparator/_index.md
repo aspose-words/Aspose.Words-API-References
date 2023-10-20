@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.HasSeparator
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldEnd eigendom. Gibt zurückWAHRwenn dieses Feld ein Trennzeichen hat.
+linktitle: HasSeparator
+articleTitle: HasSeparator
+second_title: Aspose.Words für .NET
+description: FieldEnd HasSeparator eigendom. Gibt zurückWAHRwenn dieses Feld ein Trennzeichen hat in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldend/hasseparator/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR`wenn dieses Feld ein Trennzeichen hat.
 public bool HasSeparator { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
 
@@ -117,7 +119,5 @@ public class FieldVisitor : DocumentVisitor
 ### Siehe auch
 
 * class [FieldEnd](../)
-* namensraum [Aspose.Words.Fields](../../fieldend/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Id
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag proprietà. Specifica un ID numerico persistente univoco di sola lettura per questo SDT.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag Id proprietà. Specifica un ID numerico persistente univoco di sola lettura per questoSDT in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.markup/structureddocumenttag/id/
 ---
 ## StructuredDocumentTag.Id property
 
-Specifica un ID numerico persistente univoco di sola lettura per questo **SDT**.
+Specifica un ID numerico persistente univoco di sola lettura per questo**SDT**.
 
 ```csharp
 public int Id { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'attributo ID deve seguire queste regole:
 
@@ -24,7 +26,7 @@ L'attributo ID deve seguire queste regole:
 * Durante l'SDT autonomoINodeCloningListener) operazione verrà generato un nuovo ID univoco per il nodo SDT clonato.
 * Se Id non è specificato nel documento di origine, al nodo SDT verrà assegnato un nuovo identificatore univoco quando il documento viene caricato.
 
-### Esempi
+## Esempi
 
 Mostra come creare un tag di documento strutturato in una casella di testo semplice e modificarne l'aspetto.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Guarda anche
 
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

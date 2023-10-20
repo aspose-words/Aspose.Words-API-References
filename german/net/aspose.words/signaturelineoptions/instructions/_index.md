@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.Instructions
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignatureLineOptions eigendom. Ruft Anweisungen an den Unterzeichner ab oder legt diese fest die beim Signieren der Signaturzeile angezeigt werden. Der Standardwert für diese Eigenschaft ist leerer String Empty.
+linktitle: Instructions
+articleTitle: Instructions
+second_title: Aspose.Words für .NET
+description: SignatureLineOptions Instructions eigendom. Ruft Anweisungen an den Unterzeichner ab oder legt diese fest die beim Signieren der Signaturzeile angezeigt werden. Der Standardwert für diese Eigenschaft istleerer String Empty in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/signaturelineoptions/instructions/
 ---
 ## SignatureLineOptions.Instructions property
 
-Ruft Anweisungen an den Unterzeichner ab oder legt diese fest, die beim Signieren der Signaturzeile angezeigt werden. Der Standardwert für diese Eigenschaft ist **leerer String** (Empty).
+Ruft Anweisungen an den Unterzeichner ab oder legt diese fest, die beim Signieren der Signaturzeile angezeigt werden. Der Standardwert für diese Eigenschaft ist**leerer String** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument mit einem persönlichen Zertifikat und einer Signaturzeile signiert.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Siehe auch
 
 * class [SignatureLineOptions](../)
-* namensraum [Aspose.Words](../../signaturelineoptions/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

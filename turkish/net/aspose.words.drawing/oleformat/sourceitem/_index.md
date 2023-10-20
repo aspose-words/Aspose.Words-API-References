@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SourceItem
-second_title: Aspose.Words for .NET API Referansı
-description: OleFormat mülk. Kaynak dosyanın bağlanan kısmını tanımlamak için kullanılan bir dizeyi alır veya ayarlar.
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: Aspose.Words for .NET
+description: OleFormat SourceItem mülk. Kaynak dosyanın bağlanan kısmını tanımlamak için kullanılan bir dizeyi alır veya ayarlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.drawing/oleformat/sourceitem/
@@ -14,13 +16,13 @@ Kaynak dosyanın bağlanan kısmını tanımlamak için kullanılan bir dizeyi a
 public string SourceItem { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer boş bir dizedir.
 
 Örneğin, kaynak dosya bir Microsoft Excel çalışma kitabıysa,`SourceItem` OLE nesnesi çalışma sayfasından yalnızca birkaç hücre içeriyorsa, özelliği "Çalışma Kitabı1!R3C1:R4C2" değerini döndürebilir.
 
-### Örnekler
+## Örnekler
 
 Bağlı ve bağlantısız OLE nesnelerinin nasıl ekleneceğini gösterir.
 
@@ -70,7 +72,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Ayrıca bakınız
 
 * class [OleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../oleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

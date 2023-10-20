@@ -1,7 +1,9 @@
 ---
-title: Class ChmLoadOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Loading.ChmLoadOptions klas. Ermöglicht die Angabe zusätzlicher Optionen beim Laden eines CHMDokuments in einDocument Objekt.
+title: ChmLoadOptions Class
+linktitle: ChmLoadOptions
+articleTitle: ChmLoadOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Loading.ChmLoadOptions klas. Ermöglicht die Angabe zusätzlicher Optionen beim Laden eines CHMDokuments in einDocument Objekt in C#.
 type: docs
 weight: 3570
 url: /de/net/aspose.words.loading/chmloadoptions/
@@ -48,12 +50,10 @@ public class ChmLoadOptions : LoadOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### Siehe auch
 
 * class [LoadOptions](../loadoptions/)
 * namensraum [Aspose.Words.Loading](../../aspose.words.loading/)
 * Montage [Aspose.Words](../../)
-
-

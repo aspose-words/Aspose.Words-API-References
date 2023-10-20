@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.HyperlinkBase
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. يحدد السلسلة الأساسية المستخدمة لتقييم الارتباطات التشعبية النسبية في هذا المستند.
+linktitle: HyperlinkBase
+articleTitle: HyperlinkBase
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties HyperlinkBase ملكية. يحدد السلسلة الأساسية المستخدمة لتقييم الارتباطات التشعبية النسبية في هذا المستند في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.properties/builtindocumentproperties/hyperlinkbase/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/hyperlinkbase/
 public string HyperlinkBase { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 Aspose.Words لا يستخدم هذه الخاصية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخزين الجزء الأساسي من الارتباط التشعبي في خصائص المستند.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.HyperlinkBase.WorkingLink.docx");
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

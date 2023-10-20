@@ -1,12 +1,14 @@
 ---
 title: IFieldResultFormatter.Format
-second_title: Aspose.Words for .NET API 参考
-description: IFieldResultFormatter 方法. 当 Aspose.Words 应用大写格式切换时调用即  Upper.
+linktitle: Format
+articleTitle: Format
+second_title: 用于 .NET 的 Aspose.Words
+description: IFieldResultFormatter Format 方法. 当 Aspose.Words 应用大写格式切换时调用即  Upper 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/ifieldresultformatter/format/
 ---
-## Format(string, GeneralFormat) {#format_1}
+## Format(*string, [GeneralFormat](../../generalformat/)*) {#format_1}
 
 当 Aspose.Words 应用大写格式切换时调用，即 \* Upper.
 
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/ifieldresultformatter/format/
 public string Format(string value, GeneralFormat format)
 ```
 
-### 评论
+## 评论
 
 实现应该返回`无效的`指示应应用默认格式。
 
-### 例子
+## 例子
 
 展示如何在更新字段时自动将自定义格式应用于字段结果。
 
@@ -156,12 +158,12 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* 命名空间 [Aspose.Words.Fields](../../ifieldresultformatter/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Format(double, GeneralFormat) {#format}
+## Format(*double, [GeneralFormat](../../generalformat/)*) {#format}
 
 当 Aspose.Words 应用数字格式切换时调用，即 \* Ordinal.
 
@@ -169,11 +171,11 @@ private class FieldResultFormatter : IFieldResultFormatter
 public string Format(double value, GeneralFormat format)
 ```
 
-### 评论
+## 评论
 
 实现应该返回`无效的`指示应应用默认格式。
 
-### 例子
+## 例子
 
 展示如何在更新字段时自动将自定义格式应用于字段结果。
 
@@ -311,7 +313,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [GeneralFormat](../../generalformat/)
 * interface [IFieldResultFormatter](../)
-* 命名空间 [Aspose.Words.Fields](../../ifieldresultformatter/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

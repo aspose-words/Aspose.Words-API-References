@@ -1,7 +1,9 @@
 ---
-title: LanguagePreferences.LanguagePreferences
-second_title: Aspose.Words för .NET API Referens
-description: LanguagePreferences byggare. Default_Constructor
+title: LanguagePreferences
+linktitle: LanguagePreferences
+articleTitle: LanguagePreferences
+second_title: Aspose.Words för .NET
+description: LanguagePreferences byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.loading/languagepreferences/languagepreferences/
@@ -17,7 +19,5 @@ public LanguagePreferences()
 ### Se även
 
 * class [LanguagePreferences](../)
-* namnutrymme [Aspose.Words.Loading](../../languagepreferences/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

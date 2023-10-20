@@ -1,7 +1,9 @@
 ---
-title: Class DocumentSavingArgs
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.DocumentSavingArgs 班级. 参数传递到Notify.
+title: DocumentSavingArgs Class
+linktitle: DocumentSavingArgs
+articleTitle: DocumentSavingArgs
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.DocumentSavingArgs 班级. 参数传递到Notify 在 C#.
 type: docs
 weight: 4950
 url: /zh/net/aspose.words.saving/documentsavingargs/
@@ -26,5 +28,3 @@ public sealed class DocumentSavingArgs
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

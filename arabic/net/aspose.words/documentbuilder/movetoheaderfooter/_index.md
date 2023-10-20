@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToHeaderFooter
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. ينقل المؤشر إلى بداية الرأس أو التذييل في القسم الحالي.
+linktitle: MoveToHeaderFooter
+articleTitle: MoveToHeaderFooter
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder MoveToHeaderFooter طريقة. ينقل المؤشر إلى بداية الرأس أو التذييل في القسم الحالي في C#.
 type: docs
-weight: 550
+weight: 540
 url: /ar/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
@@ -18,7 +20,7 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 | --- | --- | --- |
 | headerFooterType | HeaderFooterType | يحدد الرأس أو التذييل للانتقال إليه. |
 
-### ملاحظات
+## ملاحظات
 
 بعد نقل المؤشر إلى رأس أو تذييل الصفحة، يمكنك استخدام بقية[`DocumentBuilder`](../) طرق لتعديل محتويات الرأس أو التذييل.
 
@@ -28,7 +30,7 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 
 يستخدم[`MoveToSection`](../movetosection/) للانتقال من الرأس إلى النص الرئيسي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة واستخدامها كعلامة مائية.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

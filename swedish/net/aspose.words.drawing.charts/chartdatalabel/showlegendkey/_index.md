@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowLegendKey
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabel fast egendom. Tillåter att ange om förklaringsnyckeln ska visas för dataetiketterna på ett diagram. Standardvärdet ärfalsk .
+linktitle: ShowLegendKey
+articleTitle: ShowLegendKey
+second_title: Aspose.Words för .NET
+description: ChartDataLabel ShowLegendKey fast egendom. Tillåter att ange om förklaringsnyckeln ska visas för dataetiketterna på ett diagram. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/showlegendkey/
@@ -14,7 +16,7 @@ Tillåter att ange om förklaringsnyckeln ska visas för dataetiketterna på ett
 public bool ShowLegendKey { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Se även
 
 * class [ChartDataLabel](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

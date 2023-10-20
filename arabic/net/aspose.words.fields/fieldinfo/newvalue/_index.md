@@ -1,7 +1,9 @@
 ---
 title: FieldInfo.NewValue
-second_title: Aspose.Words لمراجع .NET API
-description: FieldInfo ملكية. الحصول على قيمة اختيارية أو تعيينها لتحديث الخاصية.
+linktitle: NewValue
+articleTitle: NewValue
+second_title: Aspose.Words لـ .NET
+description: FieldInfo NewValue ملكية. الحصول على قيمة اختيارية أو تعيينها لتحديث الخاصية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldinfo/newvalue/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldinfo/newvalue/
 public string NewValue { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع حقول INFO.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.INFO.docx");
 ### أنظر أيضا
 
 * class [FieldInfo](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldinfo/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

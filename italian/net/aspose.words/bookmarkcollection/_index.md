@@ -1,7 +1,9 @@
 ---
-title: Class BookmarkCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.BookmarkCollection classe. Una raccolta diBookmark oggetti che rappresentano i segnalibri nellintervallo specificato.
+title: BookmarkCollection Class
+linktitle: BookmarkCollection
+articleTitle: BookmarkCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.BookmarkCollection classe. Una raccolta diBookmark oggetti che rappresentano i segnalibri nellintervallo specificato in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/bookmarkcollection/
@@ -29,11 +31,11 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 | --- | --- |
 | [Clear](../../aspose.words/bookmarkcollection/clear/)() | Rimuove tutti i segnalibri da questa raccolta e dal documento. |
 | [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | Restituisce un oggetto enumeratore. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(Bookmark) | Rimuove il segnalibro specificato dal documento. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(string) | Rimuove un segnalibro con il nome specificato. |
-| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(int) | Rimuove un segnalibro all'indice specificato. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(*[Bookmark](../bookmark/)*) | Rimuove il segnalibro specificato dal documento. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(*string*) | Rimuove un segnalibro con il nome specificato. |
+| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(*int*) | Rimuove un segnalibro all'indice specificato. |
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
@@ -124,5 +126,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * class [Bookmark](../bookmark/)
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

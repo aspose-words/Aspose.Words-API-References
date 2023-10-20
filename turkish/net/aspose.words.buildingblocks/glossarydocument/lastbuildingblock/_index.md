@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.LastBuildingBlock
-second_title: Aspose.Words for .NET API Referansı
-description: GlossaryDocument mülk. Sözlük belgesindeki son yapı taşını alır.
+linktitle: LastBuildingBlock
+articleTitle: LastBuildingBlock
+second_title: Aspose.Words for .NET
+description: GlossaryDocument LastBuildingBlock mülk. Sözlük belgesindeki son yapı taşını alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.buildingblocks/glossarydocument/lastbuildingblock/
@@ -14,11 +16,11 @@ Sözlük belgesindeki son yapı taşını alır.
 public BuildingBlock LastBuildingBlock { get; }
 ```
 
-### Notlar
+## Notlar
 
 İadeler`hükümsüz` mevcut yapı taşı yoksa.
 
-### Örnekler
+## Örnekler
 
 Bir sözlük belgesinde yapı taşlarına erişmenin yollarını gösterir.
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [GlossaryDocument](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

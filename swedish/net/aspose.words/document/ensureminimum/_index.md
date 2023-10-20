@@ -1,9 +1,11 @@
 ---
 title: Document.EnsureMinimum
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Om dokumentet inte innehåller några avsnitt skapas ett avsnitt med ett stycke.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words för .NET
+description: Document EnsureMinimum metod. Om dokumentet inte innehåller några avsnitt skapas ett avsnitt med ett stycke i C#.
 type: docs
-weight: 600
+weight: 580
 url: /sv/net/aspose.words/document/ensureminimum/
 ---
 ## Document.EnsureMinimum method
@@ -14,7 +16,7 @@ Om dokumentet inte innehåller några avsnitt skapas ett avsnitt med ett stycke.
 public void EnsureMinimum()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man säkerställer att ett dokument innehåller den minimala uppsättning noder som krävs för att redigera dess innehåll.
 
@@ -52,7 +54,5 @@ Assert.AreEqual(NodeType.Paragraph, nodes[2].NodeType);
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

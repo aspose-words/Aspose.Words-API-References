@@ -1,7 +1,9 @@
 ---
-title: Class Run
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Run сорт. Представляет набор символов с одинаковым форматированием шрифта.
+title: Run Class
+linktitle: Run
+articleTitle: Run
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Run сорт. Представляет набор символов с одинаковым форматированием шрифта на С#.
 type: docs
 weight: 4820
 url: /ru/net/aspose.words/run/
@@ -20,8 +22,8 @@ public class Run : Inline
 
 | Имя | Описание |
 | --- | --- |
-| [Run](run/#constructor)(DocumentBase) | Инициализирует новый экземпляр`Run` класс. |
-| [Run](run/#constructor_1)(DocumentBase, string) | Инициализирует новый экземпляр **Бегать** класс. |
+| [Run](run/#constructor)(*[DocumentBase](../documentbase/)*) | Инициализирует новый экземпляр`Run` класс. |
+| [Run](run/#constructor_1)(*[DocumentBase](../documentbase/), string*) | Инициализирует новый экземпляр**Бегать** класс. |
 
 ## Характеристики
 
@@ -50,24 +52,24 @@ public class Run : Inline
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words/run/accept/)(DocumentVisitor) | Принимает посетителя. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
+| override [Accept](../../aspose.words/run/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Принимает посетителя. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Создает дубликат узла. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Получает первого предка указанного типа объекта. |
 | override [GetText](../../aspose.words/run/gettext/)() | Получает текст выполнения. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
 | [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
-### Примечания
+## Примечания
 
 Весь текст документа хранится в виде фрагментов текста.
 
 `Run` может быть только ребенком[`Paragraph`](../paragraph/) или встроенный[`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/).
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать фрагмент текста, используя его свойство шрифта.
 
@@ -182,5 +184,3 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 * class [Inline](../inline/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

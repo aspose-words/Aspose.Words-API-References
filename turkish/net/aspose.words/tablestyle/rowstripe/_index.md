@@ -1,7 +1,9 @@
 ---
 title: TableStyle.RowStripe
-second_title: Aspose.Words for .NET API Referansı
-description: TableStyle mülk. Stil tek/çift satır bantlamayı belirttiğinde bantlamaya dahil edilecek satır sayısını alır veya ayarlar.
+linktitle: RowStripe
+articleTitle: RowStripe
+second_title: Aspose.Words for .NET
+description: TableStyle RowStripe mülk. Stil tek/çift satır bantlamayı belirttiğinde bantlamaya dahil edilecek satır sayısını alır veya ayarlar C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/tablestyle/rowstripe/
@@ -14,7 +16,7 @@ Stil tek/çift satır bantlamayı belirttiğinde bantlamaya dahil edilecek satı
 public int RowStripe { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Satırlar arasında geçiş yapan koşullu tablo stillerinin nasıl oluşturulacağını gösterir.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");
 ### Ayrıca bakınız
 
 * class [TableStyle](../)
-* ad alanı [Aspose.Words](../../tablestyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

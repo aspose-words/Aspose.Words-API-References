@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.ReferenceOffset
-second_title: Aspose.Words per .NET API Reference
-description: MustacheTag proprietà. Ottiene la posizione iniziale in base zero del tag dallinizio del fileReferenceRun .
+linktitle: ReferenceOffset
+articleTitle: ReferenceOffset
+second_title: Aspose.Words per .NET
+description: MustacheTag ReferenceOffset proprietà. Ottiene la posizione iniziale in base zero del tag dallinizio del fileReferenceRun  in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.mailmerging/mustachetag/referenceoffset/
@@ -14,7 +16,7 @@ Ottiene la posizione iniziale in base zero del tag dall'inizio del file[`Referen
 public int ReferenceOffset { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le etichette dei baffi.
 
@@ -41,7 +43,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 ### Guarda anche
 
 * class [MustacheTag](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mustachetag/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

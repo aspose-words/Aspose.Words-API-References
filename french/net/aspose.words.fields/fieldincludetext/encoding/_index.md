@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.Encoding
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldIncludeText propriété. Obtient ou définit lencodage appliqué aux données dans le fichier référencé.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words pour .NET
+description: FieldIncludeText Encoding propriété. Obtient ou définit lencodage appliqué aux données dans le fichier référencé en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldincludetext/encoding/
@@ -14,7 +16,7 @@ Obtient ou définit l'encodage appliqué aux données dans le fichier référenc
 public string Encoding { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un champ INCLUDETEXT et définir ses propriétés.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Voir également
 
 * class [FieldIncludeText](../)
-* espace de noms [Aspose.Words.Fields](../../fieldincludetext/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

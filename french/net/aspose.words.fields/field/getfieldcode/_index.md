@@ -1,7 +1,9 @@
 ---
 title: Field.GetFieldCode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Field méthode. Renvoie le texte entre le début du champ et le séparateur de champ ou la fin du champ sil ny a pas de séparateur. Le code de champ et le résultat du champ des champs enfants sont inclus.
+linktitle: GetFieldCode
+articleTitle: GetFieldCode
+second_title: Aspose.Words pour .NET
+description: Field GetFieldCode méthode. Renvoie le texte entre le début du champ et le séparateur de champ ou la fin du champ sil ny a pas de séparateur. Le code de champ et le résultat du champ des champs enfants sont inclus en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.fields/field/getfieldcode/
@@ -14,7 +16,7 @@ Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin 
 public string GetFieldCode()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ dans un document à l'aide d'un code de champ.
 
@@ -53,12 +55,12 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### Voir également
 
 * class [Field](../)
-* espace de noms [Aspose.Words.Fields](../../field/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## GetFieldCode(bool) {#getfieldcode_1}
+## GetFieldCode(*bool*) {#getfieldcode_1}
 
 Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur).
 
@@ -70,7 +72,7 @@ public string GetFieldCode(bool includeChildFieldCodes)
 | --- | --- | --- |
 | includeChildFieldCodes | Boolean | `vrai` si les codes de champ enfant doivent être inclus. |
 
-### Exemples
+## Exemples
 
 Montre comment obtenir le code de champ d’un champ.
 
@@ -94,7 +96,5 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### Voir également
 
 * class [Field](../)
-* espace de noms [Aspose.Words.Fields](../../field/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

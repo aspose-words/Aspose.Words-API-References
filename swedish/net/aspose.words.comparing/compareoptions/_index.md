@@ -1,7 +1,9 @@
 ---
-title: Class CompareOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Comparing.CompareOptions klass. Gör det möjligt att välja avancerade alternativ för dokumentjämförelse.
+title: CompareOptions Class
+linktitle: CompareOptions
+articleTitle: CompareOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Comparing.CompareOptions klass. Gör det möjligt att välja avancerade alternativ för dokumentjämförelse i C#.
 type: docs
 weight: 270
 url: /sv/net/aspose.words.comparing/compareoptions/
@@ -39,7 +41,7 @@ public class CompareOptions
 | [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | Anger om skillnader i data i textrutor ska jämföras. Som standard ignoreras inte textrutor. |
 | [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | Anger vilket dokument som ska användas som mål vid jämförelse. |
 
-### Exempel
+## Exempel
 
 Visar hur man filtrerar specifika typer av dokumentelement när man gör en jämförelse.
 
@@ -114,5 +116,3 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * namnutrymme [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * hopsättning [Aspose.Words](../../)
-
-

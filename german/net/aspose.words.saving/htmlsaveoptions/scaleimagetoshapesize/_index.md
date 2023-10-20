@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ScaleImageToShapeSize
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt an ob Bilder beim Exportieren nach HTML MHTML oder EPUB von Aspose.Words auf die Größe der Begrenzungsform skaliert werden. Der Standardwert istWAHR .
+linktitle: ScaleImageToShapeSize
+articleTitle: ScaleImageToShapeSize
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ScaleImageToShapeSize eigendom. Gibt an ob Bilder beim Exportieren nach HTML MHTML oder EPUB von Aspose.Words auf die Größe der Begrenzungsform skaliert werden. Der Standardwert istWAHR  in C#.
 type: docs
 weight: 450
 url: /de/net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
@@ -14,7 +16,7 @@ Gibt an, ob Bilder beim Exportieren nach HTML, MHTML oder EPUB von Aspose.Words 
 public bool ScaleImageToShapeSize { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Ein Bild in einem Microsoft Word-Dokument ist eine Form. Die Form hat eine Größe und das Bild hat eine eigene Größe. Die Größen sind nicht direkt miteinander verknüpft. Das Bild kann beispielsweise 1024 x 786 Pixel groß sein, , aber die Form, die dieses Bild anzeigt, kann 400 x 300 Punkte groß sein.
 
@@ -26,7 +28,7 @@ Im Allgemeinen führen Browser eine schnelle und qualitativ schlechte Skalierung
 
 Zusätzlich zu Formen, die einzelne Rasterbilder enthalten, betrifft diese Option auch Gruppenformen, die aus Rasterbildern bestehen. Wenn`ScaleImageToShapeSize` Ist`FALSCH` und eine Gruppenform enthält Rasterbilder , deren intrinsische Auflösung höher ist als der in angegebene Wert[`ImageResolution`](../imageresolution/), Aspose.Words erhöht die Rendering-Auflösung für diese Gruppe. Dies ermöglicht eine bessere Qualität gruppierter hochauflösender -Bilder beim Speichern in HTML.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Skalierung von Bildern auf die Abmessungen ihrer übergeordneten Form beim Speichern im HTML-Format deaktiviert wird.
 
@@ -82,7 +84,5 @@ Document doc = new Document();
 
 * property [ImageResolution](../imageresolution/)
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

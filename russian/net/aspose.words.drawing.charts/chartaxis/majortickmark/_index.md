@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorTickMark
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Возвращает или устанавливает основные деления.
+linktitle: MajorTickMark
+articleTitle: MajorTickMark
+second_title: Aspose.Words для .NET
+description: ChartAxis MajorTickMark свойство. Возвращает или устанавливает основные деления на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.drawing.charts/chartaxis/majortickmark/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/majortickmark/
 public AxisTickMark MajorTickMark { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и изменить внешний вид ее осей.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickMark](../../axistickmark/)
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

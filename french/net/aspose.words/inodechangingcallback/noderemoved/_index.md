@@ -1,7 +1,9 @@
 ---
 title: INodeChangingCallback.NodeRemoved
-second_title: Référence de l'API Aspose.Words pour .NET
-description: INodeChangingCallback méthode. Appelé lorsquun nœud appartenant à ce document a été supprimé de son parent.
+linktitle: NodeRemoved
+articleTitle: NodeRemoved
+second_title: Aspose.Words pour .NET
+description: INodeChangingCallback NodeRemoved méthode. Appelé lorsquun nœud appartenant à ce document a été supprimé de son parent en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/inodechangingcallback/noderemoved/
@@ -14,7 +16,7 @@ Appelé lorsqu'un nœud appartenant à ce document a été supprimé de son pare
 public void NodeRemoved(NodeChangingArgs args)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment personnaliser le changement de nœud avec un rappel.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [NodeChangingArgs](../../nodechangingargs/)
 * interface [INodeChangingCallback](../)
-* espace de noms [Aspose.Words](../../inodechangingcallback/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

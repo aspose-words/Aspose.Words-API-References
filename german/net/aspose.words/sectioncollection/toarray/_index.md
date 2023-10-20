@@ -1,7 +1,9 @@
 ---
 title: SectionCollection.ToArray
-second_title: Aspose.Words für .NET-API-Referenz
-description: SectionCollection methode. Kopiert alle Abschnitte aus der Sammlung in ein neues Array von Abschnitten.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words für .NET
+description: SectionCollection ToArray methode. Kopiert alle Abschnitte aus der Sammlung in ein neues Array von Abschnitten in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/sectioncollection/toarray/
@@ -22,7 +24,5 @@ Eine Reihe von Abschnitten.
 
 * class [Section](../../section/)
 * class [SectionCollection](../)
-* namensraum [Aspose.Words](../../sectioncollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

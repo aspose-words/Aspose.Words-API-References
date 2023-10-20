@@ -1,7 +1,9 @@
 ---
 title: MailMerge.CleanupParagraphsWithPunctuationMarks
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 财产. 获取或设置一个值该值指示带标点符号的段落是否被视为空 并且如果RemoveEmptyParagraphs已指定选项
+linktitle: CleanupParagraphsWithPunctuationMarks
+articleTitle: CleanupParagraphsWithPunctuationMarks
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge CleanupParagraphsWithPunctuationMarks 财产. 获取或设置一个值该值指示带标点符号的段落是否被视为空 并且如果RemoveEmptyParagraphs已指定选项 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuation
 public bool CleanupParagraphsWithPunctuationMarks { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`真的`.
 
@@ -29,7 +31,7 @@ public bool CleanupParagraphsWithPunctuationMarks { get; set; }
 * ¡
 * ¿
 
-### 例子
+## 例子
 
 演示如何在邮件合并操作后删除带有标点符号的段落。
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "MailMerge.RemoveColonBetweenEmptyMergeFields.docx");
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

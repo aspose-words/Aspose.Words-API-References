@@ -1,7 +1,9 @@
 ---
-title: Enum ChartAxisType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartAxisType تعداد. يحدد نوع محور المخطط.
+title: ChartAxisType Enum
+linktitle: ChartAxisType
+articleTitle: ChartAxisType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisType تعداد. يحدد نوع محور المخطط في C#.
 type: docs
 weight: 660
 url: /ar/net/aspose.words.drawing.charts/chartaxistype/
@@ -22,7 +24,7 @@ public enum ChartAxisType
 | Series | `1` | محور السلسلة للمخطط. |
 | Value | `2` | محور القيمة للمخطط. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نوع مناسب من سلسلة المخططات لنوع الرسم البياني.
 
@@ -112,5 +114,3 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

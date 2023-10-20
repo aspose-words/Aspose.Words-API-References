@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ContinuousSectionPageNumberingRestart
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutOptions mülk. Sürekli bir bölüm sayfa numaralandırmayı yeniden başlattığında sayfa numaralarını hesaplamak için davranış modunu alır veya ayarlar.
+linktitle: ContinuousSectionPageNumberingRestart
+articleTitle: ContinuousSectionPageNumberingRestart
+second_title: Aspose.Words for .NET
+description: LayoutOptions ContinuousSectionPageNumberingRestart mülk. Sürekli bir bölüm sayfa numaralandırmayı yeniden başlattığında sayfa numaralarını hesaplamak için davranış modunu alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/
@@ -14,11 +16,11 @@ Sürekli bir bölüm sayfa numaralandırmayı yeniden başlattığında sayfa nu
 public ContinuousSectionRestart ContinuousSectionPageNumberingRestart { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Always. Seçeneğin sunulduğu andaki en son sürüm olan MS Word 2019'un davranışına uygundur. MS Word 2016'nın gösterdiği daha eski sayfa numaralandırma mantığı bu seçenek üzerinden kullanılabilir. Lütfen[`ContinuousSectionRestart`](../../continuoussectionrestart/) davranış açıklaması için.
 
-### Örnekler
+## Örnekler
 
 Sürekli bir bölümde sayfa numaralandırmanın nasıl kontrol edileceğini gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Layout.RestartPageNumberingInContinuousSection.pdf");
 
 * enum [ContinuousSectionRestart](../../continuoussectionrestart/)
 * class [LayoutOptions](../)
-* ad alanı [Aspose.Words.Layout](../../layoutoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitGlossaryDocumentEnd
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 术语表文档枚举结束时调用
+linktitle: VisitGlossaryDocumentEnd
+articleTitle: VisitGlossaryDocumentEnd
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitGlossaryDocumentEnd 方法. 术语表文档枚举结束时调用 在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words/documentvisitor/visitglossarydocumentend/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitGlossaryDocumentEnd(GlossaryDocument glossary)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 评论
+## 评论
 
 注意：当您在 a Visitor 上执行 a Visitor 时，不会访问词汇表文档节点及其子节点。[`Document`](../../document/) 。如果你想对a 词汇表文档执行Visitor，你需要调用[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/).
 
-### 例子
+## 例子
 
 显示访问术语表文档中的构建块的方法。
 
@@ -132,7 +134,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

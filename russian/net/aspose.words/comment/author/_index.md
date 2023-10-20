@@ -1,7 +1,9 @@
 ---
 title: Comment.Author
-second_title: Справочник по API Aspose.Words для .NET
-description: Comment свойство. Возвращает или задает имя автора комментария.
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words для .NET
+description: Comment Author свойство. Возвращает или задает имя автора комментария на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/comment/author/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/comment/author/
 public string Author { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Не может быть`нулевой`.
 
 По умолчанию — пустая строка.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать все комментарии к документу и ответы на них.
 
@@ -46,7 +48,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 ### Смотрите также
 
 * class [Comment](../)
-* пространство имен [Aspose.Words](../../comment/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

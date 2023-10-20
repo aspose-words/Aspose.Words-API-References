@@ -1,7 +1,9 @@
 ---
-title: Enum HorizontalAlignment
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.HorizontalAlignment 枚举. 指定浮动形状文本框架或浮动表格的水平对齐方式
+title: HorizontalAlignment Enum
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.HorizontalAlignment 枚举. 指定浮动形状文本框架或浮动表格的水平对齐方式 在 C#.
 type: docs
 weight: 1030
 url: /zh/net/aspose.words.drawing/horizontalalignment/
@@ -18,7 +20,7 @@ public enum HorizontalAlignment
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 对象被显式定位，通常使用其 **左边**属性. |
+| None | `0` | 对象被显式定位，通常使用其**左边**属性. |
 | Default | `0` | 与相同None. |
 | Left | `1` | 指定对象应与水平对齐基准左对齐。 |
 | Center | `2` | 指定对象应相对于水平对齐基准居中。 |
@@ -26,7 +28,7 @@ public enum HorizontalAlignment
 | Inside | `4` | 指定对象应位于水平对齐基准的内部。 |
 | Outside | `5` | 指定对象应位于水平对齐基础之外。 |
 
-### 例子
+## 例子
 
 演示如何将浮动图像插入到页面中央。
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 * property [HorizontalAlignment](../shapebase/horizontalalignment/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

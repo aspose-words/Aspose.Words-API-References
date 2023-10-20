@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Remove
-second_title: Aspose.Words für .NET-API-Referenz
-description: GradientStopCollection methode. Entfernt eine angegebeneGradientStop aus der Sammlung.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words für .NET
+description: GradientStopCollection Remove methode. Entfernt eine angegebeneGradientStop aus der Sammlung in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing/gradientstopcollection/remove/
@@ -18,7 +20,7 @@ public bool Remove(GradientStop gradientStop)
 
 `WAHR` wenn der Gradientenstopp erfolgreich entfernt wurde, andernfalls`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man der Verlaufsfüllung Verlaufsstopps hinzufügt.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* namensraum [Aspose.Words.Drawing](../../gradientstopcollection/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

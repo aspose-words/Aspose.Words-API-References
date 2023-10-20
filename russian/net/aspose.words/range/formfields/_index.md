@@ -1,7 +1,9 @@
 ---
 title: Range.FormFields
-second_title: Справочник по API Aspose.Words для .NET
-description: Range свойство. ВозвращаетFormFields коллекция представляющая все поля формы в диапазоне.
+linktitle: FormFields
+articleTitle: FormFields
+second_title: Aspose.Words для .NET
+description: Range FormFields свойство. ВозвращаетFormFields коллекция представляющая все поля формы в диапазоне на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/range/formfields/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/range/formfields/
 public FormFieldCollection FormFields { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormFieldCollection](../../../aspose.words.fields/formfieldcollection/)
 * class [Range](../)
-* пространство имен [Aspose.Words](../../range/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

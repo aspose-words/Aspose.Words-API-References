@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSmartTagStart
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда началось перечисление смарттега.
+linktitle: VisitSmartTagStart
+articleTitle: VisitSmartTagStart
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitSmartTagStart метод. Вызывается когда началось перечисление смарттега на С#.
 type: docs
 weight: 420
 url: /ru/net/aspose.words/documentvisitor/visitsmarttagstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitSmartTagStart(SmartTag smartTag)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждого смарт-тега в документе.
 
@@ -116,7 +118,5 @@ public class SmartTagStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [SmartTag](../../../aspose.words.markup/smarttag/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

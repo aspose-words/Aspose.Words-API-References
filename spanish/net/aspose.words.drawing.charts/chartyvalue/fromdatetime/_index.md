@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.FromDateTime
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartYValue método. Crea unChartYValue instancia de laDateTime tipo.
+linktitle: FromDateTime
+articleTitle: FromDateTime
+second_title: Aspose.Words para .NET
+description: ChartYValue FromDateTime método. Crea unChartYValue instancia de laDateTime tipo en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/chartyvalue/fromdatetime/
@@ -17,7 +19,5 @@ public static ChartYValue FromDateTime(DateTime value)
 ### Ver también
 
 * class [ChartYValue](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

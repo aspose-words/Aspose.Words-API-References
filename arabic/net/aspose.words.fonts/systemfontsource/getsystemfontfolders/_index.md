@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.GetSystemFontFolders
-second_title: Aspose.Words لمراجع .NET API
-description: SystemFontSource طريقة. إرجاع مجلدات خطوط النظام أو المصفوفة الفارغة إذا لم يكن من الممكن الوصول إلى المجلدات.
+linktitle: GetSystemFontFolders
+articleTitle: GetSystemFontFolders
+second_title: Aspose.Words لـ .NET
+description: SystemFontSource GetSystemFontFolders طريقة. إرجاع مجلدات خطوط النظام أو المصفوفة الفارغة إذا لم يكن من الممكن الوصول إلى المجلدات في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
 public static string[] GetSystemFontFolders()
 ```
 
-### ملاحظات
+## ملاحظات
 
 في بعض الأنظمة الأساسية، يمكن لـ Aspose.Words البحث في خطوط النظام ليس فقط من خلال المجلدات ولكن في المصادر الأخرى أيضًا. على سبيل المثال، في نظام التشغيل Windows Platform Aspose.Words، ابحث عن الخطوط أيضًا في السجل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخطوط.
 
@@ -74,7 +76,5 @@ Assert.AreEqual(1,
 ### أنظر أيضا
 
 * class [SystemFontSource](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../systemfontsource/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

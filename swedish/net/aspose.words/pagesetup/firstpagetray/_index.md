@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FirstPageTray
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Hämtar eller ställer in pappersfacket fack som ska användas för den första sidan i ett avsnitt. Värdet är implementeringsspecifikt skrivaren.
+linktitle: FirstPageTray
+articleTitle: FirstPageTray
+second_title: Aspose.Words för .NET
+description: PageSetup FirstPageTray fast egendom. Hämtar eller ställer in pappersfacket fack som ska användas för den första sidan i ett avsnitt. Värdet är implementeringsspecifikt skrivaren i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words/pagesetup/firstpagetray/
@@ -14,7 +16,7 @@ Hämtar eller ställer in pappersfacket (fack) som ska användas för den först
 public int FirstPageTray { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du får alla avsnitt i ett dokument att använda standardpappersfacket för den valda skrivaren.
 
@@ -70,7 +72,5 @@ foreach (Section section in doc.Sections.OfType<Section>())
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

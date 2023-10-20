@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Alignment
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على محاذاة النص للفقرة أو تعيينها.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat Alignment ملكية. الحصول على محاذاة النص للفقرة أو تعيينها في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/paragraphformat/alignment/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/alignment/
 public ParagraphAlignment Alignment { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج فقرة في المستند.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [ParagraphAlignment](../../paragraphalignment/)
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

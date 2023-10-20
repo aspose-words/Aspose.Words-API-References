@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUserPromptRespondent
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.IFieldUserPromptRespondent واجهه المستخدم. يمثل المستجيب لمطالبات المستخدم أثناء التحديث الميداني.
+title: IFieldUserPromptRespondent Interface
+linktitle: IFieldUserPromptRespondent
+articleTitle: IFieldUserPromptRespondent
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.IFieldUserPromptRespondent واجهه المستخدم. يمثل المستجيب لمطالبات المستخدم أثناء التحديث الميداني في C#.
 type: docs
 weight: 2740
 url: /ar/net/aspose.words.fields/ifielduserpromptrespondent/
@@ -18,13 +20,13 @@ public interface IFieldUserPromptRespondent
 
 | اسم | وصف |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | عند التنفيذ، يُرجع استجابة من المستخدم عند المطالبة. يجب أن يعود التنفيذ الخاص بك`باطل` للإشارة إلى أن المستخدم لم يستجب للمطالبة (أي أن المستخدم قام بالضغط على زر إلغاء في نافذة المطالبة). |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(*string, string*) | عند التنفيذ، يُرجع استجابة من المستخدم عند المطالبة. يجب أن يعود التنفيذ الخاص بك`باطل` للإشارة إلى أن المستخدم لم يستجب للمطالبة (أي أن المستخدم قام بالضغط على زر إلغاء في نافذة المطالبة). |
 
-### ملاحظات
+## ملاحظات
 
 حقول ASK وFILLIN هي أمثلة للحقول التي تطالب المستخدم ببعض الاستجابة. قم بتنفيذ هذه الواجهة وقم بتعيينها إلى[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) خاصية إنشاء تفاعل بين الحقل update والمستخدم.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل ASK وتعيين خصائصه.
 
@@ -87,5 +89,3 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Name
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoFieldMapData eigendom. Gibt den Spaltennamen innerhalb einer externen Datenquelle für die Spalte an deren Index durch angegeben wirdColumnproperty. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words für .NET
+description: OdsoFieldMapData Name eigendom. Gibt den Spaltennamen innerhalb einer externen Datenquelle für die Spalte an deren Index durch angegeben wirdColumnproperty. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.settings/odsofieldmapdata/name/
@@ -14,7 +16,7 @@ Gibt den Spaltennamen innerhalb einer externen Datenquelle für die Spalte an, d
 public string Name { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Briefvorlagenfeldern zuordnet.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Siehe auch
 
 * class [OdsoFieldMapData](../)
-* namensraum [Aspose.Words.Settings](../../odsofieldmapdata/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

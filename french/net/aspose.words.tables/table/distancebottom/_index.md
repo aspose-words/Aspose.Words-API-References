@@ -1,7 +1,9 @@
 ---
 title: Table.DistanceBottom
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. Obtient ou définit la distance entre le bas du tableau et le texte environnant en points.
+linktitle: DistanceBottom
+articleTitle: DistanceBottom
+second_title: Aspose.Words pour .NET
+description: Table DistanceBottom propriété. Obtient ou définit la distance entre le bas du tableau et le texte environnant en points en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.tables/table/distancebottom/
@@ -14,7 +16,7 @@ Obtient ou définit la distance entre le bas du tableau et le texte environnant,
 public double DistanceBottom { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir la distance entre les limites du tableau et le texte.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.DistanceBetweenTableAndText.docx");
 ### Voir également
 
 * class [Table](../)
-* espace de noms [Aspose.Words.Tables](../../table/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

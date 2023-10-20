@@ -1,7 +1,9 @@
 ---
 title: ListLevel.CustomNumberStyleFormat
-second_title: Aspose.Words for .NET API 参考
-description: ListLevel 财产. 获取此列表级别的自定义数字样式格式例如açĝ....
+linktitle: CustomNumberStyleFormat
+articleTitle: CustomNumberStyleFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevel CustomNumberStyleFormat 财产. 获取此列表级别的自定义数字样式格式例如açĝ 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.lists/listlevel/customnumberstyleformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.lists/listlevel/customnumberstyleformat/
 public string CustomNumberStyleFormat { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何获取具有自定义数字样式的列表的格式。
 
@@ -38,7 +40,5 @@ Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, custom
 ### 也可以看看
 
 * class [ListLevel](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevel/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

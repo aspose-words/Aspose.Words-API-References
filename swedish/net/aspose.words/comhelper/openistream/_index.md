@@ -1,7 +1,9 @@
 ---
 title: ComHelper.OpenIStream
-second_title: Aspose.Words för .NET API Referens
-description: ComHelper metod. Tillåter en COMapplikation att ladda enDocument från ett ISstreamobjekt.
+linktitle: OpenIStream
+articleTitle: OpenIStream
+second_title: Aspose.Words för .NET
+description: ComHelper OpenIStream metod. Tillåter en COMapplikation att ladda enDocument från ett ISstreamobjekt i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/comhelper/openistream/
@@ -26,7 +28,5 @@ A[`Document`](../../document/)objekt som representerar ett Word-dokument.
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* namnutrymme [Aspose.Words](../../comhelper/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

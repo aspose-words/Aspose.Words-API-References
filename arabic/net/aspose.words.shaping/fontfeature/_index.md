@@ -1,7 +1,9 @@
 ---
-title: Enum FontFeature
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Shaping.FontFeature تعداد. توفر الميزات معلومات حول كيفية استخدام الحروف الرسومية في الخط لعرض البرنامج النصي. https//docs.microsoft.com/enus/typography/opentype/spec/featuretags
+title: FontFeature Enum
+linktitle: FontFeature
+articleTitle: FontFeature
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Shaping.FontFeature تعداد. توفر الميزات معلومات حول كيفية استخدام الحروف الرسومية في الخط لعرض البرنامج النصي. https//docs.microsoft.com/enus/typography/opentype/spec/featuretags في C#.
 type: docs
 weight: 6030
 url: /ar/net/aspose.words.shaping/fontfeature/
@@ -56,5 +58,3 @@ public enum FontFeature
 
 * مساحة الاسم [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * المجسم [Aspose.Words](../../)
-
-

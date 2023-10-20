@@ -1,7 +1,9 @@
 ---
-title: CustomPartCollection.CustomPartCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomPartCollection строитель. Конструктор по умолчанию.
+title: CustomPartCollection
+linktitle: CustomPartCollection
+articleTitle: CustomPartCollection
+second_title: Aspose.Words для .NET
+description: CustomPartCollection строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/custompartcollection/custompartcollection/
@@ -17,7 +19,5 @@ public CustomPartCollection()
 ### Смотрите также
 
 * class [CustomPartCollection](../)
-* пространство имен [Aspose.Words.Markup](../../custompartcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

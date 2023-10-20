@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.RemoveAt
-second_title: Aspose.Words لمراجع .NET API
-description: NodeCollection طريقة. إزالة العقدة الموجودة في الفهرس المحدد من المجموعة ومن المستند.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words لـ .NET
+description: NodeCollection RemoveAt طريقة. إزالة العقدة الموجودة في الفهرس المحدد من المجموعة ومن المستند في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/nodecollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | الفهرس الصفري للعقدة. الفهارس السالبة مسموح بها وتشير إلى الوصول من الجزء الخلفي من القائمة. على سبيل المثال -1 يعني العقدة الأخيرة، -2 يعني الثانية قبل الأخيرة وهكذا. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة وإزالة الأقسام في المستند.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ### أنظر أيضا
 
 * class [NodeCollection](../)
-* مساحة الاسم [Aspose.Words](../../nodecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

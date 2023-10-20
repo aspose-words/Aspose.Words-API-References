@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.NumberFormat
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Devuelve unChartNumberFormat objeto que permite definir formatos numéricos para el eje.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words para .NET
+description: ChartAxis NumberFormat propiedad. Devuelve unChartNumberFormat objeto que permite definir formatos numéricos para el eje en C#.
 type: docs
 weight: 190
 url: /es/net/aspose.words.drawing.charts/chartaxis/numberformat/
@@ -14,7 +16,7 @@ Devuelve un[`ChartNumberFormat`](../../chartnumberformat/) objeto que permite de
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar el formato para los valores del gráfico.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

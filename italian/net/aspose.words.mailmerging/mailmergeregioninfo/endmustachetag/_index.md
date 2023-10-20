@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.EndMustacheTag
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeRegionInfo proprietà. Restituisce un tag finale baffi per la regione.
+linktitle: EndMustacheTag
+articleTitle: EndMustacheTag
+second_title: Aspose.Words per .NET
+description: MailMergeRegionInfo EndMustacheTag proprietà. Restituisce un tag finale baffi per la regione in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/
@@ -14,7 +16,7 @@ Restituisce un tag finale "baffi" per la regione.
 public MustacheTag EndMustacheTag { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le etichette dei baffi.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [MustacheTag](../../mustachetag/)
 * class [MailMergeRegionInfo](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

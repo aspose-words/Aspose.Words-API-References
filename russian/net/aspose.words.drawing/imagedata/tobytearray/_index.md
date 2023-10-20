@@ -1,9 +1,11 @@
 ---
 title: ImageData.ToByteArray
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageData метод. Возвращает байты изображения для любого изображения независимо от того сохранено оно или связано с ним.
+linktitle: ToByteArray
+articleTitle: ToByteArray
+second_title: Aspose.Words для .NET
+description: ImageData ToByteArray метод. Возвращает байты изображения для любого изображения независимо от того сохранено оно или связано с ним на С#.
 type: docs
-weight: 220
+weight: 210
 url: /ru/net/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData.ToByteArray method
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/imagedata/tobytearray/
 public byte[] ToByteArray()
 ```
 
-### Примечания
+## Примечания
 
 Если изображение связано, загружает изображение при каждом вызове.
 
-### Примеры
+## Примеры
 
 Показывает, как создать файл изображения из необработанных данных изображения фигуры.
 
@@ -45,7 +47,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### Смотрите также
 
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

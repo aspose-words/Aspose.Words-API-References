@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Title
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على أو تعيين العنوان التسمية التوضيحية لكائن الشكل الحالي.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words لـ .NET
+description: ShapeBase Title ملكية. الحصول على أو تعيين العنوان التسمية التوضيحية لكائن الشكل الحالي في C#.
 type: docs
 weight: 530
 url: /ar/net/aspose.words.drawing/shapebase/title/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/shapebase/title/
 public string Title { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الافتراضي هو سلسلة فارغة.
 
 لا يمكن`باطل`، ولكن يمكن أن تكون سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين عنوان الشكل.
 
@@ -50,7 +52,5 @@ Assert.AreEqual("Title: My cube", shape.AlternativeText);
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

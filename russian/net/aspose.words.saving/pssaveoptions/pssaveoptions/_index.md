@@ -1,7 +1,9 @@
 ---
-title: PsSaveOptions.PsSaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: PsSaveOptions строитель. Конструктор по умолчанию.
+title: PsSaveOptions
+linktitle: PsSaveOptions
+articleTitle: PsSaveOptions
+second_title: Aspose.Words для .NET
+description: PsSaveOptions строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/pssaveoptions/pssaveoptions/
@@ -17,7 +19,5 @@ public PsSaveOptions()
 ### Смотрите также
 
 * class [PsSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pssaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

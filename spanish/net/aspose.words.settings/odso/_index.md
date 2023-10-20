@@ -1,7 +1,9 @@
 ---
-title: Class Odso
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.Odso clase. Especifica la configuración del objeto de origen de datos de Office ODSO para un origen de datos de combinación de correspondencia.
+title: Odso Class
+linktitle: Odso
+articleTitle: Odso
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Settings.Odso clase. Especifica la configuración del objeto de origen de datos de Office ODSO para un origen de datos de combinación de correspondencia en C#.
 type: docs
 weight: 5880
 url: /es/net/aspose.words.settings/odso/
@@ -41,7 +43,7 @@ public class Odso
 | --- | --- |
 | [Clone](../../aspose.words.settings/odso/clone/)() | Devuelve un clon profundo de este objeto. |
 
-### Observaciones
+## Observaciones
 
 ODSO parece ser la forma "nueva" que las versiones más recientes de Microsoft Word prefieren usar al especificar ciertos tipos de fuentes de datos para un documento de combinación de correspondencia. ODSO probablemente apareció por primera vez en Microsoft Word 2000.
 
@@ -49,7 +51,7 @@ El uso de ODSO está poco documentado y la mejor manera de aprender a usar las p
 
 Normalmente no es necesario crear objetos de esta clase directamente porque ODSO settings siempre está disponible a través de[`Odso`](../mailmergesettings/odso/) propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * espacio de nombres [Aspose.Words.Settings](../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../)
-
-

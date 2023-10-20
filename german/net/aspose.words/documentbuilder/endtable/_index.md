@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndTable
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Beendet eine Tabelle im Dokument.
+linktitle: EndTable
+articleTitle: EndTable
+second_title: Aspose.Words für .NET
+description: DocumentBuilder EndTable methode. Beendet eine Tabelle im Dokument in C#.
 type: docs
 weight: 250
 url: /de/net/aspose.words/documentbuilder/endtable/
@@ -18,11 +20,11 @@ public Table EndTable()
 
 Der Tabellenknoten, der gerade fertiggestellt wurde.
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode sollte nur einmal aufgerufen werden[`EndRow`](../endrow/) hieß. Bei Aufruf `EndTable` Bewegt den Cursor aus der aktuellen Zelle heraus und zeigt direkt hinter die Tabelle.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Zellen mit einem Document Builder formatiert werden.
 
@@ -172,7 +174,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

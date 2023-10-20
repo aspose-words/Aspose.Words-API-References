@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Orientation
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 返回或设置页面的方向
+linktitle: Orientation
+articleTitle: Orientation
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup Orientation 财产. 返回或设置页面的方向 在 C#.
 type: docs
 weight: 290
 url: /zh/net/aspose.words/pagesetup/orientation/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/pagesetup/orientation/
 public Orientation Orientation { get; set; }
 ```
 
-### 评论
+## 评论
 
 改变`Orientation`掉期[`PageWidth`](../pagewidth/)和[`PageHeight`](../pageheight/)。
 
-### 例子
+## 例子
 
 展示如何调整纸张尺寸、方向、边距以及某个部分的其他设置。
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * enum [Orientation](../../orientation/)
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

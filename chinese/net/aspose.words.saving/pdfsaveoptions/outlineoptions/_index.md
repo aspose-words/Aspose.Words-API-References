@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.OutlineOptions
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 允许指定轮廓选项
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions OutlineOptions 财产. 允许指定轮廓选项 在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words.saving/pdfsaveoptions/outlineoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/outlineoptions/
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### 评论
+## 评论
 
 可以从标题和书签创建大纲。
 
@@ -26,7 +28,7 @@ public OutlineOptions OutlineOptions { get; }
 
 此外，可以使用相同的方法将轮廓导出为 XPS 格式`OutlineOptions`班级。
 
-### 例子
+## 例子
 
 展示如何限制已保存 PDF 文档大纲中显示的标题级别。
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

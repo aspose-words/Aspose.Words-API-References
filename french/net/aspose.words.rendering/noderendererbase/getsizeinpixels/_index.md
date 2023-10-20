@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetSizeInPixels
-second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeRendererBase méthode. Calcule la taille de la forme en pixels pour un facteur de zoom et une résolution spécifiés.
+linktitle: GetSizeInPixels
+articleTitle: GetSizeInPixels
+second_title: Aspose.Words pour .NET
+description: NodeRendererBase GetSizeInPixels méthode. Calcule la taille de la forme en pixels pour un facteur de zoom et une résolution spécifiés en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.rendering/noderendererbase/getsizeinpixels/
 ---
-## GetSizeInPixels(float, float) {#getsizeinpixels}
+## GetSizeInPixels(*float, float*) {#getsizeinpixels}
 
 Calcule la taille de la forme en pixels pour un facteur de zoom et une résolution spécifiés.
 
@@ -23,11 +25,11 @@ public Size GetSizeInPixels(float scale, float dpi)
 
 La taille de la forme en pixels.
 
-### Remarques
+## Remarques
 
 Cette méthode convertit[`SizeInPoints`](../sizeinpoints/) en taille en pixels et c'est utile lorsque vous souhaitez créer un bitmap pour restituer proprement la forme sur le bitmap.
 
-### Exemples
+## Exemples
 
 Montre comment mesurer et mettre à l’échelle des formes.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### Voir également
 
 * class [NodeRendererBase](../)
-* espace de noms [Aspose.Words.Rendering](../../noderendererbase/)
+* espace de noms [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
+## GetSizeInPixels(*float, float, float*) {#getsizeinpixels_1}
 
 Calcule la taille de la forme en pixels pour un facteur de zoom et une résolution spécifiés.
 
@@ -97,11 +99,11 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 La taille de la forme en pixels.
 
-### Remarques
+## Remarques
 
 Cette méthode convertit[`SizeInPoints`](../sizeinpoints/) en taille en pixels et c'est utile lorsque vous souhaitez créer un bitmap pour restituer proprement la forme sur le bitmap.
 
-### Exemples
+## Exemples
 
 Montre comment mesurer et mettre à l’échelle des formes.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Voir également
 
 * class [NodeRendererBase](../)
-* espace de noms [Aspose.Words.Rendering](../../noderendererbase/)
+* espace de noms [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Assemblée [Aspose.Words](../../../)
-
-

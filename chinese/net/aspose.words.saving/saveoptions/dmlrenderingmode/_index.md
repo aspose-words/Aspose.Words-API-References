@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.DmlRenderingMode
-second_title: Aspose.Words for .NET API 参考
-description: SaveOptions 财产. 获取或设置一个值确定如何呈现 DrawingML 形状
+linktitle: DmlRenderingMode
+articleTitle: DmlRenderingMode
+second_title: 用于 .NET 的 Aspose.Words
+description: SaveOptions DmlRenderingMode 财产. 获取或设置一个值确定如何呈现 DrawingML 形状 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/saveoptions/dmlrenderingmode/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/saveoptions/dmlrenderingmode/
 public DmlRenderingMode DmlRenderingMode { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为Fallback.
 
 当文档导出为固定页面格式时使用此属性。
 
-### 例子
+## 例子
 
 展示保存为 PDF 时如何渲染后备形状。
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * enum [DmlRenderingMode](../../dmlrenderingmode/)
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../saveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

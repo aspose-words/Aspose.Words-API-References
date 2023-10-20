@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParagraphFormat
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 提供对段落格式属性的访问
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph ParagraphFormat 财产. 提供对段落格式属性的访问 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words/paragraph/paragraphformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/paragraphformat/
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何手动构建 Aspose.Words 文档。
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

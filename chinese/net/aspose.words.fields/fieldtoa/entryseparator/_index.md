@@ -1,7 +1,9 @@
 ---
 title: FieldToa.EntrySeparator
-second_title: Aspose.Words for .NET API 参考
-description: FieldToa 财产. 获取或设置用于分隔规范条目及其页码的字符序列
+linktitle: EntrySeparator
+articleTitle: EntrySeparator
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldToa EntrySeparator 财产. 获取或设置用于分隔规范条目及其页码的字符序列 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldtoa/entryseparator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldtoa/entryseparator/
 public string EntrySeparator { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用 TOA 和 TA 字段构建和自定义权限表。
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### 也可以看看
 
 * class [FieldToa](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldtoa/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

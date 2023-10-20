@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.HeightRelative
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على أو تعيين القيمة التي تمثل النسبة المئوية للارتفاع النسبي للشكل.
+linktitle: HeightRelative
+articleTitle: HeightRelative
+second_title: Aspose.Words لـ .NET
+description: ShapeBase HeightRelative ملكية. الحصول على أو تعيين القيمة التي تمثل النسبة المئوية للارتفاع النسبي للشكل في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words.drawing/shapebase/heightrelative/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/heightrelative/
 public float HeightRelative { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط الحجم والموضع النسبي.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

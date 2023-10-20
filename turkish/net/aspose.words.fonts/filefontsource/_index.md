@@ -1,7 +1,9 @@
 ---
-title: Class FileFontSource
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.FileFontSource sınıf. Dosya sisteminde depolanan tek TrueType yazı tipi dosyasını temsil eder.
+title: FileFontSource Class
+linktitle: FileFontSource
+articleTitle: FileFontSource
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.FileFontSource sınıf. Dosya sisteminde depolanan tek TrueType yazı tipi dosyasını temsil eder C#'da.
 type: docs
 weight: 2870
 url: /tr/net/aspose.words.fonts/filefontsource/
@@ -20,9 +22,9 @@ public class FileFontSource : FontSourceBase
 
 | İsim | Tanım |
 | --- | --- |
-| [FileFontSource](filefontsource/#constructor)(string) | Ctor. |
-| [FileFontSource](filefontsource/#constructor_1)(string, int) | Ctor. |
-| [FileFontSource](filefontsource/#constructor_2)(string, int, string) | Ctor. |
+| [FileFontSource](filefontsource/#constructor)(*string*) | Ctor. |
+| [FileFontSource](filefontsource/#constructor_1)(*string, int*) | Ctor. |
+| [FileFontSource](filefontsource/#constructor_2)(*string, int, string*) | Ctor. |
 
 ## Özellikleri
 
@@ -40,7 +42,7 @@ public class FileFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Bu kaynak aracılığıyla kullanılabilen yazı tiplerinin listesini döndürür. |
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki bir yazı tipi dosyasının yazı tipi kaynağı olarak nasıl kullanılacağını gösterir.
 
@@ -61,5 +63,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

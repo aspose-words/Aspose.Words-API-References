@@ -1,7 +1,9 @@
 ---
 title: ListFormat.IsListItem
-second_title: Aspose.Words per .NET API Reference
-description: ListFormat proprietà. Vero quando al paragrafo è applicata la formattazione puntata o numerata.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words per .NET
+description: ListFormat IsListItem proprietà. Vero quando al paragrafo è applicata la formattazione puntata o numerata in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.lists/listformat/islistitem/
@@ -14,7 +16,7 @@ Vero quando al paragrafo è applicata la formattazione puntata o numerata.
 public bool IsListItem { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come restituire tutti i paragrafi in un documento che sono elementi di elenco.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 ### Guarda anche
 
 * class [ListFormat](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listformat/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FindReplaceOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Replacing.FindReplaceOptions klas. Gibt Optionen für Such/Ersetzungsvorgänge an.
+title: FindReplaceOptions Class
+linktitle: FindReplaceOptions
+articleTitle: FindReplaceOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Replacing.FindReplaceOptions klas. Gibt Optionen für Such/Ersetzungsvorgänge an in C#.
 type: docs
 weight: 4620
 url: /de/net/aspose.words.replacing/findreplaceoptions/
@@ -21,9 +23,9 @@ public class FindReplaceOptions
 | Name | Beschreibung |
 | --- | --- |
 | [FindReplaceOptions](findreplaceoptions/#constructor)() | Default_Constructor |
-| [FindReplaceOptions](findreplaceoptions/#constructor_1)(FindReplaceDirection) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_3)(IReplacingCallback) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_2)(FindReplaceDirection, IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_1)(*[FindReplaceDirection](../findreplacedirection/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_3)(*[IReplacingCallback](../ireplacingcallback/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_2)(*[FindReplaceDirection](../findreplacedirection/), [IReplacingCallback](../ireplacingcallback/)*) |  |
 
 ## Eigenschaften
 
@@ -47,7 +49,7 @@ public class FindReplaceOptions
 | [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | True gibt an, dass eine Textsuche der Reihe nach von oben nach unten unter Berücksichtigung der Textfelder durchgeführt wird. Der Standardwert ist`FALSCH` . |
 | [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions/) { get; set; } | Ruft einen booleschen Wert ab, der angibt, ob Ersetzungen innerhalb von Ersetzungsmustern erkannt und verwendet werden sollen, oder legt diesen fest. Der Standardwert ist`FALSCH` . |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Groß-/Kleinschreibung beim Durchführen eines Suchen-und-Ersetzen-Vorgangs umgeschaltet wird.
 
@@ -96,5 +98,3 @@ Assert.AreEqual(
 
 * namensraum [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../)
-
-

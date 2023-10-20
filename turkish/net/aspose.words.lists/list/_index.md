@@ -1,7 +1,9 @@
 ---
-title: Class List
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Lists.List sınıf. Bir listenin biçimlendirmesini temsil eder.
+title: List Class
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Lists.List sınıf. Bir listenin biçimlendirmesini temsil eder C#'da.
 type: docs
 weight: 3460
 url: /tr/net/aspose.words.lists/list/
@@ -33,14 +35,14 @@ public class List : IComparable<List>
 
 | İsim | Tanım |
 | --- | --- |
-| [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(List) | Belirtilen listeyi geçerli listeyle karşılaştırır. |
-| [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(object) | Belirtilen nesneyi geçerli nesneyle karşılaştırır. |
-| [Equals](../../aspose.words.lists/list/equals/#equals)(List) | Belirtilen listeyle karşılaştırır. |
-| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(object) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(*List*) | Belirtilen listeyi geçerli listeyle karşılaştırır. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(*object*) | Belirtilen nesneyi geçerli nesneyle karşılaştırır. |
+| [Equals](../../aspose.words.lists/list/equals/#equals)(*List*) | Belirtilen listeyle karşılaştırır. |
+| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(*object*) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
 | override [GetHashCode](../../aspose.words.lists/list/gethashcode/)() | Bu liste nesnesi için karma kodunu hesaplar. |
-| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(List) | Geçerli liste ile verilen liste aynı şablondan oluşturulmuşsa true değerini döndürür. |
+| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(*List*) | Geçerli liste ile verilen liste aynı şablondan oluşturulmuşsa true değerini döndürür. |
 
-### Notlar
+## Notlar
 
 Microsoft Word belgesindeki liste, bir dizi liste biçimlendirme özelliğidir. Her listede en fazla 9 düzey bulunabilir ve sayı stili, başlangıç değeri, girinti, sekme konumu vb. gibi biçimlendirme özellikleri her düzey için ayrı ayrı tanımlanır.
 
@@ -52,7 +54,7 @@ Bir listenin biçimlendirmesini değiştirmek için şunu kullanın:[`ListLevel`
 
 Bir paragrafa liste biçimlendirmesi uygulamak veya kaldırmak için şunu kullanın:[`ListFormat`](../listformat/).
 
-### Örnekler
+## Örnekler
 
 Bir listeyi kopyalayarak listedeki numaralandırmanın nasıl yeniden başlatılacağını gösterir.
 
@@ -199,5 +201,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * ad alanı [Aspose.Words.Lists](../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../)
-
-

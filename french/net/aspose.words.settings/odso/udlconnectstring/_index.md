@@ -1,7 +1,9 @@
 ---
 title: Odso.UdlConnectString
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Odso propriété. Spécifie la chaîne de connexion Universal Data Link UDL utilisée pour se connecter à une source de données externe. La valeur par défaut est une chaîne vide.
+linktitle: UdlConnectString
+articleTitle: UdlConnectString
+second_title: Aspose.Words pour .NET
+description: Odso UdlConnectString propriété. Spécifie la chaîne de connexion Universal Data Link UDL utilisée pour se connecter à une source de données externe. La valeur par défaut est une chaîne vide en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.settings/odso/udlconnectstring/
@@ -14,7 +16,7 @@ Spécifie la chaîne de connexion Universal Data Link (UDL) utilisée pour se co
 public string UdlConnectString { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage lors de la connexion à une source de données externe.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Voir également
 
 * class [Odso](../)
-* espace de noms [Aspose.Words.Settings](../../odso/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

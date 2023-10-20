@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Separator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataLabel propriété. Obtient ou définit le séparateur de chaîne utilisé pour les étiquettes de données sur un graphique. La valeur par défaut est une virgule sauf pour les diagrammes circulaires affichant uniquement le nom de la catégorie et le pourcentage lorsquun saut de ligne doit être utilisé à la place.
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words pour .NET
+description: ChartDataLabel Separator propriété. Obtient ou définit le séparateur de chaîne utilisé pour les étiquettes de données sur un graphique. La valeur par défaut est une virgule sauf pour les diagrammes circulaires affichant uniquement le nom de la catégorie et le pourcentage lorsquun saut de ligne doit être utilisé à la place en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.drawing.charts/chartdatalabel/separator/
@@ -14,7 +16,7 @@ Obtient ou définit le séparateur de chaîne utilisé pour les étiquettes de d
 public string Separator { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer des étiquettes aux points de données dans un graphique linéaire.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Voir également
 
 * class [ChartDataLabel](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

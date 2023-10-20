@@ -1,7 +1,9 @@
 ---
 title: ToaCategories.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ToaCategories propriété. Obtient ou définit lentête de catégorie par numéro de catégorie.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: ToaCategories Item propriété. Obtient ou définit lentête de catégorie par numéro de catégorie en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/toacategories/item/
@@ -14,7 +16,7 @@ Obtient ou définit l'en-tête de catégorie par numéro de catégorie.
 public string this[int number] { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment spécifier un ensemble de catégories pour les champs TOA.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 ### Voir également
 
 * class [ToaCategories](../)
-* espace de noms [Aspose.Words.Fields](../../toacategories/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

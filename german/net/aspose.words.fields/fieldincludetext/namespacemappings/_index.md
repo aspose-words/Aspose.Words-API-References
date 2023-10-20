@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.NamespaceMappings
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIncludeText eigendom. Ruft die NamespaceZuordnungen für XPathAbfragen ab oder legt diese fest.
+linktitle: NamespaceMappings
+articleTitle: NamespaceMappings
+second_title: Aspose.Words für .NET
+description: FieldIncludeText NamespaceMappings eigendom. Ruft die NamespaceZuordnungen für XPathAbfragen ab oder legt diese fest in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldincludetext/namespacemappings/
@@ -14,7 +16,7 @@ Ruft die Namespace-Zuordnungen für XPath-Abfragen ab oder legt diese fest.
 public string NamespaceMappings { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein INCLUDETEXT-Feld erstellt und seine Eigenschaften festgelegt werden.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Siehe auch
 
 * class [FieldIncludeText](../)
-* namensraum [Aspose.Words.Fields](../../fieldincludetext/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

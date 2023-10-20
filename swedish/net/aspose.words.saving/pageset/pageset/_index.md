@@ -1,12 +1,14 @@
 ---
-title: PageSet.PageSet
-second_title: Aspose.Words för .NET API Referens
-description: PageSet byggare. Skapar en ensidig uppsättning baserat på exakt sidindex.
+title: PageSet
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words för .NET
+description: PageSet byggare. Skapar en ensidig uppsättning baserat på exakt sidindex i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/pageset/pageset/
 ---
-## PageSet(int) {#constructor_1}
+## PageSet(*int*) {#constructor_1}
 
 Skapar en ensidig uppsättning baserat på exakt sidindex.
 
@@ -18,19 +20,19 @@ public PageSet(int page)
 | --- | --- | --- |
 | page | Int32 | Nollbaserat index för sidan. |
 
-### Anmärkningar
+## Anmärkningar
 
 Om en sida påträffas som inte finns i dokumentet kommer ett undantag att kastas under renderingen. MaxValue betyder den sista sidan i dokumentet.
 
 ### Se även
 
 * class [PageSet](../)
-* namnutrymme [Aspose.Words.Saving](../../pageset/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## PageSet(params int[]) {#constructor_2}
+## PageSet(*params int[]*) {#constructor_2}
 
 Skapar en siduppsättning baserat på exakta sidindex.
 
@@ -42,11 +44,11 @@ public PageSet(params int[] pages)
 | --- | --- | --- |
 | pages | Int32[] | Nollbaserade index för sidor. |
 
-### Anmärkningar
+## Anmärkningar
 
 Om en sida påträffas som inte finns i dokumentet kommer ett undantag att kastas under renderingen. MaxValue betyder den sista sidan i dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar sidor baserat på exakta sidindex.
 
@@ -75,12 +77,12 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 ### Se även
 
 * class [PageSet](../)
-* namnutrymme [Aspose.Words.Saving](../../pageset/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## PageSet(params PageRange[]) {#constructor}
+## PageSet(*params PageRange[]*) {#constructor}
 
 Skapar en siduppsättning baserat på intervall.
 
@@ -92,11 +94,11 @@ public PageSet(params PageRange[] ranges)
 | --- | --- | --- |
 | ranges | PageRange[] | Uppsättning av sidintervall. |
 
-### Anmärkningar
+## Anmärkningar
 
 Om ett intervall påträffas som börjar efter den sista sidan i dokumentet, kommer ett undantag att kastas under renderingen. Alla intervall som slutar efter den sista sidan trunkeras för att passa in i dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar sidor baserat på exakta sidintervall.
 
@@ -115,7 +117,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOp
 
 * class [PageRange](../../pagerange/)
 * class [PageSet](../)
-* namnutrymme [Aspose.Words.Saving](../../pageset/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.RemoveField
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField метод. Удаляет все поле формы а не только специальный символ поля формы.
+linktitle: RemoveField
+articleTitle: RemoveField
+second_title: Aspose.Words для .NET
+description: FormField RemoveField метод. Удаляет все поле формы а не только специальный символ поля формы на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.fields/formfield/removefield/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/formfield/removefield/
 public void RemoveField()
 ```
 
-### Примечания
+## Примечания
 
 Если с полем формы связана закладка, она не удаляется.
 
-### Примеры
+## Примеры
 
 Показывает, как удалить поле формы.
 
@@ -32,7 +34,5 @@ formField.RemoveField();
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

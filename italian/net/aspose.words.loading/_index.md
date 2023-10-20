@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Loading
-second_title: Aspose.Words per .NET API Reference
-description: IL Aspose.Words.Loadingnamespace fornisce classi ed enumerazioni che consentono di specificare opzioni aggiuntive durante il caricamento dei documenti.
+linktitle: Aspose.Words.Loading
+articleTitle: Aspose.Words.Loading
+second_title: Aspose.Words per .NET
+description: ILAspose.Words.Loadingnamespace fornisce classi ed enumerazioni che consentono di specificare opzioni aggiuntive durante il caricamento dei documenti in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words.loading/
 ---
-IL **Aspose.Words.Loading**namespace fornisce classi ed enumerazioni che consentono di specificare opzioni aggiuntive durante il caricamento dei documenti.
+IL**Aspose.Words.Loading**namespace fornisce classi ed enumerazioni che consentono di specificare opzioni aggiuntive durante il caricamento dei documenti.
 
 ## Classi
 
@@ -39,5 +41,3 @@ IL **Aspose.Words.Loading**namespace fornisce classi ed enumerazioni che consent
 | [ResourceType](./resourcetype/) | Tipo di risorsa caricata. |
 | [TxtLeadingSpacesOptions](./txtleadingspacesoptions/) | Specifica le opzioni disponibili per la gestione dello spazio iniziale durante l'importazione daText file. |
 | [TxtTrailingSpacesOptions](./txttrailingspacesoptions/) | Specifica le opzioni disponibili per la gestione degli spazi finali durante l'importazione daText file. |
-
-

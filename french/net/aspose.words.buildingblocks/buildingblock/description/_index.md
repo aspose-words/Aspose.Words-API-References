@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Description
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuildingBlock propriété. Obtient ou définit la description associée à ce bloc de construction.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words pour .NET
+description: BuildingBlock Description propriété. Obtient ou définit la description associée à ce bloc de construction en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.buildingblocks/buildingblock/description/
@@ -14,15 +16,15 @@ Obtient ou définit la description associée à ce bloc de construction.
 public string Description { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La description peut contenir n'importe quel contenu de chaîne, généralement des informations supplémentaires.
 
 C'est pas possible`nul`, mais peut être une chaîne vide.
 
-Correspond au **docPartPr.description** élément dans OOXML.
+Correspond au**docPartPr.description** élément dans OOXML.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter un bloc de construction personnalisé à un document.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Voir également
 
 * class [BuildingBlock](../)
-* espace de noms [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* espace de noms [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Assemblée [Aspose.Words](../../../)
-
-

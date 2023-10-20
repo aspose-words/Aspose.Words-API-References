@@ -1,7 +1,9 @@
 ---
 title: Shape.Stroked
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Определяет будет ли путь обведен.
+linktitle: Stroked
+articleTitle: Stroked
+second_title: Aspose.Words для .NET
+description: Shape Stroked свойство. Определяет будет ли путь обведен на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.drawing/shape/stroked/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/shape/stroked/
 public bool Stroked { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это ярлык для[`On`](../../stroke/on/) свойство.
 
 Значение по умолчанию:`истинный`.
 
-### Примеры
+## Примеры
 
 Показывает, как перебирать все фигуры в документе.
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Смотрите также
 
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

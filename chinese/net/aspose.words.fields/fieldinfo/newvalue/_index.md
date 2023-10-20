@@ -1,7 +1,9 @@
 ---
 title: FieldInfo.NewValue
-second_title: Aspose.Words for .NET API 参考
-description: FieldInfo 财产. 获取或设置更新属性的可选值
+linktitle: NewValue
+articleTitle: NewValue
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldInfo NewValue 财产. 获取或设置更新属性的可选值 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldinfo/newvalue/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldinfo/newvalue/
 public string NewValue { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用 INFO 字段。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.INFO.docx");
 ### 也可以看看
 
 * class [FieldInfo](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldinfo/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

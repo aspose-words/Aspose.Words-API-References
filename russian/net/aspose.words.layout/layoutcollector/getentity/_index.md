@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetEntity
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutCollector метод. Возвращает непрозрачную позициюLayoutEnumerator который соответствует указанному узлу. Вы можете использовать возвращаемое значение в качестве аргументаCurrent учитывая что документ являющийся  и документ узла одинаковы.
+linktitle: GetEntity
+articleTitle: GetEntity
+second_title: Aspose.Words для .NET
+description: LayoutCollector GetEntity метод. Возвращает непрозрачную позициюLayoutEnumerator который соответствует указанному узлу. Вы можете использовать возвращаемое значение в качестве аргументаCurrent учитывая что документ являющийся  и документ узла одинаковы на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.layout/layoutcollector/getentity/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/layoutcollector/getentity/
 public object GetEntity(Node node)
 ```
 
-### Примечания
+## Примечания
 
 Этот метод работает только[`Paragraph`](../../../aspose.words/paragraph/) узлы, а также неделимые встроенные узлы, например[`BookmarkStart`](../../../aspose.words/bookmarkstart/) или[`Shape`](../../../aspose.words.drawing/shape/) . Это не работает для[`Run`](../../../aspose.words/run/) ,[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) или[`Table`](../../../aspose.words.tables/table/) узлы и узлы в верхнем/нижнем колонтитуле.
 
@@ -24,7 +26,7 @@ public object GetEntity(Node node)
 
 Если вам нужно перейти к[`Cell`](../../../aspose.words.tables/cell/) узел, то вы можете перейти к[`Paragraph`](../../../aspose.words/paragraph/) в этой ячейке, а затем перейти к родительскому объекту. Тот же подход можно использовать для[`Row`](../../../aspose.words.tables/row/) и[`Table`](../../../aspose.words.tables/table/) узлы.
 
-### Примеры
+## Примеры
 
 Показывает, как просмотреть диапазоны страниц, охватываемые узлом.
 
@@ -83,7 +85,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* пространство имен [Aspose.Words.Layout](../../layoutcollector/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

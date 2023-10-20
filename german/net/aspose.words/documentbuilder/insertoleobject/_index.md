@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertOleObject
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt ein eingebettetes OLEObjekt aus einem Stream in das Dokument ein.
+linktitle: InsertOleObject
+articleTitle: InsertOleObject
+second_title: Aspose.Words für .NET
+description: DocumentBuilder InsertOleObject methode. Fügt ein eingebettetes OLEObjekt aus einem Stream in das Dokument ein in C#.
 type: docs
-weight: 400
+weight: 390
 url: /de/net/aspose.words/documentbuilder/insertoleobject/
 ---
-## InsertOleObject(Stream, string, bool, Stream) {#insertoleobject}
+## InsertOleObject(*Stream, string, bool, Stream*) {#insertoleobject}
 
 Fügt ein eingebettetes OLE-Objekt aus einem Stream in das Dokument ein.
 
@@ -25,7 +27,7 @@ public Shape InsertOleObject(Stream stream, string progId, bool asIcon, Stream p
 
 Formknoten, der das Ole-Objekt enthält und an der aktuellen Builder-Position eingefügt wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie mit dem Document Builder OLE-Objekte in ein Dokument einbetten.
 
@@ -69,12 +71,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjects.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObject(string, bool, bool, Stream) {#insertoleobject_1}
+## InsertOleObject(*string, bool, bool, Stream*) {#insertoleobject_1}
 
 Fügt ein eingebettetes oder verknüpftes OLE-Objekt aus einer Datei in das Dokument ein. Erkennt den OLE-Objekttyp anhand der Dateierweiterung.
 
@@ -93,7 +95,7 @@ public Shape InsertOleObject(string fileName, bool isLinked, bool asIcon, Stream
 
 Formknoten, der das Ole-Objekt enthält und an der aktuellen Builder-Position eingefügt wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein OLE-Objekt in ein Dokument eingefügt wird.
 
@@ -130,12 +132,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## InsertOleObject(string, string, bool, bool, Stream) {#insertoleobject_2}
+## InsertOleObject(*string, string, bool, bool, Stream*) {#insertoleobject_2}
 
 Fügt ein eingebettetes oder verknüpftes OLE-Objekt aus einer Datei in das Dokument ein. Erkennt den OLE-Objekttyp mithilfe des angegebenen progID-Parameters.
 
@@ -156,7 +158,7 @@ public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool
 
 Formknoten, der das Ole-Objekt enthält und an der aktuellen Builder-Position eingefügt wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein OLE-Objekt in ein Dokument eingefügt wird.
 
@@ -193,7 +195,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

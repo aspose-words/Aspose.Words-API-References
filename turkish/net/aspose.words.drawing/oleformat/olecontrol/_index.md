@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OleControl
-second_title: Aspose.Words for .NET API Referansı
-description: OleFormat mülk. AlırOleControl Bu OLE nesnesi bir ActiveX denetimi ise nesneler. Aksi halde bu özellik null. olur
+linktitle: OleControl
+articleTitle: OleControl
+second_title: Aspose.Words for .NET
+description: OleFormat OleControl mülk. AlırOleControl Bu OLE nesnesi bir ActiveX denetimi ise nesneler. Aksi halde bu özellik null. olur C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing/oleformat/olecontrol/
@@ -14,7 +16,7 @@ Alır`OleControl` Bu OLE nesnesi bir ActiveX denetimi ise nesneler. Aksi halde b
 public OleControl OleControl { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 ActiveX denetiminin özelliklerinin nasıl doğrulanacağını gösterir.
 
@@ -45,7 +47,5 @@ if (oleControl.IsForms2OleControl)
 
 * class [OleControl](../../../aspose.words.drawing.ole/olecontrol/)
 * class [OleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../oleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

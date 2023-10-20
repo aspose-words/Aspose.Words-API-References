@@ -1,7 +1,9 @@
 ---
 title: IImageSavingCallback.ImageSaving
-second_title: Aspose.Words لمراجع .NET API
-description: IImageSavingCallback طريقة. يتم استدعاؤه عندما يقوم Aspose.Words بحفظ صورة بتنسيق HTML.
+linktitle: ImageSaving
+articleTitle: ImageSaving
+second_title: Aspose.Words لـ .NET
+description: IImageSavingCallback ImageSaving طريقة. يتم استدعاؤه عندما يقوم Aspose.Words بحفظ صورة بتنسيق HTML في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/iimagesavingcallback/imagesaving/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/iimagesavingcallback/imagesaving/
 public void ImageSaving(ImageSavingArgs args)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقسيم مستند إلى أجزاء وحفظها.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [ImageSavingArgs](../../imagesavingargs/)
 * interface [IImageSavingCallback](../)
-* مساحة الاسم [Aspose.Words.Saving](../../iimagesavingcallback/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

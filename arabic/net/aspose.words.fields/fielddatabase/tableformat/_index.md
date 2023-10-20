@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.TableFormat
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDatabase ملكية. الحصول على أو تعيين التنسيق الذي سيتم تطبيقه على نتيجة استعلام قاعدة البيانات.
+linktitle: TableFormat
+articleTitle: TableFormat
+second_title: Aspose.Words لـ .NET
+description: FieldDatabase TableFormat ملكية. الحصول على أو تعيين التنسيق الذي سيتم تطبيقه على نتيجة استعلام قاعدة البيانات في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.fields/fielddatabase/tableformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddatabase/tableformat/
 public string TableFormat { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج البيانات من قاعدة البيانات وإدراجها كحقل في المستند.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### أنظر أيضا
 
 * class [FieldDatabase](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddatabase/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

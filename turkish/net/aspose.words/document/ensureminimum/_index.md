@@ -1,9 +1,11 @@
 ---
 title: Document.EnsureMinimum
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Belgede bölüm yoksa tek paragraflı bir bölüm oluşturur.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words for .NET
+description: Document EnsureMinimum yöntem. Belgede bölüm yoksa tek paragraflı bir bölüm oluşturur C#'da.
 type: docs
-weight: 600
+weight: 580
 url: /tr/net/aspose.words/document/ensureminimum/
 ---
 ## Document.EnsureMinimum method
@@ -14,7 +16,7 @@ Belgede bölüm yoksa, tek paragraflı bir bölüm oluşturur.
 public void EnsureMinimum()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin, içeriğini düzenlemek için gereken minimum sayıda düğüm kümesini içerdiğinden nasıl emin olunacağını gösterir.
 
@@ -52,7 +54,5 @@ Assert.AreEqual(NodeType.Paragraph, nodes[2].NodeType);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Symbol
-second_title: Aspose.Words لمراجع .NET API
-description: ChartMarker ملكية. الحصول على رمز علامة المخطط أو تعيينه.
+linktitle: Symbol
+articleTitle: Symbol
+second_title: Aspose.Words لـ .NET
+description: ChartMarker Symbol ملكية. الحصول على رمز علامة المخطط أو تعيينه في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartmarker/symbol/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartmarker/symbol/
 public MarkerSymbol Symbol { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع نقاط البيانات على مخطط خطي.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * enum [MarkerSymbol](../../markersymbol/)
 * class [ChartMarker](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

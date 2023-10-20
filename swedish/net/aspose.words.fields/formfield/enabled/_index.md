@@ -1,7 +1,9 @@
 ---
 title: FormField.Enabled
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. True om ett formulärfält är aktiverat.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words för .NET
+description: FormField Enabled fast egendom. True om ett formulärfält är aktiverat i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/formfield/enabled/
@@ -14,11 +16,11 @@ True om ett formulärfält är aktiverat.
 public bool Enabled { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om ett formulärfält är aktiverat kan dess innehåll ändras när formuläret fylls i.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

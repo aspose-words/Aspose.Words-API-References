@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.PushFont
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Сохраняет текущее форматирование символов в стек.
+linktitle: PushFont
+articleTitle: PushFont
+second_title: Aspose.Words для .NET
+description: DocumentBuilder PushFont метод. Сохраняет текущее форматирование символов в стек на С#.
 type: docs
-weight: 610
+weight: 600
 url: /ru/net/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder.PushFont method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/documentbuilder/pushfont/
 public void PushFont()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать стек форматирования построителя документов.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 * property [Font](../font/)
 * method [PopFont](../popfont/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

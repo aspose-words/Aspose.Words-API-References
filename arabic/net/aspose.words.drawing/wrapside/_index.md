@@ -1,7 +1,9 @@
 ---
-title: Enum WrapSide
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.WrapSide تعداد. يحدد الجانب الجوانب من الشكل أو الصورة الذي يلتف النص حوله.
+title: WrapSide Enum
+linktitle: WrapSide
+articleTitle: WrapSide
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.WrapSide تعداد. يحدد الجانب الجوانب من الشكل أو الصورة الذي يلتف النص حوله في C#.
 type: docs
 weight: 1390
 url: /ar/net/aspose.words.drawing/wrapside/
@@ -24,7 +26,7 @@ public enum WrapSide
 | Largest | `3` | يلتف نص المستند على جانب الشكل الأبعد عن هامش الصفحة، مما يترك مساحة خالية من النص على الجانب الآخر من الشكل. |
 | Default | `0` | القيمة الافتراضية هيBoth . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استبدال جميع أشكال مربعات النص بأشكال الصور.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 * property [WrapSide](../shapebase/wrapside/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

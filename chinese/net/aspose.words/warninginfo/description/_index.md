@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.Description
-second_title: Aspose.Words for .NET API 参考
-description: WarningInfo 财产. 返回警告的描述
+linktitle: Description
+articleTitle: Description
+second_title: 用于 .NET 的 Aspose.Words
+description: WarningInfo Description 财产. 返回警告的描述 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/warninginfo/description/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/warninginfo/description/
 public string Description { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### 也可以看看
 
 * class [WarningInfo](../)
-* 命名空间 [Aspose.Words](../../warninginfo/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CellFormat.PreferredWidth
-second_title: Aspose.Words für .NET-API-Referenz
-description: CellFormat eigendom. Gibt die bevorzugte Breite der Zelle zurück oder legt sie fest.
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words für .NET
+description: CellFormat PreferredWidth eigendom. Gibt die bevorzugte Breite der Zelle zurück oder legt sie fest in C#.
 type: docs
-weight: 80
+weight: 70
 url: /de/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property
@@ -14,7 +16,7 @@ Gibt die bevorzugte Breite der Zelle zurück oder legt sie fest.
 public PreferredWidth PreferredWidth { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die bevorzugte Breite (zusammen mit der Option „Automatische Anpassung“ der Tabelle) bestimmt, wie die tatsächliche -Breite der Zelle vom Tabellenlayout-Algorithmus berechnet wird. Das Tabellenlayout kann von Aspose.Words beim Speichern des Dokuments oder von Microsoft Word beim Anzeigen des Dokuments durchgeführt werden.
 
@@ -22,7 +24,7 @@ Die bevorzugte Breite kann in Punkten oder in Prozent angegeben werden. Die bevo
 
 Der Standardwert ist[`Auto`](../../preferredwidth/auto/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine bevorzugte Breite für Tabellenzellen festlegt.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 * class [PreferredWidth](../../preferredwidth/)
 * class [CellFormat](../)
-* namensraum [Aspose.Words.Tables](../../cellformat/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

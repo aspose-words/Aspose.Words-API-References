@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.GetEnumerator
-second_title: Справочник по API Aspose.Words для .NET
-description: VariableCollection метод. Возвращает объект перечислителя который можно использовать для перебора всех переменных в коллекции.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words для .NET
+description: VariableCollection GetEnumerator метод. Возвращает объект перечислителя который можно использовать для перебора всех переменных в коллекции на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/variablecollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/variablecollection/getenumerator/
 public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией переменных документа.
 
@@ -81,7 +83,5 @@ Assert.That(variables, Is.Empty);
 ### Смотрите также
 
 * class [VariableCollection](../)
-* пространство имен [Aspose.Words](../../variablecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRasterOperations
-second_title: Справочник по API Aspose.Words для .NET
-description: MetafileRenderingOptions свойство. Получает или задает значение определяющее следует ли эмулировать растровые операции.
+linktitle: EmulateRasterOperations
+articleTitle: EmulateRasterOperations
+second_title: Aspose.Words для .NET
+description: MetafileRenderingOptions EmulateRasterOperations свойство. Получает или задает значение определяющее следует ли эмулировать растровые операции на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperation
 public bool EmulateRasterOperations { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 В метафайлах можно использовать определенные растровые операции. Их нельзя визуализировать непосредственно в векторную графику. Эмуляция растровых операций требует частичной растеризации результирующей векторной графики, что может повлиять на производительность рендеринга метафайла .
 
@@ -26,7 +28,7 @@ public bool EmulateRasterOperations { get; set; }
 
 Значение по умолчанию:`истинный`.
 
-### Примеры
+## Примеры
 
 Показывает добавлен запасной вариант рендеринга растровых изображений и изменение типа предупреждений о неподдерживаемых записях метафайлов.
 
@@ -81,7 +83,5 @@ public class HandleDocumentWarnings : IWarningCallback
 ### Смотрите также
 
 * class [MetafileRenderingOptions](../)
-* пространство имен [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

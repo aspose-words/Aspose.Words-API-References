@@ -1,18 +1,20 @@
 ---
 title: Aspose.Words.MailMerging
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.MailMergingnamnrymden innehåller klasser av original sammanslagningsrapporteringsmotorn.
+linktitle: Aspose.Words.MailMerging
+articleTitle: Aspose.Words.MailMerging
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.MailMergingnamnrymden innehåller klasser av original sammanslagningsrapporteringsmotorn i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.mailmerging/
 ---
-De **Aspose.Words.MailMerging**namnrymden innehåller klasser av "original" sammanslagningsrapporteringsmotorn.
+De**Aspose.Words.MailMerging**namnrymden innehåller klasser av "original" sammanslagningsrapporteringsmotorn.
 
 ## Klasser
 
 | Klass | Beskrivning |
 | --- | --- |
-| [FieldMergingArgs](./fieldmergingargs/) | Tillhandahåller data för **MergeField** händelse. |
+| [FieldMergingArgs](./fieldmergingargs/) | Tillhandahåller data för**MergeField** händelse. |
 | [FieldMergingArgsBase](./fieldmergingargsbase/) | Basklass för[`FieldMergingArgs`](../aspose.words.mailmerging/fieldmergingargs/) och[`ImageFieldMergingArgs`](../aspose.words.mailmerging/imagefieldmergingargs/) . |
 | [ImageFieldMergingArgs](./imagefieldmergingargs/) | Tillhandahåller data för[`ImageFieldMerging`](../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/) händelse. |
 | [MailMerge](./mailmerge/) | Representerar funktionen för sammankoppling av brev. |
@@ -32,5 +34,3 @@ De **Aspose.Words.MailMerging**namnrymden innehåller klasser av "original" samm
 | Uppräkning | Beskrivning |
 | --- | --- |
 | [MailMergeCleanupOptions](./mailmergecleanupoptions/) | Anger alternativ som bestämmer vilka objekt som tas bort under kopplingen. |
-
-

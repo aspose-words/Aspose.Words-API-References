@@ -1,7 +1,9 @@
 ---
-title: Class ListLabel
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Lists.ListLabel сорт. Определяет свойства специфичные для метки списка.
+title: ListLabel Class
+linktitle: ListLabel
+articleTitle: ListLabel
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Lists.ListLabel сорт. Определяет свойства специфичные для метки списка на С#.
 type: docs
 weight: 3490
 url: /ru/net/aspose.words.lists/listlabel/
@@ -24,7 +26,7 @@ public class ListLabel
 | [LabelString](../../aspose.words.lists/listlabel/labelstring/) { get; } | Получает строковое представление метки списка. |
 | [LabelValue](../../aspose.words.lists/listlabel/labelvalue/) { get; } | Получает числовое значение для этой метки. |
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь метки списка всех абзацев, которые являются элементами списка.
 
@@ -60,5 +62,3 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * пространство имен [Aspose.Words.Lists](../../aspose.words.lists/)
 * сборка [Aspose.Words](../../)
-
-

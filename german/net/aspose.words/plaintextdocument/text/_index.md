@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: PlainTextDocument eigendom. Ruft den als String verketteten Textinhalt des Dokuments ab.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: PlainTextDocument Text eigendom. Ruft den als String verketteten Textinhalt des Dokuments ab in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/plaintextdocument/text/
@@ -14,7 +16,7 @@ Ruft den als String verketteten Textinhalt des Dokuments ab.
 public string Text { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt eines Microsoft Word-Dokuments im Klartext geladen wird.
 
@@ -33,7 +35,5 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### Siehe auch
 
 * class [PlainTextDocument](../)
-* namensraum [Aspose.Words](../../plaintextdocument/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

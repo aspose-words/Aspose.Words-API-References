@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.FieldName
-second_title: Aspose.Words for .NET API 参考
-description: FieldMergeField 财产. 获取或设置数据字段的名称
+linktitle: FieldName
+articleTitle: FieldName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMergeField FieldName 财产. 获取或设置数据字段的名称 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldmergefield/fieldname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldmergefield/fieldname/
 public string FieldName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 MERGEFIELD 字段来执行邮件合并。
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### 也可以看看
 
 * class [FieldMergeField](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldmergefield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

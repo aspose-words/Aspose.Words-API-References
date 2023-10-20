@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedCss
-second_title: Aspose.Words för .NET API Referens
-description: HtmlFixedSaveOptions fast egendom. Anger om CSS Cascading Style Sheet ska bäddas in i HTMLdokument.
+linktitle: ExportEmbeddedCss
+articleTitle: ExportEmbeddedCss
+second_title: Aspose.Words för .NET
+description: HtmlFixedSaveOptions ExportEmbeddedCss fast egendom. Anger om CSS Cascading Style Sheet ska bäddas in i HTMLdokument i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedcss/
@@ -14,7 +16,7 @@ Anger om CSS (Cascading Style Sheet) ska bäddas in i HTML-dokument.
 public bool ExportEmbeddedCss { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bestämmer var man ska lagra CSS-formatmallar när man exporterar ett dokument till HTML.
 
@@ -51,7 +53,5 @@ else
 ### Se även
 
 * class [HtmlFixedSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

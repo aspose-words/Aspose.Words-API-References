@@ -1,7 +1,9 @@
 ---
-title: Class ViewOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.ViewOptions sınıf. Bir belgenin Microsoft Wordde nasıl gösterileceğini kontrol eden çeşitli seçenekler sağlar.
+title: ViewOptions Class
+linktitle: ViewOptions
+articleTitle: ViewOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Settings.ViewOptions sınıf. Bir belgenin Microsoft Wordde nasıl gösterileceğini kontrol eden çeşitli seçenekler sağlar C#'da.
 type: docs
 weight: 5950
 url: /tr/net/aspose.words.settings/viewoptions/
@@ -27,7 +29,7 @@ public class ViewOptions
 | [ZoomPercent](../../aspose.words.settings/viewoptions/zoompercent/) { get; set; } | Belgenizi görüntülemek istediğiniz yüzdeyi (10 ile 500 arasında) alır veya ayarlar. |
 | [ZoomType](../../aspose.words.settings/viewoptions/zoomtype/) { get; set; } | Pencerenin boyutuna göre bir yakınlaştırma değeri alır veya ayarlar. |
 
-### Örnekler
+## Örnekler
 
 Microsoft Word'ün eski sürümlerinin yükleme sırasında bir belgeye uygulayacağı özel yakınlaştırma faktörünün nasıl ayarlanacağını gösterir.
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");
 * property [ViewOptions](../../aspose.words/document/viewoptions/)
 * ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Shading.ForegroundPatternThemeColor
-second_title: Aspose.Words for .NET API 参考
-description: Shading 财产. 获取或设置与此关联的已应用配色方案中的前景图案主题颜色Shading对象.
+linktitle: ForegroundPatternThemeColor
+articleTitle: ForegroundPatternThemeColor
+second_title: 用于 .NET 的 Aspose.Words
+description: Shading ForegroundPatternThemeColor 财产. 获取或设置与此关联的已应用配色方案中的前景图案主题颜色Shading对象 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/shading/foregroundpatternthemecolor/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/shading/foregroundpatternthemecolor/
 public ThemeColor ForegroundPatternThemeColor { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置着色纹理的前景色和背景色。
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.ForegroundAndBackground.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Shading](../)
-* 命名空间 [Aspose.Words](../../shading/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

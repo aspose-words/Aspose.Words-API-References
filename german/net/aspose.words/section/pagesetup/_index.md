@@ -1,7 +1,9 @@
 ---
 title: Section.PageSetup
-second_title: Aspose.Words für .NET-API-Referenz
-description: Section eigendom. Gibt ein Objekt zurück das die Seiteneinrichtung und Abschnittseigenschaften darstellt.
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words für .NET
+description: Section PageSetup eigendom. Gibt ein Objekt zurück das die Seiteneinrichtung und Abschnittseigenschaften darstellt in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/section/pagesetup/
@@ -14,7 +16,7 @@ Gibt ein Objekt zurück, das die Seiteneinrichtung und Abschnittseigenschaften d
 public PageSetup PageSetup { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man oben auf der ersten Seite einen breiten blauen Bandrand erstellt.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [PageSetup](../../pagesetup/)
 * class [Section](../)
-* namensraum [Aspose.Words](../../section/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

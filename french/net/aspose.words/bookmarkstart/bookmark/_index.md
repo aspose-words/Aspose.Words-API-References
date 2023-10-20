@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.Bookmark
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarkStart propriété. Obtient lobjet de façade qui encapsule le début et la fin de ce signet.
+linktitle: Bookmark
+articleTitle: Bookmark
+second_title: Aspose.Words pour .NET
+description: BookmarkStart Bookmark propriété. Obtient lobjet de façade qui encapsule le début et la fin de ce signet en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/bookmarkstart/bookmark/
@@ -14,7 +16,7 @@ Obtient l'objet de façade qui encapsule le début et la fin de ce signet.
 public Bookmark Bookmark { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des signets et mettre à jour leur contenu.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkStart](../)
-* espace de noms [Aspose.Words](../../bookmarkstart/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

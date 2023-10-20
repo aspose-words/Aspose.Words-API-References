@@ -1,7 +1,9 @@
 ---
 title: MailMerge.GetRegionsByName
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge método. Devuelve una colección de regiones de combinación de correspondencia con el nombre especificado.
+linktitle: GetRegionsByName
+articleTitle: GetRegionsByName
+second_title: Aspose.Words para .NET
+description: MailMerge GetRegionsByName método. Devuelve una colección de regiones de combinación de correspondencia con el nombre especificado en C#.
 type: docs
 weight: 240
 url: /es/net/aspose.words.mailmerging/mailmerge/getregionsbyname/
@@ -22,7 +24,7 @@ public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
 
 La lista de regiones.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear, enumerar y leer regiones de combinación de correspondencia.
 
@@ -78,7 +80,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 
 * class [MailMergeRegionInfo](../../mailmergeregioninfo/)
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,26 +1,28 @@
 ---
 title: Footnote.ReferenceMark
-second_title: Referencia de API de Aspose.Words para .NET
-description: Footnote propiedad. Obtiene/establece la marca de referencia personalizada que se utilizará para esta nota al pie. El valor predeterminado es cuerda vacía Empty  lo que significa que se utilizan notas al pie numeradas automáticamente.
+linktitle: ReferenceMark
+articleTitle: ReferenceMark
+second_title: Aspose.Words para .NET
+description: Footnote ReferenceMark propiedad. Obtiene/establece la marca de referencia personalizada que se utilizará para esta nota al pie. El valor predeterminado escuerda vacía Empty  lo que significa que se utilizan notas al pie numeradas automáticamente en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.notes/footnote/referencemark/
 ---
 ## Footnote.ReferenceMark property
 
-Obtiene/establece la marca de referencia personalizada que se utilizará para esta nota al pie. El valor predeterminado es **cuerda vacía** (Empty ), lo que significa que se utilizan notas al pie numeradas automáticamente.
+Obtiene/establece la marca de referencia personalizada que se utilizará para esta nota al pie. El valor predeterminado es**cuerda vacía** (Empty ), lo que significa que se utilizan notas al pie numeradas automáticamente.
 
 ```csharp
 public string ReferenceMark { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
-Si esta propiedad se establece en **cuerda vacía** (Empty ) o`nulo` , entonces[`IsAuto`](../isauto/) La propiedad se establecerá automáticamente en`verdadero` , si está configurado en cualquier otra cosa, entonces[`IsAuto`](../isauto/) se establecerá en`FALSO` .
+Si esta propiedad se establece en**cuerda vacía** (Empty ) o`nulo` , entonces[`IsAuto`](../isauto/) La propiedad se establecerá automáticamente en`verdadero` , si está configurado en cualquier otra cosa, entonces[`IsAuto`](../isauto/) se establecerá en`FALSO` .
 
 El formato RTF solo puede almacenar 1 símbolo como marca de referencia personalizada, por lo que al exportar solo se escribirá el primer símbolo, los demás se descartarán.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar y personalizar notas al pie.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 ### Ver también
 
 * class [Footnote](../)
-* espacio de nombres [Aspose.Words.Notes](../../footnote/)
+* espacio de nombres [Aspose.Words.Notes](../../../aspose.words.notes/)
 * asamblea [Aspose.Words](../../../)
-
-

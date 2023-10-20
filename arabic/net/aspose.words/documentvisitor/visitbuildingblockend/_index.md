@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBuildingBlockEnd
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند انتهاء تعداد الكتلة البرمجية الإنشائية.
+linktitle: VisitBuildingBlockEnd
+articleTitle: VisitBuildingBlockEnd
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitBuildingBlockEnd طريقة. يتم استدعاؤه عند انتهاء تعداد الكتلة البرمجية الإنشائية في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/documentvisitor/visitbuildingblockend/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitBuildingBlockEnd(BuildingBlock block)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### ملاحظات
+## ملاحظات
 
 ملاحظة: لا تتم زيارة عقدة الكتلة البرمجية الإنشائية وأبناءها عند تنفيذ a Visitor عبر a[`Document`](../../document/) . إذا كنت تريد تنفيذ زائر عبر الكتلة البرمجية الإنشائية a ، فستحتاج إلى تنفيذ الزائر عبر[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) أو الاتصال[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/) .
 
-### أمثلة
+## أمثلة
 
 يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند المسرد.
 
@@ -132,7 +134,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

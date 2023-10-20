@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertHorizontalRule
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce una forma di filetto orizzontale nel documento.
+linktitle: InsertHorizontalRule
+articleTitle: InsertHorizontalRule
+second_title: Aspose.Words per .NET
+description: DocumentBuilder InsertHorizontalRule metodo. Inserisce una forma di filetto orizzontale nel documento in C#.
 type: docs
-weight: 350
+weight: 340
 url: /it/net/aspose.words/documentbuilder/inserthorizontalrule/
 ---
 ## DocumentBuilder.InsertHorizontalRule method
@@ -18,7 +20,7 @@ public Shape InsertHorizontalRule()
 
 La forma che è una regola orizzontale.
 
-### Esempi
+## Esempi
 
 Mostra come inserire una forma di filetto orizzontale e personalizzarne la formattazione.
 
@@ -42,7 +44,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

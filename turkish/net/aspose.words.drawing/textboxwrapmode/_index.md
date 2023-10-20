@@ -1,7 +1,9 @@
 ---
-title: Enum TextBoxWrapMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.TextBoxWrapMode Sıralama. Metnin şeklin içinde nasıl kaydırılacağını belirtir.
+title: TextBoxWrapMode Enum
+linktitle: TextBoxWrapMode
+articleTitle: TextBoxWrapMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.TextBoxWrapMode Sıralama. Metnin şeklin içinde nasıl kaydırılacağını belirtir C#'da.
 type: docs
 weight: 1340
 url: /tr/net/aspose.words.drawing/textboxwrapmode/
@@ -21,7 +23,7 @@ public enum TextBoxWrapMode
 | Square | `0` | Metin bir şeklin içine sarılır. |
 | None | `2` | Metin şeklin içine sarılmıyor. |
 
-### Örnekler
+## Örnekler
 
 Metin kutusunun içeriği için sarma modunun nasıl ayarlanacağını gösterir.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "Shape.TextBoxContentsWrapMode.docx");
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreTextboxes
-second_title: Справочник по API Aspose.Words для .NET
-description: CompareOptions свойство. Указывает следует ли сравнивать различия в данных содержащихся в текстовых полях. По умолчанию текстовые поля не игнорируются.
+linktitle: IgnoreTextboxes
+articleTitle: IgnoreTextboxes
+second_title: Aspose.Words для .NET
+description: CompareOptions IgnoreTextboxes свойство. Указывает следует ли сравнивать различия в данных содержащихся в текстовых полях. По умолчанию текстовые поля не игнорируются на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.comparing/compareoptions/ignoretextboxes/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.comparing/compareoptions/ignoretextboxes/
 public bool IgnoreTextboxes { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как фильтровать определенные типы элементов документа при сравнении.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Смотрите также
 
 * class [CompareOptions](../)
-* пространство имен [Aspose.Words.Comparing](../../compareoptions/)
+* пространство имен [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * сборка [Aspose.Words](../../../)
-
-

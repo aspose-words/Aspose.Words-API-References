@@ -1,7 +1,9 @@
 ---
-title: Interface IFontSavingCallback
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.IFontSavingCallback gränssnitt. Implementera detta gränssnitt om du vill ta emot meddelanden och kontrollera hur Aspose.Words sparar teckensnitt när du exporterar ett dokument till HTMLformat.
+title: IFontSavingCallback Interface
+linktitle: IFontSavingCallback
+articleTitle: IFontSavingCallback
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.IFontSavingCallback gränssnitt. Implementera detta gränssnitt om du vill ta emot meddelanden och kontrollera hur Aspose.Words sparar teckensnitt när du exporterar ett dokument till HTMLformat i C#.
 type: docs
 weight: 5160
 url: /sv/net/aspose.words.saving/ifontsavingcallback/
@@ -18,9 +20,9 @@ public interface IFontSavingCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(FontSavingArgs) | Anropas när Aspose.Words håller på att spara en teckensnittsresurs. |
+| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(*[FontSavingArgs](../fontsavingargs/)*) | Anropas när Aspose.Words håller på att spara en teckensnittsresurs. |
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
@@ -81,5 +83,3 @@ public class HandleFontSaving : IFontSavingCallback
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

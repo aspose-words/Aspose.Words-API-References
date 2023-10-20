@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListLevel
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListFormat propriété. Renvoie le formatage au niveau de la liste ainsi que tout remplacement de formatage appliqué au paragraphe actuel.
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: Aspose.Words pour .NET
+description: ListFormat ListLevel propriété. Renvoie le formatage au niveau de la liste ainsi que tout remplacement de formatage appliqué au paragraphe actuel en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.lists/listformat/listlevel/
@@ -14,7 +16,7 @@ Renvoie le formatage au niveau de la liste ainsi que tout remplacement de format
 public ListLevel ListLevel { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListFormat](../)
-* espace de noms [Aspose.Words.Lists](../../listformat/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

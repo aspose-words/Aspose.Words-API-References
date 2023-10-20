@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UlTrailSpace
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. تسطير جميع المسافات الزائدة.
+linktitle: UlTrailSpace
+articleTitle: UlTrailSpace
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions UlTrailSpace ملكية. تسطير جميع المسافات الزائدة في C#.
 type: docs
 weight: 580
 url: /ar/net/aspose.words.settings/compatibilityoptions/ultrailspace/
@@ -17,7 +19,5 @@ public bool UlTrailSpace { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.Callback
-second_title: Aspose.Words for .NET API 参考
-description: Hyphenation 财产. 获取或设置用于在构建文档页面布局时请求字典的回调接口 这允许延迟加载字典这在处理多种语言的文档时可能很有用
+linktitle: Callback
+articleTitle: Callback
+second_title: 用于 .NET 的 Aspose.Words
+description: Hyphenation Callback 财产. 获取或设置用于在构建文档页面布局时请求字典的回调接口 这允许延迟加载字典这在处理多种语言的文档时可能很有用 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/hyphenation/callback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/hyphenation/callback/
 public static IHyphenationCallback Callback { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何从文件打开和注册字典。
 
@@ -91,7 +93,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * interface [IHyphenationCallback](../../ihyphenationcallback/)
 * class [Hyphenation](../)
-* 命名空间 [Aspose.Words](../../hyphenation/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

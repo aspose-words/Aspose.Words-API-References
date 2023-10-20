@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.DetectNumberingWithWhitespaces
-second_title: Aspose.Words für .NET-API-Referenz
-description: TxtLoadOptions eigendom. Ermöglicht die Angabe wie nummerierte Listenelemente erkannt werden wenn ein Dokument aus dem NurTextFormat importiert wird. Der Standardwert istWAHR.
+linktitle: DetectNumberingWithWhitespaces
+articleTitle: DetectNumberingWithWhitespaces
+second_title: Aspose.Words für .NET
+description: TxtLoadOptions DetectNumberingWithWhitespaces eigendom. Ermöglicht die Angabe wie nummerierte Listenelemente erkannt werden wenn ein Dokument aus dem NurTextFormat importiert wird. Der Standardwert istWAHR in C#.
 type: docs
-weight: 40
+weight: 30
 url: /de/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions.DetectNumberingWithWhitespaces property
@@ -14,13 +16,13 @@ Ermöglicht die Angabe, wie nummerierte Listenelemente erkannt werden, wenn ein 
 public bool DetectNumberingWithWhitespaces { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn diese Option auf eingestellt ist`FALSCH`Der Listenerkennungsalgorithmus erkennt Listenabsätze, wenn Listennummern mit enden, entweder mit einem Punkt, einer rechten Klammer oder einem Aufzählungszeichen (z. B. „•“, „*“, „-“ oder „o“).
 
 Wenn diese Option auf eingestellt ist`WAHR`Leerzeichen werden auch als Trennzeichen für Listennummern verwendet: Der Listenerkennungsalgorithmus für die Nummerierung im arabischen Stil (1., 1.1.2.) verwendet sowohl Leerzeichen als auch Punktsymbole (".").
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Listen beim Laden von Klartextdokumenten erkannt werden.
 
@@ -74,7 +76,5 @@ else
 ### Siehe auch
 
 * class [TxtLoadOptions](../)
-* namensraum [Aspose.Words.Loading](../../txtloadoptions/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

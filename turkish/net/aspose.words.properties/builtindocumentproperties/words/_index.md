@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Words
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Belgedeki sözcük sayısına ilişkin bir tahmindir.
+linktitle: Words
+articleTitle: Words
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties Words mülk. Belgedeki sözcük sayısına ilişkin bir tahmindir C#'da.
 type: docs
 weight: 330
 url: /tr/net/aspose.words.properties/builtindocumentproperties/words/
@@ -14,11 +16,11 @@ Belgedeki sözcük sayısına ilişkin bir tahmindir.
 public int Words { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words aradığınızda bu özelliği günceller[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm liste etiketlerinin nasıl güncelleştirileceğini gösterir.
 
@@ -160,7 +162,5 @@ private class LineCounter
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

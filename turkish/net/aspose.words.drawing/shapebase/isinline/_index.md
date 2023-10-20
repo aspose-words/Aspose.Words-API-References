@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsInline
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Bu şeklin metinle satır içi olarak konumlandırılıp konumlandırılmadığını belirlemenin hızlı bir yolu.
+linktitle: IsInline
+articleTitle: IsInline
+second_title: Aspose.Words for .NET
+description: ShapeBase IsInline mülk. Bu şeklin metinle satır içi olarak konumlandırılıp konumlandırılmadığını belirlemenin hızlı bir yolu C#'da.
 type: docs
 weight: 290
 url: /tr/net/aspose.words.drawing/shapebase/isinline/
@@ -14,11 +16,11 @@ Bu şeklin metinle satır içi olarak konumlandırılıp konumlandırılmadığ�
 public bool IsInline { get; }
 ```
 
-### Notlar
+## Notlar
 
 Yalnızca üst düzey şekiller için etkilidir.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin satır içi mi yoksa kayan mı olduğunun nasıl belirleneceğini gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.IsInline.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

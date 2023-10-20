@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.TopLeftCell
-second_title: Справочник по API Aspose.Words для .NET
-description: ConditionalStyleCollection свойство. Получает стиль верхней левой ячейки.
+linktitle: TopLeftCell
+articleTitle: TopLeftCell
+second_title: Aspose.Words для .NET
+description: ConditionalStyleCollection TopLeftCell свойство. Получает стиль верхней левой ячейки на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words/conditionalstylecollection/topleftcell/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/conditionalstylecollection/topleftcell/
 public ConditionalStyle TopLeftCell { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с определенными стилями областей таблицы.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* пространство имен [Aspose.Words](../../conditionalstylecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

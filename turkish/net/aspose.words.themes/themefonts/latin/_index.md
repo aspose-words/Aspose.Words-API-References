@@ -1,7 +1,9 @@
 ---
 title: ThemeFonts.Latin
-second_title: Aspose.Words for .NET API Referansı
-description: ThemeFonts mülk. Latin karakterler için yazı tipi adını belirtir.
+linktitle: Latin
+articleTitle: Latin
+second_title: Aspose.Words for .NET
+description: ThemeFonts Latin mülk. Latin karakterler için yazı tipi adını belirtir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.themes/themefonts/latin/
@@ -14,7 +16,7 @@ Latin karakterler için yazı tipi adını belirtir.
 public string Latin { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını gösterir.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Ayrıca bakınız
 
 * class [ThemeFonts](../)
-* ad alanı [Aspose.Words.Themes](../../themefonts/)
+* ad alanı [Aspose.Words.Themes](../../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../../)
-
-

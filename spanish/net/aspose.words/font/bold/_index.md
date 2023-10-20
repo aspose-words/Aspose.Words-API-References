@@ -1,7 +1,9 @@
 ---
 title: Font.Bold
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Verdadero si la fuente tiene el formato negrita.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words para .NET
+description: Font Bold propiedad. Verdadero si la fuente tiene el formato negrita en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/font/bold/
@@ -14,7 +16,7 @@ Verdadero si la fuente tiene el formato negrita.
 public bool Bold { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar texto formateado usando DocumentBuilder.
 
@@ -36,7 +38,5 @@ builder.Write("Hello world!");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

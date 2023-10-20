@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Remove
-second_title: Aspose.Words för .NET API Referens
-description: GradientStopCollection metod. Tar bort en angivenGradientStop från samlingen.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words för .NET
+description: GradientStopCollection Remove metod. Tar bort en angivenGradientStop från samlingen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing/gradientstopcollection/remove/
@@ -18,7 +20,7 @@ public bool Remove(GradientStop gradientStop)
 
 `Sann` om gradientstoppet har tagits bort, annars`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till övertoningsstopp i övertoningsfyllningen.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* namnutrymme [Aspose.Words.Drawing](../../gradientstopcollection/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.NumberFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabelCollection свойство. ПолучаетChartNumberFormat экземпляр позволяющий установить числовой формат для меток данных всей серии .
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words для .NET
+description: ChartDataLabelCollection NumberFormat свойство. ПолучаетChartNumberFormat экземпляр позволяющий установить числовой формат для меток данных всей серии  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как включить и настроить метки данных для серии диаграмм.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartDataLabelCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

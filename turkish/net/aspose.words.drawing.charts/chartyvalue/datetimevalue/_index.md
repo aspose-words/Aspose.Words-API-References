@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.DateTimeValue
-second_title: Aspose.Words for .NET API Referansı
-description: ChartYValue mülk. Saklanan tarihsaat değerini alır.
+linktitle: DateTimeValue
+articleTitle: DateTimeValue
+second_title: Aspose.Words for .NET
+description: ChartYValue DateTimeValue mülk. Saklanan tarihsaat değerini alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.charts/chartyvalue/datetimevalue/
@@ -17,7 +19,5 @@ public DateTime DateTimeValue { get; }
 ### Ayrıca bakınız
 
 * class [ChartYValue](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

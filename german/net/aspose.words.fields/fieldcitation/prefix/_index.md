@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.Prefix
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCitation eigendom. Ruft ein Präfix ab oder legt es fest das dem Zitat vorangestellt wird.
+linktitle: Prefix
+articleTitle: Prefix
+second_title: Aspose.Words für .NET
+description: FieldCitation Prefix eigendom. Ruft ein Präfix ab oder legt es fest das dem Zitat vorangestellt wird in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldcitation/prefix/
@@ -14,7 +16,7 @@ Ruft ein Präfix ab oder legt es fest, das dem Zitat vorangestellt wird.
 public string Prefix { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den Feldern CITATION und BIBLIOGRAPHY gearbeitet wird.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Siehe auch
 
 * class [FieldCitation](../)
-* namensraum [Aspose.Words.Fields](../../fieldcitation/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

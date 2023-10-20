@@ -1,9 +1,11 @@
 ---
 title: CellFormat.HorizontalMerge
-second_title: Aspose.Words för .NET API Referens
-description: CellFormat fast egendom. Anger hur cellen sammanfogas horisontellt med andra celler i raden.
+linktitle: HorizontalMerge
+articleTitle: HorizontalMerge
+second_title: Aspose.Words för .NET
+description: CellFormat HorizontalMerge fast egendom. Anger hur cellen sammanfogas horisontellt med andra celler i raden i C#.
 type: docs
-weight: 50
+weight: 40
 url: /sv/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
@@ -14,7 +16,7 @@ Anger hur cellen sammanfogas horisontellt med andra celler i raden.
 public CellMerge HorizontalMerge { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man slår samman tabellceller horisontellt.
 
@@ -80,7 +82,5 @@ public string PrintCellMergeType(Cell cell)
 * property [VerticalMerge](../verticalmerge/)
 * enum [CellMerge](../../cellmerge/)
 * class [CellFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../cellformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

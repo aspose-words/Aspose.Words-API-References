@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.ConvertSvgToEmf
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlLoadOptions mülk. Yüklenen SVG görüntülerinin EMF formatına dönüştürülüp dönüştürülmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değerYANLIŞ ve mümkünse yüklenen SVG görüntüleri dönüştürme yapılmadan olduğu gibi depolanır.
+linktitle: ConvertSvgToEmf
+articleTitle: ConvertSvgToEmf
+second_title: Aspose.Words for .NET
+description: HtmlLoadOptions ConvertSvgToEmf mülk. Yüklenen SVG görüntülerinin EMF formatına dönüştürülüp dönüştürülmeyeceğini belirten bir değer alır veya ayarlar. Varsayılan değerYANLIŞ ve mümkünse yüklenen SVG görüntüleri dönüştürme yapılmadan olduğu gibi depolanır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.loading/htmlloadoptions/convertsvgtoemf/
@@ -14,13 +16,13 @@ Yüklenen SVG görüntülerinin EMF formatına dönüştürülüp dönüştürü
 public bool ConvertSvgToEmf { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 MS Word'ün daha yeni sürümleri, SVG resimlerini yerel olarak destekler. Yükleme seçeneklerinde belirtilen MS Word sürümü SVG'yi destekliyorsa Aspose.Words, SVG görüntülerini dönüştürme olmadan olduğu gibi saklar. SVG desteklenmiyorsa yüklenen SVG görüntüleri EMF formatına dönüştürülecektir.
 
 Ancak bu seçenek şu şekilde ayarlanmışsa:`doğru` , Aspose.Words, SVG görselleri MS Word'ün belirtilen sürümü tarafından desteklense bile, yüklenen SVG görsellerini EMF'ye dönüştürecektir.
 
-### Örnekler
+## Örnekler
 
 HTML belgelerini kaydederken SVG nesnelerinin farklı bir formata nasıl dönüştürüleceğini gösterir.
 
@@ -79,7 +81,5 @@ switch (htmlMetafileFormat)
 ### Ayrıca bakınız
 
 * class [HtmlLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../htmlloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

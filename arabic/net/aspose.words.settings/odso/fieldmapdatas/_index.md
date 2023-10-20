@@ -1,7 +1,9 @@
 ---
 title: Odso.FieldMapDatas
-second_title: Aspose.Words لمراجع .NET API
-description: Odso ملكية. الحصول على أو تعيين مجموعة من الكائنات التي تحدد كيفية تعيين الأعمدة من مصدر البيانات الخارجي إلى أسماء حقول الدمج المحددة مسبقًا في المستند. لا يتم استخدام هذا الكائن أبدًاباطل .
+linktitle: FieldMapDatas
+articleTitle: FieldMapDatas
+second_title: Aspose.Words لـ .NET
+description: Odso FieldMapDatas ملكية. الحصول على أو تعيين مجموعة من الكائنات التي تحدد كيفية تعيين الأعمدة من مصدر البيانات الخارجي إلى أسماء حقول الدمج المحددة مسبقًا في المستند. لا يتم استخدام هذا الكائن أبدًاباطل  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.settings/odso/fieldmapdatas/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odso/fieldmapdatas/
 public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapDataCollection](../../odsofieldmapdatacollection/)
 * class [Odso](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odso/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

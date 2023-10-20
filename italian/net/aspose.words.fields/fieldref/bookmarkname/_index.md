@@ -1,7 +1,9 @@
 ---
 title: FieldRef.BookmarkName
-second_title: Aspose.Words per .NET API Reference
-description: FieldRef proprietà. Ottiene o imposta il nome del segnalibro di riferimento.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words per .NET
+description: FieldRef BookmarkName proprietà. Ottiene o imposta il nome del segnalibro di riferimento in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldref/bookmarkname/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del segnalibro di riferimento.
 public string BookmarkName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare testo con segnalibro con un campo SET e quindi visualizzarlo nel documento utilizzando un campo REF.
 
@@ -130,7 +132,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Guarda anche
 
 * class [FieldRef](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldref/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

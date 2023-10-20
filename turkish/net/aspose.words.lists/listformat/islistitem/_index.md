@@ -1,7 +1,9 @@
 ---
 title: ListFormat.IsListItem
-second_title: Aspose.Words for .NET API Referansı
-description: ListFormat mülk. Paragrafa madde işaretli veya numaralı biçimlendirme uygulandığında doğrudur.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words for .NET
+description: ListFormat IsListItem mülk. Paragrafa madde işaretli veya numaralı biçimlendirme uygulandığında doğrudur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.lists/listformat/islistitem/
@@ -14,7 +16,7 @@ Paragrafa madde işaretli veya numaralı biçimlendirme uygulandığında doğru
 public bool IsListItem { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki liste öğesi olan tüm paragrafların çıktısının nasıl alınacağını gösterir.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 ### Ayrıca bakınız
 
 * class [ListFormat](../)
-* ad alanı [Aspose.Words.Lists](../../listformat/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

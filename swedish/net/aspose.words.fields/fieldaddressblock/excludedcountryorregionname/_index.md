@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.ExcludedCountryOrRegionName
-second_title: Aspose.Words för .NET API Referens
-description: FieldAddressBlock fast egendom. Hämtar eller ställer in namnet på det uteslutna landet/regionen.
+linktitle: ExcludedCountryOrRegionName
+articleTitle: ExcludedCountryOrRegionName
+second_title: Aspose.Words för .NET
+description: FieldAddressBlock ExcludedCountryOrRegionName fast egendom. Hämtar eller ställer in namnet på det uteslutna landet/regionen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldaddressblock/excludedcountryorregionname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på det uteslutna landet/regionen.
 public string ExcludedCountryOrRegionName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett ADDRESSBLOCK-fält.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Se även
 
 * class [FieldAddressBlock](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldaddressblock/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

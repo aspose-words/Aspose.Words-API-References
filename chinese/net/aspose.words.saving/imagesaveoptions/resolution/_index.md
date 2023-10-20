@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Resolution
-second_title: Aspose.Words for .NET API 参考
-description: ImageSaveOptions 财产. 设置生成图像的水平和垂直分辨率以每英寸点数为单位
+linktitle: Resolution
+articleTitle: Resolution
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSaveOptions Resolution 财产. 设置生成图像的水平和垂直分辨率以每英寸点数为单位 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.saving/imagesaveoptions/resolution/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/imagesaveoptions/resolution/
 public float Resolution { set; }
 ```
 
-### 评论
+## 评论
 
 此属性仅在保存为光栅图像格式时有效。
 
-### 例子
+## 例子
 
 演示如何在将文档渲染为 PNG 时指定分辨率。
 
@@ -79,7 +81,5 @@ Document doc = new Document();
 ### 也可以看看
 
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Separator
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabel mülk. Grafikteki veri etiketleri için kullanılan dize ayırıcıyı alır veya ayarlar. Yalnızca kategori adını ve yüzdesini gösteren pasta grafikleri dışında varsayılan değer virgüldür bunun yerine satır sonu kullanılacaktır.
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words for .NET
+description: ChartDataLabel Separator mülk. Grafikteki veri etiketleri için kullanılan dize ayırıcıyı alır veya ayarlar. Yalnızca kategori adını ve yüzdesini gösteren pasta grafikleri dışında varsayılan değer virgüldür bunun yerine satır sonu kullanılacaktır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing.charts/chartdatalabel/separator/
@@ -14,7 +16,7 @@ Grafikteki veri etiketleri için kullanılan dize ayırıcıyı alır veya ayarl
 public string Separator { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Ayrıca bakınız
 
 * class [ChartDataLabel](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

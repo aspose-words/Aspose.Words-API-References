@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.InsertReferenceMark
-second_title: Aspose.Words för .NET API Referens
-description: FieldNoteRef fast egendom. Infogar referensmärket med samma teckenformatering som stilen Fotnotsreferens eller slutnotsreferens.
+linktitle: InsertReferenceMark
+articleTitle: InsertReferenceMark
+second_title: Aspose.Words för .NET
+description: FieldNoteRef InsertReferenceMark fast egendom. Infogar referensmärket med samma teckenformatering som stilen Fotnotsreferens eller slutnotsreferens i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldnoteref/insertreferencemark/
@@ -14,7 +16,7 @@ Infogar referensmärket med samma teckenformatering som stilen Fotnotsreferens e
 public bool InsertReferenceMark { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar för att infoga NOTEREF-fält och ändra deras utseende.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### Se även
 
 * class [FieldNoteRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldnoteref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

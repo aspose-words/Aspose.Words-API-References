@@ -1,7 +1,9 @@
 ---
 title: EditableRangeEnd.EditableRangeStart
-second_title: Aspose.Words for .NET API 参考
-description: EditableRangeEnd 财产. 对应EditableRangeStart由 ID. 接收
+linktitle: EditableRangeStart
+articleTitle: EditableRangeStart
+second_title: 用于 .NET 的 Aspose.Words
+description: EditableRangeEnd EditableRangeStart 财产. 对应EditableRangeStart由 ID. 接收 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/editablerangeend/editablerangestart/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/editablerangeend/editablerangestart/
 public EditableRangeStart EditableRangeStart { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用可编辑范围。
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [EditableRangeEnd](../)
-* 命名空间 [Aspose.Words](../../editablerangeend/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

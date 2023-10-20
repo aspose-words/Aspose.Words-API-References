@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Add
-second_title: Aspose.Words för .NET API Referens
-description: BaseWebExtensionCollection metod. Lägger till angivet objekt till samlingen.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words för .NET
+description: BaseWebExtensionCollection Add metod. Lägger till angivet objekt till samlingen i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.webextensions/basewebextensioncollection-1/add/
@@ -18,7 +20,7 @@ public void Add(T item)
 | --- | --- | --- |
 | item | T | Objekt att lägga till. |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Se även
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

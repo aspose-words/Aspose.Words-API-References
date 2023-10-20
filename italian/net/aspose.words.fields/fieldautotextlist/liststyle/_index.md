@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.ListStyle
-second_title: Aspose.Words per .NET API Reference
-description: FieldAutoTextList proprietà. Ottiene o imposta il nome dello stile su cui si basa lelenco che dovrà contenere le voci.
+linktitle: ListStyle
+articleTitle: ListStyle
+second_title: Aspose.Words per .NET
+description: FieldAutoTextList ListStyle proprietà. Ottiene o imposta il nome dello stile su cui si basa lelenco che dovrà contenere le voci in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldautotextlist/liststyle/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome dello stile su cui si basa l'elenco che dovrà contene
 public string ListStyle { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un campo AUTOTEXTLIST per selezionare da un elenco di voci di glossario.
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### Guarda anche
 
 * class [FieldAutoTextList](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldautotextlist/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

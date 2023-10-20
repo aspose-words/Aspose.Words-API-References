@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Subject
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuiltInDocumentProperties propriété. Obtient ou définit le sujet du document.
+linktitle: Subject
+articleTitle: Subject
+second_title: Aspose.Words pour .NET
+description: BuiltInDocumentProperties Subject propriété. Obtient ou définit le sujet du document en C#.
 type: docs
 weight: 260
 url: /fr/net/aspose.words.properties/builtindocumentproperties/subject/
@@ -14,7 +16,7 @@ Obtient ou définit le sujet du document.
 public string Subject { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés de document intégrées dans la catégorie « Description ».
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Voir également
 
 * class [BuiltInDocumentProperties](../)
-* espace de noms [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

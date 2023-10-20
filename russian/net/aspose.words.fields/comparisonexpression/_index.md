@@ -1,7 +1,9 @@
 ---
-title: Class ComparisonExpression
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.ComparisonExpression сорт. Выражение сравнения.
+title: ComparisonExpression Class
+linktitle: ComparisonExpression
+articleTitle: ComparisonExpression
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.ComparisonExpression сорт. Выражение сравнения на С#.
 type: docs
 weight: 1490
 url: /ru/net/aspose.words.fields/comparisonexpression/
@@ -24,7 +26,7 @@ public sealed class ComparisonExpression
 | [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression/) { get; } | Получает левое выражение. |
 | [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression/) { get; } | Получает правильное выражение. |
 
-### Примеры
+## Примеры
 
 Показывает, как реализовать пользовательскую оценку для полей IF и COMPARE.
 
@@ -109,5 +111,3 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

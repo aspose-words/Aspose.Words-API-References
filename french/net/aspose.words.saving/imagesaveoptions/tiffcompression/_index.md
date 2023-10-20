@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.TiffCompression
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageSaveOptions propriété. Obtient ou définit le type de compression à appliquer lors de lenregistrement des images générées au format TIFF.
+linktitle: TiffCompression
+articleTitle: TiffCompression
+second_title: Aspose.Words pour .NET
+description: ImageSaveOptions TiffCompression propriété. Obtient ou définit le type de compression à appliquer lors de lenregistrement des images générées au format TIFF en C#.
 type: docs
 weight: 180
 url: /fr/net/aspose.words.saving/imagesaveoptions/tiffcompression/
@@ -14,13 +16,13 @@ Obtient ou définit le type de compression à appliquer lors de l'enregistrement
 public TiffCompression TiffCompression { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 N'a d'effet que lors de l'enregistrement au format TIFF.
 
 La valeur par défaut estLzw.
 
-### Exemples
+## Exemples
 
 Montre comment sélectionner le schéma de compression à appliquer à un document que nous convertissons en image TIFF.
 
@@ -72,7 +74,5 @@ Document doc = new Document();
 
 * enum [TiffCompression](../../tiffcompression/)
 * class [ImageSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../imagesaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

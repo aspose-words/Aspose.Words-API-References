@@ -1,7 +1,9 @@
 ---
-title: Class ResourceSavingArgs
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.ResourceSavingArgs klass. Tillhandahåller data förResourceSaving händelse.
+title: ResourceSavingArgs Class
+linktitle: ResourceSavingArgs
+articleTitle: ResourceSavingArgs
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.ResourceSavingArgs klass. Tillhandahåller data förResourceSaving händelse i C#.
 type: docs
 weight: 5560
 url: /sv/net/aspose.words.saving/resourcesavingargs/
@@ -26,7 +28,7 @@ public class ResourceSavingArgs
 | [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri/) { get; set; } | Hämtar eller ställer in den enhetliga resursidentifieraren (URI) som används för att referera till resursfilen från dokumentet. |
 | [ResourceStream](../../aspose.words.saving/resourcesavingargs/resourcestream/) { get; set; } | Tillåter att ange strömmen där resursen ska sparas. |
 
-### Anmärkningar
+## Anmärkningar
 
 Som standard, när Aspose.Words sparar ett dokument till fast sida HTML eller SVG, sparas varje resurs i en separat fil. Aspose.Words använder dokumentets filnamn och ett unikt nummer för att generera unikt filnamn för varje resurs som finns i dokumentet.
 
@@ -36,7 +38,7 @@ Använd för att använda din egen logik för att generera resursfilnamn[`Resour
 
 För att spara resurser i strömmar istället för filer, använd[`ResourceStream`](./resourcestream/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att spåra externa resurser som skapas när ett dokument konverteras till HTML.
 
@@ -82,5 +84,3 @@ private class FontSavingCallback : IResourceSavingCallback
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

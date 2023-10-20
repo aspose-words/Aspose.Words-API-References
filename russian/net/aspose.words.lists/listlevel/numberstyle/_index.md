@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevel свойство. Возвращает или устанавливает стиль номера для этого уровня списка.
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words для .NET
+description: ListLevel NumberStyle свойство. Возвращает или устанавливает стиль номера для этого уровня списка на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.lists/listlevel/numberstyle/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.lists/listlevel/numberstyle/
 public NumberStyle NumberStyle { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
 
@@ -130,7 +132,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [ListLevel](../)
-* пространство имен [Aspose.Words.Lists](../../listlevel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Clone
-second_title: Aspose.Words for .NET API 参考
-description: ImageSaveOptions 方法. 创建此对象的深度克隆
+linktitle: Clone
+articleTitle: Clone
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSaveOptions Clone 方法. 创建此对象的深度克隆 在 C#.
 type: docs
 weight: 210
 url: /zh/net/aspose.words.saving/imagesaveoptions/clone/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/imagesaveoptions/clone/
 public ImageSaveOptions Clone()
 ```
 
-### 例子
+## 例子
 
 演示如何选择将文档渲染为图像的每像素比特率。
 
@@ -79,7 +81,5 @@ Document doc = new Document();
 ### 也可以看看
 
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

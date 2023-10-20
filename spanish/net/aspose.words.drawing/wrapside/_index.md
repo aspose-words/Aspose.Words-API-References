@@ -1,7 +1,9 @@
 ---
-title: Enum WrapSide
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.WrapSide enumeración. Especifica qué lados de la forma o imagen rodea el texto.
+title: WrapSide Enum
+linktitle: WrapSide
+articleTitle: WrapSide
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.WrapSide enumeración. Especifica qué lados de la forma o imagen rodea el texto en C#.
 type: docs
 weight: 1390
 url: /es/net/aspose.words.drawing/wrapside/
@@ -24,7 +26,7 @@ public enum WrapSide
 | Largest | `3` | El texto del documento se ajusta en el lado de la forma que está más alejado del margen de la página, dejando un área libre de texto en el otro lado de la forma. |
 | Default | `0` | El valor predeterminado esBoth . |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo reemplazar todas las formas de cuadros de texto con formas de imágenes.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 * property [WrapSide](../shapebase/wrapside/)
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.IsHidden
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataLabel propriété. Obtient/définit un indicateur indiquant si cette étiquette est masquée. La valeur par défaut estFAUX .
+linktitle: IsHidden
+articleTitle: IsHidden
+second_title: Aspose.Words pour .NET
+description: ChartDataLabel IsHidden propriété. Obtient/définit un indicateur indiquant si cette étiquette est masquée. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.drawing.charts/chartdatalabel/ishidden/
@@ -14,7 +16,7 @@ Obtient/définit un indicateur indiquant si cette étiquette est masquée. La va
 public bool IsHidden { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment appliquer des étiquettes aux points de données dans un graphique linéaire.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Voir également
 
 * class [ChartDataLabel](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

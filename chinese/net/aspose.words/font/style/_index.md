@@ -1,7 +1,9 @@
 ---
 title: Font.Style
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置应用于此格式的字符样式
+linktitle: Style
+articleTitle: Style
+second_title: 用于 .NET 的 Aspose.Words
+description: Font Style 财产. 获取或设置应用于此格式的字符样式 在 C#.
 type: docs
 weight: 400
 url: /zh/net/aspose.words/font/style/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/style/
 public Style Style { get; set; }
 ```
 
-### 例子
+## 例子
 
 对文档中使用自定义字符样式格式化的所有运行应用双下划线。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Font.Style.docx");
 
 * class [Style](../../style/)
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

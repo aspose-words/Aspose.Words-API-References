@@ -1,7 +1,9 @@
 ---
 title: FieldToa.EntrySeparator
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToa свойство. Получает или задает последовательность символов которая используется для разделения записи таблицы полномочий и номера ее страницы.
+linktitle: EntrySeparator
+articleTitle: EntrySeparator
+second_title: Aspose.Words для .NET
+description: FieldToa EntrySeparator свойство. Получает или задает последовательность символов которая используется для разделения записи таблицы полномочий и номера ее страницы на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldtoa/entryseparator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoa/entryseparator/
 public string EntrySeparator { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как построить и настроить таблицу авторитетов, используя поля TOA и TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Смотрите также
 
 * class [FieldToa](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoa/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

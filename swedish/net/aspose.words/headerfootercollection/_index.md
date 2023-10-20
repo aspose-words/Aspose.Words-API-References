@@ -1,7 +1,9 @@
 ---
-title: Class HeaderFooterCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.HeaderFooterCollection klass. Ger maskinskriven åtkomst tillHeaderFooter noder av enSection .
+title: HeaderFooterCollection Class
+linktitle: HeaderFooterCollection
+articleTitle: HeaderFooterCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.HeaderFooterCollection klass. Ger maskinskriven åtkomst tillHeaderFooter noder av enSection  i C#.
 type: docs
 weight: 3110
 url: /sv/net/aspose.words/headerfootercollection/
@@ -27,19 +29,19 @@ public class HeaderFooterCollection : NodeCollection
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Lägger till en nod i slutet av samlingen. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Lägger till en nod i slutet av samlingen. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Tar bort alla noder från den här samlingen och från dokumentet. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bestämmer om en nod finns i samlingen. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Bestämmer om en nod finns i samlingen. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Ger en enkel "foreach" stil iteration över samlingen av noder. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Returnerar det nollbaserade indexet för den angivna noden. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Infogar en nod i samlingen vid det angivna indexet. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(bool) | Länkar eller tar bort länkar till alla sidhuvuden och sidfötter till motsvarande sidhuvuden och sidfötter i föregående avsnitt. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(HeaderFooterType, bool) | Länkar eller tar bort den angivna sidhuvudet eller sidfoten till motsvarande sidhuvud eller sidfot i föregående avsnitt. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Tar bort noden från samlingen och från dokumentet. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Tar bort noden vid det angivna indexet från samlingen och från dokumentet. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Returnerar det nollbaserade indexet för den angivna noden. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Infogar en nod i samlingen vid det angivna indexet. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(*bool*) | Länkar eller tar bort länkar till alla sidhuvuden och sidfötter till motsvarande sidhuvuden och sidfötter i föregående avsnitt. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(*[HeaderFooterType](../headerfootertype/), bool*) | Länkar eller tar bort den angivna sidhuvudet eller sidfoten till motsvarande sidhuvud eller sidfot i föregående avsnitt. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Tar bort noden från samlingen och från dokumentet. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Tar bort noden vid det angivna indexet från samlingen och från dokumentet. |
 | [ToArray](../../aspose.words/headerfootercollection/toarray/#toarray)() | Kopierar alla`HeaderFoorter` s från samlingen till en ny uppsättning av`HeaderFoorter` s. (2 methods) |
 
-### Anmärkningar
+## Anmärkningar
 
 Det kan vara max en[`HeaderFooter`](../headerfooter/)
 
@@ -47,7 +49,7 @@ av varje[`HeaderFooterType`](../headerfootertype/) per [`Section`](../section/) 
 
 [`HeaderFooter`](../headerfooter/) föremål kan förekomma i valfri ordning i samlingen.
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort alla sidfötter från ett dokument.
 
@@ -113,5 +115,3 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 * class [NodeCollection](../nodecollection/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

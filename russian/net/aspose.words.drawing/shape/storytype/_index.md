@@ -1,7 +1,9 @@
 ---
 title: Shape.StoryType
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. ВозвращаетTextbox .
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words для .NET
+description: Shape StoryType свойство. ВозвращаетTextbox  на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.drawing/shape/storytype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shape/storytype/
 public StoryType StoryType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перебирать все фигуры в документе.
 
@@ -138,7 +140,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * enum [StoryType](../../../aspose.words/storytype/)
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

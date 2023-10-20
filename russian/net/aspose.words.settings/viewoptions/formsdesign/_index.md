@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.FormsDesign
-second_title: Справочник по API Aspose.Words для .NET
-description: ViewOptions свойство. Указывает находится ли документ в режиме разработки форм.
+linktitle: FormsDesign
+articleTitle: FormsDesign
+second_title: Aspose.Words для .NET
+description: ViewOptions FormsDesign свойство. Указывает находится ли документ в режиме разработки форм на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.settings/viewoptions/formsdesign/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.settings/viewoptions/formsdesign/
 public bool FormsDesign { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 На данный момент работает только для документов в формате WordML.
 
-### Примеры
+## Примеры
 
 Показывает, как включить/отключить режим разработки форм.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(useFormsDesign,
 ### Смотрите также
 
 * class [ViewOptions](../)
-* пространство имен [Aspose.Words.Settings](../../viewoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontConfigSubstitutionRule.Enabled
-second_title: Aspose.Words for .NET API 参考
-description: FontConfigSubstitutionRule 财产. 指定是否启用规则
+linktitle: Enabled
+articleTitle: Enabled
+second_title: 用于 .NET 的 Aspose.Words
+description: FontConfigSubstitutionRule Enabled 财产. 指定是否启用规则 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fonts/fontconfigsubstitutionrule/enabled/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontconfigsubstitutionrule/enabled/
 public override bool Enabled { set; }
 ```
 
-### 例子
+## 例子
 
 显示与操作系统相关的字体配置替换。
 
@@ -50,7 +52,5 @@ if (isLinuxOrMac)
 ### 也可以看看
 
 * class [FontConfigSubstitutionRule](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontconfigsubstitutionrule/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

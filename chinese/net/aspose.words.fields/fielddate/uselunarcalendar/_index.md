@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseLunarCalendar
-second_title: Aspose.Words for .NET API 参考
-description: FieldDate 财产. 获取或设置是否使用回历农历或希伯来农历
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldDate UseLunarCalendar 财产. 获取或设置是否使用回历农历或希伯来农历 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fielddate/uselunarcalendar/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fielddate/uselunarcalendar/
 public bool UseLunarCalendar { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 DATE 字段根据不同类型的日历显示日期。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### 也可以看看
 
 * class [FieldDate](../)
-* 命名空间 [Aspose.Words.Fields](../../fielddate/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

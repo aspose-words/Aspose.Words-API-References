@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CreateNoteHyperlinks
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Указывает следует ли преобразовывать ссылки на сноски/концевые сноски в основном тексте в активные гиперссылки. При нажатии гиперссылка приведет к соответствующей сноске/концевой сноске. Значение по умолчаниюЛОЖЬ .
+linktitle: CreateNoteHyperlinks
+articleTitle: CreateNoteHyperlinks
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions CreateNoteHyperlinks свойство. Указывает следует ли преобразовывать ссылки на сноски/концевые сноски в основном тексте в активные гиперссылки. При нажатии гиперссылка приведет к соответствующей сноске/концевой сноске. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
 public bool CreateNoteHyperlinks { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заставить сноски и концевые сноски функционировать как гиперссылки.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.NoteHyperlinks.pdf", options);
 ### Смотрите также
 
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

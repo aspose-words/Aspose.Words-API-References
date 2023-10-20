@@ -1,7 +1,9 @@
 ---
 title: Section.Body
-second_title: Справочник по API Aspose.Words для .NET
-description: Section свойство. ВозвращаетBody дочерний узел раздела.
+linktitle: Body
+articleTitle: Body
+second_title: Aspose.Words для .NET
+description: Section Body свойство. ВозвращаетBody дочерний узел раздела на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/section/body/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/section/body/
 public Body Body { get; }
 ```
 
-### Примечания
+## Примечания
 
 [`Body`](../../body/) содержит основной текст раздела.
 
 Возврат`нулевой` если в разделе нет[`Body`](../../body/) узел среди своих дочерних элементов.
 
-### Примеры
+## Примеры
 
 Удаляет основной текст из всех разделов документа, оставляя сами разделы.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [Body](../../body/)
 * class [Section](../)
-* пространство имен [Aspose.Words](../../section/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Document.Protect
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Защищает документ от изменений без изменения существующего пароля или назначает случайный пароль.
+linktitle: Protect
+articleTitle: Protect
+second_title: Aspose.Words для .NET
+description: Document Protect метод. Защищает документ от изменений без изменения существующего пароля или назначает случайный пароль на С#.
 type: docs
-weight: 670
+weight: 650
 url: /ru/net/aspose.words/document/protect/
 ---
-## Protect(ProtectionType) {#protect}
+## Protect(*[ProtectionType](../../protectiontype/)*) {#protect}
 
 Защищает документ от изменений без изменения существующего пароля или назначает случайный пароль.
 
@@ -18,7 +20,7 @@ public void Protect(ProtectionType type)
 | --- | --- | --- |
 | type | ProtectionType | Указывает тип защиты документа. |
 
-### Примечания
+## Примечания
 
 Когда документ защищен, пользователь может вносить лишь ограниченные изменения, , такие как добавление аннотаций, внесение изменений или заполнение формы.
 
@@ -26,7 +28,7 @@ public void Protect(ProtectionType type)
 
 Когда вы защищаете документ, и документ не имеет пароля защиты, этот метод назначает случайный пароль, который делает невозможным снять защиту документа в Microsoft Word, но вы все равно можете снять защиту документа в Aspose.Words, поскольку это не делает требовать пароль при снятии защиты.
 
-### Примеры
+## Примеры
 
 Показывает, как отключить защиту раздела.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Protect(ProtectionType, string) {#protect_1}
+## Protect(*[ProtectionType](../../protectiontype/), string*) {#protect_1}
 
 Защищает документ от изменений и дополнительно устанавливает пароль защиты.
 
@@ -74,13 +76,13 @@ public void Protect(ProtectionType type, string password)
 | type | ProtectionType | Указывает тип защиты документа. |
 | password | String | Пароль для защиты документа. Укажите`нулевой`или пустая строка, если вы хотите защитить документ без пароля. |
 
-### Примечания
+## Примечания
 
 Когда документ защищен, пользователь может вносить лишь ограниченные изменения, , такие как добавление аннотаций, внесение изменений или заполнение формы.
 
 Обратите внимание, что защита документа отличается от защиты от записи. Защита от записи задается с помощью[`WriteProtection`](../writeprotection/).
 
-### Примеры
+## Примеры
 
 Показывает, как защитить и снять защиту документа.
 
@@ -126,7 +128,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

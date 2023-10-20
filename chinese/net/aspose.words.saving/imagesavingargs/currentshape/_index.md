@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.CurrentShape
-second_title: Aspose.Words for .NET API 参考
-description: ImageSavingArgs 财产. 获取ShapeBase与即将保存的形状或组形状 对应的对象
+linktitle: CurrentShape
+articleTitle: CurrentShape
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSavingArgs CurrentShape 财产. 获取ShapeBase与即将保存的形状或组形状 对应的对象 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/imagesavingargs/currentshape/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/imagesavingargs/currentshape/
 public ShapeBase CurrentShape { get; }
 ```
 
-### 评论
+## 评论
 
 [`IImageSavingCallback`](../../iimagesavingcallback/)可以在保存形状或组形状时触发。 这就是为什么该属性有[`ShapeBase`](../../../aspose.words.drawing/shapebase/)类型。你可以检查它是否是一个组形状比较 [`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/)和Group或者将其强制转换为派生类之一： [`Shape`](../../../aspose.words.drawing/shape/)或者[`GroupShape`](../../../aspose.words.drawing/groupshape/)。
 
@@ -22,7 +24,7 @@ Aspose.Words 使用文档文件名和唯一编号为文档中找到的每个图�
 
 文档中的某些图像可能不可用。要检查图像可用性 ，请使用[`IsImageAvailable`](../isimageavailable/)财产。
 
-### 例子
+## 例子
 
 演示如何在 HTML 转换过程中涉及图像保存回调。
 
@@ -69,7 +71,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * class [ImageSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

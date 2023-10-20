@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Smooth
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartSeries propiedad. Permite especificar si la línea que conecta los puntos del gráfico se suavizará utilizando splines de CatmullRom.
+linktitle: Smooth
+articleTitle: Smooth
+second_title: Aspose.Words para .NET
+description: ChartSeries Smooth propiedad. Permite especificar si la línea que conecta los puntos del gráfico se suavizará utilizando splines de CatmullRom en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words.drawing.charts/chartseries/smooth/
@@ -14,7 +16,7 @@ Permite especificar si la línea que conecta los puntos del gráfico se suavizar
 public bool Smooth { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con puntos de datos en un gráfico de líneas.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### Ver también
 
 * class [ChartSeries](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartseries/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TxtListIndentation.Character
-second_title: Aspose.Words for .NET API Referansı
-description: TxtListIndentation mülk. Liste düzeylerini girintilemek için hangi karakterin kullanılacağını alır veya ayarlar. Varsayılan değer 0dır yani girinti yoktur.
+linktitle: Character
+articleTitle: Character
+second_title: Aspose.Words for .NET
+description: TxtListIndentation Character mülk. Liste düzeylerini girintilemek için hangi karakterin kullanılacağını alır veya ayarlar. Varsayılan değer 0dır yani girinti yoktur C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/txtlistindentation/character/
@@ -14,7 +16,7 @@ Liste düzeylerini girintilemek için hangi karakterin kullanılacağını alır
 public char Character { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi düz metne kaydederken liste girintisinin nasıl yapılandırılacağını gösterir.
 
@@ -54,7 +56,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 ### Ayrıca bakınız
 
 * class [TxtListIndentation](../)
-* ad alanı [Aspose.Words.Saving](../../txtlistindentation/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

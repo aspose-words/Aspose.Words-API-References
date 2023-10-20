@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.IncludeCountryOrRegionName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAddressBlock свойство. Получает или задает следует ли включать название страны/региона.
+linktitle: IncludeCountryOrRegionName
+articleTitle: IncludeCountryOrRegionName
+second_title: Aspose.Words для .NET
+description: FieldAddressBlock IncludeCountryOrRegionName свойство. Получает или задает следует ли включать название страны/региона на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldaddressblock/includecountryorregionname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldaddressblock/includecountryorregionname/
 public string IncludeCountryOrRegionName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле ADDRESSBLOCK.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Смотрите также
 
 * class [FieldAddressBlock](../)
-* пространство имен [Aspose.Words.Fields](../../fieldaddressblock/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

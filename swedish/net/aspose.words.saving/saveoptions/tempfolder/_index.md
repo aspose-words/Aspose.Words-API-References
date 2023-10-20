@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.TempFolder
-second_title: Aspose.Words för .NET API Referens
-description: SaveOptions fast egendom. Anger mappen för temporära filer som används när du sparar till en DOC eller DOCXfil. Som standard är denna egenskapnull och inga temporära filer används.
+linktitle: TempFolder
+articleTitle: TempFolder
+second_title: Aspose.Words för .NET
+description: SaveOptions TempFolder fast egendom. Anger mappen för temporära filer som används när du sparar till en DOC eller DOCXfil. Som standard är denna egenskapnull och inga temporära filer används i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.saving/saveoptions/tempfolder/
@@ -14,7 +16,7 @@ Anger mappen för temporära filer som används när du sparar till en DOC- elle
 public string TempFolder { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När Aspose.Words sparar ett dokument måste det skapa tillfälliga interna strukturer. Som standard skapas dessa interna strukturer i minnet och minnesanvändningen ökar under en kort period medan dokumentet sparas. När lagringen är klar frigörs minnet och återvinns av sopsamlaren.
 
@@ -24,7 +26,7 @@ Mappen måste finnas och vara skrivbar, annars kommer ett undantag att kastas.
 
 Aspose.Words tar automatiskt bort alla temporära filer när sparandet är klart.
 
-### Exempel
+## Exempel
 
 Visar hur du använder hårddisken istället för minnet när du sparar ett dokument.
 
@@ -49,7 +51,5 @@ Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
 ### Se även
 
 * class [SaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../saveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

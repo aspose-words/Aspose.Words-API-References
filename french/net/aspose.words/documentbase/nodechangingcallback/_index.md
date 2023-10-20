@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.NodeChangingCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBase propriété. Appelé lorsquun nœud est inséré ou supprimé dans le document.
+linktitle: NodeChangingCallback
+articleTitle: NodeChangingCallback
+second_title: Aspose.Words pour .NET
+description: DocumentBase NodeChangingCallback propriété. Appelé lorsquun nœud est inséré ou supprimé dans le document en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/documentbase/nodechangingcallback/
@@ -14,7 +16,7 @@ Appelé lorsqu'un nœud est inséré ou supprimé dans le document.
 public INodeChangingCallback NodeChangingCallback { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment personnaliser le changement de nœud avec un rappel.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * interface [INodeChangingCallback](../../inodechangingcallback/)
 * class [DocumentBase](../)
-* espace de noms [Aspose.Words](../../documentbase/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

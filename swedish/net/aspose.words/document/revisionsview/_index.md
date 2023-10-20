@@ -1,7 +1,9 @@
 ---
 title: Document.RevisionsView
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar eller ställer in ett värde som indikerar om man ska arbeta med den ursprungliga eller reviderade versionen av ett dokument.
+linktitle: RevisionsView
+articleTitle: RevisionsView
+second_title: Aspose.Words för .NET
+description: Document RevisionsView fast egendom. Hämtar eller ställer in ett värde som indikerar om man ska arbeta med den ursprungliga eller reviderade versionen av ett dokument i C#.
 type: docs
 weight: 360
 url: /sv/net/aspose.words/document/revisionsview/
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett värde som indikerar om man ska arbeta med den urs
 public RevisionsView RevisionsView { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är .
 
-### Exempel
+## Exempel
 
 Visar hur du växlar mellan den reviderade och den ursprungliga vyn av ett dokument.
 
@@ -43,7 +45,5 @@ Assert.AreEqual("a.", paragraphs[2].ListLabel.LabelString);
 
 * enum [RevisionsView](../../revisionsview/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

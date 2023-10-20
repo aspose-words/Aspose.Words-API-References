@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.GetText
-second_title: Справочник по API Aspose.Words для .NET
-description: SpecialChar метод. Получает специальный символ который представляет этот узел.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words для .NET
+description: SpecialChar GetText метод. Получает специальный символ который представляет этот узел на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/specialchar/gettext/
@@ -21,7 +23,5 @@ public override string GetText()
 ### Смотрите также
 
 * class [SpecialChar](../)
-* пространство имен [Aspose.Words](../../specialchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

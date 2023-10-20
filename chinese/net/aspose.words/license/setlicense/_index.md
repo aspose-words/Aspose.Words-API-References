@@ -1,12 +1,14 @@
 ---
 title: License.SetLicense
-second_title: Aspose.Words for .NET API 参考
-description: License 方法. 许可组件
+linktitle: SetLicense
+articleTitle: SetLicense
+second_title: 用于 .NET 的 Aspose.Words
+description: License SetLicense 方法. 许可组件 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/license/setlicense/
 ---
-## SetLicense(string) {#setlicense_1}
+## SetLicense(*string*) {#setlicense_1}
 
 许可组件。
 
@@ -18,7 +20,7 @@ public void SetLicense(string licenseName)
 | --- | --- | --- |
 | licenseName | String | 可以是完整或短文件名或嵌入资源的名称。 使用空字符串切换到评估模式。 |
 
-### 评论
+## 评论
 
 尝试在以下位置查找许可证：
 
@@ -38,7 +40,7 @@ public void SetLicense(string licenseName)
 
 2. 客户端调用程序集中的嵌入资源。
 
-### 例子
+## 例子
 
 展示如何使用本地文件系统中的许可证文件初始化 Aspose.Words 许可证。
 
@@ -62,12 +64,12 @@ license.SetLicense("Aspose.Words.NET.lic");
 ### 也可以看看
 
 * class [License](../)
-* 命名空间 [Aspose.Words](../../license/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## SetLicense(Stream) {#setlicense}
+## SetLicense(*Stream*) {#setlicense}
 
 许可组件。
 
@@ -79,11 +81,11 @@ public void SetLicense(Stream stream)
 | --- | --- | --- |
 | stream | Stream | 包含许可证的流。 |
 
-### 评论
+## 评论
 
 使用此方法从流加载许可证。
 
-### 例子
+## 例子
 
 演示如何从流初始化 Aspose.Words 的许可证。
 
@@ -99,7 +101,5 @@ using (Stream myStream = File.OpenRead(Path.Combine(LicenseDir, "Aspose.Words.NE
 ### 也可以看看
 
 * class [License](../)
-* 命名空间 [Aspose.Words](../../license/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

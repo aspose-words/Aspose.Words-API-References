@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.DateStorageFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Ruft das Format ab bzw. legt es fest in dem das Datum für eine DatumsSDT gespeichert wird wenn das SDTist an einen XMLKnoten im Datenspeicher des Dokuments gebunden. Der Standardwert istDateTime
+linktitle: DateStorageFormat
+articleTitle: DateStorageFormat
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag DateStorageFormat eigendom. Ruft das Format ab bzw. legt es fest in dem das Datum für eine DatumsSDT gespeichert wird wenn dasSDTist an einen XMLKnoten im Datenspeicher des Dokuments gebunden. Der Standardwert istDateTime in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.markup/structureddocumenttag/datestorageformat/
 ---
 ## StructuredDocumentTag.DateStorageFormat property
 
-Ruft das Format ab bzw. legt es fest, in dem das Datum für eine Datums-SDT gespeichert wird, wenn das **SDT**ist an einen XML-Knoten im Datenspeicher des Dokuments gebunden. Der Standardwert istDateTime
+Ruft das Format ab bzw. legt es fest, in dem das Datum für eine Datums-SDT gespeichert wird, wenn das**SDT**ist an einen XML-Knoten im Datenspeicher des Dokuments gebunden. Der Standardwert istDateTime
 
 ```csharp
 public SdtDateStorageFormat DateStorageFormat { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Zugriff auf diese Eigenschaft funktioniert nur fürDate SDT-Typ.
 
 Bei allen anderen SDT-Typen tritt eine Ausnahme auf.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Benutzer mit einem strukturierten Dokument-Tag zur Eingabe eines Datums aufgefordert wird.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 
 * enum [SdtDateStorageFormat](../../sdtdatestorageformat/)
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

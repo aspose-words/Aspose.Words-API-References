@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.GetPositionByIndex
-second_title: Aspose.Words für .NET-API-Referenz
-description: TabStopCollection methode. Ruft die Position in Punkt des Tabstopps am angegebenen Index ab.
+linktitle: GetPositionByIndex
+articleTitle: GetPositionByIndex
+second_title: Aspose.Words für .NET
+description: TabStopCollection GetPositionByIndex methode. Ruft die Position in Punkt des Tabstopps am angegebenen Index ab in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words/tabstopcollection/getpositionbyindex/
@@ -22,7 +24,7 @@ public double GetPositionByIndex(int index)
 
 Die Position des Tabstopps.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Registerkarte findet, ihren Index ansieht und ihre Position überprüft.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(ConvertUtil.MillimeterToPoint(60), tabStops.GetPositionByIndex(1
 ### Siehe auch
 
 * class [TabStopCollection](../)
-* namensraum [Aspose.Words](../../tabstopcollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

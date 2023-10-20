@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.IndexOfKey
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarksOutlineLevelCollection yöntem. Koleksiyonda belirtilen yer iminin sıfır tabanlı dizinini döndürür.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words for .NET
+description: BookmarksOutlineLevelCollection IndexOfKey yöntem. Koleksiyonda belirtilen yer iminin sıfır tabanlı dizinini döndürür C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 Sıfır tabanlı endeks. Bulunamazsa negatif değer.
 
-### Örnekler
+## Örnekler
 
 Yer imleri için anahat düzeylerinin nasıl ayarlanacağını gösterir.
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### Ayrıca bakınız
 
 * class [BookmarksOutlineLevelCollection](../)
-* ad alanı [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

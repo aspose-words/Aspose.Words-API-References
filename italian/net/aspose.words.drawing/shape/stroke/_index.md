@@ -1,7 +1,9 @@
 ---
 title: Shape.Stroke
-second_title: Aspose.Words per .NET API Reference
-description: Shape proprietà. Definisce un tratto per una forma.
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words per .NET
+description: Shape Stroke proprietà. Definisce un tratto per una forma in C#.
 type: docs
 weight: 180
 url: /it/net/aspose.words.drawing/shape/stroke/
@@ -14,7 +16,7 @@ Definisce un tratto per una forma.
 public Stroke Stroke { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra per creare una varietà di forme.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * class [Stroke](../../stroke/)
 * class [Shape](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shape/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

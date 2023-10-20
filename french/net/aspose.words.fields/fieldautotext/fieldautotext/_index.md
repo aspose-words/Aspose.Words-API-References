@@ -1,7 +1,9 @@
 ---
-title: FieldAutoText.FieldAutoText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldAutoText constructeur. Default_Constructor
+title: FieldAutoText
+linktitle: FieldAutoText
+articleTitle: FieldAutoText
+second_title: Aspose.Words pour .NET
+description: FieldAutoText constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldautotext/fieldautotext/
@@ -17,7 +19,5 @@ public FieldAutoText()
 ### Voir également
 
 * class [FieldAutoText](../)
-* espace de noms [Aspose.Words.Fields](../../fieldautotext/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

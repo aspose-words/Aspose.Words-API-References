@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.DistanceRight
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Belge metni ile şeklin sağ kenarı arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar.
+linktitle: DistanceRight
+articleTitle: DistanceRight
+second_title: Aspose.Words for .NET
+description: ShapeBase DistanceRight mülk. Belge metni ile şeklin sağ kenarı arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.drawing/shapebase/distanceright/
@@ -14,13 +16,13 @@ Belge metni ile şeklin sağ kenarı arasındaki mesafeyi (nokta cinsinden) dön
 public double DistanceRight { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 1/8 inçtir.
 
 Yalnızca üst düzey şekiller için etkilidir.
 
-### Örnekler
+## Örnekler
 
 Bir şekli çevreleyen metnin sarma mesafesinin nasıl ayarlanacağını gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Shape.Coordinates.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

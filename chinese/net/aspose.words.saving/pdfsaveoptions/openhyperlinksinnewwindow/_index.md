@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.OpenHyperlinksInNewWindow
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 获取或设置一个值该值确定是否强制在浏览器的新窗口或选项卡中打开输出 Pdf 文档 中的超链接
+linktitle: OpenHyperlinksInNewWindow
+articleTitle: OpenHyperlinksInNewWindow
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions OpenHyperlinksInNewWindow 财产. 获取或设置一个值该值确定是否强制在浏览器的新窗口或选项卡中打开输出 Pdf 文档 中的超链接 在 C#.
 type: docs
 weight: 230
 url: /zh/net/aspose.words.saving/pdfsaveoptions/openhyperlinksinnewwindow/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/openhyperlinksinnewwindow/
 public bool OpenHyperlinksInNewWindow { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的` 。当该值设置为`真的` 超链接是使用 JavaScript 代码保存的。 JavaScript 代码是`app.launchURL("URL", true);`, 其中`网址`是一个超链接。
 
@@ -22,7 +24,7 @@ public bool OpenHyperlinksInNewWindow { get; set; }
 
 PDF/A-1 和 PDF/A-2 合规性禁止 JavaScript 操作。`错误的`当 保存为 PDF/A-1 和 PDF/A-2 时将自动使用。
 
-### 例子
+## 例子
 
 演示如何在我们转换为 PDF 的文档中保存超链接，以便在我们单击它们时打开新页面。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.OpenHyperlinksInNewWindow.pdf", options)
 ### 也可以看看
 
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

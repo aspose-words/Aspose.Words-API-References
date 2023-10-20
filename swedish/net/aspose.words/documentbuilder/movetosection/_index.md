@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToSection
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Flyttar markören till början av brödtexten i ett angivet avsnitt.
+linktitle: MoveToSection
+articleTitle: MoveToSection
+second_title: Aspose.Words för .NET
+description: DocumentBuilder MoveToSection metod. Flyttar markören till början av brödtexten i ett angivet avsnitt i C#.
 type: docs
-weight: 580
+weight: 570
 url: /sv/net/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder.MoveToSection method
@@ -18,13 +20,13 @@ public void MoveToSection(int sectionIndex)
 | --- | --- | --- |
 | sectionIndex | Int32 | Indexet för avsnittet att flytta till. |
 
-### Anmärkningar
+## Anmärkningar
 
 När*sectionIndex* är större än eller lika med 0, anger det ett index från början av dokumentet med 0 som den första delen. När*sectionIndex* är mindre än 0, det specificerade ett index från slutet av dokumentet med -1 som den sista sektionen.
 
 Markören flyttas till första stycket i[`Body`](../../body/) av det angivna avsnittet.
 
-### Exempel
+## Exempel
 
 Visar hur du skapar sidhuvuden och sidfötter i ett dokument med DocumentBuilder.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

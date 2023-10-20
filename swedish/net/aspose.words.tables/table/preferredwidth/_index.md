@@ -1,7 +1,9 @@
 ---
 title: Table.PreferredWidth
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller ställer in tabellens föredragna bredd.
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words för .NET
+description: Table PreferredWidth fast egendom. Hämtar eller ställer in tabellens föredragna bredd i C#.
 type: docs
 weight: 220
 url: /sv/net/aspose.words.tables/table/preferredwidth/
@@ -14,11 +16,11 @@ Hämtar eller ställer in tabellens föredragna bredd.
 public PreferredWidth PreferredWidth { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är[`Auto`](../../preferredwidth/auto/).
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in en tabell för att automatiskt anpassa till 50 % av sidans bredd.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithPreferredWidth.docx");
 
 * class [PreferredWidth](../../preferredwidth/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

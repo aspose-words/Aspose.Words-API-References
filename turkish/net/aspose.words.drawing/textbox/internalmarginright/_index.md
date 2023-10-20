@@ -1,7 +1,9 @@
 ---
 title: TextBox.InternalMarginRight
-second_title: Aspose.Words for .NET API Referansı
-description: TextBox mülk. Bir şeklin sağ iç kenar boşluğunu nokta cinsinden belirtir.
+linktitle: InternalMarginRight
+articleTitle: InternalMarginRight
+second_title: Aspose.Words for .NET
+description: TextBox InternalMarginRight mülk. Bir şeklin sağ iç kenar boşluğunu nokta cinsinden belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing/textbox/internalmarginright/
@@ -14,11 +16,11 @@ Bir şeklin sağ iç kenar boşluğunu nokta cinsinden belirtir.
 public double InternalMarginRight { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 1/10 inçtir.
 
-### Örnekler
+## Örnekler
 
 Bir metin kutusu için iç kenar boşluklarının nasıl ayarlanacağını gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxMargins.docx");
 ### Ayrıca bakınız
 
 * class [TextBox](../)
-* ad alanı [Aspose.Words.Drawing](../../textbox/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentPartSavingCallback
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.IDocumentPartSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد تلقي الإشعارات والتحكم في كيفية قيام Aspose.Words بحفظ أجزاء المستند عند تصدير مستند إلىHtml أوEpub التنسيق.
+title: IDocumentPartSavingCallback Interface
+linktitle: IDocumentPartSavingCallback
+articleTitle: IDocumentPartSavingCallback
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.IDocumentPartSavingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد تلقي الإشعارات والتحكم في كيفية قيام Aspose.Words بحفظ أجزاء المستند عند تصدير مستند إلىHtml أوEpub التنسيق في C#.
 type: docs
 weight: 5140
 url: /ar/net/aspose.words.saving/idocumentpartsavingcallback/
@@ -18,9 +20,9 @@ public interface IDocumentPartSavingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/)(DocumentPartSavingArgs) | يتم استدعاؤه عندما يكون Aspose.Words على وشك حفظ جزء من المستند. |
+| [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/)(*[DocumentPartSavingArgs](../documentpartsavingargs/)*) | يتم استدعاؤه عندما يكون Aspose.Words على وشك حفظ جزء من المستند. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقسيم مستند إلى أجزاء وحفظها.
 
@@ -138,5 +140,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

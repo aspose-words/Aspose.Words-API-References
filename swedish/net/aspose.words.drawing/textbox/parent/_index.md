@@ -1,7 +1,9 @@
 ---
 title: TextBox.Parent
-second_title: Aspose.Words för .NET API Referens
-description: TextBox fast egendom. Får en överordnad form förTextBox .
+linktitle: Parent
+articleTitle: Parent
+second_title: Aspose.Words för .NET
+description: TextBox Parent fast egendom. Får en överordnad form förTextBox  i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.drawing/textbox/parent/
@@ -18,7 +20,5 @@ public Shape Parent { get; }
 
 * class [Shape](../../shape/)
 * class [TextBox](../)
-* namnutrymme [Aspose.Words.Drawing](../../textbox/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

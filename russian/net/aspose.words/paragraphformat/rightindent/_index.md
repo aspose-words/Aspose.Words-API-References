@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.RightIndent
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает значение в пунктах представляющее правый отступ для абзаца.
+linktitle: RightIndent
+articleTitle: RightIndent
+second_title: Aspose.Words для .NET
+description: ParagraphFormat RightIndent свойство. Получает или задает значение в пунктах представляющее правый отступ для абзаца на С#.
 type: docs
 weight: 270
 url: /ru/net/aspose.words/paragraphformat/rightindent/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/rightindent/
 public double RightIndent { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить форматирование абзаца для создания текста со смещением от центра.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetParagraphFormatting.docx");
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

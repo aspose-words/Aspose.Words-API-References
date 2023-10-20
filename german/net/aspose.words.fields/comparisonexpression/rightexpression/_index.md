@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.RightExpression
-second_title: Aspose.Words für .NET-API-Referenz
-description: ComparisonExpression eigendom. Erhält den richtigen Ausdruck.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words für .NET
+description: ComparisonExpression RightExpression eigendom. Erhält den richtigen Ausdruck in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/comparisonexpression/rightexpression/
@@ -14,7 +16,7 @@ Erhält den richtigen Ausdruck.
 public string RightExpression { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine benutzerdefinierte Auswertung für die Felder IF und COMPARE implementiert wird.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Siehe auch
 
 * class [ComparisonExpression](../)
-* namensraum [Aspose.Words.Fields](../../comparisonexpression/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

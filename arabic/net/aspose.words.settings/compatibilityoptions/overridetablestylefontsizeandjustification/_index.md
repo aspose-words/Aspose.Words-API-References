@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.OverrideTableStyleFontSizeAndJustification
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. يحدد كيفية تقييم التسلسل الهرمي لأنماط المستند.
+linktitle: OverrideTableStyleFontSizeAndJustification
+articleTitle: OverrideTableStyleFontSizeAndJustification
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions OverrideTableStyleFontSizeAndJustification ملكية. يحدد كيفية تقييم التسلسل الهرمي لأنماط المستند في C#.
 type: docs
 weight: 380
 url: /ar/net/aspose.words.settings/compatibilityoptions/overridetablestylefontsizeandjustification/
@@ -17,7 +19,5 @@ public bool OverrideTableStyleFontSizeAndJustification { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

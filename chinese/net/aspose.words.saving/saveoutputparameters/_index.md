@@ -1,7 +1,9 @@
 ---
-title: Class SaveOutputParameters
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.SaveOutputParameters 班级. 保存文档后此对象将返回给调用者并包含在保存操作期间生成或计算的 的附加信息调用者可以使用或忽略该对象
+title: SaveOutputParameters Class
+linktitle: SaveOutputParameters
+articleTitle: SaveOutputParameters
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.SaveOutputParameters 班级. 保存文档后此对象将返回给调用者并包含在保存操作期间生成或计算的 的附加信息调用者可以使用或忽略该对象 在 C#.
 type: docs
 weight: 5590
 url: /zh/net/aspose.words.saving/saveoutputparameters/
@@ -22,7 +24,7 @@ public class SaveOutputParameters
 | --- | --- |
 | [ContentType](../../aspose.words.saving/saveoutputparameters/contenttype/) { get; } | 返回标识已保存文档类型的 Content-Type 字符串（Internet 媒体类型）。 |
 
-### 例子
+## 例子
 
 演示如何访问文档保存操作的输出参数。
 
@@ -46,5 +48,3 @@ Assert.AreEqual("application/pdf", parameters.ContentType);
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

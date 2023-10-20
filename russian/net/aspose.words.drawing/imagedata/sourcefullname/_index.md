@@ -1,7 +1,9 @@
 ---
 title: ImageData.SourceFullName
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageData свойство. Получает или задает путь и имя исходного файла связанного изображения.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words для .NET
+description: ImageData SourceFullName свойство. Получает или задает путь и имя исходного файла связанного изображения на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.drawing/imagedata/sourcefullname/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/imagedata/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — пустая строка.
 
 Если`SourceFullName` не пустая строка, изображение связано.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить связанное изображение в документ.
 
@@ -62,7 +64,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 ### Смотрите также
 
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

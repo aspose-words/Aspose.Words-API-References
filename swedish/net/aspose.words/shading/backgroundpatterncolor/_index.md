@@ -1,7 +1,9 @@
 ---
 title: Shading.BackgroundPatternColor
-second_title: Aspose.Words för .NET API Referens
-description: Shading fast egendom. Hämtar eller ställer in färgen som appliceras på bakgrunden avShading objekt.
+linktitle: BackgroundPatternColor
+articleTitle: BackgroundPatternColor
+second_title: Aspose.Words för .NET
+description: Shading BackgroundPatternColor fast egendom. Hämtar eller ställer in färgen som appliceras på bakgrunden avShading objekt i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/shading/backgroundpatterncolor/
@@ -14,7 +16,7 @@ Hämtar eller ställer in färgen som appliceras på bakgrunden av[`Shading`](..
 public Color BackgroundPatternColor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man dekorerar text med kanter och skuggningar.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ### Se även
 
 * class [Shading](../)
-* namnutrymme [Aspose.Words](../../shading/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

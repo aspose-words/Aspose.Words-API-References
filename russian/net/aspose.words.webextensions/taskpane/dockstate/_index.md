@@ -1,7 +1,9 @@
 ---
 title: TaskPane.DockState
-second_title: Справочник по API Aspose.Words для .NET
-description: TaskPane свойство. Указывает последнее закрепленное местоположение этого объекта области задач.
+linktitle: DockState
+articleTitle: DockState
+second_title: Aspose.Words для .NET
+description: TaskPane DockState свойство. Указывает последнее закрепленное местоположение этого объекта области задач на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.webextensions/taskpane/dockstate/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.webextensions/taskpane/dockstate/
 public TaskPaneDockState DockState { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [TaskPaneDockState](../../taskpanedockstate/)
 * class [TaskPane](../)
-* пространство имен [Aspose.Words.WebExtensions](../../taskpane/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

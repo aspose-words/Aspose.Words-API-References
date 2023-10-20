@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.Field
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergingArgsBase свойство. Получает объект представляющий текущее поле слияния.
+linktitle: Field
+articleTitle: Field
+second_title: Aspose.Words для .NET
+description: FieldMergingArgsBase Field свойство. Получает объект представляющий текущее поле слияния на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/field/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/field/
 public FieldMergeField Field { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с помощью пользовательского обратного вызова, который обрабатывает данные слияния в форме документов HTML.
 
@@ -83,7 +85,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [FieldMergeField](../../../aspose.words.fields/fieldmergefield/)
 * class [FieldMergingArgsBase](../)
-* пространство имен [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

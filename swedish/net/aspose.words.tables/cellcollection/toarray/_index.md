@@ -1,7 +1,9 @@
 ---
 title: CellCollection.ToArray
-second_title: Aspose.Words för .NET API Referens
-description: CellCollection metod. Kopierar alla celler från samlingen till en ny array av celler.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words för .NET
+description: CellCollection ToArray metod. Kopierar alla celler från samlingen till en ny array av celler i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.tables/cellcollection/toarray/
@@ -18,7 +20,7 @@ public Cell[] ToArray()
 
 En rad celler.
 
-### Exempel
+## Exempel
 
 Visar hur man itererar genom alla tabeller i dokumentet och skriver ut innehållet i varje cell.
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Cell](../../cell/)
 * class [CellCollection](../)
-* namnutrymme [Aspose.Words.Tables](../../cellcollection/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: BuildingBlock fast egendom. ReturnerarBuildingBlock värde.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: BuildingBlock NodeType fast egendom. ReturnerarBuildingBlock värde i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.buildingblocks/buildingblock/nodetype/
@@ -14,7 +16,7 @@ ReturnerarBuildingBlock värde.
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [BuildingBlock](../)
-* namnutrymme [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namnutrymme [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class License
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.License сорт. Предоставляет методы лицензирования компонента.
+title: License Class
+linktitle: License
+articleTitle: License
+second_title: Aspose.Words для .NET
+description: Aspose.Words.License сорт. Предоставляет методы лицензирования компонента на С#.
 type: docs
 weight: 3420
 url: /ru/net/aspose.words/license/
@@ -26,10 +28,10 @@ public class License
 
 | Имя | Описание |
 | --- | --- |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(Stream) | Лицензиирует компонент. |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(string) | Лицензиирует компонент. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(*Stream*) | Лицензиирует компонент. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(*string*) | Лицензиирует компонент. |
 
-### Примеры
+## Примеры
 
 Показывает, как инициализировать лицензию для Aspose.Words с использованием файла лицензии в локальной файловой системе.
 
@@ -54,5 +56,3 @@ license.SetLicense("Aspose.Words.NET.lic");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class DownsampleOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.DownsampleOptions сорт. Позволяет указать параметры понижения разрешения.
+title: DownsampleOptions Class
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.DownsampleOptions сорт. Позволяет указать параметры понижения разрешения на С#.
 type: docs
 weight: 4970
 url: /ru/net/aspose.words.saving/downsampleoptions/
@@ -30,7 +32,7 @@ public class DownsampleOptions
 | [Resolution](../../aspose.words.saving/downsampleoptions/resolution/) { get; set; } | Указывает разрешение в пикселях на дюйм, до которого изображения должны быть уменьшены. |
 | [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold/) { get; set; } | Указывает пороговое разрешение в пикселях на дюйм. Если разрешение изображения в документе меньше порогового значения, алгоритм понижения разрешения не будет применяться. Значение 0 означает, что проверка порога не используется и все изображения, могут быть уменьшены в размере. |
 
-### Примеры
+## Примеры
 
 Показывает, как изменить разрешение изображений в документе PDF.
 
@@ -63,5 +65,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

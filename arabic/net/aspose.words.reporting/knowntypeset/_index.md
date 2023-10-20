@@ -1,7 +1,9 @@
 ---
-title: Class KnownTypeSet
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Reporting.KnownTypeSet فصل. يمثل مجموعة غير مرتبة أي مجموعة من العناصر الفريدة تحتوي علىType الكائنات التي يمكن استخدام أسمائها المؤهلة كليًا أو جزئيًا ضمن قوالب التقارير لاستدعاء الأعضاء الثابتين لأنواع المقابلة وإجراء عمليات تحويل النوع وما إلى ذلك.
+title: KnownTypeSet Class
+linktitle: KnownTypeSet
+articleTitle: KnownTypeSet
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Reporting.KnownTypeSet فصل. يمثل مجموعة غير مرتبة أي مجموعة من العناصر الفريدة تحتوي علىType الكائنات التي يمكن استخدام أسمائها المؤهلة كليًا أو جزئيًا ضمن قوالب التقارير لاستدعاء الأعضاء الثابتين لأنواع المقابلة وإجراء عمليات تحويل النوع وما إلى ذلك في C#.
 type: docs
 weight: 4710
 url: /ar/net/aspose.words.reporting/knowntypeset/
@@ -26,14 +28,12 @@ public class KnownTypeSet : IEnumerable<Type>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.reporting/knowntypeset/add/)(Type) | يضيف المحددType اعتراض على المجموعة. رمياتArgumentException in الحالات التالية: |
+| [Add](../../aspose.words.reporting/knowntypeset/add/)(*Type*) | يضيف المحددType اعتراض على المجموعة. رمياتArgumentException in الحالات التالية: |
 | [Clear](../../aspose.words.reporting/knowntypeset/clear/)() | إزالة كافة العناصر من المجموعة. |
 | [GetEnumerator](../../aspose.words.reporting/knowntypeset/getenumerator/)() | إرجاع AnIEnumerator كائن للتكرار على عناصر المجموعة. |
-| [Remove](../../aspose.words.reporting/knowntypeset/remove/)(Type) | إزالة المحددTypeكائن من المجموعة. رمياتArgumentException إذا *type* يكون`باطل` . |
+| [Remove](../../aspose.words.reporting/knowntypeset/remove/)(*Type*) | إزالة المحددTypeكائن من المجموعة. رمياتArgumentException إذا *type* يكون`باطل` . |
 
 ### أنظر أيضا
 
 * مساحة الاسم [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../)
-
-

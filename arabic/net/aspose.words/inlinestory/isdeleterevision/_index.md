@@ -1,7 +1,9 @@
 ---
 title: InlineStory.IsDeleteRevision
-second_title: Aspose.Words لمراجع .NET API
-description: InlineStory ملكية. إرجاع صحيح إذا تم حذف هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words لـ .NET
+description: InlineStory IsDeleteRevision ملكية. إرجاع صحيح إذا تم حذف هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/inlinestory/isdeleterevision/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/inlinestory/isdeleterevision/
 public bool IsDeleteRevision { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض الخصائص المتعلقة بالمراجعة لعقد InlineStory.
 
@@ -62,7 +64,5 @@ Assert.IsTrue(footnotes[3].IsDeleteRevision);
 ### أنظر أيضا
 
 * class [InlineStory](../)
-* مساحة الاسم [Aspose.Words](../../inlinestory/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

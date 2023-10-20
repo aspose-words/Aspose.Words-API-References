@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCleanupOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MailMerging.MailMergeCleanupOptions Sıralama. Adresmektup birleştirme sırasında hangi öğelerin kaldırılacağını belirleyen seçenekleri belirtir.
+title: MailMergeCleanupOptions Enum
+linktitle: MailMergeCleanupOptions
+articleTitle: MailMergeCleanupOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.MailMerging.MailMergeCleanupOptions Sıralama. Adresmektup birleştirme sırasında hangi öğelerin kaldırılacağını belirleyen seçenekleri belirtir C#'da.
 type: docs
 weight: 3850
 url: /tr/net/aspose.words.mailmerging/mailmergecleanupoptions/
@@ -27,7 +29,7 @@ public enum MailMergeCleanupOptions
 | RemoveStaticFields | `10` | Statik alanların belgeden kaldırılıp kaldırılmayacağını belirtir. Statik alanlar, herhangi bir belge değişikliğinde sonuçlarının aynı kaldığı alanlardır. Sonuçlarını bir document dosyasında saklamayan ve anında hesaplanan alanlar (örneğinFieldListNum , FieldSymbol , vb.) statik olarak kabul edilmez. |
 | RemoveEmptyTableRows | `20` | Adres-mektup birleştirme bölgelerini içeren boş satırların belgeden kaldırılıp kaldırılmayacağını belirtir. |
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirmenin birleştirme çıktı belgesinden oluşturabileceği boş paragrafların nasıl kaldırılacağını gösterir.
 
@@ -100,5 +102,3 @@ else
 
 * ad alanı [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../)
-
-

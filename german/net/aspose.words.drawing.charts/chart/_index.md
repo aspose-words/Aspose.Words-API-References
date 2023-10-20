@@ -1,7 +1,9 @@
 ---
-title: Class Chart
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.Chart klas. Bietet Zugriff auf die Diagrammformeigenschaften.
+title: Chart Class
+linktitle: Chart
+articleTitle: Chart
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.Chart klas. Bietet Zugriff auf die Diagrammformeigenschaften in C#.
 type: docs
 weight: 620
 url: /de/net/aspose.words.drawing.charts/chart/
@@ -29,7 +31,7 @@ public class Chart
 | [SourceFullName](../../aspose.words.drawing.charts/chart/sourcefullname/) { get; set; } | Ruft den Pfad und Namen einer XLS/XLSX-Datei ab, mit der dieses Diagramm verknüpft ist. |
 | [Title](../../aspose.words.drawing.charts/chart/title/) { get; } | Bietet Zugriff auf die Eigenschaften des Diagrammtitels. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und einen Titel festlegt.
 
@@ -58,5 +60,3 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

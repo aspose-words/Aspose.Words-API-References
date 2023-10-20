@@ -1,7 +1,9 @@
 ---
 title: Chart.AxisX
-second_title: Aspose.Words لمراجع .NET API
-description: Chart ملكية. يوفر الوصول إلى خصائص المحور X للمخطط.
+linktitle: AxisX
+articleTitle: AxisX
+second_title: Aspose.Words لـ .NET
+description: Chart AxisX ملكية. يوفر الوصول إلى خصائص المحور X للمخطط في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/chart/axisx/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chart/axisx/
 public ChartAxis AxisX { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعديل مظهر محاوره.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * class [ChartAxis](../../chartaxis/)
 * class [Chart](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chart/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

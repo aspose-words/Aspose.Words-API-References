@@ -1,7 +1,9 @@
 ---
-title: Interface IResourceSavingCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.IResourceSavingCallback 界面. 如果您想在 将文档保存到固定页面 HTML 或 SVG 时控制 Aspose.Words 如何保存外部资源图像字体和 css请实现此接口
+title: IResourceSavingCallback Interface
+linktitle: IResourceSavingCallback
+articleTitle: IResourceSavingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.IResourceSavingCallback 界面. 如果您想在 将文档保存到固定页面 HTML 或 SVG 时控制 Aspose.Words 如何保存外部资源图像字体和 css请实现此接口 在 C#.
 type: docs
 weight: 5190
 url: /zh/net/aspose.words.saving/iresourcesavingcallback/
@@ -18,9 +20,9 @@ public interface IResourceSavingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(ResourceSavingArgs) | 当 Aspose.Words 将外部资源保存为固定页面 HTML 或 SVG 格式时调用。 |
+| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(*[ResourceSavingArgs](../resourcesavingargs/)*) | 当 Aspose.Words 将外部资源保存为固定页面 HTML 或 SVG 格式时调用。 |
 
-### 例子
+## 例子
 
 演示如何使用回调来跟踪将文档转换为 HTML 时创建的外部资源。
 
@@ -140,5 +142,3 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Count
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SdtListItemCollection propriété. Obtient le nombre déléments dans la collection.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words pour .NET
+description: SdtListItemCollection Count propriété. Obtient le nombre déléments dans la collection en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.markup/sdtlistitemcollection/count/
@@ -14,7 +16,7 @@ Obtient le nombre d'éléments dans la collection.
 public int Count { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les balises de documents structurés à liste déroulante.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Voir également
 
 * class [SdtListItemCollection](../)
-* espace de noms [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

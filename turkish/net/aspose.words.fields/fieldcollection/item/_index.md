@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCollection mülk. Belirtilen dizindeki bir alanı döndürür.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: FieldCollection Item mülk. Belirtilen dizindeki bir alanı döndürür C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldcollection/item/
@@ -18,7 +20,7 @@ public Field this[int index] { get; }
 | --- | --- |
 | index | Koleksiyona bir dizin. |
 
-### Notlar
+## Notlar
 
 Endeks sıfır bazlıdır.
 
@@ -28,7 +30,7 @@ Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvur
 
 Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
-### Örnekler
+## Örnekler
 
 Alan koleksiyonundan alanların nasıl kaldırılacağını gösterir.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, fields.Count);
 
 * class [Field](../../field/)
 * class [FieldCollection](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

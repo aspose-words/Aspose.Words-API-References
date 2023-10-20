@@ -1,7 +1,9 @@
 ---
 title: Field.GetFieldCode
-second_title: Справочник по API Aspose.Words для .NET
-description: Field метод. Возвращает текст между началом поля и разделителем поля или концом поля если разделителя нет. Включены как код поля так и результат поля дочерних полей.
+linktitle: GetFieldCode
+articleTitle: GetFieldCode
+second_title: Aspose.Words для .NET
+description: Field GetFieldCode метод. Возвращает текст между началом поля и разделителем поля или концом поля если разделителя нет. Включены как код поля так и результат поля дочерних полей на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.fields/field/getfieldcode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/field/getfieldcode/
 public string GetFieldCode()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле в документ с помощью кода поля.
 
@@ -53,12 +55,12 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### Смотрите также
 
 * class [Field](../)
-* пространство имен [Aspose.Words.Fields](../../field/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## GetFieldCode(bool) {#getfieldcode_1}
+## GetFieldCode(*bool*) {#getfieldcode_1}
 
 Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет).
 
@@ -70,7 +72,7 @@ public string GetFieldCode(bool includeChildFieldCodes)
 | --- | --- | --- |
 | includeChildFieldCodes | Boolean | `истинный` если должны быть включены коды дочерних полей. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить код поля поля.
 
@@ -94,7 +96,5 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ### Смотрите также
 
 * class [Field](../)
-* пространство имен [Aspose.Words.Fields](../../field/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.TextOrientation
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Permet de préciserTextOrientation pour toute la page. La valeur par défaut estHorizontal
+linktitle: TextOrientation
+articleTitle: TextOrientation
+second_title: Aspose.Words pour .NET
+description: PageSetup TextOrientation propriété. Permet de préciserTextOrientation pour toute la page. La valeur par défaut estHorizontal en C#.
 type: docs
 weight: 430
 url: /fr/net/aspose.words/pagesetup/textorientation/
@@ -14,11 +16,11 @@ Permet de préciser`TextOrientation` pour toute la page. La valeur par défaut e
 public TextOrientation TextOrientation { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété n'est prise en charge que pour les formats natifs MS Word DOCX, WML, RTF et DOC.
 
-### Exemples
+## Exemples
 
 Montre comment définir l’orientation du texte.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetTextOrientation.docx");
 
 * enum [TextOrientation](../../textorientation/)
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

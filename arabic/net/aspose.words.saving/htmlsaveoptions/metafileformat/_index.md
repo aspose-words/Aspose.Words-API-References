@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.MetafileFormat
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد التنسيق الذي سيتم حفظ ملفات التعريف عند التصدير إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيPng  مما يعني أن ملفات التعريف يتم عرضها على صور PNG النقطية.
+linktitle: MetafileFormat
+articleTitle: MetafileFormat
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions MetafileFormat ملكية. يحدد التنسيق الذي سيتم حفظ ملفات التعريف عند التصدير إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيPng  مما يعني أن ملفات التعريف يتم عرضها على صور PNG النقطية في C#.
 type: docs
 weight: 380
 url: /ar/net/aspose.words.saving/htmlsaveoptions/metafileformat/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/metafileformat/
 public HtmlMetafileFormat MetafileFormat { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يتم عرض ملفات التعريف أصلاً بواسطة متصفحات HTML. افتراضيًا، يقوم Aspose.Words بتحويل صور WMF وEMF إلى ملفات PNG عند التصدير إلى HTML. تتمثل الخيارات الأخرى في تحويل ملفات التعريف إلى صور SVG أو تصديرها كما هي بدون تحويل.
 
 لن يتم تطبيق بعض تحويلات الصور، خاصة اقتصاص الصور، على صور ملف التعريف إذا تم تصديرها إلى HTML بدون تحويل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحويل كائنات SVG إلى تنسيق مختلف عند حفظ مستندات HTML.
 
@@ -82,7 +84,5 @@ switch (htmlMetafileFormat)
 * property [ScaleImageToShapeSize](../scaleimagetoshapesize/)
 * enum [HtmlMetafileFormat](../../htmlmetafileformat/)
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

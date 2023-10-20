@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Appearance
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Får/ställer in utseendet på en strukturerad dokumenttagg.
+linktitle: Appearance
+articleTitle: Appearance
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag Appearance fast egendom. Får/ställer in utseendet på en strukturerad dokumenttagg i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/structureddocumenttag/appearance/
@@ -14,7 +16,7 @@ Får/ställer in utseendet på en strukturerad dokumenttagg.
 public SdtAppearance Appearance { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg i en vanlig textruta och ändrar dess utseende.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * enum [SdtAppearance](../../sdtappearance/)
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

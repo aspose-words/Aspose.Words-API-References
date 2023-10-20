@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleIdFarEast
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Obtient ou définit lidentifiant de paramètres régionaux langue des caractères asiatiques formatés.
+linktitle: LocaleIdFarEast
+articleTitle: LocaleIdFarEast
+second_title: Aspose.Words pour .NET
+description: Font LocaleIdFarEast propriété. Obtient ou définit lidentifiant de paramètres régionaux langue des caractères asiatiques formatés en C#.
 type: docs
 weight: 220
 url: /fr/net/aspose.words/font/localeidfareast/
@@ -14,11 +16,11 @@ Obtient ou définit l'identifiant de paramètres régionaux (langue) des caract�
 public int LocaleIdFarEast { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Pour la liste des identifiants de paramètres régionaux, voir https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### Exemples
+## Exemples
 
 Montre comment insérer et formater du texte dans une langue d'Extrême-Orient.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Font.FarEast.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

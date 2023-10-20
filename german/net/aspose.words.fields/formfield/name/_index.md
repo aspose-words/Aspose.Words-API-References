@@ -1,7 +1,9 @@
 ---
 title: FormField.Name
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Ruft den Formularfeldnamen ab oder legt ihn fest.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words für .NET
+description: FormField Name eigendom. Ruft den Formularfeldnamen ab oder legt ihn fest in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.fields/formfield/name/
@@ -14,11 +16,11 @@ Ruft den Formularfeldnamen ab oder legt ihn fest.
 public string Name { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Microsoft Word erlaubt Zeichenfolgen mit maximal 20 Zeichen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Kombinationsfeld eingefügt wird.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### Siehe auch
 
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.Comments
-second_title: Aspose.Words för .NET API Referens
-description: DigitalSignature fast egendom. Får kommentaren för signeringssyfte.
+linktitle: Comments
+articleTitle: Comments
+second_title: Aspose.Words för .NET
+description: DigitalSignature Comments fast egendom. Får kommentaren för signeringssyfte i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.digitalsignatures/digitalsignature/comments/
@@ -14,7 +16,7 @@ Får kommentaren för signeringssyfte.
 public string Comments { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man validerar och visar information om varje signatur i ett dokument.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Se även
 
 * class [DigitalSignature](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

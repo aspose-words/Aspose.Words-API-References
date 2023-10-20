@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalPosition
-second_title: Aspose.Words per .NET API Reference
-description: FrameFormat proprietà. Ottiene la distanza verticale tra il bordo del frame e lelemento specificato daRelativeVerticalPosition proprietà.
+linktitle: VerticalPosition
+articleTitle: VerticalPosition
+second_title: Aspose.Words per .NET
+description: FrameFormat VerticalPosition proprietà. Ottiene la distanza verticale tra il bordo del frame e lelemento specificato daRelativeVerticalPosition proprietà in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words/frameformat/verticalposition/
@@ -14,7 +16,7 @@ Ottiene la distanza verticale tra il bordo del frame e l'elemento specificato da
 public double VerticalPosition { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere informazioni sulle proprietà di formattazione dei paragrafi che sono frame.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Guarda anche
 
 * class [FrameFormat](../)
-* spazio dei nomi [Aspose.Words](../../frameformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

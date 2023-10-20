@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsDecorative
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على أو تعيين العلامة التي تحدد ما إذا كان الشكل مزخرفًا في المستند.
+linktitle: IsDecorative
+articleTitle: IsDecorative
+second_title: Aspose.Words لـ .NET
+description: ShapeBase IsDecorative ملكية. الحصول على أو تعيين العلامة التي تحدد ما إذا كان الشكل مزخرفًا في المستند في C#.
 type: docs
 weight: 240
 url: /ar/net/aspose.words.drawing/shapebase/isdecorative/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/shapebase/isdecorative/
 public bool IsDecorative { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أن الشكل ليس فارغًا[`AlternativeText`](../alternativetext/) لا يمكن أن تكون زخرفية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط الشكل ليكون زخرفيًا.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.IsDecorative.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

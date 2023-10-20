@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.SetData
-second_title: Aspose.Words für .NET-API-Referenz
-description: ResourceLoadingArgs methode. Legt vom Benutzer bereitgestellte Daten der Ressource fest die verwendet wird wennResourceLoading kehrt zurückUserProvided .
+linktitle: SetData
+articleTitle: SetData
+second_title: Aspose.Words für .NET
+description: ResourceLoadingArgs SetData methode. Legt vom Benutzer bereitgestellte Daten der Ressource fest die verwendet wird wennResourceLoading kehrt zurückUserProvided  in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.loading/resourceloadingargs/setdata/
@@ -14,7 +16,7 @@ Legt vom Benutzer bereitgestellte Daten der Ressource fest, die verwendet wird w
 public void SetData(byte[] data)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie den Prozess des Ladens externer Ressourcen in ein Dokument anpassen.
 
@@ -77,7 +79,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 ### Siehe auch
 
 * class [ResourceLoadingArgs](../)
-* namensraum [Aspose.Words.Loading](../../resourceloadingargs/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.HyphenationOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Proporciona acceso a las opciones de separación de palabras del documento.
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: Aspose.Words para .NET
+description: Document HyphenationOptions propiedad. Proporciona acceso a las opciones de separación de palabras del documento en C#.
 type: docs
 weight: 210
 url: /es/net/aspose.words/document/hyphenationoptions/
@@ -14,7 +16,7 @@ Proporciona acceso a las opciones de separación de palabras del documento.
 public HyphenationOptions HyphenationOptions { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la separación de palabras automática.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 
 * class [HyphenationOptions](../../../aspose.words.settings/hyphenationoptions/)
 * class [Document](../)
-* espacio de nombres [Aspose.Words](../../document/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

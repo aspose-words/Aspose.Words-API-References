@@ -1,7 +1,9 @@
 ---
 title: OdtSaveOptions.Password
-second_title: Aspose.Words for .NET API Referansı
-description: OdtSaveOptions mülk. Belgeyi şifrelemek için bir parola alır veya ayarlar.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words for .NET
+description: OdtSaveOptions Password mülk. Belgeyi şifrelemek için bir parola alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/odtsaveoptions/password/
@@ -14,11 +16,11 @@ Belgeyi şifrelemek için bir parola alır veya ayarlar.
 public string Password { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Belgeyi şifrelemeden kaydetmek için bu özelliğin şu şekilde olması gerekir:`hükümsüz` veya boş dize.
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir ODT/OTT belgesinin bir parola ile nasıl şifreleneceğini ve ardından Aspose.Words kullanılarak nasıl yükleneceğini gösterir.
 
@@ -53,7 +55,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Ayrıca bakınız
 
 * class [OdtSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../odtsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

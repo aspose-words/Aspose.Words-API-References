@@ -1,7 +1,9 @@
 ---
-title: Enum CalendarType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.CalendarType Sıralama. Takvimin türünü belirtir.
+title: CalendarType Enum
+linktitle: CalendarType
+articleTitle: CalendarType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.CalendarType Sıralama. Takvimin türünü belirtir C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words/calendartype/
@@ -24,7 +26,7 @@ public enum CalendarType
 | SakaEra | `3` | Saka Dönemi takvimi. |
 | UmAlQura | `4` | Ümmü'l-Kura takvimi. |
 
-### Örnekler
+## Örnekler
 
 Alanlar güncellenirken özel bir biçimin alan sonuçlarına otomatik olarak nasıl uygulanacağını gösterir.
 
@@ -162,5 +164,3 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.PosCodeStyle
-second_title: Aspose.Words för .NET API Referens
-description: FieldDisplayBarcode fast egendom. Hämtar eller ställer in stilen för en streckkod för försäljningsställen streckkodstyperna UPCAUPCEEAN13EAN8. De giltiga värdena okänsliga skiftlägen är STDSUP2SUP5CASE.
+linktitle: PosCodeStyle
+articleTitle: PosCodeStyle
+second_title: Aspose.Words för .NET
+description: FieldDisplayBarcode PosCodeStyle fast egendom. Hämtar eller ställer in stilen för en streckkod för försäljningsställen streckkodstyperna UPCAUPCEEAN13EAN8. De giltiga värdena okänsliga skiftlägen är STDSUP2SUP5CASE i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.fields/fielddisplaybarcode/poscodestyle/
@@ -14,7 +16,7 @@ Hämtar eller ställer in stilen för en streckkod för försäljningsställen (
 public string PosCodeStyle { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett DISPLAYBARCODE-fält och ställer in dess egenskaper.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Se även
 
 * class [FieldDisplayBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

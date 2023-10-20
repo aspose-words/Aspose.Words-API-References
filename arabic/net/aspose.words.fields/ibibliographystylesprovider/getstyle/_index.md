@@ -1,7 +1,9 @@
 ---
 title: IBibliographyStylesProvider.GetStyle
-second_title: Aspose.Words لمراجع .NET API
-description: IBibliographyStylesProvider طريقة. إرجاع نمط المراجع.
+linktitle: GetStyle
+articleTitle: GetStyle
+second_title: Aspose.Words لـ .NET
+description: IBibliographyStylesProvider GetStyle طريقة. إرجاع نمط المراجع في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/ibibliographystylesprovider/getstyle/
@@ -22,14 +24,12 @@ public Stream GetStyle(string styleFileName)
 
 الStream مع ورقة أنماط XSLT بأسلوب الببليوغرافيا.
 
-### ملاحظات
+## ملاحظات
 
 يجب أن يعود التنفيذ`باطل` للإشارة إلى أنه يجب استخدام إصدار MS Word للنمط المحدد.
 
 ### أنظر أيضا
 
 * interface [IBibliographyStylesProvider](../)
-* مساحة الاسم [Aspose.Words.Fields](../../ibibliographystylesprovider/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

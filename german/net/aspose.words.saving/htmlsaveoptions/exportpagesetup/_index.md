@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportPageSetup
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt an ob die Seiteneinrichtung nach HTML MHTML oder EPUB exportiert wird. Die Standardeinstellung istFALSCH .
+linktitle: ExportPageSetup
+articleTitle: ExportPageSetup
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ExportPageSetup eigendom. Gibt an ob die Seiteneinrichtung nach HTML MHTML oder EPUB exportiert wird. Die Standardeinstellung istFALSCH  in C#.
 type: docs
 weight: 220
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
@@ -14,13 +16,13 @@ Gibt an, ob die Seiteneinrichtung nach HTML, MHTML oder EPUB exportiert wird. Di
 public bool ExportPageSetup { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Jede[`Section`](../../../aspose.words/section/) Im Aspose.Words-Dokumentmodell werden Seiteneinrichtungsinformationen über bereitgestellt[`PageSetup`](../../../aspose.words/pagesetup/) Klasse. Wenn Sie ein Dokument in das HTML-Format exportieren, müssen Sie diese Informationen möglicherweise für die weitere Verwendung aufbewahren. Insbesondere kann die Seiteneinrichtung für die Wiedergabe auf ausgelagerten Medien (Drucken) oder die anschließende Konvertierung in die nativen Microsoft Word-Dateiformate (DOCX, DOC, RTF, WML) wichtig sein.
 
 In den meisten Fällen ist HTML für die Anzeige in Browsern gedacht, in denen keine Paginierung durchgeführt wird. Daher ist dieses Feature standardmäßig inaktiv.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie entscheiden, ob die Abschnittsstruktur/Seiteneinrichtungsinformationen beim Speichern in HTML beibehalten werden sollen.
 
@@ -80,7 +82,5 @@ else
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

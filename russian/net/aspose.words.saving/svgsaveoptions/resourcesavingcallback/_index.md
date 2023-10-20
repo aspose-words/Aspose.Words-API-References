@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ResourceSavingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: SvgSaveOptions свойство. Позволяет контролировать сохранение ресурсов изображений при экспорте документа в формат SVG.
+linktitle: ResourceSavingCallback
+articleTitle: ResourceSavingCallback
+second_title: Aspose.Words для .NET
+description: SvgSaveOptions ResourceSavingCallback свойство. Позволяет контролировать сохранение ресурсов изображений при экспорте документа в формат SVG на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/svgsaveoptions/resourcesavingcallback/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/svgsaveoptions/resourcesavingcallback/
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как манипулировать и печатать URI связанных ресурсов, созданных при преобразовании документа в SVG.
 
@@ -58,7 +60,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * interface [IResourceSavingCallback](../../iresourcesavingcallback/)
 * class [SvgSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../svgsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

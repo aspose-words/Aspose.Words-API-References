@@ -1,7 +1,9 @@
 ---
 title: Font.ClearFormatting
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font méthode. Réinitialise le formatage de police par défaut.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words pour .NET
+description: Font ClearFormatting méthode. Réinitialise le formatage de police par défaut en C#.
 type: docs
 weight: 550
 url: /fr/net/aspose.words/font/clearformatting/
@@ -14,11 +16,11 @@ Réinitialise le formatage de police par défaut.
 public void ClearFormatting()
 ```
 
-### Remarques
+## Remarques
 
 Supprime tout le formatage de police spécifié explicitement sur l'objet à partir duquel [`Font`](../) a été obtenu, le formatage de la police sera donc hérité de le parent approprié.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ de lien hypertexte.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

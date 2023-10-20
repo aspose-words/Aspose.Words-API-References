@@ -1,7 +1,9 @@
 ---
-title: Class FieldEnd
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldEnd klass. Representerar slutet av ett Wordfält i ett dokument.
+title: FieldEnd Class
+linktitle: FieldEnd
+articleTitle: FieldEnd
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldEnd klass. Representerar slutet av ett Wordfält i ett dokument i C#.
 type: docs
 weight: 1860
 url: /sv/net/aspose.words.fields/fieldend/
@@ -44,19 +46,19 @@ public class FieldEnd : FieldChar
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/fieldend/accept/)(DocumentVisitor) | Accepterar en besökare. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
+| override [Accept](../../aspose.words.fields/fieldend/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepterar en besökare. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
 | [GetField](../../aspose.words.fields/fieldchar/getfield/)() | Returnerar ett fält för fältet char. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Får specialtecknet som denna nod representerar. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
 
-### Anmärkningar
+## Anmärkningar
 
 `FieldEnd` är en nod på inline-nivå och representeras av[`FieldEndChar`](../../aspose.words/controlchar/fieldendchar/) kontrolltecken i dokumentet.
 
@@ -66,7 +68,7 @@ Ett komplett fält i ett Microsoft Word-dokument är en komplex struktur som bes
 
 För att enkelt infoga ett nytt fält i ett dokument, använd[`InsertField`](../../aspose.words/documentbuilder/insertfield/) metod.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en samling fält.
 
@@ -171,5 +173,3 @@ public class FieldVisitor : DocumentVisitor
 * class [FieldChar](../fieldchar/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Themes
-second_title: Aspose.Words per .NET API Reference
-description: IL Aspose.Words.Themes namespace fornisce classi che consentono di accedere alle informazioni sul tema nei documenti Microsoft Word.
+linktitle: Aspose.Words.Themes
+articleTitle: Aspose.Words.Themes
+second_title: Aspose.Words per .NET
+description: ILAspose.Words.Themes namespace fornisce classi che consentono di accedere alle informazioni sul tema nei documenti Microsoft Word in C#.
 type: docs
 weight: 270
 url: /it/net/aspose.words.themes/
 ---
-IL **Aspose.Words.Themes** namespace fornisce classi che consentono di accedere alle informazioni sul tema nei documenti Microsoft Word.
+IL**Aspose.Words.Themes** namespace fornisce classi che consentono di accedere alle informazioni sul tema nei documenti Microsoft Word.
 
 ## Classi
 
@@ -21,5 +23,3 @@ IL **Aspose.Words.Themes** namespace fornisce classi che consentono di accedere 
 | --- | --- |
 | [ThemeColor](./themecolor/) | Specifica i colori del tema per i temi dei documenti. |
 | [ThemeFont](./themefont/) | Specifica i tipi di nomi dei caratteri dei temi per i temi dei documenti. |
-
-

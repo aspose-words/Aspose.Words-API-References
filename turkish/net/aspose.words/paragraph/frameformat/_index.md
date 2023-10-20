@@ -1,7 +1,9 @@
 ---
 title: Paragraph.FrameFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Çerçeve biçimlendirme özelliklerine erişim sağlar.
+linktitle: FrameFormat
+articleTitle: FrameFormat
+second_title: Aspose.Words for .NET
+description: Paragraph FrameFormat mülk. Çerçeve biçimlendirme özelliklerine erişim sağlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/paragraph/frameformat/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/paragraph/frameformat/
 public FrameFormat FrameFormat { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * class [FrameFormat](../../frameformat/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

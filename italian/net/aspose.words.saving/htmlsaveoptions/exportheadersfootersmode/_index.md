@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportHeadersFootersMode
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica la modalità di output di intestazioni e piè di pagina in HTML MHTML o EPUB. Il valore predefinito èPerSection per HTML/MHTML eNone per EPUB.
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions ExportHeadersFootersMode proprietà. Specifica la modalità di output di intestazioni e piè di pagina in HTML MHTML o EPUB. Il valore predefinito èPerSection per HTML/MHTML eNone per EPUB in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
@@ -14,7 +16,7 @@ Specifica la modalità di output di intestazioni e piè di pagina in HTML, MHTML
 public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 È difficile restituire intestazioni e piè di pagina in modo significativo in HTML perché l'HTML non è impaginato.
 
@@ -24,7 +26,7 @@ Quando èFirstSectionHeaderLastSectionFooter vengono esportati solo la prima int
 
 Puoi disabilitare del tutto l'esportazione di intestazioni e piè di pagina impostando questa proprietà suNone.
 
-### Esempi
+## Esempi
 
 Mostra come omettere intestazioni/piè di pagina quando si salva un documento in HTML.
 
@@ -53,7 +55,5 @@ Assert.IsFalse(doc.Range.Text.Contains("First header"));
 
 * enum [ExportHeadersFootersMode](../../exportheadersfootersmode/)
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.RemoveAt
-second_title: Aspose.Words لمراجع .NET API
-description: VariableCollection طريقة. إزالة متغير مستند في الفهرس المحدد.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words لـ .NET
+description: VariableCollection RemoveAt طريقة. إزالة متغير مستند في الفهرس المحدد في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/variablecollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | المؤشر القائم على الصفر. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة متغيرات المستند.
 
@@ -85,7 +87,5 @@ Assert.That(variables, Is.Empty);
 ### أنظر أيضا
 
 * class [VariableCollection](../)
-* مساحة الاسم [Aspose.Words](../../variablecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

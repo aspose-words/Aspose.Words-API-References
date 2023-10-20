@@ -1,7 +1,9 @@
 ---
-title: Interface IPageLayoutCallback
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Layout.IPageLayoutCallback arayüz. Sayfa düzeni modelinin oluşturulması ve oluşturulması sırasında kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın.
+title: IPageLayoutCallback Interface
+linktitle: IPageLayoutCallback
+articleTitle: IPageLayoutCallback
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Layout.IPageLayoutCallback arayüz. Sayfa düzeni modelinin oluşturulması ve oluşturulması sırasında kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın C#'da.
 type: docs
 weight: 3310
 url: /tr/net/aspose.words.layout/ipagelayoutcallback/
@@ -18,9 +20,9 @@ public interface IPageLayoutCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | Bu, düzen oluşturma ve işleme ilerlemesini bildirmek için çağrılır. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | Bu, düzen oluşturma ve işleme ilerlemesini bildirmek için çağrılır. |
 
-### Notlar
+## Notlar
 
 Bu arayüzün birincil kullanımı, uygulama kodunun derleme işlemini iptal etmesine izin vermektir.
 
@@ -30,7 +32,7 @@ Ancak, işleme sonuçlarının, işlemin tamamlanması durumunda her sayfa için
 
 Bu teknik her belgede işe yaramayabilir veya tamamen başarısız olabilir.
 
-### Örnekler
+## Örnekler
 
 Düzen geri çağrısıyla düzen değişikliklerinin nasıl izleneceğini gösterir.
 
@@ -98,5 +100,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 * property [Callback](../layoutoptions/callback/)
 * ad alanı [Aspose.Words.Layout](../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../)
-
-

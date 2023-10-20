@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.UseBookFoldPrintingSettings
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Belgenin kitapçık yazdırma düzeni kullanılarak kaydedilip kaydedilmeyeceğini belirten bir boole değeri alır veya ayarlar ile belirtilirseMultiplePages .
+linktitle: UseBookFoldPrintingSettings
+articleTitle: UseBookFoldPrintingSettings
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions UseBookFoldPrintingSettings mülk. Belgenin kitapçık yazdırma düzeni kullanılarak kaydedilip kaydedilmeyeceğini belirten bir boole değeri alır veya ayarlar ile belirtilirseMultiplePages  C#'da.
 type: docs
 weight: 300
 url: /tr/net/aspose.words.saving/pdfsaveoptions/usebookfoldprintingsettings/
@@ -14,11 +16,11 @@ Belgenin kitapçık yazdırma düzeni kullanılarak kaydedilip kaydedilmeyeceği
 public bool UseBookFoldPrintingSettings { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu seçenek belirtilirse,[`PageSet`](../../fixedpagesaveoptions/pageset/) kaydederken göz ardı edilir. Bu davranış MS Word ile eşleşir. Kitap katlama yazdırma ayarları sayfa düzeninde belirtilmezse bu seçeneğin hiçbir etkisi olmayacaktır.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin PDF formatında kitap katlama biçiminde nasıl kaydedileceğini gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.SaveAsPdfBookFold.pdf", options);
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.RightExpression
-second_title: Aspose.Words for .NET API Referansı
-description: ComparisonExpression mülk. Doğru ifadeyi alır.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words for .NET
+description: ComparisonExpression RightExpression mülk. Doğru ifadeyi alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/comparisonexpression/rightexpression/
@@ -14,7 +16,7 @@ Doğru ifadeyi alır.
 public string RightExpression { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 IF ve COMPARE alanları için özel değerlendirmenin nasıl uygulanacağını gösterir.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Ayrıca bakınız
 
 * class [ComparisonExpression](../)
-* ad alanı [Aspose.Words.Fields](../../comparisonexpression/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

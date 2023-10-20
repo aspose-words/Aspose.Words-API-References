@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.DocumentPartStream
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentPartSavingArgs eigendom. Ermöglicht die Angabe des Streams in dem der Dokumentteil gespeichert wird.
+linktitle: DocumentPartStream
+articleTitle: DocumentPartStream
+second_title: Aspose.Words für .NET
+description: DocumentPartSavingArgs DocumentPartStream eigendom. Ermöglicht die Angabe des Streams in dem der Dokumentteil gespeichert wird in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/documentpartsavingargs/documentpartstream/
@@ -14,7 +16,7 @@ Ermöglicht die Angabe des Streams, in dem der Dokumentteil gespeichert wird.
 public Stream DocumentPartStream { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Mit dieser Eigenschaft können Sie Dokumentteile während des HTML-Exports in Streams statt in Dateien speichern.
 
@@ -24,7 +26,7 @@ Beim Speichern in einem Stream wird im HTML-Format angefordert[`Save`](../../../
 
 Beim Speichern im EPUB-Format, einem auf HTML basierenden Containerformat,`DocumentPartStream` kann nicht angegeben werden, da alle untergeordneten Teile in einem einzigen Ausgabepaket gekapselt werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument in Teile aufteilt und diese speichert.
 
@@ -141,7 +143,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Siehe auch
 
 * class [DocumentPartSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../documentpartsavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

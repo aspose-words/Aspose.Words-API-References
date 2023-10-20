@@ -1,7 +1,9 @@
 ---
 title: FieldDocVariable.VariableName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDocVariable mülk. Alınacak belge değişkeninin adını alır veya ayarlar.
+linktitle: VariableName
+articleTitle: VariableName
+second_title: Aspose.Words for .NET
+description: FieldDocVariable VariableName mülk. Alınacak belge değişkeninin adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fielddocvariable/variablename/
@@ -14,7 +16,7 @@ Alınacak belge değişkeninin adını alır veya ayarlar.
 public string VariableName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belge özelliklerini ve değişkenlerini görüntülemek için DOCPROPERTY alanlarının nasıl kullanılacağını gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Field.DOCPROPERTY.DOCVARIABLE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDocVariable](../)
-* ad alanı [Aspose.Words.Fields](../../fielddocvariable/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

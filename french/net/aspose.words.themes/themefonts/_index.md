@@ -1,7 +1,9 @@
 ---
-title: Class ThemeFonts
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Themes.ThemeFonts classe. Représente une collection de polices dans le jeu de polices permettant de spécifier différentes polices pour différentes languesLatin EastAsian etComplexScript .
+title: ThemeFonts Class
+linktitle: ThemeFonts
+articleTitle: ThemeFonts
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Themes.ThemeFonts classe. Représente une collection de polices dans le jeu de polices permettant de spécifier différentes polices pour différentes languesLatin EastAsian etComplexScript  en C#.
 type: docs
 weight: 6500
 url: /fr/net/aspose.words.themes/themefonts/
@@ -24,7 +26,7 @@ public class ThemeFonts
 | [EastAsian](../../aspose.words.themes/themefonts/eastasian/) { get; set; } | Spécifie le nom de la police pour les caractères d'Asie de l'Est. |
 | [Latin](../../aspose.words.themes/themefonts/latin/) { get; set; } | Spécifie le nom de la police pour les caractères latins. |
 
-### Exemples
+## Exemples
 
 Montre comment définir des couleurs et des polices personnalisées pour les thèmes.
 
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * espace de noms [Aspose.Words.Themes](../../aspose.words.themes/)
 * Assemblée [Aspose.Words](../../)
-
-

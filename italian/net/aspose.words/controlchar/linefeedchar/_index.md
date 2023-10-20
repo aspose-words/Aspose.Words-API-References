@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineFeedChar
-second_title: Aspose.Words per .NET API Reference
-description: ControlChar campo. Carattere di avanzamento riga carattere10 o n.
+linktitle: LineFeedChar
+articleTitle: LineFeedChar
+second_title: Aspose.Words per .NET
+description: ControlChar LineFeedChar campo. Carattere di avanzamento riga carattere10 o n in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words/controlchar/linefeedchar/
@@ -14,7 +16,7 @@ Carattere di avanzamento riga: (carattere)10 o "\n".
 public const char LineFeedChar;
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere vari caratteri di controllo a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Guarda anche
 
 * class [ControlChar](../)
-* spazio dei nomi [Aspose.Words](../../controlchar/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

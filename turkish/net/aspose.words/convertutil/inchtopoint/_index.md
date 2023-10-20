@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.InchToPoint
-second_title: Aspose.Words for .NET API Referansı
-description: ConvertUtil yöntem. İnçleri noktalara dönüştürür.
+linktitle: InchToPoint
+articleTitle: InchToPoint
+second_title: Aspose.Words for .NET
+description: ConvertUtil InchToPoint yöntem. İnçleri noktalara dönüştürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/convertutil/inchtopoint/
@@ -18,11 +20,11 @@ public static double InchToPoint(double inches)
 | --- | --- | --- |
 | inches | Double | Dönüştürülecek değer. |
 
-### Notlar
+## Notlar
 
 1 inç 72 noktaya eşittir.
 
-### Örnekler
+## Örnekler
 
 Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndInches.docx");
 ### Ayrıca bakınız
 
 * class [ConvertUtil](../)
-* ad alanı [Aspose.Words](../../convertutil/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.LeadingSpacesOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtLoadOptions свойство. Получает или задает предпочтительный параметр обработки начального пробела. Значение по умолчаниюConvertToIndent .
+linktitle: LeadingSpacesOptions
+articleTitle: LeadingSpacesOptions
+second_title: Aspose.Words для .NET
+description: TxtLoadOptions LeadingSpacesOptions свойство. Получает или задает предпочтительный параметр обработки начального пробела. Значение по умолчаниюConvertToIndent  на С#.
 type: docs
-weight: 60
+weight: 50
 url: /ru/net/aspose.words.loading/txtloadoptions/leadingspacesoptions/
 ---
 ## TxtLoadOptions.LeadingSpacesOptions property
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.loading/txtloadoptions/leadingspacesoptions/
 public TxtLeadingSpacesOptions LeadingSpacesOptions { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как обрезать пробелы при загрузке документов с открытым текстом.
 
@@ -91,7 +93,5 @@ switch (txtTrailingSpacesOptions)
 
 * enum [TxtLeadingSpacesOptions](../../txtleadingspacesoptions/)
 * class [TxtLoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../txtloadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

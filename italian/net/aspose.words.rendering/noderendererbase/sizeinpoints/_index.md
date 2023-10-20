@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.SizeInPoints
-second_title: Aspose.Words per .NET API Reference
-description: NodeRendererBase proprietà. Ottiene la dimensione effettiva della forma in punti.
+linktitle: SizeInPoints
+articleTitle: SizeInPoints
+second_title: Aspose.Words per .NET
+description: NodeRendererBase SizeInPoints proprietà. Ottiene la dimensione effettiva della forma in punti in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.rendering/noderendererbase/sizeinpoints/
@@ -14,11 +16,11 @@ Ottiene la dimensione effettiva della forma in punti.
 public SizeF SizeInPoints { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà restituisce la dimensione effettiva (come visualizzata nella pagina) del riquadro di delimitazione della forma. La dimensione tiene conto della rotazione della forma (se presente).
 
-### Esempi
+## Esempi
 
 Mostra come misurare e ridimensionare le forme.
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Guarda anche
 
 * class [NodeRendererBase](../)
-* spazio dei nomi [Aspose.Words.Rendering](../../noderendererbase/)
+* spazio dei nomi [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assemblea [Aspose.Words](../../../)
-
-

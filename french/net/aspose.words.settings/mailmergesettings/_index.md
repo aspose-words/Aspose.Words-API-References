@@ -1,7 +1,9 @@
 ---
-title: Class MailMergeSettings
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Settings.MailMergeSettings classe. Spécifie toutes les informations de publipostage pour un document.
+title: MailMergeSettings Class
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Settings.MailMergeSettings classe. Spécifie toutes les informations de publipostage pour un document en C#.
 type: docs
 weight: 5850
 url: /fr/net/aspose.words.settings/mailmergesettings/
@@ -50,7 +52,7 @@ public class MailMergeSettings
 | [Clear](../../aspose.words.settings/mailmergesettings/clear/)() | Efface les paramètres de publipostage de telle manière que lorsque le document est enregistré, aucun paramètre de publipostage ne sera enregistré et il deviendra un document normal. |
 | [Clone](../../aspose.words.settings/mailmergesettings/clone/)() | Renvoie un clone profond de cet objet. |
 
-### Remarques
+## Remarques
 
 Vous pouvez utiliser cet objet pour spécifier une source de données de publipostage pour un document et ces informations (ainsi que les champs de données disponibles) apparaîtront dans Microsoft Word lorsque l'utilisateur ouvrira ce document. Ou vous pouvez utiliser cet objet pour interroger les paramètres de fusion et de publipostage. que l'utilisateur a spécifié dans Microsoft Word pour ce document.
 
@@ -64,7 +66,7 @@ La meilleure façon d'apprendre à utiliser les propriétés de cet objet est de
 
 Aspose.Words conserve les informations de publipostage lors du chargement, de l'enregistrement et de la conversion de documents entre différents formats, mais n'utilise pas ces informations lors de l'exécution de son propre publipostage à l'aide de l'option[`MailMerge`](../../aspose.words.mailmerging/mailmerge/) objet.
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -117,5 +119,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * espace de noms [Aspose.Words.Settings](../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../)
-
-

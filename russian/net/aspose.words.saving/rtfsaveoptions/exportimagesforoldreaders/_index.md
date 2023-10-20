@@ -1,7 +1,9 @@
 ---
 title: RtfSaveOptions.ExportImagesForOldReaders
-second_title: Справочник по API Aspose.Words для .NET
-description: RtfSaveOptions свойство. Указывает записываются ли ключевые слова для старых читателей в RTF или нет. Это может существенно повлиять на размер документа RTF. Значение по умолчаниюистинный .
+linktitle: ExportImagesForOldReaders
+articleTitle: ExportImagesForOldReaders
+second_title: Aspose.Words для .NET
+description: RtfSaveOptions ExportImagesForOldReaders свойство. Указывает записываются ли ключевые слова для старых читателей в RTF или нет. Это может существенно повлиять на размер документа RTF. Значение по умолчаниюистинный  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/rtfsaveoptions/exportimagesforoldreaders/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/rtfsaveoptions/exportimagesforoldreaders/
 public bool ExportImagesForOldReaders { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 «Старые программы чтения» — это приложения, выпущенные до Microsoft Word 97, а также WordPad. Если этот параметр установлен`истинный` Aspose.Words записывает дополнительные ключевые слова RTF. Эти ключевые слова позволяют корректно отображать документ при открытии в приложении «старой программы чтения» , но могут значительно увеличить размер документа.
 
 Если вы установите эту опцию на`ЛОЖЬ`, то в "старых читалках" будут отображаться только изображения в форматах WMF, EMF и BMP .
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить документ в формате .rtf с настраиваемыми параметрами.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);
 ### Смотрите также
 
 * class [RtfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../rtfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

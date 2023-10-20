@@ -1,7 +1,9 @@
 ---
-title: Class Watermark
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Watermark sınıf. Belge filigranıyla çalışacak sınıfı temsil eder.
+title: Watermark Class
+linktitle: Watermark
+articleTitle: Watermark
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Watermark sınıf. Belge filigranıyla çalışacak sınıfı temsil eder C#'da.
 type: docs
 weight: 6670
 url: /tr/net/aspose.words/watermark/
@@ -27,15 +29,13 @@ public sealed class Watermark
 | İsim | Tanım |
 | --- | --- |
 | [Remove](../../aspose.words/watermark/remove/)() | Filigranı kaldırır. |
-| [SetImage](../../aspose.words/watermark/setimage/#setimage)(Image) | Belgeye Resim filigranı ekler. |
-| [SetImage](../../aspose.words/watermark/setimage/#setimage_1)(Image, ImageWatermarkOptions) | Belgeye Resim filigranı ekler. |
-| [SetImage](../../aspose.words/watermark/setimage/#setimage_2)(string, ImageWatermarkOptions) | Belgeye Resim filigranı ekler. |
-| [SetText](../../aspose.words/watermark/settext/#settext)(string) | Belgeye Metin filigranı ekler. |
-| [SetText](../../aspose.words/watermark/settext/#settext_1)(string, TextWatermarkOptions) | Belgeye Metin filigranı ekler. |
+| [SetImage](../../aspose.words/watermark/setimage/#setimage)(*Image*) | Belgeye Resim filigranı ekler. |
+| [SetImage](../../aspose.words/watermark/setimage/#setimage_1)(*Image, [ImageWatermarkOptions](../imagewatermarkoptions/)*) | Belgeye Resim filigranı ekler. |
+| [SetImage](../../aspose.words/watermark/setimage/#setimage_2)(*string, [ImageWatermarkOptions](../imagewatermarkoptions/)*) | Belgeye Resim filigranı ekler. |
+| [SetText](../../aspose.words/watermark/settext/#settext)(*string*) | Belgeye Metin filigranı ekler. |
+| [SetText](../../aspose.words/watermark/settext/#settext_1)(*string, [TextWatermarkOptions](../textwatermarkoptions/)*) | Belgeye Metin filigranı ekler. |
 
 ### Ayrıca bakınız
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

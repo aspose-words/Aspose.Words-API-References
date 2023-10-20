@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToDocumentEnd
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将光标移动到文档末尾
+linktitle: MoveToDocumentEnd
+articleTitle: MoveToDocumentEnd
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder MoveToDocumentEnd 方法. 将光标移动到文档末尾 在 C#.
 type: docs
-weight: 520
+weight: 510
 url: /zh/net/aspose.words/documentbuilder/movetodocumentend/
 ---
 ## DocumentBuilder.MoveToDocumentEnd method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbuilder/movetodocumentend/
 public void MoveToDocumentEnd()
 ```
 
-### 例子
+## 例子
 
 演示如何将文档生成器的光标移动到文档中的不同节点。
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

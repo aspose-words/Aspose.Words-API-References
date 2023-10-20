@@ -1,7 +1,9 @@
 ---
 title: Font.Superscript
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. True si la police est formatée en exposant.
+linktitle: Superscript
+articleTitle: Superscript
+second_title: Aspose.Words pour .NET
+description: Font Superscript propriété. True si la police est formatée en exposant en C#.
 type: docs
 weight: 440
 url: /fr/net/aspose.words/font/superscript/
@@ -14,7 +16,7 @@ True si la police est formatée en exposant.
 public bool Superscript { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment formater le texte pour décaler sa position.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

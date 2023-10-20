@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.Checked
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 获取/设置复选框的当前状态 特殊测试. 此属性的默认值为错误的.
+linktitle: Checked
+articleTitle: Checked
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag Checked 财产. 获取/设置复选框的当前状态特殊测试. 此属性的默认值为错误的 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.markup/structureddocumenttag/checked/
 ---
 ## StructuredDocumentTag.Checked property
 
-获取/设置复选框的当前状态 **特殊测试**. 此属性的默认值为`错误的`.
+获取/设置复选框的当前状态**特殊测试**. 此属性的默认值为`错误的`.
 
 ```csharp
 public bool Checked { get; set; }
 ```
 
-### 评论
+## 评论
 
 访问该属性仅适用于Checkbox SDT 类型。
 
 对于所有其他 SDT 类型，都会发生异常。
 
-### 例子
+## 例子
 
 展示如何以复选框的形式创建结构化文档标签。
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

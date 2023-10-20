@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.InsertRelativePosition
-second_title: Aspose.Words for .NET API 参考
-description: FieldNoteRef 财产. 获取或设置是否插入书签段落的相对位置
+linktitle: InsertRelativePosition
+articleTitle: InsertRelativePosition
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldNoteRef InsertRelativePosition 财产. 获取或设置是否插入书签段落的相对位置 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldnoteref/insertrelativeposition/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldnoteref/insertrelativeposition/
 public bool InsertRelativePosition { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示插入NOTEREF 字段并修改其外观。
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### 也可以看看
 
 * class [FieldNoteRef](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldnoteref/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

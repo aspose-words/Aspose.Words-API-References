@@ -1,7 +1,9 @@
 ---
-title: Enum BlockImportMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Loading.BlockImportMode uppräkning. Anger hur egenskaper för element på blocknivå importeras från HTMLbaserade dokument.
+title: BlockImportMode Enum
+linktitle: BlockImportMode
+articleTitle: BlockImportMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Loading.BlockImportMode uppräkning. Anger hur egenskaper för element på blocknivå importeras från HTMLbaserade dokument i C#.
 type: docs
 weight: 3560
 url: /sv/net/aspose.words.loading/blockimportmode/
@@ -21,7 +23,7 @@ public enum BlockImportMode
 | Merge | `0` | Egenskaper för överordnade block slås samman och lagras i underordnade element (dvs. stycken eller tabeller). |
 | Preserve | `1` | Egenskaper för överordnade block importeras till en speciell logisk struktur och lagras separat från dokumentnoder. |
 
-### Exempel
+## Exempel
 
 Visar hur egenskaper för element på blocknivå importeras från HTML-baserade dokument.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BlockImport.docx");
 
 * namnutrymme [Aspose.Words.Loading](../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../)
-
-

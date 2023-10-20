@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.CompareMoves
-second_title: Aspose.Words لمراجع .NET API
-description: CompareOptions ملكية. يحدد ما إذا كان سيتم مقارنة الاختلافات فيMoveRevision بين الوثيقتين. افتراضيًا لا يتم إنتاج مراجعات النقل.
+linktitle: CompareMoves
+articleTitle: CompareMoves
+second_title: Aspose.Words لـ .NET
+description: CompareOptions CompareMoves ملكية. يحدد ما إذا كان سيتم مقارنة الاختلافات فيMoveRevision بين الوثيقتين. افتراضيًا لا يتم إنتاج مراجعات النقل في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.comparing/compareoptions/comparemoves/
@@ -17,7 +19,5 @@ public bool CompareMoves { get; set; }
 ### أنظر أيضا
 
 * class [CompareOptions](../)
-* مساحة الاسم [Aspose.Words.Comparing](../../compareoptions/)
+* مساحة الاسم [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * المجسم [Aspose.Words](../../../)
-
-

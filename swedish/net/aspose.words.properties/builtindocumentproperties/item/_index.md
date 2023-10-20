@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Item
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Returnerar enDocumentProperty objekt efter egenskapens namn.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties Item fast egendom. Returnerar enDocumentProperty objekt efter egenskapens namn i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.properties/builtindocumentproperties/item/
@@ -18,7 +20,7 @@ public override DocumentProperty this[string name] { get; }
 | --- | --- |
 | name | Det skiftlägesokänsliga namnet på egendomen som ska hämtas. |
 
-### Anmärkningar
+## Anmärkningar
 
 Strängnamnen på egenskaperna motsvarar namnen på de typd egenskaper som är tillgängliga från[`BuiltInDocumentProperties`](../).
 
@@ -26,7 +28,7 @@ Om du begär en egenskap som inte finns i dokumentet, men fastighetens namn erk�
 
 Om du begär en egenskap som inte finns i dokumentet och namnet inte känns igen som ett inbyggt namn,`null` returneras.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med anpassade dokumentegenskaper.
 
@@ -52,7 +54,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 * class [DocumentProperty](../../documentproperty/)
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

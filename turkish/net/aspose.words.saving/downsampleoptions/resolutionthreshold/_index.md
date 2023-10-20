@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.ResolutionThreshold
-second_title: Aspose.Words for .NET API Referansı
-description: DownsampleOptions mülk. Eşik çözünürlüğünü inç başına piksel cinsinden belirtir. Belgedeki bir görüntünün çözünürlüğü eşik değerinden düşükse alt örnekleme algoritması uygulanmaz. 0 değeri eşik kontrolünün kullanılmadığı ve eşik değerinin kullanılmadığı anlamına gelir boyutu küçültülebilir altörneklenir.
+linktitle: ResolutionThreshold
+articleTitle: ResolutionThreshold
+second_title: Aspose.Words for .NET
+description: DownsampleOptions ResolutionThreshold mülk. Eşik çözünürlüğünü inç başına piksel cinsinden belirtir. Belgedeki bir görüntünün çözünürlüğü eşik değerinden düşükse alt örnekleme algoritması uygulanmaz. 0 değeri eşik kontrolünün kullanılmadığı ve eşik değerinin kullanılmadığı anlamına gelir boyutu küçültülebilir altörneklenir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/downsampleoptions/resolutionthreshold/
@@ -14,11 +16,11 @@ Eşik çözünürlüğünü inç başına piksel cinsinden belirtir. Belgedeki b
 public int ResolutionThreshold { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 0. 'dir
 
-### Örnekler
+## Örnekler
 
 PDF belgesindeki görüntülerin çözünürlüğünün nasıl değiştirileceğini gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### Ayrıca bakınız
 
 * class [DownsampleOptions](../)
-* ad alanı [Aspose.Words.Saving](../../downsampleoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

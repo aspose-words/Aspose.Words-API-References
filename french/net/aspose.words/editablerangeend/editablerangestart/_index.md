@@ -1,7 +1,9 @@
 ---
 title: EditableRangeEnd.EditableRangeStart
-second_title: Référence de l'API Aspose.Words pour .NET
-description: EditableRangeEnd propriété. CorrespondantEditableRangeStart  reçu par ID.
+linktitle: EditableRangeStart
+articleTitle: EditableRangeStart
+second_title: Aspose.Words pour .NET
+description: EditableRangeEnd EditableRangeStart propriété. CorrespondantEditableRangeStart  reçu par ID en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/editablerangeend/editablerangestart/
@@ -14,7 +16,7 @@ Correspondant[`EditableRangeStart`](../../editablerangestart/) , reçu par ID.
 public EditableRangeStart EditableRangeStart { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec une plage modifiable.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [EditableRangeEnd](../)
-* espace de noms [Aspose.Words](../../editablerangeend/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

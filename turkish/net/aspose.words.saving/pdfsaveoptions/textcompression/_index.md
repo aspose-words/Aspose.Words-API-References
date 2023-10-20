@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.TextCompression
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Belgedeki tüm metin içeriği için kullanılacak sıkıştırma türünü belirtir.
+linktitle: TextCompression
+articleTitle: TextCompression
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions TextCompression mülk. Belgedeki tüm metin içeriği için kullanılacak sıkıştırma türünü belirtir C#'da.
 type: docs
 weight: 290
 url: /tr/net/aspose.words.saving/pdfsaveoptions/textcompression/
@@ -14,13 +16,13 @@ Belgedeki tüm metin içeriği için kullanılacak sıkıştırma türünü beli
 public PdfTextCompression TextCompression { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan:Flate.
 
 Bir belgeyi sıkıştırmadan kaydederken çıktı boyutunu önemli ölçüde artırır.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi PDF'ye kaydederken metin sıkıştırmanın nasıl uygulanacağını gösterir.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);
 
 * enum [PdfTextCompression](../../pdftextcompression/)
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

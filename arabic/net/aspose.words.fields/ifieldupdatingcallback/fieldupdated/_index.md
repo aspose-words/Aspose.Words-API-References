@@ -1,7 +1,9 @@
 ---
 title: IFieldUpdatingCallback.FieldUpdated
-second_title: Aspose.Words لمراجع .NET API
-description: IFieldUpdatingCallback طريقة. طريقة يحددها المستخدم ويتم استدعاؤها مباشرة بعد تحديث الحقل.
+linktitle: FieldUpdated
+articleTitle: FieldUpdated
+second_title: Aspose.Words لـ .NET
+description: IFieldUpdatingCallback FieldUpdated طريقة. طريقة يحددها المستخدم ويتم استدعاؤها مباشرة بعد تحديث الحقل في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/ifieldupdatingcallback/fieldupdated/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/ifieldupdatingcallback/fieldupdated/
 public void FieldUpdated(Field field)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام طرق رد الاتصال أثناء التحديث الميداني.
 
@@ -83,7 +85,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * class [Field](../../field/)
 * interface [IFieldUpdatingCallback](../)
-* مساحة الاسم [Aspose.Words.Fields](../../ifieldupdatingcallback/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

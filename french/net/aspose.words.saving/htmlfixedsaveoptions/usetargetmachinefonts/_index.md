@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.UseTargetMachineFonts
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlFixedSaveOptions propriété. Lindicateur indique si les polices de la machine cible doivent être utilisées pour afficher le document. Si cet indicateur est défini survrai FontFormat etExportEmbeddedFonts les propriétés nont pas deffet égalementResourceSavingCallback nest pas déclenché pour les polices. La valeur par défaut estFAUX .
+linktitle: UseTargetMachineFonts
+articleTitle: UseTargetMachineFonts
+second_title: Aspose.Words pour .NET
+description: HtmlFixedSaveOptions UseTargetMachineFonts propriété. Lindicateur indique si les polices de la machine cible doivent être utilisées pour afficher le document. Si cet indicateur est défini survrai FontFormat etExportEmbeddedFonts les propriétés nont pas deffet égalementResourceSavingCallback nest pas déclenché pour les polices. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 190
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
@@ -14,7 +16,7 @@ L'indicateur indique si les polices de la machine cible doivent être utilisées
 public bool UseTargetMachineFonts { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les polices uniquement de la machine cible lors de l'enregistrement d'un document au format HTML.
 
@@ -44,7 +46,5 @@ else
 ### Voir également
 
 * class [HtmlFixedSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

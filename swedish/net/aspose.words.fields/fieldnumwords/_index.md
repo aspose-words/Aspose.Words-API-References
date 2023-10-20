@@ -1,7 +1,9 @@
 ---
-title: Class FieldNumWords
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldNumWords klass. Implementerar fältet NUMWORDS.
+title: FieldNumWords Class
+linktitle: FieldNumWords
+articleTitle: FieldNumWords
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldNumWords klass. Implementerar fältet NUMWORDS i C#.
 type: docs
 weight: 2230
 url: /sv/net/aspose.words.fields/fieldnumwords/
@@ -42,17 +44,17 @@ public class FieldNumWords : Field
 | namn | Beskrivning |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
-### Anmärkningar
+## Anmärkningar
 
-Hämtar antalet ord i det aktuella dokumentet, som registrerats i **Ord** egenskapen för inbyggda dokumentegenskaper.
+Hämtar antalet ord i det aktuella dokumentet, som registrerats i**Ord** egenskapen för inbyggda dokumentegenskaper.
 
-### Exempel
+## Exempel
 
 Visar hur du använder NUMCHARS, NUMWORDS, NUMPAGES och PAGE-fälten för att spåra storleken på våra dokument.
 
@@ -97,5 +99,3 @@ doc.Save(ArtifactsDir + "Field.NUMCHARS.NUMWORDS.NUMPAGES.PAGE.docx");
 * class [Field](../field/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

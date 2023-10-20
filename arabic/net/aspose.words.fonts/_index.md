@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Fonts
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Fonts توفر مساحة الاسم فئات وتعدادات للوصول إلى معلومات حول الخطوط المستخدمة في المستند.
+linktitle: Aspose.Words.Fonts
+articleTitle: Aspose.Words.Fonts
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Fonts توفر مساحة الاسم فئات وتعدادات للوصول إلى معلومات حول الخطوط المستخدمة في المستند في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.fonts/
 ---
-ال **Aspose.Words.Fonts** توفر مساحة الاسم فئات وتعدادات للوصول إلى معلومات حول الخطوط المستخدمة في المستند.
+ال**Aspose.Words.Fonts** توفر مساحة الاسم فئات وتعدادات للوصول إلى معلومات حول الخطوط المستخدمة في المستند.
 
 ## الطبقات
 
@@ -39,5 +41,3 @@ url: /ar/net/aspose.words.fonts/
 | [FontFamily](./fontfamily/) | يمثل عائلة الخطوط. |
 | [FontPitch](./fontpitch/) | يمثل درجة الخط. |
 | [FontSourceType](./fontsourcetype/) | يحدد نوع مصدر الخط. |
-
-

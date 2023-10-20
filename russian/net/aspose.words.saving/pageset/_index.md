@@ -1,7 +1,9 @@
 ---
-title: Class PageSet
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.PageSet сорт. Описывает случайный набор страниц.
+title: PageSet Class
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.PageSet сорт. Описывает случайный набор страниц на С#.
 type: docs
 weight: 5390
 url: /ru/net/aspose.words.saving/pageset/
@@ -20,9 +22,9 @@ public sealed class PageSet
 
 | Имя | Описание |
 | --- | --- |
-| [PageSet](pageset/#constructor_1)(int) | Создает одностраничный набор на основе точного индекса страниц. |
-| [PageSet](pageset/#constructor_2)(params int[]) | Создает набор страниц на основе точных индексов страниц. |
-| [PageSet](pageset/#constructor)(params PageRange[]) | Создает набор страниц на основе диапазонов. |
+| [PageSet](pageset/#constructor_1)(*int*) | Создает одностраничный набор на основе точного индекса страниц. |
+| [PageSet](pageset/#constructor_2)(*params int[]*) | Создает набор страниц на основе точных индексов страниц. |
+| [PageSet](pageset/#constructor)(*params PageRange[]*) | Создает набор страниц на основе диапазонов. |
 
 ## Характеристики
 
@@ -36,5 +38,3 @@ public sealed class PageSet
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

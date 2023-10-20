@@ -1,12 +1,14 @@
 ---
-title: SdtListItem.SdtListItem
-second_title: Aspose.Words لمراجع .NET API
-description: SdtListItem البناء. تهيئة مثيل جديد لهذه الفئة.
+title: SdtListItem
+linktitle: SdtListItem
+articleTitle: SdtListItem
+second_title: Aspose.Words لـ .NET
+description: SdtListItem البناء. تهيئة مثيل جديد لهذه الفئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/sdtlistitem/sdtlistitem/
 ---
-## SdtListItem(string, string) {#constructor_1}
+## SdtListItem(*string, string*) {#constructor_1}
 
 تهيئة مثيل جديد لهذه الفئة.
 
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/sdtlistitem/sdtlistitem/
 public SdtListItem(string displayText, string value)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع علامات المستندات المنظمة ذات القائمة المنسدلة.
 
@@ -71,12 +73,12 @@ Assert.AreEqual(0, listItems.Count);
 ### أنظر أيضا
 
 * class [SdtListItem](../)
-* مساحة الاسم [Aspose.Words.Markup](../../sdtlistitem/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## SdtListItem(string) {#constructor}
+## SdtListItem(*string*) {#constructor}
 
 تهيئة مثيل جديد لهذه الفئة.
 
@@ -84,7 +86,7 @@ Assert.AreEqual(0, listItems.Count);
 public SdtListItem(string value)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع علامات المستندات المنظمة ذات القائمة المنسدلة.
 
@@ -141,7 +143,5 @@ Assert.AreEqual(0, listItems.Count);
 ### أنظر أيضا
 
 * class [SdtListItem](../)
-* مساحة الاسم [Aspose.Words.Markup](../../sdtlistitem/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

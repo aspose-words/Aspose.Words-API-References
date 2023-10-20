@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartTable
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgede bir tablo başlatır.
+linktitle: StartTable
+articleTitle: StartTable
+second_title: Aspose.Words for .NET
+description: DocumentBuilder StartTable yöntem. Belgede bir tablo başlatır C#'da.
 type: docs
-weight: 650
+weight: 640
 url: /tr/net/aspose.words/documentbuilder/starttable/
 ---
 ## DocumentBuilder.StartTable method
@@ -18,13 +20,13 @@ public Table StartTable()
 
 Yeni oluşturulan tablo düğümü.
 
-### Notlar
+## Notlar
 
 Aramak için bir sonraki yöntem[`InsertCell`](../insertcell/).
 
 Bu yöntem, bir hücrenin içinde çağrıldığında iç içe geçmiş bir tablo başlatır.
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucuyla hücrelerin nasıl biçimlendirileceğini gösterir.
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Table](../../../aspose.words.tables/table/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

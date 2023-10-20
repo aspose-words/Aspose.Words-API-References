@@ -1,7 +1,9 @@
 ---
 title: FieldUserAddress.UserAddress
-second_title: Aspose.Words for .NET API 参考
-description: FieldUserAddress 财产. 获取或设置当前用户的邮政地址
+linktitle: UserAddress
+articleTitle: UserAddress
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldUserAddress UserAddress 财产. 获取或设置当前用户的邮政地址 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fielduseraddress/useraddress/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fielduseraddress/useraddress/
 public string UserAddress { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 USERADDRESS 字段。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.USERADDRESS.docx");
 ### 也可以看看
 
 * class [FieldUserAddress](../)
-* 命名空间 [Aspose.Words.Fields](../../fielduseraddress/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

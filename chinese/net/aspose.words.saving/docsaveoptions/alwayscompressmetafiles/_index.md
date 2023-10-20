@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.AlwaysCompressMetafiles
-second_title: Aspose.Words for .NET API 参考
-description: DocSaveOptions 财产. 当错误的出于性能原因小图元文件不会被压缩 默认值为真的所有图元文件无论其大小如何都会被压缩
+linktitle: AlwaysCompressMetafiles
+articleTitle: AlwaysCompressMetafiles
+second_title: 用于 .NET 的 Aspose.Words
+description: DocSaveOptions AlwaysCompressMetafiles 财产. 当错误的出于性能原因小图元文件不会被压缩 默认值为真的所有图元文件无论其大小如何都会被压缩 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
 public bool AlwaysCompressMetafiles { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在保存时更改文档中的图元文件压缩。
 
@@ -39,7 +41,5 @@ else
 ### 也可以看看
 
 * class [DocSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../docsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

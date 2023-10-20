@@ -1,7 +1,9 @@
 ---
 title: Font.Subscript
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Vero se il carattere è formattato come pedice.
+linktitle: Subscript
+articleTitle: Subscript
+second_title: Aspose.Words per .NET
+description: Font Subscript proprietà. Vero se il carattere è formattato come pedice in C#.
 type: docs
 weight: 430
 url: /it/net/aspose.words/font/subscript/
@@ -14,7 +16,7 @@ Vero se il carattere è formattato come pedice.
 public bool Subscript { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come formattare il testo per spostarne la posizione.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

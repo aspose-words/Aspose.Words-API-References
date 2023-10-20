@@ -1,10 +1,12 @@
 ---
-title: .NET için Aspose.Words
+title: Aspose.Words for .NET
+linktitle: Aspose.Words for .NET
+articleTitle: Aspose.Words for .NET
 type: docs
 weight: 10
 url: /tr/net/
-keywords: "Aspose.Words for .NET, Aspose Words, Aspose API Reference."
-description: "Aspose.Words, geliştiriciler tarafından çeşitli platformlar için çeşitli belge işleme görevleri için kullanılabilecek bir sınıf kitaplığıdır."
+keywords: Aspose.Words for .NET Aspose Words Aspose API Referansı docx'ten pdf'e dönüştür karşılaştır oluştur sözcük düzenle split bmp rtf odt açık ofis html tiff doc dot wordml mobi chm txt md markdown xps svg ps postscript pcl epub azw3 kf8 png emf jpg gif adres-mektup birleştirme tablosu raporlama belgesi
+description: Aspose.Words, geliştiriciler tarafından çeşitli platformlarda çeşitli belge işleme görevleri için kullanılabilecek bir sınıf kitaplığıdır.
 is_root: true
 ---
 
@@ -41,5 +43,3 @@ is_root: true
 | [Aspose.Words.Themes](./aspose.words.themes/) | **Aspose.Words.Themes** ad alanı, Microsoft Word belgelerindeki tema bilgilerine erişime izin veren sınıflar sağlar. |
 | [Aspose.Words.Vba](./aspose.words.vba/) | **Aspose.Words.Vba** ad alanı, sınıfların VBA projeleriyle çalışmasını sağlar. |
 | [Aspose.Words.WebExtensions](./aspose.words.webextensions/) | **Aspose.Words.WebExtensions**ad alanı, to 'nin Office Eklentilerini temsil etmek için XML kelime dağarcığını genişleten öğeleri ve nitelikleri özelleştirmesine olanak tanıyan sınıflar sağlar. |
-
-

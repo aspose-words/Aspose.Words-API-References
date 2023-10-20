@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingHyphenChar
-second_title: Aspose.Words for .NET API Referansı
-description: ControlChar alan. Microsoft Worddeki Bölünmeyen Kısa Çizgi char30. dir
+linktitle: NonBreakingHyphenChar
+articleTitle: NonBreakingHyphenChar
+second_title: Aspose.Words for .NET
+description: ControlChar NonBreakingHyphenChar alan. Microsoft Worddeki Bölünmeyen Kısa Çizgi char30. dir C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/controlchar/nonbreakinghyphenchar/
@@ -14,13 +16,13 @@ Microsoft Word'deki Bölünmeyen Kısa Çizgi (char)30. 'dir
 public const char NonBreakingHyphenChar;
 ```
 
-### Notlar
+## Notlar
 
 Microsoft Word'deki Bölünmeyen Kısa Çizgi, Unicode karakteri U+2011 bölünemez kısa çizgiye karşılık gelmez; bunun yerine Microsoft Word'e bir kısa çizgi görüntülemesini ve satırı kesmemesini söyleyen dahili bilgisini temsil eder.
 
 Yararlı bilgi: http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye çeşitli kontrol karakterlerinin nasıl ekleneceğini gösterir.
 
@@ -92,7 +94,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ayrıca bakınız
 
 * class [ControlChar](../)
-* ad alanı [Aspose.Words](../../controlchar/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

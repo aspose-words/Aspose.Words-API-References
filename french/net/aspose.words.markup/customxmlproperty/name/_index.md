@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Name
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlProperty propriété. Spécifie le nom de lattribut XML personnalisé ou de la propriété de balise active.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words pour .NET
+description: CustomXmlProperty Name propriété. Spécifie le nom de lattribut XML personnalisé ou de la propriété de balise active en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.markup/customxmlproperty/name/
@@ -14,13 +16,13 @@ Spécifie le nom de l'attribut XML personnalisé ou de la propriété de balise 
 public string Name { get; }
 ```
 
-### Remarques
+## Remarques
 
 C'est pas possible`nul`.
 
 La valeur par défaut est une chaîne vide.
 
-### Exemples
+## Exemples
 
 Montre comment créer des balises intelligentes.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Voir également
 
 * class [CustomXmlProperty](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlproperty/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

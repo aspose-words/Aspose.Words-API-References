@@ -1,7 +1,9 @@
 ---
 title: FieldMacroButton.MacroName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMacroButton eigendom. Ruft den Namen des auszuführenden Makros oder Befehls ab oder legt diesen fest.
+linktitle: MacroName
+articleTitle: MacroName
+second_title: Aspose.Words für .NET
+description: FieldMacroButton MacroName eigendom. Ruft den Namen des auszuführenden Makros oder Befehls ab oder legt diesen fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldmacrobutton/macroname/
@@ -14,7 +16,7 @@ Ruft den Namen des auszuführenden Makros oder Befehls ab oder legt diesen fest.
 public string MacroName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie wir MACROBUTTON-Felder verwenden, um die Makros eines Dokuments durch Klicken auszuführen.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 ### Siehe auch
 
 * class [FieldMacroButton](../)
-* namensraum [Aspose.Words.Fields](../../fieldmacrobutton/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

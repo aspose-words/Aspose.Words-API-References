@@ -1,7 +1,9 @@
 ---
-title: License.License
-second_title: Aspose.Words for .NET API 参考
-description: License 构造函数. 初始化此类的新实例
+title: License
+linktitle: License
+articleTitle: License
+second_title: 用于 .NET 的 Aspose.Words
+description: License 构造函数. 初始化此类的新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/license/license/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/license/license/
 public License()
 ```
 
-### 例子
+## 例子
 
 展示如何使用本地文件系统中的许可证文件初始化 Aspose.Words 许可证。
 
@@ -38,7 +40,5 @@ license.SetLicense("Aspose.Words.NET.lic");
 ### 也可以看看
 
 * class [License](../)
-* 命名空间 [Aspose.Words](../../license/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldXE.PageRangeBookmarkName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldXE ملكية. الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد نطاقًا من الصفحات التي تم إدراجها كرقم صفحة الإدخال.
+linktitle: PageRangeBookmarkName
+articleTitle: PageRangeBookmarkName
+second_title: Aspose.Words لـ .NET
+description: FieldXE PageRangeBookmarkName ملكية. الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد نطاقًا من الصفحات التي تم إدراجها كرقم صفحة الإدخال في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldxe/pagerangebookmarkname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldxe/pagerangebookmarkname/
 public string PageRangeBookmarkName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد الصفحات الممتدة لإشارة مرجعية كنطاق صفحات لإدخال حقل INDEX.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ### أنظر أيضا
 
 * class [FieldXE](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldxe/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

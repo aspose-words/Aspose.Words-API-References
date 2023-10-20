@@ -1,7 +1,9 @@
 ---
-title: Enum VerticalAlignment
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.VerticalAlignment uppräkning. Anger vertikal justering av en flytande form textram eller en flytande tabell.
+title: VerticalAlignment Enum
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.VerticalAlignment uppräkning. Anger vertikal justering av en flytande form textram eller en flytande tabell i C#.
 type: docs
 weight: 1380
 url: /sv/net/aspose.words.drawing/verticalalignment/
@@ -18,7 +20,7 @@ public enum VerticalAlignment
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| None | `0` | Objektet är explicit positionerat, vanligtvis med hjälp av dess **Topp** egenskap. |
+| None | `0` | Objektet är explicit positionerat, vanligtvis med hjälp av dess**Topp** egenskap. |
 | Top | `1` | Anger att objektet ska vara överst på den vertikala inriktningsbasen. |
 | Center | `2` | Anger att objektet ska centreras med avseende på den vertikala inriktningsbasen. |
 | Bottom | `3` | Anger att objektet ska vara längst ner på den vertikala inriktningsbasen. |
@@ -27,7 +29,7 @@ public enum VerticalAlignment
 | Inline | `-1` | Ej dokumenterat. Verkar vara ett möjligt värde för flytande stycken och tabeller. |
 | Default | `0` | Samma somNone . |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en flytande bild i mitten av en sida.
 
@@ -52,5 +54,3 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 * property [VerticalAlignment](../shapebase/verticalalignment/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

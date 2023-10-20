@@ -1,14 +1,16 @@
 ---
-title: Class SubDocument
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.SubDocument فصل. يمثل أ مستند فرعي  وهو مرجع إلى مستند مخزن خارجيًا.
+title: SubDocument Class
+linktitle: SubDocument
+articleTitle: SubDocument
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.SubDocument فصل. يمثل أمستند فرعي  وهو مرجع إلى مستند مخزن خارجيًا في C#.
 type: docs
 weight: 6170
 url: /ar/net/aspose.words/subdocument/
 ---
 ## SubDocument class
 
-يمثل أ **مستند فرعي** - وهو مرجع إلى مستند مخزن خارجيًا.
+يمثل أ**مستند فرعي** - وهو مرجع إلى مستند مخزن خارجيًا.
 
 لمعرفة المزيد، قم بزيارة[نموذج كائن مستند Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) مقالة توثيقية.
 
@@ -33,24 +35,24 @@ public class SubDocument : Node
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words/subdocument/accept/)(DocumentVisitor) | يقبل الزائر. |
-| [Clone](../../aspose.words/node/clone/)(bool) | إنشاء نسخة مكررة من العقدة. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على السلف الأول للمحدد[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على السلف الأول لنوع الكائن المحدد. |
+| override [Accept](../../aspose.words/subdocument/accept/)(*[DocumentVisitor](../documentvisitor/)*) | يقبل الزائر. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | إنشاء نسخة مكررة من العقدة. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | يحصل على السلف الأول للمحدد[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | الحصول على السلف الأول لنوع الكائن المحدد. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | الحصول على نص هذه العقدة وجميع أبنائها. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز شجرة الطلب المسبق. |
 | [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
-### ملاحظات
+## ملاحظات
 
 في هذا الإصدار من Aspose.Words،`SubDocument` لا توفر العقد الأساليب العامة والخصائص لإنشاء مستند ثانوي أو تعديله. في هذا الإصدار، لا يمكنك إنشاء مثيل `SubDocument` العقد أو تعديل الموجودة باستثناء حذفها.
 
 `SubDocument` لا يمكن إلا أن يكون طفلا[`Paragraph`](../paragraph/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى المستند الثانوي للمستند الرئيسي.
 
@@ -69,5 +71,3 @@ Assert.False(subDocument.IsComposite);
 * class [Node](../node/)
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

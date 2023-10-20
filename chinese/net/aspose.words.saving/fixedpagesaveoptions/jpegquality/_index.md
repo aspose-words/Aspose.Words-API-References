@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.JpegQuality
-second_title: Aspose.Words for .NET API 参考
-description: FixedPageSaveOptions 财产. 获取或设置决定 Html 文档内 JPEG 图像质量的值
+linktitle: JpegQuality
+articleTitle: JpegQuality
+second_title: 用于 .NET 的 Aspose.Words
+description: FixedPageSaveOptions JpegQuality 财产. 获取或设置决定 Html 文档内 JPEG 图像质量的值 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/
 public int JpegQuality { get; set; }
 ```
 
-### 评论
+## 评论
 
 仅当文档包含 JPEG 图像时才有效。
 
@@ -22,7 +24,7 @@ public int JpegQuality { get; set; }
 
 默认值为 95。
 
-### 例子
+## 例子
 
 演示如何在将文档另存为 JPEG 时配置压缩。
 
@@ -55,7 +57,5 @@ Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Jpe
 ### 也可以看看
 
 * class [FixedPageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

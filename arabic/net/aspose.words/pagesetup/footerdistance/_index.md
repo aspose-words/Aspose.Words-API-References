@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FooterDistance
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. إرجاع أو تعيين المسافة بالنقاط بين التذييل وأسفل الصفحة.
+linktitle: FooterDistance
+articleTitle: FooterDistance
+second_title: Aspose.Words لـ .NET
+description: PageSetup FooterDistance ملكية. إرجاع أو تعيين المسافة بالنقاط بين التذييل وأسفل الصفحة في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words/pagesetup/footerdistance/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/footerdistance/
 public double FooterDistance { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

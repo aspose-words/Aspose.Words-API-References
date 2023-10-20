@@ -1,7 +1,9 @@
 ---
 title: Table.StyleIdentifier
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تعيين معرف النمط المحلي المستقل لنمط الجدول المطبق على هذا الجدول.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words لـ .NET
+description: Table StyleIdentifier ملكية. الحصول على أو تعيين معرف النمط المحلي المستقل لنمط الجدول المطبق على هذا الجدول في C#.
 type: docs
 weight: 280
 url: /ar/net/aspose.words.tables/table/styleidentifier/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/styleidentifier/
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول جديد أثناء تطبيق النمط.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [StyleIdentifier](../../../aspose.words/styleidentifier/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

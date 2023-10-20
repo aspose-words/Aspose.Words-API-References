@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.TextCompression
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. يحدد نوع الضغط الذي سيتم استخدامه لكل المحتوى النصي في المستند.
+linktitle: TextCompression
+articleTitle: TextCompression
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions TextCompression ملكية. يحدد نوع الضغط الذي سيتم استخدامه لكل المحتوى النصي في المستند في C#.
 type: docs
 weight: 290
 url: /ar/net/aspose.words.saving/pdfsaveoptions/textcompression/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/textcompression/
 public PdfTextCompression TextCompression { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الافتراضي هوFlate.
 
 يزيد حجم الإخراج بشكل ملحوظ عند حفظ مستند دون ضغط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق ضغط النص عند حفظ مستند إلى PDF.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);
 
 * enum [PdfTextCompression](../../pdftextcompression/)
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

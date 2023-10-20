@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ScreenTip
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 定义当鼠标指针移动到形状上时显示的文本
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase ScreenTip 财产. 定义当鼠标指针移动到形状上时显示的文本 在 C#.
 type: docs
 weight: 480
 url: /zh/net/aspose.words.drawing/shapebase/screentip/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/shapebase/screentip/
 public string ScreenTip { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为空字符串。
 
-### 例子
+## 例子
 
 演示如何插入包含图像且也是超链接的形状。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

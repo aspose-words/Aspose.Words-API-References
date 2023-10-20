@@ -1,7 +1,9 @@
 ---
 title: MergeFieldImageDimension.Value
-second_title: Aspose.Words for .NET API Referansı
-description: MergeFieldImageDimension mülk. Değer.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words for .NET
+description: MergeFieldImageDimension Value mülk. Değer C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/mergefieldimagedimension/value/
@@ -14,11 +16,11 @@ Değer.
 public double Value { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 İlgili görüntü boyutunun orijinal değerinin uygulanması gerektiğini belirtmek için negatif bir değer kullanmalısınız.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında MERGEFIELDS'in kabul ettiği görüntülerin boyutlarının nasıl ayarlanacağını gösterir.
 
@@ -88,7 +90,5 @@ private class MergedImageResizer : IFieldMergingCallback
 ### Ayrıca bakınız
 
 * class [MergeFieldImageDimension](../)
-* ad alanı [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

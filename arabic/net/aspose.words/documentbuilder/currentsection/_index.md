@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentSection
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. يحصل على القسم المحدد حاليًا في هذاDocumentBuilder .
+linktitle: CurrentSection
+articleTitle: CurrentSection
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder CurrentSection ملكية. يحصل على القسم المحدد حاليًا في هذاDocumentBuilder  في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/documentbuilder/currentsection/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbuilder/currentsection/
 public Section CurrentSection { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة عائمة وتحديد موضعها وحجمها.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 
 * class [Section](../../section/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

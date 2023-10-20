@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.MergePastedLists
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImportFormatOptions propriété. Obtient ou définit une valeur booléenne qui spécifie si les listes collées seront fusionnées avec les listes environnantes. La valeur par défaut estFAUX .
+linktitle: MergePastedLists
+articleTitle: MergePastedLists
+second_title: Aspose.Words pour .NET
+description: ImportFormatOptions MergePastedLists propriété. Obtient ou définit une valeur booléenne qui spécifie si les listes collées seront fusionnées avec les listes environnantes. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/importformatoptions/mergepastedlists/
@@ -14,7 +16,7 @@ Obtient ou définit une valeur booléenne qui spécifie si les listes collées s
 public bool MergePastedLists { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment fusionner des listes à partir d’un document.
 
@@ -33,7 +35,5 @@ dstDoc.Save(ArtifactsDir + "Document.MergePastedLists.docx");
 ### Voir également
 
 * class [ImportFormatOptions](../)
-* espace de noms [Aspose.Words](../../importformatoptions/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

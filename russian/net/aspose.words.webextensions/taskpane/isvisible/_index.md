@@ -1,7 +1,9 @@
 ---
 title: TaskPane.IsVisible
-second_title: Справочник по API Aspose.Words для .NET
-description: TaskPane свойство. Указывает отображается ли панель задач видимой по умолчанию при открытии документа.
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words для .NET
+description: TaskPane IsVisible свойство. Указывает отображается ли панель задач видимой по умолчанию при открытии документа на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.webextensions/taskpane/isvisible/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.webextensions/taskpane/isvisible/
 public bool IsVisible { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Смотрите также
 
 * class [TaskPane](../)
-* пространство имен [Aspose.Words.WebExtensions](../../taskpane/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

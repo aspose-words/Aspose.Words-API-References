@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionBinding
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WebExtensions.WebExtensionBinding sınıf. Bir web uzantısı ile belgedeki veriler arasındaki bağlayıcı ilişkiyi belirtir.
+title: WebExtensionBinding Class
+linktitle: WebExtensionBinding
+articleTitle: WebExtensionBinding
+second_title: Aspose.Words for .NET
+description: Aspose.Words.WebExtensions.WebExtensionBinding sınıf. Bir web uzantısı ile belgedeki veriler arasındaki bağlayıcı ilişkiyi belirtir C#'da.
 type: docs
 weight: 6750
 url: /tr/net/aspose.words.webextensions/webextensionbinding/
@@ -20,7 +22,7 @@ public class WebExtensionBinding
 
 | İsim | Tanım |
 | --- | --- |
-| [WebExtensionBinding](webextensionbinding/)(string, WebExtensionBindingType, string) | Belirtilen parametrelerle web uzantısı bağlaması oluşturur. |
+| [WebExtensionBinding](webextensionbinding/)(*string, [WebExtensionBindingType](../webextensionbindingtype/), string*) | Belirtilen parametrelerle web uzantısı bağlaması oluşturur. |
 
 ## Özellikleri
 
@@ -34,5 +36,3 @@ public class WebExtensionBinding
 
 * ad alanı [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../)
-
-

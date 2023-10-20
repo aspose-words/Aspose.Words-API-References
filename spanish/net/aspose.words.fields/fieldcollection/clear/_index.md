@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Clear
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldCollection método. Elimina todos los campos de esta colección del documento y de esta colección misma.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words para .NET
+description: FieldCollection Clear método. Elimina todos los campos de esta colección del documento y de esta colección misma en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldcollection/clear/
@@ -14,7 +16,7 @@ Elimina todos los campos de esta colección del documento y de esta colección m
 public void Clear()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar campos de una colección de campos.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(0, fields.Count);
 ### Ver también
 
 * class [FieldCollection](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldcollection/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

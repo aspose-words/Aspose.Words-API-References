@@ -1,7 +1,9 @@
 ---
 title: FormField.CalculateOnExit
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. Belirtilen form alanına yapılan referanslar alandan her çıkıldığında otomatik olarak güncelleniyorsa doğrudur.
+linktitle: CalculateOnExit
+articleTitle: CalculateOnExit
+second_title: Aspose.Words for .NET
+description: FormField CalculateOnExit mülk. Belirtilen form alanına yapılan referanslar alandan her çıkıldığında otomatik olarak güncelleniyorsa doğrudur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/formfield/calculateonexit/
@@ -14,11 +16,11 @@ Belirtilen form alanına yapılan referanslar alandan her çıkıldığında oto
 public bool CalculateOnExit { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Ayar`CalculateOnExit` yalnızca belge Microsoft Word'de açıldığında form alanının davranışını etkiler. Aspose.Words, references dosyasını hiçbir zaman form alanına güncellemez.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

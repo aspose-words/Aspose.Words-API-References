@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: VariableCollection свойство. Получает или задает переменную документа по имени без учета регистра. нулевой значения не допускаются в качестве правой части присваивания и будут заменены пустой строкой.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: VariableCollection Item свойство. Получает или задает переменную документа по имени без учета регистра. нулевой значения не допускаются в качестве правой части присваивания и будут заменены пустой строкой на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/variablecollection/item/
@@ -17,7 +19,7 @@ public string this[string name] { get; set; }
 ### Смотрите также
 
 * class [VariableCollection](../)
-* пространство имен [Aspose.Words](../../variablecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -37,7 +39,5 @@ public string this[int index] { get; set; }
 ### Смотрите также
 
 * class [VariableCollection](../)
-* пространство имен [Aspose.Words](../../variablecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

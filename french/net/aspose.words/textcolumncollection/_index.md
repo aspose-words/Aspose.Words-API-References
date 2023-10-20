@@ -1,7 +1,9 @@
 ---
-title: Class TextColumnCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.TextColumnCollection classe. Une collection deTextColumn objets qui représentent toutes les colonnes de texte dans une section dun document.
+title: TextColumnCollection Class
+linktitle: TextColumnCollection
+articleTitle: TextColumnCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.TextColumnCollection classe. Une collection deTextColumn objets qui représentent toutes les colonnes de texte dans une section dun document en C#.
 type: docs
 weight: 6400
 url: /fr/net/aspose.words/textcolumncollection/
@@ -31,9 +33,9 @@ public class TextColumnCollection
 
 | Nom | La description |
 | --- | --- |
-| [SetCount](../../aspose.words/textcolumncollection/setcount/)(int) | Organise le texte dans le nombre spécifié de colonnes de texte. |
+| [SetCount](../../aspose.words/textcolumncollection/setcount/)(*int*) | Organise le texte dans le nombre spécifié de colonnes de texte. |
 
-### Remarques
+## Remarques
 
 Utiliser[`SetCount`](./setcount/) pour définir le nombre de colonnes de texte.
 
@@ -43,7 +45,7 @@ Si tu as[`EvenlySpaced`](./evenlyspaced/) mis à`FAUX` , vous devez spécifier l
 
 Lorsque vous utilisez des largeurs de colonnes personnalisées, assurez-vous que la somme de toutes les largeurs de colonnes et des espacements entre elles est égale à la largeur de la page moins les marges de page gauche et droite.
 
-### Exemples
+## Exemples
 
 Montre comment créer plusieurs colonnes régulièrement espacées dans une section.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

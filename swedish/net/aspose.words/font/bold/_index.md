@@ -1,7 +1,9 @@
 ---
 title: Font.Bold
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Sant om teckensnittet är formaterat med fet stil.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words för .NET
+description: Font Bold fast egendom. Sant om teckensnittet är formaterat med fet stil i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/font/bold/
@@ -14,7 +16,7 @@ Sant om teckensnittet är formaterat med fet stil.
 public bool Bold { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar formaterad text med DocumentBuilder.
 
@@ -36,7 +38,5 @@ builder.Write("Hello world!");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

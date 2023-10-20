@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.HeadingPairs
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. تحديد عناوين المستندات وأسمائها.
+linktitle: HeadingPairs
+articleTitle: HeadingPairs
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties HeadingPairs ملكية. تحديد عناوين المستندات وأسمائها في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.properties/builtindocumentproperties/headingpairs/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/headingpairs/
 public object[] HeadingPairs { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يحتل كل زوج عنوان عنصرين في هذه المصفوفة.
 
@@ -24,7 +26,7 @@ public object[] HeadingPairs { get; set; }
 
 لا يقوم Aspose.Words بتحديث هذه الخاصية.
 
-### أمثلة
+## أمثلة
 
 إظهار العلاقة بين خصائص "HeadingPairs" و"TitlesOfParts".
 
@@ -55,7 +57,5 @@ while (headingPairsIndex < headingPairs.Length)
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

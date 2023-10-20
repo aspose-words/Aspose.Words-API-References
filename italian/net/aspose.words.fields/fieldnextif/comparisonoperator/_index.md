@@ -1,7 +1,9 @@
 ---
 title: FieldNextIf.ComparisonOperator
-second_title: Aspose.Words per .NET API Reference
-description: FieldNextIf proprietà. Ottiene o imposta loperatore di confronto.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words per .NET
+description: FieldNextIf ComparisonOperator proprietà. Ottiene o imposta loperatore di confronto in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldnextif/comparisonoperator/
@@ -14,7 +16,7 @@ Ottiene o imposta l'operatore di confronto.
 public string ComparisonOperator { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i campi NEXT/NEXTIF per unire più righe in un'unica pagina durante una stampa unione.
 
@@ -96,7 +98,5 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 ### Guarda anche
 
 * class [FieldNextIf](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldnextif/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

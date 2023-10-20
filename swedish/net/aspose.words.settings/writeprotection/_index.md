@@ -1,7 +1,9 @@
 ---
-title: Class WriteProtection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Settings.WriteProtection klass. Anger skrivskyddsinställningar för ett dokument.
+title: WriteProtection Class
+linktitle: WriteProtection
+articleTitle: WriteProtection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Settings.WriteProtection klass. Anger skrivskyddsinställningar för ett dokument i C#.
 type: docs
 weight: 5970
 url: /sv/net/aspose.words.settings/writeprotection/
@@ -27,10 +29,10 @@ public class WriteProtection
 
 | namn | Beskrivning |
 | --- | --- |
-| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(string) | Ställer in skrivskyddslösenordet för dokumentet. |
-| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(string) | Returnerar`Sann` om det angivna lösenordet är detsamma som skrivskyddslösenordet som dokumentet skyddades med. Om dokumentet inte är skrivskyddat med lösenord returneras`falsk` . |
+| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(*string*) | Ställer in skrivskyddslösenordet för dokumentet. |
+| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | Returnerar`Sann` om det angivna lösenordet är detsamma som skrivskyddslösenordet som dokumentet skyddades med. Om dokumentet inte är skrivskyddat med lösenord returneras`falsk` . |
 
-### Anmärkningar
+## Anmärkningar
 
 Skrivskydd anger om författaren har rekommenderat att dokumentet ska öppnas som skrivskyddat och/eller kräva ett lösenord för att ändra ett dokument.
 
@@ -38,7 +40,7 @@ Skrivskydd skiljer sig från dokumentskydd. Skrivskydd anges i Microsoft Word i 
 
 Du skapar inte instanser av den här klassen direkt. Du kommer åt dokumentskyddsinställningar via[`WriteProtection`](../../aspose.words/document/writeprotection/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man skyddar ett dokument med ett lösenord.
 
@@ -71,5 +73,3 @@ Assert.AreEqual("Hello world! This document is protected." +
 
 * namnutrymme [Aspose.Words.Settings](../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Odso.ColumnDelimiter
-second_title: Справочник по API Aspose.Words для .NET
-description: Odso свойство. Указывает символ который должен интерпретироваться как разделитель столбцов используемый для разделения столбцов во внешних источниках данных. Значение по умолчанию  0 что означает что разделитель столбцов не определен.
+linktitle: ColumnDelimiter
+articleTitle: ColumnDelimiter
+second_title: Aspose.Words для .NET
+description: Odso ColumnDelimiter свойство. Указывает символ который должен интерпретироваться как разделитель столбцов используемый для разделения столбцов во внешних источниках данных. Значение по умолчанию  0 что означает что разделитель столбцов не определен на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.settings/odso/columndelimiter/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.settings/odso/columndelimiter/
 public char ColumnDelimiter { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 РК: Я никогда не видел, чтобы это использовалось.
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Смотрите также
 
 * class [Odso](../)
-* пространство имен [Aspose.Words.Settings](../../odso/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

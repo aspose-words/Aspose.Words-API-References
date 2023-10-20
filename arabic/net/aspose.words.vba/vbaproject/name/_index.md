@@ -1,7 +1,9 @@
 ---
 title: VbaProject.Name
-second_title: Aspose.Words لمراجع .NET API
-description: VbaProject ملكية. الحصول على اسم مشروع VBA أو تعيينه.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words لـ .NET
+description: VbaProject Name ملكية. الحصول على اسم مشروع VBA أو تعيينه في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.vba/vbaproject/name/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.vba/vbaproject/name/
 public string Name { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مشروع VBA باستخدام وحدات الماكرو.
 
@@ -67,7 +69,5 @@ vbaModules.Remove(vbaModules[2]);
 ### أنظر أيضا
 
 * class [VbaProject](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbaproject/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
-
-

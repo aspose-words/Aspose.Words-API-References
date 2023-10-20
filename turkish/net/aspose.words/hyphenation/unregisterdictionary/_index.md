@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.UnregisterDictionary
-second_title: Aspose.Words for .NET API Referansı
-description: Hyphenation yöntem. Belirtilen dil için tireleme sözlüğünün kaydını siler.
+linktitle: UnregisterDictionary
+articleTitle: UnregisterDictionary
+second_title: Aspose.Words for .NET
+description: Hyphenation UnregisterDictionary yöntem. Belirtilen dil için tireleme sözlüğünün kaydını siler C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/hyphenation/unregisterdictionary/
@@ -20,7 +22,7 @@ public static void UnregisterDictionary(string language)
 | --- | --- | --- |
 | language | String | Bir dil adı, örneğin "en-US". "Kültür adı" için .NET belgelerine ve ayrıntılar için RFC 4646'ya bakın. |
 
-### Örnekler
+## Örnekler
 
 Bir tireleme sözlüğünün nasıl kaydedileceğini gösterir.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### Ayrıca bakınız
 
 * class [Hyphenation](../)
-* ad alanı [Aspose.Words](../../hyphenation/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.OwnStatus
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Anger källan till texten som visas i statusfältet när ett formulärfält har fokus.
+linktitle: OwnStatus
+articleTitle: OwnStatus
+second_title: Aspose.Words för .NET
+description: FormField OwnStatus fast egendom. Anger källan till texten som visas i statusfältet när ett formulärfält har fokus i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.fields/formfield/ownstatus/
@@ -14,11 +16,11 @@ Anger källan till texten som visas i statusfältet när ett formulärfält har 
 public bool OwnStatus { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om`Sann` , texten som anges av[`StatusText`](../statustext/) egenskapen visas. If`falsk` , texten i AutoText-posten som anges av[`StatusText`](../statustext/) egenskapen visas.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

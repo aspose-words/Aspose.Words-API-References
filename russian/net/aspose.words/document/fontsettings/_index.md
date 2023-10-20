@@ -1,7 +1,9 @@
 ---
 title: Document.FontSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает или задает настройки шрифта документа.
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words для .NET
+description: Document FontSettings свойство. Получает или задает настройки шрифта документа на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words/document/fontsettings/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/document/fontsettings/
 public FontSettings FontSettings { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство позволяет указать настройки шрифта для каждого документа. Если установлено значение`нулевой` , настройки статического шрифта по умолчанию [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) будет использован.
 
 Значение по умолчанию:`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить правила замены шрифтов.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum TaskPaneDockState
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.WebExtensions.TaskPaneDockState 枚举. 枚举任务窗格对象的可用位置
+title: TaskPaneDockState Enum
+linktitle: TaskPaneDockState
+articleTitle: TaskPaneDockState
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.WebExtensions.TaskPaneDockState 枚举. 枚举任务窗格对象的可用位置 在 C#.
 type: docs
 weight: 6730
 url: /zh/net/aspose.words.webextensions/taskpanedockstate/
@@ -21,7 +23,7 @@ public enum TaskPaneDockState
 | Right | `0` | 将任务窗格停靠在文档窗口的右侧。 |
 | Left | `1` | 将任务窗格停靠在文档窗口的左侧。 |
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * 命名空间 [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../)
-
-

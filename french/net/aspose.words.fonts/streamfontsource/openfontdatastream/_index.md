@@ -1,7 +1,9 @@
 ---
 title: StreamFontSource.OpenFontDataStream
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StreamFontSource méthode. Cette méthode devrait ouvrir le flux avec les données de police à la demande.
+linktitle: OpenFontDataStream
+articleTitle: OpenFontDataStream
+second_title: Aspose.Words pour .NET
+description: StreamFontSource OpenFontDataStream méthode. Cette méthode devrait ouvrir le flux avec les données de police à la demande en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fonts/streamfontsource/openfontdatastream/
@@ -18,11 +20,11 @@ public abstract Stream OpenFontDataStream()
 
 Flux de données de police.
 
-### Remarques
+## Remarques
 
 Le flux sera fermé après la lecture. Il n'est pas nécessaire de le fermer explicitement.
 
-### Exemples
+## Exemples
 
 Montre comment charger les polices à partir du flux.
 
@@ -56,7 +58,5 @@ private class StreamFontSourceFile : StreamFontSource
 ### Voir également
 
 * class [StreamFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../streamfontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Kind
-second_title: Aspose.Words for .NET API 参考
-description: LayoutEnumerator 财产. 获取当前实体的种类这可以是空字符串但绝不能无效的.
+linktitle: Kind
+articleTitle: Kind
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutEnumerator Kind 财产. 获取当前实体的种类这可以是空字符串但绝不能无效的 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.layout/layoutenumerator/kind/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.layout/layoutenumerator/kind/
 public string Kind { get; }
 ```
 
-### 评论
+## 评论
 
 这是当前实体的更具体类型，例如书签范围有Span类型 and 可能有 BOOKMARKSTART 或 BOOKMARKEND 类型。
 
-### 例子
+## 例子
 
 显示遍历文档布局实体的方法。
 
@@ -163,7 +165,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### 也可以看看
 
 * class [LayoutEnumerator](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutenumerator/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

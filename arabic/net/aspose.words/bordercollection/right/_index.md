@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Right
-second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. يحصل على الحد الصحيح.
+linktitle: Right
+articleTitle: Right
+second_title: Aspose.Words لـ .NET
+description: BorderCollection Right ملكية. يحصل على الحد الصحيح في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/bordercollection/right/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bordercollection/right/
 public Border Right { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق لون الحدود والتظليل أثناء إنشاء الجدول.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* مساحة الاسم [Aspose.Words](../../bordercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

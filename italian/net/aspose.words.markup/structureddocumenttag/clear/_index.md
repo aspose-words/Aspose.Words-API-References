@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.Clear
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTag metodo. Cancella il contenuto di questo tag del documento strutturato e visualizza un segnaposto se è definito.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTag Clear metodo. Cancella il contenuto di questo tag del documento strutturato e visualizza un segnaposto se è definito in C#.
 type: docs
-weight: 360
+weight: 340
 url: /it/net/aspose.words.markup/structureddocumenttag/clear/
 ---
 ## StructuredDocumentTag.Clear method
@@ -14,13 +16,13 @@ Cancella il contenuto di questo tag del documento strutturato e visualizza un se
 public void Clear()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Non è possibile cancellare il contenuto di un tag di documento strutturato se presenta revisioni.
 
 Se questo tag di documento strutturato è mappato su XML personalizzato (utilizzando il file[`XmlMapping`](../xmlmapping/) ), il nodo XML di riferimento viene cancellato.
 
-### Esempi
+## Esempi
 
 Mostra come eliminare il contenuto degli elementi tag del documento strutturato.
 
@@ -68,7 +70,5 @@ Assert.AreEqual("Custom placeholder text.", tag.GetText().Trim());
 ### Guarda anche
 
 * class [StructuredDocumentTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

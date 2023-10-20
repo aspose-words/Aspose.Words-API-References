@@ -1,12 +1,14 @@
 ---
-title: PageSet.PageSet
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSet constructeur. Erstellt einen einseitigen Satz basierend auf dem genauen Seitenindex.
+title: PageSet
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words für .NET
+description: PageSet constructeur. Erstellt einen einseitigen Satz basierend auf dem genauen Seitenindex in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/pageset/pageset/
 ---
-## PageSet(int) {#constructor_1}
+## PageSet(*int*) {#constructor_1}
 
 Erstellt einen einseitigen Satz basierend auf dem genauen Seitenindex.
 
@@ -18,19 +20,19 @@ public PageSet(int page)
 | --- | --- | --- |
 | page | Int32 | Nullbasierter Index der Seite. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn eine Seite gefunden wird, die nicht im Dokument enthalten ist, wird beim Rendern eine Ausnahme ausgelöst. MaxValue bedeutet die letzte Seite im Dokument.
 
 ### Siehe auch
 
 * class [PageSet](../)
-* namensraum [Aspose.Words.Saving](../../pageset/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## PageSet(params int[]) {#constructor_2}
+## PageSet(*params int[]*) {#constructor_2}
 
 Erstellt einen Seitensatz basierend auf genauen Seitenindizes.
 
@@ -42,11 +44,11 @@ public PageSet(params int[] pages)
 | --- | --- | --- |
 | pages | Int32[] | Nullbasierte Indizes von Seiten. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn eine Seite gefunden wird, die nicht im Dokument enthalten ist, wird beim Rendern eine Ausnahme ausgelöst. MaxValue bedeutet die letzte Seite im Dokument.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seiten basierend auf genauen Seitenindizes extrahiert werden.
 
@@ -75,12 +77,12 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 ### Siehe auch
 
 * class [PageSet](../)
-* namensraum [Aspose.Words.Saving](../../pageset/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## PageSet(params PageRange[]) {#constructor}
+## PageSet(*params PageRange[]*) {#constructor}
 
 Erstellt einen Seitensatz basierend auf Bereichen.
 
@@ -92,11 +94,11 @@ public PageSet(params PageRange[] ranges)
 | --- | --- | --- |
 | ranges | PageRange[] | Array von Seitenbereichen. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn ein Bereich gefunden wird, der nach der letzten Seite im Dokument beginnt, wird beim Rendern eine Ausnahme ausgelöst. Alle Bereiche, die nach der letzten Seite enden, werden gekürzt, damit sie in das Dokument passen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seiten basierend auf genauen Seitenbereichen extrahiert werden.
 
@@ -115,7 +117,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOp
 
 * class [PageRange](../../pagerange/)
 * class [PageSet](../)
-* namensraum [Aspose.Words.Saving](../../pageset/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

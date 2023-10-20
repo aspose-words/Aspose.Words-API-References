@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.TopLeftCell
-second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyleCollection mülk. Sol üst hücre stilini alır.
+linktitle: TopLeftCell
+articleTitle: TopLeftCell
+second_title: Aspose.Words for .NET
+description: ConditionalStyleCollection TopLeftCell mülk. Sol üst hücre stilini alır C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words/conditionalstylecollection/topleftcell/
@@ -14,7 +16,7 @@ Sol üst hücre stilini alır.
 public ConditionalStyle TopLeftCell { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* ad alanı [Aspose.Words](../../conditionalstylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

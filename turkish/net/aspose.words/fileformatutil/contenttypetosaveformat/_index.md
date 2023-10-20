@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ContentTypeToSaveFormat
-second_title: Aspose.Words for .NET API Referansı
-description: FileFormatUtil yöntem. IANA içerik türünü kaydetme biçiminde numaralandırılmış bir değere dönüştürür.
+linktitle: ContentTypeToSaveFormat
+articleTitle: ContentTypeToSaveFormat
+second_title: Aspose.Words for .NET
+description: FileFormatUtil ContentTypeToSaveFormat yöntem. IANA içerik türünü kaydetme biçiminde numaralandırılmış bir değere dönüştürür C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/fileformatutil/contenttypetosaveformat/
@@ -20,7 +22,7 @@ public static SaveFormat ContentTypeToSaveFormat(string contentType)
 | --- | --- |
 | ArgumentException | Dönüştürülemediğinde atar. |
 
-### Örnekler
+## Örnekler
 
 Her ortam türü dizesinden karşılık gelen Aspose yükleme/kaydetme formatının nasıl bulunacağını gösterir.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(SaveFormat.Mhtml, FileFormatUtil.ContentTypeToSaveFormat("multip
 
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* ad alanı [Aspose.Words](../../fileformatutil/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

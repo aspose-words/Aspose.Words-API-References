@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveSelfOnly
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart metod. Tar bort det här intervallets start och lämpliga intervallslutnoder för den strukturerade dokumenttaggen men behåller dess innehåll i dokumentträdet.
+linktitle: RemoveSelfOnly
+articleTitle: RemoveSelfOnly
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeStart RemoveSelfOnly metod. Tar bort det här intervallets start och lämpliga intervallslutnoder för den strukturerade dokumenttaggen men behåller dess innehåll i dokumentträdet i C#.
 type: docs
 weight: 240
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
@@ -14,7 +16,7 @@ Tar bort det här intervallets start- och lämpliga intervallslutnoder för den 
 public void RemoveSelfOnly()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar/tar bort strukturerad dokumenttagg och dess innehåll.
 
@@ -66,7 +68,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 ### Se även
 
 * class [StructuredDocumentTagRangeStart](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Theme.MinorFonts
-second_title: Aspose.Words för .NET API Referens
-description: Theme fast egendom. Tillåter att ange uppsättningen av mindre teckensnitt för olika språk.
+linktitle: MinorFonts
+articleTitle: MinorFonts
+second_title: Aspose.Words för .NET
+description: Theme MinorFonts fast egendom. Tillåter att ange uppsättningen av mindre teckensnitt för olika språk i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.themes/theme/minorfonts/
@@ -14,7 +16,7 @@ Tillåter att ange uppsättningen av mindre teckensnitt för olika språk.
 public ThemeFonts MinorFonts { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in anpassade färger och teckensnitt för teman.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [ThemeFonts](../../themefonts/)
 * class [Theme](../)
-* namnutrymme [Aspose.Words.Themes](../../theme/)
+* namnutrymme [Aspose.Words.Themes](../../../aspose.words.themes/)
 * hopsättning [Aspose.Words](../../../)
-
-

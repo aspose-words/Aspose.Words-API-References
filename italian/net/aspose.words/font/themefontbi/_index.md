@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontBi
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene o imposta il carattere del tema nello schema di caratteri applicato associato a questoFont object in un documento in lingua da destra a sinistra.
+linktitle: ThemeFontBi
+articleTitle: ThemeFontBi
+second_title: Aspose.Words per .NET
+description: Font ThemeFontBi proprietà. Ottiene o imposta il carattere del tema nello schema di caratteri applicato associato a questoFont object in un documento in lingua da destra a sinistra in C#.
 type: docs
 weight: 490
 url: /it/net/aspose.words/font/themefontbi/
@@ -14,7 +16,7 @@ Ottiene o imposta il carattere del tema nello schema di caratteri applicato asso
 public ThemeFont ThemeFontBi { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i caratteri e i colori del tema.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

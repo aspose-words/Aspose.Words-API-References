@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.RemoveAt
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormFieldCollection méthode. Supprime un champ de formulaire à lindex spécifié.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words pour .NET
+description: FormFieldCollection RemoveAt méthode. Supprime un champ de formulaire à lindex spécifié en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/formfieldcollection/removeat/
@@ -18,11 +20,11 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Index de base zéro du champ de formulaire à supprimer. |
 
-### Remarques
+## Remarques
 
 S'il existe un signet associé au champ du formulaire, le signet n'est pas supprimé.
 
-### Exemples
+## Exemples
 
 Montre comment insérer différents types de champs de formulaire dans un document et les traiter à l'aide d'une implémentation de visiteur de document.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Voir également
 
 * class [FormFieldCollection](../)
-* espace de noms [Aspose.Words.Fields](../../formfieldcollection/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

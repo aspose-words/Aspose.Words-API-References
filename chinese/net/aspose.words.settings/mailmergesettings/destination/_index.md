@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Destination
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeSettings 财产. 指定 Microsoft Word 如何输出邮件合并结果 默认值为Default.
+linktitle: Destination
+articleTitle: Destination
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeSettings Destination 财产. 指定 Microsoft Word 如何输出邮件合并结果 默认值为Default 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.settings/mailmergesettings/destination/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/mailmergesettings/destination/
 public MailMergeDestination Destination { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeDestination](../../mailmergedestination/)
 * class [MailMergeSettings](../)
-* 命名空间 [Aspose.Words.Settings](../../mailmergesettings/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldPrintDate.UseSakaEraCalendar
-second_title: Aspose.Words for .NET API Referansı
-description: FieldPrintDate mülk. Saka Dönemi takviminin kullanılıp kullanılmayacağını alır veya ayarlar.
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: Aspose.Words for .NET
+description: FieldPrintDate UseSakaEraCalendar mülk. Saka Dönemi takviminin kullanılıp kullanılmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldprintdate/usesakaeracalendar/
@@ -14,7 +16,7 @@ Saka Dönemi takviminin kullanılıp kullanılmayacağını alır veya ayarlar.
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Okunan PRINTDATE alanlarını gösterir.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### Ayrıca bakınız
 
 * class [FieldPrintDate](../)
-* ad alanı [Aspose.Words.Fields](../../fieldprintdate/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

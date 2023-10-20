@@ -1,7 +1,9 @@
 ---
 title: FieldSeparator.Accept
-second_title: Aspose.Words för .NET API Referens
-description: FieldSeparator metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: FieldSeparator Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldseparator/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 **Falsk** om besökaren begärde att uppräkningen skulle sluta.
 
-### Anmärkningar
+## Anmärkningar
 
 Samtal[`VisitFieldSeparator`](../../../aspose.words/documentvisitor/visitfieldseparator/).
 
 För mer information se Visitor design mönster.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en samling fält.
 
@@ -132,7 +134,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [FieldSeparator](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldseparator/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.CalculateOnExit
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. True если ссылки на указанное поле формы автоматически обновляются при выходе из поля.
+linktitle: CalculateOnExit
+articleTitle: CalculateOnExit
+second_title: Aspose.Words для .NET
+description: FormField CalculateOnExit свойство. True если ссылки на указанное поле формы автоматически обновляются при выходе из поля на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/formfield/calculateonexit/
@@ -14,11 +16,11 @@ True, если ссылки на указанное поле формы авто
 public bool CalculateOnExit { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Параметр`CalculateOnExit` влияет на поведение поля формы только тогда, когда документ открывается в Microsoft Word. Aspose.Words никогда не обновляет reference в поле формы.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

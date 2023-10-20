@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Clone
-second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions metod. Skapar en djup klon av detta objekt.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words för .NET
+description: ImageSaveOptions Clone metod. Skapar en djup klon av detta objekt i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words.saving/imagesaveoptions/clone/
@@ -14,7 +16,7 @@ Skapar en djup klon av detta objekt.
 public ImageSaveOptions Clone()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man väljer en bit-per-pixel-hastighet med vilken ett dokument ska renderas till en bild.
 
@@ -79,7 +81,5 @@ Document doc = new Document();
 ### Se även
 
 * class [ImageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

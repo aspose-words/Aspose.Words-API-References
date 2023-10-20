@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.IndexOfKey
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPropertyCollection طريقة. إرجاع الفهرس الصفري للخاصية المحددة في المجموعة.
+linktitle: IndexOfKey
+articleTitle: IndexOfKey
+second_title: Aspose.Words لـ .NET
+description: CustomXmlPropertyCollection IndexOfKey طريقة. إرجاع الفهرس الصفري للخاصية المحددة في المجموعة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.markup/customxmlpropertycollection/indexofkey/
@@ -22,7 +24,7 @@ public int IndexOfKey(string name)
 
 المؤشر القائم على الصفر. قيمة سلبية إذا لم يتم العثور عليها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, properties.Count);
 ### أنظر أيضا
 
 * class [CustomXmlPropertyCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

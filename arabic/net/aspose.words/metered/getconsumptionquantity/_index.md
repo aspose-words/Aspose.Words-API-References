@@ -1,7 +1,9 @@
 ---
 title: Metered.GetConsumptionQuantity
-second_title: Aspose.Words لمراجع .NET API
-description: Metered طريقة. الحصول على حجم ملف الاستهلاك
+linktitle: GetConsumptionQuantity
+articleTitle: GetConsumptionQuantity
+second_title: Aspose.Words لـ .NET
+description: Metered GetConsumptionQuantity طريقة. الحصول على حجم ملف الاستهلاك في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/metered/getconsumptionquantity/
@@ -18,7 +20,7 @@ public static decimal GetConsumptionQuantity()
 
 كمية الاستهلاك
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تفعيل الترخيص المقنن وتتبع الرصيد/الاستهلاك.
 
@@ -45,7 +47,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### أنظر أيضا
 
 * class [Metered](../)
-* مساحة الاسم [Aspose.Words](../../metered/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

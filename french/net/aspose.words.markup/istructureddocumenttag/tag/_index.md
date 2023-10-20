@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.Tag
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IStructuredDocumentTag propriété. Spécifie une balise associée au nœud SDT actuel. Ne peut pas être nul.
+linktitle: Tag
+articleTitle: Tag
+second_title: Aspose.Words pour .NET
+description: IStructuredDocumentTag Tag propriété. Spécifie une balise associée au nœud SDT actuel. Ne peut pas être nul en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.markup/istructureddocumenttag/tag/
@@ -17,7 +19,5 @@ public string Tag { get; set; }
 ### Voir également
 
 * interface [IStructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../istructureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ParentParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Doğrudan üst paragrafı döndürür.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words for .NET
+description: ShapeBase ParentParagraph mülk. Doğrudan üst paragrafı döndürür C#'da.
 type: docs
 weight: 410
 url: /tr/net/aspose.words.drawing/shapebase/parentparagraph/
@@ -14,11 +16,11 @@ Doğrudan üst paragrafı döndürür.
 public Paragraph ParentParagraph { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bir grup şeklinin alt şekilleri ve bir Office Math nesnesinin alt şekilleri için her zaman şunu döndürür:`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Metin kutusunun nasıl ekleneceğini ve içeriğinin yazı tipinin nasıl ayarlanacağını gösterir.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.ToArray
-second_title: Aspose.Words for .NET API 参考
-description: NodeCollection 方法. 将集合中的所有节点复制到新的节点数组
+linktitle: ToArray
+articleTitle: ToArray
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeCollection ToArray 方法. 将集合中的所有节点复制到新的节点数组 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words/nodecollection/toarray/
@@ -18,13 +20,13 @@ public Node[] ToArray()
 
 节点数组。
 
-### 评论
+## 评论
 
 您不应在迭代节点集合 时添加/删除节点，因为这会使迭代器无效并且需要刷新实时集合。
 
 为了能够在迭代期间添加/删除节点，请使用此方法将 节点复制到固定大小的数组中，然后迭代该数组。
 
-### 例子
+## 例子
 
 演示如何用图像形状替换所有文本框形状。
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* 命名空间 [Aspose.Words](../../nodecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

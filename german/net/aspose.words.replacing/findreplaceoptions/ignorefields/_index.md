@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreFields
-second_title: Aspose.Words für .NET-API-Referenz
-description: FindReplaceOptions eigendom. Ruft einen booleschen Wert ab oder legt ihn fest der angibt ob Text in Feldern ignoriert werden soll. Der Standardwert istFALSCH .
+linktitle: IgnoreFields
+articleTitle: IgnoreFields
+second_title: Aspose.Words für .NET
+description: FindReplaceOptions IgnoreFields eigendom. Ruft einen booleschen Wert ab oder legt ihn fest der angibt ob Text in Feldern ignoriert werden soll. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.replacing/findreplaceoptions/ignorefields/
@@ -14,13 +16,13 @@ Ruft einen booleschen Wert ab oder legt ihn fest, der angibt, ob Text in Feldern
 public bool IgnoreFields { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Option betrifft das gesamte Feld (alle Knoten zwischen FieldStart UndFieldEnd).
 
 Um nur Feldcodes zu ignorieren, verwenden Sie bitte die entsprechende Option[`IgnoreFieldCodes`](../ignorefieldcodes/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text in Feldern ignoriert wird.
 
@@ -51,7 +53,5 @@ Assert.AreEqual(
 ### Siehe auch
 
 * class [FindReplaceOptions](../)
-* namensraum [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

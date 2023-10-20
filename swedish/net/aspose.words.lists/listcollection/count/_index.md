@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: ListCollection fast egendom. Hämtar antalet numrerade och punktlistor i dokumentet.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: ListCollection Count fast egendom. Hämtar antalet numrerade och punktlistor i dokumentet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.lists/listcollection/count/
@@ -14,7 +16,7 @@ Hämtar antalet numrerade och punktlistor i dokumentet.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man verifierar ägardokumentegenskaper för listor.
 
@@ -36,7 +38,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 ### Se även
 
 * class [ListCollection](../)
-* namnutrymme [Aspose.Words.Lists](../../listcollection/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

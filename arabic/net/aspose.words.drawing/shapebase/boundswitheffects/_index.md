@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BoundsWithEffects
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على المدى النهائي لكائن الشكل هذا بعد تطبيق تأثيرات الرسم. يتم قياس القيمة بالنقاط.
+linktitle: BoundsWithEffects
+articleTitle: BoundsWithEffects
+second_title: Aspose.Words لـ .NET
+description: ShapeBase BoundsWithEffects ملكية. الحصول على المدى النهائي لكائن الشكل هذا بعد تطبيق تأثيرات الرسم. يتم قياس القيمة بالنقاط في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.drawing/shapebase/boundswitheffects/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/boundswitheffects/
 public RectangleF BoundsWithEffects { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من مدى تأثر حدود الشكل بتأثيرات الشكل.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(279, shape.BoundsWithEffects.Height);
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.IsAtEndOfParagraph
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Gibt zurückWAHR wenn sich der Cursor am Ende des aktuellen Absatzes befindet.
+linktitle: IsAtEndOfParagraph
+articleTitle: IsAtEndOfParagraph
+second_title: Aspose.Words für .NET
+description: DocumentBuilder IsAtEndOfParagraph eigendom. Gibt zurückWAHR wenn sich der Cursor am Ende des aktuellen Absatzes befindet in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words/documentbuilder/isatendofparagraph/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn sich der Cursor am Ende des aktuellen Absatzes befindet.
 public bool IsAtEndOfParagraph { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Cursor eines Document Builders zu verschiedenen Knoten in einem Dokument bewegt wird.
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Siehe auch
 
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

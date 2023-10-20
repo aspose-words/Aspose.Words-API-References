@@ -1,7 +1,9 @@
 ---
 title: VbaModuleCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: VbaModuleCollection propriété. Récupère unVbaModule objet par index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: VbaModuleCollection Item propriété. Récupère unVbaModule objet par index en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.vba/vbamodulecollection/item/
@@ -18,7 +20,7 @@ public VbaModule this[int index] { get; }
 | --- | --- |
 | index | Index de base zéro du module à récupérer. |
 
-### Exemples
+## Exemples
 
 Montre comment accéder aux informations de projet VBA d’un document.
 
@@ -50,7 +52,7 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* espace de noms [Aspose.Words.Vba](../../vbamodulecollection/)
+* espace de noms [Aspose.Words.Vba](../../../aspose.words.vba/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -63,7 +65,7 @@ Récupère un[`VbaModule`](../../vbamodule/) objet par nom, ou Null s'il n'est p
 public VbaModule this[string name] { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder aux informations de projet VBA d’un document.
 
@@ -95,7 +97,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* espace de noms [Aspose.Words.Vba](../../vbamodulecollection/)
+* espace de noms [Aspose.Words.Vba](../../../aspose.words.vba/)
 * Assemblée [Aspose.Words](../../../)
-
-

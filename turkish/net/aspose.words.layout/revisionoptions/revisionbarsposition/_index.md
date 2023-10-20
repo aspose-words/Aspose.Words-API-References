@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsPosition
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. Revizyon çubuklarının oluşturma konumunu alır veya ayarlar. Varsayılan değerOutside .
+linktitle: RevisionBarsPosition
+articleTitle: RevisionBarsPosition
+second_title: Aspose.Words for .NET
+description: RevisionOptions RevisionBarsPosition mülk. Revizyon çubuklarının oluşturma konumunu alır veya ayarlar. Varsayılan değerOutside  C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.layout/revisionoptions/revisionbarsposition/
@@ -14,7 +16,7 @@ Revizyon çubuklarının oluşturma konumunu alır veya ayarlar. Varsayılan de�
 public HorizontalAlignment RevisionBarsPosition { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 DeğerleriCenter VeInside 'ye izin verilmiyor ve neden olacakArgumentOutOfRangeException.
 
@@ -22,7 +24,5 @@ DeğerleriCenter VeInside 'ye izin verilmiyor ve neden olacakArgumentOutOfRangeE
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [RevisionOptions](../)
-* ad alanı [Aspose.Words.Layout](../../revisionoptions/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

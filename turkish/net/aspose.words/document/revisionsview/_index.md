@@ -1,7 +1,9 @@
 ---
 title: Document.RevisionsView
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bir belgenin orijinal sürümüyle mi yoksa revize edilmiş sürümüyle mi çalışılacağını belirten bir değer alır veya ayarlar.
+linktitle: RevisionsView
+articleTitle: RevisionsView
+second_title: Aspose.Words for .NET
+description: Document RevisionsView mülk. Bir belgenin orijinal sürümüyle mi yoksa revize edilmiş sürümüyle mi çalışılacağını belirten bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 360
 url: /tr/net/aspose.words/document/revisionsview/
@@ -14,11 +16,11 @@ Bir belgenin orijinal sürümüyle mi yoksa revize edilmiş sürümüyle mi çal
 public RevisionsView RevisionsView { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer: .
 
-### Örnekler
+## Örnekler
 
 Bir belgenin revize edilmiş görünümü ile orijinal görünümü arasında nasıl geçiş yapılacağını gösterir.
 
@@ -43,7 +45,5 @@ Assert.AreEqual("a.", paragraphs[2].ListLabel.LabelString);
 
 * enum [RevisionsView](../../revisionsview/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

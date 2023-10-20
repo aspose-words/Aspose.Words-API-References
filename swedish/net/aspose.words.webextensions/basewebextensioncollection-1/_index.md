@@ -1,7 +1,9 @@
 ---
-title: Class BaseWebExtensionCollectionT
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T klass. Basklass förTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection ochWebExtensionReferenceCollection samlingar.
+title: BaseWebExtensionCollectionT Class
+linktitle: BaseWebExtensionCollectionT
+articleTitle: BaseWebExtensionCollectionT
+second_title: Aspose.Words för .NET
+description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T klass. Basklass förTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection ochWebExtensionReferenceCollection samlingar i C#.
 type: docs
 weight: 6700
 url: /sv/net/aspose.words.webextensions/basewebextensioncollection-1/
@@ -32,12 +34,12 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | Lägger till angivet objekt till samlingen. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*T*) | Lägger till angivet objekt till samlingen. |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | Tar bort alla element från samlingen. |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Returnerar en uppräkning som kan iterera genom en samling. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | Tar bort objektet vid det angivna indexet från samlingen. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) | Tar bort objektet vid det angivna indexet från samlingen. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments samling av webbtillägg.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * namnutrymme [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ComparisonExpression
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.ComparisonExpression 班级. 比较表达式.
+title: ComparisonExpression Class
+linktitle: ComparisonExpression
+articleTitle: ComparisonExpression
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.ComparisonExpression 班级. 比较表达式 在 C#.
 type: docs
 weight: 1490
 url: /zh/net/aspose.words.fields/comparisonexpression/
@@ -24,7 +26,7 @@ public sealed class ComparisonExpression
 | [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression/) { get; } | 获取左侧表达式。 |
 | [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression/) { get; } | 获得正确的表达式。 |
 
-### 例子
+## 例子
 
 展示如何实现 IF 和 COMPARE 字段的自定义评估。
 
@@ -109,5 +111,3 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

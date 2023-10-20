@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Current
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutEnumerator mülk. Sayfa düzeni modelindeki geçerli konumu alır veya ayarlar. Bu özellik geçerli düzen varlığına karşılık gelen opak bir nesne döndürür.
+linktitle: Current
+articleTitle: Current
+second_title: Aspose.Words for .NET
+description: LayoutEnumerator Current mülk. Sayfa düzeni modelindeki geçerli konumu alır veya ayarlar. Bu özellik geçerli düzen varlığına karşılık gelen opak bir nesne döndürür C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.layout/layoutenumerator/current/
@@ -14,7 +16,7 @@ Sayfa düzeni modelindeki geçerli konumu alır veya ayarlar. Bu özellik, geçe
 public object Current { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir düğümün kapsadığı sayfa aralıklarının nasıl görüleceğini gösterir.
 
@@ -72,7 +74,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 ### Ayrıca bakınız
 
 * class [LayoutEnumerator](../)
-* ad alanı [Aspose.Words.Layout](../../layoutenumerator/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

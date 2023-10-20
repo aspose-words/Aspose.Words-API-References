@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageStream
-second_title: Aspose.Words per .NET API Reference
-description: ImageFieldMergingArgs proprietà. Specifica il flusso da cui il motore di stampa unione legge unimmagine.
+linktitle: ImageStream
+articleTitle: ImageStream
+second_title: Aspose.Words per .NET
+description: ImageFieldMergingArgs ImageStream proprietà. Specifica il flusso da cui il motore di stampa unione legge unimmagine in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
@@ -14,11 +16,11 @@ Specifica il flusso da cui il motore di stampa unione legge un'immagine.
 public Stream ImageStream { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Aspose.Words chiude questo flusso dopo aver unito l'immagine nel documento.
 
-### Esempi
+## Esempi
 
 Mostra come inserire in un report le immagini archiviate in un campo BLOB del database.
 
@@ -67,7 +69,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 ### Guarda anche
 
 * class [ImageFieldMergingArgs](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

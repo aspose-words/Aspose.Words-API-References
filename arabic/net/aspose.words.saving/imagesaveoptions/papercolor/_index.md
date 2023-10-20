@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PaperColor
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. الحصول على أو تعيين لون الخلفية الورق للصور التي تم إنشاؤها.
+linktitle: PaperColor
+articleTitle: PaperColor
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions PaperColor ملكية. الحصول على أو تعيين لون الخلفية الورق للصور التي تم إنشاؤها في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.saving/imagesaveoptions/papercolor/
@@ -16,11 +18,11 @@ url: /ar/net/aspose.words.saving/imagesaveoptions/papercolor/
 public Color PaperColor { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عند عرض صفحات مستند يحدد لون الخلفية الخاص به، ، فإن لون خلفية المستند سيتجاوز اللون المحدد بواسطة هذه الخاصية.
 
-### أمثلة
+## أمثلة
 
 يعرض صفحة من مستند Word في صورة ذات خلفية شفافة أو ملونة.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.LightCoral.png", imgOptions
 ### أنظر أيضا
 
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

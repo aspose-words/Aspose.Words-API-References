@@ -1,7 +1,9 @@
 ---
-title: Odso.Odso
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Odso constructeur. Default_Constructor
+title: Odso
+linktitle: Odso
+articleTitle: Odso
+second_title: Aspose.Words pour .NET
+description: Odso constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.settings/odso/odso/
@@ -17,7 +19,5 @@ public Odso()
 ### Voir également
 
 * class [Odso](../)
-* espace de noms [Aspose.Words.Settings](../../odso/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

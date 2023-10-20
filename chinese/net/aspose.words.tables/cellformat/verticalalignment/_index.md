@@ -1,9 +1,11 @@
 ---
 title: CellFormat.VerticalAlignment
-second_title: Aspose.Words for .NET API 参考
-description: CellFormat 财产. 返回或设置单元格中文本的垂直对齐方式
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: CellFormat VerticalAlignment 财产. 返回或设置单元格中文本的垂直对齐方式 在 C#.
 type: docs
-weight: 120
+weight: 110
 url: /zh/net/aspose.words.tables/cellformat/verticalalignment/
 ---
 ## CellFormat.VerticalAlignment property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/cellformat/verticalalignment/
 public CellVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何构建具有自定义边框的表格。
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * enum [CellVerticalAlignment](../../cellverticalalignment/)
 * class [CellFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../cellformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

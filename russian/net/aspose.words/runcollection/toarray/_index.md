@@ -1,7 +1,9 @@
 ---
 title: RunCollection.ToArray
-second_title: Справочник по API Aspose.Words для .NET
-description: RunCollection метод. Копирует все прогоны из коллекции в новый массив прогонов.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words для .NET
+description: RunCollection ToArray метод. Копирует все прогоны из коллекции в новый массив прогонов на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/runcollection/toarray/
@@ -18,7 +20,7 @@ public Run[] ToArray()
 
 Массив пробегов.
 
-### Примеры
+## Примеры
 
 Показывает, как определить тип редакции встроенного узла.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Run](../../run/)
 * class [RunCollection](../)
-* пространство имен [Aspose.Words](../../runcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

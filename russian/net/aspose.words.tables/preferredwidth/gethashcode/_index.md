@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.GetHashCode
-second_title: Справочник по API Aspose.Words для .NET
-description: PreferredWidth метод. Служит хешфункцией для этого типа.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words для .NET
+description: PreferredWidth GetHashCode метод. Служит хешфункцией для этого типа на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.tables/preferredwidth/gethashcode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/preferredwidth/gethashcode/
 public override int GetHashCode()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить предпочтительную ширину ячеек таблицы.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Смотрите также
 
 * class [PreferredWidth](../)
-* пространство имен [Aspose.Words.Tables](../../preferredwidth/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

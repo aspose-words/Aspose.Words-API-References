@@ -1,7 +1,9 @@
 ---
 title: Run.Text
-second_title: Aspose.Words for .NET API Referansı
-description: Run mülk. Çalıştırmanın metnini alır veya ayarlar.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words for .NET
+description: Run Text mülk. Çalıştırmanın metnini alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/run/text/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/run/text/
 public string Text { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Ayrıca bakınız
 
 * class [Run](../)
-* ad alanı [Aspose.Words](../../run/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

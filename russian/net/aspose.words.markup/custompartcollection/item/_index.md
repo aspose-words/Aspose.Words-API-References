@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomPartCollection свойство. Получает или задает элемент по указанному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: CustomPartCollection Item свойство. Получает или задает элемент по указанному индексу на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/custompartcollection/item/
@@ -18,7 +20,7 @@ public CustomPart this[int index] { get; set; }
 | --- | --- |
 | index | Индекс элемента, начинающийся с нуля. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPart](../../custompart/)
 * class [CustomPartCollection](../)
-* пространство имен [Aspose.Words.Markup](../../custompartcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CellFormat.PreferredWidth
-second_title: Aspose.Words per .NET API Reference
-description: CellFormat proprietà. Restituisce o imposta la larghezza preferita della cella.
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words per .NET
+description: CellFormat PreferredWidth proprietà. Restituisce o imposta la larghezza preferita della cella in C#.
 type: docs
-weight: 80
+weight: 70
 url: /it/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property
@@ -14,7 +16,7 @@ Restituisce o imposta la larghezza preferita della cella.
 public PreferredWidth PreferredWidth { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La larghezza preferita (insieme all'opzione Adattamento automatico della tabella) determina il modo in cui la larghezza effettiva della cella viene calcolata dall'algoritmo di layout della tabella. Il layout della tabella può essere eseguito da Aspose.Words quando salva il documento o da Microsoft Word quando visualizza il documento.
 
@@ -22,7 +24,7 @@ La larghezza preferita può essere specificata in punti o in percentuale. La lar
 
 Il valore predefinito è[`Auto`](../../preferredwidth/auto/).
 
-### Esempi
+## Esempi
 
 Mostra come impostare la larghezza preferita per le celle della tabella.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 * class [PreferredWidth](../../preferredwidth/)
 * class [CellFormat](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cellformat/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum PdfImageCompression
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.PdfImageCompression uppräkning. Anger vilken typ av komprimering som tillämpas på bilder i PDFfilen.
+title: PdfImageCompression Enum
+linktitle: PdfImageCompression
+articleTitle: PdfImageCompression
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.PdfImageCompression uppräkning. Anger vilken typ av komprimering som tillämpas på bilder i PDFfilen i C#.
 type: docs
 weight: 5490
 url: /sv/net/aspose.words.saving/pdfimagecompression/
@@ -21,7 +23,7 @@ public enum PdfImageCompression
 | Auto | `0` | Väljer automatiskt den lämpligaste komprimeringen för varje bild. |
 | Jpeg | `1` | Jpeg-komprimering. Stöder inte transparens. |
 
-### Exempel
+## Exempel
 
 Visar hur man anger en komprimeringstyp för alla bilder i ett dokument som vi konverterar till PDF.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

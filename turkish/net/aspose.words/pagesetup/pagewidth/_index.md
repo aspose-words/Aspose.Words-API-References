@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageWidth
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Sayfanın genişliğini nokta cinsinden döndürür veya ayarlar.
+linktitle: PageWidth
+articleTitle: PageWidth
+second_title: Aspose.Words for .NET
+description: PageSetup PageWidth mülk. Sayfanın genişliğini nokta cinsinden döndürür veya ayarlar C#'da.
 type: docs
 weight: 340
 url: /tr/net/aspose.words/pagesetup/pagewidth/
@@ -14,7 +16,7 @@ Sayfanın genişliğini nokta cinsinden döndürür veya ayarlar.
 public double PageWidth { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir görüntünün nasıl ekleneceğini ve filigran olarak nasıl kullanılacağını gösterir.
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

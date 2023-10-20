@@ -1,7 +1,9 @@
 ---
 title: Font.Color
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置字体的颜色
+linktitle: Color
+articleTitle: Color
+second_title: 用于 .NET 的 Aspose.Words
+description: Font Color 财产. 获取或设置字体的颜色 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/font/color/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/color/
 public Color Color { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 DocumentBuilder 插入格式化文本。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

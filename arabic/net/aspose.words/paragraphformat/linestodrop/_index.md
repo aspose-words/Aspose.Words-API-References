@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LinesToDrop
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين عدد أسطر نص الفقرة المستخدم لحساب ارتفاع الأحرف الاستهلالية.
+linktitle: LinesToDrop
+articleTitle: LinesToDrop
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat LinesToDrop ملكية. الحصول على أو تعيين عدد أسطر نص الفقرة المستخدم لحساب ارتفاع الأحرف الاستهلالية في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words/paragraphformat/linestodrop/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/linestodrop/
 public int LinesToDrop { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط حجم الغطاء المنسدل.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LinesToDrop.odt");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

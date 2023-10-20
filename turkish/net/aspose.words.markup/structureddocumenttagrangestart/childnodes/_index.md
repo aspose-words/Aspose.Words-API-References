@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.ChildNodes
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart mülk. Bu aralık başlangıç düğümü ile aralık bitiş düğümü arasındaki tüm düğümleri alır.
+linktitle: ChildNodes
+articleTitle: ChildNodes
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagRangeStart ChildNodes mülk. Bu aralık başlangıç düğümü ile aralık bitiş düğümü arasındaki tüm düğümleri alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/childnodes/
@@ -18,7 +20,5 @@ public NodeCollection ChildNodes { get; }
 
 * class [NodeCollection](../../../aspose.words/nodecollection/)
 * class [StructuredDocumentTagRangeStart](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

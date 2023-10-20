@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertStyleSeparator
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar stilavgränsare i dokumentet.
+linktitle: InsertStyleSeparator
+articleTitle: InsertStyleSeparator
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertStyleSeparator metod. Infogar stilavgränsare i dokumentet i C#.
 type: docs
-weight: 460
+weight: 450
 url: /sv/net/aspose.words/documentbuilder/insertstyleseparator/
 ---
 ## DocumentBuilder.InsertStyleSeparator method
@@ -14,11 +16,11 @@ Infogar stilavgränsare i dokumentet.
 public void InsertStyleSeparator()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här metoden gör det möjligt att tillämpa olika styckestilar på två olika delar av en textrad.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med stilavgränsare.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertStyleSeparator.docx");
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

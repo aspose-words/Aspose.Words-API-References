@@ -1,7 +1,9 @@
 ---
 title: Document.Revisions
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取此文档中存在的修订跟踪更改的集合
+linktitle: Revisions
+articleTitle: Revisions
+second_title: 用于 .NET 的 Aspose.Words
+description: Document Revisions 财产. 获取此文档中存在的修订跟踪更改的集合 在 C#.
 type: docs
 weight: 350
 url: /zh/net/aspose.words/document/revisions/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/document/revisions/
 public RevisionCollection Revisions { get; }
 ```
 
-### 评论
+## 评论
 
 返回的集合是“实时”集合，这意味着如果您删除文档中包含 修订版本的部分，则删除的修订版本将自动从此集合中消失。
 
-### 例子
+## 例子
 
 展示如何处理文档中的修订。
 
@@ -102,7 +104,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * class [RevisionCollection](../../revisioncollection/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

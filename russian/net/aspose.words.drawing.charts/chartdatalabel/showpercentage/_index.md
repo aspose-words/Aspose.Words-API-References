@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowPercentage
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabel свойство. Позволяет указать будет ли отображаться процентное значение для меток данных на диаграмме. Значение по умолчаниюЛОЖЬ .
+linktitle: ShowPercentage
+articleTitle: ShowPercentage
+second_title: Aspose.Words для .NET
+description: ChartDataLabel ShowPercentage свойство. Позволяет указать будет ли отображаться процентное значение для меток данных на диаграмме. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showpercentage/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showpercentage/
 public bool ShowPercentage { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Смотрите также
 
 * class [ChartDataLabel](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

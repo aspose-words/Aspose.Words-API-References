@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.IndexOf
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentPropertyCollection yöntem. Bir özelliğin dizinini ada göre alır.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words for .NET
+description: DocumentPropertyCollection IndexOf yöntem. Bir özelliğin dizinini ada göre alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.properties/documentpropertycollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string name)
 
 Sıfır tabanlı endeks. Bulunamazsa negatif değer.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin özel özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ayrıca bakınız
 
 * class [DocumentPropertyCollection](../)
-* ad alanı [Aspose.Words.Properties](../../documentpropertycollection/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

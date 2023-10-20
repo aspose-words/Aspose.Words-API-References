@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Remove
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentPropertyCollection methode. Entfernt eine Eigenschaft mit dem angegebenen Namen aus der Sammlung.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words für .NET
+description: DocumentPropertyCollection Remove methode. Entfernt eine Eigenschaft mit dem angegebenen Namen aus der Sammlung in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.properties/documentpropertycollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Der Name der Eigenschaft, bei dem die Groß-/Kleinschreibung nicht berücksichtigt wird. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den benutzerdefinierten Eigenschaften eines Dokuments gearbeitet wird.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, properties.Count);
 ### Siehe auch
 
 * class [DocumentPropertyCollection](../)
-* namensraum [Aspose.Words.Properties](../../documentpropertycollection/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

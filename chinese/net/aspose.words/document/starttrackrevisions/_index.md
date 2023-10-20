@@ -1,12 +1,14 @@
 ---
 title: Document.StartTrackRevisions
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 开始自动将您以编程方式对文档所做的所有进一步更改标记为修订更改
+linktitle: StartTrackRevisions
+articleTitle: StartTrackRevisions
+second_title: 用于 .NET 的 Aspose.Words
+description: Document StartTrackRevisions 方法. 开始自动将您以编程方式对文档所做的所有进一步更改标记为修订更改 在 C#.
 type: docs
-weight: 730
+weight: 710
 url: /zh/net/aspose.words/document/starttrackrevisions/
 ---
-## StartTrackRevisions(string, DateTime) {#starttrackrevisions_1}
+## StartTrackRevisions(*string, DateTime*) {#starttrackrevisions_1}
 
 开始自动将您以编程方式对文档所做的所有进一步更改标记为修订更改。
 
@@ -19,7 +21,7 @@ public void StartTrackRevisions(string author, DateTime dateTime)
 | author | String | 用于修订的作者姓名缩写。 |
 | dateTime | DateTime | 用于修订的日期和时间。 |
 
-### 评论
+## 评论
 
 如果您调用此方法，然后以编程方式对文档进行一些更改， 保存文档并稍后在 MS Word 中打开文档，您将看到这些更改作为修订版本。
 
@@ -29,7 +31,7 @@ public void StartTrackRevisions(string author, DateTime dateTime)
 
 此方法不会改变[`TrackRevisions`](../trackrevisions/)选项，并且不使用其 value 进行修订跟踪。
 
-### 例子
+## 例子
 
 展示如何在编辑文档时跟踪修订。
 
@@ -78,12 +80,12 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StopTrackRevisions](../stoptrackrevisions/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## StartTrackRevisions(string) {#starttrackrevisions}
+## StartTrackRevisions(*string*) {#starttrackrevisions}
 
 开始自动将您以编程方式对文档所做的所有进一步更改标记为修订更改。
 
@@ -95,7 +97,7 @@ public void StartTrackRevisions(string author)
 | --- | --- | --- |
 | author | String | 用于修订的作者姓名缩写。 |
 
-### 评论
+## 评论
 
 如果您调用此方法，然后以编程方式对文档进行一些更改， 保存文档并稍后在 MS Word 中打开文档，您将看到这些更改作为修订版本。
 
@@ -105,7 +107,7 @@ public void StartTrackRevisions(string author)
 
 此方法不会改变[`TrackRevisions`](../trackrevisions/)选项，并且不使用其 value 进行修订跟踪。
 
-### 例子
+## 例子
 
 展示如何在编辑文档时跟踪修订。
 
@@ -154,7 +156,5 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StopTrackRevisions](../stoptrackrevisions/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldChar.IsLocked
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldChar eigendom. Ruft ab oder legt fest ob das übergeordnete Feld gesperrt ist sollte sein Ergebnis nicht neu berechnen.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words für .NET
+description: FieldChar IsLocked eigendom. Ruft ab oder legt fest ob das übergeordnete Feld gesperrt ist sollte sein Ergebnis nicht neu berechnen in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldchar/islocked/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob das übergeordnete Feld gesperrt ist (sollte sein Erg
 public bool IsLocked { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einem FieldStart-Knoten gearbeitet wird.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Siehe auch
 
 * class [FieldChar](../)
-* namensraum [Aspose.Words.Fields](../../fieldchar/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Insert
-second_title: Aspose.Words لمراجع .NET API
-description: DropDownItemCollection طريقة. إدراج سلسلة في المجموعة في الفهرس المحدد.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words لـ .NET
+description: DropDownItemCollection Insert طريقة. إدراج سلسلة في المجموعة في الفهرس المحدد في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fields/dropdownitemcollection/insert/
@@ -19,7 +21,7 @@ public void Insert(int index, string value)
 | index | Int32 | الفهرس الصفري الذي يتم إدراج القيمة فيه. |
 | value | String | السلسلة المراد إدراجها. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل مربع التحرير والسرد، وتحرير العناصر الموجودة في مجموعة العناصر الخاصة به.
 
@@ -73,7 +75,5 @@ dropDownItems.Clear();
 ### أنظر أيضا
 
 * class [DropDownItemCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../dropdownitemcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

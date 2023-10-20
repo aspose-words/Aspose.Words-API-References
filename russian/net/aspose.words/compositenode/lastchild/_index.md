@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.LastChild
-second_title: Справочник по API Aspose.Words для .NET
-description: CompositeNode свойство. Получает последнего дочернего узла узла.
+linktitle: LastChild
+articleTitle: LastChild
+second_title: Aspose.Words для .NET
+description: CompositeNode LastChild свойство. Получает последнего дочернего узла узла на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/compositenode/lastchild/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/compositenode/lastchild/
 public Node LastChild { get; }
 ```
 
-### Примечания
+## Примечания
 
 Если последнего дочернего узла нет,`нулевой` возвращается.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать методы Node и CompositeNode для удаления раздела перед последним разделом в документе.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* пространство имен [Aspose.Words](../../compositenode/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

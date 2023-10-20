@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: DropDownItemCollection метод. Добавляет строку в конец коллекции.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: DropDownItemCollection Add метод. Добавляет строку в конец коллекции на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/dropdownitemcollection/add/
@@ -22,7 +24,7 @@ public int Add(string value)
 
 Индекс, отсчитываемый от нуля, по которому вставляется новый элемент.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле со списком и отредактировать элементы в его коллекции элементов.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### Смотрите также
 
 * class [DropDownItemCollection](../)
-* пространство имен [Aspose.Words.Fields](../../dropdownitemcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

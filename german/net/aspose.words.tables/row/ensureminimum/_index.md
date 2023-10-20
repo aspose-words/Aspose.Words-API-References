@@ -1,9 +1,11 @@
 ---
 title: Row.EnsureMinimum
-second_title: Aspose.Words für .NET-API-Referenz
-description: Row methode. Wenn dieRow hat keine Zellen erstellt eine und hängt eine anCell .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words für .NET
+description: Row EnsureMinimum methode. Wenn dieRow hat keine Zellen erstellt eine und hängt eine anCell  in C#.
 type: docs
-weight: 150
+weight: 130
 url: /de/net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
@@ -14,7 +16,7 @@ Wenn die[`Row`](../) hat keine Zellen, erstellt eine und hängt eine an[`Cell`](
 public void EnsureMinimum()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie sichergestellt wird, dass ein Zeilenknoten die Knoten enthält, die wir benötigen, um mit dem Hinzufügen von Inhalten zu beginnen.
 
@@ -38,7 +40,5 @@ row.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ### Siehe auch
 
 * class [Row](../)
-* namensraum [Aspose.Words.Tables](../../row/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ResourcesFolder
-second_title: Aspose.Words per .NET API Reference
-description: HtmlFixedSaveOptions proprietà. Specifica la cartella fisica in cui vengono salvate le risorse immagini caratteri css durante lesportazione di un documento in formato Html. Il valore predefinito ènullo .
+linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
+second_title: Aspose.Words per .NET
+description: HtmlFixedSaveOptions ResourcesFolder proprietà. Specifica la cartella fisica in cui vengono salvate le risorse immagini caratteri css durante lesportazione di un documento in formato Html. Il valore predefinito ènullo  in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolder/
@@ -14,7 +16,7 @@ Specifica la cartella fisica in cui vengono salvate le risorse (immagini, caratt
 public string ResourcesFolder { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Ha effetto solo se[`ExportEmbeddedImages`](../exportembeddedimages/) la proprietà è`falso`.
 
@@ -24,7 +26,7 @@ Se salvi un documento in un file e fornisci un nome file, Aspose.Words, per impo
 
 Se salvi un documento in uno stream, Aspose.Words non ha una cartella in cui salvare le immagini, ma deve comunque salvare le immagini da qualche parte. In questo caso, è necessario specificare una cartella accessibile utilizzando il file`ResourcesFolder` proprietà
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un callback per stampare gli URI delle risorse esterne create durante la conversione di un documento in HTML.
 
@@ -103,7 +105,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Guarda anche
 
 * class [HtmlFixedSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

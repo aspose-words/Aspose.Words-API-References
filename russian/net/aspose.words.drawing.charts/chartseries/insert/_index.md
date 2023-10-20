@@ -1,12 +1,14 @@
 ---
 title: ChartSeries.Insert
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartSeries метод. Вставляет указанное значение X в серию диаграмм по указанному индексу. Если серия поддерживает значения Y и размеры пузырьков они будут пустыми для значения X.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words для .NET
+description: ChartSeries Insert метод. Вставляет указанное значение X в серию диаграмм по указанному индексу. Если серия поддерживает значения Y и размеры пузырьков они будут пустыми для значения X на С#.
 type: docs
-weight: 200
+weight: 190
 url: /ru/net/aspose.words.drawing.charts/chartseries/insert/
 ---
-## Insert(int, ChartXValue) {#insert}
+## Insert(*int, [ChartXValue](../../chartxvalue/)*) {#insert}
 
 Вставляет указанное значение X в серию диаграмм по указанному индексу. Если серия поддерживает значения Y и размеры пузырьков, они будут пустыми для значения X.
 
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartseries/insert/
 public void Insert(int index, ChartXValue xValue)
 ```
 
-### Примечания
+## Примечания
 
 Соответствующая точка данных с форматированием по умолчанию будет вставлена в коллекцию точек данных. И, , если отображаются метки данных, также будет вставлена соответствующая метка данных с форматированием по умолчанию.
 
@@ -22,12 +24,12 @@ public void Insert(int index, ChartXValue xValue)
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Insert(int, ChartXValue, ChartYValue) {#insert_1}
+## Insert(*int, [ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/)*) {#insert_1}
 
 Вставляет указанные значения X и Y в серию диаграмм по указанному индексу.
 
@@ -35,7 +37,7 @@ public void Insert(int index, ChartXValue xValue)
 public void Insert(int index, ChartXValue xValue, ChartYValue yValue)
 ```
 
-### Примечания
+## Примечания
 
 Соответствующая точка данных с форматированием по умолчанию будет вставлена в коллекцию точек данных. И, , если отображаются метки данных, также будет вставлена соответствующая метка данных с форматированием по умолчанию.
 
@@ -44,12 +46,12 @@ public void Insert(int index, ChartXValue xValue, ChartYValue yValue)
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Insert(int, ChartXValue, ChartYValue, double) {#insert_2}
+## Insert(*int, [ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/), double*) {#insert_2}
 
 Вставляет указанное значение X, значение Y и размер пузырька в серию диаграмм по указанному индексу.
 
@@ -57,7 +59,7 @@ public void Insert(int index, ChartXValue xValue, ChartYValue yValue)
 public void Insert(int index, ChartXValue xValue, ChartYValue yValue, double bubbleSize)
 ```
 
-### Примечания
+## Примечания
 
 Соответствующая точка данных с форматированием по умолчанию будет вставлена в коллекцию точек данных. И, , если отображаются метки данных, также будет вставлена соответствующая метка данных с форматированием по умолчанию.
 
@@ -66,7 +68,5 @@ public void Insert(int index, ChartXValue xValue, ChartYValue yValue, double bub
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartSeries](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseries/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SignatureType
-second_title: Aspose.Words for .NET API 参考
-description: DigitalSignature 财产. 获取数字签名的类型
+linktitle: SignatureType
+articleTitle: SignatureType
+second_title: 用于 .NET 的 Aspose.Words
+description: DigitalSignature SignatureType 财产. 获取数字签名的类型 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.digitalsignatures/digitalsignature/signaturetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.digitalsignatures/digitalsignature/signaturetype/
 public DigitalSignatureType SignatureType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何验证和显示有关文档中每个签名的信息。
 
@@ -37,7 +39,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 
 * enum [DigitalSignatureType](../../digitalsignaturetype/)
 * class [DigitalSignature](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

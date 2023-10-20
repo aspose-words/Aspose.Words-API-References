@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListCollection propriété. Obtient une liste par index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: ListCollection Item propriété. Obtient une liste par index en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.lists/listcollection/item/
@@ -14,7 +16,7 @@ Obtient une liste par index.
 public List this[int index] { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment vérifier les propriétés du document propriétaire des listes.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* espace de noms [Aspose.Words.Lists](../../listcollection/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

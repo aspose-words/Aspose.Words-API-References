@@ -1,9 +1,11 @@
 ---
 title: Table.ConvertToHorizontallyMergedCells
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table methode. Konvertiert horizontal um die Breite verbundene Zellen in um zusammengeführte ZellenHorizontalMerge .
+linktitle: ConvertToHorizontallyMergedCells
+articleTitle: ConvertToHorizontallyMergedCells
+second_title: Aspose.Words für .NET
+description: Table ConvertToHorizontallyMergedCells methode. Konvertiert horizontal um die Breite verbundene Zellen in um zusammengeführte ZellenHorizontalMerge  in C#.
 type: docs
-weight: 410
+weight: 390
 url: /de/net/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
 ## Table.ConvertToHorizontallyMergedCells method
@@ -14,7 +16,7 @@ Konvertiert horizontal um die Breite verbundene Zellen in um zusammengeführte Z
 public void ConvertToHorizontallyMergedCells()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Tabellenzellen können entweder mithilfe von Merge-Flags horizontal zusammengeführt werden[`HorizontalMerge`](../../cellformat/horizontalmerge/) oder mit der Zellenbreite[`Width`](../../cellformat/width/).
 
@@ -22,7 +24,7 @@ Wenn eine Tabellenzelle durch die Eigenschaft „Breite“ zusammengeführt wird
 
 Verwenden Sie diese Methode, um horizontal nach der Breite zusammengeführte Tabellenzellen in durch Zusammenführungsflags zusammengeführte Zellen umzuwandeln.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie horizontal nach Breite zusammengeführte Zellen in durch CellFormat.HorizontalMerge zusammengeführte Zellen konvertiert werden.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(CellMerge.None, row.Cells[6].CellFormat.HorizontalMerge);
 ### Siehe auch
 
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

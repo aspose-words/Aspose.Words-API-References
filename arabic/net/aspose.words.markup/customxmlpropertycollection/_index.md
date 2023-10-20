@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPropertyCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Markup.CustomXmlPropertyCollection فصل. يمثل مجموعة من سمات XML المخصصة أو خصائص العلامات الذكية.
+title: CustomXmlPropertyCollection Class
+linktitle: CustomXmlPropertyCollection
+articleTitle: CustomXmlPropertyCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Markup.CustomXmlPropertyCollection فصل. يمثل مجموعة من سمات XML المخصصة أو خصائص العلامات الذكية في C#.
 type: docs
 weight: 3950
 url: /ar/net/aspose.words.markup/customxmlpropertycollection/
@@ -27,19 +29,19 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(CustomXmlProperty) | إضافة خاصية إلى المجموعة. |
+| [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(*[CustomXmlProperty](../customxmlproperty/)*) | إضافة خاصية إلى المجموعة. |
 | [Clear](../../aspose.words.markup/customxmlpropertycollection/clear/)() | إزالة كافة العناصر من المجموعة. |
-| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(string) | تحديد ما إذا كانت المجموعة تحتوي على خاصية بالاسم المحدد. |
+| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(*string*) | تحديد ما إذا كانت المجموعة تحتوي على خاصية بالاسم المحدد. |
 | [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
-| [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(string) | إرجاع الفهرس الصفري للخاصية المحددة في المجموعة. |
-| [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(string) | إزالة خاصية بالاسم المحدد من المجموعة. |
-| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(int) | إزالة خاصية في الفهرس المحدد. |
+| [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(*string*) | إرجاع الفهرس الصفري للخاصية المحددة في المجموعة. |
+| [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(*string*) | إزالة خاصية بالاسم المحدد من المجموعة. |
+| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(*int*) | إزالة خاصية في الفهرس المحدد. |
 
-### ملاحظات
+## ملاحظات
 
 العناصر هي[`CustomXmlProperty`](../customxmlproperty/) أشياء.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
 
@@ -98,5 +100,3 @@ Assert.AreEqual(0, properties.Count);
 * class [CustomXmlProperty](../customxmlproperty/)
 * مساحة الاسم [Aspose.Words.Markup](../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../)
-
-

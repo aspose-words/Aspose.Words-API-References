@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUpdatingProgressCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.IFieldUpdatingProgressCallback интерфейс. Внедрите этот интерфейс если хотите отслеживать ход обновления полей.
+title: IFieldUpdatingProgressCallback Interface
+linktitle: IFieldUpdatingProgressCallback
+articleTitle: IFieldUpdatingProgressCallback
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.IFieldUpdatingProgressCallback интерфейс. Внедрите этот интерфейс если хотите отслеживать ход обновления полей на С#.
 type: docs
 weight: 2730
 url: /ru/net/aspose.words.fields/ifieldupdatingprogresscallback/
@@ -18,9 +20,9 @@ public interface IFieldUpdatingProgressCallback
 
 | Имя | Описание |
 | --- | --- |
-| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(FieldUpdatingProgressArgs) | Определенный пользователем метод, который вызывается при изменении хода обновления. |
+| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(*[FieldUpdatingProgressArgs](../fieldupdatingprogressargs/)*) | Определенный пользователем метод, который вызывается при изменении хода обновления. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать методы обратного вызова во время обновления поля.
 
@@ -89,5 +91,3 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

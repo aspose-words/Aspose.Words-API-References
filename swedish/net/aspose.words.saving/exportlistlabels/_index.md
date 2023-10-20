@@ -1,7 +1,9 @@
 ---
-title: Enum ExportListLabels
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.ExportListLabels uppräkning. Anger hur listetiketter exporteras till HTML MHTML och EPUB.
+title: ExportListLabels Enum
+linktitle: ExportListLabels
+articleTitle: ExportListLabels
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.ExportListLabels uppräkning. Anger hur listetiketter exporteras till HTML MHTML och EPUB i C#.
 type: docs
 weight: 5010
 url: /sv/net/aspose.words.saving/exportlistlabels/
@@ -22,7 +24,7 @@ public enum ExportListLabels
 | AsInlineText | `1` | Matar ut alla listetiketter som inline text. |
 | ByHtmlTags | `2` | Matar ut alla listetiketter som inbyggda HTML-element. |
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar listexport till HTML.
 
@@ -110,5 +112,3 @@ switch (exportListLabels)
 * property [ExportListLabels](../htmlsaveoptions/exportlistlabels/)
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

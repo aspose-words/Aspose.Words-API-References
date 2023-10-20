@@ -1,12 +1,14 @@
 ---
 title: OleFormat.Save
-second_title: Справочник по API Aspose.Words для .NET
-description: OleFormat метод. Сохраняет данные внедренного объекта в указанный поток.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words для .NET
+description: OleFormat Save метод. Сохраняет данные внедренного объекта в указанный поток на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.drawing/oleformat/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Сохраняет данные внедренного объекта в указанный поток.
 
@@ -24,11 +26,11 @@ public void Save(Stream stream)
 | --- | --- |
 | InvalidOperationException | Выдает ошибку, если вы пытаетесь сохранить связанный объект. |
 
-### Примечания
+## Примечания
 
 Ответственность за удаление потока лежит на вызывающей стороне.
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь внедренные объекты OLE в файлы.
 
@@ -63,12 +65,12 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Смотрите также
 
 * class [OleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../oleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Сохраняет данные внедренного объекта в файл с указанным именем.
 
@@ -86,7 +88,7 @@ public void Save(string fileName)
 | --- | --- |
 | InvalidOperationException | Выдает ошибку, если вы пытаетесь сохранить связанный объект. |
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь внедренные объекты OLE в файлы.
 
@@ -121,7 +123,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Смотрите также
 
 * class [OleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../oleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

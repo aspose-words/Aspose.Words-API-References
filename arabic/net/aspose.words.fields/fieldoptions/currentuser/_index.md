@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.CurrentUser
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على معلومات المستخدم الحالية أو تعيينها.
+linktitle: CurrentUser
+articleTitle: CurrentUser
+second_title: Aspose.Words لـ .NET
+description: FieldOptions CurrentUser ملكية. الحصول على معلومات المستخدم الحالية أو تعيينها في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldoptions/currentuser/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldoptions/currentuser/
 public UserInformation CurrentUser { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين تفاصيل المستخدم وعرضها باستخدام الحقول.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 
 * class [UserInformation](../../userinformation/)
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

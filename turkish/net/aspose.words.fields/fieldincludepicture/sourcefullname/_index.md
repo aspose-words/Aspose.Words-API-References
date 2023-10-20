@@ -1,7 +1,9 @@
 ---
 title: FieldIncludePicture.SourceFullName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIncludePicture mülk. Bir IRI kullanarak resmin konumunu alır veya ayarlar.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words for .NET
+description: FieldIncludePicture SourceFullName mülk. Bir IRI kullanarak resmin konumunu alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fieldincludepicture/sourcefullname/
@@ -14,7 +16,7 @@ Bir IRI kullanarak resmin konumunu alır veya ayarlar.
 public string SourceFullName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 IMPORT ve INCLUDEPICTURE alanlarını kullanarak görüntülerin nasıl ekleneceğini gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Ayrıca bakınız
 
 * class [FieldIncludePicture](../)
-* ad alanı [Aspose.Words.Fields](../../fieldincludepicture/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

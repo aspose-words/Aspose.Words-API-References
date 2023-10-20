@@ -1,7 +1,9 @@
 ---
-title: Enum EmbeddedFontStyle
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.EmbeddedFontStyle enumeración. Especifica el estilo de una fuente incrustada dentro de unFontInfo objeto.
+title: EmbeddedFontStyle Enum
+linktitle: EmbeddedFontStyle
+articleTitle: EmbeddedFontStyle
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fonts.EmbeddedFontStyle enumeración. Especifica el estilo de una fuente incrustada dentro de unFontInfo objeto en C#.
 type: docs
 weight: 2860
 url: /es/net/aspose.words.fonts/embeddedfontstyle/
@@ -24,7 +26,7 @@ public enum EmbeddedFontStyle
 | Italic | `2` | Especifica la fuente incrustada en cursiva. |
 | BoldItalic | `3` | Especifica la fuente incrustada negrita-cursiva. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer una fuente incrustada de un documento y guardarla en el sistema de archivos local.
 
@@ -52,5 +54,3 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../)
-
-

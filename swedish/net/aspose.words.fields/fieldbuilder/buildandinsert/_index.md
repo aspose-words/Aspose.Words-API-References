@@ -1,12 +1,14 @@
 ---
 title: FieldBuilder.BuildAndInsert
-second_title: Aspose.Words för .NET API Referens
-description: FieldBuilder metod. Bygger och infogar ett fält i dokumentet före den angivna inlinenoden.
+linktitle: BuildAndInsert
+articleTitle: BuildAndInsert
+second_title: Aspose.Words för .NET
+description: FieldBuilder BuildAndInsert metod. Bygger och infogar ett fält i dokumentet före den angivna inlinenoden i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldbuilder/buildandinsert/
 ---
-## BuildAndInsert(Inline) {#buildandinsert}
+## BuildAndInsert(*[Inline](../../../aspose.words/inline/)*) {#buildandinsert}
 
 Bygger och infogar ett fält i dokumentet före den angivna inline-noden.
 
@@ -18,7 +20,7 @@ public Field BuildAndInsert(Inline refNode)
 
 A[`Field`](../../field/) objekt som representerar det infogade fältet.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar och infogar ett fält med hjälp av en fältbyggare.
 
@@ -48,12 +50,12 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 * class [Field](../../field/)
 * class [Inline](../../../aspose.words/inline/)
 * class [FieldBuilder](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbuilder/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## BuildAndInsert(Paragraph) {#buildandinsert_1}
+## BuildAndInsert(*[Paragraph](../../../aspose.words/paragraph/)*) {#buildandinsert_1}
 
 Bygger och infogar ett fält i dokumentet till slutet av det angivna stycket.
 
@@ -65,7 +67,7 @@ public Field BuildAndInsert(Paragraph refNode)
 
 A[`Field`](../../field/) objekt som representerar det infogade fältet.
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
 
@@ -150,7 +152,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 * class [Field](../../field/)
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [FieldBuilder](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbuilder/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

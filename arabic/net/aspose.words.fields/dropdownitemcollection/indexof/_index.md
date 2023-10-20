@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.IndexOf
-second_title: Aspose.Words لمراجع .NET API
-description: DropDownItemCollection طريقة. إرجاع الفهرس الصفري للقيمة المحددة في المجموعة.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words لـ .NET
+description: DropDownItemCollection IndexOf طريقة. إرجاع الفهرس الصفري للقيمة المحددة في المجموعة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/dropdownitemcollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string value)
 
 المؤشر القائم على الصفر. قيمة سلبية إذا لم يتم العثور عليها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل مربع التحرير والسرد، وتحرير العناصر الموجودة في مجموعة العناصر الخاصة به.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### أنظر أيضا
 
 * class [DropDownItemCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../dropdownitemcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

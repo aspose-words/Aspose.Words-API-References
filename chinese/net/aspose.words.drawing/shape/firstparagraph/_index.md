@@ -1,7 +1,9 @@
 ---
 title: Shape.FirstParagraph
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 获取形状中的第一段
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape FirstParagraph 财产. 获取形状中的第一段 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing/shape/firstparagraph/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shape/firstparagraph/
 public Paragraph FirstParagraph { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建文本框并设置其格式。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: AxisBound.ValueAsDate
-second_title: Référence de l'API Aspose.Words pour .NET
-description: AxisBound propriété. Renvoie la valeur de la limite de laxe représentée par datetime.
+linktitle: ValueAsDate
+articleTitle: ValueAsDate
+second_title: Aspose.Words pour .NET
+description: AxisBound ValueAsDate propriété. Renvoie la valeur de la limite de laxe représentée par datetime en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.drawing.charts/axisbound/valueasdate/
@@ -14,7 +16,7 @@ Renvoie la valeur de la limite de l'axe représentée par datetime.
 public DateTime ValueAsDate { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir les limites des axes personnalisés.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Voir également
 
 * class [AxisBound](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../axisbound/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

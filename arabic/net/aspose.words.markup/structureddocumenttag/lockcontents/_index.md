@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.LockContents
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. عند الضبط علىحقيقي  ستمنع هذه الخاصية المستخدم من تحرير محتويات هذا المعاملة الخاصة والتفضيلية .
+linktitle: LockContents
+articleTitle: LockContents
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag LockContents ملكية. عند الضبط علىحقيقي  ستمنع هذه الخاصية المستخدم من تحرير محتويات هذاالمعاملة الخاصة والتفضيلية  في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words.markup/structureddocumenttag/lockcontents/
 ---
 ## StructuredDocumentTag.LockContents property
 
-عند الضبط على`حقيقي` ، ستمنع هذه الخاصية المستخدم من تحرير محتويات هذا **المعاملة الخاصة والتفضيلية** .
+عند الضبط على`حقيقي` ، ستمنع هذه الخاصية المستخدم من تحرير محتويات هذا**المعاملة الخاصة والتفضيلية** .
 
 ```csharp
 public bool LockContents { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق قيود التحرير على علامات المستندات المنظمة.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Lock.docx");
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

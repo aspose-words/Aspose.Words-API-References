@@ -1,7 +1,9 @@
 ---
 title: Table.Title
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. Obtiene o establece el título de esta tabla. Proporciona una representación de texto alternativa de la información contenida en la tabla.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words para .NET
+description: Table Title propiedad. Obtiene o establece el título de esta tabla. Proporciona una representación de texto alternativa de la información contenida en la tabla en C#.
 type: docs
 weight: 320
 url: /es/net/aspose.words.tables/table/title/
@@ -14,13 +16,13 @@ Obtiene o establece el título de esta tabla. Proporciona una representación de
 public string Title { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es una cadena vacía.
 
 Esta propiedad es significativa para documentos DOCX compatibles con ISO/IEC 29500 ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). Cuando se guarda en formatos anteriores a ISO/IEC 29500, la propiedad se ignora.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una tabla anidada sin utilizar un generador de documentos.
 
@@ -76,7 +78,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 ### Ver también
 
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

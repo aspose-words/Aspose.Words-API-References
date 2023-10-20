@@ -1,7 +1,9 @@
 ---
 title: MailMerge.CleanupOptions
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 财产. 获取或设置一组标志指定在邮件合并期间应删除哪些项目
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge CleanupOptions 财产. 获取或设置一组标志指定在邮件合并期间应删除哪些项目 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
 public MailMergeCleanupOptions CleanupOptions { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何删除邮件合并可能从合并输出文档中创建的空段落。
 
@@ -87,7 +89,5 @@ else
 
 * enum [MailMergeCleanupOptions](../../mailmergecleanupoptions/)
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

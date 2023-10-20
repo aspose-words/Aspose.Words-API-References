@@ -1,7 +1,9 @@
 ---
-title: Enum SdtCalendarType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Markup.SdtCalendarType 枚举. 指定可用于指定的可能的日历类型CalendarType 在 Office Open XML 文档中
+title: SdtCalendarType Enum
+linktitle: SdtCalendarType
+articleTitle: SdtCalendarType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Markup.SdtCalendarType 枚举. 指定可用于指定的可能的日历类型CalendarType 在 Office Open XML 文档中 在 C#.
 type: docs
 weight: 4000
 url: /zh/net/aspose.words.markup/sdtcalendartype/
@@ -38,5 +40,3 @@ public enum SdtCalendarType
 
 * 命名空间 [Aspose.Words.Markup](../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../)
-
-

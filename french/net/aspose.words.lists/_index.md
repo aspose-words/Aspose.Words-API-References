@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Lists
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Le Aspose.Words.Listes Lespace de noms contient des classes pour working avec des listes à puces et numérotées définies dans un document.
+linktitle: Aspose.Words.Lists
+articleTitle: Aspose.Words.Lists
+second_title: Aspose.Words pour .NET
+description: LeAspose.Words.Listes Lespace de noms contient des classes pour working avec des listes à puces et numérotées définies dans un document en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.lists/
 ---
-Le **Aspose.Words.Listes** L'espace de noms contient des classes pour working avec des listes à puces et numérotées définies dans un document.
+Le**Aspose.Words.Listes** L'espace de noms contient des classes pour working avec des listes à puces et numérotées définies dans un document.
 
 ## Des classes
 
@@ -25,5 +27,3 @@ Le **Aspose.Words.Listes** L'espace de noms contient des classes pour working av
 | [ListLevelAlignment](./listlevelalignment/) | Spécifie l'alignement du numéro de liste ou de la puce. |
 | [ListTemplate](./listtemplate/) | Spécifie l'un des formats de liste prédéfinis disponibles dans Microsoft Word. |
 | [ListTrailingCharacter](./listtrailingcharacter/) | Spécifie le caractère qui sépare l'étiquette de la liste du texte du paragraphe. |
-
-

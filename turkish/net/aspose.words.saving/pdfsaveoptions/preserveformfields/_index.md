@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PreserveFormFields
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Microsoft Word form alanlarının PDFdeki form alanları olarak mı korunacağını yoksa metne mi dönüştürüleceğini belirtir. VarsayılanYANLIŞ .
+linktitle: PreserveFormFields
+articleTitle: PreserveFormFields
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions PreserveFormFields mülk. Microsoft Word form alanlarının PDFdeki form alanları olarak mı korunacağını yoksa metne mi dönüştürüleceğini belirtir. VarsayılanYANLIŞ  C#'da.
 type: docs
 weight: 270
 url: /tr/net/aspose.words.saving/pdfsaveoptions/preserveformfields/
@@ -14,7 +16,7 @@ Microsoft Word form alanlarının PDF'deki form alanları olarak mı korunacağ�
 public bool PreserveFormFields { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Microsoft Word form alanları metin girişi, açılır menü ve onay kutusu kontrollerini içerir.
 
@@ -28,7 +30,7 @@ Düzenlenebilir formlar PDF/A uyumluluğu nedeniyle yasaktır.`YANLIŞ` PDF/A'ya
 
 PDF/UA'ya kaydederken form alanları desteklenmez.`YANLIŞ` değer otomatik olarak kullanılacaktır.
 
-### Örnekler
+## Örnekler
 
 Kaydet yöntemini ve PdfSaveOptions sınıfını kullanarak bir belgenin PDF biçiminde nasıl kaydedileceğini gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PreserveFormFields.pdf", pdfOptions);
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

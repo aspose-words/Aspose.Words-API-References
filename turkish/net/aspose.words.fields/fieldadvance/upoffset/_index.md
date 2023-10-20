@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.UpOffset
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAdvance mülk. Alanı takip eden metnin yukarı taşınması gereken nokta sayısını alır veya ayarlar.
+linktitle: UpOffset
+articleTitle: UpOffset
+second_title: Aspose.Words for .NET
+description: FieldAdvance UpOffset mülk. Alanı takip eden metnin yukarı taşınması gereken nokta sayısını alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fieldadvance/upoffset/
@@ -14,7 +16,7 @@ Alanı takip eden metnin yukarı taşınması gereken nokta sayısını alır ve
 public string UpOffset { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 ADVANCE alanının nasıl ekleneceğini ve özelliklerinin nasıl düzenleneceğini gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### Ayrıca bakınız
 
 * class [FieldAdvance](../)
-* ad alanı [Aspose.Words.Fields](../../fieldadvance/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

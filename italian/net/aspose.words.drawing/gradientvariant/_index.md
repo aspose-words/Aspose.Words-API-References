@@ -1,7 +1,9 @@
 ---
-title: Enum GradientVariant
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.GradientVariant enum. Specifica la variante per un riempimento sfumato.
+title: GradientVariant Enum
+linktitle: GradientVariant
+articleTitle: GradientVariant
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.GradientVariant enum. Specifica la variante per un riempimento sfumato in C#.
 type: docs
 weight: 1010
 url: /it/net/aspose.words.drawing/gradientvariant/
@@ -24,11 +26,11 @@ public enum GradientVariant
 | Variant3 | `3` | Variante sfumatura 3. |
 | Variant4 | `4` | Variante sfumatura 4. |
 
-### Osservazioni
+## Osservazioni
 
 Corrisponde alle quattro varianti nella scheda Sfumatura nella finestra di dialogo Effetti di riempimento in Word.
 
-### Esempi
+## Esempi
 
 Mostra come riempire una forma con sfumature.
 
@@ -70,5 +72,3 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

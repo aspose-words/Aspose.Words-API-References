@@ -1,7 +1,9 @@
 ---
 title: CellFormat.FitText
-second_title: Aspose.Words for .NET API 参考
-description: CellFormat 财产. 如果真的 适合单元格中的文本将每个段落压缩到单元格的宽度
+linktitle: FitText
+articleTitle: FitText
+second_title: 用于 .NET 的 Aspose.Words
+description: CellFormat FitText 财产. 如果真的 适合单元格中的文本将每个段落压缩到单元格的宽度 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.tables/cellformat/fittext/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/cellformat/fittext/
 public bool FitText { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何构建具有自定义边框的表格。
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### 也可以看看
 
 * class [CellFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../cellformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

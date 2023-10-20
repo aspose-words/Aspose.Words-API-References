@@ -1,7 +1,9 @@
 ---
 title: Font.NameOther
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Renvoie ou définit la police utilisée pour les caractères avec des codes de caractères compris entre 128 et 255.
+linktitle: NameOther
+articleTitle: NameOther
+second_title: Aspose.Words pour .NET
+description: Font NameOther propriété. Renvoie ou définit la police utilisée pour les caractères avec des codes de caractères compris entre 128 et 255 en C#.
 type: docs
 weight: 270
 url: /fr/net/aspose.words/font/nameother/
@@ -14,7 +16,7 @@ Renvoie ou définit la police utilisée pour les caractères avec des codes de c
 public string NameOther { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment Microsoft Word peut combiner deux polices différentes en une seule fois.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

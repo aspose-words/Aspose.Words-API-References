@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.ForceCopyStyles
-second_title: Aspose.Words för .NET API Referens
-description: ImportFormatOptions fast egendom. Hämtar eller ställer in ett booleskt värde som anger antingen att kopiera motstridiga stilar inKeepSourceFormatting mode. Standardvärdet ärfalsk .
+linktitle: ForceCopyStyles
+articleTitle: ForceCopyStyles
+second_title: Aspose.Words för .NET
+description: ImportFormatOptions ForceCopyStyles fast egendom. Hämtar eller ställer in ett booleskt värde som anger antingen att kopiera motstridiga stilar inKeepSourceFormatting mode. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/importformatoptions/forcecopystyles/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett booleskt värde som anger antingen att kopiera mot
 public bool ForceCopyStyles { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Som standard, om en matchande stil redan finns i ett måldokument, utökas källformatet formatting till direkta nodattribut och stilen för denna nod återställs till en standard.
 
@@ -22,7 +24,7 @@ När detta alternativ är inställt på`Sann`, kommer källformatet att tvångsk
 
 Observera, i det här fallet är det inte garanterat att formateringen av den importerade noden i destination document kommer att bevaras.
 
-### Exempel
+## Exempel
 
 Visar hur man kopierar källstilar med unika namn med tvång.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(paras[2].ParagraphFormat.Style.Name, "MyStyle3");
 ### Se även
 
 * class [ImportFormatOptions](../)
-* namnutrymme [Aspose.Words](../../importformatoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

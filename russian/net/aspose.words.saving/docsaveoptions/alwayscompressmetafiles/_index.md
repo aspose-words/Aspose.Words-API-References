@@ -1,7 +1,9 @@
 ---
 title: DocSaveOptions.AlwaysCompressMetafiles
-second_title: Справочник по API Aspose.Words для .NET
-description: DocSaveOptions свойство. КогдаЛОЖЬ  небольшие метафайлы не сжимаются из соображений производительности. Значение по умолчаниюистинный  все метафайлы сжимаются независимо от их размера.
+linktitle: AlwaysCompressMetafiles
+articleTitle: AlwaysCompressMetafiles
+second_title: Aspose.Words для .NET
+description: DocSaveOptions AlwaysCompressMetafiles свойство. КогдаЛОЖЬ  небольшие метафайлы не сжимаются из соображений производительности. Значение по умолчаниюистинный  все метафайлы сжимаются независимо от их размера на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
 public bool AlwaysCompressMetafiles { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить сжатие метафайлов в документе при сохранении.
 
@@ -39,7 +41,5 @@ else
 ### Смотрите также
 
 * class [DocSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../docsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Warning
-second_title: Справочник по API Aspose.Words для .NET
-description: WarningInfoCollection метод. РеализуетIWarningCallback интерфейс. Добавляет предупреждение в эту коллекцию.
+linktitle: Warning
+articleTitle: Warning
+second_title: Aspose.Words для .NET
+description: WarningInfoCollection Warning метод. РеализуетIWarningCallback интерфейс. Добавляет предупреждение в эту коллекцию на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/warninginfocollection/warning/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/warninginfocollection/warning/
 public void Warning(WarningInfo info)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* пространство имен [Aspose.Words](../../warninginfocollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

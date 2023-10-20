@@ -1,7 +1,9 @@
 ---
-title: Class VbaReference
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Vba.VbaReference sınıf. Otomasyon türü kitaplığına veya VBA projesine bir başvuru uygular.
+title: VbaReference Class
+linktitle: VbaReference
+articleTitle: VbaReference
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Vba.VbaReference sınıf. Otomasyon türü kitaplığına veya VBA projesine bir başvuru uygular C#'da.
 type: docs
 weight: 6590
 url: /tr/net/aspose.words.vba/vbareference/
@@ -23,7 +25,7 @@ public abstract class VbaReference
 | abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | Otomasyon türü kitaplığının tanımlayıcısını içeren bir dize değeri alır. |
 | abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Alır[`VbaReferenceType`](../vbareferencetype/) referansın türünü belirten nesne`VbaReference` nesne temsil eder. |
 
-### Örnekler
+## Örnekler
 
 VBA referans koleksiyonundan bir öğenin nasıl alınacağını/kaldırılacağını gösterir.
 
@@ -98,5 +100,3 @@ private static string GetLibIdProjectPath(string libIdProject)
 
 * ad alanı [Aspose.Words.Vba](../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../)
-
-

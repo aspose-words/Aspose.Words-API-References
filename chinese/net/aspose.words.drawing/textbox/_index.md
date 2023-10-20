@@ -1,7 +1,9 @@
 ---
-title: Class TextBox
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.TextBox 班级. 定义指定文本在形状内如何显示的属性
+title: TextBox Class
+linktitle: TextBox
+articleTitle: TextBox
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.TextBox 班级. 定义指定文本在形状内如何显示的属性 在 C#.
 type: docs
 weight: 1320
 url: /zh/net/aspose.words.drawing/textbox/
@@ -38,13 +40,13 @@ public class TextBox
 | 姓名 | 描述 |
 | --- | --- |
 | [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | 断开下一个链接`TextBox`. |
-| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(TextBox) | 确定这是否`TextBox`可以链接到目标`TextBox`. |
+| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(*TextBox*) | 确定这是否`TextBox`可以链接到目标`TextBox`. |
 
-### 评论
+## 评论
 
 使用[`TextBox`](../shape/textbox/)属性来访问形状的文本属性。 您不创建`TextBox`直接上课。
 
-### 例子
+## 例子
 
 演示如何设置文本框的内部边距。
 
@@ -110,5 +112,3 @@ doc.Save(ArtifactsDir + "Shape.TextBoxFitShapeToText.docx");
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

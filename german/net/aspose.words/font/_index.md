@@ -1,7 +1,9 @@
 ---
-title: Class Font
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Font klas. Enthält Schriftartattribute Schriftartname Schriftgröße Farbe usw. für ein Objekt.
+title: Font Class
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Font klas. Enthält Schriftartattribute Schriftartname Schriftgröße Farbe usw. für ein Objekt in C#.
 type: docs
 weight: 2830
 url: /de/net/aspose.words/font/
@@ -80,13 +82,13 @@ public class Font
 | Name | Beschreibung |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/font/clearformatting/)() | Setzt die Standardschriftartformatierung zurück. |
-| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(TextDmlEffect) | Überprüft, ob ein bestimmter DrawingML-Texteffekt angewendet wird. |
+| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(*[TextDmlEffect](../textdmleffect/)*) | Überprüft, ob ein bestimmter DrawingML-Texteffekt angewendet wird. |
 
-### Bemerkungen
+## Bemerkungen
 
 Sie erstellen keine Instanzen davon`Font`Klasse direkt. Sie verwenden einfach `Font` um auf die Schriftarteigenschaften der verschiedenen Objekte zuzugreifen, z[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Textzeile mithilfe ihrer Schriftarteigenschaft formatiert wird.
 
@@ -149,5 +151,3 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

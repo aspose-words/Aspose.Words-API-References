@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SignatureValue
-second_title: Aspose.Words for .NET API 参考
-description: DigitalSignature 财产. 获取表示签名值的字节数组
+linktitle: SignatureValue
+articleTitle: SignatureValue
+second_title: 用于 .NET 的 Aspose.Words
+description: DigitalSignature SignatureValue 财产. 获取表示签名值的字节数组 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
 public byte[] SignatureValue { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何从数字签名文档中获取数字签名值。
 
@@ -33,7 +35,5 @@ foreach (DigitalSignature digitalSignature in doc.DigitalSignatures)
 ### 也可以看看
 
 * class [DigitalSignature](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

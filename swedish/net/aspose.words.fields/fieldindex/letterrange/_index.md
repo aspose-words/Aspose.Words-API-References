@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.LetterRange
-second_title: Aspose.Words för .NET API Referens
-description: FieldIndex fast egendom. Hämtar eller ställer in ett bokstäverintervall som begränsar indexet.
+linktitle: LetterRange
+articleTitle: LetterRange
+second_title: Aspose.Words för .NET
+description: FieldIndex LetterRange fast egendom. Hämtar eller ställer in ett bokstäverintervall som begränsar indexet i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.fields/fieldindex/letterrange/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett bokstäverintervall som begränsar indexet.
 public string LetterRange { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller i ett INDEX-fält med poster med XE-fält, och även ändrar dess utseende.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Se även
 
 * class [FieldIndex](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldindex/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

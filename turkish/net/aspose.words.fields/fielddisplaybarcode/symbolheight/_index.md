@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.SymbolHeight
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDisplayBarcode mülk. Sembolün yüksekliğini alır veya ayarlar. Birimler TWIPS 1/1440 inç cinsindendir.
+linktitle: SymbolHeight
+articleTitle: SymbolHeight
+second_title: Aspose.Words for .NET
+description: FieldDisplayBarcode SymbolHeight mülk. Sembolün yüksekliğini alır veya ayarlar. Birimler TWIPS 1/1440 inç cinsindendir C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.fields/fielddisplaybarcode/symbolheight/
@@ -14,7 +16,7 @@ Sembolün yüksekliğini alır veya ayarlar. Birimler TWIPS (1/1440 inç) cinsin
 public string SymbolHeight { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 DISPLAYBARCODE alanının nasıl ekleneceğini ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDisplayBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

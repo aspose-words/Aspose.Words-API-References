@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Category
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 获取或设置文档的类别
+linktitle: Category
+articleTitle: Category
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties Category 财产. 获取或设置文档的类别 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.properties/builtindocumentproperties/category/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/category/
 public string Category { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用“描述”类别中的内置文档属性。
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

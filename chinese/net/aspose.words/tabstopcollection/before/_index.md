@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Before
-second_title: Aspose.Words for .NET API 参考
-description: TabStopCollection 方法. 获取指定位置左侧的第一个制表位
+linktitle: Before
+articleTitle: Before
+second_title: 用于 .NET 的 Aspose.Words
+description: TabStopCollection Before 方法. 获取指定位置左侧的第一个制表位 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/tabstopcollection/before/
@@ -22,11 +24,11 @@ public TabStop Before(double position)
 
 制表位对象或`无效的`如果没有找到合适的制表位。
 
-### 评论
+## 评论
 
 跳过制表位[`Alignment`](../../tabstop/alignment/)设置Bar。
 
-### 例子
+## 例子
 
 展示如何使用文档的制表位集合。
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* 命名空间 [Aspose.Words](../../tabstopcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: InlineStory.IsMoveToRevision
-second_title: Справочник по API Aspose.Words для .NET
-description: InlineStory свойство. Возвращаетистинный если этот объект был перемещен вставлен в Microsoft Word при включенном отслеживании изменений.
+linktitle: IsMoveToRevision
+articleTitle: IsMoveToRevision
+second_title: Aspose.Words для .NET
+description: InlineStory IsMoveToRevision свойство. Возвращаетистинный если этот объект был перемещен вставлен в Microsoft Word при включенном отслеживании изменений на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/inlinestory/ismovetorevision/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/inlinestory/ismovetorevision/
 public bool IsMoveToRevision { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как просмотреть свойства узлов InlineStory, связанные с ревизией.
 
@@ -62,7 +64,5 @@ Assert.IsTrue(footnotes[3].IsDeleteRevision);
 ### Смотрите также
 
 * class [InlineStory](../)
-* пространство имен [Aspose.Words](../../inlinestory/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

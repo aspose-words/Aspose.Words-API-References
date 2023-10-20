@@ -1,7 +1,9 @@
 ---
-title: Class TextPath
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.TextPath klass. Definierar texten och formateringen av textsökvägen för ett WordArtobjekt.
+title: TextPath Class
+linktitle: TextPath
+articleTitle: TextPath
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.TextPath klass. Definierar texten och formateringen av textsökvägen för ett WordArtobjekt i C#.
 type: docs
 weight: 1350
 url: /sv/net/aspose.words.drawing/textpath/
@@ -41,11 +43,11 @@ public class TextPath
 | [Underline](../../aspose.words.drawing/textpath/underline/) { get; set; } | Sant om teckensnittet är understruket. |
 | [XScale](../../aspose.words.drawing/textpath/xscale/) { get; set; } | Bestämmer om en rak textbana kommer att användas istället för formbanan. |
 
-### Anmärkningar
+## Anmärkningar
 
 Använd[`TextPath`](../shape/textpath/) egenskap för att komma åt WordArt-egenskaper för en shape. Du skapar inte instanser av`TextPath` klass direkt.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med WordArt.
 
@@ -149,5 +151,3 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: ComHelper.ComHelper
-second_title: Справочник по API Aspose.Words для .NET
-description: ComHelper строитель. Инициализирует новый экземпляр этого класса.
+title: ComHelper
+linktitle: ComHelper
+articleTitle: ComHelper
+second_title: Aspose.Words для .NET
+description: ComHelper строитель. Инициализирует новый экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/comhelper/comhelper/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/comhelper/comhelper/
 public ComHelper()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как открывать документы с помощью класса ComHelper.
 
@@ -39,7 +41,5 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 ### Смотрите также
 
 * class [ComHelper](../)
-* пространство имен [Aspose.Words](../../comhelper/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

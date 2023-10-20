@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.DisplayText
-second_title: Aspose.Words per .NET API Reference
-description: FieldMergeBarcode proprietà. Ottiene o imposta se visualizzare i dati del codice a barre testo insieme allimmagine.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words per .NET
+description: FieldMergeBarcode DisplayText proprietà. Ottiene o imposta se visualizzare i dati del codice a barre testo insieme allimmagine in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fields/fieldmergebarcode/displaytext/
@@ -14,7 +16,7 @@ Ottiene o imposta se visualizzare i dati del codice a barre (testo) insieme all'
 public bool DisplayText { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione sui codici a barre EAN13.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ### Guarda anche
 
 * class [FieldMergeBarcode](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldmergebarcode/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

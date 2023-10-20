@@ -1,7 +1,9 @@
 ---
-title: Class PdfLoadOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.PdfLoadOptions فصل. يسمح بتحديد خيارات إضافية عند تحميل مستند Pdf في ملفDocument الكائن.
+title: PdfLoadOptions Class
+linktitle: PdfLoadOptions
+articleTitle: PdfLoadOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.PdfLoadOptions فصل. يسمح بتحديد خيارات إضافية عند تحميل مستند Pdf في ملفDocument الكائن في C#.
 type: docs
 weight: 3670
 url: /ar/net/aspose.words.loading/pdfloadoptions/
@@ -50,12 +52,10 @@ public class PdfLoadOptions : LoadOptions
 
 | اسم | وصف |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
 ### أنظر أيضا
 
 * class [LoadOptions](../loadoptions/)
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.TopRelative
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 获取或设置表示形状相对顶部位置以百分比表示的值
+linktitle: TopRelative
+articleTitle: TopRelative
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase TopRelative 财产. 获取或设置表示形状相对顶部位置以百分比表示的值 在 C#.
 type: docs
 weight: 550
 url: /zh/net/aspose.words.drawing/shapebase/toprelative/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shapebase/toprelative/
 public float TopRelative { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置相对大小和位置。
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

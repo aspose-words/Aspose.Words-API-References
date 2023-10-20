@@ -1,7 +1,9 @@
 ---
 title: FieldToc.UpdatePageNumbers
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToc methode. Aktualisiert die Seitenzahlen für Elemente in diesem Inhaltsverzeichnis.
+linktitle: UpdatePageNumbers
+articleTitle: UpdatePageNumbers
+second_title: Aspose.Words für .NET
+description: FieldToc UpdatePageNumbers methode. Aktualisiert die Seitenzahlen für Elemente in diesem Inhaltsverzeichnis in C#.
 type: docs
 weight: 180
 url: /de/net/aspose.words.fields/fieldtoc/updatepagenumbers/
@@ -18,7 +20,7 @@ public bool UpdatePageNumbers()
 
 `WAHR` wenn die Operation erfolgreich ist. Wenn eines der zugehörigen Inhaltsverzeichnis-Lesezeichen entfernt wurde,`FALSCH` wird zurückgegeben.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Inhaltsverzeichnis einfügt und es mit Einträgen füllt, die auf Überschriftenstilen basieren.
 
@@ -103,7 +105,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Siehe auch
 
 * class [FieldToc](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

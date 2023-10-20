@@ -1,7 +1,9 @@
 ---
 title: Footnote.Accept
-second_title: Aspose.Words for .NET API 参考
-description: Footnote 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: Footnote Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.notes/footnote/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../../aspose.words/documentvisitor/)在访问所有节点之前停止操作。
 
-### 评论
+## 评论
 
 枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../../aspose.words/documentvisitor/)。
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 调用 DocumentVisitor.VisitFootnoteStart，然后对 footnote 的所有子节点调用 Accept，最后调用 DocumentVisitor.VisitFootnoteEnd。
 
-### 例子
+## 例子
 
 演示如何打印文档中每个脚注的节点结构。
 
@@ -123,7 +125,5 @@ public class FootnoteStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Footnote](../)
-* 命名空间 [Aspose.Words.Notes](../../footnote/)
+* 命名空间 [Aspose.Words.Notes](../../../aspose.words.notes/)
 * 部件 [Aspose.Words](../../../)
-
-

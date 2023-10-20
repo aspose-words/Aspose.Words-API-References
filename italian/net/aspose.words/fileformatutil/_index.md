@@ -1,7 +1,9 @@
 ---
-title: Class FileFormatUtil
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.FileFormatUtil classe. Fornisce metodi di utilità per lavorare con i formati di file come il rilevamento del formato di file o la conversione delle estensioni di file in/da enumerazioni di formati di file.
+title: FileFormatUtil Class
+linktitle: FileFormatUtil
+articleTitle: FileFormatUtil
+second_title: Aspose.Words per .NET
+description: Aspose.Words.FileFormatUtil classe. Fornisce metodi di utilità per lavorare con i formati di file come il rilevamento del formato di file o la conversione delle estensioni di file in/da enumerazioni di formati di file in C#.
 type: docs
 weight: 2820
 url: /it/net/aspose.words/fileformatutil/
@@ -20,18 +22,18 @@ public static class FileFormatUtil
 
 | Nome | Descrizione |
 | --- | --- |
-| static [ContentTypeToLoadFormat](../../aspose.words/fileformatutil/contenttypetoloadformat/)(string) | Converte il tipo di contenuto IANA in un valore enumerato del formato di caricamento. |
-| static [ContentTypeToSaveFormat](../../aspose.words/fileformatutil/contenttypetosaveformat/)(string) | Converte il tipo di contenuto IANA in un valore enumerato in formato di salvataggio. |
-| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat)(Stream) | Rileva e restituisce le informazioni su un formato di un documento archiviato in uno stream. |
-| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat_1)(string) | Rileva e restituisce le informazioni su un formato di un documento archiviato in un file su disco. |
-| static [ExtensionToSaveFormat](../../aspose.words/fileformatutil/extensiontosaveformat/)(string) | Converte l'estensione del nome file in un file[`SaveFormat`](../saveformat/) valore. |
-| static [ImageTypeToExtension](../../aspose.words/fileformatutil/imagetypetoextension/)(ImageType) | Converte un valore enumerato del tipo di immagine Aspose.Words in un'estensione di file. L'estensione restituita è una stringa minuscola con un punto iniziale. |
-| static [LoadFormatToExtension](../../aspose.words/fileformatutil/loadformattoextension/)(LoadFormat) | Converte un valore enumerato del formato di caricamento in un'estensione di file. L'estensione restituita è una stringa minuscola con un punto iniziale. |
-| static [LoadFormatToSaveFormat](../../aspose.words/fileformatutil/loadformattosaveformat/)(LoadFormat) | Converte a[`LoadFormat`](../loadformat/) valore ad a[`SaveFormat`](../saveformat/) valore se possibile. |
-| static [SaveFormatToExtension](../../aspose.words/fileformatutil/saveformattoextension/)(SaveFormat) | Converte un valore enumerato del formato di salvataggio in un'estensione di file. L'estensione restituita è una stringa minuscola con un punto iniziale. |
-| static [SaveFormatToLoadFormat](../../aspose.words/fileformatutil/saveformattoloadformat/)(SaveFormat) | Converte a[`SaveFormat`](../saveformat/) valore ad a[`LoadFormat`](../loadformat/) valore se possibile. |
+| static [ContentTypeToLoadFormat](../../aspose.words/fileformatutil/contenttypetoloadformat/)(*string*) | Converte il tipo di contenuto IANA in un valore enumerato del formato di caricamento. |
+| static [ContentTypeToSaveFormat](../../aspose.words/fileformatutil/contenttypetosaveformat/)(*string*) | Converte il tipo di contenuto IANA in un valore enumerato in formato di salvataggio. |
+| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat)(*Stream*) | Rileva e restituisce le informazioni su un formato di un documento archiviato in uno stream. |
+| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat_1)(*string*) | Rileva e restituisce le informazioni su un formato di un documento archiviato in un file su disco. |
+| static [ExtensionToSaveFormat](../../aspose.words/fileformatutil/extensiontosaveformat/)(*string*) | Converte l'estensione del nome file in un file[`SaveFormat`](../saveformat/) valore. |
+| static [ImageTypeToExtension](../../aspose.words/fileformatutil/imagetypetoextension/)(*[ImageType](../../aspose.words.drawing/imagetype/)*) | Converte un valore enumerato del tipo di immagine Aspose.Words in un'estensione di file. L'estensione restituita è una stringa minuscola con un punto iniziale. |
+| static [LoadFormatToExtension](../../aspose.words/fileformatutil/loadformattoextension/)(*[LoadFormat](../loadformat/)*) | Converte un valore enumerato del formato di caricamento in un'estensione di file. L'estensione restituita è una stringa minuscola con un punto iniziale. |
+| static [LoadFormatToSaveFormat](../../aspose.words/fileformatutil/loadformattosaveformat/)(*[LoadFormat](../loadformat/)*) | Converte a[`LoadFormat`](../loadformat/) valore ad a[`SaveFormat`](../saveformat/) valore se possibile. |
+| static [SaveFormatToExtension](../../aspose.words/fileformatutil/saveformattoextension/)(*[SaveFormat](../saveformat/)*) | Converte un valore enumerato del formato di salvataggio in un'estensione di file. L'estensione restituita è una stringa minuscola con un punto iniziale. |
+| static [SaveFormatToLoadFormat](../../aspose.words/fileformatutil/saveformattoloadformat/)(*[SaveFormat](../saveformat/)*) | Converte a[`SaveFormat`](../saveformat/) valore ad a[`LoadFormat`](../loadformat/) valore se possibile. |
 
-### Esempi
+## Esempi
 
 Mostra come rilevare la codifica in un file html.
 
@@ -49,5 +51,3 @@ Assert.AreEqual(1252, info.Encoding.CodePage);
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

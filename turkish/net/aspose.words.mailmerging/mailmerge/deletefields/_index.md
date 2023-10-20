@@ -1,7 +1,9 @@
 ---
 title: MailMerge.DeleteFields
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge yöntem. Adresmektup birleştirmeyle ilgili alanları belgeden kaldırır.
+linktitle: DeleteFields
+articleTitle: DeleteFields
+second_title: Aspose.Words for .NET
+description: MailMerge DeleteFields yöntem. Adresmektup birleştirmeyle ilgili alanları belgeden kaldırır C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.mailmerging/mailmerge/deletefields/
@@ -14,13 +16,13 @@ Adres-mektup birleştirmeyle ilgili alanları belgeden kaldırır.
 public void DeleteFields()
 ```
 
-### Notlar
+## Notlar
 
 Bu yöntem, MERGEFIELD ve NEXT alanlarını belgeden kaldırır.
 
 Adres-mektup birleştirme işleminiz belgedeki tüm alanları doldurmak için her zaman 'ye ihtiyaç duymuyorsa bu yöntem yararlı olabilir. Kalan adres-mektup birleştirme alanlarının tümünü kaldırmak için bu yöntemi kullanın.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm MERGEFIELD'lerin nasıl silineceğini gösterir.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Dear  ,\rGreetings!", doc.GetText().Trim());
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

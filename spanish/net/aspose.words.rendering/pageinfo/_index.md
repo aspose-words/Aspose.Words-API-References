@@ -1,7 +1,9 @@
 ---
-title: Class PageInfo
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Rendering.PageInfo clase. Representa información sobre una página de documento en particular.
+title: PageInfo Class
+linktitle: PageInfo
+articleTitle: PageInfo
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Rendering.PageInfo clase. Representa información sobre una página de documento en particular en C#.
 type: docs
 weight: 4570
 url: /es/net/aspose.words.rendering/pageinfo/
@@ -32,16 +34,16 @@ public class PageInfo
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | Obtiene elPaperSize objeto adecuado para imprimir la página representada por este`PageInfo` . |
-| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(float, float) | Calcula el tamaño de la página en píxeles para un factor de zoom y una resolución específicos. |
-| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | Calcula el tamaño de la página en píxeles para un factor de zoom y una resolución específicos. |
-| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | Obtiene elPaperSource objeto adecuado para imprimir la página representada por este`PageInfo` . |
+| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(*PaperSizeCollection*) | Obtiene elPaperSize objeto adecuado para imprimir la página representada por este`PageInfo` . |
+| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(*float, float*) | Calcula el tamaño de la página en píxeles para un factor de zoom y una resolución específicos. |
+| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(*float, float, float*) | Calcula el tamaño de la página en píxeles para un factor de zoom y una resolución específicos. |
+| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(*PaperSourceCollection, PaperSource*) | Obtiene elPaperSource objeto adecuado para imprimir la página representada por este`PageInfo` . |
 
-### Observaciones
+## Observaciones
 
 El ancho y alto de la página devueltos por este objeto representan el tamaño "final" de la página, por ejemplo, ya están girados a la orientación correcta.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir información sobre el tamaño y la orientación de cada página de un documento de Word.
 
@@ -84,5 +86,3 @@ for (int i = 0; i < doc.PageCount; i++)
 
 * espacio de nombres [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MergeWholeDocument
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge mülk. Bölgelerle adresmektup birleştirme yürütülürken belgenin tamamındaki alanların güncellenip güncellenmediğini gösteren bir değer alır veya ayarlar.
+linktitle: MergeWholeDocument
+articleTitle: MergeWholeDocument
+second_title: Aspose.Words for .NET
+description: MailMerge MergeWholeDocument mülk. Bölgelerle adresmektup birleştirme yürütülürken belgenin tamamındaki alanların güncellenip güncellenmediğini gösteren bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.mailmerging/mailmerge/mergewholedocument/
@@ -14,11 +16,11 @@ Bölgelerle adres-mektup birleştirme yürütülürken belgenin tamamındaki ala
 public bool MergeWholeDocument { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ` .
 
-### Örnekler
+## Örnekler
 
 Bölgelerle adres-mektup birleştirmeler ve alan güncelleme arasındaki ilişkiyi gösterir.
 
@@ -85,7 +87,5 @@ private static DataTable CreateSourceTableMergeWholeDocument()
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

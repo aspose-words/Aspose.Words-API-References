@@ -1,7 +1,9 @@
 ---
 title: Font.HighlightColor
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置突出显示标记颜色
+linktitle: HighlightColor
+articleTitle: HighlightColor
+second_title: 用于 .NET 的 Aspose.Words
+description: Font HighlightColor 财产. 获取或设置突出显示标记颜色 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words/font/highlightcolor/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/highlightcolor/
 public Color HighlightColor { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用其字体属性设置文本串的格式。
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

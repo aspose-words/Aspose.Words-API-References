@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.HyphenationZone
-second_title: Справочник по API Aspose.Words для .NET
-description: HyphenationOptions свойство. Получает или задает расстояние в 1/20 точки от правого поля в пределах которого вы не хотите чтобы переносил слова. Значение по умолчанию для этого свойства  360 025 дюйма.
+linktitle: HyphenationZone
+articleTitle: HyphenationZone
+second_title: Aspose.Words для .NET
+description: HyphenationOptions HyphenationZone свойство. Получает или задает расстояние в 1/20 точки от правого поля в пределах которого вы не хотите чтобы переносил слова. Значение по умолчанию для этого свойства  360 025 дюйма на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.settings/hyphenationoptions/hyphenationzone/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/hyphenationoptions/hyphenationzone/
 public int HyphenationZone { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить автоматическую расстановку переносов.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### Смотрите также
 
 * class [HyphenationOptions](../)
-* пространство имен [Aspose.Words.Settings](../../hyphenationoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

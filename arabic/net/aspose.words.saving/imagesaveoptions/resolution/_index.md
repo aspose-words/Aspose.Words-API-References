@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Resolution
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. يضبط الدقة الأفقية والرأسية للصور التي تم إنشاؤها بالنقاط في البوصة.
+linktitle: Resolution
+articleTitle: Resolution
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions Resolution ملكية. يضبط الدقة الأفقية والرأسية للصور التي تم إنشاؤها بالنقاط في البوصة في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.saving/imagesaveoptions/resolution/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/imagesaveoptions/resolution/
 public float Resolution { set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تؤثر هذه الخاصية فقط عند الحفظ في تنسيقات الصور النقطية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد الدقة أثناء عرض مستند إلى PNG.
 
@@ -79,7 +81,5 @@ Document doc = new Document();
 ### أنظر أيضا
 
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

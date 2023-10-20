@@ -1,7 +1,9 @@
 ---
 title: Story.DeleteShapes
-second_title: Referencia de API de Aspose.Words para .NET
-description: Story método. Elimina todas las formas del texto de esta historia.
+linktitle: DeleteShapes
+articleTitle: DeleteShapes
+second_title: Aspose.Words para .NET
+description: Story DeleteShapes método. Elimina todas las formas del texto de esta historia en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words/story/deleteshapes/
@@ -14,7 +16,7 @@ Elimina todas las formas del texto de esta historia.
 public void DeleteShapes()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar todas las formas de un nodo.
 
@@ -38,7 +40,5 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 ### Ver también
 
 * class [Story](../)
-* espacio de nombres [Aspose.Words](../../story/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

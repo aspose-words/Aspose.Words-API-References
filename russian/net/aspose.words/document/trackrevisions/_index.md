@@ -1,7 +1,9 @@
 ---
 title: Document.TrackRevisions
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. True если изменения отслеживаются при редактировании этого документа в Microsoft Word.
+linktitle: TrackRevisions
+articleTitle: TrackRevisions
+second_title: Aspose.Words для .NET
+description: Document TrackRevisions свойство. True если изменения отслеживаются при редактировании этого документа в Microsoft Word на С#.
 type: docs
 weight: 430
 url: /ru/net/aspose.words/document/trackrevisions/
@@ -14,13 +16,13 @@ True, если изменения отслеживаются при редакт
 public bool TrackRevisions { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Установка этого параметра только указывает Microsoft Word, включена или выключена дорожка Changes . Это свойство не влияет на изменения в документе, которые вы делаете программно через Aspose.Words.
 
 Если вы хотите автоматически отслеживать изменения, вносимые Aspose.Words программно в этот документ, используйте[`StartTrackRevisions`](../starttrackrevisions/) метод.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с изменениями в документе.
 
@@ -103,7 +105,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

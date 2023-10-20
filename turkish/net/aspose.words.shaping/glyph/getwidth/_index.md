@@ -1,7 +1,9 @@
 ---
 title: Glyph.GetWidth
-second_title: Aspose.Words for .NET API Referansı
-description: Glyph yöntem. Glifin genişliğini ilerlemesini nokta cinsinden döndürür.
+linktitle: GetWidth
+articleTitle: GetWidth
+second_title: Aspose.Words for .NET
+description: Glyph GetWidth yöntem. Glifin genişliğini ilerlemesini nokta cinsinden döndürür C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.shaping/glyph/getwidth/
@@ -17,7 +19,5 @@ public virtual float GetWidth(int em, float fontSize)
 ### Ayrıca bakınız
 
 * class [Glyph](../)
-* ad alanı [Aspose.Words.Shaping](../../glyph/)
+* ad alanı [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * toplantı [Aspose.Words](../../../)
-
-

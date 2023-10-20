@@ -1,9 +1,11 @@
 ---
 title: Fill.ImageBytes
-second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获取填充纹理或图案的原始字节
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill ImageBytes 财产. 获取填充纹理或图案的原始字节 在 C#.
 type: docs
-weight: 140
+weight: 130
 url: /zh/net/aspose.words.drawing/fill/imagebytes/
 ---
 ## Fill.ImageBytes property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/fill/imagebytes/
 public byte[] ImageBytes { get; }
 ```
 
-### 评论
+## 评论
 
 默认值为`无效的`。
 
-### 例子
+## 例子
 
 展示创造出各种形状。
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### 也可以看看
 
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

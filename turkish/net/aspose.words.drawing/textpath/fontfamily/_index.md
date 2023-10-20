@@ -1,7 +1,9 @@
 ---
 title: TextPath.FontFamily
-second_title: Aspose.Words for .NET API Referansı
-description: TextPath mülk. Metin yolu yazı tipinin ailesini tanımlar.
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words for .NET
+description: TextPath FontFamily mülk. Metin yolu yazı tipinin ailesini tanımlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing/textpath/fontfamily/
@@ -14,11 +16,11 @@ Metin yolu yazı tipinin ailesini tanımlar.
 public string FontFamily { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer Arial'dır.
 
-### Örnekler
+## Örnekler
 
 WordArt'la nasıl çalışılacağını gösterir.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Ayrıca bakınız
 
 * class [TextPath](../)
-* ad alanı [Aspose.Words.Drawing](../../textpath/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Vertical
-second_title: Aspose.Words for .NET API 参考
-description: BorderCollection 财产. 获取单元格之间使用的垂直边框
+linktitle: Vertical
+articleTitle: Vertical
+second_title: 用于 .NET 的 Aspose.Words
+description: BorderCollection Vertical 财产. 获取单元格之间使用的垂直边框 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words/bordercollection/vertical/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/bordercollection/vertical/
 public Border Vertical { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将垂直边框设置应用到表格行的格式。
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* 命名空间 [Aspose.Words](../../bordercollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

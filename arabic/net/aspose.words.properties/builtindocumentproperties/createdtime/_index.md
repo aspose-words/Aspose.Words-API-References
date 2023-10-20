@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.CreatedTime
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. الحصول على أو تحديد تاريخ إنشاء المستند بالتوقيت العالمي المنسق UTC.
+linktitle: CreatedTime
+articleTitle: CreatedTime
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties CreatedTime ملكية. الحصول على أو تحديد تاريخ إنشاء المستند بالتوقيت العالمي المنسق UTC في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.properties/builtindocumentproperties/createdtime/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/createdtime/
 public DateTime CreatedTime { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 بالنسبة للمستندات التي تم إنشاؤها من تنسيق RTF، تقوم هذه الخاصية بإرجاع التوقيت المحلي لجهاز المؤلف في لحظة إنشاء المستند.
 
 لا يقوم Aspose.Words بتحديث هذه الخاصية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند في فئة "الأصل".
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

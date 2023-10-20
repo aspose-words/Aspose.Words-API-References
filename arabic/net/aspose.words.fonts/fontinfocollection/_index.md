@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.FontInfoCollection فصل. يمثل مجموعة من الخطوط المستخدمة في المستند.
+title: FontInfoCollection Class
+linktitle: FontInfoCollection
+articleTitle: FontInfoCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.FontInfoCollection فصل. يمثل مجموعة من الخطوط المستخدمة في المستند في C#.
 type: docs
 weight: 2930
 url: /ar/net/aspose.words.fonts/fontinfocollection/
@@ -30,16 +32,16 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 
 | اسم | وصف |
 | --- | --- |
-| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(string) | يحدد ما إذا كانت المجموعة تحتوي على خط بالاسم المحدد. |
+| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(*string*) | يحدد ما إذا كانت المجموعة تحتوي على خط بالاسم المحدد. |
 | [GetEnumerator](../../aspose.words.fonts/fontinfocollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
 
-### ملاحظات
+## ملاحظات
 
 العناصر هي[`FontInfo`](../fontinfo/) أشياء.
 
 لا تقم بإنشاء مثيلات هذه الفئة مباشرة. استخدم[`FontInfos`](../../aspose.words/documentbase/fontinfos/) خاصية الوصول إلى مجموعة الخطوط المحددة في المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة تفاصيل الخطوط الموجودة في المستند.
 
@@ -79,5 +81,3 @@ else
 * class [FontInfo](../fontinfo/)
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

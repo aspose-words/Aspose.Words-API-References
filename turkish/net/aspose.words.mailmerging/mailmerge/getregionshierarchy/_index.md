@@ -1,7 +1,9 @@
 ---
 title: MailMerge.GetRegionsHierarchy
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge yöntem. Belgede bulunan bölgelerin alanlarla birlikte tam hiyerarşisini döndürür.
+linktitle: GetRegionsHierarchy
+articleTitle: GetRegionsHierarchy
+second_title: Aspose.Words for .NET
+description: MailMerge GetRegionsHierarchy yöntem. Belgede bulunan bölgelerin alanlarla birlikte tam hiyerarşisini döndürür C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/
@@ -18,11 +20,11 @@ public MailMergeRegionInfo GetRegionsHierarchy()
 
 Bölgelerin hiyerarşisi.
 
-### Notlar
+## Notlar
 
 Hiyerarşi şu şekilde döndürülür:[`MailMergeRegionInfo`](../../mailmergeregioninfo/) sınıf.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme bölgelerinin nasıl doğrulanacağını gösterir.
 
@@ -68,7 +70,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 
 * class [MailMergeRegionInfo](../../mailmergeregioninfo/)
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

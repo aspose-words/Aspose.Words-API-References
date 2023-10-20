@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.HyperlinkBase
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Указывает базовую строку используемую для оценки относительных гиперссылок в этом документе.
+linktitle: HyperlinkBase
+articleTitle: HyperlinkBase
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties HyperlinkBase свойство. Указывает базовую строку используемую для оценки относительных гиперссылок в этом документе на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.properties/builtindocumentproperties/hyperlinkbase/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/hyperlinkbase/
 public string HyperlinkBase { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Aspose.Words не использует это свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить базовую часть гиперссылки в свойствах документа.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.HyperlinkBase.WorkingLink.docx");
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

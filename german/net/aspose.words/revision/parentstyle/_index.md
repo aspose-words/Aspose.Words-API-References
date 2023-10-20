@@ -1,7 +1,9 @@
 ---
 title: Revision.ParentStyle
-second_title: Aspose.Words für .NET-API-Referenz
-description: Revision eigendom. Ruft den unmittelbaren übergeordneten Stil Eigentümer dieser Revision ab. Diese Eigenschaft funktioniert nur fürStyleDefinitionChange Revisionstyp.
+linktitle: ParentStyle
+articleTitle: ParentStyle
+second_title: Aspose.Words für .NET
+description: Revision ParentStyle eigendom. Ruft den unmittelbaren übergeordneten Stil Eigentümer dieser Revision ab. Diese Eigenschaft funktioniert nur fürStyleDefinitionChange Revisionstyp in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/revision/parentstyle/
@@ -14,11 +16,11 @@ Ruft den unmittelbaren übergeordneten Stil (Eigentümer) dieser Revision ab. Di
 public Style ParentStyle { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn sich diese Revision auf Änderungen an Dokumentknoten bezieht, verwenden Sie[`ParentNode`](../parentnode/) stattdessen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Revisionssammlung eines Dokuments gearbeitet wird.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [Style](../../style/)
 * class [Revision](../)
-* namensraum [Aspose.Words](../../revision/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

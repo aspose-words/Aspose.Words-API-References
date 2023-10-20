@@ -1,7 +1,9 @@
 ---
-title: Enum SdtAppearance
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.SdtAppearance Sıralama. Yapılandırılmış belge etiketinin görünümünü belirtir.
+title: SdtAppearance Enum
+linktitle: SdtAppearance
+articleTitle: SdtAppearance
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Markup.SdtAppearance Sıralama. Yapılandırılmış belge etiketinin görünümünü belirtir C#'da.
 type: docs
 weight: 3990
 url: /tr/net/aspose.words.markup/sdtappearance/
@@ -27,5 +29,3 @@ public enum SdtAppearance
 
 * ad alanı [Aspose.Words.Markup](../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../)
-
-

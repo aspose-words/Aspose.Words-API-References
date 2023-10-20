@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.FontSettings
-second_title: Aspose.Words per .NET API Reference
-description: LoadOptions proprietà. Permette di specificare le impostazioni dei caratteri del documento.
+linktitle: FontSettings
+articleTitle: FontSettings
+second_title: Aspose.Words per .NET
+description: LoadOptions FontSettings proprietà. Permette di specificare le impostazioni dei caratteri del documento in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.loading/loadoptions/fontsettings/
@@ -14,7 +16,7 @@ Permette di specificare le impostazioni dei caratteri del documento.
 public FontSettings FontSettings { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Durante il caricamento di alcuni formati, Aspose.Words potrebbe richiedere la risoluzione dei caratteri. Ad esempio, durante il caricamento di documenti HTML Aspose.Words può risolvere i caratteri per eseguire il fallback dei caratteri.
 
@@ -22,7 +24,7 @@ Se impostato su`nullo` , impostazioni predefinite dei caratteri statici[`Default
 
 Il valore predefinito è`nullo`.
 
-### Esempi
+## Esempi
 
 Mostra come applicare le impostazioni di sostituzione dei caratteri durante il caricamento di un documento.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
 
 * class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * class [LoadOptions](../)
-* spazio dei nomi [Aspose.Words.Loading](../../loadoptions/)
+* spazio dei nomi [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../../)
-
-

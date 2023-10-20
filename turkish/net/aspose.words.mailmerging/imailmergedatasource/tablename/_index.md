@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.TableName
-second_title: Aspose.Words for .NET API Referansı
-description: IMailMergeDataSource mülk. Veri kaynağının adını döndürür.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words for .NET
+description: IMailMergeDataSource TableName mülk. Veri kaynağının adını döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.mailmerging/imailmergedatasource/tablename/
@@ -18,13 +20,13 @@ public string TableName { get; }
 
 Veri kaynağının adı. Veri kaynağının adı yoksa dizeyi boşaltın.
 
-### Notlar
+## Notlar
 
 Eğer uyguluyorsanız[`IMailMergeDataSource`](../), bu özellikten data kaynağının adını döndürün.
 
 Aspose.Words bu adı, şablon belgede belirtilen adres-mektup birleştirme bölgesi adıyla eşleştirmek için kullanır. Veri kaynağı adı ile adres-mektup birleştirme bölgesi adı arasındaki karşılaştırma büyük/küçük harfe duyarlı değildir.
 
-### Örnekler
+## Örnekler
 
 Özel nesne biçimindeki bir veri kaynağıyla adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -138,7 +140,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Ayrıca bakınız
 
 * interface [IMailMergeDataSource](../)
-* ad alanı [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

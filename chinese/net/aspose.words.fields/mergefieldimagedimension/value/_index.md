@@ -1,7 +1,9 @@
 ---
 title: MergeFieldImageDimension.Value
-second_title: Aspose.Words for .NET API 参考
-description: MergeFieldImageDimension 财产. 值
+linktitle: Value
+articleTitle: Value
+second_title: 用于 .NET 的 Aspose.Words
+description: MergeFieldImageDimension Value 财产. 值 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/mergefieldimagedimension/value/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/mergefieldimagedimension/value/
 public double Value { get; set; }
 ```
 
-### 评论
+## 评论
 
 您应该使用负值来表示应应用相应图像维度 的原始值。
 
-### 例子
+## 例子
 
 展示如何在 MERGEFIELDS 在邮件合并期间接受图像时设置图像尺寸。
 
@@ -88,7 +90,5 @@ private class MergedImageResizer : IFieldMergingCallback
 ### 也可以看看
 
 * class [MergeFieldImageDimension](../)
-* 命名空间 [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Node.ToString
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Node méthode. Exporte le contenu du nœud dans une chaîne au format spécifié.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words pour .NET
+description: Node ToString méthode. Exporte le contenu du nœud dans une chaîne au format spécifié en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words/node/tostring/
 ---
-## ToString(SaveFormat) {#tostring_1}
+## ToString(*[SaveFormat](../../saveformat/)*) {#tostring_1}
 
 Exporte le contenu du nœud dans une chaîne au format spécifié.
 
@@ -18,7 +20,7 @@ public string ToString(SaveFormat saveFormat)
 
 Le contenu du nœud au format spécifié.
 
-### Exemples
+## Exemples
 
 Montre la différence entre l'appel des méthodes GetText et ToString sur un nœud.
 
@@ -91,12 +93,12 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * enum [SaveFormat](../../saveformat/)
 * class [Node](../)
-* espace de noms [Aspose.Words](../../node/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## ToString(SaveOptions) {#tostring_2}
+## ToString(*[SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#tostring_2}
 
 Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées.
 
@@ -112,7 +114,7 @@ public string ToString(SaveOptions saveOptions)
 
 Le contenu du nœud au format spécifié.
 
-### Exemples
+## Exemples
 
 Exporte le contenu d'un nœud vers String au format HTML.
 
@@ -140,7 +142,5 @@ Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\
 
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Node](../)
-* espace de noms [Aspose.Words](../../node/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

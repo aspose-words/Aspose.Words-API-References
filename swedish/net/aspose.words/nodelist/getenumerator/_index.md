@@ -1,7 +1,9 @@
 ---
 title: NodeList.GetEnumerator
-second_title: Aspose.Words för .NET API Referens
-description: NodeList metod. Ger en enkel foreach stil iteration över samlingen av noder.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words för .NET
+description: NodeList GetEnumerator metod. Ger en enkel foreach stil iteration över samlingen av noder i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/nodelist/getenumerator/
@@ -18,7 +20,7 @@ public IEnumerator<Node> GetEnumerator()
 
 En IEnumerator.
 
-### Exempel
+## Exempel
 
 Visar hur man väljer vissa noder med hjälp av ett XPath-uttryck.
 
@@ -52,7 +54,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* namnutrymme [Aspose.Words](../../nodelist/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

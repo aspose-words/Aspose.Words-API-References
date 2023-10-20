@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientAngle
-second_title: Aspose.Words per .NET API Reference
-description: Fill proprietà. Ottiene o imposta langolo del riempimento sfumato.
+linktitle: GradientAngle
+articleTitle: GradientAngle
+second_title: Aspose.Words per .NET
+description: Fill GradientAngle proprietà. Ottiene o imposta langolo del riempimento sfumato in C#.
 type: docs
-weight: 100
+weight: 90
 url: /it/net/aspose.words.drawing/fill/gradientangle/
 ---
 ## Fill.GradientAngle property
@@ -14,7 +16,7 @@ Ottiene o imposta l'angolo del riempimento sfumato.
 public double GradientAngle { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come riempire una forma con sfumature.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 ### Guarda anche
 
 * class [Fill](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../fill/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

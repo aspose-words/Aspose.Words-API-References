@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.DefaultFontSubstitution
-second_title: Aspose.Words for .NET API 参考
-description: FontSubstitutionSettings 财产. 与默认字体替换规则相关的设置
+linktitle: DefaultFontSubstitution
+articleTitle: DefaultFontSubstitution
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSubstitutionSettings DefaultFontSubstitution 财产. 与默认字体替换规则相关的设置 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置默认字体替换规则。
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 
 * class [DefaultFontSubstitutionRule](../../defaultfontsubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

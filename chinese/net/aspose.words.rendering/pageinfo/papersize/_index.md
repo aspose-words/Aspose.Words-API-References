@@ -1,7 +1,9 @@
 ---
 title: PageInfo.PaperSize
-second_title: Aspose.Words for .NET API 参考
-description: PageInfo 财产. 获取纸张尺寸作为枚举
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: 用于 .NET 的 Aspose.Words
+description: PageInfo PaperSize 财产. 获取纸张尺寸作为枚举 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.rendering/pageinfo/papersize/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.rendering/pageinfo/papersize/
 public PaperSize PaperSize { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何打印 Word 文档中每个页面的页面大小和方向信息。
 
@@ -57,7 +59,5 @@ for (int i = 0; i < doc.PageCount; i++)
 
 * enum [PaperSize](../../../aspose.words/papersize/)
 * class [PageInfo](../)
-* 命名空间 [Aspose.Words.Rendering](../../pageinfo/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

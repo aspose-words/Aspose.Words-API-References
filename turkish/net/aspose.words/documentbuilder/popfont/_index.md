@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.PopFont
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Daha önce yığına kaydedilen karakter formatını alır.
+linktitle: PopFont
+articleTitle: PopFont
+second_title: Aspose.Words for .NET
+description: DocumentBuilder PopFont yöntem. Daha önce yığına kaydedilen karakter formatını alır C#'da.
 type: docs
-weight: 600
+weight: 590
 url: /tr/net/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder.PopFont method
@@ -14,7 +16,7 @@ Daha önce yığına kaydedilen karakter formatını alır.
 public void PopFont()
 ```
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucunun biçimlendirme yığınının nasıl kullanılacağını gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 * property [Font](../font/)
 * method [PushFont](../pushfont/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

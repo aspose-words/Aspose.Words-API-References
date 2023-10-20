@@ -1,7 +1,9 @@
 ---
-title: Class SdtListItemCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.SdtListItemCollection сорт. Обеспечивает доступ кSdtListItem элементы тега структурированного документа.
+title: SdtListItemCollection Class
+linktitle: SdtListItemCollection
+articleTitle: SdtListItemCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Markup.SdtListItemCollection сорт. Обеспечивает доступ кSdtListItem элементы тега структурированного документа на С#.
 type: docs
 weight: 4030
 url: /ru/net/aspose.words.markup/sdtlistitemcollection/
@@ -28,12 +30,12 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(SdtListItem) | Добавляет элемент в эту коллекцию. |
+| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(*[SdtListItem](../sdtlistitem/)*) | Добавляет элемент в эту коллекцию. |
 | [Clear](../../aspose.words.markup/sdtlistitemcollection/clear/)() | Удаляет все элементы из этой коллекции. |
 | [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
-| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(int) | Удаляет элемент списка по указанному индексу. |
+| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(*int*) | Удаляет элемент списка по указанному индексу. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами структурированных документов с раскрывающимся списком.
 
@@ -92,5 +94,3 @@ Assert.AreEqual(0, listItems.Count);
 * class [SdtListItem](../sdtlistitem/)
 * пространство имен [Aspose.Words.Markup](../../aspose.words.markup/)
 * сборка [Aspose.Words](../../)
-
-

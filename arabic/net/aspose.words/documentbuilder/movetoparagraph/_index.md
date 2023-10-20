@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToParagraph
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. ينقل المؤشر إلى فقرة في القسم الحالي.
+linktitle: MoveToParagraph
+articleTitle: MoveToParagraph
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder MoveToParagraph طريقة. ينقل المؤشر إلى فقرة في القسم الحالي في C#.
 type: docs
-weight: 570
+weight: 560
 url: /ar/net/aspose.words/documentbuilder/movetoparagraph/
 ---
 ## DocumentBuilder.MoveToParagraph method
@@ -19,13 +21,13 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex)
 | paragraphIndex | Int32 | فهرس الفقرة المراد الانتقال إليها. |
 | characterIndex | Int32 | فهرس الحرف الموجود داخل الفقرة. القيمة السالبة تسمح لك بتحديد موضع من نهاية الفقرة. استخدم -1 للانتقال إلى نهاية الفقرة. |
 
-### ملاحظات
+## ملاحظات
 
 يتم تنفيذ التنقل داخل القصة الحالية للقسم الحالي. أي إذا قمت بتحريك المؤشر إلى الرأس الأساسي للقسم الأول، ثم*paragraphIndex*حدد فهرس الفقرة الموجودة داخل ذلك header لهذا القسم.
 
 متى*paragraphIndex* أكبر من أو يساوي 0، فهو يحدد فهرس from بداية القسم حيث يكون 0 هو الفقرة الأولى. متى*paragraphIndex* أقل من 0, وقد حددت فهرسًا من نهاية القسم حيث تكون -1 هي الفقرة الأخيرة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية نقل موضع مؤشر المنشئ إلى فقرة محددة.
 
@@ -51,7 +53,5 @@ builder.Writeln("This is a new third paragraph. ");
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

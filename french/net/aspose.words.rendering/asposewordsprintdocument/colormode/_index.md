@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.ColorMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: AsposeWordsPrintDocument propriété. Obtient ou définit la façon dont les pages non colorées sont imprimées si le périphérique prend en charge limpression couleur.
+linktitle: ColorMode
+articleTitle: ColorMode
+second_title: Aspose.Words pour .NET
+description: AsposeWordsPrintDocument ColorMode propriété. Obtient ou définit la façon dont les pages non colorées sont imprimées si le périphérique prend en charge limpression couleur en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.rendering/asposewordsprintdocument/colormode/
@@ -14,11 +16,11 @@ Obtient ou définit la façon dont les pages non colorées sont imprimées si le
 public ColorPrintMode ColorMode { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 N'affecte pas l'impression des livrets.
 
-### Exemples
+## Exemples
 
 Montre comment sélectionner une plage de pages et une imprimante avec laquelle imprimer le document, puis afficher un aperçu avant impression.
 
@@ -68,7 +70,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 
 * enum [ColorPrintMode](../../colorprintmode/)
 * class [AsposeWordsPrintDocument](../)
-* espace de noms [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* espace de noms [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Assemblée [Aspose.Words](../../../)
-
-

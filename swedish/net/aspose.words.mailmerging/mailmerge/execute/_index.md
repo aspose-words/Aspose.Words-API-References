@@ -1,12 +1,14 @@
 ---
 title: MailMerge.Execute
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge metod. Utför en epostsammanfogning från en anpassad datakälla.
+linktitle: Execute
+articleTitle: Execute
+second_title: Aspose.Words för .NET
+description: MailMerge Execute metod. Utför en epostsammanfogning från en anpassad datakälla i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.mailmerging/mailmerge/execute/
 ---
-## Execute(IMailMergeDataSource) {#execute}
+## Execute(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#execute}
 
 Utför en e-postsammanfogning från en anpassad datakälla.
 
@@ -18,7 +20,7 @@ public void Execute(IMailMergeDataSource dataSource)
 | --- | --- | --- |
 | dataSource | IMailMergeDataSource | Ett objekt som implementerar det anpassade gränssnittet för kopplingsdatakällan. |
 
-### Anmärkningar
+## Anmärkningar
 
 Använd den här metoden för att fylla sammankopplingsfält i dokumentet med värden from vilken datakälla som helst som en lista eller hashtabell eller objekt. Du måste skriva din egen klass som implementerar[`IMailMergeDataSource`](../../imailmergedatasource/) gränssnitt.
 
@@ -30,12 +32,12 @@ Denna metod ignorerarRemoveUnusedRegions alternativ.
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Execute(string[], object[]) {#execute_5}
+## Execute(*string[], object[]*) {#execute_5}
 
 Utför en kopplingsoperation för en enskild post.
 
@@ -48,7 +50,7 @@ public void Execute(string[] fieldNames, object[] values)
 | fieldNames | String[] | Array av sammanslagningsfältnamn. Fältnamn är inte skiftlägeskänsliga. Om ett fältnamn som inte finns i dokumentet påträffas ignoreras det. |
 | values | Object[] | Matris med värden som ska infogas i sammanslagningsfälten. Antalet element i denna matris måste vara detsamma som antalet element i*fieldNames*. |
 
-### Anmärkningar
+## Anmärkningar
 
 Använd den här metoden för att fylla sammankopplingsfält i dokumentet med värden from en array av objekt.
 
@@ -58,7 +60,7 @@ Den här metoden använder inte kopplingsregioner.
 
 Denna metod ignorerarRemoveUnusedRegions alternativ.
 
-### Exempel
+## Exempel
 
 Visar hur man slår samman en bild från en URI som e-postsammanfogningsdata till ett MERGEFIELD.
 
@@ -111,12 +113,12 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataTable) {#execute_2}
+## Execute(*DataTable*) {#execute_2}
 
 Utför e-postkoppling från en datatabell till dokumentet.
 
@@ -128,19 +130,19 @@ public void Execute(DataTable table)
 | --- | --- | --- |
 | table | DataTable | Tabell som innehåller data som ska infogas i kopplingsfält. Fältnamn är inte skiftlägeskänsliga. Om ett fältnamn som inte finns i dokumentet påträffas ignoreras det. |
 
-### Anmärkningar
+## Anmärkningar
 
-Använd den här metoden för att fylla sammanslagningsfält i dokumentet med värden från a  **Datatabell**.
+Använd den här metoden för att fylla sammanslagningsfält i dokumentet med värden från a **Datatabell**.
 
 Alla poster från tabellen slås samman i dokumentet.
 
-Du kan använda NÄSTA-fältet i Word-dokumentet för att orsaka[`MailMerge`](../) objekt för att välja nästa post från **Datatabell** och fortsätt sammanfoga. Detta kan användas när du skapar dokument som adressetiketter.
+Du kan använda NÄSTA-fältet i Word-dokumentet för att orsaka[`MailMerge`](../) objekt för att välja nästa post från**Datatabell** och fortsätt sammanfoga. Detta kan användas när du skapar dokument som adressetiketter.
 
-När[`MailMerge`](../) objektet når slutet av huvuddokumentet och det finns fortfarande fler rader i **Datatabell**, kopierar det hela innehållet i huvuddokumentet och lägger till det i slutet av måldokumentet med en section break som avgränsare.
+När[`MailMerge`](../) objektet når slutet av huvuddokumentet och det finns fortfarande fler rader i**Datatabell**, kopierar det hela innehållet i huvuddokumentet och lägger till det i slutet av måldokumentet med en section break som avgränsare.
 
 Denna metod ignorerarRemoveUnusedRegions alternativ.
 
-### Exempel
+## Exempel
 
 Visar hur man kör en e-postsammanfogning med data från en datatabell.
 
@@ -188,14 +190,14 @@ private static Document CreateSourceDocExecuteDataTable()
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Execute(IDataReader) {#execute_4}
+## Execute(*IDataReader*) {#execute_4}
 
-Utför sammanslagning från **IDataReader** in i dokumentet.
+Utför sammanslagning från**IDataReader** in i dokumentet.
 
 ```csharp
 public void Execute(IDataReader dataReader)
@@ -205,15 +207,15 @@ public void Execute(IDataReader dataReader)
 | --- | --- | --- |
 | dataReader | IDataReader | Datakälla för sammankopplingsåtgärden. |
 
-### Anmärkningar
+## Anmärkningar
 
-Du kan passera **SqlDataReader** eller **OleDbDataReader** objekt till denna -metoden som en parameter eftersom de båda implementerade **IDataReader** gränssnitt.
+Du kan passera**SqlDataReader** eller**OleDbDataReader** objekt till denna -metoden som en parameter eftersom de båda implementerade**IDataReader** gränssnitt.
 
 Observera att den här metoden inte använder kopplingsregioner och för flera poster kommer dokumentet att växa genom att hela dokumentet upprepas.
 
 Denna metod ignorerarRemoveUnusedRegions alternativ.
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling av brev med data från en dataläsare.
 
@@ -267,14 +269,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataView) {#execute_3}
+## Execute(*DataView*) {#execute_3}
 
-Utför sammanslagning från en **DataView** in i dokumentet.
+Utför sammanslagning från en**DataView** in i dokumentet.
 
 ```csharp
 public void Execute(DataView dataView)
@@ -284,15 +286,15 @@ public void Execute(DataView dataView)
 | --- | --- | --- |
 | dataView | DataView | Datakälla för sammankopplingsåtgärden. |
 
-### Anmärkningar
+## Anmärkningar
 
-Den här metoden är användbar om du hämtar data till en **Datatabell** men då måste tillämpa ett filter eller sortera innan sammanslagningen.
+Den här metoden är användbar om du hämtar data till en**Datatabell** men då måste tillämpa ett filter eller sortera innan sammanslagningen.
 
 Observera att den här metoden inte använder kopplingsregioner och för flera poster kommer dokumentet att växa genom att hela dokumentet upprepas.
 
 Denna metod ignorerarRemoveUnusedRegions alternativ.
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar sammanslagningsdata med en DataView.
 
@@ -329,14 +331,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Execute(DataRow) {#execute_1}
+## Execute(*DataRow*) {#execute_1}
 
-Utför sammanslagning från en **DataRow** in i dokumentet.
+Utför sammanslagning från en**DataRow** in i dokumentet.
 
 ```csharp
 public void Execute(DataRow row)
@@ -346,13 +348,13 @@ public void Execute(DataRow row)
 | --- | --- | --- |
 | row | DataRow | Rad som innehåller data som ska infogas i kopplingsfält. Fältnamn är inte skiftlägeskänsliga. Om ett fältnamn som inte finns i dokumentet påträffas ignoreras det. |
 
-### Anmärkningar
+## Anmärkningar
 
-Använd den här metoden för att fylla sammankopplingsfält i dokumentet med värden från a **DataRow**.
+Använd den här metoden för att fylla sammankopplingsfält i dokumentet med värden från a**DataRow**.
 
 Denna metod ignorerarRemoveUnusedRegions alternativ.
 
-### Exempel
+## Exempel
 
 Visar hur man kör en e-postsammanfogning med data från en datatabell.
 
@@ -400,7 +402,5 @@ private static Document CreateSourceDocExecuteDataTable()
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

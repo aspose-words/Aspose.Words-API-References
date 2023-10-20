@@ -1,7 +1,9 @@
 ---
 title: Run.IsPhoneticGuide
-second_title: Aspose.Words for .NET API Referansı
-description: Run mülk. Çalıştırmanın fonetik bir kılavuz olduğunu belirten bir boole değeri alır.
+linktitle: IsPhoneticGuide
+articleTitle: IsPhoneticGuide
+second_title: Aspose.Words for .NET
+description: Run IsPhoneticGuide mülk. Çalıştırmanın fonetik bir kılavuz olduğunu belirten bir boole değeri alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/run/isphoneticguide/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/run/isphoneticguide/
 public bool IsPhoneticGuide { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Fonetik kılavuzun özelliklerinin nasıl alınacağını gösterir.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### Ayrıca bakınız
 
 * class [Run](../)
-* ad alanı [Aspose.Words](../../run/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

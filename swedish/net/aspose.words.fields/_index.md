@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Fields
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Fields namnutrymme innehåller klasser som representerar Microsoft Wordfält i ett dokument.
+linktitle: Aspose.Words.Fields
+articleTitle: Aspose.Words.Fields
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.Fields namnutrymme innehåller klasser som representerar Microsoft Wordfält i ett dokument i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.fields/
 ---
-De **Aspose.Words.Fields** namnutrymme innehåller klasser som representerar Microsoft Word-fält i ett dokument.
+De**Aspose.Words.Fields** namnutrymme innehåller klasser som representerar Microsoft Word-fält i ett dokument.
 
 ## Klasser
 
@@ -153,5 +155,3 @@ De **Aspose.Words.Fields** namnutrymme innehåller klasser som representerar Mic
 | [GeneralFormat](./generalformat/) | Anger ett allmänt format som tillämpas på ett numeriskt, text- eller valfritt fältresultat. Ett fält kan ha en kombination av allmänna format. |
 | [MergeFieldImageDimensionUnit](./mergefieldimagedimensionunit/) | Anger en enhet av en bilddimension (dvs. bredden eller höjden) som används under en sammankopplingsprocess. |
 | [TextFormFieldType](./textformfieldtype/) | Anger typen av ett textformulärfält. |
-
-

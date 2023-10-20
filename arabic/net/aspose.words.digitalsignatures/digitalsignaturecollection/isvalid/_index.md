@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.IsValid
-second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignatureCollection ملكية. إرجاعحقيقي إذا كانت كافة التوقيعات الرقمية في هذه المجموعة صالحة ولم يتم التلاعب بالمستند بـ فسيتم إرجاعه أيضًاحقيقي إذا لم يكن هناك توقيعات رقمية. يعودخطأ شنيع إذا كان هناك توقيع رقمي واحد على الأقل غير صالح.
+linktitle: IsValid
+articleTitle: IsValid
+second_title: Aspose.Words لـ .NET
+description: DigitalSignatureCollection IsValid ملكية. إرجاعحقيقي إذا كانت كافة التوقيعات الرقمية في هذه المجموعة صالحة ولم يتم التلاعب بالمستند بـ فسيتم إرجاعه أيضًاحقيقي إذا لم يكن هناك توقيعات رقمية. يعودخطأ شنيع إذا كان هناك توقيع رقمي واحد على الأقل غير صالح في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
 public bool IsValid { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع المستندات بشهادات X.509.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### أنظر أيضا
 
 * class [DigitalSignatureCollection](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

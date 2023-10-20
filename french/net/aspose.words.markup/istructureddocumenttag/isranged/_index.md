@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.IsRanged
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IStructuredDocumentTag méthode. Renvoie vrai si cette instance est une balise de document structuré à distance.
+linktitle: IsRanged
+articleTitle: IsRanged
+second_title: Aspose.Words pour .NET
+description: IStructuredDocumentTag IsRanged méthode. Renvoie vrai si cette instance est une balise de document structuré à distance en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.markup/istructureddocumenttag/isranged/
@@ -14,7 +16,7 @@ Renvoie vrai si cette instance est une balise de document structuré à distance
 public bool IsRanged()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment obtenir une balise de document structuré.
 
@@ -34,7 +36,5 @@ Console.WriteLine(sdt.Id);
 ### Voir également
 
 * interface [IStructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../istructureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

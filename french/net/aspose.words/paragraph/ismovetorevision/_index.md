@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsMoveToRevision
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Paragraph propriété. Retoursvrai si cet objet a été déplacé inséré dans Microsoft Word alors que le suivi des modifications était activé.
+linktitle: IsMoveToRevision
+articleTitle: IsMoveToRevision
+second_title: Aspose.Words pour .NET
+description: Paragraph IsMoveToRevision propriété. Retoursvrai si cet objet a été déplacé inséré dans Microsoft Word alors que le suivi des modifications était activé en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words/paragraph/ismovetorevision/
@@ -14,7 +16,7 @@ Retours`vrai` si cet objet a été déplacé (inséré) dans Microsoft Word alor
 public bool IsMoveToRevision { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment vérifier si un paragraphe est une révision de déplacement.
 
@@ -48,7 +50,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 ### Voir également
 
 * class [Paragraph](../)
-* espace de noms [Aspose.Words](../../paragraph/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

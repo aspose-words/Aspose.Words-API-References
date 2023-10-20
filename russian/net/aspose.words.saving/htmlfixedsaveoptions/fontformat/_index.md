@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.FontFormat
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlFixedSaveOptions свойство. Получает или устанавливаетExportFontFormat используется для экспорта шрифтов. Значение по умолчаниюWoff .
+linktitle: FontFormat
+articleTitle: FontFormat
+second_title: Aspose.Words для .NET
+description: HtmlFixedSaveOptions FontFormat свойство. Получает или устанавливаетExportFontFormat используется для экспорта шрифтов. Значение по умолчаниюWoff  на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/fontformat/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/fontformat/
 public ExportFontFormat FontFormat { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать шрифты только с целевого компьютера при сохранении документа в HTML.
 
@@ -45,7 +47,5 @@ else
 
 * enum [ExportFontFormat](../../exportfontformat/)
 * class [HtmlFixedSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

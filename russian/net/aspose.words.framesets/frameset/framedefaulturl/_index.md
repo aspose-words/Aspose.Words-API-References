@@ -1,7 +1,9 @@
 ---
 title: Frameset.FrameDefaultUrl
-second_title: Справочник по API Aspose.Words для .NET
-description: Frameset свойство. Получает или задает URLадрес вебстраницы или имя файла документа для отображения в этом фрейме.
+linktitle: FrameDefaultUrl
+articleTitle: FrameDefaultUrl
+second_title: Aspose.Words для .NET
+description: Frameset FrameDefaultUrl свойство. Получает или задает URLадрес вебстраницы или имя файла документа для отображения в этом фрейме на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.framesets/frameset/framedefaulturl/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.framesets/frameset/framedefaulturl/
 public string FrameDefaultUrl { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к фреймам на странице.
 
@@ -39,7 +41,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 ### Смотрите также
 
 * class [Frameset](../)
-* пространство имен [Aspose.Words.Framesets](../../frameset/)
+* пространство имен [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * сборка [Aspose.Words](../../../)
-
-

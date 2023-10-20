@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorUnitScale
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Возвращает или задает значение масштаба для основных делений на оси категории времени.
+linktitle: MajorUnitScale
+articleTitle: MajorUnitScale
+second_title: Aspose.Words для .NET
+description: ChartAxis MajorUnitScale свойство. Возвращает или задает значение масштаба для основных делений на оси категории времени на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.drawing.charts/chartaxis/majorunitscale/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/majorunitscale/
 public AxisTimeUnit MajorUnitScale { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Свойство действует только для осей категории времени.
 
-### Примеры
+## Примеры
 
 Показывает, как манипулировать делениями и отображаемыми значениями оси диаграммы.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SetFontsFolder
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSettings метод. Устанавливает папку в которой Aspose.Words ищет шрифты TrueType при рендеринге документов или встраивании шрифтов. Это ярлык дляSetFontsFolders для установки только одного каталога шрифтов.
+linktitle: SetFontsFolder
+articleTitle: SetFontsFolder
+second_title: Aspose.Words для .NET
+description: FontSettings SetFontsFolder метод. Устанавливает папку в которой Aspose.Words ищет шрифты TrueType при рендеринге документов или встраивании шрифтов. Это ярлык дляSetFontsFolders для установки только одного каталога шрифтов на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fonts/fontsettings/setfontsfolder/
@@ -19,7 +21,7 @@ public void SetFontsFolder(string fontFolder, bool recursive)
 | fontFolder | String | Папка, содержащая шрифты TrueType. |
 | recursive | Boolean | Значение true для рекурсивного сканирования указанных папок на наличие шрифтов. |
 
-### Примеры
+## Примеры
 
 Показывает, как установить исходный каталог шрифта.
 
@@ -78,7 +80,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ### Смотрите также
 
 * class [FontSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

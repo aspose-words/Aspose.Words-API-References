@@ -1,7 +1,9 @@
 ---
-title: Enum VbaReferenceType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Vba.VbaReferenceType 枚举. 允许指定 a 的类型VbaReference对象.
+title: VbaReferenceType Enum
+linktitle: VbaReferenceType
+articleTitle: VbaReferenceType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Vba.VbaReferenceType 枚举. 允许指定 a 的类型VbaReference对象 在 C#.
 type: docs
 weight: 6610
 url: /zh/net/aspose.words.vba/vbareferencetype/
@@ -23,7 +25,7 @@ public enum VbaReferenceType
 | Original | `51` | 指定原始自动化类型库引用类型。 |
 | Control | `47` | 指定一个扭曲的类型库引用类型。 |
 
-### 例子
+## 例子
 
 演示如何从 VBA 参考集合中获取/删除元素。
 
@@ -98,5 +100,3 @@ private static string GetLibIdProjectPath(string libIdProject)
 
 * 命名空间 [Aspose.Words.Vba](../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../)
-
-

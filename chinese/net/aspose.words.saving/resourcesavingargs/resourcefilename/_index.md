@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceFileName
-second_title: Aspose.Words for .NET API 参考
-description: ResourceSavingArgs 财产. 获取或设置资源将保存到的文件名不带路径
+linktitle: ResourceFileName
+articleTitle: ResourceFileName
+second_title: 用于 .NET 的 Aspose.Words
+description: ResourceSavingArgs ResourceFileName 财产. 获取或设置资源将保存到的文件名不带路径 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/resourcesavingargs/resourcefilename/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/resourcesavingargs/resourcefilename/
 public string ResourceFileName { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性允许您重新定义在导出到固定页面 HTML 或 SVG 期间如何生成资源文件名 。
 
@@ -30,7 +32,7 @@ public string ResourceFileName { get; set; }
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
-### 例子
+## 例子
 
 演示如何使用回调来跟踪将文档转换为 HTML 时创建的外部资源。
 
@@ -75,7 +77,5 @@ private class FontSavingCallback : IResourceSavingCallback
 ### 也可以看看
 
 * class [ResourceSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../resourcesavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Title
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Obtient ou définit le titre légende de lobjet de forme actuel.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words pour .NET
+description: ShapeBase Title propriété. Obtient ou définit le titre légende de lobjet de forme actuel en C#.
 type: docs
 weight: 530
 url: /fr/net/aspose.words.drawing/shapebase/title/
@@ -14,13 +16,13 @@ Obtient ou définit le titre (légende) de l'objet de forme actuel.
 public string Title { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est une chaîne vide.
 
 C'est pas possible`nul`, mais peut être une chaîne vide.
 
-### Exemples
+## Exemples
 
 Montre comment définir le titre d’une forme.
 
@@ -50,7 +52,5 @@ Assert.AreEqual("Title: My cube", shape.AlternativeText);
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

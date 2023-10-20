@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Saving
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Saving توفر مساحة الاسم فئات وتعدادات تسمح بتحديد خيارات إضافية لحفظ المستندات أو تحويلها.
+linktitle: Aspose.Words.Saving
+articleTitle: Aspose.Words.Saving
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Saving توفر مساحة الاسم فئات وتعدادات تسمح بتحديد خيارات إضافية لحفظ المستندات أو تحويلها في C#.
 type: docs
 weight: 230
 url: /ar/net/aspose.words.saving/
 ---
-ال **Aspose.Words.Saving** توفر مساحة الاسم فئات وتعدادات تسمح بتحديد خيارات إضافية لحفظ المستندات أو تحويلها.
+ال**Aspose.Words.Saving** توفر مساحة الاسم فئات وتعدادات تسمح بتحديد خيارات إضافية لحفظ المستندات أو تحويلها.
 
 ## الطبقات
 
@@ -108,5 +110,3 @@ url: /ar/net/aspose.words.saving/
 | [TableContentAlignment](./tablecontentalignment/) | يسمح بتحديد محاذاة محتوى الجدول الذي سيتم استخدامه عند التصدير إلى تنسيق Markdown. |
 | [TiffCompression](./tiffcompression/) | يحدد نوع الضغط المطلوب تطبيقه عند حفظ صور الصفحة في ملف TIFF. |
 | [TxtExportHeadersFootersMode](./txtexportheadersfootersmode/) | يحدد طريقة تصدير الرؤوس والتذييلات إلى تنسيق نص عادي. |
-
-

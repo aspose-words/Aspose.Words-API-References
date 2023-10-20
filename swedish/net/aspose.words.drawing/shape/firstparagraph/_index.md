@@ -1,7 +1,9 @@
 ---
 title: Shape.FirstParagraph
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Får första stycket i formen.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words för .NET
+description: Shape FirstParagraph fast egendom. Får första stycket i formen i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing/shape/firstparagraph/
@@ -14,7 +16,7 @@ Får första stycket i formen.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar och formaterar en textruta.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

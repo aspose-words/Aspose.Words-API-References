@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldSeparator
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤه عند مواجهة فاصل حقل في المستند.
+linktitle: VisitFieldSeparator
+articleTitle: VisitFieldSeparator
+second_title: Aspose.Words لـ .NET
+description: DocumentVisitor VisitFieldSeparator طريقة. يتم استدعاؤه عند مواجهة فاصل حقل في المستند في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words/documentvisitor/visitfieldseparator/
@@ -22,13 +24,13 @@ public virtual VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
 
 أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
 
-### ملاحظات
+## ملاحظات
 
 يفصل فاصل الحقل رمز الحقل عن قيمة الحقل في المستند. لاحظ أن بعض حقول تحتوي على رمز الحقل فقط ولا تحتوي على فاصل حقل وقيمة حقل.
 
 لمزيد من المعلومات انظر[`VisitFieldStart`](../visitfieldstart/)
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل حقل في المستند.
 
@@ -133,7 +135,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldSeparator](../../../aspose.words.fields/fieldseparator/)
 * class [DocumentVisitor](../)
-* مساحة الاسم [Aspose.Words](../../documentvisitor/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

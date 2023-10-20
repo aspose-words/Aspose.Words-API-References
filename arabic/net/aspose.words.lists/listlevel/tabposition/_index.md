@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TabPosition
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevel ملكية. إرجاع أو تعيين موضع علامة التبويب بالنقاط لمستوى القائمة.
+linktitle: TabPosition
+articleTitle: TabPosition
+second_title: Aspose.Words لـ .NET
+description: ListLevel TabPosition ملكية. إرجاع أو تعيين موضع علامة التبويب بالنقاط لمستوى القائمة في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.lists/listlevel/tabposition/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/listlevel/tabposition/
 public double TabPosition { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يكون له تأثير فقط عندما[`TrailingCharacter`](../trailingcharacter/) هي علامة تبويب.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق القائمة المخصصة على الفقرات عند استخدام DocumentBuilder.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### أنظر أيضا
 
 * class [ListLevel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

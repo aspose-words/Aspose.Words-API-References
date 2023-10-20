@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlElementSizeOutputMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.HtmlElementSizeOutputMode énumération. Spécifie comment Aspose.Words exporte les largeurs et hauteurs des éléments au format HTML MHTML et EPUB.
+title: HtmlElementSizeOutputMode Enum
+linktitle: HtmlElementSizeOutputMode
+articleTitle: HtmlElementSizeOutputMode
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.HtmlElementSizeOutputMode énumération. Spécifie comment Aspose.Words exporte les largeurs et hauteurs des éléments au format HTML MHTML et EPUB en C#.
 type: docs
 weight: 5060
 url: /fr/net/aspose.words.saving/htmlelementsizeoutputmode/
@@ -22,7 +24,7 @@ public enum HtmlElementSizeOutputMode
 | RelativeOnly | `1` | Les tailles des éléments sont exportées uniquement si elles sont spécifiées en unités relatives dans le document. Les tailles fixes ne sont pas exportées dans ce mode. Les agents visuels calculeront les tailles manquantes pour rendre la mise en page du document plus naturelle. |
 | None | `2` | Les tailles des éléments ne sont pas exportées. Les agents visuels construiront automatiquement la mise en page en fonction de la relation entre les éléments. |
 
-### Exemples
+## Exemples
 
 Montre comment conserver les retraits négatifs dans le fichier .html de sortie.
 
@@ -86,5 +88,3 @@ else
 * property [TableWidthOutputMode](../htmlsaveoptions/tablewidthoutputmode/)
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

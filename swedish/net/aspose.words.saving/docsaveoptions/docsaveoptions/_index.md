@@ -1,7 +1,9 @@
 ---
-title: DocSaveOptions.DocSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: DocSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara ett dokument iDoc format.
+title: DocSaveOptions
+linktitle: DocSaveOptions
+articleTitle: DocSaveOptions
+second_title: Aspose.Words för .NET
+description: DocSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara ett dokument iDoc format i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/docsaveoptions/docsaveoptions/
@@ -14,7 +16,7 @@ Initierar en ny instans av denna klass som kan användas för att spara ett doku
 public DocSaveOptions()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in sparalternativ för äldre Microsoft Word-format.
 
@@ -47,12 +49,12 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Se även
 
 * class [DocSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../docsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## DocSaveOptions(SaveFormat) {#constructor_1}
+## DocSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Initierar en ny instans av denna klass som kan användas för att spara ett dokument iDoc or Dot format.
 
@@ -64,7 +66,7 @@ public DocSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Kan varaDoc ellerDot. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in sparalternativ för äldre Microsoft Word-format.
 
@@ -98,7 +100,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [DocSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../docsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

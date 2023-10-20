@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlElementSizeOutputMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.HtmlElementSizeOutputMode Sıralama. Aspose.Wordsün öğe genişliklerini ve yüksekliklerini HTML MHTML ve EPUBa nasıl aktardığını belirtir.
+title: HtmlElementSizeOutputMode Enum
+linktitle: HtmlElementSizeOutputMode
+articleTitle: HtmlElementSizeOutputMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.HtmlElementSizeOutputMode Sıralama. Aspose.Wordsün öğe genişliklerini ve yüksekliklerini HTML MHTML ve EPUBa nasıl aktardığını belirtir C#'da.
 type: docs
 weight: 5060
 url: /tr/net/aspose.words.saving/htmlelementsizeoutputmode/
@@ -22,7 +24,7 @@ public enum HtmlElementSizeOutputMode
 | RelativeOnly | `1` | Öğe boyutları yalnızca belgede ilgili birimler halinde belirtilmişse dışa aktarılır. Sabit boyutlar bu modda dışa aktarılmaz. Görsel aracılar, belge düzenini daha doğal hale getirmek için eksik boyutları hesaplayacak. |
 | None | `2` | Öğe boyutları dışa aktarılmaz. Görsel aracılar, öğeler arasındaki ilişkiye göre düzeni otomatik olarak oluşturacaktır. |
 
-### Örnekler
+## Örnekler
 
 .html çıktısında negatif girintilerin nasıl korunacağını gösterir.
 
@@ -86,5 +88,3 @@ else
 * property [TableWidthOutputMode](../htmlsaveoptions/tablewidthoutputmode/)
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

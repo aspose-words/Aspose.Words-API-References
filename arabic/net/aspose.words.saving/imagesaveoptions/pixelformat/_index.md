@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PixelFormat
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. الحصول على أو تعيين تنسيق البكسل للصور التي تم إنشاؤها.
+linktitle: PixelFormat
+articleTitle: PixelFormat
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions PixelFormat ملكية. الحصول على أو تعيين تنسيق البكسل للصور التي تم إنشاؤها في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.saving/imagesaveoptions/pixelformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/imagesaveoptions/pixelformat/
 public ImagePixelFormat PixelFormat { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تؤثر هذه الخاصية فقط عند الحفظ في تنسيقات الصور النقطية.
 
@@ -22,7 +24,7 @@ public ImagePixelFormat PixelFormat { get; set; }
 
 قد يختلف تنسيق البكسل للصورة الناتجة عن القيمة المحددة بسبب عمل GDI+.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد معدل بت لكل بكسل لعرض مستند على صورة.
 
@@ -88,7 +90,5 @@ Document doc = new Document();
 
 * enum [ImagePixelFormat](../../imagepixelformat/)
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

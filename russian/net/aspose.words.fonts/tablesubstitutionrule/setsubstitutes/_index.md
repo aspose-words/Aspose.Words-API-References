@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.SetSubstitutes
-second_title: Справочник по API Aspose.Words для .NET
-description: TableSubstitutionRule метод. Переопределить имена замещающих шрифтов для данного исходного имени шрифта.
+linktitle: SetSubstitutes
+articleTitle: SetSubstitutes
+second_title: Aspose.Words для .NET
+description: TableSubstitutionRule SetSubstitutes метод. Переопределить имена замещающих шрифтов для данного исходного имени шрифта на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fonts/tablesubstitutionrule/setsubstitutes/
@@ -19,7 +21,7 @@ public void SetSubstitutes(string originalFontName, params string[] substituteFo
 | originalFontName | String | Оригинальное название шрифта. |
 | substituteFontNames | String[] | Список альтернативных названий шрифтов. |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить правила замены шрифтов.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Смотрите также
 
 * class [TableSubstitutionRule](../)
-* пространство имен [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

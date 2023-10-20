@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Clone
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings yöntem. Bu nesnenin derin bir kopyasını döndürür.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words for .NET
+description: MailMergeSettings Clone yöntem. Bu nesnenin derin bir kopyasını döndürür C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.settings/mailmergesettings/clone/
@@ -14,7 +16,7 @@ Bu nesnenin derin bir kopyasını döndürür.
 public MailMergeSettings Clone()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Ayrıca bakınız
 
 * class [MailMergeSettings](../)
-* ad alanı [Aspose.Words.Settings](../../mailmergesettings/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

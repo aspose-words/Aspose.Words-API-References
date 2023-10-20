@@ -1,7 +1,9 @@
 ---
 title: Row.ParentTable
-second_title: Aspose.Words for .NET API 参考
-description: Row 财产. 返回该行的直接父表
+linktitle: ParentTable
+articleTitle: ParentTable
+second_title: 用于 .NET 的 Aspose.Words
+description: Row ParentTable 财产. 返回该行的直接父表 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.tables/row/parenttable/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.tables/row/parenttable/
 public Table ParentTable { get; }
 ```
 
-### 评论
+## 评论
 
 相当于FirstNonMarkupParentNode投射到[`Table`](../../table/)。
 
-### 例子
+## 例子
 
 演示如何打印文档中每个表的节点结构。
 
@@ -182,7 +184,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Table](../../table/)
 * class [Row](../)
-* 命名空间 [Aspose.Words.Tables](../../row/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

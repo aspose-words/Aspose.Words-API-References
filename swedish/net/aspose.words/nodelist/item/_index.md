@@ -1,7 +1,9 @@
 ---
 title: NodeList.Item
-second_title: Aspose.Words för .NET API Referens
-description: NodeList fast egendom. Hämtar en nod vid det givna indexet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: NodeList Item fast egendom. Hämtar en nod vid det givna indexet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/nodelist/item/
@@ -18,7 +20,7 @@ public Node this[int index] { get; }
 | --- | --- |
 | index | Ett index i listan över noder. |
 
-### Anmärkningar
+## Anmärkningar
 
 Indexet är nollbaserat.
 
@@ -28,7 +30,7 @@ Om index är större än eller lika med antalet objekt i listan, returnerar dett
 
 Om index är negativt och dess absoluta värde är större än antalet objekt i listan, returnerar detta en nollreferens.
 
-### Exempel
+## Exempel
 
 Visar hur man använder XPaths för att navigera i en nodlista.
 
@@ -87,7 +89,5 @@ Assert.True(shape.HasImage);
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* namnutrymme [Aspose.Words](../../nodelist/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

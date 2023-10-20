@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderAppliesTo
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 指定在哪些页面上打印页面边框
+linktitle: BorderAppliesTo
+articleTitle: BorderAppliesTo
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup BorderAppliesTo 财产. 指定在哪些页面上打印页面边框 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/pagesetup/borderappliesto/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/borderappliesto/
 public PageBorderAppliesTo BorderAppliesTo { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在第一页顶部创建宽蓝色带边框。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 
 * enum [PageBorderAppliesTo](../../pageborderappliesto/)
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

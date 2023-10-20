@@ -1,7 +1,9 @@
 ---
-title: Class ImageSize
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.ImageSize clase. Contiene información sobre el tamaño y la resolución de la imagen.
+title: ImageSize Class
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.ImageSize clase. Contiene información sobre el tamaño y la resolución de la imagen en C#.
 type: docs
 weight: 1070
 url: /es/net/aspose.words.drawing/imagesize/
@@ -20,8 +22,8 @@ public class ImageSize
 
 | Nombre | Descripción |
 | --- | --- |
-| [ImageSize](imagesize/#constructor)(int, int) | Inicializa el ancho y el alto con los valores dados en píxeles. Inicializa la resolución a 96 ppp. |
-| [ImageSize](imagesize/#constructor_1)(int, int, double, double) | Inicializa el ancho, alto y resolución a los valores dados. |
+| [ImageSize](imagesize/#constructor)(*int, int*) | Inicializa el ancho y el alto con los valores dados en píxeles. Inicializa la resolución a 96 ppp. |
+| [ImageSize](imagesize/#constructor_1)(*int, int, double, double*) | Inicializa el ancho, alto y resolución a los valores dados. |
 
 ## Propiedades
 
@@ -34,7 +36,7 @@ public class ImageSize
 | [WidthPixels](../../aspose.words.drawing/imagesize/widthpixels/) { get; } | Obtiene el ancho de la imagen en píxeles. |
 | [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints/) { get; } | Obtiene el ancho de la imagen en puntos. 1 punto es 1/72 de pulgada. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cambiar el tamaño de una forma con una imagen.
 
@@ -93,5 +95,3 @@ Muestra cómo cambiar el tamaño de una forma con una imagen.
 * property [ImageSize](../imagedata/imagesize/)
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SectionStart
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Returnerar eller ställer in typen av avsnittsbrytning för det angivna objektet.
+linktitle: SectionStart
+articleTitle: SectionStart
+second_title: Aspose.Words för .NET
+description: PageSetup SectionStart fast egendom. Returnerar eller ställer in typen av avsnittsbrytning för det angivna objektet i C#.
 type: docs
 weight: 390
 url: /sv/net/aspose.words/pagesetup/sectionstart/
@@ -14,7 +16,7 @@ Returnerar eller ställer in typen av avsnittsbrytning för det angivna objektet
 public SectionStart SectionStart { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar ett Aspose.Words-dokument för hand.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * enum [SectionStart](../../sectionstart/)
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

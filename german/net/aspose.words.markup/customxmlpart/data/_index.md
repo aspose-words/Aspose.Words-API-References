@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Data
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomXmlPart eigendom. Ruft den XMLInhalt dieses benutzerdefinierten XMLDatenspeicherteils ab oder legt ihn fest.
+linktitle: Data
+articleTitle: Data
+second_title: Aspose.Words für .NET
+description: CustomXmlPart Data eigendom. Ruft den XMLInhalt dieses benutzerdefinierten XMLDatenspeicherteils ab oder legt ihn fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.markup/customxmlpart/data/
@@ -14,11 +16,11 @@ Ruft den XML-Inhalt dieses benutzerdefinierten XML-Datenspeicherteils ab oder le
 public byte[] Data { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist ein leeres Byte-Array. Der Wert kann nicht sein`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein strukturiertes Dokument-Tag mit benutzerdefinierten XML-Daten erstellt wird.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Siehe auch
 
 * class [CustomXmlPart](../)
-* namensraum [Aspose.Words.Markup](../../customxmlpart/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.SuppressYear
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCitation mülk. Yıl bilgisinin alıntıdan gizlenip gizlenmeyeceğini alır veya ayarlar.
+linktitle: SuppressYear
+articleTitle: SuppressYear
+second_title: Aspose.Words for .NET
+description: FieldCitation SuppressYear mülk. Yıl bilgisinin alıntıdan gizlenip gizlenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/fieldcitation/suppressyear/
@@ -14,7 +16,7 @@ Yıl bilgisinin alıntıdan gizlenip gizlenmeyeceğini alır veya ayarlar.
 public bool SuppressYear { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 CITATION ve KAYNAKÇA alanlarıyla nasıl çalışılacağını gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Ayrıca bakınız
 
 * class [FieldCitation](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcitation/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

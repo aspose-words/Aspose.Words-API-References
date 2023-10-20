@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.PosCodeStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeBarcode свойство. Получает или задает стиль штрихкода торговой точки типы штрихкодов UPCAUPCEEAN13EAN8. Допустимые значения без учета регистра STDSUP2SUP5CASE.
+linktitle: PosCodeStyle
+articleTitle: PosCodeStyle
+second_title: Aspose.Words для .NET
+description: FieldMergeBarcode PosCodeStyle свойство. Получает или задает стиль штрихкода торговой точки типы штрихкодов UPCAUPCEEAN13EAN8. Допустимые значения без учета регистра STDSUP2SUP5CASE на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.fields/fieldmergebarcode/poscodestyle/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldmergebarcode/poscodestyle/
 public string PosCodeStyle { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить объединение писем со штрих-кодами EAN13.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ### Смотрите также
 
 * class [FieldMergeBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fieldmergebarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.BuildAutomatic
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontFallbackSettings méthode. Crée automatiquement les paramètres de secours en analysant les polices disponibles.
+linktitle: BuildAutomatic
+articleTitle: BuildAutomatic
+second_title: Aspose.Words pour .NET
+description: FontFallbackSettings BuildAutomatic méthode. Crée automatiquement les paramètres de secours en analysant les polices disponibles en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/
@@ -14,11 +16,11 @@ Crée automatiquement les paramètres de secours en analysant les polices dispon
 public void BuildAutomatic()
 ```
 
-### Remarques
+## Remarques
 
 Cette méthode peut produire des paramètres de secours non optimaux. Les polices sont vérifiées par[ Plage de caractères Unicode](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) champs et non par la présence réelle des glyphes. De plus, les plages Unicode sont vérifiées individuellement et plusieurs plages liées à une seule langue/script peuvent utiliser différentes polices de secours.
 
-### Exemples
+## Exemples
 
 Montre comment distribuer les polices de secours sur les plages de codes de caractères Unicode.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 ### Voir également
 
 * class [FontFallbackSettings](../)
-* espace de noms [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

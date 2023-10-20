@@ -1,7 +1,9 @@
 ---
-title: Enum WrapType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.WrapType تعداد. يحدد كيفية التفاف النص حول الشكل أو الصورة.
+title: WrapType Enum
+linktitle: WrapType
+articleTitle: WrapType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.WrapType تعداد. يحدد كيفية التفاف النص حول الشكل أو الصورة في C#.
 type: docs
 weight: 1400
 url: /ar/net/aspose.words.drawing/wraptype/
@@ -25,7 +27,7 @@ public enum WrapType
 | Tight | `4` | يتم الالتفاف بإحكام حول حواف الشكل، بدلاً من الالتفاف حول المربع المحيط. |
 | Through | `5` | نفس الشكل الضيق، ولكنه يلتف داخل أي أجزاء مفتوحة من الشكل. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة عائمة في وسط الصفحة.
 
@@ -98,5 +100,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [WrapType](../shapebase/wraptype/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

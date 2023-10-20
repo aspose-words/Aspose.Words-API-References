@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.SaveFormat
-second_title: Aspose.Words for .NET API 参考
-description: SaveOptions 财产. 指定使用此保存选项对象时保存文档的格式
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: SaveOptions SaveFormat 财产. 指定使用此保存选项对象时保存文档的格式 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.saving/saveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/saveoptions/saveformat/
 public abstract SaveFormat SaveFormat { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示将文档保存为 .epub 时如何使用特定编码。
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../saveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: EditableRangeStart fast egendom. ReturnerarEditableRangeStart .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: EditableRangeStart NodeType fast egendom. ReturnerarEditableRangeStart  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/editablerangestart/nodetype/
@@ -14,7 +16,7 @@ ReturnerarEditableRangeStart .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett redigerbart område.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * enum [NodeType](../../nodetype/)
 * class [EditableRangeStart](../)
-* namnutrymme [Aspose.Words](../../editablerangestart/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

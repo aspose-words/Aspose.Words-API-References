@@ -1,7 +1,9 @@
 ---
-title: Table.Table
-second_title: Aspose.Words för .NET API Referens
-description: Table byggare. Initierar en ny instans avTable class.
+title: Table
+linktitle: Table
+articleTitle: Table
+second_title: Aspose.Words för .NET
+description: Table byggare. Initierar en ny instans avTable class i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.tables/table/table/
@@ -18,13 +20,13 @@ public Table(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Ägardokumentet. |
 
-### Anmärkningar
+## Anmärkningar
 
 När[`Table`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null`.
 
-Att lägga till[`Table`](../) till dokumentanvändningenNode) ellerNode) på berättelsen där du vill att tabellen ska infogas.
+Att lägga till[`Table`](../) till dokumentanvändningen[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) eller[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) på berättelsen där du vill att tabellen ska infogas.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en tabell.
 
@@ -108,7 +110,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

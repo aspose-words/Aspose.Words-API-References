@@ -1,7 +1,9 @@
 ---
 title: BubbleSizeCollection.GetEnumerator
-second_title: Referencia de API de Aspose.Words para .NET
-description: BubbleSizeCollection método. Devuelve un objeto enumerador.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words para .NET
+description: BubbleSizeCollection GetEnumerator método. Devuelve un objeto enumerador en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing.charts/bubblesizecollection/getenumerator/
@@ -17,7 +19,5 @@ public IEnumerator<double> GetEnumerator()
 ### Ver también
 
 * class [BubbleSizeCollection](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../bubblesizecollection/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

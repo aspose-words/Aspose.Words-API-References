@@ -1,7 +1,9 @@
 ---
-title: Enum DropCapPosition
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.DropCapPosition تعداد. يحدد موضع النص الاستهلالي المسقط.
+title: DropCapPosition Enum
+linktitle: DropCapPosition
+articleTitle: DropCapPosition
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.DropCapPosition تعداد. يحدد موضع النص الاستهلالي المسقط في C#.
 type: docs
 weight: 1410
 url: /ar/net/aspose.words/dropcapposition/
@@ -22,7 +24,7 @@ public enum DropCapPosition
 | Normal | `1` | يتم وضع الحرف الاستهلالي داخل هامش النص في فقرة الربط. |
 | Margin | `2` | يتم وضع الحرف الاستهلالي خارج هامش النص في فقرة الربط. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء غطاء منسدل.
 
@@ -57,5 +59,3 @@ doc.Save(ArtifactsDir + "ParagraphFormat.DropCap.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

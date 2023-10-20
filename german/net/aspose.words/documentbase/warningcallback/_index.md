@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.WarningCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBase eigendom. Wird während verschiedener Dokumentverarbeitungsvorgänge aufgerufen wenn ein Problem erkannt wird das zu einem Verlust der Daten oder Formatierungstreue führen könnte.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words für .NET
+description: DocumentBase WarningCallback eigendom. Wird während verschiedener Dokumentverarbeitungsvorgänge aufgerufen wenn ein Problem erkannt wird das zu einem Verlust der Daten oder Formatierungstreue führen könnte in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words/documentbase/warningcallback/
@@ -14,11 +16,11 @@ Wird während verschiedener Dokumentverarbeitungsvorgänge aufgerufen, wenn ein 
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Das Dokument kann in jedem Stadium seiner Existenz Warnungen generieren. Daher ist es wichtig, den Warnungsrückruf so früh wie möglich einzurichten, um den Verlust der Warnungen zu vermeiden. ZB solche Eigenschaften wie[`PageCount`](../../document/pagecount/) erstellt tatsächlich das Dokumentlayout, das später zum Rendern verwendet wird, und die Layoutwarnungen gehen möglicherweise verloren, wenn der Warnungsrückruf nur für die späteren Rendering-Aufrufe angegeben wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die IWarningCallback-Schnittstelle zum Überwachen von Schriftartersetzungswarnungen verwendet wird.
 
@@ -127,7 +129,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * interface [IWarningCallback](../../iwarningcallback/)
 * class [DocumentBase](../)
-* namensraum [Aspose.Words](../../documentbase/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

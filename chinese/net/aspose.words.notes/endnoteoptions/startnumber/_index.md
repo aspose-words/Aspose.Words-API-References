@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.StartNumber
-second_title: Aspose.Words for .NET API 参考
-description: EndnoteOptions 财产. 指定第一个自动编号尾注的起始数字或字符
+linktitle: StartNumber
+articleTitle: StartNumber
+second_title: 用于 .NET 的 Aspose.Words
+description: EndnoteOptions StartNumber 财产. 指定第一个自动编号尾注的起始数字或字符 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.notes/endnoteoptions/startnumber/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.notes/endnoteoptions/startnumber/
 public int StartNumber { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性仅在以下情况下有效[`RestartRule`](../restartrule/)设置为 Continuous。
 
-### 例子
+## 例子
 
 演示如何设置文档开始脚注/尾注计数的数字。
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.StartNumber.docx");
 ### 也可以看看
 
 * class [EndnoteOptions](../)
-* 命名空间 [Aspose.Words.Notes](../../endnoteoptions/)
+* 命名空间 [Aspose.Words.Notes](../../../aspose.words.notes/)
 * 部件 [Aspose.Words](../../../)
-
-

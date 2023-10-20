@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ImagesFolderAlias
-second_title: Aspose.Words for .NET API Referansı
-description: MarkdownSaveOptions mülk. Bir belgeye yazılan görüntü URIlerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılan boş bir dizedir.
+linktitle: ImagesFolderAlias
+articleTitle: ImagesFolderAlias
+second_title: Aspose.Words for .NET
+description: MarkdownSaveOptions ImagesFolderAlias mülk. Bir belgeye yazılan görüntü URIlerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılan boş bir dizedir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/
@@ -14,7 +16,7 @@ Bir belgeye yazılan görüntü URI'lerini oluşturmak için kullanılan klasör
 public string ImagesFolderAlias { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir kaydettiğinizde[`Document`](../../../aspose.words/document/) içindeMarkdown format, Aspose.Words'ün belgeye gömülü tüm görselleri bağımsız dosyalar olarak kaydetmesi gerekiyor. [`ImagesFolder`](../imagesfolder/) görüntülerin nereye kaydedileceğini belirtmenize olanak tanır ve `ImagesFolderAlias` görüntü URI'lerinin nasıl oluşturulacağını belirlemeye olanak tanır.
 
@@ -24,7 +26,7 @@ Eğer`ImagesFolderAlias` boş bir dize ise, Markdown'a yazılan görüntü URI's
 
 Eğer`ImagesFolderAlias`ayarlandı '.' (nokta), diğer seçeneklere bakılmaksızın name görüntü dosyası Markdown'a yol olmadan yazılacaktır.
 
-### Örnekler
+## Örnekler
 
 Görüntü URI'lerini oluşturmak için kullanılan klasörün adının nasıl belirleneceğini gösterir.
 
@@ -69,7 +71,5 @@ builder.Document.Save(ArtifactsDir + "MarkdownSaveOptions.ImagesFolder.md", save
 ### Ayrıca bakınız
 
 * class [MarkdownSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../markdownsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

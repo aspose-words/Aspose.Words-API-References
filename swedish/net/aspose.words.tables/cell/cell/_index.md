@@ -1,7 +1,9 @@
 ---
-title: Cell.Cell
-second_title: Aspose.Words för .NET API Referens
-description: Cell byggare. Initierar en ny instans avCell class.
+title: Cell
+linktitle: Cell
+articleTitle: Cell
+second_title: Aspose.Words för .NET
+description: Cell byggare. Initierar en ny instans avCell class i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.tables/cell/cell/
@@ -18,13 +20,13 @@ public Cell(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Ägardokumentet. |
 
-### Anmärkningar
+## Anmärkningar
 
 När[`Cell`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null`.
 
-Att lägga till[`Cell`](../) till dokumentanvändningenNode) ellerNode) på raden där du vill infoga cellen.
+Att lägga till[`Cell`](../) till dokumentanvändningen[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) eller[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) på raden där du vill infoga cellen.
 
-### Exempel
+## Exempel
 
 Visar hur man bygger en kapslad tabell utan att använda ett dokumentbyggare.
 
@@ -81,7 +83,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Cell](../)
-* namnutrymme [Aspose.Words.Tables](../../cell/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

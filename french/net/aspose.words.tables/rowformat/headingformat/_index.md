@@ -1,7 +1,9 @@
 ---
 title: RowFormat.HeadingFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: RowFormat propriété. Vrai si la ligne est répétée comme entête de tableau sur chaque page lorsque le tableau sétend sur plusieurs pages.
+linktitle: HeadingFormat
+articleTitle: HeadingFormat
+second_title: Aspose.Words pour .NET
+description: RowFormat HeadingFormat propriété. Vrai si la ligne est répétée comme entête de tableau sur chaque page lorsque le tableau sétend sur plusieurs pages en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.tables/rowformat/headingformat/
@@ -14,7 +16,7 @@ Vrai si la ligne est répétée comme en-tête de tableau sur chaque page lorsqu
 public bool HeadingFormat { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un tableau avec des lignes qui se répètent sur chaque page.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableSetHeadingRow.docx");
 ### Voir également
 
 * class [RowFormat](../)
-* espace de noms [Aspose.Words.Tables](../../rowformat/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

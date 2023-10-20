@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.MaxCharactersPerLine
-second_title: Referencia de API de Aspose.Words para .NET
-description: TxtSaveOptions propiedad. Obtiene o establece un valor entero que especifica el número máximo de caracteres por línea. El valor predeterminado es 0 lo que significa que no hay límite.
+linktitle: MaxCharactersPerLine
+articleTitle: MaxCharactersPerLine
+second_title: Aspose.Words para .NET
+description: TxtSaveOptions MaxCharactersPerLine propiedad. Obtiene o establece un valor entero que especifica el número máximo de caracteres por línea. El valor predeterminado es 0 lo que significa que no hay límite en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/txtsaveoptions/maxcharactersperline/
@@ -14,7 +16,7 @@ Obtiene o establece un valor entero que especifica el número máximo de caracte
 public int MaxCharactersPerLine { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer el número máximo de caracteres por línea.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "TxtSaveOptions.MaxCharactersPerLine.txt", saveOptions);
 ### Ver también
 
 * class [TxtSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../txtsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

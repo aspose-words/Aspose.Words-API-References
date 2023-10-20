@@ -1,7 +1,9 @@
 ---
 title: Metered.GetConsumptionQuantity
-second_title: Aspose.Words for .NET API Referansı
-description: Metered yöntem. Tüketim dosyasının boyutunu alır
+linktitle: GetConsumptionQuantity
+articleTitle: GetConsumptionQuantity
+second_title: Aspose.Words for .NET
+description: Metered GetConsumptionQuantity yöntem. Tüketim dosyasının boyutunu alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/metered/getconsumptionquantity/
@@ -18,7 +20,7 @@ public static decimal GetConsumptionQuantity()
 
 tüketim miktarı
 
-### Örnekler
+## Örnekler
 
 Ölçülü lisansın nasıl etkinleştirileceğini ve kredinin/tüketimin nasıl izleneceğini gösterir.
 
@@ -45,7 +47,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### Ayrıca bakınız
 
 * class [Metered](../)
-* ad alanı [Aspose.Words](../../metered/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

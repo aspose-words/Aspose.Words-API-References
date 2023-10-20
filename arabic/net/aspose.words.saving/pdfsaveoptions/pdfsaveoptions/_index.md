@@ -1,7 +1,9 @@
 ---
-title: PdfSaveOptions.PdfSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة والذي يمكن استخدامه لحفظ مستند في Pdf التنسيق.
+title: PdfSaveOptions
+linktitle: PdfSaveOptions
+articleTitle: PdfSaveOptions
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة والذي يمكن استخدامه لحفظ مستند في Pdf التنسيق في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/pdfsaveoptions/pdfsaveoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/pdfsaveoptions/
 public PdfSaveOptions()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين الإعداد الفرعي أو تعطيله عند تضمين الخطوط أثناء عرض مستند إلى PDF.
 
@@ -62,7 +64,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: XmlDataLoadOptions.AlwaysGenerateRootObject
-second_title: Aspose.Words für .NET-API-Referenz
-description: XmlDataLoadOptions eigendom. Ruft ein Flag ab oder legt es fest das angibt ob eine generierte Datenquelle immer ein Objekt für ein XMLStammelement enthält. Wenn ein XMLStammelement keine Attribute hat und alle seine untergeordneten Elemente denselben Namen haben wird ein solches Objekt standardmäßig nicht erstellt.
+linktitle: AlwaysGenerateRootObject
+articleTitle: AlwaysGenerateRootObject
+second_title: Aspose.Words für .NET
+description: XmlDataLoadOptions AlwaysGenerateRootObject eigendom. Ruft ein Flag ab oder legt es fest das angibt ob eine generierte Datenquelle immer ein Objekt für ein XMLStammelement enthält. Wenn ein XMLStammelement keine Attribute hat und alle seine untergeordneten Elemente denselben Namen haben wird ein solches Objekt standardmäßig nicht erstellt in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject/
@@ -14,14 +16,12 @@ Ruft ein Flag ab oder legt es fest, das angibt, ob eine generierte Datenquelle i
 public bool AlwaysGenerateRootObject { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH` .
 
 ### Siehe auch
 
 * class [XmlDataLoadOptions](../)
-* namensraum [Aspose.Words.Reporting](../../xmldataloadoptions/)
+* namensraum [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../../)
-
-

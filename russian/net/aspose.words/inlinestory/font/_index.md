@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Font
-second_title: Справочник по API Aspose.Words для .NET
-description: InlineStory свойство. Предоставляет доступ к форматированию шрифта символа привязки этого объекта.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words для .NET
+description: InlineStory Font свойство. Предоставляет доступ к форматированию шрифта символа привязки этого объекта на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/inlinestory/font/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/inlinestory/font/
 public Font Font { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять узлы InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Font](../../font/)
 * class [InlineStory](../)
-* пространство имен [Aspose.Words](../../inlinestory/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

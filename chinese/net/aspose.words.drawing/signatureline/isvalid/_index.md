@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.IsValid
-second_title: Aspose.Words for .NET API 参考
-description: SignatureLine 财产. 表示签名行是由数字签名签署的并且该数字签名有效
+linktitle: IsValid
+articleTitle: IsValid
+second_title: 用于 .NET 的 Aspose.Words
+description: SignatureLine IsValid 财产. 表示签名行是由数字签名签署的并且该数字签名有效 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.drawing/signatureline/isvalid/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/signatureline/isvalid/
 public bool IsValid { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用个人证书和签名行签署文档。
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### 也可以看看
 
 * class [SignatureLine](../)
-* 命名空间 [Aspose.Words.Drawing](../../signatureline/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

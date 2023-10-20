@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SheetsPerBooklet
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Возвращает или задает количество страниц которые будут включены в каждый буклет.
+linktitle: SheetsPerBooklet
+articleTitle: SheetsPerBooklet
+second_title: Aspose.Words для .NET
+description: PageSetup SheetsPerBooklet свойство. Возвращает или задает количество страниц которые будут включены в каждый буклет на С#.
 type: docs
 weight: 400
 url: /ru/net/aspose.words/pagesetup/sheetsperbooklet/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/sheetsperbooklet/
 public int SheetsPerBooklet { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить документ, который можно распечатать в виде сгиба книги.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionRule.Enabled
-second_title: Aspose.Words for .NET API Referansı
-description: FontSubstitutionRule mülk. Kuralın etkin olup olmadığını belirtir.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words for .NET
+description: FontSubstitutionRule Enabled mülk. Kuralın etkin olup olmadığını belirtir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fonts/fontsubstitutionrule/enabled/
@@ -14,7 +16,7 @@ Kuralın etkin olup olmadığını belirtir.
 public virtual bool Enabled { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İşletim sistemine bağlı yazı tipi yapılandırma değişikliğini gösterir.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(1,
 ### Ayrıca bakınız
 
 * class [FontSubstitutionRule](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsubstitutionrule/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

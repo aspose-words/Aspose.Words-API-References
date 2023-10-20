@@ -1,7 +1,9 @@
 ---
-title: Enum DmlRenderingMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.DmlRenderingMode 枚举. 指定如何将 DrawingML 形状呈现为固定页面格式
+title: DmlRenderingMode Enum
+linktitle: DmlRenderingMode
+articleTitle: DmlRenderingMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.DmlRenderingMode 枚举. 指定如何将 DrawingML 形状呈现为固定页面格式 在 C#.
 type: docs
 weight: 4920
 url: /zh/net/aspose.words.saving/dmlrenderingmode/
@@ -21,7 +23,7 @@ public enum DmlRenderingMode
 | Fallback | `0` | 如果后备形状可用于 DrawingML，Aspose.Words 将渲染后备形状而不是 DrawingML。 |
 | DrawingML | `1` | Aspose.Words 忽略 DrawingML 的后备形状并渲染 DrawingML 本身。 这是默认模式。 |
 
-### 例子
+## 例子
 
 展示保存为 PDF 时如何渲染后备形状。
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

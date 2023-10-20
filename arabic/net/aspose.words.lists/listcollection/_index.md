@@ -1,7 +1,9 @@
 ---
-title: Class ListCollection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Lists.ListCollection فصل. يقوم بتخزين وإدارة تنسيق القوائم ذات التعداد النقطي والرقمي المستخدمة في المستند.
+title: ListCollection Class
+linktitle: ListCollection
+articleTitle: ListCollection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Lists.ListCollection فصل. يقوم بتخزين وإدارة تنسيق القوائم ذات التعداد النقطي والرقمي المستخدمة في المستند في C#.
 type: docs
 weight: 3470
 url: /ar/net/aspose.words.lists/listcollection/
@@ -28,13 +30,13 @@ public class ListCollection : IEnumerable<List>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | إنشاء قائمة جديدة بناءً على قالب محدد مسبقًا وإضافتها إلى مجموعة القوائم في المستند. |
-| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | إنشاء قائمة جديدة تشير إلى نمط قائمة وإضافته إلى مجموعة القوائم في المستند. |
-| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(List) | إنشاء قائمة جديدة عن طريق نسخ القائمة المحددة وإضافتها إلى مجموعة القوائم في المستند. |
+| [Add](../../aspose.words.lists/listcollection/add/#add)(*[ListTemplate](../listtemplate/)*) | إنشاء قائمة جديدة بناءً على قالب محدد مسبقًا وإضافتها إلى مجموعة القوائم في المستند. |
+| [Add](../../aspose.words.lists/listcollection/add/#add_1)(*[Style](../../aspose.words/style/)*) | إنشاء قائمة جديدة تشير إلى نمط قائمة وإضافته إلى مجموعة القوائم في المستند. |
+| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(*[List](../list/)*) | إنشاء قائمة جديدة عن طريق نسخ القائمة المحددة وإضافتها إلى مجموعة القوائم في المستند. |
 | [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | الحصول على كائن العداد الذي سيقوم بتعداد القوائم في المستند. |
-| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(int) | الحصول على قائمة حسب معرف القائمة. |
+| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(*int*) | الحصول على قائمة حسب معرف القائمة. |
 
-### ملاحظات
+## ملاحظات
 
 القائمة الموجودة في مستند Microsoft Word هي مجموعة من خصائص تنسيق القائمة. يتم تخزين تنسيق القوائم في`ListCollection` جمع بشكل منفصل من فقرات النص.
 
@@ -54,7 +56,7 @@ public class ListCollection : IEnumerable<List>
 
 ليس من الممكن حذف القوائم بمجرد إنشائها في الإصدار الحالي من Aspose.Words. وهذا يشبه Microsoft Word حيث لا يملك المستخدم تحكمًا صريحًا في تعريفات القائمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند باستخدام عينة من كافة القوائم من مستند آخر.
 
@@ -182,5 +184,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 * class [List](../list/)
 * مساحة الاسم [Aspose.Words.Lists](../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../)
-
-

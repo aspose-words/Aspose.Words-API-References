@@ -1,7 +1,9 @@
 ---
 title: IPageSavingCallback.PageSaving
-second_title: Справочник по API Aspose.Words для .NET
-description: IPageSavingCallback метод. Вызывается когда Aspose.Words сохраняет отдельную страницу в фиксированном формате.
+linktitle: PageSaving
+articleTitle: PageSaving
+second_title: Aspose.Words для .NET
+description: IPageSavingCallback PageSaving метод. Вызывается когда Aspose.Words сохраняет отдельную страницу в фиксированном формате на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/ipagesavingcallback/pagesaving/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/ipagesavingcallback/pagesaving/
 public void PageSaving(PageSavingArgs args)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для сохранения документа в формате HTML постранично.
 
@@ -72,7 +74,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * class [PageSavingArgs](../../pagesavingargs/)
 * interface [IPageSavingCallback](../)
-* пространство имен [Aspose.Words.Saving](../../ipagesavingcallback/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

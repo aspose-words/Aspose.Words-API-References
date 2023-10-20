@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Bidi
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Указывает что этот раздел содержит двунаправленный текст сложные сценарии.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words для .NET
+description: PageSetup Bidi свойство. Указывает что этот раздел содержит двунаправленный текст сложные сценарии на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/pagesetup/bidi/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/pagesetup/bidi/
 public bool Bidi { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Когда`истинный`столбцы в этом разделе располагаются справа налево.
 
-### Примеры
+## Примеры
 
 Показывает, как установить порядок текстовых столбцов в разделе.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PageSetup.Bidi.docx");
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

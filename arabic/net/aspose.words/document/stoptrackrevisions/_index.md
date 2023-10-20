@@ -1,9 +1,11 @@
 ---
 title: Document.StopTrackRevisions
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. إيقاف وضع العلامات التلقائية على تغييرات المستند كمراجعات.
+linktitle: StopTrackRevisions
+articleTitle: StopTrackRevisions
+second_title: Aspose.Words لـ .NET
+description: Document StopTrackRevisions طريقة. إيقاف وضع العلامات التلقائية على تغييرات المستند كمراجعات في C#.
 type: docs
-weight: 740
+weight: 720
 url: /ar/net/aspose.words/document/stoptrackrevisions/
 ---
 ## Document.StopTrackRevisions method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/stoptrackrevisions/
 public void StopTrackRevisions()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تتبع المراجعات أثناء تحرير مستند.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StartTrackRevisions](../starttrackrevisions/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

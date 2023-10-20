@@ -1,7 +1,9 @@
 ---
-title: Class RevisionGroupCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.RevisionGroupCollection klass. En samling avRevisionGroup objekt som representerar revisionsgrupper i dokumentet.
+title: RevisionGroupCollection Class
+linktitle: RevisionGroupCollection
+articleTitle: RevisionGroupCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.RevisionGroupCollection klass. En samling avRevisionGroup objekt som representerar revisionsgrupper i dokumentet i C#.
 type: docs
 weight: 4790
 url: /sv/net/aspose.words/revisiongroupcollection/
@@ -29,11 +31,11 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 | --- | --- |
 | [GetEnumerator](../../aspose.words/revisiongroupcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
 
-### Anmärkningar
+## Anmärkningar
 
 Du skapar inte instanser av den här klassen direkt. Använd[`Groups`](../revisioncollection/groups/) egenskap för att få versionsgrupper närvarande i ett dokument.
 
-### Exempel
+## Exempel
 
 Visar hur man får en grupp av revisioner i ett dokument.
 
@@ -62,5 +64,3 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 * class [RevisionGroup](../revisiongroup/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

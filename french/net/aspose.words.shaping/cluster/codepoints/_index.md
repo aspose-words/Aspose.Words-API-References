@@ -1,7 +1,9 @@
 ---
 title: Cluster.Codepoints
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Cluster propriété. Obtient les points de code du cluster.
+linktitle: Codepoints
+articleTitle: Codepoints
+second_title: Aspose.Words pour .NET
+description: Cluster Codepoints propriété. Obtient les points de code du cluster en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.shaping/cluster/codepoints/
@@ -17,7 +19,5 @@ public int[] Codepoints { get; }
 ### Voir également
 
 * class [Cluster](../)
-* espace de noms [Aspose.Words.Shaping](../../cluster/)
+* espace de noms [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * Assemblée [Aspose.Words](../../../)
-
-

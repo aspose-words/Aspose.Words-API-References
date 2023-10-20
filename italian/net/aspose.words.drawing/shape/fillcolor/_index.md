@@ -1,7 +1,9 @@
 ---
 title: Shape.FillColor
-second_title: Aspose.Words per .NET API Reference
-description: Shape proprietà. Definisce il colore del pennello che riempie il percorso chiuso della forma.
+linktitle: FillColor
+articleTitle: FillColor
+second_title: Aspose.Words per .NET
+description: Shape FillColor proprietà. Definisce il colore del pennello che riempie il percorso chiuso della forma in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.drawing/shape/fillcolor/
@@ -14,13 +16,13 @@ Definisce il colore del pennello che riempie il percorso chiuso della forma.
 public Color FillColor { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa è una scorciatoia per[`Color`](../../fill/color/) proprietà.
 
 Il valore predefinito è White.
 
-### Esempi
+## Esempi
 
 Mostra come riempire una forma con un colore a tinta unita.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ### Guarda anche
 
 * class [Shape](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shape/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

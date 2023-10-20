@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Add
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomXmlSchemaCollection methode. Fügt der Sammlung ein Element hinzu.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words für .NET
+description: CustomXmlSchemaCollection Add methode. Fügt der Sammlung ein Element hinzu in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/customxmlschemacollection/add/
@@ -18,7 +20,7 @@ public void Add(string value)
 | --- | --- | --- |
 | value | String | Das hinzuzufügende Element. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einer XML-Schemasammlung gearbeitet wird.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Siehe auch
 
 * class [CustomXmlSchemaCollection](../)
-* namensraum [Aspose.Words.Markup](../../customxmlschemacollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

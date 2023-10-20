@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.Document
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentPartSavingArgs ملكية. الحصول على كائن المستند الذي يتم حفظه.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words لـ .NET
+description: DocumentPartSavingArgs Document ملكية. الحصول على كائن المستند الذي يتم حفظه في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/documentpartsavingargs/document/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/documentpartsavingargs/document/
 public Document Document { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقسيم مستند إلى أجزاء وحفظها.
 
@@ -132,7 +134,5 @@ public class SavedImageRename : IImageSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [DocumentPartSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../documentpartsavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

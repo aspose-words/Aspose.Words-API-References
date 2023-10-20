@@ -1,7 +1,9 @@
 ---
-title: Enum NodeChangingAction
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.NodeChangingAction uppräkning. Anger typen av nodändring.
+title: NodeChangingAction Enum
+linktitle: NodeChangingAction
+articleTitle: NodeChangingAction
+second_title: Aspose.Words för .NET
+description: Aspose.Words.NodeChangingAction uppräkning. Anger typen av nodändring i C#.
 type: docs
 weight: 4180
 url: /sv/net/aspose.words/nodechangingaction/
@@ -21,7 +23,7 @@ public enum NodeChangingAction
 | Insert | `0` | En nod infogas i trädet. |
 | Remove | `1` | En nod tas bort från trädet. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder en NodeChangingCallback för att övervaka ändringar i dokumentträdet i realtid när vi redigerar det.
 
@@ -99,5 +101,3 @@ private class NodeChangingPrinter : INodeChangingCallback
 * property [Action](../nodechangingargs/action/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

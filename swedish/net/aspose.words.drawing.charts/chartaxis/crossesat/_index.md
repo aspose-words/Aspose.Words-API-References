@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.CrossesAt
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Anger var på den vinkelräta axeln axeln korsar.
+linktitle: CrossesAt
+articleTitle: CrossesAt
+second_title: Aspose.Words för .NET
+description: ChartAxis CrossesAt fast egendom. Anger var på den vinkelräta axeln axeln korsar i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing.charts/chartaxis/crossesat/
@@ -14,13 +16,13 @@ Anger var på den vinkelräta axeln axeln korsar.
 public double CrossesAt { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Egendomen har verkan endast om[`Crosses`](../crosses/) är inställda påCustom. Det stöds inte av MS Office 2016 nya sjökort.
 
 Enheterna bestäms av typen av axel. När axeln är en värdeaxel är värdet för egenskapen ett decimaltal på värdeaxeln. När axeln är en tidskategoriaxel definieras värdet som ett heltal av dagar i förhållande till basdatumet (1899-12-30). För en textkategoriaxel är värdet ett heltalskategorinummer som börjar med 1 som den första kategorin.
 
-### Exempel
+## Exempel
 
 Visar hur man får en grafaxel att korsa på en anpassad plats.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCross.docx");
 ### Se även
 
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

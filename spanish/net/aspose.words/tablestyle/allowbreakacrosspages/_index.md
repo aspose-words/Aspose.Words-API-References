@@ -1,7 +1,9 @@
 ---
 title: TableStyle.AllowBreakAcrossPages
-second_title: Referencia de API de Aspose.Words para .NET
-description: TableStyle propiedad. Obtiene o establece una marca que indica si el texto de una fila de la tabla puede dividirse en un salto de página.
+linktitle: AllowBreakAcrossPages
+articleTitle: AllowBreakAcrossPages
+second_title: Aspose.Words para .NET
+description: TableStyle AllowBreakAcrossPages propiedad. Obtiene o establece una marca que indica si el texto de una fila de la tabla puede dividirse en un salto de página en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/tablestyle/allowbreakacrosspages/
@@ -14,11 +16,11 @@ Obtiene o establece una marca que indica si el texto de una fila de la tabla pue
 public bool AllowBreakAcrossPages { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`verdadero` .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear configuraciones de estilo personalizadas para la tabla.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Ver también
 
 * class [TableStyle](../)
-* espacio de nombres [Aspose.Words](../../tablestyle/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: IPageLayoutCallback.Notify
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IPageLayoutCallback méthode. Ceci est appelé pour informer de la construction de la mise en page et de la progression du rendu.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words pour .NET
+description: IPageLayoutCallback Notify méthode. Ceci est appelé pour informer de la construction de la mise en page et de la progression du rendu en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.layout/ipagelayoutcallback/notify/
@@ -18,11 +20,11 @@ public void Notify(PageLayoutCallbackArgs args)
 | --- | --- | --- |
 | args | PageLayoutCallbackArgs | Un argument de l'événement. |
 
-### Remarques
+## Remarques
 
 Une exception levée par l'implémentation abandonne le processus de création de la mise en page.
 
-### Exemples
+## Exemples
 
 Montre comment suivre les modifications de mise en page avec un rappel de mise en page.
 
@@ -89,7 +91,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * class [PageLayoutCallbackArgs](../../pagelayoutcallbackargs/)
 * interface [IPageLayoutCallback](../)
-* espace de noms [Aspose.Words.Layout](../../ipagelayoutcallback/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

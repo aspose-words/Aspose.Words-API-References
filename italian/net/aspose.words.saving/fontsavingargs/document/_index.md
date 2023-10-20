@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Document
-second_title: Aspose.Words per .NET API Reference
-description: FontSavingArgs proprietà. Ottiene loggetto documento che viene salvato.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words per .NET
+description: FontSavingArgs Document proprietà. Ottiene loggetto documento che viene salvato in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/fontsavingargs/document/
@@ -14,7 +16,7 @@ Ottiene l'oggetto documento che viene salvato.
 public Document Document { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come definire la logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
 
@@ -75,7 +77,5 @@ public class HandleFontSaving : IFontSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [FontSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../fontsavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

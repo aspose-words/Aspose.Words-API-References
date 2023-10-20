@@ -1,7 +1,9 @@
 ---
 title: HeaderFooterCollection.ToArray
-second_title: Aspose.Words for .NET API 参考
-description: HeaderFooterCollection 方法. 复制全部页眉页脚 从集合到一个新数组页眉页脚s.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: 用于 .NET 的 Aspose.Words
+description: HeaderFooterCollection ToArray 方法. 复制全部页眉页脚 从集合到一个新数组页眉页脚s 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/headerfootercollection/toarray/
@@ -18,7 +20,7 @@ public HeaderFooter[] ToArray()
 
 一个数组`页眉页脚`s。
 
-### 例子
+## 例子
 
 演示如何打印文档中每个页眉和页脚的节点结构。
 
@@ -112,7 +114,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* 命名空间 [Aspose.Words](../../headerfootercollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

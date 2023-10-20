@@ -1,7 +1,9 @@
 ---
-title: Class ChartTitle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.ChartTitle classe. Donne accès aux propriétés du titre du graphique.
+title: ChartTitle Class
+linktitle: ChartTitle
+articleTitle: ChartTitle
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.Charts.ChartTitle classe. Donne accès aux propriétés du titre du graphique en C#.
 type: docs
 weight: 820
 url: /fr/net/aspose.words.drawing.charts/charttitle/
@@ -20,12 +22,11 @@ public class ChartTitle
 
 | Nom | La description |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/charttitle/font/) { get; } |  |
 | [Overlay](../../aspose.words.drawing.charts/charttitle/overlay/) { get; set; } | Détermine si d'autres éléments du graphique doivent être autorisés à chevaucher le titre. Par défaut, la superposition est`FAUX` . |
 | [Show](../../aspose.words.drawing.charts/charttitle/show/) { get; set; } | Détermine si le titre doit être affiché pour ce graphique. La valeur par défaut est`vrai` . |
 | [Text](../../aspose.words.drawing.charts/charttitle/text/) { get; set; } | Obtient ou définit le texte du titre du graphique. Si`nul` ou une valeur vide est spécifiée, le titre généré automatiquement sera affiché. |
 
-### Exemples
+## Exemples
 
 Montre comment insérer un graphique et définir un titre.
 
@@ -54,5 +55,3 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * espace de noms [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntry.Font
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartLegendEntry propriété. Donne accès au formatage de la police de cette entrée de légende.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words pour .NET
+description: ChartLegendEntry Font propriété. Donne accès au formatage de la police de cette entrée de légende en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/chartlegendentry/font/
@@ -14,7 +16,7 @@ Donne accès au formatage de la police de cette entrée de légende.
 public Font Font { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser une entrée de légende pour les séries de graphiques.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartLegendEntry](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartlegendentry/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

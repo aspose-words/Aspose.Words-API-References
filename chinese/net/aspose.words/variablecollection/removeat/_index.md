@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.RemoveAt
-second_title: Aspose.Words for .NET API 参考
-description: VariableCollection 方法. 删除指定索引处的文档变量
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: 用于 .NET 的 Aspose.Words
+description: VariableCollection RemoveAt 方法. 删除指定索引处的文档变量 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/variablecollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 从零开始的索引。 |
 
-### 例子
+## 例子
 
 展示如何使用文档的变量集合。
 
@@ -85,7 +87,5 @@ Assert.That(variables, Is.Empty);
 ### 也可以看看
 
 * class [VariableCollection](../)
-* 命名空间 [Aspose.Words](../../variablecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

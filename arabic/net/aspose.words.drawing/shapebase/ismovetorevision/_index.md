@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsMoveToRevision
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. إرجاعحقيقي إذا تم نقل هذا الكائن إدراجه في Microsoft Word أثناء تمكين تعقب التغييرات.
+linktitle: IsMoveToRevision
+articleTitle: IsMoveToRevision
+second_title: Aspose.Words لـ .NET
+description: ShapeBase IsMoveToRevision ملكية. إرجاعحقيقي إذا تم نقل هذا الكائن إدراجه في Microsoft Word أثناء تمكين تعقب التغييرات في C#.
 type: docs
 weight: 330
 url: /ar/net/aspose.words.drawing/shapebase/ismovetorevision/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/ismovetorevision/
 public bool IsMoveToRevision { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعرف على أشكال المراجعة المتحركة.
 
@@ -46,7 +48,5 @@ Assert.False(shapes[1].IsMoveToRevision);
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

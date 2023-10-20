@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.NodeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldEnd propriété. RetoursFieldEnd .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words pour .NET
+description: FieldEnd NodeType propriété. RetoursFieldEnd  en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldend/nodetype/
@@ -14,7 +16,7 @@ RetoursFieldEnd .
 public override NodeType NodeType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FieldEnd](../)
-* espace de noms [Aspose.Words.Fields](../../fieldend/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

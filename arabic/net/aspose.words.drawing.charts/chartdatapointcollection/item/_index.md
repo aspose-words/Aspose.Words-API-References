@@ -1,7 +1,9 @@
 ---
 title: ChartDataPointCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataPointCollection ملكية. إرجاعChartDataPoint للفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: ChartDataPointCollection Item ملكية. إرجاعChartDataPoint للفهرس المحدد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/chartdatapointcollection/item/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatapointcollection/item/
 public ChartDataPoint this[int index] { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع نقاط البيانات على مخطط خطي.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * class [ChartDataPoint](../../chartdatapoint/)
 * class [ChartDataPointCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

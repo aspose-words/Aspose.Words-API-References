@@ -1,7 +1,9 @@
 ---
 title: ParagraphCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphCollection fast egendom. Hämtar enParagraph vid det givna indexet.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: ParagraphCollection Item fast egendom. Hämtar enParagraph vid det givna indexet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/paragraphcollection/item/
@@ -18,7 +20,7 @@ public Paragraph this[int index] { get; }
 | --- | --- |
 | index | Ett index i samlingen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Indexet är nollbaserat.
 
@@ -28,7 +30,7 @@ Om index är större än eller lika med antalet objekt i listan, returnerar dett
 
 Om index är negativt och dess absoluta värde är större än antalet objekt i listan, returnerar detta en nollreferens.
 
-### Exempel
+## Exempel
 
 Visar hur man kontrollerar om ett stycke är en flyttversion.
 
@@ -63,7 +65,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 
 * class [Paragraph](../../paragraph/)
 * class [ParagraphCollection](../)
-* namnutrymme [Aspose.Words](../../paragraphcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

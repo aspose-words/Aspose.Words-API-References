@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.KeepPageStreamOpen
-second_title: Aspose.Words for .NET API 参考
-description: PageSavingArgs 财产. 指定 Aspose.Words 在保存文档页面后是否应保持流打开或关闭它
+linktitle: KeepPageStreamOpen
+articleTitle: KeepPageStreamOpen
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSavingArgs KeepPageStreamOpen 财产. 指定 Aspose.Words 在保存文档页面后是否应保持流打开或关闭它 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/pagesavingargs/keeppagestreamopen/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/pagesavingargs/keeppagestreamopen/
 public bool KeepPageStreamOpen { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认为`错误的` Aspose.Words 将关闭您提供的流 [`PageStream`](../pagestream/)将文档页面写入其中后的属性。 指定`真的`以保持流打开。
 
-### 例子
+## 例子
 
 演示如何使用回调将文档逐页保存为 HTML。
 
@@ -75,7 +77,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### 也可以看看
 
 * class [PageSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../pagesavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

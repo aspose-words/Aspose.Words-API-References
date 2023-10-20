@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Bidi
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Bunun sağdan sola paragraf olup olmadığını alır veya ayarlar.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words for .NET
+description: ParagraphFormat Bidi mülk. Bunun sağdan sola paragraf olup olmadığını alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/paragraphformat/bidi/
@@ -14,11 +16,11 @@ Bunun sağdan sola paragraf olup olmadığını alır veya ayarlar.
 public bool Bidi { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Ne zaman`doğru`, bu paragraf 'deki çalıştırmalar ve diğer satır içi nesneler sağdan sola doğru düzenlenir.
 
-### Örnekler
+## Örnekler
 
 Düz metin belgesinin metin yönünün nasıl algılanacağını gösterir.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

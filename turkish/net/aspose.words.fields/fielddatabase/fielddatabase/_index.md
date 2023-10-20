@@ -1,7 +1,9 @@
 ---
-title: FieldDatabase.FieldDatabase
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDatabase inşaatçı. Default_Constructor
+title: FieldDatabase
+linktitle: FieldDatabase
+articleTitle: FieldDatabase
+second_title: Aspose.Words for .NET
+description: FieldDatabase inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fielddatabase/fielddatabase/
@@ -17,7 +19,5 @@ public FieldDatabase()
 ### Ayrıca bakınız
 
 * class [FieldDatabase](../)
-* ad alanı [Aspose.Words.Fields](../../fielddatabase/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

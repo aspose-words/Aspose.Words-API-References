@@ -1,7 +1,9 @@
 ---
-title: Class EndnoteOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Notes.EndnoteOptions clase. Representa las opciones de numeración de notas finales para un documento o sección.
+title: EndnoteOptions Class
+linktitle: EndnoteOptions
+articleTitle: EndnoteOptions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Notes.EndnoteOptions clase. Representa las opciones de numeración de notas finales para un documento o sección en C#.
 type: docs
 weight: 4240
 url: /es/net/aspose.words.notes/endnoteoptions/
@@ -25,7 +27,7 @@ public sealed class EndnoteOptions
 | [RestartRule](../../aspose.words.notes/endnoteoptions/restartrule/) { get; set; } | Determina cuándo se reinicia la numeración automática. |
 | [StartNumber](../../aspose.words.notes/endnoteoptions/startnumber/) { get; set; } | Especifica el número o carácter inicial de las primeras notas finales numeradas automáticamente. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo seleccionar un lugar diferente donde el documento recopila y muestra sus notas finales.
 
@@ -201,5 +203,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * property [EndnoteOptions](../../aspose.words/pagesetup/endnoteoptions/)
 * espacio de nombres [Aspose.Words.Notes](../../aspose.words.notes/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.Shadow
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. صحيح إذا تم تنسيق الخط على أنه مظلل.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words لـ .NET
+description: Font Shadow ملكية. صحيح إذا تم تنسيق الخط على أنه مظلل في C#.
 type: docs
 weight: 330
 url: /ar/net/aspose.words/font/shadow/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/shadow/
 public bool Shadow { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء سلسلة نص منسقة بظل.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.Shadow.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

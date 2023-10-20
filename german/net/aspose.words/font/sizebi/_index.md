@@ -1,7 +1,9 @@
 ---
 title: Font.SizeBi
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Schriftgröße in Punkten ab die in einem Dokument mit Schreibrichtung von rechts nach links verwendet wird oder legt diese fest.
+linktitle: SizeBi
+articleTitle: SizeBi
+second_title: Aspose.Words für .NET
+description: Font SizeBi eigendom. Ruft die Schriftgröße in Punkten ab die in einem Dokument mit Schreibrichtung von rechts nach links verwendet wird oder legt diese fest in C#.
 type: docs
 weight: 350
 url: /de/net/aspose.words/font/sizebi/
@@ -14,7 +16,7 @@ Ruft die Schriftgröße in Punkten ab, die in einem Dokument mit Schreibrichtung
 public double SizeBi { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie separate Sätze von Schriftarteinstellungen für Text mit der Schreibrichtung von rechts nach links und von rechts nach links definiert werden.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

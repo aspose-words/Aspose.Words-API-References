@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.PushFont
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. يحفظ تنسيق الأحرف الحالي في المكدس.
+linktitle: PushFont
+articleTitle: PushFont
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder PushFont طريقة. يحفظ تنسيق الأحرف الحالي في المكدس في C#.
 type: docs
-weight: 610
+weight: 600
 url: /ar/net/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder.PushFont method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbuilder/pushfont/
 public void PushFont()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مكدس التنسيق الخاص بمنشئ المستندات.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 * property [Font](../font/)
 * method [PopFont](../popfont/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

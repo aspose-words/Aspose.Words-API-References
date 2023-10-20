@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ParagraphBreak
-second_title: Aspose.Words per .NET API Reference
-description: TxtSaveOptionsBase proprietà. Specifica la stringa da utilizzare come interruzione di paragrafo durante lesportazione in formati di testo.
+linktitle: ParagraphBreak
+articleTitle: ParagraphBreak
+second_title: Aspose.Words per .NET
+description: TxtSaveOptionsBase ParagraphBreak proprietà. Specifica la stringa da utilizzare come interruzione di paragrafo durante lesportazione in formati di testo in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
@@ -14,11 +16,11 @@ Specifica la stringa da utilizzare come interruzione di paragrafo durante l'espo
 public string ParagraphBreak { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è[`CrLf`](../../../aspose.words/controlchar/crlf/).
 
-### Esempi
+## Esempi
 
 Mostra come salvare un documento .txt con un'interruzione di paragrafo personalizzata.
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
 ### Guarda anche
 
 * class [TxtSaveOptionsBase](../)
-* spazio dei nomi [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.LastChild
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompositeNode propiedad. Obtiene el último hijo del nodo.
+linktitle: LastChild
+articleTitle: LastChild
+second_title: Aspose.Words para .NET
+description: CompositeNode LastChild propiedad. Obtiene el último hijo del nodo en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words/compositenode/lastchild/
@@ -14,11 +16,11 @@ Obtiene el último hijo del nodo.
 public Node LastChild { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si no hay un último nodo secundario, se`nulo` se devuelve.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los métodos de Node y CompositeNode para eliminar una sección antes de la última sección del documento.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* espacio de nombres [Aspose.Words](../../compositenode/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

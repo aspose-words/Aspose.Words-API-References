@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Spacing
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextColumnCollection propriété. Lorsque les colonnes sont régulièrement espacées obtient ou définit la quantité despace entre chaque colonne en points.
+linktitle: Spacing
+articleTitle: Spacing
+second_title: Aspose.Words pour .NET
+description: TextColumnCollection Spacing propriété. Lorsque les colonnes sont régulièrement espacées obtient ou définit la quantité despace entre chaque colonne en points en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/textcolumncollection/spacing/
@@ -14,11 +16,11 @@ Lorsque les colonnes sont régulièrement espacées, obtient ou définit la quan
 public double Spacing { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 N'a d'effet que lorsque[`EvenlySpaced`](../evenlyspaced/) est réglé sur`vrai` .
 
-### Exemples
+## Exemples
 
 Montre comment créer plusieurs colonnes régulièrement espacées dans une section.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 ### Voir également
 
 * class [TextColumnCollection](../)
-* espace de noms [Aspose.Words](../../textcolumncollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

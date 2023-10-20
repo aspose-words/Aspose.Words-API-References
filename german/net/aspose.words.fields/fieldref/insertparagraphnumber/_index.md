@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertParagraphNumber
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldRef eigendom. Ruft ab oder legt fest ob die Absatznummer des referenzierten Absatzes genau so eingefügt werden soll wie sie im Dokument erscheint.
+linktitle: InsertParagraphNumber
+articleTitle: InsertParagraphNumber
+second_title: Aspose.Words für .NET
+description: FieldRef InsertParagraphNumber eigendom. Ruft ab oder legt fest ob die Absatznummer des referenzierten Absatzes genau so eingefügt werden soll wie sie im Dokument erscheint in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldref/insertparagraphnumber/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Absatznummer des referenzierten Absatzes genau so
 public bool InsertParagraphNumber { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie REF-Felder zum Referenzieren von Lesezeichen eingefügt werden.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Siehe auch
 
 * class [FieldRef](../)
-* namensraum [Aspose.Words.Fields](../../fieldref/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.NameOther
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Devuelve o establece la fuente utilizada para caracteres con códigos de caracteres del 128 al 255.
+linktitle: NameOther
+articleTitle: NameOther
+second_title: Aspose.Words para .NET
+description: Font NameOther propiedad. Devuelve o establece la fuente utilizada para caracteres con códigos de caracteres del 128 al 255 en C#.
 type: docs
 weight: 270
 url: /es/net/aspose.words/font/nameother/
@@ -14,7 +16,7 @@ Devuelve o establece la fuente utilizada para caracteres con códigos de caracte
 public string NameOther { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo Microsoft Word puede combinar dos fuentes diferentes en una sola ejecución.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CellFormat.BottomPadding
-second_title: Aspose.Words per .NET API Reference
-description: CellFormat proprietà. Restituisce o imposta la quantità di spazio in punti da aggiungere sotto il contenuto di cell.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words per .NET
+description: CellFormat BottomPadding proprietà. Restituisce o imposta la quantità di spazio in punti da aggiungere sotto il contenuto di cell in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.tables/cellformat/bottompadding/
@@ -14,7 +16,7 @@ Restituisce o imposta la quantità di spazio (in punti) da aggiungere sotto il c
 public double BottomPadding { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come formattare le celle con un generatore di documenti.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Guarda anche
 
 * class [CellFormat](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cellformat/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.Theme
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取Theme本文档的对象.
+linktitle: Theme
+articleTitle: Theme
+second_title: 用于 .NET 的 Aspose.Words
+description: Document Theme 财产. 获取Theme本文档的对象 在 C#.
 type: docs
 weight: 420
 url: /zh/net/aspose.words/document/theme/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/theme/
 public Theme Theme { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置主题的自定义颜色和字体。
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * class [Theme](../../../aspose.words.themes/theme/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

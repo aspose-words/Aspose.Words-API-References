@@ -1,9 +1,11 @@
 ---
 title: Stroke.StartArrowWidth
-second_title: Aspose.Words für .NET-API-Referenz
-description: Stroke eigendom. Definiert die Pfeilspitzenbreite für den Beginn eines Strichs.
+linktitle: StartArrowWidth
+articleTitle: StartArrowWidth
+second_title: Aspose.Words für .NET
+description: Stroke StartArrowWidth eigendom. Definiert die Pfeilspitzenbreite für den Beginn eines Strichs in C#.
 type: docs
-weight: 190
+weight: 180
 url: /de/net/aspose.words.drawing/stroke/startarrowwidth/
 ---
 ## Stroke.StartArrowWidth property
@@ -14,11 +16,11 @@ Definiert die Pfeilspitzenbreite für den Beginn eines Strichs.
 public ArrowWidth StartArrowWidth { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istMedium.
 
-### Beispiele
+## Beispiele
 
 Zeigt, um eine Vielzahl von Formen zu erstellen.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowWidth](../../arrowwidth/)
 * class [Stroke](../)
-* namensraum [Aspose.Words.Drawing](../../stroke/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class StreamFontSource
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.StreamFontSource classe. Classe base per lorigine del carattere stream definito dallutente.
+title: StreamFontSource Class
+linktitle: StreamFontSource
+articleTitle: StreamFontSource
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fonts.StreamFontSource classe. Classe base per lorigine del carattere stream definito dallutente in C#.
 type: docs
 weight: 3040
 url: /it/net/aspose.words.fonts/streamfontsource/
@@ -32,7 +34,7 @@ public abstract class StreamFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Restituisce l'elenco dei caratteri disponibili tramite questa origine. |
 | abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream/)() | Questo metodo dovrebbe aprire lo stream con i dati dei caratteri su richiesta. |
 
-### Osservazioni
+## Osservazioni
 
 Per utilizzare l'origine del carattere del flusso è necessario creare una classe derivata dal file`StreamFontSource` e fornire l'implementazione di[`OpenFontDataStream`](./openfontdatastream/) metodo.
 
@@ -40,7 +42,7 @@ Per utilizzare l'origine del carattere del flusso è necessario creare una class
 
 `StreamFontSource` può essere utile perché permette di caricare i dati del font solo quando è richiesto e non di salvarli in memoria per il[`FontSettings`](../fontsettings/) tutta la vita.
 
-### Esempi
+## Esempi
 
 Mostra come caricare i caratteri dallo stream.
 
@@ -76,5 +78,3 @@ private class StreamFontSourceFile : StreamFontSource
 * class [FontSourceBase](../fontsourcebase/)
 * spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../)
-
-

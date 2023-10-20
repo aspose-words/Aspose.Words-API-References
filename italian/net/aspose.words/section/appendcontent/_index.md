@@ -1,9 +1,11 @@
 ---
 title: Section.AppendContent
-second_title: Aspose.Words per .NET API Reference
-description: Section metodo. Inserisce una copia del contenuto della sezione sorgente alla fine di questa sezione.
+linktitle: AppendContent
+articleTitle: AppendContent
+second_title: Aspose.Words per .NET
+description: Section AppendContent metodo. Inserisce una copia del contenuto della sezione sorgente alla fine di questa sezione in C#.
 type: docs
-weight: 100
+weight: 80
 url: /it/net/aspose.words/section/appendcontent/
 ---
 ## Section.AppendContent method
@@ -18,7 +20,7 @@ public void AppendContent(Section sourceSection)
 | --- | --- | --- |
 | sourceSection | Section | La sezione da cui copiare il contenuto. |
 
-### Osservazioni
+## Osservazioni
 
 Solo contenuto di[`Body`](../body/) della sezione sorgente viene copiata, l'impostazione della pagina, le intestazioni e i piè di pagina non vengono copiati.
 
@@ -26,7 +28,7 @@ I nodi vengono importati automaticamente se la sezione sorgente appartiene ad un
 
 Non viene creata alcuna nuova sezione nel documento di destinazione.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere il contenuto di una sezione a un'altra sezione.
 
@@ -62,7 +64,5 @@ Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
 ### Guarda anche
 
 * class [Section](../)
-* spazio dei nomi [Aspose.Words](../../section/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

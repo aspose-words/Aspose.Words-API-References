@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.ParentParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: OfficeMath mülk. Üst öğeyi alırParagraph bu düğümün.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words for .NET
+description: OfficeMath ParentParagraph mülk. Üst öğeyi alırParagraph bu düğümün C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.math/officemath/parentparagraph/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.math/officemath/parentparagraph/
 public Paragraph ParentParagraph { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Ofis matematik ekranı formatının nasıl ayarlanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [OfficeMath](../)
-* ad alanı [Aspose.Words.Math](../../officemath/)
+* ad alanı [Aspose.Words.Math](../../../aspose.words.math/)
 * toplantı [Aspose.Words](../../../)
-
-

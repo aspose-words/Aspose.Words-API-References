@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ScaleImageToShapeSize
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger om bilder skalas av Aspose.Words till den gränsande formstorleken vid export till HTML MHTML eller EPUB. Standardvärdet ärSann .
+linktitle: ScaleImageToShapeSize
+articleTitle: ScaleImageToShapeSize
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ScaleImageToShapeSize fast egendom. Anger om bilder skalas av Aspose.Words till den gränsande formstorleken vid export till HTML MHTML eller EPUB. Standardvärdet ärSann  i C#.
 type: docs
 weight: 450
 url: /sv/net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
@@ -14,7 +16,7 @@ Anger om bilder skalas av Aspose.Words till den gränsande formstorleken vid exp
 public bool ScaleImageToShapeSize { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 En bild i ett Microsoft Word-dokument är en form. Formen har en storlek och image har sin egen storlek. Storlekarna är inte direkt kopplade. Till exempel kan bilden vara 1024x786 pixlar, men formen som visar denna bild kan vara 400x300 punkter.
 
@@ -26,7 +28,7 @@ allmänhet gör webbläsare snabb skalning av dålig kvalitet. Som ett resultat 
 
 Förutom former som innehåller individuella rasterbilder, påverkar det här alternativet även gruppformer bestående av rasterbilder. Om`ScaleImageToShapeSize` är`falsk` och en gruppform innehåller rasterbilder vars inneboende upplösning är högre än värdet som anges i[`ImageResolution`](../imageresolution/), Aspose.Words kommer att öka renderingsupplösningen för den gruppen. Detta gör det möjligt att bättre bevara kvaliteten på grupperade högupplösta bilder när du sparar till HTML.
 
-### Exempel
+## Exempel
 
 Visar hur du inaktiverar skalningen av bilder till deras överordnade formdimensioner när du sparar till .html.
 
@@ -82,7 +84,5 @@ Document doc = new Document();
 
 * property [ImageResolution](../imageresolution/)
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

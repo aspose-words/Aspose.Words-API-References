@@ -1,7 +1,9 @@
 ---
 title: Document.CustomXmlParts
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على مجموعة أجزاء تخزين بيانات XML المخصصة أو تعيينها.
+linktitle: CustomXmlParts
+articleTitle: CustomXmlParts
+second_title: Aspose.Words لـ .NET
+description: Document CustomXmlParts ملكية. الحصول على مجموعة أجزاء تخزين بيانات XML المخصصة أو تعيينها في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/document/customxmlparts/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/document/customxmlparts/
 public CustomXmlPartCollection CustomXmlParts { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يقوم Aspose.Words بتحميل أجزاء XML المخصصة وحفظها في مستندات OOXML وDOC فقط.
 
 لا يمكن أن تكون هذه الخاصية`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة باستخدام بيانات XML المخصصة.
 
@@ -88,7 +90,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPartCollection](../../../aspose.words.markup/customxmlpartcollection/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

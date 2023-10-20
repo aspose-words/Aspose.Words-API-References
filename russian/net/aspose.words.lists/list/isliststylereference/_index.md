@@ -1,7 +1,9 @@
 ---
 title: List.IsListStyleReference
-second_title: Справочник по API Aspose.Words для .NET
-description: List свойство. Возвращаетистинный если этот список является ссылкой на стиль списка.
+linktitle: IsListStyleReference
+articleTitle: IsListStyleReference
+second_title: Aspose.Words для .NET
+description: List IsListStyleReference свойство. Возвращаетистинный если этот список является ссылкой на стиль списка на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.lists/list/isliststylereference/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/list/isliststylereference/
 public bool IsListStyleReference { get; }
 ```
 
-### Примечания
+## Примечания
 
 Обратите внимание, что изменение свойств списка, который является ссылкой на стиль списка, не имеет никакого эффекта. Форматирование списка, указанное в самом стиле списка, всегда имеет приоритет.
 
-### Примеры
+## Примеры
 
 Показывает, как создать стиль списка и использовать его в документе.
 
@@ -79,7 +81,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Смотрите также
 
 * class [List](../)
-* пространство имен [Aspose.Words.Lists](../../list/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

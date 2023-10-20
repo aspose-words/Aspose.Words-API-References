@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SubstitutionSettings
-second_title: Aspose.Words per .NET API Reference
-description: FontSettings proprietà. Impostazioni relative al meccanismo di sostituzione dei caratteri.
+linktitle: SubstitutionSettings
+articleTitle: SubstitutionSettings
+second_title: Aspose.Words per .NET
+description: FontSettings SubstitutionSettings proprietà. Impostazioni relative al meccanismo di sostituzione dei caratteri in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fonts/fontsettings/substitutionsettings/
@@ -14,7 +16,7 @@ Impostazioni relative al meccanismo di sostituzione dei caratteri.
 public FontSubstitutionSettings SubstitutionSettings { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i sostituti dei caratteri.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(1,
 
 * class [FontSubstitutionSettings](../../fontsubstitutionsettings/)
 * class [FontSettings](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontsettings/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

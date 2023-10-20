@@ -1,12 +1,14 @@
 ---
 title: FontFallbackSettings.Save
-second_title: Справочник по API Aspose.Words для .NET
-description: FontFallbackSettings метод. Сохраняет текущие резервные настройки в потоковом режиме.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words для .NET
+description: FontFallbackSettings Save метод. Сохраняет текущие резервные настройки в потоковом режиме на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fonts/fontfallbacksettings/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Сохраняет текущие резервные настройки в потоковом режиме.
 
@@ -18,7 +20,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Выходной поток. |
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить и сохранить настройки резервного шрифта в поток или из него.
 
@@ -47,12 +49,12 @@ using (FileStream fontFallbackStream =
 ### Смотрите также
 
 * class [FontFallbackSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Сохраняет текущие резервные настройки в файл.
 
@@ -64,7 +66,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Имя выходного файла. |
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить и сохранить настройки резервного шрифта в XML-документе в локальной файловой системе или из него.
 
@@ -85,7 +87,5 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ### Смотрите также
 
 * class [FontFallbackSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

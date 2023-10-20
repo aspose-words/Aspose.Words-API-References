@@ -1,7 +1,9 @@
 ---
-title: Enum ThemeFont
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Themes.ThemeFont 枚举. 指定文档主题的主题字体名称类型
+title: ThemeFont Enum
+linktitle: ThemeFont
+articleTitle: ThemeFont
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Themes.ThemeFont 枚举. 指定文档主题的主题字体名称类型 在 C#.
 type: docs
 weight: 6490
 url: /zh/net/aspose.words.themes/themefont/
@@ -22,11 +24,11 @@ public enum ThemeFont
 | Major | `1` | 主要主题字体. |
 | Minor | `2` | 次要主题字体。 |
 
-### 评论
+## 评论
 
 指定可在父对象属性中作为主题字体引用的主题字体类型。 此主题字体是对预定义主题字体之一的引用，位于文档的 主题部分，它允许将字体信息在文档中集中设置。
 
-### 例子
+## 例子
 
 展示如何创建和使用主题样式。
 
@@ -131,5 +133,3 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * 命名空间 [Aspose.Words.Themes](../../aspose.words.themes/)
 * 部件 [Aspose.Words](../../)
-
-

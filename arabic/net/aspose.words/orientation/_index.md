@@ -1,7 +1,9 @@
 ---
-title: Enum Orientation
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Orientation تعداد. يحدد اتجاه الصفحة.
+title: Orientation Enum
+linktitle: Orientation
+articleTitle: Orientation
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Orientation تعداد. يحدد اتجاه الصفحة في C#.
 type: docs
 weight: 4320
 url: /ar/net/aspose.words/orientation/
@@ -21,7 +23,7 @@ public enum Orientation
 | Portrait | `1` | اتجاه الصفحة عمودي (ضيق وطويل). |
 | Landscape | `2` | اتجاه الصفحة أفقي (عريض وقصير). |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

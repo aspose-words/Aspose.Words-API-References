@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsHeader
-second_title: Aspose.Words for .NET API 参考
-description: HeaderFooter 财产. 如果是这样则为真HeaderFooter对象是一个标头
+linktitle: IsHeader
+articleTitle: IsHeader
+second_title: 用于 .NET 的 Aspose.Words
+description: HeaderFooter IsHeader 财产. 如果是这样则为真HeaderFooter对象是一个标头 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/headerfooter/isheader/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/headerfooter/isheader/
 public bool IsHeader { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建页眉和页脚。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### 也可以看看
 
 * class [HeaderFooter](../)
-* 命名空间 [Aspose.Words](../../headerfooter/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

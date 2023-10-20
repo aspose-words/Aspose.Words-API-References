@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotSuppressParagraphBorders
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Non sopprimere i bordi del paragrafo accanto ai frame.
+linktitle: DoNotSuppressParagraphBorders
+articleTitle: DoNotSuppressParagraphBorders
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions DoNotSuppressParagraphBorders proprietà. Non sopprimere i bordi del paragrafo accanto ai frame in C#.
 type: docs
 weight: 190
 url: /it/net/aspose.words.settings/compatibilityoptions/donotsuppressparagraphborders/
@@ -17,7 +19,5 @@ public bool DoNotSuppressParagraphBorders { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

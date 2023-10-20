@@ -1,7 +1,9 @@
 ---
-title: Class VbaReferenceCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Vba.VbaReferenceCollection sınıf. Aşağıdakilerin bir koleksiyonunu temsil ederVbaReference nesneler.
+title: VbaReferenceCollection Class
+linktitle: VbaReferenceCollection
+articleTitle: VbaReferenceCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Vba.VbaReferenceCollection sınıf. Aşağıdakilerin bir koleksiyonunu temsil ederVbaReference nesneler C#'da.
 type: docs
 weight: 6600
 url: /tr/net/aspose.words.vba/vbareferencecollection/
@@ -27,10 +29,10 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 
 | İsim | Tanım |
 | --- | --- |
-| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | Belirtilenin ilk oluşumunu kaldırır[`VbaReference`](../vbareference/) koleksiyondan bir parça. |
-| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | Kaldırır[`VbaReference`](../vbareference/) koleksiyonun belirtilen dizinindeki öğe. |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(*[VbaReference](../vbareference/)*) | Belirtilenin ilk oluşumunu kaldırır[`VbaReference`](../vbareference/) koleksiyondan bir parça. |
+| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(*int*) | Kaldırır[`VbaReference`](../vbareference/) koleksiyonun belirtilen dizinindeki öğe. |
 
-### Örnekler
+## Örnekler
 
 VBA referans koleksiyonundan bir öğenin nasıl alınacağını/kaldırılacağını gösterir.
 
@@ -106,5 +108,3 @@ private static string GetLibIdProjectPath(string libIdProject)
 * class [VbaReference](../vbareference/)
 * ad alanı [Aspose.Words.Vba](../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../)
-
-

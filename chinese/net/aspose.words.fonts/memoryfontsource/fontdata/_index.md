@@ -1,7 +1,9 @@
 ---
 title: MemoryFontSource.FontData
-second_title: Aspose.Words for .NET API 参考
-description: MemoryFontSource 财产. 二进制字体数据
+linktitle: FontData
+articleTitle: FontData
+second_title: 用于 .NET 的 Aspose.Words
+description: MemoryFontSource FontData 财产. 二进制字体数据 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/memoryfontsource/fontdata/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/memoryfontsource/fontdata/
 public byte[] FontData { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用字节数组和字体文件中的数据作为字体源。
 
@@ -33,7 +35,5 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 ### 也可以看看
 
 * class [MemoryFontSource](../)
-* 命名空间 [Aspose.Words.Fonts](../../memoryfontsource/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

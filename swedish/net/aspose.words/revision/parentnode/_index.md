@@ -1,7 +1,9 @@
 ---
 title: Revision.ParentNode
-second_title: Aspose.Words för .NET API Referens
-description: Revision fast egendom. Hämtar den omedelbara överordnade noden ägaren till denna version. Den här egenskapen kommer att fungera för alla andra versionstyper änStyleDefinitionChange .
+linktitle: ParentNode
+articleTitle: ParentNode
+second_title: Aspose.Words för .NET
+description: Revision ParentNode fast egendom. Hämtar den omedelbara överordnade noden ägaren till denna version. Den här egenskapen kommer att fungera för alla andra versionstyper änStyleDefinitionChange  i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/revision/parentnode/
@@ -14,11 +16,11 @@ Hämtar den omedelbara överordnade noden (ägaren) till denna version. Den här
 public Node ParentNode { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om denna version avser ändring av stilformatering, använd[`ParentStyle`](../parentstyle/) istället.
 
-### Exempel
+## Exempel
 
 Visar hur man bestämmer revisionstypen för en inline-nod.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Node](../../node/)
 * class [Revision](../)
-* namnutrymme [Aspose.Words](../../revision/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

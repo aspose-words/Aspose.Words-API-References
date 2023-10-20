@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingHyphenChar
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. الواصلة غير منقسمة في Microsoft Word هي char30.
+linktitle: NonBreakingHyphenChar
+articleTitle: NonBreakingHyphenChar
+second_title: Aspose.Words لـ .NET
+description: ControlChar NonBreakingHyphenChar مجال. الواصلة غير منقسمة في Microsoft Word هي char30 في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words/controlchar/nonbreakinghyphenchar/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/controlchar/nonbreakinghyphenchar/
 public const char NonBreakingHyphenChar;
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا تتوافق الواصلة غير منقسمة في Microsoft Word مع حرف Unicode U+2011 واصلة غير منقسمة ولكنها تمثل بدلاً من ذلك معلومات داخلية تخبر Microsoft Word بعرض واصلة وعدم قطع سطر.
 
 معلومات مفيدة: http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة أحرف تحكم مختلفة إلى مستند.
 
@@ -92,7 +94,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

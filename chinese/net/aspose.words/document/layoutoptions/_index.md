@@ -1,7 +1,9 @@
 ---
 title: Document.LayoutOptions
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获得LayoutOptions表示控制此文档布局过程的选项的对象
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Document LayoutOptions 财产. 获得LayoutOptions表示控制此文档布局过程的选项的对象 在 C#.
 type: docs
 weight: 250
 url: /zh/net/aspose.words/document/layoutoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/layoutoptions/
 public LayoutOptions LayoutOptions { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在渲染的输出文档中隐藏文本。
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * class [LayoutOptions](../../../aspose.words.layout/layoutoptions/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

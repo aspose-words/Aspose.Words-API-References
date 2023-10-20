@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Type
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoFieldMapData mülk. Belirli bir adresmektup birleştirme alanının belirtilen dış veri kaynağındaki bir sütunla eşlenip eşlenmediğini belirtir. Varsayılan değerDefault .
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: OdsoFieldMapData Type mülk. Belirli bir adresmektup birleştirme alanının belirtilen dış veri kaynağındaki bir sütunla eşlenip eşlenmediğini belirtir. Varsayılan değerDefault  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.settings/odsofieldmapdata/type/
@@ -14,7 +16,7 @@ Belirli bir adres-mektup birleştirme alanının, belirtilen dış veri kaynağ�
 public OdsoFieldMappingType Type { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * enum [OdsoFieldMappingType](../../odsofieldmappingtype/)
 * class [OdsoFieldMapData](../)
-* ad alanı [Aspose.Words.Settings](../../odsofieldmapdata/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

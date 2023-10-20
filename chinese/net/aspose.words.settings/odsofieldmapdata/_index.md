@@ -1,7 +1,9 @@
 ---
-title: Class OdsoFieldMapData
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.OdsoFieldMapData 班级. 指定如何将外部数据源中的列映射到文档中的预定义合并字段
+title: OdsoFieldMapData Class
+linktitle: OdsoFieldMapData
+articleTitle: OdsoFieldMapData
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.OdsoFieldMapData 班级. 指定如何将外部数据源中的列映射到文档中的预定义合并字段 在 C#.
 type: docs
 weight: 5900
 url: /zh/net/aspose.words.settings/odsofieldmapdata/
@@ -37,11 +39,11 @@ public class OdsoFieldMapData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsofieldmapdata/clone/)() | 返回此对象的深度克隆。 |
 
-### 评论
+## 评论
 
 Microsoft Word 提供了一些预定义的合并字段名称，允许将它们作为 MERGEFIELD 或 在 ADDRESSBLOCK 或 GREETINGLINE 字段中使用插入到文档中。中指定的信息`OdsoFieldMapData` 允许将外部数据源中的一列映射到单个预定义的合并字段。
 
-### 例子
+## 例子
 
 演示如何访问将数据源列映射到合并字段的数据集合。
 
@@ -85,5 +87,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.Email
-second_title: Aspose.Words for .NET API 参考
-description: SignatureLineOptions 财产. 获取或设置建议签名者的电子邮件地址 此属性的默认值为 空字符串Empty.
+linktitle: Email
+articleTitle: Email
+second_title: 用于 .NET 的 Aspose.Words
+description: SignatureLineOptions Email 财产. 获取或设置建议签名者的电子邮件地址 此属性的默认值为空字符串Empty 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-获取或设置建议签名者的电子邮件地址。 此属性的默认值为 **空字符串**（Empty).
+获取或设置建议签名者的电子邮件地址。 此属性的默认值为**空字符串**（Empty).
 
 ```csharp
 public string Email { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用个人证书和签名行签署文档。
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### 也可以看看
 
 * class [SignatureLineOptions](../)
-* 命名空间 [Aspose.Words](../../signaturelineoptions/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

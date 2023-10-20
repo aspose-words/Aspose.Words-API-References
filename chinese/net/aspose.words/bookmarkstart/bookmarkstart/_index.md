@@ -1,7 +1,9 @@
 ---
-title: BookmarkStart.BookmarkStart
-second_title: Aspose.Words for .NET API 参考
-description: BookmarkStart 构造函数. 初始化一个新实例BookmarkStart类.
+title: BookmarkStart
+linktitle: BookmarkStart
+articleTitle: BookmarkStart
+second_title: 用于 .NET 的 Aspose.Words
+description: BookmarkStart 构造函数. 初始化一个新实例BookmarkStart类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/bookmarkstart/bookmarkstart/
@@ -19,7 +21,7 @@ public BookmarkStart(DocumentBase doc, string name)
 | doc | DocumentBase | 所有者文件。 |
 | name | String | 书签的名称。不可能是`无效的`。 |
 
-### 例子
+## 例子
 
 展示如何添加书签并更新其内容。
 
@@ -109,7 +111,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [BookmarkStart](../)
-* 命名空间 [Aspose.Words](../../bookmarkstart/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

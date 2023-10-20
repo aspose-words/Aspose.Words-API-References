@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Add
-second_title: Aspose.Words for .NET API Referansı
-description: DropDownItemCollection yöntem. Koleksiyonun sonuna bir dize ekler.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: DropDownItemCollection Add yöntem. Koleksiyonun sonuna bir dize ekler C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/dropdownitemcollection/add/
@@ -22,7 +24,7 @@ public int Add(string value)
 
 Yeni öğenin eklendiği sıfır tabanlı dizin.
 
-### Örnekler
+## Örnekler
 
 Açılan kutu alanının nasıl ekleneceğini ve öğe koleksiyonundaki öğelerin nasıl düzenleneceğini gösterir.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### Ayrıca bakınız
 
 * class [DropDownItemCollection](../)
-* ad alanı [Aspose.Words.Fields](../../dropdownitemcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

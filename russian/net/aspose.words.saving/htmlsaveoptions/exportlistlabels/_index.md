@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportListLabels
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Управляет выводом меток списка в HTML MHTML или EPUB. Значение по умолчаниюAuto .
+linktitle: ExportListLabels
+articleTitle: ExportListLabels
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ExportListLabels свойство. Управляет выводом меток списка в HTML MHTML или EPUB. Значение по умолчаниюAuto  на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
 public ExportListLabels ExportListLabels { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить экспорт списка в HTML.
 
@@ -101,7 +103,5 @@ switch (exportListLabels)
 
 * enum [ExportListLabels](../../exportlistlabels/)
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

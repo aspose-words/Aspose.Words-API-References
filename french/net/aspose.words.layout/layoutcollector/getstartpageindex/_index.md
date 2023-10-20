@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetStartPageIndex
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutCollector méthode. Obtient lindex de base 1 de la page où commence le nœud. Renvoie 0 si le nœud ne peut pas être mappé à une page.
+linktitle: GetStartPageIndex
+articleTitle: GetStartPageIndex
+second_title: Aspose.Words pour .NET
+description: LayoutCollector GetStartPageIndex méthode. Obtient lindex de base 1 de la page où commence le nœud. Renvoie 0 si le nœud ne peut pas être mappé à une page en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.layout/layoutcollector/getstartpageindex/
@@ -14,7 +16,7 @@ Obtient l'index de base 1 de la page où commence le nœud. Renvoie 0 si le nœu
 public int GetStartPageIndex(Node node)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment afficher les plages de pages couvertes par un nœud.
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* espace de noms [Aspose.Words.Layout](../../layoutcollector/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

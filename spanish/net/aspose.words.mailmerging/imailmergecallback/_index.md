@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeCallback
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.MailMerging.IMailMergeCallback interfaz. Implemente esta interfaz si desea recibir notificaciones mientras se realiza la combinación de correspondencia.
+title: IMailMergeCallback Interface
+linktitle: IMailMergeCallback
+articleTitle: IMailMergeCallback
+second_title: Aspose.Words para .NET
+description: Aspose.Words.MailMerging.IMailMergeCallback interfaz. Implemente esta interfaz si desea recibir notificaciones mientras se realiza la combinación de correspondencia en C#.
 type: docs
 weight: 3800
 url: /es/net/aspose.words.mailmerging/imailmergecallback/
@@ -20,7 +22,7 @@ public interface IMailMergeCallback
 | --- | --- |
 | [TagsReplaced](../../aspose.words.mailmerging/imailmergecallback/tagsreplaced/)() | Se llama cuando las etiquetas de texto "bigote" se reemplazan con campos MERGEFIELD. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir una lógica personalizada para manejar eventos durante la combinación de correspondencia.
 
@@ -72,5 +74,3 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * espacio de nombres [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../)
-
-

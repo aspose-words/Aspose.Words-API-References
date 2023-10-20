@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FootnoteOptions
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 提供控制本节中脚注的编号和位置的选项
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup FootnoteOptions 财产. 提供控制本节中脚注的编号和位置的选项 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words/pagesetup/footnoteoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/footnoteoptions/
 public FootnoteOptions FootnoteOptions { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何配置影响节中脚注/尾注的选项。
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.FootnoteOptions.docx");
 
 * class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

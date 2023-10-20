@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineBreak
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Radbrytningstecken x000b eller v.
+linktitle: LineBreak
+articleTitle: LineBreak
+second_title: Aspose.Words för .NET
+description: ControlChar LineBreak fält. Radbrytningstecken x000b eller v i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/controlchar/linebreak/
@@ -14,7 +16,7 @@ Radbrytningstecken: "\x000b" eller "\v".
 public static readonly string LineBreak;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

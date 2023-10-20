@@ -1,7 +1,9 @@
 ---
-title: Enum PageLayoutEvent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Layout.PageLayoutEvent énumération. Un code dévénement déclenché lors de la création et du rendu du modèle de mise en page.
+title: PageLayoutEvent Enum
+linktitle: PageLayoutEvent
+articleTitle: PageLayoutEvent
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Layout.PageLayoutEvent énumération. Un code dévénement déclenché lors de la création et du rendu du modèle de mise en page en C#.
 type: docs
 weight: 3370
 url: /fr/net/aspose.words.layout/pagelayoutevent/
@@ -35,7 +37,7 @@ public enum PageLayoutEvent
 | PartRenderingStarted | `10` | Le rendu de la page a commencé. Ceci est déclenché une fois par page. |
 | PartRenderingFinished | `11` | Le rendu de la page est terminé. Ceci est déclenché une fois par page. |
 
-### Exemples
+## Exemples
 
 Montre comment suivre les modifications de mise en page avec un rappel de mise en page.
 
@@ -102,5 +104,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * espace de noms [Aspose.Words.Layout](../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../)
-
-

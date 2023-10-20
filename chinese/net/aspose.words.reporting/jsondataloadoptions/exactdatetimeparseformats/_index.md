@@ -1,7 +1,9 @@
 ---
 title: JsonDataLoadOptions.ExactDateTimeParseFormats
-second_title: Aspose.Words for .NET API 参考
-description: JsonDataLoadOptions 财产. 获取或设置加载 JSON 时解析 JSON 日期时间值的精确格式默认为无效的.
+linktitle: ExactDateTimeParseFormats
+articleTitle: ExactDateTimeParseFormats
+second_title: 用于 .NET 的 Aspose.Words
+description: JsonDataLoadOptions ExactDateTimeParseFormats 财产. 获取或设置加载 JSON 时解析 JSON 日期时间值的精确格式默认为无效的 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformat
 public IEnumerable<string> ExactDateTimeParseFormats { get; set; }
 ```
 
-### 评论
+## 评论
 
 使用 Microsoft® JSON 日期时间格式编码的字符串（例如“/Date(1224043200000)/”）始终被 识别为日期时间值，无论此属性的值如何。该属性定义了在按以下方式解析字符串中的日期时间值时要使用的附加 格式：
 
@@ -25,7 +27,5 @@ public IEnumerable<string> ExactDateTimeParseFormats { get; set; }
 ### 也可以看看
 
 * class [JsonDataLoadOptions](../)
-* 命名空间 [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
-
-

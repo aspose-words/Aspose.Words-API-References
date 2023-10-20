@@ -1,7 +1,9 @@
 ---
-title: Enum FootnoteNumberingRule
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Notes.FootnoteNumberingRule 枚举. 确定何时重新启动自动脚注或尾注编号
+title: FootnoteNumberingRule Enum
+linktitle: FootnoteNumberingRule
+articleTitle: FootnoteNumberingRule
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Notes.FootnoteNumberingRule 枚举. 确定何时重新启动自动脚注或尾注编号 在 C#.
 type: docs
 weight: 4270
 url: /zh/net/aspose.words.notes/footnotenumberingrule/
@@ -23,7 +25,7 @@ public enum FootnoteNumberingRule
 | RestartPage | `2` | 每页重新编号。仅对脚注有效。 |
 | Default | `0` | 等于Continuous. |
 
-### 例子
+## 例子
 
 显示如何在文档中的某些位置重新开始脚注/尾注编号。
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * class [EndnoteOptions](../endnoteoptions/)
 * 命名空间 [Aspose.Words.Notes](../../aspose.words.notes/)
 * 部件 [Aspose.Words](../../)
-
-

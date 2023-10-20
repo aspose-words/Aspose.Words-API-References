@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitHeaderFooterStart
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда началось перечисление верхнего или нижнего колонтитула в разделе.
+linktitle: VisitHeaderFooterStart
+articleTitle: VisitHeaderFooterStart
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitHeaderFooterStart метод. Вызывается когда началось перечисление верхнего или нижнего колонтитула в разделе на С#.
 type: docs
 weight: 290
 url: /ru/net/aspose.words/documentvisitor/visitheaderfooterstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждого верхнего и нижнего колонтитула в документе.
 
@@ -117,7 +119,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [HeaderFooter](../../headerfooter/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

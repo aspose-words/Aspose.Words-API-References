@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.SdtType
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagRangeStart 财产. 获取此结构化文档标签的类型
+linktitle: SdtType
+articleTitle: SdtType
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTagRangeStart SdtType 财产. 获取此结构化文档标签的类型 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/sdttype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/sdttype/
 public SdtType SdtType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何获取多节结构化文档标签的属性。
 
@@ -50,7 +52,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 
 * enum [SdtType](../../sdttype/)
 * class [StructuredDocumentTagRangeStart](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

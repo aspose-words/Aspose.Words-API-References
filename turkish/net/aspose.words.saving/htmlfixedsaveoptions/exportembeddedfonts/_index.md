@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedFonts
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Yazı tiplerinin Base64 formatında Html belgesine gömülmesi gerekip gerekmediğini belirtir. Bu bayrağın ayarlanmasının çıktı Html dosyasının boyutunu önemli ölçüde artırabileceğini unutmayın.
+linktitle: ExportEmbeddedFonts
+articleTitle: ExportEmbeddedFonts
+second_title: Aspose.Words for .NET
+description: HtmlFixedSaveOptions ExportEmbeddedFonts mülk. Yazı tiplerinin Base64 formatında Html belgesine gömülmesi gerekip gerekmediğini belirtir. Bu bayrağın ayarlanmasının çıktı Html dosyasının boyutunu önemli ölçüde artırabileceğini unutmayın C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts/
@@ -14,7 +16,7 @@ Yazı tiplerinin Base64 formatında Html belgesine gömülmesi gerekip gerekmedi
 public bool ExportEmbeddedFonts { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi Html'ye aktarırken gömülü yazı tiplerinin nerede saklanacağının nasıl belirleneceğini gösterir.
 
@@ -54,7 +56,5 @@ else
 ### Ayrıca bakınız
 
 * class [HtmlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

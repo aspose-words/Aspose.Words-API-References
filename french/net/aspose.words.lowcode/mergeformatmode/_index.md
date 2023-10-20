@@ -1,7 +1,9 @@
 ---
-title: Enum MergeFormatMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.LowCode.MergeFormatMode énumération. Spécifie comment le formatage est fusionné lors de la combinaison de plusieurs documents.
+title: MergeFormatMode Enum
+linktitle: MergeFormatMode
+articleTitle: MergeFormatMode
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.LowCode.MergeFormatMode énumération. Spécifie comment le formatage est fusionné lors de la combinaison de plusieurs documents en C#.
 type: docs
 weight: 3750
 url: /fr/net/aspose.words.lowcode/mergeformatmode/
@@ -26,5 +28,3 @@ public enum MergeFormatMode
 
 * espace de noms [Aspose.Words.LowCode](../../aspose.words.lowcode/)
 * Assemblée [Aspose.Words](../../)
-
-

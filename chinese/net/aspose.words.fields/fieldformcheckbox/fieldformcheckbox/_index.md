@@ -1,7 +1,9 @@
 ---
-title: FieldFormCheckBox.FieldFormCheckBox
-second_title: Aspose.Words for .NET API 参考
-description: FieldFormCheckBox 构造函数. 默认构造函数
+title: FieldFormCheckBox
+linktitle: FieldFormCheckBox
+articleTitle: FieldFormCheckBox
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldFormCheckBox 构造函数. 默认构造函数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldformcheckbox/fieldformcheckbox/
@@ -17,7 +19,5 @@ public FieldFormCheckBox()
 ### 也可以看看
 
 * class [FieldFormCheckBox](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldformcheckbox/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

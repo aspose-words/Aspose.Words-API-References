@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.HeadingPairs
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuiltInDocumentProperties propiedad. Especifica los títulos de los documentos y sus nombres.
+linktitle: HeadingPairs
+articleTitle: HeadingPairs
+second_title: Aspose.Words para .NET
+description: BuiltInDocumentProperties HeadingPairs propiedad. Especifica los títulos de los documentos y sus nombres en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.properties/builtindocumentproperties/headingpairs/
@@ -14,7 +16,7 @@ Especifica los títulos de los documentos y sus nombres.
 public object[] HeadingPairs { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cada par de encabezados ocupa dos elementos en esta matriz.
 
@@ -24,7 +26,7 @@ La suma total de recuentos de todos los pares de encabezados en esta propiedad d
 
 Aspose.Words no actualiza esta propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra la relación entre las propiedades "HeadingPairs" y "TitlesOfParts".
 
@@ -55,7 +57,5 @@ while (headingPairsIndex < headingPairs.Length)
 ### Ver también
 
 * class [BuiltInDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

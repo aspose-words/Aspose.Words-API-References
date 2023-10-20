@@ -1,7 +1,9 @@
 ---
-title: Class VariableCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.VariableCollection сорт. Коллекция переменных документа.
+title: VariableCollection Class
+linktitle: VariableCollection
+articleTitle: VariableCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.VariableCollection сорт. Коллекция переменных документа на С#.
 type: docs
 weight: 6530
 url: /ru/net/aspose.words/variablecollection/
@@ -27,21 +29,21 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words/variablecollection/add/)(string, string) | Добавляет переменную документа в коллекцию. |
+| [Add](../../aspose.words/variablecollection/add/)(*string, string*) | Добавляет переменную документа в коллекцию. |
 | [Clear](../../aspose.words/variablecollection/clear/)() | Удаляет все элементы из коллекции. |
-| [Contains](../../aspose.words/variablecollection/contains/)(string) | Определяет, содержит ли коллекция переменную документа с заданным именем. |
+| [Contains](../../aspose.words/variablecollection/contains/)(*string*) | Определяет, содержит ли коллекция переменную документа с заданным именем. |
 | [GetEnumerator](../../aspose.words/variablecollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех переменных в коллекции. |
-| [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(string) | Возвращает отсчитываемый от нуля индекс указанной переменной документа в коллекции. |
-| [Remove](../../aspose.words/variablecollection/remove/)(string) | Удаляет переменную документа с указанным именем из коллекции. |
-| [RemoveAt](../../aspose.words/variablecollection/removeat/)(int) | Удаляет переменную документа по указанному индексу. |
+| [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(*string*) | Возвращает отсчитываемый от нуля индекс указанной переменной документа в коллекции. |
+| [Remove](../../aspose.words/variablecollection/remove/)(*string*) | Удаляет переменную документа с указанным именем из коллекции. |
+| [RemoveAt](../../aspose.words/variablecollection/removeat/)(*int*) | Удаляет переменную документа по указанному индексу. |
 
-### Примечания
+## Примечания
 
 Имена и значения переменных являются строками.
 
 Имена переменных не чувствительны к регистру.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией переменных документа.
 
@@ -109,5 +111,3 @@ Assert.That(variables, Is.Empty);
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

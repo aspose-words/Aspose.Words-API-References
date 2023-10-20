@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Marker
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataPoint fast egendom. Anger diagramdatamarkör.
+linktitle: Marker
+articleTitle: Marker
+second_title: Aspose.Words för .NET
+description: ChartDataPoint Marker fast egendom. Anger diagramdatamarkör i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing.charts/chartdatapoint/marker/
@@ -18,7 +20,5 @@ public ChartMarker Marker { get; }
 
 * class [ChartMarker](../../chartmarker/)
 * class [ChartDataPoint](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

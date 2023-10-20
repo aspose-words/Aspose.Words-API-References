@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.BuiltInDocumentProperties
-second_title: Aspose.Words for .NET API Referansı
-description: PlainTextDocument mülk. AlırBuiltInDocumentProperties belgenin.
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: Aspose.Words for .NET
+description: PlainTextDocument BuiltInDocumentProperties mülk. AlırBuiltInDocumentProperties belgenin C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/plaintextdocument/builtindocumentproperties/
@@ -14,7 +16,7 @@ Alır`BuiltInDocumentProperties` belgenin.
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini ve ardından orijinal belgenin yerleşik özelliklerine nasıl erişileceğini gösterir.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("John Doe", plaintext.BuiltInDocumentProperties.Author);
 
 * class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
 * class [PlainTextDocument](../)
-* ad alanı [Aspose.Words](../../plaintextdocument/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

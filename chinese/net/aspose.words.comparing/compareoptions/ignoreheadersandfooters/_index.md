@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreHeadersAndFooters
-second_title: Aspose.Words for .NET API 参考
-description: CompareOptions 财产. True 表示忽略页眉和页脚内容 默认情况下不忽略页眉和页脚
+linktitle: IgnoreHeadersAndFooters
+articleTitle: IgnoreHeadersAndFooters
+second_title: 用于 .NET 的 Aspose.Words
+description: CompareOptions IgnoreHeadersAndFooters 财产. True 表示忽略页眉和页脚内容 默认情况下不忽略页眉和页脚 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/
@@ -14,7 +16,7 @@ True 表示忽略页眉和页脚内容。 默认情况下不忽略页眉和页�
 public bool IgnoreHeadersAndFooters { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在进行比较时过滤特定类型的文档元素。
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### 也可以看看
 
 * class [CompareOptions](../)
-* 命名空间 [Aspose.Words.Comparing](../../compareoptions/)
+* 命名空间 [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * 部件 [Aspose.Words](../../../)
-
-

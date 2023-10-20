@@ -1,7 +1,9 @@
 ---
 title: Bookmark.BookmarkEnd
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Bookmark propriété. Obtient le nœud qui représente la fin du signet.
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words pour .NET
+description: Bookmark BookmarkEnd propriété. Obtient le nœud qui représente la fin du signet en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/bookmark/bookmarkend/
@@ -14,7 +16,7 @@ Obtient le nœud qui représente la fin du signet.
 public BookmarkEnd BookmarkEnd { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des signets et mettre à jour leur contenu.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [Bookmark](../)
-* espace de noms [Aspose.Words](../../bookmark/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

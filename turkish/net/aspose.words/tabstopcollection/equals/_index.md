@@ -1,12 +1,14 @@
 ---
 title: TabStopCollection.Equals
-second_title: Aspose.Words for .NET API Referansı
-description: TabStopCollection yöntem. Belirtilenin olup olmadığını belirlerTabStopCollection şimdiki değere eşittirTabStopCollection .
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words for .NET
+description: TabStopCollection Equals yöntem. Belirtilenin olup olmadığını belirlerTabStopCollection şimdiki değere eşittirTabStopCollection  C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/tabstopcollection/equals/
 ---
-## Equals(TabStopCollection) {#equals}
+## Equals(*[TabStopCollection](../)*) {#equals}
 
 Belirtilenin olup olmadığını belirler[`TabStopCollection`](../) şimdiki değere eşittir[`TabStopCollection`](../) .
 
@@ -14,7 +16,7 @@ Belirtilenin olup olmadığını belirler[`TabStopCollection`](../) şimdiki de�
 public bool Equals(TabStopCollection rhs)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sekme durakları koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Ayrıca bakınız
 
 * class [TabStopCollection](../)
-* ad alanı [Aspose.Words](../../tabstopcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler.
 
@@ -71,7 +73,7 @@ Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını bel
 public override bool Equals(object obj)
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin sekme durakları koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -115,7 +117,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Ayrıca bakınız
 
 * class [TabStopCollection](../)
-* ad alanı [Aspose.Words](../../tabstopcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

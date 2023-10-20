@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.ChildNodes
-second_title: Aspose.Words für .NET-API-Referenz
-description: Forms2OleControl eigendom. Ruft eine Sammlung unmittelbar untergeordneter Steuerelemente ab.
+linktitle: ChildNodes
+articleTitle: ChildNodes
+second_title: Aspose.Words für .NET
+description: Forms2OleControl ChildNodes eigendom. Ruft eine Sammlung unmittelbar untergeordneter Steuerelemente ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
@@ -14,11 +16,11 @@ Ruft eine Sammlung unmittelbar untergeordneter Steuerelemente ab.
 public virtual Forms2OleControlCollection ChildNodes { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kehrt zurück`Null` wenn diese Kontrolle keine Kinder haben kann.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften eines ActiveX-Steuerelements überprüft werden.
 
@@ -49,7 +51,5 @@ if (oleControl.IsForms2OleControl)
 
 * class [Forms2OleControlCollection](../../forms2olecontrolcollection/)
 * class [Forms2OleControl](../)
-* namensraum [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* namensraum [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * Montage [Aspose.Words](../../../)
-
-

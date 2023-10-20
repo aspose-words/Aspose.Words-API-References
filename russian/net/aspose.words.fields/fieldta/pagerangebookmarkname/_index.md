@@ -1,7 +1,9 @@
 ---
 title: FieldTA.PageRangeBookmarkName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldTA свойство. Получает или задает имя закладки которая отмечает диапазон страниц вставленных в качестве номера страницы записи.
+linktitle: PageRangeBookmarkName
+articleTitle: PageRangeBookmarkName
+second_title: Aspose.Words для .NET
+description: FieldTA PageRangeBookmarkName свойство. Получает или задает имя закладки которая отмечает диапазон страниц вставленных в качестве номера страницы записи на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldta/pagerangebookmarkname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldta/pagerangebookmarkname/
 public string PageRangeBookmarkName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как построить и настроить таблицу авторитетов, используя поля TOA и TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Смотрите также
 
 * class [FieldTA](../)
-* пространство имен [Aspose.Words.Fields](../../fieldta/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

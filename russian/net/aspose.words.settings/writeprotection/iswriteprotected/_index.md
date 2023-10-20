@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.IsWriteProtected
-second_title: Справочник по API Aspose.Words для .NET
-description: WriteProtection свойство. Возвращаетистинный когда установлен пароль защиты от записи.
+linktitle: IsWriteProtected
+articleTitle: IsWriteProtected
+second_title: Aspose.Words для .NET
+description: WriteProtection IsWriteProtected свойство. Возвращаетистинный когда установлен пароль защиты от записи на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.settings/writeprotection/iswriteprotected/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/writeprotection/iswriteprotected/
 public bool IsWriteProtected { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как защитить документ паролем.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### Смотрите также
 
 * class [WriteProtection](../)
-* пространство имен [Aspose.Words.Settings](../../writeprotection/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: AsposeWordsPrintDocument.ColorPagesPrinted
-second_title: Aspose.Words per .NET API Reference
-description: AsposeWordsPrintDocument proprietà. Ottiene il numero di pagine stampate a colori cioè conColor impostato su vero.
+linktitle: ColorPagesPrinted
+articleTitle: ColorPagesPrinted
+second_title: Aspose.Words per .NET
+description: AsposeWordsPrintDocument ColorPagesPrinted proprietà. Ottiene il numero di pagine stampate a colori cioè conColor impostato su vero in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.rendering/asposewordsprintdocument/colorpagesprinted/
@@ -14,7 +16,7 @@ Ottiene il numero di pagine stampate a colori (cioè conColor impostato su vero)
 public int ColorPagesPrinted { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come selezionare un intervallo di pagine e una stampante con cui stampare il documento e quindi visualizzare un'anteprima di stampa.
 
@@ -63,7 +65,5 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 ### Guarda anche
 
 * class [AsposeWordsPrintDocument](../)
-* spazio dei nomi [Aspose.Words.Rendering](../../asposewordsprintdocument/)
+* spazio dei nomi [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * assemblea [Aspose.Words](../../../)
-
-

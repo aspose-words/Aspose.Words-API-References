@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.FontSize
-second_title: Aspose.Words för .NET API Referens
-description: FieldSymbol fast egendom. Hämtar eller ställer in storleken i punkter på teckensnittet för tecknet som hämtas av fältet.
+linktitle: FontSize
+articleTitle: FontSize
+second_title: Aspose.Words för .NET
+description: FieldSymbol FontSize fast egendom. Hämtar eller ställer in storleken i punkter på teckensnittet för tecknet som hämtas av fältet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldsymbol/fontsize/
@@ -14,7 +16,7 @@ Hämtar eller ställer in storleken i punkter på teckensnittet för tecknet som
 public string FontSize { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder SYMBOL-fältet.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Se även
 
 * class [FieldSymbol](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldsymbol/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

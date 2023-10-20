@@ -1,7 +1,9 @@
 ---
-title: Enum WrapType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.WrapType 枚举. 指定文本如何环绕形状或图片
+title: WrapType Enum
+linktitle: WrapType
+articleTitle: WrapType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.WrapType 枚举. 指定文本如何环绕形状或图片 在 C#.
 type: docs
 weight: 1400
 url: /zh/net/aspose.words.drawing/wraptype/
@@ -25,7 +27,7 @@ public enum WrapType
 | Tight | `4` | 紧紧包裹形状的边缘，而不是包裹边界框。 |
 | Through | `5` | 与“紧密”相同，但包裹在形状的任何开放部分内。 |
 
-### 例子
+## 例子
 
 演示如何将浮动图像插入到页面中央。
 
@@ -98,5 +100,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [WrapType](../shapebase/wraptype/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

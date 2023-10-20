@@ -1,7 +1,9 @@
 ---
 title: TabStop.Position
-second_title: Aspose.Words for .NET API 参考
-description: TabStop 财产. 获取制表位的位置以磅为单位
+linktitle: Position
+articleTitle: Position
+second_title: 用于 .NET 的 Aspose.Words
+description: TabStop Position 财产. 获取制表位的位置以磅为单位 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/tabstop/position/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/tabstop/position/
 public double Position { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何修改目录相关段落中右侧制表位的位置。
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 ### 也可以看看
 
 * class [TabStop](../)
-* 命名空间 [Aspose.Words](../../tabstop/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TaskPane.IsVisible
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TaskPane propriété. Spécifie si le volet des tâches saffiche comme visible par défaut à louverture du document.
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words pour .NET
+description: TaskPane IsVisible propriété. Spécifie si le volet des tâches saffiche comme visible par défaut à louverture du document en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.webextensions/taskpane/isvisible/
@@ -14,7 +16,7 @@ Spécifie si le volet des tâches s'affiche comme visible par défaut à l'ouver
 public bool IsVisible { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une extension Web à un document.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Voir également
 
 * class [TaskPane](../)
-* espace de noms [Aspose.Words.WebExtensions](../../taskpane/)
+* espace de noms [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FontFallbackSettings
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.FontFallbackSettings clase. Especifica la configuración del mecanismo de reserva de fuentes.
+title: FontFallbackSettings Class
+linktitle: FontFallbackSettings
+articleTitle: FontFallbackSettings
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fonts.FontFallbackSettings clase. Especifica la configuración del mecanismo de reserva de fuentes en C#.
 type: docs
 weight: 2900
 url: /es/net/aspose.words.fonts/fontfallbacksettings/
@@ -21,18 +23,18 @@ public class FontFallbackSettings
 | Nombre | Descripción |
 | --- | --- |
 | [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic/)() | Crea automáticamente la configuración alternativa escaneando las fuentes disponibles. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(Stream) | Carga la configuración alternativa desde la secuencia XML. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(string) | Carga la configuración de reserva de fuentes desde el archivo XML. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(*Stream*) | Carga la configuración alternativa desde la secuencia XML. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(*string*) | Carga la configuración de reserva de fuentes desde el archivo XML. |
 | [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/)() | Carga configuraciones de respaldo predefinidas que imitan el respaldo de Microsoft Word y utilizan fuentes de Microsoft Office. |
 | [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)() | Carga configuraciones de respaldo predefinidas que utilizan fuentes Google Noto. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(Stream) | Guarda la configuración alternativa actual en la transmisión. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(string) | Guarda la configuración alternativa actual en un archivo. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(*Stream*) | Guarda la configuración alternativa actual en la transmisión. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(*string*) | Guarda la configuración alternativa actual en un archivo. |
 
-### Observaciones
+## Observaciones
 
 De forma predeterminada, la configuración de respaldo se inicializa con configuraciones predefinidas que imitan el respaldo de Microsoft Word.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo distribuir fuentes alternativas en rangos de códigos de caracteres Unicode.
 
@@ -92,5 +94,3 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 
 * espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSize.WidthPixels
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSize propiedad. Obtiene el ancho de la imagen en píxeles.
+linktitle: WidthPixels
+articleTitle: WidthPixels
+second_title: Aspose.Words para .NET
+description: ImageSize WidthPixels propiedad. Obtiene el ancho de la imagen en píxeles en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.drawing/imagesize/widthpixels/
@@ -14,7 +16,7 @@ Obtiene el ancho de la imagen en píxeles.
 public int WidthPixels { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo leer las propiedades de una imagen en una forma.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### Ver también
 
 * class [ImageSize](../)
-* espacio de nombres [Aspose.Words.Drawing](../../imagesize/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

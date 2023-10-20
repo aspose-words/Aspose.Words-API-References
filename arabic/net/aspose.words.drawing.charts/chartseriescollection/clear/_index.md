@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeriesCollection طريقة. يزيل الكلChartSeries من هذه المجموعة.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: ChartSeriesCollection Clear طريقة. يزيل الكلChartSeries من هذه المجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing.charts/chartseriescollection/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartseriescollection/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة وإزالة بيانات السلسلة في مخطط.
 
@@ -61,7 +63,5 @@ chartData.Clear();
 ### أنظر أيضا
 
 * class [ChartSeriesCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

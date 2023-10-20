@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Caption
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Forms2OleControl propriété. Obtient la propriété Caption du contrôle. La valeur par défaut est une chaîne vide.
+linktitle: Caption
+articleTitle: Caption
+second_title: Aspose.Words pour .NET
+description: Forms2OleControl Caption propriété. Obtient la propriété Caption du contrôle. La valeur par défaut est une chaîne vide en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.ole/forms2olecontrol/caption/
@@ -14,7 +16,7 @@ Obtient la propriété Caption du contrôle. La valeur par défaut est une chaî
 public string Caption { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment vérifier les propriétés d'un contrôle ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Voir également
 
 * class [Forms2OleControl](../)
-* espace de noms [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* espace de noms [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * Assemblée [Aspose.Words](../../../)
-
-

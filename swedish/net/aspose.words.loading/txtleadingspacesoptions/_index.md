@@ -1,7 +1,9 @@
 ---
-title: Enum TxtLeadingSpacesOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Loading.TxtLeadingSpacesOptions uppräkning. Anger tillgängliga alternativ för ledande utrymmeshantering under import frånText fil.
+title: TxtLeadingSpacesOptions Enum
+linktitle: TxtLeadingSpacesOptions
+articleTitle: TxtLeadingSpacesOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Loading.TxtLeadingSpacesOptions uppräkning. Anger tillgängliga alternativ för ledande utrymmeshantering under import frånText fil i C#.
 type: docs
 weight: 3720
 url: /sv/net/aspose.words.loading/txtleadingspacesoptions/
@@ -22,7 +24,7 @@ public enum TxtLeadingSpacesOptions
 | Trim | `1` |  |
 | Preserve | `2` |  |
 
-### Exempel
+## Exempel
 
 Visar hur man beskär blanktecken när du laddar dokument i klartext.
 
@@ -99,5 +101,3 @@ switch (txtTrailingSpacesOptions)
 
 * namnutrymme [Aspose.Words.Loading](../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageWatermarkOptions.IsWashout
-second_title: Aspose.Words för .NET API Referens
-description: ImageWatermarkOptions fast egendom. Hämtar eller ställer in ett booleskt värde som är ansvarigt för utspolningseffekten av vattenstämpeln. Standardvärdet ärSann .
+linktitle: IsWashout
+articleTitle: IsWashout
+second_title: Aspose.Words för .NET
+description: ImageWatermarkOptions IsWashout fast egendom. Hämtar eller ställer in ett booleskt värde som är ansvarigt för utspolningseffekten av vattenstämpeln. Standardvärdet ärSann  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/imagewatermarkoptions/iswashout/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett booleskt värde som är ansvarigt för utspolnings
 public bool IsWashout { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en vattenstämpel från en bild i det lokala filsystemet.
 
@@ -42,7 +44,5 @@ Document doc = new Document();
 ### Se även
 
 * class [ImageWatermarkOptions](../)
-* namnutrymme [Aspose.Words](../../imagewatermarkoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

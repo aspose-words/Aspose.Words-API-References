@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.TableName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergingArgsBase propriété. Obtient le nom de la table de données pour lopération de fusion en cours ou une chaîne vide si le nom nest pas disponible.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words pour .NET
+description: FieldMergingArgsBase TableName propriété. Obtient le nom de la table de données pour lopération de fusion en cours ou une chaîne vide si le nom nest pas disponible en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
@@ -14,7 +16,7 @@ Obtient le nom de la table de données pour l'opération de fusion en cours ou u
 public string TableName { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer des champs de formulaire de case à cocher dans les MERGEFIELD en tant que données de fusion lors du publipostage.
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Voir également
 
 * class [FieldMergingArgsBase](../)
-* espace de noms [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

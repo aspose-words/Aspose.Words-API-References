@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Value
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentProperty eigendom. Ruft den Wert der Eigenschaft ab oder legt diesen fest.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words für .NET
+description: DocumentProperty Value eigendom. Ruft den Wert der Eigenschaft ab oder legt diesen fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.properties/documentproperty/value/
@@ -14,11 +16,11 @@ Ruft den Wert der Eigenschaft ab oder legt diesen fest.
 public object Value { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kann nicht sein`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit integrierten Dokumenteigenschaften gearbeitet wird.
 
@@ -52,7 +54,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 ### Siehe auch
 
 * class [DocumentProperty](../)
-* namensraum [Aspose.Words.Properties](../../documentproperty/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

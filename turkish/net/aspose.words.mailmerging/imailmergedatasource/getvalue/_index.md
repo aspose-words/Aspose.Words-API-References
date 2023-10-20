@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.GetValue
-second_title: Aspose.Words for .NET API Referansı
-description: IMailMergeDataSource yöntem. Belirtilen alan adı için bir değer döndürür veyaYANLIŞ alan bulunamazsa.
+linktitle: GetValue
+articleTitle: GetValue
+second_title: Aspose.Words for .NET
+description: IMailMergeDataSource GetValue yöntem. Belirtilen alan adı için bir değer döndürür veyaYANLIŞ alan bulunamazsa C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.mailmerging/imailmergedatasource/getvalue/
@@ -23,7 +25,7 @@ public bool GetValue(string fieldName, out object fieldValue)
 
 `doğru` değer bulunursa.
 
-### Örnekler
+## Örnekler
 
 Özel nesne biçimindeki bir veri kaynağıyla adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -137,7 +139,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### Ayrıca bakınız
 
 * interface [IMailMergeDataSource](../)
-* ad alanı [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

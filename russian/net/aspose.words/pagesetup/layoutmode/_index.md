@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LayoutMode
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Получает или задает режим макета этого раздела.
+linktitle: LayoutMode
+articleTitle: LayoutMode
+second_title: Aspose.Words для .NET
+description: PageSetup LayoutMode свойство. Получает или задает режим макета этого раздела на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words/pagesetup/layoutmode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/layoutmode/
 public SectionLayoutMode LayoutMode { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как указать количество символов, которое может иметь каждая строка.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 
 * enum [SectionLayoutMode](../../sectionlayoutmode/)
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

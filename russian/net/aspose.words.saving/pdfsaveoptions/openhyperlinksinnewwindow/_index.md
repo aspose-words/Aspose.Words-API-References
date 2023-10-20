@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.OpenHyperlinksInNewWindow
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Получает или задает значение определяющее будут ли гиперссылки в выходном PDFдокументе document принудительно открываться в новом окне или вкладке браузера.
+linktitle: OpenHyperlinksInNewWindow
+articleTitle: OpenHyperlinksInNewWindow
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions OpenHyperlinksInNewWindow свойство. Получает или задает значение определяющее будут ли гиперссылки в выходном PDFдокументе document принудительно открываться в новом окне или вкладке браузера на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words.saving/pdfsaveoptions/openhyperlinksinnewwindow/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/openhyperlinksinnewwindow/
 public bool OpenHyperlinksInNewWindow { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ` . Когда это значение установлено на`истинный` Гиперссылки сохраняются с использованием кода JavaScript. Код JavaScript `app.launchURL("URL", правда);` , где`URL-адрес` это гиперссылка.
 
@@ -22,7 +24,7 @@ public bool OpenHyperlinksInNewWindow { get; set; }
 
 Действия JavaScript запрещены стандартами PDF/A-1 и PDF/A-2.`ЛОЖЬ`будет использоваться автоматически при сохранении в PDF/A-1 и PDF/A-2.
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить гиперссылки в документе, который мы конвертируем в PDF, чтобы при нажатии на них открывались новые страницы.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.OpenHyperlinksInNewWindow.pdf", options)
 ### Смотрите также
 
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

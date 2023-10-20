@@ -1,7 +1,9 @@
 ---
 title: WebExtension.AlternateReferences
-second_title: Aspose.Words för .NET API Referens
-description: WebExtension fast egendom. Anger alternativa referenser till ett webbtillägg.
+linktitle: AlternateReferences
+articleTitle: AlternateReferences
+second_title: Aspose.Words för .NET
+description: WebExtension AlternateReferences fast egendom. Anger alternativa referenser till ett webbtillägg i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.webextensions/webextension/alternatereferences/
@@ -18,7 +20,5 @@ public WebExtensionReferenceCollection AlternateReferences { get; }
 
 * class [WebExtensionReferenceCollection](../../webextensionreferencecollection/)
 * class [WebExtension](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../webextension/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

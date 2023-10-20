@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParentSection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. Ruft das übergeordnete Element abSection des Absatzes.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words für .NET
+description: Paragraph ParentSection eigendom. Ruft das übergeordnete Element abSection des Absatzes in C#.
 type: docs
 weight: 200
 url: /de/net/aspose.words/paragraph/parentsection/
@@ -14,7 +16,7 @@ Ruft das übergeordnete Element ab[`Section`](../../section/) des Absatzes.
 public Section ParentSection { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Kopf- und Fußzeile erstellt wird.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Section](../../section/)
 * class [Paragraph](../)
-* namensraum [Aspose.Words](../../paragraph/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

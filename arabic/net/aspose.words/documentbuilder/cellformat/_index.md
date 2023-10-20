@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CellFormat
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. إرجاع كائن يمثل خصائص تنسيق خلايا الجدول الحالي.
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder CellFormat ملكية. إرجاع كائن يمثل خصائص تنسيق خلايا الجدول الحالي في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/documentbuilder/cellformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbuilder/cellformat/
 public CellFormat CellFormat { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق الخلايا باستخدام أداة إنشاء المستندات.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [CellFormat](../../../aspose.words.tables/cellformat/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

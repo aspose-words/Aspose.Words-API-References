@@ -1,7 +1,9 @@
 ---
 title: FieldAdvance.VerticalPosition
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAdvance ملكية. الحصول على أو تعيين عدد النقاط التي يجب من خلالها نقل النص الذي يلي الحقل عموديًا من الحافة العلوية للصفحة.
+linktitle: VerticalPosition
+articleTitle: VerticalPosition
+second_title: Aspose.Words لـ .NET
+description: FieldAdvance VerticalPosition ملكية. الحصول على أو تعيين عدد النقاط التي يجب من خلالها نقل النص الذي يلي الحقل عموديًا من الحافة العلوية للصفحة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldadvance/verticalposition/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldadvance/verticalposition/
 public string VerticalPosition { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل ADVANCE وتحرير خصائصه.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
 ### أنظر أيضا
 
 * class [FieldAdvance](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldadvance/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

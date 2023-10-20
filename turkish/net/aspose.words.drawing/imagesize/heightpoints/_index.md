@@ -1,7 +1,9 @@
 ---
 title: ImageSize.HeightPoints
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSize mülk. Görüntünün yüksekliğini nokta olarak alır. 1 punto 1/72 inçtir.
+linktitle: HeightPoints
+articleTitle: HeightPoints
+second_title: Aspose.Words for .NET
+description: ImageSize HeightPoints mülk. Görüntünün yüksekliğini nokta olarak alır. 1 punto 1/72 inçtir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing/imagesize/heightpoints/
@@ -14,7 +16,7 @@ Görüntünün yüksekliğini nokta olarak alır. 1 punto 1/72 inçtir.
 public double HeightPoints { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şeklin resimle nasıl yeniden boyutlandırılacağını gösterir.
 
@@ -71,7 +73,5 @@ Bir şeklin resimle nasıl yeniden boyutlandırılacağını gösterir.
 ### Ayrıca bakınız
 
 * class [ImageSize](../)
-* ad alanı [Aspose.Words.Drawing](../../imagesize/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

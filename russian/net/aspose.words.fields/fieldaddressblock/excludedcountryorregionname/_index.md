@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.ExcludedCountryOrRegionName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAddressBlock свойство. Получает или задает имя исключенной страны или региона.
+linktitle: ExcludedCountryOrRegionName
+articleTitle: ExcludedCountryOrRegionName
+second_title: Aspose.Words для .NET
+description: FieldAddressBlock ExcludedCountryOrRegionName свойство. Получает или задает имя исключенной страны или региона на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldaddressblock/excludedcountryorregionname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldaddressblock/excludedcountryorregionname/
 public string ExcludedCountryOrRegionName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле ADDRESSBLOCK.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### Смотрите также
 
 * class [FieldAddressBlock](../)
-* пространство имен [Aspose.Words.Fields](../../fieldaddressblock/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageInfo.Landscape
-second_title: Aspose.Words för .NET API Referens
-description: PageInfo fast egendom. ReturnerarSann om sidorienteringen som anges i dokumentet för den här sidan är liggande.
+linktitle: Landscape
+articleTitle: Landscape
+second_title: Aspose.Words för .NET
+description: PageInfo Landscape fast egendom. ReturnerarSann om sidorienteringen som anges i dokumentet för den här sidan är liggande i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.rendering/pageinfo/landscape/
@@ -14,7 +16,7 @@ Returnerar`Sann` om sidorienteringen som anges i dokumentet för den här sidan 
 public bool Landscape { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut information om sidstorlek och orientering för varje sida i ett Word-dokument.
 
@@ -157,7 +159,5 @@ public class MyPrintDocument : PrintDocument
 ### Se även
 
 * class [PageInfo](../)
-* namnutrymme [Aspose.Words.Rendering](../../pageinfo/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

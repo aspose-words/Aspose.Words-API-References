@@ -1,7 +1,9 @@
 ---
-title: ImageSaveOptions.ImageSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara renderade bilder i Tiff Png Bmp  Jpeg Emf Eps ellerSvg format.
+title: ImageSaveOptions
+linktitle: ImageSaveOptions
+articleTitle: ImageSaveOptions
+second_title: Aspose.Words för .NET
+description: ImageSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara renderade bilder i Tiff Png Bmp  Jpeg Emf Eps ellerSvg format i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/imagesaveoptions/imagesaveoptions/
@@ -18,7 +20,7 @@ public ImageSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Kan vara Tiff ,Png ,Bmp , Jpeg ,Emf ,Eps ellerSvg format. |
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar komprimering medan du sparar ett dokument som en JPEG.
 
@@ -52,7 +54,5 @@ Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Jpe
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [ImageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

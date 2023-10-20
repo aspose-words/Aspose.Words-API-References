@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.ListLevel
-second_title: Aspose.Words for .NET API 参考
-description: FieldListNum 财产. 获取或设置列表中的级别覆盖字段的默认行为
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldListNum ListLevel 财产. 获取或设置列表中的级别覆盖字段的默认行为 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldlistnum/listlevel/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldlistnum/listlevel/
 public string ListLevel { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 LISTNUM 字段对段落进行编号。
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### 也可以看看
 
 * class [FieldListNum](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldlistnum/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

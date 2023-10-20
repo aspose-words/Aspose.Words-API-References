@@ -1,7 +1,9 @@
 ---
-title: Enum PdfFontEmbeddingMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.PdfFontEmbeddingMode énumération. Spécifie comment Aspose.Words doit intégrer les polices.
+title: PdfFontEmbeddingMode Enum
+linktitle: PdfFontEmbeddingMode
+articleTitle: PdfFontEmbeddingMode
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.PdfFontEmbeddingMode énumération. Spécifie comment Aspose.Words doit intégrer les polices en C#.
 type: docs
 weight: 5470
 url: /fr/net/aspose.words.saving/pdffontembeddingmode/
@@ -22,7 +24,7 @@ public enum PdfFontEmbeddingMode
 | EmbedNonstandard | `1` | Aspose.Words intègre toutes les polices à l'exception des polices Windows standard Arial et Times New Roman. Seules les polices Arial et Times New Roman sont affectées dans ce mode car MS Word n'intègre pas uniquement ces polices lors de l'enregistrement du document au format PDF. |
 | EmbedNone | `2` | Aspose.Words n'intègre aucune police. |
 
-### Exemples
+## Exemples
 
 Montre comment configurer Aspose.Words pour ignorer l’intégration des polices Arial et Times New Roman dans un document PDF.
 
@@ -68,5 +70,3 @@ switch (pdfFontEmbeddingMode)
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

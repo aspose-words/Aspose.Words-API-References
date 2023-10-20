@@ -1,7 +1,9 @@
 ---
-title: Enum ShowInBalloons
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Layout.ShowInBalloons enumeración. Especifica qué revisiones se representan en globos.
+title: ShowInBalloons Enum
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Layout.ShowInBalloons enumeración. Especifica qué revisiones se representan en globos en C#.
 type: docs
 weight: 3410
 url: /es/net/aspose.words.layout/showinballoons/
@@ -22,11 +24,11 @@ public enum ShowInBalloons
 | Format | `1` | Representa la inserción y eliminación de revisiones en línea, formatea las revisiones en globos. |
 | FormatAndDelete | `2` | Procesa insertar revisiones en línea, eliminar y formatear revisiones en globos. |
 
-### Observaciones
+## Observaciones
 
 Tenga en cuenta que las revisiones no se representan en globos paraShowInAnnotations .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo modificar la apariencia de las revisiones.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * espacio de nombres [Aspose.Words.Layout](../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../)
-
-

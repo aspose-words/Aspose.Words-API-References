@@ -1,7 +1,9 @@
 ---
 title: Font.SnapToGrid
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Anger om det aktuella teckensnittet ska använda dokumenttecknen per rad settings vid layout.
+linktitle: SnapToGrid
+articleTitle: SnapToGrid
+second_title: Aspose.Words för .NET
+description: Font SnapToGrid fast egendom. Anger om det aktuella teckensnittet ska använda dokumenttecknen per rad settings vid layout i C#.
 type: docs
 weight: 370
 url: /sv/net/aspose.words/font/snaptogrid/
@@ -17,7 +19,5 @@ public bool SnapToGrid { get; set; }
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

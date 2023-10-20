@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.HorizontalAlignment
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Spécifie comment la forme est positionnée horizontalement.
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: Aspose.Words pour .NET
+description: ShapeBase HorizontalAlignment propriété. Spécifie comment la forme est positionnée horizontalement en C#.
 type: docs
 weight: 220
 url: /fr/net/aspose.words.drawing/shapebase/horizontalalignment/
@@ -14,13 +16,13 @@ Spécifie comment la forme est positionnée horizontalement.
 public HorizontalAlignment HorizontalAlignment { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estNone.
 
 N'a d'effet que sur les formes flottantes de niveau supérieur.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une image flottante au centre d’une page.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [HorizontalAlignment](../../horizontalalignment/)
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

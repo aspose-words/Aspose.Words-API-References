@@ -1,7 +1,9 @@
 ---
-title: Enum CssStyleSheetType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.CssStyleSheetType uppräkning. Anger hur CSSstilar Cascading Style Sheet exporteras till HTML.
+title: CssStyleSheetType Enum
+linktitle: CssStyleSheetType
+articleTitle: CssStyleSheetType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.CssStyleSheetType uppräkning. Anger hur CSSstilar Cascading Style Sheet exporteras till HTML i C#.
 type: docs
 weight: 4890
 url: /sv/net/aspose.words.saving/cssstylesheettype/
@@ -18,11 +20,11 @@ public enum CssStyleSheetType
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Inline | `0` | CSS-stilar skrivs inline (som ett värde av **stil** attribut på varje element). |
+| Inline | `0` | CSS-stilar skrivs inline (som ett värde av**stil** attribut på varje element). |
 | Embedded | `1` | CSS-stilar skrivs separat från innehållet i en stilmall inbäddad i HTML-filen. |
 | External | `2` | CSS-stilar skrivs separat från innehållet i en stilmall i en extern fil. HTML-filen länkar stilmallen. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CSS-formatmallar som en HTML-konvertering skapar.
 
@@ -85,5 +87,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 * property [CssStyleSheetType](../htmlsaveoptions/cssstylesheettype/)
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

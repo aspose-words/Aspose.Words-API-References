@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeColor
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece el color del tema en el esquema de color aplicado asociado con esteFont objeto.
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words para .NET
+description: Font ThemeColor propiedad. Obtiene o establece el color del tema en el esquema de color aplicado asociado con esteFont objeto en C#.
 type: docs
 weight: 460
 url: /es/net/aspose.words/font/themecolor/
@@ -14,7 +16,7 @@ Obtiene o establece el color del tema en el esquema de color aplicado asociado c
 public ThemeColor ThemeColor { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear y utilizar estilos temáticos.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

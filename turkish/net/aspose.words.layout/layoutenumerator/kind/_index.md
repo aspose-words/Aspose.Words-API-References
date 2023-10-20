@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Kind
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutEnumerator mülk. Geçerli varlığın türünü alır. Bu boş bir dize olabilir ama aslahükümsüz .
+linktitle: Kind
+articleTitle: Kind
+second_title: Aspose.Words for .NET
+description: LayoutEnumerator Kind mülk. Geçerli varlığın türünü alır. Bu boş bir dize olabilir ama aslahükümsüz  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.layout/layoutenumerator/kind/
@@ -14,11 +16,11 @@ Geçerli varlığın türünü alır. Bu boş bir dize olabilir ama asla`hüküm
 public string Kind { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu, geçerli varlığın daha spesifik bir türüdür; örneğin, yer imi aralığıSpan type and BOOKMARKSTART veya BOOKMARKEND türüne sahip olabilir.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
@@ -163,7 +165,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ayrıca bakınız
 
 * class [LayoutEnumerator](../)
-* ad alanı [Aspose.Words.Layout](../../layoutenumerator/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

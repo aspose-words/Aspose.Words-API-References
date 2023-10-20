@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words ad alanı Microsoft Word kullanmadan Microsoft Word belgelerini oluşturmak dönüştürmek değiştirmek işlemek ve yazdırmak için sınıflar sağlar.
+linktitle: Aspose.Words
+articleTitle: Aspose.Words
+second_title: Aspose.Words for .NET
+description: Aspose.Words ad alanı Microsoft Word kullanmadan Microsoft Word belgelerini oluşturmak dönüştürmek değiştirmek işlemek ve yazdırmak için sınıflar sağlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/
@@ -82,7 +84,7 @@ url: /tr/net/aspose.words/
 | [Story](./story/) | Blok düzeyinde düğümler içeren öğeler için temel sınıf[`Paragraph`](../aspose.words/paragraph/) Ve[`Table`](../aspose.words.tables/table/) . |
 | [Style](./style/) | Tek bir yerleşik veya kullanıcı tanımlı stili temsil eder. |
 | [StyleCollection](./stylecollection/) | Bir koleksiyon[`Style`](../aspose.words/style/) bir belgedeki hem yerleşik hem de kullanıcı tanımlı stilleri temsil eden nesneler. |
-| [SubDocument](./subdocument/) | Bir'i temsil eder **Alt Belge** - harici olarak saklanan bir belgeye referanstır. |
+| [SubDocument](./subdocument/) | Bir'i temsil eder**Alt Belge** - harici olarak saklanan bir belgeye referanstır. |
 | [TableStyle](./tablestyle/) | Bir tablo stilini temsil eder. |
 | [TabStop](./tabstop/) | Tek bir özel sekme durağını temsil eder.[`TabStop`](../aspose.words/tabstop/)nesne the 'nin bir üyesidir[`TabStopCollection`](../aspose.words/tabstopcollection/) koleksiyon. |
 | [TabStopCollection](./tabstopcollection/) | Bir koleksiyon[`TabStop`](../aspose.words/tabstop/) bir paragraf veya stil için özel sekmeleri temsil eden nesneler. |
@@ -159,5 +161,3 @@ url: /tr/net/aspose.words/
 | [WarningType](./warningtype/) | Belge yükleme veya kaydetme sırasında Aspose.Words tarafından verilen uyarının türünü belirtir. |
 | [WatermarkLayout](./watermarklayout/) | Filigranın düzenini filigran merkezine göre tanımlar. |
 | [WatermarkType](./watermarktype/) | Filigran türünü belirtir. |
-
-

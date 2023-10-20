@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.FlipOrientation
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 切换形状的方向
+linktitle: FlipOrientation
+articleTitle: FlipOrientation
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase FlipOrientation 财产. 切换形状的方向 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.drawing/shapebase/fliporientation/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/shapebase/fliporientation/
 public FlipOrientation FlipOrientation { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为None。
 
-### 例子
+## 例子
 
 展示如何在轴上翻转形状。
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");
 
 * enum [FlipOrientation](../../fliporientation/)
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TaskPane.Width
-second_title: Aspose.Words für .NET-API-Referenz
-description: TaskPane eigendom. Gibt den Standardbreitenwert für diese Aufgabenbereichsinstanz an.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words für .NET
+description: TaskPane Width eigendom. Gibt den Standardbreitenwert für diese Aufgabenbereichsinstanz an in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.webextensions/taskpane/width/
@@ -14,7 +16,7 @@ Gibt den Standardbreitenwert für diese Aufgabenbereichsinstanz an.
 public double Width { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Weberweiterung hinzufügt.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Siehe auch
 
 * class [TaskPane](../)
-* namensraum [Aspose.Words.WebExtensions](../../taskpane/)
+* namensraum [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../../)
-
-

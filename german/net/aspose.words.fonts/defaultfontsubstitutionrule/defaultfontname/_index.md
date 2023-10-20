@@ -1,7 +1,9 @@
 ---
 title: DefaultFontSubstitutionRule.DefaultFontName
-second_title: Aspose.Words für .NET-API-Referenz
-description: DefaultFontSubstitutionRule eigendom. Ruft den Standardschriftnamen ab oder legt ihn fest.
+linktitle: DefaultFontName
+articleTitle: DefaultFontName
+second_title: Aspose.Words für .NET
+description: DefaultFontSubstitutionRule DefaultFontName eigendom. Ruft den Standardschriftnamen ab oder legt ihn fest in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/
@@ -14,11 +16,11 @@ Ruft den Standardschriftnamen ab oder legt ihn fest.
 public string DefaultFontName { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist „Times New Roman“.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Standardregel zum Ersetzen von Schriftarten festgelegt wird.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontName.pdf");
 ### Siehe auch
 
 * class [DefaultFontSubstitutionRule](../)
-* namensraum [Aspose.Words.Fonts](../../defaultfontsubstitutionrule/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.ListIndentation
-second_title: Referencia de API de Aspose.Words para .NET
-description: TxtSaveOptions propiedad. Obtiene unTxtListIndentation objeto que especifica cuántos y qué caracteres usar para la sangría de los niveles de la lista. De forma predeterminada el recuento del carácter 0 es cero lo que significa que no hay sangría.
+linktitle: ListIndentation
+articleTitle: ListIndentation
+second_title: Aspose.Words para .NET
+description: TxtSaveOptions ListIndentation propiedad. Obtiene unTxtListIndentation objeto que especifica cuántos y qué caracteres usar para la sangría de los niveles de la lista. De forma predeterminada el recuento del carácter 0 es cero lo que significa que no hay sangría en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/txtsaveoptions/listindentation/
@@ -14,7 +16,7 @@ Obtiene un[`TxtListIndentation`](../../txtlistindentation/) objeto que especific
 public TxtListIndentation ListIndentation { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la sangría de lista al guardar un documento en texto sin formato.
 
@@ -55,7 +57,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * class [TxtListIndentation](../../txtlistindentation/)
 * class [TxtSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../txtsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

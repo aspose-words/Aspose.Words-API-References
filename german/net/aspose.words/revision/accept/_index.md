@@ -1,7 +1,9 @@
 ---
 title: Revision.Accept
-second_title: Aspose.Words für .NET-API-Referenz
-description: Revision methode. Akzeptiert diese Revision.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words für .NET
+description: Revision Accept methode. Akzeptiert diese Revision in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/revision/accept/
@@ -14,7 +16,7 @@ Akzeptiert diese Revision.
 public void Accept()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Revisionen in einem Dokument gearbeitet wird.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Siehe auch
 
 * class [Revision](../)
-* namensraum [Aspose.Words](../../revision/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

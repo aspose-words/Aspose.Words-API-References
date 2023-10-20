@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeHorizontalSize
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Ottiene o imposta il valore della dimensione relativa della forma nella direzione orizzontale.
+linktitle: RelativeHorizontalSize
+articleTitle: RelativeHorizontalSize
+second_title: Aspose.Words per .NET
+description: ShapeBase RelativeHorizontalSize proprietà. Ottiene o imposta il valore della dimensione relativa della forma nella direzione orizzontale in C#.
 type: docs
 weight: 430
 url: /it/net/aspose.words.drawing/shapebase/relativehorizontalsize/
@@ -14,13 +16,13 @@ Ottiene o imposta il valore della dimensione relativa della forma nella direzion
 public RelativeHorizontalSize RelativeHorizontalSize { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è[`RelativeHorizontalSize`](../../relativehorizontalsize/).
 
 Ha effetto solo se[`WidthRelative`](../widthrelative/) è impostato.
 
-### Esempi
+## Esempi
 
 Mostra come impostare la dimensione e la posizione relativa.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 
 * enum [RelativeHorizontalSize](../../relativehorizontalsize/)
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

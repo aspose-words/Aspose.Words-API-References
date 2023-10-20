@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.InsertOnceOnMailMerge
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDatabase свойство. Получает или задает необходимость вставки данных в начале слияния.
+linktitle: InsertOnceOnMailMerge
+articleTitle: InsertOnceOnMailMerge
+second_title: Aspose.Words для .NET
+description: FieldDatabase InsertOnceOnMailMerge свойство. Получает или задает необходимость вставки данных в начале слияния на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fielddatabase/insertonceonmailmerge/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddatabase/insertonceonmailmerge/
 public bool InsertOnceOnMailMerge { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь данные из базы данных и вставить их как поле в документ.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Смотрите также
 
 * class [FieldDatabase](../)
-* пространство имен [Aspose.Words.Fields](../../fielddatabase/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

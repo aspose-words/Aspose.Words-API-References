@@ -1,7 +1,9 @@
 ---
 title: Table.AbsoluteVerticalDistance
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или задает абсолютное вертикальное плавающее положение таблицы указанное в свойствах таблицы в точках. Значение по умолчанию  0.
+linktitle: AbsoluteVerticalDistance
+articleTitle: AbsoluteVerticalDistance
+second_title: Aspose.Words для .NET
+description: Table AbsoluteVerticalDistance свойство. Получает или задает абсолютное вертикальное плавающее положение таблицы указанное в свойствах таблицы в точках. Значение по умолчанию  0 на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.tables/table/absoluteverticaldistance/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/absoluteverticaldistance/
 public double AbsoluteVerticalDistance { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как задать расположение плавающих таблиц.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 ### Смотрите также
 
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

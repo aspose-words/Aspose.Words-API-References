@@ -1,7 +1,9 @@
 ---
 title: FieldSaveDate.UseSakaEraCalendar
-second_title: Aspose.Words for .NET API 参考
-description: FieldSaveDate 财产. 获取或设置是否使用Saka Era日历
+linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldSaveDate UseSakaEraCalendar 财产. 获取或设置是否使用Saka Era日历 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldsavedate/usesakaeracalendar/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldsavedate/usesakaeracalendar/
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 SAVEDATE 字段来显示最近使用 Microsoft Word 执行的文档保存操作的日期/时间。
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.SAVEDATE.docx");
 ### 也可以看看
 
 * class [FieldSaveDate](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldsavedate/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

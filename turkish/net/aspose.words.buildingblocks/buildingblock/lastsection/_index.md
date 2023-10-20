@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.LastSection
-second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlock mülk. Yapı bloğundaki son bölümü alır.
+linktitle: LastSection
+articleTitle: LastSection
+second_title: Aspose.Words for .NET
+description: BuildingBlock LastSection mülk. Yapı bloğundaki son bölümü alır C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.buildingblocks/buildingblock/lastsection/
@@ -14,11 +16,11 @@ Yapı bloğundaki son bölümü alır.
 public Section LastSection { get; }
 ```
 
-### Notlar
+## Notlar
 
 İadeler`hükümsüz` bölüm yoksa.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 
@@ -116,7 +118,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [Section](../../../aspose.words/section/)
 * class [BuildingBlock](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldUpdatingProgressArgs.UpdateCompleted
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldUpdatingProgressArgs propriété. Obtient une valeur indiquant si la mise à jour du champ est terminée.
+linktitle: UpdateCompleted
+articleTitle: UpdateCompleted
+second_title: Aspose.Words pour .NET
+description: FieldUpdatingProgressArgs UpdateCompleted propriété. Obtient une valeur indiquant si la mise à jour du champ est terminée en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldupdatingprogressargs/updatecompleted/
@@ -14,7 +16,7 @@ Obtient une valeur indiquant si la mise à jour du champ est terminée.
 public bool UpdateCompleted { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les méthodes de rappel lors d’une mise à jour de champ.
 
@@ -82,7 +84,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 ### Voir également
 
 * class [FieldUpdatingProgressArgs](../)
-* espace de noms [Aspose.Words.Fields](../../fieldupdatingprogressargs/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

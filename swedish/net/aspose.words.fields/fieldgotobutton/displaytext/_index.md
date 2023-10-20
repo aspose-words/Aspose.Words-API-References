@@ -1,7 +1,9 @@
 ---
 title: FieldGoToButton.DisplayText
-second_title: Aspose.Words för .NET API Referens
-description: FieldGoToButton fast egendom. Hämtar eller ställer in texten för knappen som visas i dokumentet så att den kan väljas för att aktivera hoppet.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words för .NET
+description: FieldGoToButton DisplayText fast egendom. Hämtar eller ställer in texten för knappen som visas i dokumentet så att den kan väljas för att aktivera hoppet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldgotobutton/displaytext/
@@ -14,7 +16,7 @@ Hämtar eller ställer in texten för "knappen" som visas i dokumentet, så att 
 public string DisplayText { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar för att infoga ett GOTOBUTTON-fält.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Field.GOTOBUTTON.docx");
 ### Se även
 
 * class [FieldGoToButton](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldgotobutton/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

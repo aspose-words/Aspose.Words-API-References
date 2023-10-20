@@ -1,7 +1,9 @@
 ---
-title: Class ResourceSavingArgs
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.ResourceSavingArgs klas. Stellt Daten für die bereitResourceSaving event.
+title: ResourceSavingArgs Class
+linktitle: ResourceSavingArgs
+articleTitle: ResourceSavingArgs
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.ResourceSavingArgs klas. Stellt Daten für die bereitResourceSaving event in C#.
 type: docs
 weight: 5560
 url: /de/net/aspose.words.saving/resourcesavingargs/
@@ -26,7 +28,7 @@ public class ResourceSavingArgs
 | [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri/) { get; set; } | Ruft den Uniform Resource Identifier (URI) ab, der zum Verweisen auf die Ressourcendatei aus dem Dokument verwendet wird, oder legt diesen fest. |
 | [ResourceStream](../../aspose.words.saving/resourcesavingargs/resourcestream/) { get; set; } | Ermöglicht die Angabe des Streams, in dem die Ressource gespeichert wird. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Aspose.Words ein Dokument im HTML- oder SVG-Format mit fester Seite speichert, speichert es standardmäßig jede Ressource in einer separaten Datei . Aspose.Words verwendet den Dateinamen des Dokuments und eine eindeutige Nummer, um für jede im Dokument gefundene Ressource einen eindeutigen Dateinamen zu generieren.
 
@@ -36,7 +38,7 @@ Um Ihre eigene Logik zum Generieren von Ressourcendateinamen anzuwenden, verwend
 
 Um Ressourcen in Streams statt in Dateien zu speichern, verwenden Sie die[`ResourceStream`](./resourcestream/) Eigentum.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen Rückruf verwenden, um externe Ressourcen zu verfolgen, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
 
@@ -82,5 +84,3 @@ private class FontSavingCallback : IResourceSavingCallback
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

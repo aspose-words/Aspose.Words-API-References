@@ -1,7 +1,9 @@
 ---
-title: Enum MarkupLevel
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Markup.MarkupLevel uppräkning. Anger nivån i dokumentträdet där en vissStructuredDocumentTag kan inträffa.
+title: MarkupLevel Enum
+linktitle: MarkupLevel
+articleTitle: MarkupLevel
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Markup.MarkupLevel uppräkning. Anger nivån i dokumentträdet där en vissStructuredDocumentTag kan inträffa i C#.
 type: docs
 weight: 3980
 url: /sv/net/aspose.words.markup/markuplevel/
@@ -24,7 +26,7 @@ public enum MarkupLevel
 | Row | `3` | Elementet förekommer bland rader i en tabell. |
 | Cell | `4` | Elementet förekommer bland celler i en rad. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med stilar för innehållskontrollelement.
 
@@ -64,5 +66,3 @@ foreach (Node node in tags)
 
 * namnutrymme [Aspose.Words.Markup](../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../)
-
-

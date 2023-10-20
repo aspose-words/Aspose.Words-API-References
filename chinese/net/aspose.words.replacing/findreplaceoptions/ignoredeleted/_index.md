@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreDeleted
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. 获取或设置一个布尔值指示忽略删除修订内的文本 默认值为错误的.
+linktitle: IgnoreDeleted
+articleTitle: IgnoreDeleted
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions IgnoreDeleted 财产. 获取或设置一个布尔值指示忽略删除修订内的文本 默认值为错误的 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/
 public bool IgnoreDeleted { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在查找和替换操作期间包含或忽略删除修订内的文本。
 
@@ -53,7 +55,5 @@ Assert.AreEqual(
 ### 也可以看看
 
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

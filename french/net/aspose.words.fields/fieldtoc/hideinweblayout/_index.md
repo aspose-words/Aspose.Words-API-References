@@ -1,7 +1,9 @@
 ---
 title: FieldToc.HideInWebLayout
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldToc propriété. Obtient ou définit sil faut masquer le début de tabulation et les numéros de page dans la vue Mise en page Web.
+linktitle: HideInWebLayout
+articleTitle: HideInWebLayout
+second_title: Aspose.Words pour .NET
+description: FieldToc HideInWebLayout propriété. Obtient ou définit sil faut masquer le début de tabulation et les numéros de page dans la vue Mise en page Web en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.fields/fieldtoc/hideinweblayout/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut masquer le début de tabulation et les numéros de
 public bool HideInWebLayout { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer une table des matières et la remplir avec des entrées basées sur les styles de titre.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Voir également
 
 * class [FieldToc](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtoc/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

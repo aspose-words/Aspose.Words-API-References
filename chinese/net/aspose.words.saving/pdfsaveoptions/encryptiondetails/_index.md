@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.EncryptionDetails
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 获取或设置加密输出 PDF 文档的详细信息
+linktitle: EncryptionDetails
+articleTitle: EncryptionDetails
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions EncryptionDetails 财产. 获取或设置加密输出 PDF 文档的详细信息 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
 public PdfEncryptionDetails EncryptionDetails { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`无效的`并且输出文档不会被加密。 当此属性设置为有效时[`PdfEncryptionDetails`](../../pdfencryptiondetails/)object, 那么输出的 PDF 文档将被加密。
 
@@ -26,7 +28,7 @@ ContentCopyForAccessibility如果输出文档已加密，则需要 PDF/UA 合规
 
 ContentCopyForAccessibility PDF 2.0 格式已弃用此权限。 保存为 PDF 2.0 时将忽略此权限。
 
-### 例子
+## 例子
 
 演示如何设置已保存 PDF 文档的权限。
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * class [PdfEncryptionDetails](../../pdfencryptiondetails/)
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

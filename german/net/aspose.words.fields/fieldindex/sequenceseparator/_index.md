@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.SequenceSeparator
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIndex eigendom. Ruft die Zeichenfolge ab die zum Trennen von Sequenznummern und Seitenzahlen verwendet wird oder legt diese fest.
+linktitle: SequenceSeparator
+articleTitle: SequenceSeparator
+second_title: Aspose.Words für .NET
+description: FieldIndex SequenceSeparator eigendom. Ruft die Zeichenfolge ab die zum Trennen von Sequenznummern und Seitenzahlen verwendet wird oder legt diese fest in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.fields/fieldindex/sequenceseparator/
@@ -14,7 +16,7 @@ Ruft die Zeichenfolge ab, die zum Trennen von Sequenznummern und Seitenzahlen ve
 public string SequenceSeparator { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument durch Kombinieren von INDEX- und SEQ-Feldern in Teile aufgeteilt wird.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### Siehe auch
 
 * class [FieldIndex](../)
-* namensraum [Aspose.Words.Fields](../../fieldindex/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

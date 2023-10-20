@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.Password
-second_title: Справочник по API Aspose.Words для .NET
-description: LoadOptions свойство. Получает или задает пароль для открытия зашифрованного документа. Может бытьнулевой или пустая строка. По умолчаниюнулевой .
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words для .NET
+description: LoadOptions Password свойство. Получает или задает пароль для открытия зашифрованного документа. Может бытьнулевой или пустая строка. По умолчаниюнулевой  на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.loading/loadoptions/password/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.loading/loadoptions/password/
 public string Password { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Чтобы открыть зашифрованный документ, вам необходимо знать пароль. Если документ не зашифрован, установите для этого параметра значение`нулевой` или пустая строка.
 
-### Примеры
+## Примеры
 
 Показывает, как подписать зашифрованный файл документа.
 
@@ -44,7 +46,5 @@ DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, sign
 ### Смотрите также
 
 * class [LoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../loadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

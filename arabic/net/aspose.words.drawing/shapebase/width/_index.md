@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Width
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على أو تعيين عرض الكتلة التي تحتوي على الشكل.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words لـ .NET
+description: ShapeBase Width ملكية. الحصول على أو تعيين عرض الكتلة التي تحتوي على الشكل في C#.
 type: docs
 weight: 570
 url: /ar/net/aspose.words.drawing/shapebase/width/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/width/
 public double Width { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 بالنسبة لشكل المستوى الأعلى، تكون القيمة بالنقاط.
 
@@ -22,7 +24,7 @@ public double Width { get; set; }
 
 القيمة الافتراضية هي 0.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة عائمة وتحديد موضعها وحجمها.
 
@@ -111,7 +113,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

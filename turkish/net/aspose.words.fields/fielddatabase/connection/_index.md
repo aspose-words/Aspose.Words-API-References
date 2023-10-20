@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.Connection
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDatabase mülk. Verilere bağlantı alır veya ayarlar.
+linktitle: Connection
+articleTitle: Connection
+second_title: Aspose.Words for .NET
+description: FieldDatabase Connection mülk. Verilere bağlantı alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fielddatabase/connection/
@@ -14,7 +16,7 @@ Verilere bağlantı alır veya ayarlar.
 public string Connection { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Veritabanından verinin nasıl çıkarılacağını ve bunun bir alan olarak belgeye nasıl ekleneceğini gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDatabase](../)
-* ad alanı [Aspose.Words.Fields](../../fielddatabase/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

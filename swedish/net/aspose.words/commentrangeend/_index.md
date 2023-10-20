@@ -1,7 +1,9 @@
 ---
-title: Class CommentRangeEnd
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.CommentRangeEnd klass. Betecknar slutet av en textregion som har en kommentar kopplad till sig.
+title: CommentRangeEnd Class
+linktitle: CommentRangeEnd
+articleTitle: CommentRangeEnd
+second_title: Aspose.Words för .NET
+description: Aspose.Words.CommentRangeEnd klass. Betecknar slutet av en textregion som har en kommentar kopplad till sig i C#.
 type: docs
 weight: 250
 url: /sv/net/aspose.words/commentrangeend/
@@ -20,7 +22,7 @@ public sealed class CommentRangeEnd : Node
 
 | namn | Beskrivning |
 | --- | --- |
-| [CommentRangeEnd](commentrangeend/)(DocumentBase, int) | Initierar en ny instans av den här klassen. |
+| [CommentRangeEnd](commentrangeend/)(*[DocumentBase](../documentbase/), int*) | Initierar en ny instans av den här klassen. |
 
 ## Egenskaper
 
@@ -40,24 +42,24 @@ public sealed class CommentRangeEnd : Node
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words/commentrangeend/accept/)(DocumentVisitor) | Accepterar en besökare. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
+| override [Accept](../../aspose.words/commentrangeend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
 
-### Anmärkningar
+## Anmärkningar
 
 För att skapa en kommentar förankrad till en textregion måste du skapa en[`Comment`](../comment/) and skapa sedan[`CommentRangeStart`](../commentrangestart/) och`CommentRangeEnd`och ställ in deras identifierare till samma[`Id`](../comment/id/) värde.
 
 `CommentRangeEnd` är en nod på inline-nivå och kan bara vara ett barn till[`Paragraph`](../paragraph/).
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut innehållet i alla kommentarer och deras kommentarintervall med hjälp av en dokumentbesökare.
 
@@ -220,5 +222,3 @@ public class CommentInfoPrinter : DocumentVisitor
 * class [Node](../node/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

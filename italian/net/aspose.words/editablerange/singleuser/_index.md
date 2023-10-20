@@ -1,7 +1,9 @@
 ---
 title: EditableRange.SingleUser
-second_title: Aspose.Words per .NET API Reference
-description: EditableRange proprietà. Restituisce o imposta il singolo utente per lintervallo modificabile.
+linktitle: SingleUser
+articleTitle: SingleUser
+second_title: Aspose.Words per .NET
+description: EditableRange SingleUser proprietà. Restituisce o imposta il singolo utente per lintervallo modificabile in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/editablerange/singleuser/
@@ -14,7 +16,7 @@ Restituisce o imposta il singolo utente per l'intervallo modificabile.
 public string SingleUser { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questo editor può essere memorizzato in uno dei seguenti moduli:
 
@@ -26,7 +28,7 @@ utente - per gli utenti il cui accesso deve essere autenticato utilizzando le cr
 
 Non è possibile impostare contemporaneamente un singolo utente e un gruppo di editor per l'intervallo modificabile specifico, se uno è impostato, l'altro sarà cancellato.
 
-### Esempi
+## Esempi
 
 Mostra come limitare i diritti di modifica degli intervalli modificabili a un gruppo/utente specifico.
 
@@ -137,7 +139,5 @@ public class EditableRangePrinter : DocumentVisitor
 ### Guarda anche
 
 * class [EditableRange](../)
-* spazio dei nomi [Aspose.Words](../../editablerange/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

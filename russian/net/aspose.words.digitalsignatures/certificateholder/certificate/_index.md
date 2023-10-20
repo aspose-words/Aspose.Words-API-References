@@ -1,14 +1,16 @@
 ---
 title: CertificateHolder.Certificate
-second_title: Справочник по API Aspose.Words для .NET
-description: CertificateHolder свойство. Возвращает экземпляр X509Сертификат2 который содержит частные открытые ключи и цепочку сертификатов.
+linktitle: Certificate
+articleTitle: Certificate
+second_title: Aspose.Words для .NET
+description: CertificateHolder Certificate свойство. Возвращает экземплярX509Сертификат2 который содержит частные открытые ключи и цепочку сертификатов на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
 ## CertificateHolder.Certificate property
 
-Возвращает экземпляр **X509Сертификат2** который содержит частные, открытые ключи и цепочку сертификатов.
+Возвращает экземпляр**X509Сертификат2** который содержит частные, открытые ключи и цепочку сертификатов.
 
 ```csharp
 public X509Certificate2 Certificate { get; }
@@ -18,7 +20,7 @@ public X509Certificate2 Certificate { get; }
 
 X509Certificate2 пример
 
-### Примеры
+## Примеры
 
 Показывает, как проверять и отображать информацию о каждой подписи в документе.
 
@@ -40,7 +42,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Смотрите также
 
 * class [CertificateHolder](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

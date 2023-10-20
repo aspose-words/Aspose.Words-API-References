@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Add
-second_title: Aspose.Words für .NET-API-Referenz
-description: BookmarksOutlineLevelCollection methode. Fügt der Sammlung ein Lesezeichen hinzu.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words für .NET
+description: BookmarksOutlineLevelCollection Add methode. Fügt der Sammlung ein Lesezeichen hinzu in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/bookmarksoutlinelevelcollection/add/
@@ -19,7 +21,7 @@ public void Add(string name, int outlineLevel)
 | name | String | Der Name des hinzuzufügenden Lesezeichens ohne Berücksichtigung der Groß-/Kleinschreibung. |
 | outlineLevel | Int32 | Die Gliederungsebene des Lesezeichens. Der gültige Bereich liegt zwischen 0 und 9. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Gliederungsebenen für Lesezeichen festgelegt werden.
 
@@ -77,7 +79,5 @@ outlineLevels.Clear();
 ### Siehe auch
 
 * class [BookmarksOutlineLevelCollection](../)
-* namensraum [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

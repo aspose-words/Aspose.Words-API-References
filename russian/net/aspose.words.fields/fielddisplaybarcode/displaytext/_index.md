@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.DisplayText
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDisplayBarcode свойство. Получает или задает отображать ли данные штрихкода текст вместе с изображением.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words для .NET
+description: FieldDisplayBarcode DisplayText свойство. Получает или задает отображать ли данные штрихкода текст вместе с изображением на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fielddisplaybarcode/displaytext/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddisplaybarcode/displaytext/
 public bool DisplayText { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле DISPLAYBARCODE и установить его свойства.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Смотрите также
 
 * class [FieldDisplayBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

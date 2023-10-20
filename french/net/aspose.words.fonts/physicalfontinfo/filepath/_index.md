@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.FilePath
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PhysicalFontInfo propriété. Chemin daccès au fichier de police le cas échéant.
+linktitle: FilePath
+articleTitle: FilePath
+second_title: Aspose.Words pour .NET
+description: PhysicalFontInfo FilePath propriété. Chemin daccès au fichier de police le cas échéant en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/physicalfontinfo/filepath/
@@ -14,7 +16,7 @@ Chemin d'accès au fichier de police le cas échéant.
 public string FilePath { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment répertorier les polices disponibles.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Voir également
 
 * class [PhysicalFontInfo](../)
-* espace de noms [Aspose.Words.Fonts](../../physicalfontinfo/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

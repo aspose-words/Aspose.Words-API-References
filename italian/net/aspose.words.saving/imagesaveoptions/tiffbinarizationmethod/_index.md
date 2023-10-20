@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.TiffBinarizationMethod
-second_title: Aspose.Words per .NET API Reference
-description: ImageSaveOptions proprietà. Ottiene o imposta il metodo utilizzato durante la conversione delle immagini nel formato 1 bpp quandoSaveFormat ÈTiff e TiffCompression è uguale aCcitt3 OCcitt4 .
+linktitle: TiffBinarizationMethod
+articleTitle: TiffBinarizationMethod
+second_title: Aspose.Words per .NET
+description: ImageSaveOptions TiffBinarizationMethod proprietà. Ottiene o imposta il metodo utilizzato durante la conversione delle immagini nel formato 1 bpp quandoSaveFormat ÈTiff e TiffCompression è uguale aCcitt3 OCcitt4  in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/
@@ -14,11 +16,11 @@ Ottiene o imposta il metodo utilizzato durante la conversione delle immagini nel
 public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito èThreshold.
 
-### Esempi
+## Esempi
 
 Mostra come impostare la soglia di errore di binarizzazione TIFF quando si utilizza il metodo Floyd-Steinberg per eseguire il rendering di un'immagine TIFF.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.FloydSteinbergDithering.tiff", options
 
 * enum [ImageBinarizationMethod](../../imagebinarizationmethod/)
 * class [ImageSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../imagesaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

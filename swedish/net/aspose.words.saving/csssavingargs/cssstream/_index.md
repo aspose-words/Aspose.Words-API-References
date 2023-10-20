@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.CssStream
-second_title: Aspose.Words för .NET API Referens
-description: CssSavingArgs fast egendom. Tillåter att ange strömmen där CSSinformationen ska sparas.
+linktitle: CssStream
+articleTitle: CssStream
+second_title: Aspose.Words för .NET
+description: CssSavingArgs CssStream fast egendom. Tillåter att ange strömmen där CSSinformationen ska sparas i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/csssavingargs/cssstream/
@@ -14,7 +16,7 @@ Tillåter att ange strömmen där CSS-informationen ska sparas.
 public Stream CssStream { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen låter dig spara CSS-information i en stream.
 
@@ -22,7 +24,7 @@ Standardvärdet är`null` . Den här egenskapen förhindrar inte att CSS-informa
 
 Använder sig av[`ICssSavingCallback`](../../icsssavingcallback/) du kan inte ersätta CSS med med en annan. Den är endast avsedd för att spara CSS till en stream.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CSS-formatmallar som en HTML-konvertering skapar.
 
@@ -83,7 +85,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### Se även
 
 * class [CssSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../csssavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

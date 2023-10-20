@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.MergePastedLists
-second_title: Aspose.Words for .NET API Referansı
-description: ImportFormatOptions mülk. Yapıştırılan listelerin çevresindeki listelerle birleştirilip birleştirilmeyeceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ .
+linktitle: MergePastedLists
+articleTitle: MergePastedLists
+second_title: Aspose.Words for .NET
+description: ImportFormatOptions MergePastedLists mülk. Yapıştırılan listelerin çevresindeki listelerle birleştirilip birleştirilmeyeceğini belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/importformatoptions/mergepastedlists/
@@ -14,7 +16,7 @@ Yapıştırılan listelerin çevresindeki listelerle birleştirilip birleştiril
 public bool MergePastedLists { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki listelerin nasıl birleştirileceğini gösterir.
 
@@ -33,7 +35,5 @@ dstDoc.Save(ArtifactsDir + "Document.MergePastedLists.docx");
 ### Ayrıca bakınız
 
 * class [ImportFormatOptions](../)
-* ad alanı [Aspose.Words](../../importformatoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

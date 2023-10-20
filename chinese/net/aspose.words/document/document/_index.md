@@ -1,7 +1,9 @@
 ---
-title: Document.Document
-second_title: Aspose.Words for .NET API 参考
-description: Document 构造函数. 创建一个空白 Word 文档
+title: Document
+linktitle: Document
+articleTitle: Document
+second_title: 用于 .NET 的 Aspose.Words
+description: Document 构造函数. 创建一个空白 Word 文档 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/document/document/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/document/document/
 public Document()
 ```
 
-### 评论
+## 评论
 
 默认情况下，文档纸张尺寸为 Letter。如果您想更改页面设置，请使用 [`PageSetup`](../../section/pagesetup/)。
 
 创建完成后就可以使用[`DocumentBuilder`](../../documentbuilder/)轻松添加文档内容。
 
-### 例子
+## 例子
 
 演示如何使用其字体属性设置文本串的格式。
 
@@ -64,12 +66,12 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Document(string) {#constructor_3}
+## Document(*string*) {#constructor_3}
 
 从文件中打开现有文档。自动检测文件格式。
 
@@ -92,7 +94,7 @@ public Document(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | 该文档已加密，需要密码才能打开，但您提供的密码不正确。 |
 | ArgumentException | 文件名不能为空或空字符串。 |
 
-### 例子
+## 例子
 
 演示如何打开文档并将其转换为 .PDF。
 
@@ -146,12 +148,12 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Document(string, LoadOptions) {#constructor_4}
+## Document(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_4}
 
 从文件中打开现有文档。允许指定其他选项，例如加密密码。
 
@@ -175,7 +177,7 @@ public Document(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | 该文档已加密，需要密码才能打开，但您提供的密码不正确。 |
 | ArgumentException | 文件名不能为空或空字符串。 |
 
-### 例子
+## 例子
 
 演示如何加载加密的 Microsoft Word 文档。
 
@@ -226,12 +228,12 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Document(Stream) {#constructor_1}
+## Document(*Stream*) {#constructor_1}
 
 从流中打开现有文档。自动检测文件格式。
 
@@ -256,11 +258,11 @@ public Document(Stream stream)
 | NotSupportedException | 该流不支持读取或查找。 |
 | ObjectDisposedException | 流是一个已处理的对象。 |
 
-### 评论
+## 评论
 
 文档必须存储在流的开头。流必须支持随机定位。
 
-### 例子
+## 例子
 
 演示如何使用流加载文档。
 
@@ -302,12 +304,12 @@ using (HttpClient webClient = new HttpClient())
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Document(Stream, LoadOptions) {#constructor_2}
+## Document(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_2}
 
 从流中打开现有文档。允许指定其他选项，例如加密密码。
 
@@ -333,11 +335,11 @@ public Document(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | 该流不支持读取或查找。 |
 | ObjectDisposedException | 流是一个已处理的对象。 |
 
-### 评论
+## 评论
 
 文档必须存储在流的开头。流必须支持随机定位。
 
-### 例子
+## 例子
 
 演示如何使用基本 URI 打开包含来自流的图像的 HTML 文档。
 
@@ -408,7 +410,5 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

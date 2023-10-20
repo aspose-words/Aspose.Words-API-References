@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionTextEffect
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Layout.RevisionTextEffect перечисление. Позволяет указать эффект оформления для редакций текста документа.
+title: RevisionTextEffect Enum
+linktitle: RevisionTextEffect
+articleTitle: RevisionTextEffect
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Layout.RevisionTextEffect перечисление. Позволяет указать эффект оформления для редакций текста документа на С#.
 type: docs
 weight: 3400
 url: /ru/net/aspose.words.layout/revisiontexteffect/
@@ -28,7 +30,7 @@ public enum RevisionTextEffect
 | DoubleStrikeThrough | `7` | Отредактированное содержимое обведено двойной обводкой и окрашено. |
 | Hidden | `8` | Измененное содержимое скрыто. |
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид редакций.
 
@@ -80,5 +82,3 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * пространство имен [Aspose.Words.Layout](../../aspose.words.layout/)
 * сборка [Aspose.Words](../../)
-
-

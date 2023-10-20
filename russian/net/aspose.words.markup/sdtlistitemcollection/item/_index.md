@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: SdtListItemCollection свойство. ВозвращаетSdtListItem объекту с учетом его нулевого индекса в коллекции.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: SdtListItemCollection Item свойство. ВозвращаетSdtListItem объекту с учетом его нулевого индекса в коллекции на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/sdtlistitemcollection/item/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/sdtlistitemcollection/item/
 public SdtListItem this[int index] { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами структурированных документов с раскрывающимся списком.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* пространство имен [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

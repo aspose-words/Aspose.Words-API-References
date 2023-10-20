@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.SuppressAuthor
-second_title: Aspose.Words لمراجع .NET API
-description: FieldCitation ملكية. الحصول على أو تحديد ما إذا كان سيتم حذف معلومات المؤلف من الاقتباس.
+linktitle: SuppressAuthor
+articleTitle: SuppressAuthor
+second_title: Aspose.Words لـ .NET
+description: FieldCitation SuppressAuthor ملكية. الحصول على أو تحديد ما إذا كان سيتم حذف معلومات المؤلف من الاقتباس في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fields/fieldcitation/suppressauthor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldcitation/suppressauthor/
 public bool SuppressAuthor { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع حقول CITATION وBIBLIOGRAPHY.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### أنظر أيضا
 
 * class [FieldCitation](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcitation/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ComparisonEvaluationResult
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.ComparisonEvaluationResult sınıf. Karşılaştırma değerlendirme sonucu.
+title: ComparisonEvaluationResult Class
+linktitle: ComparisonEvaluationResult
+articleTitle: ComparisonEvaluationResult
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.ComparisonEvaluationResult sınıf. Karşılaştırma değerlendirme sonucu C#'da.
 type: docs
 weight: 1480
 url: /tr/net/aspose.words.fields/comparisonevaluationresult/
@@ -20,8 +22,8 @@ public sealed class ComparisonEvaluationResult
 
 | İsim | Tanım |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(bool) | Karşılaştırma değerlendirme sonucu oluşturur. |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(string) | İlgili hata mesajıyla birlikte başarısız bir karşılaştırma değerlendirme sonucu oluşturur. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | Karşılaştırma değerlendirme sonucu oluşturur. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | İlgili hata mesajıyla birlikte başarısız bir karşılaştırma değerlendirme sonucu oluşturur. |
 
 ## Özellikleri
 
@@ -30,7 +32,7 @@ public sealed class ComparisonEvaluationResult
 | [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | Başarısız karşılaştırma değerlendirme sonucunun hata mesajını alır. |
 | [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | Karşılaştırma değerlendirme sonucunu alır. |
 
-### Örnekler
+## Örnekler
 
 IF ve COMPARE alanları için özel değerlendirmenin nasıl uygulanacağını gösterir.
 
@@ -115,5 +117,3 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

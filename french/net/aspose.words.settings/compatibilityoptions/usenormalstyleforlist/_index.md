@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseNormalStyleForList
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Ne pas appliquer automatiquement le style de paragraphe de liste au texte à puces/numéroté.
+linktitle: UseNormalStyleForList
+articleTitle: UseNormalStyleForList
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions UseNormalStyleForList propriété. Ne pas appliquer automatiquement le style de paragraphe de liste au texte à puces/numéroté en C#.
 type: docs
 weight: 630
 url: /fr/net/aspose.words.settings/compatibilityoptions/usenormalstyleforlist/
@@ -17,7 +19,5 @@ public bool UseNormalStyleForList { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

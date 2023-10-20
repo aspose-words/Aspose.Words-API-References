@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LinesToDrop
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Ottiene o imposta il numero di righe del testo del paragrafo utilizzato per calcolare laltezza del capolettera.
+linktitle: LinesToDrop
+articleTitle: LinesToDrop
+second_title: Aspose.Words per .NET
+description: ParagraphFormat LinesToDrop proprietà. Ottiene o imposta il numero di righe del testo del paragrafo utilizzato per calcolare laltezza del capolettera in C#.
 type: docs
 weight: 210
 url: /it/net/aspose.words/paragraphformat/linestodrop/
@@ -14,7 +16,7 @@ Ottiene o imposta il numero di righe del testo del paragrafo utilizzato per calc
 public int LinesToDrop { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la dimensione di un capolettera.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LinesToDrop.odt");
 ### Guarda anche
 
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

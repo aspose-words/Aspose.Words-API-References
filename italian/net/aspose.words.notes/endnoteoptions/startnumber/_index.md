@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.StartNumber
-second_title: Aspose.Words per .NET API Reference
-description: EndnoteOptions proprietà. Specifica il numero o il carattere iniziale per le prime note di chiusura numerate automaticamente.
+linktitle: StartNumber
+articleTitle: StartNumber
+second_title: Aspose.Words per .NET
+description: EndnoteOptions StartNumber proprietà. Specifica il numero o il carattere iniziale per le prime note di chiusura numerate automaticamente in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.notes/endnoteoptions/startnumber/
@@ -14,11 +16,11 @@ Specifica il numero o il carattere iniziale per le prime note di chiusura numera
 public int StartNumber { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà ha effetto solo quando[`RestartRule`](../restartrule/) è impostato su Continuous.
 
-### Esempi
+## Esempi
 
 Mostra come impostare un numero con il quale il documento inizia il conteggio delle note a piè di pagina/note di chiusura.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "InlineStory.StartNumber.docx");
 ### Guarda anche
 
 * class [EndnoteOptions](../)
-* spazio dei nomi [Aspose.Words.Notes](../../endnoteoptions/)
+* spazio dei nomi [Aspose.Words.Notes](../../../aspose.words.notes/)
 * assemblea [Aspose.Words](../../../)
-
-

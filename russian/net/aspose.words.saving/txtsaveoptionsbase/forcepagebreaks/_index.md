@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptionsBase.ForcePageBreaks
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtSaveOptionsBase свойство. Позволяет указать следует ли сохранять разрывы страниц во время экспорта.
+linktitle: ForcePageBreaks
+articleTitle: ForcePageBreaks
+second_title: Aspose.Words для .NET
+description: TxtSaveOptionsBase ForcePageBreaks свойство. Позволяет указать следует ли сохранять разрывы страниц во время экспорта на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
@@ -16,11 +18,11 @@ url: /ru/net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
 public bool ForcePageBreaks { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство влияет только на разрывы страниц, которые явно вставлены в документ. Это не связано с разрывами страниц, которые MS Word автоматически вставляет в конец каждой страницы.
 
-### Примеры
+## Примеры
 
 Показывает, как указать, следует ли сохранять разрывы страниц при экспорте документа в обычный текст.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(forcePageBreaks ? 3 : 1, doc.PageCount);
 ### Смотрите также
 
 * class [TxtSaveOptionsBase](../)
-* пространство имен [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

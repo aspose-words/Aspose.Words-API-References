@@ -1,7 +1,9 @@
 ---
 title: Frameset.FrameDefaultUrl
-second_title: Aspose.Words لمراجع .NET API
-description: Frameset ملكية. الحصول على أو تعيين عنوان URL لصفحة الويب أو اسم ملف المستند لعرضه في هذا الإطار.
+linktitle: FrameDefaultUrl
+articleTitle: FrameDefaultUrl
+second_title: Aspose.Words لـ .NET
+description: Frameset FrameDefaultUrl ملكية. الحصول على أو تعيين عنوان URL لصفحة الويب أو اسم ملف المستند لعرضه في هذا الإطار في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.framesets/frameset/framedefaulturl/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.framesets/frameset/framedefaulturl/
 public string FrameDefaultUrl { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى الإطارات الموجودة على الصفحة.
 
@@ -39,7 +41,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 ### أنظر أيضا
 
 * class [Frameset](../)
-* مساحة الاسم [Aspose.Words.Framesets](../../frameset/)
+* مساحة الاسم [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * المجسم [Aspose.Words](../../../)
-
-

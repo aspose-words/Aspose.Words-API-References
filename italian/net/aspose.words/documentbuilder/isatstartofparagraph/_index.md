@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.IsAtStartOfParagraph
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder proprietà. RestituisceVERO se il cursore è allinizio del paragrafo corrente nessun testo prima del cursore.
+linktitle: IsAtStartOfParagraph
+articleTitle: IsAtStartOfParagraph
+second_title: Aspose.Words per .NET
+description: DocumentBuilder IsAtStartOfParagraph proprietà. RestituisceVERO se il cursore è allinizio del paragrafo corrente nessun testo prima del cursore in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words/documentbuilder/isatstartofparagraph/
@@ -14,7 +16,7 @@ Restituisce`VERO` se il cursore è all'inizio del paragrafo corrente (nessun tes
 public bool IsAtStartOfParagraph { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come spostare il cursore di un generatore di documenti su diversi nodi in un documento.
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Guarda anche
 
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

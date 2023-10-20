@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoSubstitutionRule
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.FontInfoSubstitutionRule فصل. قاعدة استبدال معلومات الخط.
+title: FontInfoSubstitutionRule Class
+linktitle: FontInfoSubstitutionRule
+articleTitle: FontInfoSubstitutionRule
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.FontInfoSubstitutionRule فصل. قاعدة استبدال معلومات الخط في C#.
 type: docs
 weight: 2940
 url: /ar/net/aspose.words.fonts/fontinfosubstitutionrule/
@@ -22,11 +24,11 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | يحدد ما إذا كانت القاعدة مفعلة أم لا. |
 
-### ملاحظات
+## ملاحظات
 
 وفقًا لهذه القاعدة، يقوم Aspose.Words بتقييم جميع الحقول ذات الصلة فيها[`FontInfo`](../fontinfo/) (Panose، Sig، إلخ) for الخط المفقود ويبحث عن أقرب تطابق بين مصادر الخطوط المتاحة. لو[`FontInfo`](../fontinfo/)غير متوفر للخط المفقود، فلن يتم فعل أي شيء.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخطوط المتوفرة.
 
@@ -88,5 +90,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

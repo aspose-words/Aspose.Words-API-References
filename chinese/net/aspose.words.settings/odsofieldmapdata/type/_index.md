@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Type
-second_title: Aspose.Words for .NET API 参考
-description: OdsoFieldMapData 财产. 指定给定邮件合并字段是否已映射到给定外部数据源中的列 默认值为Default.
+linktitle: Type
+articleTitle: Type
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoFieldMapData Type 财产. 指定给定邮件合并字段是否已映射到给定外部数据源中的列 默认值为Default 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.settings/odsofieldmapdata/type/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/odsofieldmapdata/type/
 public OdsoFieldMappingType Type { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问将数据源列映射到合并字段的数据集合。
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * enum [OdsoFieldMappingType](../../odsofieldmappingtype/)
 * class [OdsoFieldMapData](../)
-* 命名空间 [Aspose.Words.Settings](../../odsofieldmapdata/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OleControl.Name
-second_title: Aspose.Words for .NET API 参考
-description: OleControl 财产. 获取或设置 ActiveX 控件的名称
+linktitle: Name
+articleTitle: Name
+second_title: 用于 .NET 的 Aspose.Words
+description: OleControl Name 财产. 获取或设置 ActiveX 控件的名称 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.ole/olecontrol/name/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.ole/olecontrol/name/
 public string Name { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何验证 ActiveX 控件的属性。
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### 也可以看看
 
 * class [OleControl](../)
-* 命名空间 [Aspose.Words.Drawing.Ole](../../olecontrol/)
+* 命名空间 [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * 部件 [Aspose.Words](../../../)
-
-

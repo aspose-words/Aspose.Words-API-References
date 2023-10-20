@@ -1,7 +1,9 @@
 ---
 title: Row.ParentTable
-second_title: Aspose.Words för .NET API Referens
-description: Row fast egendom. Returnerar den omedelbara överordnade tabellen för raden.
+linktitle: ParentTable
+articleTitle: ParentTable
+second_title: Aspose.Words för .NET
+description: Row ParentTable fast egendom. Returnerar den omedelbara överordnade tabellen för raden i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.tables/row/parenttable/
@@ -14,11 +16,11 @@ Returnerar den omedelbara överordnade tabellen för raden.
 public Table ParentTable { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Ekvivalent medFirstNonMarkupParentNode gjutna till[`Table`](../../table/).
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje tabell i ett dokument.
 
@@ -182,7 +184,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Table](../../table/)
 * class [Row](../)
-* namnutrymme [Aspose.Words.Tables](../../row/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

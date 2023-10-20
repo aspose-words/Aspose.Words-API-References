@@ -1,7 +1,9 @@
 ---
 title: Font.NameAscii
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Возвращает или задает шрифт используемый для латинского текста символы с кодами символов от 0 нуля до 127.
+linktitle: NameAscii
+articleTitle: NameAscii
+second_title: Aspose.Words для .NET
+description: Font NameAscii свойство. Возвращает или задает шрифт используемый для латинского текста символы с кодами символов от 0 нуля до 127 на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words/font/nameascii/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/nameascii/
 public string NameAscii { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как Microsoft Word может комбинировать два разных шрифта за один проход.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

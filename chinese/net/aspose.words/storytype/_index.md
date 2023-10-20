@@ -1,7 +1,9 @@
 ---
-title: Enum StoryType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.StoryType 枚举. Word 文档的文本存储在故事中StoryType识别一个故事
+title: StoryType Enum
+linktitle: StoryType
+articleTitle: StoryType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.StoryType 枚举. Word 文档的文本存储在故事中StoryType识别一个故事 在 C#.
 type: docs
 weight: 6120
 url: /zh/net/aspose.words/storytype/
@@ -37,7 +39,7 @@ public enum StoryType
 | EndnoteContinuationSeparator | `16` | 包含尾注延续分隔符的文本，表示为FootnoteSeparator. |
 | EndnoteContinuationNotice | `17` | 包含尾注延续通知分隔符的文本，表示为FootnoteSeparator. |
 
-### 例子
+## 例子
 
 演示如何从节点中删除所有形状。
 
@@ -62,5 +64,3 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

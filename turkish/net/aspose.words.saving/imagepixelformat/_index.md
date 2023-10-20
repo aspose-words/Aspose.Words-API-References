@@ -1,7 +1,9 @@
 ---
-title: Enum ImagePixelFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.ImagePixelFormat Sıralama. Belge sayfalarının oluşturulan görüntüleri için piksel biçimini belirtir.
+title: ImagePixelFormat Enum
+linktitle: ImagePixelFormat
+articleTitle: ImagePixelFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.ImagePixelFormat Sıralama. Belge sayfalarının oluşturulan görüntüleri için piksel biçimini belirtir C#'da.
 type: docs
 weight: 5220
 url: /tr/net/aspose.words.saving/imagepixelformat/
@@ -30,7 +32,7 @@ public enum ImagePixelFormat
 | Format64BppPArgb | `9` | Piksel başına 64 bit, ARGB, önceden çarpılmış alfa. |
 | Format1bppIndexed | `10` | Piksel başına 1 bit, Dizine Alınmış. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin görüntüye dönüştürüleceği piksel başına bit oranının nasıl seçileceğini gösterir.
 
@@ -96,5 +98,3 @@ Document doc = new Document();
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

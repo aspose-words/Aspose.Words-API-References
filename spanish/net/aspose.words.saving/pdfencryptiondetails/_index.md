@@ -1,7 +1,9 @@
 ---
-title: Class PdfEncryptionDetails
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.PdfEncryptionDetails clase. Contiene detalles para cifrar y permisos de acceso a un documento PDF.
+title: PdfEncryptionDetails Class
+linktitle: PdfEncryptionDetails
+articleTitle: PdfEncryptionDetails
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.PdfEncryptionDetails clase. Contiene detalles para cifrar y permisos de acceso a un documento PDF en C#.
 type: docs
 weight: 5460
 url: /es/net/aspose.words.saving/pdfencryptiondetails/
@@ -20,8 +22,8 @@ public class PdfEncryptionDetails
 
 | Nombre | Descripción |
 | --- | --- |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(string, string) | Inicializa una instancia de esta clase. |
-| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(string, string, PdfPermissions) | Inicializa una instancia de esta clase. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(*string, string*) | Inicializa una instancia de esta clase. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(*string, string, [PdfPermissions](../pdfpermissions/)*) | Inicializa una instancia de esta clase. |
 
 ## Propiedades
 
@@ -31,7 +33,7 @@ public class PdfEncryptionDetails
 | [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions/) { get; set; } | Especifica las operaciones permitidas a un usuario en un documento PDF cifrado. El valor predeterminado esDisallowAll . |
 | [UserPassword](../../aspose.words.saving/pdfencryptiondetails/userpassword/) { get; set; } | Especifica la contraseña de usuario requerida para abrir el documento PDF cifrado. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer permisos en un documento PDF guardado.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

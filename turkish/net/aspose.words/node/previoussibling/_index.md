@@ -1,7 +1,9 @@
 ---
 title: Node.PreviousSibling
-second_title: Aspose.Words for .NET API Referansı
-description: Node mülk. Bu düğümden hemen önceki düğümü alır.
+linktitle: PreviousSibling
+articleTitle: PreviousSibling
+second_title: Aspose.Words for .NET
+description: Node PreviousSibling mülk. Bu düğümden hemen önceki düğümü alır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/node/previoussibling/
@@ -14,11 +16,11 @@ Bu düğümden hemen önceki düğümü alır.
 public Node PreviousSibling { get; }
 ```
 
-### Notlar
+## Notlar
 
 Önceki düğüm yoksa, bir`hükümsüz` döndürülür.
 
-### Örnekler
+## Örnekler
 
 Belgedeki son bölümden önceki bölümü kaldırmak için Node ve CompositeNode yöntemlerinin nasıl kullanılacağını gösterir.
 
@@ -45,7 +47,5 @@ Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ### Ayrıca bakınız
 
 * class [Node](../)
-* ad alanı [Aspose.Words](../../node/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

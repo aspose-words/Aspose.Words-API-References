@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Shading
-second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Restituisce aShading oggetto che fa riferimento alla formattazione dellombreggiatura per il paragrafo.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words per .NET
+description: ParagraphFormat Shading proprietà. Restituisce aShading oggetto che fa riferimento alla formattazione dellombreggiatura per il paragrafo in C#.
 type: docs
 weight: 280
 url: /it/net/aspose.words/paragraphformat/shading/
@@ -14,7 +16,7 @@ Restituisce a[`Shading`](../../shading/) oggetto che fa riferimento alla formatt
 public Shading Shading { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come decorare il testo con bordi e ombreggiature.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 * class [Shading](../../shading/)
 * class [ParagraphFormat](../)
-* spazio dei nomi [Aspose.Words](../../paragraphformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

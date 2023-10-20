@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SuppressTopSpacing
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Игнорировать минимальную и точную высоту строки для первой строки на странице.
+linktitle: SuppressTopSpacing
+articleTitle: SuppressTopSpacing
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions SuppressTopSpacing свойство. Игнорировать минимальную и точную высоту строки для первой строки на странице на С#.
 type: docs
 weight: 510
 url: /ru/net/aspose.words.settings/compatibilityoptions/suppresstopspacing/
@@ -17,7 +19,5 @@ public bool SuppressTopSpacing { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

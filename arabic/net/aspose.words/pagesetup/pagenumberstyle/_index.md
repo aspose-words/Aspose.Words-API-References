@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageNumberStyle
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. الحصول على تنسيق رقم الصفحة أو تعيينه.
+linktitle: PageNumberStyle
+articleTitle: PageNumberStyle
+second_title: Aspose.Words لـ .NET
+description: PageSetup PageNumberStyle ملكية. الحصول على تنسيق رقم الصفحة أو تعيينه في C#.
 type: docs
 weight: 320
 url: /ar/net/aspose.words/pagesetup/pagenumberstyle/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/pagenumberstyle/
 public NumberStyle PageNumberStyle { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعداد ترقيم الصفحات في القسم.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 * enum [NumberStyle](../../numberstyle/)
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

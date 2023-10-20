@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Bindings
-second_title: Aspose.Words for .NET API 参考
-description: WebExtension 财产. 指定 Web 扩展绑定列表
+linktitle: Bindings
+articleTitle: Bindings
+second_title: 用于 .NET 的 Aspose.Words
+description: WebExtension Bindings 财产. 指定 Web 扩展绑定列表 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.webextensions/webextension/bindings/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.webextensions/webextension/bindings/
 public WebExtensionBindingCollection Bindings { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtensionBindingCollection](../../webextensionbindingcollection/)
 * class [WebExtension](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../webextension/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

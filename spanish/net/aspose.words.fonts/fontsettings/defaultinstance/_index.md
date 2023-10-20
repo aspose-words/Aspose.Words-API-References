@@ -1,7 +1,9 @@
 ---
 title: FontSettings.DefaultInstance
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSettings propiedad. Configuración de fuente predeterminada estática.
+linktitle: DefaultInstance
+articleTitle: DefaultInstance
+second_title: Aspose.Words para .NET
+description: FontSettings DefaultInstance propiedad. Configuración de fuente predeterminada estática en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fonts/fontsettings/defaultinstance/
@@ -14,11 +16,11 @@ Configuración de fuente predeterminada estática.
 public static FontSettings DefaultInstance { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta instancia se utiliza de forma predeterminada en un documento a menos que[`FontSettings`](../../../aspose.words/document/fontsettings/) está especificado.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la instancia de configuración de fuente predeterminada.
 
@@ -94,7 +96,5 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 ### Ver también
 
 * class [FontSettings](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontsettings/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

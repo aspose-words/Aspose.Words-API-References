@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientStops
-second_title: Referencia de API de Aspose.Words para .NET
-description: Fill propiedad. Obtiene una colección deGradientStop objetos para el relleno.
+linktitle: GradientStops
+articleTitle: GradientStops
+second_title: Aspose.Words para .NET
+description: Fill GradientStops propiedad. Obtiene una colección deGradientStop objetos para el relleno en C#.
 type: docs
-weight: 110
+weight: 100
 url: /es/net/aspose.words.drawing/fill/gradientstops/
 ---
 ## Fill.GradientStops property
@@ -14,7 +16,7 @@ Obtiene una colección de[`GradientStop`](../../gradientstop/) objetos para el r
 public GradientStopCollection GradientStops { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar paradas de degradado al relleno de degradado.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStopCollection](../../gradientstopcollection/)
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Width
-second_title: Aspose.Words for .NET API Referansı
-description: CellFormat mülk. Hücrenin genişliğini nokta olarak alır.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words for .NET
+description: CellFormat Width mülk. Hücrenin genişliğini nokta olarak alır C#'da.
 type: docs
-weight: 140
+weight: 130
 url: /tr/net/aspose.words.tables/cellformat/width/
 ---
 ## CellFormat.Width property
@@ -14,13 +16,13 @@ Hücrenin genişliğini nokta olarak alır.
 public double Width { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Genişlik, Aspose.Words tarafından belge yükleme ve kaydetme sırasında hesaplanır. Şu anda tablo, hücre ve belge özelliklerinin her kombinasyonu desteklenmemektedir. Döndürülen değer bazı belgeler için doğru olmayabilir. Belge MS Word'de açıldığında MS Word tarafından hesaplanan hücre genişliği.
 
 Bu özelliğin ayarlanması önerilmez. Hücrenin gerçekte ayarlanan genişliğe sahip olacağına dair bir garanti yoktur. Genişlik, hücre içeriklerini otomatik sığdırma tablosu düzeninde barındıracak şekilde ayarlanabilir. Diğer satırlardaki hücreler çakışan genişliğe sahip olabilir settings. Tablo, kaba sığacak veya tablo genişliği ayarlarını karşılayacak şekilde yeniden boyutlandırılabilir. Kullanmayı düşünün[`PreferredWidth`](../preferredwidth/) hücre genişliğini ayarlamak için. Bu özellik setlerini ayarlama[`PreferredWidth`](../preferredwidth/)15.8. sürümünden beri örtülü olarak
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucuyla hücrelerin nasıl biçimlendirileceğini gösterir.
 
@@ -128,7 +130,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Ayrıca bakınız
 
 * class [CellFormat](../)
-* ad alanı [Aspose.Words.Tables](../../cellformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

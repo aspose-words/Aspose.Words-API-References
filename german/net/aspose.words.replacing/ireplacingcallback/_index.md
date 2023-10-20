@@ -1,7 +1,9 @@
 ---
-title: Interface IReplacingCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Replacing.IReplacingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Ihre eigene benutzerdefinierte Methode während eines Such und Ersetzungsvorgangs aufrufen möchten.
+title: IReplacingCallback Interface
+linktitle: IReplacingCallback
+articleTitle: IReplacingCallback
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Replacing.IReplacingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Ihre eigene benutzerdefinierte Methode während eines Such und Ersetzungsvorgangs aufrufen möchten in C#.
 type: docs
 weight: 4630
 url: /de/net/aspose.words.replacing/ireplacingcallback/
@@ -18,9 +20,9 @@ public interface IReplacingCallback
 
 | Name | Beschreibung |
 | --- | --- |
-| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(ReplacingArgs) | Eine benutzerdefinierte Methode, die während eines Ersetzungsvorgangs für jede gefundene Übereinstimmung aufgerufen wird, kurz bevor ein Ersetzungsvorgang durchgeführt wird. |
+| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | Eine benutzerdefinierte Methode, die während eines Ersetzungsvorgangs für jede gefundene Übereinstimmung aufgerufen wird, kurz bevor ein Ersetzungsvorgang durchgeführt wird. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Vorkommen eines regulären Ausdrucksmusters durch eine andere Zeichenfolge ersetzt werden, während alle Ersetzungen verfolgt werden.
 
@@ -196,5 +198,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * namensraum [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../)
-
-

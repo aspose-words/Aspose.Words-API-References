@@ -1,7 +1,9 @@
 ---
 title: ListLevel.CustomNumberStyleFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel eigendom. Ruft das benutzerdefinierte Zahlenstilformat für diese Listenebene ab. Zum Beispiel a ç ĝ ....
+linktitle: CustomNumberStyleFormat
+articleTitle: CustomNumberStyleFormat
+second_title: Aspose.Words für .NET
+description: ListLevel CustomNumberStyleFormat eigendom. Ruft das benutzerdefinierte Zahlenstilformat für diese Listenebene ab. Zum Beispiel a ç ĝ  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.lists/listlevel/customnumberstyleformat/
@@ -14,7 +16,7 @@ Ruft das benutzerdefinierte Zahlenstilformat für diese Listenebene ab. Zum Beis
 public string CustomNumberStyleFormat { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man das Format für eine Liste mit dem benutzerdefinierten Zahlenstil erhält.
 
@@ -38,7 +40,5 @@ Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, custom
 ### Siehe auch
 
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

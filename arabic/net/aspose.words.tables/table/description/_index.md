@@ -1,7 +1,9 @@
 ---
 title: Table.Description
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تعيين وصف لهذا الجدول. يوفر تمثيل نصي بديل للمعلومات الموجودة في الجدول.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words لـ .NET
+description: Table Description ملكية. الحصول على أو تعيين وصف لهذا الجدول. يوفر تمثيل نصي بديل للمعلومات الموجودة في الجدول في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.tables/table/description/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.tables/table/description/
 public string Description { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي سلسلة فارغة.
 
 هذه الخاصية مفيدة لمستندات DOCX المتوافقة مع ISO/IEC 29500 ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). عند الحفظ بتنسيقات ما قبل ISO/IEC 29500، يتم تجاهل الخاصية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول متداخل دون استخدام أداة إنشاء المستندات.
 
@@ -76,7 +78,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

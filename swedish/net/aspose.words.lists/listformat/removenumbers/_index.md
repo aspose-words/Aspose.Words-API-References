@@ -1,7 +1,9 @@
 ---
 title: ListFormat.RemoveNumbers
-second_title: Aspose.Words för .NET API Referens
-description: ListFormat metod. Tar bort siffror eller punkter från det aktuella stycket och ställer in listnivån till noll.
+linktitle: RemoveNumbers
+articleTitle: RemoveNumbers
+second_title: Aspose.Words för .NET
+description: ListFormat RemoveNumbers metod. Tar bort siffror eller punkter från det aktuella stycket och ställer in listnivån till noll i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.lists/listformat/removenumbers/
@@ -14,11 +16,11 @@ Tar bort siffror eller punkter från det aktuella stycket och ställer in listni
 public void RemoveNumbers()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Att anropa den här metoden motsvarar att ställa in[`List`](../list/) egendom till`null`.
 
-### Exempel
+## Exempel
 
 Visar hur du tar bort listformatering från alla stycken i huvudtexten i ett avsnitt.
 
@@ -124,7 +126,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Se även
 
 * class [ListFormat](../)
-* namnutrymme [Aspose.Words.Lists](../../listformat/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

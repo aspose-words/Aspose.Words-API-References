@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Name
-second_title: Aspose.Words för .NET API Referens
-description: ChartSeries fast egendom. Hämtar eller ställer in namnet på serien om namnet inte anges explicit genereras det med index. Som standard returnerar Series plus ett baserat index.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words för .NET
+description: ChartSeries Name fast egendom. Hämtar eller ställer in namnet på serien om namnet inte anges explicit genereras det med index. Som standard returnerar Series plus ett baserat index i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.drawing.charts/chartseries/name/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på serien, om namnet inte anges explicit gener
 public string Name { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Se även
 
 * class [ChartSeries](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseries/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

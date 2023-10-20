@@ -1,7 +1,9 @@
 ---
-title: Class BookmarkStart
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.BookmarkStart сорт. Представляет начало закладки в документе Word.
+title: BookmarkStart Class
+linktitle: BookmarkStart
+articleTitle: BookmarkStart
+second_title: Aspose.Words для .NET
+description: Aspose.Words.BookmarkStart сорт. Представляет начало закладки в документе Word на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/bookmarkstart/
@@ -20,7 +22,7 @@ public class BookmarkStart : Node
 
 | Имя | Описание |
 | --- | --- |
-| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | Инициализирует новый экземпляр`BookmarkStart` класс. |
+| [BookmarkStart](bookmarkstart/)(*[DocumentBase](../documentbase/), string*) | Инициализирует новый экземпляр`BookmarkStart` класс. |
 
 ## Характеристики
 
@@ -41,18 +43,18 @@ public class BookmarkStart : Node
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words/bookmarkstart/accept/)(DocumentVisitor) | Принимает посетителя. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
+| override [Accept](../../aspose.words/bookmarkstart/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Принимает посетителя. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Создает дубликат узла. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Получает первого предка указанного типа объекта. |
 | override [GetText](../../aspose.words/bookmarkstart/gettext/)() | Возвращает пустую строку. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
 | [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку указанного формата. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
-### Примечания
+## Примечания
 
 Полная закладка в документе Word состоит из`BookmarkStart` и соответствие[`BookmarkEnd`](../bookmarkend/) с тем же именем закладки.
 
@@ -60,7 +62,7 @@ public class BookmarkStart : Node
 
 Использовать[`Bookmark`](./bookmark/) класс как «фасад» для работы с bookmark как с одним объектом.
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять закладки и обновлять их содержимое.
 
@@ -151,5 +153,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * class [Node](../node/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldAutoNumLgl.RemoveTrailingPeriod
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAutoNumLgl mülk. Sayının sonunda nokta olmadan görüntülenip görüntülenmeyeceğini alır veya ayarlar.
+linktitle: RemoveTrailingPeriod
+articleTitle: RemoveTrailingPeriod
+second_title: Aspose.Words for .NET
+description: FieldAutoNumLgl RemoveTrailingPeriod mülk. Sayının sonunda nokta olmadan görüntülenip görüntülenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldautonumlgl/removetrailingperiod/
@@ -14,7 +16,7 @@ Sayının sonunda nokta olmadan görüntülenip görüntülenmeyeceğini alır v
 public bool RemoveTrailingPeriod { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 AUTONUMLGL alanlarını kullanarak bir belgenin nasıl düzenleneceğini gösterir.
 
@@ -90,7 +92,5 @@ private static void InsertNumberedClause(DocumentBuilder builder, string heading
 ### Ayrıca bakınız
 
 * class [FieldAutoNumLgl](../)
-* ad alanı [Aspose.Words.Fields](../../fieldautonumlgl/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

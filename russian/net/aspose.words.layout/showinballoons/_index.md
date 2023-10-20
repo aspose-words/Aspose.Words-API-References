@@ -1,7 +1,9 @@
 ---
-title: Enum ShowInBalloons
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Layout.ShowInBalloons перечисление. Указывает какие версии отображаются в выносках.
+title: ShowInBalloons Enum
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Layout.ShowInBalloons перечисление. Указывает какие версии отображаются в выносках на С#.
 type: docs
 weight: 3410
 url: /ru/net/aspose.words.layout/showinballoons/
@@ -22,11 +24,11 @@ public enum ShowInBalloons
 | Format | `1` | Отображает вставку и удаление редакций встроенными, форматирует ревизии в выносках. |
 | FormatAndDelete | `2` | Отображает вставку редакций встроенными, удаление и форматирование редакций в выносках. |
 
-### Примечания
+## Примечания
 
 Обратите внимание, что изменения не отображаются в выносках дляShowInAnnotations .
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид редакций.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * пространство имен [Aspose.Words.Layout](../../aspose.words.layout/)
 * сборка [Aspose.Words](../../)
-
-

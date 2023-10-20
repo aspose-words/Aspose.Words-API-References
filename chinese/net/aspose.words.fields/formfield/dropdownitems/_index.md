@@ -1,7 +1,9 @@
 ---
 title: FormField.DropDownItems
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 提供对下拉表单字段的项目的访问
+linktitle: DropDownItems
+articleTitle: DropDownItems
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField DropDownItems 财产. 提供对下拉表单字段的项目的访问 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/formfield/dropdownitems/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/formfield/dropdownitems/
 public DropDownItemCollection DropDownItems { get; }
 ```
 
-### 评论
+## 评论
 
 Microsoft Word 允许下拉表单字段中最多包含 25 个项目。
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -153,7 +155,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [DropDownItemCollection](../../dropdownitemcollection/)
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

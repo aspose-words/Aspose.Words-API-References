@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertHtml
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgeye bir HTML dizesi ekler.
+linktitle: InsertHtml
+articleTitle: InsertHtml
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertHtml yöntem. Belgeye bir HTML dizesi ekler C#'da.
 type: docs
-weight: 360
+weight: 350
 url: /tr/net/aspose.words/documentbuilder/inserthtml/
 ---
-## InsertHtml(string) {#inserthtml}
+## InsertHtml(*string*) {#inserthtml}
 
 Belgeye bir HTML dizesi ekler.
 
@@ -18,11 +20,11 @@ public void InsertHtml(string html)
 | --- | --- | --- |
 | html | String | Belgeye eklenecek bir HTML dizesi. |
 
-### Notlar
+## Notlar
 
 Bir HTML parçasını veya tüm HTML belgesini eklemek için bu yöntemi kullanabilirsiniz.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye html içeriği eklemek için belge oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -122,12 +124,12 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## InsertHtml(string, bool) {#inserthtml_2}
+## InsertHtml(*string, bool*) {#inserthtml_2}
 
 Belgeye bir HTML dizesi ekler.
 
@@ -140,7 +142,7 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 | html | String | Belgeye eklenecek bir HTML dizesi. |
 | useBuilderFormatting | Boolean | Biçimlendirmenin belirtilip belirtilmediğini gösteren bir değer[`DocumentBuilder`](../) , HTML'den içe aktarılan metin için temel biçimlendirme olarak kullanılır. |
 
-### Notlar
+## Notlar
 
 Bir HTML parçasını veya tüm HTML belgesini eklemek için bu yöntemi kullanabilirsiniz.
 
@@ -148,7 +150,7 @@ Ne zaman*useBuilderFormatting* dır-dir`YANLIŞ` , [`DocumentBuilder`](../)biçi
 
 Ne zaman*useBuilderFormatting* dır-dir`doğru` , eklenen metnin biçimlendirmesi temel alınır[`DocumentBuilder`](../) formatting, ve metin sanki eklenmiş gibi görünüyor[`Write`](../write/) .
 
-### Örnekler
+## Örnekler
 
 HTML içeriği eklenirken belge oluşturucunun formatının nasıl uygulanacağını gösterir.
 
@@ -181,12 +183,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## InsertHtml(string, HtmlInsertOptions) {#inserthtml_1}
+## InsertHtml(*string, [HtmlInsertOptions](../../htmlinsertoptions/)*) {#inserthtml_1}
 
 Belgeye bir HTML dizesi ekler. Ek seçeneklerin belirtilmesine izin verir.
 
@@ -199,11 +201,11 @@ public void InsertHtml(string html, HtmlInsertOptions options)
 | html | String | Belgeye eklenecek bir HTML dizesi. |
 | options | HtmlInsertOptions | HTML dizesi eklendiğinde kullanılan seçenekler. |
 
-### Notlar
+## Notlar
 
 Bir HTML parçasını veya tüm HTML belgesini eklemek için bu yöntemi kullanabilirsiniz.
 
-### Örnekler
+## Örnekler
 
 Html eklerken seçeneklerin nasıl kullanılacağını gösterir.
 
@@ -232,7 +234,5 @@ doc.Save(ArtifactsDir + "MailMerge.RemoveLastEmptyParagraph.docx");
 
 * enum [HtmlInsertOptions](../../htmlinsertoptions/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

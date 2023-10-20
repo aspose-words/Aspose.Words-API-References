@@ -1,7 +1,9 @@
 ---
-title: Enum StoryType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.StoryType uppräkning. Text i ett Worddokument lagras i berättelser.StoryType identifierar en berättelse.
+title: StoryType Enum
+linktitle: StoryType
+articleTitle: StoryType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.StoryType uppräkning. Text i ett Worddokument lagras i berättelser.StoryType identifierar en berättelse i C#.
 type: docs
 weight: 6120
 url: /sv/net/aspose.words/storytype/
@@ -37,7 +39,7 @@ public enum StoryType
 | EndnoteContinuationSeparator | `16` | Innehåller texten i slutnotens fortsättningsavgränsare, representerad avFootnoteSeparator . |
 | EndnoteContinuationNotice | `17` | Innehåller texten i slutnotens fortsättningsmeddelandeavgränsare, representerad avFootnoteSeparator . |
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort alla former från en nod.
 
@@ -62,5 +64,3 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.CellChar
-second_title: Aspose.Words per .NET API Reference
-description: ControlChar campo. Fine di una cella di tabella o fine di una riga di tabella carattere char7 o a.
+linktitle: CellChar
+articleTitle: CellChar
+second_title: Aspose.Words per .NET
+description: ControlChar CellChar campo. Fine di una cella di tabella o fine di una riga di tabella carattere char7 o a in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/controlchar/cellchar/
@@ -14,7 +16,7 @@ Fine di una cella di tabella o fine di una riga di tabella carattere: (char)7 o 
 public const char CellChar;
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere vari caratteri di controllo a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Guarda anche
 
 * class [ControlChar](../)
-* spazio dei nomi [Aspose.Words](../../controlchar/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

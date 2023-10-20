@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.PageSet
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSaveOptions propiedad. Obtiene o establece las páginas que se van a representar. El valor predeterminado son todas las páginas del documento.
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words para .NET
+description: ImageSaveOptions PageSet propiedad. Obtiene o establece las páginas que se van a representar. El valor predeterminado son todas las páginas del documento en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.saving/imagesaveoptions/pageset/
@@ -14,11 +16,11 @@ Obtiene o establece las páginas que se van a representar. El valor predetermina
 public PageSet PageSet { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad tiene efecto sólo al representar páginas de documentos. Esta propiedad se ignora al representar formas en imágenes.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo extraer páginas según rangos de páginas exactos.
 
@@ -122,7 +124,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 
 * class [PageSet](../../pageset/)
 * class [ImageSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../imagesaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

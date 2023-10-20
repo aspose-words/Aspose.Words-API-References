@@ -1,7 +1,9 @@
 ---
-title: Frameset.Frameset
-second_title: Справочник по API Aspose.Words для .NET
-description: Frameset строитель. Конструктор по умолчанию.
+title: Frameset
+linktitle: Frameset
+articleTitle: Frameset
+second_title: Aspose.Words для .NET
+description: Frameset строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.framesets/frameset/frameset/
@@ -17,7 +19,5 @@ public Frameset()
 ### Смотрите также
 
 * class [Frameset](../)
-* пространство имен [Aspose.Words.Framesets](../../frameset/)
+* пространство имен [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * сборка [Aspose.Words](../../../)
-
-

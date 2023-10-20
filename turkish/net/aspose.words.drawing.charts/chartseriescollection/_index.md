@@ -1,7 +1,9 @@
 ---
-title: Class ChartSeriesCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartSeriesCollection sınıf. Bir koleksiyonu temsil ederChartSeries .
+title: ChartSeriesCollection Class
+linktitle: ChartSeriesCollection
+articleTitle: ChartSeriesCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartSeriesCollection sınıf. Bir koleksiyonu temsil ederChartSeries  C#'da.
 type: docs
 weight: 790
 url: /tr/net/aspose.words.drawing.charts/chartseriescollection/
@@ -27,15 +29,15 @@ public class ChartSeriesCollection : IEnumerable<ChartSeries>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_2)(string, DateTime[], double[]) | Yeni ekler[`ChartSeries`](../chartseries/) bu koleksiyona. Her türlü Alan, Radar ve Hisse senedi grafiğine seri eklemek için bu yöntemi kullanın. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add)(string, double[], double[]) | Yeni ekler[`ChartSeries`](../chartseries/) bu koleksiyona. Herhangi bir Dağılım grafiği türüne seri eklemek için bu yöntemi kullanın. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_3)(string, string[], double[]) | Yeni ekler[`ChartSeries`](../chartseries/) bu koleksiyona. Herhangi bir Çubuk, Sütun, Çizgi ve Yüzey grafiğine seri eklemek için bu yöntemi kullanın. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_1)(string, double[], double[], double[]) | Yeni ekler[`ChartSeries`](../chartseries/)bu koleksiyona. Herhangi bir Kabarcık grafiği türüne seri eklemek için bu yöntemi kullanın. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_2)(*string, DateTime[], double[]*) | Yeni ekler[`ChartSeries`](../chartseries/) bu koleksiyona. Her türlü Alan, Radar ve Hisse senedi grafiğine seri eklemek için bu yöntemi kullanın. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add)(*string, double[], double[]*) | Yeni ekler[`ChartSeries`](../chartseries/) bu koleksiyona. Herhangi bir Dağılım grafiği türüne seri eklemek için bu yöntemi kullanın. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_3)(*string, string[], double[]*) | Yeni ekler[`ChartSeries`](../chartseries/) bu koleksiyona. Herhangi bir Çubuk, Sütun, Çizgi ve Yüzey grafiğine seri eklemek için bu yöntemi kullanın. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_1)(*string, double[], double[], double[]*) | Yeni ekler[`ChartSeries`](../chartseries/)bu koleksiyona. Herhangi bir Kabarcık grafiği türüne seri eklemek için bu yöntemi kullanın. |
 | [Clear](../../aspose.words.drawing.charts/chartseriescollection/clear/)() | Tümünü kaldırır[`ChartSeries`](../chartseries/) bu koleksiyondan. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartseriescollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
-| [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat/)(int) | Bir'i kaldırır[`ChartSeries`](../chartseries/) belirtilen dizinde. |
+| [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat/)(*int*) | Bir'i kaldırır[`ChartSeries`](../chartseries/) belirtilen dizinde. |
 
-### Örnekler
+## Örnekler
 
 Bir grafiğe seri verilerinin nasıl eklenip kaldırılacağını gösterir.
 
@@ -84,5 +86,3 @@ chartData.Clear();
 * class [ChartSeries](../chartseries/)
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

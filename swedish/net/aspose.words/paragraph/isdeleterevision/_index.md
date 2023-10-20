@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsDeleteRevision
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Returnerar sant om detta objekt raderades i Microsoft Word medan ändringsspårning var aktiverad.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words för .NET
+description: Paragraph IsDeleteRevision fast egendom. Returnerar sant om detta objekt raderades i Microsoft Word medan ändringsspårning var aktiverad i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/paragraph/isdeleterevision/
@@ -14,7 +16,7 @@ Returnerar sant om detta objekt raderades i Microsoft Word medan ändringsspårn
 public bool IsDeleteRevision { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med revisionsstycken.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(
 ### Se även
 
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

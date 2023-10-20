@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxisTitle
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.ChartAxisTitle classe. Fornisce laccesso alle proprietà del titolo dellasse.
+title: ChartAxisTitle Class
+linktitle: ChartAxisTitle
+articleTitle: ChartAxisTitle
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisTitle classe. Fornisce laccesso alle proprietà del titolo dellasse in C#.
 type: docs
 weight: 650
 url: /it/net/aspose.words.drawing.charts/chartaxistitle/
@@ -20,12 +22,11 @@ public class ChartAxisTitle
 
 | Nome | Descrizione |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/chartaxistitle/font/) { get; } |  |
 | [Overlay](../../aspose.words.drawing.charts/chartaxistitle/overlay/) { get; set; } | Determina se altri elementi del grafico possono sovrapporsi al titolo. Il valore predefinito è`falso` . |
 | [Show](../../aspose.words.drawing.charts/chartaxistitle/show/) { get; set; } | Determina se il titolo deve essere mostrato per l'asse. Il valore predefinito è`falso` . |
 | [Text](../../aspose.words.drawing.charts/chartaxistitle/text/) { get; set; } | Ottiene o imposta il testo del titolo dell'asse. If`nullo` o viene specificato un valore vuoto, verrà mostrato il titolo generato automaticamente. |
 
-### Esempi
+## Esempi
 
 Mostra come impostare il titolo dell'asse del grafico.
 
@@ -56,5 +57,3 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 
 * spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../)
-
-

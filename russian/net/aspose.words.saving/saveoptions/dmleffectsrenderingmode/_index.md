@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.DmlEffectsRenderingMode
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Получает или задает значение определяющее способ визуализации эффектов DrawingML.
+linktitle: DmlEffectsRenderingMode
+articleTitle: DmlEffectsRenderingMode
+second_title: Aspose.Words для .NET
+description: SaveOptions DmlEffectsRenderingMode свойство. Получает или задает значение определяющее способ визуализации эффектов DrawingML на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/
 public virtual DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Simplified .
 
 Это свойство используется, когда документ экспортируется в фиксированные форматы страниц.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить качество рендеринга эффектов DrawingML в документе при его сохранении в формате PDF.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * enum [DmlEffectsRenderingMode](../../dmleffectsrenderingmode/)
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

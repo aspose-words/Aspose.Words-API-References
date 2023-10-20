@@ -1,7 +1,9 @@
 ---
 title: Body.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: Body ملكية. إرجاعBody .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: Body NodeType ملكية. إرجاعBody  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/body/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/body/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار من خلال أبناء العقدة المركبة.
 
@@ -64,7 +66,5 @@ foreach (Node node in section)
 
 * enum [NodeType](../../nodetype/)
 * class [Body](../)
-* مساحة الاسم [Aspose.Words](../../body/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

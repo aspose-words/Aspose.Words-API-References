@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Marker
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataPoint ملكية. يحدد علامة بيانات المخطط.
+linktitle: Marker
+articleTitle: Marker
+second_title: Aspose.Words لـ .NET
+description: ChartDataPoint Marker ملكية. يحدد علامة بيانات المخطط في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing.charts/chartdatapoint/marker/
@@ -18,7 +20,5 @@ public ChartMarker Marker { get; }
 
 * class [ChartMarker](../../chartmarker/)
 * class [ChartDataPoint](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

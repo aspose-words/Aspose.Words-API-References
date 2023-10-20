@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.SetCount
-second_title: Aspose.Words för .NET API Referens
-description: TextColumnCollection metod. Ordnar text i det angivna antalet textkolumner.
+linktitle: SetCount
+articleTitle: SetCount
+second_title: Aspose.Words för .NET
+description: TextColumnCollection SetCount metod. Ordnar text i det angivna antalet textkolumner i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/textcolumncollection/setcount/
@@ -18,11 +20,11 @@ public void SetCount(int newCount)
 | --- | --- | --- |
 | newCount | Int32 | Antalet kolumner texten ska ordnas i. |
 
-### Anmärkningar
+## Anmärkningar
 
 När[`EvenlySpaced`](../evenlyspaced/) är`falsk` och du ökar antalet kolumner, new[`TextColumn`](../../textcolumn/) objekt skapas med noll bredd och mellanrum. Du måste ställa in bredd och avstånd för de nya kolumnerna.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar flera jämnt fördelade kolumner i ett avsnitt.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 ### Se även
 
 * class [TextColumnCollection](../)
-* namnutrymme [Aspose.Words](../../textcolumncollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

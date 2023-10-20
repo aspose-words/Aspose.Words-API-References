@@ -1,9 +1,11 @@
 ---
 title: Stroke.Opacity
-second_title: Aspose.Words für .NET-API-Referenz
-description: Stroke eigendom. Definiert den Grad der Transparenz eines Strichs. Der gültige Bereich liegt zwischen 0 und 1.
+linktitle: Opacity
+articleTitle: Opacity
+second_title: Aspose.Words für .NET
+description: Stroke Opacity eigendom. Definiert den Grad der Transparenz eines Strichs. Der gültige Bereich liegt zwischen 0 und 1 in C#.
 type: docs
-weight: 160
+weight: 150
 url: /de/net/aspose.words.drawing/stroke/opacity/
 ---
 ## Stroke.Opacity property
@@ -14,11 +16,11 @@ Definiert den Grad der Transparenz eines Strichs. Der gültige Bereich liegt zwi
 public double Opacity { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist 1.
 
-### Beispiele
+## Beispiele
 
 Zeigt, um eine Vielzahl von Formen zu erstellen.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Siehe auch
 
 * class [Stroke](../)
-* namensraum [Aspose.Words.Drawing](../../stroke/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

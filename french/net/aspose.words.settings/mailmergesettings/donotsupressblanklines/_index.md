@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DoNotSupressBlankLines
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeSettings propriété. Spécifie comment une application effectuant le publipostage doit gérer les lignes vides dans les documents fusionnés résultant du publipostage. La valeur par défaut estFAUX .
+linktitle: DoNotSupressBlankLines
+articleTitle: DoNotSupressBlankLines
+second_title: Aspose.Words pour .NET
+description: MailMergeSettings DoNotSupressBlankLines propriété. Spécifie comment une application effectuant le publipostage doit gérer les lignes vides dans les documents fusionnés résultant du publipostage. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
@@ -14,7 +16,7 @@ Spécifie comment une application effectuant le publipostage doit gérer les lig
 public bool DoNotSupressBlankLines { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Voir également
 
 * class [MailMergeSettings](../)
-* espace de noms [Aspose.Words.Settings](../../mailmergesettings/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

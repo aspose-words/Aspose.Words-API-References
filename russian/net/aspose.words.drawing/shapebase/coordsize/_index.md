@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.CoordSize
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Ширина и высота координатного пространства внутри содержащего блока этой формы.
+linktitle: CoordSize
+articleTitle: CoordSize
+second_title: Aspose.Words для .NET
+description: ShapeBase CoordSize свойство. Ширина и высота координатного пространства внутри содержащего блока этой формы на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.drawing/shapebase/coordsize/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/shapebase/coordsize/
 public Size CoordSize { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — (1000, 1000).
 
-### Примеры
+## Примеры
 
 Показывает, как преобразовать местоположение координат X и Y на координатной плоскости фигуры в местоположение на координатной плоскости родительской фигуры.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "Shape.GroupShape.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

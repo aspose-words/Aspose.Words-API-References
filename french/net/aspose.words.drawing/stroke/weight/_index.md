@@ -1,9 +1,11 @@
 ---
 title: Stroke.Weight
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Stroke propriété. Définit lépaisseur du pinceau qui trace le chemin dune forme en points.
+linktitle: Weight
+articleTitle: Weight
+second_title: Aspose.Words pour .NET
+description: Stroke Weight propriété. Définit lépaisseur du pinceau qui trace le chemin dune forme en points en C#.
 type: docs
-weight: 220
+weight: 210
 url: /fr/net/aspose.words.drawing/stroke/weight/
 ---
 ## Stroke.Weight property
@@ -14,11 +16,11 @@ Définit l'épaisseur du pinceau qui trace le chemin d'une forme en points.
 public double Weight { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut d'un[`Shape`](../../shape/) est de 0,75.
 
-### Exemples
+## Exemples
 
 Montre comment modifier les propriétés du trait.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ### Voir également
 
 * class [Stroke](../)
-* espace de noms [Aspose.Words.Drawing](../../stroke/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

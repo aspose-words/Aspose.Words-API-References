@@ -1,7 +1,9 @@
 ---
-title: Class FontSubstitutionRule
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.FontSubstitutionRule klas. Dies ist eine abstrakte Basisklasse für die Schriftartersetzungsregel.
+title: FontSubstitutionRule Class
+linktitle: FontSubstitutionRule
+articleTitle: FontSubstitutionRule
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fonts.FontSubstitutionRule klas. Dies ist eine abstrakte Basisklasse für die Schriftartersetzungsregel in C#.
 type: docs
 weight: 3000
 url: /de/net/aspose.words.fonts/fontsubstitutionrule/
@@ -22,7 +24,7 @@ public abstract class FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Gibt an, ob die Regel aktiviert ist oder nicht. |
 
-### Beispiele
+## Beispiele
 
 Zeigt die betriebssystemabhängige Schriftartkonfigurationsersetzung an.
 
@@ -59,5 +61,3 @@ if (isLinuxOrMac)
 
 * namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
-
-

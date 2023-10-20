@@ -1,7 +1,9 @@
 ---
-title: Class CleanupOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.CleanupOptions 班级. 允许指定文档清理选项
+title: CleanupOptions Class
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.CleanupOptions 班级. 允许指定文档清理选项 在 C#.
 type: docs
 weight: 210
 url: /zh/net/aspose.words/cleanupoptions/
@@ -31,7 +33,7 @@ public class CleanupOptions
 | [UnusedLists](../../aspose.words/cleanupoptions/unusedlists/) { get; set; } | 指定是否应从文档中删除未使用的列表和列表定义。 默认值为`真的`. |
 | [UnusedStyles](../../aspose.words/cleanupoptions/unusedstyles/) { get; set; } | 指定是否应从文档中删除未使用的样式。 默认值为`真的`. |
 
-### 例子
+## 例子
 
 演示如何从文档中删除所有未使用的自定义样式。
 
@@ -81,5 +83,3 @@ Assert.AreEqual(2, doc.Styles.Count);
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

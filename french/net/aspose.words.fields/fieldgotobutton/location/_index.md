@@ -1,7 +1,9 @@
 ---
 title: FieldGoToButton.Location
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldGoToButton propriété. Obtient ou définit le nom dun signet un numéro de page ou un autre élément auquel accéder.
+linktitle: Location
+articleTitle: Location
+second_title: Aspose.Words pour .NET
+description: FieldGoToButton Location propriété. Obtient ou définit le nom dun signet un numéro de page ou un autre élément auquel accéder en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldgotobutton/location/
@@ -14,7 +16,7 @@ Obtient ou définit le nom d'un signet, un numéro de page ou un autre élément
 public string Location { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre pour insérer un champ GOTOBUTTON.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Field.GOTOBUTTON.docx");
 ### Voir également
 
 * class [FieldGoToButton](../)
-* espace de noms [Aspose.Words.Fields](../../fieldgotobutton/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

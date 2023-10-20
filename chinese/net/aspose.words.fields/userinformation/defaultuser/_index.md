@@ -1,7 +1,9 @@
 ---
 title: UserInformation.DefaultUser
-second_title: Aspose.Words for .NET API 参考
-description: UserInformation 财产. 默认用户信息
+linktitle: DefaultUser
+articleTitle: DefaultUser
+second_title: 用于 .NET 的 Aspose.Words
+description: UserInformation DefaultUser 财产. 默认用户信息 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/userinformation/defaultuser/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/userinformation/defaultuser/
 public static UserInformation DefaultUser { get; }
 ```
 
-### 评论
+## 评论
 
 使用[`CurrentUser`](../../fieldoptions/currentuser/)属性指定单个文档的用户信息。
 
-### 例子
+## 例子
 
 演示如何设置用户详细信息并使用字段显示它们。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### 也可以看看
 
 * class [UserInformation](../)
-* 命名空间 [Aspose.Words.Fields](../../userinformation/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.Accept
-second_title: Aspose.Words for .NET API 参考
-description: BookmarkStart 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: BookmarkStart Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/bookmarkstart/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `错误的`如果访问者请求停止枚举。
 
-### 评论
+## 评论
 
 通话[`VisitBookmarkStart`](../../documentvisitor/visitbookmarkstart/)。
 
 有关更多信息，请参阅访客设计模式。
 
-### 例子
+## 例子
 
 展示如何添加书签并更新其内容。
 
@@ -118,7 +120,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [BookmarkStart](../)
-* 命名空间 [Aspose.Words](../../bookmarkstart/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

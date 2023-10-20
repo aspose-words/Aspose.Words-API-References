@@ -1,7 +1,9 @@
 ---
-title: Enum TxtExportHeadersFootersMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.TxtExportHeadersFootersMode 枚举. 指定页眉和页脚导出为纯文本格式的方式
+title: TxtExportHeadersFootersMode Enum
+linktitle: TxtExportHeadersFootersMode
+articleTitle: TxtExportHeadersFootersMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.TxtExportHeadersFootersMode 枚举. 指定页眉和页脚导出为纯文本格式的方式 在 C#.
 type: docs
 weight: 5640
 url: /zh/net/aspose.words.saving/txtexportheadersfootersmode/
@@ -22,7 +24,7 @@ public enum TxtExportHeadersFootersMode
 | PrimaryOnly | `1` | 仅在每个部分的开头和结尾导出主页眉和页脚。 |
 | AllAtEnd | `2` | 所有页眉和页脚都放置在文档最末尾的所有节主体之后。 |
 
-### 例子
+## 例子
 
 显示如何指定如何将页眉和页脚导出为纯文本格式。
 
@@ -94,5 +96,3 @@ switch (txtExportHeadersFootersMode)
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

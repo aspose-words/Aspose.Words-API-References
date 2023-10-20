@@ -1,7 +1,9 @@
 ---
 title: Document.RevisionsView
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取或设置一个值该值指示是否使用文档的原始版本或修订版本
+linktitle: RevisionsView
+articleTitle: RevisionsView
+second_title: 用于 .NET 的 Aspose.Words
+description: Document RevisionsView 财产. 获取或设置一个值该值指示是否使用文档的原始版本或修订版本 在 C#.
 type: docs
 weight: 360
 url: /zh/net/aspose.words/document/revisionsview/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/document/revisionsview/
 public RevisionsView RevisionsView { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为.
 
-### 例子
+## 例子
 
 演示如何在文档的修订视图和原始视图之间切换。
 
@@ -43,7 +45,5 @@ Assert.AreEqual("a.", paragraphs[2].ListLabel.LabelString);
 
 * enum [RevisionsView](../../revisionsview/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

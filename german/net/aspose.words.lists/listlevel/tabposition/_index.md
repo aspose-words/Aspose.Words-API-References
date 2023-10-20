@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TabPosition
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel eigendom. Gibt die Tabulatorposition in Punkt für die Listenebene zurück oder legt sie fest.
+linktitle: TabPosition
+articleTitle: TabPosition
+second_title: Aspose.Words für .NET
+description: ListLevel TabPosition eigendom. Gibt die Tabulatorposition in Punkt für die Listenebene zurück oder legt sie fest in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words.lists/listlevel/tabposition/
@@ -14,11 +16,11 @@ Gibt die Tabulatorposition (in Punkt) für die Listenebene zurück oder legt sie
 public double TabPosition { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wirkt nur, wenn[`TrailingCharacter`](../trailingcharacter/) ist eine Registerkarte.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listenformatierung auf Absätze anwenden.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Siehe auch
 
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.PosCodeStyle
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergeBarcode fast egendom. Hämtar eller ställer in stilen för en streckkod för försäljningsställen streckkodstyperna UPCAUPCEEAN13EAN8. De giltiga värdena okänsliga skiftlägen är STDSUP2SUP5CASE.
+linktitle: PosCodeStyle
+articleTitle: PosCodeStyle
+second_title: Aspose.Words för .NET
+description: FieldMergeBarcode PosCodeStyle fast egendom. Hämtar eller ställer in stilen för en streckkod för försäljningsställen streckkodstyperna UPCAUPCEEAN13EAN8. De giltiga värdena okänsliga skiftlägen är STDSUP2SUP5CASE i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.fields/fieldmergebarcode/poscodestyle/
@@ -14,7 +16,7 @@ Hämtar eller ställer in stilen för en streckkod för försäljningsställen (
 public string PosCodeStyle { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man utför en brevkoppling på EAN13 streckkoder.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ### Se även
 
 * class [FieldMergeBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldmergebarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.FontFamilyName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PhysicalFontInfo propriété. Nom de famille de la police.
+linktitle: FontFamilyName
+articleTitle: FontFamilyName
+second_title: Aspose.Words pour .NET
+description: PhysicalFontInfo FontFamilyName propriété. Nom de famille de la police en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
@@ -14,7 +16,7 @@ Nom de famille de la police.
 public string FontFamilyName { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment répertorier les polices disponibles.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Voir également
 
 * class [PhysicalFontInfo](../)
-* espace de noms [Aspose.Words.Fonts](../../physicalfontinfo/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

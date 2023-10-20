@@ -1,7 +1,9 @@
 ---
 title: FieldEQ.AsOfficeMath
-second_title: Aspose.Words for .NET API 参考
-description: FieldEQ 方法. 返回与 EQ 字段对应的 Office Math 对象
+linktitle: AsOfficeMath
+articleTitle: AsOfficeMath
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldEQ AsOfficeMath 方法. 返回与 EQ 字段对应的 Office Math 对象 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldeq/asofficemath/
@@ -22,7 +24,5 @@ public OfficeMath AsOfficeMath()
 
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [FieldEQ](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldeq/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

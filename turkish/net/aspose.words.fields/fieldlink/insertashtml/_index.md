@@ -1,7 +1,9 @@
 ---
 title: FieldLink.InsertAsHtml
-second_title: Aspose.Words for .NET API Referansı
-description: FieldLink mülk. Bağlantılı nesnenin HTML biçimindeki metin olarak eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertAsHtml
+articleTitle: InsertAsHtml
+second_title: Aspose.Words for .NET
+description: FieldLink InsertAsHtml mülk. Bağlantılı nesnenin HTML biçimindeki metin olarak eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldlink/insertashtml/
@@ -14,7 +16,7 @@ Bağlantılı nesnenin HTML biçimindeki metin olarak eklenip eklenmeyeceğini a
 public bool InsertAsHtml { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntülemek için çeşitli alan türlerinin nasıl kullanılacağını gösterir.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ayrıca bakınız
 
 * class [FieldLink](../)
-* ad alanı [Aspose.Words.Fields](../../fieldlink/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

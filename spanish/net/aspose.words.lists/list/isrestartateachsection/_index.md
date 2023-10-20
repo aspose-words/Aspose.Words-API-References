@@ -1,7 +1,9 @@
 ---
 title: List.IsRestartAtEachSection
-second_title: Referencia de API de Aspose.Words para .NET
-description: List propiedad. Especifica si la lista debe reiniciarse en cada sección. El valor predeterminado esFALSO .
+linktitle: IsRestartAtEachSection
+articleTitle: IsRestartAtEachSection
+second_title: Aspose.Words para .NET
+description: List IsRestartAtEachSection propiedad. Especifica si la lista debe reiniciarse en cada sección. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.lists/list/isrestartateachsection/
@@ -14,13 +16,13 @@ Especifica si la lista debe reiniciarse en cada sección. El valor predeterminad
 public bool IsRestartAtEachSection { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta opción sólo se admite en formatos de documentos RTF, DOC y DOCX.
 
 Esta opción se escribirá en DOCX sólo si[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) es mayor entoncesEcma376_2006.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar una lista para reiniciar la numeración en cada sección.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(restartListAtEachSection, doc.Lists[0].IsRestartAtEachSection);
 ### Ver también
 
 * class [List](../)
-* espacio de nombres [Aspose.Words.Lists](../../list/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldUpdatingProgressArgs.UpdatedFieldsCount
-second_title: Aspose.Words لمراجع .NET API
-description: FieldUpdatingProgressArgs ملكية. الحصول على عدد الحقول المحدثة.
+linktitle: UpdatedFieldsCount
+articleTitle: UpdatedFieldsCount
+second_title: Aspose.Words لـ .NET
+description: FieldUpdatingProgressArgs UpdatedFieldsCount ملكية. الحصول على عدد الحقول المحدثة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldupdatingprogressargs/updatedfieldscount/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldupdatingprogressargs/updatedfieldscount/
 public int UpdatedFieldsCount { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام طرق رد الاتصال أثناء التحديث الميداني.
 
@@ -82,7 +84,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 ### أنظر أيضا
 
 * class [FieldUpdatingProgressArgs](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldupdatingprogressargs/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

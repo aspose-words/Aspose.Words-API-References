@@ -1,24 +1,26 @@
 ---
 title: MailMerge.UseWholeParagraphAsRegion
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 财产. 获取或设置一个值指示整个段落是否包含 开始表或者 桌尾field 或之间的特定范围 开始表和 桌尾字段应包含在邮件合并区域中
+linktitle: UseWholeParagraphAsRegion
+articleTitle: UseWholeParagraphAsRegion
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge UseWholeParagraphAsRegion 财产. 获取或设置一个值指示整个段落是否包含开始表或者桌尾field 或之间的特定范围开始表和桌尾字段应包含在邮件合并区域中 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-获取或设置一个值，指示整个段落是否包含 **开始表**或者 **桌尾**field 或之间的特定范围 **开始表**和 **桌尾**字段应包含在邮件合并区域中。
+获取或设置一个值，指示整个段落是否包含**开始表**或者**桌尾**field 或之间的特定范围**开始表**和**桌尾**字段应包含在邮件合并区域中。
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`真的`.
 
-### 例子
+## 例子
 
 显示邮件合并区域和段落之间的关系。
 
@@ -85,7 +87,5 @@ private static DataTable CreateSourceTableDataTableForOneRegion()
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

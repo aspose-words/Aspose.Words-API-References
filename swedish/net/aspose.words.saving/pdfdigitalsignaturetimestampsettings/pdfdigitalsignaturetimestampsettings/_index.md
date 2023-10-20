@@ -1,7 +1,9 @@
 ---
-title: PdfDigitalSignatureTimestampSettings.PdfDigitalSignatureTimestampSettings
-second_title: Aspose.Words för .NET API Referens
-description: PdfDigitalSignatureTimestampSettings byggare. Initierar en instans av denna klass.
+title: PdfDigitalSignatureTimestampSettings
+linktitle: PdfDigitalSignatureTimestampSettings
+articleTitle: PdfDigitalSignatureTimestampSettings
+second_title: Aspose.Words för .NET
+description: PdfDigitalSignatureTimestampSettings byggare. Initierar en instans av denna klass i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/pdfdigitalsignaturetimestampsettings/
@@ -14,7 +16,7 @@ Initierar en instans av denna klass.
 public PdfDigitalSignatureTimestampSettings()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett sparat PDF-dokument digitalt och tidsstämplar det.
 
@@ -54,12 +56,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Se även
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## PdfDigitalSignatureTimestampSettings(string, string, string) {#constructor_1}
+## PdfDigitalSignatureTimestampSettings(*string, string, string*) {#constructor_1}
 
 Initierar en instans av denna klass.
 
@@ -73,7 +75,7 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 | userName | String | Användarnamn för tidsstämpelserver. |
 | password | String | Lösenord för tidsstämpelserver. |
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett sparat PDF-dokument digitalt och tidsstämplar det.
 
@@ -113,12 +115,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Se även
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## PdfDigitalSignatureTimestampSettings(string, string, string, TimeSpan) {#constructor_2}
+## PdfDigitalSignatureTimestampSettings(*string, string, string, TimeSpan*) {#constructor_2}
 
 Initierar en instans av denna klass.
 
@@ -134,7 +136,7 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 | password | String | Lösenord för tidsstämpelserver. |
 | timeout | TimeSpan | Timeout-värde för åtkomst av tidsstämpelserver. |
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett sparat PDF-dokument digitalt och tidsstämplar det.
 
@@ -174,7 +176,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Se även
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

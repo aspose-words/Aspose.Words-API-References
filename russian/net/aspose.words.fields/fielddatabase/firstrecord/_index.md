@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.FirstRecord
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDatabase свойство. Получает или задает целочисленный номер первой вставляемой записи данных.
+linktitle: FirstRecord
+articleTitle: FirstRecord
+second_title: Aspose.Words для .NET
+description: FieldDatabase FirstRecord свойство. Получает или задает целочисленный номер первой вставляемой записи данных на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fielddatabase/firstrecord/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fielddatabase/firstrecord/
 public string FirstRecord { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как извлечь данные из базы данных и вставить их как поле в документ.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### Смотрите также
 
 * class [FieldDatabase](../)
-* пространство имен [Aspose.Words.Fields](../../fielddatabase/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

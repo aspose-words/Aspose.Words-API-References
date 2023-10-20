@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SnapToGrid
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Указывает должен ли текущий абзац использовать линии сетки документа на странице settings при размещении содержимого в абзаце.
+linktitle: SnapToGrid
+articleTitle: SnapToGrid
+second_title: Aspose.Words для .NET
+description: ParagraphFormat SnapToGrid свойство. Указывает должен ли текущий абзац использовать линии сетки документа на странице settings при размещении содержимого в абзаце на С#.
 type: docs
 weight: 290
 url: /ru/net/aspose.words/paragraphformat/snaptogrid/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/snaptogrid/
 public bool SnapToGrid { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как указать ограничение на количество строк, которое может иметь каждая страница.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

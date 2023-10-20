@@ -1,7 +1,9 @@
 ---
 title: ControlChar.CellChar
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. نهاية خلية الجدول أو نهاية حرف صف الجدول char7 أو a.
+linktitle: CellChar
+articleTitle: CellChar
+second_title: Aspose.Words لـ .NET
+description: ControlChar CellChar مجال. نهاية خلية الجدول أو نهاية حرف صف الجدول char7 أو a في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/controlchar/cellchar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/controlchar/cellchar/
 public const char CellChar;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة أحرف تحكم مختلفة إلى مستند.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

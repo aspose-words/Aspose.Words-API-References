@@ -1,7 +1,9 @@
 ---
 title: TableStyle.VerticalAlignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: TableStyle propiedad. Especifica la alineación vertical de las celdas.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words para .NET
+description: TableStyle VerticalAlignment propiedad. Especifica la alineación vertical de las celdas en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words/tablestyle/verticalalignment/
@@ -14,11 +16,11 @@ Especifica la alineación vertical de las celdas.
 public CellVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado esTop .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear configuraciones de estilo personalizadas para la tabla.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * enum [CellVerticalAlignment](../../../aspose.words.tables/cellverticalalignment/)
 * class [TableStyle](../)
-* espacio de nombres [Aspose.Words](../../tablestyle/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

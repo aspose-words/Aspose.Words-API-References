@@ -1,7 +1,9 @@
 ---
 title: FormField.ExitMacro
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 返回或设置表单字段的退出宏名称
+linktitle: ExitMacro
+articleTitle: ExitMacro
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField ExitMacro 财产. 返回或设置表单字段的退出宏名称 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.fields/formfield/exitmacro/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.fields/formfield/exitmacro/
 public string ExitMacro { get; set; }
 ```
 
-### 评论
+## 评论
 
 当 Microsoft Word 中表单字段失去焦点时，退出宏将运行。
 
 Microsoft Word 允许最多包含 32 个字符的字符串。
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

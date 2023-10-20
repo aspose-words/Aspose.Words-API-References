@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertCheckBox
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar ett kryssrutaformulär på den aktuella positionen.
+linktitle: InsertCheckBox
+articleTitle: InsertCheckBox
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertCheckBox metod. Infogar ett kryssrutaformulär på den aktuella positionen i C#.
 type: docs
 weight: 290
 url: /sv/net/aspose.words/documentbuilder/insertcheckbox/
 ---
-## InsertCheckBox(string, bool, int) {#insertcheckbox_1}
+## InsertCheckBox(*string, bool, int*) {#insertcheckbox_1}
 
 Infogar ett kryssrutaformulär på den aktuella positionen.
 
@@ -24,11 +26,11 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 
 Formulärfältsnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Om du anger ett namn för formulärfältet skapas automatiskt ett bokmärke med samma namn.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar kryssrutor i dokumentet.
 
@@ -59,12 +61,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## InsertCheckBox(string, bool, bool, int) {#insertcheckbox}
+## InsertCheckBox(*string, bool, bool, int*) {#insertcheckbox}
 
 Infogar ett kryssrutaformulär på den aktuella positionen.
 
@@ -83,11 +85,11 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 
 Formulärfältsnoden som precis infogades.
 
-### Anmärkningar
+## Anmärkningar
 
 Om du anger ett namn för formulärfältet skapas automatiskt ett bokmärke med samma namn.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar kryssrutor i dokumentet.
 
@@ -118,7 +120,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

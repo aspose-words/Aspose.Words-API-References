@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.UseCoreFonts
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. TrueType yazı tiplerinin Arial Times New Roman Courier New ve Sembol ile temel PDF Type 1 yazı tipleriyle değiştirilip değiştirilmeyeceğini belirleyen bir değer alır veya ayarlar.
+linktitle: UseCoreFonts
+articleTitle: UseCoreFonts
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions UseCoreFonts mülk. TrueType yazı tiplerinin Arial Times New Roman Courier New ve Sembol ile temel PDF Type 1 yazı tipleriyle değiştirilip değiştirilmeyeceğini belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 310
 url: /tr/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
@@ -14,7 +16,7 @@ TrueType yazı tiplerinin Arial, Times New Roman, Courier New ve Sembol ile teme
 public bool UseCoreFonts { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ` . Bu değer şu şekilde ayarlandığında`doğru` Arial, Times New Roman, Courier New ve Sembol yazı tipleri, PDF belgesinde karşılık gelen temel Type 1 yazı tipiyle değiştirildi.
 
@@ -28,7 +30,7 @@ PDF 2.0 formatında kaydederken çekirdek yazı tipleri desteklenmez.`YANLIŞ` P
 
 Bu seçeneğin önceliği daha yüksektir[`FontEmbeddingMode`](../fontembeddingmode/) seçenek.
 
-### Örnekler
+## Örnekler
 
 PDF Type 1 yazı tipi değişiminin nasıl etkinleştirildiğini/devre dışı bırakıldığını gösterir.
 
@@ -61,7 +63,5 @@ else
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

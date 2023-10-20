@@ -1,7 +1,9 @@
 ---
 title: ImageData.GrayScale
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageData свойство. Определяет будет ли изображение отображаться в режиме оттенков серого.
+linktitle: GrayScale
+articleTitle: GrayScale
+second_title: Aspose.Words для .NET
+description: ImageData GrayScale свойство. Определяет будет ли изображение отображаться в режиме оттенков серого на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.drawing/imagedata/grayscale/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/imagedata/grayscale/
 public bool GrayScale { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как редактировать данные изображения фигуры.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Смотрите также
 
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

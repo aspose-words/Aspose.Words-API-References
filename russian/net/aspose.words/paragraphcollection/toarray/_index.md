@@ -1,7 +1,9 @@
 ---
 title: ParagraphCollection.ToArray
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphCollection метод. Копирует все абзацы из коллекции в новый массив абзацев.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words для .NET
+description: ParagraphCollection ToArray метод. Копирует все абзацы из коллекции в новый массив абзацев на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/paragraphcollection/toarray/
@@ -18,7 +20,7 @@ public Paragraph[] ToArray()
 
 Массив абзацев.
 
-### Примеры
+## Примеры
 
 Показывает, как создать массив из NodeCollection.
 
@@ -53,7 +55,5 @@ Assert.False(doc.GetText().Contains("The third paragraph"));
 
 * class [Paragraph](../../paragraph/)
 * class [ParagraphCollection](../)
-* пространство имен [Aspose.Words](../../paragraphcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

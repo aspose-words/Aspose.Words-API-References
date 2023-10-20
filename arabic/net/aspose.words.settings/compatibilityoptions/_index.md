@@ -1,14 +1,16 @@
 ---
-title: Class CompatibilityOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.CompatibilityOptions فصل. يحتوي على خيارات التوافق أي تفضيلات المستخدم التي تم إدخالها في ملف التوافق علامة التبويب خيارات الحوار في Microsoft Word.
+title: CompatibilityOptions Class
+linktitle: CompatibilityOptions
+articleTitle: CompatibilityOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.CompatibilityOptions فصل. يحتوي على خيارات التوافق أي تفضيلات المستخدم التي تم إدخالها في ملفالتوافق علامة التبويبخيارات الحوار في Microsoft Word في C#.
 type: docs
 weight: 5780
 url: /ar/net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
 
-يحتوي على خيارات التوافق (أي تفضيلات المستخدم التي تم إدخالها في ملف **التوافق** علامة التبويب **خيارات** الحوار في Microsoft Word).
+يحتوي على خيارات التوافق (أي تفضيلات المستخدم التي تم إدخالها في ملف**التوافق** علامة التبويب**خيارات** الحوار في Microsoft Word).
 
 لمعرفة المزيد، قم بزيارة[كشف تنسيق الملف والتحقق من توافق التنسيق](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) مقالة توثيقية.
 
@@ -96,9 +98,9 @@ public class CompatibilityOptions
 
 | اسم | وصف |
 | --- | --- |
-| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(MsWordVersion) | يسمح بتحسين محتويات المستند بالإضافة إلى سلوك Aspose.Words الافتراضي لإصدارات معينة من MS Word. |
+| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(*[MsWordVersion](../mswordversion/)*) | يسمح بتحسين محتويات المستند بالإضافة إلى سلوك Aspose.Words الافتراضي لإصدارات معينة من MS Word. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية محاذاة محتويات النص في مربع النص عموديًا.
 
@@ -214,5 +216,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 * property [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/)
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

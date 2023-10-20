@@ -1,7 +1,9 @@
 ---
 title: ToaCategories.Item
-second_title: Aspose.Words for .NET API Referansı
-description: ToaCategories mülk. Kategori başlığını kategori numarasına göre alır veya ayarlar.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: ToaCategories Item mülk. Kategori başlığını kategori numarasına göre alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/toacategories/item/
@@ -14,7 +16,7 @@ Kategori başlığını kategori numarasına göre alır veya ayarlar.
 public string this[int number] { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TOA alanları için bir kategori kümesinin nasıl belirtileceğini gösterir.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 ### Ayrıca bakınız
 
 * class [ToaCategories](../)
-* ad alanı [Aspose.Words.Fields](../../toacategories/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

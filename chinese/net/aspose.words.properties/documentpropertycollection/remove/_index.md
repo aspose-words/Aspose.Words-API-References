@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Remove
-second_title: Aspose.Words for .NET API 参考
-description: DocumentPropertyCollection 方法. 从集合中删除具有指定名称的属性
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentPropertyCollection Remove 方法. 从集合中删除具有指定名称的属性 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.properties/documentpropertycollection/remove/
@@ -18,7 +20,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | 属性的名称不区分大小写。 |
 
-### 例子
+## 例子
 
 展示如何使用文档的自定义属性。
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, properties.Count);
 ### 也可以看看
 
 * class [DocumentPropertyCollection](../)
-* 命名空间 [Aspose.Words.Properties](../../documentpropertycollection/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Field.LocaleId
-second_title: Aspose.Words för .NET API Referens
-description: Field fast egendom. Hämtar eller ställer in LCID för fältet.
+linktitle: LocaleId
+articleTitle: LocaleId
+second_title: Aspose.Words för .NET
+description: Field LocaleId fast egendom. Hämtar eller ställer in LCID för fältet i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/field/localeid/
@@ -14,7 +16,7 @@ Hämtar eller ställer in LCID för fältet.
 public int LocaleId { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett fält och arbetar med dess språk.
 
@@ -42,7 +44,5 @@ Console.WriteLine($"Today's date, as displayed according to the \"{CultureInfo.G
 ### Se även
 
 * class [Field](../)
-* namnutrymme [Aspose.Words.Fields](../../field/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

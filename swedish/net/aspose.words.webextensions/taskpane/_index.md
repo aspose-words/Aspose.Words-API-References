@@ -1,7 +1,9 @@
 ---
-title: Class TaskPane
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.WebExtensions.TaskPane klass. Representerar ett tilläggsaktivitetsfönsterobjekt.
+title: TaskPane Class
+linktitle: TaskPane
+articleTitle: TaskPane
+second_title: Aspose.Words för .NET
+description: Aspose.Words.WebExtensions.TaskPane klass. Representerar ett tilläggsaktivitetsfönsterobjekt i C#.
 type: docs
 weight: 6710
 url: /sv/net/aspose.words.webextensions/taskpane/
@@ -33,7 +35,7 @@ public class TaskPane
 | [WebExtension](../../aspose.words.webextensions/taskpane/webextension/) { get; } | Representerar ett webbtilläggsobjekt. |
 | [Width](../../aspose.words.webextensions/taskpane/width/) { get; set; } | Anger standardbreddvärdet för den här uppgiftsrutans instans. |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -79,5 +81,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * namnutrymme [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../)
-
-

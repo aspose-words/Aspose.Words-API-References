@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeHorizontalPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.RelativeHorizontalPosition перечисление. Указывает относительное горизонтальное положение фигуры или текстового фрейма.
+title: RelativeHorizontalPosition Enum
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.RelativeHorizontalPosition перечисление. Указывает относительное горизонтальное положение фигуры или текстового фрейма на С#.
 type: docs
 weight: 1190
 url: /ru/net/aspose.words.drawing/relativehorizontalposition/
@@ -28,7 +30,7 @@ public enum RelativeHorizontalPosition
 | OutsideMargin | `7` | Указывает, что горизонтальное расположение должно быть относительно внешнего поля текущей страницы (правое поле на нечетных страницах, левое на четных страницах). |
 | Default | `2` | Значение по умолчанию:Column . |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить плавающее изображение в центр страницы.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [RelativeHorizontalPosition](../shapebase/relativehorizontalposition/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

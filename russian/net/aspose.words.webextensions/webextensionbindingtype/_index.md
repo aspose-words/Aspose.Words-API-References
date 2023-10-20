@@ -1,7 +1,9 @@
 ---
-title: Enum WebExtensionBindingType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WebExtensions.WebExtensionBindingType перечисление. Перечисляет доступные типы привязки между вебрасширением и данными в документе.
+title: WebExtensionBindingType Enum
+linktitle: WebExtensionBindingType
+articleTitle: WebExtensionBindingType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.WebExtensions.WebExtensionBindingType перечисление. Перечисляет доступные типы привязки между вебрасширением и данными в документе на С#.
 type: docs
 weight: 6770
 url: /ru/net/aspose.words.webextensions/webextensionbindingtype/
@@ -23,7 +25,7 @@ public enum WebExtensionBindingType
 | Text | `2` | Обычный текст. |
 | Default | `0` |  |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -69,5 +71,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * пространство имен [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../)
-
-

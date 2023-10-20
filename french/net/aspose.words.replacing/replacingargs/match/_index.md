@@ -1,24 +1,26 @@
 ---
 title: ReplacingArgs.Match
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ReplacingArgs propriété. LeMatch résultant dune seule correspondance dexpression régular au cours dun Remplacer .
+linktitle: Match
+articleTitle: Match
+second_title: Aspose.Words pour .NET
+description: ReplacingArgs Match propriété. LeMatch résultant dune seule correspondance dexpression régular au cours dunRemplacer  en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-LeMatch résultant d'une seule correspondance d'expression régular au cours d'un **Remplacer** .
+LeMatch résultant d'une seule correspondance d'expression régular au cours d'un**Remplacer** .
 
 ```csharp
 public Match Match { get; }
 ```
 
-### Remarques
+## Remarques
 
 **Correspondance.Index"** obtient la position Starting de base zéro de la correspondance à partir du début de la plage de recherche et de remplacement.
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une police différente au nouveau contenu via FindReplaceOptions.
 
@@ -91,7 +93,5 @@ private class NumberHexer : IReplacingCallback
 ### Voir également
 
 * class [ReplacingArgs](../)
-* espace de noms [Aspose.Words.Replacing](../../replacingargs/)
+* espace de noms [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum FieldUpdateCultureSource
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldUpdateCultureSource перечисление. Указывает какую культуру использовать во время обновления поля.
+title: FieldUpdateCultureSource Enum
+linktitle: FieldUpdateCultureSource
+articleTitle: FieldUpdateCultureSource
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldUpdateCultureSource перечисление. Указывает какую культуру использовать во время обновления поля на С#.
 type: docs
 weight: 2560
 url: /ru/net/aspose.words.fields/fieldupdateculturesource/
@@ -21,7 +23,7 @@ public enum FieldUpdateCultureSource
 | CurrentThread | `0` | Язык и региональные параметры текущего потока выполнения используются для обновления полей. |
 | FieldCode | `1` | Используется культура, указанная в свойствах форматирования поля с помощью настройки языка. |
 
-### Примеры
+## Примеры
 
 Показывает, как указать источник языка и региональных параметров, используемый для форматирования даты во время обновления поля или слияния почты.
 
@@ -57,5 +59,3 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

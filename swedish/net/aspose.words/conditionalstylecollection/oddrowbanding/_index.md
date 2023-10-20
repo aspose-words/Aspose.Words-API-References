@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.OddRowBanding
-second_title: Aspose.Words för .NET API Referens
-description: ConditionalStyleCollection fast egendom. Får den udda radbandsstilen.
+linktitle: OddRowBanding
+articleTitle: OddRowBanding
+second_title: Aspose.Words för .NET
+description: ConditionalStyleCollection OddRowBanding fast egendom. Får den udda radbandsstilen i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/conditionalstylecollection/oddrowbanding/
@@ -14,7 +16,7 @@ Får den udda radbandsstilen.
 public ConditionalStyle OddRowBanding { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* namnutrymme [Aspose.Words](../../conditionalstylecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

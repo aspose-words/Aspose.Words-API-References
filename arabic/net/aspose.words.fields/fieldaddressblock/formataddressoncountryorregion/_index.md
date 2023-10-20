@@ -1,7 +1,9 @@
 ---
 title: FieldAddressBlock.FormatAddressOnCountryOrRegion
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAddressBlock ملكية. الحصول على أو تعيين ما إذا كان سيتم تنسيق العنوان وفقًا لبلد/منطقة المستلم كما هو محدد بواسطة POSTCODE الاتحاد البريدي العالمي 2006.
+linktitle: FormatAddressOnCountryOrRegion
+articleTitle: FormatAddressOnCountryOrRegion
+second_title: Aspose.Words لـ .NET
+description: FieldAddressBlock FormatAddressOnCountryOrRegion ملكية. الحصول على أو تعيين ما إذا كان سيتم تنسيق العنوان وفقًا لبلد/منطقة المستلم كما هو محدد بواسطة POSTCODE الاتحاد البريدي العالمي 2006 في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregio
 public bool FormatAddressOnCountryOrRegion { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل ADDRESSBLOCK.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(
 ### أنظر أيضا
 
 * class [FieldAddressBlock](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldaddressblock/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum TxtLeadingSpacesOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.TxtLeadingSpacesOptions 枚举. 指定导入期间用于前导空格处理的可用选项Text文件.
+title: TxtLeadingSpacesOptions Enum
+linktitle: TxtLeadingSpacesOptions
+articleTitle: TxtLeadingSpacesOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.TxtLeadingSpacesOptions 枚举. 指定导入期间用于前导空格处理的可用选项Text文件 在 C#.
 type: docs
 weight: 3720
 url: /zh/net/aspose.words.loading/txtleadingspacesoptions/
@@ -22,7 +24,7 @@ public enum TxtLeadingSpacesOptions
 | Trim | `1` |  |
 | Preserve | `2` |  |
 
-### 例子
+## 例子
 
 演示如何在加载纯文本文档时修剪空白。
 
@@ -99,5 +101,3 @@ switch (txtTrailingSpacesOptions)
 
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

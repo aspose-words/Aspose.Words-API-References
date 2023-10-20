@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.MailMerging
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MailMergingad alanı the orijinal adresmektup birleştirme raporlama motorunun sınıflarını içerir.
+linktitle: Aspose.Words.MailMerging
+articleTitle: Aspose.Words.MailMerging
+second_title: Aspose.Words for .NET
+description: Aspose.Words.MailMergingad alanı the orijinal adresmektup birleştirme raporlama motorunun sınıflarını içerir C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.mailmerging/
@@ -12,7 +14,7 @@ url: /tr/net/aspose.words.mailmerging/
 
 | Sınıf | Tanım |
 | --- | --- |
-| [FieldMergingArgs](./fieldmergingargs/) | Şunun için veri sağlar: **Birleştirme Alanı** olay. |
+| [FieldMergingArgs](./fieldmergingargs/) | Şunun için veri sağlar:**Birleştirme Alanı** olay. |
 | [FieldMergingArgsBase](./fieldmergingargsbase/) | Temel sınıf[`FieldMergingArgs`](../aspose.words.mailmerging/fieldmergingargs/) Ve[`ImageFieldMergingArgs`](../aspose.words.mailmerging/imagefieldmergingargs/) . |
 | [ImageFieldMergingArgs](./imagefieldmergingargs/) | Şunun için veri sağlar:[`ImageFieldMerging`](../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/) olay. |
 | [MailMerge](./mailmerge/) | Adres-mektup birleştirme işlevini temsil eder. |
@@ -32,5 +34,3 @@ url: /tr/net/aspose.words.mailmerging/
 | numaralandırma | Tanım |
 | --- | --- |
 | [MailMergeCleanupOptions](./mailmergecleanupoptions/) | Adres-mektup birleştirme sırasında hangi öğelerin kaldırılacağını belirleyen seçenekleri belirtir. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: CommentRangeStart.Id
-second_title: Aspose.Words for .NET API 参考
-description: CommentRangeStart 财产. 指定该区域链接到的注释的标识符
+linktitle: Id
+articleTitle: Id
+second_title: 用于 .NET 的 Aspose.Words
+description: CommentRangeStart Id 财产. 指定该区域链接到的注释的标识符 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/commentrangestart/id/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/commentrangestart/id/
 public int Id { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档访问者打印所有注释的内容及其注释范围。
 
@@ -175,7 +177,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### 也可以看看
 
 * class [CommentRangeStart](../)
-* 命名空间 [Aspose.Words](../../commentrangestart/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

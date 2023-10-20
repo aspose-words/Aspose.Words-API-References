@@ -1,7 +1,9 @@
 ---
 title: Node.CustomNodeId
-second_title: Aspose.Words für .NET-API-Referenz
-description: Node eigendom. Gibt die benutzerdefinierte Knotenkennung an.
+linktitle: CustomNodeId
+articleTitle: CustomNodeId
+second_title: Aspose.Words für .NET
+description: Node CustomNodeId eigendom. Gibt die benutzerdefinierte Knotenkennung an in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/node/customnodeid/
@@ -14,7 +16,7 @@ Gibt die benutzerdefinierte Knotenkennung an.
 public int CustomNodeId { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist Null.
 
@@ -22,7 +24,7 @@ Dieser Bezeichner kann beliebig festgelegt und verwendet werden. Zum Beispiel al
 
 Wichtiger Hinweis: Der angegebene Wert wird nicht in einer Ausgabedatei gespeichert und existiert nur während der Knotenlebensdauer.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Sammlung untergeordneter Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -67,7 +69,5 @@ foreach (Node child in children)
 ### Siehe auch
 
 * class [Node](../)
-* namensraum [Aspose.Words](../../node/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

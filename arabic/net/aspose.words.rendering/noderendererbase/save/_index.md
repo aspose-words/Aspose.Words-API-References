@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.Save
-second_title: Aspose.Words لمراجع .NET API
-description: NodeRendererBase طريقة. يحول الشكل إلى صورة ويحفظ في ملف.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words لـ .NET
+description: NodeRendererBase Save طريقة. يحول الشكل إلى صورة ويحفظ في ملف في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.rendering/noderendererbase/save/
 ---
-## Save(string, ImageSaveOptions) {#save_1}
+## Save(*string, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#save_1}
 
 يحول الشكل إلى صورة ويحفظ في ملف.
 
@@ -19,7 +21,7 @@ public void Save(string fileName, ImageSaveOptions saveOptions)
 | fileName | String | اسم ملف الصورة. إذا كان هناك ملف بالاسم المحدد موجود بالفعل، فستتم الكتابة فوق الملف الموجود. |
 | saveOptions | ImageSaveOptions | يحدد الخيارات التي تتحكم في كيفية عرض الشكل وحفظه. يمكن ان يكون`باطل`. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقديم كائن Office Math إلى ملف صورة في نظام الملفات المحلي.
 
@@ -42,12 +44,12 @@ math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOpt
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * class [NodeRendererBase](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../noderendererbase/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream, ImageSaveOptions) {#save}
+## Save(*Stream, [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)*) {#save}
 
 يعرض الشكل في صورة ويحفظ في دفق.
 
@@ -60,7 +62,7 @@ public void Save(Stream stream, ImageSaveOptions saveOptions)
 | stream | Stream | الدفق حيث يتم حفظ صورة الشكل. |
 | saveOptions | ImageSaveOptions | يحدد الخيارات التي تتحكم في كيفية عرض الشكل وحفظه. يمكن ان يكون`باطل` . إذا كان هذا`باطل`سيتم حفظ الصورة بصيغة PNG. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام عارض الأشكال لتصدير الأشكال إلى الملفات الموجودة في نظام الملفات المحلي.
 
@@ -86,7 +88,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 
 * class [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/)
 * class [NodeRendererBase](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../noderendererbase/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

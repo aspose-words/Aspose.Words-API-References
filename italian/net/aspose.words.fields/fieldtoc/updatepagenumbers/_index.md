@@ -1,7 +1,9 @@
 ---
 title: FieldToc.UpdatePageNumbers
-second_title: Aspose.Words per .NET API Reference
-description: FieldToc metodo. Aggiorna i numeri di pagina per gli elementi in questo sommario.
+linktitle: UpdatePageNumbers
+articleTitle: UpdatePageNumbers
+second_title: Aspose.Words per .NET
+description: FieldToc UpdatePageNumbers metodo. Aggiorna i numeri di pagina per gli elementi in questo sommario in C#.
 type: docs
 weight: 180
 url: /it/net/aspose.words.fields/fieldtoc/updatepagenumbers/
@@ -18,7 +20,7 @@ public bool UpdatePageNumbers()
 
 `VERO` se l'operazione è andata a buon fine. Se uno qualsiasi dei segnalibri del sommario correlato è stato rimosso,`falso` verrà restituito.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un sommario e popolarlo con voci basate sugli stili di intestazione.
 
@@ -103,7 +105,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Guarda anche
 
 * class [FieldToc](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoc/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

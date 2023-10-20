@@ -1,7 +1,9 @@
 ---
-title: Enum ChartXValueType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartXValueType Sıralama. Bir grafik serisinin X değerinin türünü belirtmeye izin verir.
+title: ChartXValueType Enum
+linktitle: ChartXValueType
+articleTitle: ChartXValueType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartXValueType Sıralama. Bir grafik serisinin X değerinin türünü belirtmeye izin verir C#'da.
 type: docs
 weight: 860
 url: /tr/net/aspose.words.drawing.charts/chartxvaluetype/
@@ -28,5 +30,3 @@ public enum ChartXValueType
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: GradientStopCollection fast egendom. Hämtar eller sätter enGradientStop objekt i samlingen.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: GradientStopCollection Item fast egendom. Hämtar eller sätter enGradientStop objekt i samlingen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing/gradientstopcollection/item/
@@ -14,7 +16,7 @@ Hämtar eller sätter en[`GradientStop`](../../gradientstop/) objekt i samlingen
 public GradientStop this[int index] { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till övertoningsstopp i övertoningsfyllningen.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* namnutrymme [Aspose.Words.Drawing](../../gradientstopcollection/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

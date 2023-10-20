@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Minimum
-second_title: Referencia de API de Aspose.Words para .NET
-description: AxisScaling propiedad. Obtiene o establece el valor mínimo del eje.
+linktitle: Minimum
+articleTitle: Minimum
+second_title: Aspose.Words para .NET
+description: AxisScaling Minimum propiedad. Obtiene o establece el valor mínimo del eje en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.drawing.charts/axisscaling/minimum/
@@ -14,11 +16,11 @@ Obtiene o establece el valor mínimo del eje.
 public AxisBound Minimum { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es "auto".
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un gráfico con valores de fecha/hora.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisBound](../../axisbound/)
 * class [AxisScaling](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

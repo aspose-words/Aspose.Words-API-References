@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedCss
-second_title: Aspose.Words for .NET API 参考
-description: HtmlFixedSaveOptions 财产. 指定 CSS层叠样式表是否应嵌入到 Html 文档中
+linktitle: ExportEmbeddedCss
+articleTitle: ExportEmbeddedCss
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlFixedSaveOptions ExportEmbeddedCss 财产. 指定 CSS层叠样式表是否应嵌入到 Html 文档中 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedcss/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedcss/
 public bool ExportEmbeddedCss { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示将文档导出为 Html 时如何确定 CSS 样式表的存储位置。
 
@@ -51,7 +53,5 @@ else
 ### 也可以看看
 
 * class [HtmlFixedSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

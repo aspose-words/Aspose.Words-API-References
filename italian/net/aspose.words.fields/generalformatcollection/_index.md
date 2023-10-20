@@ -1,7 +1,9 @@
 ---
-title: Class GeneralFormatCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.GeneralFormatCollection classe. Rappresenta una raccolta tipizzata di formati generali.
+title: GeneralFormatCollection Class
+linktitle: GeneralFormatCollection
+articleTitle: GeneralFormatCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.GeneralFormatCollection classe. Rappresenta una raccolta tipizzata di formati generali in C#.
 type: docs
 weight: 2650
 url: /it/net/aspose.words.fields/generalformatcollection/
@@ -27,12 +29,12 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.words.fields/generalformatcollection/add/)(GeneralFormat) | Aggiunge un formato generale alla raccolta. |
+| [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | Aggiunge un formato generale alla raccolta. |
 | [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Restituisce un oggetto enumeratore. |
-| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | Rimuove tutte le occorrenze del formato generale specificato dalla raccolta. |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | Rimuove un'occorrenza di formato generale nell'indice specificato. |
+| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(*[GeneralFormat](../generalformat/)*) | Rimuove tutte le occorrenze del formato generale specificato dalla raccolta. |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | Rimuove un'occorrenza di formato generale nell'indice specificato. |
 
-### Esempi
+## Esempi
 
 Mostra come formattare i risultati dei campi.
 
@@ -98,5 +100,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 * enum [GeneralFormat](../generalformat/)
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

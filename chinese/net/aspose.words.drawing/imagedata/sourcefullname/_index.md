@@ -1,7 +1,9 @@
 ---
 title: ImageData.SourceFullName
-second_title: Aspose.Words for .NET API 参考
-description: ImageData 财产. 获取或设置链接图像的源文件的路径和名称
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageData SourceFullName 财产. 获取或设置链接图像的源文件的路径和名称 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.drawing/imagedata/sourcefullname/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/imagedata/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为空字符串。
 
 如果`SourceFullName`不是空字符串，图像已链接。
 
-### 例子
+## 例子
 
 演示如何将链接图像插入到文档中。
 
@@ -62,7 +64,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 ### 也可以看看
 
 * class [ImageData](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagedata/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

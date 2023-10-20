@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.AllowNegativeIndent
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica se i rientri negativi sinistro e destro dei paragrafi vengono normalizzati durante il salvataggio in HTML MHTML o EPUB. Il valore predefinito èfalso .
+linktitle: AllowNegativeIndent
+articleTitle: AllowNegativeIndent
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions AllowNegativeIndent proprietà. Specifica se i rientri negativi sinistro e destro dei paragrafi vengono normalizzati durante il salvataggio in HTML MHTML o EPUB. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
@@ -14,11 +16,11 @@ Specifica se i rientri negativi sinistro e destro dei paragrafi vengono normaliz
 public bool AllowNegativeIndent { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Quando il rientro negativo non è consentito, viene esportato come margine zero in HTML. Quando è consentito il rientro negativo, un paragrafo potrebbe essere visualizzato parzialmente all'esterno della finestra del browser.
 
-### Esempi
+## Esempi
 
 Mostra come preservare i rientri negativi nell'output .html.
 
@@ -80,7 +82,5 @@ else
 ### Guarda anche
 
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToc.HeadingLevelRange
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldToc propriété. Obtient ou définit une plage de niveaux de titre à inclure.
+linktitle: HeadingLevelRange
+articleTitle: HeadingLevelRange
+second_title: Aspose.Words pour .NET
+description: FieldToc HeadingLevelRange propriété. Obtient ou définit une plage de niveaux de titre à inclure en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.fields/fieldtoc/headinglevelrange/
@@ -14,7 +16,7 @@ Obtient ou définit une plage de niveaux de titre à inclure.
 public string HeadingLevelRange { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer une table des matières et la remplir avec des entrées basées sur les styles de titre.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Voir également
 
 * class [FieldToc](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtoc/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

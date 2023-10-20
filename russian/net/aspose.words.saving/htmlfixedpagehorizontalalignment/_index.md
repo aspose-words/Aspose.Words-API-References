@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlFixedPageHorizontalAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment перечисление. Определяет горизонтальное выравнивание страниц в выходном HTMLдокументе.
+title: HtmlFixedPageHorizontalAlignment Enum
+linktitle: HtmlFixedPageHorizontalAlignment
+articleTitle: HtmlFixedPageHorizontalAlignment
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment перечисление. Определяет горизонтальное выравнивание страниц в выходном HTMLдокументе на С#.
 type: docs
 weight: 5070
 url: /ru/net/aspose.words.saving/htmlfixedpagehorizontalalignment/
@@ -22,7 +24,7 @@ public enum HtmlFixedPageHorizontalAlignment
 | Center | `1` | Центральные страницы. Это значение по умолчанию. |
 | Right | `2` | Выровнять страницы по правому краю. |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить горизонтальное выравнивание страниц при сохранении документа в формате HTML.
 
@@ -59,5 +61,3 @@ switch (pageHorizontalAlignment)
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

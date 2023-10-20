@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.NumberOfColumns
-second_title: Aspose.Words för .NET API Referens
-description: FieldIndex fast egendom. Hämtar eller ställer in antalet kolumner per sida som används när indexet byggs.
+linktitle: NumberOfColumns
+articleTitle: NumberOfColumns
+second_title: Aspose.Words för .NET
+description: FieldIndex NumberOfColumns fast egendom. Hämtar eller ställer in antalet kolumner per sida som används när indexet byggs i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.fields/fieldindex/numberofcolumns/
@@ -14,7 +16,7 @@ Hämtar eller ställer in antalet kolumner per sida som används när indexet by
 public string NumberOfColumns { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller i ett INDEX-fält med poster med XE-fält, och även ändrar dess utseende.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Se även
 
 * class [FieldIndex](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldindex/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

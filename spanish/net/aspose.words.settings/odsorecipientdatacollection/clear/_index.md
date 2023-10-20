@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Clear
-second_title: Referencia de API de Aspose.Words para .NET
-description: OdsoRecipientDataCollection método. Elimina todos los elementos de esta colección.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words para .NET
+description: OdsoRecipientDataCollection Clear método. Elimina todos los elementos de esta colección en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.settings/odsorecipientdatacollection/clear/
@@ -14,7 +16,7 @@ Elimina todos los elementos de esta colección.
 public void Clear()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos de combinación excluirá una combinación de correspondencia.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Ver también
 
 * class [OdsoRecipientDataCollection](../)
-* espacio de nombres [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

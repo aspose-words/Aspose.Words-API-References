@@ -1,7 +1,9 @@
 ---
-title: ImageSaveOptions.ImageSaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения визуализированных изображений в .Tiff Png Bmp  Jpeg Emf Eps илиSvg формат.
+title: ImageSaveOptions
+linktitle: ImageSaveOptions
+articleTitle: ImageSaveOptions
+second_title: Aspose.Words для .NET
+description: ImageSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения визуализированных изображений в .Tiff Png Bmp  Jpeg Emf Eps илиSvg формат на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/imagesaveoptions/imagesaveoptions/
@@ -18,7 +20,7 @@ public ImageSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Может быть Tiff ,Png ,Bmp , Jpeg ,Emf ,Eps илиSvg формат. |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить сжатие при сохранении документа в формате JPEG.
 
@@ -52,7 +54,5 @@ Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Jpe
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [ImageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../imagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

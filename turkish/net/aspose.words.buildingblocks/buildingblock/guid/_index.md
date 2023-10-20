@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Guid
-second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlock mülk. Bu yapı bloğunu benzersiz şekilde tanımlayan bir tanımlayıcıyı 128 bit GUID alır veya ayarlar.
+linktitle: Guid
+articleTitle: Guid
+second_title: Aspose.Words for .NET
+description: BuildingBlock Guid mülk. Bu yapı bloğunu benzersiz şekilde tanımlayan bir tanımlayıcıyı 128 bit GUID alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.buildingblocks/buildingblock/guid/
@@ -14,13 +16,13 @@ Bu yapı bloğunu benzersiz şekilde tanımlayan bir tanımlayıcıyı (128 bit 
 public Guid Guid { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir uygulama tarafından, yerelleştirme nedeniyle farklı adlandırmaya bakılmaksızın bir yapı bloğuna benzersiz şekilde referans vermek için kullanılabilir.
 
-karşılık gelir **docPartPr.guid** OOXML'deki öğe.
+karşılık gelir**docPartPr.guid** OOXML'deki öğe.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 
@@ -117,7 +119,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [BuildingBlock](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.CharacterUnitRightIndent
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft den rechten Einzugswert in Zeichen für die angegebenen Absätze ab oder legt diesen fest.
+linktitle: CharacterUnitRightIndent
+articleTitle: CharacterUnitRightIndent
+second_title: Aspose.Words für .NET
+description: ParagraphFormat CharacterUnitRightIndent eigendom. Ruft den rechten Einzugswert in Zeichen für die angegebenen Absätze ab oder legt diesen fest in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words/paragraphformat/characterunitrightindent/
@@ -14,7 +16,7 @@ Ruft den rechten Einzugswert (in Zeichen) für die angegebenen Absätze ab oder 
 public double CharacterUnitRightIndent { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Absatzabstände und Einzüge geändert werden.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.ValidatePassword
-second_title: Aspose.Words for .NET API 参考
-description: WriteProtection 方法. 返回真的如果指定的密码与保护文档的写保护密码相同 如果文档没有使用密码写保护则返回错误的.
+linktitle: ValidatePassword
+articleTitle: ValidatePassword
+second_title: 用于 .NET 的 Aspose.Words
+description: WriteProtection ValidatePassword 方法. 返回真的如果指定的密码与保护文档的写保护密码相同 如果文档没有使用密码写保护则返回错误的 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.settings/writeprotection/validatepassword/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/writeprotection/validatepassword/
 public bool ValidatePassword(string password)
 ```
 
-### 例子
+## 例子
 
 演示如何使用密码保护文档。
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### 也可以看看
 
 * class [WriteProtection](../)
-* 命名空间 [Aspose.Words.Settings](../../writeprotection/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

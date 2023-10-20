@@ -1,7 +1,9 @@
 ---
 title: FieldFillIn.PromptOnceOnMailMerge
-second_title: Aspose.Words per .NET API Reference
-description: FieldFillIn proprietà. Ottiene o imposta se la risposta dellutente deve essere ricevuta una volta per unoperazione di stampa unione.
+linktitle: PromptOnceOnMailMerge
+articleTitle: PromptOnceOnMailMerge
+second_title: Aspose.Words per .NET
+description: FieldFillIn PromptOnceOnMailMerge proprietà. Ottiene o imposta se la risposta dellutente deve essere ricevuta una volta per unoperazione di stampa unione in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldfillin/promptonceonmailmerge/
@@ -14,7 +16,7 @@ Ottiene o imposta se la risposta dell'utente deve essere ricevuta una volta per 
 public bool PromptOnceOnMailMerge { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare il campo FILLIN per richiedere una risposta all'utente.
 
@@ -63,7 +65,5 @@ private class PromptRespondent : IFieldUserPromptRespondent
 ### Guarda anche
 
 * class [FieldFillIn](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldfillin/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

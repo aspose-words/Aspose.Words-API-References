@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceStream
-second_title: Справочник по API Aspose.Words для .NET
-description: ResourceSavingArgs свойство. Позволяет указать поток в котором будет сохранен ресурс.
+linktitle: ResourceStream
+articleTitle: ResourceStream
+second_title: Aspose.Words для .NET
+description: ResourceSavingArgs ResourceStream свойство. Позволяет указать поток в котором будет сохранен ресурс на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/resourcesavingargs/resourcestream/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/resourcesavingargs/resourcestream/
 public Stream ResourceStream { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство позволяет сохранять ресурсы в потоки, а не в файлы.
 
@@ -22,7 +24,7 @@ public Stream ResourceStream { get; set; }
 
 С использованием[`IResourceSavingCallback`](../../iresourcesavingcallback/) вы не можете заменить один ресурс другим. Он предназначен только для контроля над местом, где сохранять ресурсы.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для печати URI внешних ресурсов, созданных при преобразовании документа в HTML.
 
@@ -101,7 +103,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Смотрите также
 
 * class [ResourceSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../resourcesavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

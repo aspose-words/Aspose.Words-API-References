@@ -1,7 +1,9 @@
 ---
-title: Enum TabLeader
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.TabLeader 枚举. 指定制表符下显示的引导线类型
+title: TabLeader Enum
+linktitle: TabLeader
+articleTitle: TabLeader
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.TabLeader 枚举. 指定制表符下显示的引导线类型 在 C#.
 type: docs
 weight: 6190
 url: /zh/net/aspose.words/tableader/
@@ -29,5 +31,3 @@ public enum TabLeader
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

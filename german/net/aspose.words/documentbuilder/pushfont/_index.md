@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.PushFont
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Speichert die aktuelle Zeichenformatierung auf dem Stapel.
+linktitle: PushFont
+articleTitle: PushFont
+second_title: Aspose.Words für .NET
+description: DocumentBuilder PushFont methode. Speichert die aktuelle Zeichenformatierung auf dem Stapel in C#.
 type: docs
-weight: 610
+weight: 600
 url: /de/net/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder.PushFont method
@@ -14,7 +16,7 @@ Speichert die aktuelle Zeichenformatierung auf dem Stapel.
 public void PushFont()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Formatierungsstapel eines Document Builders verwendet wird.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 * property [Font](../font/)
 * method [PopFont](../popfont/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

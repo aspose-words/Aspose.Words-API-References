@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: ListCollection ملكية. الحصول على عدد القوائم المرقمة والتعداد النقطي في المستند.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: ListCollection Count ملكية. الحصول على عدد القوائم المرقمة والتعداد النقطي في المستند في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.lists/listcollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.lists/listcollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من خصائص مستند المالك للقوائم.
 
@@ -36,7 +38,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 ### أنظر أيضا
 
 * class [ListCollection](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listcollection/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

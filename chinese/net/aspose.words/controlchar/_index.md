@@ -1,7 +1,9 @@
 ---
-title: Class ControlChar
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.ControlChar 班级. 文档中经常遇到的控制字符
+title: ControlChar Class
+linktitle: ControlChar
+articleTitle: ControlChar
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.ControlChar 班级. 文档中经常遇到的控制字符 在 C#.
 type: docs
 weight: 350
 url: /zh/net/aspose.words/controlchar/
@@ -49,11 +51,11 @@ public static class ControlChar
 | static readonly [Tab](../../aspose.words/controlchar/tab/) | 制表符：“\x0009”或“\t”. |
 | const [TabChar](../../aspose.words/controlchar/tabchar/) | 制表符：(char)9 或“\t”. |
 
-### 评论
+## 评论
 
 提供相同常量的字符和字符串版本。例如： 字符串[`LineBreak`](./linebreak/)和炭[`LineBreakChar`](./linebreakchar/)具有相同的值。
 
-### 例子
+## 例子
 
 展示如何使用控制字符。
 
@@ -81,5 +83,3 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

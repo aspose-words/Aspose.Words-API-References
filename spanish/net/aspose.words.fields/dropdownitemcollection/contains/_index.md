@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Contains
-second_title: Referencia de API de Aspose.Words para .NET
-description: DropDownItemCollection método. Determina si la colección contiene el valor especificado.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words para .NET
+description: DropDownItemCollection Contains método. Determina si la colección contiene el valor especificado en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/dropdownitemcollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string value)
 
 `verdadero` si el artículo se encuentra en la colección; de lo contrario,`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo de cuadro combinado y editar los elementos de su colección de elementos.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### Ver también
 
 * class [DropDownItemCollection](../)
-* espacio de nombres [Aspose.Words.Fields](../../dropdownitemcollection/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

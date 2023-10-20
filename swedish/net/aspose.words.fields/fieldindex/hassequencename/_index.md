@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.HasSequenceName
-second_title: Aspose.Words för .NET API Referens
-description: FieldIndex fast egendom. Får ett värde som indikerar om en sekvens ska användas medan fältets resultat byggs.
+linktitle: HasSequenceName
+articleTitle: HasSequenceName
+second_title: Aspose.Words för .NET
+description: FieldIndex HasSequenceName fast egendom. Får ett värde som indikerar om en sekvens ska användas medan fältets resultat byggs i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldindex/hassequencename/
@@ -14,7 +16,7 @@ Får ett värde som indikerar om en sekvens ska användas medan fältets resulta
 public bool HasSequenceName { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man delar upp ett dokument i delar genom att kombinera INDEX- och SEQ-fält.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### Se även
 
 * class [FieldIndex](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldindex/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

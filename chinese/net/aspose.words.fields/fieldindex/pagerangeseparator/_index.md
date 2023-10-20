@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.PageRangeSeparator
-second_title: Aspose.Words for .NET API 参考
-description: FieldIndex 财产. 获取或设置用于分隔页面范围的开始和结束的字符序列
+linktitle: PageRangeSeparator
+articleTitle: PageRangeSeparator
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIndex PageRangeSeparator 财产. 获取或设置用于分隔页面范围的开始和结束的字符序列 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.fields/fieldindex/pagerangeseparator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldindex/pagerangeseparator/
 public string PageRangeSeparator { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将书签的跨页指定为 INDEX 字段条目的页面范围。
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ### 也可以看看
 
 * class [FieldIndex](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldindex/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageSize
-second_title: Aspose.Words per .NET API Reference
-description: ImageData proprietà. Ottiene informazioni sulla dimensione e sulla risoluzione dellimmagine.
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words per .NET
+description: ImageData ImageSize proprietà. Ottiene informazioni sulla dimensione e sulla risoluzione dellimmagine in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words.drawing/imagedata/imagesize/
@@ -14,11 +16,11 @@ Ottiene informazioni sulla dimensione e sulla risoluzione dell'immagine.
 public ImageSize ImageSize { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se l'immagine è solo collegata e non archiviata nel documento, restituisce la dimensione zero.
 
-### Esempi
+## Esempi
 
 Mostra come ridimensionare una forma con un'immagine.
 
@@ -76,7 +78,5 @@ Mostra come ridimensionare una forma con un'immagine.
 
 * class [ImageSize](../../imagesize/)
 * class [ImageData](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../imagedata/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

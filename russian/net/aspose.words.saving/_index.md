@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Saving
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving пространство имен предоставляет классы и перечисления которые позволяют указать дополнительные параметры для сохранения или преобразования документов.
+linktitle: Aspose.Words.Saving
+articleTitle: Aspose.Words.Saving
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving пространство имен предоставляет классы и перечисления которые позволяют указать дополнительные параметры для сохранения или преобразования документов на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words.saving/
@@ -108,5 +110,3 @@ url: /ru/net/aspose.words.saving/
 | [TableContentAlignment](./tablecontentalignment/) | Позволяет указать выравнивание содержимого таблицы, которая будет использоваться при экспорте в формат Markdown. |
 | [TiffCompression](./tiffcompression/) | Указывает, какой тип сжатия применять при сохранении изображений страниц в файл TIFF. |
 | [TxtExportHeadersFootersMode](./txtexportheadersfootersmode/) | Указывает способ экспорта верхних и нижних колонтитулов в текстовый формат. |
-
-

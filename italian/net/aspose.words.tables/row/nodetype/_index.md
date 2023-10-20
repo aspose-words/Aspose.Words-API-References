@@ -1,7 +1,9 @@
 ---
 title: Row.NodeType
-second_title: Aspose.Words per .NET API Reference
-description: Row proprietà. RestituisceRow .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: Row NodeType proprietà. RestituisceRow  in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.tables/row/nodetype/
@@ -14,7 +16,7 @@ RestituisceRow .
 public override NodeType NodeType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come attraversare l'albero dei nodi figlio di un nodo composito.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Row](../)
-* spazio dei nomi [Aspose.Words.Tables](../../row/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

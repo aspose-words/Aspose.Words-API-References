@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.EndCharacterFont
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag propiedad. Formato de fuente que se aplicará al último carácter del texto ingresado TED .
+linktitle: EndCharacterFont
+articleTitle: EndCharacterFont
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag EndCharacterFont propiedad. Formato de fuente que se aplicará al último carácter del texto ingresadoTED  en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.markup/structureddocumenttag/endcharacterfont/
 ---
 ## StructuredDocumentTag.EndCharacterFont property
 
-Formato de fuente que se aplicará al último carácter del texto ingresado **TED** .
+Formato de fuente que se aplicará al último carácter del texto ingresado**TED** .
 
 ```csharp
 public Font EndCharacterFont { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una etiqueta de documento estructurado en un cuadro de texto sin formato y modificar su apariencia.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

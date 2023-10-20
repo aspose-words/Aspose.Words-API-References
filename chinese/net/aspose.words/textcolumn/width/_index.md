@@ -1,7 +1,9 @@
 ---
 title: TextColumn.Width
-second_title: Aspose.Words for .NET API 参考
-description: TextColumn 财产. 获取或设置文本列的宽度以磅为单位
+linktitle: Width
+articleTitle: Width
+second_title: 用于 .NET 的 Aspose.Words
+description: TextColumn Width 财产. 获取或设置文本列的宽度以磅为单位 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/textcolumn/width/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/textcolumn/width/
 public double Width { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何创建间隔不均匀的列。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### 也可以看看
 
 * class [TextColumn](../)
-* 命名空间 [Aspose.Words](../../textcolumn/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextBox.IsValidLinkTarget
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextBox methode. Legt fest ob dies der Fall istTextBox kann mit dem Ziel verknüpft werdenTextBox .
+linktitle: IsValidLinkTarget
+articleTitle: IsValidLinkTarget
+second_title: Aspose.Words für .NET
+description: TextBox IsValidLinkTarget methode. Legt fest ob dies der Fall istTextBox kann mit dem Ziel verknüpft werdenTextBox  in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.drawing/textbox/isvalidlinktarget/
@@ -14,7 +16,7 @@ Legt fest, ob dies der Fall ist[`TextBox`](../) kann mit dem Ziel verknüpft wer
 public bool IsValidLinkTarget(TextBox target)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Textfelder verknüpft werden.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Siehe auch
 
 * class [TextBox](../)
-* namensraum [Aspose.Words.Drawing](../../textbox/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

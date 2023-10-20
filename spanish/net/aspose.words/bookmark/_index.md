@@ -1,7 +1,9 @@
 ---
-title: Class Bookmark
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Bookmark clase. Representa un único marcador.
+title: Bookmark Class
+linktitle: Bookmark
+articleTitle: Bookmark
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Bookmark clase. Representa un único marcador en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/bookmark/
@@ -34,11 +36,11 @@ public class Bookmark
 | --- | --- |
 | [Remove](../../aspose.words/bookmark/remove/)() | Elimina el marcador del documento. No elimina el texto dentro del marcador. |
 
-### Observaciones
+## Observaciones
 
 `Bookmark` es un objeto de "fachada" que encapsula dos nodos[`BookmarkStart`](./bookmarkstart/) y[`BookmarkEnd`](./bookmarkend/) en un árbol de documentos y permite trabajar con un marcador como un solo objeto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar marcadores y actualizar su contenido.
 
@@ -128,5 +130,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

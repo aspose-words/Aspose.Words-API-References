@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowLeaderLines
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabelCollection mülk. Tüm serinin veri etiketleri için veri etiketi lider çizgilerinin gösterilmesinin gerekip gerekmediğini belirlemeye izin verir. Varsayılan değerYANLIŞ .
+linktitle: ShowLeaderLines
+articleTitle: ShowLeaderLines
+second_title: Aspose.Words for .NET
+description: ChartDataLabelCollection ShowLeaderLines mülk. Tüm serinin veri etiketleri için veri etiketi lider çizgilerinin gösterilmesinin gerekip gerekmediğini belirlemeye izin verir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/
@@ -14,13 +16,13 @@ Tüm serinin veri etiketleri için veri etiketi lider çizgilerinin gösterilmes
 public bool ShowLeaderLines { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yalnızca Pasta grafikleri için geçerlidir. Lider çizgiler, bir veri etiketi ile ona karşılık gelen veri noktası arasında görsel bir bağlantı oluşturur.
 
 Bu özellik için tanımlanan değer, the kullanılarak tek bir veri etiketi için geçersiz kılınabilir[`ShowLeaderLines`](../../chartdatalabel/showleaderlines/) mülk.
 
-### Örnekler
+## Örnekler
 
 Pasta grafiğinin veri etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Ayrıca bakınız
 
 * class [ChartDataLabelCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

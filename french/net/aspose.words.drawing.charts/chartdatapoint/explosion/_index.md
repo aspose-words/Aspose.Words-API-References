@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Explosion
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataPoint propriété. Spécifie la distance à laquelle le point de données doit être déplacé du centre du secteur. Peut être négatif négatif signifie que la propriété nest pas définie et quaucune explosion ne doit être appliquée. Sapplique uniquement aux diagrammes circulaires.
+linktitle: Explosion
+articleTitle: Explosion
+second_title: Aspose.Words pour .NET
+description: ChartDataPoint Explosion propriété. Spécifie la distance à laquelle le point de données doit être déplacé du centre du secteur. Peut être négatif négatif signifie que la propriété nest pas définie et quaucune explosion ne doit être appliquée. Sapplique uniquement aux diagrammes circulaires en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/chartdatapoint/explosion/
@@ -17,7 +19,5 @@ public int Explosion { get; set; }
 ### Voir également
 
 * class [ChartDataPoint](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

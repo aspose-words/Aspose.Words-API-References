@@ -1,7 +1,9 @@
 ---
-title: Class FontInfo
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.FontInfo klas. Gibt Informationen zu einer im Dokument verwendeten Schriftart an.
+title: FontInfo Class
+linktitle: FontInfo
+articleTitle: FontInfo
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fonts.FontInfo klas. Gibt Informationen zu einer im Dokument verwendeten Schriftart an in C#.
 type: docs
 weight: 2920
 url: /de/net/aspose.words.fonts/fontinfo/
@@ -32,14 +34,14 @@ public class FontInfo
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(EmbeddedFontFormat, EmbeddedFontStyle) | Ruft eine bestimmte eingebettete Schriftartdatei ab. |
-| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(EmbeddedFontStyle) | Ruft eine eingebettete Schriftartdatei im OpenType-Format ab. Schriftarten im Embedded OpenType-Format werden in OpenType. konvertiert. |
+| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(*[EmbeddedFontFormat](../embeddedfontformat/), [EmbeddedFontStyle](../embeddedfontstyle/)*) | Ruft eine bestimmte eingebettete Schriftartdatei ab. |
+| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(*[EmbeddedFontStyle](../embeddedfontstyle/)*) | Ruft eine eingebettete Schriftartdatei im OpenType-Format ab. Schriftarten im Embedded OpenType-Format werden in OpenType. konvertiert. |
 
-### Bemerkungen
+## Bemerkungen
 
 Sie erstellen keine Instanzen dieser Klasse direkt. Verwenden Sie die[`FontInfos`](../../aspose.words/documentbase/fontinfos/) Eigenschaft, um auf die Sammlung von Schriftarten zuzugreifen, die in einem Dokument definiert sind.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Details zu den in einem Dokument vorhandenen Schriftarten gedruckt werden.
 
@@ -60,5 +62,3 @@ for (int i = 0; i < allFonts.Count; i++)
 
 * namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
-
-

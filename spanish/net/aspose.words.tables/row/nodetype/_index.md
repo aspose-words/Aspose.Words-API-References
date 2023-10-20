@@ -1,7 +1,9 @@
 ---
 title: Row.NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Row propiedad. DevolucionesRow .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: Row NodeType propiedad. DevolucionesRow  en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.tables/row/nodetype/
@@ -14,7 +16,7 @@ DevolucionesRow .
 public override NodeType NodeType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Row](../)
-* espacio de nombres [Aspose.Words.Tables](../../row/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

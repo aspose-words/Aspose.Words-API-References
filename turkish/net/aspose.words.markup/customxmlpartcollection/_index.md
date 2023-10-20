@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPartCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.CustomXmlPartCollection sınıf. Özel XML Parçalarının bir koleksiyonunu temsil eder. ÖğelerCustomXmlPart nesneler.
+title: CustomXmlPartCollection Class
+linktitle: CustomXmlPartCollection
+articleTitle: CustomXmlPartCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Markup.CustomXmlPartCollection sınıf. Özel XML Parçalarının bir koleksiyonunu temsil eder. ÖğelerCustomXmlPart nesneler C#'da.
 type: docs
 weight: 3930
 url: /tr/net/aspose.words.markup/customxmlpartcollection/
@@ -33,19 +35,19 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add_1)(CustomXmlPart) | Koleksiyona bir öğe ekler. |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(string, string) | Belirtilen XML ile yeni bir XML parçası oluşturur ve bunu koleksiyona ekler. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add_1)(*[CustomXmlPart](../customxmlpart/)*) | Koleksiyona bir öğe ekler. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(*string, string*) | Belirtilen XML ile yeni bir XML parçası oluşturur ve bunu koleksiyona ekler. |
 | [Clear](../../aspose.words.markup/customxmlpartcollection/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
 | [Clone](../../aspose.words.markup/customxmlpartcollection/clone/)() | Bu koleksiyonun ve içindeki öğelerin derin bir kopyasını oluşturur. |
-| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(string) | Özel bir XML parçasını tanımlayıcısına göre bulur ve döndürür. |
+| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(*string*) | Özel bir XML parçasını tanımlayıcısına göre bulur ve döndürür. |
 | [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
-| [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(int) | Belirtilen dizindeki bir öğeyi kaldırır. |
+| [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(*int*) | Belirtilen dizindeki bir öğeyi kaldırır. |
 
-### Notlar
+## Notlar
 
 Normalde bu sınıfın örneklerini oluşturmanıza gerek yoktur. Bir belgede saklanan özel XML verilerine erişebilirsiniz.[`CustomXmlParts`](../../aspose.words/document/customxmlparts/) mülk.
 
-### Örnekler
+## Örnekler
 
 Özel XML verileriyle yapılandırılmış bir belge etiketinin nasıl oluşturulacağını gösterir.
 
@@ -114,5 +116,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 * class [CustomXmlPart](../customxmlpart/)
 * ad alanı [Aspose.Words.Markup](../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../)
-
-

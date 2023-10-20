@@ -1,7 +1,9 @@
 ---
 title: Comment.Initial
-second_title: Aspose.Words for .NET API 参考
-description: Comment 财产. 返回或设置与特定评论关联的用户的姓名缩写
+linktitle: Initial
+articleTitle: Initial
+second_title: 用于 .NET 的 Aspose.Words
+description: Comment Initial 财产. 返回或设置与特定评论关联的用户的姓名缩写 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/comment/initial/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/comment/initial/
 public string Initial { get; set; }
 ```
 
-### 评论
+## 评论
 
 不可能是`无效的`。
 
 默认为空字符串。
 
-### 例子
+## 例子
 
 展示如何使用文档访问者打印所有注释的内容及其注释范围。
 
@@ -181,7 +183,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### 也可以看看
 
 * class [Comment](../)
-* 命名空间 [Aspose.Words](../../comment/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

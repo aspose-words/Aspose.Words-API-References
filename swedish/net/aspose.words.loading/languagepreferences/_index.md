@@ -1,7 +1,9 @@
 ---
-title: Class LanguagePreferences
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Loading.LanguagePreferences klass. Gör det möjligt att ställa in språkinställningar.
+title: LanguagePreferences Class
+linktitle: LanguagePreferences
+articleTitle: LanguagePreferences
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Loading.LanguagePreferences klass. Gör det möjligt att ställa in språkinställningar i C#.
 type: docs
 weight: 3650
 url: /sv/net/aspose.words.loading/languagepreferences/
@@ -32,14 +34,14 @@ public class LanguagePreferences
 
 | namn | Beskrivning |
 | --- | --- |
-| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(EditingLanguage) | Lägger till ytterligare redigeringsspråk. |
-| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(EditingLanguage[]) | Lägger till ytterligare redigeringsspråk. |
+| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(*[EditingLanguage](../editinglanguage/)*) | Lägger till ytterligare redigeringsspråk. |
+| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(*EditingLanguage[]*) | Lägger till ytterligare redigeringsspråk. |
 
-### Anmärkningar
+## Anmärkningar
 
 Implementerar "Ange språkinställningar för Office" i Word.
 
-### Exempel
+## Exempel
 
 Visar hur du använder språkinställningar när du laddar ett dokument.
 
@@ -59,5 +61,3 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * namnutrymme [Aspose.Words.Loading](../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../)
-
-

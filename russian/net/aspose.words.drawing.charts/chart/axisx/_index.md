@@ -1,7 +1,9 @@
 ---
 title: Chart.AxisX
-second_title: Справочник по API Aspose.Words для .NET
-description: Chart свойство. Обеспечивает доступ к свойствам оси X диаграммы.
+linktitle: AxisX
+articleTitle: AxisX
+second_title: Aspose.Words для .NET
+description: Chart AxisX свойство. Обеспечивает доступ к свойствам оси X диаграммы на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chart/axisx/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chart/axisx/
 public ChartAxis AxisX { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и изменить внешний вид ее осей.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * class [ChartAxis](../../chartaxis/)
 * class [Chart](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chart/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddField
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldArgumentBuilder methode. Fügt ein durch a dargestelltes Feld hinzuFieldBuilder zum Argument.
+linktitle: AddField
+articleTitle: AddField
+second_title: Aspose.Words für .NET
+description: FieldArgumentBuilder AddField methode. Fügt ein durch a dargestelltes Feld hinzuFieldBuilder zum Argument in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldargumentbuilder/addfield/
@@ -14,7 +16,7 @@ Fügt ein durch a dargestelltes Feld hinzu[`FieldBuilder`](../../fieldbuilder/) 
 public FieldArgumentBuilder AddField(FieldBuilder fieldBuilder)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Felder mit einem Feld-Builder erstellt und dann in das Dokument eingefügt werden.
 
@@ -98,7 +100,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [FieldBuilder](../../fieldbuilder/)
 * class [FieldArgumentBuilder](../)
-* namensraum [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

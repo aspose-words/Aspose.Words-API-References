@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: DropDownItemCollection 财产. 获取或设置指定索引处的元素
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: DropDownItemCollection Item 财产. 获取或设置指定索引处的元素 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/dropdownitemcollection/item/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/dropdownitemcollection/item/
 public string this[int index] { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入组合框字段以及编辑其项目集合中的元素。
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### 也可以看看
 
 * class [DropDownItemCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../dropdownitemcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

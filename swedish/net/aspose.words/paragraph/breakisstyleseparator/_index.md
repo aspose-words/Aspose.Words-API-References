@@ -1,7 +1,9 @@
 ---
 title: Paragraph.BreakIsStyleSeparator
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Sant om denna styckebrytning är en stilavskiljare. En stilavgränsare tillåter one stycke att bestå av delar som har olika styckestilar.
+linktitle: BreakIsStyleSeparator
+articleTitle: BreakIsStyleSeparator
+second_title: Aspose.Words för .NET
+description: Paragraph BreakIsStyleSeparator fast egendom. Sant om denna styckebrytning är en stilavskiljare. En stilavgränsare tillåter one stycke att bestå av delar som har olika styckestilar i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/paragraph/breakisstyleseparator/
@@ -14,7 +16,7 @@ Sant om denna styckebrytning är en stilavskiljare. En stilavgränsare tillåter
 public bool BreakIsStyleSeparator { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver text till samma rad som en innehållsförteckningsrubrik och att den inte visas i innehållsförteckningen.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Paragraph.BreakIsStyleSeparator.docx");
 ### Se även
 
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

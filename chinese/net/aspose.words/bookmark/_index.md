@@ -1,7 +1,9 @@
 ---
-title: Class Bookmark
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Bookmark 班级. 代表单个书签
+title: Bookmark Class
+linktitle: Bookmark
+articleTitle: Bookmark
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Bookmark 班级. 代表单个书签 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/bookmark/
@@ -34,11 +36,11 @@ public class Bookmark
 | --- | --- |
 | [Remove](../../aspose.words/bookmark/remove/)() | 从文档中删除书签。不删除书签内的文本。 |
 
-### 评论
+## 评论
 
 `Bookmark`是一个封装了两个节点的“facade”对象[`BookmarkStart`](./bookmarkstart/) 和[`BookmarkEnd`](./bookmarkend/)在文档树中，并允许将书签作为单个对象使用。
 
-### 例子
+## 例子
 
 展示如何添加书签并更新其内容。
 
@@ -128,5 +130,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

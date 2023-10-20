@@ -1,7 +1,9 @@
 ---
 title: FieldXE.PageNumberReplacement
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldXE свойство. Получает или задает текст используемый вместо номера страницы.
+linktitle: PageNumberReplacement
+articleTitle: PageNumberReplacement
+second_title: Aspose.Words для .NET
+description: FieldXE PageNumberReplacement свойство. Получает или задает текст используемый вместо номера страницы на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldxe/pagenumberreplacement/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldxe/pagenumberreplacement/
 public string PageNumberReplacement { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить перекрестные ссылки в поле ИНДЕКС.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.CrossReferenceSeparator.docx");
 ### Смотрите также
 
 * class [FieldXE](../)
-* пространство имен [Aspose.Words.Fields](../../fieldxe/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

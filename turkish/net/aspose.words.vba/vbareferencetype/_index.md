@@ -1,7 +1,9 @@
 ---
-title: Enum VbaReferenceType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Vba.VbaReferenceType Sıralama. Bir türün belirtilmesine izin verirVbaReference nesne.
+title: VbaReferenceType Enum
+linktitle: VbaReferenceType
+articleTitle: VbaReferenceType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Vba.VbaReferenceType Sıralama. Bir türün belirtilmesine izin verirVbaReference nesne C#'da.
 type: docs
 weight: 6610
 url: /tr/net/aspose.words.vba/vbareferencetype/
@@ -23,7 +25,7 @@ public enum VbaReferenceType
 | Original | `51` | Orijinal Otomasyon türü kitaplığı referans türünü belirtir. |
 | Control | `47` | Twiddled tür kitaplığı başvuru türünü belirtir. |
 
-### Örnekler
+## Örnekler
 
 VBA referans koleksiyonundan bir öğenin nasıl alınacağını/kaldırılacağını gösterir.
 
@@ -98,5 +100,3 @@ private static string GetLibIdProjectPath(string libIdProject)
 
 * ad alanı [Aspose.Words.Vba](../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../)
-
-

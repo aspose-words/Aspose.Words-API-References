@@ -1,7 +1,9 @@
 ---
-title: Class Fill
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Fill сорт. Представляет форматирование заливки объекта.
+title: Fill Class
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Fill сорт. Представляет форматирование заливки объекта на С#.
 type: docs
 weight: 950
 url: /ru/net/aspose.words.drawing/fill/
@@ -23,7 +25,6 @@ public class Fill
 | [BackColor](../../aspose.words.drawing/fill/backcolor/) { get; set; } | Получает или задает объект Color, который представляет цвет фона для заливки. |
 | [BackThemeColor](../../aspose.words.drawing/fill/backthemecolor/) { get; set; } | Получает или задает объект ThemeColor, который представляет цвет фона для заливки. |
 | [BackTintAndShade](../../aspose.words.drawing/fill/backtintandshade/) { get; set; } | Получает или задает двойное значение, которое осветляет или затемняет цвет фона. |
-| [BaseForeColor](../../aspose.words.drawing/fill/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/fill/color/) { get; set; } | Получает или задает объект Color, который представляет цвет переднего плана для заливки. |
 | [FillType](../../aspose.words.drawing/fill/filltype/) { get; } | Получает тип заливки. |
 | [ForeColor](../../aspose.words.drawing/fill/forecolor/) { get; set; } | Получает или задает объект Color, который представляет цвет переднего плана для заливки. |
@@ -46,24 +47,24 @@ public class Fill
 
 | Имя | Описание |
 | --- | --- |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(GradientStyle, GradientVariant, double) | Устанавливает для указанной заливки одноцветный градиент. |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(Color, GradientStyle, GradientVariant, double) | Устанавливает для указанной заливки одноцветный градиент с использованием указанного цвета. |
-| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(PatternType) | Устанавливает указанную заливку в шаблон. |
-| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(PatternType, Color, Color) | Устанавливает указанную заливку в шаблон. |
-| [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(PresetTexture) | Устанавливает заливку в соответствии с предустановленной текстурой. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage)(byte[]) | Изменяет тип заливки на одно изображение. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_1)(Stream) | Изменяет тип заливки на одно изображение. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_2)(string) | Изменяет тип заливки на одно изображение. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | Устанавливает для указанной заливки одноцветный градиент. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(*Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | Устанавливает для указанной заливки одноцветный градиент с использованием указанного цвета. |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(*[PatternType](../patterntype/)*) | Устанавливает указанную заливку в шаблон. |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(*[PatternType](../patterntype/), Color, Color*) | Устанавливает указанную заливку в шаблон. |
+| [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(*[PresetTexture](../presettexture/)*) | Устанавливает заливку в соответствии с предустановленной текстурой. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage)(*byte[]*) | Изменяет тип заливки на одно изображение. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_1)(*Stream*) | Изменяет тип заливки на одно изображение. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_2)(*string*) | Изменяет тип заливки на одно изображение. |
 | [Solid](../../aspose.words.drawing/fill/solid/#solid)() | Устанавливает однородный цвет заливки. |
-| [Solid](../../aspose.words.drawing/fill/solid/#solid_1)(Color) | Устанавливает заливку заданного однородного цвета. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient)(GradientStyle, GradientVariant) | Устанавливает для указанной заливки двухцветный градиент. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient_1)(Color, Color, GradientStyle, GradientVariant) | Устанавливает для указанной заливки двухцветный градиент. |
+| [Solid](../../aspose.words.drawing/fill/solid/#solid_1)(*Color*) | Устанавливает заливку заданного однородного цвета. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/)*) | Устанавливает для указанной заливки двухцветный градиент. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient_1)(*Color, Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/)*) | Устанавливает для указанной заливки двухцветный градиент. |
 
-### Примечания
+## Примечания
 
 Использовать[`Fill`](../shapebase/fill/) или[`Fill`](../../aspose.words/font/fill/) для доступа к свойствам заполнения объекта. Вы не создаете экземпляры`Fill` класс напрямую.
 
-### Примеры
+## Примеры
 
 Показывает, как залить фигуру сплошным цветом.
 
@@ -99,5 +100,3 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

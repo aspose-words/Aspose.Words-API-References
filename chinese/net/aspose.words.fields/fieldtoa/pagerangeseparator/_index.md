@@ -1,7 +1,9 @@
 ---
 title: FieldToa.PageRangeSeparator
-second_title: Aspose.Words for .NET API 参考
-description: FieldToa 财产. 获取或设置用于分隔页面范围的开始和结束的字符序列
+linktitle: PageRangeSeparator
+articleTitle: PageRangeSeparator
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldToa PageRangeSeparator 财产. 获取或设置用于分隔页面范围的开始和结束的字符序列 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldtoa/pagerangeseparator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldtoa/pagerangeseparator/
 public string PageRangeSeparator { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用 TOA 和 TA 字段构建和自定义权限表。
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### 也可以看看
 
 * class [FieldToa](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldtoa/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

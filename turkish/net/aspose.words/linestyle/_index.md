@@ -1,7 +1,9 @@
 ---
-title: Enum LineStyle
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.LineStyle Sıralama. Bir çizgi stilini belirtirBorder .
+title: LineStyle Enum
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words for .NET
+description: Aspose.Words.LineStyle Sıralama. Bir çizgi stilini belirtirBorder  C#'da.
 type: docs
 weight: 3450
 url: /tr/net/aspose.words/linestyle/
@@ -46,7 +48,7 @@ public enum LineStyle
 | Outset | `26` |  |
 | Inset | `27` |  |
 
-### Örnekler
+## Örnekler
 
 Kenarlıkla çevrelenmiş bir dizenin belgeye nasıl ekleneceğini gösterir.
 
@@ -67,5 +69,3 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

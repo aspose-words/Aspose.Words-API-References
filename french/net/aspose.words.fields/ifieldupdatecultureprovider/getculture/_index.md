@@ -1,7 +1,9 @@
 ---
 title: IFieldUpdateCultureProvider.GetCulture
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IFieldUpdateCultureProvider méthode. Renvoie unCultureInfoobjet à utiliser lors de la mise à jour du champ.
+linktitle: GetCulture
+articleTitle: GetCulture
+second_title: Aspose.Words pour .NET
+description: IFieldUpdateCultureProvider GetCulture méthode. Renvoie unCultureInfoobjet à utiliser lors de la mise à jour du champ en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
@@ -23,7 +25,7 @@ public CultureInfo GetCulture(string culture, Field field)
 
 L'objet de culture qui doit être utilisé pour la mise à jour du champ.
 
-### Exemples
+## Exemples
 
 Montre comment spécifier une culture qui analyse le formatage date/heure pour chaque champ.
 
@@ -95,7 +97,5 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * class [Field](../../field/)
 * interface [IFieldUpdateCultureProvider](../)
-* espace de noms [Aspose.Words.Fields](../../ifieldupdatecultureprovider/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

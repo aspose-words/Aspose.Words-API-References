@@ -1,7 +1,9 @@
 ---
-title: Enum MarkupLevel
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.MarkupLevel Sıralama. Belge ağacında belirli bir öğenin bulunduğu düzeyi belirtir.StructuredDocumentTag oluşabilir.
+title: MarkupLevel Enum
+linktitle: MarkupLevel
+articleTitle: MarkupLevel
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Markup.MarkupLevel Sıralama. Belge ağacında belirli bir öğenin bulunduğu düzeyi belirtir.StructuredDocumentTag oluşabilir C#'da.
 type: docs
 weight: 3980
 url: /tr/net/aspose.words.markup/markuplevel/
@@ -24,7 +26,7 @@ public enum MarkupLevel
 | Row | `3` | Öğe, tablodaki satırlar arasında bulunur. |
 | Cell | `4` | Öğe, satırdaki hücreler arasında bulunur. |
 
-### Örnekler
+## Örnekler
 
 İçerik kontrol öğelerine ilişkin stillerle nasıl çalışılacağını gösterir.
 
@@ -64,5 +66,3 @@ foreach (Node node in tags)
 
 * ad alanı [Aspose.Words.Markup](../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../)
-
-

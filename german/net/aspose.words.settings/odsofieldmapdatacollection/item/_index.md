@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoFieldMapDataCollection eigendom. Ruft ein Element in dieser Sammlung ab oder legt es fest.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: OdsoFieldMapDataCollection Item eigendom. Ruft ein Element in dieser Sammlung ab oder legt es fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.settings/odsofieldmapdatacollection/item/
@@ -14,7 +16,7 @@ Ruft ein Element in dieser Sammlung ab oder legt es fest.
 public OdsoFieldMapData this[int index] { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Briefvorlagenfeldern zuordnet.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* namensraum [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

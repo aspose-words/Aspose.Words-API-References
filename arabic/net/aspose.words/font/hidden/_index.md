@@ -1,7 +1,9 @@
 ---
 title: Font.Hidden
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. صحيح إذا تم تنسيق الخط كنص مخفي.
+linktitle: Hidden
+articleTitle: Hidden
+second_title: Aspose.Words لـ .NET
+description: Font Hidden ملكية. صحيح إذا تم تنسيق الخط كنص مخفي في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words/font/hidden/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/hidden/
 public bool Hidden { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مجموعة من النص المخفي.
 
@@ -229,7 +231,5 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

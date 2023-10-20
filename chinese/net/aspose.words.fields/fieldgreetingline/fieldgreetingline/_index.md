@@ -1,7 +1,9 @@
 ---
-title: FieldGreetingLine.FieldGreetingLine
-second_title: Aspose.Words for .NET API 参考
-description: FieldGreetingLine 构造函数. 默认构造函数
+title: FieldGreetingLine
+linktitle: FieldGreetingLine
+articleTitle: FieldGreetingLine
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldGreetingLine 构造函数. 默认构造函数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldgreetingline/fieldgreetingline/
@@ -17,7 +19,5 @@ public FieldGreetingLine()
 ### 也可以看看
 
 * class [FieldGreetingLine](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldgreetingline/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: TextColumnCollection mülk. Belirtilen dizindeki bir metin sütununu döndürür.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: TextColumnCollection Item mülk. Belirtilen dizindeki bir metin sütununu döndürür C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/textcolumncollection/item/
@@ -14,7 +16,7 @@ Belirtilen dizindeki bir metin sütununu döndürür.
 public TextColumn this[int index] { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düzensiz aralıklı sütunların nasıl oluşturulacağını gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 
 * class [TextColumn](../../textcolumn/)
 * class [TextColumnCollection](../)
-* ad alanı [Aspose.Words](../../textcolumncollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

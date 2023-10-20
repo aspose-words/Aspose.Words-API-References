@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateMissingOutlineLevels
-second_title: Aspose.Words för .NET API Referens
-description: OutlineOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer om saknade dispositionsnivåer ska skapas eller inte när dokumentet exporteras.
+linktitle: CreateMissingOutlineLevels
+articleTitle: CreateMissingOutlineLevels
+second_title: Aspose.Words för .NET
+description: OutlineOptions CreateMissingOutlineLevels fast egendom. Hämtar eller ställer in ett värde som bestämmer om saknade dispositionsnivåer ska skapas eller inte när dokumentet exporteras i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/outlineoptions/createmissingoutlinelevels/
@@ -16,7 +18,7 @@ Standardvärdet för den här egenskapen är`falsk`.
 public bool CreateMissingOutlineLevels { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dispositionsnivåer som inte innehåller några motsvarande rubriker när man sparar ett PDF-dokument.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 ### Se även
 
 * class [OutlineOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../outlineoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

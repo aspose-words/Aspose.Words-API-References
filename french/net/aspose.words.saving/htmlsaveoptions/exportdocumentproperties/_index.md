@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportDocumentProperties
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie sil faut exporter les propriétés du document intégré et personnalisé au format HTML MHTML ou EPUB. La valeur par défaut estFAUX .
+linktitle: ExportDocumentProperties
+articleTitle: ExportDocumentProperties
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions ExportDocumentProperties propriété. Spécifie sil faut exporter les propriétés du document intégré et personnalisé au format HTML MHTML ou EPUB. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportdocumentproperties/
@@ -14,7 +16,7 @@ Spécifie s'il faut exporter les propriétés du document intégré et personnal
 public bool ExportDocumentProperties { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un encodage spécifique lors de l’enregistrement d’un document au format .epub.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

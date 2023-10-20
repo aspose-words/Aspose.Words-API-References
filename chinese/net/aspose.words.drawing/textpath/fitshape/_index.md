@@ -1,7 +1,9 @@
 ---
 title: TextPath.FitShape
-second_title: Aspose.Words for .NET API 参考
-description: TextPath 财产. 定义文本是否适合形状的边界框
+linktitle: FitShape
+articleTitle: FitShape
+second_title: 用于 .NET 的 Aspose.Words
+description: TextPath FitShape 财产. 定义文本是否适合形状的边界框 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing/textpath/fitshape/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/textpath/fitshape/
 public bool FitShape { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`。
 
-### 例子
+## 例子
 
 演示如何使用艺术字。
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### 也可以看看
 
 * class [TextPath](../)
-* 命名空间 [Aspose.Words.Drawing](../../textpath/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

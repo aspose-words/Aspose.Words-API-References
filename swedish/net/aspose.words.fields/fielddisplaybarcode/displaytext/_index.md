@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.DisplayText
-second_title: Aspose.Words för .NET API Referens
-description: FieldDisplayBarcode fast egendom. Hämtar eller ställer in om streckkodsdata text ska visas tillsammans med bild.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words för .NET
+description: FieldDisplayBarcode DisplayText fast egendom. Hämtar eller ställer in om streckkodsdata text ska visas tillsammans med bild i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fields/fielddisplaybarcode/displaytext/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om streckkodsdata (text) ska visas tillsammans med bil
 public bool DisplayText { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett DISPLAYBARCODE-fält och ställer in dess egenskaper.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Se även
 
 * class [FieldDisplayBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

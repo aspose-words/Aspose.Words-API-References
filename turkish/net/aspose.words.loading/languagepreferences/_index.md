@@ -1,7 +1,9 @@
 ---
-title: Class LanguagePreferences
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.LanguagePreferences sınıf. Dil tercihlerini ayarlamanıza olanak tanır.
+title: LanguagePreferences Class
+linktitle: LanguagePreferences
+articleTitle: LanguagePreferences
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Loading.LanguagePreferences sınıf. Dil tercihlerini ayarlamanıza olanak tanır C#'da.
 type: docs
 weight: 3650
 url: /tr/net/aspose.words.loading/languagepreferences/
@@ -32,14 +34,14 @@ public class LanguagePreferences
 
 | İsim | Tanım |
 | --- | --- |
-| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(EditingLanguage) | Ek düzenleme dili ekler. |
-| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(EditingLanguage[]) | Ek düzenleme dilleri ekler. |
+| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(*[EditingLanguage](../editinglanguage/)*) | Ek düzenleme dili ekler. |
+| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(*EditingLanguage[]*) | Ek düzenleme dilleri ekler. |
 
-### Notlar
+## Notlar
 
 Word'de 'Office Dil Tercihlerini Ayarla' iletişim kutusunu uygular.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi yüklerken dil tercihlerinin nasıl uygulanacağını gösterir.
 
@@ -59,5 +61,3 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * ad alanı [Aspose.Words.Loading](../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../)
-
-

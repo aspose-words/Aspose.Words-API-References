@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.WidowControl
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Истинно если первая и последняя строки абзаца должны оставаться на той же странице что и остальная часть абзаца.
+linktitle: WidowControl
+articleTitle: WidowControl
+second_title: Aspose.Words для .NET
+description: ParagraphFormat WidowControl свойство. Истинно если первая и последняя строки абзаца должны оставаться на той же странице что и остальная часть абзаца на С#.
 type: docs
 weight: 400
 url: /ru/net/aspose.words/paragraphformat/widowcontrol/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/widowcontrol/
 public bool WidowControl { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как включить управление «висящим» или «сиротским» абзацем.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.WidowControl.docx");
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

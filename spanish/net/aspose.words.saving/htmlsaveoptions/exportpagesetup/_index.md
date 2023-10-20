@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportPageSetup
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica si la configuración de la página se exporta a HTML MHTML o EPUB. El valor predeterminado esFALSO .
+linktitle: ExportPageSetup
+articleTitle: ExportPageSetup
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions ExportPageSetup propiedad. Especifica si la configuración de la página se exporta a HTML MHTML o EPUB. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 220
 url: /es/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
@@ -14,13 +16,13 @@ Especifica si la configuración de la página se exporta a HTML, MHTML o EPUB. E
 public bool ExportPageSetup { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cada[`Section`](../../../aspose.words/section/) en el modelo de documento Aspose.Words proporciona información de configuración de página a través de[`PageSetup`](../../../aspose.words/pagesetup/) clase. Cuando exporta un documento a formato HTML, es posible que necesite conservar esta información para su uso posterior. En particular, la configuración de la página puede ser importante para la representación en medios paginados (impresión) o la conversión posterior a los formatos de archivo nativos de Microsoft Word (DOCX, DOC, RTF, WML).
 
 En la mayoría de los casos, HTML está pensado para visualizarse en navegadores donde no se realiza la paginación. Entonces esta característica está inactiva de forma predeterminada.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo decidir si se conserva la estructura de la sección/la información de configuración de la página al guardar en HTML.
 
@@ -80,7 +82,5 @@ else
 ### Ver también
 
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

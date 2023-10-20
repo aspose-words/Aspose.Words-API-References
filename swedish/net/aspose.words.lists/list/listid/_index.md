@@ -1,7 +1,9 @@
 ---
 title: List.ListId
-second_title: Aspose.Words för .NET API Referens
-description: List fast egendom. Får den unika identifieraren för listan.
+linktitle: ListId
+articleTitle: ListId
+second_title: Aspose.Words för .NET
+description: List ListId fast egendom. Får den unika identifieraren för listan i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.lists/list/listid/
@@ -14,11 +16,11 @@ Får den unika identifieraren för listan.
 public int ListId { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Du behöver normalt inte använda denna fastighet. Men om du använder det gör du normalt så i samband med[`GetListByListId`](../../listcollection/getlistbylistid/) metod för att hitta a lista efter dess identifierare.
 
-### Exempel
+## Exempel
 
 Visar hur man verifierar ägardokumentegenskaper för listor.
 
@@ -67,7 +69,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 ### Se även
 
 * class [List](../)
-* namnutrymme [Aspose.Words.Lists](../../list/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

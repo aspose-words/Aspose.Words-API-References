@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateMissingOutlineLevels
-second_title: Aspose.Words for .NET API 参考
-description: OutlineOptions 财产. 获取或设置一个值该值确定在导出 文档时是否创建缺失的大纲级别
+linktitle: CreateMissingOutlineLevels
+articleTitle: CreateMissingOutlineLevels
+second_title: 用于 .NET 的 Aspose.Words
+description: OutlineOptions CreateMissingOutlineLevels 财产. 获取或设置一个值该值确定在导出 文档时是否创建缺失的大纲级别 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/outlineoptions/createmissingoutlinelevels/
@@ -16,7 +18,7 @@ url: /zh/net/aspose.words.saving/outlineoptions/createmissingoutlinelevels/
 public bool CreateMissingOutlineLevels { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示在保存 PDF 文档时如何使用不包含任何相应标题的大纲级别。
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOpt
 ### 也可以看看
 
 * class [OutlineOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../outlineoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

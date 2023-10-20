@@ -1,7 +1,9 @@
 ---
-title: Class DocumentVisitor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.DocumentVisitor klas. Basisklasse für benutzerdefinierte Dokumentbesucher.
+title: DocumentVisitor Class
+linktitle: DocumentVisitor
+articleTitle: DocumentVisitor
+second_title: Aspose.Words für .NET
+description: Aspose.Words.DocumentVisitor klas. Basisklasse für benutzerdefinierte Dokumentbesucher in C#.
 type: docs
 weight: 470
 url: /de/net/aspose.words/documentvisitor/
@@ -20,58 +22,58 @@ public abstract class DocumentVisitor
 
 | Name | Beschreibung |
 | --- | --- |
-| virtual [VisitAbsolutePositionTab](../../aspose.words/documentvisitor/visitabsolutepositiontab/)(AbsolutePositionTab) | Wird aufgerufen, wenn a[`AbsolutePositionTab`](../absolutepositiontab/) Knoten wird im Dokument gefunden. |
-| virtual [VisitBodyEnd](../../aspose.words/documentvisitor/visitbodyend/)(Body) | Wird aufgerufen, wenn die Aufzählung der Haupttextgeschichte in einem Abschnitt beendet ist. |
-| virtual [VisitBodyStart](../../aspose.words/documentvisitor/visitbodystart/)(Body) | Wird aufgerufen, wenn die Aufzählung der Haupttextgeschichte in einem Abschnitt begonnen hat. |
-| virtual [VisitBookmarkEnd](../../aspose.words/documentvisitor/visitbookmarkend/)(BookmarkEnd) | Wird aufgerufen, wenn im Dokument das Ende eines Lesezeichens festgestellt wird. |
-| virtual [VisitBookmarkStart](../../aspose.words/documentvisitor/visitbookmarkstart/)(BookmarkStart) | Wird aufgerufen, wenn im Dokument der Anfang eines Lesezeichens gefunden wird. |
-| virtual [VisitBuildingBlockEnd](../../aspose.words/documentvisitor/visitbuildingblockend/)(BuildingBlock) | Wird aufgerufen, wenn die Aufzählung eines Bausteins beendet wurde. |
-| virtual [VisitBuildingBlockStart](../../aspose.words/documentvisitor/visitbuildingblockstart/)(BuildingBlock) | Wird aufgerufen, wenn die Aufzählung eines Bausteins begonnen hat. |
-| virtual [VisitCellEnd](../../aspose.words/documentvisitor/visitcellend/)(Cell) | Wird aufgerufen, wenn die Aufzählung einer Tabellenzelle beendet wurde. |
-| virtual [VisitCellStart](../../aspose.words/documentvisitor/visitcellstart/)(Cell) | Wird aufgerufen, wenn die Aufzählung einer Tabellenzelle gestartet wurde. |
-| virtual [VisitCommentEnd](../../aspose.words/documentvisitor/visitcommentend/)(Comment) | Wird aufgerufen, wenn die Aufzählung eines Kommentartextes beendet wurde. |
-| virtual [VisitCommentRangeEnd](../../aspose.words/documentvisitor/visitcommentrangeend/)(CommentRangeEnd) | Wird aufgerufen, wenn das Ende eines kommentierten Textbereichs erreicht wird. |
-| virtual [VisitCommentRangeStart](../../aspose.words/documentvisitor/visitcommentrangestart/)(CommentRangeStart) | Wird aufgerufen, wenn der Anfang eines kommentierten Textbereichs gefunden wird. |
-| virtual [VisitCommentStart](../../aspose.words/documentvisitor/visitcommentstart/)(Comment) | Wird aufgerufen, wenn die Aufzählung eines Kommentartextes gestartet wurde. |
-| virtual [VisitDocumentEnd](../../aspose.words/documentvisitor/visitdocumentend/)(Document) | Wird aufgerufen, wenn die Aufzählung des Dokuments abgeschlossen ist. |
-| virtual [VisitDocumentStart](../../aspose.words/documentvisitor/visitdocumentstart/)(Document) | Wird aufgerufen, wenn die Aufzählung des Dokuments begonnen hat. |
-| virtual [VisitEditableRangeEnd](../../aspose.words/documentvisitor/visiteditablerangeend/)(EditableRangeEnd) | Wird aufgerufen, wenn im Dokument das Ende eines bearbeitbaren Bereichs erreicht wird. |
-| virtual [VisitEditableRangeStart](../../aspose.words/documentvisitor/visiteditablerangestart/)(EditableRangeStart) | Wird aufgerufen, wenn im Dokument der Anfang eines bearbeitbaren Bereichs gefunden wird. |
-| virtual [VisitFieldEnd](../../aspose.words/documentvisitor/visitfieldend/)(FieldEnd) | Wird aufgerufen, wenn ein Feld im Dokument endet. |
-| virtual [VisitFieldSeparator](../../aspose.words/documentvisitor/visitfieldseparator/)(FieldSeparator) | Wird aufgerufen, wenn im Dokument ein Feldtrennzeichen gefunden wird. |
-| virtual [VisitFieldStart](../../aspose.words/documentvisitor/visitfieldstart/)(FieldStart) | Wird aufgerufen, wenn ein Feld im Dokument beginnt. |
-| virtual [VisitFootnoteEnd](../../aspose.words/documentvisitor/visitfootnoteend/)(Footnote) | Wird aufgerufen, wenn die Aufzählung eines Fußnoten- oder Endnotentextes beendet wurde. |
-| virtual [VisitFootnoteStart](../../aspose.words/documentvisitor/visitfootnotestart/)(Footnote) | Wird aufgerufen, wenn die Aufzählung eines Fußnoten- oder Endnotentextes begonnen hat. |
-| virtual [VisitFormField](../../aspose.words/documentvisitor/visitformfield/)(FormField) | Wird aufgerufen, wenn im Dokument ein Formularfeld gefunden wird. |
-| virtual [VisitGlossaryDocumentEnd](../../aspose.words/documentvisitor/visitglossarydocumentend/)(GlossaryDocument) | Wird aufgerufen, wenn die Aufzählung eines Glossardokuments beendet wurde. |
-| virtual [VisitGlossaryDocumentStart](../../aspose.words/documentvisitor/visitglossarydocumentstart/)(GlossaryDocument) | Wird aufgerufen, wenn die Aufzählung eines Glossardokuments begonnen hat. |
-| virtual [VisitGroupShapeEnd](../../aspose.words/documentvisitor/visitgroupshapeend/)(GroupShape) | Wird aufgerufen, wenn die Aufzählung einer Gruppenform beendet wurde. |
-| virtual [VisitGroupShapeStart](../../aspose.words/documentvisitor/visitgroupshapestart/)(GroupShape) | Wird aufgerufen, wenn die Aufzählung einer Gruppenform begonnen hat. |
-| virtual [VisitHeaderFooterEnd](../../aspose.words/documentvisitor/visitheaderfooterend/)(HeaderFooter) | Wird aufgerufen, wenn die Aufzählung einer Kopf- oder Fußzeile in einem Abschnitt beendet wurde. |
-| virtual [VisitHeaderFooterStart](../../aspose.words/documentvisitor/visitheaderfooterstart/)(HeaderFooter) | Wird aufgerufen, wenn die Aufzählung einer Kopf- oder Fußzeile in einem Abschnitt begonnen hat. |
-| virtual [VisitOfficeMathEnd](../../aspose.words/documentvisitor/visitofficemathend/)(OfficeMath) | Wird aufgerufen, wenn die Aufzählung eines Office Math-Objekts beendet wurde. |
-| virtual [VisitOfficeMathStart](../../aspose.words/documentvisitor/visitofficemathstart/)(OfficeMath) | Wird aufgerufen, wenn die Aufzählung eines Office Math-Objekts gestartet wurde. |
-| virtual [VisitParagraphEnd](../../aspose.words/documentvisitor/visitparagraphend/)(Paragraph) | Wird aufgerufen, wenn die Aufzählung eines Absatzes beendet wurde. |
-| virtual [VisitParagraphStart](../../aspose.words/documentvisitor/visitparagraphstart/)(Paragraph) | Wird aufgerufen, wenn die Aufzählung eines Absatzes begonnen hat. |
-| virtual [VisitRowEnd](../../aspose.words/documentvisitor/visitrowend/)(Row) | Wird aufgerufen, wenn die Aufzählung einer Tabellenzeile beendet wurde. |
-| virtual [VisitRowStart](../../aspose.words/documentvisitor/visitrowstart/)(Row) | Wird aufgerufen, wenn die Aufzählung einer Tabellenzeile gestartet wurde. |
-| virtual [VisitRun](../../aspose.words/documentvisitor/visitrun/)(Run) | Wird aufgerufen, wenn eine Textzeile im gefunden wird. |
-| virtual [VisitSectionEnd](../../aspose.words/documentvisitor/visitsectionend/)(Section) | Wird aufgerufen, wenn die Aufzählung eines Abschnitts beendet wurde. |
-| virtual [VisitSectionStart](../../aspose.words/documentvisitor/visitsectionstart/)(Section) | Wird aufgerufen, wenn die Aufzählung eines Abschnitts begonnen hat. |
-| virtual [VisitShapeEnd](../../aspose.words/documentvisitor/visitshapeend/)(Shape) | Wird aufgerufen, wenn die Aufzählung einer Form beendet wurde. |
-| virtual [VisitShapeStart](../../aspose.words/documentvisitor/visitshapestart/)(Shape) | Wird aufgerufen, wenn die Aufzählung einer Form begonnen hat. |
-| virtual [VisitSmartTagEnd](../../aspose.words/documentvisitor/visitsmarttagend/)(SmartTag) | Wird aufgerufen, wenn die Aufzählung eines Smarttags beendet wurde. |
-| virtual [VisitSmartTagStart](../../aspose.words/documentvisitor/visitsmarttagstart/)(SmartTag) | Wird aufgerufen, wenn die Aufzählung eines Smarttags gestartet wurde. |
-| virtual [VisitSpecialChar](../../aspose.words/documentvisitor/visitspecialchar/)(SpecialChar) | Wird aufgerufen, wenn a[`SpecialChar`](../specialchar/) Knoten wird im Dokument gefunden. |
-| virtual [VisitStructuredDocumentTagEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagend/)(StructuredDocumentTag) | Wird aufgerufen, wenn die Aufzählung eines strukturierten Dokument-Tags beendet wurde. |
-| virtual [VisitStructuredDocumentTagRangeEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagrangeend/)(StructuredDocumentTagRangeEnd) | Wird aufgerufen, wenn ein StructuredDocumentTagRangeEnd gefunden wird. |
-| virtual [VisitStructuredDocumentTagRangeStart](../../aspose.words/documentvisitor/visitstructureddocumenttagrangestart/)(StructuredDocumentTagRangeStart) | Wird aufgerufen, wenn ein StructuredDocumentTagRangeStart gefunden wird. |
-| virtual [VisitStructuredDocumentTagStart](../../aspose.words/documentvisitor/visitstructureddocumenttagstart/)(StructuredDocumentTag) | Wird aufgerufen, wenn die Aufzählung eines strukturierten Dokument-Tags begonnen hat. |
-| virtual [VisitSubDocument](../../aspose.words/documentvisitor/visitsubdocument/)(SubDocument) | Wird aufgerufen, wenn ein Unterdokument gefunden wird. |
-| virtual [VisitTableEnd](../../aspose.words/documentvisitor/visittableend/)(Table) | Wird aufgerufen, wenn die Aufzählung einer Tabelle beendet wurde. |
-| virtual [VisitTableStart](../../aspose.words/documentvisitor/visittablestart/)(Table) | Wird aufgerufen, wenn die Aufzählung einer Tabelle gestartet wurde. |
+| virtual [VisitAbsolutePositionTab](../../aspose.words/documentvisitor/visitabsolutepositiontab/)(*[AbsolutePositionTab](../absolutepositiontab/)*) | Wird aufgerufen, wenn a[`AbsolutePositionTab`](../absolutepositiontab/) Knoten wird im Dokument gefunden. |
+| virtual [VisitBodyEnd](../../aspose.words/documentvisitor/visitbodyend/)(*[Body](../body/)*) | Wird aufgerufen, wenn die Aufzählung der Haupttextgeschichte in einem Abschnitt beendet ist. |
+| virtual [VisitBodyStart](../../aspose.words/documentvisitor/visitbodystart/)(*[Body](../body/)*) | Wird aufgerufen, wenn die Aufzählung der Haupttextgeschichte in einem Abschnitt begonnen hat. |
+| virtual [VisitBookmarkEnd](../../aspose.words/documentvisitor/visitbookmarkend/)(*[BookmarkEnd](../bookmarkend/)*) | Wird aufgerufen, wenn im Dokument das Ende eines Lesezeichens festgestellt wird. |
+| virtual [VisitBookmarkStart](../../aspose.words/documentvisitor/visitbookmarkstart/)(*[BookmarkStart](../bookmarkstart/)*) | Wird aufgerufen, wenn im Dokument der Anfang eines Lesezeichens gefunden wird. |
+| virtual [VisitBuildingBlockEnd](../../aspose.words/documentvisitor/visitbuildingblockend/)(*[BuildingBlock](../../aspose.words.buildingblocks/buildingblock/)*) | Wird aufgerufen, wenn die Aufzählung eines Bausteins beendet wurde. |
+| virtual [VisitBuildingBlockStart](../../aspose.words/documentvisitor/visitbuildingblockstart/)(*[BuildingBlock](../../aspose.words.buildingblocks/buildingblock/)*) | Wird aufgerufen, wenn die Aufzählung eines Bausteins begonnen hat. |
+| virtual [VisitCellEnd](../../aspose.words/documentvisitor/visitcellend/)(*[Cell](../../aspose.words.tables/cell/)*) | Wird aufgerufen, wenn die Aufzählung einer Tabellenzelle beendet wurde. |
+| virtual [VisitCellStart](../../aspose.words/documentvisitor/visitcellstart/)(*[Cell](../../aspose.words.tables/cell/)*) | Wird aufgerufen, wenn die Aufzählung einer Tabellenzelle gestartet wurde. |
+| virtual [VisitCommentEnd](../../aspose.words/documentvisitor/visitcommentend/)(*[Comment](../comment/)*) | Wird aufgerufen, wenn die Aufzählung eines Kommentartextes beendet wurde. |
+| virtual [VisitCommentRangeEnd](../../aspose.words/documentvisitor/visitcommentrangeend/)(*[CommentRangeEnd](../commentrangeend/)*) | Wird aufgerufen, wenn das Ende eines kommentierten Textbereichs erreicht wird. |
+| virtual [VisitCommentRangeStart](../../aspose.words/documentvisitor/visitcommentrangestart/)(*[CommentRangeStart](../commentrangestart/)*) | Wird aufgerufen, wenn der Anfang eines kommentierten Textbereichs gefunden wird. |
+| virtual [VisitCommentStart](../../aspose.words/documentvisitor/visitcommentstart/)(*[Comment](../comment/)*) | Wird aufgerufen, wenn die Aufzählung eines Kommentartextes gestartet wurde. |
+| virtual [VisitDocumentEnd](../../aspose.words/documentvisitor/visitdocumentend/)(*[Document](../document/)*) | Wird aufgerufen, wenn die Aufzählung des Dokuments abgeschlossen ist. |
+| virtual [VisitDocumentStart](../../aspose.words/documentvisitor/visitdocumentstart/)(*[Document](../document/)*) | Wird aufgerufen, wenn die Aufzählung des Dokuments begonnen hat. |
+| virtual [VisitEditableRangeEnd](../../aspose.words/documentvisitor/visiteditablerangeend/)(*[EditableRangeEnd](../editablerangeend/)*) | Wird aufgerufen, wenn im Dokument das Ende eines bearbeitbaren Bereichs erreicht wird. |
+| virtual [VisitEditableRangeStart](../../aspose.words/documentvisitor/visiteditablerangestart/)(*[EditableRangeStart](../editablerangestart/)*) | Wird aufgerufen, wenn im Dokument der Anfang eines bearbeitbaren Bereichs gefunden wird. |
+| virtual [VisitFieldEnd](../../aspose.words/documentvisitor/visitfieldend/)(*[FieldEnd](../../aspose.words.fields/fieldend/)*) | Wird aufgerufen, wenn ein Feld im Dokument endet. |
+| virtual [VisitFieldSeparator](../../aspose.words/documentvisitor/visitfieldseparator/)(*[FieldSeparator](../../aspose.words.fields/fieldseparator/)*) | Wird aufgerufen, wenn im Dokument ein Feldtrennzeichen gefunden wird. |
+| virtual [VisitFieldStart](../../aspose.words/documentvisitor/visitfieldstart/)(*[FieldStart](../../aspose.words.fields/fieldstart/)*) | Wird aufgerufen, wenn ein Feld im Dokument beginnt. |
+| virtual [VisitFootnoteEnd](../../aspose.words/documentvisitor/visitfootnoteend/)(*[Footnote](../../aspose.words.notes/footnote/)*) | Wird aufgerufen, wenn die Aufzählung eines Fußnoten- oder Endnotentextes beendet wurde. |
+| virtual [VisitFootnoteStart](../../aspose.words/documentvisitor/visitfootnotestart/)(*[Footnote](../../aspose.words.notes/footnote/)*) | Wird aufgerufen, wenn die Aufzählung eines Fußnoten- oder Endnotentextes begonnen hat. |
+| virtual [VisitFormField](../../aspose.words/documentvisitor/visitformfield/)(*[FormField](../../aspose.words.fields/formfield/)*) | Wird aufgerufen, wenn im Dokument ein Formularfeld gefunden wird. |
+| virtual [VisitGlossaryDocumentEnd](../../aspose.words/documentvisitor/visitglossarydocumentend/)(*[GlossaryDocument](../../aspose.words.buildingblocks/glossarydocument/)*) | Wird aufgerufen, wenn die Aufzählung eines Glossardokuments beendet wurde. |
+| virtual [VisitGlossaryDocumentStart](../../aspose.words/documentvisitor/visitglossarydocumentstart/)(*[GlossaryDocument](../../aspose.words.buildingblocks/glossarydocument/)*) | Wird aufgerufen, wenn die Aufzählung eines Glossardokuments begonnen hat. |
+| virtual [VisitGroupShapeEnd](../../aspose.words/documentvisitor/visitgroupshapeend/)(*[GroupShape](../../aspose.words.drawing/groupshape/)*) | Wird aufgerufen, wenn die Aufzählung einer Gruppenform beendet wurde. |
+| virtual [VisitGroupShapeStart](../../aspose.words/documentvisitor/visitgroupshapestart/)(*[GroupShape](../../aspose.words.drawing/groupshape/)*) | Wird aufgerufen, wenn die Aufzählung einer Gruppenform begonnen hat. |
+| virtual [VisitHeaderFooterEnd](../../aspose.words/documentvisitor/visitheaderfooterend/)(*[HeaderFooter](../headerfooter/)*) | Wird aufgerufen, wenn die Aufzählung einer Kopf- oder Fußzeile in einem Abschnitt beendet wurde. |
+| virtual [VisitHeaderFooterStart](../../aspose.words/documentvisitor/visitheaderfooterstart/)(*[HeaderFooter](../headerfooter/)*) | Wird aufgerufen, wenn die Aufzählung einer Kopf- oder Fußzeile in einem Abschnitt begonnen hat. |
+| virtual [VisitOfficeMathEnd](../../aspose.words/documentvisitor/visitofficemathend/)(*[OfficeMath](../../aspose.words.math/officemath/)*) | Wird aufgerufen, wenn die Aufzählung eines Office Math-Objekts beendet wurde. |
+| virtual [VisitOfficeMathStart](../../aspose.words/documentvisitor/visitofficemathstart/)(*[OfficeMath](../../aspose.words.math/officemath/)*) | Wird aufgerufen, wenn die Aufzählung eines Office Math-Objekts gestartet wurde. |
+| virtual [VisitParagraphEnd](../../aspose.words/documentvisitor/visitparagraphend/)(*[Paragraph](../paragraph/)*) | Wird aufgerufen, wenn die Aufzählung eines Absatzes beendet wurde. |
+| virtual [VisitParagraphStart](../../aspose.words/documentvisitor/visitparagraphstart/)(*[Paragraph](../paragraph/)*) | Wird aufgerufen, wenn die Aufzählung eines Absatzes begonnen hat. |
+| virtual [VisitRowEnd](../../aspose.words/documentvisitor/visitrowend/)(*[Row](../../aspose.words.tables/row/)*) | Wird aufgerufen, wenn die Aufzählung einer Tabellenzeile beendet wurde. |
+| virtual [VisitRowStart](../../aspose.words/documentvisitor/visitrowstart/)(*[Row](../../aspose.words.tables/row/)*) | Wird aufgerufen, wenn die Aufzählung einer Tabellenzeile gestartet wurde. |
+| virtual [VisitRun](../../aspose.words/documentvisitor/visitrun/)(*[Run](../run/)*) | Wird aufgerufen, wenn eine Textzeile im gefunden wird. |
+| virtual [VisitSectionEnd](../../aspose.words/documentvisitor/visitsectionend/)(*[Section](../section/)*) | Wird aufgerufen, wenn die Aufzählung eines Abschnitts beendet wurde. |
+| virtual [VisitSectionStart](../../aspose.words/documentvisitor/visitsectionstart/)(*[Section](../section/)*) | Wird aufgerufen, wenn die Aufzählung eines Abschnitts begonnen hat. |
+| virtual [VisitShapeEnd](../../aspose.words/documentvisitor/visitshapeend/)(*[Shape](../../aspose.words.drawing/shape/)*) | Wird aufgerufen, wenn die Aufzählung einer Form beendet wurde. |
+| virtual [VisitShapeStart](../../aspose.words/documentvisitor/visitshapestart/)(*[Shape](../../aspose.words.drawing/shape/)*) | Wird aufgerufen, wenn die Aufzählung einer Form begonnen hat. |
+| virtual [VisitSmartTagEnd](../../aspose.words/documentvisitor/visitsmarttagend/)(*[SmartTag](../../aspose.words.markup/smarttag/)*) | Wird aufgerufen, wenn die Aufzählung eines Smarttags beendet wurde. |
+| virtual [VisitSmartTagStart](../../aspose.words/documentvisitor/visitsmarttagstart/)(*[SmartTag](../../aspose.words.markup/smarttag/)*) | Wird aufgerufen, wenn die Aufzählung eines Smarttags gestartet wurde. |
+| virtual [VisitSpecialChar](../../aspose.words/documentvisitor/visitspecialchar/)(*[SpecialChar](../specialchar/)*) | Wird aufgerufen, wenn a[`SpecialChar`](../specialchar/) Knoten wird im Dokument gefunden. |
+| virtual [VisitStructuredDocumentTagEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagend/)(*[StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/)*) | Wird aufgerufen, wenn die Aufzählung eines strukturierten Dokument-Tags beendet wurde. |
+| virtual [VisitStructuredDocumentTagRangeEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagrangeend/)(*[StructuredDocumentTagRangeEnd](../../aspose.words.markup/structureddocumenttagrangeend/)*) | Wird aufgerufen, wenn ein StructuredDocumentTagRangeEnd gefunden wird. |
+| virtual [VisitStructuredDocumentTagRangeStart](../../aspose.words/documentvisitor/visitstructureddocumenttagrangestart/)(*[StructuredDocumentTagRangeStart](../../aspose.words.markup/structureddocumenttagrangestart/)*) | Wird aufgerufen, wenn ein StructuredDocumentTagRangeStart gefunden wird. |
+| virtual [VisitStructuredDocumentTagStart](../../aspose.words/documentvisitor/visitstructureddocumenttagstart/)(*[StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/)*) | Wird aufgerufen, wenn die Aufzählung eines strukturierten Dokument-Tags begonnen hat. |
+| virtual [VisitSubDocument](../../aspose.words/documentvisitor/visitsubdocument/)(*[SubDocument](../subdocument/)*) | Wird aufgerufen, wenn ein Unterdokument gefunden wird. |
+| virtual [VisitTableEnd](../../aspose.words/documentvisitor/visittableend/)(*[Table](../../aspose.words.tables/table/)*) | Wird aufgerufen, wenn die Aufzählung einer Tabelle beendet wurde. |
+| virtual [VisitTableStart](../../aspose.words/documentvisitor/visittablestart/)(*[Table](../../aspose.words.tables/table/)*) | Wird aufgerufen, wenn die Aufzählung einer Tabelle gestartet wurde. |
 
-### Bemerkungen
+## Bemerkungen
 
 Mit`DocumentVisitor` Sie können benutzerdefinierte Vorgänge definieren und ausführen, die eine Aufzählung über den Dokumentbaum erfordern.
 
@@ -87,7 +89,7 @@ Benutzen`DocumentVisitor`:
 
 Weitere Informationen finden Sie im Besucherentwurfsmuster.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokumentbesucher zum Drucken der Knotenstruktur eines Dokuments verwendet wird.
 
@@ -257,5 +259,3 @@ public class DocStructurePrinter : DocumentVisitor
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

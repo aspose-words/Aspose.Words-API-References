@@ -1,7 +1,9 @@
 ---
 title: Table.VerticalAnchor
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取计算浮动台垂直位置的基础对象 默认值为Margin.
+linktitle: VerticalAnchor
+articleTitle: VerticalAnchor
+second_title: 用于 .NET 的 Aspose.Words
+description: Table VerticalAnchor 财产. 获取计算浮动台垂直位置的基础对象 默认值为Margin 在 C#.
 type: docs
 weight: 340
 url: /zh/net/aspose.words.tables/table/verticalanchor/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/table/verticalanchor/
 public RelativeVerticalPosition VerticalAnchor { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用浮动表属性。
 
@@ -43,7 +45,5 @@ if (table.TextWrapping == TextWrapping.Around)
 
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum EmphasisMark
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.EmphasisMark перечисление. Указывает возможные типы знаков акцента.
+title: EmphasisMark Enum
+linktitle: EmphasisMark
+articleTitle: EmphasisMark
+second_title: Aspose.Words для .NET
+description: Aspose.Words.EmphasisMark перечисление. Указывает возможные типы знаков акцента на С#.
 type: docs
 weight: 1460
 url: /ru/net/aspose.words/emphasismark/
@@ -24,7 +26,7 @@ public enum EmphasisMark
 | OverWhiteCircle | `3` | Знак выделения — это пустой белый кружок, отображаемый над текстом. |
 | UnderSolidCircle | `4` | Знак выделения представляет собой сплошной черный круг, отображаемый под текстом. |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить дополнительный символ, отображаемый выше/ниже символа-глифа.
 
@@ -47,5 +49,3 @@ builder.Document.Save(ArtifactsDir + "Fonts.SetEmphasisMark.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

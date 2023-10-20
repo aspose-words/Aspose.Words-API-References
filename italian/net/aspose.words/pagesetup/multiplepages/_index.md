@@ -1,7 +1,9 @@
 ---
 title: PageSetup.MultiplePages
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Per documenti di più pagine ottiene o imposta la modalità di stampa o rendering di un documento in modo che possa essere rilegato come un opuscolo.
+linktitle: MultiplePages
+articleTitle: MultiplePages
+second_title: Aspose.Words per .NET
+description: PageSetup MultiplePages proprietà. Per documenti di più pagine ottiene o imposta la modalità di stampa o rendering di un documento in modo che possa essere rilegato come un opuscolo in C#.
 type: docs
 weight: 270
 url: /it/net/aspose.words/pagesetup/multiplepages/
@@ -14,7 +16,7 @@ Per documenti di più pagine, ottiene o imposta la modalità di stampa o renderi
 public MultiplePagesType MultiplePages { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come configurare un documento che può essere stampato come piega a libro.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 
 * enum [MultiplePagesType](../../../aspose.words.settings/multiplepagestype/)
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

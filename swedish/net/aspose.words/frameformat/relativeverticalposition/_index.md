@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.RelativeVerticalPosition
-second_title: Aspose.Words för .NET API Referens
-description: FrameFormat fast egendom. Får den relativa vertikala positionen för en ram.
+linktitle: RelativeVerticalPosition
+articleTitle: RelativeVerticalPosition
+second_title: Aspose.Words för .NET
+description: FrameFormat RelativeVerticalPosition fast egendom. Får den relativa vertikala positionen för en ram i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/frameformat/relativeverticalposition/
@@ -14,7 +16,7 @@ Får den relativa vertikala positionen för en ram.
 public RelativeVerticalPosition RelativeVerticalPosition { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får information om formateringsegenskaper för stycken som är ramar.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * class [FrameFormat](../)
-* namnutrymme [Aspose.Words](../../frameformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PreserveLineBreaks
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToc eigendom. Ruft ab oder legt fest ob Zeilenumbrüche in Tabelleneinträgen beibehalten werden sollen.
+linktitle: PreserveLineBreaks
+articleTitle: PreserveLineBreaks
+second_title: Aspose.Words für .NET
+description: FieldToc PreserveLineBreaks eigendom. Ruft ab oder legt fest ob Zeilenumbrüche in Tabelleneinträgen beibehalten werden sollen in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.fields/fieldtoc/preservelinebreaks/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob Zeilenumbrüche in Tabelleneinträgen beibehalten wer
 public bool PreserveLineBreaks { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Inhaltsverzeichnis einfügt und es mit Einträgen füllt, die auf Überschriftenstilen basieren.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Siehe auch
 
 * class [FieldToc](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

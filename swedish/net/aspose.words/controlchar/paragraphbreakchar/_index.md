@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ParagraphBreakChar
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Slut på stycket tecken char13 eller r.
+linktitle: ParagraphBreakChar
+articleTitle: ParagraphBreakChar
+second_title: Aspose.Words för .NET
+description: ControlChar ParagraphBreakChar fält. Slut på stycket tecken char13 eller r i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words/controlchar/paragraphbreakchar/
@@ -14,7 +16,7 @@ Slut på stycket tecken: (char)13 eller "\r".
 public const char ParagraphBreakChar;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

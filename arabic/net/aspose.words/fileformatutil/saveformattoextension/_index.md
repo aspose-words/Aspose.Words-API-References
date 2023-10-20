@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.SaveFormatToExtension
-second_title: Aspose.Words لمراجع .NET API
-description: FileFormatUtil طريقة. تحويل قيمة تعداد تنسيق الحفظ إلى امتداد الملف. الامتداد الذي تم إرجاعه عبارة عن سلسلة صغيرة ذات نقطة بادئة.
+linktitle: SaveFormatToExtension
+articleTitle: SaveFormatToExtension
+second_title: Aspose.Words لـ .NET
+description: FileFormatUtil SaveFormatToExtension طريقة. تحويل قيمة تعداد تنسيق الحفظ إلى امتداد الملف. الامتداد الذي تم إرجاعه عبارة عن سلسلة صغيرة ذات نقطة بادئة في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/fileformatutil/saveformattoextension/
@@ -20,13 +22,13 @@ public static string SaveFormatToExtension(SaveFormat saveFormat)
 | --- | --- |
 | ArgumentException | يرمي عندما لا يمكن تحويل. |
 
-### ملاحظات
+## ملاحظات
 
 الWordML يتم تحويل القيمة إلى ".wml".
 
 الFlatOpc يتم تحويل القيمة إلى ".fopc".
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أساليب FileFormatUtil للكشف عن تنسيق المستند.
 
@@ -60,7 +62,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* مساحة الاسم [Aspose.Words](../../fileformatutil/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

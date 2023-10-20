@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.PageNumber
-second_title: Aspose.Words for .NET API 参考
-description: FieldCitation 财产. 获取或设置与引文关联的页码
+linktitle: PageNumber
+articleTitle: PageNumber
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldCitation PageNumber 财产. 获取或设置与引文关联的页码 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldcitation/pagenumber/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldcitation/pagenumber/
 public string PageNumber { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### 也可以看看
 
 * class [FieldCitation](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldcitation/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

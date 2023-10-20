@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.IsComposite
-second_title: Aspose.Words for .NET API 参考
-description: CompositeNode 财产. 返回真的因为该节点可以有子节点
+linktitle: IsComposite
+articleTitle: IsComposite
+second_title: 用于 .NET 的 Aspose.Words
+description: CompositeNode IsComposite 财产. 返回真的因为该节点可以有子节点 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/compositenode/iscomposite/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/compositenode/iscomposite/
 public override bool IsComposite { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何遍历复合节点的子节点树。
 
@@ -61,7 +63,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### 也可以看看
 
 * class [CompositeNode](../)
-* 命名空间 [Aspose.Words](../../compositenode/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

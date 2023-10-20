@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineSpacing
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取或设置段落的行距以磅为单位
+linktitle: LineSpacing
+articleTitle: LineSpacing
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat LineSpacing 财产. 获取或设置段落的行距以磅为单位 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words/paragraphformat/linespacing/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/paragraphformat/linespacing/
 public double LineSpacing { get; set; }
 ```
 
-### 评论
+## 评论
 
 什么时候[`LineSpacingRule`](../linespacingrule/)属性设置为AtLeast，行间距可以大于或等于, ，但绝不能小于指定值`LineSpacing`价值。
 
 什么时候[`LineSpacingRule`](../linespacingrule/)属性设置为Exactly，行间距从 指定的开始永远不会改变`LineSpacing`值，即使段落中使用了较大的字体。
 
-### 例子
+## 例子
 
 展示如何使用行间距。
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LineSpacing.docx");
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

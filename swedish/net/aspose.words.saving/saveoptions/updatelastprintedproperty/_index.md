@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateLastPrintedProperty
-second_title: Aspose.Words för .NET API Referens
-description: SaveOptions fast egendom. Hämtar eller ställer in ett värde som avgör omLastPrinted egenskapen uppdateras innan du sparar.
+linktitle: UpdateLastPrintedProperty
+articleTitle: UpdateLastPrintedProperty
+second_title: Aspose.Words för .NET
+description: SaveOptions UpdateLastPrintedProperty fast egendom. Hämtar eller ställer in ett värde som avgör omLastPrinted egenskapen uppdateras innan du sparar i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.saving/saveoptions/updatelastprintedproperty/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som avgör om[`LastPrinted`](../../../aspos
 public bool UpdateLastPrintedProperty { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du uppdaterar ett dokuments "CreatedTime"-egenskap när du sparar.
 
@@ -61,7 +63,5 @@ Assert.AreNotEqual(isUpdateLastPrintedProperty, new DateTime(2019, 12, 20) == do
 ### Se även
 
 * class [SaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../saveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.DocumentSplitHeadingLevel
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie le niveau maximum de titres auquel diviser le document. La valeur par défaut est2 .
+linktitle: DocumentSplitHeadingLevel
+articleTitle: DocumentSplitHeadingLevel
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions DocumentSplitHeadingLevel propriété. Spécifie le niveau maximum de titres auquel diviser le document. La valeur par défaut est2  en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/
@@ -14,13 +16,13 @@ Spécifie le niveau maximum de titres auquel diviser le document. La valeur par 
 public int DocumentSplitHeadingLevel { get; set; }
 ```
 
-### Remarques
+## Remarques
 
-Quand[`DocumentSplitCriteria`](../documentsplitcriteria/) comprendHeadingParagraph et que cette propriété est définie sur une valeur comprise entre 1 et 9, le document sera divisé en paragraphes formatés à l'aide de  **Titre 1** , **Titre 2** , **Titre 3**etc. styles jusqu'au niveau de titre spécifié.
+Quand[`DocumentSplitCriteria`](../documentsplitcriteria/) comprendHeadingParagraph et que cette propriété est définie sur une valeur comprise entre 1 et 9, le document sera divisé en paragraphes formatés à l'aide de **Titre 1** ,**Titre 2** ,**Titre 3**etc. styles jusqu'au niveau de titre spécifié.
 
-Par défaut, seulement **Titre 1** et **Titre 2** Les paragraphes entraînent la division du document. Si cette propriété est définie sur zéro, le document ne sera pas du tout divisé en paragraphes d'en-tête.
+Par défaut, seulement**Titre 1** et**Titre 2** Les paragraphes entraînent la division du document. Si cette propriété est définie sur zéro, le document ne sera pas du tout divisé en paragraphes d'en-tête.
 
-### Exemples
+## Exemples
 
 Montre comment diviser un document HTML de sortie par titres en plusieurs parties.
 
@@ -82,7 +84,5 @@ Assert.AreEqual("Heading #5\r" +
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

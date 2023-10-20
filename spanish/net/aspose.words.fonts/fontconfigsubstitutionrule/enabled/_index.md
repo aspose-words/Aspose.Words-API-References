@@ -1,7 +1,9 @@
 ---
 title: FontConfigSubstitutionRule.Enabled
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontConfigSubstitutionRule propiedad. Especifica si la regla está habilitada o no.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words para .NET
+description: FontConfigSubstitutionRule Enabled propiedad. Especifica si la regla está habilitada o no en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fonts/fontconfigsubstitutionrule/enabled/
@@ -14,7 +16,7 @@ Especifica si la regla está habilitada o no.
 public override bool Enabled { set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra la sustitución de configuración de fuentes dependiente del sistema operativo.
 
@@ -50,7 +52,5 @@ if (isLinuxOrMac)
 ### Ver también
 
 * class [FontConfigSubstitutionRule](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontconfigsubstitutionrule/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

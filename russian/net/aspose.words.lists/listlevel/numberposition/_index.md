@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberPosition
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevel свойство. Возвращает или задает позицию в пунктах номера или маркера для уровня списка.
+linktitle: NumberPosition
+articleTitle: NumberPosition
+second_title: Aspose.Words для .NET
+description: ListLevel NumberPosition свойство. Возвращает или задает позицию в пунктах номера или маркера для уровня списка на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.lists/listlevel/numberposition/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/listlevel/numberposition/
 public double NumberPosition { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 `NumberPosition` соответствует LeftIndent плюс FirstLineIndent абзаца.
 
-### Примеры
+## Примеры
 
 Показывает, как применить пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Смотрите также
 
 * class [ListLevel](../)
-* пространство имен [Aspose.Words.Lists](../../listlevel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

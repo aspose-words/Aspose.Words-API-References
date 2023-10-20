@@ -1,7 +1,9 @@
 ---
 title: ImageData.BiLevel
-second_title: Aspose.Words for .NET API 参考
-description: ImageData 财产. 确定图像是否以黑白显示
+linktitle: BiLevel
+articleTitle: BiLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageData BiLevel 财产. 确定图像是否以黑白显示 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing/imagedata/bilevel/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/imagedata/bilevel/
 public bool BiLevel { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`。
 
-### 例子
+## 例子
 
 演示如何编辑形状的图像数据。
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### 也可以看看
 
 * class [ImageData](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagedata/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

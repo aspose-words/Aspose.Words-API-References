@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LastSavedBy
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. الحصول على اسم المؤلف الأخير أو تعيينه.
+linktitle: LastSavedBy
+articleTitle: LastSavedBy
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties LastSavedBy ملكية. الحصول على اسم المؤلف الأخير أو تعيينه في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.properties/builtindocumentproperties/lastsavedby/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/lastsavedby/
 public string LastSavedBy { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يقوم Aspose.Words بتحديث هذه الخاصية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند في فئة "الأصل".
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

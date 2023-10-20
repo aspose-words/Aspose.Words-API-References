@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateFields
-second_title: Справочник по API Aspose.Words для .NET
-description: Document метод. Обновляет значения полей во всем документе.
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: Aspose.Words для .NET
+description: Document UpdateFields метод. Обновляет значения полей во всем документе на С#.
 type: docs
-weight: 770
+weight: 750
 url: /ru/net/aspose.words/document/updatefields/
 ---
 ## Document.UpdateFields method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/updatefields/
 public void UpdateFields()
 ```
 
-### Примечания
+## Примечания
 
 Когда вы открываете, изменяете и затем сохраняете документ, Aspose.Words не обновляет поля автоматически, он сохраняет их нетронутыми. Поэтому обычно вам нужно вызвать этот метод перед сохранением, если вы изменили document программно и хотите убедиться, что правильные (вычисленные) значения полей появятся в сохраненном документе.
 
@@ -28,7 +30,7 @@ public void UpdateFields()
 
 Чтобы обновить поля в определенной части документа, используйте[`UpdateFields`](../../range/updatefields/).
 
-### Примеры
+## Примеры
 
 Показывает использование поля ЦИТАТЫ.
 
@@ -146,7 +148,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ### Смотрите также
 
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

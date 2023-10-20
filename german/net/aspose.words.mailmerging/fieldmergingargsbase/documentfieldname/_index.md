@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.DocumentFieldName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergingArgsBase eigendom. Ruft den Namen des Briefvorlagenfelds ab wie im Dokument angegeben.
+linktitle: DocumentFieldName
+articleTitle: DocumentFieldName
+second_title: Aspose.Words für .NET
+description: FieldMergingArgsBase DocumentFieldName eigendom. Ruft den Namen des Briefvorlagenfelds ab wie im Dokument angegeben in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
@@ -14,13 +16,13 @@ Ruft den Namen des Briefvorlagenfelds ab, wie im Dokument angegeben.
 public string DocumentFieldName { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Sie eine Zuordnung von einem Dokumentfeldnamen zu einem anderen Datenquellenfeldnamen haben, , dann ist dies der ursprüngliche Feldname, wie er im Dokument angegeben ist.
 
 Wenn Sie im Dokument ein Feldnamenpräfix angegeben haben, zum Beispiel „Image:MyFieldName“, dann`DocumentFieldName` gibt den Feldnamen ohne Präfix zurück, also „MyFieldName“.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit einem benutzerdefinierten Rückruf ausgeführt wird, der Seriendaten in Form von HTML-Dokumenten verarbeitet.
 
@@ -88,7 +90,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 ### Siehe auch
 
 * class [FieldMergingArgsBase](../)
-* namensraum [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.CellSpacing
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط بين الخلايا.
+linktitle: CellSpacing
+articleTitle: CellSpacing
+second_title: Aspose.Words لـ .NET
+description: Table CellSpacing ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط بين الخلايا في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.tables/table/cellspacing/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/cellspacing/
 public double CellSpacing { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين التباعد بين الخلايا الفردية في الجدول.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontInfo.AltName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontInfo propiedad. Obtiene o establece el nombre alternativo de la fuente.
+linktitle: AltName
+articleTitle: AltName
+second_title: Aspose.Words para .NET
+description: FontInfo AltName propiedad. Obtiene o establece el nombre alternativo de la fuente en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fonts/fontinfo/altname/
@@ -14,11 +16,11 @@ Obtiene o establece el nombre alternativo de la fuente.
 public string AltName { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 No puede ser`nulo`. Puede ser una cadena vacía.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder e imprimir detalles de cada fuente en un documento.
 
@@ -57,7 +59,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### Ver también
 
 * class [FontInfo](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontinfo/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

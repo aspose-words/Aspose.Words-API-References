@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Security
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. يحدد مستوى الأمان للمستند كقيمة رقمية.
+linktitle: Security
+articleTitle: Security
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties Security ملكية. يحدد مستوى الأمان للمستند كقيمة رقمية في C#.
 type: docs
 weight: 250
 url: /ar/net/aspose.words.properties/builtindocumentproperties/security/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/security/
 public DocumentSecurity Security { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 استخدم هذه الخاصية لأغراض إعلامية فقط لأن Microsoft Word لا يقوم دائمًا بتعيين هذه الخاصية. هذه الخاصية متاحة في مستندات DOC وOOXML فقط.
 
@@ -22,7 +24,7 @@ public DocumentSecurity Security { get; set; }
 
 يقوم Aspose.Words بتحديث هذه الخاصية إلى قيمة صحيحة قبل حفظ المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام خصائص المستند لعرض مستوى أمان المستند.
 
@@ -68,7 +70,5 @@ Assert.AreEqual(DocumentSecurity.ReadOnlyExceptAnnotations,
 
 * enum [DocumentSecurity](../../documentsecurity/)
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

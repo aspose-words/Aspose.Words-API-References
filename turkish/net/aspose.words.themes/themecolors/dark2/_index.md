@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Dark2
-second_title: Aspose.Words for .NET API Referansı
-description: ThemeColors mülk. Rengi belirtir Koyu 2.
+linktitle: Dark2
+articleTitle: Dark2
+second_title: Aspose.Words for .NET
+description: ThemeColors Dark2 mülk. Rengi belirtir Koyu 2 C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.themes/themecolors/dark2/
@@ -14,7 +16,7 @@ Rengi belirtir Koyu 2.
 public Color Dark2 { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını gösterir.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Ayrıca bakınız
 
 * class [ThemeColors](../)
-* ad alanı [Aspose.Words.Themes](../../themecolors/)
+* ad alanı [Aspose.Words.Themes](../../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../../)
-
-

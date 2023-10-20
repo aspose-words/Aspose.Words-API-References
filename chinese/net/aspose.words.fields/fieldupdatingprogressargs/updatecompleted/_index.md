@@ -1,7 +1,9 @@
 ---
 title: FieldUpdatingProgressArgs.UpdateCompleted
-second_title: Aspose.Words for .NET API 参考
-description: FieldUpdatingProgressArgs 财产. 获取字段更新是否完成的值
+linktitle: UpdateCompleted
+articleTitle: UpdateCompleted
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldUpdatingProgressArgs UpdateCompleted 财产. 获取字段更新是否完成的值 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldupdatingprogressargs/updatecompleted/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldupdatingprogressargs/updatecompleted/
 public bool UpdateCompleted { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在字段更新期间使用回调方法。
 
@@ -82,7 +84,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 ### 也可以看看
 
 * class [FieldUpdatingProgressArgs](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldupdatingprogressargs/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

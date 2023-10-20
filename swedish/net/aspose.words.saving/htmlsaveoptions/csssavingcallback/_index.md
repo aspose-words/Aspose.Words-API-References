@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssSavingCallback
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Gör det möjligt att styra hur CSSstilar sparas när ett dokument sparas i HTML MHTML eller EPUB.
+linktitle: CssSavingCallback
+articleTitle: CssSavingCallback
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions CssSavingCallback fast egendom. Gör det möjligt att styra hur CSSstilar sparas när ett dokument sparas i HTML MHTML eller EPUB i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/htmlsaveoptions/csssavingcallback/
@@ -14,7 +16,7 @@ Gör det möjligt att styra hur CSS-stilar sparas när ett dokument sparas i HTM
 public ICssSavingCallback CssSavingCallback { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CSS-formatmallar som en HTML-konvertering skapar.
 
@@ -76,7 +78,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * interface [ICssSavingCallback](../../icsssavingcallback/)
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

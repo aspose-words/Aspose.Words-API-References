@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.Connection
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDatabase ملكية. الحصول على اتصال بالبيانات أو تعيينه.
+linktitle: Connection
+articleTitle: Connection
+second_title: Aspose.Words لـ .NET
+description: FieldDatabase Connection ملكية. الحصول على اتصال بالبيانات أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fielddatabase/connection/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddatabase/connection/
 public string Connection { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج البيانات من قاعدة البيانات وإدراجها كحقل في المستند.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### أنظر أيضا
 
 * class [FieldDatabase](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddatabase/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

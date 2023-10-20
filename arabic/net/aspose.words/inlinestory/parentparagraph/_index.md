@@ -1,7 +1,9 @@
 ---
 title: InlineStory.ParentParagraph
-second_title: Aspose.Words لمراجع .NET API
-description: InlineStory ملكية. يسترد الأصلParagraph من هذه العقدة.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words لـ .NET
+description: InlineStory ParentParagraph ملكية. يسترد الأصلParagraph من هذه العقدة في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/inlinestory/parentparagraph/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/inlinestory/parentparagraph/
 public Paragraph ParentParagraph { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج عقد InlineStory.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* مساحة الاسم [Aspose.Words](../../inlinestory/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HorizontalAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: FrameFormat mülk. Belirtilen çerçevenin yatay hizalamasını alır.
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: Aspose.Words for .NET
+description: FrameFormat HorizontalAlignment mülk. Belirtilen çerçevenin yatay hizalamasını alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/frameformat/horizontalalignment/
@@ -14,7 +16,7 @@ Belirtilen çerçevenin yatay hizalamasını alır.
 public HorizontalAlignment HorizontalAlignment { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [FrameFormat](../)
-* ad alanı [Aspose.Words](../../frameformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartMultilevelValue.Level1
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartMultilevelValue свойство. Получает имя верхнего уровня диаграммы к которому относится это значение.
+linktitle: Level1
+articleTitle: Level1
+second_title: Aspose.Words для .NET
+description: ChartMultilevelValue Level1 свойство. Получает имя верхнего уровня диаграммы к которому относится это значение на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartmultilevelvalue/level1/
@@ -17,7 +19,5 @@ public string Level1 { get; }
 ### Смотрите также
 
 * class [ChartMultilevelValue](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartmultilevelvalue/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

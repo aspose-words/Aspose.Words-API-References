@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.Description
-second_title: Referencia de API de Aspose.Words para .NET
-description: WarningInfo propiedad. Devuelve la descripción de la advertencia.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words para .NET
+description: WarningInfo Description propiedad. Devuelve la descripción de la advertencia en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/warninginfo/description/
@@ -14,7 +16,7 @@ Devuelve la descripción de la advertencia.
 public string Description { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la propiedad para encontrar la coincidencia más cercana para una fuente faltante entre las fuentes de fuentes disponibles.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Ver también
 
 * class [WarningInfo](../)
-* espacio de nombres [Aspose.Words](../../warninginfo/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

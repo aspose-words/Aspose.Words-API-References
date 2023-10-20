@@ -1,7 +1,9 @@
 ---
 title: RevisionGroup.RevisionType
-second_title: Aspose.Words för .NET API Referens
-description: RevisionGroup fast egendom. Hämtar typen av revisioner som ingår i denna grupp.
+linktitle: RevisionType
+articleTitle: RevisionType
+second_title: Aspose.Words för .NET
+description: RevisionGroup RevisionType fast egendom. Hämtar typen av revisioner som ingår i denna grupp i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/revisiongroup/revisiontype/
@@ -14,7 +16,7 @@ Hämtar typen av revisioner som ingår i denna grupp.
 public RevisionType RevisionType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut information om en grupp revisioner i ett dokument.
 
@@ -34,7 +36,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 
 * enum [RevisionType](../../revisiontype/)
 * class [RevisionGroup](../)
-* namnutrymme [Aspose.Words](../../revisiongroup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.RegionEndTag
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge propiedad. Obtiene o establece una etiqueta final de región de combinación de correspondencia.
+linktitle: RegionEndTag
+articleTitle: RegionEndTag
+second_title: Aspose.Words para .NET
+description: MailMerge RegionEndTag propiedad. Obtiene o establece una etiqueta final de región de combinación de correspondencia en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.mailmerging/mailmerge/regionendtag/
@@ -14,7 +16,7 @@ Obtiene o establece una etiqueta final de región de combinación de corresponde
 public string RegionEndTag { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear, enumerar y leer regiones de combinación de correspondencia.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Ver también
 
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

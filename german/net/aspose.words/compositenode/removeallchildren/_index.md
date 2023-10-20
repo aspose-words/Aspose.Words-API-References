@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.RemoveAllChildren
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompositeNode methode. Entfernt alle untergeordneten Knoten des aktuellen Knotens.
+linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
+second_title: Aspose.Words für .NET
+description: CompositeNode RemoveAllChildren methode. Entfernt alle untergeordneten Knoten des aktuellen Knotens in C#.
 type: docs
-weight: 180
+weight: 160
 url: /de/net/aspose.words/compositenode/removeallchildren/
 ---
 ## CompositeNode.RemoveAllChildren method
@@ -14,7 +16,7 @@ Entfernt alle untergeordneten Knoten des aktuellen Knotens.
 public void RemoveAllChildren()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Aspose.Words-Dokument manuell erstellt.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Siehe auch
 
 * class [CompositeNode](../)
-* namensraum [Aspose.Words](../../compositenode/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

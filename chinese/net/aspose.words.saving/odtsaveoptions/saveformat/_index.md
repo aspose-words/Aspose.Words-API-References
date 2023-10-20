@@ -1,7 +1,9 @@
 ---
 title: OdtSaveOptions.SaveFormat
-second_title: Aspose.Words for .NET API 参考
-description: OdtSaveOptions 财产. 指定使用此保存选项对象时保存文档的格式 可以Odt或者Ott.
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: OdtSaveOptions SaveFormat 财产. 指定使用此保存选项对象时保存文档的格式 可以Odt或者Ott 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/odtsaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/odtsaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用密码加密保存的 ODT/OTT 文档，然后使用 Aspose.Words 加载它。
 
@@ -50,7 +52,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [OdtSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../odtsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

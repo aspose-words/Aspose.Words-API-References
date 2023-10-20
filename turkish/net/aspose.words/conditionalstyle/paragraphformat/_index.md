@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.ParagraphFormat
-second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyle mülk. Koşullu stilin paragraf formatını alır.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words for .NET
+description: ConditionalStyle ParagraphFormat mülk. Koşullu stilin paragraf formatını alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/conditionalstyle/paragraphformat/
@@ -14,7 +16,7 @@ Koşullu stilin paragraf formatını alır.
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [ConditionalStyle](../)
-* ad alanı [Aspose.Words](../../conditionalstyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.AllowNegativeIndent
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger om negativa vänster och högerindrag i stycken normaliseras när du sparar till HTML MHTML eller EPUB. Standardvärdet ärfalsk .
+linktitle: AllowNegativeIndent
+articleTitle: AllowNegativeIndent
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions AllowNegativeIndent fast egendom. Anger om negativa vänster och högerindrag i stycken normaliseras när du sparar till HTML MHTML eller EPUB. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
@@ -14,11 +16,11 @@ Anger om negativa vänster- och högerindrag i stycken normaliseras när du spar
 public bool AllowNegativeIndent { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När negativ indrag inte är tillåten exporteras den som nollmarginal till HTML. När negativ indrag tillåts kan ett stycke visas delvis utanför webbläsarfönstret .
 
-### Exempel
+## Exempel
 
 Visar hur man bevarar negativa indrag i utdata .html.
 
@@ -80,7 +82,5 @@ else
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

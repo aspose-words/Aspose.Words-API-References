@@ -1,7 +1,9 @@
 ---
-title: Class ConditionalStyle
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.ConditionalStyle klass. Representerar speciell formatering som tillämpas på någon del av en tabell med tilldelad tabellstil.
+title: ConditionalStyle Class
+linktitle: ConditionalStyle
+articleTitle: ConditionalStyle
+second_title: Aspose.Words för .NET
+description: Aspose.Words.ConditionalStyle klass. Representerar speciell formatering som tillämpas på någon del av en tabell med tilldelad tabellstil i C#.
 type: docs
 weight: 310
 url: /sv/net/aspose.words/conditionalstyle/
@@ -35,10 +37,10 @@ public sealed class ConditionalStyle
 | namn | Beskrivning |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting/)() | Rensar formateringen av denna villkorliga stil. |
-| override [Equals](../../aspose.words/conditionalstyle/equals/)(object) | Jämför denna villkorliga stil med det angivna objektet. |
+| override [Equals](../../aspose.words/conditionalstyle/equals/)(*object*) | Jämför denna villkorliga stil med det angivna objektet. |
 | override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | Beräknar hashkod för detta objekt. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med vissa områdesstilar i en tabell.
 
@@ -109,5 +111,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

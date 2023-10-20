@@ -1,7 +1,9 @@
 ---
 title: ComparisonEvaluationResult.Result
-second_title: Referencia de API de Aspose.Words para .NET
-description: ComparisonEvaluationResult propiedad. Obtiene el resultado de la evaluación de comparación.
+linktitle: Result
+articleTitle: Result
+second_title: Aspose.Words para .NET
+description: ComparisonEvaluationResult Result propiedad. Obtiene el resultado de la evaluación de comparación en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/comparisonevaluationresult/result/
@@ -17,7 +19,5 @@ public bool Result { get; }
 ### Ver también
 
 * class [ComparisonEvaluationResult](../)
-* espacio de nombres [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldPrintDate.UseUmAlQuraCalendar
-second_title: Aspose.Words per .NET API Reference
-description: FieldPrintDate proprietà. Ottiene o imposta se utilizzare il calendario UmalQura.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words per .NET
+description: FieldPrintDate UseUmAlQuraCalendar proprietà. Ottiene o imposta se utilizzare il calendario UmalQura in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldprintdate/useumalquracalendar/
@@ -14,7 +16,7 @@ Ottiene o imposta se utilizzare il calendario Um-al-Qura.
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra i campi PRINTDATE letti.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### Guarda anche
 
 * class [FieldPrintDate](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldprintdate/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

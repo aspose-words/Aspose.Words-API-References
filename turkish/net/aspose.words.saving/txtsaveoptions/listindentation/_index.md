@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.ListIndentation
-second_title: Aspose.Words for .NET API Referansı
-description: TxtSaveOptions mülk. Bir alırTxtListIndentation liste seviyelerinin girintisi için kaç karakterin ve hangi karakterin kullanılacağını belirten nesne. Varsayılan olarak 0 karakterinin sayısı sıfırdır bu da girinti olmadığı anlamına gelir.
+linktitle: ListIndentation
+articleTitle: ListIndentation
+second_title: Aspose.Words for .NET
+description: TxtSaveOptions ListIndentation mülk. Bir alırTxtListIndentation liste seviyelerinin girintisi için kaç karakterin ve hangi karakterin kullanılacağını belirten nesne. Varsayılan olarak 0 karakterinin sayısı sıfırdır bu da girinti olmadığı anlamına gelir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/txtsaveoptions/listindentation/
@@ -14,7 +16,7 @@ Bir alır[`TxtListIndentation`](../../txtlistindentation/) liste seviyelerinin g
 public TxtListIndentation ListIndentation { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi düz metne kaydederken liste girintisinin nasıl yapılandırılacağını gösterir.
 
@@ -55,7 +57,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * class [TxtListIndentation](../../txtlistindentation/)
 * class [TxtSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../txtsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

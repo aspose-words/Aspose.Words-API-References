@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.ParentRegion
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeRegionInfo propiedad. Devuelve información de la región principal nula para la región de nivel superior.
+linktitle: ParentRegion
+articleTitle: ParentRegion
+second_title: Aspose.Words para .NET
+description: MailMergeRegionInfo ParentRegion propiedad. Devuelve información de la región principal nula para la región de nivel superior en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
@@ -14,7 +16,7 @@ Devuelve información de la región principal (nula para la región de nivel sup
 public MailMergeRegionInfo ParentRegion { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear, enumerar y leer regiones de combinación de correspondencia.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Ver también
 
 * class [MailMergeRegionInfo](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

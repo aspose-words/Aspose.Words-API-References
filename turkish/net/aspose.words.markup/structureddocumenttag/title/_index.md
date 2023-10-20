@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Title
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Bununla ilişkili kolay adı belirtir SDT . Olamazhükümsüz .
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag Title mülk. Bununla ilişkili kolay adı belirtirSDT . Olamazhükümsüz  C#'da.
 type: docs
 weight: 290
 url: /tr/net/aspose.words.markup/structureddocumenttag/title/
 ---
 ## StructuredDocumentTag.Title property
 
-Bununla ilişkili kolay adı belirtir **SDT** . Olamaz`hükümsüz` .
+Bununla ilişkili kolay adı belirtir**SDT** . Olamaz`hükümsüz` .
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düz metin kutusunda yapılandırılmış belge etiketinin nasıl oluşturulacağını ve görünümünün nasıl değiştirileceğini gösterir.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

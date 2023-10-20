@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontOther
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين خط السمة المستخدم للأحرف ذات رموز الأحرف من 128 إلى 255 في نظام الخطوط المطبق المرتبط بهذاFont الكائن.
+linktitle: ThemeFontOther
+articleTitle: ThemeFontOther
+second_title: Aspose.Words لـ .NET
+description: Font ThemeFontOther ملكية. الحصول على أو تعيين خط السمة المستخدم للأحرف ذات رموز الأحرف من 128 إلى 255 في نظام الخطوط المطبق المرتبط بهذاFont الكائن في C#.
 type: docs
 weight: 510
 url: /ar/net/aspose.words/font/themefontother/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/themefontother/
 public ThemeFont ThemeFontOther { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خطوط وألوان السمات.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

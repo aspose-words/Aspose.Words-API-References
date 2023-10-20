@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputFormat
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 返回或设置文本表单字段的文本格式
+linktitle: TextInputFormat
+articleTitle: TextInputFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField TextInputFormat 财产. 返回或设置文本表单字段的文本格式 在 C#.
 type: docs
 weight: 200
 url: /zh/net/aspose.words.fields/formfield/textinputformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/formfield/textinputformat/
 public string TextInputFormat { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果文本表单字段包含常规文本，则有效格式字符串为 ""、"UPPERCASE"、"LOWERCASE"、"FIRST CAPITAL" 和 "TITLE CASE"。 strings 不区分大小写。
 
@@ -22,7 +24,7 @@ public string TextInputFormat { get; set; }
 
 Microsoft Word 允许最多包含 64 个字符的字符串。
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.ProtectionType
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает текущий активный тип защиты документа.
+linktitle: ProtectionType
+articleTitle: ProtectionType
+second_title: Aspose.Words для .NET
+description: Document ProtectionType свойство. Получает текущий активный тип защиты документа на С#.
 type: docs
 weight: 330
 url: /ru/net/aspose.words/document/protectiontype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/protectiontype/
 public ProtectionType ProtectionType { get; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство позволяет получить текущий установленный тип защиты документа. Для изменения типа защиты документа используйте команду[`Protect`](../protect/) и[`Unprotect`](../unprotect/) методы.
 
@@ -22,7 +24,7 @@ public ProtectionType ProtectionType { get; }
 
 Обратите внимание, что защита документа отличается от защиты от записи. Защита от записи задается с помощью[`WriteProtection`](../writeprotection/)
 
-### Примеры
+## Примеры
 
 Показывает, как защитить и снять защиту документа.
 
@@ -68,7 +70,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

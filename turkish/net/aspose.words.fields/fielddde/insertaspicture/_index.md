@@ -1,7 +1,9 @@
 ---
 title: FieldDde.InsertAsPicture
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDde mülk. Bağlı nesnenin resim olarak eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertAsPicture
+articleTitle: InsertAsPicture
+second_title: Aspose.Words for .NET
+description: FieldDde InsertAsPicture mülk. Bağlı nesnenin resim olarak eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fielddde/insertaspicture/
@@ -14,7 +16,7 @@ Bağlı nesnenin resim olarak eklenip eklenmeyeceğini alır veya ayarlar.
 public bool InsertAsPicture { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntülemek için çeşitli alan türlerinin nasıl kullanılacağını gösterir.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ayrıca bakınız
 
 * class [FieldDde](../)
-* ad alanı [Aspose.Words.Fields](../../fielddde/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

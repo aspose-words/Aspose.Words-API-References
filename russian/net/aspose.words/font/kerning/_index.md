@@ -1,7 +1,9 @@
 ---
 title: Font.Kerning
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает размер шрифта с которого начинается кернинг.
+linktitle: Kerning
+articleTitle: Kerning
+second_title: Aspose.Words для .NET
+description: Font Kerning свойство. Получает или задает размер шрифта с которого начинается кернинг на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words/font/kerning/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/kerning/
 public double Kerning { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как указать размер шрифта, при котором кернинг начинает действовать.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.Kerning.docx");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

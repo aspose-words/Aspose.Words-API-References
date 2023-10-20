@@ -1,7 +1,9 @@
 ---
 title: FieldRef.NumberSeparator
-second_title: Aspose.Words for .NET API Referansı
-description: FieldRef mülk. Sıra numaralarını ve sayfa numaralarını ayırmak için kullanılan karakter sırasını alır veya ayarlar.
+linktitle: NumberSeparator
+articleTitle: NumberSeparator
+second_title: Aspose.Words for .NET
+description: FieldRef NumberSeparator mülk. Sıra numaralarını ve sayfa numaralarını ayırmak için kullanılan karakter sırasını alır veya ayarlar C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.fields/fieldref/numberseparator/
@@ -14,7 +16,7 @@ Sıra numaralarını ve sayfa numaralarını ayırmak için kullanılan karakter
 public string NumberSeparator { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Referans yer imlerine REF alanlarının nasıl ekleneceğini gösterir.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Ayrıca bakınız
 
 * class [FieldRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

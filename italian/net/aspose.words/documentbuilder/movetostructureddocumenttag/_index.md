@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToStructuredDocumentTag
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Sposta il cursore su un tag di documento strutturato nella sezione corrente.
+linktitle: MoveToStructuredDocumentTag
+articleTitle: MoveToStructuredDocumentTag
+second_title: Aspose.Words per .NET
+description: DocumentBuilder MoveToStructuredDocumentTag metodo. Sposta il cursore su un tag di documento strutturato nella sezione corrente in C#.
 type: docs
-weight: 590
+weight: 580
 url: /it/net/aspose.words/documentbuilder/movetostructureddocumenttag/
 ---
-## MoveToStructuredDocumentTag(int, int) {#movetostructureddocumenttag_1}
+## MoveToStructuredDocumentTag(*int, int*) {#movetostructureddocumenttag_1}
 
 Sposta il cursore su un tag di documento strutturato nella sezione corrente.
 
@@ -19,13 +21,13 @@ public void MoveToStructuredDocumentTag(int structuredDocumentTagIndex, int char
 | structuredDocumentTagIndex | Int32 | L'indice del tag del documento strutturato a cui spostarsi. |
 | characterIndex | Int32 | L'indice del carattere all'interno del tag del documento strutturato. Un valore negativo consente di specificare una posizione dalla fine del tag del documento strutturato. Utilizza -1 to per spostarti alla fine del tag del documento strutturato. Se il tag del documento strutturato è a livello di blocco e vuoi spostare il cursore alla fine del suo ultimo paragrafo, specifica -2. |
 
-### Osservazioni
+## Osservazioni
 
 La navigazione viene effettuata all'interno della storia corrente della sezione corrente. Cioè, se hai spostato il cursore sull'intestazione principale della prima sezione, allora*structuredDocumentTagIndex* ha specificato l'indice del tag del documento strutturato all'interno dell'intestazione di quella sezione.
 
 Quando*structuredDocumentTagIndex* è maggiore o uguale a 0, specifica un indice dall'inizio della sezione dove 0 è il primo tag del documento strutturato. Quando *structuredDocumentTagIndex* è inferiore a 0, ha specificato un indice dalla fine della sezione dove -1 è l'ultimo tag del documento strutturato.
 
-### Esempi
+## Esempi
 
 Mostra come spostare il cursore di DocumentBuilder all'interno di un tag di documento strutturato.
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 ### Guarda anche
 
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## MoveToStructuredDocumentTag(StructuredDocumentTag, int) {#movetostructureddocumenttag}
+## MoveToStructuredDocumentTag(*[StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/), int*) {#movetostructureddocumenttag}
 
 Sposta il cursore sul tag del documento strutturato.
 
@@ -76,7 +78,7 @@ public void MoveToStructuredDocumentTag(StructuredDocumentTag structuredDocument
 | structuredDocumentTag | StructuredDocumentTag | Il tag del documento strutturato in cui spostarsi. |
 | characterIndex | Int32 | L'indice del carattere all'interno del tag del documento strutturato. Un valore negativo consente di specificare una posizione dalla fine del tag del documento strutturato. Utilizza -1 to per spostarti alla fine del tag del documento strutturato. Se il tag del documento strutturato è a livello di blocco e vuoi spostare il cursore alla fine del suo ultimo paragrafo, specifica -2. |
 
-### Esempi
+## Esempi
 
 Mostra come spostare il cursore di DocumentBuilder all'interno di un tag di documento strutturato.
 
@@ -109,7 +111,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

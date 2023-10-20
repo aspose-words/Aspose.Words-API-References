@@ -1,9 +1,11 @@
 ---
 title: CellFormat.HorizontalMerge
-second_title: Aspose.Words für .NET-API-Referenz
-description: CellFormat eigendom. Gibt an wie die Zelle horizontal mit anderen Zellen in der Zeile zusammengeführt wird.
+linktitle: HorizontalMerge
+articleTitle: HorizontalMerge
+second_title: Aspose.Words für .NET
+description: CellFormat HorizontalMerge eigendom. Gibt an wie die Zelle horizontal mit anderen Zellen in der Zeile zusammengeführt wird in C#.
 type: docs
-weight: 50
+weight: 40
 url: /de/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
@@ -14,7 +16,7 @@ Gibt an, wie die Zelle horizontal mit anderen Zellen in der Zeile zusammengefüh
 public CellMerge HorizontalMerge { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Tabellenzellen horizontal zusammengeführt werden.
 
@@ -80,7 +82,5 @@ public string PrintCellMergeType(Cell cell)
 * property [VerticalMerge](../verticalmerge/)
 * enum [CellMerge](../../cellmerge/)
 * class [CellFormat](../)
-* namensraum [Aspose.Words.Tables](../../cellformat/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

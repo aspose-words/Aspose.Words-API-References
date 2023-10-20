@@ -1,7 +1,9 @@
 ---
-title: Enum BreakType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.BreakType Sıralama. Belge içindeki kopuşun türünü belirtir.
+title: BreakType Enum
+linktitle: BreakType
+articleTitle: BreakType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.BreakType Sıralama. Belge içindeki kopuşun türünü belirtir C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/breaktype/
@@ -28,7 +30,7 @@ public enum BreakType
 | SectionBreakOddPage | `7` | Tek sayfada yeni bölümün başlangıcını belirtir. |
 | LineBreak | `8` | Açık satır sonu. |
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder'ı kullanarak bir belgede üstbilgilerin ve altbilgilerin nasıl oluşturulacağını gösterir.
 
@@ -138,5 +140,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Theme.Theme
-second_title: Aspose.Words لمراجع .NET API
-description: Theme البناء. Default_Constructor
+title: Theme
+linktitle: Theme
+articleTitle: Theme
+second_title: Aspose.Words لـ .NET
+description: Theme البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.themes/theme/theme/
@@ -17,7 +19,5 @@ public Theme()
 ### أنظر أيضا
 
 * class [Theme](../)
-* مساحة الاسم [Aspose.Words.Themes](../../theme/)
+* مساحة الاسم [Aspose.Words.Themes](../../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../../)
-
-

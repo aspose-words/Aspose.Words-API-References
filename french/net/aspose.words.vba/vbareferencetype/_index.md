@@ -1,7 +1,9 @@
 ---
-title: Enum VbaReferenceType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Vba.VbaReferenceType énumération. Permet de préciser le type dunVbaReference objet.
+title: VbaReferenceType Enum
+linktitle: VbaReferenceType
+articleTitle: VbaReferenceType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Vba.VbaReferenceType énumération. Permet de préciser le type dunVbaReference objet en C#.
 type: docs
 weight: 6610
 url: /fr/net/aspose.words.vba/vbareferencetype/
@@ -23,7 +25,7 @@ public enum VbaReferenceType
 | Original | `51` | Spécifie un type de référence de bibliothèque de types d'automatisation d'origine. |
 | Control | `47` | Spécifie un type de référence de bibliothèque de types twiddled. |
 
-### Exemples
+## Exemples
 
 Montre comment obtenir/supprimer un élément de la collection de référence VBA.
 
@@ -98,5 +100,3 @@ private static string GetLibIdProjectPath(string libIdProject)
 
 * espace de noms [Aspose.Words.Vba](../../aspose.words.vba/)
 * Assemblée [Aspose.Words](../../)
-
-

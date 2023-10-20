@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertField
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将 Word 字段插入文档并可选择更新字段结果
+linktitle: InsertField
+articleTitle: InsertField
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertField 方法. 将 Word 字段插入文档并可选择更新字段结果 在 C#.
 type: docs
-weight: 330
+weight: 320
 url: /zh/net/aspose.words/documentbuilder/insertfield/
 ---
-## InsertField(FieldType, bool) {#insertfield}
+## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#insertfield}
 
 将 Word 字段插入文档并可选择更新字段结果。
 
@@ -23,11 +25,11 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 A[`Field`](../../../aspose.words.fields/field/)代表插入字段的对象。
 
-### 评论
+## 评论
 
 此方法将字段插入到文档中。 Aspose.Words 可以更新大多数类型的字段，但不是全部。欲了解更多详情，请参阅 `InsertField`超载。
 
-### 例子
+## 例子
 
 演示如何使用 FieldType 将字段插入到文档中。
 
@@ -74,12 +76,12 @@ else
 * class [Field](../../../aspose.words.fields/field/)
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string) {#insertfield_1}
+## InsertField(*string*) {#insertfield_1}
 
 将 Word 字段插入文档并更新字段结果。
 
@@ -95,11 +97,11 @@ public Field InsertField(string fieldCode)
 
 A[`Field`](../../../aspose.words.fields/field/)代表插入字段的对象。
 
-### 评论
+## 评论
 
 此方法将字段插入到文档中并立即更新字段结果。 Aspose.Words 可以更新大多数类型的字段，但不是全部。欲了解更多详情，请参阅 `InsertField`超载。
 
-### 例子
+## 例子
 
 演示如何使用域代码将域插入到文档中。
 
@@ -144,12 +146,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## InsertField(string, string) {#insertfield_2}
+## InsertField(*string, string*) {#insertfield_2}
 
 将 Word 字段插入到文档中，而不更新字段结果。
 
@@ -166,7 +168,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 A[`Field`](../../../aspose.words.fields/field/)代表插入字段的对象。
 
-### 评论
+## 评论
 
 Microsoft Word 文档中的字段由字段代码和字段结果组成。 字段代码就像一个公式，字段结果就像 公式生成的值。字段代码还可以包含字段switches ，类似于执行特定操作的附加指令。
 
@@ -176,7 +178,7 @@ Microsoft Word 文档中的字段由字段代码和字段结果组成。 字段�
 
 Aspose.Words可以计算大多数字段类型的字段结果，但此方法 不会自动更新字段结果。由于字段结果不会自动计算， 您需要传递一些将插入到字段结果中的字符串值（甚至是空字符串）。 该值将作为占位符保留在字段结果中，直到字段被Updated. 要更新字段结果，您可以调用[`Update`](../../../aspose.words.fields/field/update/)在字段对象 returned 上或[`UpdateFields`](../../document/updatefields/)更新整个文档中的字段。
 
-### 例子
+## 例子
 
 展示如何在节中设置页码。
 
@@ -234,7 +236,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

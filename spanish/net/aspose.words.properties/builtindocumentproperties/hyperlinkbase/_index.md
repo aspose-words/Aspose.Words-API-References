@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.HyperlinkBase
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuiltInDocumentProperties propiedad. Especifica la cadena base utilizada para evaluar hipervínculos relativos en este documento.
+linktitle: HyperlinkBase
+articleTitle: HyperlinkBase
+second_title: Aspose.Words para .NET
+description: BuiltInDocumentProperties HyperlinkBase propiedad. Especifica la cadena base utilizada para evaluar hipervínculos relativos en este documento en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.properties/builtindocumentproperties/hyperlinkbase/
@@ -14,11 +16,11 @@ Especifica la cadena base utilizada para evaluar hipervínculos relativos en est
 public string HyperlinkBase { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Aspose.Words no utiliza esta propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo almacenar la parte base de un hipervínculo en las propiedades del documento.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.HyperlinkBase.WorkingLink.docx");
 ### Ver también
 
 * class [BuiltInDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

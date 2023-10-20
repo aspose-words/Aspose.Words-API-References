@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.Color
-second_title: Aspose.Words for .NET API 参考
-description: TextWatermarkOptions 财产. 获取或设置字体颜色默认值为Silver.
+linktitle: Color
+articleTitle: Color
+second_title: 用于 .NET 的 Aspose.Words
+description: TextWatermarkOptions Color 财产. 获取或设置字体颜色默认值为Silver 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/textwatermarkoptions/color/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/textwatermarkoptions/color/
 public Color Color { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何创建文本水印。
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### 也可以看看
 
 * class [TextWatermarkOptions](../)
-* 命名空间 [Aspose.Words](../../textwatermarkoptions/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportPageMargins
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica se i margini della pagina vengono esportati in HTML MHTML o EPUB. Limpostazione predefinita èfalso .
+linktitle: ExportPageMargins
+articleTitle: ExportPageMargins
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions ExportPageMargins proprietà. Specifica se i margini della pagina vengono esportati in HTML MHTML o EPUB. Limpostazione predefinita èfalso  in C#.
 type: docs
 weight: 210
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
@@ -14,11 +16,11 @@ Specifica se i margini della pagina vengono esportati in HTML, MHTML o EPUB. L'i
 public bool ExportPageMargins { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Aspose.Words non mostra l'area dei margini della pagina per impostazione predefinita. Se qualche elemento è completamente o parzialmente tagliato dal bordo del documento, l'area visualizzata può essere estesa con questa opzione.
 
-### Esempi
+## Esempi
 
 Mostra come mostrare oggetti fuori limite nei documenti HTML di output.
 
@@ -63,7 +65,5 @@ else
 ### Guarda anche
 
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

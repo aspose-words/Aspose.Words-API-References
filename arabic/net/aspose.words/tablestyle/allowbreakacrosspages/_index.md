@@ -1,7 +1,9 @@
 ---
 title: TableStyle.AllowBreakAcrossPages
-second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان النص الموجود في صف الجدول مسموحًا بتقسيمه عبر فاصل الصفحات.
+linktitle: AllowBreakAcrossPages
+articleTitle: AllowBreakAcrossPages
+second_title: Aspose.Words لـ .NET
+description: TableStyle AllowBreakAcrossPages ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان النص الموجود في صف الجدول مسموحًا بتقسيمه عبر فاصل الصفحات في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/tablestyle/allowbreakacrosspages/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/tablestyle/allowbreakacrosspages/
 public bool AllowBreakAcrossPages { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`حقيقي` .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء إعدادات نمط مخصصة للجدول.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### أنظر أيضا
 
 * class [TableStyle](../)
-* مساحة الاسم [Aspose.Words](../../tablestyle/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

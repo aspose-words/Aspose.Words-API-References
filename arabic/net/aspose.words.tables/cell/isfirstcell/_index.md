@@ -1,7 +1,9 @@
 ---
 title: Cell.IsFirstCell
-second_title: Aspose.Words لمراجع .NET API
-description: Cell ملكية. صحيح إذا كانت هذه هي الخلية الأولى داخل الصف كاذبة خلاف ذلك.
+linktitle: IsFirstCell
+articleTitle: IsFirstCell
+second_title: Aspose.Words لـ .NET
+description: Cell IsFirstCell ملكية. صحيح إذا كانت هذه هي الخلية الأولى داخل الصف كاذبة خلاف ذلك في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.tables/cell/isfirstcell/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/cell/isfirstcell/
 public bool IsFirstCell { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة بنية العقدة لكل جدول في المستند.
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [Cell](../)
-* مساحة الاسم [Aspose.Words.Tables](../../cell/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

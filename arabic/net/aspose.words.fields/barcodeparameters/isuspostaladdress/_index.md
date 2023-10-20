@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.IsUSPostalAddress
-second_title: Aspose.Words لمراجع .NET API
-description: BarcodeParameters ملكية. سواءPostalAddress هو عنوان بريدي أمريكي.
+linktitle: IsUSPostalAddress
+articleTitle: IsUSPostalAddress
+second_title: Aspose.Words لـ .NET
+description: BarcodeParameters IsUSPostalAddress ملكية. سواءPostalAddress هو عنوان بريدي أمريكي في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.fields/barcodeparameters/isuspostaladdress/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/barcodeparameters/isuspostaladdress/
 public bool IsUSPostalAddress { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مولد الباركود.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### أنظر أيضا
 
 * class [BarcodeParameters](../)
-* مساحة الاسم [Aspose.Words.Fields](../../barcodeparameters/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

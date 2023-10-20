@@ -1,7 +1,9 @@
 ---
-title: Class Watermark
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Watermark classe. Rappresenta la classe per lavorare con la filigrana del documento.
+title: Watermark Class
+linktitle: Watermark
+articleTitle: Watermark
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Watermark classe. Rappresenta la classe per lavorare con la filigrana del documento in C#.
 type: docs
 weight: 6670
 url: /it/net/aspose.words/watermark/
@@ -27,15 +29,13 @@ public sealed class Watermark
 | Nome | Descrizione |
 | --- | --- |
 | [Remove](../../aspose.words/watermark/remove/)() | Rimuove la filigrana. |
-| [SetImage](../../aspose.words/watermark/setimage/#setimage)(Image) | Aggiunge la filigrana dell'immagine al documento. |
-| [SetImage](../../aspose.words/watermark/setimage/#setimage_1)(Image, ImageWatermarkOptions) | Aggiunge la filigrana dell'immagine al documento. |
-| [SetImage](../../aspose.words/watermark/setimage/#setimage_2)(string, ImageWatermarkOptions) | Aggiunge la filigrana dell'immagine al documento. |
-| [SetText](../../aspose.words/watermark/settext/#settext)(string) | Aggiunge una filigrana di testo nel documento. |
-| [SetText](../../aspose.words/watermark/settext/#settext_1)(string, TextWatermarkOptions) | Aggiunge una filigrana di testo nel documento. |
+| [SetImage](../../aspose.words/watermark/setimage/#setimage)(*Image*) | Aggiunge la filigrana dell'immagine al documento. |
+| [SetImage](../../aspose.words/watermark/setimage/#setimage_1)(*Image, [ImageWatermarkOptions](../imagewatermarkoptions/)*) | Aggiunge la filigrana dell'immagine al documento. |
+| [SetImage](../../aspose.words/watermark/setimage/#setimage_2)(*string, [ImageWatermarkOptions](../imagewatermarkoptions/)*) | Aggiunge la filigrana dell'immagine al documento. |
+| [SetText](../../aspose.words/watermark/settext/#settext)(*string*) | Aggiunge una filigrana di testo nel documento. |
+| [SetText](../../aspose.words/watermark/settext/#settext_1)(*string, [TextWatermarkOptions](../textwatermarkoptions/)*) | Aggiunge una filigrana di testo nel documento. |
 
 ### Guarda anche
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

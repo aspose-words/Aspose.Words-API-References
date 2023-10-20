@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SectionStart
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Возвращает или задает тип разрыва раздела для указанного объекта.
+linktitle: SectionStart
+articleTitle: SectionStart
+second_title: Aspose.Words для .NET
+description: PageSetup SectionStart свойство. Возвращает или задает тип разрыва раздела для указанного объекта на С#.
 type: docs
 weight: 390
 url: /ru/net/aspose.words/pagesetup/sectionstart/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/sectionstart/
 public SectionStart SectionStart { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вручную создать документ Aspose.Words.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * enum [SectionStart](../../sectionstart/)
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

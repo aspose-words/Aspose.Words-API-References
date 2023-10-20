@@ -1,7 +1,9 @@
 ---
 title: Font.TintAndShade
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece un valor doble que aclara u oscurece un color.
+linktitle: TintAndShade
+articleTitle: TintAndShade
+second_title: Aspose.Words para .NET
+description: Font TintAndShade propiedad. Obtiene o establece un valor doble que aclara u oscurece un color en C#.
 type: docs
 weight: 520
 url: /es/net/aspose.words/font/tintandshade/
@@ -14,13 +16,13 @@ Obtiene o establece un valor doble que aclara u oscurece un color.
 public double TintAndShade { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Los valores permitidos están en el rango de -1 (el más oscuro) a 1 (el más claro) para esta propiedad. Cero (0) es neutral. Intentar establecer esta propiedad en un valor inferior a -1 o superior a 1 da como resultado unArgumentOutOfRangeException.
 
 Establecer esta propiedad para[`Font`](../) objeto con colores no temáticos da como resultado unInvalidOperationException.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear y utilizar estilos temáticos.
 
@@ -43,7 +45,5 @@ builder.Writeln("Text with themed style");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

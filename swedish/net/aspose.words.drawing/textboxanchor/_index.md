@@ -1,7 +1,9 @@
 ---
-title: Enum TextBoxAnchor
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.TextBoxAnchor uppräkning. Anger värden som används för vertikal justering av formtext.
+title: TextBoxAnchor Enum
+linktitle: TextBoxAnchor
+articleTitle: TextBoxAnchor
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.TextBoxAnchor uppräkning. Anger värden som används för vertikal justering av formtext i C#.
 type: docs
 weight: 1330
 url: /sv/net/aspose.words.drawing/textboxanchor/
@@ -29,7 +31,7 @@ public enum TextBoxAnchor
 | TopCenteredBaseline | `8` | Text justeras till den övre centrerade baslinjen i textrutan. |
 | BottomCenteredBaseline | `9` | Text är justerad mot den nedre centrerade baslinjen i textrutan. |
 
-### Exempel
+## Exempel
 
 Visar hur man vertikalt justerar textinnehållet i en textruta.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

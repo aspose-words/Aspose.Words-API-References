@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ImageColorSpaceExportMode
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. PDF belgesindeki görüntüler için renk alanının nasıl seçileceğini belirtir.
+linktitle: ImageColorSpaceExportMode
+articleTitle: ImageColorSpaceExportMode
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions ImageColorSpaceExportMode mülk. PDF belgesindeki görüntüler için renk alanının nasıl seçileceğini belirtir C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.saving/pdfsaveoptions/imagecolorspaceexportmode/
@@ -14,7 +16,7 @@ PDF belgesindeki görüntüler için renk alanının nasıl seçileceğini belir
 public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Auto .
 
@@ -22,7 +24,7 @@ EğerSimpleCmyk değer belirtildi, [`ImageCompression`](../imagecompression/) se
 
 SimpleCmyk PDF/A'ya kaydederken değer desteklenmez. Auto bunun yerine değer kullanılacaktır.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi PDF'ye dışa aktarırken, görüntüler için farklı bir renk alanının nasıl ayarlanacağını gösterir.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveO
 
 * enum [PdfImageColorSpaceExportMode](../../pdfimagecolorspaceexportmode/)
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

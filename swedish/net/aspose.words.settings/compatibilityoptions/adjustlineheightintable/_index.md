@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.AdjustLineHeightInTable
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Lägg till dokumentrasterlinjeavstånd till linjer i tabellceller.
+linktitle: AdjustLineHeightInTable
+articleTitle: AdjustLineHeightInTable
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions AdjustLineHeightInTable fast egendom. Lägg till dokumentrasterlinjeavstånd till linjer i tabellceller i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.settings/compatibilityoptions/adjustlineheightintable/
@@ -17,7 +19,5 @@ public bool AdjustLineHeightInTable { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

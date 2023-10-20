@@ -1,7 +1,9 @@
 ---
-title: Class FieldMergeRec
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.FieldMergeRec 班级. 实现 MERGEREC 字段
+title: FieldMergeRec Class
+linktitle: FieldMergeRec
+articleTitle: FieldMergeRec
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.FieldMergeRec 班级. 实现 MERGEREC 字段 在 C#.
 type: docs
 weight: 2160
 url: /zh/net/aspose.words.fields/fieldmergerec/
@@ -42,17 +44,17 @@ public class FieldMergeRec : Field
 | 姓名 | 描述 |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 包括子字段的字段代码和字段结果。 |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
 | [Remove](../../aspose.words.fields/field/remove/)() | 从文档中删除该字段。返回字段后面的节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回`无效的`. |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | 执行字段取消链接。 |
 | [Update](../../aspose.words.fields/field/update/)() | 执行字段更新。如果该字段已被更新，则抛出异常。 |
-| [Update](../../aspose.words.fields/field/update/)(bool) | 执行字段更新。如果该字段已被更新，则抛出异常。 |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | 执行字段更新。如果该字段已被更新，则抛出异常。 |
 
-### 评论
+## 评论
 
 目前 MERGEREC 和 MERGESEQ 字段实现相同的功能，因为我们不确定 如何在 Aspose.Words 邮件合并中跳过记录。
 
-### 例子
+## 例子
 
 演示如何使用 MERGEREC 和 MERGESEQ 字段对邮件合并输出文档中的邮件合并记录进行编号和计数。
 
@@ -106,5 +108,3 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 * class [Field](../field/)
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: ReportingEngine.BuildReport
-second_title: Справочник по API Aspose.Words для .NET
-description: ReportingEngine метод. Заполняет указанный шаблонный документ данными из указанного источника превращая его в готовый отчет.
+linktitle: BuildReport
+articleTitle: BuildReport
+second_title: Aspose.Words для .NET
+description: ReportingEngine BuildReport метод. Заполняет указанный шаблонный документ данными из указанного источника превращая его в готовый отчет на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.reporting/reportingengine/buildreport/
 ---
-## BuildReport(Document, object) {#buildreport}
+## BuildReport(*[Document](../../../aspose.words/document/), object*) {#buildreport}
 
 Заполняет указанный шаблонный документ данными из указанного источника, превращая его в готовый отчет.
 
@@ -23,7 +25,7 @@ public bool BuildReport(Document document, object dataSource)
 
 Флаг, указывающий, был ли анализ документа-шаблона успешным. Возвращенный флаг имеет смысл только в том случае, если значение[`Options`](../options/)свойство включает InlineErrorMessages вариант.
 
-### Примечания
+## Примечания
 
 Используя эту перегрузку, вы можете ссылаться на элементы источника данных в документе-шаблоне, но не можете ссылаться на сам объект источника данных. Вам следует использовать`BuildReport` перегрузка для достижения этой цели.
 
@@ -47,12 +49,12 @@ public bool BuildReport(Document document, object dataSource)
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* пространство имен [Aspose.Words.Reporting](../../reportingengine/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## BuildReport(Document, object, string) {#buildreport_1}
+## BuildReport(*[Document](../../../aspose.words/document/), object, string*) {#buildreport_1}
 
 Заполняет указанный шаблонный документ данными из указанного источника, превращая его в готовый отчет.
 
@@ -70,7 +72,7 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 Флаг, указывающий, был ли анализ документа-шаблона успешным. Возвращенный флаг имеет смысл только в том случае, если значение[`Options`](../options/)свойство включает InlineErrorMessages вариант.
 
-### Примечания
+## Примечания
 
 Используя эту перегрузку, вы можете ссылаться на элементы источника данных и сам объект источника данных в шаблоне. Если вы не собираетесь ссылаться на сам объект источника данных, вы можете опустить*dataSourceName* прохождение`нулевой` или используйте`BuildReport` перегрузка.
 
@@ -94,12 +96,12 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* пространство имен [Aspose.Words.Reporting](../../reportingengine/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## BuildReport(Document, object[], string[]) {#buildreport_2}
+## BuildReport(*[Document](../../../aspose.words/document/), object[], string[]*) {#buildreport_2}
 
 Заполняет указанный шаблонный документ данными из указанных источников, превращая его в готовый отчет.
 
@@ -117,7 +119,7 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 Флаг, указывающий, был ли анализ документа-шаблона успешным. Возвращенный флаг имеет смысл только в том случае, если значение[`Options`](../options/)свойство включает InlineErrorMessages вариант.
 
-### Примечания
+## Примечания
 
 Используя эту перегрузку, вы можете ссылаться на несколько объектов источника данных и их членов в шаблоне. Имя первого источника данных может быть опущено (т.е. должно быть пустой строкой или`нулевой`), если вы собираетесь ссылаться на элементы источника данных, но не на сам объект источника данных. Имена других источников данных должны быть указаны и уникальны.
 
@@ -143,7 +145,5 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* пространство имен [Aspose.Words.Reporting](../../reportingengine/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
-
-

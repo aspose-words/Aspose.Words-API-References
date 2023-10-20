@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.DocumentDirection
-second_title: Referencia de API de Aspose.Words para .NET
-description: TxtLoadOptions propiedad. Obtiene o establece una dirección del documento. El valor predeterminado esLeftToRight .
+linktitle: DocumentDirection
+articleTitle: DocumentDirection
+second_title: Aspose.Words para .NET
+description: TxtLoadOptions DocumentDirection propiedad. Obtiene o establece una dirección del documento. El valor predeterminado esLeftToRight  en C#.
 type: docs
-weight: 50
+weight: 40
 url: /es/net/aspose.words.loading/txtloadoptions/documentdirection/
 ---
 ## TxtLoadOptions.DocumentDirection property
@@ -14,7 +16,7 @@ Obtiene o establece una dirección del documento. El valor predeterminado esLeft
 public DocumentDirection DocumentDirection { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo detectar la dirección del texto de un documento sin formato.
 
@@ -43,7 +45,5 @@ Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 
 * enum [DocumentDirection](../../documentdirection/)
 * class [TxtLoadOptions](../)
-* espacio de nombres [Aspose.Words.Loading](../../txtloadoptions/)
+* espacio de nombres [Aspose.Words.Loading](../../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../../)
-
-

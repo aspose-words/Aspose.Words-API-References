@@ -1,7 +1,9 @@
 ---
-title: Enum FontFamily
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.FontFamily enum. Rappresenta la famiglia di caratteri.
+title: FontFamily Enum
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fonts.FontFamily enum. Rappresenta la famiglia di caratteri in C#.
 type: docs
 weight: 2910
 url: /it/net/aspose.words.fonts/fontfamily/
@@ -25,11 +27,11 @@ public enum FontFamily
 | Script | `4` | Specifica un carattere progettato per assomigliare alla scrittura a mano; gli esempi includono Script e Corsivo. |
 | Decorative | `5` | Specifica un carattere nuovo. Un esempio è l'inglese antico. |
 
-### Osservazioni
+## Osservazioni
 
 Una famiglia di caratteri è un insieme di caratteri con caratteristiche comuni di larghezza del tratto e serif.
 
-### Esempi
+## Esempi
 
 Mostra come accedere e stampare i dettagli di ciascun carattere in un documento.
 
@@ -69,5 +71,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../)
-
-

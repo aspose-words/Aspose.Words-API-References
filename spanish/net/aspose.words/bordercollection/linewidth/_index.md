@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.LineWidth
-second_title: Referencia de API de Aspose.Words para .NET
-description: BorderCollection propiedad. Obtiene o establece el ancho del borde en puntos.
+linktitle: LineWidth
+articleTitle: LineWidth
+second_title: Aspose.Words para .NET
+description: BorderCollection LineWidth propiedad. Obtiene o establece el ancho del borde en puntos en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words/bordercollection/linewidth/
@@ -14,13 +16,13 @@ Obtiene o establece el ancho del borde en puntos.
 public double LineWidth { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Devuelve el ancho del primer borde de la colección.
 
 Establece el ancho de todos los bordes de la colección, excepto los bordes diagonales.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un borde de página ondulado verde con una sombra.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### Ver también
 
 * class [BorderCollection](../)
-* espacio de nombres [Aspose.Words](../../bordercollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

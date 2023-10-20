@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.CurrentShape
-second_title: Aspose.Words för .NET API Referens
-description: ImageSavingArgs fast egendom. FårShapeBase objekt som motsvarar formen eller gruppformen som håller på att sparas.
+linktitle: CurrentShape
+articleTitle: CurrentShape
+second_title: Aspose.Words för .NET
+description: ImageSavingArgs CurrentShape fast egendom. FårShapeBase objekt som motsvarar formen eller gruppformen som håller på att sparas i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/imagesavingargs/currentshape/
@@ -14,7 +16,7 @@ Får[`ShapeBase`](../../../aspose.words.drawing/shapebase/) objekt som motsvarar
 public ShapeBase CurrentShape { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 [`IImageSavingCallback`](../../iimagesavingcallback/) kan avfyras samtidigt som du sparar antingen en form eller en gruppform. Det är därför fastigheten har[`ShapeBase`](../../../aspose.words.drawing/shapebase/) typ. Du kan kontrollera om det är en gruppform som jämför [`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) medGroup eller genom att casta den till en av härledda klasser: [`Shape`](../../../aspose.words.drawing/shape/) eller[`GroupShape`](../../../aspose.words.drawing/groupshape/).
 
@@ -22,7 +24,7 @@ Aspose.Words använder dokumentets filnamn och ett unikt nummer för att generer
 
 Vissa bilder i dokumentet kan vara otillgängliga. För att kontrollera bildtillgänglighet använd[`IsImageAvailable`](../isimageavailable/) fast egendom.
 
-### Exempel
+## Exempel
 
 Visar hur man involverar en bildsparande återuppringning i en HTML-konverteringsprocess.
 
@@ -69,7 +71,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * class [ShapeBase](../../../aspose.words.drawing/shapebase/)
 * class [ImageSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

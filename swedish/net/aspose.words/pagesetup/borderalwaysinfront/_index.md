@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BorderAlwaysInFront
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Anger var sidkanten är placerad i förhållande till korsande texter och objekt.
+linktitle: BorderAlwaysInFront
+articleTitle: BorderAlwaysInFront
+second_title: Aspose.Words för .NET
+description: PageSetup BorderAlwaysInFront fast egendom. Anger var sidkanten är placerad i förhållande till korsande texter och objekt i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/pagesetup/borderalwaysinfront/
@@ -14,7 +16,7 @@ Anger var sidkanten är placerad i förhållande till korsande texter och objekt
 public bool BorderAlwaysInFront { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en bred blå bandkant längst upp på första sidan.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

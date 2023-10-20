@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Clear
-second_title: Aspose.Words för .NET API Referens
-description: OdsoRecipientDataCollection metod. Tar bort alla element från den här samlingen.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: OdsoRecipientDataCollection Clear metod. Tar bort alla element från den här samlingen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.settings/odsorecipientdatacollection/clear/
@@ -14,7 +16,7 @@ Tar bort alla element från den här samlingen.
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Se även
 
 * class [OdsoRecipientDataCollection](../)
-* namnutrymme [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class BubbleSizeCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.BubbleSizeCollection сорт. Представляет коллекцию размеров пузырьков для серии диаграмм.
+title: BubbleSizeCollection Class
+linktitle: BubbleSizeCollection
+articleTitle: BubbleSizeCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.BubbleSizeCollection сорт. Представляет коллекцию размеров пузырьков для серии диаграмм на С#.
 type: docs
 weight: 610
 url: /ru/net/aspose.words.drawing.charts/bubblesizecollection/
@@ -27,7 +29,7 @@ public class BubbleSizeCollection : IEnumerable<double>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/bubblesizecollection/getenumerator/)() | Возвращает объект перечислителя. |
 
-### Примечания
+## Примечания
 
 Коллекция позволяет изменять только размеры пузырьков. Чтобы добавить или вставить новые значения в серию диаграмм или значения Remove , используйте соответствующие методы класса[`ChartSeries`](../chartseries/) класс можно использовать.
 
@@ -44,5 +46,3 @@ public class BubbleSizeCollection : IEnumerable<double>
 * method [Remove](../chartseries/remove/)
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

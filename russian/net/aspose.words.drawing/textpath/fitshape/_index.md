@@ -1,7 +1,9 @@
 ---
 title: TextPath.FitShape
-second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. Определяет помещается ли текст в ограничивающую рамку фигуры.
+linktitle: FitShape
+articleTitle: FitShape
+second_title: Aspose.Words для .NET
+description: TextPath FitShape свойство. Определяет помещается ли текст в ограничивающую рамку фигуры на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing/textpath/fitshape/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textpath/fitshape/
 public bool FitShape { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Смотрите также
 
 * class [TextPath](../)
-* пространство имен [Aspose.Words.Drawing](../../textpath/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

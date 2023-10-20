@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.TableSubstitution
-second_title: Aspose.Words لمراجع .NET API
-description: FontSubstitutionSettings ملكية. الإعدادات المتعلقة بقاعدة استبدال الجدول.
+linktitle: TableSubstitution
+articleTitle: TableSubstitution
+second_title: Aspose.Words لـ .NET
+description: FontSubstitutionSettings TableSubstitution ملكية. الإعدادات المتعلقة بقاعدة استبدال الجدول في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/
 public TableSubstitutionRule TableSubstitution { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع جداول استبدال الخطوط المخصصة.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 
 * class [TableSubstitutionRule](../../tablesubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

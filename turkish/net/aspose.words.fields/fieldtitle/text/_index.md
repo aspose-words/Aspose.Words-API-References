@@ -1,7 +1,9 @@
 ---
 title: FieldTitle.Text
-second_title: Aspose.Words for .NET API Referansı
-description: FieldTitle mülk. Başlığın metnini alır veya ayarlar.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words for .NET
+description: FieldTitle Text mülk. Başlığın metnini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldtitle/text/
@@ -14,7 +16,7 @@ Başlığın metnini alır veya ayarlar.
 public string Text { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TITLE alanının nasıl kullanılacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.TITLE.docx");
 ### Ayrıca bakınız
 
 * class [FieldTitle](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtitle/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

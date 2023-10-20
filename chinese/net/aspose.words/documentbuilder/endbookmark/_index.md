@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndBookmark
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将文档中的当前位置标记为书签结束
+linktitle: EndBookmark
+articleTitle: EndBookmark
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder EndBookmark 方法. 将文档中的当前位置标记为书签结束 在 C#.
 type: docs
 weight: 210
 url: /zh/net/aspose.words/documentbuilder/endbookmark/
@@ -22,13 +24,13 @@ public BookmarkEnd EndBookmark(string bookmarkName)
 
 刚刚创建的书签结束节点。
 
-### 评论
+## 评论
 
 文档中的书签可以重叠并跨越任何范围。要创建有效的书签，您需要 调用两者[`StartBookmark`](../startbookmark/)和`EndBookmark`与相同的*bookmarkName* 参数。
 
 保存文档时，格式错误的书签或名称重复的书签将被忽略。
 
-### 例子
+## 例子
 
 展示如何创建书签。
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

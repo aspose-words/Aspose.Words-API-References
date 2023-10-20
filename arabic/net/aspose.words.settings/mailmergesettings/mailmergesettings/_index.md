@@ -1,7 +1,9 @@
 ---
-title: MailMergeSettings.MailMergeSettings
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings البناء. Default_Constructor
+title: MailMergeSettings
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words لـ .NET
+description: MailMergeSettings البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.settings/mailmergesettings/mailmergesettings/
@@ -17,7 +19,5 @@ public MailMergeSettings()
 ### أنظر أيضا
 
 * class [MailMergeSettings](../)
-* مساحة الاسم [Aspose.Words.Settings](../../mailmergesettings/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

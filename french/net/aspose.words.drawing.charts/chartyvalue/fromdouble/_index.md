@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.FromDouble
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartYValue méthode. Crée unChartYValue exemple duDouble tapez.
+linktitle: FromDouble
+articleTitle: FromDouble
+second_title: Aspose.Words pour .NET
+description: ChartYValue FromDouble méthode. Crée unChartYValue exemple duDouble tapez en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/chartyvalue/fromdouble/
@@ -14,7 +16,7 @@ Crée un[`ChartYValue`](../) exemple duDouble tapez.
 public static ChartYValue FromDouble(double value)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment remplir des séries de graphiques avec des données.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ### Voir également
 
 * class [ChartYValue](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

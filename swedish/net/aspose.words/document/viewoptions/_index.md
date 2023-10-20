@@ -1,7 +1,9 @@
 ---
 title: Document.ViewOptions
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Ger alternativ för att styra hur dokumentet visas i Microsoft Word.
+linktitle: ViewOptions
+articleTitle: ViewOptions
+second_title: Aspose.Words för .NET
+description: Document ViewOptions fast egendom. Ger alternativ för att styra hur dokumentet visas i Microsoft Word i C#.
 type: docs
 weight: 470
 url: /sv/net/aspose.words/document/viewoptions/
@@ -14,7 +16,7 @@ Ger alternativ för att styra hur dokumentet visas i Microsoft Word.
 public ViewOptions ViewOptions { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in en anpassad zoomfaktor, vilken äldre versioner av Microsoft Word kommer att tillämpa på ett dokument vid inläsning.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");
 
 * class [ViewOptions](../../../aspose.words.settings/viewoptions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

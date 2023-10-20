@@ -1,7 +1,9 @@
 ---
-title: Enum LineSpacingRule
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.LineSpacingRule تعداد. يحدد قيم تباعد الأسطر للفقرة.
+title: LineSpacingRule Enum
+linktitle: LineSpacingRule
+articleTitle: LineSpacingRule
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.LineSpacingRule تعداد. يحدد قيم تباعد الأسطر للفقرة في C#.
 type: docs
 weight: 3440
 url: /ar/net/aspose.words/linespacingrule/
@@ -26,5 +28,3 @@ public enum LineSpacingRule
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

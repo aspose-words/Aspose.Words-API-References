@@ -1,7 +1,9 @@
 ---
-title: Class DefaultFontSubstitutionRule
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.DefaultFontSubstitutionRule classe. Regola di sostituzione dei caratteri predefinita.
+title: DefaultFontSubstitutionRule Class
+linktitle: DefaultFontSubstitutionRule
+articleTitle: DefaultFontSubstitutionRule
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fonts.DefaultFontSubstitutionRule classe. Regola di sostituzione dei caratteri predefinita in C#.
 type: docs
 weight: 2840
 url: /it/net/aspose.words.fonts/defaultfontsubstitutionrule/
@@ -23,11 +25,11 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 | [DefaultFontName](../../aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/) { get; set; } | Ottiene o imposta il nome del carattere predefinito. |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Specifica se la regola è abilitata o meno. |
 
-### Osservazioni
+## Osservazioni
 
 Questa regola definisce il nome del carattere predefinito singolo da utilizzare per la sostituzione se il carattere originale non è disponibile.
 
-### Esempi
+## Esempi
 
 Mostra come impostare la regola di sostituzione dei caratteri predefinita.
 
@@ -61,5 +63,3 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../)
-
-

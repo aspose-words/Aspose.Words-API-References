@@ -1,7 +1,9 @@
 ---
-title: Class DownsampleOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.DownsampleOptions sınıf. Altörnekleme seçeneklerini belirlemeye izin verir.
+title: DownsampleOptions Class
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.DownsampleOptions sınıf. Altörnekleme seçeneklerini belirlemeye izin verir C#'da.
 type: docs
 weight: 4970
 url: /tr/net/aspose.words.saving/downsampleoptions/
@@ -30,7 +32,7 @@ public class DownsampleOptions
 | [Resolution](../../aspose.words.saving/downsampleoptions/resolution/) { get; set; } | Görüntülerin altörneklenmesi gereken çözünürlüğü inç başına piksel cinsinden belirtir. |
 | [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold/) { get; set; } | Eşik çözünürlüğünü inç başına piksel cinsinden belirtir. Belgedeki bir görüntünün çözünürlüğü eşik değerinden düşükse, alt örnekleme algoritması uygulanmaz. 0 değeri, eşik kontrolünün kullanılmadığı ve eşik değerinin kullanılmadığı anlamına gelir boyutu küçültülebilir, altörneklenir. |
 
-### Örnekler
+## Örnekler
 
 PDF belgesindeki görüntülerin çözünürlüğünün nasıl değiştirileceğini gösterir.
 
@@ -63,5 +65,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

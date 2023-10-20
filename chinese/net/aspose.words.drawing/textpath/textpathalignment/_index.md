@@ -1,7 +1,9 @@
 ---
 title: TextPath.TextPathAlignment
-second_title: Aspose.Words for .NET API 参考
-description: TextPath 财产. 定义文本的对齐方式
+linktitle: TextPathAlignment
+articleTitle: TextPathAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: TextPath TextPathAlignment 财产. 定义文本的对齐方式 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.drawing/textpath/textpathalignment/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/textpath/textpathalignment/
 public TextPathAlignment TextPathAlignment { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为Center。
 
-### 例子
+## 例子
 
 演示如何使用艺术字。
 
@@ -122,7 +124,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * enum [TextPathAlignment](../../textpathalignment/)
 * class [TextPath](../)
-* 命名空间 [Aspose.Words.Drawing](../../textpath/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

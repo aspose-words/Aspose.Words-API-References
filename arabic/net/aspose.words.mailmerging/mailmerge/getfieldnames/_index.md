@@ -1,7 +1,9 @@
 ---
 title: MailMerge.GetFieldNames
-second_title: Aspose.Words لمراجع .NET API
-description: MailMerge طريقة. إرجاع مجموعة من أسماء حقول دمج المراسلات المتوفرة في المستند.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words لـ .NET
+description: MailMerge GetFieldNames طريقة. إرجاع مجموعة من أسماء حقول دمج المراسلات المتوفرة في المستند في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.mailmerging/mailmerge/getfieldnames/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/mailmerge/getfieldnames/
 public string[] GetFieldNames()
 ```
 
-### ملاحظات
+## ملاحظات
 
 إرجاع أسماء حقول الدمج الكاملة بما في ذلك البادئة الاختيارية. لا يزيل أسماء الحقول المكررة.
 
@@ -22,7 +24,7 @@ public string[] GetFieldNames()
 
 يتضمن أسماء الحقول "شارب" إذا[`UseNonMergeFields`](../usenonmergefields/) يكون`حقيقي`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على أسماء جميع حقول الدمج في المستند.
 
@@ -58,7 +60,5 @@ doc.MailMerge.Execute(dataTable);
 ### أنظر أيضا
 
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

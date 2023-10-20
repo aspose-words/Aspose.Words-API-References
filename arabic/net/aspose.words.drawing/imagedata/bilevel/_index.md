@@ -1,7 +1,9 @@
 ---
 title: ImageData.BiLevel
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData ملكية. يحدد ما إذا كان سيتم عرض الصورة بالأبيض والأسود.
+linktitle: BiLevel
+articleTitle: BiLevel
+second_title: Aspose.Words لـ .NET
+description: ImageData BiLevel ملكية. يحدد ما إذا كان سيتم عرض الصورة بالأبيض والأسود في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/imagedata/bilevel/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/imagedata/bilevel/
 public bool BiLevel { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير بيانات صورة الشكل.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### أنظر أيضا
 
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

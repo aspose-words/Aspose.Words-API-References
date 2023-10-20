@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: DropDownItemCollection fast egendom. Hämtar antalet element som finns i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: DropDownItemCollection Count fast egendom. Hämtar antalet element som finns i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/dropdownitemcollection/count/
@@ -14,7 +16,7 @@ Hämtar antalet element som finns i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett kombinationsrutafält och redigerar elementen i dess objektsamling.
 
@@ -68,7 +70,5 @@ dropDownItems.Clear();
 ### Se även
 
 * class [DropDownItemCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../dropdownitemcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

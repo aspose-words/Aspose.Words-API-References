@@ -1,12 +1,14 @@
 ---
-title: Run.Run
-second_title: Aspose.Words für .NET-API-Referenz
-description: Run constructeur. Initialisiert eine neue Instanz vonRun Klasse.
+title: Run
+linktitle: Run
+articleTitle: Run
+second_title: Aspose.Words für .NET
+description: Run constructeur. Initialisiert eine neue Instanz vonRun Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/run/run/
 ---
-## Run(DocumentBase) {#constructor}
+## Run(*[DocumentBase](../../documentbase/)*) {#constructor}
 
 Initialisiert eine neue Instanz von[`Run`](../) Klasse.
 
@@ -18,13 +20,13 @@ public Run(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Das Eigentümerdokument. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wann[`Run`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../node/parentnode/) Ist`Null`.
 
-Anhängen[`Run`](../) zur DokumentenverwendungNode) oderNode) an dem Absatz, an dem der Lauf eingefügt werden soll.
+Anhängen[`Run`](../) zur Dokumentenverwendung[`InsertAfter`](../../compositenode/insertafter/) oder[`InsertBefore`](../../compositenode/insertbefore/) an dem Absatz, an dem der Lauf eingefügt werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Aspose.Words-Dokument manuell erstellt.
 
@@ -75,14 +77,14 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Run](../)
-* namensraum [Aspose.Words](../../run/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Run(DocumentBase, string) {#constructor_1}
+## Run(*[DocumentBase](../../documentbase/), string*) {#constructor_1}
 
-Initialisiert eine neue Instanz von **Laufen** Klasse.
+Initialisiert eine neue Instanz von**Laufen** Klasse.
 
 ```csharp
 public Run(DocumentBase doc, string text)
@@ -93,13 +95,13 @@ public Run(DocumentBase doc, string text)
 | doc | DocumentBase | Das Eigentümerdokument. |
 | text | String | Der Text des Laufs. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wann[`Run`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../node/parentnode/) Ist`Null`.
 
-Anhängen[`Run`](../) zur DokumentenverwendungNode) oderNode) an dem Absatz, an dem der Lauf eingefügt werden soll.
+Anhängen[`Run`](../) zur Dokumentenverwendung[`InsertAfter`](../../compositenode/insertafter/) oder[`InsertBefore`](../../compositenode/insertbefore/) an dem Absatz, an dem der Lauf eingefügt werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Textzeile mithilfe ihrer Schriftarteigenschaft formatiert wird.
 
@@ -120,7 +122,5 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Run](../)
-* namensraum [Aspose.Words](../../run/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

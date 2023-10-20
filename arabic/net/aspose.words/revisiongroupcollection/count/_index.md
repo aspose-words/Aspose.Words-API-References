@@ -1,7 +1,9 @@
 ---
 title: RevisionGroupCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionGroupCollection ملكية. إرجاع عدد مجموعات المراجعة في المجموعة.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: RevisionGroupCollection Count ملكية. إرجاع عدد مجموعات المراجعة في المجموعة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/revisiongroupcollection/count/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/revisiongroupcollection/count/
 public int Count { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة معلومات حول مجموعة من المراجعات في مستند.
 
@@ -33,7 +35,5 @@ foreach (RevisionGroup group in doc.Revisions.Groups)
 ### أنظر أيضا
 
 * class [RevisionGroupCollection](../)
-* مساحة الاسم [Aspose.Words](../../revisiongroupcollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

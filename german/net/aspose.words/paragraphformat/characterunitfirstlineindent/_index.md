@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.CharacterUnitFirstLineIndent
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft den Wert in Zeichen für die erste Zeile oder den hängenden Einzug ab oder legt diesen fest.
+linktitle: CharacterUnitFirstLineIndent
+articleTitle: CharacterUnitFirstLineIndent
+second_title: Aspose.Words für .NET
+description: ParagraphFormat CharacterUnitFirstLineIndent eigendom. Ruft den Wert in Zeichen für die erste Zeile oder den hängenden Einzug ab oder legt diesen fest in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/paragraphformat/characterunitfirstlineindent/
@@ -16,7 +18,7 @@ Verwenden Sie positive Werte, um den Einzug der ersten Zeile festzulegen, und ne
 public double CharacterUnitFirstLineIndent { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Absatzabstände und Einzüge geändert werden.
 
@@ -70,7 +72,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.Reason
-second_title: Aspose.Words för .NET API Referens
-description: PdfDigitalSignatureDetails fast egendom. Hämtar eller anger orsaken till signeringen.
+linktitle: Reason
+articleTitle: Reason
+second_title: Aspose.Words för .NET
+description: PdfDigitalSignatureDetails Reason fast egendom. Hämtar eller anger orsaken till signeringen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/pdfdigitalsignaturedetails/reason/
@@ -14,11 +16,11 @@ Hämtar eller anger orsaken till signeringen.
 public string Reason { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`null` .
 
-### Exempel
+## Exempel
 
 Visar hur man signerar ett genererat PDF-dokument.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Se även
 
 * class [PdfDigitalSignatureDetails](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

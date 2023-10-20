@@ -1,7 +1,9 @@
 ---
 title: Story.Paragraphs
-second_title: Aspose.Words for .NET API 参考
-description: Story 财产. 获取故事直接子级的段落集合
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: 用于 .NET 的 Aspose.Words
+description: Story Paragraphs 财产. 获取故事直接子级的段落集合 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/story/paragraphs/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/story/paragraphs/
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何检查段落是否是移动修订。
 
@@ -49,7 +51,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 
 * class [ParagraphCollection](../../paragraphcollection/)
 * class [Story](../)
-* 命名空间 [Aspose.Words](../../story/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

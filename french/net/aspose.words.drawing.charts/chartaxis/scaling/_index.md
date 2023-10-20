@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Scaling
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxis propriété. Donne accès aux options de mise à léchelle de laxe.
+linktitle: Scaling
+articleTitle: Scaling
+second_title: Aspose.Words pour .NET
+description: ChartAxis Scaling propriété. Donne accès aux options de mise à léchelle de laxe en C#.
 type: docs
 weight: 210
 url: /fr/net/aspose.words.drawing.charts/chartaxis/scaling/
@@ -14,7 +16,7 @@ Donne accès aux options de mise à l'échelle de l'axe.
 public AxisScaling Scaling { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un graphique avec des valeurs de date/heure.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisScaling](../../axisscaling/)
 * class [ChartAxis](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

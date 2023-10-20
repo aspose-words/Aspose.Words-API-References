@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.AddSubstitutes
-second_title: Справочник по API Aspose.Words для .NET
-description: TableSubstitutionRule метод. Добавляет замещающие имена шрифтов для данного исходного имени шрифта.
+linktitle: AddSubstitutes
+articleTitle: AddSubstitutes
+second_title: Aspose.Words для .NET
+description: TableSubstitutionRule AddSubstitutes метод. Добавляет замещающие имена шрифтов для данного исходного имени шрифта на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/tablesubstitutionrule/addsubstitutes/
@@ -19,7 +21,7 @@ public void AddSubstitutes(string originalFontName, params string[] substituteFo
 | originalFontName | String | Оригинальное название шрифта. |
 | substituteFontNames | String[] | Список альтернативных названий шрифтов. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
 
@@ -131,7 +133,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Смотрите также
 
 * class [TableSubstitutionRule](../)
-* пространство имен [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

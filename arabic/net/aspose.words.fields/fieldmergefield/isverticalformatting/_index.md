@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.IsVerticalFormatting
-second_title: Aspose.Words لمراجع .NET API
-description: FieldMergeField ملكية. الحصول على أو تعيين ما إذا كان سيتم تمكين تحويل الأحرف للتنسيق العمودي.
+linktitle: IsVerticalFormatting
+articleTitle: IsVerticalFormatting
+second_title: Aspose.Words لـ .NET
+description: FieldMergeField IsVerticalFormatting ملكية. الحصول على أو تعيين ما إذا كان سيتم تمكين تحويل الأحرف للتنسيق العمودي في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldmergefield/isverticalformatting/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldmergefield/isverticalformatting/
 public bool IsVerticalFormatting { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول MERGEFIELD لإجراء عملية دمج البريد.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### أنظر أيضا
 
 * class [FieldMergeField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldmergefield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

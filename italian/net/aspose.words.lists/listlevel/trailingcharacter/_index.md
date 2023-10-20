@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TrailingCharacter
-second_title: Aspose.Words per .NET API Reference
-description: ListLevel proprietà. Restituisce o imposta il carattere inserito dopo il numero per il livello della lista.
+linktitle: TrailingCharacter
+articleTitle: TrailingCharacter
+second_title: Aspose.Words per .NET
+description: ListLevel TrailingCharacter proprietà. Restituisce o imposta il carattere inserito dopo il numero per il livello della lista in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.lists/listlevel/trailingcharacter/
@@ -14,7 +16,7 @@ Restituisce o imposta il carattere inserito dopo il numero per il livello della 
 public ListTrailingCharacter TrailingCharacter { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare la formattazione dell'elenco personalizzato ai paragrafi quando si utilizza DocumentBuilder.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * enum [ListTrailingCharacter](../../listtrailingcharacter/)
 * class [ListLevel](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listlevel/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

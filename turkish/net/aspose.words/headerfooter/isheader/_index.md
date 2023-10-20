@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsHeader
-second_title: Aspose.Words for .NET API Referansı
-description: HeaderFooter mülk. Eğer bu doğruysaHeaderFooter nesne bir başlıktır.
+linktitle: IsHeader
+articleTitle: IsHeader
+second_title: Aspose.Words for .NET
+description: HeaderFooter IsHeader mülk. Eğer bu doğruysaHeaderFooter nesne bir başlıktır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/headerfooter/isheader/
@@ -14,7 +16,7 @@ Eğer bu doğruysa[`HeaderFooter`](../) nesne bir başlıktır.
 public bool IsHeader { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Üstbilgi ve altbilginin nasıl oluşturulacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### Ayrıca bakınız
 
 * class [HeaderFooter](../)
-* ad alanı [Aspose.Words](../../headerfooter/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

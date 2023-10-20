@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowDataLabelsRange
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabel mülk. Veri etiketleri aralığındaki değerlerin veri etiketlerinde görüntülenip görüntülenmeyeceğini belirtmeye olanak tanır. Varsayılan değerYANLIŞ .
+linktitle: ShowDataLabelsRange
+articleTitle: ShowDataLabelsRange
+second_title: Aspose.Words for .NET
+description: ChartDataLabel ShowDataLabelsRange mülk. Veri etiketleri aralığındaki değerlerin veri etiketlerinde görüntülenip görüntülenmeyeceğini belirtmeye olanak tanır. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/
@@ -14,7 +16,7 @@ Veri etiketleri aralığındaki değerlerin veri etiketlerinde görüntülenip g
 public bool ShowDataLabelsRange { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Ayrıca bakınız
 
 * class [ChartDataLabel](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

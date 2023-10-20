@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Bubble3D
-second_title: Справочник по API Aspose.Words для .NET
-description: IChartDataPoint свойство. Указывает должен ли к пузырькам на пузырьковой диаграмме применяться трехмерный эффект.
+linktitle: Bubble3D
+articleTitle: Bubble3D
+second_title: Aspose.Words для .NET
+description: IChartDataPoint Bubble3D свойство. Указывает должен ли к пузырькам на пузырьковой диаграмме применяться трехмерный эффект на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/ichartdatapoint/bubble3d/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/ichartdatapoint/bubble3d/
 public bool Bubble3D { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать 3D-эффекты с пузырьковыми диаграммами.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 ### Смотрите также
 
 * interface [IChartDataPoint](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

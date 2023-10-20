@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertParagraph
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج فاصل فقرة في المستند.
+linktitle: InsertParagraph
+articleTitle: InsertParagraph
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertParagraph طريقة. إدراج فاصل فقرة في المستند في C#.
 type: docs
-weight: 430
+weight: 420
 url: /ar/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
@@ -18,7 +20,7 @@ public Paragraph InsertParagraph()
 
 عقدة الفقرة التي تم إدراجها للتو. وهي نفس العقدة[`CurrentParagraph`](../currentparagraph/).
 
-### ملاحظات
+## ملاحظات
 
 تنسيق الفقرة الحالي المحدد بواسطة[`ParagraphFormat`](../paragraphformat/) يتم استخدام الممتلكات.
 
@@ -26,7 +28,7 @@ public Paragraph InsertParagraph()
 
 يتم طرح استثناء إذا لم يكن من الممكن إدراج فاصل فقرة في موضع المؤشر الحالي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج فقرة في المستند.
 
@@ -59,7 +61,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 
 * class [Paragraph](../../paragraph/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

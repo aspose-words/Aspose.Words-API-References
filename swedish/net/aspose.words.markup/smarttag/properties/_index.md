@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Properties
-second_title: Aspose.Words för .NET API Referens
-description: SmartTag fast egendom. En samling av egenskaperna för smarta taggar.
+linktitle: Properties
+articleTitle: Properties
+second_title: Aspose.Words för .NET
+description: SmartTag Properties fast egendom. En samling av egenskaperna för smarta taggar i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.markup/smarttag/properties/
@@ -14,11 +16,11 @@ En samling av egenskaperna för smarta taggar.
 public CustomXmlPropertyCollection Properties { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan inte vara`null`.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar smarta taggar.
 
@@ -120,7 +122,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [CustomXmlPropertyCollection](../../customxmlpropertycollection/)
 * class [SmartTag](../)
-* namnutrymme [Aspose.Words.Markup](../../smarttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

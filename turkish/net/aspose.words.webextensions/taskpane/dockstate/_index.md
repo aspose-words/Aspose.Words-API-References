@@ -1,7 +1,9 @@
 ---
 title: TaskPane.DockState
-second_title: Aspose.Words for .NET API Referansı
-description: TaskPane mülk. Bu görev bölmesi nesnesinin en son yerleştirildiği konumu belirtir.
+linktitle: DockState
+articleTitle: DockState
+second_title: Aspose.Words for .NET
+description: TaskPane DockState mülk. Bu görev bölmesi nesnesinin en son yerleştirildiği konumu belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.webextensions/taskpane/dockstate/
@@ -14,7 +16,7 @@ Bu görev bölmesi nesnesinin en son yerleştirildiği konumu belirtir.
 public TaskPaneDockState DockState { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [TaskPaneDockState](../../taskpanedockstate/)
 * class [TaskPane](../)
-* ad alanı [Aspose.Words.WebExtensions](../../taskpane/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

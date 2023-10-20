@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.LinkToQuery
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Не уверен насчет этого. Справочник по автоматизации Microsoft Word предполагает что это указывает на то что запрос выполняется каждый раз когда документ открывается в Microsoft Word. Но спецификация OOXML предполагает что это указывает на то что запрос содержит ссылку на внешний файл запроса который содержит фактический запрос. Значение по умолчаниюЛОЖЬ .
+linktitle: LinkToQuery
+articleTitle: LinkToQuery
+second_title: Aspose.Words для .NET
+description: MailMergeSettings LinkToQuery свойство. Не уверен насчет этого. Справочник по автоматизации Microsoft Word предполагает что это указывает на то что запрос выполняется каждый раз когда документ открывается в Microsoft Word. Но спецификация OOXML предполагает что это указывает на то что запрос содержит ссылку на внешний файл запроса который содержит фактический запрос. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.settings/mailmergesettings/linktoquery/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/mailmergesettings/linktoquery/
 public bool LinkToQuery { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Смотрите также
 
 * class [MailMergeSettings](../)
-* пространство имен [Aspose.Words.Settings](../../mailmergesettings/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

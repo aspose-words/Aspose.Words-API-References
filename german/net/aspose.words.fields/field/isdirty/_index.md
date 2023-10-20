@@ -1,7 +1,9 @@
 ---
 title: Field.IsDirty
-second_title: Aspose.Words für .NET-API-Referenz
-description: Field eigendom. Ruft ab oder legt fest ob das aktuelle Ergebnis des Felds aufgrund anderer am Dokument vorgenommener Änderungen nicht mehr korrekt veraltet ist.
+linktitle: IsDirty
+articleTitle: IsDirty
+second_title: Aspose.Words für .NET
+description: Field IsDirty eigendom. Ruft ab oder legt fest ob das aktuelle Ergebnis des Felds aufgrund anderer am Dokument vorgenommener Änderungen nicht mehr korrekt veraltet ist in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/field/isdirty/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer am D
 public bool IsDirty { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine spezielle Eigenschaft zum Aktualisieren des Feldergebnisses verwendet wird.
 
@@ -71,7 +73,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Siehe auch
 
 * class [Field](../)
-* namensraum [Aspose.Words.Fields](../../field/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OlePackage
-second_title: Справочник по API Aspose.Words для .NET
-description: OleFormat свойство. Предоставить доступ кOlePackage если объект OLE является пакетом OLE. Возвращаетнулевой иначе.
+linktitle: OlePackage
+articleTitle: OlePackage
+second_title: Aspose.Words для .NET
+description: OleFormat OlePackage свойство. Предоставить доступ кOlePackage если объект OLE является пакетом OLE. Возвращаетнулевой иначе на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.drawing/oleformat/olepackage/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/oleformat/olepackage/
 public OlePackage OlePackage { get; }
 ```
 
-### Примечания
+## Примечания
 
 Пакет OLE — это устаревшая технология, которая позволяет обернуть любой формат файла, отсутствующий в реестре OLE системы Windows, в общий пакет, позволяющий встраивать в документ практически все, что угодно. См.[`OlePackage`](../../olepackage/) введите для получения дополнительной информации.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить объект OLE в документ.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 
 * class [OlePackage](../../olepackage/)
 * class [OleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../oleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

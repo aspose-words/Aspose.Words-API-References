@@ -1,7 +1,9 @@
 ---
 title: FieldNextIf.ComparisonOperator
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldNextIf propiedad. Obtiene o establece el operador de comparación.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words para .NET
+description: FieldNextIf ComparisonOperator propiedad. Obtiene o establece el operador de comparación en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldnextif/comparisonoperator/
@@ -14,7 +16,7 @@ Obtiene o establece el operador de comparación.
 public string ComparisonOperator { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los campos SIGUIENTE/SIGUIENTEIF para combinar varias filas en una página durante una combinación de correspondencia.
 
@@ -96,7 +98,5 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 ### Ver también
 
 * class [FieldNextIf](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldnextif/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedFonts
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlFixedSaveOptions eigendom. Gibt an ob Schriftarten in ein HTMLDokument im Base64Format eingebettet werden sollen. Hinweis Das Setzen dieses Flags kann die Größe der ausgegebenen HTMLDatei erheblich erhöhen.
+linktitle: ExportEmbeddedFonts
+articleTitle: ExportEmbeddedFonts
+second_title: Aspose.Words für .NET
+description: HtmlFixedSaveOptions ExportEmbeddedFonts eigendom. Gibt an ob Schriftarten in ein HTMLDokument im Base64Format eingebettet werden sollen. Hinweis Das Setzen dieses Flags kann die Größe der ausgegebenen HTMLDatei erheblich erhöhen in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts/
@@ -14,7 +16,7 @@ Gibt an, ob Schriftarten in ein HTML-Dokument im Base64-Format eingebettet werde
 public bool ExportEmbeddedFonts { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bestimmen, wo eingebettete Schriftarten gespeichert werden sollen, wenn Sie ein Dokument in HTML exportieren.
 
@@ -54,7 +56,5 @@ else
 ### Siehe auch
 
 * class [HtmlFixedSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

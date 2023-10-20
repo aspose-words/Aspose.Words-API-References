@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Position
-second_title: Aspose.Words لمراجع .NET API
-description: GradientStop ملكية. الحصول على أو تعيين قيمة تمثل موضع التوقف ضمن التدرج معبرًا عنه كنسبة مئوية في النطاق من 0.0 إلى 1.0.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words لـ .NET
+description: GradientStop Position ملكية. الحصول على أو تعيين قيمة تمثل موضع التوقف ضمن التدرج معبرًا عنه كنسبة مئوية في النطاق من 0.0 إلى 1.0 في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing/gradientstop/position/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/gradientstop/position/
 public double Position { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نقاط توقف متدرجة إلى التعبئة المتدرجة.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### أنظر أيضا
 
 * class [GradientStop](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../gradientstop/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

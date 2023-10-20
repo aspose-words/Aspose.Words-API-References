@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.MovedToTextEffect
-second_title: Aspose.Words for .NET API 参考
-description: RevisionOptions 财产. 允许指定要应用于内容移动到的区域的效果Moving. 默认值为DoubleUnderline
+linktitle: MovedToTextEffect
+articleTitle: MovedToTextEffect
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionOptions MovedToTextEffect 财产. 允许指定要应用于内容移动到的区域的效果Moving. 默认值为DoubleUnderline 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.layout/revisionoptions/movedtotexteffect/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.layout/revisionoptions/movedtotexteffect/
 public RevisionTextEffect MovedToTextEffect { get; set; }
 ```
 
-### 评论
+## 评论
 
 的价值观Hidden和DoubleStrikeThrough 是不允许的，会导致ArgumentOutOfRangeException。
 
-### 例子
+## 例子
 
 展示如何修改修订版本的外观。
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionTextEffect](../../revisiontexteffect/)
 * class [RevisionOptions](../)
-* 命名空间 [Aspose.Words.Layout](../../revisionoptions/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

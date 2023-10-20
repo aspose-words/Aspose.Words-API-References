@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.UnregisterDictionary
-second_title: Aspose.Words für .NET-API-Referenz
-description: Hyphenation methode. Hebt die Registrierung eines Silbentrennungswörterbuchs für die angegebene Sprache auf.
+linktitle: UnregisterDictionary
+articleTitle: UnregisterDictionary
+second_title: Aspose.Words für .NET
+description: Hyphenation UnregisterDictionary methode. Hebt die Registrierung eines Silbentrennungswörterbuchs für die angegebene Sprache auf in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/hyphenation/unregisterdictionary/
@@ -20,7 +22,7 @@ public static void UnregisterDictionary(string language)
 | --- | --- | --- |
 | language | String | Ein Sprachname, z. B. „en-US“. Weitere Informationen finden Sie in der .NET-Dokumentation für „Kulturname“ und RFC 4646. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Silbentrennungswörterbuch registriert.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### Siehe auch
 
 * class [Hyphenation](../)
-* namensraum [Aspose.Words](../../hyphenation/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

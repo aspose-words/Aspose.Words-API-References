@@ -1,9 +1,11 @@
 ---
 title: Fill.ForeColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Fill eigendom. Ruft ein ColorObjekt ab oder legt dieses fest das die Vordergrundfarbe für die Füllung darstellt.
+linktitle: ForeColor
+articleTitle: ForeColor
+second_title: Aspose.Words für .NET
+description: Fill ForeColor eigendom. Ruft ein ColorObjekt ab oder legt dieses fest das die Vordergrundfarbe für die Füllung darstellt in C#.
 type: docs
-weight: 70
+weight: 60
 url: /de/net/aspose.words.drawing/fill/forecolor/
 ---
 ## Fill.ForeColor property
@@ -14,11 +16,11 @@ Ruft ein Color-Objekt ab oder legt dieses fest, das die Vordergrundfarbe für di
 public Color ForeColor { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft setzt die Alpha-Komponente des zurückColor bis hin zu völlig undurchsichtiger Farbe im Gegensatz zu den[`Color`](../color/) Eigentum, das es bewahrt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, um eine Vielzahl von Formen zu erstellen.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Siehe auch
 
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

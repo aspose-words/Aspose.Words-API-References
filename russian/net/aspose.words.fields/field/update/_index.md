@@ -1,7 +1,9 @@
 ---
 title: Field.Update
-second_title: Справочник по API Aspose.Words для .NET
-description: Field метод. Выполняет обновление поля. Выдает если поле уже обновляется.
+linktitle: Update
+articleTitle: Update
+second_title: Aspose.Words для .NET
+description: Field Update метод. Выполняет обновление поля. Выдает если поле уже обновляется на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.fields/field/update/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/field/update/
 public void Update()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле в документ с помощью FieldType.
 
@@ -118,12 +120,12 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Смотрите также
 
 * class [Field](../)
-* пространство имен [Aspose.Words.Fields](../../field/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Update(bool) {#update_1}
+## Update(*bool*) {#update_1}
 
 Выполняет обновление поля. Выдает, если поле уже обновляется.
 
@@ -135,7 +137,7 @@ public void Update(bool ignoreMergeFormat)
 | --- | --- | --- |
 | ignoreMergeFormat | Boolean | Если`истинный` тогда прямое форматирование результата поля прекращается, независимо от переключателя MERGEFORMAT, в противном случае выполняется обычное обновление. |
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить или удалить поля INCLUDEPICTURE при загрузке документа.
 
@@ -177,7 +179,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Смотрите также
 
 * class [Field](../)
-* пространство имен [Aspose.Words.Fields](../../field/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

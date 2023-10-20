@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.BuildingBlocks
-second_title: Aspose.Words per .NET API Reference
-description: IL Aspose.Words.BuildingBlocks namespace fornisce classi che consentono di accedere a e utilizzare il glossario le voci di correzione automatica e i blocchi predefiniti in un documento.
+linktitle: Aspose.Words.BuildingBlocks
+articleTitle: Aspose.Words.BuildingBlocks
+second_title: Aspose.Words per .NET
+description: ILAspose.Words.BuildingBlocks namespace fornisce classi che consentono di accedere a e utilizzare il glossario le voci di correzione automatica e i blocchi predefiniti in un documento in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.buildingblocks/
 ---
-IL **Aspose.Words.BuildingBlocks** namespace fornisce classi che consentono di accedere a e utilizzare il glossario, le voci di correzione automatica e i blocchi predefiniti in un documento.
+IL**Aspose.Words.BuildingBlocks** namespace fornisce classi che consentono di accedere a e utilizzare il glossario, le voci di correzione automatica e i blocchi predefiniti in un documento.
 
 ## Classi
 
@@ -22,5 +24,3 @@ IL **Aspose.Words.BuildingBlocks** namespace fornisce classi che consentono di a
 | [BuildingBlockBehavior](./buildingblockbehavior/) | Specifica il comportamento che deve essere applicato al contenuto del building block quando viene inserito nel documento principale. |
 | [BuildingBlockGallery](./buildingblockgallery/) | Specifica la raccolta predefinita in cui viene classificato un blocco predefinito. |
 | [BuildingBlockType](./buildingblocktype/) | Specifica un tipo di blocco predefinito. Il tipo potrebbe influire sulla visibilità e sul comportamento del blocco predefinito in Microsoft Word. |
-
-

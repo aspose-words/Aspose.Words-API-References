@@ -1,7 +1,9 @@
 ---
 title: EditableRange.EditorGroup
-second_title: Aspose.Words für .NET-API-Referenz
-description: EditableRange eigendom. Gibt einen Alias oder eine Bearbeitungsgruppe zurück oder legt diesen fest der verwendet werden soll um zu bestimmen ob der aktuelle Benutzer diesen bearbeitbaren Bereich bearbeiten darf.
+linktitle: EditorGroup
+articleTitle: EditorGroup
+second_title: Aspose.Words für .NET
+description: EditableRange EditorGroup eigendom. Gibt einen Alias oder eine Bearbeitungsgruppe zurück oder legt diesen fest der verwendet werden soll um zu bestimmen ob der aktuelle Benutzer diesen bearbeitbaren Bereich bearbeiten darf in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/editablerange/editorgroup/
@@ -14,11 +16,11 @@ Gibt einen Alias (oder eine Bearbeitungsgruppe) zurück oder legt diesen fest, d
 public EditorType EditorGroup { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Ein einzelner Benutzer und eine Editorgruppe können nicht gleichzeitig für den spezifischen bearbeitbaren Bereich festgelegt werden. Wenn das eine festgelegt ist, ist das andere gelöscht.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschachtelte bearbeitbare Bereiche erstellt werden.
 
@@ -166,7 +168,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * enum [EditorType](../../editortype/)
 * class [EditableRange](../)
-* namensraum [Aspose.Words](../../editablerange/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

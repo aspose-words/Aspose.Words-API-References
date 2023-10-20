@@ -1,7 +1,9 @@
 ---
-title: Enum AxisBuiltInUnit
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit énumération. Spécifie les unités daffichage pour un axe.
+title: AxisBuiltInUnit Enum
+linktitle: AxisBuiltInUnit
+articleTitle: AxisBuiltInUnit
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit énumération. Spécifie les unités daffichage pour un axe en C#.
 type: docs
 weight: 520
 url: /fr/net/aspose.words.drawing.charts/axisbuiltinunit/
@@ -31,7 +33,7 @@ public enum AxisBuiltInUnit
 | Trillions | `10` | Spécifie que les valeurs sur le graphique doivent être divisées par 1 000 000 000 0000. |
 | Percentage | `11` | Spécifie que les valeurs sur le graphique doivent être divisées par 0,01. Cette valeur est prise en charge uniquement par les nouveaux types chart de MS Office 2016. |
 
-### Exemples
+## Exemples
 
 Montre comment manipuler les graduations et les valeurs affichées d’un axe de graphique.
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * espace de noms [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ImageColorSpaceExportMode
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 指定如何为 PDF 文档中的图像选择色彩空间
+linktitle: ImageColorSpaceExportMode
+articleTitle: ImageColorSpaceExportMode
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions ImageColorSpaceExportMode 财产. 指定如何为 PDF 文档中的图像选择色彩空间 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words.saving/pdfsaveoptions/imagecolorspaceexportmode/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/imagecolorspaceexportmode/
 public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为Auto.
 
@@ -22,7 +24,7 @@ public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
 
 SimpleCmyk保存为 PDF/A 时不支持该值。 Auto将使用值来代替。
 
-### 例子
+## 例子
 
 演示将文档导出为 PDF 时如何为文档中的图像设置不同的色彩空间。
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveO
 
 * enum [PdfImageColorSpaceExportMode](../../pdfimagecolorspaceexportmode/)
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

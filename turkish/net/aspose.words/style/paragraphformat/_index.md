@@ -1,9 +1,11 @@
 ---
 title: Style.ParagraphFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Stilin paragraf formatını alır.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words for .NET
+description: Style ParagraphFormat mülk. Stilin paragraf formatını alır C#'da.
 type: docs
-weight: 150
+weight: 140
 url: /tr/net/aspose.words/style/paragraphformat/
 ---
 ## Style.ParagraphFormat property
@@ -14,11 +16,11 @@ Stilin paragraf formatını alır.
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Notlar
+## Notlar
 
 Karakter ve liste stilleri için bu özellik şunu döndürür:`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Liste formatıyla paragraf stilinin nasıl oluşturulacağını ve kullanılacağını gösterir.
 
@@ -51,7 +53,5 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [Style](../)
-* ad alanı [Aspose.Words](../../style/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportDocumentProperties
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Yerleşik ve özel belge özelliklerinin HTML MHTML veya EPUBa aktarılıp aktarılmayacağını belirtir. Varsayılan değerYANLIŞ .
+linktitle: ExportDocumentProperties
+articleTitle: ExportDocumentProperties
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ExportDocumentProperties mülk. Yerleşik ve özel belge özelliklerinin HTML MHTML veya EPUBa aktarılıp aktarılmayacağını belirtir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportdocumentproperties/
@@ -14,7 +16,7 @@ Yerleşik ve özel belge özelliklerinin HTML, MHTML veya EPUB'a aktarılıp akt
 public bool ExportDocumentProperties { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi .epub'a kaydederken belirli bir kodlamanın nasıl kullanılacağını gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

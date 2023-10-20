@@ -1,7 +1,9 @@
 ---
-title: Class EndnoteOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Notes.EndnoteOptions сорт. Представляет параметры нумерации концевых сносок для документа или раздела.
+title: EndnoteOptions Class
+linktitle: EndnoteOptions
+articleTitle: EndnoteOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Notes.EndnoteOptions сорт. Представляет параметры нумерации концевых сносок для документа или раздела на С#.
 type: docs
 weight: 4240
 url: /ru/net/aspose.words.notes/endnoteoptions/
@@ -25,7 +27,7 @@ public sealed class EndnoteOptions
 | [RestartRule](../../aspose.words.notes/endnoteoptions/restartrule/) { get; set; } | Определяет, когда перезапускается автоматическая нумерация. |
 | [StartNumber](../../aspose.words.notes/endnoteoptions/startnumber/) { get; set; } | Указывает начальный номер или символ для первых автоматически нумерованных концевых сносок. |
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать другое место, где документ будет собираться и отображать его концевые сноски.
 
@@ -201,5 +203,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * property [EndnoteOptions](../../aspose.words/pagesetup/endnoteoptions/)
 * пространство имен [Aspose.Words.Notes](../../aspose.words.notes/)
 * сборка [Aspose.Words](../../)
-
-

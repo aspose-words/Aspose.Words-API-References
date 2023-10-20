@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.IsWriteProtected
-second_title: Aspose.Words für .NET-API-Referenz
-description: WriteProtection eigendom. Gibt zurückWAHR wenn ein Schreibschutzpasswort gesetzt ist.
+linktitle: IsWriteProtected
+articleTitle: IsWriteProtected
+second_title: Aspose.Words für .NET
+description: WriteProtection IsWriteProtected eigendom. Gibt zurückWAHR wenn ein Schreibschutzpasswort gesetzt ist in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.settings/writeprotection/iswriteprotected/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn ein Schreibschutzpasswort gesetzt ist.
 public bool IsWriteProtected { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument mit einem Passwort schützt.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### Siehe auch
 
 * class [WriteProtection](../)
-* namensraum [Aspose.Words.Settings](../../writeprotection/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

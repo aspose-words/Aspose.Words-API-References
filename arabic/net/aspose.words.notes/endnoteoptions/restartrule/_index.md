@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.RestartRule
-second_title: Aspose.Words لمراجع .NET API
-description: EndnoteOptions ملكية. تحديد وقت إعادة تشغيل الترقيم التلقائي.
+linktitle: RestartRule
+articleTitle: RestartRule
+second_title: Aspose.Words لـ .NET
+description: EndnoteOptions RestartRule ملكية. تحديد وقت إعادة تشغيل الترقيم التلقائي في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.notes/endnoteoptions/restartrule/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.notes/endnoteoptions/restartrule/
 public FootnoteNumberingRule RestartRule { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 ليست كل القيم قابلة للتطبيق على الحواشي الختامية. للتأكد من القيم القابلة للتطبيق، راجع[`FootnoteNumberingRule`](../../footnotenumberingrule/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعادة تشغيل ترقيم الحواشي السفلية/التعليقات الختامية في أماكن معينة في المستند.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * enum [FootnoteNumberingRule](../../footnotenumberingrule/)
 * class [EndnoteOptions](../)
-* مساحة الاسم [Aspose.Words.Notes](../../endnoteoptions/)
+* مساحة الاسم [Aspose.Words.Notes](../../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../../)
-
-

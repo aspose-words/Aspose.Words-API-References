@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTagRangeEnd.StructuredDocumentTagRangeEnd
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeEnd البناء. تهيئة مثيل جديد لـ نهاية نطاق علامات الوثيقة المنظمة فئة.
+title: StructuredDocumentTagRangeEnd
+linktitle: StructuredDocumentTagRangeEnd
+articleTitle: StructuredDocumentTagRangeEnd
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTagRangeEnd البناء. تهيئة مثيل جديد لـنهاية نطاق علامات الوثيقة المنظمة فئة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd constructor
 
-تهيئة مثيل جديد لـ **نهاية نطاق علامات الوثيقة المنظمة** فئة.
+تهيئة مثيل جديد لـ**نهاية نطاق علامات الوثيقة المنظمة** فئة.
 
 ```csharp
 public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
@@ -19,7 +21,7 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 | doc | DocumentBase | وثيقة المالك. |
 | id | Int32 | يبدأ معرف نطاق علامات المستند المنظم المقابل. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء/إزالة علامة المستند المنظمة ومحتواها.
 
@@ -72,7 +74,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [StructuredDocumentTagRangeEnd](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttagrangeend/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

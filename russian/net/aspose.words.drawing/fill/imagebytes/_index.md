@@ -1,9 +1,11 @@
 ---
 title: Fill.ImageBytes
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill свойство. Получает необработанные байты текстуры или узора заливки.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words для .NET
+description: Fill ImageBytes свойство. Получает необработанные байты текстуры или узора заливки на С#.
 type: docs
-weight: 140
+weight: 130
 url: /ru/net/aspose.words.drawing/fill/imagebytes/
 ---
 ## Fill.ImageBytes property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/fill/imagebytes/
 public byte[] ImageBytes { get; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает создание разнообразных фигур.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Смотрите также
 
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

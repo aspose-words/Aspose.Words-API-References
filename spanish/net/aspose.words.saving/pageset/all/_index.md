@@ -1,7 +1,9 @@
 ---
 title: PageSet.All
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSet propiedad. Obtiene un conjunto con todas las páginas del documento en su orden original.
+linktitle: All
+articleTitle: All
+second_title: Aspose.Words para .NET
+description: PageSet All propiedad. Obtiene un conjunto con todas las páginas del documento en su orden original en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/pageset/all/
@@ -17,7 +19,5 @@ public static PageSet All { get; }
 ### Ver también
 
 * class [PageSet](../)
-* espacio de nombres [Aspose.Words.Saving](../../pageset/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

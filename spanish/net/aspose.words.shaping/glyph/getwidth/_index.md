@@ -1,7 +1,9 @@
 ---
 title: Glyph.GetWidth
-second_title: Referencia de API de Aspose.Words para .NET
-description: Glyph método. Devuelve el ancho avance del glifo en puntos.
+linktitle: GetWidth
+articleTitle: GetWidth
+second_title: Aspose.Words para .NET
+description: Glyph GetWidth método. Devuelve el ancho avance del glifo en puntos en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.shaping/glyph/getwidth/
@@ -17,7 +19,5 @@ public virtual float GetWidth(int em, float fontSize)
 ### Ver también
 
 * class [Glyph](../)
-* espacio de nombres [Aspose.Words.Shaping](../../glyph/)
+* espacio de nombres [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.BackgroundColor
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDisplayBarcode mülk. Barkod sembolünün arka plan rengini alır veya ayarlar. Geçerli değerler 0 0xFFFFFF aralığındadır
+linktitle: BackgroundColor
+articleTitle: BackgroundColor
+second_title: Aspose.Words for .NET
+description: FieldDisplayBarcode BackgroundColor mülk. Barkod sembolünün arka plan rengini alır veya ayarlar. Geçerli değerler 0 0xFFFFFF aralığındadır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fielddisplaybarcode/backgroundcolor/
@@ -14,7 +16,7 @@ Barkod sembolünün arka plan rengini alır veya ayarlar. Geçerli değerler [0,
 public string BackgroundColor { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 DISPLAYBARCODE alanının nasıl ekleneceğini ve özelliklerinin nasıl ayarlanacağını gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Ayrıca bakınız
 
 * class [FieldDisplayBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

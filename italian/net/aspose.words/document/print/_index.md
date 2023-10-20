@@ -1,9 +1,11 @@
 ---
 title: Document.Print
-second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Stampa lintero documento sulla stampante predefinita.
+linktitle: Print
+articleTitle: Print
+second_title: Aspose.Words per .NET
+description: Document Print metodo. Stampa lintero documento sulla stampante predefinita in C#.
 type: docs
-weight: 660
+weight: 640
 url: /it/net/aspose.words/document/print/
 ---
 ## Print() {#print}
@@ -14,7 +16,7 @@ Stampa l'intero documento sulla stampante predefinita.
 public void Print()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come stampare un documento utilizzando la stampante predefinita.
 
@@ -38,12 +40,12 @@ doc.Print(myPrinter);
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Print(string) {#print_3}
+## Print(*string*) {#print_3}
 
 Stampa l'intero documento sulla stampante specificata, utilizzando il controller di stampa standard (senza interfaccia utente).
 
@@ -55,7 +57,7 @@ public void Print(string printerName)
 | --- | --- | --- |
 | printerName | String | Il nome della stampante. |
 
-### Esempi
+## Esempi
 
 Mostra come stampare un documento utilizzando la stampante predefinita.
 
@@ -79,12 +81,12 @@ doc.Print(myPrinter);
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Print(PrinterSettings) {#print_1}
+## Print(*PrinterSettings*) {#print_1}
 
 Stampa il documento in base alle impostazioni della stampante specificate, utilizzando il controller di stampa standard (senza interfaccia utente).
 
@@ -96,11 +98,11 @@ public void Print(PrinterSettings printerSettings)
 | --- | --- | --- |
 | printerSettings | PrinterSettings | Le impostazioni della stampante da utilizzare. |
 
-### Osservazioni
+## Osservazioni
 
 ILPrinterSettings L'oggetto consente di specificare la stampante su cui stampare, l'intervallo di pagine da stampare e altre opzioni.
 
-### Esempi
+## Esempi
 
 Mostra come stampare un intervallo di pagine.
 
@@ -131,12 +133,12 @@ doc.Print(printerSettings, "My rendered document");
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Print(PrinterSettings, string) {#print_2}
+## Print(*PrinterSettings, string*) {#print_2}
 
 Stampa il documento in base alle impostazioni della stampante specificate, utilizzando il controller di stampa standard (senza interfaccia utente) e un nome documento.
 
@@ -149,11 +151,11 @@ public void Print(PrinterSettings printerSettings, string documentName)
 | printerSettings | PrinterSettings | Le impostazioni della stampante da utilizzare. |
 | documentName | String | Il nome del documento da visualizzare (ad esempio, in una finestra di dialogo di stato della stampa o nella coda della stampante) durante la stampa del documento. |
 
-### Osservazioni
+## Osservazioni
 
 ILPrinterSettings L'oggetto consente di specificare la stampante su cui stampare, l'intervallo di pagine da stampare e altre opzioni.
 
-### Esempi
+## Esempi
 
 Mostra come stampare un intervallo di pagine.
 
@@ -184,7 +186,5 @@ doc.Print(printerSettings, "My rendered document");
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

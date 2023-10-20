@@ -1,7 +1,9 @@
 ---
 title: Font.Bold
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. True если шрифт отформатирован как жирный.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words для .NET
+description: Font Bold свойство. True если шрифт отформатирован как жирный на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/font/bold/
@@ -14,7 +16,7 @@ True, если шрифт отформатирован как жирный.
 public bool Bold { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять форматированный текст с помощью DocumentBuilder.
 
@@ -36,7 +38,5 @@ builder.Write("Hello world!");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

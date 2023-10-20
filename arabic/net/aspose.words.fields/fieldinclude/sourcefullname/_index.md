@@ -1,7 +1,9 @@
 ---
 title: FieldInclude.SourceFullName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldInclude ملكية. الحصول على أو تعيين موقع المستند.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words لـ .NET
+description: FieldInclude SourceFullName ملكية. الحصول على أو تعيين موقع المستند في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldinclude/sourcefullname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldinclude/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل INCLUDE وتعيين خصائصه.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### أنظر أيضا
 
 * class [FieldInclude](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldinclude/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

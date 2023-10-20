@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberDistanceFromText
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 获取或设置行号右边缘与文档左边缘之间的距离
+linktitle: LineNumberDistanceFromText
+articleTitle: LineNumberDistanceFromText
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup LineNumberDistanceFromText 财产. 获取或设置行号右边缘与文档左边缘之间的距离 在 C#.
 type: docs
 weight: 220
 url: /zh/net/aspose.words/pagesetup/linenumberdistancefromtext/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/pagesetup/linenumberdistancefromtext/
 public double LineNumberDistanceFromText { get; set; }
 ```
 
-### 评论
+## 评论
 
 将此属性设置为零，以实现文档行号和文本之间的自动距离。
 
-### 例子
+## 例子
 
 展示如何为节启用行编号。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

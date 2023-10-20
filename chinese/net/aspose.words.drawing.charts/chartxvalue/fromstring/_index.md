@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromString
-second_title: Aspose.Words for .NET API 参考
-description: ChartXValue 方法. 创建一个ChartXValue的实例String类型.
+linktitle: FromString
+articleTitle: FromString
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartXValue FromString 方法. 创建一个ChartXValue的实例String类型 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing.charts/chartxvalue/fromstring/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartxvalue/fromstring/
 public static ChartXValue FromString(string value)
 ```
 
-### 例子
+## 例子
 
 展示如何添加/删除图表数据值。
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartDataValues.docx");
 ### 也可以看看
 
 * class [ChartXValue](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

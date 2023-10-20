@@ -1,12 +1,14 @@
 ---
 title: License.SetLicense
-second_title: Справочник по API Aspose.Words для .NET
-description: License метод. Лицензиирует компонент.
+linktitle: SetLicense
+articleTitle: SetLicense
+second_title: Aspose.Words для .NET
+description: License SetLicense метод. Лицензиирует компонент на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/license/setlicense/
 ---
-## SetLicense(string) {#setlicense_1}
+## SetLicense(*string*) {#setlicense_1}
 
 Лицензиирует компонент.
 
@@ -18,7 +20,7 @@ public void SetLicense(string licenseName)
 | --- | --- | --- |
 | licenseName | String | Может быть полным или кратким именем файла или именем встроенного ресурса. Используйте пустую строку, чтобы переключиться в режим оценки. |
 
-### Примечания
+## Примечания
 
 Пытается найти лицензию в следующих местах:
 
@@ -38,7 +40,7 @@ public void SetLicense(string licenseName)
 
 2. Встроенный ресурс в вызывающую сборку клиента.
 
-### Примеры
+## Примеры
 
 Показывает, как инициализировать лицензию для Aspose.Words с использованием файла лицензии в локальной файловой системе.
 
@@ -62,12 +64,12 @@ license.SetLicense("Aspose.Words.NET.lic");
 ### Смотрите также
 
 * class [License](../)
-* пространство имен [Aspose.Words](../../license/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## SetLicense(Stream) {#setlicense}
+## SetLicense(*Stream*) {#setlicense}
 
 Лицензиирует компонент.
 
@@ -79,11 +81,11 @@ public void SetLicense(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Поток, содержащий лицензию. |
 
-### Примечания
+## Примечания
 
 Используйте этот метод для загрузки лицензии из потока.
 
-### Примеры
+## Примеры
 
 Показывает, как инициализировать лицензию для Aspose.Words из потока.
 
@@ -99,7 +101,5 @@ using (Stream myStream = File.OpenRead(Path.Combine(LicenseDir, "Aspose.Words.NE
 ### Смотрите также
 
 * class [License](../)
-* пространство имен [Aspose.Words](../../license/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

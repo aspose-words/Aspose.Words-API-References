@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreInserted
-second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. الحصول على قيمة منطقية أو تعيينها تشير إما إلى تجاهل النص الموجود داخل مراجعات الإدراج. القيمة الافتراضية هيخطأ شنيع .
+linktitle: IgnoreInserted
+articleTitle: IgnoreInserted
+second_title: Aspose.Words لـ .NET
+description: FindReplaceOptions IgnoreInserted ملكية. الحصول على قيمة منطقية أو تعيينها تشير إما إلى تجاهل النص الموجود داخل مراجعات الإدراج. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/
 public bool IgnoreInserted { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تضمين النص أو تجاهله داخل مراجعات الإدراج أثناء عملية البحث والاستبدال.
 
@@ -51,7 +53,5 @@ Assert.AreEqual(
 ### أنظر أيضا
 
 * class [FindReplaceOptions](../)
-* مساحة الاسم [Aspose.Words.Replacing](../../findreplaceoptions/)
+* مساحة الاسم [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * المجسم [Aspose.Words](../../../)
-
-

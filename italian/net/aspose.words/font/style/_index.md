@@ -1,7 +1,9 @@
 ---
 title: Font.Style
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene o imposta lo stile di carattere applicato a questa formattazione.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words per .NET
+description: Font Style proprietà. Ottiene o imposta lo stile di carattere applicato a questa formattazione in C#.
 type: docs
 weight: 400
 url: /it/net/aspose.words/font/style/
@@ -14,7 +16,7 @@ Ottiene o imposta lo stile di carattere applicato a questa formattazione.
 public Style Style { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Applica una doppia sottolineatura a tutte le sequenze in un documento formattato con stili di carattere personalizzati.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Font.Style.docx");
 
 * class [Style](../../style/)
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

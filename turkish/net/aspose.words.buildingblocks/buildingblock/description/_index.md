@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Description
-second_title: Aspose.Words for .NET API Referansı
-description: BuildingBlock mülk. Bu yapı taşıyla ilişkili açıklamayı alır veya ayarlar.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words for .NET
+description: BuildingBlock Description mülk. Bu yapı taşıyla ilişkili açıklamayı alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.buildingblocks/buildingblock/description/
@@ -14,15 +16,15 @@ Bu yapı taşıyla ilişkili açıklamayı alır veya ayarlar.
 public string Description { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Açıklama, genellikle ek bilgiler olmak üzere herhangi bir dize içeriğini içerebilir.
 
 Olamaz`hükümsüz`, ancak boş bir dize olabilir.
 
-karşılık gelir **docPartPr.description** OOXML'deki öğe.
+karşılık gelir**docPartPr.description** OOXML'deki öğe.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye özel yapı taşının nasıl ekleneceğini gösterir.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [BuildingBlock](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

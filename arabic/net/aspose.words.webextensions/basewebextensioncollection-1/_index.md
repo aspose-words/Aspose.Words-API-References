@@ -1,7 +1,9 @@
 ---
-title: Class BaseWebExtensionCollectionT
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T فصل. الفئة الأساسية لـTaskPaneCollection WebExtensionBindingCollectionWebExtensionPropertyCollection وWebExtensionReferenceCollection المجموعات.
+title: BaseWebExtensionCollectionT Class
+linktitle: BaseWebExtensionCollectionT
+articleTitle: BaseWebExtensionCollectionT
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T فصل. الفئة الأساسية لـTaskPaneCollection WebExtensionBindingCollectionWebExtensionPropertyCollection وWebExtensionReferenceCollection المجموعات في C#.
 type: docs
 weight: 6700
 url: /ar/net/aspose.words.webextensions/basewebextensioncollection-1/
@@ -32,12 +34,12 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | إضافة عنصر محدد إلى المجموعة. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*T*) | إضافة عنصر محدد إلى المجموعة. |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | إزالة كافة العناصر من المجموعة. |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | يُرجع عدادًا يمكنه التكرار من خلال مجموعة. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | إزالة العنصر الموجود في الفهرس المحدد من المجموعة. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) | إزالة العنصر الموجود في الفهرس المحدد من المجموعة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة ملحقات الويب الخاصة بالمستند.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * مساحة الاسم [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../)
-
-

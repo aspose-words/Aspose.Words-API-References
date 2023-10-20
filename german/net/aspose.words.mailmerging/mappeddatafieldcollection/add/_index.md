@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Add
-second_title: Aspose.Words für .NET-API-Referenz
-description: MappedDataFieldCollection methode. Fügt eine neue Feldzuordnung hinzu.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words für .NET
+description: MappedDataFieldCollection Add methode. Fügt eine neue Feldzuordnung hinzu in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.mailmerging/mappeddatafieldcollection/add/
@@ -19,7 +21,7 @@ public void Add(string documentFieldName, string dataSourceFieldName)
 | documentFieldName | String | Groß- und Kleinschreibung beachtender Name des Serienbrieffelds im Dokument. |
 | dataSourceFieldName | String | Groß- und Kleinschreibung beachtender Name des Feldes in der Datenquelle. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Datenspalten und MERGEFIELDs mit unterschiedlichen Namen zugeordnet werden, damit die Daten während eines Seriendrucks zwischen ihnen übertragen werden.
 
@@ -104,7 +106,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Siehe auch
 
 * class [MappedDataFieldCollection](../)
-* namensraum [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

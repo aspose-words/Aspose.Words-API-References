@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PreserveTabs
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToc свойство. Получает или задает сохранять ли записи вкладок в записях таблицы.
+linktitle: PreserveTabs
+articleTitle: PreserveTabs
+second_title: Aspose.Words для .NET
+description: FieldToc PreserveTabs свойство. Получает или задает сохранять ли записи вкладок в записях таблицы на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.fields/fieldtoc/preservetabs/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoc/preservetabs/
 public bool PreserveTabs { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить оглавление и заполнить его записями на основе стилей заголовков.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Смотрите также
 
 * class [FieldToc](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

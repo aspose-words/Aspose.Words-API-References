@@ -1,12 +1,14 @@
 ---
 title: Range.Replace
-second_title: Aspose.Words für .NET-API-Referenz
-description: Range methode. Ersetzt alle Vorkommen eines angegebenen Zeichenfolgenmusters durch eine Ersatzzeichenfolge.
+linktitle: Replace
+articleTitle: Replace
+second_title: Aspose.Words für .NET
+description: Range Replace methode. Ersetzt alle Vorkommen eines angegebenen Zeichenfolgenmusters durch eine Ersatzzeichenfolge in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words/range/replace/
 ---
-## Replace(string, string) {#replace}
+## Replace(*string, string*) {#replace}
 
 Ersetzt alle Vorkommen eines angegebenen Zeichenfolgenmusters durch eine Ersatzzeichenfolge.
 
@@ -23,7 +25,7 @@ public int Replace(string pattern, string replacement)
 
 Die Anzahl der vorgenommenen Ersetzungen.
 
-### Bemerkungen
+## Bemerkungen
 
 Das Muster wird nicht als regulärer Ausdruck verwendet. Bitte verwenden`Replace`wenn Sie reguläre Ausdrücke benötigen.
 
@@ -40,7 +42,7 @@ Sie sollten spezielle Metazeichen verwenden, wenn Sie mit Pausen arbeiten müsse
 
 Methode verwenden`Replace` um eine flexiblere Anpassung zu ermöglichen.
 
-### Beispiele
+## Beispiele
 
 ```csharp
 Document doc = new Document();
@@ -104,12 +106,12 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 ### Siehe auch
 
 * class [Range](../)
-* namensraum [Aspose.Words](../../range/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Replace(Regex, string) {#replace_2}
+## Replace(*Regex, string*) {#replace_2}
 
 Ersetzt alle Vorkommen eines durch einen regulären Ausdruck angegebenen Zeichenmusters durch eine andere Zeichenfolge.
 
@@ -126,7 +128,7 @@ public int Replace(Regex pattern, string replacement)
 
 Die Anzahl der vorgenommenen Ersetzungen.
 
-### Bemerkungen
+## Bemerkungen
 
 Ersetzt die gesamte vom regulären Ausdruck erfasste Übereinstimmung.
 
@@ -141,7 +143,7 @@ Sie sollten spezielle Metazeichen verwenden, wenn Sie mit Pausen arbeiten müsse
 
 Methode verwenden`Replace` um eine flexiblere Anpassung zu ermöglichen.
 
-### Beispiele
+## Beispiele
 
 ```csharp
 Document doc = new Document();
@@ -168,12 +170,12 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 ### Siehe auch
 
 * class [Range](../)
-* namensraum [Aspose.Words](../../range/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Replace(string, string, FindReplaceOptions) {#replace_1}
+## Replace(*string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_1}
 
 Ersetzt alle Vorkommen eines angegebenen Zeichenfolgenmusters durch eine Ersatzzeichenfolge.
 
@@ -191,7 +193,7 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 
 Die Anzahl der vorgenommenen Ersetzungen.
 
-### Bemerkungen
+## Bemerkungen
 
 Das Muster wird nicht als regulärer Ausdruck verwendet. Bitte verwenden`Replace`wenn Sie reguläre Ausdrücke benötigen.
 
@@ -205,7 +207,7 @@ Sie sollten spezielle Metazeichen verwenden, wenn Sie mit Pausen arbeiten müsse
 * **&amp;l** - Manueller Zeilenumbruch
 * **&amp;&amp;** - &amp; Charakter
 
-### Beispiele
+## Beispiele
 
 ```csharp
 Document doc = new Document();
@@ -315,12 +317,12 @@ Assert.AreEqual("Eggs\a50\a\a" +
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* namensraum [Aspose.Words](../../range/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Replace(Regex, string, FindReplaceOptions) {#replace_3}
+## Replace(*Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_3}
 
 Ersetzt alle Vorkommen eines durch einen regulären Ausdruck angegebenen Zeichenmusters durch eine andere Zeichenfolge.
 
@@ -338,7 +340,7 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 
 Die Anzahl der vorgenommenen Ersetzungen.
 
-### Bemerkungen
+## Bemerkungen
 
 Ersetzt die gesamte vom regulären Ausdruck erfasste Übereinstimmung.
 
@@ -352,7 +354,7 @@ Sie sollten spezielle Metazeichen verwenden, wenn Sie mit Pausen arbeiten müsse
 * **&amp;l** - Manueller Zeilenumbruch
 * **&amp;&amp;** - &amp; Charakter
 
-### Beispiele
+## Beispiele
 
 ```csharp
 Document doc = new Document();
@@ -487,7 +489,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* namensraum [Aspose.Words](../../range/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

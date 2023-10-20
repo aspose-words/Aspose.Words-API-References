@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotVertAlignInTxbx
-second_title: Aspose.Words för .NET API Referens
-description: CompatibilityOptions fast egendom. Ignorera vertikal justering i textrutor.
+linktitle: DoNotVertAlignInTxbx
+articleTitle: DoNotVertAlignInTxbx
+second_title: Aspose.Words för .NET
+description: CompatibilityOptions DoNotVertAlignInTxbx fast egendom. Ignorera vertikal justering i textrutor i C#.
 type: docs
 weight: 240
 url: /sv/net/aspose.words.settings/compatibilityoptions/donotvertalignintxbx/
@@ -17,7 +19,5 @@ public bool DoNotVertAlignInTxbx { get; set; }
 ### Se även
 
 * class [CompatibilityOptions](../)
-* namnutrymme [Aspose.Words.Settings](../../compatibilityoptions/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

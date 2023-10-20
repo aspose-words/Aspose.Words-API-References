@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ImageSize
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. الحصول على أو تعيين حجم الصورة التي تم إنشاؤها بالبكسل.
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions ImageSize ملكية. الحصول على أو تعيين حجم الصورة التي تم إنشاؤها بالبكسل في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.saving/imagesaveoptions/imagesize/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/imagesaveoptions/imagesize/
 public Size ImageSize { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تؤثر هذه الخاصية فقط عند الحفظ في تنسيقات الصور النقطية.
 
 القيمة الافتراضية هي (0 × 0)، مما يعني أنه سيتم حساب حجم الصورة المولدة وفقًا لحجم الصورة بالنقاط، والدقة والمقياس المحددين.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض كل صفحة من المستند إلى صورة TIFF منفصلة.
 
@@ -55,7 +57,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### أنظر أيضا
 
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

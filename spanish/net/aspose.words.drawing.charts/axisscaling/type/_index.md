@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Type
-second_title: Referencia de API de Aspose.Words para .NET
-description: AxisScaling propiedad. Obtiene o establece el tipo de escala del eje.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words para .NET
+description: AxisScaling Type propiedad. Obtiene o establece el tipo de escala del eje en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.drawing.charts/axisscaling/type/
@@ -14,11 +16,11 @@ Obtiene o establece el tipo de escala del eje.
 public AxisScaleType Type { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 ElLinear El valor es el único permitido en los nuevos gráficos de MS Office 2016.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar una escala logarítmica a un eje de gráfico.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * enum [AxisScaleType](../../axisscaletype/)
 * class [AxisScaling](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

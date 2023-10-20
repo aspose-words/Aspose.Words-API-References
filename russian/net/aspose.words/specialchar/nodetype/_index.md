@@ -1,7 +1,9 @@
 ---
 title: SpecialChar.NodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: SpecialChar свойство. ВозвращаетSpecialChar .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words для .NET
+description: SpecialChar NodeType свойство. ВозвращаетSpecialChar  на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/specialchar/nodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/specialchar/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перемещаться по дереву дочерних узлов составного узла.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [SpecialChar](../)
-* пространство имен [Aspose.Words](../../specialchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

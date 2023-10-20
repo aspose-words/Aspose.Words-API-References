@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.ListItems
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 获取SdtListItemCollection与此相关的 特殊测试.
+linktitle: ListItems
+articleTitle: ListItems
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag ListItems 财产. 获取SdtListItemCollection与此相关的特殊测试 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.markup/structureddocumenttag/listitems/
 ---
 ## StructuredDocumentTag.ListItems property
 
-获取[`SdtListItemCollection`](../../sdtlistitemcollection/)与此相关的 **特殊测试**.
+获取[`SdtListItemCollection`](../../sdtlistitemcollection/)与此相关的**特殊测试**.
 
 ```csharp
 public SdtListItemCollection ListItems { get; }
 ```
 
-### 评论
+## 评论
 
 访问该属性仅适用于ComboBox或者DropDownList SDT 类型。
 
 对于所有其他 SDT 类型，都会发生异常。
 
-### 例子
+## 例子
 
 展示如何使用下拉列表结构化文档标签。
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItemCollection](../../sdtlistitemcollection/)
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

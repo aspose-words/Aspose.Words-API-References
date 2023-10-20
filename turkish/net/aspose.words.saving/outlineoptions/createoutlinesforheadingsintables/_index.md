@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.CreateOutlinesForHeadingsInTables
-second_title: Aspose.Words for .NET API Referansı
-description: OutlineOptions mülk. Tabloların içindeki başlıklar Başlık stilleriyle biçimlendirilmiş paragraflar için ana hatlar oluşturulup oluşturulmayacağını belirtir.
+linktitle: CreateOutlinesForHeadingsInTables
+articleTitle: CreateOutlinesForHeadingsInTables
+second_title: Aspose.Words for .NET
+description: OutlineOptions CreateOutlinesForHeadingsInTables mülk. Tabloların içindeki başlıklar Başlık stilleriyle biçimlendirilmiş paragraflar için ana hatlar oluşturulup oluşturulmayacağını belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/outlineoptions/createoutlinesforheadingsintables/
@@ -14,11 +16,11 @@ Tabloların içindeki başlıklar (Başlık stilleriyle biçimlendirilmiş parag
 public bool CreateOutlinesForHeadingsInTables { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Tabloların içindeki başlıklar için PDF belgesi anahat girişlerinin nasıl oluşturulacağını gösterir.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.TableHeadingOutlines.pdf", pdfSaveOption
 ### Ayrıca bakınız
 
 * class [OutlineOptions](../)
-* ad alanı [Aspose.Words.Saving](../../outlineoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

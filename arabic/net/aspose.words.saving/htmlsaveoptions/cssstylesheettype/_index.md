@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssStyleSheetType
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد كيفية تصدير أنماط CSS ورقة الأنماط المتتالية إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيInline لـ HTML/MHTML و External لـ EPUB.
+linktitle: CssStyleSheetType
+articleTitle: CssStyleSheetType
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions CssStyleSheetType ملكية. يحدد كيفية تصدير أنماط CSS ورقة الأنماط المتتالية إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيInline لـ HTML/MHTML و External لـ EPUB في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/htmlsaveoptions/cssstylesheettype/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/cssstylesheettype/
 public CssStyleSheetType CssStyleSheetType { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يتم دعم حفظ ورقة أنماط CSS في ملف خارجي إلا عند الحفظ في HTML. عند التصدير إلى أحد تنسيقات الحاوية (EPUB أو MHTML) وتحديد Externalسيتم تغليف ملف CSS في حزمة الإخراج.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أوراق أنماط CSS التي ينشئها تحويل HTML.
 
@@ -81,7 +83,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 * property [CssStyleSheetFileName](../cssstylesheetfilename/)
 * enum [CssStyleSheetType](../../cssstylesheettype/)
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoRecipientDataCollection propriété. Obtient ou définit un élément de cette collection.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: OdsoRecipientDataCollection Item propriété. Obtient ou définit un élément de cette collection en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.settings/odsorecipientdatacollection/item/
@@ -14,7 +16,7 @@ Obtient ou définit un élément de cette collection.
 public OdsoRecipientData this[int index] { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui désigne les enregistrements de source de données de fusion qu'un publipostage exclura.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* espace de noms [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

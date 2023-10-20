@@ -1,7 +1,9 @@
 ---
 title: Field.Separator
-second_title: Aspose.Words لمراجع .NET API
-description: Field ملكية. يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكونباطل .
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words لـ .NET
+description: Field Separator ملكية. يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكونباطل  في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fields/field/separator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/field/separator/
 public FieldSeparator Separator { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع مجموعة من الحقول.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldSeparator](../../fieldseparator/)
 * class [Field](../)
-* مساحة الاسم [Aspose.Words.Fields](../../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

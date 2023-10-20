@@ -1,7 +1,9 @@
 ---
-title: Class Border
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Border classe. Représente une bordure dun objet.
+title: Border Class
+linktitle: Border
+articleTitle: Border
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Border classe. Représente une bordure dun objet en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/border/
@@ -34,15 +36,15 @@ public class Border : InternableComplexAttr
 | Nom | La description |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/border/clearformatting/)() | Réinitialise les propriétés de bordure aux valeurs par défaut. |
-| [Equals](../../aspose.words/border/equals/#equals)(Border) | Détermine si la bordure spécifiée est égale en valeur à la bordure actuelle. |
-| override [Equals](../../aspose.words/border/equals/#equals_1)(object) | Détermine si l'objet spécifié a une valeur égale à l'objet actuel. |
+| [Equals](../../aspose.words/border/equals/#equals)(*Border*) | Détermine si la bordure spécifiée est égale en valeur à la bordure actuelle. |
+| override [Equals](../../aspose.words/border/equals/#equals_1)(*object*) | Détermine si l'objet spécifié a une valeur égale à l'objet actuel. |
 | override [GetHashCode](../../aspose.words/border/gethashcode/)() | Sert de fonction de hachage pour ce type. |
 
-### Remarques
+## Remarques
 
 Les bordures peuvent être appliquées à divers éléments du document, notamment le paragraphe, le texte à l'intérieur d'un paragraphe ou d'une cellule de tableau.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une chaîne entourée d'une bordure dans un document.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

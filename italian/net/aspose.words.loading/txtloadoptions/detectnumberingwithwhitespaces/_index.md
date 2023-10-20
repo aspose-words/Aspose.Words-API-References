@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.DetectNumberingWithWhitespaces
-second_title: Aspose.Words per .NET API Reference
-description: TxtLoadOptions proprietà. Permette di specificare come vengono riconosciuti gli elementi dellelenco numerato quando il documento viene importato dal formato testo normale. Il valore predefinito èVERO.
+linktitle: DetectNumberingWithWhitespaces
+articleTitle: DetectNumberingWithWhitespaces
+second_title: Aspose.Words per .NET
+description: TxtLoadOptions DetectNumberingWithWhitespaces proprietà. Permette di specificare come vengono riconosciuti gli elementi dellelenco numerato quando il documento viene importato dal formato testo normale. Il valore predefinito èVERO in C#.
 type: docs
-weight: 40
+weight: 30
 url: /it/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions.DetectNumberingWithWhitespaces property
@@ -14,13 +16,13 @@ Permette di specificare come vengono riconosciuti gli elementi dell'elenco numer
 public bool DetectNumberingWithWhitespaces { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se questa opzione è impostata su`falso`, l'algoritmo di riconoscimento degli elenchi rileva i paragrafi dell'elenco, quando i numeri dell'elenco terminano con punto, parentesi destra o simboli di punto elenco (come "•", "*", "-" o "o").
 
 Se questa opzione è impostata su`VERO`gli spazi vengono utilizzati anche come delimitatori dei numeri dell'elenco: l'algoritmo di riconoscimento dell'elenco per la numerazione in stile arabo (1., 1.1.2.) utilizza sia gli spazi bianchi che i simboli punto (".").
 
-### Esempi
+## Esempi
 
 Mostra come rilevare gli elenchi durante il caricamento di documenti in testo normale.
 
@@ -74,7 +76,5 @@ else
 ### Guarda anche
 
 * class [TxtLoadOptions](../)
-* spazio dei nomi [Aspose.Words.Loading](../../txtloadoptions/)
+* spazio dei nomi [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../../)
-
-

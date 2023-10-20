@@ -1,14 +1,16 @@
 ---
-title: Class FieldMergingArgs
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.MailMerging.FieldMergingArgs classe. Fornisce i dati per il Unisci campo evento.
+title: FieldMergingArgs Class
+linktitle: FieldMergingArgs
+articleTitle: FieldMergingArgs
+second_title: Aspose.Words per .NET
+description: Aspose.Words.MailMerging.FieldMergingArgs classe. Fornisce i dati per ilUnisci campo evento in C#.
 type: docs
 weight: 3770
 url: /it/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
-Fornisce i dati per il **Unisci campo** evento.
+Fornisce i dati per il**Unisci campo** evento.
 
 Per saperne di più, visita il[Stampa unione e reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
 
@@ -29,11 +31,11 @@ public class FieldMergingArgs : FieldMergingArgsBase
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Ottiene il nome della tabella dati per l'operazione di unione corrente o una stringa vuota se il nome non è disponibile. |
 | [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | Ottiene o imposta il testo che verrà inserito nel documento per il campo di unione corrente. |
 
-### Osservazioni
+## Osservazioni
 
-IL **Unisci campo** L'evento si verifica durante la stampa unione quando nel documento viene rilevato un semplice campo mail merge . Puoi rispondere a questo evento per restituire il testo che il motore di stampa unione dovrà inserire nel documento.
+IL**Unisci campo** L'evento si verifica durante la stampa unione quando nel documento viene rilevato un semplice campo mail merge . Puoi rispondere a questo evento per restituire il testo che il motore di stampa unione dovrà inserire nel documento.
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con un callback personalizzato che gestisce i dati di unione sotto forma di documenti HTML.
 
@@ -103,5 +105,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * spazio dei nomi [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.SuppressEndnotes
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. صحيح إذا تمت طباعة التعليقات الختامية في نهاية القسم التالي وهذا لا يمنع التعليقات الختامية. تتم طباعة التعليقات الختامية المحذوفة قبل التعليقات الختامية في هذا القسم.
+linktitle: SuppressEndnotes
+articleTitle: SuppressEndnotes
+second_title: Aspose.Words لـ .NET
+description: PageSetup SuppressEndnotes ملكية. صحيح إذا تمت طباعة التعليقات الختامية في نهاية القسم التالي وهذا لا يمنع التعليقات الختامية. تتم طباعة التعليقات الختامية المحذوفة قبل التعليقات الختامية في هذا القسم في C#.
 type: docs
 weight: 410
 url: /ar/net/aspose.words/pagesetup/suppressendnotes/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/suppressendnotes/
 public bool SuppressEndnotes { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يبين كيفية تخزين الحواشي الختامية في نهاية كل قسم، وتعديل مواضعها.
 
@@ -73,7 +75,5 @@ private static void InsertSectionWithEndnote(Document doc, string sectionBodyTex
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

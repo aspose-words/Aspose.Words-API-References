@@ -1,7 +1,9 @@
 ---
-title: Class ChartLegendEntry
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartLegendEntry klas. Stellt einen Diagrammlegendeneintrag dar.
+title: ChartLegendEntry Class
+linktitle: ChartLegendEntry
+articleTitle: ChartLegendEntry
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartLegendEntry klas. Stellt einen Diagrammlegendeneintrag dar in C#.
 type: docs
 weight: 730
 url: /de/net/aspose.words.drawing.charts/chartlegendentry/
@@ -21,9 +23,9 @@ public class ChartLegendEntry
 | Name | Beschreibung |
 | --- | --- |
 | [Font](../../aspose.words.drawing.charts/chartlegendentry/font/) { get; } | Bietet Zugriff auf die Schriftartformatierung dieses Legendeneintrags. |
-| [IsHidden](../../aspose.words.drawing.charts/chartlegendentry/ishidden/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der angibt, ob dieser Eintrag in der Diagrammlegende ausgeblendet ist. Der Standardwert ist **FALSCH** . |
+| [IsHidden](../../aspose.words.drawing.charts/chartlegendentry/ishidden/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der angibt, ob dieser Eintrag in der Diagrammlegende ausgeblendet ist. Der Standardwert ist**FALSCH** . |
 
-### Bemerkungen
+## Bemerkungen
 
 Ein Legendeneintrag entspricht einer bestimmten Diagrammserie oder Trendlinie.
 
@@ -33,5 +35,3 @@ Der Text des Eintrags ist der Name der Serie oder Trendlinie. Der Text kann nich
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

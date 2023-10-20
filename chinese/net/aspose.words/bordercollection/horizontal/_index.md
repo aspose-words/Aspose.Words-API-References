@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Horizontal
-second_title: Aspose.Words for .NET API 参考
-description: BorderCollection 财产. 获取在单元格或一致段落之间使用的水平边框
+linktitle: Horizontal
+articleTitle: Horizontal
+second_title: 用于 .NET 的 Aspose.Words
+description: BorderCollection Horizontal 财产. 获取在单元格或一致段落之间使用的水平边框 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/bordercollection/horizontal/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/bordercollection/horizontal/
 public Border Horizontal { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将水平边框设置应用到段落格式。
 
@@ -83,7 +85,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* 命名空间 [Aspose.Words](../../bordercollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

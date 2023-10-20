@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.PreferredControlType
-second_title: Aspose.Words for .NET API 参考
-description: HtmlLoadOptions 财产. 获取或设置表示导入的 input 和 select 元素的文档节点的首选类型 默认值为FormField.
+linktitle: PreferredControlType
+articleTitle: PreferredControlType
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlLoadOptions PreferredControlType 财产. 获取或设置表示导入的 input 和 select 元素的文档节点的首选类型 默认值为FormField 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
 public HtmlControlType PreferredControlType { get; set; }
 ```
 
-### 评论
+## 评论
 
 请注意，设置此属性并不能保证所有导入的控件都属于指定类型。 如果 HTML 控件无法用首选类型的文档节点表示，Aspose.Words 将使用 兼容的[`HtmlControlType`](../../htmlcontroltype/)对于该控件.
 
-### 例子
+## 例子
 
 演示如何设置表示导入的 &lt;input&gt; 和 &lt;select&gt; 元素的文档节点的首选类型。
 
@@ -45,7 +47,5 @@ StructuredDocumentTag tag = (StructuredDocumentTag) nodes[0];
 
 * enum [HtmlControlType](../../htmlcontroltype/)
 * class [HtmlLoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../htmlloadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

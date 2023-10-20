@@ -1,7 +1,9 @@
 ---
-title: Enum FontSourceType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.FontSourceType 枚举. 指定字体源的类型
+title: FontSourceType Enum
+linktitle: FontSourceType
+articleTitle: FontSourceType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fonts.FontSourceType 枚举. 指定字体源的类型 在 C#.
 type: docs
 weight: 2990
 url: /zh/net/aspose.words.fonts/fontsourcetype/
@@ -24,7 +26,7 @@ public enum FontSourceType
 | SystemFonts | `3` | A[`SystemFontSource`](../systemfontsource/)代表系统安装的所有字体的对象。 |
 | FontStream | `4` | A[`StreamFontSource`](../streamfontsource/)表示带有字体数据的流的对象。 |
 
-### 例子
+## 例子
 
 演示如何使用本地文件系统中的字体文件作为字体源。
 
@@ -44,5 +46,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 * 命名空间 [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../)
-
-

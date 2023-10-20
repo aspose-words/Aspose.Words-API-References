@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.MetafileRenderingOptions
-second_title: Aspose.Words per .NET API Reference
-description: FixedPageSaveOptions proprietà. Permette di specificare le opzioni di rendering del metafile.
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: Aspose.Words per .NET
+description: FixedPageSaveOptions MetafileRenderingOptions proprietà. Permette di specificare le opzioni di rendering del metafile in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/
@@ -14,7 +16,7 @@ Permette di specificare le opzioni di rendering del metafile.
 public MetafileRenderingOptions MetafileRenderingOptions { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra aggiunto un fallback al rendering bitmap e modificando il tipo di avvisi sui record di metafile non supportati.
 
@@ -70,7 +72,5 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * class [FixedPageSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

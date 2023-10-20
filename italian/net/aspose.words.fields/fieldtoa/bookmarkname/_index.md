@@ -1,7 +1,9 @@
 ---
 title: FieldToa.BookmarkName
-second_title: Aspose.Words per .NET API Reference
-description: FieldToa proprietà. Ottiene o imposta il nome del segnalibro che contrassegna la porzione di documento utilizzata per creare la tabella.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words per .NET
+description: FieldToa BookmarkName proprietà. Ottiene o imposta il nome del segnalibro che contrassegna la porzione di documento utilizzata per creare la tabella in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldtoa/bookmarkname/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del segnalibro che contrassegna la porzione di documen
 public string BookmarkName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare e personalizzare una tabella di autorità utilizzando i campi TOA e TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Guarda anche
 
 * class [FieldToa](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoa/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

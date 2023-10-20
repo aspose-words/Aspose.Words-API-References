@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.GetEnumerator
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCollection methode. Gibt ein Enumeratorobjekt zurück.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words für .NET
+description: FieldCollection GetEnumerator methode. Gibt ein Enumeratorobjekt zurück in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldcollection/getenumerator/
@@ -14,7 +16,7 @@ Gibt ein Enumeratorobjekt zurück.
 public IEnumerator<Field> GetEnumerator()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [Field](../../field/)
 * class [FieldCollection](../)
-* namensraum [Aspose.Words.Fields](../../fieldcollection/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

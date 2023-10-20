@@ -1,7 +1,9 @@
 ---
-title: Enum EmbeddedFontStyle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.EmbeddedFontStyle énumération. Spécifie le style dune police incorporée dans unFontInfo objet.
+title: EmbeddedFontStyle Enum
+linktitle: EmbeddedFontStyle
+articleTitle: EmbeddedFontStyle
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.EmbeddedFontStyle énumération. Spécifie le style dune police incorporée dans unFontInfo objet en C#.
 type: docs
 weight: 2860
 url: /fr/net/aspose.words.fonts/embeddedfontstyle/
@@ -24,7 +26,7 @@ public enum EmbeddedFontStyle
 | Italic | `2` | Spécifie la police italique intégrée. |
 | BoldItalic | `3` | Spécifie la police intégrée gras-italique. |
 
-### Exemples
+## Exemples
 
 Montre comment extraire une police incorporée d’un document et l’enregistrer dans le système de fichiers local.
 
@@ -52,5 +54,3 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ResourceLoadingAction
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loading.ResourceLoadingAction перечисление. Указывает режим загрузки ресурса.
+title: ResourceLoadingAction Enum
+linktitle: ResourceLoadingAction
+articleTitle: ResourceLoadingAction
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Loading.ResourceLoadingAction перечисление. Указывает режим загрузки ресурса на С#.
 type: docs
 weight: 3680
 url: /ru/net/aspose.words.loading/resourceloadingaction/
@@ -24,7 +26,7 @@ public enum ResourceLoadingAction
 | Skip | `1` | Aspose.Words пропустит загрузку этого ресурса. Для изображения будет сохранена только ссылка без данных, таблица стилей CSS будет игнорироваться для формата HTML. |
 | UserProvided | `2` | Aspose.Words будет использовать массив байтов, предоставленный пользователем в[`SetData`](../resourceloadingargs/setdata/) как данные ресурса. |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить процесс загрузки внешних ресурсов в документ.
 
@@ -88,5 +90,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * пространство имен [Aspose.Words.Loading](../../aspose.words.loading/)
 * сборка [Aspose.Words](../../)
-
-

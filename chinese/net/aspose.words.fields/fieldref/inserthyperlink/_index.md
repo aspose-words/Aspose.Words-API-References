@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertHyperlink
-second_title: Aspose.Words for .NET API 参考
-description: FieldRef 财产. 获取或设置是否创建指向已添加书签的段落的超链接
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldRef InsertHyperlink 财产. 获取或设置是否创建指向已添加书签的段落的超链接 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldref/inserthyperlink/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldref/inserthyperlink/
 public bool InsertHyperlink { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将 REF 字段插入到参考书签。
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### 也可以看看
 
 * class [FieldRef](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldref/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

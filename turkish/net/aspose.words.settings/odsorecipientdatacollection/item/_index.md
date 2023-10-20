@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: OdsoRecipientDataCollection mülk. Bu koleksiyondaki bir öğeyi alır veya ayarlar.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: OdsoRecipientDataCollection Item mülk. Bu koleksiyondaki bir öğeyi alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.settings/odsorecipientdatacollection/item/
@@ -14,7 +16,7 @@ Bu koleksiyondaki bir öğeyi alır veya ayarlar.
 public OdsoRecipientData this[int index] { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* ad alanı [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

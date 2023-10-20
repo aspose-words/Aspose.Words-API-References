@@ -1,7 +1,9 @@
 ---
 title: TextBox.LayoutFlow
-second_title: Aspose.Words per .NET API Reference
-description: TextBox proprietà. Determina il flusso del layout del testo in una forma.
+linktitle: LayoutFlow
+articleTitle: LayoutFlow
+second_title: Aspose.Words per .NET
+description: TextBox LayoutFlow proprietà. Determina il flusso del layout del testo in una forma in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.drawing/textbox/layoutflow/
@@ -14,11 +16,11 @@ Determina il flusso del layout del testo in una forma.
 public LayoutFlow LayoutFlow { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito èHorizontal.
 
-### Esempi
+## Esempi
 
 Mostra come impostare l'orientamento del testo all'interno di una casella di testo.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * enum [LayoutFlow](../../layoutflow/)
 * class [TextBox](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../textbox/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

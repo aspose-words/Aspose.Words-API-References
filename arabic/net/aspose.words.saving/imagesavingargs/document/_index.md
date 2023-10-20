@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.Document
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSavingArgs ملكية. الحصول على كائن المستند الذي يتم حفظه حاليًا.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words لـ .NET
+description: ImageSavingArgs Document ملكية. الحصول على كائن المستند الذي يتم حفظه حاليًا في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/imagesavingargs/document/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/imagesavingargs/document/
 public Document Document { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تضمين رد اتصال لحفظ الصورة في عملية تحويل HTML.
 
@@ -61,7 +63,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [ImageSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

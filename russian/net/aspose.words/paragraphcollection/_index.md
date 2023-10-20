@@ -1,7 +1,9 @@
 ---
-title: Class ParagraphCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.ParagraphCollection сорт. Обеспечивает типизированный доступ к коллекцииParagraph узлы.
+title: ParagraphCollection Class
+linktitle: ParagraphCollection
+articleTitle: ParagraphCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.ParagraphCollection сорт. Обеспечивает типизированный доступ к коллекцииParagraph узлы на С#.
 type: docs
 weight: 4410
 url: /ru/net/aspose.words/paragraphcollection/
@@ -27,17 +29,17 @@ public class ParagraphCollection : NodeCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Добавляет узел в конец коллекции. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Добавляет узел в конец коллекции. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Удаляет все узлы из этой коллекции и из документа. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Определяет, находится ли узел в коллекции. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Определяет, находится ли узел в коллекции. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию стиля foreach по коллекции узлов. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Возвращает индекс указанного узла, начинающийся с нуля. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Вставляет узел в коллекцию по указанному индексу. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Удаляет узел из коллекции и из документа. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Удаляет узел по указанному индексу из коллекции и из документа. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Возвращает индекс указанного узла, начинающийся с нуля. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Вставляет узел в коллекцию по указанному индексу. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Удаляет узел из коллекции и из документа. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Удаляет узел по указанному индексу из коллекции и из документа. |
 | [ToArray](../../aspose.words/paragraphcollection/toarray/#toarray_1)() | Копирует все абзацы из коллекции в новый массив абзацев. (2 methods) |
 
-### Примеры
+## Примеры
 
 Показывает, как проверить, является ли абзац измененной версией.
 
@@ -73,5 +75,3 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 * class [NodeCollection](../nodecollection/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

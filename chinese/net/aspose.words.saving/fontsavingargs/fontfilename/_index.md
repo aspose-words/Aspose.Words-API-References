@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontFileName
-second_title: Aspose.Words for .NET API 参考
-description: FontSavingArgs 财产. 获取或设置保存字体的文件名不带路径
+linktitle: FontFileName
+articleTitle: FontFileName
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSavingArgs FontFileName 财产. 获取或设置保存字体的文件名不带路径 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/fontsavingargs/fontfilename/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/fontsavingargs/fontfilename/
 public string FontFileName { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性允许您重新定义导出到 HTML 期间如何生成字体文件名 。
 
@@ -28,7 +30,7 @@ public string FontFileName { get; set; }
 
 `FontFileName`必须仅包含文件名而不包含路径。 Aspose.Words 使用文档文件名确定保存路径， [`FontsFolder`](../../htmlsaveoptions/fontsfolder/)和 [`FontsFolderAlias`](../../htmlsaveoptions/fontsfolderalias/)特性。
 
-### 例子
+## 例子
 
 演示如何定义保存为 HTML 时导出字体的自定义逻辑。
 
@@ -88,7 +90,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### 也可以看看
 
 * class [FontSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../fontsavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

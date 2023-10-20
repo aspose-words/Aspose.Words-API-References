@@ -1,7 +1,9 @@
 ---
-title: ImageSaveOptions.ImageSaveOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede usar para guardar imágenes renderizadas en Tiff Png Bmp  Jpeg Emf Eps oSvg formato.
+title: ImageSaveOptions
+linktitle: ImageSaveOptions
+articleTitle: ImageSaveOptions
+second_title: Aspose.Words para .NET
+description: ImageSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede usar para guardar imágenes renderizadas en Tiff Png Bmp  Jpeg Emf Eps oSvg formato en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/imagesaveoptions/imagesaveoptions/
@@ -18,7 +20,7 @@ public ImageSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Puede ser Tiff ,Png ,Bmp , Jpeg ,Emf ,Eps oSvg formato. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la compresión al guardar un documento como JPEG.
 
@@ -52,7 +54,5 @@ Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Jpe
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [ImageSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../imagesaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

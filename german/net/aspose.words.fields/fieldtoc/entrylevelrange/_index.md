@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntryLevelRange
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToc eigendom. Ruft einen Bereich von Ebenen der einzuschließenden Inhaltsverzeichniseinträge ab oder legt diesen fest.
+linktitle: EntryLevelRange
+articleTitle: EntryLevelRange
+second_title: Aspose.Words für .NET
+description: FieldToc EntryLevelRange eigendom. Ruft einen Bereich von Ebenen der einzuschließenden Inhaltsverzeichniseinträge ab oder legt diesen fest in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldtoc/entrylevelrange/
@@ -14,7 +16,7 @@ Ruft einen Bereich von Ebenen der einzuschließenden Inhaltsverzeichniseinträge
 public string EntryLevelRange { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein TOC-Feld einfügt und filtert, welche TC-Felder als Einträge enden.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Siehe auch
 
 * class [FieldToc](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoc/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

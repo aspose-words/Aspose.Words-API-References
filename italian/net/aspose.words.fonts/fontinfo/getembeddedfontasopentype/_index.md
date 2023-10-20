@@ -1,7 +1,9 @@
 ---
 title: FontInfo.GetEmbeddedFontAsOpenType
-second_title: Aspose.Words per .NET API Reference
-description: FontInfo metodo. Ottiene un file di caratteri incorporato in formato OpenType. I caratteri nel formato Embedded OpenType vengono convertiti in OpenType.
+linktitle: GetEmbeddedFontAsOpenType
+articleTitle: GetEmbeddedFontAsOpenType
+second_title: Aspose.Words per .NET
+description: FontInfo GetEmbeddedFontAsOpenType metodo. Ottiene un file di caratteri incorporato in formato OpenType. I caratteri nel formato Embedded OpenType vengono convertiti in OpenType in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.fonts/fontinfo/getembeddedfontasopentype/
@@ -22,7 +24,7 @@ public byte[] GetEmbeddedFontAsOpenType(EmbeddedFontStyle style)
 
 ritorna`nullo`se il carattere specificato non è incorporato.
 
-### Esempi
+## Esempi
 
 Mostra come estrarre un carattere incorporato da un documento e salvarlo nel file system locale.
 
@@ -50,7 +52,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * enum [EmbeddedFontStyle](../../embeddedfontstyle/)
 * class [FontInfo](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontinfo/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

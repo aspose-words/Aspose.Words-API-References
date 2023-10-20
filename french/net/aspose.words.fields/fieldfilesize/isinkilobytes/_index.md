@@ -1,7 +1,9 @@
 ---
 title: FieldFileSize.IsInKilobytes
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldFileSize propriété. Obtient ou définit sil faut afficher la taille du fichier en kilooctets.
+linktitle: IsInKilobytes
+articleTitle: IsInKilobytes
+second_title: Aspose.Words pour .NET
+description: FieldFileSize IsInKilobytes propriété. Obtient ou définit sil faut afficher la taille du fichier en kilooctets en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldfilesize/isinkilobytes/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut afficher la taille du fichier en kilo-octets.
 public bool IsInKilobytes { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment afficher la taille de fichier d'un document avec un champ FILESIZE.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ### Voir également
 
 * class [FieldFileSize](../)
-* espace de noms [Aspose.Words.Fields](../../fieldfilesize/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

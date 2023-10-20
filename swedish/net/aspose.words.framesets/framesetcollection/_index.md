@@ -1,7 +1,9 @@
 ---
-title: Class FramesetCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Framesets.FramesetCollection klass. Representerar en samling instanser avFrameset class.
+title: FramesetCollection Class
+linktitle: FramesetCollection
+articleTitle: FramesetCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Framesets.FramesetCollection klass. Representerar en samling instanser avFrameset class i C#.
 type: docs
 weight: 3090
 url: /sv/net/aspose.words.framesets/framesetcollection/
@@ -40,5 +42,3 @@ public class FramesetCollection : IEnumerable<Frameset>
 * class [Frameset](../frameset/)
 * namnutrymme [Aspose.Words.Framesets](../../aspose.words.framesets/)
 * hopsättning [Aspose.Words](../../)
-
-

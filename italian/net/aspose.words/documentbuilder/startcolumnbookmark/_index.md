@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartColumnBookmark
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Contrassegna la posizione corrente nel documento come inizio di un segnalibro di colonna. La posizione deve essere in una cella della tabella.
+linktitle: StartColumnBookmark
+articleTitle: StartColumnBookmark
+second_title: Aspose.Words per .NET
+description: DocumentBuilder StartColumnBookmark metodo. Contrassegna la posizione corrente nel documento come inizio di un segnalibro di colonna. La posizione deve essere in una cella della tabella in C#.
 type: docs
-weight: 630
+weight: 620
 url: /it/net/aspose.words/documentbuilder/startcolumnbookmark/
 ---
 ## DocumentBuilder.StartColumnBookmark method
@@ -22,7 +24,7 @@ public BookmarkStart StartColumnBookmark(string bookmarkName)
 
 Il nodo iniziale del segnalibro appena creato.
 
-### Osservazioni
+## Osservazioni
 
 Un segnalibro di colonna copre una o più colonne in un intervallo di righe. Per creare un segnalibro valido devi chiamarli entrambi`StartColumnBookmark` E[`EndColumnBookmark`](../endcolumnbookmark/) con lo stesso *bookmarkName*parametro.
 
@@ -30,7 +32,7 @@ I segnalibri formati in modo errato o i segnalibri con nomi duplicati verranno i
 
 La posizione effettiva dell'inserito[`BookmarkStart`](../../bookmarkstart/) il nodo potrebbe differire dalla posizione corrente del document builder.
 
-### Esempi
+## Esempi
 
 Mostra come creare un segnalibro di colonna.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Bookmarks.CreateColumnBookmark.docx");
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

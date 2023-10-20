@@ -1,7 +1,9 @@
 ---
 title: FieldToa.PageRangeSeparator
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToa mülk. Sayfa aralığının başlangıcını ve sonunu ayırmak için kullanılan karakter sırasını alır veya ayarlar.
+linktitle: PageRangeSeparator
+articleTitle: PageRangeSeparator
+second_title: Aspose.Words for .NET
+description: FieldToa PageRangeSeparator mülk. Sayfa aralığının başlangıcını ve sonunu ayırmak için kullanılan karakter sırasını alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fieldtoa/pagerangeseparator/
@@ -14,7 +16,7 @@ Sayfa aralığının başlangıcını ve sonunu ayırmak için kullanılan karak
 public string PageRangeSeparator { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TOA ve TA alanlarını kullanarak bir yetki tablosunun nasıl oluşturulacağını ve özelleştirileceğini gösterir.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Ayrıca bakınız
 
 * class [FieldToa](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoa/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

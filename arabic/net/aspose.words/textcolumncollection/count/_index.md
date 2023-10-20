@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Count
-second_title: Aspose.Words لمراجع .NET API
-description: TextColumnCollection ملكية. الحصول على عدد الأعمدة في قسم المستند.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words لـ .NET
+description: TextColumnCollection Count ملكية. الحصول على عدد الأعمدة في قسم المستند في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/textcolumncollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### أنظر أيضا
 
 * class [TextColumnCollection](../)
-* مساحة الاسم [Aspose.Words](../../textcolumncollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeHorizontalSize
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.RelativeHorizontalSize перечисление. Указывает относительно чего рассчитывается ширина фигуры или текстового фрейма по горизонтали.
+title: RelativeHorizontalSize Enum
+linktitle: RelativeHorizontalSize
+articleTitle: RelativeHorizontalSize
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.RelativeHorizontalSize перечисление. Указывает относительно чего рассчитывается ширина фигуры или текстового фрейма по горизонтали на С#.
 type: docs
 weight: 1200
 url: /ru/net/aspose.words.drawing/relativehorizontalsize/
@@ -26,7 +28,7 @@ public enum RelativeHorizontalSize
 | OuterMargin | `5` | Указывает, что ширина рассчитывается относительно размера области внешнего поля, - размера области правого поля для нечетных страниц и размера области левого поля для четных страниц. |
 | Default | `1` | Значение по умолчанию:Margin . |
 
-### Примеры
+## Примеры
 
 Показывает, как установить относительный размер и положение.
 
@@ -83,5 +85,3 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 * property [RelativeHorizontalSize](../shapebase/relativehorizontalsize/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

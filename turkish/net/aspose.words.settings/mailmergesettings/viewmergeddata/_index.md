@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ViewMergedData
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Microsoft Wordün birleştirme alanlarının eklendiği belirtilen harici veri kaynağındaki verileri görüntüleyeceğini belirtir örn. birleştirilmiş verilerin önizlemesi. Varsayılan değerYANLIŞ .
+linktitle: ViewMergedData
+articleTitle: ViewMergedData
+second_title: Aspose.Words for .NET
+description: MailMergeSettings ViewMergedData mülk. Microsoft Wordün birleştirme alanlarının eklendiği belirtilen harici veri kaynağındaki verileri görüntüleyeceğini belirtir örn. birleştirilmiş verilerin önizlemesi. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.settings/mailmergesettings/viewmergeddata/
@@ -14,7 +16,7 @@ Microsoft Word'ün, birleştirme alanlarının eklendiği belirtilen harici veri
 public bool ViewMergedData { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Ayrıca bakınız
 
 * class [MailMergeSettings](../)
-* ad alanı [Aspose.Words.Settings](../../mailmergesettings/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

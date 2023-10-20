@@ -1,7 +1,9 @@
 ---
 title: FontFallbackSettings.LoadMsOfficeFallbackSettings
-second_title: Aspose.Words for .NET API 参考
-description: FontFallbackSettings 方法. 加载预定义的后备设置该设置模仿 Microsoft Word 后备并使用 Microsoft Office 字体
+linktitle: LoadMsOfficeFallbackSettings
+articleTitle: LoadMsOfficeFallbackSettings
+second_title: 用于 .NET 的 Aspose.Words
+description: FontFallbackSettings LoadMsOfficeFallbackSettings 方法. 加载预定义的后备设置该设置模仿 Microsoft Word 后备并使用 Microsoft Office 字体 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksetting
 public void LoadMsOfficeFallbackSettings()
 ```
 
-### 例子
+## 例子
 
 展示如何加载预定义的后备字体设置。
 
@@ -44,7 +46,5 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNoto
 ### 也可以看看
 
 * class [FontFallbackSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.GroupName
-second_title: Aspose.Words for .NET API Referansı
-description: ReplacingArgs mülk. Yakalanan bir grubu adıyla tanımlar.Match ile değiştirilecekReplacement dize.
+linktitle: GroupName
+articleTitle: GroupName
+second_title: Aspose.Words for .NET
+description: ReplacingArgs GroupName mülk. Yakalanan bir grubu adıyla tanımlar.Match ile değiştirilecekReplacement dize C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.replacing/replacingargs/groupname/
@@ -14,13 +16,13 @@ Yakalanan bir grubu adıyla tanımlar.[`Match`](../match/) ile değiştirilecek[
 public string GroupName { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Grup adı ne zaman`hükümsüz` ,[`GroupIndex`](../groupindex/) Grubu tanımlamak için kullanılır.
 
 Varsayılan:`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 FindReplaceOptions aracılığıyla yeni içeriğe farklı bir yazı tipinin nasıl uygulanacağını gösterir.
 
@@ -93,7 +95,5 @@ private class NumberHexer : IReplacingCallback
 ### Ayrıca bakınız
 
 * class [ReplacingArgs](../)
-* ad alanı [Aspose.Words.Replacing](../../replacingargs/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

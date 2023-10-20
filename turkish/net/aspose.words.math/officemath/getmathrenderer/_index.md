@@ -1,9 +1,11 @@
 ---
 title: OfficeMath.GetMathRenderer
-second_title: Aspose.Words for .NET API Referansı
-description: OfficeMath yöntem. Bu denklemi bir görüntüye dönüştürmek için kullanılabilecek bir nesne oluşturur ve döndürür.
+linktitle: GetMathRenderer
+articleTitle: GetMathRenderer
+second_title: Aspose.Words for .NET
+description: OfficeMath GetMathRenderer yöntem. Bu denklemi bir görüntüye dönüştürmek için kullanılabilecek bir nesne oluşturur ve döndürür C#'da.
 type: docs
-weight: 90
+weight: 70
 url: /tr/net/aspose.words.math/officemath/getmathrenderer/
 ---
 ## OfficeMath.GetMathRenderer method
@@ -18,11 +20,11 @@ public OfficeMathRenderer GetMathRenderer()
 
 Bu denklemin oluşturucu nesnesi.
 
-### Notlar
+## Notlar
 
 Bu yöntem sadece şunu çağırır:[`OfficeMathRenderer`](../../../aspose.words.rendering/officemathrenderer/) yapıcı ve bu nesneyi parametre olarak iletir.
 
-### Örnekler
+## Örnekler
 
 Bir Office Math nesnesinin yerel dosya sistemindeki bir görüntü dosyasına nasıl dönüştürüleceğini gösterir.
 
@@ -45,7 +47,5 @@ math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOpt
 
 * class [OfficeMathRenderer](../../../aspose.words.rendering/officemathrenderer/)
 * class [OfficeMath](../)
-* ad alanı [Aspose.Words.Math](../../officemath/)
+* ad alanı [Aspose.Words.Math](../../../aspose.words.math/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ViewOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.ViewOptions فصل. يوفر خيارات متنوعة تتحكم في كيفية عرض المستند في برنامج Microsoft Word.
+title: ViewOptions Class
+linktitle: ViewOptions
+articleTitle: ViewOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.ViewOptions فصل. يوفر خيارات متنوعة تتحكم في كيفية عرض المستند في برنامج Microsoft Word في C#.
 type: docs
 weight: 5950
 url: /ar/net/aspose.words.settings/viewoptions/
@@ -27,7 +29,7 @@ public class ViewOptions
 | [ZoomPercent](../../aspose.words.settings/viewoptions/zoompercent/) { get; set; } | الحصول على أو تعيين النسبة المئوية (بين 10 و500) التي تريد عرض مستندك بها. |
 | [ZoomType](../../aspose.words.settings/viewoptions/zoomtype/) { get; set; } | الحصول على قيمة التكبير/التصغير أو تعيينها بناءً على حجم النافذة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين عامل تكبير مخصص، أي الإصدارات الأقدم من Microsoft Word سيتم تطبيقها على المستند عند التحميل.
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");
 * property [ViewOptions](../../aspose.words/document/viewoptions/)
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

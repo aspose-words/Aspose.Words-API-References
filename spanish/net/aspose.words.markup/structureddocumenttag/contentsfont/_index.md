@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.ContentsFont
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag propiedad. Formato de fuente que se aplicará al texto ingresado TED .
+linktitle: ContentsFont
+articleTitle: ContentsFont
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag ContentsFont propiedad. Formato de fuente que se aplicará al texto ingresadoTED  en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.markup/structureddocumenttag/contentsfont/
 ---
 ## StructuredDocumentTag.ContentsFont property
 
-Formato de fuente que se aplicará al texto ingresado **TED** .
+Formato de fuente que se aplicará al texto ingresado**TED** .
 
 ```csharp
 public Font ContentsFont { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una etiqueta de documento estructurado en un cuadro de texto sin formato y modificar su apariencia.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

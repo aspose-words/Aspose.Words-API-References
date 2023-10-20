@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsDecorative
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Belgedeki şeklin dekoratif olup olmadığını belirten bayrağı alır veya ayarlar.
+linktitle: IsDecorative
+articleTitle: IsDecorative
+second_title: Aspose.Words for .NET
+description: ShapeBase IsDecorative mülk. Belgedeki şeklin dekoratif olup olmadığını belirten bayrağı alır veya ayarlar C#'da.
 type: docs
 weight: 240
 url: /tr/net/aspose.words.drawing/shapebase/isdecorative/
@@ -14,11 +16,11 @@ Belgedeki şeklin dekoratif olup olmadığını belirten bayrağı alır veya ay
 public bool IsDecorative { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Şeklin boş olmadığına dikkat edin[`AlternativeText`](../alternativetext/) dekoratif olamaz.
 
-### Örnekler
+## Örnekler
 
 Şeklin dekoratif olduğunun nasıl ayarlanacağını gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.IsDecorative.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

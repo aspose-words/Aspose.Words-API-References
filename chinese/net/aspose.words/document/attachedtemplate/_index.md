@@ -1,7 +1,9 @@
 ---
 title: Document.AttachedTemplate
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取或设置附加到文档的模板的完整路径
+linktitle: AttachedTemplate
+articleTitle: AttachedTemplate
+second_title: 用于 .NET 的 Aspose.Words
+description: Document AttachedTemplate 财产. 获取或设置附加到文档的模板的完整路径 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/document/attachedtemplate/
@@ -20,11 +22,11 @@ public string AttachedTemplate { get; set; }
 | --- | --- |
 | ArgumentNullException | 如果您尝试设置为`无效的`价值。 |
 
-### 评论
+## 评论
 
 空字符串表示文档附加到普通模板。
 
-### 例子
+## 例子
 
 演示如何为没有附加模板的文档设置默认模板。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

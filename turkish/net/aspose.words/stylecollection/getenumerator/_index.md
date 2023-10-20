@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: StyleCollection yöntem. Stilleri adlarının alfabetik sırasına göre sıralayacak bir numaralandırıcı nesnesi alır.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: StyleCollection GetEnumerator yöntem. Stilleri adlarının alfabetik sırasına göre sıralayacak bir numaralandırıcı nesnesi alır C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/stylecollection/getenumerator/
@@ -14,7 +16,7 @@ Stilleri adlarının alfabetik sırasına göre sıralayacak bir numaralandırı
 public IEnumerator<Style> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin stil koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* ad alanı [Aspose.Words](../../stylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

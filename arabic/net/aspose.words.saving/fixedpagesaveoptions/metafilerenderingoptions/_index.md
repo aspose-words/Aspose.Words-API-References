@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.MetafileRenderingOptions
-second_title: Aspose.Words لمراجع .NET API
-description: FixedPageSaveOptions ملكية. يسمح بتحديد خيارات عرض ملف التعريف.
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: Aspose.Words لـ .NET
+description: FixedPageSaveOptions MetafileRenderingOptions ملكية. يسمح بتحديد خيارات عرض ملف التعريف في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/
 public MetafileRenderingOptions MetafileRenderingOptions { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 تمت إضافة بديل لعرض الصور النقطية وتغيير نوع التحذيرات حول سجلات ملفات التعريف غير المدعومة.
 
@@ -70,7 +72,5 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * class [FixedPageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

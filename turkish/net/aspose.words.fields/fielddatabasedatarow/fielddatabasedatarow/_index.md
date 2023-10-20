@@ -1,7 +1,9 @@
 ---
-title: FieldDatabaseDataRow.FieldDatabaseDataRow
-second_title: Aspose.Words for .NET API Referansı
-description: FieldDatabaseDataRow inşaatçı. Yeni bir örneğini başlatırFieldDatabaseDataRow class.
+title: FieldDatabaseDataRow
+linktitle: FieldDatabaseDataRow
+articleTitle: FieldDatabaseDataRow
+second_title: Aspose.Words for .NET
+description: FieldDatabaseDataRow inşaatçı. Yeni bir örneğini başlatırFieldDatabaseDataRow class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fielddatabasedatarow/fielddatabasedatarow/
@@ -17,7 +19,5 @@ public FieldDatabaseDataRow(params string[] values)
 ### Ayrıca bakınız
 
 * class [FieldDatabaseDataRow](../)
-* ad alanı [Aspose.Words.Fields](../../fielddatabasedatarow/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

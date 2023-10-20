@@ -1,7 +1,9 @@
 ---
 title: Shape.Stroke
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Bir şeklin konturunu tanımlar.
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words for .NET
+description: Shape Stroke mülk. Bir şeklin konturunu tanımlar C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.drawing/shape/stroke/
@@ -14,7 +16,7 @@ Bir şeklin konturunu tanımlar.
 public Stroke Stroke { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çeşitli şekiller oluşturmayı gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * class [Stroke](../../stroke/)
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

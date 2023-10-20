@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.ScanSubfolders
-second_title: Aspose.Words für .NET-API-Referenz
-description: FolderFontSource eigendom. Legt fest ob die Unterordner gescannt werden sollen oder nicht.
+linktitle: ScanSubfolders
+articleTitle: ScanSubfolders
+second_title: Aspose.Words für .NET
+description: FolderFontSource ScanSubfolders eigendom. Legt fest ob die Unterordner gescannt werden sollen oder nicht in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/folderfontsource/scansubfolders/
@@ -14,7 +16,7 @@ Legt fest, ob die Unterordner gescannt werden sollen oder nicht.
 public bool ScanSubfolders { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein lokaler Systemordner, der Schriftarten enthält, als Schriftartenquelle verwendet wird.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Siehe auch
 
 * class [FolderFontSource](../)
-* namensraum [Aspose.Words.Fonts](../../folderfontsource/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

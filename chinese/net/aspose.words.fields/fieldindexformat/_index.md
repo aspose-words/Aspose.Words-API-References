@@ -1,7 +1,9 @@
 ---
-title: Enum FieldIndexFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.FieldIndexFormat 枚举. 指定格式FieldIndex文档中的字段.
+title: FieldIndexFormat Enum
+linktitle: FieldIndexFormat
+articleTitle: FieldIndexFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.FieldIndexFormat 枚举. 指定格式FieldIndex文档中的字段 在 C#.
 type: docs
 weight: 2070
 url: /zh/net/aspose.words.fields/fieldindexformat/
@@ -30,5 +32,3 @@ public enum FieldIndexFormat
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

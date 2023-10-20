@@ -1,7 +1,9 @@
 ---
 title: WebExtension.Id
-second_title: Référence de l'API Aspose.Words pour .NET
-description: WebExtension propriété. Identifie de manière unique linstance dextension Web dans le document actuel.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words pour .NET
+description: WebExtension Id propriété. Identifie de manière unique linstance dextension Web dans le document actuel en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.webextensions/webextension/id/
@@ -17,7 +19,5 @@ public string Id { get; set; }
 ### Voir également
 
 * class [WebExtension](../)
-* espace de noms [Aspose.Words.WebExtensions](../../webextension/)
+* espace de noms [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Assemblée [Aspose.Words](../../../)
-
-

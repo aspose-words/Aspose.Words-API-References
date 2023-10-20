@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxis
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartAxis сорт. Представляет параметры оси диаграммы.
+title: ChartAxis Class
+linktitle: ChartAxis
+articleTitle: ChartAxis
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartAxis сорт. Представляет параметры оси диаграммы на С#.
 type: docs
 weight: 630
 url: /ru/net/aspose.words.drawing.charts/chartaxis/
@@ -50,7 +52,7 @@ public class ChartAxis
 | [Title](../../aspose.words.drawing.charts/chartaxis/title/) { get; } | Предоставляет доступ к свойствам заголовка оси. |
 | [Type](../../aspose.words.drawing.charts/chartaxis/type/) { get; } | Возвращает тип оси. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и изменить внешний вид ее осей.
 
@@ -104,5 +106,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

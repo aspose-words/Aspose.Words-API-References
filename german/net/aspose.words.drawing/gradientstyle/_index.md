@@ -1,7 +1,9 @@
 ---
-title: Enum GradientStyle
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.GradientStyle opsomming. Gibt den Stil für eine Verlaufsfüllung an.
+title: GradientStyle Enum
+linktitle: GradientStyle
+articleTitle: GradientStyle
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.GradientStyle opsomming. Gibt den Stil für eine Verlaufsfüllung an in C#.
 type: docs
 weight: 1000
 url: /de/net/aspose.words.drawing/gradientstyle/
@@ -26,7 +28,7 @@ public enum GradientStyle
 | FromCorner | `5` | Farbverlauf, der von einer Ecke zu den anderen drei Ecken verläuft. |
 | FromCenter | `6` | Farbverlauf, der von der Mitte zu den Ecken verläuft. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Form mit Farbverläufen gefüllt wird.
 
@@ -68,5 +70,3 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

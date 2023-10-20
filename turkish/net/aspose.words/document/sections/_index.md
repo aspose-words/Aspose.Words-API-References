@@ -1,7 +1,9 @@
 ---
 title: Document.Sections
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Belgedeki tüm bölümleri temsil eden bir koleksiyon döndürür.
+linktitle: Sections
+articleTitle: Sections
+second_title: Aspose.Words for .NET
+description: Document Sections mülk. Belgedeki tüm bölümleri temsil eden bir koleksiyon döndürür C#'da.
 type: docs
 weight: 370
 url: /tr/net/aspose.words/document/sections/
@@ -14,7 +16,7 @@ Belgedeki tüm bölümleri temsil eden bir koleksiyon döndürür.
 public SectionCollection Sections { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgede bölümlerin nasıl eklenip kaldırılacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * class [SectionCollection](../../sectioncollection/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

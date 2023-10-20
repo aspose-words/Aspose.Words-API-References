@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.PageSet
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FixedPageSaveOptions propriété. Obtient ou définit les pages à restituer. La valeur par défaut est toutes les pages du document.
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words pour .NET
+description: FixedPageSaveOptions PageSet propriété. Obtient ou définit les pages à restituer. La valeur par défaut est toutes les pages du document en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.saving/fixedpagesaveoptions/pageset/
@@ -14,7 +16,7 @@ Obtient ou définit les pages à restituer. La valeur par défaut est toutes les
 public PageSet PageSet { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment extraire des pages en fonction d'index de page exacts.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.All.pdf", options);
 
 * class [PageSet](../../pageset/)
 * class [FixedPageSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

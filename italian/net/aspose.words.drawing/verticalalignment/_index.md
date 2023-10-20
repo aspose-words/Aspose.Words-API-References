@@ -1,7 +1,9 @@
 ---
-title: Enum VerticalAlignment
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.VerticalAlignment enum. Specifica lallineamento verticale di una forma mobile cornice di testo o tabella mobile.
+title: VerticalAlignment Enum
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.VerticalAlignment enum. Specifica lallineamento verticale di una forma mobile cornice di testo o tabella mobile in C#.
 type: docs
 weight: 1380
 url: /it/net/aspose.words.drawing/verticalalignment/
@@ -18,7 +20,7 @@ public enum VerticalAlignment
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `0` | L'oggetto viene posizionato esplicitamente, solitamente utilizzando its **Superiore** proprietà. |
+| None | `0` | L'oggetto viene posizionato esplicitamente, solitamente utilizzando its**Superiore** proprietà. |
 | Top | `1` | Specifica che l'oggetto deve trovarsi nella parte superiore della base di allineamento verticale. |
 | Center | `2` | Specifica che l'oggetto dovrà essere centrato rispetto alla base di allineamento verticale. |
 | Bottom | `3` | Specifica che l'oggetto deve trovarsi nella parte inferiore della base di allineamento verticale. |
@@ -27,7 +29,7 @@ public enum VerticalAlignment
 | Inline | `-1` | Non documentato. Sembra essere un valore possibile per paragrafi e tabelle mobili. |
 | Default | `0` | Uguale aNone . |
 
-### Esempi
+## Esempi
 
 Mostra come inserire un'immagine mobile al centro di una pagina.
 
@@ -52,5 +54,3 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 * property [VerticalAlignment](../shapebase/verticalalignment/)
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.Version
-second_title: Справочник по API Aspose.Words для .NET
-description: PhysicalFontInfo свойство. Строка версии шрифта.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words для .NET
+description: PhysicalFontInfo Version свойство. Строка версии шрифта на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fonts/physicalfontinfo/version/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/physicalfontinfo/version/
 public string Version { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как составить список доступных шрифтов.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Смотрите также
 
 * class [PhysicalFontInfo](../)
-* пространство имен [Aspose.Words.Fonts](../../physicalfontinfo/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

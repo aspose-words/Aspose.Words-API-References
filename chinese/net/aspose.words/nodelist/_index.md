@@ -1,7 +1,9 @@
 ---
-title: Class NodeList
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.NodeList 班级. 表示与使用以下命令执行的 XPath 查询匹配的节点集合SelectNodes方法.
+title: NodeList Class
+linktitle: NodeList
+articleTitle: NodeList
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.NodeList 班级. 表示与使用以下命令执行的 XPath 查询匹配的节点集合SelectNodes方法 在 C#.
 type: docs
 weight: 4220
 url: /zh/net/aspose.words/nodelist/
@@ -30,7 +32,7 @@ public class NodeList : IEnumerable<Node>
 | [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | 在节点集合上提供简单的“foreach”样式迭代。 |
 | [ToArray](../../aspose.words/nodelist/toarray/)() | 将集合中的所有节点复制到新的节点数组。 |
 
-### 评论
+## 评论
 
 `NodeList`由返回[`SelectNodes`](../compositenode/selectnodes/)并包含与 XPath 查询匹配的节点的集合 。
 
@@ -38,7 +40,7 @@ public class NodeList : IEnumerable<Node>
 
 治疗`NodeList`集合作为“快照”集合。`NodeList`将 启动为“实时”集合，因为运行XPath 查询时实际上并未检索节点。 仅在访问时检索节点，此时该节点和 之前的所有节点都被缓存，形成“快照”集合。
 
-### 例子
+## 例子
 
 演示如何查找 Word 文档中的所有超链接，然后更改其 URL 和显示名称。
 
@@ -257,5 +259,3 @@ namespace ApiExamples
 * class [Node](../node/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

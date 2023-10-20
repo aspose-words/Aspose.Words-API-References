@@ -1,7 +1,9 @@
 ---
 title: Run.NodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: Run свойство. ВозвращаетRun .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words для .NET
+description: Run NodeType свойство. ВозвращаетRun  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/run/nodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/run/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перемещаться по дереву дочерних узлов составного узла.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Run](../)
-* пространство имен [Aspose.Words](../../run/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

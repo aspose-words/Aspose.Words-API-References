@@ -1,7 +1,9 @@
 ---
 title: CustomDocumentProperties.AddLinkToContent
-second_title: Aspose.Words لمراجع .NET API
-description: CustomDocumentProperties طريقة. إنشاء خاصية وثيقة مخصصة جديدة مرتبطة بالمحتوى.
+linktitle: AddLinkToContent
+articleTitle: AddLinkToContent
+second_title: Aspose.Words لـ .NET
+description: CustomDocumentProperties AddLinkToContent طريقة. إنشاء خاصية وثيقة مخصصة جديدة مرتبطة بالمحتوى في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.properties/customdocumentproperties/addlinktocontent/
@@ -23,7 +25,7 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 
 كائن الخاصية الذي تم إنشاؤه حديثًا أو`باطل` عندما*linkSource* غير صالح.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ربط خاصية مستند مخصص بإشارة مرجعية.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../customdocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

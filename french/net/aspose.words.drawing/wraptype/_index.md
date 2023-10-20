@@ -1,7 +1,9 @@
 ---
-title: Enum WrapType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.WrapType énumération. Spécifie la façon dont le texte est enroulé autour dune forme ou dune image.
+title: WrapType Enum
+linktitle: WrapType
+articleTitle: WrapType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.WrapType énumération. Spécifie la façon dont le texte est enroulé autour dune forme ou dune image en C#.
 type: docs
 weight: 1400
 url: /fr/net/aspose.words.drawing/wraptype/
@@ -25,7 +27,7 @@ public enum WrapType
 | Tight | `4` | S'enroule étroitement autour des bords de la forme, au lieu de s'enrouler autour du cadre de délimitation. |
 | Through | `5` | Identique à Tight, mais s'enroule à l'intérieur de toutes les parties de la forme qui sont ouvertes. |
 
-### Exemples
+## Exemples
 
 Montre comment insérer une image flottante au centre d’une page.
 
@@ -98,5 +100,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [WrapType](../shapebase/wraptype/)
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

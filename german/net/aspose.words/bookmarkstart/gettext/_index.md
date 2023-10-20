@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.GetText
-second_title: Aspose.Words für .NET-API-Referenz
-description: BookmarkStart methode. Gibt eine leere Zeichenfolge zurück.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words für .NET
+description: BookmarkStart GetText methode. Gibt eine leere Zeichenfolge zurück in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/bookmarkstart/gettext/
@@ -18,7 +20,7 @@ public override string GetText()
 
 Eine leere Zeichenfolge.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Lesezeichen hinzufügen und deren Inhalte aktualisieren.
 
@@ -107,7 +109,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Siehe auch
 
 * class [BookmarkStart](../)
-* namensraum [Aspose.Words](../../bookmarkstart/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

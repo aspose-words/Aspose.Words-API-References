@@ -1,7 +1,9 @@
 ---
 title: Font.NoProofing
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Истинно если форматированные символы не подлежат проверке орфографии.
+linktitle: NoProofing
+articleTitle: NoProofing
+second_title: Aspose.Words для .NET
+description: Font NoProofing свойство. Истинно если форматированные символы не подлежат проверке орфографии на С#.
 type: docs
 weight: 280
 url: /ru/net/aspose.words/font/noproofing/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/font/noproofing/
 public bool NoProofing { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как предотвратить проверку орфографии текста в Microsoft Word.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.NoProofing.docx");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

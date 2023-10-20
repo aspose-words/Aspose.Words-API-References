@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Add
-second_title: Aspose.Words for .NET API 参考
-description: BookmarksOutlineLevelCollection 方法. 将书签添加到集合中
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: BookmarksOutlineLevelCollection Add 方法. 将书签添加到集合中 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/bookmarksoutlinelevelcollection/add/
@@ -19,7 +21,7 @@ public void Add(string name, int outlineLevel)
 | name | String | 要添加的书签的名称（不区分大小写）。 |
 | outlineLevel | Int32 | 书签的大纲级别。有效范围为 0 到 9。 |
 
-### 例子
+## 例子
 
 演示如何设置书签的大纲级别。
 
@@ -77,7 +79,5 @@ outlineLevels.Clear();
 ### 也可以看看
 
 * class [BookmarksOutlineLevelCollection](../)
-* 命名空间 [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

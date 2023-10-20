@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Comments
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. الحصول على تعليقات المستند أو تعيينها.
+linktitle: Comments
+articleTitle: Comments
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties Comments ملكية. الحصول على تعليقات المستند أو تعيينها في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.properties/builtindocumentproperties/comments/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/comments/
 public string Comments { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند المضمنة في فئة "الوصف".
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

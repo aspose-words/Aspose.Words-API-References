@@ -1,7 +1,9 @@
 ---
 title: MailMerge.ExecuteADO
-second_title: Aspose.Words لمراجع .NET API
-description: MailMerge طريقة. تنفيذ دمج البريد من كائن ADO Recordset في المستند.
+linktitle: ExecuteADO
+articleTitle: ExecuteADO
+second_title: Aspose.Words لـ .NET
+description: MailMerge ExecuteADO طريقة. تنفيذ دمج البريد من كائن ADO Recordset في المستند في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.mailmerging/mailmerge/executeado/
@@ -18,7 +20,7 @@ public void ExecuteADO(object recordset)
 | --- | --- | --- |
 | recordset | Object | مجموعة سجلات ADO أو كائن التسجيل. |
 
-### ملاحظات
+## ملاحظات
 
 تكون هذه الطريقة مفيدة عندما تنوي استخدام فئات Aspose.Words ككائنات COM من تعليمات برمجية غير مُدارة مثل تطبيق تم إنشاؤه باستخدام ASP أو Visual Basic 6.0.
 
@@ -26,7 +28,7 @@ public void ExecuteADO(object recordset)
 
 لمزيد من المعلومات انظر وصف[`Execute`](../execute/).
 
-### أمثلة
+## أمثلة
 
 ```csharp
 [VBScript]
@@ -101,7 +103,5 @@ private static Document CreateSourceDocADOMailMerge()
 ### أنظر أيضا
 
 * class [MailMerge](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mailmerge/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

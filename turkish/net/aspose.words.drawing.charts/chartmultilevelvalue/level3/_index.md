@@ -1,7 +1,9 @@
 ---
 title: ChartMultilevelValue.Level3
-second_title: Aspose.Words for .NET API Referansı
-description: ChartMultilevelValue mülk. Bu değerin başvurduğu grafiğin alt düzeyinin adını alır.
+linktitle: Level3
+articleTitle: Level3
+second_title: Aspose.Words for .NET
+description: ChartMultilevelValue Level3 mülk. Bu değerin başvurduğu grafiğin alt düzeyinin adını alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.charts/chartmultilevelvalue/level3/
@@ -17,7 +19,5 @@ public string Level3 { get; }
 ### Ayrıca bakınız
 
 * class [ChartMultilevelValue](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartmultilevelvalue/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

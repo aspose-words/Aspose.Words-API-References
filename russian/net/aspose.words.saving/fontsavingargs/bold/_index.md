@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Bold
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSavingArgs свойство. Указывает является ли текущий шрифт полужирным.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words для .NET
+description: FontSavingArgs Bold свойство. Указывает является ли текущий шрифт полужирным на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/fontsavingargs/bold/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/fontsavingargs/bold/
 public bool Bold { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для экспорта шрифтов при сохранении в HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Смотрите также
 
 * class [FontSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../fontsavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent3
-second_title: Aspose.Words für .NET-API-Referenz
-description: ThemeColors eigendom. Gibt den Farbakzent 3 an.
+linktitle: Accent3
+articleTitle: Accent3
+second_title: Aspose.Words für .NET
+description: ThemeColors Accent3 eigendom. Gibt den Farbakzent 3 an in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.themes/themecolors/accent3/
@@ -14,7 +16,7 @@ Gibt den Farbakzent 3 an.
 public Color Accent3 { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Farben und Schriftarten für Designs festlegen.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Siehe auch
 
 * class [ThemeColors](../)
-* namensraum [Aspose.Words.Themes](../../themecolors/)
+* namensraum [Aspose.Words.Themes](../../../aspose.words.themes/)
 * Montage [Aspose.Words](../../../)
-
-

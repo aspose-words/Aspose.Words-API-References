@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.KeepSourceNumbering
-second_title: Aspose.Words for .NET API 参考
-description: ImportFormatOptions 财产. 获取或设置一个布尔值该值指定当编号与源文档和 目标文档发生冲突时如何导入编号 默认值为错误的.
+linktitle: KeepSourceNumbering
+articleTitle: KeepSourceNumbering
+second_title: 用于 .NET 的 Aspose.Words
+description: ImportFormatOptions KeepSourceNumbering 财产. 获取或设置一个布尔值该值指定当编号与源文档和 目标文档发生冲突时如何导入编号 默认值为错误的 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/importformatoptions/keepsourcenumbering/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/importformatoptions/keepsourcenumbering/
 public bool KeepSourceNumbering { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示导入具有相同列表定义标识符的列表的文档时如何解决冲突。
 
@@ -108,7 +110,5 @@ else
 ### 也可以看看
 
 * class [ImportFormatOptions](../)
-* 命名空间 [Aspose.Words](../../importformatoptions/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

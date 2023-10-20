@@ -1,7 +1,9 @@
 ---
 title: Document.JustificationMode
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar eller ställer in teckenavståndsjusteringen för ett dokument.
+linktitle: JustificationMode
+articleTitle: JustificationMode
+second_title: Aspose.Words för .NET
+description: Document JustificationMode fast egendom. Hämtar eller ställer in teckenavståndsjusteringen för ett dokument i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words/document/justificationmode/
@@ -14,7 +16,7 @@ Hämtar eller ställer in teckenavståndsjusteringen för ett dokument.
 public JustificationMode JustificationMode { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man hanterar teckenavståndskontroll.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");
 
 * enum [JustificationMode](../../../aspose.words.settings/justificationmode/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Crosses
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxis propriété. Spécifie comment cet axe croise laxe perpendiculaire.
+linktitle: Crosses
+articleTitle: Crosses
+second_title: Aspose.Words pour .NET
+description: ChartAxis Crosses propriété. Spécifie comment cet axe croise laxe perpendiculaire en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.drawing.charts/chartaxis/crosses/
@@ -14,13 +16,13 @@ Spécifie comment cet axe croise l'axe perpendiculaire.
 public AxisCrosses Crosses { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut estAutomatic.
 
 La propriété n'est pas prise en charge par les nouveaux graphiques MS Office 2016.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un graphique et modifier l’apparence de ses axes.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisCrosses](../../axiscrosses/)
 * class [ChartAxis](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

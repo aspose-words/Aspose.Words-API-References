@@ -1,12 +1,14 @@
 ---
 title: Document.Compare
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Bu belgeyi düzenleme ve biçim revizyonlarının sayısı olarak değişiklik üreten başka bir belgeyle karşılaştırırRevision .
+linktitle: Compare
+articleTitle: Compare
+second_title: Aspose.Words for .NET
+description: Document Compare yöntem. Bu belgeyi düzenleme ve biçim revizyonlarının sayısı olarak değişiklik üreten başka bir belgeyle karşılaştırırRevision  C#'da.
 type: docs
-weight: 580
+weight: 560
 url: /tr/net/aspose.words/document/compare/
 ---
-## Compare(Document, string, DateTime) {#compare}
+## Compare(*[Document](../), string, DateTime*) {#compare}
 
 Bu belgeyi, düzenleme ve biçim revizyonlarının sayısı olarak değişiklik üreten başka bir belgeyle karşılaştırır[`Revision`](../../revision/) .
 
@@ -20,11 +22,11 @@ public void Compare(Document document, string author, DateTime dateTime)
 | author | String | Düzeltmelerde kullanılacak yazarın baş harfleri. |
 | dateTime | DateTime | Düzeltmeler için kullanılacak tarih ve saat. |
 
-### Notlar
+## Notlar
 
 Dokümanlarda karşılaştırma yapılmadan önce revizyon yapılmamalıdır.
 
-### Örnekler
+## Örnekler
 
 Belgelerin nasıl karşılaştırılacağını gösterir.
 
@@ -58,12 +60,12 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Compare(Document, string, DateTime, CompareOptions) {#compare_1}
+## Compare(*[Document](../), string, DateTime, [CompareOptions](../../../aspose.words.comparing/compareoptions/)*) {#compare_1}
 
 Bu belgeyi, bir dizi düzenleme ve biçim revizyonu şeklinde değişiklik üreten başka bir belgeyle karşılaştırır[`Revision`](../../revision/) . Karşılaştırma seçeneklerini belirtmeye olanak sağlar.[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
 
@@ -71,7 +73,7 @@ Bu belgeyi, bir dizi düzenleme ve biçim revizyonu şeklinde değişiklik üret
 public void Compare(Document document, string author, DateTime dateTime, CompareOptions options)
 ```
 
-### Örnekler
+## Örnekler
 
 Karşılaştırma yaparken belirli belge öğesi türlerinin nasıl filtreleneceğini gösterir.
 
@@ -146,7 +148,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * class [CompareOptions](../../../aspose.words.comparing/compareoptions/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

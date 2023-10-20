@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.LoadLinuxSettings
-second_title: Aspose.Words für .NET-API-Referenz
-description: TableSubstitutionRule methode. Lädt vordefinierte Tabellenersetzungseinstellungen für die LinuxPlattform.
+linktitle: LoadLinuxSettings
+articleTitle: LoadLinuxSettings
+second_title: Aspose.Words für .NET
+description: TableSubstitutionRule LoadLinuxSettings methode. Lädt vordefinierte Tabellenersetzungseinstellungen für die LinuxPlattform in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/
@@ -14,7 +16,7 @@ Lädt vordefinierte Tabellenersetzungseinstellungen für die Linux-Plattform.
 public void LoadLinuxSettings()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man auf Schriftarten-Ersetzungstabellen für Windows und Linux zugreift.
 
@@ -53,7 +55,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Siehe auch
 
 * class [TableSubstitutionRule](../)
-* namensraum [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

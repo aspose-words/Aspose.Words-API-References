@@ -1,7 +1,9 @@
 ---
 title: Inline.IsMoveToRevision
-second_title: Aspose.Words for .NET API Referansı
-description: Inline mülk. İadelerdoğru bu nesne Microsoft Wordde değişiklik izleme etkinken taşınmışsa eklenmişse.
+linktitle: IsMoveToRevision
+articleTitle: IsMoveToRevision
+second_title: Aspose.Words for .NET
+description: Inline IsMoveToRevision mülk. İadelerdoğru bu nesne Microsoft Wordde değişiklik izleme etkinken taşınmışsa eklenmişse C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/inline/ismovetorevision/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/inline/ismovetorevision/
 public bool IsMoveToRevision { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Satır içi düğümün revizyon türünün nasıl belirleneceğini gösterir.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### Ayrıca bakınız
 
 * class [Inline](../)
-* ad alanı [Aspose.Words](../../inline/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

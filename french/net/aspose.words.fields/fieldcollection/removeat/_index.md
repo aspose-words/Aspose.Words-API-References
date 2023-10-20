@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.RemoveAt
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldCollection méthode. Supprime un champ à lindex spécifié de cette collection et du document.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words pour .NET
+description: FieldCollection RemoveAt méthode. Supprime un champ à lindex spécifié de cette collection et du document en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/fieldcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Un index dans la collection. |
 
-### Exemples
+## Exemples
 
 Montre comment supprimer des champs d’une collection de champs.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, fields.Count);
 ### Voir également
 
 * class [FieldCollection](../)
-* espace de noms [Aspose.Words.Fields](../../fieldcollection/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

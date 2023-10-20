@@ -1,7 +1,9 @@
 ---
 title: Document.JustificationMode
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bir belgenin karakter aralığı ayarını alır veya ayarlar.
+linktitle: JustificationMode
+articleTitle: JustificationMode
+second_title: Aspose.Words for .NET
+description: Document JustificationMode mülk. Bir belgenin karakter aralığı ayarını alır veya ayarlar C#'da.
 type: docs
 weight: 230
 url: /tr/net/aspose.words/document/justificationmode/
@@ -14,7 +16,7 @@ Bir belgenin karakter aralığı ayarını alır veya ayarlar.
 public JustificationMode JustificationMode { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Karakter aralığı kontrolünün nasıl yönetileceğini gösterir.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");
 
 * enum [JustificationMode](../../../aspose.words.settings/justificationmode/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

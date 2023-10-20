@@ -1,7 +1,9 @@
 ---
-title: Class PageSavingArgs
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.PageSavingArgs فصل. يوفر بيانات لـPageSaving حدث.
+title: PageSavingArgs Class
+linktitle: PageSavingArgs
+articleTitle: PageSavingArgs
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.PageSavingArgs فصل. يوفر بيانات لـPageSaving حدث في C#.
 type: docs
 weight: 5380
 url: /ar/net/aspose.words.saving/pagesavingargs/
@@ -31,7 +33,7 @@ public class PageSavingArgs
 | [PageIndex](../../aspose.words.saving/pagesavingargs/pageindex/) { get; } | فهرس الصفحة الحالية. |
 | [PageStream](../../aspose.words.saving/pagesavingargs/pagestream/) { get; set; } | يسمح بتحديد التدفق الذي سيتم حفظ صفحة المستند فيه. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد الاتصال لحفظ مستند إلى HTML صفحة تلو الأخرى.
 
@@ -89,5 +91,3 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: JsonDataLoadOptions.PreserveSpaces
-second_title: Referencia de API de Aspose.Words para .NET
-description: JsonDataLoadOptions propiedad. Obtiene o establece una marca que indica si se deben conservar los espacios iniciales y finales al cargar valores string de datos JSON.
+linktitle: PreserveSpaces
+articleTitle: PreserveSpaces
+second_title: Aspose.Words para .NET
+description: JsonDataLoadOptions PreserveSpaces propiedad. Obtiene o establece una marca que indica si se deben conservar los espacios iniciales y finales al cargar valores string de datos JSON en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.reporting/jsondataloadoptions/preservespaces/
@@ -14,14 +16,12 @@ Obtiene o establece una marca que indica si se deben conservar los espacios inic
 public bool PreserveSpaces { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO` .
 
 ### Ver también
 
 * class [JsonDataLoadOptions](../)
-* espacio de nombres [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* espacio de nombres [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * asamblea [Aspose.Words](../../../)
-
-

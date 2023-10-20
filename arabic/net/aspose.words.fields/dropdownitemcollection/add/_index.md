@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Add
-second_title: Aspose.Words لمراجع .NET API
-description: DropDownItemCollection طريقة. إضافة سلسلة إلى نهاية المجموعة.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: DropDownItemCollection Add طريقة. إضافة سلسلة إلى نهاية المجموعة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/dropdownitemcollection/add/
@@ -22,7 +24,7 @@ public int Add(string value)
 
 الفهرس الصفري الذي يتم إدراج العنصر الجديد فيه.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل مربع التحرير والسرد، وتحرير العناصر الموجودة في مجموعة العناصر الخاصة به.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### أنظر أيضا
 
 * class [DropDownItemCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../dropdownitemcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

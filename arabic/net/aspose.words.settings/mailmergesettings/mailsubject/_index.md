@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MailSubject
-second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. يحدد النص الذي يجب أن يظهر في سطر الموضوع لرسائل البريد الإلكتروني أو الفاكسات التي يتم إرسالها أثناء دمج البريد. القيمة الافتراضية هي سلسلة فارغة.
+linktitle: MailSubject
+articleTitle: MailSubject
+second_title: Aspose.Words لـ .NET
+description: MailMergeSettings MailSubject ملكية. يحدد النص الذي يجب أن يظهر في سطر الموضوع لرسائل البريد الإلكتروني أو الفاكسات التي يتم إرسالها أثناء دمج البريد. القيمة الافتراضية هي سلسلة فارغة في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.settings/mailmergesettings/mailsubject/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/mailmergesettings/mailsubject/
 public string MailSubject { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ عملية دمج البريد أثناء الاتصال بمصدر بيانات خارجي.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### أنظر أيضا
 
 * class [MailMergeSettings](../)
-* مساحة الاسم [Aspose.Words.Settings](../../mailmergesettings/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

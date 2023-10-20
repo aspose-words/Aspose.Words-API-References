@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.LayoutRawTableWidth
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Игнорировать пробел перед таблицей при принятии решения о том должна ли таблица обертывать плавающий объект.
+linktitle: LayoutRawTableWidth
+articleTitle: LayoutRawTableWidth
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions LayoutRawTableWidth свойство. Игнорировать пробел перед таблицей при принятии решения о том должна ли таблица обертывать плавающий объект на С#.
 type: docs
 weight: 290
 url: /ru/net/aspose.words.settings/compatibilityoptions/layoutrawtablewidth/
@@ -17,7 +19,5 @@ public bool LayoutRawTableWidth { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

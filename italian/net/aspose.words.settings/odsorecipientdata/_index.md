@@ -1,7 +1,9 @@
 ---
-title: Class OdsoRecipientData
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.OdsoRecipientData classe. Rappresenta informazioni su un singolo record allinterno di unorigine dati esterna che deve essere esclusa dalla stampa unione.
+title: OdsoRecipientData Class
+linktitle: OdsoRecipientData
+articleTitle: OdsoRecipientData
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Settings.OdsoRecipientData classe. Rappresenta informazioni su un singolo record allinterno di unorigine dati esterna che deve essere esclusa dalla stampa unione in C#.
 type: docs
 weight: 5930
 url: /it/net/aspose.words.settings/odsorecipientdata/
@@ -37,11 +39,11 @@ public class OdsoRecipientData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsorecipientdata/clone/)() | Restituisce un clone profondo di questo oggetto. |
 
-### Osservazioni
+## Osservazioni
 
 Se un record deve essere unito in un documento unito, non sono necessarie informazioni su quel record. Tuttavia, se un dato record non deve essere unito in un documento unito, il valore della chiave univoca per quel record sarà memorizzato nel[`UniqueTag`](./uniquetag/)proprietà di questo oggetto per indicare questa esclusione.
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
 
@@ -82,5 +84,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * spazio dei nomi [Aspose.Words.Settings](../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../)
-
-

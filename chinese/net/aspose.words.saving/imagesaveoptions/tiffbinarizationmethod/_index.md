@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.TiffBinarizationMethod
-second_title: Aspose.Words for .NET API 参考
-description: ImageSaveOptions 财产. 获取或设置将图像转换为 1 bpp 格式 时使用的方法SaveFormat是Tiff和 TiffCompression等于Ccitt3或者Ccitt4.
+linktitle: TiffBinarizationMethod
+articleTitle: TiffBinarizationMethod
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSaveOptions TiffBinarizationMethod 财产. 获取或设置将图像转换为 1 bpp 格式 时使用的方法SaveFormat是Tiff和 TiffCompression等于Ccitt3或者Ccitt4 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/
 public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为Threshold。
 
-### 例子
+## 例子
 
 演示如何在使用 Floyd-Steinberg 方法渲染 TIFF 图像时设置 TIFF 二值化错误阈值。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.FloydSteinbergDithering.tiff", options
 
 * enum [ImageBinarizationMethod](../../imagebinarizationmethod/)
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class CustomXmlPropertyCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Markup.CustomXmlPropertyCollection 班级. 表示自定义 XML 属性或智能标记属性的集合
+title: CustomXmlPropertyCollection Class
+linktitle: CustomXmlPropertyCollection
+articleTitle: CustomXmlPropertyCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Markup.CustomXmlPropertyCollection 班级. 表示自定义 XML 属性或智能标记属性的集合 在 C#.
 type: docs
 weight: 3950
 url: /zh/net/aspose.words.markup/customxmlpropertycollection/
@@ -27,19 +29,19 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(CustomXmlProperty) | 将属性添加到集合中。 |
+| [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(*[CustomXmlProperty](../customxmlproperty/)*) | 将属性添加到集合中。 |
 | [Clear](../../aspose.words.markup/customxmlpropertycollection/clear/)() | 从集合中删除所有元素。 |
-| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(string) | 确定集合是否包含具有给定名称的属性。 |
+| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(*string*) | 确定集合是否包含具有给定名称的属性。 |
 | [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
-| [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(string) | 返回集合中指定属性的从零开始的索引。 |
-| [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(string) | 从集合中删除具有指定名称的属性。 |
-| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(int) | 删除指定索引处的属性。 |
+| [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(*string*) | 返回集合中指定属性的从零开始的索引。 |
+| [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(*string*) | 从集合中删除具有指定名称的属性。 |
+| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(*int*) | 删除指定索引处的属性。 |
 
-### 评论
+## 评论
 
 物品有[`CustomXmlProperty`](../customxmlproperty/)对象。
 
-### 例子
+## 例子
 
 展示如何使用智能标记属性来获取有关智能标记的深入信息。
 
@@ -98,5 +100,3 @@ Assert.AreEqual(0, properties.Count);
 * class [CustomXmlProperty](../customxmlproperty/)
 * 命名空间 [Aspose.Words.Markup](../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../)
-
-

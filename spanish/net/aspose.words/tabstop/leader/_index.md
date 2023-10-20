@@ -1,7 +1,9 @@
 ---
 title: TabStop.Leader
-second_title: Referencia de API de Aspose.Words para .NET
-description: TabStop propiedad. Obtiene o establece el tipo de línea guía que se muestra bajo el carácter de tabulación.
+linktitle: Leader
+articleTitle: Leader
+second_title: Aspose.Words para .NET
+description: TabStop Leader propiedad. Obtiene o establece el tipo de línea guía que se muestra bajo el carácter de tabulación en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/tabstop/leader/
@@ -14,7 +16,7 @@ Obtiene o establece el tipo de línea guía que se muestra bajo el carácter de 
 public TabLeader Leader { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo modificar la posición de la tabulación derecha en párrafos relacionados con TOC.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [TabLeader](../../tableader/)
 * class [TabStop](../)
-* espacio de nombres [Aspose.Words](../../tabstop/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

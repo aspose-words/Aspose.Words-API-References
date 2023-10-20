@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfHeaderFooter
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 如果该段落是最后一段则为 TrueHeaderFooter 正文故事aSection否则为假
+linktitle: IsEndOfHeaderFooter
+articleTitle: IsEndOfHeaderFooter
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph IsEndOfHeaderFooter 财产. 如果该段落是最后一段则为 TrueHeaderFooter 正文故事aSection否则为假 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/paragraph/isendofheaderfooter/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/isendofheaderfooter/
 public bool IsEndOfHeaderFooter { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建页眉和页脚。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### 也可以看看
 
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

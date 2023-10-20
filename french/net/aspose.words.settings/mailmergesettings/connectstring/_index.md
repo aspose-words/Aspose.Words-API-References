@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ConnectString
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeSettings propriété. Spécifie la chaîne de connexion utilisée pour se connecter à une source de données externe. La valeur par défaut est une chaîne vide.
+linktitle: ConnectString
+articleTitle: ConnectString
+second_title: Aspose.Words pour .NET
+description: MailMergeSettings ConnectString propriété. Spécifie la chaîne de connexion utilisée pour se connecter à une source de données externe. La valeur par défaut est une chaîne vide en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.settings/mailmergesettings/connectstring/
@@ -14,7 +16,7 @@ Spécifie la chaîne de connexion utilisée pour se connecter à une source de d
 public string ConnectString { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage lors de la connexion à une source de données externe.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Voir également
 
 * class [MailMergeSettings](../)
-* espace de noms [Aspose.Words.Settings](../../mailmergesettings/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

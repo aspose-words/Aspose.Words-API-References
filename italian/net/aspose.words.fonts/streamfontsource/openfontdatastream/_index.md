@@ -1,7 +1,9 @@
 ---
 title: StreamFontSource.OpenFontDataStream
-second_title: Aspose.Words per .NET API Reference
-description: StreamFontSource metodo. Questo metodo dovrebbe aprire lo stream con i dati dei caratteri su richiesta.
+linktitle: OpenFontDataStream
+articleTitle: OpenFontDataStream
+second_title: Aspose.Words per .NET
+description: StreamFontSource OpenFontDataStream metodo. Questo metodo dovrebbe aprire lo stream con i dati dei caratteri su richiesta in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fonts/streamfontsource/openfontdatastream/
@@ -18,11 +20,11 @@ public abstract Stream OpenFontDataStream()
 
 Flusso di dati dei caratteri.
 
-### Osservazioni
+## Osservazioni
 
 Lo stream verrà chiuso dopo la lettura. Non è necessario chiuderlo esplicitamente.
 
-### Esempi
+## Esempi
 
 Mostra come caricare i caratteri dallo stream.
 
@@ -56,7 +58,5 @@ private class StreamFontSourceFile : StreamFontSource
 ### Guarda anche
 
 * class [StreamFontSource](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../streamfontsource/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

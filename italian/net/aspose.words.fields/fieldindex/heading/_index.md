@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.Heading
-second_title: Aspose.Words per .NET API Reference
-description: FieldIndex proprietà. Ottiene o imposta unintestazione che appare allinizio di ogni serie di voci per ogni determinata lettera.
+linktitle: Heading
+articleTitle: Heading
+second_title: Aspose.Words per .NET
+description: FieldIndex Heading proprietà. Ottiene o imposta unintestazione che appare allinizio di ogni serie di voci per ogni determinata lettera in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fields/fieldindex/heading/
@@ -14,7 +16,7 @@ Ottiene o imposta un'intestazione che appare all'inizio di ogni serie di voci pe
 public string Heading { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come popolare un campo INDICE con voci utilizzando i campi XE e anche modificarne l'aspetto.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Guarda anche
 
 * class [FieldIndex](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldindex/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

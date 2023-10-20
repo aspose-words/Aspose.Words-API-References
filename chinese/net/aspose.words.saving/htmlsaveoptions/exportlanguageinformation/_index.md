@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportLanguageInformation
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定是否将语言信息导出为 HTMLMHTML 或 EPUB 默认为错误的.
+linktitle: ExportLanguageInformation
+articleTitle: ExportLanguageInformation
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions ExportLanguageInformation 财产. 指定是否将语言信息导出为 HTMLMHTML 或 EPUB 默认为错误的 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
 public bool ExportLanguageInformation { get; set; }
 ```
 
-### 评论
+## 评论
 
-当该属性设置为`真的`Aspose.Words 输出 **郎**document 元素上指定语言的 HTML 属性。这可能需要保留语言相关的语义。
+当该属性设置为`真的`Aspose.Words 输出**郎**document 元素上指定语言的 HTML 属性。这可能需要保留语言相关的语义。
 
-### 例子
+## 例子
 
 演示如何在保存到 .html 时保留语言信息。
 
@@ -69,7 +71,5 @@ else
 ### 也可以看看
 
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: TabStop.TabStop
-second_title: Aspose.Words for .NET API 参考
-description: TabStop 构造函数. 初始化此类的新实例
+title: TabStop
+linktitle: TabStop
+articleTitle: TabStop
+second_title: 用于 .NET 的 Aspose.Words
+description: TabStop 构造函数. 初始化此类的新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/tabstop/tabstop/
 ---
-## TabStop(double) {#constructor}
+## TabStop(*double*) {#constructor}
 
 初始化此类的新实例。
 
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/tabstop/tabstop/
 public TabStop(double position)
 ```
 
-### 例子
+## 例子
 
 展示如何使用文档的制表位集合。
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### 也可以看看
 
 * class [TabStop](../)
-* 命名空间 [Aspose.Words](../../tabstop/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## TabStop(double, TabAlignment, TabLeader) {#constructor_1}
+## TabStop(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#constructor_1}
 
 初始化此类的新实例。
 
@@ -77,7 +79,7 @@ public TabStop(double position, TabAlignment alignment, TabLeader leader)
 | alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/)值 that 指定此制表位处的文本对齐方式。 |
 | leader | TabLeader | A[`TabLeader`](../../tableader/)指定 制表符下显示的引导线类型的值。 |
 
-### 例子
+## 例子
 
 展示如何使用文档的制表位集合。
 
@@ -123,7 +125,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 * enum [TabAlignment](../../tabalignment/)
 * enum [TabLeader](../../tableader/)
 * class [TabStop](../)
-* 命名空间 [Aspose.Words](../../tabstop/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

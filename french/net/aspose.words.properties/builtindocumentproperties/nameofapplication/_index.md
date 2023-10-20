@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.NameOfApplication
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuiltInDocumentProperties propriété. Obtient ou définit le nom de lapplication.
+linktitle: NameOfApplication
+articleTitle: NameOfApplication
+second_title: Aspose.Words pour .NET
+description: BuiltInDocumentProperties NameOfApplication propriété. Obtient ou définit le nom de lapplication en C#.
 type: docs
 weight: 210
 url: /fr/net/aspose.words.properties/builtindocumentproperties/nameofapplication/
@@ -14,7 +16,7 @@ Obtient ou définit le nom de l'application.
 public string NameOfApplication { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés du document dans la catégorie « Origine ».
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Voir également
 
 * class [BuiltInDocumentProperties](../)
-* espace de noms [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

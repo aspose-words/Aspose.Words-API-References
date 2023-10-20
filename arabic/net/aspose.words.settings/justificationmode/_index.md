@@ -1,7 +1,9 @@
 ---
-title: Enum JustificationMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.JustificationMode تعداد. يحدد تعديل تباعد الأحرف للمستند. القيمة الافتراضية هييوسع .
+title: JustificationMode Enum
+linktitle: JustificationMode
+articleTitle: JustificationMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.JustificationMode تعداد. يحدد تعديل تباعد الأحرف للمستند. القيمة الافتراضية هييوسع  في C#.
 type: docs
 weight: 5800
 url: /ar/net/aspose.words.settings/justificationmode/
@@ -22,7 +24,7 @@ public enum JustificationMode
 | Compress | `1` |  |
 | CompressKana | `2` |  |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدارة التحكم في تباعد الأحرف.
 
@@ -40,5 +42,3 @@ doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");
 
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

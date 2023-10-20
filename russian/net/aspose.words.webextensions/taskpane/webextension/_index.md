@@ -1,7 +1,9 @@
 ---
 title: TaskPane.WebExtension
-second_title: Справочник по API Aspose.Words для .NET
-description: TaskPane свойство. Представляет объект вебрасширения.
+linktitle: WebExtension
+articleTitle: WebExtension
+second_title: Aspose.Words для .NET
+description: TaskPane WebExtension свойство. Представляет объект вебрасширения на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.webextensions/taskpane/webextension/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.webextensions/taskpane/webextension/
 public WebExtension WebExtension { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtension](../../webextension/)
 * class [TaskPane](../)
-* пространство имен [Aspose.Words.WebExtensions](../../taskpane/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

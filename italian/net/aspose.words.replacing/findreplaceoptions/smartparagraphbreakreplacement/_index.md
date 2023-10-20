@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.SmartParagraphBreakReplacement
-second_title: Aspose.Words per .NET API Reference
-description: FindReplaceOptions proprietà. Ottiene o imposta un valore booleano che indica che è consentito sostituire il paragrafo break quando non è presente alcun paragrafo di pari livello successivo.
+linktitle: SmartParagraphBreakReplacement
+articleTitle: SmartParagraphBreakReplacement
+second_title: Aspose.Words per .NET
+description: FindReplaceOptions SmartParagraphBreakReplacement proprietà. Ottiene o imposta un valore booleano che indica che è consentito sostituire il paragrafo break quando non è presente alcun paragrafo di pari livello successivo in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
@@ -16,11 +18,11 @@ Il valore predefinito è`falso`.
 public bool SmartParagraphBreakReplacement { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa opzione consente di sostituire l'interruzione di paragrafo quando non esiste un paragrafo fratello successivo in cui spostare tutti i nodi figlio , trovando qualsiasi paragrafo successivo (non necessariamente fratello) dopo il paragrafo da sostituire.
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere un paragrafo da una cella di tabella con una tabella nidificata.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.RemoveParagraphTextAndMark.docx");
 ### Guarda anche
 
 * class [FindReplaceOptions](../)
-* spazio dei nomi [Aspose.Words.Replacing](../../findreplaceoptions/)
+* spazio dei nomi [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveNext
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutEnumerator méthode. Passe à lentité sœur suivante dans lordre visuel. Lors de litération des lignes dun paragraphe réparties sur plusieurs pages cette méthode ne passera pas à la page suivante mais plutôt à lentité suivante sur la même page.
+linktitle: MoveNext
+articleTitle: MoveNext
+second_title: Aspose.Words pour .NET
+description: LayoutEnumerator MoveNext méthode. Passe à lentité sœur suivante dans lordre visuel. Lors de litération des lignes dun paragraphe réparties sur plusieurs pages cette méthode ne passera pas à la page suivante mais plutôt à lentité suivante sur la même page en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.layout/layoutenumerator/movenext/
@@ -14,7 +16,7 @@ Passe à l'entité sœur suivante dans l'ordre visuel. Lors de l'itération des 
 public bool MoveNext()
 ```
 
-### Exemples
+## Exemples
 
 Montre les moyens de parcourir les entités de mise en page d'un document.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Voir également
 
 * class [LayoutEnumerator](../)
-* espace de noms [Aspose.Words.Layout](../../layoutenumerator/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

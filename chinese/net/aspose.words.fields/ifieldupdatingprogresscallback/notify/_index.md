@@ -1,7 +1,9 @@
 ---
 title: IFieldUpdatingProgressCallback.Notify
-second_title: Aspose.Words for .NET API 参考
-description: IFieldUpdatingProgressCallback 方法. 更新进度更改时调用的用户定义方法
+linktitle: Notify
+articleTitle: Notify
+second_title: 用于 .NET 的 Aspose.Words
+description: IFieldUpdatingProgressCallback Notify 方法. 更新进度更改时调用的用户定义方法 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/ifieldupdatingprogresscallback/notify/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/ifieldupdatingprogresscallback/notify/
 public void Notify(FieldUpdatingProgressArgs args)
 ```
 
-### 例子
+## 例子
 
 演示如何在字段更新期间使用回调方法。
 
@@ -83,7 +85,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * class [FieldUpdatingProgressArgs](../../fieldupdatingprogressargs/)
 * interface [IFieldUpdatingProgressCallback](../)
-* 命名空间 [Aspose.Words.Fields](../../ifieldupdatingprogresscallback/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

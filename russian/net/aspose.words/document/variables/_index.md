@@ -1,7 +1,9 @@
 ---
 title: Document.Variables
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Возвращает коллекцию переменных добавленных в документ или шаблон.
+linktitle: Variables
+articleTitle: Variables
+second_title: Aspose.Words для .NET
+description: Document Variables свойство. Возвращает коллекцию переменных добавленных в документ или шаблон на С#.
 type: docs
 weight: 440
 url: /ru/net/aspose.words/document/variables/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/variables/
 public VariableCollection Variables { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией переменных документа.
 
@@ -82,7 +84,5 @@ Assert.That(variables, Is.Empty);
 
 * class [VariableCollection](../../variablecollection/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

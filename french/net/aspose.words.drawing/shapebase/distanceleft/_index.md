@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.DistanceLeft
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Renvoie ou définit la distance en points entre le texte du document et le bord gauche de la forme.
+linktitle: DistanceLeft
+articleTitle: DistanceLeft
+second_title: Aspose.Words pour .NET
+description: ShapeBase DistanceLeft propriété. Renvoie ou définit la distance en points entre le texte du document et le bord gauche de la forme en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.drawing/shapebase/distanceleft/
@@ -14,13 +16,13 @@ Renvoie ou définit la distance (en points) entre le texte du document et le bor
 public double DistanceLeft { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est 1/8 de pouce.
 
 N'a d'effet que sur les formes de niveau supérieur.
 
-### Exemples
+## Exemples
 
 Montre comment définir la distance d’habillage d’un texte entourant une forme.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Shape.Coordinates.docx");
 ### Voir également
 
 * class [ShapeBase](../)
-* espace de noms [Aspose.Words.Drawing](../../shapebase/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

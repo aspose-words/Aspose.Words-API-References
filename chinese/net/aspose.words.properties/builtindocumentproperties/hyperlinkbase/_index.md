@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.HyperlinkBase
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 指定用于评估本文档中相对超链接的基本字符串
+linktitle: HyperlinkBase
+articleTitle: HyperlinkBase
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties HyperlinkBase 财产. 指定用于评估本文档中相对超链接的基本字符串 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.properties/builtindocumentproperties/hyperlinkbase/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/hyperlinkbase/
 public string HyperlinkBase { get; set; }
 ```
 
-### 评论
+## 评论
 
 Aspose.Words 不使用此属性。
 
-### 例子
+## 例子
 
 演示如何在文档属性中存储超链接的基本部分。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.HyperlinkBase.WorkingLink.docx");
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

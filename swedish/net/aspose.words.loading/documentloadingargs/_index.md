@@ -1,7 +1,9 @@
 ---
-title: Class DocumentLoadingArgs
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Loading.DocumentLoadingArgs klass. Ett argument passerat inNotify .
+title: DocumentLoadingArgs Class
+linktitle: DocumentLoadingArgs
+articleTitle: DocumentLoadingArgs
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Loading.DocumentLoadingArgs klass. Ett argument passerat inNotify  i C#.
 type: docs
 weight: 3590
 url: /sv/net/aspose.words.loading/documentloadingargs/
@@ -26,5 +28,3 @@ public sealed class DocumentLoadingArgs
 
 * namnutrymme [Aspose.Words.Loading](../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../)
-
-

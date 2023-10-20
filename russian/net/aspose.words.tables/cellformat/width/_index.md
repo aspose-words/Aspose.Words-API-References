@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Width
-second_title: Справочник по API Aspose.Words для .NET
-description: CellFormat свойство. Получает ширину ячейки в пунктах.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words для .NET
+description: CellFormat Width свойство. Получает ширину ячейки в пунктах на С#.
 type: docs
-weight: 140
+weight: 130
 url: /ru/net/aspose.words.tables/cellformat/width/
 ---
 ## CellFormat.Width property
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.tables/cellformat/width/
 public double Width { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Ширина рассчитывается Aspose.Words при загрузке и сохранении документа. В настоящее время поддерживаются не все комбинации свойств таблицы, ячейки и документа. Возвращаемое значение может быть неточным для некоторых документов. Оно может не совсем соответствовать значению ширина ячейки, рассчитанная MS Word при открытии документа в MS Word.
 
 Установка этого свойства не рекомендуется. Нет никакой гарантии, что ячейка действительно будет иметь заданную ширину. Ширину можно отрегулировать для размещения содержимого ячейки в макете таблицы с автоподбором. Ячейки в других строках могут иметь конфликтующую ширину. settings. Размер таблицы можно изменить, чтобы она поместилась в контейнер или соответствовала настройкам ширины таблицы. Рассмотрите возможность использования[`PreferredWidth`](../preferredwidth/) для установки ширины ячейки. Установка этого свойства устанавливает[`PreferredWidth`](../preferredwidth/)неявно, начиная с версии 15.8.
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать ячейки с помощью построителя документов.
 
@@ -128,7 +130,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Смотрите также
 
 * class [CellFormat](../)
-* пространство имен [Aspose.Words.Tables](../../cellformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

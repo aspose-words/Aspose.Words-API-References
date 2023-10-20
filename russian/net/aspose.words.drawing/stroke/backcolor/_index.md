@@ -1,7 +1,9 @@
 ---
 title: Stroke.BackColor
-second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Получает или задает цвет фона обводки.
+linktitle: BackColor
+articleTitle: BackColor
+second_title: Aspose.Words для .NET
+description: Stroke BackColor свойство. Получает или задает цвет фона обводки на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/stroke/backcolor/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/stroke/backcolor/
 public Color BackColor { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию для[`Shape`](../../shape/) is White.
 
-### Примеры
+## Примеры
 
 Покажите, как установить форматирование маркера.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Смотрите также
 
 * class [Stroke](../)
-* пространство имен [Aspose.Words.Drawing](../../stroke/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

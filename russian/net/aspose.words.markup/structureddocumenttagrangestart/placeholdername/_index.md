@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.PlaceholderName
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart свойство. Получает или задает ИмяBuildingBlock содержащий текстзаполнитель.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagRangeStart PlaceholderName свойство. Получает или задает ИмяBuildingBlock содержащий текстзаполнитель на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
@@ -16,7 +18,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername
 public string PlaceholderName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить свойства тегов многосекционного структурированного документа.
 
@@ -51,7 +53,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Смотрите также
 
 * class [StructuredDocumentTagRangeStart](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

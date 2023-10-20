@@ -1,7 +1,9 @@
 ---
 title: ToaCategories.Item
-second_title: Aspose.Words per .NET API Reference
-description: ToaCategories proprietà. Ottiene o imposta lintestazione della categoria in base al numero di categoria.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: ToaCategories Item proprietà. Ottiene o imposta lintestazione della categoria in base al numero di categoria in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/toacategories/item/
@@ -14,7 +16,7 @@ Ottiene o imposta l'intestazione della categoria in base al numero di categoria.
 public string this[int number] { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come specificare un insieme di categorie per i campi TOA.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 ### Guarda anche
 
 * class [ToaCategories](../)
-* spazio dei nomi [Aspose.Words.Fields](../../toacategories/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

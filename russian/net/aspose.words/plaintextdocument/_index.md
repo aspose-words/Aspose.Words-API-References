@@ -1,7 +1,9 @@
 ---
-title: Class PlainTextDocument
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.PlainTextDocument сорт. Позволяет извлекать текстовое представление содержимого документа.
+title: PlainTextDocument Class
+linktitle: PlainTextDocument
+articleTitle: PlainTextDocument
+second_title: Aspose.Words для .NET
+description: Aspose.Words.PlainTextDocument сорт. Позволяет извлекать текстовое представление содержимого документа на С#.
 type: docs
 weight: 4440
 url: /ru/net/aspose.words/plaintextdocument/
@@ -20,10 +22,10 @@ public class PlainTextDocument
 
 | Имя | Описание |
 | --- | --- |
-| [PlainTextDocument](plaintextdocument/#constructor)(Stream) | Создает простой текстовый документ из потока. Автоматически определяет формат файла. |
-| [PlainTextDocument](plaintextdocument/#constructor_2)(string) | Создает простой текстовый документ из файла. Автоматически определяет формат файла. |
-| [PlainTextDocument](plaintextdocument/#constructor_1)(Stream, LoadOptions) | Создает простой текстовый документ из потока. Позволяет указать дополнительные параметры, такие как пароль шифрования. |
-| [PlainTextDocument](plaintextdocument/#constructor_3)(string, LoadOptions) | Создает простой текстовый документ из файла. Позволяет указать дополнительные параметры, такие как пароль шифрования. |
+| [PlainTextDocument](plaintextdocument/#constructor)(*Stream*) | Создает простой текстовый документ из потока. Автоматически определяет формат файла. |
+| [PlainTextDocument](plaintextdocument/#constructor_2)(*string*) | Создает простой текстовый документ из файла. Автоматически определяет формат файла. |
+| [PlainTextDocument](plaintextdocument/#constructor_1)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Создает простой текстовый документ из потока. Позволяет указать дополнительные параметры, такие как пароль шифрования. |
+| [PlainTextDocument](plaintextdocument/#constructor_3)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Создает простой текстовый документ из файла. Позволяет указать дополнительные параметры, такие как пароль шифрования. |
 
 ## Характеристики
 
@@ -33,7 +35,7 @@ public class PlainTextDocument
 | [CustomDocumentProperties](../../aspose.words/plaintextdocument/customdocumentproperties/) { get; } | Получает[`CustomDocumentProperties`](./customdocumentproperties/) документа. |
 | [Text](../../aspose.words/plaintextdocument/text/) { get; } | Получает текстовое содержимое документа, объединенное в строку. |
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить содержимое документа Microsoft Word в виде открытого текста.
 
@@ -53,5 +55,3 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

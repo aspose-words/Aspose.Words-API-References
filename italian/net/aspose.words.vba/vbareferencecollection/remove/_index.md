@@ -1,7 +1,9 @@
 ---
 title: VbaReferenceCollection.Remove
-second_title: Aspose.Words per .NET API Reference
-description: VbaReferenceCollection metodo. Rimuove la prima occorrenza di un valore specificatoVbaReference elemento della collezione.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words per .NET
+description: VbaReferenceCollection Remove metodo. Rimuove la prima occorrenza di un valore specificatoVbaReference elemento della collezione in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.vba/vbareferencecollection/remove/
@@ -14,7 +16,7 @@ Rimuove la prima occorrenza di un valore specificato[`VbaReference`](../../vbare
 public void Remove(VbaReference item)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere/rimuovere un elemento dalla raccolta di riferimenti VBA.
 
@@ -89,7 +91,5 @@ private static string GetLibIdProjectPath(string libIdProject)
 
 * class [VbaReference](../../vbareference/)
 * class [VbaReferenceCollection](../)
-* spazio dei nomi [Aspose.Words.Vba](../../vbareferencecollection/)
+* spazio dei nomi [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assemblea [Aspose.Words](../../../)
-
-

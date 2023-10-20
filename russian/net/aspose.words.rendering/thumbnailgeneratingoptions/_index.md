@@ -1,7 +1,9 @@
 ---
-title: Class ThumbnailGeneratingOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Rendering.ThumbnailGeneratingOptions сорт. Может использоваться для указания дополнительных параметров при создании миниатюры документа.
+title: ThumbnailGeneratingOptions Class
+linktitle: ThumbnailGeneratingOptions
+articleTitle: ThumbnailGeneratingOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Rendering.ThumbnailGeneratingOptions сорт. Может использоваться для указания дополнительных параметров при создании миниатюры документа на С#.
 type: docs
 weight: 4600
 url: /ru/net/aspose.words.rendering/thumbnailgeneratingoptions/
@@ -27,11 +29,11 @@ public class ThumbnailGeneratingOptions
 | [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Указывает, создавать ли миниатюру из первой страницы документа или из первого изображения. |
 | [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | Размер созданного эскиза в пикселях. Значение по умолчанию: 600x900. |
 
-### Примечания
+## Примечания
 
 Пользователь может вызвать метод[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/) для создания [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) для документа.
 
-### Примеры
+## Примеры
 
 Показывает, как обновить миниатюру документа.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 * пространство имен [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../)
-
-

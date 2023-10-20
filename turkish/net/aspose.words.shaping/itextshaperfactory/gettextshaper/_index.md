@@ -1,12 +1,14 @@
 ---
 title: ITextShaperFactory.GetTextShaper
-second_title: Aspose.Words for .NET API Referansı
-description: ITextShaperFactory yöntem. Tarafından belirtilen yazı tipi için metin şekillendiricinin yeni örneğini döndürürfontPath VefaceIndex .
+linktitle: GetTextShaper
+articleTitle: GetTextShaper
+second_title: Aspose.Words for .NET
+description: ITextShaperFactory GetTextShaper yöntem. Tarafından belirtilen yazı tipi için metin şekillendiricinin yeni örneğini döndürürfontPath VefaceIndex  C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.shaping/itextshaperfactory/gettextshaper/
 ---
-## GetTextShaper(string, int) {#gettextshaper_1}
+## GetTextShaper(*string, int*) {#gettextshaper_1}
 
 Tarafından belirtilen yazı tipi için metin şekillendiricinin yeni örneğini döndürür*fontPath* Ve*faceIndex* .
 
@@ -23,12 +25,12 @@ public ITextShaper GetTextShaper(string fontPath, int faceIndex)
 
 * interface [ITextShaper](../../itextshaper/)
 * interface [ITextShaperFactory](../)
-* ad alanı [Aspose.Words.Shaping](../../itextshaperfactory/)
+* ad alanı [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## GetTextShaper(string, byte[], int) {#gettextshaper}
+## GetTextShaper(*string, byte[], int*) {#gettextshaper}
 
 Şununla temsil edilen yazı tipi için metin şekillendiricinin yeni örneğini döndürür:*fontBlob* Ve*faceIndex* .
 
@@ -46,7 +48,5 @@ public ITextShaper GetTextShaper(string fontId, byte[] fontBlob, int faceIndex)
 
 * interface [ITextShaper](../../itextshaper/)
 * interface [ITextShaperFactory](../)
-* ad alanı [Aspose.Words.Shaping](../../itextshaperfactory/)
+* ad alanı [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * toplantı [Aspose.Words](../../../)
-
-

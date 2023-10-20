@@ -1,9 +1,11 @@
 ---
 title: Table.ClearShading
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table methode. Entfernt alle Schattierungen auf der Tabelle.
+linktitle: ClearShading
+articleTitle: ClearShading
+second_title: Aspose.Words für .NET
+description: Table ClearShading methode. Entfernt alle Schattierungen auf der Tabelle in C#.
 type: docs
-weight: 400
+weight: 380
 url: /de/net/aspose.words.tables/table/clearshading/
 ---
 ## Table.ClearShading method
@@ -14,7 +16,7 @@ Entfernt alle Schattierungen auf der Tabelle.
 public void ClearShading()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen Umrissrahmen auf eine Tabelle anwendet.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 ### Siehe auch
 
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

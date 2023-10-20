@@ -1,7 +1,9 @@
 ---
-title: Class GraphicsQualityOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.GraphicsQualityOptions сорт. Позволяет указать доп.Graphics параметры качества.
+title: GraphicsQualityOptions Class
+linktitle: GraphicsQualityOptions
+articleTitle: GraphicsQualityOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.GraphicsQualityOptions сорт. Позволяет указать доп.Graphics параметры качества на С#.
 type: docs
 weight: 5040
 url: /ru/net/aspose.words.saving/graphicsqualityoptions/
@@ -34,7 +36,7 @@ public class GraphicsQualityOptions
 | [TextRenderingHint](../../aspose.words.saving/graphicsqualityoptions/textrenderinghint/) { get; set; } | Получает или задает режим рендеринга для текста, связанного с этим объектом Graphics. |
 | [UseTileFlipMode](../../aspose.words.saving/graphicsqualityoptions/usetileflipmode/) { get; set; } | Получает или задает флаг, указывающий, является ли WrapMode значением TileFlipXY. |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить параметры качества рендеринга при преобразовании документов в форматы изображений.
 
@@ -61,5 +63,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

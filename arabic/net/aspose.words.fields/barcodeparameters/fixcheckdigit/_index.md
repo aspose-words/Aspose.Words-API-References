@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.FixCheckDigit
-second_title: Aspose.Words لمراجع .NET API
-description: BarcodeParameters ملكية. ما إذا كان سيتم إصلاح رقم الشيك إذا كان غير صالح.
+linktitle: FixCheckDigit
+articleTitle: FixCheckDigit
+second_title: Aspose.Words لـ .NET
+description: BarcodeParameters FixCheckDigit ملكية. ما إذا كان سيتم إصلاح رقم الشيك إذا كان غير صالح في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.fields/barcodeparameters/fixcheckdigit/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/barcodeparameters/fixcheckdigit/
 public bool FixCheckDigit { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مولد الباركود.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### أنظر أيضا
 
 * class [BarcodeParameters](../)
-* مساحة الاسم [Aspose.Words.Fields](../../barcodeparameters/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

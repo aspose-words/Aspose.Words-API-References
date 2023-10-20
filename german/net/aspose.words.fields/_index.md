@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Fields
-second_title: Aspose.Words für .NET-API-Referenz
-description: Der Aspose.Words.Fields Der Namespace enthält Klassen die Microsoft WordFelder in einem Dokument darstellen.
+linktitle: Aspose.Words.Fields
+articleTitle: Aspose.Words.Fields
+second_title: Aspose.Words für .NET
+description: DerAspose.Words.Fields Der Namespace enthält Klassen die Microsoft WordFelder in einem Dokument darstellen in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/
 ---
-Der **Aspose.Words.Fields** Der Namespace enthält Klassen, die Microsoft Word-Felder in einem Dokument darstellen.
+Der**Aspose.Words.Fields** Der Namespace enthält Klassen, die Microsoft Word-Felder in einem Dokument darstellen.
 
 ## Klassen
 
@@ -153,5 +155,3 @@ Der **Aspose.Words.Fields** Der Namespace enthält Klassen, die Microsoft Word-F
 | [GeneralFormat](./generalformat/) | Gibt ein allgemeines Format an, das auf ein numerisches, Text- oder beliebiges Feldergebnis angewendet wird. Ein Feld kann eine Kombination allgemeiner Formate haben. |
 | [MergeFieldImageDimensionUnit](./mergefieldimagedimensionunit/) | Gibt eine Einheit einer Bildabmessung (z. B. Breite oder Höhe) an, die in einem Serienbriefprozess verwendet wird. |
 | [TextFormFieldType](./textformfieldtype/) | Gibt den Typ eines Textformularfelds an. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldUserAddress.UserAddress
-second_title: Aspose.Words for .NET API Referansı
-description: FieldUserAddress mülk. Geçerli kullanıcının posta adresini alır veya ayarlar.
+linktitle: UserAddress
+articleTitle: UserAddress
+second_title: Aspose.Words for .NET
+description: FieldUserAddress UserAddress mülk. Geçerli kullanıcının posta adresini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fielduseraddress/useraddress/
@@ -14,7 +16,7 @@ Geçerli kullanıcının posta adresini alır veya ayarlar.
 public string UserAddress { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 USERAADDRESS alanının nasıl kullanılacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.USERADDRESS.docx");
 ### Ayrıca bakınız
 
 * class [FieldUserAddress](../)
-* ad alanı [Aspose.Words.Fields](../../fielduseraddress/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

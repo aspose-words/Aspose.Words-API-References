@@ -1,7 +1,9 @@
 ---
 title: FieldDatabaseDataTable.Rows
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDatabaseDataTable свойство. Получает строки принадлежащие этой таблице.
+linktitle: Rows
+articleTitle: Rows
+second_title: Aspose.Words для .NET
+description: FieldDatabaseDataTable Rows свойство. Получает строки принадлежащие этой таблице на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fielddatabasedatatable/rows/
@@ -18,7 +20,5 @@ public IList<FieldDatabaseDataRow> Rows { get; }
 
 * class [FieldDatabaseDataRow](../../fielddatabasedatarow/)
 * class [FieldDatabaseDataTable](../)
-* пространство имен [Aspose.Words.Fields](../../fielddatabasedatatable/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

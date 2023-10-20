@@ -1,7 +1,9 @@
 ---
-title: Class ImageWatermarkOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.ImageWatermarkOptions klas. Enthält Optionen die beim Hinzufügen eines Wasserzeichens mit Bild angegeben werden können.
+title: ImageWatermarkOptions Class
+linktitle: ImageWatermarkOptions
+articleTitle: ImageWatermarkOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.ImageWatermarkOptions klas. Enthält Optionen die beim Hinzufügen eines Wasserzeichens mit Bild angegeben werden können in C#.
 type: docs
 weight: 3220
 url: /de/net/aspose.words/imagewatermarkoptions/
@@ -33,5 +35,3 @@ public class ImageWatermarkOptions
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

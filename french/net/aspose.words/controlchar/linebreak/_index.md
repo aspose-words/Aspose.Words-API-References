@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineBreak
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ControlChar champ. Caractère de saut de ligne  x000b ou v.
+linktitle: LineBreak
+articleTitle: LineBreak
+second_title: Aspose.Words pour .NET
+description: ControlChar LineBreak champ. Caractère de saut de ligne  x000b ou v en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words/controlchar/linebreak/
@@ -14,7 +16,7 @@ Caractère de saut de ligne : "\x000b" ou "\v".
 public static readonly string LineBreak;
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter divers caractères de contrôle à un document.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Voir également
 
 * class [ControlChar](../)
-* espace de noms [Aspose.Words](../../controlchar/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

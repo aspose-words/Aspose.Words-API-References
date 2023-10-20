@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickMarkSpacing
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxis propriété. Obtient ou définit lintervalle auquel les graduations sont dessinées.
+linktitle: TickMarkSpacing
+articleTitle: TickMarkSpacing
+second_title: Aspose.Words pour .NET
+description: ChartAxis TickMarkSpacing propriété. Obtient ou définit lintervalle auquel les graduations sont dessinées en C#.
 type: docs
 weight: 270
 url: /fr/net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
@@ -14,13 +16,13 @@ Obtient ou définit l'intervalle auquel les graduations sont dessinées.
 public int TickMarkSpacing { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La propriété a un effet sur les axes de catégorie de texte et de série. Il n'est pas pris en charge par les nouveaux graphiques MS Office 2016 .
 
 La plage valide d’une valeur est supérieure ou égale à 1.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un graphique et modifier l’apparence de ses axes.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Voir également
 
 * class [ChartAxis](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

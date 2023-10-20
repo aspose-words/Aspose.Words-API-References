@@ -1,7 +1,9 @@
 ---
 title: ChmLoadOptions.OriginalFileName
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChmLoadOptions propiedad. El nombre del archivo CHM. El valor predeterminado esnulo .
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: Aspose.Words para .NET
+description: ChmLoadOptions OriginalFileName propiedad. El nombre del archivo CHM. El valor predeterminado esnulo  en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.loading/chmloadoptions/originalfilename/
@@ -14,13 +16,13 @@ El nombre del archivo CHM. El valor predeterminado es`nulo` .
 public string OriginalFileName { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Los documentos CHM pueden contener enlaces que hagan referencia al mismo documento por nombre de archivo. Aspose.Words admite este tipo de enlaces y normalmente utiliza[`OriginalFileName`](../../../aspose.words/document/originalfilename/) para comprobar si el archivo al que hace referencia link es el archivo que se está cargando. Si un documento se carga desde una secuencia, su nombre de archivo original debe especificarse explícitamente a través de esta propiedad, ya que no se puede determinar automáticamente.
 
 Si se carga un documento CHM desde un archivo y se especifica un valor no nulo para esta propiedad, el valor tendrá prioridad sobre el nombre real del archivo almacenado en[`OriginalFileName`](../../../aspose.words/document/originalfilename/) .
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo resolver URL como "ms-its:myfile.chm::/index.htm".
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ExChmLoadOptions.OriginalFileName.html");
 ### Ver también
 
 * class [ChmLoadOptions](../)
-* espacio de nombres [Aspose.Words.Loading](../../chmloadoptions/)
+* espacio de nombres [Aspose.Words.Loading](../../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../../)
-
-

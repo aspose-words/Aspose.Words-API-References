@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.StartingNumber
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldListNum свойство. Получает или задает начальное значение для этого поля.
+linktitle: StartingNumber
+articleTitle: StartingNumber
+second_title: Aspose.Words для .NET
+description: FieldListNum StartingNumber свойство. Получает или задает начальное значение для этого поля на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldlistnum/startingnumber/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldlistnum/startingnumber/
 public string StartingNumber { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как нумеровать абзацы с помощью полей LISTNUM.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Смотрите также
 
 * class [FieldListNum](../)
-* пространство имен [Aspose.Words.Fields](../../fieldlistnum/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

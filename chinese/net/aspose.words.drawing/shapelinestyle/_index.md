@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeLineStyle
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.ShapeLineStyle 枚举. 指定复合线样式Shape.
+title: ShapeLineStyle Enum
+linktitle: ShapeLineStyle
+articleTitle: ShapeLineStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.ShapeLineStyle 枚举. 指定复合线样式Shape 在 C#.
 type: docs
 weight: 1270
 url: /zh/net/aspose.words.drawing/shapelinestyle/
@@ -25,7 +27,7 @@ public enum ShapeLineStyle
 | Triple | `4` | 三行，细，粗，细。 |
 | Default | `0` | 默认值为Single. |
 
-### 例子
+## 例子
 
 显示如何更改笔划属性。
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 * property [LineStyle](../stroke/linestyle/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

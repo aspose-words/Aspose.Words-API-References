@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.EmbedSystemFonts
-second_title: Aspose.Words for .NET API Referansı
-description: FontInfoCollection mülk. Sistem yazı tiplerinin belgeye gömülüp gömülmeyeceğini belirtir. Bu özelliğin varsayılan değeriYANLIŞ.
+linktitle: EmbedSystemFonts
+articleTitle: EmbedSystemFonts
+second_title: Aspose.Words for .NET
+description: FontInfoCollection EmbedSystemFonts mülk. Sistem yazı tiplerinin belgeye gömülüp gömülmeyeceğini belirtir. Bu özelliğin varsayılan değeriYANLIŞ C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
@@ -16,13 +18,13 @@ Bu seçenek yalnızca şu durumlarda çalışır:[`EmbedTrueTypeFonts`](../embed
 public bool EmbedSystemFonts { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliği şuna ayarlıyoruz:`doğru`Kullanıcı bir Doğu Asya system kullanıyorsa ve sistemlerinde that dili için yazı tipleri bulunmayan diğer kişiler tarafından okunabilen bir belge oluşturmak istiyorsa kullanışlıdır. Örneğin, Japonca bir sistemdeki bir kullanıcı, Japonca belgenin tüm sistemlerde okunabilmesi için the yazı tiplerini bir belgeye yerleştirmeyi seçebilir.
 
 Bu seçenek yalnızca DOC, DOCX ve RTF formatlarında çalışır.
 
-### Örnekler
+## Örnekler
 
 Gömülü TrueType yazı tiplerine sahip bir belgenin nasıl kaydedileceğini gösterir.
 
@@ -45,7 +47,5 @@ else
 ### Ayrıca bakınız
 
 * class [FontInfoCollection](../)
-* ad alanı [Aspose.Words.Fonts](../../fontinfocollection/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

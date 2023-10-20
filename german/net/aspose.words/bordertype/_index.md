@@ -1,7 +1,9 @@
 ---
-title: Enum BorderType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.BorderType opsomming. Gibt die Seiten eines Rahmens an.
+title: BorderType Enum
+linktitle: BorderType
+articleTitle: BorderType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.BorderType opsomming. Gibt die Seiten eines Rahmens an in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words/bordertype/
@@ -30,7 +32,7 @@ public enum BorderType
 | DiagonalDown | `6` | Gibt den diagonalen Rand in einer Tabellenzelle an. |
 | DiagonalUp | `7` | Gibt den diagonalen Rand in einer Tabellenzelle an. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Absatz mit einem oberen Rand eingefügt wird.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.AxisBetweenCategories
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Değer ekseninin kategoriler arasında kategori eksenini geçip geçmediğini gösteren bir bayrak alır veya ayarlar.
+linktitle: AxisBetweenCategories
+articleTitle: AxisBetweenCategories
+second_title: Aspose.Words for .NET
+description: ChartAxis AxisBetweenCategories mülk. Değer ekseninin kategoriler arasında kategori eksenini geçip geçmediğini gösteren bir bayrak alır veya ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
@@ -14,11 +16,11 @@ Değer ekseninin kategoriler arasında kategori eksenini geçip geçmediğini g�
 public bool AxisBetweenCategories { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Özelliğin yalnızca değer eksenleri için etkisi vardır. MS Office 2016 yeni çizelgeleri tarafından desteklenmemektedir.
 
-### Örnekler
+## Örnekler
 
 Özel bir konumda kesişecek bir grafik ekseninin nasıl alınacağını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCross.docx");
 ### Ayrıca bakınız
 
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

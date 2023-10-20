@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Font
-second_title: Aspose.Words for .NET API Referansı
-description: InlineStory mülk. Bu nesnenin bağlantı karakterinin yazı tipi formatlamasına erişim sağlar.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words for .NET
+description: InlineStory Font mülk. Bu nesnenin bağlantı karakterinin yazı tipi formatlamasına erişim sağlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/inlinestory/font/
@@ -14,7 +16,7 @@ Bu nesnenin bağlantı karakterinin yazı tipi formatlamasına erişim sağlar.
 public Font Font { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 InlineStory düğümlerinin nasıl ekleneceğini gösterir.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [Font](../../font/)
 * class [InlineStory](../)
-* ad alanı [Aspose.Words](../../inlinestory/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FixedPageSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.FixedPageSaveOptions klass. Innehåller vanliga alternativ som kan anges när du sparar ett dokument i fasta sidformat PDF XPS bilder etc.
+title: FixedPageSaveOptions Class
+linktitle: FixedPageSaveOptions
+articleTitle: FixedPageSaveOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.FixedPageSaveOptions klass. Innehåller vanliga alternativ som kan anges när du sparar ett dokument i fasta sidformat PDF XPS bilder etc i C#.
 type: docs
 weight: 5020
 url: /sv/net/aspose.words.saving/fixedpagesaveoptions/
@@ -23,7 +25,7 @@ public abstract class FixedPageSaveOptions : SaveOptions
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Hämtar eller ställer in ett booleskt värde som indikerar om man ska tillåta inbäddning av teckensnitt med PostScript outlines när inbäddning av TrueType-teckensnitt i ett dokument på det sparas. Standardvärdet är`falsk` . |
 | [ColorMode](../../aspose.words.saving/fixedpagesaveoptions/colormode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur färger återges. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Hämtar eller ställer in anpassad lokal tidszon som används för datum-/tidsfält. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är **tom sträng** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Hämtar eller ställer in sökvägen till standardmall (inklusive filnamn). Standardvärdet för den här egenskapen är**tom sträng** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur 3D-effekter renderas. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-effekter renderas. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Hämtar eller ställer in ett värde som bestämmer hur DrawingML-former renderas. |
@@ -51,9 +53,9 @@ public abstract class FixedPageSaveOptions : SaveOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
 
-### Exempel
+## Exempel
 
 Visar hur man renderar varje sida i ett dokument till en separat TIFF-bild.
 
@@ -117,5 +119,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 * class [SaveOptions](../saveoptions/)
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

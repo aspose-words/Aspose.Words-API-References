@@ -1,7 +1,9 @@
 ---
-title: Enum StyleType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.StyleType opsomming. Stellt den Typ des Stils dar.
+title: StyleType Enum
+linktitle: StyleType
+articleTitle: StyleType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.StyleType opsomming. Stellt den Typ des Stils dar in C#.
 type: docs
 weight: 6160
 url: /de/net/aspose.words/styletype/
@@ -23,7 +25,7 @@ public enum StyleType
 | Table | `3` | Der Stil ist ein Tabellenstil. |
 | List | `4` | Der Stil ist ein Listenstil. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Listenstil erstellt und in einem Dokument verwendet wird.
 
@@ -85,5 +87,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

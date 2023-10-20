@@ -1,7 +1,9 @@
 ---
 title: FieldTC.TypeIdentifier
-second_title: Aspose.Words لمراجع .NET API
-description: FieldTC ملكية. الحصول على أو تعيين معرف النوع لهذا الحقل والذي عادة ما يكون حرفًا.
+linktitle: TypeIdentifier
+articleTitle: TypeIdentifier
+second_title: Aspose.Words لـ .NET
+description: FieldTC TypeIdentifier ملكية. الحصول على أو تعيين معرف النوع لهذا الحقل والذي عادة ما يكون حرفًا في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldtc/typeidentifier/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtc/typeidentifier/
 public string TypeIdentifier { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل جدول المحتويات، وتصفية حقول TC التي تنتهي كمدخلات.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### أنظر أيضا
 
 * class [FieldTC](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

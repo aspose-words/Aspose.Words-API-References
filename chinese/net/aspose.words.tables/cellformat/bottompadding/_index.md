@@ -1,7 +1,9 @@
 ---
 title: CellFormat.BottomPadding
-second_title: Aspose.Words for .NET API 参考
-description: CellFormat 财产. 返回或设置要在单元格内容下方添加的空间量以磅为单位
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: 用于 .NET 的 Aspose.Words
+description: CellFormat BottomPadding 财产. 返回或设置要在单元格内容下方添加的空间量以磅为单位 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.tables/cellformat/bottompadding/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/cellformat/bottompadding/
 public double BottomPadding { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用文档生成器设置单元格格式。
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### 也可以看看
 
 * class [CellFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../cellformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

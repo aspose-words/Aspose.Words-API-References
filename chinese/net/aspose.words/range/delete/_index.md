@@ -1,7 +1,9 @@
 ---
 title: Range.Delete
-second_title: Aspose.Words for .NET API 参考
-description: Range 方法. 删除范围内的所有字符
+linktitle: Delete
+articleTitle: Delete
+second_title: 用于 .NET 的 Aspose.Words
+description: Range Delete 方法. 删除范围内的所有字符 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/range/delete/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/range/delete/
 public void Delete()
 ```
 
-### 例子
+## 例子
 
 演示如何删除范围中的所有节点。
 
@@ -40,7 +42,5 @@ Assert.AreEqual("Section 2.", doc.GetText().Trim());
 ### 也可以看看
 
 * class [Range](../)
-* 命名空间 [Aspose.Words](../../range/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

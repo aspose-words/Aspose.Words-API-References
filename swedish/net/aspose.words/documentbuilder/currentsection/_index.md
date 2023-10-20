@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentSection
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Hämtar avsnittet som för närvarande är valt i dettaDocumentBuilder .
+linktitle: CurrentSection
+articleTitle: CurrentSection
+second_title: Aspose.Words för .NET
+description: DocumentBuilder CurrentSection fast egendom. Hämtar avsnittet som för närvarande är valt i dettaDocumentBuilder  i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/documentbuilder/currentsection/
@@ -14,7 +16,7 @@ Hämtar avsnittet som för närvarande är valt i detta[`DocumentBuilder`](../) 
 public Section CurrentSection { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en flytande bild och anger dess position och storlek.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 
 * class [Section](../../section/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

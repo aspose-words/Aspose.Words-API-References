@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IsLocked
-second_title: Aspose.Words for .NET API Referansı
-description: OleFormat mülk. OLE nesnesine olan bağlantının güncellemelere karşı kilitlenip kilitlenmediğini belirtir.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words for .NET
+description: OleFormat IsLocked mülk. OLE nesnesine olan bağlantının güncellemelere karşı kilitlenip kilitlenmediğini belirtir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing/oleformat/islocked/
@@ -14,11 +16,11 @@ OLE nesnesine olan bağlantının güncellemelere karşı kilitlenip kilitlenmed
 public bool IsLocked { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Katıştırılmış OLE nesnelerinin dosyalara nasıl çıkartılacağını gösterir.
 
@@ -53,7 +55,5 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 ### Ayrıca bakınız
 
 * class [OleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../oleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

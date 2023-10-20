@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.Width
-second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. الحصول على عرض الإطار المحدد بالنقاط.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words لـ .NET
+description: FrameFormat Width ملكية. الحصول على عرض الإطار المحدد بالنقاط في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/frameformat/width/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/frameformat/width/
 public double Width { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### أنظر أيضا
 
 * class [FrameFormat](../)
-* مساحة الاسم [Aspose.Words](../../frameformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

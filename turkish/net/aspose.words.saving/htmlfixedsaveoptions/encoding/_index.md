@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.Encoding
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. HTMLye dışa aktarırken kullanılacak kodlamayı belirtir. Varsayılan değeryeni UTF8Kodlamadoğru BOM ile UTF8.
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words for .NET
+description: HtmlFixedSaveOptions Encoding mülk. HTMLye dışa aktarırken kullanılacak kodlamayı belirtir. Varsayılan değeryeni UTF8Kodlamadoğru BOM ile UTF8 C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/encoding/
@@ -14,7 +16,7 @@ HTML'ye dışa aktarırken kullanılacak kodlamayı belirtir. Varsayılan değer
 public Encoding Encoding { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi HTML'ye aktarırken hangi kodlamanın kullanılacağını nasıl ayarlayacağınızı gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.UseEncoding.html", htmlFixedSaveOp
 ### Ayrıca bakınız
 
 * class [HtmlFixedSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

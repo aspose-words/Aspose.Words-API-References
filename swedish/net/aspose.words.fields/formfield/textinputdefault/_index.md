@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputDefault
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Hämtar eller ställer in standardsträngen eller ett beräkningsuttryck för ett textformulärfält.
+linktitle: TextInputDefault
+articleTitle: TextInputDefault
+second_title: Aspose.Words för .NET
+description: FormField TextInputDefault fast egendom. Hämtar eller ställer in standardsträngen eller ett beräkningsuttryck för ett textformulärfält i C#.
 type: docs
 weight: 190
 url: /sv/net/aspose.words.fields/formfield/textinputdefault/
@@ -14,7 +16,7 @@ Hämtar eller ställer in standardsträngen eller ett beräkningsuttryck för et
 public string TextInputDefault { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Innebörden av denna egenskap beror på värdet av[`TextInputType`](../textinputtype/) fast egendom.
 
@@ -24,7 +26,7 @@ När[`TextInputType`](../textinputtype/) ärCalculated, då innehåller denna st
 
 Microsoft Word tillåter strängar med högst 255 tecken.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -158,7 +160,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

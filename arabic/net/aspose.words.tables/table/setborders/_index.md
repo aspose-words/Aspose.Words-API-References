@@ -1,9 +1,11 @@
 ---
 title: Table.SetBorders
-second_title: Aspose.Words لمراجع .NET API
-description: Table طريقة. يضبط كل حدود الجدول على نمط الخط والعرض واللون المحدد.
+linktitle: SetBorders
+articleTitle: SetBorders
+second_title: Aspose.Words لـ .NET
+description: Table SetBorders طريقة. يضبط كل حدود الجدول على نمط الخط والعرض واللون المحدد في C#.
 type: docs
-weight: 440
+weight: 420
 url: /ar/net/aspose.words.tables/table/setborders/
 ---
 ## Table.SetBorders method
@@ -20,7 +22,7 @@ public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
 | lineWidth | Double | عرض الخط المراد ضبطه (بالنقاط). |
 | color | Color | اللون الذي سيتم استخدامه للحدود. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق كافة حدود الجدول مرة واحدة.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 
 * enum [LineStyle](../../../aspose.words/linestyle/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

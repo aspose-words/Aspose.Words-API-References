@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.RemoveAllChildren
-second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode yöntem. Geçerli düğümün tüm alt düğümlerini kaldırır.
+linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
+second_title: Aspose.Words for .NET
+description: CompositeNode RemoveAllChildren yöntem. Geçerli düğümün tüm alt düğümlerini kaldırır C#'da.
 type: docs
-weight: 180
+weight: 160
 url: /tr/net/aspose.words/compositenode/removeallchildren/
 ---
 ## CompositeNode.RemoveAllChildren method
@@ -14,7 +16,7 @@ Geçerli düğümün tüm alt düğümlerini kaldırır.
 public void RemoveAllChildren()
 ```
 
-### Örnekler
+## Örnekler
 
 Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Ayrıca bakınız
 
 * class [CompositeNode](../)
-* ad alanı [Aspose.Words](../../compositenode/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

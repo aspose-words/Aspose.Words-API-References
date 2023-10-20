@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.SimplifyListLabels
-second_title: Aspose.Words for .NET API Referansı
-description: TxtSaveOptions mülk. karmaşık etiket biçimlendirmesinin düz metinle yeterince temsil edilmemesi durumunda programın liste etiketlerini basitleştirip basitleştirmeyeceğini belirtir.
+linktitle: SimplifyListLabels
+articleTitle: SimplifyListLabels
+second_title: Aspose.Words for .NET
+description: TxtSaveOptions SimplifyListLabels mülk. karmaşık etiket biçimlendirmesinin düz metinle yeterince temsil edilmemesi durumunda programın liste etiketlerini basitleştirip basitleştirmeyeceğini belirtir C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
@@ -16,7 +18,7 @@ Eğer ayarlanmışsa`doğru` , numaralı liste etiketleri basit sayısal formatt
 public bool SimplifyListLabels { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi düz metne kaydederken listelerin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -66,7 +68,5 @@ else
 ### Ayrıca bakınız
 
 * class [TxtSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../txtsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

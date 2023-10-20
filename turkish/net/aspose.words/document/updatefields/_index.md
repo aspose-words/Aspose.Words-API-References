@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateFields
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Belgenin tamamındaki alanların değerlerini günceller.
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: Aspose.Words for .NET
+description: Document UpdateFields yöntem. Belgenin tamamındaki alanların değerlerini günceller C#'da.
 type: docs
-weight: 770
+weight: 750
 url: /tr/net/aspose.words/document/updatefields/
 ---
 ## Document.UpdateFields method
@@ -14,7 +16,7 @@ Belgenin tamamındaki alanların değerlerini günceller.
 public void UpdateFields()
 ```
 
-### Notlar
+## Notlar
 
 Bir belgeyi açtığınızda, değiştirdiğinizde ve ardından kaydettiğinizde Aspose.Words, alanları otomatik olarak güncellemez, onları olduğu gibi tutar. Bu nedenle, document dosyasını programlı olarak değiştirdiyseniz ve emin olmak istiyorsanız, genellikle kaydetmeden önce bu yöntemi çağırmak istersiniz. kaydedilen belgede uygun (hesaplanan) alan değerleri görünür.
 
@@ -28,7 +30,7 @@ Kullan[`NormalizeFieldTypes`](../normalizefieldtypes/) Alan türlerini etkileyen
 
 Belgenin belirli bir bölümündeki alanları güncellemek için şunu kullanın:[`UpdateFields`](../../range/updatefields/).
 
-### Örnekler
+## Örnekler
 
 QUOTE alanının kullanılacağını gösterir.
 
@@ -146,7 +148,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.CustomXmlParts
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает или задает коллекцию пользовательских частей хранилища XMLданных.
+linktitle: CustomXmlParts
+articleTitle: CustomXmlParts
+second_title: Aspose.Words для .NET
+description: Document CustomXmlParts свойство. Получает или задает коллекцию пользовательских частей хранилища XMLданных на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/document/customxmlparts/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/document/customxmlparts/
 public CustomXmlPartCollection CustomXmlParts { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Aspose.Words загружает и сохраняет пользовательские части XML только в документы OOXML и DOC.
 
 Это свойство не может быть`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа с пользовательскими данными XML.
 
@@ -88,7 +90,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPartCollection](../../../aspose.words.markup/customxmlpartcollection/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

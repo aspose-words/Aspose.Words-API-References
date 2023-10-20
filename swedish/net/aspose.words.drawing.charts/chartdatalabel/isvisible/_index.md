@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.IsVisible
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabel fast egendom. ReturnerarSann om denna dataetikett har något att visa.
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words för .NET
+description: ChartDataLabel IsVisible fast egendom. ReturnerarSann om denna dataetikett har något att visa i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/isvisible/
@@ -14,7 +16,7 @@ Returnerar`Sann` om denna dataetikett har något att visa.
 public bool IsVisible { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Se även
 
 * class [ChartDataLabel](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

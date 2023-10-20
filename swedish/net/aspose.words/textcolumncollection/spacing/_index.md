@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Spacing
-second_title: Aspose.Words för .NET API Referens
-description: TextColumnCollection fast egendom. När kolumner är jämnt fördelade hämtas eller ställer in mängden utrymme mellan varje kolumn i poäng.
+linktitle: Spacing
+articleTitle: Spacing
+second_title: Aspose.Words för .NET
+description: TextColumnCollection Spacing fast egendom. När kolumner är jämnt fördelade hämtas eller ställer in mängden utrymme mellan varje kolumn i poäng i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/textcolumncollection/spacing/
@@ -14,11 +16,11 @@ När kolumner är jämnt fördelade, hämtas eller ställer in mängden utrymme 
 public double Spacing { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Har effekt endast när[`EvenlySpaced`](../evenlyspaced/) är satt till`Sann` .
 
-### Exempel
+## Exempel
 
 Visar hur man skapar flera jämnt fördelade kolumner i ett avsnitt.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 ### Se även
 
 * class [TextColumnCollection](../)
-* namnutrymme [Aspose.Words](../../textcolumncollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

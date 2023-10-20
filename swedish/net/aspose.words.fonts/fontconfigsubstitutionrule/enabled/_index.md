@@ -1,7 +1,9 @@
 ---
 title: FontConfigSubstitutionRule.Enabled
-second_title: Aspose.Words för .NET API Referens
-description: FontConfigSubstitutionRule fast egendom. Anger om regeln är aktiverad eller inte.
+linktitle: Enabled
+articleTitle: Enabled
+second_title: Aspose.Words för .NET
+description: FontConfigSubstitutionRule Enabled fast egendom. Anger om regeln är aktiverad eller inte i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/fontconfigsubstitutionrule/enabled/
@@ -14,7 +16,7 @@ Anger om regeln är aktiverad eller inte.
 public override bool Enabled { set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar operativsystemberoende teckensnittskonfigurationsersättning.
 
@@ -50,7 +52,5 @@ if (isLinuxOrMac)
 ### Se även
 
 * class [FontConfigSubstitutionRule](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontconfigsubstitutionrule/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

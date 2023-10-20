@@ -1,7 +1,9 @@
 ---
 title: Border.GetHashCode
-second_title: Aspose.Words for .NET API 参考
-description: Border 方法. 用作此类型的哈希函数
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: 用于 .NET 的 Aspose.Words
+description: Border GetHashCode 方法. 用作此类型的哈希函数 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words/border/gethashcode/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/border/gethashcode/
 public override int GetHashCode()
 ```
 
-### 例子
+## 例子
 
 展示边框集合如何共享元素。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### 也可以看看
 
 * class [Border](../)
-* 命名空间 [Aspose.Words](../../border/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

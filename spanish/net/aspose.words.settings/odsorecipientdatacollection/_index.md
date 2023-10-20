@@ -1,7 +1,9 @@
 ---
-title: Class OdsoRecipientDataCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.OdsoRecipientDataCollection clase. Una colección mecanografiada deOdsoRecipientData
+title: OdsoRecipientDataCollection Class
+linktitle: OdsoRecipientDataCollection
+articleTitle: OdsoRecipientDataCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Settings.OdsoRecipientDataCollection clase. Una colección mecanografiada deOdsoRecipientData en C#.
 type: docs
 weight: 5940
 url: /es/net/aspose.words.settings/odsorecipientdatacollection/
@@ -33,12 +35,12 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(OdsoRecipientData) | Agrega un objeto al final de esta colección. |
+| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(*[OdsoRecipientData](../odsorecipientdata/)*) | Agrega un objeto al final de esta colección. |
 | [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | Elimina todos los elementos de esta colección. |
 | [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección. |
-| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(int) | Elimina el elemento en el índice especificado. |
+| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(*int*) | Elimina el elemento en el índice especificado. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos de combinación excluirá una combinación de correspondencia.
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * class [OdsoRecipientData](../odsorecipientdata/)
 * espacio de nombres [Aspose.Words.Settings](../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../)
-
-

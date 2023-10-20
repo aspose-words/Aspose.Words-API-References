@@ -1,7 +1,9 @@
 ---
 title: EditableRange.Id
-second_title: Aspose.Words per .NET API Reference
-description: EditableRange proprietà. Ottiene lidentificatore dellintervallo modificabile.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words per .NET
+description: EditableRange Id proprietà. Ottiene lidentificatore dellintervallo modificabile in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/editablerange/id/
@@ -14,13 +16,13 @@ Ottiene l'identificatore dell'intervallo modificabile.
 public int Id { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La regione deve essere delimitata utilizzando il[`EditableRangeStart`](../editablerangestart/) E[`EditableRangeEnd`](../editablerangeend/)
 
 Gli identificatori di intervallo modificabili dovrebbero essere univoci in un documento e Aspose.Words mantiene automaticamente gli identificatori di intervallo modificabili durante il caricamento, il salvataggio e la combinazione di documenti.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con un intervallo modificabile.
 
@@ -66,7 +68,5 @@ editableRange.Remove();
 ### Guarda anche
 
 * class [EditableRange](../)
-* spazio dei nomi [Aspose.Words](../../editablerange/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

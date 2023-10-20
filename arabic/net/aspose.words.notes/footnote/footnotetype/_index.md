@@ -1,7 +1,9 @@
 ---
 title: Footnote.FootnoteType
-second_title: Aspose.Words لمراجع .NET API
-description: Footnote ملكية. تُرجع قيمة تحدد ما إذا كانت هذه حاشية سفلية أم تعليق ختامي.
+linktitle: FootnoteType
+articleTitle: FootnoteType
+second_title: Aspose.Words لـ .NET
+description: Footnote FootnoteType ملكية. تُرجع قيمة تحدد ما إذا كانت هذه حاشية سفلية أم تعليق ختامي في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.notes/footnote/footnotetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.notes/footnote/footnotetype/
 public FootnoteType FootnoteType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح الفرق بين الحواشي السفلية والتعليقات الختامية.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "InlineStory.FootnoteEndnote.docx");
 
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* مساحة الاسم [Aspose.Words.Notes](../../footnote/)
+* مساحة الاسم [Aspose.Words.Notes](../../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../../)
-
-

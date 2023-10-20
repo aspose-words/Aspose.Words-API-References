@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageStartingNumber
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Bölümün başlangıç sayfa numarasını alır veya ayarlar.
+linktitle: PageStartingNumber
+articleTitle: PageStartingNumber
+second_title: Aspose.Words for .NET
+description: PageSetup PageStartingNumber mülk. Bölümün başlangıç sayfa numarasını alır veya ayarlar C#'da.
 type: docs
 weight: 330
 url: /tr/net/aspose.words/pagesetup/pagestartingnumber/
@@ -14,11 +16,11 @@ Bölümün başlangıç sayfa numarasını alır veya ayarlar.
 public int PageStartingNumber { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 [`RestartPageNumbering`](../restartpagenumbering/)özelliği, eğer ayarlanmışsa`YANLIŞ` , the değerini geçersiz kılacak`PageStartingNumber` sayfa numaralandırmanın önceki bölümden devam edebilmesi için özellik.
 
-### Örnekler
+## Örnekler
 
 Bir bölümde sayfa numaralandırmanın nasıl ayarlanacağını gösterir.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

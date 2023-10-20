@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPartCollection.Clear
-second_title: Aspose.Words för .NET API Referens
-description: CustomXmlPartCollection metod. Tar bort alla element från samlingen.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: CustomXmlPartCollection Clear metod. Tar bort alla element från samlingen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.markup/customxmlpartcollection/clear/
@@ -14,7 +16,7 @@ Tar bort alla element från samlingen.
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en strukturerad dokumenttagg med anpassade XML-data.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Se även
 
 * class [CustomXmlPartCollection](../)
-* namnutrymme [Aspose.Words.Markup](../../customxmlpartcollection/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

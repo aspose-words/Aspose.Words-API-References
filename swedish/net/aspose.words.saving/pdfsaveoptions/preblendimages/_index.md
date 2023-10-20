@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PreblendImages
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer om transparenta bilder ska förblandas med svart bakgrundsfärg.
+linktitle: PreblendImages
+articleTitle: PreblendImages
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions PreblendImages fast egendom. Hämtar eller ställer in ett värde som bestämmer om transparenta bilder ska förblandas med svart bakgrundsfärg i C#.
 type: docs
 weight: 260
 url: /sv/net/aspose.words.saving/pdfsaveoptions/preblendimages/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som bestämmer om transparenta bilder ska f
 public bool PreblendImages { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Förblandning av bilder kan förbättra PDF-dokumentets visuella utseende i Adobe Reader och ta bort anti-aliasing-artefakter.
 
@@ -22,7 +24,7 @@ För att kunna visa förblandade bilder på rätt sätt måste PDF-visningsprogr
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur du förblandar bilder med transparent bakgrund samtidigt som du sparar ett dokument till PDF.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImagesNetStandard2.pdf", options
 ### Se även
 
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

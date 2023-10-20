@@ -1,7 +1,9 @@
 ---
 title: JsonDataLoadOptions.PreserveSpaces
-second_title: Aspose.Words för .NET API Referens
-description: JsonDataLoadOptions fast egendom. Hämtar eller ställer in en flagga som indikerar om inledande och efterföljande mellanslag ska bevaras när string värden för JSONdata laddas.
+linktitle: PreserveSpaces
+articleTitle: PreserveSpaces
+second_title: Aspose.Words för .NET
+description: JsonDataLoadOptions PreserveSpaces fast egendom. Hämtar eller ställer in en flagga som indikerar om inledande och efterföljande mellanslag ska bevaras när string värden för JSONdata laddas i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.reporting/jsondataloadoptions/preservespaces/
@@ -14,14 +16,12 @@ Hämtar eller ställer in en flagga som indikerar om inledande och efterföljand
 public bool PreserveSpaces { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk` .
 
 ### Se även
 
 * class [JsonDataLoadOptions](../)
-* namnutrymme [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
-
-

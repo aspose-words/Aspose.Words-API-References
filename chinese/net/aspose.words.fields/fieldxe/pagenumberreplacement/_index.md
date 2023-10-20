@@ -1,7 +1,9 @@
 ---
 title: FieldXE.PageNumberReplacement
-second_title: Aspose.Words for .NET API 参考
-description: FieldXE 财产. 获取或设置用于代替页码的文本
+linktitle: PageNumberReplacement
+articleTitle: PageNumberReplacement
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldXE PageNumberReplacement 财产. 获取或设置用于代替页码的文本 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldxe/pagenumberreplacement/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldxe/pagenumberreplacement/
 public string PageNumberReplacement { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在 INDEX 字段中定义交叉引用。
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.CrossReferenceSeparator.docx");
 ### 也可以看看
 
 * class [FieldXE](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldxe/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

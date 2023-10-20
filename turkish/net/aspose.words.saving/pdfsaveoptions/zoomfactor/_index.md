@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ZoomFactor
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Bir belge için yakınlaştırma faktörünü belirleyen değeri yüzde cinsinden alır veya ayarlar.
+linktitle: ZoomFactor
+articleTitle: ZoomFactor
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions ZoomFactor mülk. Bir belge için yakınlaştırma faktörünü belirleyen değeri yüzde cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 330
 url: /tr/net/aspose.words.saving/pdfsaveoptions/zoomfactor/
@@ -14,11 +16,11 @@ Bir belge için yakınlaştırma faktörünü belirleyen değeri (yüzde cinsind
 public int ZoomFactor { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu değer yalnızca şu durumlarda kullanılır:[`ZoomBehavior`](../zoombehavior/) ayarlandıZoomFactor .
 
-### Örnekler
+## Örnekler
 
 Okuyucunun işlenmiş bir PDF belgesini açarken uyguladığı varsayılan yakınlaştırmanın nasıl ayarlanacağını gösterir.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

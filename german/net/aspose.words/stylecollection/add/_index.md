@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Add
-second_title: Aspose.Words für .NET-API-Referenz
-description: StyleCollection methode. Erstellt einen neuen benutzerdefinierten Stil und fügt ihn der Sammlung hinzu.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words für .NET
+description: StyleCollection Add methode. Erstellt einen neuen benutzerdefinierten Stil und fügt ihn der Sammlung hinzu in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/stylecollection/add/
@@ -19,7 +21,7 @@ public Style Add(StyleType type, string name)
 | type | StyleType | A[`StyleType`](../../styletype/) Wert, der den Typ des zu erstellenden Stils angibt. |
 | name | String | Groß- und Kleinschreibung beachtender Name des zu erstellenden Stils. |
 
-### Bemerkungen
+## Bemerkungen
 
 Sie können Zeichen-, Absatz- oder Listenformate erstellen.
 
@@ -27,7 +29,7 @@ Beim Erstellen eines Listenstils wird der Stil mit der standardmäßigen nummeri
 
 Löst eine Ausnahme aus, wenn bereits ein Stil mit diesem Namen vorhanden ist.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man der Stilsammlung eines Dokuments einen Stil hinzufügt.
 
@@ -108,7 +110,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 * class [Style](../../style/)
 * enum [StyleType](../../styletype/)
 * class [StyleCollection](../)
-* namensraum [Aspose.Words](../../stylecollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

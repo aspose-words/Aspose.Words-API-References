@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Italic
-second_title: Aspose.Words for .NET API Referansı
-description: FontSavingArgs mülk. Geçerli yazı tipinin italik olup olmadığını belirtir.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words for .NET
+description: FontSavingArgs Italic mülk. Geçerli yazı tipinin italik olup olmadığını belirtir C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/fontsavingargs/italic/
@@ -14,7 +16,7 @@ Geçerli yazı tipinin italik olup olmadığını belirtir.
 public bool Italic { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 HTML'ye kaydederken yazı tiplerini dışa aktarmak için özel mantığın nasıl tanımlanacağını gösterir.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ayrıca bakınız
 
 * class [FontSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../fontsavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

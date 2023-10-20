@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.BarcodeValue
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDisplayBarcode eigendom. Ruft den BarcodeWert ab oder legt ihn fest.
+linktitle: BarcodeValue
+articleTitle: BarcodeValue
+second_title: Aspose.Words für .NET
+description: FieldDisplayBarcode BarcodeValue eigendom. Ruft den BarcodeWert ab oder legt ihn fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fielddisplaybarcode/barcodevalue/
@@ -14,7 +16,7 @@ Ruft den Barcode-Wert ab oder legt ihn fest.
 public string BarcodeValue { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein DISPLAYBARCODE-Feld eingefügt und seine Eigenschaften festgelegt werden.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Siehe auch
 
 * class [FieldDisplayBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

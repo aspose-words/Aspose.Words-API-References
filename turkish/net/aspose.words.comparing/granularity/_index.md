@@ -1,7 +1,9 @@
 ---
-title: Enum Granularity
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Comparing.Granularity Sıralama. İki belgeyi karşılaştırırken izlenecek değişikliklerin ayrıntı düzeyini belirtir.
+title: Granularity Enum
+linktitle: Granularity
+articleTitle: Granularity
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Comparing.Granularity Sıralama. İki belgeyi karşılaştırırken izlenecek değişikliklerin ayrıntı düzeyini belirtir C#'da.
 type: docs
 weight: 290
 url: /tr/net/aspose.words.comparing/granularity/
@@ -21,7 +23,7 @@ public enum Granularity
 | CharLevel | `0` |  |
 | WordLevel | `1` |  |
 
-### Örnekler
+## Örnekler
 
 Belgeleri karşılaştırırken ayrıntı düzeyini belirtmeyi gösterir.
 
@@ -50,5 +52,3 @@ Assert.AreEqual(5, groups.Count);
 
 * ad alanı [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * toplantı [Aspose.Words](../../)
-
-

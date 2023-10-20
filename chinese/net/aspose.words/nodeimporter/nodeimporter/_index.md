@@ -1,12 +1,14 @@
 ---
-title: NodeImporter.NodeImporter
-second_title: Aspose.Words for .NET API 参考
-description: NodeImporter 构造函数. 初始化一个新实例NodeImporter类.
+title: NodeImporter
+linktitle: NodeImporter
+articleTitle: NodeImporter
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeImporter 构造函数. 初始化一个新实例NodeImporter类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/nodeimporter/nodeimporter/
 ---
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode) {#constructor}
+## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/)*) {#constructor}
 
 初始化一个新实例[`NodeImporter`](../)类.
 
@@ -20,7 +22,7 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | dstDoc | DocumentBase | 将成为导入节点所有者的目标文档。 |
 | importFormatMode | ImportFormatMode | 指定如何合并冲突的样式格式。 |
 
-### 例子
+## 例子
 
 演示如何将一个文档的内容插入到另一文档的书签中。
 
@@ -90,12 +92,12 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 * class [DocumentBase](../../documentbase/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [NodeImporter](../)
-* 命名空间 [Aspose.Words](../../nodeimporter/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) {#constructor_1}
+## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#constructor_1}
 
 初始化一个新实例[`NodeImporter`](../)类.
 
@@ -111,7 +113,7 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | importFormatMode | ImportFormatMode | 指定如何合并冲突的样式格式。 |
 | importFormatOptions | ImportFormatOptions | 指定格式化导入节点的各种选项。 |
 
-### 例子
+## 例子
 
 显示导入具有相同列表定义标识符的列表的文档时如何解决冲突。
 
@@ -186,7 +188,5 @@ else
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [NodeImporter](../)
-* 命名空间 [Aspose.Words](../../nodeimporter/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

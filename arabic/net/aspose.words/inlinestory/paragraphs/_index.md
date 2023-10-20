@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Paragraphs
-second_title: Aspose.Words لمراجع .NET API
-description: InlineStory ملكية. يحصل على مجموعة من الفقرات التي تعتبر أبناء القصة مباشرة.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words لـ .NET
+description: InlineStory Paragraphs ملكية. يحصل على مجموعة من الفقرات التي تعتبر أبناء القصة مباشرة في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/inlinestory/paragraphs/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/inlinestory/paragraphs/
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة تعليق إلى فقرة.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * class [ParagraphCollection](../../paragraphcollection/)
 * class [InlineStory](../)
-* مساحة الاسم [Aspose.Words](../../inlinestory/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

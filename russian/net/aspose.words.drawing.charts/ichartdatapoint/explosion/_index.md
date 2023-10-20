@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Explosion
-second_title: Справочник по API Aspose.Words для .NET
-description: IChartDataPoint свойство. Указывает на сколько точка данных должна быть перемещена из центра круговой диаграммы. Может быть отрицательным. Отрицательное значение означает что свойство не установлено и не следует применять развертывание. Применяется только к круговым диаграммам.
+linktitle: Explosion
+articleTitle: Explosion
+second_title: Aspose.Words для .NET
+description: IChartDataPoint Explosion свойство. Указывает на сколько точка данных должна быть перемещена из центра круговой диаграммы. Может быть отрицательным. Отрицательное значение означает что свойство не установлено и не следует применять развертывание. Применяется только к круговым диаграммам на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/ichartdatapoint/explosion/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/ichartdatapoint/explosion/
 public int Explosion { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как переместить фрагменты круговой диаграммы от центра.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.PieChartExplosion.docx");
 ### Смотрите также
 
 * interface [IChartDataPoint](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

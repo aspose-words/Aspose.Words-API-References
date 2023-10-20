@@ -1,7 +1,9 @@
 ---
-title: Enum JsonSimpleValueParseMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Reporting.JsonSimpleValueParseMode تعداد. يحدد وضعًا لتحليل قيم JSON البسيطة فارغة ومنطقية ورقمية وعدد صحيح وسلسلة أثناء تحميل JSON. لا يؤثر هذا الوضع على تحليل قيم التاريخ والوقت.
+title: JsonSimpleValueParseMode Enum
+linktitle: JsonSimpleValueParseMode
+articleTitle: JsonSimpleValueParseMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Reporting.JsonSimpleValueParseMode تعداد. يحدد وضعًا لتحليل قيم JSON البسيطة فارغة ومنطقية ورقمية وعدد صحيح وسلسلة أثناء تحميل JSON. لا يؤثر هذا الوضع على تحليل قيم التاريخ والوقت في C#.
 type: docs
 weight: 4700
 url: /ar/net/aspose.words.reporting/jsonsimplevalueparsemode/
@@ -25,5 +27,3 @@ public enum JsonSimpleValueParseMode
 
 * مساحة الاسم [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../)
-
-

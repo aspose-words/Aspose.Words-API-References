@@ -1,7 +1,9 @@
 ---
 title: CustomPart.Name
-second_title: Aspose.Words لمراجع .NET API
-description: CustomPart ملكية. الحصول على الاسم المطلق لهذا الجزء أو تعيينه ضمن حزمة OOXML أو عنوان URL المستهدف.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words لـ .NET
+description: CustomPart Name ملكية. الحصول على الاسم المطلق لهذا الجزء أو تعيينه ضمن حزمة OOXML أو عنوان URL المستهدف في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.markup/custompart/name/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.markup/custompart/name/
 public string Name { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا كان هدف العلاقة داخليًا، فإن هذه الخاصية هي اسم الجزء المطلق داخل الحزمة. إذا كان هدف العلاقة خارجيًا، فإن هذه الخاصية هي عنوان URL الهدف.
 
 القيمة الافتراضية هي سلسلة فارغة. يجب أن تكون القيمة الصالحة عبارة عن سلسلة غير فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### أنظر أيضا
 
 * class [CustomPart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../custompart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

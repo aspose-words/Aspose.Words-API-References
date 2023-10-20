@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlControlType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.HtmlControlType 枚举. 表示从 HTML 导入的 input 和 select 元素的文档节点类型
+title: HtmlControlType Enum
+linktitle: HtmlControlType
+articleTitle: HtmlControlType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.HtmlControlType 枚举. 表示从 HTML 导入的 input 和 select 元素的文档节点类型 在 C#.
 type: docs
 weight: 3610
 url: /zh/net/aspose.words.loading/htmlcontroltype/
@@ -25,5 +27,3 @@ public enum HtmlControlType
 
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

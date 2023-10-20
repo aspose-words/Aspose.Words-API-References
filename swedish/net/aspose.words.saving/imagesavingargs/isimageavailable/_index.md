@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.IsImageAvailable
-second_title: Aspose.Words för .NET API Referens
-description: ImageSavingArgs fast egendom. ReturnerarSann om den aktuella bilden är tillgänglig för export.
+linktitle: IsImageAvailable
+articleTitle: IsImageAvailable
+second_title: Aspose.Words för .NET
+description: ImageSavingArgs IsImageAvailable fast egendom. ReturnerarSann om den aktuella bilden är tillgänglig för export i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/imagesavingargs/isimageavailable/
@@ -14,13 +16,13 @@ Returnerar`Sann` om den aktuella bilden är tillgänglig för export.
 public bool IsImageAvailable { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Vissa bilder i dokumentet kan vara otillgängliga, till exempel eftersom image är länkad och länken är otillgänglig eller inte pekar på en giltig bild. I det här fallet exporterar Aspose.Words en ikon med ett rött kors. Den här egenskapen returnerar `Sann` om originalbilden är tillgänglig; returnerar`falsk`om den ursprungliga -bilden inte är tillgänglig och en "ingen bild"-ikon kommer att erbjudas för att spara.
 
 När du sparar en gruppform eller en form som inte kräver någon bild är denna egenskap alltid`Sann`.
 
-### Exempel
+## Exempel
 
 Visar hur man involverar en bildsparande återuppringning i en HTML-konverteringsprocess.
 
@@ -67,7 +69,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * property [CurrentShape](../currentshape/)
 * class [ImageSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

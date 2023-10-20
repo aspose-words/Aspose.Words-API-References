@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Name
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeries mülk. Serinin adını alır veya ayarlar eğer isim açıkça ayarlanmadıysa index. kullanılarak oluşturulur. Varsayılan olarak Seri artı bir tabanlı indeks döndürür.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words for .NET
+description: ChartSeries Name mülk. Serinin adını alır veya ayarlar eğer isim açıkça ayarlanmadıysa index. kullanılarak oluşturulur. Varsayılan olarak Seri artı bir tabanlı indeks döndürür C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.drawing.charts/chartseries/name/
@@ -14,7 +16,7 @@ Serinin adını alır veya ayarlar; eğer isim açıkça ayarlanmadıysa index. 
 public string Name { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Ayrıca bakınız
 
 * class [ChartSeries](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseries/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

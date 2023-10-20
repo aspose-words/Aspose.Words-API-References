@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreFields
-second_title: Aspose.Words per .NET API Reference
-description: CompareOptions proprietà. Specifica se confrontare le differenze nei campi. Per impostazione predefinita i campi non vengono ignorati.
+linktitle: IgnoreFields
+articleTitle: IgnoreFields
+second_title: Aspose.Words per .NET
+description: CompareOptions IgnoreFields proprietà. Specifica se confrontare le differenze nei campi. Per impostazione predefinita i campi non vengono ignorati in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.comparing/compareoptions/ignorefields/
@@ -14,7 +16,7 @@ Specifica se confrontare le differenze nei campi. Per impostazione predefinita i
 public bool IgnoreFields { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come filtrare tipi specifici di elementi del documento quando si effettua un confronto.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Guarda anche
 
 * class [CompareOptions](../)
-* spazio dei nomi [Aspose.Words.Comparing](../../compareoptions/)
+* spazio dei nomi [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveToCell
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. İmleci geçerli bölümdeki bir tablo hücresine taşır.
+linktitle: MoveToCell
+articleTitle: MoveToCell
+second_title: Aspose.Words for .NET
+description: DocumentBuilder MoveToCell yöntem. İmleci geçerli bölümdeki bir tablo hücresine taşır C#'da.
 type: docs
-weight: 510
+weight: 500
 url: /tr/net/aspose.words/documentbuilder/movetocell/
 ---
 ## DocumentBuilder.MoveToCell method
@@ -21,13 +23,13 @@ public void MoveToCell(int tableIndex, int rowIndex, int columnIndex, int charac
 | columnIndex | Int32 | Tablodaki sütunun dizini. |
 | characterIndex | Int32 | Hücre içindeki karakterin dizini. Negatif bir değer, hücrenin sonundan itibaren bir konum belirtmenize olanak tanır. Hücrenin sonuna gitmek için -1'i kullanın. |
 
-### Notlar
+## Notlar
 
 Gezinme, geçerli bölümün geçerli öyküsü içinde gerçekleştirilir.
 
 İndeks parametreleri için, indeks 0'dan büyük veya ona eşit olduğunda, ilk öğe 0 olacak şekilde başlangıç 'den bir indeks belirtir. İndeks 0'dan küçük olduğunda, son öğe -1 olacak şekilde, from dizini belirtilir.
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucunun imlecinin tablodaki bir hücreye nasıl taşınacağını gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MoveToCell.docx");
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

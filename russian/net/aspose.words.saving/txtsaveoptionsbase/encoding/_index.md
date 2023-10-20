@@ -1,20 +1,22 @@
 ---
 title: TxtSaveOptionsBase.Encoding
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtSaveOptionsBase свойство. Указывает кодировку которая будет использоваться при экспорте в текстовые форматы. Значение по умолчанию Кодировка.UTF8 .
+linktitle: Encoding
+articleTitle: Encoding
+second_title: Aspose.Words для .NET
+description: TxtSaveOptionsBase Encoding свойство. Указывает кодировку которая будет использоваться при экспорте в текстовые форматы. Значение по умолчаниюКодировка.UTF8  на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/txtsaveoptionsbase/encoding/
 ---
 ## TxtSaveOptionsBase.Encoding property
 
-Указывает кодировку, которая будет использоваться при экспорте в текстовые форматы. Значение по умолчанию: **Кодировка.UTF8** .
+Указывает кодировку, которая будет использоваться при экспорте в текстовые форматы. Значение по умолчанию:**Кодировка.UTF8** .
 
 ```csharp
 public Encoding Encoding { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить кодировку для выходного документа .txt.
 
@@ -49,7 +51,5 @@ Assert.AreEqual("? ? ? ? ?.\r\n", docText);
 ### Смотрите также
 
 * class [TxtSaveOptionsBase](../)
-* пространство имен [Aspose.Words.Saving](../../txtsaveoptionsbase/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

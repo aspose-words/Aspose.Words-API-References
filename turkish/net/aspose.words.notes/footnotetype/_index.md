@@ -1,7 +1,9 @@
 ---
-title: Enum FootnoteType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Notes.FootnoteType Sıralama. Bunun dipnot mu yoksa son not mu olduğunu belirtir.
+title: FootnoteType Enum
+linktitle: FootnoteType
+articleTitle: FootnoteType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Notes.FootnoteType Sıralama. Bunun dipnot mu yoksa son not mu olduğunu belirtir C#'da.
 type: docs
 weight: 4300
 url: /tr/net/aspose.words.notes/footnotetype/
@@ -21,11 +23,11 @@ public enum FootnoteType
 | Footnote | `0` | Nesne bir dipnottur. |
 | Endnote | `1` | Nesne bir son nottur. |
 
-### Notlar
+## Notlar
 
 Hem dipnotlar hem de sonnotlar nesneler tarafından temsil edilir.Footnote sınıfı. Kullanmak[`FootnoteType`](../footnote/footnotetype/) dipnotları ile son notları ayırt etmek için.
 
-### Örnekler
+## Örnekler
 
 Dipnot ve son not içeren metne nasıl başvurulacağını gösterir.
 
@@ -100,5 +102,3 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * ad alanı [Aspose.Words.Notes](../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../)
-
-

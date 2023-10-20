@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorUnitIsAuto
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان سيتم استخدام المسافة الافتراضية بين علامات التجزئة الرئيسية.
+linktitle: MajorUnitIsAuto
+articleTitle: MajorUnitIsAuto
+second_title: Aspose.Words لـ .NET
+description: ChartAxis MajorUnitIsAuto ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان سيتم استخدام المسافة الافتراضية بين علامات التجزئة الرئيسية في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.drawing.charts/chartaxis/majorunitisauto/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/majorunitisauto/
 public bool MajorUnitIsAuto { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الخاصية لها تأثير على الفئة الزمنية ومحور القيمة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع علامات التجزئة والقيم المعروضة لمحور المخطط.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### أنظر أيضا
 
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

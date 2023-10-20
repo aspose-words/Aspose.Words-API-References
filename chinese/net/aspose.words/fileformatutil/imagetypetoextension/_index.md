@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.ImageTypeToExtension
-second_title: Aspose.Words for .NET API 参考
-description: FileFormatUtil 方法. 将 Aspose.Words 图像类型枚举值转换为文件扩展名返回的扩展名是带有前导点的小写字符串
+linktitle: ImageTypeToExtension
+articleTitle: ImageTypeToExtension
+second_title: 用于 .NET 的 Aspose.Words
+description: FileFormatUtil ImageTypeToExtension 方法. 将 Aspose.Words 图像类型枚举值转换为文件扩展名返回的扩展名是带有前导点的小写字符串 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/fileformatutil/imagetypetoextension/
@@ -20,7 +22,7 @@ public static string ImageTypeToExtension(ImageType imageType)
 | --- | --- |
 | ArgumentException | 无法转换时抛出。 |
 
-### 例子
+## 例子
 
 演示如何从文档中提取图像，并将它们作为单独的文件保存到本地文件系统。
 
@@ -52,7 +54,5 @@ foreach (Shape shape in shapes.OfType<Shape>())
 
 * enum [ImageType](../../../aspose.words.drawing/imagetype/)
 * class [FileFormatUtil](../)
-* 命名空间 [Aspose.Words](../../fileformatutil/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

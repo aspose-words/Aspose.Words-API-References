@@ -1,12 +1,14 @@
 ---
 title: Fill.SetImage
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill méthode. Modifie le type de remplissage en image unique.
+linktitle: SetImage
+articleTitle: SetImage
+second_title: Aspose.Words pour .NET
+description: Fill SetImage méthode. Modifie le type de remplissage en image unique en C#.
 type: docs
-weight: 250
+weight: 240
 url: /fr/net/aspose.words.drawing/fill/setimage/
 ---
-## SetImage(string) {#setimage_2}
+## SetImage(*string*) {#setimage_2}
 
 Modifie le type de remplissage en image unique.
 
@@ -18,7 +20,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | Le chemin d'accès au fichier image. |
 
-### Exemples
+## Exemples
 
 Montre comment définir le type de remplissage de forme comme image.
 
@@ -45,12 +47,12 @@ doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
 ### Voir également
 
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## SetImage(Stream) {#setimage_1}
+## SetImage(*Stream*) {#setimage_1}
 
 Modifie le type de remplissage en image unique.
 
@@ -65,12 +67,12 @@ public void SetImage(Stream stream)
 ### Voir également
 
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## SetImage(byte[]) {#setimage}
+## SetImage(*byte[]*) {#setimage}
 
 Modifie le type de remplissage en image unique.
 
@@ -85,7 +87,5 @@ public void SetImage(byte[] imageBytes)
 ### Voir également
 
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

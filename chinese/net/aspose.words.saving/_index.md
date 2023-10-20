@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Saving
-second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words.Saving命名空间提供类和枚举 允许指定用于保存或转换文档的附加选项
+linktitle: Aspose.Words.Saving
+articleTitle: Aspose.Words.Saving
+second_title: 用于 .NET 的 Aspose.Words
+description: 这Aspose.Words.Saving命名空间提供类和枚举 允许指定用于保存或转换文档的附加选项 在 C#.
 type: docs
 weight: 230
 url: /zh/net/aspose.words.saving/
 ---
-这 **Aspose.Words.Saving**命名空间提供类和枚举， 允许指定用于保存或转换文档的附加选项。
+这**Aspose.Words.Saving**命名空间提供类和枚举， 允许指定用于保存或转换文档的附加选项。
 
 ## 课程
 
@@ -108,5 +110,3 @@ url: /zh/net/aspose.words.saving/
 | [TableContentAlignment](./tablecontentalignment/) | 允许指定导出为 Markdown 格式时要使用的表格内容的对齐方式。 |
 | [TiffCompression](./tiffcompression/) | 指定将页面图像保存到 TIFF 文件时应用什么类型的压缩。 |
 | [TxtExportHeadersFootersMode](./txtexportheadersfootersmode/) | 指定页眉和页脚导出为纯文本格式的方式。 |
-
-

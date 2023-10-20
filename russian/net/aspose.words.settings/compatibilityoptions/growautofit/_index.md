@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.GrowAutofit
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Разрешить таблицам автоматически вписываться в поля страницы.
+linktitle: GrowAutofit
+articleTitle: GrowAutofit
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions GrowAutofit свойство. Разрешить таблицам автоматически вписываться в поля страницы на С#.
 type: docs
 weight: 280
 url: /ru/net/aspose.words.settings/compatibilityoptions/growautofit/
@@ -17,7 +19,5 @@ public bool GrowAutofit { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

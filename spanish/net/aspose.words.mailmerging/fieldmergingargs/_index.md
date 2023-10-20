@@ -1,14 +1,16 @@
 ---
-title: Class FieldMergingArgs
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.MailMerging.FieldMergingArgs clase. Proporciona datos para el Fusionar campo evento.
+title: FieldMergingArgs Class
+linktitle: FieldMergingArgs
+articleTitle: FieldMergingArgs
+second_title: Aspose.Words para .NET
+description: Aspose.Words.MailMerging.FieldMergingArgs clase. Proporciona datos para elFusionar campo evento en C#.
 type: docs
 weight: 3770
 url: /es/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
-Proporciona datos para el **Fusionar campo** evento.
+Proporciona datos para el**Fusionar campo** evento.
 
 Para obtener más información, visite el[Combinación de correspondencia e informes](https://docs.aspose.com/words/net/mail-merge-and-reporting/) artículo de documentación.
 
@@ -29,11 +31,11 @@ public class FieldMergingArgs : FieldMergingArgsBase
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Obtiene el nombre de la tabla de datos para la operación de combinación actual o una cadena vacía si el nombre no está disponible. |
 | [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | Obtiene o establece el texto que se insertará en el documento para el campo de combinación actual. |
 
-### Observaciones
+## Observaciones
 
-El **Fusionar campo** El evento ocurre durante la combinación de correspondencia cuando se encuentra un campo simple mail merge en el documento. Puede responder a este evento para devolver el texto para que el motor de combinación de correspondencia lo inserte en el documento.
+El**Fusionar campo** El evento ocurre durante la combinación de correspondencia cuando se encuentra un campo simple mail merge en el documento. Puede responder a este evento para devolver el texto para que el motor de combinación de correspondencia lo inserte en el documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con una devolución de llamada personalizada que maneja datos combinados en forma de documentos HTML.
 
@@ -103,5 +105,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 * class [FieldMergingArgsBase](../fieldmergingargsbase/)
 * espacio de nombres [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../)
-
-

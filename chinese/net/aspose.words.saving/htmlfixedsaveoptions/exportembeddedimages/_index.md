@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedImages
-second_title: Aspose.Words for .NET API 参考
-description: HtmlFixedSaveOptions 财产. 指定图像是否应以 Base64 格式嵌入到 Html 文档中 请注意设置此标志会显着增加输出 Html 文件的大小
+linktitle: ExportEmbeddedImages
+articleTitle: ExportEmbeddedImages
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlFixedSaveOptions ExportEmbeddedImages 财产. 指定图像是否应以 Base64 格式嵌入到 Html 文档中 请注意设置此标志会显着增加输出 Html 文件的大小 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedimages/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedimages/
 public bool ExportEmbeddedImages { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示将文档导出为 Html 时如何确定图像的存储位置。
 
@@ -54,7 +56,5 @@ else
 ### 也可以看看
 
 * class [HtmlFixedSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

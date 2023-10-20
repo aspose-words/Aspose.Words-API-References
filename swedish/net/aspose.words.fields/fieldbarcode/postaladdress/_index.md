@@ -1,7 +1,9 @@
 ---
 title: FieldBarcode.PostalAddress
-second_title: Aspose.Words för .NET API Referens
-description: FieldBarcode fast egendom. Hämtar eller ställer in postadressen som används för att generera en streckkod eller namnet på bokmärket som refererar till den.
+linktitle: PostalAddress
+articleTitle: PostalAddress
+second_title: Aspose.Words för .NET
+description: FieldBarcode PostalAddress fast egendom. Hämtar eller ställer in postadressen som används för att generera en streckkod eller namnet på bokmärket som refererar till den i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldbarcode/postaladdress/
@@ -14,7 +16,7 @@ Hämtar eller ställer in postadressen som används för att generera en streckk
 public string PostalAddress { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder streckkodsfältet för att visa amerikanska postnummer i form av en streckkod.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 ### Se även
 
 * class [FieldBarcode](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldbarcode/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

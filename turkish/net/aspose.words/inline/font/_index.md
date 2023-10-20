@@ -1,7 +1,9 @@
 ---
 title: Inline.Font
-second_title: Aspose.Words for .NET API Referansı
-description: Inline mülk. Bu nesnenin yazı tipi formatlamasına erişim sağlar.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words for .NET
+description: Inline Font mülk. Bu nesnenin yazı tipi formatlamasına erişim sağlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/inline/font/
@@ -14,7 +16,7 @@ Bu nesnenin yazı tipi formatlamasına erişim sağlar.
 public Font Font { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Aspose.Words belgesinin elle nasıl oluşturulacağını gösterir.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [Font](../../font/)
 * class [Inline](../)
-* ad alanı [Aspose.Words](../../inline/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

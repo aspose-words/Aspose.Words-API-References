@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.TransparentMetafiles
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Specifica di non oscurare larea dietro le immagini del metafile.
+linktitle: TransparentMetafiles
+articleTitle: TransparentMetafiles
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions TransparentMetafiles proprietà. Specifica di non oscurare larea dietro le immagini del metafile in C#.
 type: docs
 weight: 550
 url: /it/net/aspose.words.settings/compatibilityoptions/transparentmetafiles/
@@ -17,7 +19,5 @@ public bool TransparentMetafiles { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

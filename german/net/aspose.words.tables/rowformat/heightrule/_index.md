@@ -1,7 +1,9 @@
 ---
 title: RowFormat.HeightRule
-second_title: Aspose.Words für .NET-API-Referenz
-description: RowFormat eigendom. Ruft die Regel zur Bestimmung der Höhe der Tabellenzeile ab oder legt diese fest.
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: Aspose.Words für .NET
+description: RowFormat HeightRule eigendom. Ruft die Regel zur Bestimmung der Höhe der Tabellenzeile ab oder legt diese fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.tables/rowformat/heightrule/
@@ -14,7 +16,7 @@ Ruft die Regel zur Bestimmung der Höhe der Tabellenzeile ab oder legt diese fes
 public HeightRule HeightRule { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Zeilen mit einem Document Builder formatiert werden.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * enum [HeightRule](../../../aspose.words/heightrule/)
 * class [RowFormat](../)
-* namensraum [Aspose.Words.Tables](../../rowformat/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

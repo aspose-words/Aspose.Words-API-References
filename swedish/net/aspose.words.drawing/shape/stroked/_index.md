@@ -1,7 +1,9 @@
 ---
 title: Shape.Stroked
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Definierar om sökvägen ska streckas.
+linktitle: Stroked
+articleTitle: Stroked
+second_title: Aspose.Words för .NET
+description: Shape Stroked fast egendom. Definierar om sökvägen ska streckas i C#.
 type: docs
 weight: 200
 url: /sv/net/aspose.words.drawing/shape/stroked/
@@ -14,13 +16,13 @@ Definierar om sökvägen ska streckas.
 public bool Stroked { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Detta är en genväg till[`On`](../../stroke/on/) fast egendom.
 
 Standardvärdet är`Sann`.
 
-### Exempel
+## Exempel
 
 Visar hur man itererar över alla former i ett dokument.
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Se även
 
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

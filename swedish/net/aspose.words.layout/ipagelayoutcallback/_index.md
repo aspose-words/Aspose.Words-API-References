@@ -1,7 +1,9 @@
 ---
-title: Interface IPageLayoutCallback
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Layout.IPageLayoutCallback gränssnitt. Implementera detta gränssnitt om du vill ha din egen anpassade metod anropad under byggandet och renderingen av sidlayoutmodellen.
+title: IPageLayoutCallback Interface
+linktitle: IPageLayoutCallback
+articleTitle: IPageLayoutCallback
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Layout.IPageLayoutCallback gränssnitt. Implementera detta gränssnitt om du vill ha din egen anpassade metod anropad under byggandet och renderingen av sidlayoutmodellen i C#.
 type: docs
 weight: 3310
 url: /sv/net/aspose.words.layout/ipagelayoutcallback/
@@ -18,9 +20,9 @@ public interface IPageLayoutCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | Detta anropas för att meddela om layoutens framsteg och rendering. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | Detta anropas för att meddela om layoutens framsteg och rendering. |
 
-### Anmärkningar
+## Anmärkningar
 
 Den primära användningen av detta gränssnitt är att tillåta programkod att avbryta byggprocessen.
 
@@ -30,7 +32,7 @@ Observera dock att renderingsresultat kanske inte matchar det som skulle rendera
 
 Denna teknik kanske inte fungerar för alla dokument eller kan misslyckas helt.
 
-### Exempel
+## Exempel
 
 Visar hur man spårar layoutändringar med en layoutåteruppringning.
 
@@ -98,5 +100,3 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 * property [Callback](../layoutoptions/callback/)
 * namnutrymme [Aspose.Words.Layout](../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../)
-
-

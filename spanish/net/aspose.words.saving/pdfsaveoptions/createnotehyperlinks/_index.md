@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CreateNoteHyperlinks
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Especifica si se deben convertir las referencias de notas al pie/notas al final en la historia del texto principal en hipervínculos activos. Cuando se hace clic en el hipervínculo se dirigirá a la nota al pie/nota al final correspondiente. El valor predeterminado esFALSO .
+linktitle: CreateNoteHyperlinks
+articleTitle: CreateNoteHyperlinks
+second_title: Aspose.Words para .NET
+description: PdfSaveOptions CreateNoteHyperlinks propiedad. Especifica si se deben convertir las referencias de notas al pie/notas al final en la historia del texto principal en hipervínculos activos. Cuando se hace clic en el hipervínculo se dirigirá a la nota al pie/nota al final correspondiente. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
@@ -14,7 +16,7 @@ Especifica si se deben convertir las referencias de notas al pie/notas al final 
 public bool CreateNoteHyperlinks { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo hacer que las notas al pie y al final funcionen como hipervínculos.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.NoteHyperlinks.pdf", options);
 ### Ver también
 
 * class [PdfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldUpdatingProgressArgs.UpdateCompleted
-second_title: Aspose.Words for .NET API Referansı
-description: FieldUpdatingProgressArgs mülk. Alan güncellemesinin tamamlanıp tamamlanmadığını gösteren bir değer alır.
+linktitle: UpdateCompleted
+articleTitle: UpdateCompleted
+second_title: Aspose.Words for .NET
+description: FieldUpdatingProgressArgs UpdateCompleted mülk. Alan güncellemesinin tamamlanıp tamamlanmadığını gösteren bir değer alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldupdatingprogressargs/updatecompleted/
@@ -14,7 +16,7 @@ Alan güncellemesinin tamamlanıp tamamlanmadığını gösteren bir değer alı
 public bool UpdateCompleted { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Alan güncellemesi sırasında geri çağırma yöntemlerinin nasıl kullanılacağını gösterir.
 
@@ -82,7 +84,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 ### Ayrıca bakınız
 
 * class [FieldUpdatingProgressArgs](../)
-* ad alanı [Aspose.Words.Fields](../../fieldupdatingprogressargs/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.MillimeterToPoint
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ConvertUtil méthode. Convertit les millimètres en points.
+linktitle: MillimeterToPoint
+articleTitle: MillimeterToPoint
+second_title: Aspose.Words pour .NET
+description: ConvertUtil MillimeterToPoint méthode. Convertit les millimètres en points en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/convertutil/millimetertopoint/
@@ -18,11 +20,11 @@ public static double MillimeterToPoint(double millimeters)
 | --- | --- | --- |
 | millimeters | Double | La valeur à convertir. |
 
-### Remarques
+## Remarques
 
 1 pouce équivaut à 25,4 millimètres. 1 pouce équivaut à 72 points.
 
-### Exemples
+## Exemples
 
 Montre comment spécifier les propriétés de la page en millimètres.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndMillimeters.docx");
 ### Voir également
 
 * class [ConvertUtil](../)
-* espace de noms [Aspose.Words](../../convertutil/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

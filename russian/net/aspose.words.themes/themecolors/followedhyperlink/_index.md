@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.FollowedHyperlink
-second_title: Справочник по API Aspose.Words для .NET
-description: ThemeColors свойство. Определяет цвет гиперссылки по которой щелкнули.
+linktitle: FollowedHyperlink
+articleTitle: FollowedHyperlink
+second_title: Aspose.Words для .NET
+description: ThemeColors FollowedHyperlink свойство. Определяет цвет гиперссылки по которой щелкнули на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.themes/themecolors/followedhyperlink/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.themes/themecolors/followedhyperlink/
 public Color FollowedHyperlink { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как устанавливать собственные цвета и шрифты для тем.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Смотрите также
 
 * class [ThemeColors](../)
-* пространство имен [Aspose.Words.Themes](../../themecolors/)
+* пространство имен [Aspose.Words.Themes](../../../aspose.words.themes/)
 * сборка [Aspose.Words](../../../)
-
-

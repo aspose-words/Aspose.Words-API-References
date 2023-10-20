@@ -1,7 +1,9 @@
 ---
 title: FieldCompare.ComparisonOperator
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCompare mülk. Karşılaştırma operatörünü alır veya ayarlar.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words for .NET
+description: FieldCompare ComparisonOperator mülk. Karşılaştırma operatörünü alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldcompare/comparisonoperator/
@@ -14,7 +16,7 @@ Karşılaştırma operatörünü alır veya ayarlar.
 public string ComparisonOperator { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 KARŞILAŞTIRMA alanı kullanılarak ifadelerin nasıl karşılaştırılacağını gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.COMPARE.docx");
 ### Ayrıca bakınız
 
 * class [FieldCompare](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcompare/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

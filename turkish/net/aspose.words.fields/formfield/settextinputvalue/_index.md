@@ -1,7 +1,9 @@
 ---
 title: FormField.SetTextInputValue
-second_title: Aspose.Words for .NET API Referansı
-description: FormField yöntem. Belirtilen metin biçimini uygular.TextInputFormat ve değeri içinde saklarResult .
+linktitle: SetTextInputValue
+articleTitle: SetTextInputValue
+second_title: Aspose.Words for .NET
+description: FormField SetTextInputValue yöntem. Belirtilen metin biçimini uygular.TextInputFormat ve değeri içinde saklarResult  C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words.fields/formfield/settextinputvalue/
@@ -16,13 +18,13 @@ public void SetTextInputValue(object newValue)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| newValue | Object | Bir dize, sayı veya bir olabilir **TarihSaat** nesne. |
+| newValue | Object | Bir dize, sayı veya bir olabilir**TarihSaat** nesne. |
 
-### Notlar
+## Notlar
 
 [`TextInputDefault`](../textinputdefault/)değer uygulanırsa*newValue* dır-dir`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

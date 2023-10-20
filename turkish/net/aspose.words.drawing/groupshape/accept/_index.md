@@ -1,7 +1,9 @@
 ---
 title: GroupShape.Accept
-second_title: Aspose.Words for .NET API Referansı
-description: GroupShape yöntem. Ziyaretçi kabul eder.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words for .NET
+description: GroupShape Accept yöntem. Ziyaretçi kabul eder C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing/groupshape/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../../aspose.words/documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
 
-### Notlar
+## Notlar
 
 Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
 Çağrılar[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , ardından arar[`Accept`](../../../aspose.words/node/accept/) bu grup şeklinin ve çağrılarının tüm alt şekilleri için[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) sonunda.
 
-### Örnekler
+## Örnekler
 
 Bir şekil grubunun nasıl oluşturulacağını ve bir belge ziyaretçisi kullanılarak içeriğinin nasıl yazdırılacağını gösterir.
 
@@ -122,7 +124,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [GroupShape](../)
-* ad alanı [Aspose.Words.Drawing](../../groupshape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

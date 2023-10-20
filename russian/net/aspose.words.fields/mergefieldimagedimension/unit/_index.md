@@ -1,7 +1,9 @@
 ---
 title: MergeFieldImageDimension.Unit
-second_title: Справочник по API Aspose.Words для .NET
-description: MergeFieldImageDimension свойство. Единица измерения.
+linktitle: Unit
+articleTitle: Unit
+second_title: Aspose.Words для .NET
+description: MergeFieldImageDimension Unit свойство. Единица измерения на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/mergefieldimagedimension/unit/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/mergefieldimagedimension/unit/
 public MergeFieldImageDimensionUnit Unit { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить размеры изображений, поскольку MERGEFIELDS принимает их во время слияния почты.
 
@@ -85,7 +87,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
 * class [MergeFieldImageDimension](../)
-* пространство имен [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

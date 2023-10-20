@@ -1,7 +1,9 @@
 ---
-title: Section.Section
-second_title: Aspose.Words لمراجع .NET API
-description: Section البناء. تهيئة مثيل جديد لفئة القسم.
+title: Section
+linktitle: Section
+articleTitle: Section
+second_title: Aspose.Words لـ .NET
+description: Section البناء. تهيئة مثيل جديد لفئة القسم في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/section/section/
@@ -18,13 +20,13 @@ public Section(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | وثيقة المالك. |
 
-### ملاحظات
+## ملاحظات
 
 عند إنشاء القسم، فإنه ينتمي إلى المستند المحدد، ولكنه ليس بعد جزءًا من المستند و[`ParentNode`](../../node/parentnode/) يكون`باطل`.
 
-لكي يتضمن[`Section`](../) في استخدام الوثيقةNode) و Node) أساليب[`Document`](../../document/) أو [`Add`](../../nodecollection/add/) و[`Insert`](../../nodecollection/insert/) أساليب[`Sections`](../../document/sections/) ملكية.
+لكي يتضمن[`Section`](../) في استخدام الوثيقة[`InsertAfter`](../../compositenode/insertafter/) و [`InsertBefore`](../../compositenode/insertbefore/) أساليب[`Document`](../../document/) أو [`Add`](../../nodecollection/add/) و[`Insert`](../../nodecollection/insert/) أساليب[`Sections`](../../document/sections/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند Aspose.Words يدويًا.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Section](../)
-* مساحة الاسم [Aspose.Words](../../section/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

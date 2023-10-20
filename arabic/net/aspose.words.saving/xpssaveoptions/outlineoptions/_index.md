@@ -1,7 +1,9 @@
 ---
 title: XpsSaveOptions.OutlineOptions
-second_title: Aspose.Words لمراجع .NET API
-description: XpsSaveOptions ملكية. يسمح بتحديد خيارات المخطط التفصيلي.
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words لـ .NET
+description: XpsSaveOptions OutlineOptions ملكية. يسمح بتحديد خيارات المخطط التفصيلي في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/xpssaveoptions/outlineoptions/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/xpssaveoptions/outlineoptions/
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أن[`ExpandedOutlineLevels`](../../outlineoptions/expandedoutlinelevels/) لن يعمل الخيار عند الحفظ في XPS.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مستوى العناوين التي ستظهر في المخطط التفصيلي لمستند XPS المحفوظ.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [XpsSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../xpssaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

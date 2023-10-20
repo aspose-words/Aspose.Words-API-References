@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.LastChild
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart fast egendom. Får det sista barnet i stdContentintervallet.
+linktitle: LastChild
+articleTitle: LastChild
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeStart LastChild fast egendom. Får det sista barnet i stdContentintervallet i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/lastchild/
@@ -14,7 +16,7 @@ Får det sista barnet i stdContent-intervallet.
 public Node LastChild { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om det inte finns någon sista underordnad nod, a`null` returneras.
 
@@ -22,7 +24,5 @@ Om det inte finns någon sista underordnad nod, a`null` returneras.
 
 * class [Node](../../../aspose.words/node/)
 * class [StructuredDocumentTagRangeStart](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

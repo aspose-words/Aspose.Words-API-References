@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Element
-second_title: Aspose.Words för .NET API Referens
-description: SmartTag fast egendom. Anger namnet på den smarta taggen i dokumentet.
+linktitle: Element
+articleTitle: Element
+second_title: Aspose.Words för .NET
+description: SmartTag Element fast egendom. Anger namnet på den smarta taggen i dokumentet i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/smarttag/element/
@@ -14,13 +16,13 @@ Anger namnet på den smarta taggen i dokumentet.
 public string Element { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan inte vara`null`.
 
 Standard är tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar smarta taggar.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### Se även
 
 * class [SmartTag](../)
-* namnutrymme [Aspose.Words.Markup](../../smarttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

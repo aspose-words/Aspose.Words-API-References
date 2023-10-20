@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Equals
-second_title: Referencia de API de Aspose.Words para .NET
-description: ConditionalStyle método. Compara este estilo condicional con el objeto especificado.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words para .NET
+description: ConditionalStyle Equals método. Compara este estilo condicional con el objeto especificado en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words/conditionalstyle/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### Ver también
 
 * class [ConditionalStyle](../)
-* espacio de nombres [Aspose.Words](../../conditionalstyle/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

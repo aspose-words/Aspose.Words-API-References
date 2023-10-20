@@ -1,7 +1,9 @@
 ---
-title: Class ResourceLoadingArgs
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.ResourceLoadingArgs 班级. 提供数据ResourceLoading方法.
+title: ResourceLoadingArgs Class
+linktitle: ResourceLoadingArgs
+articleTitle: ResourceLoadingArgs
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.ResourceLoadingArgs 班级. 提供数据ResourceLoading方法 在 C#.
 type: docs
 weight: 3690
 url: /zh/net/aspose.words.loading/resourceloadingargs/
@@ -26,9 +28,9 @@ public class ResourceLoadingArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(byte[]) | 设置用户提供的所使用资源的数据 if[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) 返回UserProvided. |
+| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(*byte[]*) | 设置用户提供的所使用资源的数据 if[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) 返回UserProvided. |
 
-### 例子
+## 例子
 
 演示如何自定义将外部资源加载到文档中的过程。
 
@@ -92,5 +94,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

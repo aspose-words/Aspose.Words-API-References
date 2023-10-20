@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.WPJustification
-second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. محاكاة تبرير الفقرة WordPerfect 6.x.
+linktitle: WPJustification
+articleTitle: WPJustification
+second_title: Aspose.Words لـ .NET
+description: CompatibilityOptions WPJustification ملكية. محاكاة تبرير الفقرة WordPerfect 6.x في C#.
 type: docs
 weight: 690
 url: /ar/net/aspose.words.settings/compatibilityoptions/wpjustification/
@@ -17,7 +19,5 @@ public bool WPJustification { get; set; }
 ### أنظر أيضا
 
 * class [CompatibilityOptions](../)
-* مساحة الاسم [Aspose.Words.Settings](../../compatibilityoptions/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

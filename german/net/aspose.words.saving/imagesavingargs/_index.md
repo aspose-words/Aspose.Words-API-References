@@ -1,7 +1,9 @@
 ---
-title: Class ImageSavingArgs
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.ImageSavingArgs klas. Stellt Daten für die bereitImageSaving event.
+title: ImageSavingArgs Class
+linktitle: ImageSavingArgs
+articleTitle: ImageSavingArgs
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.ImageSavingArgs klas. Stellt Daten für die bereitImageSaving event in C#.
 type: docs
 weight: 5240
 url: /de/net/aspose.words.saving/imagesavingargs/
@@ -27,7 +29,7 @@ public class ImageSavingArgs
 | [IsImageAvailable](../../aspose.words.saving/imagesavingargs/isimageavailable/) { get; } | Gibt zurück`WAHR` ob das aktuelle Bild für den Export verfügbar ist. |
 | [KeepImageStreamOpen](../../aspose.words.saving/imagesavingargs/keepimagestreamopen/) { get; set; } | Gibt an, ob Aspose.Words den Stream offen halten oder schließen soll, nachdem ein Bild gespeichert wurde. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Aspose.Words ein Dokument im HTML-Format speichert, speichert es standardmäßig jedes Bild in einer separaten Datei . Aspose.Words verwendet den Dateinamen des Dokuments und eine eindeutige Nummer, um für jedes im Dokument gefundene Bild einen eindeutigen Dateinamen zu generieren.
 
@@ -37,7 +39,7 @@ Um Ihre eigene Logik zum Generieren von Bilddateinamen anzuwenden, verwenden Sie
 
 Um Bilder in Streams statt in Dateien zu speichern, verwenden Sie die[`ImageStream`](./imagestream/) Eigentum.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument in Teile aufteilt und diese speichert.
 
@@ -155,5 +157,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

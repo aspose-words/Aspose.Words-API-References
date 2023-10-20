@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.CustomDocumentProperties
-second_title: Справочник по API Aspose.Words для .NET
-description: PlainTextDocument свойство. ПолучаетCustomDocumentProperties документа.
+linktitle: CustomDocumentProperties
+articleTitle: CustomDocumentProperties
+second_title: Aspose.Words для .NET
+description: PlainTextDocument CustomDocumentProperties свойство. ПолучаетCustomDocumentProperties документа на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/plaintextdocument/customdocumentproperties/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/plaintextdocument/customdocumentproperties/
 public CustomDocumentProperties CustomDocumentProperties { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить содержимое документа Microsoft Word в виде открытого текста, а затем получить доступ к пользовательским свойствам исходного документа.
 
@@ -37,7 +39,5 @@ Assert.AreEqual("123 Main St, London, UK", plaintext.CustomDocumentProperties["L
 
 * class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
 * class [PlainTextDocument](../)
-* пространство имен [Aspose.Words](../../plaintextdocument/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

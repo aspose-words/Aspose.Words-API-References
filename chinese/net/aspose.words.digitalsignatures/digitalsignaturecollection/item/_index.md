@@ -1,7 +1,9 @@
 ---
 title: DigitalSignatureCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: DigitalSignatureCollection 财产. 获取指定索引处的文档签名
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: DigitalSignatureCollection Item 财产. 获取指定索引处的文档签名 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.digitalsignatures/digitalsignaturecollection/item/
@@ -18,7 +20,7 @@ public DigitalSignature this[int index] { get; }
 | --- | --- |
 | index | 签名的从零开始的索引。 |
 
-### 例子
+## 例子
 
 演示如何使用 X.509 证书签署文档。
 
@@ -62,7 +64,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [DigitalSignature](../../digitalsignature/)
 * class [DigitalSignatureCollection](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignaturecollection/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

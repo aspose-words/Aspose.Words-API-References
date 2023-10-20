@@ -1,7 +1,9 @@
 ---
 title: Comment.Initial
-second_title: Referencia de API de Aspose.Words para .NET
-description: Comment propiedad. Devuelve o establece las iniciales del usuario asociado con un comentario específico.
+linktitle: Initial
+articleTitle: Initial
+second_title: Aspose.Words para .NET
+description: Comment Initial propiedad. Devuelve o establece las iniciales del usuario asociado con un comentario específico en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words/comment/initial/
@@ -14,13 +16,13 @@ Devuelve o establece las iniciales del usuario asociado con un comentario espec�
 public string Initial { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 No puede ser`nulo`.
 
 El valor predeterminado es una cadena vacía.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir el contenido de todos los comentarios y sus rangos de comentarios utilizando un visitante de documentos.
 
@@ -181,7 +183,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Ver también
 
 * class [Comment](../)
-* espacio de nombres [Aspose.Words](../../comment/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

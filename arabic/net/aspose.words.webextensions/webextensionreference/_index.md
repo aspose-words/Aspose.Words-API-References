@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionReference
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WebExtensions.WebExtensionReference فصل. يمثل المرجع إلى امتداد الويب. يتم استخدام المرجع لتحديد موقع الموفر وإصدار ملحق .
+title: WebExtensionReference Class
+linktitle: WebExtensionReference
+articleTitle: WebExtensionReference
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.WebExtensions.WebExtensionReference فصل. يمثل المرجع إلى امتداد الويب. يتم استخدام المرجع لتحديد موقع الموفر وإصدار ملحق  في C#.
 type: docs
 weight: 6800
 url: /ar/net/aspose.words.webextensions/webextensionreference/
@@ -35,5 +37,3 @@ public class WebExtensionReference
 
 * مساحة الاسم [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../)
-
-

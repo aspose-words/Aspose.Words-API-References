@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBodyStart
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 当开始枚举章节中的主要文本故事时调用
+linktitle: VisitBodyStart
+articleTitle: VisitBodyStart
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitBodyStart 方法. 当开始枚举章节中的主要文本故事时调用 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/documentvisitor/visitbodystart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitBodyStart(Body body)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
 演示如何使用文档访问者打印文档的节点结构。
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Body](../../body/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

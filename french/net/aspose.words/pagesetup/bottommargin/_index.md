@@ -1,7 +1,9 @@
 ---
 title: PageSetup.BottomMargin
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Renvoie ou définit la distance en points entre le bord inférieur de la page et la limite inférieure du corps du texte.
+linktitle: BottomMargin
+articleTitle: BottomMargin
+second_title: Aspose.Words pour .NET
+description: PageSetup BottomMargin propriété. Renvoie ou définit la distance en points entre le bord inférieur de la page et la limite inférieure du corps du texte en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/pagesetup/bottommargin/
@@ -14,7 +16,7 @@ Renvoie ou définit la distance (en points) entre le bord inférieur de la page 
 public double BottomMargin { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajuster le format du papier, l’orientation, les marges, ainsi que d’autres paramètres pour une section.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### Voir également
 
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

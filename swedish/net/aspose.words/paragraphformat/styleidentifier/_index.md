@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.StyleIdentifier
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar eller ställer in den språkoberoende stilidentifieraren för styckeformatet som tillämpas på denna formatering.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words för .NET
+description: ParagraphFormat StyleIdentifier fast egendom. Hämtar eller ställer in den språkoberoende stilidentifieraren för styckeformatet som tillämpas på denna formatering i C#.
 type: docs
 weight: 350
 url: /sv/net/aspose.words/paragraphformat/styleidentifier/
@@ -14,7 +16,7 @@ Hämtar eller ställer in den språkoberoende stilidentifieraren för styckeform
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en innehållsförteckning (TOC) i ett dokument med rubrikstilar som poster.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

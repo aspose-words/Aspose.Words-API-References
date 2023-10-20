@@ -1,7 +1,9 @@
 ---
 title: EditableRangeEnd.Id
-second_title: Aspose.Words لمراجع .NET API
-description: EditableRangeEnd ملكية. يحدد معرف النطاق القابل للتحرير.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words لـ .NET
+description: EditableRangeEnd Id ملكية. يحدد معرف النطاق القابل للتحرير في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/editablerangeend/id/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/editablerangeend/id/
 public int Id { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع نطاق قابل للتحرير.
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### أنظر أيضا
 
 * class [EditableRangeEnd](../)
-* مساحة الاسم [Aspose.Words](../../editablerangeend/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

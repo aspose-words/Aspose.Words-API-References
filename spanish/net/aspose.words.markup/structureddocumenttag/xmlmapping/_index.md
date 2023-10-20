@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.XmlMapping
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag propiedad. Obtiene un objeto que representa la asignación de esta etiqueta de documento estructurado a datos XML en una parte XML personalizada del documento actual.
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTag XmlMapping propiedad. Obtiene un objeto que representa la asignación de esta etiqueta de documento estructurado a datos XML en una parte XML personalizada del documento actual en C#.
 type: docs
 weight: 320
 url: /es/net/aspose.words.markup/structureddocumenttag/xmlmapping/
@@ -14,11 +16,11 @@ Obtiene un objeto que representa la asignación de esta etiqueta de documento es
 public XmlMapping XmlMapping { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Puedes usar el[`SetMapping`](../../xmlmapping/setmapping/) método de este objeto para asignar una etiqueta de documento estructurado a datos XML.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una etiqueta de documento estructurado con datos XML personalizados.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [XmlMapping](../../xmlmapping/)
 * class [StructuredDocumentTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

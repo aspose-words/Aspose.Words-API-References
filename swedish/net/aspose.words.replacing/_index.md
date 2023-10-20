@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Replacing
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Replacer namespace tillhandahåller klasser för att manipulate med sök/ersättoperationer över dokumentträdet.
+linktitle: Aspose.Words.Replacing
+articleTitle: Aspose.Words.Replacing
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.Replacer namespace tillhandahåller klasser för att manipulate med sök/ersättoperationer över dokumentträdet i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words.replacing/
 ---
-De **Aspose.Words.Replacer** namespace tillhandahåller klasser för att manipulate med sök-/ersätt-operationer över dokumentträdet.
+De**Aspose.Words.Replacer** namespace tillhandahåller klasser för att manipulate med sök-/ersätt-operationer över dokumentträdet.
 
 ## Klasser
 
@@ -25,5 +27,3 @@ De **Aspose.Words.Replacer** namespace tillhandahåller klasser för att manipul
 | --- | --- |
 | [FindReplaceDirection](./findreplacedirection/) | Anger riktning för ersättningsoperationer. |
 | [ReplaceAction](./replaceaction/) | Tillåter användaren att ange vad som händer med den aktuella matchningen under en ersättningsoperation. |
-
-

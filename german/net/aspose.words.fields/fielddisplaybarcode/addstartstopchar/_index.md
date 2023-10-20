@@ -1,7 +1,9 @@
 ---
 title: FieldDisplayBarcode.AddStartStopChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDisplayBarcode eigendom. Ruft ab oder legt fest ob Start/Stoppzeichen für die Barcodetypen NW7 und CODE39 hinzugefügt werden sollen.
+linktitle: AddStartStopChar
+articleTitle: AddStartStopChar
+second_title: Aspose.Words für .NET
+description: FieldDisplayBarcode AddStartStopChar eigendom. Ruft ab oder legt fest ob Start/Stoppzeichen für die Barcodetypen NW7 und CODE39 hinzugefügt werden sollen in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fielddisplaybarcode/addstartstopchar/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob Start-/Stoppzeichen für die Barcodetypen NW7 und COD
 public bool AddStartStopChar { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein DISPLAYBARCODE-Feld eingefügt und seine Eigenschaften festgelegt werden.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ### Siehe auch
 
 * class [FieldDisplayBarcode](../)
-* namensraum [Aspose.Words.Fields](../../fielddisplaybarcode/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

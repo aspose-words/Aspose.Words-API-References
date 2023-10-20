@@ -1,7 +1,9 @@
 ---
-title: Class TaskPane
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.WebExtensions.TaskPane 班级. 表示加载项任务窗格对象
+title: TaskPane Class
+linktitle: TaskPane
+articleTitle: TaskPane
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.WebExtensions.TaskPane 班级. 表示加载项任务窗格对象 在 C#.
 type: docs
 weight: 6710
 url: /zh/net/aspose.words.webextensions/taskpane/
@@ -33,7 +35,7 @@ public class TaskPane
 | [WebExtension](../../aspose.words.webextensions/taskpane/webextension/) { get; } | 表示 Web 扩展对象。 |
 | [Width](../../aspose.words.webextensions/taskpane/width/) { get; set; } | 指定此任务窗格实例的默认宽度值。 |
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -79,5 +81,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * 命名空间 [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../)
-
-

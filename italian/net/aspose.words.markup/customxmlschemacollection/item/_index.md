@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: CustomXmlSchemaCollection proprietà. Ottiene o imposta lelemento nellindice specificato.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: CustomXmlSchemaCollection Item proprietà. Ottiene o imposta lelemento nellindice specificato in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.markup/customxmlschemacollection/item/
@@ -14,7 +16,7 @@ Ottiene o imposta l'elemento nell'indice specificato.
 public string this[int index] { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con una raccolta di schemi XML.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Guarda anche
 
 * class [CustomXmlSchemaCollection](../)
-* spazio dei nomi [Aspose.Words.Markup](../../customxmlschemacollection/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

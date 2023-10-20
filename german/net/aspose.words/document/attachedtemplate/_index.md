@@ -1,7 +1,9 @@
 ---
 title: Document.AttachedTemplate
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft den vollständigen Pfad der an das Dokument angehängten Vorlage ab oder legt diesen fest.
+linktitle: AttachedTemplate
+articleTitle: AttachedTemplate
+second_title: Aspose.Words für .NET
+description: Document AttachedTemplate eigendom. Ruft den vollständigen Pfad der an das Dokument angehängten Vorlage ab oder legt diesen fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/document/attachedtemplate/
@@ -20,11 +22,11 @@ public string AttachedTemplate { get; set; }
 | --- | --- |
 | ArgumentNullException | Wird ausgelöst, wenn Sie versuchen, auf a zu setzen`Null` Wert. |
 
-### Bemerkungen
+## Bemerkungen
 
 Eine leere Zeichenfolge bedeutet, dass das Dokument an die Vorlage „Normal“ angehängt ist.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Standardvorlage für Dokumente festgelegt wird, denen keine Vorlagen angehängt sind.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

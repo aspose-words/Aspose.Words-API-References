@@ -1,9 +1,11 @@
 ---
 title: Stroke.StartArrowWidth
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Konturun başlangıcı için ok ucu genişliğini tanımlar.
+linktitle: StartArrowWidth
+articleTitle: StartArrowWidth
+second_title: Aspose.Words for .NET
+description: Stroke StartArrowWidth mülk. Konturun başlangıcı için ok ucu genişliğini tanımlar C#'da.
 type: docs
-weight: 190
+weight: 180
 url: /tr/net/aspose.words.drawing/stroke/startarrowwidth/
 ---
 ## Stroke.StartArrowWidth property
@@ -14,11 +16,11 @@ Konturun başlangıcı için ok ucu genişliğini tanımlar.
 public ArrowWidth StartArrowWidth { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Medium.
 
-### Örnekler
+## Örnekler
 
 Çeşitli şekiller oluşturmayı gösterir.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowWidth](../../arrowwidth/)
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

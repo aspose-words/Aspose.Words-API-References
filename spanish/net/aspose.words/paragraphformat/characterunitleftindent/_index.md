@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.CharacterUnitLeftIndent
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene o establece el valor de sangría izquierda en caracteres para los párrafos especificados.
+linktitle: CharacterUnitLeftIndent
+articleTitle: CharacterUnitLeftIndent
+second_title: Aspose.Words para .NET
+description: ParagraphFormat CharacterUnitLeftIndent propiedad. Obtiene o establece el valor de sangría izquierda en caracteres para los párrafos especificados en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words/paragraphformat/characterunitleftindent/
@@ -14,7 +16,7 @@ Obtiene o establece el valor de sangría izquierda (en caracteres) para los pár
 public double CharacterUnitLeftIndent { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cambiar el espaciado y la sangría de los párrafos.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Ver también
 
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

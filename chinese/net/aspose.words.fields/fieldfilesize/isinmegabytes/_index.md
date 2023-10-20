@@ -1,7 +1,9 @@
 ---
 title: FieldFileSize.IsInMegabytes
-second_title: Aspose.Words for .NET API 参考
-description: FieldFileSize 财产. 获取或设置是否以兆字节为单位显示文件大小
+linktitle: IsInMegabytes
+articleTitle: IsInMegabytes
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldFileSize IsInMegabytes 财产. 获取或设置是否以兆字节为单位显示文件大小 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldfilesize/isinmegabytes/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldfilesize/isinmegabytes/
 public bool IsInMegabytes { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 FILESIZE 字段显示文档的文件大小。
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ### 也可以看看
 
 * class [FieldFileSize](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldfilesize/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

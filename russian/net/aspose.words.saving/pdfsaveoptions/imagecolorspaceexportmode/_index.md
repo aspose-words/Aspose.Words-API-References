@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ImageColorSpaceExportMode
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Указывает как цветовое пространство будет выбрано для изображений в PDFдокументе.
+linktitle: ImageColorSpaceExportMode
+articleTitle: ImageColorSpaceExportMode
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions ImageColorSpaceExportMode свойство. Указывает как цветовое пространство будет выбрано для изображений в PDFдокументе на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.saving/pdfsaveoptions/imagecolorspaceexportmode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/imagecolorspaceexportmode/
 public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Auto .
 
@@ -22,7 +24,7 @@ public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
 
 SimpleCmyk значение не поддерживается при сохранении в PDF/A. Auto Вместо этого будет использоваться значение.
 
-### Примеры
+## Примеры
 
 Показывает, как установить другое цветовое пространство для изображений в документе при его экспорте в PDF.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveO
 
 * enum [PdfImageColorSpaceExportMode](../../pdfimagecolorspaceexportmode/)
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

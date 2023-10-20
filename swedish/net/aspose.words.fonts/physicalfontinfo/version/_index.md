@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.Version
-second_title: Aspose.Words för .NET API Referens
-description: PhysicalFontInfo fast egendom. Teckensnittets versionssträng.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words för .NET
+description: PhysicalFontInfo Version fast egendom. Teckensnittets versionssträng i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fonts/physicalfontinfo/version/
@@ -14,7 +16,7 @@ Teckensnittets versionssträng.
 public string Version { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man listar tillgängliga teckensnitt.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Se även
 
 * class [PhysicalFontInfo](../)
-* namnutrymme [Aspose.Words.Fonts](../../physicalfontinfo/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

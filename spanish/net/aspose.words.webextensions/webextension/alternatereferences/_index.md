@@ -1,7 +1,9 @@
 ---
 title: WebExtension.AlternateReferences
-second_title: Referencia de API de Aspose.Words para .NET
-description: WebExtension propiedad. Especifica referencias alternativas a una extensión web.
+linktitle: AlternateReferences
+articleTitle: AlternateReferences
+second_title: Aspose.Words para .NET
+description: WebExtension AlternateReferences propiedad. Especifica referencias alternativas a una extensión web en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.webextensions/webextension/alternatereferences/
@@ -18,7 +20,5 @@ public WebExtensionReferenceCollection AlternateReferences { get; }
 
 * class [WebExtensionReferenceCollection](../../webextensionreferencecollection/)
 * class [WebExtension](../)
-* espacio de nombres [Aspose.Words.WebExtensions](../../webextension/)
+* espacio de nombres [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * asamblea [Aspose.Words](../../../)
-
-

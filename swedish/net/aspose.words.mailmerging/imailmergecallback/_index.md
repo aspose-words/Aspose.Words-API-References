@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeCallback
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.MailMerging.IMailMergeCallback gränssnitt. Implementera detta gränssnitt om du vill få meddelanden medan epostsammanslagning utförs.
+title: IMailMergeCallback Interface
+linktitle: IMailMergeCallback
+articleTitle: IMailMergeCallback
+second_title: Aspose.Words för .NET
+description: Aspose.Words.MailMerging.IMailMergeCallback gränssnitt. Implementera detta gränssnitt om du vill få meddelanden medan epostsammanslagning utförs i C#.
 type: docs
 weight: 3800
 url: /sv/net/aspose.words.mailmerging/imailmergecallback/
@@ -20,7 +22,7 @@ public interface IMailMergeCallback
 | --- | --- |
 | [TagsReplaced](../../aspose.words.mailmerging/imailmergecallback/tagsreplaced/)() | Anropas när "mustasch"-texttaggar ersätts med MERGEFIELD-fält. |
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för hantering av händelser under sammanslagning.
 
@@ -72,5 +74,3 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * namnutrymme [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../)
-
-

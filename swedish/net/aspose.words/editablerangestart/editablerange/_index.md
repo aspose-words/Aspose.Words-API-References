@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.EditableRange
-second_title: Aspose.Words för .NET API Referens
-description: EditableRangeStart fast egendom. Hämtar fasadobjektet som kapslar in det här redigerbara intervallets början och slut.
+linktitle: EditableRange
+articleTitle: EditableRange
+second_title: Aspose.Words för .NET
+description: EditableRangeStart EditableRange fast egendom. Hämtar fasadobjektet som kapslar in det här redigerbara intervallets början och slut i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/editablerangestart/editablerange/
@@ -14,7 +16,7 @@ Hämtar fasadobjektet som kapslar in det här redigerbara intervallets början o
 public EditableRange EditableRange { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett redigerbart område.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * class [EditableRange](../../editablerange/)
 * class [EditableRangeStart](../)
-* namnutrymme [Aspose.Words](../../editablerangestart/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

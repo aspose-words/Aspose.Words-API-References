@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.EmbedTrueTypeFonts
-second_title: Справочник по API Aspose.Words для .NET
-description: FontInfoCollection свойство. Указывает следует ли встраивать шрифты TrueType в документ при его сохранении. Значение по умолчанию для этого свойстваЛОЖЬ .
+linktitle: EmbedTrueTypeFonts
+articleTitle: EmbedTrueTypeFonts
+second_title: Aspose.Words для .NET
+description: FontInfoCollection EmbedTrueTypeFonts свойство. Указывает следует ли встраивать шрифты TrueType в документ при его сохранении. Значение по умолчанию для этого свойстваЛОЖЬ  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/fontinfocollection/embedtruetypefonts/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.fonts/fontinfocollection/embedtruetypefonts/
 public bool EmbedTrueTypeFonts { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Встраивание шрифтов TrueType позволяет другим просматривать документ с теми же шрифтами, которые использовались для его создания, , но может существенно увеличить размер документа.
 
 Эта опция работает только для форматов DOC, DOCX и RTF.
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить документ со встроенными шрифтами TrueType.
 
@@ -43,7 +45,5 @@ else
 ### Смотрите также
 
 * class [FontInfoCollection](../)
-* пространство имен [Aspose.Words.Fonts](../../fontinfocollection/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

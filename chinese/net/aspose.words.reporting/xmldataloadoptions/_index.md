@@ -1,7 +1,9 @@
 ---
-title: Class XmlDataLoadOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Reporting.XmlDataLoadOptions 班级. 表示 XML 数据加载选项
+title: XmlDataLoadOptions Class
+linktitle: XmlDataLoadOptions
+articleTitle: XmlDataLoadOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Reporting.XmlDataLoadOptions 班级. 表示 XML 数据加载选项 在 C#.
 type: docs
 weight: 4740
 url: /zh/net/aspose.words.reporting/xmldataloadoptions/
@@ -28,7 +30,7 @@ public class XmlDataLoadOptions
 | --- | --- |
 | [AlwaysGenerateRootObject](../../aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject/) { get; set; } | 获取或设置一个标志，该标志指示生成的数据源是否始终包含 XML 根 元素的对象。如果 XML 根元素没有属性并且其所有子元素都具有相同的名称，则默认情况下不会创建这样的对象 。 |
 
-### 评论
+## 评论
 
 此类的实例可以传递到构造函数中[`XmlDataSource`](../xmldatasource/).
 
@@ -36,5 +38,3 @@ public class XmlDataLoadOptions
 
 * 命名空间 [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../)
-
-

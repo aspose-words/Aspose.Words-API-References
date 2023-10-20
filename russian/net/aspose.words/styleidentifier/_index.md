@@ -1,7 +1,9 @@
 ---
-title: Enum StyleIdentifier
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.StyleIdentifier перечисление. Идентификатор стиля независимый от локали.
+title: StyleIdentifier Enum
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words для .NET
+description: Aspose.Words.StyleIdentifier перечисление. Идентификатор стиля независимый от локали на С#.
 type: docs
 weight: 6150
 url: /ru/net/aspose.words/styleidentifier/
@@ -397,13 +399,13 @@ public enum StyleIdentifier
 | User | `4094` | Пользовательский стиль. |
 | Nil | `12287` | Зарезервировано для внутреннего использования. |
 
-### Примечания
+## Примечания
 
 Названия встроенных стилей в MS Word локализованы для разных языков. По идентификатору стиля можно найти правильный стиль независимо от языка документа.
 
 Всем определяемым пользователем стилям присваиваетсяUser ценить.
 
-### Примеры
+## Примеры
 
 Показывает, как изменить стиль существующего текста.
 
@@ -438,5 +440,3 @@ doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

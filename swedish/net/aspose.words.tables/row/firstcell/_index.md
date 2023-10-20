@@ -1,7 +1,9 @@
 ---
 title: Row.FirstCell
-second_title: Aspose.Words för .NET API Referens
-description: Row fast egendom. Returnerar den förstaCell i raden.
+linktitle: FirstCell
+articleTitle: FirstCell
+second_title: Aspose.Words för .NET
+description: Row FirstCell fast egendom. Returnerar den förstaCell i raden i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.tables/row/firstcell/
@@ -14,7 +16,7 @@ Returnerar den första[`Cell`](../../cell/) i raden.
 public Cell FirstCell { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje tabell i ett dokument.
 
@@ -178,7 +180,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Cell](../../cell/)
 * class [Row](../)
-* namnutrymme [Aspose.Words.Tables](../../row/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

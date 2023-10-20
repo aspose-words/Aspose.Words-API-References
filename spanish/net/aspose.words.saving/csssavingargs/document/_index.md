@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.Document
-second_title: Referencia de API de Aspose.Words para .NET
-description: CssSavingArgs propiedad. Obtiene el objeto del documento que se está guardando actualmente.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words para .NET
+description: CssSavingArgs Document propiedad. Obtiene el objeto del documento que se está guardando actualmente en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/csssavingargs/document/
@@ -14,7 +16,7 @@ Obtiene el objeto del documento que se está guardando actualmente.
 public Document Document { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con hojas de estilo CSS que crea una conversión HTML.
 
@@ -76,7 +78,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [CssSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../csssavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IResourceSavingCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.IResourceSavingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie steuern möchten wie Aspose.Words externe Ressourcen Bilder Schriftarten und CSS speichert wenn ein Dokument im HTML oder SVGFormat mit fester Seite gespeichert wird.
+title: IResourceSavingCallback Interface
+linktitle: IResourceSavingCallback
+articleTitle: IResourceSavingCallback
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.IResourceSavingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie steuern möchten wie Aspose.Words externe Ressourcen Bilder Schriftarten und CSS speichert wenn ein Dokument im HTML oder SVGFormat mit fester Seite gespeichert wird in C#.
 type: docs
 weight: 5190
 url: /de/net/aspose.words.saving/iresourcesavingcallback/
@@ -18,9 +20,9 @@ public interface IResourceSavingCallback
 
 | Name | Beschreibung |
 | --- | --- |
-| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(ResourceSavingArgs) | Wird aufgerufen, wenn Aspose.Words eine externe Ressource in festen Seiten-HTML- oder SVG-Formaten speichert. |
+| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(*[ResourceSavingArgs](../resourcesavingargs/)*) | Wird aufgerufen, wenn Aspose.Words eine externe Ressource in festen Seiten-HTML- oder SVG-Formaten speichert. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen Rückruf verwenden, um externe Ressourcen zu verfolgen, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
 
@@ -140,5 +142,3 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ImageContrast
-second_title: Aspose.Words for .NET API 参考
-description: ImageSaveOptions 财产. 获取或设置生成图像的对比度
+linktitle: ImageContrast
+articleTitle: ImageContrast
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSaveOptions ImageContrast 财产. 获取或设置生成图像的对比度 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/imagesaveoptions/imagecontrast/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.saving/imagesaveoptions/imagecontrast/
 public float ImageContrast { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性仅在保存为光栅图像格式时有效。
 
 默认值为 0.5。该值必须在 0 到 1 之间的范围内。
 
-### 例子
+## 例子
 
 演示如何在 Aspose.Words 将文档转换为文档时编辑图像。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### 也可以看看
 
 * class [ImageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

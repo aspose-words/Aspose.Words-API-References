@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageWidth
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Renvoie ou définit la largeur de la page en points.
+linktitle: PageWidth
+articleTitle: PageWidth
+second_title: Aspose.Words pour .NET
+description: PageSetup PageWidth propriété. Renvoie ou définit la largeur de la page en points en C#.
 type: docs
 weight: 340
 url: /fr/net/aspose.words/pagesetup/pagewidth/
@@ -14,7 +16,7 @@ Renvoie ou définit la largeur de la page en points.
 public double PageWidth { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer une image et l'utiliser comme filigrane.
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Voir également
 
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

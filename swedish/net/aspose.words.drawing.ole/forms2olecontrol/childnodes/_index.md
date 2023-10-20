@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.ChildNodes
-second_title: Aspose.Words för .NET API Referens
-description: Forms2OleControl fast egendom. Får en samling av omedelbara barnkontroller.
+linktitle: ChildNodes
+articleTitle: ChildNodes
+second_title: Aspose.Words för .NET
+description: Forms2OleControl ChildNodes fast egendom. Får en samling av omedelbara barnkontroller i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
@@ -14,11 +16,11 @@ Får en samling av omedelbara barnkontroller.
 public virtual Forms2OleControlCollection ChildNodes { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar`null` om denna kontroll inte kan få barn.
 
-### Exempel
+## Exempel
 
 Visar hur du verifierar egenskaperna för en ActiveX-kontroll.
 
@@ -49,7 +51,5 @@ if (oleControl.IsForms2OleControl)
 
 * class [Forms2OleControlCollection](../../forms2olecontrolcollection/)
 * class [Forms2OleControl](../)
-* namnutrymme [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* namnutrymme [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * hopsättning [Aspose.Words](../../../)
-
-

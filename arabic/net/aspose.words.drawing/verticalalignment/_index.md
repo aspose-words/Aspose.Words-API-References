@@ -1,7 +1,9 @@
 ---
-title: Enum VerticalAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.VerticalAlignment تعداد. يحدد المحاذاة الرأسية لشكل عائم أو إطار نص أو جدول عائم.
+title: VerticalAlignment Enum
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.VerticalAlignment تعداد. يحدد المحاذاة الرأسية لشكل عائم أو إطار نص أو جدول عائم في C#.
 type: docs
 weight: 1380
 url: /ar/net/aspose.words.drawing/verticalalignment/
@@ -18,7 +20,7 @@ public enum VerticalAlignment
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | يتم تحديد موضع الكائن بشكل واضح، عادةً باستخدام **قمة** الملكية. |
+| None | `0` | يتم تحديد موضع الكائن بشكل واضح، عادةً باستخدام**قمة** الملكية. |
 | Top | `1` | يحدد أن الكائن يجب أن يكون في أعلى قاعدة المحاذاة العمودية. |
 | Center | `2` | يحدد أن الكائن يجب أن يتم توسيطه فيما يتعلق بقاعدة المحاذاة الرأسية. |
 | Bottom | `3` | يحدد أن الكائن يجب أن يكون في أسفل قاعدة المحاذاة الرأسية. |
@@ -27,7 +29,7 @@ public enum VerticalAlignment
 | Inline | `-1` | غير موثقة. يبدو أنها قيمة محتملة للفقرات والجداول العائمة. |
 | Default | `0` | نفسNone . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة عائمة في وسط الصفحة.
 
@@ -52,5 +54,3 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 * property [VerticalAlignment](../shapebase/verticalalignment/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

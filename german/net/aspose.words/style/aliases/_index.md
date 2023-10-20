@@ -1,7 +1,9 @@
 ---
 title: Style.Aliases
-second_title: Aspose.Words für .NET-API-Referenz
-description: Style eigendom. Ruft alle Aliase dieses Stils ab. Wenn der Stil keine Aliase hat wird ein leeres StringArray zurückgegeben.
+linktitle: Aliases
+articleTitle: Aliases
+second_title: Aspose.Words für .NET
+description: Style Aliases eigendom. Ruft alle Aliase dieses Stils ab. Wenn der Stil keine Aliase hat wird ein leeres StringArray zurückgegeben in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/style/aliases/
@@ -14,7 +16,7 @@ Ruft alle Aliase dieses Stils ab. Wenn der Stil keine Aliase hat, wird ein leere
 public string[] Aliases { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Stilaliase verwendet werden.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Siehe auch
 
 * class [Style](../)
-* namensraum [Aspose.Words](../../style/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

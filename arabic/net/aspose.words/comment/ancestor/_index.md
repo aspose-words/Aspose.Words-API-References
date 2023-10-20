@@ -1,7 +1,9 @@
 ---
 title: Comment.Ancestor
-second_title: Aspose.Words لمراجع .NET API
-description: Comment ملكية. إرجاع الأصلComment هدف. عائداتباطل للحصول على تعليقات عالية المستوى.
+linktitle: Ancestor
+articleTitle: Ancestor
+second_title: Aspose.Words لـ .NET
+description: Comment Ancestor ملكية. إرجاع الأصلComment هدف. عائداتباطل للحصول على تعليقات عالية المستوى في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/comment/ancestor/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/comment/ancestor/
 public Comment Ancestor { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة كافة تعليقات المستند والردود عليها.
 
@@ -40,7 +42,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 ### أنظر أيضا
 
 * class [Comment](../)
-* مساحة الاسم [Aspose.Words](../../comment/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

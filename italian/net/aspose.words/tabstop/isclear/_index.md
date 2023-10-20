@@ -1,7 +1,9 @@
 ---
 title: TabStop.IsClear
-second_title: Aspose.Words per .NET API Reference
-description: TabStop proprietà. RestituisceVERO se questo punto di tabulazione cancella eventuali punti di tabulazione esistenti in questa posizione.
+linktitle: IsClear
+articleTitle: IsClear
+second_title: Aspose.Words per .NET
+description: TabStop IsClear proprietà. RestituisceVERO se questo punto di tabulazione cancella eventuali punti di tabulazione esistenti in questa posizione in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/tabstop/isclear/
@@ -14,7 +16,7 @@ Restituisce`VERO` se questo punto di tabulazione cancella eventuali punti di tab
 public bool IsClear { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con la raccolta di tabulazioni di un documento.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Guarda anche
 
 * class [TabStop](../)
-* spazio dei nomi [Aspose.Words](../../tabstop/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

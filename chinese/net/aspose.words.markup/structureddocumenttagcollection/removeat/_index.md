@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.RemoveAt
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTagCollection 方法. 删除指定索引处的结构化文档标记
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTagCollection RemoveAt 方法. 删除指定索引处的结构化文档标记 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.markup/structureddocumenttagcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 集合的索引。 |
 
-### 例子
+## 例子
 
 演示如何删除结构化文档标签。
 
@@ -47,7 +49,5 @@ Assert.AreEqual(3, structuredDocumentTags.Count);
 ### 也可以看看
 
 * class [StructuredDocumentTagCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

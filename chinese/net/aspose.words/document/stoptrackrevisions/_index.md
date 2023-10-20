@@ -1,9 +1,11 @@
 ---
 title: Document.StopTrackRevisions
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 停止将文档更改自动标记为修订版
+linktitle: StopTrackRevisions
+articleTitle: StopTrackRevisions
+second_title: 用于 .NET 的 Aspose.Words
+description: Document StopTrackRevisions 方法. 停止将文档更改自动标记为修订版 在 C#.
 type: docs
-weight: 740
+weight: 720
 url: /zh/net/aspose.words/document/stoptrackrevisions/
 ---
 ## Document.StopTrackRevisions method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/stoptrackrevisions/
 public void StopTrackRevisions()
 ```
 
-### 例子
+## 例子
 
 展示如何在编辑文档时跟踪修订。
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StartTrackRevisions](../starttrackrevisions/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

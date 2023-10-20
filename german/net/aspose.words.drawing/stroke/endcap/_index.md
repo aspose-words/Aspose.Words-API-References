@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndCap
-second_title: Aspose.Words für .NET-API-Referenz
-description: Stroke eigendom. Definiert den Versalstil für das Ende eines Strichs.
+linktitle: EndCap
+articleTitle: EndCap
+second_title: Aspose.Words für .NET
+description: Stroke EndCap eigendom. Definiert den Versalstil für das Ende eines Strichs in C#.
 type: docs
-weight: 90
+weight: 80
 url: /de/net/aspose.words.drawing/stroke/endcap/
 ---
 ## Stroke.EndCap property
@@ -14,11 +16,11 @@ Definiert den Versalstil für das Ende eines Strichs.
 public EndCap EndCap { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istFlat.
 
-### Beispiele
+## Beispiele
 
 Zeigt, um eine Vielzahl von Formen zu erstellen.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [EndCap](../../endcap/)
 * class [Stroke](../)
-* namensraum [Aspose.Words.Drawing](../../stroke/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

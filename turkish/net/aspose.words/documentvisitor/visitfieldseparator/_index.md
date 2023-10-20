@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldSeparator
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Belgede alan ayırıcıyla karşılaşıldığında çağrılır.
+linktitle: VisitFieldSeparator
+articleTitle: VisitFieldSeparator
+second_title: Aspose.Words for .NET
+description: DocumentVisitor VisitFieldSeparator yöntem. Belgede alan ayırıcıyla karşılaşıldığında çağrılır C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words/documentvisitor/visitfieldseparator/
@@ -22,13 +24,13 @@ public virtual VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
 
 A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
 
-### Notlar
+## Notlar
 
 Alan ayırıcı, alan kodunu belgedeki alan değerinden ayırır. Bazı alanlarının yalnızca alan koduna sahip olduğunu ve alan ayırıcısı ve alan değeri içermediğini unutmayın.
 
 Daha fazla bilgi için bkz.[`VisitFieldStart`](../visitfieldstart/)
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her alanın düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -133,7 +135,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldSeparator](../../../aspose.words.fields/fieldseparator/)
 * class [DocumentVisitor](../)
-* ad alanı [Aspose.Words](../../documentvisitor/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

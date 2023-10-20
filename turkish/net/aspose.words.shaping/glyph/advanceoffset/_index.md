@@ -1,7 +1,9 @@
 ---
 title: Glyph.AdvanceOffset
-second_title: Aspose.Words for .NET API Referansı
-description: Glyph mülk. Glif konumuna göre yatay x uzaklık. Çoğunlukla temel karakterlere işaretler aksan işaretleri gibi eklemek için kullanılır.
+linktitle: AdvanceOffset
+articleTitle: AdvanceOffset
+second_title: Aspose.Words for .NET
+description: Glyph AdvanceOffset mülk. Glif konumuna göre yatay x uzaklık. Çoğunlukla temel karakterlere işaretler aksan işaretleri gibi eklemek için kullanılır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.shaping/glyph/advanceoffset/
@@ -17,7 +19,5 @@ public short AdvanceOffset { get; }
 ### Ayrıca bakınız
 
 * class [Glyph](../)
-* ad alanı [Aspose.Words.Shaping](../../glyph/)
+* ad alanı [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * toplantı [Aspose.Words](../../../)
-
-

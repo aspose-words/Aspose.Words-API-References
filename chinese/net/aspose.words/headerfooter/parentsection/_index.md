@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.ParentSection
-second_title: Aspose.Words for .NET API 参考
-description: HeaderFooter 财产. 获取此故事的父部分
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: 用于 .NET 的 Aspose.Words
+description: HeaderFooter ParentSection 财产. 获取此故事的父部分 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/headerfooter/parentsection/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/headerfooter/parentsection/
 public Section ParentSection { get; }
 ```
 
-### 评论
+## 评论
 
 `ParentSection`相当于[`ParentNode`](../../node/parentnode/)投射到[`Section`](../../section/)。
 
-### 例子
+## 例子
 
 展示如何在各部分之间链接页眉和页脚。
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 * class [Section](../../section/)
 * class [HeaderFooter](../)
-* 命名空间 [Aspose.Words](../../headerfooter/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

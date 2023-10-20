@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MajorUnit
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Возвращает или устанавливает расстояние между основными делениями.
+linktitle: MajorUnit
+articleTitle: MajorUnit
+second_title: Aspose.Words для .NET
+description: ChartAxis MajorUnit свойство. Возвращает или устанавливает расстояние между основными делениями на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.drawing.charts/chartaxis/majorunit/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/majorunit/
 public double MajorUnit { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Допустимый диапазон значения больше нуля. Свойство влияет на категорию времени и оси значений .
 
 Установка этого свойства устанавливает[`MajorUnitIsAuto`](../majorunitisauto/) собственность`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму и изменить внешний вид ее осей.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Смотрите также
 
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

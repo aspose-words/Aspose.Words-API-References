@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ShapeType
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает тип фигуры.
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: Aspose.Words для .NET
+description: ShapeBase ShapeType свойство. Получает тип фигуры на С#.
 type: docs
 weight: 500
 url: /ru/net/aspose.words.drawing/shapebase/shapetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/shapetype/
 public ShapeType ShapeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать группу фигур и распечатать ее содержимое с помощью посетителя документа.
 
@@ -106,7 +108,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 
 * enum [ShapeType](../../shapetype/)
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Hash
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoRecipientData ملكية. يمثل رمز التجزئة لهذا السجل. يستخدم Microsoft Word أحيانًاHash من سجل كامل بدلا منUniqueTag value. القيمة الافتراضية هي 0.
+linktitle: Hash
+articleTitle: Hash
+second_title: Aspose.Words لـ .NET
+description: OdsoRecipientData Hash ملكية. يمثل رمز التجزئة لهذا السجل. يستخدم Microsoft Word أحيانًاHash من سجل كامل بدلا منUniqueTag value. القيمة الافتراضية هي 0 في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.settings/odsorecipientdata/hash/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odsorecipientdata/hash/
 public int Hash { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### أنظر أيضا
 
 * class [OdsoRecipientData](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsorecipientdata/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfEncryptionDetails.OwnerPassword
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfEncryptionDetails propiedad. Especifica la contraseña del propietario del documento PDF cifrado.
+linktitle: OwnerPassword
+articleTitle: OwnerPassword
+second_title: Aspose.Words para .NET
+description: PdfEncryptionDetails OwnerPassword propiedad. Especifica la contraseña del propietario del documento PDF cifrado en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/pdfencryptiondetails/ownerpassword/
@@ -14,13 +16,13 @@ Especifica la contraseña del propietario del documento PDF cifrado.
 public string OwnerPassword { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La contraseña del propietario permite al usuario abrir un documento PDF cifrado sin ninguna restricción de acceso especificada en[`Permissions`](../permissions/).
 
 La contraseña del propietario no puede ser la misma que la contraseña del usuario.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer permisos en un documento PDF guardado.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 ### Ver también
 
 * class [PdfEncryptionDetails](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

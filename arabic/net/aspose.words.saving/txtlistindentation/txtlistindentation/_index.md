@@ -1,7 +1,9 @@
 ---
-title: TxtListIndentation.TxtListIndentation
-second_title: Aspose.Words لمراجع .NET API
-description: TxtListIndentation البناء. Default_Constructor
+title: TxtListIndentation
+linktitle: TxtListIndentation
+articleTitle: TxtListIndentation
+second_title: Aspose.Words لـ .NET
+description: TxtListIndentation البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/txtlistindentation/txtlistindentation/
@@ -17,7 +19,5 @@ public TxtListIndentation()
 ### أنظر أيضا
 
 * class [TxtListIndentation](../)
-* مساحة الاسم [Aspose.Words.Saving](../../txtlistindentation/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

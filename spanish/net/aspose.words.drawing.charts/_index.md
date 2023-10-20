@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Drawing.Charts
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Aspose.Palabras.Dibujo.Gráficos El espacio de nombres proporciona clases que permiten acceder a gráficos en documentos de Microsoft Word.
+linktitle: Aspose.Words.Drawing.Charts
+articleTitle: Aspose.Words.Drawing.Charts
+second_title: Aspose.Words para .NET
+description: ElAspose.Palabras.Dibujo.Gráficos El espacio de nombres proporciona clases que permiten acceder a gráficos en documentos de Microsoft Word en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.drawing.charts/
 ---
-El **Aspose.Palabras.Dibujo.Gráficos** El espacio de nombres proporciona clases que permiten acceder a gráficos en documentos de Microsoft Word.
+El**Aspose.Palabras.Dibujo.Gráficos** El espacio de nombres proporciona clases que permiten acceder a gráficos en documentos de Microsoft Word.
 
 ## Clases
 
@@ -62,5 +64,3 @@ El **Aspose.Palabras.Dibujo.Gráficos** El espacio de nombres proporciona clases
 | [ChartYValueType](./chartyvaluetype/) | Permite especificar el tipo de valor Y de una serie de gráficos. |
 | [LegendPosition](./legendposition/) | Especifica las posibles posiciones para la leyenda de un gráfico. |
 | [MarkerSymbol](./markersymbol/) | Especifica el estilo del símbolo del marcador. |
-
-

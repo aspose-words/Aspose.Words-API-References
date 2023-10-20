@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.IsLinkToContent
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentProperty mülk. Bu özelliğin içeriğe bağlı olup olmadığını gösterir.
+linktitle: IsLinkToContent
+articleTitle: IsLinkToContent
+second_title: Aspose.Words for .NET
+description: DocumentProperty IsLinkToContent mülk. Bu özelliğin içeriğe bağlı olup olmadığını gösterir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.properties/documentproperty/islinktocontent/
@@ -14,7 +16,7 @@ Bu özelliğin içeriğe bağlı olup olmadığını gösterir.
 public bool IsLinkToContent { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel bir belge özelliğinin bir yer imine nasıl bağlanacağını gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 ### Ayrıca bakınız
 
 * class [DocumentProperty](../)
-* ad alanı [Aspose.Words.Properties](../../documentproperty/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

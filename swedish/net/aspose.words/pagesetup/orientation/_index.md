@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Orientation
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Returnerar eller ställer in sidans orientering.
+linktitle: Orientation
+articleTitle: Orientation
+second_title: Aspose.Words för .NET
+description: PageSetup Orientation fast egendom. Returnerar eller ställer in sidans orientering i C#.
 type: docs
 weight: 290
 url: /sv/net/aspose.words/pagesetup/orientation/
@@ -14,11 +16,11 @@ Returnerar eller ställer in sidans orientering.
 public Orientation Orientation { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Skiftande`Orientation` byten[`PageWidth`](../pagewidth/) och[`PageHeight`](../pageheight/).
 
-### Exempel
+## Exempel
 
 Visar hur du justerar pappersstorlek, orientering, marginaler, tillsammans med andra inställningar för ett avsnitt.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * enum [Orientation](../../orientation/)
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

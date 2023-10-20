@@ -1,7 +1,9 @@
 ---
 title: SignOptions.SignatureLineImage
-second_title: Aspose.Words لمراجع .NET API
-description: SignOptions ملكية. الصورة التي ستظهر في المرتبطةSignatureLine . القيمة الافتراضية هيباطل .
+linktitle: SignatureLineImage
+articleTitle: SignatureLineImage
+second_title: Aspose.Words لـ .NET
+description: SignOptions SignatureLineImage ملكية. الصورة التي ستظهر في المرتبطةSignatureLine . القيمة الافتراضية هيباطل  في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
 public byte[] SignatureLineImage { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة سطر توقيع إلى مستند، ثم التوقيع عليه باستخدام شهادة رقمية.
 
@@ -130,7 +132,5 @@ public byte[] SignatureLineImage { get; set; }
 ### أنظر أيضا
 
 * class [SignOptions](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../signoptions/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

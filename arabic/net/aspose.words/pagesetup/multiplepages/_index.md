@@ -1,7 +1,9 @@
 ---
 title: PageSetup.MultiplePages
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. بالنسبة للمستندات ذات الصفحات المتعددة يتم الحصول على أو تعيين كيفية طباعة المستند أو عرضه بحيث يمكن ربطه ككتيب.
+linktitle: MultiplePages
+articleTitle: MultiplePages
+second_title: Aspose.Words لـ .NET
+description: PageSetup MultiplePages ملكية. بالنسبة للمستندات ذات الصفحات المتعددة يتم الحصول على أو تعيين كيفية طباعة المستند أو عرضه بحيث يمكن ربطه ككتيب في C#.
 type: docs
 weight: 270
 url: /ar/net/aspose.words/pagesetup/multiplepages/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/multiplepages/
 public MultiplePagesType MultiplePages { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين مستند يمكن طباعته كطي كتاب.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 
 * enum [MultiplePagesType](../../../aspose.words.settings/multiplepagestype/)
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

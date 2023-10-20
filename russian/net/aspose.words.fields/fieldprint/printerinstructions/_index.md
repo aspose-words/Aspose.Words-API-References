@@ -1,7 +1,9 @@
 ---
 title: FieldPrint.PrinterInstructions
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldPrint свойство. Получает или задает символы управляющего кода принтера или инструкции PostScript.
+linktitle: PrinterInstructions
+articleTitle: PrinterInstructions
+second_title: Aspose.Words для .NET
+description: FieldPrint PrinterInstructions свойство. Получает или задает символы управляющего кода принтера или инструкции PostScript на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldprint/printerinstructions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldprint/printerinstructions/
 public string PrinterInstructions { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, что нужно вставить поле ПЕЧАТЬ.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Field.PRINT.docx");
 ### Смотрите также
 
 * class [FieldPrint](../)
-* пространство имен [Aspose.Words.Fields](../../fieldprint/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

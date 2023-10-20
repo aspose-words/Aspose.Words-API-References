@@ -1,7 +1,9 @@
 ---
-title: Class Forms2OleControl
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Ole.Forms2OleControl 班级. 代表 Microsoft Forms 2.0 OLE 控件
+title: Forms2OleControl Class
+linktitle: Forms2OleControl
+articleTitle: Forms2OleControl
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Ole.Forms2OleControl 班级. 代表 Microsoft Forms 2.0 OLE 控件 在 C#.
 type: docs
 weight: 1110
 url: /zh/net/aspose.words.drawing.ole/forms2olecontrol/
@@ -29,7 +31,7 @@ public abstract class Forms2OleControl : OleControl
 | abstract [Type](../../aspose.words.drawing.ole/forms2olecontrol/type/) { get; } | 获取 Forms 2.0 控件的类型。 |
 | [Value](../../aspose.words.drawing.ole/forms2olecontrol/value/) { get; } | 获取通常表示控件状态的基础 Value 属性。 例如，选中的选项按钮具有“1”值，而未选中的值为“0”。 默认值为空字符串。 |
 
-### 例子
+## 例子
 
 演示如何验证 ActiveX 控件的属性。
 
@@ -61,5 +63,3 @@ if (oleControl.IsForms2OleControl)
 * class [OleControl](../olecontrol/)
 * 命名空间 [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * 部件 [Aspose.Words](../../)
-
-

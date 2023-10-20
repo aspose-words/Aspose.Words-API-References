@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ImageColorSpaceExportMode
-second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Gibt an wie der Farbraum für die Bilder im PDFDokument ausgewählt wird.
+linktitle: ImageColorSpaceExportMode
+articleTitle: ImageColorSpaceExportMode
+second_title: Aspose.Words für .NET
+description: PdfSaveOptions ImageColorSpaceExportMode eigendom. Gibt an wie der Farbraum für die Bilder im PDFDokument ausgewählt wird in C#.
 type: docs
 weight: 190
 url: /de/net/aspose.words.saving/pdfsaveoptions/imagecolorspaceexportmode/
@@ -14,7 +16,7 @@ Gibt an, wie der Farbraum für die Bilder im PDF-Dokument ausgewählt wird.
 public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istAuto .
 
@@ -22,7 +24,7 @@ WennSimpleCmyk Wert ist angegeben, [`ImageCompression`](../imagecompression/) Op
 
 SimpleCmyk Wert wird beim Speichern in PDF/A. nicht unterstütztAuto Stattdessen wird der Wert verwendet.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen anderen Farbraum für Bilder in einem Dokument festlegen, wenn wir es als PDF exportieren.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveO
 
 * enum [PdfImageColorSpaceExportMode](../../pdfimagecolorspaceexportmode/)
 * class [PdfSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

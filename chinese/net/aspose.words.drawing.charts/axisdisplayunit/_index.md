@@ -1,7 +1,9 @@
 ---
-title: Class AxisDisplayUnit
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.AxisDisplayUnit 班级. 提供对值轴显示单位的缩放选项的访问
+title: AxisDisplayUnit Class
+linktitle: AxisDisplayUnit
+articleTitle: AxisDisplayUnit
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.AxisDisplayUnit 班级. 提供对值轴显示单位的缩放选项的访问 在 C#.
 type: docs
 weight: 550
 url: /zh/net/aspose.words.drawing.charts/axisdisplayunit/
@@ -30,7 +32,7 @@ public class AxisDisplayUnit
 | [Document](../../aspose.words.drawing.charts/axisdisplayunit/document/) { get; } | 返回标题持有者所属的文档。 |
 | [Unit](../../aspose.words.drawing.charts/axisdisplayunit/unit/) { get; set; } | 获取或设置显示单位的缩放值作为预定义值之一。 |
 
-### 例子
+## 例子
 
 演示如何操作图表轴的刻度线和显示值。
 
@@ -89,5 +91,3 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

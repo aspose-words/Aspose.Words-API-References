@@ -1,7 +1,9 @@
 ---
 title: FontInfo.GetEmbeddedFontAsOpenType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontInfo méthode. Obtient un fichier de police incorporé au format OpenType. Les polices au format Embedded OpenType sont converties en OpenType.
+linktitle: GetEmbeddedFontAsOpenType
+articleTitle: GetEmbeddedFontAsOpenType
+second_title: Aspose.Words pour .NET
+description: FontInfo GetEmbeddedFontAsOpenType méthode. Obtient un fichier de police incorporé au format OpenType. Les polices au format Embedded OpenType sont converties en OpenType en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.fonts/fontinfo/getembeddedfontasopentype/
@@ -22,7 +24,7 @@ public byte[] GetEmbeddedFontAsOpenType(EmbeddedFontStyle style)
 
 Retour`nul`si la police spécifiée n'est pas intégrée.
 
-### Exemples
+## Exemples
 
 Montre comment extraire une police incorporée d’un document et l’enregistrer dans le système de fichiers local.
 
@@ -50,7 +52,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * enum [EmbeddedFontStyle](../../embeddedfontstyle/)
 * class [FontInfo](../)
-* espace de noms [Aspose.Words.Fonts](../../fontinfo/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

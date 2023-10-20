@@ -1,14 +1,16 @@
 ---
 title: CertificateHolder.Certificate
-second_title: Aspose.Words for .NET API 参考
-description: CertificateHolder 财产. 返回以下实例 X509证书2它保存私钥公钥和证书链
+linktitle: Certificate
+articleTitle: Certificate
+second_title: 用于 .NET 的 Aspose.Words
+description: CertificateHolder Certificate 财产. 返回以下实例X509证书2它保存私钥公钥和证书链 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
 ## CertificateHolder.Certificate property
 
-返回以下实例 **X509证书2**它保存私钥、公钥和证书链。
+返回以下实例**X509证书2**它保存私钥、公钥和证书链。
 
 ```csharp
 public X509Certificate2 Certificate { get; }
@@ -18,7 +20,7 @@ public X509Certificate2 Certificate { get; }
 
 X509Certificate2实例
 
-### 例子
+## 例子
 
 演示如何验证和显示有关文档中每个签名的信息。
 
@@ -40,7 +42,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### 也可以看看
 
 * class [CertificateHolder](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

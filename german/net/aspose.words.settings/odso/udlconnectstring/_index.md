@@ -1,7 +1,9 @@
 ---
 title: Odso.UdlConnectString
-second_title: Aspose.Words für .NET-API-Referenz
-description: Odso eigendom. Gibt die UDLVerbindungszeichenfolge Universal Data Link an die zum Herstellen einer Verbindung mit einer externen Datenquelle verwendet wird. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: UdlConnectString
+articleTitle: UdlConnectString
+second_title: Aspose.Words für .NET
+description: Odso UdlConnectString eigendom. Gibt die UDLVerbindungszeichenfolge Universal Data Link an die zum Herstellen einer Verbindung mit einer externen Datenquelle verwendet wird. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.settings/odso/udlconnectstring/
@@ -14,7 +16,7 @@ Gibt die UDL-Verbindungszeichenfolge (Universal Data Link) an, die zum Herstelle
 public string UdlConnectString { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief ausgeführt wird, während eine Verbindung zu einer externen Datenquelle hergestellt wird.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Siehe auch
 
 * class [Odso](../)
-* namensraum [Aspose.Words.Settings](../../odso/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

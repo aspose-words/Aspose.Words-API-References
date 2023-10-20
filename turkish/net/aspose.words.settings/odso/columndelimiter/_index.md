@@ -1,7 +1,9 @@
 ---
 title: Odso.ColumnDelimiter
-second_title: Aspose.Words for .NET API Referansı
-description: Odso mülk. Harici veri kaynaklarındaki sütunları ayırmak için kullanılan sütun sınırlayıcı olarak yorumlanacak karakteri belirtir. Varsayılan değer 0dır bu tanımlanmış bir sütun sınırlayıcı olmadığı anlamına gelir.
+linktitle: ColumnDelimiter
+articleTitle: ColumnDelimiter
+second_title: Aspose.Words for .NET
+description: Odso ColumnDelimiter mülk. Harici veri kaynaklarındaki sütunları ayırmak için kullanılan sütun sınırlayıcı olarak yorumlanacak karakteri belirtir. Varsayılan değer 0dır bu tanımlanmış bir sütun sınırlayıcı olmadığı anlamına gelir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.settings/odso/columndelimiter/
@@ -14,11 +16,11 @@ Harici veri kaynaklarındaki sütunları ayırmak için kullanılan sütun sın�
 public char ColumnDelimiter { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 RK Bunu hiç kullanımda görmedim.
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Ayrıca bakınız
 
 * class [Odso](../)
-* ad alanı [Aspose.Words.Settings](../../odso/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

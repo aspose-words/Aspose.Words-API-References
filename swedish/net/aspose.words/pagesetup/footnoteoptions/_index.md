@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FootnoteOptions
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Ger alternativ som styr numrering och placering av fotnoter i det här avsnittet.
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: Aspose.Words för .NET
+description: PageSetup FootnoteOptions fast egendom. Ger alternativ som styr numrering och placering av fotnoter i det här avsnittet i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words/pagesetup/footnoteoptions/
@@ -14,7 +16,7 @@ Ger alternativ som styr numrering och placering av fotnoter i det här avsnittet
 public FootnoteOptions FootnoteOptions { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man konfigurerar alternativ som påverkar fotnoter/slutnoter i ett avsnitt.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.FootnoteOptions.docx");
 
 * class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.LastBuildingBlock
-second_title: Aspose.Words für .NET-API-Referenz
-description: GlossaryDocument eigendom. Ruft den letzten Baustein im Glossardokument ab.
+linktitle: LastBuildingBlock
+articleTitle: LastBuildingBlock
+second_title: Aspose.Words für .NET
+description: GlossaryDocument LastBuildingBlock eigendom. Ruft den letzten Baustein im Glossardokument ab in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.buildingblocks/glossarydocument/lastbuildingblock/
@@ -14,11 +16,11 @@ Ruft den letzten Baustein im Glossardokument ab.
 public BuildingBlock LastBuildingBlock { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Gibt zurück`Null` wenn keine Bausteine vorhanden sind.
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten für den Zugriff auf Bausteine in einem Glossardokument.
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [GlossaryDocument](../)
-* namensraum [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* namensraum [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../../)
-
-

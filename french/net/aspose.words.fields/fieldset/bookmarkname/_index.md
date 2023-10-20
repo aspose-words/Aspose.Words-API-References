@@ -1,7 +1,9 @@
 ---
 title: FieldSet.BookmarkName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldSet propriété. Obtient ou définit le nom du signet.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words pour .NET
+description: FieldSet BookmarkName propriété. Obtient ou définit le nom du signet en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldset/bookmarkname/
@@ -14,7 +16,7 @@ Obtient ou définit le nom du signet.
 public string BookmarkName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un texte mis en signet avec un champ SET, puis l'afficher dans le document à l'aide d'un champ REF.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 ### Voir également
 
 * class [FieldSet](../)
-* espace de noms [Aspose.Words.Fields](../../fieldset/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

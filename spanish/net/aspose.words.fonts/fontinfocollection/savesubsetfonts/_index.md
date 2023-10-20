@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.SaveSubsetFonts
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontInfoCollection propiedad. Especifica si se guarda o no un subconjunto de las fuentes TrueType incrustadas con el documento. El valor predeterminado para esta propiedad esFALSO.
+linktitle: SaveSubsetFonts
+articleTitle: SaveSubsetFonts
+second_title: Aspose.Words para .NET
+description: FontInfoCollection SaveSubsetFonts propiedad. Especifica si se guarda o no un subconjunto de las fuentes TrueType incrustadas con el documento. El valor predeterminado para esta propiedad esFALSO en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
@@ -16,11 +18,11 @@ Esta opción funciona sólo cuando[`EmbedTrueTypeFonts`](../embedtruetypefonts/)
 public bool SaveSubsetFonts { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta opción funciona solo para formatos DOC, DOCX y RTF.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo guardar un documento con fuentes TrueType incrustadas.
 
@@ -43,7 +45,5 @@ else
 ### Ver también
 
 * class [FontInfoCollection](../)
-* espacio de nombres [Aspose.Words.Fonts](../../fontinfocollection/)
+* espacio de nombres [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../../)
-
-

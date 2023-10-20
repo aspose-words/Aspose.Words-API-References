@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.ClearQuickStyleGallery
-second_title: Referencia de API de Aspose.Words para .NET
-description: StyleCollection método. Elimina todos los estilos del panel Galería de estilos rápidos.
+linktitle: ClearQuickStyleGallery
+articleTitle: ClearQuickStyleGallery
+second_title: Aspose.Words para .NET
+description: StyleCollection ClearQuickStyleGallery método. Elimina todos los estilos del panel Galería de estilos rápidos en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words/stylecollection/clearquickstylegallery/
@@ -14,7 +16,7 @@ Elimina todos los estilos del panel Galería de estilos rápidos.
 public void ClearQuickStyleGallery()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar estilos del panel Galería de estilos.
 
@@ -29,7 +31,5 @@ doc.Save(ArtifactsDir + "Styles.RemoveStylesFromStyleGallery.docx");
 ### Ver también
 
 * class [StyleCollection](../)
-* espacio de nombres [Aspose.Words](../../stylecollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

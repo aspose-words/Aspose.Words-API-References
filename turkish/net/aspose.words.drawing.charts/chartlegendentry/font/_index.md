@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntry.Font
-second_title: Aspose.Words for .NET API Referansı
-description: ChartLegendEntry mülk. Bu açıklama girişinin yazı tipi formatına erişim sağlar.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words for .NET
+description: ChartLegendEntry Font mülk. Bu açıklama girişinin yazı tipi formatına erişim sağlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartlegendentry/font/
@@ -14,7 +16,7 @@ Bu açıklama girişinin yazı tipi formatına erişim sağlar.
 public Font Font { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Grafik serileri için bir açıklama girişiyle nasıl çalışılacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartLegendEntry](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartlegendentry/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

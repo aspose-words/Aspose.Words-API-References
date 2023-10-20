@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineUnitBefore
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает величину интервала в линиях сетки перед абзацами.
+linktitle: LineUnitBefore
+articleTitle: LineUnitBefore
+second_title: Aspose.Words для .NET
+description: ParagraphFormat LineUnitBefore свойство. Получает или задает величину интервала в линиях сетки перед абзацами на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words/paragraphformat/lineunitbefore/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/lineunitbefore/
 public double LineUnitBefore { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить интервал между абзацами и отступы.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

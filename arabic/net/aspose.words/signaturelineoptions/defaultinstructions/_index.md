@@ -1,7 +1,9 @@
 ---
 title: SignatureLineOptions.DefaultInstructions
-second_title: Aspose.Words لمراجع .NET API
-description: SignatureLineOptions ملكية. الحصول على قيمة أو تعيينها تشير إلى أن التعليمات الافتراضية تظهر في مربع حوار التوقيع. القيمة الافتراضية لهذه الخاصية هيحقيقي .
+linktitle: DefaultInstructions
+articleTitle: DefaultInstructions
+second_title: Aspose.Words لـ .NET
+description: SignatureLineOptions DefaultInstructions ملكية. الحصول على قيمة أو تعيينها تشير إلى أن التعليمات الافتراضية تظهر في مربع حوار التوقيع. القيمة الافتراضية لهذه الخاصية هيحقيقي  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/signaturelineoptions/defaultinstructions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/signaturelineoptions/defaultinstructions/
 public bool DefaultInstructions { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع مستند باستخدام شهادة شخصية وسطر التوقيع.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### أنظر أيضا
 
 * class [SignatureLineOptions](../)
-* مساحة الاسم [Aspose.Words](../../signaturelineoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

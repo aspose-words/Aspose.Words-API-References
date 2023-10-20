@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsTopLevel
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. إرجاعحقيقيإذا لم يكن هذا الشكل تابعًا لشكل المجموعة.
+linktitle: IsTopLevel
+articleTitle: IsTopLevel
+second_title: Aspose.Words لـ .NET
+description: ShapeBase IsTopLevel ملكية. إرجاعحقيقيإذا لم يكن هذا الشكل تابعًا لشكل المجموعة في C#.
 type: docs
 weight: 350
 url: /ar/net/aspose.words.drawing/shapebase/istoplevel/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shapebase/istoplevel/
 public bool IsTopLevel { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية معرفة ما إذا كان الشكل جزءًا من شكل مجموعة.
 
@@ -39,7 +41,5 @@ Assert.False(shape.IsTopLevel);
 ### أنظر أيضا
 
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

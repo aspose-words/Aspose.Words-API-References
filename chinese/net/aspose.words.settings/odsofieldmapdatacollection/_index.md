@@ -1,7 +1,9 @@
 ---
-title: Class OdsoFieldMapDataCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.OdsoFieldMapDataCollection 班级. 的类型化集合OdsoFieldMapData对象.
+title: OdsoFieldMapDataCollection Class
+linktitle: OdsoFieldMapDataCollection
+articleTitle: OdsoFieldMapDataCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.OdsoFieldMapDataCollection 班级. 的类型化集合OdsoFieldMapData对象 在 C#.
 type: docs
 weight: 5910
 url: /zh/net/aspose.words.settings/odsofieldmapdatacollection/
@@ -33,12 +35,12 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(OdsoFieldMapData) | 将一个对象添加到此集合的末尾。 |
+| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(*[OdsoFieldMapData](../odsofieldmapdata/)*) | 将一个对象添加到此集合的末尾。 |
 | [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear/)() | 从此集合中删除所有元素。 |
 | [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
-| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(int) | 删除指定索引处的元素。 |
+| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(*int*) | 删除指定索引处的元素。 |
 
-### 例子
+## 例子
 
 演示如何访问将数据源列映射到合并字段的数据集合。
 
@@ -84,5 +86,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * property [FieldMapDatas](../odso/fieldmapdatas/)
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

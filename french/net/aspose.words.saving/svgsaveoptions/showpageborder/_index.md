@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ShowPageBorder
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SvgSaveOptions propriété. Contrôle si une bordure est ajoutée au contour de la page. La valeur par défaut estvrai .
+linktitle: ShowPageBorder
+articleTitle: ShowPageBorder
+second_title: Aspose.Words pour .NET
+description: SvgSaveOptions ShowPageBorder propriété. Contrôle si une bordure est ajoutée au contour de la page. La valeur par défaut estvrai  en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.saving/svgsaveoptions/showpageborder/
@@ -14,7 +16,7 @@ Contrôle si une bordure est ajoutée au contour de la page. La valeur par défa
 public bool ShowPageBorder { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment imiter les propriétés des images lors de la conversion d'un document .docx en .svg.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "SvgSaveOptions.SaveLikeImage.svg", options);
 ### Voir également
 
 * class [SvgSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../svgsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

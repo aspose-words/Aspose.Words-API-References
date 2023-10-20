@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.RunSubentriesOnSameLine
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIndex свойство. Получает или задает запускать ли подзаписи в той же строке что и основная запись.
+linktitle: RunSubentriesOnSameLine
+articleTitle: RunSubentriesOnSameLine
+second_title: Aspose.Words для .NET
+description: FieldIndex RunSubentriesOnSameLine свойство. Получает или задает запускать ли подзаписи в той же строке что и основная запись на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.fields/fieldindex/runsubentriesonsameline/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldindex/runsubentriesonsameline/
 public bool RunSubentriesOnSameLine { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с подзаписями в поле ИНДЕКС.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + $"Field.INDEX.XE.Subheading.docx");
 ### Смотрите также
 
 * class [FieldIndex](../)
-* пространство имен [Aspose.Words.Fields](../../fieldindex/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

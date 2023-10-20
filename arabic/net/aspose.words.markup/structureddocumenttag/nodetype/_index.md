@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. إرجاعStructuredDocumentTag .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag NodeType ملكية. إرجاعStructuredDocumentTag  في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.markup/structureddocumenttag/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/structureddocumenttag/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط عناصر التحكم في المحتوى.
 
@@ -54,7 +56,5 @@ foreach (Node node in tags)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

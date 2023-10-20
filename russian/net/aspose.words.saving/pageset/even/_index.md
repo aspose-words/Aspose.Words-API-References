@@ -1,7 +1,9 @@
 ---
 title: PageSet.Even
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSet свойство. Получает набор со всеми четными страницами документа в исходном порядке.
+linktitle: Even
+articleTitle: Even
+second_title: Aspose.Words для .NET
+description: PageSet Even свойство. Получает набор со всеми четными страницами документа в исходном порядке на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/pageset/even/
@@ -14,14 +16,12 @@ url: /ru/net/aspose.words.saving/pageset/even/
 public static PageSet Even { get; }
 ```
 
-### Примечания
+## Примечания
 
 Четные страницы имеют нечетные индексы, поскольку индексы страниц отсчитываются от нуля.
 
 ### Смотрите также
 
 * class [PageSet](../)
-* пространство имен [Aspose.Words.Saving](../../pageset/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

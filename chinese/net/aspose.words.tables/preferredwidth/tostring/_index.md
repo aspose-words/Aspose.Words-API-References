@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.ToString
-second_title: Aspose.Words for .NET API 参考
-description: PreferredWidth 方法. 返回一个用户友好的字符串显示该对象的值
+linktitle: ToString
+articleTitle: ToString
+second_title: 用于 .NET 的 Aspose.Words
+description: PreferredWidth ToString 方法. 返回一个用户友好的字符串显示该对象的值 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.tables/preferredwidth/tostring/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/preferredwidth/tostring/
 public override string ToString()
 ```
 
-### 例子
+## 例子
 
 演示如何设置表格单元格的首选宽度。
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### 也可以看看
 
 * class [PreferredWidth](../)
-* 命名空间 [Aspose.Words.Tables](../../preferredwidth/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

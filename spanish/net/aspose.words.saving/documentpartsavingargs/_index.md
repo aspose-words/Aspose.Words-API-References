@@ -1,7 +1,9 @@
 ---
-title: Class DocumentPartSavingArgs
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.DocumentPartSavingArgs clase. Proporciona datos para elDocumentPartSaving devolución de llamada.
+title: DocumentPartSavingArgs Class
+linktitle: DocumentPartSavingArgs
+articleTitle: DocumentPartSavingArgs
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.DocumentPartSavingArgs clase. Proporciona datos para elDocumentPartSaving devolución de llamada en C#.
 type: docs
 weight: 4940
 url: /es/net/aspose.words.saving/documentpartsavingargs/
@@ -25,7 +27,7 @@ public class DocumentPartSavingArgs
 | [DocumentPartStream](../../aspose.words.saving/documentpartsavingargs/documentpartstream/) { get; set; } | Permite especificar la secuencia donde se guardará la parte del documento. |
 | [KeepDocumentPartStreamOpen](../../aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/) { get; set; } | Especifica si Aspose.Words debe mantener la secuencia abierta o cerrarla después de guardar una parte del documento. |
 
-### Observaciones
+## Observaciones
 
 Cuando Aspose.Words guarda un documento en HTML o formatos relacionados y[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/)Se especifica , el documento se divide en partes y, de forma predeterminada, cada parte del documento se guarda en un archivo independiente.
 
@@ -33,7 +35,7 @@ Clase`DocumentPartSavingArgs` le permite controlar cómo se guardará cada parte
 
 Para guardar partes del documento en secuencias en lugar de archivos, utilice el[`DocumentPartStream`](./documentpartstream/) propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dividir un documento en partes y guardarlas.
 
@@ -151,5 +153,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

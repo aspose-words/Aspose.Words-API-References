@@ -1,7 +1,9 @@
 ---
-title: Class WarningInfo
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.WarningInfo classe. Contient des informations sur un avertissement émis par Aspose.Words lors du chargement ou de lenregistrement du document.
+title: WarningInfo Class
+linktitle: WarningInfo
+articleTitle: WarningInfo
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.WarningInfo classe. Contient des informations sur un avertissement émis par Aspose.Words lors du chargement ou de lenregistrement du document en C#.
 type: docs
 weight: 6630
 url: /fr/net/aspose.words/warninginfo/
@@ -24,11 +26,11 @@ public class WarningInfo
 | [Source](../../aspose.words/warninginfo/source/) { get; } | Renvoie la source de l'avertissement. |
 | [WarningType](../../aspose.words/warninginfo/warningtype/) { get; } | Renvoie le type d'avertissement. |
 
-### Remarques
+## Remarques
 
 Vous ne créez pas d'instances de cette classe. Les objets de cette classe sont créés et transmis par Aspose.Words au[`Warning`](../iwarningcallback/warning/) méthode.
 
-### Exemples
+## Exemples
 
 Montre comment définir la propriété permettant de trouver la correspondance la plus proche pour une police manquante à partir des sources de polices disponibles.
 
@@ -89,5 +91,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

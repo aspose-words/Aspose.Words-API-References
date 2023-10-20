@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.EndCharacterFont
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Girilen metnin son karakterine uygulanacak yazı tipi formatı SDT .
+linktitle: EndCharacterFont
+articleTitle: EndCharacterFont
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag EndCharacterFont mülk. Girilen metnin son karakterine uygulanacak yazı tipi formatıSDT  C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.markup/structureddocumenttag/endcharacterfont/
 ---
 ## StructuredDocumentTag.EndCharacterFont property
 
-Girilen metnin son karakterine uygulanacak yazı tipi formatı **SDT** .
+Girilen metnin son karakterine uygulanacak yazı tipi formatı**SDT** .
 
 ```csharp
 public Font EndCharacterFont { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düz metin kutusunda yapılandırılmış belge etiketinin nasıl oluşturulacağını ve görünümünün nasıl değiştirileceğini gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

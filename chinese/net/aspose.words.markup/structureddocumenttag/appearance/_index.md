@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Appearance
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 获取/设置结构化文档标签的外观
+linktitle: Appearance
+articleTitle: Appearance
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag Appearance 财产. 获取/设置结构化文档标签的外观 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/structureddocumenttag/appearance/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/structureddocumenttag/appearance/
 public SdtAppearance Appearance { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在纯文本框中创建结构化文档标签并修改其外观。
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * enum [SdtAppearance](../../sdtappearance/)
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

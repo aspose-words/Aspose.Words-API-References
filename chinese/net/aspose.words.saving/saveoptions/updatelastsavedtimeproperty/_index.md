@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateLastSavedTimeProperty
-second_title: Aspose.Words for .NET API 参考
-description: SaveOptions 财产. 获取或设置一个值确定是否LastSavedTime属性在保存前更新
+linktitle: UpdateLastSavedTimeProperty
+articleTitle: UpdateLastSavedTimeProperty
+second_title: 用于 .NET 的 Aspose.Words
+description: SaveOptions UpdateLastSavedTimeProperty 财产. 获取或设置一个值确定是否LastSavedTime属性在保存前更新 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
 public bool UpdateLastSavedTimeProperty { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何确定在保存时是否保留文档的“上次保存时间”属性。
 
@@ -48,7 +50,5 @@ else
 ### 也可以看看
 
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../saveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

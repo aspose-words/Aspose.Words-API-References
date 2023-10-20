@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.MathObjectType
-second_title: Aspose.Words für .NET-API-Referenz
-description: OfficeMath eigendom. Ruft den Typ abMathObjectType dieses Office MathObjekts.
+linktitle: MathObjectType
+articleTitle: MathObjectType
+second_title: Aspose.Words für .NET
+description: OfficeMath MathObjectType eigendom. Ruft den Typ abMathObjectType dieses Office MathObjekts in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.math/officemath/mathobjecttype/
@@ -14,7 +16,7 @@ Ruft den Typ ab`MathObjectType` dieses Office Math-Objekts.
 public MathObjectType MathObjectType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jedes Office-Mathe-Knotens in einem Dokument gedruckt wird.
 
@@ -107,7 +109,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * enum [MathObjectType](../../mathobjecttype/)
 * class [OfficeMath](../)
-* namensraum [Aspose.Words.Math](../../officemath/)
+* namensraum [Aspose.Words.Math](../../../aspose.words.math/)
 * Montage [Aspose.Words](../../../)
-
-

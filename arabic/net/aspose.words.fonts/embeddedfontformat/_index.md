@@ -1,7 +1,9 @@
 ---
-title: Enum EmbeddedFontFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.EmbeddedFontFormat تعداد. يحدد تنسيق خط مضمن معين في الداخلFontInfo هدف.
+title: EmbeddedFontFormat Enum
+linktitle: EmbeddedFontFormat
+articleTitle: EmbeddedFontFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.EmbeddedFontFormat تعداد. يحدد تنسيق خط مضمن معين في الداخلFontInfo هدف في C#.
 type: docs
 weight: 2850
 url: /ar/net/aspose.words.fonts/embeddedfontformat/
@@ -23,7 +25,7 @@ public enum EmbeddedFontFormat
 | EmbeddedOpenType | `0` | يحدد تنسيق ملف OpenType (EOT) المضمن. |
 | OpenType | `1` | يحدد الخط، المضمن كنسخة عادية من ملف خط OpenType (TrueType). |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج خط مضمن من مستند وحفظه في نظام الملفات المحلي.
 
@@ -51,5 +53,3 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TxtListIndentation.Character
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtListIndentation свойство. Получает или задает какой символ использовать для отступов уровней списка. Значение по умолчанию  0 что означает отсутствие отступов.
+linktitle: Character
+articleTitle: Character
+second_title: Aspose.Words для .NET
+description: TxtListIndentation Character свойство. Получает или задает какой символ использовать для отступов уровней списка. Значение по умолчанию  0 что означает отсутствие отступов на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/txtlistindentation/character/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/txtlistindentation/character/
 public char Character { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить отступ списка при сохранении документа в виде открытого текста.
 
@@ -54,7 +56,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 ### Смотрите также
 
 * class [TxtListIndentation](../)
-* пространство имен [Aspose.Words.Saving](../../txtlistindentation/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

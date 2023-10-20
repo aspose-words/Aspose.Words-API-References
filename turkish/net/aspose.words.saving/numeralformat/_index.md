@@ -1,7 +1,9 @@
 ---
-title: Enum NumeralFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.NumeralFormat Sıralama. Sabit sayfa formatlarında oluşturulurken sayıları temsil etmek için kullanılan sembol setini belirtir.
+title: NumeralFormat Enum
+linktitle: NumeralFormat
+articleTitle: NumeralFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.NumeralFormat Sıralama. Sabit sayfa formatlarında oluşturulurken sayıları temsil etmek için kullanılan sembol setini belirtir C#'da.
 type: docs
 weight: 5310
 url: /tr/net/aspose.words.saving/numeralformat/
@@ -24,7 +26,7 @@ public enum NumeralFormat
 | Context | `3` | Sembol setine bağlamdan (yerel ayar ve RTL özelliği) karar verilir. |
 | System | `4` | BU SEÇENEK DESTEKLENMEMEKTEDİR. Sembol setine bölgesel ayarlardan karar verilir. |
 
-### Örnekler
+## Örnekler
 
 PDF'ye kaydederken kullanılan sayı biçiminin nasıl ayarlanacağını gösterir.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

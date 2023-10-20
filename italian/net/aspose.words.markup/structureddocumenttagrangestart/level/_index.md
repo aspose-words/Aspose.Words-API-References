@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Level
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart proprietà. Ottiene il livello al quale si verifica linizio dellintervallo di tag del documento strutturato nellalbero del documento.
+linktitle: Level
+articleTitle: Level
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTagRangeStart Level proprietà. Ottiene il livello al quale si verifica linizio dellintervallo di tag del documento strutturato nellalbero del documento in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/level/
@@ -14,7 +16,7 @@ Ottiene il livello al quale si verifica l'inizio dell'intervallo di tag del docu
 public MarkupLevel Level { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere le proprietà dei tag di documenti strutturati a più sezioni.
 
@@ -50,7 +52,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTagRangeStart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

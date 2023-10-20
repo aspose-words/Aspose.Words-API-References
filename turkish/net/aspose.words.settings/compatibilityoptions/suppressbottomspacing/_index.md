@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SuppressBottomSpacing
-second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Sayfadaki Son Satırın Tam Satır Yüksekliğini Yoksay.
+linktitle: SuppressBottomSpacing
+articleTitle: SuppressBottomSpacing
+second_title: Aspose.Words for .NET
+description: CompatibilityOptions SuppressBottomSpacing mülk. Sayfadaki Son Satırın Tam Satır Yüksekliğini Yoksay C#'da.
 type: docs
 weight: 480
 url: /tr/net/aspose.words.settings/compatibilityoptions/suppressbottomspacing/
@@ -17,7 +19,5 @@ public bool SuppressBottomSpacing { get; set; }
 ### Ayrıca bakınız
 
 * class [CompatibilityOptions](../)
-* ad alanı [Aspose.Words.Settings](../../compatibilityoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

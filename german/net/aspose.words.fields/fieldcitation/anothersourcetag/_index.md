@@ -1,20 +1,22 @@
 ---
 title: FieldCitation.AnotherSourceTag
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldCitation eigendom. Ruft einen Wert ab der mit dem übereinstimmt oder legt diesen fest Etikett Elementwert einer anderen Quelle der in das Zitat aufgenommen werden soll.
+linktitle: AnotherSourceTag
+articleTitle: AnotherSourceTag
+second_title: Aspose.Words für .NET
+description: FieldCitation AnotherSourceTag eigendom. Ruft einen Wert ab der mit dem übereinstimmt oder legt diesen festEtikett Elementwert einer anderen Quelle der in das Zitat aufgenommen werden soll in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldcitation/anothersourcetag/
 ---
 ## FieldCitation.AnotherSourceTag property
 
-Ruft einen Wert ab, der mit dem übereinstimmt, oder legt diesen fest **Etikett** Elementwert einer anderen Quelle, der in das Zitat aufgenommen werden soll.
+Ruft einen Wert ab, der mit dem übereinstimmt, oder legt diesen fest**Etikett** Elementwert einer anderen Quelle, der in das Zitat aufgenommen werden soll.
 
 ```csharp
 public string AnotherSourceTag { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den Feldern CITATION und BIBLIOGRAPHY gearbeitet wird.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Siehe auch
 
 * class [FieldCitation](../)
-* namensraum [Aspose.Words.Fields](../../fieldcitation/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

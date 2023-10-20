@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateFields
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Aktualisiert die Werte von Feldern im gesamten Dokument.
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: Aspose.Words für .NET
+description: Document UpdateFields methode. Aktualisiert die Werte von Feldern im gesamten Dokument in C#.
 type: docs
-weight: 770
+weight: 750
 url: /de/net/aspose.words/document/updatefields/
 ---
 ## Document.UpdateFields method
@@ -14,7 +16,7 @@ Aktualisiert die Werte von Feldern im gesamten Dokument.
 public void UpdateFields()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Sie ein Dokument öffnen, ändern und dann speichern, aktualisiert Aspose.Words die Felder nicht automatisch, sondern behält sie intakt. Daher möchten Sie diese Methode normalerweise vor dem Speichern aufrufen, wenn Sie das Dokument programmgesteuert geändert haben und dies sicherstellen möchten Die richtigen (berechneten) Feldwerte werden im gespeicherten Dokument angezeigt.
 
@@ -28,7 +30,7 @@ Benutzen Sie die[`NormalizeFieldTypes`](../normalizefieldtypes/) Methode vor der
 
 Um Felder in einem bestimmten Teil des Dokuments zu aktualisieren, verwenden Sie[`UpdateFields`](../../range/updatefields/).
 
-### Beispiele
+## Beispiele
 
 Zeigt die Verwendung des QUOTE-Felds an.
 
@@ -146,7 +148,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

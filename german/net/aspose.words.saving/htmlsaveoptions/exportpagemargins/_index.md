@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportPageMargins
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt an ob Seitenränder nach HTML MHTML oder EPUB exportiert werden. Die Standardeinstellung istFALSCH .
+linktitle: ExportPageMargins
+articleTitle: ExportPageMargins
+second_title: Aspose.Words für .NET
+description: HtmlSaveOptions ExportPageMargins eigendom. Gibt an ob Seitenränder nach HTML MHTML oder EPUB exportiert werden. Die Standardeinstellung istFALSCH  in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
@@ -14,11 +16,11 @@ Gibt an, ob Seitenränder nach HTML, MHTML oder EPUB exportiert werden. Die Stan
 public bool ExportPageMargins { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Aspose.Words zeigt standardmäßig keinen Bereich der Seitenränder an. Wenn Elemente ganz oder teilweise durch die Dokumentkante abgeschnitten werden, kann der angezeigte Bereich mit dieser Option erweitert werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie außerhalb der Grenzen befindliche Objekte in ausgegebenen HTML-Dokumenten angezeigt werden.
 
@@ -63,7 +65,5 @@ else
 ### Siehe auch
 
 * class [HtmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

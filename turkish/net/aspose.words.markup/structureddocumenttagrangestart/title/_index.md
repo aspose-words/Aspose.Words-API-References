@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Title
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart mülk. Bu yapılandırılmış belge etiketiyle ilişkili kolay adı belirtir. Yapılamazhükümsüz .
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagRangeStart Title mülk. Bu yapılandırılmış belge etiketiyle ilişkili kolay adı belirtir. Yapılamazhükümsüz  C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/title/
@@ -14,7 +16,7 @@ Bu yapılandırılmış belge etiketiyle ilişkili kolay adı belirtir. Yapılam
 public string Title { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çok bölümlü yapılandırılmış belge etiketlerinin özelliklerinin nasıl alınacağını gösterir.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTagRangeStart](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

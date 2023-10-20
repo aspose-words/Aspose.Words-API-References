@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveParent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutEnumerator méthode. Se déplace vers lentité parent.
+linktitle: MoveParent
+articleTitle: MoveParent
+second_title: Aspose.Words pour .NET
+description: LayoutEnumerator MoveParent méthode. Se déplace vers lentité parent en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.layout/layoutenumerator/moveparent/
@@ -14,7 +16,7 @@ Se déplace vers l'entité parent.
 public bool MoveParent()
 ```
 
-### Exemples
+## Exemples
 
 Montre les moyens de parcourir les entités de mise en page d'un document.
 
@@ -159,12 +161,12 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Voir également
 
 * class [LayoutEnumerator](../)
-* espace de noms [Aspose.Words.Layout](../../layoutenumerator/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## MoveParent(LayoutEntityType) {#moveparent_1}
+## MoveParent(*[LayoutEntityType](../../layoutentitytype/)*) {#moveparent_1}
 
 Se déplace vers l'entité parent du type spécifié.
 
@@ -176,11 +178,11 @@ public bool MoveParent(LayoutEntityType types)
 | --- | --- | --- |
 | types | LayoutEntityType | Type d'entité parent vers lequel déplacer. Utilisez bitwise-OR pour spécifier plusieurs types de parents. |
 
-### Remarques
+## Remarques
 
 Cette méthode est utile si vous devez rechercher la cellule, la colonne ou le parent d'en-tête/pied de page de l'entité.
 
-### Exemples
+## Exemples
 
 Montre les moyens de parcourir les entités de mise en page d'un document.
 
@@ -326,7 +328,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * enum [LayoutEntityType](../../layoutentitytype/)
 * class [LayoutEnumerator](../)
-* espace de noms [Aspose.Words.Layout](../../layoutenumerator/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

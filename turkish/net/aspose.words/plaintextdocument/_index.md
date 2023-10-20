@@ -1,7 +1,9 @@
 ---
-title: Class PlainTextDocument
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.PlainTextDocument sınıf. Belge içeriğinin düz metin gösteriminin çıkarılmasına izin verir.
+title: PlainTextDocument Class
+linktitle: PlainTextDocument
+articleTitle: PlainTextDocument
+second_title: Aspose.Words for .NET
+description: Aspose.Words.PlainTextDocument sınıf. Belge içeriğinin düz metin gösteriminin çıkarılmasına izin verir C#'da.
 type: docs
 weight: 4440
 url: /tr/net/aspose.words/plaintextdocument/
@@ -20,10 +22,10 @@ public class PlainTextDocument
 
 | İsim | Tanım |
 | --- | --- |
-| [PlainTextDocument](plaintextdocument/#constructor)(Stream) | Bir akıştan düz metin belgesi oluşturur. Dosya biçimini otomatik olarak algılar. |
-| [PlainTextDocument](plaintextdocument/#constructor_2)(string) | Bir dosyadan düz metin belgesi oluşturur. Dosya biçimini otomatik olarak algılar. |
-| [PlainTextDocument](plaintextdocument/#constructor_1)(Stream, LoadOptions) | Bir akıştan düz metin belgesi oluşturur. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır. |
-| [PlainTextDocument](plaintextdocument/#constructor_3)(string, LoadOptions) | Bir dosyadan düz metin belgesi oluşturur. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır. |
+| [PlainTextDocument](plaintextdocument/#constructor)(*Stream*) | Bir akıştan düz metin belgesi oluşturur. Dosya biçimini otomatik olarak algılar. |
+| [PlainTextDocument](plaintextdocument/#constructor_2)(*string*) | Bir dosyadan düz metin belgesi oluşturur. Dosya biçimini otomatik olarak algılar. |
+| [PlainTextDocument](plaintextdocument/#constructor_1)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Bir akıştan düz metin belgesi oluşturur. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır. |
+| [PlainTextDocument](plaintextdocument/#constructor_3)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Bir dosyadan düz metin belgesi oluşturur. Şifreleme şifresi gibi ek seçeneklerin belirtilmesine olanak tanır. |
 
 ## Özellikleri
 
@@ -33,7 +35,7 @@ public class PlainTextDocument
 | [CustomDocumentProperties](../../aspose.words/plaintextdocument/customdocumentproperties/) { get; } | Alır[`CustomDocumentProperties`](./customdocumentproperties/) belgenin. |
 | [Text](../../aspose.words/plaintextdocument/text/) { get; } | Belgenin metin içeriğini bir dize olarak birleştirir. |
 
-### Örnekler
+## Örnekler
 
 Bir Microsoft Word belgesinin içeriğinin düz metin olarak nasıl yükleneceğini gösterir.
 
@@ -53,5 +55,3 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

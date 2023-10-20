@@ -1,7 +1,9 @@
 ---
-title: Enum TextureIndex
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.TextureIndex opsomming. Gibt die Schattierungstextur an.
+title: TextureIndex Enum
+linktitle: TextureIndex
+articleTitle: TextureIndex
+second_title: Aspose.Words für .NET
+description: Aspose.Words.TextureIndex opsomming. Gibt die Schattierungstextur an in C#.
 type: docs
 weight: 6450
 url: /de/net/aspose.words/textureindex/
@@ -73,7 +75,7 @@ public enum TextureIndex
 | TextureVertical | `21` |  |
 | TextureNil | `65535` | Gibt an, dass im aktuellen schattierten Bereich kein Muster verwendet werden soll (dh das Muster soll eine vollständige Füllung mit der Hintergrundfarbe sein). |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text mit Rändern und Schattierungen dekoriert wird.
 
@@ -126,5 +128,3 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

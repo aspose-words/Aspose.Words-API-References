@@ -1,7 +1,9 @@
 ---
-title: Enum ImageColorMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.ImageColorMode uppräkning. Anger färgläget för de genererade bilderna på dokumentsidorna.
+title: ImageColorMode Enum
+linktitle: ImageColorMode
+articleTitle: ImageColorMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.ImageColorMode uppräkning. Anger färgläget för de genererade bilderna på dokumentsidorna i C#.
 type: docs
 weight: 5210
 url: /sv/net/aspose.words.saving/imagecolormode/
@@ -22,7 +24,7 @@ public enum ImageColorMode
 | Grayscale | `1` | Sidorna i dokumentet kommer att renderas som gråskalebilder. |
 | BlackAndWhite | `2` | Sidorna i dokumentet kommer att återges som svartvita bilder. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in ett färgläge när du renderar dokument.
 
@@ -82,5 +84,3 @@ Document doc = new Document();
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

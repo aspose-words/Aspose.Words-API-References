@@ -1,7 +1,9 @@
 ---
-title: Class DropDownItemCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.DropDownItemCollection sınıf. Açılan form alanındaki tüm öğeleri temsil eden dizelerden oluşan bir koleksiyon.
+title: DropDownItemCollection Class
+linktitle: DropDownItemCollection
+articleTitle: DropDownItemCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.DropDownItemCollection sınıf. Açılan form alanındaki tüm öğeleri temsil eden dizelerden oluşan bir koleksiyon C#'da.
 type: docs
 weight: 1500
 url: /tr/net/aspose.words.fields/dropdownitemcollection/
@@ -27,16 +29,16 @@ public class DropDownItemCollection : IEnumerable<string>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(string) | Koleksiyonun sonuna bir dize ekler. |
+| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(*string*) | Koleksiyonun sonuna bir dize ekler. |
 | [Clear](../../aspose.words.fields/dropdownitemcollection/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(string) | Koleksiyonun belirtilen değeri içerip içermediğini belirler. |
+| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(*string*) | Koleksiyonun belirtilen değeri içerip içermediğini belirler. |
 | [GetEnumerator](../../aspose.words.fields/dropdownitemcollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
-| [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(string) | Koleksiyonda belirtilen değerin sıfır tabanlı dizinini döndürür. |
-| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(int, string) | Belirtilen dizindeki koleksiyona bir dize ekler. |
-| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(string) | Belirtilen değeri koleksiyondan kaldırır. |
-| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(int) | Belirtilen dizindeki bir değeri kaldırır. |
+| [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(*string*) | Koleksiyonda belirtilen değerin sıfır tabanlı dizinini döndürür. |
+| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(*int, string*) | Belirtilen dizindeki koleksiyona bir dize ekler. |
+| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(*string*) | Belirtilen değeri koleksiyondan kaldırır. |
+| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(*int*) | Belirtilen dizindeki bir değeri kaldırır. |
 
-### Örnekler
+## Örnekler
 
 Açılan kutu alanının nasıl ekleneceğini ve öğe koleksiyonundaki öğelerin nasıl düzenleneceğini gösterir.
 
@@ -93,5 +95,3 @@ dropDownItems.Clear();
 * property [DropDownItems](../formfield/dropdownitems/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

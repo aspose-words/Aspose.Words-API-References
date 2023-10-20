@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.UseGdiRasterOperationsEmulation
-second_title: Aspose.Words for .NET API Referansı
-description: MetafileRenderingOptions mülk. Tarama işlemleri emülasyonu için GDInın kullanılıp kullanılmayacağını belirleyen bir değer alır veya ayarlar.
+linktitle: UseGdiRasterOperationsEmulation
+articleTitle: UseGdiRasterOperationsEmulation
+second_title: Aspose.Words for .NET
+description: MetafileRenderingOptions UseGdiRasterOperationsEmulation mülk. Tarama işlemleri emülasyonu için GDInın kullanılıp kullanılmayacağını belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/
@@ -14,7 +16,7 @@ Tarama işlemleri emülasyonu için GDI+'nın kullanılıp kullanılmayacağın�
 public bool UseGdiRasterOperationsEmulation { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Tarama işlemlerini taklit etmek için Windows GDI+ kitaplığı kullanılabilir. Aspose.Word'ün kendi emülasyonuna kıyasla tüm tarama işlemleri için destek sağlar ancak bazı durumlarda performans daha yavaş olabilir.
 
@@ -26,7 +28,7 @@ Bu seçenek yalnızca meta dosyası vektör grafikleri olarak işlendiğinde kul
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Windows Meta Dosyası görüntüleri içeren belgeleri diğer görüntü formatlarına kaydederken işleme modunun nasıl ayarlanacağını gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.WindowsMetaFile.png", options);
 ### Ayrıca bakınız
 
 * class [MetafileRenderingOptions](../)
-* ad alanı [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

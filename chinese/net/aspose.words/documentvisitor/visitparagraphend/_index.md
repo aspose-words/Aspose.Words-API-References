@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitParagraphEnd
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 段落枚举结束时调用
+linktitle: VisitParagraphEnd
+articleTitle: VisitParagraphEnd
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitParagraphEnd 方法. 段落枚举结束时调用 在 C#.
 type: docs
 weight: 320
 url: /zh/net/aspose.words/documentvisitor/visitparagraphend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitParagraphEnd(Paragraph paragraph)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 例子
+## 例子
 
 演示如何使用文档访问者打印文档的节点结构。
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Paragraph](../../paragraph/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

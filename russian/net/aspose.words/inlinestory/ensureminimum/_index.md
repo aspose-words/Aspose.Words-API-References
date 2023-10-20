@@ -1,7 +1,9 @@
 ---
 title: InlineStory.EnsureMinimum
-second_title: Справочник по API Aspose.Words для .NET
-description: InlineStory метод. Если последний дочерний элемент не является абзацем создается и добавляется один пустой абзац.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words для .NET
+description: InlineStory EnsureMinimum метод. Если последний дочерний элемент не является абзацем создается и добавляется один пустой абзац на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/inlinestory/ensureminimum/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/inlinestory/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять узлы InlineStory.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 ### Смотрите также
 
 * class [InlineStory](../)
-* пространство имен [Aspose.Words](../../inlinestory/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

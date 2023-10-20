@@ -1,7 +1,9 @@
 ---
 title: List.ListId
-second_title: Aspose.Words for .NET API Referansı
-description: List mülk. Listenin benzersiz tanımlayıcısını alır.
+linktitle: ListId
+articleTitle: ListId
+second_title: Aspose.Words for .NET
+description: List ListId mülk. Listenin benzersiz tanımlayıcısını alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.lists/list/listid/
@@ -14,11 +16,11 @@ Listenin benzersiz tanımlayıcısını alır.
 public int ListId { get; }
 ```
 
-### Notlar
+## Notlar
 
 Normalde bu özelliği kullanmanıza gerek yoktur. Ancak eğer onu kullanırsanız, normalde so ile birlikte yaparsınız.[`GetListByListId`](../../listcollection/getlistbylistid/) a listesini tanımlayıcısına göre bulma yöntemi.
 
-### Örnekler
+## Örnekler
 
 Listelerin sahip belge özelliklerinin nasıl doğrulanacağını gösterir.
 
@@ -67,7 +69,5 @@ foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsL
 ### Ayrıca bakınız
 
 * class [List](../)
-* ad alanı [Aspose.Words.Lists](../../list/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

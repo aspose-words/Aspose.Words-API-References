@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DisplayDocTitle
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 一个标志指定窗口的标题栏是否应显示取自 文档信息字典的标题条目的文档标题
+linktitle: DisplayDocTitle
+articleTitle: DisplayDocTitle
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions DisplayDocTitle 财产. 一个标志指定窗口的标题栏是否应显示取自 文档信息字典的标题条目的文档标题 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.saving/pdfsaveoptions/displaydoctitle/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/displaydoctitle/
 public bool DisplayDocTitle { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果`错误的`，标题栏应显示包含该文档的 PDF 文件的名称。
 
@@ -22,7 +24,7 @@ PDF/UA 合规性需要此标志。`真的`将 保存到PDF/UA时将自动使用�
 
 默认值为`错误的`。
 
-### 例子
+## 例子
 
 演示如何将文档的标题显示为标题栏。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DocTitle.pdf", pdfSaveOptions);
 ### 也可以看看
 
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

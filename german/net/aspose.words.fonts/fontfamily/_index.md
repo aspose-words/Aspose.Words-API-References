@@ -1,7 +1,9 @@
 ---
-title: Enum FontFamily
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.FontFamily opsomming. Stellt die Schriftfamilie dar.
+title: FontFamily Enum
+linktitle: FontFamily
+articleTitle: FontFamily
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fonts.FontFamily opsomming. Stellt die Schriftfamilie dar in C#.
 type: docs
 weight: 2910
 url: /de/net/aspose.words.fonts/fontfamily/
@@ -25,11 +27,11 @@ public enum FontFamily
 | Script | `4` | Gibt eine Schriftart an, die wie eine Handschrift aussehen soll. Beispiele hierfür sind Script und Cursive. |
 | Decorative | `5` | Gibt eine neuartige Schriftart an. Ein Beispiel ist Altenglisch. |
 
-### Bemerkungen
+## Bemerkungen
 
 Eine Schriftfamilie ist eine Reihe von Schriftarten mit gemeinsamen Strichstärken und Serifeneigenschaften.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie auf Details zu jeder Schriftart in einem Dokument zugreifen und diese drucken können.
 
@@ -69,5 +71,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
-
-

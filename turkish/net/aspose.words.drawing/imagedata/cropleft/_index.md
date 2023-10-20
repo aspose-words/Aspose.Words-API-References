@@ -1,7 +1,9 @@
 ---
 title: ImageData.CropLeft
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData mülk. Resmin sol taraftan kaldırılma oranını tanımlar.
+linktitle: CropLeft
+articleTitle: CropLeft
+second_title: Aspose.Words for .NET
+description: ImageData CropLeft mülk. Resmin sol taraftan kaldırılma oranını tanımlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing/imagedata/cropleft/
@@ -14,13 +16,13 @@ Resmin sol taraftan kaldırılma oranını tanımlar.
 public double CropLeft { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Kırpma miktarı -1,0 ila 1,0 arasında değişebilir. Varsayılan değer 0'dır. 1 değerinin hiçbir resim görüntülemeyeceğini unutmayın. Negatif değerler, resmin kırpılan kenardan içeri doğru sıkıştırılmasına neden olur (resim ile kırpılan kenar arasındaki boş alan, şeklinin dolgu rengiyle doldurulacaktır). 1'den küçük pozitif değerler, kalan resmin şekle uyacak şekilde uzatılmasına neden olur.
 
 Varsayılan değer 0'dır.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin görüntü verilerinin nasıl düzenleneceğini gösterir.
 
@@ -83,7 +85,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.CheckBoxSize
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Получает или задает размер флажка в пунктах. Имеет эффект только тогда когдаIsCheckBoxExactSize являетсяистинный .
+linktitle: CheckBoxSize
+articleTitle: CheckBoxSize
+second_title: Aspose.Words для .NET
+description: FormField CheckBoxSize свойство. Получает или задает размер флажка в пунктах. Имеет эффект только тогда когдаIsCheckBoxExactSize являетсяистинный  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/formfield/checkboxsize/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/formfield/checkboxsize/
 public double CheckBoxSize { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Применимо только для поля формы флажка.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.ChapterPageSeparator
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Ottiene o imposta il carattere separatore visualizzato tra il numero del capitolo e il numero della pagina.
+linktitle: ChapterPageSeparator
+articleTitle: ChapterPageSeparator
+second_title: Aspose.Words per .NET
+description: PageSetup ChapterPageSeparator proprietà. Ottiene o imposta il carattere separatore visualizzato tra il numero del capitolo e il numero della pagina in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words/pagesetup/chapterpageseparator/
@@ -14,11 +16,11 @@ Ottiene o imposta il carattere separatore visualizzato tra il numero del capitol
 public ChapterPageSeparator ChapterPageSeparator { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Prima di poter creare numeri di pagina che includano numeri di capitolo, è necessario che alle intestazioni del documento sia applicato un formato struttura numerata.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i capitoli di pagina.
 
@@ -36,7 +38,5 @@ pageSetup.HeadingLevelForChapter = 1;
 
 * enum [ChapterPageSeparator](../../chapterpageseparator/)
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

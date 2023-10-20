@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.ImageFileName
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSavingArgs mülk. Görüntünün kaydedileceği dosya adını yol olmadan alır veya ayarlar.
+linktitle: ImageFileName
+articleTitle: ImageFileName
+second_title: Aspose.Words for .NET
+description: ImageSavingArgs ImageFileName mülk. Görüntünün kaydedileceği dosya adını yol olmadan alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/imagesavingargs/imagefilename/
@@ -14,7 +16,7 @@ Görüntünün kaydedileceği dosya adını (yol olmadan) alır veya ayarlar.
 public string ImageFileName { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, HTML'ye dışa aktarma sırasında görüntü dosyası adlarının nasıl oluşturulduğunu yeniden tanımlamanıza olanak tanır.
 
@@ -28,7 +30,7 @@ Bir belgeyi bir akışa kaydederken oluşturulan görüntü dosyasının adı gi
 
 `ImageFileName` yol olmadan yalnızca dosya adını içermelidir. Aspose.Words, kaydetme yolunu ve dosyanın değerini belirler.`kaynak` belge dosya adını kullanarak HTML'ye yazma özelliği,[`ImagesFolder`](../../htmlsaveoptions/imagesfolder/) ve [`ImagesFolderAlias`](../../htmlsaveoptions/imagesfolderalias/) özellikler.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin nasıl parçalara ayrılacağını ve kaydedileceğini gösterir.
 
@@ -145,7 +147,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Ayrıca bakınız
 
 * class [ImageSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../imagesavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

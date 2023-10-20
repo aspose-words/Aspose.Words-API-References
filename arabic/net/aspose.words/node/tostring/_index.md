@@ -1,12 +1,14 @@
 ---
 title: Node.ToString
-second_title: Aspose.Words لمراجع .NET API
-description: Node طريقة. تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words لـ .NET
+description: Node ToString طريقة. تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words/node/tostring/
 ---
-## ToString(SaveFormat) {#tostring_1}
+## ToString(*[SaveFormat](../../saveformat/)*) {#tostring_1}
 
 تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد.
 
@@ -18,7 +20,7 @@ public string ToString(SaveFormat saveFormat)
 
 محتوى العقدة بالتنسيق المحدد.
 
-### أمثلة
+## أمثلة
 
 يُظهر الفرق بين استدعاء طريقتي GetText وToString على العقدة.
 
@@ -91,12 +93,12 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * enum [SaveFormat](../../saveformat/)
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## ToString(SaveOptions) {#tostring_2}
+## ToString(*[SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#tostring_2}
 
 تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة.
 
@@ -112,7 +114,7 @@ public string ToString(SaveOptions saveOptions)
 
 محتوى العقدة بالتنسيق المحدد.
 
-### أمثلة
+## أمثلة
 
 تصدير محتوى العقدة إلى String بتنسيق HTML.
 
@@ -140,7 +142,5 @@ Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\
 
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Node](../)
-* مساحة الاسم [Aspose.Words](../../node/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

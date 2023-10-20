@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.GetEnumerator
-second_title: Aspose.Words لمراجع .NET API
-description: FormFieldCollection طريقة. يُرجع كائن العداد.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words لـ .NET
+description: FormFieldCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/formfieldcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/formfieldcollection/getenumerator/
 public IEnumerator<FormField> GetEnumerator()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [FormField](../../formfield/)
 * class [FormFieldCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfieldcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

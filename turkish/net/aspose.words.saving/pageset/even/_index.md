@@ -1,7 +1,9 @@
 ---
 title: PageSet.Even
-second_title: Aspose.Words for .NET API Referansı
-description: PageSet mülk. Belgenin tüm çift sayfalarını orijinal sıralarında içeren bir set alır.
+linktitle: Even
+articleTitle: Even
+second_title: Aspose.Words for .NET
+description: PageSet Even mülk. Belgenin tüm çift sayfalarını orijinal sıralarında içeren bir set alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/pageset/even/
@@ -14,14 +16,12 @@ Belgenin tüm çift sayfalarını orijinal sıralarında içeren bir set alır.
 public static PageSet Even { get; }
 ```
 
-### Notlar
+## Notlar
 
 Sayfa indeksleri sıfır tabanlı olduğundan çift sayfaların indeksleri tektir.
 
 ### Ayrıca bakınız
 
 * class [PageSet](../)
-* ad alanı [Aspose.Words.Saving](../../pageset/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

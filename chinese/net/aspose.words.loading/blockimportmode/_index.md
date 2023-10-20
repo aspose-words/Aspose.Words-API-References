@@ -1,7 +1,9 @@
 ---
-title: Enum BlockImportMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.BlockImportMode 枚举. 指定如何从基于 HTML 的文档导入块级元素的属性
+title: BlockImportMode Enum
+linktitle: BlockImportMode
+articleTitle: BlockImportMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.BlockImportMode 枚举. 指定如何从基于 HTML 的文档导入块级元素的属性 在 C#.
 type: docs
 weight: 3560
 url: /zh/net/aspose.words.loading/blockimportmode/
@@ -21,7 +23,7 @@ public enum BlockImportMode
 | Merge | `0` | 父块的属性被合并并存储在子元素（即段落或表格）上。 |
 | Preserve | `1` | 父块的属性被导入到特殊的逻辑结构中，并与 文档节点分开存储。 |
 
-### 例子
+## 例子
 
 显示如何从基于 HTML 的文档导入块级元素的属性。
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BlockImport.docx");
 
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.IsBidiTextSupportedOnUpdate
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или задает значение указывающее полностью ли поддерживается двунаправленный текст во время обновления поля или нет.
+linktitle: IsBidiTextSupportedOnUpdate
+articleTitle: IsBidiTextSupportedOnUpdate
+second_title: Aspose.Words для .NET
+description: FieldOptions IsBidiTextSupportedOnUpdate свойство. Получает или задает значение указывающее полностью ли поддерживается двунаправленный текст во время обновления поля или нет на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/
 public bool IsBidiTextSupportedOnUpdate { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Когда для этого свойства установлено значение`истинный`, выполняются дополнительные шаги для получения результата поля, совместимого с языком с написанием справа налево (т. е. арабского или иврита), во время его обновления.
 
@@ -22,7 +24,7 @@ public bool IsBidiTextSupportedOnUpdate { get; set; }
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать FieldOptions, чтобы гарантировать, что обновление полей полностью поддерживает двунаправленный текст.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "FieldOptions.Bidi.docx");
 ### Смотрите также
 
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

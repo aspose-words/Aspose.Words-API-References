@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputType
-second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Ruft den Typ eines Textformularfelds ab oder legt diesen fest.
+linktitle: TextInputType
+articleTitle: TextInputType
+second_title: Aspose.Words für .NET
+description: FormField TextInputType eigendom. Ruft den Typ eines Textformularfelds ab oder legt diesen fest in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words.fields/formfield/textinputtype/
@@ -14,7 +16,7 @@ Ruft den Typ eines Textformularfelds ab oder legt diesen fest.
 public TextFormFieldType TextInputType { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschiedene Arten von Formularfeldern in ein Dokument eingefügt und mithilfe einer Dokumentbesucherimplementierung verarbeitet werden.
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * enum [TextFormFieldType](../../textformfieldtype/)
 * class [FormField](../)
-* namensraum [Aspose.Words.Fields](../../formfield/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

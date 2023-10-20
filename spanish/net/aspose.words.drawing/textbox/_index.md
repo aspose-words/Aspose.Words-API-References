@@ -1,7 +1,9 @@
 ---
-title: Class TextBox
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.TextBox clase. Define atributos que especifican cómo se muestra un texto dentro de una forma.
+title: TextBox Class
+linktitle: TextBox
+articleTitle: TextBox
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.TextBox clase. Define atributos que especifican cómo se muestra un texto dentro de una forma en C#.
 type: docs
 weight: 1320
 url: /es/net/aspose.words.drawing/textbox/
@@ -38,13 +40,13 @@ public class TextBox
 | Nombre | Descripción |
 | --- | --- |
 | [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | Rompe el enlace al siguiente`TextBox` . |
-| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(TextBox) | Determina si esto`TextBox` se puede vincular al objetivo`TextBox` . |
+| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(*TextBox*) | Determina si esto`TextBox` se puede vincular al objetivo`TextBox` . |
 
-### Observaciones
+## Observaciones
 
 Utilizar el[`TextBox`](../shape/textbox/) propiedad para acceder a las propiedades de texto de una forma. No crea instancias de la`TextBox` clase directamente.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer márgenes internos para un cuadro de texto.
 
@@ -110,5 +112,3 @@ doc.Save(ArtifactsDir + "Shape.TextBoxFitShapeToText.docx");
 
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

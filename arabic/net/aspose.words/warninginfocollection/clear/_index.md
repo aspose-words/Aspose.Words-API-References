@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: WarningInfoCollection طريقة. إزالة كافة العناصر من المجموعة.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: WarningInfoCollection Clear طريقة. إزالة كافة العناصر من المجموعة في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/warninginfocollection/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/warninginfocollection/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخطوط المتوفرة.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### أنظر أيضا
 
 * class [WarningInfoCollection](../)
-* مساحة الاسم [Aspose.Words](../../warninginfocollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ChartSeries
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartSeries 班级. 代表图表系列属性
+title: ChartSeries Class
+linktitle: ChartSeries
+articleTitle: ChartSeries
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartSeries 班级. 代表图表系列属性 在 C#.
 type: docs
 weight: 780
 url: /zh/net/aspose.words.drawing.charts/chartseries/
@@ -40,18 +42,17 @@ public class ChartSeries : IChartDataPoint
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(ChartXValue) | 将指定的 X 值添加到图表系列。如果该系列支持 Y 值和气泡大小，它们将为 X 值 留空。 |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(ChartXValue, ChartYValue) | 将指定的 X 和 Y 值添加到图表系列。 |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(ChartXValue, ChartYValue, double) | 将指定的 X 值、Y 值和气泡大小添加到图表系列中。 |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(*[ChartXValue](../chartxvalue/)*) | 将指定的 X 值添加到图表系列。如果该系列支持 Y 值和气泡大小，它们将为 X 值 留空。 |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | 将指定的 X 和 Y 值添加到图表系列。 |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | 将指定的 X 值、Y 值和气泡大小添加到图表系列中。 |
 | [Clear](../../aspose.words.drawing.charts/chartseries/clear/)() | 从图表系列中删除所有数据值。所有单独数据点和数据标签的格式均已清除。 |
 | [ClearValues](../../aspose.words.drawing.charts/chartseries/clearvalues/)() | 从图表系列中删除所有数据值，并保留数据点和数据标签的格式。 |
-| [CopyFormatFrom](../../aspose.words.drawing.charts/chartseries/copyformatfrom/)(int) |  |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(int, ChartXValue) | 将指定的 X 值插入到图表系列的指定索引处。如果系列支持 Y 值 和气泡大小，则 X 值它们将为空。 |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(int, ChartXValue, ChartYValue) | 将指定的 X 和 Y 值插入图表系列中指定的索引处。 |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(int, ChartXValue, ChartYValue, double) | 将指定的 X 值、Y 值和气泡大小插入到图表系列的指定索引处。 |
-| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(int) | 从指定索引处的图表系列中删除 X 值、Y 值和气泡大小（如果支持）。 相应的数据点和数据标签也会被删除。 |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(*int, [ChartXValue](../chartxvalue/)*) | 将指定的 X 值插入到图表系列的指定索引处。如果系列支持 Y 值 和气泡大小，则 X 值它们将为空。 |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | 将指定的 X 和 Y 值插入图表系列中指定的索引处。 |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | 将指定的 X 值、Y 值和气泡大小插入到图表系列的指定索引处。 |
+| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(*int*) | 从指定索引处的图表系列中删除 X 值、Y 值和气泡大小（如果支持）。 相应的数据点和数据标签也会被删除。 |
 
-### 例子
+## 例子
 
 展示如何将标签应用到折线图中的数据点。
 
@@ -131,5 +132,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 * interface [IChartDataPoint](../ichartdatapoint/)
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

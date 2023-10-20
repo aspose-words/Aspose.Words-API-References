@@ -1,7 +1,9 @@
 ---
 title: SubDocument.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: SubDocument eigendom. Gibt zurückSubDocument .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: SubDocument NodeType eigendom. Gibt zurückSubDocument  in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/subdocument/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückSubDocument .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf das Unterdokument eines Masterdokuments zugegriffen wird.
 
@@ -32,7 +34,5 @@ Assert.False(subDocument.IsComposite);
 
 * enum [NodeType](../../nodetype/)
 * class [SubDocument](../)
-* namensraum [Aspose.Words](../../subdocument/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

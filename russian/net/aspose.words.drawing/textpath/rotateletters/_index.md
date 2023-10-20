@@ -1,7 +1,9 @@
 ---
 title: TextPath.RotateLetters
-second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. Определяет поворачиваются ли буквы текста.
+linktitle: RotateLetters
+articleTitle: RotateLetters
+second_title: Aspose.Words для .NET
+description: TextPath RotateLetters свойство. Определяет поворачиваются ли буквы текста на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.drawing/textpath/rotateletters/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textpath/rotateletters/
 public bool RotateLetters { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Смотрите также
 
 * class [TextPath](../)
-* пространство имен [Aspose.Words.Drawing](../../textpath/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

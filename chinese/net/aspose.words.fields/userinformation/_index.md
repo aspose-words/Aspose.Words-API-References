@@ -1,7 +1,9 @@
 ---
-title: Class UserInformation
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.UserInformation 班级. 指定有关用户的信息
+title: UserInformation Class
+linktitle: UserInformation
+articleTitle: UserInformation
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.UserInformation 班级. 指定有关用户的信息 在 C#.
 type: docs
 weight: 2790
 url: /zh/net/aspose.words.fields/userinformation/
@@ -31,7 +33,7 @@ public class UserInformation
 | [Initials](../../aspose.words.fields/userinformation/initials/) { get; set; } | 获取或设置用户的姓名缩写。 |
 | [Name](../../aspose.words.fields/userinformation/name/) { get; set; } | 获取或设置用户名。 |
 
-### 例子
+## 例子
 
 演示如何设置用户详细信息并使用字段显示它们。
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

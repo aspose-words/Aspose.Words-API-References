@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Clear
-second_title: Справочник по API Aspose.Words для .NET
-description: WarningInfoCollection метод. Удаляет все элементы из коллекции.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words для .NET
+description: WarningInfoCollection Clear метод. Удаляет все элементы из коллекции на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/warninginfocollection/clear/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/warninginfocollection/clear/
 public void Clear()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Смотрите также
 
 * class [WarningInfoCollection](../)
-* пространство имен [Aspose.Words](../../warninginfocollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BoundsInPoints
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 获取形状的包含块相对于最顶部形状的锚点的位置和大小以点为单位
+linktitle: BoundsInPoints
+articleTitle: BoundsInPoints
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase BoundsInPoints 财产. 获取形状的包含块相对于最顶部形状的锚点的位置和大小以点为单位 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.drawing/shapebase/boundsinpoints/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shapebase/boundsinpoints/
 public RectangleF BoundsInPoints { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何验证包含块边界的形状。
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Shape.Bounds.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

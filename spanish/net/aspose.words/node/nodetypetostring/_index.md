@@ -1,7 +1,9 @@
 ---
 title: Node.NodeTypeToString
-second_title: Referencia de API de Aspose.Words para .NET
-description: Node método. Un método de utilidad que convierte un valor de enumeración de tipo de nodo en una cadena fácil de usar.
+linktitle: NodeTypeToString
+articleTitle: NodeTypeToString
+second_title: Aspose.Words para .NET
+description: Node NodeTypeToString método. Un método de utilidad que convierte un valor de enumeración de tipo de nodo en una cadena fácil de usar en C#.
 type: docs
 weight: 170
 url: /es/net/aspose.words/node/nodetypetostring/
@@ -14,7 +16,7 @@ Un método de utilidad que convierte un valor de enumeración de tipo de nodo en
 public static string NodeTypeToString(NodeType nodeType)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar la propiedad NextSibling de un nodo para enumerar sus hijos inmediatos.
 
@@ -77,7 +79,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* espacio de nombres [Aspose.Words](../../node/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

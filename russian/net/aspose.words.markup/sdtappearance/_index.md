@@ -1,7 +1,9 @@
 ---
-title: Enum SdtAppearance
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.SdtAppearance перечисление. Определяет внешний вид тега структурированного документа.
+title: SdtAppearance Enum
+linktitle: SdtAppearance
+articleTitle: SdtAppearance
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Markup.SdtAppearance перечисление. Определяет внешний вид тега структурированного документа на С#.
 type: docs
 weight: 3990
 url: /ru/net/aspose.words.markup/sdtappearance/
@@ -27,5 +29,3 @@ public enum SdtAppearance
 
 * пространство имен [Aspose.Words.Markup](../../aspose.words.markup/)
 * сборка [Aspose.Words](../../)
-
-

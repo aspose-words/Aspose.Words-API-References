@@ -1,7 +1,9 @@
 ---
 title: Field.Update
-second_title: Aspose.Words for .NET API Referansı
-description: Field yöntem. Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar.
+linktitle: Update
+articleTitle: Update
+second_title: Aspose.Words for .NET
+description: Field Update yöntem. Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.fields/field/update/
@@ -14,7 +16,7 @@ Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar.
 public void Update()
 ```
 
-### Örnekler
+## Örnekler
 
 FieldType kullanılarak bir belgeye nasıl alan ekleneceğini gösterir.
 
@@ -118,12 +120,12 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Ayrıca bakınız
 
 * class [Field](../)
-* ad alanı [Aspose.Words.Fields](../../field/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Update(bool) {#update_1}
+## Update(*bool*) {#update_1}
 
 Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar.
 
@@ -135,7 +137,7 @@ public void Update(bool ignoreMergeFormat)
 | --- | --- | --- |
 | ignoreMergeFormat | Boolean | Eğer`doğru` daha sonra MERGEFORMAT anahtarından bağımsız olarak doğrudan alan sonucu biçimlendirmesinden vazgeçilir, aksi takdirde normal güncelleme gerçekleştirilir. |
 
-### Örnekler
+## Örnekler
 
 Bir belge yüklenirken INCLUDEPICTURE alanlarının nasıl korunacağını veya atılacağını gösterir.
 
@@ -177,7 +179,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Ayrıca bakınız
 
 * class [Field](../)
-* ad alanı [Aspose.Words.Fields](../../field/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

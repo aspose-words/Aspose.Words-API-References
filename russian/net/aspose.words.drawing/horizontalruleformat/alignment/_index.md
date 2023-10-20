@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.Alignment
-second_title: Справочник по API Aspose.Words для .NET
-description: HorizontalRuleFormat свойство. Получает или задает выравнивание горизонтальной линейки.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words для .NET
+description: HorizontalRuleFormat Alignment свойство. Получает или задает выравнивание горизонтальной линейки на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/horizontalruleformat/alignment/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/horizontalruleformat/alignment/
 public HorizontalRuleAlignment Alignment { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Left.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить фигуру горизонтальной линейки и настроить ее форматирование.
 
@@ -42,7 +44,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 
 * enum [HorizontalRuleAlignment](../../horizontalrulealignment/)
 * class [HorizontalRuleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../horizontalruleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

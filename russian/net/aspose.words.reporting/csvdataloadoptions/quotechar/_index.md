@@ -1,7 +1,9 @@
 ---
 title: CsvDataLoadOptions.QuoteChar
-second_title: Справочник по API Aspose.Words для .NET
-description: CsvDataLoadOptions свойство. Получает или задает символ используемый для кавычек значений полей.
+linktitle: QuoteChar
+articleTitle: QuoteChar
+second_title: Aspose.Words для .NET
+description: CsvDataLoadOptions QuoteChar свойство. Получает или задает символ используемый для кавычек значений полей на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.reporting/csvdataloadoptions/quotechar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.reporting/csvdataloadoptions/quotechar/
 public char QuoteChar { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — «» (кавычка).
 
@@ -23,7 +25,5 @@ public char QuoteChar { get; set; }
 ### Смотрите также
 
 * class [CsvDataLoadOptions](../)
-* пространство имен [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
-
-

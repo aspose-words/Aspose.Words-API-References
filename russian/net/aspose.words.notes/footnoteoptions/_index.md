@@ -1,7 +1,9 @@
 ---
-title: Class FootnoteOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Notes.FootnoteOptions сорт. Представляет параметры нумерации сносок для документа или раздела.
+title: FootnoteOptions Class
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Notes.FootnoteOptions сорт. Представляет параметры нумерации сносок для документа или раздела на С#.
 type: docs
 weight: 4280
 url: /ru/net/aspose.words.notes/footnoteoptions/
@@ -26,7 +28,7 @@ public sealed class FootnoteOptions
 | [RestartRule](../../aspose.words.notes/footnoteoptions/restartrule/) { get; set; } | Определяет, когда перезапускается автоматическая нумерация. |
 | [StartNumber](../../aspose.words.notes/footnoteoptions/startnumber/) { get; set; } | Указывает начальный номер или символ для первых автоматически нумерованных сносок. |
 
-### Примеры
+## Примеры
 
 Показывает, как разделить раздел сносок на заданное количество столбцов.
 
@@ -208,5 +210,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * property [FootnoteOptions](../../aspose.words/pagesetup/footnoteoptions/)
 * пространство имен [Aspose.Words.Notes](../../aspose.words.notes/)
 * сборка [Aspose.Words](../../)
-
-

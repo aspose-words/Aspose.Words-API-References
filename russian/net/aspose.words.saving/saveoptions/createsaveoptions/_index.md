@@ -1,12 +1,14 @@
 ---
 title: SaveOptions.CreateSaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions метод. Создает объект параметров сохранения класса подходящего для указанного формата сохранения.
+linktitle: CreateSaveOptions
+articleTitle: CreateSaveOptions
+second_title: Aspose.Words для .NET
+description: SaveOptions CreateSaveOptions метод. Создает объект параметров сохранения класса подходящего для указанного формата сохранения на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/saveoptions/createsaveoptions/
 ---
-## CreateSaveOptions(SaveFormat) {#createsaveoptions}
+## CreateSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#createsaveoptions}
 
 Создает объект параметров сохранения класса, подходящего для указанного формата сохранения.
 
@@ -22,7 +24,7 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 
 Объект класса, производного от[`SaveOptions`](../).
 
-### Примеры
+## Примеры
 
 Показывает возможность оптимизировать потребление памяти при рендеринге больших документов в PDF.
 
@@ -45,12 +47,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## CreateSaveOptions(string) {#createsaveoptions_1}
+## CreateSaveOptions(*string*) {#createsaveoptions_1}
 
 Создает объект параметров сохранения класса, соответствующего расширению файла, указанному в данном имени файла.
 
@@ -66,7 +68,7 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 Объект класса, производного от[`SaveOptions`](../).
 
-### Примеры
+## Примеры
 
 Показывает, как установить шаблон по умолчанию для документов, к которым не прикреплены шаблоны.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Смотрите также
 
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

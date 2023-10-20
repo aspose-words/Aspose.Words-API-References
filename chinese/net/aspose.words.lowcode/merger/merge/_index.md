@@ -1,12 +1,14 @@
 ---
 title: Merger.Merge
-second_title: Aspose.Words for .NET API 参考
-description: Merger 方法. 使用指定的输入和输出文件名将给定的输入文档合并到单个输出文档中
+linktitle: Merge
+articleTitle: Merge
+second_title: 用于 .NET 的 Aspose.Words
+description: Merger Merge 方法. 使用指定的输入和输出文件名将给定的输入文档合并到单个输出文档中 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.lowcode/merger/merge/
 ---
-## Merge(string, string[]) {#merge_4}
+## Merge(*string, string[]*) {#merge_4}
 
 使用指定的输入和输出文件名将给定的输入文档合并到单个输出文档中。
 
@@ -19,11 +21,11 @@ public static void Merge(string outputFile, string[] inputFiles)
 | outputFile | String | 输出文件名。 |
 | inputFiles | String[] | 输入文件名。 |
 
-### 评论
+## 评论
 
 默认情况下KeepSourceFormatting用来。
 
-### 例子
+## 例子
 
 演示如何将文档合并为单个输出文档。
 
@@ -42,12 +44,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 ### 也可以看看
 
 * class [Merger](../)
-* 命名空间 [Aspose.Words.LowCode](../../merger/)
+* 命名空间 [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Merge(string, string[], SaveFormat, MergeFormatMode) {#merge_5}
+## Merge(*string, string[], [SaveFormat](../../../aspose.words/saveformat/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_5}
 
 使用指定的输入输出文件名和最终文档格式将给定的输入文档合并为单个输出文档。
 
@@ -63,7 +65,7 @@ public static void Merge(string outputFile, string[] inputFiles, SaveFormat save
 | saveFormat | SaveFormat | 保存格式。 |
 | mergeFormatMode | MergeFormatMode | 指定如何合并冲突的格式。 |
 
-### 例子
+## 例子
 
 演示如何将文档合并为单个输出文档。
 
@@ -84,12 +86,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* 命名空间 [Aspose.Words.LowCode](../../merger/)
+* 命名空间 [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Merge(string, string[], SaveOptions, MergeFormatMode) {#merge_6}
+## Merge(*string, string[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_6}
 
 使用指定的输入输出文件名和保存选项将给定的输入文档合并到单个输出文档中。
 
@@ -105,7 +107,7 @@ public static void Merge(string outputFile, string[] inputFiles, SaveOptions sav
 | saveOptions | SaveOptions | 保存选项。 |
 | mergeFormatMode | MergeFormatMode | 指定如何合并冲突的格式。 |
 
-### 例子
+## 例子
 
 演示如何将文档合并为单个输出文档。
 
@@ -126,12 +128,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* 命名空间 [Aspose.Words.LowCode](../../merger/)
+* 命名空间 [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Merge(string[], MergeFormatMode) {#merge_1}
+## Merge(*string[], [MergeFormatMode](../../mergeformatmode/)*) {#merge_1}
 
 将给定的输入文档合并为单个文档并返回[`Document`](../../../aspose.words/document/)最终文档的实例.
 
@@ -144,7 +146,7 @@ public static Document Merge(string[] inputFiles, MergeFormatMode mergeFormatMod
 | inputFiles | String[] | 输入文件名。 |
 | mergeFormatMode | MergeFormatMode | 指定如何合并冲突的格式。 |
 
-### 例子
+## 例子
 
 演示如何将文档合并为单个输出文档。
 
@@ -165,12 +167,12 @@ doc.Save(ArtifactsDir + "LowCode.MergeDocument.DocumentInstance.docx");
 * class [Document](../../../aspose.words/document/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* 命名空间 [Aspose.Words.LowCode](../../merger/)
+* 命名空间 [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream, Stream[], SaveFormat) {#merge_2}
+## Merge(*Stream, Stream[], [SaveFormat](../../../aspose.words/saveformat/)*) {#merge_2}
 
 使用指定的输入输出流和最终文档格式将给定的输入文档合并为单个输出文档。
 
@@ -184,7 +186,7 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveFormat 
 | inputStreams | Stream[] | 输入流。 |
 | saveFormat | SaveFormat | 保存格式。 |
 
-### 例子
+## 例子
 
 演示如何将文档从流合并到单个输出文档中。
 
@@ -210,12 +212,12 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [Merger](../)
-* 命名空间 [Aspose.Words.LowCode](../../merger/)
+* 命名空间 [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream, Stream[], SaveOptions, MergeFormatMode) {#merge_3}
+## Merge(*Stream, Stream[], [SaveOptions](../../../aspose.words.saving/saveoptions/), [MergeFormatMode](../../mergeformatmode/)*) {#merge_3}
 
 使用指定的输入输出流和保存选项将给定的输入文档合并到单个输出文档中。
 
@@ -231,7 +233,7 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveOptions
 | saveOptions | SaveOptions | 保存选项。 |
 | mergeFormatMode | MergeFormatMode | 指定如何合并冲突的格式。 |
 
-### 例子
+## 例子
 
 演示如何将文档从流合并到单个输出文档中。
 
@@ -258,12 +260,12 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* 命名空间 [Aspose.Words.LowCode](../../merger/)
+* 命名空间 [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Merge(Stream[], MergeFormatMode) {#merge}
+## Merge(*Stream[], [MergeFormatMode](../../mergeformatmode/)*) {#merge}
 
 将给定的输入文档合并为单个文档并返回[`Document`](../../../aspose.words/document/)最终文档的实例.
 
@@ -276,7 +278,7 @@ public static Document Merge(Stream[] inputStreams, MergeFormatMode mergeFormatM
 | inputStreams | Stream[] | 输入流。 |
 | mergeFormatMode | MergeFormatMode | 指定如何合并冲突的格式。 |
 
-### 例子
+## 例子
 
 演示如何将文档从流合并到单个输出文档中。
 
@@ -303,7 +305,5 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 * class [Document](../../../aspose.words/document/)
 * enum [MergeFormatMode](../../mergeformatmode/)
 * class [Merger](../)
-* 命名空间 [Aspose.Words.LowCode](../../merger/)
+* 命名空间 [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
 * 部件 [Aspose.Words](../../../)
-
-

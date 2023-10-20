@@ -1,7 +1,9 @@
 ---
-title: Enum WarningType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WarningType перечисление. Указывает тип предупреждения выдаваемого Aspose.Words во время загрузки или сохранения документа.
+title: WarningType Enum
+linktitle: WarningType
+articleTitle: WarningType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.WarningType перечисление. Указывает тип предупреждения выдаваемого Aspose.Words во время загрузки или сохранения документа на С#.
 type: docs
 weight: 6660
 url: /ru/net/aspose.words/warningtype/
@@ -31,7 +33,7 @@ public enum WarningType
 | UnexpectedContent | `1000000` | Общий непредвиденный контент, без конкретного кода. |
 | Hint | `10000000` | Сообщает о потенциальной проблеме или предлагает улучшение. |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
 
@@ -92,5 +94,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

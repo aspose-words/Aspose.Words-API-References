@@ -1,7 +1,9 @@
 ---
 title: FieldIf.FalseText
-second_title: Aspose.Words för .NET API Referens
-description: FieldIf fast egendom. Hämtar eller ställer in texten som visas om jämförelseuttrycket ärfalsk .
+linktitle: FalseText
+articleTitle: FalseText
+second_title: Aspose.Words för .NET
+description: FieldIf FalseText fast egendom. Hämtar eller ställer in texten som visas om jämförelseuttrycket ärfalsk  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldif/falsetext/
@@ -14,7 +16,7 @@ Hämtar eller ställer in texten som visas om jämförelseuttrycket är`falsk` .
 public string FalseText { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett IF-fält.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### Se även
 
 * class [FieldIf](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldif/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

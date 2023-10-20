@@ -1,7 +1,9 @@
 ---
-title: TextWatermarkOptions.TextWatermarkOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextWatermarkOptions constructeur. Default_Constructor
+title: TextWatermarkOptions
+linktitle: TextWatermarkOptions
+articleTitle: TextWatermarkOptions
+second_title: Aspose.Words für .NET
+description: TextWatermarkOptions constructeur. Default_Constructor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/textwatermarkoptions/textwatermarkoptions/
@@ -17,7 +19,5 @@ public TextWatermarkOptions()
 ### Siehe auch
 
 * class [TextWatermarkOptions](../)
-* namensraum [Aspose.Words](../../textwatermarkoptions/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

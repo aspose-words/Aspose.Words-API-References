@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: TextColumnCollection propiedad. Devuelve una columna de texto en el índice especificado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: TextColumnCollection Item propiedad. Devuelve una columna de texto en el índice especificado en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/textcolumncollection/item/
@@ -14,7 +16,7 @@ Devuelve una columna de texto en el índice especificado.
 public TextColumn this[int index] { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear columnas espaciadas de manera desigual.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 
 * class [TextColumn](../../textcolumn/)
 * class [TextColumnCollection](../)
-* espacio de nombres [Aspose.Words](../../textcolumncollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

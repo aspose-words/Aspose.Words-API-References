@@ -1,7 +1,9 @@
 ---
 title: FieldXE.PageRangeBookmarkName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldXE eigendom. Ruft den Namen des Lesezeichens ab das einen Seitenbereich markiert der als Seitenzahl des Eintrags eingefügt wird oder legt diesen fest.
+linktitle: PageRangeBookmarkName
+articleTitle: PageRangeBookmarkName
+second_title: Aspose.Words für .NET
+description: FieldXE PageRangeBookmarkName eigendom. Ruft den Namen des Lesezeichens ab das einen Seitenbereich markiert der als Seitenzahl des Eintrags eingefügt wird oder legt diesen fest in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldxe/pagerangebookmarkname/
@@ -14,7 +16,7 @@ Ruft den Namen des Lesezeichens ab, das einen Seitenbereich markiert, der als Se
 public string PageRangeBookmarkName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die übergreifenden Seiten eines Lesezeichens als Seitenbereich für einen INDEX-Feldeintrag angegeben werden.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ### Siehe auch
 
 * class [FieldXE](../)
-* namensraum [Aspose.Words.Fields](../../fieldxe/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ChartType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartType opsomming. Gibt den Typ eines Diagramms an.
+title: ChartType Enum
+linktitle: ChartType
+articleTitle: ChartType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartType opsomming. Gibt den Typ eines Diagramms an in C#.
 type: docs
 weight: 830
 url: /de/net/aspose.words.drawing.charts/charttype/
@@ -54,7 +56,7 @@ public enum ChartType
 | Surface | `33` | Oberflächenkarte. |
 | Surface3D | `34` | 3D-Oberflächendiagramm. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine geeignete Art von Diagrammreihe für einen Diagrammtyp erstellt wird.
 
@@ -144,5 +146,3 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

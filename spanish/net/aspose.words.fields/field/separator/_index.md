@@ -1,7 +1,9 @@
 ---
 title: Field.Separator
-second_title: Referencia de API de Aspose.Words para .NET
-description: Field propiedad. Obtiene el nodo que representa el separador de campos. Puede sernulo .
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words para .NET
+description: Field Separator propiedad. Obtiene el nodo que representa el separador de campos. Puede sernulo  en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.fields/field/separator/
@@ -14,7 +16,7 @@ Obtiene el nodo que representa el separador de campos. Puede ser`nulo` .
 public FieldSeparator Separator { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con una colección de campos.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldSeparator](../../fieldseparator/)
 * class [Field](../)
-* espacio de nombres [Aspose.Words.Fields](../../field/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

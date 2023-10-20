@@ -1,9 +1,11 @@
 ---
 title: GlossaryDocument.GetBuildingBlock
-second_title: Aspose.Words لمراجع .NET API
-description: GlossaryDocument طريقة. يبحث عن الكتلة البرمجية الإنشائية باستخدام المعرض والفئة والاسم المحدد.
+linktitle: GetBuildingBlock
+articleTitle: GetBuildingBlock
+second_title: Aspose.Words لـ .NET
+description: GlossaryDocument GetBuildingBlock طريقة. يبحث عن الكتلة البرمجية الإنشائية باستخدام المعرض والفئة والاسم المحدد في C#.
 type: docs
-weight: 90
+weight: 70
 url: /ar/net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument.GetBuildingBlock method
@@ -24,13 +26,13 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 
 كتلة البناء المطابقة أو`باطل` إذا لم يتم العثور على المباراة.
 
-### ملاحظات
+## ملاحظات
 
 هذه طريقة ملائمة تتكرر على كل الكتل البرمجية الإنشائية في هذه المجموعة وتقوم بإرجاع الكتلة البرمجية الأولى التي تطابق المعرض والفئة والاسم المحدد.
 
 يقوم Microsoft Word بتنظيم الكتل البرمجية الإنشائية في المعارض. تم تحديد المعارض مسبقًا باستخدام ملف[`BuildingBlockGallery`](../../buildingblockgallery/) enum. داخل كل معرض، يمكن تنظيم الكتل البرمجية الإنشائية في فئة واحدة أو أكثر. اسم الفئة عبارة عن سلسلة. كل كتلة بناء لها اسم. لا يُضمن أن يكون اسم block فريدًا.
 
-### أمثلة
+## أمثلة
 
 يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند المسرد.
 
@@ -136,7 +138,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * class [BuildingBlock](../../buildingblock/)
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [GlossaryDocument](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

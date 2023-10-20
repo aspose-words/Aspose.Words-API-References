@@ -1,7 +1,9 @@
 ---
-title: Class ChartLegend
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartLegend сорт. Представляет свойства легенды диаграммы.
+title: ChartLegend Class
+linktitle: ChartLegend
+articleTitle: ChartLegend
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartLegend сорт. Представляет свойства легенды диаграммы на С#.
 type: docs
 weight: 720
 url: /ru/net/aspose.words.drawing.charts/chartlegend/
@@ -24,7 +26,7 @@ public class ChartLegend
 | [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. Значение по умолчанию:`ЛОЖЬ` . |
 | [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Указывает положение легенды на диаграмме. Значение по умолчанию:Right . |
 
-### Примеры
+## Примеры
 
 Показывает, как изменить внешний вид легенды диаграммы.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

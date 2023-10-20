@@ -1,7 +1,9 @@
 ---
 title: Font.SmallCaps
-second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. True если шрифт отформатирован как маленькие заглавные буквы.
+linktitle: SmallCaps
+articleTitle: SmallCaps
+second_title: Aspose.Words для .NET
+description: Font SmallCaps свойство. True если шрифт отформатирован как маленькие заглавные буквы на С#.
 type: docs
 weight: 360
 url: /ru/net/aspose.words/font/smallcaps/
@@ -14,7 +16,7 @@ True, если шрифт отформатирован как маленькие
 public bool SmallCaps { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как отформатировать прогон для отображения его содержимого заглавными буквами.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Font.Caps.docx");
 ### Смотрите также
 
 * class [Font](../)
-* пространство имен [Aspose.Words](../../font/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

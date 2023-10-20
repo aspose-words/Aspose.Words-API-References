@@ -1,7 +1,9 @@
 ---
-title: HeaderFooter.HeaderFooter
-second_title: Aspose.Words für .NET-API-Referenz
-description: HeaderFooter constructeur. Erstellt eine neue Kopf oder Fußzeile des angegebenen Typs.
+title: HeaderFooter
+linktitle: HeaderFooter
+articleTitle: HeaderFooter
+second_title: Aspose.Words für .NET
+description: HeaderFooter constructeur. Erstellt eine neue Kopf oder Fußzeile des angegebenen Typs in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/headerfooter/headerfooter/
@@ -19,13 +21,13 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 | doc | DocumentBase | Das Eigentümerdokument. |
 | headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../headerfootertype/) value , der den Typ der Kopf- oder Fußzeile angibt. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wann[`HeaderFooter`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../node/parentnode/) Ist`Null`.
 
-Anhängen[`HeaderFooter`](../)zu einem[`Section`](../../section/) verwendenNode) ,Node) , oder[`HeadersFooters`](../../section/headersfooters/) Eigentum und Methoden[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
+Anhängen[`HeaderFooter`](../)zu einem[`Section`](../../section/) verwenden[`InsertAfter`](../../compositenode/insertafter/) ,[`InsertBefore`](../../compositenode/insertbefore/) , oder[`HeadersFooters`](../../section/headersfooters/) Eigentum und Methoden[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Kopf- und Fußzeile erstellt wird.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 * class [DocumentBase](../../documentbase/)
 * enum [HeaderFooterType](../../headerfootertype/)
 * class [HeaderFooter](../)
-* namensraum [Aspose.Words](../../headerfooter/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

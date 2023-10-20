@@ -1,18 +1,20 @@
 ---
 title: Aspose.Words.Settings
-second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words.Settings命名空间包含在指定文档中存储的各种设置和选项时使用的类和枚举  这些是邮件合并写保护兼容性和其他设置
+linktitle: Aspose.Words.Settings
+articleTitle: Aspose.Words.Settings
+second_title: 用于 .NET 的 Aspose.Words
+description: 这Aspose.Words.Settings命名空间包含在指定文档中存储的各种设置和选项时使用的类和枚举  这些是邮件合并写保护兼容性和其他设置 在 C#.
 type: docs
 weight: 240
 url: /zh/net/aspose.words.settings/
 ---
-这 **Aspose.Words.Settings**命名空间包含在指定文档中存储的各种设置和选项时使用的类和枚举 。 这些是邮件合并、写保护、兼容性和其他设置。
+这**Aspose.Words.Settings**命名空间包含在指定文档中存储的各种设置和选项时使用的类和枚举 。 这些是邮件合并、写保护、兼容性和其他设置。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
-| [CompatibilityOptions](./compatibilityoptions/) | 包含兼容性选项（即在 **兼容性** 选项卡 **选项**Microsoft Word 中的对话框). |
+| [CompatibilityOptions](./compatibilityoptions/) | 包含兼容性选项（即在**兼容性** 选项卡**选项**Microsoft Word 中的对话框). |
 | [HyphenationOptions](./hyphenationoptions/) | 允许配置文档连字符选项。 |
 | [MailMergeSettings](./mailmergesettings/) | 指定文档的所有邮件合并信息。 |
 | [Odso](./odso/) | 指定邮件合并数据源的 Office 数据源对象 (ODSO) 设置。 |
@@ -38,5 +40,3 @@ url: /zh/net/aspose.words.settings/
 | [OdsoFieldMappingType](./odsofieldmappingtype/) | 指定用于指示给定邮件合并字段是否已映射到给定外部数据源中的列的可能类型。 |
 | [ViewType](./viewtype/) | Microsoft Word 中查看模式的可能值。 |
 | [ZoomType](./zoomtype/) | 文档在 Microsoft Word 屏幕上显示的大小的可能值。 |
-
-

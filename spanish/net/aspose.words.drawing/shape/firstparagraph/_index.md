@@ -1,7 +1,9 @@
 ---
 title: Shape.FirstParagraph
-second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. Obtiene el primer párrafo de la forma.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words para .NET
+description: Shape FirstParagraph propiedad. Obtiene el primer párrafo de la forma en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.drawing/shape/firstparagraph/
@@ -14,7 +16,7 @@ Obtiene el primer párrafo de la forma.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear y dar formato a un cuadro de texto.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Shape](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shape/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

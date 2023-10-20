@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.CustomTimeZoneInfo
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. الحصول على أو تعيين المنطقة الزمنية المحلية المخصصة المستخدمة لحقول التاريخ/الوقت.
+linktitle: CustomTimeZoneInfo
+articleTitle: CustomTimeZoneInfo
+second_title: Aspose.Words لـ .NET
+description: SaveOptions CustomTimeZoneInfo ملكية. الحصول على أو تعيين المنطقة الزمنية المحلية المخصصة المستخدمة لحقول التاريخ/الوقت في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/saveoptions/customtimezoneinfo/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/saveoptions/customtimezoneinfo/
 public TimeZoneInfo CustomTimeZoneInfo { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتوفر هذا الخيار إما في .Net Framework بدءًا من الإصدار 3.5 أو .Net Standard.
 
@@ -23,7 +25,5 @@ public TimeZoneInfo CustomTimeZoneInfo { get; set; }
 ### أنظر أيضا
 
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

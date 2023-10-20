@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeDataType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.MailMergeDataType перечисление. Указывает тип внешнего источника данных слияния почты.
+title: MailMergeDataType Enum
+linktitle: MailMergeDataType
+articleTitle: MailMergeDataType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Settings.MailMergeDataType перечисление. Указывает тип внешнего источника данных слияния почты на С#.
 type: docs
 weight: 5820
 url: /ru/net/aspose.words.settings/mailmergedatatype/
@@ -27,7 +29,7 @@ public enum MailMergeDataType
 | Native | `5` | Указывает, что данный документ подключен к внешнему источнику данных через интерфейс объекта источника данных Office (ODSO). |
 | Default | `-1` | РавноNone . |
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [DataType](../mailmergesettings/datatype/)
 * пространство имен [Aspose.Words.Settings](../../aspose.words.settings/)
 * сборка [Aspose.Words](../../)
-
-

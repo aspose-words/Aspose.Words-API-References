@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Schemas
-second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlPart propiedad. Especifica el conjunto de esquemas XML asociados con esta parte XML personalizada.
+linktitle: Schemas
+articleTitle: Schemas
+second_title: Aspose.Words para .NET
+description: CustomXmlPart Schemas propiedad. Especifica el conjunto de esquemas XML asociados con esta parte XML personalizada en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.markup/customxmlpart/schemas/
@@ -14,7 +16,7 @@ Especifica el conjunto de esquemas XML asociados con esta parte XML personalizad
 public CustomXmlSchemaCollection Schemas { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una etiqueta de documento estructurado con datos XML personalizados.
 
@@ -82,7 +84,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlSchemaCollection](../../customxmlschemacollection/)
 * class [CustomXmlPart](../)
-* espacio de nombres [Aspose.Words.Markup](../../customxmlpart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

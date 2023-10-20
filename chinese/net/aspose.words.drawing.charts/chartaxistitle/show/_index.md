@@ -1,9 +1,11 @@
 ---
 title: ChartAxisTitle.Show
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxisTitle 财产. 确定是否应显示轴的标题 默认值为错误的.
+linktitle: Show
+articleTitle: Show
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxisTitle Show 财产. 确定是否应显示轴的标题 默认值为错误的 在 C#.
 type: docs
-weight: 30
+weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartaxistitle/show/
 ---
 ## ChartAxisTitle.Show property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartaxistitle/show/
 public bool Show { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何设置图表轴标题。
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ### 也可以看看
 
 * class [ChartAxisTitle](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TabStop.Alignment
-second_title: Aspose.Words for .NET API 参考
-description: TabStop 财产. 获取或设置此制表位处的文本对齐方式
+linktitle: Alignment
+articleTitle: Alignment
+second_title: 用于 .NET 的 Aspose.Words
+description: TabStop Alignment 财产. 获取或设置此制表位处的文本对齐方式 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/tabstop/alignment/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/tabstop/alignment/
 public TabAlignment Alignment { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何修改目录相关段落中右侧制表位的位置。
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [TabAlignment](../../tabalignment/)
 * class [TabStop](../)
-* 命名空间 [Aspose.Words](../../tabstop/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

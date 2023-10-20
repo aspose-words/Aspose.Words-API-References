@@ -1,7 +1,9 @@
 ---
 title: TaskPane.DockState
-second_title: Aspose.Words لمراجع .NET API
-description: TaskPane ملكية. يحدد الموقع الأخير لكائن جزء المهام هذا.
+linktitle: DockState
+articleTitle: DockState
+second_title: Aspose.Words لـ .NET
+description: TaskPane DockState ملكية. يحدد الموقع الأخير لكائن جزء المهام هذا في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.webextensions/taskpane/dockstate/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.webextensions/taskpane/dockstate/
 public TaskPaneDockState DockState { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [TaskPaneDockState](../../taskpanedockstate/)
 * class [TaskPane](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../taskpane/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

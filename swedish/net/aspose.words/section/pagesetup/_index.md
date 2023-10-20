@@ -1,7 +1,9 @@
 ---
 title: Section.PageSetup
-second_title: Aspose.Words för .NET API Referens
-description: Section fast egendom. Returnerar ett objekt som representerar sidinställningar och avsnittsegenskaper.
+linktitle: PageSetup
+articleTitle: PageSetup
+second_title: Aspose.Words för .NET
+description: Section PageSetup fast egendom. Returnerar ett objekt som representerar sidinställningar och avsnittsegenskaper i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/section/pagesetup/
@@ -14,7 +16,7 @@ Returnerar ett objekt som representerar sidinställningar och avsnittsegenskaper
 public PageSetup PageSetup { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en bred blå bandkant längst upp på första sidan.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [PageSetup](../../pagesetup/)
 * class [Section](../)
-* namnutrymme [Aspose.Words](../../section/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Count
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentPropertyCollection свойство. Получает количество элементов в коллекции.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words для .NET
+description: DocumentPropertyCollection Count свойство. Получает количество элементов в коллекции на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.properties/documentpropertycollection/count/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.properties/documentpropertycollection/count/
 public int Count { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с настраиваемыми свойствами документа.
 
@@ -39,7 +41,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 ### Смотрите также
 
 * class [DocumentPropertyCollection](../)
-* пространство имен [Aspose.Words.Properties](../../documentpropertycollection/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

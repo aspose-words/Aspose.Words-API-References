@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Drawing.Ole
-second_title: Aspose.Words for .NET API 参考
-description: 包含与 Microsoft Word 文档中的 OLE/ActiveX 控件和表单一起使用的类
+linktitle: Aspose.Words.Drawing.Ole
+articleTitle: Aspose.Words.Drawing.Ole
+second_title: 用于 .NET 的 Aspose.Words
+description: 包含与 Microsoft Word 文档中的 OLE/ActiveX 控件和表单一起使用的类 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.drawing.ole/
@@ -20,5 +22,3 @@ url: /zh/net/aspose.words.drawing.ole/
 | 枚举 | 描述 |
 | --- | --- |
 | [Forms2OleControlType](./forms2olecontroltype/) | 枚举 Forms 2.0 控件的类型。 |
-
-

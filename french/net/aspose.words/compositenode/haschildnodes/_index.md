@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.HasChildNodes
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompositeNode propriété. Retoursvrai si ce nœud a des nœuds enfants.
+linktitle: HasChildNodes
+articleTitle: HasChildNodes
+second_title: Aspose.Words pour .NET
+description: CompositeNode HasChildNodes propriété. Retoursvrai si ce nœud a des nœuds enfants en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/compositenode/haschildnodes/
@@ -14,7 +16,7 @@ Retours`vrai` si ce nœud a des nœuds enfants.
 public bool HasChildNodes { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment combiner les lignes de deux tables en une seule.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ### Voir également
 
 * class [CompositeNode](../)
-* espace de noms [Aspose.Words](../../compositenode/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

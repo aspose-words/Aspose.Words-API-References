@@ -1,7 +1,9 @@
 ---
 title: ImageWatermarkOptions.Scale
-second_title: Aspose.Words for .NET API Referansı
-description: ImageWatermarkOptions mülk. Görüntünün kesri olarak ifade edilen ölçek faktörünü alır veya ayarlar. Varsayılan değer 0dır  auto.
+linktitle: Scale
+articleTitle: Scale
+second_title: Aspose.Words for .NET
+description: ImageWatermarkOptions Scale mülk. Görüntünün kesri olarak ifade edilen ölçek faktörünü alır veya ayarlar. Varsayılan değer 0dır  auto C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/imagewatermarkoptions/scale/
@@ -20,13 +22,13 @@ public double Scale { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Bağımsız değişken geçerli değerler aralığının dışında olduğunda atar. |
 
-### Notlar
+## Notlar
 
 Geçerli değerler 0 ila 65,5 (dahil) arasındadır.
 
 Otomatik ölçeklendirme, filigranın sayfa kenar boşluklarına göre maksimum genişliğine ve maksimum yüksekliğine göre ölçeklendirileceği anlamına gelir.
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki bir görüntüden nasıl filigran oluşturulacağını gösterir.
 
@@ -54,7 +56,5 @@ Document doc = new Document();
 ### Ayrıca bakınız
 
 * class [ImageWatermarkOptions](../)
-* ad alanı [Aspose.Words](../../imagewatermarkoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ComparisonEvaluationResult
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.ComparisonEvaluationResult clase. El resultado de la evaluación de comparación.
+title: ComparisonEvaluationResult Class
+linktitle: ComparisonEvaluationResult
+articleTitle: ComparisonEvaluationResult
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.ComparisonEvaluationResult clase. El resultado de la evaluación de comparación en C#.
 type: docs
 weight: 1480
 url: /es/net/aspose.words.fields/comparisonevaluationresult/
@@ -20,8 +22,8 @@ public sealed class ComparisonEvaluationResult
 
 | Nombre | Descripción |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(bool) | Crea un resultado de evaluación de comparación. |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(string) | Crea un resultado de evaluación de comparación fallido con el mensaje de error correspondiente. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | Crea un resultado de evaluación de comparación. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | Crea un resultado de evaluación de comparación fallido con el mensaje de error correspondiente. |
 
 ## Propiedades
 
@@ -30,7 +32,7 @@ public sealed class ComparisonEvaluationResult
 | [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | Obtiene el mensaje de error del resultado de la evaluación de comparación fallida. |
 | [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | Obtiene el resultado de la evaluación de comparación. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo implementar una evaluación personalizada para los campos SI y COMPARAR.
 
@@ -115,5 +117,3 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

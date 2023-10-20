@@ -1,7 +1,9 @@
 ---
 title: TableSubstitutionRule.LoadWindowsSettings
-second_title: Aspose.Words for .NET API Referansı
-description: TableSubstitutionRule yöntem. Windows platformu için önceden tanımlanmış tablo değiştirme ayarlarını yükler.
+linktitle: LoadWindowsSettings
+articleTitle: LoadWindowsSettings
+second_title: Aspose.Words for .NET
+description: TableSubstitutionRule LoadWindowsSettings yöntem. Windows platformu için önceden tanımlanmış tablo değiştirme ayarlarını yükler C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/
@@ -14,7 +16,7 @@ Windows platformu için önceden tanımlanmış tablo değiştirme ayarlarını 
 public void LoadWindowsSettings()
 ```
 
-### Örnekler
+## Örnekler
 
 Windows ve Linux için yazı tipi değiştirme tablolarına nasıl erişileceğini gösterir.
 
@@ -53,7 +55,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### Ayrıca bakınız
 
 * class [TableSubstitutionRule](../)
-* ad alanı [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

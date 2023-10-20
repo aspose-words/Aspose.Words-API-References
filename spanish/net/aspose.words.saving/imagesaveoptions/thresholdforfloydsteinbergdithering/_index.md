@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ThresholdForFloydSteinbergDithering
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSaveOptions propiedad. Obtiene o establece el umbral que determina el valor del error de binarización en el método FloydSteinberg. cuandoImageBinarizationMethod esFloydSteinbergDithering .
+linktitle: ThresholdForFloydSteinbergDithering
+articleTitle: ThresholdForFloydSteinbergDithering
+second_title: Aspose.Words para .NET
+description: ImageSaveOptions ThresholdForFloydSteinbergDithering propiedad. Obtiene o establece el umbral que determina el valor del error de binarización en el método FloydSteinberg. cuandoImageBinarizationMethod esFloydSteinbergDithering  en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/
@@ -14,11 +16,11 @@ Obtiene o establece el umbral que determina el valor del error de binarización 
 public byte ThresholdForFloydSteinbergDithering { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es 128.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar el umbral de error de binarización TIFF cuando se utiliza el método Floyd-Steinberg para representar una imagen TIFF.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.FloydSteinbergDithering.tiff", options
 ### Ver también
 
 * class [ImageSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../imagesaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldDde.InsertAsUnicode
-second_title: Aspose.Words per .NET API Reference
-description: FieldDde proprietà. Ottiene o imposta se inserire loggetto collegato come testo Unicode.
+linktitle: InsertAsUnicode
+articleTitle: InsertAsUnicode
+second_title: Aspose.Words per .NET
+description: FieldDde InsertAsUnicode proprietà. Ottiene o imposta se inserire loggetto collegato come testo Unicode in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.fields/fielddde/insertasunicode/
@@ -14,7 +16,7 @@ Ottiene o imposta se inserire l'oggetto collegato come testo Unicode.
 public bool InsertAsUnicode { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare vari tipi di campo per collegarsi ad altri documenti nel file system locale e visualizzarne il contenuto.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Guarda anche
 
 * class [FieldDde](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fielddde/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

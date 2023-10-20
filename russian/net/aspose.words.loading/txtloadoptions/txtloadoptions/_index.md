@@ -1,7 +1,9 @@
 ---
-title: TxtLoadOptions.TxtLoadOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtLoadOptions строитель. Инициализирует новый экземпляр этого класса со значениями по умолчанию.
+title: TxtLoadOptions
+linktitle: TxtLoadOptions
+articleTitle: TxtLoadOptions
+second_title: Aspose.Words для .NET
+description: TxtLoadOptions строитель. Инициализирует новый экземпляр этого класса со значениями по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.loading/txtloadoptions/txtloadoptions/
@@ -17,7 +19,5 @@ public TxtLoadOptions()
 ### Смотрите также
 
 * class [TxtLoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../txtloadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

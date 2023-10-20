@@ -1,7 +1,9 @@
 ---
-title: Enum EditingLanguage
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.EditingLanguage Sıralama. Düzenleme dilini belirtir.
+title: EditingLanguage Enum
+linktitle: EditingLanguage
+articleTitle: EditingLanguage
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Loading.EditingLanguage Sıralama. Düzenleme dilini belirtir C#'da.
 type: docs
 weight: 3600
 url: /tr/net/aspose.words.loading/editinglanguage/
@@ -246,7 +248,7 @@ public enum EditingLanguage
 | Yiddish | `1085` |  |
 | Yoruba | `1130` |  |
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi yüklerken dil tercihlerinin nasıl uygulanacağını gösterir.
 
@@ -266,5 +268,3 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * ad alanı [Aspose.Words.Loading](../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../)
-
-

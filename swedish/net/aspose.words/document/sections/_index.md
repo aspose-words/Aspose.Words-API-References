@@ -1,7 +1,9 @@
 ---
 title: Document.Sections
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Returnerar en samling som representerar alla avsnitt i dokumentet.
+linktitle: Sections
+articleTitle: Sections
+second_title: Aspose.Words för .NET
+description: Document Sections fast egendom. Returnerar en samling som representerar alla avsnitt i dokumentet i C#.
 type: docs
 weight: 370
 url: /sv/net/aspose.words/document/sections/
@@ -14,7 +16,7 @@ Returnerar en samling som representerar alla avsnitt i dokumentet.
 public SectionCollection Sections { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till och tar bort avsnitt i ett dokument.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 
 * class [SectionCollection](../../sectioncollection/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

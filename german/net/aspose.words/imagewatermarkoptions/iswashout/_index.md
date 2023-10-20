@@ -1,7 +1,9 @@
 ---
 title: ImageWatermarkOptions.IsWashout
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageWatermarkOptions eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der für den Auswascheffekt des Wasserzeichens verantwortlich ist. Der Standardwert istWAHR .
+linktitle: IsWashout
+articleTitle: IsWashout
+second_title: Aspose.Words für .NET
+description: ImageWatermarkOptions IsWashout eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der für den Auswascheffekt des Wasserzeichens verantwortlich ist. Der Standardwert istWAHR  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/imagewatermarkoptions/iswashout/
@@ -14,7 +16,7 @@ Ruft einen booleschen Wert ab oder legt diesen fest, der für den Auswascheffekt
 public bool IsWashout { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man aus einem Bild im lokalen Dateisystem ein Wasserzeichen erstellt.
 
@@ -42,7 +44,5 @@ Document doc = new Document();
 ### Siehe auch
 
 * class [ImageWatermarkOptions](../)
-* namensraum [Aspose.Words](../../imagewatermarkoptions/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

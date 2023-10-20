@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Loading
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Le Aspose.Words.Loadinglespace de noms fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires lors du chargement de documents.
+linktitle: Aspose.Words.Loading
+articleTitle: Aspose.Words.Loading
+second_title: Aspose.Words pour .NET
+description: LeAspose.Words.Loadinglespace de noms fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires lors du chargement de documents en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.loading/
 ---
-Le **Aspose.Words.Loading**l'espace de noms fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires lors du chargement de documents.
+Le**Aspose.Words.Loading**l'espace de noms fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires lors du chargement de documents.
 
 ## Des classes
 
@@ -39,5 +41,3 @@ Le **Aspose.Words.Loading**l'espace de noms fournit des classes et des énuméra
 | [ResourceType](./resourcetype/) | Type de ressource chargée. |
 | [TxtLeadingSpacesOptions](./txtleadingspacesoptions/) | Spécifie les options disponibles pour la gestion de l'espace principal lors de l'importation depuisText fichier. |
 | [TxtTrailingSpacesOptions](./txttrailingspacesoptions/) | Spécifie les options disponibles pour la gestion des espaces de fin lors de l'importation depuisText fichier. |
-
-

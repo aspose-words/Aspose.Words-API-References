@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HorizontalAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. الحصول على المحاذاة الأفقية للإطار المحدد.
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: Aspose.Words لـ .NET
+description: FrameFormat HorizontalAlignment ملكية. الحصول على المحاذاة الأفقية للإطار المحدد في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/frameformat/horizontalalignment/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/frameformat/horizontalalignment/
 public HorizontalAlignment HorizontalAlignment { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [FrameFormat](../)
-* مساحة الاسم [Aspose.Words](../../frameformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

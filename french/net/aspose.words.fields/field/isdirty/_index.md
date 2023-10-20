@@ -1,7 +1,9 @@
 ---
 title: Field.IsDirty
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Field propriété. Obtient ou définit si le résultat actuel du champ nest plus correct périmé en raison dautres modifications apportées au document.
+linktitle: IsDirty
+articleTitle: IsDirty
+second_title: Aspose.Words pour .NET
+description: Field IsDirty propriété. Obtient ou définit si le résultat actuel du champ nest plus correct périmé en raison dautres modifications apportées au document en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/field/isdirty/
@@ -14,7 +16,7 @@ Obtient ou définit si le résultat actuel du champ n'est plus correct (périmé
 public bool IsDirty { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser une propriété spéciale pour mettre à jour le résultat du champ.
 
@@ -71,7 +73,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Voir également
 
 * class [Field](../)
-* espace de noms [Aspose.Words.Fields](../../field/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

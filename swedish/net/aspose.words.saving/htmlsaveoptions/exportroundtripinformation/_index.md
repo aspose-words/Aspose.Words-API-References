@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportRoundtripInformation
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger om informationen tur och retur ska skrivas när du sparar till HTML MHTML eller EPUB. Standardvärdet ärSann för HTML ochfalsk för MHTML och EPUB.
+linktitle: ExportRoundtripInformation
+articleTitle: ExportRoundtripInformation
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ExportRoundtripInformation fast egendom. Anger om informationen tur och retur ska skrivas när du sparar till HTML MHTML eller EPUB. Standardvärdet ärSann för HTML ochfalsk för MHTML och EPUB i C#.
 type: docs
 weight: 240
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
@@ -14,7 +16,7 @@ Anger om informationen tur och retur ska skrivas när du sparar till HTML, MHTML
 public bool ExportRoundtripInformation { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Genom att spara informationen tur och retur kan du återställa dokumentegenskaper som tabbstopp, kommentarer, sidhuvuden och sidfötter när HTML-dokumenten laddas tillbaka till en[`Document`](../../../aspose.words/document/) objekt.
 
@@ -22,7 +24,7 @@ När`Sann`, exporteras informationen tur och retur som -aw-* CSS properties för
 
 När`falsk`, gör att ingen information tur och retur matas ut till producerade filer.
 
-### Exempel
+## Exempel
 
 Visar hur man bevarar dolda element vid konvertering till .html.
 
@@ -99,7 +101,5 @@ else
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

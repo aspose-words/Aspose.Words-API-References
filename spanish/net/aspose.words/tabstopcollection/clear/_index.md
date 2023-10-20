@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.Clear
-second_title: Referencia de API de Aspose.Words para .NET
-description: TabStopCollection método. Elimina todas las posiciones de tabulación.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words para .NET
+description: TabStopCollection Clear método. Elimina todas las posiciones de tabulación en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/tabstopcollection/clear/
@@ -14,7 +16,7 @@ Elimina todas las posiciones de tabulación.
 public void Clear()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con la colección de tabulaciones de un documento.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### Ver también
 
 * class [TabStopCollection](../)
-* espacio de nombres [Aspose.Words](../../tabstopcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

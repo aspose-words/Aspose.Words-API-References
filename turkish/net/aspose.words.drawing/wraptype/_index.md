@@ -1,7 +1,9 @@
 ---
-title: Enum WrapType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.WrapType Sıralama. Metnin bir şeklin veya resmin etrafına nasıl sarılacağını belirtir.
+title: WrapType Enum
+linktitle: WrapType
+articleTitle: WrapType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.WrapType Sıralama. Metnin bir şeklin veya resmin etrafına nasıl sarılacağını belirtir C#'da.
 type: docs
 weight: 1400
 url: /tr/net/aspose.words.drawing/wraptype/
@@ -25,7 +27,7 @@ public enum WrapType
 | Tight | `4` | Sınırlayıcı kutunun etrafına sarmak yerine şeklin kenarlarının etrafına sıkıca sarar. |
 | Through | `5` | Sıkı ile aynıdır ancak şeklin açık olan tüm bölümlerinin içine sarılır. |
 
-### Örnekler
+## Örnekler
 
 Sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
 
@@ -98,5 +100,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [WrapType](../shapebase/wraptype/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

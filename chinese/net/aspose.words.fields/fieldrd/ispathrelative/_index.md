@@ -1,7 +1,9 @@
 ---
 title: FieldRD.IsPathRelative
-second_title: Aspose.Words for .NET API 参考
-description: FieldRD 财产. 获取或设置路径是否相对于当前文档
+linktitle: IsPathRelative
+articleTitle: IsPathRelative
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldRD IsPathRelative 财产. 获取或设置路径是否相对于当前文档 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldrd/ispathrelative/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldrd/ispathrelative/
 public bool IsPathRelative { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 RD 字段根据其他文档中的标题创建目录条目。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.RD.docx");
 ### 也可以看看
 
 * class [FieldRD](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldrd/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

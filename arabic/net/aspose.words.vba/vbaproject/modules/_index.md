@@ -1,7 +1,9 @@
 ---
 title: VbaProject.Modules
-second_title: Aspose.Words لمراجع .NET API
-description: VbaProject ملكية. إرجاع مجموعة وحدات مشروع VBA.
+linktitle: Modules
+articleTitle: Modules
+second_title: Aspose.Words لـ .NET
+description: VbaProject Modules ملكية. إرجاع مجموعة وحدات مشروع VBA في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.vba/vbaproject/modules/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.vba/vbaproject/modules/
 public VbaModuleCollection Modules { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى معلومات مشروع VBA الخاص بالمستند.
 
@@ -46,7 +48,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModuleCollection](../../vbamodulecollection/)
 * class [VbaProject](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbaproject/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
-
-

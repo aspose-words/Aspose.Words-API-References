@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SnapToGrid
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Gibt an ob der aktuelle Absatz die Dokumentrasterlinien pro Seite verwenden soll. Settings  wenn der Inhalt im Absatz angeordnet wird.
+linktitle: SnapToGrid
+articleTitle: SnapToGrid
+second_title: Aspose.Words für .NET
+description: ParagraphFormat SnapToGrid eigendom. Gibt an ob der aktuelle Absatz die Dokumentrasterlinien pro Seite verwenden soll. Settings  wenn der Inhalt im Absatz angeordnet wird in C#.
 type: docs
 weight: 290
 url: /de/net/aspose.words/paragraphformat/snaptogrid/
@@ -14,7 +16,7 @@ Gibt an, ob der aktuelle Absatz die Dokumentrasterlinien pro Seite verwenden sol
 public bool SnapToGrid { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen Grenzwert für die Anzahl der Zeilen festlegen, die jede Seite haben darf.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

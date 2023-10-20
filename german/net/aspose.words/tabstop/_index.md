@@ -1,7 +1,9 @@
 ---
-title: Class TabStop
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.TabStop klas. Stellt einen einzelnen benutzerdefinierten Tabstopp dar. DerTabStopObjekt ist Mitglied von the TabStopCollection Sammlung.
+title: TabStop Class
+linktitle: TabStop
+articleTitle: TabStop
+second_title: Aspose.Words für .NET
+description: Aspose.Words.TabStop klas. Stellt einen einzelnen benutzerdefinierten Tabstopp dar. DerTabStopObjekt ist Mitglied von the TabStopCollection Sammlung in C#.
 type: docs
 weight: 6200
 url: /de/net/aspose.words/tabstop/
@@ -20,8 +22,8 @@ public sealed class TabStop
 
 | Name | Beschreibung |
 | --- | --- |
-| [TabStop](tabstop/#constructor)(double) | Initialisiert eine neue Instanz dieser Klasse. |
-| [TabStop](tabstop/#constructor_1)(double, TabAlignment, TabLeader) | Initialisiert eine neue Instanz dieser Klasse. |
+| [TabStop](tabstop/#constructor)(*double*) | Initialisiert eine neue Instanz dieser Klasse. |
+| [TabStop](tabstop/#constructor_1)(*double, [TabAlignment](../tabalignment/), [TabLeader](../tableader/)*) | Initialisiert eine neue Instanz dieser Klasse. |
 
 ## Eigenschaften
 
@@ -36,16 +38,16 @@ public sealed class TabStop
 
 | Name | Beschreibung |
 | --- | --- |
-| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | Vergleicht mit dem angegebenen`TabStop` . |
+| [Equals](../../aspose.words/tabstop/equals/#equals)(*TabStop*) | Vergleicht mit dem angegebenen`TabStop` . |
 | override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | Berechnet den Hash-Code für dieses Objekt. |
 
-### Bemerkungen
+## Bemerkungen
 
 Normalerweise gibt ein Tabstopp eine Position an, an der ein Tabstopp vorhanden ist. Da Tabstopps jedoch von übergeordneten Stilen geerbt werden können, muss das untergeordnete Objekt möglicherweise explizit definieren, dass an einer bestimmten Position kein Tabstopp vorhanden ist. Um einen geerbten Tabstopp an einer bestimmten Position zu löschen, erstellen Sie einen`TabStop` Objekt und set [`Alignment`](./alignment/) ZuClear.
 
 Weitere Informationen finden Sie unter[`TabStopCollection`](../tabstopcollection/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Position des rechten Tabstopps in Inhaltsverzeichnis-bezogenen Absätzen geändert wird.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

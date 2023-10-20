@@ -1,7 +1,9 @@
 ---
 title: Table.StyleName
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Bu tabloya uygulanan tablo stilinin adını alır veya ayarlar.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words for .NET
+description: Table StyleName mülk. Bu tabloya uygulanan tablo stilinin adını alır veya ayarlar C#'da.
 type: docs
 weight: 290
 url: /tr/net/aspose.words.tables/table/stylename/
@@ -14,7 +16,7 @@ Bu tabloya uygulanan tablo stilinin adını alır veya ayarlar.
 public string StyleName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tablo için özel stil ayarlarının nasıl oluşturulacağını gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

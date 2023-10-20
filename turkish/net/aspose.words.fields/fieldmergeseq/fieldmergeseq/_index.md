@@ -1,7 +1,9 @@
 ---
-title: FieldMergeSeq.FieldMergeSeq
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeSeq inşaatçı. Default_Constructor
+title: FieldMergeSeq
+linktitle: FieldMergeSeq
+articleTitle: FieldMergeSeq
+second_title: Aspose.Words for .NET
+description: FieldMergeSeq inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldmergeseq/fieldmergeseq/
@@ -17,7 +19,5 @@ public FieldMergeSeq()
 ### Ayrıca bakınız
 
 * class [FieldMergeSeq](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmergeseq/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

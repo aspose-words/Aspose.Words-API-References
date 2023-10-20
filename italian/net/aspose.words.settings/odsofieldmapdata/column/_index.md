@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Column
-second_title: Aspose.Words per .NET API Reference
-description: OdsoFieldMapData proprietà. Specifica lindice in base zero della colonna allinterno di unorigine dati esterna che deve essere mappata al nome locale di un campo MERGEFIELD specifico. Il valore predefinito è 0.
+linktitle: Column
+articleTitle: Column
+second_title: Aspose.Words per .NET
+description: OdsoFieldMapData Column proprietà. Specifica lindice in base zero della colonna allinterno di unorigine dati esterna che deve essere mappata al nome locale di un campo MERGEFIELD specifico. Il valore predefinito è 0 in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.settings/odsofieldmapdata/column/
@@ -14,7 +16,7 @@ Specifica l'indice in base zero della colonna all'interno di un'origine dati est
 public int Column { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati per unire i campi.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Guarda anche
 
 * class [OdsoFieldMapData](../)
-* spazio dei nomi [Aspose.Words.Settings](../../odsofieldmapdata/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

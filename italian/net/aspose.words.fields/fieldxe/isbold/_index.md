@@ -1,7 +1,9 @@
 ---
 title: FieldXE.IsBold
-second_title: Aspose.Words per .NET API Reference
-description: FieldXE proprietà. Ottiene o imposta se applicare la formattazione in grassetto al numero di pagina della voce.
+linktitle: IsBold
+articleTitle: IsBold
+second_title: Aspose.Words per .NET
+description: FieldXE IsBold proprietà. Ottiene o imposta se applicare la formattazione in grassetto al numero di pagina della voce in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldxe/isbold/
@@ -14,7 +16,7 @@ Ottiene o imposta se applicare la formattazione in grassetto al numero di pagina
 public bool IsBold { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come popolare un campo INDICE con voci utilizzando i campi XE e anche modificarne l'aspetto.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Guarda anche
 
 * class [FieldXE](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldxe/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetEndPageIndex
-second_title: Aspose.Words for .NET API 参考
-description: LayoutCollector 方法. 获取节点结束的页面的从 1 开始的索引如果节点无法映射到页面则返回 0
+linktitle: GetEndPageIndex
+articleTitle: GetEndPageIndex
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutCollector GetEndPageIndex 方法. 获取节点结束的页面的从 1 开始的索引如果节点无法映射到页面则返回 0 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.layout/layoutcollector/getendpageindex/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/layoutcollector/getendpageindex/
 public int GetEndPageIndex(Node node)
 ```
 
-### 例子
+## 例子
 
 演示如何查看节点跨越的页面范围。
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutcollector/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

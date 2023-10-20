@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Name
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeRegionInfo mülk. Bölgenin adını döndürür.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words for .NET
+description: MailMergeRegionInfo Name mülk. Bölgenin adını döndürür C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.mailmerging/mailmergeregioninfo/name/
@@ -14,7 +16,7 @@ Bölgenin adını döndürür.
 public string Name { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme bölgelerinin nasıl doğrulanacağını gösterir.
 
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### Ayrıca bakınız
 
 * class [MailMergeRegionInfo](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

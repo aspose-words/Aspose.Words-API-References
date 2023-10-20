@@ -1,7 +1,9 @@
 ---
-title: Class TextWatermarkOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.TextWatermarkOptions sınıf. Metinli filigran eklenirken belirlenebilecek seçenekleri içerir.
+title: TextWatermarkOptions Class
+linktitle: TextWatermarkOptions
+articleTitle: TextWatermarkOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.TextWatermarkOptions sınıf. Metinli filigran eklenirken belirlenebilecek seçenekleri içerir C#'da.
 type: docs
 weight: 6440
 url: /tr/net/aspose.words/textwatermarkoptions/
@@ -36,5 +38,3 @@ public class TextWatermarkOptions
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

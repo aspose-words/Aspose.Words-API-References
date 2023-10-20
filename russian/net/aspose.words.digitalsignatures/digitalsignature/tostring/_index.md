@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.ToString
-second_title: Справочник по API Aspose.Words для .NET
-description: DigitalSignature метод. Возвращает удобную для пользователя строку отображающую значение этого объекта.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words для .NET
+description: DigitalSignature ToString метод. Возвращает удобную для пользователя строку отображающую значение этого объекта на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/tostring/
@@ -17,7 +19,5 @@ public override string ToString()
 ### Смотрите также
 
 * class [DigitalSignature](../)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* пространство имен [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * сборка [Aspose.Words](../../../)
-
-

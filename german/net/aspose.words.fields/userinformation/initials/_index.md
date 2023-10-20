@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Initials
-second_title: Aspose.Words für .NET-API-Referenz
-description: UserInformation eigendom. Ruft die Initialen des Benutzers ab oder legt diese fest.
+linktitle: Initials
+articleTitle: Initials
+second_title: Aspose.Words für .NET
+description: UserInformation Initials eigendom. Ruft die Initialen des Benutzers ab oder legt diese fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/userinformation/initials/
@@ -14,7 +16,7 @@ Ruft die Initialen des Benutzers ab oder legt diese fest.
 public string Initials { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Benutzerdetails festgelegt und mithilfe von Feldern angezeigt werden.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Siehe auch
 
 * class [UserInformation](../)
-* namensraum [Aspose.Words.Fields](../../userinformation/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

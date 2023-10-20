@@ -1,7 +1,9 @@
 ---
-title: Enum TiffCompression
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.TiffCompression Sıralama. Sayfa görüntülerini bir TIFF dosyasına kaydederken ne tür sıkıştırmanın uygulanacağını belirtir.
+title: TiffCompression Enum
+linktitle: TiffCompression
+articleTitle: TiffCompression
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.TiffCompression Sıralama. Sayfa görüntülerini bir TIFF dosyasına kaydederken ne tür sıkıştırmanın uygulanacağını belirtir C#'da.
 type: docs
 weight: 5630
 url: /tr/net/aspose.words.saving/tiffcompression/
@@ -24,7 +26,7 @@ public enum TiffCompression
 | Ccitt3 | `3` | CCITT3 sıkıştırma şemasını belirtir. |
 | Ccitt4 | `4` | CCITT4 sıkıştırma şemasını belirtir. |
 
-### Örnekler
+## Örnekler
 
 TIFF görüntüsüne dönüştürdüğümüz bir belgeye uygulanacak sıkıştırma şemasının nasıl seçileceğini gösterir.
 
@@ -76,5 +78,3 @@ Document doc = new Document();
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

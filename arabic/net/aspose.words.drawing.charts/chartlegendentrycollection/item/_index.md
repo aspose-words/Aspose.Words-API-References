@@ -1,7 +1,9 @@
 ---
 title: ChartLegendEntryCollection.Item
-second_title: Aspose.Words لمراجع .NET API
-description: ChartLegendEntryCollection ملكية. إرجاعChartLegendEntry للفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: ChartLegendEntryCollection Item ملكية. إرجاعChartLegendEntry للفهرس المحدد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/chartlegendentrycollection/item/
@@ -18,7 +20,5 @@ public ChartLegendEntry this[int index] { get; }
 
 * class [ChartLegendEntry](../../chartlegendentry/)
 * class [ChartLegendEntryCollection](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartlegendentrycollection/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

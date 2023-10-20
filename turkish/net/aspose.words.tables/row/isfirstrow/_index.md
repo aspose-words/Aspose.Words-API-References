@@ -1,7 +1,9 @@
 ---
 title: Row.IsFirstRow
-second_title: Aspose.Words for .NET API Referansı
-description: Row mülk. Bu tablodaki ilk satırsa doğrudur aksi halde yanlış.
+linktitle: IsFirstRow
+articleTitle: IsFirstRow
+second_title: Aspose.Words for .NET
+description: Row IsFirstRow mülk. Bu tablodaki ilk satırsa doğrudur aksi halde yanlış C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.tables/row/isfirstrow/
@@ -14,7 +16,7 @@ Bu, tablodaki ilk satırsa doğrudur; aksi halde yanlış.
 public bool IsFirstRow { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her tablonun düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [Row](../)
-* ad alanı [Aspose.Words.Tables](../../row/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

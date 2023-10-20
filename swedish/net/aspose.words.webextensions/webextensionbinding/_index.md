@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionBinding
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.WebExtensions.WebExtensionBinding klass. Anger ett bindande förhållande mellan ett webbtillägg och data i dokumentet.
+title: WebExtensionBinding Class
+linktitle: WebExtensionBinding
+articleTitle: WebExtensionBinding
+second_title: Aspose.Words för .NET
+description: Aspose.Words.WebExtensions.WebExtensionBinding klass. Anger ett bindande förhållande mellan ett webbtillägg och data i dokumentet i C#.
 type: docs
 weight: 6750
 url: /sv/net/aspose.words.webextensions/webextensionbinding/
@@ -20,7 +22,7 @@ public class WebExtensionBinding
 
 | namn | Beskrivning |
 | --- | --- |
-| [WebExtensionBinding](webextensionbinding/)(string, WebExtensionBindingType, string) | Skapar webbtilläggsbindning med angivna parametrar. |
+| [WebExtensionBinding](webextensionbinding/)(*string, [WebExtensionBindingType](../webextensionbindingtype/), string*) | Skapar webbtilläggsbindning med angivna parametrar. |
 
 ## Egenskaper
 
@@ -34,5 +36,3 @@ public class WebExtensionBinding
 
 * namnutrymme [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../)
-
-

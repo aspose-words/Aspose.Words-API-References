@@ -1,7 +1,9 @@
 ---
 title: Field.DisplayResult
-second_title: Aspose.Words for .NET API 参考
-description: Field 财产. 获取表示显示的字段结果的文本
+linktitle: DisplayResult
+articleTitle: DisplayResult
+second_title: 用于 .NET 的 Aspose.Words
+description: Field DisplayResult 财产. 获取表示显示的字段结果的文本 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/field/displayresult/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/field/displayresult/
 public string DisplayResult { get; }
 ```
 
-### 评论
+## 评论
 
 的[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/)必须调用方法才能获取 the 的正确值[`FieldListNum`](../../fieldlistnum/),[`FieldAutoNum`](../../fieldautonum/),[`FieldAutoNumOut`](../../fieldautonumout/)和[`FieldAutoNumLgl`](../../fieldautonumlgl/)字段.
 
-### 例子
+## 例子
 
 演示如何获取文档中字段显示的真实文本。
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.DisplayResult.docx");
 ### 也可以看看
 
 * class [Field](../)
-* 命名空间 [Aspose.Words.Fields](../../field/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

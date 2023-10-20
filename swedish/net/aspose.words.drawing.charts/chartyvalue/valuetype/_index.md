@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.ValueType
-second_title: Aspose.Words för .NET API Referens
-description: ChartYValue fast egendom. Hämtar typen av Yvärde som lagras i objektet.
+linktitle: ValueType
+articleTitle: ValueType
+second_title: Aspose.Words för .NET
+description: ChartYValue ValueType fast egendom. Hämtar typen av Yvärde som lagras i objektet i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing.charts/chartyvalue/valuetype/
@@ -18,7 +20,5 @@ public ChartYValueType ValueType { get; }
 
 * enum [ChartYValueType](../../chartyvaluetype/)
 * class [ChartYValue](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

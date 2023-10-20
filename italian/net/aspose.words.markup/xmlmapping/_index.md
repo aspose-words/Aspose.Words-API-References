@@ -1,7 +1,9 @@
 ---
-title: Class XmlMapping
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Markup.XmlMapping classe. Specifica le informazioni utilizzate per stabilire una mappatura tra il tag del documento strutturato parent e un elemento XML archiviato allinterno di una parte di dati XML personalizzata nel documento.
+title: XmlMapping Class
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Markup.XmlMapping classe. Specifica le informazioni utilizzate per stabilire una mappatura tra il tag del documento strutturato parent e un elemento XML archiviato allinterno di una parte di dati XML personalizzata nel documento in C#.
 type: docs
 weight: 4100
 url: /it/net/aspose.words.markup/xmlmapping/
@@ -31,9 +33,9 @@ public class XmlMapping
 | Nome | Descrizione |
 | --- | --- |
 | [Delete](../../aspose.words.markup/xmlmapping/delete/)() | Elimina la mappatura del documento strutturato principale ai dati XML. |
-| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(CustomXmlPart, string, string) | Imposta una mappatura tra il tag del documento strutturato principale e un nodo XML di una parte di dati XML personalizzata. |
+| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(*[CustomXmlPart](../customxmlpart/), string, string*) | Imposta una mappatura tra il tag del documento strutturato principale e un nodo XML di una parte di dati XML personalizzata. |
 
-### Esempi
+## Esempi
 
 Mostra come impostare mapping XML per parti XML personalizzate.
 
@@ -70,5 +72,3 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 
 * spazio dei nomi [Aspose.Words.Markup](../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../)
-
-

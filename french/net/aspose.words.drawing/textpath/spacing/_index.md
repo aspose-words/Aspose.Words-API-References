@@ -1,7 +1,9 @@
 ---
 title: TextPath.Spacing
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextPath propriété. Définit la quantité despacement pour le texte. 1 signifie 100.
+linktitle: Spacing
+articleTitle: Spacing
+second_title: Aspose.Words pour .NET
+description: TextPath Spacing propriété. Définit la quantité despacement pour le texte. 1 signifie 100 en C#.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.drawing/textpath/spacing/
@@ -14,11 +16,11 @@ Définit la quantité d'espacement pour le texte. 1 signifie 100%.
 public double Spacing { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est 1.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Voir également
 
 * class [TextPath](../)
-* espace de noms [Aspose.Words.Drawing](../../textpath/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

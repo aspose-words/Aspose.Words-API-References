@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportTextInputFormFieldAsText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Contrôle la façon dont les champs du formulaire de saisie de texte sont enregistrés au format HTML ou MHTML. La valeur par défaut estFAUX .
+linktitle: ExportTextInputFormFieldAsText
+articleTitle: ExportTextInputFormFieldAsText
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions ExportTextInputFormFieldAsText propriété. Contrôle la façon dont les champs du formulaire de saisie de texte sont enregistrés au format HTML ou MHTML. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 260
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
@@ -14,13 +16,13 @@ Contrôle la façon dont les champs du formulaire de saisie de texte sont enregi
 public bool ExportTextInputFormFieldAsText { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Lorsqu'il est réglé sur`vrai` , exporte les champs du formulaire de saisie de texte sous forme de texte normal. Quand`FAUX`, exporte les champs du formulaire de saisie de texte Word en tant qu'éléments INPUT en HTML.
 
 Lors de l'exportation vers EPUB, les champs du formulaire de saisie de texte sont toujours enregistrés sous forme de texte en raison des exigences de ce format.
 
-### Exemples
+## Exemples
 
 Montre comment spécifier le dossier dans lequel stocker les images liées après leur enregistrement au format .html.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ### Voir également
 
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

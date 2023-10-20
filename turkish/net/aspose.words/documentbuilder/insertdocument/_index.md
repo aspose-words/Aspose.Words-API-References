@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertDocument
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. İmleç konumuna bir belge ekler.
+linktitle: InsertDocument
+articleTitle: InsertDocument
+second_title: Aspose.Words for .NET
+description: DocumentBuilder InsertDocument yöntem. İmleç konumuna bir belge ekler C#'da.
 type: docs
 weight: 310
 url: /tr/net/aspose.words/documentbuilder/insertdocument/
 ---
-## InsertDocument(Document, ImportFormatMode) {#insertdocument}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/)*) {#insertdocument}
 
 İmleç konumuna bir belge ekler.
 
@@ -23,11 +25,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 Eklenen içeriğin ilk düğümü.
 
-### Notlar
+## Notlar
 
 Bu yöntem MS Word davranışını taklit eder, sanki bir belge içinde CTRL+'A' (tüm içeriği seç), sonra CTRL+'C' (tampon belleğe seçilen kopya) basılmış gibi ve sonra CTRL+'V' (içerikten içerik ekle) basılmış gibi tampon) başka bir belgenin içinde.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin başka bir belgeye nasıl ekleneceğini gösterir.
 
@@ -50,12 +52,12 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 * class [Document](../../document/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## InsertDocument(Document, ImportFormatMode, ImportFormatOptions) {#insertdocument_1}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#insertdocument_1}
 
 İmleç konumuna bir belge ekler.
 
@@ -74,11 +76,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 Eklenen içeriğin ilk düğümü.
 
-### Notlar
+## Notlar
 
 Bu yöntem MS Word davranışını taklit eder, sanki bir belge içinde CTRL+'A' (tüm içeriği seç), sonra CTRL+'C' (tampon belleğe seçilen kopya) basılmış gibi ve sonra CTRL+'V' (içerikten içerik ekle) basılmış gibi tampon) başka bir belgenin içinde.
 
-### Örnekler
+## Örnekler
 
 Belgeleri eklerken yinelenen stillerin nasıl çözüleceğini gösterir.
 
@@ -117,7 +119,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldChar.IsLocked
-second_title: Aspose.Words لمراجع .NET API
-description: FieldChar ملكية. الحصول على أو تعيين ما إذا كان الحقل الأصلي مقفلاً لا ينبغي إعادة حساب النتيجة.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words لـ .NET
+description: FieldChar IsLocked ملكية. الحصول على أو تعيين ما إذا كان الحقل الأصلي مقفلاً لا ينبغي إعادة حساب النتيجة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldchar/islocked/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldchar/islocked/
 public bool IsLocked { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع عقدة FieldStart.
 
@@ -45,7 +47,5 @@ field.Update();
 ### أنظر أيضا
 
 * class [FieldChar](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldchar/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldUpdatingProgressArgs.UpdateCompleted
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldUpdatingProgressArgs свойство. Получает значение указывающее завершено ли обновление поля.
+linktitle: UpdateCompleted
+articleTitle: UpdateCompleted
+second_title: Aspose.Words для .NET
+description: FieldUpdatingProgressArgs UpdateCompleted свойство. Получает значение указывающее завершено ли обновление поля на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldupdatingprogressargs/updatecompleted/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldupdatingprogressargs/updatecompleted/
 public bool UpdateCompleted { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать методы обратного вызова во время обновления поля.
 
@@ -82,7 +84,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 ### Смотрите также
 
 * class [FieldUpdatingProgressArgs](../)
-* пространство имен [Aspose.Words.Fields](../../fieldupdatingprogressargs/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.CharacterCode
-second_title: Aspose.Words for .NET API 参考
-description: FieldSymbol 财产. 获取或设置字符的十进制或十六进制代码点值
+linktitle: CharacterCode
+articleTitle: CharacterCode
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldSymbol CharacterCode 财产. 获取或设置字符的十进制或十六进制代码点值 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldsymbol/charactercode/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldsymbol/charactercode/
 public string CharacterCode { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何使用 SYMBOL 字段。
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### 也可以看看
 
 * class [FieldSymbol](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldsymbol/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

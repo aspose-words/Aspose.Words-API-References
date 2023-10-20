@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.HeaderSource
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeSettings propiedad. Especifica la ruta al origen del encabezado de combinación de correspondencia. El valor predeterminado es una cadena vacía.
+linktitle: HeaderSource
+articleTitle: HeaderSource
+second_title: Aspose.Words para .NET
+description: MailMergeSettings HeaderSource propiedad. Especifica la ruta al origen del encabezado de combinación de correspondencia. El valor predeterminado es una cadena vacía en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.settings/mailmergesettings/headersource/
@@ -14,7 +16,7 @@ Especifica la ruta al origen del encabezado de combinación de correspondencia. 
 public string HeaderSource { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir una fuente de datos para una combinación de correspondencia a partir de una fuente de encabezado y una fuente de datos.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.docx");
 ### Ver también
 
 * class [MailMergeSettings](../)
-* espacio de nombres [Aspose.Words.Settings](../../mailmergesettings/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

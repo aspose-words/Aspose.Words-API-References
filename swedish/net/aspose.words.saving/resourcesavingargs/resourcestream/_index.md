@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceStream
-second_title: Aspose.Words för .NET API Referens
-description: ResourceSavingArgs fast egendom. Tillåter att ange strömmen där resursen ska sparas.
+linktitle: ResourceStream
+articleTitle: ResourceStream
+second_title: Aspose.Words för .NET
+description: ResourceSavingArgs ResourceStream fast egendom. Tillåter att ange strömmen där resursen ska sparas i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/resourcesavingargs/resourcestream/
@@ -14,7 +16,7 @@ Tillåter att ange strömmen där resursen ska sparas.
 public Stream ResourceStream { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen låter dig spara resurser till strömmar istället för filer.
 
@@ -22,7 +24,7 @@ Standardvärdet är`null` . När denna fastighet är`null` , kommer resursen att
 
 Använder sig av[`IResourceSavingCallback`](../../iresourcesavingcallback/) du kan inte ersätta en resurs med en annan. Den är endast avsedd för kontroll över var man kan spara resurser.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att skriva ut URI:erna för externa resurser som skapats när ett dokument konverterades till HTML.
 
@@ -101,7 +103,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Se även
 
 * class [ResourceSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../resourcesavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

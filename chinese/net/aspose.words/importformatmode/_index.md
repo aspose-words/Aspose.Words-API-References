@@ -1,7 +1,9 @@
 ---
-title: Enum ImportFormatMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.ImportFormatMode 枚举. 指定从另一个文档导入内容时如何合并格式
+title: ImportFormatMode Enum
+linktitle: ImportFormatMode
+articleTitle: ImportFormatMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.ImportFormatMode 枚举. 指定从另一个文档导入内容时如何合并格式 在 C#.
 type: docs
 weight: 3230
 url: /zh/net/aspose.words/importformatmode/
@@ -22,7 +24,7 @@ public enum ImportFormatMode
 | KeepSourceFormatting | `1` | 将所有必需的样式复制到目标文档，如果需要，生成唯一的样式名称。 |
 | KeepDifferentStyles | `2` | 仅复制与源文档中的样式不同的样式。 |
 
-### 评论
+## 评论
 
 当您将节点从一个文档复制到另一个文档时，此选项指定当两个文档具有名称相同但格式不同的样式时如何解析formatting 。
 
@@ -42,7 +44,7 @@ KeepSourceFormatting选项允许确保导入的内容在目标文档中看起来
 
 使用KeepDifferentStyles选项允许重用目标样式 （如果它们提供的格式与源文档中的样式相同）。 如果目标文档中的样式与源文档中的样式不同，则将其导入。
 
-### 例子
+## 例子
 
 演示如何将一个文档插入到另一个文档中。
 
@@ -63,5 +65,3 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

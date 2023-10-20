@@ -1,12 +1,14 @@
 ---
-title: ComparisonEvaluationResult.ComparisonEvaluationResult
-second_title: Aspose.Words for .NET API Referansı
-description: ComparisonEvaluationResult inşaatçı. Karşılaştırma değerlendirme sonucu oluşturur.
+title: ComparisonEvaluationResult
+linktitle: ComparisonEvaluationResult
+articleTitle: ComparisonEvaluationResult
+second_title: Aspose.Words for .NET
+description: ComparisonEvaluationResult inşaatçı. Karşılaştırma değerlendirme sonucu oluşturur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/
 ---
-## ComparisonEvaluationResult(bool) {#constructor}
+## ComparisonEvaluationResult(*bool*) {#constructor}
 
 Karşılaştırma değerlendirme sonucu oluşturur.
 
@@ -14,7 +16,7 @@ Karşılaştırma değerlendirme sonucu oluşturur.
 public ComparisonEvaluationResult(bool result)
 ```
 
-### Örnekler
+## Örnekler
 
 IF ve COMPARE alanları için özel değerlendirmenin nasıl uygulanacağını gösterir.
 
@@ -98,12 +100,12 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Ayrıca bakınız
 
 * class [ComparisonEvaluationResult](../)
-* ad alanı [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## ComparisonEvaluationResult(string) {#constructor_1}
+## ComparisonEvaluationResult(*string*) {#constructor_1}
 
 İlgili hata mesajıyla birlikte başarısız bir karşılaştırma değerlendirme sonucu oluşturur.
 
@@ -111,7 +113,7 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 public ComparisonEvaluationResult(string errorMessage)
 ```
 
-### Örnekler
+## Örnekler
 
 IF ve COMPARE alanları için özel değerlendirmenin nasıl uygulanacağını gösterir.
 
@@ -195,7 +197,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Ayrıca bakınız
 
 * class [ComparisonEvaluationResult](../)
-* ad alanı [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

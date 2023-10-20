@@ -1,7 +1,9 @@
 ---
 title: Field.Start
-second_title: Aspose.Words for .NET API 参考
-description: Field 财产. 获取表示字段开始的节点
+linktitle: Start
+articleTitle: Start
+second_title: 用于 .NET 的 Aspose.Words
+description: Field Start 财产. 获取表示字段开始的节点 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.fields/field/start/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/field/start/
 public FieldStart Start { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用字段集合。
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldStart](../../fieldstart/)
 * class [Field](../)
-* 命名空间 [Aspose.Words.Fields](../../field/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

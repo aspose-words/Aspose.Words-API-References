@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.RemoveAt
-second_title: Справочник по API Aspose.Words для .NET
-description: VariableCollection метод. Удаляет переменную документа по указанному индексу.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words для .NET
+description: VariableCollection RemoveAt метод. Удаляет переменную документа по указанному индексу на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/variablecollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Индекс, отсчитываемый от нуля. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией переменных документа.
 
@@ -85,7 +87,5 @@ Assert.That(variables, Is.Empty);
 ### Смотрите также
 
 * class [VariableCollection](../)
-* пространство имен [Aspose.Words](../../variablecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

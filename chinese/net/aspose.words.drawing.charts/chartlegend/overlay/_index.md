@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.Overlay
-second_title: Aspose.Words for .NET API 参考
-description: ChartLegend 财产. 确定是否允许其他图表元素与图例重叠 默认值为错误的.
+linktitle: Overlay
+articleTitle: Overlay
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartLegend Overlay 财产. 确定是否允许其他图表元素与图例重叠 默认值为错误的 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartlegend/overlay/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartlegend/overlay/
 public bool Overlay { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何编辑图表图例的外观。
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 ### 也可以看看
 
 * class [ChartLegend](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

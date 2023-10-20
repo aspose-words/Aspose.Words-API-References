@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.IsSigned
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignatureLine eigendom. Zeigt an dass die Signaturzeile mit einer digitalen Signatur signiert ist.
+linktitle: IsSigned
+articleTitle: IsSigned
+second_title: Aspose.Words für .NET
+description: SignatureLine IsSigned eigendom. Zeigt an dass die Signaturzeile mit einer digitalen Signatur signiert ist in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing/signatureline/issigned/
@@ -14,7 +16,7 @@ Zeigt an, dass die Signaturzeile mit einer digitalen Signatur signiert ist.
 public bool IsSigned { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument mit einem persönlichen Zertifikat und einer Signaturzeile signiert.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Siehe auch
 
 * class [SignatureLine](../)
-* namensraum [Aspose.Words.Drawing](../../signatureline/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

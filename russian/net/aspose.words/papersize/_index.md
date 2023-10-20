@@ -1,7 +1,9 @@
 ---
-title: Enum PaperSize
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.PaperSize перечисление. Указывает размер бумаги.
+title: PaperSize Enum
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words для .NET
+description: Aspose.Words.PaperSize перечисление. Указывает размер бумаги на С#.
 type: docs
 weight: 4380
 url: /ru/net/aspose.words/papersize/
@@ -37,7 +39,7 @@ public enum PaperSize
 | Number10Envelope | `16` | 4,125 x 9,5 дюймов. |
 | Custom | `17` | Нестандартный формат бумаги. |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить размер бумаги, ориентацию, поля и другие параметры раздела.
 
@@ -148,5 +150,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BoundsInPoints
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. En üstteki şeklin bağlantısına göre şeklin içerdiği blokun konumunu ve boyutunu noktalar cinsinden alır.
+linktitle: BoundsInPoints
+articleTitle: BoundsInPoints
+second_title: Aspose.Words for .NET
+description: ShapeBase BoundsInPoints mülk. En üstteki şeklin bağlantısına göre şeklin içerdiği blokun konumunu ve boyutunu noktalar cinsinden alır C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.drawing/shapebase/boundsinpoints/
@@ -14,7 +16,7 @@ En üstteki şeklin bağlantısına göre, şeklin içerdiği blokun konumunu ve
 public RectangleF BoundsInPoints { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Blok sınırlarını içeren şeklin nasıl doğrulanacağını gösterir.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Shape.Bounds.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

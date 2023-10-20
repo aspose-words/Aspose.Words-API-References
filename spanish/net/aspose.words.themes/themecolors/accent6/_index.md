@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent6
-second_title: Referencia de API de Aspose.Words para .NET
-description: ThemeColors propiedad. Especifica el color Acento 6.
+linktitle: Accent6
+articleTitle: Accent6
+second_title: Aspose.Words para .NET
+description: ThemeColors Accent6 propiedad. Especifica el color Acento 6 en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.themes/themecolors/accent6/
@@ -14,7 +16,7 @@ Especifica el color Acento 6.
 public Color Accent6 { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar colores y fuentes personalizados para temas.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Ver también
 
 * class [ThemeColors](../)
-* espacio de nombres [Aspose.Words.Themes](../../themecolors/)
+* espacio de nombres [Aspose.Words.Themes](../../../aspose.words.themes/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum AutoFitBehavior
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Tables.AutoFitBehavior 枚举. 确定当您调用时 Aspose.Words 如何调整表格大小AutoFit方法.
+title: AutoFitBehavior Enum
+linktitle: AutoFitBehavior
+articleTitle: AutoFitBehavior
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Tables.AutoFitBehavior 枚举. 确定当您调用时 Aspose.Words 如何调整表格大小AutoFit方法 在 C#.
 type: docs
 weight: 6230
 url: /zh/net/aspose.words.tables/autofitbehavior/
@@ -22,7 +24,7 @@ public enum AutoFitBehavior
 | AutoFitToWindow | `1` | 当您使用此值时，Aspose.Words 会启用“自动调整”选项，将表格的首选宽度设置为 100%， 从所有单元格中删除首选宽度，然后更新表格布局。 |
 | FixedColumnWidths | `2` | Aspose.Words 禁用“自动调整”选项并从表格中删除首选选项。 |
 
-### 例子
+## 例子
 
 演示如何在应用样式时构建新表格。
 
@@ -115,5 +117,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * 命名空间 [Aspose.Words.Tables](../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: ConvertUtil.PixelToPoint
-second_title: Aspose.Words för .NET API Referens
-description: ConvertUtil metod. Konverterar pixlar till punkter med 96 dpi.
+linktitle: PixelToPoint
+articleTitle: PixelToPoint
+second_title: Aspose.Words för .NET
+description: ConvertUtil PixelToPoint metod. Konverterar pixlar till punkter med 96 dpi i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/convertutil/pixeltopoint/
 ---
-## PixelToPoint(double) {#pixeltopoint}
+## PixelToPoint(*double*) {#pixeltopoint}
 
 Konverterar pixlar till punkter med 96 dpi.
 
@@ -18,11 +20,11 @@ public static double PixelToPoint(double pixels)
 | --- | --- | --- |
 | pixels | Double | Värdet att konvertera. |
 
-### Anmärkningar
+## Anmärkningar
 
 1 tum är lika med 72 poäng.
 
-### Exempel
+## Exempel
 
 Visar hur man anger sidegenskaper i pixlar.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixels.docx");
 ### Se även
 
 * class [ConvertUtil](../)
-* namnutrymme [Aspose.Words](../../convertutil/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## PixelToPoint(double, double) {#pixeltopoint_1}
+## PixelToPoint(*double, double*) {#pixeltopoint_1}
 
 Konverterar pixlar till punkter med angiven pixelupplösning.
 
@@ -76,11 +78,11 @@ public static double PixelToPoint(double pixels, double resolution)
 | pixels | Double | Värdet att konvertera. |
 | resolution | Double | Upplösningen dpi (dots per inch). |
 
-### Anmärkningar
+## Anmärkningar
 
 1 tum är lika med 72 poäng.
 
-### Exempel
+## Exempel
 
 Visar hur man använder konvertera punkter till pixlar med standard och anpassad upplösning.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixelsDpi.docx");
 ### Se även
 
 * class [ConvertUtil](../)
-* namnutrymme [Aspose.Words](../../convertutil/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

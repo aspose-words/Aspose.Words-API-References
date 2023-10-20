@@ -1,7 +1,9 @@
 ---
 title: TextBox.Previous
-second_title: Aspose.Words för .NET API Referens
-description: TextBox fast egendom. Returnerar enTextBox som representerar det föregåendeTextBox i en sekvens av former.
+linktitle: Previous
+articleTitle: Previous
+second_title: Aspose.Words för .NET
+description: TextBox Previous fast egendom. Returnerar enTextBox som representerar det föregåendeTextBox i en sekvens av former i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.drawing/textbox/previous/
@@ -14,7 +16,7 @@ Returnerar en[`TextBox`](../) som representerar det föregående[`TextBox`](../)
 public TextBox Previous { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man länkar textrutor.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Se även
 
 * class [TextBox](../)
-* namnutrymme [Aspose.Words.Drawing](../../textbox/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

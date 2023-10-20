@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontInfoSubstitution
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSubstitutionSettings eigendom. Einstellungen im Zusammenhang mit der Regel zum Ersetzen von Schriftartinformationen.
+linktitle: FontInfoSubstitution
+articleTitle: FontInfoSubstitution
+second_title: Aspose.Words für .NET
+description: FontSubstitutionSettings FontInfoSubstitution eigendom. Einstellungen im Zusammenhang mit der Regel zum Ersetzen von Schriftartinformationen in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/
@@ -14,7 +16,7 @@ Einstellungen im Zusammenhang mit der Regel zum Ersetzen von Schriftartinformati
 public FontInfoSubstitutionRule FontInfoSubstitution { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [FontInfoSubstitutionRule](../../fontinfosubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* namensraum [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

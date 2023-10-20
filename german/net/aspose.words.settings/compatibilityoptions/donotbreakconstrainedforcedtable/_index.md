@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotBreakConstrainedForcedTable
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Tabellenzeilen um schwebende Tabellen herum nicht unterbrechen.
+linktitle: DoNotBreakConstrainedForcedTable
+articleTitle: DoNotBreakConstrainedForcedTable
+second_title: Aspose.Words für .NET
+description: CompatibilityOptions DoNotBreakConstrainedForcedTable eigendom. Tabellenzeilen um schwebende Tabellen herum nicht unterbrechen in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.settings/compatibilityoptions/donotbreakconstrainedforcedtable/
@@ -17,7 +19,5 @@ public bool DoNotBreakConstrainedForcedTable { get; set; }
 ### Siehe auch
 
 * class [CompatibilityOptions](../)
-* namensraum [Aspose.Words.Settings](../../compatibilityoptions/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

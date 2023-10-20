@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.LegendEntries
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartLegend eigendom. Gibt eine Sammlung von Legendeneinträgen für alle Serien und Trendlinien des übergeordneten Diagramms zurück.
+linktitle: LegendEntries
+articleTitle: LegendEntries
+second_title: Aspose.Words für .NET
+description: ChartLegend LegendEntries eigendom. Gibt eine Sammlung von Legendeneinträgen für alle Serien und Trendlinien des übergeordneten Diagramms zurück in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/chartlegend/legendentries/
@@ -14,7 +16,7 @@ Gibt eine Sammlung von Legendeneinträgen für alle Serien und Trendlinien des �
 public ChartLegendEntryCollection LegendEntries { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit einem Legendeneintrag für Diagrammreihen gearbeitet wird.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 
 * class [ChartLegendEntryCollection](../../chartlegendentrycollection/)
 * class [ChartLegend](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

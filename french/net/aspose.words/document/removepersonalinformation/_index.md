@@ -1,7 +1,9 @@
 ---
 title: Document.RemovePersonalInformation
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Obtient ou définit un indicateur indiquant que Microsoft Word supprimera toutes les informations utilisateur des commentaires des révisions et des propriétés du document lors de lenregistrement du document.
+linktitle: RemovePersonalInformation
+articleTitle: RemovePersonalInformation
+second_title: Aspose.Words pour .NET
+description: Document RemovePersonalInformation propriété. Obtient ou définit un indicateur indiquant que Microsoft Word supprimera toutes les informations utilisateur des commentaires des révisions et des propriétés du document lors de lenregistrement du document en C#.
 type: docs
 weight: 340
 url: /fr/net/aspose.words/document/removepersonalinformation/
@@ -14,7 +16,7 @@ Obtient ou définit un indicateur indiquant que Microsoft Word supprimera toutes
 public bool RemovePersonalInformation { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment activer la suppression des informations personnelles lors d’une sauvegarde manuelle.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("John Doe", doc.Revisions[0].Author);
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

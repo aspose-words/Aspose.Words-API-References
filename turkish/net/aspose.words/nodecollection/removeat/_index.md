@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.RemoveAt
-second_title: Aspose.Words for .NET API Referansı
-description: NodeCollection yöntem. Belirtilen dizindeki düğümü koleksiyondan ve belgeden kaldırır.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words for .NET
+description: NodeCollection RemoveAt yöntem. Belirtilen dizindeki düğümü koleksiyondan ve belgeden kaldırır C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/nodecollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Düğümün sıfır tabanlı dizini. Negatif dizinlere izin verilir ve listenin arkasından erişimi belirtir. Örneğin -1 son düğüm anlamına gelir, -2 sondan önceki ikinci anlamına gelir ve bu şekilde devam eder. |
 
-### Örnekler
+## Örnekler
 
 Bir belgede bölümlerin nasıl eklenip kaldırılacağını gösterir.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ### Ayrıca bakınız
 
 * class [NodeCollection](../)
-* ad alanı [Aspose.Words](../../nodecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

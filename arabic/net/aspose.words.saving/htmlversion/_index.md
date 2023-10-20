@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlVersion
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.HtmlVersion تعداد. يشير إلى إصدار HTML المستخدم عند حفظ المستند فيهHtml و Mhtml التنسيقات.
+title: HtmlVersion Enum
+linktitle: HtmlVersion
+articleTitle: HtmlVersion
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.HtmlVersion تعداد. يشير إلى إصدار HTML المستخدم عند حفظ المستند فيهHtml و Mhtml التنسيقات في C#.
 type: docs
 weight: 5120
 url: /ar/net/aspose.words.saving/htmlversion/
@@ -21,7 +23,7 @@ public enum HtmlVersion
 | Xhtml | `0` | يحفظ المستند بالتوافق مع معيار XHTML 1.0 الانتقالي. |
 | Html5 | `1` | يحفظ المستند بالتوافق مع معيار HTML 5. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض عنوان DOCTYPE عند تحويل المستندات إلى المعيار الانتقالي Xhtml 1.0.
 
@@ -87,5 +89,3 @@ switch (htmlVersion)
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

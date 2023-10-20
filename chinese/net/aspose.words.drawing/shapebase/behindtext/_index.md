@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BehindText
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 指定形状是在文本下方还是上方
+linktitle: BehindText
+articleTitle: BehindText
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase BehindText 财产. 指定形状是在文本下方还是上方 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing/shapebase/behindtext/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/shapebase/behindtext/
 public bool BehindText { get; set; }
 ```
 
-### 评论
+## 评论
 
 仅对顶级形状有效。
 
 默认值为`错误的`。
 
-### 例子
+## 例子
 
 演示如何将浮动图像插入到页面中央。
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.Overlay
-second_title: Aspose.Words for .NET API Referansı
-description: ChartLegend mülk. Diğer grafik öğelerinin göstergelerle çakışmasına izin verilip verilmeyeceğini belirler. Varsayılan değerYANLIŞ .
+linktitle: Overlay
+articleTitle: Overlay
+second_title: Aspose.Words for .NET
+description: ChartLegend Overlay mülk. Diğer grafik öğelerinin göstergelerle çakışmasına izin verilip verilmeyeceğini belirler. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartlegend/overlay/
@@ -14,7 +16,7 @@ Diğer grafik öğelerinin göstergelerle çakışmasına izin verilip verilmeye
 public bool Overlay { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir grafiğin göstergesinin görünümünün nasıl düzenleneceğini gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 ### Ayrıca bakınız
 
 * class [ChartLegend](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

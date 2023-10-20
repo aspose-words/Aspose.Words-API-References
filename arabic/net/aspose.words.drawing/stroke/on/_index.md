@@ -1,9 +1,11 @@
 ---
 title: Stroke.On
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. يحدد ما إذا كان سيتم تحديد المسار أم لا.
+linktitle: On
+articleTitle: On
+second_title: Aspose.Words لـ .NET
+description: Stroke On ملكية. يحدد ما إذا كان سيتم تحديد المسار أم لا في C#.
 type: docs
-weight: 150
+weight: 140
 url: /ar/net/aspose.words.drawing/stroke/on/
 ---
 ## Stroke.On property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/on/
 public bool On { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية ل[`Shape`](../../shape/) يكون`حقيقي`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير خصائص السكتة الدماغية.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ### أنظر أيضا
 
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

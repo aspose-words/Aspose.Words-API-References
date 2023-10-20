@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.TotalEditingTime
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BuiltInDocumentProperties propriété. Obtient ou définit la durée totale dédition en minutes.
+linktitle: TotalEditingTime
+articleTitle: TotalEditingTime
+second_title: Aspose.Words pour .NET
+description: BuiltInDocumentProperties TotalEditingTime propriété. Obtient ou définit la durée totale dédition en minutes en C#.
 type: docs
 weight: 310
 url: /fr/net/aspose.words.properties/builtindocumentproperties/totaleditingtime/
@@ -14,7 +16,7 @@ Obtient ou définit la durée totale d'édition en minutes.
 public int TotalEditingTime { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les propriétés du document dans la catégorie « Origine ».
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Voir également
 
 * class [BuiltInDocumentProperties](../)
-* espace de noms [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espace de noms [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Assemblée [Aspose.Words](../../../)
-
-

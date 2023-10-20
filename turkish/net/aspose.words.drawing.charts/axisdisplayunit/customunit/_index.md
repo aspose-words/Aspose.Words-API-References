@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.CustomUnit
-second_title: Aspose.Words for .NET API Referansı
-description: AxisDisplayUnit mülk. Görüntü birimlerini değer ekseninde ölçeklendirmek için kullanıcı tanımlı bir bölen alır veya ayarlar.
+linktitle: CustomUnit
+articleTitle: CustomUnit
+second_title: Aspose.Words for .NET
+description: AxisDisplayUnit CustomUnit mülk. Görüntü birimlerini değer ekseninde ölçeklendirmek için kullanıcı tanımlı bir bölen alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/axisdisplayunit/customunit/
@@ -14,13 +16,13 @@ Görüntü birimlerini değer ekseninde ölçeklendirmek için kullanıcı tanı
 public double CustomUnit { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik MS Office 2016 yeni çizelgeleri tarafından desteklenmemektedir. Varsayılan değer 1'dir.
 
 Bu özelliğin ayarlanması,[`Unit`](../unit/) özelliğiCustom.
 
-### Örnekler
+## Örnekler
 
 Bir grafik ekseninin onay işaretlerinin ve görüntülenen değerlerinin nasıl değiştirileceğini gösterir.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Ayrıca bakınız
 
 * class [AxisDisplayUnit](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

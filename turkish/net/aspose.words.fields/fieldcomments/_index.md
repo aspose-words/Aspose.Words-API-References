@@ -1,7 +1,9 @@
 ---
-title: Class FieldComments
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldComments sınıf. YORUMLAR alanını uygular.
+title: FieldComments Class
+linktitle: FieldComments
+articleTitle: FieldComments
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldComments sınıf. YORUMLAR alanını uygular C#'da.
 type: docs
 weight: 1700
 url: /tr/net/aspose.words.fields/fieldcomments/
@@ -43,17 +45,17 @@ public class FieldComments : Field
 | İsim | Tanım |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
-### Notlar
+## Notlar
 
 Geçerli belgeyle ilgili yorumları, şu şekilde kaydedildiği şekilde alır ve isteğe bağlı olarak ayarlar:[`Comments`](../../aspose.words.properties/builtindocumentproperties/comments/) yerleşik belge özelliklerinin özelliği .
 
-### Örnekler
+## Örnekler
 
 YORUMLAR alanının nasıl kullanılacağını gösterir.
 
@@ -88,5 +90,3 @@ doc.Save(ArtifactsDir + "Field.COMMENTS.docx");
 * class [Field](../field/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

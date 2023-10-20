@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.SequenceName
-second_title: Aspose.Words for .NET API 参考
-description: FieldIndex 财产. 获取或设置页码中包含编号的序列名称
+linktitle: SequenceName
+articleTitle: SequenceName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIndex SequenceName 财产. 获取或设置页码中包含编号的序列名称 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.fields/fieldindex/sequencename/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldindex/sequencename/
 public string SequenceName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何通过组合 INDEX 和 SEQ 字段将文档拆分为多个部分。
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### 也可以看看
 
 * class [FieldIndex](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldindex/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListLevelNumber
-second_title: Aspose.Words för .NET API Referens
-description: ListFormat fast egendom. Hämtar eller ställer in listnivånumret 0 till 8 för stycket.
+linktitle: ListLevelNumber
+articleTitle: ListLevelNumber
+second_title: Aspose.Words för .NET
+description: ListFormat ListLevelNumber fast egendom. Hämtar eller ställer in listnivånumret 0 till 8 för stycket i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.lists/listformat/listlevelnumber/
@@ -14,13 +16,13 @@ Hämtar eller ställer in listnivånumret (0 till 8) för stycket.
 public int ListLevelNumber { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 I Word-dokument kan listor bestå av 1 eller 9 nivåer, numrerade 0 till 8.
 
 Har effekt endast när[`List`](../list/) egenskapen är inställd för att referera till en giltig lista.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med listnivåer.
 
@@ -153,7 +155,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Se även
 
 * class [ListFormat](../)
-* namnutrymme [Aspose.Words.Lists](../../listformat/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ShowHiddenText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutOptions propriété. Obtient ou définit une indication indiquant si le texte masqué dans le document est rendu. La valeur par défaut estFAUX .
+linktitle: ShowHiddenText
+articleTitle: ShowHiddenText
+second_title: Aspose.Words pour .NET
+description: LayoutOptions ShowHiddenText propriété. Obtient ou définit une indication indiquant si le texte masqué dans le document est rendu. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.layout/layoutoptions/showhiddentext/
@@ -14,11 +16,11 @@ Obtient ou définit une indication indiquant si le texte masqué dans le documen
 public bool ShowHiddenText { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété affecte tout le contenu masqué, pas seulement le texte.
 
-### Exemples
+## Exemples
 
 Montre comment masquer le texte dans un document de sortie rendu.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsHiddenText.pdf");
 ### Voir également
 
 * class [LayoutOptions](../)
-* espace de noms [Aspose.Words.Layout](../../layoutoptions/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class BaseWebExtensionCollectionT
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T klas. Basisklasse fürTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection UndWebExtensionReferenceCollection Sammlungen.
+title: BaseWebExtensionCollectionT Class
+linktitle: BaseWebExtensionCollectionT
+articleTitle: BaseWebExtensionCollectionT
+second_title: Aspose.Words für .NET
+description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T klas. Basisklasse fürTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection UndWebExtensionReferenceCollection Sammlungen in C#.
 type: docs
 weight: 6700
 url: /de/net/aspose.words.webextensions/basewebextensioncollection-1/
@@ -32,12 +34,12 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | Fügt das angegebene Element zur Sammlung hinzu. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*T*) | Fügt das angegebene Element zur Sammlung hinzu. |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | Entfernt alle Elemente aus der Sammlung. |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Gibt einen Enumerator zurück, der eine Sammlung durchlaufen kann. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | Entfernt das Element am angegebenen Index aus der Sammlung. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) | Entfernt das Element am angegebenen Index aus der Sammlung. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit der Sammlung von Weberweiterungen eines Dokuments gearbeitet wird.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * namensraum [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../)
-
-

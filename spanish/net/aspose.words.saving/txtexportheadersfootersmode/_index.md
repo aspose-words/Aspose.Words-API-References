@@ -1,7 +1,9 @@
 ---
-title: Enum TxtExportHeadersFootersMode
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.TxtExportHeadersFootersMode enumeración. Especifica la forma en que se exportan los encabezados y pies de página a formato de texto sin formato.
+title: TxtExportHeadersFootersMode Enum
+linktitle: TxtExportHeadersFootersMode
+articleTitle: TxtExportHeadersFootersMode
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.TxtExportHeadersFootersMode enumeración. Especifica la forma en que se exportan los encabezados y pies de página a formato de texto sin formato en C#.
 type: docs
 weight: 5640
 url: /es/net/aspose.words.saving/txtexportheadersfootersmode/
@@ -22,7 +24,7 @@ public enum TxtExportHeadersFootersMode
 | PrimaryOnly | `1` | Solo se exportan encabezados y pies de página principales al principio y al final de cada sección. |
 | AllAtEnd | `2` | Todos los encabezados y pies de página se colocan después de todos los cuerpos de las secciones al final de un documento. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo especificar cómo exportar encabezados y pies de página a formato de texto sin formato.
 
@@ -94,5 +96,3 @@ switch (txtExportHeadersFootersMode)
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

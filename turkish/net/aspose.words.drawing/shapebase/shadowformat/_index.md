@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ShadowFormat
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin gölge formatını alır.
+linktitle: ShadowFormat
+articleTitle: ShadowFormat
+second_title: Aspose.Words for .NET
+description: ShapeBase ShadowFormat mülk. Şeklin gölge formatını alır C#'da.
 type: docs
 weight: 490
 url: /tr/net/aspose.words.drawing/shapebase/shadowformat/
@@ -18,7 +20,5 @@ public ShadowFormat ShadowFormat { get; }
 
 * class [ShadowFormat](../../shadowformat/)
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

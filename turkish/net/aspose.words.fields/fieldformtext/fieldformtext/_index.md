@@ -1,7 +1,9 @@
 ---
-title: FieldFormText.FieldFormText
-second_title: Aspose.Words for .NET API Referansı
-description: FieldFormText inşaatçı. Default_Constructor
+title: FieldFormText
+linktitle: FieldFormText
+articleTitle: FieldFormText
+second_title: Aspose.Words for .NET
+description: FieldFormText inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldformtext/fieldformtext/
@@ -17,7 +19,5 @@ public FieldFormText()
 ### Ayrıca bakınız
 
 * class [FieldFormText](../)
-* ad alanı [Aspose.Words.Fields](../../fieldformtext/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

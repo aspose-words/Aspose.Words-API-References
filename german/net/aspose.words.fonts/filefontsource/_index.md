@@ -1,7 +1,9 @@
 ---
-title: Class FileFontSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.FileFontSource klas. Stellt die einzelne TrueTypeSchriftartdatei dar die im Dateisystem gespeichert ist.
+title: FileFontSource Class
+linktitle: FileFontSource
+articleTitle: FileFontSource
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fonts.FileFontSource klas. Stellt die einzelne TrueTypeSchriftartdatei dar die im Dateisystem gespeichert ist in C#.
 type: docs
 weight: 2870
 url: /de/net/aspose.words.fonts/filefontsource/
@@ -20,9 +22,9 @@ public class FileFontSource : FontSourceBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [FileFontSource](filefontsource/#constructor)(string) | Ctor. |
-| [FileFontSource](filefontsource/#constructor_1)(string, int) | Ctor. |
-| [FileFontSource](filefontsource/#constructor_2)(string, int, string) | Ctor. |
+| [FileFontSource](filefontsource/#constructor)(*string*) | Ctor. |
+| [FileFontSource](filefontsource/#constructor_1)(*string, int*) | Ctor. |
+| [FileFontSource](filefontsource/#constructor_2)(*string, int, string*) | Ctor. |
 
 ## Eigenschaften
 
@@ -40,7 +42,7 @@ public class FileFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Gibt eine Liste der über diese Quelle verfügbaren Schriftarten zurück. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
 
@@ -61,5 +63,3 @@ Assert.AreEqual(0, fileFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
-
-

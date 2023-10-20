@@ -1,7 +1,9 @@
 ---
-title: Class SdtListItem
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Markup.SdtListItem 班级. 该元素指定父级中的单个列表项ComboBox或者DropDownList结构化文档标签.
+title: SdtListItem Class
+linktitle: SdtListItem
+articleTitle: SdtListItem
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Markup.SdtListItem 班级. 该元素指定父级中的单个列表项ComboBox或者DropDownList结构化文档标签 在 C#.
 type: docs
 weight: 4020
 url: /zh/net/aspose.words.markup/sdtlistitem/
@@ -20,8 +22,8 @@ public class SdtListItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SdtListItem](sdtlistitem/#constructor)(string) | 初始化此类的新实例。 |
-| [SdtListItem](sdtlistitem/#constructor_1)(string, string) | 初始化此类的新实例。 |
+| [SdtListItem](sdtlistitem/#constructor)(*string*) | 初始化此类的新实例。 |
+| [SdtListItem](sdtlistitem/#constructor_1)(*string, string*) | 初始化此类的新实例。 |
 
 ## 特性
 
@@ -30,7 +32,7 @@ public class SdtListItem
 | [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext/) { get; } | 获取要在运行内容中显示的文本，以代替[`Value`](./value/)此列表项的属性内容。 |
 | [Value](../../aspose.words.markup/sdtlistitem/value/) { get; } | 获取此列表项的值。 |
 
-### 例子
+## 例子
 
 展示如何使用下拉列表结构化文档标签。
 
@@ -88,5 +90,3 @@ Assert.AreEqual(0, listItems.Count);
 
 * 命名空间 [Aspose.Words.Markup](../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../)
-
-

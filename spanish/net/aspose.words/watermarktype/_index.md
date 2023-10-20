@@ -1,7 +1,9 @@
 ---
-title: Enum WatermarkType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.WatermarkType enumeración. Especifica el tipo de marca de agua.
+title: WatermarkType Enum
+linktitle: WatermarkType
+articleTitle: WatermarkType
+second_title: Aspose.Words para .NET
+description: Aspose.Words.WatermarkType enumeración. Especifica el tipo de marca de agua en C#.
 type: docs
 weight: 6690
 url: /es/net/aspose.words/watermarktype/
@@ -22,7 +24,7 @@ public enum WatermarkType
 | Image | `1` | Indica que la imagen se utilizará como marca de agua. |
 | None | `2` | Indica que la marca de agua no está establecida. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una marca de agua de texto.
 
@@ -54,5 +56,3 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

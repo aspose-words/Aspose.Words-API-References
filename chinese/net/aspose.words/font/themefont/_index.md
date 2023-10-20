@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFont
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置与此关联的应用字体方案中的主题字体Font对象.
+linktitle: ThemeFont
+articleTitle: ThemeFont
+second_title: 用于 .NET 的 Aspose.Words
+description: Font ThemeFont 财产. 获取或设置与此关联的应用字体方案中的主题字体Font对象 在 C#.
 type: docs
 weight: 470
 url: /zh/net/aspose.words/font/themefont/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/themefont/
 public ThemeFont ThemeFont { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何创建和使用主题样式。
 
@@ -119,7 +121,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

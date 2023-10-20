@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.RevisionType تعداد. يحدد نوع التغيير الذي يتم تعقبهRevision .
+title: RevisionType Enum
+linktitle: RevisionType
+articleTitle: RevisionType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.RevisionType تعداد. يحدد نوع التغيير الذي يتم تعقبهRevision  في C#.
 type: docs
 weight: 4800
 url: /ar/net/aspose.words/revisiontype/
@@ -24,7 +26,7 @@ public enum RevisionType
 | StyleDefinitionChange | `3` | تم تطبيق تغيير التنسيق على النمط الأصلي. |
 | Moving | `4` | تم نقل المحتوى في المستند. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع المراجعات في المستند.
 
@@ -108,5 +110,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

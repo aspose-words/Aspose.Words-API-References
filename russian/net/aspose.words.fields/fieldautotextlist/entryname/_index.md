@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.EntryName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAutoTextList свойство. Получает или задает имя записи автотекста.
+linktitle: EntryName
+articleTitle: EntryName
+second_title: Aspose.Words для .NET
+description: FieldAutoTextList EntryName свойство. Получает или задает имя записи автотекста на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldautotextlist/entryname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldautotextlist/entryname/
 public string EntryName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле AUTOTEXTLIST для выбора из списка записей автотекста.
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### Смотрите также
 
 * class [FieldAutoTextList](../)
-* пространство имен [Aspose.Words.Fields](../../fieldautotextlist/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

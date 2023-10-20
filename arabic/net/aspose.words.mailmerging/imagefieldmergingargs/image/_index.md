@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.Image
-second_title: Aspose.Words لمراجع .NET API
-description: ImageFieldMergingArgs ملكية. تحديد الصورة التي يجب على محرك دمج المراسلات إدراجها في المستند.
+linktitle: Image
+articleTitle: Image
+second_title: Aspose.Words لـ .NET
+description: ImageFieldMergingArgs Image ملكية. تحديد الصورة التي يجب على محرك دمج المراسلات إدراجها في المستند في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.mailmerging/imagefieldmergingargs/image/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.mailmerging/imagefieldmergingargs/image/
 public Image Image { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام رد الاتصال لتخصيص منطق دمج الصور.
 
@@ -88,7 +90,5 @@ private class ImageFilenameCallback : IFieldMergingCallback
 ### أنظر أيضا
 
 * class [ImageFieldMergingArgs](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

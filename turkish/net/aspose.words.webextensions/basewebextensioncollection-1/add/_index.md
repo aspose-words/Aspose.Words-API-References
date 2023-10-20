@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Add
-second_title: Aspose.Words for .NET API Referansı
-description: BaseWebExtensionCollection yöntem. Belirtilen öğeyi koleksiyona ekler.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: BaseWebExtensionCollection Add yöntem. Belirtilen öğeyi koleksiyona ekler C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.webextensions/basewebextensioncollection-1/add/
@@ -18,7 +20,7 @@ public void Add(T item)
 | --- | --- | --- |
 | item | T | Eklenecek öğe. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ayrıca bakınız
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* ad alanı [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

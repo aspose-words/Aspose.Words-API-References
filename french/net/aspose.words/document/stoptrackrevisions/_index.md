@@ -1,9 +1,11 @@
 ---
 title: Document.StopTrackRevisions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document méthode. Arrête le marquage automatique des modifications du document en tant que révisions.
+linktitle: StopTrackRevisions
+articleTitle: StopTrackRevisions
+second_title: Aspose.Words pour .NET
+description: Document StopTrackRevisions méthode. Arrête le marquage automatique des modifications du document en tant que révisions en C#.
 type: docs
-weight: 740
+weight: 720
 url: /fr/net/aspose.words/document/stoptrackrevisions/
 ---
 ## Document.StopTrackRevisions method
@@ -14,7 +16,7 @@ Arrête le marquage automatique des modifications du document en tant que révis
 public void StopTrackRevisions()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment suivre les révisions lors de la modification d’un document.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 * method [StartTrackRevisions](../starttrackrevisions/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

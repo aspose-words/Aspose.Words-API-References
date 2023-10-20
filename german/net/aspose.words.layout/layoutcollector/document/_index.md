@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.Document
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutCollector eigendom. Ruft das Dokument ab an das diese CollectorInstanz angehängt ist oder legt dieses fest.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words für .NET
+description: LayoutCollector Document eigendom. Ruft das Dokument ab an das diese CollectorInstanz angehängt ist oder legt dieses fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.layout/layoutcollector/document/
@@ -14,11 +16,11 @@ Ruft das Dokument ab, an das diese Collector-Instanz angehängt ist, oder legt d
 public Document Document { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Sie auf Seitenindizes der Dokumentknoten zugreifen müssen, müssen Sie diese Eigenschaft so festlegen, dass sie auf eine Dokumentinstanz verweist, bevor das Seitenlayout des Dokuments erstellt wird. Am besten setzen Sie diese Eigenschaft auf`Null` danach andernfalls sammelt der Collector weiterhin Informationen aus nachfolgenden Neuerstellungen des Seitenlayouts des Dokuments.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Seitenbereiche angezeigt werden, die ein Knoten umfasst.
 
@@ -77,7 +79,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutCollector](../)
-* namensraum [Aspose.Words.Layout](../../layoutcollector/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

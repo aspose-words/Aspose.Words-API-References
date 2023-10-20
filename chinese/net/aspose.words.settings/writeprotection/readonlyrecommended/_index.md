@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.ReadOnlyRecommended
-second_title: Aspose.Words for .NET API 参考
-description: WriteProtection 财产. 指定文档作者是否建议以只读方式打开文档
+linktitle: ReadOnlyRecommended
+articleTitle: ReadOnlyRecommended
+second_title: 用于 .NET 的 Aspose.Words
+description: WriteProtection ReadOnlyRecommended 财产. 指定文档作者是否建议以只读方式打开文档 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.settings/writeprotection/readonlyrecommended/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/writeprotection/readonlyrecommended/
 public bool ReadOnlyRecommended { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用密码保护文档。
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### 也可以看看
 
 * class [WriteProtection](../)
-* 命名空间 [Aspose.Words.Settings](../../writeprotection/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

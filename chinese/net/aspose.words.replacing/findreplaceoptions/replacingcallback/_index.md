@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ReplacingCallback
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. 在每次替换发生之前调用的用户定义方法
+linktitle: ReplacingCallback
+articleTitle: ReplacingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions ReplacingCallback 财产. 在每次替换发生之前调用的用户定义方法 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
 public IReplacingCallback ReplacingCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何将所有出现的正则表达式模式替换为另一个字符串，同时跟踪所有此类替换。
 
@@ -139,7 +141,5 @@ private class NumberHexer : IReplacingCallback
 
 * interface [IReplacingCallback](../../ireplacingcallback/)
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

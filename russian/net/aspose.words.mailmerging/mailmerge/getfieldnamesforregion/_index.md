@@ -1,12 +1,14 @@
 ---
 title: MailMerge.GetFieldNamesForRegion
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge метод. Возвращает коллекцию имен полей слияния почты доступных в регионе.
+linktitle: GetFieldNamesForRegion
+articleTitle: GetFieldNamesForRegion
+second_title: Aspose.Words для .NET
+description: MailMerge GetFieldNamesForRegion метод. Возвращает коллекцию имен полей слияния почты доступных в регионе на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/
 ---
-## GetFieldNamesForRegion(string) {#getfieldnamesforregion}
+## GetFieldNamesForRegion(*string*) {#getfieldnamesforregion}
 
 Возвращает коллекцию имен полей слияния почты, доступных в регионе.
 
@@ -18,7 +20,7 @@ public string[] GetFieldNamesForRegion(string regionName)
 | --- | --- | --- |
 | regionName | String | Название региона (без учета регистра). |
 
-### Примечания
+## Примечания
 
 Возвращает полные имена полей слияния, включая необязательный префикс. Не удаляет повторяющиеся имена полей.
 
@@ -26,7 +28,7 @@ public string[] GetFieldNamesForRegion(string regionName)
 
 Новый массив строк создается при каждом вызове.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать, составлять список и читать регионы слияния почты.
 
@@ -81,12 +83,12 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## GetFieldNamesForRegion(string, int) {#getfieldnamesforregion_1}
+## GetFieldNamesForRegion(*string, int*) {#getfieldnamesforregion_1}
 
 Возвращает коллекцию имен полей слияния почты, доступных в регионе.
 
@@ -99,7 +101,7 @@ public string[] GetFieldNamesForRegion(string regionName, int regionIndex)
 | regionName | String | Название региона (без учета регистра). |
 | regionIndex | Int32 | Индекс региона (отсчитывается от нуля). |
 
-### Примечания
+## Примечания
 
 Возвращает полные имена полей слияния, включая необязательный префикс. Не удаляет повторяющиеся имена полей.
 
@@ -107,7 +109,7 @@ public string[] GetFieldNamesForRegion(string regionName, int regionIndex)
 
 Новый массив строк создается при каждом вызове.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать, составлять список и читать регионы слияния почты.
 
@@ -162,7 +164,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.Text
-second_title: Aspose.Words per .NET API Reference
-description: PlainTextDocument proprietà. Ottiene il contenuto testuale del documento concatenato come una stringa.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words per .NET
+description: PlainTextDocument Text proprietà. Ottiene il contenuto testuale del documento concatenato come una stringa in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/plaintextdocument/text/
@@ -14,7 +16,7 @@ Ottiene il contenuto testuale del documento concatenato come una stringa.
 public string Text { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come caricare il contenuto di un documento Microsoft Word in testo normale.
 
@@ -33,7 +35,5 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### Guarda anche
 
 * class [PlainTextDocument](../)
-* spazio dei nomi [Aspose.Words](../../plaintextdocument/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

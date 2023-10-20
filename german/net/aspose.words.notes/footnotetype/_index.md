@@ -1,7 +1,9 @@
 ---
-title: Enum FootnoteType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Notes.FootnoteType opsomming. Gibt an ob es sich um eine Fußnote oder eine Endnote handelt.
+title: FootnoteType Enum
+linktitle: FootnoteType
+articleTitle: FootnoteType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Notes.FootnoteType opsomming. Gibt an ob es sich um eine Fußnote oder eine Endnote handelt in C#.
 type: docs
 weight: 4300
 url: /de/net/aspose.words.notes/footnotetype/
@@ -21,11 +23,11 @@ public enum FootnoteType
 | Footnote | `0` | Das Objekt ist eine Fußnote. |
 | Endnote | `1` | Das Objekt ist eine Endnote. |
 
-### Bemerkungen
+## Bemerkungen
 
 Sowohl Fußnoten als auch Endnoten werden durch Objekte dargestelltFootnote Klasse. Verwenden[`FootnoteType`](../footnote/footnotetype/) um zwischen Fußnoten und Endnoten zu unterscheiden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text mit einer Fußnote und einer Endnote referenziert wird.
 
@@ -100,5 +102,3 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * namensraum [Aspose.Words.Notes](../../aspose.words.notes/)
 * Montage [Aspose.Words](../../)
-
-

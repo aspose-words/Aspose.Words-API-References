@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.LinkSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentProperty eigendom. Ruft die Quelle einer verknüpften benutzerdefinierten Dokumenteigenschaft ab.
+linktitle: LinkSource
+articleTitle: LinkSource
+second_title: Aspose.Words für .NET
+description: DocumentProperty LinkSource eigendom. Ruft die Quelle einer verknüpften benutzerdefinierten Dokumenteigenschaft ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.properties/documentproperty/linksource/
@@ -14,7 +16,7 @@ Ruft die Quelle einer verknüpften benutzerdefinierten Dokumenteigenschaft ab.
 public string LinkSource { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine benutzerdefinierte Dokumenteigenschaft mit einem Lesezeichen verknüpft wird.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 ### Siehe auch
 
 * class [DocumentProperty](../)
-* namensraum [Aspose.Words.Properties](../../documentproperty/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

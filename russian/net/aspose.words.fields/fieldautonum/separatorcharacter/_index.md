@@ -1,7 +1,9 @@
 ---
 title: FieldAutoNum.SeparatorCharacter
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAutoNum свойство. Получает или задает используемый символразделитель.
+linktitle: SeparatorCharacter
+articleTitle: SeparatorCharacter
+second_title: Aspose.Words для .NET
+description: FieldAutoNum SeparatorCharacter свойство. Получает или задает используемый символразделитель на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldautonum/separatorcharacter/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldautonum/separatorcharacter/
 public string SeparatorCharacter { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как нумеровать абзацы с помощью полей автонумерации.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Field.AUTONUM.docx");
 ### Смотрите также
 
 * class [FieldAutoNum](../)
-* пространство имен [Aspose.Words.Fields](../../fieldautonum/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

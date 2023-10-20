@@ -1,7 +1,9 @@
 ---
 title: Table.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. ReturnerarTable .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: Table NodeType fast egendom. ReturnerarTable  i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words.tables/table/nodetype/
@@ -14,7 +16,7 @@ ReturnerarTable .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -135,7 +137,5 @@ private static int GetChildTableCount(Table table)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

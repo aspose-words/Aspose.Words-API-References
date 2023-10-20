@@ -1,7 +1,9 @@
 ---
-title: Enum TxtExportHeadersFootersMode
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.TxtExportHeadersFootersMode تعداد. يحدد طريقة تصدير الرؤوس والتذييلات إلى تنسيق نص عادي.
+title: TxtExportHeadersFootersMode Enum
+linktitle: TxtExportHeadersFootersMode
+articleTitle: TxtExportHeadersFootersMode
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.TxtExportHeadersFootersMode تعداد. يحدد طريقة تصدير الرؤوس والتذييلات إلى تنسيق نص عادي في C#.
 type: docs
 weight: 5640
 url: /ar/net/aspose.words.saving/txtexportheadersfootersmode/
@@ -22,7 +24,7 @@ public enum TxtExportHeadersFootersMode
 | PrimaryOnly | `1` | يتم تصدير الرؤوس والتذييلات الأساسية فقط في بداية ونهاية كل قسم. |
 | AllAtEnd | `2` | يتم وضع كافة الرؤوس والتذييلات بعد جميع نصوص الأقسام في نهاية المستند. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد كيفية تصدير الرؤوس والتذييلات إلى تنسيق نص عادي.
 
@@ -94,5 +96,3 @@ switch (txtExportHeadersFootersMode)
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

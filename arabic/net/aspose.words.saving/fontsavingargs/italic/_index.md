@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Italic
-second_title: Aspose.Words لمراجع .NET API
-description: FontSavingArgs ملكية. يشير إلى ما إذا كان الخط الحالي مائلًا أم لا.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words لـ .NET
+description: FontSavingArgs Italic ملكية. يشير إلى ما إذا كان الخط الحالي مائلًا أم لا في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.saving/fontsavingargs/italic/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/fontsavingargs/italic/
 public bool Italic { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد المنطق المخصص لتصدير الخطوط عند الحفظ إلى HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### أنظر أيضا
 
 * class [FontSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../fontsavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

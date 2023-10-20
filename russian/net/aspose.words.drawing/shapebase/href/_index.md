@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.HRef
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает или задает полный адрес гиперссылки для фигуры.
+linktitle: HRef
+articleTitle: HRef
+second_title: Aspose.Words для .NET
+description: ShapeBase HRef свойство. Получает или задает полный адрес гиперссылки для фигуры на С#.
 type: docs
 weight: 230
 url: /ru/net/aspose.words.drawing/shapebase/href/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/href/
 public string HRef { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — пустая строка.
 
@@ -32,7 +34,7 @@ public string HRef { get; set; }
 
 Закладка в этом документе:`#BookmakName`.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить фигуру, содержащую изображение, а также гиперссылку.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

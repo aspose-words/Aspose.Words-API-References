@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: FieldEnd mülk. İadelerFieldEnd .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: FieldEnd NodeType mülk. İadelerFieldEnd  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldend/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.fields/fieldend/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FieldEnd](../)
-* ad alanı [Aspose.Words.Fields](../../fieldend/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

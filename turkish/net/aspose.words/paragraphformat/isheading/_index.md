@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.IsHeading
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragraf stili yerleşik Başlık stillerinden biri olduğunda doğrudur.
+linktitle: IsHeading
+articleTitle: IsHeading
+second_title: Aspose.Words for .NET
+description: ParagraphFormat IsHeading mülk. Paragraf stili yerleşik Başlık stillerinden biri olduğunda doğrudur C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words/paragraphformat/isheading/
@@ -14,7 +16,7 @@ Paragraf stili yerleşik Başlık stillerinden biri olduğunda doğrudur.
 public bool IsHeading { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir PDF belgesinin ana hatlarında görünecek başlık düzeyinin nasıl sınırlanacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeadingsOutlineLevels.pdf", saveOptions)
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

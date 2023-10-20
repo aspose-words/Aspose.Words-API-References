@@ -1,7 +1,9 @@
 ---
 title: FieldToa.PageRangeSeparator
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToa eigendom. Ruft die Zeichenfolge ab die zum Trennen des Anfangs und Endes eines Seitenbereichs verwendet wird oder legt diese fest.
+linktitle: PageRangeSeparator
+articleTitle: PageRangeSeparator
+second_title: Aspose.Words für .NET
+description: FieldToa PageRangeSeparator eigendom. Ruft die Zeichenfolge ab die zum Trennen des Anfangs und Endes eines Seitenbereichs verwendet wird oder legt diese fest in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldtoa/pagerangeseparator/
@@ -14,7 +16,7 @@ Ruft die Zeichenfolge ab, die zum Trennen des Anfangs und Endes eines Seitenbere
 public string PageRangeSeparator { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe von TOA- und TA-Feldern ein Autoritätsverzeichnis erstellt und anpasst.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Siehe auch
 
 * class [FieldToa](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoa/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

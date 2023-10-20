@@ -1,7 +1,9 @@
 ---
-title: Enum FieldType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldType énumération. Spécifie les types de champs Microsoft Word.
+title: FieldType Enum
+linktitle: FieldType
+articleTitle: FieldType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldType énumération. Spécifie les types de champs Microsoft Word en C#.
 type: docs
 weight: 2540
 url: /fr/net/aspose.words.fields/fieldtype/
@@ -116,7 +118,7 @@ public enum FieldType
 | FieldUserInitials | `61` | Spécifie le champ USERINITIALS. |
 | FieldUserName | `60` | Spécifie le champ USERNAME. |
 
-### Exemples
+## Exemples
 
 Montre comment insérer un champ dans un document à l'aide d'un code de champ.
 
@@ -163,5 +165,3 @@ field.Update();
 
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

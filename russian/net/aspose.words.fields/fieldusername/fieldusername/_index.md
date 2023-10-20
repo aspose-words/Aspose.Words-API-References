@@ -1,7 +1,9 @@
 ---
-title: FieldUserName.FieldUserName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldUserName строитель. Конструктор по умолчанию.
+title: FieldUserName
+linktitle: FieldUserName
+articleTitle: FieldUserName
+second_title: Aspose.Words для .NET
+description: FieldUserName строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldusername/fieldusername/
@@ -17,7 +19,5 @@ public FieldUserName()
 ### Смотрите также
 
 * class [FieldUserName](../)
-* пространство имен [Aspose.Words.Fields](../../fieldusername/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

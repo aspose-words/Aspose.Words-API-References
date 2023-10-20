@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SuppressLineNumbers
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Gibt an ob die Zeilen des aktuellen Absatzes von der Zeilennummerierung ausgenommen werden sollen die im übergeordneten Abschnitt angewendet wird.
+linktitle: SuppressLineNumbers
+articleTitle: SuppressLineNumbers
+second_title: Aspose.Words für .NET
+description: ParagraphFormat SuppressLineNumbers eigendom. Gibt an ob die Zeilen des aktuellen Absatzes von der Zeilennummerierung ausgenommen werden sollen die im übergeordneten Abschnitt angewendet wird in C#.
 type: docs
 weight: 380
 url: /de/net/aspose.words/paragraphformat/suppresslinenumbers/
@@ -14,7 +16,7 @@ Gibt an, ob die Zeilen des aktuellen Absatzes von der Zeilennummerierung ausgeno
 public bool SuppressLineNumbers { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Zeilennummerierung für einen Abschnitt aktiviert wird.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

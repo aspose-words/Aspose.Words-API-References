@@ -1,7 +1,9 @@
 ---
-title: Enum PresetTexture
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.PresetTexture enumeración. Especifica la textura que se utilizará para rellenar una forma.
+title: PresetTexture Enum
+linktitle: PresetTexture
+articleTitle: PresetTexture
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Drawing.PresetTexture enumeración. Especifica la textura que se utilizará para rellenar una forma en C#.
 type: docs
 weight: 1180
 url: /es/net/aspose.words.drawing/presettexture/
@@ -48,5 +50,3 @@ public enum PresetTexture
 
 * espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
-
-

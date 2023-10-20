@@ -1,7 +1,9 @@
 ---
-title: Body.Body
-second_title: Aspose.Words per .NET API Reference
-description: Body costruttore. Inizializza una nuova istanza diBody classe.
+title: Body
+linktitle: Body
+articleTitle: Body
+second_title: Aspose.Words per .NET
+description: Body costruttore. Inizializza una nuova istanza diBody classe in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/body/body/
@@ -18,13 +20,13 @@ public Body(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Il documento del proprietario. |
 
-### Osservazioni
+## Osservazioni
 
 Quando[`Body`](../) viene creato, appartiene al documento specificato, ma non è ancora parte del documento e[`ParentNode`](../../node/parentnode/) È`nullo`.
 
-Per aggiungere[`Body`](../)ad a[`Section`](../../section/) utilizzoAggiungiChild , InserisciDopo OInserisci prima metodi.
+Per aggiungere[`Body`](../)ad a[`Section`](../../section/) utilizzo[`AggiungiChild`](../../compositenode/appendchild/) , [`InserisciDopo`](../../compositenode/insertafter/) O[`Inserisci prima`](../../compositenode/insertbefore/) metodi.
 
-### Esempi
+## Esempi
 
 Mostra come costruire manualmente un documento Aspose.Words.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Body](../)
-* spazio dei nomi [Aspose.Words](../../body/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

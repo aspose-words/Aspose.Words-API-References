@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberCountBy
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Devuelve o establece el incremento numérico para los números de línea.
+linktitle: LineNumberCountBy
+articleTitle: LineNumberCountBy
+second_title: Aspose.Words para .NET
+description: PageSetup LineNumberCountBy propiedad. Devuelve o establece el incremento numérico para los números de línea en C#.
 type: docs
 weight: 210
 url: /es/net/aspose.words/pagesetup/linenumbercountby/
@@ -14,7 +16,7 @@ Devuelve o establece el incremento numérico para los números de línea.
 public int LineNumberCountBy { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo habilitar la numeración de líneas para una sección.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Ver también
 
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

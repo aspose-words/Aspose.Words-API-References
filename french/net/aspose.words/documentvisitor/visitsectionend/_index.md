@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSectionEnd
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsque lénumération dune section est terminée.
+linktitle: VisitSectionEnd
+articleTitle: VisitSectionEnd
+second_title: Aspose.Words pour .NET
+description: DocumentVisitor VisitSectionEnd méthode. Appelé lorsque lénumération dune section est terminée en C#.
 type: docs
 weight: 370
 url: /fr/net/aspose.words/documentvisitor/visitsectionend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitSectionEnd(Section section)
 
 UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un visiteur de document pour imprimer la structure des nœuds d'un document.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [Section](../../section/)
 * class [DocumentVisitor](../)
-* espace de noms [Aspose.Words](../../documentvisitor/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

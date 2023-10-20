@@ -1,7 +1,9 @@
 ---
-title: Class KnownTypeSet
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Reporting.KnownTypeSet classe. Représente un ensemble non ordonné cestàdire une collection déléments uniques contenantType objets dont les noms entièrement ou partiellement qualifiés peuvent être utilisés dans les modèles de rapport pour appeler les membres statiques des types correspondants effectuer des conversions de type etc.
+title: KnownTypeSet Class
+linktitle: KnownTypeSet
+articleTitle: KnownTypeSet
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Reporting.KnownTypeSet classe. Représente un ensemble non ordonné cestàdire une collection déléments uniques contenantType objets dont les noms entièrement ou partiellement qualifiés peuvent être utilisés dans les modèles de rapport pour appeler les membres statiques des types correspondants effectuer des conversions de type etc en C#.
 type: docs
 weight: 4710
 url: /fr/net/aspose.words.reporting/knowntypeset/
@@ -26,14 +28,12 @@ public class KnownTypeSet : IEnumerable<Type>
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words.reporting/knowntypeset/add/)(Type) | Ajoute le spécifiéType s'opposer à l'ensemble. JetésArgumentException in les cas suivants : |
+| [Add](../../aspose.words.reporting/knowntypeset/add/)(*Type*) | Ajoute le spécifiéType s'opposer à l'ensemble. JetésArgumentException in les cas suivants : |
 | [Clear](../../aspose.words.reporting/knowntypeset/clear/)() | Supprime tous les éléments de l'ensemble. |
 | [GetEnumerator](../../aspose.words.reporting/knowntypeset/getenumerator/)() | renvoie unIEnumerator objet pour parcourir les éléments de l'ensemble. |
-| [Remove](../../aspose.words.reporting/knowntypeset/remove/)(Type) | Supprime le spécifiéTypeobjet de l’ensemble. JetésArgumentException si *type* est`nul` . |
+| [Remove](../../aspose.words.reporting/knowntypeset/remove/)(*Type*) | Supprime le spécifiéTypeobjet de l’ensemble. JetésArgumentException si *type* est`nul` . |
 
 ### Voir également
 
 * espace de noms [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * Assemblée [Aspose.Words](../../)
-
-

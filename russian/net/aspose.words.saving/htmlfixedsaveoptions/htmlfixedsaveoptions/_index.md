@@ -1,7 +1,9 @@
 ---
-title: HtmlFixedSaveOptions.HtmlFixedSaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlFixedSaveOptions строитель. Конструктор по умолчанию.
+title: HtmlFixedSaveOptions
+linktitle: HtmlFixedSaveOptions
+articleTitle: HtmlFixedSaveOptions
+second_title: Aspose.Words для .NET
+description: HtmlFixedSaveOptions строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/htmlfixedsaveoptions/
@@ -17,7 +19,5 @@ public HtmlFixedSaveOptions()
 ### Смотрите также
 
 * class [HtmlFixedSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

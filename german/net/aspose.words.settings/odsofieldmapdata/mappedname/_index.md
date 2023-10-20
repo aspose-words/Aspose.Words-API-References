@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.MappedName
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoFieldMapData eigendom. Gibt den vordefinierten Namen des Zusammenführungsfelds an der der durch den angegebenen Spaltennummer zugeordnet werden sollColumn Eigenschaft innerhalb dieser Feldzuordnung. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: MappedName
+articleTitle: MappedName
+second_title: Aspose.Words für .NET
+description: OdsoFieldMapData MappedName eigendom. Gibt den vordefinierten Namen des Zusammenführungsfelds an der der durch den angegebenen Spaltennummer zugeordnet werden sollColumn Eigenschaft innerhalb dieser Feldzuordnung. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.settings/odsofieldmapdata/mappedname/
@@ -14,7 +16,7 @@ Gibt den vordefinierten Namen des Zusammenführungsfelds an, der der durch den a
 public string MappedName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Briefvorlagenfeldern zuordnet.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Siehe auch
 
 * class [OdsoFieldMapData](../)
-* namensraum [Aspose.Words.Settings](../../odsofieldmapdata/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

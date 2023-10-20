@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsInsertRevision
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. إرجاع صحيح إذا تم إدراج هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات.
+linktitle: IsInsertRevision
+articleTitle: IsInsertRevision
+second_title: Aspose.Words لـ .NET
+description: Paragraph IsInsertRevision ملكية. إرجاع صحيح إذا تم إدراج هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/paragraph/isinsertrevision/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/isinsertrevision/
 public bool IsInsertRevision { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع فقرات المراجعة.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(
 ### أنظر أيضا
 
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

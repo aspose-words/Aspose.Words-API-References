@@ -1,7 +1,9 @@
 ---
-title: PdfSaveOptions.PdfSaveOptions
-second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions costruttore. Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento in Pdf formato.
+title: PdfSaveOptions
+linktitle: PdfSaveOptions
+articleTitle: PdfSaveOptions
+second_title: Aspose.Words per .NET
+description: PdfSaveOptions costruttore. Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento in Pdf formato in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/pdfsaveoptions/pdfsaveoptions/
@@ -14,7 +16,7 @@ Inizializza una nuova istanza di questa classe che può essere utilizzata per sa
 public PdfSaveOptions()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come abilitare o disabilitare il sottoinsieme quando si incorporano i caratteri durante il rendering di un documento in PDF.
 
@@ -62,7 +64,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ### Guarda anche
 
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

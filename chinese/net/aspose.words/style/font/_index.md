@@ -1,7 +1,9 @@
 ---
 title: Style.Font
-second_title: Aspose.Words for .NET API 参考
-description: Style 财产. 获取样式的字符格式
+linktitle: Font
+articleTitle: Font
+second_title: 用于 .NET 的 Aspose.Words
+description: Style Font 财产. 获取样式的字符格式 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/style/font/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/style/font/
 public Font Font { get; }
 ```
 
-### 评论
+## 评论
 
 对于列表样式，此属性返回`无效的`。
 
-### 例子
+## 例子
 
 演示如何创建和使用具有列表格式的段落样式。
 
@@ -85,7 +87,5 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 * class [Font](../../font/)
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.Border
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Renvoie unBorder objet qui spécifie la bordure de la police.
+linktitle: Border
+articleTitle: Border
+second_title: Aspose.Words pour .NET
+description: Font Border propriété. Renvoie unBorder objet qui spécifie la bordure de la police en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/font/border/
@@ -14,7 +16,7 @@ Renvoie un[`Border`](../../border/) objet qui spécifie la bordure de la police.
 public Border Border { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer une chaîne entourée d'une bordure dans un document.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * class [Border](../../border/)
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

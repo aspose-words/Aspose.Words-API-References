@@ -1,9 +1,11 @@
 ---
 title: Table.AutoFit
-second_title: Aspose.Words لمراجع .NET API
-description: Table طريقة. تغيير حجم الجدول والخلايا وفقًا لسلوك الاحتواء التلقائي المحدد.
+linktitle: AutoFit
+articleTitle: AutoFit
+second_title: Aspose.Words لـ .NET
+description: Table AutoFit طريقة. تغيير حجم الجدول والخلايا وفقًا لسلوك الاحتواء التلقائي المحدد في C#.
 type: docs
-weight: 380
+weight: 360
 url: /ar/net/aspose.words.tables/table/autofit/
 ---
 ## Table.AutoFit method
@@ -18,11 +20,11 @@ public void AutoFit(AutoFitBehavior behavior)
 | --- | --- | --- |
 | behavior | AutoFitBehavior | يحدد كيفية الملاءمة التلقائية للجدول. |
 
-### ملاحظات
+## ملاحظات
 
 تحاكي هذه الطريقة الأوامر المتوفرة في قائمة الاحتواء التلقائي لجدول في Microsoft Word. الأوامر المتوفرة هي "الاحتواء التلقائي للمحتويات" و"الاحتواء التلقائي للنافذة" و"عرض العمود الثابت". في Microsoft Word ، تقوم هذه الأوامر بتعيين خصائص الجدول ذات الصلة ثم تحديث تخطيط الجدول ويقوم Aspose.Words بنفس الشيء بالنسبة لك.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول جديد أثناء تطبيق النمط.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [AutoFitBehavior](../../autofitbehavior/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

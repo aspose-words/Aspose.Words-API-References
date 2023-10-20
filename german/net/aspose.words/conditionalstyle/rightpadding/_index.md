@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.RightPadding
-second_title: Aspose.Words für .NET-API-Referenz
-description: ConditionalStyle eigendom. Ruft die Menge an Platz in Punkten ab die rechts vom Inhalt von Tabellenzellen hinzugefügt werden soll oder legt diese fest.
+linktitle: RightPadding
+articleTitle: RightPadding
+second_title: Aspose.Words für .NET
+description: ConditionalStyle RightPadding eigendom. Ruft die Menge an Platz in Punkten ab die rechts vom Inhalt von Tabellenzellen hinzugefügt werden soll oder legt diese fest in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/conditionalstyle/rightpadding/
@@ -14,7 +16,7 @@ Ruft die Menge an Platz (in Punkten) ab, die rechts vom Inhalt von Tabellenzelle
 public double RightPadding { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 ### Siehe auch
 
 * class [ConditionalStyle](../)
-* namensraum [Aspose.Words](../../conditionalstyle/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

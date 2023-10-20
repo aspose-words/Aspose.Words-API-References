@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.DoubleValue
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartXValue propiedad. Obtiene el valor numérico almacenado.
+linktitle: DoubleValue
+articleTitle: DoubleValue
+second_title: Aspose.Words para .NET
+description: ChartXValue DoubleValue propiedad. Obtiene el valor numérico almacenado en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.drawing.charts/chartxvalue/doublevalue/
@@ -17,7 +19,5 @@ public double DoubleValue { get; }
 ### Ver también
 
 * class [ChartXValue](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

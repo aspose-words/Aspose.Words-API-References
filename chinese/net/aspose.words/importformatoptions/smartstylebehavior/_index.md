@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.SmartStyleBehavior
-second_title: Aspose.Words for .NET API 参考
-description: ImportFormatOptions 财产. 获取或设置一个布尔值该值指定当样式在源文档和目标文档中具有相同名称时如何导入样式 默认值为错误的.
+linktitle: SmartStyleBehavior
+articleTitle: SmartStyleBehavior
+second_title: 用于 .NET 的 Aspose.Words
+description: ImportFormatOptions SmartStyleBehavior 财产. 获取或设置一个布尔值该值指定当样式在源文档和目标文档中具有相同名称时如何导入样式 默认值为错误的 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/importformatoptions/smartstylebehavior/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/importformatoptions/smartstylebehavior/
 public bool SmartStyleBehavior { get; set; }
 ```
 
-### 评论
+## 评论
 
-当该选项为 **已启用**，源样式将扩展为a 目标文档内的直接属性，如果KeepSourceFormatting使用导入模式。
+当该选项为**已启用**，源样式将扩展为a 目标文档内的直接属性，如果KeepSourceFormatting使用导入模式。
 
-当该选项为 **残疾人**，只有编号的源样式才会展开。现有 目标属性不会被覆盖，包括列表。
+当该选项为**残疾人**，只有编号的源样式才会展开。现有 目标属性不会被覆盖，包括列表。
 
-### 例子
+## 例子
 
 演示如何在插入文档时解决重复样式。
 
@@ -55,7 +57,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 ### 也可以看看
 
 * class [ImportFormatOptions](../)
-* 命名空间 [Aspose.Words](../../importformatoptions/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

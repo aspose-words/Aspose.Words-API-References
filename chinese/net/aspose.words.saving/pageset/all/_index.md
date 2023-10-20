@@ -1,7 +1,9 @@
 ---
 title: PageSet.All
-second_title: Aspose.Words for .NET API 参考
-description: PageSet 财产. 获取文档所有页面按原始顺序排列的集合
+linktitle: All
+articleTitle: All
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSet All 财产. 获取文档所有页面按原始顺序排列的集合 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/pageset/all/
@@ -17,7 +19,5 @@ public static PageSet All { get; }
 ### 也可以看看
 
 * class [PageSet](../)
-* 命名空间 [Aspose.Words.Saving](../../pageset/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

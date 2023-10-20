@@ -1,7 +1,9 @@
 ---
 title: Document.AcceptAllRevisions
-second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Accetta tutte le modifiche tracciate nel documento.
+linktitle: AcceptAllRevisions
+articleTitle: AcceptAllRevisions
+second_title: Aspose.Words per .NET
+description: Document AcceptAllRevisions metodo. Accetta tutte le modifiche tracciate nel documento in C#.
 type: docs
 weight: 520
 url: /it/net/aspose.words/document/acceptallrevisions/
@@ -14,11 +16,11 @@ Accetta tutte le modifiche tracciate nel documento.
 public void AcceptAllRevisions()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo è una scorciatoia per[`AcceptAll`](../../revisioncollection/acceptall/).
 
-### Esempi
+## Esempi
 
 Mostra come accettare tutte le modifiche di rilevamento nel documento.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world! Hello again! This is another revision.", doc.GetTe
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

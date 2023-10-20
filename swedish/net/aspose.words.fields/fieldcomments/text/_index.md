@@ -1,7 +1,9 @@
 ---
 title: FieldComments.Text
-second_title: Aspose.Words för .NET API Referens
-description: FieldComments fast egendom. Hämtar eller ställer in texten i kommentarerna.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words för .NET
+description: FieldComments Text fast egendom. Hämtar eller ställer in texten i kommentarerna i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldcomments/text/
@@ -14,7 +16,7 @@ Hämtar eller ställer in texten i kommentarerna.
 public string Text { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder KOMMENTARER-fältet.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.COMMENTS.docx");
 ### Se även
 
 * class [FieldComments](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldcomments/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

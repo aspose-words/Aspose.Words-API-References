@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartEditableRange
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将文档中的当前位置标记为可编辑范围开始
+linktitle: StartEditableRange
+articleTitle: StartEditableRange
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder StartEditableRange 方法. 将文档中的当前位置标记为可编辑范围开始 在 C#.
 type: docs
-weight: 640
+weight: 630
 url: /zh/net/aspose.words/documentbuilder/starteditablerange/
 ---
 ## DocumentBuilder.StartEditableRange method
@@ -18,13 +20,13 @@ public EditableRangeStart StartEditableRange()
 
 刚刚创建的可编辑范围起始节点。
 
-### 评论
+## 评论
 
 文档中的可编辑范围可以重叠和跨越任何范围。要创建有效的可编辑范围，您需要 调用两者`StartEditableRange`和[`EndEditableRange`](../endeditablerange/) 或[`EndEditableRange`](../endeditablerange/)方法。
 
 保存文档时，格式错误的可编辑范围将被忽略。
 
-### 例子
+## 例子
 
 演示如何创建嵌套的可编辑范围。
 
@@ -107,7 +109,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

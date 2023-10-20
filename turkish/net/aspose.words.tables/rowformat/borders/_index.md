@@ -1,7 +1,9 @@
 ---
 title: RowFormat.Borders
-second_title: Aspose.Words for .NET API Referansı
-description: RowFormat mülk. Satır için varsayılan hücre kenarlıklarının koleksiyonunu alır.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words for .NET
+description: RowFormat Borders mülk. Satır için varsayılan hücre kenarlıklarının koleksiyonunu alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.tables/rowformat/borders/
@@ -14,7 +16,7 @@ Satır için varsayılan hücre kenarlıklarının koleksiyonunu alır.
 public BorderCollection Borders { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [RowFormat](../)
-* ad alanı [Aspose.Words.Tables](../../rowformat/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

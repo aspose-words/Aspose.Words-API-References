@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImagesFolder
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Bir belgeyi HTML biçimine dışa aktarırken görüntülerin kaydedildiği fiziksel klasörü belirtir. Varsayılan boş bir dizedir.
+linktitle: ImagesFolder
+articleTitle: ImagesFolder
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions ImagesFolder mülk. Bir belgeyi HTML biçimine dışa aktarırken görüntülerin kaydedildiği fiziksel klasörü belirtir. Varsayılan boş bir dizedir C#'da.
 type: docs
 weight: 360
 url: /tr/net/aspose.words.saving/htmlsaveoptions/imagesfolder/
@@ -14,7 +16,7 @@ Bir belgeyi HTML biçimine dışa aktarırken görüntülerin kaydedildiği fizi
 public string ImagesFolder { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir kaydettiğinizde[`Document`](../../../aspose.words/document/) HTML formatında Aspose.Words'ün belgeye gömülü tüm görsellerini bağımsız dosyalar olarak kaydetmesi gerekir.`ImagesFolder` görüntülerin nereye kaydedileceğini belirtmenize ve[`ImagesFolderAlias`](../imagesfolderalias/) , görüntü URI'lerinin nasıl oluşturulacağını belirtmeye olanak tanır.
 
@@ -26,7 +28,7 @@ tarafından belirtilen klasör ise`ImagesFolder` mevcut değilse otomatik olarak
 
 [`ResourceFolder`](../resourcefolder/) görüntülerin kaydedileceği klasörü belirtmenin başka bir yoludur.
 
-### Örnekler
+## Örnekler
 
 Bağlantılı görsellerin .html'ye kaydedildikten sonra saklanacağı klasörün nasıl belirleneceğini gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ### Ayrıca bakınız
 
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

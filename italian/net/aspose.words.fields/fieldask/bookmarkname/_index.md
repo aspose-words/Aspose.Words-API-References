@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.BookmarkName
-second_title: Aspose.Words per .NET API Reference
-description: FieldAsk proprietà. Ottiene o imposta il nome del segnalibro.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words per .NET
+description: FieldAsk BookmarkName proprietà. Ottiene o imposta il nome del segnalibro in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldask/bookmarkname/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del segnalibro.
 public string BookmarkName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare un campo ASK e impostarne le proprietà.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Guarda anche
 
 * class [FieldAsk](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldask/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

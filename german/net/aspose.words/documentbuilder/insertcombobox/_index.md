@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertComboBox
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt ein ComboboxFormularfeld an der aktuellen Position ein.
+linktitle: InsertComboBox
+articleTitle: InsertComboBox
+second_title: Aspose.Words für .NET
+description: DocumentBuilder InsertComboBox methode. Fügt ein ComboboxFormularfeld an der aktuellen Position ein in C#.
 type: docs
 weight: 300
 url: /de/net/aspose.words/documentbuilder/insertcombobox/
@@ -24,11 +26,11 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 Der gerade eingefügte Formularfeldknoten.
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Sie einen Namen für das Formularfeld angeben, wird automatisch ein Lesezeichen mit demselben Namen erstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Kombinationsfeld-Formularfeld in ein Dokument eingefügt wird.
 
@@ -71,7 +73,5 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

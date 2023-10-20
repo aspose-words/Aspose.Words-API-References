@@ -1,7 +1,9 @@
 ---
-title: Interface IResourceLoadingCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.IResourceLoadingCallback 界面. 如果您想控制 Aspose.Words 在 导入文档并插入图像时如何加载外部资源请实现此接口DocumentBuilder.
+title: IResourceLoadingCallback Interface
+linktitle: IResourceLoadingCallback
+articleTitle: IResourceLoadingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.IResourceLoadingCallback 界面. 如果您想控制 Aspose.Words 在 导入文档并插入图像时如何加载外部资源请实现此接口DocumentBuilder 在 C#.
 type: docs
 weight: 3640
 url: /zh/net/aspose.words.loading/iresourceloadingcallback/
@@ -18,9 +20,9 @@ public interface IResourceLoadingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(ResourceLoadingArgs) | Aspose.Words 加载任何外部资源时调用。 |
+| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(*[ResourceLoadingArgs](../resourceloadingargs/)*) | Aspose.Words 加载任何外部资源时调用。 |
 
-### 例子
+## 例子
 
 演示如何自定义将外部资源加载到文档中的过程。
 
@@ -84,5 +86,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

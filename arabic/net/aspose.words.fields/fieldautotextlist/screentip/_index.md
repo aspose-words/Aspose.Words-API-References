@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.ScreenTip
-second_title: Aspose.Words لمراجع .NET API
-description: FieldAutoTextList ملكية. الحصول على نص تلميح الشاشة المراد عرضه أو تعيينه.
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: Aspose.Words لـ .NET
+description: FieldAutoTextList ScreenTip ملكية. الحصول على نص تلميح الشاشة المراد عرضه أو تعيينه في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldautotextlist/screentip/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldautotextlist/screentip/
 public string ScreenTip { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل AUTOTEXTLIST للاختيار من قائمة إدخالات النص التلقائي.
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### أنظر أيضا
 
 * class [FieldAutoTextList](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldautotextlist/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

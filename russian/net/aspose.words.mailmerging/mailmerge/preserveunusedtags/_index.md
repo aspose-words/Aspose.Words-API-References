@@ -1,7 +1,9 @@
 ---
 title: MailMerge.PreserveUnusedTags
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Получает или задает значение указывающее следует ли сохранять неиспользуемые теги усы.
+linktitle: PreserveUnusedTags
+articleTitle: PreserveUnusedTags
+second_title: Aspose.Words для .NET
+description: MailMerge PreserveUnusedTags свойство. Получает или задает значение указывающее следует ли сохранять неиспользуемые теги усы на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.mailmerging/mailmerge/preserveunusedtags/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.mailmerging/mailmerge/preserveunusedtags/
 public bool PreserveUnusedTags { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ` .
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить внешний вид альтернативных тегов слияния почты, которые не используются во время слияния почты.
 
@@ -83,7 +85,5 @@ private static DataTable CreateSourceTablePreserveUnusedTags()
 
 * property [UseNonMergeFields](../usenonmergefields/)
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

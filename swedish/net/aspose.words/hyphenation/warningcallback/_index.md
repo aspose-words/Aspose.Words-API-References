@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.WarningCallback
-second_title: Aspose.Words för .NET API Referens
-description: Hyphenation fast egendom. Anropas under en inläsning av avstavningsmönster när ett problem upptäcks som kan resultera i förlust av formatering.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words för .NET
+description: Hyphenation WarningCallback fast egendom. Anropas under en inläsning av avstavningsmönster när ett problem upptäcks som kan resultera i förlust av formatering i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/hyphenation/warningcallback/
@@ -14,7 +16,7 @@ Anropas under en inläsning av avstavningsmönster, när ett problem upptäcks s
 public static IWarningCallback WarningCallback { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man öppnar och registrerar en ordbok från en fil.
 
@@ -91,7 +93,5 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * interface [IWarningCallback](../../iwarningcallback/)
 * class [Hyphenation](../)
-* namnutrymme [Aspose.Words](../../hyphenation/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

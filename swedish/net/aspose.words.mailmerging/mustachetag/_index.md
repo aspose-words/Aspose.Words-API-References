@@ -1,7 +1,9 @@
 ---
-title: Class MustacheTag
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.MailMerging.MustacheTag klass. Representerar mustaschtagg.
+title: MustacheTag Class
+linktitle: MustacheTag
+articleTitle: MustacheTag
+second_title: Aspose.Words för .NET
+description: Aspose.Words.MailMerging.MustacheTag klass. Representerar mustaschtagg i C#.
 type: docs
 weight: 3880
 url: /sv/net/aspose.words.mailmerging/mustachetag/
@@ -26,5 +28,3 @@ public class MustacheTag
 
 * namnutrymme [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../)
-
-

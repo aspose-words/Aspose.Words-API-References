@@ -1,7 +1,9 @@
 ---
 title: FieldInclude.TextConverter
-second_title: Aspose.Words för .NET API Referens
-description: FieldInclude fast egendom. Hämtar eller ställer in namnet på textkonverteraren för formatet på den inkluderade filen.
+linktitle: TextConverter
+articleTitle: TextConverter
+second_title: Aspose.Words för .NET
+description: FieldInclude TextConverter fast egendom. Hämtar eller ställer in namnet på textkonverteraren för formatet på den inkluderade filen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldinclude/textconverter/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på textkonverteraren för formatet på den ink
 public string TextConverter { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett INKLUDERA-fält och ställer in dess egenskaper.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### Se även
 
 * class [FieldInclude](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldinclude/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

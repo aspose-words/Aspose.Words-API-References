@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBuildingBlockStart
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 在开始枚举构建块时调用
+linktitle: VisitBuildingBlockStart
+articleTitle: VisitBuildingBlockStart
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitBuildingBlockStart 方法. 在开始枚举构建块时调用 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/documentvisitor/visitbuildingblockstart/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitBuildingBlockStart(BuildingBlock block)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 评论
+## 评论
 
 注意：当您在 a Visitor 上执行 a Visitor 时，不会访问构建块节点及其子节点。[`Document`](../../document/) 。如果您想在 a 构建块上执行访问者，则需要在[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/)or 调用[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/).
 
-### 例子
+## 例子
 
 显示访问术语表文档中的构建块的方法。
 
@@ -132,7 +134,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

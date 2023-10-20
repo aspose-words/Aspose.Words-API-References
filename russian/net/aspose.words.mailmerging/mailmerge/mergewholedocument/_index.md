@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MergeWholeDocument
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Получает или задает значение указывающее обновляются ли поля во всем документе при выполнении слияния почты с регионами.
+linktitle: MergeWholeDocument
+articleTitle: MergeWholeDocument
+second_title: Aspose.Words для .NET
+description: MailMerge MergeWholeDocument свойство. Получает или задает значение указывающее обновляются ли поля во всем документе при выполнении слияния почты с регионами на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.mailmerging/mailmerge/mergewholedocument/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.mailmerging/mailmerge/mergewholedocument/
 public bool MergeWholeDocument { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ` .
 
-### Примеры
+## Примеры
 
 Показывает связь между слияниями почты с регионами и обновлением полей.
 
@@ -85,7 +87,5 @@ private static DataTable CreateSourceTableMergeWholeDocument()
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

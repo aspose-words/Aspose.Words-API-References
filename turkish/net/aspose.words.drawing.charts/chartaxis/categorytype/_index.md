@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.CategoryType
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Kategori ekseninin türünü alır veya ayarlar.
+linktitle: CategoryType
+articleTitle: CategoryType
+second_title: Aspose.Words for .NET
+description: ChartAxis CategoryType mülk. Kategori ekseninin türünü alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartaxis/categorytype/
@@ -14,11 +16,11 @@ Kategori ekseninin türünü alır veya ayarlar.
 public AxisCategoryType CategoryType { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yalnızca metin kategorileri (Category ) MS Office 2016 yeni grafiklerinde izin verilir.
 
-### Örnekler
+## Örnekler
 
 Grafiğin nasıl ekleneceğini ve eksenlerinin görünümünün nasıl değiştirileceğini gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisCategoryType](../../axiscategorytype/)
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

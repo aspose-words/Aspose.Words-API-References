@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: DocumentPropertyCollection fast egendom. Returnerar enDocumentProperty objekt efter egenskapens namn.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: DocumentPropertyCollection Item fast egendom. Returnerar enDocumentProperty objekt efter egenskapens namn i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.properties/documentpropertycollection/item/
@@ -18,11 +20,11 @@ public virtual DocumentProperty this[string name] { get; }
 | --- | --- |
 | name | Det skiftlägesokänsliga namnet på egendomen som ska hämtas. |
 
-### Anmärkningar
+## Anmärkningar
 
 Returnerar`null` om en egenskap med det angivna namnet inte hittas.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en anpassad dokumentegenskap som innehåller ett datum och en tid.
 
@@ -38,7 +40,7 @@ Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["Author
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* namnutrymme [Aspose.Words.Properties](../../documentpropertycollection/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -55,7 +57,7 @@ public DocumentProperty this[int index] { get; }
 | --- | --- |
 | index | Nollbaserat index för[`DocumentProperty`](../../documentproperty/) att hämta. |
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med anpassade dokumentegenskaper.
 
@@ -81,7 +83,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 * class [DocumentProperty](../../documentproperty/)
 * class [DocumentPropertyCollection](../)
-* namnutrymme [Aspose.Words.Properties](../../documentpropertycollection/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

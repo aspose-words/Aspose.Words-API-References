@@ -1,7 +1,9 @@
 ---
-title: Enum WatermarkLayout
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WatermarkLayout перечисление. Определяет расположение водяного знака относительно центра водяного знака.
+title: WatermarkLayout Enum
+linktitle: WatermarkLayout
+articleTitle: WatermarkLayout
+second_title: Aspose.Words для .NET
+description: Aspose.Words.WatermarkLayout перечисление. Определяет расположение водяного знака относительно центра водяного знака на С#.
 type: docs
 weight: 6680
 url: /ru/net/aspose.words/watermarklayout/
@@ -21,7 +23,7 @@ public enum WatermarkLayout
 | Horizontal | `0` | Горизонтальное расположение водяных знаков. Соответствует 0 градусам вращения. |
 | Diagonal | `315` | Расположение водяных знаков по диагонали. Соответствует повороту на 315 градусов. |
 
-### Примеры
+## Примеры
 
 Показывает, как создать текстовый водяной знак.
 
@@ -53,5 +55,3 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

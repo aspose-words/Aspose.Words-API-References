@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.CreateNavigator
-second_title: Aspose.Words for .NET API 参考
-description: CompositeNode 方法. 创建可用于遍历和读取节点的导航器
+linktitle: CreateNavigator
+articleTitle: CreateNavigator
+second_title: 用于 .NET 的 Aspose.Words
+description: CompositeNode CreateNavigator 方法. 创建可用于遍历和读取节点的导航器 在 C#.
 type: docs
-weight: 90
+weight: 70
 url: /zh/net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
@@ -15,7 +17,7 @@ url: /zh/net/aspose.words/compositenode/createnavigator/
 public XPathNavigator CreateNavigator()
 ```
 
-### 例子
+## 例子
 
 演示如何创建 XPathNavigator，然后使用它来遍历和读取节点。
 
@@ -81,7 +83,5 @@ private static void MapDocument(XPathNavigator navigator, StringBuilder stringBu
 ### 也可以看看
 
 * class [CompositeNode](../)
-* 命名空间 [Aspose.Words](../../compositenode/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSettings.SetFontsFolder
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSettings méthode. Définit le dossier dans lequel Aspose.Words recherche les polices TrueType lors du rendu de documents ou de lintégration de polices. Il sagit dun raccourci versSetFontsFolders pour définir un seul répertoire de polices.
+linktitle: SetFontsFolder
+articleTitle: SetFontsFolder
+second_title: Aspose.Words pour .NET
+description: FontSettings SetFontsFolder méthode. Définit le dossier dans lequel Aspose.Words recherche les polices TrueType lors du rendu de documents ou de lintégration de polices. Il sagit dun raccourci versSetFontsFolders pour définir un seul répertoire de polices en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.fonts/fontsettings/setfontsfolder/
@@ -19,7 +21,7 @@ public void SetFontsFolder(string fontFolder, bool recursive)
 | fontFolder | String | Le dossier qui contient les polices TrueType. |
 | recursive | Boolean | True pour analyser les dossiers spécifiés à la recherche de polices de manière récursive. |
 
-### Exemples
+## Exemples
 
 Montre comment définir un répertoire source de polices.
 
@@ -78,7 +80,5 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ### Voir également
 
 * class [FontSettings](../)
-* espace de noms [Aspose.Words.Fonts](../../fontsettings/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

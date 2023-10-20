@@ -1,7 +1,9 @@
 ---
-title: Enum ExportListLabels
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.ExportListLabels تعداد. يحدد كيفية تصدير تسميات القائمة إلى HTML وMHTML وEPUB.
+title: ExportListLabels Enum
+linktitle: ExportListLabels
+articleTitle: ExportListLabels
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.ExportListLabels تعداد. يحدد كيفية تصدير تسميات القائمة إلى HTML وMHTML وEPUB في C#.
 type: docs
 weight: 5010
 url: /ar/net/aspose.words.saving/exportlistlabels/
@@ -22,7 +24,7 @@ public enum ExportListLabels
 | AsInlineText | `1` | إخراج كافة تسميات القائمة كنص مضمن. |
 | ByHtmlTags | `2` | إخراج كافة تسميات القائمة كعناصر HTML أصلية. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين قائمة التصدير إلى HTML.
 
@@ -110,5 +112,3 @@ switch (exportListLabels)
 * property [ExportListLabels](../htmlsaveoptions/exportlistlabels/)
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndEditableRange
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Contrassegna la posizione corrente nel documento come fine dellintervallo modificabile.
+linktitle: EndEditableRange
+articleTitle: EndEditableRange
+second_title: Aspose.Words per .NET
+description: DocumentBuilder EndEditableRange metodo. Contrassegna la posizione corrente nel documento come fine dellintervallo modificabile in C#.
 type: docs
 weight: 230
 url: /it/net/aspose.words/documentbuilder/endeditablerange/
@@ -18,13 +20,13 @@ public EditableRangeEnd EndEditableRange()
 
 Il nodo finale dell'intervallo modificabile appena creato.
 
-### Osservazioni
+## Osservazioni
 
 L'intervallo modificabile in un documento può sovrapporsi e estendersi a qualsiasi intervallo. Per creare un intervallo modificabile valido devi chiamarli entrambi[`StartEditableRange`](../starteditablerange/) E`EndEditableRange` o`EndEditableRange` metodi.
 
 L'intervallo modificabile formato in modo errato verrà ignorato quando il documento viene salvato.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con un intervallo modificabile.
 
@@ -71,12 +73,12 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## EndEditableRange(EditableRangeStart) {#endeditablerange_1}
+## EndEditableRange(*[EditableRangeStart](../../editablerangestart/)*) {#endeditablerange_1}
 
 Contrassegna la posizione corrente nel documento come fine dell'intervallo modificabile.
 
@@ -92,7 +94,7 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 
 Il nodo finale dell'intervallo modificabile appena creato.
 
-### Osservazioni
+## Osservazioni
 
 Utilizzare questo sovraccarico durante la creazione di intervalli modificabili nidificati.
 
@@ -100,7 +102,7 @@ L'intervallo modificabile in un documento può sovrapporsi e estendersi a qualsi
 
 L'intervallo modificabile formato in modo errato verrà ignorato quando il documento viene salvato.
 
-### Esempi
+## Esempi
 
 Mostra come creare intervalli modificabili nidificati.
 
@@ -143,7 +145,5 @@ doc.Save(ArtifactsDir + "EditableRange.Nested.docx");
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

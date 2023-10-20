@@ -1,7 +1,9 @@
 ---
-title: Class TxtListIndentation
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.TxtListIndentation classe. Specifica il rientro dei livelli dellelenco durante lesportazione del documentoText formato.
+title: TxtListIndentation Class
+linktitle: TxtListIndentation
+articleTitle: TxtListIndentation
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.TxtListIndentation classe. Specifica il rientro dei livelli dellelenco durante lesportazione del documentoText formato in C#.
 type: docs
 weight: 5650
 url: /it/net/aspose.words.saving/txtlistindentation/
@@ -29,7 +31,7 @@ public class TxtListIndentation
 | [Character](../../aspose.words.saving/txtlistindentation/character/) { get; set; } | Ottiene o imposta il carattere da utilizzare per il rientro dei livelli dell'elenco. Il valore predefinito è '\0', ciò significa che non c'è rientro. |
 | [Count](../../aspose.words.saving/txtlistindentation/count/) { get; set; } | Ottiene o imposta il numero[`Character`](./character/) da utilizzare come rientro per un livello di elenco. Il valore predefinito è 0, ciò significa nessun rientro. |
 
-### Esempi
+## Esempi
 
 Mostra come configurare il rientro dell'elenco quando si salva un documento in testo normale.
 
@@ -70,5 +72,3 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

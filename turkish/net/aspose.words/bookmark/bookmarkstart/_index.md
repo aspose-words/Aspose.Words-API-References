@@ -1,7 +1,9 @@
 ---
 title: Bookmark.BookmarkStart
-second_title: Aspose.Words for .NET API Referansı
-description: Bookmark mülk. Yer iminin başlangıcını temsil eden düğümü alır.
+linktitle: BookmarkStart
+articleTitle: BookmarkStart
+second_title: Aspose.Words for .NET
+description: Bookmark BookmarkStart mülk. Yer iminin başlangıcını temsil eden düğümü alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/bookmark/bookmarkstart/
@@ -14,7 +16,7 @@ Yer iminin başlangıcını temsil eden düğümü alır.
 public BookmarkStart BookmarkStart { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [Bookmark](../)
-* ad alanı [Aspose.Words](../../bookmark/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

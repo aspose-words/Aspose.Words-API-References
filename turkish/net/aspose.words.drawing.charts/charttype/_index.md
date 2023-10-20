@@ -1,7 +1,9 @@
 ---
-title: Enum ChartType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartType Sıralama. Grafiğin türünü belirtir.
+title: ChartType Enum
+linktitle: ChartType
+articleTitle: ChartType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartType Sıralama. Grafiğin türünü belirtir C#'da.
 type: docs
 weight: 830
 url: /tr/net/aspose.words.drawing.charts/charttype/
@@ -54,7 +56,7 @@ public enum ChartType
 | Surface | `33` | Yüzey grafiği. |
 | Surface3D | `34` | 3D Yüzey grafiği. |
 
-### Örnekler
+## Örnekler
 
 Bir grafik türü için uygun türde bir grafik serisinin nasıl oluşturulacağını gösterir.
 
@@ -144,5 +146,3 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

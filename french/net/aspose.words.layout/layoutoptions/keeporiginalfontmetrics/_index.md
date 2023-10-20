@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.KeepOriginalFontMetrics
-second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutOptions propriété. Obtient ou définit une indication indiquant si les métriques de police dorigine doivent être utilisées après la substitution de police. La valeur par défaut estvrai .
+linktitle: KeepOriginalFontMetrics
+articleTitle: KeepOriginalFontMetrics
+second_title: Aspose.Words pour .NET
+description: LayoutOptions KeepOriginalFontMetrics propriété. Obtient ou définit une indication indiquant si les métriques de police dorigine doivent être utilisées après la substitution de police. La valeur par défaut estvrai  en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.layout/layoutoptions/keeporiginalfontmetrics/
@@ -14,7 +16,7 @@ Obtient ou définit une indication indiquant si les métriques de police d'origi
 public bool KeepOriginalFontMetrics { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir la propriété permettant de trouver la correspondance la plus proche pour une police manquante à partir des sources de polices disponibles.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Voir également
 
 * class [LayoutOptions](../)
-* espace de noms [Aspose.Words.Layout](../../layoutoptions/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

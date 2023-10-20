@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.BehindText
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Anger om formen är under eller över text.
+linktitle: BehindText
+articleTitle: BehindText
+second_title: Aspose.Words för .NET
+description: ShapeBase BehindText fast egendom. Anger om formen är under eller över text i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing/shapebase/behindtext/
@@ -14,13 +16,13 @@ Anger om formen är under eller över text.
 public bool BehindText { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Har effekt endast för former på högsta nivå.
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en flytande bild i mitten av en sida.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.GroupIndex
-second_title: Aspose.Words för .NET API Referens
-description: ReplacingArgs fast egendom. Identifierar genom index en fångad grupp iMatch som ska ersättas medReplacement string.
+linktitle: GroupIndex
+articleTitle: GroupIndex
+second_title: Aspose.Words för .NET
+description: ReplacingArgs GroupIndex fast egendom. Identifierar genom index en fångad grupp iMatch som ska ersättas medReplacement string i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.replacing/replacingargs/groupindex/
@@ -14,13 +16,13 @@ Identifierar, genom index, en fångad grupp i[`Match`](../match/) som ska ersät
 public int GroupIndex { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 `GroupIndex`har effekt endast när[`GroupName`](../groupname/) är`null`.
 
 Standard är noll.
 
-### Exempel
+## Exempel
 
 Visar hur du använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
 
@@ -93,7 +95,5 @@ private class NumberHexer : IReplacingCallback
 ### Se även
 
 * class [ReplacingArgs](../)
-* namnutrymme [Aspose.Words.Replacing](../../replacingargs/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

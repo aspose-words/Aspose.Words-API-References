@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.SignatureDate
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfDigitalSignatureDetails свойство. Получает или задает дату подписания.
+linktitle: SignatureDate
+articleTitle: SignatureDate
+second_title: Aspose.Words для .NET
+description: PdfDigitalSignatureDetails SignatureDate свойство. Получает или задает дату подписания на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/
 public DateTime SignatureDate { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значением по умолчанию является текущее время.
 
 Это значение будет отображаться в цифровой подписи как непроверенное компьютерное время.
 
-### Примеры
+## Примеры
 
 Показывает, как подписать созданный PDF-документ.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### Смотрите также
 
 * class [PdfDigitalSignatureDetails](../)
-* пространство имен [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

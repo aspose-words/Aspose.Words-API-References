@@ -1,7 +1,9 @@
 ---
 title: FormField.DropDownItems
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Fornisce laccesso agli elementi di un campo modulo a discesa.
+linktitle: DropDownItems
+articleTitle: DropDownItems
+second_title: Aspose.Words per .NET
+description: FormField DropDownItems proprietà. Fornisce laccesso agli elementi di un campo modulo a discesa in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/formfield/dropdownitems/
@@ -14,11 +16,11 @@ Fornisce l'accesso agli elementi di un campo modulo a discesa.
 public DropDownItemCollection DropDownItems { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Microsoft Word consente un massimo di 25 elementi in un campo modulo a discesa.
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -153,7 +155,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [DropDownItemCollection](../../dropdownitemcollection/)
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

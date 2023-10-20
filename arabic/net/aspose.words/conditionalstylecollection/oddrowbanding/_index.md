@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.OddRowBanding
-second_title: Aspose.Words لمراجع .NET API
-description: ConditionalStyleCollection ملكية. الحصول على نمط نطاقات الصفوف الفردية.
+linktitle: OddRowBanding
+articleTitle: OddRowBanding
+second_title: Aspose.Words لـ .NET
+description: ConditionalStyleCollection OddRowBanding ملكية. الحصول على نمط نطاقات الصفوف الفردية في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/conditionalstylecollection/oddrowbanding/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/conditionalstylecollection/oddrowbanding/
 public ConditionalStyle OddRowBanding { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../conditionalstylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

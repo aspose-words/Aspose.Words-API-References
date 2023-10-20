@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.HasSequenceName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIndex ملكية. يحصل على قيمة تشير إلى ما إذا كان ينبغي استخدام التسلسل أثناء بناء نتيجة الحقل.
+linktitle: HasSequenceName
+articleTitle: HasSequenceName
+second_title: Aspose.Words لـ .NET
+description: FieldIndex HasSequenceName ملكية. يحصل على قيمة تشير إلى ما إذا كان ينبغي استخدام التسلسل أثناء بناء نتيجة الحقل في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldindex/hassequencename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldindex/hassequencename/
 public bool HasSequenceName { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تقسيم مستند إلى أجزاء من خلال دمج حقول INDEX وSEQ.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### أنظر أيضا
 
 * class [FieldIndex](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldindex/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OlePackage.FileName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OlePackage propriété. Obtient ou définit le nom du fichier du package OLE.
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words pour .NET
+description: OlePackage FileName propriété. Obtient ou définit le nom du fichier du package OLE en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing/olepackage/filename/
@@ -14,7 +16,7 @@ Obtient ou définit le nom du fichier du package OLE.
 public string FileName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer un objet OLE dans un document.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Shape.InsertOlePackage.docx");
 ### Voir également
 
 * class [OlePackage](../)
-* espace de noms [Aspose.Words.Drawing](../../olepackage/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VariableCollection.Clear
-second_title: Aspose.Words för .NET API Referens
-description: VariableCollection metod. Tar bort alla element från samlingen.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words för .NET
+description: VariableCollection Clear metod. Tar bort alla element från samlingen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/variablecollection/clear/
@@ -14,7 +16,7 @@ Tar bort alla element från samlingen.
 public void Clear()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med ett dokuments variabelsamling.
 
@@ -81,7 +83,5 @@ Assert.That(variables, Is.Empty);
 ### Se även
 
 * class [VariableCollection](../)
-* namnutrymme [Aspose.Words](../../variablecollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

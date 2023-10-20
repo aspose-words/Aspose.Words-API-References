@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapDataCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: OdsoFieldMapDataCollection свойство. Получает или задает элемент в этой коллекции.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: OdsoFieldMapDataCollection Item свойство. Получает или задает элемент в этой коллекции на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/item/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/item/
 public OdsoFieldMapData this[int index] { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, которая сопоставляет столбцы источника данных с полями слияния.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoFieldMapData](../../odsofieldmapdata/)
 * class [OdsoFieldMapDataCollection](../)
-* пространство имен [Aspose.Words.Settings](../../odsofieldmapdatacollection/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

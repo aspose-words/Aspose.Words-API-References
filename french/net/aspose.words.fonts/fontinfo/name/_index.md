@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Name
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontInfo propriété. Obtient le nom de la police.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words pour .NET
+description: FontInfo Name propriété. Obtient le nom de la police en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fonts/fontinfo/name/
@@ -14,11 +16,11 @@ Obtient le nom de la police.
 public string Name { get; }
 ```
 
-### Remarques
+## Remarques
 
 C'est pas possible`nul`. Peut être une chaîne vide.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer les détails des polices présentes dans un document.
 
@@ -38,7 +40,5 @@ for (int i = 0; i < allFonts.Count; i++)
 ### Voir également
 
 * class [FontInfo](../)
-* espace de noms [Aspose.Words.Fonts](../../fontinfo/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

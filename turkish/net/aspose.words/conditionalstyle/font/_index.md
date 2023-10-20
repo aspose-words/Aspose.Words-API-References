@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Font
-second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyle mülk. Koşullu stilin karakter formatını alır.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words for .NET
+description: ConditionalStyle Font mülk. Koşullu stilin karakter formatını alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/conditionalstyle/font/
@@ -14,7 +16,7 @@ Koşullu stilin karakter formatını alır.
 public Font Font { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tablonun belirli alan stilleriyle nasıl çalışılacağını gösterir.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [Font](../../font/)
 * class [ConditionalStyle](../)
-* ad alanı [Aspose.Words](../../conditionalstyle/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

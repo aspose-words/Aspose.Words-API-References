@@ -1,7 +1,9 @@
 ---
 title: Table.VerticalAnchor
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Ottiene loggetto base da cui deve essere calcolato il posizionamento verticale della tabella mobile. Il valore predefinito èMargin .
+linktitle: VerticalAnchor
+articleTitle: VerticalAnchor
+second_title: Aspose.Words per .NET
+description: Table VerticalAnchor proprietà. Ottiene loggetto base da cui deve essere calcolato il posizionamento verticale della tabella mobile. Il valore predefinito èMargin  in C#.
 type: docs
 weight: 340
 url: /it/net/aspose.words.tables/table/verticalanchor/
@@ -14,7 +16,7 @@ Ottiene l'oggetto base da cui deve essere calcolato il posizionamento verticale 
 public RelativeVerticalPosition VerticalAnchor { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le proprietà delle tabelle mobili.
 
@@ -43,7 +45,5 @@ if (table.TextWrapping == TextWrapping.Around)
 
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

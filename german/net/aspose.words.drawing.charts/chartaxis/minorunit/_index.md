@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorUnit
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Gibt den Abstand zwischen kleinen Teilstrichen zurück oder legt ihn fest.
+linktitle: MinorUnit
+articleTitle: MinorUnit
+second_title: Aspose.Words für .NET
+description: ChartAxis MinorUnit eigendom. Gibt den Abstand zwischen kleinen Teilstrichen zurück oder legt ihn fest in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.drawing.charts/chartaxis/minorunit/
@@ -14,13 +16,13 @@ Gibt den Abstand zwischen kleinen Teilstrichen zurück oder legt ihn fest.
 public double MinorUnit { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der gültige Bereich eines Werts ist größer als Null. Die Eigenschaft wirkt sich auf die Zeitkategorie- und -Werteachsen aus.
 
 Durch das Festlegen dieser Eigenschaft wird die festgelegt[`MinorUnitIsAuto`](../minorunitisauto/) Eigentum zu`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### Siehe auch
 
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

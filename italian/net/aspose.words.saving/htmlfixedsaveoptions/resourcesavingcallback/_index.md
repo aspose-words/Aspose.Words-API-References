@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.ResourceSavingCallback
-second_title: Aspose.Words per .NET API Reference
-description: HtmlFixedSaveOptions proprietà. Permette di controllare come vengono salvate le risorse immagini font e css quando un documento viene esportato in formato Html a pagina fissa.
+linktitle: ResourceSavingCallback
+articleTitle: ResourceSavingCallback
+second_title: Aspose.Words per .NET
+description: HtmlFixedSaveOptions ResourceSavingCallback proprietà. Permette di controllare come vengono salvate le risorse immagini font e css quando un documento viene esportato in formato Html a pagina fissa in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback/
@@ -14,7 +16,7 @@ Permette di controllare come vengono salvate le risorse (immagini, font e css) q
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un callback per stampare gli URI delle risorse esterne create durante la conversione di un documento in HTML.
 
@@ -94,7 +96,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * interface [IResourceSavingCallback](../../iresourcesavingcallback/)
 * class [HtmlFixedSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

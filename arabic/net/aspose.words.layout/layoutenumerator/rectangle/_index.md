@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Rectangle
-second_title: Aspose.Words لمراجع .NET API
-description: LayoutEnumerator ملكية. إرجاع المستطيل المحيط للكيان الحالي بالنسبة إلى الزاوية اليسرى العليا للصفحة بالنقاط.
+linktitle: Rectangle
+articleTitle: Rectangle
+second_title: Aspose.Words لـ .NET
+description: LayoutEnumerator Rectangle ملكية. إرجاع المستطيل المحيط للكيان الحالي بالنسبة إلى الزاوية اليسرى العليا للصفحة بالنقاط في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.layout/layoutenumerator/rectangle/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/layoutenumerator/rectangle/
 public RectangleF Rectangle { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يُظهر طرق اجتياز كيانات تخطيط المستند.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### أنظر أيضا
 
 * class [LayoutEnumerator](../)
-* مساحة الاسم [Aspose.Words.Layout](../../layoutenumerator/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

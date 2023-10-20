@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.BackgroundShape
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBase ملكية. الحصول على شكل خلفية المستند أو تعيينه. يمكن ان يكونباطل .
+linktitle: BackgroundShape
+articleTitle: BackgroundShape
+second_title: Aspose.Words لـ .NET
+description: DocumentBase BackgroundShape ملكية. الحصول على شكل خلفية المستند أو تعيينه. يمكن ان يكونباطل  في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/documentbase/backgroundshape/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbase/backgroundshape/
 public Shape BackgroundShape { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يسمح Microsoft Word فقط بالشكل الذي له خاصيته[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) الخاصيةتساوي لRectangle لاستخدامها كشكل خلفية للمستند.
 
@@ -22,7 +24,7 @@ public Shape BackgroundShape { get; set; }
 
 سيؤدي تعيين هذه الخاصية إلى قيمة غير فارغة إلى تعيين القيمة أيضًا[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) ل`حقيقي`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين شكل خلفية لكل صفحة من المستند.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf", saveOptions);
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBase](../)
-* مساحة الاسم [Aspose.Words](../../documentbase/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

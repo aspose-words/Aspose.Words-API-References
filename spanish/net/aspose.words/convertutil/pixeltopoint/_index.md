@@ -1,12 +1,14 @@
 ---
 title: ConvertUtil.PixelToPoint
-second_title: Referencia de API de Aspose.Words para .NET
-description: ConvertUtil método. Convierte píxeles en puntos a 96 ppp.
+linktitle: PixelToPoint
+articleTitle: PixelToPoint
+second_title: Aspose.Words para .NET
+description: ConvertUtil PixelToPoint método. Convierte píxeles en puntos a 96 ppp en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/convertutil/pixeltopoint/
 ---
-## PixelToPoint(double) {#pixeltopoint}
+## PixelToPoint(*double*) {#pixeltopoint}
 
 Convierte píxeles en puntos a 96 ppp.
 
@@ -18,11 +20,11 @@ public static double PixelToPoint(double pixels)
 | --- | --- | --- |
 | pixels | Double | El valor a convertir. |
 
-### Observaciones
+## Observaciones
 
 1 pulgada equivale a 72 puntos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo especificar propiedades de página en píxeles.
 
@@ -58,12 +60,12 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixels.docx");
 ### Ver también
 
 * class [ConvertUtil](../)
-* espacio de nombres [Aspose.Words](../../convertutil/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## PixelToPoint(double, double) {#pixeltopoint_1}
+## PixelToPoint(*double, double*) {#pixeltopoint_1}
 
 Convierte píxeles en puntos con la resolución de píxeles especificada.
 
@@ -76,11 +78,11 @@ public static double PixelToPoint(double pixels, double resolution)
 | pixels | Double | El valor a convertir. |
 | resolution | Double | La resolución de ppp (puntos por pulgada). |
 
-### Observaciones
+## Observaciones
 
 1 pulgada equivale a 72 puntos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar la conversión de puntos a píxeles con resolución predeterminada y personalizada.
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixelsDpi.docx");
 ### Ver también
 
 * class [ConvertUtil](../)
-* espacio de nombres [Aspose.Words](../../convertutil/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

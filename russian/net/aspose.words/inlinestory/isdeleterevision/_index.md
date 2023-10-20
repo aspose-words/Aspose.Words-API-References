@@ -1,7 +1,9 @@
 ---
 title: InlineStory.IsDeleteRevision
-second_title: Справочник по API Aspose.Words для .NET
-description: InlineStory свойство. Возвращает true если этот объект был удален в Microsoft Word при включенном отслеживании изменений.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words для .NET
+description: InlineStory IsDeleteRevision свойство. Возвращает true если этот объект был удален в Microsoft Word при включенном отслеживании изменений на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/inlinestory/isdeleterevision/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/inlinestory/isdeleterevision/
 public bool IsDeleteRevision { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как просмотреть свойства узлов InlineStory, связанные с ревизией.
 
@@ -62,7 +64,5 @@ Assert.IsTrue(footnotes[3].IsDeleteRevision);
 ### Смотрите также
 
 * class [InlineStory](../)
-* пространство имен [Aspose.Words](../../inlinestory/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

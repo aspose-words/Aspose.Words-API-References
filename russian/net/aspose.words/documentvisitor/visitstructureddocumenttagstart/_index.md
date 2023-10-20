@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitStructuredDocumentTagStart
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда началось перечисление тега структурированного документа.
+linktitle: VisitStructuredDocumentTagStart
+articleTitle: VisitStructuredDocumentTagStart
+second_title: Aspose.Words для .NET
+description: DocumentVisitor VisitStructuredDocumentTagStart метод. Вызывается когда началось перечисление тега структурированного документа на С#.
 type: docs
 weight: 470
 url: /ru/net/aspose.words/documentvisitor/visitstructureddocumenttagstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitStructuredDocumentTagStart(StructuredDocumentT
 
 А[`VisitorAction`](../../visitoraction/) значение, указывающее, как продолжить перечисление.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узла каждого тега структурированного документа в документе.
 
@@ -114,7 +116,5 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentVisitor](../)
-* пространство имен [Aspose.Words](../../documentvisitor/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

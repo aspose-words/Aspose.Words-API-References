@@ -1,7 +1,9 @@
 ---
 title: FieldPageRef.BookmarkName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldPageRef mülk. Yer iminin adını alır veya ayarlar.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words for .NET
+description: FieldPageRef BookmarkName mülk. Yer iminin adını alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldpageref/bookmarkname/
@@ -14,7 +16,7 @@ Yer iminin adını alır veya ayarlar.
 public string BookmarkName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yer imlerinin göreceli konumunu görüntülemek için PAGEREF alanlarının eklenmesini gösterir.
 
@@ -84,7 +86,5 @@ private static void InsertAndNameBookmark(DocumentBuilder builder, string bookma
 ### Ayrıca bakınız
 
 * class [FieldPageRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldpageref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

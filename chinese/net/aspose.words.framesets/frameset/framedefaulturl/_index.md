@@ -1,7 +1,9 @@
 ---
 title: Frameset.FrameDefaultUrl
-second_title: Aspose.Words for .NET API 参考
-description: Frameset 财产. 获取或设置要在此框架中显示的网页 URL 或文档文件名
+linktitle: FrameDefaultUrl
+articleTitle: FrameDefaultUrl
+second_title: 用于 .NET 的 Aspose.Words
+description: Frameset FrameDefaultUrl 财产. 获取或设置要在此框架中显示的网页 URL 或文档文件名 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.framesets/frameset/framedefaulturl/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.framesets/frameset/framedefaulturl/
 public string FrameDefaultUrl { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何访问页面上的框架。
 
@@ -39,7 +41,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 ### 也可以看看
 
 * class [Frameset](../)
-* 命名空间 [Aspose.Words.Framesets](../../frameset/)
+* 命名空间 [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * 部件 [Aspose.Words](../../../)
-
-

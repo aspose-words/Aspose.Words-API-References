@@ -1,7 +1,9 @@
 ---
 title: FieldXE.PageRangeBookmarkName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldXE mülk. Girişin sayfa numarası olarak eklenen bir dizi sayfayı işaretleyen yer iminin adını alır veya ayarlar.
+linktitle: PageRangeBookmarkName
+articleTitle: PageRangeBookmarkName
+second_title: Aspose.Words for .NET
+description: FieldXE PageRangeBookmarkName mülk. Girişin sayfa numarası olarak eklenen bir dizi sayfayı işaretleyen yer iminin adını alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fieldxe/pagerangebookmarkname/
@@ -14,7 +16,7 @@ Girişin sayfa numarası olarak eklenen bir dizi sayfayı işaretleyen yer imini
 public string PageRangeBookmarkName { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir yer iminin yayılmış sayfalarının bir INDEX alanı girişi için sayfa aralığı olarak nasıl belirtileceğini gösterir.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ### Ayrıca bakınız
 
 * class [FieldXE](../)
-* ad alanı [Aspose.Words.Fields](../../fieldxe/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

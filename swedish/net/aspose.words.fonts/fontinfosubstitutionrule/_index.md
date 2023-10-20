@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoSubstitutionRule
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.FontInfoSubstitutionRule klass. Regel för ersättning av teckensnittsinformation.
+title: FontInfoSubstitutionRule Class
+linktitle: FontInfoSubstitutionRule
+articleTitle: FontInfoSubstitutionRule
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.FontInfoSubstitutionRule klass. Regel för ersättning av teckensnittsinformation i C#.
 type: docs
 weight: 2940
 url: /sv/net/aspose.words.fonts/fontinfosubstitutionrule/
@@ -22,11 +24,11 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Anger om regeln är aktiverad eller inte. |
 
-### Anmärkningar
+## Anmärkningar
 
 Enligt denna regel utvärderar Aspose.Words alla relaterade fält i[`FontInfo`](../fontinfo/) (Panose, Sig etc) för det saknade teckensnittet och hittar den närmaste matchningen bland de tillgängliga teckensnittskällorna. Om[`FontInfo`](../fontinfo/)är not tillgängligt för det saknade teckensnittet kommer ingenting att göras.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
 
@@ -88,5 +90,3 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

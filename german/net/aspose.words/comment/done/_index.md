@@ -1,7 +1,9 @@
 ---
 title: Comment.Done
-second_title: Aspose.Words für .NET-API-Referenz
-description: Comment eigendom. Ruft ein Flag ab oder setzt es das angibt dass der Kommentar als erledigt markiert wurde.
+linktitle: Done
+articleTitle: Done
+second_title: Aspose.Words für .NET
+description: Comment Done eigendom. Ruft ein Flag ab oder setzt es das angibt dass der Kommentar als erledigt markiert wurde in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/comment/done/
@@ -14,7 +16,7 @@ Ruft ein Flag ab oder setzt es, das angibt, dass der Kommentar als erledigt mark
 public bool Done { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen Kommentar als „erledigt“ markiert.
 
@@ -204,7 +206,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Siehe auch
 
 * class [Comment](../)
-* namensraum [Aspose.Words](../../comment/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

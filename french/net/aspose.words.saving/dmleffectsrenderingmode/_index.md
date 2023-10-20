@@ -1,7 +1,9 @@
 ---
-title: Enum DmlEffectsRenderingMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.DmlEffectsRenderingMode énumération. Spécifie comment les effets DrawingML sont rendus dans des formats de page fixes.
+title: DmlEffectsRenderingMode Enum
+linktitle: DmlEffectsRenderingMode
+articleTitle: DmlEffectsRenderingMode
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.DmlEffectsRenderingMode énumération. Spécifie comment les effets DrawingML sont rendus dans des formats de page fixes en C#.
 type: docs
 weight: 4910
 url: /fr/net/aspose.words.saving/dmleffectsrenderingmode/
@@ -22,7 +24,7 @@ public enum DmlEffectsRenderingMode
 | None | `1` | Aucun effet DrawingML n'est rendu. |
 | Fine | `2` | Les effets DrawingML sont rendus en mode fin qui implique un traitement avancé. Dans ce mode, le rendu des effets donne de meilleurs résultats mais à un coût de performance plus élevé queSimplified mode. |
 
-### Exemples
+## Exemples
 
 Montre comment configurer la qualité de rendu des effets DrawingML dans un document lorsque nous l'enregistrons au format PDF.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

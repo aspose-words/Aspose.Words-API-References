@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.AcceptAll
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionCollection yöntem. Bu koleksiyondaki tüm revizyonları kabul eder.
+linktitle: AcceptAll
+articleTitle: AcceptAll
+second_title: Aspose.Words for .NET
+description: RevisionCollection AcceptAll yöntem. Bu koleksiyondaki tüm revizyonları kabul eder C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/revisioncollection/acceptall/
@@ -14,7 +16,7 @@ Bu koleksiyondaki tüm revizyonları kabul eder.
 public void AcceptAll()
 ```
 
-### Örnekler
+## Örnekler
 
 Belgelerin nasıl karşılaştırılacağını gösterir.
 
@@ -48,7 +50,5 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 ### Ayrıca bakınız
 
 * class [RevisionCollection](../)
-* ad alanı [Aspose.Words](../../revisioncollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

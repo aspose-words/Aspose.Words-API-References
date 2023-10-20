@@ -1,7 +1,9 @@
 ---
 title: FieldToa.SequenceName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToa eigendom. Ruft den Namen einer Sequenz ab oder legt diesen fest deren Nummer in der Seitenzahl enthalten ist.
+linktitle: SequenceName
+articleTitle: SequenceName
+second_title: Aspose.Words für .NET
+description: FieldToa SequenceName eigendom. Ruft den Namen einer Sequenz ab oder legt diesen fest deren Nummer in der Seitenzahl enthalten ist in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/fieldtoa/sequencename/
@@ -14,7 +16,7 @@ Ruft den Namen einer Sequenz ab oder legt diesen fest, deren Nummer in der Seite
 public string SequenceName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe von TOA- und TA-Feldern ein Autoritätsverzeichnis erstellt und anpasst.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Siehe auch
 
 * class [FieldToa](../)
-* namensraum [Aspose.Words.Fields](../../fieldtoa/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

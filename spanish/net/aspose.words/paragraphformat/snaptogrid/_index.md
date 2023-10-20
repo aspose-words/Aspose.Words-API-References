@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SnapToGrid
-second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Especifica si el párrafo actual debe utilizar las líneas de la cuadrícula del documento por configuración de página al diseñar el contenido del párrafo.
+linktitle: SnapToGrid
+articleTitle: SnapToGrid
+second_title: Aspose.Words para .NET
+description: ParagraphFormat SnapToGrid propiedad. Especifica si el párrafo actual debe utilizar las líneas de la cuadrícula del documento por configuración de página al diseñar el contenido del párrafo en C#.
 type: docs
 weight: 290
 url: /es/net/aspose.words/paragraphformat/snaptogrid/
@@ -14,7 +16,7 @@ Especifica si el párrafo actual debe utilizar las líneas de la cuadrícula del
 public bool SnapToGrid { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo especificar un límite para el número de líneas que puede tener cada página.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 ### Ver también
 
 * class [ParagraphFormat](../)
-* espacio de nombres [Aspose.Words](../../paragraphformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: NodeRendererBase.GetBoundsInPixels
-second_title: Aspose.Words för .NET API Referens
-description: NodeRendererBase metod. Beräknar formens gränser i pixlar för en angiven zoomfaktor och upplösning.
+linktitle: GetBoundsInPixels
+articleTitle: GetBoundsInPixels
+second_title: Aspose.Words för .NET
+description: NodeRendererBase GetBoundsInPixels metod. Beräknar formens gränser i pixlar för en angiven zoomfaktor och upplösning i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.rendering/noderendererbase/getboundsinpixels/
 ---
-## GetBoundsInPixels(float, float) {#getboundsinpixels}
+## GetBoundsInPixels(*float, float*) {#getboundsinpixels}
 
 Beräknar formens gränser i pixlar för en angiven zoomfaktor och upplösning.
 
@@ -23,11 +25,11 @@ public Rectangle GetBoundsInPixels(float scale, float dpi)
 
 Den faktiska (som återges på sidan) begränsningsrutan för formen i pixlar.
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod konverterar[`BoundsInPoints`](../boundsinpoints/)till rektangel i pixlar.
 
-### Exempel
+## Exempel
 
 Visar hur man mäter och skalar former.
 
@@ -74,12 +76,12 @@ Assert.AreEqual(30, bounds.Height);
 ### Se även
 
 * class [NodeRendererBase](../)
-* namnutrymme [Aspose.Words.Rendering](../../noderendererbase/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## GetBoundsInPixels(float, float, float) {#getboundsinpixels_1}
+## GetBoundsInPixels(*float, float, float*) {#getboundsinpixels_1}
 
 Beräknar formens gränser i pixlar för en angiven zoomfaktor och upplösning.
 
@@ -97,11 +99,11 @@ public Rectangle GetBoundsInPixels(float scale, float horizontalDpi, float verti
 
 Den faktiska (som återges på sidan) begränsningsrutan för formen i pixlar.
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod konverterar[`BoundsInPoints`](../boundsinpoints/)till rektangel i pixlar.
 
-### Exempel
+## Exempel
 
 Visar hur man mäter och skalar former.
 
@@ -148,7 +150,5 @@ Assert.AreEqual(30, bounds.Height);
 ### Se även
 
 * class [NodeRendererBase](../)
-* namnutrymme [Aspose.Words.Rendering](../../noderendererbase/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

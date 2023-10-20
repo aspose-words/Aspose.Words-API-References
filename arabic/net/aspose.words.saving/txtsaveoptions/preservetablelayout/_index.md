@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.PreserveTableLayout
-second_title: Aspose.Words لمراجع .NET API
-description: TxtSaveOptions ملكية. يحدد ما إذا كان يجب على البرنامج أن يحاول الحفاظ على تخطيط الجداول عند الحفظ بتنسيق النص العادي. القيمة الافتراضية هيخطأ شنيع .
+linktitle: PreserveTableLayout
+articleTitle: PreserveTableLayout
+second_title: Aspose.Words لـ .NET
+description: TxtSaveOptions PreserveTableLayout ملكية. يحدد ما إذا كان يجب على البرنامج أن يحاول الحفاظ على تخطيط الجداول عند الحفظ بتنسيق النص العادي. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
 public bool PreserveTableLayout { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحفاظ على تخطيط الجداول عند التحويل إلى نص عادي.
 
@@ -61,7 +63,5 @@ else
 ### أنظر أيضا
 
 * class [TxtSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../txtsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.Description
-second_title: Aspose.Words för .NET API Referens
-description: WarningInfo fast egendom. Returnerar beskrivningen av varningen.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words för .NET
+description: WarningInfo Description fast egendom. Returnerar beskrivningen av varningen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/warninginfo/description/
@@ -14,7 +16,7 @@ Returnerar beskrivningen av varningen.
 public string Description { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Se även
 
 * class [WarningInfo](../)
-* namnutrymme [Aspose.Words](../../warninginfo/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

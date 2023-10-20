@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Version
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. Представляет номер версии приложения создавшего документ.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties Version свойство. Представляет номер версии приложения создавшего документ на С#.
 type: docs
 weight: 320
 url: /ru/net/aspose.words.properties/builtindocumentproperties/version/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.properties/builtindocumentproperties/version/
 public int Version { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Когда документ был создан в Microsoft Word, старшие 16 бит представляют основную версию, а младшие 16 бит представляют номер сборки.
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами документа в категории «Происхождение».
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Смотрите также
 
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

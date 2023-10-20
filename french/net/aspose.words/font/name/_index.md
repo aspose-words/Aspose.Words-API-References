@@ -1,7 +1,9 @@
 ---
 title: Font.Name
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Obtient ou définit le nom de la police.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words pour .NET
+description: Font Name propriété. Obtient ou définit le nom de la police en C#.
 type: docs
 weight: 230
 url: /fr/net/aspose.words/font/name/
@@ -14,13 +16,13 @@ Obtient ou définit le nom de la police.
 public string Name { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Lors de l'obtention, revient[`NameAscii`](../nameascii/).
 
 Lors du réglage, définit[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) et[`NameOther`](../nameother/) à la valeur spécifiée.
 
-### Exemples
+## Exemples
 
 Montre comment formater une séquence de texte à l’aide de sa propriété font.
 
@@ -57,7 +59,5 @@ builder.Write("Hello world!");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

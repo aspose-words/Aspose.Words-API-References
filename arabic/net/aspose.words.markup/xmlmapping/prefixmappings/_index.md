@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.PrefixMappings
-second_title: Aspose.Words لمراجع .NET API
-description: XmlMapping ملكية. إرجاع تعيينات بادئة مساحة اسم XML لتقييمXPath .
+linktitle: PrefixMappings
+articleTitle: PrefixMappings
+second_title: Aspose.Words لـ .NET
+description: XmlMapping PrefixMappings ملكية. إرجاع تعيينات بادئة مساحة اسم XML لتقييمXPath  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/xmlmapping/prefixmappings/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.markup/xmlmapping/prefixmappings/
 public string PrefixMappings { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يحدد مجموعة تعيينات البادئة، والتي يجب استخدامها لتفسير تعبير XPath عندما يتم تقييم تعبير XPath مقابل أجزاء بيانات XML المخصصة في المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين تعيينات XML لأجزاء XML المخصصة.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### أنظر أيضا
 
 * class [XmlMapping](../)
-* مساحة الاسم [Aspose.Words.Markup](../../xmlmapping/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

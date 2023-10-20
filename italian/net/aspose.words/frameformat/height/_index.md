@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.Height
-second_title: Aspose.Words per .NET API Reference
-description: FrameFormat proprietà. Ottiene laltezza del frame specificato.
+linktitle: Height
+articleTitle: Height
+second_title: Aspose.Words per .NET
+description: FrameFormat Height proprietà. Ottiene laltezza del frame specificato in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/frameformat/height/
@@ -14,7 +16,7 @@ Ottiene l'altezza del frame specificato.
 public double Height { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere informazioni sulle proprietà di formattazione dei paragrafi che sono frame.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Guarda anche
 
 * class [FrameFormat](../)
-* spazio dei nomi [Aspose.Words](../../frameformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum TableStyleOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Tables.TableStyleOptions 枚举. 指定如何将表格样式应用于表格
+title: TableStyleOptions Enum
+linktitle: TableStyleOptions
+articleTitle: TableStyleOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Tables.TableStyleOptions 枚举. 指定如何将表格样式应用于表格 在 C#.
 type: docs
 weight: 6370
 url: /zh/net/aspose.words.tables/tablestyleoptions/
@@ -29,7 +31,7 @@ public enum TableStyleOptions
 | Default2003 | `600` | 应用行和列条带。这是 Microsoft Word 对于 DOC、WML 和 RTF 等旧格式的默认设置。 |
 | Default | `2A0` | 这是 Microsoft Word 默认值。 |
 
-### 例子
+## 例子
 
 演示如何在应用样式时构建新表格。
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 * property [StyleOptions](../table/styleoptions/)
 * 命名空间 [Aspose.Words.Tables](../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../)
-
-

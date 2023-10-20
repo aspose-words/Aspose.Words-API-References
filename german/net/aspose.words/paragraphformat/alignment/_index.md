@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Alignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft die Textausrichtung für den Absatz ab oder legt diese fest.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words für .NET
+description: ParagraphFormat Alignment eigendom. Ruft die Textausrichtung für den Absatz ab oder legt diese fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/paragraphformat/alignment/
@@ -14,7 +16,7 @@ Ruft die Textausrichtung für den Absatz ab oder legt diese fest.
 public ParagraphAlignment Alignment { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Absatz in das Dokument eingefügt wird.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [ParagraphAlignment](../../paragraphalignment/)
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

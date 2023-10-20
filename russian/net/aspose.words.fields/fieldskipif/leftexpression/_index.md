@@ -1,7 +1,9 @@
 ---
 title: FieldSkipIf.LeftExpression
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSkipIf свойство. Получает или задает левую часть выражения сравнения.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words для .NET
+description: FieldSkipIf LeftExpression свойство. Получает или задает левую часть выражения сравнения на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldskipif/leftexpression/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldskipif/leftexpression/
 public string LeftExpression { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как пропускать страницы при слиянии писем с помощью поля SKIPIF.
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ### Смотрите также
 
 * class [FieldSkipIf](../)
-* пространство имен [Aspose.Words.Fields](../../fieldskipif/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

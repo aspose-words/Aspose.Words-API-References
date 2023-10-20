@@ -1,7 +1,9 @@
 ---
 title: Revision.RevisionType
-second_title: Aspose.Words لمراجع .NET API
-description: Revision ملكية. الحصول على نوع هذه المراجعة.
+linktitle: RevisionType
+articleTitle: RevisionType
+second_title: Aspose.Words لـ .NET
+description: Revision RevisionType ملكية. الحصول على نوع هذه المراجعة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/revision/revisiontype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/revision/revisiontype/
 public RevisionType RevisionType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع المراجعات في المستند.
 
@@ -98,7 +100,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * enum [RevisionType](../../revisiontype/)
 * class [Revision](../)
-* مساحة الاسم [Aspose.Words](../../revision/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

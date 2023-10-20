@@ -1,7 +1,9 @@
 ---
-title: Class AsposeWordsPrintDocument
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Rendering.AsposeWordsPrintDocument 班级. 提供打印的默认实现Document在 .NET 打印框架内
+title: AsposeWordsPrintDocument Class
+linktitle: AsposeWordsPrintDocument
+articleTitle: AsposeWordsPrintDocument
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Rendering.AsposeWordsPrintDocument 班级. 提供打印的默认实现Document在 .NET 打印框架内 在 C#.
 type: docs
 weight: 4530
 url: /zh/net/aspose.words.rendering/asposewordsprintdocument/
@@ -20,7 +22,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsposeWordsPrintDocument](asposewordsprintdocument/)(Document) | 初始化此类的新实例。 |
+| [AsposeWordsPrintDocument](asposewordsprintdocument/)(*[Document](../../aspose.words/document/)*) | 初始化此类的新实例。 |
 
 ## 特性
 
@@ -35,7 +37,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 | --- | --- |
 | [CachePrinterSettings](../../aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/)() | 读取并缓存一些字段PrinterSettings 减少打印时间。 |
 
-### 评论
+## 评论
 
 `AsposeWordsPrintDocument`覆盖PrintEventArgs) 打印指定的页面范围PrinterSettings。
 
@@ -47,5 +49,3 @@ Microsoft Word 在 Word 文档中存储纸盘的打印机特定值，因此， �
 
 * 命名空间 [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../)
-
-

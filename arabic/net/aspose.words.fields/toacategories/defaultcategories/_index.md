@@ -1,7 +1,9 @@
 ---
 title: ToaCategories.DefaultCategories
-second_title: Aspose.Words لمراجع .NET API
-description: ToaCategories ملكية. الحصول على الجدول الافتراضي لفئات المراجع.
+linktitle: DefaultCategories
+articleTitle: DefaultCategories
+second_title: Aspose.Words لـ .NET
+description: ToaCategories DefaultCategories ملكية. الحصول على الجدول الافتراضي لفئات المراجع في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/toacategories/defaultcategories/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/toacategories/defaultcategories/
 public static ToaCategories DefaultCategories { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 استخدم[`ToaCategories`](../../fieldoptions/toacategories/) خاصية لتحديد جدول فئات الاستنادات لمستند واحد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مجموعة من الفئات لحقول TOA.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 ### أنظر أيضا
 
 * class [ToaCategories](../)
-* مساحة الاسم [Aspose.Words.Fields](../../toacategories/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

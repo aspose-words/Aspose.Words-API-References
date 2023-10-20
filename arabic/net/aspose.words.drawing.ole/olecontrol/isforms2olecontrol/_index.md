@@ -1,7 +1,9 @@
 ---
 title: OleControl.IsForms2OleControl
-second_title: Aspose.Words لمراجع .NET API
-description: OleControl ملكية. إرجاعحقيقي إذا كان التحكم أForms2OleControl .
+linktitle: IsForms2OleControl
+articleTitle: IsForms2OleControl
+second_title: Aspose.Words لـ .NET
+description: OleControl IsForms2OleControl ملكية. إرجاعحقيقي إذا كان التحكم أForms2OleControl  في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
 public bool IsForms2OleControl { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من خصائص عنصر تحكم ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### أنظر أيضا
 
 * class [OleControl](../)
-* مساحة الاسم [Aspose.Words.Drawing.Ole](../../olecontrol/)
+* مساحة الاسم [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * المجسم [Aspose.Words](../../../)
-
-

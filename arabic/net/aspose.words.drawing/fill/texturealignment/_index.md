@@ -1,9 +1,11 @@
 ---
 title: Fill.TextureAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. الحصول على أو تعيين المحاذاة لملء نسيج التجانب.
+linktitle: TextureAlignment
+articleTitle: TextureAlignment
+second_title: Aspose.Words لـ .NET
+description: Fill TextureAlignment ملكية. الحصول على أو تعيين المحاذاة لملء نسيج التجانب في C#.
 type: docs
-weight: 190
+weight: 180
 url: /ar/net/aspose.words.drawing/fill/texturealignment/
 ---
 ## Fill.TextureAlignment property
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/fill/texturealignment/
 public TextureAlignment TextureAlignment { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة وتبليط النسيج داخل الشكل.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 
 * enum [TextureAlignment](../../texturealignment/)
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

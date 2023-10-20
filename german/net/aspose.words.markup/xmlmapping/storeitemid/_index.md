@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.StoreItemId
-second_title: Aspose.Words für .NET-API-Referenz
-description: XmlMapping eigendom. Gibt die benutzerdefinierte XMLDatenkennung für den benutzerdefinierten XMLDatenteil an der zur Auswertung verwendet werden sollXPath Ausdruck.
+linktitle: StoreItemId
+articleTitle: StoreItemId
+second_title: Aspose.Words für .NET
+description: XmlMapping StoreItemId eigendom. Gibt die benutzerdefinierte XMLDatenkennung für den benutzerdefinierten XMLDatenteil an der zur Auswertung verwendet werden sollXPath Ausdruck in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.markup/xmlmapping/storeitemid/
@@ -14,7 +16,7 @@ Gibt die benutzerdefinierte XML-Datenkennung für den benutzerdefinierten XML-Da
 public string StoreItemId { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die benutzerdefinierte XML-Datenkennung eines XML-Teils abgerufen wird.
 
@@ -30,7 +32,5 @@ Assert.AreEqual("{F3029283-4FF8-4DD2-9F31-395F19ACEE85}", tag.XmlMapping.StoreIt
 ### Siehe auch
 
 * class [XmlMapping](../)
-* namensraum [Aspose.Words.Markup](../../xmlmapping/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

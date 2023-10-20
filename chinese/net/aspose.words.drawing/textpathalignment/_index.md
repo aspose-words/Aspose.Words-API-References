@@ -1,7 +1,9 @@
 ---
-title: Enum TextPathAlignment
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.TextPathAlignment 枚举. 艺术字对齐
+title: TextPathAlignment Enum
+linktitle: TextPathAlignment
+articleTitle: TextPathAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.TextPathAlignment 枚举. 艺术字对齐 在 C#.
 type: docs
 weight: 1360
 url: /zh/net/aspose.words.drawing/textpathalignment/
@@ -25,7 +27,7 @@ public enum TextPathAlignment
 | LetterJustify | `4` | 将字母展开以适合宽度。 |
 | WordJustify | `5` | 将单词展开以适合宽度。 |
 
-### 例子
+## 例子
 
 演示如何使用艺术字。
 
@@ -130,5 +132,3 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 * property [TextPathAlignment](../textpath/textpathalignment/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

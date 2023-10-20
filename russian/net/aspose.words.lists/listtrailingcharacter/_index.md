@@ -1,7 +1,9 @@
 ---
-title: Enum ListTrailingCharacter
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Lists.ListTrailingCharacter перечисление. Указывает символ отделяющий метку списка от текста абзаца.
+title: ListTrailingCharacter Enum
+linktitle: ListTrailingCharacter
+articleTitle: ListTrailingCharacter
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Lists.ListTrailingCharacter перечисление. Указывает символ отделяющий метку списка от текста абзаца на С#.
 type: docs
 weight: 3540
 url: /ru/net/aspose.words.lists/listtrailingcharacter/
@@ -22,11 +24,11 @@ public enum ListTrailingCharacter
 | Space | `1` | Между меткой списка и текстом абзаца помещается пробел. |
 | Nothing | `2` | Между меткой списка и текстом абзаца нет символа-разделителя. |
 
-### Примечания
+## Примечания
 
 Используется в качестве значения для[`TrailingCharacter`](../listlevel/trailingcharacter/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как применить пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
 
@@ -86,5 +88,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * пространство имен [Aspose.Words.Lists](../../aspose.words.lists/)
 * сборка [Aspose.Words](../../)
-
-

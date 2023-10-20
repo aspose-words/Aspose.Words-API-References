@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.Alignment
-second_title: Aspose.Words for .NET API Referansı
-description: HorizontalRuleFormat mülk. Yatay kuralın hizalamasını alır veya ayarlar.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words for .NET
+description: HorizontalRuleFormat Alignment mülk. Yatay kuralın hizalamasını alır veya ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/horizontalruleformat/alignment/
@@ -14,11 +16,11 @@ Yatay kuralın hizalamasını alır veya ayarlar.
 public HorizontalRuleAlignment Alignment { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Left.
 
-### Örnekler
+## Örnekler
 
 Yatay kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
 
@@ -42,7 +44,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 
 * enum [HorizontalRuleAlignment](../../horizontalrulealignment/)
 * class [HorizontalRuleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../horizontalruleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

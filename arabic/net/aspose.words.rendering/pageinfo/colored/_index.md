@@ -1,7 +1,9 @@
 ---
 title: PageInfo.Colored
-second_title: Aspose.Words لمراجع .NET API
-description: PageInfo ملكية. إرجاعحقيقي إذا كانت الصفحة تحتوي على محتوى ملون.
+linktitle: Colored
+articleTitle: Colored
+second_title: Aspose.Words لـ .NET
+description: PageInfo Colored ملكية. إرجاعحقيقي إذا كانت الصفحة تحتوي على محتوى ملون في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.rendering/pageinfo/colored/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.rendering/pageinfo/colored/
 public bool Colored { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق مما إذا كانت الصفحة ملونة أم لا.
 
@@ -28,7 +30,5 @@ Assert.IsFalse(doc.GetPageInfo(0).Colored);
 ### أنظر أيضا
 
 * class [PageInfo](../)
-* مساحة الاسم [Aspose.Words.Rendering](../../pageinfo/)
+* مساحة الاسم [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../../)
-
-

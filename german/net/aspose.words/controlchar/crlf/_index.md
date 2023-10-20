@@ -1,7 +1,9 @@
 ---
 title: ControlChar.CrLf
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Wagenrücklauf gefolgt von einem Zeilenvorschubzeichen x000dx000a oder rn. Wird als solches nicht in Microsoft WordDokumenten verwendet wird aber häufig in Textdateien für Absatzumbrüche verwendet.
+linktitle: CrLf
+articleTitle: CrLf
+second_title: Aspose.Words für .NET
+description: ControlChar CrLf veld. Wagenrücklauf gefolgt von einem Zeilenvorschubzeichen x000dx000a oder rn. Wird als solches nicht in Microsoft WordDokumenten verwendet wird aber häufig in Textdateien für Absatzumbrüche verwendet in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/controlchar/crlf/
@@ -14,7 +16,7 @@ Wagenrücklauf, gefolgt von einem Zeilenvorschubzeichen: „\x000d\x000a“ oder
 public static readonly string CrLf;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

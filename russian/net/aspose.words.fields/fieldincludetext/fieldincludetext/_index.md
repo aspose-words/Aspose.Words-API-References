@@ -1,7 +1,9 @@
 ---
-title: FieldIncludeText.FieldIncludeText
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIncludeText строитель. Конструктор по умолчанию.
+title: FieldIncludeText
+linktitle: FieldIncludeText
+articleTitle: FieldIncludeText
+second_title: Aspose.Words для .NET
+description: FieldIncludeText строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldincludetext/fieldincludetext/
@@ -17,7 +19,5 @@ public FieldIncludeText()
 ### Смотрите также
 
 * class [FieldIncludeText](../)
-* пространство имен [Aspose.Words.Fields](../../fieldincludetext/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

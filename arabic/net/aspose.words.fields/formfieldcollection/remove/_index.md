@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: FormFieldCollection طريقة. إزالة حقل نموذج بالاسم المحدد.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: FormFieldCollection Remove طريقة. إزالة حقل نموذج بالاسم المحدد في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/formfieldcollection/remove/
@@ -18,11 +20,11 @@ public void Remove(string formField)
 | --- | --- | --- |
 | formField | String | الاسم غير الحساس لحالة الأحرف لحقل النموذج المطلوب إزالته. |
 
-### ملاحظات
+## ملاحظات
 
 إذا كانت هناك إشارة مرجعية مرتبطة بحقل النموذج، فلن تتم إزالة الإشارة المرجعية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormFieldCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfieldcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

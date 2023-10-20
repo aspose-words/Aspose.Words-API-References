@@ -1,7 +1,9 @@
 ---
 title: CommentRangeEnd.Accept
-second_title: Aspose.Words per .NET API Reference
-description: CommentRangeEnd metodo. Accetta un visitatore.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words per .NET
+description: CommentRangeEnd Accept metodo. Accetta un visitatore in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/commentrangeend/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `falso` se il visitatore ha richiesto l'interruzione dell'enumerazione.
 
-### Osservazioni
+## Osservazioni
 
 Chiamate[`VisitCommentRangeEnd`](../../documentvisitor/visitcommentrangeend/).
 
 Per maggiori informazioni vedere il modello di progettazione Visitor.
 
-### Esempi
+## Esempi
 
 Mostra come stampare il contenuto di tutti i commenti e i relativi intervalli di commenti utilizzando un visitatore del documento.
 
@@ -190,7 +192,5 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [CommentRangeEnd](../)
-* spazio dei nomi [Aspose.Words](../../commentrangeend/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

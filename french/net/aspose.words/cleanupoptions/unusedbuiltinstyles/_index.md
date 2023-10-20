@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.UnusedBuiltinStyles
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CleanupOptions propriété. Spécifie que lesBuiltIn les styles doivent être supprimés du document.
+linktitle: UnusedBuiltinStyles
+articleTitle: UnusedBuiltinStyles
+second_title: Aspose.Words pour .NET
+description: CleanupOptions UnusedBuiltinStyles propriété. Spécifie que lesBuiltIn les styles doivent être supprimés du document en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/cleanupoptions/unusedbuiltinstyles/
@@ -14,7 +16,7 @@ Spécifie que les[`BuiltIn`](../../style/builtin/) les styles doivent être supp
 public bool UnusedBuiltinStyles { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment supprimer tous les styles personnalisés inutilisés d’un document.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 ### Voir également
 
 * class [CleanupOptions](../)
-* espace de noms [Aspose.Words](../../cleanupoptions/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

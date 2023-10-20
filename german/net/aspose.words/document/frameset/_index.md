@@ -1,7 +1,9 @@
 ---
 title: Document.Frameset
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Gibt a zurückFramesetBeispiel wenn dieses Dokument eine FramesSeite darstellt.
+linktitle: Frameset
+articleTitle: Frameset
+second_title: Aspose.Words für .NET
+description: Document Frameset eigendom. Gibt a zurückFramesetBeispiel wenn dieses Dokument eine FramesSeite darstellt in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words/document/frameset/
@@ -14,11 +16,11 @@ Gibt a zurück`Frameset`Beispiel, wenn dieses Dokument eine Frames-Seite darstel
 public Frameset Frameset { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn das Dokument nicht gerahmt ist, hat die Eigenschaft das`Null` value.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man auf Frames auf der Seite zugreift.
 
@@ -44,7 +46,5 @@ doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 
 * class [Frameset](../../../aspose.words.framesets/frameset/)
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.Timeout
-second_title: Aspose.Words لمراجع .NET API
-description: PdfDigitalSignatureTimestampSettings ملكية. قيمة المهلة للوصول إلى خادم الطابع الزمني.
+linktitle: Timeout
+articleTitle: Timeout
+second_title: Aspose.Words لـ .NET
+description: PdfDigitalSignatureTimestampSettings Timeout ملكية. قيمة المهلة للوصول إلى خادم الطابع الزمني في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/
 public TimeSpan Timeout { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي 100 ثانية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع مستند PDF محفوظ رقميًا ووضع طابع زمني عليه.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### أنظر أيضا
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

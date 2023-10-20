@@ -1,7 +1,9 @@
 ---
 title: Shape.TextBox
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Metnin bir şekilde nasıl görüntüleneceğini belirten nitelikleri tanımlar.
+linktitle: TextBox
+articleTitle: TextBox
+second_title: Aspose.Words for .NET
+description: Shape TextBox mülk. Metnin bir şekilde nasıl görüntüleneceğini belirten nitelikleri tanımlar C#'da.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.drawing/shape/textbox/
@@ -14,7 +16,7 @@ Metnin bir şekilde nasıl görüntüleneceğini belirten nitelikleri tanımlar.
 public TextBox TextBox { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir metin kutusu içindeki metnin yönünün nasıl ayarlanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * class [TextBox](../../textbox/)
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

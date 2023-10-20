@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.MetafileRenderingOptions
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Oluşturulan çıktıda meta dosyalarının nasıl ele alınacağını belirlemeye izin verir.
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions MetafileRenderingOptions mülk. Oluşturulan çıktıda meta dosyalarının nasıl ele alınacağını belirlemeye izin verir C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/
@@ -14,7 +16,7 @@ Oluşturulan çıktıda meta dosyalarının nasıl ele alınacağını belirleme
 public MetafileRenderingOptions MetafileRenderingOptions { get; }
 ```
 
-### Notlar
+## Notlar
 
 Ne zamanVector belirtildiğinde, Aspose.Words önce kendi meta dosyası oluşturma motorunu kullanarak x000d_ meta dosyasını vektör grafiklerine dönüştürür ve ardından vektör grafiklerini görüntüye işler.
 
@@ -24,7 +26,7 @@ GDI+ meta dosyası oluşturma motoru daha hızlı çalışır, neredeyse tüm me
 
 için varsayılan değer[`MetafileRenderingMode`](../../metafilerenderingmode/) dır-dirBitmap.
 
-### Örnekler
+## Örnekler
 
 Windows Meta Dosyası görüntüleri içeren belgeleri diğer görüntü formatlarına kaydederken işleme modunun nasıl ayarlanacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.WindowsMetaFile.png", options);
 
 * class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

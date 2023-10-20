@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentNode
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Ruft den Knoten ab der aktuell in diesem DocumentBuilder ausgewählt ist.
+linktitle: CurrentNode
+articleTitle: CurrentNode
+second_title: Aspose.Words für .NET
+description: DocumentBuilder CurrentNode eigendom. Ruft den Knoten ab der aktuell in diesem DocumentBuilder ausgewählt ist in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/documentbuilder/currentnode/
@@ -14,13 +16,13 @@ Ruft den Knoten ab, der aktuell in diesem DocumentBuilder ausgewählt ist.
 public Node CurrentNode { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 `CurrentNode` ist ein Cursor von[`DocumentBuilder`](../) und zeigt auf a[`Node`](../../node/) das ist ein direktes Kind von a[`Paragraph`](../../paragraph/) . Alle Einfügevorgänge, die Sie mit ausführen[`DocumentBuilder`](../) wird vor dem eingefügt`CurrentNode`.
 
 Wenn der aktuelle Absatz leer ist oder der Cursor gerade vor dem Ende eines Absatzes oder eines strukturierten Dokument-Tags positioniert ist,`CurrentNode` kehrt zurück`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Cursor eines Document Builders zu verschiedenen Knoten in einem Dokument bewegt wird.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

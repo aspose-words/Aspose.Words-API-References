@@ -1,7 +1,9 @@
 ---
 title: ChartDataPointCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataPointCollection свойство. ВозвращаетChartDataPoint для указанного индекса.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: ChartDataPointCollection Item свойство. ВозвращаетChartDataPoint для указанного индекса на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartdatapointcollection/item/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatapointcollection/item/
 public ChartDataPoint this[int index] { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с точками данных на линейной диаграмме.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * class [ChartDataPoint](../../chartdatapoint/)
 * class [ChartDataPointCollection](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

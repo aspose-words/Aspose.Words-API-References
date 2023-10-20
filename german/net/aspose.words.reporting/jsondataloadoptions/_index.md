@@ -1,7 +1,9 @@
 ---
-title: Class JsonDataLoadOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Reporting.JsonDataLoadOptions klas. Stellt Optionen zum Parsen von JSONDaten dar.
+title: JsonDataLoadOptions Class
+linktitle: JsonDataLoadOptions
+articleTitle: JsonDataLoadOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Reporting.JsonDataLoadOptions klas. Stellt Optionen zum Parsen von JSONDaten dar in C#.
 type: docs
 weight: 4680
 url: /de/net/aspose.words.reporting/jsondataloadoptions/
@@ -31,7 +33,7 @@ public class JsonDataLoadOptions
 | [PreserveSpaces](../../aspose.words.reporting/jsondataloadoptions/preservespaces/) { get; set; } | Ruft ein Flag ab oder setzt es, das angibt, ob führende und nachfolgende Leerzeichen beim Laden von string -Werten von JSON-Daten beibehalten werden sollen. |
 | [SimpleValueParseMode](../../aspose.words.reporting/jsondataloadoptions/simplevalueparsemode/) { get; set; } | Ruft einen Modus zum Parsen einfacher JSON-Werte (Null, Boolescher Wert, Zahl, Ganzzahl und Zeichenfolge) ab oder legt diesen fest. beim Laden von JSON. Ein solcher Modus hat keinen Einfluss auf das Parsen von Datums-/Uhrzeitwerten. Der Standardwert ist Loose . |
 
-### Bemerkungen
+## Bemerkungen
 
 Eine Instanz dieser Klasse kann an Konstruktoren von übergeben werden[`JsonDataSource`](../jsondatasource/) .
 
@@ -39,5 +41,3 @@ Eine Instanz dieser Klasse kann an Konstruktoren von übergeben werden[`JsonData
 
 * namensraum [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * Montage [Aspose.Words](../../)
-
-

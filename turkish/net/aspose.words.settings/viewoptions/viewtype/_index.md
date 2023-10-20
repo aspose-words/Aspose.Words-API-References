@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.ViewType
-second_title: Aspose.Words for .NET API Referansı
-description: ViewOptions mülk. Microsoft Worddeki görüntüleme modunu kontrol eder.
+linktitle: ViewType
+articleTitle: ViewType
+second_title: Aspose.Words for .NET
+description: ViewOptions ViewType mülk. Microsoft Worddeki görüntüleme modunu kontrol eder C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.settings/viewoptions/viewtype/
@@ -14,11 +16,11 @@ Microsoft Word'deki görüntüleme modunu kontrol eder.
 public ViewType ViewType { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words bu seçeneği okuyup yazabilse de kullanımı uygulamaya özeldir. Örneğin MS Word 2013 bu seçeneğin değerini dikkate almaz.
 
-### Örnekler
+## Örnekler
 
 Microsoft Word'ün eski sürümlerinin yükleme sırasında bir belgeye uygulayacağı özel yakınlaştırma faktörünün nasıl ayarlanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 
 * enum [ViewType](../../viewtype/)
 * class [ViewOptions](../)
-* ad alanı [Aspose.Words.Settings](../../viewoptions/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

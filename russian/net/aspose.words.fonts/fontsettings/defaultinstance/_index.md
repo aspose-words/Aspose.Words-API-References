@@ -1,7 +1,9 @@
 ---
 title: FontSettings.DefaultInstance
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSettings свойство. Статические настройки шрифта по умолчанию.
+linktitle: DefaultInstance
+articleTitle: DefaultInstance
+second_title: Aspose.Words для .NET
+description: FontSettings DefaultInstance свойство. Статические настройки шрифта по умолчанию на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/fontsettings/defaultinstance/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fonts/fontsettings/defaultinstance/
 public static FontSettings DefaultInstance { get; }
 ```
 
-### Примечания
+## Примечания
 
 Этот экземпляр используется в документе по умолчанию, если только[`FontSettings`](../../../aspose.words/document/fontsettings/) указано.
 
-### Примеры
+## Примеры
 
 Показывает, как настроить экземпляр параметров шрифта по умолчанию.
 
@@ -94,7 +96,5 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 ### Смотрите также
 
 * class [FontSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

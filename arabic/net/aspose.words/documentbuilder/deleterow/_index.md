@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.DeleteRow
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. حذف صف من الجدول.
+linktitle: DeleteRow
+articleTitle: DeleteRow
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder DeleteRow طريقة. حذف صف من الجدول في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words/documentbuilder/deleterow/
@@ -23,7 +25,7 @@ public Row DeleteRow(int tableIndex, int rowIndex)
 
 عقدة الصف التي تمت إزالتها للتو.
 
-### ملاحظات
+## ملاحظات
 
 إذا كان المؤشر داخل الصف الذي يتم حذفه، فسيتم نقل المؤشر إلى الصف التالي أو إلى الفقرة التالية بعد الجدول.
 
@@ -31,7 +33,7 @@ public Row DeleteRow(int tableIndex, int rowIndex)
 
 بالنسبة لمعلمات الفهرس، عندما يكون الفهرس أكبر من أو يساوي 0، فإنه يحدد فهرس from البداية حيث يكون 0 هو العنصر الأول. عندما يكون الفهرس أقل من 0، فإنه يحدد فهرس from النهاية مع -1 كونه العنصر الأخير.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حذف صف من الجدول.
 
@@ -64,7 +66,5 @@ Assert.AreEqual("Row 2, cell 1.\aRow 2, cell 2.\a\a", table.GetText().Trim());
 
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

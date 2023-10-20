@@ -1,7 +1,9 @@
 ---
-title: Enum PdfFontEmbeddingMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.PdfFontEmbeddingMode Sıralama. Aspose.Wordsün yazı tiplerini nasıl yerleştirmesi gerektiğini belirtir.
+title: PdfFontEmbeddingMode Enum
+linktitle: PdfFontEmbeddingMode
+articleTitle: PdfFontEmbeddingMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.PdfFontEmbeddingMode Sıralama. Aspose.Wordsün yazı tiplerini nasıl yerleştirmesi gerektiğini belirtir C#'da.
 type: docs
 weight: 5470
 url: /tr/net/aspose.words.saving/pdffontembeddingmode/
@@ -22,7 +24,7 @@ public enum PdfFontEmbeddingMode
 | EmbedNonstandard | `1` | Aspose.Words, standart Windows yazı tipleri Arial ve Times New Roman hariç tüm yazı tiplerini gömer. Bu modda yalnızca Arial ve Times New Roman yazı tipleri etkilenir çünkü MS Word, belgeyi PDF'ye kaydederken yalnızca bu yazı tiplerini gömmez . |
 | EmbedNone | `2` | Aspose.Words herhangi bir yazı tipi yerleştirmez. |
 
-### Örnekler
+## Örnekler
 
 Aspose.Words'ün Arial ve Times New Roman yazı tiplerini bir PDF belgesine yerleştirmeyi atlayacak şekilde nasıl ayarlanacağını gösterir.
 
@@ -68,5 +70,3 @@ switch (pdfFontEmbeddingMode)
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

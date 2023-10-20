@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: ListCollection свойство. Получает список по индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: ListCollection Item свойство. Получает список по индексу на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.lists/listcollection/item/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.lists/listcollection/item/
 public List this[int index] { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить свойства документов владельцев списков.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* пространство имен [Aspose.Words.Lists](../../listcollection/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageStartingNumber
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. الحصول على أو تعيين رقم صفحة البداية للقسم.
+linktitle: PageStartingNumber
+articleTitle: PageStartingNumber
+second_title: Aspose.Words لـ .NET
+description: PageSetup PageStartingNumber ملكية. الحصول على أو تعيين رقم صفحة البداية للقسم في C#.
 type: docs
 weight: 330
 url: /ar/net/aspose.words/pagesetup/pagestartingnumber/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/pagesetup/pagestartingnumber/
 public int PageStartingNumber { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 ال[`RestartPageNumbering`](../restartpagenumbering/)الملكية، إذا تم تعيينها على`خطأ شنيع` ، سوف يتجاوز the `PageStartingNumber` الخاصية بحيث يستمر ترقيم الصفحات من القسم السابق.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعداد ترقيم الصفحات في القسم.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

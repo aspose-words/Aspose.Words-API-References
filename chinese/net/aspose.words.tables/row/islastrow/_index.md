@@ -1,7 +1,9 @@
 ---
 title: Row.IsLastRow
-second_title: Aspose.Words for .NET API 参考
-description: Row 财产. 如果这是表中的最后一行则为 True否则为假
+linktitle: IsLastRow
+articleTitle: IsLastRow
+second_title: 用于 .NET 的 Aspose.Words
+description: Row IsLastRow 财产. 如果这是表中的最后一行则为 True否则为假 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.tables/row/islastrow/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/row/islastrow/
 public bool IsLastRow { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何将表格设置为在同一页面上保持在一起。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### 也可以看看
 
 * class [Row](../)
-* 命名空间 [Aspose.Words.Tables](../../row/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

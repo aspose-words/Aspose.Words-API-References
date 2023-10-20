@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.SaveFormatToLoadFormat
-second_title: Aspose.Words لمراجع .NET API
-description: FileFormatUtil طريقة. تحويل أSaveFormat القيمة إلى أLoadFormat القيمة إن أمكن.
+linktitle: SaveFormatToLoadFormat
+articleTitle: SaveFormatToLoadFormat
+second_title: Aspose.Words لـ .NET
+description: FileFormatUtil SaveFormatToLoadFormat طريقة. تحويل أSaveFormat القيمة إلى أLoadFormat القيمة إن أمكن في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/fileformatutil/saveformattoloadformat/
@@ -20,7 +22,7 @@ public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
 | --- | --- |
 | ArgumentException | يرمي عندما لا يمكن تحويل. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحويل تنسيق الحفظ إلى تنسيق التحميل المقابل له.
 
@@ -37,7 +39,5 @@ Assert.Throws<ArgumentException>(() => FileFormatUtil.SaveFormatToLoadFormat(Sav
 * enum [LoadFormat](../../loadformat/)
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* مساحة الاسم [Aspose.Words](../../fileformatutil/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

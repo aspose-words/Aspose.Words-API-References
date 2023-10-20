@@ -1,24 +1,26 @@
 ---
 title: ChartLegendEntry.IsHidden
-second_title: Aspose.Words for .NET API Referansı
-description: ChartLegendEntry mülk. Bu girişin grafik açıklamasında gizli olup olmadığını belirten bir değer alır veya ayarlar. Varsayılan değer YANLIŞ .
+linktitle: IsHidden
+articleTitle: IsHidden
+second_title: Aspose.Words for .NET
+description: ChartLegendEntry IsHidden mülk. Bu girişin grafik açıklamasında gizli olup olmadığını belirten bir değer alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartlegendentry/ishidden/
 ---
 ## ChartLegendEntry.IsHidden property
 
-Bu girişin grafik açıklamasında gizli olup olmadığını belirten bir değer alır veya ayarlar. Varsayılan değer: **YANLIŞ** .
+Bu girişin grafik açıklamasında gizli olup olmadığını belirten bir değer alır veya ayarlar. Varsayılan değer:**YANLIŞ** .
 
 ```csharp
 public bool IsHidden { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bir grafik göstergesi girişi gizlendiğinde, ilgili grafik serisini veya grafikte hala görüntülenen trend çizgisini etkilemez.
 
-### Örnekler
+## Örnekler
 
 Grafik serileri için bir açıklama girişiyle nasıl çalışılacağını gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ### Ayrıca bakınız
 
 * class [ChartLegendEntry](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartlegendentry/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

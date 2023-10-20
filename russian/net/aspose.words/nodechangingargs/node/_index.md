@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.Node
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeChangingArgs свойство. ПолучаетNode который добавляется или удаляется.
+linktitle: Node
+articleTitle: Node
+second_title: Aspose.Words для .NET
+description: NodeChangingArgs Node свойство. ПолучаетNode который добавляется или удаляется на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/nodechangingargs/node/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/nodechangingargs/node/
 public Node Node { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить изменение узла с помощью обратного вызова.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* пространство имен [Aspose.Words](../../nodechangingargs/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

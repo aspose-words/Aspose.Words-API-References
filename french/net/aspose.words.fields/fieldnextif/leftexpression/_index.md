@@ -1,7 +1,9 @@
 ---
 title: FieldNextIf.LeftExpression
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldNextIf propriété. Obtient ou définit la partie gauche de lexpression de comparaison.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words pour .NET
+description: FieldNextIf LeftExpression propriété. Obtient ou définit la partie gauche de lexpression de comparaison en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldnextif/leftexpression/
@@ -14,7 +16,7 @@ Obtient ou définit la partie gauche de l'expression de comparaison.
 public string LeftExpression { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les champs NEXT/NEXTIF pour fusionner plusieurs lignes en une seule page lors d'un publipostage.
 
@@ -96,7 +98,5 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 ### Voir également
 
 * class [FieldNextIf](../)
-* espace de noms [Aspose.Words.Fields](../../fieldnextif/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

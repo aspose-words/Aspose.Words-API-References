@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.WidowControl
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. True si la première et la dernière ligne du paragraphe doivent rester sur la même page que le reste du paragraphe.
+linktitle: WidowControl
+articleTitle: WidowControl
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat WidowControl propriété. True si la première et la dernière ligne du paragraphe doivent rester sur la même page que le reste du paragraphe en C#.
 type: docs
 weight: 400
 url: /fr/net/aspose.words/paragraphformat/widowcontrol/
@@ -14,7 +16,7 @@ True si la première et la dernière ligne du paragraphe doivent rester sur la m
 public bool WidowControl { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment activer le contrôle veuve/orphelin pour un paragraphe.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.WidowControl.docx");
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

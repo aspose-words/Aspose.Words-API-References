@@ -1,12 +1,14 @@
 ---
 title: DocumentBase.ImportNode
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBase methode. Importiert einen Knoten aus einem anderen Dokument in das aktuelle Dokument.
+linktitle: ImportNode
+articleTitle: ImportNode
+second_title: Aspose.Words für .NET
+description: DocumentBase ImportNode methode. Importiert einen Knoten aus einem anderen Dokument in das aktuelle Dokument in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words/documentbase/importnode/
 ---
-## ImportNode(Node, bool) {#importnode}
+## ImportNode(*[Node](../../node/), bool*) {#importnode}
 
 Importiert einen Knoten aus einem anderen Dokument in das aktuelle Dokument.
 
@@ -23,17 +25,17 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 Der geklonte Knoten, der zum aktuellen Dokument gehört.
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode verwendet dieUseDestinationStyles Option zum Auflösen der Formatierung.
 
 Beim Importieren eines Knotens wird eine Kopie des Quellknotens erstellt, der zum importierenden Dokument gehört. Der zurückgegebene Knoten hat keinen übergeordneten Knoten. Der Quellknoten wird nicht geändert oder aus dem Originaldokument entfernt.
 
-Bevor ein Knoten aus einem anderen Dokument in dieses Dokument eingefügt werden kann, muss dieser importiert werden. Beim Import werden dokumentspezifische Eigenschaften wie Verweise auf Stile und Listen vom Original in das importierende Dokument übersetzt . Nachdem der Knoten importiert wurde, kann er mit an der entsprechenden Stelle im Dokument eingefügt werdenNode) oder Node).
+Bevor ein Knoten aus einem anderen Dokument in dieses Dokument eingefügt werden kann, muss dieser importiert werden. Beim Import werden dokumentspezifische Eigenschaften wie Verweise auf Stile und Listen vom Original in das importierende Dokument übersetzt . Nachdem der Knoten importiert wurde, kann er mit an der entsprechenden Stelle im Dokument eingefügt werden[`InsertBefore`](../../compositenode/insertbefore/) oder [`InsertAfter`](../../compositenode/insertafter/).
 
 Wenn der Quellknoten bereits zum Zieldokument gehört, wird einfach ein tiefer Klon des Quellknotens erstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Knoten von einem Dokument in ein anderes importiert wird.
 
@@ -68,12 +70,12 @@ Assert.AreEqual("Destination document first paragraph text.\r\nSource document f
 
 * class [Node](../../node/)
 * class [DocumentBase](../)
-* namensraum [Aspose.Words](../../documentbase/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## ImportNode(Node, bool, ImportFormatMode) {#importnode_1}
+## ImportNode(*[Node](../../node/), bool, [ImportFormatMode](../../importformatmode/)*) {#importnode_1}
 
 Importiert einen Knoten aus einem anderen Dokument in das aktuelle Dokument mit einer Option zur Steuerung der Formatierung.
 
@@ -91,17 +93,17 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 
 Der geklonte, importierte Knoten. Der Knoten gehört zum Zieldokument, hat aber keinen übergeordneten Knoten.
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Überladung ist nützlich, um zu steuern, wie Stile und Listenformatierungen importiert werden.
 
 Beim Importieren eines Knotens wird eine Kopie des Quellknotens erstellt, der zum importierenden Dokument gehört. Der zurückgegebene Knoten hat keinen übergeordneten Knoten. Der Quellknoten wird nicht geändert oder aus dem Originaldokument entfernt.
 
-Bevor ein Knoten aus einem anderen Dokument in dieses Dokument eingefügt werden kann, muss dieser importiert werden. Beim Import werden dokumentspezifische Eigenschaften wie Verweise auf Stile und Listen vom Original in das importierende Dokument übersetzt . Nachdem der Knoten importiert wurde, kann er mit an der entsprechenden Stelle im Dokument eingefügt werdenNode) oder Node).
+Bevor ein Knoten aus einem anderen Dokument in dieses Dokument eingefügt werden kann, muss dieser importiert werden. Beim Import werden dokumentspezifische Eigenschaften wie Verweise auf Stile und Listen vom Original in das importierende Dokument übersetzt . Nachdem der Knoten importiert wurde, kann er mit an der entsprechenden Stelle im Dokument eingefügt werden[`InsertBefore`](../../compositenode/insertbefore/) oder [`InsertAfter`](../../compositenode/insertafter/).
 
 Wenn der Quellknoten bereits zum Zieldokument gehört, wird einfach ein tiefer Klon des Quellknotens erstellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Knoten mit bestimmten Optionen vom Quelldokument in das Zieldokument importiert werden.
 
@@ -141,7 +143,5 @@ Assert.AreEqual(srcStyle.Font.Name, dstDoc.Styles["My style_0"].Font.Name);
 * class [Node](../../node/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [DocumentBase](../)
-* namensraum [Aspose.Words](../../documentbase/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

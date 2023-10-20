@@ -1,7 +1,9 @@
 ---
-title: Class ChartSeriesCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartSeriesCollection klas. Stellt eine Sammlung von a darChartSeries .
+title: ChartSeriesCollection Class
+linktitle: ChartSeriesCollection
+articleTitle: ChartSeriesCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartSeriesCollection klas. Stellt eine Sammlung von a darChartSeries  in C#.
 type: docs
 weight: 790
 url: /de/net/aspose.words.drawing.charts/chartseriescollection/
@@ -27,15 +29,15 @@ public class ChartSeriesCollection : IEnumerable<ChartSeries>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_2)(string, DateTime[], double[]) | Fügt Neues hinzu[`ChartSeries`](../chartseries/) zu dieser Sammlung. Verwenden Sie diese Methode, um Serien zu jeder Art von Flächen-, Radar- und Aktiendiagrammen hinzuzufügen. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add)(string, double[], double[]) | Fügt Neues hinzu[`ChartSeries`](../chartseries/) zu dieser Sammlung. Verwenden Sie diese Methode, um Reihen zu jeder Art von Streudiagrammen hinzuzufügen. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_3)(string, string[], double[]) | Fügt Neues hinzu[`ChartSeries`](../chartseries/) zu dieser Sammlung. Verwenden Sie diese Methode, um Reihen zu jeder Art von Balken-, Säulen-, Linien- und Oberflächendiagrammen hinzuzufügen. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_1)(string, double[], double[], double[]) | Fügt Neues hinzu[`ChartSeries`](../chartseries/)zu dieser Sammlung. Verwenden Sie diese Methode, um Reihen zu jeder Art von Blasendiagrammen hinzuzufügen. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_2)(*string, DateTime[], double[]*) | Fügt Neues hinzu[`ChartSeries`](../chartseries/) zu dieser Sammlung. Verwenden Sie diese Methode, um Serien zu jeder Art von Flächen-, Radar- und Aktiendiagrammen hinzuzufügen. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add)(*string, double[], double[]*) | Fügt Neues hinzu[`ChartSeries`](../chartseries/) zu dieser Sammlung. Verwenden Sie diese Methode, um Reihen zu jeder Art von Streudiagrammen hinzuzufügen. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_3)(*string, string[], double[]*) | Fügt Neues hinzu[`ChartSeries`](../chartseries/) zu dieser Sammlung. Verwenden Sie diese Methode, um Reihen zu jeder Art von Balken-, Säulen-, Linien- und Oberflächendiagrammen hinzuzufügen. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_1)(*string, double[], double[], double[]*) | Fügt Neues hinzu[`ChartSeries`](../chartseries/)zu dieser Sammlung. Verwenden Sie diese Methode, um Reihen zu jeder Art von Blasendiagrammen hinzuzufügen. |
 | [Clear](../../aspose.words.drawing.charts/chartseriescollection/clear/)() | Entfernt alle[`ChartSeries`](../chartseries/) aus dieser Sammlung. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartseriescollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück. |
-| [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat/)(int) | Entfernt a[`ChartSeries`](../chartseries/) am angegebenen Index. |
+| [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat/)(*int*) | Entfernt a[`ChartSeries`](../chartseries/) am angegebenen Index. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Reihendaten in einem Diagramm hinzufügt und entfernt.
 
@@ -84,5 +86,3 @@ chartData.Clear();
 * class [ChartSeries](../chartseries/)
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

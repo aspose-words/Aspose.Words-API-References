@@ -1,7 +1,9 @@
 ---
-title: Enum CommentDisplayMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Layout.CommentDisplayMode Sıralama. Belge yorumları için işleme modunu belirtir.
+title: CommentDisplayMode Enum
+linktitle: CommentDisplayMode
+articleTitle: CommentDisplayMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Layout.CommentDisplayMode Sıralama. Belge yorumları için işleme modunu belirtir C#'da.
 type: docs
 weight: 3290
 url: /tr/net/aspose.words.layout/commentdisplaymode/
@@ -22,7 +24,7 @@ public enum CommentDisplayMode
 | ShowInBalloons | `1` | Belge yorumlarını kenar boşluğundaki balonlar halinde görüntüler. Bu varsayılan değerdir. |
 | ShowInAnnotations | `2` | Ek açıklamalardaki belge yorumlarını işler. Bu yalnızca Pdf formatı için geçerlidir. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi işlenmiş formatta kaydederken yorumların nasıl gösterileceğini gösterir.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Document.ShowCommentsInBalloons.pdf");
 
 * ad alanı [Aspose.Words.Layout](../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../)
-
-

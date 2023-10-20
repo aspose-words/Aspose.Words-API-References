@@ -1,7 +1,9 @@
 ---
-title: Class List
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Lists.List klas. Stellt die Formatierung einer Liste dar.
+title: List Class
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Lists.List klas. Stellt die Formatierung einer Liste dar in C#.
 type: docs
 weight: 3460
 url: /de/net/aspose.words.lists/list/
@@ -33,14 +35,14 @@ public class List : IComparable<List>
 
 | Name | Beschreibung |
 | --- | --- |
-| [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(List) | Vergleicht die angegebene Liste mit der aktuellen Liste. |
-| [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(object) | Vergleicht das angegebene Objekt mit dem aktuellen Objekt. |
-| [Equals](../../aspose.words.lists/list/equals/#equals)(List) | Vergleicht mit der angegebenen Liste. |
-| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(object) | Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(*List*) | Vergleicht die angegebene Liste mit der aktuellen Liste. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(*object*) | Vergleicht das angegebene Objekt mit dem aktuellen Objekt. |
+| [Equals](../../aspose.words.lists/list/equals/#equals)(*List*) | Vergleicht mit der angegebenen Liste. |
+| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(*object*) | Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat. |
 | override [GetHashCode](../../aspose.words.lists/list/gethashcode/)() | Berechnet den Hash-Code für dieses Listenobjekt. |
-| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(List) | Gibt „true“ zurück, wenn die aktuelle Liste und die angegebene Liste aus derselben Vorlage erstellt werden. |
+| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(*List*) | Gibt „true“ zurück, wenn die aktuelle Liste und die angegebene Liste aus derselben Vorlage erstellt werden. |
 
-### Bemerkungen
+## Bemerkungen
 
 Eine Liste in einem Microsoft Word-Dokument besteht aus einer Reihe von Listenformatierungseigenschaften. Jede Liste kann bis zu 9 Ebenen haben und Formatierungseigenschaften wie Zahlenstil, Startwert, Einzug, Tabulatorposition usw. werden für jede Ebene separat definiert.
 
@@ -52,7 +54,7 @@ Um die Formatierung einer Liste zu ändern, verwenden Sie[`ListLevel`](../listle
 
 Um Listenformatierungen auf einen Absatz anzuwenden oder daraus zu entfernen, verwenden Sie[`ListFormat`](../listformat/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Nummerierung in einer Liste durch Kopieren einer Liste neu gestartet wird.
 
@@ -199,5 +201,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * namensraum [Aspose.Words.Lists](../../aspose.words.lists/)
 * Montage [Aspose.Words](../../)
-
-

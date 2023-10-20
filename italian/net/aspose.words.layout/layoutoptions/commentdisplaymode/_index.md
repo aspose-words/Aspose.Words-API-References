@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.CommentDisplayMode
-second_title: Aspose.Words per .NET API Reference
-description: LayoutOptions proprietà. Ottiene o imposta il modo in cui vengono visualizzati i commenti. Il valore predefinito èShowInBalloons .
+linktitle: CommentDisplayMode
+articleTitle: CommentDisplayMode
+second_title: Aspose.Words per .NET
+description: LayoutOptions CommentDisplayMode proprietà. Ottiene o imposta il modo in cui vengono visualizzati i commenti. Il valore predefinito èShowInBalloons  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.layout/layoutoptions/commentdisplaymode/
@@ -14,11 +16,11 @@ Ottiene o imposta il modo in cui vengono visualizzati i commenti. Il valore pred
 public CommentDisplayMode CommentDisplayMode { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Tieni presente che le revisioni non vengono visualizzate nei fumetti perShowInAnnotations .
 
-### Esempi
+## Esempi
 
 Mostra come mostrare i commenti quando si salva un documento in un formato sottoposto a rendering.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Document.ShowCommentsInBalloons.pdf");
 
 * enum [CommentDisplayMode](../../commentdisplaymode/)
 * class [LayoutOptions](../)
-* spazio dei nomi [Aspose.Words.Layout](../../layoutoptions/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

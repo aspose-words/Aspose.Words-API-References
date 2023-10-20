@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Le Aspose.Mots lespace de noms fournit des classes pour générer convertir modifier rendre et imprimer des documents Microsoft Word sans utiliser Microsoft Word.
+linktitle: Aspose.Words
+articleTitle: Aspose.Words
+second_title: Aspose.Words pour .NET
+description: LeAspose.Mots lespace de noms fournit des classes pour générer convertir modifier rendre et imprimer des documents Microsoft Word sans utiliser Microsoft Word en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/
 ---
-Le **Aspose.Mots** l'espace de noms fournit des classes pour générer, convertir, modifier, rendre et imprimer des documents Microsoft Word sans utiliser Microsoft Word.
+Le**Aspose.Mots** l'espace de noms fournit des classes pour générer, convertir, modifier, rendre et imprimer des documents Microsoft Word sans utiliser Microsoft Word.
 
 ## Des classes
 
@@ -82,7 +84,7 @@ Le **Aspose.Mots** l'espace de noms fournit des classes pour générer, converti
 | [Story](./story/) | Classe de base pour les éléments contenant des nœuds au niveau du bloc[`Paragraph`](../aspose.words/paragraph/) et[`Table`](../aspose.words.tables/table/) . |
 | [Style](./style/) | Représente un seul style intégré ou défini par l'utilisateur. |
 | [StyleCollection](./stylecollection/) | Une collection de[`Style`](../aspose.words/style/) objets qui représentent à la fois les styles intégrés et définis par l'utilisateur dans un document. |
-| [SubDocument](./subdocument/) | Représente un **Sous-document** - qui est une référence à un document stocké en externe. |
+| [SubDocument](./subdocument/) | Représente un**Sous-document** - qui est une référence à un document stocké en externe. |
 | [TableStyle](./tablestyle/) | Représente un style de tableau. |
 | [TabStop](./tabstop/) | Représente un seul taquet de tabulation personnalisé. Le[`TabStop`](../aspose.words/tabstop/)l'objet est membre de the [`TabStopCollection`](../aspose.words/tabstopcollection/) collection. |
 | [TabStopCollection](./tabstopcollection/) | Une collection de[`TabStop`](../aspose.words/tabstop/) objets qui représentent des onglets personnalisés pour un paragraphe ou un style. |
@@ -159,5 +161,3 @@ Le **Aspose.Mots** l'espace de noms fournit des classes pour générer, converti
 | [WarningType](./warningtype/) | Spécifie le type d'avertissement émis par Aspose.Words lors du chargement ou de l'enregistrement du document. |
 | [WatermarkLayout](./watermarklayout/) | Définit la disposition du filigrane par rapport au centre du filigrane. |
 | [WatermarkType](./watermarktype/) | Spécifie le type de filigrane. |
-
-

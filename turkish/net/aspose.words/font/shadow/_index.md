@@ -1,7 +1,9 @@
 ---
 title: Font.Shadow
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Yazı tipi gölgeli olarak biçimlendirilmişse doğrudur.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words for .NET
+description: Font Shadow mülk. Yazı tipi gölgeli olarak biçimlendirilmişse doğrudur C#'da.
 type: docs
 weight: 330
 url: /tr/net/aspose.words/font/shadow/
@@ -14,7 +16,7 @@ Yazı tipi gölgeli olarak biçimlendirilmişse doğrudur.
 public bool Shadow { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Gölgeyle biçimlendirilmiş bir metin dizisinin nasıl oluşturulacağını gösterir.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Font.Shadow.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

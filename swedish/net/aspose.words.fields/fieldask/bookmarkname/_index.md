@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.BookmarkName
-second_title: Aspose.Words för .NET API Referens
-description: FieldAsk fast egendom. Hämtar eller ställer in namnet på bokmärket.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words för .NET
+description: FieldAsk BookmarkName fast egendom. Hämtar eller ställer in namnet på bokmärket i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldask/bookmarkname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på bokmärket.
 public string BookmarkName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett ASK-fält och ställer in dess egenskaper.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Se även
 
 * class [FieldAsk](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldask/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

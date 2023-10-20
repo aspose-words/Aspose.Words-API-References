@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberRestartMode
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 获取或设置行编号的运行方式即是从新的 页或节的开头重新开始还是连续运行
+linktitle: LineNumberRestartMode
+articleTitle: LineNumberRestartMode
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup LineNumberRestartMode 财产. 获取或设置行编号的运行方式即是从新的 页或节的开头重新开始还是连续运行 在 C#.
 type: docs
 weight: 230
 url: /zh/net/aspose.words/pagesetup/linenumberrestartmode/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/linenumberrestartmode/
 public LineNumberRestartMode LineNumberRestartMode { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何为节启用行编号。
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 
 * enum [LineNumberRestartMode](../../linenumberrestartmode/)
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

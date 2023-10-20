@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImageResolution
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie la résolution de sortie des images lors de lexportation au format HTML MHTML ou EPUB. La valeur par défaut est96 ppp .
+linktitle: ImageResolution
+articleTitle: ImageResolution
+second_title: Aspose.Words pour .NET
+description: HtmlSaveOptions ImageResolution propriété. Spécifie la résolution de sortie des images lors de lexportation au format HTML MHTML ou EPUB. La valeur par défaut est96 ppp  en C#.
 type: docs
 weight: 340
 url: /fr/net/aspose.words.saving/htmlsaveoptions/imageresolution/
@@ -14,11 +16,11 @@ Spécifie la résolution de sortie des images lors de l'exportation au format HT
 public int ImageResolution { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété affecte les images raster lorsque[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) est`vrai` et métafichiers d'effets exportés sous forme d'images raster. Certaines propriétés d'image telles que cropping ou rotation nécessitent l'enregistrement des images transformées et dans ce cas, les images transformées sont créées dans la résolution donnée .
 
-### Exemples
+## Exemples
 
 Montre comment définir des dossiers et des alias de dossier pour les ressources enregistrées en externe qu'Aspose.Words créera lors de l'enregistrement d'un document au format HTML.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 
 * property [ScaleImageToShapeSize](../scaleimagetoshapesize/)
 * class [HtmlSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

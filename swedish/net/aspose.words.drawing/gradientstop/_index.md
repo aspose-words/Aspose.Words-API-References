@@ -1,7 +1,9 @@
 ---
-title: Class GradientStop
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.GradientStop klass. Representerar ett gradientstopp.
+title: GradientStop Class
+linktitle: GradientStop
+articleTitle: GradientStop
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.GradientStop klass. Representerar ett gradientstopp i C#.
 type: docs
 weight: 980
 url: /sv/net/aspose.words.drawing/gradientstop/
@@ -20,8 +22,8 @@ public class GradientStop
 
 | namn | Beskrivning |
 | --- | --- |
-| [GradientStop](gradientstop/#constructor)(Color, double) | Initierar en ny instans av`GradientStop` class. |
-| [GradientStop](gradientstop/#constructor_1)(Color, double, double) | Initierar en ny instans av`GradientStop` class. |
+| [GradientStop](gradientstop/#constructor)(*Color, double*) | Initierar en ny instans av`GradientStop` class. |
+| [GradientStop](gradientstop/#constructor_1)(*Color, double, double*) | Initierar en ny instans av`GradientStop` class. |
 
 ## Egenskaper
 
@@ -42,5 +44,3 @@ public class GradientStop
 
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

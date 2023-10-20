@@ -1,7 +1,9 @@
 ---
-title: Enum DmlRenderingMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.DmlRenderingMode Sıralama. DrawingML şekillerinin sabit sayfa formatlarına nasıl aktarılacağını belirtir.
+title: DmlRenderingMode Enum
+linktitle: DmlRenderingMode
+articleTitle: DmlRenderingMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.DmlRenderingMode Sıralama. DrawingML şekillerinin sabit sayfa formatlarına nasıl aktarılacağını belirtir C#'da.
 type: docs
 weight: 4920
 url: /tr/net/aspose.words.saving/dmlrenderingmode/
@@ -21,7 +23,7 @@ public enum DmlRenderingMode
 | Fallback | `0` | Eğer DrawingML için geri dönüş şekli mevcutsa Aspose.Words, DrawingML yerine geri dönüş şekli oluşturur. |
 | DrawingML | `1` | Aspose.Words, DrawingML'in geri dönüş şeklini yok sayar ve DrawingML'in kendisini oluşturur. Bu, varsayılan moddur. |
 
-### Örnekler
+## Örnekler
 
 PDF'ye kaydederken geri dönüş şekillerinin nasıl oluşturulacağını gösterir.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

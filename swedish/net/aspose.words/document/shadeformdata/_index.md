@@ -1,7 +1,9 @@
 ---
 title: Document.ShadeFormData
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Anger om den grå skuggningen ska aktiveras i formulärfält.
+linktitle: ShadeFormData
+articleTitle: ShadeFormData
+second_title: Aspose.Words för .NET
+description: Document ShadeFormData fast egendom. Anger om den grå skuggningen ska aktiveras i formulärfält i C#.
 type: docs
 weight: 380
 url: /sv/net/aspose.words/document/shadeformdata/
@@ -14,7 +16,7 @@ Anger om den grå skuggningen ska aktiveras i formulärfält.
 public bool ShadeFormData { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar grå skuggning på formulärfält.
 
@@ -33,7 +35,5 @@ doc.Save(ArtifactsDir + "Document.ShadeFormData.docx");
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

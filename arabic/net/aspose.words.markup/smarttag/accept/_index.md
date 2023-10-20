@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Accept
-second_title: Aspose.Words لمراجع .NET API
-description: SmartTag طريقة. يقبل الزائر.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words لـ .NET
+description: SmartTag Accept طريقة. يقبل الزائر في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.markup/smarttag/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
 
-### ملاحظات
+## ملاحظات
 
 يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 المكالمات[`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart/) ، ثم يتصل[`Accept`](../../../aspose.words/node/accept/) لجميع العقد الفرعية للعلامة الذكية والمكالمات[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend/) في النهاية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء العلامات الذكية.
 
@@ -132,7 +134,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [SmartTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../smarttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

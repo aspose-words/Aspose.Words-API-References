@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: StyleCollection 财产. 获取集合中的样式数量
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: StyleCollection Count 财产. 获取集合中的样式数量 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/stylecollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/stylecollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将样式添加到文档的样式集合中。
 
@@ -37,7 +39,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 ### 也可以看看
 
 * class [StyleCollection](../)
-* 命名空间 [Aspose.Words](../../stylecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

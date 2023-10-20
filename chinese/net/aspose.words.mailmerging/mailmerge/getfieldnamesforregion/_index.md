@@ -1,12 +1,14 @@
 ---
 title: MailMerge.GetFieldNamesForRegion
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 方法. 返回该区域中可用的邮件合并字段名称的集合
+linktitle: GetFieldNamesForRegion
+articleTitle: GetFieldNamesForRegion
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge GetFieldNamesForRegion 方法. 返回该区域中可用的邮件合并字段名称的集合 在 C#.
 type: docs
 weight: 230
 url: /zh/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/
 ---
-## GetFieldNamesForRegion(string) {#getfieldnamesforregion}
+## GetFieldNamesForRegion(*string*) {#getfieldnamesforregion}
 
 返回该区域中可用的邮件合并字段名称的集合。
 
@@ -18,7 +20,7 @@ public string[] GetFieldNamesForRegion(string regionName)
 | --- | --- | --- |
 | regionName | String | 区域名称（不区分大小写）。 |
 
-### 评论
+## 评论
 
 返回完整的合并字段名称，包括可选前缀。不消除重复的字段名称。
 
@@ -26,7 +28,7 @@ public string[] GetFieldNamesForRegion(string regionName)
 
 每次调用时都会创建一个新的字符串数组。
 
-### 例子
+## 例子
 
 演示如何创建、列出和读取邮件合并区域。
 
@@ -81,12 +83,12 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## GetFieldNamesForRegion(string, int) {#getfieldnamesforregion_1}
+## GetFieldNamesForRegion(*string, int*) {#getfieldnamesforregion_1}
 
 返回该区域中可用的邮件合并字段名称的集合。
 
@@ -99,7 +101,7 @@ public string[] GetFieldNamesForRegion(string regionName, int regionIndex)
 | regionName | String | 区域名称（不区分大小写）。 |
 | regionIndex | Int32 | 区域索引（从零开始）。 |
 
-### 评论
+## 评论
 
 返回完整的合并字段名称，包括可选前缀。不消除重复的字段名称。
 
@@ -107,7 +109,7 @@ public string[] GetFieldNamesForRegion(string regionName, int regionIndex)
 
 每次调用时都会创建一个新的字符串数组。
 
-### 例子
+## 例子
 
 演示如何创建、列出和读取邮件合并区域。
 
@@ -162,7 +164,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

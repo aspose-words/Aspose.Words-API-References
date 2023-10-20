@@ -1,7 +1,9 @@
 ---
 title: IComparisonExpressionEvaluator.Evaluate
-second_title: Aspose.Words لمراجع .NET API
-description: IComparisonExpressionEvaluator طريقة. تقييم تعبير المقارنة.
+linktitle: Evaluate
+articleTitle: Evaluate
+second_title: Aspose.Words لـ .NET
+description: IComparisonExpressionEvaluator Evaluate طريقة. تقييم تعبير المقارنة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/icomparisonexpressionevaluator/evaluate/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/icomparisonexpressionevaluator/evaluate/
 public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)
 ```
 
-### ملاحظات
+## ملاحظات
 
 يجب أن يعود التنفيذ`باطل` للإشارة إلى ضرورة إجراء التقييم الافتراضي.
 
@@ -24,7 +26,5 @@ public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression exp
 * class [Field](../../field/)
 * class [ComparisonExpression](../../comparisonexpression/)
 * interface [IComparisonExpressionEvaluator](../)
-* مساحة الاسم [Aspose.Words.Fields](../../icomparisonexpressionevaluator/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

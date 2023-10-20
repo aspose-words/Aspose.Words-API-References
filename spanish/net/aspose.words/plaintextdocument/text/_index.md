@@ -1,7 +1,9 @@
 ---
 title: PlainTextDocument.Text
-second_title: Referencia de API de Aspose.Words para .NET
-description: PlainTextDocument propiedad. Obtiene el contenido textual del documento concatenado como una cadena.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words para .NET
+description: PlainTextDocument Text propiedad. Obtiene el contenido textual del documento concatenado como una cadena en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/plaintextdocument/text/
@@ -14,7 +16,7 @@ Obtiene el contenido textual del documento concatenado como una cadena.
 public string Text { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cargar el contenido de un documento de Microsoft Word en texto sin formato.
 
@@ -33,7 +35,5 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### Ver también
 
 * class [PlainTextDocument](../)
-* espacio de nombres [Aspose.Words](../../plaintextdocument/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.BarcodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: BarcodeParameters propiedad. Tipo de código de barras.
+linktitle: BarcodeType
+articleTitle: BarcodeType
+second_title: Aspose.Words para .NET
+description: BarcodeParameters BarcodeType propiedad. Tipo de código de barras en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/barcodeparameters/barcodetype/
@@ -14,7 +16,7 @@ Tipo de código de barras.
 public string BarcodeType { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar un generador de códigos de barras.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ver también
 
 * class [BarcodeParameters](../)
-* espacio de nombres [Aspose.Words.Fields](../../barcodeparameters/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.SeriesType
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeries ملكية. الحصول على نوع سلسلة المخططات هذه.
+linktitle: SeriesType
+articleTitle: SeriesType
+second_title: Aspose.Words لـ .NET
+description: ChartSeries SeriesType ملكية. الحصول على نوع سلسلة المخططات هذه في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.drawing.charts/chartseries/seriestype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartseries/seriestype/
 public ChartSeriesType SeriesType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يبين كيفية
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Charts.RemoveSpecificChartSeries.docx");
 
 * enum [ChartSeriesType](../../chartseriestype/)
 * class [ChartSeries](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseries/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

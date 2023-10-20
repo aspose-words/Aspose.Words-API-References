@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.Suffix
-second_title: Aspose.Words per .NET API Reference
-description: FieldCitation proprietà. Ottiene o imposta un suffisso che viene aggiunto alla citazione.
+linktitle: Suffix
+articleTitle: Suffix
+second_title: Aspose.Words per .NET
+description: FieldCitation Suffix proprietà. Ottiene o imposta un suffisso che viene aggiunto alla citazione in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fields/fieldcitation/suffix/
@@ -14,7 +16,7 @@ Ottiene o imposta un suffisso che viene aggiunto alla citazione.
 public string Suffix { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con i campi CITAZIONE e BIBLIOGRAFIA.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Guarda anche
 
 * class [FieldCitation](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldcitation/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

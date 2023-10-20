@@ -1,7 +1,9 @@
 ---
-title: Class LayoutCollector
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Layout.LayoutCollector сорт. Этот класс позволяет вычислять номера страниц узлов документа.
+title: LayoutCollector Class
+linktitle: LayoutCollector
+articleTitle: LayoutCollector
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Layout.LayoutCollector сорт. Этот класс позволяет вычислять номера страниц узлов документа на С#.
 type: docs
 weight: 3320
 url: /ru/net/aspose.words.layout/layoutcollector/
@@ -20,7 +22,7 @@ public class LayoutCollector
 
 | Имя | Описание |
 | --- | --- |
-| [LayoutCollector](layoutcollector/)(Document) | Инициализирует экземпляр этого класса. |
+| [LayoutCollector](layoutcollector/)(*[Document](../../aspose.words/document/)*) | Инициализирует экземпляр этого класса. |
 
 ## Характеристики
 
@@ -33,12 +35,12 @@ public class LayoutCollector
 | Имя | Описание |
 | --- | --- |
 | [Clear](../../aspose.words.layout/layoutcollector/clear/)() | Очищает все собранные данные макета. Вызовите этот метод после обновления документа вручную или перестройки макета. |
-| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(Node) | Получает индекс страницы, отсчитываемый от 1, на которой заканчивается узел. Возвращает 0, если узел не может быть сопоставлен со страницей. |
-| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(Node) | Возвращает непрозрачную позицию[`LayoutEnumerator`](../layoutenumerator/) который соответствует указанному узлу. Вы можете использовать возвращаемое значение в качестве аргумента[`Current`](../layoutenumerator/current/) учитывая, что документ, являющийся , и документ узла одинаковы. |
-| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(Node) | Получает количество страниц, охватываемых указанным узлом. 0, если узел находится на одной странице. Это то же самое, что[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
-| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(Node) | Получает индекс страницы, отсчитываемый от 1, где начинается узел. Возвращает 0, если узел не может быть сопоставлен со страницей. |
+| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(*[Node](../../aspose.words/node/)*) | Получает индекс страницы, отсчитываемый от 1, на которой заканчивается узел. Возвращает 0, если узел не может быть сопоставлен со страницей. |
+| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(*[Node](../../aspose.words/node/)*) | Возвращает непрозрачную позицию[`LayoutEnumerator`](../layoutenumerator/) который соответствует указанному узлу. Вы можете использовать возвращаемое значение в качестве аргумента[`Current`](../layoutenumerator/current/) учитывая, что документ, являющийся , и документ узла одинаковы. |
+| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(*[Node](../../aspose.words/node/)*) | Получает количество страниц, охватываемых указанным узлом. 0, если узел находится на одной странице. Это то же самое, что[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
+| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(*[Node](../../aspose.words/node/)*) | Получает индекс страницы, отсчитываемый от 1, где начинается узел. Возвращает 0, если узел не может быть сопоставлен со страницей. |
 
-### Примечания
+## Примечания
 
 Когда вы создаете`LayoutCollector` и укажите[`Document`](../../aspose.words/document/) объект документа, к которому нужно прикрепить, сборщик запишет сопоставление узлов документа с объектами макета, когда документ форматируется на страницы.
 
@@ -46,7 +48,7 @@ public class LayoutCollector
 
 Если вам больше не нужно собирать информацию о макете, лучше всего установить[`Document`](./document/) собственность`нулевой` , чтобы избежать ненужного сбора дополнительных сопоставлений макета.
 
-### Примеры
+## Примеры
 
 Показывает, как просмотреть диапазоны страниц, охватываемые узлом.
 
@@ -105,5 +107,3 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * пространство имен [Aspose.Words.Layout](../../aspose.words.layout/)
 * сборка [Aspose.Words](../../)
-
-

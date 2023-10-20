@@ -1,7 +1,9 @@
 ---
 title: FieldRD.IsPathRelative
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldRD propiedad. Obtiene o establece si la ruta es relativa al documento actual.
+linktitle: IsPathRelative
+articleTitle: IsPathRelative
+second_title: Aspose.Words para .NET
+description: FieldRD IsPathRelative propiedad. Obtiene o establece si la ruta es relativa al documento actual en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldrd/ispathrelative/
@@ -14,7 +16,7 @@ Obtiene o establece si la ruta es relativa al documento actual.
 public bool IsPathRelative { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar el campo RD para crear una tabla de contenido a partir de encabezados de otros documentos.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.RD.docx");
 ### Ver también
 
 * class [FieldRD](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldrd/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

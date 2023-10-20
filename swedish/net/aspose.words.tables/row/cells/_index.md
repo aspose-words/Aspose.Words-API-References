@@ -1,7 +1,9 @@
 ---
 title: Row.Cells
-second_title: Aspose.Words för .NET API Referens
-description: Row fast egendom. Ger maskinskriven åtkomst tillCell underordnade noder för raden.
+linktitle: Cells
+articleTitle: Cells
+second_title: Aspose.Words för .NET
+description: Row Cells fast egendom. Ger maskinskriven åtkomst tillCell underordnade noder för raden i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.tables/row/cells/
@@ -14,7 +16,7 @@ Ger maskinskriven åtkomst till[`Cell`](../../cell/) underordnade noder för rad
 public CellCollection Cells { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man itererar genom alla tabeller i dokumentet och skriver ut innehållet i varje cell.
 
@@ -61,7 +63,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [CellCollection](../../cellcollection/)
 * class [Row](../)
-* namnutrymme [Aspose.Words.Tables](../../row/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum GradientVariant
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.GradientVariant 枚举. 指定渐变填充的变体
+title: GradientVariant Enum
+linktitle: GradientVariant
+articleTitle: GradientVariant
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.GradientVariant 枚举. 指定渐变填充的变体 在 C#.
 type: docs
 weight: 1010
 url: /zh/net/aspose.words.drawing/gradientvariant/
@@ -24,11 +26,11 @@ public enum GradientVariant
 | Variant3 | `3` | 梯度变体 3. |
 | Variant4 | `4` | 梯度变体 4. |
 
-### 评论
+## 评论
 
 对应于 Word 中“填充效果”对话框中“渐变”选项卡上的四种变体。
 
-### 例子
+## 例子
 
 演示如何使用渐变填充形状。
 
@@ -70,5 +72,3 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

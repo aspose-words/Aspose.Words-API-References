@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Uri
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlProperty mülk. Özel XML özniteliğinin veya akıllı etiket özelliğinin ad alanı URIsini alır veya ayarlar.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words for .NET
+description: CustomXmlProperty Uri mülk. Özel XML özniteliğinin veya akıllı etiket özelliğinin ad alanı URIsini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.markup/customxmlproperty/uri/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.markup/customxmlproperty/uri/
 public string Uri { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Olamaz`hükümsüz`.
 
 Varsayılan boş dizedir.
 
-### Örnekler
+## Örnekler
 
 Akıllı etiketler hakkında ayrıntılı bilgi almak için akıllı etiket özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ayrıca bakınız
 
 * class [CustomXmlProperty](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlproperty/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

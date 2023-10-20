@@ -1,7 +1,9 @@
 ---
 title: TabStop.Leader
-second_title: Aspose.Words for .NET API 参考
-description: TabStop 财产. 获取或设置制表符下显示的引导线类型
+linktitle: Leader
+articleTitle: Leader
+second_title: 用于 .NET 的 Aspose.Words
+description: TabStop Leader 财产. 获取或设置制表符下显示的引导线类型 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/tabstop/leader/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/tabstop/leader/
 public TabLeader Leader { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何修改目录相关段落中右侧制表位的位置。
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [TabLeader](../../tableader/)
 * class [TabStop](../)
-* 命名空间 [Aspose.Words](../../tabstop/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

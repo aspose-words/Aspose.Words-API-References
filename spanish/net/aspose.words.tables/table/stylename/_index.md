@@ -1,7 +1,9 @@
 ---
 title: Table.StyleName
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. Obtiene o establece el nombre del estilo de tabla aplicado a esta tabla.
+linktitle: StyleName
+articleTitle: StyleName
+second_title: Aspose.Words para .NET
+description: Table StyleName propiedad. Obtiene o establece el nombre del estilo de tabla aplicado a esta tabla en C#.
 type: docs
 weight: 290
 url: /es/net/aspose.words.tables/table/stylename/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del estilo de tabla aplicado a esta tabla.
 public string StyleName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear configuraciones de estilo personalizadas para la tabla.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Ver también
 
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

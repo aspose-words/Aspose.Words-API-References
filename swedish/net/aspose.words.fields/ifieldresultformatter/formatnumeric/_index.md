@@ -1,7 +1,9 @@
 ---
 title: IFieldResultFormatter.FormatNumeric
-second_title: Aspose.Words för .NET API Referens
-description: IFieldResultFormatter metod. Anropas när Aspose.Words använder en numerisk formatväxling dvs.  ..
+linktitle: FormatNumeric
+articleTitle: FormatNumeric
+second_title: Aspose.Words för .NET
+description: IFieldResultFormatter FormatNumeric metod. Anropas när Aspose.Words använder en numerisk formatväxling dvs.   i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/ifieldresultformatter/formatnumeric/
@@ -14,11 +16,11 @@ Anropas när Aspose.Words använder en numerisk formatväxling, dvs. \# "#.##".
 public string FormatNumeric(double value, string format)
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Implementeringen bör återkomma`null` för att indikera att standardformateringen ska tillämpas.
 
-### Exempel
+## Exempel
 
 Visar hur man automatiskt tillämpar ett anpassat format på fältresultat när fälten uppdateras.
 
@@ -155,7 +157,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 ### Se även
 
 * interface [IFieldResultFormatter](../)
-* namnutrymme [Aspose.Words.Fields](../../ifieldresultformatter/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

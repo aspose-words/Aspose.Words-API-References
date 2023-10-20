@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.ShapeType opsomming. Gibt den Formtyp in einem Microsoft WordDokument an.
+title: ShapeType Enum
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.ShapeType opsomming. Gibt den Formtyp in einem Microsoft WordDokument an in C#.
 type: docs
 weight: 1290
 url: /de/net/aspose.words.drawing/shapetype/
@@ -269,7 +271,7 @@ public enum ShapeType
 | ChartX | `246` | Diagramm X. |
 | MinValue | `-2` | Reserviert für die Systemnutzung. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Form mit einem Bild aus dem lokalen Dateisystem in ein Dokument einfügt.
 
@@ -328,5 +330,3 @@ foreach (Shape shape in shapes)
 * property [ShapeType](../shapebase/shapetype/)
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

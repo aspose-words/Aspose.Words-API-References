@@ -1,7 +1,9 @@
 ---
 title: Document.FieldOptions
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获得FieldOptions表示控制文档中字段处理的选项的对象
+linktitle: FieldOptions
+articleTitle: FieldOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Document FieldOptions 财产. 获得FieldOptions表示控制文档中字段处理的选项的对象 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words/document/fieldoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/fieldoptions/
 public FieldOptions FieldOptions { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在字段更新或邮件合并期间指定用于日期格式设置的区域性来源。
 
@@ -50,7 +52,5 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * class [FieldOptions](../../../aspose.words.fields/fieldoptions/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.ScreenTip
-second_title: Aspose.Words för .NET API Referens
-description: FieldAutoTextList fast egendom. Hämtar eller ställer in texten i skärmtipset att visa.
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: Aspose.Words för .NET
+description: FieldAutoTextList ScreenTip fast egendom. Hämtar eller ställer in texten i skärmtipset att visa i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldautotextlist/screentip/
@@ -14,7 +16,7 @@ Hämtar eller ställer in texten i skärmtipset att visa.
 public string ScreenTip { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder ett AUTOTEXTLIST-fält för att välja från en lista med AutoText-poster.
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### Se även
 
 * class [FieldAutoTextList](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldautotextlist/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

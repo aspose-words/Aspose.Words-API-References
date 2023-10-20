@@ -1,7 +1,9 @@
 ---
 title: ListLevel.Alignment
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevel свойство. Получает или задает выравнивание фактического номера элемента списка.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words для .NET
+description: ListLevel Alignment свойство. Получает или задает выравнивание фактического номера элемента списка на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.lists/listlevel/alignment/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/listlevel/alignment/
 public ListLevelAlignment Alignment { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Метка списка выровнена относительно[`NumberPosition`](../numberposition/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как применить пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
 
@@ -78,7 +80,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * enum [ListLevelAlignment](../../listlevelalignment/)
 * class [ListLevel](../)
-* пространство имен [Aspose.Words.Lists](../../listlevel/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

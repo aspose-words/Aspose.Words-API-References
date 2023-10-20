@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.TableName
-second_title: Aspose.Words for .NET API 参考
-description: FieldMergingArgsBase 财产. 获取当前合并操作的数据表的名称如果名称不可用则获取空字符串
+linktitle: TableName
+articleTitle: TableName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMergingArgsBase TableName 财产. 获取当前合并操作的数据表的名称如果名称不可用则获取空字符串 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
 public string TableName { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何在邮件合并期间将复选框表单字段作为合并数据插入到 MERGEFIELD 中。
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### 也可以看看
 
 * class [FieldMergingArgsBase](../)
-* 命名空间 [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

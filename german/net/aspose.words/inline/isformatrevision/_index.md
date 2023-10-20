@@ -1,7 +1,9 @@
 ---
 title: Inline.IsFormatRevision
-second_title: Aspose.Words für .NET-API-Referenz
-description: Inline eigendom. Gibt true zurück wenn die Formatierung des Objekts in Microsoft Word geändert wurde während die Änderungsverfolgung aktiviert war.
+linktitle: IsFormatRevision
+articleTitle: IsFormatRevision
+second_title: Aspose.Words für .NET
+description: Inline IsFormatRevision eigendom. Gibt true zurück wenn die Formatierung des Objekts in Microsoft Word geändert wurde während die Änderungsverfolgung aktiviert war in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/inline/isformatrevision/
@@ -14,7 +16,7 @@ Gibt „true“ zurück, wenn die Formatierung des Objekts in Microsoft Word ge�
 public bool IsFormatRevision { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Revisionstyp eines Inline-Knotens ermittelt wird.
 
@@ -70,7 +72,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 ### Siehe auch
 
 * class [Inline](../)
-* namensraum [Aspose.Words](../../inline/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

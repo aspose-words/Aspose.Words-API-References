@@ -1,7 +1,9 @@
 ---
-title: Enum UnicodeScript
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Shaping.UnicodeScript перечисление. Свойство базы данных символов Юникода Script sc.
+title: UnicodeScript Enum
+linktitle: UnicodeScript
+articleTitle: UnicodeScript
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Shaping.UnicodeScript перечисление. Свойство базы данных символов Юникода Script sc на С#.
 type: docs
 weight: 6080
 url: /ru/net/aspose.words.shaping/unicodescript/
@@ -177,7 +179,7 @@ public enum UnicodeScript
 | Common | `1517910393` | Общий сценарий. |
 | Unknown | `1517976186` | Неизвестный сценарий. |
 
-### Примечания
+## Примечания
 
 http://www.unicode.org/reports/tr24/tr24-29.html https://www.unicode.org/iso15924/ http://goo.gl/x9ilM
 
@@ -185,5 +187,3 @@ http://www.unicode.org/reports/tr24/tr24-29.html https://www.unicode.org/iso1592
 
 * пространство имен [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * сборка [Aspose.Words](../../)
-
-

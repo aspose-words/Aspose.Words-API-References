@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportDocumentProperties
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger om inbyggda och anpassade dokumentegenskaper ska exporteras till HTML MHTML eller EPUB. Standardvärdet ärfalsk .
+linktitle: ExportDocumentProperties
+articleTitle: ExportDocumentProperties
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ExportDocumentProperties fast egendom. Anger om inbyggda och anpassade dokumentegenskaper ska exporteras till HTML MHTML eller EPUB. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportdocumentproperties/
@@ -14,7 +16,7 @@ Anger om inbyggda och anpassade dokumentegenskaper ska exporteras till HTML, MHT
 public bool ExportDocumentProperties { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder en specifik kodning när du sparar ett dokument i .epub.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

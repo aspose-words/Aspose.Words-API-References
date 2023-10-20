@@ -1,7 +1,9 @@
 ---
-title: Class FontSubstitutionSettings
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.FontSubstitutionSettings clase. Especifica la configuración del mecanismo de sustitución de fuentes.
+title: FontSubstitutionSettings Class
+linktitle: FontSubstitutionSettings
+articleTitle: FontSubstitutionSettings
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fonts.FontSubstitutionSettings clase. Especifica la configuración del mecanismo de sustitución de fuentes en C#.
 type: docs
 weight: 3010
 url: /es/net/aspose.words.fonts/fontsubstitutionsettings/
@@ -26,7 +28,7 @@ public class FontSubstitutionSettings
 | [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/) { get; } | Configuraciones relacionadas con la regla de sustitución de nombres de fuentes. |
 | [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/) { get; } | Configuraciones relacionadas con la regla de sustitución de tablas. |
 
-### Observaciones
+## Observaciones
 
 El proceso de sustitución de fuentes consta de varias reglas que se verifican una por una en un orden específico. Si la primera regla no puede resolver la fuente, se verifica la segunda regla y así sucesivamente.
 
@@ -36,7 +38,7 @@ Tenga en cuenta que la regla de sustitución de información de fuente siempre r
 
 Tenga en cuenta que la regla de sustitución de configuración de fuentes resolverá la fuente en la mayoría de los casos y, por lo tanto, anulará todas las demás reglas.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la fuente de fuentes del sistema de un documento y configurar fuentes sustitutas.
 
@@ -93,5 +95,3 @@ Assert.AreEqual(1,
 
 * espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../)
-
-

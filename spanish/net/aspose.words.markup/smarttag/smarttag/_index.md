@@ -1,7 +1,9 @@
 ---
-title: SmartTag.SmartTag
-second_title: Referencia de API de Aspose.Words para .NET
-description: SmartTag constructor. Inicializa una nueva instancia delSmartTag clase.
+title: SmartTag
+linktitle: SmartTag
+articleTitle: SmartTag
+second_title: Aspose.Words para .NET
+description: SmartTag constructor. Inicializa una nueva instancia delSmartTag clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.markup/smarttag/smarttag/
@@ -18,13 +20,13 @@ public SmartTag(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | El documento del propietario. |
 
-### Observaciones
+## Observaciones
 
 Cuando crea un nuevo nodo, necesita especificar un documento al que pertenece el nodo. Un nodo no puede existir sin un documento porque depende de las estructuras de todo el documento , como listas y estilos. Aunque un nodo siempre pertenece a un documento, un nodo puede o no ser parte del árbol del documento.
 
-Cuando se crea un nodo, pertenece a un documento, pero aún no forma parte del documento tree y[`ParentNode`](../../../aspose.words/node/parentnode/) es`nulo` . Para insertar un nodo en el documento, use the Node) oNode) métodos en el nodo principal.
+Cuando se crea un nodo, pertenece a un documento, pero aún no forma parte del documento tree y[`ParentNode`](../../../aspose.words/node/parentnode/) es`nulo` . Para insertar un nodo en el documento, use the [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) o[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) métodos en el nodo principal.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear etiquetas inteligentes.
 
@@ -126,7 +128,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [SmartTag](../)
-* espacio de nombres [Aspose.Words.Markup](../../smarttag/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

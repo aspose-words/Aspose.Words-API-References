@@ -1,7 +1,9 @@
 ---
 title: InlineStory.EnsureMinimum
-second_title: Aspose.Words för .NET API Referens
-description: InlineStory metod. Om det sista underordnade inte är ett stycke skapar och lägger till ett tomt stycke.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words för .NET
+description: InlineStory EnsureMinimum metod. Om det sista underordnade inte är ett stycke skapar och lägger till ett tomt stycke i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/inlinestory/ensureminimum/
@@ -14,7 +16,7 @@ Om det sista underordnade inte är ett stycke, skapar och lägger till ett tomt 
 public void EnsureMinimum()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar InlineStory-noder.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 ### Se även
 
 * class [InlineStory](../)
-* namnutrymme [Aspose.Words](../../inlinestory/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

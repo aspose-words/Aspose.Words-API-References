@@ -1,7 +1,9 @@
 ---
-title: Enum TextureAlignment
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.TextureAlignment uppräkning. Anger justeringen för plattsättningen av texturfyllningen.
+title: TextureAlignment Enum
+linktitle: TextureAlignment
+articleTitle: TextureAlignment
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.TextureAlignment uppräkning. Anger justeringen för plattsättningen av texturfyllningen i C#.
 type: docs
 weight: 1370
 url: /sv/net/aspose.words.drawing/texturealignment/
@@ -29,7 +31,7 @@ public enum TextureAlignment
 | BottomRight | `8` | Texturjustering längst ned till höger. |
 | None | `9` | Ingen texturjustering. |
 
-### Exempel
+## Exempel
 
 Visar hur man fyller och kakelar strukturen inuti formen.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Node.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Node eigendom. Ruft den Typ dieses Knotens ab.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: Node NodeType eigendom. Ruft den Typ dieses Knotens ab in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words/node/nodetype/
@@ -14,7 +16,7 @@ Ruft den Typ dieses Knotens ab.
 public abstract NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die NextSibling-Eigenschaft eines Knotens verwendet wird, um seine unmittelbaren untergeordneten Knoten aufzuzählen.
 
@@ -102,7 +104,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* namensraum [Aspose.Words](../../node/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

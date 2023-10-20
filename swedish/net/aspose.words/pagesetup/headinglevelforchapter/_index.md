@@ -1,7 +1,9 @@
 ---
 title: PageSetup.HeadingLevelForChapter
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Hämtar eller ställer in rubriknivåstilen som tillämpas på kapiteltitlarna i dokumentet.
+linktitle: HeadingLevelForChapter
+articleTitle: HeadingLevelForChapter
+second_title: Aspose.Words för .NET
+description: PageSetup HeadingLevelForChapter fast egendom. Hämtar eller ställer in rubriknivåstilen som tillämpas på kapiteltitlarna i dokumentet i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words/pagesetup/headinglevelforchapter/
@@ -14,13 +16,13 @@ Hämtar eller ställer in rubriknivåstilen som tillämpas på kapiteltitlarna i
 public int HeadingLevelForChapter { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kan vara ett nummer från 0 till 9. 0 betyder inget kapitelnummer om det tillämpas på sidnummer.
 
 Innan du kan skapa sidnummer som inkluderar kapitelnummer måste dokumentrubrikerna ha ett numrerat dispositionsformat.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med sidkapitel.
 
@@ -37,7 +39,5 @@ pageSetup.HeadingLevelForChapter = 1;
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

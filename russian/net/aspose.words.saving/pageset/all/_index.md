@@ -1,7 +1,9 @@
 ---
 title: PageSet.All
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSet свойство. Получает набор со всеми страницами документа в исходном порядке.
+linktitle: All
+articleTitle: All
+second_title: Aspose.Words для .NET
+description: PageSet All свойство. Получает набор со всеми страницами документа в исходном порядке на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/pageset/all/
@@ -17,7 +19,5 @@ public static PageSet All { get; }
 ### Смотрите также
 
 * class [PageSet](../)
-* пространство имен [Aspose.Words.Saving](../../pageset/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

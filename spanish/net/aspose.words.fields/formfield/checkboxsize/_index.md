@@ -1,7 +1,9 @@
 ---
 title: FormField.CheckBoxSize
-second_title: Referencia de API de Aspose.Words para .NET
-description: FormField propiedad. Obtiene o establece el tamaño de la casilla de verificación en puntos. Tiene efecto sólo cuandoIsCheckBoxExactSize esverdadero .
+linktitle: CheckBoxSize
+articleTitle: CheckBoxSize
+second_title: Aspose.Words para .NET
+description: FormField CheckBoxSize propiedad. Obtiene o establece el tamaño de la casilla de verificación en puntos. Tiene efecto sólo cuandoIsCheckBoxExactSize esverdadero  en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/formfield/checkboxsize/
@@ -14,11 +16,11 @@ Obtiene o establece el tamaño de la casilla de verificación en puntos. Tiene e
 public double CheckBoxSize { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Aplicable únicamente a un campo de formulario de casilla de verificación.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ver también
 
 * class [FormField](../)
-* espacio de nombres [Aspose.Words.Fields](../../formfield/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

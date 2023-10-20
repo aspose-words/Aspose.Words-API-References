@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.Reason
-second_title: Aspose.Words لمراجع .NET API
-description: PdfDigitalSignatureDetails ملكية. الحصول على سبب التوقيع أو تحديده.
+linktitle: Reason
+articleTitle: Reason
+second_title: Aspose.Words لـ .NET
+description: PdfDigitalSignatureDetails Reason ملكية. الحصول على سبب التوقيع أو تحديده في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/pdfdigitalsignaturedetails/reason/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/pdfdigitalsignaturedetails/reason/
 public string Reason { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`باطل` .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التوقيع على مستند PDF تم إنشاؤه.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### أنظر أيضا
 
 * class [PdfDigitalSignatureDetails](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

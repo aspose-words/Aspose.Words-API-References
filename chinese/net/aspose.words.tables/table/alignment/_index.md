@@ -1,7 +1,9 @@
 ---
 title: Table.Alignment
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 指定内联表在文档中的对齐方式
+linktitle: Alignment
+articleTitle: Alignment
+second_title: 用于 .NET 的 Aspose.Words
+description: Table Alignment 财产. 指定内联表在文档中的对齐方式 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.tables/table/alignment/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.tables/table/alignment/
 public TableAlignment Alignment { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为Left。
 
-### 例子
+## 例子
 
 演示如何将轮廓边框应用到表格。
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * enum [TableAlignment](../../tablealignment/)
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertStyleSeparator
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将样式分隔符插入文档中
+linktitle: InsertStyleSeparator
+articleTitle: InsertStyleSeparator
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertStyleSeparator 方法. 将样式分隔符插入文档中 在 C#.
 type: docs
-weight: 460
+weight: 450
 url: /zh/net/aspose.words/documentbuilder/insertstyleseparator/
 ---
 ## DocumentBuilder.InsertStyleSeparator method
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/documentbuilder/insertstyleseparator/
 public void InsertStyleSeparator()
 ```
 
-### 评论
+## 评论
 
 此方法允许将不同的段落样式应用于文本行的两个不同部分。
 
-### 例子
+## 例子
 
 展示如何使用样式分隔符。
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertStyleSeparator.docx");
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

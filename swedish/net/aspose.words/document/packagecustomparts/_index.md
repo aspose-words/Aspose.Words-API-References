@@ -1,7 +1,9 @@
 ---
 title: Document.PackageCustomParts
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar eller ställer in samlingen av anpassade delar godtyckligt innehåll som är länkade till OOXMLpaketet med hjälp av okända relationer.
+linktitle: PackageCustomParts
+articleTitle: PackageCustomParts
+second_title: Aspose.Words för .NET
+description: Document PackageCustomParts fast egendom. Hämtar eller ställer in samlingen av anpassade delar godtyckligt innehåll som är länkade till OOXMLpaketet med hjälp av okända relationer i C#.
 type: docs
 weight: 310
 url: /sv/net/aspose.words/document/packagecustomparts/
@@ -14,7 +16,7 @@ Hämtar eller ställer in samlingen av anpassade delar (godtyckligt innehåll) s
 public CustomPartCollection PackageCustomParts { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Blanda inte ihop dessa anpassade delar med anpassade XML-data. Om du behöver komma åt anpassade XML-delar, använd[`CustomXmlParts`](../customxmlparts/) fast egendom.
 
@@ -24,7 +26,7 @@ Aspose.Words laddar och sparar endast anpassade delar i OOXML-dokument.
 
 Den här egenskapen kan inte vara det`null`.
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
 
@@ -69,7 +71,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPartCollection](../../../aspose.words.markup/custompartcollection/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

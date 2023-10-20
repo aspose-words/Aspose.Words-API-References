@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Font
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Returnerar ett objekt som representerar aktuella teckensnittsformateringsegenskaper.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words för .NET
+description: DocumentBuilder Font fast egendom. Returnerar ett objekt som representerar aktuella teckensnittsformateringsegenskaper i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/documentbuilder/font/
@@ -14,13 +16,13 @@ Returnerar ett objekt som representerar aktuella teckensnittsformateringsegenska
 public Font Font { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Använda sig av`Font` för att komma åt och ändra teckensnittsformateringsegenskaper.
 
 Ange teckensnittsformatering innan du infogar text.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en sträng omgiven av en kant i ett dokument.
 
@@ -99,7 +101,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * class [Font](../../font/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfHeaderFooter
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Sant om detta stycke är det sista stycket iHeaderFooter huvudtextberättelse av enSection  falskt annars.
+linktitle: IsEndOfHeaderFooter
+articleTitle: IsEndOfHeaderFooter
+second_title: Aspose.Words för .NET
+description: Paragraph IsEndOfHeaderFooter fast egendom. Sant om detta stycke är det sista stycket iHeaderFooter huvudtextberättelse av enSection  falskt annars i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/paragraph/isendofheaderfooter/
@@ -14,7 +16,7 @@ Sant om detta stycke är det sista stycket i[`HeaderFooter`](../../headerfooter/
 public bool IsEndOfHeaderFooter { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett sidhuvud och en sidfot.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### Se även
 
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

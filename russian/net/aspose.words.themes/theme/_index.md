@@ -1,7 +1,9 @@
 ---
-title: Class Theme
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Themes.Theme сорт. Представляет тему документа и обеспечивает доступ к основным частям темы включаяMajorFonts MinorFonts иColors
+title: Theme Class
+linktitle: Theme
+articleTitle: Theme
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Themes.Theme сорт. Представляет тему документа и обеспечивает доступ к основным частям темы включаяMajorFonts MinorFonts иColors на С#.
 type: docs
 weight: 6460
 url: /ru/net/aspose.words.themes/theme/
@@ -30,7 +32,7 @@ public class Theme
 | [MajorFonts](../../aspose.words.themes/theme/majorfonts/) { get; } | Позволяет указать набор основных шрифтов для разных языков. |
 | [MinorFonts](../../aspose.words.themes/theme/minorfonts/) { get; } | Позволяет указать набор второстепенных шрифтов для разных языков. |
 
-### Примеры
+## Примеры
 
 Показывает, как устанавливать собственные цвета и шрифты для тем.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * пространство имен [Aspose.Words.Themes](../../aspose.words.themes/)
 * сборка [Aspose.Words](../../)
-
-

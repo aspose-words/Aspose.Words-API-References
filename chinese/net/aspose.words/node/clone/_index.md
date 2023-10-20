@@ -1,7 +1,9 @@
 ---
 title: Node.Clone
-second_title: Aspose.Words for .NET API 参考
-description: Node 方法. 创建节点的副本
+linktitle: Clone
+articleTitle: Clone
+second_title: 用于 .NET 的 Aspose.Words
+description: Node Clone 方法. 创建节点的副本 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words/node/clone/
@@ -22,13 +24,13 @@ public Node Clone(bool isCloneChildren)
 
 克隆的节点。
 
-### 评论
+## 评论
 
 此方法充当节点的复制构造函数。 克隆的节点没有父节点，但与原始节点属于同一文档。
 
 此方法始终执行节点的深层复制。这*isCloneChildren*parameter 指定是否也复制所有子节点。
 
-### 例子
+## 例子
 
 演示如何克隆复合节点。
 
@@ -54,7 +56,5 @@ Assert.AreEqual(string.Empty, cloneWithoutChildren.GetText().Trim());
 ### 也可以看看
 
 * class [Node](../)
-* 命名空间 [Aspose.Words](../../node/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

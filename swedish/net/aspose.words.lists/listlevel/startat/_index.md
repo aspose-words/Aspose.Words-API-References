@@ -1,7 +1,9 @@
 ---
 title: ListLevel.StartAt
-second_title: Aspose.Words för .NET API Referens
-description: ListLevel fast egendom. Returnerar eller ställer in startnumret för denna listnivå.
+linktitle: StartAt
+articleTitle: StartAt
+second_title: Aspose.Words för .NET
+description: ListLevel StartAt fast egendom. Returnerar eller ställer in startnumret för denna listnivå i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.lists/listlevel/startat/
@@ -14,11 +16,11 @@ Returnerar eller ställer in startnumret för denna listnivå.
 public int StartAt { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är 1.
 
-### Exempel
+## Exempel
 
 Visar hur man startar om numrering i en lista genom att kopiera en lista.
 
@@ -116,7 +118,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Se även
 
 * class [ListLevel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

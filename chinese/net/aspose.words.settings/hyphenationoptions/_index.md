@@ -1,7 +1,9 @@
 ---
-title: Class HyphenationOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.HyphenationOptions 班级. 允许配置文档连字符选项
+title: HyphenationOptions Class
+linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.HyphenationOptions 班级. 允许配置文档连字符选项 在 C#.
 type: docs
 weight: 5790
 url: /zh/net/aspose.words.settings/hyphenationoptions/
@@ -31,7 +33,7 @@ public class HyphenationOptions
 | [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | 获取或设置确定全部大写字母书写的单词是否连字符的值。 此属性的默认值为`真的`. |
 | [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | 获取或设置距右边距 1/20 的点的距离，在该距离内您不希望 对单词进行连字符。 此属性的默认值为 360（0.25 英寸）。 |
 
-### 例子
+## 例子
 
 展示如何配置自动连字。
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

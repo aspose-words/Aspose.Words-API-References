@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.DefaultDocumentAuthor
-second_title: Aspose.Words for .NET API 参考
-description: FieldOptions 财产. 获取或设置默认文档作者姓名如果内置文档属性中已指定作者姓名则 不考虑此选项
+linktitle: DefaultDocumentAuthor
+articleTitle: DefaultDocumentAuthor
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldOptions DefaultDocumentAuthor 财产. 获取或设置默认文档作者姓名如果内置文档属性中已指定作者姓名则 不考虑此选项 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/fieldoptions/defaultdocumentauthor/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldoptions/defaultdocumentauthor/
 public string DefaultDocumentAuthor { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 AUTHOR 字段来显示文档创建者的姓名。
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Field.AUTHOR.docx");
 ### 也可以看看
 
 * class [FieldOptions](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldoptions/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

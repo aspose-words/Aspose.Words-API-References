@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeVerticalSize
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 获取或设置形状在垂直方向的相对大小值
+linktitle: RelativeVerticalSize
+articleTitle: RelativeVerticalSize
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase RelativeVerticalSize 财产. 获取或设置形状在垂直方向的相对大小值 在 C#.
 type: docs
 weight: 450
 url: /zh/net/aspose.words.drawing/shapebase/relativeverticalsize/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/shapebase/relativeverticalsize/
 public RelativeVerticalSize RelativeVerticalSize { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为Margin。
 
 仅当以下情况时才有效[`HeightRelative`](../heightrelative/)已设置。
 
-### 例子
+## 例子
 
 展示如何设置相对大小和位置。
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 
 * enum [RelativeVerticalSize](../../relativeverticalsize/)
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

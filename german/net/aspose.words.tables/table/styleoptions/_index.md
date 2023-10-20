@@ -1,7 +1,9 @@
 ---
 title: Table.StyleOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft Bitflags ab oder setzt diese die angeben wie ein Tabellenstil auf diese Tabelle angewendet wird.
+linktitle: StyleOptions
+articleTitle: StyleOptions
+second_title: Aspose.Words für .NET
+description: Table StyleOptions eigendom. Ruft Bitflags ab oder setzt diese die angeben wie ein Tabellenstil auf diese Tabelle angewendet wird in C#.
 type: docs
 weight: 300
 url: /de/net/aspose.words.tables/table/styleoptions/
@@ -14,7 +16,7 @@ Ruft Bitflags ab oder setzt diese, die angeben, wie ein Tabellenstil auf diese T
 public TableStyleOptions StyleOptions { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine neue Tabelle erstellt und dabei einen Stil anwendet.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 
 * enum [TableStyleOptions](../../tablestyleoptions/)
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

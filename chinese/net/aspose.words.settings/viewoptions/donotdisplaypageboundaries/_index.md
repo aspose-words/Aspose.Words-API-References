@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.DoNotDisplayPageBoundaries
-second_title: Aspose.Words for .NET API 参考
-description: ViewOptions 财产. 关闭文本顶部和页面上边缘之间的空间显示
+linktitle: DoNotDisplayPageBoundaries
+articleTitle: DoNotDisplayPageBoundaries
+second_title: 用于 .NET 的 Aspose.Words
+description: ViewOptions DoNotDisplayPageBoundaries 财产. 关闭文本顶部和页面上边缘之间的空间显示 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.settings/viewoptions/donotdisplaypageboundaries/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/viewoptions/donotdisplaypageboundaries/
 public bool DoNotDisplayPageBoundaries { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何在视图选项中隐藏垂直空白和页眉/页脚。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "ViewOptions.DisplayPageBoundaries.doc");
 ### 也可以看看
 
 * class [ViewOptions](../)
-* 命名空间 [Aspose.Words.Settings](../../viewoptions/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

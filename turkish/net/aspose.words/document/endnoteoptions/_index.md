@@ -1,7 +1,9 @@
 ---
 title: Document.EndnoteOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bu belgedeki son notların numaralandırılmasını ve konumlandırılmasını kontrol eden seçenekler sunar.
+linktitle: EndnoteOptions
+articleTitle: EndnoteOptions
+second_title: Aspose.Words for .NET
+description: Document EndnoteOptions mülk. Bu belgedeki son notların numaralandırılmasını ve konumlandırılmasını kontrol eden seçenekler sunar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/document/endnoteoptions/
@@ -14,7 +16,7 @@ Bu belgedeki son notların numaralandırılmasını ve konumlandırılmasını k
 public EndnoteOptions EndnoteOptions { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgenin son notlarını toplayıp görüntüleyeceği farklı bir yerin nasıl seçileceğini gösterir.
 
@@ -188,7 +190,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * class [EndnoteOptions](../../../aspose.words.notes/endnoteoptions/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.UseYomi
-second_title: Aspose.Words for .NET API 参考
-description: FieldIndex 财产. 获取或设置是否启用索引条目使用 yomi 文本
+linktitle: UseYomi
+articleTitle: UseYomi
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIndex UseYomi 财产. 获取或设置是否启用索引条目使用 yomi 文本 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.fields/fieldindex/useyomi/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldindex/useyomi/
 public bool UseYomi { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何按语音对 INDEX 字段条目进行排序。
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Yomi.docx");
 ### 也可以看看
 
 * class [FieldIndex](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldindex/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

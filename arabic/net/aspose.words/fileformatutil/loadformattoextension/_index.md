@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.LoadFormatToExtension
-second_title: Aspose.Words لمراجع .NET API
-description: FileFormatUtil طريقة. تحويل قيمة تعداد تنسيق التحميل إلى امتداد الملف. الامتداد الذي تم إرجاعه عبارة عن سلسلة صغيرة ذات نقطة بادئة.
+linktitle: LoadFormatToExtension
+articleTitle: LoadFormatToExtension
+second_title: Aspose.Words لـ .NET
+description: FileFormatUtil LoadFormatToExtension طريقة. تحويل قيمة تعداد تنسيق التحميل إلى امتداد الملف. الامتداد الذي تم إرجاعه عبارة عن سلسلة صغيرة ذات نقطة بادئة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/fileformatutil/loadformattoextension/
@@ -20,11 +22,11 @@ public static string LoadFormatToExtension(LoadFormat loadFormat)
 | --- | --- |
 | ArgumentException | يرمي عندما لا يمكن تحويل. |
 
-### ملاحظات
+## ملاحظات
 
 الWordML يتم تحويل القيمة إلى ".wml".
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أساليب FileFormatUtil للكشف عن تنسيق المستند.
 
@@ -58,7 +60,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatUtil](../)
-* مساحة الاسم [Aspose.Words](../../fileformatutil/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

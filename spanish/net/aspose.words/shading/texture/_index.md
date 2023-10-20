@@ -1,7 +1,9 @@
 ---
 title: Shading.Texture
-second_title: Referencia de API de Aspose.Words para .NET
-description: Shading propiedad. Obtiene o establece la textura de sombreado.
+linktitle: Texture
+articleTitle: Texture
+second_title: Aspose.Words para .NET
+description: Shading Texture propiedad. Obtiene o establece la textura de sombreado en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words/shading/texture/
@@ -14,7 +16,7 @@ Obtiene o establece la textura de sombreado.
 public TextureIndex Texture { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo decorar texto con bordes y sombreado.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 * enum [TextureIndex](../../textureindex/)
 * class [Shading](../)
-* espacio de nombres [Aspose.Words](../../shading/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

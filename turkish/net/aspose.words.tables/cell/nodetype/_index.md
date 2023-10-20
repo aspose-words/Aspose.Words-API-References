@@ -1,7 +1,9 @@
 ---
 title: Cell.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: Cell mülk. İadelerCell .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: Cell NodeType mülk. İadelerCell  C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.tables/cell/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.tables/cell/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Cell](../)
-* ad alanı [Aspose.Words.Tables](../../cell/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

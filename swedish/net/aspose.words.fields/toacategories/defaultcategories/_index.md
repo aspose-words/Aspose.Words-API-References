@@ -1,7 +1,9 @@
 ---
 title: ToaCategories.DefaultCategories
-second_title: Aspose.Words för .NET API Referens
-description: ToaCategories fast egendom. Hämtar standardtabellen över behörighetskategorier.
+linktitle: DefaultCategories
+articleTitle: DefaultCategories
+second_title: Aspose.Words för .NET
+description: ToaCategories DefaultCategories fast egendom. Hämtar standardtabellen över behörighetskategorier i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/toacategories/defaultcategories/
@@ -14,11 +16,11 @@ Hämtar standardtabellen över behörighetskategorier.
 public static ToaCategories DefaultCategories { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Använd[`ToaCategories`](../../fieldoptions/toacategories/) egenskap för att ange tabell över auktoritetskategorier för ett enda dokument.
 
-### Exempel
+## Exempel
 
 Visar hur man anger en uppsättning kategorier för TOA-fält.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 ### Se även
 
 * class [ToaCategories](../)
-* namnutrymme [Aspose.Words.Fields](../../toacategories/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

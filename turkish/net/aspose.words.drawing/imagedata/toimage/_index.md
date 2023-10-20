@@ -1,9 +1,11 @@
 ---
 title: ImageData.ToImage
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData yöntem. Şekilde saklanan görüntüyü bir dosya olarak alır.Image nesne.
+linktitle: ToImage
+articleTitle: ToImage
+second_title: Aspose.Words for .NET
+description: ImageData ToImage yöntem. Şekilde saklanan görüntüyü bir dosya olarak alır.Image nesne C#'da.
 type: docs
-weight: 230
+weight: 220
 url: /tr/net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.drawing/imagedata/toimage/
 public Image ToImage()
 ```
 
-### Notlar
+## Notlar
 
 Yeni birImage Bu yöntem her çağrıldığında nesne oluşturulur.
 
 Görüntü nesnesinin imha edilmesi arayanın sorumluluğundadır.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm görüntülerin dosya sistemine nasıl kaydedileceğini gösterir.
 
@@ -53,7 +55,5 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.NameOfApplication
-second_title: Aspose.Words för .NET API Referens
-description: BuiltInDocumentProperties fast egendom. Hämtar eller ställer in namnet på programmet.
+linktitle: NameOfApplication
+articleTitle: NameOfApplication
+second_title: Aspose.Words för .NET
+description: BuiltInDocumentProperties NameOfApplication fast egendom. Hämtar eller ställer in namnet på programmet i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words.properties/builtindocumentproperties/nameofapplication/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på programmet.
 public string NameOfApplication { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med dokumentegenskaper i kategorin "Ursprung".
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### Se även
 
 * class [BuiltInDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

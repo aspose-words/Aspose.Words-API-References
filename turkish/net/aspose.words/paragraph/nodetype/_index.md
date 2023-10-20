@@ -1,7 +1,9 @@
 ---
 title: Paragraph.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. İadelerParagraph .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: Paragraph NodeType mülk. İadelerParagraph  C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words/paragraph/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/paragraph/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

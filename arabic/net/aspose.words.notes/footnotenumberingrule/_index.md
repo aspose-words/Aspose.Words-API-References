@@ -1,7 +1,9 @@
 ---
-title: Enum FootnoteNumberingRule
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Notes.FootnoteNumberingRule تعداد. تحديد متى يتم إعادة تشغيل ترقيم الحواشي السفلية أو التعليقات الختامية تلقائيًا.
+title: FootnoteNumberingRule Enum
+linktitle: FootnoteNumberingRule
+articleTitle: FootnoteNumberingRule
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Notes.FootnoteNumberingRule تعداد. تحديد متى يتم إعادة تشغيل ترقيم الحواشي السفلية أو التعليقات الختامية تلقائيًا في C#.
 type: docs
 weight: 4270
 url: /ar/net/aspose.words.notes/footnotenumberingrule/
@@ -23,7 +25,7 @@ public enum FootnoteNumberingRule
 | RestartPage | `2` | تتم إعادة تشغيل الترقيم في كل صفحة. صالح للحواشي السفلية فقط. |
 | Default | `0` | يساويContinuous . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إعادة تشغيل ترقيم الحواشي السفلية/التعليقات الختامية في أماكن معينة في المستند.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * class [EndnoteOptions](../endnoteoptions/)
 * مساحة الاسم [Aspose.Words.Notes](../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../)
-
-

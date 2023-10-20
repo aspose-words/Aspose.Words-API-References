@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Shading
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TableStyle propriété. Obtient unShading objet qui fait référence au formatage dombrage des cellules du tableau.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words pour .NET
+description: TableStyle Shading propriété. Obtient unShading objet qui fait référence au formatage dombrage des cellules du tableau en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words/tablestyle/shading/
@@ -14,7 +16,7 @@ Obtient un[`Shading`](../../shading/) objet qui fait référence au formatage d'
 public Shading Shading { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer des paramètres de style personnalisés pour le tableau.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * class [Shading](../../shading/)
 * class [TableStyle](../)
-* espace de noms [Aspose.Words](../../tablestyle/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

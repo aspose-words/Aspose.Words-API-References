@@ -1,7 +1,9 @@
 ---
 title: FramesetCollection.Count
-second_title: Aspose.Words für .NET-API-Referenz
-description: FramesetCollection eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Frames oder FrameSeiten ab.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words für .NET
+description: FramesetCollection Count eigendom. Ruft die Anzahl der in der Sammlung enthaltenen Frames oder FrameSeiten ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.framesets/framesetcollection/count/
@@ -17,7 +19,5 @@ public int Count { get; }
 ### Siehe auch
 
 * class [FramesetCollection](../)
-* namensraum [Aspose.Words.Framesets](../../framesetcollection/)
+* namensraum [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * Montage [Aspose.Words](../../../)
-
-

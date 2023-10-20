@@ -1,7 +1,9 @@
 ---
 title: ImageWatermarkOptions.Scale
-second_title: Aspose.Words for .NET API 参考
-description: ImageWatermarkOptions 财产. 获取或设置表示为图像分数的比例因子默认值为 0  auto.
+linktitle: Scale
+articleTitle: Scale
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageWatermarkOptions Scale 财产. 获取或设置表示为图像分数的比例因子默认值为 0  auto 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/imagewatermarkoptions/scale/
@@ -20,13 +22,13 @@ public double Scale { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | 当参数超出有效值范围时抛出。 |
 
-### 评论
+## 评论
 
 有效值范围为 0 到 65.5（含）。
 
 自动缩放意味着水印将缩放至相对于 页边距的最大宽度和最大高度。
 
-### 例子
+## 例子
 
 演示如何从本地文件系统中的图像创建水印。
 
@@ -54,7 +56,5 @@ Document doc = new Document();
 ### 也可以看看
 
 * class [ImageWatermarkOptions](../)
-* 命名空间 [Aspose.Words](../../imagewatermarkoptions/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Rendering
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Le Aspose.Words.Rendering lespace de noms fournit des classes qui permettent de personnaliser limpression ou le rendu des documents.
+linktitle: Aspose.Words.Rendering
+articleTitle: Aspose.Words.Rendering
+second_title: Aspose.Words pour .NET
+description: LeAspose.Words.Rendering lespace de noms fournit des classes qui permettent de personnaliser limpression ou le rendu des documents en C#.
 type: docs
 weight: 200
 url: /fr/net/aspose.words.rendering/
 ---
-Le **Aspose.Words.Rendering** l'espace de noms fournit des classes qui permettent de personnaliser l'impression ou le rendu des documents.
+Le**Aspose.Words.Rendering** l'espace de noms fournit des classes qui permettent de personnaliser l'impression ou le rendu des documents.
 
 ## Des classes
 
@@ -24,5 +26,3 @@ Le **Aspose.Words.Rendering** l'espace de noms fournit des classes qui permetten
 | Énumération | La description |
 | --- | --- |
 | [ColorPrintMode](./colorprintmode/) | Spécifie la façon dont les pages non colorées sont imprimées si le périphérique prend en charge l'impression couleur. |
-
-

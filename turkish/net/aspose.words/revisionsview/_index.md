@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionsView
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.RevisionsView Sıralama. Bir belgenin orijinal sürümüyle mi yoksa revize edilmiş sürümüyle mi çalışılacağını belirlemeye olanak tanır.
+title: RevisionsView Enum
+linktitle: RevisionsView
+articleTitle: RevisionsView
+second_title: Aspose.Words for .NET
+description: Aspose.Words.RevisionsView Sıralama. Bir belgenin orijinal sürümüyle mi yoksa revize edilmiş sürümüyle mi çalışılacağını belirlemeye olanak tanır C#'da.
 type: docs
 weight: 4810
 url: /tr/net/aspose.words/revisionsview/
@@ -21,7 +23,7 @@ public enum RevisionsView
 | Original | `0` | Bir belgenin orijinal sürümünü belirtir. |
 | Final | `1` | Bir belgenin revize edilmiş sürümünü belirtir. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin revize edilmiş görünümü ile orijinal görünümü arasında nasıl geçiş yapılacağını gösterir.
 
@@ -46,5 +48,3 @@ Assert.AreEqual("a.", paragraphs[2].ListLabel.LabelString);
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

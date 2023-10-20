@@ -1,7 +1,9 @@
 ---
-title: Class License
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.License فصل. يوفر طرقًا لترخيص المكون.
+title: License Class
+linktitle: License
+articleTitle: License
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.License فصل. يوفر طرقًا لترخيص المكون في C#.
 type: docs
 weight: 3420
 url: /ar/net/aspose.words/license/
@@ -26,10 +28,10 @@ public class License
 
 | اسم | وصف |
 | --- | --- |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(Stream) | ترخيص المكون. |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(string) | ترخيص المكون. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(*Stream*) | ترخيص المكون. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(*string*) | ترخيص المكون. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تهيئة ترخيص Aspose.Words باستخدام ملف ترخيص في نظام الملفات المحلي.
 
@@ -54,5 +56,3 @@ license.SetLicense("Aspose.Words.NET.lic");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

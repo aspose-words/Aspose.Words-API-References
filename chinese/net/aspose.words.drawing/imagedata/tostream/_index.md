@@ -1,9 +1,11 @@
 ---
 title: ImageData.ToStream
-second_title: Aspose.Words for .NET API 参考
-description: ImageData 方法. 创建并返回包含图像字节的流
+linktitle: ToStream
+articleTitle: ToStream
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageData ToStream 方法. 创建并返回包含图像字节的流 在 C#.
 type: docs
-weight: 240
+weight: 230
 url: /zh/net/aspose.words.drawing/imagedata/tostream/
 ---
 ## ImageData.ToStream method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/imagedata/tostream/
 public Stream ToStream()
 ```
 
-### 评论
+## 评论
 
 如果图像字节存储在形状中，则创建并返回MemoryStream目的。
 
@@ -24,7 +26,7 @@ public Stream ToStream()
 
 调用者有责任处置流对象吗？
 
-### 例子
+## 例子
 
 演示如何从形状的原始图像数据创建图像文件。
 
@@ -51,7 +53,5 @@ using (Stream imgStream = imgShape.ImageData.ToStream())
 ### 也可以看看
 
 * class [ImageData](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagedata/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

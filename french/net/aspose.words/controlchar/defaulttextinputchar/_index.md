@@ -1,7 +1,9 @@
 ---
 title: ControlChar.DefaultTextInputChar
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ControlChar champ. Il sagit du caractère o utilisé comme valeur par défaut dans les champs du formulaire de saisie de texte.
+linktitle: DefaultTextInputChar
+articleTitle: DefaultTextInputChar
+second_title: Aspose.Words pour .NET
+description: ControlChar DefaultTextInputChar champ. Il sagit du caractère o utilisé comme valeur par défaut dans les champs du formulaire de saisie de texte en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/controlchar/defaulttextinputchar/
@@ -14,7 +16,7 @@ Il s'agit du caractère "o" utilisé comme valeur par défaut dans les champs du
 public const char DefaultTextInputChar;
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter divers caractères de contrôle à un document.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Voir également
 
 * class [ControlChar](../)
-* espace de noms [Aspose.Words](../../controlchar/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

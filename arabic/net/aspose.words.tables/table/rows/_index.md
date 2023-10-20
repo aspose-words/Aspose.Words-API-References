@@ -1,7 +1,9 @@
 ---
 title: Table.Rows
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. يوفر الوصول المكتوب إلى صفوف الجدول.
+linktitle: Rows
+articleTitle: Rows
+second_title: Aspose.Words لـ .NET
+description: Table Rows ملكية. يوفر الوصول المكتوب إلى صفوف الجدول في C#.
 type: docs
 weight: 260
 url: /ar/net/aspose.words.tables/table/rows/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/rows/
 public RowCollection Rows { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج الصفوف من جدولين في جدول واحد.
 
@@ -83,7 +85,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [RowCollection](../../rowcollection/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

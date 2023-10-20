@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeDataSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.MailMerging.IMailMergeDataSource koppel. Implementieren Sie diese Schnittstelle um Serienbriefe aus einer benutzerdefinierten Datenquelle beispielsweise einer Liste von Objekten zu ermöglichen. MasterDetailDaten werden ebenfalls unterstützt.
+title: IMailMergeDataSource Interface
+linktitle: IMailMergeDataSource
+articleTitle: IMailMergeDataSource
+second_title: Aspose.Words für .NET
+description: Aspose.Words.MailMerging.IMailMergeDataSource koppel. Implementieren Sie diese Schnittstelle um Serienbriefe aus einer benutzerdefinierten Datenquelle beispielsweise einer Liste von Objekten zu ermöglichen. MasterDetailDaten werden ebenfalls unterstützt in C#.
 type: docs
 weight: 3810
 url: /de/net/aspose.words.mailmerging/imailmergedatasource/
@@ -24,15 +26,15 @@ public interface IMailMergeDataSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(string) | Die Mail-Merge-Engine von Aspose.Words ruft diese Methode auf, wenn sie auf den Anfang eines verschachtelten Mail-Merge-Bereichs stößt. |
-| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(string, out object) | Gibt einen Wert für den angegebenen Feldnamen oder zurück`FALSCH` wenn das Feld nicht gefunden wird. |
+| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | Die Mail-Merge-Engine von Aspose.Words ruft diese Methode auf, wenn sie auf den Anfang eines verschachtelten Mail-Merge-Bereichs stößt. |
+| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(*string, out object*) | Gibt einen Wert für den angegebenen Feldnamen oder zurück`FALSCH` wenn das Feld nicht gefunden wird. |
 | [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | Geht zum nächsten Datensatz in der Datenquelle. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn eine Datenquelle erstellt wird, sollte sie so initialisiert werden, dass sie auf BOF verweist (vor dem ersten Datensatz). Die Mail-Merge-Engine Aspose.Words wird aufgerufen[`MoveNext`](./movenext/) um zum nächsten Datensatz zu gelangen und dann aufrufen[`GetValue`](./getvalue/) für jedes Serienbrieffeld, auf das es im Dokument oder im aktuellen Serienbriefbereich stößt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit einer Datenquelle in Form eines benutzerdefinierten Objekts ausgeführt wird.
 
@@ -147,5 +149,3 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 
 * namensraum [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../)
-
-

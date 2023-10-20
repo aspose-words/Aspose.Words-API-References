@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.SymbolHeight
-second_title: Aspose.Words per .NET API Reference
-description: BarcodeParameters proprietà. Altezza immagine codice a barre in twip  1/1440 pollici
+linktitle: SymbolHeight
+articleTitle: SymbolHeight
+second_title: Aspose.Words per .NET
+description: BarcodeParameters SymbolHeight proprietà. Altezza immagine codice a barre in twip  1/1440 pollici in C#.
 type: docs
 weight: 170
 url: /it/net/aspose.words.fields/barcodeparameters/symbolheight/
@@ -14,7 +16,7 @@ Altezza immagine codice a barre (in twip - 1/1440 pollici)
 public string SymbolHeight { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un generatore di codici a barre.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Guarda anche
 
 * class [BarcodeParameters](../)
-* spazio dei nomi [Aspose.Words.Fields](../../barcodeparameters/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

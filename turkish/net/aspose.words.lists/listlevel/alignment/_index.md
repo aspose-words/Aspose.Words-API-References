@@ -1,7 +1,9 @@
 ---
 title: ListLevel.Alignment
-second_title: Aspose.Words for .NET API Referansı
-description: ListLevel mülk. Liste öğesinin gerçek sayısının gerekçesini alır veya ayarlar.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words for .NET
+description: ListLevel Alignment mülk. Liste öğesinin gerçek sayısının gerekçesini alır veya ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.lists/listlevel/alignment/
@@ -14,11 +16,11 @@ Liste öğesinin gerçek sayısının gerekçesini alır veya ayarlar.
 public ListLevelAlignment Alignment { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Liste etiketi şuna göre iki yana yaslanmıştır:[`NumberPosition`](../numberposition/) mülk.
 
-### Örnekler
+## Örnekler
 
 DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
@@ -78,7 +80,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * enum [ListLevelAlignment](../../listlevelalignment/)
 * class [ListLevel](../)
-* ad alanı [Aspose.Words.Lists](../../listlevel/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

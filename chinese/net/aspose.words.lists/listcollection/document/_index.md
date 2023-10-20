@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Document
-second_title: Aspose.Words for .NET API 参考
-description: ListCollection 财产. 获取所有者文档
+linktitle: Document
+articleTitle: Document
+second_title: 用于 .NET 的 Aspose.Words
+description: ListCollection Document 财产. 获取所有者文档 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.lists/listcollection/document/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.lists/listcollection/document/
 public DocumentBase Document { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何验证列表的所有者文档属性。
 
@@ -37,7 +39,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [ListCollection](../)
-* 命名空间 [Aspose.Words.Lists](../../listcollection/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

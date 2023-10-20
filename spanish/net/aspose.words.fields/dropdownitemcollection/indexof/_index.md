@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.IndexOf
-second_title: Referencia de API de Aspose.Words para .NET
-description: DropDownItemCollection método. Devuelve el índice de base cero del valor especificado en la colección.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words para .NET
+description: DropDownItemCollection IndexOf método. Devuelve el índice de base cero del valor especificado en la colección en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/dropdownitemcollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string value)
 
 El índice de base cero. Valor negativo si no se encuentra.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un campo de cuadro combinado y editar los elementos de su colección de elementos.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### Ver también
 
 * class [DropDownItemCollection](../)
-* espacio de nombres [Aspose.Words.Fields](../../dropdownitemcollection/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

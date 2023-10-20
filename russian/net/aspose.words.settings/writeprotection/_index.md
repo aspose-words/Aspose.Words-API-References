@@ -1,7 +1,9 @@
 ---
-title: Class WriteProtection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.WriteProtection сорт. Указывает параметры защиты от записи для документа.
+title: WriteProtection Class
+linktitle: WriteProtection
+articleTitle: WriteProtection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Settings.WriteProtection сорт. Указывает параметры защиты от записи для документа на С#.
 type: docs
 weight: 5970
 url: /ru/net/aspose.words.settings/writeprotection/
@@ -27,10 +29,10 @@ public class WriteProtection
 
 | Имя | Описание |
 | --- | --- |
-| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(string) | Устанавливает пароль защиты от записи для документа. |
-| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(string) | Возвращает`истинный` если указанный пароль совпадает с паролем защиты от записи, с помощью которого документ был защищен. Если документ не защищен паролем от записи, возвращается значение`ЛОЖЬ` . |
+| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(*string*) | Устанавливает пароль защиты от записи для документа. |
+| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | Возвращает`истинный` если указанный пароль совпадает с паролем защиты от записи, с помощью которого документ был защищен. Если документ не защищен паролем от записи, возвращается значение`ЛОЖЬ` . |
 
-### Примечания
+## Примечания
 
 Защита от записи указывает, рекомендовал ли автор открывать документ только для чтения и/или требовать пароль для изменения документа.
 
@@ -38,7 +40,7 @@ public class WriteProtection
 
 Вы не создаете экземпляры этого класса напрямую. Вы получаете доступ к настройкам защиты документа через[`WriteProtection`](../../aspose.words/document/writeprotection/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как защитить документ паролем.
 
@@ -71,5 +73,3 @@ Assert.AreEqual("Hello world! This document is protected." +
 
 * пространство имен [Aspose.Words.Settings](../../aspose.words.settings/)
 * сборка [Aspose.Words](../../)
-
-

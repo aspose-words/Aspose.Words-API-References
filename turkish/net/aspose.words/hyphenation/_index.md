@@ -1,7 +1,9 @@
 ---
-title: Class Hyphenation
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Hyphenation sınıf. Tireleme sözlükleriyle çalışmaya yönelik yöntemler sağlar. Bu sözlükler belirli bir dildeki kelimelerin nerede tirelenebileceğini belirler.
+title: Hyphenation Class
+linktitle: Hyphenation
+articleTitle: Hyphenation
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Hyphenation sınıf. Tireleme sözlükleriyle çalışmaya yönelik yöntemler sağlar. Bu sözlükler belirli bir dildeki kelimelerin nerede tirelenebileceğini belirler C#'da.
 type: docs
 weight: 3150
 url: /tr/net/aspose.words/hyphenation/
@@ -27,12 +29,12 @@ public static class Hyphenation
 
 | İsim | Tanım |
 | --- | --- |
-| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(string) | İadeler`YANLIŞ` belirtilen dil için kayıtlı sözlük yoksa veya kayıtlıysa Boş sözlük ise,`doğru` aksi halde. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(string, Stream) | Bir akıştan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlüğün okunamaması veya biçiminin geçersiz olması durumunda hata oluşur. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(string, string) | Dosyadan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlüğün okunamaması veya biçiminin geçersiz olması durumunda hata oluşur. |
-| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(string) | Belirtilen dil için tireleme sözlüğünün kaydını siler. |
+| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(*string*) | İadeler`YANLIŞ` belirtilen dil için kayıtlı sözlük yoksa veya kayıtlıysa Boş sözlük ise,`doğru` aksi halde. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(*string, Stream*) | Bir akıştan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlüğün okunamaması veya biçiminin geçersiz olması durumunda hata oluşur. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(*string, string*) | Dosyadan belirtilen dil için bir tireleme sözlüğünü kaydeder ve yükler. Sözlüğün okunamaması veya biçiminin geçersiz olması durumunda hata oluşur. |
+| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(*string*) | Belirtilen dil için tireleme sözlüğünün kaydını siler. |
 
-### Örnekler
+## Örnekler
 
 Bir dosyadan sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
 
@@ -109,5 +111,3 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

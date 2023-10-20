@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ResourceFolderAlias
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica il nome della cartella utilizzata per costruire gli URI di tutte le risorse scritte in un documento HTML. Il valore predefinito è una stringa vuota.
+linktitle: ResourceFolderAlias
+articleTitle: ResourceFolderAlias
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions ResourceFolderAlias proprietà. Specifica il nome della cartella utilizzata per costruire gli URI di tutte le risorse scritte in un documento HTML. Il valore predefinito è una stringa vuota in C#.
 type: docs
 weight: 430
 url: /it/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/
@@ -14,7 +16,7 @@ Specifica il nome della cartella utilizzata per costruire gli URI di tutte le ri
 public string ResourceFolderAlias { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 `ResourceFolderAlias` è il modo più semplice per specificare come devono essere costruiti gli URI per tutti i file di risorse. Le stesse informazioni possono essere specificate separatamente per immagini e caratteri tramite[`ImagesFolderAlias`](../imagesfolderalias/) e[`FontsFolderAlias`](../fontsfolderalias/) proprietà, rispettivamente. Tuttavia, non esiste una proprietà individuale per CSS.
 
@@ -24,7 +26,7 @@ Se`ResourceFolderAlias` è vuoto, il[`ResourceFolder`](../resourcefolder/)il val
 
 Se`ResourceFolderAlias` è impostato per '.' (punto), gli URI delle risorse conterranno solo nomi di file, senza alcun percorso.
 
-### Esempi
+## Esempi
 
 Mostra come impostare cartelle e alias di cartelle per le risorse salvate esternamente che Aspose.Words creerà durante il salvataggio di un documento in HTML.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Guarda anche
 
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

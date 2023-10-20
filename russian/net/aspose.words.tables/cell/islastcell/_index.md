@@ -1,7 +1,9 @@
 ---
 title: Cell.IsLastCell
-second_title: Справочник по API Aspose.Words для .NET
-description: Cell свойство. True если это последняя ячейка внутри строки ложь в противном случае.
+linktitle: IsLastCell
+articleTitle: IsLastCell
+second_title: Aspose.Words для .NET
+description: Cell IsLastCell свойство. True если это последняя ячейка внутри строки ложь в противном случае на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.tables/cell/islastcell/
@@ -14,7 +16,7 @@ True, если это последняя ячейка внутри строки;
 public bool IsLastCell { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждой таблицы в документе.
 
@@ -177,7 +179,5 @@ public class TableStructurePrinter : DocumentVisitor
 ### Смотрите также
 
 * class [Cell](../)
-* пространство имен [Aspose.Words.Tables](../../cell/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

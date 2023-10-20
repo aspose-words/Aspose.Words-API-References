@@ -1,7 +1,9 @@
 ---
-title: PageRange.PageRange
-second_title: Aspose.Words for .NET API Referansı
-description: PageRange inşaatçı. Yeni bir sayfa aralığı nesnesi oluşturur.
+title: PageRange
+linktitle: PageRange
+articleTitle: PageRange
+second_title: Aspose.Words for .NET
+description: PageRange inşaatçı. Yeni bir sayfa aralığı nesnesi oluşturur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/pagerange/pagerange/
@@ -19,11 +21,11 @@ public PageRange(int from, int to)
 | from | Int32 | Başlangıç sayfası sıfır tabanlı dizin. |
 | to | Int32 | Bitiş sayfası sıfır tabanlı dizin. Belgedeki son sayfanın indeksini aşarsa, oluşturma sırasında belgeye sığacak şekilde kesilir. |
 
-### Notlar
+## Notlar
 
 MaxValue belgedeki son sayfa anlamına gelir.
 
-### Örnekler
+## Örnekler
 
 Tam sayfa aralıklarına göre sayfaların nasıl çıkarılacağını gösterir.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOp
 ### Ayrıca bakınız
 
 * class [PageRange](../)
-* ad alanı [Aspose.Words.Saving](../../pagerange/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

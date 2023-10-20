@@ -1,7 +1,9 @@
 ---
 title: IWarningCallback.Warning
-second_title: Aspose.Words for .NET API 参考
-description: IWarningCallback 方法. Aspose.Words 在文档加载 或保存过程中遇到某些可能导致格式或数据保真度丢失的问题时调用此方法
+linktitle: Warning
+articleTitle: Warning
+second_title: 用于 .NET 的 Aspose.Words
+description: IWarningCallback Warning 方法. Aspose.Words 在文档加载 或保存过程中遇到某些可能导致格式或数据保真度丢失的问题时调用此方法 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/iwarningcallback/warning/
@@ -14,7 +16,7 @@ Aspose.Words 在文档加载 或保存过程中遇到某些可能导致格式或
 public void Warning(WarningInfo info)
 ```
 
-### 例子
+## 例子
 
 演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * interface [IWarningCallback](../)
-* 命名空间 [Aspose.Words](../../iwarningcallback/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

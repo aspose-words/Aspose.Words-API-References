@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.SourceFullName
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIncludeText ملكية. الحصول على أو تعيين موقع المستند باستخدام IRI.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words لـ .NET
+description: FieldIncludeText SourceFullName ملكية. الحصول على أو تعيين موقع المستند باستخدام IRI في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldincludetext/sourcefullname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldincludetext/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حقل INCLUDETEXT وتعيين خصائصه.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### أنظر أيضا
 
 * class [FieldIncludeText](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldincludetext/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

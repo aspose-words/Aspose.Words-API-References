@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FileName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или задает имя файла документа.
+linktitle: FileName
+articleTitle: FileName
+second_title: Aspose.Words для .NET
+description: FieldOptions FileName свойство. Получает или задает имя файла документа на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.fields/fieldoptions/filename/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/fieldoptions/filename/
 public string FileName { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство используется[`FieldFileName`](../../fieldfilename/) поле с более высоким приоритетом, чем поле[`OriginalFileName`](../../../aspose.words/document/originalfilename/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать FieldOptions для переопределения значения по умолчанию для поля FILENAME.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + doc.FieldOptions.FileName);
 ### Смотрите также
 
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

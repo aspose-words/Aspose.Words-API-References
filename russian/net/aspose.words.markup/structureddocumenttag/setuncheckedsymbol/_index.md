@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.SetUncheckedSymbol
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag метод. Устанавливает символ используемый для обозначения неотмеченного состояния элемента управления содержимым флажка.
+linktitle: SetUncheckedSymbol
+articleTitle: SetUncheckedSymbol
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag SetUncheckedSymbol метод. Устанавливает символ используемый для обозначения неотмеченного состояния элемента управления содержимым флажка на С#.
 type: docs
-weight: 390
+weight: 370
 url: /ru/net/aspose.words.markup/structureddocumenttag/setuncheckedsymbol/
 ---
 ## StructuredDocumentTag.SetUncheckedSymbol method
@@ -19,13 +21,13 @@ public void SetUncheckedSymbol(int characterCode, string fontName)
 | characterCode | Int32 | Код символа для указанного символа. |
 | fontName | String | Имя шрифта, содержащего символ. |
 
-### Примечания
+## Примечания
 
 Доступ к этому методу будет работать только дляCheckbox Типы СДТ.
 
 Для всех остальных типов SDT возникнет исключение.
 
-### Примеры
+## Примеры
 
 Покажите, как создать структурированный тег документа в виде флажка.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

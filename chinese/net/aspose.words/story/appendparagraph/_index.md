@@ -1,7 +1,9 @@
 ---
 title: Story.AppendParagraph
-second_title: Aspose.Words for .NET API 参考
-description: Story 方法. 创建一个快捷方法Paragraph具有可选文本的对象并将其附加到该对象的末尾
+linktitle: AppendParagraph
+articleTitle: AppendParagraph
+second_title: 用于 .NET 的 Aspose.Words
+description: Story AppendParagraph 方法. 创建一个快捷方法Paragraph具有可选文本的对象并将其附加到该对象的末尾 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/story/appendparagraph/
@@ -22,7 +24,7 @@ public Paragraph AppendParagraph(string text)
 
 新创建和附加的段落。
 
-### 例子
+## 例子
 
 演示如何创建页眉和页脚。
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* 命名空间 [Aspose.Words](../../story/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

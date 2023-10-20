@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.Address
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldHyperlink eigendom. Ruft eine Position ab an die dieser Hyperlink springt oder legt diese fest.
+linktitle: Address
+articleTitle: Address
+second_title: Aspose.Words für .NET
+description: FieldHyperlink Address eigendom. Ruft eine Position ab an die dieser Hyperlink springt oder legt diese fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldhyperlink/address/
@@ -14,7 +16,7 @@ Ruft eine Position ab, an die dieser Hyperlink springt, oder legt diese fest.
 public string Address { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie HYPERLINK-Felder zum Verknüpfen mit Dokumenten im lokalen Dateisystem verwendet werden.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Siehe auch
 
 * class [FieldHyperlink](../)
-* namensraum [Aspose.Words.Fields](../../fieldhyperlink/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

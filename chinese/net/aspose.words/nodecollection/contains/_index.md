@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Contains
-second_title: Aspose.Words for .NET API 参考
-description: NodeCollection 方法. 确定节点是否在集合中
+linktitle: Contains
+articleTitle: Contains
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeCollection Contains 方法. 确定节点是否在集合中 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/nodecollection/contains/
@@ -22,11 +24,11 @@ public bool Contains(Node node)
 
 `真的`如果在集合中找到项目；否则，`错误的`。
 
-### 评论
+## 评论
 
 该方法执行线性搜索；因此，平均执行时间与[`Count`](../count/)。
 
-### 例子
+## 例子
 
 展示如何使用 NodeCollection。
 
@@ -64,7 +66,5 @@ Assert.False(runs.Contains(run));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* 命名空间 [Aspose.Words](../../nodecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

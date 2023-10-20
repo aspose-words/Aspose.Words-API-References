@@ -1,9 +1,11 @@
 ---
 title: ChartFormat.Stroke
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartFormat eigendom. Ruft die Linienformatierung für das übergeordnete Diagrammelement ab.
+linktitle: Stroke
+articleTitle: Stroke
+second_title: Aspose.Words für .NET
+description: ChartFormat Stroke eigendom. Ruft die Linienformatierung für das übergeordnete Diagrammelement ab in C#.
 type: docs
-weight: 40
+weight: 30
 url: /de/net/aspose.words.drawing.charts/chartformat/stroke/
 ---
 ## ChartFormat.Stroke property
@@ -14,7 +16,7 @@ Ruft die Linienformatierung für das übergeordnete Diagrammelement ab.
 public Stroke Stroke { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigen Sie, wie Sie die Markierungsformatierung festlegen.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [Stroke](../../../aspose.words.drawing/stroke/)
 * class [ChartFormat](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartformat/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

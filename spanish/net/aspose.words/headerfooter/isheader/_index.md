@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsHeader
-second_title: Referencia de API de Aspose.Words para .NET
-description: HeaderFooter propiedad. Verdadero si estoHeaderFooter el objeto es un encabezado.
+linktitle: IsHeader
+articleTitle: IsHeader
+second_title: Aspose.Words para .NET
+description: HeaderFooter IsHeader propiedad. Verdadero si estoHeaderFooter el objeto es un encabezado en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/headerfooter/isheader/
@@ -14,7 +16,7 @@ Verdadero si esto[`HeaderFooter`](../) el objeto es un encabezado.
 public bool IsHeader { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un encabezado y un pie de página.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### Ver también
 
 * class [HeaderFooter](../)
-* espacio de nombres [Aspose.Words](../../headerfooter/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

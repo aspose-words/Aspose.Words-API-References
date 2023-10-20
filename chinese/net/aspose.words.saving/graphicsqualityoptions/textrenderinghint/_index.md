@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.TextRenderingHint
-second_title: Aspose.Words for .NET API 参考
-description: GraphicsQualityOptions 财产. 获取或设置与此 Graphics 关联的文本的呈现模式
+linktitle: TextRenderingHint
+articleTitle: TextRenderingHint
+second_title: 用于 .NET 的 Aspose.Words
+description: GraphicsQualityOptions TextRenderingHint 财产. 获取或设置与此 Graphics 关联的文本的呈现模式 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/graphicsqualityoptions/textrenderinghint/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/graphicsqualityoptions/textrenderinghint/
 public TextRenderingHint? TextRenderingHint { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在将文档转换为图像格式时设置渲染质量选项。
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### 也可以看看
 
 * class [GraphicsQualityOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

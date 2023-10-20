@@ -1,7 +1,9 @@
 ---
 title: GeneralFormatCollection.Add
-second_title: Aspose.Words for .NET API Referansı
-description: GeneralFormatCollection yöntem. Koleksiyona genel bir format ekler.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: GeneralFormatCollection Add yöntem. Koleksiyona genel bir format ekler C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/generalformatcollection/add/
@@ -18,7 +20,7 @@ public void Add(GeneralFormat item)
 | --- | --- | --- |
 | item | GeneralFormat | Genel bir format. |
 
-### Örnekler
+## Örnekler
 
 Alan sonuçlarının nasıl biçimlendirileceğini gösterir.
 
@@ -83,7 +85,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * enum [GeneralFormat](../../generalformat/)
 * class [GeneralFormatCollection](../)
-* ad alanı [Aspose.Words.Fields](../../generalformatcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

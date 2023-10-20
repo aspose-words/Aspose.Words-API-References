@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.ForceCopyStyles
-second_title: Aspose.Words لمراجع .NET API
-description: ImportFormatOptions ملكية. الحصول على قيمة منطقية أو تعيينها تشير إما إلى نسخ الأنماط المتعارضة فيKeepSourceFormatting mode. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ForceCopyStyles
+articleTitle: ForceCopyStyles
+second_title: Aspose.Words لـ .NET
+description: ImportFormatOptions ForceCopyStyles ملكية. الحصول على قيمة منطقية أو تعيينها تشير إما إلى نسخ الأنماط المتعارضة فيKeepSourceFormatting mode. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/importformatoptions/forcecopystyles/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/importformatoptions/forcecopystyles/
 public bool ForceCopyStyles { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 افتراضيًا، إذا كان النمط المطابق موجودًا بالفعل في المستند الوجهة، فسيتم توسيع تنسيق النمط المصدر formatting إلى سمات العقدة المباشرة ويتم إعادة تعيين نمط هذه العقدة إلى الوضع الافتراضي.
 
@@ -22,7 +24,7 @@ public bool ForceCopyStyles { get; set; }
 
 لاحظ أنه في هذه الحالة ليس من المضمون الحفاظ على تنسيق العقدة المستوردة في الوجهة document .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية نسخ أنماط المصدر بأسماء فريدة قسرا.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(paras[2].ParagraphFormat.Style.Name, "MyStyle3");
 ### أنظر أيضا
 
 * class [ImportFormatOptions](../)
-* مساحة الاسم [Aspose.Words](../../importformatoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

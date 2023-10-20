@@ -1,7 +1,9 @@
 ---
 title: Field.Update
-second_title: Aspose.Words für .NET-API-Referenz
-description: Field methode. Führt die Feldaktualisierung durch. Wird ausgelöst wenn das Feld bereits aktualisiert wird.
+linktitle: Update
+articleTitle: Update
+second_title: Aspose.Words für .NET
+description: Field Update methode. Führt die Feldaktualisierung durch. Wird ausgelöst wenn das Feld bereits aktualisiert wird in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.fields/field/update/
@@ -14,7 +16,7 @@ Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktu
 public void Update()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mithilfe von FieldType ein Feld in ein Dokument einfügt.
 
@@ -118,12 +120,12 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 ### Siehe auch
 
 * class [Field](../)
-* namensraum [Aspose.Words.Fields](../../field/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Update(bool) {#update_1}
+## Update(*bool*) {#update_1}
 
 Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird.
 
@@ -135,7 +137,7 @@ public void Update(bool ignoreMergeFormat)
 | --- | --- | --- |
 | ignoreMergeFormat | Boolean | Wenn`WAHR` dann wird die Formatierung der direkten Feldergebnisse unabhängig vom MERGEFORMAT-Schalter aufgegeben, andernfalls wird eine normale Aktualisierung durchgeführt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie INCLUDEPICTURE-Felder beim Laden eines Dokuments beibehalten oder verworfen werden.
 
@@ -177,7 +179,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Siehe auch
 
 * class [Field](../)
-* namensraum [Aspose.Words.Fields](../../field/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

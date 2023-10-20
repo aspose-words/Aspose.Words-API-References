@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.Location
-second_title: Aspose.Words for .NET API 参考
-description: PdfDigitalSignatureDetails 财产. 获取或设置签名的位置
+linktitle: Location
+articleTitle: Location
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfDigitalSignatureDetails Location 财产. 获取或设置签名的位置 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/pdfdigitalsignaturedetails/location/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/pdfdigitalsignaturedetails/location/
 public string Location { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`无效的`.
 
-### 例子
+## 例子
 
 演示如何签署生成的 PDF 文档。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ### 也可以看看
 
 * class [PdfDigitalSignatureDetails](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

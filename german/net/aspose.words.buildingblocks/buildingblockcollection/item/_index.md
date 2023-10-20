@@ -1,7 +1,9 @@
 ---
 title: BuildingBlockCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuildingBlockCollection eigendom. Ruft einen Baustein am angegebenen Index ab.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: BuildingBlockCollection Item eigendom. Ruft einen Baustein am angegebenen Index ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.buildingblocks/buildingblockcollection/item/
@@ -18,7 +20,7 @@ public BuildingBlock this[int index] { get; }
 | --- | --- |
 | index | Ein Index in die Liste der Bausteine. |
 
-### Bemerkungen
+## Bemerkungen
 
 Der Index ist nullbasiert.
 
@@ -28,7 +30,7 @@ Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wi
 
 Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten für den Zugriff auf Bausteine in einem Glossardokument.
 
@@ -133,7 +135,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [BuildingBlockCollection](../)
-* namensraum [Aspose.Words.BuildingBlocks](../../buildingblockcollection/)
+* namensraum [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.SelectedValue
-second_title: Aspose.Words لمراجع .NET API
-description: SdtListItemCollection ملكية. يحدد القيمة المحددة حاليًا في هذه القائمة. القيمة الخالية مسموحة مما يعني أنه لا يوجد إدخال محدد حاليًا مرتبط بمجموعة عناصر القائمة هذه.
+linktitle: SelectedValue
+articleTitle: SelectedValue
+second_title: Aspose.Words لـ .NET
+description: SdtListItemCollection SelectedValue ملكية. يحدد القيمة المحددة حاليًا في هذه القائمة. القيمة الخالية مسموحة مما يعني أنه لا يوجد إدخال محدد حاليًا مرتبط بمجموعة عناصر القائمة هذه في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/sdtlistitemcollection/selectedvalue/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/sdtlistitemcollection/selectedvalue/
 public SdtListItem SelectedValue { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع علامات المستندات المنظمة ذات القائمة المنسدلة.
 
@@ -72,7 +74,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItem](../../sdtlistitem/)
 * class [SdtListItemCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

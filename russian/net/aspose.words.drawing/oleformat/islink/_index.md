@@ -1,7 +1,9 @@
 ---
 title: OleFormat.IsLink
-second_title: Справочник по API Aspose.Words для .NET
-description: OleFormat свойство. Возвращаетистинный если объект OLE связан когдаSourceFullName указан.
+linktitle: IsLink
+articleTitle: IsLink
+second_title: Aspose.Words для .NET
+description: OleFormat IsLink свойство. Возвращаетистинный если объект OLE связан когдаSourceFullName указан на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing/oleformat/islink/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/oleformat/islink/
 public bool IsLink { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять связанные и несвязанные объекты OLE.
 
@@ -64,7 +66,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Смотрите также
 
 * class [OleFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../oleformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

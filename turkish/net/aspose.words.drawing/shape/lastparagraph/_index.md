@@ -1,7 +1,9 @@
 ---
 title: Shape.LastParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Şeklin son paragrafını alır.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words for .NET
+description: Shape LastParagraph mülk. Şeklin son paragrafını alır C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.drawing/shape/lastparagraph/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/shape/lastparagraph/
 public Paragraph LastParagraph { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir metin kutusu içindeki metnin yönünün nasıl ayarlanacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

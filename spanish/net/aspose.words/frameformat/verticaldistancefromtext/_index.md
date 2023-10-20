@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalDistanceFromText
-second_title: Referencia de API de Aspose.Words para .NET
-description: FrameFormat propiedad. Especifica la distancia vertical en puntos entre un marco y el texto circundante.
+linktitle: VerticalDistanceFromText
+articleTitle: VerticalDistanceFromText
+second_title: Aspose.Words para .NET
+description: FrameFormat VerticalDistanceFromText propiedad. Especifica la distancia vertical en puntos entre un marco y el texto circundante en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words/frameformat/verticaldistancefromtext/
@@ -14,7 +16,7 @@ Especifica la distancia vertical (en puntos) entre un marco y el texto circundan
 public double VerticalDistanceFromText { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener información sobre las propiedades de formato de párrafos que son marcos.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Ver también
 
 * class [FrameFormat](../)
-* espacio de nombres [Aspose.Words](../../frameformat/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

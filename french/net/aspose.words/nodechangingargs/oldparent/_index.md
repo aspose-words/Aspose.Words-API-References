@@ -1,7 +1,9 @@
 ---
 title: NodeChangingArgs.OldParent
-second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeChangingArgs propriété. Obtient le parent du nœud avant le début de lopération.
+linktitle: OldParent
+articleTitle: OldParent
+second_title: Aspose.Words pour .NET
+description: NodeChangingArgs OldParent propriété. Obtient le parent du nœud avant le début de lopération en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/nodechangingargs/oldparent/
@@ -14,7 +16,7 @@ Obtient le parent du nœud avant le début de l'opération.
 public Node OldParent { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un NodeChangingCallback pour surveiller les modifications apportées à l'arborescence du document en temps réel au fur et à mesure que nous la modifions.
 
@@ -90,7 +92,5 @@ private class NodeChangingPrinter : INodeChangingCallback
 
 * class [Node](../../node/)
 * class [NodeChangingArgs](../)
-* espace de noms [Aspose.Words](../../nodechangingargs/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

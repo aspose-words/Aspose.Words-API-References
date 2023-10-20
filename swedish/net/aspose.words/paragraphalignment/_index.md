@@ -1,7 +1,9 @@
 ---
-title: Enum ParagraphAlignment
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.ParagraphAlignment uppräkning. Anger textjustering i ett stycke.
+title: ParagraphAlignment Enum
+linktitle: ParagraphAlignment
+articleTitle: ParagraphAlignment
+second_title: Aspose.Words för .NET
+description: Aspose.Words.ParagraphAlignment uppräkning. Anger textjustering i ett stycke i C#.
 type: docs
 weight: 4400
 url: /sv/net/aspose.words/paragraphalignment/
@@ -29,7 +31,7 @@ public enum ParagraphAlignment
 | ThaiDistributed | `9` | Endast thailändska. Texten är motiverad med en optimering för thailändska. |
 | MathElementCenterAsGroup | `10` | Det enda Math-elementet på en rad, justerat som 'Centrerad som grupp'. |
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar ett Aspose.Words-dokument för hand.
 
@@ -80,5 +82,3 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

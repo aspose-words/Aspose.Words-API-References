@@ -1,7 +1,9 @@
 ---
 title: FieldPrintDate.UseUmAlQuraCalendar
-second_title: Aspose.Words for .NET API Referansı
-description: FieldPrintDate mülk. UmalQura takviminin kullanılıp kullanılmayacağını alır veya ayarlar.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words for .NET
+description: FieldPrintDate UseUmAlQuraCalendar mülk. UmalQura takviminin kullanılıp kullanılmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldprintdate/useumalquracalendar/
@@ -14,7 +16,7 @@ Um-al-Qura takviminin kullanılıp kullanılmayacağını alır veya ayarlar.
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Okunan PRINTDATE alanlarını gösterir.
 
@@ -56,7 +58,5 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 ### Ayrıca bakınız
 
 * class [FieldPrintDate](../)
-* ad alanı [Aspose.Words.Fields](../../fieldprintdate/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

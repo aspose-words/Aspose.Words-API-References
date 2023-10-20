@@ -1,7 +1,9 @@
 ---
 title: PageSetup.ClearFormatting
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup yöntem. Sayfa düzenini varsayılan kağıt boyutuna kenar boşluklarına ve yönlendirmeye sıfırlar.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words for .NET
+description: PageSetup ClearFormatting yöntem. Sayfa düzenini varsayılan kağıt boyutuna kenar boşluklarına ve yönlendirmeye sıfırlar C#'da.
 type: docs
 weight: 460
 url: /tr/net/aspose.words/pagesetup/clearformatting/
@@ -14,7 +16,7 @@ Sayfa düzenini varsayılan kağıt boyutuna, kenar boşluklarına ve yönlendir
 public void ClearFormatting()
 ```
 
-### Örnekler
+## Örnekler
 
 Sayfa yapısı ayarlarının bir belgedeki bölümlere nasıl uygulanacağını ve geri döndürüleceğini gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 ### Ayrıca bakınız
 
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

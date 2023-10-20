@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.ToaCategories
-second_title: Aspose.Words för .NET API Referens
-description: FieldOptions fast egendom. Hämtar eller sätter tabellen över auktoritetskategorier.
+linktitle: ToaCategories
+articleTitle: ToaCategories
+second_title: Aspose.Words för .NET
+description: FieldOptions ToaCategories fast egendom. Hämtar eller sätter tabellen över auktoritetskategorier i C#.
 type: docs
 weight: 200
 url: /sv/net/aspose.words.fields/fieldoptions/toacategories/
@@ -14,7 +16,7 @@ Hämtar eller sätter tabellen över auktoritetskategorier.
 public ToaCategories ToaCategories { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man anger en uppsättning kategorier för TOA-fält.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "FieldOptions.TOA.Categories.docx");
 
 * class [ToaCategories](../../toacategories/)
 * class [FieldOptions](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldoptions/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

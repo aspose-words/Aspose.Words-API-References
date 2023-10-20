@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Document
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListCollection eigendom. Ruft das Eigentümerdokument ab.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words für .NET
+description: ListCollection Document eigendom. Ruft das Eigentümerdokument ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.lists/listcollection/document/
@@ -14,7 +16,7 @@ Ruft das Eigentümerdokument ab.
 public DocumentBase Document { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Besitzerdokumenteigenschaften von Listen überprüft werden.
 
@@ -37,7 +39,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [ListCollection](../)
-* namensraum [Aspose.Words.Lists](../../listcollection/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

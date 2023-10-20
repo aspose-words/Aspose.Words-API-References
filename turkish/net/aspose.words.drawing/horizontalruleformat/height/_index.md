@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.Height
-second_title: Aspose.Words for .NET API Referansı
-description: HorizontalRuleFormat mülk. Yatay kuralın yüksekliğini alır veya ayarlar.
+linktitle: Height
+articleTitle: Height
+second_title: Aspose.Words for .NET
+description: HorizontalRuleFormat Height mülk. Yatay kuralın yüksekliğini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing/horizontalruleformat/height/
@@ -20,7 +22,7 @@ public double Height { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Bağımsız değişken geçerli değerler aralığının dışında olduğunda atar. |
 
-### Notlar
+## Notlar
 
 Bu, kısayol[`Height`](../../shapebase/height/) mülk.
 
@@ -28,7 +30,7 @@ Geçerli değerler 0 ila 1584 (dahil) arasındadır.
 
 Varsayılan değer 1,5'tir.
 
-### Örnekler
+## Örnekler
 
 Yatay kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
 
@@ -51,7 +53,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Ayrıca bakınız
 
 * class [HorizontalRuleFormat](../)
-* ad alanı [Aspose.Words.Drawing](../../horizontalruleformat/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

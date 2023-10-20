@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HeightRule
-second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. الحصول على قاعدة تحديد ارتفاع الإطار المحدد.
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: Aspose.Words لـ .NET
+description: FrameFormat HeightRule ملكية. الحصول على قاعدة تحديد ارتفاع الإطار المحدد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/frameformat/heightrule/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/frameformat/heightrule/
 public HeightRule HeightRule { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [HeightRule](../../heightrule/)
 * class [FrameFormat](../)
-* مساحة الاسم [Aspose.Words](../../frameformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

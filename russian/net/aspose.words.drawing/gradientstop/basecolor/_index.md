@@ -1,7 +1,9 @@
 ---
 title: GradientStop.BaseColor
-second_title: Справочник по API Aspose.Words для .NET
-description: GradientStop свойство. Получает значение представляющее цвет остановки градиента без какихлибо модификаторов.
+linktitle: BaseColor
+articleTitle: BaseColor
+second_title: Aspose.Words для .NET
+description: GradientStop BaseColor свойство. Получает значение представляющее цвет остановки градиента без какихлибо модификаторов на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/gradientstop/basecolor/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/gradientstop/basecolor/
 public Color BaseColor { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавить остановки градиента к градиентной заливке.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Смотрите также
 
 * class [GradientStop](../)
-* пространство имен [Aspose.Words.Drawing](../../gradientstop/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

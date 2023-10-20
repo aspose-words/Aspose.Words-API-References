@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineSpacingRule
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает межстрочный интервал для абзаца.
+linktitle: LineSpacingRule
+articleTitle: LineSpacingRule
+second_title: Aspose.Words для .NET
+description: ParagraphFormat LineSpacingRule свойство. Получает или задает межстрочный интервал для абзаца на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words/paragraphformat/linespacingrule/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/paragraphformat/linespacingrule/
 public LineSpacingRule LineSpacingRule { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с межстрочным интервалом.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LineSpacing.docx");
 
 * enum [LineSpacingRule](../../linespacingrule/)
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

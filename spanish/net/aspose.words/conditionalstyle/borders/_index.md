@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Borders
-second_title: Referencia de API de Aspose.Words para .NET
-description: ConditionalStyle propiedad. Obtiene la colección de bordes de celda predeterminados para el estilo condicional.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words para .NET
+description: ConditionalStyle Borders propiedad. Obtiene la colección de bordes de celda predeterminados para el estilo condicional en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/conditionalstyle/borders/
@@ -14,7 +16,7 @@ Obtiene la colección de bordes de celda predeterminados para el estilo condicio
 public BorderCollection Borders { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con ciertos estilos de área de una tabla.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [ConditionalStyle](../)
-* espacio de nombres [Aspose.Words](../../conditionalstyle/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

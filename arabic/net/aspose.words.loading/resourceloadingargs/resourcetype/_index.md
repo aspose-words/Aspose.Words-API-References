@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.ResourceType
-second_title: Aspose.Words لمراجع .NET API
-description: ResourceLoadingArgs ملكية. نوع المورد.
+linktitle: ResourceType
+articleTitle: ResourceType
+second_title: Aspose.Words لـ .NET
+description: ResourceLoadingArgs ResourceType ملكية. نوع المورد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.loading/resourceloadingargs/resourcetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/resourceloadingargs/resourcetype/
 public ResourceType ResourceType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخصيص عملية تحميل الموارد الخارجية إلى مستند.
 
@@ -78,7 +80,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * enum [ResourceType](../../resourcetype/)
 * class [ResourceLoadingArgs](../)
-* مساحة الاسم [Aspose.Words.Loading](../../resourceloadingargs/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

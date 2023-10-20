@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.ClearFormatting
-second_title: Справочник по API Aspose.Words для .NET
-description: BorderCollection метод. Удаляет все границы объекта.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words для .NET
+description: BorderCollection ClearFormatting метод. Удаляет все границы объекта на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words/bordercollection/clearformatting/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/bordercollection/clearformatting/
 public void ClearFormatting()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить все границы из всех абзацев в документе.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "BorderCollection.RemoveAllBorders.docx");
 ### Смотрите также
 
 * class [BorderCollection](../)
-* пространство имен [Aspose.Words](../../bordercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

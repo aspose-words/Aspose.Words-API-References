@@ -1,7 +1,9 @@
 ---
 title: Shape.ImageData
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Ger tillgång till bilden av formen. Returnerarnull om formen inte kan ha en bild.
+linktitle: ImageData
+articleTitle: ImageData
+second_title: Aspose.Words för .NET
+description: Shape ImageData fast egendom. Ger tillgång till bilden av formen. Returnerarnull om formen inte kan ha en bild i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.drawing/shape/imagedata/
@@ -14,7 +16,7 @@ Ger tillgång till bilden av formen. Returnerar`null` om formen inte kan ha en b
 public ImageData ImageData { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar bilder från ett dokument och sparar dem i det lokala filsystemet som enskilda filer.
 
@@ -83,7 +85,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * class [ImageData](../../imagedata/)
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

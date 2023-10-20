@@ -1,7 +1,9 @@
 ---
 title: FieldPrint.PrinterInstructions
-second_title: Aspose.Words för .NET API Referens
-description: FieldPrint fast egendom. Hämtar eller ställer in de skrivarspecifika kontrollkodtecken eller PostScriptinstruktioner.
+linktitle: PrinterInstructions
+articleTitle: PrinterInstructions
+second_title: Aspose.Words för .NET
+description: FieldPrint PrinterInstructions fast egendom. Hämtar eller ställer in de skrivarspecifika kontrollkodtecken eller PostScriptinstruktioner i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldprint/printerinstructions/
@@ -14,7 +16,7 @@ Hämtar eller ställer in de skrivarspecifika kontrollkodtecken eller PostScript
 public string PrinterInstructions { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar för att infoga ett PRINT-fält.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Field.PRINT.docx");
 ### Se även
 
 * class [FieldPrint](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldprint/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.StyleIdentifier
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bu biçimlendirmeye uygulanan karakter stilinin yerel ayardan bağımsız stil tanımlayıcısını alır veya ayarlar.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words for .NET
+description: Font StyleIdentifier mülk. Bu biçimlendirmeye uygulanan karakter stilinin yerel ayardan bağımsız stil tanımlayıcısını alır veya ayarlar C#'da.
 type: docs
 weight: 410
 url: /tr/net/aspose.words/font/styleidentifier/
@@ -14,7 +16,7 @@ Bu biçimlendirmeye uygulanan karakter stilinin yerel ayardan bağımsız stil t
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Mevcut metnin stilinin nasıl değiştirileceğini gösterir.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum CompressionLevel
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.CompressionLevel enum. Livello di compressione per file OOXML.
+title: CompressionLevel Enum
+linktitle: CompressionLevel
+articleTitle: CompressionLevel
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.CompressionLevel enum. Livello di compressione per file OOXML in C#.
 type: docs
 weight: 4870
 url: /it/net/aspose.words.saving/compressionlevel/
@@ -27,7 +29,7 @@ public enum CompressionLevel
 | Fast | `2` | Livello di compressione veloce. |
 | SuperFast | `3` | Livello di compressione super veloce. Microsoft Word utilizza questo livello di compressione. |
 
-### Esempi
+## Esempi
 
 Mostra come specificare il livello di compressione da utilizzare durante il salvataggio di un documento OOXML.
 
@@ -60,5 +62,3 @@ Console.WriteLine($"\tFile Size:\t{fileInfo.Length} bytes");
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldEndChar
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. نهاية حرف حقل MS Word char21.
+linktitle: FieldEndChar
+articleTitle: FieldEndChar
+second_title: Aspose.Words لـ .NET
+description: ControlChar FieldEndChar مجال. نهاية حرف حقل MS Word char21 في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/controlchar/fieldendchar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/controlchar/fieldendchar/
 public const char FieldEndChar;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة أحرف تحكم مختلفة إلى مستند.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

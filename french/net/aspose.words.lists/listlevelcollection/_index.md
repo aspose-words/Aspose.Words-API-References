@@ -1,7 +1,9 @@
 ---
-title: Class ListLevelCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Lists.ListLevelCollection classe. Une collection de formats de liste pour chaque niveau dune liste.
+title: ListLevelCollection Class
+linktitle: ListLevelCollection
+articleTitle: ListLevelCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Lists.ListLevelCollection classe. Une collection de formats de liste pour chaque niveau dune liste en C#.
 type: docs
 weight: 3520
 url: /fr/net/aspose.words.lists/listlevelcollection/
@@ -29,7 +31,7 @@ public class ListLevelCollection : IEnumerable<ListLevel>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.lists/listlevelcollection/getenumerator/)() | Obtient l'objet énumérateur qui énumérera les niveaux dans cette liste. |
 
-### Exemples
+## Exemples
 
 Montre comment créer un style de liste et l’utiliser dans un document.
 
@@ -146,5 +148,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 * class [ListLevel](../listlevel/)
 * espace de noms [Aspose.Words.Lists](../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../)
-
-

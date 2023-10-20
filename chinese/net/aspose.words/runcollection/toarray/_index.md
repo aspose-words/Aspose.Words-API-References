@@ -1,7 +1,9 @@
 ---
 title: RunCollection.ToArray
-second_title: Aspose.Words for .NET API 参考
-description: RunCollection 方法. 将集合中的所有运行复制到新的运行数组
+linktitle: ToArray
+articleTitle: ToArray
+second_title: 用于 .NET 的 Aspose.Words
+description: RunCollection ToArray 方法. 将集合中的所有运行复制到新的运行数组 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/runcollection/toarray/
@@ -18,7 +20,7 @@ public Run[] ToArray()
 
 一系列运行。
 
-### 例子
+## 例子
 
 演示如何确定内联节点的修订类型。
 
@@ -75,7 +77,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Run](../../run/)
 * class [RunCollection](../)
-* 命名空间 [Aspose.Words](../../runcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

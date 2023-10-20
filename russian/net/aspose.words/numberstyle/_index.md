@@ -1,7 +1,9 @@
 ---
-title: Enum NumberStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.NumberStyle перечисление. Определяет стиль нумерации для списка сносок и концевых сносок номеров страниц.
+title: NumberStyle Enum
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words для .NET
+description: Aspose.Words.NumberStyle перечисление. Определяет стиль нумерации для списка сносок и концевых сносок номеров страниц на С#.
 type: docs
 weight: 4310
 url: /ru/net/aspose.words/numberstyle/
@@ -81,7 +83,7 @@ public enum NumberStyle
 | None | `255` | Нет маркера или номера. |
 | Custom | `65280` | Пользовательский числовой формат. Поддерживается только форматом DOCX. |
 
-### Примеры
+## Примеры
 
 Показывает, как применить пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
 
@@ -141,5 +143,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

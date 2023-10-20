@@ -1,7 +1,9 @@
 ---
-title: Enum Margins
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Margins перечисление. Определяет заданные поля.
+title: Margins Enum
+linktitle: Margins
+articleTitle: Margins
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Margins перечисление. Определяет заданные поля на С#.
 type: docs
 weight: 3890
 url: /ru/net/aspose.words/margins/
@@ -29,5 +31,3 @@ public enum Margins
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

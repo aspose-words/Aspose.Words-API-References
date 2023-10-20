@@ -1,7 +1,9 @@
 ---
 title: Story.Paragraphs
-second_title: Aspose.Words for .NET API Referansı
-description: Story mülk. Hikayenin doğrudan alt öğeleri olan paragrafların bir koleksiyonunu alır.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words for .NET
+description: Story Paragraphs mülk. Hikayenin doğrudan alt öğeleri olan paragrafların bir koleksiyonunu alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/story/paragraphs/
@@ -14,7 +16,7 @@ Hikayenin doğrudan alt öğeleri olan paragrafların bir koleksiyonunu alır.
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir paragrafın taşıma düzeltmesi olup olmadığının nasıl kontrol edileceğini gösterir.
 
@@ -49,7 +51,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 
 * class [ParagraphCollection](../../paragraphcollection/)
 * class [Story](../)
-* ad alanı [Aspose.Words](../../story/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

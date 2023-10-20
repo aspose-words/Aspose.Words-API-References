@@ -1,7 +1,9 @@
 ---
-title: Class CleanupOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.CleanupOptions klas. Ermöglicht die Angabe von Optionen für die Dokumentenbereinigung.
+title: CleanupOptions Class
+linktitle: CleanupOptions
+articleTitle: CleanupOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.CleanupOptions klas. Ermöglicht die Angabe von Optionen für die Dokumentenbereinigung in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words/cleanupoptions/
@@ -31,7 +33,7 @@ public class CleanupOptions
 | [UnusedLists](../../aspose.words/cleanupoptions/unusedlists/) { get; set; } | Gibt an, ob nicht verwendete Listen und Listendefinitionen aus dem Dokument entfernt werden sollen. Der Standardwert ist`WAHR` . |
 | [UnusedStyles](../../aspose.words/cleanupoptions/unusedstyles/) { get; set; } | Gibt an, ob nicht verwendete Stile aus dem Dokument entfernt werden sollen. Der Standardwert ist`WAHR` . |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle nicht verwendeten benutzerdefinierten Stile aus einem Dokument entfernt werden.
 
@@ -81,5 +83,3 @@ Assert.AreEqual(2, doc.Styles.Count);
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

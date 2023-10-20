@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotWrapTextWithPunct
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Non consentire la punteggiatura sporgente con la griglia dei caratteri.
+linktitle: DoNotWrapTextWithPunct
+articleTitle: DoNotWrapTextWithPunct
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions DoNotWrapTextWithPunct proprietà. Non consentire la punteggiatura sporgente con la griglia dei caratteri in C#.
 type: docs
 weight: 250
 url: /it/net/aspose.words.settings/compatibilityoptions/donotwraptextwithpunct/
@@ -17,7 +19,5 @@ public bool DoNotWrapTextWithPunct { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

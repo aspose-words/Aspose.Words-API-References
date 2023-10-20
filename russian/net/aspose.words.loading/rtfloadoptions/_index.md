@@ -1,7 +1,9 @@
 ---
-title: Class RtfLoadOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Loading.RtfLoadOptions сорт. Позволяет указать дополнительные параметры при загрузке.Rtf документ вDocument объект.
+title: RtfLoadOptions Class
+linktitle: RtfLoadOptions
+articleTitle: RtfLoadOptions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Loading.RtfLoadOptions сорт. Позволяет указать дополнительные параметры при загрузке.Rtf документ вDocument объект на С#.
 type: docs
 weight: 3710
 url: /ru/net/aspose.words.loading/rtfloadoptions/
@@ -48,9 +50,9 @@ public class RtfLoadOptions : LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
-### Примеры
+## Примеры
 
 Показывает, как обнаружить символы UTF-8 при загрузке документа RTF.
 
@@ -79,5 +81,3 @@ Assert.AreEqual(
 * class [LoadOptions](../loadoptions/)
 * пространство имен [Aspose.Words.Loading](../../aspose.words.loading/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: SignatureLineOptions.SignatureLineOptions
-second_title: Aspose.Words för .NET API Referens
-description: SignatureLineOptions byggare. Default_Constructor
+title: SignatureLineOptions
+linktitle: SignatureLineOptions
+articleTitle: SignatureLineOptions
+second_title: Aspose.Words för .NET
+description: SignatureLineOptions byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/signaturelineoptions/signaturelineoptions/
@@ -17,7 +19,5 @@ public SignatureLineOptions()
 ### Se även
 
 * class [SignatureLineOptions](../)
-* namnutrymme [Aspose.Words](../../signaturelineoptions/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

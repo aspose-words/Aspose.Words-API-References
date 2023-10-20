@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.AddPrinterFont
-second_title: Aspose.Words per .NET API Reference
-description: PclSaveOptions metodo. Aggiunge informazioni sul carattere caricato sulla stampante dal produttore.
+linktitle: AddPrinterFont
+articleTitle: AddPrinterFont
+second_title: Aspose.Words per .NET
+description: PclSaveOptions AddPrinterFont metodo. Aggiunge informazioni sul carattere caricato sulla stampante dal produttore in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/pclsaveoptions/addprinterfont/
@@ -19,11 +21,11 @@ public void AddPrinterFont(string fontFullName, string fontPclName)
 | fontFullName | String | Nome completo del carattere (ad esempio "Times New Roman Bold Italic"). |
 | fontPclName | String | Nome del carattere utilizzato nel documento Pcl. |
 
-### Osservazioni
+## Osservazioni
 
 Ci sono 52 caratteri che devono essere integrati in qualsiasi stampante secondo le specifiche Pcl. Tuttavia i produttori possono aggiungere altri caratteri ai propri dispositivi.
 
-### Esempi
+## Esempi
 
 Mostra come fare in modo che una stampante sostituisca tutte le istanze di un carattere specifico con un carattere diverso.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.AddPrinterFont.pcl", saveOptions);
 ### Guarda anche
 
 * class [PclSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pclsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

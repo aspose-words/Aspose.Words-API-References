@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.RemoveAt
-second_title: Aspose.Words för .NET API Referens
-description: BookmarkCollection metod. Tar bort ett bokmärke vid det angivna indexet.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words för .NET
+description: BookmarkCollection RemoveAt metod. Tar bort ett bokmärke vid det angivna indexet i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/bookmarkcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Det nollbaserade indexet för bokmärket som ska tas bort. |
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort bokmärken från ett dokument.
 
@@ -79,7 +81,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Se även
 
 * class [BookmarkCollection](../)
-* namnutrymme [Aspose.Words](../../bookmarkcollection/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: FieldSymbol.FieldSymbol
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldSymbol constructeur. Default_Constructor
+title: FieldSymbol
+linktitle: FieldSymbol
+articleTitle: FieldSymbol
+second_title: Aspose.Words pour .NET
+description: FieldSymbol constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldsymbol/fieldsymbol/
@@ -17,7 +19,5 @@ public FieldSymbol()
 ### Voir également
 
 * class [FieldSymbol](../)
-* espace de noms [Aspose.Words.Fields](../../fieldsymbol/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

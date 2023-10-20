@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertNode
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج عقدة قبل المؤشر.
+linktitle: InsertNode
+articleTitle: InsertNode
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertNode طريقة. إدراج عقدة قبل المؤشر في C#.
 type: docs
-weight: 390
+weight: 380
 url: /ar/net/aspose.words/documentbuilder/insertnode/
 ---
 ## DocumentBuilder.InsertNode method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbuilder/insertnode/
 public void InsertNode(Node node)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة مرتبطة في مستند.
 
@@ -57,7 +59,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

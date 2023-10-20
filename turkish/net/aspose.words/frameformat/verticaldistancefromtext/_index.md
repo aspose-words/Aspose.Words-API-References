@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.VerticalDistanceFromText
-second_title: Aspose.Words for .NET API Referansı
-description: FrameFormat mülk. Çerçeve ile çevresindeki metin arasındaki dikey mesafeyi nokta cinsinden belirtir.
+linktitle: VerticalDistanceFromText
+articleTitle: VerticalDistanceFromText
+second_title: Aspose.Words for .NET
+description: FrameFormat VerticalDistanceFromText mülk. Çerçeve ile çevresindeki metin arasındaki dikey mesafeyi nokta cinsinden belirtir C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/frameformat/verticaldistancefromtext/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/frameformat/verticaldistancefromtext/
 public double VerticalDistanceFromText { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Ayrıca bakınız
 
 * class [FrameFormat](../)
-* ad alanı [Aspose.Words](../../frameformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

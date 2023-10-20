@@ -1,7 +1,9 @@
 ---
 title: FieldCompare.RightExpression
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldCompare propriété. Obtient ou définit la partie droite de lexpression de comparaison.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words pour .NET
+description: FieldCompare RightExpression propriété. Obtient ou définit la partie droite de lexpression de comparaison en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldcompare/rightexpression/
@@ -14,7 +16,7 @@ Obtient ou définit la partie droite de l'expression de comparaison.
 public string RightExpression { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment comparer des expressions à l’aide d’un champ COMPARE.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Field.COMPARE.docx");
 ### Voir également
 
 * class [FieldCompare](../)
-* espace de noms [Aspose.Words.Fields](../../fieldcompare/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToMergeField
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将光标移动到指定合并字段之外的位置并删除合并字段
+linktitle: MoveToMergeField
+articleTitle: MoveToMergeField
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder MoveToMergeField 方法. 将光标移动到指定合并字段之外的位置并删除合并字段 在 C#.
 type: docs
-weight: 560
+weight: 550
 url: /zh/net/aspose.words/documentbuilder/movetomergefield/
 ---
-## MoveToMergeField(string) {#movetomergefield}
+## MoveToMergeField(*string*) {#movetomergefield}
 
 将光标移动到指定合并字段之外的位置并删除合并字段。
 
@@ -22,11 +24,11 @@ public bool MoveToMergeField(string fieldName)
 
 `真的`如果找到合并字段并且光标已移动；`错误的`否则。
 
-### 评论
+## 评论
 
 请注意，此方法会在移动光标后从文档中删除合并字段。
 
-### 例子
+## 例子
 
 演示如何使用文档生成器而不是邮件合并来填充数据MERGEFIELD。
 
@@ -139,12 +141,12 @@ private static DataTable GetStudentCourseDataTable()
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## MoveToMergeField(string, bool, bool) {#movetomergefield_1}
+## MoveToMergeField(*string, bool, bool*) {#movetomergefield_1}
 
 将合并字段移动到指定的合并字段。
 
@@ -162,7 +164,7 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 `真的`如果找到合并字段并且光标已移动；`错误的`否则。
 
-### 例子
+## 例子
 
 演示如何插入字段，以及如何将文档生成器的光标移至这些字段。
 
@@ -191,7 +193,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 ### 也可以看看
 
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

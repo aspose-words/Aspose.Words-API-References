@@ -1,7 +1,9 @@
 ---
 title: FieldLink.IsLinked
-second_title: Aspose.Words for .NET API Referansı
-description: FieldLink mülk. Grafik verilerini belgede saklamayarak dosya boyutunun küçültülüp küçültülmeyeceğini alır veya ayarlar.
+linktitle: IsLinked
+articleTitle: IsLinked
+second_title: Aspose.Words for .NET
+description: FieldLink IsLinked mülk. Grafik verilerini belgede saklamayarak dosya boyutunun küçültülüp küçültülmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/fieldlink/islinked/
@@ -14,7 +16,7 @@ Grafik verilerini belgede saklamayarak dosya boyutunun küçültülüp küçült
 public bool IsLinked { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntülemek için çeşitli alan türlerinin nasıl kullanılacağını gösterir.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ayrıca bakınız
 
 * class [FieldLink](../)
-* ad alanı [Aspose.Words.Fields](../../fieldlink/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

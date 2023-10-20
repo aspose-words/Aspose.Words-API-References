@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.DisplayText
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergeBarcode propiedad. Obtiene o establece si se muestran datos de código de barras texto junto con la imagen.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words para .NET
+description: FieldMergeBarcode DisplayText propiedad. Obtiene o establece si se muestran datos de código de barras texto junto con la imagen en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fieldmergebarcode/displaytext/
@@ -14,7 +16,7 @@ Obtiene o establece si se muestran datos de código de barras (texto) junto con 
 public bool DisplayText { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo realizar una combinación de correspondencia en códigos de barras EAN13.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ### Ver también
 
 * class [FieldMergeBarcode](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldmergebarcode/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentPropertyCollection.IndexOf
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentPropertyCollection método. Obtiene el índice de una propiedad por nombre.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words para .NET
+description: DocumentPropertyCollection IndexOf método. Obtiene el índice de una propiedad por nombre en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words.properties/documentpropertycollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string name)
 
 El índice de base cero. Valor negativo si no se encuentra.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con las propiedades personalizadas de un documento.
 
@@ -82,7 +84,5 @@ Assert.AreEqual(0, properties.Count);
 ### Ver también
 
 * class [DocumentPropertyCollection](../)
-* espacio de nombres [Aspose.Words.Properties](../../documentpropertycollection/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

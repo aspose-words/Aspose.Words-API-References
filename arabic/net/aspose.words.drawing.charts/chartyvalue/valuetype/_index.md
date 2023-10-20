@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.ValueType
-second_title: Aspose.Words لمراجع .NET API
-description: ChartYValue ملكية. الحصول على نوع قيمة Y المخزنة في الكائن.
+linktitle: ValueType
+articleTitle: ValueType
+second_title: Aspose.Words لـ .NET
+description: ChartYValue ValueType ملكية. الحصول على نوع قيمة Y المخزنة في الكائن في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing.charts/chartyvalue/valuetype/
@@ -18,7 +20,5 @@ public ChartYValueType ValueType { get; }
 
 * enum [ChartYValueType](../../chartyvaluetype/)
 * class [ChartYValue](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

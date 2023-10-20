@@ -1,7 +1,9 @@
 ---
 title: EditableRange.Remove
-second_title: Aspose.Words for .NET API 参考
-description: EditableRange 方法. 从文档中删除可编辑范围不删除可编辑范围内的内容
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: EditableRange Remove 方法. 从文档中删除可编辑范围不删除可编辑范围内的内容 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/editablerange/remove/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/editablerange/remove/
 public void Remove()
 ```
 
-### 例子
+## 例子
 
 展示如何使用可编辑范围。
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### 也可以看看
 
 * class [EditableRange](../)
-* 命名空间 [Aspose.Words](../../editablerange/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

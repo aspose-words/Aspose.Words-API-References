@@ -1,7 +1,9 @@
 ---
 title: NodeRendererBase.SizeInPoints
-second_title: Aspose.Words for .NET API 参考
-description: NodeRendererBase 财产. 获取形状的实际大小以磅为单位
+linktitle: SizeInPoints
+articleTitle: SizeInPoints
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeRendererBase SizeInPoints 财产. 获取形状的实际大小以磅为单位 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.rendering/noderendererbase/sizeinpoints/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.rendering/noderendererbase/sizeinpoints/
 public SizeF SizeInPoints { get; }
 ```
 
-### 评论
+## 评论
 
 此属性返回形状的实际（如页面上呈现的）边界框的大小。 该大小考虑了形状旋转（如果有）。
 
-### 例子
+## 例子
 
 展示如何测量和缩放形状。
 
@@ -65,7 +67,5 @@ Assert.AreEqual(30, bounds.Height);
 ### 也可以看看
 
 * class [NodeRendererBase](../)
-* 命名空间 [Aspose.Words.Rendering](../../noderendererbase/)
+* 命名空间 [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * 部件 [Aspose.Words](../../../)
-
-

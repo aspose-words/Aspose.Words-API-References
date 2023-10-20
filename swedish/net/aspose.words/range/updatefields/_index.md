@@ -1,7 +1,9 @@
 ---
 title: Range.UpdateFields
-second_title: Aspose.Words för .NET API Referens
-description: Range metod. Uppdaterar värdena för dokumentfält i detta intervall.
+linktitle: UpdateFields
+articleTitle: UpdateFields
+second_title: Aspose.Words för .NET
+description: Range UpdateFields metod. Uppdaterar värdena för dokumentfält i detta intervall i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/range/updatefields/
@@ -14,7 +16,7 @@ Uppdaterar värdena för dokumentfält i detta intervall.
 public void UpdateFields()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När du öppnar, ändrar och sedan sparar ett dokument uppdaterar Aspose.Words inte fält automatiskt, det behåller dem intakta. Därför skulle du vanligtvis vilja anropa den här metoden innan du sparar om du har modifierat document programmatiskt och vill försäkra dig om de korrekta (beräknade) fältvärdena visas i det sparade dokumentet.
 
@@ -26,7 +28,7 @@ Den här metoden uppdaterar inte fält som är relaterade till sidlayoutalgoritm
 
 För att uppdatera fält i hela dokumentet använd[`UpdateFields`](../../document/updatefields/).
 
-### Exempel
+## Exempel
 
 Visar hur du uppdaterar alla fält i ett intervall.
 
@@ -55,7 +57,5 @@ Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 ### Se även
 
 * class [Range](../)
-* namnutrymme [Aspose.Words](../../range/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

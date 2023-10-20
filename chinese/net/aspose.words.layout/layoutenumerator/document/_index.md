@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Document
-second_title: Aspose.Words for .NET API 参考
-description: LayoutEnumerator 财产. 获取此实例枚举的文档
+linktitle: Document
+articleTitle: Document
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutEnumerator Document 财产. 获取此实例枚举的文档 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.layout/layoutenumerator/document/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/layoutenumerator/document/
 public Document Document { get; }
 ```
 
-### 例子
+## 例子
 
 显示遍历文档布局实体的方法。
 
@@ -160,7 +162,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * class [Document](../../../aspose.words/document/)
 * class [LayoutEnumerator](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutenumerator/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

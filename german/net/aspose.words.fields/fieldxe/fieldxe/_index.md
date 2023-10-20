@@ -1,7 +1,9 @@
 ---
-title: FieldXE.FieldXE
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldXE constructeur. Default_Constructor
+title: FieldXE
+linktitle: FieldXE
+articleTitle: FieldXE
+second_title: Aspose.Words für .NET
+description: FieldXE constructeur. Default_Constructor in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldxe/fieldxe/
@@ -17,7 +19,5 @@ public FieldXE()
 ### Siehe auch
 
 * class [FieldXE](../)
-* namensraum [Aspose.Words.Fields](../../fieldxe/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Drawing
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Drawing توفر مساحة الاسم فئات تسمح بإنشاء الكائنات الرسومية وتعديلها.
+linktitle: Aspose.Words.Drawing
+articleTitle: Aspose.Words.Drawing
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Drawing توفر مساحة الاسم فئات تسمح بإنشاء الكائنات الرسومية وتعديلها في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/
 ---
-ال **Aspose.Words.Drawing** توفر مساحة الاسم فئات تسمح بإنشاء الكائنات الرسومية وتعديلها.
+ال**Aspose.Words.Drawing** توفر مساحة الاسم فئات تسمح بإنشاء الكائنات الرسومية وتعديلها.
 
 ## الطبقات
 
@@ -63,5 +65,3 @@ url: /ar/net/aspose.words.drawing/
 | [VerticalAlignment](./verticalalignment/) | يحدد المحاذاة الرأسية لشكل عائم أو إطار نص أو جدول عائم. |
 | [WrapSide](./wrapside/) | يحدد الجانب (الجوانب) من الشكل أو الصورة الذي يلتف النص حوله. |
 | [WrapType](./wraptype/) | يحدد كيفية التفاف النص حول الشكل أو الصورة. |
-
-

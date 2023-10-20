@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.Height
-second_title: Aspose.Words لمراجع .NET API
-description: HorizontalRuleFormat ملكية. الحصول على أو تحديد ارتفاع القاعدة الأفقية.
+linktitle: Height
+articleTitle: Height
+second_title: Aspose.Words لـ .NET
+description: HorizontalRuleFormat Height ملكية. الحصول على أو تحديد ارتفاع القاعدة الأفقية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/horizontalruleformat/height/
@@ -20,7 +22,7 @@ public double Height { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | يتم طرحه عندما تكون الوسيطة خارج نطاق القيم الصالحة. |
 
-### ملاحظات
+## ملاحظات
 
 هذا اختصار لل[`Height`](../../shapebase/height/) ملكية.
 
@@ -28,7 +30,7 @@ public double Height { get; set; }
 
 القيمة الافتراضية هي 1.5.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج شكل قاعدة أفقية، وتخصيص تنسيقه.
 
@@ -51,7 +53,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### أنظر أيضا
 
 * class [HorizontalRuleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../horizontalruleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

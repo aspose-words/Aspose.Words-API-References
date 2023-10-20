@@ -1,9 +1,11 @@
 ---
 title: Document.Unprotect
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document methode. Entfernt den Schutz vom Dokument unabhängig vom Passwort.
+linktitle: Unprotect
+articleTitle: Unprotect
+second_title: Aspose.Words für .NET
+description: Document Unprotect methode. Entfernt den Schutz vom Dokument unabhängig vom Passwort in C#.
 type: docs
-weight: 760
+weight: 740
 url: /de/net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}
@@ -14,13 +16,13 @@ Entfernt den Schutz vom Dokument unabhängig vom Passwort.
 public void Unprotect()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode hebt den Schutz des Dokuments auf, selbst wenn es über ein Schutzkennwort verfügt.
 
 Beachten Sie, dass sich der Dokumentschutz vom Schreibschutz unterscheidet. Der Schreibschutz wird mit angegeben[`WriteProtection`](../writeprotection/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument geschützt bzw. der Schutz aufgehoben wird.
 
@@ -65,12 +67,12 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Unprotect(string) {#unprotect}
+## Unprotect(*string*) {#unprotect}
 
 Entfernt den Schutz vom Dokument, wenn ein korrektes Passwort angegeben wird.
 
@@ -86,13 +88,13 @@ public bool Unprotect(string password)
 
 `WAHR` wenn ein korrektes Passwort angegeben wurde und das Dokument ungeschützt war.
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode hebt den Schutz des Dokuments nur auf, wenn ein korrektes Passwort angegeben wird.
 
 Beachten Sie, dass sich der Dokumentschutz vom Schreibschutz unterscheidet. Der Schreibschutz wird mit angegeben[`WriteProtection`](../writeprotection/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument geschützt bzw. der Schutz aufgehoben wird.
 
@@ -137,7 +139,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

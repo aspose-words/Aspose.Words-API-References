@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentNode
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Получает узел выбранный в данный момент в этом DocumentBuilder.
+linktitle: CurrentNode
+articleTitle: CurrentNode
+second_title: Aspose.Words для .NET
+description: DocumentBuilder CurrentNode свойство. Получает узел выбранный в данный момент в этом DocumentBuilder на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/documentbuilder/currentnode/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/documentbuilder/currentnode/
 public Node CurrentNode { get; }
 ```
 
-### Примечания
+## Примечания
 
 `CurrentNode` является курсором[`DocumentBuilder`](../) и указывает на[`Node`](../../node/) , который является прямым дочерним элементом[`Paragraph`](../../paragraph/) . Любые операции вставки, которые вы выполняете с помощью [`DocumentBuilder`](../) вставлю перед`CurrentNode`.
 
 Если текущий абзац пуст или курсор расположен just перед концом абзаца или тега структурированного документа,`CurrentNode` возвращает`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как перемещать курсор построителя документов в разные узлы документа.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class StyleCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.StyleCollection klas. Eine Sammlung vonStyle Objekte die sowohl die integrierten als auch die benutzerdefinierten Stile in einem Dokument darstellen.
+title: StyleCollection Class
+linktitle: StyleCollection
+articleTitle: StyleCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.StyleCollection klas. Eine Sammlung vonStyle Objekte die sowohl die integrierten als auch die benutzerdefinierten Stile in einem Dokument darstellen in C#.
 type: docs
 weight: 6140
 url: /de/net/aspose.words/stylecollection/
@@ -30,12 +32,12 @@ public class StyleCollection : IEnumerable<Style>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words/stylecollection/add/)(StyleType, string) | Erstellt einen neuen benutzerdefinierten Stil und fügt ihn der Sammlung hinzu. |
-| [AddCopy](../../aspose.words/stylecollection/addcopy/)(Style) | Kopiert einen Stil in diese Sammlung. |
+| [Add](../../aspose.words/stylecollection/add/)(*[StyleType](../styletype/), string*) | Erstellt einen neuen benutzerdefinierten Stil und fügt ihn der Sammlung hinzu. |
+| [AddCopy](../../aspose.words/stylecollection/addcopy/)(*[Style](../style/)*) | Kopiert einen Stil in diese Sammlung. |
 | [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | Entfernt alle Stile aus dem Quick Style Gallery-Bedienfeld. |
 | [GetEnumerator](../../aspose.words/stylecollection/getenumerator/)() | Ruft ein Enumeratorobjekt ab, das Stile in der alphabetischen Reihenfolge ihrer Namen auflistet. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Absatzstil mit Listenformatierung erstellt und verwendet wird.
 
@@ -69,5 +71,3 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 * class [Style](../style/)
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

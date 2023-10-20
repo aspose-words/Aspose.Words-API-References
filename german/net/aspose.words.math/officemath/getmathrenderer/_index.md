@@ -1,9 +1,11 @@
 ---
 title: OfficeMath.GetMathRenderer
-second_title: Aspose.Words für .NET-API-Referenz
-description: OfficeMath methode. Erstellt ein Objekt und gibt es zurück das zum Rendern dieser Gleichung in ein Bild verwendet werden kann.
+linktitle: GetMathRenderer
+articleTitle: GetMathRenderer
+second_title: Aspose.Words für .NET
+description: OfficeMath GetMathRenderer methode. Erstellt ein Objekt und gibt es zurück das zum Rendern dieser Gleichung in ein Bild verwendet werden kann in C#.
 type: docs
-weight: 90
+weight: 70
 url: /de/net/aspose.words.math/officemath/getmathrenderer/
 ---
 ## OfficeMath.GetMathRenderer method
@@ -18,11 +20,11 @@ public OfficeMathRenderer GetMathRenderer()
 
 Das Renderer-Objekt für diese Gleichung.
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Methode ruft lediglich die auf[`OfficeMathRenderer`](../../../aspose.words.rendering/officemathrenderer/) Konstruktor und übergibt dieses Objekt als Parameter.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Office Math-Objekt in eine Bilddatei im lokalen Dateisystem gerendert wird.
 
@@ -45,7 +47,5 @@ math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOpt
 
 * class [OfficeMathRenderer](../../../aspose.words.rendering/officemathrenderer/)
 * class [OfficeMath](../)
-* namensraum [Aspose.Words.Math](../../officemath/)
+* namensraum [Aspose.Words.Math](../../../aspose.words.math/)
 * Montage [Aspose.Words](../../../)
-
-

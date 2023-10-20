@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.NumberOfColumns
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIndex ملكية. الحصول على أو تعيين عدد الأعمدة لكل صفحة المستخدمة عند إنشاء الفهرس.
+linktitle: NumberOfColumns
+articleTitle: NumberOfColumns
+second_title: Aspose.Words لـ .NET
+description: FieldIndex NumberOfColumns ملكية. الحصول على أو تعيين عدد الأعمدة لكل صفحة المستخدمة عند إنشاء الفهرس في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.fields/fieldindex/numberofcolumns/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldindex/numberofcolumns/
 public string NumberOfColumns { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة حقل INDEX بالإدخالات باستخدام حقول XE، وكذلك تعديل مظهره.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### أنظر أيضا
 
 * class [FieldIndex](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldindex/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

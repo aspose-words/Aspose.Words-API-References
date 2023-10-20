@@ -1,7 +1,9 @@
 ---
 title: ListLabel.Font
-second_title: Referencia de API de Aspose.Words para .NET
-description: ListLabel propiedad. Obtiene la fuente de la etiqueta de la lista.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words para .NET
+description: ListLabel Font propiedad. Obtiene la fuente de la etiqueta de la lista en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.lists/listlabel/font/
@@ -18,7 +20,5 @@ public Font Font { get; }
 
 * class [Font](../../../aspose.words/font/)
 * class [ListLabel](../)
-* espacio de nombres [Aspose.Words.Lists](../../listlabel/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Field.Start
-second_title: Aspose.Words för .NET API Referens
-description: Field fast egendom. Hämtar noden som representerar början av fältet.
+linktitle: Start
+articleTitle: Start
+second_title: Aspose.Words för .NET
+description: Field Start fast egendom. Hämtar noden som representerar början av fältet i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.fields/field/start/
@@ -14,7 +16,7 @@ Hämtar noden som representerar början av fältet.
 public FieldStart Start { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en samling fält.
 
@@ -118,7 +120,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [FieldStart](../../fieldstart/)
 * class [Field](../)
-* namnutrymme [Aspose.Words.Fields](../../field/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.DistanceRight
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Возвращает или задает расстояние в пунктах между текстом документа и правым краем фигуры.
+linktitle: DistanceRight
+articleTitle: DistanceRight
+second_title: Aspose.Words для .NET
+description: ShapeBase DistanceRight свойство. Возвращает или задает расстояние в пунктах между текстом документа и правым краем фигуры на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.drawing/shapebase/distanceright/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/shapebase/distanceright/
 public double DistanceRight { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 1/8 дюйма.
 
 Имеет эффект только для фигур верхнего уровня.
 
-### Примеры
+## Примеры
 
 Показывает, как установить расстояние переноса для текста, окружающего фигуру.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Shape.Coordinates.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

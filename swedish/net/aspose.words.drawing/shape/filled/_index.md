@@ -1,7 +1,9 @@
 ---
 title: Shape.Filled
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Bestämmer om den stängda vägen för formen kommer att fyllas.
+linktitle: Filled
+articleTitle: Filled
+second_title: Aspose.Words för .NET
+description: Shape Filled fast egendom. Bestämmer om den stängda vägen för formen kommer att fyllas i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing/shape/filled/
@@ -14,13 +16,13 @@ Bestämmer om den stängda vägen för formen kommer att fyllas.
 public bool Filled { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Detta är en genväg till[`Visible`](../../fill/visible/) fast egendom.
 
 Standardvärdet är`Sann`.
 
-### Exempel
+## Exempel
 
 Visar hur man itererar över alla former i ett dokument.
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Se även
 
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

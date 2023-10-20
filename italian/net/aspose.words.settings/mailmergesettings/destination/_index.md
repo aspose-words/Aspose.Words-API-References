@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Destination
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Specifica il modo in cui Microsoft Word restituirà i risultati di una stampa unione. Il valore predefinito èDefault .
+linktitle: Destination
+articleTitle: Destination
+second_title: Aspose.Words per .NET
+description: MailMergeSettings Destination proprietà. Specifica il modo in cui Microsoft Word restituirà i risultati di una stampa unione. Il valore predefinito èDefault  in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.settings/mailmergesettings/destination/
@@ -14,7 +16,7 @@ Specifica il modo in cui Microsoft Word restituirà i risultati di una stampa un
 public MailMergeDestination Destination { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeDestination](../../mailmergedestination/)
 * class [MailMergeSettings](../)
-* spazio dei nomi [Aspose.Words.Settings](../../mailmergesettings/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

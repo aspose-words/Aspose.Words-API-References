@@ -1,7 +1,9 @@
 ---
 title: LanguagePreferences.DefaultEditingLanguage
-second_title: Aspose.Words für .NET-API-Referenz
-description: LanguagePreferences eigendom. Ruft die Standardbearbeitungssprache ab oder legt diese fest.
+linktitle: DefaultEditingLanguage
+articleTitle: DefaultEditingLanguage
+second_title: Aspose.Words für .NET
+description: LanguagePreferences DefaultEditingLanguage eigendom. Ruft die Standardbearbeitungssprache ab oder legt diese fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.loading/languagepreferences/defaulteditinglanguage/
@@ -16,7 +18,7 @@ Der Standardwert istEnglishUS.
 public EditingLanguage DefaultEditingLanguage { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie beim Laden eines Dokuments eine Standardsprache festgelegt wird.
 
@@ -36,7 +38,5 @@ Console.WriteLine(localeId == (int)EditingLanguage.Russian
 
 * enum [EditingLanguage](../../editinglanguage/)
 * class [LanguagePreferences](../)
-* namensraum [Aspose.Words.Loading](../../languagepreferences/)
+* namensraum [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Montage [Aspose.Words](../../../)
-
-

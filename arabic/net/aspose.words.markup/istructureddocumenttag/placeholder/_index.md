@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.Placeholder
-second_title: Aspose.Words لمراجع .NET API
-description: IStructuredDocumentTag ملكية. يحصل علىBuildingBlockيحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل SDT فارغة عنصر XML المعين المرتبط فارغ كما هو محدد عبرXmlMapping element أوIsShowingPlaceholderText العنصر صحيح
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words لـ .NET
+description: IStructuredDocumentTag Placeholder ملكية. يحصل علىBuildingBlockيحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل SDT فارغة عنصر XML المعين المرتبط فارغ كما هو محدد عبرXmlMapping element أوIsShowingPlaceholderText العنصر صحيح في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.markup/istructureddocumenttag/placeholder/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/istructureddocumenttag/placeholder/
 public BuildingBlock Placeholder { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن أن يكون فارغًا، مما يعني أن العنصر النائب غير قابل للتطبيق على Sdt.
 
@@ -22,7 +24,5 @@ public BuildingBlock Placeholder { get; }
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * interface [IStructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../istructureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

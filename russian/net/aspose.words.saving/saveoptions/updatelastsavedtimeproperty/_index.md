@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateLastSavedTimeProperty
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Получает или задает значение определяющее будет лиLastSavedTime свойство обновляется перед сохранением.
+linktitle: UpdateLastSavedTimeProperty
+articleTitle: UpdateLastSavedTimeProperty
+second_title: Aspose.Words для .NET
+description: SaveOptions UpdateLastSavedTimeProperty свойство. Получает или задает значение определяющее будет лиLastSavedTime свойство обновляется перед сохранением на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
 public bool UpdateLastSavedTimeProperty { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определить, следует ли сохранять свойство документа «Время последнего сохранения» при сохранении.
 
@@ -48,7 +50,5 @@ else
 ### Смотрите также
 
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

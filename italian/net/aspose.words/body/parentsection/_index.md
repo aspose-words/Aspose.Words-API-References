@@ -1,7 +1,9 @@
 ---
 title: Body.ParentSection
-second_title: Aspose.Words per .NET API Reference
-description: Body proprietà. Ottiene la sezione principale di questa storia.
+linktitle: ParentSection
+articleTitle: ParentSection
+second_title: Aspose.Words per .NET
+description: Body ParentSection proprietà. Ottiene la sezione principale di questa storia in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/body/parentsection/
@@ -14,11 +16,11 @@ Ottiene la sezione principale di questa storia.
 public Section ParentSection { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 `ParentSection` è equivalente a[`ParentNode`](../../node/parentnode/) lanciato a[`Section`](../../section/).
 
-### Esempi
+## Esempi
 
 Mostra come memorizzare le note di chiusura alla fine di ogni sezione e modificare le loro posizioni.
 
@@ -78,7 +80,5 @@ private static void InsertSectionWithEndnote(Document doc, string sectionBodyTex
 
 * class [Section](../../section/)
 * class [Body](../)
-* spazio dei nomi [Aspose.Words](../../body/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

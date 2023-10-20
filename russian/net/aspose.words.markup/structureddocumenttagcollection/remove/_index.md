@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagCollection.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagCollection метод. Удаляет тег структурированного документа с указанным идентификатором.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTagCollection Remove метод. Удаляет тег структурированного документа с указанным идентификатором на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.markup/structureddocumenttagcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(int id)
 | --- | --- | --- |
 | id | Int32 | Идентификатор тега структурированного документа. |
 
-### Примеры
+## Примеры
 
 Показывает, как удалить тег структурированного документа.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(3, structuredDocumentTags.Count);
 ### Смотрите также
 
 * class [StructuredDocumentTagCollection](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttagcollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

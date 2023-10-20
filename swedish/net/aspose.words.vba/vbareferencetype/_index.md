@@ -1,7 +1,9 @@
 ---
-title: Enum VbaReferenceType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Vba.VbaReferenceType uppräkning. Tillåter att ange typen av aVbaReference objekt.
+title: VbaReferenceType Enum
+linktitle: VbaReferenceType
+articleTitle: VbaReferenceType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Vba.VbaReferenceType uppräkning. Tillåter att ange typen av aVbaReference objekt i C#.
 type: docs
 weight: 6610
 url: /sv/net/aspose.words.vba/vbareferencetype/
@@ -23,7 +25,7 @@ public enum VbaReferenceType
 | Original | `51` | Anger en originalbiblioteksreferenstyp för automatiseringstyp. |
 | Control | `47` | Anger en biblioteksreferenstyp med vridbar typ. |
 
-### Exempel
+## Exempel
 
 Visar hur man hämtar/tar bort ett element från VBA-referenssamlingen.
 
@@ -98,5 +100,3 @@ private static string GetLibIdProjectPath(string libIdProject)
 
 * namnutrymme [Aspose.Words.Vba](../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../)
-
-

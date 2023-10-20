@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.LeftExpression
-second_title: Aspose.Words لمراجع .NET API
-description: ComparisonExpression ملكية. يحصل على التعبير الأيسر.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words لـ .NET
+description: ComparisonExpression LeftExpression ملكية. يحصل على التعبير الأيسر في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/comparisonexpression/leftexpression/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/comparisonexpression/leftexpression/
 public string LeftExpression { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ التقييم المخصص لحقول IF وCOMPARE.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### أنظر أيضا
 
 * class [ComparisonExpression](../)
-* مساحة الاسم [Aspose.Words.Fields](../../comparisonexpression/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TextPath.FitShape
-second_title: Aspose.Words لمراجع .NET API
-description: TextPath ملكية. يحدد ما إذا كان النص يناسب المربع المحيط بالشكل.
+linktitle: FitShape
+articleTitle: FitShape
+second_title: Aspose.Words لـ .NET
+description: TextPath FitShape ملكية. يحدد ما إذا كان النص يناسب المربع المحيط بالشكل في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/textpath/fitshape/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/textpath/fitshape/
 public bool FitShape { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### أنظر أيضا
 
 * class [TextPath](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textpath/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

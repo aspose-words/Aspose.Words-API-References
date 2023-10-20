@@ -1,7 +1,9 @@
 ---
 title: IDocumentSavingCallback.Notify
-second_title: Aspose.Words per .NET API Reference
-description: IDocumentSavingCallback metodo. Viene richiamato per notificare lavanzamento del salvataggio del documento.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words per .NET
+description: IDocumentSavingCallback Notify metodo. Viene richiamato per notificare lavanzamento del salvataggio del documento in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/idocumentsavingcallback/notify/
@@ -18,13 +20,13 @@ public void Notify(DocumentSavingArgs args)
 | --- | --- | --- |
 | args | DocumentSavingArgs | Un argomento dell'evento. |
 
-### Osservazioni
+## Osservazioni
 
 L'utilizzo principale di questa interfaccia è consentire al codice dell'applicazione di ottenere lo stato di avanzamento e interrompere il processo di salvataggio.
 
 Dovrebbe essere lanciata un'eccezione dal callback di avanzamento per l'aborto e dovrebbe essere inclusa nel codice del consumo.
 
-### Esempi
+## Esempi
 
 Mostra come gestire un documento durante il salvataggio in html.
 
@@ -195,7 +197,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * class [DocumentSavingArgs](../../documentsavingargs/)
 * interface [IDocumentSavingCallback](../)
-* spazio dei nomi [Aspose.Words.Saving](../../idocumentsavingcallback/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

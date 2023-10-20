@@ -1,7 +1,9 @@
 ---
 title: VbaModule.Type
-second_title: Referencia de API de Aspose.Words para .NET
-description: VbaModule propiedad. Especifica si el módulo es un módulo de procedimiento un módulo de documento un módulo de clase o un módulo de diseñador.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words para .NET
+description: VbaModule Type propiedad. Especifica si el módulo es un módulo de procedimiento un módulo de documento un módulo de clase o un módulo de diseñador en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.vba/vbamodule/type/
@@ -14,7 +16,7 @@ Especifica si el módulo es un módulo de procedimiento, un módulo de documento
 public VbaModuleType Type { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un proyecto VBA usando macros.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 
 * enum [VbaModuleType](../../vbamoduletype/)
 * class [VbaModule](../)
-* espacio de nombres [Aspose.Words.Vba](../../vbamodule/)
+* espacio de nombres [Aspose.Words.Vba](../../../aspose.words.vba/)
 * asamblea [Aspose.Words](../../../)
-
-

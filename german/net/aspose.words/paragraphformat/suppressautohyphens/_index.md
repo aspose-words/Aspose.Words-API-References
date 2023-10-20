@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SuppressAutoHyphens
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Gibt an ob der aktuelle Absatz von jeglicher Silbentrennung ausgenommen werden soll die in den Dokumenteinstellungen angewendet wird.
+linktitle: SuppressAutoHyphens
+articleTitle: SuppressAutoHyphens
+second_title: Aspose.Words für .NET
+description: ParagraphFormat SuppressAutoHyphens eigendom. Gibt an ob der aktuelle Absatz von jeglicher Silbentrennung ausgenommen werden soll die in den Dokumenteinstellungen angewendet wird in C#.
 type: docs
 weight: 370
 url: /de/net/aspose.words/paragraphformat/suppressautohyphens/
@@ -14,7 +16,7 @@ Gibt an, ob der aktuelle Absatz von jeglicher Silbentrennung ausgenommen werden 
 public bool SuppressAutoHyphens { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Silbentrennung für einen Absatz unterdrückt wird.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.SuppressHyphens.pdf");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

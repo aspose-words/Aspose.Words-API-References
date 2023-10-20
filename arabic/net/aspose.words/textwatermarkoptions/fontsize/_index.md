@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.FontSize
-second_title: Aspose.Words لمراجع .NET API
-description: TextWatermarkOptions ملكية. الحصول على حجم الخط أو تعيينه. القيمة الافتراضية هي 0  auto.
+linktitle: FontSize
+articleTitle: FontSize
+second_title: Aspose.Words لـ .NET
+description: TextWatermarkOptions FontSize ملكية. الحصول على حجم الخط أو تعيينه. القيمة الافتراضية هي 0  auto في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/textwatermarkoptions/fontsize/
@@ -20,13 +22,13 @@ public float FontSize { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | يتم طرحه عندما تكون الوسيطة خارج نطاق القيم الصالحة. |
 
-### ملاحظات
+## ملاحظات
 
 تتراوح القيم الصالحة من 0 إلى 65.5 ضمناً.
 
 حجم الخط التلقائي يعني أنه سيتم تغيير حجم العلامة المائية إلى الحد الأقصى للعرض والحد الأقصى للارتفاع بالنسبة إلى هوامش الصفحة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مائية نصية.
 
@@ -57,7 +59,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### أنظر أيضا
 
 * class [TextWatermarkOptions](../)
-* مساحة الاسم [Aspose.Words](../../textwatermarkoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

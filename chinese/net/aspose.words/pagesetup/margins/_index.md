@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Margins
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 返回或设置预设Margins页面的大小.
+linktitle: Margins
+articleTitle: Margins
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup Margins 财产. 返回或设置预设Margins页面的大小 在 C#.
 type: docs
 weight: 260
 url: /zh/net/aspose.words/pagesetup/margins/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/margins/
 public Margins Margins { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示何时重新计算文档的页面布局。
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 * enum [Margins](../../margins/)
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

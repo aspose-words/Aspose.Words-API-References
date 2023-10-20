@@ -1,7 +1,9 @@
 ---
-title: Enum ImageBinarizationMethod
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.ImageBinarizationMethod перечисление. Указывает метод используемый для бинаризации изображения.
+title: ImageBinarizationMethod Enum
+linktitle: ImageBinarizationMethod
+articleTitle: ImageBinarizationMethod
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.ImageBinarizationMethod перечисление. Указывает метод используемый для бинаризации изображения на С#.
 type: docs
 weight: 5200
 url: /ru/net/aspose.words.saving/imagebinarizationmethod/
@@ -21,7 +23,7 @@ public enum ImageBinarizationMethod
 | Threshold | `0` | Определяет пороговый метод. |
 | FloydSteinbergDithering | `1` | Определяет сглаживание с использованием метода диффузии ошибок Флойда-Стейнберга. |
 
-### Примеры
+## Примеры
 
 Показывает, как установить порог ошибки бинаризации TIFF при использовании метода Флойда-Стейнберга для рендеринга изображения TIFF.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.FloydSteinbergDithering.tiff", options
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

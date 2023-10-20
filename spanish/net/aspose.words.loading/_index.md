@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Loading
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Aspose.Palabras.CargandoEl espacio de nombres proporciona clases y enumeraciones que permiten especificar opciones adicionales al cargar documentos.
+linktitle: Aspose.Words.Loading
+articleTitle: Aspose.Words.Loading
+second_title: Aspose.Words para .NET
+description: ElAspose.Palabras.CargandoEl espacio de nombres proporciona clases y enumeraciones que permiten especificar opciones adicionales al cargar documentos en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words.loading/
 ---
-El **Aspose.Palabras.Cargando**El espacio de nombres proporciona clases y enumeraciones que permiten especificar opciones adicionales al cargar documentos.
+El**Aspose.Palabras.Cargando**El espacio de nombres proporciona clases y enumeraciones que permiten especificar opciones adicionales al cargar documentos.
 
 ## Clases
 
@@ -39,5 +41,3 @@ El **Aspose.Palabras.Cargando**El espacio de nombres proporciona clases y enumer
 | [ResourceType](./resourcetype/) | Tipo de recurso cargado. |
 | [TxtLeadingSpacesOptions](./txtleadingspacesoptions/) | Especifica las opciones disponibles para el manejo del espacio inicial durante la importación desdeText archivo. |
 | [TxtTrailingSpacesOptions](./txttrailingspacesoptions/) | Especifica las opciones disponibles para el manejo de espacios finales durante la importación desdeText archivo. |
-
-

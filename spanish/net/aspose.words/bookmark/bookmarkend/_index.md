@@ -1,7 +1,9 @@
 ---
 title: Bookmark.BookmarkEnd
-second_title: Referencia de API de Aspose.Words para .NET
-description: Bookmark propiedad. Obtiene el nodo que representa el final del marcador.
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words para .NET
+description: Bookmark BookmarkEnd propiedad. Obtiene el nodo que representa el final del marcador en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/bookmark/bookmarkend/
@@ -14,7 +16,7 @@ Obtiene el nodo que representa el final del marcador.
 public BookmarkEnd BookmarkEnd { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar marcadores y actualizar su contenido.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [Bookmark](../)
-* espacio de nombres [Aspose.Words](../../bookmark/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

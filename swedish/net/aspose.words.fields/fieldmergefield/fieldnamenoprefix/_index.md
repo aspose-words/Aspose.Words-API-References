@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.FieldNameNoPrefix
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergeField fast egendom. Returnerar bara namnet på datafältet. Alla prefix tas bort till prefixegenskapen.
+linktitle: FieldNameNoPrefix
+articleTitle: FieldNameNoPrefix
+second_title: Aspose.Words för .NET
+description: FieldMergeField FieldNameNoPrefix fast egendom. Returnerar bara namnet på datafältet. Alla prefix tas bort till prefixegenskapen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldmergefield/fieldnamenoprefix/
@@ -14,7 +16,7 @@ Returnerar bara namnet på datafältet. Alla prefix tas bort till prefixegenskap
 public string FieldNameNoPrefix { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder MERGEFIELD-fält för att utföra en e-postkoppling.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Se även
 
 * class [FieldMergeField](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldmergefield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

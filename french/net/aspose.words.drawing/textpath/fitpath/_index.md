@@ -1,7 +1,9 @@
 ---
 title: TextPath.FitPath
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextPath propriété. Définit si le texte correspond au chemin dune forme.
+linktitle: FitPath
+articleTitle: FitPath
+second_title: Aspose.Words pour .NET
+description: TextPath FitPath propriété. Définit si le texte correspond au chemin dune forme en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing/textpath/fitpath/
@@ -14,11 +16,11 @@ Définit si le texte correspond au chemin d'une forme.
 public bool FitPath { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX`.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Voir également
 
 * class [TextPath](../)
-* espace de noms [Aspose.Words.Drawing](../../textpath/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

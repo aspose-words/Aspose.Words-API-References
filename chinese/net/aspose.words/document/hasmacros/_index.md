@@ -1,7 +1,9 @@
 ---
 title: Document.HasMacros
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 返回真的如果文档有 VBA 项目宏.
+linktitle: HasMacros
+articleTitle: HasMacros
+second_title: 用于 .NET 的 Aspose.Words
+description: Document HasMacros 财产. 返回真的如果文档有 VBA 项目宏 在 C#.
 type: docs
 weight: 190
 url: /zh/net/aspose.words/document/hasmacros/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/hasmacros/
 public bool HasMacros { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 MACROBUTTON 字段来允许我们通过单击来运行文档的宏。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 
 * method [RemoveMacros](../removemacros/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

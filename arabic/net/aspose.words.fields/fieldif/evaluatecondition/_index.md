@@ -1,7 +1,9 @@
 ---
 title: FieldIf.EvaluateCondition
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIf طريقة. تقييم الحالة.
+linktitle: EvaluateCondition
+articleTitle: EvaluateCondition
+second_title: Aspose.Words لـ .NET
+description: FieldIf EvaluateCondition طريقة. تقييم الحالة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldif/evaluatecondition/
@@ -18,7 +20,7 @@ public FieldIfComparisonResult EvaluateCondition()
 
 أ[`FieldIfComparisonResult`](../../fieldifcomparisonresult/) القيمة التي تمثل نتيجة تقييم الحالة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل IF.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 
 * enum [FieldIfComparisonResult](../../fieldifcomparisonresult/)
 * class [FieldIf](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldif/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum EmphasisMark
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.EmphasisMark uppräkning. Anger möjliga typer av betoningsmärke.
+title: EmphasisMark Enum
+linktitle: EmphasisMark
+articleTitle: EmphasisMark
+second_title: Aspose.Words för .NET
+description: Aspose.Words.EmphasisMark uppräkning. Anger möjliga typer av betoningsmärke i C#.
 type: docs
 weight: 1460
 url: /sv/net/aspose.words/emphasismark/
@@ -24,7 +26,7 @@ public enum EmphasisMark
 | OverWhiteCircle | `3` | Betoningen är en tom vit cirkel som visas ovanför texten. |
 | UnderSolidCircle | `4` | Betoningen är en hel svart cirkel som visas under texten. |
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ytterligare tecken renderat ovanför/under tecknet.
 
@@ -47,5 +49,3 @@ builder.Document.Save(ArtifactsDir + "Fonts.SetEmphasisMark.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

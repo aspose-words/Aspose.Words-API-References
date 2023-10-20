@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndRow
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Finaliza una fila de la tabla en el documento.
+linktitle: EndRow
+articleTitle: EndRow
+second_title: Aspose.Words para .NET
+description: DocumentBuilder EndRow método. Finaliza una fila de la tabla en el documento en C#.
 type: docs
 weight: 240
 url: /es/net/aspose.words/documentbuilder/endrow/
@@ -18,13 +20,13 @@ public Row EndRow()
 
 El nodo de fila que acaba de terminar.
 
-### Observaciones
+## Observaciones
 
 Llamar`EndRow` para finalizar una fila de la tabla. si llamas[`InsertCell`](../insertcell/) inmediatamente después de eso, la tabla continúa en una nueva fila.
 
 Utilizar el[`RowFormat`](../rowformat/) propiedad para especificar el formato de fila.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo fusionar celdas de tablas verticalmente.
 
@@ -166,7 +168,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Row](../../../aspose.words.tables/row/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

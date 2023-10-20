@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.HorizontalAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Указывает как фигура располагается по горизонтали.
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: Aspose.Words для .NET
+description: ShapeBase HorizontalAlignment свойство. Указывает как фигура располагается по горизонтали на С#.
 type: docs
 weight: 220
 url: /ru/net/aspose.words.drawing/shapebase/horizontalalignment/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/shapebase/horizontalalignment/
 public HorizontalAlignment HorizontalAlignment { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:None.
 
 Имеет эффект только для плавающих фигур верхнего уровня.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить плавающее изображение в центр страницы.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [HorizontalAlignment](../../horizontalalignment/)
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

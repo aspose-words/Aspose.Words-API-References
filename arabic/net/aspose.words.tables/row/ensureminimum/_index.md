@@ -1,9 +1,11 @@
 ---
 title: Row.EnsureMinimum
-second_title: Aspose.Words لمراجع .NET API
-description: Row طريقة. إذاRow لا يحتوي على خلايا ويقوم بإنشاء وإلحاق واحدةCell .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words لـ .NET
+description: Row EnsureMinimum طريقة. إذاRow لا يحتوي على خلايا ويقوم بإنشاء وإلحاق واحدةCell  في C#.
 type: docs
-weight: 150
+weight: 130
 url: /ar/net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/row/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التأكد من أن عقدة الصف تحتوي على العقد التي نحتاجها لبدء إضافة المحتوى إليها.
 
@@ -38,7 +40,5 @@ row.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ### أنظر أيضا
 
 * class [Row](../)
-* مساحة الاسم [Aspose.Words.Tables](../../row/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

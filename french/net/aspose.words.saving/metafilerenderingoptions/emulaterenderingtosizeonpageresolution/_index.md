@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MetafileRenderingOptions propriété. Obtient ou définit la résolution en pixels par pouce pour lémulation du rendu des métafichiers à la taille de la page.
+linktitle: EmulateRenderingToSizeOnPageResolution
+articleTitle: EmulateRenderingToSizeOnPageResolution
+second_title: Aspose.Words pour .NET
+description: MetafileRenderingOptions EmulateRenderingToSizeOnPageResolution propriété. Obtient ou définit la résolution en pixels par pouce pour lémulation du rendu des métafichiers à la taille de la page en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/
@@ -14,13 +16,13 @@ Obtient ou définit la résolution en pixels par pouce pour l'émulation du rend
 public int EmulateRenderingToSizeOnPageResolution { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette option est utilisée uniquement lorsque[`EmulateRenderingToSizeOnPage`](../emulaterenderingtosizeonpage/) est réglé sur`vrai`.
 
 La valeur par défaut est 96. Il s'agit d'une résolution d'affichage par défaut. C'est-à-dire que le rendu du métafichier émulera l'affichage de le métafichier dans MS Word avec un facteur de zoom de 100 %.
 
-### Exemples
+## Exemples
 
 Montre comment afficher le métafichier en fonction de la taille sur la page.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf", saveO
 ### Voir également
 
 * class [MetafileRenderingOptions](../)
-* espace de noms [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

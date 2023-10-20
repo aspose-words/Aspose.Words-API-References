@@ -1,12 +1,14 @@
 ---
 title: ReportingEngine.BuildReport
-second_title: Aspose.Words for .NET API Referansı
-description: ReportingEngine yöntem. Belirtilen şablon belgesini belirtilen kaynaktan gelen verilerle doldurarak onu hazır bir rapor haline getirir.
+linktitle: BuildReport
+articleTitle: BuildReport
+second_title: Aspose.Words for .NET
+description: ReportingEngine BuildReport yöntem. Belirtilen şablon belgesini belirtilen kaynaktan gelen verilerle doldurarak onu hazır bir rapor haline getirir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.reporting/reportingengine/buildreport/
 ---
-## BuildReport(Document, object) {#buildreport}
+## BuildReport(*[Document](../../../aspose.words/document/), object*) {#buildreport}
 
 Belirtilen şablon belgesini, belirtilen kaynaktan gelen verilerle doldurarak onu hazır bir rapor haline getirir.
 
@@ -23,7 +25,7 @@ public bool BuildReport(Document document, object dataSource)
 
 Şablon belgesinin ayrıştırılmasının başarılı olup olmadığını gösteren bir işaret. Döndürülen işaret, yalnızca[`Options`](../options/)özellik 'yi içerirInlineErrorMessages seçenek.
 
-### Notlar
+## Notlar
 
 Bu aşırı yüklemeyi kullanarak, şablon belgedeki veri kaynağının üyelerine başvuruda bulunabilirsiniz, ancak veri kaynağı nesnesinin kendisine başvuruda bulunamazsınız. Şunu kullanmalısın:`BuildReport` Bunu başarmak için aşırı yük.
 
@@ -47,12 +49,12 @@ Bir veri kaynağı nesnesi aşağıdaki türlerden birinde olabilir:
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* ad alanı [Aspose.Words.Reporting](../../reportingengine/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## BuildReport(Document, object, string) {#buildreport_1}
+## BuildReport(*[Document](../../../aspose.words/document/), object, string*) {#buildreport_1}
 
 Belirtilen şablon belgesini, belirtilen kaynaktan gelen verilerle doldurarak onu hazır bir rapor haline getirir.
 
@@ -70,7 +72,7 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 Şablon belgesinin ayrıştırılmasının başarılı olup olmadığını gösteren bir işaret. Döndürülen işaret, yalnızca[`Options`](../options/)özellik 'yi içerirInlineErrorMessages seçenek.
 
-### Notlar
+## Notlar
 
 Bu aşırı yüklemeyi kullanarak, şablondaki veri kaynağının üyelerine ve veri kaynağı nesnesinin kendisine başvurabilirsiniz. Veri kaynağı nesnesinin kendisine referans vermeyecekseniz, atlayabilirsiniz*dataSourceName* geçiyor`hükümsüz` veya şunu kullanın`BuildReport` aşırı yük.
 
@@ -94,12 +96,12 @@ Bir veri kaynağı nesnesi aşağıdaki türlerden birinde olabilir:
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* ad alanı [Aspose.Words.Reporting](../../reportingengine/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## BuildReport(Document, object[], string[]) {#buildreport_2}
+## BuildReport(*[Document](../../../aspose.words/document/), object[], string[]*) {#buildreport_2}
 
 Belirtilen şablon belgeyi, belirtilen kaynaklardan alınan verilerle doldurarak onu hazır bir rapor haline getirir.
 
@@ -117,7 +119,7 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 Şablon belgesinin ayrıştırılmasının başarılı olup olmadığını gösteren bir işaret. Döndürülen işaret, yalnızca[`Options`](../options/)özellik 'yi içerirInlineErrorMessages seçenek.
 
-### Notlar
+## Notlar
 
 Bu aşırı yüklemeyi kullanarak, şablondaki birden çok veri kaynağı nesnesine ve bunların üyelerine başvuruda bulunabilirsiniz. İlk veri kaynağının adı ihmal edilebilir (örn. boş bir dize veya`hükümsüz` veri kaynağı nesnesinin kendisine değil, veri kaynağının üyelerine referans verecekseniz. Diğer veri kaynaklarının adları belirtilmeli ve benzersiz olmalıdır.
 
@@ -143,7 +145,5 @@ Bir veri kaynağı nesnesi aşağıdaki türlerden birinde olabilir:
 
 * class [Document](../../../aspose.words/document/)
 * class [ReportingEngine](../)
-* ad alanı [Aspose.Words.Reporting](../../reportingengine/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
-
-

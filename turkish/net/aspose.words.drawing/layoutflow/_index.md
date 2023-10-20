@@ -1,7 +1,9 @@
 ---
-title: Enum LayoutFlow
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.LayoutFlow Sıralama. Bir metin kutusundaki metin düzeninin akışını belirler.
+title: LayoutFlow Enum
+linktitle: LayoutFlow
+articleTitle: LayoutFlow
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.LayoutFlow Sıralama. Bir metin kutusundaki metin düzeninin akışını belirler C#'da.
 type: docs
 weight: 1100
 url: /tr/net/aspose.words.drawing/layoutflow/
@@ -25,7 +27,7 @@ public enum LayoutFlow
 | HorizontalIdeographic | `4` | İdeografik metin yatay olarak görüntülenir. |
 | Vertical | `5` | Metin dikey olarak görüntülenir. |
 
-### Örnekler
+## Örnekler
 
 Metin kutusuna nasıl metin ekleneceğini ve yönünün nasıl değiştirileceğini gösterir
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Drawing.TextBox.docx");
 * property [LayoutFlow](../textbox/layoutflow/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

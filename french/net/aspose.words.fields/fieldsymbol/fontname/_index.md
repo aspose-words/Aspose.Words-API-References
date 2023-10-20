@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.FontName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldSymbol propriété. Obtient ou définit le nom de la police du caractère récupéré par le champ.
+linktitle: FontName
+articleTitle: FontName
+second_title: Aspose.Words pour .NET
+description: FieldSymbol FontName propriété. Obtient ou définit le nom de la police du caractère récupéré par le champ en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldsymbol/fontname/
@@ -14,7 +16,7 @@ Obtient ou définit le nom de la police du caractère récupéré par le champ.
 public string FontName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser le champ SYMBOLE.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Voir également
 
 * class [FieldSymbol](../)
-* espace de noms [Aspose.Words.Fields](../../fieldsymbol/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

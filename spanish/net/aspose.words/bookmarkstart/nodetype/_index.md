@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: BookmarkStart propiedad. DevolucionesBookmarkStart .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: BookmarkStart NodeType propiedad. DevolucionesBookmarkStart  en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/bookmarkstart/nodetype/
@@ -14,7 +16,7 @@ DevolucionesBookmarkStart .
 public override NodeType NodeType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [BookmarkStart](../)
-* espacio de nombres [Aspose.Words](../../bookmarkstart/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

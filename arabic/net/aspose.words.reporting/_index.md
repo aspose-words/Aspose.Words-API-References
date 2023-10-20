@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Reporting
-second_title: Aspose.Words لمراجع .NET API
-description: تحتوي مساحة الاسم هذه على فئات محرك التقارير الجديد الخاص بـ Aspose.Words والذي يدعم قوالب التقارير المميزة بلغة تعتمد على بنية أسلوب LINQ.
+linktitle: Aspose.Words.Reporting
+articleTitle: Aspose.Words.Reporting
+second_title: Aspose.Words لـ .NET
+description: تحتوي مساحة الاسم هذه على فئات محرك التقارير الجديد الخاص بـ Aspose.Words والذي يدعم قوالب التقارير المميزة بلغة تعتمد على بنية أسلوب LINQ في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.reporting/
@@ -26,5 +28,3 @@ url: /ar/net/aspose.words.reporting/
 | --- | --- |
 | [JsonSimpleValueParseMode](./jsonsimplevalueparsemode/) | يحدد وضعًا لتحليل قيم JSON البسيطة (فارغة ومنطقية ورقمية وعدد صحيح وسلسلة) أثناء تحميل JSON. لا يؤثر هذا الوضع على تحليل قيم التاريخ والوقت. |
 | [ReportBuildOptions](./reportbuildoptions/) | يحدد خيارات التحكم في سلوك[`ReportingEngine`](../aspose.words.reporting/reportingengine/) أثناء إنشاء التقرير. |
-
-

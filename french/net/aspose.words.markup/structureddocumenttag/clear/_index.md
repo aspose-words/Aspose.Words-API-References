@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.Clear
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag méthode. Efface le contenu de cette balise de document structuré et affiche un espace réservé sil est défini.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag Clear méthode. Efface le contenu de cette balise de document structuré et affiche un espace réservé sil est défini en C#.
 type: docs
-weight: 360
+weight: 340
 url: /fr/net/aspose.words.markup/structureddocumenttag/clear/
 ---
 ## StructuredDocumentTag.Clear method
@@ -14,13 +16,13 @@ Efface le contenu de cette balise de document structuré et affiche un espace r�
 public void Clear()
 ```
 
-### Remarques
+## Remarques
 
 Il n'est pas possible d'effacer le contenu d'une balise de document structuré si elle comporte des révisions.
 
 Si cette balise de document structuré est mappée sur du XML personnalisé (en utilisant le[`XmlMapping`](../xmlmapping/) ), le nœud XML référencé est effacé.
 
-### Exemples
+## Exemples
 
 Montre comment supprimer le contenu des éléments de balise de document structuré.
 
@@ -68,7 +70,5 @@ Assert.AreEqual("Custom placeholder text.", tag.GetText().Trim());
 ### Voir également
 
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

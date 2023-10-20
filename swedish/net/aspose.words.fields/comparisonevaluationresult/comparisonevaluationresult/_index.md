@@ -1,12 +1,14 @@
 ---
-title: ComparisonEvaluationResult.ComparisonEvaluationResult
-second_title: Aspose.Words för .NET API Referens
-description: ComparisonEvaluationResult byggare. Skapar ett resultat för jämförelseutvärdering.
+title: ComparisonEvaluationResult
+linktitle: ComparisonEvaluationResult
+articleTitle: ComparisonEvaluationResult
+second_title: Aspose.Words för .NET
+description: ComparisonEvaluationResult byggare. Skapar ett resultat för jämförelseutvärdering i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/
 ---
-## ComparisonEvaluationResult(bool) {#constructor}
+## ComparisonEvaluationResult(*bool*) {#constructor}
 
 Skapar ett resultat för jämförelseutvärdering.
 
@@ -14,7 +16,7 @@ Skapar ett resultat för jämförelseutvärdering.
 public ComparisonEvaluationResult(bool result)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man implementerar anpassad utvärdering för IF- och COMPARE-fälten.
 
@@ -98,12 +100,12 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Se även
 
 * class [ComparisonEvaluationResult](../)
-* namnutrymme [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## ComparisonEvaluationResult(string) {#constructor_1}
+## ComparisonEvaluationResult(*string*) {#constructor_1}
 
 Skapar ett misslyckat resultat för jämförelseutvärdering med motsvarande felmeddelande.
 
@@ -111,7 +113,7 @@ Skapar ett misslyckat resultat för jämförelseutvärdering med motsvarande fel
 public ComparisonEvaluationResult(string errorMessage)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man implementerar anpassad utvärdering för IF- och COMPARE-fälten.
 
@@ -195,7 +197,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### Se även
 
 * class [ComparisonEvaluationResult](../)
-* namnutrymme [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class License
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.License sınıf. Bileşeni lisanslamak için yöntemler sağlar.
+title: License Class
+linktitle: License
+articleTitle: License
+second_title: Aspose.Words for .NET
+description: Aspose.Words.License sınıf. Bileşeni lisanslamak için yöntemler sağlar C#'da.
 type: docs
 weight: 3420
 url: /tr/net/aspose.words/license/
@@ -26,10 +28,10 @@ public class License
 
 | İsim | Tanım |
 | --- | --- |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(Stream) | Bileşeni lisanslar. |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(string) | Bileşeni lisanslar. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(*Stream*) | Bileşeni lisanslar. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(*string*) | Bileşeni lisanslar. |
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki bir lisans dosyasını kullanarak Aspose.Words lisansının nasıl başlatıldığını gösterir.
 
@@ -54,5 +56,3 @@ license.SetLicense("Aspose.Words.NET.lic");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum CssStyleSheetType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.CssStyleSheetType 枚举. 指定如何将 CSS层叠样式表样式导出为 HTML
+title: CssStyleSheetType Enum
+linktitle: CssStyleSheetType
+articleTitle: CssStyleSheetType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.CssStyleSheetType 枚举. 指定如何将 CSS层叠样式表样式导出为 HTML 在 C#.
 type: docs
 weight: 4890
 url: /zh/net/aspose.words.saving/cssstylesheettype/
@@ -18,11 +20,11 @@ public enum CssStyleSheetType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Inline | `0` | CSS 样式是内联编写的（作为 **风格**每个元素上的属性）. |
+| Inline | `0` | CSS 样式是内联编写的（作为**风格**每个元素上的属性）. |
 | Embedded | `1` | CSS 样式与 HTML 文件中嵌入的样式表内容分开编写。 |
 | External | `2` | CSS 样式与外部文件中样式表的内容分开编写。 HTML 文件链接样式表。 |
 
-### 例子
+## 例子
 
 演示如何使用 HTML 转换创建的 CSS 样式表。
 
@@ -85,5 +87,3 @@ private class CustomCssSavingCallback : ICssSavingCallback
 * property [CssStyleSheetType](../htmlsaveoptions/cssstylesheettype/)
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

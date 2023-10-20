@@ -1,7 +1,9 @@
 ---
 title: Shape.FillColor
-second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Определяет цвет кисти заполняющей замкнутый контур фигуры.
+linktitle: FillColor
+articleTitle: FillColor
+second_title: Aspose.Words для .NET
+description: Shape FillColor свойство. Определяет цвет кисти заполняющей замкнутый контур фигуры на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing/shape/fillcolor/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/shape/fillcolor/
 public Color FillColor { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это ярлык для[`Color`](../../fill/color/) свойство.
 
 Значение по умолчанию: .White.
 
-### Примеры
+## Примеры
 
 Показывает, как залить фигуру сплошным цветом.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 ### Смотрите также
 
 * class [Shape](../)
-* пространство имен [Aspose.Words.Drawing](../../shape/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

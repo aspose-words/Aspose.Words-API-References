@@ -1,7 +1,9 @@
 ---
-title: FieldData.FieldData
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldData constructor. Constructor predeterminado
+title: FieldData
+linktitle: FieldData
+articleTitle: FieldData
+second_title: Aspose.Words para .NET
+description: FieldData constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fielddata/fielddata/
@@ -17,7 +19,5 @@ public FieldData()
 ### Ver también
 
 * class [FieldData](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddata/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

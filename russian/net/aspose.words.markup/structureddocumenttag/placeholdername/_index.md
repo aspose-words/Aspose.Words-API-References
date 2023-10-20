@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.PlaceholderName
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Получает или задает ИмяBuildingBlock содержащий текстзаполнитель.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag PlaceholderName свойство. Получает или задает ИмяBuildingBlock содержащий текстзаполнитель на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.markup/structureddocumenttag/placeholdername/
@@ -16,7 +18,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttag/placeholdername/
 public string PlaceholderName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать содержимое стандартного блока в качестве пользовательского текста-заполнителя для тега структурированного документа.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

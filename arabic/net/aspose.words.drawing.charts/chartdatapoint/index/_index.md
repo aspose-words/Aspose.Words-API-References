@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Index
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataPoint ملكية. فهرس نقطة البيانات التي يطبق هذا الكائن التنسيق عليها.
+linktitle: Index
+articleTitle: Index
+second_title: Aspose.Words لـ .NET
+description: ChartDataPoint Index ملكية. فهرس نقطة البيانات التي يطبق هذا الكائن التنسيق عليها في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing.charts/chartdatapoint/index/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatapoint/index/
 public int Index { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع نقاط البيانات على مخطط خطي.
 
@@ -76,7 +78,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 ### أنظر أيضا
 
 * class [ChartDataPoint](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.IsComposite
-second_title: Справочник по API Aspose.Words для .NET
-description: CompositeNode свойство. Возвращаетистинный поскольку этот узел может иметь дочерние узлы.
+linktitle: IsComposite
+articleTitle: IsComposite
+second_title: Aspose.Words для .NET
+description: CompositeNode IsComposite свойство. Возвращаетистинный поскольку этот узел может иметь дочерние узлы на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/compositenode/iscomposite/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/compositenode/iscomposite/
 public override bool IsComposite { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перемещаться по дереву дочерних узлов составного узла.
 
@@ -61,7 +63,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### Смотрите также
 
 * class [CompositeNode](../)
-* пространство имен [Aspose.Words](../../compositenode/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

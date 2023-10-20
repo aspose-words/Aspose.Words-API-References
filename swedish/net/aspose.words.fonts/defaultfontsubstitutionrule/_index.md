@@ -1,7 +1,9 @@
 ---
-title: Class DefaultFontSubstitutionRule
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.DefaultFontSubstitutionRule klass. Standardregel för teckensnittsersättning.
+title: DefaultFontSubstitutionRule Class
+linktitle: DefaultFontSubstitutionRule
+articleTitle: DefaultFontSubstitutionRule
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.DefaultFontSubstitutionRule klass. Standardregel för teckensnittsersättning i C#.
 type: docs
 weight: 2840
 url: /sv/net/aspose.words.fonts/defaultfontsubstitutionrule/
@@ -23,11 +25,11 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 | [DefaultFontName](../../aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/) { get; set; } | Hämtar eller ställer in standardteckensnittsnamnet. |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Anger om regeln är aktiverad eller inte. |
 
-### Anmärkningar
+## Anmärkningar
 
 Den här regeln definierar ett enda standardteckensnittsnamn som ska användas för ersättning om det ursprungliga teckensnittet inte är tillgängligt.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in standardregeln för teckensnittsersättning.
 
@@ -61,5 +63,3 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

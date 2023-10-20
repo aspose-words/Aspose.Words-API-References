@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportOriginalUrlForLinkedImages
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كان يجب استخدام عنوان URL الأصلي كعنوان URL للصور المرتبطة. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ExportOriginalUrlForLinkedImages
+articleTitle: ExportOriginalUrlForLinkedImages
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ExportOriginalUrlForLinkedImages ملكية. يحدد ما إذا كان يجب استخدام عنوان URL الأصلي كعنوان URL للصور المرتبطة. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimage
 public bool ExportOriginalUrlForLinkedImages { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا تم ضبط القيمة على`حقيقي`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) يتم استخدام القيمة حيث لا يتم تحميل عنوان URL للصور المرتبطة والصور المرتبطة في مجلد المستند أو[`ImagesFolder`](../imagesfolder/).
 
 إذا تم ضبط القيمة على`خطأ شنيع`يتم تحميل الصور المرتبطة في مجلد المستند أو[`ImagesFolder`](../imagesfolder/) ويتم إنشاء عنوان URL لكل صورة مرتبطة اعتمادًا على في مجلد المستند،[`ImagesFolder`](../imagesfolder/) و[`ImagesFolderAlias`](../imagesfolderalias/) ملكيات.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين المجلدات والأسماء المستعارة للمجلدات للموارد المحفوظة خارجيًا والتي سيقوم Aspose.Words بإنشائها عند حفظ مستند إلى HTML.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

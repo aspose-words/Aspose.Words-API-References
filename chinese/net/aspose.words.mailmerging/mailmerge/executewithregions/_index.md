@@ -1,12 +1,14 @@
 ---
 title: MailMerge.ExecuteWithRegions
-second_title: Aspose.Words for .NET API 参考
-description: MailMerge 方法. 从具有邮件合并区域的自定义数据源执行邮件合并
+linktitle: ExecuteWithRegions
+articleTitle: ExecuteWithRegions
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMerge ExecuteWithRegions 方法. 从具有邮件合并区域的自定义数据源执行邮件合并 在 C#.
 type: docs
 weight: 200
 url: /zh/net/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
-## ExecuteWithRegions(IMailMergeDataSource) {#executewithregions}
+## ExecuteWithRegions(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#executewithregions}
 
 从具有邮件合并区域的自定义数据源执行邮件合并。
 
@@ -18,13 +20,13 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 | --- | --- | --- |
 | dataSource | IMailMergeDataSource | 实现自定义邮件合并数据源接口的对象。 |
 
-### 评论
+## 评论
 
 使用此方法可以使用来自 任何自定义数据源（例如 XML 文件或业务对象集合）的值填充文档中的邮件合并字段。您需要编写 your 自己的类来实现[`IMailMergeDataSource`](../../imailmergedatasource/)界面。
 
 仅当以下情况时才可以使用此方法[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)是`错误的`, 即您不需要从右到左的语言（例如阿拉伯语或希伯来语）兼容性。
 
-### 例子
+## 例子
 
 演示如何使用邮件合并区域来执行嵌套邮件合并。
 
@@ -271,12 +273,12 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(IMailMergeDataSourceRoot) {#executewithregions_1}
+## ExecuteWithRegions(*[IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)*) {#executewithregions_1}
 
 从具有邮件合并区域的自定义数据源执行邮件合并。
 
@@ -288,13 +290,13 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 | --- | --- | --- |
 | dataSourceRoot | IMailMergeDataSourceRoot | 实现自定义邮件合并数据源根接口的对象。 |
 
-### 评论
+## 评论
 
 使用此方法可以使用来自 任何自定义数据源（例如 XML 文件或业务对象集合）的值填充文档中的邮件合并字段。您需要编写自己的classes 来实现[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/)和[`IMailMergeDataSource`](../../imailmergedatasource/)接口。
 
 仅当以下情况时才可以使用此方法[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)是`错误的`, 即您不需要从右到左的语言（例如阿拉伯语或希伯来语）兼容性。
 
-### 例子
+## 例子
 
 使用主从数据从自定义数据源执行邮件合并。
 
@@ -478,14 +480,14 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataSet) {#executewithregions_2}
+## ExecuteWithRegions(*DataSet*) {#executewithregions_2}
 
-从 a 执行邮件合并 **数据集**到具有邮件合并区域的文档中。
+从 a 执行邮件合并**数据集**到具有邮件合并区域的文档中。
 
 ```csharp
 public void ExecuteWithRegions(DataSet dataSet)
@@ -495,31 +497,31 @@ public void ExecuteWithRegions(DataSet dataSet)
 | --- | --- | --- |
 | dataSet | DataSet | **数据集**包含要插入邮件合并字段的数据。 |
 
-### 评论
+## 评论
 
 使用此方法可将一个或多个表的邮件合并到文档中可重复的 mail 合并区域中。文档内的邮件合并区域将动态 增长以容纳相应表中的记录。
 
-店里的每张桌子 **数据集**必须有一个名字。
+店里的每张桌子**数据集**必须有一个名字。
 
-该文档必须具有定义的邮件合并区域，其名称引用了该文档中的tables 。 **数据集**。
+该文档必须具有定义的邮件合并区域，其名称引用了该文档中的tables 。**数据集**。
 
 要在文档中指定邮件合并区域，您需要插入两个邮件合并字段 来标记邮件合并区域的开始和结束。
 
-邮件合并区域中包含的所有文档内容将自动 重复用于该区域中的每条记录。 **数据表**。
+邮件合并区域中包含的所有文档内容将自动 重复用于该区域中的每条记录。**数据表**。
 
-要标记邮件合并区域的开始，请插入名称为 TableStart:MyTable, 的 MERGEFIELD，其中 MyTable 对应于您的表名称之一 **数据集**。
+要标记邮件合并区域的开始，请插入名称为 TableStart:MyTable, 的 MERGEFIELD，其中 MyTable 对应于您的表名称之一**数据集**。
 
 要标记邮件合并区域的结尾，请插入另一个名为 TableEnd:MyTable 的 MERGEFIELD。
 
 要在 Word 中插入 MERGEFIELD，请使用“插入/字段”命令并选择“合并字段”，然后键入字段的 名称。
 
-这 **开始表**和 **桌尾**字段必须位于文档的同一部分内。
+这**开始表**和**桌尾**字段必须位于文档的同一部分内。
 
-如果在表格内使用， **开始表**和 **桌尾**必须位于表中的同一行内。
+如果在表格内使用，**开始表**和**桌尾**必须位于表中的同一行内。
 
-文档中的邮件合并区域应该格式良好（总是需要一对匹配的  **开始表**和 **桌尾**合并具有相同表名的字段）。
+文档中的邮件合并区域应该格式良好（总是需要一对匹配的 **开始表**和**桌尾**合并具有相同表名的字段）。
 
-### 例子
+## 例子
 
 演示如何执行具有两个合并区域和两个数据表的嵌套邮件合并。
 
@@ -603,14 +605,14 @@ private static DataSet CreateDataSet()
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataTable) {#executewithregions_3}
+## ExecuteWithRegions(*DataTable*) {#executewithregions_3}
 
-从 a 执行邮件合并 **数据表**进入带有邮件合并区域的文档。
+从 a 执行邮件合并**数据表**进入带有邮件合并区域的文档。
 
 ```csharp
 public void ExecuteWithRegions(DataTable dataTable)
@@ -620,13 +622,13 @@ public void ExecuteWithRegions(DataTable dataTable)
 | --- | --- | --- |
 | dataTable | DataTable | 邮件合并操作的数据源。表 Must 有其TableName属性集。 |
 
-### 评论
+## 评论
 
 该文档必须有一个定义为名称 matches 的邮件合并区域TableName。
 
 如果文档中定义了其他邮件合并区域，它们将保持不变。 这允许执行多个邮件合并操作。
 
-### 例子
+## 例子
 
 演示如何在邮件合并期间设置单元格格式。
 
@@ -762,14 +764,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataView) {#executewithregions_4}
+## ExecuteWithRegions(*DataView*) {#executewithregions_4}
 
-从 a 执行邮件合并 **数据视图**进入带有邮件合并区域的文档。
+从 a 执行邮件合并**数据视图**进入带有邮件合并区域的文档。
 
 ```csharp
 public void ExecuteWithRegions(DataView dataView)
@@ -777,17 +779,17 @@ public void ExecuteWithRegions(DataView dataView)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dataView | DataView | 邮件合并操作的数据源。的源表  **数据视图**必有其 **表名**属性集。 |
+| dataView | DataView | 邮件合并操作的数据源。的源表 **数据视图**必有其**表名**属性集。 |
 
-### 评论
+## 评论
 
-如果您将数据检索到 **数据表**但 then 需要在邮件合并之前应用过滤器或排序。
+如果您将数据检索到**数据表**但 then 需要在邮件合并之前应用过滤器或排序。
 
-该文档必须有一个定义为名称 matches 的邮件合并区域 **DataView.Table.TableName**。
+该文档必须有一个定义为名称 matches 的邮件合并区域**DataView.Table.TableName**。
 
 如果文档中定义了其他邮件合并区域，它们将保持不变。 这允许执行多个邮件合并操作。
 
-### 例子
+## 例子
 
 演示如何使用区域在一个文档中执行两个单独的邮件合并。
 
@@ -843,14 +845,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(IDataReader, string) {#executewithregions_5}
+## ExecuteWithRegions(*IDataReader, string*) {#executewithregions_5}
 
-执行邮件合并 **数据读取器**进入带有邮件合并区域的文档。
+执行邮件合并**数据读取器**进入带有邮件合并区域的文档。
 
 ```csharp
 public void ExecuteWithRegions(IDataReader dataReader, string tableName)
@@ -858,14 +860,14 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dataReader | IDataReader | 邮件合并的数据记录来源，例如 **OleDb数据读取器**或者 **数据库读取器**。 |
+| dataReader | IDataReader | 邮件合并的数据记录来源，例如**OleDb数据读取器**或者**数据库读取器**。 |
 | tableName | String | 文档中要填充的邮件合并区域的名称。 |
 
-### 评论
+## 评论
 
-你可以通过 **数据库读取器**或者 **OleDb数据读取器**对象作为参数传入 this 方法，因为它们都实现了 **数据读取器**界面。
+你可以通过**数据库读取器**或者**OleDb数据读取器**对象作为参数传入 this 方法，因为它们都实现了**数据读取器**界面。
 
-### 例子
+## 例子
 
 演示如何将存储在数据库 BLOB 字段中的图像插入到报表中。
 
@@ -914,7 +916,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 ### 也可以看看
 
 * class [MailMerge](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

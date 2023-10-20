@@ -1,7 +1,9 @@
 ---
 title: Paragraph.Runs
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. يوفر الوصول إلى مجموعة أجزاء النص المكتوبة داخل الفقرة.
+linktitle: Runs
+articleTitle: Runs
+second_title: Aspose.Words لـ .NET
+description: Paragraph Runs ملكية. يوفر الوصول إلى مجموعة أجزاء النص المكتوبة داخل الفقرة في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words/paragraph/runs/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/runs/
 public RunCollection Runs { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد نوع المراجعة للعقدة المضمنة.
 
@@ -71,7 +73,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [RunCollection](../../runcollection/)
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

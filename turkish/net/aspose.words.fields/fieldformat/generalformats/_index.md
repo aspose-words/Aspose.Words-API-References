@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.GeneralFormats
-second_title: Aspose.Words for .NET API Referansı
-description: FieldFormat mülk. Sayısal metin veya herhangi bir alan sonucuna uygulanan genel formatların bir koleksiyonunu alır.  anahtarlarına karşılık gelir.
+linktitle: GeneralFormats
+articleTitle: GeneralFormats
+second_title: Aspose.Words for .NET
+description: FieldFormat GeneralFormats mülk. Sayısal metin veya herhangi bir alan sonucuna uygulanan genel formatların bir koleksiyonunu alır.  anahtarlarına karşılık gelir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldformat/generalformats/
@@ -14,7 +16,7 @@ Sayısal, metin veya herhangi bir alan sonucuna uygulanan genel formatların bir
 public GeneralFormatCollection GeneralFormats { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Alan sonuçlarının nasıl biçimlendirileceğini gösterir.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * class [GeneralFormatCollection](../../generalformatcollection/)
 * class [FieldFormat](../)
-* ad alanı [Aspose.Words.Fields](../../fieldformat/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

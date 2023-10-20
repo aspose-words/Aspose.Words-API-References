@@ -1,7 +1,9 @@
 ---
-title: Class Shading
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Shading klass. Innehåller skuggningsattribut för ett objekt.
+title: Shading Class
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Shading klass. Innehåller skuggningsattribut för ett objekt i C#.
 type: docs
 weight: 5990
 url: /sv/net/aspose.words/shading/
@@ -33,11 +35,11 @@ public class Shading : InternableComplexAttr
 | namn | Beskrivning |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting/)() | Tar bort skuggning från objektet. |
-| override [Equals](../../aspose.words/shading/equals/#equals_1)(object) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
-| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Bestämmer om den angivna`Shading` är lika i värde med strömmen`Shading` . |
+| override [Equals](../../aspose.words/shading/equals/#equals_1)(*object*) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
+| [Equals](../../aspose.words/shading/equals/#equals)(*Shading*) | Bestämmer om den angivna`Shading` är lika i värde med strömmen`Shading` . |
 | override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Fungerar som en hashfunktion för denna typ. |
 
-### Exempel
+## Exempel
 
 Visar hur man dekorerar text med kanter och skuggningar.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
 * class [InternableComplexAttr](../internablecomplexattr/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: LoadOptions.LoadOptions
-second_title: Aspose.Words for .NET API 参考
-description: LoadOptions 构造函数. 使用默认值初始化此类的新实例
+title: LoadOptions
+linktitle: LoadOptions
+articleTitle: LoadOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: LoadOptions 构造函数. 使用默认值初始化此类的新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.loading/loadoptions/loadoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.loading/loadoptions/loadoptions/
 public LoadOptions()
 ```
 
-### 例子
+## 例子
 
 演示如何使用基本 URI 打开包含来自流的图像的 HTML 文档。
 
@@ -41,12 +43,12 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 ### 也可以看看
 
 * class [LoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../loadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## LoadOptions(string) {#constructor_2}
+## LoadOptions(*string*) {#constructor_2}
 
 使用指定的密码初始化此类的新实例以加载加密文档的快捷方式。
 
@@ -58,7 +60,7 @@ public LoadOptions(string password)
 | --- | --- | --- |
 | password | String | 打开加密文档的密码。可`无效的`或空字符串。 |
 
-### 例子
+## 例子
 
 演示如何加载加密的 Microsoft Word 文档。
 
@@ -84,12 +86,12 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 ### 也可以看看
 
 * class [LoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../loadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## LoadOptions(LoadFormat, string, string) {#constructor_1}
+## LoadOptions(*[LoadFormat](../../../aspose.words/loadformat/), string, string*) {#constructor_1}
 
 初始化此类新实例并将属性设置为指定值的快捷方式。
 
@@ -103,7 +105,7 @@ public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | password | String | 打开加密文档的密码。可`无效的`或空字符串。 |
 | baseUri | String | 将用于将相对 URI 解析为绝对 URI 的字符串。可`无效的`或空字符串。 |
 
-### 例子
+## 例子
 
 演示如何将网页另存为 .docx 文件。
 
@@ -151,7 +153,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 
 * enum [LoadFormat](../../../aspose.words/loadformat/)
 * class [LoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../loadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

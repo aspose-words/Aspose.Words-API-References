@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.ToString
-second_title: Справочник по API Aspose.Words для .NET
-description: PreferredWidth метод. Возвращает удобную для пользователя строку отображающую значение этого объекта.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words для .NET
+description: PreferredWidth ToString метод. Возвращает удобную для пользователя строку отображающую значение этого объекта на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.tables/preferredwidth/tostring/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/preferredwidth/tostring/
 public override string ToString()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить предпочтительную ширину ячеек таблицы.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Смотрите также
 
 * class [PreferredWidth](../)
-* пространство имен [Aspose.Words.Tables](../../preferredwidth/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

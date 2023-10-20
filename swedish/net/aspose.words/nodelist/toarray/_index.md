@@ -1,7 +1,9 @@
 ---
 title: NodeList.ToArray
-second_title: Aspose.Words för .NET API Referens
-description: NodeList metod. Kopierar alla noder från samlingen till en ny array av noder.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words för .NET
+description: NodeList ToArray metod. Kopierar alla noder från samlingen till en ny array av noder i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/nodelist/toarray/
@@ -18,13 +20,13 @@ public Node[] ToArray()
 
 En rad noder.
 
-### Anmärkningar
+## Anmärkningar
 
 Du bör inte lägga till/ta bort noder medan du itererar över en samling av noder eftersom det ogiltigförklarar iteratorn och kräver uppdateringar för livesamlingar.
 
 För att kunna lägga till/ta bort noder under iteration, använd den här metoden för att kopiera noder till en array med fast storlek och sedan iterera över arrayen.
 
-### Exempel
+## Exempel
 
 Visar hur man väljer vissa noder med hjälp av ett XPath-uttryck.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* namnutrymme [Aspose.Words](../../nodelist/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

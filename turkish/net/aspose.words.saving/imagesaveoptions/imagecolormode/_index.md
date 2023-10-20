@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ImageColorMode
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Oluşturulan görüntüler için renk modunu alır veya ayarlar.
+linktitle: ImageColorMode
+articleTitle: ImageColorMode
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions ImageColorMode mülk. Oluşturulan görüntüler için renk modunu alır veya ayarlar C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/imagesaveoptions/imagecolormode/
@@ -14,13 +16,13 @@ Oluşturulan görüntüler için renk modunu alır veya ayarlar.
 public ImageColorMode ImageColorMode { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca taramalı görüntü formatlarına kaydederken etkilidir.
 
 Varsayılan değer:None.
 
-### Örnekler
+## Örnekler
 
 Belgeleri işlerken renk modunun nasıl ayarlanacağını gösterir.
 
@@ -80,7 +82,5 @@ Document doc = new Document();
 
 * enum [ImageColorMode](../../imagecolormode/)
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

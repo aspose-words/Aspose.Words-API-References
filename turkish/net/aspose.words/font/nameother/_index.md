@@ -1,7 +1,9 @@
 ---
 title: Font.NameOther
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. 128den 255e kadar karakter kodlarına sahip karakterler için kullanılan yazı tipini döndürür veya ayarlar.
+linktitle: NameOther
+articleTitle: NameOther
+second_title: Aspose.Words for .NET
+description: Font NameOther mülk. 128den 255e kadar karakter kodlarına sahip karakterler için kullanılan yazı tipini döndürür veya ayarlar C#'da.
 type: docs
 weight: 270
 url: /tr/net/aspose.words/font/nameother/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/font/nameother/
 public string NameOther { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Microsoft Word'ün iki farklı yazı tipini tek seferde nasıl birleştirebileceğini gösterir.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

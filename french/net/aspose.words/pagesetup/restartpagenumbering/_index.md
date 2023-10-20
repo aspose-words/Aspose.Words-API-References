@@ -1,7 +1,9 @@
 ---
 title: PageSetup.RestartPageNumbering
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Vrai si la numérotation des pages redémarre au début de la section.
+linktitle: RestartPageNumbering
+articleTitle: RestartPageNumbering
+second_title: Aspose.Words pour .NET
+description: PageSetup RestartPageNumbering propriété. Vrai si la numérotation des pages redémarre au début de la section en C#.
 type: docs
 weight: 360
 url: /fr/net/aspose.words/pagesetup/restartpagenumbering/
@@ -14,11 +16,11 @@ Vrai si la numérotation des pages redémarre au début de la section.
 public bool RestartPageNumbering { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Si défini sur`FAUX` , le`RestartPageNumbering` la propriété remplacera the [`PageStartingNumber`](../pagestartingnumber/) propriété afin que la numérotation des pages puisse continuer à partir de la section précédente.
 
-### Exemples
+## Exemples
 
 Montre comment configurer la numérotation des pages dans une section.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 ### Voir également
 
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

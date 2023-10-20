@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Font
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Fornisce laccesso alla formattazione dei caratteri di questo oggetto.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words per .NET
+description: ShapeBase Font proprietà. Fornisce laccesso alla formattazione dei caratteri di questo oggetto in C#.
 type: docs
 weight: 190
 url: /it/net/aspose.words.drawing/shapebase/font/
@@ -14,7 +16,7 @@ Fornisce l'accesso alla formattazione dei caratteri di questo oggetto.
 public Font Font { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire una casella di testo e impostare il carattere del suo contenuto.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

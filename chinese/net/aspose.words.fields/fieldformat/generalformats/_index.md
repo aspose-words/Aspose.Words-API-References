@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.GeneralFormats
-second_title: Aspose.Words for .NET API 参考
-description: FieldFormat 财产. 获取应用于数字文本或任何字段结果的通用格式的集合 对应于  开关
+linktitle: GeneralFormats
+articleTitle: GeneralFormats
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldFormat GeneralFormats 财产. 获取应用于数字文本或任何字段结果的通用格式的集合 对应于  开关 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldformat/generalformats/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldformat/generalformats/
 public GeneralFormatCollection GeneralFormats { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置字段结果的格式。
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * class [GeneralFormatCollection](../../generalformatcollection/)
 * class [FieldFormat](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldformat/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

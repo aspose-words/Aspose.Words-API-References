@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent4
-second_title: Справочник по API Aspose.Words для .NET
-description: ThemeColors свойство. Определяет цветовой акцент 4.
+linktitle: Accent4
+articleTitle: Accent4
+second_title: Aspose.Words для .NET
+description: ThemeColors Accent4 свойство. Определяет цветовой акцент 4 на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.themes/themecolors/accent4/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.themes/themecolors/accent4/
 public Color Accent4 { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как устанавливать собственные цвета и шрифты для тем.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Смотрите также
 
 * class [ThemeColors](../)
-* пространство имен [Aspose.Words.Themes](../../themecolors/)
+* пространство имен [Aspose.Words.Themes](../../../aspose.words.themes/)
 * сборка [Aspose.Words](../../../)
-
-

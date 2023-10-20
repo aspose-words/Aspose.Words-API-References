@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.Type
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeField mülk. Microsoft Word alan türünü alır.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: FieldMergeField Type mülk. Microsoft Word alan türünü alır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldmergefield/type/
@@ -18,7 +20,5 @@ public override FieldType Type { get; }
 
 * enum [FieldType](../../fieldtype/)
 * class [FieldMergeField](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmergefield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum Direction
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Shaping.Direction 枚举. 文本方向
+title: Direction Enum
+linktitle: Direction
+articleTitle: Direction
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Shaping.Direction 枚举. 文本方向 在 C#.
 type: docs
 weight: 6020
 url: /zh/net/aspose.words.shaping/direction/
@@ -28,5 +30,3 @@ public enum Direction
 
 * 命名空间 [Aspose.Words.Shaping](../../aspose.words.shaping/)
 * 部件 [Aspose.Words](../../)
-
-

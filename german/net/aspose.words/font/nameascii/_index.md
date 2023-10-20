@@ -1,7 +1,9 @@
 ---
 title: Font.NameAscii
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Gibt die für lateinischen Text verwendete Schriftart zurück oder legt sie fest Zeichen mit Zeichencodes von 0 Null bis 127.
+linktitle: NameAscii
+articleTitle: NameAscii
+second_title: Aspose.Words für .NET
+description: Font NameAscii eigendom. Gibt die für lateinischen Text verwendete Schriftart zurück oder legt sie fest Zeichen mit Zeichencodes von 0 Null bis 127 in C#.
 type: docs
 weight: 240
 url: /de/net/aspose.words/font/nameascii/
@@ -14,7 +16,7 @@ Gibt die für lateinischen Text verwendete Schriftart zurück oder legt sie fest
 public string NameAscii { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Microsoft Word zwei verschiedene Schriftarten in einem Durchgang kombinieren kann.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

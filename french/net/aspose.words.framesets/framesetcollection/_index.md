@@ -1,7 +1,9 @@
 ---
-title: Class FramesetCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Framesets.FramesetCollection classe. Représente une collection dinstances duFrameset classe.
+title: FramesetCollection Class
+linktitle: FramesetCollection
+articleTitle: FramesetCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Framesets.FramesetCollection classe. Représente une collection dinstances duFrameset classe en C#.
 type: docs
 weight: 3090
 url: /fr/net/aspose.words.framesets/framesetcollection/
@@ -40,5 +42,3 @@ public class FramesetCollection : IEnumerable<Frameset>
 * class [Frameset](../frameset/)
 * espace de noms [Aspose.Words.Framesets](../../aspose.words.framesets/)
 * Assemblée [Aspose.Words](../../)
-
-

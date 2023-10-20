@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.IndexOf
-second_title: Aspose.Words لمراجع .NET API
-description: NodeCollection طريقة. إرجاع الفهرس الصفري للعقدة المحددة.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words لـ .NET
+description: NodeCollection IndexOf طريقة. إرجاع الفهرس الصفري للعقدة المحددة في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/nodecollection/indexof/
@@ -22,11 +24,11 @@ public int IndexOf(Node node)
 
 الفهرس الصفري للعقدة داخل المجموعة، إذا تم العثور عليه؛ وإلا -1.
 
-### ملاحظات
+## ملاحظات
 
 تقوم هذه الطريقة بإجراء بحث خطي؛ ولذلك فإن متوسط وقت التنفيذ يتناسب مع[`Count`](../count/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على فهرس العقدة في المجموعة.
 
@@ -51,7 +53,5 @@ Assert.AreEqual(4, row.IndexOf(cell));
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* مساحة الاسم [Aspose.Words](../../nodecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

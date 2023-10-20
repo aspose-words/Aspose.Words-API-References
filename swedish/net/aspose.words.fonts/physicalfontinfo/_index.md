@@ -1,7 +1,9 @@
 ---
-title: Class PhysicalFontInfo
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.PhysicalFontInfo klass. Anger information om fysiska teckensnitt som är tillgängliga för Aspose.Words teckensnittsmotor.
+title: PhysicalFontInfo Class
+linktitle: PhysicalFontInfo
+articleTitle: PhysicalFontInfo
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.PhysicalFontInfo klass. Anger information om fysiska teckensnitt som är tillgängliga för Aspose.Words teckensnittsmotor i C#.
 type: docs
 weight: 3030
 url: /sv/net/aspose.words.fonts/physicalfontinfo/
@@ -25,7 +27,7 @@ public class PhysicalFontInfo
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Teckensnittets fullständiga namn. |
 | [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Teckensnittets versionssträng. |
 
-### Exempel
+## Exempel
 
 Visar hur man listar tillgängliga teckensnitt.
 
@@ -46,5 +48,3 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

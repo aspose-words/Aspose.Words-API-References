@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertDocument
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Inserta un documento en la posición del cursor.
+linktitle: InsertDocument
+articleTitle: InsertDocument
+second_title: Aspose.Words para .NET
+description: DocumentBuilder InsertDocument método. Inserta un documento en la posición del cursor en C#.
 type: docs
 weight: 310
 url: /es/net/aspose.words/documentbuilder/insertdocument/
 ---
-## InsertDocument(Document, ImportFormatMode) {#insertdocument}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/)*) {#insertdocument}
 
 Inserta un documento en la posición del cursor.
 
@@ -23,11 +25,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 Primer nodo del contenido insertado.
 
-### Observaciones
+## Observaciones
 
 Este método imita el comportamiento de MS Word, como si se presionara CTRL+'A' (seleccionar todo el contenido), luego CTRL+'C' (copiar lo seleccionado en el búfer) dentro de un documento y luego CTRL+'V' (insertar contenido del buffer) dentro de otro documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar un documento en otro documento.
 
@@ -50,12 +52,12 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 * class [Document](../../document/)
 * enum [ImportFormatMode](../../importformatmode/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## InsertDocument(Document, ImportFormatMode, ImportFormatOptions) {#insertdocument_1}
+## InsertDocument(*[Document](../../document/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#insertdocument_1}
 
 Inserta un documento en la posición del cursor.
 
@@ -74,11 +76,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 Primer nodo del contenido insertado.
 
-### Observaciones
+## Observaciones
 
 Este método imita el comportamiento de MS Word, como si se presionara CTRL+'A' (seleccionar todo el contenido), luego CTRL+'C' (copiar lo seleccionado en el búfer) dentro de un documento y luego CTRL+'V' (insertar contenido del buffer) dentro de otro documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo resolver estilos duplicados al insertar documentos.
 
@@ -117,7 +119,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.SmartStyleBehavior.docx");
 * enum [ImportFormatMode](../../importformatmode/)
 * class [ImportFormatOptions](../../importformatoptions/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

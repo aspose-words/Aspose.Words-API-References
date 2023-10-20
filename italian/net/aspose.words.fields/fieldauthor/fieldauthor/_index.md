@@ -1,7 +1,9 @@
 ---
-title: FieldAuthor.FieldAuthor
-second_title: Aspose.Words per .NET API Reference
-description: FieldAuthor costruttore. Default_Costruttore
+title: FieldAuthor
+linktitle: FieldAuthor
+articleTitle: FieldAuthor
+second_title: Aspose.Words per .NET
+description: FieldAuthor costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldauthor/fieldauthor/
@@ -17,7 +19,5 @@ public FieldAuthor()
 ### Guarda anche
 
 * class [FieldAuthor](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldauthor/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

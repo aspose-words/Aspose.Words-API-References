@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.EmbedTrueTypeFonts
-second_title: Aspose.Words لمراجع .NET API
-description: FontInfoCollection ملكية. يحدد ما إذا كان سيتم تضمين خطوط TrueType في مستند عند حفظه أم لا. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع .
+linktitle: EmbedTrueTypeFonts
+articleTitle: EmbedTrueTypeFonts
+second_title: Aspose.Words لـ .NET
+description: FontInfoCollection EmbedTrueTypeFonts ملكية. يحدد ما إذا كان سيتم تضمين خطوط TrueType في مستند عند حفظه أم لا. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/fontinfocollection/embedtruetypefonts/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.fonts/fontinfocollection/embedtruetypefonts/
 public bool EmbedTrueTypeFonts { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتيح تضمين خطوط TrueType للآخرين إمكانية عرض المستند بنفس الخطوط التي تم استخدامها لإنشائه، ولكنه قد يؤدي إلى زيادة حجم المستند بشكل كبير.
 
 يعمل هذا الخيار مع تنسيقات DOC وDOCX وRTF فقط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حفظ مستند باستخدام خطوط TrueType المضمنة.
 
@@ -43,7 +45,5 @@ else
 ### أنظر أيضا
 
 * class [FontInfoCollection](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontinfocollection/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

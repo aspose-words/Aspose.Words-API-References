@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndEditableRange
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. يحدد الموضع الحالي في المستند كنهاية نطاق قابلة للتحرير.
+linktitle: EndEditableRange
+articleTitle: EndEditableRange
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder EndEditableRange طريقة. يحدد الموضع الحالي في المستند كنهاية نطاق قابلة للتحرير في C#.
 type: docs
 weight: 230
 url: /ar/net/aspose.words/documentbuilder/endeditablerange/
@@ -18,13 +20,13 @@ public EditableRangeEnd EndEditableRange()
 
 عقدة نهاية النطاق القابلة للتحرير التي تم إنشاؤها للتو.
 
-### ملاحظات
+## ملاحظات
 
 يمكن أن يتداخل النطاق القابل للتحرير في المستند ويمتد إلى أي نطاق. لإنشاء نطاق صالح قابل للتحرير، يلزمك الاتصال بكليهما[`StartEditableRange`](../starteditablerange/) و`EndEditableRange` أو`EndEditableRange` طُرق.
 
 سيتم تجاهل النطاق القابل للتحرير الذي تم تكوينه بشكل سيئ عند حفظ المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع نطاق قابل للتحرير.
 
@@ -71,12 +73,12 @@ editableRange.Remove();
 
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## EndEditableRange(EditableRangeStart) {#endeditablerange_1}
+## EndEditableRange(*[EditableRangeStart](../../editablerangestart/)*) {#endeditablerange_1}
 
 يحدد الموضع الحالي في المستند كنهاية نطاق قابلة للتحرير.
 
@@ -92,7 +94,7 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 
 عقدة نهاية النطاق القابلة للتحرير التي تم إنشاؤها للتو.
 
-### ملاحظات
+## ملاحظات
 
 استخدم هذا التحميل الزائد أثناء إنشاء نطاقات متداخلة قابلة للتحرير.
 
@@ -100,7 +102,7 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 
 سيتم تجاهل النطاق القابل للتحرير الذي تم تكوينه بشكل سيئ عند حفظ المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نطاقات متداخلة قابلة للتحرير.
 
@@ -143,7 +145,5 @@ doc.Save(ArtifactsDir + "EditableRange.Nested.docx");
 * class [EditableRangeEnd](../../editablerangeend/)
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

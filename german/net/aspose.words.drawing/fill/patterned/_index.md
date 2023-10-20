@@ -1,12 +1,14 @@
 ---
 title: Fill.Patterned
-second_title: Aspose.Words für .NET-API-Referenz
-description: Fill methode. Setzt die angegebene Füllung auf ein Muster.
+linktitle: Patterned
+articleTitle: Patterned
+second_title: Aspose.Words für .NET
+description: Fill Patterned methode. Setzt die angegebene Füllung auf ein Muster in C#.
 type: docs
-weight: 230
+weight: 220
 url: /de/net/aspose.words.drawing/fill/patterned/
 ---
-## Patterned(PatternType) {#patterned}
+## Patterned(*[PatternType](../../patterntype/)*) {#patterned}
 
 Setzt die angegebene Füllung auf ein Muster.
 
@@ -18,7 +20,7 @@ public void Patterned(PatternType patternType)
 | --- | --- | --- |
 | patternType | PatternType | [`PatternType`](../../patterntype/) |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Muster für eine Form festlegt.
 
@@ -44,12 +46,12 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Patterned(PatternType, Color, Color) {#patterned_1}
+## Patterned(*[PatternType](../../patterntype/), Color, Color*) {#patterned_1}
 
 Setzt die angegebene Füllung auf ein Muster.
 
@@ -63,7 +65,7 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 | foreColor | Color | Die Farbe der Vordergrundfüllung. |
 | backColor | Color | Die Farbe der Hintergrundfüllung. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Muster für eine Form festlegt.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 * enum [PatternType](../../patterntype/)
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

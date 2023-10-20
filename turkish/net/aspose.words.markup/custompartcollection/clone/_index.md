@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Clone
-second_title: Aspose.Words for .NET API Referansı
-description: CustomPartCollection yöntem. Bu koleksiyonun ve içindeki öğelerin derin bir kopyasını oluşturur.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words for .NET
+description: CustomPartCollection Clone yöntem. Bu koleksiyonun ve içindeki öğelerin derin bir kopyasını oluşturur C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.markup/custompartcollection/clone/
@@ -14,7 +16,7 @@ Bu koleksiyonun ve içindeki öğelerin derin bir kopyasını oluşturur.
 public CustomPartCollection Clone()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Ayrıca bakınız
 
 * class [CustomPartCollection](../)
-* ad alanı [Aspose.Words.Markup](../../custompartcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

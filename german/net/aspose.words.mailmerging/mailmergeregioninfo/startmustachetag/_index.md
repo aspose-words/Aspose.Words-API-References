@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.StartMustacheTag
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeRegionInfo eigendom. Gibt ein StartMustacheTag für die Region zurück.
+linktitle: StartMustacheTag
+articleTitle: StartMustacheTag
+second_title: Aspose.Words für .NET
+description: MailMergeRegionInfo StartMustacheTag eigendom. Gibt ein StartMustacheTag für die Region zurück in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/
@@ -14,7 +16,7 @@ Gibt ein Start-„Mustache“-Tag für die Region zurück.
 public MustacheTag StartMustacheTag { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den Moustache-Tags gearbeitet wird.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [MustacheTag](../../mustachetag/)
 * class [MailMergeRegionInfo](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

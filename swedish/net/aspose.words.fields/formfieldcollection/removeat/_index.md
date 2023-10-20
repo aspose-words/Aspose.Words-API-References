@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.RemoveAt
-second_title: Aspose.Words för .NET API Referens
-description: FormFieldCollection metod. Tar bort ett formulärfält vid det angivna indexet.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words för .NET
+description: FormFieldCollection RemoveAt metod. Tar bort ett formulärfält vid det angivna indexet i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/formfieldcollection/removeat/
@@ -18,11 +20,11 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Det nollbaserade indexet för formulärfältet som ska tas bort. |
 
-### Anmärkningar
+## Anmärkningar
 
 Om det finns ett bokmärke kopplat till formulärfältet tas bokmärket inte bort.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Se även
 
 * class [FormFieldCollection](../)
-* namnutrymme [Aspose.Words.Fields](../../formfieldcollection/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

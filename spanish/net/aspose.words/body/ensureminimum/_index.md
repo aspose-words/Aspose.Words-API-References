@@ -1,9 +1,11 @@
 ---
 title: Body.EnsureMinimum
-second_title: Referencia de API de Aspose.Words para .NET
-description: Body método. Si el último elemento secundario no es un párrafo crea y agrega un párrafo vacío.
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words para .NET
+description: Body EnsureMinimum método. Si el último elemento secundario no es un párrafo crea y agrega un párrafo vacío en C#.
 type: docs
-weight: 70
+weight: 50
 url: /es/net/aspose.words/body/ensureminimum/
 ---
 ## Body.EnsureMinimum method
@@ -14,7 +16,7 @@ Si el último elemento secundario no es un párrafo, crea y agrega un párrafo v
 public void EnsureMinimum()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Borra el texto principal de todas las secciones del documento, dejando las secciones mismas.
 
@@ -52,7 +54,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Ver también
 
 * class [Body](../)
-* espacio de nombres [Aspose.Words](../../body/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

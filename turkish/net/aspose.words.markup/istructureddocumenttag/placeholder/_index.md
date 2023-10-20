@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.Placeholder
-second_title: Aspose.Words for .NET API Referansı
-description: IStructuredDocumentTag mülk. AlırBuildingBlockBu SDT çalıştırma içerikleri boş olduğunda görüntülenmesi gereken yer tutucu metni içeren ilişkili eşlenen XML öğesiXmlMapping element veyaIsShowingPlaceholderText unsur doğrudur.
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words for .NET
+description: IStructuredDocumentTag Placeholder mülk. AlırBuildingBlockBu SDT çalıştırma içerikleri boş olduğunda görüntülenmesi gereken yer tutucu metni içeren ilişkili eşlenen XML öğesiXmlMapping element veyaIsShowingPlaceholderText unsur doğrudur C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.markup/istructureddocumenttag/placeholder/
@@ -14,7 +16,7 @@ Alır[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)Bu SD
 public BuildingBlock Placeholder { get; }
 ```
 
-### Notlar
+## Notlar
 
 Boş olabilir; bu, yer tutucunun bu Sdt için geçerli olmadığı anlamına gelir.
 
@@ -22,7 +24,5 @@ Boş olabilir; bu, yer tutucunun bu Sdt için geçerli olmadığı anlamına gel
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * interface [IStructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../istructureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

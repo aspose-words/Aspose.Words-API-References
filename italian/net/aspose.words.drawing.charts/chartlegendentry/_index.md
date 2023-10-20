@@ -1,7 +1,9 @@
 ---
-title: Class ChartLegendEntry
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.ChartLegendEntry classe. Rappresenta una voce della legenda del grafico.
+title: ChartLegendEntry Class
+linktitle: ChartLegendEntry
+articleTitle: ChartLegendEntry
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Charts.ChartLegendEntry classe. Rappresenta una voce della legenda del grafico in C#.
 type: docs
 weight: 730
 url: /it/net/aspose.words.drawing.charts/chartlegendentry/
@@ -21,9 +23,9 @@ public class ChartLegendEntry
 | Nome | Descrizione |
 | --- | --- |
 | [Font](../../aspose.words.drawing.charts/chartlegendentry/font/) { get; } | Fornisce l'accesso alla formattazione del carattere di questa voce della legenda. |
-| [IsHidden](../../aspose.words.drawing.charts/chartlegendentry/ishidden/) { get; set; } | Ottiene o imposta un valore che indica se questa voce è nascosta nella legenda del grafico. Il valore predefinito è **falso** . |
+| [IsHidden](../../aspose.words.drawing.charts/chartlegendentry/ishidden/) { get; set; } | Ottiene o imposta un valore che indica se questa voce è nascosta nella legenda del grafico. Il valore predefinito è**falso** . |
 
-### Osservazioni
+## Osservazioni
 
 Una voce della legenda corrisponde a una serie di grafici o una linea di tendenza specifica.
 
@@ -33,5 +35,3 @@ Il testo della voce è il nome della serie o della linea di tendenza. Il testo n
 
 * spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../)
-
-

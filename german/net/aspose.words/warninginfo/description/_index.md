@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.Description
-second_title: Aspose.Words für .NET-API-Referenz
-description: WarningInfo eigendom. Gibt die Beschreibung der Warnung zurück.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words für .NET
+description: WarningInfo Description eigendom. Gibt die Beschreibung der Warnung zurück in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/warninginfo/description/
@@ -14,7 +16,7 @@ Gibt die Beschreibung der Warnung zurück.
 public string Description { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Siehe auch
 
 * class [WarningInfo](../)
-* namensraum [Aspose.Words](../../warninginfo/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

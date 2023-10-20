@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.SourceFullName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDdeAuto propiedad. Obtiene o establece el nombre y la ubicación del archivo fuente.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words para .NET
+description: FieldDdeAuto SourceFullName propiedad. Obtiene o establece el nombre y la ubicación del archivo fuente en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.fields/fieldddeauto/sourcefullname/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre y la ubicación del archivo fuente.
 public string SourceFullName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar varios tipos de campos para vincular a otros documentos en el sistema de archivos local y mostrar su contenido.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ver también
 
 * class [FieldDdeAuto](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldddeauto/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

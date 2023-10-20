@@ -1,7 +1,9 @@
 ---
 title: Document.VbaProject
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bir değeri alır veya ayarlarVbaProject .
+linktitle: VbaProject
+articleTitle: VbaProject
+second_title: Aspose.Words for .NET
+description: Document VbaProject mülk. Bir değeri alır veya ayarlarVbaProject  C#'da.
 type: docs
 weight: 450
 url: /tr/net/aspose.words/document/vbaproject/
@@ -14,7 +16,7 @@ Bir değeri alır veya ayarlar`VbaProject` .
 public VbaProject VbaProject { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin VBA proje bilgilerine nasıl erişileceğini gösterir.
 
@@ -46,7 +48,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaProject](../../../aspose.words.vba/vbaproject/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

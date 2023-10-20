@@ -1,7 +1,9 @@
 ---
-title: Class WebExtension
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WebExtensions.WebExtension sınıf. Bir web uzantısı nesnesini temsil eder.
+title: WebExtension Class
+linktitle: WebExtension
+articleTitle: WebExtension
+second_title: Aspose.Words for .NET
+description: Aspose.Words.WebExtensions.WebExtension sınıf. Bir web uzantısı nesnesini temsil eder C#'da.
 type: docs
 weight: 6740
 url: /tr/net/aspose.words.webextensions/webextension/
@@ -27,7 +29,7 @@ public class WebExtension
 | [Properties](../../aspose.words.webextensions/webextension/properties/) { get; } | Bir dizi web uzantısı özel özelliğini temsil eder. |
 | [Reference](../../aspose.words.webextensions/webextension/reference/) { get; } | Bir web uzantısına yönelik birincil referansı belirtir. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -73,5 +75,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * ad alanı [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.AdditionalTextPositioning
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Ek metin konumlandırma operatörlerinin yazıp yazmayacağını belirten bir işaret.
+linktitle: AdditionalTextPositioning
+articleTitle: AdditionalTextPositioning
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions AdditionalTextPositioning mülk. Ek metin konumlandırma operatörlerinin yazıp yazmayacağını belirten bir işaret C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/pdfsaveoptions/additionaltextpositioning/
@@ -14,13 +16,13 @@ Ek metin konumlandırma operatörlerinin yazıp yazmayacağını belirten bir i�
 public bool AdditionalTextPositioning { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Eğer`doğru` , ek metin konumlandırma operatörleri çıktı PDF'sine yazılır. Bu, bazı yazıcılarda hatalı metin konumlandırmayla ilgili sorunlarının aşılmasına yardımcı olabilir. Dezavantajı ise PDF belge boyutunun artmasıdır.
 
 Varsayılan değer:`YANLIŞ`.
 
-### Örnekler
+## Örnekler
 
 Ek metin konumlandırma operatörlerinin nasıl yazılacağını gösterin.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.AdditionalTextPositioning.pdf", saveOpti
 ### Ayrıca bakınız
 
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

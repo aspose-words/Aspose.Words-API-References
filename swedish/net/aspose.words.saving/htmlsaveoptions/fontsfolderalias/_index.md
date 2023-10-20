@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontsFolderAlias
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger namnet på mappen som används för att konstruera teckensnittsURIer inskrivna i ett HTMLdokument. Standard är en tom sträng.
+linktitle: FontsFolderAlias
+articleTitle: FontsFolderAlias
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions FontsFolderAlias fast egendom. Anger namnet på mappen som används för att konstruera teckensnittsURIer inskrivna i ett HTMLdokument. Standard är en tom sträng i C#.
 type: docs
 weight: 320
 url: /sv/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/
@@ -14,7 +16,7 @@ Anger namnet på mappen som används för att konstruera teckensnitts-URI:er ins
 public string FontsFolderAlias { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När du sparar en[`Document`](../../../aspose.words/document/) i HTML-format och[`ExportFontResources`](../exportfontresources/) är inställd på`Sann` , Aspose.Words måste spara teckensnitt som används i dokumentet som fristående filer. [`FontsFolder`](../fontsfolder/) låter dig ange var typsnitten ska sparas och `FontsFolderAlias` gör det möjligt att specificera hur teckensnittets URI:er kommer att konstrueras.
 
@@ -26,7 +28,7 @@ Om`FontsFolderAlias`är satt till '.' (prick), så kommer teckensnittsfilnamnet 
 
 Ett alternativt sätt att ange namnet på mappen för att konstruera teckensnittet URIs är att använda[`ResourceFolderAlias`](../resourcefolderalias/).
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in mappar och mappalias för externt sparade resurser som Aspose.Words skapar när ett dokument sparas till HTML.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

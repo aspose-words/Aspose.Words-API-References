@@ -1,7 +1,9 @@
 ---
 title: PageSetup.MultiplePages
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Для многостраничных документов получает или задает способ печати или отображения документа чтобы его можно было связать в виде буклета.
+linktitle: MultiplePages
+articleTitle: MultiplePages
+second_title: Aspose.Words для .NET
+description: PageSetup MultiplePages свойство. Для многостраничных документов получает или задает способ печати или отображения документа чтобы его можно было связать в виде буклета на С#.
 type: docs
 weight: 270
 url: /ru/net/aspose.words/pagesetup/multiplepages/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/pagesetup/multiplepages/
 public MultiplePagesType MultiplePages { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить документ, который можно распечатать в виде сгиба книги.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 
 * enum [MultiplePagesType](../../../aspose.words.settings/multiplepagestype/)
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

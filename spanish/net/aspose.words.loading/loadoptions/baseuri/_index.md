@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.BaseUri
-second_title: Referencia de API de Aspose.Words para .NET
-description: LoadOptions propiedad. Obtiene o establece la cadena que se utilizará para resolver los URI relativos que se encuentran en el documento en URI absolutos cuando sea necesario. Puede sernulo o cadena vacía. El valor predeterminado esnulo .
+linktitle: BaseUri
+articleTitle: BaseUri
+second_title: Aspose.Words para .NET
+description: LoadOptions BaseUri propiedad. Obtiene o establece la cadena que se utilizará para resolver los URI relativos que se encuentran en el documento en URI absolutos cuando sea necesario. Puede sernulo o cadena vacía. El valor predeterminado esnulo  en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.loading/loadoptions/baseuri/
@@ -14,14 +16,14 @@ Obtiene o establece la cadena que se utilizará para resolver los URI relativos 
 public string BaseUri { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad se utiliza para convertir URI relativos en absolutos en los siguientes casos:
 
 1. Cuando se carga un documento HTML desde una secuencia y el documento contiene imágenes con URI relativos y no tiene un URI base especificado en el elemento HTML BASE.
 2. Al guardar un documento en PDF y otros formatos, para recuperar imágenes vinculadas mediante URI relativos para que las imágenes se puedan guardar en el documento de salida.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo abrir un documento HTML con imágenes de una secuencia utilizando un URI base.
 
@@ -48,7 +50,5 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 ### Ver también
 
 * class [LoadOptions](../)
-* espacio de nombres [Aspose.Words.Loading](../../loadoptions/)
+* espacio de nombres [Aspose.Words.Loading](../../../aspose.words.loading/)
 * asamblea [Aspose.Words](../../../)
-
-

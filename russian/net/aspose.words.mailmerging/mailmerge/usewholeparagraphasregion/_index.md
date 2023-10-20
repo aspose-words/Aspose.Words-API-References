@@ -1,24 +1,26 @@
 ---
 title: MailMerge.UseWholeParagraphAsRegion
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Получает или задает значение указывающее содержит ли весь абзац ТаблеСтарт или Конец таблицы field или определенный диапазон между ТаблеСтарт и Конец таблицы поля должны быть включены в регион слияния почты.
+linktitle: UseWholeParagraphAsRegion
+articleTitle: UseWholeParagraphAsRegion
+second_title: Aspose.Words для .NET
+description: MailMerge UseWholeParagraphAsRegion свойство. Получает или задает значение указывающее содержит ли весь абзацТаблеСтарт илиКонец таблицы field или определенный диапазон междуТаблеСтарт иКонец таблицы поля должны быть включены в регион слияния почты на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-Получает или задает значение, указывающее, содержит ли весь абзац **ТаблеСтарт** или **Конец таблицы** field или определенный диапазон между **ТаблеСтарт** и **Конец таблицы** поля должны быть включены в регион слияния почты.
+Получает или задает значение, указывающее, содержит ли весь абзац**ТаблеСтарт** или**Конец таблицы** field или определенный диапазон между**ТаблеСтарт** и**Конец таблицы** поля должны быть включены в регион слияния почты.
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`истинный` .
 
-### Примеры
+## Примеры
 
 Показывает связь между областями слияния почты и абзацами.
 
@@ -85,7 +87,5 @@ private static DataTable CreateSourceTableDataTableForOneRegion()
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

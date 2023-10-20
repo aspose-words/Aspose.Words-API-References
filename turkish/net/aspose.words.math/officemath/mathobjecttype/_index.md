@@ -1,7 +1,9 @@
 ---
 title: OfficeMath.MathObjectType
-second_title: Aspose.Words for .NET API Referansı
-description: OfficeMath mülk. Türü alırMathObjectType bu Office Math nesnesinin.
+linktitle: MathObjectType
+articleTitle: MathObjectType
+second_title: Aspose.Words for .NET
+description: OfficeMath MathObjectType mülk. Türü alırMathObjectType bu Office Math nesnesinin C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.math/officemath/mathobjecttype/
@@ -14,7 +16,7 @@ Türü alır`MathObjectType` bu Office Math nesnesinin.
 public MathObjectType MathObjectType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her ofis matematik düğümünün düğüm yapısının nasıl yazdırılacağını gösterir.
 
@@ -107,7 +109,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 
 * enum [MathObjectType](../../mathobjecttype/)
 * class [OfficeMath](../)
-* ad alanı [Aspose.Words.Math](../../officemath/)
+* ad alanı [Aspose.Words.Math](../../../aspose.words.math/)
 * toplantı [Aspose.Words](../../../)
-
-

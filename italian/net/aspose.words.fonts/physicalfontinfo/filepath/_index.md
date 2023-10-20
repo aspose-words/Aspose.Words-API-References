@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.FilePath
-second_title: Aspose.Words per .NET API Reference
-description: PhysicalFontInfo proprietà. Percorso del file del carattere se presente.
+linktitle: FilePath
+articleTitle: FilePath
+second_title: Aspose.Words per .NET
+description: PhysicalFontInfo FilePath proprietà. Percorso del file del carattere se presente in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/physicalfontinfo/filepath/
@@ -14,7 +16,7 @@ Percorso del file del carattere, se presente.
 public string FilePath { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come elencare i caratteri disponibili.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Guarda anche
 
 * class [PhysicalFontInfo](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../physicalfontinfo/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

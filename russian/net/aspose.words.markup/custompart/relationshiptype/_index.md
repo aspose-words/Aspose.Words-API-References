@@ -1,7 +1,9 @@
 ---
 title: CustomPart.RelationshipType
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomPart свойство. Получает или задает тип связи родительской части с этой пользовательской частью.
+linktitle: RelationshipType
+articleTitle: RelationshipType
+second_title: Aspose.Words для .NET
+description: CustomPart RelationshipType свойство. Получает или задает тип связи родительской части с этой пользовательской частью на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/custompart/relationshiptype/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.markup/custompart/relationshiptype/
 public string RelationshipType { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Тип связи для пользовательской детали должен быть «неизвестным», например, тип пользовательской связи , а не один из типов отношений, определенных в ISO/IEC 29500.
 
 Значение по умолчанию — пустая строка. Допустимое значение должно быть непустой строкой.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Смотрите также
 
 * class [CustomPart](../)
-* пространство имен [Aspose.Words.Markup](../../custompart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

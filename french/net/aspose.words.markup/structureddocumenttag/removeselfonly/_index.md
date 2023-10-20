@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.RemoveSelfOnly
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag méthode. Supprime uniquement ce nœud SDT luimême mais conserve son contenu dans larborescence du document.
+linktitle: RemoveSelfOnly
+articleTitle: RemoveSelfOnly
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag RemoveSelfOnly méthode. Supprime uniquement ce nœud SDT luimême mais conserve son contenu dans larborescence du document en C#.
 type: docs
-weight: 370
+weight: 350
 url: /fr/net/aspose.words.markup/structureddocumenttag/removeselfonly/
 ---
 ## StructuredDocumentTag.RemoveSelfOnly method
@@ -14,7 +16,7 @@ Supprime uniquement ce nœud SDT lui-même, mais conserve son contenu dans l'arb
 public void RemoveSelfOnly()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une balise de document structuré dans une zone de texte brut et modifier son apparence.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Voir également
 
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

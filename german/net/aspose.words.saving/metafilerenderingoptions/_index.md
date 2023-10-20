@@ -1,7 +1,9 @@
 ---
-title: Class MetafileRenderingOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.MetafileRenderingOptions klas. Ermöglicht die Angabe zusätzlicher MetadateiRenderingOptionen.
+title: MetafileRenderingOptions Class
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.MetafileRenderingOptions klas. Ermöglicht die Angabe zusätzlicher MetadateiRenderingOptionen in C#.
 type: docs
 weight: 5300
 url: /de/net/aspose.words.saving/metafilerenderingoptions/
@@ -34,7 +36,7 @@ public class MetafileRenderingOptions
 | [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der bestimmt, wie WMF-Metadateien mit eingebetteten EMF-Metadateien gerendert werden sollen. |
 | [UseGdiRasterOperationsEmulation](../../aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der bestimmt, ob GDI+ für die Emulation von Rasteroperationen verwendet werden soll. |
 
-### Beispiele
+## Beispiele
 
 Zeigt einen Fallback für die Bitmap-Wiedergabe und eine Änderung der Art von Warnungen zu nicht unterstützten Metadateidatensätzen an.
 
@@ -90,5 +92,3 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

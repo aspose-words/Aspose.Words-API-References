@@ -1,7 +1,9 @@
 ---
-title: Class RevisionCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.RevisionCollection clase. Una colección deRevision objetos que representan revisiones en el documento.
+title: RevisionCollection Class
+linktitle: RevisionCollection
+articleTitle: RevisionCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.RevisionCollection clase. Una colección deRevision objetos que representan revisiones en el documento en C#.
 type: docs
 weight: 4770
 url: /es/net/aspose.words/revisioncollection/
@@ -32,11 +34,11 @@ public class RevisionCollection : IEnumerable<Revision>
 | [GetEnumerator](../../aspose.words/revisioncollection/getenumerator/)() | Devuelve un objeto enumerador. |
 | [RejectAll](../../aspose.words/revisioncollection/rejectall/)() | Rechaza todas las revisiones de esta colección. |
 
-### Observaciones
+## Observaciones
 
 No crea instancias de esta clase directamente. Utilizar el[`Revisions`](../document/revisions/) propiedad para obtener revisiones presentes en un documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con revisiones en un documento.
 
@@ -121,5 +123,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 * class [Revision](../revision/)
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

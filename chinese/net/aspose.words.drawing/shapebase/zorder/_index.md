@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ZOrder
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 确定重叠形状的显示顺序
+linktitle: ZOrder
+articleTitle: ZOrder
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase ZOrder 财产. 确定重叠形状的显示顺序 在 C#.
 type: docs
 weight: 610
 url: /zh/net/aspose.words.drawing/shapebase/zorder/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shapebase/zorder/
 public int ZOrder { get; set; }
 ```
 
-### 评论
+## 评论
 
 仅对顶级形状有效。
 
@@ -26,7 +28,7 @@ public int ZOrder { get; set; }
 
 组形状中子形状的显示顺序由其在组形状内的 order 确定。
 
-### 例子
+## 例子
 
 展示如何操纵形状的顺序。
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Shape.ZOrder.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

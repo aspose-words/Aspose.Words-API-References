@@ -1,7 +1,9 @@
 ---
 title: VbaModule.Type
-second_title: Aspose.Words for .NET API Referansı
-description: VbaModule mülk. Modülün prosedür modülü belge modülü sınıf modülü veya tasarımcı modülü olup olmadığını belirtir.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: VbaModule Type mülk. Modülün prosedür modülü belge modülü sınıf modülü veya tasarımcı modülü olup olmadığını belirtir C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.vba/vbamodule/type/
@@ -14,7 +16,7 @@ Modülün prosedür modülü, belge modülü, sınıf modülü veya tasarımcı 
 public VbaModuleType Type { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Makroları kullanarak bir VBA projesinin nasıl oluşturulacağını gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 
 * enum [VbaModuleType](../../vbamoduletype/)
 * class [VbaModule](../)
-* ad alanı [Aspose.Words.Vba](../../vbamodule/)
+* ad alanı [Aspose.Words.Vba](../../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../../)
-
-

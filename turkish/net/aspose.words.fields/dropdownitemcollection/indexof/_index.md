@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.IndexOf
-second_title: Aspose.Words for .NET API Referansı
-description: DropDownItemCollection yöntem. Koleksiyonda belirtilen değerin sıfır tabanlı dizinini döndürür.
+linktitle: IndexOf
+articleTitle: IndexOf
+second_title: Aspose.Words for .NET
+description: DropDownItemCollection IndexOf yöntem. Koleksiyonda belirtilen değerin sıfır tabanlı dizinini döndürür C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/dropdownitemcollection/indexof/
@@ -22,7 +24,7 @@ public int IndexOf(string value)
 
 Sıfır tabanlı endeks. Bulunamazsa negatif değer.
 
-### Örnekler
+## Örnekler
 
 Açılan kutu alanının nasıl ekleneceğini ve öğe koleksiyonundaki öğelerin nasıl düzenleneceğini gösterir.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### Ayrıca bakınız
 
 * class [DropDownItemCollection](../)
-* ad alanı [Aspose.Words.Fields](../../dropdownitemcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

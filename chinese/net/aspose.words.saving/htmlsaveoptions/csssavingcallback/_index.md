@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssSavingCallback
-second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 允许控制将文档保存为 HTMLMHTML 或 EPUB 时 CSS 样式的保存方式
+linktitle: CssSavingCallback
+articleTitle: CssSavingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: HtmlSaveOptions CssSavingCallback 财产. 允许控制将文档保存为 HTMLMHTML 或 EPUB 时 CSS 样式的保存方式 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/htmlsaveoptions/csssavingcallback/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/htmlsaveoptions/csssavingcallback/
 public ICssSavingCallback CssSavingCallback { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 HTML 转换创建的 CSS 样式表。
 
@@ -76,7 +78,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
 * interface [ICssSavingCallback](../../icsssavingcallback/)
 * class [HtmlSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

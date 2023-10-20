@@ -1,7 +1,9 @@
 ---
-title: Enum BaselineAlignment
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.BaselineAlignment enum. Specifica la posizione verticale dei caratteri su una riga.
+title: BaselineAlignment Enum
+linktitle: BaselineAlignment
+articleTitle: BaselineAlignment
+second_title: Aspose.Words per .NET
+description: Aspose.Words.BaselineAlignment enum. Specifica la posizione verticale dei caratteri su una riga in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/baselinealignment/
@@ -24,7 +26,7 @@ public enum BaselineAlignment
 | Bottom | `3` | Allinea alla parte inferiore di ciascun carattere. |
 | Auto | `4` | Il valore di base viene modificato automaticamente. |
 
-### Esempi
+## Esempi
 
 Mostra come impostare la posizione verticale dei caratteri su una riga.
 
@@ -44,5 +46,3 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphBaselineAlignment.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

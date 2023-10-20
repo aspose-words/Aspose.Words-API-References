@@ -1,7 +1,9 @@
 ---
-title: Class DefaultFontSubstitutionRule
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.DefaultFontSubstitutionRule classe. Règle de substitution de police par défaut.
+title: DefaultFontSubstitutionRule Class
+linktitle: DefaultFontSubstitutionRule
+articleTitle: DefaultFontSubstitutionRule
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.DefaultFontSubstitutionRule classe. Règle de substitution de police par défaut en C#.
 type: docs
 weight: 2840
 url: /fr/net/aspose.words.fonts/defaultfontsubstitutionrule/
@@ -23,11 +25,11 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 | [DefaultFontName](../../aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/) { get; set; } | Obtient ou définit le nom de la police par défaut. |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Spécifie si la règle est activée ou non. |
 
-### Remarques
+## Remarques
 
 Cette règle définit un nom de police par défaut unique à utiliser pour la substitution si la police d'origine n'est pas disponible.
 
-### Exemples
+## Exemples
 
 Montre comment définir la règle de substitution de police par défaut.
 
@@ -61,5 +63,3 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

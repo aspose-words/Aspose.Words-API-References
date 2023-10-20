@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.EmbedTrueTypeFonts
-second_title: Aspose.Words för .NET API Referens
-description: FontInfoCollection fast egendom. Anger om TrueTypeteckensnitt ska bäddas in i ett dokument eller inte när det sparas. Standardvärdet för den här egenskapen ärfalsk .
+linktitle: EmbedTrueTypeFonts
+articleTitle: EmbedTrueTypeFonts
+second_title: Aspose.Words för .NET
+description: FontInfoCollection EmbedTrueTypeFonts fast egendom. Anger om TrueTypeteckensnitt ska bäddas in i ett dokument eller inte när det sparas. Standardvärdet för den här egenskapen ärfalsk  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/fontinfocollection/embedtruetypefonts/
@@ -14,13 +16,13 @@ Anger om TrueType-teckensnitt ska bäddas in i ett dokument eller inte när det 
 public bool EmbedTrueTypeFonts { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Genom att bädda in TrueType-teckensnitt kan andra visa dokumentet med samma typsnitt som användes för att skapa det, men kan öka dokumentstorleken avsevärt.
 
 Det här alternativet fungerar endast för DOC-, DOCX- och RTF-format.
 
-### Exempel
+## Exempel
 
 Visar hur man sparar ett dokument med inbäddade TrueType-teckensnitt.
 
@@ -43,7 +45,5 @@ else
 ### Se även
 
 * class [FontInfoCollection](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontinfocollection/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

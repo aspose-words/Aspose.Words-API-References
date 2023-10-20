@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveAllChildren
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart metodo. Rimuove tutti i nodi tra questo nodo iniziale dellintervallo e il nodo finale dellintervallo.
+linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTagRangeStart RemoveAllChildren metodo. Rimuove tutti i nodi tra questo nodo iniziale dellintervallo e il nodo finale dellintervallo in C#.
 type: docs
 weight: 230
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
@@ -14,7 +16,7 @@ Rimuove tutti i nodi tra questo nodo iniziale dell'intervallo e il nodo finale d
 public void RemoveAllChildren()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare/rimuovere il tag del documento strutturato e il suo contenuto.
 
@@ -66,7 +68,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 ### Guarda anche
 
 * class [StructuredDocumentTagRangeStart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

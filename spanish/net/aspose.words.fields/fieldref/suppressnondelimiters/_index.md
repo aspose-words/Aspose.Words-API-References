@@ -1,7 +1,9 @@
 ---
 title: FieldRef.SuppressNonDelimiters
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldRef propiedad. Obtiene o establece si se deben suprimir los caracteres no delimitadores.
+linktitle: SuppressNonDelimiters
+articleTitle: SuppressNonDelimiters
+second_title: Aspose.Words para .NET
+description: FieldRef SuppressNonDelimiters propiedad. Obtiene o establece si se deben suprimir los caracteres no delimitadores en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.fields/fieldref/suppressnondelimiters/
@@ -14,7 +16,7 @@ Obtiene o establece si se deben suprimir los caracteres no delimitadores.
 public bool SuppressNonDelimiters { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar campos REF para hacer referencia a marcadores.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Ver también
 
 * class [FieldRef](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldref/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

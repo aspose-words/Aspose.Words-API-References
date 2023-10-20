@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.LeadingSpacesOptions
-second_title: Aspose.Words for .NET API 参考
-description: TxtLoadOptions 财产. 获取或设置前导空格处理的首选选项 默认值为ConvertToIndent.
+linktitle: LeadingSpacesOptions
+articleTitle: LeadingSpacesOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: TxtLoadOptions LeadingSpacesOptions 财产. 获取或设置前导空格处理的首选选项 默认值为ConvertToIndent 在 C#.
 type: docs
-weight: 60
+weight: 50
 url: /zh/net/aspose.words.loading/txtloadoptions/leadingspacesoptions/
 ---
 ## TxtLoadOptions.LeadingSpacesOptions property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.loading/txtloadoptions/leadingspacesoptions/
 public TxtLeadingSpacesOptions LeadingSpacesOptions { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在加载纯文本文档时修剪空白。
 
@@ -91,7 +93,5 @@ switch (txtTrailingSpacesOptions)
 
 * enum [TxtLeadingSpacesOptions](../../txtleadingspacesoptions/)
 * class [TxtLoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../txtloadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListCollection.GetListByListId
-second_title: Aspose.Words för .NET API Referens
-description: ListCollection metod. Hämtar en lista med en listidentifierare.
+linktitle: GetListByListId
+articleTitle: GetListByListId
+second_title: Aspose.Words för .NET
+description: ListCollection GetListByListId metod. Hämtar en lista med en listidentifierare i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.lists/listcollection/getlistbylistid/
@@ -22,11 +24,11 @@ public List GetListByListId(int listId)
 
 Returnerar listobjektet. Returnerar`null` om en lista med den angivna identifieraren inte hittades.
 
-### Anmärkningar
+## Anmärkningar
 
 Du behöver normalt inte använda den här metoden. För det mesta tillämpar du listformatting på stycken bara genom att ställa in[`List`](../../listformat/list/) egenskap av[`ListFormat`](../../listformat/) objekt.
 
-### Exempel
+## Exempel
 
 Visar hur man verifierar ägardokumentegenskaper för listor.
 
@@ -49,7 +51,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* namnutrymme [Aspose.Words.Lists](../../listcollection/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

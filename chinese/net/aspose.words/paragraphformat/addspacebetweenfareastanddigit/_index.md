@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取或设置一个标志指示当前段落中数字的regions 与东亚文本区域之间的字符间距是否自动调整
+linktitle: AddSpaceBetweenFarEastAndDigit
+articleTitle: AddSpaceBetweenFarEastAndDigit
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat AddSpaceBetweenFarEastAndDigit 财产. 获取或设置一个标志指示当前段落中数字的regions 与东亚文本区域之间的字符间距是否自动调整 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在文档中插入段落。
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

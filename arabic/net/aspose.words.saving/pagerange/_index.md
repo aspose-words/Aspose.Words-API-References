@@ -1,7 +1,9 @@
 ---
-title: Class PageRange
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.PageRange فصل. يمثل نطاقًا مستمرًا من الصفحات.
+title: PageRange Class
+linktitle: PageRange
+articleTitle: PageRange
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.PageRange فصل. يمثل نطاقًا مستمرًا من الصفحات في C#.
 type: docs
 weight: 5370
 url: /ar/net/aspose.words.saving/pagerange/
@@ -20,11 +22,9 @@ public sealed class PageRange
 
 | اسم | وصف |
 | --- | --- |
-| [PageRange](pagerange/)(int, int) | إنشاء كائن نطاق صفحات جديد. |
+| [PageRange](pagerange/)(*int, int*) | إنشاء كائن نطاق صفحات جديد. |
 
 ### أنظر أيضا
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

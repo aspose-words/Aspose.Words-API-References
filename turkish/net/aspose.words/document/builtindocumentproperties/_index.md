@@ -1,7 +1,9 @@
 ---
 title: Document.BuiltInDocumentProperties
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Belgenin tüm yerleşik belge özelliklerini temsil eden bir koleksiyon döndürür.
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: Aspose.Words for .NET
+description: Document BuiltInDocumentProperties mülk. Belgenin tüm yerleşik belge özelliklerini temsil eden bir koleksiyon döndürür C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/document/builtindocumentproperties/
@@ -14,7 +16,7 @@ Belgenin tüm yerleşik belge özelliklerini temsil eden bir koleksiyon döndür
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerleşik belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -49,7 +51,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 
 * class [BuiltInDocumentProperties](../../../aspose.words.properties/builtindocumentproperties/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

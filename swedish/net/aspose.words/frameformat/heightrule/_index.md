@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HeightRule
-second_title: Aspose.Words för .NET API Referens
-description: FrameFormat fast egendom. Hämtar regeln för att bestämma höjden på den angivna ramen.
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: Aspose.Words för .NET
+description: FrameFormat HeightRule fast egendom. Hämtar regeln för att bestämma höjden på den angivna ramen i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/frameformat/heightrule/
@@ -14,7 +16,7 @@ Hämtar regeln för att bestämma höjden på den angivna ramen.
 public HeightRule HeightRule { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får information om formateringsegenskaper för stycken som är ramar.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [HeightRule](../../heightrule/)
 * class [FrameFormat](../)
-* namnutrymme [Aspose.Words](../../frameformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

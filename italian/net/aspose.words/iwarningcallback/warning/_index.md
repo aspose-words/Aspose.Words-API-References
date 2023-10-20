@@ -1,7 +1,9 @@
 ---
 title: IWarningCallback.Warning
-second_title: Aspose.Words per .NET API Reference
-description: IWarningCallback metodo. Aspose.Words richiama questo metodo quando incontra qualche problema durante il caricamento o il salvataggio del documento che potrebbe comportare la perdita di formattazione o fedeltà dei dati.
+linktitle: Warning
+articleTitle: Warning
+second_title: Aspose.Words per .NET
+description: IWarningCallback Warning metodo. Aspose.Words richiama questo metodo quando incontra qualche problema durante il caricamento o il salvataggio del documento che potrebbe comportare la perdita di formattazione o fedeltà dei dati in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/iwarningcallback/warning/
@@ -14,7 +16,7 @@ Aspose.Words richiama questo metodo quando incontra qualche problema durante il 
 public void Warning(WarningInfo info)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un carattere mancante tra le origini dei caratteri disponibili.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * interface [IWarningCallback](../)
-* spazio dei nomi [Aspose.Words](../../iwarningcallback/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

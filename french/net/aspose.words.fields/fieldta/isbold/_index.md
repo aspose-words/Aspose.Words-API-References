@@ -1,7 +1,9 @@
 ---
 title: FieldTA.IsBold
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldTA propriété. Obtient ou définit sil faut appliquer une mise en forme en gras au numéro de page de lentrée.
+linktitle: IsBold
+articleTitle: IsBold
+second_title: Aspose.Words pour .NET
+description: FieldTA IsBold propriété. Obtient ou définit sil faut appliquer une mise en forme en gras au numéro de page de lentrée en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldta/isbold/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut appliquer une mise en forme en gras au numéro de 
 public bool IsBold { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer et personnaliser une table de autorités à l’aide des champs TOA et TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Voir également
 
 * class [FieldTA](../)
-* espace de noms [Aspose.Words.Fields](../../fieldta/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

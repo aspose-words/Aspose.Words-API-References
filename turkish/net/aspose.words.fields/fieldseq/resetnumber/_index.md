@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.ResetNumber
-second_title: Aspose.Words for .NET API Referansı
-description: FieldSeq mülk. Sıra numarasının sıfırlanacağı bir tam sayı alır veya ayarlar. Sayı yoksa 1 değerini döndürür.
+linktitle: ResetNumber
+articleTitle: ResetNumber
+second_title: Aspose.Words for .NET
+description: FieldSeq ResetNumber mülk. Sıra numarasının sıfırlanacağı bir tam sayı alır veya ayarlar. Sayı yoksa 1 değerini döndürür C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldseq/resetnumber/
@@ -14,7 +16,7 @@ Sıra numarasının sıfırlanacağı bir tam sayı alır veya ayarlar. Sayı yo
 public string ResetNumber { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 SEQ alanlarını kullanarak numaralandırma oluşturmayı gösterir.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### Ayrıca bakınız
 
 * class [FieldSeq](../)
-* ad alanı [Aspose.Words.Fields](../../fieldseq/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

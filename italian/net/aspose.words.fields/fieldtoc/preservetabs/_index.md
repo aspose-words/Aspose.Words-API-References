@@ -1,7 +1,9 @@
 ---
 title: FieldToc.PreserveTabs
-second_title: Aspose.Words per .NET API Reference
-description: FieldToc proprietà. Ottiene o imposta se conservare le voci di tabulazione allinterno delle voci della tabella.
+linktitle: PreserveTabs
+articleTitle: PreserveTabs
+second_title: Aspose.Words per .NET
+description: FieldToc PreserveTabs proprietà. Ottiene o imposta se conservare le voci di tabulazione allinterno delle voci della tabella in C#.
 type: docs
 weight: 140
 url: /it/net/aspose.words.fields/fieldtoc/preservetabs/
@@ -14,7 +16,7 @@ Ottiene o imposta se conservare le voci di tabulazione all'interno delle voci de
 public bool PreserveTabs { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un sommario e popolarlo con voci basate sugli stili di intestazione.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Guarda anche
 
 * class [FieldToc](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldtoc/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

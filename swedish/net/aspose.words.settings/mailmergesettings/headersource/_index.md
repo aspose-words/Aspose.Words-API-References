@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.HeaderSource
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeSettings fast egendom. Anger sökvägen till källan för kopplingshuvudet. Standardvärdet är en tom sträng.
+linktitle: HeaderSource
+articleTitle: HeaderSource
+second_title: Aspose.Words för .NET
+description: MailMergeSettings HeaderSource fast egendom. Anger sökvägen till källan för kopplingshuvudet. Standardvärdet är en tom sträng i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.settings/mailmergesettings/headersource/
@@ -14,7 +16,7 @@ Anger sökvägen till källan för kopplingshuvudet. Standardvärdet är en tom 
 public string HeaderSource { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar en datakälla för en sammanslagning från en rubrikkälla och en datakälla.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.docx");
 ### Se även
 
 * class [MailMergeSettings](../)
-* namnutrymme [Aspose.Words.Settings](../../mailmergesettings/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

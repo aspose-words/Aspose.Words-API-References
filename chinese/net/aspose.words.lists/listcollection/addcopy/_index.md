@@ -1,7 +1,9 @@
 ---
 title: ListCollection.AddCopy
-second_title: Aspose.Words for .NET API 参考
-description: ListCollection 方法. 通过复制指定列表并将其添加到文档中的列表集合中来创建新列表
+linktitle: AddCopy
+articleTitle: AddCopy
+second_title: 用于 .NET 的 Aspose.Words
+description: ListCollection AddCopy 方法. 通过复制指定列表并将其添加到文档中的列表集合中来创建新列表 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.lists/listcollection/addcopy/
@@ -22,13 +24,13 @@ public List AddCopy(List srcList)
 
 新创建的列表。
 
-### 评论
+## 评论
 
 源列表可以来自任何文档。如果源列表属于不同的文档，则会创建 列表的副本并将其添加到当前文档中。
 
 如果源列表是列表样式的引用或定义，则 新创建的列表与原始列表样式无关。
 
-### 例子
+## 例子
 
 演示如何使用另一个文档中的所有列表的示例创建文档。
 
@@ -107,7 +109,5 @@ doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* 命名空间 [Aspose.Words.Lists](../../listcollection/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

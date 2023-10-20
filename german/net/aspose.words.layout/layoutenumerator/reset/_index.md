@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Reset
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutEnumerator methode. Verschiebt den Enumerator auf die erste Seite des Dokuments.
+linktitle: Reset
+articleTitle: Reset
+second_title: Aspose.Words für .NET
+description: LayoutEnumerator Reset methode. Verschiebt den Enumerator auf die erste Seite des Dokuments in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words.layout/layoutenumerator/reset/
@@ -14,7 +16,7 @@ Verschiebt den Enumerator auf die erste Seite des Dokuments.
 public void Reset()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten zum Durchlaufen der Layoutelemente eines Dokuments.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Siehe auch
 
 * class [LayoutEnumerator](../)
-* namensraum [Aspose.Words.Layout](../../layoutenumerator/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.EntryName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldAutoTextList propriété. Obtient ou définit le nom de lentrée dinsertion automatique.
+linktitle: EntryName
+articleTitle: EntryName
+second_title: Aspose.Words pour .NET
+description: FieldAutoTextList EntryName propriété. Obtient ou définit le nom de lentrée dinsertion automatique en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldautotextlist/entryname/
@@ -14,7 +16,7 @@ Obtient ou définit le nom de l'entrée d'insertion automatique.
 public string EntryName { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un champ AUTOTEXTLIST pour effectuer une sélection dans une liste d’entrées d’insertion automatique.
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### Voir également
 
 * class [FieldAutoTextList](../)
-* espace de noms [Aspose.Words.Fields](../../fieldautotextlist/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

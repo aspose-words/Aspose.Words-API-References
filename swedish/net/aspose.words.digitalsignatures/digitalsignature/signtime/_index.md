@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SignTime
-second_title: Aspose.Words för .NET API Referens
-description: DigitalSignature fast egendom. Hämtar tiden då dokumentet signerades.
+linktitle: SignTime
+articleTitle: SignTime
+second_title: Aspose.Words för .NET
+description: DigitalSignature SignTime fast egendom. Hämtar tiden då dokumentet signerades i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.digitalsignatures/digitalsignature/signtime/
@@ -14,7 +16,7 @@ Hämtar tiden då dokumentet signerades.
 public DateTime SignTime { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man validerar och visar information om varje signatur i ett dokument.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Se även
 
 * class [DigitalSignature](../)
-* namnutrymme [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* namnutrymme [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * hopsättning [Aspose.Words](../../../)
-
-

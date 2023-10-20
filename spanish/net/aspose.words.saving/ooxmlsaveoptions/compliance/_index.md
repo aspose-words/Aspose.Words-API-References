@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.Compliance
-second_title: Referencia de API de Aspose.Words para .NET
-description: OoxmlSaveOptions propiedad. Especifica la versión OOXML para el documento de salida. El valor predeterminado esEcma376_2006 .
+linktitle: Compliance
+articleTitle: Compliance
+second_title: Aspose.Words para .NET
+description: OoxmlSaveOptions Compliance propiedad. Especifica la versión OOXML para el documento de salida. El valor predeterminado esEcma376_2006  en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/ooxmlsaveoptions/compliance/
@@ -14,7 +16,7 @@ Especifica la versión OOXML para el documento de salida. El valor predeterminad
 public OoxmlCompliance Compliance { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar formas DML en un documento.
 
@@ -106,7 +108,5 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * enum [OoxmlCompliance](../../ooxmlcompliance/)
 * class [OoxmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

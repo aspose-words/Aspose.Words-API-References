@@ -1,7 +1,9 @@
 ---
-title: Class OdsoRecipientData
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.OdsoRecipientData clase. Representa información sobre un único registro dentro de una fuente de datos externa que se excluirá de la combinación de correspondencia.
+title: OdsoRecipientData Class
+linktitle: OdsoRecipientData
+articleTitle: OdsoRecipientData
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Settings.OdsoRecipientData clase. Representa información sobre un único registro dentro de una fuente de datos externa que se excluirá de la combinación de correspondencia en C#.
 type: docs
 weight: 5930
 url: /es/net/aspose.words.settings/odsorecipientdata/
@@ -37,11 +39,11 @@ public class OdsoRecipientData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsorecipientdata/clone/)() | Devuelve un clon profundo de este objeto. |
 
-### Observaciones
+## Observaciones
 
 Si un registro se fusionará en un documento combinado, entonces no se necesita información sobre ese registro. Sin embargo, si un registro determinado no se fusionará en un documento combinado, entonces el valor de la clave única para ese registro se almacenará en el[`UniqueTag`](./uniquetag/)propiedad de este objeto para indicar esta exclusión.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de datos que designa qué registros de origen de datos de combinación excluirá una combinación de correspondencia.
 
@@ -82,5 +84,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * espacio de nombres [Aspose.Words.Settings](../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../)
-
-

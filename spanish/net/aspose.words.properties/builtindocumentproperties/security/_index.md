@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Security
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuiltInDocumentProperties propiedad. Especifica el nivel de seguridad de un documento como un valor numérico.
+linktitle: Security
+articleTitle: Security
+second_title: Aspose.Words para .NET
+description: BuiltInDocumentProperties Security propiedad. Especifica el nivel de seguridad de un documento como un valor numérico en C#.
 type: docs
 weight: 250
 url: /es/net/aspose.words.properties/builtindocumentproperties/security/
@@ -14,7 +16,7 @@ Especifica el nivel de seguridad de un documento como un valor numérico.
 public DocumentSecurity Security { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Utilice esta propiedad sólo con fines informativos porque Microsoft Word no siempre establece esta propiedad. Esta propiedad solo está disponible en documentos DOC y OOXML.
 
@@ -22,7 +24,7 @@ Para proteger o desproteger un documento utilice the [`Protect`](../../../aspose
 
 Aspose.Words actualiza esta propiedad a un valor correcto antes de guardar un documento.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar las propiedades del documento para mostrar el nivel de seguridad de un documento.
 
@@ -68,7 +70,5 @@ Assert.AreEqual(DocumentSecurity.ReadOnlyExceptAnnotations,
 
 * enum [DocumentSecurity](../../documentsecurity/)
 * class [BuiltInDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

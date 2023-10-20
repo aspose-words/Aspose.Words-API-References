@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.PromptText
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAsk свойство. Получает или задает текст подсказки заголовок окна подсказки.
+linktitle: PromptText
+articleTitle: PromptText
+second_title: Aspose.Words для .NET
+description: FieldAsk PromptText свойство. Получает или задает текст подсказки заголовок окна подсказки на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldask/prompttext/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldask/prompttext/
 public string PromptText { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле ASK и настроить его свойства.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Смотрите также
 
 * class [FieldAsk](../)
-* пространство имен [Aspose.Words.Fields](../../fieldask/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

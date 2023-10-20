@@ -1,7 +1,9 @@
 ---
 title: FieldGreetingLine.NameFormat
-second_title: Aspose.Words for .NET API Referansı
-description: FieldGreetingLine mülk. Alanda yer alan adın biçimini alır veya ayarlar.
+linktitle: NameFormat
+articleTitle: NameFormat
+second_title: Aspose.Words for .NET
+description: FieldGreetingLine NameFormat mülk. Alanda yer alan adın biçimini alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldgreetingline/nameformat/
@@ -14,7 +16,7 @@ Alanda yer alan adın biçimini alır veya ayarlar.
 public string NameFormat { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 GREETINGLINE alanının nasıl ekleneceğini gösterir.
 
@@ -74,7 +76,5 @@ Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created progra
 ### Ayrıca bakınız
 
 * class [FieldGreetingLine](../)
-* ad alanı [Aspose.Words.Fields](../../fieldgreetingline/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

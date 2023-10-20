@@ -1,7 +1,9 @@
 ---
 title: PageLayoutCallbackArgs.Document
-second_title: Aspose.Words لمراجع .NET API
-description: PageLayoutCallbackArgs ملكية. الحصول على المستند.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words لـ .NET
+description: PageLayoutCallbackArgs Document ملكية. الحصول على المستند في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.layout/pagelayoutcallbackargs/document/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/pagelayoutcallbackargs/document/
 public Document Document { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تتبع تغييرات التخطيط من خلال رد اتصال التخطيط.
 
@@ -81,7 +83,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [PageLayoutCallbackArgs](../)
-* مساحة الاسم [Aspose.Words.Layout](../../pagelayoutcallbackargs/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartXValueCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartXValueCollection méthode. Renvoie un objet énumérateur.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: ChartXValueCollection GetEnumerator méthode. Renvoie un objet énumérateur en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing.charts/chartxvaluecollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<ChartXValue> GetEnumerator()
 
 * class [ChartXValue](../../chartxvalue/)
 * class [ChartXValueCollection](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartxvaluecollection/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

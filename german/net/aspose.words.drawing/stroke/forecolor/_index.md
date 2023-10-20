@@ -1,9 +1,11 @@
 ---
 title: Stroke.ForeColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: Stroke eigendom. Ruft die Vordergrundfarbe des Strichs ab oder legt diese fest.
+linktitle: ForeColor
+articleTitle: ForeColor
+second_title: Aspose.Words für .NET
+description: Stroke ForeColor eigendom. Ruft die Vordergrundfarbe des Strichs ab oder legt diese fest in C#.
 type: docs
-weight: 110
+weight: 100
 url: /de/net/aspose.words.drawing/stroke/forecolor/
 ---
 ## Stroke.ForeColor property
@@ -14,11 +16,11 @@ Ruft die Vordergrundfarbe des Strichs ab oder legt diese fest.
 public Color ForeColor { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert für a[`Shape`](../../shape/) is Black.
 
-### Beispiele
+## Beispiele
 
 Zeigen Sie, wie Sie die Markierungsformatierung festlegen.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### Siehe auch
 
 * class [Stroke](../)
-* namensraum [Aspose.Words.Drawing](../../stroke/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: XamlFlowSaveOptions.XamlFlowSaveOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: XamlFlowSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вXamlFlow формат.
+title: XamlFlowSaveOptions
+linktitle: XamlFlowSaveOptions
+articleTitle: XamlFlowSaveOptions
+second_title: Aspose.Words для .NET
+description: XamlFlowSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вXamlFlow формат на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/xamlflowsaveoptions/xamlflowsaveoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/xamlflowsaveoptions/xamlflowsaveoptions/
 public XamlFlowSaveOptions()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать имена файлов связанных изображений, созданных при преобразовании документа в потоковую форму .xaml.
 
@@ -80,12 +82,12 @@ private class ImageUriPrinter : IImageSavingCallback
 ### Смотрите также
 
 * class [XamlFlowSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## XamlFlowSaveOptions(SaveFormat) {#constructor_1}
+## XamlFlowSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вXamlFlow илиXamlFlowPack формат.
 
@@ -97,7 +99,7 @@ public XamlFlowSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | ВозможноXamlFlow илиXamlFlowPack. |
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать имена файлов связанных изображений, созданных при преобразовании документа в потоковую форму .xaml.
 
@@ -164,7 +166,5 @@ private class ImageUriPrinter : IImageSavingCallback
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XamlFlowSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

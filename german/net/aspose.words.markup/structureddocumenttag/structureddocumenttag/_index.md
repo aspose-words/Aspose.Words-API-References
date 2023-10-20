@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTag.StructuredDocumentTag
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag constructeur. Initialisiert eine neue Instanz von Strukturiertes DokumentTag Klasse.
+title: StructuredDocumentTag
+linktitle: StructuredDocumentTag
+articleTitle: StructuredDocumentTag
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag constructeur. Initialisiert eine neue Instanz vonStrukturiertes DokumentTag Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-Initialisiert eine neue Instanz von **Strukturiertes Dokument-Tag** Klasse.
+Initialisiert eine neue Instanz von**Strukturiertes Dokument-Tag** Klasse.
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
@@ -20,7 +22,7 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 | type | SdtType | Typ des SDT-Knotens. |
 | level | MarkupLevel | Ebene des SDT-Knotens innerhalb des Dokuments. |
 
-### Bemerkungen
+## Bemerkungen
 
 Die folgenden Arten von SDT können erstellt werden:
 
@@ -34,7 +36,7 @@ Die folgenden Arten von SDT können erstellt werden:
 * RichText
 * PlainText
 
-### Beispiele
+## Beispiele
 
 Zeigen Sie, wie Sie ein strukturiertes Dokument-Tag in Form eines Kontrollkästchens erstellen.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 * enum [SdtType](../../sdttype/)
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

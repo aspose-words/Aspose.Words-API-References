@@ -1,7 +1,9 @@
 ---
 title: MailMerge.UseNonMergeFields
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge propriété. Quandvrai  spécifie quen plus des champs MERGEFIELD le publipostage est effectué dans dautres types de champs et également dans les balises fieldName.
+linktitle: UseNonMergeFields
+articleTitle: UseNonMergeFields
+second_title: Aspose.Words pour .NET
+description: MailMerge UseNonMergeFields propriété. Quandvrai  spécifie quen plus des champs MERGEFIELD le publipostage est effectué dans dautres types de champs et également dans les balises fieldName en C#.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.mailmerging/mailmerge/usenonmergefields/
@@ -14,7 +16,7 @@ Quand`vrai` , spécifie qu'en plus des champs MERGEFIELD, le publipostage est ef
 public bool UseNonMergeFields { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Normalement, le publipostage n'est effectué que dans les champs MERGEFIELD, mais plusieurs clients ont fait construire leur reporting à l'aide d'autres champs et ont créé de nombreux documents de cette manière. Pour simplifier la migration (et parce que l'approche this a été utilisée indépendamment par plusieurs clients), la possibilité de fusion et de publipostage dans d'autres champs a été introduite.
 
@@ -28,7 +30,7 @@ SI 0 = 0 "{FieldName}" ""
 
 Aussi, quand`UseNonMergeFields` est réglé sur`vrai`, Aspose.Words effectuera un publipostage dans le texte tags "{{fieldName}}". Ce ne sont pas des champs, mais simplement des balises de texte.
 
-### Exemples
+## Exemples
 
 Montre comment conserver l’apparence des balises de publipostage alternatives qui restent inutilisées lors d’un publipostage.
 
@@ -92,7 +94,5 @@ private static DataTable CreateSourceTablePreserveUnusedTags()
 ### Voir également
 
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

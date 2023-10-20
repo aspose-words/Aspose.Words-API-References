@@ -1,7 +1,9 @@
 ---
 title: Shape.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Gibt zurückShape .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: Shape NodeType eigendom. Gibt zurückShape  in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.drawing/shape/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückShape .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Shape](../)
-* namensraum [Aspose.Words.Drawing](../../shape/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Comment.SetText
-second_title: Справочник по API Aspose.Words для .NET
-description: Comment метод. Это удобный метод позволяющий легко задать текст комментария.
+linktitle: SetText
+articleTitle: SetText
+second_title: Aspose.Words для .NET
+description: Comment SetText метод. Это удобный метод позволяющий легко задать текст комментария на С#.
 type: docs
-weight: 180
+weight: 150
 url: /ru/net/aspose.words/comment/settext/
 ---
 ## Comment.SetText method
@@ -18,11 +20,11 @@ public void SetText(string text)
 | --- | --- | --- |
 | text | String | Новый текст комментария. |
 
-### Примечания
+## Примечания
 
 Этот метод позволяет быстро задать текст комментария из строки. Строка может содержать разрывы абзацев , это соответственно создаст абзацы текста в комментарии. Если вы хотите вставить в комментарий более сложные элементы, например bookmarks или таблицы, или применить расширенное форматирование, то вам необходимо использовать соответствующие классы узлов. до создайте текст комментария.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить комментарий к документу и затем ответить на него.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 ### Смотрите также
 
 * class [Comment](../)
-* пространство имен [Aspose.Words](../../comment/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

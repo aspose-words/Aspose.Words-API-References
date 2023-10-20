@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.MatchCase
-second_title: Aspose.Words för .NET API Referens
-description: FindReplaceOptions fast egendom. True indikerar skiftlägeskänslig jämförelse false indikerar skiftlägesokänslig jämförelse.
+linktitle: MatchCase
+articleTitle: MatchCase
+second_title: Aspose.Words för .NET
+description: FindReplaceOptions MatchCase fast egendom. True indikerar skiftlägeskänslig jämförelse false indikerar skiftlägesokänslig jämförelse i C#.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.replacing/findreplaceoptions/matchcase/
@@ -14,7 +16,7 @@ True indikerar skiftlägeskänslig jämförelse, false indikerar skiftlägesokä
 public bool MatchCase { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du växlar skiftlägeskänslighet när du utför en sök-och-ersätt-åtgärd.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade
 ### Se även
 
 * class [FindReplaceOptions](../)
-* namnutrymme [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MailAsAttachment
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMergeSettings propiedad. Especifica que los documentos generados durante una operación de combinación de correspondencia deben enviarse por correo electrónico como un archivo adjunto en lugar de y no como el cuerpo del correo electrónico real. El valor predeterminado esFALSO .
+linktitle: MailAsAttachment
+articleTitle: MailAsAttachment
+second_title: Aspose.Words para .NET
+description: MailMergeSettings MailAsAttachment propiedad. Especifica que los documentos generados durante una operación de combinación de correspondencia deben enviarse por correo electrónico como un archivo adjunto en lugar de y no como el cuerpo del correo electrónico real. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words.settings/mailmergesettings/mailasattachment/
@@ -14,7 +16,7 @@ Especifica que los documentos generados durante una operación de combinación d
 public bool MailAsAttachment { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia mientras se conecta a una fuente de datos externa.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Ver también
 
 * class [MailMergeSettings](../)
-* espacio de nombres [Aspose.Words.Settings](../../mailmergesettings/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

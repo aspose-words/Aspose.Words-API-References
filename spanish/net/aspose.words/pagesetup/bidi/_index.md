@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Bidi
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Especifica que esta sección contiene texto bidireccional scripts complejos.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words para .NET
+description: PageSetup Bidi propiedad. Especifica que esta sección contiene texto bidireccional scripts complejos en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words/pagesetup/bidi/
@@ -14,11 +16,11 @@ Especifica que esta sección contiene texto bidireccional (scripts complejos).
 public bool Bidi { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Cuando`verdadero`las columnas de esta sección están dispuestas de derecha a izquierda.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer el orden de las columnas de texto en una sección.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PageSetup.Bidi.docx");
 ### Ver también
 
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

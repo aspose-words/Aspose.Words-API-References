@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorUnitIsAuto
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Küçük onay işaretleri arasındaki varsayılan mesafenin kullanılıp kullanılmayacağını belirten bayrağı alır veya ayarlar.
+linktitle: MinorUnitIsAuto
+articleTitle: MinorUnitIsAuto
+second_title: Aspose.Words for .NET
+description: ChartAxis MinorUnitIsAuto mülk. Küçük onay işaretleri arasındaki varsayılan mesafenin kullanılıp kullanılmayacağını belirten bayrağı alır veya ayarlar C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.drawing.charts/chartaxis/minorunitisauto/
@@ -14,11 +16,11 @@ Küçük onay işaretleri arasındaki varsayılan mesafenin kullanılıp kullan�
 public bool MinorUnitIsAuto { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Özelliğin zaman kategorisi ve değer eksenlerine etkisi vardır.
 
-### Örnekler
+## Örnekler
 
 Bir grafik ekseninin onay işaretlerinin ve görüntülenen değerlerinin nasıl değiştirileceğini gösterir.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Ayrıca bakınız
 
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

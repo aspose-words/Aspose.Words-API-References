@@ -1,9 +1,11 @@
 ---
 title: GlossaryDocument.GetBuildingBlock
-second_title: Aspose.Words for .NET API Referansı
-description: GlossaryDocument yöntem. Belirtilen galeriyi kategoriyi ve adı kullanarak bir yapı taşı bulur.
+linktitle: GetBuildingBlock
+articleTitle: GetBuildingBlock
+second_title: Aspose.Words for .NET
+description: GlossaryDocument GetBuildingBlock yöntem. Belirtilen galeriyi kategoriyi ve adı kullanarak bir yapı taşı bulur C#'da.
 type: docs
-weight: 90
+weight: 70
 url: /tr/net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument.GetBuildingBlock method
@@ -24,13 +26,13 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 
 Eşleşen yapı taşı veya`hükümsüz` bir eşleşme bulunamazsa.
 
-### Notlar
+## Notlar
 
 Bu, bu koleksiyondaki tüm yapı blokları üzerinde yinelenen ve belirtilen galeri, kategori ve adla eşleşen ilk yapı bloğunu döndüren kullanışlı bir yöntemdir.
 
 Microsoft Word, yapı taşlarını galeriler halinde düzenler. galeriler , kullanılarak önceden tanımlanır.[`BuildingBlockGallery`](../../buildingblockgallery/) enum. Her galeride yapı taşları bir veya daha fazla kategori halinde düzenlenebilir. Kategori adı bir dizedir. Her yapı taşının bir adı vardır. Bir yapı bloğu adının benzersiz olacağı garanti edilmez.
 
-### Örnekler
+## Örnekler
 
 Bir sözlük belgesinde yapı taşlarına erişmenin yollarını gösterir.
 
@@ -136,7 +138,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * class [BuildingBlock](../../buildingblock/)
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [GlossaryDocument](../)
-* ad alanı [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* ad alanı [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../../)
-
-

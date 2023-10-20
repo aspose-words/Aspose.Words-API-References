@@ -1,7 +1,9 @@
 ---
 title: DefaultFontSubstitutionRule.DefaultFontName
-second_title: Справочник по API Aspose.Words для .NET
-description: DefaultFontSubstitutionRule свойство. Получает или задает имя шрифта по умолчанию.
+linktitle: DefaultFontName
+articleTitle: DefaultFontName
+second_title: Aspose.Words для .NET
+description: DefaultFontSubstitutionRule DefaultFontName свойство. Получает или задает имя шрифта по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/
 public string DefaultFontName { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — «Times New Roman».
 
-### Примеры
+## Примеры
 
 Показывает, как установить правило замены шрифтов по умолчанию.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontName.pdf");
 ### Смотрите также
 
 * class [DefaultFontSubstitutionRule](../)
-* пространство имен [Aspose.Words.Fonts](../../defaultfontsubstitutionrule/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

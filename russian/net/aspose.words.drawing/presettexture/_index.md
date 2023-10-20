@@ -1,7 +1,9 @@
 ---
-title: Enum PresetTexture
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.PresetTexture перечисление. Определяет текстуру которая будет использоваться для заполнения фигуры.
+title: PresetTexture Enum
+linktitle: PresetTexture
+articleTitle: PresetTexture
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.PresetTexture перечисление. Определяет текстуру которая будет использоваться для заполнения фигуры на С#.
 type: docs
 weight: 1180
 url: /ru/net/aspose.words.drawing/presettexture/
@@ -48,5 +50,3 @@ public enum PresetTexture
 
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

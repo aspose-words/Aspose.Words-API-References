@@ -1,7 +1,9 @@
 ---
-title: Enum AxisBuiltInUnit
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit перечисление. Определяет единицы отображения для оси.
+title: AxisBuiltInUnit Enum
+linktitle: AxisBuiltInUnit
+articleTitle: AxisBuiltInUnit
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit перечисление. Определяет единицы отображения для оси на С#.
 type: docs
 weight: 520
 url: /ru/net/aspose.words.drawing.charts/axisbuiltinunit/
@@ -31,7 +33,7 @@ public enum AxisBuiltInUnit
 | Trillions | `10` | Указывает, что значения на диаграмме должны быть разделены на 1 000 000 000 0000. |
 | Percentage | `11` | Указывает, что значения на диаграмме должны быть разделены на 0,01. Это значение поддерживается только новыми типамиchart MS Office 2016. . |
 
-### Примеры
+## Примеры
 
 Показывает, как манипулировать делениями и отображаемыми значениями оси диаграммы.
 
@@ -90,5 +92,3 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

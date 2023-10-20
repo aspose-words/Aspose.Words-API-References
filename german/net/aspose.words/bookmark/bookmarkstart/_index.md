@@ -1,7 +1,9 @@
 ---
 title: Bookmark.BookmarkStart
-second_title: Aspose.Words für .NET-API-Referenz
-description: Bookmark eigendom. Ruft den Knoten ab der den Anfang des Lesezeichens darstellt.
+linktitle: BookmarkStart
+articleTitle: BookmarkStart
+second_title: Aspose.Words für .NET
+description: Bookmark BookmarkStart eigendom. Ruft den Knoten ab der den Anfang des Lesezeichens darstellt in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/bookmark/bookmarkstart/
@@ -14,7 +16,7 @@ Ruft den Knoten ab, der den Anfang des Lesezeichens darstellt.
 public BookmarkStart BookmarkStart { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie Lesezeichen hinzufügen und deren Inhalte aktualisieren.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [Bookmark](../)
-* namensraum [Aspose.Words](../../bookmark/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

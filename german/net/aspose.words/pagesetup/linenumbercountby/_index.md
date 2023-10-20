@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberCountBy
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt das numerische Inkrement für Zeilennummern zurück oder legt es fest.
+linktitle: LineNumberCountBy
+articleTitle: LineNumberCountBy
+second_title: Aspose.Words für .NET
+description: PageSetup LineNumberCountBy eigendom. Gibt das numerische Inkrement für Zeilennummern zurück oder legt es fest in C#.
 type: docs
 weight: 210
 url: /de/net/aspose.words/pagesetup/linenumbercountby/
@@ -14,7 +16,7 @@ Gibt das numerische Inkrement für Zeilennummern zurück oder legt es fest.
 public int LineNumberCountBy { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Zeilennummerierung für einen Abschnitt aktiviert wird.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

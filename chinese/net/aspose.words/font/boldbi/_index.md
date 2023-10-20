@@ -1,7 +1,9 @@
 ---
 title: Font.BoldBi
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 如果从右到左的文本格式为粗体则为 True
+linktitle: BoldBi
+articleTitle: BoldBi
+second_title: 用于 .NET 的 Aspose.Words
+description: Font BoldBi 财产. 如果从右到左的文本格式为粗体则为 True 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/font/boldbi/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/boldbi/
 public bool BoldBi { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何为从右到左和从右到左的文本定义单独的字体设置集。
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

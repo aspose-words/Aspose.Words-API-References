@@ -1,7 +1,9 @@
 ---
 title: Table.PreferredWidth
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Tablonun tercih edilen genişliğini alır veya ayarlar.
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words for .NET
+description: Table PreferredWidth mülk. Tablonun tercih edilen genişliğini alır veya ayarlar C#'da.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.tables/table/preferredwidth/
@@ -14,11 +16,11 @@ Tablonun tercih edilen genişliğini alır veya ayarlar.
 public PreferredWidth PreferredWidth { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:[`Auto`](../../preferredwidth/auto/).
 
-### Örnekler
+## Örnekler
 
 Bir tablonun sayfa genişliğinin %50'sine otomatik olarak sığacak şekilde nasıl ayarlanacağını gösterir.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithPreferredWidth.docx");
 
 * class [PreferredWidth](../../preferredwidth/)
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

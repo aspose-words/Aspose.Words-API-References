@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputType
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 获取或设置文本表单字段的类型
+linktitle: TextInputType
+articleTitle: TextInputType
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField TextInputType 财产. 获取或设置文本表单字段的类型 在 C#.
 type: docs
 weight: 210
 url: /zh/net/aspose.words.fields/formfield/textinputtype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/formfield/textinputtype/
 public TextFormFieldType TextInputType { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -149,7 +151,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * enum [TextFormFieldType](../../textformfieldtype/)
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

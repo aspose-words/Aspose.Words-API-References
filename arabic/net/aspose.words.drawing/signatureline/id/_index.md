@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.Id
-second_title: Aspose.Words لمراجع .NET API
-description: SignatureLine ملكية. الحصول على المعرف أو تعيينه لسطر التوقيع هذا.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words لـ .NET
+description: SignatureLine Id ملكية. الحصول على المعرف أو تعيينه لسطر التوقيع هذا في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing/signatureline/id/
@@ -16,7 +18,7 @@ url: /ar/net/aspose.words.drawing/signatureline/id/
 public Guid Id { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة سطر توقيع إلى مستند، ثم التوقيع عليه باستخدام شهادة رقمية.
 
@@ -132,7 +134,5 @@ public Guid Id { get; set; }
 ### أنظر أيضا
 
 * class [SignatureLine](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../signatureline/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

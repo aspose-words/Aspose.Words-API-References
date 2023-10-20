@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.CustomTimeZoneInfo
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Получает или задает пользовательский часовой пояс используемый для полей даты и времени.
+linktitle: CustomTimeZoneInfo
+articleTitle: CustomTimeZoneInfo
+second_title: Aspose.Words для .NET
+description: SaveOptions CustomTimeZoneInfo свойство. Получает или задает пользовательский часовой пояс используемый для полей даты и времени на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/saveoptions/customtimezoneinfo/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/saveoptions/customtimezoneinfo/
 public TimeZoneInfo CustomTimeZoneInfo { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Эта опция доступна как в .Net Framework, начиная с версии 3.5, так и в .Net Standard.
 
@@ -23,7 +25,5 @@ public TimeZoneInfo CustomTimeZoneInfo { get; set; }
 ### Смотрите также
 
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.LastRow
-second_title: Aspose.Words per .NET API Reference
-description: ConditionalStyleCollection proprietà. Ottiene lo stile dellultima riga.
+linktitle: LastRow
+articleTitle: LastRow
+second_title: Aspose.Words per .NET
+description: ConditionalStyleCollection LastRow proprietà. Ottiene lo stile dellultima riga in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words/conditionalstylecollection/lastrow/
@@ -14,7 +16,7 @@ Ottiene lo stile dell'ultima riga.
 public ConditionalStyle LastRow { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con determinati stili di area di una tabella.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* spazio dei nomi [Aspose.Words](../../conditionalstylecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

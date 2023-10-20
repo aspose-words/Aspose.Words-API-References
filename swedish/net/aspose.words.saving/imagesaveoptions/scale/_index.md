@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Scale
-second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions fast egendom. Hämtar eller ställer in zoomfaktorn för de genererade bilderna.
+linktitle: Scale
+articleTitle: Scale
+second_title: Aspose.Words för .NET
+description: ImageSaveOptions Scale fast egendom. Hämtar eller ställer in zoomfaktorn för de genererade bilderna i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.saving/imagesaveoptions/scale/
@@ -14,11 +16,11 @@ Hämtar eller ställer in zoomfaktorn för de genererade bilderna.
 public float Scale { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är 1.0. Värdet måste vara större än 0.
 
-### Exempel
+## Exempel
 
 Visar hur man renderar ett Office Math-objekt till en bildfil i det lokala filsystemet.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### Se även
 
 * class [ImageSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../imagesaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

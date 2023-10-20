@@ -1,7 +1,9 @@
 ---
 title: HeaderFooterCollection.ToArray
-second_title: Aspose.Words per .NET API Reference
-description: HeaderFooterCollection metodo. Copia tuttoHeaderFoorter s dalla raccolta a una nuova serie diHeaderFoorter s.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words per .NET
+description: HeaderFooterCollection ToArray metodo. Copia tuttoHeaderFoorter s dalla raccolta a una nuova serie diHeaderFoorter s in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/headerfootercollection/toarray/
@@ -18,7 +20,7 @@ public HeaderFooter[] ToArray()
 
 Una serie di`HeaderFoorter`S.
 
-### Esempi
+## Esempi
 
 Mostra come stampare la struttura dei nodi di ogni intestazione e piè di pagina in un documento.
 
@@ -112,7 +114,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 
 * class [HeaderFooter](../../headerfooter/)
 * class [HeaderFooterCollection](../)
-* spazio dei nomi [Aspose.Words](../../headerfootercollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

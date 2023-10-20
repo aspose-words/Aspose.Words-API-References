@@ -1,7 +1,9 @@
 ---
 title: CellCollection.ToArray
-second_title: Aspose.Words für .NET-API-Referenz
-description: CellCollection methode. Kopiert alle Zellen aus der Sammlung in ein neues Array von Zellen.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words für .NET
+description: CellCollection ToArray methode. Kopiert alle Zellen aus der Sammlung in ein neues Array von Zellen in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.tables/cellcollection/toarray/
@@ -18,7 +20,7 @@ public Cell[] ToArray()
 
 Ein Array von Zellen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt werden.
 
@@ -65,7 +67,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Cell](../../cell/)
 * class [CellCollection](../)
-* namensraum [Aspose.Words.Tables](../../cellcollection/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

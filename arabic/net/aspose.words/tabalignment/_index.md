@@ -1,7 +1,9 @@
 ---
-title: Enum TabAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.TabAlignment تعداد. يحدد محاذاة/نوع علامة الجدولة.
+title: TabAlignment Enum
+linktitle: TabAlignment
+articleTitle: TabAlignment
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.TabAlignment تعداد. يحدد محاذاة/نوع علامة الجدولة في C#.
 type: docs
 weight: 6180
 url: /ar/net/aspose.words/tabalignment/
@@ -30,5 +32,3 @@ public enum TabAlignment
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

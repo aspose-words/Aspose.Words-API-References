@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.JpegQuality
-second_title: Aspose.Words for .NET API Referansı
-description: FixedPageSaveOptions mülk. Html belgesindeki JPEG görüntülerinin kalitesini belirleyen bir değer alır veya ayarlar.
+linktitle: JpegQuality
+articleTitle: JpegQuality
+second_title: Aspose.Words for .NET
+description: FixedPageSaveOptions JpegQuality mülk. Html belgesindeki JPEG görüntülerinin kalitesini belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/
@@ -14,7 +16,7 @@ Html belgesindeki JPEG görüntülerinin kalitesini belirleyen bir değer alır 
 public int JpegQuality { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yalnızca bir belge JPEG görüntüleri içerdiğinde etkili olur.
 
@@ -22,7 +24,7 @@ Sabit sayfa formatında kaydederken bir belge içindeki görüntülerin kalitesi
 
 Varsayılan değer 95'tir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi JPEG olarak kaydederken sıkıştırmanın nasıl yapılandırılacağını gösterir.
 
@@ -55,7 +57,5 @@ Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Jpe
 ### Ayrıca bakınız
 
 * class [FixedPageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

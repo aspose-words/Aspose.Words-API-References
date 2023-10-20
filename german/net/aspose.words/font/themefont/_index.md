@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFont
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Designschriftart im angewendeten Schriftartenschema ab das damit verknüpft ist oder legt diese festFont Objekt.
+linktitle: ThemeFont
+articleTitle: ThemeFont
+second_title: Aspose.Words für .NET
+description: Font ThemeFont eigendom. Ruft die Designschriftart im angewendeten Schriftartenschema ab das damit verknüpft ist oder legt diese festFont Objekt in C#.
 type: docs
 weight: 470
 url: /de/net/aspose.words/font/themefont/
@@ -14,7 +16,7 @@ Ruft die Designschriftart im angewendeten Schriftartenschema ab, das damit verkn
 public ThemeFont ThemeFont { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Themenstil erstellt und verwendet wird.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

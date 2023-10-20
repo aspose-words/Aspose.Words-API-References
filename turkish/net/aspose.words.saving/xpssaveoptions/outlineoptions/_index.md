@@ -1,7 +1,9 @@
 ---
 title: XpsSaveOptions.OutlineOptions
-second_title: Aspose.Words for .NET API Referansı
-description: XpsSaveOptions mülk. Anahat seçeneklerini belirlemeye izin verir.
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words for .NET
+description: XpsSaveOptions OutlineOptions mülk. Anahat seçeneklerini belirlemeye izin verir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/xpssaveoptions/outlineoptions/
@@ -14,11 +16,11 @@ Anahat seçeneklerini belirlemeye izin verir.
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### Notlar
+## Notlar
 
 Dikkat[`ExpandedOutlineLevels`](../../outlineoptions/expandedoutlinelevels/) XPS'ye kaydederken seçenek çalışmaz.
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir XPS belgesinin ana hatlarında görünecek başlık düzeyinin nasıl sınırlanacağını gösterir.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [XpsSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../xpssaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Field.IsDirty
-second_title: Referencia de API de Aspose.Words para .NET
-description: Field propiedad. Obtiene o establece si el resultado actual del campo ya no es correcto obsoleto debido a otras modificaciones realizadas en el documento.
+linktitle: IsDirty
+articleTitle: IsDirty
+second_title: Aspose.Words para .NET
+description: Field IsDirty propiedad. Obtiene o establece si el resultado actual del campo ya no es correcto obsoleto debido a otras modificaciones realizadas en el documento en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/field/isdirty/
@@ -14,7 +16,7 @@ Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto
 public bool IsDirty { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar una propiedad especial para actualizar el resultado del campo.
 
@@ -71,7 +73,5 @@ using (MemoryStream docStream = new MemoryStream())
 ### Ver también
 
 * class [Field](../)
-* espacio de nombres [Aspose.Words.Fields](../../field/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

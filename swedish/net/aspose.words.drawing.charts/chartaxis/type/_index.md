@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Type
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Returnerar typ av axel.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words för .NET
+description: ChartAxis Type fast egendom. Returnerar typ av axel i C#.
 type: docs
 weight: 290
 url: /sv/net/aspose.words.drawing.charts/chartaxis/type/
@@ -14,7 +16,7 @@ Returnerar typ av axel.
 public ChartAxisType Type { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
 
@@ -104,7 +106,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * enum [ChartAxisType](../../chartaxistype/)
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

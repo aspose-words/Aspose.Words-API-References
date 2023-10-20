@@ -1,7 +1,9 @@
 ---
 title: FieldIf.TrueText
-second_title: Aspose.Words for .NET API 参考
-description: FieldIf 财产. 获取或设置比较表达式为 true 时显示的文本
+linktitle: TrueText
+articleTitle: TrueText
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIf TrueText 财产. 获取或设置比较表达式为 true 时显示的文本 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldif/truetext/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldif/truetext/
 public string TrueText { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入 IF 字段。
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### 也可以看看
 
 * class [FieldIf](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldif/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

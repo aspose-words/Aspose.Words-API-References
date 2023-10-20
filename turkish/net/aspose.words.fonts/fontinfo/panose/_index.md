@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Panose
-second_title: Aspose.Words for .NET API Referansı
-description: FontInfo mülk. PANOSE yazı tipi sınıflandırma numarasını alır veya ayarlar.
+linktitle: Panose
+articleTitle: Panose
+second_title: Aspose.Words for .NET
+description: FontInfo Panose mülk. PANOSE yazı tipi sınıflandırma numarasını alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fonts/fontinfo/panose/
@@ -14,13 +16,13 @@ PANOSE yazı tipi sınıflandırma numarasını alır veya ayarlar.
 public byte[] Panose { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 PANOSE, bir yazı tipinin kontrast, ağırlık ve serif stili gibi gibi kritik görsel özelliklerinin 10 baytlık kompakt bir açıklamasıdır. Rakamlar Aile Türü, Serif Stili, Ağırlık, Oran, Kontrast, Kontur Değişikliği, Kol Stili, Harf Biçimi, Orta Çizgi ve X Yüksekliğini temsil eder.
 
 Olabilir`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her yazı tipinin ayrıntılarına nasıl erişileceğini ve yazdırılacağını gösterir.
 
@@ -59,7 +61,5 @@ while (fontCollectionEnumerator.MoveNext())
 ### Ayrıca bakınız
 
 * class [FontInfo](../)
-* ad alanı [Aspose.Words.Fonts](../../fontinfo/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

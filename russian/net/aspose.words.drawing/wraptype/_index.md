@@ -1,7 +1,9 @@
 ---
-title: Enum WrapType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.WrapType перечисление. Указывает как текст обтекает фигуру или изображение.
+title: WrapType Enum
+linktitle: WrapType
+articleTitle: WrapType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.WrapType перечисление. Указывает как текст обтекает фигуру или изображение на С#.
 type: docs
 weight: 1400
 url: /ru/net/aspose.words.drawing/wraptype/
@@ -25,7 +27,7 @@ public enum WrapType
 | Tight | `4` | Плотно обтекает края фигуры, а не ограничивающую рамку. |
 | Through | `5` | То же, что и Tight, но обтекает любые открытые части фигуры. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить плавающее изображение в центр страницы.
 
@@ -98,5 +100,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [WrapType](../shapebase/wraptype/)
 * пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
-
-

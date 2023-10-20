@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LinesToDrop
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit le nombre de lignes du texte du paragraphe utilisé pour calculer la hauteur des lettrines.
+linktitle: LinesToDrop
+articleTitle: LinesToDrop
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat LinesToDrop propriété. Obtient ou définit le nombre de lignes du texte du paragraphe utilisé pour calculer la hauteur des lettrines en C#.
 type: docs
 weight: 210
 url: /fr/net/aspose.words/paragraphformat/linestodrop/
@@ -14,7 +16,7 @@ Obtient ou définit le nombre de lignes du texte du paragraphe utilisé pour cal
 public int LinesToDrop { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir la taille d’une lettrine.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.LinesToDrop.odt");
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

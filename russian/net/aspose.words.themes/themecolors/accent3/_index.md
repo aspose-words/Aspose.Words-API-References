@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.Accent3
-second_title: Справочник по API Aspose.Words для .NET
-description: ThemeColors свойство. Определяет цветовой акцент 3.
+linktitle: Accent3
+articleTitle: Accent3
+second_title: Aspose.Words для .NET
+description: ThemeColors Accent3 свойство. Определяет цветовой акцент 3 на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.themes/themecolors/accent3/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.themes/themecolors/accent3/
 public Color Accent3 { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как устанавливать собственные цвета и шрифты для тем.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Смотрите также
 
 * class [ThemeColors](../)
-* пространство имен [Aspose.Words.Themes](../../themecolors/)
+* пространство имен [Aspose.Words.Themes](../../../aspose.words.themes/)
 * сборка [Aspose.Words](../../../)
-
-

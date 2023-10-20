@@ -1,7 +1,9 @@
 ---
 title: ListFormat.List
-second_title: Aspose.Words per .NET API Reference
-description: ListFormat proprietà. Ottiene o imposta lelenco di cui questo paragrafo è membro.
+linktitle: List
+articleTitle: List
+second_title: Aspose.Words per .NET
+description: ListFormat List proprietà. Ottiene o imposta lelenco di cui questo paragrafo è membro in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.lists/listformat/list/
@@ -14,7 +16,7 @@ Ottiene o imposta l'elenco di cui questo paragrafo è membro.
 public List List { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'elenco che viene assegnato a questa proprietà deve appartenere al documento corrente.
 
@@ -22,7 +24,7 @@ L'elenco assegnato a questa proprietà non deve essere una definizione di stile 
 
 Impostando questa proprietà su`nullo` rimuove i punti elenco e la numerazione dal paragrafo e imposta il numero del livello di elenco su zero. Impostando questa proprietà su`nullo` equivale a chiamare[`RemoveNumbers`](../removenumbers/).
 
-### Esempi
+## Esempi
 
 Mostra come nidificare un elenco all'interno di un altro elenco.
 
@@ -125,7 +127,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * class [List](../../list/)
 * class [ListFormat](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listformat/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

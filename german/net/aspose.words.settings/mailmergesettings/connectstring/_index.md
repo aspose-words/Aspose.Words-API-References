@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ConnectString
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Gibt die Verbindungszeichenfolge an die zum Herstellen einer Verbindung mit einer externen Datenquelle verwendet wird. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: ConnectString
+articleTitle: ConnectString
+second_title: Aspose.Words für .NET
+description: MailMergeSettings ConnectString eigendom. Gibt die Verbindungszeichenfolge an die zum Herstellen einer Verbindung mit einer externen Datenquelle verwendet wird. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.settings/mailmergesettings/connectstring/
@@ -14,7 +16,7 @@ Gibt die Verbindungszeichenfolge an, die zum Herstellen einer Verbindung mit ein
 public string ConnectString { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief ausgeführt wird, während eine Verbindung zu einer externen Datenquelle hergestellt wird.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Siehe auch
 
 * class [MailMergeSettings](../)
-* namensraum [Aspose.Words.Settings](../../mailmergesettings/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

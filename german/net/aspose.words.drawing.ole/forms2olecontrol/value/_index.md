@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Value
-second_title: Aspose.Words für .NET-API-Referenz
-description: Forms2OleControl eigendom. Ruft die zugrunde liegende ValueEigenschaft ab die häufig den Steuerungsstatus darstellt. Beispielsweise hat die aktivierte Optionsschaltfläche den Wert 1 während die deaktivierte Option 0 hat. Der Standardwert ist eine leere Zeichenfolge.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words für .NET
+description: Forms2OleControl Value eigendom. Ruft die zugrunde liegende ValueEigenschaft ab die häufig den Steuerungsstatus darstellt. Beispielsweise hat die aktivierte Optionsschaltfläche den Wert 1 während die deaktivierte Option 0 hat. Der Standardwert ist eine leere Zeichenfolge in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing.ole/forms2olecontrol/value/
@@ -14,7 +16,7 @@ Ruft die zugrunde liegende Value-Eigenschaft ab, die häufig den Steuerungsstatu
 public string Value { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften eines ActiveX-Steuerelements überprüft werden.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Siehe auch
 
 * class [Forms2OleControl](../)
-* namensraum [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* namensraum [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.IsImageMap
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldHyperlink propiedad. Obtiene o establece si se deben agregar coordenadas al hipervínculo para un mapa de imagen del lado del servidor.
+linktitle: IsImageMap
+articleTitle: IsImageMap
+second_title: Aspose.Words para .NET
+description: FieldHyperlink IsImageMap propiedad. Obtiene o establece si se deben agregar coordenadas al hipervínculo para un mapa de imagen del lado del servidor en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldhyperlink/isimagemap/
@@ -14,7 +16,7 @@ Obtiene o establece si se deben agregar coordenadas al hipervínculo para un map
 public bool IsImageMap { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los campos HIPERVÍNCULO para vincular documentos en el sistema de archivos local.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### Ver también
 
 * class [FieldHyperlink](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldhyperlink/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

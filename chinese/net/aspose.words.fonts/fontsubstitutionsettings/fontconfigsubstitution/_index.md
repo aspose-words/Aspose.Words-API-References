@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontConfigSubstitution
-second_title: Aspose.Words for .NET API 参考
-description: FontSubstitutionSettings 财产. 与字体配置替换规则相关的设置
+linktitle: FontConfigSubstitution
+articleTitle: FontConfigSubstitution
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSubstitutionSettings FontConfigSubstitution 财产. 与字体配置替换规则相关的设置 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
 public FontConfigSubstitutionRule FontConfigSubstitution { get; }
 ```
 
-### 例子
+## 例子
 
 显示与操作系统相关的字体配置替换。
 
@@ -51,7 +53,5 @@ if (isLinuxOrMac)
 
 * class [FontConfigSubstitutionRule](../../fontconfigsubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

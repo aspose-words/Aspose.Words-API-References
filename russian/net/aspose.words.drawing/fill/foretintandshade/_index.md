@@ -1,9 +1,11 @@
 ---
 title: Fill.ForeTintAndShade
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill свойство. Получает или задает двойное значение которое осветляет или затемняет цвет переднего плана.
+linktitle: ForeTintAndShade
+articleTitle: ForeTintAndShade
+second_title: Aspose.Words для .NET
+description: Fill ForeTintAndShade свойство. Получает или задает двойное значение которое осветляет или затемняет цвет переднего плана на С#.
 type: docs
-weight: 90
+weight: 80
 url: /ru/net/aspose.words.drawing/fill/foretintandshade/
 ---
 ## Fill.ForeTintAndShade property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/fill/foretintandshade/
 public double ForeTintAndShade { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Допустимые значения для этого свойства находятся в диапазоне от -1 (самый темный) до 1 (самый светлый). Ноль (0) является нейтральным. Попытка установить для этого свойства значение меньше -1 или больше 1 приводит кArgumentOutOfRangeException.
 
-### Примеры
+## Примеры
 
 Показывает, как управлять осветлением и затемнением цвета шрифта переднего плана.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "Shape.FillTintAndShade.docx");
 ### Смотрите также
 
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Bookmark.BookmarkStart
-second_title: Aspose.Words لمراجع .NET API
-description: Bookmark ملكية. يحصل على العقدة التي تمثل بداية الإشارة المرجعية.
+linktitle: BookmarkStart
+articleTitle: BookmarkStart
+second_title: Aspose.Words لـ .NET
+description: Bookmark BookmarkStart ملكية. يحصل على العقدة التي تمثل بداية الإشارة المرجعية في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/bookmark/bookmarkstart/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bookmark/bookmarkstart/
 public BookmarkStart BookmarkStart { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة الإشارات المرجعية وتحديث محتوياتها.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [Bookmark](../)
-* مساحة الاسم [Aspose.Words](../../bookmark/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

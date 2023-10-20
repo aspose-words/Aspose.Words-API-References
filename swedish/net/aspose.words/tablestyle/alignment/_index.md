@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Alignment
-second_title: Aspose.Words för .NET API Referens
-description: TableStyle fast egendom. Anger justeringen för tabellstilen.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words för .NET
+description: TableStyle Alignment fast egendom. Anger justeringen för tabellstilen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/tablestyle/alignment/
@@ -14,11 +16,11 @@ Anger justeringen för tabellstilen.
 public TableAlignment Alignment { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärLeft .
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in positionen för ett bord.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Table.SetTableAlignment.docx");
 
 * enum [TableAlignment](../../../aspose.words.tables/tablealignment/)
 * class [TableStyle](../)
-* namnutrymme [Aspose.Words](../../tablestyle/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

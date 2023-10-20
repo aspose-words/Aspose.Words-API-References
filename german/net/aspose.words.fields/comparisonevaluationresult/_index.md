@@ -1,7 +1,9 @@
 ---
-title: Class ComparisonEvaluationResult
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.ComparisonEvaluationResult klas. Das Ergebnis der Vergleichsauswertung.
+title: ComparisonEvaluationResult Class
+linktitle: ComparisonEvaluationResult
+articleTitle: ComparisonEvaluationResult
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.ComparisonEvaluationResult klas. Das Ergebnis der Vergleichsauswertung in C#.
 type: docs
 weight: 1480
 url: /de/net/aspose.words.fields/comparisonevaluationresult/
@@ -20,8 +22,8 @@ public sealed class ComparisonEvaluationResult
 
 | Name | Beschreibung |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(bool) | Erstellt ein Vergleichsauswertungsergebnis. |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(string) | Erstellt ein fehlgeschlagenes Vergleichsauswertungsergebnis mit der entsprechenden Fehlermeldung. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | Erstellt ein Vergleichsauswertungsergebnis. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | Erstellt ein fehlgeschlagenes Vergleichsauswertungsergebnis mit der entsprechenden Fehlermeldung. |
 
 ## Eigenschaften
 
@@ -30,7 +32,7 @@ public sealed class ComparisonEvaluationResult
 | [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | Ruft die Fehlermeldung des Ergebnisses der fehlgeschlagenen Vergleichsauswertung ab. |
 | [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | Ruft das Ergebnis der Vergleichsauswertung ab. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine benutzerdefinierte Auswertung für die Felder IF und COMPARE implementiert wird.
 
@@ -115,5 +117,3 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

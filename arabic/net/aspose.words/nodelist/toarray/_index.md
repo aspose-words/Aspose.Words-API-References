@@ -1,7 +1,9 @@
 ---
 title: NodeList.ToArray
-second_title: Aspose.Words لمراجع .NET API
-description: NodeList طريقة. نسخ كافة العقد من المجموعة إلى مجموعة جديدة من العقد.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words لـ .NET
+description: NodeList ToArray طريقة. نسخ كافة العقد من المجموعة إلى مجموعة جديدة من العقد في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/nodelist/toarray/
@@ -18,13 +20,13 @@ public Node[] ToArray()
 
 مجموعة من العقد.
 
-### ملاحظات
+## ملاحظات
 
 يجب ألا تقوم بإضافة/إزالة العقد أثناء التكرار عبر مجموعة من العقد لأن ذلك يبطل المكرِّر ويتطلب تحديثات للمجموعات المباشرة.
 
 لتتمكن من إضافة/إزالة العقد أثناء التكرار، استخدم هذه الطريقة لنسخ العقد إلى مصفوفة ذات حجم ثابت ثم التكرار عبر المصفوفة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد عقد معينة باستخدام تعبير XPath.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* مساحة الاسم [Aspose.Words](../../nodelist/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

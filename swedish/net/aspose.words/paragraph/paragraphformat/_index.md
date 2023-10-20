@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ParagraphFormat
-second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Ger tillgång till styckeformateringsegenskaperna.
+linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
+second_title: Aspose.Words för .NET
+description: Paragraph ParagraphFormat fast egendom. Ger tillgång till styckeformateringsegenskaperna i C#.
 type: docs
 weight: 190
 url: /sv/net/aspose.words/paragraph/paragraphformat/
@@ -14,7 +16,7 @@ Ger tillgång till styckeformateringsegenskaperna.
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man konstruerar ett Aspose.Words-dokument för hand.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [ParagraphFormat](../../paragraphformat/)
 * class [Paragraph](../)
-* namnutrymme [Aspose.Words](../../paragraph/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

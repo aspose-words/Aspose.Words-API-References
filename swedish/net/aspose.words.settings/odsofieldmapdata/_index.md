@@ -1,7 +1,9 @@
 ---
-title: Class OdsoFieldMapData
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Settings.OdsoFieldMapData klass. Anger hur en kolumn i den externa datakällan ska mappas till de fördefinierade sammanslagningsfälten i dokumentet.
+title: OdsoFieldMapData Class
+linktitle: OdsoFieldMapData
+articleTitle: OdsoFieldMapData
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Settings.OdsoFieldMapData klass. Anger hur en kolumn i den externa datakällan ska mappas till de fördefinierade sammanslagningsfälten i dokumentet i C#.
 type: docs
 weight: 5900
 url: /sv/net/aspose.words.settings/odsofieldmapdata/
@@ -37,11 +39,11 @@ public class OdsoFieldMapData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsofieldmapdata/clone/)() | Returnerar en djup klon av detta objekt. |
 
-### Anmärkningar
+## Anmärkningar
 
 Microsoft Word tillhandahåller några fördefinierade sammanslagningsfältnamn som det tillåter att infoga i ett dokument som MERGEFIELD eller använder i fälten ADDRESSBLOCK eller GREETINGLINE. Den information som anges i`OdsoFieldMapData` gör det möjligt att mappa en kolumn i den externa datakällan till ett enda fördefinierat sammanslagningsfält.
 
-### Exempel
+## Exempel
 
 Visar hur du får åtkomst till insamlingen av data som mappar datakällans kolumner för att slå samman fält.
 
@@ -85,5 +87,3 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * namnutrymme [Aspose.Words.Settings](../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../)
-
-

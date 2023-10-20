@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Uri
-second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlProperty ملكية. الحصول على أو تعيين معرف URI لمساحة الاسم لسمة XML المخصصة أو خاصية العلامة الذكية.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words لـ .NET
+description: CustomXmlProperty Uri ملكية. الحصول على أو تعيين معرف URI لمساحة الاسم لسمة XML المخصصة أو خاصية العلامة الذكية في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/customxmlproperty/uri/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.markup/customxmlproperty/uri/
 public string Uri { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن`باطل`.
 
 الافتراضي هو سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(0, properties.Count);
 ### أنظر أيضا
 
 * class [CustomXmlProperty](../)
-* مساحة الاسم [Aspose.Words.Markup](../../customxmlproperty/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

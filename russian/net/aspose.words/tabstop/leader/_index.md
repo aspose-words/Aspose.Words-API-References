@@ -1,7 +1,9 @@
 ---
 title: TabStop.Leader
-second_title: Справочник по API Aspose.Words для .NET
-description: TabStop свойство. Получает или задает тип линии выноски отображаемой под символом табуляции.
+linktitle: Leader
+articleTitle: Leader
+second_title: Aspose.Words для .NET
+description: TabStop Leader свойство. Получает или задает тип линии выноски отображаемой под символом табуляции на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/tabstop/leader/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/tabstop/leader/
 public TabLeader Leader { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить положение правой позиции табуляции в абзацах, связанных с содержанием.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [TabLeader](../../tableader/)
 * class [TabStop](../)
-* пространство имен [Aspose.Words](../../tabstop/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

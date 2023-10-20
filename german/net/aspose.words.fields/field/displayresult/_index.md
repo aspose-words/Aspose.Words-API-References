@@ -1,7 +1,9 @@
 ---
 title: Field.DisplayResult
-second_title: Aspose.Words für .NET-API-Referenz
-description: Field eigendom. Ruft den Text ab der das angezeigte Feldergebnis darstellt.
+linktitle: DisplayResult
+articleTitle: DisplayResult
+second_title: Aspose.Words für .NET
+description: Field DisplayResult eigendom. Ruft den Text ab der das angezeigte Feldergebnis darstellt in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/field/displayresult/
@@ -14,11 +16,11 @@ Ruft den Text ab, der das angezeigte Feldergebnis darstellt.
 public string DisplayResult { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) Die Methode muss aufgerufen werden, um den korrekten Wert für the zu erhalten.[`FieldListNum`](../../fieldlistnum/) ,[`FieldAutoNum`](../../fieldautonum/) ,[`FieldAutoNumOut`](../../fieldautonumout/) Und[`FieldAutoNumLgl`](../../fieldautonumlgl/) Felder.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man den tatsächlichen Text erhält, den ein Feld im Dokument anzeigt.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.DisplayResult.docx");
 ### Siehe auch
 
 * class [Field](../)
-* namensraum [Aspose.Words.Fields](../../field/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

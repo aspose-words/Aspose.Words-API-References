@@ -1,7 +1,9 @@
 ---
 title: Comment.Done
-second_title: Справочник по API Aspose.Words для .NET
-description: Comment свойство. Получает или устанавливает флаг указывающий что комментарий помечен как выполненный.
+linktitle: Done
+articleTitle: Done
+second_title: Aspose.Words для .NET
+description: Comment Done свойство. Получает или устанавливает флаг указывающий что комментарий помечен как выполненный на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/comment/done/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/comment/done/
 public bool Done { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как пометить комментарий как «готовый».
 
@@ -204,7 +206,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Смотрите также
 
 * class [Comment](../)
-* пространство имен [Aspose.Words](../../comment/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

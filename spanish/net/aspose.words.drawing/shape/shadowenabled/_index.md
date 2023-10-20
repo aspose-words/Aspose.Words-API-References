@@ -1,7 +1,9 @@
 ---
 title: Shape.ShadowEnabled
-second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. Devolucionesverdadero si un efecto de sombra está habilitado.
+linktitle: ShadowEnabled
+articleTitle: ShadowEnabled
+second_title: Aspose.Words para .NET
+description: Shape ShadowEnabled propiedad. Devolucionesverdadero si un efecto de sombra está habilitado en C#.
 type: docs
 weight: 150
 url: /es/net/aspose.words.drawing/shape/shadowenabled/
@@ -14,7 +16,7 @@ Devoluciones`verdadero` si un efecto de sombra está habilitado.
 public bool ShadowEnabled { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo iterar sobre todas las formas de un documento.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Ver también
 
 * class [Shape](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shape/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FileCorruptedException
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.FileCorruptedException classe. Lanciato durante il caricamento del documento quando il documento sembra danneggiato e impossibile da caricare.
+title: FileCorruptedException Class
+linktitle: FileCorruptedException
+articleTitle: FileCorruptedException
+second_title: Aspose.Words per .NET
+description: Aspose.Words.FileCorruptedException classe. Lanciato durante il caricamento del documento quando il documento sembra danneggiato e impossibile da caricare in C#.
 type: docs
 weight: 2800
 url: /it/net/aspose.words/filecorruptedexception/
@@ -16,7 +18,7 @@ Per saperne di più, visita il[Programmazione con documenti](https://docs.aspose
 public class FileCorruptedException : Exception
 ```
 
-### Esempi
+## Esempi
 
 Mostra come intercettare una FileCorruptedException.
 
@@ -37,5 +39,3 @@ catch (FileCorruptedException e)
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

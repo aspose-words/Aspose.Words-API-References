@@ -1,7 +1,9 @@
 ---
 title: ControlChar.CellChar
-second_title: Aspose.Words for .NET API Referansı
-description: ControlChar alan. Bir tablo hücresinin sonu veya tablo satır karakterinin sonu char7 veya a.
+linktitle: CellChar
+articleTitle: CellChar
+second_title: Aspose.Words for .NET
+description: ControlChar CellChar alan. Bir tablo hücresinin sonu veya tablo satır karakterinin sonu char7 veya a C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/controlchar/cellchar/
@@ -14,7 +16,7 @@ Bir tablo hücresinin sonu veya tablo satır karakterinin sonu: (char)7 veya "\a
 public const char CellChar;
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye çeşitli kontrol karakterlerinin nasıl ekleneceğini gösterir.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ayrıca bakınız
 
 * class [ControlChar](../)
-* ad alanı [Aspose.Words](../../controlchar/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

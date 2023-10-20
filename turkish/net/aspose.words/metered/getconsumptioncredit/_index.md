@@ -1,7 +1,9 @@
 ---
 title: Metered.GetConsumptionCredit
-second_title: Aspose.Words for .NET API Referansı
-description: Metered yöntem. Tüketim kredisi alır
+linktitle: GetConsumptionCredit
+articleTitle: GetConsumptionCredit
+second_title: Aspose.Words for .NET
+description: Metered GetConsumptionCredit yöntem. Tüketim kredisi alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/metered/getconsumptioncredit/
@@ -18,7 +20,7 @@ public static decimal GetConsumptionCredit()
 
 tüketim miktarı
 
-### Örnekler
+## Örnekler
 
 Ölçülü lisansın nasıl etkinleştirileceğini ve kredinin/tüketimin nasıl izleneceğini gösterir.
 
@@ -45,7 +47,5 @@ Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptio
 ### Ayrıca bakınız
 
 * class [Metered](../)
-* ad alanı [Aspose.Words](../../metered/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

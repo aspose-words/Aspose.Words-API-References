@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.ClearFormatting
-second_title: Aspose.Words per .NET API Reference
-description: ConditionalStyleCollection metodo. Cancella tutti gli stili condizionali dello stile tabella.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words per .NET
+description: ConditionalStyleCollection ClearFormatting metodo. Cancella tutti gli stili condizionali dello stile tabella in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words/conditionalstylecollection/clearformatting/
@@ -14,7 +16,7 @@ Cancella tutti gli stili condizionali dello stile tabella.
 public void ClearFormatting()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come reimpostare gli stili di tabella condizionale.
 
@@ -54,7 +56,5 @@ Assert.True(tableStyle.ConditionalStyles.All(s => s.Borders.Color == Color.Empty
 ### Guarda anche
 
 * class [ConditionalStyleCollection](../)
-* spazio dei nomi [Aspose.Words](../../conditionalstylecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.ExpandedOutlineLevels
-second_title: Aspose.Words لمراجع .NET API
-description: OutlineOptions ملكية. يحدد عدد المستويات في المخطط التفصيلي للمستند الذي سيتم إظهاره موسعًا عند عرض الملف.
+linktitle: ExpandedOutlineLevels
+articleTitle: ExpandedOutlineLevels
+second_title: Aspose.Words لـ .NET
+description: OutlineOptions ExpandedOutlineLevels ملكية. يحدد عدد المستويات في المخطط التفصيلي للمستند الذي سيتم إظهاره موسعًا عند عرض الملف في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/outlineoptions/expandedoutlinelevels/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/outlineoptions/expandedoutlinelevels/
 public int ExpandedOutlineLevels { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أن هذه الخيارات لن تعمل عند الحفظ في XPS.
 
@@ -22,7 +24,7 @@ public int ExpandedOutlineLevels { get; set; }
 
 الافتراضي هو 0. النطاق الصالح هو من 0 إلى 9.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحويل مستند كامل إلى PDF بثلاثة مستويات في مخطط المستند.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 ### أنظر أيضا
 
 * class [OutlineOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../outlineoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

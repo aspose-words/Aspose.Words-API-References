@@ -1,7 +1,9 @@
 ---
 title: FieldLink.SourceItem
-second_title: Aspose.Words for .NET API Referansı
-description: FieldLink mülk. Kaynak dosyanın bağlanılan kısmını alır veya ayarlar.
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: Aspose.Words for .NET
+description: FieldLink SourceItem mülk. Kaynak dosyanın bağlanılan kısmını alır veya ayarlar C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.fields/fieldlink/sourceitem/
@@ -14,7 +16,7 @@ Kaynak dosyanın bağlanılan kısmını alır veya ayarlar.
 public string SourceItem { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yerel dosya sistemindeki diğer belgelere bağlanmak ve içeriklerini görüntülemek için çeşitli alan türlerinin nasıl kullanılacağını gösterir.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Ayrıca bakınız
 
 * class [FieldLink](../)
-* ad alanı [Aspose.Words.Fields](../../fieldlink/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

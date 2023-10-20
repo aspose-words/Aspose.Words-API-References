@@ -1,7 +1,9 @@
 ---
-title: Enum ContentDisposition
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.ContentDisposition uppräkning. Räknar upp olika sätt att presentera dokumentet i klientens webbläsare.
+title: ContentDisposition Enum
+linktitle: ContentDisposition
+articleTitle: ContentDisposition
+second_title: Aspose.Words för .NET
+description: Aspose.Words.ContentDisposition uppräkning. Räknar upp olika sätt att presentera dokumentet i klientens webbläsare i C#.
 type: docs
 weight: 340
 url: /sv/net/aspose.words/contentdisposition/
@@ -21,11 +23,11 @@ public enum ContentDisposition
 | Attachment | `0` | Skicka dokumentet till webbläsaren och presentera ett alternativ för att spara dokumentet på disk eller öppna i applikationen som är kopplad till dokumentets tillägg. |
 | Inline | `1` | Skicka dokumentet till webbläsaren och presenterar ett alternativ för att spara dokumentet på disk eller öppna i webbläsaren. |
 
-### Anmärkningar
+## Anmärkningar
 
 Observera att det faktiska beteendet på klientens webbläsare kan påverkas av webbläsarens säkerhetskonfiguration.
 
-### Exempel
+## Exempel
 
 Visar hur man utför en sammanfogning och sedan sparar dokumentet i klientens webbläsare.
 
@@ -56,5 +58,3 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

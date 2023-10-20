@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowLength
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.ArrowLength opsomming. Länge des Pfeils am Ende einer Zeile.
+title: ArrowLength Enum
+linktitle: ArrowLength
+articleTitle: ArrowLength
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.ArrowLength opsomming. Länge des Pfeils am Ende einer Zeile in C#.
 type: docs
 weight: 480
 url: /de/net/aspose.words.drawing/arrowlength/
@@ -23,7 +25,7 @@ public enum ArrowLength
 | Long | `2` |  |
 | Default | `0` | Das Gleiche wieShort . |
 
-### Beispiele
+## Beispiele
 
 Zeigt, um eine Vielzahl von Formen zu erstellen.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowLength](../stroke/endarrowlength/)
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

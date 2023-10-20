@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.ComparisonOperator
-second_title: Aspose.Words لمراجع .NET API
-description: ComparisonExpression ملكية. الحصول على عامل المقارنة.
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: Aspose.Words لـ .NET
+description: ComparisonExpression ComparisonOperator ملكية. الحصول على عامل المقارنة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/comparisonexpression/comparisonoperator/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/comparisonexpression/comparisonoperator/
 public string ComparisonOperator { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ التقييم المخصص لحقول IF وCOMPARE.
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### أنظر أيضا
 
 * class [ComparisonExpression](../)
-* مساحة الاسم [Aspose.Words.Fields](../../comparisonexpression/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

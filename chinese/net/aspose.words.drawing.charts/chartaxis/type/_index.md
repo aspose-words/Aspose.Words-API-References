@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Type
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 返回轴的类型
+linktitle: Type
+articleTitle: Type
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis Type 财产. 返回轴的类型 在 C#.
 type: docs
 weight: 290
 url: /zh/net/aspose.words.drawing.charts/chartaxis/type/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/type/
 public ChartAxisType Type { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何为图形类型创建适当类型的图表系列。
 
@@ -104,7 +106,5 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * enum [ChartAxisType](../../chartaxistype/)
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

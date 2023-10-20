@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.ShapeType 枚举. 指定 Microsoft Word 文档中的形状类型
+title: ShapeType Enum
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.ShapeType 枚举. 指定 Microsoft Word 文档中的形状类型 在 C#.
 type: docs
 weight: 1290
 url: /zh/net/aspose.words.drawing/shapetype/
@@ -269,7 +271,7 @@ public enum ShapeType
 | ChartX | `246` | 图表 X. |
 | MinValue | `-2` | 保留供系统使用。 |
 
-### 例子
+## 例子
 
 演示如何将带有图像的形状从本地文件系统插入到文档中。
 
@@ -328,5 +330,3 @@ foreach (Shape shape in shapes)
 * property [ShapeType](../shapebase/shapetype/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

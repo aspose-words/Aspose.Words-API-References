@@ -1,7 +1,9 @@
 ---
-title: Enum ColorPrintMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Rendering.ColorPrintMode перечисление. Указывает как печатаются нецветные страницы если устройство поддерживает цветную печать.
+title: ColorPrintMode Enum
+linktitle: ColorPrintMode
+articleTitle: ColorPrintMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Rendering.ColorPrintMode перечисление. Указывает как печатаются нецветные страницы если устройство поддерживает цветную печать на С#.
 type: docs
 weight: 4540
 url: /ru/net/aspose.words.rendering/colorprintmode/
@@ -21,7 +23,7 @@ public enum ColorPrintMode
 | Normal | `0` | Все страницы печатаются в соответствии с возможностями и настройками принтера. |
 | GrayscaleAuto | `1` | Нецветные страницы, если они обнаружены, печатаются в оттенках серого. |
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать диапазон страниц и принтер для печати документа, а затем вызвать предварительный просмотр печати.
 
@@ -71,5 +73,3 @@ Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPag
 
 * пространство имен [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../)
-
-

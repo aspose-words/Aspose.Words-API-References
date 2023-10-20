@@ -1,7 +1,9 @@
 ---
-title: Class MailMergeSettings
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.MailMergeSettings 班级. 指定文档的所有邮件合并信息
+title: MailMergeSettings Class
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.MailMergeSettings 班级. 指定文档的所有邮件合并信息 在 C#.
 type: docs
 weight: 5850
 url: /zh/net/aspose.words.settings/mailmergesettings/
@@ -50,7 +52,7 @@ public class MailMergeSettings
 | [Clear](../../aspose.words.settings/mailmergesettings/clear/)() | 清除邮件合并设置，这样当保存文档时， 不会保存任何邮件合并设置，它将成为普通文档。 |
 | [Clone](../../aspose.words.settings/mailmergesettings/clone/)() | 返回此对象的深度克隆。 |
 
-### 评论
+## 评论
 
 您可以使用此对象指定文档的邮件合并数据源，当用户打开此文档时，此信息 （以及可用数据字段）将出现在 Microsoft Word 中。 或者您可以使用此对象来查询邮件合并设置用户已在 Microsoft Word 中为此文档指定。
 
@@ -64,7 +66,7 @@ public class MailMergeSettings
 
 Aspose.Words 在不同格式之间加载、保存和转换文档 时保留邮件合并信息，但在使用[`MailMerge`](../../aspose.words.mailmerging/mailmerge/)目的。
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -117,5 +119,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

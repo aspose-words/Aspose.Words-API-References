@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntrySeparator
-second_title: Aspose.Words for .NET API 参考
-description: FieldToc 财产. 获取或设置分隔条目及其页码的字符序列
+linktitle: EntrySeparator
+articleTitle: EntrySeparator
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldToc EntrySeparator 财产. 获取或设置分隔条目及其页码的字符序列 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/fieldtoc/entryseparator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldtoc/entryseparator/
 public string EntrySeparator { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入目录，并使用基于标题样式的条目填充它。
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### 也可以看看
 
 * class [FieldToc](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldtoc/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

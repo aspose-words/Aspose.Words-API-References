@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSubDocument
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentVisitor methode. Wird aufgerufen wenn ein Unterdokument gefunden wird.
+linktitle: VisitSubDocument
+articleTitle: VisitSubDocument
+second_title: Aspose.Words für .NET
+description: DocumentVisitor VisitSubDocument methode. Wird aufgerufen wenn ein Unterdokument gefunden wird in C#.
 type: docs
 weight: 480
 url: /de/net/aspose.words/documentvisitor/visitsubdocument/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitSubDocument(SubDocument subDocument)
 
 A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokumentbesucher zum Drucken der Knotenstruktur eines Dokuments verwendet wird.
 
@@ -193,7 +195,5 @@ public class DocStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [SubDocument](../../subdocument/)
 * class [DocumentVisitor](../)
-* namensraum [Aspose.Words](../../documentvisitor/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

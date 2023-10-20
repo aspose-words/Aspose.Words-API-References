@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.HasSequenceName
-second_title: Aspose.Words for .NET API 参考
-description: FieldIndex 财产. 获取一个值该值指示在构建字段结果时是否应使用序列
+linktitle: HasSequenceName
+articleTitle: HasSequenceName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIndex HasSequenceName 财产. 获取一个值该值指示在构建字段结果时是否应使用序列 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldindex/hassequencename/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldindex/hassequencename/
 public bool HasSequenceName { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何通过组合 INDEX 和 SEQ 字段将文档拆分为多个部分。
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### 也可以看看
 
 * class [FieldIndex](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldindex/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

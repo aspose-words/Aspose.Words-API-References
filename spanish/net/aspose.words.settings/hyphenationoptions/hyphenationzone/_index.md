@@ -1,7 +1,9 @@
 ---
 title: HyphenationOptions.HyphenationZone
-second_title: Referencia de API de Aspose.Words para .NET
-description: HyphenationOptions propiedad. Obtiene o establece la distancia en 1/20 de un punto desde el margen derecho dentro del cual no desea que separe las palabras con guiones. El valor predeterminado para esta propiedad es 360 025 pulgadas.
+linktitle: HyphenationZone
+articleTitle: HyphenationZone
+second_title: Aspose.Words para .NET
+description: HyphenationOptions HyphenationZone propiedad. Obtiene o establece la distancia en 1/20 de un punto desde el margen derecho dentro del cual no desea que separe las palabras con guiones. El valor predeterminado para esta propiedad es 360 025 pulgadas en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.settings/hyphenationoptions/hyphenationzone/
@@ -14,7 +16,7 @@ Obtiene o establece la distancia en 1/20 de un punto desde el margen derecho den
 public int HyphenationZone { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar la separación de palabras automática.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
 ### Ver también
 
 * class [HyphenationOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../hyphenationoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

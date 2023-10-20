@@ -1,7 +1,9 @@
 ---
-title: Enum TextureAlignment
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.TextureAlignment énumération. Spécifie lalignement pour le carrelage du remplissage texturé.
+title: TextureAlignment Enum
+linktitle: TextureAlignment
+articleTitle: TextureAlignment
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.TextureAlignment énumération. Spécifie lalignement pour le carrelage du remplissage texturé en C#.
 type: docs
 weight: 1370
 url: /fr/net/aspose.words.drawing/texturealignment/
@@ -29,7 +31,7 @@ public enum TextureAlignment
 | BottomRight | `8` | Alignement de la texture en bas à droite. |
 | None | `9` | Aucun alignement de texture. |
 
-### Exemples
+## Exemples
 
 Montre comment remplir et recouvrir la texture à l’intérieur de la forme.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

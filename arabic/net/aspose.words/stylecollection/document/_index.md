@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Document
-second_title: Aspose.Words لمراجع .NET API
-description: StyleCollection ملكية. الحصول على مستند المالك.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words لـ .NET
+description: StyleCollection Document ملكية. الحصول على مستند المالك في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/stylecollection/document/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/stylecollection/document/
 public DocumentBase Document { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة أنماط المستند.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * class [DocumentBase](../../documentbase/)
 * class [StyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../stylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

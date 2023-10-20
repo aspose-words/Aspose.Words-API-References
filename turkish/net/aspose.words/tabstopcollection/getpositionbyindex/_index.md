@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.GetPositionByIndex
-second_title: Aspose.Words for .NET API Referansı
-description: TabStopCollection yöntem. Belirtilen dizindeki sekme durağının konumunu nokta cinsinden alır.
+linktitle: GetPositionByIndex
+articleTitle: GetPositionByIndex
+second_title: Aspose.Words for .NET
+description: TabStopCollection GetPositionByIndex yöntem. Belirtilen dizindeki sekme durağının konumunu nokta cinsinden alır C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/tabstopcollection/getpositionbyindex/
@@ -22,7 +24,7 @@ public double GetPositionByIndex(int index)
 
 Sekme durağının konumu.
 
-### Örnekler
+## Örnekler
 
 Bir sekmenin nasıl bulunacağını, dizinine nasıl uğranacağını ve konumunun nasıl doğrulanacağını gösterir.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(ConvertUtil.MillimeterToPoint(60), tabStops.GetPositionByIndex(1
 ### Ayrıca bakınız
 
 * class [TabStopCollection](../)
-* ad alanı [Aspose.Words](../../tabstopcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PageSetup.DifferentFirstPageHeaderFooter
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 如果在第一页上使用不同的页眉或页脚则为 True
+linktitle: DifferentFirstPageHeaderFooter
+articleTitle: DifferentFirstPageHeaderFooter
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup DifferentFirstPageHeaderFooter 财产. 如果在第一页上使用不同的页眉或页脚则为 True 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
 public bool DifferentFirstPageHeaderFooter { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
 
@@ -136,7 +138,5 @@ public void Order(bool differentFirstPageHeaderFooter)
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

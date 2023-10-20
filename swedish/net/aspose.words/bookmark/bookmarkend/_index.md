@@ -1,7 +1,9 @@
 ---
 title: Bookmark.BookmarkEnd
-second_title: Aspose.Words för .NET API Referens
-description: Bookmark fast egendom. Hämtar noden som representerar slutet av bokmärket.
+linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
+second_title: Aspose.Words för .NET
+description: Bookmark BookmarkEnd fast egendom. Hämtar noden som representerar slutet av bokmärket i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/bookmark/bookmarkend/
@@ -14,7 +16,7 @@ Hämtar noden som representerar slutet av bokmärket.
 public BookmarkEnd BookmarkEnd { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [Bookmark](../)
-* namnutrymme [Aspose.Words](../../bookmark/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WebExtension.IsFrozen
-second_title: Aspose.Words for .NET API 参考
-description: WebExtension 财产. 指定用户是否可以与 Web 扩展交互
+linktitle: IsFrozen
+articleTitle: IsFrozen
+second_title: 用于 .NET 的 Aspose.Words
+description: WebExtension IsFrozen 财产. 指定用户是否可以与 Web 扩展交互 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.webextensions/webextension/isfrozen/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.webextensions/webextension/isfrozen/
 public bool IsFrozen { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### 也可以看看
 
 * class [WebExtension](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../webextension/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

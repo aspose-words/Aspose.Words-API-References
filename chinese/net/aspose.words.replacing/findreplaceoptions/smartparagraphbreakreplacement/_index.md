@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.SmartParagraphBreakReplacement
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. 获取或设置一个布尔值指示当没有下一个兄弟段落时是否允许替换段落break 
+linktitle: SmartParagraphBreakReplacement
+articleTitle: SmartParagraphBreakReplacement
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions SmartParagraphBreakReplacement 财产. 获取或设置一个布尔值指示当没有下一个兄弟段落时是否允许替换段落break  在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
@@ -16,11 +18,11 @@ url: /zh/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplac
 public bool SmartParagraphBreakReplacement { get; set; }
 ```
 
-### 评论
+## 评论
 
 当没有所有 child 节点可以移动到的下一个兄弟段落时，此选项允许通过在被替换的段落后查找任何（不一定是兄弟）下一个段落来替换段落分隔符。
 
-### 例子
+## 例子
 
 演示如何从具有嵌套表格的表格单元格中删除段落。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.RemoveParagraphTextAndMark.docx");
 ### 也可以看看
 
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ReplacingArgs.Replacement
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ReplacingArgs propriété. Obtient ou définit la chaîne de remplacement.
+linktitle: Replacement
+articleTitle: Replacement
+second_title: Aspose.Words pour .NET
+description: ReplacingArgs Replacement propriété. Obtient ou définit la chaîne de remplacement en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.replacing/replacingargs/replacement/
@@ -14,7 +16,7 @@ Obtient ou définit la chaîne de remplacement.
 public string Replacement { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment remplacer toutes les occurrences d'un modèle d'expression régulière par une autre chaîne, tout en suivant tous ces remplacements.
 
@@ -70,7 +72,5 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 ### Voir également
 
 * class [ReplacingArgs](../)
-* espace de noms [Aspose.Words.Replacing](../../replacingargs/)
+* espace de noms [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Assemblée [Aspose.Words](../../../)
-
-

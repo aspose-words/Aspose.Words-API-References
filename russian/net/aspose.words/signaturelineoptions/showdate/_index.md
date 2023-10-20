@@ -1,7 +1,9 @@
 ---
 title: SignatureLineOptions.ShowDate
-second_title: Справочник по API Aspose.Words для .NET
-description: SignatureLineOptions свойство. Получает или задает значение указывающее что дата подписания отображается в строке подписи. Значение по умолчанию для этого свойстваистинный .
+linktitle: ShowDate
+articleTitle: ShowDate
+second_title: Aspose.Words для .NET
+description: SignatureLineOptions ShowDate свойство. Получает или задает значение указывающее что дата подписания отображается в строке подписи. Значение по умолчанию для этого свойстваистинный  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/signaturelineoptions/showdate/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/signaturelineoptions/showdate/
 public bool ShowDate { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как подписать документ личным удостоверением и строкой подписи.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Смотрите также
 
 * class [SignatureLineOptions](../)
-* пространство имен [Aspose.Words](../../signaturelineoptions/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

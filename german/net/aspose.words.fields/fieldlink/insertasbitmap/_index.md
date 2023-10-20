@@ -1,7 +1,9 @@
 ---
 title: FieldLink.InsertAsBitmap
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldLink eigendom. Ruft ab oder legt fest ob das verknüpfte Objekt als Bitmap eingefügt werden soll.
+linktitle: InsertAsBitmap
+articleTitle: InsertAsBitmap
+second_title: Aspose.Words für .NET
+description: FieldLink InsertAsBitmap eigendom. Ruft ab oder legt fest ob das verknüpfte Objekt als Bitmap eingefügt werden soll in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldlink/insertasbitmap/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob das verknüpfte Objekt als Bitmap eingefügt werden s
 public bool InsertAsBitmap { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie verschiedene Feldtypen verwenden, um eine Verknüpfung zu anderen Dokumenten im lokalen Dateisystem herzustellen und deren Inhalte anzuzeigen.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Siehe auch
 
 * class [FieldLink](../)
-* namensraum [Aspose.Words.Fields](../../fieldlink/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

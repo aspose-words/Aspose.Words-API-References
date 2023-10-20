@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleIdFarEast
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين المعرف المحلي اللغة للأحرف الآسيوية المنسقة.
+linktitle: LocaleIdFarEast
+articleTitle: LocaleIdFarEast
+second_title: Aspose.Words لـ .NET
+description: Font LocaleIdFarEast ملكية. الحصول على أو تعيين المعرف المحلي اللغة للأحرف الآسيوية المنسقة في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words/font/localeidfareast/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/font/localeidfareast/
 public int LocaleIdFarEast { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 للحصول على قائمة المعرفات المحلية، راجع https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج النص وتنسيقه بلغة الشرق الأقصى.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Font.FarEast.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

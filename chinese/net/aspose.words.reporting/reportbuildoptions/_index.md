@@ -1,7 +1,9 @@
 ---
-title: Enum ReportBuildOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Reporting.ReportBuildOptions 枚举. 指定控制行为的选项ReportingEngine构建报告时.
+title: ReportBuildOptions Enum
+linktitle: ReportBuildOptions
+articleTitle: ReportBuildOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Reporting.ReportBuildOptions 枚举. 指定控制行为的选项ReportingEngine构建报告时 在 C#.
 type: docs
 weight: 4720
 url: /zh/net/aspose.words.reporting/reportbuildoptions/
@@ -30,5 +32,3 @@ public enum ReportBuildOptions
 
 * 命名空间 [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../)
-
-

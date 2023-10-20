@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTickLabelPosition
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition enum. Specifica le possibili posizioni per le etichette dei segni di spunta.
+title: AxisTickLabelPosition Enum
+linktitle: AxisTickLabelPosition
+articleTitle: AxisTickLabelPosition
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition enum. Specifica le possibili posizioni per le etichette dei segni di spunta in C#.
 type: docs
 weight: 580
 url: /it/net/aspose.words.drawing.charts/axisticklabelposition/
@@ -24,7 +26,7 @@ public enum AxisTickLabelPosition
 | None | `3` | Specifica che le etichette degli assi non vengono disegnate. |
 | Default | `2` | Specifica il valore predefinito della posizione delle etichette dei segni di spunta. |
 
-### Esempi
+## Esempi
 
 Mostra come inserire un grafico con valori di data/ora.
 
@@ -79,5 +81,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../)
-
-

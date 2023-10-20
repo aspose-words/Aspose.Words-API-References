@@ -1,7 +1,9 @@
 ---
 title: Document.LayoutOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bir alırLayoutOptions bu belgenin düzen sürecini kontrol etme seçeneklerini temsil eden nesne.
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: Aspose.Words for .NET
+description: Document LayoutOptions mülk. Bir alırLayoutOptions bu belgenin düzen sürecini kontrol etme seçeneklerini temsil eden nesne C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words/document/layoutoptions/
@@ -14,7 +16,7 @@ Bir alır[`LayoutOptions`](../../../aspose.words.layout/layoutoptions/) bu belge
 public LayoutOptions LayoutOptions { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 İşlenmiş bir çıktı belgesindeki metnin nasıl gizleneceğini gösterir.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * class [LayoutOptions](../../../aspose.words.layout/layoutoptions/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

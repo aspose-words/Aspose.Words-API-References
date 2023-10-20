@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.SaveFormatToExtension
-second_title: Aspose.Words for .NET API 参考
-description: FileFormatUtil 方法. 将保存格式枚举值转换为文件扩展名返回的扩展名是带有前导点的小写字符串
+linktitle: SaveFormatToExtension
+articleTitle: SaveFormatToExtension
+second_title: 用于 .NET 的 Aspose.Words
+description: FileFormatUtil SaveFormatToExtension 方法. 将保存格式枚举值转换为文件扩展名返回的扩展名是带有前导点的小写字符串 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/fileformatutil/saveformattoextension/
@@ -20,13 +22,13 @@ public static string SaveFormatToExtension(SaveFormat saveFormat)
 | --- | --- |
 | ArgumentException | 无法转换时抛出。 |
 
-### 评论
+## 评论
 
 这WordML值转换为“.wml”。
 
 这FlatOpc值转换为“.fopc”。
 
-### 例子
+## 例子
 
 演示如何使用 FileFormatUtil 方法来检测文档的格式。
 
@@ -60,7 +62,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* 命名空间 [Aspose.Words](../../fileformatutil/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

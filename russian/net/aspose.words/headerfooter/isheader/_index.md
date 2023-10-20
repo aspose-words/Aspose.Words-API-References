@@ -1,7 +1,9 @@
 ---
 title: HeaderFooter.IsHeader
-second_title: Справочник по API Aspose.Words для .NET
-description: HeaderFooter свойство. Верно если этоHeaderFooter объект является заголовком.
+linktitle: IsHeader
+articleTitle: IsHeader
+second_title: Aspose.Words для .NET
+description: HeaderFooter IsHeader свойство. Верно если этоHeaderFooter объект является заголовком на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/headerfooter/isheader/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/headerfooter/isheader/
 public bool IsHeader { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать верхний и нижний колонтитулы.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ### Смотрите также
 
 * class [HeaderFooter](../)
-* пространство имен [Aspose.Words](../../headerfooter/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

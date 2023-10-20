@@ -1,7 +1,9 @@
 ---
 title: CssSavingArgs.KeepCssStreamOpen
-second_title: Aspose.Words لمراجع .NET API
-description: CssSavingArgs ملكية. يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ معلومات CSS.
+linktitle: KeepCssStreamOpen
+articleTitle: KeepCssStreamOpen
+second_title: Aspose.Words لـ .NET
+description: CssSavingArgs KeepCssStreamOpen ملكية. يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ معلومات CSS في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/csssavingargs/keepcssstreamopen/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/csssavingargs/keepcssstreamopen/
 public bool KeepCssStreamOpen { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الافتراضي هو`خطأ شنيع` وسيقوم Aspose.Words بإغلاق الدفق الذي قدمته في ملف[`CssStream`](../cssstream/) الخاصية بعد كتابة معلومات CSS فيها. تحديد`حقيقي` لإبقاء الدفق مفتوحًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أوراق أنماط CSS التي ينشئها تحويل HTML.
 
@@ -79,7 +81,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### أنظر أيضا
 
 * class [CssSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../csssavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Shape.Chart
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 如果此形状具有图表属性则提供对图表属性的访问Chart.
+linktitle: Chart
+articleTitle: Chart
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape Chart 财产. 如果此形状具有图表属性则提供对图表属性的访问Chart 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing/shape/chart/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/shape/chart/
 public Chart Chart { get; }
 ```
 
-### 评论
+## 评论
 
 该属性将返回[`Chart`](../../../aspose.words.drawing.charts/chart/)仅当以下情况时才反对[`HasChart`](../haschart/) 属性是`真的`为了这[`Shape`](../)，否则将抛出异常。
 
-### 例子
+## 例子
 
 演示如何迭代文档中的所有形状。
 
@@ -142,7 +144,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
 * class [Chart](../../../aspose.words.drawing.charts/chart/)
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.ArrowType Sıralama. Satır sonundaki okun türünü belirtir.
+title: ArrowType Enum
+linktitle: ArrowType
+articleTitle: ArrowType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.ArrowType Sıralama. Satır sonundaki okun türünü belirtir C#'da.
 type: docs
 weight: 490
 url: /tr/net/aspose.words.drawing/arrowtype/
@@ -26,7 +28,7 @@ public enum ArrowType
 | Open | `5` | Ok açık bir oktur. |
 | Default | `0` | Şununla aynıNone . |
 
-### Örnekler
+## Örnekler
 
 Çeşitli şekiller oluşturmayı gösterir.
 
@@ -104,5 +106,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowType](../stroke/endarrowtype/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

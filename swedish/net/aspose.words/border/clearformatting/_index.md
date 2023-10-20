@@ -1,7 +1,9 @@
 ---
 title: Border.ClearFormatting
-second_title: Aspose.Words för .NET API Referens
-description: Border metod. Återställer gränsegenskaper till standardvärden.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words för .NET
+description: Border ClearFormatting metod. Återställer gränsegenskaper till standardvärden i C#.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/border/clearformatting/
@@ -14,11 +16,11 @@ url: /sv/net/aspose.words/border/clearformatting/
 public void ClearFormatting()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När gränsegenskaper återställs till standardvärden är gränsen osynlig.
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort kanter från ett stycke.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Border.ClearFormatting.docx");
 ### Se även
 
 * class [Border](../)
-* namnutrymme [Aspose.Words](../../border/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

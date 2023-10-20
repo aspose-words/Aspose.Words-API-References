@@ -1,7 +1,9 @@
 ---
-title: Enum PdfPermissions
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.PdfPermissions перечисление. Указывает операции которые разрешены пользователю с зашифрованным PDFдокументом.
+title: PdfPermissions Enum
+linktitle: PdfPermissions
+articleTitle: PdfPermissions
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.PdfPermissions перечисление. Указывает операции которые разрешены пользователю с зашифрованным PDFдокументом на С#.
 type: docs
 weight: 5510
 url: /ru/net/aspose.words.saving/pdfpermissions/
@@ -30,7 +32,7 @@ public enum PdfPermissions
 | Printing | `4` | Распечатайте документ (возможно, не с самым высоким уровнем качества, в зависимости от того, будет ли HighResolutionPrinting также установлен). |
 | HighResolutionPrinting | `804` | Распечатайте документ в представлении, из которого может быть создана точная цифровая копия содержимого PDF-файла на основе алгоритма, зависящего от реализации. Когда этот флаг сброшен (and Printing установлен), печать должна быть ограничена низкоуровневым представлением внешнего вида, , возможно, с ухудшенным качеством. |
 
-### Примеры
+## Примеры
 
 Показывает, как установить разрешения для сохраненного PDF-документа.
 
@@ -58,5 +60,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

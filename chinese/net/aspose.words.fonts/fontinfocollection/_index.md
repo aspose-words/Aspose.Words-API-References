@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.FontInfoCollection 班级. 表示文档中使用的字体集合
+title: FontInfoCollection Class
+linktitle: FontInfoCollection
+articleTitle: FontInfoCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fonts.FontInfoCollection 班级. 表示文档中使用的字体集合 在 C#.
 type: docs
 weight: 2930
 url: /zh/net/aspose.words.fonts/fontinfocollection/
@@ -30,16 +32,16 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(string) | 确定集合中是否包含具有给定名称的字体。 |
+| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(*string*) | 确定集合中是否包含具有给定名称的字体。 |
 | [GetEnumerator](../../aspose.words.fonts/fontinfocollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
 
-### 评论
+## 评论
 
 物品有[`FontInfo`](../fontinfo/)对象。
 
 您不直接创建此类的实例。 使用[`FontInfos`](../../aspose.words/documentbase/fontinfos/)属性来访问文档中定义的字体 集合。
 
-### 例子
+## 例子
 
 演示如何打印文档中存在的字体的详细信息。
 
@@ -79,5 +81,3 @@ else
 * class [FontInfo](../fontinfo/)
 * 命名空间 [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../)
-
-

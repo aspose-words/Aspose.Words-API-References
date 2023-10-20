@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertParagraphNumberInFullContext
-second_title: Aspose.Words for .NET API Referansı
-description: FieldStyleRef mülk. Başvurulan paragrafın paragraf numarasının tam bağlamda eklenip eklenmeyeceğini alır veya ayarlar.
+linktitle: InsertParagraphNumberInFullContext
+articleTitle: InsertParagraphNumberInFullContext
+second_title: Aspose.Words for .NET
+description: FieldStyleRef InsertParagraphNumberInFullContext mülk. Başvurulan paragrafın paragraf numarasının tam bağlamda eklenip eklenmeyeceğini alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldstyleref/insertparagraphnumberinfullcontext/
@@ -14,7 +16,7 @@ Başvurulan paragrafın paragraf numarasının tam bağlamda eklenip eklenmeyece
 public bool InsertParagraphNumberInFullContext { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 STYLEREF alanlarının nasıl kullanılacağını gösterir.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Ayrıca bakınız
 
 * class [FieldStyleRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldstyleref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

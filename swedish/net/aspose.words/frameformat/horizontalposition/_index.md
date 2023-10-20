@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HorizontalPosition
-second_title: Aspose.Words för .NET API Referens
-description: FrameFormat fast egendom. Får horisontellt avstånd mellan kanten på ramen och objektet som anges avRelativeHorizontalPosition egenskap.
+linktitle: HorizontalPosition
+articleTitle: HorizontalPosition
+second_title: Aspose.Words för .NET
+description: FrameFormat HorizontalPosition fast egendom. Får horisontellt avstånd mellan kanten på ramen och objektet som anges avRelativeHorizontalPosition egenskap i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/frameformat/horizontalposition/
@@ -14,7 +16,7 @@ Får horisontellt avstånd mellan kanten på ramen och objektet som anges av[`Re
 public double HorizontalPosition { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får information om formateringsegenskaper för stycken som är ramar.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Se även
 
 * class [FrameFormat](../)
-* namnutrymme [Aspose.Words](../../frameformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

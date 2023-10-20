@@ -1,7 +1,9 @@
 ---
 title: FieldDatabase.InsertHeadings
-second_title: Aspose.Words for .NET API 参考
-description: FieldDatabase 财产. 获取或设置是否将数据库中的字段名称作为列标题插入 结果表中
+linktitle: InsertHeadings
+articleTitle: InsertHeadings
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldDatabase InsertHeadings 财产. 获取或设置是否将数据库中的字段名称作为列标题插入 结果表中 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fielddatabase/insertheadings/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fielddatabase/insertheadings/
 public bool InsertHeadings { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何从数据库中提取数据并将其作为字段插入到文档中。
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ### 也可以看看
 
 * class [FieldDatabase](../)
-* 命名空间 [Aspose.Words.Fields](../../fielddatabase/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

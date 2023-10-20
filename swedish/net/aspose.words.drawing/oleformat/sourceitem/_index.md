@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SourceItem
-second_title: Aspose.Words för .NET API Referens
-description: OleFormat fast egendom. Hämtar eller ställer in en sträng som används för att identifiera den del av källfilen som länkas.
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: Aspose.Words för .NET
+description: OleFormat SourceItem fast egendom. Hämtar eller ställer in en sträng som används för att identifiera den del av källfilen som länkas i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.drawing/oleformat/sourceitem/
@@ -14,13 +16,13 @@ Hämtar eller ställer in en sträng som används för att identifiera den del a
 public string SourceItem { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är en tom sträng.
 
 Till exempel, om källfilen är en Microsoft Excel-arbetsbok,`SourceItem` Egenskapen kan returnera "Arbetsbok1!R3C1:R4C2" om OLE-objektet bara innehåller några få celler från kalkylbladet.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar länkade och olänkade OLE-objekt.
 
@@ -70,7 +72,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### Se även
 
 * class [OleFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../oleformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

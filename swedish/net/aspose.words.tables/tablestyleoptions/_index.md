@@ -1,7 +1,9 @@
 ---
-title: Enum TableStyleOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Tables.TableStyleOptions uppräkning. Anger hur tabellstil tillämpas på en tabell.
+title: TableStyleOptions Enum
+linktitle: TableStyleOptions
+articleTitle: TableStyleOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Tables.TableStyleOptions uppräkning. Anger hur tabellstil tillämpas på en tabell i C#.
 type: docs
 weight: 6370
 url: /sv/net/aspose.words.tables/tablestyleoptions/
@@ -29,7 +31,7 @@ public enum TableStyleOptions
 | Default2003 | `600` | Rad- och kolumnband tillämpas. Detta är Microsoft Word standard för gamla format som DOC, WML och RTF. |
 | Default | `2A0` | Detta är Microsoft Words standardinställningar. |
 
-### Exempel
+## Exempel
 
 Visar hur man bygger en ny tabell samtidigt som man använder en stil.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 * property [StyleOptions](../table/styleoptions/)
 * namnutrymme [Aspose.Words.Tables](../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../)
-
-

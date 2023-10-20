@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.OfficeMathOutputMode
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. OfficeMath nesnelerinin HTML MHTML veya EPUBa nasıl aktarıldığını kontrol eder. Varsayılan değerImage .
+linktitle: OfficeMathOutputMode
+articleTitle: OfficeMathOutputMode
+second_title: Aspose.Words for .NET
+description: HtmlSaveOptions OfficeMathOutputMode mülk. OfficeMath nesnelerinin HTML MHTML veya EPUBa nasıl aktarıldığını kontrol eder. Varsayılan değerImage  C#'da.
 type: docs
 weight: 400
 url: /tr/net/aspose.words.saving/htmlsaveoptions/officemathoutputmode/
@@ -14,7 +16,7 @@ OfficeMath nesnelerinin HTML, MHTML veya EPUB'a nasıl aktarıldığını kontro
 public HtmlOfficeMathOutputMode OfficeMathOutputMode { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Microsoft OfficeMath nesnelerinin HTML'ye nasıl aktarılacağının nasıl belirleneceğini gösterir.
 
@@ -70,7 +72,5 @@ switch (htmlOfficeMathOutputMode)
 
 * enum [HtmlOfficeMathOutputMode](../../htmlofficemathoutputmode/)
 * class [HtmlSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../htmlsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

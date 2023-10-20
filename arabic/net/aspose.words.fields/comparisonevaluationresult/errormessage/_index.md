@@ -1,7 +1,9 @@
 ---
 title: ComparisonEvaluationResult.ErrorMessage
-second_title: Aspose.Words لمراجع .NET API
-description: ComparisonEvaluationResult ملكية. الحصول على رسالة خطأ نتيجة تقييم المقارنة الفاشلة.
+linktitle: ErrorMessage
+articleTitle: ErrorMessage
+second_title: Aspose.Words لـ .NET
+description: ComparisonEvaluationResult ErrorMessage ملكية. الحصول على رسالة خطأ نتيجة تقييم المقارنة الفاشلة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/comparisonevaluationresult/errormessage/
@@ -17,7 +19,5 @@ public string ErrorMessage { get; }
 ### أنظر أيضا
 
 * class [ComparisonEvaluationResult](../)
-* مساحة الاسم [Aspose.Words.Fields](../../comparisonevaluationresult/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

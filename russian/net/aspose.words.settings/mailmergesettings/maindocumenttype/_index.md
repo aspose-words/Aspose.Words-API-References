@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.MainDocumentType
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Указывает основной тип документа слияния. Значение по умолчаниюDefault .
+linktitle: MainDocumentType
+articleTitle: MainDocumentType
+second_title: Aspose.Words для .NET
+description: MailMergeSettings MainDocumentType свойство. Указывает основной тип документа слияния. Значение по умолчаниюDefault  на С#.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.settings/mailmergesettings/maindocumenttype/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.settings/mailmergesettings/maindocumenttype/
 public MailMergeMainDocumentType MainDocumentType { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Основной документ — это документ, содержащий информацию, одинаковую для каждой версии объединенного документа.
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeMainDocumentType](../../mailmergemaindocumenttype/)
 * class [MailMergeSettings](../)
-* пространство имен [Aspose.Words.Settings](../../mailmergesettings/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

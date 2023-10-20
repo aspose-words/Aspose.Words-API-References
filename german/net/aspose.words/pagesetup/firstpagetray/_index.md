@@ -1,7 +1,9 @@
 ---
 title: PageSetup.FirstPageTray
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Ruft das Papierfach Fach ab das für die erste Seite eines Abschnitts verwendet werden soll oder legt dieses fest. Der Wert ist spezifisch für die Implementierung Drucker.
+linktitle: FirstPageTray
+articleTitle: FirstPageTray
+second_title: Aspose.Words für .NET
+description: PageSetup FirstPageTray eigendom. Ruft das Papierfach Fach ab das für die erste Seite eines Abschnitts verwendet werden soll oder legt dieses fest. Der Wert ist spezifisch für die Implementierung Drucker in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words/pagesetup/firstpagetray/
@@ -14,7 +16,7 @@ Ruft das Papierfach (Fach) ab, das für die erste Seite eines Abschnitts verwend
 public int FirstPageTray { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Abschnitte in einem Dokument dazu gebracht werden, das Standardpapierfach des ausgewählten Druckers zu verwenden.
 
@@ -70,7 +72,5 @@ foreach (Section section in doc.Sections.OfType<Section>())
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

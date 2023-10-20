@@ -1,7 +1,9 @@
 ---
 title: FieldEnd.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: FieldEnd ملكية. إرجاعFieldEnd .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: FieldEnd NodeType ملكية. إرجاعFieldEnd  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldend/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldend/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FieldEnd](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldend/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

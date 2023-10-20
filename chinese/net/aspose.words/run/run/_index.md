@@ -1,12 +1,14 @@
 ---
-title: Run.Run
-second_title: Aspose.Words for .NET API 参考
-description: Run 构造函数. 初始化一个新实例Run类.
+title: Run
+linktitle: Run
+articleTitle: Run
+second_title: 用于 .NET 的 Aspose.Words
+description: Run 构造函数. 初始化一个新实例Run类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/run/run/
 ---
-## Run(DocumentBase) {#constructor}
+## Run(*[DocumentBase](../../documentbase/)*) {#constructor}
 
 初始化一个新实例[`Run`](../)类.
 
@@ -18,13 +20,13 @@ public Run(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | 所有者文件。 |
 
-### 评论
+## 评论
 
 什么时候[`Run`](../)创建后，它属于指定文档，但还不是 文档的一部分并且[`ParentNode`](../../node/parentnode/)是`无效的`。
 
-追加[`Run`](../)到文档使用Node)或者Node) 位于要插入运行的段落上。
+追加[`Run`](../)到文档使用[`InsertAfter`](../../compositenode/insertafter/)或者[`InsertBefore`](../../compositenode/insertbefore/) 位于要插入运行的段落上。
 
-### 例子
+## 例子
 
 展示如何手动构建 Aspose.Words 文档。
 
@@ -75,14 +77,14 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Run](../)
-* 命名空间 [Aspose.Words](../../run/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Run(DocumentBase, string) {#constructor_1}
+## Run(*[DocumentBase](../../documentbase/), string*) {#constructor_1}
 
-初始化一个新实例 **跑步**类.
+初始化一个新实例**跑步**类.
 
 ```csharp
 public Run(DocumentBase doc, string text)
@@ -93,13 +95,13 @@ public Run(DocumentBase doc, string text)
 | doc | DocumentBase | 所有者文件。 |
 | text | String | 运行的文本。 |
 
-### 评论
+## 评论
 
 什么时候[`Run`](../)创建后，它属于指定文档，但还不是 文档的一部分并且[`ParentNode`](../../node/parentnode/)是`无效的`。
 
-追加[`Run`](../)到文档使用Node)或者Node) 位于要插入运行的段落上。
+追加[`Run`](../)到文档使用[`InsertAfter`](../../compositenode/insertafter/)或者[`InsertBefore`](../../compositenode/insertbefore/) 位于要插入运行的段落上。
 
-### 例子
+## 例子
 
 演示如何使用其字体属性设置文本串的格式。
 
@@ -120,7 +122,5 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Run](../)
-* 命名空间 [Aspose.Words](../../run/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.Italic
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSavingArgs propiedad. Indica si la fuente actual está en cursiva.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words para .NET
+description: FontSavingArgs Italic propiedad. Indica si la fuente actual está en cursiva en C#.
 type: docs
 weight: 80
 url: /es/net/aspose.words.saving/fontsavingargs/italic/
@@ -14,7 +16,7 @@ Indica si la fuente actual está en cursiva.
 public bool Italic { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
 
@@ -74,7 +76,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ver también
 
 * class [FontSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../fontsavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

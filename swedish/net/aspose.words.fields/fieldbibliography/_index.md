@@ -1,7 +1,9 @@
 ---
-title: Class FieldBibliography
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldBibliography klass. Implementerar fältet BIBLIOGRAFI.
+title: FieldBibliography Class
+linktitle: FieldBibliography
+articleTitle: FieldBibliography
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldBibliography klass. Implementerar fältet BIBLIOGRAFI i C#.
 type: docs
 weight: 1640
 url: /sv/net/aspose.words.fields/fieldbibliography/
@@ -45,17 +47,17 @@ public class FieldBibliography : Field
 | namn | Beskrivning |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
-### Anmärkningar
+## Anmärkningar
 
 Infogar innehållet i dokumentets bibliografidel i bibliografisk stil.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med CITATION och BIBLIOGRAPHY-fält.
 
@@ -111,5 +113,3 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 * class [Field](../field/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

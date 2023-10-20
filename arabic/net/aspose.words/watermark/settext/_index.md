@@ -1,12 +1,14 @@
 ---
 title: Watermark.SetText
-second_title: Aspose.Words لمراجع .NET API
-description: Watermark طريقة. يضيف علامة مائية نصية إلى المستند.
+linktitle: SetText
+articleTitle: SetText
+second_title: Aspose.Words لـ .NET
+description: Watermark SetText طريقة. يضيف علامة مائية نصية إلى المستند في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/watermark/settext/
 ---
-## SetText(string) {#settext}
+## SetText(*string*) {#settext}
 
 يضيف علامة مائية نصية إلى المستند.
 
@@ -25,11 +27,11 @@ public void SetText(string text)
 | ArgumentOutOfRangeException | يتم العرض عندما يكون طول النص خارج النطاق أو عندما يحتوي النص على مسافات بيضاء فقط. |
 | ArgumentNullException | يرمي عندما يكون النص`باطل` . |
 
-### ملاحظات
+## ملاحظات
 
 يجب أن يكون طول النص في النطاق من 1 إلى 200 ضمناً. لا يمكن أن يكون النص`باطل` أو تحتوي على مسافات بيضاء فقط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مائية نصية.
 
@@ -60,12 +62,12 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### أنظر أيضا
 
 * class [Watermark](../)
-* مساحة الاسم [Aspose.Words](../../watermark/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## SetText(string, TextWatermarkOptions) {#settext_1}
+## SetText(*string, [TextWatermarkOptions](../../textwatermarkoptions/)*) {#settext_1}
 
 يضيف علامة مائية نصية إلى المستند.
 
@@ -85,13 +87,13 @@ public void SetText(string text, TextWatermarkOptions options)
 | ArgumentOutOfRangeException | يتم العرض عندما يكون طول النص خارج النطاق أو عندما يحتوي النص على مسافات بيضاء فقط. |
 | ArgumentNullException | يرمي عندما يكون النص`باطل` . |
 
-### ملاحظات
+## ملاحظات
 
 يجب أن يكون طول النص في النطاق من 1 إلى 200 ضمناً. لا يمكن أن يكون النص`باطل` أو تحتوي على مسافات بيضاء فقط.
 
 لو[`TextWatermarkOptions`](../../textwatermarkoptions/) يكون`باطل`سيتم تعيين العلامة المائية بالخيارات الافتراضية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مائية نصية.
 
@@ -123,7 +125,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * class [TextWatermarkOptions](../../textwatermarkoptions/)
 * class [Watermark](../)
-* مساحة الاسم [Aspose.Words](../../watermark/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

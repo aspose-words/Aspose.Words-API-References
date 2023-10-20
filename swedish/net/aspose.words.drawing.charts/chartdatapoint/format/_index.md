@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Format
-second_title: Aspose.Words för .NET API Referens
-description: ChartDataPoint fast egendom. Ger tillgång till fyllnings och linjeformatering av denna datapunkt.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words för .NET
+description: ChartDataPoint Format fast egendom. Ger tillgång till fyllnings och linjeformatering av denna datapunkt i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartdatapoint/format/
@@ -14,7 +16,7 @@ Ger tillgång till fyllnings- och linjeformatering av denna datapunkt.
 public ChartFormat Format { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in individuell formatering för kategorier i ett kolumndiagram.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.DataPointsFormatting.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataPoint](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

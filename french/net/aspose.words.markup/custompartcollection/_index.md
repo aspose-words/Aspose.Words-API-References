@@ -1,7 +1,9 @@
 ---
-title: Class CustomPartCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Markup.CustomPartCollection classe. Représente une collection deCustomPart objets.
+title: CustomPartCollection Class
+linktitle: CustomPartCollection
+articleTitle: CustomPartCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Markup.CustomPartCollection classe. Représente une collection deCustomPart objets en C#.
 type: docs
 weight: 3910
 url: /fr/net/aspose.words.markup/custompartcollection/
@@ -33,17 +35,17 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words.markup/custompartcollection/add/)(CustomPart) | Ajoute un élément à la collection. |
+| [Add](../../aspose.words.markup/custompartcollection/add/)(*[CustomPart](../custompart/)*) | Ajoute un élément à la collection. |
 | [Clear](../../aspose.words.markup/custompartcollection/clear/)() | Supprime tous les éléments de la collection. |
 | [Clone](../../aspose.words.markup/custompartcollection/clone/)() | Crée une copie complète de cette collection et de ses éléments. |
 | [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection. |
-| [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(int) | Supprime un élément à l'index spécifié. |
+| [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(*int*) | Supprime un élément à l'index spécifié. |
 
-### Remarques
+## Remarques
 
 Vous n'avez normalement pas besoin de créer des instances de cette classe. Vous accédez aux parties personnalisées liées au package OOXML via le[`PackageCustomParts`](../../aspose.words/document/packagecustomparts/) propriété.
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de pièces personnalisées arbitraires d’un document.
 
@@ -89,5 +91,3 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 * class [CustomPart](../custompart/)
 * espace de noms [Aspose.Words.Markup](../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../)
-
-

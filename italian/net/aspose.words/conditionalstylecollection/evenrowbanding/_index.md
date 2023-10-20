@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.EvenRowBanding
-second_title: Aspose.Words per .NET API Reference
-description: ConditionalStyleCollection proprietà. Ottiene lo stile di raggruppamento delle righe pari.
+linktitle: EvenRowBanding
+articleTitle: EvenRowBanding
+second_title: Aspose.Words per .NET
+description: ConditionalStyleCollection EvenRowBanding proprietà. Ottiene lo stile di raggruppamento delle righe pari in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/conditionalstylecollection/evenrowbanding/
@@ -14,7 +16,7 @@ Ottiene lo stile di raggruppamento delle righe pari.
 public ConditionalStyle EvenRowBanding { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con determinati stili di area di una tabella.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* spazio dei nomi [Aspose.Words](../../conditionalstylecollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

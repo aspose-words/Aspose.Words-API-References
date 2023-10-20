@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Appearance
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Yapılandırılmış bir belge etiketinin görünümünü alır/ayarlar.
+linktitle: Appearance
+articleTitle: Appearance
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag Appearance mülk. Yapılandırılmış bir belge etiketinin görünümünü alır/ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/structureddocumenttag/appearance/
@@ -14,7 +16,7 @@ Yapılandırılmış bir belge etiketinin görünümünü alır/ayarlar.
 public SdtAppearance Appearance { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düz metin kutusunda yapılandırılmış belge etiketinin nasıl oluşturulacağını ve görünümünün nasıl değiştirileceğini gösterir.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * enum [SdtAppearance](../../sdtappearance/)
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

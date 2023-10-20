@@ -1,7 +1,9 @@
 ---
 title: ComparisonExpression.ComparisonOperator
-second_title: Aspose.Words for .NET API 参考
-description: ComparisonExpression 财产. 获取比较运算符
+linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
+second_title: 用于 .NET 的 Aspose.Words
+description: ComparisonExpression ComparisonOperator 财产. 获取比较运算符 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/comparisonexpression/comparisonoperator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/comparisonexpression/comparisonoperator/
 public string ComparisonOperator { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何实现 IF 和 COMPARE 字段的自定义评估。
 
@@ -98,7 +100,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 ### 也可以看看
 
 * class [ComparisonExpression](../)
-* 命名空间 [Aspose.Words.Fields](../../comparisonexpression/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListLevel.StartAt
-second_title: Aspose.Words for .NET API 参考
-description: ListLevel 财产. 返回或设置此列表级别的起始编号
+linktitle: StartAt
+articleTitle: StartAt
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevel StartAt 财产. 返回或设置此列表级别的起始编号 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.lists/listlevel/startat/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.lists/listlevel/startat/
 public int StartAt { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为 1。
 
-### 例子
+## 例子
 
 演示如何通过复制列表来重新开始列表中的编号。
 
@@ -116,7 +118,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### 也可以看看
 
 * class [ListLevel](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevel/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

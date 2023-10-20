@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToBookmark
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Flyttar markören till ett bokmärke.
+linktitle: MoveToBookmark
+articleTitle: MoveToBookmark
+second_title: Aspose.Words för .NET
+description: DocumentBuilder MoveToBookmark metod. Flyttar markören till ett bokmärke i C#.
 type: docs
-weight: 500
+weight: 490
 url: /sv/net/aspose.words/documentbuilder/movetobookmark/
 ---
-## MoveToBookmark(string) {#movetobookmark}
+## MoveToBookmark(*string*) {#movetobookmark}
 
 Flyttar markören till ett bokmärke.
 
@@ -22,7 +24,7 @@ public bool MoveToBookmark(string bookmarkName)
 
 `Sann` om bokmärket hittades;`falsk` annat.
 
-### Anmärkningar
+## Anmärkningar
 
 Flyttar markören till en position precis efter början av bokmärket med det angivna namnet .
 
@@ -32,7 +34,7 @@ Att infoga ny text ersätter inte befintlig text i bokmärket.
 
 Observera att vissa bokmärken i dokumentet är tilldelade formulärfält. Om du flyttar till ett sådant bokmärke och infogar text där infogas texten i formulärfältskoden . Även om detta inte gör formulärfältet ogiltigt, kommer texten inserted inte att vara synlig eftersom den blir en del av fältkoden.
 
-### Exempel
+## Exempel
 
 Visar hur man flyttar en dokumentbyggares markör till olika noder i ett dokument.
 
@@ -86,12 +88,12 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## MoveToBookmark(string, bool, bool) {#movetobookmark_1}
+## MoveToBookmark(*string, bool, bool*) {#movetobookmark_1}
 
 Flyttar markören till ett bokmärke med större precision.
 
@@ -109,7 +111,7 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 
 `Sann` om bokmärket hittades;`falsk` annat.
 
-### Anmärkningar
+## Anmärkningar
 
 Flyttar markören till en position före eller efter bokmärkets start eller slut.
 
@@ -117,7 +119,7 @@ Om önskad position inte är på inline-nivå, går du till nästa stycke.
 
 Jämförelsen är inte skiftlägeskänslig. Om bokmärket inte hittades,`falsk` is returneras och markören flyttas inte.
 
-### Exempel
+## Exempel
 
 Visar hur man flyttar markören för en dokumentbyggares nodinsättningspunkt till ett bokmärke.
 
@@ -166,7 +168,5 @@ Assert.AreEqual("1. 2. Hello world! 3. 4.", doc.GetText().Trim());
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

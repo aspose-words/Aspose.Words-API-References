@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.Bubble3D
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartSeries propiedad. Especifica si las burbujas en el gráfico de burbujas deben tener aplicado un efecto 3D.
+linktitle: Bubble3D
+articleTitle: Bubble3D
+second_title: Aspose.Words para .NET
+description: ChartSeries Bubble3D propiedad. Especifica si las burbujas en el gráfico de burbujas deben tener aplicado un efecto 3D en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/chartseries/bubble3d/
@@ -17,7 +19,5 @@ public bool Bubble3D { get; set; }
 ### Ver también
 
 * class [ChartSeries](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartseries/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

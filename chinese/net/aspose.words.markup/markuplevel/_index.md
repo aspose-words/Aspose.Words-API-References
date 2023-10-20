@@ -1,7 +1,9 @@
 ---
-title: Enum MarkupLevel
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Markup.MarkupLevel 枚举. 指定文档树中特定的级别StructuredDocumentTag可能会发生.
+title: MarkupLevel Enum
+linktitle: MarkupLevel
+articleTitle: MarkupLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Markup.MarkupLevel 枚举. 指定文档树中特定的级别StructuredDocumentTag可能会发生 在 C#.
 type: docs
 weight: 3980
 url: /zh/net/aspose.words.markup/markuplevel/
@@ -24,7 +26,7 @@ public enum MarkupLevel
 | Row | `3` | 该元素出现在表中的行之间。 |
 | Cell | `4` | 该元素出现在一行中的单元格之间。 |
 
-### 例子
+## 例子
 
 展示如何使用内容控制元素的样式。
 
@@ -64,5 +66,3 @@ foreach (Node node in tags)
 
 * 命名空间 [Aspose.Words.Markup](../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../)
-
-

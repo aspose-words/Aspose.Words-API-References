@@ -1,7 +1,9 @@
 ---
 title: GradientStop.Position
-second_title: Referencia de API de Aspose.Words para .NET
-description: GradientStop propiedad. Obtiene o establece un valor que representa la posición de una parada dentro del gradiente expresado como porcentaje en el rango de 00 a 10.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words para .NET
+description: GradientStop Position propiedad. Obtiene o establece un valor que representa la posición de una parada dentro del gradiente expresado como porcentaje en el rango de 00 a 10 en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.drawing/gradientstop/position/
@@ -14,7 +16,7 @@ Obtiene o establece un valor que representa la posición de una parada dentro de
 public double Position { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar paradas de degradado al relleno de degradado.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Ver también
 
 * class [GradientStop](../)
-* espacio de nombres [Aspose.Words.Drawing](../../gradientstop/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

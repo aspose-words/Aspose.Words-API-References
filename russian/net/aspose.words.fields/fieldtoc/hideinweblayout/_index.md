@@ -1,7 +1,9 @@
 ---
 title: FieldToc.HideInWebLayout
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToc свойство. Получает или задает следует ли скрывать заголовок табуляции и номера страниц в представлении вебмакета.
+linktitle: HideInWebLayout
+articleTitle: HideInWebLayout
+second_title: Aspose.Words для .NET
+description: FieldToc HideInWebLayout свойство. Получает или задает следует ли скрывать заголовок табуляции и номера страниц в представлении вебмакета на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fields/fieldtoc/hideinweblayout/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoc/hideinweblayout/
 public bool HideInWebLayout { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить оглавление и заполнить его записями на основе стилей заголовков.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Смотрите также
 
 * class [FieldToc](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoc/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

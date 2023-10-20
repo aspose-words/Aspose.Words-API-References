@@ -1,7 +1,9 @@
 ---
-title: Class TxtListIndentation
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.TxtListIndentation klas. Gibt an wie Listenebenen eingerückt werden wenn das Dokument exportiert wirdText format.
+title: TxtListIndentation Class
+linktitle: TxtListIndentation
+articleTitle: TxtListIndentation
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.TxtListIndentation klas. Gibt an wie Listenebenen eingerückt werden wenn das Dokument exportiert wirdText format in C#.
 type: docs
 weight: 5650
 url: /de/net/aspose.words.saving/txtlistindentation/
@@ -29,7 +31,7 @@ public class TxtListIndentation
 | [Character](../../aspose.words.saving/txtlistindentation/character/) { get; set; } | Ruft ab oder legt fest, welches Zeichen zum Einrücken von Listenebenen verwendet werden soll. Der Standardwert ist „\0“, das heißt, es gibt keine Einrückung. |
 | [Count](../../aspose.words.saving/txtlistindentation/count/) { get; set; } | Ruft ab oder legt fest, wie viele[`Character`](./character/) als Einrückung pro Listenebene zu verwenden. Der Standardwert ist 0, das bedeutet keine Einrückung. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Listeneinrückung beim Speichern eines Dokuments im Klartext konfiguriert wird.
 
@@ -70,5 +72,3 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

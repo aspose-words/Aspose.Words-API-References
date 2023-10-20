@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.IsTemporary
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Указывает является ли это СДТ должен быть удален из документа WordProcessingML при изменении его содержимого .
+linktitle: IsTemporary
+articleTitle: IsTemporary
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag IsTemporary свойство. Указывает является ли этоСДТ должен быть удален из документа WordProcessingML при изменении его содержимого  на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.markup/structureddocumenttag/istemporary/
 ---
 ## StructuredDocumentTag.IsTemporary property
 
-Указывает, является ли это **СДТ** должен быть удален из документа WordProcessingML при изменении его содержимого .
+Указывает, является ли это**СДТ** должен быть удален из документа WordProcessingML при изменении его содержимого .
 
 ```csharp
 public bool IsTemporary { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как сделать одноразовые элементы управления.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.IsTemporary.docx");
 ### Смотрите также
 
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

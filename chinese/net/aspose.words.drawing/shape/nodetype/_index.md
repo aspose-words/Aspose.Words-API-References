@@ -1,7 +1,9 @@
 ---
 title: Shape.NodeType
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 返回Shape.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape NodeType 财产. 返回Shape 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.drawing/shape/nodetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shape/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何遍历复合节点的子节点树。
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.MetafileRenderingOptions
-second_title: Aspose.Words for .NET API 参考
-description: FixedPageSaveOptions 财产. 允许指定图元文件渲染选项
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: FixedPageSaveOptions MetafileRenderingOptions 财产. 允许指定图元文件渲染选项 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/
 public MetafileRenderingOptions MetafileRenderingOptions { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示添加了位图渲染的回退和更改有关不支持的图元文件记录的警告类型。
 
@@ -70,7 +72,5 @@ public class HandleDocumentWarnings : IWarningCallback
 
 * class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * class [FixedPageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

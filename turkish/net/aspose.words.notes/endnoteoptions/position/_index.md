@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.Position
-second_title: Aspose.Words for .NET API Referansı
-description: EndnoteOptions mülk. Son notların konumunu belirtir.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words for .NET
+description: EndnoteOptions Position mülk. Son notların konumunu belirtir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.notes/endnoteoptions/position/
@@ -14,7 +16,7 @@ Son notların konumunu belirtir.
 public EndnotePosition Position { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgenin son notlarını toplayıp görüntüleyeceği farklı bir yerin nasıl seçileceğini gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "InlineStory.PositionEndnote.docx");
 
 * enum [EndnotePosition](../../endnoteposition/)
 * class [EndnoteOptions](../)
-* ad alanı [Aspose.Words.Notes](../../endnoteoptions/)
+* ad alanı [Aspose.Words.Notes](../../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../../)
-
-

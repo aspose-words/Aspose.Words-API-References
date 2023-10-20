@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.IsImageAvailable
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSavingArgs ملكية. إرجاعحقيقي إذا كانت الصورة الحالية متاحة للتصدير.
+linktitle: IsImageAvailable
+articleTitle: IsImageAvailable
+second_title: Aspose.Words لـ .NET
+description: ImageSavingArgs IsImageAvailable ملكية. إرجاعحقيقي إذا كانت الصورة الحالية متاحة للتصدير في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/imagesavingargs/isimageavailable/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/imagesavingargs/isimageavailable/
 public bool IsImageAvailable { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن أن تكون بعض الصور في المستند غير متاحة، على سبيل المثال، لأن الصورة مرتبطة ولا يمكن الوصول إلى الرابط أو لا يشير إلى صورة صالحة. في هذه الحالة يقوم Aspose.Words بتصدير رمز بعلامة الصليب الأحمر. تُرجع هذه الخاصية `حقيقي` إذا كانت الصورة الأصلية متوفرة؛ عائدات`خطأ شنيع`إذا كانت الصورة الأصلية غير متوفرة وسيتم عرض أيقونة "بدون صورة" للحفظ.
 
 عند حفظ شكل مجموعة أو شكل لا يتطلب أي صورة، تكون هذه الخاصية دائمًا`حقيقي`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تضمين رد اتصال لحفظ الصورة في عملية تحويل HTML.
 
@@ -67,7 +69,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * property [CurrentShape](../currentshape/)
 * class [ImageSavingArgs](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesavingargs/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

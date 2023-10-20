@@ -1,7 +1,9 @@
 ---
 title: FontSettings.ResetFontSources
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSettings метод. Сбрасывает источники шрифтов к системным значениям по умолчанию.
+linktitle: ResetFontSources
+articleTitle: ResetFontSources
+second_title: Aspose.Words для .NET
+description: FontSettings ResetFontSources метод. Сбрасывает источники шрифтов к системным значениям по умолчанию на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fonts/fontsettings/resetfontsources/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/fontsettings/resetfontsources/
 public void ResetFontSources()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
 
@@ -70,7 +72,5 @@ Assert.AreEqual(1,
 ### Смотрите также
 
 * class [FontSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

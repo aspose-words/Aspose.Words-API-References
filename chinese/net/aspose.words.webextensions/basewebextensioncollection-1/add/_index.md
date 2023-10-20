@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Add
-second_title: Aspose.Words for .NET API 参考
-description: BaseWebExtensionCollection 方法. 将指定项目添加到集合中
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: BaseWebExtensionCollection Add 方法. 将指定项目添加到集合中 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.webextensions/basewebextensioncollection-1/add/
@@ -18,7 +20,7 @@ public void Add(T item)
 | --- | --- | --- |
 | item | T | 用于添加的项目。 |
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### 也可以看看
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldSeparator
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentVisitor methode. Wird aufgerufen wenn im Dokument ein Feldtrennzeichen gefunden wird.
+linktitle: VisitFieldSeparator
+articleTitle: VisitFieldSeparator
+second_title: Aspose.Words für .NET
+description: DocumentVisitor VisitFieldSeparator methode. Wird aufgerufen wenn im Dokument ein Feldtrennzeichen gefunden wird in C#.
 type: docs
 weight: 190
 url: /de/net/aspose.words/documentvisitor/visitfieldseparator/
@@ -22,13 +24,13 @@ public virtual VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
 
 A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
-### Bemerkungen
+## Bemerkungen
 
 Das Feldtrennzeichen trennt den Feldcode vom Feldwert im Dokument. Beachten Sie, dass einige -Felder nur einen Feldcode und kein Feldtrennzeichen und keinen Feldwert haben.
 
 Weitere Informationen finden Sie unter[`VisitFieldStart`](../visitfieldstart/)
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jedes Felds in einem Dokument gedruckt wird.
 
@@ -133,7 +135,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldSeparator](../../../aspose.words.fields/fieldseparator/)
 * class [DocumentVisitor](../)
-* namensraum [Aspose.Words](../../documentvisitor/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

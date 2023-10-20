@@ -1,7 +1,9 @@
 ---
-title: Enum HtmlFixedPageHorizontalAlignment
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment uppräkning. Anger den horisontella justeringen för sidor i HTMLdokument.
+title: HtmlFixedPageHorizontalAlignment Enum
+linktitle: HtmlFixedPageHorizontalAlignment
+articleTitle: HtmlFixedPageHorizontalAlignment
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment uppräkning. Anger den horisontella justeringen för sidor i HTMLdokument i C#.
 type: docs
 weight: 5070
 url: /sv/net/aspose.words.saving/htmlfixedpagehorizontalalignment/
@@ -22,7 +24,7 @@ public enum HtmlFixedPageHorizontalAlignment
 | Center | `1` | Centrera sidor. Detta är standardvärdet. |
 | Right | `2` | Justera sidor till höger. |
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in den horisontella justeringen av sidor när du sparar ett dokument till HTML.
 
@@ -59,5 +61,3 @@ switch (pageHorizontalAlignment)
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

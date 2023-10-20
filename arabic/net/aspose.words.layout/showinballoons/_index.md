@@ -1,7 +1,9 @@
 ---
-title: Enum ShowInBalloons
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Layout.ShowInBalloons تعداد. يحدد المراجعات التي سيتم عرضها في البالونات.
+title: ShowInBalloons Enum
+linktitle: ShowInBalloons
+articleTitle: ShowInBalloons
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Layout.ShowInBalloons تعداد. يحدد المراجعات التي سيتم عرضها في البالونات في C#.
 type: docs
 weight: 3410
 url: /ar/net/aspose.words.layout/showinballoons/
@@ -22,11 +24,11 @@ public enum ShowInBalloons
 | Format | `1` | يقوم العرض بإدراج المراجعات وحذفها في السطر، وتنسيق المراجعات في البالونات. |
 | FormatAndDelete | `2` | يقوم العرض بإدراج المراجعات في السطر، وحذف المراجعات وتنسيقها في البالونات. |
 
-### ملاحظات
+## ملاحظات
 
 لاحظ أنه لا يتم عرض المراجعات في بالوناتShowInAnnotations .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل مظهر المراجعات.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * مساحة الاسم [Aspose.Words.Layout](../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../)
-
-

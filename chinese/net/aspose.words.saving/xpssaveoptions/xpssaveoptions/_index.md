@@ -1,7 +1,9 @@
 ---
-title: XpsSaveOptions.XpsSaveOptions
-second_title: Aspose.Words for .NET API 参考
-description: XpsSaveOptions 构造函数. 初始化此类的一个新实例该实例可用于将 document 保存在Xps格式.
+title: XpsSaveOptions
+linktitle: XpsSaveOptions
+articleTitle: XpsSaveOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: XpsSaveOptions 构造函数. 初始化此类的一个新实例该实例可用于将 document 保存在Xps格式 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/xpssaveoptions/xpssaveoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/xpssaveoptions/xpssaveoptions/
 public XpsSaveOptions()
 ```
 
-### 例子
+## 例子
 
 演示如何限制将出现在已保存 XPS 文档大纲中的标题级别。
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 ### 也可以看看
 
 * class [XpsSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../xpssaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## XpsSaveOptions(SaveFormat) {#constructor_1}
+## XpsSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 初始化此类的一个新实例，该实例可用于将 document 保存在Xps或者OpenXps格式.
 
@@ -70,7 +72,7 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 public XpsSaveOptions(SaveFormat saveFormat)
 ```
 
-### 例子
+## 例子
 
 演示如何以书本折叠的形式将文档保存为 XPS 格式。
 
@@ -103,7 +105,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.BookFold.xps", xpsOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XpsSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../xpssaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

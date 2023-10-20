@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Separator
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabel 财产. 获取或设置用于图表上数据标签的字符串分隔符 默认为逗号但饼图仅显示类别名称和百分比时除外此时应使用换行符 
+linktitle: Separator
+articleTitle: Separator
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabel Separator 财产. 获取或设置用于图表上数据标签的字符串分隔符 默认为逗号但饼图仅显示类别名称和百分比时除外此时应使用换行符  在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/separator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabel/separator/
 public string Separator { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何将标签应用到折线图中的数据点。
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### 也可以看看
 
 * class [ChartDataLabel](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

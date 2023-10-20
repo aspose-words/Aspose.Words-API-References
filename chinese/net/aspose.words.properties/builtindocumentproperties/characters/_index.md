@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Characters
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 表示文档中字符数的估计值
+linktitle: Characters
+articleTitle: Characters
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties Characters 财产. 表示文档中字符数的估计值 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.properties/builtindocumentproperties/characters/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/characters/
 public int Characters { get; set; }
 ```
 
-### 评论
+## 评论
 
 当您调用时，Aspose.Words 会更新此属性[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/)。
 
-### 例子
+## 例子
 
 演示如何更新文档中的所有列表标签。
 
@@ -160,7 +162,5 @@ private class LineCounter
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

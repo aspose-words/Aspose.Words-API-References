@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportTocPageNumbers
-second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica se scrivere i numeri di pagina nel sommario durante il salvataggio di HTML MHTML ed EPUB. Il valore predefinito èfalso .
+linktitle: ExportTocPageNumbers
+articleTitle: ExportTocPageNumbers
+second_title: Aspose.Words per .NET
+description: HtmlSaveOptions ExportTocPageNumbers proprietà. Specifica se scrivere i numeri di pagina nel sommario durante il salvataggio di HTML MHTML ed EPUB. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 270
 url: /it/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
@@ -14,7 +16,7 @@ Specifica se scrivere i numeri di pagina nel sommario durante il salvataggio di 
 public bool ExportTocPageNumbers { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come visualizzare i numeri di pagina quando si salva un documento con un sommario in .html.
 
@@ -72,7 +74,5 @@ else
 ### Guarda anche
 
 * class [HtmlSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../htmlsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

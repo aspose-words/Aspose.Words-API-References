@@ -1,7 +1,9 @@
 ---
 title: Footnote.NodeType
-second_title: Referencia de API de Aspose.Words para .NET
-description: Footnote propiedad. DevolucionesFootnote .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words para .NET
+description: Footnote NodeType propiedad. DevolucionesFootnote  en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.notes/footnote/nodetype/
@@ -14,7 +16,7 @@ DevolucionesFootnote .
 public override NodeType NodeType { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Footnote](../)
-* espacio de nombres [Aspose.Words.Notes](../../footnote/)
+* espacio de nombres [Aspose.Words.Notes](../../../aspose.words.notes/)
 * asamblea [Aspose.Words](../../../)
-
-

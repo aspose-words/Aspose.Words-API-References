@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Contains
-second_title: Aspose.Words per .NET API Reference
-description: FontInfoCollection metodo. Determina se la raccolta contiene un carattere con il nome specificato.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words per .NET
+description: FontInfoCollection Contains metodo. Determina se la raccolta contiene un carattere con il nome specificato in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fonts/fontinfocollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `VERO` se l'oggetto si trova nella collezione; Altrimenti,`falso`.
 
-### Esempi
+## Esempi
 
 Mostra informazioni sui caratteri presenti nel documento vuoto.
 
@@ -43,7 +45,5 @@ Assert.True(doc.FontInfos.Contains("Arial"));
 ### Guarda anche
 
 * class [FontInfoCollection](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontinfocollection/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

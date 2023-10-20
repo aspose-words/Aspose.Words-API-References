@@ -1,7 +1,9 @@
 ---
-title: Class VariableCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.VariableCollection clase. Una colección de variables de documento.
+title: VariableCollection Class
+linktitle: VariableCollection
+articleTitle: VariableCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.VariableCollection clase. Una colección de variables de documento en C#.
 type: docs
 weight: 6530
 url: /es/net/aspose.words/variablecollection/
@@ -27,21 +29,21 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words/variablecollection/add/)(string, string) | Agrega una variable de documento a la colección. |
+| [Add](../../aspose.words/variablecollection/add/)(*string, string*) | Agrega una variable de documento a la colección. |
 | [Clear](../../aspose.words/variablecollection/clear/)() | Elimina todos los elementos de la colección. |
-| [Contains](../../aspose.words/variablecollection/contains/)(string) | Determina si la colección contiene una variable de documento con el nombre indicado. |
+| [Contains](../../aspose.words/variablecollection/contains/)(*string*) | Determina si la colección contiene una variable de documento con el nombre indicado. |
 | [GetEnumerator](../../aspose.words/variablecollection/getenumerator/)() | Devuelve un objeto enumerador que se puede utilizar para iterar sobre todas las variables de la colección. |
-| [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(string) | Devuelve el índice de base cero de la variable de documento especificada en la colección. |
-| [Remove](../../aspose.words/variablecollection/remove/)(string) | Elimina una variable de documento con el nombre especificado de la colección. |
-| [RemoveAt](../../aspose.words/variablecollection/removeat/)(int) | Elimina una variable de documento en el índice especificado. |
+| [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(*string*) | Devuelve el índice de base cero de la variable de documento especificada en la colección. |
+| [Remove](../../aspose.words/variablecollection/remove/)(*string*) | Elimina una variable de documento con el nombre especificado de la colección. |
+| [RemoveAt](../../aspose.words/variablecollection/removeat/)(*int*) | Elimina una variable de documento en el índice especificado. |
 
-### Observaciones
+## Observaciones
 
 Los nombres y valores de las variables son cadenas.
 
 Los nombres de las variables no distinguen entre mayúsculas y minúsculas.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con la colección de variables de un documento.
 
@@ -109,5 +111,3 @@ Assert.That(variables, Is.Empty);
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

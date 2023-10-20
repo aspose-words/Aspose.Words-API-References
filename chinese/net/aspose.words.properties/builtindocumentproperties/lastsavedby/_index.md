@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.LastSavedBy
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 获取或设置最后一位作者的姓名
+linktitle: LastSavedBy
+articleTitle: LastSavedBy
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties LastSavedBy 财产. 获取或设置最后一位作者的姓名 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.properties/builtindocumentproperties/lastsavedby/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/lastsavedby/
 public string LastSavedBy { get; set; }
 ```
 
-### 评论
+## 评论
 
 Aspose.Words 不会更新此属性。
 
-### 例子
+## 例子
 
 展示如何使用“来源”类别中的文档属性。
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

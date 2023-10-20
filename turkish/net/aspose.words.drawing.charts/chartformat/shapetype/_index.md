@@ -1,9 +1,11 @@
 ---
 title: ChartFormat.ShapeType
-second_title: Aspose.Words for .NET API Referansı
-description: ChartFormat mülk. Üst grafik öğesinin şekil türünü alır veya ayarlar.
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: Aspose.Words for .NET
+description: ChartFormat ShapeType mülk. Üst grafik öğesinin şekil türünü alır veya ayarlar C#'da.
 type: docs
-weight: 30
+weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartformat/shapetype/
 ---
 ## ChartFormat.ShapeType property
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.drawing.charts/chartformat/shapetype/
 public ChartShapeType ShapeType { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik şu anda yalnızca veri etiketleri için kullanılabilir.
 
-### Örnekler
+## Örnekler
 
 Grafik veri etiketleri için dolgu, kontur ve belirtme çizgisi formatının nasıl ayarlanacağını gösterir.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 
 * enum [ChartShapeType](../../chartshapetype/)
 * class [ChartFormat](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartformat/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

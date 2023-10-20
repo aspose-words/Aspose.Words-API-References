@@ -1,7 +1,9 @@
 ---
 title: FormField.HelpText
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField propriété. Renvoie ou définit le texte affiché dans une boîte de message lorsque le champ du formulaire a le focus et que lutilisateur appuie sur F1.
+linktitle: HelpText
+articleTitle: HelpText
+second_title: Aspose.Words pour .NET
+description: FormField HelpText propriété. Renvoie ou définit le texte affiché dans une boîte de message lorsque le champ du formulaire a le focus et que lutilisateur appuie sur F1 en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.fields/formfield/helptext/
@@ -14,13 +16,13 @@ Renvoie ou définit le texte affiché dans une boîte de message lorsque le cham
 public string HelpText { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Si la[`OwnHelp`](../ownhelp/) la propriété est définie sur`vrai` ,`HelpText` spécifie la valeur de la chaîne de texte. Si[`OwnHelp`](../ownhelp/) est réglé sur`FAUX` ,`HelpText`spécifie le nom d'une entrée d'insertion automatique qui contient le texte help pour le champ du formulaire.
 
 Microsoft Word autorise les chaînes contenant au maximum 255 caractères.
 
-### Exemples
+## Exemples
 
 Montre comment insérer différents types de champs de formulaire dans un document et les traiter à l'aide d'une implémentation de visiteur de document.
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Voir également
 
 * class [FormField](../)
-* espace de noms [Aspose.Words.Fields](../../formfield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

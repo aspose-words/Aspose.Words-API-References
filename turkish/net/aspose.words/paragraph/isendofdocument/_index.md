@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfDocument
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Bu paragraf belgenin son bölümünün son paragrafı ise doğrudur.
+linktitle: IsEndOfDocument
+articleTitle: IsEndOfDocument
+second_title: Aspose.Words for .NET
+description: Paragraph IsEndOfDocument mülk. Bu paragraf belgenin son bölümünün son paragrafı ise doğrudur C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/paragraph/isendofdocument/
@@ -14,7 +16,7 @@ Bu paragraf belgenin son bölümünün son paragrafı ise doğrudur.
 public bool IsEndOfDocument { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgeye nasıl paragraf ekleneceğini gösterir.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Ayrıca bakınız
 
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

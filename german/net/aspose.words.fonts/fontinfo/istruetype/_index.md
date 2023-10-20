@@ -1,7 +1,9 @@
 ---
 title: FontInfo.IsTrueType
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontInfo eigendom. Gibt an dass es sich bei dieser Schriftart um eine TrueType oder OpenTypeSchriftart und nicht um eine Raster oder Vektorschriftart handelt. Die Standardeinstellung istWAHR .
+linktitle: IsTrueType
+articleTitle: IsTrueType
+second_title: Aspose.Words für .NET
+description: FontInfo IsTrueType eigendom. Gibt an dass es sich bei dieser Schriftart um eine TrueType oder OpenTypeSchriftart und nicht um eine Raster oder Vektorschriftart handelt. Die Standardeinstellung istWAHR  in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fonts/fontinfo/istruetype/
@@ -14,7 +16,7 @@ Gibt an, dass es sich bei dieser Schriftart um eine TrueType- oder OpenType-Schr
 public bool IsTrueType { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Details zu den in einem Dokument vorhandenen Schriftarten gedruckt werden.
 
@@ -34,7 +36,5 @@ for (int i = 0; i < allFonts.Count; i++)
 ### Siehe auch
 
 * class [FontInfo](../)
-* namensraum [Aspose.Words.Fonts](../../fontinfo/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

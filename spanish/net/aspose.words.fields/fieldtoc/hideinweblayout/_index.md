@@ -1,7 +1,9 @@
 ---
 title: FieldToc.HideInWebLayout
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldToc propiedad. Obtiene o establece si se deben ocultar el líder de pestaña y los números de página en la vista de diseño web.
+linktitle: HideInWebLayout
+articleTitle: HideInWebLayout
+second_title: Aspose.Words para .NET
+description: FieldToc HideInWebLayout propiedad. Obtiene o establece si se deben ocultar el líder de pestaña y los números de página en la vista de diseño web en C#.
 type: docs
 weight: 90
 url: /es/net/aspose.words.fields/fieldtoc/hideinweblayout/
@@ -14,7 +16,7 @@ Obtiene o establece si se deben ocultar el líder de pestaña y los números de 
 public bool HideInWebLayout { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una tabla de contenido y completarla con entradas basadas en estilos de título.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Ver también
 
 * class [FieldToc](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldtoc/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

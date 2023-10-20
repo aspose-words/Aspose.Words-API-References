@@ -1,7 +1,9 @@
 ---
 title: Document.PackageCustomParts
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает или задает коллекцию пользовательских частей произвольное содержимое которые связаны с пакетом OOXML с помощью неизвестных связей.
+linktitle: PackageCustomParts
+articleTitle: PackageCustomParts
+second_title: Aspose.Words для .NET
+description: Document PackageCustomParts свойство. Получает или задает коллекцию пользовательских частей произвольное содержимое которые связаны с пакетом OOXML с помощью неизвестных связей на С#.
 type: docs
 weight: 310
 url: /ru/net/aspose.words/document/packagecustomparts/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/document/packagecustomparts/
 public CustomPartCollection PackageCustomParts { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Не путайте эти пользовательские части с пользовательскими XML-данными. Если вам нужен доступ к пользовательским частям XML, используйте[`CustomXmlParts`](../customxmlparts/) свойство.
 
@@ -24,7 +26,7 @@ Aspose.Words загружает и сохраняет пользовательс
 
 Это свойство не может быть`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
 
@@ -69,7 +71,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPartCollection](../../../aspose.words.markup/custompartcollection/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

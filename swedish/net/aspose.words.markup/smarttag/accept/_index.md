@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Accept
-second_title: Aspose.Words för .NET API Referens
-description: SmartTag metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: SmartTag Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.markup/smarttag/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
 
-### Anmärkningar
+## Anmärkningar
 
 Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ För mer information se Visitor design mönster.
 
 Samtal[`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart/) , sedan ringer[`Accept`](../../../aspose.words/node/accept/) för all underordnade noder för smarttaggen och anrop[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend/) i slutet.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar smarta taggar.
 
@@ -132,7 +134,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [SmartTag](../)
-* namnutrymme [Aspose.Words.Markup](../../smarttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

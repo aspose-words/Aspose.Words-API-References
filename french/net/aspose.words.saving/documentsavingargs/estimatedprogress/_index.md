@@ -1,7 +1,9 @@
 ---
 title: DocumentSavingArgs.EstimatedProgress
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentSavingArgs propriété. Pourcentage de progression global estimé.
+linktitle: EstimatedProgress
+articleTitle: EstimatedProgress
+second_title: Aspose.Words pour .NET
+description: DocumentSavingArgs EstimatedProgress propriété. Pourcentage de progression global estimé en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/documentsavingargs/estimatedprogress/
@@ -14,7 +16,7 @@ Pourcentage de progression global estimé.
 public double EstimatedProgress { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment gérer un document tout en l'enregistrant au format HTML.
 
@@ -184,7 +186,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 ### Voir également
 
 * class [DocumentSavingArgs](../)
-* espace de noms [Aspose.Words.Saving](../../documentsavingargs/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

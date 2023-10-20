@@ -1,9 +1,11 @@
 ---
 title: Fill.ForeTintAndShade
-second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. الحصول على أو تعيين قيمة مزدوجة تعمل على تفتيح أو تغميق اللون الأمامي.
+linktitle: ForeTintAndShade
+articleTitle: ForeTintAndShade
+second_title: Aspose.Words لـ .NET
+description: Fill ForeTintAndShade ملكية. الحصول على أو تعيين قيمة مزدوجة تعمل على تفتيح أو تغميق اللون الأمامي في C#.
 type: docs
-weight: 90
+weight: 80
 url: /ar/net/aspose.words.drawing/fill/foretintandshade/
 ---
 ## Fill.ForeTintAndShade property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/fill/foretintandshade/
 public double ForeTintAndShade { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيم المسموح بها تقع ضمن النطاق من -1 (الأغمق) إلى 1 (الأفتح) لهذه الخاصية. الصفر (0) محايد. محاولة تعيين هذه الخاصية إلى قيمة أقل من -1 أو أكثر من 1 تؤدي إلىArgumentOutOfRangeException.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدارة تفتيح وتغميق لون الخط الأمامي.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "Shape.FillTintAndShade.docx");
 ### أنظر أيضا
 
 * class [Fill](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../fill/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

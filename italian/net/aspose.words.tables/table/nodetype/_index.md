@@ -1,7 +1,9 @@
 ---
 title: Table.NodeType
-second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. RestituisceTable .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: Table NodeType proprietà. RestituisceTable  in C#.
 type: docs
 weight: 210
 url: /it/net/aspose.words.tables/table/nodetype/
@@ -14,7 +16,7 @@ RestituisceTable .
 public override NodeType NodeType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come attraversare l'albero dei nodi figlio di un nodo composito.
 
@@ -135,7 +137,5 @@ private static int GetChildTableCount(Table table)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

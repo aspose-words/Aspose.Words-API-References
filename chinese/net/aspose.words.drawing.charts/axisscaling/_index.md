@@ -1,7 +1,9 @@
 ---
-title: Class AxisScaling
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.AxisScaling 班级. 表示轴的缩放选项
+title: AxisScaling Class
+linktitle: AxisScaling
+articleTitle: AxisScaling
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.AxisScaling 班级. 表示轴的缩放选项 在 C#.
 type: docs
 weight: 570
 url: /zh/net/aspose.words.drawing.charts/axisscaling/
@@ -31,7 +33,7 @@ public class AxisScaling
 | [Minimum](../../aspose.words.drawing.charts/axisscaling/minimum/) { get; set; } | 获取或设置轴的最小值。 |
 | [Type](../../aspose.words.drawing.charts/axisscaling/type/) { get; set; } | 获取或设置轴的缩放类型。 |
 
-### 例子
+## 例子
 
 展示如何将对数缩放应用于图表轴。
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

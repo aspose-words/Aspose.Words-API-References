@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitFieldStart
-second_title: Aspose.Words for .NET API 参考
-description: DocumentVisitor 方法. 当字段在文档中开始时调用
+linktitle: VisitFieldStart
+articleTitle: VisitFieldStart
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentVisitor VisitFieldStart 方法. 当字段在文档中开始时调用 在 C#.
 type: docs
 weight: 200
 url: /zh/net/aspose.words/documentvisitor/visitfieldstart/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
 
 A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
-### 评论
+## 评论
 
 Word 文档中的字段由字段代码和字段值组成。
 
@@ -34,7 +36,7 @@ Word 文档中的字段由字段代码和字段值组成。
 
 字段可以嵌套。
 
-### 例子
+## 例子
 
 演示如何打印文档中每个字段的节点结构。
 
@@ -139,7 +141,5 @@ public class FieldStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [FieldStart](../../../aspose.words.fields/fieldstart/)
 * class [DocumentVisitor](../)
-* 命名空间 [Aspose.Words](../../documentvisitor/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

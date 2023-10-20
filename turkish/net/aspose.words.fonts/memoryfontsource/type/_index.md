@@ -1,7 +1,9 @@
 ---
 title: MemoryFontSource.Type
-second_title: Aspose.Words for .NET API Referansı
-description: MemoryFontSource mülk. Yazı tipi kaynağının türünü döndürür.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words for .NET
+description: MemoryFontSource Type mülk. Yazı tipi kaynağının türünü döndürür C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fonts/memoryfontsource/type/
@@ -14,7 +16,7 @@ Yazı tipi kaynağının türünü döndürür.
 public override FontSourceType Type { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir yazı tipi dosyasındaki verileri içeren bir bayt dizisinin yazı tipi kaynağı olarak nasıl kullanılacağını gösterir.
 
@@ -34,7 +36,5 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 * enum [FontSourceType](../../fontsourcetype/)
 * class [MemoryFontSource](../)
-* ad alanı [Aspose.Words.Fonts](../../memoryfontsource/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

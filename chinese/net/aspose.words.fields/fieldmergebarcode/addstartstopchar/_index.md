@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.AddStartStopChar
-second_title: Aspose.Words for .NET API 参考
-description: FieldMergeBarcode 财产. 获取或设置是否为条码类型NW7和CODE39添加开始/停止字符
+linktitle: AddStartStopChar
+articleTitle: AddStartStopChar
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldMergeBarcode AddStartStopChar 财产. 获取或设置是否为条码类型NW7和CODE39添加开始/停止字符 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldmergebarcode/addstartstopchar/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldmergebarcode/addstartstopchar/
 public bool AddStartStopChar { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何对 CODE39 条形码执行邮件合并。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.CODE39.docx");
 ### 也可以看看
 
 * class [FieldMergeBarcode](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldmergebarcode/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

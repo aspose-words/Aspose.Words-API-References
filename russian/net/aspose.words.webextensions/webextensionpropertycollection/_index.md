@@ -1,7 +1,9 @@
 ---
-title: Class WebExtensionPropertyCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WebExtensions.WebExtensionPropertyCollection сорт. Указывает набор пользовательских свойств вебрасширения.
+title: WebExtensionPropertyCollection Class
+linktitle: WebExtensionPropertyCollection
+articleTitle: WebExtensionPropertyCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.WebExtensions.WebExtensionPropertyCollection сорт. Указывает набор пользовательских свойств вебрасширения на С#.
 type: docs
 weight: 6790
 url: /ru/net/aspose.words.webextensions/webextensionpropertycollection/
@@ -27,12 +29,12 @@ public class WebExtensionPropertyCollection : BaseWebExtensionCollection<WebExte
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(WebExtensionProperty) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*[WebExtensionProperty](../webextensionproperty/)*) |  |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) |  |
 
-### Примеры
+## Примеры
 
 Показывает, как добавить веб-расширение в документ.
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 * class [WebExtensionProperty](../webextensionproperty/)
 * пространство имен [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Stroke.BackColor
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. الحصول على أو تعيين لون خلفية الحد.
+linktitle: BackColor
+articleTitle: BackColor
+second_title: Aspose.Words لـ .NET
+description: Stroke BackColor ملكية. الحصول على أو تعيين لون خلفية الحد في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/stroke/backcolor/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/backcolor/
 public Color BackColor { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية لـ a[`Shape`](../../shape/) is White.
 
-### أمثلة
+## أمثلة
 
 أظهر كيفية ضبط تنسيق العلامة.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 ### أنظر أيضا
 
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

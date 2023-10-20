@@ -1,7 +1,9 @@
 ---
-title: Enum EndnotePosition
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Notes.EndnotePosition تعداد. يحدد موضع التعليق الختامي.
+title: EndnotePosition Enum
+linktitle: EndnotePosition
+articleTitle: EndnotePosition
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Notes.EndnotePosition تعداد. يحدد موضع التعليق الختامي في C#.
 type: docs
 weight: 4250
 url: /ar/net/aspose.words.notes/endnoteposition/
@@ -21,7 +23,7 @@ public enum EndnotePosition
 | EndOfSection | `0` | يتم إخراج التعليقات الختامية في نهاية القسم. |
 | EndOfDocument | `3` | يتم إخراج التعليقات الختامية في نهاية المستند. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد مكان مختلف حيث يتم تجميع المستند وعرض تعليقاته الختامية.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "InlineStory.PositionEndnote.docx");
 * class [EndnoteOptions](../endnoteoptions/)
 * مساحة الاسم [Aspose.Words.Notes](../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../)
-
-

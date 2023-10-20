@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreFields
-second_title: Aspose.Words for .NET API Referansı
-description: CompareOptions mülk. Alanlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak alanlar göz ardı edilmez.
+linktitle: IgnoreFields
+articleTitle: IgnoreFields
+second_title: Aspose.Words for .NET
+description: CompareOptions IgnoreFields mülk. Alanlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak alanlar göz ardı edilmez C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.comparing/compareoptions/ignorefields/
@@ -14,7 +16,7 @@ Alanlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağı
 public bool IgnoreFields { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Karşılaştırma yaparken belirli belge öğesi türlerinin nasıl filtreleneceğini gösterir.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Ayrıca bakınız
 
 * class [CompareOptions](../)
-* ad alanı [Aspose.Words.Comparing](../../compareoptions/)
+* ad alanı [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * toplantı [Aspose.Words](../../../)
-
-

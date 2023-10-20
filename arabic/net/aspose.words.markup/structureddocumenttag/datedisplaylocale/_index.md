@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.DateDisplayLocale
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يسمح بتعيين/الحصول على تنسيق اللغة للتاريخ المعروض في هذا المعاملة الخاصة والتفضيلية .
+linktitle: DateDisplayLocale
+articleTitle: DateDisplayLocale
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag DateDisplayLocale ملكية. يسمح بتعيين/الحصول على تنسيق اللغة للتاريخ المعروض في هذاالمعاملة الخاصة والتفضيلية  في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.markup/structureddocumenttag/datedisplaylocale/
 ---
 ## StructuredDocumentTag.DateDisplayLocale property
 
-يسمح بتعيين/الحصول على تنسيق اللغة للتاريخ المعروض في هذا **المعاملة الخاصة والتفضيلية** .
+يسمح بتعيين/الحصول على تنسيق اللغة للتاريخ المعروض في هذا**المعاملة الخاصة والتفضيلية** .
 
 ```csharp
 public int DateDisplayLocale { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الوصول إلى هذه الخاصية سوف يعمل فقط من أجلDate نوع المعاملة الخاصة والتفضيلية.
 
 بالنسبة لجميع أنواع SDT الأخرى، سيحدث استثناء.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية مطالبة المستخدم بإدخال تاريخ باستخدام علامة مستند منظمة.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

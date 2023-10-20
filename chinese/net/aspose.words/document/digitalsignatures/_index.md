@@ -1,7 +1,9 @@
 ---
 title: Document.DigitalSignatures
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取此文档的数字签名及其验证结果的集合
+linktitle: DigitalSignatures
+articleTitle: DigitalSignatures
+second_title: 用于 .NET 的 Aspose.Words
+description: Document DigitalSignatures 财产. 获取此文档的数字签名及其验证结果的集合 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words/document/digitalsignatures/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/document/digitalsignatures/
 public DigitalSignatureCollection DigitalSignatures { get; }
 ```
 
-### 评论
+## 评论
 
 该集合包含从原始文档加载的数字签名。 保存此集合时，这些数字签名将不会被保存[`Document`](../)object 保存到文件或流中，因为保存或转换将生成与 the 原始文档不同的文档，并且原始数字签名将不再有效。
 
 这个合集从来没有`无效的`。如果文档未签名，它将包含零个元素。
 
-### 例子
+## 例子
 
 演示如何验证和显示有关文档中每个签名的信息。
 
@@ -81,7 +83,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [DigitalSignatureCollection](../../../aspose.words.digitalsignatures/digitalsignaturecollection/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

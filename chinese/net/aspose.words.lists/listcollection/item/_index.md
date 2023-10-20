@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Item
-second_title: Aspose.Words for .NET API 参考
-description: ListCollection 财产. 按索引获取列表
+linktitle: Item
+articleTitle: Item
+second_title: 用于 .NET 的 Aspose.Words
+description: ListCollection Item 财产. 按索引获取列表 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.lists/listcollection/item/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.lists/listcollection/item/
 public List this[int index] { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何验证列表的所有者文档属性。
 
@@ -63,7 +65,5 @@ Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* 命名空间 [Aspose.Words.Lists](../../listcollection/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

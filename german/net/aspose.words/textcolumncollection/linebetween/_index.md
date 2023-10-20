@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.LineBetween
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextColumnCollection eigendom. WannWAHR fügt eine vertikale Linie zwischen den Spalten hinzu.
+linktitle: LineBetween
+articleTitle: LineBetween
+second_title: Aspose.Words für .NET
+description: TextColumnCollection LineBetween eigendom. WannWAHR fügt eine vertikale Linie zwischen den Spalten hinzu in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/textcolumncollection/linebetween/
@@ -14,7 +16,7 @@ Wann`WAHR` fügt eine vertikale Linie zwischen den Spalten hinzu.
 public bool LineBetween { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Spalten mit einer vertikalen Linie getrennt werden.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "PageSetup.VerticalLineBetweenColumns.docx");
 ### Siehe auch
 
 * class [TextColumnCollection](../)
-* namensraum [Aspose.Words](../../textcolumncollection/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

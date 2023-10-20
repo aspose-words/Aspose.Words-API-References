@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.LanguagePreferences
-second_title: Aspose.Words لمراجع .NET API
-description: LoadOptions ملكية. يحصل على تفضيلات اللغة التي سيتم استخدامها عند تحميل المستند.
+linktitle: LanguagePreferences
+articleTitle: LanguagePreferences
+second_title: Aspose.Words لـ .NET
+description: LoadOptions LanguagePreferences ملكية. يحصل على تفضيلات اللغة التي سيتم استخدامها عند تحميل المستند في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.loading/loadoptions/languagepreferences/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/loadoptions/languagepreferences/
 public LanguagePreferences LanguagePreferences { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تفضيلات اللغة عند تحميل مستند.
 
@@ -34,7 +36,5 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * class [LanguagePreferences](../../languagepreferences/)
 * class [LoadOptions](../)
-* مساحة الاسم [Aspose.Words.Loading](../../loadoptions/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

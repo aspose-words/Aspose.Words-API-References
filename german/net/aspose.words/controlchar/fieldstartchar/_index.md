@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldStartChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Beginn des MS WordFeldzeichens char19.
+linktitle: FieldStartChar
+articleTitle: FieldStartChar
+second_title: Aspose.Words für .NET
+description: ControlChar FieldStartChar veld. Beginn des MS WordFeldzeichens char19 in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words/controlchar/fieldstartchar/
@@ -14,7 +16,7 @@ Beginn des MS Word-Feldzeichens: (char)19.
 public const char FieldStartChar;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

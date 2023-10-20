@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Current
-second_title: Aspose.Words för .NET API Referens
-description: LayoutEnumerator fast egendom. Hämtar eller ställer in aktuell position i sidlayoutmodellen. Denna egenskap returnerar ett ogenomskinligt objekt som motsvarar den aktuella layoutentiteten.
+linktitle: Current
+articleTitle: Current
+second_title: Aspose.Words för .NET
+description: LayoutEnumerator Current fast egendom. Hämtar eller ställer in aktuell position i sidlayoutmodellen. Denna egenskap returnerar ett ogenomskinligt objekt som motsvarar den aktuella layoutentiteten i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.layout/layoutenumerator/current/
@@ -14,7 +16,7 @@ Hämtar eller ställer in aktuell position i sidlayoutmodellen. Denna egenskap r
 public object Current { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kan se sidorna som en nod sträcker sig över.
 
@@ -72,7 +74,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 ### Se även
 
 * class [LayoutEnumerator](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutenumerator/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

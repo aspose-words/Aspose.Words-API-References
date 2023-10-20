@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.InsertNextNumber
-second_title: Aspose.Words لمراجع .NET API
-description: FieldSeq ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج رقم التسلسل التالي للعنصر المحدد.
+linktitle: InsertNextNumber
+articleTitle: InsertNextNumber
+second_title: Aspose.Words لـ .NET
+description: FieldSeq InsertNextNumber ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج رقم التسلسل التالي للعنصر المحدد في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldseq/insertnextnumber/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldseq/insertnextnumber/
 public bool InsertNextNumber { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يظهر إنشاء الترقيم باستخدام حقول SEQ.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### أنظر أيضا
 
 * class [FieldSeq](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldseq/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.IsListItem
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. صحيح عندما تكون الفقرة عنصرًا في قائمة ذات تعداد نقطي أو رقمي.
+linktitle: IsListItem
+articleTitle: IsListItem
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat IsListItem ملكية. صحيح عندما تكون الفقرة عنصرًا في قائمة ذات تعداد نقطي أو رقمي في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words/paragraphformat/islistitem/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/islistitem/
 public bool IsListItem { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية دمج قائمة داخل قائمة أخرى.
 
@@ -68,7 +70,5 @@ builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

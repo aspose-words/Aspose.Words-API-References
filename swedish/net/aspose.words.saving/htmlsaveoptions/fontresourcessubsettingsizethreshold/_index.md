@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontResourcesSubsettingSizeThreshold
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Styr vilka teckensnittsresurser som behöver underinställning när du sparar till HTML MHTML eller EPUB. Standard är0 .
+linktitle: FontResourcesSubsettingSizeThreshold
+articleTitle: FontResourcesSubsettingSizeThreshold
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions FontResourcesSubsettingSizeThreshold fast egendom. Styr vilka teckensnittsresurser som behöver underinställning när du sparar till HTML MHTML eller EPUB. Standard är0  i C#.
 type: docs
 weight: 290
 url: /sv/net/aspose.words.saving/htmlsaveoptions/fontresourcessubsettingsizethreshold/
@@ -14,7 +16,7 @@ Styr vilka teckensnittsresurser som behöver underinställning när du sparar ti
 public int FontResourcesSubsettingSizeThreshold { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 [`ExportFontResources`](../exportfontresources/) tillåter export av teckensnitt som underordnade filer eller som delar av paketet output . Om dokumentet använder många teckensnitt, särskilt med ett stort antal glyfer, kan utdatastorleken växa avsevärt. Teckensnittsunderinställning minskar storleken på den exporterade teckensnittsresursen genom att filtrera bort glyfer som inte används av det aktuella dokumentet.
 
@@ -24,9 +26,9 @@ Teckensnittsunderinställning fungerar enligt följande:
 * Miljö`FontResourcesSubsettingSizeThreshold`till ett positivt värde instruerar Aspose.Words att underställa teckensnitt vars filstorlek är större än det angivna värdet.
 * Ställer in fastigheten tillMaxValue undertrycker teckensnittsunderinställningar.
 
-**Viktig!** När du exporterar teckensnittsresurser bör teckensnittslicensproblem övervägas. Författare som vill använda specifika typsnitt via en nedladdningsbar teckensnittsmekanism måste alltid noggrant verifiera att deras avsedda användning ligger inom ramen för teckensnittslicensen. Många kommersiella typsnitt tillåter för närvarande inte webbnedladdning av deras typsnitt i någon form. Licensavtal som täcker vissa typsnitt noterar specifikt att användning via **@font-face** rules i CSS-formatmallar är inte tillåtet. Teckensnittsunderinställningar kan också bryta mot licensvillkoren.
+**Viktig!** När du exporterar teckensnittsresurser bör teckensnittslicensproblem övervägas. Författare som vill använda specifika typsnitt via en nedladdningsbar teckensnittsmekanism måste alltid noggrant verifiera att deras avsedda användning ligger inom ramen för teckensnittslicensen. Många kommersiella typsnitt tillåter för närvarande inte webbnedladdning av deras typsnitt i någon form. Licensavtal som täcker vissa typsnitt noterar specifikt att användning via**@font-face** rules i CSS-formatmallar är inte tillåtet. Teckensnittsunderinställningar kan också bryta mot licensvillkoren.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med teckensnittsunderinställningar.
 
@@ -83,7 +85,5 @@ foreach (string filename in fontFileNames)
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

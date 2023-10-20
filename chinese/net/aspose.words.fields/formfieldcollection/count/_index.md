@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.Count
-second_title: Aspose.Words for .NET API 参考
-description: FormFieldCollection 财产. 返回集合中表单字段的数量
+linktitle: Count
+articleTitle: Count
+second_title: 用于 .NET 的 Aspose.Words
+description: FormFieldCollection Count 财产. 返回集合中表单字段的数量 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/formfieldcollection/count/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/formfieldcollection/count/
 public int Count { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormFieldCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../formfieldcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

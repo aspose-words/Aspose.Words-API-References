@@ -1,7 +1,9 @@
 ---
 title: Shading.ClearFormatting
-second_title: Aspose.Words för .NET API Referens
-description: Shading metod. Tar bort skuggning från objektet.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words för .NET
+description: Shading ClearFormatting metod. Tar bort skuggning från objektet i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/shading/clearformatting/
@@ -14,7 +16,7 @@ Tar bort skuggning från objektet.
 public void ClearFormatting()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bygger en tabell med anpassade ramar.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Se även
 
 * class [Shading](../)
-* namnutrymme [Aspose.Words](../../shading/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

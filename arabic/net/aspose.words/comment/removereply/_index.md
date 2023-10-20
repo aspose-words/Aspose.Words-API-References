@@ -1,9 +1,11 @@
 ---
 title: Comment.RemoveReply
-second_title: Aspose.Words لمراجع .NET API
-description: Comment طريقة. إزالة الرد المحدد على هذا التعليق.
+linktitle: RemoveReply
+articleTitle: RemoveReply
+second_title: Aspose.Words لـ .NET
+description: Comment RemoveReply طريقة. إزالة الرد المحدد على هذا التعليق في C#.
 type: docs
-weight: 170
+weight: 140
 url: /ar/net/aspose.words/comment/removereply/
 ---
 ## Comment.RemoveReply method
@@ -18,11 +20,11 @@ public void RemoveReply(Comment reply)
 | --- | --- | --- |
 | reply | Comment | عقدة التعليق لحذف الرد. |
 
-### ملاحظات
+## ملاحظات
 
 سيتم حذف كافة العقد المكونة للرد من المستند.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة ردود التعليقات.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, comment.Replies.Count());
 ### أنظر أيضا
 
 * class [Comment](../)
-* مساحة الاسم [Aspose.Words](../../comment/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

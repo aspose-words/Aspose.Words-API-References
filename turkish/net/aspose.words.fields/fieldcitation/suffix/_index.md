@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.Suffix
-second_title: Aspose.Words for .NET API Referansı
-description: FieldCitation mülk. Alıntıya eklenen bir son eki alır veya ayarlar.
+linktitle: Suffix
+articleTitle: Suffix
+second_title: Aspose.Words for .NET
+description: FieldCitation Suffix mülk. Alıntıya eklenen bir son eki alır veya ayarlar C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldcitation/suffix/
@@ -14,7 +16,7 @@ Alıntıya eklenen bir son eki alır veya ayarlar.
 public string Suffix { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 CITATION ve KAYNAKÇA alanlarıyla nasıl çalışılacağını gösterir.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Ayrıca bakınız
 
 * class [FieldCitation](../)
-* ad alanı [Aspose.Words.Fields](../../fieldcitation/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

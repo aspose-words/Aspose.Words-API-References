@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.FontSize
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextWatermarkOptions eigendom. Ruft eine Schriftgröße ab oder legt diese fest. Der Standardwert ist 0  auto.
+linktitle: FontSize
+articleTitle: FontSize
+second_title: Aspose.Words für .NET
+description: TextWatermarkOptions FontSize eigendom. Ruft eine Schriftgröße ab oder legt diese fest. Der Standardwert ist 0  auto in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/textwatermarkoptions/fontsize/
@@ -20,13 +22,13 @@ public float FontSize { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Wird ausgelöst, wenn das Argument außerhalb des gültigen Wertebereichs lag. |
 
-### Bemerkungen
+## Bemerkungen
 
 Gültige Werte liegen zwischen 0 und 65,5.
 
 Automatische Schriftgröße bedeutet, dass das Wasserzeichen auf seine maximale Breite und maximale Höhe relativ zu den Seitenrändern skaliert wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Textwasserzeichen erstellt.
 
@@ -57,7 +59,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Siehe auch
 
 * class [TextWatermarkOptions](../)
-* namensraum [Aspose.Words](../../textwatermarkoptions/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

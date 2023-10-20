@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Uri
-second_title: Aspose.Words لمراجع .NET API
-description: SmartTag ملكية. يحدد مساحة الاسم URI للعلامة الذكية.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words لـ .NET
+description: SmartTag Uri ملكية. يحدد مساحة الاسم URI للعلامة الذكية في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.markup/smarttag/uri/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.markup/smarttag/uri/
 public string Uri { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن`باطل`.
 
 الافتراضي هو سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء العلامات الذكية.
 
@@ -121,7 +123,5 @@ private class SmartTagPrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [SmartTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../smarttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

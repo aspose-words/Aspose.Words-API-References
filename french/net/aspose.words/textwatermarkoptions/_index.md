@@ -1,7 +1,9 @@
 ---
-title: Class TextWatermarkOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.TextWatermarkOptions classe. Contient les options qui peuvent être spécifiées lors de lajout dun filigrane avec du texte.
+title: TextWatermarkOptions Class
+linktitle: TextWatermarkOptions
+articleTitle: TextWatermarkOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.TextWatermarkOptions classe. Contient les options qui peuvent être spécifiées lors de lajout dun filigrane avec du texte en C#.
 type: docs
 weight: 6440
 url: /fr/net/aspose.words/textwatermarkoptions/
@@ -36,5 +38,3 @@ public class TextWatermarkOptions
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

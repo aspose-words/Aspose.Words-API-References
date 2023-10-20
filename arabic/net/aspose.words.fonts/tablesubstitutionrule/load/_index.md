@@ -1,12 +1,14 @@
 ---
 title: TableSubstitutionRule.Load
-second_title: Aspose.Words لمراجع .NET API
-description: TableSubstitutionRule طريقة. تحميل إعدادات استبدال الجدول من ملف XML.
+linktitle: Load
+articleTitle: Load
+second_title: Aspose.Words لـ .NET
+description: TableSubstitutionRule Load طريقة. تحميل إعدادات استبدال الجدول من ملف XML في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/tablesubstitutionrule/load/
 ---
-## Load(string) {#load_1}
+## Load(*string*) {#load_1}
 
 تحميل إعدادات استبدال الجدول من ملف XML.
 
@@ -18,7 +20,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | اسم ملف الإدخال. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع جداول استبدال الخطوط المخصصة.
 
@@ -79,12 +81,12 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### أنظر أيضا
 
 * class [TableSubstitutionRule](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Load(Stream) {#load}
+## Load(*Stream*) {#load}
 
 تحميل إعدادات استبدال الجدول من تدفق XML.
 
@@ -96,7 +98,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | تيار الإدخال. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع جداول استبدال الخطوط المخصصة.
 
@@ -157,7 +159,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### أنظر أيضا
 
 * class [TableSubstitutionRule](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

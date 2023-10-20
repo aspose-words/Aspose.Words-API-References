@@ -1,7 +1,9 @@
 ---
 title: Story.LastParagraph
-second_title: Aspose.Words لمراجع .NET API
-description: Story ملكية. الحصول على الفقرة الأخيرة في القصة.
+linktitle: LastParagraph
+articleTitle: LastParagraph
+second_title: Aspose.Words لـ .NET
+description: Story LastParagraph ملكية. الحصول على الفقرة الأخيرة في القصة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/story/lastparagraph/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/story/lastparagraph/
 public Paragraph LastParagraph { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية نقل موضع مؤشر DocumentBuilder إلى عقدة محددة.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Run 2. \rRun 1. \rRun 3.", doc.GetText().Trim());
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* مساحة الاسم [Aspose.Words](../../story/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum Forms2OleControlType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Ole.Forms2OleControlType Sıralama. Forms 2.0 denetim türlerini numaralandırır.
+title: Forms2OleControlType Enum
+linktitle: Forms2OleControlType
+articleTitle: Forms2OleControlType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Ole.Forms2OleControlType Sıralama. Forms 2.0 denetim türlerini numaralandırır C#'da.
 type: docs
 weight: 1130
 url: /tr/net/aspose.words.drawing.ole/forms2olecontroltype/
@@ -38,5 +40,3 @@ public enum Forms2OleControlType
 
 * ad alanı [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * toplantı [Aspose.Words](../../)
-
-

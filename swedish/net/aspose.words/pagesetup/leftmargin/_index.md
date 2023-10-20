@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LeftMargin
-second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Returnerar eller ställer in avståndet i poäng mellan sidans vänstra kant och brödtextens vänstra kant.
+linktitle: LeftMargin
+articleTitle: LeftMargin
+second_title: Aspose.Words för .NET
+description: PageSetup LeftMargin fast egendom. Returnerar eller ställer in avståndet i poäng mellan sidans vänstra kant och brödtextens vänstra kant i C#.
 type: docs
 weight: 200
 url: /sv/net/aspose.words/pagesetup/leftmargin/
@@ -14,7 +16,7 @@ Returnerar eller ställer in avståndet (i poäng) mellan sidans vänstra kant o
 public double LeftMargin { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du justerar pappersstorlek, orientering, marginaler, tillsammans med andra inställningar för ett avsnitt.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ### Se även
 
 * class [PageSetup](../)
-* namnutrymme [Aspose.Words](../../pagesetup/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

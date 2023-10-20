@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreHeadersAndFooters
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompareOptions eigendom. True gibt an dass der Inhalt von Kopf und Fußzeilen ignoriert wird. Standardmäßig werden Kopf und Fußzeilen nicht ignoriert.
+linktitle: IgnoreHeadersAndFooters
+articleTitle: IgnoreHeadersAndFooters
+second_title: Aspose.Words für .NET
+description: CompareOptions IgnoreHeadersAndFooters eigendom. True gibt an dass der Inhalt von Kopf und Fußzeilen ignoriert wird. Standardmäßig werden Kopf und Fußzeilen nicht ignoriert in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/
@@ -14,7 +16,7 @@ True gibt an, dass der Inhalt von Kopf- und Fußzeilen ignoriert wird. Standardm
 public bool IgnoreHeadersAndFooters { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie bei einem Vergleich bestimmte Arten von Dokumentelementen gefiltert werden.
 
@@ -88,7 +90,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 ### Siehe auch
 
 * class [CompareOptions](../)
-* namensraum [Aspose.Words.Comparing](../../compareoptions/)
+* namensraum [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * Montage [Aspose.Words](../../../)
-
-

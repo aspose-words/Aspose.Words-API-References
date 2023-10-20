@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ApplyFont
-second_title: Aspose.Words für .NET-API-Referenz
-description: FindReplaceOptions eigendom. Textformatierung wird auf neue Inhalte angewendet.
+linktitle: ApplyFont
+articleTitle: ApplyFont
+second_title: Aspose.Words für .NET
+description: FindReplaceOptions ApplyFont eigendom. Textformatierung wird auf neue Inhalte angewendet in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.replacing/findreplaceoptions/applyfont/
@@ -14,7 +16,7 @@ Textformatierung wird auf neue Inhalte angewendet.
 public Font ApplyFont { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie über FindReplaceOptions eine andere Schriftart auf neue Inhalte anwenden.
 
@@ -88,7 +90,5 @@ private class NumberHexer : IReplacingCallback
 
 * class [Font](../../../aspose.words/font/)
 * class [FindReplaceOptions](../)
-* namensraum [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

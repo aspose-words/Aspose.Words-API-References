@@ -1,7 +1,9 @@
 ---
 title: Font.StyleIdentifier
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece el identificador de estilo independiente de la configuración regional del estilo de carácter aplicado a este formato.
+linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
+second_title: Aspose.Words para .NET
+description: Font StyleIdentifier propiedad. Obtiene o establece el identificador de estilo independiente de la configuración regional del estilo de carácter aplicado a este formato en C#.
 type: docs
 weight: 410
 url: /es/net/aspose.words/font/styleidentifier/
@@ -14,7 +16,7 @@ Obtiene o establece el identificador de estilo independiente de la configuració
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo cambiar el estilo del texto existente.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
 
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Footnote.IsAuto
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Footnote propriété. Contient une valeur qui spécifie sil sagit dune note de bas de page numérotée automatiquement ou dune note de bas de page avec une marque de référence personnalisée définie par lutilisateur.
+linktitle: IsAuto
+articleTitle: IsAuto
+second_title: Aspose.Words pour .NET
+description: Footnote IsAuto propriété. Contient une valeur qui spécifie sil sagit dune note de bas de page numérotée automatiquement ou dune note de bas de page avec une marque de référence personnalisée définie par lutilisateur en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.notes/footnote/isauto/
@@ -14,11 +16,11 @@ Contient une valeur qui spécifie s'il s'agit d'une note de bas de page numérot
 public bool IsAuto { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 [`ReferenceMark`](../referencemark/)initialisé avec une chaîne vide si`IsAuto` mis à`FAUX` .
 
-### Exemples
+## Exemples
 
 Montre comment insérer et personnaliser des notes de bas de page.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 ### Voir également
 
 * class [Footnote](../)
-* espace de noms [Aspose.Words.Notes](../../footnote/)
+* espace de noms [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Assemblée [Aspose.Words](../../../)
-
-

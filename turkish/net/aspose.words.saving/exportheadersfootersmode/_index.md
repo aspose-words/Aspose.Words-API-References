@@ -1,7 +1,9 @@
 ---
-title: Enum ExportHeadersFootersMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.ExportHeadersFootersMode Sıralama. Üstbilgilerin ve altbilgilerin HTML MHTML veya EPUBa nasıl aktarılacağını belirtir.
+title: ExportHeadersFootersMode Enum
+linktitle: ExportHeadersFootersMode
+articleTitle: ExportHeadersFootersMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.ExportHeadersFootersMode Sıralama. Üstbilgilerin ve altbilgilerin HTML MHTML veya EPUBa nasıl aktarılacağını belirtir C#'da.
 type: docs
 weight: 5000
 url: /tr/net/aspose.words.saving/exportheadersfootersmode/
@@ -23,7 +25,7 @@ public enum ExportHeadersFootersMode
 | FirstSectionHeaderLastSectionFooter | `2` | İlk bölümün birincil başlığı belgenin başına aktarılır ve birincil altbilgi belgenin sonundadır. |
 | FirstPageHeaderFooterPerSection | `3` | İlk sayfa üst bilgisi ve alt bilgisi her bölümün başında ve sonunda dışa aktarılır. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi HTML'ye kaydederken üstbilgilerin/altbilgilerin nasıl atlanacağını gösterir.
 
@@ -53,5 +55,3 @@ Assert.IsFalse(doc.Range.Text.Contains("First header"));
 * property [ExportHeadersFootersMode](../htmlsaveoptions/exportheadersfootersmode/)
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

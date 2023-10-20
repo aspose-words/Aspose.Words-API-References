@@ -1,7 +1,9 @@
 ---
-title: Class LanguagePreferences
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.LanguagePreferences فصل. يسمح بإعداد تفضيلات اللغة.
+title: LanguagePreferences Class
+linktitle: LanguagePreferences
+articleTitle: LanguagePreferences
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.LanguagePreferences فصل. يسمح بإعداد تفضيلات اللغة في C#.
 type: docs
 weight: 3650
 url: /ar/net/aspose.words.loading/languagepreferences/
@@ -32,14 +34,14 @@ public class LanguagePreferences
 
 | اسم | وصف |
 | --- | --- |
-| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(EditingLanguage) | يضيف لغة تحرير إضافية. |
-| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(EditingLanguage[]) | إضافة لغات تحرير إضافية. |
+| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(*[EditingLanguage](../editinglanguage/)*) | يضيف لغة تحرير إضافية. |
+| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(*EditingLanguage[]*) | إضافة لغات تحرير إضافية. |
 
-### ملاحظات
+## ملاحظات
 
 يقوم بتنفيذ مربع الحوار "تعيين تفضيلات لغة Office" في Word.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تفضيلات اللغة عند تحميل مستند.
 
@@ -59,5 +61,3 @@ Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
 
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

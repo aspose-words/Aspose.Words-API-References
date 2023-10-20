@@ -1,7 +1,9 @@
 ---
 title: FieldStart.Accept
-second_title: Aspose.Words för .NET API Referens
-description: FieldStart metod. Accepterar en besökare.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words för .NET
+description: FieldStart Accept metod. Accepterar en besökare i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldstart/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 **Falsk** om besökaren begärde att uppräkningen skulle sluta.
 
-### Anmärkningar
+## Anmärkningar
 
 Samtal[`VisitFieldStart`](../../../aspose.words/documentvisitor/visitfieldstart/).
 
 För mer information se Visitor design mönster.
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med en samling fält.
 
@@ -132,7 +134,5 @@ public class FieldVisitor : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [FieldStart](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldstart/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

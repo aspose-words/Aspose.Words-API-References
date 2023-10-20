@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.WordOpenXMLMinimal
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Obtient une chaîne qui représente le XML contenu dans le nœud dans leFlatOpc format. Contrairement auWordOpenXMLpropriété cette méthode génère un document simplifié qui exclut toutes les parties non liées au contenu.
+linktitle: WordOpenXMLMinimal
+articleTitle: WordOpenXMLMinimal
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag WordOpenXMLMinimal propriété. Obtient une chaîne qui représente le XML contenu dans le nœud dans leFlatOpc format. Contrairement auWordOpenXMLpropriété cette méthode génère un document simplifié qui exclut toutes les parties non liées au contenu en C#.
 type: docs
 weight: 310
 url: /fr/net/aspose.words.markup/structureddocumenttag/wordopenxmlminimal/
@@ -14,7 +16,7 @@ Obtient une chaîne qui représente le XML contenu dans le nœud dans leFlatOpc 
 public string WordOpenXMLMinimal { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les styles pour les éléments de contrôle de contenu.
 
@@ -53,7 +55,5 @@ foreach (Node node in tags)
 ### Voir également
 
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

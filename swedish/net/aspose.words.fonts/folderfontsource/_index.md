@@ -1,7 +1,9 @@
 ---
-title: Class FolderFontSource
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.FolderFontSource klass. Representerar mappen som innehåller TrueTypeteckensnittsfiler.
+title: FolderFontSource Class
+linktitle: FolderFontSource
+articleTitle: FolderFontSource
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.FolderFontSource klass. Representerar mappen som innehåller TrueTypeteckensnittsfiler i C#.
 type: docs
 weight: 2880
 url: /sv/net/aspose.words.fonts/folderfontsource/
@@ -20,8 +22,8 @@ public class FolderFontSource : FontSourceBase
 
 | namn | Beskrivning |
 | --- | --- |
-| [FolderFontSource](folderfontsource/#constructor)(string, bool) | Ctor. |
-| [FolderFontSource](folderfontsource/#constructor_1)(string, bool, int) | Ctor. |
+| [FolderFontSource](folderfontsource/#constructor)(*string, bool*) | Ctor. |
+| [FolderFontSource](folderfontsource/#constructor_1)(*string, bool, int*) | Ctor. |
 
 ## Egenskaper
 
@@ -39,7 +41,7 @@ public class FolderFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Returnerar en lista över teckensnitt som är tillgängliga via den här källan. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder en lokal systemmapp som innehåller teckensnitt som teckensnittskälla.
 
@@ -62,5 +64,3 @@ Assert.AreEqual(1, folderFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

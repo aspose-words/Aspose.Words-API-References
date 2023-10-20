@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.DefaultBookmarksOutlineLevel
-second_title: Aspose.Words per .NET API Reference
-description: OutlineOptions proprietà. Specifica il livello predefinito nella struttura del documento in cui visualizzare i segnalibri di Word.
+linktitle: DefaultBookmarksOutlineLevel
+articleTitle: DefaultBookmarksOutlineLevel
+second_title: Aspose.Words per .NET
+description: OutlineOptions DefaultBookmarksOutlineLevel proprietà. Specifica il livello predefinito nella struttura del documento in cui visualizzare i segnalibri di Word in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/
@@ -14,7 +16,7 @@ Specifica il livello predefinito nella struttura del documento in cui visualizza
 public int DefaultBookmarksOutlineLevel { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 È possibile specificare il livello dei singoli segnalibri utilizzando[`BookmarksOutlineLevels`](../bookmarksoutlinelevels/) proprietà.
 
@@ -22,7 +24,7 @@ Specifica 0 e i segnalibri di Word non verranno visualizzati nella struttura del
 
 Il valore predefinito è 0. L'intervallo valido è compreso tra 0 e 9.
 
-### Esempi
+## Esempi
 
 Mostra per elaborare i segnalibri nelle intestazioni/piè di pagina in un documento che stiamo convertendo in PDF.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 ### Guarda anche
 
 * class [OutlineOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../outlineoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

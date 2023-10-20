@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.IsLinkToContent
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentProperty eigendom. Zeigt an ob diese Eigenschaft mit Inhalt verknüpft ist oder nicht.
+linktitle: IsLinkToContent
+articleTitle: IsLinkToContent
+second_title: Aspose.Words für .NET
+description: DocumentProperty IsLinkToContent eigendom. Zeigt an ob diese Eigenschaft mit Inhalt verknüpft ist oder nicht in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.properties/documentproperty/islinktocontent/
@@ -14,7 +16,7 @@ Zeigt an, ob diese Eigenschaft mit Inhalt verknüpft ist oder nicht.
 public bool IsLinkToContent { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine benutzerdefinierte Dokumenteigenschaft mit einem Lesezeichen verknüpft wird.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 ### Siehe auch
 
 * class [DocumentProperty](../)
-* namensraum [Aspose.Words.Properties](../../documentproperty/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Count
-second_title: Aspose.Words för .NET API Referens
-description: FontInfoCollection fast egendom. Hämtar antalet element som finns i samlingen.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words för .NET
+description: FontInfoCollection Count fast egendom. Hämtar antalet element som finns i samlingen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/fontinfocollection/count/
@@ -14,7 +16,7 @@ Hämtar antalet element som finns i samlingen.
 public int Count { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar information om de typsnitt som finns i det tomma dokumentet.
 
@@ -35,7 +37,5 @@ Assert.True(doc.FontInfos.Contains("Arial"));
 ### Se även
 
 * class [FontInfoCollection](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontinfocollection/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

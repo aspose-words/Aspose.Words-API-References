@@ -1,7 +1,9 @@
 ---
 title: ImageData.IsLinkOnly
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData mülk. İadelerdoğru resim bağlantılıysa ve belgede saklanmıyorsa.
+linktitle: IsLinkOnly
+articleTitle: IsLinkOnly
+second_title: Aspose.Words for .NET
+description: ImageData IsLinkOnly mülk. İadelerdoğru resim bağlantılıysa ve belgede saklanmıyorsa C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.drawing/imagedata/islinkonly/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/imagedata/islinkonly/
 public bool IsLinkOnly { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şeklin görüntü verilerinin nasıl düzenleneceğini gösterir.
 
@@ -77,7 +79,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

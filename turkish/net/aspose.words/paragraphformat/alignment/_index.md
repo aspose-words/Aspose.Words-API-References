@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Alignment
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragraf için metin hizalamasını alır veya ayarlar.
+linktitle: Alignment
+articleTitle: Alignment
+second_title: Aspose.Words for .NET
+description: ParagraphFormat Alignment mülk. Paragraf için metin hizalamasını alır veya ayarlar C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/paragraphformat/alignment/
@@ -14,7 +16,7 @@ Paragraf için metin hizalamasını alır veya ayarlar.
 public ParagraphAlignment Alignment { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgeye nasıl paragraf ekleneceğini gösterir.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * enum [ParagraphAlignment](../../paragraphalignment/)
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

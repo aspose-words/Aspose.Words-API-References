@@ -1,7 +1,9 @@
 ---
-title: Class FieldDatabaseDataTable
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldDatabaseDataTable clase. Proporciona datos para elFieldDatabase resultado de campo. Por favor miraDataTable instancia.
+title: FieldDatabaseDataTable Class
+linktitle: FieldDatabaseDataTable
+articleTitle: FieldDatabaseDataTable
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldDatabaseDataTable clase. Proporciona datos para elFieldDatabase resultado de campo. Por favor miraDataTable instancia en C#.
 type: docs
 weight: 1760
 url: /es/net/aspose.words.fields/fielddatabasedatatable/
@@ -20,7 +22,7 @@ public class FieldDatabaseDataTable
 
 | Nombre | Descripción |
 | --- | --- |
-| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | Inicializa una nueva instancia del`FieldDatabaseDataTable` clase. |
+| [FieldDatabaseDataTable](fielddatabasedatatable/)(*params string[]*) | Inicializa una nueva instancia del`FieldDatabaseDataTable` clase. |
 
 ## Propiedades
 
@@ -33,11 +35,9 @@ public class FieldDatabaseDataTable
 
 | Nombre | Descripción |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | Inicializa una nueva instancia del`FieldDatabaseDataTable` class delDataTable instancia. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(*DataTable*) | Inicializa una nueva instancia del`FieldDatabaseDataTable` class delDataTable instancia. |
 
 ### Ver también
 
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

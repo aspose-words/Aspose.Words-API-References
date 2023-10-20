@@ -1,7 +1,9 @@
 ---
-title: Class ThemeColors
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Themes.ThemeColors sınıf. On iki renk içeren belge temasının renk düzenini temsil eder.
+title: ThemeColors Class
+linktitle: ThemeColors
+articleTitle: ThemeColors
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Themes.ThemeColors sınıf. On iki renk içeren belge temasının renk düzenini temsil eder C#'da.
 type: docs
 weight: 6480
 url: /tr/net/aspose.words.themes/themecolors/
@@ -33,7 +35,7 @@ public class ThemeColors
 | [Light1](../../aspose.words.themes/themecolors/light1/) { get; set; } | Açık renk 1. 'yi belirtir |
 | [Light2](../../aspose.words.themes/themecolors/light2/) { get; set; } | Açık renk 2. 'yi belirtir |
 
-### Örnekler
+## Örnekler
 
 Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını gösterir.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * ad alanı [Aspose.Words.Themes](../../aspose.words.themes/)
 * toplantı [Aspose.Words](../../)
-
-

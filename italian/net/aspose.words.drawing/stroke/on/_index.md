@@ -1,9 +1,11 @@
 ---
 title: Stroke.On
-second_title: Aspose.Words per .NET API Reference
-description: Stroke proprietà. Definisce se il percorso verrà tracciato.
+linktitle: On
+articleTitle: On
+second_title: Aspose.Words per .NET
+description: Stroke On proprietà. Definisce se il percorso verrà tracciato in C#.
 type: docs
-weight: 150
+weight: 140
 url: /it/net/aspose.words.drawing/stroke/on/
 ---
 ## Stroke.On property
@@ -14,11 +16,11 @@ Definisce se il percorso verrà tracciato.
 public bool On { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito per a[`Shape`](../../shape/) È`VERO`.
 
-### Esempi
+## Esempi
 
 Mostra come modificare le proprietà del tratto.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ### Guarda anche
 
 * class [Stroke](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../stroke/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

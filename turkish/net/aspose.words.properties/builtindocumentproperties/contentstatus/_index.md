@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.ContentStatus
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Alır veya ayarlarContentStatus belgenin.
+linktitle: ContentStatus
+articleTitle: ContentStatus
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties ContentStatus mülk. Alır veya ayarlarContentStatus belgenin C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.properties/builtindocumentproperties/contentstatus/
@@ -14,7 +16,7 @@ Alır veya ayarlarContentStatus belgenin.
 public string ContentStatus { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 "İçerik" kategorisinde belge özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -124,7 +126,5 @@ private class LineCounter
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,14 +1,16 @@
 ---
 title: CertificateHolder.Certificate
-second_title: Aspose.Words für .NET-API-Referenz
-description: CertificateHolder eigendom. Gibt die Instanz von zurück X509Zertifikat2 das private öffentliche Schlüssel und die Zertifikatskette enthält.
+linktitle: Certificate
+articleTitle: Certificate
+second_title: Aspose.Words für .NET
+description: CertificateHolder Certificate eigendom. Gibt die Instanz von zurückX509Zertifikat2 das private öffentliche Schlüssel und die Zertifikatskette enthält in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
 ## CertificateHolder.Certificate property
 
-Gibt die Instanz von zurück **X509Zertifikat2** das private, öffentliche Schlüssel und die Zertifikatskette enthält.
+Gibt die Instanz von zurück**X509Zertifikat2** das private, öffentliche Schlüssel und die Zertifikatskette enthält.
 
 ```csharp
 public X509Certificate2 Certificate { get; }
@@ -18,7 +20,7 @@ public X509Certificate2 Certificate { get; }
 
 X509Certificate2 Beispiel
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Informationen zu jeder Signatur in einem Dokument validiert und angezeigt werden.
 
@@ -40,7 +42,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Siehe auch
 
 * class [CertificateHolder](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../certificateholder/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

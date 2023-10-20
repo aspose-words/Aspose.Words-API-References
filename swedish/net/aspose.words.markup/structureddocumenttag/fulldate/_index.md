@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.FullDate
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag fast egendom. Anger fullständigt datum och tid som senast angavs i detta SDT .
+linktitle: FullDate
+articleTitle: FullDate
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag FullDate fast egendom. Anger fullständigt datum och tid som senast angavs i dettaSDT  i C#.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.markup/structureddocumenttag/fulldate/
 ---
 ## StructuredDocumentTag.FullDate property
 
-Anger fullständigt datum och tid som senast angavs i detta **SDT** .
+Anger fullständigt datum och tid som senast angavs i detta**SDT** .
 
 ```csharp
 public DateTime FullDate { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Åtkomst till den här egenskapen fungerar bara förDate SDT-typ.
 
 För alla andra SDT-typer kommer undantag att förekomma.
 
-### Exempel
+## Exempel
 
 Visar hur man uppmanar användaren att ange ett datum med en strukturerad dokumenttagg.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 ### Se även
 
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

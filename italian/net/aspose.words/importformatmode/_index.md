@@ -1,7 +1,9 @@
 ---
-title: Enum ImportFormatMode
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.ImportFormatMode enum. Specifica la modalità di unione della formattazione durante limportazione di contenuto da un altro documento.
+title: ImportFormatMode Enum
+linktitle: ImportFormatMode
+articleTitle: ImportFormatMode
+second_title: Aspose.Words per .NET
+description: Aspose.Words.ImportFormatMode enum. Specifica la modalità di unione della formattazione durante limportazione di contenuto da un altro documento in C#.
 type: docs
 weight: 3230
 url: /it/net/aspose.words/importformatmode/
@@ -22,7 +24,7 @@ public enum ImportFormatMode
 | KeepSourceFormatting | `1` | Copia tutti gli stili richiesti nel documento di destinazione, genera nomi di stile univoci se necessario. |
 | KeepDifferentStyles | `2` | Copia solo gli stili diversi da quelli del documento di origine. |
 
-### Osservazioni
+## Osservazioni
 
 Quando copi i nodi da un documento a un altro, questa opzione specifica come viene risolto formatting quando entrambi i documenti hanno uno stile con lo stesso nome, ma formattazione diversa.
 
@@ -42,7 +44,7 @@ Lo svantaggio dell'utilizzoKeepSourceFormattingè che se esegui diverse importaz
 
 UtilizzandoKeepDifferentStyles l'opzione consente di riutilizzare gli stili di destinazione se la formattazione fornita è identica agli stili nel documento di origine. Se lo stile nel documento di destinazione è diverso dall'origine, viene importato.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un documento in un altro documento.
 
@@ -63,5 +65,3 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

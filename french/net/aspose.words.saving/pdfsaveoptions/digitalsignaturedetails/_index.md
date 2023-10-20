@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DigitalSignatureDetails
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfSaveOptions propriété. Obtient ou définit les détails de signature du document PDF de sortie.
+linktitle: DigitalSignatureDetails
+articleTitle: DigitalSignatureDetails
+second_title: Aspose.Words pour .NET
+description: PdfSaveOptions DigitalSignatureDetails propriété. Obtient ou définit les détails de signature du document PDF de sortie en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
@@ -14,11 +16,11 @@ Obtient ou définit les détails de signature du document PDF de sortie.
 public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`nul`et le document de sortie ne sera pas signé. Lorsque cette propriété est définie sur un valide[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails/) object, , le document PDF de sortie sera signé numériquement.
 
-### Exemples
+## Exemples
 
 Montre comment signer un document PDF généré.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * class [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails/)
 * class [PdfSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.ClearFormatting
-second_title: Aspose.Words لمراجع .NET API
-description: Font طريقة. إعادة التعيين إلى تنسيق الخط الافتراضي.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words لـ .NET
+description: Font ClearFormatting طريقة. إعادة التعيين إلى تنسيق الخط الافتراضي في C#.
 type: docs
 weight: 550
 url: /ar/net/aspose.words/font/clearformatting/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/font/clearformatting/
 public void ClearFormatting()
 ```
 
-### ملاحظات
+## ملاحظات
 
 إزالة كافة تنسيقات الخطوط المحددة صراحةً في الكائن الذي منه[`Font`](../) تم الحصول عليه لذا سيتم توريث تنسيق الخط من الأصل المناسب.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل الارتباط التشعبي.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

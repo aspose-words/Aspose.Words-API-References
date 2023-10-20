@@ -1,7 +1,9 @@
 ---
 title: TextPath.RotateLetters
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextPath eigendom. Legt fest ob die Buchstaben des Textes gedreht werden.
+linktitle: RotateLetters
+articleTitle: RotateLetters
+second_title: Aspose.Words für .NET
+description: TextPath RotateLetters eigendom. Legt fest ob die Buchstaben des Textes gedreht werden in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.drawing/textpath/rotateletters/
@@ -14,11 +16,11 @@ Legt fest, ob die Buchstaben des Textes gedreht werden.
 public bool RotateLetters { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit WordArt arbeitet.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Siehe auch
 
 * class [TextPath](../)
-* namensraum [Aspose.Words.Drawing](../../textpath/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

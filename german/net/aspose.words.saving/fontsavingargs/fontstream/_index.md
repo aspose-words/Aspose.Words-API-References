@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontStream
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontSavingArgs eigendom. Ermöglicht die Angabe des Streams in dem die Schriftart gespeichert wird.
+linktitle: FontStream
+articleTitle: FontStream
+second_title: Aspose.Words für .NET
+description: FontSavingArgs FontStream eigendom. Ermöglicht die Angabe des Streams in dem die Schriftart gespeichert wird in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/fontsavingargs/fontstream/
@@ -14,13 +16,13 @@ Ermöglicht die Angabe des Streams, in dem die Schriftart gespeichert wird.
 public Stream FontStream { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Mit dieser Eigenschaft können Sie Schriftarten während des HTML-Exports in Streams statt in Dateien speichern.
 
 Der Standardwert ist`Null` . Wenn diese Eigenschaft ist`Null` , wird die Schriftart in einer im angegebenen Datei gespeichert[`FontFileName`](../fontfilename/) Eigentum.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
 
@@ -80,7 +82,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Siehe auch
 
 * class [FontSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../fontsavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

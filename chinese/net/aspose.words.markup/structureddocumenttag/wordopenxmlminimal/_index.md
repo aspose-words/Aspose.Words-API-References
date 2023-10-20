@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.WordOpenXMLMinimal
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 获取表示节点中包含的 XML 的字符串FlatOpc格式. 与WordOpenXML属性此方法生成一个精简文档排除任何与内容无关的部分
+linktitle: WordOpenXMLMinimal
+articleTitle: WordOpenXMLMinimal
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag WordOpenXMLMinimal 财产. 获取表示节点中包含的 XML 的字符串FlatOpc格式. 与WordOpenXML属性此方法生成一个精简文档排除任何与内容无关的部分 在 C#.
 type: docs
 weight: 310
 url: /zh/net/aspose.words.markup/structureddocumenttag/wordopenxmlminimal/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/structureddocumenttag/wordopenxmlminimal/
 public string WordOpenXMLMinimal { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用内容控制元素的样式。
 
@@ -53,7 +55,5 @@ foreach (Node node in tags)
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

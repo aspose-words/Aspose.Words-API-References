@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartBookmark
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Отмечает текущую позицию в документе как начало закладки.
+linktitle: StartBookmark
+articleTitle: StartBookmark
+second_title: Aspose.Words для .NET
+description: DocumentBuilder StartBookmark метод. Отмечает текущую позицию в документе как начало закладки на С#.
 type: docs
-weight: 620
+weight: 610
 url: /ru/net/aspose.words/documentbuilder/startbookmark/
 ---
 ## DocumentBuilder.StartBookmark method
@@ -22,13 +24,13 @@ public BookmarkStart StartBookmark(string bookmarkName)
 
 Только что созданный начальный узел закладки.
 
-### Примечания
+## Примечания
 
 Закладки в документе могут перекрываться и охватывать любой диапазон. Чтобы создать действительную закладку, вам нужно вызвать оба`StartBookmark` и[`EndBookmark`](../endbookmark/) с тем же самым*bookmarkName* параметр .
 
 Закладки неправильного формата или закладки с повторяющимися именами будут игнорироваться при сохранении документа.
 
-### Примеры
+## Примеры
 
 Показывает, как создать закладку.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

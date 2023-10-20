@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelAlignment
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Hämtar eller ställer in textjustering av axelmarkeringsetiketter.
+linktitle: TickLabelAlignment
+articleTitle: TickLabelAlignment
+second_title: Aspose.Words för .NET
+description: ChartAxis TickLabelAlignment fast egendom. Hämtar eller ställer in textjustering av axelmarkeringsetiketter i C#.
 type: docs
 weight: 220
 url: /sv/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/
@@ -14,7 +16,7 @@ Hämtar eller ställer in textjustering av axelmarkeringsetiketter.
 public ParagraphAlignment TickLabelAlignment { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen har endast effekt för etiketter med flera rader.
 
@@ -22,7 +24,7 @@ Standardvärdet ärCenter.
 
 .
 
-### Exempel
+## Exempel
 
 Visar hur man manipulerar bockmarkeringarna och visade värden för en diagramaxel.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [ParagraphAlignment](../../../aspose.words/paragraphalignment/)
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class EditableRange
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.EditableRange classe. Rappresenta un singolo intervallo modificabile.
+title: EditableRange Class
+linktitle: EditableRange
+articleTitle: EditableRange
+second_title: Aspose.Words per .NET
+description: Aspose.Words.EditableRange classe. Rappresenta un singolo intervallo modificabile in C#.
 type: docs
 weight: 1420
 url: /it/net/aspose.words/editablerange/
@@ -32,11 +34,11 @@ public class EditableRange
 | --- | --- |
 | [Remove](../../aspose.words/editablerange/remove/)() | Rimuove l'intervallo modificabile dal documento. Non rimuove il contenuto all'interno dell'intervallo modificabile. |
 
-### Osservazioni
+## Osservazioni
 
 `EditableRange` è un oggetto "facciata" che incapsula due nodi[`EditableRangeStart`](./editablerangestart/) e[`EditableRangeEnd`](./editablerangeend/) in un albero del documento e consente di lavorare con un intervallo modificabile come un singolo oggetto.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con un intervallo modificabile.
 
@@ -189,5 +191,3 @@ public class EditableRangePrinter : DocumentVisitor
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

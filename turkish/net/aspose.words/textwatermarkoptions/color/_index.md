@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.Color
-second_title: Aspose.Words for .NET API Referansı
-description: TextWatermarkOptions mülk. Yazı tipi rengini alır veya ayarlar. Varsayılan değerSilver .
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words for .NET
+description: TextWatermarkOptions Color mülk. Yazı tipi rengini alır veya ayarlar. Varsayılan değerSilver  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/textwatermarkoptions/color/
@@ -14,7 +16,7 @@ Yazı tipi rengini alır veya ayarlar. Varsayılan değer:Silver .
 public Color Color { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metin filigranının nasıl oluşturulacağını gösterir.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Ayrıca bakınız
 
 * class [TextWatermarkOptions](../)
-* ad alanı [Aspose.Words](../../textwatermarkoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

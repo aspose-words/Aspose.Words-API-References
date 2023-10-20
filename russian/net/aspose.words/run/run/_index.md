@@ -1,12 +1,14 @@
 ---
-title: Run.Run
-second_title: Справочник по API Aspose.Words для .NET
-description: Run строитель. Инициализирует новый экземплярRun класс.
+title: Run
+linktitle: Run
+articleTitle: Run
+second_title: Aspose.Words для .NET
+description: Run строитель. Инициализирует новый экземплярRun класс на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/run/run/
 ---
-## Run(DocumentBase) {#constructor}
+## Run(*[DocumentBase](../../documentbase/)*) {#constructor}
 
 Инициализирует новый экземпляр[`Run`](../) класс.
 
@@ -18,13 +20,13 @@ public Run(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Документ владельца. |
 
-### Примечания
+## Примечания
 
 Когда[`Run`](../) создан, он принадлежит указанному документу, но еще не является частью документа и[`ParentNode`](../../node/parentnode/) является`нулевой`.
 
-Чтобы добавить[`Run`](../) к использованию документаNode) илиNode) в абзаце, в который вы хотите вставить фрагмент.
+Чтобы добавить[`Run`](../) к использованию документа[`InsertAfter`](../../compositenode/insertafter/) или[`InsertBefore`](../../compositenode/insertbefore/) в абзаце, в который вы хотите вставить фрагмент.
 
-### Примеры
+## Примеры
 
 Показывает, как вручную создать документ Aspose.Words.
 
@@ -75,14 +77,14 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Run](../)
-* пространство имен [Aspose.Words](../../run/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Run(DocumentBase, string) {#constructor_1}
+## Run(*[DocumentBase](../../documentbase/), string*) {#constructor_1}
 
-Инициализирует новый экземпляр **Бегать** класс.
+Инициализирует новый экземпляр**Бегать** класс.
 
 ```csharp
 public Run(DocumentBase doc, string text)
@@ -93,13 +95,13 @@ public Run(DocumentBase doc, string text)
 | doc | DocumentBase | Документ владельца. |
 | text | String | Текст пробега. |
 
-### Примечания
+## Примечания
 
 Когда[`Run`](../) создан, он принадлежит указанному документу, но еще не является частью документа и[`ParentNode`](../../node/parentnode/) является`нулевой`.
 
-Чтобы добавить[`Run`](../) к использованию документаNode) илиNode) в абзаце, в который вы хотите вставить фрагмент.
+Чтобы добавить[`Run`](../) к использованию документа[`InsertAfter`](../../compositenode/insertafter/) или[`InsertBefore`](../../compositenode/insertbefore/) в абзаце, в который вы хотите вставить фрагмент.
 
-### Примеры
+## Примеры
 
 Показывает, как форматировать фрагмент текста, используя его свойство шрифта.
 
@@ -120,7 +122,5 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Run](../)
-* пространство имен [Aspose.Words](../../run/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

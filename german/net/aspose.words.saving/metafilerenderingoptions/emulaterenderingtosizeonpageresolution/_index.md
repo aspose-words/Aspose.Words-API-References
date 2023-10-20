@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution
-second_title: Aspose.Words für .NET-API-Referenz
-description: MetafileRenderingOptions eigendom. Ruft die Auflösung in Pixel pro Zoll für die Emulation des MetadateiRenderings auf die Größe auf der Seite ab oder legt diese fest.
+linktitle: EmulateRenderingToSizeOnPageResolution
+articleTitle: EmulateRenderingToSizeOnPageResolution
+second_title: Aspose.Words für .NET
+description: MetafileRenderingOptions EmulateRenderingToSizeOnPageResolution eigendom. Ruft die Auflösung in Pixel pro Zoll für die Emulation des MetadateiRenderings auf die Größe auf der Seite ab oder legt diese fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/
@@ -14,13 +16,13 @@ Ruft die Auflösung in Pixel pro Zoll für die Emulation des Metadatei-Rendering
 public int EmulateRenderingToSizeOnPageResolution { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Option wird nur verwendet, wenn[`EmulateRenderingToSizeOnPage`](../emulaterenderingtosizeonpage/) ist eingestellt auf`WAHR`.
 
 Der Standardwert ist 96. Dies ist eine Standard-Anzeigeauflösung. Das heißt, beim Rendern der Metadatei wird die Anzeige der Metadatei in MS Word mit einem Zoomfaktor von 100 % emuliert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Metadatei entsprechend der Größe auf der Seite angezeigt wird.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EmulateRenderingToSizeOnPage.pdf", saveO
 ### Siehe auch
 
 * class [MetafileRenderingOptions](../)
-* namensraum [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

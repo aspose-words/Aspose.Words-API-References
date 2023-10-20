@@ -1,7 +1,9 @@
 ---
 title: RtfLoadOptions.RecognizeUtf8Text
-second_title: Aspose.Words for .NET API 参考
-description: RtfLoadOptions 财产. 当设置为真的CharsetDetector将尝试检测 UTF8 字符 它们将在导入过程中保留
+linktitle: RecognizeUtf8Text
+articleTitle: RecognizeUtf8Text
+second_title: 用于 .NET 的 Aspose.Words
+description: RtfLoadOptions RecognizeUtf8Text 财产. 当设置为真的CharsetDetector将尝试检测 UTF8 字符 它们将在导入过程中保留 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.loading/rtfloadoptions/recognizeutf8text/
@@ -16,7 +18,7 @@ url: /zh/net/aspose.words.loading/rtfloadoptions/recognizeutf8text/
 public bool RecognizeUtf8Text { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在加载 RTF 文档时检测 UTF-8 字符。
 
@@ -43,7 +45,5 @@ Assert.AreEqual(
 ### 也可以看看
 
 * class [RtfLoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../rtfloadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.ShowPercentage
-second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabel ملكية. يسمح بتحديد ما إذا كان سيتم عرض قيمة النسبة المئوية لتسميات البيانات على المخطط. القيمة الافتراضية هيخطأ شنيع .
+linktitle: ShowPercentage
+articleTitle: ShowPercentage
+second_title: Aspose.Words لـ .NET
+description: ChartDataLabel ShowPercentage ملكية. يسمح بتحديد ما إذا كان سيتم عرض قيمة النسبة المئوية لتسميات البيانات على المخطط. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showpercentage/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showpercentage/
 public bool ShowPercentage { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### أنظر أيضا
 
 * class [ChartDataLabel](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

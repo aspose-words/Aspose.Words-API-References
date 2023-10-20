@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.SetCheckedSymbol
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag metod. Ställer in symbolen som används för att representera det kontrollerade tillståndet för en innehållskontroll i kryssrutan.
+linktitle: SetCheckedSymbol
+articleTitle: SetCheckedSymbol
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag SetCheckedSymbol metod. Ställer in symbolen som används för att representera det kontrollerade tillståndet för en innehållskontroll i kryssrutan i C#.
 type: docs
-weight: 380
+weight: 360
 url: /sv/net/aspose.words.markup/structureddocumenttag/setcheckedsymbol/
 ---
 ## StructuredDocumentTag.SetCheckedSymbol method
@@ -19,13 +21,13 @@ public void SetCheckedSymbol(int characterCode, string fontName)
 | characterCode | Int32 | Teckenkoden för den angivna symbolen. |
 | fontName | String | Namnet på teckensnittet som innehåller symbolen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Att komma åt den här metoden fungerar bara förCheckbox SDT-typer.
 
 För alla andra SDT-typer kommer undantag att förekomma.
 
-### Exempel
+## Exempel
 
 Visa hur man skapar en strukturerad dokumenttagg i form av en kryssruta.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 ### Se även
 
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

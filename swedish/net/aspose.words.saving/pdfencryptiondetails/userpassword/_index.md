@@ -1,7 +1,9 @@
 ---
 title: PdfEncryptionDetails.UserPassword
-second_title: Aspose.Words för .NET API Referens
-description: PdfEncryptionDetails fast egendom. Anger användarlösenordet som krävs för att öppna det krypterade PDFdokumentet.
+linktitle: UserPassword
+articleTitle: UserPassword
+second_title: Aspose.Words för .NET
+description: PdfEncryptionDetails UserPassword fast egendom. Anger användarlösenordet som krävs för att öppna det krypterade PDFdokumentet i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/pdfencryptiondetails/userpassword/
@@ -14,13 +16,13 @@ Anger användarlösenordet som krävs för att öppna det krypterade PDF-dokumen
 public string UserPassword { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Användarlösenordet kommer att krävas för att öppna ett krypterat PDF-dokument för visning. Behörigheterna som anges i [`Permissions`](../permissions/) kommer att upprätthållas av läsarprogramvaran.
 
 Användarlösenordet kan vara`null` eller tom sträng, i det här fallet kommer inget lösenord att krävas av användaren när öppnar PDF-dokumentet. Användarlösenordet kan inte vara detsamma som ägarlösenordet.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in behörigheter för ett sparat PDF-dokument.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 ### Se även
 
 * class [PdfEncryptionDetails](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfencryptiondetails/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

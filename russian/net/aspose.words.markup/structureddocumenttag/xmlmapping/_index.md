@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.XmlMapping
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Получает объект который представляет сопоставление этого тега структурированного документа с XMLданными в пользовательской части XML текущего документа.
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag XmlMapping свойство. Получает объект который представляет сопоставление этого тега структурированного документа с XMLданными в пользовательской части XML текущего документа на С#.
 type: docs
 weight: 320
 url: /ru/net/aspose.words.markup/structureddocumenttag/xmlmapping/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.markup/structureddocumenttag/xmlmapping/
 public XmlMapping XmlMapping { get; }
 ```
 
-### Примечания
+## Примечания
 
 Вы можете использовать[`SetMapping`](../../xmlmapping/setmapping/) метод этого объекта для сопоставления тега структурированного документа с данными XML.
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа с пользовательскими данными XML.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [XmlMapping](../../xmlmapping/)
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

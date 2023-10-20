@@ -1,7 +1,9 @@
 ---
 title: Table.RelativeHorizontalAlignment
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取或设置浮动表相对水平对齐方式
+linktitle: RelativeHorizontalAlignment
+articleTitle: RelativeHorizontalAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: Table RelativeHorizontalAlignment 财产. 获取或设置浮动表相对水平对齐方式 在 C#.
 type: docs
 weight: 230
 url: /zh/net/aspose.words.tables/table/relativehorizontalalignment/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/table/relativehorizontalalignment/
 public HorizontalAlignment RelativeHorizontalAlignment { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何设置浮动表的位置。
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 
 * enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

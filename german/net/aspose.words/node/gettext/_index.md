@@ -1,7 +1,9 @@
 ---
 title: Node.GetText
-second_title: Aspose.Words für .NET-API-Referenz
-description: Node methode. Ruft den Text dieses Knotens und aller seiner untergeordneten Knoten ab.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words für .NET
+description: Node GetText methode. Ruft den Text dieses Knotens und aller seiner untergeordneten Knoten ab in C#.
 type: docs
 weight: 120
 url: /de/net/aspose.words/node/gettext/
@@ -14,11 +16,11 @@ Ruft den Text dieses Knotens und aller seiner untergeordneten Knoten ab.
 public virtual string GetText()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die zurückgegebene Zeichenfolge enthält alle Steuer- und Sonderzeichen, wie in beschrieben[`ControlChar`](../../controlchar/).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Steuerzeichen verwendet werden.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Siehe auch
 
 * class [Node](../)
-* namensraum [Aspose.Words](../../node/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

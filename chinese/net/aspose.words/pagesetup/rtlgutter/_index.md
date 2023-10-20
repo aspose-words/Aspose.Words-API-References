@@ -1,7 +1,9 @@
 ---
 title: PageSetup.RtlGutter
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 获取或设置 Microsoft Word 是否使用基于从右到左语言或从左到右语言的节装订线
+linktitle: RtlGutter
+articleTitle: RtlGutter
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup RtlGutter 财产. 获取或设置 Microsoft Word 是否使用基于从右到左语言或从左到右语言的节装订线 在 C#.
 type: docs
 weight: 380
 url: /zh/net/aspose.words/pagesetup/rtlgutter/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/rtlgutter/
 public bool RtlGutter { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何设置装订线边距。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

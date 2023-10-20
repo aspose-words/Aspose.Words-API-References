@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.StartMustacheTag
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeRegionInfo mülk. Bölge için bir başlangıç bıyık etiketi döndürür.
+linktitle: StartMustacheTag
+articleTitle: StartMustacheTag
+second_title: Aspose.Words for .NET
+description: MailMergeRegionInfo StartMustacheTag mülk. Bölge için bir başlangıç bıyık etiketi döndürür C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/
@@ -14,7 +16,7 @@ Bölge için bir başlangıç "bıyık" etiketi döndürür.
 public MustacheTag StartMustacheTag { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bıyık etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [MustacheTag](../../mustachetag/)
 * class [MailMergeRegionInfo](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Fill.OneColorGradient
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill méthode. Définit le remplissage spécifié sur un dégradé dune seule couleur.
+linktitle: OneColorGradient
+articleTitle: OneColorGradient
+second_title: Aspose.Words pour .NET
+description: Fill OneColorGradient méthode. Définit le remplissage spécifié sur un dégradé dune seule couleur en C#.
 type: docs
-weight: 220
+weight: 210
 url: /fr/net/aspose.words.drawing/fill/onecolorgradient/
 ---
-## OneColorGradient(GradientStyle, GradientVariant, double) {#onecolorgradient}
+## OneColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient}
 
 Définit le remplissage spécifié sur un dégradé d'une seule couleur.
 
@@ -20,7 +22,7 @@ public void OneColorGradient(GradientStyle style, GradientVariant variant, doubl
 | variant | GradientVariant | La variante dégradée[`GradientVariant`](../../gradientvariant/) |
 | degree | Double | Le degré de gradient. Peut être une valeur comprise entre 0,0 (sombre) et 1,0 (clair). |
 
-### Exemples
+## Exemples
 
 Montre comment remplir une forme avec des dégradés.
 
@@ -63,12 +65,12 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## OneColorGradient(Color, GradientStyle, GradientVariant, double) {#onecolorgradient_1}
+## OneColorGradient(*Color, [GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient_1}
 
 Définit le remplissage spécifié sur un dégradé d'une seule couleur en utilisant la couleur spécifiée.
 
@@ -84,7 +86,7 @@ public void OneColorGradient(Color color, GradientStyle style, GradientVariant v
 | variant | GradientVariant | La variante dégradée[`GradientVariant`](../../gradientvariant/) |
 | degree | Double | Le degré de gradient. Peut être une valeur comprise entre 0,0 (sombre) et 1,0 (clair). |
 
-### Exemples
+## Exemples
 
 Montre comment remplir une forme avec des dégradés.
 
@@ -127,7 +129,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

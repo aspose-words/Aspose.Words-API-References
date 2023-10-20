@@ -1,7 +1,9 @@
 ---
-title: Enum FlipOrientation
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.FlipOrientation 枚举. 形状方向的可能值
+title: FlipOrientation Enum
+linktitle: FlipOrientation
+articleTitle: FlipOrientation
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.FlipOrientation 枚举. 形状方向的可能值 在 C#.
 type: docs
 weight: 970
 url: /zh/net/aspose.words.drawing/fliporientation/
@@ -24,7 +26,7 @@ public enum FlipOrientation
 | Vertical | `2` | 沿 x 轴翻转，反转 y 坐标。 |
 | Both | `3` | 沿 y 轴和 x 轴翻转。 |
 
-### 例子
+## 例子
 
 展示如何在轴上翻转形状。
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");
 * property [FlipOrientation](../shapebase/fliporientation/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.Lists
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBase 财产. 提供对文档中使用的列表格式的访问
+linktitle: Lists
+articleTitle: Lists
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBase Lists 财产. 提供对文档中使用的列表格式的访问 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/documentbase/lists/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/documentbase/lists/
 public ListCollection Lists { get; }
 ```
 
-### 评论
+## 评论
 
 欲了解更多信息，请参阅描述[`ListCollection`](../../../aspose.words.lists/listcollection/)班级。
 
-### 例子
+## 例子
 
 展示如何使用列表级别。
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * class [ListCollection](../../../aspose.words.lists/listcollection/)
 * class [DocumentBase](../)
-* 命名空间 [Aspose.Words](../../documentbase/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

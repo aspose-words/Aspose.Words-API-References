@@ -1,7 +1,9 @@
 ---
 title: Font.Name
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in namnet på teckensnittet.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words för .NET
+description: Font Name fast egendom. Hämtar eller ställer in namnet på teckensnittet i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words/font/name/
@@ -14,13 +16,13 @@ Hämtar eller ställer in namnet på teckensnittet.
 public string Name { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 När man får, återkommer[`NameAscii`](../nameascii/).
 
 Vid inställning, ställer in[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) och[`NameOther`](../nameother/) till det angivna värdet.
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar en serie text med dess teckensnittsegenskap.
 
@@ -57,7 +59,5 @@ builder.Write("Hello world!");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

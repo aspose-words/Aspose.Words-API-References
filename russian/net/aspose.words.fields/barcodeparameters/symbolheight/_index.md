@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.SymbolHeight
-second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Высота изображения штрихкода в твипах  1/1440 дюйма
+linktitle: SymbolHeight
+articleTitle: SymbolHeight
+second_title: Aspose.Words для .NET
+description: BarcodeParameters SymbolHeight свойство. Высота изображения штрихкода в твипах  1/1440 дюйма на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.fields/barcodeparameters/symbolheight/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/barcodeparameters/symbolheight/
 public string SymbolHeight { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать генератор штрих-кода.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Смотрите также
 
 * class [BarcodeParameters](../)
-* пространство имен [Aspose.Words.Fields](../../barcodeparameters/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

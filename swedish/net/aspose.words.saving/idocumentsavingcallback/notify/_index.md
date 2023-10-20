@@ -1,7 +1,9 @@
 ---
 title: IDocumentSavingCallback.Notify
-second_title: Aspose.Words för .NET API Referens
-description: IDocumentSavingCallback metod. Detta anropas för att meddela om hur dokumentet sparas.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words för .NET
+description: IDocumentSavingCallback Notify metod. Detta anropas för att meddela om hur dokumentet sparas i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/idocumentsavingcallback/notify/
@@ -18,13 +20,13 @@ public void Notify(DocumentSavingArgs args)
 | --- | --- | --- |
 | args | DocumentSavingArgs | Ett argument för händelsen. |
 
-### Anmärkningar
+## Anmärkningar
 
 De primära användningsområdena för detta gränssnitt är att tillåta applikationskod att erhålla förloppsstatus och avbryta sparprocessen.
 
 Ett undantag bör kastas från förloppsåteruppringningen för abort och det bör fångas i konsumentkoden.
 
-### Exempel
+## Exempel
 
 Visar hur man hanterar ett dokument samtidigt som man sparar till html.
 
@@ -195,7 +197,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * class [DocumentSavingArgs](../../documentsavingargs/)
 * interface [IDocumentSavingCallback](../)
-* namnutrymme [Aspose.Words.Saving](../../idocumentsavingcallback/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

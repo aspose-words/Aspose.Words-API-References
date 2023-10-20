@@ -1,7 +1,9 @@
 ---
-title: Class SaveOutputParameters
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.SaveOutputParameters clase. Este objeto se devuelve a la persona que llama después de guardar un documento y contiene información adicional que se generó o calculó durante la operación de guardar. La persona que llama puede usar o ignorar este objeto.
+title: SaveOutputParameters Class
+linktitle: SaveOutputParameters
+articleTitle: SaveOutputParameters
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.SaveOutputParameters clase. Este objeto se devuelve a la persona que llama después de guardar un documento y contiene información adicional que se generó o calculó durante la operación de guardar. La persona que llama puede usar o ignorar este objeto en C#.
 type: docs
 weight: 5590
 url: /es/net/aspose.words.saving/saveoutputparameters/
@@ -22,7 +24,7 @@ public class SaveOutputParameters
 | --- | --- |
 | [ContentType](../../aspose.words.saving/saveoutputparameters/contenttype/) { get; } | Devuelve la cadena de tipo de contenido (tipo de medio de Internet) que identifica el tipo del documento guardado. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a los parámetros de salida de la operación de guardar de un documento.
 
@@ -46,5 +48,3 @@ Assert.AreEqual("application/pdf", parameters.ContentType);
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

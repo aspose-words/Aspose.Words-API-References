@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartEditableRange
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Düzenlenebilir aralık başlangıcı olarak belgedeki geçerli konumu işaretler.
+linktitle: StartEditableRange
+articleTitle: StartEditableRange
+second_title: Aspose.Words for .NET
+description: DocumentBuilder StartEditableRange yöntem. Düzenlenebilir aralık başlangıcı olarak belgedeki geçerli konumu işaretler C#'da.
 type: docs
-weight: 640
+weight: 630
 url: /tr/net/aspose.words/documentbuilder/starteditablerange/
 ---
 ## DocumentBuilder.StartEditableRange method
@@ -18,13 +20,13 @@ public EditableRangeStart StartEditableRange()
 
 Yeni oluşturulan düzenlenebilir aralık başlangıç düğümü.
 
-### Notlar
+## Notlar
 
 Bir belgedeki düzenlenebilir aralık herhangi bir aralıkla örtüşebilir ve kapsanabilir. Geçerli bir düzenlenebilir aralık oluşturmak için her ikisini de çağırmanız gerekir`StartEditableRange` Ve[`EndEditableRange`](../endeditablerange/) veya[`EndEditableRange`](../endeditablerange/) yöntemler.
 
 Belge kaydedildiğinde, kötü biçimlendirilmiş düzenlenebilir aralık göz ardı edilecektir.
 
-### Örnekler
+## Örnekler
 
 İç içe düzenlenebilir aralıkların nasıl oluşturulacağını gösterir.
 
@@ -107,7 +109,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

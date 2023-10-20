@@ -1,7 +1,9 @@
 ---
 title: ListLabel.LabelString
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLabel eigendom. Ruft eine Zeichenfolgendarstellung der Listenbezeichnung ab.
+linktitle: LabelString
+articleTitle: LabelString
+second_title: Aspose.Words für .NET
+description: ListLabel LabelString eigendom. Ruft eine Zeichenfolgendarstellung der Listenbezeichnung ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.lists/listlabel/labelstring/
@@ -14,7 +16,7 @@ Ruft eine Zeichenfolgendarstellung der Listenbezeichnung ab.
 public string LabelString { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Listenbeschriftungen aller Absätze extrahiert werden, die Listenelemente sind.
 
@@ -49,7 +51,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### Siehe auch
 
 * class [ListLabel](../)
-* namensraum [Aspose.Words.Lists](../../listlabel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: CustomPart.CustomPart
-second_title: Aspose.Words för .NET API Referens
-description: CustomPart byggare. Default_Constructor
+title: CustomPart
+linktitle: CustomPart
+articleTitle: CustomPart
+second_title: Aspose.Words för .NET
+description: CustomPart byggare. Default_Constructor i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/custompart/custompart/
@@ -17,7 +19,5 @@ public CustomPart()
 ### Se även
 
 * class [CustomPart](../)
-* namnutrymme [Aspose.Words.Markup](../../custompart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

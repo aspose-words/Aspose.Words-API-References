@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.UnusedStyles
-second_title: Aspose.Words لمراجع .NET API
-description: CleanupOptions ملكية. يحدد ما إذا كان يجب إزالة الأنماط غير المستخدمة من المستند. القيمة الافتراضية هيحقيقي .
+linktitle: UnusedStyles
+articleTitle: UnusedStyles
+second_title: Aspose.Words لـ .NET
+description: CleanupOptions UnusedStyles ملكية. يحدد ما إذا كان يجب إزالة الأنماط غير المستخدمة من المستند. القيمة الافتراضية هيحقيقي  في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/cleanupoptions/unusedstyles/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/cleanupoptions/unusedstyles/
 public bool UnusedStyles { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة جميع الأنماط المخصصة غير المستخدمة من المستند.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 ### أنظر أيضا
 
 * class [CleanupOptions](../)
-* مساحة الاسم [Aspose.Words](../../cleanupoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

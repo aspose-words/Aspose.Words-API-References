@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ColumnBreak
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. حرف نهاية العمود x000e.
+linktitle: ColumnBreak
+articleTitle: ColumnBreak
+second_title: Aspose.Words لـ .NET
+description: ControlChar ColumnBreak مجال. حرف نهاية العمود x000e في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/controlchar/columnbreak/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/controlchar/columnbreak/
 public static readonly string ColumnBreak;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة أحرف تحكم مختلفة إلى مستند.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateCreatedTimeProperty
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Получает или задает значение определяющее будет лиCreatedTime свойство обновляется перед сохранением. Значение по умолчаниюЛОЖЬ 
+linktitle: UpdateCreatedTimeProperty
+articleTitle: UpdateCreatedTimeProperty
+second_title: Aspose.Words для .NET
+description: SaveOptions UpdateCreatedTimeProperty свойство. Получает или задает значение определяющее будет лиCreatedTime свойство обновляется перед сохранением. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.saving/saveoptions/updatecreatedtimeproperty/
@@ -17,7 +19,5 @@ public bool UpdateCreatedTimeProperty { get; set; }
 ### Смотрите также
 
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

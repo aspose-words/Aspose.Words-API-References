@@ -1,7 +1,9 @@
 ---
-title: AxisBound.AxisBound
-second_title: Aspose.Words for .NET API Referansı
-description: AxisBound inşaatçı. Eksen sınırının bir kelime işlemci uygulaması tarafından otomatik olarak belirlenmesi gerektiğini belirten yeni bir örnek oluşturur.
+title: AxisBound
+linktitle: AxisBound
+articleTitle: AxisBound
+second_title: Aspose.Words for .NET
+description: AxisBound inşaatçı. Eksen sınırının bir kelime işlemci uygulaması tarafından otomatik olarak belirlenmesi gerektiğini belirten yeni bir örnek oluşturur C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/axisbound/axisbound/
@@ -14,7 +16,7 @@ Eksen sınırının bir kelime işlemci uygulaması tarafından otomatik olarak 
 public AxisBound()
 ```
 
-### Örnekler
+## Örnekler
 
 Özel eksen sınırlarının nasıl ayarlanacağını gösterir.
 
@@ -74,12 +76,12 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Ayrıca bakınız
 
 * class [AxisBound](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../axisbound/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## AxisBound(double) {#constructor_1}
+## AxisBound(*double*) {#constructor_1}
 
 Sayı olarak temsil edilen bir eksen sınırı oluşturur.
 
@@ -87,7 +89,7 @@ Sayı olarak temsil edilen bir eksen sınırı oluşturur.
 public AxisBound(double value)
 ```
 
-### Örnekler
+## Örnekler
 
 Tarih/saat değerleriyle grafiğin nasıl ekleneceğini gösterir.
 
@@ -141,12 +143,12 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Ayrıca bakınız
 
 * class [AxisBound](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../axisbound/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## AxisBound(DateTime) {#constructor_2}
+## AxisBound(*DateTime*) {#constructor_2}
 
 Datetime değeri olarak temsil edilen bir eksen sınırı oluşturur.
 
@@ -154,7 +156,7 @@ Datetime değeri olarak temsil edilen bir eksen sınırı oluşturur.
 public AxisBound(DateTime datetime)
 ```
 
-### Örnekler
+## Örnekler
 
 Tarih/saat değerleriyle grafiğin nasıl ekleneceğini gösterir.
 
@@ -208,7 +210,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Ayrıca bakınız
 
 * class [AxisBound](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../axisbound/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

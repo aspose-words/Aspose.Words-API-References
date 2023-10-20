@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.FontName
-second_title: Aspose.Words per .NET API Reference
-description: FieldSymbol proprietà. Ottiene o imposta il nome del carattere del carattere recuperato dal campo.
+linktitle: FontName
+articleTitle: FontName
+second_title: Aspose.Words per .NET
+description: FieldSymbol FontName proprietà. Ottiene o imposta il nome del carattere del carattere recuperato dal campo in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldsymbol/fontname/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del carattere del carattere recuperato dal campo.
 public string FontName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare il campo SIMBOLO.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Guarda anche
 
 * class [FieldSymbol](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldsymbol/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

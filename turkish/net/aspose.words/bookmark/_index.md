@@ -1,7 +1,9 @@
 ---
-title: Class Bookmark
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Bookmark sınıf. Tek bir yer imini temsil eder.
+title: Bookmark Class
+linktitle: Bookmark
+articleTitle: Bookmark
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Bookmark sınıf. Tek bir yer imini temsil eder C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/bookmark/
@@ -34,11 +36,11 @@ public class Bookmark
 | --- | --- |
 | [Remove](../../aspose.words/bookmark/remove/)() | Yer imini belgeden kaldırır. Yer işaretinin içindeki metni kaldırmaz. |
 
-### Notlar
+## Notlar
 
 `Bookmark` iki düğümü kapsayan bir "cephe" nesnesidir[`BookmarkStart`](./bookmarkstart/) ve[`BookmarkEnd`](./bookmarkend/) bir belge ağacında bulunur ve bir yer imiyle tek bir nesne olarak çalışılmasına olanak tanır.
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
@@ -128,5 +130,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

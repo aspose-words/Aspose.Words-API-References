@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.SearchFromBottom
-second_title: Aspose.Words for .NET API Referansı
-description: FieldStyleRef mülk. Geçerli sayfanın üst kısmından mı yoksa altından mı arama yapılacağını alır veya ayarlar.
+linktitle: SearchFromBottom
+articleTitle: SearchFromBottom
+second_title: Aspose.Words for .NET
+description: FieldStyleRef SearchFromBottom mülk. Geçerli sayfanın üst kısmından mı yoksa altından mı arama yapılacağını alır veya ayarlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/fieldstyleref/searchfrombottom/
@@ -14,7 +16,7 @@ Geçerli sayfanın üst kısmından mı yoksa altından mı arama yapılacağın
 public bool SearchFromBottom { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 STYLEREF alanlarının nasıl kullanılacağını gösterir.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Ayrıca bakınız
 
 * class [FieldStyleRef](../)
-* ad alanı [Aspose.Words.Fields](../../fieldstyleref/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

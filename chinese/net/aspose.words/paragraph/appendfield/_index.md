@@ -1,12 +1,14 @@
 ---
 title: Paragraph.AppendField
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 方法. 将字段附加到此段落
+linktitle: AppendField
+articleTitle: AppendField
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph AppendField 方法. 将字段附加到此段落 在 C#.
 type: docs
-weight: 260
+weight: 240
 url: /zh/net/aspose.words/paragraph/appendfield/
 ---
-## AppendField(FieldType, bool) {#appendfield}
+## AppendField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#appendfield}
 
 将字段附加到此段落。
 
@@ -23,7 +25,7 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 A[`Field`](../../../aspose.words.fields/field/)表示附加字段的对象。
 
-### 例子
+## 例子
 
 显示将字段附加到段落的各种方法。
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## AppendField(string) {#appendfield_1}
+## AppendField(*string*) {#appendfield_1}
 
 将字段附加到此段落。
 
@@ -77,7 +79,7 @@ public Field AppendField(string fieldCode)
 
 A[`Field`](../../../aspose.words.fields/field/)表示附加字段的对象。
 
-### 例子
+## 例子
 
 显示将字段附加到段落的各种方法。
 
@@ -109,12 +111,12 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## AppendField(string, string) {#appendfield_2}
+## AppendField(*string, string*) {#appendfield_2}
 
 将字段附加到此段落。
 
@@ -131,7 +133,7 @@ public Field AppendField(string fieldCode, string fieldValue)
 
 A[`Field`](../../../aspose.words.fields/field/)表示附加字段的对象。
 
-### 例子
+## 例子
 
 显示将字段附加到段落的各种方法。
 
@@ -163,7 +165,5 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

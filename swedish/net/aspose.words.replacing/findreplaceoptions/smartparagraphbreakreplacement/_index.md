@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.SmartParagraphBreakReplacement
-second_title: Aspose.Words för .NET API Referens
-description: FindReplaceOptions fast egendom. Hämtar eller ställer in ett booleskt värde som anger att det är tillåtet att ersätta stycke break när det inte finns något nästa syskonstycke.
+linktitle: SmartParagraphBreakReplacement
+articleTitle: SmartParagraphBreakReplacement
+second_title: Aspose.Words för .NET
+description: FindReplaceOptions SmartParagraphBreakReplacement fast egendom. Hämtar eller ställer in ett booleskt värde som anger att det är tillåtet att ersätta stycke break när det inte finns något nästa syskonstycke i C#.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
@@ -16,11 +18,11 @@ Standardvärdet är`falsk`.
 public bool SmartParagraphBreakReplacement { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Det här alternativet gör det möjligt att ersätta styckebrytning när det inte finns något nästa syskonstycke dit alla child -noder kan flyttas, genom att hitta valfritt (inte nödvändigtvis syskon) nästa stycke efter stycket som ersätts.
 
-### Exempel
+## Exempel
 
 Visar hur man tar bort stycke från en tabellcell med en kapslad tabell.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.RemoveParagraphTextAndMark.docx");
 ### Se även
 
 * class [FindReplaceOptions](../)
-* namnutrymme [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TableStyle.CellSpacing
-second_title: Aspose.Words für .NET-API-Referenz
-description: TableStyle eigendom. Ruft den Abstand in Punkten zwischen den Zellen ab oder legt diesen fest.
+linktitle: CellSpacing
+articleTitle: CellSpacing
+second_title: Aspose.Words für .NET
+description: TableStyle CellSpacing eigendom. Ruft den Abstand in Punkten zwischen den Zellen ab oder legt diesen fest in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/tablestyle/cellspacing/
@@ -14,7 +16,7 @@ Ruft den Abstand (in Punkten) zwischen den Zellen ab oder legt diesen fest.
 public double CellSpacing { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie benutzerdefinierte Stileinstellungen für die Tabelle erstellen.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ### Siehe auch
 
 * class [TableStyle](../)
-* namensraum [Aspose.Words](../../tablestyle/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Fill.ImageBytes
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill propriété. Obtient les octets bruts de la texture ou du motif de remplissage.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words pour .NET
+description: Fill ImageBytes propriété. Obtient les octets bruts de la texture ou du motif de remplissage en C#.
 type: docs
-weight: 140
+weight: 130
 url: /fr/net/aspose.words.drawing/fill/imagebytes/
 ---
 ## Fill.ImageBytes property
@@ -14,11 +16,11 @@ Obtient les octets bruts de la texture ou du motif de remplissage.
 public byte[] ImageBytes { get; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`nul`.
 
-### Exemples
+## Exemples
 
 Montre pour créer une variété de formes.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### Voir également
 
 * class [Fill](../)
-* espace de noms [Aspose.Words.Drawing](../../fill/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

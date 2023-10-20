@@ -1,7 +1,9 @@
 ---
 title: VbaReference.Type
-second_title: Aspose.Words لمراجع .NET API
-description: VbaReference ملكية. يحصلVbaReferenceType كائن يشير إلى نوع المرجع الذي أVbaReference يمثل الكائن.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: VbaReference Type ملكية. يحصلVbaReferenceType كائن يشير إلى نوع المرجع الذي أVbaReference يمثل الكائن في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.vba/vbareference/type/
@@ -18,7 +20,5 @@ public abstract VbaReferenceType Type { get; }
 
 * enum [VbaReferenceType](../../vbareferencetype/)
 * class [VbaReference](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbareference/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
-
-

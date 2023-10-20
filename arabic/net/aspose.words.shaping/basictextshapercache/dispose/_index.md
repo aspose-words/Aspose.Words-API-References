@@ -1,7 +1,9 @@
 ---
 title: BasicTextShaperCache.Dispose
-second_title: Aspose.Words لمراجع .NET API
-description: BasicTextShaperCache طريقة. يتخلص من ذاكرة التخزين المؤقتITextShaper الحالات.
+linktitle: Dispose
+articleTitle: Dispose
+second_title: Aspose.Words لـ .NET
+description: BasicTextShaperCache Dispose طريقة. يتخلص من ذاكرة التخزين المؤقتITextShaper الحالات في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.shaping/basictextshapercache/dispose/
@@ -17,7 +19,5 @@ public void Dispose()
 ### أنظر أيضا
 
 * class [BasicTextShaperCache](../)
-* مساحة الاسم [Aspose.Words.Shaping](../../basictextshapercache/)
+* مساحة الاسم [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * المجسم [Aspose.Words](../../../)
-
-

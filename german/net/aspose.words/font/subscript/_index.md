@@ -1,7 +1,9 @@
 ---
 title: Font.Subscript
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. True wenn die Schriftart tiefgestellt formatiert ist.
+linktitle: Subscript
+articleTitle: Subscript
+second_title: Aspose.Words für .NET
+description: Font Subscript eigendom. True wenn die Schriftart tiefgestellt formatiert ist in C#.
 type: docs
 weight: 430
 url: /de/net/aspose.words/font/subscript/
@@ -14,7 +16,7 @@ True, wenn die Schriftart tiefgestellt formatiert ist.
 public bool Subscript { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text formatiert wird, um seine Position zu versetzen.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.PositionSubscript.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

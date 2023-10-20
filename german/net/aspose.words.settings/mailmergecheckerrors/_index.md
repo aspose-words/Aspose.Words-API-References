@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCheckErrors
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Settings.MailMergeCheckErrors opsomming. Gibt an wie Microsoft Word beim Seriendruck erkannte Fehler meldet.
+title: MailMergeCheckErrors Enum
+linktitle: MailMergeCheckErrors
+articleTitle: MailMergeCheckErrors
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Settings.MailMergeCheckErrors opsomming. Gibt an wie Microsoft Word beim Seriendruck erkannte Fehler meldet in C#.
 type: docs
 weight: 5810
 url: /de/net/aspose.words.settings/mailmergecheckerrors/
@@ -23,7 +25,7 @@ public enum MailMergeCheckErrors
 | CollectErrors | `3` | Schließen Sie die Zusammenführung ab und melden Sie Fehler in einem neuen Dokument. |
 | Default | `2` | Entspricht demPauseOnError value. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -77,5 +79,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [CheckErrors](../mailmergesettings/checkerrors/)
 * namensraum [Aspose.Words.Settings](../../aspose.words.settings/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.PlaceholderName
-second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Ruft den Namen ab oder legt ihn festBuildingBlock enthält Platzhaltertext.
+linktitle: PlaceholderName
+articleTitle: PlaceholderName
+second_title: Aspose.Words für .NET
+description: StructuredDocumentTag PlaceholderName eigendom. Ruft den Namen ab oder legt ihn festBuildingBlock enthält Platzhaltertext in C#.
 type: docs
 weight: 240
 url: /de/net/aspose.words.markup/structureddocumenttag/placeholdername/
@@ -16,7 +18,7 @@ Ruft den Namen ab oder legt ihn fest[`BuildingBlock`](../../../aspose.words.buil
 public string PlaceholderName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt eines Bausteins als benutzerdefinierter Platzhaltertext für ein strukturiertes Dokument-Tag verwendet wird.
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### Siehe auch
 
 * class [StructuredDocumentTag](../)
-* namensraum [Aspose.Words.Markup](../../structureddocumenttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

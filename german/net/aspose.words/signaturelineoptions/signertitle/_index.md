@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.SignerTitle
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignatureLineOptions eigendom. Ruft den vorgeschlagenen Titel des Unterzeichners ab oder legt ihn fest. Der Standardwert für diese Eigenschaft ist leerer String Empty.
+linktitle: SignerTitle
+articleTitle: SignerTitle
+second_title: Aspose.Words für .NET
+description: SignatureLineOptions SignerTitle eigendom. Ruft den vorgeschlagenen Titel des Unterzeichners ab oder legt ihn fest. Der Standardwert für diese Eigenschaft istleerer String Empty in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/signaturelineoptions/signertitle/
 ---
 ## SignatureLineOptions.SignerTitle property
 
-Ruft den vorgeschlagenen Titel des Unterzeichners ab oder legt ihn fest. Der Standardwert für diese Eigenschaft ist **leerer String** (Empty).
+Ruft den vorgeschlagenen Titel des Unterzeichners ab oder legt ihn fest. Der Standardwert für diese Eigenschaft ist**leerer String** (Empty).
 
 ```csharp
 public string SignerTitle { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Signaturzeile hinzufügt und es dann mit einem digitalen Zertifikat signiert.
 
@@ -130,7 +132,5 @@ Zeigt, wie man einem Dokument eine Signaturzeile hinzufügt und es dann mit eine
 ### Siehe auch
 
 * class [SignatureLineOptions](../)
-* namensraum [Aspose.Words](../../signaturelineoptions/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

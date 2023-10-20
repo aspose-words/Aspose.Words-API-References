@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.RemoveAllSignatures
-second_title: Aspose.Words for .NET API 参考
-description: DigitalSignatureUtil 方法. 从源文件中删除所有数字签名并将未签名的文件写入目标文件
+linktitle: RemoveAllSignatures
+articleTitle: RemoveAllSignatures
+second_title: 用于 .NET 的 Aspose.Words
+description: DigitalSignatureUtil RemoveAllSignatures 方法. 从源文件中删除所有数字签名并将未签名的文件写入目标文件 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/
 ---
-## RemoveAllSignatures(string, string) {#removeallsignatures_1}
+## RemoveAllSignatures(*string, string*) {#removeallsignatures_1}
 
 从源文件中删除所有数字签名并将未签名的文件写入目标文件。
 
@@ -16,7 +18,7 @@ url: /zh/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignat
 public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 ```
 
-### 例子
+## 例子
 
 演示如何从数字签名文档中删除数字签名。
 
@@ -44,12 +46,12 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 ### 也可以看看
 
 * class [DigitalSignatureUtil](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## RemoveAllSignatures(Stream, Stream) {#removeallsignatures}
+## RemoveAllSignatures(*Stream, Stream*) {#removeallsignatures}
 
 从源流中的文档中删除所有数字签名，并将未签名的文档写入目标流。
 
@@ -61,7 +63,7 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
 ```
 
-### 例子
+## 例子
 
 演示如何从数字签名文档中删除数字签名。
 
@@ -89,7 +91,5 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 ### 也可以看看
 
 * class [DigitalSignatureUtil](../)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * 部件 [Aspose.Words](../../../)
-
-

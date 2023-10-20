@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.ForgetLastTabAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Игнорировать ширину последней позиции табуляции при выравнивании абзаца если он не выровнен по левому краю.
+linktitle: ForgetLastTabAlignment
+articleTitle: ForgetLastTabAlignment
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions ForgetLastTabAlignment свойство. Игнорировать ширину последней позиции табуляции при выравнивании абзаца если он не выровнен по левому краю на С#.
 type: docs
 weight: 270
 url: /ru/net/aspose.words.settings/compatibilityoptions/forgetlasttabalignment/
@@ -17,7 +19,5 @@ public bool ForgetLastTabAlignment { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.OptionalHyphenChar
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Valfritt bindestreck i Microsoft Word är char31.
+linktitle: OptionalHyphenChar
+articleTitle: OptionalHyphenChar
+second_title: Aspose.Words för .NET
+description: ControlChar OptionalHyphenChar fält. Valfritt bindestreck i Microsoft Word är char31 i C#.
 type: docs
 weight: 190
 url: /sv/net/aspose.words/controlchar/optionalhyphenchar/
@@ -14,11 +16,11 @@ Valfritt bindestreck i Microsoft Word är (char)31.
 public const char OptionalHyphenChar;
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Valfritt bindestreck i Microsoft Word motsvarar inte Unicode-tecknet U+00AD mjukt bindestreck. Istället infogar det intern information som talar om för Word om en möjlig avstavningspunkt.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -90,7 +92,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

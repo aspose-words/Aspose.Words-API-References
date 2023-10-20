@@ -1,7 +1,9 @@
 ---
-title: Class SaveOutputParameters
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.SaveOutputParameters classe. Cet objet est renvoyé à lappelant après lenregistrement dun document et contient des informations supplémentaires indiquant que a été générée ou calculée lors de lopération de sauvegarde. Lappelant peut utiliser ou ignorer cet objet.
+title: SaveOutputParameters Class
+linktitle: SaveOutputParameters
+articleTitle: SaveOutputParameters
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.SaveOutputParameters classe. Cet objet est renvoyé à lappelant après lenregistrement dun document et contient des informations supplémentaires indiquant que a été générée ou calculée lors de lopération de sauvegarde. Lappelant peut utiliser ou ignorer cet objet en C#.
 type: docs
 weight: 5590
 url: /fr/net/aspose.words.saving/saveoutputparameters/
@@ -22,7 +24,7 @@ public class SaveOutputParameters
 | --- | --- |
 | [ContentType](../../aspose.words.saving/saveoutputparameters/contenttype/) { get; } | Renvoie la chaîne Content-Type (Internet Media Type) qui identifie le type du document enregistré. |
 
-### Exemples
+## Exemples
 
 Montre comment accéder aux paramètres de sortie de l’opération d’enregistrement d’un document.
 
@@ -46,5 +48,3 @@ Assert.AreEqual("application/pdf", parameters.ContentType);
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

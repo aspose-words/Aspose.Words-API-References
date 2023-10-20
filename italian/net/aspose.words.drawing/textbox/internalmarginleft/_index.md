@@ -1,7 +1,9 @@
 ---
 title: TextBox.InternalMarginLeft
-second_title: Aspose.Words per .NET API Reference
-description: TextBox proprietà. Specifica il margine interno sinistro in punti per una forma.
+linktitle: InternalMarginLeft
+articleTitle: InternalMarginLeft
+second_title: Aspose.Words per .NET
+description: TextBox InternalMarginLeft proprietà. Specifica il margine interno sinistro in punti per una forma in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing/textbox/internalmarginleft/
@@ -14,11 +16,11 @@ Specifica il margine interno sinistro in punti per una forma.
 public double InternalMarginLeft { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è 1/10 di pollice.
 
-### Esempi
+## Esempi
 
 Mostra come impostare i margini interni per una casella di testo.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxMargins.docx");
 ### Guarda anche
 
 * class [TextBox](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../textbox/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

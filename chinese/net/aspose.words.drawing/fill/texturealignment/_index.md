@@ -1,9 +1,11 @@
 ---
 title: Fill.TextureAlignment
-second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获取或设置图块纹理填充的对齐方式
+linktitle: TextureAlignment
+articleTitle: TextureAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill TextureAlignment 财产. 获取或设置图块纹理填充的对齐方式 在 C#.
 type: docs
-weight: 190
+weight: 180
 url: /zh/net/aspose.words.drawing/fill/texturealignment/
 ---
 ## Fill.TextureAlignment property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/fill/texturealignment/
 public TextureAlignment TextureAlignment { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何填充和平铺形状内的纹理。
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 
 * enum [TextureAlignment](../../texturealignment/)
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

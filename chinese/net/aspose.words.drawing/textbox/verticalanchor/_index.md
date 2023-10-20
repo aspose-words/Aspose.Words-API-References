@@ -1,7 +1,9 @@
 ---
 title: TextBox.VerticalAnchor
-second_title: Aspose.Words for .NET API 参考
-description: TextBox 财产. 指定形状内文本的垂直对齐方式
+linktitle: VerticalAnchor
+articleTitle: VerticalAnchor
+second_title: 用于 .NET 的 Aspose.Words
+description: TextBox VerticalAnchor 财产. 指定形状内文本的垂直对齐方式 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.drawing/textbox/verticalanchor/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/textbox/verticalanchor/
 public TextBoxAnchor VerticalAnchor { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为Top。
 
-### 例子
+## 例子
 
 演示如何垂直对齐文本框的文本内容。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 
 * enum [TextBoxAnchor](../../textboxanchor/)
 * class [TextBox](../)
-* 命名空间 [Aspose.Words.Drawing](../../textbox/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

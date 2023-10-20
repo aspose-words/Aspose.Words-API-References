@@ -1,7 +1,9 @@
 ---
-title: Enum TabLeader
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.TabLeader uppräkning. Anger typen av ledarraden som visas under tabbtecknet.
+title: TabLeader Enum
+linktitle: TabLeader
+articleTitle: TabLeader
+second_title: Aspose.Words för .NET
+description: Aspose.Words.TabLeader uppräkning. Anger typen av ledarraden som visas under tabbtecknet i C#.
 type: docs
 weight: 6190
 url: /sv/net/aspose.words/tableader/
@@ -29,5 +31,3 @@ public enum TabLeader
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

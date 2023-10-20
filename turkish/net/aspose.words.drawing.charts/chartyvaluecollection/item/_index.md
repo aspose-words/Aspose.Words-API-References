@@ -1,7 +1,9 @@
 ---
 title: ChartYValueCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: ChartYValueCollection mülk. Belirtilen dizindeki Y değerini alır veya ayarlar.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: ChartYValueCollection Item mülk. Belirtilen dizindeki Y değerini alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartyvaluecollection/item/
@@ -14,15 +16,13 @@ Belirtilen dizindeki Y değerini alır veya ayarlar.
 public ChartYValue this[int index] { get; set; }
 ```
 
-### Notlar
+## Notlar
 
-Boş değerler şu şekilde temsil edilir: **hükümsüz** .
+Boş değerler şu şekilde temsil edilir:**hükümsüz** .
 
 ### Ayrıca bakınız
 
 * class [ChartYValue](../../chartyvalue/)
 * class [ChartYValueCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartyvaluecollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

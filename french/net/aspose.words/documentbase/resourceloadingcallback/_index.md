@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.ResourceLoadingCallback
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBase propriété. Permet de contrôler la manière dont les ressources externes sont chargées.
+linktitle: ResourceLoadingCallback
+articleTitle: ResourceLoadingCallback
+second_title: Aspose.Words pour .NET
+description: DocumentBase ResourceLoadingCallback propriété. Permet de contrôler la manière dont les ressources externes sont chargées en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/documentbase/resourceloadingcallback/
@@ -14,7 +16,7 @@ Permet de contrôler la manière dont les ressources externes sont chargées.
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment personnaliser le processus de chargement de ressources externes dans un document.
 
@@ -78,7 +80,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * interface [IResourceLoadingCallback](../../../aspose.words.loading/iresourceloadingcallback/)
 * class [DocumentBase](../)
-* espace de noms [Aspose.Words](../../documentbase/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

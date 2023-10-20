@@ -1,7 +1,9 @@
 ---
 title: Paragraph.ListLabel
-second_title: Aspose.Words for .NET API Referansı
-description: Paragraph mülk. Bir alırListLabelbu paragraf için liste numaralandırma değerine ve formatlama ye erişim sağlayan nesne.
+linktitle: ListLabel
+articleTitle: ListLabel
+second_title: Aspose.Words for .NET
+description: Paragraph ListLabel mülk. Bir alırListLabelbu paragraf için liste numaralandırma değerine ve formatlama ye erişim sağlayan nesne C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/paragraph/listlabel/
@@ -14,7 +16,7 @@ Bir alır`ListLabel`bu paragraf için liste numaralandırma değerine ve formatl
 public ListLabel ListLabel { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Liste öğesi olan tüm paragrafların liste etiketlerinin nasıl çıkarılacağını gösterir.
 
@@ -50,7 +52,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 * class [ListLabel](../../../aspose.words.lists/listlabel/)
 * class [Paragraph](../)
-* ad alanı [Aspose.Words](../../paragraph/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Glyph.GlyphIndex
-second_title: Aspose.Words för .NET API Referens
-description: Glyph fast egendom. Index för glyfen GID i det fysiska teckensnittet.
+linktitle: GlyphIndex
+articleTitle: GlyphIndex
+second_title: Aspose.Words för .NET
+description: Glyph GlyphIndex fast egendom. Index för glyfen GID i det fysiska teckensnittet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.shaping/glyph/glyphindex/
@@ -17,7 +19,5 @@ public int GlyphIndex { get; }
 ### Se även
 
 * class [Glyph](../)
-* namnutrymme [Aspose.Words.Shaping](../../glyph/)
+* namnutrymme [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * hopsättning [Aspose.Words](../../../)
-
-

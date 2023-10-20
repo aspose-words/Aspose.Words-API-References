@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BarcodeGenerator
-second_title: Aspose.Words för .NET API Referens
-description: FieldOptions fast egendom. Hämtar eller ställer in anpassad streckkodsgenerator.
+linktitle: BarcodeGenerator
+articleTitle: BarcodeGenerator
+second_title: Aspose.Words för .NET
+description: FieldOptions BarcodeGenerator fast egendom. Hämtar eller ställer in anpassad streckkodsgenerator i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldoptions/barcodegenerator/
@@ -14,11 +16,11 @@ Hämtar eller ställer in anpassad streckkodsgenerator.
 public IBarcodeGenerator BarcodeGenerator { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Anpassad streckkodsgenerator bör implementera ett offentligt gränssnitt[`IBarcodeGenerator`](../../ibarcodegenerator/) .
 
-### Exempel
+## Exempel
 
 Visar hur man använder en streckkodsgenerator.
 
@@ -95,7 +97,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * interface [IBarcodeGenerator](../../ibarcodegenerator/)
 * class [FieldOptions](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldoptions/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

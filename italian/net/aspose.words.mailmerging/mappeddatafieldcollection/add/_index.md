@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Add
-second_title: Aspose.Words per .NET API Reference
-description: MappedDataFieldCollection metodo. Aggiunge una nuova mappatura dei campi.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words per .NET
+description: MappedDataFieldCollection Add metodo. Aggiunge una nuova mappatura dei campi in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.mailmerging/mappeddatafieldcollection/add/
@@ -19,7 +21,7 @@ public void Add(string documentFieldName, string dataSourceFieldName)
 | documentFieldName | String | Nome del campo di stampa unione nel documento, con distinzione tra maiuscole e minuscole. |
 | dataSourceFieldName | String | Nome del campo nell'origine dati con distinzione tra maiuscole e minuscole. |
 
-### Esempi
+## Esempi
 
 Mostra come mappare colonne di dati e MERGEFIELD con nomi diversi in modo che i dati vengano trasferiti tra loro durante una stampa unione.
 
@@ -104,7 +106,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Guarda anche
 
 * class [MappedDataFieldCollection](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ThemeColors.FollowedHyperlink
-second_title: Aspose.Words per .NET API Reference
-description: ThemeColors proprietà. Specifica il colore per un collegamento ipertestuale su cui si è fatto clic.
+linktitle: FollowedHyperlink
+articleTitle: FollowedHyperlink
+second_title: Aspose.Words per .NET
+description: ThemeColors FollowedHyperlink proprietà. Specifica il colore per un collegamento ipertestuale su cui si è fatto clic in C#.
 type: docs
 weight: 90
 url: /it/net/aspose.words.themes/themecolors/followedhyperlink/
@@ -14,7 +16,7 @@ Specifica il colore per un collegamento ipertestuale su cui si è fatto clic.
 public Color FollowedHyperlink { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare colori e caratteri personalizzati per i temi.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Guarda anche
 
 * class [ThemeColors](../)
-* spazio dei nomi [Aspose.Words.Themes](../../themecolors/)
+* spazio dei nomi [Aspose.Words.Themes](../../../aspose.words.themes/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class RevisionOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Layout.RevisionOptions 班级. 允许控制在布局过程中如何处理文档修订
+title: RevisionOptions Class
+linktitle: RevisionOptions
+articleTitle: RevisionOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Layout.RevisionOptions 班级. 允许控制在布局过程中如何处理文档修订 在 C#.
 type: docs
 weight: 3390
 url: /zh/net/aspose.words.layout/revisionoptions/
@@ -40,7 +42,7 @@ public class RevisionOptions
 | [ShowRevisionBars](../../aspose.words.layout/revisionoptions/showrevisionbars/) { get; set; } | 允许指定是否应在包含修订内容的行附近呈现修订栏。 默认值为`真的`. |
 | [ShowRevisionMarks](../../aspose.words.layout/revisionoptions/showrevisionmarks/) { get; set; } | 允许指定是否应使用特殊格式标记来标记修订文本。 默认值为`真的`. |
 
-### 例子
+## 例子
 
 演示如何更改渲染输出文档中修订的外观。
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * 命名空间 [Aspose.Words.Layout](../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../)
-
-

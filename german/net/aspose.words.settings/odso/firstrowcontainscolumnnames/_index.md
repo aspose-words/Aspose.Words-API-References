@@ -1,7 +1,9 @@
 ---
 title: Odso.FirstRowContainsColumnNames
-second_title: Aspose.Words für .NET-API-Referenz
-description: Odso eigendom. Gibt an dass eine Hostinganwendung die erste Datenzeile in der angegebenen externen Datenquelle als Kopfzeile behandeln soll die die Namen jeder Spalte in der Datenquelle enthält. Der Standardwert istFALSCH .
+linktitle: FirstRowContainsColumnNames
+articleTitle: FirstRowContainsColumnNames
+second_title: Aspose.Words für .NET
+description: Odso FirstRowContainsColumnNames eigendom. Gibt an dass eine Hostinganwendung die erste Datenzeile in der angegebenen externen Datenquelle als Kopfzeile behandeln soll die die Namen jeder Spalte in der Datenquelle enthält. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
@@ -14,11 +16,11 @@ Gibt an, dass eine Hostinganwendung die erste Datenzeile in der angegebenen exte
 public bool FirstRowContainsColumnNames { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 RK Ich habe das noch nie im Einsatz gesehen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Siehe auch
 
 * class [Odso](../)
-* namensraum [Aspose.Words.Settings](../../odso/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

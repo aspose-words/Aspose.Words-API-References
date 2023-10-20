@@ -1,7 +1,9 @@
 ---
 title: PdfLoadOptions.PageIndex
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfLoadOptions propriété. Obtient ou définit lindex de base 0 de la première page à lire. La valeur par défaut est 0.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words pour .NET
+description: PdfLoadOptions PageIndex propriété. Obtient ou définit lindex de base 0 de la première page à lire. La valeur par défaut est 0 en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.loading/pdfloadoptions/pageindex/
@@ -17,7 +19,5 @@ public int PageIndex { get; set; }
 ### Voir également
 
 * class [PdfLoadOptions](../)
-* espace de noms [Aspose.Words.Loading](../../pdfloadoptions/)
+* espace de noms [Aspose.Words.Loading](../../../aspose.words.loading/)
 * Assemblée [Aspose.Words](../../../)
-
-

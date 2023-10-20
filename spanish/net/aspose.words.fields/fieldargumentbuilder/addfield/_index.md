@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddField
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldArgumentBuilder método. Agrega un campo representado por unFieldBuilder al argumento.
+linktitle: AddField
+articleTitle: AddField
+second_title: Aspose.Words para .NET
+description: FieldArgumentBuilder AddField método. Agrega un campo representado por unFieldBuilder al argumento en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldargumentbuilder/addfield/
@@ -14,7 +16,7 @@ Agrega un campo representado por un[`FieldBuilder`](../../fieldbuilder/) al argu
 public FieldArgumentBuilder AddField(FieldBuilder fieldBuilder)
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir campos usando un generador de campos y luego insertarlos en el documento.
 
@@ -98,7 +100,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [FieldBuilder](../../fieldbuilder/)
 * class [FieldArgumentBuilder](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

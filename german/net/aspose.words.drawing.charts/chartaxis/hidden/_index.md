@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Hidden
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartAxis eigendom. Ruft ein Flag ab oder setzt es das angibt ob diese Achse ausgeblendet ist oder nicht.
+linktitle: Hidden
+articleTitle: Hidden
+second_title: Aspose.Words für .NET
+description: ChartAxis Hidden eigendom. Ruft ein Flag ab oder setzt es das angibt ob diese Achse ausgeblendet ist oder nicht in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.drawing.charts/chartaxis/hidden/
@@ -14,11 +16,11 @@ Ruft ein Flag ab oder setzt es, das angibt, ob diese Achse ausgeblendet ist oder
 public bool Hidden { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH` .
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Diagrammachsen ausgeblendet werden.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.HideChartAxis.docx");
 ### Siehe auch
 
 * class [ChartAxis](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SignatureValue
-second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignature ملكية. الحصول على مصفوفة من البايتات التي تمثل قيمة التوقيع.
+linktitle: SignatureValue
+articleTitle: SignatureValue
+second_title: Aspose.Words لـ .NET
+description: DigitalSignature SignatureValue ملكية. الحصول على مصفوفة من البايتات التي تمثل قيمة التوقيع في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
 public byte[] SignatureValue { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على قيمة توقيع رقمي من مستند موقع رقميًا.
 
@@ -33,7 +35,5 @@ foreach (DigitalSignature digitalSignature in doc.DigitalSignatures)
 ### أنظر أيضا
 
 * class [DigitalSignature](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

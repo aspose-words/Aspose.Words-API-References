@@ -1,7 +1,9 @@
 ---
 title: Cell.PreviousCell
-second_title: Aspose.Words för .NET API Referens
-description: Cell fast egendom. Hämtar föregåendeCell nod.
+linktitle: PreviousCell
+articleTitle: PreviousCell
+second_title: Aspose.Words för .NET
+description: Cell PreviousCell fast egendom. Hämtar föregåendeCell nod i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.tables/cell/previouscell/
@@ -14,11 +16,11 @@ Hämtar föregående[`Cell`](../) nod.
 public Cell PreviousCell { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Metoden kan användas när du behöver ha maskinskriven åtkomst till celler i en[`Row`](../../row/) . Om a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) noden hittas i en rad istället för en cell, den korsas automatiskt för att få en cell som finns i.
 
-### Exempel
+## Exempel
 
 Visar hur man räknar upp alla tabellceller.
 
@@ -39,7 +41,5 @@ for (Row row = table.FirstRow; row != null; row = row.NextRow)
 ### Se även
 
 * class [Cell](../)
-* namnutrymme [Aspose.Words.Tables](../../cell/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

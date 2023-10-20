@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.HorizontalPosition
-second_title: Aspose.Words per .NET API Reference
-description: FrameFormat proprietà. Ottiene la distanza orizzontale tra il bordo del frame e lelemento specificato daRelativeHorizontalPosition proprietà.
+linktitle: HorizontalPosition
+articleTitle: HorizontalPosition
+second_title: Aspose.Words per .NET
+description: FrameFormat HorizontalPosition proprietà. Ottiene la distanza orizzontale tra il bordo del frame e lelemento specificato daRelativeHorizontalPosition proprietà in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/frameformat/horizontalposition/
@@ -14,7 +16,7 @@ Ottiene la distanza orizzontale tra il bordo del frame e l'elemento specificato 
 public double HorizontalPosition { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere informazioni sulle proprietà di formattazione dei paragrafi che sono frame.
 
@@ -39,7 +41,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 ### Guarda anche
 
 * class [FrameFormat](../)
-* spazio dei nomi [Aspose.Words](../../frameformat/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

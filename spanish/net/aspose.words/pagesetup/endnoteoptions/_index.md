@@ -1,7 +1,9 @@
 ---
 title: PageSetup.EndnoteOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: PageSetup propiedad. Proporciona opciones que controlan la numeración y la posición de las notas finales en esta sección.
+linktitle: EndnoteOptions
+articleTitle: EndnoteOptions
+second_title: Aspose.Words para .NET
+description: PageSetup EndnoteOptions propiedad. Proporciona opciones que controlan la numeración y la posición de las notas finales en esta sección en C#.
 type: docs
 weight: 120
 url: /es/net/aspose.words/pagesetup/endnoteoptions/
@@ -14,7 +16,7 @@ Proporciona opciones que controlan la numeración y la posición de las notas fi
 public EndnoteOptions EndnoteOptions { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar opciones que afectan las notas al pie/notas finales en una sección.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.FootnoteOptions.docx");
 
 * class [EndnoteOptions](../../../aspose.words.notes/endnoteoptions/)
 * class [PageSetup](../)
-* espacio de nombres [Aspose.Words](../../pagesetup/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.DistanceFromText
-second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. الحصول على أو تعيين مسافة الحد من النص بالنقاط.
+linktitle: DistanceFromText
+articleTitle: DistanceFromText
+second_title: Aspose.Words لـ .NET
+description: BorderCollection DistanceFromText ملكية. الحصول على أو تعيين مسافة الحد من النص بالنقاط في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/bordercollection/distancefromtext/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bordercollection/distancefromtext/
 public double DistanceFromText { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الحصول على المسافة من النص للحد الأول.
 
@@ -22,7 +24,7 @@ public double DistanceFromText { get; set; }
 
 ليس له أي تأثير وسيتم إعادة تعيينه تلقائيًا إلى الصفر بالنسبة لحدود خلايا الجدول.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حدود صفحة خضراء متموجة مع الظل.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### أنظر أيضا
 
 * class [BorderCollection](../)
-* مساحة الاسم [Aspose.Words](../../bordercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

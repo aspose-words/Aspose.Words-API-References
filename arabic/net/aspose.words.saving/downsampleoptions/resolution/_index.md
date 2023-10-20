@@ -1,7 +1,9 @@
 ---
 title: DownsampleOptions.Resolution
-second_title: Aspose.Words لمراجع .NET API
-description: DownsampleOptions ملكية. يحدد الدقة بالبكسل لكل بوصة والتي يجب اختزال الصور إليها.
+linktitle: Resolution
+articleTitle: Resolution
+second_title: Aspose.Words لـ .NET
+description: DownsampleOptions Resolution ملكية. يحدد الدقة بالبكسل لكل بوصة والتي يجب اختزال الصور إليها في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/downsampleoptions/resolution/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/downsampleoptions/resolution/
 public int Resolution { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي 220 نقطة في البوصة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير دقة الصور في مستند PDF.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 ### أنظر أيضا
 
 * class [DownsampleOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../downsampleoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.ClearFormatting
-second_title: Aspose.Words for .NET API 参考
-description: ConditionalStyleCollection 方法. 清除表格样式的所有条件样式
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: 用于 .NET 的 Aspose.Words
+description: ConditionalStyleCollection ClearFormatting 方法. 清除表格样式的所有条件样式 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words/conditionalstylecollection/clearformatting/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/conditionalstylecollection/clearformatting/
 public void ClearFormatting()
 ```
 
-### 例子
+## 例子
 
 演示如何重置条件表样式。
 
@@ -54,7 +56,5 @@ Assert.True(tableStyle.ConditionalStyles.All(s => s.Borders.Color == Color.Empty
 ### 也可以看看
 
 * class [ConditionalStyleCollection](../)
-* 命名空间 [Aspose.Words](../../conditionalstylecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Font
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabelCollection mülk. Tüm serinin veri etiketlerinin yazı tipi formatlamasına erişim sağlar.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words for .NET
+description: ChartDataLabelCollection Font mülk. Tüm serinin veri etiketlerinin yazı tipi formatlamasına erişim sağlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/font/
@@ -14,11 +16,11 @@ Tüm serinin veri etiketlerinin yazı tipi formatlamasına erişim sağlar.
 public Font Font { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik için tanımlanan değer, the kullanılarak tek bir veri etiketi için geçersiz kılınabilir[`Font`](../../chartdatalabel/font/) özellik.
 
-### Örnekler
+## Örnekler
 
 Bir grafik serisi için veri etiketlerinin nasıl etkinleştirileceğini ve yapılandırılacağını gösterir.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartDataLabelCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

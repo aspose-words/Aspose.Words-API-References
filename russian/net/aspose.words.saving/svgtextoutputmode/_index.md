@@ -1,7 +1,9 @@
 ---
-title: Enum SvgTextOutputMode
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.SvgTextOutputMode перечисление. Позволяет указать как должен отображаться текст внутри документа при сохранении в формате SVG.
+title: SvgTextOutputMode Enum
+linktitle: SvgTextOutputMode
+articleTitle: SvgTextOutputMode
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.SvgTextOutputMode перечисление. Позволяет указать как должен отображаться текст внутри документа при сохранении в формате SVG на С#.
 type: docs
 weight: 5610
 url: /ru/net/aspose.words.saving/svgtextoutputmode/
@@ -22,7 +24,7 @@ public enum SvgTextOutputMode
 | UseTargetMachineFonts | `1` | Шрифты, установленные на целевой машине, используются для рендеринга текста. Обратите внимание: если некоторые шрифты, используемые в документе, недоступны на целевом компьютере, документ может выглядеть иначе. |
 | UsePlacedGlyphs | `2` | Текст отображается с помощью кривых. Обратите внимание, что выделение текста не будет работать, если вы используете эту опцию. |
 
-### Примеры
+## Примеры
 
 Показывает, как имитировать свойства изображений при преобразовании документа .docx в .svg.
 
@@ -44,5 +46,3 @@ doc.Save(ArtifactsDir + "SvgSaveOptions.SaveLikeImage.svg", options);
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.NonBreakingHyphenChar
-second_title: Referencia de API de Aspose.Words para .NET
-description: ControlChar campo. El guión no separable en Microsoft Word es char30.
+linktitle: NonBreakingHyphenChar
+articleTitle: NonBreakingHyphenChar
+second_title: Aspose.Words para .NET
+description: ControlChar NonBreakingHyphenChar campo. El guión no separable en Microsoft Word es char30 en C#.
 type: docs
 weight: 160
 url: /es/net/aspose.words/controlchar/nonbreakinghyphenchar/
@@ -14,13 +16,13 @@ El guión no separable en Microsoft Word es (char)30.
 public const char NonBreakingHyphenChar;
 ```
 
-### Observaciones
+## Observaciones
 
 El guión sin separación en Microsoft Word no corresponde al carácter Unicode U+2011 guión sin separación, sino que representa información interna que le indica a Microsoft Word que muestre un guión y no rompa una línea.
 
 Información útil: http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar varios caracteres de control a un documento.
 
@@ -92,7 +94,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ver también
 
 * class [ControlChar](../)
-* espacio de nombres [Aspose.Words](../../controlchar/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

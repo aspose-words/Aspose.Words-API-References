@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.AllowEmbeddingPostScriptFonts
-second_title: Aspose.Words per .NET API Reference
-description: SaveOptions proprietà. Ottiene o imposta un valore booleano che indica se consentire lincorporamento di caratteri con contorni PostScript quando si incorporano caratteri TrueType in un documento al momento del salvataggio. Il valore predefinito èfalso .
+linktitle: AllowEmbeddingPostScriptFonts
+articleTitle: AllowEmbeddingPostScriptFonts
+second_title: Aspose.Words per .NET
+description: SaveOptions AllowEmbeddingPostScriptFonts proprietà. Ottiene o imposta un valore booleano che indica se consentire lincorporamento di caratteri con contorni PostScript quando si incorporano caratteri TrueType in un documento al momento del salvataggio. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
@@ -14,13 +16,13 @@ Ottiene o imposta un valore booleano che indica se consentire l'incorporamento d
 public bool AllowEmbeddingPostScriptFonts { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Tieni presente che Word non incorpora caratteri PostScript, ma può aprire documenti con caratteri incorporati di questo tipo.
 
 Questa opzione funziona solo quando[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) del [`FontInfos`](../../../aspose.words/documentbase/fontinfos/) la proprietà è impostata su`VERO`.
 
-### Esempi
+## Esempi
 
 Mostra come salvare il documento con il carattere PostScript.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Document.AllowEmbeddingPostScriptFonts.docx", saveOptio
 ### Guarda anche
 
 * class [SaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../saveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

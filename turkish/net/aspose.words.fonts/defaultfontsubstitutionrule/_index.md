@@ -1,7 +1,9 @@
 ---
-title: Class DefaultFontSubstitutionRule
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.DefaultFontSubstitutionRule sınıf. Varsayılan yazı tipi değiştirme kuralı.
+title: DefaultFontSubstitutionRule Class
+linktitle: DefaultFontSubstitutionRule
+articleTitle: DefaultFontSubstitutionRule
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.DefaultFontSubstitutionRule sınıf. Varsayılan yazı tipi değiştirme kuralı C#'da.
 type: docs
 weight: 2840
 url: /tr/net/aspose.words.fonts/defaultfontsubstitutionrule/
@@ -23,11 +25,11 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 | [DefaultFontName](../../aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/) { get; set; } | Varsayılan yazı tipi adını alır veya ayarlar. |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Kuralın etkin olup olmadığını belirtir. |
 
-### Notlar
+## Notlar
 
 Bu kural, orijinal yazı tipinin mevcut olmaması durumunda ikame için kullanılacak tek varsayılan yazı tipi adını tanımlar.
 
-### Örnekler
+## Örnekler
 
 Varsayılan yazı tipi değiştirme kuralının nasıl ayarlanacağını gösterir.
 
@@ -61,5 +63,3 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 * class [FontSubstitutionRule](../fontsubstitutionrule/)
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

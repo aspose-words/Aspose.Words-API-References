@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreShapes
-second_title: Referencia de API de Aspose.Words para .NET
-description: FindReplaceOptions propiedad. Obtiene o establece un valor booleano que indica que se deben ignorar las formas dentro de un texto.
+linktitle: IgnoreShapes
+articleTitle: IgnoreShapes
+second_title: Aspose.Words para .NET
+description: FindReplaceOptions IgnoreShapes propiedad. Obtiene o establece un valor booleano que indica que se deben ignorar las formas dentro de un texto en C#.
 type: docs
 weight: 110
 url: /es/net/aspose.words.replacing/findreplaceoptions/ignoreshapes/
@@ -16,7 +18,7 @@ El valor predeterminado es`FALSO`.
 public bool IgnoreShapes { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ignorar formas al reemplazar texto.
 
@@ -36,7 +38,5 @@ Assert.AreEqual("Lorem ipsum dolor sit amet, consectetur adipiscing elit.", buil
 ### Ver también
 
 * class [FindReplaceOptions](../)
-* espacio de nombres [Aspose.Words.Replacing](../../findreplaceoptions/)
+* espacio de nombres [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * asamblea [Aspose.Words](../../../)
-
-

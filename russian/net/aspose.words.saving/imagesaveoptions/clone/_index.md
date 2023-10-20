@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.Clone
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions метод. Создает глубокую копию этого объекта.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words для .NET
+description: ImageSaveOptions Clone метод. Создает глубокую копию этого объекта на С#.
 type: docs
 weight: 210
 url: /ru/net/aspose.words.saving/imagesaveoptions/clone/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/imagesaveoptions/clone/
 public ImageSaveOptions Clone()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать скорость передачи битов на пиксель для преобразования документа в изображение.
 
@@ -79,7 +81,5 @@ Document doc = new Document();
 ### Смотрите также
 
 * class [ImageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../imagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: TabStopCollection.Add
-second_title: Aspose.Words for .NET API 参考
-description: TabStopCollection 方法. 在集合中添加或替换制表位
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: TabStopCollection Add 方法. 在集合中添加或替换制表位 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/tabstopcollection/add/
 ---
-## Add(TabStop) {#add}
+## Add(*[TabStop](../../tabstop/)*) {#add}
 
 在集合中添加或替换制表位。
 
@@ -18,11 +20,11 @@ public void Add(TabStop tabStop)
 | --- | --- | --- |
 | tabStop | TabStop | 要添加的制表位对象。 |
 
-### 评论
+## 评论
 
 如果指定位置已存在制表位，则将其替换。
 
-### 例子
+## 例子
 
 演示如何向文档添加自定义制表位。
 
@@ -57,12 +59,12 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 
 * class [TabStop](../../tabstop/)
 * class [TabStopCollection](../)
-* 命名空间 [Aspose.Words](../../tabstopcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Add(double, TabAlignment, TabLeader) {#add_1}
+## Add(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#add_1}
 
 在集合中添加或替换制表位。
 
@@ -76,11 +78,11 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 | alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/)值 that 指定制表位处的文本对齐方式。 |
 | leader | TabLeader | A[`TabLeader`](../../tableader/) value that 指定制表符下显示的引导线的类型。 |
 
-### 评论
+## 评论
 
 如果指定位置已存在制表位，则将其替换。
 
-### 例子
+## 例子
 
 演示如何向文档添加自定义制表位。
 
@@ -116,7 +118,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 * enum [TabAlignment](../../tabalignment/)
 * enum [TabLeader](../../tableader/)
 * class [TabStopCollection](../)
-* 命名空间 [Aspose.Words](../../tabstopcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

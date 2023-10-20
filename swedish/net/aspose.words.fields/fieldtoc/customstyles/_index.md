@@ -1,7 +1,9 @@
 ---
 title: FieldToc.CustomStyles
-second_title: Aspose.Words för .NET API Referens
-description: FieldToc fast egendom. Hämtar eller ställer in en lista över andra stilar än de inbyggda rubrikstilarna som ska inkluderas i innehållsförteckningen.
+linktitle: CustomStyles
+articleTitle: CustomStyles
+second_title: Aspose.Words för .NET
+description: FieldToc CustomStyles fast egendom. Hämtar eller ställer in en lista över andra stilar än de inbyggda rubrikstilarna som ska inkluderas i innehållsförteckningen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldtoc/customstyles/
@@ -14,7 +16,7 @@ Hämtar eller ställer in en lista över andra stilar än de inbyggda rubrikstil
 public string CustomStyles { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en innehållsförteckning och fyller den med poster baserat på rubrikstilar.
 
@@ -99,7 +101,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Se även
 
 * class [FieldToc](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtoc/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

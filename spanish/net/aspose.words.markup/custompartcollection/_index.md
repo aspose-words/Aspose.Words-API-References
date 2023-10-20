@@ -1,7 +1,9 @@
 ---
-title: Class CustomPartCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Markup.CustomPartCollection clase. Representa una colección deCustomPart objetos.
+title: CustomPartCollection Class
+linktitle: CustomPartCollection
+articleTitle: CustomPartCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Markup.CustomPartCollection clase. Representa una colección deCustomPart objetos en C#.
 type: docs
 weight: 3910
 url: /es/net/aspose.words.markup/custompartcollection/
@@ -33,17 +35,17 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words.markup/custompartcollection/add/)(CustomPart) | Agrega un elemento a la colección. |
+| [Add](../../aspose.words.markup/custompartcollection/add/)(*[CustomPart](../custompart/)*) | Agrega un elemento a la colección. |
 | [Clear](../../aspose.words.markup/custompartcollection/clear/)() | Elimina todos los elementos de la colección. |
 | [Clone](../../aspose.words.markup/custompartcollection/clone/)() | Hace una copia profunda de esta colección y sus elementos. |
 | [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator/)() | Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección. |
-| [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(int) | Elimina un elemento en el índice especificado. |
+| [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(*int*) | Elimina un elemento en el índice especificado. |
 
-### Observaciones
+## Observaciones
 
 Normalmente no es necesario crear instancias de esta clase. Puede acceder a las piezas personalizadas relacionadas con el paquete OOXML a través del[`PackageCustomParts`](../../aspose.words/document/packagecustomparts/) propiedad.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo acceder a la colección de piezas personalizadas arbitrarias de un documento.
 
@@ -89,5 +91,3 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 * class [CustomPart](../custompart/)
 * espacio de nombres [Aspose.Words.Markup](../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../)
-
-

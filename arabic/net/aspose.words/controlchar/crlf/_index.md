@@ -1,7 +1,9 @@
 ---
 title: ControlChar.CrLf
-second_title: Aspose.Words لمراجع .NET API
-description: ControlChar مجال. حرف إرجاع متبوعًا بحرف تغذية الأسطر x000dx000a أو rn. لا يستخدم على هذا النحو في مستندات Microsoft Word ولكنه شائع الاستخدام في الملفات النصية لفواصل الفقرات.
+linktitle: CrLf
+articleTitle: CrLf
+second_title: Aspose.Words لـ .NET
+description: ControlChar CrLf مجال. حرف إرجاع متبوعًا بحرف تغذية الأسطر x000dx000a أو rn. لا يستخدم على هذا النحو في مستندات Microsoft Word ولكنه شائع الاستخدام في الملفات النصية لفواصل الفقرات في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/controlchar/crlf/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/controlchar/crlf/
 public static readonly string CrLf;
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة أحرف تحكم مختلفة إلى مستند.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### أنظر أيضا
 
 * class [ControlChar](../)
-* مساحة الاسم [Aspose.Words](../../controlchar/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

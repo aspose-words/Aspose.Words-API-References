@@ -1,7 +1,9 @@
 ---
-title: ImageSaveOptions.ImageSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة والذي يمكن استخدامه لحفظ الصور المعروضة في Tiff Png BmpJpeg Emf Eps أوSvg التنسيق.
+title: ImageSaveOptions
+linktitle: ImageSaveOptions
+articleTitle: ImageSaveOptions
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة والذي يمكن استخدامه لحفظ الصور المعروضة في Tiff Png BmpJpeg Emf Eps أوSvg التنسيق في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/imagesaveoptions/imagesaveoptions/
@@ -18,7 +20,7 @@ public ImageSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | يمكن أن يكون Tiff ,Png ,BmpJpeg ,Emf ,Eps أوSvg التنسيق. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين الضغط أثناء حفظ مستند بتنسيق JPEG.
 
@@ -52,7 +54,5 @@ Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Jpe
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

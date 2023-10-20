@@ -1,7 +1,9 @@
 ---
-title: Class PhysicalFontInfo
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.PhysicalFontInfo sınıf. Aspose.Words yazı tipi motorunun kullanabileceği fiziksel yazı tipi hakkındaki bilgileri belirtir.
+title: PhysicalFontInfo Class
+linktitle: PhysicalFontInfo
+articleTitle: PhysicalFontInfo
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.PhysicalFontInfo sınıf. Aspose.Words yazı tipi motorunun kullanabileceği fiziksel yazı tipi hakkındaki bilgileri belirtir C#'da.
 type: docs
 weight: 3030
 url: /tr/net/aspose.words.fonts/physicalfontinfo/
@@ -25,7 +27,7 @@ public class PhysicalFontInfo
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Yazı tipinin tam adı. |
 | [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Yazı tipinin sürüm dizesi. |
 
-### Örnekler
+## Örnekler
 
 Kullanılabilir yazı tiplerinin nasıl listeleneceğini gösterir.
 
@@ -46,5 +48,3 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

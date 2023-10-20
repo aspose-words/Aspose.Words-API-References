@@ -1,7 +1,9 @@
 ---
 title: Odso.FirstRowContainsColumnNames
-second_title: Справочник по API Aspose.Words для .NET
-description: Odso свойство. Указывает что ведущее приложение должно обрабатывать первую строку данных в указанном внешнем источнике data как строку заголовка содержащую имена каждого столбца в источнике данных. Значение по умолчаниюЛОЖЬ .
+linktitle: FirstRowContainsColumnNames
+articleTitle: FirstRowContainsColumnNames
+second_title: Aspose.Words для .NET
+description: Odso FirstRowContainsColumnNames свойство. Указывает что ведущее приложение должно обрабатывать первую строку данных в указанном внешнем источнике data как строку заголовка содержащую имена каждого столбца в источнике данных. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
 public bool FirstRowContainsColumnNames { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 РК: Я никогда не видел, чтобы это использовалось.
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Смотрите также
 
 * class [Odso](../)
-* пространство имен [Aspose.Words.Settings](../../odso/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

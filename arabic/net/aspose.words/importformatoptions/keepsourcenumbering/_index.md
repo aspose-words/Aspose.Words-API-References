@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.KeepSourceNumbering
-second_title: Aspose.Words لمراجع .NET API
-description: ImportFormatOptions ملكية. الحصول على قيمة منطقية أو تعيينها والتي تحدد كيفية استيراد الترقيم عندما يتعارض مع مستندات المصدر و الوجهة. القيمة الافتراضية هيخطأ شنيع .
+linktitle: KeepSourceNumbering
+articleTitle: KeepSourceNumbering
+second_title: Aspose.Words لـ .NET
+description: ImportFormatOptions KeepSourceNumbering ملكية. الحصول على قيمة منطقية أو تعيينها والتي تحدد كيفية استيراد الترقيم عندما يتعارض مع مستندات المصدر و الوجهة. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/importformatoptions/keepsourcenumbering/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/importformatoptions/keepsourcenumbering/
 public bool KeepSourceNumbering { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حل التعارض عند استيراد المستندات التي تحتوي على قوائم بنفس معرف تعريف القائمة.
 
@@ -108,7 +110,5 @@ else
 ### أنظر أيضا
 
 * class [ImportFormatOptions](../)
-* مساحة الاسم [Aspose.Words](../../importformatoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Document.FirstSection
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取文档中的第一部分
+linktitle: FirstSection
+articleTitle: FirstSection
+second_title: 用于 .NET 的 Aspose.Words
+description: Document FirstSection 财产. 获取文档中的第一部分 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words/document/firstsection/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/document/firstsection/
 public Section FirstSection { get; }
 ```
 
-### 评论
+## 评论
 
 返回`无效的`如果没有部分.
 
-### 例子
+## 例子
 
 演示如何替换文档页脚中的文本。
 
@@ -120,7 +122,5 @@ foreach (Node node in section)
 
 * class [Section](../../section/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

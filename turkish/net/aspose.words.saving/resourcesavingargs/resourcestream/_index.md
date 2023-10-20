@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceStream
-second_title: Aspose.Words for .NET API Referansı
-description: ResourceSavingArgs mülk. Kaynağın kaydedileceği akışı belirtmeye izin verir.
+linktitle: ResourceStream
+articleTitle: ResourceStream
+second_title: Aspose.Words for .NET
+description: ResourceSavingArgs ResourceStream mülk. Kaynağın kaydedileceği akışı belirtmeye izin verir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/resourcesavingargs/resourcestream/
@@ -14,7 +16,7 @@ Kaynağın kaydedileceği akışı belirtmeye izin verir.
 public Stream ResourceStream { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik, kaynakları dosyalar yerine akışlara kaydetmenize olanak tanır.
 
@@ -22,7 +24,7 @@ Varsayılan değer:`hükümsüz` . Bu özellik olduğunda`hükümsüz` kaynağı
 
 Kullanma[`IResourceSavingCallback`](../../iresourcesavingcallback/) bir kaynağı başka bir kaynakla değiştiremezsiniz. Yalnızca kaynakların kaydedileceği konum üzerinde kontrol sağlamak için tasarlanmıştır.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi HTML'ye dönüştürürken oluşturulan dış kaynakların URI'lerini yazdırmak için geri aramanın nasıl kullanılacağını gösterir.
 
@@ -101,7 +103,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### Ayrıca bakınız
 
 * class [ResourceSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../resourcesavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

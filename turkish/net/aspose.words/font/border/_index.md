@@ -1,7 +1,9 @@
 ---
 title: Font.Border
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bir değeri döndürürBorder yazı tipinin kenarlığını belirten nesne.
+linktitle: Border
+articleTitle: Border
+second_title: Aspose.Words for .NET
+description: Font Border mülk. Bir değeri döndürürBorder yazı tipinin kenarlığını belirten nesne C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/font/border/
@@ -14,7 +16,7 @@ Bir değeri döndürür[`Border`](../../border/) yazı tipinin kenarlığını b
 public Border Border { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kenarlıkla çevrelenmiş bir dizenin belgeye nasıl ekleneceğini gösterir.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * class [Border](../../border/)
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

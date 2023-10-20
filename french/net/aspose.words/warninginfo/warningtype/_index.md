@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.WarningType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: WarningInfo propriété. Renvoie le type davertissement.
+linktitle: WarningType
+articleTitle: WarningType
+second_title: Aspose.Words pour .NET
+description: WarningInfo WarningType propriété. Renvoie le type davertissement en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/warninginfo/warningtype/
@@ -14,7 +16,7 @@ Renvoie le type d'avertissement.
 public WarningType WarningType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir la propriété permettant de trouver la correspondance la plus proche pour une police manquante à partir des sources de polices disponibles.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * enum [WarningType](../../warningtype/)
 * class [WarningInfo](../)
-* espace de noms [Aspose.Words](../../warninginfo/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

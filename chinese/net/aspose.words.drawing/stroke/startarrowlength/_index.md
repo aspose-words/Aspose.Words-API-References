@@ -1,9 +1,11 @@
 ---
 title: Stroke.StartArrowLength
-second_title: Aspose.Words for .NET API 参考
-description: Stroke 财产. 定义笔划起点的箭头长度
+linktitle: StartArrowLength
+articleTitle: StartArrowLength
+second_title: 用于 .NET 的 Aspose.Words
+description: Stroke StartArrowLength 财产. 定义笔划起点的箭头长度 在 C#.
 type: docs
-weight: 170
+weight: 160
 url: /zh/net/aspose.words.drawing/stroke/startarrowlength/
 ---
 ## Stroke.StartArrowLength property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/stroke/startarrowlength/
 public ArrowLength StartArrowLength { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为Medium。
 
-### 例子
+## 例子
 
 展示创造出各种形状。
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowLength](../../arrowlength/)
 * class [Stroke](../)
-* 命名空间 [Aspose.Words.Drawing](../../stroke/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Symbol
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartMarker свойство. Получает или задает символ маркера диаграммы.
+linktitle: Symbol
+articleTitle: Symbol
+second_title: Aspose.Words для .NET
+description: ChartMarker Symbol свойство. Получает или задает символ маркера диаграммы на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartmarker/symbol/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartmarker/symbol/
 public MarkerSymbol Symbol { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с точками данных на линейной диаграмме.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * enum [MarkerSymbol](../../markersymbol/)
 * class [ChartMarker](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

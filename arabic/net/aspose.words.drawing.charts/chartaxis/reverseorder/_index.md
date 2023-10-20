@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.ReverseOrder
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. إرجاع أو تعيين علامة تشير إلى ما إذا كان يجب عرض قيم المحور بترتيب عكسي أي من الحد الأقصى إلى الحد الأدنى.
+linktitle: ReverseOrder
+articleTitle: ReverseOrder
+second_title: Aspose.Words لـ .NET
+description: ChartAxis ReverseOrder ملكية. إرجاع أو تعيين علامة تشير إلى ما إذا كان يجب عرض قيم المحور بترتيب عكسي أي من الحد الأقصى إلى الحد الأدنى في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words.drawing.charts/chartaxis/reverseorder/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/reverseorder/
 public bool ReverseOrder { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 الخاصية غير مدعومة بمخططات MS Office 2016 الجديدة. القيمة الافتراضية هي`خطأ شنيع` .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مخطط وتعديل مظهر محاوره.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ### أنظر أيضا
 
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

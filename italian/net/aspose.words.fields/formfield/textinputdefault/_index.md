@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputDefault
-second_title: Aspose.Words per .NET API Reference
-description: FormField proprietà. Ottiene o imposta la stringa predefinita o unespressione di calcolo di un campo modulo di testo.
+linktitle: TextInputDefault
+articleTitle: TextInputDefault
+second_title: Aspose.Words per .NET
+description: FormField TextInputDefault proprietà. Ottiene o imposta la stringa predefinita o unespressione di calcolo di un campo modulo di testo in C#.
 type: docs
 weight: 190
 url: /it/net/aspose.words.fields/formfield/textinputdefault/
@@ -14,7 +16,7 @@ Ottiene o imposta la stringa predefinita o un'espressione di calcolo di un campo
 public string TextInputDefault { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il significato di questa proprietà dipende dal valore di[`TextInputType`](../textinputtype/) proprietà.
 
@@ -24,7 +26,7 @@ Quando[`TextInputType`](../textinputtype/) ÈCalculated, allora questa stringa c
 
 Microsoft Word consente stringhe con un massimo di 255 caratteri.
 
-### Esempi
+## Esempi
 
 Mostra come inserire diversi tipi di campi modulo in un documento ed elaborarli utilizzando un'implementazione del visitatore del documento.
 
@@ -158,7 +160,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [FormField](../)
-* spazio dei nomi [Aspose.Words.Fields](../../formfield/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarkCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: BookmarkCollection mülk. Koleksiyondaki yer imlerinin sayısını döndürür.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: BookmarkCollection Count mülk. Koleksiyondaki yer imlerinin sayısını döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/bookmarkcollection/count/
@@ -14,7 +16,7 @@ Koleksiyondaki yer imlerinin sayısını döndürür.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Yer işaretlerinin bir belgeden nasıl kaldırılacağını gösterir.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Ayrıca bakınız
 
 * class [BookmarkCollection](../)
-* ad alanı [Aspose.Words](../../bookmarkcollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

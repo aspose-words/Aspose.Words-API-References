@@ -1,7 +1,9 @@
 ---
 title: ImageSize.HeightPoints
-second_title: Aspose.Words for .NET API 参考
-description: ImageSize 财产. 获取图像的高度以磅为单位 1 点为 1/72 英寸
+linktitle: HeightPoints
+articleTitle: HeightPoints
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSize HeightPoints 财产. 获取图像的高度以磅为单位 1 点为 1/72 英寸 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing/imagesize/heightpoints/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/imagesize/heightpoints/
 public double HeightPoints { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用图像调整形状的大小。
 
@@ -71,7 +73,5 @@ public double HeightPoints { get; }
 ### 也可以看看
 
 * class [ImageSize](../)
-* 命名空间 [Aspose.Words.Drawing](../../imagesize/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

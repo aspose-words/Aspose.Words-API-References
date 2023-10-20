@@ -1,7 +1,9 @@
 ---
 title: TabStop.IsClear
-second_title: Aspose.Words لمراجع .NET API
-description: TabStop ملكية. إرجاعحقيقي إذا قامت علامة التبويب هذه بمسح أي علامات جدولة موجودة في هذا الموضع.
+linktitle: IsClear
+articleTitle: IsClear
+second_title: Aspose.Words لـ .NET
+description: TabStop IsClear ملكية. إرجاعحقيقي إذا قامت علامة التبويب هذه بمسح أي علامات جدولة موجودة في هذا الموضع في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/tabstop/isclear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/tabstop/isclear/
 public bool IsClear { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع مجموعة علامات الجدولة الخاصة بالمستند.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ### أنظر أيضا
 
 * class [TabStop](../)
-* مساحة الاسم [Aspose.Words](../../tabstop/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

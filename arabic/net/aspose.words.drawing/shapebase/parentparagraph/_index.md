@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.ParentParagraph
-second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. إرجاع الفقرة الأصلية المباشرة.
+linktitle: ParentParagraph
+articleTitle: ParentParagraph
+second_title: Aspose.Words لـ .NET
+description: ShapeBase ParentParagraph ملكية. إرجاع الفقرة الأصلية المباشرة في C#.
 type: docs
 weight: 410
 url: /ar/net/aspose.words.drawing/shapebase/parentparagraph/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/shapebase/parentparagraph/
 public Paragraph ParentParagraph { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 بالنسبة للأشكال التابعة لشكل المجموعة والأشكال الفرعية لكائن Office Math، يتم إرجاعها دائمًا`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مربع نص وتعيين خط محتوياته.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Shape.Font.docx");
 
 * class [Paragraph](../../../aspose.words/paragraph/)
 * class [ShapeBase](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shapebase/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

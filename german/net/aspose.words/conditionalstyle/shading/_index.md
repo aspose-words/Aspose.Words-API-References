@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Shading
-second_title: Aspose.Words für .NET-API-Referenz
-description: ConditionalStyle eigendom. Ruft a abShading Objekt das sich auf die Schattierungsformatierung für diesen bedingten Stil bezieht.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words für .NET
+description: ConditionalStyle Shading eigendom. Ruft a abShading Objekt das sich auf die Schattierungsformatierung für diesen bedingten Stil bezieht in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/conditionalstyle/shading/
@@ -14,7 +16,7 @@ Ruft a ab[`Shading`](../../shading/) Objekt, das sich auf die Schattierungsforma
 public Shading Shading { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [Shading](../../shading/)
 * class [ConditionalStyle](../)
-* namensraum [Aspose.Words](../../conditionalstyle/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

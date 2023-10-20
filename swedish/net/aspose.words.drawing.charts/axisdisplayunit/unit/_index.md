@@ -1,7 +1,9 @@
 ---
 title: AxisDisplayUnit.Unit
-second_title: Aspose.Words för .NET API Referens
-description: AxisDisplayUnit fast egendom. Hämtar eller ställer in skalningsvärdet för visningsenheterna som ett av de fördefinierade värdena.
+linktitle: Unit
+articleTitle: Unit
+second_title: Aspose.Words för .NET
+description: AxisDisplayUnit Unit fast egendom. Hämtar eller ställer in skalningsvärdet för visningsenheterna som ett av de fördefinierade värdena i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing.charts/axisdisplayunit/unit/
@@ -14,11 +16,11 @@ Hämtar eller ställer in skalningsvärdet för visningsenheterna som ett av de 
 public AxisBuiltInUnit Unit { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärNone . DeCustom och Percentage värden är inte tillgängliga i vissa diagramtyper; se [`AxisBuiltInUnit`](../../axisbuiltinunit/) för mer information.
 
-### Exempel
+## Exempel
 
 Visar hur man manipulerar bockmarkeringarna och visade värden för en diagramaxel.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [AxisBuiltInUnit](../../axisbuiltinunit/)
 * class [AxisDisplayUnit](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../axisdisplayunit/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

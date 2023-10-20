@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.HeaderFooterBookmarksExportMode
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. يحدد كيفية تصدير الإشارات المرجعية في الرؤوس/التذييلات.
+linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions HeaderFooterBookmarksExportMode ملكية. يحدد كيفية تصدير الإشارات المرجعية في الرؤوس/التذييلات في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيAll.
 
 يتم استخدام هذه الخاصية بالتزامن مع[`OutlineOptions`](../outlineoptions/) خيار.
 
-### أمثلة
+## أمثلة
 
 يظهر لمعالجة الإشارات المرجعية في الرؤوس/التذييلات في المستند الذي نعرضه إلى PDF.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", sa
 
 * enum [HeaderFooterBookmarksExportMode](../../headerfooterbookmarksexportmode/)
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

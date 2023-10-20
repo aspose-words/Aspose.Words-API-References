@@ -1,7 +1,9 @@
 ---
 title: Section.HeadersFooters
-second_title: Referencia de API de Aspose.Words para .NET
-description: Section propiedad. Proporciona acceso a los nodos de encabezados y pies de página de la sección.
+linktitle: HeadersFooters
+articleTitle: HeadersFooters
+second_title: Aspose.Words para .NET
+description: Section HeadersFooters propiedad. Proporciona acceso a los nodos de encabezados y pies de página de la sección en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words/section/headersfooters/
@@ -14,7 +16,7 @@ Proporciona acceso a los nodos de encabezados y pies de página de la sección.
 public HeaderFooterCollection HeadersFooters { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo reemplazar texto en el pie de página de un documento.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 
 * class [HeaderFooterCollection](../../headerfootercollection/)
 * class [Section](../)
-* espacio de nombres [Aspose.Words](../../section/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

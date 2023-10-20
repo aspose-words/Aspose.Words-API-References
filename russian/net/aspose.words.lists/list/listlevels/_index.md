@@ -1,7 +1,9 @@
 ---
 title: List.ListLevels
-second_title: Справочник по API Aspose.Words для .NET
-description: List свойство. Получает коллекцию уровней списка для этого списка.
+linktitle: ListLevels
+articleTitle: ListLevels
+second_title: Aspose.Words для .NET
+description: List ListLevels свойство. Получает коллекцию уровней списка для этого списка на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.lists/list/listlevels/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.lists/list/listlevels/
 public ListLevelCollection ListLevels { get; }
 ```
 
-### Примечания
+## Примечания
 
 Используйте это свойство для доступа и изменения форматирования отдельно для каждого уровня списка.
 
-### Примеры
+## Примеры
 
 Показывает, как применить пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
 
@@ -78,7 +80,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevelCollection](../../listlevelcollection/)
 * class [List](../)
-* пространство имен [Aspose.Words.Lists](../../list/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

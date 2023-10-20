@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Borders
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragrafın kenarlıklarının toplanmasını alır.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words for .NET
+description: ParagraphFormat Borders mülk. Paragrafın kenarlıklarının toplanmasını alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/paragraphformat/borders/
@@ -14,7 +16,7 @@ Paragrafın kenarlıklarının toplanmasını alır.
 public BorderCollection Borders { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Üst kenarlığı olan bir paragrafın nasıl ekleneceğini gösterir.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 
 * class [BorderCollection](../../bordercollection/)
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

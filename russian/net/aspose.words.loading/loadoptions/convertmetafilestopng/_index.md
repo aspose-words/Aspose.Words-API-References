@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.ConvertMetafilesToPng
-second_title: Справочник по API Aspose.Words для .NET
-description: LoadOptions свойство. Получает или задает необходимость преобразования метафайла Wmf илиEmf  изображения дляPng формат изображения.
+linktitle: ConvertMetafilesToPng
+articleTitle: ConvertMetafilesToPng
+second_title: Aspose.Words для .NET
+description: LoadOptions ConvertMetafilesToPng свойство. Получает или задает необходимость преобразования метафайла Wmf илиEmf  изображения дляPng формат изображения на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.loading/loadoptions/convertmetafilestopng/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.loading/loadoptions/convertmetafilestopng/
 public bool ConvertMetafilesToPng { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Метафайлы (Wmf илиEmf ) — это несжатый формат изображения, и иногда для хранения и обработки документа требуется много оперативной памяти. Эта опция позволяет конвертировать все изображения метафайлов вPng при загрузке документа. Обратите внимание: преобразование векторной графики в растровую снижает качество изображений.
 
-### Примеры
+## Примеры
 
 Показывает, как конвертировать WMF/EMF в PNG во время загрузки документа.
 
@@ -54,7 +56,5 @@ Document doc = new Document();
 ### Смотрите также
 
 * class [LoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../loadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

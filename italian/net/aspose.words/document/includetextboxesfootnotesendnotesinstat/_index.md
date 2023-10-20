@@ -1,7 +1,9 @@
 ---
 title: Document.IncludeTextboxesFootnotesEndnotesInStat
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Specifica se includere caselle di testo note a piè di pagina e note di chiusura nelle statistiche sul conteggio delle parole.
+linktitle: IncludeTextboxesFootnotesEndnotesInStat
+articleTitle: IncludeTextboxesFootnotesEndnotesInStat
+second_title: Aspose.Words per .NET
+description: Document IncludeTextboxesFootnotesEndnotesInStat proprietà. Specifica se includere caselle di testo note a piè di pagina e note di chiusura nelle statistiche sul conteggio delle parole in C#.
 type: docs
 weight: 220
 url: /it/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/
@@ -14,7 +16,7 @@ Specifica se includere caselle di testo, note a piè di pagina e note di chiusur
 public bool IncludeTextboxesFootnotesEndnotesInStat { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come includere o escludere caselle di testo, note a piè di pagina e note di chiusura dalle statistiche sul conteggio delle parole.
 
@@ -38,7 +40,5 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Words);
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

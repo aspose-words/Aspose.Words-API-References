@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.ImageSavingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: XamlFlowSaveOptions mülk. Bir belge XAMLye kaydedildiğinde görüntülerin nasıl kaydedileceğini kontrol etmenize izin verir.
+linktitle: ImageSavingCallback
+articleTitle: ImageSavingCallback
+second_title: Aspose.Words for .NET
+description: XamlFlowSaveOptions ImageSavingCallback mülk. Bir belge XAMLye kaydedildiğinde görüntülerin nasıl kaydedileceğini kontrol etmenize izin verir C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/xamlflowsaveoptions/imagesavingcallback/
@@ -14,7 +16,7 @@ Bir belge XAML'ye kaydedildiğinde görüntülerin nasıl kaydedileceğini kontr
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi akış formu .xaml'e dönüştürürken oluşturulan bağlantılı görüntülerin dosya adlarının nasıl yazdırılacağını gösterir.
 
@@ -81,7 +83,5 @@ private class ImageUriPrinter : IImageSavingCallback
 
 * interface [IImageSavingCallback](../../iimagesavingcallback/)
 * class [XamlFlowSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

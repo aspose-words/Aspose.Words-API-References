@@ -1,9 +1,11 @@
 ---
 title: Body.EnsureMinimum
-second_title: Aspose.Words for .NET API 参考
-description: Body 方法. 如果最后一个子级不是段落则创建并附加一个空段落
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: 用于 .NET 的 Aspose.Words
+description: Body EnsureMinimum 方法. 如果最后一个子级不是段落则创建并附加一个空段落 在 C#.
 type: docs
-weight: 70
+weight: 50
 url: /zh/net/aspose.words/body/ensureminimum/
 ---
 ## Body.EnsureMinimum method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/body/ensureminimum/
 public void EnsureMinimum()
 ```
 
-### 例子
+## 例子
 
 清除文档中所有部分的主要文本，保留部分本身。
 
@@ -52,7 +54,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### 也可以看看
 
 * class [Body](../)
-* 命名空间 [Aspose.Words](../../body/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

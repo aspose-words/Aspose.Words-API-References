@@ -1,7 +1,9 @@
 ---
 title: Body.NodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: Body свойство. ВозвращаетBody .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words для .NET
+description: Body NodeType свойство. ВозвращаетBody  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/body/nodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/body/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как перебирать дочерние элементы составного узла.
 
@@ -64,7 +66,5 @@ foreach (Node node in section)
 
 * enum [NodeType](../../nodetype/)
 * class [Body](../)
-* пространство имен [Aspose.Words](../../body/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

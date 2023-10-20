@@ -1,7 +1,9 @@
 ---
 title: PhoneticGuide.BaseText
-second_title: Aspose.Words für .NET-API-Referenz
-description: PhoneticGuide eigendom. Ruft den Basistext des phonetischen Leitfadens ab.
+linktitle: BaseText
+articleTitle: BaseText
+second_title: Aspose.Words für .NET
+description: PhoneticGuide BaseText eigendom. Ruft den Basistext des phonetischen Leitfadens ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/phoneticguide/basetext/
@@ -14,7 +16,7 @@ Ruft den Basistext des phonetischen Leitfadens ab.
 public string BaseText { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Eigenschaften des phonetischen Führers erhält.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### Siehe auch
 
 * class [PhoneticGuide](../)
-* namensraum [Aspose.Words](../../phoneticguide/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

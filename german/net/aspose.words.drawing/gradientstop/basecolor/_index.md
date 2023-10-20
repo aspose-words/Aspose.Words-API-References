@@ -1,7 +1,9 @@
 ---
 title: GradientStop.BaseColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: GradientStop eigendom. Ruft einen Wert ab der die Farbe des Farbverlaufsstopps ohne Modifikatoren darstellt.
+linktitle: BaseColor
+articleTitle: BaseColor
+second_title: Aspose.Words für .NET
+description: GradientStop BaseColor eigendom. Ruft einen Wert ab der die Farbe des Farbverlaufsstopps ohne Modifikatoren darstellt in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing/gradientstop/basecolor/
@@ -14,7 +16,7 @@ Ruft einen Wert ab, der die Farbe des Farbverlaufsstopps ohne Modifikatoren dars
 public Color BaseColor { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man der Verlaufsfüllung Verlaufsstopps hinzufügt.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### Siehe auch
 
 * class [GradientStop](../)
-* namensraum [Aspose.Words.Drawing](../../gradientstop/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

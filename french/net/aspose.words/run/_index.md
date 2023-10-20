@@ -1,7 +1,9 @@
 ---
-title: Class Run
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Run classe. Représente une série de caractères avec le même formatage de police.
+title: Run Class
+linktitle: Run
+articleTitle: Run
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Run classe. Représente une série de caractères avec le même formatage de police en C#.
 type: docs
 weight: 4820
 url: /fr/net/aspose.words/run/
@@ -20,8 +22,8 @@ public class Run : Inline
 
 | Nom | La description |
 | --- | --- |
-| [Run](run/#constructor)(DocumentBase) | Initialise une nouvelle instance du`Run` classe. |
-| [Run](run/#constructor_1)(DocumentBase, string) | Initialise une nouvelle instance du **Courir** classe. |
+| [Run](run/#constructor)(*[DocumentBase](../documentbase/)*) | Initialise une nouvelle instance du`Run` classe. |
+| [Run](run/#constructor_1)(*[DocumentBase](../documentbase/), string*) | Initialise une nouvelle instance du**Courir** classe. |
 
 ## Propriétés
 
@@ -50,24 +52,24 @@ public class Run : Inline
 
 | Nom | La description |
 | --- | --- |
-| override [Accept](../../aspose.words/run/accept/)(DocumentVisitor) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crée un duplicata du nœud. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
+| override [Accept](../../aspose.words/run/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepte un visiteur. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un duplicata du nœud. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtient le premier ancêtre du type d'objet spécifié. |
 | override [GetText](../../aspose.words/run/gettext/)() | Récupère le texte de l'exécution. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
 
-### Remarques
+## Remarques
 
 Tout le texte du document est stocké sous forme de séquences de texte.
 
 `Run` ne peut être qu'un enfant de[`Paragraph`](../paragraph/) ou en ligne[`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/).
 
-### Exemples
+## Exemples
 
 Montre comment formater une séquence de texte à l’aide de sa propriété font.
 
@@ -182,5 +184,3 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 * class [Inline](../inline/)
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

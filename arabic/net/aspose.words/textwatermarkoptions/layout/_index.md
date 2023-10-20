@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.Layout
-second_title: Aspose.Words لمراجع .NET API
-description: TextWatermarkOptions ملكية. الحصول على تخطيط العلامة المائية أو تعيينه. القيمة الافتراضية هيDiagonal .
+linktitle: Layout
+articleTitle: Layout
+second_title: Aspose.Words لـ .NET
+description: TextWatermarkOptions Layout ملكية. الحصول على تخطيط العلامة المائية أو تعيينه. القيمة الافتراضية هيDiagonal  في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/textwatermarkoptions/layout/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/textwatermarkoptions/layout/
 public WatermarkLayout Layout { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مائية نصية.
 
@@ -46,7 +48,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * enum [WatermarkLayout](../../watermarklayout/)
 * class [TextWatermarkOptions](../)
-* مساحة الاسم [Aspose.Words](../../textwatermarkoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

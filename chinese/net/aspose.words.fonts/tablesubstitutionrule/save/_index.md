@@ -1,12 +1,14 @@
 ---
 title: TableSubstitutionRule.Save
-second_title: Aspose.Words for .NET API 参考
-description: TableSubstitutionRule 方法. 将当前表替换设置保存到文件
+linktitle: Save
+articleTitle: Save
+second_title: 用于 .NET 的 Aspose.Words
+description: TableSubstitutionRule Save 方法. 将当前表替换设置保存到文件 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 将当前表替换设置保存到文件。
 
@@ -18,7 +20,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | 输出文件名。 |
 
-### 例子
+## 例子
 
 演示如何访问 Windows 和 Linux 的字体替换表。
 
@@ -57,12 +59,12 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### 也可以看看
 
 * class [TableSubstitutionRule](../)
-* 命名空间 [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 将当前表替换设置保存到流中。
 
@@ -74,7 +76,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | 输出流。 |
 
-### 例子
+## 例子
 
 演示如何访问 Windows 和 Linux 的字体替换表。
 
@@ -113,7 +115,5 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 ### 也可以看看
 
 * class [TableSubstitutionRule](../)
-* 命名空间 [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

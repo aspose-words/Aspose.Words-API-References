@@ -1,7 +1,9 @@
 ---
-title: Enum EmbeddedFontFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.EmbeddedFontFormat 枚举. 指定内部特定嵌入字体的格式FontInfo目的
+title: EmbeddedFontFormat Enum
+linktitle: EmbeddedFontFormat
+articleTitle: EmbeddedFontFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fonts.EmbeddedFontFormat 枚举. 指定内部特定嵌入字体的格式FontInfo目的 在 C#.
 type: docs
 weight: 2850
 url: /zh/net/aspose.words.fonts/embeddedfontformat/
@@ -23,7 +25,7 @@ public enum EmbeddedFontFormat
 | EmbeddedOpenType | `0` | 指定嵌入式 OpenType (EOT) 文件格式。 |
 | OpenType | `1` | 指定字体，嵌入为 OpenType (TrueType) 字体文件的纯文本副本。 |
 
-### 例子
+## 例子
 
 演示如何从文档中提取嵌入字体，并将其保存到本地文件系统。
 
@@ -51,5 +53,3 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * 命名空间 [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.PixelToNewDpi
-second_title: Aspose.Words لمراجع .NET API
-description: ConvertUtil طريقة. تحويل وحدات البكسل من دقة إلى أخرى.
+linktitle: PixelToNewDpi
+articleTitle: PixelToNewDpi
+second_title: Aspose.Words لـ .NET
+description: ConvertUtil PixelToNewDpi طريقة. تحويل وحدات البكسل من دقة إلى أخرى في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/convertutil/pixeltonewdpi/
@@ -20,7 +22,7 @@ public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
 | oldDpi | Double | الدقة الحالية للنقطة في البوصة (النقاط في البوصة). |
 | newDpi | Double | دقة dpi (النقاط في البوصة) الجديدة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام تحويل النقاط إلى وحدات بكسل بدقة افتراضية ومخصصة.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixelsDpi.docx");
 ### أنظر أيضا
 
 * class [ConvertUtil](../)
-* مساحة الاسم [Aspose.Words](../../convertutil/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

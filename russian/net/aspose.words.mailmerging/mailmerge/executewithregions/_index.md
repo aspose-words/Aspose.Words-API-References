@@ -1,12 +1,14 @@
 ---
 title: MailMerge.ExecuteWithRegions
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge метод. Выполняет слияние почты из пользовательского источника данных с регионами слияния почты.
+linktitle: ExecuteWithRegions
+articleTitle: ExecuteWithRegions
+second_title: Aspose.Words для .NET
+description: MailMerge ExecuteWithRegions метод. Выполняет слияние почты из пользовательского источника данных с регионами слияния почты на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
-## ExecuteWithRegions(IMailMergeDataSource) {#executewithregions}
+## ExecuteWithRegions(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#executewithregions}
 
 Выполняет слияние почты из пользовательского источника данных с регионами слияния почты.
 
@@ -18,13 +20,13 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 | --- | --- | --- |
 | dataSource | IMailMergeDataSource | Объект, реализующий пользовательский интерфейс источника данных слияния почты. |
 
-### Примечания
+## Примечания
 
 Используйте этот метод для заполнения полей слияния почты в документе значениями из любого пользовательского источника данных, такого как XML-файл или коллекции бизнес-объектов. Вам нужно написать собственный класс your , реализующий[`IMailMergeDataSource`](../../imailmergedatasource/) интерфейс.
 
 Вы можете использовать этот метод только тогда, когда[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) является`ЛОЖЬ`, то есть вам не нужна совместимость с языками с письмом справа налево (например, арабским или ивритом).
 
-### Примеры
+## Примеры
 
 Показывает, как использовать регионы слияния почты для выполнения вложенного слияния почты.
 
@@ -271,12 +273,12 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(IMailMergeDataSourceRoot) {#executewithregions_1}
+## ExecuteWithRegions(*[IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)*) {#executewithregions_1}
 
 Выполняет слияние почты из пользовательского источника данных с регионами слияния почты.
 
@@ -288,13 +290,13 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 | --- | --- | --- |
 | dataSourceRoot | IMailMergeDataSourceRoot | Объект, реализующий корневой интерфейс пользовательского источника данных слияния почты. |
 
-### Примечания
+## Примечания
 
 Используйте этот метод для заполнения полей слияния почты в документе значениями из любого пользовательского источника данных, такого как XML-файл или коллекции бизнес-объектов. Вам нужно написать свои собственные классы , реализующие[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) и[`IMailMergeDataSource`](../../imailmergedatasource/) интерфейсы.
 
 Вы можете использовать этот метод только тогда, когда[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) является`ЛОЖЬ`, то есть вам не нужна совместимость с языками с письмом справа налево (например, арабским или ивритом).
 
-### Примеры
+## Примеры
 
 Выполняет слияние почты из пользовательского источника данных с основными и подробными данными.
 
@@ -478,14 +480,14 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataSet) {#executewithregions_2}
+## ExecuteWithRegions(*DataSet*) {#executewithregions_2}
 
-Выполняет слияние почты из **Набор данных** в документ с регионами слияния почты.
+Выполняет слияние почты из**Набор данных** в документ с регионами слияния почты.
 
 ```csharp
 public void ExecuteWithRegions(DataSet dataSet)
@@ -495,31 +497,31 @@ public void ExecuteWithRegions(DataSet dataSet)
 | --- | --- | --- |
 | dataSet | DataSet | **Набор данных** который содержит данные для вставки в поля слияния почты. |
 
-### Примечания
+## Примечания
 
 Используйте этот метод для выполнения слияния почты из одной или нескольких таблиц в повторяющиеся области слияния mail в документе. Области слияния почты внутри документа будут динамически увеличиваться, чтобы разместить записи в соответствующих таблицах.
 
-Каждый стол в **Набор данных** должно иметь имя.
+Каждый стол в**Набор данных** должно иметь имя.
 
-В документе должны быть определены области слияния почты с именами, которые ссылаются на table в **Набор данных**.
+В документе должны быть определены области слияния почты с именами, которые ссылаются на table в**Набор данных**.
 
 Чтобы указать в документе регион слияния почты, вам необходимо вставить два поля слияния почты , чтобы отметить начало и конец региона слияния почты.
 
-Все содержимое документа, включенное в область слияния почты, будет автоматически повторяться для каждой записи в **Таблица данных**.
+Все содержимое документа, включенное в область слияния почты, будет автоматически повторяться для каждой записи в**Таблица данных**.
 
-Чтобы отметить начало региона слияния почты, вставьте MERGEFIELD с именем TableStart:MyTable, , где MyTable соответствует одному из имен таблиц в вашем **Набор данных**.
+Чтобы отметить начало региона слияния почты, вставьте MERGEFIELD с именем TableStart:MyTable, , где MyTable соответствует одному из имен таблиц в вашем**Набор данных**.
 
 Чтобы отметить конец региона слияния почты, вставьте еще одно поле MERGEFIELD с именем TableEnd:MyTable.
 
 Чтобы вставить MERGEFIELD в Word, используйте команду Insert/Field и выберите MergeField, затем введите имя поля.
 
-**ТаблеСтарт** и **Конец таблицы** поля должны находиться в одном разделе вашего документа.
+**ТаблеСтарт** и**Конец таблицы** поля должны находиться в одном разделе вашего документа.
 
-Если используется внутри таблицы, **ТаблеСтарт** и **Конец таблицы** должно находиться внутри одной строки таблицы.
+Если используется внутри таблицы,**ТаблеСтарт** и**Конец таблицы** должно находиться внутри одной строки таблицы.
 
-Области слияния почты в документе должны быть правильно сформированы (всегда должна быть пара match  **ТаблеСтарт** и **Конец таблицы** объединить поля с одинаковым именем таблицы).
+Области слияния почты в документе должны быть правильно сформированы (всегда должна быть пара match **ТаблеСтарт** и**Конец таблицы** объединить поля с одинаковым именем таблицы).
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить вложенное слияние почты с двумя областями слияния и двумя таблицами данных.
 
@@ -603,14 +605,14 @@ private static DataSet CreateDataSet()
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataTable) {#executewithregions_3}
+## ExecuteWithRegions(*DataTable*) {#executewithregions_3}
 
-Выполняет слияние почты из **Таблица данных** в документ с регионами слияния почты.
+Выполняет слияние почты из**Таблица данных** в документ с регионами слияния почты.
 
 ```csharp
 public void ExecuteWithRegions(DataTable dataTable)
@@ -620,13 +622,13 @@ public void ExecuteWithRegions(DataTable dataTable)
 | --- | --- | --- |
 | dataTable | DataTable | Источник данных для операции слияния почты. Таблица must имеет свойTableName набор свойств. |
 
-### Примечания
+## Примечания
 
 В документе должен быть определен регион слияния почты с именем, соответствующим .TableName.
 
 Если в документе определены другие регионы слияния почты, они остаются нетронутыми. Это позволяет выполнять несколько операций слияния почты.
 
-### Примеры
+## Примеры
 
 Демонстрирует, как форматировать ячейки во время слияния почты.
 
@@ -762,14 +764,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataView) {#executewithregions_4}
+## ExecuteWithRegions(*DataView*) {#executewithregions_4}
 
-Выполняет слияние почты из **Просмотр данных** в документ с регионами слияния почты.
+Выполняет слияние почты из**Просмотр данных** в документ с регионами слияния почты.
 
 ```csharp
 public void ExecuteWithRegions(DataView dataView)
@@ -777,17 +779,17 @@ public void ExecuteWithRegions(DataView dataView)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataView | DataView | Источник данных для операции слияния почты. Исходная таблица  **Просмотр данных** должен иметь свое **ИмяТаблицы** набор свойств. |
+| dataView | DataView | Источник данных для операции слияния почты. Исходная таблица **Просмотр данных** должен иметь свое**ИмяТаблицы** набор свойств. |
 
-### Примечания
+## Примечания
 
-Этот метод полезен, если вы извлекаете данные в **Таблица данных** но тогда необходимо применить фильтр или сортировку перед слиянием почты.
+Этот метод полезен, если вы извлекаете данные в**Таблица данных** но тогда необходимо применить фильтр или сортировку перед слиянием почты.
 
-В документе должен быть определен регион слияния почты с именем, соответствующим . **DataView.Table.TableName**.
+В документе должен быть определен регион слияния почты с именем, соответствующим .**DataView.Table.TableName**.
 
 Если в документе определены другие регионы слияния почты, они остаются нетронутыми. Это позволяет выполнять несколько операций слияния почты.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать регионы для выполнения двух отдельных слияний почты в одном документе.
 
@@ -843,14 +845,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(IDataReader, string) {#executewithregions_5}
+## ExecuteWithRegions(*IDataReader, string*) {#executewithregions_5}
 
-Выполняет слияние почты из **Идатаридер** в документ с регионами слияния почты.
+Выполняет слияние почты из**Идатаридер** в документ с регионами слияния почты.
 
 ```csharp
 public void ExecuteWithRegions(IDataReader dataReader, string tableName)
@@ -858,14 +860,14 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataReader | IDataReader | Источник записей данных для слияния почты, например **ОлеДбDataReader** или **SqlDataReader**. |
+| dataReader | IDataReader | Источник записей данных для слияния почты, например**ОлеДбDataReader** или**SqlDataReader**. |
 | tableName | String | Имя региона слияния почты в заполняемом документе. |
 
-### Примечания
+## Примечания
 
-Вы можете пройти **SqlDataReader** или **ОлеДбDataReader**объект в метод this в качестве параметра, поскольку они оба реализовали **Идатаридер** интерфейс.
+Вы можете пройти**SqlDataReader** или**ОлеДбDataReader**объект в метод this в качестве параметра, поскольку они оба реализовали**Идатаридер** интерфейс.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в отчет изображения, хранящиеся в BLOB-поле базы данных.
 
@@ -914,7 +916,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

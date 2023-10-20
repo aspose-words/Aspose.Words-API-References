@@ -1,7 +1,9 @@
 ---
 title: RevisionGroupCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: RevisionGroupCollection propiedad. Devuelve un grupo de revisión en el índice especificado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: RevisionGroupCollection Item propiedad. Devuelve un grupo de revisión en el índice especificado en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words/revisiongroupcollection/item/
@@ -14,7 +16,7 @@ Devuelve un grupo de revisión en el índice especificado.
 public RevisionGroup this[int index] { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo obtener un grupo de revisiones en un documento.
 
@@ -28,7 +30,5 @@ RevisionGroup revisionGroup = doc.Revisions.Groups[0];
 
 * class [RevisionGroup](../../revisiongroup/)
 * class [RevisionGroupCollection](../)
-* espacio de nombres [Aspose.Words](../../revisiongroupcollection/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

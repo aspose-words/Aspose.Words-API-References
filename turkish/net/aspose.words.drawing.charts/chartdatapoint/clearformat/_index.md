@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.ClearFormat
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataPoint yöntem. Bu veri noktasının biçimini temizler. Özellikler üst seride tanımlanan varsayılan değerlere ayarlanır.
+linktitle: ClearFormat
+articleTitle: ClearFormat
+second_title: Aspose.Words for .NET
+description: ChartDataPoint ClearFormat yöntem. Bu veri noktasının biçimini temizler. Özellikler üst seride tanımlanan varsayılan değerlere ayarlanır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing.charts/chartdatapoint/clearformat/
@@ -17,7 +19,5 @@ public void ClearFormat()
 ### Ayrıca bakınız
 
 * class [ChartDataPoint](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

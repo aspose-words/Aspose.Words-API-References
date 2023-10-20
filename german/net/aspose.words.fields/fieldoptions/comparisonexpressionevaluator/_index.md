@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.ComparisonExpressionEvaluator
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Ruft den FeldvergleichsausdruckEvaluator ab oder legt ihn fest.
+linktitle: ComparisonExpressionEvaluator
+articleTitle: ComparisonExpressionEvaluator
+second_title: Aspose.Words für .NET
+description: FieldOptions ComparisonExpressionEvaluator eigendom. Ruft den FeldvergleichsausdruckEvaluator ab oder legt ihn fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldoptions/comparisonexpressionevaluator/
@@ -14,7 +16,7 @@ Ruft den Feldvergleichsausdruck-Evaluator ab oder legt ihn fest.
 public IComparisonExpressionEvaluator ComparisonExpressionEvaluator { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine benutzerdefinierte Auswertung für die Felder IF und COMPARE implementiert wird.
 
@@ -99,7 +101,5 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * interface [IComparisonExpressionEvaluator](../../icomparisonexpressionevaluator/)
 * class [FieldOptions](../)
-* namensraum [Aspose.Words.Fields](../../fieldoptions/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

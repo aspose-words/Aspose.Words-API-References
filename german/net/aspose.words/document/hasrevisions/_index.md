@@ -1,7 +1,9 @@
 ---
 title: Document.HasRevisions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Gibt zurückWAHR ob das Dokument nachverfolgte Änderungen aufweist.
+linktitle: HasRevisions
+articleTitle: HasRevisions
+second_title: Aspose.Words für .NET
+description: Document HasRevisions eigendom. Gibt zurückWAHR ob das Dokument nachverfolgte Änderungen aufweist in C#.
 type: docs
 weight: 200
 url: /de/net/aspose.words/document/hasrevisions/
@@ -14,11 +16,11 @@ Gibt zurück`WAHR` ob das Dokument nachverfolgte Änderungen aufweist.
 public bool HasRevisions { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft ist eine Abkürzung zum Vergleichen[`Count`](../../revisioncollection/count/)auf Null.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Revisionen in einem Dokument gearbeitet wird.
 
@@ -101,7 +103,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Siehe auch
 
 * class [Document](../)
-* namensraum [Aspose.Words](../../document/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

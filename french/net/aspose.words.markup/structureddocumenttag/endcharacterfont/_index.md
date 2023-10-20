@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.EndCharacterFont
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Formatage de la police qui sera appliqué au dernier caractère du texte saisi dans TSD .
+linktitle: EndCharacterFont
+articleTitle: EndCharacterFont
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag EndCharacterFont propriété. Formatage de la police qui sera appliqué au dernier caractère du texte saisi dansTSD  en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.markup/structureddocumenttag/endcharacterfont/
 ---
 ## StructuredDocumentTag.EndCharacterFont property
 
-Formatage de la police qui sera appliqué au dernier caractère du texte saisi dans **TSD** .
+Formatage de la police qui sera appliqué au dernier caractère du texte saisi dans**TSD** .
 
 ```csharp
 public Font EndCharacterFont { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une balise de document structuré dans une zone de texte brut et modifier son apparence.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

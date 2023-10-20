@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelPosition
-second_title: Aspose.Words per .NET API Reference
-description: ChartAxis proprietà. Restituisce o imposta la posizione delle etichette dei tick sullasse.
+linktitle: TickLabelPosition
+articleTitle: TickLabelPosition
+second_title: Aspose.Words per .NET
+description: ChartAxis TickLabelPosition proprietà. Restituisce o imposta la posizione delle etichette dei tick sullasse in C#.
 type: docs
 weight: 240
 url: /it/net/aspose.words.drawing.charts/chartaxis/ticklabelposition/
@@ -14,11 +16,11 @@ Restituisce o imposta la posizione delle etichette dei tick sull'asse.
 public AxisTickLabelPosition TickLabelPosition { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La proprietà non è supportata dai nuovi grafici di MS Office 2016.
 
-### Esempi
+## Esempi
 
 Mostra come inserire un grafico e modificare l'aspetto dei suoi assi.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisTickLabelPosition](../../axisticklabelposition/)
 * class [ChartAxis](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

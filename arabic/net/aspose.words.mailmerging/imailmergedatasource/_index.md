@@ -1,7 +1,9 @@
 ---
-title: Interface IMailMergeDataSource
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.MailMerging.IMailMergeDataSource واجهه المستخدم. قم بتنفيذ هذه الواجهة للسماح بدمج البريد من مصدر بيانات مخصص مثل قائمة الكائنات. يتم أيضًا دعم البيانات الرئيسية والتفصيلية.
+title: IMailMergeDataSource Interface
+linktitle: IMailMergeDataSource
+articleTitle: IMailMergeDataSource
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.MailMerging.IMailMergeDataSource واجهه المستخدم. قم بتنفيذ هذه الواجهة للسماح بدمج البريد من مصدر بيانات مخصص مثل قائمة الكائنات. يتم أيضًا دعم البيانات الرئيسية والتفصيلية في C#.
 type: docs
 weight: 3810
 url: /ar/net/aspose.words.mailmerging/imailmergedatasource/
@@ -24,15 +26,15 @@ public interface IMailMergeDataSource
 
 | اسم | وصف |
 | --- | --- |
-| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(string) | يقوم محرك دمج المراسلات Aspose.Words باستدعاء هذه الطريقة عندما يواجه بداية منطقة دمج المراسلات المتداخلة. |
-| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(string, out object) | إرجاع قيمة لاسم الحقل المحدد أو`خطأ شنيع` إذا لم يتم العثور على الحقل. |
+| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | يقوم محرك دمج المراسلات Aspose.Words باستدعاء هذه الطريقة عندما يواجه بداية منطقة دمج المراسلات المتداخلة. |
+| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(*string, out object*) | إرجاع قيمة لاسم الحقل المحدد أو`خطأ شنيع` إذا لم يتم العثور على الحقل. |
 | [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | التقدم إلى السجل التالي في مصدر البيانات. |
 
-### ملاحظات
+## ملاحظات
 
 عند إنشاء مصدر بيانات، يجب تهيئته للإشارة إلى BOF (قبل السجل الأول). سيقوم محرك دمج البريد Aspose.Words باستدعاء[`MoveNext`](./movenext/) للتقدم إلى السجل التالي و ثم الاستدعاء[`GetValue`](./getvalue/) لكل حقل دمج يواجهه في المستند أو منطقة دمج المراسلات الحالية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع مصدر بيانات في شكل كائن مخصص.
 
@@ -147,5 +149,3 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 
 * مساحة الاسم [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../)
-
-

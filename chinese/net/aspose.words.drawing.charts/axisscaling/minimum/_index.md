@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Minimum
-second_title: Aspose.Words for .NET API 参考
-description: AxisScaling 财产. 获取或设置轴的最小值
+linktitle: Minimum
+articleTitle: Minimum
+second_title: 用于 .NET 的 Aspose.Words
+description: AxisScaling Minimum 财产. 获取或设置轴的最小值 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing.charts/axisscaling/minimum/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/axisscaling/minimum/
 public AxisBound Minimum { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为“自动”。
 
-### 例子
+## 例子
 
 演示如何插入带有日期/时间值的图表。
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisBound](../../axisbound/)
 * class [AxisScaling](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class PlainTextDocument
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.PlainTextDocument classe. Permet dextraire une représentation en texte brut du contenu du document.
+title: PlainTextDocument Class
+linktitle: PlainTextDocument
+articleTitle: PlainTextDocument
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.PlainTextDocument classe. Permet dextraire une représentation en texte brut du contenu du document en C#.
 type: docs
 weight: 4440
 url: /fr/net/aspose.words/plaintextdocument/
@@ -20,10 +22,10 @@ public class PlainTextDocument
 
 | Nom | La description |
 | --- | --- |
-| [PlainTextDocument](plaintextdocument/#constructor)(Stream) | Crée un document en texte brut à partir d'un flux. Détecte automatiquement le format de fichier. |
-| [PlainTextDocument](plaintextdocument/#constructor_2)(string) | Crée un document en texte brut à partir d'un fichier. Détecte automatiquement le format de fichier. |
-| [PlainTextDocument](plaintextdocument/#constructor_1)(Stream, LoadOptions) | Crée un document en texte brut à partir d'un flux. Permet de spécifier des options supplémentaires telles qu'un mot de passe de cryptage. |
-| [PlainTextDocument](plaintextdocument/#constructor_3)(string, LoadOptions) | Crée un document en texte brut à partir d'un fichier. Permet de spécifier des options supplémentaires telles qu'un mot de passe de cryptage. |
+| [PlainTextDocument](plaintextdocument/#constructor)(*Stream*) | Crée un document en texte brut à partir d'un flux. Détecte automatiquement le format de fichier. |
+| [PlainTextDocument](plaintextdocument/#constructor_2)(*string*) | Crée un document en texte brut à partir d'un fichier. Détecte automatiquement le format de fichier. |
+| [PlainTextDocument](plaintextdocument/#constructor_1)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Crée un document en texte brut à partir d'un flux. Permet de spécifier des options supplémentaires telles qu'un mot de passe de cryptage. |
+| [PlainTextDocument](plaintextdocument/#constructor_3)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Crée un document en texte brut à partir d'un fichier. Permet de spécifier des options supplémentaires telles qu'un mot de passe de cryptage. |
 
 ## Propriétés
 
@@ -33,7 +35,7 @@ public class PlainTextDocument
 | [CustomDocumentProperties](../../aspose.words/plaintextdocument/customdocumentproperties/) { get; } | Obtient[`CustomDocumentProperties`](./customdocumentproperties/) du document. |
 | [Text](../../aspose.words/plaintextdocument/text/) { get; } | Obtient le contenu textuel du document concaténé sous forme de chaîne. |
 
-### Exemples
+## Exemples
 
 Montre comment charger le contenu d'un document Microsoft Word en texte brut.
 
@@ -53,5 +55,3 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.TableName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergingArgsBase свойство. Получает имя таблицы данных для текущей операции слияния или пустую строку если имя недоступно.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words для .NET
+description: FieldMergingArgsBase TableName свойство. Получает имя таблицы данных для текущей операции слияния или пустую строку если имя недоступно на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
 public string TableName { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять поля формы флажка в поля MERGEFIELD в качестве данных слияния во время слияния почты.
 
@@ -100,7 +102,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Смотрите также
 
 * class [FieldMergingArgsBase](../)
-* пространство имен [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

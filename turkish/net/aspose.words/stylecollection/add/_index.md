@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Add
-second_title: Aspose.Words for .NET API Referansı
-description: StyleCollection yöntem. Kullanıcı tanımlı yeni bir stil oluşturur ve onu koleksiyona ekler.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: StyleCollection Add yöntem. Kullanıcı tanımlı yeni bir stil oluşturur ve onu koleksiyona ekler C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/stylecollection/add/
@@ -19,7 +21,7 @@ public Style Add(StyleType type, string name)
 | type | StyleType | A[`StyleType`](../../styletype/) Oluşturulacak stilin türünü belirten değer. |
 | name | String | Oluşturulacak stilin büyük/küçük harfe duyarlı adı. |
 
-### Notlar
+## Notlar
 
 Karakter, paragraf veya liste stili oluşturabilirsiniz.
 
@@ -27,7 +29,7 @@ Liste stili oluşturulurken stil, varsayılan numaralı liste formatıyla (1\a\i
 
 Bu ada sahip bir stil zaten mevcutsa bir istisna atar.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin stil koleksiyonuna nasıl Stil ekleneceğini gösterir.
 
@@ -108,7 +110,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 * class [Style](../../style/)
 * enum [StyleType](../../styletype/)
 * class [StyleCollection](../)
-* ad alanı [Aspose.Words](../../stylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.LeftIndent
-second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. Obtiene o establece el valor que representa la sangría izquierda de la tabla.
+linktitle: LeftIndent
+articleTitle: LeftIndent
+second_title: Aspose.Words para .NET
+description: Table LeftIndent propiedad. Obtiene o establece el valor que representa la sangría izquierda de la tabla en C#.
 type: docs
 weight: 190
 url: /es/net/aspose.words.tables/table/leftindent/
@@ -14,7 +16,7 @@ Obtiene o establece el valor que representa la sangría izquierda de la tabla.
 public double LeftIndent { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear una tabla formateada usando DocumentBuilder.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 ### Ver también
 
 * class [Table](../)
-* espacio de nombres [Aspose.Words.Tables](../../table/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

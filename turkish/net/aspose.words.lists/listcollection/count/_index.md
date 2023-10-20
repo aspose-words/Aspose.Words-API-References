@@ -1,7 +1,9 @@
 ---
 title: ListCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: ListCollection mülk. Belgedeki numaralı ve madde işaretli listelerin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: ListCollection Count mülk. Belgedeki numaralı ve madde işaretli listelerin sayısını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.lists/listcollection/count/
@@ -14,7 +16,7 @@ Belgedeki numaralı ve madde işaretli listelerin sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Listelerin sahip belge özelliklerinin nasıl doğrulanacağını gösterir.
 
@@ -36,7 +38,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 ### Ayrıca bakınız
 
 * class [ListCollection](../)
-* ad alanı [Aspose.Words.Lists](../../listcollection/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class HeaderFooterCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.HeaderFooterCollection сорт. Обеспечивает типизированный доступ кHeaderFooter узлы аSection .
+title: HeaderFooterCollection Class
+linktitle: HeaderFooterCollection
+articleTitle: HeaderFooterCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.HeaderFooterCollection сорт. Обеспечивает типизированный доступ кHeaderFooter узлы аSection  на С#.
 type: docs
 weight: 3110
 url: /ru/net/aspose.words/headerfootercollection/
@@ -27,19 +29,19 @@ public class HeaderFooterCollection : NodeCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Добавляет узел в конец коллекции. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Добавляет узел в конец коллекции. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Удаляет все узлы из этой коллекции и из документа. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Определяет, находится ли узел в коллекции. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Определяет, находится ли узел в коллекции. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию стиля foreach по коллекции узлов. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Возвращает индекс указанного узла, начинающийся с нуля. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Вставляет узел в коллекцию по указанному индексу. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(bool) | Связывает или отключает все верхние и нижние колонтитулы с соответствующими верхними и нижними колонтитулами в предыдущем разделе. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(HeaderFooterType, bool) | Связывает или отменяет связь указанного верхнего или нижнего колонтитула с соответствующим заголовком или нижним колонтитулом в предыдущем разделе. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Удаляет узел из коллекции и из документа. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Удаляет узел по указанному индексу из коллекции и из документа. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Возвращает индекс указанного узла, начинающийся с нуля. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Вставляет узел в коллекцию по указанному индексу. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(*bool*) | Связывает или отключает все верхние и нижние колонтитулы с соответствующими верхними и нижними колонтитулами в предыдущем разделе. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(*[HeaderFooterType](../headerfootertype/), bool*) | Связывает или отменяет связь указанного верхнего или нижнего колонтитула с соответствующим заголовком или нижним колонтитулом в предыдущем разделе. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Удаляет узел из коллекции и из документа. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Удаляет узел по указанному индексу из коллекции и из документа. |
 | [ToArray](../../aspose.words/headerfootercollection/toarray/#toarray)() | Копирует все`ЗаголовокФоортер` s из коллекции в новый массив`ЗаголовокФоортер` s. (2 methods) |
 
-### Примечания
+## Примечания
 
 Максимум может быть один[`HeaderFooter`](../headerfooter/)
 
@@ -47,7 +49,7 @@ public class HeaderFooterCollection : NodeCollection
 
 [`HeaderFooter`](../headerfooter/) объекты могут встречаться в коллекции в любом порядке.
 
-### Примеры
+## Примеры
 
 Показывает, как удалить все нижние колонтитулы из документа.
 
@@ -113,5 +115,3 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 * class [NodeCollection](../nodecollection/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

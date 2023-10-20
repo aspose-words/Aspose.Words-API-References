@@ -1,7 +1,9 @@
 ---
-title: BuildingBlock.BuildingBlock
-second_title: Aspose.Words för .NET API Referens
-description: BuildingBlock byggare. Initierar en ny instans av den här klassen.
+title: BuildingBlock
+linktitle: BuildingBlock
+articleTitle: BuildingBlock
+second_title: Aspose.Words för .NET
+description: BuildingBlock byggare. Initierar en ny instans av den här klassen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.buildingblocks/buildingblock/buildingblock/
@@ -18,13 +20,13 @@ public BuildingBlock(GlossaryDocument glossaryDoc)
 | --- | --- | --- |
 | glossaryDoc | GlossaryDocument | Ägardokumentet. |
 
-### Anmärkningar
+## Anmärkningar
 
 När[`BuildingBlock`](../)skapas, det tillhör det angivna ordlistadokumentet, men är ännu inte en del av ordlistasdokumentet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null`.
 
-Att lägga till[`BuildingBlock`](../)till a[`GlossaryDocument`](../../glossarydocument/) använd Node).
+Att lägga till[`BuildingBlock`](../)till a[`GlossaryDocument`](../../glossarydocument/) använd [`AppendChild`](../../../aspose.words/compositenode/appendchild/).
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett anpassat byggblock till ett dokument.
 
@@ -122,7 +124,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * class [GlossaryDocument](../../glossarydocument/)
 * class [BuildingBlock](../)
-* namnutrymme [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* namnutrymme [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * hopsättning [Aspose.Words](../../../)
-
-

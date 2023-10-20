@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Reset
-second_title: Aspose.Words for .NET API Referansı
-description: LayoutEnumerator yöntem. Numaralandırıcıyı belgenin ilk sayfasına taşır.
+linktitle: Reset
+articleTitle: Reset
+second_title: Aspose.Words for .NET
+description: LayoutEnumerator Reset yöntem. Numaralandırıcıyı belgenin ilk sayfasına taşır C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.layout/layoutenumerator/reset/
@@ -14,7 +16,7 @@ Numaralandırıcıyı belgenin ilk sayfasına taşır.
 public void Reset()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Ayrıca bakınız
 
 * class [LayoutEnumerator](../)
-* ad alanı [Aspose.Words.Layout](../../layoutenumerator/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

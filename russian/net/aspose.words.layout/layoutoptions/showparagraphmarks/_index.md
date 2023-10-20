@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.ShowParagraphMarks
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutOptions свойство. Получает или задает индикатор того отображаются ли знаки абзаца. Значение по умолчаниюЛОЖЬ .
+linktitle: ShowParagraphMarks
+articleTitle: ShowParagraphMarks
+second_title: Aspose.Words для .NET
+description: LayoutOptions ShowParagraphMarks свойство. Получает или задает индикатор того отображаются ли знаки абзаца. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.layout/layoutoptions/showparagraphmarks/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/layoutoptions/showparagraphmarks/
 public bool ShowParagraphMarks { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как отображать знаки абзаца в готовом к просмотру выходном документе.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsParagraphMarks.pdf");
 ### Смотрите также
 
 * class [LayoutOptions](../)
-* пространство имен [Aspose.Words.Layout](../../layoutoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

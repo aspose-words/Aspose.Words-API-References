@@ -1,7 +1,9 @@
 ---
 title: RowFormat.HeightRule
-second_title: Aspose.Words för .NET API Referens
-description: RowFormat fast egendom. Hämtar eller ställer in regeln för att bestämma höjden på tabellraden.
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: Aspose.Words för .NET
+description: RowFormat HeightRule fast egendom. Hämtar eller ställer in regeln för att bestämma höjden på tabellraden i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.tables/rowformat/heightrule/
@@ -14,7 +16,7 @@ Hämtar eller ställer in regeln för att bestämma höjden på tabellraden.
 public HeightRule HeightRule { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar rader med en dokumentbyggare.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * enum [HeightRule](../../../aspose.words/heightrule/)
 * class [RowFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../rowformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

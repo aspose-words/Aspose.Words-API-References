@@ -1,7 +1,9 @@
 ---
 title: ControlChar.PageBreak
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Sidbrytningstecken x000c eller f. Observera att den har samma värde somSectionBreak .
+linktitle: PageBreak
+articleTitle: PageBreak
+second_title: Aspose.Words för .NET
+description: ControlChar PageBreak fält. Sidbrytningstecken x000c eller f. Observera att den har samma värde somSectionBreak  i C#.
 type: docs
 weight: 200
 url: /sv/net/aspose.words/controlchar/pagebreak/
@@ -14,7 +16,7 @@ Sidbrytningstecken: "\x000c" eller "\f". Observera att den har samma värde som[
 public static readonly string PageBreak;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

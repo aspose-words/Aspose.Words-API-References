@@ -1,7 +1,9 @@
 ---
 title: Paragraph.IsEndOfSection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Paragraph propriété. Vrai si ce paragraphe est le dernier paragraphe duBody histoire du texte principal dunSection  faux sinon.
+linktitle: IsEndOfSection
+articleTitle: IsEndOfSection
+second_title: Aspose.Words pour .NET
+description: Paragraph IsEndOfSection propriété. Vrai si ce paragraphe est le dernier paragraphe duBody histoire du texte principal dunSection  faux sinon en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/paragraph/isendofsection/
@@ -14,7 +16,7 @@ Vrai si ce paragraphe est le dernier paragraphe du[`Body`](../../body/) (histoir
 public bool IsEndOfSection { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer le contenu d’un document dans un signet dans un autre document.
 
@@ -82,7 +84,5 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 ### Voir également
 
 * class [Paragraph](../)
-* espace de noms [Aspose.Words](../../paragraph/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

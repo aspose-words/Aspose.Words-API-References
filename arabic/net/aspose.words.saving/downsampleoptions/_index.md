@@ -1,7 +1,9 @@
 ---
-title: Class DownsampleOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.DownsampleOptions فصل. يسمح بتحديد خيارات الاختزال.
+title: DownsampleOptions Class
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.DownsampleOptions فصل. يسمح بتحديد خيارات الاختزال في C#.
 type: docs
 weight: 4970
 url: /ar/net/aspose.words.saving/downsampleoptions/
@@ -30,7 +32,7 @@ public class DownsampleOptions
 | [Resolution](../../aspose.words.saving/downsampleoptions/resolution/) { get; set; } | يحدد الدقة بالبكسل لكل بوصة والتي يجب اختزال الصور إليها. |
 | [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold/) { get; set; } | يحدد دقة العتبة بالبكسل في البوصة. إذا كانت دقة الصورة في المستند أقل من قيمة العتبة، فلن يتم تطبيق خوارزمية الاختزال. القيمة 0 تعني عدم استخدام فحص العتبة وجميع الصور التي يمكن تقليل حجمها. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير دقة الصور في مستند PDF.
 
@@ -63,5 +65,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

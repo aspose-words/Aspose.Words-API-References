@@ -1,12 +1,14 @@
 ---
 title: List.CompareTo
-second_title: Aspose.Words for .NET API 参考
-description: List 方法. 将指定对象与当前对象进行比较
+linktitle: CompareTo
+articleTitle: CompareTo
+second_title: 用于 .NET 的 Aspose.Words
+description: List CompareTo 方法. 将指定对象与当前对象进行比较 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.lists/list/compareto/
 ---
-## CompareTo(object) {#compareto_1}
+## CompareTo(*object*) {#compareto_1}
 
 将指定对象与当前对象进行比较。
 
@@ -17,12 +19,12 @@ public int CompareTo(object obj)
 ### 也可以看看
 
 * class [List](../)
-* 命名空间 [Aspose.Words.Lists](../../list/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## CompareTo(List) {#compareto}
+## CompareTo(*[List](../)*) {#compareto}
 
 将指定列表与当前列表进行比较。
 
@@ -33,7 +35,5 @@ public int CompareTo(List other)
 ### 也可以看看
 
 * class [List](../)
-* 命名空间 [Aspose.Words.Lists](../../list/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

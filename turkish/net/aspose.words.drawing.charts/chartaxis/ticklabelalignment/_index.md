@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Eksen işaret etiketlerinin metin hizalamasını alır veya ayarlar.
+linktitle: TickLabelAlignment
+articleTitle: TickLabelAlignment
+second_title: Aspose.Words for .NET
+description: ChartAxis TickLabelAlignment mülk. Eksen işaret etiketlerinin metin hizalamasını alır veya ayarlar C#'da.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/
@@ -14,7 +16,7 @@ Eksen işaret etiketlerinin metin hizalamasını alır veya ayarlar.
 public ParagraphAlignment TickLabelAlignment { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik yalnızca çok satırlı etiketler için etkilidir.
 
@@ -22,7 +24,7 @@ Varsayılan değer:Center.
 
 .
 
-### Örnekler
+## Örnekler
 
 Bir grafik ekseninin onay işaretlerinin ve görüntülenen değerlerinin nasıl değiştirileceğini gösterir.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [ParagraphAlignment](../../../aspose.words/paragraphalignment/)
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

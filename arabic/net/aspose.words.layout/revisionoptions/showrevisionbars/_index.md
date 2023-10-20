@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowRevisionBars
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionOptions ملكية. يسمح بتحديد ما إذا كان يجب عرض أشرطة المراجعة بالقرب من الأسطر التي تحتوي على محتوى تمت مراجعته. القيمة الافتراضية هيحقيقي .
+linktitle: ShowRevisionBars
+articleTitle: ShowRevisionBars
+second_title: Aspose.Words لـ .NET
+description: RevisionOptions ShowRevisionBars ملكية. يسمح بتحديد ما إذا كان يجب عرض أشرطة المراجعة بالقرب من الأسطر التي تحتوي على محتوى تمت مراجعته. القيمة الافتراضية هيحقيقي  في C#.
 type: docs
 weight: 180
 url: /ar/net/aspose.words.layout/revisionoptions/showrevisionbars/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/revisionoptions/showrevisionbars/
 public bool ShowRevisionBars { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير مظهر المراجعات في مستند الإخراج المقدم.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 ### أنظر أيضا
 
 * class [RevisionOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../revisionoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

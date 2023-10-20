@@ -1,7 +1,9 @@
 ---
-title: Class PhoneticGuide
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.PhoneticGuide сорт. представляет фонетическое руководство.
+title: PhoneticGuide Class
+linktitle: PhoneticGuide
+articleTitle: PhoneticGuide
+second_title: Aspose.Words для .NET
+description: Aspose.Words.PhoneticGuide сорт. представляет фонетическое руководство на С#.
 type: docs
 weight: 4430
 url: /ru/net/aspose.words/phoneticguide/
@@ -25,5 +27,3 @@ public class PhoneticGuide
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

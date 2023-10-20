@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.CharacterUnitFirstLineIndent
-second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Hämtar eller ställer in värdet i tecken för första raden eller hängande indrag.
+linktitle: CharacterUnitFirstLineIndent
+articleTitle: CharacterUnitFirstLineIndent
+second_title: Aspose.Words för .NET
+description: ParagraphFormat CharacterUnitFirstLineIndent fast egendom. Hämtar eller ställer in värdet i tecken för första raden eller hängande indrag i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/paragraphformat/characterunitfirstlineindent/
@@ -16,7 +18,7 @@ Använd positiva värden för att ställa in första radens indrag och negativa 
 public double CharacterUnitFirstLineIndent { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ändrar styckeavstånd och indrag.
 
@@ -70,7 +72,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### Se även
 
 * class [ParagraphFormat](../)
-* namnutrymme [Aspose.Words](../../paragraphformat/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

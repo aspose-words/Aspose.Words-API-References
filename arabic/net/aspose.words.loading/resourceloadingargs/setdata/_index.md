@@ -1,7 +1,9 @@
 ---
 title: ResourceLoadingArgs.SetData
-second_title: Aspose.Words لمراجع .NET API
-description: ResourceLoadingArgs طريقة. يعين البيانات المقدمة من المستخدم للمورد الذي يستخدم ifResourceLoading يعودUserProvided .
+linktitle: SetData
+articleTitle: SetData
+second_title: Aspose.Words لـ .NET
+description: ResourceLoadingArgs SetData طريقة. يعين البيانات المقدمة من المستخدم للمورد الذي يستخدم ifResourceLoading يعودUserProvided  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.loading/resourceloadingargs/setdata/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.loading/resourceloadingargs/setdata/
 public void SetData(byte[] data)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تخصيص عملية تحميل الموارد الخارجية إلى مستند.
 
@@ -77,7 +79,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 ### أنظر أيضا
 
 * class [ResourceLoadingArgs](../)
-* مساحة الاسم [Aspose.Words.Loading](../../resourceloadingargs/)
+* مساحة الاسم [Aspose.Words.Loading](../../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../../)
-
-

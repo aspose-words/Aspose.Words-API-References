@@ -1,7 +1,9 @@
 ---
 title: ControlChar.PageBreakChar
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Sidbrytningstecken char12 eller f.
+linktitle: PageBreakChar
+articleTitle: PageBreakChar
+second_title: Aspose.Words för .NET
+description: ControlChar PageBreakChar fält. Sidbrytningstecken char12 eller f i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words/controlchar/pagebreakchar/
@@ -14,7 +16,7 @@ Sidbrytningstecken: (char)12 eller "\f".
 public const char PageBreakChar;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: SignatureLineOptions.ShowDate
-second_title: Aspose.Words für .NET-API-Referenz
-description: SignatureLineOptions eigendom. Ruft einen Wert ab oder legt diesen fest der angibt dass das Signaturdatum in der Signaturzeile angezeigt wird. Der Standardwert für diese Eigenschaft istWAHR .
+linktitle: ShowDate
+articleTitle: ShowDate
+second_title: Aspose.Words für .NET
+description: SignatureLineOptions ShowDate eigendom. Ruft einen Wert ab oder legt diesen fest der angibt dass das Signaturdatum in der Signaturzeile angezeigt wird. Der Standardwert für diese Eigenschaft istWAHR  in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/signaturelineoptions/showdate/
@@ -14,7 +16,7 @@ Ruft einen Wert ab oder legt diesen fest, der angibt, dass das Signaturdatum in 
 public bool ShowDate { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument mit einem persönlichen Zertifikat und einer Signaturzeile signiert.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Siehe auch
 
 * class [SignatureLineOptions](../)
-* namensraum [Aspose.Words](../../signaturelineoptions/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

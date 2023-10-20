@@ -1,7 +1,9 @@
 ---
 title: FieldAutoNum.SeparatorCharacter
-second_title: Aspose.Words for .NET API Referansı
-description: FieldAutoNum mülk. Kullanılacak ayırıcı karakteri alır veya ayarlar.
+linktitle: SeparatorCharacter
+articleTitle: SeparatorCharacter
+second_title: Aspose.Words for .NET
+description: FieldAutoNum SeparatorCharacter mülk. Kullanılacak ayırıcı karakteri alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldautonum/separatorcharacter/
@@ -14,7 +16,7 @@ Kullanılacak ayırıcı karakteri alır veya ayarlar.
 public string SeparatorCharacter { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Autonum alanlarını kullanarak paragrafların nasıl numaralandırılacağını gösterir.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Field.AUTONUM.docx");
 ### Ayrıca bakınız
 
 * class [FieldAutoNum](../)
-* ad alanı [Aspose.Words.Fields](../../fieldautonum/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

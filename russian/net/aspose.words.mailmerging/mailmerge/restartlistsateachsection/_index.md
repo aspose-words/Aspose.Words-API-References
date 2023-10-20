@@ -1,7 +1,9 @@
 ---
 title: MailMerge.RestartListsAtEachSection
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Получает или задает значение указывающее перезапускаются ли списки в каждом разделе после выполнения слияния почты.
+linktitle: RestartListsAtEachSection
+articleTitle: RestartListsAtEachSection
+second_title: Aspose.Words для .NET
+description: MailMerge RestartListsAtEachSection свойство. Получает или задает значение указывающее перезапускаются ли списки в каждом разделе после выполнения слияния почты на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.mailmerging/mailmerge/restartlistsateachsection/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.mailmerging/mailmerge/restartlistsateachsection/
 public bool RestartListsAtEachSection { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`истинный` .
 
-### Примеры
+## Примеры
 
 Показывает, как контролировать, будет ли нумерация списка перезапускаться в каждом разделе при выполнении слияния почты.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "MailMerge.RestartListsAtEachSection.pdf");
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Document.Compare
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 将此文档与另一个文档进行比较产生编辑和格式修订次数等更改Revision.
+linktitle: Compare
+articleTitle: Compare
+second_title: 用于 .NET 的 Aspose.Words
+description: Document Compare 方法. 将此文档与另一个文档进行比较产生编辑和格式修订次数等更改Revision 在 C#.
 type: docs
-weight: 580
+weight: 560
 url: /zh/net/aspose.words/document/compare/
 ---
-## Compare(Document, string, DateTime) {#compare}
+## Compare(*[Document](../), string, DateTime*) {#compare}
 
 将此文档与另一个文档进行比较，产生编辑和格式修订次数等更改[`Revision`](../../revision/).
 
@@ -20,11 +22,11 @@ public void Compare(Document document, string author, DateTime dateTime)
 | author | String | 用于修订的作者姓名缩写。 |
 | dateTime | DateTime | 用于修订的日期和时间。 |
 
-### 评论
+## 评论
 
 文件在比较之前不得有修订。
 
-### 例子
+## 例子
 
 展示如何比较文档。
 
@@ -58,12 +60,12 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Compare(Document, string, DateTime, CompareOptions) {#compare_1}
+## Compare(*[Document](../), string, DateTime, [CompareOptions](../../../aspose.words.comparing/compareoptions/)*) {#compare_1}
 
 将此文档与另一个文档进行比较，产生一些编辑和格式修订的更改[`Revision`](../../revision/). 允许使用指定比较选项[`CompareOptions`](../../../aspose.words.comparing/compareoptions/).
 
@@ -71,7 +73,7 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 public void Compare(Document document, string author, DateTime dateTime, CompareOptions options)
 ```
 
-### 例子
+## 例子
 
 演示如何在进行比较时过滤特定类型的文档元素。
 
@@ -146,7 +148,5 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * class [CompareOptions](../../../aspose.words.comparing/compareoptions/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

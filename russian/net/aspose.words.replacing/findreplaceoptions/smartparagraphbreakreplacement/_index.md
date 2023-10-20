@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.SmartParagraphBreakReplacement
-second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. Получает или задает логическое значение указывающее разрешено ли заменять абзацbreak  если нет следующего одноуровневого абзаца.
+linktitle: SmartParagraphBreakReplacement
+articleTitle: SmartParagraphBreakReplacement
+second_title: Aspose.Words для .NET
+description: FindReplaceOptions SmartParagraphBreakReplacement свойство. Получает или задает логическое значение указывающее разрешено ли заменять абзацbreak  если нет следующего одноуровневого абзаца на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
@@ -16,11 +18,11 @@ url: /ru/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplac
 public bool SmartParagraphBreakReplacement { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Эта опция позволяет заменить разрыв абзаца, когда нет следующего одноуровневого абзаца, в который можно переместить все дочерние узлы child , путем нахождения любого (не обязательно родственного) следующего абзаца после заменяемого абзаца.
 
-### Примеры
+## Примеры
 
 Показывает, как удалить абзац из ячейки таблицы с вложенной таблицей.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.RemoveParagraphTextAndMark.docx");
 ### Смотрите также
 
 * class [FindReplaceOptions](../)
-* пространство имен [Aspose.Words.Replacing](../../findreplaceoptions/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

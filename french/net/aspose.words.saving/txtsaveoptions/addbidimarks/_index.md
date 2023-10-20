@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.AddBidiMarks
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TxtSaveOptions propriété. Spécifie sil faut ajouter des marques bidirectionnelles avant chaque exécution de BiDi lors de lexportation au format texte brut.
+linktitle: AddBidiMarks
+articleTitle: AddBidiMarks
+second_title: Aspose.Words pour .NET
+description: TxtSaveOptions AddBidiMarks propriété. Spécifie sil faut ajouter des marques bidirectionnelles avant chaque exécution de BiDi lors de lexportation au format texte brut en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/txtsaveoptions/addbidimarks/
@@ -16,7 +18,7 @@ La valeur par défaut est`FAUX`.
 public bool AddBidiMarks { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment insérer le caractère Unicode « MARQUE DE DROITE À GAUCHE » (U+200F) avant chaque exécution bidirectionnelle dans le texte.
 
@@ -58,7 +60,5 @@ else
 ### Voir également
 
 * class [TxtSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../txtsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

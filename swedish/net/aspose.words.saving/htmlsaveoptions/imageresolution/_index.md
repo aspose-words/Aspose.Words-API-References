@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ImageResolution
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger utdataupplösningen för bilder vid export till HTML MHTML eller EPUB. Standard är96 dpi .
+linktitle: ImageResolution
+articleTitle: ImageResolution
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ImageResolution fast egendom. Anger utdataupplösningen för bilder vid export till HTML MHTML eller EPUB. Standard är96 dpi  i C#.
 type: docs
 weight: 340
 url: /sv/net/aspose.words.saving/htmlsaveoptions/imageresolution/
@@ -14,11 +16,11 @@ Anger utdataupplösningen för bilder vid export till HTML, MHTML eller EPUB. St
 public int ImageResolution { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen påverkar rasterbilder när[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) är`Sann` och effektmetafiler exporterade som rasterbilder. Vissa bildegenskaper som cropping eller rotation kräver att transformerade bilder sparas och i detta fall skapas transformerade bilder i den givna upplösningen.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in mappar och mappalias för externt sparade resurser som Aspose.Words skapar när ett dokument sparas till HTML.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FolderAlias.html", options);
 
 * property [ScaleImageToShapeSize](../scaleimagetoshapesize/)
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

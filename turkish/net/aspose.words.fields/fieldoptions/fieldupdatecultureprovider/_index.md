@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdateCultureProvider
-second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Her belirli alana özel bir kültür nesnesi döndüren bir sağlayıcıyı alır veya ayarlar.
+linktitle: FieldUpdateCultureProvider
+articleTitle: FieldUpdateCultureProvider
+second_title: Aspose.Words for .NET
+description: FieldOptions FieldUpdateCultureProvider mülk. Her belirli alana özel bir kültür nesnesi döndüren bir sağlayıcıyı alır veya ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
@@ -14,13 +16,13 @@ Her belirli alana özel bir kültür nesnesi döndüren bir sağlayıcıyı alı
 public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Sağlayıcının değeri ne zaman istenir?[`FieldUpdateCultureSource`](../fieldupdateculturesource/) dır-dirFieldCode.
 
 Sağlayıcı mevcutsa, döndürdüğü kültür nesnesi alan güncellemesi için kullanılır. Aksi halde sistem kültürü kullanılır.
 
-### Örnekler
+## Örnekler
 
 Her alan için tarih/saat biçimlendirmesini ayrıştıran bir kültürün nasıl belirtileceğini gösterir.
 
@@ -92,7 +94,5 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * interface [IFieldUpdateCultureProvider](../../ifieldupdatecultureprovider/)
 * class [FieldOptions](../)
-* ad alanı [Aspose.Words.Fields](../../fieldoptions/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

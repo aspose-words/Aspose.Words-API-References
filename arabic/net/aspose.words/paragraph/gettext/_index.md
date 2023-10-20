@@ -1,9 +1,11 @@
 ---
 title: Paragraph.GetText
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph طريقة. الحصول على نص هذه الفقرة بما في ذلك حرف نهاية الفقرة.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words لـ .NET
+description: Paragraph GetText طريقة. الحصول على نص هذه الفقرة بما في ذلك حرف نهاية الفقرة في C#.
 type: docs
-weight: 280
+weight: 260
 url: /ar/net/aspose.words/paragraph/gettext/
 ---
 ## Paragraph.GetText method
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraph/gettext/
 public override string GetText()
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم ربط نص جميع العقد الفرعية ويتم إلحاق حرف نهاية الفقرة على النحو التالي:
 
@@ -24,7 +26,7 @@ public override string GetText()
 
 تتضمن السلسلة التي تم إرجاعها جميع عناصر التحكم والأحرف الخاصة كما هو موضح في[`ControlChar`](../../controlchar/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة وتحديث وحذف العقد الفرعية في مجموعة CompositeNode الفرعية.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 ### أنظر أيضا
 
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

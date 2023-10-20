@@ -1,7 +1,9 @@
 ---
 title: Document.IncludeTextboxesFootnotesEndnotesInStat
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. يحدد ما إذا كان سيتم تضمين مربعات النص والحواشي السفلية والتعليقات الختامية في إحصائيات عدد الكلمات.
+linktitle: IncludeTextboxesFootnotesEndnotesInStat
+articleTitle: IncludeTextboxesFootnotesEndnotesInStat
+second_title: Aspose.Words لـ .NET
+description: Document IncludeTextboxesFootnotesEndnotesInStat ملكية. يحدد ما إذا كان سيتم تضمين مربعات النص والحواشي السفلية والتعليقات الختامية في إحصائيات عدد الكلمات في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/
 public bool IncludeTextboxesFootnotesEndnotesInStat { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تضمين أو استبعاد مربعات النص والحواشي السفلية والتعليقات الختامية من إحصائيات عدد الكلمات.
 
@@ -38,7 +40,5 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Words);
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

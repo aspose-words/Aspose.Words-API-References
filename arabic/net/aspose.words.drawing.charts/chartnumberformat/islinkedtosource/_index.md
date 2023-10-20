@@ -1,7 +1,9 @@
 ---
 title: ChartNumberFormat.IsLinkedToSource
-second_title: Aspose.Words لمراجع .NET API
-description: ChartNumberFormat ملكية. يحدد ما إذا كان رمز التنسيق مرتبطًا بخلية مصدر أم لا. الافتراضي هو صحيح.
+linktitle: IsLinkedToSource
+articleTitle: IsLinkedToSource
+second_title: Aspose.Words لـ .NET
+description: ChartNumberFormat IsLinkedToSource ملكية. يحدد ما إذا كان رمز التنسيق مرتبطًا بخلية مصدر أم لا. الافتراضي هو صحيح في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/chartnumberformat/islinkedtosource/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartnumberformat/islinkedtosource/
 public bool IsLinkedToSource { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 سيتم إعادة تعيين NumberFormat إلى الوضع العام إذا كان رمز التنسيق مرتبطًا بالمصدر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين التنسيق لقيم المخطط.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 ### أنظر أيضا
 
 * class [ChartNumberFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartnumberformat/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

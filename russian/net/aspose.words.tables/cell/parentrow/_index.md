@@ -1,7 +1,9 @@
 ---
 title: Cell.ParentRow
-second_title: Справочник по API Aspose.Words для .NET
-description: Cell свойство. Возвращает родительскую строку ячейки.
+linktitle: ParentRow
+articleTitle: ParentRow
+second_title: Aspose.Words для .NET
+description: Cell ParentRow свойство. Возвращает родительскую строку ячейки на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.tables/cell/parentrow/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.tables/cell/parentrow/
 public Row ParentRow { get; }
 ```
 
-### Примечания
+## Примечания
 
 ЭквивалентноFirstNonMarkupParentNode брошен в[`Row`](../../row/).
 
-### Примеры
+## Примеры
 
 Показывает, как настроить таблицу так, чтобы она оставалась вместе на одной странице.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [Row](../../row/)
 * class [Cell](../)
-* пространство имен [Aspose.Words.Tables](../../cell/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

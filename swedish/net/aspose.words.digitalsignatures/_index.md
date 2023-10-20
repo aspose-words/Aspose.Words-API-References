@@ -1,18 +1,20 @@
 ---
 title: Aspose.Words.DigitalSignatures
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.DigitalSignatures namespace tillhandahåller klasser för att signera dokument och verifiera signaturer.
+linktitle: Aspose.Words.DigitalSignatures
+articleTitle: Aspose.Words.DigitalSignatures
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.DigitalSignatures namespace tillhandahåller klasser för att signera dokument och verifiera signaturer i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.digitalsignatures/
 ---
-De **Aspose.Words.DigitalSignatures** namespace tillhandahåller klasser för att signera dokument och verifiera signaturer.
+De**Aspose.Words.DigitalSignatures** namespace tillhandahåller klasser för att signera dokument och verifiera signaturer.
 
 ## Klasser
 
 | Klass | Beskrivning |
 | --- | --- |
-| [CertificateHolder](./certificateholder/) | Representerar en innehavare av **X509Certifikat2** instans. |
+| [CertificateHolder](./certificateholder/) | Representerar en innehavare av**X509Certifikat2** instans. |
 | [DigitalSignature](./digitalsignature/) | Representerar en digital signatur på ett dokument och resultatet av dess verifiering. |
 | [DigitalSignatureCollection](./digitalsignaturecollection/) | Ger en skrivskyddad samling av digitala signaturer bifogade till ett dokument. |
 | [DigitalSignatureUtil](./digitalsignatureutil/) | Tillhandahåller metoder för att signera dokument. |
@@ -22,5 +24,3 @@ De **Aspose.Words.DigitalSignatures** namespace tillhandahåller klasser för at
 | Uppräkning | Beskrivning |
 | --- | --- |
 | [DigitalSignatureType](./digitalsignaturetype/) | Anger typen av digital signatur. |
-
-

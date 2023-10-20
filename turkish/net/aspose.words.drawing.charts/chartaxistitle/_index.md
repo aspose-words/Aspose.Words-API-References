@@ -1,7 +1,9 @@
 ---
-title: Class ChartAxisTitle
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartAxisTitle sınıf. Eksen başlığı özelliklerine erişim sağlar.
+title: ChartAxisTitle Class
+linktitle: ChartAxisTitle
+articleTitle: ChartAxisTitle
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartAxisTitle sınıf. Eksen başlığı özelliklerine erişim sağlar C#'da.
 type: docs
 weight: 650
 url: /tr/net/aspose.words.drawing.charts/chartaxistitle/
@@ -20,12 +22,11 @@ public class ChartAxisTitle
 
 | İsim | Tanım |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/chartaxistitle/font/) { get; } |  |
 | [Overlay](../../aspose.words.drawing.charts/chartaxistitle/overlay/) { get; set; } | Diğer grafik öğelerinin başlıkla çakışmasına izin verilip verilmeyeceğini belirler. Varsayılan değer:`YANLIŞ` . |
 | [Show](../../aspose.words.drawing.charts/chartaxistitle/show/) { get; set; } | Eksen için başlığın gösterilip gösterilmeyeceğini belirler. Varsayılan değer:`YANLIŞ` . |
 | [Text](../../aspose.words.drawing.charts/chartaxistitle/text/) { get; set; } | Eksen başlığının metnini alır veya ayarlar. If`hükümsüz` veya boş değer belirtilirse otomatik oluşturulan başlık gösterilecektir. |
 
-### Örnekler
+## Örnekler
 
 Grafik ekseni başlığının nasıl ayarlanacağını gösterir.
 
@@ -56,5 +57,3 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

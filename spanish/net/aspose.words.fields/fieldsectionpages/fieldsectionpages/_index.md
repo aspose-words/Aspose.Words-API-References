@@ -1,7 +1,9 @@
 ---
-title: FieldSectionPages.FieldSectionPages
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldSectionPages constructor. Constructor predeterminado
+title: FieldSectionPages
+linktitle: FieldSectionPages
+articleTitle: FieldSectionPages
+second_title: Aspose.Words para .NET
+description: FieldSectionPages constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldsectionpages/fieldsectionpages/
@@ -17,7 +19,5 @@ public FieldSectionPages()
 ### Ver también
 
 * class [FieldSectionPages](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldsectionpages/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

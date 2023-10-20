@@ -1,7 +1,9 @@
 ---
-title: Enum SvgTextOutputMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.SvgTextOutputMode 枚举. 允许指定以 SVG 格式保存时文档内的文本应如何呈现 
+title: SvgTextOutputMode Enum
+linktitle: SvgTextOutputMode
+articleTitle: SvgTextOutputMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.SvgTextOutputMode 枚举. 允许指定以 SVG 格式保存时文档内的文本应如何呈现  在 C#.
 type: docs
 weight: 5610
 url: /zh/net/aspose.words.saving/svgtextoutputmode/
@@ -22,7 +24,7 @@ public enum SvgTextOutputMode
 | UseTargetMachineFonts | `1` | 目标计算机上安装的字体用于呈现文本。 注意，如果文档中使用的某些字体在目标计算机上不可用，则文档可能会有所不同。 |
 | UsePlacedGlyphs | `2` | 文本使用曲线呈现。请注意，如果使用此选项，文本选择将不起作用。 |
 
-### 例子
+## 例子
 
 演示如何在将 .docx 文档转换为 .svg 时模仿图像的属性。
 
@@ -44,5 +46,3 @@ doc.Save(ArtifactsDir + "SvgSaveOptions.SaveLikeImage.svg", options);
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

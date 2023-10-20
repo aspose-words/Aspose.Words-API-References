@@ -1,7 +1,9 @@
 ---
 title: Font.NameOther
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Restituisce o imposta il carattere utilizzato per i caratteri con codici carattere da 128 a 255.
+linktitle: NameOther
+articleTitle: NameOther
+second_title: Aspose.Words per .NET
+description: Font NameOther proprietà. Restituisce o imposta il carattere utilizzato per i caratteri con codici carattere da 128 a 255 in C#.
 type: docs
 weight: 270
 url: /it/net/aspose.words/font/nameother/
@@ -14,7 +16,7 @@ Restituisce o imposta il carattere utilizzato per i caratteri con codici caratte
 public string NameOther { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come Microsoft Word può combinare due caratteri diversi in un'unica esecuzione.
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Font.NameAscii.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

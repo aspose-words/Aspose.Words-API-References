@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.SizeInPoints
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Får formens storlek i poäng.
+linktitle: SizeInPoints
+articleTitle: SizeInPoints
+second_title: Aspose.Words för .NET
+description: ShapeBase SizeInPoints fast egendom. Får formens storlek i poäng i C#.
 type: docs
 weight: 510
 url: /sv/net/aspose.words.drawing/shapebase/sizeinpoints/
@@ -14,7 +16,7 @@ Får formens storlek i poäng.
 public SizeF SizeInPoints { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du verifierar en forms storlek och märkningsspråk.
 
@@ -31,7 +33,5 @@ Assert.AreEqual(new SizeF(300, 300), shape.SizeInPoints);
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeList.Item
-second_title: Aspose.Words لمراجع .NET API
-description: NodeList ملكية. يسترد عقدة في الفهرس المحدد.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words لـ .NET
+description: NodeList Item ملكية. يسترد عقدة في الفهرس المحدد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/nodelist/item/
@@ -18,7 +20,7 @@ public Node this[int index] { get; }
 | --- | --- |
 | index | فهرس في قائمة العقد. |
 
-### ملاحظات
+## ملاحظات
 
 المؤشر قائم على الصفر.
 
@@ -28,7 +30,7 @@ public Node this[int index] { get; }
 
 إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام XPaths للتنقل في NodeList.
 
@@ -87,7 +89,5 @@ Assert.True(shape.HasImage);
 
 * class [Node](../../node/)
 * class [NodeList](../)
-* مساحة الاسم [Aspose.Words](../../nodelist/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

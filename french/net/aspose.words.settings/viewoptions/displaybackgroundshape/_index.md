@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.DisplayBackgroundShape
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ViewOptions propriété. Contrôle laffichage de la forme darrièreplan dans la vue Mise en page dimpression.
+linktitle: DisplayBackgroundShape
+articleTitle: DisplayBackgroundShape
+second_title: Aspose.Words pour .NET
+description: ViewOptions DisplayBackgroundShape propriété. Contrôle laffichage de la forme darrièreplan dans la vue Mise en page dimpression en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.settings/viewoptions/displaybackgroundshape/
@@ -14,7 +16,7 @@ Contrôle l'affichage de la forme d'arrière-plan dans la vue Mise en page d'imp
 public bool DisplayBackgroundShape { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment masquer/afficher les images d’arrière-plan du document dans les options d’affichage.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "ViewOptions.DisplayBackgroundShape.docx");
 ### Voir également
 
 * class [ViewOptions](../)
-* espace de noms [Aspose.Words.Settings](../../viewoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

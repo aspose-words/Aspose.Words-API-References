@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.ProgressCallback
-second_title: Aspose.Words for .NET API 参考
-description: SaveOptions 财产. 在保存文档期间调用并接受有关保存进度的数据
+linktitle: ProgressCallback
+articleTitle: ProgressCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: SaveOptions ProgressCallback 财产. 在保存文档期间调用并接受有关保存进度的数据 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.saving/saveoptions/progresscallback/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.saving/saveoptions/progresscallback/
 public IDocumentSavingCallback ProgressCallback { get; set; }
 ```
 
-### 评论
+## 评论
 
 保存时报告进度Docx,FlatOpc, Docm,Dotm,Dotx, Doc,Dot, Html,Mhtml,Epub, XamlFlow， 或者XamlFlowPack.
 
-### 例子
+## 例子
 
 展示如何在保存为 html 的同时管理文档。
 
@@ -189,7 +191,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * interface [IDocumentSavingCallback](../../idocumentsavingcallback/)
 * class [SaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../saveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

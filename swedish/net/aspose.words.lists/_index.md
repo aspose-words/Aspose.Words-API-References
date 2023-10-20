@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Lists
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Lists namnområdet innehåller klasser för working med punktlistor och numrerade listor definierade i ett dokument.
+linktitle: Aspose.Words.Lists
+articleTitle: Aspose.Words.Lists
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.Lists namnområdet innehåller klasser för working med punktlistor och numrerade listor definierade i ett dokument i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.lists/
 ---
-De **Aspose.Words.Lists** namnområdet innehåller klasser för working med punktlistor och numrerade listor definierade i ett dokument.
+De**Aspose.Words.Lists** namnområdet innehåller klasser för working med punktlistor och numrerade listor definierade i ett dokument.
 
 ## Klasser
 
@@ -25,5 +27,3 @@ De **Aspose.Words.Lists** namnområdet innehåller klasser för working med punk
 | [ListLevelAlignment](./listlevelalignment/) | Anger justering för listnumret eller punkten. |
 | [ListTemplate](./listtemplate/) | Anger ett av de fördefinierade listformaten som är tillgängliga i Microsoft Word. |
 | [ListTrailingCharacter](./listtrailingcharacter/) | Anger tecknet som skiljer listetiketten från texten i stycket. |
-
-

@@ -1,7 +1,9 @@
 ---
 title: RowFormat.Borders
-second_title: Справочник по API Aspose.Words для .NET
-description: RowFormat свойство. Получает коллекцию границ ячеек по умолчанию для строки.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words для .NET
+description: RowFormat Borders свойство. Получает коллекцию границ ячеек по умолчанию для строки на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.tables/rowformat/borders/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/rowformat/borders/
 public BorderCollection Borders { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать таблицу с настраиваемыми границами.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [RowFormat](../)
-* пространство имен [Aspose.Words.Tables](../../rowformat/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.MetafileRenderingOptions
-second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. يسمح بتحديد كيفية التعامل مع ملفات التعريف في المخرجات المقدمة.
+linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
+second_title: Aspose.Words لـ .NET
+description: ImageSaveOptions MetafileRenderingOptions ملكية. يسمح بتحديد كيفية التعامل مع ملفات التعريف في المخرجات المقدمة في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/
 public MetafileRenderingOptions MetafileRenderingOptions { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 متىVector تم تحديد Aspose.Words الذي يعرض ملف التعريف إلى رسومات متجهة باستخدام محرك عرض ملف التعريف الخاص به أولاً ثم يعرض رسومات Vector إلى الصورة.
 
@@ -24,7 +26,7 @@ public MetafileRenderingOptions MetafileRenderingOptions { get; }
 
 القيمة الافتراضية ل[`MetafileRenderingMode`](../../metafilerenderingmode/) يكونBitmap.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط وضع العرض عند حفظ المستندات التي تحتوي على صور Windows Metafile إلى تنسيقات صور أخرى.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.WindowsMetaFile.png", options);
 
 * class [MetafileRenderingOptions](../../metafilerenderingoptions/)
 * class [ImageSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../imagesaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

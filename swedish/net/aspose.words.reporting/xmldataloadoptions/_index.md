@@ -1,7 +1,9 @@
 ---
-title: Class XmlDataLoadOptions
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Reporting.XmlDataLoadOptions klass. Representerar alternativ för XMLdataladdning.
+title: XmlDataLoadOptions Class
+linktitle: XmlDataLoadOptions
+articleTitle: XmlDataLoadOptions
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Reporting.XmlDataLoadOptions klass. Representerar alternativ för XMLdataladdning i C#.
 type: docs
 weight: 4740
 url: /sv/net/aspose.words.reporting/xmldataloadoptions/
@@ -28,7 +30,7 @@ public class XmlDataLoadOptions
 | --- | --- |
 | [AlwaysGenerateRootObject](../../aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject/) { get; set; } | Hämtar eller sätter en flagga som indikerar om en genererad datakälla alltid kommer att innehålla ett objekt för ett XML-rotelement . Om ett XML-rotelement inte har några attribut och alla dess underordnade element har samma namn, skapas inte ett sådant objekt som standard. |
 
-### Anmärkningar
+## Anmärkningar
 
 En instans av denna klass kan skickas till konstruktörer av[`XmlDataSource`](../xmldatasource/) .
 
@@ -36,5 +38,3 @@ En instans av denna klass kan skickas till konstruktörer av[`XmlDataSource`](..
 
 * namnutrymme [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../)
-
-

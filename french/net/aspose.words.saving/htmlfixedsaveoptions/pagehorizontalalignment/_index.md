@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.PageHorizontalAlignment
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlFixedSaveOptions propriété. Spécifie lalignement horizontal des pages dans un document HTML. La valeur par défaut estCenter .
+linktitle: PageHorizontalAlignment
+articleTitle: PageHorizontalAlignment
+second_title: Aspose.Words pour .NET
+description: HtmlFixedSaveOptions PageHorizontalAlignment propriété. Spécifie lalignement horizontal des pages dans un document HTML. La valeur par défaut estCenter  en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/pagehorizontalalignment/
@@ -14,7 +16,7 @@ Spécifie l'alignement horizontal des pages dans un document HTML. La valeur par
 public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir l'alignement horizontal des pages lors de l'enregistrement d'un document au format HTML.
 
@@ -51,7 +53,5 @@ switch (pageHorizontalAlignment)
 
 * enum [HtmlFixedPageHorizontalAlignment](../../htmlfixedpagehorizontalalignment/)
 * class [HtmlFixedSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

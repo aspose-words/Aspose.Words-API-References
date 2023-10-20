@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.ChildNodes
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Forms2OleControl propriété. Obtient la collection de contrôles enfants immédiats.
+linktitle: ChildNodes
+articleTitle: ChildNodes
+second_title: Aspose.Words pour .NET
+description: Forms2OleControl ChildNodes propriété. Obtient la collection de contrôles enfants immédiats en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
@@ -14,11 +16,11 @@ Obtient la collection de contrôles enfants immédiats.
 public virtual Forms2OleControlCollection ChildNodes { get; }
 ```
 
-### Remarques
+## Remarques
 
 Retour`nul` si ce contrôle ne peut pas avoir d'enfants.
 
-### Exemples
+## Exemples
 
 Montre comment vérifier les propriétés d'un contrôle ActiveX.
 
@@ -49,7 +51,5 @@ if (oleControl.IsForms2OleControl)
 
 * class [Forms2OleControlCollection](../../forms2olecontrolcollection/)
 * class [Forms2OleControl](../)
-* espace de noms [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* espace de noms [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * Assemblée [Aspose.Words](../../../)
-
-

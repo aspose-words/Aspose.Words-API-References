@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsColor
-second_title: Aspose.Words für .NET-API-Referenz
-description: RevisionOptions eigendom. Ermöglicht die Angabe der Farbe die für Seitenleisten verwendet werden soll die Dokumentzeilen kennzeichnen die überarbeitete Informationen enthalten. Der Standardwert istRed .
+linktitle: RevisionBarsColor
+articleTitle: RevisionBarsColor
+second_title: Aspose.Words für .NET
+description: RevisionOptions RevisionBarsColor eigendom. Ermöglicht die Angabe der Farbe die für Seitenleisten verwendet werden soll die Dokumentzeilen kennzeichnen die überarbeitete Informationen enthalten. Der Standardwert istRed  in C#.
 type: docs
 weight: 130
 url: /de/net/aspose.words.layout/revisionoptions/revisionbarscolor/
@@ -14,11 +16,11 @@ Ermöglicht die Angabe der Farbe, die für Seitenleisten verwendet werden soll, 
 public RevisionColor RevisionBarsColor { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft festlegen aufByAuthor oderNoHighlight „values “ führt dazu, dass Revisionsbalken im Layout ausgeblendet werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Erscheinungsbild von Revisionen geändert wird.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* namensraum [Aspose.Words.Layout](../../revisionoptions/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: NodeCollection yöntem. Düğümlerin koleksiyonu üzerinde basit bir foreach stili yinelemesi sağlar.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: NodeCollection GetEnumerator yöntem. Düğümlerin koleksiyonu üzerinde basit bir foreach stili yinelemesi sağlar C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/nodecollection/getenumerator/
@@ -22,7 +24,5 @@ Bir IEnumerator.
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* ad alanı [Aspose.Words](../../nodecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldLink.InsertAsHtml
-second_title: Aspose.Words för .NET API Referens
-description: FieldLink fast egendom. Hämtar eller ställer in om det länkade objektet ska infogas som HTMLformattext.
+linktitle: InsertAsHtml
+articleTitle: InsertAsHtml
+second_title: Aspose.Words för .NET
+description: FieldLink InsertAsHtml fast egendom. Hämtar eller ställer in om det länkade objektet ska infogas som HTMLformattext i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldlink/insertashtml/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om det länkade objektet ska infogas som HTML-formatte
 public bool InsertAsHtml { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder olika fälttyper för att länka till andra dokument i det lokala filsystemet och visa deras innehåll.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Se även
 
 * class [FieldLink](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldlink/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

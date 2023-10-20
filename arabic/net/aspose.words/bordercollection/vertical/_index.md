@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Vertical
-second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. يحصل على الحد العمودي المستخدم بين الخلايا.
+linktitle: Vertical
+articleTitle: Vertical
+second_title: Aspose.Words لـ .NET
+description: BorderCollection Vertical ملكية. يحصل على الحد العمودي المستخدم بين الخلايا في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words/bordercollection/vertical/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/bordercollection/vertical/
 public Border Vertical { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق الإعدادات على الحدود الرأسية على تنسيق صف الجدول.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* مساحة الاسم [Aspose.Words](../../bordercollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

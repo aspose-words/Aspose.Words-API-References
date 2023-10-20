@@ -1,7 +1,9 @@
 ---
 title: CustomPart.RelationshipType
-second_title: Aspose.Words لمراجع .NET API
-description: CustomPart ملكية. الحصول على أو تعيين نوع العلاقة من الجزء الأصلي إلى هذا الجزء المخصص.
+linktitle: RelationshipType
+articleTitle: RelationshipType
+second_title: Aspose.Words لـ .NET
+description: CustomPart RelationshipType ملكية. الحصول على أو تعيين نوع العلاقة من الجزء الأصلي إلى هذا الجزء المخصص في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.markup/custompart/relationshiptype/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.markup/custompart/relationshiptype/
 public string RelationshipType { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يجب أن يكون نوع العلاقة للجزء المخصص "غير معروف"، على سبيل المثال، نوع العلاقة المخصص، وليس أحد أنواع العلاقات المحددة في ISO/IEC 29500.
 
 القيمة الافتراضية هي سلسلة فارغة. يجب أن تكون القيمة الصالحة عبارة عن سلسلة غير فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### أنظر أيضا
 
 * class [CustomPart](../)
-* مساحة الاسم [Aspose.Words.Markup](../../custompart/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

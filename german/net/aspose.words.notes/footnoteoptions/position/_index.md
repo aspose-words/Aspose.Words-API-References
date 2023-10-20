@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.Position
-second_title: Aspose.Words für .NET-API-Referenz
-description: FootnoteOptions eigendom. Gibt die Position der Fußnoten an.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words für .NET
+description: FootnoteOptions Position eigendom. Gibt die Position der Fußnoten an in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.notes/footnoteoptions/position/
@@ -14,7 +16,7 @@ Gibt die Position der Fußnoten an.
 public FootnotePosition Position { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen anderen Ort auswählen, an dem das Dokument seine Fußnoten sammelt und anzeigt.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 
 * enum [FootnotePosition](../../footnoteposition/)
 * class [FootnoteOptions](../)
-* namensraum [Aspose.Words.Notes](../../footnoteoptions/)
+* namensraum [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Montage [Aspose.Words](../../../)
-
-

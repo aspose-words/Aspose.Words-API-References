@@ -1,7 +1,9 @@
 ---
 title: Cluster.GetWidth
-second_title: Справочник по API Aspose.Words для .NET
-description: Cluster метод. Возвращает ширину кластера.
+linktitle: GetWidth
+articleTitle: GetWidth
+second_title: Aspose.Words для .NET
+description: Cluster GetWidth метод. Возвращает ширину кластера на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.shaping/cluster/getwidth/
@@ -17,7 +19,5 @@ public float GetWidth(int em, float fontSize)
 ### Смотрите также
 
 * class [Cluster](../)
-* пространство имен [Aspose.Words.Shaping](../../cluster/)
+* пространство имен [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * сборка [Aspose.Words](../../../)
-
-

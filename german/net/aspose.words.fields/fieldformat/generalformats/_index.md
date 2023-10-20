@@ -1,7 +1,9 @@
 ---
 title: FieldFormat.GeneralFormats
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldFormat eigendom. Ruft eine Sammlung allgemeiner Formate ab die auf ein numerisches Text oder beliebiges Feldergebnis angewendet werden. Entspricht den Schaltern.
+linktitle: GeneralFormats
+articleTitle: GeneralFormats
+second_title: Aspose.Words für .NET
+description: FieldFormat GeneralFormats eigendom. Ruft eine Sammlung allgemeiner Formate ab die auf ein numerisches Text oder beliebiges Feldergebnis angewendet werden. Entspricht den Schaltern in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldformat/generalformats/
@@ -14,7 +16,7 @@ Ruft eine Sammlung allgemeiner Formate ab, die auf ein numerisches, Text- oder b
 public GeneralFormatCollection GeneralFormats { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Feldergebnisse formatiert werden.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * class [GeneralFormatCollection](../../generalformatcollection/)
 * class [FieldFormat](../)
-* namensraum [Aspose.Words.Fields](../../fieldformat/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

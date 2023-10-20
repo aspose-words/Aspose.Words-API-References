@@ -1,7 +1,9 @@
 ---
-title: Class TextColumn
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.TextColumn sınıf. Tek bir metin sütununu temsil eder.TextColumn üyesidirTextColumnCollection koleksiyon. TextColumn koleksiyon bir belgenin bir bölümündeki tüm sütunları içerir.
+title: TextColumn Class
+linktitle: TextColumn
+articleTitle: TextColumn
+second_title: Aspose.Words for .NET
+description: Aspose.Words.TextColumn sınıf. Tek bir metin sütununu temsil eder.TextColumn üyesidirTextColumnCollection koleksiyon. TextColumn koleksiyon bir belgenin bir bölümündeki tüm sütunları içerir C#'da.
 type: docs
 weight: 6390
 url: /tr/net/aspose.words/textcolumn/
@@ -23,13 +25,13 @@ public class TextColumn
 | [SpaceAfter](../../aspose.words/textcolumn/spaceafter/) { get; set; } | Bu sütun ile sonraki sütun arasındaki boşluğu nokta cinsinden alır veya ayarlar. Son sütun için gerekli değildir. |
 | [Width](../../aspose.words/textcolumn/width/) { get; set; } | Metin sütununun genişliğini nokta cinsinden alır veya ayarlar. |
 
-### Notlar
+## Notlar
 
 `TextColumn` nesneler yalnızca özel genişlik ve aralıklara sahip sütunları belirtmek için kullanılır. Belgedeki sütunların eşit genişlikte olmasını istiyorsanız TextColumns'u ayarlayın.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) ile`doğru`.
 
 Ne zaman yeni`TextColumn` oluşturulduğunda genişliği ve aralığı sıfıra ayarlanmıştır.
 
-### Örnekler
+## Örnekler
 
 Düzensiz aralıklı sütunların nasıl oluşturulacağını gösterir.
 
@@ -67,5 +69,3 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

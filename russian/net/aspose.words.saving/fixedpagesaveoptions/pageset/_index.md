@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.PageSet
-second_title: Справочник по API Aspose.Words для .NET
-description: FixedPageSaveOptions свойство. Получает или задает страницы для рендеринга. По умолчанию  все страницы в документе.
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words для .NET
+description: FixedPageSaveOptions PageSet свойство. Получает или задает страницы для рендеринга. По умолчанию  все страницы в документе на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/fixedpagesaveoptions/pageset/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/fixedpagesaveoptions/pageset/
 public PageSet PageSet { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как извлекать страницы на основе точных индексов страниц.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.All.pdf", options);
 
 * class [PageSet](../../pageset/)
 * class [FixedPageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

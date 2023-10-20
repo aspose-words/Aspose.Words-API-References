@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.FirstLineIndent
-second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает значение в пунктах для первой строки или выступающего отступа.
+linktitle: FirstLineIndent
+articleTitle: FirstLineIndent
+second_title: Aspose.Words для .NET
+description: ParagraphFormat FirstLineIndent свойство. Получает или задает значение в пунктах для первой строки или выступающего отступа на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/paragraphformat/firstlineindent/
@@ -16,7 +18,7 @@ url: /ru/net/aspose.words/paragraphformat/firstlineindent/
 public double FirstLineIndent { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставить абзац в документ.
 
@@ -48,7 +50,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Смотрите также
 
 * class [ParagraphFormat](../)
-* пространство имен [Aspose.Words](../../paragraphformat/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

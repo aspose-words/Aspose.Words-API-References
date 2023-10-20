@@ -1,7 +1,9 @@
 ---
 title: Comment.Author
-second_title: Aspose.Words für .NET-API-Referenz
-description: Comment eigendom. Gibt den Autorennamen für einen Kommentar zurück oder legt ihn fest.
+linktitle: Author
+articleTitle: Author
+second_title: Aspose.Words für .NET
+description: Comment Author eigendom. Gibt den Autorennamen für einen Kommentar zurück oder legt ihn fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/comment/author/
@@ -14,13 +16,13 @@ Gibt den Autorennamen für einen Kommentar zurück oder legt ihn fest.
 public string Author { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Kann nicht sein`Null`.
 
 Der Standardwert ist eine leere Zeichenfolge.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Kommentare und Antworten eines Dokuments gedruckt werden.
 
@@ -46,7 +48,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 ### Siehe auch
 
 * class [Comment](../)
-* namensraum [Aspose.Words](../../comment/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

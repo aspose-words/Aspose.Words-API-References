@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Kind
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutEnumerator eigendom. Ruft die Art der aktuellen Entität ab. Dies kann eine leere Zeichenfolge sein jedoch niemalsNull .
+linktitle: Kind
+articleTitle: Kind
+second_title: Aspose.Words für .NET
+description: LayoutEnumerator Kind eigendom. Ruft die Art der aktuellen Entität ab. Dies kann eine leere Zeichenfolge sein jedoch niemalsNull  in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.layout/layoutenumerator/kind/
@@ -14,11 +16,11 @@ Ruft die Art der aktuellen Entität ab. Dies kann eine leere Zeichenfolge sein, 
 public string Kind { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Dies ist ein spezifischerer Typ der aktuellen Entität, z. B. der LesezeichenbereichSpan Typ and kann entweder vom Typ BOOKMARKSTART oder BOOKMARKEND sein.
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten zum Durchlaufen der Layoutelemente eines Dokuments.
 
@@ -163,7 +165,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Siehe auch
 
 * class [LayoutEnumerator](../)
-* namensraum [Aspose.Words.Layout](../../layoutenumerator/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

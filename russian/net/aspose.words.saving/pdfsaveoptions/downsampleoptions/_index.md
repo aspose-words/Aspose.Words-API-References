@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DownsampleOptions
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Позволяет указать параметры понижения разрешения.
+linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions DownsampleOptions свойство. Позволяет указать параметры понижения разрешения на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/
 public DownsampleOptions DownsampleOptions { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить разрешение изображений в документе PDF.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", 
 
 * class [DownsampleOptions](../../downsampleoptions/)
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

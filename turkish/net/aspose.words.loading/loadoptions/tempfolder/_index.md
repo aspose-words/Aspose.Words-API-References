@@ -1,7 +1,9 @@
 ---
 title: LoadOptions.TempFolder
-second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. Belgeyi okurken geçici dosyaların kullanılmasına izin verir. Varsayılan olarak bu özellikhükümsüz ve hiçbir geçici dosya kullanılmaz.
+linktitle: TempFolder
+articleTitle: TempFolder
+second_title: Aspose.Words for .NET
+description: LoadOptions TempFolder mülk. Belgeyi okurken geçici dosyaların kullanılmasına izin verir. Varsayılan olarak bu özellikhükümsüz ve hiçbir geçici dosya kullanılmaz C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.loading/loadoptions/tempfolder/
@@ -14,13 +16,13 @@ Belgeyi okurken geçici dosyaların kullanılmasına izin verir. Varsayılan ola
 public string TempFolder { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Klasörün var olması ve yazılabilir olması gerekir, aksi takdirde bir istisna oluşturulacaktır.
 
 Aspose.Words, okuma tamamlandığında tüm geçici dosyaları otomatik olarak siler.
 
-### Örnekler
+## Örnekler
 
 Geçici dosyalar kullanılarak bir belgenin nasıl yükleneceğini gösterir.
 
@@ -56,7 +58,5 @@ Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
 ### Ayrıca bakınız
 
 * class [LoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../loadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

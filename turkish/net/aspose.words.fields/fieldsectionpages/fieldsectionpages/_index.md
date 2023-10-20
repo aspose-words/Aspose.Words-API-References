@@ -1,7 +1,9 @@
 ---
-title: FieldSectionPages.FieldSectionPages
-second_title: Aspose.Words for .NET API Referansı
-description: FieldSectionPages inşaatçı. Default_Constructor
+title: FieldSectionPages
+linktitle: FieldSectionPages
+articleTitle: FieldSectionPages
+second_title: Aspose.Words for .NET
+description: FieldSectionPages inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldsectionpages/fieldsectionpages/
@@ -17,7 +19,5 @@ public FieldSectionPages()
 ### Ayrıca bakınız
 
 * class [FieldSectionPages](../)
-* ad alanı [Aspose.Words.Fields](../../fieldsectionpages/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

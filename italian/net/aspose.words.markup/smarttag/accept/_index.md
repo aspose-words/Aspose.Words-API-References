@@ -1,7 +1,9 @@
 ---
 title: SmartTag.Accept
-second_title: Aspose.Words per .NET API Reference
-description: SmartTag metodo. Accetta un visitatore.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words per .NET
+description: SmartTag Accept metodo. Accetta un visitatore in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.markup/smarttag/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../../aspose.words/documentvisitor/) ha interrotto l'operazione prima di visitare tutti i nodi.
 
-### Osservazioni
+## Osservazioni
 
 Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
@@ -30,7 +32,7 @@ Per maggiori informazioni vedere il modello di progettazione Visitor.
 
 Chiamate[`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart/) , poi chiama[`Accept`](../../../aspose.words/node/accept/) per tutti i nodi figlio dello smart tag e delle chiamate[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend/) alla fine.
 
-### Esempi
+## Esempi
 
 Mostra come creare smart tag.
 
@@ -132,7 +134,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [SmartTag](../)
-* spazio dei nomi [Aspose.Words.Markup](../../smarttag/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

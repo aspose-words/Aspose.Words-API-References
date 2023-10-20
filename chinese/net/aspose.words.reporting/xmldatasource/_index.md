@@ -1,7 +1,9 @@
 ---
-title: Class XmlDataSource
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Reporting.XmlDataSource 班级. 提供对要在报告中使用的 XML 文件或流的数据的访问
+title: XmlDataSource Class
+linktitle: XmlDataSource
+articleTitle: XmlDataSource
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Reporting.XmlDataSource 班级. 提供对要在报告中使用的 XML 文件或流的数据的访问 在 C#.
 type: docs
 weight: 4750
 url: /zh/net/aspose.words.reporting/xmldatasource/
@@ -20,16 +22,16 @@ public class XmlDataSource
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XmlDataSource](xmldatasource/#constructor)(Stream) | 使用 XML 数据加载的默认选项，使用来自 XML 流的数据创建新数据源。 |
-| [XmlDataSource](xmldatasource/#constructor_4)(string) | 使用 XML 数据加载的默认选项，使用 XML 文件中的数据创建新数据源。 |
-| [XmlDataSource](xmldatasource/#constructor_2)(Stream, Stream) | 使用 XML 架构定义流，使用 XML 流中的数据创建新数据源。默认选项 用于XML数据加载。 |
-| [XmlDataSource](xmldatasource/#constructor_1)(Stream, XmlDataLoadOptions) | 使用指定的 XML 数据加载选项，使用 XML 流中的数据创建新数据源。 |
-| [XmlDataSource](xmldatasource/#constructor_6)(string, string) | 使用 XML 架构定义文件使用 XML 文件中的数据创建新数据源。默认选项 用于XML数据加载。 |
-| [XmlDataSource](xmldatasource/#constructor_5)(string, XmlDataLoadOptions) | 使用 XML 数据加载的指定选项，使用 XML 文件中的数据创建新数据源。 |
-| [XmlDataSource](xmldatasource/#constructor_3)(Stream, Stream, XmlDataLoadOptions) | 使用 XML 架构定义流，使用来自 XML 流的数据创建新数据源。指定的 选项用于XML数据加载。 |
-| [XmlDataSource](xmldatasource/#constructor_7)(string, string, XmlDataLoadOptions) | 使用 XML 架构定义文件使用 XML 文件中的数据创建新数据源。指定的 选项用于XML数据加载。 |
+| [XmlDataSource](xmldatasource/#constructor)(*Stream*) | 使用 XML 数据加载的默认选项，使用来自 XML 流的数据创建新数据源。 |
+| [XmlDataSource](xmldatasource/#constructor_4)(*string*) | 使用 XML 数据加载的默认选项，使用 XML 文件中的数据创建新数据源。 |
+| [XmlDataSource](xmldatasource/#constructor_2)(*Stream, Stream*) | 使用 XML 架构定义流，使用 XML 流中的数据创建新数据源。默认选项 用于XML数据加载。 |
+| [XmlDataSource](xmldatasource/#constructor_1)(*Stream, [XmlDataLoadOptions](../xmldataloadoptions/)*) | 使用指定的 XML 数据加载选项，使用 XML 流中的数据创建新数据源。 |
+| [XmlDataSource](xmldatasource/#constructor_6)(*string, string*) | 使用 XML 架构定义文件使用 XML 文件中的数据创建新数据源。默认选项 用于XML数据加载。 |
+| [XmlDataSource](xmldatasource/#constructor_5)(*string, [XmlDataLoadOptions](../xmldataloadoptions/)*) | 使用 XML 数据加载的指定选项，使用 XML 文件中的数据创建新数据源。 |
+| [XmlDataSource](xmldatasource/#constructor_3)(*Stream, Stream, [XmlDataLoadOptions](../xmldataloadoptions/)*) | 使用 XML 架构定义流，使用来自 XML 流的数据创建新数据源。指定的 选项用于XML数据加载。 |
+| [XmlDataSource](xmldatasource/#constructor_7)(*string, string, [XmlDataLoadOptions](../xmldataloadoptions/)*) | 使用 XML 架构定义文件使用 XML 文件中的数据创建新数据源。指定的 选项用于XML数据加载。 |
 
-### 评论
+## 评论
 
 要在生成报告时访问相应文件或流的数据，请将此类的实例作为 数据源传递给以下之一：[`ReportingEngine`](../reportingengine/) .BuildReport 重载.
 
@@ -53,5 +55,3 @@ public class XmlDataSource
 
 * 命名空间 [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../)
-
-

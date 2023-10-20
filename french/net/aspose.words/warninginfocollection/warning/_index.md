@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Warning
-second_title: Référence de l'API Aspose.Words pour .NET
-description: WarningInfoCollection méthode. Implémente leIWarningCallback interface. Ajoute un avertissement à cette collection.
+linktitle: Warning
+articleTitle: Warning
+second_title: Aspose.Words pour .NET
+description: WarningInfoCollection Warning méthode. Implémente leIWarningCallback interface. Ajoute un avertissement à cette collection en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/warninginfocollection/warning/
@@ -14,7 +16,7 @@ Implémente le[`IWarningCallback`](../../iwarningcallback/) interface. Ajoute un
 public void Warning(WarningInfo info)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir la propriété permettant de trouver la correspondance la plus proche pour une police manquante à partir des sources de polices disponibles.
 
@@ -75,7 +77,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* espace de noms [Aspose.Words](../../warninginfocollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

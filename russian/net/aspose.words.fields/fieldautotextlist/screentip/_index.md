@@ -1,7 +1,9 @@
 ---
 title: FieldAutoTextList.ScreenTip
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldAutoTextList свойство. Получает или задает отображаемый текст всплывающей подсказки.
+linktitle: ScreenTip
+articleTitle: ScreenTip
+second_title: Aspose.Words для .NET
+description: FieldAutoTextList ScreenTip свойство. Получает или задает отображаемый текст всплывающей подсказки на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldautotextlist/screentip/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldautotextlist/screentip/
 public string ScreenTip { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать поле AUTOTEXTLIST для выбора из списка записей автотекста.
 
@@ -69,7 +71,5 @@ private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string nam
 ### Смотрите также
 
 * class [FieldAutoTextList](../)
-* пространство имен [Aspose.Words.Fields](../../fieldautotextlist/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

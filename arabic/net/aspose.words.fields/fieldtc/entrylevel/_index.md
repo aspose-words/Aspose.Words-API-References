@@ -1,7 +1,9 @@
 ---
 title: FieldTC.EntryLevel
-second_title: Aspose.Words لمراجع .NET API
-description: FieldTC ملكية. الحصول على مستوى الإدخال أو تعيينه.
+linktitle: EntryLevel
+articleTitle: EntryLevel
+second_title: Aspose.Words لـ .NET
+description: FieldTC EntryLevel ملكية. الحصول على مستوى الإدخال أو تعيينه في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldtc/entrylevel/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldtc/entrylevel/
 public string EntryLevel { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل جدول المحتويات، وتصفية حقول TC التي تنتهي كمدخلات.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### أنظر أيضا
 
 * class [FieldTC](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldtc/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

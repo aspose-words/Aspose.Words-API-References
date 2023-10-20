@@ -1,7 +1,9 @@
 ---
-title: PrinterSettingsContainer.PrinterSettingsContainer
-second_title: Aspose.Words för .NET API Referens
-description: PrinterSettingsContainer byggare. Skapar en behållare förPrinterSettings .
+title: PrinterSettingsContainer
+linktitle: PrinterSettingsContainer
+articleTitle: PrinterSettingsContainer
+second_title: Aspose.Words för .NET
+description: PrinterSettingsContainer byggare. Skapar en behållare förPrinterSettings  i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.rendering/printersettingscontainer/printersettingscontainer/
@@ -14,7 +16,7 @@ Skapar en behållare förPrinterSettings .
 public PrinterSettingsContainer(PrinterSettings settings)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt och listar skrivarens papperskällor och storlekar.
 
@@ -47,7 +49,5 @@ foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 ### Se även
 
 * class [PrinterSettingsContainer](../)
-* namnutrymme [Aspose.Words.Rendering](../../printersettingscontainer/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

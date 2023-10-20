@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.PreblendImages
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 获取或设置一个值确定是否预混合具有黑色背景颜色的透明图像
+linktitle: PreblendImages
+articleTitle: PreblendImages
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions PreblendImages 财产. 获取或设置一个值确定是否预混合具有黑色背景颜色的透明图像 在 C#.
 type: docs
 weight: 260
 url: /zh/net/aspose.words.saving/pdfsaveoptions/preblendimages/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/preblendimages/
 public bool PreblendImages { get; set; }
 ```
 
-### 评论
+## 评论
 
 预混合图像可以改善 PDF 文档在 Adobe Reader 中的视觉外观并消除抗锯齿伪影。
 
@@ -22,7 +24,7 @@ public bool PreblendImages { get; set; }
 
 默认值为`错误的`。
 
-### 例子
+## 例子
 
 演示如何在将文档保存为 PDF 时预混合具有透明背景的图像。
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImagesNetStandard2.pdf", options
 ### 也可以看看
 
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

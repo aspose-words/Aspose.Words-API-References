@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.WordWrap
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Si cette propriété estFAUX  le texte latin au milieu dun mot peut être renvoyé à la ligne pour le paragraphe actuel. Sinon le texte latin est entouré de mots entiers.
+linktitle: WordWrap
+articleTitle: WordWrap
+second_title: Aspose.Words pour .NET
+description: ParagraphFormat WordWrap propriété. Si cette propriété estFAUX  le texte latin au milieu dun mot peut être renvoyé à la ligne pour le paragraphe actuel. Sinon le texte latin est entouré de mots entiers en C#.
 type: docs
 weight: 410
 url: /fr/net/aspose.words/paragraphformat/wordwrap/
@@ -14,7 +16,7 @@ Si cette propriété est`FAUX` , le texte latin au milieu d'un mot peut être re
 public bool WordWrap { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir des propriétés spéciales pour la typographie asiatique.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
 ### Voir également
 
 * class [ParagraphFormat](../)
-* espace de noms [Aspose.Words](../../paragraphformat/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

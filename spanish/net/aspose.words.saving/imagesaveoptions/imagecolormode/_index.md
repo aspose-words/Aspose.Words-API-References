@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ImageColorMode
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSaveOptions propiedad. Obtiene o establece el modo de color para las imágenes generadas.
+linktitle: ImageColorMode
+articleTitle: ImageColorMode
+second_title: Aspose.Words para .NET
+description: ImageSaveOptions ImageColorMode propiedad. Obtiene o establece el modo de color para las imágenes generadas en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.saving/imagesaveoptions/imagecolormode/
@@ -14,13 +16,13 @@ Obtiene o establece el modo de color para las imágenes generadas.
 public ImageColorMode ImageColorMode { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad tiene efecto sólo al guardar en formatos de imagen rasterizada.
 
 El valor predeterminado esNone.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar un modo de color al renderizar documentos.
 
@@ -80,7 +82,5 @@ Document doc = new Document();
 
 * enum [ImageColorMode](../../imagecolormode/)
 * class [ImageSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../imagesaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

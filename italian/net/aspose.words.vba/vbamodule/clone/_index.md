@@ -1,7 +1,9 @@
 ---
 title: VbaModule.Clone
-second_title: Aspose.Words per .NET API Reference
-description: VbaModule metodo. Esegue una copia del fileVbaModule .
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words per .NET
+description: VbaModule Clone metodo. Esegue una copia del fileVbaModule  in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.vba/vbamodule/clone/
@@ -18,7 +20,7 @@ public VbaModule Clone()
 
 Il clonato[`VbaModule`](../).
 
-### Esempi
+## Esempi
 
 Mostra come clonare in profondità un progetto e un modulo VBA.
 
@@ -42,7 +44,5 @@ destDoc.Save(ArtifactsDir + "VbaProject.CloneVbaProject.docm");
 ### Guarda anche
 
 * class [VbaModule](../)
-* spazio dei nomi [Aspose.Words.Vba](../../vbamodule/)
+* spazio dei nomi [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assemblea [Aspose.Words](../../../)
-
-

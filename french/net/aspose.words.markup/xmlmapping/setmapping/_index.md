@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.SetMapping
-second_title: Référence de l'API Aspose.Words pour .NET
-description: XmlMapping méthode. Définit un mappage entre la balise de document structuré parent et un nœud XML dune partie de données XML personnalisée.
+linktitle: SetMapping
+articleTitle: SetMapping
+second_title: Aspose.Words pour .NET
+description: XmlMapping SetMapping méthode. Définit un mappage entre la balise de document structuré parent et un nœud XML dune partie de données XML personnalisée en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.markup/xmlmapping/setmapping/
@@ -24,7 +26,7 @@ public bool SetMapping(CustomXmlPart customXmlPart, string xPath, string prefixM
 
 Un indicateur indiquant si la balise du document structuré parent est correctement mappée vers le nœud XML.
 
-### Exemples
+## Exemples
 
 Montre comment créer une balise de document structuré avec des données XML personnalisées.
 
@@ -92,7 +94,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 * class [CustomXmlPart](../../customxmlpart/)
 * class [XmlMapping](../)
-* espace de noms [Aspose.Words.Markup](../../xmlmapping/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

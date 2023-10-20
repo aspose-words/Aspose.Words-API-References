@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ExportParagraphGraphicsToArtifact
-second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Ottiene o imposta un valore che determina se un elemento grafico di paragrafo deve essere contrassegnato come artefatto.
+linktitle: ExportParagraphGraphicsToArtifact
+articleTitle: ExportParagraphGraphicsToArtifact
+second_title: Aspose.Words per .NET
+description: PdfSaveOptions ExportParagraphGraphicsToArtifact proprietà. Ottiene o imposta un valore che determina se un elemento grafico di paragrafo deve essere contrassegnato come artefatto in C#.
 type: docs
 weight: 160
 url: /it/net/aspose.words.saving/pdfsaveoptions/exportparagraphgraphicstoartifact/
@@ -14,7 +16,7 @@ Ottiene o imposta un valore che determina se un elemento grafico di paragrafo de
 public bool ExportParagraphGraphicsToArtifact { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`falso` e la grafica dei paragrafi (sottolineature, enfasi del testo, ecc.) verranno contrassegnati come "Span" nella struttura logica del documento.
 
@@ -22,7 +24,7 @@ Quando il valore è`VERO` la grafica del paragrafo verrà contrassegnata come "A
 
 Questo valore viene ignorato quando[`ExportDocumentStructure`](../exportdocumentstructure/) È`falso` .
 
-### Esempi
+## Esempi
 
 Mostra come esportare la grafica del paragrafo come artefatto (sottolineatura, enfasi del testo, ecc.).
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportParagraphGraphicsToArtifact.pdf", 
 ### Guarda anche
 
 * class [PdfSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pdfsaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

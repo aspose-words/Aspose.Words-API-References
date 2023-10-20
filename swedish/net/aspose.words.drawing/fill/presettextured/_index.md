@@ -1,9 +1,11 @@
 ---
 title: Fill.PresetTextured
-second_title: Aspose.Words för .NET API Referens
-description: Fill metod. Ställer in fyllningen till en förinställd textur.
+linktitle: PresetTextured
+articleTitle: PresetTextured
+second_title: Aspose.Words för .NET
+description: Fill PresetTextured metod. Ställer in fyllningen till en förinställd textur i C#.
 type: docs
-weight: 240
+weight: 230
 url: /sv/net/aspose.words.drawing/fill/presettextured/
 ---
 ## Fill.PresetTextured method
@@ -18,7 +20,7 @@ public void PresetTextured(PresetTexture presetTexture)
 | --- | --- | --- |
 | presetTexture | PresetTexture | [`PresetTexture`](../../presettexture/) |
 
-### Exempel
+## Exempel
 
 Visa hur du ställer in markörformatering.
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * enum [PresetTexture](../../presettexture/)
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

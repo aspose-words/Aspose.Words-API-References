@@ -1,12 +1,14 @@
 ---
 title: PageInfo.GetSizeInPixels
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageInfo methode. Berechnet die Seitengröße in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung.
+linktitle: GetSizeInPixels
+articleTitle: GetSizeInPixels
+second_title: Aspose.Words für .NET
+description: PageInfo GetSizeInPixels methode. Berechnet die Seitengröße in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.rendering/pageinfo/getsizeinpixels/
 ---
-## GetSizeInPixels(float, float) {#getsizeinpixels}
+## GetSizeInPixels(*float, float*) {#getsizeinpixels}
 
 Berechnet die Seitengröße in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung.
 
@@ -26,12 +28,12 @@ Die Größe der Seite in Pixel.
 ### Siehe auch
 
 * class [PageInfo](../)
-* namensraum [Aspose.Words.Rendering](../../pageinfo/)
+* namensraum [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
+## GetSizeInPixels(*float, float, float*) {#getsizeinpixels_1}
 
 Berechnet die Seitengröße in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung.
 
@@ -49,7 +51,7 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 Die Größe der Seite in Pixel.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seitengrößen- und Ausrichtungsinformationen für jede Seite in einem Word-Dokument gedruckt werden.
 
@@ -91,7 +93,5 @@ for (int i = 0; i < doc.PageCount; i++)
 ### Siehe auch
 
 * class [PageInfo](../)
-* namensraum [Aspose.Words.Rendering](../../pageinfo/)
+* namensraum [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../../)
-
-

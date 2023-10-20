@@ -1,7 +1,9 @@
 ---
-title: ImageWatermarkOptions.ImageWatermarkOptions
-second_title: Aspose.Words per .NET API Reference
-description: ImageWatermarkOptions costruttore. Default_Costruttore
+title: ImageWatermarkOptions
+linktitle: ImageWatermarkOptions
+articleTitle: ImageWatermarkOptions
+second_title: Aspose.Words per .NET
+description: ImageWatermarkOptions costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/imagewatermarkoptions/imagewatermarkoptions/
@@ -17,7 +19,5 @@ public ImageWatermarkOptions()
 ### Guarda anche
 
 * class [ImageWatermarkOptions](../)
-* spazio dei nomi [Aspose.Words](../../imagewatermarkoptions/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

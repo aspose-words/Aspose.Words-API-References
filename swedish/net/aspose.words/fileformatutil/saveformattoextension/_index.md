@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.SaveFormatToExtension
-second_title: Aspose.Words för .NET API Referens
-description: FileFormatUtil metod. Konverterar ett sparat format uppräknat värde till ett filtillägg. Det returnerade tillägget är en sträng med små bokstäver med en inledande punkt.
+linktitle: SaveFormatToExtension
+articleTitle: SaveFormatToExtension
+second_title: Aspose.Words för .NET
+description: FileFormatUtil SaveFormatToExtension metod. Konverterar ett sparat format uppräknat värde till ett filtillägg. Det returnerade tillägget är en sträng med små bokstäver med en inledande punkt i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/fileformatutil/saveformattoextension/
@@ -20,13 +22,13 @@ public static string SaveFormatToExtension(SaveFormat saveFormat)
 | --- | --- |
 | ArgumentException | Kastar när det inte går att konvertera. |
 
-### Anmärkningar
+## Anmärkningar
 
 DeWordML värdet konverteras till ".wml".
 
 DeFlatOpc värdet konverteras till ".fopc".
 
-### Exempel
+## Exempel
 
 Visar hur du använder FileFormatUtil-metoderna för att upptäcka formatet på ett dokument.
 
@@ -60,7 +62,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
 * enum [SaveFormat](../../saveformat/)
 * class [FileFormatUtil](../)
-* namnutrymme [Aspose.Words](../../fileformatutil/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

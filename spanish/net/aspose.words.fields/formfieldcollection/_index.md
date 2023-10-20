@@ -1,7 +1,9 @@
 ---
-title: Class FormFieldCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FormFieldCollection clase. Una colección deFormField objetos que representan todos los campos del formulario en un rango.
+title: FormFieldCollection Class
+linktitle: FormFieldCollection
+articleTitle: FormFieldCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FormFieldCollection clase. Una colección deFormField objetos que representan todos los campos del formulario en un rango en C#.
 type: docs
 weight: 2630
 url: /es/net/aspose.words.fields/formfieldcollection/
@@ -29,10 +31,10 @@ public class FormFieldCollection : IEnumerable<FormField>
 | --- | --- |
 | [Clear](../../aspose.words.fields/formfieldcollection/clear/)() | Elimina todos los campos del formulario de esta colección y del documento. |
 | [GetEnumerator](../../aspose.words.fields/formfieldcollection/getenumerator/)() | Devuelve un objeto enumerador. |
-| [Remove](../../aspose.words.fields/formfieldcollection/remove/)(string) | Elimina un campo de formulario con el nombre especificado. |
-| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(int) | Elimina un campo de formulario en el índice especificado. |
+| [Remove](../../aspose.words.fields/formfieldcollection/remove/)(*string*) | Elimina un campo de formulario con el nombre especificado. |
+| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(*int*) | Elimina un campo de formulario en el índice especificado. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
@@ -168,5 +170,3 @@ public class FormFieldVisitor : DocumentVisitor
 * class [FormField](../formfield/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

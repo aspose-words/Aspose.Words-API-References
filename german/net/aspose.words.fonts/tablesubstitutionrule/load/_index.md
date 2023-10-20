@@ -1,12 +1,14 @@
 ---
 title: TableSubstitutionRule.Load
-second_title: Aspose.Words für .NET-API-Referenz
-description: TableSubstitutionRule methode. Lädt Tabellenersetzungseinstellungen aus der XMLDatei.
+linktitle: Load
+articleTitle: Load
+second_title: Aspose.Words für .NET
+description: TableSubstitutionRule Load methode. Lädt Tabellenersetzungseinstellungen aus der XMLDatei in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/tablesubstitutionrule/load/
 ---
-## Load(string) {#load_1}
+## Load(*string*) {#load_1}
 
 Lädt Tabellenersetzungseinstellungen aus der XML-Datei.
 
@@ -18,7 +20,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | Name der Eingabedatei. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit benutzerdefinierten Schriftartersetzungstabellen gearbeitet wird.
 
@@ -79,12 +81,12 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Siehe auch
 
 * class [TableSubstitutionRule](../)
-* namensraum [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## Load(Stream) {#load}
+## Load(*Stream*) {#load}
 
 Lädt Tabellenersetzungseinstellungen aus dem XML-Stream.
 
@@ -96,7 +98,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Eingabestrom. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit benutzerdefinierten Schriftartersetzungstabellen gearbeitet wird.
 
@@ -157,7 +159,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Siehe auch
 
 * class [TableSubstitutionRule](../)
-* namensraum [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

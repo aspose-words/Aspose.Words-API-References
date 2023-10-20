@@ -1,7 +1,9 @@
 ---
-title: Footnote.Footnote
-second_title: Aspose.Words for .NET API 参考
-description: Footnote 构造函数. 初始化一个实例Footnote类.
+title: Footnote
+linktitle: Footnote
+articleTitle: Footnote
+second_title: 用于 .NET 的 Aspose.Words
+description: Footnote 构造函数. 初始化一个实例Footnote类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.notes/footnote/footnote/
@@ -19,13 +21,13 @@ public Footnote(DocumentBase doc, FootnoteType footnoteType)
 | doc | DocumentBase | 所有者文件。 |
 | footnoteType | FootnoteType | A[`FootnoteType`](../footnotetype/) value 指定这是脚注还是尾注。 |
 
-### 评论
+## 评论
 
 什么时候[`Footnote`](../)创建后，它属于指定文档，但还不是 文档的一部分并且[`ParentNode`](../../../aspose.words/node/parentnode/)是`无效的`。
 
-追加[`Footnote`](../)到文档使用Node)或者Node) 位于要插入脚注的段落上。
+追加[`Footnote`](../)到文档使用[`InsertAfter`](../../../aspose.words/compositenode/insertafter/)或者[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) 位于要插入脚注的段落上。
 
-### 例子
+## 例子
 
 演示如何插入和自定义脚注。
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* 命名空间 [Aspose.Words.Notes](../../footnote/)
+* 命名空间 [Aspose.Words.Notes](../../../aspose.words.notes/)
 * 部件 [Aspose.Words](../../../)
-
-

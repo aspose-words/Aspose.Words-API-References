@@ -1,7 +1,9 @@
 ---
-title: Enum PdfZoomBehavior
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.PdfZoomBehavior перечисление. Указывает тип масштабирования применяемый к документу PDF при его открытии в программе просмотра PDF.
+title: PdfZoomBehavior Enum
+linktitle: PdfZoomBehavior
+articleTitle: PdfZoomBehavior
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.PdfZoomBehavior перечисление. Указывает тип масштабирования применяемый к документу PDF при его открытии в программе просмотра PDF на С#.
 type: docs
 weight: 5540
 url: /ru/net/aspose.words.saving/pdfzoombehavior/
@@ -25,7 +27,7 @@ public enum PdfZoomBehavior
 | FitHeight | `4` | Соответствует высоте страницы. |
 | FitBox | `5` | Соответствует ограничивающей рамке (прямоугольник, содержащий все видимые элементы на странице). |
 
-### Примеры
+## Примеры
 
 Показывает, как установить масштабирование по умолчанию, которое программа чтения применяет при открытии обработанного PDF-документа.
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

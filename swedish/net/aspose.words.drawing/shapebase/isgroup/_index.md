@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsGroup
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. ReturnerarSann om detta är en gruppform.
+linktitle: IsGroup
+articleTitle: IsGroup
+second_title: Aspose.Words för .NET
+description: ShapeBase IsGroup fast egendom. ReturnerarSann om detta är en gruppform i C#.
 type: docs
 weight: 260
 url: /sv/net/aspose.words.drawing/shapebase/isgroup/
@@ -14,7 +16,7 @@ Returnerar`Sann` om detta är en gruppform.
 public bool IsGroup { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en grupp av former och skriver ut dess innehåll med hjälp av en dokumentbesökare.
 
@@ -105,7 +107,5 @@ public class ShapeGroupPrinter : DocumentVisitor
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

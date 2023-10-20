@@ -1,7 +1,9 @@
 ---
 title: ImageData.IsLink
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageData свойство. Возвращаетистинный если изображение связано с фигурой когдаSourceFullName указан.
+linktitle: IsLink
+articleTitle: IsLink
+second_title: Aspose.Words для .NET
+description: ImageData IsLink свойство. Возвращаетистинный если изображение связано с фигурой когдаSourceFullName указан на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.drawing/imagedata/islink/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/imagedata/islink/
 public bool IsLink { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как редактировать данные изображения фигуры.
 
@@ -77,7 +79,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Смотрите также
 
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

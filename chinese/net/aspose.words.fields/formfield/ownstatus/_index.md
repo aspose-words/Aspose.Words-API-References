@@ -1,7 +1,9 @@
 ---
 title: FormField.OwnStatus
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 指定当表单字段获得焦点时状态栏中显示的文本来源
+linktitle: OwnStatus
+articleTitle: OwnStatus
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField OwnStatus 财产. 指定当表单字段获得焦点时状态栏中显示的文本来源 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.fields/formfield/ownstatus/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/formfield/ownstatus/
 public bool OwnStatus { get; set; }
 ```
 
-### 评论
+## 评论
 
 如果`真的` ，由指定的文本[`StatusText`](../statustext/)显示属性。 如果`错误的`，由指定的自动图文集条目的文本[`StatusText`](../statustext/)显示属性。
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

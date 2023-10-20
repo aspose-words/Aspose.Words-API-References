@@ -1,7 +1,9 @@
 ---
-title: Class NodeList
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.NodeList сорт. Представляет коллекцию узлов соответствующих запросу XPath выполненному с использованиемSelectNodes метод.
+title: NodeList Class
+linktitle: NodeList
+articleTitle: NodeList
+second_title: Aspose.Words для .NET
+description: Aspose.Words.NodeList сорт. Представляет коллекцию узлов соответствующих запросу XPath выполненному с использованиемSelectNodes метод на С#.
 type: docs
 weight: 4220
 url: /ru/net/aspose.words/nodelist/
@@ -30,7 +32,7 @@ public class NodeList : IEnumerable<Node>
 | [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Обеспечивает простую итерацию стиля foreach по коллекции узлов. |
 | [ToArray](../../aspose.words/nodelist/toarray/)() | Копирует все узлы из коллекции в новый массив узлов. |
 
-### Примечания
+## Примечания
 
 `NodeList` возвращается[`SelectNodes`](../compositenode/selectnodes/) и содержит коллекцию узлов, соответствующих запросу XPath.
 
@@ -38,7 +40,7 @@ public class NodeList : IEnumerable<Node>
 
 относиться к`NodeList` Коллекция как коллекция «снимков».`NodeList`начинается как «живая» коллекция, поскольку узлы фактически не извлекаются при выполнении запроса XPath. Узлы извлекаются только при доступе, и в это время узел и все узлы, которые предшествуют ему, кэшируются, образуя коллекцию «снимков».
 
-### Примеры
+## Примеры
 
 Показывает, как найти все гиперссылки в документе Word, а затем изменить их URL-адреса и отображаемые имена.
 
@@ -257,5 +259,3 @@ namespace ApiExamples
 * class [Node](../node/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

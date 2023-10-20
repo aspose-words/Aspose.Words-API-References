@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.OutlineLevel
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Belgedeki paragrafın anahat düzeyini belirtir.
+linktitle: OutlineLevel
+articleTitle: OutlineLevel
+second_title: Aspose.Words for .NET
+description: ParagraphFormat OutlineLevel mülk. Belgedeki paragrafın anahat düzeyini belirtir C#'da.
 type: docs
 weight: 250
 url: /tr/net/aspose.words/paragraphformat/outlinelevel/
@@ -14,7 +16,7 @@ Belgedeki paragrafın anahat düzeyini belirtir.
 public OutlineLevel OutlineLevel { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Daraltılabilir metin oluşturmak için paragraf anahat düzeylerinin nasıl yapılandırılacağını gösterir.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphOutlineLevel.docx");
 
 * enum [OutlineLevel](../../outlinelevel/)
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

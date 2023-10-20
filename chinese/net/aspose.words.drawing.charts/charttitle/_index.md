@@ -1,7 +1,9 @@
 ---
-title: Class ChartTitle
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartTitle 班级. 提供对图表标题属性的访问
+title: ChartTitle Class
+linktitle: ChartTitle
+articleTitle: ChartTitle
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartTitle 班级. 提供对图表标题属性的访问 在 C#.
 type: docs
 weight: 820
 url: /zh/net/aspose.words.drawing.charts/charttitle/
@@ -20,12 +22,11 @@ public class ChartTitle
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/charttitle/font/) { get; } |  |
 | [Overlay](../../aspose.words.drawing.charts/charttitle/overlay/) { get; set; } | 确定是否允许其他图表元素重叠标题。 默认情况下重叠是`错误的`. |
 | [Show](../../aspose.words.drawing.charts/charttitle/show/) { get; set; } | 确定是否应显示此图表的标题。 默认值为`真的`. |
 | [Text](../../aspose.words.drawing.charts/charttitle/text/) { get; set; } | 获取或设置图表标题的文本。 如果`无效的`或指定空值，将显示自动生成的标题。 |
 
-### 例子
+## 例子
 
 演示如何插入图表并设置标题。
 
@@ -54,5 +55,3 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

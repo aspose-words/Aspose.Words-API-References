@@ -1,7 +1,9 @@
 ---
 title: FileFormatUtil.LoadFormatToSaveFormat
-second_title: Aspose.Words for .NET API 参考
-description: FileFormatUtil 方法. 转换LoadFormat值对一个SaveFormat如果可能的话值
+linktitle: LoadFormatToSaveFormat
+articleTitle: LoadFormatToSaveFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: FileFormatUtil LoadFormatToSaveFormat 方法. 转换LoadFormat值对一个SaveFormat如果可能的话值 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/fileformatutil/loadformattosaveformat/
@@ -20,7 +22,7 @@ public static SaveFormat LoadFormatToSaveFormat(LoadFormat loadFormat)
 | --- | --- |
 | ArgumentException | 无法转换时抛出。 |
 
-### 例子
+## 例子
 
 演示如何使用 FileFormatUtil 方法来检测文档的格式。
 
@@ -55,7 +57,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 * enum [SaveFormat](../../saveformat/)
 * enum [LoadFormat](../../loadformat/)
 * class [FileFormatUtil](../)
-* 命名空间 [Aspose.Words](../../fileformatutil/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

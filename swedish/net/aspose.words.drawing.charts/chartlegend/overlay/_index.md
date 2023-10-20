@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.Overlay
-second_title: Aspose.Words för .NET API Referens
-description: ChartLegend fast egendom. Bestämmer om andra diagramelement ska tillåtas att överlappa förklaringen. Standardvärdet ärfalsk .
+linktitle: Overlay
+articleTitle: Overlay
+second_title: Aspose.Words för .NET
+description: ChartLegend Overlay fast egendom. Bestämmer om andra diagramelement ska tillåtas att överlappa förklaringen. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartlegend/overlay/
@@ -14,7 +16,7 @@ Bestämmer om andra diagramelement ska tillåtas att överlappa förklaringen. S
 public bool Overlay { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man redigerar utseendet på ett diagrams förklaring.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 ### Se även
 
 * class [ChartLegend](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

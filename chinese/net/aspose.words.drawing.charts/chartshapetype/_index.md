@@ -1,7 +1,9 @@
 ---
-title: Enum ChartShapeType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartShapeType 枚举. 指定图表元素的形状类型
+title: ChartShapeType Enum
+linktitle: ChartShapeType
+articleTitle: ChartShapeType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartShapeType 枚举. 指定图表元素的形状类型 在 C#.
 type: docs
 weight: 810
 url: /zh/net/aspose.words.drawing.charts/chartshapetype/
@@ -207,7 +209,7 @@ public enum ChartShapeType
 | ChartStar | `186` | 图表明星. |
 | ChartX | `187` | 图表 X. |
 
-### 例子
+## 例子
 
 演示如何设置图表数据标签的填充、描边和标注格式。
 
@@ -250,5 +252,3 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 * property [ShapeType](../chartformat/shapetype/)
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

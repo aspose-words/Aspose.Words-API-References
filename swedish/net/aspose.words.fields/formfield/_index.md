@@ -1,7 +1,9 @@
 ---
-title: Class FormField
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FormField klass. Representerar ett enda formulärfält.
+title: FormField Class
+linktitle: FormField
+articleTitle: FormField
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FormField klass. Representerar ett enda formulärfält i C#.
 type: docs
 weight: 2620
 url: /sv/net/aspose.words.fields/formfield/
@@ -61,20 +63,20 @@ public class FormField : SpecialChar
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/formfield/accept/)(DocumentVisitor) | Accepterar en besökare. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
+| override [Accept](../../aspose.words.fields/formfield/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepterar en besökare. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Får specialtecknet som denna nod representerar. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
 | [RemoveField](../../aspose.words.fields/formfield/removefield/)() | Tar bort hela formulärfältet, inte bara formulärfältets specialtecken. |
-| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue/)(object) | Tillämpar textformatet som anges i[`TextInputFormat`](./textinputformat/) och lagrar värdet i[`Result`](./result/) . |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue/)(*object*) | Tillämpar textformatet som anges i[`TextInputFormat`](./textinputformat/) och lagrar värdet i[`Result`](./result/) . |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Microsoft Word tillhandahåller följande formulärfält: kryssruta, textinmatning och rullgardinsmeny (kombobox).
 
@@ -84,7 +86,7 @@ Microsoft Word tillhandahåller följande formulärfält: kryssruta, textinmatni
 
 Ett komplett formulärfält i ett Word-dokument är en komplex struktur som representeras av flera noder: fältstart, fältkod som FORMTEXT, formulärfältsdata, fältavgränsare, fältresultat, fältslut och ett bokmärke. För att programmatiskt skapa formulärfält i ett Word-dokument use [`InsertCheckBox`](../../aspose.words/documentbuilder/insertcheckbox/) , [`InsertTextInput`](../../aspose.words/documentbuilder/inserttextinput/) och [`InsertComboBox`](../../aspose.words/documentbuilder/insertcombobox/) which se till att alla formulärfältsnoder skapas i rätt ordning och i lämpligt tillstånd.
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar hela FormField, inklusive fältvärdet.
 
@@ -132,5 +134,3 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 * class [SpecialChar](../../aspose.words/specialchar/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

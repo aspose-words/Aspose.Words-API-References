@@ -1,7 +1,9 @@
 ---
 title: Document.RemovePersonalInformation
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على أو تعيين علامة تشير إلى أن Microsoft Word سيقوم بإزالة كافة معلومات المستخدم من التعليقات والمراجعات و خصائص المستند عند حفظ المستند.
+linktitle: RemovePersonalInformation
+articleTitle: RemovePersonalInformation
+second_title: Aspose.Words لـ .NET
+description: Document RemovePersonalInformation ملكية. الحصول على أو تعيين علامة تشير إلى أن Microsoft Word سيقوم بإزالة كافة معلومات المستخدم من التعليقات والمراجعات و خصائص المستند عند حفظ المستند في C#.
 type: docs
 weight: 340
 url: /ar/net/aspose.words/document/removepersonalinformation/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/document/removepersonalinformation/
 public bool RemovePersonalInformation { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين إزالة المعلومات الشخصية أثناء الحفظ اليدوي.
 
@@ -48,7 +50,5 @@ Assert.AreEqual("John Doe", doc.Revisions[0].Author);
 ### أنظر أيضا
 
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateWordCount
-second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Belgenin kelime sayısı özelliklerini günceller.
+linktitle: UpdateWordCount
+articleTitle: UpdateWordCount
+second_title: Aspose.Words for .NET
+description: Document UpdateWordCount yöntem. Belgenin kelime sayısı özelliklerini günceller C#'da.
 type: docs
-weight: 810
+weight: 790
 url: /tr/net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}
@@ -14,7 +16,7 @@ Belgenin kelime sayısı özelliklerini günceller.
 public void UpdateWordCount()
 ```
 
-### Notlar
+## Notlar
 
 `UpdateWordCount` Karakterler, Kelimeler ve Paragraflar özelliklerini yeniden hesaplar ve günceller.[`BuiltInDocumentProperties`](../builtindocumentproperties/) koleksiyonu[`Document`](../).
 
@@ -22,7 +24,7 @@ Dikkat`UpdateWordCount`satır ve sayfa sayısı özelliklerini güncellemez. `Up
 
 Bir değerlendirme sürümü kullandığınızda, değerlendirme filigranı da kelime sayısına dahil olacaktır.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm liste etiketlerinin nasıl güncelleştirileceğini gösterir.
 
@@ -59,12 +61,12 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## UpdateWordCount(bool) {#updatewordcount_1}
+## UpdateWordCount(*bool*) {#updatewordcount_1}
 
 Belgenin kelime sayısı özelliklerini günceller, isteğe bağlı olarak günceller[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) özellik.
 
@@ -76,11 +78,11 @@ public void UpdateWordCount(bool updateLinesCount)
 | --- | --- | --- |
 | updateLinesCount | Boolean | `doğru` belgedeki satır sayısı hesaplanacaksa. |
 
-### Notlar
+## Notlar
 
 Bu yöntem belgenin sayfa düzenini yeniden oluşturacaktır.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm liste etiketlerinin nasıl güncelleştirileceğini gösterir.
 
@@ -117,7 +119,5 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

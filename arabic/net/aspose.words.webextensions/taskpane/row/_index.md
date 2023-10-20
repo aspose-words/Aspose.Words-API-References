@@ -1,7 +1,9 @@
 ---
 title: TaskPane.Row
-second_title: Aspose.Words لمراجع .NET API
-description: TaskPane ملكية. يحدد الفهرس الذي يعدد من الخارج إلى الداخل لجزء المهام هذا من بين أجزاء المهام المستمرة المثبتة في نفس الموقع الافتراضي.
+linktitle: Row
+articleTitle: Row
+second_title: Aspose.Words لـ .NET
+description: TaskPane Row ملكية. يحدد الفهرس الذي يعدد من الخارج إلى الداخل لجزء المهام هذا من بين أجزاء المهام المستمرة المثبتة في نفس الموقع الافتراضي في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.webextensions/taskpane/row/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.webextensions/taskpane/row/
 public int Row { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة ملحق ويب إلى مستند.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### أنظر أيضا
 
 * class [TaskPane](../)
-* مساحة الاسم [Aspose.Words.WebExtensions](../../taskpane/)
+* مساحة الاسم [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * المجسم [Aspose.Words](../../../)
-
-

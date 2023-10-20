@@ -1,7 +1,9 @@
 ---
 title: Footnote.StoryType
-second_title: Aspose.Words for .NET API 参考
-description: Footnote 财产. 返回Footnotes或者Endnotes.
+linktitle: StoryType
+articleTitle: StoryType
+second_title: 用于 .NET 的 Aspose.Words
+description: Footnote StoryType 财产. 返回Footnotes或者Endnotes 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.notes/footnote/storytype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.notes/footnote/storytype/
 public override StoryType StoryType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入 InlineStory 节点。
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../../aspose.words/storytype/)
 * class [Footnote](../)
-* 命名空间 [Aspose.Words.Notes](../../footnote/)
+* 命名空间 [Aspose.Words.Notes](../../../aspose.words.notes/)
 * 部件 [Aspose.Words](../../../)
-
-

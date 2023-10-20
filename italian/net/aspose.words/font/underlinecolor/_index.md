@@ -1,7 +1,9 @@
 ---
 title: Font.UnderlineColor
-second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene o imposta il colore della sottolineatura applicata al carattere.
+linktitle: UnderlineColor
+articleTitle: UnderlineColor
+second_title: Aspose.Words per .NET
+description: Font UnderlineColor proprietà. Ottiene o imposta il colore della sottolineatura applicata al carattere in C#.
 type: docs
 weight: 540
 url: /it/net/aspose.words/font/underlinecolor/
@@ -14,7 +16,7 @@ Ottiene o imposta il colore della sottolineatura applicata al carattere.
 public Color UnderlineColor { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come configurare lo stile e il colore della sottolineatura del testo.
 
@@ -33,7 +35,5 @@ doc.Save(ArtifactsDir + "Font.Underlines.docx");
 ### Guarda anche
 
 * class [Font](../)
-* spazio dei nomi [Aspose.Words](../../font/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

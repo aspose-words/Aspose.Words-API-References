@@ -1,7 +1,9 @@
 ---
 title: TextBox.Next
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextBox eigendom. Gibt a zurück oder legt es festTextBox das stellt das nächste darTextBox in einer Folge von Formen.
+linktitle: Next
+articleTitle: Next
+second_title: Aspose.Words für .NET
+description: TextBox Next eigendom. Gibt a zurück oder legt es festTextBox das stellt das nächste darTextBox in einer Folge von Formen in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing/textbox/next/
@@ -14,7 +16,7 @@ Gibt a zurück oder legt es fest[`TextBox`](../) das stellt das nächste dar[`Te
 public TextBox Next { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Textfelder verknüpft werden.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");
 ### Siehe auch
 
 * class [TextBox](../)
-* namensraum [Aspose.Words.Drawing](../../textbox/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

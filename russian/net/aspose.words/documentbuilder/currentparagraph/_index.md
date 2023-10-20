@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentParagraph
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Получает абзац выбранный в данный момент в этомDocumentBuilder .
+linktitle: CurrentParagraph
+articleTitle: CurrentParagraph
+second_title: Aspose.Words для .NET
+description: DocumentBuilder CurrentParagraph свойство. Получает абзац выбранный в данный момент в этомDocumentBuilder  на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/documentbuilder/currentparagraph/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/documentbuilder/currentparagraph/
 public Paragraph CurrentParagraph { get; }
 ```
 
-### Примечания
+## Примечания
 
 [`CurrentNode`](../currentnode/)
 
-### Примеры
+## Примеры
 
 Показывает, как перемещать курсор построителя документов в разные узлы документа.
 
@@ -73,7 +75,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Paragraph](../../paragraph/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

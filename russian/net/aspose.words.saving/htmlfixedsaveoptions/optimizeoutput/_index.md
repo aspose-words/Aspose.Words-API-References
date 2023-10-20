@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.OptimizeOutput
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlFixedSaveOptions свойство. Флаг указывает требуется ли оптимизировать вывод. Если этот флаг установлен избыточные вложенные холсты и пустые холсты удаляются также объединяются соседние глифы с одинаковым форматированием. Примечание. На точность отображения содержимого может повлиять если для этого свойства установлено значениеистинный . По умолчаниюистинный .
+linktitle: OptimizeOutput
+articleTitle: OptimizeOutput
+second_title: Aspose.Words для .NET
+description: HtmlFixedSaveOptions OptimizeOutput свойство. Флаг указывает требуется ли оптимизировать вывод. Если этот флаг установлен избыточные вложенные холсты и пустые холсты удаляются также объединяются соседние глифы с одинаковым форматированием. Примечание. На точность отображения содержимого может повлиять если для этого свойства установлено значениеистинный . По умолчаниюистинный  на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
 public override bool OptimizeOutput { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как упростить документ при сохранении его в HTML, удалив различные лишние объекты.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(optimizeOutput ? 62521 : 191770,
 ### Смотрите также
 
 * class [HtmlFixedSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

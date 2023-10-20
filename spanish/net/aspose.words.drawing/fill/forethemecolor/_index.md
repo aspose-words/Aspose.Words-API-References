@@ -1,9 +1,11 @@
 ---
 title: Fill.ForeThemeColor
-second_title: Referencia de API de Aspose.Words para .NET
-description: Fill propiedad. Obtiene o establece un objeto ThemeColor que representa el color de primer plano para el relleno.
+linktitle: ForeThemeColor
+articleTitle: ForeThemeColor
+second_title: Aspose.Words para .NET
+description: Fill ForeThemeColor propiedad. Obtiene o establece un objeto ThemeColor que representa el color de primer plano para el relleno en C#.
 type: docs
-weight: 80
+weight: 70
 url: /es/net/aspose.words.drawing/fill/forethemecolor/
 ---
 ## Fill.ForeThemeColor property
@@ -14,7 +16,7 @@ Obtiene o establece un objeto ThemeColor que representa el color de primer plano
 public ThemeColor ForeThemeColor { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar el color del tema para el color de la forma de primer plano/fondo.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 
 * enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * class [Fill](../)
-* espacio de nombres [Aspose.Words.Drawing](../../fill/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

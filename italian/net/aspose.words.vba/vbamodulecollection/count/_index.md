@@ -1,7 +1,9 @@
 ---
 title: VbaModuleCollection.Count
-second_title: Aspose.Words per .NET API Reference
-description: VbaModuleCollection proprietà. Restituisce il numero di moduli VBA nella raccolta.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words per .NET
+description: VbaModuleCollection Count proprietà. Restituisce il numero di moduli VBA nella raccolta in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.vba/vbamodulecollection/count/
@@ -14,7 +16,7 @@ Restituisce il numero di moduli VBA nella raccolta.
 public int Count { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come accedere alle informazioni sul progetto VBA di un documento.
 
@@ -45,7 +47,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Guarda anche
 
 * class [VbaModuleCollection](../)
-* spazio dei nomi [Aspose.Words.Vba](../../vbamodulecollection/)
+* spazio dei nomi [Aspose.Words.Vba](../../../aspose.words.vba/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.KeepWithNext
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. True wenn der Absatz auf derselben Seite bleiben soll wie der darauf folgende Absatz.
+linktitle: KeepWithNext
+articleTitle: KeepWithNext
+second_title: Aspose.Words für .NET
+description: ParagraphFormat KeepWithNext eigendom. True wenn der Absatz auf derselben Seite bleiben soll wie der darauf folgende Absatz in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words/paragraphformat/keepwithnext/
@@ -14,7 +16,7 @@ True, wenn der Absatz auf derselben Seite bleiben soll wie der darauf folgende A
 public bool KeepWithNext { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine Tabelle so einrichtet, dass sie auf derselben Seite bleibt.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

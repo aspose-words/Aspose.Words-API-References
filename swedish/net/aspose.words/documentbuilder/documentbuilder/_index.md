@@ -1,7 +1,9 @@
 ---
-title: DocumentBuilder.DocumentBuilder
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder byggare. Initierar en ny instans av den här klassen.
+title: DocumentBuilder
+linktitle: DocumentBuilder
+articleTitle: DocumentBuilder
+second_title: Aspose.Words för .NET
+description: DocumentBuilder byggare. Initierar en ny instans av den här klassen i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/documentbuilder/documentbuilder/
@@ -14,11 +16,11 @@ Initierar en ny instans av den här klassen.
 public DocumentBuilder()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Skapar en ny[`DocumentBuilder`](../) objekt och fäster det på ett nytt[`Document`](../../document/) objekt.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar formaterad text med DocumentBuilder.
 
@@ -40,12 +42,12 @@ builder.Write("Hello world!");
 ### Se även
 
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## DocumentBuilder(Document) {#constructor_1}
+## DocumentBuilder(*[Document](../../document/)*) {#constructor_1}
 
 Initierar en ny instans av den här klassen.
 
@@ -57,11 +59,11 @@ public DocumentBuilder(Document doc)
 | --- | --- | --- |
 | doc | Document | De[`Document`](../../document/) föremål att fästa vid. |
 
-### Anmärkningar
+## Anmärkningar
 
 Skapar en ny[`DocumentBuilder`](../) objekt, ansluter till det angivna[`Document`](../../document/)object. Markören är placerad i början av dokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur du skapar sidhuvuden och sidfötter i ett dokument med DocumentBuilder.
 
@@ -142,7 +144,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

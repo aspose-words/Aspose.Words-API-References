@@ -1,7 +1,9 @@
 ---
-title: Class MemoryFontSource
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.MemoryFontSource classe. Représente le fichier de police TrueType unique stocké en mémoire.
+title: MemoryFontSource Class
+linktitle: MemoryFontSource
+articleTitle: MemoryFontSource
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fonts.MemoryFontSource classe. Représente le fichier de police TrueType unique stocké en mémoire en C#.
 type: docs
 weight: 3020
 url: /fr/net/aspose.words.fonts/memoryfontsource/
@@ -20,9 +22,9 @@ public class MemoryFontSource : FontSourceBase
 
 | Nom | La description |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource/#constructor)(byte[]) | Directeur. |
-| [MemoryFontSource](memoryfontsource/#constructor_1)(byte[], int) | Directeur. |
-| [MemoryFontSource](memoryfontsource/#constructor_2)(byte[], int, string) | Directeur. |
+| [MemoryFontSource](memoryfontsource/#constructor)(*byte[]*) | Directeur. |
+| [MemoryFontSource](memoryfontsource/#constructor_1)(*byte[], int*) | Directeur. |
+| [MemoryFontSource](memoryfontsource/#constructor_2)(*byte[], int, string*) | Directeur. |
 
 ## Propriétés
 
@@ -40,7 +42,7 @@ public class MemoryFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Renvoie la liste des polices disponibles via cette source. |
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un tableau d'octets avec les données d'un fichier de police comme source de police.
 
@@ -61,5 +63,3 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 * class [FontSourceBase](../fontsourcebase/)
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)
-
-

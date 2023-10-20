@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MovePrevious
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutEnumerator метод. Переход к предыдущему родственному объекту.
+linktitle: MovePrevious
+articleTitle: MovePrevious
+second_title: Aspose.Words для .NET
+description: LayoutEnumerator MovePrevious метод. Переход к предыдущему родственному объекту на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.layout/layoutenumerator/moveprevious/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/layoutenumerator/moveprevious/
 public bool MovePrevious()
 ```
 
-### Примеры
+## Примеры
 
 Показывает способы перемещения по объектам макета документа.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Смотрите также
 
 * class [LayoutEnumerator](../)
-* пространство имен [Aspose.Words.Layout](../../layoutenumerator/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

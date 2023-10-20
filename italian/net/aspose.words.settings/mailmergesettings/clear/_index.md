@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Clear
-second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings metodo. Cancella le impostazioni di stampa unione in modo tale che quando il documento viene salvato nessuna impostazione di stampa unione verrà salvata e diventerà un documento normale.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words per .NET
+description: MailMergeSettings Clear metodo. Cancella le impostazioni di stampa unione in modo tale che quando il documento viene salvato nessuna impostazione di stampa unione verrà salvata e diventerà un documento normale in C#.
 type: docs
 weight: 180
 url: /it/net/aspose.words.settings/mailmergesettings/clear/
@@ -14,7 +16,7 @@ Cancella le impostazioni di stampa unione in modo tale che quando il documento v
 public void Clear()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione durante la connessione a un'origine dati esterna.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Guarda anche
 
 * class [MailMergeSettings](../)
-* spazio dei nomi [Aspose.Words.Settings](../../mailmergesettings/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

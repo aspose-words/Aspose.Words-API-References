@@ -1,7 +1,9 @@
 ---
-title: Class EndnoteOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Notes.EndnoteOptions 班级. 表示文档或节的尾注编号选项
+title: EndnoteOptions Class
+linktitle: EndnoteOptions
+articleTitle: EndnoteOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Notes.EndnoteOptions 班级. 表示文档或节的尾注编号选项 在 C#.
 type: docs
 weight: 4240
 url: /zh/net/aspose.words.notes/endnoteoptions/
@@ -25,7 +27,7 @@ public sealed class EndnoteOptions
 | [RestartRule](../../aspose.words.notes/endnoteoptions/restartrule/) { get; set; } | 确定自动编号何时重新启动。 |
 | [StartNumber](../../aspose.words.notes/endnoteoptions/startnumber/) { get; set; } | 指定第一个自动编号尾注的起始数字或字符。 |
 
-### 例子
+## 例子
 
 演示如何选择文档收集和显示其尾注的不同位置。
 
@@ -201,5 +203,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * property [EndnoteOptions](../../aspose.words/pagesetup/endnoteoptions/)
 * 命名空间 [Aspose.Words.Notes](../../aspose.words.notes/)
 * 部件 [Aspose.Words](../../)
-
-

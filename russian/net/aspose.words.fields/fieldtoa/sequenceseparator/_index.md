@@ -1,7 +1,9 @@
 ---
 title: FieldToa.SequenceSeparator
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToa свойство. Получает или задает последовательность символов которая используется для разделения порядковых номеров и номеров страниц.
+linktitle: SequenceSeparator
+articleTitle: SequenceSeparator
+second_title: Aspose.Words для .NET
+description: FieldToa SequenceSeparator свойство. Получает или задает последовательность символов которая используется для разделения порядковых номеров и номеров страниц на С#.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fields/fieldtoa/sequenceseparator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoa/sequenceseparator/
 public string SequenceSeparator { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как построить и настроить таблицу авторитетов, используя поля TOA и TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Смотрите также
 
 * class [FieldToa](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoa/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

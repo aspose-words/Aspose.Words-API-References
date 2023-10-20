@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SuppressSpBfAfterPgBrk
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Ne pas utiliser despace avant la première ligne après un saut de page.
+linktitle: SuppressSpBfAfterPgBrk
+articleTitle: SuppressSpBfAfterPgBrk
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions SuppressSpBfAfterPgBrk propriété. Ne pas utiliser despace avant la première ligne après un saut de page en C#.
 type: docs
 weight: 500
 url: /fr/net/aspose.words.settings/compatibilityoptions/suppressspbfafterpgbrk/
@@ -17,7 +19,5 @@ public bool SuppressSpBfAfterPgBrk { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class BookmarkCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.BookmarkCollection klass. En samling avBookmark objekt som representerar bokmärkena i det angivna intervallet.
+title: BookmarkCollection Class
+linktitle: BookmarkCollection
+articleTitle: BookmarkCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.BookmarkCollection klass. En samling avBookmark objekt som representerar bokmärkena i det angivna intervallet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/bookmarkcollection/
@@ -29,11 +31,11 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 | --- | --- |
 | [Clear](../../aspose.words/bookmarkcollection/clear/)() | Tar bort alla bokmärken från den här samlingen och från dokumentet. |
 | [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(Bookmark) | Tar bort det angivna bokmärket från dokumentet. |
-| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(string) | Tar bort ett bokmärke med det angivna namnet. |
-| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(int) | Tar bort ett bokmärke vid det angivna indexet. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(*[Bookmark](../bookmark/)*) | Tar bort det angivna bokmärket från dokumentet. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(*string*) | Tar bort ett bokmärke med det angivna namnet. |
+| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(*int*) | Tar bort ett bokmärke vid det angivna indexet. |
 
-### Exempel
+## Exempel
 
 Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
 
@@ -124,5 +126,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * class [Bookmark](../bookmark/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.Hidden
-second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان هذا المحور مخفيًا أم لا.
+linktitle: Hidden
+articleTitle: Hidden
+second_title: Aspose.Words لـ .NET
+description: ChartAxis Hidden ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان هذا المحور مخفيًا أم لا في C#.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.drawing.charts/chartaxis/hidden/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing.charts/chartaxis/hidden/
 public bool Hidden { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع` .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إخفاء محاور المخطط.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.HideChartAxis.docx");
 ### أنظر أيضا
 
 * class [ChartAxis](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

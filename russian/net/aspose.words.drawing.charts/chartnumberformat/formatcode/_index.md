@@ -1,7 +1,9 @@
 ---
 title: ChartNumberFormat.FormatCode
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartNumberFormat свойство. Получает или задает код формата применяемый к метке данных.
+linktitle: FormatCode
+articleTitle: FormatCode
+second_title: Aspose.Words для .NET
+description: ChartNumberFormat FormatCode свойство. Получает или задает код формата применяемый к метке данных на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartnumberformat/formatcode/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartnumberformat/formatcode/
 public string FormatCode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Форматирование чисел используется для изменения способа отображения значения в метке данных и может использоваться весьма творчески. Примеры числовых форматов:
 
@@ -38,7 +40,7 @@ public string FormatCode { get; set; }
 
 Пользовательский с цветом — «[Красный]-#,##0.0»
 
-### Примеры
+## Примеры
 
 Показывает, как задать форматирование значений диаграммы.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ### Смотрите также
 
 * class [ChartNumberFormat](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartnumberformat/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

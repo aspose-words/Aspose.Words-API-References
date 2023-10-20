@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitBuildingBlockStart
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentVisitor methode. Wird aufgerufen wenn die Aufzählung eines Bausteins begonnen hat.
+linktitle: VisitBuildingBlockStart
+articleTitle: VisitBuildingBlockStart
+second_title: Aspose.Words für .NET
+description: DocumentVisitor VisitBuildingBlockStart methode. Wird aufgerufen wenn die Aufzählung eines Bausteins begonnen hat in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words/documentvisitor/visitbuildingblockstart/
@@ -22,11 +24,11 @@ public virtual VisitorAction VisitBuildingBlockStart(BuildingBlock block)
 
 A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
-### Bemerkungen
+## Bemerkungen
 
 Hinweis: Ein Bausteinknoten und seine untergeordneten Knoten werden nicht besucht, wenn Sie a Visitor über a ausführen[`Document`](../../document/) . Wenn Sie einen Besucher über einen -Baustein ausführen möchten, müssen Sie den Besucher über ausführen[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) or Anruf[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/) .
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten für den Zugriff auf Bausteine in einem Glossardokument.
 
@@ -132,7 +134,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [DocumentVisitor](../)
-* namensraum [Aspose.Words](../../documentvisitor/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

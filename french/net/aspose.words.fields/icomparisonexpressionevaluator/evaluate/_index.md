@@ -1,7 +1,9 @@
 ---
 title: IComparisonExpressionEvaluator.Evaluate
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IComparisonExpressionEvaluator méthode. Évalue lexpression de comparaison.
+linktitle: Evaluate
+articleTitle: Evaluate
+second_title: Aspose.Words pour .NET
+description: IComparisonExpressionEvaluator Evaluate méthode. Évalue lexpression de comparaison en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/icomparisonexpressionevaluator/evaluate/
@@ -14,7 +16,7 @@ url: /fr/net/aspose.words.fields/icomparisonexpressionevaluator/evaluate/
 public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)
 ```
 
-### Remarques
+## Remarques
 
 L'implémentation devrait renvoyer`nul` pour indiquer que l'évaluation par défaut doit être effectuée.
 
@@ -24,7 +26,5 @@ L'implémentation devrait renvoyer`nul` pour indiquer que l'évaluation par déf
 * class [Field](../../field/)
 * class [ComparisonExpression](../../comparisonexpression/)
 * interface [IComparisonExpressionEvaluator](../)
-* espace de noms [Aspose.Words.Fields](../../icomparisonexpressionevaluator/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

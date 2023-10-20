@@ -1,7 +1,9 @@
 ---
 title: TextBox.TextBoxWrapMode
-second_title: Справочник по API Aspose.Words для .NET
-description: TextBox свойство. Определяет как текст переносится внутри фигуры.
+linktitle: TextBoxWrapMode
+articleTitle: TextBoxWrapMode
+second_title: Aspose.Words для .NET
+description: TextBox TextBoxWrapMode свойство. Определяет как текст переносится внутри фигуры на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.drawing/textbox/textboxwrapmode/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textbox/textboxwrapmode/
 public TextBoxWrapMode TextBoxWrapMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:Square.
 
-### Примеры
+## Примеры
 
 Показывает, как установить режим переноса содержимого текстового поля.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxContentsWrapMode.docx");
 
 * enum [TextBoxWrapMode](../../textboxwrapmode/)
 * class [TextBox](../)
-* пространство имен [Aspose.Words.Drawing](../../textbox/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

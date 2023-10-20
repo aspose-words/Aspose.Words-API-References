@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Width
-second_title: Aspose.Words for .NET API 参考
-description: CellFormat 财产. 获取单元格的宽度以磅为单位
+linktitle: Width
+articleTitle: Width
+second_title: 用于 .NET 的 Aspose.Words
+description: CellFormat Width 财产. 获取单元格的宽度以磅为单位 在 C#.
 type: docs
-weight: 140
+weight: 130
 url: /zh/net/aspose.words.tables/cellformat/width/
 ---
 ## CellFormat.Width property
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.tables/cellformat/width/
 public double Width { get; set; }
 ```
 
-### 评论
+## 评论
 
 宽度由 Aspose.Words 在文档加载和保存时计算。 目前，并非支持表格、单元格和文档属性的所有组合。 对于某些文档，返回的值可能不准确。 它可能不完全匹配在 MS Word 中打开文档时由 MS Word 计算的单元格宽度。
 
 不建议设置此属性。 不能保证单元格实际上具有设置的宽度。 可以调整宽度以适应自动调整表格布局中的单元格内容。 其他行中的单元格可能具有冲突的宽度设置。 可以调整表格大小以适合容器或满足表格宽度设置。 考虑使用[`PreferredWidth`](../preferredwidth/)用于设置单元格宽度。 设置此属性集[`PreferredWidth`](../preferredwidth/)自版本 15.8. 起隐式
 
-### 例子
+## 例子
 
 演示如何使用文档生成器设置单元格格式。
 
@@ -128,7 +130,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### 也可以看看
 
 * class [CellFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../cellformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

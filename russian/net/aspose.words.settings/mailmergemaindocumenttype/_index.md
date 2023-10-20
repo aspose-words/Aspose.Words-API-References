@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeMainDocumentType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.MailMergeMainDocumentType перечисление. Указывает возможные типы исходного документа слияния почты.
+title: MailMergeMainDocumentType Enum
+linktitle: MailMergeMainDocumentType
+articleTitle: MailMergeMainDocumentType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Settings.MailMergeMainDocumentType перечисление. Указывает возможные типы исходного документа слияния почты на С#.
 type: docs
 weight: 5840
 url: /ru/net/aspose.words.settings/mailmergemaindocumenttype/
@@ -27,7 +29,7 @@ public enum MailMergeMainDocumentType
 | Fax | `32` | Указывает, что исходный документ слияния почты имеет тип факса. |
 | Default | `0` | РавноNotAMergeDocument |
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [MainDocumentType](../mailmergesettings/maindocumenttype/)
 * пространство имен [Aspose.Words.Settings](../../aspose.words.settings/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.ContainsValue
-second_title: Aspose.Words لمراجع .NET API
-description: MappedDataFieldCollection طريقة. تحديد ما إذا كان هناك تعيين من الحقل المحدد في مصدر البيانات موجودًا في المجموعة.
+linktitle: ContainsValue
+articleTitle: ContainsValue
+second_title: Aspose.Words لـ .NET
+description: MappedDataFieldCollection ContainsValue طريقة. تحديد ما إذا كان هناك تعيين من الحقل المحدد في مصدر البيانات موجودًا في المجموعة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/
@@ -22,7 +24,7 @@ public bool ContainsValue(string dataSourceFieldName)
 
 `حقيقي` إذا تم العثور على العنصر في المجموعة؛ خلاف ذلك،`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين أعمدة البيانات وMERGEFIELD بأسماء مختلفة بحيث يتم نقل البيانات فيما بينها أثناء عملية دمج البريد.
 
@@ -107,7 +109,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### أنظر أيضا
 
 * class [MappedDataFieldCollection](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class LayoutOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Layout.LayoutOptions classe. Contient les options qui permettent de contrôler le processus de mise en page du document.
+title: LayoutOptions Class
+linktitle: LayoutOptions
+articleTitle: LayoutOptions
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Layout.LayoutOptions classe. Contient les options qui permettent de contrôler le processus de mise en page du document en C#.
 type: docs
 weight: 3350
 url: /fr/net/aspose.words.layout/layoutoptions/
@@ -36,13 +38,13 @@ public class LayoutOptions
 | [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Obtient ou définit une indication indiquant si les marques de paragraphe sont rendues. La valeur par défaut est`FAUX` . |
 | [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory/) { get; set; } | Obtient ou définit[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory/) implémentation utilisée pour les fonctionnalités de rendu de typographie avancée. |
 
-### Remarques
+## Remarques
 
 Vous ne créez pas directement d'instances de cette classe. Utilisez le[`LayoutOptions`](../../aspose.words/document/layoutoptions/) propriété pour accéder aux options de mise en page de ce document.
 
 Notez qu'après avoir modifié l'une des options présentes dans cette classe,[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) method doit être appelé pour que les options modifiées soient appliquées à la mise en page.
 
-### Exemples
+## Exemples
 
 Montre comment masquer le texte dans un document de sortie rendu.
 
@@ -98,5 +100,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * espace de noms [Aspose.Words.Layout](../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../)
-
-

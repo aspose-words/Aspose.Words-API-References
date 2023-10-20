@@ -1,7 +1,9 @@
 ---
 title: FieldImport.SourceFullName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldImport свойство. Получает или задает местоположение изображения.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words для .NET
+description: FieldImport SourceFullName свойство. Получает или задает местоположение изображения на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldimport/sourcefullname/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldimport/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять изображения с помощью полей IMPORT и INCLUDEPICTURE.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");
 ### Смотрите также
 
 * class [FieldImport](../)
-* пространство имен [Aspose.Words.Fields](../../fieldimport/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Stroke.StartArrowWidth
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. يحدد عرض رأس السهم لبداية السكتة الدماغية.
+linktitle: StartArrowWidth
+articleTitle: StartArrowWidth
+second_title: Aspose.Words لـ .NET
+description: Stroke StartArrowWidth ملكية. يحدد عرض رأس السهم لبداية السكتة الدماغية في C#.
 type: docs
-weight: 190
+weight: 180
 url: /ar/net/aspose.words.drawing/stroke/startarrowwidth/
 ---
 ## Stroke.StartArrowWidth property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/startarrowwidth/
 public ArrowWidth StartArrowWidth { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيMedium.
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowWidth](../../arrowwidth/)
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ChartYValueCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartYValueCollection sınıf. Bir grafik serisi için Y değerlerinin bir koleksiyonunu temsil eder.
+title: ChartYValueCollection Class
+linktitle: ChartYValueCollection
+articleTitle: ChartYValueCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartYValueCollection sınıf. Bir grafik serisi için Y değerlerinin bir koleksiyonunu temsil eder C#'da.
 type: docs
 weight: 880
 url: /tr/net/aspose.words.drawing.charts/chartyvaluecollection/
@@ -27,13 +29,13 @@ public class ChartYValueCollection : IEnumerable<ChartYValue>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartyvaluecollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
 
-### Notlar
+## Notlar
 
-Koleksiyonun dışındaki tüm öğeleri **hükümsüz** aynısı olmalı[`ValueType`](../chartyvalue/valuetype/).
+Koleksiyonun dışındaki tüm öğeleri**hükümsüz** aynısı olmalı[`ValueType`](../chartyvalue/valuetype/).
 
 Koleksiyon yalnızca Y değerlerinin değiştirilmesine izin verir. Bir grafik serisine yeni değerler eklemek veya değerleri kaldırmak için uygun yöntemleri kullanın.[`ChartSeries`](../chartseries/) sınıf kullanılabilir.
 
-### Örnekler
+## Örnekler
 
 Grafik serisi verilerinin nasıl alınacağını gösterir.
 
@@ -91,5 +93,3 @@ doc.Save(ArtifactsDir + "Charts.GetChartSeriesData.docx");
 * class [ChartYValue](../chartyvalue/)
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

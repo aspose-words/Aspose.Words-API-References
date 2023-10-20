@@ -1,7 +1,9 @@
 ---
-title: Enum ReplaceAction
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Replacing.ReplaceAction перечисление. Позволяет пользователю указать что происходит с текущим совпадением во время операции замены.
+title: ReplaceAction Enum
+linktitle: ReplaceAction
+articleTitle: ReplaceAction
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Replacing.ReplaceAction перечисление. Позволяет пользователю указать что происходит с текущим совпадением во время операции замены на С#.
 type: docs
 weight: 4640
 url: /ru/net/aspose.words.replacing/replaceaction/
@@ -22,7 +24,7 @@ public enum ReplaceAction
 | Skip | `1` | Пропустить текущий матч. |
 | Stop | `2` | Завершить операцию замены. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить содержимое всего документа в качестве замены совпадения в операции поиска и замены.
 
@@ -100,5 +102,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * method [Replace](../../aspose.words/range/replace/)
 * пространство имен [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../)
-
-

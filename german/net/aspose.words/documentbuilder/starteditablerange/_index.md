@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.StartEditableRange
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Markiert die aktuelle Position im Dokument als bearbeitbaren Bereichsstart.
+linktitle: StartEditableRange
+articleTitle: StartEditableRange
+second_title: Aspose.Words für .NET
+description: DocumentBuilder StartEditableRange methode. Markiert die aktuelle Position im Dokument als bearbeitbaren Bereichsstart in C#.
 type: docs
-weight: 640
+weight: 630
 url: /de/net/aspose.words/documentbuilder/starteditablerange/
 ---
 ## DocumentBuilder.StartEditableRange method
@@ -18,13 +20,13 @@ public EditableRangeStart StartEditableRange()
 
 Der gerade erstellte Startknoten des bearbeitbaren Bereichs.
 
-### Bemerkungen
+## Bemerkungen
 
 Der bearbeitbare Bereich in einem Dokument kann jeden Bereich überlappen und umfassen. Um einen gültigen bearbeitbaren Bereich zu erstellen, müssen Sie beide aufrufen`StartEditableRange` Und[`EndEditableRange`](../endeditablerange/) oder[`EndEditableRange`](../endeditablerange/) Methoden.
 
 Ein fehlerhaft geformter bearbeitbarer Bereich wird beim Speichern des Dokuments ignoriert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie verschachtelte bearbeitbare Bereiche erstellt werden.
 
@@ -107,7 +109,5 @@ editableRange.Remove();
 
 * class [EditableRangeStart](../../editablerangestart/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

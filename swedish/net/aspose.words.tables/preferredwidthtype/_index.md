@@ -1,7 +1,9 @@
 ---
-title: Enum PreferredWidthType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Tables.PreferredWidthType uppräkning. Anger måttenheten för den föredragna bredden på en tabell eller cell.
+title: PreferredWidthType Enum
+linktitle: PreferredWidthType
+articleTitle: PreferredWidthType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Tables.PreferredWidthType uppräkning. Anger måttenheten för den föredragna bredden på en tabell eller cell i C#.
 type: docs
 weight: 6300
 url: /sv/net/aspose.words.tables/preferredwidthtype/
@@ -22,7 +24,7 @@ public enum PreferredWidthType
 | Percent | `2` | Mät den aktuella artikelns bredd med en angiven procentandel. |
 | Points | `3` | Mät den aktuella artikelns bredd med ett angivet antal punkter (1/72 tum). |
 
-### Exempel
+## Exempel
 
 Visar hur man verifierar den föredragna breddtypen och värdet för en tabellcell.
 
@@ -41,5 +43,3 @@ Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
 * class [PreferredWidth](../preferredwidth/)
 * namnutrymme [Aspose.Words.Tables](../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../)
-
-

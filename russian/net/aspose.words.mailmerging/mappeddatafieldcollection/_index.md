@@ -1,7 +1,9 @@
 ---
-title: Class MappedDataFieldCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.MailMerging.MappedDataFieldCollection сорт. Позволяет автоматически сопоставлять имена полей в вашем источнике данных с именами полей слияния почты в документе.
+title: MappedDataFieldCollection Class
+linktitle: MappedDataFieldCollection
+articleTitle: MappedDataFieldCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.MailMerging.MappedDataFieldCollection сорт. Позволяет автоматически сопоставлять имена полей в вашем источнике данных с именами полей слияния почты в документе на С#.
 type: docs
 weight: 3870
 url: /ru/net/aspose.words.mailmerging/mappeddatafieldcollection/
@@ -27,18 +29,18 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(string, string) | Добавляет новое сопоставление полей. |
+| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(*string, string*) | Добавляет новое сопоставление полей. |
 | [Clear](../../aspose.words.mailmerging/mappeddatafieldcollection/clear/)() | Удаляет все элементы из коллекции. |
-| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(string) | Определяет, существует ли в коллекции сопоставление из указанного поля документа. |
-| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(string) | Определяет, существует ли в коллекции сопоставление из указанного поля в источнике данных. |
+| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | Определяет, существует ли в коллекции сопоставление из указанного поля документа. |
+| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | Определяет, существует ли в коллекции сопоставление из указанного поля в источнике данных. |
 | [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Возвращает объект перечислителя словаря, который можно использовать для перебора всех элементов коллекции. |
-| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(string) | Удаляет сопоставление полей. |
+| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(*string*) | Удаляет сопоставление полей. |
 
-### Примечания
+## Примечания
 
 Это реализовано как набор строковых ключей в строковых значениях. Ключи — это имена полей слияния почты в документе, а значения — это имена полей в вашем источнике данных.
 
-### Примеры
+## Примеры
 
 Показывает, как сопоставить столбцы данных и поля MERGEFIELD с разными именами, чтобы данные передавались между ними во время слияния почты.
 
@@ -124,5 +126,3 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * пространство имен [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../)
-
-

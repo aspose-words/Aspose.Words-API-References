@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.Clear
-second_title: Aspose.Words لمراجع .NET API
-description: SdtListItemCollection طريقة. مسح كافة العناصر من هذه المجموعة.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words لـ .NET
+description: SdtListItemCollection Clear طريقة. مسح كافة العناصر من هذه المجموعة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.markup/sdtlistitemcollection/clear/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.markup/sdtlistitemcollection/clear/
 public void Clear()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع علامات المستندات المنظمة ذات القائمة المنسدلة.
 
@@ -71,7 +73,5 @@ Assert.AreEqual(0, listItems.Count);
 ### أنظر أيضا
 
 * class [SdtListItemCollection](../)
-* مساحة الاسم [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

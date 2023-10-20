@@ -1,7 +1,9 @@
 ---
-title: Class TextColumnCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.TextColumnCollection classe. Una raccolta diTextColumn oggetti che rappresentano tutte le colonne di testo in una sezione di un documento.
+title: TextColumnCollection Class
+linktitle: TextColumnCollection
+articleTitle: TextColumnCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.TextColumnCollection classe. Una raccolta diTextColumn oggetti che rappresentano tutte le colonne di testo in una sezione di un documento in C#.
 type: docs
 weight: 6400
 url: /it/net/aspose.words/textcolumncollection/
@@ -31,9 +33,9 @@ public class TextColumnCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [SetCount](../../aspose.words/textcolumncollection/setcount/)(int) | Dispone il testo nel numero specificato di colonne di testo. |
+| [SetCount](../../aspose.words/textcolumncollection/setcount/)(*int*) | Dispone il testo nel numero specificato di colonne di testo. |
 
-### Osservazioni
+## Osservazioni
 
 Utilizzo[`SetCount`](./setcount/) per impostare il numero di colonne di testo.
 
@@ -43,7 +45,7 @@ Se hai[`EvenlySpaced`](./evenlyspaced/) impostato`falso` , devi specificare la l
 
 Quando utilizzi larghezze di colonna personalizzate, assicurati che la somma di tutte le larghezze delle colonne e degli spazi tra loro sia uguale alla larghezza della pagina meno i margini sinistro e destro della pagina.
 
-### Esempi
+## Esempi
 
 Mostra come creare più colonne equidistanti in una sezione.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

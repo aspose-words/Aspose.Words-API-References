@@ -1,7 +1,9 @@
 ---
 title: VbaProject.CodePage
-second_title: Aspose.Words för .NET API Referens
-description: VbaProject fast egendom. Hämtar eller ställer in VBAprojektets teckentabell.
+linktitle: CodePage
+articleTitle: CodePage
+second_title: Aspose.Words för .NET
+description: VbaProject CodePage fast egendom. Hämtar eller ställer in VBAprojektets teckentabell i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.vba/vbaproject/codepage/
@@ -14,11 +16,11 @@ Hämtar eller ställer in VBA-projektets teckentabell.
 public int CodePage { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Observera att VBA är en pre-Unicode-funktion och du måste uttryckligen ställa in lämplig teckentabell för att bevara regionala teckenuppsättningar.
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments VBA-projektinformation.
 
@@ -49,7 +51,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Se även
 
 * class [VbaProject](../)
-* namnutrymme [Aspose.Words.Vba](../../vbaproject/)
+* namnutrymme [Aspose.Words.Vba](../../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Type
-second_title: Aspose.Words für .NET-API-Referenz
-description: ConditionalStyle eigendom. Ruft den Tabellenbereich ab auf den sich dieser bedingte Stil bezieht.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words für .NET
+description: ConditionalStyle Type eigendom. Ruft den Tabellenbereich ab auf den sich dieser bedingte Stil bezieht in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words/conditionalstyle/type/
@@ -14,7 +16,7 @@ Ruft den Tabellenbereich ab, auf den sich dieser bedingte Stil bezieht.
 public ConditionalStyleType Type { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * enum [ConditionalStyleType](../../conditionalstyletype/)
 * class [ConditionalStyle](../)
-* namensraum [Aspose.Words](../../conditionalstyle/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.PageSet
-second_title: Aspose.Words per .NET API Reference
-description: FixedPageSaveOptions proprietà. Ottiene o imposta le pagine da visualizzare. Limpostazione predefinita è tutte le pagine nel documento.
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words per .NET
+description: FixedPageSaveOptions PageSet proprietà. Ottiene o imposta le pagine da visualizzare. Limpostazione predefinita è tutte le pagine nel documento in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words.saving/fixedpagesaveoptions/pageset/
@@ -14,7 +16,7 @@ Ottiene o imposta le pagine da visualizzare. L'impostazione predefinita è tutte
 public PageSet PageSet { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come estrarre le pagine in base agli indici di pagina esatti.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.All.pdf", options);
 
 * class [PageSet](../../pageset/)
 * class [FixedPageSaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

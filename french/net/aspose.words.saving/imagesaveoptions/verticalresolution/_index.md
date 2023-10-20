@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.VerticalResolution
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageSaveOptions propriété. Obtient ou définit la résolution verticale des images générées en points par pouce.
+linktitle: VerticalResolution
+articleTitle: VerticalResolution
+second_title: Aspose.Words pour .NET
+description: ImageSaveOptions VerticalResolution propriété. Obtient ou définit la résolution verticale des images générées en points par pouce en C#.
 type: docs
 weight: 200
 url: /fr/net/aspose.words.saving/imagesaveoptions/verticalresolution/
@@ -14,13 +16,13 @@ Obtient ou définit la résolution verticale des images générées, en points p
 public float VerticalResolution { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété n'a d'effet que lors de l'enregistrement au format d'image raster et affecte la taille de sortie en pixels.
 
 La valeur par défaut est 96.
 
-### Exemples
+## Exemples
 
 Montre comment modifier l'image pendant qu'Aspose.Words convertit un document en un seul.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### Voir également
 
 * class [ImageSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../imagesaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

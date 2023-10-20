@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.PreProcessCulture
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или задает язык и региональные параметры для предварительной обработки значений полей.
+linktitle: PreProcessCulture
+articleTitle: PreProcessCulture
+second_title: Aspose.Words для .NET
+description: FieldOptions PreProcessCulture свойство. Получает или задает язык и региональные параметры для предварительной обработки значений полей на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.fields/fieldoptions/preprocessculture/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.fields/fieldoptions/preprocessculture/
 public CultureInfo PreProcessCulture { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 В настоящее время это свойство влияет только на стоимость[`FieldDocProperty`](../../fielddocproperty/) поле.
 
 Значение по умолчанию:`нулевой` . Когда для этого свойства установлено значение`нулевой` ,[`FieldDocProperty`](../../fielddocproperty/)значение поля — preprocessed с культурой, контролируемой[`FieldUpdateCultureSource`](../fieldupdateculturesource/) свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как установить культуру предварительной обработки.
 
@@ -47,7 +49,5 @@ Assert.IsTrue(Regex.Match(field.Result, @"\d{2}[/]\d{2}[/]\d{4} \d{2}[:]\d{2}").
 ### Смотрите также
 
 * class [FieldOptions](../)
-* пространство имен [Aspose.Words.Fields](../../fieldoptions/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

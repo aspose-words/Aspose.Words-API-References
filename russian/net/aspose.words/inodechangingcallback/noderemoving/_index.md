@@ -1,7 +1,9 @@
 ---
 title: INodeChangingCallback.NodeRemoving
-second_title: Справочник по API Aspose.Words для .NET
-description: INodeChangingCallback метод. Вызывается непосредственно перед тем как узел принадлежащий этому документу будет удален из документа.
+linktitle: NodeRemoving
+articleTitle: NodeRemoving
+second_title: Aspose.Words для .NET
+description: INodeChangingCallback NodeRemoving метод. Вызывается непосредственно перед тем как узел принадлежащий этому документу будет удален из документа на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/inodechangingcallback/noderemoving/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/inodechangingcallback/noderemoving/
 public void NodeRemoving(NodeChangingArgs args)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить изменение узла с помощью обратного вызова.
 
@@ -92,7 +94,5 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
 * class [NodeChangingArgs](../../nodechangingargs/)
 * interface [INodeChangingCallback](../)
-* пространство имен [Aspose.Words](../../inodechangingcallback/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

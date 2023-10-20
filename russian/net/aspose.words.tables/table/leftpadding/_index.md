@@ -1,7 +1,9 @@
 ---
 title: Table.LeftPadding
-second_title: Справочник по API Aspose.Words для .NET
-description: Table свойство. Получает или задает объем места в пунктах добавляемый слева от содержимого ячеек.
+linktitle: LeftPadding
+articleTitle: LeftPadding
+second_title: Aspose.Words для .NET
+description: Table LeftPadding свойство. Получает или задает объем места в пунктах добавляемый слева от содержимого ячеек на С#.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.tables/table/leftpadding/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/table/leftpadding/
 public double LeftPadding { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить заполнение содержимого в таблице.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ### Смотрите также
 
 * class [Table](../)
-* пространство имен [Aspose.Words.Tables](../../table/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

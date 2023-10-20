@@ -1,7 +1,9 @@
 ---
 title: FrameFormat.RelativeHorizontalPosition
-second_title: Aspose.Words for .NET API Referansı
-description: FrameFormat mülk. Bir çerçevenin göreceli yatay konumunu alır.
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: Aspose.Words for .NET
+description: FrameFormat RelativeHorizontalPosition mülk. Bir çerçevenin göreceli yatay konumunu alır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/frameformat/relativehorizontalposition/
@@ -14,7 +16,7 @@ Bir çerçevenin göreceli yatay konumunu alır.
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
 
@@ -40,7 +42,5 @@ Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
 
 * enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * class [FrameFormat](../)
-* ad alanı [Aspose.Words](../../frameformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

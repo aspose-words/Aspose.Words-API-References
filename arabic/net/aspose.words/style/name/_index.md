@@ -1,9 +1,11 @@
 ---
 title: Style.Name
-second_title: Aspose.Words لمراجع .NET API
-description: Style ملكية. الحصول على اسم النمط أو تعيينه.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words لـ .NET
+description: Style Name ملكية. الحصول على اسم النمط أو تعيينه في C#.
 type: docs
-weight: 130
+weight: 120
 url: /ar/net/aspose.words/style/name/
 ---
 ## Style.Name property
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/style/name/
 public string Name { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن أن تكون سلسلة فارغة.
 
 إذا كان هناك بالفعل نمط بهذا الاسم في المجموعة، فسيتجاوزه هذا النمط. ستشير جميع العقد المتأثرة إلى النمط الجديد.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة أنماط المستند.
 
@@ -73,7 +75,5 @@ Assert.AreNotEqual(doc.Styles["Heading 1"].Font.Color, newStyle.Font.Color);
 ### أنظر أيضا
 
 * class [Style](../)
-* مساحة الاسم [Aspose.Words](../../style/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

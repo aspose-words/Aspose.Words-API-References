@@ -1,9 +1,11 @@
 ---
 title: ChartAxisTitle.Overlay
-second_title: Aspose.Words per .NET API Reference
-description: ChartAxisTitle proprietà. Determina se altri elementi del grafico possono sovrapporsi al titolo. Il valore predefinito èfalso .
+linktitle: Overlay
+articleTitle: Overlay
+second_title: Aspose.Words per .NET
+description: ChartAxisTitle Overlay proprietà. Determina se altri elementi del grafico possono sovrapporsi al titolo. Il valore predefinito èfalso  in C#.
 type: docs
-weight: 20
+weight: 10
 url: /it/net/aspose.words.drawing.charts/chartaxistitle/overlay/
 ---
 ## ChartAxisTitle.Overlay property
@@ -14,7 +16,7 @@ Determina se altri elementi del grafico possono sovrapporsi al titolo. Il valore
 public bool Overlay { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare il titolo dell'asse del grafico.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ### Guarda anche
 
 * class [ChartAxisTitle](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

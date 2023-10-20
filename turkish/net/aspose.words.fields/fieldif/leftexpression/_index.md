@@ -1,7 +1,9 @@
 ---
 title: FieldIf.LeftExpression
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIf mülk. Karşılaştırma ifadesinin sol kısmını alır veya ayarlar.
+linktitle: LeftExpression
+articleTitle: LeftExpression
+second_title: Aspose.Words for .NET
+description: FieldIf LeftExpression mülk. Karşılaştırma ifadesinin sol kısmını alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldif/leftexpression/
@@ -14,7 +16,7 @@ Karşılaştırma ifadesinin sol kısmını alır veya ayarlar.
 public string LeftExpression { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 IF alanının nasıl ekleneceğini gösterir.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### Ayrıca bakınız
 
 * class [FieldIf](../)
-* ad alanı [Aspose.Words.Fields](../../fieldif/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

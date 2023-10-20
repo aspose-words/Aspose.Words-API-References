@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Category
-second_title: Aspose.Words per .NET API Reference
-description: BuildingBlock proprietà. Specifica la categorizzazione di secondo livello per il blocco predefinito.
+linktitle: Category
+articleTitle: Category
+second_title: Aspose.Words per .NET
+description: BuildingBlock Category proprietà. Specifica la categorizzazione di secondo livello per il blocco predefinito in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.buildingblocks/buildingblock/category/
@@ -14,15 +16,15 @@ Specifica la categorizzazione di secondo livello per il blocco predefinito.
 public string Category { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Gli elementi costitutivi dell'interfaccia utente di Microsoft Word sono disposti in Gallerie. Ogni[`Gallery`](../gallery/) può avere più categorie. Ogni blocco entro a`Category` ha un[`Name`](../name/).
 
 Non può essere`nullo` e non può essere una stringa vuota.
 
-Corrisponde a **docPartPr.nome.categoria** elemento in OOXML.
+Corrisponde a**docPartPr.nome.categoria** elemento in OOXML.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un blocco predefinito personalizzato a un documento.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Guarda anche
 
 * class [BuildingBlock](../)
-* spazio dei nomi [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* spazio dei nomi [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assemblea [Aspose.Words](../../../)
-
-

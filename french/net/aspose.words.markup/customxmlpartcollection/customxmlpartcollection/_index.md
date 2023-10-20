@@ -1,7 +1,9 @@
 ---
-title: CustomXmlPartCollection.CustomXmlPartCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlPartCollection constructeur. Default_Constructor
+title: CustomXmlPartCollection
+linktitle: CustomXmlPartCollection
+articleTitle: CustomXmlPartCollection
+second_title: Aspose.Words pour .NET
+description: CustomXmlPartCollection constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.markup/customxmlpartcollection/customxmlpartcollection/
@@ -17,7 +19,5 @@ public CustomXmlPartCollection()
 ### Voir également
 
 * class [CustomXmlPartCollection](../)
-* espace de noms [Aspose.Words.Markup](../../customxmlpartcollection/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

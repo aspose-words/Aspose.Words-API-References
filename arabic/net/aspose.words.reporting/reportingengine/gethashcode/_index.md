@@ -1,7 +1,9 @@
 ---
 title: ReportingEngine.GetHashCode
-second_title: Aspose.Words لمراجع .NET API
-description: ReportingEngine طريقة. بمثابة دالة تجزئة لهذا النوع.
+linktitle: GetHashCode
+articleTitle: GetHashCode
+second_title: Aspose.Words لـ .NET
+description: ReportingEngine GetHashCode طريقة. بمثابة دالة تجزئة لهذا النوع في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.reporting/reportingengine/gethashcode/
@@ -17,7 +19,5 @@ public int GetHashCode()
 ### أنظر أيضا
 
 * class [ReportingEngine](../)
-* مساحة الاسم [Aspose.Words.Reporting](../../reportingengine/)
+* مساحة الاسم [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * المجسم [Aspose.Words](../../../)
-
-

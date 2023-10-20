@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreInserted
-second_title: Aspose.Words für .NET-API-Referenz
-description: FindReplaceOptions eigendom. Ruft einen booleschen Wert ab oder legt ihn fest der angibt ob Text in Einfügungsrevisionen ignoriert werden soll. Der Standardwert istFALSCH .
+linktitle: IgnoreInserted
+articleTitle: IgnoreInserted
+second_title: Aspose.Words für .NET
+description: FindReplaceOptions IgnoreInserted eigendom. Ruft einen booleschen Wert ab oder legt ihn fest der angibt ob Text in Einfügungsrevisionen ignoriert werden soll. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/
@@ -14,7 +16,7 @@ Ruft einen booleschen Wert ab oder legt ihn fest, der angibt, ob Text in Einfüg
 public bool IgnoreInserted { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Text in Einfügungsrevisionen während eines Suchen-und-Ersetzen-Vorgangs eingefügt oder ignoriert wird.
 
@@ -51,7 +53,5 @@ Assert.AreEqual(
 ### Siehe auch
 
 * class [FindReplaceOptions](../)
-* namensraum [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FileFormatInfo.HasDigitalSignature
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FileFormatInfo propriété. Retoursvraisi ce document contient une signature numérique. Cette propriété informe simplement quune signature numérique est présente sur un document mais elle ne précise pas si la signature est valide ou non.
+linktitle: HasDigitalSignature
+articleTitle: HasDigitalSignature
+second_title: Aspose.Words pour .NET
+description: FileFormatInfo HasDigitalSignature propriété. Retoursvraisi ce document contient une signature numérique. Cette propriété informe simplement quune signature numérique est présente sur un document mais elle ne précise pas si la signature est valide ou non en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/fileformatinfo/hasdigitalsignature/
@@ -14,11 +16,11 @@ Retours`vrai`si ce document contient une signature numérique. Cette propriété
 public bool HasDigitalSignature { get; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété existe pour vous aider à trier les documents signés numériquement de ceux qui ne le sont pas. Si vous utilisez Aspose.Words pour modifier et enregistrer un document signé numériquement, la signature numérique sera perdue. C'est intentionnel car une signature numérique existe pour protéger l'authenticité d'un document. En utilisant cette propriété, vous pouvez détecter les documents signés numériquement avant de les traiter de la même manière que les documents normaux et prendre certaines mesures pour éviter de perdre la signature numérique, par exemple en informer l'utilisateur.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser la classe FileFormatUtil pour détecter le format du document et la présence de signatures numériques.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 ### Voir également
 
 * class [FileFormatInfo](../)
-* espace de noms [Aspose.Words](../../fileformatinfo/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

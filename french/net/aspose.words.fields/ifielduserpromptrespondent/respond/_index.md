@@ -1,7 +1,9 @@
 ---
 title: IFieldUserPromptRespondent.Respond
-second_title: Référence de l'API Aspose.Words pour .NET
-description: IFieldUserPromptRespondent méthode. Une fois implémenté renvoie une réponse de lutilisateur à linvite. Votre implémentation devrait renvoyernul pour indiquer que lutilisateur na pas répondu à linvite cestàdire que lutilisateur a appuyé sur le bouton Annuler dans la fenêtre dinvite.
+linktitle: Respond
+articleTitle: Respond
+second_title: Aspose.Words pour .NET
+description: IFieldUserPromptRespondent Respond méthode. Une fois implémenté renvoie une réponse de lutilisateur à linvite. Votre implémentation devrait renvoyernul pour indiquer que lutilisateur na pas répondu à linvite cestàdire que lutilisateur a appuyé sur le bouton Annuler dans la fenêtre dinvite en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/ifielduserpromptrespondent/respond/
@@ -23,7 +25,7 @@ public string Respond(string promptText, string defaultResponse)
 
 Réponse de l'utilisateur (c'est-à-dire valeur confirmée contenue dans la fenêtre d'invite).
 
-### Exemples
+## Exemples
 
 Montre comment créer un champ ASK et définir ses propriétés.
 
@@ -85,7 +87,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Voir également
 
 * interface [IFieldUserPromptRespondent](../)
-* espace de noms [Aspose.Words.Fields](../../ifielduserpromptrespondent/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

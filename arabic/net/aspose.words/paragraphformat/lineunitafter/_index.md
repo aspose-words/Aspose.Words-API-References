@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.LineUnitAfter
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين مقدار التباعد في خطوط الشبكة بعد الفقرات.
+linktitle: LineUnitAfter
+articleTitle: LineUnitAfter
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat LineUnitAfter ملكية. الحصول على أو تعيين مقدار التباعد في خطوط الشبكة بعد الفقرات في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words/paragraphformat/lineunitafter/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/lineunitafter/
 public double LineUnitAfter { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير تباعد الفقرات والمسافات البادئة.
 
@@ -68,7 +70,5 @@ builder.Write("测试文档测试文档测试文档测试文档测试文档测�
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

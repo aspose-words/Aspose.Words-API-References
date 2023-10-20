@@ -1,7 +1,9 @@
 ---
 title: FormField.DropDownItems
-second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Ger tillgång till objekten i ett rullgardinsformulärfält.
+linktitle: DropDownItems
+articleTitle: DropDownItems
+second_title: Aspose.Words för .NET
+description: FormField DropDownItems fast egendom. Ger tillgång till objekten i ett rullgardinsformulärfält i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/formfield/dropdownitems/
@@ -14,11 +16,11 @@ Ger tillgång till objekten i ett rullgardinsformulärfält.
 public DropDownItemCollection DropDownItems { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Microsoft Word tillåter maximalt 25 objekt i ett rullgardinsfält.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar olika typer av formulärfält i ett dokument och bearbetar dem med hjälp av en dokumentbesökarimplementering.
 
@@ -153,7 +155,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [DropDownItemCollection](../../dropdownitemcollection/)
 * class [FormField](../)
-* namnutrymme [Aspose.Words.Fields](../../formfield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

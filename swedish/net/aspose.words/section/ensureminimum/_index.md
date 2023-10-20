@@ -1,9 +1,11 @@
 ---
 title: Section.EnsureMinimum
-second_title: Aspose.Words för .NET API Referens
-description: Section metod. Säkerställer att avsnittet harBody med enParagraph .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words för .NET
+description: Section EnsureMinimum metod. Säkerställer att avsnittet harBody med enParagraph  i C#.
 type: docs
-weight: 150
+weight: 130
 url: /sv/net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method
@@ -14,7 +16,7 @@ Säkerställer att avsnittet har[`Body`](../body/) med en[`Paragraph`](../../par
 public void EnsureMinimum()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man förbereder en ny sektionsnod för redigering.
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### Se även
 
 * class [Section](../)
-* namnutrymme [Aspose.Words](../../section/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

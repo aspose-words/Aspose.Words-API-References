@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControlCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: Forms2OleControlCollection mülk. AlırForms2OleControl belirtilen dizindeki nesne.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: Forms2OleControlCollection Item mülk. AlırForms2OleControl belirtilen dizindeki nesne C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
@@ -14,7 +16,7 @@ Alır[`Forms2OleControl`](../../forms2olecontrol/) belirtilen dizindeki nesne.
 public Forms2OleControl this[int index] { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye katıştırılmış bir OLE denetimine ve onun alt denetimlerine nasıl erişileceğini gösterir.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 
 * class [Forms2OleControl](../../forms2olecontrol/)
 * class [Forms2OleControlCollection](../)
-* ad alanı [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* ad alanı [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * toplantı [Aspose.Words](../../../)
-
-

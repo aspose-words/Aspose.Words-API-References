@@ -1,7 +1,9 @@
 ---
-title: Class FieldBuilder
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldBuilder classe. Construit un champ à partir de jetons de code de champ arguments et commutateurs.
+title: FieldBuilder Class
+linktitle: FieldBuilder
+articleTitle: FieldBuilder
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FieldBuilder classe. Construit un champ à partir de jetons de code de champ arguments et commutateurs en C#.
 type: docs
 weight: 1660
 url: /fr/net/aspose.words.fields/fieldbuilder/
@@ -20,25 +22,25 @@ public class FieldBuilder
 
 | Nom | La description |
 | --- | --- |
-| [FieldBuilder](fieldbuilder/)(FieldType) | Initialise une instance du`FieldBuilder` classe. |
+| [FieldBuilder](fieldbuilder/)(*[FieldType](../fieldtype/)*) | Initialise une instance du`FieldBuilder` classe. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(double) | Ajoute l'argument d'un champ. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(FieldArgumentBuilder) | Ajoute l'argument d'un champ représenté par[`FieldArgumentBuilder`](../fieldargumentbuilder/) au code du champ. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(FieldBuilder) | Ajoute un champ enfant représenté par un autre`FieldBuilder` au code du champ. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(int) | Ajoute l'argument d'un champ. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(string) | Ajoute l'argument d'un champ. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(string) | Ajoute le commutateur d'un champ. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_1)(string, double) | Ajoute le commutateur d'un champ. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_2)(string, int) | Ajoute le commutateur d'un champ. |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_3)(string, string) | Ajoute le commutateur d'un champ. |
-| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert)(Inline) | Construit et insère un champ dans le document avant le nœud en ligne spécifié. |
-| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert_1)(Paragraph) | Construit et insère un champ dans le document jusqu'à la fin du paragraphe spécifié. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_2)(*double*) | Ajoute l'argument d'un champ. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument)(*[FieldArgumentBuilder](../fieldargumentbuilder/)*) | Ajoute l'argument d'un champ représenté par[`FieldArgumentBuilder`](../fieldargumentbuilder/) au code du champ. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_1)(*FieldBuilder*) | Ajoute un champ enfant représenté par un autre`FieldBuilder` au code du champ. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_3)(*int*) | Ajoute l'argument d'un champ. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument/#addargument_4)(*string*) | Ajoute l'argument d'un champ. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch)(*string*) | Ajoute le commutateur d'un champ. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_1)(*string, double*) | Ajoute le commutateur d'un champ. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_2)(*string, int*) | Ajoute le commutateur d'un champ. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch/#addswitch_3)(*string, string*) | Ajoute le commutateur d'un champ. |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert)(*[Inline](../../aspose.words/inline/)*) | Construit et insère un champ dans le document avant le nœud en ligne spécifié. |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert/#buildandinsert_1)(*[Paragraph](../../aspose.words/paragraph/)*) | Construit et insère un champ dans le document jusqu'à la fin du paragraphe spécifié. |
 
-### Exemples
+## Exemples
 
 Montre comment construire des champs à l’aide d’un générateur de champs, puis les insérer dans le document.
 
@@ -122,5 +124,3 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: DocumentBuilder.DocumentBuilder
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder строитель. Инициализирует новый экземпляр этого класса.
+title: DocumentBuilder
+linktitle: DocumentBuilder
+articleTitle: DocumentBuilder
+second_title: Aspose.Words для .NET
+description: DocumentBuilder строитель. Инициализирует новый экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/documentbuilder/documentbuilder/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/documentbuilder/documentbuilder/
 public DocumentBuilder()
 ```
 
-### Примечания
+## Примечания
 
 Создает новый[`DocumentBuilder`](../) объект и присоединяет его к новому[`Document`](../../document/) объект.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять форматированный текст с помощью DocumentBuilder.
 
@@ -40,12 +42,12 @@ builder.Write("Hello world!");
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## DocumentBuilder(Document) {#constructor_1}
+## DocumentBuilder(*[Document](../../document/)*) {#constructor_1}
 
 Инициализирует новый экземпляр этого класса.
 
@@ -57,11 +59,11 @@ public DocumentBuilder(Document doc)
 | --- | --- | --- |
 | doc | Document | [`Document`](../../document/) объект, к которому можно прикрепиться. |
 
-### Примечания
+## Примечания
 
 Создает новый[`DocumentBuilder`](../) объект, прикрепляется к указанному[`Document`](../../document/)object. Курсор расположен в начале документа.
 
-### Примеры
+## Примеры
 
 Показывает, как создавать верхние и нижние колонтитулы в документе с помощью DocumentBuilder.
 
@@ -142,7 +144,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 
 * class [Document](../../document/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Remove
-second_title: Aspose.Words for .NET API Referansı
-description: BaseWebExtensionCollection yöntem. Belirtilen dizindeki öğeyi koleksiyondan kaldırır.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words for .NET
+description: BaseWebExtensionCollection Remove yöntem. Belirtilen dizindeki öğeyi koleksiyondan kaldırır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.webextensions/basewebextensioncollection-1/remove/
@@ -18,7 +20,7 @@ public void Remove(int index)
 | --- | --- | --- |
 | index | Int32 | Koleksiyon öğesinin sıfır tabanlı dizini. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin web uzantıları koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ayrıca bakınız
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* ad alanı [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

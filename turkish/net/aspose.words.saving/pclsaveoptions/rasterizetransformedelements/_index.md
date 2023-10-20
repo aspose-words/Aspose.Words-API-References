@@ -1,7 +1,9 @@
 ---
 title: PclSaveOptions.RasterizeTransformedElements
-second_title: Aspose.Words for .NET API Referansı
-description: PclSaveOptions mülk. Karmaşık dönüştürülmüş elementlerin nin PCL belgesine kaydedilmeden önce rasterleştirilmesi gerekip gerekmediğini belirleyen bir değer alır veya ayarlar. Varsayılandoğru .
+linktitle: RasterizeTransformedElements
+articleTitle: RasterizeTransformedElements
+second_title: Aspose.Words for .NET
+description: PclSaveOptions RasterizeTransformedElements mülk. Karmaşık dönüştürülmüş elementlerin nin PCL belgesine kaydedilmeden önce rasterleştirilmesi gerekip gerekmediğini belirleyen bir değer alır veya ayarlar. Varsayılandoğru  C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/pclsaveoptions/rasterizetransformedelements/
@@ -14,11 +16,11 @@ Karmaşık dönüştürülmüş elementlerin 'nin PCL belgesine kaydedilmeden ö
 public bool RasterizeTransformedElements { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 PCL, Aspose Words tarafından kullanılan bazı dönüşüm türlerini desteklemez. Örneğin döndürülmüş, çarpık görüntüler ve doku fırçaları. Bu tür elemanların düzgün bir şekilde işlenmesi için rasterleştirme işlemi kullanılır, yani görüntüye kaydetme ve kırpma. Bu işlem ek zaman ve bellek alabilir. Eğer bayrak şu şekilde ayarlanırsa:`YANLIŞ` , çıktıdaki bazı içerikler kaynak belgeyle karşılaştırıldığında farklı olabilir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi PCL'ye kaydederken karmaşık öğelerin nasıl rasterleştirileceğini gösterir.
 
@@ -37,7 +39,5 @@ doc.Save(ArtifactsDir + "PclSaveOptions.RasterizeElements.pcl", saveOptions);
 ### Ayrıca bakınız
 
 * class [PclSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pclsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

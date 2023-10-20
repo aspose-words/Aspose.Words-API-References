@@ -1,7 +1,9 @@
 ---
-title: Enum ResourceType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.ResourceType Sıralama. Yüklenen kaynağın türü.
+title: ResourceType Enum
+linktitle: ResourceType
+articleTitle: ResourceType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Loading.ResourceType Sıralama. Yüklenen kaynağın türü C#'da.
 type: docs
 weight: 3700
 url: /tr/net/aspose.words.loading/resourcetype/
@@ -22,7 +24,7 @@ public enum ResourceType
 | CssStyleSheet | `1` | Css stil sayfası. |
 | Document | `2` | Belge. |
 
-### Örnekler
+## Örnekler
 
 Dış kaynakları bir belgeye yükleme işleminin nasıl özelleştirileceğini gösterir.
 
@@ -86,5 +88,3 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * ad alanı [Aspose.Words.Loading](../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Field.LocaleId
-second_title: Aspose.Words for .NET API 参考
-description: Field 财产. 获取或设置字段的 LCID
+linktitle: LocaleId
+articleTitle: LocaleId
+second_title: 用于 .NET 的 Aspose.Words
+description: Field LocaleId 财产. 获取或设置字段的 LCID 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/field/localeid/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/field/localeid/
 public int LocaleId { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入字段并使用其区域设置。
 
@@ -42,7 +44,5 @@ Console.WriteLine($"Today's date, as displayed according to the \"{CultureInfo.G
 ### 也可以看看
 
 * class [Field](../)
-* 命名空间 [Aspose.Words.Fields](../../field/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

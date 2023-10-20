@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeHorizontalPosition
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.RelativeHorizontalPosition تعداد. يحدد الموضع الأفقي للشكل أو إطار النص النسبي.
+title: RelativeHorizontalPosition Enum
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.RelativeHorizontalPosition تعداد. يحدد الموضع الأفقي للشكل أو إطار النص النسبي في C#.
 type: docs
 weight: 1190
 url: /ar/net/aspose.words.drawing/relativehorizontalposition/
@@ -28,7 +30,7 @@ public enum RelativeHorizontalPosition
 | OutsideMargin | `7` | يحدد أن الموضع الأفقي يجب أن يكون متناسبًا مع الهامش الخارجي للصفحة الحالية (الهامش الأيمن في الصفحات الفردية، والهامش الأيسر في الصفحات الزوجية). |
 | Default | `2` | القيمة الافتراضية هيColumn . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج صورة عائمة في وسط الصفحة.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [RelativeHorizontalPosition](../shapebase/relativehorizontalposition/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

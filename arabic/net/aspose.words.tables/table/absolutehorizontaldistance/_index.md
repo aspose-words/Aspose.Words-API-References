@@ -1,7 +1,9 @@
 ---
 title: Table.AbsoluteHorizontalDistance
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تعيين موضع الجدول العائم الأفقي المطلق المحدد بواسطة خصائص الجدول بالنقاط. القيمة الافتراضية هي 0.
+linktitle: AbsoluteHorizontalDistance
+articleTitle: AbsoluteHorizontalDistance
+second_title: Aspose.Words لـ .NET
+description: Table AbsoluteHorizontalDistance ملكية. الحصول على أو تعيين موضع الجدول العائم الأفقي المطلق المحدد بواسطة خصائص الجدول بالنقاط. القيمة الافتراضية هي 0 في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/table/absolutehorizontaldistance/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/absolutehorizontaldistance/
 public double AbsoluteHorizontalDistance { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية ضبط موقع الجداول العائمة.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 ### أنظر أيضا
 
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

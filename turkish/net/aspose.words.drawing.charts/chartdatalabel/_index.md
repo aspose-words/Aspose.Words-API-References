@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataLabel
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartDataLabel sınıf. Bir grafik noktasındaki veya trend çizgisindeki veri etiketini temsil eder.
+title: ChartDataLabel Class
+linktitle: ChartDataLabel
+articleTitle: ChartDataLabel
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.ChartDataLabel sınıf. Bir grafik noktasındaki veya trend çizgisindeki veri etiketini temsil eder C#'da.
 type: docs
 weight: 670
 url: /tr/net/aspose.words.drawing.charts/chartdatalabel/
@@ -42,11 +44,11 @@ public class ChartDataLabel
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat/)() | Bu veri etiketinin biçimini temizler. Özellikler, üst data etiket koleksiyonunda tanımlanan varsayılan değerlere ayarlanır. |
 
-### Notlar
+## Notlar
 
 Bir seride,`ChartDataLabel` nesnenin bir üyesidir[`ChartDataLabelCollection`](../chartdatalabelcollection/) . [`ChartDataLabelCollection`](../chartdatalabelcollection/) içerir`ChartDataLabel` Her nokta için nesne.
 
-### Örnekler
+## Örnekler
 
 Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
@@ -125,5 +127,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.ImageStream
-second_title: Aspose.Words for .NET API 参考
-description: ImageSavingArgs 财产. 允许指定图像将保存到的流
+linktitle: ImageStream
+articleTitle: ImageStream
+second_title: 用于 .NET 的 Aspose.Words
+description: ImageSavingArgs ImageStream 财产. 允许指定图像将保存到的流 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/imagesavingargs/imagestream/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/imagesavingargs/imagestream/
 public Stream ImageStream { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性允许您在 HTML 期间将图像保存到流而不是文件。
 
@@ -22,7 +24,7 @@ public Stream ImageStream { get; set; }
 
 使用[`IImageSavingCallback`](../../iimagesavingcallback/)您不能用 一张图像替换另一张图像。它仅用于控制保存图像的位置。
 
-### 例子
+## 例子
 
 演示如何在 HTML 转换过程中涉及图像保存回调。
 
@@ -68,7 +70,5 @@ private class ImageShapePrinter : IImageSavingCallback
 ### 也可以看看
 
 * class [ImageSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../imagesavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

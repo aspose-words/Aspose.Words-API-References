@@ -1,7 +1,9 @@
 ---
-title: Class ChartLegend
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartLegend فصل. يمثل خصائص وسيلة إيضاح المخطط.
+title: ChartLegend Class
+linktitle: ChartLegend
+articleTitle: ChartLegend
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartLegend فصل. يمثل خصائص وسيلة إيضاح المخطط في C#.
 type: docs
 weight: 720
 url: /ar/net/aspose.words.drawing.charts/chartlegend/
@@ -24,7 +26,7 @@ public class ChartLegend
 | [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | يحدد ما إذا كان سيتم السماح لعناصر المخطط الأخرى بتداخل وسيلة الإيضاح أم لا. القيمة الافتراضية هي`خطأ شنيع` . |
 | [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | يحدد موضع وسيلة الإيضاح على المخطط. القيمة الافتراضية هيRight . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير مظهر وسيلة إيضاح المخطط.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

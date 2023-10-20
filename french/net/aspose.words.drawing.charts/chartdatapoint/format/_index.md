@@ -1,7 +1,9 @@
 ---
 title: ChartDataPoint.Format
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataPoint propriété. Donne accès au formatage de remplissage et de ligne de ce point de données.
+linktitle: Format
+articleTitle: Format
+second_title: Aspose.Words pour .NET
+description: ChartDataPoint Format propriété. Donne accès au formatage de remplissage et de ligne de ce point de données en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing.charts/chartdatapoint/format/
@@ -14,7 +16,7 @@ Donne accès au formatage de remplissage et de ligne de ce point de données.
 public ChartFormat Format { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir une mise en forme individuelle pour les catégories d’un histogramme.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.DataPointsFormatting.docx");
 
 * class [ChartFormat](../../chartformat/)
 * class [ChartDataPoint](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartdatapoint/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

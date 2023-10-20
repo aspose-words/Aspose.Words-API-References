@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.RemoveAt
-second_title: Aspose.Words for .NET API Referansı
-description: ChartSeriesCollection yöntem. Biri kaldırırChartSeries belirtilen dizinde.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words for .NET
+description: ChartSeriesCollection RemoveAt yöntem. Biri kaldırırChartSeries belirtilen dizinde C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing.charts/chartseriescollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Sıfır tabanlı endeks[`ChartSeries`](../../chartseries/) ayırmak. |
 
-### Örnekler
+## Örnekler
 
 Bir grafiğe seri verilerinin nasıl eklenip kaldırılacağını gösterir.
 
@@ -65,7 +67,5 @@ chartData.Clear();
 ### Ayrıca bakınız
 
 * class [ChartSeriesCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

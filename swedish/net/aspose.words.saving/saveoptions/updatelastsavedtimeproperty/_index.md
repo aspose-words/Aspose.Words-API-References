@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateLastSavedTimeProperty
-second_title: Aspose.Words för .NET API Referens
-description: SaveOptions fast egendom. Hämtar eller ställer in ett värde som avgör omLastSavedTime egenskapen uppdateras innan du sparar.
+linktitle: UpdateLastSavedTimeProperty
+articleTitle: UpdateLastSavedTimeProperty
+second_title: Aspose.Words för .NET
+description: SaveOptions UpdateLastSavedTimeProperty fast egendom. Hämtar eller ställer in ett värde som avgör omLastSavedTime egenskapen uppdateras innan du sparar i C#.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som avgör om[`LastSavedTime`](../../../asp
 public bool UpdateLastSavedTimeProperty { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du bestämmer om dokumentets "Sista sparade tid"-egenskap ska bevaras när du sparar.
 
@@ -48,7 +50,5 @@ else
 ### Se även
 
 * class [SaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../saveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

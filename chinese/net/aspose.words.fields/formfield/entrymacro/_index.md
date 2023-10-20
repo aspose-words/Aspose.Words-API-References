@@ -1,7 +1,9 @@
 ---
 title: FormField.EntryMacro
-second_title: Aspose.Words for .NET API 参考
-description: FormField 财产. 返回或设置表单字段的条目宏名称
+linktitle: EntryMacro
+articleTitle: EntryMacro
+second_title: 用于 .NET 的 Aspose.Words
+description: FormField EntryMacro 财产. 返回或设置表单字段的条目宏名称 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/formfield/entrymacro/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.fields/formfield/entrymacro/
 public string EntryMacro { get; set; }
 ```
 
-### 评论
+## 评论
 
 当表单字段在 Microsoft Word 中获得焦点时，条目宏就会运行。
 
 Microsoft Word 允许最多包含 32 个字符的字符串。
 
-### 例子
+## 例子
 
 展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
 
@@ -154,7 +156,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [FormField](../)
-* 命名空间 [Aspose.Words.Fields](../../formfield/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

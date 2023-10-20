@@ -1,7 +1,9 @@
 ---
 title: Cell.NodeType
-second_title: Aspose.Words for .NET API 参考
-description: Cell 财产. 返回Cell.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: 用于 .NET 的 Aspose.Words
+description: Cell NodeType 财产. 返回Cell 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.tables/cell/nodetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/cell/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何遍历复合节点的子节点树。
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Cell](../)
-* 命名空间 [Aspose.Words.Tables](../../cell/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

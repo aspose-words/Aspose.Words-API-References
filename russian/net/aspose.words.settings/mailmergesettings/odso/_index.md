@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.Odso
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Получает или задает объект задающий параметры объекта источника данных Office ODSO.
+linktitle: Odso
+articleTitle: Odso
+second_title: Aspose.Words для .NET
+description: MailMergeSettings Odso свойство. Получает или задает объект задающий параметры объекта источника данных Office ODSO на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.settings/mailmergesettings/odso/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.settings/mailmergesettings/odso/
 public Odso Odso { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Этот объект никогда не`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [Odso](../../odso/)
 * class [MailMergeSettings](../)
-* пространство имен [Aspose.Words.Settings](../../mailmergesettings/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

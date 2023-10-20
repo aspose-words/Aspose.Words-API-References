@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.PreserveTableLayout
-second_title: Aspose.Words for .NET API Referansı
-description: TxtSaveOptions mülk. Programın düz metin biçiminde kaydederken tabloların düzenini korumaya çalışıp çalışmayacağını belirtir. Varsayılan değerYANLIŞ .
+linktitle: PreserveTableLayout
+articleTitle: PreserveTableLayout
+second_title: Aspose.Words for .NET
+description: TxtSaveOptions PreserveTableLayout mülk. Programın düz metin biçiminde kaydederken tabloların düzenini korumaya çalışıp çalışmayacağını belirtir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
@@ -14,7 +16,7 @@ Programın, düz metin biçiminde kaydederken tabloların düzenini korumaya ça
 public bool PreserveTableLayout { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Düz metne dönüştürürken tabloların düzeninin nasıl korunacağını gösterir.
 
@@ -61,7 +63,5 @@ else
 ### Ayrıca bakınız
 
 * class [TxtSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../txtsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

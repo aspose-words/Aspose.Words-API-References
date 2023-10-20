@@ -1,14 +1,16 @@
 ---
-title: StructuredDocumentTag.StructuredDocumentTag
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTag byggare. Initierar en ny instans av Strukturerad dokumenttagg class.
+title: StructuredDocumentTag
+linktitle: StructuredDocumentTag
+articleTitle: StructuredDocumentTag
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTag byggare. Initierar en ny instans avStrukturerad dokumenttagg class i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-Initierar en ny instans av **Strukturerad dokumenttagg** class.
+Initierar en ny instans av**Strukturerad dokumenttagg** class.
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
@@ -20,7 +22,7 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 | type | SdtType | Typ av SDT-nod. |
 | level | MarkupLevel | Nivå av SDT-nod i dokumentet. |
 
-### Anmärkningar
+## Anmärkningar
 
 Följande typer av SDT kan skapas:
 
@@ -34,7 +36,7 @@ Följande typer av SDT kan skapas:
 * RichText
 * PlainText
 
-### Exempel
+## Exempel
 
 Visa hur man skapar en strukturerad dokumenttagg i form av en kryssruta.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 * enum [SdtType](../../sdttype/)
 * enum [MarkupLevel](../../markuplevel/)
 * class [StructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

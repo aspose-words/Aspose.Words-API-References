@@ -1,7 +1,9 @@
 ---
 title: Table.Rows
-second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Tablonun satırlarına yazılı erişim sağlar.
+linktitle: Rows
+articleTitle: Rows
+second_title: Aspose.Words for .NET
+description: Table Rows mülk. Tablonun satırlarına yazılı erişim sağlar C#'da.
 type: docs
 weight: 260
 url: /tr/net/aspose.words.tables/table/rows/
@@ -14,7 +16,7 @@ Tablonun satırlarına yazılı erişim sağlar.
 public RowCollection Rows { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 İki tablodaki satırların nasıl birleştirileceğini gösterir.
 
@@ -83,7 +85,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [RowCollection](../../rowcollection/)
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

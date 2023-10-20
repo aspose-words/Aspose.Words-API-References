@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.GetChildNodes
-second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart metod. Returnerar en livesamling av underordnade noder som matchar de angivna typerna.
+linktitle: GetChildNodes
+articleTitle: GetChildNodes
+second_title: Aspose.Words för .NET
+description: StructuredDocumentTagRangeStart GetChildNodes metod. Returnerar en livesamling av underordnade noder som matchar de angivna typerna i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/getchildnodes/
@@ -14,7 +16,7 @@ Returnerar en livesamling av underordnade noder som matchar de angivna typerna.
 public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man får barnnoder för StructuredDocumentTagRangeStart.
 
@@ -38,7 +40,5 @@ foreach (Node node in tag.GetChildNodes(NodeType.Run, true))
 * class [NodeCollection](../../../aspose.words/nodecollection/)
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [StructuredDocumentTagRangeStart](../)
-* namnutrymme [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

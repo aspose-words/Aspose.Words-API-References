@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.Clear
-second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeCollection méthode. Supprime tous les nœuds de cette collection et du document.
+linktitle: Clear
+articleTitle: Clear
+second_title: Aspose.Words pour .NET
+description: NodeCollection Clear méthode. Supprime tous les nœuds de cette collection et du document en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/nodecollection/clear/
@@ -14,7 +16,7 @@ Supprime tous les nœuds de cette collection et du document.
 public void Clear()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment supprimer toutes les sections d’un document.
 
@@ -36,7 +38,5 @@ Assert.AreEqual(string.Empty, doc.GetText().Trim());
 ### Voir également
 
 * class [NodeCollection](../)
-* espace de noms [Aspose.Words](../../nodecollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

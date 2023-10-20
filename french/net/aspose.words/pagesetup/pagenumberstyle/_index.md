@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageNumberStyle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Obtient ou définit le format du numéro de page.
+linktitle: PageNumberStyle
+articleTitle: PageNumberStyle
+second_title: Aspose.Words pour .NET
+description: PageSetup PageNumberStyle propriété. Obtient ou définit le format du numéro de page en C#.
 type: docs
 weight: 320
 url: /fr/net/aspose.words/pagesetup/pagenumberstyle/
@@ -14,7 +16,7 @@ Obtient ou définit le format du numéro de page.
 public NumberStyle PageNumberStyle { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment configurer la numérotation des pages dans une section.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 * enum [NumberStyle](../../numberstyle/)
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

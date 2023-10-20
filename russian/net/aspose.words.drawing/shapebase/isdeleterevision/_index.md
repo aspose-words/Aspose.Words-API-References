@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsDeleteRevision
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Возвращает true если этот объект был удален в Microsoft Word при включенном отслеживании изменений.
+linktitle: IsDeleteRevision
+articleTitle: IsDeleteRevision
+second_title: Aspose.Words для .NET
+description: ShapeBase IsDeleteRevision свойство. Возвращает true если этот объект был удален в Microsoft Word при включенном отслеживании изменений на С#.
 type: docs
 weight: 250
 url: /ru/net/aspose.words.drawing/shapebase/isdeleterevision/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/shapebase/isdeleterevision/
 public bool IsDeleteRevision { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с фигурами изменений.
 
@@ -61,7 +63,5 @@ Assert.True(shapes[1].IsInsertRevision);
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataPointCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataPointCollection eigendom. Gibt zurückChartDataPoint für den angegebenen Index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: ChartDataPointCollection Item eigendom. Gibt zurückChartDataPoint für den angegebenen Index in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chartdatapointcollection/item/
@@ -14,7 +16,7 @@ Gibt zurück[`ChartDataPoint`](../../chartdatapoint/) für den angegebenen Index
 public ChartDataPoint this[int index] { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenpunkten in einem Liniendiagramm gearbeitet wird.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * class [ChartDataPoint](../../chartdatapoint/)
 * class [ChartDataPointCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

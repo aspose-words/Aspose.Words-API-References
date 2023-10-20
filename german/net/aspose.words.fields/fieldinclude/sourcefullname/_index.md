@@ -1,7 +1,9 @@
 ---
 title: FieldInclude.SourceFullName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldInclude eigendom. Ruft den Speicherort des Dokuments ab oder legt diesen fest.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words für .NET
+description: FieldInclude SourceFullName eigendom. Ruft den Speicherort des Dokuments ab oder legt diesen fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldinclude/sourcefullname/
@@ -14,7 +16,7 @@ Ruft den Speicherort des Dokuments ab oder legt diesen fest.
 public string SourceFullName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein INCLUDE-Feld erstellt und seine Eigenschaften festgelegt werden.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### Siehe auch
 
 * class [FieldInclude](../)
-* namensraum [Aspose.Words.Fields](../../fieldinclude/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

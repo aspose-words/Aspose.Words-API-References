@@ -1,7 +1,9 @@
 ---
-title: FieldToa.FieldToa
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldToa constructor. Constructor predeterminado
+title: FieldToa
+linktitle: FieldToa
+articleTitle: FieldToa
+second_title: Aspose.Words para .NET
+description: FieldToa constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldtoa/fieldtoa/
@@ -17,7 +19,5 @@ public FieldToa()
 ### Ver también
 
 * class [FieldToa](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldtoa/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

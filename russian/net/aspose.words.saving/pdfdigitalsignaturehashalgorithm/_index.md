@@ -1,7 +1,9 @@
 ---
-title: Enum PdfDigitalSignatureHashAlgorithm
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.PdfDigitalSignatureHashAlgorithm перечисление. Указывает цифровой алгоритм хеширования используемый цифровой подписью.
+title: PdfDigitalSignatureHashAlgorithm Enum
+linktitle: PdfDigitalSignatureHashAlgorithm
+articleTitle: PdfDigitalSignatureHashAlgorithm
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.PdfDigitalSignatureHashAlgorithm перечисление. Указывает цифровой алгоритм хеширования используемый цифровой подписью на С#.
 type: docs
 weight: 5440
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/
@@ -23,7 +25,7 @@ public enum PdfDigitalSignatureHashAlgorithm
 | Sha512 | `2` | Алгоритм хеширования SHA-512. |
 | RipeMD160 | `3` | Алгоритм хеширования RIPEMD-160. |
 
-### Примеры
+## Примеры
 
 Показывает, как подписать созданный PDF-документ.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: PlainTextDocument.PlainTextDocument
-second_title: Справочник по API Aspose.Words для .NET
-description: PlainTextDocument строитель. Создает простой текстовый документ из файла. Автоматически определяет формат файла.
+title: PlainTextDocument
+linktitle: PlainTextDocument
+articleTitle: PlainTextDocument
+second_title: Aspose.Words для .NET
+description: PlainTextDocument строитель. Создает простой текстовый документ из файла. Автоматически определяет формат файла на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/plaintextdocument/plaintextdocument/
 ---
-## PlainTextDocument(string) {#constructor_2}
+## PlainTextDocument(*string*) {#constructor_2}
 
 Создает простой текстовый документ из файла. Автоматически определяет формат файла.
 
@@ -29,7 +31,7 @@ public PlainTextDocument(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
 | ArgumentException | Имя файла не может быть нулевым или пустой строкой. |
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить содержимое документа Microsoft Word в виде открытого текста.
 
@@ -48,12 +50,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### Смотрите также
 
 * class [PlainTextDocument](../)
-* пространство имен [Aspose.Words](../../plaintextdocument/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(string, LoadOptions) {#constructor_3}
+## PlainTextDocument(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_3}
 
 Создает простой текстовый документ из файла. Позволяет указать дополнительные параметры, такие как пароль шифрования.
 
@@ -77,7 +79,7 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
 | ArgumentException | Имя файла не может быть нулевым или пустой строкой. |
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить содержимое зашифрованного документа Microsoft Word в виде открытого текста.
 
@@ -103,12 +105,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* пространство имен [Aspose.Words](../../plaintextdocument/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream) {#constructor}
+## PlainTextDocument(*Stream*) {#constructor}
 
 Создает простой текстовый документ из потока. Автоматически определяет формат файла.
 
@@ -133,11 +135,11 @@ public PlainTextDocument(Stream stream)
 | NotSupportedException | Поток не поддерживает чтение или поиск. |
 | ObjectDisposedException | Поток — это удаленный объект. |
 
-### Примечания
+## Примечания
 
 Документ должен храниться в начале потока. Поток должен поддерживать случайное позиционирование.
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить содержимое документа Microsoft Word в виде открытого текста с помощью потока.
 
@@ -159,12 +161,12 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 ### Смотрите также
 
 * class [PlainTextDocument](../)
-* пространство имен [Aspose.Words](../../plaintextdocument/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream, LoadOptions) {#constructor_1}
+## PlainTextDocument(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_1}
 
 Создает простой текстовый документ из потока. Позволяет указать дополнительные параметры, такие как пароль шифрования.
 
@@ -190,11 +192,11 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | Поток не поддерживает чтение или поиск. |
 | ObjectDisposedException | Поток — это удаленный объект. |
 
-### Примечания
+## Примечания
 
 Документ должен храниться в начале потока. Поток должен поддерживать случайное позиционирование.
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить содержимое зашифрованного документа Microsoft Word в виде открытого текста с помощью потока.
 
@@ -224,7 +226,5 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* пространство имен [Aspose.Words](../../plaintextdocument/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

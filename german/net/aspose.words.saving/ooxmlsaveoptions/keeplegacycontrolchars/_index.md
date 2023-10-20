@@ -1,7 +1,9 @@
 ---
 title: OoxmlSaveOptions.KeepLegacyControlChars
-second_title: Aspose.Words für .NET-API-Referenz
-description: OoxmlSaveOptions eigendom. Behält die ursprüngliche Darstellung der alten Steuerzeichen bei.
+linktitle: KeepLegacyControlChars
+articleTitle: KeepLegacyControlChars
+second_title: Aspose.Words für .NET
+description: OoxmlSaveOptions KeepLegacyControlChars eigendom. Behält die ursprüngliche Darstellung der alten Steuerzeichen bei in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/
@@ -14,7 +16,7 @@ Behält die ursprüngliche Darstellung der alten Steuerzeichen bei.
 public bool KeepLegacyControlChars { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ältere Steuerzeichen bei der Konvertierung in .docx unterstützt werden.
 
@@ -41,7 +43,5 @@ Assert.AreEqual(keepLegacyControlChars ? "\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0
 ### Siehe auch
 
 * class [OoxmlSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../ooxmlsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

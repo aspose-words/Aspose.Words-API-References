@@ -1,7 +1,9 @@
 ---
 title: Cluster.CodepointsLength
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Cluster propriété. Obtient le nombre total de points de code dans leCluster .
+linktitle: CodepointsLength
+articleTitle: CodepointsLength
+second_title: Aspose.Words pour .NET
+description: Cluster CodepointsLength propriété. Obtient le nombre total de points de code dans leCluster  en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.shaping/cluster/codepointslength/
@@ -17,7 +19,5 @@ public int CodepointsLength { get; }
 ### Voir également
 
 * class [Cluster](../)
-* espace de noms [Aspose.Words.Shaping](../../cluster/)
+* espace de noms [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * Assemblée [Aspose.Words](../../../)
-
-

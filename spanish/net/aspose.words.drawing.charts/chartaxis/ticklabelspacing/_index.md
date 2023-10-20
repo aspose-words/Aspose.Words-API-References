@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelSpacing
-second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Obtiene o establece el intervalo en el que se dibujan las etiquetas de marca.
+linktitle: TickLabelSpacing
+articleTitle: TickLabelSpacing
+second_title: Aspose.Words para .NET
+description: ChartAxis TickLabelSpacing propiedad. Obtiene o establece el intervalo en el que se dibujan las etiquetas de marca en C#.
 type: docs
 weight: 250
 url: /es/net/aspose.words.drawing.charts/chartaxis/ticklabelspacing/
@@ -14,13 +16,13 @@ Obtiene o establece el intervalo en el que se dibujan las etiquetas de marca.
 public int TickLabelSpacing { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 La propiedad tiene efecto para la categoría de texto y los ejes de serie. No es compatible con los nuevos gráficos de MS Office 2016 . El rango válido de un valor es mayor o igual a 1.
 
 Establecer esta propiedad establece el[`TickLabelSpacingIsAuto`](../ticklabelspacingisauto/) propiedad a`FALSO`.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo manipular las marcas y los valores mostrados de un eje de gráfico.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Ver también
 
 * class [ChartAxis](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

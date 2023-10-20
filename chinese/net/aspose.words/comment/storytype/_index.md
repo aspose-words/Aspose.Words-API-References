@@ -1,9 +1,11 @@
 ---
 title: Comment.StoryType
-second_title: Aspose.Words for .NET API 参考
-description: Comment 财产. 返回Comments.
+linktitle: StoryType
+articleTitle: StoryType
+second_title: 用于 .NET 的 Aspose.Words
+description: Comment StoryType 财产. 返回Comments 在 C#.
 type: docs
-weight: 110
+weight: 100
 url: /zh/net/aspose.words/comment/storytype/
 ---
 ## Comment.StoryType property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/comment/storytype/
 public override StoryType StoryType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入 InlineStory 节点。
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * enum [StoryType](../../storytype/)
 * class [Comment](../)
-* 命名空间 [Aspose.Words](../../comment/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

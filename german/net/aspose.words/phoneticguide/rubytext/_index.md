@@ -1,7 +1,9 @@
 ---
 title: PhoneticGuide.RubyText
-second_title: Aspose.Words für .NET-API-Referenz
-description: PhoneticGuide eigendom. Ruft RubyText des phonetischen Leitfadens ab.
+linktitle: RubyText
+articleTitle: RubyText
+second_title: Aspose.Words für .NET
+description: PhoneticGuide RubyText eigendom. Ruft RubyText des phonetischen Leitfadens ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/phoneticguide/rubytext/
@@ -14,7 +16,7 @@ Ruft Ruby-Text des phonetischen Leitfadens ab.
 public string RubyText { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Eigenschaften des phonetischen Führers erhält.
 
@@ -31,7 +33,5 @@ Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
 ### Siehe auch
 
 * class [PhoneticGuide](../)
-* namensraum [Aspose.Words](../../phoneticguide/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

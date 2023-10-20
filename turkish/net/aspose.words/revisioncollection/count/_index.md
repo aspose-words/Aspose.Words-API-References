@@ -1,7 +1,9 @@
 ---
 title: RevisionCollection.Count
-second_title: Aspose.Words for .NET API Referansı
-description: RevisionCollection mülk. Koleksiyondaki düzeltmelerin sayısını döndürür.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: RevisionCollection Count mülk. Koleksiyondaki düzeltmelerin sayısını döndürür C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/revisioncollection/count/
@@ -14,7 +16,7 @@ Koleksiyondaki düzeltmelerin sayısını döndürür.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki düzeltmelerle nasıl çalışılacağını gösterir.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### Ayrıca bakınız
 
 * class [RevisionCollection](../)
-* ad alanı [Aspose.Words](../../revisioncollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

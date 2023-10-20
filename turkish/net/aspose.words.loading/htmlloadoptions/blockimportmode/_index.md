@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.BlockImportMode
-second_title: Aspose.Words for .NET API Referansı
-description: HtmlLoadOptions mülk. Blok düzeyindeki öğelerin özelliklerinin nasıl içe aktarıldığını belirten bir değer alır veya ayarlar. Varsayılan değerMerge .
+linktitle: BlockImportMode
+articleTitle: BlockImportMode
+second_title: Aspose.Words for .NET
+description: HtmlLoadOptions BlockImportMode mülk. Blok düzeyindeki öğelerin özelliklerinin nasıl içe aktarıldığını belirten bir değer alır veya ayarlar. Varsayılan değerMerge  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.loading/htmlloadoptions/blockimportmode/
@@ -14,7 +16,7 @@ Blok düzeyindeki öğelerin özelliklerinin nasıl içe aktarıldığını beli
 public BlockImportMode BlockImportMode { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Blok düzeyindeki öğelerin özelliklerinin HTML tabanlı belgelerden nasıl içe aktarıldığını gösterir.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BlockImport.docx");
 
 * enum [BlockImportMode](../../blockimportmode/)
 * class [HtmlLoadOptions](../)
-* ad alanı [Aspose.Words.Loading](../../htmlloadoptions/)
+* ad alanı [Aspose.Words.Loading](../../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../../)
-
-

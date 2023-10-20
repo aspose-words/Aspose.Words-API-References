@@ -1,7 +1,9 @@
 ---
-title: Class Hyphenation
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Hyphenation clase. Proporciona métodos para trabajar con diccionarios de separación de palabras. Estos diccionarios prescriben dónde se pueden dividir con guiones las palabras de un idioma específico.
+title: Hyphenation Class
+linktitle: Hyphenation
+articleTitle: Hyphenation
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Hyphenation clase. Proporciona métodos para trabajar con diccionarios de separación de palabras. Estos diccionarios prescriben dónde se pueden dividir con guiones las palabras de un idioma específico en C#.
 type: docs
 weight: 3150
 url: /es/net/aspose.words/hyphenation/
@@ -27,12 +29,12 @@ public static class Hyphenation
 
 | Nombre | Descripción |
 | --- | --- |
-| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(string) | Devoluciones`FALSO` si para el idioma especificado no hay ningún diccionario registrado o si el registrado es un diccionario nulo,`verdadero` de lo contrario. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(string, Stream) | Registra y carga un diccionario de separación de palabras para el idioma especificado desde una secuencia. Se lanza si el diccionario no se puede leer o tiene un formato no válido. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(string, string) | Registra y carga un diccionario de separación de palabras para el idioma especificado desde el archivo. Se lanza si el diccionario no se puede leer o tiene un formato no válido. |
-| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(string) | Anula el registro de un diccionario de separación de palabras para el idioma especificado. |
+| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(*string*) | Devoluciones`FALSO` si para el idioma especificado no hay ningún diccionario registrado o si el registrado es un diccionario nulo,`verdadero` de lo contrario. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(*string, Stream*) | Registra y carga un diccionario de separación de palabras para el idioma especificado desde una secuencia. Se lanza si el diccionario no se puede leer o tiene un formato no válido. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(*string, string*) | Registra y carga un diccionario de separación de palabras para el idioma especificado desde el archivo. Se lanza si el diccionario no se puede leer o tiene un formato no válido. |
+| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(*string*) | Anula el registro de un diccionario de separación de palabras para el idioma especificado. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo abrir y registrar un diccionario desde un archivo.
 
@@ -109,5 +111,3 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

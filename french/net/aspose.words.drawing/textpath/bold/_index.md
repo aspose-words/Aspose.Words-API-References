@@ -1,7 +1,9 @@
 ---
 title: TextPath.Bold
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextPath propriété. True si la police est formatée en gras.
+linktitle: Bold
+articleTitle: Bold
+second_title: Aspose.Words pour .NET
+description: TextPath Bold propriété. True si la police est formatée en gras en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing/textpath/bold/
@@ -14,11 +16,11 @@ True si la police est formatée en gras.
 public bool Bold { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX`.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Voir également
 
 * class [TextPath](../)
-* espace de noms [Aspose.Words.Drawing](../../textpath/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

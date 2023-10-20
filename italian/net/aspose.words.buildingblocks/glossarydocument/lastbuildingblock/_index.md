@@ -1,7 +1,9 @@
 ---
 title: GlossaryDocument.LastBuildingBlock
-second_title: Aspose.Words per .NET API Reference
-description: GlossaryDocument proprietà. Ottiene lultimo elemento costitutivo nel documento del glossario.
+linktitle: LastBuildingBlock
+articleTitle: LastBuildingBlock
+second_title: Aspose.Words per .NET
+description: GlossaryDocument LastBuildingBlock proprietà. Ottiene lultimo elemento costitutivo nel documento del glossario in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words.buildingblocks/glossarydocument/lastbuildingblock/
@@ -14,11 +16,11 @@ Ottiene l'ultimo elemento costitutivo nel documento del glossario.
 public BuildingBlock LastBuildingBlock { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Restituisce`nullo` se non sono disponibili elementi costitutivi.
 
-### Esempi
+## Esempi
 
 Mostra le modalità di accesso agli elementi costitutivi in un documento di glossario.
 
@@ -123,7 +125,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 * class [BuildingBlock](../../buildingblock/)
 * class [GlossaryDocument](../)
-* spazio dei nomi [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* spazio dei nomi [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assemblea [Aspose.Words](../../../)
-
-

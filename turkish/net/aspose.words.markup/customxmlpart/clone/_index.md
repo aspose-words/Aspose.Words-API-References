@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Clone
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlPart yöntem. Nesnenin yeterince derin bir kopyasını oluşturur. Baytları çoğaltmazData değer.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words for .NET
+description: CustomXmlPart Clone yöntem. Nesnenin yeterince derin bir kopyasını oluşturur. Baytları çoğaltmazData değer C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.markup/customxmlpart/clone/
@@ -14,7 +16,7 @@ Nesnenin "yeterince derin" bir kopyasını oluşturur. Baytları çoğaltmaz[`Da
 public CustomXmlPart Clone()
 ```
 
-### Örnekler
+## Örnekler
 
 Özel XML verileriyle yapılandırılmış bir belge etiketinin nasıl oluşturulacağını gösterir.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Ayrıca bakınız
 
 * class [CustomXmlPart](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlpart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

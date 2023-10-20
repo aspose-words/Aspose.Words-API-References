@@ -1,7 +1,9 @@
 ---
-title: Class FixedPageSaveOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.FixedPageSaveOptions فصل. يحتوي على خيارات شائعة يمكن تحديدها عند حفظ مستند بتنسيقات صفحات ثابتة PDF XPS الصور إلخ.
+title: FixedPageSaveOptions Class
+linktitle: FixedPageSaveOptions
+articleTitle: FixedPageSaveOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.FixedPageSaveOptions فصل. يحتوي على خيارات شائعة يمكن تحديدها عند حفظ مستند بتنسيقات صفحات ثابتة PDF XPS الصور إلخ في C#.
 type: docs
 weight: 5020
 url: /ar/net/aspose.words.saving/fixedpagesaveoptions/
@@ -23,7 +25,7 @@ public abstract class FixedPageSaveOptions : SaveOptions
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم السماح بدمج الخطوط باستخدام مخططات PostScript عند حفظ تضمين خطوط TrueType في مستند. القيمة الافتراضية هي`خطأ شنيع` . |
 | [ColorMode](../../aspose.words.saving/fixedpagesaveoptions/colormode/) { get; set; } | الحصول على أو تعيين قيمة تحدد كيفية عرض الألوان. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | الحصول على أو تعيين المنطقة الزمنية المحلية المخصصة المستخدمة لحقول التاريخ/الوقت. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض التأثيرات ثلاثية الأبعاد. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض تأثيرات DrawML. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض أشكال DrawML. |
@@ -51,9 +53,9 @@ public abstract class FixedPageSaveOptions : SaveOptions
 
 | اسم | وصف |
 | --- | --- |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض كل صفحة من المستند إلى صورة TIFF منفصلة.
 
@@ -117,5 +119,3 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 * class [SaveOptions](../saveoptions/)
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Target
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şekil köprüsü için hedef çerçeveyi alır veya ayarlar.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words for .NET
+description: ShapeBase Target mülk. Şekil köprüsü için hedef çerçeveyi alır veya ayarlar C#'da.
 type: docs
 weight: 520
 url: /tr/net/aspose.words.drawing/shapebase/target/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words.drawing/shapebase/target/
 public string Target { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer boş bir dizedir.
 
-### Örnekler
+## Örnekler
 
 Görüntü içeren ve aynı zamanda köprü olan bir şeklin nasıl ekleneceğini gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

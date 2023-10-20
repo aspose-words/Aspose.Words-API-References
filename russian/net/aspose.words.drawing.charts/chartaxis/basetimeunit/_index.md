@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.BaseTimeUnit
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxis свойство. Возвращает или задает наименьшую единицу времени представленную на оси категорий времени.
+linktitle: BaseTimeUnit
+articleTitle: BaseTimeUnit
+second_title: Aspose.Words для .NET
+description: ChartAxis BaseTimeUnit свойство. Возвращает или задает наименьшую единицу времени представленную на оси категорий времени на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartaxis/basetimeunit/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartaxis/basetimeunit/
 public AxisTimeUnit BaseTimeUnit { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Свойство действует только для осей категории времени.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить диаграмму со значениями даты и времени.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * enum [AxisTimeUnit](../../axistimeunit/)
 * class [ChartAxis](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

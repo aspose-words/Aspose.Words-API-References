@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitSmartTagEnd
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentVisitor methode. Wird aufgerufen wenn die Aufzählung eines Smarttags beendet wurde.
+linktitle: VisitSmartTagEnd
+articleTitle: VisitSmartTagEnd
+second_title: Aspose.Words für .NET
+description: DocumentVisitor VisitSmartTagEnd methode. Wird aufgerufen wenn die Aufzählung eines Smarttags beendet wurde in C#.
 type: docs
 weight: 410
 url: /de/net/aspose.words/documentvisitor/visitsmarttagend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitSmartTagEnd(SmartTag smartTag)
 
 A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Knotenstruktur jedes Smarttags in einem Dokument gedruckt wird.
 
@@ -116,7 +118,5 @@ public class SmartTagStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [SmartTag](../../../aspose.words.markup/smarttag/)
 * class [DocumentVisitor](../)
-* namensraum [Aspose.Words](../../documentvisitor/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

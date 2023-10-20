@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndCap
-second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Konturun sonu için başlık stilini tanımlar.
+linktitle: EndCap
+articleTitle: EndCap
+second_title: Aspose.Words for .NET
+description: Stroke EndCap mülk. Konturun sonu için başlık stilini tanımlar C#'da.
 type: docs
-weight: 90
+weight: 80
 url: /tr/net/aspose.words.drawing/stroke/endcap/
 ---
 ## Stroke.EndCap property
@@ -14,11 +16,11 @@ Konturun sonu için başlık stilini tanımlar.
 public EndCap EndCap { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Flat.
 
-### Örnekler
+## Örnekler
 
 Çeşitli şekiller oluşturmayı gösterir.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [EndCap](../../endcap/)
 * class [Stroke](../)
-* ad alanı [Aspose.Words.Drawing](../../stroke/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

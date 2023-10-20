@@ -1,7 +1,9 @@
 ---
-title: Class DigitalSignature
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.DigitalSignatures.DigitalSignature klas. Stellt eine digitale Signatur eines Dokuments und das Ergebnis seiner Überprüfung dar.
+title: DigitalSignature Class
+linktitle: DigitalSignature
+articleTitle: DigitalSignature
+second_title: Aspose.Words für .NET
+description: Aspose.Words.DigitalSignatures.DigitalSignature klas. Stellt eine digitale Signatur eines Dokuments und das Ergebnis seiner Überprüfung dar in C#.
 type: docs
 weight: 380
 url: /de/net/aspose.words.digitalsignatures/digitalsignature/
@@ -35,7 +37,7 @@ public class DigitalSignature
 | --- | --- |
 | override [ToString](../../aspose.words.digitalsignatures/digitalsignature/tostring/)() | Gibt eine benutzerfreundliche Zeichenfolge zurück, die den Wert dieses Objekts anzeigt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Informationen zu jeder Signatur in einem Dokument validiert und angezeigt werden.
 
@@ -58,5 +60,3 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 
 * namensraum [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../)
-
-

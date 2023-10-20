@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.JpegQuality
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Oluşturulan JPEG görüntülerinin kalitesini belirleyen bir değer alır veya ayarlar.
+linktitle: JpegQuality
+articleTitle: JpegQuality
+second_title: Aspose.Words for .NET
+description: ImageSaveOptions JpegQuality mülk. Oluşturulan JPEG görüntülerinin kalitesini belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.saving/imagesaveoptions/jpegquality/
@@ -14,7 +16,7 @@ Oluşturulan JPEG görüntülerinin kalitesini belirleyen bir değer alır veya 
 public int JpegQuality { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Yalnızca JPEG'e kaydederken etkilidir.
 
@@ -22,7 +24,7 @@ JPEG biçiminde kaydederken oluşturulan görüntülerin kalitesini almak veya a
 
 Varsayılan değer 95'tir.
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi JPEG olarak kaydederken sıkıştırmanın nasıl yapılandırılacağını gösterir.
 
@@ -55,7 +57,5 @@ Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Jpe
 ### Ayrıca bakınız
 
 * class [ImageSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../imagesaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

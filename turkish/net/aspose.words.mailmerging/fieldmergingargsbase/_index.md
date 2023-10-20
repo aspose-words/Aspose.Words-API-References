@@ -1,7 +1,9 @@
 ---
-title: Class FieldMergingArgsBase
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MailMerging.FieldMergingArgsBase sınıf. Temel sınıfFieldMergingArgs VeImageFieldMergingArgs .
+title: FieldMergingArgsBase Class
+linktitle: FieldMergingArgsBase
+articleTitle: FieldMergingArgsBase
+second_title: Aspose.Words for .NET
+description: Aspose.Words.MailMerging.FieldMergingArgsBase sınıf. Temel sınıfFieldMergingArgs VeImageFieldMergingArgs  C#'da.
 type: docs
 weight: 3780
 url: /tr/net/aspose.words.mailmerging/fieldmergingargsbase/
@@ -28,7 +30,7 @@ public abstract class FieldMergingArgsBase
 | [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Birleştirilecek kaydın sıfır tabanlı dizinini alır. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Geçerli birleştirme işlemi için veri tablosunun adını veya ad mevcut değilse boş dizeyi alır. |
 
-### Örnekler
+## Örnekler
 
 HTML belgeleri biçimindeki birleştirme verilerini işleyen özel bir geri çağırma ile adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -97,5 +99,3 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * ad alanı [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../)
-
-

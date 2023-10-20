@@ -1,7 +1,9 @@
 ---
 title: CleanupOptions.UnusedStyles
-second_title: Aspose.Words per .NET API Reference
-description: CleanupOptions proprietà. Specifica se gli stili inutilizzati devono essere rimossi dal documento. Il valore predefinito èVERO .
+linktitle: UnusedStyles
+articleTitle: UnusedStyles
+second_title: Aspose.Words per .NET
+description: CleanupOptions UnusedStyles proprietà. Specifica se gli stili inutilizzati devono essere rimossi dal documento. Il valore predefinito èVERO  in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/cleanupoptions/unusedstyles/
@@ -14,7 +16,7 @@ Specifica se gli stili inutilizzati devono essere rimossi dal documento. Il valo
 public bool UnusedStyles { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come rimuovere tutti gli stili personalizzati non utilizzati da un documento.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(2, doc.Styles.Count);
 ### Guarda anche
 
 * class [CleanupOptions](../)
-* spazio dei nomi [Aspose.Words](../../cleanupoptions/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.MillimeterToPoint
-second_title: Aspose.Words لمراجع .NET API
-description: ConvertUtil طريقة. تحويل المليمترات إلى نقاط.
+linktitle: MillimeterToPoint
+articleTitle: MillimeterToPoint
+second_title: Aspose.Words لـ .NET
+description: ConvertUtil MillimeterToPoint طريقة. تحويل المليمترات إلى نقاط في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/convertutil/millimetertopoint/
@@ -18,11 +20,11 @@ public static double MillimeterToPoint(double millimeters)
 | --- | --- | --- |
 | millimeters | Double | القيمة المراد تحويلها. |
 
-### ملاحظات
+## ملاحظات
 
 1 بوصة يساوي 25.4 ملم. 1 بوصة يساوي 72 نقطة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد خصائص الصفحة بالملليمتر.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndMillimeters.docx");
 ### أنظر أيضا
 
 * class [ConvertUtil](../)
-* مساحة الاسم [Aspose.Words](../../convertutil/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

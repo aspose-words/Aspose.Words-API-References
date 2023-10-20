@@ -1,7 +1,9 @@
 ---
-title: Enum FillType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.FillType 枚举. 指定可填充对象的填充类型
+title: FillType Enum
+linktitle: FillType
+articleTitle: FillType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.FillType 枚举. 指定可填充对象的填充类型 在 C#.
 type: docs
 weight: 960
 url: /zh/net/aspose.words.drawing/filltype/
@@ -29,5 +31,3 @@ public enum FillType
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

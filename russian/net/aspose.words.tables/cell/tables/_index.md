@@ -1,7 +1,9 @@
 ---
 title: Cell.Tables
-second_title: Справочник по API Aspose.Words для .NET
-description: Cell свойство. Получает коллекцию таблиц которые являются непосредственными дочерними элементами ячейки.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words для .NET
+description: Cell Tables свойство. Получает коллекцию таблиц которые являются непосредственными дочерними элементами ячейки на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.tables/cell/tables/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.tables/cell/tables/
 public TableCollection Tables { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как узнать, являются ли таблицы вложенными.
 
@@ -93,7 +95,5 @@ private static int GetChildTableCount(Table table)
 
 * class [TableCollection](../../tablecollection/)
 * class [Cell](../)
-* пространство имен [Aspose.Words.Tables](../../cell/)
+* пространство имен [Aspose.Words.Tables](../../../aspose.words.tables/)
 * сборка [Aspose.Words](../../../)
-
-

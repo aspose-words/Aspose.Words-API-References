@@ -1,7 +1,9 @@
 ---
 title: ListLevel.Alignment
-second_title: Aspose.Words for .NET API 参考
-description: ListLevel 财产. 获取或设置列表项实际编号的对齐方式
+linktitle: Alignment
+articleTitle: Alignment
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevel Alignment 财产. 获取或设置列表项实际编号的对齐方式 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.lists/listlevel/alignment/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.lists/listlevel/alignment/
 public ListLevelAlignment Alignment { get; set; }
 ```
 
-### 评论
+## 评论
 
 列表标签相对于[`NumberPosition`](../numberposition/)财产。
 
-### 例子
+## 例子
 
 演示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
 
@@ -78,7 +80,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * enum [ListLevelAlignment](../../listlevelalignment/)
 * class [ListLevel](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevel/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: MappedDataFieldCollection метод. Добавляет новое сопоставление полей.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: MappedDataFieldCollection Add метод. Добавляет новое сопоставление полей на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.mailmerging/mappeddatafieldcollection/add/
@@ -19,7 +21,7 @@ public void Add(string documentFieldName, string dataSourceFieldName)
 | documentFieldName | String | Имя поля слияния почты в документе, чувствительное к регистру. |
 | dataSourceFieldName | String | Имя поля в источнике данных с учетом регистра. |
 
-### Примеры
+## Примеры
 
 Показывает, как сопоставить столбцы данных и поля MERGEFIELD с разными именами, чтобы данные передавались между ними во время слияния почты.
 
@@ -104,7 +106,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### Смотрите также
 
 * class [MappedDataFieldCollection](../)
-* пространство имен [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

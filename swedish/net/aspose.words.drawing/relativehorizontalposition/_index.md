@@ -1,7 +1,9 @@
 ---
-title: Enum RelativeHorizontalPosition
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.RelativeHorizontalPosition uppräkning. Anger vad den horisontella positionen för en form eller textram är relativ.
+title: RelativeHorizontalPosition Enum
+linktitle: RelativeHorizontalPosition
+articleTitle: RelativeHorizontalPosition
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.RelativeHorizontalPosition uppräkning. Anger vad den horisontella positionen för en form eller textram är relativ i C#.
 type: docs
 weight: 1190
 url: /sv/net/aspose.words.drawing/relativehorizontalposition/
@@ -28,7 +30,7 @@ public enum RelativeHorizontalPosition
 | OutsideMargin | `7` | Anger att den horisontella positioneringen ska vara relativt den yttre marginalen på den aktuella sidan (högermarginalen på udda sidor, vänster på jämna sidor). |
 | Default | `2` | Standardvärdet ärColumn . |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en flytande bild i mitten av en sida.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 * property [RelativeHorizontalPosition](../shapebase/relativehorizontalposition/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.ResetNumber
-second_title: Aspose.Words för .NET API Referens
-description: FieldSeq fast egendom. Hämtar eller ställer in ett heltal att återställa sekvensnumret till. Returnerar 1 om numret saknas.
+linktitle: ResetNumber
+articleTitle: ResetNumber
+second_title: Aspose.Words för .NET
+description: FieldSeq ResetNumber fast egendom. Hämtar eller ställer in ett heltal att återställa sekvensnumret till. Returnerar 1 om numret saknas i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldseq/resetnumber/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett heltal att återställa sekvensnumret till. Return
 public string ResetNumber { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar skapa numrering med SEQ-fält.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### Se även
 
 * class [FieldSeq](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldseq/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

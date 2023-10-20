@@ -1,7 +1,9 @@
 ---
 title: List.Document
-second_title: Référence de l'API Aspose.Words pour .NET
-description: List propriété. Obtient le document propriétaire.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words pour .NET
+description: List Document propriété. Obtient le document propriétaire en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.lists/list/document/
@@ -14,11 +16,11 @@ Obtient le document propriétaire.
 public DocumentBase Document { get; }
 ```
 
-### Remarques
+## Remarques
 
 Une liste a toujours un document parent et n'est valide que dans le contexte de ce document.
 
-### Exemples
+## Exemples
 
 Montre comment vérifier les propriétés du document propriétaire des listes.
 
@@ -41,7 +43,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [List](../)
-* espace de noms [Aspose.Words.Lists](../../list/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.Default
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. الحصول على القيمة الافتراضية لحقل نموذج خانة الاختيار أو تعيينها. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع .
+linktitle: Default
+articleTitle: Default
+second_title: Aspose.Words لـ .NET
+description: FormField Default ملكية. الحصول على القيمة الافتراضية لحقل نموذج خانة الاختيار أو تعيينها. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/formfield/default/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.fields/formfield/default/
 public bool Default { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 ينطبق على حقل نموذج خانة الاختيار فقط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

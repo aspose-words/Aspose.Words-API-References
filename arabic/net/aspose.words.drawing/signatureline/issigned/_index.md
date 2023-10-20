@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.IsSigned
-second_title: Aspose.Words لمراجع .NET API
-description: SignatureLine ملكية. يشير إلى أن سطر التوقيع موقّع بواسطة التوقيع الرقمي.
+linktitle: IsSigned
+articleTitle: IsSigned
+second_title: Aspose.Words لـ .NET
+description: SignatureLine IsSigned ملكية. يشير إلى أن سطر التوقيع موقّع بواسطة التوقيع الرقمي في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing/signatureline/issigned/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/signatureline/issigned/
 public bool IsSigned { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع مستند باستخدام شهادة شخصية وسطر التوقيع.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### أنظر أيضا
 
 * class [SignatureLine](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../signatureline/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

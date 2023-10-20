@@ -1,7 +1,9 @@
 ---
-title: Enum EditorType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.EditorType uppräkning. Anger uppsättningen av möjliga alias eller redigeringsgrupper som kan användas som alias för att avgöra om den aktuella användaren ska tillåtas redigera ett enstaka intervall definierat av ett redigerbart intervall inom ett dokument.
+title: EditorType Enum
+linktitle: EditorType
+articleTitle: EditorType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.EditorType uppräkning. Anger uppsättningen av möjliga alias eller redigeringsgrupper som kan användas som alias för att avgöra om den aktuella användaren ska tillåtas redigera ett enstaka intervall definierat av ett redigerbart intervall inom ett dokument i C#.
 type: docs
 weight: 1450
 url: /sv/net/aspose.words/editortype/
@@ -28,7 +30,7 @@ public enum EditorType
 | Owners | `7` | Anger att användare som är associerade med ägaregruppen ska tillåtas redigera redigerbara intervall med denna redigeringstyp när dokumentskydd är aktiverat. |
 | Default | `0` | Samma somUnspecified . |
 
-### Exempel
+## Exempel
 
 Visar hur man begränsar redigeringsrättigheterna för redigerbara intervall till en specifik grupp/användare.
 
@@ -140,5 +142,3 @@ public class EditableRangePrinter : DocumentVisitor
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

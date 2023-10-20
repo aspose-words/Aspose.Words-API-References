@@ -1,7 +1,9 @@
 ---
 title: HtmlLoadOptions.PreferredControlType
-second_title: Aspose.Words för .NET API Referens
-description: HtmlLoadOptions fast egendom. Hämtar eller ställer in önskad typ av dokumentnoder som kommer att representera importerade input och select element. Standardvärdet ärFormField .
+linktitle: PreferredControlType
+articleTitle: PreferredControlType
+second_title: Aspose.Words för .NET
+description: HtmlLoadOptions PreferredControlType fast egendom. Hämtar eller ställer in önskad typ av dokumentnoder som kommer att representera importerade input och select element. Standardvärdet ärFormField  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
@@ -14,11 +16,11 @@ Hämtar eller ställer in önskad typ av dokumentnoder som kommer att represente
 public HtmlControlType PreferredControlType { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Observera att inställningen av den här egenskapen inte garanterar att alla importerade kontroller kommer att vara av den angivna typen. Om en HTML-kontroll inte kan representeras med dokumentnoder av den föredragna typen kommer Aspose.Words att använda en kompatibel[`HtmlControlType`](../../htmlcontroltype/) för den kontrollen.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in önskad typ av dokumentnoder som ska representera importerade &lt;input&gt; och &lt;select&gt; element.
 
@@ -45,7 +47,5 @@ StructuredDocumentTag tag = (StructuredDocumentTag) nodes[0];
 
 * enum [HtmlControlType](../../htmlcontroltype/)
 * class [HtmlLoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../htmlloadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

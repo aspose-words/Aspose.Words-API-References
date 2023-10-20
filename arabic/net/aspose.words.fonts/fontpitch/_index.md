@@ -1,7 +1,9 @@
 ---
-title: Enum FontPitch
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.FontPitch تعداد. يمثل درجة الخط.
+title: FontPitch Enum
+linktitle: FontPitch
+articleTitle: FontPitch
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fonts.FontPitch تعداد. يمثل درجة الخط في C#.
 type: docs
 weight: 2960
 url: /ar/net/aspose.words.fonts/fontpitch/
@@ -22,11 +24,11 @@ public enum FontPitch
 | Fixed | `1` | يحدد أن هذا الخط ذو عرض ثابت. |
 | Variable | `2` | يحدد أن هذا خط ذو عرض متناسب. |
 
-### ملاحظات
+## ملاحظات
 
 تشير درجة الصوت إلى ما إذا كان الخط ثابتًا أو متباعدًا بشكل متناسب أو يعتمد على الإعداد الافتراضي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى تفاصيل كل خط في المستند وطباعتها.
 
@@ -66,5 +68,3 @@ while (fontCollectionEnumerator.MoveNext())
 
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
-
-

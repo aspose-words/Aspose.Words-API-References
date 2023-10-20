@@ -1,12 +1,14 @@
 ---
 title: Document.Protect
-second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. يحمي المستند من التغييرات دون تغيير كلمة المرور الحالية أو تعيين كلمة مرور عشوائية.
+linktitle: Protect
+articleTitle: Protect
+second_title: Aspose.Words لـ .NET
+description: Document Protect طريقة. يحمي المستند من التغييرات دون تغيير كلمة المرور الحالية أو تعيين كلمة مرور عشوائية في C#.
 type: docs
-weight: 670
+weight: 650
 url: /ar/net/aspose.words/document/protect/
 ---
-## Protect(ProtectionType) {#protect}
+## Protect(*[ProtectionType](../../protectiontype/)*) {#protect}
 
 يحمي المستند من التغييرات دون تغيير كلمة المرور الحالية أو تعيين كلمة مرور عشوائية.
 
@@ -18,7 +20,7 @@ public void Protect(ProtectionType type)
 | --- | --- | --- |
 | type | ProtectionType | يحدد نوع الحماية للمستند. |
 
-### ملاحظات
+## ملاحظات
 
 عندما يكون المستند محميًا، يمكن للمستخدم إجراء تغييرات محدودة فقط، مثل إضافة التعليقات التوضيحية، أو إجراء المراجعات، أو إكمال النموذج.
 
@@ -26,7 +28,7 @@ public void Protect(ProtectionType type)
 
 عندما تقوم بحماية مستند، ولا يحتوي المستند على كلمة مرور حماية، تقوم هذه الطريقة بتعيين كلمة مرور عشوائية تجعل من المستحيل إلغاء حماية المستند في Microsoft Word، ولكن لا يزال بإمكانك إلغاء حماية المستند في Aspose.Words لأنه لا تتطلب كلمة مرور عند إلغاء الحماية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إيقاف الحماية لقسم ما.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Protect(ProtectionType, string) {#protect_1}
+## Protect(*[ProtectionType](../../protectiontype/), string*) {#protect_1}
 
 يحمي المستند من التغييرات ويعين كلمة مرور الحماية بشكل اختياري.
 
@@ -74,13 +76,13 @@ public void Protect(ProtectionType type, string password)
 | type | ProtectionType | يحدد نوع الحماية للمستند. |
 | password | String | كلمة المرور لحماية المستند بها. تحديد`باطل`أو سلسلة فارغة إذا كنت تريد حماية المستند بدون كلمة مرور. |
 
-### ملاحظات
+## ملاحظات
 
 عندما يكون المستند محميًا، يمكن للمستخدم إجراء تغييرات محدودة فقط، مثل إضافة التعليقات التوضيحية، أو إجراء المراجعات، أو إكمال النموذج.
 
 لاحظ أن حماية المستند تختلف عن الحماية ضد الكتابة. يتم تحديد الحماية ضد الكتابة باستخدام[`WriteProtection`](../writeprotection/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حماية مستند وإلغاء حمايته.
 
@@ -126,7 +128,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 * enum [ProtectionType](../../protectiontype/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

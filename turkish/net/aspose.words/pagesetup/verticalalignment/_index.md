@@ -1,7 +1,9 @@
 ---
 title: PageSetup.VerticalAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Bir belge veya bölümdeki her sayfadaki metnin dikey hizalamasını döndürür veya ayarlar.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words for .NET
+description: PageSetup VerticalAlignment mülk. Bir belge veya bölümdeki her sayfadaki metnin dikey hizalamasını döndürür veya ayarlar C#'da.
 type: docs
 weight: 450
 url: /tr/net/aspose.words/pagesetup/verticalalignment/
@@ -14,7 +16,7 @@ Bir belge veya bölümdeki her sayfadaki metnin dikey hizalamasını döndürür
 public PageVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Sayfa yapısı ayarlarının bir belgedeki bölümlere nasıl uygulanacağını ve geri döndürüleceğini gösterir.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * enum [PageVerticalAlignment](../../pageverticalalignment/)
 * class [PageSetup](../)
-* ad alanı [Aspose.Words](../../pagesetup/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

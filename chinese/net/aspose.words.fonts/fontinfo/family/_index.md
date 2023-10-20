@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Family
-second_title: Aspose.Words for .NET API 参考
-description: FontInfo 财产. 获取或设置该字体所属的字体系列
+linktitle: Family
+articleTitle: Family
+second_title: 用于 .NET 的 Aspose.Words
+description: FontInfo Family 财产. 获取或设置该字体所属的字体系列 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/fontinfo/family/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontinfo/family/
 public FontFamily Family { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问和打印文档中每种字体的详细信息。
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontFamily](../../fontfamily/)
 * class [FontInfo](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontinfo/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

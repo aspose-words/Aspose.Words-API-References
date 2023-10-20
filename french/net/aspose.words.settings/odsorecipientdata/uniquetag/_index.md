@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.UniqueTag
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoRecipientData propriété. Spécifie le contenu dun enregistrement donné dans la colonne contenant des données uniques. La valeur par défaut estnul .
+linktitle: UniqueTag
+articleTitle: UniqueTag
+second_title: Aspose.Words pour .NET
+description: OdsoRecipientData UniqueTag propriété. Spécifie le contenu dun enregistrement donné dans la colonne contenant des données uniques. La valeur par défaut estnul  en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.settings/odsorecipientdata/uniquetag/
@@ -14,7 +16,7 @@ Spécifie le contenu d'un enregistrement donné dans la colonne contenant des do
 public byte[] UniqueTag { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui désigne les enregistrements de source de données de fusion qu'un publipostage exclura.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Voir également
 
 * class [OdsoRecipientData](../)
-* espace de noms [Aspose.Words.Settings](../../odsorecipientdata/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

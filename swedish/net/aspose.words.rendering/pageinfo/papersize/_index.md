@@ -1,7 +1,9 @@
 ---
 title: PageInfo.PaperSize
-second_title: Aspose.Words för .NET API Referens
-description: PageInfo fast egendom. Hämtar pappersstorleken som uppräkning.
+linktitle: PaperSize
+articleTitle: PaperSize
+second_title: Aspose.Words för .NET
+description: PageInfo PaperSize fast egendom. Hämtar pappersstorleken som uppräkning i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.rendering/pageinfo/papersize/
@@ -14,7 +16,7 @@ Hämtar pappersstorleken som uppräkning.
 public PaperSize PaperSize { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut information om sidstorlek och orientering för varje sida i ett Word-dokument.
 
@@ -57,7 +59,5 @@ for (int i = 0; i < doc.PageCount; i++)
 
 * enum [PaperSize](../../../aspose.words/papersize/)
 * class [PageInfo](../)
-* namnutrymme [Aspose.Words.Rendering](../../pageinfo/)
+* namnutrymme [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * hopsättning [Aspose.Words](../../../)
-
-

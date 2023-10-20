@@ -1,7 +1,9 @@
 ---
 title: ImportFormatOptions.IgnoreHeaderFooter
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImportFormatOptions eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt dass die Quellformatierung des Kopf/Fußzeileninhalts ignoriert wird wennKeepSourceFormatting Modus wird verwendet. Der Standardwert istWAHR .
+linktitle: IgnoreHeaderFooter
+articleTitle: IgnoreHeaderFooter
+second_title: Aspose.Words für .NET
+description: ImportFormatOptions IgnoreHeaderFooter eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt dass die Quellformatierung des Kopf/Fußzeileninhalts ignoriert wird wennKeepSourceFormatting Modus wird verwendet. Der Standardwert istWAHR  in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/importformatoptions/ignoreheaderfooter/
@@ -14,7 +16,7 @@ Ruft einen booleschen Wert ab oder legt diesen fest, der angibt, dass die Quellf
 public bool IgnoreHeaderFooter { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie festgelegt wird, ob die Quellformatierung des Kopf-/Fußzeileninhalts ignoriert oder nicht formatiert werden soll.
 
@@ -33,7 +35,5 @@ dstDoc.Save(ArtifactsDir + "DocumentBuilder.DoNotIgnoreHeaderFooter.docx");
 ### Siehe auch
 
 * class [ImportFormatOptions](../)
-* namensraum [Aspose.Words](../../importformatoptions/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

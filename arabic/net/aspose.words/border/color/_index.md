@@ -1,7 +1,9 @@
 ---
 title: Border.Color
-second_title: Aspose.Words لمراجع .NET API
-description: Border ملكية. الحصول على لون الحدود أو تعيينه.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words لـ .NET
+description: Border Color ملكية. الحصول على لون الحدود أو تعيينه في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/border/color/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/border/color/
 public Color Color { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ### أنظر أيضا
 
 * class [Border](../)
-* مساحة الاسم [Aspose.Words](../../border/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

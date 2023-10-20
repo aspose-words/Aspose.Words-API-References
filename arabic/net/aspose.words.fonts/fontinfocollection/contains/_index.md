@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.Contains
-second_title: Aspose.Words لمراجع .NET API
-description: FontInfoCollection طريقة. يحدد ما إذا كانت المجموعة تحتوي على خط بالاسم المحدد.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words لـ .NET
+description: FontInfoCollection Contains طريقة. يحدد ما إذا كانت المجموعة تحتوي على خط بالاسم المحدد في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fonts/fontinfocollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `حقيقي` إذا تم العثور على العنصر في المجموعة؛ خلاف ذلك،`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يعرض معلومات حول الخطوط الموجودة في المستند الفارغ.
 
@@ -43,7 +45,5 @@ Assert.True(doc.FontInfos.Contains("Arial"));
 ### أنظر أيضا
 
 * class [FontInfoCollection](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontinfocollection/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

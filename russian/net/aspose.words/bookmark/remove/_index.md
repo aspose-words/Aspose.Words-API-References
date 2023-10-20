@@ -1,7 +1,9 @@
 ---
 title: Bookmark.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: Bookmark метод. Удаляет закладку из документа. Не удаляет текст внутри закладки.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: Bookmark Remove метод. Удаляет закладку из документа. Не удаляет текст внутри закладки на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/bookmark/remove/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/bookmark/remove/
 public void Remove()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как удалить закладки из документа.
 
@@ -75,7 +77,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Смотрите также
 
 * class [Bookmark](../)
-* пространство имен [Aspose.Words](../../bookmark/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

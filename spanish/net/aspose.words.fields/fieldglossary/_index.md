@@ -1,7 +1,9 @@
 ---
-title: Class FieldGlossary
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldGlossary clase. Implementa el campo GLOSARIO.
+title: FieldGlossary Class
+linktitle: FieldGlossary
+articleTitle: FieldGlossary
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.FieldGlossary clase. Implementa el campo GLOSARIO en C#.
 type: docs
 weight: 1960
 url: /es/net/aspose.words.fields/fieldglossary/
@@ -43,17 +45,17 @@ public class FieldGlossary : Field
 | Nombre | Descripción |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado del campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Devuelve texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve`nulo` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza la desvinculación del campo. |
 | [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se produce si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Realiza una actualización de campo. Se produce si el campo ya se está actualizando. |
 
-### Observaciones
+## Observaciones
 
 Inserta una entrada del glosario.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo mostrar un bloque de construcción con campos AUTOTEXTO y GLOSARIO.
 
@@ -105,5 +107,3 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 * class [Field](../field/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

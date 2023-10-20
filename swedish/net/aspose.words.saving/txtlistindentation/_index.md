@@ -1,7 +1,9 @@
 ---
-title: Class TxtListIndentation
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.TxtListIndentation klass. Anger hur listnivåer dras in när dokumentet exporteras tillText format.
+title: TxtListIndentation Class
+linktitle: TxtListIndentation
+articleTitle: TxtListIndentation
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.TxtListIndentation klass. Anger hur listnivåer dras in när dokumentet exporteras tillText format i C#.
 type: docs
 weight: 5650
 url: /sv/net/aspose.words.saving/txtlistindentation/
@@ -29,7 +31,7 @@ public class TxtListIndentation
 | [Character](../../aspose.words.saving/txtlistindentation/character/) { get; set; } | Hämtar eller ställer in vilket tecken som ska användas för indragningslistnivåer. Standardvärdet är '\0', det betyder att det inte finns någon indrag. |
 | [Count](../../aspose.words.saving/txtlistindentation/count/) { get; set; } | Hämtar eller ställer in hur många[`Character`](./character/) att använda som indrag per en listnivå. Standardvärdet är 0, det betyder ingen indrag. |
 
-### Exempel
+## Exempel
 
 Visar hur du konfigurerar listindrag när du sparar ett dokument som klartext.
 
@@ -70,5 +72,3 @@ Assert.AreEqual("1. Item 1\r\n" +
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

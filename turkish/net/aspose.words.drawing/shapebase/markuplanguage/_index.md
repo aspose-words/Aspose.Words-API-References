@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.MarkupLanguage
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Bu grafik nesnesi için kullanılan MarkupLanguageı döndürür.
+linktitle: MarkupLanguage
+articleTitle: MarkupLanguage
+second_title: Aspose.Words for .NET
+description: ShapeBase MarkupLanguage mülk. Bu grafik nesnesi için kullanılan MarkupLanguageı döndürür C#'da.
 type: docs
 weight: 390
 url: /tr/net/aspose.words.drawing/shapebase/markuplanguage/
@@ -14,7 +16,7 @@ Bu grafik nesnesi için kullanılan MarkupLanguage'ı döndürür.
 public ShapeMarkupLanguage MarkupLanguage { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şeklin boyutunun ve işaretleme dilinin nasıl doğrulanacağını gösterir.
 
@@ -32,7 +34,5 @@ Assert.AreEqual(new SizeF(300, 300), shape.SizeInPoints);
 
 * enum [ShapeMarkupLanguage](../../shapemarkuplanguage/)
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

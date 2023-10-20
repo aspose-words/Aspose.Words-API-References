@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.LinkToQuery
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeSettings 财产. 对此不确定 Microsoft Word 自动化参考建议这指定每次在 Microsoft Word 中打开文档 时执行查询但 OOXML 规范建议这指定查询包含对包含实际查询的外部查询文件的引用  默认值为错误的.
+linktitle: LinkToQuery
+articleTitle: LinkToQuery
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeSettings LinkToQuery 财产. 对此不确定 Microsoft Word 自动化参考建议这指定每次在 Microsoft Word 中打开文档 时执行查询但 OOXML 规范建议这指定查询包含对包含实际查询的外部查询文件的引用  默认值为错误的 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.settings/mailmergesettings/linktoquery/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/mailmergesettings/linktoquery/
 public bool LinkToQuery { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### 也可以看看
 
 * class [MailMergeSettings](../)
-* 命名空间 [Aspose.Words.Settings](../../mailmergesettings/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

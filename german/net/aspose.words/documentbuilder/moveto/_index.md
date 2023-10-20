@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveTo
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Bewegt den Cursor zu einem InlineKnoten oder zum Ende eines Absatzes.
+linktitle: MoveTo
+articleTitle: MoveTo
+second_title: Aspose.Words für .NET
+description: DocumentBuilder MoveTo methode. Bewegt den Cursor zu einem InlineKnoten oder zum Ende eines Absatzes in C#.
 type: docs
-weight: 490
+weight: 480
 url: /de/net/aspose.words/documentbuilder/moveto/
 ---
 ## DocumentBuilder.MoveTo method
@@ -18,7 +20,7 @@ public void MoveTo(Node node)
 | --- | --- | --- |
 | node | Node | Der Knoten muss ein Absatz oder ein direktes untergeordnetes Element eines Absatzes sein. |
 
-### Bemerkungen
+## Bemerkungen
 
 WannKnoten ist ein Knoten auf Inline-Ebene, der Cursor wird zu diesem Knoten bewegt und weiterer Inhalt wird vor diesem Knoten eingefügt.
 
@@ -26,7 +28,7 @@ WannKnoten ist ein[`Paragraph`](../../paragraph/), wird der Cursor an das Ende d
 
 WannKnoten ist ein Knoten auf Blockebene, aber kein[`Paragraph`](../../paragraph/), wird der Cursor an das Ende des ersten Absatzes in node auf Blockebene verschoben und weiterer Inhalt wird direkt vor dem Absatzumbruch eingefügt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Cursorposition eines DocumentBuilders auf einen angegebenen Knoten verschoben wird.
 
@@ -108,7 +110,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

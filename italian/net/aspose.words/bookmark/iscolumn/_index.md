@@ -1,7 +1,9 @@
 ---
 title: Bookmark.IsColumn
-second_title: Aspose.Words per .NET API Reference
-description: Bookmark proprietà. RestituisceVERO se questo segnalibro è un segnalibro di colonna di tabella.
+linktitle: IsColumn
+articleTitle: IsColumn
+second_title: Aspose.Words per .NET
+description: Bookmark IsColumn proprietà. RestituisceVERO se questo segnalibro è un segnalibro di colonna di tabella in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/bookmark/iscolumn/
@@ -14,7 +16,7 @@ Restituisce`VERO` se questo segnalibro è un segnalibro di colonna di tabella.
 public bool IsColumn { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere informazioni sui segnalibri delle colonne della tabella.
 
@@ -41,7 +43,5 @@ foreach (Bookmark bookmark in doc.Range.Bookmarks)
 ### Guarda anche
 
 * class [Bookmark](../)
-* spazio dei nomi [Aspose.Words](../../bookmark/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.LastChild
-second_title: Aspose.Words for .NET API 参考
-description: CompositeNode 财产. 获取节点的最后一个子节点
+linktitle: LastChild
+articleTitle: LastChild
+second_title: 用于 .NET 的 Aspose.Words
+description: CompositeNode LastChild 财产. 获取节点的最后一个子节点 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/compositenode/lastchild/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/compositenode/lastchild/
 public Node LastChild { get; }
 ```
 
-### 评论
+## 评论
 
 如果没有最后一个子节点，则`无效的`返回。
 
-### 例子
+## 例子
 
 演示如何使用 Node 和 CompositeNode 的方法删除文档中最后一部分之前的部分。
 
@@ -46,7 +48,5 @@ Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* 命名空间 [Aspose.Words](../../compositenode/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

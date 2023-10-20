@@ -1,7 +1,9 @@
 ---
 title: CustomDocumentProperties.AddLinkToContent
-second_title: Aspose.Words för .NET API Referens
-description: CustomDocumentProperties metod. Skapar en ny länkad till innehåll anpassad dokumentegenskap.
+linktitle: AddLinkToContent
+articleTitle: AddLinkToContent
+second_title: Aspose.Words för .NET
+description: CustomDocumentProperties AddLinkToContent metod. Skapar en ny länkad till innehåll anpassad dokumentegenskap i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.properties/customdocumentproperties/addlinktocontent/
@@ -23,7 +25,7 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 
 Det nyskapade egenskapsobjektet eller`null` när*linkSource* är ogiltig.
 
-### Exempel
+## Exempel
 
 Visar hur man länkar en anpassad dokumentegenskap till ett bokmärke.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 
 * class [DocumentProperty](../../documentproperty/)
 * class [CustomDocumentProperties](../)
-* namnutrymme [Aspose.Words.Properties](../../customdocumentproperties/)
+* namnutrymme [Aspose.Words.Properties](../../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../../)
-
-

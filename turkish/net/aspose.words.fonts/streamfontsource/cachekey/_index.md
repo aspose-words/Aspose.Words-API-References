@@ -1,7 +1,9 @@
 ---
 title: StreamFontSource.CacheKey
-second_title: Aspose.Words for .NET API Referansı
-description: StreamFontSource mülk. Bu kaynağın önbellekteki anahtarı.
+linktitle: CacheKey
+articleTitle: CacheKey
+second_title: Aspose.Words for .NET
+description: StreamFontSource CacheKey mülk. Bu kaynağın önbellekteki anahtarı C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fonts/streamfontsource/cachekey/
@@ -14,14 +16,12 @@ Bu kaynağın önbellekteki anahtarı.
 public string CacheKey { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu anahtar, yazı tipi arama önbelleğini ile kaydederken/yüklerken önbellek öğesini tanımlamak için kullanılır[`SaveSearchCache`](../../fontsettings/savesearchcache/) Ve[`SetFontsSources`](../../fontsettings/setfontssources/)yöntemler.
 
 ### Ayrıca bakınız
 
 * class [StreamFontSource](../)
-* ad alanı [Aspose.Words.Fonts](../../streamfontsource/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

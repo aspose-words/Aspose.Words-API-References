@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportPageMargins
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает экспортируются ли поля страницы в HTML MHTML или EPUB. Значение по умолчаниюЛОЖЬ .
+linktitle: ExportPageMargins
+articleTitle: ExportPageMargins
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ExportPageMargins свойство. Указывает экспортируются ли поля страницы в HTML MHTML или EPUB. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 210
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
 public bool ExportPageMargins { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Aspose.Words по умолчанию не отображает область полей страницы. Если какие-либо элементы полностью или частично обрезаны краем документа, отображаемую область можно расширить с помощью этой опции.
 
-### Примеры
+## Примеры
 
 Показывает, как отображать объекты, находящиеся за пределами границ, в выходных HTML-документах.
 
@@ -63,7 +65,5 @@ else
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

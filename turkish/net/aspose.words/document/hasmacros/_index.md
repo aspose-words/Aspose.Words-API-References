@@ -1,7 +1,9 @@
 ---
 title: Document.HasMacros
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. İadelerdoğru belgede bir VBA projesi makrolar varsa.
+linktitle: HasMacros
+articleTitle: HasMacros
+second_title: Aspose.Words for .NET
+description: Document HasMacros mülk. İadelerdoğru belgede bir VBA projesi makrolar varsa C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words/document/hasmacros/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/document/hasmacros/
 public bool HasMacros { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tıklayarak bir belgenin makrolarını çalıştırmamıza izin vermek için MACROBUTTON alanlarının nasıl kullanılacağını gösterir.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 
 * method [RemoveMacros](../removemacros/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldRef.BookmarkName
-second_title: Aspose.Words för .NET API Referens
-description: FieldRef fast egendom. Hämtar eller ställer in det refererade bokmärkets namn.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words för .NET
+description: FieldRef BookmarkName fast egendom. Hämtar eller ställer in det refererade bokmärkets namn i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldref/bookmarkname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in det refererade bokmärkets namn.
 public string BookmarkName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar bokmärkt text med ett SET-fält och sedan visar det i dokumentet med ett REF-fält.
 
@@ -130,7 +132,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Se även
 
 * class [FieldRef](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldref/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

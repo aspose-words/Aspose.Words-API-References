@@ -1,7 +1,9 @@
 ---
 title: Font.Engrave
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Sant om teckensnittet är formaterat som graverat.
+linktitle: Engrave
+articleTitle: Engrave
+second_title: Aspose.Words för .NET
+description: Font Engrave fast egendom. Sant om teckensnittet är formaterat som graverat i C#.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/font/engrave/
@@ -14,7 +16,7 @@ Sant om teckensnittet är formaterat som graverat.
 public bool Engrave { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man applicerar gravyr-/präglingseffekter på text.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.EngraveEmboss.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

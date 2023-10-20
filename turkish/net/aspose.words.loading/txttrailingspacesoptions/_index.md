@@ -1,7 +1,9 @@
 ---
-title: Enum TxtTrailingSpacesOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.TxtTrailingSpacesOptions Sıralama. Şuradan içe aktarma sırasında sondaki boşlukların işlenmesi için mevcut seçenekleri belirtirText dosya.
+title: TxtTrailingSpacesOptions Enum
+linktitle: TxtTrailingSpacesOptions
+articleTitle: TxtTrailingSpacesOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Loading.TxtTrailingSpacesOptions Sıralama. Şuradan içe aktarma sırasında sondaki boşlukların işlenmesi için mevcut seçenekleri belirtirText dosya C#'da.
 type: docs
 weight: 3740
 url: /tr/net/aspose.words.loading/txttrailingspacesoptions/
@@ -21,7 +23,7 @@ public enum TxtTrailingSpacesOptions
 | Trim | `0` |  |
 | Preserve | `1` |  |
 
-### Örnekler
+## Örnekler
 
 Düz metin belgeleri yüklerken boşlukların nasıl kırpılacağını gösterir.
 
@@ -98,5 +100,3 @@ switch (txtTrailingSpacesOptions)
 
 * ad alanı [Aspose.Words.Loading](../../aspose.words.loading/)
 * toplantı [Aspose.Words](../../)
-
-

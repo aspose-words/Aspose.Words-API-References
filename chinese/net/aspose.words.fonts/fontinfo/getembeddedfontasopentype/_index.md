@@ -1,7 +1,9 @@
 ---
 title: FontInfo.GetEmbeddedFontAsOpenType
-second_title: Aspose.Words for .NET API 参考
-description: FontInfo 方法. 获取 OpenType 格式的嵌入字体文件嵌入式 OpenType 格式的字体将转换为 OpenType.
+linktitle: GetEmbeddedFontAsOpenType
+articleTitle: GetEmbeddedFontAsOpenType
+second_title: 用于 .NET 的 Aspose.Words
+description: FontInfo GetEmbeddedFontAsOpenType 方法. 获取 OpenType 格式的嵌入字体文件嵌入式 OpenType 格式的字体将转换为 OpenType 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.fonts/fontinfo/getembeddedfontasopentype/
@@ -22,7 +24,7 @@ public byte[] GetEmbeddedFontAsOpenType(EmbeddedFontStyle style)
 
 退货`无效的`如果未嵌入指定的字体。
 
-### 例子
+## 例子
 
 演示如何从文档中提取嵌入字体，并将其保存到本地文件系统。
 
@@ -50,7 +52,5 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * enum [EmbeddedFontStyle](../../embeddedfontstyle/)
 * class [FontInfo](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontinfo/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

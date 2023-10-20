@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageStream
-second_title: Aspose.Words per .NET API Reference
-description: PageSavingArgs proprietà. Permette di specificare lo stream in cui verrà salvata la pagina del documento.
+linktitle: PageStream
+articleTitle: PageStream
+second_title: Aspose.Words per .NET
+description: PageSavingArgs PageStream proprietà. Permette di specificare lo stream in cui verrà salvata la pagina del documento in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/pagesavingargs/pagestream/
@@ -14,7 +16,7 @@ Permette di specificare lo stream in cui verrà salvata la pagina del documento.
 public Stream PageStream { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà consente di salvare le pagine del documento in flussi anziché in file.
 
@@ -22,7 +24,7 @@ Il valore predefinito è`nullo` . Quando questa proprietà è`nullo` , la pagina
 
 Se entrambi`PageStream` E[`PageFileName`](../pagefilename/) sono impostati, verrà utilizzato PageStream.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un callback per salvare un documento in HTML pagina per pagina.
 
@@ -79,7 +81,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Guarda anche
 
 * class [PageSavingArgs](../)
-* spazio dei nomi [Aspose.Words.Saving](../../pagesavingargs/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

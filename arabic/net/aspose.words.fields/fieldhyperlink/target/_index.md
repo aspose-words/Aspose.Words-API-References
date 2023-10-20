@@ -1,7 +1,9 @@
 ---
 title: FieldHyperlink.Target
-second_title: Aspose.Words لمراجع .NET API
-description: FieldHyperlink ملكية. الحصول على أو تعيين الهدف الذي يجب إعادة توجيه الارتباط إليه.
+linktitle: Target
+articleTitle: Target
+second_title: Aspose.Words لـ .NET
+description: FieldHyperlink Target ملكية. الحصول على أو تعيين الهدف الذي يجب إعادة توجيه الارتباط إليه في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldhyperlink/target/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldhyperlink/target/
 public string Target { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول HYPERLINK للارتباط بالمستندات الموجودة في نظام الملفات المحلي.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 ### أنظر أيضا
 
 * class [FieldHyperlink](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldhyperlink/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

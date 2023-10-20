@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.BookmarkName
-second_title: Aspose.Words per .NET API Reference
-description: FieldSeq proprietà. Ottiene o imposta il nome di un segnalibro che fa riferimento a un elemento altrove nel documento anziché nella posizione corrente.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words per .NET
+description: FieldSeq BookmarkName proprietà. Ottiene o imposta il nome di un segnalibro che fa riferimento a un elemento altrove nel documento anziché nella posizione corrente in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldseq/bookmarkname/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome di un segnalibro che fa riferimento a un elemento altr
 public string BookmarkName { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come combinare il sommario e i campi sequenza.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.Bookmark.docx");
 ### Guarda anche
 
 * class [FieldSeq](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldseq/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

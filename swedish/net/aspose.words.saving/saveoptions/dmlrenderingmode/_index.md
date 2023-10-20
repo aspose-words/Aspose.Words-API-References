@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.DmlRenderingMode
-second_title: Aspose.Words för .NET API Referens
-description: SaveOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer hur DrawingMLformer renderas.
+linktitle: DmlRenderingMode
+articleTitle: DmlRenderingMode
+second_title: Aspose.Words för .NET
+description: SaveOptions DmlRenderingMode fast egendom. Hämtar eller ställer in ett värde som bestämmer hur DrawingMLformer renderas i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.saving/saveoptions/dmlrenderingmode/
@@ -14,13 +16,13 @@ Hämtar eller ställer in ett värde som bestämmer hur DrawingML-former rendera
 public DmlRenderingMode DmlRenderingMode { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärFallback .
 
 Den här egenskapen används när dokumentet exporteras till fasta sidformat.
 
-### Exempel
+## Exempel
 
 Visar hur man renderar reservformer när man sparar till PDF.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * enum [DmlRenderingMode](../../dmlrenderingmode/)
 * class [SaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../saveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

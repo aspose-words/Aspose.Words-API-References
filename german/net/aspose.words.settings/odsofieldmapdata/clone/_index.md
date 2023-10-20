@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Clone
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoFieldMapData methode. Gibt einen tiefen Klon dieses Objekts zurück.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words für .NET
+description: OdsoFieldMapData Clone methode. Gibt einen tiefen Klon dieses Objekts zurück in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.settings/odsofieldmapdata/clone/
@@ -14,7 +16,7 @@ Gibt einen tiefen Klon dieses Objekts zurück.
 public OdsoFieldMapData Clone()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Briefvorlagenfeldern zuordnet.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Siehe auch
 
 * class [OdsoFieldMapData](../)
-* namensraum [Aspose.Words.Settings](../../odsofieldmapdata/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

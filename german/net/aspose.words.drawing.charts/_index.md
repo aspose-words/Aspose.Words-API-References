@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Drawing.Charts
-second_title: Aspose.Words für .NET-API-Referenz
-description: Der Aspose.Words.Drawing.Charts Der Namespace stellt Klassen bereit die den Zugriff auf Diagramme in Microsoft WordDokumenten ermöglichen.
+linktitle: Aspose.Words.Drawing.Charts
+articleTitle: Aspose.Words.Drawing.Charts
+second_title: Aspose.Words für .NET
+description: DerAspose.Words.Drawing.Charts Der Namespace stellt Klassen bereit die den Zugriff auf Diagramme in Microsoft WordDokumenten ermöglichen in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing.charts/
 ---
-Der **Aspose.Words.Drawing.Charts** Der Namespace stellt Klassen bereit, die den Zugriff auf Diagramme in Microsoft Word-Dokumenten ermöglichen.
+Der**Aspose.Words.Drawing.Charts** Der Namespace stellt Klassen bereit, die den Zugriff auf Diagramme in Microsoft Word-Dokumenten ermöglichen.
 
 ## Klassen
 
@@ -62,5 +64,3 @@ Der **Aspose.Words.Drawing.Charts** Der Namespace stellt Klassen bereit, die den
 | [ChartYValueType](./chartyvaluetype/) | Ermöglicht die Angabe des Typs eines Y-Werts einer Diagrammreihe. |
 | [LegendPosition](./legendposition/) | Gibt die möglichen Positionen für eine Diagrammlegende an. |
 | [MarkerSymbol](./markersymbol/) | Gibt den Markierungssymbolstil an. |
-
-

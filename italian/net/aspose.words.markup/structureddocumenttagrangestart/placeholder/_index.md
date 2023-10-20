@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.Placeholder
-second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart proprietà. Ottiene il fileBuildingBlockcontenente testo segnaposto che dovrebbe essere visualizzato quando i contenuti di questa esecuzione del tag del documento strutturato sono vuoti lelemento XML mappato associato è vuoto come specificato tramiteXmlMapping elemento o ilIsShowingPlaceholderText lelemento èVERO .
+linktitle: Placeholder
+articleTitle: Placeholder
+second_title: Aspose.Words per .NET
+description: StructuredDocumentTagRangeStart Placeholder proprietà. Ottiene il fileBuildingBlockcontenente testo segnaposto che dovrebbe essere visualizzato quando i contenuti di questa esecuzione del tag del documento strutturato sono vuoti lelemento XML mappato associato è vuoto come specificato tramiteXmlMapping elemento o ilIsShowingPlaceholderText lelemento èVERO  in C#.
 type: docs
 weight: 110
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/placeholder/
@@ -14,7 +16,7 @@ Ottiene il file[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingbl
 public BuildingBlock Placeholder { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Può essere`nullo`, il che significa che il segnaposto non è applicabile per questo tag di documento strutturato.
 
@@ -22,7 +24,5 @@ Può essere`nullo`, il che significa che il segnaposto non è applicabile per qu
 
 * class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * class [StructuredDocumentTagRangeStart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

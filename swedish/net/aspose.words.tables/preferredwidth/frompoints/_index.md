@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.FromPoints
-second_title: Aspose.Words för .NET API Referens
-description: PreferredWidth metod. En skapandemetod som returnerar en ny instans som representerar en föredragen bredd som anges med ett antal punkter.
+linktitle: FromPoints
+articleTitle: FromPoints
+second_title: Aspose.Words för .NET
+description: PreferredWidth FromPoints metod. En skapandemetod som returnerar en ny instans som representerar en föredragen bredd som anges med ett antal punkter i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.tables/preferredwidth/frompoints/
@@ -18,7 +20,7 @@ public static PreferredWidth FromPoints(double points)
 | --- | --- | --- |
 | points | Double | Värdet måste vara från 0 till 22 tum (22 * 72 poäng). |
 
-### Exempel
+## Exempel
 
 Visar hur du använder enhetskonverteringsverktyg samtidigt som du anger en önskad bredd för en cell.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Se även
 
 * class [PreferredWidth](../)
-* namnutrymme [Aspose.Words.Tables](../../preferredwidth/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

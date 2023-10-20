@@ -1,7 +1,9 @@
 ---
 title: FieldSubject.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSubject eigendom. Ruft den Text des Betreffs ab oder legt ihn fest.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: FieldSubject Text eigendom. Ruft den Text des Betreffs ab oder legt ihn fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldsubject/text/
@@ -14,7 +16,7 @@ Ruft den Text des Betreffs ab oder legt ihn fest.
 public string Text { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Feld SUBJECT verwendet wird.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "Field.SUBJECT.docx");
 ### Siehe auch
 
 * class [FieldSubject](../)
-* namensraum [Aspose.Words.Fields](../../fieldsubject/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

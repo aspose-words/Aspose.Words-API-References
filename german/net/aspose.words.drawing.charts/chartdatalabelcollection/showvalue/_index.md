@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowValue
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabelCollection eigendom. Ermöglicht die Angabe ob Werte in den Datenbeschriftungen der gesamten Serie angezeigt werden sollen. Der Standardwert istFALSCH .
+linktitle: ShowValue
+articleTitle: ShowValue
+second_title: Aspose.Words für .NET
+description: ChartDataLabelCollection ShowValue eigendom. Ermöglicht die Angabe ob Werte in den Datenbeschriftungen der gesamten Serie angezeigt werden sollen. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/
@@ -14,11 +16,11 @@ Ermöglicht die Angabe, ob Werte in den Datenbeschriftungen der gesamten Serie a
 public bool ShowValue { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der für diese Eigenschaft definierte Wert kann für eine einzelne Datenbeschriftung mithilfe von überschrieben werden.[`ShowValue`](../../chartdatalabel/showvalue/) Eigenschaft.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenbeschriftungen eines Kreisdiagramms gearbeitet wird.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Siehe auch
 
 * class [ChartDataLabelCollection](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

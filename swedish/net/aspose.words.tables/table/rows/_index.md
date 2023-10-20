@@ -1,7 +1,9 @@
 ---
 title: Table.Rows
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Ger maskinskriven åtkomst till raderna i tabellen.
+linktitle: Rows
+articleTitle: Rows
+second_title: Aspose.Words för .NET
+description: Table Rows fast egendom. Ger maskinskriven åtkomst till raderna i tabellen i C#.
 type: docs
 weight: 260
 url: /sv/net/aspose.words.tables/table/rows/
@@ -14,7 +16,7 @@ Ger maskinskriven åtkomst till raderna i tabellen.
 public RowCollection Rows { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kombinerar raderna från två tabeller till en.
 
@@ -83,7 +85,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [RowCollection](../../rowcollection/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

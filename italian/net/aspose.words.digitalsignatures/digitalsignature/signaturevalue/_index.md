@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.SignatureValue
-second_title: Aspose.Words per .NET API Reference
-description: DigitalSignature proprietà. Ottiene un array di byte che rappresenta un valore di firma.
+linktitle: SignatureValue
+articleTitle: SignatureValue
+second_title: Aspose.Words per .NET
+description: DigitalSignature SignatureValue proprietà. Ottiene un array di byte che rappresenta un valore di firma in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
@@ -14,7 +16,7 @@ Ottiene un array di byte che rappresenta un valore di firma.
 public byte[] SignatureValue { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come ottenere un valore di firma digitale da un documento firmato digitalmente.
 
@@ -33,7 +35,5 @@ foreach (DigitalSignature digitalSignature in doc.DigitalSignatures)
 ### Guarda anche
 
 * class [DigitalSignature](../)
-* spazio dei nomi [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* spazio dei nomi [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: JsonDataLoadOptions.ExactDateTimeParseFormats
-second_title: Referencia de API de Aspose.Words para .NET
-description: JsonDataLoadOptions propiedad. Obtiene o establece formatos exactos para analizar valores de fecha y hora JSON mientras se carga JSON. El valor predeterminado esnulo .
+linktitle: ExactDateTimeParseFormats
+articleTitle: ExactDateTimeParseFormats
+second_title: Aspose.Words para .NET
+description: JsonDataLoadOptions ExactDateTimeParseFormats propiedad. Obtiene o establece formatos exactos para analizar valores de fecha y hora JSON mientras se carga JSON. El valor predeterminado esnulo  en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats/
@@ -14,7 +16,7 @@ Obtiene o establece formatos exactos para analizar valores de fecha y hora JSON 
 public IEnumerable<string> ExactDateTimeParseFormats { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Las cadenas codificadas con el formato de fecha y hora JSON de Microsoft® (por ejemplo, "/Fecha(1224043200000)/") siempre se reconocen como valores de fecha y hora independientemente del valor de esta propiedad. La propiedad define formatos adicionales que se utilizarán al analizar valores de fecha y hora de cadenas de la siguiente manera:
 
@@ -25,7 +27,5 @@ Las cadenas codificadas con el formato de fecha y hora JSON de Microsoft® (por 
 ### Ver también
 
 * class [JsonDataLoadOptions](../)
-* espacio de nombres [Aspose.Words.Reporting](../../jsondataloadoptions/)
+* espacio de nombres [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * asamblea [Aspose.Words](../../../)
-
-

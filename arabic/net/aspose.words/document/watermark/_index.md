@@ -1,7 +1,9 @@
 ---
 title: Document.Watermark
-second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. يوفر الوصول إلى العلامة المائية للمستند.
+linktitle: Watermark
+articleTitle: Watermark
+second_title: Aspose.Words لـ .NET
+description: Document Watermark ملكية. يوفر الوصول إلى العلامة المائية للمستند في C#.
 type: docs
 weight: 480
 url: /ar/net/aspose.words/document/watermark/
@@ -18,7 +20,5 @@ public Watermark Watermark { get; }
 
 * class [Watermark](../../watermark/)
 * class [Document](../)
-* مساحة الاسم [Aspose.Words](../../document/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

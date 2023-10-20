@@ -1,7 +1,9 @@
 ---
 title: CellFormat.FitText
-second_title: Aspose.Words för .NET API Referens
-description: CellFormat fast egendom. OmSann  passar text i cellen komprimerar varje stycke till cellens bredd.
+linktitle: FitText
+articleTitle: FitText
+second_title: Aspose.Words för .NET
+description: CellFormat FitText fast egendom. OmSann  passar text i cellen komprimerar varje stycke till cellens bredd i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.tables/cellformat/fittext/
@@ -14,7 +16,7 @@ Om`Sann` , passar text i cellen, komprimerar varje stycke till cellens bredd.
 public bool FitText { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bygger en tabell med anpassade ramar.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Se även
 
 * class [CellFormat](../)
-* namnutrymme [Aspose.Words.Tables](../../cellformat/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

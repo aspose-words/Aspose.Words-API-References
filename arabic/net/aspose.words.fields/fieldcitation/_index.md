@@ -1,7 +1,9 @@
 ---
-title: Class FieldCitation
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldCitation فصل. ينفذ حقل CITATION.
+title: FieldCitation Class
+linktitle: FieldCitation
+articleTitle: FieldCitation
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldCitation فصل. ينفذ حقل CITATION في C#.
 type: docs
 weight: 1680
 url: /ar/net/aspose.words.fields/fieldcitation/
@@ -26,7 +28,7 @@ public class FieldCitation : Field
 
 | اسم | وصف |
 | --- | --- |
-| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | الحصول على أو تعيين قيمة تطابق **بطاقة شعار** قيمة العنصر لمصدر آخر ليتم تضمينه في الاقتباس. |
+| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | الحصول على أو تعيين قيمة تطابق**بطاقة شعار** قيمة العنصر لمصدر آخر ليتم تضمينه في الاقتباس. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
 | [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
@@ -38,7 +40,7 @@ public class FieldCitation : Field
 | [Prefix](../../aspose.words.fields/fieldcitation/prefix/) { get; set; } | الحصول على أو تعيين بادئة مُلحقة بالاقتباس. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
 | [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
-| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | الحصول على أو تعيين قيمة تطابق **بطاقة شعار** قيمة العنصر للمصدر المراد إدراجه. |
+| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | الحصول على أو تعيين قيمة تطابق**بطاقة شعار** قيمة العنصر للمصدر المراد إدراجه. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
 | [Suffix](../../aspose.words.fields/fieldcitation/suffix/) { get; set; } | الحصول على أو تعيين اللاحقة الملحقة بالاقتباس. |
 | [SuppressAuthor](../../aspose.words.fields/fieldcitation/suppressauthor/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم حذف معلومات المؤلف من الاقتباس. |
@@ -52,17 +54,17 @@ public class FieldCitation : Field
 | اسم | وصف |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
 | [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
 | [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
-### ملاحظات
+## ملاحظات
 
-يقوم بإدراج محتويات الملف **مصدر** عنصر مع المحدد **بطاقة شعار** عنصر باستخدام النمط الببليوغرافي.
+يقوم بإدراج محتويات الملف**مصدر** عنصر مع المحدد**بطاقة شعار** عنصر باستخدام النمط الببليوغرافي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع حقول CITATION وBIBLIOGRAPHY.
 
@@ -118,5 +120,3 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 * class [Field](../field/)
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

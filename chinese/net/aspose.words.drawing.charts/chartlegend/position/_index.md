@@ -1,7 +1,9 @@
 ---
 title: ChartLegend.Position
-second_title: Aspose.Words for .NET API 参考
-description: ChartLegend 财产. 指定图例在图表上的位置 默认值为Right.
+linktitle: Position
+articleTitle: Position
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartLegend Position 财产. 指定图例在图表上的位置 默认值为Right 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartlegend/position/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartlegend/position/
 public LegendPosition Position { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何编辑图表图例的外观。
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * enum [LegendPosition](../../legendposition/)
 * class [ChartLegend](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartlegend/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

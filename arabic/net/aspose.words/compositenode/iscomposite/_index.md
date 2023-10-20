@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.IsComposite
-second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode ملكية. إرجاعحقيقي لأن هذه العقدة يمكن أن تحتوي على عقد فرعية.
+linktitle: IsComposite
+articleTitle: IsComposite
+second_title: Aspose.Words لـ .NET
+description: CompositeNode IsComposite ملكية. إرجاعحقيقي لأن هذه العقدة يمكن أن تحتوي على عقد فرعية في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/compositenode/iscomposite/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/compositenode/iscomposite/
 public override bool IsComposite { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -61,7 +63,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### أنظر أيضا
 
 * class [CompositeNode](../)
-* مساحة الاسم [Aspose.Words](../../compositenode/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ListFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Lists.ListFormat klas. Ermöglicht die Steuerung welche Listenformatierung auf einen Absatz angewendet wird.
+title: ListFormat Class
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Lists.ListFormat klas. Ermöglicht die Steuerung welche Listenformatierung auf einen Absatz angewendet wird in C#.
 type: docs
 weight: 3480
 url: /de/net/aspose.words.lists/listformat/
@@ -35,7 +37,7 @@ public class ListFormat
 | [ListOutdent](../../aspose.words.lists/listformat/listoutdent/)() | Verringert die Listenebene des aktuellen Absatzes um eine Ebene. |
 | [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers/)() | Entfernt Zahlen oder Aufzählungszeichen aus dem aktuellen Absatz und setzt die Listenebene auf Null. |
 
-### Bemerkungen
+## Bemerkungen
 
 Ein Absatz in einem Microsoft Word-Dokument kann mit Aufzählungszeichen oder Nummerierung versehen sein. Wenn ein Absatz mit Aufzählungszeichen oder Nummerierung versehen ist, spricht man von einer Listenformatierung , die auf den Absatz angewendet wird.
 
@@ -51,7 +53,7 @@ Die Listenformatierung selbst wird in a gespeichert[`List`](../list/) -Objekt, d
 
 Die Absätze gehören physisch nicht zu einer Liste. Die Absätze just verweisen über das auf ein bestimmtes Listenobjekt[`List`](./list/) property und eine bestimmte Ebene in der Liste über die[`ListLevelNumber`](./listlevelnumber/) property. Durch Festlegen dieser beiden Eigenschaften steuern Sie, welche Aufzählungszeichen und Nummerierungen auf einen Absatz angewendet werden.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Listenebenen gearbeitet wird.
 
@@ -105,5 +107,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * namensraum [Aspose.Words.Lists](../../aspose.words.lists/)
 * Montage [Aspose.Words](../../)
-
-

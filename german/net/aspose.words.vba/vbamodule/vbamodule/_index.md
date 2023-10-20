@@ -1,7 +1,9 @@
 ---
-title: VbaModule.VbaModule
-second_title: Aspose.Words für .NET-API-Referenz
-description: VbaModule constructeur. Erstellt ein leeres Modul.
+title: VbaModule
+linktitle: VbaModule
+articleTitle: VbaModule
+second_title: Aspose.Words für .NET
+description: VbaModule constructeur. Erstellt ein leeres Modul in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.vba/vbamodule/vbamodule/
@@ -14,7 +16,7 @@ Erstellt ein leeres Modul.
 public VbaModule()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein VBA-Projekt mithilfe von Makros erstellt.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 ### Siehe auch
 
 * class [VbaModule](../)
-* namensraum [Aspose.Words.Vba](../../vbamodule/)
+* namensraum [Aspose.Words.Vba](../../../aspose.words.vba/)
 * Montage [Aspose.Words](../../../)
-
-

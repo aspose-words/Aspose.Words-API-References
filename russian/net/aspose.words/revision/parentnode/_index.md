@@ -1,7 +1,9 @@
 ---
 title: Revision.ParentNode
-second_title: Справочник по API Aspose.Words для .NET
-description: Revision свойство. Получает непосредственный родительский узел владелец этой ревизии. Это свойство будет работать для любого типа ревизии кромеStyleDefinitionChange .
+linktitle: ParentNode
+articleTitle: ParentNode
+second_title: Aspose.Words для .NET
+description: Revision ParentNode свойство. Получает непосредственный родительский узел владелец этой ревизии. Это свойство будет работать для любого типа ревизии кромеStyleDefinitionChange  на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/revision/parentnode/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/revision/parentnode/
 public Node ParentNode { get; }
 ```
 
-### Примечания
+## Примечания
 
 Если эта версия относится к изменению форматирования стиля, используйте[`ParentStyle`](../parentstyle/) вместо этого.
 
-### Примеры
+## Примеры
 
 Показывает, как определить тип редакции встроенного узла.
 
@@ -75,7 +77,5 @@ Assert.IsTrue(runs[5].IsDeleteRevision);
 
 * class [Node](../../node/)
 * class [Revision](../)
-* пространство имен [Aspose.Words](../../revision/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

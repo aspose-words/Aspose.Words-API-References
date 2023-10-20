@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.KeepOriginalFontMetrics
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutOptions свойство. Получает или задает указание того следует ли использовать исходные метрики шрифта после замены шрифта. Значение по умолчаниюистинный .
+linktitle: KeepOriginalFontMetrics
+articleTitle: KeepOriginalFontMetrics
+second_title: Aspose.Words для .NET
+description: LayoutOptions KeepOriginalFontMetrics свойство. Получает или задает указание того следует ли использовать исходные метрики шрифта после замены шрифта. Значение по умолчаниюистинный  на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.layout/layoutoptions/keeporiginalfontmetrics/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/layoutoptions/keeporiginalfontmetrics/
 public bool KeepOriginalFontMetrics { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### Смотрите также
 
 * class [LayoutOptions](../)
-* пространство имен [Aspose.Words.Layout](../../layoutoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.FontFileName
-second_title: Referencia de API de Aspose.Words para .NET
-description: FontSavingArgs propiedad. Obtiene o establece el nombre del archivo sin ruta donde se guardará la fuente.
+linktitle: FontFileName
+articleTitle: FontFileName
+second_title: Aspose.Words para .NET
+description: FontSavingArgs FontFileName propiedad. Obtiene o establece el nombre del archivo sin ruta donde se guardará la fuente en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/fontsavingargs/fontfilename/
@@ -14,7 +16,7 @@ Obtiene o establece el nombre del archivo (sin ruta) donde se guardará la fuent
 public string FontFileName { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Esta propiedad le permite redefinir cómo se generan los nombres de los archivos de fuentes durante la exportación a HTML.
 
@@ -28,7 +30,7 @@ Al guardar un documento en una secuencia, el nombre del archivo de fuente genera
 
 `FontFileName` debe contener solo el nombre del archivo sin la ruta. Aspose.Words determina la ruta para guardar usando el nombre del archivo del documento, el[`FontsFolder`](../../htmlsaveoptions/fontsfolder/) y [`FontsFolderAlias`](../../htmlsaveoptions/fontsfolderalias/) propiedades.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
 
@@ -88,7 +90,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Ver también
 
 * class [FontSavingArgs](../)
-* espacio de nombres [Aspose.Words.Saving](../../fontsavingargs/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

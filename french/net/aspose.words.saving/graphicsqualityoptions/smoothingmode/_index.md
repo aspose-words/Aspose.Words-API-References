@@ -1,7 +1,9 @@
 ---
 title: GraphicsQualityOptions.SmoothingMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GraphicsQualityOptions propriété. Obtient ou définit la qualité de rendu pour ce Graphics.
+linktitle: SmoothingMode
+articleTitle: SmoothingMode
+second_title: Aspose.Words pour .NET
+description: GraphicsQualityOptions SmoothingMode propriété. Obtient ou définit la qualité de rendu pour ce Graphics en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/graphicsqualityoptions/smoothingmode/
@@ -14,7 +16,7 @@ Obtient ou définit la qualité de rendu pour ce Graphics.
 public SmoothingMode? SmoothingMode { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir les options de qualité de rendu lors de la conversion de documents aux formats d'image.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
 ### Voir également
 
 * class [GraphicsQualityOptions](../)
-* espace de noms [Aspose.Words.Saving](../../graphicsqualityoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

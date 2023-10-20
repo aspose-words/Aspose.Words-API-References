@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.VerticalAlignment
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Especifica cómo se coloca la forma verticalmente.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words para .NET
+description: ShapeBase VerticalAlignment propiedad. Especifica cómo se coloca la forma verticalmente en C#.
 type: docs
 weight: 560
 url: /es/net/aspose.words.drawing/shapebase/verticalalignment/
@@ -14,13 +16,13 @@ Especifica cómo se coloca la forma verticalmente.
 public VerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado esNone.
 
 Tiene efecto sólo para formas flotantes de nivel superior.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una imagen flotante en el centro de una página.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 * enum [VerticalAlignment](../../verticalalignment/)
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

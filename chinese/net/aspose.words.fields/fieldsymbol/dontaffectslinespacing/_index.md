@@ -1,7 +1,9 @@
 ---
 title: FieldSymbol.DontAffectsLineSpacing
-second_title: Aspose.Words for .NET API 参考
-description: FieldSymbol 财产. 获取或设置字段检索的字符是否影响段落的行距
+linktitle: DontAffectsLineSpacing
+articleTitle: DontAffectsLineSpacing
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldSymbol DontAffectsLineSpacing 财产. 获取或设置字段检索的字符是否影响段落的行距 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldsymbol/dontaffectslinespacing/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldsymbol/dontaffectslinespacing/
 public bool DontAffectsLineSpacing { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何使用 SYMBOL 字段。
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### 也可以看看
 
 * class [FieldSymbol](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldsymbol/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

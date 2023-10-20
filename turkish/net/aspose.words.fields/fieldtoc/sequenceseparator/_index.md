@@ -1,7 +1,9 @@
 ---
 title: FieldToc.SequenceSeparator
-second_title: Aspose.Words for .NET API Referansı
-description: FieldToc mülk. Sıra numaralarını ve sayfa numaralarını ayırmak için kullanılan karakter sırasını alır veya ayarlar.
+linktitle: SequenceSeparator
+articleTitle: SequenceSeparator
+second_title: Aspose.Words for .NET
+description: FieldToc SequenceSeparator mülk. Sıra numaralarını ve sayfa numaralarını ayırmak için kullanılan karakter sırasını alır veya ayarlar C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.fields/fieldtoc/sequenceseparator/
@@ -14,7 +16,7 @@ Sıra numaralarını ve sayfa numaralarını ayırmak için kullanılan karakter
 public string SequenceSeparator { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir TOC alanının SEQ alanlarını kullanarak girişlerle nasıl doldurulacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 ### Ayrıca bakınız
 
 * class [FieldToc](../)
-* ad alanı [Aspose.Words.Fields](../../fieldtoc/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

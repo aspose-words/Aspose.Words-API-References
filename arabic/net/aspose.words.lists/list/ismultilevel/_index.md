@@ -1,7 +1,9 @@
 ---
 title: List.IsMultiLevel
-second_title: Aspose.Words لمراجع .NET API
-description: List ملكية. إرجاعحقيقي عندما تحتوي القائمة على 9 مستوياتخطأ شنيع عندما يكون المستوى 1.
+linktitle: IsMultiLevel
+articleTitle: IsMultiLevel
+second_title: Aspose.Words لـ .NET
+description: List IsMultiLevel ملكية. إرجاعحقيقي عندما تحتوي القائمة على 9 مستوياتخطأ شنيع عندما يكون المستوى 1 في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.lists/list/ismultilevel/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.lists/list/ismultilevel/
 public bool IsMultiLevel { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القوائم التي تقوم بإنشائها باستخدام Aspose.Words هي دائمًا قوائم متعددة المستويات وتحتوي على 9 مستويات.
 
 يقوم Microsoft Word 2003 والإصدارات الأحدث دائمًا بإنشاء قوائم متعددة المستويات تحتوي على 9 مستويات. ولكن في بعض المستندات، التي تم إنشاؤها باستخدام إصدارات سابقة من Microsoft Word، قد تواجه قوائم تحتوي على مستوى واحد فقط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء نمط قائمة واستخدامه في مستند.
 
@@ -81,7 +83,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### أنظر أيضا
 
 * class [List](../)
-* مساحة الاسم [Aspose.Words.Lists](../../list/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

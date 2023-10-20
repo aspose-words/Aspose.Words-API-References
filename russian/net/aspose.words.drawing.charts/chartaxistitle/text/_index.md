@@ -1,9 +1,11 @@
 ---
 title: ChartAxisTitle.Text
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxisTitle свойство. Получает или задает текст заголовка оси. Еслинулевой или указано пустое значение будет показан автоматически сгенерированный заголовок.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words для .NET
+description: ChartAxisTitle Text свойство. Получает или задает текст заголовка оси. Еслинулевой или указано пустое значение будет показан автоматически сгенерированный заголовок на С#.
 type: docs
-weight: 40
+weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartaxistitle/text/
 ---
 ## ChartAxisTitle.Text property
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing.charts/chartaxistitle/text/
 public string Text { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Использовать[`Show`](../show/) вариант, если вам нужно показать заголовок.
 
-### Примеры
+## Примеры
 
 Показывает, как установить заголовок оси диаграммы.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ### Смотрите также
 
 * class [ChartAxisTitle](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.HasSequenceName
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIndex свойство. Получает значение указывающее следует ли использовать последовательность при построении результата поля.
+linktitle: HasSequenceName
+articleTitle: HasSequenceName
+second_title: Aspose.Words для .NET
+description: FieldIndex HasSequenceName свойство. Получает значение указывающее следует ли использовать последовательность при построении результата поля на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldindex/hassequencename/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldindex/hassequencename/
 public bool HasSequenceName { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как разделить документ на части, объединив поля INDEX и SEQ.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### Смотрите также
 
 * class [FieldIndex](../)
-* пространство имен [Aspose.Words.Fields](../../fieldindex/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

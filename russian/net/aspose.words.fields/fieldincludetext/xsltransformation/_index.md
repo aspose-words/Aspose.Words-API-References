@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.XslTransformation
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldIncludeText свойство. Получает или задает расположение преобразования XSL для форматирования данных XML.
+linktitle: XslTransformation
+articleTitle: XslTransformation
+second_title: Aspose.Words для .NET
+description: FieldIncludeText XslTransformation свойство. Получает или задает расположение преобразования XSL для форматирования данных XML на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fields/fieldincludetext/xsltransformation/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldincludetext/xsltransformation/
 public string XslTransformation { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать поле INCLUDETEXT и установить его свойства.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Смотрите также
 
 * class [FieldIncludeText](../)
-* пространство имен [Aspose.Words.Fields](../../fieldincludetext/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

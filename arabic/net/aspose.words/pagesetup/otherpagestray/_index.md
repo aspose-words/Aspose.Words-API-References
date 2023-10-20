@@ -1,7 +1,9 @@
 ---
 title: PageSetup.OtherPagesTray
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. الحصول على أو تعيين درج الورق الحاوية ليتم استخدامه للجميع باستثناء الصفحة الأولى من القسم. القيمة خاصة بالتنفيذ الطابعة.
+linktitle: OtherPagesTray
+articleTitle: OtherPagesTray
+second_title: Aspose.Words لـ .NET
+description: PageSetup OtherPagesTray ملكية. الحصول على أو تعيين درج الورق الحاوية ليتم استخدامه للجميع باستثناء الصفحة الأولى من القسم. القيمة خاصة بالتنفيذ الطابعة في C#.
 type: docs
 weight: 300
 url: /ar/net/aspose.words/pagesetup/otherpagestray/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/otherpagestray/
 public int OtherPagesTray { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية جعل كافة الأقسام الموجودة في المستند تستخدم درج الورق الافتراضي للطابعة المحددة.
 
@@ -70,7 +72,5 @@ foreach (Section section in doc.Sections.OfType<Section>())
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

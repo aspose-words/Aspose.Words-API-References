@@ -1,7 +1,9 @@
 ---
-title: Class ImageData
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.ImageData فصل. يحدد صورة للشكل.
+title: ImageData Class
+linktitle: ImageData
+articleTitle: ImageData
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.ImageData فصل. يحدد صورة للشكل في C#.
 type: docs
 weight: 1060
 url: /ar/net/aspose.words.drawing/imagedata/
@@ -43,17 +45,16 @@ public class ImageData
 
 | اسم | وصف |
 | --- | --- |
-| [FitImageToShape](../../aspose.words.drawing/imagedata/fitimagetoshape/)() |  |
-| [Save](../../aspose.words.drawing/imagedata/save/#save)(Stream) | يحفظ الصورة في الدفق المحدد. |
-| [Save](../../aspose.words.drawing/imagedata/save/#save_1)(string) | يحفظ الصورة في ملف. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(Image) | يضبط الصورة التي يعرضها الشكل. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(Stream) | يضبط الصورة التي يعرضها الشكل. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(string) | يضبط الصورة التي يعرضها الشكل. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save)(*Stream*) | يحفظ الصورة في الدفق المحدد. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save_1)(*string*) | يحفظ الصورة في ملف. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(*Image*) | يضبط الصورة التي يعرضها الشكل. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(*Stream*) | يضبط الصورة التي يعرضها الشكل. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(*string*) | يضبط الصورة التي يعرضها الشكل. |
 | [ToByteArray](../../aspose.words.drawing/imagedata/tobytearray/)() | إرجاع بايتات الصورة لأي صورة بغض النظر عما إذا كانت الصورة مخزنة أو مرتبطة. |
 | [ToImage](../../aspose.words.drawing/imagedata/toimage/)() | يحصل على الصورة المخزنة بالشكل aImage الكائن. |
 | [ToStream](../../aspose.words.drawing/imagedata/tostream/)() | إنشاء وإرجاع دفق يحتوي على بايتات الصورة. |
 
-### ملاحظات
+## ملاحظات
 
 استخدم ال[`ImageData`](../shape/imagedata/) الخاصية للوصول إلى الصورة وتعديلها داخل الشكل. لا تقم بإنشاء مثيلات لـ`ImageData` الصف مباشرة.
 
@@ -63,7 +64,7 @@ public class ImageData
 
 لتخزين صورة داخل شكل، استخدم[`SetImage`](./setimage/) طريقة. لربط صورة بشكل ما، قم بتعيين[`SourceFullName`](./sourcefullname/) ملكية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخراج الصور من مستند وحفظها في نظام الملفات المحلي كملفات فردية.
 
@@ -132,5 +133,3 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

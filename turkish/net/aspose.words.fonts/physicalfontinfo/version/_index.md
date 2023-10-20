@@ -1,7 +1,9 @@
 ---
 title: PhysicalFontInfo.Version
-second_title: Aspose.Words for .NET API Referansı
-description: PhysicalFontInfo mülk. Yazı tipinin sürüm dizesi.
+linktitle: Version
+articleTitle: Version
+second_title: Aspose.Words for .NET
+description: PhysicalFontInfo Version mülk. Yazı tipinin sürüm dizesi C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fonts/physicalfontinfo/version/
@@ -14,7 +16,7 @@ Yazı tipinin sürüm dizesi.
 public string Version { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kullanılabilir yazı tiplerinin nasıl listeleneceğini gösterir.
 
@@ -34,7 +36,5 @@ foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
 ### Ayrıca bakınız
 
 * class [PhysicalFontInfo](../)
-* ad alanı [Aspose.Words.Fonts](../../physicalfontinfo/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ParagraphBreak
-second_title: Referencia de API de Aspose.Words para .NET
-description: ControlChar campo. Carácter de fin de párrafo x000d o r. Igual queCr
+linktitle: ParagraphBreak
+articleTitle: ParagraphBreak
+second_title: Aspose.Words para .NET
+description: ControlChar ParagraphBreak campo. Carácter de fin de párrafo x000d o r. Igual queCr en C#.
 type: docs
 weight: 220
 url: /es/net/aspose.words/controlchar/paragraphbreak/
@@ -14,7 +16,7 @@ Carácter de fin de párrafo: "\x000d" o "\r". Igual que[`Cr`](../cr/)
 public static readonly string ParagraphBreak;
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar varios caracteres de control a un documento.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ver también
 
 * class [ControlChar](../)
-* espacio de nombres [Aspose.Words](../../controlchar/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

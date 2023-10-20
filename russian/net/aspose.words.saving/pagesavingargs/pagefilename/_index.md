@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageFileName
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSavingArgs свойство. Получает или задает имя файла в котором будет сохранена страница документа.
+linktitle: PageFileName
+articleTitle: PageFileName
+second_title: Aspose.Words для .NET
+description: PageSavingArgs PageFileName свойство. Получает или задает имя файла в котором будет сохранена страница документа на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/pagesavingargs/pagefilename/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/pagesavingargs/pagefilename/
 public string PageFileName { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Если не указано, имя и путь файла страницы будут сгенерированы автоматически с использованием исходного имени файла.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для сохранения документа в формате HTML постранично.
 
@@ -75,7 +77,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Смотрите также
 
 * class [PageSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../pagesavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

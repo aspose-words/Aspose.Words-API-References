@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPropertyCollection.Contains
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlPropertyCollection метод. Определяет содержит ли коллекция свойство с заданным именем.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words для .NET
+description: CustomXmlPropertyCollection Contains метод. Определяет содержит ли коллекция свойство с заданным именем на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.markup/customxmlpropertycollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `истинный` если предмет найден в коллекции; в противном случае,`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
 
@@ -79,7 +81,5 @@ Assert.AreEqual(0, properties.Count);
 ### Смотрите также
 
 * class [CustomXmlPropertyCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlpropertycollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

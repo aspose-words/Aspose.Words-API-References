@@ -1,7 +1,9 @@
 ---
 title: SvgSaveOptions.ShowPageBorder
-second_title: Aspose.Words für .NET-API-Referenz
-description: SvgSaveOptions eigendom. Steuert ob dem Umriss der Seite ein Rahmen hinzugefügt wird. Standard istWAHR .
+linktitle: ShowPageBorder
+articleTitle: ShowPageBorder
+second_title: Aspose.Words für .NET
+description: SvgSaveOptions ShowPageBorder eigendom. Steuert ob dem Umriss der Seite ein Rahmen hinzugefügt wird. Standard istWAHR  in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words.saving/svgsaveoptions/showpageborder/
@@ -14,7 +16,7 @@ Steuert, ob dem Umriss der Seite ein Rahmen hinzugefügt wird. Standard ist`WAHR
 public bool ShowPageBorder { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften von Bildern beim Konvertieren eines .docx-Dokuments in .svg nachgeahmt werden.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "SvgSaveOptions.SaveLikeImage.svg", options);
 ### Siehe auch
 
 * class [SvgSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../svgsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

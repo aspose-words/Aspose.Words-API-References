@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Type
-second_title: Aspose.Words per .NET API Reference
-description: BuildingBlock proprietà. Specifica il tipo di blocco predefinito.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words per .NET
+description: BuildingBlock Type proprietà. Specifica il tipo di blocco predefinito in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.buildingblocks/buildingblock/type/
@@ -14,13 +16,13 @@ Specifica il tipo di blocco predefinito.
 public BuildingBlockType Type { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il tipo di blocco predefinito può influenzare la visibilità e il comportamento del blocco predefinito in Microsoft Word.
 
-Corrisponde a **docPartPr.types** elemento in OOXML.
+Corrisponde a**docPartPr.types** elemento in OOXML.
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un blocco predefinito personalizzato a un documento.
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockType](../../buildingblocktype/)
 * class [BuildingBlock](../)
-* spazio dei nomi [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* spazio dei nomi [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * assemblea [Aspose.Words](../../../)
-
-

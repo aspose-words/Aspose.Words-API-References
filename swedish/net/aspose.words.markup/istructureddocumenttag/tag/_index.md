@@ -1,7 +1,9 @@
 ---
 title: IStructuredDocumentTag.Tag
-second_title: Aspose.Words för .NET API Referens
-description: IStructuredDocumentTag fast egendom. Anger en tagg som är associerad med den aktuella SDTnoden. Kan inte vara null.
+linktitle: Tag
+articleTitle: Tag
+second_title: Aspose.Words för .NET
+description: IStructuredDocumentTag Tag fast egendom. Anger en tagg som är associerad med den aktuella SDTnoden. Kan inte vara null i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.markup/istructureddocumenttag/tag/
@@ -17,7 +19,5 @@ public string Tag { get; set; }
 ### Se även
 
 * interface [IStructuredDocumentTag](../)
-* namnutrymme [Aspose.Words.Markup](../../istructureddocumenttag/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

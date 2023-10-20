@@ -1,7 +1,9 @@
 ---
-title: AxisBound.AxisBound
-second_title: Aspose.Words für .NET-API-Referenz
-description: AxisBound constructeur. Erstellt eine neue Instanz die angibt dass die Achsengrenze automatisch von einer Textverarbeitungsanwendung bestimmt werden soll.
+title: AxisBound
+linktitle: AxisBound
+articleTitle: AxisBound
+second_title: Aspose.Words für .NET
+description: AxisBound constructeur. Erstellt eine neue Instanz die angibt dass die Achsengrenze automatisch von einer Textverarbeitungsanwendung bestimmt werden soll in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/axisbound/axisbound/
@@ -14,7 +16,7 @@ Erstellt eine neue Instanz, die angibt, dass die Achsengrenze automatisch von ei
 public AxisBound()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie benutzerdefinierte Achsengrenzen festgelegt werden.
 
@@ -74,12 +76,12 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Siehe auch
 
 * class [AxisBound](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../axisbound/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## AxisBound(double) {#constructor_1}
+## AxisBound(*double*) {#constructor_1}
 
 Erstellt eine als Zahl dargestellte Achsengrenze.
 
@@ -87,7 +89,7 @@ Erstellt eine als Zahl dargestellte Achsengrenze.
 public AxisBound(double value)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Diagramm mit Datums-/Uhrzeitwerten eingefügt wird.
 
@@ -141,12 +143,12 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Siehe auch
 
 * class [AxisBound](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../axisbound/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## AxisBound(DateTime) {#constructor_2}
+## AxisBound(*DateTime*) {#constructor_2}
 
 Erstellt eine Achsengrenze, die als Datum/Uhrzeit-Wert dargestellt wird.
 
@@ -154,7 +156,7 @@ Erstellt eine Achsengrenze, die als Datum/Uhrzeit-Wert dargestellt wird.
 public AxisBound(DateTime datetime)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Diagramm mit Datums-/Uhrzeitwerten eingefügt wird.
 
@@ -208,7 +210,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Siehe auch
 
 * class [AxisBound](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../axisbound/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

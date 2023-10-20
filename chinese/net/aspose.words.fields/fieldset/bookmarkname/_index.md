@@ -1,7 +1,9 @@
 ---
 title: FieldSet.BookmarkName
-second_title: Aspose.Words for .NET API 参考
-description: FieldSet 财产. 获取或设置书签的名称
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldSet BookmarkName 财产. 获取或设置书签的名称 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldset/bookmarkname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldset/bookmarkname/
 public string BookmarkName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 SET 字段创建带书签的文本，然后使用 REF 字段将其显示在文档中。
 
@@ -45,7 +47,5 @@ doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 ### 也可以看看
 
 * class [FieldSet](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldset/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

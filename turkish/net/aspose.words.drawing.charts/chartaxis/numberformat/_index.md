@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.NumberFormat
-second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Bir değeri döndürürChartNumberFormat eksen için sayı formatlarının tanımlanmasına izin veren nesne.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words for .NET
+description: ChartAxis NumberFormat mülk. Bir değeri döndürürChartNumberFormat eksen için sayı formatlarının tanımlanmasına izin veren nesne C#'da.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.drawing.charts/chartaxis/numberformat/
@@ -14,7 +16,7 @@ Bir değeri döndürür[`ChartNumberFormat`](../../chartnumberformat/) eksen iç
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Grafik değerleri için biçimlendirmenin nasıl ayarlanacağını gösterir.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartAxis](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

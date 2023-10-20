@@ -1,7 +1,9 @@
 ---
-title: Enum TextureIndex
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.TextureIndex enum. Specifica la trama dellombreggiatura.
+title: TextureIndex Enum
+linktitle: TextureIndex
+articleTitle: TextureIndex
+second_title: Aspose.Words per .NET
+description: Aspose.Words.TextureIndex enum. Specifica la trama dellombreggiatura in C#.
 type: docs
 weight: 6450
 url: /it/net/aspose.words/textureindex/
@@ -73,7 +75,7 @@ public enum TextureIndex
 | TextureVertical | `21` |  |
 | TextureNil | `65535` | Specifica che non dovrà essere utilizzato alcun motivo sulla regione ombreggiata corrente (ovvero il motivo dovrà essere un riempimento completo con il colore di sfondo). |
 
-### Esempi
+## Esempi
 
 Mostra come decorare il testo con bordi e ombreggiature.
 
@@ -126,5 +128,3 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ResourceSavingArgs.ResourceStream
-second_title: Aspose.Words for .NET API 参考
-description: ResourceSavingArgs 财产. 允许指定资源将保存到的流
+linktitle: ResourceStream
+articleTitle: ResourceStream
+second_title: 用于 .NET 的 Aspose.Words
+description: ResourceSavingArgs ResourceStream 财产. 允许指定资源将保存到的流 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/resourcesavingargs/resourcestream/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/resourcesavingargs/resourcestream/
 public Stream ResourceStream { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性允许您将资源保存到流而不是文件中。
 
@@ -22,7 +24,7 @@ public Stream ResourceStream { get; set; }
 
 使用[`IResourceSavingCallback`](../../iresourcesavingcallback/)您不能用 一种资源替换另一种资源。它仅用于控制节省资源的位置。
 
-### 例子
+## 例子
 
 演示如何使用回调来打印在将文档转换为 HTML 时创建的外部资源的 URI。
 
@@ -101,7 +103,5 @@ private class ResourceUriPrinter : IResourceSavingCallback
 ### 也可以看看
 
 * class [ResourceSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../resourcesavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

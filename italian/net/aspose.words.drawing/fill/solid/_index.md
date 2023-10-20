@@ -1,9 +1,11 @@
 ---
 title: Fill.Solid
-second_title: Aspose.Words per .NET API Reference
-description: Fill metodo. Imposta il riempimento su un colore uniforme.
+linktitle: Solid
+articleTitle: Solid
+second_title: Aspose.Words per .NET
+description: Fill Solid metodo. Imposta il riempimento su un colore uniforme in C#.
 type: docs
-weight: 260
+weight: 250
 url: /it/net/aspose.words.drawing/fill/solid/
 ---
 ## Solid() {#solid}
@@ -14,19 +16,19 @@ Imposta il riempimento su un colore uniforme.
 public void Solid()
 ```
 
-### Osservazioni
+## Osservazioni
 
 Utilizza questo metodo per riconvertire qualsiasi riempimento in riempimento solido.
 
 ### Guarda anche
 
 * class [Fill](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../fill/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Solid(Color) {#solid_1}
+## Solid(*Color*) {#solid_1}
 
 Imposta il riempimento su un colore uniforme specificato.
 
@@ -34,11 +36,11 @@ Imposta il riempimento su un colore uniforme specificato.
 public void Solid(Color color)
 ```
 
-### Osservazioni
+## Osservazioni
 
 Utilizza questo metodo per riconvertire qualsiasi riempimento in riempimento solido.
 
-### Esempi
+## Esempi
 
 Mostra come riconvertire uno qualsiasi dei riempimenti in riempimento solido.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
 ### Guarda anche
 
 * class [Fill](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../fill/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

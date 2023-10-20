@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: ListLevelCollection свойство. Получает уровень списка по индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: ListLevelCollection Item свойство. Получает уровень списка по индексу на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.lists/listlevelcollection/item/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.lists/listlevelcollection/item/
 public ListLevel this[int index] { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать стиль списка и использовать его в документе.
 
@@ -130,7 +132,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListLevelCollection](../)
-* пространство имен [Aspose.Words.Lists](../../listlevelcollection/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

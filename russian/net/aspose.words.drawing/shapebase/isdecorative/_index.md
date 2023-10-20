@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.IsDecorative
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает или задает флаг указывающий является ли фигура декоративной в документе.
+linktitle: IsDecorative
+articleTitle: IsDecorative
+second_title: Aspose.Words для .NET
+description: ShapeBase IsDecorative свойство. Получает или задает флаг указывающий является ли фигура декоративной в документе на С#.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.drawing/shapebase/isdecorative/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/shapebase/isdecorative/
 public bool IsDecorative { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Обратите внимание, что фигура не пуста.[`AlternativeText`](../alternativetext/) не может быть декоративным.
 
-### Примеры
+## Примеры
 
 Показывает, как сделать фигуру декоративной.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Shape.IsDecorative.docx");
 ### Смотрите также
 
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

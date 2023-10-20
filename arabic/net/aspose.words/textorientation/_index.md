@@ -1,7 +1,9 @@
 ---
-title: Enum TextOrientation
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.TextOrientation تعداد. يحدد اتجاه النص على الصفحة في خلية جدول أو إطار نص.
+title: TextOrientation Enum
+linktitle: TextOrientation
+articleTitle: TextOrientation
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.TextOrientation تعداد. يحدد اتجاه النص على الصفحة في خلية جدول أو إطار نص في C#.
 type: docs
 weight: 6430
 url: /ar/net/aspose.words/textorientation/
@@ -25,7 +27,7 @@ public enum TextOrientation
 | VerticalFarEast | `5` | تظهر أحرف الشرق الأقصى رأسيًا، ويتم تدوير النصوص الأخرى بمقدار 90 درجة إلى اليمين لتظهر من أعلى إلى أسفل (tb-rl-v). |
 | VerticalRotatedFarEast | `7` | تظهر أحرف الشرق الأقصى رأسيًا، ويتم تدوير النصوص الأخرى بمقدار 90 درجة إلى اليمين لتظهر من أعلى إلى أسفل عموديًا، ثم من اليسار إلى اليمين أفقيًا (tb-lr-v). |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول منسق 2x2.
 
@@ -72,5 +74,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

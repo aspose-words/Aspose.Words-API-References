@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromDouble
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartXValue метод. СоздаетChartXValue экземплярDouble тип.
+linktitle: FromDouble
+articleTitle: FromDouble
+second_title: Aspose.Words для .NET
+description: ChartXValue FromDouble метод. СоздаетChartXValue экземплярDouble тип на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartxvalue/fromdouble/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartxvalue/fromdouble/
 public static ChartXValue FromDouble(double value)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как заполнить ряды диаграмм данными.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ### Смотрите также
 
 * class [ChartXValue](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

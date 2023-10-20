@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Item
-second_title: Aspose.Words for .NET API Referansı
-description: StyleCollection mülk. Ada veya takma ada göre bir stil alır.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words for .NET
+description: StyleCollection Item mülk. Ada veya takma ada göre bir stil alır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/stylecollection/item/
@@ -14,13 +16,13 @@ Ada veya takma ada göre bir stil alır.
 public Style this[string name] { get; }
 ```
 
-### Notlar
+## Notlar
 
 Büyük/küçük harfe duyarlı, döndürür`hükümsüz` verilen ada sahip stil bulunamazsa.
 
 Bu, henüz mevcut olmayan yerleşik bir stilin İngilizce adıysa, onu otomatik olarak oluşturur.
 
-### Örnekler
+## Örnekler
 
 Belgenin sayfa düzeninin ne zaman yeniden hesaplanacağını gösterir.
 
@@ -48,7 +50,7 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* ad alanı [Aspose.Words](../../stylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -65,11 +67,11 @@ public Style this[StyleIdentifier sti] { get; }
 | --- | --- |
 | sti | A[`StyleIdentifier`](../../styleidentifier/) Alınacak yerleşik stili belirten değer. |
 
-### Notlar
+## Notlar
 
 Henüz var olmayan bir stile erişildiğinde, onu otomatik olarak oluşturur.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin stil koleksiyonuna nasıl Stil ekleneceğini gösterir.
 
@@ -94,7 +96,7 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 * class [Style](../../style/)
 * enum [StyleIdentifier](../../styleidentifier/)
 * class [StyleCollection](../)
-* ad alanı [Aspose.Words](../../stylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -107,7 +109,7 @@ Dizine göre bir stil alır.
 public Style this[int index] { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin stil koleksiyonuna nasıl Stil ekleneceğini gösterir.
 
@@ -131,7 +133,5 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [Style](../../style/)
 * class [StyleCollection](../)
-* ad alanı [Aspose.Words](../../stylecollection/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

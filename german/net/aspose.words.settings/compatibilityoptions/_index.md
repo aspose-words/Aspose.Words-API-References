@@ -1,14 +1,16 @@
 ---
-title: Class CompatibilityOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Settings.CompatibilityOptions klas. Enthält Kompatibilitätsoptionen d. h. die Benutzereinstellungen die im eingegeben wurden Kompatibilität Registerkarte des Optionen Dialog in Microsoft Word.
+title: CompatibilityOptions Class
+linktitle: CompatibilityOptions
+articleTitle: CompatibilityOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Settings.CompatibilityOptions klas. Enthält Kompatibilitätsoptionen d. h. die Benutzereinstellungen die im eingegeben wurdenKompatibilität Registerkarte desOptionen Dialog in Microsoft Word in C#.
 type: docs
 weight: 5780
 url: /de/net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
 
-Enthält Kompatibilitätsoptionen (d. h. die Benutzereinstellungen, die im eingegeben wurden **Kompatibilität** Registerkarte des **Optionen** Dialog in Microsoft Word).
+Enthält Kompatibilitätsoptionen (d. h. die Benutzereinstellungen, die im eingegeben wurden**Kompatibilität** Registerkarte des**Optionen** Dialog in Microsoft Word).
 
 Um mehr zu erfahren, besuchen Sie die[Erkennen Sie das Dateiformat und prüfen Sie die Formatkompatibilität](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) Dokumentationsartikel.
 
@@ -96,9 +98,9 @@ public class CompatibilityOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(MsWordVersion) | Ermöglicht die Optimierung des Dokumentinhalts sowie des Standardverhaltens von Aspose.Words für bestimmte Versionen von MS Word. |
+| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(*[MsWordVersion](../mswordversion/)*) | Ermöglicht die Optimierung des Dokumentinhalts sowie des Standardverhaltens von Aspose.Words für bestimmte Versionen von MS Word. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Textinhalt eines Textfelds vertikal ausgerichtet wird.
 
@@ -214,5 +216,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 * property [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/)
 * namensraum [Aspose.Words.Settings](../../aspose.words.settings/)
 * Montage [Aspose.Words](../../)
-
-

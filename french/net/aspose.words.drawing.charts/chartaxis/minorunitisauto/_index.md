@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.MinorUnitIsAuto
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartAxis propriété. Obtient ou définit un indicateur indiquant si la distance par défaut entre les graduations mineures doit être utilisée.
+linktitle: MinorUnitIsAuto
+articleTitle: MinorUnitIsAuto
+second_title: Aspose.Words pour .NET
+description: ChartAxis MinorUnitIsAuto propriété. Obtient ou définit un indicateur indiquant si la distance par défaut entre les graduations mineures doit être utilisée en C#.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.drawing.charts/chartaxis/minorunitisauto/
@@ -14,11 +16,11 @@ Obtient ou définit un indicateur indiquant si la distance par défaut entre les
 public bool MinorUnitIsAuto { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La propriété a un effet sur les axes de catégories de temps et de valeurs.
 
-### Exemples
+## Exemples
 
 Montre comment manipuler les graduations et les valeurs affichées d’un axe de graphique.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ### Voir également
 
 * class [ChartAxis](../)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../../)
-
-

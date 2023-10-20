@@ -1,7 +1,9 @@
 ---
-title: Class ViewOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.ViewOptions 班级. 提供控制文档在 Microsoft Word 中显示方式的各种选项
+title: ViewOptions Class
+linktitle: ViewOptions
+articleTitle: ViewOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.ViewOptions 班级. 提供控制文档在 Microsoft Word 中显示方式的各种选项 在 C#.
 type: docs
 weight: 5950
 url: /zh/net/aspose.words.settings/viewoptions/
@@ -27,7 +29,7 @@ public class ViewOptions
 | [ZoomPercent](../../aspose.words.settings/viewoptions/zoompercent/) { get; set; } | 获取或设置您想要查看文档的百分比（10 到 500 之间）。 |
 | [ZoomType](../../aspose.words.settings/viewoptions/zoomtype/) { get; set; } | 获取或设置基于窗口大小的缩放值。 |
 
-### 例子
+## 例子
 
 演示如何设置自定义缩放系数，旧版本的 Microsoft Word 将在加载时应用于文档。
 
@@ -69,5 +71,3 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");
 * property [ViewOptions](../../aspose.words/document/viewoptions/)
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

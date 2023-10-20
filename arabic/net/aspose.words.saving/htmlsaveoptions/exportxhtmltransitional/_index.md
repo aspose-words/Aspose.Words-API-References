@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportXhtmlTransitional
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كان سيتم كتابة إعلان DOCTYPE عند الحفظ في HTML أو MHTML. متىحقيقي  يكتب إعلان DOCTYPE في المستند قبل العنصر الجذر. القيمة الافتراضية هيخطأ شنيع. عند الحفظ في EPUB أو HTML5 Html5  يتم دائمًا كتابة إعلان DOCTYPE .
+linktitle: ExportXhtmlTransitional
+articleTitle: ExportXhtmlTransitional
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions ExportXhtmlTransitional ملكية. يحدد ما إذا كان سيتم كتابة إعلان DOCTYPE عند الحفظ في HTML أو MHTML. متىحقيقي  يكتب إعلان DOCTYPE في المستند قبل العنصر الجذر. القيمة الافتراضية هيخطأ شنيع. عند الحفظ في EPUB أو HTML5 Html5  يتم دائمًا كتابة إعلان DOCTYPE  في C#.
 type: docs
 weight: 280
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportxhtmltransitional/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/exportxhtmltransitional/
 public bool ExportXhtmlTransitional { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يقوم Aspose.Words دائمًا بكتابة HTML بشكل جيد بغض النظر عن هذا الإعداد.
 
@@ -30,7 +32,7 @@ public bool ExportXhtmlTransitional { get; set; }
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض عنوان DOCTYPE عند تحويل المستندات إلى المعيار الانتقالي Xhtml 1.0.
 
@@ -64,7 +66,5 @@ else
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

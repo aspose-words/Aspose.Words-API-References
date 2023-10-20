@@ -1,7 +1,9 @@
 ---
 title: FieldStyleRef.InsertParagraphNumber
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldStyleRef eigendom. Ruft ab oder legt fest ob die Absatznummer des referenzierten Absatzes genau so eingefügt werden soll wie sie im Dokument erscheint.
+linktitle: InsertParagraphNumber
+articleTitle: InsertParagraphNumber
+second_title: Aspose.Words für .NET
+description: FieldStyleRef InsertParagraphNumber eigendom. Ruft ab oder legt fest ob die Absatznummer des referenzierten Absatzes genau so eingefügt werden soll wie sie im Dokument erscheint in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldstyleref/insertparagraphnumber/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Absatznummer des referenzierten Absatzes genau so
 public bool InsertParagraphNumber { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie STYLEREF-Felder verwendet werden.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ### Siehe auch
 
 * class [FieldStyleRef](../)
-* namensraum [Aspose.Words.Fields](../../fieldstyleref/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

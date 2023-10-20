@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertNode
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar en nod före markören.
+linktitle: InsertNode
+articleTitle: InsertNode
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertNode metod. Infogar en nod före markören i C#.
 type: docs
-weight: 390
+weight: 380
 url: /sv/net/aspose.words/documentbuilder/insertnode/
 ---
 ## DocumentBuilder.InsertNode method
@@ -14,7 +16,7 @@ Infogar en nod före markören.
 public void InsertNode(Node node)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en länkad bild i ett dokument.
 
@@ -57,7 +59,5 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

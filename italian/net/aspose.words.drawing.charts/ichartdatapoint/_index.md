@@ -1,7 +1,9 @@
 ---
-title: Interface IChartDataPoint
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.IChartDataPoint interfaccia. Contiene le proprietà di un singolo punto dati sul grafico.
+title: IChartDataPoint Interface
+linktitle: IChartDataPoint
+articleTitle: IChartDataPoint
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Charts.IChartDataPoint interfaccia. Contiene le proprietà di un singolo punto dati sul grafico in C#.
 type: docs
 weight: 900
 url: /it/net/aspose.words.drawing.charts/ichartdatapoint/
@@ -23,7 +25,7 @@ public interface IChartDataPoint
 | [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative/) { get; set; } | Specifica se l'elemento genitore deve invertire i suoi colori se il valore è negativo. |
 | [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker/) { get; } | Specifica un indicatore di dati. Il marcatore viene creato automaticamente quando richiesto. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i punti dati su un grafico a linee.
 
@@ -86,5 +88,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.FlipOrientation
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Переключает ориентацию фигуры.
+linktitle: FlipOrientation
+articleTitle: FlipOrientation
+second_title: Aspose.Words для .NET
+description: ShapeBase FlipOrientation свойство. Переключает ориентацию фигуры на С#.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.drawing/shapebase/fliporientation/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/shapebase/fliporientation/
 public FlipOrientation FlipOrientation { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:None.
 
-### Примеры
+## Примеры
 
 Показывает, как перевернуть фигуру по оси.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");
 
 * enum [FlipOrientation](../../fliporientation/)
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

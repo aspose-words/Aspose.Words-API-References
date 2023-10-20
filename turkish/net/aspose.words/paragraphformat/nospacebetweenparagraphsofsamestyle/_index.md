@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Ne zamandoğru SpaceBefore VeSpaceAfter aynı stildeki paragraflar arasında göz ardı edilecek.
+linktitle: NoSpaceBetweenParagraphsOfSameStyle
+articleTitle: NoSpaceBetweenParagraphsOfSameStyle
+second_title: Aspose.Words for .NET
+description: ParagraphFormat NoSpaceBetweenParagraphsOfSameStyle mülk. Ne zamandoğru SpaceBefore VeSpaceAfter aynı stildeki paragraflar arasında göz ardı edilecek C#'da.
 type: docs
 weight: 240
 url: /tr/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
@@ -14,11 +16,11 @@ Ne zaman`doğru` ,[`SpaceBefore`](../spacebefore/) Ve[`SpaceAfter`](../spaceafte
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu ayar yalnızca paragraf stiline uygulandığında etkili olur. Doğrudan bir paragrafa uygulanırsa hiçbir etkisi olmaz.
 
-### Örnekler
+## Örnekler
 
 Aynı stile sahip paragraflar arasında boşluk bırakmamanın nasıl uygulanacağını gösterir.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

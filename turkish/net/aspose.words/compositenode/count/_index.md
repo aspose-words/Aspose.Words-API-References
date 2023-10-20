@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.Count
-second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode mülk. Bu düğümün doğrudan alt öğelerinin sayısını alır.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: CompositeNode Count mülk. Bu düğümün doğrudan alt öğelerinin sayısını alır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/compositenode/count/
@@ -14,7 +16,7 @@ Bu düğümün doğrudan alt öğelerinin sayısını alır.
 public int Count { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 CompositeNode'un alt öğeleri koleksiyonuna alt düğümlerin nasıl ekleneceğini, güncelleştirileceğini ve silineceğini gösterir.
 
@@ -67,7 +69,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 ### Ayrıca bakınız
 
 * class [CompositeNode](../)
-* ad alanı [Aspose.Words](../../compositenode/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

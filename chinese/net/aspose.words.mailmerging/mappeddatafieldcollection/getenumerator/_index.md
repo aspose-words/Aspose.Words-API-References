@@ -1,7 +1,9 @@
 ---
 title: MappedDataFieldCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: MappedDataFieldCollection 方法. 返回一个字典枚举器对象可用于迭代集合中的所有项目
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: MappedDataFieldCollection GetEnumerator 方法. 返回一个字典枚举器对象可用于迭代集合中的所有项目 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/
 public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 演示如何映射具有不同名称的数据列和 MERGEFIELD，以便在邮件合并期间在它们之间传输数据。
 
@@ -99,7 +101,5 @@ private static DataTable CreateSourceTableMappedDataFields()
 ### 也可以看看
 
 * class [MappedDataFieldCollection](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mappeddatafieldcollection/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

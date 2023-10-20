@@ -1,7 +1,9 @@
 ---
 title: BookmarkEnd.NodeType
-second_title: Aspose.Words per .NET API Reference
-description: BookmarkEnd proprietà. RestituisceBookmarkEnd .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words per .NET
+description: BookmarkEnd NodeType proprietà. RestituisceBookmarkEnd  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/bookmarkend/nodetype/
@@ -14,7 +16,7 @@ RestituisceBookmarkEnd .
 public override NodeType NodeType { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come attraversare l'albero dei nodi figlio di un nodo composito.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [BookmarkEnd](../)
-* spazio dei nomi [Aspose.Words](../../bookmarkend/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

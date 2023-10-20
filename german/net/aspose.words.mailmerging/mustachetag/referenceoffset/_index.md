@@ -1,7 +1,9 @@
 ---
 title: MustacheTag.ReferenceOffset
-second_title: Aspose.Words für .NET-API-Referenz
-description: MustacheTag eigendom. Ruft die nullbasierte Startposition des Tags ab dem Anfang abReferenceRun .
+linktitle: ReferenceOffset
+articleTitle: ReferenceOffset
+second_title: Aspose.Words für .NET
+description: MustacheTag ReferenceOffset eigendom. Ruft die nullbasierte Startposition des Tags ab dem Anfang abReferenceRun  in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.mailmerging/mustachetag/referenceoffset/
@@ -14,7 +16,7 @@ Ruft die nullbasierte Startposition des Tags ab dem Anfang ab[`ReferenceRun`](..
 public int ReferenceOffset { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit den Moustache-Tags gearbeitet wird.
 
@@ -41,7 +43,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 ### Siehe auch
 
 * class [MustacheTag](../)
-* namensraum [Aspose.Words.MailMerging](../../mustachetag/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

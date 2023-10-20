@@ -1,7 +1,9 @@
 ---
 title: SdtListItemCollection.RemoveAt
-second_title: Aspose.Words for .NET API 参考
-description: SdtListItemCollection 方法. 删除指定索引处的列表项
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: 用于 .NET 的 Aspose.Words
+description: SdtListItemCollection RemoveAt 方法. 删除指定索引处的列表项 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.markup/sdtlistitemcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 要删除的项目的从零开始的索引。 |
 
-### 例子
+## 例子
 
 展示如何使用下拉列表结构化文档标签。
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### 也可以看看
 
 * class [SdtListItemCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../sdtlistitemcollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

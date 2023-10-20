@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientStyle
-second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获取渐变样式GradientStyle用于填充.
+linktitle: GradientStyle
+articleTitle: GradientStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill GradientStyle 财产. 获取渐变样式GradientStyle用于填充 在 C#.
 type: docs
-weight: 120
+weight: 110
 url: /zh/net/aspose.words.drawing/fill/gradientstyle/
 ---
 ## Fill.GradientStyle property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/fill/gradientstyle/
 public GradientStyle GradientStyle { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用渐变填充形状。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * enum [GradientStyle](../../gradientstyle/)
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

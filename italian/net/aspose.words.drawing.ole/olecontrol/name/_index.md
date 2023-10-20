@@ -1,7 +1,9 @@
 ---
 title: OleControl.Name
-second_title: Aspose.Words per .NET API Reference
-description: OleControl proprietà. Ottiene o imposta il nome del controllo ActiveX.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words per .NET
+description: OleControl Name proprietà. Ottiene o imposta il nome del controllo ActiveX in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing.ole/olecontrol/name/
@@ -14,7 +16,7 @@ Ottiene o imposta il nome del controllo ActiveX.
 public string Name { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come verificare le proprietà di un controllo ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Guarda anche
 
 * class [OleControl](../)
-* spazio dei nomi [Aspose.Words.Drawing.Ole](../../olecontrol/)
+* spazio dei nomi [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * assemblea [Aspose.Words](../../../)
-
-

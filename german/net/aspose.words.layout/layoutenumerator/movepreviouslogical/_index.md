@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MovePreviousLogical
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutEnumerator methode. Wechselt in einer logischen Reihenfolge zur vorherigen gleichgeordneten Entität. Beim Iterieren von Zeilen eines Absatzes die über Seiten hinweg unterbrochen sind wechselt diese Methode zur vorherigen Zeile auch wenn sie sich auf einer anderen Seite befindet.
+linktitle: MovePreviousLogical
+articleTitle: MovePreviousLogical
+second_title: Aspose.Words für .NET
+description: LayoutEnumerator MovePreviousLogical methode. Wechselt in einer logischen Reihenfolge zur vorherigen gleichgeordneten Entität. Beim Iterieren von Zeilen eines Absatzes die über Seiten hinweg unterbrochen sind wechselt diese Methode zur vorherigen Zeile auch wenn sie sich auf einer anderen Seite befindet in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.layout/layoutenumerator/movepreviouslogical/
@@ -14,11 +16,11 @@ Wechselt in einer logischen Reihenfolge zur vorherigen gleichgeordneten Entität
 public bool MovePreviousLogical()
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Beachten Sie, dass alleSpan Entitäten sind also miteinander verbunden, wenn[`Current`](../current/) Die Entität ist bereichsübergreifend. Durch wiederholtes Aufrufen dieser Methode wird die gesamte Geschichte des Dokuments iteriert.
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten zum Durchlaufen der Layoutelemente eines Dokuments.
 
@@ -163,7 +165,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Siehe auch
 
 * class [LayoutEnumerator](../)
-* namensraum [Aspose.Words.Layout](../../layoutenumerator/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

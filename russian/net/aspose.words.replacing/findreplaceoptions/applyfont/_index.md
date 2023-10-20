@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.ApplyFont
-second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. Форматирование текста примененное к новому содержимому.
+linktitle: ApplyFont
+articleTitle: ApplyFont
+second_title: Aspose.Words для .NET
+description: FindReplaceOptions ApplyFont свойство. Форматирование текста примененное к новому содержимому на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.replacing/findreplaceoptions/applyfont/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.replacing/findreplaceoptions/applyfont/
 public Font ApplyFont { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применить другой шрифт к новому содержимому с помощью FindReplaceOptions.
 
@@ -88,7 +90,5 @@ private class NumberHexer : IReplacingCallback
 
 * class [Font](../../../aspose.words/font/)
 * class [FindReplaceOptions](../)
-* пространство имен [Aspose.Words.Replacing](../../findreplaceoptions/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

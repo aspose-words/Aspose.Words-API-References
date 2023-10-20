@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetChild
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompositeNode método. Devuelve un enésimo nodo secundario que coincide con el tipo especificado.
+linktitle: GetChild
+articleTitle: GetChild
+second_title: Aspose.Words para .NET
+description: CompositeNode GetChild método. Devuelve un enésimo nodo secundario que coincide con el tipo especificado en C#.
 type: docs
-weight: 100
+weight: 80
 url: /es/net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
@@ -24,13 +26,13 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 
 El nodo hijo que coincide con los criterios o`nulo` si no se encuentra ningún nodo coincidente.
 
-### Observaciones
+## Observaciones
 
 Si el índice está fuera de rango, un`nulo` es regresado.
 
 Tenga en cuenta que los nodos de marcado (StructuredDocumentTag ySmartTag ) se recorren incluso cuando*isDeep* =`FALSO` y`GetChild` se invoca para el tipo de nodo sin marcado. Por ejemplo, si la primera ejecución en para está envuelta en un[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , todavía será devuelto por`GetChild`(Run , 0,`FALSO`).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar las propiedades del estilo de una tabla directamente a los elementos de la tabla.
 
@@ -103,7 +105,5 @@ foreach (Node child in children)
 * class [Node](../../node/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* espacio de nombres [Aspose.Words](../../compositenode/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

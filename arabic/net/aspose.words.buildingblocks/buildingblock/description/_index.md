@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Description
-second_title: Aspose.Words لمراجع .NET API
-description: BuildingBlock ملكية. الحصول على الوصف المرتبط بالكتلة البرمجية الإنشائية هذه أو تعيينه.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words لـ .NET
+description: BuildingBlock Description ملكية. الحصول على الوصف المرتبط بالكتلة البرمجية الإنشائية هذه أو تعيينه في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.buildingblocks/buildingblock/description/
@@ -14,15 +16,15 @@ url: /ar/net/aspose.words.buildingblocks/buildingblock/description/
 public string Description { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 قد يحتوي الوصف على أي محتوى سلسلة، وعادة ما يكون معلومات إضافية.
 
 لا يمكن`باطل`، ولكن يمكن أن تكون سلسلة فارغة.
 
-يتوافق مع **docPartPr.description** العنصر في OOXML
+يتوافق مع**docPartPr.description** العنصر في OOXML
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة كتلة إنشاء مخصصة إلى مستند.
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [BuildingBlock](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

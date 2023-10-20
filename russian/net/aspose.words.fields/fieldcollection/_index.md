@@ -1,7 +1,9 @@
 ---
-title: Class FieldCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldCollection сорт. КоллекцияField объекты представляющие поля в указанном диапазоне.
+title: FieldCollection Class
+linktitle: FieldCollection
+articleTitle: FieldCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Fields.FieldCollection сорт. КоллекцияField объекты представляющие поля в указанном диапазоне на С#.
 type: docs
 weight: 1690
 url: /ru/net/aspose.words.fields/fieldcollection/
@@ -29,10 +31,10 @@ public class FieldCollection : IEnumerable<Field>
 | --- | --- |
 | [Clear](../../aspose.words.fields/fieldcollection/clear/)() | Удаляет все поля этой коллекции из документа и из самой этой коллекции. |
 | [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | Возвращает объект перечислителя. |
-| [Remove](../../aspose.words.fields/fieldcollection/remove/)(Field) | Удаляет указанное поле из этой коллекции и из документа. |
-| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(int) | Удаляет поле по указанному индексу из этой коллекции и из документа. |
+| [Remove](../../aspose.words.fields/fieldcollection/remove/)(*[Field](../field/)*) | Удаляет указанное поле из этой коллекции и из документа. |
+| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | Удаляет поле по указанному индексу из этой коллекции и из документа. |
 
-### Примечания
+## Примечания
 
 Экземпляр этой коллекции повторяет поля, которые начинаются в пределах указанного диапазона.
 
@@ -40,7 +42,7 @@ public class FieldCollection : IEnumerable<Field>
 
 `FieldCollection` коллекция является «живой», т.е. изменения в дочерних элементах узла object , из которого она была создана, немедленно отражаются в полях, возвращаемых функцией`FieldCollection` свойства и методы.
 
-### Примеры
+## Примеры
 
 Показывает, как удалить поля из коллекции полей.
 
@@ -182,5 +184,3 @@ public class FieldVisitor : DocumentVisitor
 * class [Field](../field/)
 * пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
-
-

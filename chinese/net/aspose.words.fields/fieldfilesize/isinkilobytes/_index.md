@@ -1,7 +1,9 @@
 ---
 title: FieldFileSize.IsInKilobytes
-second_title: Aspose.Words for .NET API 参考
-description: FieldFileSize 财产. 获取或设置是否以千字节为单位显示文件大小
+linktitle: IsInKilobytes
+articleTitle: IsInKilobytes
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldFileSize IsInKilobytes 财产. 获取或设置是否以千字节为单位显示文件大小 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldfilesize/isinkilobytes/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldfilesize/isinkilobytes/
 public bool IsInKilobytes { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 FILESIZE 字段显示文档的文件大小。
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ### 也可以看看
 
 * class [FieldFileSize](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldfilesize/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

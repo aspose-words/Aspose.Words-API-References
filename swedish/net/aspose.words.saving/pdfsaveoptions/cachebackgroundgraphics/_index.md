@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CacheBackgroundGraphics
-second_title: Aspose.Words för .NET API Referens
-description: PdfSaveOptions fast egendom. Hämtar eller ställer in ett värde som avgör om grafik placerad i dokumentets bakgrund ska cachelagras eller inte.
+linktitle: CacheBackgroundGraphics
+articleTitle: CacheBackgroundGraphics
+second_title: Aspose.Words för .NET
+description: PdfSaveOptions CacheBackgroundGraphics fast egendom. Hämtar eller ställer in ett värde som avgör om grafik placerad i dokumentets bakgrund ska cachelagras eller inte i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/pdfsaveoptions/cachebackgroundgraphics/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett värde som avgör om grafik placerad i dokumentets
 public bool CacheBackgroundGraphics { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`Sann` och bakgrundsgrafik skrivs till PDF-dokumentet som ett xObject.
 
@@ -24,7 +26,7 @@ Vissa former stöds inte för cachning (former med fält, bokmärken, HRefs).
 
 Dokumentbakgrundsgrafik är olika former, diagram, bilder placerade i sidfoten eller sidhuvudet, samt bakgrund och kant på en sida.
 
-### Exempel
+## Exempel
 
 Visar hur man cachelagrar grafik placerad i dokumentets bakgrund.
 
@@ -45,7 +47,5 @@ Assert.Less(asposeToPdfSize, wordToPdfSize);
 ### Se även
 
 * class [PdfSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../pdfsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class GeneralFormatCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fields.GeneralFormatCollection clase. Representa una colección escrita de formatos generales.
+title: GeneralFormatCollection Class
+linktitle: GeneralFormatCollection
+articleTitle: GeneralFormatCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Fields.GeneralFormatCollection clase. Representa una colección escrita de formatos generales en C#.
 type: docs
 weight: 2650
 url: /es/net/aspose.words.fields/generalformatcollection/
@@ -27,12 +29,12 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words.fields/generalformatcollection/add/)(GeneralFormat) | Agrega un formato general a la colección. |
+| [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | Agrega un formato general a la colección. |
 | [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Devuelve un objeto enumerador. |
-| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | Elimina todas las apariciones del formato general especificado de la colección. |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | Elimina una aparición de formato general en el índice especificado. |
+| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(*[GeneralFormat](../generalformat/)*) | Elimina todas las apariciones del formato general especificado de la colección. |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | Elimina una aparición de formato general en el índice especificado. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo dar formato a los resultados de los campos.
 
@@ -98,5 +100,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 * enum [GeneralFormat](../generalformat/)
 * espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
-
-

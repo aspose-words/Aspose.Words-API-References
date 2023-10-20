@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.Suffix
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldCitation свойство. Получает или задает суффикс добавляемый к цитате.
+linktitle: Suffix
+articleTitle: Suffix
+second_title: Aspose.Words для .NET
+description: FieldCitation Suffix свойство. Получает или задает суффикс добавляемый к цитате на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldcitation/suffix/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldcitation/suffix/
 public string Suffix { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с полями ЦИТАТА и БИБЛИОГРАФИЯ.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Смотрите также
 
 * class [FieldCitation](../)
-* пространство имен [Aspose.Words.Fields](../../fieldcitation/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

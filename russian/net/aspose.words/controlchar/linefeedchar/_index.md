@@ -1,7 +1,9 @@
 ---
 title: ControlChar.LineFeedChar
-second_title: Справочник по API Aspose.Words для .NET
-description: ControlChar поле. Символ перевода строки char10 или n.
+linktitle: LineFeedChar
+articleTitle: LineFeedChar
+second_title: Aspose.Words для .NET
+description: ControlChar LineFeedChar поле. Символ перевода строки char10 или n на С#.
 type: docs
 weight: 150
 url: /ru/net/aspose.words/controlchar/linefeedchar/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/controlchar/linefeedchar/
 public const char LineFeedChar;
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как добавлять в документ различные управляющие символы.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Смотрите также
 
 * class [ControlChar](../)
-* пространство имен [Aspose.Words](../../controlchar/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

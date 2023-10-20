@@ -1,9 +1,11 @@
 ---
 title: Fill.GradientAngle
-second_title: Aspose.Words für .NET-API-Referenz
-description: Fill eigendom. Ruft den Winkel der Farbverlaufsfüllung ab oder legt diesen fest.
+linktitle: GradientAngle
+articleTitle: GradientAngle
+second_title: Aspose.Words für .NET
+description: Fill GradientAngle eigendom. Ruft den Winkel der Farbverlaufsfüllung ab oder legt diesen fest in C#.
 type: docs
-weight: 100
+weight: 90
 url: /de/net/aspose.words.drawing/fill/gradientangle/
 ---
 ## Fill.GradientAngle property
@@ -14,7 +16,7 @@ Ruft den Winkel der Farbverlaufsfüllung ab oder legt diesen fest.
 public double GradientAngle { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Form mit Farbverläufen gefüllt wird.
 
@@ -55,7 +57,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 ### Siehe auch
 
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

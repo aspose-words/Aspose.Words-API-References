@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.DataType
-second_title: Aspose.Words för .NET API Referens
-description: MailMergeSettings fast egendom. Anger typen av kopplingsdatakällan och metoden för dataåtkomst. Standardvärdet ärDefault .
+linktitle: DataType
+articleTitle: DataType
+second_title: Aspose.Words för .NET
+description: MailMergeSettings DataType fast egendom. Anger typen av kopplingsdatakällan och metoden för dataåtkomst. Standardvärdet ärDefault  i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.settings/mailmergesettings/datatype/
@@ -14,7 +16,7 @@ Anger typen av kopplingsdatakällan och metoden för dataåtkomst. Standardvärd
 public MailMergeDataType DataType { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [MailMergeDataType](../../mailmergedatatype/)
 * class [MailMergeSettings](../)
-* namnutrymme [Aspose.Words.Settings](../../mailmergesettings/)
+* namnutrymme [Aspose.Words.Settings](../../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../../)
-
-

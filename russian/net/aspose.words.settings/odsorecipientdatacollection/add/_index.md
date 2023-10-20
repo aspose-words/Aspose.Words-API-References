@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientDataCollection.Add
-second_title: Справочник по API Aspose.Words для .NET
-description: OdsoRecipientDataCollection метод. Добавляет объект в конец этой коллекции.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words для .NET
+description: OdsoRecipientDataCollection Add метод. Добавляет объект в конец этой коллекции на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.settings/odsorecipientdatacollection/add/
@@ -18,7 +20,7 @@ public int Add(OdsoRecipientData value)
 | --- | --- | --- |
 | value | OdsoRecipientData | Объект, который нужно добавить. Не может быть`нулевой`. |
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * class [OdsoRecipientData](../../odsorecipientdata/)
 * class [OdsoRecipientDataCollection](../)
-* пространство имен [Aspose.Words.Settings](../../odsorecipientdatacollection/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

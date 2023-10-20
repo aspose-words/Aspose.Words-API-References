@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ParagraphBreak
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Absatzendezeichen x000d oder r. Gleich wieCr
+linktitle: ParagraphBreak
+articleTitle: ParagraphBreak
+second_title: Aspose.Words für .NET
+description: ControlChar ParagraphBreak veld. Absatzendezeichen x000d oder r. Gleich wieCr in C#.
 type: docs
 weight: 220
 url: /de/net/aspose.words/controlchar/paragraphbreak/
@@ -14,7 +16,7 @@ Absatzendezeichen: „\x000d“ oder „\r“. Gleich wie[`Cr`](../cr/)
 public static readonly string ParagraphBreak;
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

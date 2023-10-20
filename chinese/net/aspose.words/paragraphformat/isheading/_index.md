@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.IsHeading
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 当段落样式是内置标题样式之一时为真
+linktitle: IsHeading
+articleTitle: IsHeading
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat IsHeading 财产. 当段落样式是内置标题样式之一时为真 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words/paragraphformat/isheading/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/isheading/
 public bool IsHeading { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何限制已保存 PDF 文档大纲中显示的标题级别。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.HeadingsOutlineLevels.pdf", saveOptions)
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

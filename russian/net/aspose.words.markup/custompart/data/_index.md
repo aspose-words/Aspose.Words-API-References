@@ -1,7 +1,9 @@
 ---
 title: CustomPart.Data
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomPart свойство. Содержит данные этой пользовательской детали.
+linktitle: Data
+articleTitle: Data
+second_title: Aspose.Words для .NET
+description: CustomPart Data свойство. Содержит данные этой пользовательской детали на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/custompart/data/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.markup/custompart/data/
 public byte[] Data { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство применимо только тогда, когда[`IsExternal`](../isexternal/) является`ЛОЖЬ`.
 
 Значением по умолчанию является пустой массив байтов. Значение не может быть`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Смотрите также
 
 * class [CustomPart](../)
-* пространство имен [Aspose.Words.Markup](../../custompart/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

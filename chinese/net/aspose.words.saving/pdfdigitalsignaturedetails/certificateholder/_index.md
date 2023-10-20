@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.CertificateHolder
-second_title: Aspose.Words for .NET API 参考
-description: PdfDigitalSignatureDetails 财产. 返回包含用于签署文档的证书的证书持有者对象
+linktitle: CertificateHolder
+articleTitle: CertificateHolder
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfDigitalSignatureDetails CertificateHolder 财产. 返回包含用于签署文档的证书的证书持有者对象 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/pdfdigitalsignaturedetails/certificateholder/
@@ -18,7 +20,5 @@ public CertificateHolder CertificateHolder { get; set; }
 
 * class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
 * class [PdfDigitalSignatureDetails](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

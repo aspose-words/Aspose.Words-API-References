@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.TemplateName
-second_title: Aspose.Words per .NET API Reference
-description: FieldOptions proprietà. Ottiene o imposta il nome del file del modello utilizzato dal documento.
+linktitle: TemplateName
+articleTitle: TemplateName
+second_title: Aspose.Words per .NET
+description: FieldOptions TemplateName proprietà. Ottiene o imposta il nome del file del modello utilizzato dal documento in C#.
 type: docs
 weight: 190
 url: /it/net/aspose.words.fields/fieldoptions/templatename/
@@ -14,13 +16,13 @@ Ottiene o imposta il nome del file del modello utilizzato dal documento.
 public string TemplateName { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa proprietà è utilizzata da[`FieldTemplate`](../../fieldtemplate/) campo se il[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) la proprietà è vuota
 
 Se questa proprietà è vuota, il nome del file modello predefinito`Normal.dotm` si usa.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare un campo TEMPLATE per visualizzare la posizione del file system locale del modello di un documento.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Field.TEMPLATE.docx");
 ### Guarda anche
 
 * class [FieldOptions](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldoptions/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

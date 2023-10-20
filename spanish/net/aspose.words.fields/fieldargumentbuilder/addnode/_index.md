@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddNode
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldArgumentBuilder método. Agrega un nodo al argumento.
+linktitle: AddNode
+articleTitle: AddNode
+second_title: Aspose.Words para .NET
+description: FieldArgumentBuilder AddNode método. Agrega un nodo al argumento en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldargumentbuilder/addnode/
@@ -14,11 +16,11 @@ Agrega un nodo al argumento.
 public FieldArgumentBuilder AddNode(Inline node)
 ```
 
-### Observaciones
+## Observaciones
 
 Por el momento, solo se admiten nodos a nivel de texto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo construir campos usando un generador de campos y luego insertarlos en el documento.
 
@@ -102,7 +104,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 * class [Inline](../../../aspose.words/inline/)
 * class [FieldArgumentBuilder](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

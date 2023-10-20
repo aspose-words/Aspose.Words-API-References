@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Show
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartTitle eigendom. Legt fest ob der Titel für dieses Diagramm angezeigt werden soll. Der Standardwert istWAHR .
+linktitle: Show
+articleTitle: Show
+second_title: Aspose.Words für .NET
+description: ChartTitle Show eigendom. Legt fest ob der Titel für dieses Diagramm angezeigt werden soll. Der Standardwert istWAHR  in C#.
 type: docs
-weight: 30
+weight: 20
 url: /de/net/aspose.words.drawing.charts/charttitle/show/
 ---
 ## ChartTitle.Show property
@@ -14,7 +16,7 @@ Legt fest, ob der Titel für dieses Diagramm angezeigt werden soll. Der Standard
 public bool Show { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und einen Titel festlegt.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### Siehe auch
 
 * class [ChartTitle](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../charttitle/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum NodeChangingAction
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.NodeChangingAction перечисление. Указывает тип изменения узла.
+title: NodeChangingAction Enum
+linktitle: NodeChangingAction
+articleTitle: NodeChangingAction
+second_title: Aspose.Words для .NET
+description: Aspose.Words.NodeChangingAction перечисление. Указывает тип изменения узла на С#.
 type: docs
 weight: 4180
 url: /ru/net/aspose.words/nodechangingaction/
@@ -21,7 +23,7 @@ public enum NodeChangingAction
 | Insert | `0` | В дерево вставляется узел. |
 | Remove | `1` | Узел удаляется из дерева. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать NodeChangingCallback для отслеживания изменений в дереве документа в режиме реального времени по мере его редактирования.
 
@@ -99,5 +101,3 @@ private class NodeChangingPrinter : INodeChangingCallback
 * property [Action](../nodechangingargs/action/)
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

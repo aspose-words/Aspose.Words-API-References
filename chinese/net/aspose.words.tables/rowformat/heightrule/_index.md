@@ -1,7 +1,9 @@
 ---
 title: RowFormat.HeightRule
-second_title: Aspose.Words for .NET API 参考
-description: RowFormat 财产. 获取或设置确定表格行高度的规则
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: 用于 .NET 的 Aspose.Words
+description: RowFormat HeightRule 财产. 获取或设置确定表格行高度的规则 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.tables/rowformat/heightrule/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.tables/rowformat/heightrule/
 public HeightRule HeightRule { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用文档生成器设置行格式。
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * enum [HeightRule](../../../aspose.words/heightrule/)
 * class [RowFormat](../)
-* 命名空间 [Aspose.Words.Tables](../../rowformat/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.Color
-second_title: Aspose.Words for .NET API 参考
-description: HorizontalRuleFormat 财产. 获取或设置填充水平线的画笔颜色
+linktitle: Color
+articleTitle: Color
+second_title: 用于 .NET 的 Aspose.Words
+description: HorizontalRuleFormat Color 财产. 获取或设置填充水平线的画笔颜色 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing/horizontalruleformat/color/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/horizontalruleformat/color/
 public Color Color { get; set; }
 ```
 
-### 评论
+## 评论
 
 这是一个快捷方式[`Color`](../../fill/color/)财产。
 
 默认值为 Gray。
 
-### 例子
+## 例子
 
 演示如何插入水平标尺形状并自定义其格式。
 
@@ -43,7 +45,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### 也可以看看
 
 * class [HorizontalRuleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../horizontalruleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

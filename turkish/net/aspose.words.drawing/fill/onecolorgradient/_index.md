@@ -1,12 +1,14 @@
 ---
 title: Fill.OneColorGradient
-second_title: Aspose.Words for .NET API Referansı
-description: Fill yöntem. Belirtilen dolguyu tek renkli bir degradeye ayarlar.
+linktitle: OneColorGradient
+articleTitle: OneColorGradient
+second_title: Aspose.Words for .NET
+description: Fill OneColorGradient yöntem. Belirtilen dolguyu tek renkli bir degradeye ayarlar C#'da.
 type: docs
-weight: 220
+weight: 210
 url: /tr/net/aspose.words.drawing/fill/onecolorgradient/
 ---
-## OneColorGradient(GradientStyle, GradientVariant, double) {#onecolorgradient}
+## OneColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient}
 
 Belirtilen dolguyu tek renkli bir degradeye ayarlar.
 
@@ -20,7 +22,7 @@ public void OneColorGradient(GradientStyle style, GradientVariant variant, doubl
 | variant | GradientVariant | Degrade varyantı[`GradientVariant`](../../gradientvariant/) |
 | degree | Double | Gradyan derecesi. 0,0 (koyu) ila 1,0 (açık) arasında bir değer olabilir. |
 
-### Örnekler
+## Örnekler
 
 Bir şeklin degradelerle nasıl doldurulacağını gösterir.
 
@@ -63,12 +65,12 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## OneColorGradient(Color, GradientStyle, GradientVariant, double) {#onecolorgradient_1}
+## OneColorGradient(*Color, [GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/), double*) {#onecolorgradient_1}
 
 Belirtilen rengi kullanarak, belirtilen dolguyu tek renkli bir degradeye ayarlar.
 
@@ -84,7 +86,7 @@ public void OneColorGradient(Color color, GradientStyle style, GradientVariant v
 | variant | GradientVariant | Degrade varyantı[`GradientVariant`](../../gradientvariant/) |
 | degree | Double | Gradyan derecesi. 0,0 (koyu) ila 1,0 (açık) arasında bir değer olabilir. |
 
-### Örnekler
+## Örnekler
 
 Bir şeklin degradelerle nasıl doldurulacağını gösterir.
 
@@ -127,7 +129,5 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 * enum [GradientStyle](../../gradientstyle/)
 * enum [GradientVariant](../../gradientvariant/)
 * class [Fill](../)
-* ad alanı [Aspose.Words.Drawing](../../fill/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

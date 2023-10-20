@@ -1,7 +1,9 @@
 ---
 title: Table.TextWrapping
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller sätterTextWrapping för tabell.
+linktitle: TextWrapping
+articleTitle: TextWrapping
+second_title: Aspose.Words för .NET
+description: Table TextWrapping fast egendom. Hämtar eller sätterTextWrapping för tabell i C#.
 type: docs
 weight: 310
 url: /sv/net/aspose.words.tables/table/textwrapping/
@@ -14,7 +16,7 @@ Hämtar eller sätter`TextWrapping` för tabell.
 public TextWrapping TextWrapping { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med tabelltextbrytning.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Table.WrapText.docx");
 
 * enum [TextWrapping](../../textwrapping/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

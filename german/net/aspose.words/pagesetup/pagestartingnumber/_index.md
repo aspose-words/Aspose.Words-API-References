@@ -1,7 +1,9 @@
 ---
 title: PageSetup.PageStartingNumber
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Ruft die erste Seitenzahl des Abschnitts ab oder legt diese fest.
+linktitle: PageStartingNumber
+articleTitle: PageStartingNumber
+second_title: Aspose.Words für .NET
+description: PageSetup PageStartingNumber eigendom. Ruft die erste Seitenzahl des Abschnitts ab oder legt diese fest in C#.
 type: docs
 weight: 330
 url: /de/net/aspose.words/pagesetup/pagestartingnumber/
@@ -14,11 +16,11 @@ Ruft die erste Seitenzahl des Abschnitts ab oder legt diese fest.
 public int PageStartingNumber { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Die[`RestartPageNumbering`](../restartpagenumbering/)Eigenschaft, wenn auf festgelegt`FALSCH` , überschreibt the `PageStartingNumber` Eigenschaft, damit die Seitennummerierung vom vorherigen Abschnitt fortgesetzt werden kann.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Seitennummerierung in einem Abschnitt eingerichtet wird.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

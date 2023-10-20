@@ -1,7 +1,9 @@
 ---
-title: Enum AxisTimeUnit
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.AxisTimeUnit opsomming. Gibt die Zeiteinheit für Achsen an.
+title: AxisTimeUnit Enum
+linktitle: AxisTimeUnit
+articleTitle: AxisTimeUnit
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.AxisTimeUnit opsomming. Gibt die Zeiteinheit für Achsen an in C#.
 type: docs
 weight: 600
 url: /de/net/aspose.words.drawing.charts/axistimeunit/
@@ -23,7 +25,7 @@ public enum AxisTimeUnit
 | Months | `2` | Gibt an, dass die Diagrammdaten in Monaten angezeigt werden sollen. |
 | Years | `3` | Gibt an, dass die Diagrammdaten in Jahren angezeigt werden sollen. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Diagramm mit Datums-/Uhrzeitwerten eingefügt wird.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

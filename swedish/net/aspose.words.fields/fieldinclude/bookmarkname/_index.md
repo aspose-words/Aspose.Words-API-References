@@ -1,7 +1,9 @@
 ---
 title: FieldInclude.BookmarkName
-second_title: Aspose.Words för .NET API Referens
-description: FieldInclude fast egendom. Hämtar eller ställer in namnet på bokmärket i dokumentet för att inkludera.
+linktitle: BookmarkName
+articleTitle: BookmarkName
+second_title: Aspose.Words för .NET
+description: FieldInclude BookmarkName fast egendom. Hämtar eller ställer in namnet på bokmärket i dokumentet för att inkludera i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldinclude/bookmarkname/
@@ -14,7 +16,7 @@ Hämtar eller ställer in namnet på bokmärket i dokumentet för att inkludera.
 public string BookmarkName { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett INKLUDERA-fält och ställer in dess egenskaper.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
 ### Se även
 
 * class [FieldInclude](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldinclude/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

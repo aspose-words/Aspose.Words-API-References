@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertStyleSeparator
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج فاصل النمط في المستند.
+linktitle: InsertStyleSeparator
+articleTitle: InsertStyleSeparator
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder InsertStyleSeparator طريقة. إدراج فاصل النمط في المستند في C#.
 type: docs
-weight: 460
+weight: 450
 url: /ar/net/aspose.words/documentbuilder/insertstyleseparator/
 ---
 ## DocumentBuilder.InsertStyleSeparator method
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/documentbuilder/insertstyleseparator/
 public void InsertStyleSeparator()
 ```
 
-### ملاحظات
+## ملاحظات
 
 تسمح هذه الطريقة بتطبيق أنماط فقرات مختلفة على جزأين مختلفين من سطر النص.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع فواصل الأنماط.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertStyleSeparator.docx");
 ### أنظر أيضا
 
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

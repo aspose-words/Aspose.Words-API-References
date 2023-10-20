@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Font
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabel eigendom. Bietet Zugriff auf die Schriftartformatierung dieser Datenbeschriftung.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words für .NET
+description: ChartDataLabel Font eigendom. Bietet Zugriff auf die Schriftartformatierung dieser Datenbeschriftung in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/chartdatalabel/font/
@@ -14,7 +16,7 @@ Bietet Zugriff auf die Schriftartformatierung dieser Datenbeschriftung.
 public Font Font { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie 3D-Effekte mit Blasendiagrammen verwendet werden.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartDataLabel](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

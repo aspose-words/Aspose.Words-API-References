@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeDestination
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Settings.MailMergeDestination uppräkning. Anger möjliga resultat som kan genereras när en epostsammanslagning utförs på ett dokument.
+title: MailMergeDestination Enum
+linktitle: MailMergeDestination
+articleTitle: MailMergeDestination
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Settings.MailMergeDestination uppräkning. Anger möjliga resultat som kan genereras när en epostsammanslagning utförs på ett dokument i C#.
 type: docs
 weight: 5830
 url: /sv/net/aspose.words.settings/mailmergedestination/
@@ -24,7 +26,7 @@ public enum MailMergeDestination
 | Fax | `4` | Anger att överensstämmande värdapplikationer ska generera fax med hjälp av de dokument som är resultatet av att fyller i fälten i ett givet dokument med data från den angivna externa datakällan. |
 | Default | `0` | är lika medNewDocument värde. |
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -78,5 +80,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [Destination](../mailmergesettings/destination/)
 * namnutrymme [Aspose.Words.Settings](../../aspose.words.settings/)
 * hopsättning [Aspose.Words](../../)
-
-

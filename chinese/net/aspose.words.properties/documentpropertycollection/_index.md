@@ -1,7 +1,9 @@
 ---
-title: Class DocumentPropertyCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Properties.DocumentPropertyCollection 班级. 的基类BuiltInDocumentProperties和CustomDocumentProperties收藏.
+title: DocumentPropertyCollection Class
+linktitle: DocumentPropertyCollection
+articleTitle: DocumentPropertyCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Properties.DocumentPropertyCollection 班级. 的基类BuiltInDocumentProperties和CustomDocumentProperties收藏 在 C#.
 type: docs
 weight: 4480
 url: /zh/net/aspose.words.properties/documentpropertycollection/
@@ -29,19 +31,19 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 | 姓名 | 描述 |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | 从集合中删除所有属性。 |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | 返回`真的`如果集合中存在具有指定名称的属性。 |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | 返回`真的`如果集合中存在具有指定名称的属性。 |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | 按名称获取属性的索引。 |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | 从集合中删除具有指定名称的属性。 |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | 删除指定索引处的属性。 |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | 按名称获取属性的索引。 |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | 从集合中删除具有指定名称的属性。 |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | 删除指定索引处的属性。 |
 
-### 评论
+## 评论
 
 属性的名称不区分大小写。
 
 集合中的属性按名称字母顺序排序。
 
-### 例子
+## 例子
 
 展示如何使用文档的自定义属性。
 
@@ -105,5 +107,3 @@ Assert.AreEqual(0, properties.Count);
 * class [DocumentProperty](../documentproperty/)
 * 命名空间 [Aspose.Words.Properties](../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../)
-
-

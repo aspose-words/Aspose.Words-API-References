@@ -1,7 +1,9 @@
 ---
 title: Style.IsHeading
-second_title: Aspose.Words för .NET API Referens
-description: Style fast egendom. Sant när stilen är en av de inbyggda rubrikstilarna.
+linktitle: IsHeading
+articleTitle: IsHeading
+second_title: Aspose.Words för .NET
+description: Style IsHeading fast egendom. Sant när stilen är en av de inbyggda rubrikstilarna i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/style/isheading/
@@ -14,7 +16,7 @@ Sant när stilen är en av de inbyggda rubrikstilarna.
 public bool IsHeading { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt ett dokuments stilsamling.
 
@@ -42,7 +44,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 ### Se även
 
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

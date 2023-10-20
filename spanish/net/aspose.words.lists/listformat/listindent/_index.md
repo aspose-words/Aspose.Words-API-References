@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListIndent
-second_title: Referencia de API de Aspose.Words para .NET
-description: ListFormat método. Aumenta el nivel de lista del párrafo actual en un nivel.
+linktitle: ListIndent
+articleTitle: ListIndent
+second_title: Aspose.Words para .NET
+description: ListFormat ListIndent método. Aumenta el nivel de lista del párrafo actual en un nivel en C#.
 type: docs
 weight: 70
 url: /es/net/aspose.words.lists/listformat/listindent/
@@ -14,13 +16,13 @@ Aumenta el nivel de lista del párrafo actual en un nivel.
 public void ListIndent()
 ```
 
-### Observaciones
+## Observaciones
 
 Este método cambia el nivel de la lista y aplica las propiedades de formato del nuevo nivel.
 
 En los documentos de Word, las listas pueden constar de hasta nueve niveles. El formato de lista para cada nivel especifica qué viñeta o número se utiliza, sangría izquierda, espacio entre la viñeta y el texto, etc.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear listas numeradas y con viñetas.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### Ver también
 
 * class [ListFormat](../)
-* espacio de nombres [Aspose.Words.Lists](../../listformat/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

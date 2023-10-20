@@ -1,7 +1,9 @@
 ---
 title: UserInformation.Name
-second_title: Aspose.Words für .NET-API-Referenz
-description: UserInformation eigendom. Ruft den Namen des Benutzers ab oder legt ihn fest.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words für .NET
+description: UserInformation Name eigendom. Ruft den Namen des Benutzers ab oder legt ihn fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/userinformation/name/
@@ -14,7 +16,7 @@ Ruft den Namen des Benutzers ab oder legt ihn fest.
 public string Name { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Benutzerdetails festgelegt und mithilfe von Feldern angezeigt werden.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ### Siehe auch
 
 * class [UserInformation](../)
-* namensraum [Aspose.Words.Fields](../../userinformation/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

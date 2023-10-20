@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ViewMergedData
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Gibt an dass Microsoft Word die Daten aus der angegebenen externen Datenquelle anzeigen soll in die Zusammenführungsfelder eingefügt wurden z. B. Vorschau zusammengeführter Daten. Der Standardwert istFALSCH .
+linktitle: ViewMergedData
+articleTitle: ViewMergedData
+second_title: Aspose.Words für .NET
+description: MailMergeSettings ViewMergedData eigendom. Gibt an dass Microsoft Word die Daten aus der angegebenen externen Datenquelle anzeigen soll in die Zusammenführungsfelder eingefügt wurden z. B. Vorschau zusammengeführter Daten. Der Standardwert istFALSCH  in C#.
 type: docs
 weight: 170
 url: /de/net/aspose.words.settings/mailmergesettings/viewmergeddata/
@@ -14,7 +16,7 @@ Gibt an, dass Microsoft Word die Daten aus der angegebenen externen Datenquelle 
 public bool ViewMergedData { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Siehe auch
 
 * class [MailMergeSettings](../)
-* namensraum [Aspose.Words.Settings](../../mailmergesettings/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

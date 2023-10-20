@@ -1,9 +1,11 @@
 ---
 title: Table.ClearShading
-second_title: Aspose.Words for .NET API Referansı
-description: Table yöntem. Masadaki tüm gölgelemeyi kaldırır.
+linktitle: ClearShading
+articleTitle: ClearShading
+second_title: Aspose.Words for .NET
+description: Table ClearShading yöntem. Masadaki tüm gölgelemeyi kaldırır C#'da.
 type: docs
-weight: 400
+weight: 380
 url: /tr/net/aspose.words.tables/table/clearshading/
 ---
 ## Table.ClearShading method
@@ -14,7 +16,7 @@ Masadaki tüm gölgelemeyi kaldırır.
 public void ClearShading()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir tabloya anahat kenarlığının nasıl uygulanacağını gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 ### Ayrıca bakınız
 
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

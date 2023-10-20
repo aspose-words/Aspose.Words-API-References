@@ -1,7 +1,9 @@
 ---
 title: Comment.Ancestor
-second_title: Aspose.Words for .NET API 参考
-description: Comment 财产. 返回父级Comment目的退货无效的获取顶级评论
+linktitle: Ancestor
+articleTitle: Ancestor
+second_title: 用于 .NET 的 Aspose.Words
+description: Comment Ancestor 财产. 返回父级Comment目的退货无效的获取顶级评论 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/comment/ancestor/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/comment/ancestor/
 public Comment Ancestor { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何打印文档的所有注释及其回复。
 
@@ -40,7 +42,5 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 ### 也可以看看
 
 * class [Comment](../)
-* 命名空间 [Aspose.Words](../../comment/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

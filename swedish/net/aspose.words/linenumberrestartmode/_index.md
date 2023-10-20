@@ -1,7 +1,9 @@
 ---
-title: Enum LineNumberRestartMode
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.LineNumberRestartMode uppräkning. Bestämmer när automatisk radnumrering startar om.
+title: LineNumberRestartMode Enum
+linktitle: LineNumberRestartMode
+articleTitle: LineNumberRestartMode
+second_title: Aspose.Words för .NET
+description: Aspose.Words.LineNumberRestartMode uppräkning. Bestämmer när automatisk radnumrering startar om i C#.
 type: docs
 weight: 3430
 url: /sv/net/aspose.words/linenumberrestartmode/
@@ -22,7 +24,7 @@ public enum LineNumberRestartMode
 | RestartSection | `1` | Radnumrering startar om vid avsnittets start. |
 | Continuous | `2` | Radnumrering löpande från föregående avsnitt. |
 
-### Exempel
+## Exempel
 
 Visar hur man aktiverar radnumrering för en sektion.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 * property [LineNumberRestartMode](../pagesetup/linenumberrestartmode/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

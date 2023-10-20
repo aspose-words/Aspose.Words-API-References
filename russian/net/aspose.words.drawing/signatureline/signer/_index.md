@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.Signer
-second_title: Справочник по API Aspose.Words для .NET
-description: SignatureLine свойство. Получает или задает предполагаемого подписывающего лица в строке подписи. Значение по умолчанию для этого свойства пустая строка Empty.
+linktitle: Signer
+articleTitle: Signer
+second_title: Aspose.Words для .NET
+description: SignatureLine Signer свойство. Получает или задает предполагаемого подписывающего лица в строке подписи. Значение по умолчанию для этого свойствапустая строка Empty на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.drawing/signatureline/signer/
 ---
 ## SignatureLine.Signer property
 
-Получает или задает предполагаемого подписывающего лица в строке подписи. Значение по умолчанию для этого свойства: **пустая строка** (Empty).
+Получает или задает предполагаемого подписывающего лица в строке подписи. Значение по умолчанию для этого свойства:**пустая строка** (Empty).
 
 ```csharp
 public string Signer { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать строку для подписи и вставить ее в документ.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Смотрите также
 
 * class [SignatureLine](../)
-* пространство имен [Aspose.Words.Drawing](../../signatureline/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

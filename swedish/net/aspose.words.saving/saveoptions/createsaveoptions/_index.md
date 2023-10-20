@@ -1,12 +1,14 @@
 ---
 title: SaveOptions.CreateSaveOptions
-second_title: Aspose.Words för .NET API Referens
-description: SaveOptions metod. Skapar ett sparalternativobjekt av en klass som är lämplig för det angivna lagringsformatet.
+linktitle: CreateSaveOptions
+articleTitle: CreateSaveOptions
+second_title: Aspose.Words för .NET
+description: SaveOptions CreateSaveOptions metod. Skapar ett sparalternativobjekt av en klass som är lämplig för det angivna lagringsformatet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/saveoptions/createsaveoptions/
 ---
-## CreateSaveOptions(SaveFormat) {#createsaveoptions}
+## CreateSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#createsaveoptions}
 
 Skapar ett sparalternativobjekt av en klass som är lämplig för det angivna lagringsformatet.
 
@@ -22,7 +24,7 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 
 Ett objekt av en klass som härrör från[`SaveOptions`](../).
 
-### Exempel
+## Exempel
 
 Visar ett alternativ för att optimera minnesförbrukningen vid rendering av stora dokument till PDF.
 
@@ -45,12 +47,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [SaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../saveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## CreateSaveOptions(string) {#createsaveoptions_1}
+## CreateSaveOptions(*string*) {#createsaveoptions_1}
 
 Skapar ett sparaalternativobjekt av en klass som är lämplig för filtillägget som anges i det angivna filnamnet.
 
@@ -66,7 +68,7 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 Ett objekt av en klass som härrör från[`SaveOptions`](../).
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in en standardmall för dokument som inte har bifogade mallar.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Se även
 
 * class [SaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../saveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

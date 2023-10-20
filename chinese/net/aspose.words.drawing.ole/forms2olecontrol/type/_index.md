@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Type
-second_title: Aspose.Words for .NET API 参考
-description: Forms2OleControl 财产. 获取 Forms 2.0 控件的类型
+linktitle: Type
+articleTitle: Type
+second_title: 用于 .NET 的 Aspose.Words
+description: Forms2OleControl Type 财产. 获取 Forms 2.0 控件的类型 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing.ole/forms2olecontrol/type/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.ole/forms2olecontrol/type/
 public abstract Forms2OleControlType Type { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何验证 ActiveX 控件的属性。
 
@@ -45,7 +47,5 @@ if (oleControl.IsForms2OleControl)
 
 * enum [Forms2OleControlType](../../forms2olecontroltype/)
 * class [Forms2OleControl](../)
-* 命名空间 [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* 命名空间 [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * 部件 [Aspose.Words](../../../)
-
-

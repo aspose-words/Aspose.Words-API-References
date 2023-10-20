@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.ImageFileName
-second_title: Referencia de API de Aspose.Words para .NET
-description: ImageFieldMergingArgs propiedad. Establece el nombre de archivo de la imagen que el motor de combinación de correspondencia debe insertar en el documento.
+linktitle: ImageFileName
+articleTitle: ImageFileName
+second_title: Aspose.Words para .NET
+description: ImageFieldMergingArgs ImageFileName propiedad. Establece el nombre de archivo de la imagen que el motor de combinación de correspondencia debe insertar en el documento en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.mailmerging/imagefieldmergingargs/imagefilename/
@@ -14,7 +16,7 @@ Establece el nombre de archivo de la imagen que el motor de combinación de corr
 public string ImageFileName { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar las dimensiones de las imágenes según las acepta MERGEFIELDS durante una combinación de correspondencia.
 
@@ -84,7 +86,5 @@ private class MergedImageResizer : IFieldMergingCallback
 ### Ver también
 
 * class [ImageFieldMergingArgs](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

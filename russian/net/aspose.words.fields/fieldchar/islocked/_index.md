@@ -1,7 +1,9 @@
 ---
 title: FieldChar.IsLocked
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldChar свойство. Получает или задает заблокировано ли родительское поле не следует пересчитывать его результат.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words для .NET
+description: FieldChar IsLocked свойство. Получает или задает заблокировано ли родительское поле не следует пересчитывать его результат на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldchar/islocked/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldchar/islocked/
 public bool IsLocked { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с узлом FieldStart.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Смотрите также
 
 * class [FieldChar](../)
-* пространство имен [Aspose.Words.Fields](../../fieldchar/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

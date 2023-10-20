@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.PosCodeStyle
-second_title: Aspose.Words لمراجع .NET API
-description: BarcodeParameters ملكية. نمط الباركود لنقطة البيع أنواع الباركود UPCAUPCEEAN13EAN8. القيم الصالحة غير حساسة لحالة الأحرف هي STDSUP2SUP5CASE.
+linktitle: PosCodeStyle
+articleTitle: PosCodeStyle
+second_title: Aspose.Words لـ .NET
+description: BarcodeParameters PosCodeStyle ملكية. نمط الباركود لنقطة البيع أنواع الباركود UPCAUPCEEAN13EAN8. القيم الصالحة غير حساسة لحالة الأحرف هي STDSUP2SUP5CASE في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.fields/barcodeparameters/poscodestyle/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/barcodeparameters/poscodestyle/
 public string PosCodeStyle { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام مولد الباركود.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### أنظر أيضا
 
 * class [BarcodeParameters](../)
-* مساحة الاسم [Aspose.Words.Fields](../../barcodeparameters/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

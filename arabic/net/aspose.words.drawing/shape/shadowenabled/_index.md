@@ -1,7 +1,9 @@
 ---
 title: Shape.ShadowEnabled
-second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. إرجاعحقيقي إذا تم تمكين تأثير الظل.
+linktitle: ShadowEnabled
+articleTitle: ShadowEnabled
+second_title: Aspose.Words لـ .NET
+description: Shape ShadowEnabled ملكية. إرجاعحقيقي إذا تم تمكين تأثير الظل في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.drawing/shape/shadowenabled/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing/shape/shadowenabled/
 public bool ShadowEnabled { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التكرار على كافة الأشكال في المستند.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### أنظر أيضا
 
 * class [Shape](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../shape/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

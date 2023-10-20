@@ -1,7 +1,9 @@
 ---
-title: Class AxisDisplayUnit
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.AxisDisplayUnit sınıf. Değer ekseni için görüntüleme birimlerinin ölçeklendirme seçeneklerine erişim sağlar.
+title: AxisDisplayUnit Class
+linktitle: AxisDisplayUnit
+articleTitle: AxisDisplayUnit
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.Charts.AxisDisplayUnit sınıf. Değer ekseni için görüntüleme birimlerinin ölçeklendirme seçeneklerine erişim sağlar C#'da.
 type: docs
 weight: 550
 url: /tr/net/aspose.words.drawing.charts/axisdisplayunit/
@@ -30,7 +32,7 @@ public class AxisDisplayUnit
 | [Document](../../aspose.words.drawing.charts/axisdisplayunit/document/) { get; } | Tapu sahibinin ait olduğu Belgeyi döndürür. |
 | [Unit](../../aspose.words.drawing.charts/axisdisplayunit/unit/) { get; set; } | Görüntü birimlerinin ölçeklendirme değerini önceden tanımlanmış değerlerden biri olarak alır veya ayarlar. |
 
-### Örnekler
+## Örnekler
 
 Bir grafik ekseninin onay işaretlerinin ve görüntülenen değerlerinin nasıl değiştirileceğini gösterir.
 
@@ -89,5 +91,3 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum MarkerSymbol
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.MarkerSymbol enum. Specifica lo stile del simbolo del contrassegno.
+title: MarkerSymbol Enum
+linktitle: MarkerSymbol
+articleTitle: MarkerSymbol
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Charts.MarkerSymbol enum. Specifica lo stile del simbolo del contrassegno in C#.
 type: docs
 weight: 920
 url: /it/net/aspose.words.drawing.charts/markersymbol/
@@ -31,7 +33,7 @@ public enum MarkerSymbol
 | Triangle | `10` | Specifica che verrà disegnato un triangolo in corrispondenza di ciascun punto dati. |
 | X | `11` | Specifica che deve essere disegnata una X in corrispondenza di ciascun punto dati. |
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i punti dati su un grafico a linee.
 
@@ -94,5 +96,3 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../)
-
-

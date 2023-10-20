@@ -1,7 +1,9 @@
 ---
 title: Node.PreviousSibling
-second_title: Справочник по API Aspose.Words для .NET
-description: Node свойство. Получает узел непосредственно предшествующий этому узлу.
+linktitle: PreviousSibling
+articleTitle: PreviousSibling
+second_title: Aspose.Words для .NET
+description: Node PreviousSibling свойство. Получает узел непосредственно предшествующий этому узлу на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/node/previoussibling/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words/node/previoussibling/
 public Node PreviousSibling { get; }
 ```
 
-### Примечания
+## Примечания
 
 Если предыдущего узла нет,`нулевой` возвращается.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать методы Node и CompositeNode для удаления раздела перед последним разделом в документе.
 
@@ -45,7 +47,5 @@ Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ### Смотрите также
 
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

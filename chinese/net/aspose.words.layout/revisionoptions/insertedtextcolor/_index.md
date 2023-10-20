@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.InsertedTextColor
-second_title: Aspose.Words for .NET API 参考
-description: RevisionOptions 财产. 允许指定用于插入内容的颜色Insertion. 默认值为ByAuthor.
+linktitle: InsertedTextColor
+articleTitle: InsertedTextColor
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionOptions InsertedTextColor 财产. 允许指定用于插入内容的颜色Insertion. 默认值为ByAuthor 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.layout/revisionoptions/insertedtextcolor/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/revisionoptions/insertedtextcolor/
 public RevisionColor InsertedTextColor { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何更改渲染输出文档中修订的外观。
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* 命名空间 [Aspose.Words.Layout](../../revisionoptions/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ReplaceAction
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Replacing.ReplaceAction opsomming. Ermöglicht dem Benutzer festzulegen was mit der aktuellen Übereinstimmung während eines Ersetzungsvorgangs geschieht.
+title: ReplaceAction Enum
+linktitle: ReplaceAction
+articleTitle: ReplaceAction
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Replacing.ReplaceAction opsomming. Ermöglicht dem Benutzer festzulegen was mit der aktuellen Übereinstimmung während eines Ersetzungsvorgangs geschieht in C#.
 type: docs
 weight: 4640
 url: /de/net/aspose.words.replacing/replaceaction/
@@ -22,7 +24,7 @@ public enum ReplaceAction
 | Skip | `1` | Das aktuelle Spiel überspringen. |
 | Stop | `2` | Beenden Sie den Ersetzungsvorgang. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt eines gesamten Dokuments als Ersatz für eine Übereinstimmung in einem Suchen-und-Ersetzen-Vorgang eingefügt wird.
 
@@ -100,5 +102,3 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 * method [Replace](../../aspose.words/range/replace/)
 * namensraum [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../)
-
-

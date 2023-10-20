@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Item
-second_title: Aspose.Words per .NET API Reference
-description: TextColumnCollection proprietà. Restituisce una colonna di testo nellindice specificato.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words per .NET
+description: TextColumnCollection Item proprietà. Restituisce una colonna di testo nellindice specificato in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/textcolumncollection/item/
@@ -14,7 +16,7 @@ Restituisce una colonna di testo nell'indice specificato.
 public TextColumn this[int index] { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare colonne con spaziatura non uniforme.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 
 * class [TextColumn](../../textcolumn/)
 * class [TextColumnCollection](../)
-* spazio dei nomi [Aspose.Words](../../textcolumncollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

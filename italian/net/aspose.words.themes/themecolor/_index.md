@@ -1,7 +1,9 @@
 ---
-title: Enum ThemeColor
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Themes.ThemeColor enum. Specifica i colori del tema per i temi dei documenti.
+title: ThemeColor Enum
+linktitle: ThemeColor
+articleTitle: ThemeColor
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Themes.ThemeColor enum. Specifica i colori del tema per i temi dei documenti in C#.
 type: docs
 weight: 6470
 url: /it/net/aspose.words.themes/themecolor/
@@ -38,11 +40,11 @@ public enum ThemeColor
 | Background1 | `14` | Colore sfondo 1. |
 | Background2 | `15` | Colore di sfondo 2. |
 
-### Osservazioni
+## Osservazioni
 
 Il colore del tema specificato è un riferimento a uno dei colori del tema predefiniti, situato nella parte Tema del documento , che consente di impostare centralmente le informazioni sul colore nel documento.
 
-### Esempi
+## Esempi
 
 Mostra come creare e utilizzare lo stile a tema.
 
@@ -147,5 +149,3 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * spazio dei nomi [Aspose.Words.Themes](../../aspose.words.themes/)
 * assemblea [Aspose.Words](../../)
-
-

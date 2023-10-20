@@ -1,7 +1,9 @@
 ---
 title: ComHelper.OpenIStream
-second_title: Aspose.Words für .NET-API-Referenz
-description: ComHelper methode. Ermöglicht einer COMAnwendung das Laden von aDocument von einem IStreamObjekt.
+linktitle: OpenIStream
+articleTitle: OpenIStream
+second_title: Aspose.Words für .NET
+description: ComHelper OpenIStream methode. Ermöglicht einer COMAnwendung das Laden von aDocument von einem IStreamObjekt in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/comhelper/openistream/
@@ -26,7 +28,5 @@ A[`Document`](../../document/)Objekt, das ein Word-Dokument darstellt.
 
 * class [Document](../../document/)
 * class [ComHelper](../)
-* namensraum [Aspose.Words](../../comhelper/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

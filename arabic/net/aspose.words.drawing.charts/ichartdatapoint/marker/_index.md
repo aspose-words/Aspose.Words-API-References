@@ -1,7 +1,9 @@
 ---
 title: IChartDataPoint.Marker
-second_title: Aspose.Words لمراجع .NET API
-description: IChartDataPoint ملكية. يحدد علامة البيانات. يتم إنشاء العلامة تلقائيًا عند الطلب.
+linktitle: Marker
+articleTitle: Marker
+second_title: Aspose.Words لـ .NET
+description: IChartDataPoint Marker ملكية. يحدد علامة البيانات. يتم إنشاء العلامة تلقائيًا عند الطلب في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing.charts/ichartdatapoint/marker/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/ichartdatapoint/marker/
 public ChartMarker Marker { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع نقاط البيانات على مخطط خطي.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * class [ChartMarker](../../chartmarker/)
 * interface [IChartDataPoint](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../ichartdatapoint/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

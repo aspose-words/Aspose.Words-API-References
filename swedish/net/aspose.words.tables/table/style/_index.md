@@ -1,7 +1,9 @@
 ---
 title: Table.Style
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar eller ställer in tabellstilen som tillämpas på denna tabell.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words för .NET
+description: Table Style fast egendom. Hämtar eller ställer in tabellstilen som tillämpas på denna tabell i C#.
 type: docs
 weight: 270
 url: /sv/net/aspose.words.tables/table/style/
@@ -14,7 +16,7 @@ Hämtar eller ställer in tabellstilen som tillämpas på denna tabell.
 public Style Style { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar anpassade stilinställningar för tabellen.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 
 * class [Style](../../../aspose.words/style/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

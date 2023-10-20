@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Insert
-second_title: Справочник по API Aspose.Words для .NET
-description: DropDownItemCollection метод. Вставляет строку в коллекцию по указанному индексу.
+linktitle: Insert
+articleTitle: Insert
+second_title: Aspose.Words для .NET
+description: DropDownItemCollection Insert метод. Вставляет строку в коллекцию по указанному индексу на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/dropdownitemcollection/insert/
@@ -19,7 +21,7 @@ public void Insert(int index, string value)
 | index | Int32 | Индекс, отсчитываемый от нуля, по которому вставляется значение. |
 | value | String | Строка для вставки. |
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле со списком и отредактировать элементы в его коллекции элементов.
 
@@ -73,7 +75,5 @@ dropDownItems.Clear();
 ### Смотрите также
 
 * class [DropDownItemCollection](../)
-* пространство имен [Aspose.Words.Fields](../../dropdownitemcollection/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

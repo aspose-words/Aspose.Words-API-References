@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.FirstChild
-second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode ملكية. يحصل على الطفل الأول للعقدة.
+linktitle: FirstChild
+articleTitle: FirstChild
+second_title: Aspose.Words لـ .NET
+description: CompositeNode FirstChild ملكية. يحصل على الطفل الأول للعقدة في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/compositenode/firstchild/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/compositenode/firstchild/
 public Node FirstChild { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا لم تكن هناك عقدة فرعية أولى، أ`باطل` تم إرجاعها.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام خاصية NextSibling الخاصة بالعقدة للتعداد من خلال أبنائها المباشرين.
 
@@ -81,7 +83,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* مساحة الاسم [Aspose.Words](../../compositenode/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

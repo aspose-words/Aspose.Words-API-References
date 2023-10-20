@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageIndex
-second_title: Aspose.Words för .NET API Referens
-description: PageSavingArgs fast egendom. Aktuellt sidindex.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words för .NET
+description: PageSavingArgs PageIndex fast egendom. Aktuellt sidindex i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/pagesavingargs/pageindex/
@@ -14,7 +16,7 @@ Aktuellt sidindex.
 public int PageIndex { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att spara ett dokument i HTML sida för sida.
 
@@ -71,7 +73,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### Se även
 
 * class [PageSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../pagesavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

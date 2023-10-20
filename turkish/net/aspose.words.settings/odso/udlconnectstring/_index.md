@@ -1,7 +1,9 @@
 ---
 title: Odso.UdlConnectString
-second_title: Aspose.Words for .NET API Referansı
-description: Odso mülk. Harici bir veri kaynağına bağlanmak için kullanılan Evrensel Veri Bağlantısı UDL bağlantı dizesini belirtir. Varsayılan değer boş bir dizedir.
+linktitle: UdlConnectString
+articleTitle: UdlConnectString
+second_title: Aspose.Words for .NET
+description: Odso UdlConnectString mülk. Harici bir veri kaynağına bağlanmak için kullanılan Evrensel Veri Bağlantısı UDL bağlantı dizesini belirtir. Varsayılan değer boş bir dizedir C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.settings/odso/udlconnectstring/
@@ -14,7 +16,7 @@ Harici bir veri kaynağına bağlanmak için kullanılan Evrensel Veri Bağlant�
 public string UdlConnectString { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Dış veri kaynağına bağlanırken adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### Ayrıca bakınız
 
 * class [Odso](../)
-* ad alanı [Aspose.Words.Settings](../../odso/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,14 +1,16 @@
 ---
 title: StructuredDocumentTag.IsShowingPlaceholderText
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 指定此内容是否 特殊测试应被解释为包含占位符文本 与 SDT 中的常规文本内容相反
+linktitle: IsShowingPlaceholderText
+articleTitle: IsShowingPlaceholderText
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag IsShowingPlaceholderText 财产. 指定此内容是否特殊测试应被解释为包含占位符文本 与 SDT 中的常规文本内容相反 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.markup/structureddocumenttag/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTag.IsShowingPlaceholderText property
 
-指定此内容是否 **特殊测试**应被解释为包含占位符文本 （与 SDT 中的常规文本内容相反）。
+指定此内容是否**特殊测试**应被解释为包含占位符文本 （与 SDT 中的常规文本内容相反）。
 
 如果设置为`真的`，打开此文档后应恢复此状态（显示占位符文本）。
 
@@ -16,7 +18,7 @@ url: /zh/net/aspose.words.markup/structureddocumenttag/isshowingplaceholdertext/
 public bool IsShowingPlaceholderText { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用构建块的内容作为结构化文档标记的自定义占位符文本。
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlaceholderBuildingBlock.docx");
 ### 也可以看看
 
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

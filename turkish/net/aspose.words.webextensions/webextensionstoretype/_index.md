@@ -1,7 +1,9 @@
 ---
-title: Enum WebExtensionStoreType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WebExtensions.WebExtensionStoreType Sıralama. Web uzantısı deposunun kullanılabilir türlerini numaralandırır.
+title: WebExtensionStoreType Enum
+linktitle: WebExtensionStoreType
+articleTitle: WebExtensionStoreType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.WebExtensions.WebExtensionStoreType Sıralama. Web uzantısı deposunun kullanılabilir türlerini numaralandırır C#'da.
 type: docs
 weight: 6820
 url: /tr/net/aspose.words.webextensions/webextensionstoretype/
@@ -27,7 +29,7 @@ public enum WebExtensionStoreType
 | ExCatalog | `6` | Mağaza türünün Exchange Aracılığıyla Merkezi Dağıtım olduğunu belirtir. |
 | Default | `0` | Varsayılan değer. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 
@@ -73,5 +75,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * ad alanı [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../)
-
-

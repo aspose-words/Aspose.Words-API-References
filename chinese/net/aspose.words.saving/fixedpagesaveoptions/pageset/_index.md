@@ -1,7 +1,9 @@
 ---
 title: FixedPageSaveOptions.PageSet
-second_title: Aspose.Words for .NET API 参考
-description: FixedPageSaveOptions 财产. 获取或设置要呈现的页面 默认为文档中的所有页面
+linktitle: PageSet
+articleTitle: PageSet
+second_title: 用于 .NET 的 Aspose.Words
+description: FixedPageSaveOptions PageSet 财产. 获取或设置要呈现的页面 默认为文档中的所有页面 在 C#.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/fixedpagesaveoptions/pageset/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/fixedpagesaveoptions/pageset/
 public PageSet PageSet { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何根据精确的页面索引提取页面。
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.All.pdf", options);
 
 * class [PageSet](../../pageset/)
 * class [FixedPageSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../fixedpagesaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

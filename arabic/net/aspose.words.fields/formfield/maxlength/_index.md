@@ -1,7 +1,9 @@
 ---
 title: FormField.MaxLength
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. الحد الأقصى لطول حقل النص. صفر عندما لا يكون الطول محدودًا.
+linktitle: MaxLength
+articleTitle: MaxLength
+second_title: Aspose.Words لـ .NET
+description: FormField MaxLength ملكية. الحد الأقصى لطول حقل النص. صفر عندما لا يكون الطول محدودًا في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.fields/formfield/maxlength/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/formfield/maxlength/
 public int MaxLength { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
 
@@ -148,7 +150,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

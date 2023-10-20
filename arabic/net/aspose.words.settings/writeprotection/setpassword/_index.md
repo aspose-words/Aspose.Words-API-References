@@ -1,7 +1,9 @@
 ---
 title: WriteProtection.SetPassword
-second_title: Aspose.Words لمراجع .NET API
-description: WriteProtection طريقة. يضبط كلمة مرور الحماية ضد الكتابة للمستند.
+linktitle: SetPassword
+articleTitle: SetPassword
+second_title: Aspose.Words لـ .NET
+description: WriteProtection SetPassword طريقة. يضبط كلمة مرور الحماية ضد الكتابة للمستند في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/writeprotection/setpassword/
@@ -18,11 +20,11 @@ public void SetPassword(string password)
 | --- | --- | --- |
 | password | String | كلمة المرور لتعيينها. لا يمكن`باطل`، ولكن يمكن أن تكون سلسلة فارغة. |
 
-### ملاحظات
+## ملاحظات
 
 إذا تم تعيين كلمة مرور، فسيطلب Microsoft Word من المستخدم إدخالها أو فتح المستند للقراءة فقط.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية حماية مستند بكلمة مرور.
 
@@ -54,7 +56,5 @@ Assert.AreEqual("Hello world! This document is protected." +
 ### أنظر أيضا
 
 * class [WriteProtection](../)
-* مساحة الاسم [Aspose.Words.Settings](../../writeprotection/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

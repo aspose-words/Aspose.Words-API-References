@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.BarcodeValue
-second_title: Referencia de API de Aspose.Words para .NET
-description: BarcodeParameters propiedad. Datos a codificar.
+linktitle: BarcodeValue
+articleTitle: BarcodeValue
+second_title: Aspose.Words para .NET
+description: BarcodeParameters BarcodeValue propiedad. Datos a codificar en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/barcodeparameters/barcodevalue/
@@ -14,7 +16,7 @@ Datos a codificar.
 public string BarcodeValue { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar un generador de códigos de barras.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ver también
 
 * class [BarcodeParameters](../)
-* espacio de nombres [Aspose.Words.Fields](../../barcodeparameters/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

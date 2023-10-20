@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.InsertFootnote
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Inserta una nota al pie o una nota final en el documento.
+linktitle: InsertFootnote
+articleTitle: InsertFootnote
+second_title: Aspose.Words para .NET
+description: DocumentBuilder InsertFootnote método. Inserta una nota al pie o una nota final en el documento en C#.
 type: docs
-weight: 340
+weight: 330
 url: /es/net/aspose.words/documentbuilder/insertfootnote/
 ---
-## InsertFootnote(FootnoteType, string) {#insertfootnote}
+## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string*) {#insertfootnote}
 
 Inserta una nota al pie o una nota final en el documento.
 
@@ -23,7 +25,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
 
 Devuelve un objeto de nota al pie que se acaba de crear.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo hacer referencia al texto con una nota al pie y una nota al final.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## InsertFootnote(FootnoteType, string, string) {#insertfootnote_1}
+## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string, string*) {#insertfootnote_1}
 
 Inserta una nota al pie o una nota final en el documento.
 
@@ -79,7 +81,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, s
 
 Devuelve un objeto de nota al pie que se acaba de crear.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo hacer referencia al texto con una nota al pie y una nota al final.
 
@@ -112,7 +114,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 * class [Footnote](../../../aspose.words.notes/footnote/)
 * enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Section.ClearHeadersFooters
-second_title: Aspose.Words för .NET API Referens
-description: Section metod. Rensar sidhuvuden och sidfötter i det här avsnittet.
+linktitle: ClearHeadersFooters
+articleTitle: ClearHeadersFooters
+second_title: Aspose.Words för .NET
+description: Section ClearHeadersFooters metod. Rensar sidhuvuden och sidfötter i det här avsnittet i C#.
 type: docs
-weight: 120
+weight: 100
 url: /sv/net/aspose.words/section/clearheadersfooters/
 ---
 ## Section.ClearHeadersFooters method
@@ -14,13 +16,13 @@ Rensar sidhuvuden och sidfötter i det här avsnittet.
 public void ClearHeadersFooters()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Texten i alla sidhuvuden och sidfötter rensas, men[`HeaderFooter`](../../headerfooter/) själva föremålen tas inte bort.
 
 Detta gör sidhuvuden och sidfötter i det här avsnittet länkade till sidhuvuden och sidfötter i föregående avsnitt.
 
-### Exempel
+## Exempel
 
 Visar hur du rensar innehållet i alla sidhuvuden och sidfötter i ett avsnitt.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(string.Empty, doc.FirstSection.HeadersFooters[HeaderFooterType.F
 ### Se även
 
 * class [Section](../)
-* namnutrymme [Aspose.Words](../../section/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

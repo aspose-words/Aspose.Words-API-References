@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SuppressTopSpacingWP
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Émuler lespacement des lignes WordPerfect 5.x.
+linktitle: SuppressTopSpacingWP
+articleTitle: SuppressTopSpacingWP
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions SuppressTopSpacingWP propriété. Émuler lespacement des lignes WordPerfect 5.x en C#.
 type: docs
 weight: 520
 url: /fr/net/aspose.words.settings/compatibilityoptions/suppresstopspacingwp/
@@ -17,7 +19,5 @@ public bool SuppressTopSpacingWP { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

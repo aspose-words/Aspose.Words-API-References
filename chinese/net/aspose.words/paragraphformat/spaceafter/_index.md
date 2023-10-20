@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SpaceAfter
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取或设置段落后的间距以磅为单位
+linktitle: SpaceAfter
+articleTitle: SpaceAfter
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat SpaceAfter 财产. 获取或设置段落后的间距以磅为单位 在 C#.
 type: docs
 weight: 300
 url: /zh/net/aspose.words/paragraphformat/spaceafter/
@@ -20,13 +22,13 @@ public double SpaceAfter { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | 当参数超出有效值范围时抛出。 |
 
-### 评论
+## 评论
 
 当[`SpaceAfterAuto`](../spaceafterauto/)是`真的`。
 
 有效值范围从 0 到 1584（含）。
 
-### 例子
+## 例子
 
 演示如何设置自动段落间距。
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

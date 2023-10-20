@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.DateStorageFormat
-second_title: Aspose.Words for .NET API 参考
-description: StructuredDocumentTag 财产. 获取/设置日期 SDT 的日期存储格式 特殊测试绑定到文档数据存储中的 XML 节点 默认值为DateTime
+linktitle: DateStorageFormat
+articleTitle: DateStorageFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: StructuredDocumentTag DateStorageFormat 财产. 获取/设置日期 SDT 的日期存储格式特殊测试绑定到文档数据存储中的 XML 节点 默认值为DateTime 在 C#.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.markup/structureddocumenttag/datestorageformat/
 ---
 ## StructuredDocumentTag.DateStorageFormat property
 
-获取/设置日期 SDT 的日期存储格式 **特殊测试**绑定到文档数据存储中的 XML 节点。 默认值为DateTime
+获取/设置日期 SDT 的日期存储格式**特殊测试**绑定到文档数据存储中的 XML 节点。 默认值为DateTime
 
 ```csharp
 public SdtDateStorageFormat DateStorageFormat { get; set; }
 ```
 
-### 评论
+## 评论
 
 访问该属性仅适用于DateSDT 类型.
 
 对于所有其他 SDT 类型，都会发生异常。
 
-### 例子
+## 例子
 
 演示如何提示用户输入带有结构化文档标记的日期。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.Date.docx");
 
 * enum [SdtDateStorageFormat](../../sdtdatestorageformat/)
 * class [StructuredDocumentTag](../)
-* 命名空间 [Aspose.Words.Markup](../../structureddocumenttag/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

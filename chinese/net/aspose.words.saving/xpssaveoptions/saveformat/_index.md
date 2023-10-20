@@ -1,7 +1,9 @@
 ---
 title: XpsSaveOptions.SaveFormat
-second_title: Aspose.Words for .NET API 参考
-description: XpsSaveOptions 财产. 指定使用此保存选项对象时保存文档的格式 只能是Xps.
+linktitle: SaveFormat
+articleTitle: SaveFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: XpsSaveOptions SaveFormat 财产. 指定使用此保存选项对象时保存文档的格式 只能是Xps 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/xpssaveoptions/saveformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/xpssaveoptions/saveformat/
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何限制将出现在已保存 XPS 文档大纲中的标题级别。
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 * enum [SaveFormat](../../../aspose.words/saveformat/)
 * class [XpsSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../xpssaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

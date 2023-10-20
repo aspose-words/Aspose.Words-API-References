@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.IgnoreDmlUniqueId
-second_title: Aspose.Words for .NET API 参考
-description: CompareOptions 财产. 指定是否忽略 DrawingML 唯一 ID 中的差异 默认值为错误的.
+linktitle: IgnoreDmlUniqueId
+articleTitle: IgnoreDmlUniqueId
+second_title: 用于 .NET 的 Aspose.Words
+description: CompareOptions IgnoreDmlUniqueId 财产. 指定是否忽略 DrawingML 唯一 ID 中的差异 默认值为错误的 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.comparing/compareoptions/ignoredmluniqueid/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.comparing/compareoptions/ignoredmluniqueid/
 public bool IgnoreDmlUniqueId { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何比较文档而忽略 DML 唯一 ID。
 
@@ -35,7 +37,5 @@ Assert.AreEqual(isIgnoreDmlUniqueId ? 0 : 2, docA.Revisions.Count);
 ### 也可以看看
 
 * class [CompareOptions](../)
-* 命名空间 [Aspose.Words.Comparing](../../compareoptions/)
+* 命名空间 [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * 部件 [Aspose.Words](../../../)
-
-

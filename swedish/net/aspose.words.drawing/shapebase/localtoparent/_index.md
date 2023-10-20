@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.LocalToParent
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase metod. Konverterar ett värde från det lokala koordinatutrymmet till koordinatutrymmet för den överordnade formen.
+linktitle: LocalToParent
+articleTitle: LocalToParent
+second_title: Aspose.Words för .NET
+description: ShapeBase LocalToParent metod. Konverterar ett värde från det lokala koordinatutrymmet till koordinatutrymmet för den överordnade formen i C#.
 type: docs
 weight: 670
 url: /sv/net/aspose.words.drawing/shapebase/localtoparent/
@@ -14,7 +16,7 @@ Konverterar ett värde från det lokala koordinatutrymmet till koordinatutrymmet
 public PointF LocalToParent(PointF value)
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man översätter x- och y-koordinatpositionen på en forms koordinatplan till en plats på den överordnade formens koordinatplan.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Shape.LocalToParent.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.WarningCallback
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBase 财产. 在检测到可能导致 数据或格式保真度损失的问题时在各种文档处理过程中调用
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBase WarningCallback 财产. 在检测到可能导致 数据或格式保真度损失的问题时在各种文档处理过程中调用 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/documentbase/warningcallback/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/documentbase/warningcallback/
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### 评论
+## 评论
 
 文档可能在其存在的任何阶段生成警告，因此尽早设置警告回调 as 以避免警告丢失非常重要。例如这样的属性[`PageCount`](../../document/pagecount/) 实际上构建了稍后用于渲染的文档布局，如果 仅为稍后的渲染调用指定了警告回调，则布局警告可能会丢失。
 
-### 例子
+## 例子
 
 演示如何使用 IWarningCallback 接口来监视字体替换警告。
 
@@ -127,7 +129,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 
 * interface [IWarningCallback](../../iwarningcallback/)
 * class [DocumentBase](../)
-* 命名空间 [Aspose.Words](../../documentbase/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

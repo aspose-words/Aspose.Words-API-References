@@ -1,7 +1,9 @@
 ---
 title: FieldToa.RemoveEntryFormatting
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToa свойство. Получает или задает следует ли удалить форматирование текста записи в документе из записи в таблице полномочий.
+linktitle: RemoveEntryFormatting
+articleTitle: RemoveEntryFormatting
+second_title: Aspose.Words для .NET
+description: FieldToa RemoveEntryFormatting свойство. Получает или задает следует ли удалить форматирование текста записи в документе из записи в таблице полномочий на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldtoa/removeentryformatting/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoa/removeentryformatting/
 public bool RemoveEntryFormatting { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как построить и настроить таблицу авторитетов, используя поля TOA и TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Смотрите также
 
 * class [FieldToa](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoa/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

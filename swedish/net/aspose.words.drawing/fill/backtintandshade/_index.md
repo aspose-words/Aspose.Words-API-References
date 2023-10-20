@@ -1,7 +1,9 @@
 ---
 title: Fill.BackTintAndShade
-second_title: Aspose.Words för .NET API Referens
-description: Fill fast egendom. Hämtar eller ställer in ett dubbelt värde som gör bakgrundsfärgen ljusare eller mörkare.
+linktitle: BackTintAndShade
+articleTitle: BackTintAndShade
+second_title: Aspose.Words för .NET
+description: Fill BackTintAndShade fast egendom. Hämtar eller ställer in ett dubbelt värde som gör bakgrundsfärgen ljusare eller mörkare i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing/fill/backtintandshade/
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett dubbelt värde som gör bakgrundsfärgen ljusare e
 public double BackTintAndShade { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 De tillåtna värdena ligger inom intervallet från -1 (den mörkaste) till 1 (den ljusaste) för den här egenskapen. Noll (0) är neutral. Ett försök att ställa in den här egenskapen till ett värde mindre än -1 eller mer än 1 resulterar iArgumentOutOfRangeException.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in temafärg för förgrunds-/bakgrundsformfärg.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 ### Se även
 
 * class [Fill](../)
-* namnutrymme [Aspose.Words.Drawing](../../fill/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

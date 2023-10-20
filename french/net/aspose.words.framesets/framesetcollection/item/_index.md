@@ -1,7 +1,9 @@
 ---
 title: FramesetCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FramesetCollection propriété. Obtient une ou plusieurs pages de cadres à lindex spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: FramesetCollection Item propriété. Obtient une ou plusieurs pages de cadres à lindex spécifié en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.framesets/framesetcollection/item/
@@ -18,7 +20,5 @@ public Frameset this[int index] { get; }
 
 * class [Frameset](../../frameset/)
 * class [FramesetCollection](../)
-* espace de noms [Aspose.Words.Framesets](../../framesetcollection/)
+* espace de noms [Aspose.Words.Framesets](../../../aspose.words.framesets/)
 * Assemblée [Aspose.Words](../../../)
-
-

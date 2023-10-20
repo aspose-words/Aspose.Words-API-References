@@ -1,7 +1,9 @@
 ---
-title: FieldDocProperty.FieldDocProperty
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDocProperty constructeur. Default_Constructor
+title: FieldDocProperty
+linktitle: FieldDocProperty
+articleTitle: FieldDocProperty
+second_title: Aspose.Words pour .NET
+description: FieldDocProperty constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fielddocproperty/fielddocproperty/
@@ -17,7 +19,5 @@ public FieldDocProperty()
 ### Voir également
 
 * class [FieldDocProperty](../)
-* espace de noms [Aspose.Words.Fields](../../fielddocproperty/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

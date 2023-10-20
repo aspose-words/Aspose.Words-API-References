@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.UseLegacyOrder
-second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. True указывает что текстовый поиск выполняется последовательно сверху вниз с учетом текстовых полей. Значение по умолчаниюЛОЖЬ .
+linktitle: UseLegacyOrder
+articleTitle: UseLegacyOrder
+second_title: Aspose.Words для .NET
+description: FindReplaceOptions UseLegacyOrder свойство. True указывает что текстовый поиск выполняется последовательно сверху вниз с учетом текстовых полей. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
@@ -14,7 +16,7 @@ True указывает, что текстовый поиск выполняет
 public bool UseLegacyOrder { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как изменить порядок поиска узлов при выполнении текстовой операции поиска и замены.
 
@@ -71,7 +73,5 @@ private class TextReplacementTracker : IReplacingCallback
 ### Смотрите также
 
 * class [FindReplaceOptions](../)
-* пространство имен [Aspose.Words.Replacing](../../findreplaceoptions/)
+* пространство имен [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * сборка [Aspose.Words](../../../)
-
-

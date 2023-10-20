@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.InsertAsBitmap
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldDdeAuto свойство. Получает или задает необходимость вставки связанного объекта в виде растрового изображения.
+linktitle: InsertAsBitmap
+articleTitle: InsertAsBitmap
+second_title: Aspose.Words для .NET
+description: FieldDdeAuto InsertAsBitmap свойство. Получает или задает необходимость вставки связанного объекта в виде растрового изображения на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldddeauto/insertasbitmap/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldddeauto/insertasbitmap/
 public bool InsertAsBitmap { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать различные типы полей для связи с другими документами в локальной файловой системе и отображения их содержимого.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Смотрите также
 
 * class [FieldDdeAuto](../)
-* пространство имен [Aspose.Words.Fields](../../fieldddeauto/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

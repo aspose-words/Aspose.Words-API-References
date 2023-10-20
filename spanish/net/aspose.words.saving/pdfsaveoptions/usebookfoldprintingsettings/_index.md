@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.UseBookFoldPrintingSettings
-second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Obtiene o establece un valor booleano que indica si el documento debe guardarse usando un diseño de impresión de folleto si se especifica medianteMultiplePages .
+linktitle: UseBookFoldPrintingSettings
+articleTitle: UseBookFoldPrintingSettings
+second_title: Aspose.Words para .NET
+description: PdfSaveOptions UseBookFoldPrintingSettings propiedad. Obtiene o establece un valor booleano que indica si el documento debe guardarse usando un diseño de impresión de folleto si se especifica medianteMultiplePages  en C#.
 type: docs
 weight: 300
 url: /es/net/aspose.words.saving/pdfsaveoptions/usebookfoldprintingsettings/
@@ -14,11 +16,11 @@ Obtiene o establece un valor booleano que indica si el documento debe guardarse 
 public bool UseBookFoldPrintingSettings { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Si se especifica esta opción,[`PageSet`](../../fixedpagesaveoptions/pageset/) se ignora al guardar. Este comportamiento coincide con MS Word. Si la configuración de impresión de plegado de libro no se especifica en la configuración de página, esta opción no tendrá ningún efecto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo guardar un documento en formato PDF en forma de libro plegado.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.SaveAsPdfBookFold.pdf", options);
 ### Ver también
 
 * class [PdfSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../pdfsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

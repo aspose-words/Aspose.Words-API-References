@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Name
-second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Ottiene o imposta il nome della forma opzionale.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words per .NET
+description: ShapeBase Name proprietà. Ottiene o imposta il nome della forma opzionale in C#.
 type: docs
 weight: 400
 url: /it/net/aspose.words.drawing/shapebase/name/
@@ -14,13 +16,13 @@ Ottiene o imposta il nome della forma opzionale.
 public string Name { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 L'impostazione predefinita è una stringa vuota.
 
 Non può essere`nullo`, ma può essere una stringa vuota.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare il testo alternativo di una forma.
 
@@ -44,7 +46,5 @@ File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ### Guarda anche
 
 * class [ShapeBase](../)
-* spazio dei nomi [Aspose.Words.Drawing](../../shapebase/)
+* spazio dei nomi [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../../)
-
-

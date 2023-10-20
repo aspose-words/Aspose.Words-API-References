@@ -1,7 +1,9 @@
 ---
 title: ListLabel.Font
-second_title: Aspose.Words لمراجع .NET API
-description: ListLabel ملكية. الحصول على خط تسمية القائمة.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words لـ .NET
+description: ListLabel Font ملكية. الحصول على خط تسمية القائمة في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.lists/listlabel/font/
@@ -18,7 +20,5 @@ public Font Font { get; }
 
 * class [Font](../../../aspose.words/font/)
 * class [ListLabel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlabel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

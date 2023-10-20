@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseLastFormat
-second_title: Aspose.Words لمراجع .NET API
-description: FieldDate ملكية. الحصول على أو تعيين ما إذا كان سيتم استخدام التنسيق الذي تم استخدامه آخر مرة بواسطة تطبيق الاستضافة عند إدراج حقل DATE جديد.
+linktitle: UseLastFormat
+articleTitle: UseLastFormat
+second_title: Aspose.Words لـ .NET
+description: FieldDate UseLastFormat ملكية. الحصول على أو تعيين ما إذا كان سيتم استخدام التنسيق الذي تم استخدامه آخر مرة بواسطة تطبيق الاستضافة عند إدراج حقل DATE جديد في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fielddate/uselastformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fielddate/uselastformat/
 public bool UseLastFormat { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقول التاريخ لعرض التواريخ وفقًا لأنواع مختلفة من التقويمات.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### أنظر أيضا
 
 * class [FieldDate](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fielddate/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

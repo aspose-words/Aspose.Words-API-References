@@ -1,7 +1,9 @@
 ---
-title: Class Run
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Run sınıf. Aynı yazı tipi formatına sahip bir dizi karakteri temsil eder.
+title: Run Class
+linktitle: Run
+articleTitle: Run
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Run sınıf. Aynı yazı tipi formatına sahip bir dizi karakteri temsil eder C#'da.
 type: docs
 weight: 4820
 url: /tr/net/aspose.words/run/
@@ -20,8 +22,8 @@ public class Run : Inline
 
 | İsim | Tanım |
 | --- | --- |
-| [Run](run/#constructor)(DocumentBase) | Yeni bir örneğini başlatır`Run` class. |
-| [Run](run/#constructor_1)(DocumentBase, string) | Yeni bir örneğini başlatır **Koşmak** class. |
+| [Run](run/#constructor)(*[DocumentBase](../documentbase/)*) | Yeni bir örneğini başlatır`Run` class. |
+| [Run](run/#constructor_1)(*[DocumentBase](../documentbase/), string*) | Yeni bir örneğini başlatır**Koşmak** class. |
 
 ## Özellikleri
 
@@ -50,24 +52,24 @@ public class Run : Inline
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words/run/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk atayı alır. |
+| override [Accept](../../aspose.words/run/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Ziyaretçi kabul eder. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Düğümün bir kopyasını oluşturur. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Belirtilen nesne türünün ilk atayı alır. |
 | override [GetText](../../aspose.words/run/gettext/)() | Çalıştırmanın metnini alır. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
-### Notlar
+## Notlar
 
 Belgenin tüm metni metin dizilerinde saklanır.
 
 `Run` sadece çocuğu olabilir[`Paragraph`](../paragraph/) veya satır içi[`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/).
 
-### Örnekler
+## Örnekler
 
 Font özelliğini kullanarak bir metin dizisinin nasıl biçimlendirileceğini gösterir.
 
@@ -182,5 +184,3 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 * class [Inline](../inline/)
 * ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
-
-

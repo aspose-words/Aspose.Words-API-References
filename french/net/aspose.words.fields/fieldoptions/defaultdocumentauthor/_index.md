@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.DefaultDocumentAuthor
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldOptions propriété. Obtient ou définit le nom de lauteur du document par défaut. Si le nom de lauteur est déjà spécifié dans les propriétés intégrées du document cette option nest pas prise en compte.
+linktitle: DefaultDocumentAuthor
+articleTitle: DefaultDocumentAuthor
+second_title: Aspose.Words pour .NET
+description: FieldOptions DefaultDocumentAuthor propriété. Obtient ou définit le nom de lauteur du document par défaut. Si le nom de lauteur est déjà spécifié dans les propriétés intégrées du document cette option nest pas prise en compte en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fields/fieldoptions/defaultdocumentauthor/
@@ -14,7 +16,7 @@ Obtient ou définit le nom de l'auteur du document par défaut. Si le nom de l'a
 public string DefaultDocumentAuthor { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un champ AUTEUR pour afficher le nom du créateur d'un document.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Field.AUTHOR.docx");
 ### Voir également
 
 * class [FieldOptions](../)
-* espace de noms [Aspose.Words.Fields](../../fieldoptions/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

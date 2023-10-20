@@ -1,7 +1,9 @@
 ---
 title: CellCollection.Item
-second_title: Referencia de API de Aspose.Words para .NET
-description: CellCollection propiedad. Recupera unCell en el índice dado.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words para .NET
+description: CellCollection Item propiedad. Recupera unCell en el índice dado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.tables/cellcollection/item/
@@ -18,7 +20,7 @@ public Cell this[int index] { get; }
 | --- | --- |
 | index | Un índice de la colección. |
 
-### Observaciones
+## Observaciones
 
 El índice tiene base cero.
 
@@ -28,7 +30,7 @@ Si el índice es mayor o igual que el número de elementos de la lista, esto dev
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo recorrer todas las tablas del documento e imprimir el contenido de cada celda.
 
@@ -75,7 +77,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [Cell](../../cell/)
 * class [CellCollection](../)
-* espacio de nombres [Aspose.Words.Tables](../../cellcollection/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

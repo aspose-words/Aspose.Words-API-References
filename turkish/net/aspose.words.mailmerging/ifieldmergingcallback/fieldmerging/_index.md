@@ -1,7 +1,9 @@
 ---
 title: IFieldMergingCallback.FieldMerging
-second_title: Aspose.Words for .NET API Referansı
-description: IFieldMergingCallback yöntem. Aspose.Words adresmektup birleştirme motoru belgedeki birleştirme alanına veri eklemek üzereyken çağrılır.
+linktitle: FieldMerging
+articleTitle: FieldMerging
+second_title: Aspose.Words for .NET
+description: IFieldMergingCallback FieldMerging yöntem. Aspose.Words adresmektup birleştirme motoru belgedeki birleştirme alanına veri eklemek üzereyken çağrılır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/
@@ -14,7 +16,7 @@ Aspose.Words adres-mektup birleştirme motoru belgedeki birleştirme alanına ve
 public void FieldMerging(FieldMergingArgs args)
 ```
 
-### Örnekler
+## Örnekler
 
 Veritabanı BLOB alanında saklanan görüntülerin bir rapora nasıl ekleneceğini gösterir.
 
@@ -127,7 +129,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [FieldMergingArgs](../../fieldmergingargs/)
 * interface [IFieldMergingCallback](../)
-* ad alanı [Aspose.Words.MailMerging](../../ifieldmergingcallback/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ShadowType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.ShadowType Sıralama. Şekil gölgesinin türünü belirtir.
+title: ShadowType Enum
+linktitle: ShadowType
+articleTitle: ShadowType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.ShadowType Sıralama. Şekil gölgesinin türünü belirtir C#'da.
 type: docs
 weight: 1240
 url: /tr/net/aspose.words.drawing/shadowtype/
@@ -63,11 +65,11 @@ public enum ShadowType
 | Shadow8 | `8` | Sekizinci gölge türü. |
 | Shadow9 | `9` | Dokuzuncu gölge türü. |
 
-### Notlar
+## Notlar
 
 ShadowType basit bir özellik değildir, ancak gölge görünümünü oluşturan birçok özelliği aynı anda ayarlayan bir ön ayardır.
 
-### Örnekler
+## Örnekler
 
 Şeklin gölge formatıyla nasıl çalışılacağını gösterir.
 
@@ -86,5 +88,3 @@ if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

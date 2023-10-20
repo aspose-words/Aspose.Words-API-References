@@ -1,7 +1,9 @@
 ---
 title: Style.BuiltIn
-second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Bu stil MS Worddeki yerleşik stillerden biriyse doğrudur.
+linktitle: BuiltIn
+articleTitle: BuiltIn
+second_title: Aspose.Words for .NET
+description: Style BuiltIn mülk. Bu stil MS Worddeki yerleşik stillerden biriyse doğrudur C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/style/builtin/
@@ -14,7 +16,7 @@ Bu stil MS Word'deki yerleşik stillerden biriyse doğrudur.
 public bool BuiltIn { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel stillerin yerleşik stillerden nasıl ayırt edileceğini gösterir.
 
@@ -41,7 +43,5 @@ Assert.False(style.BuiltIn);
 ### Ayrıca bakınız
 
 * class [Style](../)
-* ad alanı [Aspose.Words](../../style/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

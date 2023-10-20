@@ -1,7 +1,9 @@
 ---
 title: FontConfigSubstitutionRule.ResetCache
-second_title: Aspose.Words för .NET API Referens
-description: FontConfigSubstitutionRule metod. Återställer cachen för fontconfiganropsresultat.
+linktitle: ResetCache
+articleTitle: ResetCache
+second_title: Aspose.Words för .NET
+description: FontConfigSubstitutionRule ResetCache metod. Återställer cachen för fontconfiganropsresultat i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/fontconfigsubstitutionrule/resetcache/
@@ -14,7 +16,7 @@ url: /sv/net/aspose.words.fonts/fontconfigsubstitutionrule/resetcache/
 public void ResetCache()
 ```
 
-### Exempel
+## Exempel
 
 Visar operativsystemberoende teckensnittskonfigurationsersättning.
 
@@ -50,7 +52,5 @@ if (isLinuxOrMac)
 ### Se även
 
 * class [FontConfigSubstitutionRule](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontconfigsubstitutionrule/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

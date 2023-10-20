@@ -1,7 +1,9 @@
 ---
 title: ParagraphCollection.ToArray
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphCollection 方法. 将集合中的所有段落复制到新的段落数组中
+linktitle: ToArray
+articleTitle: ToArray
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphCollection ToArray 方法. 将集合中的所有段落复制到新的段落数组中 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/paragraphcollection/toarray/
@@ -18,7 +20,7 @@ public Paragraph[] ToArray()
 
 一系列段落。
 
-### 例子
+## 例子
 
 演示如何从 NodeCollection 创建数组。
 
@@ -53,7 +55,5 @@ Assert.False(doc.GetText().Contains("The third paragraph"));
 
 * class [Paragraph](../../paragraph/)
 * class [ParagraphCollection](../)
-* 命名空间 [Aspose.Words](../../paragraphcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

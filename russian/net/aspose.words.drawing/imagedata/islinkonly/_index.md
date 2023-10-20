@@ -1,7 +1,9 @@
 ---
 title: ImageData.IsLinkOnly
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageData свойство. Возвращаетистинный если изображение связано и не сохранено в документе.
+linktitle: IsLinkOnly
+articleTitle: IsLinkOnly
+second_title: Aspose.Words для .NET
+description: ImageData IsLinkOnly свойство. Возвращаетистинный если изображение связано и не сохранено в документе на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.drawing/imagedata/islinkonly/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/imagedata/islinkonly/
 public bool IsLinkOnly { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как редактировать данные изображения фигуры.
 
@@ -77,7 +79,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Смотрите также
 
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

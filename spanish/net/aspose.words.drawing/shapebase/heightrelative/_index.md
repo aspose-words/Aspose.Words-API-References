@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.HeightRelative
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Obtiene o establece el valor que representa el porcentaje de la altura relativa de la forma.
+linktitle: HeightRelative
+articleTitle: HeightRelative
+second_title: Aspose.Words para .NET
+description: ShapeBase HeightRelative propiedad. Obtiene o establece el valor que representa el porcentaje de la altura relativa de la forma en C#.
 type: docs
 weight: 210
 url: /es/net/aspose.words.drawing/shapebase/heightrelative/
@@ -14,7 +16,7 @@ Obtiene o establece el valor que representa el porcentaje de la altura relativa 
 public float HeightRelative { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer el tamaño y la posición relativos.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

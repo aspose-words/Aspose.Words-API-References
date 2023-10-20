@@ -1,7 +1,9 @@
 ---
 title: Chart.Legend
-second_title: Aspose.Words لمراجع .NET API
-description: Chart ملكية. يوفر الوصول إلى خصائص وسيلة إيضاح المخطط.
+linktitle: Legend
+articleTitle: Legend
+second_title: Aspose.Words لـ .NET
+description: Chart Legend ملكية. يوفر الوصول إلى خصائص وسيلة إيضاح المخطط في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing.charts/chart/legend/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chart/legend/
 public ChartLegend Legend { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحرير مظهر وسيلة إيضاح المخطط.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * class [ChartLegend](../../chartlegend/)
 * class [Chart](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chart/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

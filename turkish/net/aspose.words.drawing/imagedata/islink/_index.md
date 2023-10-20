@@ -1,7 +1,9 @@
 ---
 title: ImageData.IsLink
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData mülk. İadelerdoğru görüntü şekle bağlıysa ne zamanSourceFullName belirtildi.
+linktitle: IsLink
+articleTitle: IsLink
+second_title: Aspose.Words for .NET
+description: ImageData IsLink mülk. İadelerdoğru görüntü şekle bağlıysa ne zamanSourceFullName belirtildi C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.drawing/imagedata/islink/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.drawing/imagedata/islink/
 public bool IsLink { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir şeklin görüntü verilerinin nasıl düzenleneceğini gösterir.
 
@@ -77,7 +79,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

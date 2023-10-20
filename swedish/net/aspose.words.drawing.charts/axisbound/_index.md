@@ -1,7 +1,9 @@
 ---
-title: Class AxisBound
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.AxisBound klass. Representerar lägsta eller maximala gräns för axelvärden.
+title: AxisBound Class
+linktitle: AxisBound
+articleTitle: AxisBound
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.AxisBound klass. Representerar lägsta eller maximala gräns för axelvärden i C#.
 type: docs
 weight: 510
 url: /sv/net/aspose.words.drawing.charts/axisbound/
@@ -21,8 +23,8 @@ public sealed class AxisBound
 | namn | Beskrivning |
 | --- | --- |
 | [AxisBound](axisbound/#constructor)() | Skapar en ny instans som indikerar att axelbunden ska bestämmas automatiskt av en ordbehandlingsapplikation . |
-| [AxisBound](axisbound/#constructor_2)(DateTime) | Skapar en axelgräns representerad som datum och tid värde. |
-| [AxisBound](axisbound/#constructor_1)(double) | Skapar en axelgräns representerad som ett tal. |
+| [AxisBound](axisbound/#constructor_2)(*DateTime*) | Skapar en axelgräns representerad som datum och tid värde. |
+| [AxisBound](axisbound/#constructor_1)(*double*) | Skapar en axelgräns representerad som ett tal. |
 
 ## Egenskaper
 
@@ -36,17 +38,17 @@ public sealed class AxisBound
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(object) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
+| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(*object*) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
 | override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode/)() | Fungerar som en hashfunktion för denna typ. |
 | override [ToString](../../aspose.words.drawing.charts/axisbound/tostring/)() | Returnerar en användarvänlig sträng som visar värdet på detta objekt. |
 
-### Anmärkningar
+## Anmärkningar
 
 Bound kan anges som ett numeriskt, datetime eller ett speciellt "auto"-värde.
 
 Förekomsterna av denna klass är oföränderliga.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar diagram med datum/tidsvärden.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

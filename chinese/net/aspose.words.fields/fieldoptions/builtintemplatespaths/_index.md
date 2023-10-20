@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.BuiltInTemplatesPaths
-second_title: Aspose.Words for .NET API 参考
-description: FieldOptions 财产. 获取或设置 MS Word 内置模板的路径
+linktitle: BuiltInTemplatesPaths
+articleTitle: BuiltInTemplatesPaths
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldOptions BuiltInTemplatesPaths 财产. 获取或设置 MS Word 内置模板的路径 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
 public string[] BuiltInTemplatesPaths { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性由[`FieldAutoText`](../../fieldautotext/)和[`FieldGlossary`](../../fieldglossary/)字段，如果在中找不到引用的自动文本条目[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/)模板。
 
 默认情况下，MS Word 将内置模板存储在 c:\Users\&lt;用户名&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\&lt;用户名&gt;\ AppData\Roaming\Microsoft\Templates\Normal.dotm 文件。
 
-### 例子
+## 例子
 
 演示如何显示带有自动文本和词汇表字段的构建块。
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");
 ### 也可以看看
 
 * class [FieldOptions](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldoptions/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

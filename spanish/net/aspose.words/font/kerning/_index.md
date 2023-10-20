@@ -1,7 +1,9 @@
 ---
 title: Font.Kerning
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece el tamaño de fuente en el que comienza el kerning.
+linktitle: Kerning
+articleTitle: Kerning
+second_title: Aspose.Words para .NET
+description: Font Kerning propiedad. Obtiene o establece el tamaño de fuente en el que comienza el kerning en C#.
 type: docs
 weight: 180
 url: /es/net/aspose.words/font/kerning/
@@ -14,7 +16,7 @@ Obtiene o establece el tamaño de fuente en el que comienza el kerning.
 public double Kerning { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo especificar el tamaño de fuente a partir del cual el interletraje comienza a surtir efecto.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.Kerning.docx");
 ### Ver también
 
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

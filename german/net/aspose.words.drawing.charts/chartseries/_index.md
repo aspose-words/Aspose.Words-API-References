@@ -1,7 +1,9 @@
 ---
-title: Class ChartSeries
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.ChartSeries klas. Stellt Diagrammserieneigenschaften dar.
+title: ChartSeries Class
+linktitle: ChartSeries
+articleTitle: ChartSeries
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.ChartSeries klas. Stellt Diagrammserieneigenschaften dar in C#.
 type: docs
 weight: 780
 url: /de/net/aspose.words.drawing.charts/chartseries/
@@ -40,18 +42,17 @@ public class ChartSeries : IChartDataPoint
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(ChartXValue) | Fügt den angegebenen X-Wert zur Diagrammreihe hinzu. Wenn die Reihe Y-Werte und Blasengrößen unterstützt, sind diese für den X-Wert leer. |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(ChartXValue, ChartYValue) | Fügt die angegebenen X- und Y-Werte zur Diagrammreihe hinzu. |
-| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(ChartXValue, ChartYValue, double) | Fügt den angegebenen X-Wert, Y-Wert und die Blasengröße zur Diagrammreihe hinzu. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add)(*[ChartXValue](../chartxvalue/)*) | Fügt den angegebenen X-Wert zur Diagrammreihe hinzu. Wenn die Reihe Y-Werte und Blasengrößen unterstützt, sind diese für den X-Wert leer. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_1)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | Fügt die angegebenen X- und Y-Werte zur Diagrammreihe hinzu. |
+| [Add](../../aspose.words.drawing.charts/chartseries/add/#add_2)(*[ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | Fügt den angegebenen X-Wert, Y-Wert und die Blasengröße zur Diagrammreihe hinzu. |
 | [Clear](../../aspose.words.drawing.charts/chartseries/clear/)() | Entfernt alle Datenwerte aus der Diagrammreihe. Das Format aller einzelnen Datenpunkte und Datenbeschriftungen wird gelöscht. |
 | [ClearValues](../../aspose.words.drawing.charts/chartseries/clearvalues/)() | Entfernt alle Datenwerte aus der Diagrammreihe unter Beibehaltung des Formats der Datenpunkte und Datenbeschriftungen. |
-| [CopyFormatFrom](../../aspose.words.drawing.charts/chartseries/copyformatfrom/)(int) |  |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(int, ChartXValue) | Fügt den angegebenen X-Wert am angegebenen Index in die Diagrammreihe ein. Wenn die Reihe Y-Werte und Blasengrößen unterstützt, sind diese für den X-Wert leer. |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(int, ChartXValue, ChartYValue) | Fügt die angegebenen X- und Y-Werte am angegebenen Index in die Diagrammreihe ein. |
-| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(int, ChartXValue, ChartYValue, double) | Fügt den angegebenen X-Wert, Y-Wert und die Blasengröße am angegebenen Index in die Diagrammreihe ein. |
-| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(int) | Entfernt den X-Wert, den Y-Wert und die Blasengröße, sofern unterstützt, aus der Diagrammreihe am angegebenen Index. Der entsprechende Datenpunkt und die Datenbeschriftung werden ebenfalls entfernt. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert)(*int, [ChartXValue](../chartxvalue/)*) | Fügt den angegebenen X-Wert am angegebenen Index in die Diagrammreihe ein. Wenn die Reihe Y-Werte und Blasengrößen unterstützt, sind diese für den X-Wert leer. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_1)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/)*) | Fügt die angegebenen X- und Y-Werte am angegebenen Index in die Diagrammreihe ein. |
+| [Insert](../../aspose.words.drawing.charts/chartseries/insert/#insert_2)(*int, [ChartXValue](../chartxvalue/), [ChartYValue](../chartyvalue/), double*) | Fügt den angegebenen X-Wert, Y-Wert und die Blasengröße am angegebenen Index in die Diagrammreihe ein. |
+| [Remove](../../aspose.words.drawing.charts/chartseries/remove/)(*int*) | Entfernt den X-Wert, den Y-Wert und die Blasengröße, sofern unterstützt, aus der Diagrammreihe am angegebenen Index. Der entsprechende Datenpunkt und die Datenbeschriftung werden ebenfalls entfernt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
 
@@ -131,5 +132,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 * interface [IChartDataPoint](../ichartdatapoint/)
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.CategoryType
-second_title: Aspose.Words för .NET API Referens
-description: ChartAxis fast egendom. Hämtar eller ställer in typ av kategoriaxel.
+linktitle: CategoryType
+articleTitle: CategoryType
+second_title: Aspose.Words för .NET
+description: ChartAxis CategoryType fast egendom. Hämtar eller ställer in typ av kategoriaxel i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartaxis/categorytype/
@@ -14,11 +16,11 @@ Hämtar eller ställer in typ av kategoriaxel.
 public AxisCategoryType CategoryType { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Endast textkategorier (Category ) är tillåtna i MS Office 2016 nya diagram.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett diagram och ändrar utseendet på dess axlar.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * enum [AxisCategoryType](../../axiscategorytype/)
 * class [ChartAxis](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

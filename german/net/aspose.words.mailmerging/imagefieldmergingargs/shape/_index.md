@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.Shape
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageFieldMergingArgs eigendom. Gibt die Form an die die SerienbriefEngine in das Dokument einfügen muss.
+linktitle: Shape
+articleTitle: Shape
+second_title: Aspose.Words für .NET
+description: ImageFieldMergingArgs Shape eigendom. Gibt die Form an die die SerienbriefEngine in das Dokument einfügen muss in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.mailmerging/imagefieldmergingargs/shape/
@@ -14,7 +16,7 @@ Gibt die Form an, die die Serienbrief-Engine in das Dokument einfügen muss.
 public Shape Shape { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn diese Eigenschaft angegeben ist, ignoriert die Mail-Merge-Engine alle anderen Eigenschaften wie[`ImageFileName`](../imagefilename/) oder[`ImageStream`](../imagestream/) und fügt die Form einfach in das Dokument ein.
 
@@ -24,7 +26,5 @@ Verwenden Sie diese Eigenschaft, um den Prozess des Zusammenführens eines Bildz
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [ImageFieldMergingArgs](../)
-* namensraum [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

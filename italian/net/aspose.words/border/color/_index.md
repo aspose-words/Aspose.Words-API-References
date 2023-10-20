@@ -1,7 +1,9 @@
 ---
 title: Border.Color
-second_title: Aspose.Words per .NET API Reference
-description: Border proprietà. Ottiene o imposta il colore del bordo.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words per .NET
+description: Border Color proprietà. Ottiene o imposta il colore del bordo in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/border/color/
@@ -14,7 +16,7 @@ Ottiene o imposta il colore del bordo.
 public Color Color { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire una stringa circondata da un bordo in un documento.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ### Guarda anche
 
 * class [Border](../)
-* spazio dei nomi [Aspose.Words](../../border/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

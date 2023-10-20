@@ -1,7 +1,9 @@
 ---
-title: Class PlainTextDocument
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.PlainTextDocument klas. Ermöglicht das Extrahieren einer Klartextdarstellung des Dokumentinhalts.
+title: PlainTextDocument Class
+linktitle: PlainTextDocument
+articleTitle: PlainTextDocument
+second_title: Aspose.Words für .NET
+description: Aspose.Words.PlainTextDocument klas. Ermöglicht das Extrahieren einer Klartextdarstellung des Dokumentinhalts in C#.
 type: docs
 weight: 4440
 url: /de/net/aspose.words/plaintextdocument/
@@ -20,10 +22,10 @@ public class PlainTextDocument
 
 | Name | Beschreibung |
 | --- | --- |
-| [PlainTextDocument](plaintextdocument/#constructor)(Stream) | Erstellt ein Nur-Text-Dokument aus einem Stream. Erkennt automatisch das Dateiformat. |
-| [PlainTextDocument](plaintextdocument/#constructor_2)(string) | Erstellt ein Nur-Text-Dokument aus einer Datei. Erkennt automatisch das Dateiformat. |
-| [PlainTextDocument](plaintextdocument/#constructor_1)(Stream, LoadOptions) | Erstellt ein Nur-Text-Dokument aus einem Stream. Ermöglicht die Angabe zusätzlicher Optionen wie z. B. eines Verschlüsselungskennworts. |
-| [PlainTextDocument](plaintextdocument/#constructor_3)(string, LoadOptions) | Erstellt ein Nur-Text-Dokument aus einer Datei. Ermöglicht die Angabe zusätzlicher Optionen wie z. B. eines Verschlüsselungskennworts. |
+| [PlainTextDocument](plaintextdocument/#constructor)(*Stream*) | Erstellt ein Nur-Text-Dokument aus einem Stream. Erkennt automatisch das Dateiformat. |
+| [PlainTextDocument](plaintextdocument/#constructor_2)(*string*) | Erstellt ein Nur-Text-Dokument aus einer Datei. Erkennt automatisch das Dateiformat. |
+| [PlainTextDocument](plaintextdocument/#constructor_1)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Erstellt ein Nur-Text-Dokument aus einem Stream. Ermöglicht die Angabe zusätzlicher Optionen wie z. B. eines Verschlüsselungskennworts. |
+| [PlainTextDocument](plaintextdocument/#constructor_3)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Erstellt ein Nur-Text-Dokument aus einer Datei. Ermöglicht die Angabe zusätzlicher Optionen wie z. B. eines Verschlüsselungskennworts. |
 
 ## Eigenschaften
 
@@ -33,7 +35,7 @@ public class PlainTextDocument
 | [CustomDocumentProperties](../../aspose.words/plaintextdocument/customdocumentproperties/) { get; } | Ruft ab[`CustomDocumentProperties`](./customdocumentproperties/) des Dokuments. |
 | [Text](../../aspose.words/plaintextdocument/text/) { get; } | Ruft den als String verketteten Textinhalt des Dokuments ab. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt eines Microsoft Word-Dokuments im Klartext geladen wird.
 
@@ -53,5 +55,3 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

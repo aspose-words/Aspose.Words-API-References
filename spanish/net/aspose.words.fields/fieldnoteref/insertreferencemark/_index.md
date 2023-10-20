@@ -1,7 +1,9 @@
 ---
 title: FieldNoteRef.InsertReferenceMark
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldNoteRef propiedad. Inserta la marca de referencia con el mismo formato de carácter que el estilo Referencia de nota al pie o Referencia de nota final.
+linktitle: InsertReferenceMark
+articleTitle: InsertReferenceMark
+second_title: Aspose.Words para .NET
+description: FieldNoteRef InsertReferenceMark propiedad. Inserta la marca de referencia con el mismo formato de carácter que el estilo Referencia de nota al pie o Referencia de nota final en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldnoteref/insertreferencemark/
@@ -14,7 +16,7 @@ Inserta la marca de referencia con el mismo formato de carácter que el estilo R
 public bool InsertReferenceMark { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra para insertar campos NOTAREF y modificar su apariencia.
 
@@ -83,7 +85,5 @@ private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string b
 ### Ver también
 
 * class [FieldNoteRef](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldnoteref/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.SignerTitle
-second_title: Aspose.Words لمراجع .NET API
-description: SignatureLineOptions ملكية. الحصول على عنوان الموقّع المقترح أو تعيينه. القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty.
+linktitle: SignerTitle
+articleTitle: SignerTitle
+second_title: Aspose.Words لـ .NET
+description: SignatureLineOptions SignerTitle ملكية. الحصول على عنوان الموقّع المقترح أو تعيينه. القيمة الافتراضية لهذه الخاصية هيسلسلة فارغة Empty في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/signaturelineoptions/signertitle/
 ---
 ## SignatureLineOptions.SignerTitle property
 
-الحصول على عنوان الموقّع المقترح أو تعيينه. القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty).
+الحصول على عنوان الموقّع المقترح أو تعيينه. القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty).
 
 ```csharp
 public string SignerTitle { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة سطر توقيع إلى مستند، ثم التوقيع عليه باستخدام شهادة رقمية.
 
@@ -130,7 +132,5 @@ public string SignerTitle { get; set; }
 ### أنظر أيضا
 
 * class [SignatureLineOptions](../)
-* مساحة الاسم [Aspose.Words](../../signaturelineoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

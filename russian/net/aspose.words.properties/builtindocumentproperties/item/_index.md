@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: BuiltInDocumentProperties свойство. ВозвращаетDocumentProperty объект по имени свойства.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: BuiltInDocumentProperties Item свойство. ВозвращаетDocumentProperty объект по имени свойства на С#.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.properties/builtindocumentproperties/item/
@@ -18,7 +20,7 @@ public override DocumentProperty this[string name] { get; }
 | --- | --- |
 | name | Имя извлекаемого свойства без учета регистра. |
 
-### Примечания
+## Примечания
 
 Строковые имена свойств соответствуют именам свойств typed , доступных из[`BuiltInDocumentProperties`](../).
 
@@ -26,7 +28,7 @@ public override DocumentProperty this[string name] { get; }
 
 Если вы запрашиваете свойство, которого нет в документе, и name не распознается как встроенное имя,`нулевой` возвращается.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с настраиваемыми свойствами документа.
 
@@ -52,7 +54,5 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 * class [DocumentProperty](../../documentproperty/)
 * class [BuiltInDocumentProperties](../)
-* пространство имен [Aspose.Words.Properties](../../builtindocumentproperties/)
+* пространство имен [Aspose.Words.Properties](../../../aspose.words.properties/)
 * сборка [Aspose.Words](../../../)
-
-

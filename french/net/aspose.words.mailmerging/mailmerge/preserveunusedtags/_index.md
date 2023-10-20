@@ -1,7 +1,9 @@
 ---
 title: MailMerge.PreserveUnusedTags
-second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge propriété. Obtient ou définit une valeur indiquant si les balises moustache inutilisées doivent être conservées.
+linktitle: PreserveUnusedTags
+articleTitle: PreserveUnusedTags
+second_title: Aspose.Words pour .NET
+description: MailMerge PreserveUnusedTags propriété. Obtient ou définit une valeur indiquant si les balises moustache inutilisées doivent être conservées en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.mailmerging/mailmerge/preserveunusedtags/
@@ -14,11 +16,11 @@ Obtient ou définit une valeur indiquant si les balises "moustache" inutilisées
 public bool PreserveUnusedTags { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX` .
 
-### Exemples
+## Exemples
 
 Montre comment conserver l’apparence des balises de publipostage alternatives qui restent inutilisées lors d’un publipostage.
 
@@ -83,7 +85,5 @@ private static DataTable CreateSourceTablePreserveUnusedTags()
 
 * property [UseNonMergeFields](../usenonmergefields/)
 * class [MailMerge](../)
-* espace de noms [Aspose.Words.MailMerging](../../mailmerge/)
+* espace de noms [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../../)
-
-

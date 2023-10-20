@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.Accept
-second_title: Referencia de API de Aspose.Words para .NET
-description: EditableRangeStart método. Acepta un visitante.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words para .NET
+description: EditableRangeStart Accept método. Acepta un visitante en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words/editablerangestart/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `FALSO` si el visitante solicitó que se detuviera la enumeración.
 
-### Observaciones
+## Observaciones
 
 llamadas[`VisitEditableRangeStart`](../../documentvisitor/visiteditablerangestart/).
 
 Para obtener más información, consulte el patrón de diseño Visitante.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo limitar los derechos de edición de rangos editables a un grupo/usuario específico.
 
@@ -140,7 +142,5 @@ public class EditableRangePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [EditableRangeStart](../)
-* espacio de nombres [Aspose.Words](../../editablerangestart/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

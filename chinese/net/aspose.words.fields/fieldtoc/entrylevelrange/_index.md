@@ -1,7 +1,9 @@
 ---
 title: FieldToc.EntryLevelRange
-second_title: Aspose.Words for .NET API 参考
-description: FieldToc 财产. 获取或设置要包含的目录条目的级别范围
+linktitle: EntryLevelRange
+articleTitle: EntryLevelRange
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldToc EntryLevelRange 财产. 获取或设置要包含的目录条目的级别范围 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldtoc/entrylevelrange/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldtoc/entrylevelrange/
 public string EntryLevelRange { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何插入 TOC 字段，以及过滤哪些 TC 字段最终作为条目。
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### 也可以看看
 
 * class [FieldToc](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldtoc/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

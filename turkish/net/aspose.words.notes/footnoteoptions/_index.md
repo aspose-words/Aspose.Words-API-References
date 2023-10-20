@@ -1,7 +1,9 @@
 ---
-title: Class FootnoteOptions
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Notes.FootnoteOptions sınıf. Bir belge veya bölüme ilişkin dipnot numaralandırma seçeneklerini temsil eder.
+title: FootnoteOptions Class
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Notes.FootnoteOptions sınıf. Bir belge veya bölüme ilişkin dipnot numaralandırma seçeneklerini temsil eder C#'da.
 type: docs
 weight: 4280
 url: /tr/net/aspose.words.notes/footnoteoptions/
@@ -26,7 +28,7 @@ public sealed class FootnoteOptions
 | [RestartRule](../../aspose.words.notes/footnoteoptions/restartrule/) { get; set; } | Otomatik numaralandırmanın ne zaman yeniden başlayacağını belirler. |
 | [StartNumber](../../aspose.words.notes/footnoteoptions/startnumber/) { get; set; } | Otomatik olarak numaralandırılan ilk dipnotların başlangıç numarasını veya karakterini belirtir. |
 
-### Örnekler
+## Örnekler
 
 Dipnot bölümünün belirli sayıda sütuna nasıl bölüneceğini gösterir.
 
@@ -208,5 +210,3 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 * property [FootnoteOptions](../../aspose.words/pagesetup/footnoteoptions/)
 * ad alanı [Aspose.Words.Notes](../../aspose.words.notes/)
 * toplantı [Aspose.Words](../../)
-
-

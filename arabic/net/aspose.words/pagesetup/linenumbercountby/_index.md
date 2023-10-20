@@ -1,7 +1,9 @@
 ---
 title: PageSetup.LineNumberCountBy
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. إرجاع أو تعيين الزيادة الرقمية لأرقام الأسطر.
+linktitle: LineNumberCountBy
+articleTitle: LineNumberCountBy
+second_title: Aspose.Words لـ .NET
+description: PageSetup LineNumberCountBy ملكية. إرجاع أو تعيين الزيادة الرقمية لأرقام الأسطر في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words/pagesetup/linenumbercountby/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/linenumbercountby/
 public int LineNumberCountBy { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين ترقيم الأسطر لقسم ما.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### أنظر أيضا
 
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum EndnotePosition
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Notes.EndnotePosition uppräkning. Definierar slutnotens position.
+title: EndnotePosition Enum
+linktitle: EndnotePosition
+articleTitle: EndnotePosition
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Notes.EndnotePosition uppräkning. Definierar slutnotens position i C#.
 type: docs
 weight: 4250
 url: /sv/net/aspose.words.notes/endnoteposition/
@@ -21,7 +23,7 @@ public enum EndnotePosition
 | EndOfSection | `0` | Slutnoter matas ut i slutet av avsnittet. |
 | EndOfDocument | `3` | Slutanteckningar matas ut i slutet av dokumentet. |
 
-### Exempel
+## Exempel
 
 Visar hur du väljer en annan plats där dokumentet samlas in och visar dess slutanteckningar.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "InlineStory.PositionEndnote.docx");
 * class [EndnoteOptions](../endnoteoptions/)
 * namnutrymme [Aspose.Words.Notes](../../aspose.words.notes/)
 * hopsättning [Aspose.Words](../../)
-
-

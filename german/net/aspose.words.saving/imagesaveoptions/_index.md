@@ -1,7 +1,9 @@
 ---
-title: Class ImageSaveOptions
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.ImageSaveOptions klas. Ermöglicht die Angabe zusätzlicher Optionen beim Rendern von Dokumentseiten oder Formen in Bilder.
+title: ImageSaveOptions Class
+linktitle: ImageSaveOptions
+articleTitle: ImageSaveOptions
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.ImageSaveOptions klas. Ermöglicht die Angabe zusätzlicher Optionen beim Rendern von Dokumentseiten oder Formen in Bilder in C#.
 type: docs
 weight: 5230
 url: /de/net/aspose.words.saving/imagesaveoptions/
@@ -20,7 +22,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [ImageSaveOptions](imagesaveoptions/)(SaveFormat) | Initialisiert eine neue Instanz dieser Klasse, die zum Speichern gerenderter Bilder im verwendet werden kann.Tiff ,Png ,Bmp , Jpeg ,Emf ,Eps oderSvg format. |
+| [ImageSaveOptions](imagesaveoptions/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initialisiert eine neue Instanz dieser Klasse, die zum Speichern gerenderter Bilder im verwendet werden kann.Tiff ,Png ,Bmp , Jpeg ,Emf ,Eps oderSvg format. |
 
 ## Eigenschaften
 
@@ -29,7 +31,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/) { get; set; } | Ruft einen booleschen Wert ab oder legt diesen fest, der angibt, ob das Einbetten von Schriftarten mit PostScript-Umrissen zulässig ist , wenn TrueType-Schriftarten in ein Dokument eingebettet werden, sobald es gespeichert wird. Der Standardwert ist`FALSCH` . |
 | [ColorMode](../../aspose.words.saving/fixedpagesaveoptions/colormode/) { get; set; } | Ruft einen Wert ab oder legt ihn fest, der bestimmt, wie Farben gerendert werden. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo/) { get; set; } | Ruft die benutzerdefinierte lokale Zeitzone ab, die für Datums-/Uhrzeitfelder verwendet wird, oder legt diese fest. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ruft den Pfad zur Standardvorlage (einschließlich Dateiname) ab oder legt diesen fest. Der Standardwert für diese Eigenschaft ist **leerer String** (Empty). |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate/) { get; set; } | Ruft den Pfad zur Standardvorlage (einschließlich Dateiname) ab oder legt diesen fest. Der Standardwert für diese Eigenschaft ist**leerer String** (Empty). |
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der bestimmt, wie 3D-Effekte gerendert werden. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der bestimmt, wie DrawingML-Effekte gerendert werden. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der bestimmt, wie DrawingML-Formen gerendert werden. |
@@ -73,9 +75,9 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | Name | Beschreibung |
 | --- | --- |
 | [Clone](../../aspose.words.saving/imagesaveoptions/clone/)() | Erstellt einen tiefen Klon dieses Objekts. |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat. |
 
-### Beispiele
+## Beispiele
 
 Rendert eine Seite eines Word-Dokuments in ein Bild mit transparentem oder farbigem Hintergrund.
 
@@ -195,5 +197,3 @@ Document doc = new Document();
 * class [FixedPageSaveOptions](../fixedpagesaveoptions/)
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Border.IsVisible
-second_title: Aspose.Words for .NET API 参考
-description: Border 财产. 返回真的如果LineStyle不是None.
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: 用于 .NET 的 Aspose.Words
+description: Border IsVisible 财产. 返回真的如果LineStyle不是None 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/border/isvisible/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/border/isvisible/
 public bool IsVisible { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何删除段落边框。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Border.ClearFormatting.docx");
 ### 也可以看看
 
 * class [Border](../)
-* 命名空间 [Aspose.Words](../../border/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

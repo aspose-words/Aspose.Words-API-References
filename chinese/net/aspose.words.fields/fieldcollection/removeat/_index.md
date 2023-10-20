@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.RemoveAt
-second_title: Aspose.Words for .NET API 参考
-description: FieldCollection 方法. 从此集合和文档中删除指定索引处的字段
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldCollection RemoveAt 方法. 从此集合和文档中删除指定索引处的字段 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldcollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 集合的索引。 |
 
-### 例子
+## 例子
 
 演示如何从字段集合中删除字段。
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, fields.Count);
 ### 也可以看看
 
 * class [FieldCollection](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldcollection/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

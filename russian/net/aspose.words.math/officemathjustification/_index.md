@@ -1,7 +1,9 @@
 ---
-title: Enum OfficeMathJustification
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Math.OfficeMathJustification перечисление. Указывает выравнивание уравнения.
+title: OfficeMathJustification Enum
+linktitle: OfficeMathJustification
+articleTitle: OfficeMathJustification
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Math.OfficeMathJustification перечисление. Указывает выравнивание уравнения на С#.
 type: docs
 weight: 4140
 url: /ru/net/aspose.words.math/officemathjustification/
@@ -25,7 +27,7 @@ public enum OfficeMathJustification
 | Inline | `7` | Встроенная позиция Math. |
 | Default | `1` | Значение по умолчаниюCenterGroup . |
 
-### Примеры
+## Примеры
 
 Показывает, как настроить форматирование отображения математических функций Office.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
 
 * пространство имен [Aspose.Words.Math](../../aspose.words.math/)
 * сборка [Aspose.Words](../../)
-
-

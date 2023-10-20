@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Guid
-second_title: Справочник по API Aspose.Words для .NET
-description: BuildingBlock свойство. Получает или задает идентификатор 128битный GUID который однозначно идентифицирует этот стандартный блок.
+linktitle: Guid
+articleTitle: Guid
+second_title: Aspose.Words для .NET
+description: BuildingBlock Guid свойство. Получает или задает идентификатор 128битный GUID который однозначно идентифицирует этот стандартный блок на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.buildingblocks/buildingblock/guid/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.buildingblocks/buildingblock/guid/
 public Guid Guid { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Может использоваться приложением для уникальной ссылки на стандартный блок независимо от различного именования из-за локализации.
 
-Соответствует **docPartPr.guid** элемент в OOXML.
+Соответствует**docPartPr.guid** элемент в OOXML.
 
-### Примеры
+## Примеры
 
 Показывает, как добавить в документ пользовательский стандартный блок.
 
@@ -117,7 +119,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [BuildingBlock](../)
-* пространство имен [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../../)
-
-

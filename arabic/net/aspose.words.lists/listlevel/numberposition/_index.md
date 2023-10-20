@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberPosition
-second_title: Aspose.Words لمراجع .NET API
-description: ListLevel ملكية. إرجاع أو تعيين موضع بالنقاط للرقم أو التعداد النقطي لمستوى القائمة.
+linktitle: NumberPosition
+articleTitle: NumberPosition
+second_title: Aspose.Words لـ .NET
+description: ListLevel NumberPosition ملكية. إرجاع أو تعيين موضع بالنقاط للرقم أو التعداد النقطي لمستوى القائمة في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.lists/listlevel/numberposition/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.lists/listlevel/numberposition/
 public double NumberPosition { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 `NumberPosition` يتوافق مع LeftIndent بالإضافة إلى FirstLineIndent للفقرة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق تنسيق القائمة المخصصة على الفقرات عند استخدام DocumentBuilder.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### أنظر أيضا
 
 * class [ListLevel](../)
-* مساحة الاسم [Aspose.Words.Lists](../../listlevel/)
+* مساحة الاسم [Aspose.Words.Lists](../../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Указывает местами внутри и снаружи для зеркальных отступов и относительного позиционирования.
+linktitle: SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning
+articleTitle: SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning свойство. Указывает местами внутри и снаружи для зеркальных отступов и относительного позиционирования на С#.
 type: docs
 weight: 540
 url: /ru/net/aspose.words.settings/compatibilityoptions/swapinsideandoutsideformirrorindentsandrelativepositioning/
@@ -17,7 +19,5 @@ public bool SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning { get; se
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

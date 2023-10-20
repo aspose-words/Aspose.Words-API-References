@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.Position
-second_title: Справочник по API Aspose.Words для .NET
-description: EndnoteOptions свойство. Указывает положение концевых сносок.
+linktitle: Position
+articleTitle: Position
+second_title: Aspose.Words для .NET
+description: EndnoteOptions Position свойство. Указывает положение концевых сносок на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.notes/endnoteoptions/position/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.notes/endnoteoptions/position/
 public EndnotePosition Position { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выбрать другое место, где документ будет собираться и отображать его концевые сноски.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "InlineStory.PositionEndnote.docx");
 
 * enum [EndnotePosition](../../endnoteposition/)
 * class [EndnoteOptions](../)
-* пространство имен [Aspose.Words.Notes](../../endnoteoptions/)
+* пространство имен [Aspose.Words.Notes](../../../aspose.words.notes/)
 * сборка [Aspose.Words](../../../)
-
-

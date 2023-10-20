@@ -1,7 +1,9 @@
 ---
-title: Interface IResourceSavingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.IResourceSavingCallback arayüz. Bir belgeyi sabit sayfa HTML veya SVGye kaydederken Aspose.Wordsün harici kaynakları resimler yazı tipleri ve css nasıl kaydettiğini kontrol etmek istiyorsanız bu arayüzü uygulayın.
+title: IResourceSavingCallback Interface
+linktitle: IResourceSavingCallback
+articleTitle: IResourceSavingCallback
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.IResourceSavingCallback arayüz. Bir belgeyi sabit sayfa HTML veya SVGye kaydederken Aspose.Wordsün harici kaynakları resimler yazı tipleri ve css nasıl kaydettiğini kontrol etmek istiyorsanız bu arayüzü uygulayın C#'da.
 type: docs
 weight: 5190
 url: /tr/net/aspose.words.saving/iresourcesavingcallback/
@@ -18,9 +20,9 @@ public interface IResourceSavingCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(ResourceSavingArgs) | Aspose.Words harici bir kaynağı sabit sayfa HTML veya SVG formatlarında kaydettiğinde çağrılır. |
+| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(*[ResourceSavingArgs](../resourcesavingargs/)*) | Aspose.Words harici bir kaynağı sabit sayfa HTML veya SVG formatlarında kaydettiğinde çağrılır. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi HTML'ye dönüştürürken oluşturulan harici kaynakları izlemek için geri aramanın nasıl kullanılacağını gösterir.
 
@@ -140,5 +142,3 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

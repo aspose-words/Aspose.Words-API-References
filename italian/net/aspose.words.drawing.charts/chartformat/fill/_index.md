@@ -1,7 +1,9 @@
 ---
 title: ChartFormat.Fill
-second_title: Aspose.Words per .NET API Reference
-description: ChartFormat proprietà. Ottiene la formattazione di riempimento per lelemento del grafico principale.
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words per .NET
+description: ChartFormat Fill proprietà. Ottiene la formattazione di riempimento per lelemento del grafico principale in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/chartformat/fill/
@@ -14,7 +16,7 @@ Ottiene la formattazione di riempimento per l'elemento del grafico principale.
 public Fill Fill { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare la formattazione del marcatore.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Charts.MarkerFormatting.docx");
 
 * class [Fill](../../../aspose.words.drawing/fill/)
 * class [ChartFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartformat/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

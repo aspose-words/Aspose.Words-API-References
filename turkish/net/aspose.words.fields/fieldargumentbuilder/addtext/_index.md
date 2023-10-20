@@ -1,7 +1,9 @@
 ---
 title: FieldArgumentBuilder.AddText
-second_title: Aspose.Words for .NET API Referansı
-description: FieldArgumentBuilder yöntem. Bağımsız değişkene düz metin ekler.
+linktitle: AddText
+articleTitle: AddText
+second_title: Aspose.Words for .NET
+description: FieldArgumentBuilder AddText yöntem. Bağımsız değişkene düz metin ekler C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldargumentbuilder/addtext/
@@ -14,7 +16,7 @@ Bağımsız değişkene düz metin ekler.
 public FieldArgumentBuilder AddText(string text)
 ```
 
-### Örnekler
+## Örnekler
 
 Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından bunların belgeye nasıl ekleneceğini gösterir.
 
@@ -97,7 +99,5 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 ### Ayrıca bakınız
 
 * class [FieldArgumentBuilder](../)
-* ad alanı [Aspose.Words.Fields](../../fieldargumentbuilder/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

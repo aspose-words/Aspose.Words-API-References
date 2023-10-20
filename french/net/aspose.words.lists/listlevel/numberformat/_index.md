@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberFormat
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ListLevel propriété. Renvoie ou définit le format numérique pour le niveau de liste.
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: Aspose.Words pour .NET
+description: ListLevel NumberFormat propriété. Renvoie ou définit le format numérique pour le niveau de liste en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.lists/listlevel/numberformat/
@@ -14,7 +16,7 @@ Renvoie ou définit le format numérique pour le niveau de liste.
 public string NumberFormat { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Parmi les caractères de texte normaux, la chaîne peut contenir des caractères fictifs \x0000 à \x0008 représentant les nombres des niveaux de liste correspondants.
 
@@ -22,7 +24,7 @@ Par exemple, la chaîne "\x0000.\x0001)" générera une liste label qui ressembl
 
 Null n'est pas autorisé, mais une chaîne vide signifiant qu'aucun nombre n'est valide.
 
-### Exemples
+## Exemples
 
 Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
 
@@ -137,7 +139,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 ### Voir également
 
 * class [ListLevel](../)
-* espace de noms [Aspose.Words.Lists](../../listlevel/)
+* espace de noms [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../../)
-
-

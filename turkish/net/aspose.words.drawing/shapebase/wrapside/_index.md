@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WrapSide
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Metnin şeklin etrafına nasıl sarıldığını belirtir.
+linktitle: WrapSide
+articleTitle: WrapSide
+second_title: Aspose.Words for .NET
+description: ShapeBase WrapSide mülk. Metnin şeklin etrafına nasıl sarıldığını belirtir C#'da.
 type: docs
 weight: 590
 url: /tr/net/aspose.words.drawing/shapebase/wrapside/
@@ -14,13 +16,13 @@ Metnin şeklin etrafına nasıl sarıldığını belirtir.
 public WrapSide WrapSide { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:Both.
 
 Yalnızca üst düzey şekiller için etkilidir.
 
-### Örnekler
+## Örnekler
 
 Tüm metin kutusu şekillerinin görüntü şekilleriyle nasıl değiştirileceğini gösterir.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 
 * enum [WrapSide](../../wrapside/)
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

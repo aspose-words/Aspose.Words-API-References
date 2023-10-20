@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.ShowSeriesName
-second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabelCollection proprietà. Restituisce o imposta un valore booleano per indicare il comportamento di visualizzazione del nome della serie per le etichette dati dellintera serie. VERO per mostrare il nome della seriefalso nascondere. Per impostazione predefinitafalso .
+linktitle: ShowSeriesName
+articleTitle: ShowSeriesName
+second_title: Aspose.Words per .NET
+description: ChartDataLabelCollection ShowSeriesName proprietà. Restituisce o imposta un valore booleano per indicare il comportamento di visualizzazione del nome della serie per le etichette dati dellintera serie. VERO per mostrare il nome della seriefalso nascondere. Per impostazione predefinitafalso  in C#.
 type: docs
 weight: 130
 url: /it/net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/
@@ -14,11 +16,11 @@ Restituisce o imposta un valore booleano per indicare il comportamento di visual
 public bool ShowSeriesName { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore definito per questa proprietà può essere sovrascritto per una singola etichetta dati utilizzando [`ShowSeriesName`](../../chartdatalabel/showseriesname/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le etichette dati di un grafico a bolle.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ### Guarda anche
 
 * class [ChartDataLabelCollection](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Interface IFontSavingCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.IFontSavingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Benachrichtigungen erhalten und steuern möchten wie Aspose.Words Schriftarten speichert wenn ein Dokument in das HTMLFormat exportiert wird.
+title: IFontSavingCallback Interface
+linktitle: IFontSavingCallback
+articleTitle: IFontSavingCallback
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.IFontSavingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Benachrichtigungen erhalten und steuern möchten wie Aspose.Words Schriftarten speichert wenn ein Dokument in das HTMLFormat exportiert wird in C#.
 type: docs
 weight: 5160
 url: /de/net/aspose.words.saving/ifontsavingcallback/
@@ -18,9 +20,9 @@ public interface IFontSavingCallback
 
 | Name | Beschreibung |
 | --- | --- |
-| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(FontSavingArgs) | Wird aufgerufen, wenn Aspose.Words im Begriff ist, eine Schriftartressource zu speichern. |
+| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(*[FontSavingArgs](../fontsavingargs/)*) | Wird aufgerufen, wenn Aspose.Words im Begriff ist, eine Schriftartressource zu speichern. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
 
@@ -81,5 +83,3 @@ public class HandleFontSaving : IFontSavingCallback
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

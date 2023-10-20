@@ -1,7 +1,9 @@
 ---
 title: Shading.ClearFormatting
-second_title: Справочник по API Aspose.Words для .NET
-description: Shading метод. Удаляет затенение объекта.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words для .NET
+description: Shading ClearFormatting метод. Удаляет затенение объекта на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/shading/clearformatting/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/shading/clearformatting/
 public void ClearFormatting()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать таблицу с настраиваемыми границами.
 
@@ -80,7 +82,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Смотрите также
 
 * class [Shading](../)
-* пространство имен [Aspose.Words](../../shading/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

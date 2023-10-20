@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.Field
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergingArgsBase fast egendom. Hämtar objektet som representerar det aktuella sammanslagningsfältet.
+linktitle: Field
+articleTitle: Field
+second_title: Aspose.Words för .NET
+description: FieldMergingArgsBase Field fast egendom. Hämtar objektet som representerar det aktuella sammanslagningsfältet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.mailmerging/fieldmergingargsbase/field/
@@ -14,7 +16,7 @@ Hämtar objektet som representerar det aktuella sammanslagningsfältet.
 public FieldMergeField Field { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man utför en sammankoppling med en anpassad återuppringning som hanterar sammanslagningsdata i form av HTML-dokument.
 
@@ -83,7 +85,5 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 * class [FieldMergeField](../../../aspose.words.fields/fieldmergefield/)
 * class [FieldMergingArgsBase](../)
-* namnutrymme [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

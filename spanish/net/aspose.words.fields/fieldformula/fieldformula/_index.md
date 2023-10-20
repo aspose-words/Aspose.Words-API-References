@@ -1,7 +1,9 @@
 ---
-title: FieldFormula.FieldFormula
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldFormula constructor. Constructor predeterminado
+title: FieldFormula
+linktitle: FieldFormula
+articleTitle: FieldFormula
+second_title: Aspose.Words para .NET
+description: FieldFormula constructor. Constructor predeterminado en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldformula/fieldformula/
@@ -17,7 +19,5 @@ public FieldFormula()
 ### Ver también
 
 * class [FieldFormula](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldformula/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

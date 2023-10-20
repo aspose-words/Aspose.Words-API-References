@@ -1,7 +1,9 @@
 ---
-title: Enum NumberStyle
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.NumberStyle uppräkning. Anger nummerstilen för en lista fotnoter och slutnoter sidnummer.
+title: NumberStyle Enum
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words för .NET
+description: Aspose.Words.NumberStyle uppräkning. Anger nummerstilen för en lista fotnoter och slutnoter sidnummer i C#.
 type: docs
 weight: 4310
 url: /sv/net/aspose.words/numberstyle/
@@ -81,7 +83,7 @@ public enum NumberStyle
 | None | `255` | Ingen kula eller nummer. |
 | Custom | `65280` | Anpassat nummerformat. Det stöds endast av DOCX-format. |
 
-### Exempel
+## Exempel
 
 Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
 
@@ -141,5 +143,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

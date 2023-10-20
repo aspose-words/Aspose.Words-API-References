@@ -1,7 +1,9 @@
 ---
-title: Class BookmarksOutlineLevelCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.BookmarksOutlineLevelCollection klas. Eine Sammlung einzelner Lesezeichen auf Gliederungsebene.
+title: BookmarksOutlineLevelCollection Class
+linktitle: BookmarksOutlineLevelCollection
+articleTitle: BookmarksOutlineLevelCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.BookmarksOutlineLevelCollection klas. Eine Sammlung einzelner Lesezeichen auf Gliederungsebene in C#.
 type: docs
 weight: 4850
 url: /de/net/aspose.words.saving/bookmarksoutlinelevelcollection/
@@ -33,21 +35,21 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(string, int) | Fügt der Sammlung ein Lesezeichen hinzu. |
+| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(*string, int*) | Fügt der Sammlung ein Lesezeichen hinzu. |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | Entfernt alle Elemente aus der Sammlung. |
-| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(string) | Ermittelt, ob die Sammlung ein Lesezeichen mit dem angegebenen Namen enthält. |
+| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | Ermittelt, ob die Sammlung ein Lesezeichen mit dem angegebenen Namen enthält. |
 | [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann. |
-| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(string) | Gibt den nullbasierten Index des angegebenen Lesezeichens in der Sammlung zurück. |
-| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(string) | Entfernt ein Lesezeichen mit dem angegebenen Namen aus der Sammlung. |
-| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(int) | Entfernt ein Lesezeichen am angegebenen Index. |
+| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(*string*) | Gibt den nullbasierten Index des angegebenen Lesezeichens in der Sammlung zurück. |
+| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(*string*) | Entfernt ein Lesezeichen mit dem angegebenen Namen aus der Sammlung. |
+| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(*int*) | Entfernt ein Lesezeichen am angegebenen Index. |
 
-### Bemerkungen
+## Bemerkungen
 
 Der Schlüssel ist ein Lesezeichenname mit Zeichenkette, bei dem die Groß-/Kleinschreibung nicht beachtet wird. Der Wert ist eine int-Lesezeichen-Gliederungsebene.
 
 Die Lesezeichen-Gliederungsebene kann ein Wert zwischen 0 und 9 sein. Geben Sie 0 an, und das Word-Lesezeichen wird nicht in der Dokumentgliederung angezeigt. Geben Sie 1 an, und das Word-Lesezeichen wird in der Dokumentgliederung auf Ebene 1 angezeigt. 2 für Level 2 und so weiter.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Gliederungsebenen für Lesezeichen festgelegt werden.
 
@@ -106,5 +108,3 @@ outlineLevels.Clear();
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

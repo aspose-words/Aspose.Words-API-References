@@ -1,7 +1,9 @@
 ---
-title: Class PlainTextDocument
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.PlainTextDocument classe. Permette di estrarre la rappresentazione in testo semplice del contenuto del documento.
+title: PlainTextDocument Class
+linktitle: PlainTextDocument
+articleTitle: PlainTextDocument
+second_title: Aspose.Words per .NET
+description: Aspose.Words.PlainTextDocument classe. Permette di estrarre la rappresentazione in testo semplice del contenuto del documento in C#.
 type: docs
 weight: 4440
 url: /it/net/aspose.words/plaintextdocument/
@@ -20,10 +22,10 @@ public class PlainTextDocument
 
 | Nome | Descrizione |
 | --- | --- |
-| [PlainTextDocument](plaintextdocument/#constructor)(Stream) | Crea un documento di testo semplice da un flusso. Rileva automaticamente il formato del file. |
-| [PlainTextDocument](plaintextdocument/#constructor_2)(string) | Crea un documento di testo semplice da un file. Rileva automaticamente il formato del file. |
-| [PlainTextDocument](plaintextdocument/#constructor_1)(Stream, LoadOptions) | Crea un documento di testo semplice da un flusso. Consente di specificare opzioni aggiuntive come una password di crittografia. |
-| [PlainTextDocument](plaintextdocument/#constructor_3)(string, LoadOptions) | Crea un documento di testo semplice da un file. Consente di specificare opzioni aggiuntive come una password di crittografia. |
+| [PlainTextDocument](plaintextdocument/#constructor)(*Stream*) | Crea un documento di testo semplice da un flusso. Rileva automaticamente il formato del file. |
+| [PlainTextDocument](plaintextdocument/#constructor_2)(*string*) | Crea un documento di testo semplice da un file. Rileva automaticamente il formato del file. |
+| [PlainTextDocument](plaintextdocument/#constructor_1)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Crea un documento di testo semplice da un flusso. Consente di specificare opzioni aggiuntive come una password di crittografia. |
+| [PlainTextDocument](plaintextdocument/#constructor_3)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Crea un documento di testo semplice da un file. Consente di specificare opzioni aggiuntive come una password di crittografia. |
 
 ## Proprietà
 
@@ -33,7 +35,7 @@ public class PlainTextDocument
 | [CustomDocumentProperties](../../aspose.words/plaintextdocument/customdocumentproperties/) { get; } | Ottiene[`CustomDocumentProperties`](./customdocumentproperties/) del documento. |
 | [Text](../../aspose.words/plaintextdocument/text/) { get; } | Ottiene il contenuto testuale del documento concatenato come una stringa. |
 
-### Esempi
+## Esempi
 
 Mostra come caricare il contenuto di un documento Microsoft Word in testo normale.
 
@@ -53,5 +55,3 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 * spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
-
-

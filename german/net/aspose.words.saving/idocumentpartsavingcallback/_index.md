@@ -1,7 +1,9 @@
 ---
-title: Interface IDocumentPartSavingCallback
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.IDocumentPartSavingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Benachrichtigungen erhalten und steuern möchten wie Aspose.Words Dokumentteile speichert wenn ein Dokument exportiert wirdHtml oderEpub format.
+title: IDocumentPartSavingCallback Interface
+linktitle: IDocumentPartSavingCallback
+articleTitle: IDocumentPartSavingCallback
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Saving.IDocumentPartSavingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Benachrichtigungen erhalten und steuern möchten wie Aspose.Words Dokumentteile speichert wenn ein Dokument exportiert wirdHtml oderEpub format in C#.
 type: docs
 weight: 5140
 url: /de/net/aspose.words.saving/idocumentpartsavingcallback/
@@ -18,9 +20,9 @@ public interface IDocumentPartSavingCallback
 
 | Name | Beschreibung |
 | --- | --- |
-| [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/)(DocumentPartSavingArgs) | Wird aufgerufen, wenn Aspose.Words im Begriff ist, einen Dokumentteil zu speichern. |
+| [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/)(*[DocumentPartSavingArgs](../documentpartsavingargs/)*) | Wird aufgerufen, wenn Aspose.Words im Begriff ist, einen Dokumentteil zu speichern. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument in Teile aufteilt und diese speichert.
 
@@ -138,5 +140,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * namensraum [Aspose.Words.Saving](../../aspose.words.saving/)
 * Montage [Aspose.Words](../../)
-
-

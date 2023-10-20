@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.LegacyNumberFormat
-second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على القيمة التي تشير إلى ما إذا كان تنسيق الأرقام القديم أقدم من AW 13.10 للحقول أو تعيينه ممكنًا أم لا.
+linktitle: LegacyNumberFormat
+articleTitle: LegacyNumberFormat
+second_title: Aspose.Words لـ .NET
+description: FieldOptions LegacyNumberFormat ملكية. الحصول على القيمة التي تشير إلى ما إذا كان تنسيق الأرقام القديم أقدم من AW 13.10 للحقول أو تعيينه ممكنًا أم لا في C#.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.fields/fieldoptions/legacynumberformat/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldoptions/legacynumberformat/
 public bool LegacyNumberFormat { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 عندما يتم تعيين هذه الخاصية إلى`حقيقي`، رمز القالب "#" يعمل كما هو الحال في .net: يستبدل علامة الجنيه بالرقم المقابل إذا كان موجودًا؛ وإلا، فلن تظهر أي رموز في السلسلة الناتجة.
 
@@ -22,7 +24,7 @@ public bool LegacyNumberFormat { get; set; }
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تمكين تنسيق الأرقام القديم للحقول.
 
@@ -43,7 +45,5 @@ Assert.AreEqual("$5", field.Result);
 ### أنظر أيضا
 
 * class [FieldOptions](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldoptions/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

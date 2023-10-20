@@ -1,7 +1,9 @@
 ---
 title: Document.ShowGrammaticalErrors
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Spécifie sil faut afficher les erreurs de grammaire dans ce document.
+linktitle: ShowGrammaticalErrors
+articleTitle: ShowGrammaticalErrors
+second_title: Aspose.Words pour .NET
+description: Document ShowGrammaticalErrors propriété. Spécifie sil faut afficher les erreurs de grammaire dans ce document en C#.
 type: docs
 weight: 390
 url: /fr/net/aspose.words/document/showgrammaticalerrors/
@@ -14,7 +16,7 @@ Spécifie s'il faut afficher les erreurs de grammaire dans ce document.
 public bool ShowGrammaticalErrors { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment afficher/masquer les erreurs dans le document.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "Document.SpellingAndGrammarErrors.docx");
 ### Voir également
 
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

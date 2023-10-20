@@ -1,7 +1,9 @@
 ---
-title: Enum ListTemplate
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Lists.ListTemplate تعداد. يحدد أحد تنسيقات القائمة المحددة مسبقًا والمتوفرة في Microsoft Word.
+title: ListTemplate Enum
+linktitle: ListTemplate
+articleTitle: ListTemplate
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Lists.ListTemplate تعداد. يحدد أحد تنسيقات القائمة المحددة مسبقًا والمتوفرة في Microsoft Word في C#.
 type: docs
 weight: 3530
 url: /ar/net/aspose.words.lists/listtemplate/
@@ -41,13 +43,13 @@ public enum ListTemplate
 | OutlineHeadingsNumbers | `18` | قائمة مخطط تفصيلي تحتوي على مستويات مرتبطة بأنماط العناوين. |
 | OutlineHeadingsChapter | `19` | قائمة مخطط تفصيلي تحتوي على مستويات مرتبطة بأنماط العناوين. |
 
-### ملاحظات
+## ملاحظات
 
 يتم استخدام قيمة قالب القائمة كمعلمة في the [`Add`](../listcollection/add/) طريقة.
 
 تتوافق قوالب قائمة Aspose.Words مع قوالب القائمة الـ 21 المتوفرة في مربع حوار التعداد النقطي والترقيم في Microsoft Word 2003.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء مستند يحتوي على كافة قوالب قائمة عناوين المخطط التفصيلي.
 
@@ -184,5 +186,3 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * مساحة الاسم [Aspose.Words.Lists](../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../)
-
-

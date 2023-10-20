@@ -1,7 +1,9 @@
 ---
 title: RowFormat.HeightRule
-second_title: Aspose.Words per .NET API Reference
-description: RowFormat proprietà. Ottiene o imposta la regola per determinare laltezza della riga della tabella.
+linktitle: HeightRule
+articleTitle: HeightRule
+second_title: Aspose.Words per .NET
+description: RowFormat HeightRule proprietà. Ottiene o imposta la regola per determinare laltezza della riga della tabella in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.tables/rowformat/heightrule/
@@ -14,7 +16,7 @@ Ottiene o imposta la regola per determinare l'altezza della riga della tabella.
 public HeightRule HeightRule { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come formattare le righe con un generatore di documenti.
 
@@ -110,7 +112,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.CreateFormattedTable.docx");
 
 * enum [HeightRule](../../../aspose.words/heightrule/)
 * class [RowFormat](../)
-* spazio dei nomi [Aspose.Words.Tables](../../rowformat/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

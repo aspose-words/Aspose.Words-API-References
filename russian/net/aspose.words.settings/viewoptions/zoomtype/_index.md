@@ -1,7 +1,9 @@
 ---
 title: ViewOptions.ZoomType
-second_title: Справочник по API Aspose.Words для .NET
-description: ViewOptions свойство. Получает или задает значение масштабирования в зависимости от размера окна.
+linktitle: ZoomType
+articleTitle: ZoomType
+second_title: Aspose.Words для .NET
+description: ViewOptions ZoomType свойство. Получает или задает значение масштабирования в зависимости от размера окна на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.settings/viewoptions/zoomtype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.settings/viewoptions/zoomtype/
 public ZoomType ZoomType { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить пользовательский коэффициент масштабирования, который старые версии Microsoft Word будут применять к документу при загрузке.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");
 
 * enum [ZoomType](../../zoomtype/)
 * class [ViewOptions](../)
-* пространство имен [Aspose.Words.Settings](../../viewoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

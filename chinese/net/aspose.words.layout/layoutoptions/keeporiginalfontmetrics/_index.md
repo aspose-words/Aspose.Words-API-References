@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.KeepOriginalFontMetrics
-second_title: Aspose.Words for .NET API 参考
-description: LayoutOptions 财产. 获取或设置字体替换后是否应使用原始字体规格的指示 默认为真的.
+linktitle: KeepOriginalFontMetrics
+articleTitle: KeepOriginalFontMetrics
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutOptions KeepOriginalFontMetrics 财产. 获取或设置字体替换后是否应使用原始字体规格的指示 默认为真的 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.layout/layoutoptions/keeporiginalfontmetrics/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/layoutoptions/keeporiginalfontmetrics/
 public bool KeepOriginalFontMetrics { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
@@ -74,7 +76,5 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
 ### 也可以看看
 
 * class [LayoutOptions](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutoptions/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

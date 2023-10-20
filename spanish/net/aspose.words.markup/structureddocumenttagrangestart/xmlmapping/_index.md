@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.XmlMapping
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart propiedad. Obtiene un objeto que representa la asignación de este rango de etiquetas de documento estructurado a datos XML en una parte XML personalizada del documento actual.
+linktitle: XmlMapping
+articleTitle: XmlMapping
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTagRangeStart XmlMapping propiedad. Obtiene un objeto que representa la asignación de este rango de etiquetas de documento estructurado a datos XML en una parte XML personalizada del documento actual en C#.
 type: docs
 weight: 180
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/
@@ -14,11 +16,11 @@ Obtiene un objeto que representa la asignación de este rango de etiquetas de do
 public XmlMapping XmlMapping { get; }
 ```
 
-### Observaciones
+## Observaciones
 
 Puedes usar el[`SetMapping`](../../xmlmapping/setmapping/) método del objeto this para asignar un rango de etiquetas de documento estructurado a datos XML.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo configurar asignaciones XML para el inicio del rango de una etiqueta de documento estructurado.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.StructuredDocumentTagRangeStartXm
 
 * class [XmlMapping](../../xmlmapping/)
 * class [StructuredDocumentTagRangeStart](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

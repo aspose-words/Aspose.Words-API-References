@@ -1,7 +1,9 @@
 ---
 title: OutlineOptions.ExpandedOutlineLevels
-second_title: Aspose.Words för .NET API Referens
-description: OutlineOptions fast egendom. Anger hur många nivåer i dokumentkonturen som ska visas utökad när filen visas.
+linktitle: ExpandedOutlineLevels
+articleTitle: ExpandedOutlineLevels
+second_title: Aspose.Words för .NET
+description: OutlineOptions ExpandedOutlineLevels fast egendom. Anger hur många nivåer i dokumentkonturen som ska visas utökad när filen visas i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.saving/outlineoptions/expandedoutlinelevels/
@@ -14,7 +16,7 @@ Anger hur många nivåer i dokumentkonturen som ska visas utökad när filen vis
 public int ExpandedOutlineLevels { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Observera att detta alternativ inte fungerar när du sparar till XPS.
 
@@ -22,7 +24,7 @@ Ange 0 och dokumentkonturen kommer att komprimeras; specificera 1 och den först
 
 Standard är 0. Giltigt intervall är 0 till 9.
 
-### Exempel
+## Exempel
 
 Visar hur man konverterar ett helt dokument till PDF med tre nivåer i dokumentöversikten.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 ### Se även
 
 * class [OutlineOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../outlineoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

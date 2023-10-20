@@ -1,7 +1,9 @@
 ---
 title: PageSetup.OddAndEvenPagesHeaderFooter
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Vrai si le document comporte des entêtes et des pieds de page différents pour les pages impaires et paires.
+linktitle: OddAndEvenPagesHeaderFooter
+articleTitle: OddAndEvenPagesHeaderFooter
+second_title: Aspose.Words pour .NET
+description: PageSetup OddAndEvenPagesHeaderFooter propriété. Vrai si le document comporte des entêtes et des pieds de page différents pour les pages impaires et paires en C#.
 type: docs
 weight: 280
 url: /fr/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
@@ -14,11 +16,11 @@ Vrai si le document comporte des en-têtes et des pieds de page différents pour
 public bool OddAndEvenPagesHeaderFooter { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Notez que la modification de cette propriété affecte toutes les sections du document.
 
-### Exemples
+## Exemples
 
 Montre comment créer des en-têtes et des pieds de page dans un document à l'aide de DocumentBuilder.
 
@@ -91,7 +93,5 @@ doc.Save(ArtifactsDir + "PageSetup.OddAndEvenPagesHeaderFooter.docx");
 ### Voir également
 
 * class [PageSetup](../)
-* espace de noms [Aspose.Words](../../pagesetup/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

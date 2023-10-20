@@ -1,7 +1,9 @@
 ---
 title: Watermark.Remove
-second_title: Aspose.Words for .NET API 参考
-description: Watermark 方法. 删除水印
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: Watermark Remove 方法. 删除水印 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/watermark/remove/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/watermark/remove/
 public void Remove()
 ```
 
-### 例子
+## 例子
 
 展示如何创建文本水印。
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### 也可以看看
 
 * class [Watermark](../)
-* 命名空间 [Aspose.Words](../../watermark/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

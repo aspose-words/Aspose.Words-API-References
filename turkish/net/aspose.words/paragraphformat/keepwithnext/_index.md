@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.KeepWithNext
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragrafın onu takip eden paragrafla aynı sayfada kalması gerekiyorsa doğrudur.
+linktitle: KeepWithNext
+articleTitle: KeepWithNext
+second_title: Aspose.Words for .NET
+description: ParagraphFormat KeepWithNext mülk. Paragrafın onu takip eden paragrafla aynı sayfada kalması gerekiyorsa doğrudur C#'da.
 type: docs
 weight: 170
 url: /tr/net/aspose.words/paragraphformat/keepwithnext/
@@ -14,7 +16,7 @@ Paragrafın onu takip eden paragrafla aynı sayfada kalması gerekiyorsa doğrud
 public bool KeepWithNext { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Aynı sayfada bir arada kalacak bir tablonun nasıl ayarlanacağını gösterir.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

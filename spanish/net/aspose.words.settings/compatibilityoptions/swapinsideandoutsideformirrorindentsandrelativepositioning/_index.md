@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning
-second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Especifica intercambiar el interior y el exterior para sangrías de espejo y posicionamiento relativo.
+linktitle: SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning
+articleTitle: SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning
+second_title: Aspose.Words para .NET
+description: CompatibilityOptions SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning propiedad. Especifica intercambiar el interior y el exterior para sangrías de espejo y posicionamiento relativo en C#.
 type: docs
 weight: 540
 url: /es/net/aspose.words.settings/compatibilityoptions/swapinsideandoutsideformirrorindentsandrelativepositioning/
@@ -17,7 +19,5 @@ public bool SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning { get; se
 ### Ver también
 
 * class [CompatibilityOptions](../)
-* espacio de nombres [Aspose.Words.Settings](../../compatibilityoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../../)
-
-

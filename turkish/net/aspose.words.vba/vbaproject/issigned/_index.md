@@ -1,7 +1,9 @@
 ---
 title: VbaProject.IsSigned
-second_title: Aspose.Words for .NET API Referansı
-description: VbaProject mülk. Şunun olup olmadığını gösterirVbaProject imzalanmış veya imzalanmamış.
+linktitle: IsSigned
+articleTitle: IsSigned
+second_title: Aspose.Words for .NET
+description: VbaProject IsSigned mülk. Şunun olup olmadığını gösterirVbaProject imzalanmış veya imzalanmamış C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.vba/vbaproject/issigned/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.vba/vbaproject/issigned/
 public bool IsSigned { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin VBA proje bilgilerine nasıl erişileceğini gösterir.
 
@@ -45,7 +47,5 @@ vbaModules.Remove(vbaModules[2]);
 ### Ayrıca bakınız
 
 * class [VbaProject](../)
-* ad alanı [Aspose.Words.Vba](../../vbaproject/)
+* ad alanı [Aspose.Words.Vba](../../../aspose.words.vba/)
 * toplantı [Aspose.Words](../../../)
-
-

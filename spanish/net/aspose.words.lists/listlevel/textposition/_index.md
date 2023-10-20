@@ -1,7 +1,9 @@
 ---
 title: ListLevel.TextPosition
-second_title: Referencia de API de Aspose.Words para .NET
-description: ListLevel propiedad. Devuelve o establece la posición en puntos de la segunda línea de texto envolvente para el nivel de lista.
+linktitle: TextPosition
+articleTitle: TextPosition
+second_title: Aspose.Words para .NET
+description: ListLevel TextPosition propiedad. Devuelve o establece la posición en puntos de la segunda línea de texto envolvente para el nivel de lista en C#.
 type: docs
 weight: 130
 url: /es/net/aspose.words.lists/listlevel/textposition/
@@ -14,11 +16,11 @@ Devuelve o establece la posición (en puntos) de la segunda línea de texto envo
 public double TextPosition { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 `TextPosition` corresponde a LeftIndent del párrafo.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo aplicar formato de lista personalizado a párrafos cuando se utiliza DocumentBuilder.
 
@@ -77,7 +79,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ### Ver también
 
 * class [ListLevel](../)
-* espacio de nombres [Aspose.Words.Lists](../../listlevel/)
+* espacio de nombres [Aspose.Words.Lists](../../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ChartShapeType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartShapeType تعداد. يحدد نوع شكل عناصر المخطط.
+title: ChartShapeType Enum
+linktitle: ChartShapeType
+articleTitle: ChartShapeType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartShapeType تعداد. يحدد نوع شكل عناصر المخطط في C#.
 type: docs
 weight: 810
 url: /ar/net/aspose.words.drawing.charts/chartshapetype/
@@ -207,7 +209,7 @@ public enum ChartShapeType
 | ChartStar | `186` | نجمة المخطط. |
 | ChartX | `187` | الرسم البياني X. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين تنسيق التعبئة والحد ووسيلة الشرح لتسميات بيانات المخطط.
 
@@ -250,5 +252,3 @@ doc.Save(ArtifactsDir + "Charts.FormatDataLables.docx");
 * property [ShapeType](../chartformat/shapetype/)
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

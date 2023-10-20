@@ -1,7 +1,9 @@
 ---
 title: TableStyle.RowStripe
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TableStyle propriété. Obtient ou définit un nombre de lignes à inclure dans la bande lorsque le style spécifie une bande de ligne paire/impaire.
+linktitle: RowStripe
+articleTitle: RowStripe
+second_title: Aspose.Words pour .NET
+description: TableStyle RowStripe propriété. Obtient ou définit un nombre de lignes à inclure dans la bande lorsque le style spécifie une bande de ligne paire/impaire en C#.
 type: docs
 weight: 120
 url: /fr/net/aspose.words/tablestyle/rowstripe/
@@ -14,7 +16,7 @@ Obtient ou définit un nombre de lignes à inclure dans la bande lorsque le styl
 public int RowStripe { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer des styles de tableau conditionnels qui alternent entre les lignes.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "Table.AlternatingRowStyles.docx");
 ### Voir également
 
 * class [TableStyle](../)
-* espace de noms [Aspose.Words](../../tablestyle/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

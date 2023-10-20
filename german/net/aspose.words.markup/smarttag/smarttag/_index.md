@@ -1,7 +1,9 @@
 ---
-title: SmartTag.SmartTag
-second_title: Aspose.Words für .NET-API-Referenz
-description: SmartTag constructeur. Initialisiert eine neue Instanz vonSmartTag Klasse.
+title: SmartTag
+linktitle: SmartTag
+articleTitle: SmartTag
+second_title: Aspose.Words für .NET
+description: SmartTag constructeur. Initialisiert eine neue Instanz vonSmartTag Klasse in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.markup/smarttag/smarttag/
@@ -18,13 +20,13 @@ public SmartTag(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Das Eigentümerdokument. |
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn Sie einen neuen Knoten erstellen, müssen Sie ein Dokument angeben, zu dem der Knoten gehört. Ein Knoten kann ohne ein Dokument nicht existieren, da er von den dokumentweiten Strukturen wie Listen und Stilen abhängt. Obwohl ein Knoten immer zu einem Dokument gehört, kann ein Knoten Teil des Dokumentbaums sein oder auch nicht.
 
-Wenn ein Knoten erstellt wird, gehört er zu einem Dokument, ist aber noch nicht Teil des Dokumentbaums und[`ParentNode`](../../../aspose.words/node/parentnode/) Ist`Null` . Um einen Knoten in das Dokument einzufügen, verwenden Sie the Node) oderNode) methoden auf dem übergeordneten Knoten.
+Wenn ein Knoten erstellt wird, gehört er zu einem Dokument, ist aber noch nicht Teil des Dokumentbaums und[`ParentNode`](../../../aspose.words/node/parentnode/) Ist`Null` . Um einen Knoten in das Dokument einzufügen, verwenden Sie the [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) oder[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) methoden auf dem übergeordneten Knoten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man Smarttags erstellt.
 
@@ -126,7 +128,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [SmartTag](../)
-* namensraum [Aspose.Words.Markup](../../smarttag/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

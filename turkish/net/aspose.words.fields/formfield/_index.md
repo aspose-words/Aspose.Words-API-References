@@ -1,7 +1,9 @@
 ---
-title: Class FormField
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FormField sınıf. Tek bir form alanını temsil eder.
+title: FormField Class
+linktitle: FormField
+articleTitle: FormField
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FormField sınıf. Tek bir form alanını temsil eder C#'da.
 type: docs
 weight: 2620
 url: /tr/net/aspose.words.fields/formfield/
@@ -61,20 +63,20 @@ public class FormField : SpecialChar
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/formfield/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk atayı alır. |
+| override [Accept](../../aspose.words.fields/formfield/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Ziyaretçi kabul eder. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Düğümün bir kopyasını oluşturur. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Belirtilenin ilk atayı alır[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Belirtilen nesne türünün ilk atayı alır. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Bu düğümün temsil ettiği özel karakteri alır. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
 | [RemoveField](../../aspose.words.fields/formfield/removefield/)() | Yalnızca form alanı özel karakterini değil, tüm form alanını kaldırır. |
-| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue/)(object) | Belirtilen metin biçimini uygular.[`TextInputFormat`](./textinputformat/) ve değeri içinde saklar[`Result`](./result/) . |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
+| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue/)(*object*) | Belirtilen metin biçimini uygular.[`TextInputFormat`](./textinputformat/) ve değeri içinde saklar[`Result`](./result/) . |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
-### Notlar
+## Notlar
 
 Microsoft Word aşağıdaki form alanlarını sağlar: onay kutusu, metin girişi ve açılır menü (birleşik kutu).
 
@@ -84,7 +86,7 @@ Microsoft Word aşağıdaki form alanlarını sağlar: onay kutusu, metin giriş
 
 Bir Word belgesindeki tam form alanı, birkaç düğümle temsil edilen karmaşık bir yapıdır: alan başlangıcı, FORMTEXT gibi alan kodu, form alanı verileri, alan ayırıcı, alan sonucu, alan sonu ve yer işareti. Bir Word belgesinde programlı olarak form alanları oluşturmak için use [`InsertCheckBox`](../../aspose.words/documentbuilder/insertcheckbox/) , [`InsertTextInput`](../../aspose.words/documentbuilder/inserttextinput/) ve [`InsertComboBox`](../../aspose.words/documentbuilder/insertcombobox/) that tüm form alanı düğümlerinin doğru sırada ve uygun durumda oluşturulduğundan emin olun.
 
-### Örnekler
+## Örnekler
 
 Alan değeri de dahil olmak üzere FormField'ın tamamının nasıl biçimlendirileceğini gösterir.
 
@@ -132,5 +134,3 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 * class [SpecialChar](../../aspose.words/specialchar/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

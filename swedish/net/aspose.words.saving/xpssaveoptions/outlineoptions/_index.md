@@ -1,7 +1,9 @@
 ---
 title: XpsSaveOptions.OutlineOptions
-second_title: Aspose.Words för .NET API Referens
-description: XpsSaveOptions fast egendom. Gör det möjligt att ange konturalternativ.
+linktitle: OutlineOptions
+articleTitle: OutlineOptions
+second_title: Aspose.Words för .NET
+description: XpsSaveOptions OutlineOptions fast egendom. Gör det möjligt att ange konturalternativ i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/xpssaveoptions/outlineoptions/
@@ -14,11 +16,11 @@ Gör det möjligt att ange konturalternativ.
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Anteckna det[`ExpandedOutlineLevels`](../../outlineoptions/expandedoutlinelevels/) alternativet fungerar inte när du sparar till XPS.
 
-### Exempel
+## Exempel
 
 Visar hur man begränsar rubrikernas nivå som visas i konturerna av ett sparat XPS-dokument.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 * class [OutlineOptions](../../outlineoptions/)
 * class [XpsSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../xpssaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

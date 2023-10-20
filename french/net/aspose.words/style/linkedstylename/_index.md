@@ -1,7 +1,9 @@
 ---
 title: Style.LinkedStyleName
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Style propriété. Obtient le nom duStyle lié à celuici. Renvoie une chaîne vide si aucun style nest lié.
+linktitle: LinkedStyleName
+articleTitle: LinkedStyleName
+second_title: Aspose.Words pour .NET
+description: Style LinkedStyleName propriété. Obtient le nom duStyle lié à celuici. Renvoie une chaîne vide si aucun style nest lié en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words/style/linkedstylename/
@@ -14,7 +16,7 @@ Obtient le nom du[`Style`](../) lié à celui-ci. Renvoie une chaîne vide si au
 public string LinkedStyleName { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les alias de style.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Voir également
 
 * class [Style](../)
-* espace de noms [Aspose.Words](../../style/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

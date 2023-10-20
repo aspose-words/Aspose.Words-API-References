@@ -1,7 +1,9 @@
 ---
 title: ListLabel.LabelString
-second_title: Aspose.Words per .NET API Reference
-description: ListLabel proprietà. Ottiene una rappresentazione di stringa delletichetta dellelenco.
+linktitle: LabelString
+articleTitle: LabelString
+second_title: Aspose.Words per .NET
+description: ListLabel LabelString proprietà. Ottiene una rappresentazione di stringa delletichetta dellelenco in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.lists/listlabel/labelstring/
@@ -14,7 +16,7 @@ Ottiene una rappresentazione di stringa dell'etichetta dell'elenco.
 public string LabelString { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come estrarre le etichette dell'elenco di tutti i paragrafi che sono elementi dell'elenco.
 
@@ -49,7 +51,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### Guarda anche
 
 * class [ListLabel](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listlabel/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

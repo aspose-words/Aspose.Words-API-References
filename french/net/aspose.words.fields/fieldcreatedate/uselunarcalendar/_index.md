@@ -1,7 +1,9 @@
 ---
 title: FieldCreateDate.UseLunarCalendar
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldCreateDate propriété. Obtient ou définit sil faut utiliser le calendrier lunaire hégirien ou lunaire hébreu.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words pour .NET
+description: FieldCreateDate UseLunarCalendar propriété. Obtient ou définit sil faut utiliser le calendrier lunaire hégirien ou lunaire hébreu en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldcreatedate/uselunarcalendar/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut utiliser le calendrier lunaire hégirien ou lunair
 public bool UseLunarCalendar { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser le champ CREATEDATE pour afficher la date/heure de création du document.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");
 ### Voir également
 
 * class [FieldCreateDate](../)
-* espace de noms [Aspose.Words.Fields](../../fieldcreatedate/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

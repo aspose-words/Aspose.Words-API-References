@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.Type
-second_title: Aspose.Words لمراجع .NET API
-description: PreferredWidth ملكية. للحصول على وحدة القياس المستخدمة لقيمة العرض المفضلة هذه.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: PreferredWidth Type ملكية. للحصول على وحدة القياس المستخدمة لقيمة العرض المفضلة هذه في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.tables/preferredwidth/type/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/preferredwidth/type/
 public PreferredWidthType Type { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التحقق من نوع العرض المفضل وقيمة خلية الجدول.
 
@@ -32,7 +34,5 @@ Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
 
 * enum [PreferredWidthType](../../preferredwidthtype/)
 * class [PreferredWidth](../)
-* مساحة الاسم [Aspose.Words.Tables](../../preferredwidth/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class LayoutEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Layout.LayoutEnumerator sınıf. Bir belgenin sayfa düzeni varlıklarını numaralandırır. Sayfa düzeni modeli üzerinde gezinmek için bu sınıfı kullanabilirsiniz. Kullanılabilir özellikler arasında tür geometri metin ve varlığın oluşturulduğu sayfa dizini ve ayrıca genel yapı ve ilişkiler bulunur. Şunların kombinasyonunu kullanınGetEntity VeCurrent belge düğümüne karşılık gelen varlığa gidin.
+title: LayoutEnumerator Class
+linktitle: LayoutEnumerator
+articleTitle: LayoutEnumerator
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Layout.LayoutEnumerator sınıf. Bir belgenin sayfa düzeni varlıklarını numaralandırır. Sayfa düzeni modeli üzerinde gezinmek için bu sınıfı kullanabilirsiniz. Kullanılabilir özellikler arasında tür geometri metin ve varlığın oluşturulduğu sayfa dizini ve ayrıca genel yapı ve ilişkiler bulunur. Şunların kombinasyonunu kullanınGetEntity VeCurrent belge düğümüne karşılık gelen varlığa gidin C#'da.
 type: docs
 weight: 3340
 url: /tr/net/aspose.words.layout/layoutenumerator/
@@ -20,7 +22,7 @@ public class LayoutEnumerator
 
 | İsim | Tanım |
 | --- | --- |
-| [LayoutEnumerator](layoutenumerator/)(Document) | Bu sınıfın yeni örneğini başlatır. |
+| [LayoutEnumerator](layoutenumerator/)(*[Document](../../aspose.words/document/)*) | Bu sınıfın yeni örneğini başlatır. |
 
 ## Özellikleri
 
@@ -44,12 +46,12 @@ public class LayoutEnumerator
 | [MoveNext](../../aspose.words.layout/layoutenumerator/movenext/)() | Görsel sırayla bir sonraki kardeş varlığa geçer. Sayfalara bölünmüş bir paragrafın satırları yinelenirken bu method sonraki sayfaya geçmez, bunun yerine aynı sayfadaki sonraki varlığa geçer. |
 | [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical/)() | Mantıksal bir sırayla sonraki kardeş varlığa geçer. Sayfalara bölünmüş bir paragrafın satırları yinelenirken, bu method başka bir sayfada bulunsa bile bir sonraki satıra geçer. |
 | [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent)() | Üst varlığa gider. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(LayoutEntityType) | Belirtilen türdeki üst varlığa gider. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(*[LayoutEntityType](../layoutentitytype/)*) | Belirtilen türdeki üst varlığa gider. |
 | [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious/)() | Önceki kardeş varlığa gider. |
 | [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical/)() | Mantıksal bir sırayla önceki kardeş varlığa gider. Sayfalara bölünmüş bir paragrafın satırları yinelenirken, bu method başka bir sayfada bulunsa bile önceki satıra gider. |
 | [Reset](../../aspose.words.layout/layoutenumerator/reset/)() | Numaralandırıcıyı belgenin ilk sayfasına taşır. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
@@ -195,5 +197,3 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * ad alanı [Aspose.Words.Layout](../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../)
-
-

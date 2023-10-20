@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.OriginalFileName
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSavingArgs свойство. Получает исходное имя файла шрифта с расширением.
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: Aspose.Words для .NET
+description: FontSavingArgs OriginalFileName свойство. Получает исходное имя файла шрифта с расширением на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.saving/fontsavingargs/originalfilename/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/fontsavingargs/originalfilename/
 public string OriginalFileName { get; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство содержит исходное имя файла текущего шрифта, если оно известно. В противном случае это может быть пустая строка.
 
-### Примеры
+## Примеры
 
 Показывает, как определить пользовательскую логику для экспорта шрифтов при сохранении в HTML.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Смотрите также
 
 * class [FontSavingArgs](../)
-* пространство имен [Aspose.Words.Saving](../../fontsavingargs/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

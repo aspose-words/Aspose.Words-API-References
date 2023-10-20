@@ -1,9 +1,11 @@
 ---
 title: Document.Unprotect
-second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 无论密码如何都会删除文档的保护
+linktitle: Unprotect
+articleTitle: Unprotect
+second_title: 用于 .NET 的 Aspose.Words
+description: Document Unprotect 方法. 无论密码如何都会删除文档的保护 在 C#.
 type: docs
-weight: 760
+weight: 740
 url: /zh/net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/document/unprotect/
 public void Unprotect()
 ```
 
-### 评论
+## 评论
 
 即使文档有保护密码，此方法也会取消对文档的保护。
 
 请注意，文档保护与写保护不同。 写保护是使用[`WriteProtection`](../writeprotection/)。
 
-### 例子
+## 例子
 
 展示如何保护和取消保护文档。
 
@@ -65,12 +67,12 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## Unprotect(string) {#unprotect}
+## Unprotect(*string*) {#unprotect}
 
 如果指定了正确的密码，则删除文档的保护。
 
@@ -86,13 +88,13 @@ public bool Unprotect(string password)
 
 `真的`如果指定了正确的密码并且文档未受保护。
 
-### 评论
+## 评论
 
 仅当指定了正确的密码时，此方法才会取消对文档的保护。
 
 请注意，文档保护与写保护不同。 写保护是使用[`WriteProtection`](../writeprotection/)。
 
-### 例子
+## 例子
 
 展示如何保护和取消保护文档。
 
@@ -137,7 +139,5 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 ### 也可以看看
 
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

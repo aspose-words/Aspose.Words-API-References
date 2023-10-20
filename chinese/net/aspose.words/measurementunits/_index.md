@@ -1,7 +1,9 @@
 ---
-title: Enum MeasurementUnits
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.MeasurementUnits 枚举. 指定测量单位
+title: MeasurementUnits Enum
+linktitle: MeasurementUnits
+articleTitle: MeasurementUnits
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.MeasurementUnits 枚举. 指定测量单位 在 C#.
 type: docs
 weight: 4150
 url: /zh/net/aspose.words/measurementunits/
@@ -28,5 +30,3 @@ public enum MeasurementUnits
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

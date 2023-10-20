@@ -1,7 +1,9 @@
 ---
 title: FieldCreateDate.UseUmAlQuraCalendar
-second_title: Aspose.Words لمراجع .NET API
-description: FieldCreateDate ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام تقويم أم القرى.
+linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
+second_title: Aspose.Words لـ .NET
+description: FieldCreateDate UseUmAlQuraCalendar ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام تقويم أم القرى في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldcreatedate/useumalquracalendar/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldcreatedate/useumalquracalendar/
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام حقل "تاريخ الإنشاء" لعرض تاريخ/وقت إنشاء المستند.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");
 ### أنظر أيضا
 
 * class [FieldCreateDate](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcreatedate/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

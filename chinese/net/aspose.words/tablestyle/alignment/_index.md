@@ -1,7 +1,9 @@
 ---
 title: TableStyle.Alignment
-second_title: Aspose.Words for .NET API 参考
-description: TableStyle 财产. 指定表格样式的对齐方式
+linktitle: Alignment
+articleTitle: Alignment
+second_title: 用于 .NET 的 Aspose.Words
+description: TableStyle Alignment 财产. 指定表格样式的对齐方式 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/tablestyle/alignment/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/tablestyle/alignment/
 public TableAlignment Alignment { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为Left.
 
-### 例子
+## 例子
 
 展示如何设置表格的位置。
 
@@ -63,7 +65,5 @@ doc.Save(ArtifactsDir + "Table.SetTableAlignment.docx");
 
 * enum [TableAlignment](../../../aspose.words.tables/tablealignment/)
 * class [TableStyle](../)
-* 命名空间 [Aspose.Words](../../tablestyle/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

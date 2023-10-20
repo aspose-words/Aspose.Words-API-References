@@ -1,7 +1,9 @@
 ---
 title: ThemeFonts.Latin
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ThemeFonts propriété. Spécifie le nom de la police pour les caractères latins.
+linktitle: Latin
+articleTitle: Latin
+second_title: Aspose.Words pour .NET
+description: ThemeFonts Latin propriété. Spécifie le nom de la police pour les caractères latins en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.themes/themefonts/latin/
@@ -14,7 +16,7 @@ Spécifie le nom de la police pour les caractères latins.
 public string Latin { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir des couleurs et des polices personnalisées pour les thèmes.
 
@@ -62,7 +64,5 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 ### Voir également
 
 * class [ThemeFonts](../)
-* espace de noms [Aspose.Words.Themes](../../themefonts/)
+* espace de noms [Aspose.Words.Themes](../../../aspose.words.themes/)
 * Assemblée [Aspose.Words](../../../)
-
-

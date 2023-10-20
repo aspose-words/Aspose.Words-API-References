@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.OutlineLevel
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. يحدد مستوى المخطط التفصيلي للفقرة في المستند.
+linktitle: OutlineLevel
+articleTitle: OutlineLevel
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat OutlineLevel ملكية. يحدد مستوى المخطط التفصيلي للفقرة في المستند في C#.
 type: docs
 weight: 250
 url: /ar/net/aspose.words/paragraphformat/outlinelevel/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/outlinelevel/
 public OutlineLevel OutlineLevel { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تكوين مستويات المخطط التفصيلي للفقرة لإنشاء نص قابل للطي.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphOutlineLevel.docx");
 
 * enum [OutlineLevel](../../outlinelevel/)
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

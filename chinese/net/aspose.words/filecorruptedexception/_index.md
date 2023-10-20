@@ -1,7 +1,9 @@
 ---
-title: Class FileCorruptedException
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.FileCorruptedException 班级. 在文档加载期间当文档似乎已损坏并且无法加载时抛出
+title: FileCorruptedException Class
+linktitle: FileCorruptedException
+articleTitle: FileCorruptedException
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.FileCorruptedException 班级. 在文档加载期间当文档似乎已损坏并且无法加载时抛出 在 C#.
 type: docs
 weight: 2800
 url: /zh/net/aspose.words/filecorruptedexception/
@@ -16,7 +18,7 @@ url: /zh/net/aspose.words/filecorruptedexception/
 public class FileCorruptedException : Exception
 ```
 
-### 例子
+## 例子
 
 演示如何捕获 FileCorruptedException。
 
@@ -37,5 +39,3 @@ catch (FileCorruptedException e)
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

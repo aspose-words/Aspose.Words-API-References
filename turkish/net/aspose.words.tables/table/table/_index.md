@@ -1,7 +1,9 @@
 ---
-title: Table.Table
-second_title: Aspose.Words for .NET API Referansı
-description: Table inşaatçı. Yeni bir örneğini başlatırTable class.
+title: Table
+linktitle: Table
+articleTitle: Table
+second_title: Aspose.Words for .NET
+description: Table inşaatçı. Yeni bir örneğini başlatırTable class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.tables/table/table/
@@ -18,13 +20,13 @@ public Table(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Sahibi belgesi. |
 
-### Notlar
+## Notlar
 
 Ne zaman[`Table`](../) oluşturulduysa, belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../../aspose.words/node/parentnode/) dır-dir`hükümsüz`.
 
-Eklemek[`Table`](../) belge kullanımınaNode) veyaNode) Tablonun eklenmesini istediğiniz hikayede .
+Eklemek[`Table`](../) belge kullanımına[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) veya[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) Tablonun eklenmesini istediğiniz hikayede .
 
-### Örnekler
+## Örnekler
 
 Bir tablonun nasıl oluşturulacağını gösterir.
 
@@ -108,7 +110,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [Table](../)
-* ad alanı [Aspose.Words.Tables](../../table/)
+* ad alanı [Aspose.Words.Tables](../../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../../)
-
-

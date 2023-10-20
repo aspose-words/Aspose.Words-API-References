@@ -1,7 +1,9 @@
 ---
 title: FieldLink.FormatUpdateType
-second_title: Aspose.Words لمراجع .NET API
-description: FieldLink ملكية. الحصول على أو تعيين الطريقة التي يقوم بها الكائن المرتبط بتحديث تنسيقه.
+linktitle: FormatUpdateType
+articleTitle: FormatUpdateType
+second_title: Aspose.Words لـ .NET
+description: FieldLink FormatUpdateType ملكية. الحصول على أو تعيين الطريقة التي يقوم بها الكائن المرتبط بتحديث تنسيقه في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldlink/formatupdatetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldlink/formatupdatetype/
 public string FormatUpdateType { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية استخدام أنواع الحقول المختلفة للارتباط بالمستندات الأخرى في نظام الملفات المحلي وعرض محتوياتها.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### أنظر أيضا
 
 * class [FieldLink](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldlink/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.HeaderSource
-second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings mülk. Adresmektup birleştirme üstbilgi kaynağının yolunu belirtir. Varsayılan değer boş bir dizedir.
+linktitle: HeaderSource
+articleTitle: HeaderSource
+second_title: Aspose.Words for .NET
+description: MailMergeSettings HeaderSource mülk. Adresmektup birleştirme üstbilgi kaynağının yolunu belirtir. Varsayılan değer boş bir dizedir C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.settings/mailmergesettings/headersource/
@@ -14,7 +16,7 @@ Adres-mektup birleştirme üstbilgi kaynağının yolunu belirtir. Varsayılan d
 public string HeaderSource { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Üst bilgi kaynağından ve veri kaynağından adres-mektup birleştirme için veri kaynağının nasıl oluşturulacağını gösterir.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.docx");
 ### Ayrıca bakınız
 
 * class [MailMergeSettings](../)
-* ad alanı [Aspose.Words.Settings](../../mailmergesettings/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

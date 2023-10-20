@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisedPropertiesColor
-second_title: Référence de l'API Aspose.Words pour .NET
-description: RevisionOptions propriété. Permet de spécifier la couleur à utiliser pour le contenu avec des changements de propriétés de formatageFormatChange La valeur par défaut estNoHighlight .
+linktitle: RevisedPropertiesColor
+articleTitle: RevisedPropertiesColor
+second_title: Aspose.Words pour .NET
+description: RevisionOptions RevisedPropertiesColor propriété. Permet de spécifier la couleur à utiliser pour le contenu avec des changements de propriétés de formatageFormatChange La valeur par défaut estNoHighlight  en C#.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.layout/revisionoptions/revisedpropertiescolor/
@@ -14,7 +16,7 @@ Permet de spécifier la couleur à utiliser pour le contenu avec des changements
 public RevisionColor RevisedPropertiesColor { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment modifier l’apparence des révisions.
 
@@ -66,7 +68,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* espace de noms [Aspose.Words.Layout](../../revisionoptions/)
+* espace de noms [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Assemblée [Aspose.Words](../../../)
-
-

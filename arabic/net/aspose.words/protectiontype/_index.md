@@ -1,7 +1,9 @@
 ---
-title: Enum ProtectionType
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.ProtectionType تعداد. نوع الحماية للمستند.
+title: ProtectionType Enum
+linktitle: ProtectionType
+articleTitle: ProtectionType
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.ProtectionType تعداد. نوع الحماية للمستند في C#.
 type: docs
 weight: 4510
 url: /ar/net/aspose.words/protectiontype/
@@ -24,7 +26,7 @@ public enum ProtectionType
 | ReadOnly | `3` | لا يسمح بإجراء أي تغييرات على المستند. متوفر منذ Microsoft Word 2003. |
 | NoProtection | `-1` | المستند غير محمي. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إيقاف الحماية لقسم ما.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: GlossaryDocument.GetBuildingBlock
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GlossaryDocument méthode. Recherche un bloc de construction en utilisant la galerie la catégorie et le nom spécifiés.
+linktitle: GetBuildingBlock
+articleTitle: GetBuildingBlock
+second_title: Aspose.Words pour .NET
+description: GlossaryDocument GetBuildingBlock méthode. Recherche un bloc de construction en utilisant la galerie la catégorie et le nom spécifiés en C#.
 type: docs
-weight: 90
+weight: 70
 url: /fr/net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument.GetBuildingBlock method
@@ -24,13 +26,13 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 
 Le bloc de construction correspondant ou`nul` si aucune correspondance n'a été trouvée.
 
-### Remarques
+## Remarques
 
 Il s'agit d'une méthode pratique qui parcourt tous les blocs de construction de cette collection et renvoie le premier bloc de construction qui correspond à la galerie, à la catégorie et au nom spécifiés.
 
 Microsoft Word organise les blocs de construction en galeries. Les galeries sont prédéfinies à l'aide du[`BuildingBlockGallery`](../../buildingblockgallery/) enum. Dans chaque galerie, les blocs de construction peuvent être organisés en une ou plusieurs catégories. Le nom de la catégorie est une chaîne. Chaque élément de construction a un nom. Il n’est pas garanti qu’un nom de bloc de construction soit unique.
 
-### Exemples
+## Exemples
 
 Montre les moyens d'accéder aux blocs de construction dans un document glossaire.
 
@@ -136,7 +138,5 @@ public class GlossaryDocVisitor : DocumentVisitor
 * class [BuildingBlock](../../buildingblock/)
 * enum [BuildingBlockGallery](../../buildingblockgallery/)
 * class [GlossaryDocument](../)
-* espace de noms [Aspose.Words.BuildingBlocks](../../glossarydocument/)
+* espace de noms [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * Assemblée [Aspose.Words](../../../)
-
-

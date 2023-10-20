@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCheckErrors
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.MailMergeCheckErrors enumeración. Especifica cómo Microsoft Word informará los errores detectados durante la combinación de correspondencia.
+title: MailMergeCheckErrors Enum
+linktitle: MailMergeCheckErrors
+articleTitle: MailMergeCheckErrors
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Settings.MailMergeCheckErrors enumeración. Especifica cómo Microsoft Word informará los errores detectados durante la combinación de correspondencia en C#.
 type: docs
 weight: 5810
 url: /es/net/aspose.words.settings/mailmergecheckerrors/
@@ -23,7 +25,7 @@ public enum MailMergeCheckErrors
 | CollectErrors | `3` | Complete la combinación e informe de errores en un nuevo documento. |
 | Default | `2` | Igual a laPauseOnError valor. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
@@ -77,5 +79,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [CheckErrors](../mailmergesettings/checkerrors/)
 * espacio de nombres [Aspose.Words.Settings](../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../)
-
-

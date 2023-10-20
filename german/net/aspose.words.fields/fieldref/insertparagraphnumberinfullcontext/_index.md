@@ -1,7 +1,9 @@
 ---
 title: FieldRef.InsertParagraphNumberInFullContext
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldRef eigendom. Ruft ab oder legt fest ob die Absatznummer des referenzierten Absatzes im vollständigen Kontext eingefügt werden soll.
+linktitle: InsertParagraphNumberInFullContext
+articleTitle: InsertParagraphNumberInFullContext
+second_title: Aspose.Words für .NET
+description: FieldRef InsertParagraphNumberInFullContext eigendom. Ruft ab oder legt fest ob die Absatznummer des referenzierten Absatzes im vollständigen Kontext eingefügt werden soll in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldref/insertparagraphnumberinfullcontext/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob die Absatznummer des referenzierten Absatzes im volls
 public bool InsertParagraphNumberInFullContext { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie REF-Felder zum Referenzieren von Lesezeichen eingefügt werden.
 
@@ -104,7 +106,5 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 ### Siehe auch
 
 * class [FieldRef](../)
-* namensraum [Aspose.Words.Fields](../../fieldref/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

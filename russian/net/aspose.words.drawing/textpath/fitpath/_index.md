@@ -1,7 +1,9 @@
 ---
 title: TextPath.FitPath
-second_title: Справочник по API Aspose.Words для .NET
-description: TextPath свойство. Определяет соответствует ли текст контуру фигуры.
+linktitle: FitPath
+articleTitle: FitPath
+second_title: Aspose.Words для .NET
+description: TextPath FitPath свойство. Определяет соответствует ли текст контуру фигуры на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/textpath/fitpath/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/textpath/fitpath/
 public bool FitPath { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Смотрите также
 
 * class [TextPath](../)
-* пространство имен [Aspose.Words.Drawing](../../textpath/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

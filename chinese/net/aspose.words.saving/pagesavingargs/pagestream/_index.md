@@ -1,7 +1,9 @@
 ---
 title: PageSavingArgs.PageStream
-second_title: Aspose.Words for .NET API 参考
-description: PageSavingArgs 财产. 允许指定文档页面将保存到的流
+linktitle: PageStream
+articleTitle: PageStream
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSavingArgs PageStream 财产. 允许指定文档页面将保存到的流 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/pagesavingargs/pagestream/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pagesavingargs/pagestream/
 public Stream PageStream { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性允许您将文档页面保存到流而不是文件中。
 
@@ -22,7 +24,7 @@ public Stream PageStream { get; set; }
 
 如果两者都`PageStream`和[`PageFileName`](../pagefilename/)设置后，将使用 PageStream。
 
-### 例子
+## 例子
 
 演示如何使用回调将文档逐页保存为 HTML。
 
@@ -79,7 +81,5 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 ### 也可以看看
 
 * class [PageSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../pagesavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

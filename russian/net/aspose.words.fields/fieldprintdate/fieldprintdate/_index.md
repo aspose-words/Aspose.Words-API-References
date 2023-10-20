@@ -1,7 +1,9 @@
 ---
-title: FieldPrintDate.FieldPrintDate
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldPrintDate строитель. Конструктор по умолчанию.
+title: FieldPrintDate
+linktitle: FieldPrintDate
+articleTitle: FieldPrintDate
+second_title: Aspose.Words для .NET
+description: FieldPrintDate строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldprintdate/fieldprintdate/
@@ -17,7 +19,5 @@ public FieldPrintDate()
 ### Смотрите также
 
 * class [FieldPrintDate](../)
-* пространство имен [Aspose.Words.Fields](../../fieldprintdate/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.CreateNavigator
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompositeNode methode. Erstellt einen Navigator der zum Durchlaufen und Lesen von Knoten verwendet werden kann.
+linktitle: CreateNavigator
+articleTitle: CreateNavigator
+second_title: Aspose.Words für .NET
+description: CompositeNode CreateNavigator methode. Erstellt einen Navigator der zum Durchlaufen und Lesen von Knoten verwendet werden kann in C#.
 type: docs
-weight: 90
+weight: 70
 url: /de/net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
@@ -15,7 +17,7 @@ Erstellt einen Navigator, der zum Durchlaufen und Lesen von Knoten verwendet wer
 public XPathNavigator CreateNavigator()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie einen XPathNavigator erstellen und ihn dann zum Durchlaufen und Lesen von Knoten verwenden.
 
@@ -81,7 +83,5 @@ private static void MapDocument(XPathNavigator navigator, StringBuilder stringBu
 ### Siehe auch
 
 * class [CompositeNode](../)
-* namensraum [Aspose.Words](../../compositenode/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

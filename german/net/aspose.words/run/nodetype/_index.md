@@ -1,7 +1,9 @@
 ---
 title: Run.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Run eigendom. Gibt zurückRun .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: Run NodeType eigendom. Gibt zurückRun  in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/run/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückRun .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Run](../)
-* namensraum [Aspose.Words](../../run/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

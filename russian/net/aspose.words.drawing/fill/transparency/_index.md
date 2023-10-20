@@ -1,9 +1,11 @@
 ---
 title: Fill.Transparency
-second_title: Справочник по API Aspose.Words для .NET
-description: Fill свойство. Получает или задает степень прозрачности указанной заливки как значение от 00 непрозрачный до 10 прозрачный.
+linktitle: Transparency
+articleTitle: Transparency
+second_title: Aspose.Words для .NET
+description: Fill Transparency свойство. Получает или задает степень прозрачности указанной заливки как значение от 00 непрозрачный до 10 прозрачный на С#.
 type: docs
-weight: 200
+weight: 190
 url: /ru/net/aspose.words.drawing/fill/transparency/
 ---
 ## Fill.Transparency property
@@ -14,14 +16,12 @@ url: /ru/net/aspose.words.drawing/fill/transparency/
 public double Transparency { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Это свойство противоположно свойству[`Opacity`](../opacity/).
 
 ### Смотрите также
 
 * class [Fill](../)
-* пространство имен [Aspose.Words.Drawing](../../fill/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

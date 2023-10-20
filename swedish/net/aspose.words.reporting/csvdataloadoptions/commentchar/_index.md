@@ -1,7 +1,9 @@
 ---
 title: CsvDataLoadOptions.CommentChar
-second_title: Aspose.Words för .NET API Referens
-description: CsvDataLoadOptions fast egendom. Hämtar eller ställer in tecknet som används för att kommentera rader med CSVdata.
+linktitle: CommentChar
+articleTitle: CommentChar
+second_title: Aspose.Words för .NET
+description: CsvDataLoadOptions CommentChar fast egendom. Hämtar eller ställer in tecknet som används för att kommentera rader med CSVdata i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.reporting/csvdataloadoptions/commentchar/
@@ -14,14 +16,12 @@ Hämtar eller ställer in tecknet som används för att kommentera rader med CSV
 public char CommentChar { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är '#' (siffertecken).
 
 ### Se även
 
 * class [CsvDataLoadOptions](../)
-* namnutrymme [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* namnutrymme [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * hopsättning [Aspose.Words](../../../)
-
-

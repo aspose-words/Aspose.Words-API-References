@@ -1,7 +1,9 @@
 ---
-title: Class Fill
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Fill فصل. يمثل تنسيق التعبئة للكائن.
+title: Fill Class
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Fill فصل. يمثل تنسيق التعبئة للكائن في C#.
 type: docs
 weight: 950
 url: /ar/net/aspose.words.drawing/fill/
@@ -23,7 +25,6 @@ public class Fill
 | [BackColor](../../aspose.words.drawing/fill/backcolor/) { get; set; } | الحصول على أو تعيين كائن اللون الذي يمثل لون الخلفية للتعبئة. |
 | [BackThemeColor](../../aspose.words.drawing/fill/backthemecolor/) { get; set; } | الحصول على أو تعيين كائن ThemeColor الذي يمثل لون الخلفية للتعبئة. |
 | [BackTintAndShade](../../aspose.words.drawing/fill/backtintandshade/) { get; set; } | الحصول على أو تعيين قيمة مزدوجة تؤدي إلى تفتيح أو تغميق لون الخلفية. |
-| [BaseForeColor](../../aspose.words.drawing/fill/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/fill/color/) { get; set; } | الحصول على أو تعيين كائن اللون الذي يمثل اللون الأمامي للتعبئة. |
 | [FillType](../../aspose.words.drawing/fill/filltype/) { get; } | الحصول على نوع التعبئة. |
 | [ForeColor](../../aspose.words.drawing/fill/forecolor/) { get; set; } | الحصول على أو تعيين كائن اللون الذي يمثل اللون الأمامي للتعبئة. |
@@ -46,24 +47,24 @@ public class Fill
 
 | اسم | وصف |
 | --- | --- |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(GradientStyle, GradientVariant, double) | يضبط التعبئة المحددة على تدرج لوني واحد. |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(Color, GradientStyle, GradientVariant, double) | يضبط التعبئة المحددة على تدرج لوني واحد باستخدام اللون المحدد. |
-| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(PatternType) | يضبط التعبئة المحددة على النمط. |
-| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(PatternType, Color, Color) | يضبط التعبئة المحددة على النمط. |
-| [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(PresetTexture) | يضبط التعبئة على مادة محددة مسبقًا. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage)(byte[]) | تغيير نوع التعبئة إلى صورة واحدة. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_1)(Stream) | تغيير نوع التعبئة إلى صورة واحدة. |
-| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_2)(string) | تغيير نوع التعبئة إلى صورة واحدة. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | يضبط التعبئة المحددة على تدرج لوني واحد. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(*Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | يضبط التعبئة المحددة على تدرج لوني واحد باستخدام اللون المحدد. |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(*[PatternType](../patterntype/)*) | يضبط التعبئة المحددة على النمط. |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(*[PatternType](../patterntype/), Color, Color*) | يضبط التعبئة المحددة على النمط. |
+| [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(*[PresetTexture](../presettexture/)*) | يضبط التعبئة على مادة محددة مسبقًا. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage)(*byte[]*) | تغيير نوع التعبئة إلى صورة واحدة. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_1)(*Stream*) | تغيير نوع التعبئة إلى صورة واحدة. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_2)(*string*) | تغيير نوع التعبئة إلى صورة واحدة. |
 | [Solid](../../aspose.words.drawing/fill/solid/#solid)() | يضبط التعبئة على لون موحد. |
-| [Solid](../../aspose.words.drawing/fill/solid/#solid_1)(Color) | يضبط التعبئة على لون موحد محدد. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient)(GradientStyle, GradientVariant) | يضبط التعبئة المحددة على تدرج لونين. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient_1)(Color, Color, GradientStyle, GradientVariant) | يضبط التعبئة المحددة على تدرج لونين. |
+| [Solid](../../aspose.words.drawing/fill/solid/#solid_1)(*Color*) | يضبط التعبئة على لون موحد محدد. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/)*) | يضبط التعبئة المحددة على تدرج لونين. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient_1)(*Color, Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/)*) | يضبط التعبئة المحددة على تدرج لونين. |
 
-### ملاحظات
+## ملاحظات
 
 استخدم ال[`Fill`](../shapebase/fill/) أو[`Fill`](../../aspose.words/font/fill/) الخاصية للوصول إلى خصائص تعبئة الكائن. لا تقم بإنشاء مثيلات للكائن`Fill` الصف مباشرة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعبئة الشكل بلون خالص.
 
@@ -99,5 +100,3 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

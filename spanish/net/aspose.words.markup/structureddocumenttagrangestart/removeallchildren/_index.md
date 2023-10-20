@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveAllChildren
-second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart método. Elimina todos los nodos entre este nodo de inicio de rango y el nodo de final de rango.
+linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
+second_title: Aspose.Words para .NET
+description: StructuredDocumentTagRangeStart RemoveAllChildren método. Elimina todos los nodos entre este nodo de inicio de rango y el nodo de final de rango en C#.
 type: docs
 weight: 230
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
@@ -14,7 +16,7 @@ Elimina todos los nodos entre este nodo de inicio de rango y el nodo de final de
 public void RemoveAllChildren()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear/eliminar etiquetas de documentos estructurados y su contenido.
 
@@ -66,7 +68,5 @@ public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocume
 ### Ver también
 
 * class [StructuredDocumentTagRangeStart](../)
-* espacio de nombres [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* espacio de nombres [Aspose.Words.Markup](../../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../../)
-
-

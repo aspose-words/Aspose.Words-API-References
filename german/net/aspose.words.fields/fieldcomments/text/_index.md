@@ -1,7 +1,9 @@
 ---
 title: FieldComments.Text
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldComments eigendom. Ruft den Text der Kommentare ab oder setzt ihn.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words für .NET
+description: FieldComments Text eigendom. Ruft den Text der Kommentare ab oder setzt ihn in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldcomments/text/
@@ -14,7 +16,7 @@ Ruft den Text der Kommentare ab oder setzt ihn.
 public string Text { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Feld KOMMENTARE verwendet wird.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Field.COMMENTS.docx");
 ### Siehe auch
 
 * class [FieldComments](../)
-* namensraum [Aspose.Words.Fields](../../fieldcomments/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

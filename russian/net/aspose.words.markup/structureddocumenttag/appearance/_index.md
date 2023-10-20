@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Appearance
-second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Получает/устанавливает внешний вид тега структурированного документа.
+linktitle: Appearance
+articleTitle: Appearance
+second_title: Aspose.Words для .NET
+description: StructuredDocumentTag Appearance свойство. Получает/устанавливает внешний вид тега структурированного документа на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/structureddocumenttag/appearance/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/structureddocumenttag/appearance/
 public SdtAppearance Appearance { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать тег структурированного документа в текстовом поле и изменить его внешний вид.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 
 * enum [SdtAppearance](../../sdtappearance/)
 * class [StructuredDocumentTag](../)
-* пространство имен [Aspose.Words.Markup](../../structureddocumenttag/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

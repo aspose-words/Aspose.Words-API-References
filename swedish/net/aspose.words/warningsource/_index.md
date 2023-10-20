@@ -1,7 +1,9 @@
 ---
-title: Enum WarningSource
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.WarningSource uppräkning. Anger modulen som ger en varning under dokumentladdning eller sparande.
+title: WarningSource Enum
+linktitle: WarningSource
+articleTitle: WarningSource
+second_title: Aspose.Words för .NET
+description: Aspose.Words.WarningSource uppräkning. Anger modulen som ger en varning under dokumentladdning eller sparande i C#.
 type: docs
 weight: 6650
 url: /sv/net/aspose.words/warningsource/
@@ -51,5 +53,3 @@ public enum WarningSource
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

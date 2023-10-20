@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentStructuredDocumentTag
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. يحصل على علامة المستند المنظمة المحددة حاليًا في هذاDocumentBuilder .
+linktitle: CurrentStructuredDocumentTag
+articleTitle: CurrentStructuredDocumentTag
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder CurrentStructuredDocumentTag ملكية. يحصل على علامة المستند المنظمة المحددة حاليًا في هذاDocumentBuilder  في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/documentbuilder/currentstructureddocumenttag/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/documentbuilder/currentstructureddocumenttag/
 public StructuredDocumentTag CurrentStructuredDocumentTag { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحريك مؤشر DocumentBuilder داخل علامة مستند منظمة.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 
 * class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

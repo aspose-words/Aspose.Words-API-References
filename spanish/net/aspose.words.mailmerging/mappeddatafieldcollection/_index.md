@@ -1,7 +1,9 @@
 ---
-title: Class MappedDataFieldCollection
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.MailMerging.MappedDataFieldCollection clase. Permite asignar automáticamente entre nombres de campos en su fuente de datos y nombres de campos de combinación de correspondencia en el documento.
+title: MappedDataFieldCollection Class
+linktitle: MappedDataFieldCollection
+articleTitle: MappedDataFieldCollection
+second_title: Aspose.Words para .NET
+description: Aspose.Words.MailMerging.MappedDataFieldCollection clase. Permite asignar automáticamente entre nombres de campos en su fuente de datos y nombres de campos de combinación de correspondencia en el documento en C#.
 type: docs
 weight: 3870
 url: /es/net/aspose.words.mailmerging/mappeddatafieldcollection/
@@ -27,18 +29,18 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(string, string) | Agrega una nueva asignación de campo. |
+| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(*string, string*) | Agrega una nueva asignación de campo. |
 | [Clear](../../aspose.words.mailmerging/mappeddatafieldcollection/clear/)() | Elimina todos los elementos de la colección. |
-| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(string) | Determina si existe una asignación del campo especificado en el documento en la colección. |
-| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(string) | Determina si existe una asignación del campo especificado en la fuente de datos en la colección. |
+| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | Determina si existe una asignación del campo especificado en el documento en la colección. |
+| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | Determina si existe una asignación del campo especificado en la fuente de datos en la colección. |
 | [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Devuelve un objeto enumerador de diccionario que se puede utilizar para iterar sobre todos los elementos de la colección. |
-| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(string) | Elimina una asignación de campo. |
+| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(*string*) | Elimina una asignación de campo. |
 
-### Observaciones
+## Observaciones
 
 Esto se implementa como una colección de claves de cadena en valores de cadena. Las claves son los nombres de los campos de combinación de correspondencia en el documento y los valores son los nombres de los campos en su fuente de datos.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo asignar columnas de datos y MERGEFIELD con diferentes nombres para que los datos se transfieran entre ellos durante una combinación de correspondencia.
 
@@ -124,5 +126,3 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * espacio de nombres [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../)
-
-

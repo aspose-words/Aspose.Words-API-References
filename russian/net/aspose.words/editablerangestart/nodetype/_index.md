@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.NodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: EditableRangeStart свойство. ВозвращаетEditableRangeStart .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words для .NET
+description: EditableRangeStart NodeType свойство. ВозвращаетEditableRangeStart  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/editablerangestart/nodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/editablerangestart/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с редактируемым диапазоном.
 
@@ -61,7 +63,5 @@ editableRange.Remove();
 
 * enum [NodeType](../../nodetype/)
 * class [EditableRangeStart](../)
-* пространство имен [Aspose.Words](../../editablerangestart/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

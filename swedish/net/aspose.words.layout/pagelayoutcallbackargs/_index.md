@@ -1,7 +1,9 @@
 ---
-title: Class PageLayoutCallbackArgs
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Layout.PageLayoutCallbackArgs klass. Ett argument passerat inNotify
+title: PageLayoutCallbackArgs Class
+linktitle: PageLayoutCallbackArgs
+articleTitle: PageLayoutCallbackArgs
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Layout.PageLayoutCallbackArgs klass. Ett argument passerat inNotify i C#.
 type: docs
 weight: 3360
 url: /sv/net/aspose.words.layout/pagelayoutcallbackargs/
@@ -28,5 +30,3 @@ public class PageLayoutCallbackArgs
 
 * namnutrymme [Aspose.Words.Layout](../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../)
-
-

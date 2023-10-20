@@ -1,7 +1,9 @@
 ---
-title: Class VbaModuleCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Vba.VbaModuleCollection 班级. 代表集合VbaModule对象.
+title: VbaModuleCollection Class
+linktitle: VbaModuleCollection
+articleTitle: VbaModuleCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Vba.VbaModuleCollection 班级. 代表集合VbaModule对象 在 C#.
 type: docs
 weight: 6560
 url: /zh/net/aspose.words.vba/vbamodulecollection/
@@ -27,10 +29,10 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.vba/vbamodulecollection/add/)(VbaModule) | 将模块添加到集合中。 |
-| [Remove](../../aspose.words.vba/vbamodulecollection/remove/)(VbaModule) | 从集合中删除指定的模块。 |
+| [Add](../../aspose.words.vba/vbamodulecollection/add/)(*[VbaModule](../vbamodule/)*) | 将模块添加到集合中。 |
+| [Remove](../../aspose.words.vba/vbamodulecollection/remove/)(*[VbaModule](../vbamodule/)*) | 从集合中删除指定的模块。 |
 
-### 例子
+## 例子
 
 演示如何访问文档的 VBA 项目信息。
 
@@ -63,5 +65,3 @@ vbaModules.Remove(vbaModules[2]);
 * class [VbaModule](../vbamodule/)
 * 命名空间 [Aspose.Words.Vba](../../aspose.words.vba/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Horizontal
-second_title: Aspose.Words per .NET API Reference
-description: BorderCollection proprietà. Ottiene il bordo orizzontale utilizzato tra le celle o i paragrafi conformi.
+linktitle: Horizontal
+articleTitle: Horizontal
+second_title: Aspose.Words per .NET
+description: BorderCollection Horizontal proprietà. Ottiene il bordo orizzontale utilizzato tra le celle o i paragrafi conformi in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words/bordercollection/horizontal/
@@ -14,7 +16,7 @@ Ottiene il bordo orizzontale utilizzato tra le celle o i paragrafi conformi.
 public Border Horizontal { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare le impostazioni ai bordi orizzontali al formato di un paragrafo.
 
@@ -83,7 +85,5 @@ doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 
 * class [Border](../../border/)
 * class [BorderCollection](../)
-* spazio dei nomi [Aspose.Words](../../bordercollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

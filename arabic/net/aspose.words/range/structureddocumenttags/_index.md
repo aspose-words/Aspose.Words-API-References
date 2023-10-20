@@ -1,7 +1,9 @@
 ---
 title: Range.StructuredDocumentTags
-second_title: Aspose.Words لمراجع .NET API
-description: Range ملكية. إرجاع أStructuredDocumentTags المجموعة التي تمثل جميع علامات المستندات المنظمة في النطاق.
+linktitle: StructuredDocumentTags
+articleTitle: StructuredDocumentTags
+second_title: Aspose.Words لـ .NET
+description: Range StructuredDocumentTags ملكية. إرجاع أStructuredDocumentTags المجموعة التي تمثل جميع علامات المستندات المنظمة في النطاق في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/range/structureddocumenttags/
@@ -18,7 +20,5 @@ public StructuredDocumentTagCollection StructuredDocumentTags { get; }
 
 * class [StructuredDocumentTagCollection](../../../aspose.words.markup/structureddocumenttagcollection/)
 * class [Range](../)
-* مساحة الاسم [Aspose.Words](../../range/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

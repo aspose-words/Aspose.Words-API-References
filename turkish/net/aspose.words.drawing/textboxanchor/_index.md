@@ -1,7 +1,9 @@
 ---
-title: Enum TextBoxAnchor
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.TextBoxAnchor Sıralama. Şekil metninin dikey hizalaması için kullanılan değerleri belirtir.
+title: TextBoxAnchor Enum
+linktitle: TextBoxAnchor
+articleTitle: TextBoxAnchor
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.TextBoxAnchor Sıralama. Şekil metninin dikey hizalaması için kullanılan değerleri belirtir C#'da.
 type: docs
 weight: 1330
 url: /tr/net/aspose.words.drawing/textboxanchor/
@@ -29,7 +31,7 @@ public enum TextBoxAnchor
 | TopCenteredBaseline | `8` | Metin, metin kutusunun üst orta taban çizgisine hizalanır. |
 | BottomCenteredBaseline | `9` | Metin, metin kutusunun alt orta taban çizgisine hizalanır. |
 
-### Örnekler
+## Örnekler
 
 Bir metin kutusunun metin içeriğinin dikey olarak nasıl hizalanacağını gösterir.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

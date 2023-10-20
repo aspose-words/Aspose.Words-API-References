@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.RelativeHorizontalSize
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Hämtar eller ställer in värdet på formens relativa storlek i horisontell riktning.
+linktitle: RelativeHorizontalSize
+articleTitle: RelativeHorizontalSize
+second_title: Aspose.Words för .NET
+description: ShapeBase RelativeHorizontalSize fast egendom. Hämtar eller ställer in värdet på formens relativa storlek i horisontell riktning i C#.
 type: docs
 weight: 430
 url: /sv/net/aspose.words.drawing/shapebase/relativehorizontalsize/
@@ -14,13 +16,13 @@ Hämtar eller ställer in värdet på formens relativa storlek i horisontell rik
 public RelativeHorizontalSize RelativeHorizontalSize { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är[`RelativeHorizontalSize`](../../relativehorizontalsize/).
 
 Har effekt endast om[`WidthRelative`](../widthrelative/) är inställd.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in relativ storlek och position.
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Shape.RelativeSizeAndPosition.docx");
 
 * enum [RelativeHorizontalSize](../../relativehorizontalsize/)
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

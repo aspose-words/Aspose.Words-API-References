@@ -1,7 +1,9 @@
 ---
 title: List.IsRestartAtEachSection
-second_title: Aspose.Words för .NET API Referens
-description: List fast egendom. Anger om listan ska startas om vid varje avsnitt. Standardvärdet ärfalsk .
+linktitle: IsRestartAtEachSection
+articleTitle: IsRestartAtEachSection
+second_title: Aspose.Words för .NET
+description: List IsRestartAtEachSection fast egendom. Anger om listan ska startas om vid varje avsnitt. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.lists/list/isrestartateachsection/
@@ -14,13 +16,13 @@ Anger om listan ska startas om vid varje avsnitt. Standardvärdet är`falsk` .
 public bool IsRestartAtEachSection { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Det här alternativet stöds endast i dokumentformaten RTF, DOC och DOCX.
 
 Detta alternativ kommer att skrivas till DOCX endast om[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) är högre dåEcma376_2006.
 
-### Exempel
+## Exempel
 
 Visar hur man konfigurerar en lista för att starta om numrering vid varje avsnitt.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(restartListAtEachSection, doc.Lists[0].IsRestartAtEachSection);
 ### Se även
 
 * class [List](../)
-* namnutrymme [Aspose.Words.Lists](../../list/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

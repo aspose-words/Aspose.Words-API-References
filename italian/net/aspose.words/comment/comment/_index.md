@@ -1,12 +1,14 @@
 ---
-title: Comment.Comment
-second_title: Aspose.Words per .NET API Reference
-description: Comment costruttore. Inizializza una nuova istanza diComment classe.
+title: Comment
+linktitle: Comment
+articleTitle: Comment
+second_title: Aspose.Words per .NET
+description: Comment costruttore. Inizializza una nuova istanza diComment classe in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words/comment/comment/
 ---
-## Comment(DocumentBase) {#constructor}
+## Comment(*[DocumentBase](../../documentbase/)*) {#constructor}
 
 Inizializza una nuova istanza di[`Comment`](../) classe.
 
@@ -18,15 +20,15 @@ public Comment(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Il documento del proprietario. |
 
-### Osservazioni
+## Osservazioni
 
 Quando[`Comment`](../) viene creato, appartiene al documento specificato, ma non è ancora parte del documento e[`ParentNode`](../../node/parentnode/) È`nullo`.
 
-Per aggiungere[`Comment`](../) all'uso del documentoNode) ONode) sul paragrafo in cui vuoi inserire il commento.
+Per aggiungere[`Comment`](../) all'uso del documento[`InsertAfter`](../../compositenode/insertafter/) O[`InsertBefore`](../../compositenode/insertbefore/) sul paragrafo in cui vuoi inserire il commento.
 
 Dopo aver creato un commento, non dimenticare di impostarlo[`Author`](../author/) , [`Initial`](../initial/) E[`DateTime`](../datetime/) proprietà.
 
-### Esempi
+## Esempi
 
 Mostra come stampare il contenuto di tutti i commenti e i relativi intervalli di commenti utilizzando un visitatore del documento.
 
@@ -188,12 +190,12 @@ public class CommentInfoPrinter : DocumentVisitor
 
 * class [DocumentBase](../../documentbase/)
 * class [Comment](../)
-* spazio dei nomi [Aspose.Words](../../comment/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## Comment(DocumentBase, string, string, DateTime) {#constructor_1}
+## Comment(*[DocumentBase](../../documentbase/), string, string, DateTime*) {#constructor_1}
 
 Inizializza una nuova istanza di[`Comment`](../) classe.
 
@@ -208,7 +210,7 @@ public Comment(DocumentBase doc, string author, string initial, DateTime dateTim
 | initial | String | L'autore sigla il commento. Non può essere`nullo`. |
 | dateTime | DateTime | La data e l'ora del commento. |
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un commento a un paragrafo.
 
@@ -232,7 +234,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 
 * class [DocumentBase](../../documentbase/)
 * class [Comment](../)
-* spazio dei nomi [Aspose.Words](../../comment/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

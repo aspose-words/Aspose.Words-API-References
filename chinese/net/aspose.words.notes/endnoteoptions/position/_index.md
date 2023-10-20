@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.Position
-second_title: Aspose.Words for .NET API 参考
-description: EndnoteOptions 财产. 指定尾注位置
+linktitle: Position
+articleTitle: Position
+second_title: 用于 .NET 的 Aspose.Words
+description: EndnoteOptions Position 财产. 指定尾注位置 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.notes/endnoteoptions/position/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.notes/endnoteoptions/position/
 public EndnotePosition Position { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何选择文档收集和显示其尾注的不同位置。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "InlineStory.PositionEndnote.docx");
 
 * enum [EndnotePosition](../../endnoteposition/)
 * class [EndnoteOptions](../)
-* 命名空间 [Aspose.Words.Notes](../../endnoteoptions/)
+* 命名空间 [Aspose.Words.Notes](../../../aspose.words.notes/)
 * 部件 [Aspose.Words](../../../)
-
-

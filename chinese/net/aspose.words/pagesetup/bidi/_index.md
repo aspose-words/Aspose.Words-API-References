@@ -1,7 +1,9 @@
 ---
 title: PageSetup.Bidi
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 指定此部分包含双向复杂脚本文本
+linktitle: Bidi
+articleTitle: Bidi
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup Bidi 财产. 指定此部分包含双向复杂脚本文本 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/pagesetup/bidi/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/pagesetup/bidi/
 public bool Bidi { get; set; }
 ```
 
-### 评论
+## 评论
 
 什么时候`真的`，本节中的列从右到左排列。
 
-### 例子
+## 例子
 
 演示如何设置节中文本列的顺序。
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "PageSetup.Bidi.docx");
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

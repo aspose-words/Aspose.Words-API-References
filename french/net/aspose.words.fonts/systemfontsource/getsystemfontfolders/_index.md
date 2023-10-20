@@ -1,7 +1,9 @@
 ---
 title: SystemFontSource.GetSystemFontFolders
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SystemFontSource méthode. Renvoie les dossiers de polices système ou un tableau vide si les dossiers ne sont pas accessibles.
+linktitle: GetSystemFontFolders
+articleTitle: GetSystemFontFolders
+second_title: Aspose.Words pour .NET
+description: SystemFontSource GetSystemFontFolders méthode. Renvoie les dossiers de polices système ou un tableau vide si les dossiers ne sont pas accessibles en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
@@ -14,11 +16,11 @@ Renvoie les dossiers de polices système ou un tableau vide si les dossiers ne s
 public static string[] GetSystemFontFolders()
 ```
 
-### Remarques
+## Remarques
 
 Sur certaines plates-formes, Aspose.Words pouvait rechercher les polices système non seulement dans des dossiers mais également dans d'autres sources. Par exemple, sur Windows platform Aspose.Words recherche également les polices dans le registre.
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la source de police système d’un document et définir des substituts de police.
 
@@ -74,7 +76,5 @@ Assert.AreEqual(1,
 ### Voir également
 
 * class [SystemFontSource](../)
-* espace de noms [Aspose.Words.Fonts](../../systemfontsource/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

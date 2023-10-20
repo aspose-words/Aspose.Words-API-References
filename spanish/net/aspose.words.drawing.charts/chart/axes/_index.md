@@ -1,7 +1,9 @@
 ---
 title: Chart.Axes
-second_title: Referencia de API de Aspose.Words para .NET
-description: Chart propiedad. Obtiene una colección de todos los ejes de este gráfico.
+linktitle: Axes
+articleTitle: Axes
+second_title: Aspose.Words para .NET
+description: Chart Axes propiedad. Obtiene una colección de todos los ejes de este gráfico en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/chart/axes/
@@ -14,7 +16,7 @@ Obtiene una colección de todos los ejes de este gráfico.
 public ChartAxisCollection Axes { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con la colección de ejes.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCollection.docx");
 
 * class [ChartAxisCollection](../../chartaxiscollection/)
 * class [Chart](../)
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../chart/)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../../)
-
-

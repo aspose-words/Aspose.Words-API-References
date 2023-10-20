@@ -1,7 +1,9 @@
 ---
-title: Enum LayoutEntityType
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Layout.LayoutEntityType Sıralama. Düzen varlıklarının türleri.
+title: LayoutEntityType Enum
+linktitle: LayoutEntityType
+articleTitle: LayoutEntityType
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Layout.LayoutEntityType Sıralama. Düzen varlıklarının türleri C#'da.
 type: docs
 weight: 3330
 url: /tr/net/aspose.words.layout/layoutentitytype/
@@ -34,7 +36,7 @@ public enum LayoutEntityType
 | Comment | `1000` | Yorum içeriği için yer tutucuyu temsil eder. Yorumda şunlar olabilir:Line VeRow alt varlıklar. |
 | NoteSeparator | `2000` | Dipnot/sonnot ayırıcısını temsil eder. Not Ayırıcıda şunlar olabilir:Line VeRow alt varlıklar. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
@@ -180,5 +182,3 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * ad alanı [Aspose.Words.Layout](../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../)
-
-

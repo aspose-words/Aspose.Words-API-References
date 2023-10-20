@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Description
-second_title: Aspose.Words for .NET API 参考
-description: BuildingBlock 财产. 获取或设置与此构建块关联的描述
+linktitle: Description
+articleTitle: Description
+second_title: 用于 .NET 的 Aspose.Words
+description: BuildingBlock Description 财产. 获取或设置与此构建块关联的描述 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.buildingblocks/buildingblock/description/
@@ -14,15 +16,15 @@ url: /zh/net/aspose.words.buildingblocks/buildingblock/description/
 public string Description { get; set; }
 ```
 
-### 评论
+## 评论
 
 描述可以包含任何字符串内容，通常是附加信息。
 
 不可能是`无效的`，但可以是空字符串。
 
-对应于 **docPartPr.描述** OOXML 中的元素。
+对应于**docPartPr.描述** OOXML 中的元素。
 
-### 例子
+## 例子
 
 演示如何将自定义构建块添加到文档中。
 
@@ -119,7 +121,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 ### 也可以看看
 
 * class [BuildingBlock](../)
-* 命名空间 [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* 命名空间 [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * 部件 [Aspose.Words](../../../)
-
-

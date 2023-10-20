@@ -1,7 +1,9 @@
 ---
 title: IPageLayoutCallback.Notify
-second_title: Aspose.Words for .NET API Referansı
-description: IPageLayoutCallback yöntem. Bu düzen oluşturma ve işleme ilerlemesini bildirmek için çağrılır.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words for .NET
+description: IPageLayoutCallback Notify yöntem. Bu düzen oluşturma ve işleme ilerlemesini bildirmek için çağrılır C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.layout/ipagelayoutcallback/notify/
@@ -18,11 +20,11 @@ public void Notify(PageLayoutCallbackArgs args)
 | --- | --- | --- |
 | args | PageLayoutCallbackArgs | Olayın bir argümanı. |
 
-### Notlar
+## Notlar
 
 Uygulama tarafından oluşturulan istisna, düzen oluşturma sürecini iptal eder.
 
-### Örnekler
+## Örnekler
 
 Düzen geri çağrısıyla düzen değişikliklerinin nasıl izleneceğini gösterir.
 
@@ -89,7 +91,5 @@ private class RenderPageLayoutCallback : IPageLayoutCallback
 
 * class [PageLayoutCallbackArgs](../../pagelayoutcallbackargs/)
 * interface [IPageLayoutCallback](../)
-* ad alanı [Aspose.Words.Layout](../../ipagelayoutcallback/)
+* ad alanı [Aspose.Words.Layout](../../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../../)
-
-

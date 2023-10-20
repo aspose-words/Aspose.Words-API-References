@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Name
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Ruft den optionalen Formnamen ab oder legt ihn fest.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words für .NET
+description: ShapeBase Name eigendom. Ruft den optionalen Formnamen ab oder legt ihn fest in C#.
 type: docs
 weight: 400
 url: /de/net/aspose.words.drawing/shapebase/name/
@@ -14,13 +16,13 @@ Ruft den optionalen Formnamen ab oder legt ihn fest.
 public string Name { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist eine leere Zeichenfolge.
 
 Kann nicht sein`Null`, kann aber eine leere Zeichenfolge sein.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der alternative Text einer Form verwendet wird.
 
@@ -44,7 +46,5 @@ File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

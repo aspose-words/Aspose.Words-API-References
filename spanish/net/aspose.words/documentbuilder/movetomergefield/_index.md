@@ -1,12 +1,14 @@
 ---
 title: DocumentBuilder.MoveToMergeField
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Mueve el cursor a una posición justo más allá del campo de combinación especificado y elimina el campo de combinación.
+linktitle: MoveToMergeField
+articleTitle: MoveToMergeField
+second_title: Aspose.Words para .NET
+description: DocumentBuilder MoveToMergeField método. Mueve el cursor a una posición justo más allá del campo de combinación especificado y elimina el campo de combinación en C#.
 type: docs
-weight: 560
+weight: 550
 url: /es/net/aspose.words/documentbuilder/movetomergefield/
 ---
-## MoveToMergeField(string) {#movetomergefield}
+## MoveToMergeField(*string*) {#movetomergefield}
 
 Mueve el cursor a una posición justo más allá del campo de combinación especificado y elimina el campo de combinación.
 
@@ -22,11 +24,11 @@ public bool MoveToMergeField(string fieldName)
 
 `verdadero` si se encontró el campo de combinación y se movió el cursor;`FALSO` de lo contrario.
 
-### Observaciones
+## Observaciones
 
 Tenga en cuenta que este método elimina el campo de combinación del documento después de mover el cursor.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo llenar MERGEFIELD con datos con un generador de documentos en lugar de una combinación de correspondencia.
 
@@ -139,12 +141,12 @@ private static DataTable GetStudentCourseDataTable()
 ### Ver también
 
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
 
 ---
 
-## MoveToMergeField(string, bool, bool) {#movetomergefield_1}
+## MoveToMergeField(*string, bool, bool*) {#movetomergefield_1}
 
 Mueve el campo de combinación al campo de combinación especificado.
 
@@ -162,7 +164,7 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 `verdadero` si se encontró el campo de combinación y se movió el cursor;`FALSO` de lo contrario.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar campos y mover el cursor del generador de documentos hacia ellos.
 
@@ -191,7 +193,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 ### Ver también
 
 * class [DocumentBuilder](../)
-* espacio de nombres [Aspose.Words](../../documentbuilder/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

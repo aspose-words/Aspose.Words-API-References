@@ -1,7 +1,9 @@
 ---
 title: ControlChar.Cr
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ControlChar champ. Caractère de retour chariot  x000d ou r. Pareil queParagraphBreak .
+linktitle: Cr
+articleTitle: Cr
+second_title: Aspose.Words pour .NET
+description: ControlChar Cr champ. Caractère de retour chariot  x000d ou r. Pareil queParagraphBreak  en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/controlchar/cr/
@@ -14,7 +16,7 @@ Caractère de retour chariot : "\x000d" ou "\r". Pareil que[`ParagraphBreak`](..
 public static readonly string Cr;
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les caractères de contrôle.
 
@@ -41,7 +43,5 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 ### Voir également
 
 * class [ControlChar](../)
-* espace de noms [Aspose.Words](../../controlchar/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

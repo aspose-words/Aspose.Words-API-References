@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUpdateCultureProvider
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.IFieldUpdateCultureProvider 界面. 实施后提供CultureInfo更新特定字段期间应使用的对象
+title: IFieldUpdateCultureProvider Interface
+linktitle: IFieldUpdateCultureProvider
+articleTitle: IFieldUpdateCultureProvider
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.IFieldUpdateCultureProvider 界面. 实施后提供CultureInfo更新特定字段期间应使用的对象 在 C#.
 type: docs
 weight: 2710
 url: /zh/net/aspose.words.fields/ifieldupdatecultureprovider/
@@ -18,9 +20,9 @@ public interface IFieldUpdateCultureProvider
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(string, Field) | 返回一个CultureInfo字段更新期间要使用的对象。 |
+| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(*string, [Field](../field/)*) | 返回一个CultureInfo字段更新期间要使用的对象。 |
 
-### 例子
+## 例子
 
 演示如何指定解析每个字段的日期/时间格式的区域性。
 
@@ -92,5 +94,3 @@ private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

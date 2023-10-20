@@ -1,12 +1,14 @@
 ---
 title: Document.Save
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Sparar dokumentet till en fil. Bestämmer automatiskt sparformatet från tillägget.
+linktitle: Save
+articleTitle: Save
+second_title: Aspose.Words för .NET
+description: Document Save metod. Sparar dokumentet till en fil. Bestämmer automatiskt sparformatet från tillägget i C#.
 type: docs
-weight: 720
+weight: 700
 url: /sv/net/aspose.words/document/save/
 ---
-## Save(string) {#save_2}
+## Save(*string*) {#save_2}
 
 Sparar dokumentet till en fil. Bestämmer automatiskt sparformatet från tillägget.
 
@@ -22,7 +24,7 @@ public SaveOutputParameters Save(string fileName)
 
 Ytterligare information som du valfritt kan använda.
 
-### Exempel
+## Exempel
 
 Visar hur man öppnar ett dokument och konverterar det till .PDF.
 
@@ -52,12 +54,12 @@ pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Save(string, SaveFormat) {#save_3}
+## Save(*string, [SaveFormat](../../saveformat/)*) {#save_3}
 
 Sparar dokumentet till en fil i angivet format.
 
@@ -74,7 +76,7 @@ public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
 
 Ytterligare information som du valfritt kan använda.
 
-### Exempel
+## Exempel
 
 Visar hur man konverterar från DOCX till HTML-format.
 
@@ -89,12 +91,12 @@ doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * enum [SaveFormat](../../saveformat/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Save(string, SaveOptions) {#save_4}
+## Save(*string, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#save_4}
 
 Sparar dokumentet till en fil med de angivna sparalternativen.
 
@@ -111,7 +113,7 @@ public SaveOutputParameters Save(string fileName, SaveOptions saveOptions)
 
 Ytterligare information som du valfritt kan använda.
 
-### Exempel
+## Exempel
 
 Visar hur man förbättrar kvaliteten på ett renderat dokument med SaveOptions.
 
@@ -296,12 +298,12 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream, SaveFormat) {#save}
+## Save(*Stream, [SaveFormat](../../saveformat/)*) {#save}
 
 Sparar dokumentet i en ström med det angivna formatet.
 
@@ -318,7 +320,7 @@ public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
 
 Ytterligare information som du valfritt kan använda.
 
-### Exempel
+## Exempel
 
 Visar hur man sparar ett dokument i en ström.
 
@@ -388,12 +390,12 @@ Document doc = new Document();
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * enum [SaveFormat](../../saveformat/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Save(Stream, SaveOptions) {#save_1}
+## Save(*Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#save_1}
 
 Sparar dokumentet i en ström med de angivna sparalternativen.
 
@@ -410,7 +412,7 @@ public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
 
 Ytterligare information som du valfritt kan använda.
 
-### Exempel
+## Exempel
 
 Visar hur man endast konverterar några av sidorna i ett dokument till PDF.
 
@@ -443,12 +445,12 @@ using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
-## Save(HttpResponse, string, ContentDisposition, SaveOptions) {#save_5}
+## Save(*HttpResponse, string, [ContentDisposition](../../contentdisposition/), [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#save_5}
 
 Skickar dokumentet till klientens webbläsare.
 
@@ -468,11 +470,11 @@ public SaveOutputParameters Save(HttpResponse response, string fileName,
 
 Ytterligare information som du valfritt kan använda.
 
-### Anmärkningar
+## Anmärkningar
 
 Internt sparar den här metoden först i en minnesström och kopieras sedan till svaret stream eftersom svarsströmmen inte stöder sökning.
 
-### Exempel
+## Exempel
 
 Visar hur man utför en sammanfogning och sedan sparar dokumentet i klientens webbläsare.
 
@@ -505,7 +507,5 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 * enum [ContentDisposition](../../contentdisposition/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: WarningInfoCollection.Item
-second_title: Référence de l'API Aspose.Words pour .NET
-description: WarningInfoCollection propriété. Obtient un élément à lindex spécifié.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words pour .NET
+description: WarningInfoCollection Item propriété. Obtient un élément à lindex spécifié en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/warninginfocollection/item/
@@ -22,7 +24,5 @@ public WarningInfo this[int index] { get; }
 
 * class [WarningInfo](../../warninginfo/)
 * class [WarningInfoCollection](../)
-* espace de noms [Aspose.Words](../../warninginfocollection/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

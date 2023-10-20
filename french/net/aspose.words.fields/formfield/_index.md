@@ -1,7 +1,9 @@
 ---
-title: Class FormField
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FormField classe. Représente un seul champ de formulaire.
+title: FormField Class
+linktitle: FormField
+articleTitle: FormField
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.FormField classe. Représente un seul champ de formulaire en C#.
 type: docs
 weight: 2620
 url: /fr/net/aspose.words.fields/formfield/
@@ -61,20 +63,20 @@ public class FormField : SpecialChar
 
 | Nom | La description |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/formfield/accept/)(DocumentVisitor) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crée un duplicata du nœud. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
+| override [Accept](../../aspose.words.fields/formfield/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepte un visiteur. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un duplicata du nœud. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Obtient le premier ancêtre du spécifié[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtient le premier ancêtre du type d'objet spécifié. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Obtient le caractère spécial que représente ce nœud. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
 | [RemoveField](../../aspose.words.fields/formfield/removefield/)() | Supprime le champ de formulaire complet, pas seulement le caractère spécial du champ de formulaire. |
-| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue/)(object) | Applique le format de texte spécifié dans[`TextInputFormat`](./textinputformat/) et stocke la valeur dans[`Result`](./result/) . |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
+| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue/)(*object*) | Applique le format de texte spécifié dans[`TextInputFormat`](./textinputformat/) et stocke la valeur dans[`Result`](./result/) . |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
 
-### Remarques
+## Remarques
 
 Microsoft Word fournit les champs de formulaire suivants : case à cocher, saisie de texte et liste déroulante (liste déroulante).
 
@@ -84,7 +86,7 @@ Microsoft Word fournit les champs de formulaire suivants : case à cocher, saisi
 
 Un champ de formulaire complet dans un document Word est une structure complexe représentée par plusieurs nœuds : début du champ, code de champ tel que FORMTEXT, données du champ de formulaire, séparateur de champ, résultat du champ , fin du champ et un signet. Pour créer par programme des champs de formulaire dans un document Word, use [`InsertCheckBox`](../../aspose.words/documentbuilder/insertcheckbox/) , [`InsertTextInput`](../../aspose.words/documentbuilder/inserttextinput/) et [`InsertComboBox`](../../aspose.words/documentbuilder/insertcombobox/) which assurez-vous que tous les nœuds du champ de formulaire sont créés dans le bon ordre et dans un état approprié.
 
-### Exemples
+## Exemples
 
 Montre comment formater l'intégralité du FormField, y compris la valeur du champ.
 
@@ -132,5 +134,3 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 * class [SpecialChar](../../aspose.words/specialchar/)
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

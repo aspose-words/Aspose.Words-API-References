@@ -1,7 +1,9 @@
 ---
 title: Font.Bidi
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Spécifie si le contenu de cette exécution doit avoir des caractéristiques de droite à gauche.
+linktitle: Bidi
+articleTitle: Bidi
+second_title: Aspose.Words pour .NET
+description: Font Bidi propriété. Spécifie si le contenu de cette exécution doit avoir des caractéristiques de droite à gauche en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/font/bidi/
@@ -14,7 +16,7 @@ Spécifie si le contenu de cette exécution doit avoir des caractéristiques de 
 public bool Bidi { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette propriété, lorsqu'elle est activée, ne doit pas être utilisée avec un texte fortement orienté de gauche à droite. Tout comportement dans cette condition n'est pas spécifié. Cette propriété, lorsqu'elle est désactivée, ne doit pas être utilisée avec un texte fort de droite à gauche. Tout comportement dans cette condition n’est pas spécifié.
 
@@ -22,7 +24,7 @@ Lorsque le contenu de cette exécution est affiché, tous les caractères doiven
 
 De plus, lorsque le contenu de cette exécution est affiché, cette propriété agit comme un remplacement de droite à gauche pour les caractères qui sont classés comme « types faibles » et « types neutres ».
 
-### Exemples
+## Exemples
 
 Montre comment définir des ensembles distincts de paramètres de police pour le texte de droite à gauche et de droite à gauche.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### Voir également
 
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

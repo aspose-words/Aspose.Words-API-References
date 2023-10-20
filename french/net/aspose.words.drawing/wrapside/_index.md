@@ -1,7 +1,9 @@
 ---
-title: Enum WrapSide
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.WrapSide énumération. Spécifie les côtés de la forme ou de limage autour duquel le texte senroule.
+title: WrapSide Enum
+linktitle: WrapSide
+articleTitle: WrapSide
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.WrapSide énumération. Spécifie les côtés de la forme ou de limage autour duquel le texte senroule en C#.
 type: docs
 weight: 1390
 url: /fr/net/aspose.words.drawing/wrapside/
@@ -24,7 +26,7 @@ public enum WrapSide
 | Largest | `3` | Le texte du document s'enroule du côté de la forme le plus éloigné de la marge de la page, laissant une zone libre de texte de l'autre côté de la forme. |
 | Default | `0` | La valeur par défaut estBoth . |
 
-### Exemples
+## Exemples
 
 Montre comment remplacer toutes les formes de zone de texte par des formes d’image.
 
@@ -71,5 +73,3 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 * property [WrapSide](../shapebase/wrapside/)
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

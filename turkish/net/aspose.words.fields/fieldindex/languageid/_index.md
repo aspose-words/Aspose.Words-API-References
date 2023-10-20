@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.LanguageId
-second_title: Aspose.Words for .NET API Referansı
-description: FieldIndex mülk. Dizini oluşturmak için kullanılan dil kimliğini alır veya ayarlar.
+linktitle: LanguageId
+articleTitle: LanguageId
+second_title: Aspose.Words for .NET
+description: FieldIndex LanguageId mülk. Dizini oluşturmak için kullanılan dil kimliğini alır veya ayarlar C#'da.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/fieldindex/languageid/
@@ -14,7 +16,7 @@ Dizini oluşturmak için kullanılan dil kimliğini alır veya ayarlar.
 public string LanguageId { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir INDEX alanının XE alanlarını kullanarak girişlerle nasıl doldurulacağını ve ayrıca görünümünün nasıl değiştirileceğini gösterir.
 
@@ -86,7 +88,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 ### Ayrıca bakınız
 
 * class [FieldIndex](../)
-* ad alanı [Aspose.Words.Fields](../../fieldindex/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

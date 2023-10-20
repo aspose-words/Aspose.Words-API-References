@@ -1,12 +1,14 @@
 ---
 title: MailMerge.ExecuteWithRegions
-second_title: Aspose.Words per .NET API Reference
-description: MailMerge metodo. Esegue una stampa unione da unorigine dati personalizzata con aree di stampa unione.
+linktitle: ExecuteWithRegions
+articleTitle: ExecuteWithRegions
+second_title: Aspose.Words per .NET
+description: MailMerge ExecuteWithRegions metodo. Esegue una stampa unione da unorigine dati personalizzata con aree di stampa unione in C#.
 type: docs
 weight: 200
 url: /it/net/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
-## ExecuteWithRegions(IMailMergeDataSource) {#executewithregions}
+## ExecuteWithRegions(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#executewithregions}
 
 Esegue una stampa unione da un'origine dati personalizzata con aree di stampa unione.
 
@@ -18,13 +20,13 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 | --- | --- | --- |
 | dataSource | IMailMergeDataSource | Un oggetto che implementa l'interfaccia dell'origine dati di stampa unione personalizzata. |
 
-### Osservazioni
+## Osservazioni
 
 Utilizzare questo metodo per compilare i campi della stampa unione nel documento con valori provenienti da qualsiasi origine dati personalizzata come un file XML o raccolte di oggetti business. Devi scrivere la tua classe personale che implementi il file[`IMailMergeDataSource`](../../imailmergedatasource/) interfaccia.
 
 Puoi utilizzare questo metodo solo quando[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) È`falso`, cioè non è necessaria la compatibilità con le lingue da destra a sinistra (come arabo o ebraico).
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le aree di stampa unione per eseguire una stampa unione nidificata.
 
@@ -271,12 +273,12 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSource](../../imailmergedatasource/)
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(IMailMergeDataSourceRoot) {#executewithregions_1}
+## ExecuteWithRegions(*[IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)*) {#executewithregions_1}
 
 Esegue una stampa unione da un'origine dati personalizzata con aree di stampa unione.
 
@@ -288,13 +290,13 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 | --- | --- | --- |
 | dataSourceRoot | IMailMergeDataSourceRoot | Un oggetto che implementa l'interfaccia root dell'origine dati di stampa unione personalizzata. |
 
-### Osservazioni
+## Osservazioni
 
 Utilizzare questo metodo per compilare i campi della stampa unione nel documento con valori provenienti da qualsiasi origine dati personalizzata come un file XML o raccolte di oggetti business. Devi scrivere le tue classi che implementano il file[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) E[`IMailMergeDataSource`](../../imailmergedatasource/) interfacce.
 
 Puoi utilizzare questo metodo solo quando[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) È`falso`, cioè non è necessaria la compatibilità con le lingue da destra a sinistra (come arabo o ebraico).
 
-### Esempi
+## Esempi
 
 Esegue la stampa unione da un'origine dati personalizzata con dati master-dettagli.
 
@@ -478,14 +480,14 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 * interface [IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataSet) {#executewithregions_2}
+## ExecuteWithRegions(*DataSet*) {#executewithregions_2}
 
-Esegue la stampa unione da a **Set di dati** in un documento con regioni di stampa unione.
+Esegue la stampa unione da a**Set di dati** in un documento con regioni di stampa unione.
 
 ```csharp
 public void ExecuteWithRegions(DataSet dataSet)
@@ -495,31 +497,31 @@ public void ExecuteWithRegions(DataSet dataSet)
 | --- | --- | --- |
 | dataSet | DataSet | **Set di dati** che contiene i dati da inserire nei campi della stampa unione. |
 
-### Osservazioni
+## Osservazioni
 
 Utilizzare questo metodo per eseguire la stampa unione da una o più tabelle in aree ripetibili mail merge nel documento. Le aree di stampa unione all'interno del documento aumenteranno dinamicamente per accogliere i record nelle tabelle corrispondenti.
 
-Ogni tavolo in **Set di dati** deve avere un nome.
+Ogni tavolo in**Set di dati** deve avere un nome.
 
-Il documento deve avere aree di stampa unione definite con nomi che fanno riferimento a tables nel file **Set di dati**.
+Il documento deve avere aree di stampa unione definite con nomi che fanno riferimento a tables nel file**Set di dati**.
 
 Per specificare una regione di stampa unione nel documento è necessario inserire due campi di stampa unione per contrassegnare l'inizio e la fine della regione di stampa unione.
 
-Tutto il contenuto del documento incluso in un'area di stampa unione verrà automaticamente ripetuto per ogni record nel file **Tabella dati**.
+Tutto il contenuto del documento incluso in un'area di stampa unione verrà automaticamente ripetuto per ogni record nel file**Tabella dati**.
 
-Per contrassegnare l'inizio di una regione di stampa unione, inserisci un MERGEFIELD con il nome TableStart:MyTable, dove MyTable corrisponde a uno dei nomi di tabella nella tua **Set di dati**.
+Per contrassegnare l'inizio di una regione di stampa unione, inserisci un MERGEFIELD con il nome TableStart:MyTable, dove MyTable corrisponde a uno dei nomi di tabella nella tua**Set di dati**.
 
 Per contrassegnare la fine della regione di stampa unione inserire un altro MERGEFIELD con nome TableEnd:MyTable.
 
 Per inserire un MERGEFIELD in Word utilizzare il comando Inserisci/Campo e selezionare Unisci campo, quindi digitare il nome del campo.
 
-IL **Inizio tabella** E **Fine tabella** i campi devono trovarsi all'interno della stessa sezione del documento.
+IL**Inizio tabella** E**Fine tabella** i campi devono trovarsi all'interno della stessa sezione del documento.
 
-Se utilizzato all'interno di un tavolo, **Inizio tabella** E **Fine tabella** deve essere all'interno della stessa riga nella tabella.
+Se utilizzato all'interno di un tavolo,**Inizio tabella** E**Fine tabella** deve essere all'interno della stessa riga nella tabella.
 
-Le regioni di stampa unione in un documento dovrebbero essere ben formate (è sempre necessario che ci sia una coppia di corrispondenti  **Inizio tabella** E **Fine tabella** unire campi con lo stesso nome di tabella).
+Le regioni di stampa unione in un documento dovrebbero essere ben formate (è sempre necessario che ci sia una coppia di corrispondenti **Inizio tabella** E**Fine tabella** unire campi con lo stesso nome di tabella).
 
-### Esempi
+## Esempi
 
 Mostra come eseguire una stampa unione nidificata con due aree di unione e due tabelle dati.
 
@@ -603,14 +605,14 @@ private static DataSet CreateDataSet()
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataTable) {#executewithregions_3}
+## ExecuteWithRegions(*DataTable*) {#executewithregions_3}
 
-Esegue la stampa unione da a **Tabella dati** nel documento con regioni di stampa unione.
+Esegue la stampa unione da a**Tabella dati** nel documento con regioni di stampa unione.
 
 ```csharp
 public void ExecuteWithRegions(DataTable dataTable)
@@ -620,13 +622,13 @@ public void ExecuteWithRegions(DataTable dataTable)
 | --- | --- | --- |
 | dataTable | DataTable | Origine dati per l'operazione di stampa unione. La tabella deve avere il suoTableName insieme di proprietà. |
 
-### Osservazioni
+## Osservazioni
 
 Il documento deve avere una regione di stampa unione definita con un nome corrispondente a TableName.
 
 Se nel documento sono definite altre regioni di stampa unione, queste vengono lasciate intatte. Ciò consente di eseguire diverse operazioni di stampa unione.
 
-### Esempi
+## Esempi
 
 Illustra come formattare le celle durante una stampa unione.
 
@@ -762,14 +764,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(DataView) {#executewithregions_4}
+## ExecuteWithRegions(*DataView*) {#executewithregions_4}
 
-Esegue la stampa unione da a **DataView** nel documento con regioni di stampa unione.
+Esegue la stampa unione da a**DataView** nel documento con regioni di stampa unione.
 
 ```csharp
 public void ExecuteWithRegions(DataView dataView)
@@ -777,17 +779,17 @@ public void ExecuteWithRegions(DataView dataView)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| dataView | DataView | Origine dati per l'operazione di stampa unione. La tabella di origine del **DataView** deve avere il suo **NomeTabella** insieme di proprietà. |
+| dataView | DataView | Origine dati per l'operazione di stampa unione. La tabella di origine del**DataView** deve avere il suo**NomeTabella** insieme di proprietà. |
 
-### Osservazioni
+## Osservazioni
 
-Questo metodo è utile se recuperi i dati in un file **Tabella dati** ma poi è necessario applicare un filtro o ordinare prima della stampa unione.
+Questo metodo è utile se recuperi i dati in un file**Tabella dati** ma poi è necessario applicare un filtro o ordinare prima della stampa unione.
 
-Il documento deve avere una regione di stampa unione definita con un nome corrispondente a  **DataView.Table.TableName**.
+Il documento deve avere una regione di stampa unione definita con un nome corrispondente a **DataView.Table.TableName**.
 
 Se nel documento sono definite altre regioni di stampa unione, queste vengono lasciate intatte. Ciò consente di eseguire diverse operazioni di stampa unione.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare le regioni per eseguire due fusioni di posta separate in un unico documento.
 
@@ -843,14 +845,14 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## ExecuteWithRegions(IDataReader, string) {#executewithregions_5}
+## ExecuteWithRegions(*IDataReader, string*) {#executewithregions_5}
 
-Esegue la stampa unione da **IDataReader** nel documento con regioni di stampa unione.
+Esegue la stampa unione da**IDataReader** nel documento con regioni di stampa unione.
 
 ```csharp
 public void ExecuteWithRegions(IDataReader dataReader, string tableName)
@@ -858,14 +860,14 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| dataReader | IDataReader | Origine dei record di dati per la stampa unione come **Lettore dati OleDb** O **SQLDataReader**. |
+| dataReader | IDataReader | Origine dei record di dati per la stampa unione come**Lettore dati OleDb** O**SQLDataReader**. |
 | tableName | String | Nome dell'area di stampa unione nel documento da compilare. |
 
-### Osservazioni
+## Osservazioni
 
-Puoi passare **SQLDataReader** O **Lettore dati OleDb**object nel metodo this come parametro perché entrambi sono implementati **IDataReader** interfaccia.
+Puoi passare**SQLDataReader** O**Lettore dati OleDb**object nel metodo this come parametro perché entrambi sono implementati**IDataReader** interfaccia.
 
-### Esempi
+## Esempi
 
 Mostra come inserire in un report le immagini archiviate in un campo BLOB del database.
 
@@ -914,7 +916,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 ### Guarda anche
 
 * class [MailMerge](../)
-* spazio dei nomi [Aspose.Words.MailMerging](../../mailmerge/)
+* spazio dei nomi [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../../)
-
-

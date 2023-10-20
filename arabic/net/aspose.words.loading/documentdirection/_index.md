@@ -1,7 +1,9 @@
 ---
-title: Enum DocumentDirection
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.DocumentDirection تعداد. يسمح بتحديد اتجاه تدفق النص في المستند.
+title: DocumentDirection Enum
+linktitle: DocumentDirection
+articleTitle: DocumentDirection
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Loading.DocumentDirection تعداد. يسمح بتحديد اتجاه تدفق النص في المستند في C#.
 type: docs
 weight: 3580
 url: /ar/net/aspose.words.loading/documentdirection/
@@ -26,5 +28,3 @@ public enum DocumentDirection
 
 * مساحة الاسم [Aspose.Words.Loading](../../aspose.words.loading/)
 * المجسم [Aspose.Words](../../)
-
-

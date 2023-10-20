@@ -1,7 +1,9 @@
 ---
-title: Class FieldFormat
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldFormat فصل. يوفر الوصول المكتوب إلى الحقل الرقمي والتاريخ والوقت والتنسيق العام.
+title: FieldFormat Class
+linktitle: FieldFormat
+articleTitle: FieldFormat
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Fields.FieldFormat فصل. يوفر الوصول المكتوب إلى الحقل الرقمي والتاريخ والوقت والتنسيق العام في C#.
 type: docs
 weight: 1940
 url: /ar/net/aspose.words.fields/fieldformat/
@@ -24,7 +26,7 @@ public class FieldFormat
 | [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | يحصل على مجموعة من التنسيقات العامة التي يتم تطبيقها على نتيجة رقمية أو نصية أو أي نتيجة حقل. يتوافق مع مفاتيح \*. |
 | [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | الحصول على أو تعيين التنسيق الذي يتم تطبيقه على نتيجة الحقل الرقمي. يتوافق مع \# التبديل. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنسيق النتائج الميدانية.
 
@@ -89,5 +91,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
-
-

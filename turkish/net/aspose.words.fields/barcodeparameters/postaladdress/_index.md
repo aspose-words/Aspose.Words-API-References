@@ -1,7 +1,9 @@
 ---
 title: BarcodeParameters.PostalAddress
-second_title: Aspose.Words for .NET API Referansı
-description: BarcodeParameters mülk. Barkod posta adresi.
+linktitle: PostalAddress
+articleTitle: PostalAddress
+second_title: Aspose.Words for .NET
+description: BarcodeParameters PostalAddress mülk. Barkod posta adresi C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.fields/barcodeparameters/postaladdress/
@@ -14,7 +16,7 @@ Barkod posta adresi.
 public string PostalAddress { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Barkod oluşturucunun nasıl kullanılacağını gösterir.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 ### Ayrıca bakınız
 
 * class [BarcodeParameters](../)
-* ad alanı [Aspose.Words.Fields](../../barcodeparameters/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class PreferredWidth
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Tables.PreferredWidth sınıf. Bir tablonun veya hücrenin tercih edilen genişliğini belirtmek için kullanılan bir değeri ve onun ölçü birimini temsil eder.
+title: PreferredWidth Class
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Tables.PreferredWidth sınıf. Bir tablonun veya hücrenin tercih edilen genişliğini belirtmek için kullanılan bir değeri ve onun ölçü birimini temsil eder C#'da.
 type: docs
 weight: 6290
 url: /tr/net/aspose.words.tables/preferredwidth/
@@ -27,10 +29,10 @@ public sealed class PreferredWidth
 
 | İsim | Tanım |
 | --- | --- |
-| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(double) | Yüzde olarak belirtilen tercih edilen genişliği temsil eden yeni bir örneği döndüren bir oluşturma yöntemi. |
-| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(double) | Bir dizi nokta kullanılarak belirtilen tercih edilen genişliği temsil eden yeni bir örneği döndüren bir oluşturma yöntemi. |
-| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(object) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
-| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(PreferredWidth) | Belirtilenin olup olmadığını belirler`PreferredWidth` şimdiki değere eşittir`PreferredWidth` . |
+| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(*double*) | Yüzde olarak belirtilen tercih edilen genişliği temsil eden yeni bir örneği döndüren bir oluşturma yöntemi. |
+| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(*double*) | Bir dizi nokta kullanılarak belirtilen tercih edilen genişliği temsil eden yeni bir örneği döndüren bir oluşturma yöntemi. |
+| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(*object*) | Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler. |
+| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(*PreferredWidth*) | Belirtilenin olup olmadığını belirler`PreferredWidth` şimdiki değere eşittir`PreferredWidth` . |
 | override [GetHashCode](../../aspose.words.tables/preferredwidth/gethashcode/)() | Bu tür için karma işlevi görevi görür. |
 | override [ToString](../../aspose.words.tables/preferredwidth/tostring/)() | Bu nesnenin değerini görüntüleyen kullanıcı dostu bir dize döndürür. |
 
@@ -40,13 +42,13 @@ public sealed class PreferredWidth
 | --- | --- |
 | static readonly [Auto](../../aspose.words.tables/preferredwidth/auto/) | "Tercih edilen genişlik belirtilmedi" değerini temsil eden bir örneği döndürür. |
 
-### Notlar
+## Notlar
 
 Tercih edilen genişlik yüzde, nokta sayısı veya özel bir "yok/otomatik" değer olarak belirtilebilir.
 
 Bu sınıfın örnekleri değişmezdir.
 
-### Örnekler
+## Örnekler
 
 Bir tablonun sayfa genişliğinin %50'sine otomatik olarak sığacak şekilde nasıl ayarlanacağını gösterir.
 
@@ -106,5 +108,3 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 * ad alanı [Aspose.Words.Tables](../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../)
-
-

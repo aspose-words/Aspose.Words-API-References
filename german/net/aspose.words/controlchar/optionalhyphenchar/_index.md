@@ -1,7 +1,9 @@
 ---
 title: ControlChar.OptionalHyphenChar
-second_title: Aspose.Words für .NET-API-Referenz
-description: ControlChar veld. Optionaler Bindestrich in Microsoft Word ist char31.
+linktitle: OptionalHyphenChar
+articleTitle: OptionalHyphenChar
+second_title: Aspose.Words für .NET
+description: ControlChar OptionalHyphenChar veld. Optionaler Bindestrich in Microsoft Word ist char31 in C#.
 type: docs
 weight: 190
 url: /de/net/aspose.words/controlchar/optionalhyphenchar/
@@ -14,11 +16,11 @@ Optionaler Bindestrich in Microsoft Word ist (char)31.
 public const char OptionalHyphenChar;
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der optionale Bindestrich in Microsoft Word entspricht nicht dem Unicode-Zeichen U+00AD soft hyphen. . Stattdessen werden interne Informationen eingefügt, die Word über eine mögliche Trennstelle informieren.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
@@ -90,7 +92,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Siehe auch
 
 * class [ControlChar](../)
-* namensraum [Aspose.Words](../../controlchar/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

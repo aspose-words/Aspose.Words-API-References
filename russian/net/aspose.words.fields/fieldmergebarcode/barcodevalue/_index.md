@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.BarcodeValue
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeBarcode свойство. Получает или задает значение штрихкода.
+linktitle: BarcodeValue
+articleTitle: BarcodeValue
+second_title: Aspose.Words для .NET
+description: FieldMergeBarcode BarcodeValue свойство. Получает или задает значение штрихкода на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldmergebarcode/barcodevalue/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldmergebarcode/barcodevalue/
 public string BarcodeValue { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить объединение писем со штрих-кодами EAN13.
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Смотрите также
 
 * class [FieldMergeBarcode](../)
-* пространство имен [Aspose.Words.Fields](../../fieldmergebarcode/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

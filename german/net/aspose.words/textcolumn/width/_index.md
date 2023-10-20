@@ -1,7 +1,9 @@
 ---
 title: TextColumn.Width
-second_title: Aspose.Words für .NET-API-Referenz
-description: TextColumn eigendom. Ruft die Breite der Textspalte in Punkten ab oder legt sie fest.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words für .NET
+description: TextColumn Width eigendom. Ruft die Breite der Textspalte in Punkten ab oder legt sie fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/textcolumn/width/
@@ -14,7 +16,7 @@ Ruft die Breite der Textspalte in Punkten ab oder legt sie fest.
 public double Width { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ungleichmäßig verteilte Spalten erstellt werden.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### Siehe auch
 
 * class [TextColumn](../)
-* namensraum [Aspose.Words](../../textcolumn/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

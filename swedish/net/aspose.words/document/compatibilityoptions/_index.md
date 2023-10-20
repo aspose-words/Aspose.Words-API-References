@@ -1,20 +1,22 @@
 ---
 title: Document.CompatibilityOptions
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Ger tillgång till dokumentkompatibilitetsalternativ det vill säga användarinställningarna som anges på Kompatibilitet fliken i alternativ dialog i Word.
+linktitle: CompatibilityOptions
+articleTitle: CompatibilityOptions
+second_title: Aspose.Words för .NET
+description: Document CompatibilityOptions fast egendom. Ger tillgång till dokumentkompatibilitetsalternativ det vill säga användarinställningarna som anges påKompatibilitet fliken ialternativ dialog i Word i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/document/compatibilityoptions/
 ---
 ## Document.CompatibilityOptions property
 
-Ger tillgång till dokumentkompatibilitetsalternativ (det vill säga användarinställningarna som anges på **Kompatibilitet** fliken i **alternativ** dialog i Word).
+Ger tillgång till dokumentkompatibilitetsalternativ (det vill säga användarinställningarna som anges på**Kompatibilitet** fliken i**alternativ** dialog i Word).
 
 ```csharp
 public CompatibilityOptions CompatibilityOptions { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man optimerar dokumentet för olika versioner av Microsoft Word.
 
@@ -74,7 +76,5 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * class [CompatibilityOptions](../../../aspose.words.settings/compatibilityoptions/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

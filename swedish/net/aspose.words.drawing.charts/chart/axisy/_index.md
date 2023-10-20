@@ -1,7 +1,9 @@
 ---
 title: Chart.AxisY
-second_title: Aspose.Words för .NET API Referens
-description: Chart fast egendom. Ger tillgång till egenskaperna för Yaxeln i diagrammet.
+linktitle: AxisY
+articleTitle: AxisY
+second_title: Aspose.Words för .NET
+description: Chart AxisY fast egendom. Ger tillgång till egenskaperna för Yaxeln i diagrammet i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/chart/axisy/
@@ -14,7 +16,7 @@ Ger tillgång till egenskaperna för Y-axeln i diagrammet.
 public ChartAxis AxisY { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett diagram och ändrar utseendet på dess axlar.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * class [ChartAxis](../../chartaxis/)
 * class [Chart](../)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chart/)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../../)
-
-

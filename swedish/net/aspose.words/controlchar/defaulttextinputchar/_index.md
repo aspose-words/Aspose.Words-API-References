@@ -1,7 +1,9 @@
 ---
 title: ControlChar.DefaultTextInputChar
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Detta är tecknet o som används som standardvärde i formulärfält för textinmatning.
+linktitle: DefaultTextInputChar
+articleTitle: DefaultTextInputChar
+second_title: Aspose.Words för .NET
+description: ControlChar DefaultTextInputChar fält. Detta är tecknet o som används som standardvärde i formulärfält för textinmatning i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/controlchar/defaulttextinputchar/
@@ -14,7 +16,7 @@ Detta är tecknet "o" som används som standardvärde i formulärfält för text
 public const char DefaultTextInputChar;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Math
-second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Math تحتوي مساحة الاسم على فئات تمثل عناصر Office Math.
+linktitle: Aspose.Words.Math
+articleTitle: Aspose.Words.Math
+second_title: Aspose.Words لـ .NET
+description: الAspose.Words.Math تحتوي مساحة الاسم على فئات تمثل عناصر Office Math في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.math/
 ---
-ال **Aspose.Words.Math** تحتوي مساحة الاسم على فئات تمثل عناصر Office Math.
+ال**Aspose.Words.Math** تحتوي مساحة الاسم على فئات تمثل عناصر Office Math.
 
 ## الطبقات
 
@@ -20,5 +22,3 @@ url: /ar/net/aspose.words.math/
 | [MathObjectType](./mathobjecttype/) | يحدد نوع كائن Office Math. |
 | [OfficeMathDisplayType](./officemathdisplaytype/) | يحدد نوع تنسيق عرض المعادلة. |
 | [OfficeMathJustification](./officemathjustification/) | يحدد مبرر المعادلة. |
-
-

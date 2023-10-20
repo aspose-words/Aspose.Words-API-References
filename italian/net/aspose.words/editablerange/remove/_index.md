@@ -1,7 +1,9 @@
 ---
 title: EditableRange.Remove
-second_title: Aspose.Words per .NET API Reference
-description: EditableRange metodo. Rimuove lintervallo modificabile dal documento. Non rimuove il contenuto allinterno dellintervallo modificabile.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words per .NET
+description: EditableRange Remove metodo. Rimuove lintervallo modificabile dal documento. Non rimuove il contenuto allinterno dellintervallo modificabile in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/editablerange/remove/
@@ -14,7 +16,7 @@ Rimuove l'intervallo modificabile dal documento. Non rimuove il contenuto all'in
 public void Remove()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con un intervallo modificabile.
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### Guarda anche
 
 * class [EditableRange](../)
-* spazio dei nomi [Aspose.Words](../../editablerange/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

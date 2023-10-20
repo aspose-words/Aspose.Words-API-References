@@ -1,9 +1,11 @@
 ---
 title: Stroke.JoinStyle
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Definierar kopplingsstilen för en polylinje.
+linktitle: JoinStyle
+articleTitle: JoinStyle
+second_title: Aspose.Words för .NET
+description: Stroke JoinStyle fast egendom. Definierar kopplingsstilen för en polylinje i C#.
 type: docs
-weight: 130
+weight: 120
 url: /sv/net/aspose.words.drawing/stroke/joinstyle/
 ---
 ## Stroke.JoinStyle property
@@ -14,11 +16,11 @@ Definierar kopplingsstilen för en polylinje.
 public JoinStyle JoinStyle { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet ärRound.
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar slagegenskaper.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * enum [JoinStyle](../../joinstyle/)
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

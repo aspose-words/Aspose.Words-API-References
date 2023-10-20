@@ -1,7 +1,9 @@
 ---
 title: MailMerge.RestartListsAtEachSection
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge fast egendom. Hämtar eller ställer in ett värde som anger om listor startas om vid varje sektion efter körning av en epostsammanfogning.
+linktitle: RestartListsAtEachSection
+articleTitle: RestartListsAtEachSection
+second_title: Aspose.Words för .NET
+description: MailMerge RestartListsAtEachSection fast egendom. Hämtar eller ställer in ett värde som anger om listor startas om vid varje sektion efter körning av en epostsammanfogning i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.mailmerging/mailmerge/restartlistsateachsection/
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett värde som anger om listor startas om vid varje se
 public bool RestartListsAtEachSection { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`Sann` .
 
-### Exempel
+## Exempel
 
 Visar hur man kontrollerar om listnumrering ska startas om eller inte vid varje avsnitt när kopplingen utförs.
 
@@ -34,7 +36,5 @@ doc.Save(ArtifactsDir + "MailMerge.RestartListsAtEachSection.pdf");
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

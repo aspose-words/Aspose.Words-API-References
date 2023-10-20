@@ -1,7 +1,9 @@
 ---
-title: FieldGreetingLine.FieldGreetingLine
-second_title: Aspose.Words لمراجع .NET API
-description: FieldGreetingLine البناء. Default_Constructor
+title: FieldGreetingLine
+linktitle: FieldGreetingLine
+articleTitle: FieldGreetingLine
+second_title: Aspose.Words لـ .NET
+description: FieldGreetingLine البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldgreetingline/fieldgreetingline/
@@ -17,7 +19,5 @@ public FieldGreetingLine()
 ### أنظر أيضا
 
 * class [FieldGreetingLine](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldgreetingline/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

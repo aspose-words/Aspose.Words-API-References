@@ -1,7 +1,9 @@
 ---
-title: Class MappedDataFieldCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.MailMerging.MappedDataFieldCollection 班级. 允许在数据源 中的字段名称与文档中的邮件合并字段名称之间自动映射
+title: MappedDataFieldCollection Class
+linktitle: MappedDataFieldCollection
+articleTitle: MappedDataFieldCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.MailMerging.MappedDataFieldCollection 班级. 允许在数据源 中的字段名称与文档中的邮件合并字段名称之间自动映射 在 C#.
 type: docs
 weight: 3870
 url: /zh/net/aspose.words.mailmerging/mappeddatafieldcollection/
@@ -27,18 +29,18 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(string, string) | 添加新字段映射。 |
+| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(*string, string*) | 添加新字段映射。 |
 | [Clear](../../aspose.words.mailmerging/mappeddatafieldcollection/clear/)() | 从集合中删除所有元素。 |
-| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(string) | 确定集合中是否存在文档中指定字段的映射。 |
-| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(string) | 确定集合中是否存在来自数据源中指定字段的映射。 |
+| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | 确定集合中是否存在文档中指定字段的映射。 |
+| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | 确定集合中是否存在来自数据源中指定字段的映射。 |
 | [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | 返回一个字典枚举器对象，可用于迭代集合中的所有项目。 |
-| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(string) | 删除字段映射。 |
+| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(*string*) | 删除字段映射。 |
 
-### 评论
+## 评论
 
 这是作为字符串键到字符串值的集合来实现的。 键是文档中邮件合并字段的名称，值 是数据源中字段的名称。
 
-### 例子
+## 例子
 
 演示如何映射具有不同名称的数据列和 MERGEFIELD，以便在邮件合并期间在它们之间传输数据。
 
@@ -124,5 +126,3 @@ private static DataTable CreateSourceTableMappedDataFields()
 
 * 命名空间 [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../)
-
-

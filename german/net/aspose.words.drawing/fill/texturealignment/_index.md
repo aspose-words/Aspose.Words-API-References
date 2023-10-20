@@ -1,9 +1,11 @@
 ---
 title: Fill.TextureAlignment
-second_title: Aspose.Words für .NET-API-Referenz
-description: Fill eigendom. Ruft die Ausrichtung für die Kacheltexturfüllung ab oder legt sie fest.
+linktitle: TextureAlignment
+articleTitle: TextureAlignment
+second_title: Aspose.Words für .NET
+description: Fill TextureAlignment eigendom. Ruft die Ausrichtung für die Kacheltexturfüllung ab oder legt sie fest in C#.
 type: docs
-weight: 190
+weight: 180
 url: /de/net/aspose.words.drawing/fill/texturealignment/
 ---
 ## Fill.TextureAlignment property
@@ -14,7 +16,7 @@ Ruft die Ausrichtung für die Kacheltexturfüllung ab oder legt sie fest.
 public TextureAlignment TextureAlignment { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Textur innerhalb der Form gefüllt und gekachelt wird.
 
@@ -39,7 +41,5 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 
 * enum [TextureAlignment](../../texturealignment/)
 * class [Fill](../)
-* namensraum [Aspose.Words.Drawing](../../fill/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

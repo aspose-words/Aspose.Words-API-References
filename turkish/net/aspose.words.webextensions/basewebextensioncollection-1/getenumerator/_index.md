@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: BaseWebExtensionCollection yöntem. Bir koleksiyonda yineleme yapabilen bir numaralandırıcıyı döndürür.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: BaseWebExtensionCollection GetEnumerator yöntem. Bir koleksiyonda yineleme yapabilen bir numaralandırıcıyı döndürür C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.webextensions/basewebextensioncollection-1/getenumerator/
@@ -14,7 +16,7 @@ Bir koleksiyonda yineleme yapabilen bir numaralandırıcıyı döndürür.
 public IEnumerator<T> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgenin web uzantıları koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Ayrıca bakınız
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* ad alanı [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* ad alanı [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../../)
-
-

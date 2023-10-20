@@ -1,7 +1,9 @@
 ---
-title: Enum SectionLayoutMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.SectionLayoutMode 枚举. 指定允许定义文档网格行为的部分的布局模式
+title: SectionLayoutMode Enum
+linktitle: SectionLayoutMode
+articleTitle: SectionLayoutMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.SectionLayoutMode 枚举. 指定允许定义文档网格行为的部分的布局模式 在 C#.
 type: docs
 weight: 5750
 url: /zh/net/aspose.words/sectionlayoutmode/
@@ -23,7 +25,7 @@ public enum SectionLayoutMode
 | LineGrid | `2` | 指定相应部分应向其内的每一行添加额外的行间距 ，以保持每页指定的行数。 |
 | SnapToChars | `3` | 指定相应部分应将附加行间距和字符间距 添加到其中的每一行和字符，以便保持每页的特定行数和每行字符数。 键入时字符将自动与网格线对齐。 |
 
-### 例子
+## 例子
 
 演示如何指定每行可以包含的字符数。
 
@@ -68,5 +70,3 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

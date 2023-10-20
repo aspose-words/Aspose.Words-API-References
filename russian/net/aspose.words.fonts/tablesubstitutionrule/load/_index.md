@@ -1,12 +1,14 @@
 ---
 title: TableSubstitutionRule.Load
-second_title: Справочник по API Aspose.Words для .NET
-description: TableSubstitutionRule метод. Загружает настройки подстановки таблиц из XMLфайла.
+linktitle: Load
+articleTitle: Load
+second_title: Aspose.Words для .NET
+description: TableSubstitutionRule Load метод. Загружает настройки подстановки таблиц из XMLфайла на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/tablesubstitutionrule/load/
 ---
-## Load(string) {#load_1}
+## Load(*string*) {#load_1}
 
 Загружает настройки подстановки таблиц из XML-файла.
 
@@ -18,7 +20,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | Имя входного файла. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с пользовательскими таблицами замены шрифтов.
 
@@ -79,12 +81,12 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Смотрите также
 
 * class [TableSubstitutionRule](../)
-* пространство имен [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Load(Stream) {#load}
+## Load(*Stream*) {#load}
 
 Загружает настройки подстановки таблиц из XML-потока.
 
@@ -96,7 +98,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Входной поток. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с пользовательскими таблицами замены шрифтов.
 
@@ -157,7 +159,5 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 ### Смотрите также
 
 * class [TableSubstitutionRule](../)
-* пространство имен [Aspose.Words.Fonts](../../tablesubstitutionrule/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

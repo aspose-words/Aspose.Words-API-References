@@ -1,7 +1,9 @@
 ---
-title: Class GeneralFormatCollection
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.GeneralFormatCollection klass. Representerar en maskinskriven samling allmänna format.
+title: GeneralFormatCollection Class
+linktitle: GeneralFormatCollection
+articleTitle: GeneralFormatCollection
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.GeneralFormatCollection klass. Representerar en maskinskriven samling allmänna format i C#.
 type: docs
 weight: 2650
 url: /sv/net/aspose.words.fields/generalformatcollection/
@@ -27,12 +29,12 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.fields/generalformatcollection/add/)(GeneralFormat) | Lägger till ett allmänt format till samlingen. |
+| [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | Lägger till ett allmänt format till samlingen. |
 | [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
-| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | Tar bort alla förekomster av det angivna allmänna formatet från samlingen. |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | Tar bort en allmän formatförekomst vid det angivna indexet. |
+| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(*[GeneralFormat](../generalformat/)*) | Tar bort alla förekomster av det angivna allmänna formatet från samlingen. |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | Tar bort en allmän formatförekomst vid det angivna indexet. |
 
-### Exempel
+## Exempel
 
 Visar hur man formaterar fältresultat.
 
@@ -98,5 +100,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 * enum [GeneralFormat](../generalformat/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

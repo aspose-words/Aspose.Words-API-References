@@ -1,7 +1,9 @@
 ---
 title: Font.Style
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bu biçimlendirmeye uygulanan karakter stilini alır veya ayarlar.
+linktitle: Style
+articleTitle: Style
+second_title: Aspose.Words for .NET
+description: Font Style mülk. Bu biçimlendirmeye uygulanan karakter stilini alır veya ayarlar C#'da.
 type: docs
 weight: 400
 url: /tr/net/aspose.words/font/style/
@@ -14,7 +16,7 @@ Bu biçimlendirmeye uygulanan karakter stilini alır veya ayarlar.
 public Style Style { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Özel karakter stilleriyle biçimlendirilmiş bir belgedeki tüm çalıştırmalara çift alt çizgi uygular.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Font.Style.docx");
 
 * class [Style](../../style/)
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

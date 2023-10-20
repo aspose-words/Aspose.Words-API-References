@@ -1,7 +1,9 @@
 ---
 title: FontSettings.FallbackSettings
-second_title: Aspose.Words for .NET API 参考
-description: FontSettings 财产. 与字体回退机制相关的设置
+linktitle: FallbackSettings
+articleTitle: FallbackSettings
+second_title: 用于 .NET 的 Aspose.Words
+description: FontSettings FallbackSettings 财产. 与字体回退机制相关的设置 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/fontsettings/fallbacksettings/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fonts/fontsettings/fallbacksettings/
 public FontFallbackSettings FallbackSettings { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何跨 Unicode 字符代码范围分发后备字体。
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.pdf");
 
 * class [FontFallbackSettings](../../fontfallbacksettings/)
 * class [FontSettings](../)
-* 命名空间 [Aspose.Words.Fonts](../../fontsettings/)
+* 命名空间 [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * 部件 [Aspose.Words](../../../)
-
-

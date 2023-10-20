@@ -1,7 +1,9 @@
 ---
 title: FieldMacroButton.DisplayText
-second_title: Aspose.Words per .NET API Reference
-description: FieldMacroButton proprietà. Ottiene o imposta il testo da visualizzare come pulsante selezionato per eseguire la macro o il comando.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words per .NET
+description: FieldMacroButton DisplayText proprietà. Ottiene o imposta il testo da visualizzare come pulsante selezionato per eseguire la macro o il comando in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldmacrobutton/displaytext/
@@ -14,7 +16,7 @@ Ottiene o imposta il testo da visualizzare come "pulsante" selezionato per esegu
 public string DisplayText { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare i campi MACROBUTTON per consentirci di eseguire le macro di un documento facendo clic.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 ### Guarda anche
 
 * class [FieldMacroButton](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fieldmacrobutton/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

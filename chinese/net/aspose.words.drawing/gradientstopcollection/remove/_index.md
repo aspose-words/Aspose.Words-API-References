@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.Remove
-second_title: Aspose.Words for .NET API 参考
-description: GradientStopCollection 方法. 删除指定的GradientStop来自集合.
+linktitle: Remove
+articleTitle: Remove
+second_title: 用于 .NET 的 Aspose.Words
+description: GradientStopCollection Remove 方法. 删除指定的GradientStop来自集合 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing/gradientstopcollection/remove/
@@ -18,7 +20,7 @@ public bool Remove(GradientStop gradientStop)
 
 `真的`如果梯度停止已成功移除，否则`错误的`。
 
-### 例子
+## 例子
 
 演示如何向渐变填充添加渐变停止点。
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* 命名空间 [Aspose.Words.Drawing](../../gradientstopcollection/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

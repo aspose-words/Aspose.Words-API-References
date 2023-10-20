@@ -1,7 +1,9 @@
 ---
 title: OleFormat.SourceItem
-second_title: Aspose.Words لمراجع .NET API
-description: OleFormat ملكية. الحصول على أو تعيين سلسلة يتم استخدامها لتحديد جزء الملف المصدر الذي يتم ربطه.
+linktitle: SourceItem
+articleTitle: SourceItem
+second_title: Aspose.Words لـ .NET
+description: OleFormat SourceItem ملكية. الحصول على أو تعيين سلسلة يتم استخدامها لتحديد جزء الملف المصدر الذي يتم ربطه في C#.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.drawing/oleformat/sourceitem/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.drawing/oleformat/sourceitem/
 public string SourceItem { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي سلسلة فارغة.
 
 على سبيل المثال، إذا كان الملف المصدر عبارة عن مصنف Microsoft Excel، فإن ملف`SourceItem` قد تقوم الخاصية بإرجاع "Workbook1!R3C1:R4C2" إذا كان كائن OLE يحتوي على عدد قليل فقط من الخلايا من ورقة العمل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج كائنات OLE المرتبطة وغير المرتبطة.
 
@@ -70,7 +72,5 @@ using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 ### أنظر أيضا
 
 * class [OleFormat](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../oleformat/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

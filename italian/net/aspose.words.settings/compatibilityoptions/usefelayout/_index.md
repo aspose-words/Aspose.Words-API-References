@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.UseFELayout
-second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Non ignorare il codice di layout degli script asiatici orientali/complessi.
+linktitle: UseFELayout
+articleTitle: UseFELayout
+second_title: Aspose.Words per .NET
+description: CompatibilityOptions UseFELayout proprietà. Non ignorare il codice di layout degli script asiatici orientali/complessi in C#.
 type: docs
 weight: 620
 url: /it/net/aspose.words.settings/compatibilityoptions/usefelayout/
@@ -17,7 +19,5 @@ public bool UseFELayout { get; set; }
 ### Guarda anche
 
 * class [CompatibilityOptions](../)
-* spazio dei nomi [Aspose.Words.Settings](../../compatibilityoptions/)
+* spazio dei nomi [Aspose.Words.Settings](../../../aspose.words.settings/)
 * assemblea [Aspose.Words](../../../)
-
-

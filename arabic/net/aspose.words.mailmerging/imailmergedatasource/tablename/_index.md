@@ -1,7 +1,9 @@
 ---
 title: IMailMergeDataSource.TableName
-second_title: Aspose.Words لمراجع .NET API
-description: IMailMergeDataSource ملكية. إرجاع اسم مصدر البيانات.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words لـ .NET
+description: IMailMergeDataSource TableName ملكية. إرجاع اسم مصدر البيانات في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.mailmerging/imailmergedatasource/tablename/
@@ -18,13 +20,13 @@ public string TableName { get; }
 
 اسم مصدر البيانات. سلسلة فارغة إذا لم يكن لمصدر البيانات اسم.
 
-### ملاحظات
+## ملاحظات
 
 إذا كنت تنفذ[`IMailMergeDataSource`](../)، قم بإرجاع اسم مصدر data من هذه الخاصية.
 
 يستخدم Aspose.Words هذا الاسم للمطابقة مع اسم منطقة دمج المراسلات المحدد في مستند القالب. المقارنة بين اسم مصدر البيانات و اسم منطقة دمج المراسلات ليست حساسة لحالة الأحرف.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ دمج البريد مع مصدر بيانات في شكل كائن مخصص.
 
@@ -138,7 +140,5 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
 ### أنظر أيضا
 
 * interface [IMailMergeDataSource](../)
-* مساحة الاسم [Aspose.Words.MailMerging](../../imailmergedatasource/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../../)
-
-

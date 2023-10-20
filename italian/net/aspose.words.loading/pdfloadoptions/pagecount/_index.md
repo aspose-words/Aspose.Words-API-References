@@ -1,7 +1,9 @@
 ---
 title: PdfLoadOptions.PageCount
-second_title: Aspose.Words per .NET API Reference
-description: PdfLoadOptions proprietà. Ottiene o imposta il numero di pagine da leggere. Limpostazione predefinita è MaxValue il che significa che verranno lette tutte le pagine del documento.
+linktitle: PageCount
+articleTitle: PageCount
+second_title: Aspose.Words per .NET
+description: PdfLoadOptions PageCount proprietà. Ottiene o imposta il numero di pagine da leggere. Limpostazione predefinita è MaxValue il che significa che verranno lette tutte le pagine del documento in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.loading/pdfloadoptions/pagecount/
@@ -17,7 +19,5 @@ public int PageCount { get; set; }
 ### Guarda anche
 
 * class [PdfLoadOptions](../)
-* spazio dei nomi [Aspose.Words.Loading](../../pdfloadoptions/)
+* spazio dei nomi [Aspose.Words.Loading](../../../aspose.words.loading/)
 * assemblea [Aspose.Words](../../../)
-
-

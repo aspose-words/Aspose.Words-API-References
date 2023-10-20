@@ -1,7 +1,9 @@
 ---
 title: InlineStory.Tables
-second_title: Aspose.Words för .NET API Referens
-description: InlineStory fast egendom. Får en samling tabeller som är omedelbara barn till berättelsen.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words för .NET
+description: InlineStory Tables fast egendom. Får en samling tabeller som är omedelbara barn till berättelsen i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/inlinestory/tables/
@@ -14,7 +16,7 @@ Får en samling tabeller som är omedelbara barn till berättelsen.
 public TableCollection Tables { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar InlineStory-noder.
 
@@ -74,7 +76,5 @@ doc.Save(ArtifactsDir + "InlineStory.InsertInlineStoryNodes.docx");
 
 * class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * class [InlineStory](../)
-* namnutrymme [Aspose.Words](../../inlinestory/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

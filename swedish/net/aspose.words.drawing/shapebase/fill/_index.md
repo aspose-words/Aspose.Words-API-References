@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Fill
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Får fyllningsformatering för formen.
+linktitle: Fill
+articleTitle: Fill
+second_title: Aspose.Words för .NET
+description: ShapeBase Fill fast egendom. Får fyllningsformatering för formen i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.drawing/shapebase/fill/
@@ -14,7 +16,7 @@ Får fyllningsformatering för formen.
 public Fill Fill { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man fyller en form med enfärgad.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 
 * class [Fill](../../fill/)
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

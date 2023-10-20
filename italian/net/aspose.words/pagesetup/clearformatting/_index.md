@@ -1,7 +1,9 @@
 ---
 title: PageSetup.ClearFormatting
-second_title: Aspose.Words per .NET API Reference
-description: PageSetup metodo. Ripristina limpostazione della pagina sul formato carta sui margini e sullorientamento predefiniti.
+linktitle: ClearFormatting
+articleTitle: ClearFormatting
+second_title: Aspose.Words per .NET
+description: PageSetup ClearFormatting metodo. Ripristina limpostazione della pagina sul formato carta sui margini e sullorientamento predefiniti in C#.
 type: docs
 weight: 460
 url: /it/net/aspose.words/pagesetup/clearformatting/
@@ -14,7 +16,7 @@ Ripristina l'impostazione della pagina sul formato carta, sui margini e sull'ori
 public void ClearFormatting()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare e ripristinare le impostazioni di impostazione della pagina nelle sezioni di un documento.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 ### Guarda anche
 
 * class [PageSetup](../)
-* spazio dei nomi [Aspose.Words](../../pagesetup/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

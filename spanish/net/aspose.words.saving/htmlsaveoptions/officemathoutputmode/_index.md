@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.OfficeMathOutputMode
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Controla cómo se exportan los objetos de OfficeMath a HTML MHTML o EPUB. El valor predeterminado esImage .
+linktitle: OfficeMathOutputMode
+articleTitle: OfficeMathOutputMode
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions OfficeMathOutputMode propiedad. Controla cómo se exportan los objetos de OfficeMath a HTML MHTML o EPUB. El valor predeterminado esImage  en C#.
 type: docs
 weight: 400
 url: /es/net/aspose.words.saving/htmlsaveoptions/officemathoutputmode/
@@ -14,7 +16,7 @@ Controla cómo se exportan los objetos de OfficeMath a HTML, MHTML o EPUB. El va
 public HtmlOfficeMathOutputMode OfficeMathOutputMode { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo especificar cómo exportar objetos de Microsoft OfficeMath a HTML.
 
@@ -70,7 +72,5 @@ switch (htmlOfficeMathOutputMode)
 
 * enum [HtmlOfficeMathOutputMode](../../htmlofficemathoutputmode/)
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

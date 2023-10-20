@@ -1,7 +1,9 @@
 ---
 title: List.HasSameTemplate
-second_title: Справочник по API Aspose.Words для .NET
-description: List метод. Возвращает true если текущий список и данный список созданы на основе одного и того же шаблона.
+linktitle: HasSameTemplate
+articleTitle: HasSameTemplate
+second_title: Aspose.Words для .NET
+description: List HasSameTemplate метод. Возвращает true если текущий список и данный список созданы на основе одного и того же шаблона на С#.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.lists/list/hassametemplate/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.lists/list/hassametemplate/
 public bool HasSameTemplate(List other)
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как определять списки с одинаковым ListDefId.
 
@@ -28,7 +30,5 @@ Assert.False(doc.Lists[1].HasSameTemplate(doc.Lists[2]));
 ### Смотрите также
 
 * class [List](../)
-* пространство имен [Aspose.Words.Lists](../../list/)
+* пространство имен [Aspose.Words.Lists](../../../aspose.words.lists/)
 * сборка [Aspose.Words](../../../)
-
-

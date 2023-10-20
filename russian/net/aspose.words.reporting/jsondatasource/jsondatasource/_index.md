@@ -1,12 +1,14 @@
 ---
-title: JsonDataSource.JsonDataSource
-second_title: Справочник по API Aspose.Words для .NET
-description: JsonDataSource строитель. Создает новый источник данных с данными из файла JSON используя параметры по умолчанию для анализа данных JSON.
+title: JsonDataSource
+linktitle: JsonDataSource
+articleTitle: JsonDataSource
+second_title: Aspose.Words для .NET
+description: JsonDataSource строитель. Создает новый источник данных с данными из файла JSON используя параметры по умолчанию для анализа данных JSON на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.reporting/jsondatasource/jsondatasource/
 ---
-## JsonDataSource(string) {#constructor_2}
+## JsonDataSource(*string*) {#constructor_2}
 
 Создает новый источник данных с данными из файла JSON, используя параметры по умолчанию для анализа данных JSON.
 
@@ -21,12 +23,12 @@ public JsonDataSource(string jsonPath)
 ### Смотрите также
 
 * class [JsonDataSource](../)
-* пространство имен [Aspose.Words.Reporting](../../jsondatasource/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## JsonDataSource(Stream) {#constructor}
+## JsonDataSource(*Stream*) {#constructor}
 
 Создает новый источник данных с данными из потока JSON, используя параметры по умолчанию для анализа данных JSON.
 
@@ -41,12 +43,12 @@ public JsonDataSource(Stream jsonStream)
 ### Смотрите также
 
 * class [JsonDataSource](../)
-* пространство имен [Aspose.Words.Reporting](../../jsondatasource/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## JsonDataSource(string, JsonDataLoadOptions) {#constructor_3}
+## JsonDataSource(*string, [JsonDataLoadOptions](../../jsondataloadoptions/)*) {#constructor_3}
 
 Создает новый источник данных с данными из файла JSON, используя указанные параметры анализа данных JSON.
 
@@ -63,12 +65,12 @@ public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
 
 * class [JsonDataLoadOptions](../../jsondataloadoptions/)
 * class [JsonDataSource](../)
-* пространство имен [Aspose.Words.Reporting](../../jsondatasource/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## JsonDataSource(Stream, JsonDataLoadOptions) {#constructor_1}
+## JsonDataSource(*Stream, [JsonDataLoadOptions](../../jsondataloadoptions/)*) {#constructor_1}
 
 Создает новый источник данных с данными из потока JSON, используя указанные параметры анализа данных JSON.
 
@@ -85,7 +87,5 @@ public JsonDataSource(Stream jsonStream, JsonDataLoadOptions options)
 
 * class [JsonDataLoadOptions](../../jsondataloadoptions/)
 * class [JsonDataSource](../)
-* пространство имен [Aspose.Words.Reporting](../../jsondatasource/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
-
-

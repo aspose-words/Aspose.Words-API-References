@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.DistanceLeft
-second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Gibt den Abstand in Punkten zwischen dem Dokumenttext und dem linken Rand der Form zurück oder legt ihn fest.
+linktitle: DistanceLeft
+articleTitle: DistanceLeft
+second_title: Aspose.Words für .NET
+description: ShapeBase DistanceLeft eigendom. Gibt den Abstand in Punkten zwischen dem Dokumenttext und dem linken Rand der Form zurück oder legt ihn fest in C#.
 type: docs
 weight: 140
 url: /de/net/aspose.words.drawing/shapebase/distanceleft/
@@ -14,13 +16,13 @@ Gibt den Abstand (in Punkten) zwischen dem Dokumenttext und dem linken Rand der 
 public double DistanceLeft { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist 1/8 Zoll.
 
 Hat nur Auswirkungen auf Formen der obersten Ebene.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Umbruchabstand für einen Text festgelegt wird, der eine Form umgibt.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Shape.Coordinates.docx");
 ### Siehe auch
 
 * class [ShapeBase](../)
-* namensraum [Aspose.Words.Drawing](../../shapebase/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

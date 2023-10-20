@@ -1,7 +1,9 @@
 ---
 title: Document.MailMergeSettings
-second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Hämtar eller ställer in objektet som innehåller all kopplingsinformation för ett dokument.
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words för .NET
+description: Document MailMergeSettings fast egendom. Hämtar eller ställer in objektet som innehåller all kopplingsinformation för ett dokument i C#.
 type: docs
 weight: 270
 url: /sv/net/aspose.words/document/mailmergesettings/
@@ -14,13 +16,13 @@ Hämtar eller ställer in objektet som innehåller all kopplingsinformation för
 public MailMergeSettings MailMergeSettings { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Du kan använda det här objektet för att ange en kopplingsdatakälla för ett dokument och denna information (tillsammans med de tillgängliga datafälten) kommer att visas i Microsoft Word när användaren öppnar det här dokumentet. Eller så kan du använda det här objektet för att fråga inställningar för koppling av brev som användaren har angett i Microsoft Word för detta dokument.
 
 Detta objekt är aldrig`null`.
 
-### Exempel
+## Exempel
 
 Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [MailMergeSettings](../../../aspose.words.settings/mailmergesettings/)
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

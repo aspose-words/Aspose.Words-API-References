@@ -1,7 +1,9 @@
 ---
 title: FieldTA.IsItalic
-second_title: Aspose.Words لمراجع .NET API
-description: FieldTA ملكية. الحصول على أو تعيين ما إذا كان سيتم تطبيق التنسيق المائل على رقم الصفحة للإدخال.
+linktitle: IsItalic
+articleTitle: IsItalic
+second_title: Aspose.Words لـ .NET
+description: FieldTA IsItalic ملكية. الحصول على أو تعيين ما إذا كان سيتم تطبيق التنسيق المائل على رقم الصفحة للإدخال في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldta/isitalic/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldta/isitalic/
 public bool IsItalic { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء جدول المراجع المصدقة وتخصيصه باستخدام حقلي TOA وTA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### أنظر أيضا
 
 * class [FieldTA](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldta/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

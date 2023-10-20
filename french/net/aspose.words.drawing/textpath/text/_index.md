@@ -1,7 +1,9 @@
 ---
 title: TextPath.Text
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextPath propriété. Définit le texte du chemin de texte.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words pour .NET
+description: TextPath Text propriété. Définit le texte du chemin de texte en C#.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.drawing/textpath/text/
@@ -14,11 +16,11 @@ Définit le texte du chemin de texte.
 public string Text { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est une chaîne vide.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Voir également
 
 * class [TextPath](../)
-* espace de noms [Aspose.Words.Drawing](../../textpath/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

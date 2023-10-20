@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Clone
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlSchemaCollection метод. Делает глубокую копию этого объекта.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words для .NET
+description: CustomXmlSchemaCollection Clone метод. Делает глубокую копию этого объекта на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.markup/customxmlschemacollection/clone/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.markup/customxmlschemacollection/clone/
 public CustomXmlSchemaCollection Clone()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией схем XML.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Смотрите также
 
 * class [CustomXmlSchemaCollection](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlschemacollection/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

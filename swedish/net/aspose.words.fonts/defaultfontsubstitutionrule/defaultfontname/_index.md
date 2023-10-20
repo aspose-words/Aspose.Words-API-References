@@ -1,7 +1,9 @@
 ---
 title: DefaultFontSubstitutionRule.DefaultFontName
-second_title: Aspose.Words för .NET API Referens
-description: DefaultFontSubstitutionRule fast egendom. Hämtar eller ställer in standardteckensnittsnamnet.
+linktitle: DefaultFontName
+articleTitle: DefaultFontName
+second_title: Aspose.Words för .NET
+description: DefaultFontSubstitutionRule DefaultFontName fast egendom. Hämtar eller ställer in standardteckensnittsnamnet i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/
@@ -14,11 +16,11 @@ Hämtar eller ställer in standardteckensnittsnamnet.
 public string DefaultFontName { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är 'Times New Roman'.
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in standardregeln för teckensnittsersättning.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontName.pdf");
 ### Se även
 
 * class [DefaultFontSubstitutionRule](../)
-* namnutrymme [Aspose.Words.Fonts](../../defaultfontsubstitutionrule/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

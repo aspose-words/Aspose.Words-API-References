@@ -1,20 +1,22 @@
 ---
 title: SignatureLineOptions.Email
-second_title: Aspose.Words per .NET API Reference
-description: SignatureLineOptions proprietà. Ottiene o imposta lindirizzo email del firmatario suggerito. Il valore predefinito per questa proprietà è stringa vuota Empty.
+linktitle: Email
+articleTitle: Email
+second_title: Aspose.Words per .NET
+description: SignatureLineOptions Email proprietà. Ottiene o imposta lindirizzo email del firmatario suggerito. Il valore predefinito per questa proprietà èstringa vuota Empty in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-Ottiene o imposta l'indirizzo e-mail del firmatario suggerito. Il valore predefinito per questa proprietà è **stringa vuota** (Empty).
+Ottiene o imposta l'indirizzo e-mail del firmatario suggerito. Il valore predefinito per questa proprietà è**stringa vuota** (Empty).
 
 ```csharp
 public string Email { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come firmare un documento con un certificato personale e una riga per la firma.
 
@@ -67,7 +69,5 @@ Assert.True(signatureLine.IsValid);
 ### Guarda anche
 
 * class [SignatureLineOptions](../)
-* spazio dei nomi [Aspose.Words](../../signaturelineoptions/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

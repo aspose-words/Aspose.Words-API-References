@@ -1,7 +1,9 @@
 ---
-title: Class FieldPrintDate
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldPrintDate klass. Implementerar fältet PRINTDATE.
+title: FieldPrintDate Class
+linktitle: FieldPrintDate
+articleTitle: FieldPrintDate
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldPrintDate klass. Implementerar fältet PRINTDATE i C#.
 type: docs
 weight: 2290
 url: /sv/net/aspose.words.fields/fieldprintdate/
@@ -45,17 +47,17 @@ public class FieldPrintDate : Field
 | namn | Beskrivning |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
-### Anmärkningar
+## Anmärkningar
 
 Hämtar datum och tid då dokumentet senast skrevs ut. Som standard används den gregorianska kalendern.
 
-### Exempel
+## Exempel
 
 Visar läs PRINTDATE-fält.
 
@@ -99,5 +101,3 @@ Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
 * class [Field](../field/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

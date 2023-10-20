@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.Rectangle
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutEnumerator eigendom. Gibt das umschließende Rechteck des aktuellen Elements relativ zur oberen linken Ecke der Seite zurück in Punkten.
+linktitle: Rectangle
+articleTitle: Rectangle
+second_title: Aspose.Words für .NET
+description: LayoutEnumerator Rectangle eigendom. Gibt das umschließende Rechteck des aktuellen Elements relativ zur oberen linken Ecke der Seite zurück in Punkten in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.layout/layoutenumerator/rectangle/
@@ -14,7 +16,7 @@ Gibt das umschließende Rechteck des aktuellen Elements relativ zur oberen linke
 public RectangleF Rectangle { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten zum Durchlaufen der Layoutelemente eines Dokuments.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Siehe auch
 
 * class [LayoutEnumerator](../)
-* namensraum [Aspose.Words.Layout](../../layoutenumerator/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

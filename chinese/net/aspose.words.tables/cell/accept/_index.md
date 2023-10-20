@@ -1,7 +1,9 @@
 ---
 title: Cell.Accept
-second_title: Aspose.Words for .NET API 参考
-description: Cell 方法. 接受访客
+linktitle: Accept
+articleTitle: Accept
+second_title: 用于 .NET 的 Aspose.Words
+description: Cell Accept 方法. 接受访客 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.tables/cell/accept/
@@ -22,7 +24,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../../aspose.words/documentvisitor/)在访问所有节点之前停止操作。
 
-### 评论
+## 评论
 
 枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../../aspose.words/documentvisitor/)。
 
@@ -30,7 +32,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 通话[`VisitCellStart`](../../../aspose.words/documentvisitor/visitcellstart/)，然后调用[`Accept`](../../../aspose.words/node/accept/)对于section 的所有子节点并调用[`VisitCellEnd`](../../../aspose.words/documentvisitor/visitcellend/)最后.
 
-### 例子
+## 例子
 
 演示如何打印文档中每个表的节点结构。
 
@@ -194,7 +196,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * class [Cell](../)
-* 命名空间 [Aspose.Words.Tables](../../cell/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

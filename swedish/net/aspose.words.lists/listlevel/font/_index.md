@@ -1,7 +1,9 @@
 ---
 title: ListLevel.Font
-second_title: Aspose.Words för .NET API Referens
-description: ListLevel fast egendom. Anger teckenformatering som används för listetiketten.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words för .NET
+description: ListLevel Font fast egendom. Anger teckenformatering som används för listetiketten i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.lists/listlevel/font/
@@ -14,7 +16,7 @@ Anger teckenformatering som används för listetiketten.
 public Font Font { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ListLevel](../)
-* namnutrymme [Aspose.Words.Lists](../../listlevel/)
+* namnutrymme [Aspose.Words.Lists](../../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../../)
-
-

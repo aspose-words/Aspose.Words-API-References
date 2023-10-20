@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.UseLegacyOrder
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. True 表示考虑文本框从上到下顺序执行文本搜索 默认值为错误的.
+linktitle: UseLegacyOrder
+articleTitle: UseLegacyOrder
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions UseLegacyOrder 财产. True 表示考虑文本框从上到下顺序执行文本搜索 默认值为错误的 在 C#.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
@@ -14,7 +16,7 @@ True 表示考虑文本框从上到下顺序执行文本搜索。 默认值为`�
 public bool UseLegacyOrder { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在执行查找和替换文本操作时更改节点的搜索顺序。
 
@@ -71,7 +73,5 @@ private class TextReplacementTracker : IReplacingCallback
 ### 也可以看看
 
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

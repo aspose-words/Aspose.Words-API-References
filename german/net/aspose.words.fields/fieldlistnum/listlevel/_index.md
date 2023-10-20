@@ -1,7 +1,9 @@
 ---
 title: FieldListNum.ListLevel
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldListNum eigendom. Ruft die Ebene in der Liste ab oder legt sie fest und überschreibt dabei das Standardverhalten des Felds.
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: Aspose.Words für .NET
+description: FieldListNum ListLevel eigendom. Ruft die Ebene in der Liste ab oder legt sie fest und überschreibt dabei das Standardverhalten des Felds in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldlistnum/listlevel/
@@ -14,7 +16,7 @@ Ruft die Ebene in der Liste ab oder legt sie fest und überschreibt dabei das St
 public string ListLevel { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Absätze mit LISTNUM-Feldern nummeriert werden.
 
@@ -84,7 +86,5 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 ### Siehe auch
 
 * class [FieldListNum](../)
-* namensraum [Aspose.Words.Fields](../../fieldlistnum/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

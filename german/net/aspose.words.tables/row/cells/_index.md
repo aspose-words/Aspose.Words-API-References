@@ -1,7 +1,9 @@
 ---
 title: Row.Cells
-second_title: Aspose.Words für .NET-API-Referenz
-description: Row eigendom. Bietet typisierten Zugriff aufCell Unterknoten der Zeile.
+linktitle: Cells
+articleTitle: Cells
+second_title: Aspose.Words für .NET
+description: Row Cells eigendom. Bietet typisierten Zugriff aufCell Unterknoten der Zeile in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.tables/row/cells/
@@ -14,7 +16,7 @@ Bietet typisierten Zugriff auf[`Cell`](../../cell/) Unterknoten der Zeile.
 public CellCollection Cells { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt werden.
 
@@ -61,7 +63,5 @@ for (int i = 0; i < tables.Count; i++)
 
 * class [CellCollection](../../cellcollection/)
 * class [Row](../)
-* namensraum [Aspose.Words.Tables](../../row/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListFormat.List
-second_title: Aspose.Words for .NET API 参考
-description: ListFormat 财产. 获取或设置此段落所属的列表
+linktitle: List
+articleTitle: List
+second_title: 用于 .NET 的 Aspose.Words
+description: ListFormat List 财产. 获取或设置此段落所属的列表 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.lists/listformat/list/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.lists/listformat/list/
 public List List { get; set; }
 ```
 
-### 评论
+## 评论
 
 分配给该属性的列表必须属于当前文档。
 
@@ -22,7 +24,7 @@ public List List { get; set; }
 
 将此属性设置为`无效的`从paragraph 中删除项目符号和编号并将列表级别编号设置为零。将此属性设置为`无效的`相当于 调用[`RemoveNumbers`](../removenumbers/)。
 
-### 例子
+## 例子
 
 演示如何将一个列表嵌套在另一个列表中。
 
@@ -125,7 +127,5 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 * class [List](../../list/)
 * class [ListFormat](../)
-* 命名空间 [Aspose.Words.Lists](../../listformat/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

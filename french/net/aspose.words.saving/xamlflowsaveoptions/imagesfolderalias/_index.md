@@ -1,7 +1,9 @@
 ---
 title: XamlFlowSaveOptions.ImagesFolderAlias
-second_title: Référence de l'API Aspose.Words pour .NET
-description: XamlFlowSaveOptions propriété. Spécifie le nom du dossier utilisé pour construire les URI dimage écrits dans un document XAML. La valeur par défaut est une chaîne vide.
+linktitle: ImagesFolderAlias
+articleTitle: ImagesFolderAlias
+second_title: Aspose.Words pour .NET
+description: XamlFlowSaveOptions ImagesFolderAlias propriété. Spécifie le nom du dossier utilisé pour construire les URI dimage écrits dans un document XAML. La valeur par défaut est une chaîne vide en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/xamlflowsaveoptions/imagesfolderalias/
@@ -14,7 +16,7 @@ Spécifie le nom du dossier utilisé pour construire les URI d'image écrits dan
 public string ImagesFolderAlias { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Lorsque vous enregistrez un[`Document`](../../../aspose.words/document/) au format XAML, Aspose.Words doit enregistrer toutes les images intégrées dans le document en tant que fichiers autonomes.[`ImagesFolder`](../imagesfolder/) permet de préciser où les images seront enregistrées et`ImagesFolderAlias` permet de spécifier comment les URI des images seront construites.
 
@@ -24,7 +26,7 @@ Si`ImagesFolderAlias`est une chaîne vide, alors l'URI de l'image écrite en XAM
 
 Si`ImagesFolderAlias` est réglé sur '.' (point), le nom du fichier image sera écrit en XAML sans chemin, quelles que soient les autres options.
 
-### Exemples
+## Exemples
 
 Montre comment imprimer les noms de fichiers des images liées créées lors de la conversion d'un document en .xaml sous forme de flux.
 
@@ -90,7 +92,5 @@ private class ImageUriPrinter : IImageSavingCallback
 ### Voir également
 
 * class [XamlFlowSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../xamlflowsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TabStop.Leader
-second_title: Aspose.Words per .NET API Reference
-description: TabStop proprietà. Ottiene o imposta il tipo di linea guida visualizzata sotto il carattere di tabulazione.
+linktitle: Leader
+articleTitle: Leader
+second_title: Aspose.Words per .NET
+description: TabStop Leader proprietà. Ottiene o imposta il tipo di linea guida visualizzata sotto il carattere di tabulazione in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/tabstop/leader/
@@ -14,7 +16,7 @@ Ottiene o imposta il tipo di linea guida visualizzata sotto il carattere di tabu
 public TabLeader Leader { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come modificare la posizione della tabulazione destra nei paragrafi relativi al sommario.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 
 * enum [TabLeader](../../tableader/)
 * class [TabStop](../)
-* spazio dei nomi [Aspose.Words](../../tabstop/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class Font
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Font classe. Contient les attributs de police nom de police taille de police couleur etc. pour un objet.
+title: Font Class
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Font classe. Contient les attributs de police nom de police taille de police couleur etc. pour un objet en C#.
 type: docs
 weight: 2830
 url: /fr/net/aspose.words/font/
@@ -80,13 +82,13 @@ public class Font
 | Nom | La description |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/font/clearformatting/)() | Réinitialise le formatage de police par défaut. |
-| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(TextDmlEffect) | Vérifie si un effet de texte DrawingML particulier est appliqué. |
+| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(*[TextDmlEffect](../textdmleffect/)*) | Vérifie si un effet de texte DrawingML particulier est appliqué. |
 
-### Remarques
+## Remarques
 
 Vous ne créez pas d'instances de`Font`classe directement. Vous utilisez simplement `Font` pour accéder aux propriétés de police des différents objets tels que[`Run`](../run/) , [`Paragraph`](../paragraph/) ,[`Style`](../style/) ,[`DocumentBuilder`](../documentbuilder/).
 
-### Exemples
+## Exemples
 
 Montre comment formater une séquence de texte à l’aide de sa propriété font.
 
@@ -149,5 +151,3 @@ builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 
 * espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
-
-

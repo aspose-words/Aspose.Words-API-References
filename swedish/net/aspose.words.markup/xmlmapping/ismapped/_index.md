@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.IsMapped
-second_title: Aspose.Words för .NET API Referens
-description: XmlMapping fast egendom. ReturnerarSann om den överordnade strukturerade dokumenttaggen har mappats till XMLdata.
+linktitle: IsMapped
+articleTitle: IsMapped
+second_title: Aspose.Words för .NET
+description: XmlMapping IsMapped fast egendom. ReturnerarSann om den överordnade strukturerade dokumenttaggen har mappats till XMLdata i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/xmlmapping/ismapped/
@@ -14,7 +16,7 @@ Returnerar`Sann` om den överordnade strukturerade dokumenttaggen har mappats ti
 public bool IsMapped { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in XML-mappningar för anpassade XML-delar.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Se även
 
 * class [XmlMapping](../)
-* namnutrymme [Aspose.Words.Markup](../../xmlmapping/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

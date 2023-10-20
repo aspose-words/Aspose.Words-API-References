@@ -1,7 +1,9 @@
 ---
 title: TaskPane.WebExtension
-second_title: Aspose.Words for .NET API 参考
-description: TaskPane 财产. 表示 Web 扩展对象
+linktitle: WebExtension
+articleTitle: WebExtension
+second_title: 用于 .NET 的 Aspose.Words
+description: TaskPane WebExtension 财产. 表示 Web 扩展对象 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.webextensions/taskpane/webextension/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.webextensions/taskpane/webextension/
 public WebExtension WebExtension { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何向文档添加 Web 扩展。
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * class [WebExtension](../../webextension/)
 * class [TaskPane](../)
-* 命名空间 [Aspose.Words.WebExtensions](../../taskpane/)
+* 命名空间 [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * 部件 [Aspose.Words](../../../)
-
-

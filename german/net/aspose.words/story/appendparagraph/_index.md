@@ -1,7 +1,9 @@
 ---
 title: Story.AppendParagraph
-second_title: Aspose.Words für .NET-API-Referenz
-description: Story methode. Eine Verknüpfungsmethode die eine erstelltParagraph Objekt mit optionalem Text und hängt ihn am Ende dieses Objekts an.
+linktitle: AppendParagraph
+articleTitle: AppendParagraph
+second_title: Aspose.Words für .NET
+description: Story AppendParagraph methode. Eine Verknüpfungsmethode die eine erstelltParagraph Objekt mit optionalem Text und hängt ihn am Ende dieses Objekts an in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words/story/appendparagraph/
@@ -22,7 +24,7 @@ public Paragraph AppendParagraph(string text)
 
 Der neu erstellte und angehängte Absatz.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie eine Kopf- und Fußzeile erstellt wird.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* namensraum [Aspose.Words](../../story/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

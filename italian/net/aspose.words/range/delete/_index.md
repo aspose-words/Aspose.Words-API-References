@@ -1,7 +1,9 @@
 ---
 title: Range.Delete
-second_title: Aspose.Words per .NET API Reference
-description: Range metodo. Cancella tutti i caratteri dellintervallo.
+linktitle: Delete
+articleTitle: Delete
+second_title: Aspose.Words per .NET
+description: Range Delete metodo. Cancella tutti i caratteri dellintervallo in C#.
 type: docs
 weight: 70
 url: /it/net/aspose.words/range/delete/
@@ -14,7 +16,7 @@ Cancella tutti i caratteri dell'intervallo.
 public void Delete()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come eliminare tutti i nodi da un intervallo.
 
@@ -40,7 +42,5 @@ Assert.AreEqual("Section 2.", doc.GetText().Trim());
 ### Guarda anche
 
 * class [Range](../)
-* spazio dei nomi [Aspose.Words](../../range/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

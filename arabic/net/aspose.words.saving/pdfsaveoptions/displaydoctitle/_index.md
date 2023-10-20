@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DisplayDocTitle
-second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. علامة تحدد ما إذا كان شريط عنوان النافذة يجب أن يعرض عنوان المستند المأخوذ من مدخل العنوان في قاموس معلومات المستند.
+linktitle: DisplayDocTitle
+articleTitle: DisplayDocTitle
+second_title: Aspose.Words لـ .NET
+description: PdfSaveOptions DisplayDocTitle ملكية. علامة تحدد ما إذا كان شريط عنوان النافذة يجب أن يعرض عنوان المستند المأخوذ من مدخل العنوان في قاموس معلومات المستند في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.saving/pdfsaveoptions/displaydoctitle/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/pdfsaveoptions/displaydoctitle/
 public bool DisplayDocTitle { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لو`خطأ شنيع`، يجب أن يعرض شريط العنوان بدلاً من ذلك اسم ملف PDF الذي يحتوي على المستند.
 
@@ -22,7 +24,7 @@ public bool DisplayDocTitle { get; set; }
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية عرض عنوان المستند كشريط العنوان.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DocTitle.pdf", pdfSaveOptions);
 ### أنظر أيضا
 
 * class [PdfSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../pdfsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

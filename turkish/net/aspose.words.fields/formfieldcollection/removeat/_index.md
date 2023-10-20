@@ -1,7 +1,9 @@
 ---
 title: FormFieldCollection.RemoveAt
-second_title: Aspose.Words for .NET API Referansı
-description: FormFieldCollection yöntem. Belirtilen dizindeki bir form alanını kaldırır.
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: Aspose.Words for .NET
+description: FormFieldCollection RemoveAt yöntem. Belirtilen dizindeki bir form alanını kaldırır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/formfieldcollection/removeat/
@@ -18,11 +20,11 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Kaldırılacak form alanının sıfır tabanlı dizini. |
 
-### Notlar
+## Notlar
 
 Form alanıyla ilişkilendirilmiş bir yer imi varsa yer imi kaldırılmaz.
 
-### Örnekler
+## Örnekler
 
 Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
 
@@ -156,7 +158,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [FormFieldCollection](../)
-* ad alanı [Aspose.Words.Fields](../../formfieldcollection/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

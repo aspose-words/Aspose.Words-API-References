@@ -1,7 +1,9 @@
 ---
 title: CsvDataLoadOptions.HasHeaders
-second_title: Aspose.Words for .NET API Referansı
-description: CsvDataLoadOptions mülk. CSV verilerinin ilk kaydının sütun adlarını içerip içermediğini belirten bir değer alır veya ayarlar.
+linktitle: HasHeaders
+articleTitle: HasHeaders
+second_title: Aspose.Words for .NET
+description: CsvDataLoadOptions HasHeaders mülk. CSV verilerinin ilk kaydının sütun adlarını içerip içermediğini belirten bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.reporting/csvdataloadoptions/hasheaders/
@@ -14,14 +16,12 @@ CSV verilerinin ilk kaydının sütun adlarını içerip içermediğini belirten
 public bool HasHeaders { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`YANLIŞ` .
 
 ### Ayrıca bakınız
 
 * class [CsvDataLoadOptions](../)
-* ad alanı [Aspose.Words.Reporting](../../csvdataloadoptions/)
+* ad alanı [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * toplantı [Aspose.Words](../../../)
-
-

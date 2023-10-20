@@ -1,7 +1,9 @@
 ---
 title: FieldCitation.VolumeNumber
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldCitation свойство. Получает или задает номер тома связанного с цитатой.
+linktitle: VolumeNumber
+articleTitle: VolumeNumber
+second_title: Aspose.Words для .NET
+description: FieldCitation VolumeNumber свойство. Получает или задает номер тома связанного с цитатой на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.fields/fieldcitation/volumenumber/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldcitation/volumenumber/
 public string VolumeNumber { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с полями ЦИТАТА и БИБЛИОГРАФИЯ.
 
@@ -68,7 +70,5 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ### Смотрите также
 
 * class [FieldCitation](../)
-* пространство имен [Aspose.Words.Fields](../../fieldcitation/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

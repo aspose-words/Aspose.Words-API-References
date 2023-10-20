@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.KeepTogether
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragraftaki tüm satırların aynı sayfada kalması gerekiyorsa doğrudur.
+linktitle: KeepTogether
+articleTitle: KeepTogether
+second_title: Aspose.Words for .NET
+description: ParagraphFormat KeepTogether mülk. Paragraftaki tüm satırların aynı sayfada kalması gerekiyorsa doğrudur C#'da.
 type: docs
 weight: 160
 url: /tr/net/aspose.words/paragraphformat/keeptogether/
@@ -14,7 +16,7 @@ Paragraftaki tüm satırların aynı sayfada kalması gerekiyorsa doğrudur.
 public bool KeepTogether { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgeye nasıl paragraf ekleneceğini gösterir.
 
@@ -46,7 +48,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

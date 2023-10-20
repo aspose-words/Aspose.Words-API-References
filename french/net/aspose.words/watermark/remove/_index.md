@@ -1,7 +1,9 @@
 ---
 title: Watermark.Remove
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Watermark méthode. Supprime le filigrane.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words pour .NET
+description: Watermark Remove méthode. Supprime le filigrane en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/watermark/remove/
@@ -14,7 +16,7 @@ Supprime le filigrane.
 public void Remove()
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer un filigrane de texte.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Voir également
 
 * class [Watermark](../)
-* espace de noms [Aspose.Words](../../watermark/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

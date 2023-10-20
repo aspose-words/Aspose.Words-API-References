@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportPageMargins
-second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger om sidmarginaler exporteras till HTML MHTML eller EPUB. Standard ärfalsk .
+linktitle: ExportPageMargins
+articleTitle: ExportPageMargins
+second_title: Aspose.Words för .NET
+description: HtmlSaveOptions ExportPageMargins fast egendom. Anger om sidmarginaler exporteras till HTML MHTML eller EPUB. Standard ärfalsk  i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
@@ -14,11 +16,11 @@ Anger om sidmarginaler exporteras till HTML, MHTML eller EPUB. Standard är`fals
 public bool ExportPageMargins { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Aspose.Words visar inte område med sidmarginaler som standard. Om några element är helt eller delvis klippta av dokumentkanten kan det visade området utökas med detta alternativ.
 
-### Exempel
+## Exempel
 
 Visar hur man visar out-of-bounds-objekt i utgående HTML-dokument.
 
@@ -63,7 +65,5 @@ else
 ### Se även
 
 * class [HtmlSaveOptions](../)
-* namnutrymme [Aspose.Words.Saving](../../htmlsaveoptions/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

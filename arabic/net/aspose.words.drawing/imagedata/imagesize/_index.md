@@ -1,7 +1,9 @@
 ---
 title: ImageData.ImageSize
-second_title: Aspose.Words لمراجع .NET API
-description: ImageData ملكية. الحصول على معلومات حول حجم الصورة ودقتها.
+linktitle: ImageSize
+articleTitle: ImageSize
+second_title: Aspose.Words لـ .NET
+description: ImageData ImageSize ملكية. الحصول على معلومات حول حجم الصورة ودقتها في C#.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.drawing/imagedata/imagesize/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/imagedata/imagesize/
 public ImageSize ImageSize { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا كانت الصورة مرتبطة فقط ولم يتم تخزينها في المستند، فسيتم إرجاع الحجم صفر.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير حجم الشكل باستخدام الصورة.
 
@@ -76,7 +78,5 @@ public ImageSize ImageSize { get; }
 
 * class [ImageSize](../../imagesize/)
 * class [ImageData](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../imagedata/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

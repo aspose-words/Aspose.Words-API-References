@@ -1,7 +1,9 @@
 ---
 title: FieldDde.ProgId
-second_title: Aspose.Words per .NET API Reference
-description: FieldDde proprietà. Ottiene o imposta il tipo di applicazione delle informazioni sul collegamento.
+linktitle: ProgId
+articleTitle: ProgId
+second_title: Aspose.Words per .NET
+description: FieldDde ProgId proprietà. Ottiene o imposta il tipo di applicazione delle informazioni sul collegamento in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.fields/fielddde/progid/
@@ -14,7 +16,7 @@ Ottiene o imposta il tipo di applicazione delle informazioni sul collegamento.
 public string ProgId { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare vari tipi di campo per collegarsi ad altri documenti nel file system locale e visualizzarne il contenuto.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Guarda anche
 
 * class [FieldDde](../)
-* spazio dei nomi [Aspose.Words.Fields](../../fielddde/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

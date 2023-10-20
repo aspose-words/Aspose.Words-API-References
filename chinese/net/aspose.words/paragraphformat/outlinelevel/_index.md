@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.OutlineLevel
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 指定文档中段落的大纲级别
+linktitle: OutlineLevel
+articleTitle: OutlineLevel
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat OutlineLevel 财产. 指定文档中段落的大纲级别 在 C#.
 type: docs
 weight: 250
 url: /zh/net/aspose.words/paragraphformat/outlinelevel/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/outlinelevel/
 public OutlineLevel OutlineLevel { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何配置段落大纲级别以创建可折叠文本。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphOutlineLevel.docx");
 
 * enum [OutlineLevel](../../outlinelevel/)
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

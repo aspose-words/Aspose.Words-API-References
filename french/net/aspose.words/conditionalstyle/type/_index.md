@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyle.Type
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ConditionalStyle propriété. Obtient la zone de tableau à laquelle ce style conditionnel se rapporte.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words pour .NET
+description: ConditionalStyle Type propriété. Obtient la zone de tableau à laquelle ce style conditionnel se rapporte en C#.
 type: docs
 weight: 90
 url: /fr/net/aspose.words/conditionalstyle/type/
@@ -14,7 +16,7 @@ Obtient la zone de tableau à laquelle ce style conditionnel se rapporte.
 public ConditionalStyleType Type { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec certains styles de zones d'un tableau.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * enum [ConditionalStyleType](../../conditionalstyletype/)
 * class [ConditionalStyle](../)
-* espace de noms [Aspose.Words](../../conditionalstyle/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

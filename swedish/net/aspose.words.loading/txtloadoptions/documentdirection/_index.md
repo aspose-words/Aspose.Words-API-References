@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.DocumentDirection
-second_title: Aspose.Words för .NET API Referens
-description: TxtLoadOptions fast egendom. Hämtar eller ställer in en dokumentriktning. Standardvärdet ärLeftToRight .
+linktitle: DocumentDirection
+articleTitle: DocumentDirection
+second_title: Aspose.Words för .NET
+description: TxtLoadOptions DocumentDirection fast egendom. Hämtar eller ställer in en dokumentriktning. Standardvärdet ärLeftToRight  i C#.
 type: docs
-weight: 50
+weight: 40
 url: /sv/net/aspose.words.loading/txtloadoptions/documentdirection/
 ---
 ## TxtLoadOptions.DocumentDirection property
@@ -14,7 +16,7 @@ Hämtar eller ställer in en dokumentriktning. Standardvärdet ärLeftToRight .
 public DocumentDirection DocumentDirection { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man upptäcker textriktning i klartextdokument.
 
@@ -43,7 +45,5 @@ Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 
 * enum [DocumentDirection](../../documentdirection/)
 * class [TxtLoadOptions](../)
-* namnutrymme [Aspose.Words.Loading](../../txtloadoptions/)
+* namnutrymme [Aspose.Words.Loading](../../../aspose.words.loading/)
 * hopsättning [Aspose.Words](../../../)
-
-

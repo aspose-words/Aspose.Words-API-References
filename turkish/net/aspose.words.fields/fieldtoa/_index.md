@@ -1,7 +1,9 @@
 ---
-title: Class FieldToa
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldToa sınıf. TOA alanını uygular.
+title: FieldToa Class
+linktitle: FieldToa
+articleTitle: FieldToa
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldToa sınıf. TOA alanını uygular C#'da.
 type: docs
 weight: 2520
 url: /tr/net/aspose.words.fields/fieldtoa/
@@ -52,17 +54,17 @@ public class FieldToa : Field
 | İsim | Tanım |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
-### Notlar
+## Notlar
 
 TA tarafından belirtilen girişlerini kullanarak bir yetki tablosu (yani yasal bir belgedeki davalara, tüzüklere ve kurallara yapılan referanslar gibi referansların bir listesi ve referansların göründüğü sayfa numaralarının bir listesi) oluşturur alanlar.
 
-### Örnekler
+## Örnekler
 
 TOA ve TA alanlarını kullanarak bir yetki tablosunun nasıl oluşturulacağını ve özelleştirileceğini gösterir.
 
@@ -187,5 +189,3 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 * class [Field](../field/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

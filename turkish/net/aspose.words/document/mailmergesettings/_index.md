@@ -1,7 +1,9 @@
 ---
 title: Document.MailMergeSettings
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bir belgeye ilişkin tüm adresmektup birleştirme bilgilerini içeren nesneyi alır veya ayarlar.
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words for .NET
+description: Document MailMergeSettings mülk. Bir belgeye ilişkin tüm adresmektup birleştirme bilgilerini içeren nesneyi alır veya ayarlar C#'da.
 type: docs
 weight: 270
 url: /tr/net/aspose.words/document/mailmergesettings/
@@ -14,13 +16,13 @@ Bir belgeye ilişkin tüm adres-mektup birleştirme bilgilerini içeren nesneyi 
 public MailMergeSettings MailMergeSettings { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu nesneyi bir belge için adres-mektup birleştirme veri kaynağı belirtmek için kullanabilirsiniz ve kullanıcı bu belgeyi açtığında bu information (mevcut veri alanlarıyla birlikte) Microsoft Word'de görünecektir. Veya bu nesneyi adres-mektup birleştirme ayarlarını sorgulamak için kullanabilirsiniz kullanıcının bu belge için Microsoft Word 'de belirttiği.
 
 Bu nesne asla`hükümsüz`.
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [MailMergeSettings](../../../aspose.words.settings/mailmergesettings/)
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

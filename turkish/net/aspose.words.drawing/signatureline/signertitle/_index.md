@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.SignerTitle
-second_title: Aspose.Words for .NET API Referansı
-description: SignatureLine mülk. Önerilen imzalayanın unvanını alır veya ayarlar örneğin Yönetici. Bu özellik için varsayılan değer boş dize Empty.
+linktitle: SignerTitle
+articleTitle: SignerTitle
+second_title: Aspose.Words for .NET
+description: SignatureLine SignerTitle mülk. Önerilen imzalayanın unvanını alır veya ayarlar örneğin Yönetici. Bu özellik için varsayılan değerboş dize Empty C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.drawing/signatureline/signertitle/
 ---
 ## SignatureLine.SignerTitle property
 
-Önerilen imzalayanın unvanını alır veya ayarlar (örneğin, Yönetici). Bu özellik için varsayılan değer: **boş dize** (Empty).
+Önerilen imzalayanın unvanını alır veya ayarlar (örneğin, Yönetici). Bu özellik için varsayılan değer:**boş dize** (Empty).
 
 ```csharp
 public string SignerTitle { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 İmza için nasıl satır oluşturulacağını ve bunun belgeye nasıl ekleneceğini gösterir.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Ayrıca bakınız
 
 * class [SignatureLine](../)
-* ad alanı [Aspose.Words.Drawing](../../signatureline/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomPart.IsExternal
-second_title: Aspose.Words för .NET API Referens
-description: CustomPart fast egendom. False om denna anpassade del lagras i OOXMLpaketet. Sant om den här anpassade delen är ett externt mål.
+linktitle: IsExternal
+articleTitle: IsExternal
+second_title: Aspose.Words för .NET
+description: CustomPart IsExternal fast egendom. False om denna anpassade del lagras i OOXMLpaketet. Sant om den här anpassade delen är ett externt mål i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.markup/custompart/isexternal/
@@ -14,11 +16,11 @@ False om denna anpassade del lagras i OOXML-paketet. Sant om den här anpassade 
 public bool IsExternal { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk`.
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
 
@@ -62,7 +64,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Se även
 
 * class [CustomPart](../)
-* namnutrymme [Aspose.Words.Markup](../../custompart/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

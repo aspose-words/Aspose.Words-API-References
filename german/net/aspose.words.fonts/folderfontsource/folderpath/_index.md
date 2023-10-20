@@ -1,7 +1,9 @@
 ---
 title: FolderFontSource.FolderPath
-second_title: Aspose.Words für .NET-API-Referenz
-description: FolderFontSource eigendom. Pfad zum Ordner.
+linktitle: FolderPath
+articleTitle: FolderPath
+second_title: Aspose.Words für .NET
+description: FolderFontSource FolderPath eigendom. Pfad zum Ordner in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fonts/folderfontsource/folderpath/
@@ -14,7 +16,7 @@ Pfad zum Ordner.
 public string FolderPath { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein lokaler Systemordner, der Schriftarten enthält, als Schriftartenquelle verwendet wird.
 
@@ -35,7 +37,5 @@ Assert.AreEqual(1, folderFontSource.Priority);
 ### Siehe auch
 
 * class [FolderFontSource](../)
-* namensraum [Aspose.Words.Fonts](../../folderfontsource/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetChildNodes
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompositeNode methode. Gibt eine LiveSammlung untergeordneter Knoten zurück die dem angegebenen Typ entsprechen.
+linktitle: GetChildNodes
+articleTitle: GetChildNodes
+second_title: Aspose.Words für .NET
+description: CompositeNode GetChildNodes methode. Gibt eine LiveSammlung untergeordneter Knoten zurück die dem angegebenen Typ entsprechen in C#.
 type: docs
-weight: 110
+weight: 90
 url: /de/net/aspose.words/compositenode/getchildnodes/
 ---
 ## CompositeNode.GetChildNodes method
@@ -23,13 +25,13 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 
 Eine Live-Sammlung untergeordneter Knoten des angegebenen Typs.
 
-### Bemerkungen
+## Bemerkungen
 
 Die von dieser Methode zurückgegebene Sammlung von Knoten ist immer aktiv.
 
 Eine Live-Sammlung ist immer mit dem Dokument synchronisiert. Wenn Sie beispielsweise alle Abschnitte in einem Dokument ausgewählt haben und die Sammlung aufzählen, indem Sie die Abschnitte löschen, wird der Abschnitt sofort aus der Sammlung entfernt, wenn er aus dem Dokument entfernt wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie alle Kommentare und Antworten eines Dokuments gedruckt werden.
 
@@ -171,7 +173,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 * class [NodeCollection](../../nodecollection/)
 * enum [NodeType](../../nodetype/)
 * class [CompositeNode](../)
-* namensraum [Aspose.Words](../../compositenode/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

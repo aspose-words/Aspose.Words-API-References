@@ -1,7 +1,9 @@
 ---
 title: TextPath.StrikeThrough
-second_title: Référence de l'API Aspose.Words pour .NET
-description: TextPath propriété. Vrai si la police est formatée en texte barré.
+linktitle: StrikeThrough
+articleTitle: StrikeThrough
+second_title: Aspose.Words pour .NET
+description: TextPath StrikeThrough propriété. Vrai si la police est formatée en texte barré en C#.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.drawing/textpath/strikethrough/
@@ -14,11 +16,11 @@ Vrai si la police est formatée en texte barré.
 public bool StrikeThrough { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`FAUX`.
 
-### Exemples
+## Exemples
 
 Montre comment travailler avec WordArt.
 
@@ -121,7 +123,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 ### Voir également
 
 * class [TextPath](../)
-* espace de noms [Aspose.Words.Drawing](../../textpath/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

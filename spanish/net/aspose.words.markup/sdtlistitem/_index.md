@@ -1,7 +1,9 @@
 ---
-title: Class SdtListItem
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Markup.SdtListItem clase. Este elemento especifica un único elemento de lista dentro de un elemento principalComboBox oDropDownList etiqueta de documento estructurado.
+title: SdtListItem Class
+linktitle: SdtListItem
+articleTitle: SdtListItem
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Markup.SdtListItem clase. Este elemento especifica un único elemento de lista dentro de un elemento principalComboBox oDropDownList etiqueta de documento estructurado en C#.
 type: docs
 weight: 4020
 url: /es/net/aspose.words.markup/sdtlistitem/
@@ -20,8 +22,8 @@ public class SdtListItem
 
 | Nombre | Descripción |
 | --- | --- |
-| [SdtListItem](sdtlistitem/#constructor)(string) | Inicializa una nueva instancia de esta clase. |
-| [SdtListItem](sdtlistitem/#constructor_1)(string, string) | Inicializa una nueva instancia de esta clase. |
+| [SdtListItem](sdtlistitem/#constructor)(*string*) | Inicializa una nueva instancia de esta clase. |
+| [SdtListItem](sdtlistitem/#constructor_1)(*string, string*) | Inicializa una nueva instancia de esta clase. |
 
 ## Propiedades
 
@@ -30,7 +32,7 @@ public class SdtListItem
 | [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext/) { get; } | Obtiene el texto que se mostrará en el contenido de la ejecución en lugar del[`Value`](./value/) Contenido del atributo para este elemento de la lista. |
 | [Value](../../aspose.words.markup/sdtlistitem/value/) { get; } | Obtiene el valor de este elemento de la lista. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con etiquetas de documentos estructurados de lista desplegable.
 
@@ -88,5 +90,3 @@ Assert.AreEqual(0, listItems.Count);
 
 * espacio de nombres [Aspose.Words.Markup](../../aspose.words.markup/)
 * asamblea [Aspose.Words](../../)
-
-

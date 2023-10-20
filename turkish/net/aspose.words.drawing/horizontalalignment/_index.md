@@ -1,7 +1,9 @@
 ---
-title: Enum HorizontalAlignment
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.HorizontalAlignment Sıralama. Kayan bir şeklin metin çerçevesinin veya kayan tablonun yatay hizalamasını belirtir.
+title: HorizontalAlignment Enum
+linktitle: HorizontalAlignment
+articleTitle: HorizontalAlignment
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Drawing.HorizontalAlignment Sıralama. Kayan bir şeklin metin çerçevesinin veya kayan tablonun yatay hizalamasını belirtir C#'da.
 type: docs
 weight: 1030
 url: /tr/net/aspose.words.drawing/horizontalalignment/
@@ -18,7 +20,7 @@ public enum HorizontalAlignment
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Nesne, genellikle kendi özelliği kullanılarak açıkça konumlandırılır. **Sol** özellik. |
+| None | `0` | Nesne, genellikle kendi özelliği kullanılarak açıkça konumlandırılır.**Sol** özellik. |
 | Default | `0` | Şununla aynıNone . |
 | Left | `1` | Nesnenin yatay hizalama tabanına göre sola hizalanacağını belirtir. |
 | Center | `2` | Nesnenin yatay hizalama tabanına göre ortalanacağını belirtir. |
@@ -26,7 +28,7 @@ public enum HorizontalAlignment
 | Inside | `4` | Nesnenin yatay hizalama tabanının içinde olacağını belirtir. |
 | Outside | `5` | Nesnenin yatay hizalama tabanının dışında olacağını belirtir. |
 
-### Örnekler
+## Örnekler
 
 Sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
 
@@ -51,5 +53,3 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 * property [HorizontalAlignment](../shapebase/horizontalalignment/)
 * ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Stroke.On
-second_title: Aspose.Words für .NET-API-Referenz
-description: Stroke eigendom. Definiert ob der Pfad gestrichen wird.
+linktitle: On
+articleTitle: On
+second_title: Aspose.Words für .NET
+description: Stroke On eigendom. Definiert ob der Pfad gestrichen wird in C#.
 type: docs
-weight: 150
+weight: 140
 url: /de/net/aspose.words.drawing/stroke/on/
 ---
 ## Stroke.On property
@@ -14,11 +16,11 @@ Definiert, ob der Pfad gestrichen wird.
 public bool On { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert für a[`Shape`](../../shape/) Ist`WAHR`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie sich die Stricheigenschaften ändern.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ### Siehe auch
 
 * class [Stroke](../)
-* namensraum [Aspose.Words.Drawing](../../stroke/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

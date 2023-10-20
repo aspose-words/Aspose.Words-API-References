@@ -1,7 +1,9 @@
 ---
 title: ChartXValue.FromString
-second_title: Aspose.Words لمراجع .NET API
-description: ChartXValue طريقة. إنشاء ملفChartXValue مثال علىString اكتب.
+linktitle: FromString
+articleTitle: FromString
+second_title: Aspose.Words لـ .NET
+description: ChartXValue FromString طريقة. إنشاء ملفChartXValue مثال علىString اكتب في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing.charts/chartxvalue/fromstring/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chartxvalue/fromstring/
 public static ChartXValue FromString(string value)
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة/إزالة قيم بيانات المخطط.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartDataValues.docx");
 ### أنظر أيضا
 
 * class [ChartXValue](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartxvalue/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

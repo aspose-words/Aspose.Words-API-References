@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.PageIndex
-second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutEnumerator eigendom. Ruft den 1basierten Index einer Seite ab die die aktuelle Entität enthält.
+linktitle: PageIndex
+articleTitle: PageIndex
+second_title: Aspose.Words für .NET
+description: LayoutEnumerator PageIndex eigendom. Ruft den 1basierten Index einer Seite ab die die aktuelle Entität enthält in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.layout/layoutenumerator/pageindex/
@@ -14,7 +16,7 @@ Ruft den 1-basierten Index einer Seite ab, die die aktuelle Entität enthält.
 public int PageIndex { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt Möglichkeiten zum Durchlaufen der Layoutelemente eines Dokuments.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Siehe auch
 
 * class [LayoutEnumerator](../)
-* namensraum [Aspose.Words.Layout](../../layoutenumerator/)
+* namensraum [Aspose.Words.Layout](../../../aspose.words.layout/)
 * Montage [Aspose.Words](../../../)
-
-

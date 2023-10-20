@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Name
-second_title: Aspose.Words per .NET API Reference
-description: FontInfo proprietà. Ottiene il nome del carattere.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words per .NET
+description: FontInfo Name proprietà. Ottiene il nome del carattere in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fonts/fontinfo/name/
@@ -14,11 +16,11 @@ Ottiene il nome del carattere.
 public string Name { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Non può essere`nullo`. Può essere una stringa vuota.
 
-### Esempi
+## Esempi
 
 Mostra come stampare i dettagli di quali caratteri sono presenti in un documento.
 
@@ -38,7 +40,5 @@ for (int i = 0; i < allFonts.Count; i++)
 ### Guarda anche
 
 * class [FontInfo](../)
-* spazio dei nomi [Aspose.Words.Fonts](../../fontinfo/)
+* spazio dei nomi [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../../)
-
-

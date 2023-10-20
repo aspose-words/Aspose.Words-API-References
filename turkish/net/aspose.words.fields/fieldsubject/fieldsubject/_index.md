@@ -1,7 +1,9 @@
 ---
-title: FieldSubject.FieldSubject
-second_title: Aspose.Words for .NET API Referansı
-description: FieldSubject inşaatçı. Default_Constructor
+title: FieldSubject
+linktitle: FieldSubject
+articleTitle: FieldSubject
+second_title: Aspose.Words for .NET
+description: FieldSubject inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldsubject/fieldsubject/
@@ -17,7 +19,5 @@ public FieldSubject()
 ### Ayrıca bakınız
 
 * class [FieldSubject](../)
-* ad alanı [Aspose.Words.Fields](../../fieldsubject/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

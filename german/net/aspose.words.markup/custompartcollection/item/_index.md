@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Item
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomPartCollection eigendom. Ruft ein Element am angegebenen Index ab oder legt es fest.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words für .NET
+description: CustomPartCollection Item eigendom. Ruft ein Element am angegebenen Index ab oder legt es fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/custompartcollection/item/
@@ -18,7 +20,7 @@ public CustomPart this[int index] { get; set; }
 | --- | --- |
 | index | Nullbasierter Index des Elements. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die beliebige benutzerdefinierte Teilesammlung eines Dokuments zugegriffen wird.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPart](../../custompart/)
 * class [CustomPartCollection](../)
-* namensraum [Aspose.Words.Markup](../../custompartcollection/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,20 +1,22 @@
 ---
 title: SignatureLine.Email
-second_title: Справочник по API Aspose.Words для .NET
-description: SignatureLine свойство. Получает или задает предлагаемый адрес электронной почты подписывающего лица. Значение по умолчанию для этого свойства пустая строка Empty.
+linktitle: Email
+articleTitle: Email
+second_title: Aspose.Words для .NET
+description: SignatureLine Email свойство. Получает или задает предлагаемый адрес электронной почты подписывающего лица. Значение по умолчанию для этого свойствапустая строка Empty на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing/signatureline/email/
 ---
 ## SignatureLine.Email property
 
-Получает или задает предлагаемый адрес электронной почты подписывающего лица. Значение по умолчанию для этого свойства: **пустая строка** (Empty).
+Получает или задает предлагаемый адрес электронной почты подписывающего лица. Значение по умолчанию для этого свойства:**пустая строка** (Empty).
 
 ```csharp
 public string Email { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать строку для подписи и вставить ее в документ.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Смотрите также
 
 * class [SignatureLine](../)
-* пространство имен [Aspose.Words.Drawing](../../signatureline/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

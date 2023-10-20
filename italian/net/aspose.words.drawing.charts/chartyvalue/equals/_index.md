@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.Equals
-second_title: Aspose.Words per .NET API Reference
-description: ChartYValue metodo. Ottiene un flag che indica se loggetto specificato è uguale alloggetto valore Y corrente.
+linktitle: Equals
+articleTitle: Equals
+second_title: Aspose.Words per .NET
+description: ChartYValue Equals metodo. Ottiene un flag che indica se loggetto specificato è uguale alloggetto valore Y corrente in C#.
 type: docs
 weight: 80
 url: /it/net/aspose.words.drawing.charts/chartyvalue/equals/
@@ -17,7 +19,5 @@ public override bool Equals(object obj)
 ### Guarda anche
 
 * class [ChartYValue](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

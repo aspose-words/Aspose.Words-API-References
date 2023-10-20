@@ -1,7 +1,9 @@
 ---
-title: AxisBound.AxisBound
-second_title: Aspose.Words per .NET API Reference
-description: AxisBound costruttore. Crea una nuova istanza che indica che il limite dellasse deve essere determinato automaticamente da unapplicazione di elaborazione testi .
+title: AxisBound
+linktitle: AxisBound
+articleTitle: AxisBound
+second_title: Aspose.Words per .NET
+description: AxisBound costruttore. Crea una nuova istanza che indica che il limite dellasse deve essere determinato automaticamente da unapplicazione di elaborazione testi  in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/axisbound/axisbound/
@@ -14,7 +16,7 @@ Crea una nuova istanza che indica che il limite dell'asse deve essere determinat
 public AxisBound()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come impostare i limiti degli assi personalizzati.
 
@@ -74,12 +76,12 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 ### Guarda anche
 
 * class [AxisBound](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../axisbound/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## AxisBound(double) {#constructor_1}
+## AxisBound(*double*) {#constructor_1}
 
 Crea un limite dell'asse rappresentato come un numero.
 
@@ -87,7 +89,7 @@ Crea un limite dell'asse rappresentato come un numero.
 public AxisBound(double value)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un grafico con valori di data/ora.
 
@@ -141,12 +143,12 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Guarda anche
 
 * class [AxisBound](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../axisbound/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## AxisBound(DateTime) {#constructor_2}
+## AxisBound(*DateTime*) {#constructor_2}
 
 Crea un limite dell'asse rappresentato come valore data/ora.
 
@@ -154,7 +156,7 @@ Crea un limite dell'asse rappresentato come valore data/ora.
 public AxisBound(DateTime datetime)
 ```
 
-### Esempi
+## Esempi
 
 Mostra come inserire un grafico con valori di data/ora.
 
@@ -208,7 +210,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ### Guarda anche
 
 * class [AxisBound](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../axisbound/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

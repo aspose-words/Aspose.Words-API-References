@@ -1,7 +1,9 @@
 ---
 title: Run.Text
-second_title: Справочник по API Aspose.Words для .NET
-description: Run свойство. Получает или задает текст выполнения.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words для .NET
+description: Run Text свойство. Получает или задает текст выполнения на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/run/text/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/run/text/
 public string Text { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как вручную создать документ Aspose.Words.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ### Смотрите также
 
 * class [Run](../)
-* пространство имен [Aspose.Words](../../run/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

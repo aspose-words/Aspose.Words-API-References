@@ -1,7 +1,9 @@
 ---
 title: ChartNumberFormat.IsLinkedToSource
-second_title: Aspose.Words per .NET API Reference
-description: ChartNumberFormat proprietà. Specifica se il codice del formato è collegato a una cella di origine. Il valore predefinito è true.
+linktitle: IsLinkedToSource
+articleTitle: IsLinkedToSource
+second_title: Aspose.Words per .NET
+description: ChartNumberFormat IsLinkedToSource proprietà. Specifica se il codice del formato è collegato a una cella di origine. Il valore predefinito è true in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing.charts/chartnumberformat/islinkedtosource/
@@ -14,11 +16,11 @@ Specifica se il codice del formato è collegato a una cella di origine. Il valor
 public bool IsLinkedToSource { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 NumberFormat verrà reimpostato su generale se il codice del formato è collegato all'origine.
 
-### Esempi
+## Esempi
 
 Mostra come impostare la formattazione per i valori del grafico.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 ### Guarda anche
 
 * class [ChartNumberFormat](../)
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../chartnumberformat/)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../../)
-
-

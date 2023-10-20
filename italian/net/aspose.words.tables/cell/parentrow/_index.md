@@ -1,7 +1,9 @@
 ---
 title: Cell.ParentRow
-second_title: Aspose.Words per .NET API Reference
-description: Cell proprietà. Restituisce la riga madre della cella.
+linktitle: ParentRow
+articleTitle: ParentRow
+second_title: Aspose.Words per .NET
+description: Cell ParentRow proprietà. Restituisce la riga madre della cella in C#.
 type: docs
 weight: 100
 url: /it/net/aspose.words.tables/cell/parentrow/
@@ -14,11 +16,11 @@ Restituisce la riga madre della cella.
 public Row ParentRow { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Equivalente aFirstNonMarkupParentNode lanciato a[`Row`](../../row/).
 
-### Esempi
+## Esempi
 
 Mostra come apparecchiare una tavola per stare insieme sulla stessa pagina.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Table.KeepTableTogether.docx");
 
 * class [Row](../../row/)
 * class [Cell](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cell/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

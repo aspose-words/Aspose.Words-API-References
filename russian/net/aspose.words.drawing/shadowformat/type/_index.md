@@ -1,7 +1,9 @@
 ---
 title: ShadowFormat.Type
-second_title: Справочник по API Aspose.Words для .NET
-description: ShadowFormat свойство. Получает или задает указанныйShadowType для ShadowFormat.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words для .NET
+description: ShadowFormat Type свойство. Получает или задает указанныйShadowType для ShadowFormat на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/shadowformat/type/
@@ -18,7 +20,5 @@ public ShadowType Type { get; set; }
 
 * enum [ShadowType](../../shadowtype/)
 * class [ShadowFormat](../)
-* пространство имен [Aspose.Words.Drawing](../../shadowformat/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

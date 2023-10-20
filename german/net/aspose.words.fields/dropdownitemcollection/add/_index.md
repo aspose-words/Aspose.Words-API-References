@@ -1,7 +1,9 @@
 ---
 title: DropDownItemCollection.Add
-second_title: Aspose.Words für .NET-API-Referenz
-description: DropDownItemCollection methode. Fügt am Ende der Sammlung eine Zeichenfolge hinzu.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words für .NET
+description: DropDownItemCollection Add methode. Fügt am Ende der Sammlung eine Zeichenfolge hinzu in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/dropdownitemcollection/add/
@@ -22,7 +24,7 @@ public int Add(string value)
 
 Der nullbasierte Index, an dem das neue Element eingefügt wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Kombinationsfeldfeld einfügt und die Elemente in seiner Elementsammlung bearbeitet.
 
@@ -76,7 +78,5 @@ dropDownItems.Clear();
 ### Siehe auch
 
 * class [DropDownItemCollection](../)
-* namensraum [Aspose.Words.Fields](../../dropdownitemcollection/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

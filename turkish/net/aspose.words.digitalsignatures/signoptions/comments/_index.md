@@ -1,20 +1,22 @@
 ---
 title: SignOptions.Comments
-second_title: Aspose.Words for .NET API Referansı
-description: SignOptions mülk. Dijital imzadaki yorumları belirtir. Varsayılan değer boş dize Empty.
+linktitle: Comments
+articleTitle: Comments
+second_title: Aspose.Words for .NET
+description: SignOptions Comments mülk. Dijital imzadaki yorumları belirtir. Varsayılan değerboş dize Empty C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.digitalsignatures/signoptions/comments/
 ---
 ## SignOptions.Comments property
 
-Dijital imzadaki yorumları belirtir. Varsayılan değer: **boş dize** (Empty).
+Dijital imzadaki yorumları belirtir. Varsayılan değer:**boş dize** (Empty).
 
 ```csharp
 public string Comments { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgelerin dijital olarak nasıl imzalanacağını gösterir.
 
@@ -43,7 +45,5 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 ### Ayrıca bakınız
 
 * class [SignOptions](../)
-* ad alanı [Aspose.Words.DigitalSignatures](../../signoptions/)
+* ad alanı [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * toplantı [Aspose.Words](../../../)
-
-

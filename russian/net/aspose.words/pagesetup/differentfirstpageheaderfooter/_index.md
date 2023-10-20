@@ -1,7 +1,9 @@
 ---
 title: PageSetup.DifferentFirstPageHeaderFooter
-second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. True если на первой странице используется другой верхний или нижний колонтитул.
+linktitle: DifferentFirstPageHeaderFooter
+articleTitle: DifferentFirstPageHeaderFooter
+second_title: Aspose.Words для .NET
+description: PageSetup DifferentFirstPageHeaderFooter свойство. True если на первой странице используется другой верхний или нижний колонтитул на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
@@ -14,7 +16,7 @@ True, если на первой странице используется др�
 public bool DifferentFirstPageHeaderFooter { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создавать верхние и нижние колонтитулы в документе с помощью DocumentBuilder.
 
@@ -136,7 +138,5 @@ public void Order(bool differentFirstPageHeaderFooter)
 ### Смотрите также
 
 * class [PageSetup](../)
-* пространство имен [Aspose.Words](../../pagesetup/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

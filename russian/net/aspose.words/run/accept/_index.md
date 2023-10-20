@@ -1,7 +1,9 @@
 ---
 title: Run.Accept
-second_title: Справочник по API Aspose.Words для .NET
-description: Run метод. Принимает посетителя.
+linktitle: Accept
+articleTitle: Accept
+second_title: Aspose.Words для .NET
+description: Run Accept метод. Принимает посетителя на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/run/accept/
@@ -22,13 +24,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 `ЛОЖЬ` если посетитель запросил остановку перечисления.
 
-### Примечания
+## Примечания
 
 Звонки[`VisitRun`](../../documentvisitor/visitrun/).
 
 Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждого верхнего и нижнего колонтитула в документе.
 
@@ -122,7 +124,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Run](../)
-* пространство имен [Aspose.Words](../../run/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

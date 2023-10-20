@@ -1,7 +1,9 @@
 ---
 title: FootnoteOptions.NumberStyle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FootnoteOptions propriété. Spécifie le format numérique pour les notes de bas de page numérotées automatiquement.
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words pour .NET
+description: FootnoteOptions NumberStyle propriété. Spécifie le format numérique pour les notes de bas de page numérotées automatiquement en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.notes/footnoteoptions/numberstyle/
@@ -14,11 +16,11 @@ Spécifie le format numérique pour les notes de bas de page numérotées automa
 public NumberStyle NumberStyle { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Tous les styles de numéros ne sont pas applicables à cette propriété. Pour obtenir la liste des styles de nombres applicables , consultez la boîte de dialogue Insérer une note de bas de page ou une note de fin dans Microsoft Word. Si vous sélectionnez un style numérique qui n'est pas applicable, Microsoft Word reviendra à une valeur par défaut.
 
-### Exemples
+## Exemples
 
 Montre comment modifier le style numérique des marques de référence de note de bas de page/note de fin.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "InlineStory.RefMarkNumberStyle.docx");
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [FootnoteOptions](../)
-* espace de noms [Aspose.Words.Notes](../../footnoteoptions/)
+* espace de noms [Aspose.Words.Notes](../../../aspose.words.notes/)
 * Assemblée [Aspose.Words](../../../)
-
-

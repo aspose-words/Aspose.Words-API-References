@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleId
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in lokalidentifieraren språket för de formaterade tecknen.
+linktitle: LocaleId
+articleTitle: LocaleId
+second_title: Aspose.Words för .NET
+description: Font LocaleId fast egendom. Hämtar eller ställer in lokalidentifieraren språket för de formaterade tecknen i C#.
 type: docs
 weight: 200
 url: /sv/net/aspose.words/font/localeid/
@@ -14,11 +16,11 @@ Hämtar eller ställer in lokalidentifieraren (språket) för de formaterade tec
 public int LocaleId { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För listan över lokalkoder se https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in språket för texten som vi lägger till med en dokumentbyggare.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Font.LocaleId.docx");
 ### Se även
 
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

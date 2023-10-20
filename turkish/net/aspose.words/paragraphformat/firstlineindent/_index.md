@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.FirstLineIndent
-second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. İlk satır veya asılı girinti için değeri puan cinsinden alır veya ayarlar.
+linktitle: FirstLineIndent
+articleTitle: FirstLineIndent
+second_title: Aspose.Words for .NET
+description: ParagraphFormat FirstLineIndent mülk. İlk satır veya asılı girinti için değeri puan cinsinden alır veya ayarlar C#'da.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/paragraphformat/firstlineindent/
@@ -16,7 +18,7 @@ url: /tr/net/aspose.words/paragraphformat/firstlineindent/
 public double FirstLineIndent { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belgeye nasıl paragraf ekleneceğini gösterir.
 
@@ -48,7 +50,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 ### Ayrıca bakınız
 
 * class [ParagraphFormat](../)
-* ad alanı [Aspose.Words](../../paragraphformat/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BookmarkStart.GetText
-second_title: Aspose.Words for .NET API 参考
-description: BookmarkStart 方法. 返回空字符串
+linktitle: GetText
+articleTitle: GetText
+second_title: 用于 .NET 的 Aspose.Words
+description: BookmarkStart GetText 方法. 返回空字符串 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/bookmarkstart/gettext/
@@ -18,7 +20,7 @@ public override string GetText()
 
 一个空字符串。
 
-### 例子
+## 例子
 
 展示如何添加书签并更新其内容。
 
@@ -107,7 +109,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### 也可以看看
 
 * class [BookmarkStart](../)
-* 命名空间 [Aspose.Words](../../bookmarkstart/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

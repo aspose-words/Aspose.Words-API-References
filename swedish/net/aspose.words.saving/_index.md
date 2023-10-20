@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Saving
-second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Saving namnområdet tillhandahåller klasser och uppräkningar som tillåter att ange ytterligare alternativ för att spara eller konvertera dokument.
+linktitle: Aspose.Words.Saving
+articleTitle: Aspose.Words.Saving
+second_title: Aspose.Words för .NET
+description: DeAspose.Words.Saving namnområdet tillhandahåller klasser och uppräkningar som tillåter att ange ytterligare alternativ för att spara eller konvertera dokument i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words.saving/
 ---
-De **Aspose.Words.Saving** namnområdet tillhandahåller klasser och uppräkningar som tillåter att ange ytterligare alternativ för att spara eller konvertera dokument.
+De**Aspose.Words.Saving** namnområdet tillhandahåller klasser och uppräkningar som tillåter att ange ytterligare alternativ för att spara eller konvertera dokument.
 
 ## Klasser
 
@@ -108,5 +110,3 @@ De **Aspose.Words.Saving** namnområdet tillhandahåller klasser och uppräkning
 | [TableContentAlignment](./tablecontentalignment/) | Tillåter att specificera justeringen av innehållet i tabellen som ska användas vid export till Markdown-format. |
 | [TiffCompression](./tiffcompression/) | Anger vilken typ av komprimering som ska tillämpas när sidbilder sparas i en TIFF-fil. |
 | [TxtExportHeadersFootersMode](./txtexportheadersfootersmode/) | Anger hur sidhuvuden och sidfötter exporteras till vanligt textformat. |
-
-

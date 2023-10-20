@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontOther
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bununla ilişkili uygulanan yazı tipi şemasında 128 ile 255 arasındaki karakter kodlarına sahip karakterler için kullanılan tema yazı tipini alır veya ayarlar.Font nesne.
+linktitle: ThemeFontOther
+articleTitle: ThemeFontOther
+second_title: Aspose.Words for .NET
+description: Font ThemeFontOther mülk. Bununla ilişkili uygulanan yazı tipi şemasında 128 ile 255 arasındaki karakter kodlarına sahip karakterler için kullanılan tema yazı tipini alır veya ayarlar.Font nesne C#'da.
 type: docs
 weight: 510
 url: /tr/net/aspose.words/font/themefontother/
@@ -14,7 +16,7 @@ Bununla ilişkili uygulanan yazı tipi şemasında 128 ile 255 arasındaki karak
 public ThemeFont ThemeFontOther { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Tema yazı tipleri ve renkleri ile nasıl çalışılacağını gösterir.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

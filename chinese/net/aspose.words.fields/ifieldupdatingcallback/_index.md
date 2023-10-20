@@ -1,7 +1,9 @@
 ---
-title: Interface IFieldUpdatingCallback
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.IFieldUpdatingCallback 界面. 如果您想在字段更新期间调用自己的自定义方法请实现此接口
+title: IFieldUpdatingCallback Interface
+linktitle: IFieldUpdatingCallback
+articleTitle: IFieldUpdatingCallback
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.IFieldUpdatingCallback 界面. 如果您想在字段更新期间调用自己的自定义方法请实现此接口 在 C#.
 type: docs
 weight: 2720
 url: /zh/net/aspose.words.fields/ifieldupdatingcallback/
@@ -18,10 +20,10 @@ public interface IFieldUpdatingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated/)(Field) | 更新字段后立即调用的用户定义方法。 |
-| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating/)(Field) | 在更新字段之前调用的用户定义方法。 |
+| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated/)(*[Field](../field/)*) | 更新字段后立即调用的用户定义方法。 |
+| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating/)(*[Field](../field/)*) | 在更新字段之前调用的用户定义方法。 |
 
-### 例子
+## 例子
 
 演示如何在字段更新期间使用回调方法。
 
@@ -90,5 +92,3 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

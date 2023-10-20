@@ -1,7 +1,9 @@
 ---
-title: Class CompareOptions
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Comparing.CompareOptions فصل. يسمح باختيار الخيارات المتقدمة لعملية مقارنة المستندات.
+title: CompareOptions Class
+linktitle: CompareOptions
+articleTitle: CompareOptions
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Comparing.CompareOptions فصل. يسمح باختيار الخيارات المتقدمة لعملية مقارنة المستندات في C#.
 type: docs
 weight: 270
 url: /ar/net/aspose.words.comparing/compareoptions/
@@ -39,7 +41,7 @@ public class CompareOptions
 | [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | يحدد ما إذا كان سيتم مقارنة الاختلافات في البيانات الموجودة داخل مربعات النص. بشكل افتراضي لا يتم تجاهل مربعات النص. |
 | [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | يحدد الوثيقة التي سيتم استخدامها كهدف أثناء المقارنة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء المقارنة.
 
@@ -114,5 +116,3 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 * مساحة الاسم [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * المجسم [Aspose.Words](../../)
-
-

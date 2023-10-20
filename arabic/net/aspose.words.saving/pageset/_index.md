@@ -1,7 +1,9 @@
 ---
-title: Class PageSet
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.PageSet فصل. يصف مجموعة عشوائية من الصفحات.
+title: PageSet Class
+linktitle: PageSet
+articleTitle: PageSet
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Saving.PageSet فصل. يصف مجموعة عشوائية من الصفحات في C#.
 type: docs
 weight: 5390
 url: /ar/net/aspose.words.saving/pageset/
@@ -20,9 +22,9 @@ public sealed class PageSet
 
 | اسم | وصف |
 | --- | --- |
-| [PageSet](pageset/#constructor_1)(int) | إنشاء مجموعة من صفحة واحدة بناءً على فهرس الصفحات المحدد. |
-| [PageSet](pageset/#constructor_2)(params int[]) | إنشاء مجموعة صفحات بناءً على فهارس الصفحات المحددة. |
-| [PageSet](pageset/#constructor)(params PageRange[]) | إنشاء مجموعة صفحات بناءً على النطاقات. |
+| [PageSet](pageset/#constructor_1)(*int*) | إنشاء مجموعة من صفحة واحدة بناءً على فهرس الصفحات المحدد. |
+| [PageSet](pageset/#constructor_2)(*params int[]*) | إنشاء مجموعة صفحات بناءً على فهارس الصفحات المحددة. |
+| [PageSet](pageset/#constructor)(*params PageRange[]*) | إنشاء مجموعة صفحات بناءً على النطاقات. |
 
 ## الخصائص
 
@@ -36,5 +38,3 @@ public sealed class PageSet
 
 * مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
-
-

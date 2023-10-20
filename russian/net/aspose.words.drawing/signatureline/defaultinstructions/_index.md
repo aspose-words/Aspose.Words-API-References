@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.DefaultInstructions
-second_title: Справочник по API Aspose.Words для .NET
-description: SignatureLine свойство. Получает или задает значение указывающее что инструкции по умолчанию отображаются в диалоговом окне Подпись. Значение по умолчанию для этого свойстваистинный .
+linktitle: DefaultInstructions
+articleTitle: DefaultInstructions
+second_title: Aspose.Words для .NET
+description: SignatureLine DefaultInstructions свойство. Получает или задает значение указывающее что инструкции по умолчанию отображаются в диалоговом окне Подпись. Значение по умолчанию для этого свойстваистинный  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/signatureline/defaultinstructions/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/signatureline/defaultinstructions/
 public bool DefaultInstructions { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как создать строку для подписи и вставить ее в документ.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ### Смотрите также
 
 * class [SignatureLine](../)
-* пространство имен [Aspose.Words.Drawing](../../signatureline/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

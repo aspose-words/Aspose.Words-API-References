@@ -1,7 +1,9 @@
 ---
 title: Revision.ParentStyle
-second_title: Aspose.Words لمراجع .NET API
-description: Revision ملكية. يحصل على النمط الأصلي المباشر المالك لهذه المراجعة. ستعمل هذه الخاصية فقط معStyleDefinitionChange نوع المراجعة.
+linktitle: ParentStyle
+articleTitle: ParentStyle
+second_title: Aspose.Words لـ .NET
+description: Revision ParentStyle ملكية. يحصل على النمط الأصلي المباشر المالك لهذه المراجعة. ستعمل هذه الخاصية فقط معStyleDefinitionChange نوع المراجعة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/revision/parentstyle/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/revision/parentstyle/
 public Style ParentStyle { get; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 إذا كانت هذه المراجعة تتعلق بالتغييرات في عقد المستند، فاستخدم[`ParentNode`](../parentnode/) بدلا من ذلك.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع مجموعة مراجعات المستند.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, revisions.Count);
 
 * class [Style](../../style/)
 * class [Revision](../)
-* مساحة الاسم [Aspose.Words](../../revision/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

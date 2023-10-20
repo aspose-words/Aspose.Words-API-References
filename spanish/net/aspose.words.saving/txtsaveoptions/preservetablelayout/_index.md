@@ -1,7 +1,9 @@
 ---
 title: TxtSaveOptions.PreserveTableLayout
-second_title: Referencia de API de Aspose.Words para .NET
-description: TxtSaveOptions propiedad. Especifica si el programa debe intentar conservar el diseño de las tablas al guardarlas en formato de texto sin formato. El valor predeterminado esFALSO .
+linktitle: PreserveTableLayout
+articleTitle: PreserveTableLayout
+second_title: Aspose.Words para .NET
+description: TxtSaveOptions PreserveTableLayout propiedad. Especifica si el programa debe intentar conservar el diseño de las tablas al guardarlas en formato de texto sin formato. El valor predeterminado esFALSO  en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
@@ -14,7 +16,7 @@ Especifica si el programa debe intentar conservar el diseño de las tablas al gu
 public bool PreserveTableLayout { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo conservar el diseño de las tablas al convertirlas a texto sin formato.
 
@@ -61,7 +63,5 @@ else
 ### Ver también
 
 * class [TxtSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../txtsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

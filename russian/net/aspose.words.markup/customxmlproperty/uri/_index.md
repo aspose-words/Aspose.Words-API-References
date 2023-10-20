@@ -1,7 +1,9 @@
 ---
 title: CustomXmlProperty.Uri
-second_title: Справочник по API Aspose.Words для .NET
-description: CustomXmlProperty свойство. Получает или задает URI пространства имен пользовательского атрибута XML или свойства смарттега.
+linktitle: Uri
+articleTitle: Uri
+second_title: Aspose.Words для .NET
+description: CustomXmlProperty Uri свойство. Получает или задает URI пространства имен пользовательского атрибута XML или свойства смарттега на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/customxmlproperty/uri/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.markup/customxmlproperty/uri/
 public string Uri { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Не может быть`нулевой`.
 
 По умолчанию — пустая строка.
 
-### Примеры
+## Примеры
 
 Показывает, как работать со свойствами смарт-тегов, чтобы получить подробную информацию о смарт-тегах.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(0, properties.Count);
 ### Смотрите также
 
 * class [CustomXmlProperty](../)
-* пространство имен [Aspose.Words.Markup](../../customxmlproperty/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

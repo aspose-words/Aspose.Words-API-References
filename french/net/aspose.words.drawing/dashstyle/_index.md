@@ -1,7 +1,9 @@
 ---
-title: Enum DashStyle
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.DashStyle énumération. Style de ligne pointillée.
+title: DashStyle Enum
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.DashStyle énumération. Style de ligne pointillée en C#.
 type: docs
 weight: 930
 url: /fr/net/aspose.words.drawing/dashstyle/
@@ -31,7 +33,7 @@ public enum DashStyle
 | LongDashDotDot | `10` | Tiret long Tiret court Tiret court. |
 | Default | `0` | Identique àSolid . |
 
-### Exemples
+## Exemples
 
 Montre pour créer une variété de formes.
 
@@ -108,5 +110,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [DashStyle](../stroke/dashstyle/)
 * espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
-
-

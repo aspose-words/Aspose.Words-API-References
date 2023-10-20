@@ -1,7 +1,9 @@
 ---
 title: GradientStopCollection.GetEnumerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: GradientStopCollection méthode. Renvoie un énumérateur qui parcourt la collection.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words pour .NET
+description: GradientStopCollection GetEnumerator méthode. Renvoie un énumérateur qui parcourt la collection en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.drawing/gradientstopcollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<GradientStop> GetEnumerator()
 
 * class [GradientStop](../../gradientstop/)
 * class [GradientStopCollection](../)
-* espace de noms [Aspose.Words.Drawing](../../gradientstopcollection/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

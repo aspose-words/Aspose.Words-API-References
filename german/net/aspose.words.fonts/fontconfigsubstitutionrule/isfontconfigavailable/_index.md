@@ -1,7 +1,9 @@
 ---
 title: FontConfigSubstitutionRule.IsFontConfigAvailable
-second_title: Aspose.Words für .NET-API-Referenz
-description: FontConfigSubstitutionRule methode. Überprüfen Sie ob das Dienstprogramm fontconfig verfügbar ist oder nicht.
+linktitle: IsFontConfigAvailable
+articleTitle: IsFontConfigAvailable
+second_title: Aspose.Words für .NET
+description: FontConfigSubstitutionRule IsFontConfigAvailable methode. Überprüfen Sie ob das Dienstprogramm fontconfig verfügbar ist oder nicht in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/
@@ -14,7 +16,7 @@ url: /de/net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable
 public bool IsFontConfigAvailable()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt die betriebssystemabhängige Schriftartkonfigurationsersetzung an.
 
@@ -50,7 +52,5 @@ if (isLinuxOrMac)
 ### Siehe auch
 
 * class [FontConfigSubstitutionRule](../)
-* namensraum [Aspose.Words.Fonts](../../fontconfigsubstitutionrule/)
+* namensraum [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../../)
-
-

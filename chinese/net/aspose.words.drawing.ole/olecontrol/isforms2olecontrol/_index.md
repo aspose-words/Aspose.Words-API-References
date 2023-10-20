@@ -1,7 +1,9 @@
 ---
 title: OleControl.IsForms2OleControl
-second_title: Aspose.Words for .NET API 参考
-description: OleControl 财产. 返回真的如果控制是Forms2OleControl.
+linktitle: IsForms2OleControl
+articleTitle: IsForms2OleControl
+second_title: 用于 .NET 的 Aspose.Words
+description: OleControl IsForms2OleControl 财产. 返回真的如果控制是Forms2OleControl 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
 public bool IsForms2OleControl { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何验证 ActiveX 控件的属性。
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### 也可以看看
 
 * class [OleControl](../)
-* 命名空间 [Aspose.Words.Drawing.Ole](../../olecontrol/)
+* 命名空间 [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * 部件 [Aspose.Words](../../../)
-
-

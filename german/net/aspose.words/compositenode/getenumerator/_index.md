@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.GetEnumerator
-second_title: Aspose.Words für .NET-API-Referenz
-description: CompositeNode methode. Bietet Unterstützung für die Iteration jedes Stils über die untergeordneten Knoten dieses Knotens.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words für .NET
+description: CompositeNode GetEnumerator methode. Bietet Unterstützung für die Iteration jedes Stils über die untergeordneten Knoten dieses Knotens in C#.
 type: docs
-weight: 120
+weight: 100
 url: /de/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
@@ -14,7 +16,7 @@ Bietet Unterstützung für die Iteration jedes Stils über die untergeordneten K
 public IEnumerator<Node> GetEnumerator()
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Sammlung untergeordneter Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -60,7 +62,5 @@ foreach (Node child in children)
 
 * class [Node](../../node/)
 * class [CompositeNode](../)
-* namensraum [Aspose.Words](../../compositenode/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Revision.Reject
-second_title: Aspose.Words لمراجع .NET API
-description: Revision طريقة. رفض هذه المراجعة.
+linktitle: Reject
+articleTitle: Reject
+second_title: Aspose.Words لـ .NET
+description: Revision Reject طريقة. رفض هذه المراجعة في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/revision/reject/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/revision/reject/
 public void Reject()
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية التعامل مع المراجعات في المستند.
 
@@ -97,7 +99,5 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 ### أنظر أيضا
 
 * class [Revision](../)
-* مساحة الاسم [Aspose.Words](../../revision/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

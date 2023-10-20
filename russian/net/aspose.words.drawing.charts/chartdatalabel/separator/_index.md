@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Separator
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabel свойство. Получает или задает разделитель строк используемый для меток данных на диаграмме. По умолчанию используется запятая за исключением круговых диаграмм показывающих только имя категории и процентное соотношение когда вместо этого должен использоваться разрыв строки .
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words для .NET
+description: ChartDataLabel Separator свойство. Получает или задает разделитель строк используемый для меток данных на диаграмме. По умолчанию используется запятая за исключением круговых диаграмм показывающих только имя категории и процентное соотношение когда вместо этого должен использоваться разрыв строки  на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/separator/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing.charts/chartdatalabel/separator/
 public string Separator { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
@@ -92,7 +94,5 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 ### Смотрите также
 
 * class [ChartDataLabel](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.OptimizeOutput
-second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlFixedSaveOptions propriété. Lindicateur indique sil est nécessaire doptimiser la sortie. Si cet indicateur est défini les canevas imbriqués redondants et les canevas vides sont supprimés également les glyphes voisins avec le même formatage sont concaténés. Remarque  la précision de laffichage du contenu peut être affectée si cette propriété est définie survrai . La valeur par défaut estvrai .
+linktitle: OptimizeOutput
+articleTitle: OptimizeOutput
+second_title: Aspose.Words pour .NET
+description: HtmlFixedSaveOptions OptimizeOutput propriété. Lindicateur indique sil est nécessaire doptimiser la sortie. Si cet indicateur est défini les canevas imbriqués redondants et les canevas vides sont supprimés également les glyphes voisins avec le même formatage sont concaténés. Remarque  la précision de laffichage du contenu peut être affectée si cette propriété est définie survrai . La valeur par défaut estvrai  en C#.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
@@ -14,7 +16,7 @@ L'indicateur indique s'il est nécessaire d'optimiser la sortie. Si cet indicate
 public override bool OptimizeOutput { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment simplifier un document lors de son enregistrement au format HTML en supprimant divers objets redondants.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(optimizeOutput ? 62521 : 191770,
 ### Voir également
 
 * class [HtmlFixedSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

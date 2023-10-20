@@ -1,7 +1,9 @@
 ---
 title: ControlChar.Tab
-second_title: Aspose.Words for .NET API Referansı
-description: ControlChar alan. Sekme karakteri x0009 veya t.
+linktitle: Tab
+articleTitle: Tab
+second_title: Aspose.Words for .NET
+description: ControlChar Tab alan. Sekme karakteri x0009 veya t C#'da.
 type: docs
 weight: 270
 url: /tr/net/aspose.words/controlchar/tab/
@@ -14,7 +16,7 @@ Sekme karakteri: "\x0009" veya "\t".
 public static readonly string Tab;
 ```
 
-### Örnekler
+## Örnekler
 
 Sekme durağı konumları için özel aralığın nasıl ayarlanacağını gösterir.
 
@@ -33,7 +35,5 @@ builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ### Ayrıca bakınız
 
 * class [ControlChar](../)
-* ad alanı [Aspose.Words](../../controlchar/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

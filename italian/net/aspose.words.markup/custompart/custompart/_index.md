@@ -1,7 +1,9 @@
 ---
-title: CustomPart.CustomPart
-second_title: Aspose.Words per .NET API Reference
-description: CustomPart costruttore. Default_Costruttore
+title: CustomPart
+linktitle: CustomPart
+articleTitle: CustomPart
+second_title: Aspose.Words per .NET
+description: CustomPart costruttore. Default_Costruttore in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.markup/custompart/custompart/
@@ -17,7 +19,5 @@ public CustomPart()
 ### Guarda anche
 
 * class [CustomPart](../)
-* spazio dei nomi [Aspose.Words.Markup](../../custompart/)
+* spazio dei nomi [Aspose.Words.Markup](../../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../../)
-
-

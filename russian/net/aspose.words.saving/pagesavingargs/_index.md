@@ -1,7 +1,9 @@
 ---
-title: Class PageSavingArgs
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.PageSavingArgs сорт. Предоставляет данные дляPageSaving событие.
+title: PageSavingArgs Class
+linktitle: PageSavingArgs
+articleTitle: PageSavingArgs
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.PageSavingArgs сорт. Предоставляет данные дляPageSaving событие на С#.
 type: docs
 weight: 5380
 url: /ru/net/aspose.words.saving/pagesavingargs/
@@ -31,7 +33,7 @@ public class PageSavingArgs
 | [PageIndex](../../aspose.words.saving/pagesavingargs/pageindex/) { get; } | Индекс текущей страницы. |
 | [PageStream](../../aspose.words.saving/pagesavingargs/pagestream/) { get; set; } | Позволяет указать поток, в котором будет сохранена страница документа. |
 
-### Примеры
+## Примеры
 
 Показывает, как использовать обратный вызов для сохранения документа в формате HTML постранично.
 
@@ -89,5 +91,3 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Node.NodeType
-second_title: Aspose.Words for .NET API 参考
-description: Node 财产. 获取此节点的类型
+linktitle: NodeType
+articleTitle: NodeType
+second_title: 用于 .NET 的 Aspose.Words
+description: Node NodeType 财产. 获取此节点的类型 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/node/nodetype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/node/nodetype/
 public abstract NodeType NodeType { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用节点的 NextSibling 属性来枚举其直接子节点。
 
@@ -102,7 +104,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* 命名空间 [Aspose.Words](../../node/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

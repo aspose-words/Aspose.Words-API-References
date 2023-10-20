@@ -1,12 +1,14 @@
 ---
 title: FontFallbackSettings.Load
-second_title: Справочник по API Aspose.Words для .NET
-description: FontFallbackSettings метод. Загружает настройки резервного шрифта из XMLфайла.
+linktitle: Load
+articleTitle: Load
+second_title: Aspose.Words для .NET
+description: FontFallbackSettings Load метод. Загружает настройки резервного шрифта из XMLфайла на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/fontfallbacksettings/load/
 ---
-## Load(string) {#load_1}
+## Load(*string*) {#load_1}
 
 Загружает настройки резервного шрифта из XML-файла.
 
@@ -18,7 +20,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | Имя входного файла. |
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить и сохранить настройки резервного шрифта в XML-документе в локальной файловой системе или из него.
 
@@ -39,12 +41,12 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ### Смотрите также
 
 * class [FontFallbackSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Load(Stream) {#load}
+## Load(*Stream*) {#load}
 
 Загружает резервные настройки из потока XML.
 
@@ -56,7 +58,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Входной поток. |
 
-### Примеры
+## Примеры
 
 Показывает, как загрузить и сохранить настройки резервного шрифта в поток или из него.
 
@@ -85,7 +87,5 @@ using (FileStream fontFallbackStream =
 ### Смотрите также
 
 * class [FontFallbackSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontfallbacksettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

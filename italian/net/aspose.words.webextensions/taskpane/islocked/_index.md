@@ -1,7 +1,9 @@
 ---
 title: TaskPane.IsLocked
-second_title: Aspose.Words per .NET API Reference
-description: TaskPane proprietà. Specifica se il riquadro attività è bloccato sul documento nellinterfaccia utente e non può essere chiuso dallutente.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words per .NET
+description: TaskPane IsLocked proprietà. Specifica se il riquadro attività è bloccato sul documento nellinterfaccia utente e non può essere chiuso dallutente in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.webextensions/taskpane/islocked/
@@ -14,7 +16,7 @@ Specifica se il riquadro attività è bloccato sul documento nell'interfaccia ut
 public bool IsLocked { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere un'estensione Web a un documento.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Guarda anche
 
 * class [TaskPane](../)
-* spazio dei nomi [Aspose.Words.WebExtensions](../../taskpane/)
+* spazio dei nomi [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * assemblea [Aspose.Words](../../../)
-
-

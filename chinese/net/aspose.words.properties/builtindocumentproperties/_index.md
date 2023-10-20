@@ -1,7 +1,9 @@
 ---
-title: Class BuiltInDocumentProperties
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Properties.BuiltInDocumentProperties 班级. 内置文档属性的集合
+title: BuiltInDocumentProperties Class
+linktitle: BuiltInDocumentProperties
+articleTitle: BuiltInDocumentProperties
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Properties.BuiltInDocumentProperties 班级. 内置文档属性的集合 在 C#.
 type: docs
 weight: 4450
 url: /zh/net/aspose.words.properties/builtindocumentproperties/
@@ -61,13 +63,13 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | 从集合中删除所有属性。 |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | 返回`真的`如果集合中存在具有指定名称的属性。 |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | 返回`真的`如果集合中存在具有指定名称的属性。 |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | 按名称获取属性的索引。 |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | 从集合中删除具有指定名称的属性。 |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | 删除指定索引处的属性。 |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | 按名称获取属性的索引。 |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | 从集合中删除具有指定名称的属性。 |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | 删除指定索引处的属性。 |
 
-### 评论
+## 评论
 
 提供访问[`DocumentProperty`](../documentproperty/)对象的名称（使用索引器）和 通过一组返回适当类型值的类型化属性。
 
@@ -75,7 +77,7 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 
 集合中的属性按名称字母顺序排序。
 
-### 例子
+## 例子
 
 展示如何使用内置文档属性。
 
@@ -114,5 +116,3 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
 * 命名空间 [Aspose.Words.Properties](../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../)
-
-

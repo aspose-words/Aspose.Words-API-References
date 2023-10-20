@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.AllowEmbeddingPostScriptFonts
-second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Получает или задает логическое значение указывающее разрешено ли встраивание шрифтов PostScript в контуры PostScript при встраивании шрифтов TrueType в документ после его сохранения. Значение по умолчаниюЛОЖЬ .
+linktitle: AllowEmbeddingPostScriptFonts
+articleTitle: AllowEmbeddingPostScriptFonts
+second_title: Aspose.Words для .NET
+description: SaveOptions AllowEmbeddingPostScriptFonts свойство. Получает или задает логическое значение указывающее разрешено ли встраивание шрифтов PostScript в контуры PostScript при встраивании шрифтов TrueType в документ после его сохранения. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
 public bool AllowEmbeddingPostScriptFonts { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Обратите внимание: Word не встраивает шрифты PostScript, но может открывать документы со встроенными шрифтами этого типа.
 
 Этот вариант работает только тогда, когда[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) из [`FontInfos`](../../../aspose.words/documentbase/fontinfos/) свойство установлено на`истинный`.
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить документ со шрифтом PostScript.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Document.AllowEmbeddingPostScriptFonts.docx", saveOptio
 ### Смотрите также
 
 * class [SaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../saveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

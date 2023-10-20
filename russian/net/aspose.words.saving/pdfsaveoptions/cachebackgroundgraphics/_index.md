@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.CacheBackgroundGraphics
-second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions свойство. Получает или задает значение определяющее следует ли кэшировать графику размещенную в фоновом режиме документа.
+linktitle: CacheBackgroundGraphics
+articleTitle: CacheBackgroundGraphics
+second_title: Aspose.Words для .NET
+description: PdfSaveOptions CacheBackgroundGraphics свойство. Получает или задает значение определяющее следует ли кэшировать графику размещенную в фоновом режиме документа на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/pdfsaveoptions/cachebackgroundgraphics/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.saving/pdfsaveoptions/cachebackgroundgraphics/
 public bool CacheBackgroundGraphics { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`истинный` а фоновая графика записывается в PDF-документ как xObject.
 
@@ -24,7 +26,7 @@ public bool CacheBackgroundGraphics { get; set; }
 
 Фоновая графика документа — это различные фигуры, диаграммы, изображения, размещенные в нижнем колонтитуле или заголовке, , а также фон и граница страницы.
 
-### Примеры
+## Примеры
 
 Показывает, как кэшировать графику, размещенную в фоновом режиме документа.
 
@@ -45,7 +47,5 @@ Assert.Less(asposeToPdfSize, wordToPdfSize);
 ### Смотрите также
 
 * class [PdfSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../pdfsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Thumbnail
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Belgenin küçük resmini alır veya ayarlar.
+linktitle: Thumbnail
+articleTitle: Thumbnail
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties Thumbnail mülk. Belgenin küçük resmini alır veya ayarlar C#'da.
 type: docs
 weight: 280
 url: /tr/net/aspose.words.properties/builtindocumentproperties/thumbnail/
@@ -14,7 +16,7 @@ Belgenin küçük resmini alır veya ayarlar.
 public byte[] Thumbnail { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Şimdilik bu özellik yalnızca bir belge ePub'a aktarılırken kullanılıyor, diğer belge biçimlerinden okunmuyor ve diğer belge biçimlerine yazılmıyor.
 
@@ -22,7 +24,7 @@ public byte[] Thumbnail { get; set; }
 
 ePub yayını için yalnızca gif, jpeg ve png görselleri kullanılabilir.
 
-### Örnekler
+## Örnekler
 
 Epub olarak kaydettiğimiz bir belgeye nasıl küçük resim ekleneceğini gösterir.
 
@@ -48,7 +50,5 @@ File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

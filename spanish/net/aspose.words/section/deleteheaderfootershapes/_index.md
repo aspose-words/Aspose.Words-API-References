@@ -1,9 +1,11 @@
 ---
 title: Section.DeleteHeaderFooterShapes
-second_title: Referencia de API de Aspose.Words para .NET
-description: Section método. Elimina todas las formas objetos de dibujo de los encabezados y pies de página de esta sección.
+linktitle: DeleteHeaderFooterShapes
+articleTitle: DeleteHeaderFooterShapes
+second_title: Aspose.Words para .NET
+description: Section DeleteHeaderFooterShapes método. Elimina todas las formas objetos de dibujo de los encabezados y pies de página de esta sección en C#.
 type: docs
-weight: 140
+weight: 120
 url: /es/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
@@ -14,7 +16,7 @@ Elimina todas las formas (objetos de dibujo) de los encabezados y pies de págin
 public void DeleteHeaderFooterShapes()
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo eliminar todas las formas de todos los pies de página de los encabezados en una sección.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(0, doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimar
 ### Ver también
 
 * class [Section](../)
-* espacio de nombres [Aspose.Words](../../section/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

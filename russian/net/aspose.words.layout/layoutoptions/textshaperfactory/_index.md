@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.TextShaperFactory
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutOptions свойство. Получает или устанавливаетITextShaperFactory реализация используемая для функций рендеринга расширенной типографики.
+linktitle: TextShaperFactory
+articleTitle: TextShaperFactory
+second_title: Aspose.Words для .NET
+description: LayoutOptions TextShaperFactory свойство. Получает или устанавливаетITextShaperFactory реализация используемая для функций рендеринга расширенной типографики на С#.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.layout/layoutoptions/textshaperfactory/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.layout/layoutoptions/textshaperfactory/
 public ITextShaperFactory TextShaperFactory { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как поддерживать функции OpenType с помощью механизма формирования текста HarfBuzz.
 
@@ -36,7 +38,5 @@ doc.Save(ArtifactsDir + "Document.OpenType.pdf");
 
 * interface [ITextShaperFactory](../../../aspose.words.shaping/itextshaperfactory/)
 * class [LayoutOptions](../)
-* пространство имен [Aspose.Words.Layout](../../layoutoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

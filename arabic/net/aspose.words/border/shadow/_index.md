@@ -1,7 +1,9 @@
 ---
 title: Border.Shadow
-second_title: Aspose.Words لمراجع .NET API
-description: Border ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان الحد يحتوي على ظل.
+linktitle: Shadow
+articleTitle: Shadow
+second_title: Aspose.Words لـ .NET
+description: Border Shadow ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان الحد يحتوي على ظل في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/border/shadow/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/border/shadow/
 public bool Shadow { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 في Microsoft Word، لكي يكون للحدود ظل، يجب أن تكون الحدود على الجوانب الأربعة (اليسار والأعلى واليمين والأسفل) من نفس النوع والعرض واللون ويجب أن تحتوي جميعها على خاصية الظل المعينة على`حقيقي`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حدود صفحة خضراء متموجة مع الظل.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 ### أنظر أيضا
 
 * class [Border](../)
-* مساحة الاسم [Aspose.Words](../../border/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Table.Description
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft die Beschreibung dieser Tabelle ab oder legt sie fest. Bietet eine alternative Textdarstellung der in der Tabelle enthaltenen Informationen.
+linktitle: Description
+articleTitle: Description
+second_title: Aspose.Words für .NET
+description: Table Description eigendom. Ruft die Beschreibung dieser Tabelle ab oder legt sie fest. Bietet eine alternative Textdarstellung der in der Tabelle enthaltenen Informationen in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.tables/table/description/
@@ -14,13 +16,13 @@ Ruft die Beschreibung dieser Tabelle ab oder legt sie fest. Bietet eine alternat
 public string Description { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist eine leere Zeichenfolge.
 
 Diese Eigenschaft ist für ISO/IEC 29500-konforme DOCX-Dokumente ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). Beim Speichern in Formaten vor ISO/IEC 29500 wird die Eigenschaft ignoriert.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man eine verschachtelte Tabelle erstellt, ohne einen Document Builder zu verwenden.
 
@@ -76,7 +78,5 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 ### Siehe auch
 
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

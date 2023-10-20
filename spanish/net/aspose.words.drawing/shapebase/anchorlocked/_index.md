@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AnchorLocked
-second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Especifica si el ancla de la forma está bloqueada.
+linktitle: AnchorLocked
+articleTitle: AnchorLocked
+second_title: Aspose.Words para .NET
+description: ShapeBase AnchorLocked propiedad. Especifica si el ancla de la forma está bloqueada en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing/shapebase/anchorlocked/
@@ -14,7 +16,7 @@ Especifica si el ancla de la forma está bloqueada.
 public bool AnchorLocked { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 El valor predeterminado es`FALSO`.
 
@@ -22,7 +24,7 @@ Tiene efecto sólo para formas de nivel superior.
 
 Esta propiedad afecta el comportamiento del ancla de la forma en Microsoft Word. Cuando el ancla no está bloqueada, mover la forma en Microsoft Word también puede mover el ancla de la forma.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo bloquear o desbloquear el anclaje de párrafo de una forma.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ### Ver también
 
 * class [ShapeBase](../)
-* espacio de nombres [Aspose.Words.Drawing](../../shapebase/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

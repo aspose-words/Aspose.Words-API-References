@@ -1,7 +1,9 @@
 ---
 title: PageSetup.VerticalAlignment
-second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. إرجاع أو تعيين المحاذاة الرأسية للنص في كل صفحة في مستند أو قسم.
+linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
+second_title: Aspose.Words لـ .NET
+description: PageSetup VerticalAlignment ملكية. إرجاع أو تعيين المحاذاة الرأسية للنص في كل صفحة في مستند أو قسم في C#.
 type: docs
 weight: 450
 url: /ar/net/aspose.words/pagesetup/verticalalignment/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/pagesetup/verticalalignment/
 public PageVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * enum [PageVerticalAlignment](../../pageverticalalignment/)
 * class [PageSetup](../)
-* مساحة الاسم [Aspose.Words](../../pagesetup/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

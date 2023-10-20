@@ -1,7 +1,9 @@
 ---
 title: Border.DistanceFromText
-second_title: Aspose.Words لمراجع .NET API
-description: Border ملكية. الحصول على أو تعيين مسافة الحد من النص أو من حافة الصفحة بالنقاط.
+linktitle: DistanceFromText
+articleTitle: DistanceFromText
+second_title: Aspose.Words لـ .NET
+description: Border DistanceFromText ملكية. الحصول على أو تعيين مسافة الحد من النص أو من حافة الصفحة بالنقاط في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/border/distancefromtext/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/border/distancefromtext/
 public double DistanceFromText { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 ليس له أي تأثير وسيتم إعادة تعيينه تلقائيًا إلى الصفر بالنسبة لحدود خلايا الجدول.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء حد شريطي أزرق عريض في أعلى الصفحة الأولى.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 ### أنظر أيضا
 
 * class [Border](../)
-* مساحة الاسم [Aspose.Words](../../border/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

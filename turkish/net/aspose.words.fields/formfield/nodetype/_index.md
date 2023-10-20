@@ -1,7 +1,9 @@
 ---
 title: FormField.NodeType
-second_title: Aspose.Words for .NET API Referansı
-description: FormField mülk. İadelerFormField .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words for .NET
+description: FormField NodeType mülk. İadelerFormField  C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.fields/formfield/nodetype/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.fields/formfield/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bileşik bir düğümün alt düğüm ağacında nasıl gezinileceğini gösterir.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [FormField](../)
-* ad alanı [Aspose.Words.Fields](../../formfield/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

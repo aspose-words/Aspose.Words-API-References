@@ -1,7 +1,9 @@
 ---
 title: FormField.Checked
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Получает или задает проверенный статус поля формы флажка. Значение по умолчанию для этого свойстваЛОЖЬ .
+linktitle: Checked
+articleTitle: Checked
+second_title: Aspose.Words для .NET
+description: FormField Checked свойство. Получает или задает проверенный статус поля формы флажка. Значение по умолчанию для этого свойстваЛОЖЬ  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/formfield/checked/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.fields/formfield/checked/
 public bool Checked { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Применимо только для поля формы флажка.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -152,7 +154,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

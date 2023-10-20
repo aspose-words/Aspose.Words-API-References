@@ -1,7 +1,9 @@
 ---
 title: Font.Bidi
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 指定此运行的内容是否应具有从右到左的特征
+linktitle: Bidi
+articleTitle: Bidi
+second_title: 用于 .NET 的 Aspose.Words
+description: Font Bidi 财产. 指定此运行的内容是否应具有从右到左的特征 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/font/bidi/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/bidi/
 public bool Bidi { get; set; }
 ```
 
-### 评论
+## 评论
 
 启用此属性后，不得将其与强从左到右的文本一起使用。该条件下的任何行为均未指定。 此属性关闭后，不得与强从右到左文本一起使用。该条件下的任何行为均未指定。
 
@@ -22,7 +24,7 @@ public bool Bidi { get; set; }
 
 此外，当显示此运行的内容时，此属性充当字符 的从右到左覆盖，字符 被分类为“弱类型”和“中性类型”。
 
-### 例子
+## 例子
 
 演示如何为从右到左和从右到左的文本定义单独的字体设置集。
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

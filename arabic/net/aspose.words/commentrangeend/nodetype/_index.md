@@ -1,7 +1,9 @@
 ---
 title: CommentRangeEnd.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: CommentRangeEnd ملكية. إرجاعCommentRangeEnd .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: CommentRangeEnd NodeType ملكية. إرجاعCommentRangeEnd  في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/commentrangeend/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/commentrangeend/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [CommentRangeEnd](../)
-* مساحة الاسم [Aspose.Words](../../commentrangeend/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

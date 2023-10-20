@@ -1,7 +1,9 @@
 ---
 title: ConditionalStyleCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: ConditionalStyleCollection 方法. 返回一个枚举器对象可用于迭代集合中的所有条件样式
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: ConditionalStyleCollection GetEnumerator 方法. 返回一个枚举器对象可用于迭代集合中的所有条件样式 在 C#.
 type: docs
 weight: 160
 url: /zh/net/aspose.words/conditionalstylecollection/getenumerator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/conditionalstylecollection/getenumerator/
 public IEnumerator<ConditionalStyle> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 展示如何使用表格的某些区域样式。
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyle](../../conditionalstyle/)
 * class [ConditionalStyleCollection](../)
-* 命名空间 [Aspose.Words](../../conditionalstylecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

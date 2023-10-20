@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.PopFont
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 检索先前保存在堆栈上的字符格式
+linktitle: PopFont
+articleTitle: PopFont
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder PopFont 方法. 检索先前保存在堆栈上的字符格式 在 C#.
 type: docs
-weight: 600
+weight: 590
 url: /zh/net/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder.PopFont method
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbuilder/popfont/
 public void PopFont()
 ```
 
-### 例子
+## 例子
 
 演示如何使用文档生成器的格式堆栈。
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 * property [Font](../font/)
 * method [PushFont](../pushfont/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

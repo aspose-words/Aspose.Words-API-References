@@ -1,7 +1,9 @@
 ---
 title: Style.IsQuickStyle
-second_title: Aspose.Words for .NET API 参考
-description: Style 财产. 指定此样式是否显示在 MS Word UI 内的快速样式库中
+linktitle: IsQuickStyle
+articleTitle: IsQuickStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: Style IsQuickStyle 财产. 指定此样式是否显示在 MS Word UI 内的快速样式库中 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/style/isquickstyle/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/style/isquickstyle/
 public bool IsQuickStyle { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问文档的样式集合。
 
@@ -42,7 +44,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 ### 也可以看看
 
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

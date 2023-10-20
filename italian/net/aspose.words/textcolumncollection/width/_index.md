@@ -1,7 +1,9 @@
 ---
 title: TextColumnCollection.Width
-second_title: Aspose.Words per .NET API Reference
-description: TextColumnCollection proprietà. Quando le colonne sono spaziate uniformemente ottiene la larghezza delle colonne.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words per .NET
+description: TextColumnCollection Width proprietà. Quando le colonne sono spaziate uniformemente ottiene la larghezza delle colonne in C#.
 type: docs
 weight: 60
 url: /it/net/aspose.words/textcolumncollection/width/
@@ -14,14 +16,12 @@ Quando le colonne sono spaziate uniformemente, ottiene la larghezza delle colonn
 public double Width { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Ha effetto solo quando[`EvenlySpaced`](../evenlyspaced/) è impostato per`VERO`.
 
 ### Guarda anche
 
 * class [TextColumnCollection](../)
-* spazio dei nomi [Aspose.Words](../../textcolumncollection/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

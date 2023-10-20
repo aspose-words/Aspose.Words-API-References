@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.RightIndent
-second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft den Wert in Punkten ab der den rechten Einzug für den Absatz darstellt oder legt diesen fest.
+linktitle: RightIndent
+articleTitle: RightIndent
+second_title: Aspose.Words für .NET
+description: ParagraphFormat RightIndent eigendom. Ruft den Wert in Punkten ab der den rechten Einzug für den Absatz darstellt oder legt diesen fest in C#.
 type: docs
 weight: 270
 url: /de/net/aspose.words/paragraphformat/rightindent/
@@ -14,7 +16,7 @@ Ruft den Wert (in Punkten) ab, der den rechten Einzug für den Absatz darstellt,
 public double RightIndent { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie die Absatzformatierung konfigurieren, um außermittigen Text zu erstellen.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetParagraphFormatting.docx");
 ### Siehe auch
 
 * class [ParagraphFormat](../)
-* namensraum [Aspose.Words](../../paragraphformat/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

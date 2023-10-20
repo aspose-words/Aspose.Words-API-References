@@ -1,7 +1,9 @@
 ---
 title: Node.NodeType
-second_title: Справочник по API Aspose.Words для .NET
-description: Node свойство. Получает тип этого узла.
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words для .NET
+description: Node NodeType свойство. Получает тип этого узла на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/node/nodetype/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/node/nodetype/
 public abstract NodeType NodeType { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать свойство NextSibling узла для перечисления его непосредственных дочерних элементов.
 
@@ -102,7 +104,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Node](../)
-* пространство имен [Aspose.Words](../../node/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

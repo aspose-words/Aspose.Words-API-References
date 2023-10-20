@@ -1,9 +1,11 @@
 ---
 title: Table.SetShading
-second_title: Aspose.Words för .NET API Referens
-description: Table metod. Ställer in skuggning till de angivna värdena på hela tabellen.
+linktitle: SetShading
+articleTitle: SetShading
+second_title: Aspose.Words för .NET
+description: Table SetShading metod. Ställer in skuggning till de angivna värdena på hela tabellen i C#.
 type: docs
-weight: 450
+weight: 430
 url: /sv/net/aspose.words.tables/table/setshading/
 ---
 ## Table.SetShading method
@@ -20,7 +22,7 @@ public void SetShading(TextureIndex texture, Color foregroundColor, Color backgr
 | foregroundColor | Color | Färgen på texturen. |
 | backgroundColor | Color | Färgen på bakgrundsfyllningen. |
 
-### Exempel
+## Exempel
 
 Visar hur man tillämpar en konturram på en tabell.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * enum [TextureIndex](../../../aspose.words/textureindex/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

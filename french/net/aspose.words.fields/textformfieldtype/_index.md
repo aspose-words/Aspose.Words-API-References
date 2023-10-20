@@ -1,7 +1,9 @@
 ---
-title: Enum TextFormFieldType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.TextFormFieldType énumération. Spécifie le type dun champ de formulaire de texte.
+title: TextFormFieldType Enum
+linktitle: TextFormFieldType
+articleTitle: TextFormFieldType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.TextFormFieldType énumération. Spécifie le type dun champ de formulaire de texte en C#.
 type: docs
 weight: 2770
 url: /fr/net/aspose.words.fields/textformfieldtype/
@@ -25,7 +27,7 @@ public enum TextFormFieldType
 | CurrentTime | `4` | La valeur du champ du formulaire de texte correspond à l'heure actuelle à laquelle le champ est mis à jour. |
 | Calculated | `5` | La valeur du champ du formulaire de texte est calculée à partir de l'expression spécifiée dans le[`TextInputDefault`](../formfield/textinputdefault/) propriété. |
 
-### Exemples
+## Exemples
 
 Montre comment créer des champs de formulaire.
 
@@ -54,5 +56,3 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

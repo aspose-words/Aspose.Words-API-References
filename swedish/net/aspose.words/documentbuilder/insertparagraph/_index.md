@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertParagraph
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar en styckebrytning i dokumentet.
+linktitle: InsertParagraph
+articleTitle: InsertParagraph
+second_title: Aspose.Words för .NET
+description: DocumentBuilder InsertParagraph metod. Infogar en styckebrytning i dokumentet i C#.
 type: docs
-weight: 430
+weight: 420
 url: /sv/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
@@ -18,7 +20,7 @@ public Paragraph InsertParagraph()
 
 Paragrafnoden som precis infogades. Det är samma nod som[`CurrentParagraph`](../currentparagraph/).
 
-### Anmärkningar
+## Anmärkningar
 
 Aktuell styckeformatering specificerad av[`ParagraphFormat`](../paragraphformat/) egendom används.
 
@@ -26,7 +28,7 @@ Delar det aktuella stycket i två delar. Efter att ha infogat stycket placeras m
 
 Ett undantag görs om det inte är möjligt att infoga en styckebrytning vid den aktuella markörpositionen.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett stycke i dokumentet.
 
@@ -59,7 +61,5 @@ Assert.True(builder.CurrentParagraph.IsEndOfDocument);
 
 * class [Paragraph](../../paragraph/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

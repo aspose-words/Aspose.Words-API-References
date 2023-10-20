@@ -1,7 +1,9 @@
 ---
 title: SdtListItem.DisplayText
-second_title: Справочник по API Aspose.Words для .NET
-description: SdtListItem свойство. Получает текст отображаемый в содержимом выполнения вместоValue содержимое атрибута для этого элемента списка.
+linktitle: DisplayText
+articleTitle: DisplayText
+second_title: Aspose.Words для .NET
+description: SdtListItem DisplayText свойство. Получает текст отображаемый в содержимом выполнения вместоValue содержимое атрибута для этого элемента списка на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/sdtlistitem/displaytext/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.markup/sdtlistitem/displaytext/
 public string DisplayText { get; }
 ```
 
-### Примечания
+## Примечания
 
 Не может быть`нулевой` и не может быть пустой строкой.
 
-### Примеры
+## Примеры
 
 Показывает, как работать с тегами структурированных документов с раскрывающимся списком.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Смотрите также
 
 * class [SdtListItem](../)
-* пространство имен [Aspose.Words.Markup](../../sdtlistitem/)
+* пространство имен [Aspose.Words.Markup](../../../aspose.words.markup/)
 * сборка [Aspose.Words](../../../)
-
-

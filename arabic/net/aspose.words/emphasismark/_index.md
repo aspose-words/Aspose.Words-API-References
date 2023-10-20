@@ -1,7 +1,9 @@
 ---
-title: Enum EmphasisMark
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.EmphasisMark تعداد. يحدد الأنواع المحتملة لعلامات التركيز.
+title: EmphasisMark Enum
+linktitle: EmphasisMark
+articleTitle: EmphasisMark
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.EmphasisMark تعداد. يحدد الأنواع المحتملة لعلامات التركيز في C#.
 type: docs
 weight: 1460
 url: /ar/net/aspose.words/emphasismark/
@@ -24,7 +26,7 @@ public enum EmphasisMark
 | OverWhiteCircle | `3` | علامة التوكيد عبارة عن دائرة بيضاء فارغة معروضة أعلى النص. |
 | UnderSolidCircle | `4` | علامة التوكيد عبارة عن دائرة سوداء صلبة معروضة أسفل النص. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة حرف إضافي معروض أعلى/أسفل الحرف الرسومي.
 
@@ -47,5 +49,3 @@ builder.Document.Save(ArtifactsDir + "Fonts.SetEmphasisMark.docx");
 
 * مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
-
-

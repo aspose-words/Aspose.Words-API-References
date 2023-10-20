@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.XPath
-second_title: Aspose.Words för .NET API Referens
-description: XmlMapping fast egendom. Returnerar XPathuttrycket som utvärderas för att hitta den anpassade XMLnoden som är mappad till den överordnade strukturerade dokumenttaggen.
+linktitle: XPath
+articleTitle: XPath
+second_title: Aspose.Words för .NET
+description: XmlMapping XPath fast egendom. Returnerar XPathuttrycket som utvärderas för att hitta den anpassade XMLnoden som är mappad till den överordnade strukturerade dokumenttaggen i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.markup/xmlmapping/xpath/
@@ -14,7 +16,7 @@ Returnerar XPath-uttrycket, som utvärderas för att hitta den anpassade XML-nod
 public string XPath { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du ställer in XML-mappningar för anpassade XML-delar.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Se även
 
 * class [XmlMapping](../)
-* namnutrymme [Aspose.Words.Markup](../../xmlmapping/)
+* namnutrymme [Aspose.Words.Markup](../../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../../)
-
-

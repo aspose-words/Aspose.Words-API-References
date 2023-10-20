@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.AxisBetweenCategories
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 获取或设置一个标志指示值轴是否与类别之间的类别轴相交
+linktitle: AxisBetweenCategories
+articleTitle: AxisBetweenCategories
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis AxisBetweenCategories 财产. 获取或设置一个标志指示值轴是否与类别之间的类别轴相交 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
 public bool AxisBetweenCategories { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性仅对值轴有效。 MS Office 2016 新图表不支持它。
 
-### 例子
+## 例子
 
 演示如何使图形轴在自定义位置交叉。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Charts.AxisCross.docx");
 ### 也可以看看
 
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

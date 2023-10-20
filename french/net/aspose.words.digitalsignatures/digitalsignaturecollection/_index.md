@@ -1,7 +1,9 @@
 ---
-title: Class DigitalSignatureCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection classe. Fournit une collection en lecture seule de signatures numériques attachées à un document.
+title: DigitalSignatureCollection Class
+linktitle: DigitalSignatureCollection
+articleTitle: DigitalSignatureCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection classe. Fournit une collection en lecture seule de signatures numériques attachées à un document en C#.
 type: docs
 weight: 390
 url: /fr/net/aspose.words.digitalsignatures/digitalsignaturecollection/
@@ -36,11 +38,11 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/)() | Renvoie un objet énumérateur de dictionnaire qui peut être utilisé pour parcourir tous les éléments de la collection. |
 
-### Remarques
+## Remarques
 
 [`DigitalSignatures`](../../aspose.words/document/digitalsignatures/)
 
-### Exemples
+## Exemples
 
 Montre comment valider et afficher des informations sur chaque signature dans un document.
 
@@ -102,5 +104,3 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 * class [DigitalSignature](../digitalsignature/)
 * espace de noms [Aspose.Words.DigitalSignatures](../../aspose.words.digitalsignatures/)
 * Assemblée [Aspose.Words](../../)
-
-

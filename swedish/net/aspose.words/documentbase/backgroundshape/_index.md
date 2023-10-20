@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.BackgroundShape
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBase fast egendom. Hämtar eller ställer in bakgrundsformen för dokumentet. Kan varanull .
+linktitle: BackgroundShape
+articleTitle: BackgroundShape
+second_title: Aspose.Words för .NET
+description: DocumentBase BackgroundShape fast egendom. Hämtar eller ställer in bakgrundsformen för dokumentet. Kan varanull  i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/documentbase/backgroundshape/
@@ -14,7 +16,7 @@ Hämtar eller ställer in bakgrundsformen för dokumentet. Kan vara`null` .
 public Shape BackgroundShape { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Microsoft Word tillåter endast en form som har sin[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) egenskap lika tillRectangle ska användas som bakgrundsform för ett dokument.
 
@@ -22,7 +24,7 @@ Microsoft Word stöder endast fyllningsegenskaperna för en bakgrundsform. Alla 
 
 Om du ställer in den här egenskapen till ett icke-nullvärde ställs också in[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) till`Sann`.
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in en bakgrundsform för varje sida i ett dokument.
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf", saveOptions);
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBase](../)
-* namnutrymme [Aspose.Words](../../documentbase/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

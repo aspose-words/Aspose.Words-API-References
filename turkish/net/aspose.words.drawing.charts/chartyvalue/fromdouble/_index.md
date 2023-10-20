@@ -1,7 +1,9 @@
 ---
 title: ChartYValue.FromDouble
-second_title: Aspose.Words for .NET API Referansı
-description: ChartYValue yöntem. Bir oluştururChartYValue örneğiDouble type.
+linktitle: FromDouble
+articleTitle: FromDouble
+second_title: Aspose.Words for .NET
+description: ChartYValue FromDouble yöntem. Bir oluştururChartYValue örneğiDouble type C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/chartyvalue/fromdouble/
@@ -14,7 +16,7 @@ Bir oluşturur[`ChartYValue`](../) örneğiDouble type.
 public static ChartYValue FromDouble(double value)
 ```
 
-### Örnekler
+## Örnekler
 
 Grafik serisinin verilerle nasıl doldurulacağını gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ### Ayrıca bakınız
 
 * class [ChartYValue](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartyvalue/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Stroke.StartArrowLength
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. يحدد طول رأس السهم لبداية السكتة الدماغية.
+linktitle: StartArrowLength
+articleTitle: StartArrowLength
+second_title: Aspose.Words لـ .NET
+description: Stroke StartArrowLength ملكية. يحدد طول رأس السهم لبداية السكتة الدماغية في C#.
 type: docs
-weight: 170
+weight: 160
 url: /ar/net/aspose.words.drawing/stroke/startarrowlength/
 ---
 ## Stroke.StartArrowLength property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/startarrowlength/
 public ArrowLength StartArrowLength { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هيMedium.
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowLength](../../arrowlength/)
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

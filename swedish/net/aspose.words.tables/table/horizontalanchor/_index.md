@@ -1,7 +1,9 @@
 ---
 title: Table.HorizontalAnchor
-second_title: Aspose.Words för .NET API Referens
-description: Table fast egendom. Hämtar basobjektet från vilket den horisontella positioneringen av flytande tabell ska beräknas. Standardvärdet ärColumn .
+linktitle: HorizontalAnchor
+articleTitle: HorizontalAnchor
+second_title: Aspose.Words för .NET
+description: Table HorizontalAnchor fast egendom. Hämtar basobjektet från vilket den horisontella positioneringen av flytande tabell ska beräknas. Standardvärdet ärColumn  i C#.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.tables/table/horizontalanchor/
@@ -14,7 +16,7 @@ Hämtar basobjektet från vilket den horisontella positioneringen av flytande ta
 public RelativeHorizontalPosition HorizontalAnchor { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med egenskaper för flytande tabeller.
 
@@ -43,7 +45,5 @@ if (table.TextWrapping == TextWrapping.Around)
 
 * enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * class [Table](../)
-* namnutrymme [Aspose.Words.Tables](../../table/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

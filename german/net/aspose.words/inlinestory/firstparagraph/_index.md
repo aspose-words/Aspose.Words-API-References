@@ -1,7 +1,9 @@
 ---
 title: InlineStory.FirstParagraph
-second_title: Aspose.Words für .NET-API-Referenz
-description: InlineStory eigendom. Ruft den ersten Absatz in der Geschichte ab.
+linktitle: FirstParagraph
+articleTitle: FirstParagraph
+second_title: Aspose.Words für .NET
+description: InlineStory FirstParagraph eigendom. Ruft den ersten Absatz in der Geschichte ab in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words/inlinestory/firstparagraph/
@@ -14,7 +16,7 @@ Ruft den ersten Absatz in der Geschichte ab.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Absatz einen Kommentar hinzufügt.
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [InlineStory](../)
-* namensraum [Aspose.Words](../../inlinestory/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

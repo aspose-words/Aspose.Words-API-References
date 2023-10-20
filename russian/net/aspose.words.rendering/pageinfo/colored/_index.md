@@ -1,7 +1,9 @@
 ---
 title: PageInfo.Colored
-second_title: Справочник по API Aspose.Words для .NET
-description: PageInfo свойство. Возвращаетистинный если страница содержит цветной контент.
+linktitle: Colored
+articleTitle: Colored
+second_title: Aspose.Words для .NET
+description: PageInfo Colored свойство. Возвращаетистинный если страница содержит цветной контент на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.rendering/pageinfo/colored/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.rendering/pageinfo/colored/
 public bool Colored { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить, цветная страница или нет.
 
@@ -28,7 +30,5 @@ Assert.IsFalse(doc.GetPageInfo(0).Colored);
 ### Смотрите также
 
 * class [PageInfo](../)
-* пространство имен [Aspose.Words.Rendering](../../pageinfo/)
+* пространство имен [Aspose.Words.Rendering](../../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../../)
-
-

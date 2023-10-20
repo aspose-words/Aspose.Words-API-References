@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.ExportPageSetup
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает экспортируются ли настройки страницы в HTML MHTML или EPUB. Значение по умолчаниюЛОЖЬ .
+linktitle: ExportPageSetup
+articleTitle: ExportPageSetup
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions ExportPageSetup свойство. Указывает экспортируются ли настройки страницы в HTML MHTML или EPUB. Значение по умолчаниюЛОЖЬ  на С#.
 type: docs
 weight: 220
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
 public bool ExportPageSetup { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Каждый[`Section`](../../../aspose.words/section/) в модели документа Aspose.Words предоставляется информация о настройке страницы через[`PageSetup`](../../../aspose.words/pagesetup/) сорт. При экспорте документа в формат HTML вам может потребоваться сохранить эту информацию для дальнейшего использования. В частности, настройка страницы может быть важна для рендеринга на постраничный носитель (печать) или последующего преобразования в собственные форматы файлов Microsoft Word (DOCX, DOC, RTF, WML).
 
 В большинстве случаев HTML предназначен для просмотра в браузерах, где не выполняется нумерация страниц. Таким образом, эта функция по умолчанию неактивна.
 
-### Примеры
+## Примеры
 
 Показывает, как решить, следует ли сохранять структуру раздела/настройки страницы при сохранении в HTML.
 
@@ -80,7 +82,5 @@ else
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

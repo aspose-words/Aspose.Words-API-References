@@ -1,7 +1,9 @@
 ---
 title: TableStyle.ConditionalStyles
-second_title: Aspose.Words für .NET-API-Referenz
-description: TableStyle eigendom. Sammlung bedingter Stile die für diesen Tabellenstil definiert werden können.
+linktitle: ConditionalStyles
+articleTitle: ConditionalStyles
+second_title: Aspose.Words für .NET
+description: TableStyle ConditionalStyles eigendom. Sammlung bedingter Stile die für diesen Tabellenstil definiert werden können in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/tablestyle/conditionalstyles/
@@ -14,7 +16,7 @@ Sammlung bedingter Stile, die für diesen Tabellenstil definiert werden können.
 public ConditionalStyleCollection ConditionalStyles { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -85,7 +87,5 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * class [ConditionalStyleCollection](../../conditionalstylecollection/)
 * class [TableStyle](../)
-* namensraum [Aspose.Words](../../tablestyle/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

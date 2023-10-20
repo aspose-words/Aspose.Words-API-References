@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.EndColumnBookmark
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. يحدد الموضع الحالي في المستند كنهاية إشارة مرجعية للعمود. يجب أن يكون الموضع في خلية الجدول.
+linktitle: EndColumnBookmark
+articleTitle: EndColumnBookmark
+second_title: Aspose.Words لـ .NET
+description: DocumentBuilder EndColumnBookmark طريقة. يحدد الموضع الحالي في المستند كنهاية إشارة مرجعية للعمود. يجب أن يكون الموضع في خلية الجدول في C#.
 type: docs
 weight: 220
 url: /ar/net/aspose.words/documentbuilder/endcolumnbookmark/
@@ -22,7 +24,7 @@ public BookmarkEnd EndColumnBookmark(string bookmarkName)
 
 عقدة نهاية الإشارة المرجعية التي تم إنشاؤها للتو.
 
-### ملاحظات
+## ملاحظات
 
 تغطي الإشارة المرجعية للعمود عمودًا واحدًا أو أكثر في نطاق من الصفوف. لإنشاء إشارة مرجعية صالحة، يجب عليك الاتصال بكليهما[`StartColumnBookmark`](../startcolumnbookmark/) و`EndColumnBookmark` بنفس *bookmarkName*معامل.
 
@@ -30,7 +32,7 @@ public BookmarkEnd EndColumnBookmark(string bookmarkName)
 
 الموضع الفعلي للإدراج[`BookmarkEnd`](../../bookmarkend/) قد تختلف العقدة عن موضع منشئ document الحالي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء إشارة مرجعية للعمود.
 
@@ -77,7 +79,5 @@ doc.Save(ArtifactsDir + "Bookmarks.CreateColumnBookmark.docx");
 
 * class [BookmarkEnd](../../bookmarkend/)
 * class [DocumentBuilder](../)
-* مساحة الاسم [Aspose.Words](../../documentbuilder/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

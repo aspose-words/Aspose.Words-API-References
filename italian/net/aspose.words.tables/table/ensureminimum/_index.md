@@ -1,9 +1,11 @@
 ---
 title: Table.EnsureMinimum
-second_title: Aspose.Words per .NET API Reference
-description: Table metodo. Se la tabella non ha righe ne crea e ne aggiunge unaRow .
+linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
+second_title: Aspose.Words per .NET
+description: Table EnsureMinimum metodo. Se la tabella non ha righe ne crea e ne aggiunge unaRow  in C#.
 type: docs
-weight: 420
+weight: 400
 url: /it/net/aspose.words.tables/table/ensureminimum/
 ---
 ## Table.EnsureMinimum method
@@ -14,7 +16,7 @@ Se la tabella non ha righe, ne crea e ne aggiunge una[`Row`](../../row/) .
 public void EnsureMinimum()
 ```
 
-### Esempi
+## Esempi
 
 Mostra come garantire che un nodo di tabella contenga i nodi necessari per aggiungere contenuto.
 
@@ -37,7 +39,5 @@ table.FirstRow.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!")
 ### Guarda anche
 
 * class [Table](../)
-* spazio dei nomi [Aspose.Words.Tables](../../table/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

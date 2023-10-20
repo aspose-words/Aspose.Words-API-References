@@ -1,7 +1,9 @@
 ---
 title: Font.TintAndShade
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين قيمة مزدوجة تعمل على تفتيح اللون أو تغميقه.
+linktitle: TintAndShade
+articleTitle: TintAndShade
+second_title: Aspose.Words لـ .NET
+description: Font TintAndShade ملكية. الحصول على أو تعيين قيمة مزدوجة تعمل على تفتيح اللون أو تغميقه في C#.
 type: docs
 weight: 520
 url: /ar/net/aspose.words/font/tintandshade/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words/font/tintandshade/
 public double TintAndShade { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تتراوح القيم المسموح بها من -1 (الأغمق) إلى 1 (الأفتح) لهذه الخاصية. الصفر (0) محايد. محاولة تعيين هذه الخاصية إلى قيمة أقل من -1 أو أكثر من 1 تؤدي إلىArgumentOutOfRangeException.
 
 تعيين هذه الخاصية ل[`Font`](../) كائن ذو ألوان غير موضوعية يؤدي إلى aInvalidOperationException.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء واستخدام النمط الموضوعي.
 
@@ -43,7 +45,5 @@ builder.Writeln("Text with themed style");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: TaskPane.IsVisible
-second_title: Aspose.Words för .NET API Referens
-description: TaskPane fast egendom. Anger om aktivitetsfönstret visas som standard när dokumentet öppnas.
+linktitle: IsVisible
+articleTitle: IsVisible
+second_title: Aspose.Words för .NET
+description: TaskPane IsVisible fast egendom. Anger om aktivitetsfönstret visas som standard när dokumentet öppnas i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.webextensions/taskpane/isvisible/
@@ -14,7 +16,7 @@ Anger om aktivitetsfönstret visas som standard när dokumentet öppnas.
 public bool IsVisible { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -59,7 +61,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Se även
 
 * class [TaskPane](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../taskpane/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

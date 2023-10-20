@@ -1,7 +1,9 @@
 ---
-title: Enum EmbeddedFontFormat
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fonts.EmbeddedFontFormat uppräkning. Anger formatet för ett visst inbäddat teckensnitt inutiFontInfo objekt.
+title: EmbeddedFontFormat Enum
+linktitle: EmbeddedFontFormat
+articleTitle: EmbeddedFontFormat
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fonts.EmbeddedFontFormat uppräkning. Anger formatet för ett visst inbäddat teckensnitt inutiFontInfo objekt i C#.
 type: docs
 weight: 2850
 url: /sv/net/aspose.words.fonts/embeddedfontformat/
@@ -23,7 +25,7 @@ public enum EmbeddedFontFormat
 | EmbeddedOpenType | `0` | Anger Embedded OpenType (EOT) filformat. |
 | OpenType | `1` | Anger teckensnitt, inbäddat som vanlig kopia av OpenType (TrueType) teckensnittsfil. |
 
-### Exempel
+## Exempel
 
 Visar hur man extraherar ett inbäddat teckensnitt från ett dokument och sparar det i det lokala filsystemet.
 
@@ -51,5 +53,3 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
-
-

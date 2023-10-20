@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CellFormat
-second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Gibt ein Objekt zurück das die aktuellen Formatierungseigenschaften der Tabellenzelle darstellt.
+linktitle: CellFormat
+articleTitle: CellFormat
+second_title: Aspose.Words für .NET
+description: DocumentBuilder CellFormat eigendom. Gibt ein Objekt zurück das die aktuellen Formatierungseigenschaften der Tabellenzelle darstellt in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words/documentbuilder/cellformat/
@@ -14,7 +16,7 @@ Gibt ein Objekt zurück, das die aktuellen Formatierungseigenschaften der Tabell
 public CellFormat CellFormat { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Zellen mit einem Document Builder formatiert werden.
 
@@ -164,7 +166,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [CellFormat](../../../aspose.words.tables/cellformat/)
 * class [DocumentBuilder](../)
-* namensraum [Aspose.Words](../../documentbuilder/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

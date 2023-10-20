@@ -1,7 +1,9 @@
 ---
 title: FieldMergeField.TextAfter
-second_title: Aspose.Words för .NET API Referens
-description: FieldMergeField fast egendom. Hämtar eller ställer in texten som ska infogas efter fältet om fältet inte är tomt.
+linktitle: TextAfter
+articleTitle: TextAfter
+second_title: Aspose.Words för .NET
+description: FieldMergeField TextAfter fast egendom. Hämtar eller ställer in texten som ska infogas efter fältet om fältet inte är tomt i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldmergefield/textafter/
@@ -14,7 +16,7 @@ Hämtar eller ställer in texten som ska infogas efter fältet om fältet inte �
 public string TextAfter { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder MERGEFIELD-fält för att utföra en e-postkoppling.
 
@@ -56,7 +58,5 @@ Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim()
 ### Se även
 
 * class [FieldMergeField](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldmergefield/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

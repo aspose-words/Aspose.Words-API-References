@@ -1,12 +1,14 @@
 ---
 title: DigitalSignatureUtil.Sign
-second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignatureUtil طريقة. يوقع المستند المصدر باستخدام المحددCertificateHolder وSignOptions مع التوقيع الرقمي ويكتب المستند الموقع إلى التدفق الوجهة.
+linktitle: Sign
+articleTitle: Sign
+second_title: Aspose.Words لـ .NET
+description: DigitalSignatureUtil Sign طريقة. يوقع المستند المصدر باستخدام المحددCertificateHolder وSignOptions مع التوقيع الرقمي ويكتب المستند الموقع إلى التدفق الوجهة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
-## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
+## Sign(*Stream, Stream, [CertificateHolder](../../certificateholder/), [SignOptions](../../signoptions/)*) {#sign_1}
 
 يوقع المستند المصدر باستخدام المحدد[`CertificateHolder`](../../certificateholder/) و[`SignOptions`](../../signoptions/) مع التوقيع الرقمي ويكتب المستند الموقع إلى التدفق الوجهة.
 
@@ -26,7 +28,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) الكائن ذو الشهادة المستخدمة لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة علامة X509KeyStorageFlags.Exportable. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions/) كائن مع خيارات التوقيع المختلفة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع المستندات رقميًا.
 
@@ -57,12 +59,12 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 * class [CertificateHolder](../../certificateholder/)
 * class [SignOptions](../../signoptions/)
 * class [DigitalSignatureUtil](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
+## Sign(*string, string, [CertificateHolder](../../certificateholder/), [SignOptions](../../signoptions/)*) {#sign_3}
 
 يوقع المستند المصدر باستخدام المحدد[`CertificateHolder`](../../certificateholder/) و[`SignOptions`](../../signoptions/) مع التوقيع الرقمي ويكتب المستند الموقع إلى الملف الوجهة.
 
@@ -80,7 +82,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) الكائن ذو الشهادة المستخدمة لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة علامة X509KeyStorageFlags.Exportable. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions/) كائن مع خيارات التوقيع المختلفة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة سطر توقيع إلى مستند، ثم التوقيع عليه باستخدام شهادة رقمية.
 
@@ -198,12 +200,12 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 * class [CertificateHolder](../../certificateholder/)
 * class [SignOptions](../../signoptions/)
 * class [DigitalSignatureUtil](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Sign(Stream, Stream, CertificateHolder) {#sign}
+## Sign(*Stream, Stream, [CertificateHolder](../../certificateholder/)*) {#sign}
 
 يوقع المستند المصدر باستخدام المحدد[`CertificateHolder`](../../certificateholder/)باستخدام التوقيع الرقمي ويكتب المستند الموقع إلى التدفق الوجهة.
 
@@ -221,7 +223,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | dstStream | Stream | ستتم كتابة الدفق الذي تم توقيع المستند إليه. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) الكائن ذو الشهادة المستخدمة لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة علامة X509KeyStorageFlags.Exportable. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع المستندات بشهادات X.509.
 
@@ -265,12 +267,12 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignatureUtil](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## Sign(string, string, CertificateHolder) {#sign_2}
+## Sign(*string, string, [CertificateHolder](../../certificateholder/)*) {#sign_2}
 
 يوقع المستند المصدر باستخدام المحدد[`CertificateHolder`](../../certificateholder/) باستخدام التوقيع الرقمي ويكتب المستند الموقع إلى الملف الوجهة.
 
@@ -286,7 +288,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | dstFileName | String | اسم الملف لمخرجات الوثيقة الموقعة. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) الكائن ذو الشهادة المستخدمة لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة علامة X509KeyStorageFlags.Exportable. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع المستندات بشهادات X.509.
 
@@ -330,7 +332,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 * class [CertificateHolder](../../certificateholder/)
 * class [DigitalSignatureUtil](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.MarkupLanguage
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Får MarkupLanguage som används för detta grafiska objekt.
+linktitle: MarkupLanguage
+articleTitle: MarkupLanguage
+second_title: Aspose.Words för .NET
+description: ShapeBase MarkupLanguage fast egendom. Får MarkupLanguage som används för detta grafiska objekt i C#.
 type: docs
 weight: 390
 url: /sv/net/aspose.words.drawing/shapebase/markuplanguage/
@@ -14,7 +16,7 @@ Får MarkupLanguage som används för detta grafiska objekt.
 public ShapeMarkupLanguage MarkupLanguage { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du verifierar en forms storlek och märkningsspråk.
 
@@ -32,7 +34,5 @@ Assert.AreEqual(new SizeF(300, 300), shape.SizeInPoints);
 
 * enum [ShapeMarkupLanguage](../../shapemarkuplanguage/)
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

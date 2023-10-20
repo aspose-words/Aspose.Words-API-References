@@ -1,7 +1,9 @@
 ---
-title: Enum ShadowType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.ShadowType enum. Specifica il tipo di ombra della forma.
+title: ShadowType Enum
+linktitle: ShadowType
+articleTitle: ShadowType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.ShadowType enum. Specifica il tipo di ombra della forma in C#.
 type: docs
 weight: 1240
 url: /it/net/aspose.words.drawing/shadowtype/
@@ -63,11 +65,11 @@ public enum ShadowType
 | Shadow8 | `8` | Ottavo tipo di ombra. |
 | Shadow9 | `9` | Nono tipo di ombra. |
 
-### Osservazioni
+## Osservazioni
 
 ShadowType non è un semplice attributo, ma un preset che imposta contemporaneamente diversi attributi che formano l'aspetto dell'ombra.
 
-### Esempi
+## Esempi
 
 Mostra come utilizzare la formattazione dell'ombra per la forma.
 
@@ -86,5 +88,3 @@ if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
 
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum TextureIndex
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.TextureIndex uppräkning. Anger skuggningsstruktur.
+title: TextureIndex Enum
+linktitle: TextureIndex
+articleTitle: TextureIndex
+second_title: Aspose.Words för .NET
+description: Aspose.Words.TextureIndex uppräkning. Anger skuggningsstruktur i C#.
 type: docs
 weight: 6450
 url: /sv/net/aspose.words/textureindex/
@@ -73,7 +75,7 @@ public enum TextureIndex
 | TextureVertical | `21` |  |
 | TextureNil | `65535` | Anger att det inte ska användas något mönster på det aktuella skuggade området (dvs mönstret ska vara en komplett fyllning med bakgrundsfärgen). |
 
-### Exempel
+## Exempel
 
 Visar hur man dekorerar text med kanter och skuggningar.
 
@@ -126,5 +128,3 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

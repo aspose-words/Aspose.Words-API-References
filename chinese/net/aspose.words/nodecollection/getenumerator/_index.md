@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: NodeCollection 方法. 在节点集合上提供简单的foreach样式迭代
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: NodeCollection GetEnumerator 方法. 在节点集合上提供简单的foreach样式迭代 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/nodecollection/getenumerator/
@@ -22,7 +24,5 @@ public IEnumerator<Node> GetEnumerator()
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* 命名空间 [Aspose.Words](../../nodecollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Paragraph.NodeType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Paragraph propriété. RetoursParagraph .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words pour .NET
+description: Paragraph NodeType propriété. RetoursParagraph  en C#.
 type: docs
 weight: 170
 url: /fr/net/aspose.words/paragraph/nodetype/
@@ -14,7 +16,7 @@ RetoursParagraph .
 public override NodeType NodeType { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Paragraph](../)
-* espace de noms [Aspose.Words](../../paragraph/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

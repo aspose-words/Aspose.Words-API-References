@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Characters
-second_title: Referencia de API de Aspose.Words para .NET
-description: BuiltInDocumentProperties propiedad. Representa una estimación del número de caracteres del documento.
+linktitle: Characters
+articleTitle: Characters
+second_title: Aspose.Words para .NET
+description: BuiltInDocumentProperties Characters propiedad. Representa una estimación del número de caracteres del documento en C#.
 type: docs
 weight: 40
 url: /es/net/aspose.words.properties/builtindocumentproperties/characters/
@@ -14,11 +16,11 @@ Representa una estimación del número de caracteres del documento.
 public int Characters { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Aspose.Words actualiza esta propiedad cuando llamas[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo actualizar todas las etiquetas de lista en un documento.
 
@@ -160,7 +162,5 @@ private class LineCounter
 ### Ver también
 
 * class [BuiltInDocumentProperties](../)
-* espacio de nombres [Aspose.Words.Properties](../../builtindocumentproperties/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ListCollection.GetListByListId
-second_title: Aspose.Words for .NET API Referansı
-description: ListCollection yöntem. Liste tanımlayıcısına göre bir liste alır.
+linktitle: GetListByListId
+articleTitle: GetListByListId
+second_title: Aspose.Words for .NET
+description: ListCollection GetListByListId yöntem. Liste tanımlayıcısına göre bir liste alır C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.lists/listcollection/getlistbylistid/
@@ -22,11 +24,11 @@ public List GetListByListId(int listId)
 
 Liste nesnesini döndürür. İadeler`hükümsüz` belirtilen tanımlayıcıya sahip bir liste bulunamazsa.
 
-### Notlar
+## Notlar
 
 Normalde bu yöntemi kullanmanıza gerek yoktur. Çoğu zaman liste biçimlendirme 'yi paragraflara yalnızca ayarlarla uygularsınız.[`List`](../../listformat/list/) property /[`ListFormat`](../../listformat/) nesne.
 
-### Örnekler
+## Örnekler
 
 Listelerin sahip belge özelliklerinin nasıl doğrulanacağını gösterir.
 
@@ -49,7 +51,5 @@ Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equ
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* ad alanı [Aspose.Words.Lists](../../listcollection/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

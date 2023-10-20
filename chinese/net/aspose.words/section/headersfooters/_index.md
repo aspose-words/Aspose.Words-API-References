@@ -1,7 +1,9 @@
 ---
 title: Section.HeadersFooters
-second_title: Aspose.Words for .NET API 参考
-description: Section 财产. 提供对节的页眉和页脚节点的访问
+linktitle: HeadersFooters
+articleTitle: HeadersFooters
+second_title: 用于 .NET 的 Aspose.Words
+description: Section HeadersFooters 财产. 提供对节的页眉和页脚节点的访问 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/section/headersfooters/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/section/headersfooters/
 public HeaderFooterCollection HeadersFooters { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何替换文档页脚中的文本。
 
@@ -67,7 +69,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 
 * class [HeaderFooterCollection](../../headerfootercollection/)
 * class [Section](../)
-* 命名空间 [Aspose.Words](../../section/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

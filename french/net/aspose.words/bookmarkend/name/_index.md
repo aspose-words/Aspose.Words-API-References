@@ -1,7 +1,9 @@
 ---
 title: BookmarkEnd.Name
-second_title: Référence de l'API Aspose.Words pour .NET
-description: BookmarkEnd propriété. Obtient ou définit le nom du signet.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words pour .NET
+description: BookmarkEnd Name propriété. Obtient ou définit le nom du signet en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/bookmarkend/name/
@@ -14,11 +16,11 @@ Obtient ou définit le nom du signet.
 public string Name { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 C'est pas possible`nul`.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter des signets et mettre à jour leur contenu.
 
@@ -107,7 +109,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 ### Voir également
 
 * class [BookmarkEnd](../)
-* espace de noms [Aspose.Words](../../bookmarkend/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.Separator
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabelCollection mülk. Tüm serinin veri etiketleri için kullanılan dize ayırıcıyı alır veya ayarlar. Yalnızca kategori adını ve yüzdesini gösteren pasta grafikleri dışında varsayılan değer virgüldür bunun yerine satır sonu kullanılacaktır.
+linktitle: Separator
+articleTitle: Separator
+second_title: Aspose.Words for .NET
+description: ChartDataLabelCollection Separator mülk. Tüm serinin veri etiketleri için kullanılan dize ayırıcıyı alır veya ayarlar. Yalnızca kategori adını ve yüzdesini gösteren pasta grafikleri dışında varsayılan değer virgüldür bunun yerine satır sonu kullanılacaktır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
@@ -14,11 +16,11 @@ Tüm serinin veri etiketleri için kullanılan dize ayırıcıyı alır veya aya
 public string Separator { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik için tanımlanan değer, the kullanılarak tek bir veri etiketi için geçersiz kılınabilir[`Separator`](../../chartdatalabel/separator/) özellik.
 
-### Örnekler
+## Örnekler
 
 Kabarcık grafiğinin veri etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -79,7 +81,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelsPieChart.docx");
 ### Ayrıca bakınız
 
 * class [ChartDataLabelCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

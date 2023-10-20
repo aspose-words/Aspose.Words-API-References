@@ -1,7 +1,9 @@
 ---
-title: FieldPage.FieldPage
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldPage строитель. Конструктор по умолчанию.
+title: FieldPage
+linktitle: FieldPage
+articleTitle: FieldPage
+second_title: Aspose.Words для .NET
+description: FieldPage строитель. Конструктор по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldpage/fieldpage/
@@ -17,7 +19,5 @@ public FieldPage()
 ### Смотрите также
 
 * class [FieldPage](../)
-* пространство имен [Aspose.Words.Fields](../../fieldpage/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

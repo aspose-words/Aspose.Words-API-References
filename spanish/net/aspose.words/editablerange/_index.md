@@ -1,7 +1,9 @@
 ---
-title: Class EditableRange
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.EditableRange clase. Representa un único rango editable.
+title: EditableRange Class
+linktitle: EditableRange
+articleTitle: EditableRange
+second_title: Aspose.Words para .NET
+description: Aspose.Words.EditableRange clase. Representa un único rango editable en C#.
 type: docs
 weight: 1420
 url: /es/net/aspose.words/editablerange/
@@ -32,11 +34,11 @@ public class EditableRange
 | --- | --- |
 | [Remove](../../aspose.words/editablerange/remove/)() | Elimina el rango editable del documento. No elimina contenido dentro del rango editable. |
 
-### Observaciones
+## Observaciones
 
 `EditableRange` es un objeto de "fachada" que encapsula dos nodos[`EditableRangeStart`](./editablerangestart/) y[`EditableRangeEnd`](./editablerangeend/) en un árbol de documentos y permite trabajar con un rango editable como un solo objeto.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con un rango editable.
 
@@ -189,5 +191,3 @@ public class EditableRangePrinter : DocumentVisitor
 
 * espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
-
-

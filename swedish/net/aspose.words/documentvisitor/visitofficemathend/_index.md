@@ -1,7 +1,9 @@
 ---
 title: DocumentVisitor.VisitOfficeMathEnd
-second_title: Aspose.Words för .NET API Referens
-description: DocumentVisitor metod. Anropas när uppräkningen av ett Office Mathobjekt har avslutats.
+linktitle: VisitOfficeMathEnd
+articleTitle: VisitOfficeMathEnd
+second_title: Aspose.Words för .NET
+description: DocumentVisitor VisitOfficeMathEnd metod. Anropas när uppräkningen av ett Office Mathobjekt har avslutats i C#.
 type: docs
 weight: 300
 url: /sv/net/aspose.words/documentvisitor/visitofficemathend/
@@ -22,7 +24,7 @@ public virtual VisitorAction VisitOfficeMathEnd(OfficeMath officeMath)
 
 A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
-### Exempel
+## Exempel
 
 Visar hur man skriver ut nodstrukturen för varje kontors matematisk nod i ett dokument.
 
@@ -116,7 +118,5 @@ public class OfficeMathStructurePrinter : DocumentVisitor
 * enum [VisitorAction](../../visitoraction/)
 * class [OfficeMath](../../../aspose.words.math/officemath/)
 * class [DocumentVisitor](../)
-* namnutrymme [Aspose.Words](../../documentvisitor/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

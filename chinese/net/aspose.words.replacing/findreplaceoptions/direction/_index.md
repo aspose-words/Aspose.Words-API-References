@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.Direction
-second_title: Aspose.Words for .NET API 参考
-description: FindReplaceOptions 财产. 选择替换方向默认值为Forward.
+linktitle: Direction
+articleTitle: Direction
+second_title: 用于 .NET 的 Aspose.Words
+description: FindReplaceOptions Direction 财产. 选择替换方向默认值为Forward 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.replacing/findreplaceoptions/direction/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.replacing/findreplaceoptions/direction/
 public FindReplaceDirection Direction { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何确定查找和替换操作遍历文档的方向。
 
@@ -81,7 +83,5 @@ private class TextReplacementRecorder : IReplacingCallback
 
 * enum [FindReplaceDirection](../../findreplacedirection/)
 * class [FindReplaceOptions](../)
-* 命名空间 [Aspose.Words.Replacing](../../findreplaceoptions/)
+* 命名空间 [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../../)
-
-

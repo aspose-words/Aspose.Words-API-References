@@ -1,9 +1,11 @@
 ---
 title: Stroke.Opacity
-second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. يحدد مقدار شفافية الحد. النطاق الصالح هو من 0 إلى 1.
+linktitle: Opacity
+articleTitle: Opacity
+second_title: Aspose.Words لـ .NET
+description: Stroke Opacity ملكية. يحدد مقدار شفافية الحد. النطاق الصالح هو من 0 إلى 1 في C#.
 type: docs
-weight: 160
+weight: 150
 url: /ar/net/aspose.words.drawing/stroke/opacity/
 ---
 ## Stroke.Opacity property
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/stroke/opacity/
 public double Opacity { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي 1.
 
-### أمثلة
+## أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
 
@@ -93,7 +95,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 ### أنظر أيضا
 
 * class [Stroke](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../stroke/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

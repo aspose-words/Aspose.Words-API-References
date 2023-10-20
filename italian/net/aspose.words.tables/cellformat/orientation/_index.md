@@ -1,9 +1,11 @@
 ---
 title: CellFormat.Orientation
-second_title: Aspose.Words per .NET API Reference
-description: CellFormat proprietà. Restituisce o imposta lorientamento del testo in una cella di tabella.
+linktitle: Orientation
+articleTitle: Orientation
+second_title: Aspose.Words per .NET
+description: CellFormat Orientation proprietà. Restituisce o imposta lorientamento del testo in una cella di tabella in C#.
 type: docs
-weight: 70
+weight: 60
 url: /it/net/aspose.words.tables/cellformat/orientation/
 ---
 ## CellFormat.Orientation property
@@ -14,7 +16,7 @@ Restituisce o imposta l'orientamento del testo in una cella di tabella.
 public TextOrientation Orientation { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare una tabella 2x2 formattata.
 
@@ -122,7 +124,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * enum [TextOrientation](../../../aspose.words/textorientation/)
 * class [CellFormat](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cellformat/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

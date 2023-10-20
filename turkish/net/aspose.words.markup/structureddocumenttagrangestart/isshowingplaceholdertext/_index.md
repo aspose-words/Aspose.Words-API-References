@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart mülk. Bu yapılandırılmış belge etiketinin içeriğinin yapılandırılmış belge etiketi içindeki normal metin içeriklerinin aksine yer tutucu metni içerecek şekilde yorumlanıp yorumlanmayacağını belirtir.
+linktitle: IsShowingPlaceholderText
+articleTitle: IsShowingPlaceholderText
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagRangeStart IsShowingPlaceholderText mülk. Bu yapılandırılmış belge etiketinin içeriğinin yapılandırılmış belge etiketi içindeki normal metin içeriklerinin aksine yer tutucu metni içerecek şekilde yorumlanıp yorumlanmayacağını belirtir C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
@@ -16,7 +18,7 @@ olarak ayarlanmışsa`doğru` , bu durum bu belge açıldığında devam ettiril
 public bool IsShowingPlaceholderText { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çok bölümlü yapılandırılmış belge etiketlerinin özelliklerinin nasıl alınacağını gösterir.
 
@@ -51,7 +53,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTagRangeStart](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagrangestart/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.CharactersWithSpaces
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. يمثل تقديرًا لعدد الأحرف بما في ذلك المسافات في المستند.
+linktitle: CharactersWithSpaces
+articleTitle: CharactersWithSpaces
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties CharactersWithSpaces ملكية. يمثل تقديرًا لعدد الأحرف بما في ذلك المسافات في المستند في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.properties/builtindocumentproperties/characterswithspaces/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/characterswithspa
 public int CharactersWithSpaces { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يقوم Aspose.Words بتحديث هذه الخاصية عند الاتصال[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند في فئة "المحتوى".
 
@@ -128,7 +130,5 @@ private class LineCounter
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

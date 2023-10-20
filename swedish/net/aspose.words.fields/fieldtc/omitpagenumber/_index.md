@@ -1,7 +1,9 @@
 ---
 title: FieldTC.OmitPageNumber
-second_title: Aspose.Words för .NET API Referens
-description: FieldTC fast egendom. Hämtar eller ställer in om sidnummer i innehållsförteckningen ska utelämnas för detta fält.
+linktitle: OmitPageNumber
+articleTitle: OmitPageNumber
+second_title: Aspose.Words för .NET
+description: FieldTC OmitPageNumber fast egendom. Hämtar eller ställer in om sidnummer i innehållsförteckningen ska utelämnas för detta fält i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldtc/omitpagenumber/
@@ -14,7 +16,7 @@ Hämtar eller ställer in om sidnummer i innehållsförteckningen ska utelämnas
 public bool OmitPageNumber { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar ett TOC-fält och filtrerar vilka TC-fält som slutar som poster.
 
@@ -66,7 +68,5 @@ public void InsertTocEntry(DocumentBuilder builder, string text, string typeIden
 ### Se även
 
 * class [FieldTC](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldtc/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

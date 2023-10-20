@@ -1,7 +1,9 @@
 ---
 title: IFieldResultFormatter.FormatDateTime
-second_title: Aspose.Words for .NET API Referansı
-description: IFieldResultFormatter yöntem. Aspose.Words tarih/saat formatı geçişini uyguladığında çağrılır yani  dd.MM.yyyy.
+linktitle: FormatDateTime
+articleTitle: FormatDateTime
+second_title: Aspose.Words for .NET
+description: IFieldResultFormatter FormatDateTime yöntem. Aspose.Words tarih/saat formatı geçişini uyguladığında çağrılır yani  dd.MM.yyyy C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/ifieldresultformatter/formatdatetime/
@@ -14,11 +16,11 @@ Aspose.Words tarih/saat formatı geçişini uyguladığında çağrılır, yani 
 public string FormatDateTime(DateTime value, string format, CalendarType calendarType)
 ```
 
-### Notlar
+## Notlar
 
 Uygulama geri dönmeli`hükümsüz` varsayılan biçimlendirmenin uygulanması gerektiğini belirtmek için.
 
-### Örnekler
+## Örnekler
 
 Alanlar güncellenirken özel bir biçimin alan sonuçlarına otomatik olarak nasıl uygulanacağını gösterir.
 
@@ -156,7 +158,5 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 * enum [CalendarType](../../../aspose.words/calendartype/)
 * interface [IFieldResultFormatter](../)
-* ad alanı [Aspose.Words.Fields](../../ifieldresultformatter/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Odso.DataSourceType
-second_title: Aspose.Words for .NET API 参考
-description: Odso 财产. 指定要连接到的外部数据源的类型作为此邮件合并的 ODSO 连接信息的一部分 默认值为Default.
+linktitle: DataSourceType
+articleTitle: DataSourceType
+second_title: 用于 .NET 的 Aspose.Words
+description: Odso DataSourceType 财产. 指定要连接到的外部数据源的类型作为此邮件合并的 ODSO 连接信息的一部分 默认值为Default 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.settings/odso/datasourcetype/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.settings/odso/datasourcetype/
 public OdsoDataSourceType DataSourceType { get; set; }
 ```
 
-### 评论
+## 评论
 
 此设置纯粹是用于此邮件合并的数据源类型的建议。
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * enum [OdsoDataSourceType](../../odsodatasourcetype/)
 * class [Odso](../)
-* 命名空间 [Aspose.Words.Settings](../../odso/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

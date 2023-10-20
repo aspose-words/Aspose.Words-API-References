@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.Document
-second_title: Aspose.Words for .NET API Referansı
-description: ImageSavingArgs mülk. Şu anda kaydedilmekte olan belge nesnesini alır.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words for .NET
+description: ImageSavingArgs Document mülk. Şu anda kaydedilmekte olan belge nesnesini alır C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/imagesavingargs/document/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words.saving/imagesavingargs/document/
 public Document Document { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Görüntü kaydetme geri aramasının HTML dönüştürme sürecine nasıl dahil edileceğini gösterir.
 
@@ -61,7 +63,5 @@ private class ImageShapePrinter : IImageSavingCallback
 
 * class [Document](../../../aspose.words/document/)
 * class [ImageSavingArgs](../)
-* ad alanı [Aspose.Words.Saving](../../imagesavingargs/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

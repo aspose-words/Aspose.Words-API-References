@@ -1,7 +1,9 @@
 ---
 title: Shape.Stroke
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 定义形状的笔划
+linktitle: Stroke
+articleTitle: Stroke
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape Stroke 财产. 定义形状的笔划 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.drawing/shape/stroke/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shape/stroke/
 public Stroke Stroke { get; }
 ```
 
-### 例子
+## 例子
 
 展示创造出各种形状。
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * class [Stroke](../../stroke/)
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

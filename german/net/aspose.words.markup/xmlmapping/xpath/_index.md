@@ -1,7 +1,9 @@
 ---
 title: XmlMapping.XPath
-second_title: Aspose.Words für .NET-API-Referenz
-description: XmlMapping eigendom. Gibt den XPathAusdruck zurück der ausgewertet wird um den benutzerdefinierten XMLKnoten zu finden der dem Tag des übergeordneten strukturierten Dokuments zugeordnet ist.
+linktitle: XPath
+articleTitle: XPath
+second_title: Aspose.Words für .NET
+description: XmlMapping XPath eigendom. Gibt den XPathAusdruck zurück der ausgewertet wird um den benutzerdefinierten XMLKnoten zu finden der dem Tag des übergeordneten strukturierten Dokuments zugeordnet ist in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.markup/xmlmapping/xpath/
@@ -14,7 +16,7 @@ Gibt den XPath-Ausdruck zurück, der ausgewertet wird, um den benutzerdefinierte
 public string XPath { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie XML-Zuordnungen für benutzerdefinierte XML-Teile festgelegt werden.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
 ### Siehe auch
 
 * class [XmlMapping](../)
-* namensraum [Aspose.Words.Markup](../../xmlmapping/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

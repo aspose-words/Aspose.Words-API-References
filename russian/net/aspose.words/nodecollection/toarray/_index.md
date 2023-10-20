@@ -1,7 +1,9 @@
 ---
 title: NodeCollection.ToArray
-second_title: Справочник по API Aspose.Words для .NET
-description: NodeCollection метод. Копирует все узлы из коллекции в новый массив узлов.
+linktitle: ToArray
+articleTitle: ToArray
+second_title: Aspose.Words для .NET
+description: NodeCollection ToArray метод. Копирует все узлы из коллекции в новый массив узлов на С#.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/nodecollection/toarray/
@@ -18,13 +20,13 @@ public Node[] ToArray()
 
 Массив узлов.
 
-### Примечания
+## Примечания
 
 Не следует добавлять/удалять узлы во время итерации по коллекции узлов , поскольку это делает итератор недействительным и требует обновления для живых коллекций.
 
 Чтобы иметь возможность добавлять/удалять узлы во время итерации, используйте этот метод для копирования узлов в массив фиксированного размера, а затем перебирайте массив.
 
-### Примеры
+## Примеры
 
 Показывает, как заменить все фигуры текстовых полей фигурами изображений.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 
 * class [Node](../../node/)
 * class [NodeCollection](../)
-* пространство имен [Aspose.Words](../../nodecollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum ConditionalStyleType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.ConditionalStyleType opsomming. Stellt mögliche Tabellenbereiche dar für die eine bedingte Formatierung in einem Tabellenstil definiert werden kann.
+title: ConditionalStyleType Enum
+linktitle: ConditionalStyleType
+articleTitle: ConditionalStyleType
+second_title: Aspose.Words für .NET
+description: Aspose.Words.ConditionalStyleType opsomming. Stellt mögliche Tabellenbereiche dar für die eine bedingte Formatierung in einem Tabellenstil definiert werden kann in C#.
 type: docs
 weight: 330
 url: /de/net/aspose.words/conditionalstyletype/
@@ -31,7 +33,7 @@ public enum ConditionalStyleType
 | BottomLeftCell | `10` | Gibt die Formatierung der unteren linken Zelle einer Tabelle an. |
 | BottomRightCell | `11` | Gibt die Formatierung der unteren rechten Zelle einer Tabelle an. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit bestimmten Bereichsstilen einer Tabelle gearbeitet wird.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

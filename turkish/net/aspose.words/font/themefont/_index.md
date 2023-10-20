@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFont
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Bununla ilişkili uygulanan yazı tipi şemasındaki tema yazı tipini alır veya ayarlar.Font nesne.
+linktitle: ThemeFont
+articleTitle: ThemeFont
+second_title: Aspose.Words for .NET
+description: Font ThemeFont mülk. Bununla ilişkili uygulanan yazı tipi şemasındaki tema yazı tipini alır veya ayarlar.Font nesne C#'da.
 type: docs
 weight: 470
 url: /tr/net/aspose.words/font/themefont/
@@ -14,7 +16,7 @@ Bununla ilişkili uygulanan yazı tipi şemasındaki tema yazı tipini alır vey
 public ThemeFont ThemeFont { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Temalı stilin nasıl oluşturulacağını ve kullanılacağını gösterir.
 
@@ -119,7 +121,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

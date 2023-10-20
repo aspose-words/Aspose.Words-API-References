@@ -1,7 +1,9 @@
 ---
 title: Row.FirstCell
-second_title: Referencia de API de Aspose.Words para .NET
-description: Row propiedad. Devuelve el primeroCell en la fila.
+linktitle: FirstCell
+articleTitle: FirstCell
+second_title: Aspose.Words para .NET
+description: Row FirstCell propiedad. Devuelve el primeroCell en la fila en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.tables/row/firstcell/
@@ -14,7 +16,7 @@ Devuelve el primero[`Cell`](../../cell/) en la fila.
 public Cell FirstCell { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo imprimir la estructura de nodos de cada tabla en un documento.
 
@@ -178,7 +180,5 @@ public class TableStructurePrinter : DocumentVisitor
 
 * class [Cell](../../cell/)
 * class [Row](../)
-* espacio de nombres [Aspose.Words.Tables](../../row/)
+* espacio de nombres [Aspose.Words.Tables](../../../aspose.words.tables/)
 * asamblea [Aspose.Words](../../../)
-
-

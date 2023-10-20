@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.DoNotUseHTMLParagraphAutoSpacing
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Использовать фиксированный интервал между абзацами для автоматической настройки HTML.
+linktitle: DoNotUseHTMLParagraphAutoSpacing
+articleTitle: DoNotUseHTMLParagraphAutoSpacing
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions DoNotUseHTMLParagraphAutoSpacing свойство. Использовать фиксированный интервал между абзацами для автоматической настройки HTML на С#.
 type: docs
 weight: 210
 url: /ru/net/aspose.words.settings/compatibilityoptions/donotusehtmlparagraphautospacing/
@@ -17,7 +19,5 @@ public bool DoNotUseHTMLParagraphAutoSpacing { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

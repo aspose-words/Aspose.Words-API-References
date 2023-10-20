@@ -1,7 +1,9 @@
 ---
 title: Font.NameFarEast
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. إرجاع أو تعيين اسم خط شرق آسيوي.
+linktitle: NameFarEast
+articleTitle: NameFarEast
+second_title: Aspose.Words لـ .NET
+description: Font NameFarEast ملكية. إرجاع أو تعيين اسم خط شرق آسيوي في C#.
 type: docs
 weight: 260
 url: /ar/net/aspose.words/font/namefareast/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/namefareast/
 public string NameFarEast { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج النص وتنسيقه بلغة الشرق الأقصى.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Font.FarEast.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

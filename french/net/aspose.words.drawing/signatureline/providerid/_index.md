@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.ProviderId
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SignatureLine propriété. Obtient ou définit lidentifiant du fournisseur de signature pour cette ligne de signature. La valeur par défaut est 00000000000000000000000000000000.
+linktitle: ProviderId
+articleTitle: ProviderId
+second_title: Aspose.Words pour .NET
+description: SignatureLine ProviderId propriété. Obtient ou définit lidentifiant du fournisseur de signature pour cette ligne de signature. La valeur par défaut est 00000000000000000000000000000000 en C#.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.drawing/signatureline/providerid/
@@ -14,7 +16,7 @@ Obtient ou définit l'identifiant du fournisseur de signature pour cette ligne d
 public Guid ProviderId { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Le fournisseur de services cryptographiques (CSP) est un module logiciel indépendant qui exécute réellement des algorithmes de cryptographie pour l'authentification, le codage et le cryptage. MS Office réserve la valeur de {00000000-0000-0000-0000-000000000000} pour son fournisseur de signature par défaut.
 
@@ -22,7 +24,7 @@ Le GUID du fournisseur supplémentaire installé doit être obtenu à partir de 
 
 De plus, tous les fournisseurs cryptographiques installés sont répertoriés dans le registre Windows. On le trouve dans le chemin suivant : HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Il existe un nom de clé « CP Service UUID » qui correspond à un GUID du fournisseur de signature.
 
-### Exemples
+## Exemples
 
 Montre comment signer un document avec un certificat personnel et une ligne de signature.
 
@@ -75,7 +77,5 @@ Assert.True(signatureLine.IsValid);
 ### Voir également
 
 * class [SignatureLine](../)
-* espace de noms [Aspose.Words.Drawing](../../signatureline/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

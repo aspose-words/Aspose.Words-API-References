@@ -1,7 +1,9 @@
 ---
-title: Class FieldBarcode
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldBarcode klas. Implementiert das BARCODEFeld.
+title: FieldBarcode Class
+linktitle: FieldBarcode
+articleTitle: FieldBarcode
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fields.FieldBarcode klas. Implementiert das BARCODEFeld in C#.
 type: docs
 weight: 1630
 url: /de/net/aspose.words.fields/fieldbarcode/
@@ -46,17 +48,17 @@ public class FieldBarcode : Field
 | Name | Beschreibung |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
 | [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
-### Bemerkungen
+## Bemerkungen
 
 Fügt einen Post-Barcode in eine maschinenlesbare Adressform ein, die vom US-Postdienst verwendet wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Feld BARCODE verwendet wird, um US-Postleitzahlen in Form eines Barcodes anzuzeigen.
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Field.BARCODE.docx");
 * class [Field](../field/)
 * namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
-
-

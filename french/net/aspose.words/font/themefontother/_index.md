@@ -1,7 +1,9 @@
 ---
 title: Font.ThemeFontOther
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Obtient ou définit la police de thème utilisée pour les caractères avec des codes de caractères compris entre 128 et 255 dans le jeu de polices appliqué associé à ce thème.Font objet.
+linktitle: ThemeFontOther
+articleTitle: ThemeFontOther
+second_title: Aspose.Words pour .NET
+description: Font ThemeFontOther propriété. Obtient ou définit la police de thème utilisée pour les caractères avec des codes de caractères compris entre 128 et 255 dans le jeu de polices appliqué associé à ce thème.Font objet en C#.
 type: docs
 weight: 510
 url: /fr/net/aspose.words/font/themefontother/
@@ -14,7 +16,7 @@ Obtient ou définit la police de thème utilisée pour les caractères avec des 
 public ThemeFont ThemeFontOther { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les polices et les couleurs du thème.
 
@@ -101,7 +103,5 @@ Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
 
 * enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * class [Font](../)
-* espace de noms [Aspose.Words](../../font/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

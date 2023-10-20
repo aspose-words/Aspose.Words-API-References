@@ -1,7 +1,9 @@
 ---
 title: FontInfo.IsTrueType
-second_title: Aspose.Words لمراجع .NET API
-description: FontInfo ملكية. يشير إلى أن هذا الخط هو خط TrueType أو OpenType بدلاً من الخط النقطي أو المتجه. الافتراضي هوحقيقي .
+linktitle: IsTrueType
+articleTitle: IsTrueType
+second_title: Aspose.Words لـ .NET
+description: FontInfo IsTrueType ملكية. يشير إلى أن هذا الخط هو خط TrueType أو OpenType بدلاً من الخط النقطي أو المتجه. الافتراضي هوحقيقي  في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fonts/fontinfo/istruetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fonts/fontinfo/istruetype/
 public bool IsTrueType { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية طباعة تفاصيل الخطوط الموجودة في المستند.
 
@@ -34,7 +36,5 @@ for (int i = 0; i < allFonts.Count; i++)
 ### أنظر أيضا
 
 * class [FontInfo](../)
-* مساحة الاسم [Aspose.Words.Fonts](../../fontinfo/)
+* مساحة الاسم [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,9 +1,11 @@
 ---
 title: Style.Name
-second_title: Aspose.Words for .NET API 参考
-description: Style 财产. 获取或设置样式的名称
+linktitle: Name
+articleTitle: Name
+second_title: 用于 .NET 的 Aspose.Words
+description: Style Name 财产. 获取或设置样式的名称 在 C#.
 type: docs
-weight: 130
+weight: 120
 url: /zh/net/aspose.words/style/name/
 ---
 ## Style.Name property
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words/style/name/
 public string Name { get; set; }
 ```
 
-### 评论
+## 评论
 
 不能为空字符串。
 
 如果集合中已经存在具有该名称的样式，则该样式将覆盖它。所有受影响的节点都将引用新样式。
 
-### 例子
+## 例子
 
 演示如何访问文档的样式集合。
 
@@ -73,7 +75,5 @@ Assert.AreNotEqual(doc.Styles["Heading 1"].Font.Color, newStyle.Font.Color);
 ### 也可以看看
 
 * class [Style](../)
-* 命名空间 [Aspose.Words](../../style/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

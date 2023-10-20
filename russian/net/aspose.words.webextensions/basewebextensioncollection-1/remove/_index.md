@@ -1,7 +1,9 @@
 ---
 title: BaseWebExtensionCollection1.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: BaseWebExtensionCollection метод. Удаляет элемент по указанному индексу из коллекции.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: BaseWebExtensionCollection Remove метод. Удаляет элемент по указанному индексу из коллекции на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.webextensions/basewebextensioncollection-1/remove/
@@ -18,7 +20,7 @@ public void Remove(int index)
 | --- | --- | --- |
 | index | Int32 | Индекс элемента коллекции, отсчитываемый от нуля. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с коллекцией веб-расширений документа.
 
@@ -47,7 +49,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ### Смотрите также
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../)
-* пространство имен [Aspose.Words.WebExtensions](../../basewebextensioncollection-1/)
+* пространство имен [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * сборка [Aspose.Words](../../../)
-
-

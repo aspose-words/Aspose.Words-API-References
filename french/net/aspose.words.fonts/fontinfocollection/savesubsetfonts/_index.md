@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.SaveSubsetFonts
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontInfoCollection propriété. Spécifie sil faut ou non enregistrer un sousensemble des polices TrueType incorporées avec le document. La valeur par défaut de cette propriété estFAUX.
+linktitle: SaveSubsetFonts
+articleTitle: SaveSubsetFonts
+second_title: Aspose.Words pour .NET
+description: FontInfoCollection SaveSubsetFonts propriété. Spécifie sil faut ou non enregistrer un sousensemble des polices TrueType incorporées avec le document. La valeur par défaut de cette propriété estFAUX en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
@@ -16,11 +18,11 @@ Cette option ne fonctionne que lorsque[`EmbedTrueTypeFonts`](../embedtruetypefon
 public bool SaveSubsetFonts { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Cette option fonctionne uniquement pour les formats DOC, DOCX et RTF.
 
-### Exemples
+## Exemples
 
 Montre comment enregistrer un document avec des polices TrueType intégrées.
 
@@ -43,7 +45,5 @@ else
 ### Voir également
 
 * class [FontInfoCollection](../)
-* espace de noms [Aspose.Words.Fonts](../../fontinfocollection/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

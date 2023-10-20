@@ -1,7 +1,9 @@
 ---
-title: SmartTag.SmartTag
-second_title: Aspose.Words for .NET API Referansı
-description: SmartTag inşaatçı. Yeni bir örneğini başlatırSmartTag class.
+title: SmartTag
+linktitle: SmartTag
+articleTitle: SmartTag
+second_title: Aspose.Words for .NET
+description: SmartTag inşaatçı. Yeni bir örneğini başlatırSmartTag class C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.markup/smarttag/smarttag/
@@ -18,13 +20,13 @@ public SmartTag(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | Sahibi belgesi. |
 
-### Notlar
+## Notlar
 
 Yeni bir düğüm oluşturduğunuzda, düğümün ait olduğu belgeyi belirtmeniz gerekir. Bir düğüm, belge olmadan var olamaz çünkü listeler ve stiller gibi belge genelindeki yapılara bağlıdır. Bir düğüm her zaman bir belgeye ait olsa da, bir düğüm belge ağacının bir parçası olabilir veya olmayabilir .
 
-Bir düğüm oluşturulduğunda, bir belgeye aittir ancak henüz ağaç belgesinin parçası değildir ve[`ParentNode`](../../../aspose.words/node/parentnode/) dır-dir`hükümsüz` . Belgeye bir düğüm eklemek için the kullanınNode) veyaNode) üst düğümdeki method .
+Bir düğüm oluşturulduğunda, bir belgeye aittir ancak henüz ağaç belgesinin parçası değildir ve[`ParentNode`](../../../aspose.words/node/parentnode/) dır-dir`hükümsüz` . Belgeye bir düğüm eklemek için the kullanın[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) veya[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) üst düğümdeki method .
 
-### Örnekler
+## Örnekler
 
 Akıllı etiketlerin nasıl oluşturulacağını gösterir.
 
@@ -126,7 +128,5 @@ private class SmartTagPrinter : DocumentVisitor
 
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * class [SmartTag](../)
-* ad alanı [Aspose.Words.Markup](../../smarttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

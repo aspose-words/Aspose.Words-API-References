@@ -1,24 +1,26 @@
 ---
 title: MailMerge.UseWholeParagraphAsRegion
-second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob ein ganzer Absatz vorhanden ist TableStart oder TableEnd field oder ein bestimmter Bereich dazwischen TableStart Und TableEnd Felder sollten in den Serienbriefbereich aufgenommen werden.
+linktitle: UseWholeParagraphAsRegion
+articleTitle: UseWholeParagraphAsRegion
+second_title: Aspose.Words für .NET
+description: MailMerge UseWholeParagraphAsRegion eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob ein ganzer Absatz vorhanden istTableStart oderTableEnd field oder ein bestimmter Bereich dazwischenTableStart UndTableEnd Felder sollten in den Serienbriefbereich aufgenommen werden in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-Ruft einen Wert ab oder legt diesen fest, der angibt, ob ein ganzer Absatz vorhanden ist **TableStart** oder **TableEnd** field oder ein bestimmter Bereich dazwischen **TableStart** Und **TableEnd** Felder sollten in den Serienbriefbereich aufgenommen werden.
+Ruft einen Wert ab oder legt diesen fest, der angibt, ob ein ganzer Absatz vorhanden ist**TableStart** oder**TableEnd** field oder ein bestimmter Bereich dazwischen**TableStart** Und**TableEnd** Felder sollten in den Serienbriefbereich aufgenommen werden.
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`WAHR` .
 
-### Beispiele
+## Beispiele
 
 Zeigt die Beziehung zwischen Seriendruckbereichen und Absätzen.
 
@@ -85,7 +87,5 @@ private static DataTable CreateSourceTableDataTableForOneRegion()
 ### Siehe auch
 
 * class [MailMerge](../)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

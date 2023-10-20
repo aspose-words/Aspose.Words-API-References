@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.Comments
-second_title: Aspose.Words für .NET-API-Referenz
-description: DigitalSignature eigendom. Ruft den Kommentar zum Signaturzweck ab.
+linktitle: Comments
+articleTitle: Comments
+second_title: Aspose.Words für .NET
+description: DigitalSignature Comments eigendom. Ruft den Kommentar zum Signaturzweck ab in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.digitalsignatures/digitalsignature/comments/
@@ -14,7 +16,7 @@ Ruft den Kommentar zum Signaturzweck ab.
 public string Comments { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Informationen zu jeder Signatur in einem Dokument validiert und angezeigt werden.
 
@@ -36,7 +38,5 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 ### Siehe auch
 
 * class [DigitalSignature](../)
-* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* namensraum [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * Montage [Aspose.Words](../../../)
-
-

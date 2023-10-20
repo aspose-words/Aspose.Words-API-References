@@ -1,7 +1,9 @@
 ---
 title: Node.NextSibling
-second_title: Aspose.Words för .NET API Referens
-description: Node fast egendom. Hämtar noden omedelbart efter denna nod.
+linktitle: NextSibling
+articleTitle: NextSibling
+second_title: Aspose.Words för .NET
+description: Node NextSibling fast egendom. Hämtar noden omedelbart efter denna nod i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/node/nextsibling/
@@ -14,11 +16,11 @@ Hämtar noden omedelbart efter denna nod.
 public Node NextSibling { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Om det inte finns någon nästa nod, a`null` returneras.
 
-### Exempel
+## Exempel
 
 Visar hur man använder en nods NextSibling-egenskap för att räkna upp sina närmaste barn.
 
@@ -80,7 +82,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 ### Se även
 
 * class [Node](../)
-* namnutrymme [Aspose.Words](../../node/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

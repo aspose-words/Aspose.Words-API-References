@@ -1,7 +1,9 @@
 ---
 title: FontInfo.Pitch
-second_title: Aspose.Words for .NET API Referansı
-description: FontInfo mülk. Karakter aralığı yazı tipinin sabit aralıklı mı orantılı aralıklı mı olduğunu yoksa varsayılan bir ayara mı bağlı olduğunu gösterir.
+linktitle: Pitch
+articleTitle: Pitch
+second_title: Aspose.Words for .NET
+description: FontInfo Pitch mülk. Karakter aralığı yazı tipinin sabit aralıklı mı orantılı aralıklı mı olduğunu yoksa varsayılan bir ayara mı bağlı olduğunu gösterir C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fonts/fontinfo/pitch/
@@ -14,7 +16,7 @@ Karakter aralığı, yazı tipinin sabit aralıklı mı, orantılı aralıklı m
 public FontPitch Pitch { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki her yazı tipinin ayrıntılarına nasıl erişileceğini ve yazdırılacağını gösterir.
 
@@ -54,7 +56,5 @@ while (fontCollectionEnumerator.MoveNext())
 
 * enum [FontPitch](../../fontpitch/)
 * class [FontInfo](../)
-* ad alanı [Aspose.Words.Fonts](../../fontinfo/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

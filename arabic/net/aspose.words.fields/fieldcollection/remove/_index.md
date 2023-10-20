@@ -1,7 +1,9 @@
 ---
 title: FieldCollection.Remove
-second_title: Aspose.Words لمراجع .NET API
-description: FieldCollection طريقة. إزالة الحقل المحدد من هذه المجموعة ومن المستند.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words لـ .NET
+description: FieldCollection Remove طريقة. إزالة الحقل المحدد من هذه المجموعة ومن المستند في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldcollection/remove/
@@ -18,7 +20,7 @@ public void Remove(Field field)
 | --- | --- | --- |
 | field | Field | حقل لإزالة. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إزالة الحقول من مجموعة الحقول.
 
@@ -61,7 +63,5 @@ Assert.AreEqual(0, fields.Count);
 
 * class [Field](../../field/)
 * class [FieldCollection](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldcollection/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

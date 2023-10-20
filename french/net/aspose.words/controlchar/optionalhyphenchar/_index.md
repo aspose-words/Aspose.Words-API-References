@@ -1,7 +1,9 @@
 ---
 title: ControlChar.OptionalHyphenChar
-second_title: Référence de l'API Aspose.Words pour .NET
-description: ControlChar champ. Le trait dunion facultatif dans Microsoft Word est car31.
+linktitle: OptionalHyphenChar
+articleTitle: OptionalHyphenChar
+second_title: Aspose.Words pour .NET
+description: ControlChar OptionalHyphenChar champ. Le trait dunion facultatif dans Microsoft Word est car31 en C#.
 type: docs
 weight: 190
 url: /fr/net/aspose.words/controlchar/optionalhyphenchar/
@@ -14,11 +16,11 @@ Le trait d'union facultatif dans Microsoft Word est (car)31.
 public const char OptionalHyphenChar;
 ```
 
-### Remarques
+## Remarques
 
 Le trait d'union facultatif dans Microsoft Word ne correspond pas au caractère Unicode U+00AD trait d'union souple. Au lieu de cela, il insère des informations internes qui indiquent à Word un point de césure possible.
 
-### Exemples
+## Exemples
 
 Montre comment ajouter divers caractères de contrôle à un document.
 
@@ -90,7 +92,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Voir également
 
 * class [ControlChar](../)
-* espace de noms [Aspose.Words](../../controlchar/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

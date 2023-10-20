@@ -1,7 +1,9 @@
 ---
 title: OdsoRecipientData.Active
-second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoRecipientData eigendom. Gibt an ob der Datensatz aus der Datenquelle in ein Dokument importiert werden soll wenn der Seriendruck durchgeführt wird. Der Standardwert istWAHR .
+linktitle: Active
+articleTitle: Active
+second_title: Aspose.Words für .NET
+description: OdsoRecipientData Active eigendom. Gibt an ob der Datensatz aus der Datenquelle in ein Dokument importiert werden soll wenn der Seriendruck durchgeführt wird. Der Standardwert istWAHR  in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.settings/odsorecipientdata/active/
@@ -14,7 +16,7 @@ Gibt an, ob der Datensatz aus der Datenquelle in ein Dokument importiert werden 
 public bool Active { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
 
@@ -54,7 +56,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### Siehe auch
 
 * class [OdsoRecipientData](../)
-* namensraum [Aspose.Words.Settings](../../odsorecipientdata/)
+* namensraum [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Montage [Aspose.Words](../../../)
-
-

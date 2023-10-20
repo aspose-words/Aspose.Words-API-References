@@ -1,7 +1,9 @@
 ---
 title: FieldSeq.ResetNumber
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldSeq свойство. Получает или задает целое число на которое необходимо сбросить порядковый номер. Возвращает 1 если число отсутствует.
+linktitle: ResetNumber
+articleTitle: ResetNumber
+second_title: Aspose.Words для .NET
+description: FieldSeq ResetNumber свойство. Получает или задает целое число на которое необходимо сбросить порядковый номер. Возвращает 1 если число отсутствует на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldseq/resetnumber/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldseq/resetnumber/
 public string ResetNumber { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает создание нумерации с использованием полей SEQ.
 
@@ -78,7 +80,5 @@ doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ### Смотрите также
 
 * class [FieldSeq](../)
-* пространство имен [Aspose.Words.Fields](../../fieldseq/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum TabAlignment
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.TabAlignment перечисление. Определяет выравнивание/тип табуляции.
+title: TabAlignment Enum
+linktitle: TabAlignment
+articleTitle: TabAlignment
+second_title: Aspose.Words для .NET
+description: Aspose.Words.TabAlignment перечисление. Определяет выравнивание/тип табуляции на С#.
 type: docs
 weight: 6180
 url: /ru/net/aspose.words/tabalignment/
@@ -30,5 +32,3 @@ public enum TabAlignment
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

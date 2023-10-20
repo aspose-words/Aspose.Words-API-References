@@ -1,12 +1,14 @@
 ---
-title: GradientStop.GradientStop
-second_title: Aspose.Words for .NET API 参考
-description: GradientStop 构造函数. 初始化一个新实例GradientStop类.
+title: GradientStop
+linktitle: GradientStop
+articleTitle: GradientStop
+second_title: 用于 .NET 的 Aspose.Words
+description: GradientStop 构造函数. 初始化一个新实例GradientStop类 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing/gradientstop/gradientstop/
 ---
-## GradientStop(Color, double) {#constructor}
+## GradientStop(*Color, double*) {#constructor}
 
 初始化一个新实例[`GradientStop`](../)类.
 
@@ -19,7 +21,7 @@ public GradientStop(Color color, double position)
 | color | Color | 表示渐变停止点的颜色。 |
 | position | Double | 表示 梯度内的停止位置，以 0.0 到 1.0 范围内的百分比表示。 |
 
-### 例子
+## 例子
 
 演示如何向渐变填充添加渐变停止点。
 
@@ -72,12 +74,12 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### 也可以看看
 
 * class [GradientStop](../)
-* 命名空间 [Aspose.Words.Drawing](../../gradientstop/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## GradientStop(Color, double, double) {#constructor_1}
+## GradientStop(*Color, double, double*) {#constructor_1}
 
 初始化一个新实例[`GradientStop`](../)类.
 
@@ -91,7 +93,7 @@ public GradientStop(Color color, double position, double transparency)
 | position | Double | 表示 梯度内的停止位置，以 0.0 到 1.0 范围内的百分比表示。 |
 | transparency | Double | 表示 内停止点的透明度，梯度表示为 0.0 到 1.0 范围内的百分比。 |
 
-### 例子
+## 例子
 
 演示如何向渐变填充添加渐变停止点。
 
@@ -144,7 +146,5 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 ### 也可以看看
 
 * class [GradientStop](../)
-* 命名空间 [Aspose.Words.Drawing](../../gradientstop/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

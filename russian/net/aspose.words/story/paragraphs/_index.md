@@ -1,7 +1,9 @@
 ---
 title: Story.Paragraphs
-second_title: Справочник по API Aspose.Words для .NET
-description: Story свойство. Получает коллекцию абзацев которые являются непосредственными дочерними элементами истории.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words для .NET
+description: Story Paragraphs свойство. Получает коллекцию абзацев которые являются непосредственными дочерними элементами истории на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/story/paragraphs/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/story/paragraphs/
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как проверить, является ли абзац измененной версией.
 
@@ -49,7 +51,5 @@ Assert.True(paragraphs[3].IsMoveToRevision);
 
 * class [ParagraphCollection](../../paragraphcollection/)
 * class [Story](../)
-* пространство имен [Aspose.Words](../../story/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

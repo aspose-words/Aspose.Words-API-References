@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreDeleted
-second_title: Aspose.Words för .NET API Referens
-description: FindReplaceOptions fast egendom. Hämtar eller ställer in ett booleskt värde som anger att texten i raderingsversioner ska ignoreras. Standardvärdet ärfalsk .
+linktitle: IgnoreDeleted
+articleTitle: IgnoreDeleted
+second_title: Aspose.Words för .NET
+description: FindReplaceOptions IgnoreDeleted fast egendom. Hämtar eller ställer in ett booleskt värde som anger att texten i raderingsversioner ska ignoreras. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett booleskt värde som anger att texten i raderingsve
 public bool IgnoreDeleted { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man inkluderar eller ignorerar text i raderingsversioner under en sök-och-ersätt-operation.
 
@@ -53,7 +55,5 @@ Assert.AreEqual(
 ### Se även
 
 * class [FindReplaceOptions](../)
-* namnutrymme [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

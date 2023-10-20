@@ -1,7 +1,9 @@
 ---
 title: TaskPane.DockState
-second_title: Aspose.Words für .NET-API-Referenz
-description: TaskPane eigendom. Gibt den zuletzt angedockten Speicherort dieses Aufgabenbereichsobjekts an.
+linktitle: DockState
+articleTitle: DockState
+second_title: Aspose.Words für .NET
+description: TaskPane DockState eigendom. Gibt den zuletzt angedockten Speicherort dieses Aufgabenbereichsobjekts an in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.webextensions/taskpane/dockstate/
@@ -14,7 +16,7 @@ Gibt den zuletzt angedockten Speicherort dieses Aufgabenbereichsobjekts an.
 public TaskPaneDockState DockState { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Dokument eine Weberweiterung hinzufügt.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [TaskPaneDockState](../../taskpanedockstate/)
 * class [TaskPane](../)
-* namensraum [Aspose.Words.WebExtensions](../../taskpane/)
+* namensraum [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * Montage [Aspose.Words](../../../)
-
-

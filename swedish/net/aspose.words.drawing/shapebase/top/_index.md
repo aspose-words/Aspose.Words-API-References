@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.Top
-second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Hämtar eller ställer in positionen för den övre kanten av formens innehållsblock.
+linktitle: Top
+articleTitle: Top
+second_title: Aspose.Words för .NET
+description: ShapeBase Top fast egendom. Hämtar eller ställer in positionen för den övre kanten av formens innehållsblock i C#.
 type: docs
 weight: 540
 url: /sv/net/aspose.words.drawing/shapebase/top/
@@ -14,7 +16,7 @@ Hämtar eller ställer in positionen för den övre kanten av formens innehålls
 public double Top { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 För en form på toppnivå är värdet i punkter och i förhållande till formankaret.
 
@@ -24,7 +26,7 @@ Standardvärdet är 0.
 
 Har effekt endast för flytande former.
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en flytande bild och anger dess position och storlek.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ### Se även
 
 * class [ShapeBase](../)
-* namnutrymme [Aspose.Words.Drawing](../../shapebase/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

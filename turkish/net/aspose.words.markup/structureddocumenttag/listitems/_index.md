@@ -1,26 +1,28 @@
 ---
 title: StructuredDocumentTag.ListItems
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. AlırSdtListItemCollection bununla ilişkili SDT .
+linktitle: ListItems
+articleTitle: ListItems
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag ListItems mülk. AlırSdtListItemCollection bununla ilişkiliSDT  C#'da.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.markup/structureddocumenttag/listitems/
 ---
 ## StructuredDocumentTag.ListItems property
 
-Alır[`SdtListItemCollection`](../../sdtlistitemcollection/) bununla ilişkili **SDT** .
+Alır[`SdtListItemCollection`](../../sdtlistitemcollection/) bununla ilişkili**SDT** .
 
 ```csharp
 public SdtListItemCollection ListItems { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özelliğe erişim yalnızca şunun için işe yarayacaktır:ComboBox veyaDropDownList SDT türleri.
 
 Diğer tüm SDT türleri için istisna meydana gelecektir.
 
-### Örnekler
+## Örnekler
 
 Açılır liste yapılandırılmış belge etiketleriyle nasıl çalışılacağını gösterir.
 
@@ -78,7 +80,5 @@ Assert.AreEqual(0, listItems.Count);
 
 * class [SdtListItemCollection](../../sdtlistitemcollection/)
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

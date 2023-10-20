@@ -1,7 +1,9 @@
 ---
-title: Enum PdfPermissions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.PdfPermissions enumeración. Especifica las operaciones permitidas a un usuario en un documento PDF cifrado.
+title: PdfPermissions Enum
+linktitle: PdfPermissions
+articleTitle: PdfPermissions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Saving.PdfPermissions enumeración. Especifica las operaciones permitidas a un usuario en un documento PDF cifrado en C#.
 type: docs
 weight: 5510
 url: /es/net/aspose.words.saving/pdfpermissions/
@@ -30,7 +32,7 @@ public enum PdfPermissions
 | Printing | `4` | Imprima el documento (posiblemente no con el nivel de calidad más alto, dependiendo de si HighResolutionPrinting también está configurado). |
 | HighResolutionPrinting | `804` | Imprima el documento en una representación a partir de la cual se pueda generar una copia digital fiel del contenido PDF, basándose en un algoritmo dependiente de la implementación. Cuando esta bandera está limpia (y Printing está configurado), la impresión se limitará a una representación de bajo nivel de la apariencia, posiblemente de calidad degradada. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo establecer permisos en un documento PDF guardado.
 
@@ -58,5 +60,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions)
 
 * espacio de nombres [Aspose.Words.Saving](../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../)
-
-

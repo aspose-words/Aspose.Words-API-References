@@ -1,9 +1,11 @@
 ---
 title: Fill.Color
-second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获取或设置一个 Color 对象该对象表示填充的前景色
+linktitle: Color
+articleTitle: Color
+second_title: 用于 .NET 的 Aspose.Words
+description: Fill Color 财产. 获取或设置一个 Color 对象该对象表示填充的前景色 在 C#.
 type: docs
-weight: 50
+weight: 40
 url: /zh/net/aspose.words.drawing/fill/color/
 ---
 ## Fill.Color property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/fill/color/
 public Color Color { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性保留了 alpha 分量Color, 与[`ForeColor`](../forecolor/)属性，将其重置为完全不透明的颜色。
 
-### 例子
+## 例子
 
 演示如何将任何填充转换回实体填充。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Drawing.FillSolid.docx");
 ### 也可以看看
 
 * class [Fill](../)
-* 命名空间 [Aspose.Words.Drawing](../../fill/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

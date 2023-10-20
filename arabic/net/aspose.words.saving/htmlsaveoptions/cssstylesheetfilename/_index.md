@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssStyleSheetFileName
-second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد المسار واسم ملف ورقة الأنماط المتتالية CSS الذي يتم كتابته عند تصدير مستند إلى HTML. الافتراضي هو سلسلة فارغة.
+linktitle: CssStyleSheetFileName
+articleTitle: CssStyleSheetFileName
+second_title: Aspose.Words لـ .NET
+description: HtmlSaveOptions CssStyleSheetFileName ملكية. يحدد المسار واسم ملف ورقة الأنماط المتتالية CSS الذي يتم كتابته عند تصدير مستند إلى HTML. الافتراضي هو سلسلة فارغة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/
 public string CssStyleSheetFileName { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 تكون هذه الخاصية سارية فقط عند حفظ مستند بتنسيق HTML وطلب ورقة أنماط CSS خارجية باستخدام[`CssStyleSheetType`](../cssstylesheettype/).
 
@@ -26,7 +28,7 @@ public string CssStyleSheetFileName { get; set; }
 
 هناك طريقة أخرى لتحديد المجلد الذي يتم حفظ ملف CSS الخارجي فيه وهي الاستخدام[`ResourceFolder`](../resourcefolder/) .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع أوراق أنماط CSS التي ينشئها تحويل HTML.
 
@@ -87,7 +89,5 @@ private class CustomCssSavingCallback : ICssSavingCallback
 ### أنظر أيضا
 
 * class [HtmlSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../htmlsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

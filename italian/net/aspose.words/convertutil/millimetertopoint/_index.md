@@ -1,7 +1,9 @@
 ---
 title: ConvertUtil.MillimeterToPoint
-second_title: Aspose.Words per .NET API Reference
-description: ConvertUtil metodo. Converte i millimetri in punti.
+linktitle: MillimeterToPoint
+articleTitle: MillimeterToPoint
+second_title: Aspose.Words per .NET
+description: ConvertUtil MillimeterToPoint metodo. Converte i millimetri in punti in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/convertutil/millimetertopoint/
@@ -18,11 +20,11 @@ public static double MillimeterToPoint(double millimeters)
 | --- | --- | --- |
 | millimeters | Double | Il valore da convertire. |
 
-### Osservazioni
+## Osservazioni
 
 1 pollice equivale a 25,4 millimetri. 1 pollice equivale a 72 punti.
 
-### Esempi
+## Esempi
 
 Mostra come specificare le proprietà della pagina in millimetri.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndMillimeters.docx");
 ### Guarda anche
 
 * class [ConvertUtil](../)
-* spazio dei nomi [Aspose.Words](../../convertutil/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

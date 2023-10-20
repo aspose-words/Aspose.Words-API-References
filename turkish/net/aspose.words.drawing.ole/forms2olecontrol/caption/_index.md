@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Caption
-second_title: Aspose.Words for .NET API Referansı
-description: Forms2OleControl mülk. Denetimin Altyazı özelliğini alır. Varsayılan değer boş bir dizedir.
+linktitle: Caption
+articleTitle: Caption
+second_title: Aspose.Words for .NET
+description: Forms2OleControl Caption mülk. Denetimin Altyazı özelliğini alır. Varsayılan değer boş bir dizedir C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.ole/forms2olecontrol/caption/
@@ -14,7 +16,7 @@ Denetimin Altyazı özelliğini alır. Varsayılan değer boş bir dizedir.
 public string Caption { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 ActiveX denetiminin özelliklerinin nasıl doğrulanacağını gösterir.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Ayrıca bakınız
 
 * class [Forms2OleControl](../)
-* ad alanı [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* ad alanı [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * toplantı [Aspose.Words](../../../)
-
-

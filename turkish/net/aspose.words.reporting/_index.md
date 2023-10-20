@@ -1,7 +1,9 @@
 ---
 title: Aspose.Words.Reporting
-second_title: Aspose.Words for .NET API Referansı
-description: Bu ad alanı Aspose.Wordsün nin LINQ Yöntemi Sözdizimini temel alan bir dille işaretlenmiş rapor şablonlarını destekleyen yeni raporlama motorunun sınıflarını içerir.
+linktitle: Aspose.Words.Reporting
+articleTitle: Aspose.Words.Reporting
+second_title: Aspose.Words for .NET
+description: Bu ad alanı Aspose.Wordsün nin LINQ Yöntemi Sözdizimini temel alan bir dille işaretlenmiş rapor şablonlarını destekleyen yeni raporlama motorunun sınıflarını içerir C#'da.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.reporting/
@@ -26,5 +28,3 @@ Bu ad alanı, Aspose.Words'ün 'nin LINQ Yöntemi Sözdizimini temel alan bir di
 | --- | --- |
 | [JsonSimpleValueParseMode](./jsonsimplevalueparsemode/) | JSON yüklenirken JSON basit değerlerini (null, boolean, sayı, tamsayı ve dize) ayrıştırmak için bir mod belirtir. Böyle bir mod tarih-saat değerlerinin ayrıştırılmasını etkilemez. |
 | [ReportBuildOptions](./reportbuildoptions/) | Davranışını kontrol eden seçenekleri belirtir[`ReportingEngine`](../aspose.words.reporting/reportingengine/) rapor oluştururken. |
-
-

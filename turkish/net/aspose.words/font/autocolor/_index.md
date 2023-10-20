@@ -1,7 +1,9 @@
 ---
 title: Font.AutoColor
-second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Otomatik renk için kullanılacak metnin hesaplanmış mevcut rengini siyah veya beyaz döndürür. Renk otomatik değilse şunu döndürürColor .
+linktitle: AutoColor
+articleTitle: AutoColor
+second_title: Aspose.Words for .NET
+description: Font AutoColor mülk. Otomatik renk için kullanılacak metnin hesaplanmış mevcut rengini siyah veya beyaz döndürür. Renk otomatik değilse şunu döndürürColor  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/font/autocolor/
@@ -14,11 +16,11 @@ url: /tr/net/aspose.words/font/autocolor/
 public Color AutoColor { get; }
 ```
 
-### Notlar
+## Notlar
 
 Metnin 'otomatik rengi' olduğunda, metnin gerçek rengi otomatik olarak hesaplanır , böylece arka plan rengine göre okunabilir. Arka plan rengini değiştirdiğinizde, metin rengi, okunabilirliği en üst düzeye çıkarmak için MS Word'de otomatik olarak siyah veya beyaza geçecektir.
 
-### Örnekler
+## Örnekler
 
 Arka planın parlaklığına göre metin renginin otomatik olarak seçilmesiyle okunabilirliğin nasıl artırılacağını gösterir.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Font.SetFontAutoColor.docx");
 ### Ayrıca bakınız
 
 * class [Font](../)
-* ad alanı [Aspose.Words](../../font/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

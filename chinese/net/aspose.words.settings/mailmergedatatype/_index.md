@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeDataType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.MailMergeDataType 枚举. 指定外部邮件合并数据源的类型
+title: MailMergeDataType Enum
+linktitle: MailMergeDataType
+articleTitle: MailMergeDataType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.MailMergeDataType 枚举. 指定外部邮件合并数据源的类型 在 C#.
 type: docs
 weight: 5820
 url: /zh/net/aspose.words.settings/mailmergedatatype/
@@ -27,7 +29,7 @@ public enum MailMergeDataType
 | Native | `5` | 指定给定文档已通过 Office 数据源对象 (ODSO) 接口连接到外部数据源。 |
 | Default | `-1` | 等于None. |
 
-### 例子
+## 例子
 
 演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
@@ -81,5 +83,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [DataType](../mailmergesettings/datatype/)
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Odso.FirstRowContainsColumnNames
-second_title: Aspose.Words for .NET API Referansı
-description: Odso mülk. Bir barındırma uygulamasının belirtilen harici data kaynağındaki ilk veri satırını veri kaynağındaki her sütunun adlarını içeren bir başlık satırı olarak ele alacağını belirtir. Varsayılan değerYANLIŞ .
+linktitle: FirstRowContainsColumnNames
+articleTitle: FirstRowContainsColumnNames
+second_title: Aspose.Words for .NET
+description: Odso FirstRowContainsColumnNames mülk. Bir barındırma uygulamasının belirtilen harici data kaynağındaki ilk veri satırını veri kaynağındaki her sütunun adlarını içeren bir başlık satırı olarak ele alacağını belirtir. Varsayılan değerYANLIŞ  C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
@@ -14,11 +16,11 @@ Bir barındırma uygulamasının, belirtilen harici data kaynağındaki ilk veri
 public bool FirstRowContainsColumnNames { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 RK Bunu hiç kullanımda görmedim.
 
-### Örnekler
+## Örnekler
 
 Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Ayrıca bakınız
 
 * class [Odso](../)
-* ad alanı [Aspose.Words.Settings](../../odso/)
+* ad alanı [Aspose.Words.Settings](../../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../../)
-
-

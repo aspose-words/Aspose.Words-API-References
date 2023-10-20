@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.ShowRevisionMarks
-second_title: Aspose.Words لمراجع .NET API
-description: RevisionOptions ملكية. السماح بتحديد ما إذا كان يجب وضع علامة على نص المراجعة باستخدام علامات التنسيق الخاصة. القيمة الافتراضية هيحقيقي .
+linktitle: ShowRevisionMarks
+articleTitle: ShowRevisionMarks
+second_title: Aspose.Words لـ .NET
+description: RevisionOptions ShowRevisionMarks ملكية. السماح بتحديد ما إذا كان يجب وضع علامة على نص المراجعة باستخدام علامات التنسيق الخاصة. القيمة الافتراضية هيحقيقي  في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.layout/revisionoptions/showrevisionmarks/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.layout/revisionoptions/showrevisionmarks/
 public bool ShowRevisionMarks { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعديل مظهر المراجعات.
 
@@ -65,7 +67,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ### أنظر أيضا
 
 * class [RevisionOptions](../)
-* مساحة الاسم [Aspose.Words.Layout](../../revisionoptions/)
+* مساحة الاسم [Aspose.Words.Layout](../../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../../)
-
-

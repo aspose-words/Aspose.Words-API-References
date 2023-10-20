@@ -1,7 +1,9 @@
 ---
-title: Class BookmarksOutlineLevelCollection
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.BookmarksOutlineLevelCollection classe. Una raccolta di singoli segnalibri a livello di struttura.
+title: BookmarksOutlineLevelCollection Class
+linktitle: BookmarksOutlineLevelCollection
+articleTitle: BookmarksOutlineLevelCollection
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.BookmarksOutlineLevelCollection classe. Una raccolta di singoli segnalibri a livello di struttura in C#.
 type: docs
 weight: 4850
 url: /it/net/aspose.words.saving/bookmarksoutlinelevelcollection/
@@ -33,21 +35,21 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(string, int) | Aggiunge un segnalibro alla raccolta. |
+| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(*string, int*) | Aggiunge un segnalibro alla raccolta. |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | Rimuove tutti gli elementi dalla raccolta. |
-| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(string) | Determina se la raccolta contiene un segnalibro con il nome specificato. |
+| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | Determina se la raccolta contiene un segnalibro con il nome specificato. |
 | [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta. |
-| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(string) | Restituisce l'indice in base zero del segnalibro specificato nella raccolta. |
-| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(string) | Rimuove un segnalibro con il nome specificato dalla raccolta. |
-| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(int) | Rimuove un segnalibro all'indice specificato. |
+| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(*string*) | Restituisce l'indice in base zero del segnalibro specificato nella raccolta. |
+| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(*string*) | Rimuove un segnalibro con il nome specificato dalla raccolta. |
+| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(*int*) | Rimuove un segnalibro all'indice specificato. |
 
-### Osservazioni
+## Osservazioni
 
 Key è un nome di segnalibro stringa senza distinzione tra maiuscole e minuscole. Il valore è un livello di struttura del segnalibro int.
 
 Il livello della struttura del segnalibro può essere un valore compreso tra 0 e 9. Specifica 0 e il segnalibro di Word non verrà visualizzato nella struttura del documento. Specifica 1 e il segnalibro di Word verrà visualizzato nella struttura del documento al livello 1; 2 per il livello 2 e così via.
 
-### Esempi
+## Esempi
 
 Mostra come impostare i livelli di struttura per i segnalibri.
 
@@ -106,5 +108,3 @@ outlineLevels.Clear();
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class BookmarkStart
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.BookmarkStart klass. Representerar början på ett bokmärke i ett Worddokument.
+title: BookmarkStart Class
+linktitle: BookmarkStart
+articleTitle: BookmarkStart
+second_title: Aspose.Words för .NET
+description: Aspose.Words.BookmarkStart klass. Representerar början på ett bokmärke i ett Worddokument i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/bookmarkstart/
@@ -20,7 +22,7 @@ public class BookmarkStart : Node
 
 | namn | Beskrivning |
 | --- | --- |
-| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | Initierar en ny instans av`BookmarkStart` class. |
+| [BookmarkStart](bookmarkstart/)(*[DocumentBase](../documentbase/), string*) | Initierar en ny instans av`BookmarkStart` class. |
 
 ## Egenskaper
 
@@ -41,18 +43,18 @@ public class BookmarkStart : Node
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words/bookmarkstart/accept/)(DocumentVisitor) | Accepterar en besökare. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
+| override [Accept](../../aspose.words/bookmarkstart/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
 | override [GetText](../../aspose.words/bookmarkstart/gettext/)() | Returnerar en tom sträng. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
 
-### Anmärkningar
+## Anmärkningar
 
 Ett komplett bokmärke i ett Word-dokument består av en`BookmarkStart` och en matchande[`BookmarkEnd`](../bookmarkend/) med samma bokmärkesnamn.
 
@@ -60,7 +62,7 @@ Ett komplett bokmärke i ett Word-dokument består av en`BookmarkStart` och en m
 
 Använd[`Bookmark`](./bookmark/) klass som en "fasad" för att arbeta med ett bokmärke som ett enda objekt.
 
-### Exempel
+## Exempel
 
 Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
 
@@ -151,5 +153,3 @@ public class BookmarkInfoPrinter : DocumentVisitor
 * class [Node](../node/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

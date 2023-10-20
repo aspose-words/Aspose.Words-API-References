@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.Maximum
-second_title: Aspose.Words for .NET API 参考
-description: AxisScaling 财产. 获取或设置轴的最大值
+linktitle: Maximum
+articleTitle: Maximum
+second_title: 用于 .NET 的 Aspose.Words
+description: AxisScaling Maximum 财产. 获取或设置轴的最大值 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/axisscaling/maximum/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing.charts/axisscaling/maximum/
 public AxisBound Maximum { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为“自动”。
 
-### 例子
+## 例子
 
 演示如何插入带有日期/时间值的图表。
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 * class [AxisBound](../../axisbound/)
 * class [AxisScaling](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

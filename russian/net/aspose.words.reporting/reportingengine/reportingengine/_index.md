@@ -1,7 +1,9 @@
 ---
-title: ReportingEngine.ReportingEngine
-second_title: Справочник по API Aspose.Words для .NET
-description: ReportingEngine строитель. Инициализирует новый экземпляр этого класса.
+title: ReportingEngine
+linktitle: ReportingEngine
+articleTitle: ReportingEngine
+second_title: Aspose.Words для .NET
+description: ReportingEngine строитель. Инициализирует новый экземпляр этого класса на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.reporting/reportingengine/reportingengine/
@@ -17,7 +19,5 @@ public ReportingEngine()
 ### Смотрите также
 
 * class [ReportingEngine](../)
-* пространство имен [Aspose.Words.Reporting](../../reportingengine/)
+* пространство имен [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../../)
-
-

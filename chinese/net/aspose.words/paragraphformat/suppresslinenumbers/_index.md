@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SuppressLineNumbers
-second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 指定当前段落的行是否应免除行号 该行号应用于父节
+linktitle: SuppressLineNumbers
+articleTitle: SuppressLineNumbers
+second_title: 用于 .NET 的 Aspose.Words
+description: ParagraphFormat SuppressLineNumbers 财产. 指定当前段落的行是否应免除行号 该行号应用于父节 在 C#.
 type: docs
 weight: 380
 url: /zh/net/aspose.words/paragraphformat/suppresslinenumbers/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraphformat/suppresslinenumbers/
 public bool SuppressLineNumbers { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何为节启用行编号。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");
 ### 也可以看看
 
 * class [ParagraphFormat](../)
-* 命名空间 [Aspose.Words](../../paragraphformat/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

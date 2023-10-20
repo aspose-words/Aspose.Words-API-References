@@ -1,7 +1,9 @@
 ---
-title: Enum MailMergeCheckErrors
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Settings.MailMergeCheckErrors énumération. Spécifie comment Microsoft Word signalera les erreurs détectées lors du publipostage.
+title: MailMergeCheckErrors Enum
+linktitle: MailMergeCheckErrors
+articleTitle: MailMergeCheckErrors
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Settings.MailMergeCheckErrors énumération. Spécifie comment Microsoft Word signalera les erreurs détectées lors du publipostage en C#.
 type: docs
 weight: 5810
 url: /fr/net/aspose.words.settings/mailmergecheckerrors/
@@ -23,7 +25,7 @@ public enum MailMergeCheckErrors
 | CollectErrors | `3` | Terminez la fusion et signalez les erreurs dans un nouveau document. |
 | Default | `2` | Égal àPauseOnError valeur. |
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -77,5 +79,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 * property [CheckErrors](../mailmergesettings/checkerrors/)
 * espace de noms [Aspose.Words.Settings](../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../)
-
-

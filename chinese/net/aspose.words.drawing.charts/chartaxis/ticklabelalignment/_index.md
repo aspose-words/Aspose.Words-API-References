@@ -1,7 +1,9 @@
 ---
 title: ChartAxis.TickLabelAlignment
-second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 获取或设置轴刻度标签的文本对齐方式
+linktitle: TickLabelAlignment
+articleTitle: TickLabelAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartAxis TickLabelAlignment 财产. 获取或设置轴刻度标签的文本对齐方式 在 C#.
 type: docs
 weight: 220
 url: /zh/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/
 public ParagraphAlignment TickLabelAlignment { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性仅对多行标签有效。
 
@@ -22,7 +24,7 @@ public ParagraphAlignment TickLabelAlignment { get; set; }
 
 .
 
-### 例子
+## 例子
 
 演示如何操作图表轴的刻度线和显示值。
 
@@ -81,7 +83,5 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * enum [ParagraphAlignment](../../../aspose.words/paragraphalignment/)
 * class [ChartAxis](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartaxis/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

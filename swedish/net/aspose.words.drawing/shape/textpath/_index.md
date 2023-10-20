@@ -1,7 +1,9 @@
 ---
 title: Shape.TextPath
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Definierar texten för textsökvägen för ett WordArtobjekt.
+linktitle: TextPath
+articleTitle: TextPath
+second_title: Aspose.Words för .NET
+description: Shape TextPath fast egendom. Definierar texten för textsökvägen för ett WordArtobjekt i C#.
 type: docs
 weight: 230
 url: /sv/net/aspose.words.drawing/shape/textpath/
@@ -14,7 +16,7 @@ Definierar texten för textsökvägen (för ett WordArt-objekt).
 public TextPath TextPath { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man arbetar med WordArt.
 
@@ -118,7 +120,5 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 * class [TextPath](../../textpath/)
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

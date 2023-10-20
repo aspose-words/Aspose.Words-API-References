@@ -1,9 +1,11 @@
 ---
 title: Paragraph.GetText
-second_title: Referencia de API de Aspose.Words para .NET
-description: Paragraph método. Obtiene el texto de este párrafo incluido el carácter de final de párrafo.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words para .NET
+description: Paragraph GetText método. Obtiene el texto de este párrafo incluido el carácter de final de párrafo en C#.
 type: docs
-weight: 280
+weight: 260
 url: /es/net/aspose.words/paragraph/gettext/
 ---
 ## Paragraph.GetText method
@@ -14,7 +16,7 @@ Obtiene el texto de este párrafo, incluido el carácter de final de párrafo.
 public override string GetText()
 ```
 
-### Observaciones
+## Observaciones
 
 El texto de todos los nodos secundarios se concatena y el carácter de final de párrafo se añade de la siguiente manera:
 
@@ -24,7 +26,7 @@ El texto de todos los nodos secundarios se concatena y el carácter de final de 
 
 La cadena devuelta incluye todos los caracteres de control y especiales como se describe en[`ControlChar`](../../controlchar/).
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo agregar, actualizar y eliminar nodos secundarios en la colección de hijos de un CompositeNode.
 
@@ -77,7 +79,5 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 ### Ver también
 
 * class [Paragraph](../)
-* espacio de nombres [Aspose.Words](../../paragraph/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

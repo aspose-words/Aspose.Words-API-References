@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Themes
-second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words.Themes命名空间提供允许访问 Microsoft Word 文档中的主题信息的类
+linktitle: Aspose.Words.Themes
+articleTitle: Aspose.Words.Themes
+second_title: 用于 .NET 的 Aspose.Words
+description: 这Aspose.Words.Themes命名空间提供允许访问 Microsoft Word 文档中的主题信息的类 在 C#.
 type: docs
 weight: 270
 url: /zh/net/aspose.words.themes/
 ---
-这 **Aspose.Words.Themes**命名空间提供允许访问 Microsoft Word 文档中的主题信息的类。
+这**Aspose.Words.Themes**命名空间提供允许访问 Microsoft Word 文档中的主题信息的类。
 
 ## 课程
 
@@ -21,5 +23,3 @@ url: /zh/net/aspose.words.themes/
 | --- | --- |
 | [ThemeColor](./themecolor/) | 指定文档主题的主题颜色。 |
 | [ThemeFont](./themefont/) | 指定文档主题的主题字体名称类型。 |
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldOptions.FieldUpdateCultureSource
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Gibt an welche Kultur zum Formatieren des Feldergebnisses verwendet werden soll.
+linktitle: FieldUpdateCultureSource
+articleTitle: FieldUpdateCultureSource
+second_title: Aspose.Words für .NET
+description: FieldOptions FieldUpdateCultureSource eigendom. Gibt an welche Kultur zum Formatieren des Feldergebnisses verwendet werden soll in C#.
 type: docs
 weight: 110
 url: /de/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/
@@ -14,13 +16,13 @@ Gibt an, welche Kultur zum Formatieren des Feldergebnisses verwendet werden soll
 public FieldUpdateCultureSource FieldUpdateCultureSource { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Standardmäßig wird die Kultur des aktuellen Threads verwendet.
 
 Die Einstellung betrifft nur Datums-/Uhrzeitfelder mit dem Formatschalter \\@.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie die Quelle der Kultur angeben, die für die Datumsformatierung während einer Feldaktualisierung oder eines Seriendrucks verwendet wird.
 
@@ -56,7 +58,5 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 * enum [FieldUpdateCultureSource](../../fieldupdateculturesource/)
 * class [FieldOptions](../)
-* namensraum [Aspose.Words.Fields](../../fieldoptions/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

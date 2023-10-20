@@ -1,7 +1,9 @@
 ---
-title: Class ThemeFonts
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Themes.ThemeFonts 班级. 表示字体方案中的字体集合允许为不同的语言指定不同的字体LatinEastAsian和ComplexScript.
+title: ThemeFonts Class
+linktitle: ThemeFonts
+articleTitle: ThemeFonts
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Themes.ThemeFonts 班级. 表示字体方案中的字体集合允许为不同的语言指定不同的字体LatinEastAsian和ComplexScript 在 C#.
 type: docs
 weight: 6500
 url: /zh/net/aspose.words.themes/themefonts/
@@ -24,7 +26,7 @@ public class ThemeFonts
 | [EastAsian](../../aspose.words.themes/themefonts/eastasian/) { get; set; } | 指定东亚字符的字体名称。 |
 | [Latin](../../aspose.words.themes/themefonts/latin/) { get; set; } | 指定拉丁字符的字体名称。 |
 
-### 例子
+## 例子
 
 展示如何设置主题的自定义颜色和字体。
 
@@ -73,5 +75,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * 命名空间 [Aspose.Words.Themes](../../aspose.words.themes/)
 * 部件 [Aspose.Words](../../)
-
-

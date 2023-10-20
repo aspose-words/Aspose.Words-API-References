@@ -1,9 +1,11 @@
 ---
 title: Stroke.ImageBytes
-second_title: Aspose.Words för .NET API Referens
-description: Stroke fast egendom. Definierar bilden för en linjebild eller mönsterfyllning.
+linktitle: ImageBytes
+articleTitle: ImageBytes
+second_title: Aspose.Words för .NET
+description: Stroke ImageBytes fast egendom. Definierar bilden för en linjebild eller mönsterfyllning i C#.
 type: docs
-weight: 120
+weight: 110
 url: /sv/net/aspose.words.drawing/stroke/imagebytes/
 ---
 ## Stroke.ImageBytes property
@@ -14,7 +16,7 @@ Definierar bilden för en linjebild eller mönsterfyllning.
 public byte[] ImageBytes { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man bearbetar formlinjefunktioner.
 
@@ -35,7 +37,5 @@ File.WriteAllBytes(ArtifactsDir + "Drawing.StrokePattern.png", stroke.ImageBytes
 ### Se även
 
 * class [Stroke](../)
-* namnutrymme [Aspose.Words.Drawing](../../stroke/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

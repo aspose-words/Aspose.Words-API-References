@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.Italic
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. Yazı tipi italik olarak biçimlendirilmişse doğrudur.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words for .NET
+description: DocumentBuilder Italic mülk. Yazı tipi italik olarak biçimlendirilmişse doğrudur C#'da.
 type: docs
 weight: 140
 url: /tr/net/aspose.words/documentbuilder/italic/
@@ -14,7 +16,7 @@ Yazı tipi italik olarak biçimlendirilmişse doğrudur.
 public bool Italic { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme yerine belge oluşturucuyla MERGEFIELD'lerin verilerle nasıl doldurulacağını gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

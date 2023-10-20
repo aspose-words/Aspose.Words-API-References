@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertHyperlink
-second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Insère un lien hypertexte dans le document.
+linktitle: InsertHyperlink
+articleTitle: InsertHyperlink
+second_title: Aspose.Words pour .NET
+description: DocumentBuilder InsertHyperlink méthode. Insère un lien hypertexte dans le document en C#.
 type: docs
-weight: 370
+weight: 360
 url: /fr/net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -24,13 +26,13 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 
 UN[`Field`](../../../aspose.words.fields/field/) objet qui représente le champ inséré.
 
-### Remarques
+## Remarques
 
 Notez que vous devez spécifier le formatage de la police pour le texte affiché du lien hypertexte explicitement à l'aide de l'option[`Font`](../font/) propriété.
 
 Cette méthode appelle en interne[`InsertField`](../insertfield/) pour insérer un MS Word HYPERLINK field dans le document.
 
-### Exemples
+## Exemples
 
 Montre comment insérer un lien hypertexte faisant référence à un signet local.
 
@@ -108,7 +110,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [DocumentBuilder](../)
-* espace de noms [Aspose.Words](../../documentbuilder/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

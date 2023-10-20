@@ -1,7 +1,9 @@
 ---
-title: Class ThemeColors
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Themes.ThemeColors فصل. يمثل نظام الألوان لموضوع المستند الذي يحتوي على اثني عشر لونًا.
+title: ThemeColors Class
+linktitle: ThemeColors
+articleTitle: ThemeColors
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Themes.ThemeColors فصل. يمثل نظام الألوان لموضوع المستند الذي يحتوي على اثني عشر لونًا في C#.
 type: docs
 weight: 6480
 url: /ar/net/aspose.words.themes/themecolors/
@@ -33,7 +35,7 @@ public class ThemeColors
 | [Light1](../../aspose.words.themes/themecolors/light1/) { get; set; } | يحدد لون الضوء 1. |
 | [Light2](../../aspose.words.themes/themecolors/light2/) { get; set; } | يحدد لون الضوء 2. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين الألوان والخطوط المخصصة للموضوعات.
 
@@ -82,5 +84,3 @@ doc.Save(ArtifactsDir + "Themes.CustomColorsAndFonts.docx");
 
 * مساحة الاسم [Aspose.Words.Themes](../../aspose.words.themes/)
 * المجسم [Aspose.Words](../../)
-
-

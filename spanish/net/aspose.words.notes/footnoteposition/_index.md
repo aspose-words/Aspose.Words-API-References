@@ -1,7 +1,9 @@
 ---
-title: Enum FootnotePosition
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Notes.FootnotePosition enumeración. Define la posición de la nota al pie.
+title: FootnotePosition Enum
+linktitle: FootnotePosition
+articleTitle: FootnotePosition
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Notes.FootnotePosition enumeración. Define la posición de la nota al pie en C#.
 type: docs
 weight: 4290
 url: /es/net/aspose.words.notes/footnoteposition/
@@ -21,7 +23,7 @@ public enum FootnotePosition
 | BottomOfPage | `1` | Las notas a pie de página se publican en la parte inferior de cada página. |
 | BeneathText | `2` | Las notas a pie de página se muestran debajo del texto de cada página. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo seleccionar un lugar diferente donde el documento recopila y muestra sus notas a pie de página.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 * class [FootnoteOptions](../footnoteoptions/)
 * espacio de nombres [Aspose.Words.Notes](../../aspose.words.notes/)
 * asamblea [Aspose.Words](../../)
-
-

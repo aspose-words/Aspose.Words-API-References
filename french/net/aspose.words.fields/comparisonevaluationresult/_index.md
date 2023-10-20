@@ -1,7 +1,9 @@
 ---
-title: Class ComparisonEvaluationResult
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.ComparisonEvaluationResult classe. Le résultat de lévaluation de la comparaison.
+title: ComparisonEvaluationResult Class
+linktitle: ComparisonEvaluationResult
+articleTitle: ComparisonEvaluationResult
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.ComparisonEvaluationResult classe. Le résultat de lévaluation de la comparaison en C#.
 type: docs
 weight: 1480
 url: /fr/net/aspose.words.fields/comparisonevaluationresult/
@@ -20,8 +22,8 @@ public sealed class ComparisonEvaluationResult
 
 | Nom | La description |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(bool) | Crée un résultat d'évaluation de comparaison. |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(string) | Crée un résultat d'évaluation de comparaison ayant échoué avec le message d'erreur correspondant. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | Crée un résultat d'évaluation de comparaison. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | Crée un résultat d'évaluation de comparaison ayant échoué avec le message d'erreur correspondant. |
 
 ## Propriétés
 
@@ -30,7 +32,7 @@ public sealed class ComparisonEvaluationResult
 | [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | Obtient le message d'erreur du résultat de l'évaluation de la comparaison ayant échoué. |
 | [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | Obtient le résultat de l'évaluation de la comparaison. |
 
-### Exemples
+## Exemples
 
 Montre comment implémenter une évaluation personnalisée pour les champs IF et COMPARE.
 
@@ -115,5 +117,3 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

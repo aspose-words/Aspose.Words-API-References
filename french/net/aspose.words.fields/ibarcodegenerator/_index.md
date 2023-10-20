@@ -1,7 +1,9 @@
 ---
-title: Interface IBarcodeGenerator
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.IBarcodeGenerator interface. Interface publique pour le générateur personnalisé de codesbarres. Limplémentation doit être fournie par user.
+title: IBarcodeGenerator Interface
+linktitle: IBarcodeGenerator
+articleTitle: IBarcodeGenerator
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Fields.IBarcodeGenerator interface. Interface publique pour le générateur personnalisé de codesbarres. Limplémentation doit être fournie par user en C#.
 type: docs
 weight: 2660
 url: /fr/net/aspose.words.fields/ibarcodegenerator/
@@ -18,14 +20,14 @@ public interface IBarcodeGenerator
 
 | Nom | La description |
 | --- | --- |
-| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(BarcodeParameters) | Générez une image de code-barres à l'aide de l'ensemble de paramètres (pour le champ DisplayBarcode). |
-| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(BarcodeParameters) | Générez une image de code-barres à l'aide de l'ensemble de paramètres (pour le champ Code-barres à l'ancienne). |
+| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Générez une image de code-barres à l'aide de l'ensemble de paramètres (pour le champ DisplayBarcode). |
+| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Générez une image de code-barres à l'aide de l'ensemble de paramètres (pour le champ Code-barres à l'ancienne). |
 
-### Remarques
+## Remarques
 
 L'instance Generator doit être transmise via le[`BarcodeGenerator`](../fieldoptions/barcodegenerator/) propriété.
 
-### Exemples
+## Exemples
 
 Montre comment utiliser un générateur de codes-barres.
 
@@ -102,5 +104,3 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 * espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
-
-

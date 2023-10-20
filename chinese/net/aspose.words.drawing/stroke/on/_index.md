@@ -1,9 +1,11 @@
 ---
 title: Stroke.On
-second_title: Aspose.Words for .NET API 参考
-description: Stroke 财产. 定义是否对路径进行描边
+linktitle: On
+articleTitle: On
+second_title: 用于 .NET 的 Aspose.Words
+description: Stroke On 财产. 定义是否对路径进行描边 在 C#.
 type: docs
-weight: 150
+weight: 140
 url: /zh/net/aspose.words.drawing/stroke/on/
 ---
 ## Stroke.On property
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.drawing/stroke/on/
 public bool On { get; set; }
 ```
 
-### 评论
+## 评论
 
 的默认值[`Shape`](../../shape/)是`真的`。
 
-### 例子
+## 例子
 
 显示如何更改笔划属性。
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ### 也可以看看
 
 * class [Stroke](../)
-* 命名空间 [Aspose.Words.Drawing](../../stroke/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

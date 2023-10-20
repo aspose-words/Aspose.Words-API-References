@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.MoveTo
-second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Flyttar markören till en inlinenod eller till slutet av ett stycke.
+linktitle: MoveTo
+articleTitle: MoveTo
+second_title: Aspose.Words för .NET
+description: DocumentBuilder MoveTo metod. Flyttar markören till en inlinenod eller till slutet av ett stycke i C#.
 type: docs
-weight: 490
+weight: 480
 url: /sv/net/aspose.words/documentbuilder/moveto/
 ---
 ## DocumentBuilder.MoveTo method
@@ -18,7 +20,7 @@ public void MoveTo(Node node)
 | --- | --- | --- |
 | node | Node | Noden måste vara ett stycke eller ett direkt underordnat stycke. |
 
-### Anmärkningar
+## Anmärkningar
 
 Närnod är en nod på inline-nivå, flyttas markören till denna node och ytterligare innehåll kommer att infogas före den noden.
 
@@ -26,7 +28,7 @@ Närnod är en[`Paragraph`](../../paragraph/), flyttas markören till slutet av 
 
 Närnod är en nod på blocknivå men inte en[`Paragraph`](../../paragraph/), flyttas markören till slutet av det första stycket till node på blocknivå och ytterligare innehåll kommer att infogas strax före styckebrytningen.
 
-### Exempel
+## Exempel
 
 Visar hur man flyttar en DocumentBuilders markörposition till en angiven nod.
 
@@ -108,7 +110,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 * class [Node](../../node/)
 * class [DocumentBuilder](../)
-* namnutrymme [Aspose.Words](../../documentbuilder/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

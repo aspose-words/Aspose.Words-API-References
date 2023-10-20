@@ -1,7 +1,9 @@
 ---
-title: Enum GeneralFormat
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.GeneralFormat Sıralama. Sayısal metin veya herhangi bir alan sonucuna uygulanan genel formatı belirtir. Bir alan genel formatların bir kombinasyonuna sahip olabilir.
+title: GeneralFormat Enum
+linktitle: GeneralFormat
+articleTitle: GeneralFormat
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.GeneralFormat Sıralama. Sayısal metin veya herhangi bir alan sonucuna uygulanan genel formatı belirtir. Bir alan genel formatların bir kombinasyonuna sahip olabilir C#'da.
 type: docs
 weight: 2640
 url: /tr/net/aspose.words.fields/generalformat/
@@ -75,7 +77,7 @@ public enum GeneralFormat
 | MergeFormat | `54` | Alan sonucu biçimlendirmesi. MERGEFORMAT talimatı. |
 | MergeFormatInet | `55` | Alan sonucu biçimlendirmesi. MERGEFORMATINET talimatı. |
 
-### Örnekler
+## Örnekler
 
 Alan sonuçlarının nasıl biçimlendirileceğini gösterir.
 
@@ -140,5 +142,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

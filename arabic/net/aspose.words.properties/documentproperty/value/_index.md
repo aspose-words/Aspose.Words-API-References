@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.Value
-second_title: Aspose.Words لمراجع .NET API
-description: DocumentProperty ملكية. الحصول على قيمة الخاصية أو تحديدها.
+linktitle: Value
+articleTitle: Value
+second_title: Aspose.Words لـ .NET
+description: DocumentProperty Value ملكية. الحصول على قيمة الخاصية أو تحديدها في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.properties/documentproperty/value/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.properties/documentproperty/value/
 public object Value { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 لا يمكن`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند المضمنة.
 
@@ -52,7 +54,5 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 ### أنظر أيضا
 
 * class [DocumentProperty](../)
-* مساحة الاسم [Aspose.Words.Properties](../../documentproperty/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

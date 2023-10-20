@@ -1,7 +1,9 @@
 ---
-title: Class FramesetCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Framesets.FramesetCollection sınıf. Örneklerin bir koleksiyonunu temsil ederFrameset class.
+title: FramesetCollection Class
+linktitle: FramesetCollection
+articleTitle: FramesetCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Framesets.FramesetCollection sınıf. Örneklerin bir koleksiyonunu temsil ederFrameset class C#'da.
 type: docs
 weight: 3090
 url: /tr/net/aspose.words.framesets/framesetcollection/
@@ -40,5 +42,3 @@ public class FramesetCollection : IEnumerable<Frameset>
 * class [Frameset](../frameset/)
 * ad alanı [Aspose.Words.Framesets](../../aspose.words.framesets/)
 * toplantı [Aspose.Words](../../)
-
-

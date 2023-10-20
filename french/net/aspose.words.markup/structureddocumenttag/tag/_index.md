@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Tag
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Spécifie une balise associée au nœud SDT actuel. Ne peut pas êtrenul .
+linktitle: Tag
+articleTitle: Tag
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag Tag propriété. Spécifie une balise associée au nœud SDT actuel. Ne peut pas êtrenul  en C#.
 type: docs
 weight: 280
 url: /fr/net/aspose.words.markup/structureddocumenttag/tag/
@@ -14,11 +16,11 @@ Spécifie une balise associée au nœud SDT actuel. Ne peut pas être`nul` .
 public string Tag { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Une balise est une chaîne arbitraire que les applications peuvent associer à SDT afin de l'identifier sans fournir de nom convivial visible.
 
-### Exemples
+## Exemples
 
 Montre comment créer une balise de document structuré dans une zone de texte brut et modifier son apparence.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Voir également
 
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

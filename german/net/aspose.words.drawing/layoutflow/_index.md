@@ -1,7 +1,9 @@
 ---
-title: Enum LayoutFlow
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.LayoutFlow opsomming. Bestimmt den Fluss des Textlayouts in einem Textfeld.
+title: LayoutFlow Enum
+linktitle: LayoutFlow
+articleTitle: LayoutFlow
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.LayoutFlow opsomming. Bestimmt den Fluss des Textlayouts in einem Textfeld in C#.
 type: docs
 weight: 1100
 url: /de/net/aspose.words.drawing/layoutflow/
@@ -25,7 +27,7 @@ public enum LayoutFlow
 | HorizontalIdeographic | `4` | Ideografischer Text wird horizontal angezeigt. |
 | Vertical | `5` | Text wird vertikal angezeigt. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einem Textfeld Text hinzufügt und seine Ausrichtung ändert
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "Drawing.TextBox.docx");
 * property [LayoutFlow](../textbox/layoutflow/)
 * namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
-
-

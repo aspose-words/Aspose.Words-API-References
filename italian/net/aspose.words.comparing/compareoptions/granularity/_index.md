@@ -1,7 +1,9 @@
 ---
 title: CompareOptions.Granularity
-second_title: Aspose.Words per .NET API Reference
-description: CompareOptions proprietà. Specifica se le modifiche vengono tracciate per carattere o per parola. Il valore predefinito èWordLevel .
+linktitle: Granularity
+articleTitle: Granularity
+second_title: Aspose.Words per .NET
+description: CompareOptions Granularity proprietà. Specifica se le modifiche vengono tracciate per carattere o per parola. Il valore predefinito èWordLevel  in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.comparing/compareoptions/granularity/
@@ -14,7 +16,7 @@ Specifica se le modifiche vengono tracciate per carattere o per parola. Il valor
 public Granularity Granularity { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra per specificare una granularità durante il confronto dei documenti.
 
@@ -43,7 +45,5 @@ Assert.AreEqual(5, groups.Count);
 
 * enum [Granularity](../../granularity/)
 * class [CompareOptions](../)
-* spazio dei nomi [Aspose.Words.Comparing](../../compareoptions/)
+* spazio dei nomi [Aspose.Words.Comparing](../../../aspose.words.comparing/)
 * assemblea [Aspose.Words](../../../)
-
-

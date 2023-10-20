@@ -1,7 +1,9 @@
 ---
 title: MailMergeSettings.ConnectString
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeSettings 财产. 指定用于连接到外部数据源的连接字符串默认值为空字符串
+linktitle: ConnectString
+articleTitle: ConnectString
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeSettings ConnectString 财产. 指定用于连接到外部数据源的连接字符串默认值为空字符串 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.settings/mailmergesettings/connectstring/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/mailmergesettings/connectstring/
 public string ConnectString { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在连接到外部数据源时执行邮件合并。
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### 也可以看看
 
 * class [MailMergeSettings](../)
-* 命名空间 [Aspose.Words.Settings](../../mailmergesettings/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

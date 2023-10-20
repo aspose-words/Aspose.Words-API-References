@@ -1,7 +1,9 @@
 ---
 title: EndnoteOptions.NumberStyle
-second_title: Aspose.Words لمراجع .NET API
-description: EndnoteOptions ملكية. تحديد تنسيق الأرقام للتعليقات الختامية المرقمة تلقائيًا.
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words لـ .NET
+description: EndnoteOptions NumberStyle ملكية. تحديد تنسيق الأرقام للتعليقات الختامية المرقمة تلقائيًا في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.notes/endnoteoptions/numberstyle/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.notes/endnoteoptions/numberstyle/
 public NumberStyle NumberStyle { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 ليست كل أنماط الأرقام قابلة للتطبيق على هذه الخاصية. للحصول على قائمة أنماط الأرقام application ، راجع مربع الحوار "إدراج حاشية سفلية أو تعليق ختامي" في Microsoft Word. إذا قمت بتحديد نمط أرقام غير قابل للتطبيق، فسيعود Microsoft Word إلى القيمة الافتراضية.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير نمط الأرقام للعلامات المرجعية للحاشية السفلية/التعليق الختامي.
 
@@ -69,7 +71,5 @@ doc.Save(ArtifactsDir + "InlineStory.RefMarkNumberStyle.docx");
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [EndnoteOptions](../)
-* مساحة الاسم [Aspose.Words.Notes](../../endnoteoptions/)
+* مساحة الاسم [Aspose.Words.Notes](../../../aspose.words.notes/)
 * المجسم [Aspose.Words](../../../)
-
-

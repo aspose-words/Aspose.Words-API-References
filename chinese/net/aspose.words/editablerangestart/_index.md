@@ -1,7 +1,9 @@
 ---
-title: Class EditableRangeStart
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.EditableRangeStart 班级. 表示 Word 文档中可编辑范围的开始
+title: EditableRangeStart Class
+linktitle: EditableRangeStart
+articleTitle: EditableRangeStart
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.EditableRangeStart 班级. 表示 Word 文档中可编辑范围的开始 在 C#.
 type: docs
 weight: 1440
 url: /zh/net/aspose.words/editablerangestart/
@@ -35,18 +37,18 @@ public sealed class EditableRangeStart : Node
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.words/editablerangestart/accept/)(DocumentVisitor) | 接受访客。 |
-| [Clone](../../aspose.words/node/clone/)(bool) | 创建节点的副本。 |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | 获取指定对象类型的第一个祖先。 |
+| override [Accept](../../aspose.words/editablerangestart/accept/)(*[DocumentVisitor](../documentvisitor/)*) | 接受访客。 |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | 创建节点的副本。 |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | 获取指定的第一个祖先[`NodeType`](../nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | 获取指定对象类型的第一个祖先。 |
 | virtual [GetText](../../aspose.words/node/gettext/)() | 获取此节点及其所有子节点的文本。 |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | 根据先序树遍历算法获取下一个节点。 |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | 根据先序树遍历算法获取前一个节点。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取下一个节点。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | 根据先序树遍历算法获取前一个节点。 |
 | [Remove](../../aspose.words/node/remove/)() | 将自身从父级中删除。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | 使用指定的保存选项将节点的内容导出到字符串中。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | 将节点的内容导出为指定格式的字符串。 |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | 使用指定的保存选项将节点的内容导出到字符串中。 |
 
-### 评论
+## 评论
 
 Word 文档中完整的可编辑范围由`EditableRangeStart` 和一个匹配的[`EditableRangeEnd`](../editablerangeend/)具有相同的 ID。
 
@@ -56,7 +58,7 @@ Word 文档中完整的可编辑范围由`EditableRangeStart` 和一个匹配的
 
 当前仅在内联级别支持可编辑范围，即内部[`Paragraph`](../paragraph/), 但可编辑范围开始和可编辑范围结束可以位于不同的段落中。
 
-### 例子
+## 例子
 
 展示如何将可编辑范围的编辑权限限制为特定组/用户。
 
@@ -169,5 +171,3 @@ public class EditableRangePrinter : DocumentVisitor
 * class [Node](../node/)
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

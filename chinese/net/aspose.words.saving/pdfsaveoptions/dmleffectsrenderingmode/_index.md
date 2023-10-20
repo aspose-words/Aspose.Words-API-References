@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.DmlEffectsRenderingMode
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 财产. 获取或设置一个值确定如何呈现 DrawingML 效果
+linktitle: DmlEffectsRenderingMode
+articleTitle: DmlEffectsRenderingMode
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions DmlEffectsRenderingMode 财产. 获取或设置一个值确定如何呈现 DrawingML 效果 在 C#.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.saving/pdfsaveoptions/dmleffectsrenderingmode/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/dmleffectsrenderingmode/
 public override DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为Simplified.
 
@@ -22,7 +24,7 @@ public override DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
 
 如果[`Compliance`](../compliance/)被设定为PdfA1a或者PdfA1b , 属性始终返回None。
 
-### 例子
+## 例子
 
 演示如何在将文档保存为 PDF 时配置 DrawingML 效果的渲染质量。
 
@@ -49,7 +51,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 
 * enum [DmlEffectsRenderingMode](../../dmleffectsrenderingmode/)
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

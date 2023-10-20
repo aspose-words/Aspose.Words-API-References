@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.StartMustacheTag
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeRegionInfo 财产. 返回该区域的开始mustache标签
+linktitle: StartMustacheTag
+articleTitle: StartMustacheTag
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeRegionInfo StartMustacheTag 财产. 返回该区域的开始mustache标签 在 C#.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/
 public MustacheTag StartMustacheTag { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用小胡子标签。
 
@@ -42,7 +44,5 @@ foreach (MailMergeRegionInfo region in hierarchy.Regions)
 
 * class [MustacheTag](../../mustachetag/)
 * class [MailMergeRegionInfo](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

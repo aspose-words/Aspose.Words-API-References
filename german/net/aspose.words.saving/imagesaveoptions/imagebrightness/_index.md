@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ImageBrightness
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSaveOptions eigendom. Ruft die Helligkeit für die generierten Bilder ab oder legt sie fest.
+linktitle: ImageBrightness
+articleTitle: ImageBrightness
+second_title: Aspose.Words für .NET
+description: ImageSaveOptions ImageBrightness eigendom. Ruft die Helligkeit für die generierten Bilder ab oder legt sie fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/imagesaveoptions/imagebrightness/
@@ -14,13 +16,13 @@ Ruft die Helligkeit für die generierten Bilder ab oder legt sie fest.
 public float ImageBrightness { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft ist nur beim Speichern in Rasterbildformaten wirksam.
 
 Der Standardwert ist 0,5. Der Wert muss im Bereich zwischen 0 und 1 liegen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie das Bild bearbeitet wird, während Aspose.Words ein Dokument in ein Dokument konvertiert.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.EditImage.png", options);
 ### Siehe auch
 
 * class [ImageSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../imagesaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

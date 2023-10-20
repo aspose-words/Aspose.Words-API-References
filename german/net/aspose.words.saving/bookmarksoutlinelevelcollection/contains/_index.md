@@ -1,7 +1,9 @@
 ---
 title: BookmarksOutlineLevelCollection.Contains
-second_title: Aspose.Words für .NET-API-Referenz
-description: BookmarksOutlineLevelCollection methode. Ermittelt ob die Sammlung ein Lesezeichen mit dem angegebenen Namen enthält.
+linktitle: Contains
+articleTitle: Contains
+second_title: Aspose.Words für .NET
+description: BookmarksOutlineLevelCollection Contains methode. Ermittelt ob die Sammlung ein Lesezeichen mit dem angegebenen Namen enthält in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.saving/bookmarksoutlinelevelcollection/contains/
@@ -22,7 +24,7 @@ public bool Contains(string name)
 
 `WAHR` wenn Artikel in der Sammlung gefunden wird; ansonsten,`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Gliederungsebenen für Lesezeichen festgelegt werden.
 
@@ -80,7 +82,5 @@ outlineLevels.Clear();
 ### Siehe auch
 
 * class [BookmarksOutlineLevelCollection](../)
-* namensraum [Aspose.Words.Saving](../../bookmarksoutlinelevelcollection/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

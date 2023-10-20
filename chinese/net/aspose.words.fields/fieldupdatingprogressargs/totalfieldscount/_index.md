@@ -1,7 +1,9 @@
 ---
 title: FieldUpdatingProgressArgs.TotalFieldsCount
-second_title: Aspose.Words for .NET API 参考
-description: FieldUpdatingProgressArgs 财产. 获取要更新的字段总数
+linktitle: TotalFieldsCount
+articleTitle: TotalFieldsCount
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldUpdatingProgressArgs TotalFieldsCount 财产. 获取要更新的字段总数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldupdatingprogressargs/totalfieldscount/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.fields/fieldupdatingprogressargs/totalfieldscount/
 public int TotalFieldsCount { get; }
 ```
 
-### 评论
+## 评论
 
 该值不是恒定的，在更新过程中可能会增加。
 
-### 例子
+## 例子
 
 演示如何在字段更新期间使用回调方法。
 
@@ -86,7 +88,5 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
 ### 也可以看看
 
 * class [FieldUpdatingProgressArgs](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldupdatingprogressargs/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

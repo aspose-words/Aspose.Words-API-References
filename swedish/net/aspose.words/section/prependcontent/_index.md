@@ -1,9 +1,11 @@
 ---
 title: Section.PrependContent
-second_title: Aspose.Words för .NET API Referens
-description: Section metod. Infogar en kopia av innehållet i källavsnittet i början av det här avsnittet.
+linktitle: PrependContent
+articleTitle: PrependContent
+second_title: Aspose.Words för .NET
+description: Section PrependContent metod. Infogar en kopia av innehållet i källavsnittet i början av det här avsnittet i C#.
 type: docs
-weight: 160
+weight: 140
 url: /sv/net/aspose.words/section/prependcontent/
 ---
 ## Section.PrependContent method
@@ -18,7 +20,7 @@ public void PrependContent(Section sourceSection)
 | --- | --- | --- |
 | sourceSection | Section | Avsnittet att kopiera innehåll från. |
 
-### Anmärkningar
+## Anmärkningar
 
 Endast innehållet i[`Body`](../body/) av källsektionen kopieras, sidinställningar, sidhuvuden och sidfötter kopieras inte.
 
@@ -26,7 +28,7 @@ Noderna importeras automatiskt om källdelen tillhör ett annat dokument.
 
 Ingen ny sektion skapas i måldokumentet.
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till innehållet i ett avsnitt till ett annat avsnitt.
 
@@ -62,7 +64,5 @@ Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
 ### Se även
 
 * class [Section](../)
-* namnutrymme [Aspose.Words](../../section/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

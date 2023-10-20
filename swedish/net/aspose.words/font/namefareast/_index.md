@@ -1,7 +1,9 @@
 ---
 title: Font.NameFarEast
-second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Returnerar eller ställer in ett östasiatiskt teckensnittsnamn.
+linktitle: NameFarEast
+articleTitle: NameFarEast
+second_title: Aspose.Words för .NET
+description: Font NameFarEast fast egendom. Returnerar eller ställer in ett östasiatiskt teckensnittsnamn i C#.
 type: docs
 weight: 260
 url: /sv/net/aspose.words/font/namefareast/
@@ -14,7 +16,7 @@ Returnerar eller ställer in ett östasiatiskt teckensnittsnamn.
 public string NameFarEast { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man infogar och formaterar text på ett språk i Fjärran Östern.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "Font.FarEast.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* namnutrymme [Aspose.Words](../../font/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

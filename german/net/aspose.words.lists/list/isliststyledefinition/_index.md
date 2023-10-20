@@ -1,7 +1,9 @@
 ---
 title: List.IsListStyleDefinition
-second_title: Aspose.Words für .NET-API-Referenz
-description: List eigendom. Gibt zurückWAHR wenn diese Liste eine Definition eines Listenstils ist.
+linktitle: IsListStyleDefinition
+articleTitle: IsListStyleDefinition
+second_title: Aspose.Words für .NET
+description: List IsListStyleDefinition eigendom. Gibt zurückWAHR wenn diese Liste eine Definition eines Listenstils ist in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.lists/list/isliststyledefinition/
@@ -14,7 +16,7 @@ Gibt zurück`WAHR` wenn diese Liste eine Definition eines Listenstils ist.
 public bool IsListStyleDefinition { get; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn diese Eigenschaft ist`WAHR` , Die[`Style`](../style/) Die Eigenschaft gibt den Listenstil zurück, den diese Liste definiert.
 
@@ -22,7 +24,7 @@ Durch Ändern der Eigenschaften einer Liste, die einen Listenstil definiert, än
 
 Eine Liste, die eine Definition eines Listenstils darstellt, kann nicht direkt auf Absätze angewendet werden, um sie zu nummerieren.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Listenstil erstellt und in einem Dokument verwendet wird.
 
@@ -83,7 +85,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ### Siehe auch
 
 * class [List](../)
-* namensraum [Aspose.Words.Lists](../../list/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

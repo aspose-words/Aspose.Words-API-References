@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.PopFont
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Извлекает форматирование символов ранее сохраненное в стеке.
+linktitle: PopFont
+articleTitle: PopFont
+second_title: Aspose.Words для .NET
+description: DocumentBuilder PopFont метод. Извлекает форматирование символов ранее сохраненное в стеке на С#.
 type: docs
-weight: 600
+weight: 590
 url: /ru/net/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder.PopFont method
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/documentbuilder/popfont/
 public void PopFont()
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как использовать стек форматирования построителя документов.
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.PushPopFont.docx");
 * property [Font](../font/)
 * method [PushFont](../pushfont/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.NameOfApplication
-second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties 财产. 获取或设置应用程序的名称
+linktitle: NameOfApplication
+articleTitle: NameOfApplication
+second_title: 用于 .NET 的 Aspose.Words
+description: BuiltInDocumentProperties NameOfApplication 财产. 获取或设置应用程序的名称 在 C#.
 type: docs
 weight: 210
 url: /zh/net/aspose.words.properties/builtindocumentproperties/nameofapplication/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.properties/builtindocumentproperties/nameofapplication
 public string NameOfApplication { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用“来源”类别中的文档属性。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ### 也可以看看
 
 * class [BuiltInDocumentProperties](../)
-* 命名空间 [Aspose.Words.Properties](../../builtindocumentproperties/)
+* 命名空间 [Aspose.Words.Properties](../../../aspose.words.properties/)
 * 部件 [Aspose.Words](../../../)
-
-

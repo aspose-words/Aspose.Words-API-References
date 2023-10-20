@@ -1,7 +1,9 @@
 ---
 title: OdtSaveOptions.Password
-second_title: Aspose.Words لمراجع .NET API
-description: OdtSaveOptions ملكية. الحصول على كلمة مرور أو تعيينها لتشفير المستند.
+linktitle: Password
+articleTitle: Password
+second_title: Aspose.Words لـ .NET
+description: OdtSaveOptions Password ملكية. الحصول على كلمة مرور أو تعيينها لتشفير المستند في C#.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/odtsaveoptions/password/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/odtsaveoptions/password/
 public string Password { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 من أجل حفظ المستند بدون تشفير، يجب أن تكون هذه الخاصية`باطل` أو سلسلة فارغة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تشفير مستند ODT/OTT المحفوظ بكلمة مرور، ثم تحميله باستخدام Aspose.Words.
 
@@ -53,7 +55,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### أنظر أيضا
 
 * class [OdtSaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../odtsaveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

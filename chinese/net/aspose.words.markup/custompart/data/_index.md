@@ -1,7 +1,9 @@
 ---
 title: CustomPart.Data
-second_title: Aspose.Words for .NET API 参考
-description: CustomPart 财产. 包含此自定义部件的数据
+linktitle: Data
+articleTitle: Data
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomPart Data 财产. 包含此自定义部件的数据 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.markup/custompart/data/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.markup/custompart/data/
 public byte[] Data { get; set; }
 ```
 
-### 评论
+## 评论
 
 该属性仅适用于[`IsExternal`](../isexternal/)是`错误的`。
 
 默认值为空字节数组。该值不能是`无效的`。
 
-### 例子
+## 例子
 
 演示如何访问文档的任意自定义部件集合。
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### 也可以看看
 
 * class [CustomPart](../)
-* 命名空间 [Aspose.Words.Markup](../../custompart/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

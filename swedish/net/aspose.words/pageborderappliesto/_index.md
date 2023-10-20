@@ -1,7 +1,9 @@
 ---
-title: Enum PageBorderAppliesTo
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.PageBorderAppliesTo uppräkning. Anger vilka sidor som sidkanten skrivs ut på.
+title: PageBorderAppliesTo Enum
+linktitle: PageBorderAppliesTo
+articleTitle: PageBorderAppliesTo
+second_title: Aspose.Words för .NET
+description: Aspose.Words.PageBorderAppliesTo uppräkning. Anger vilka sidor som sidkanten skrivs ut på i C#.
 type: docs
 weight: 4340
 url: /sv/net/aspose.words/pageborderappliesto/
@@ -22,7 +24,7 @@ public enum PageBorderAppliesTo
 | FirstPage | `1` | Sidkanten visas endast på första sidan i avsnittet. |
 | OtherPages | `2` | Sidkanten visas på alla sidor utom den första sidan i avsnittet. |
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en bred blå bandkant längst upp på första sidan.
 
@@ -49,5 +51,3 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 * property [BorderAppliesTo](../pagesetup/borderappliesto/)
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

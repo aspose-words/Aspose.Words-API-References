@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AnchorLocked
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 指定形状的锚点是否被锁定
+linktitle: AnchorLocked
+articleTitle: AnchorLocked
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase AnchorLocked 财产. 指定形状的锚点是否被锁定 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing/shapebase/anchorlocked/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/shapebase/anchorlocked/
 public bool AnchorLocked { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为`错误的`。
 
@@ -22,7 +24,7 @@ public bool AnchorLocked { get; set; }
 
 此属性会影响 Microsoft Word 中形状锚点的行为。 当锚点未锁定时，在 Microsoft Word 中移动形状也可以移动 形状锚点。
 
-### 例子
+## 例子
 
 演示如何锁定或解锁形状的段落锚点。
 
@@ -53,7 +55,5 @@ doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ### 也可以看看
 
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

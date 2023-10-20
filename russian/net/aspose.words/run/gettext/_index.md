@@ -1,7 +1,9 @@
 ---
 title: Run.GetText
-second_title: Справочник по API Aspose.Words для .NET
-description: Run метод. Получает текст выполнения.
+linktitle: GetText
+articleTitle: GetText
+second_title: Aspose.Words для .NET
+description: Run GetText метод. Получает текст выполнения на С#.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/run/gettext/
@@ -18,7 +20,7 @@ public override string GetText()
 
 Текст пробега.
 
-### Примеры
+## Примеры
 
 Показывает, как распечатать структуру узлов каждого верхнего и нижнего колонтитула в документе.
 
@@ -111,7 +113,5 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
 ### Смотрите также
 
 * class [Run](../)
-* пространство имен [Aspose.Words](../../run/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

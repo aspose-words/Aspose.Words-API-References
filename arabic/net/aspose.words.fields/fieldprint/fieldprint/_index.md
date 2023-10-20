@@ -1,7 +1,9 @@
 ---
-title: FieldPrint.FieldPrint
-second_title: Aspose.Words لمراجع .NET API
-description: FieldPrint البناء. Default_Constructor
+title: FieldPrint
+linktitle: FieldPrint
+articleTitle: FieldPrint
+second_title: Aspose.Words لـ .NET
+description: FieldPrint البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldprint/fieldprint/
@@ -17,7 +19,5 @@ public FieldPrint()
 ### أنظر أيضا
 
 * class [FieldPrint](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldprint/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

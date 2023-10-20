@@ -1,7 +1,9 @@
 ---
 title: Document.ShadeFormData
-second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Specifica se attivare lombreggiatura grigia sui campi del modulo.
+linktitle: ShadeFormData
+articleTitle: ShadeFormData
+second_title: Aspose.Words per .NET
+description: Document ShadeFormData proprietà. Specifica se attivare lombreggiatura grigia sui campi del modulo in C#.
 type: docs
 weight: 380
 url: /it/net/aspose.words/document/shadeformdata/
@@ -14,7 +16,7 @@ Specifica se attivare l'ombreggiatura grigia sui campi del modulo.
 public bool ShadeFormData { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare l'ombreggiatura grigia ai campi modulo.
 
@@ -33,7 +35,5 @@ doc.Save(ArtifactsDir + "Document.ShadeFormData.docx");
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

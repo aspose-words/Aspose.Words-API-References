@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.UseEmfEmbeddedToWmf
-second_title: Aspose.Words für .NET-API-Referenz
-description: MetafileRenderingOptions eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt wie WMFMetadateien mit eingebetteten EMFMetadateien gerendert werden sollen.
+linktitle: UseEmfEmbeddedToWmf
+articleTitle: UseEmfEmbeddedToWmf
+second_title: Aspose.Words für .NET
+description: MetafileRenderingOptions UseEmfEmbeddedToWmf eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt wie WMFMetadateien mit eingebetteten EMFMetadateien gerendert werden sollen in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
@@ -14,7 +16,7 @@ Ruft einen Wert ab oder legt diesen fest, der bestimmt, wie WMF-Metadateien mit 
 public bool UseEmfEmbeddedToWmf { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 WMF-Metadateien könnten eingebettete EMF-Daten enthalten. MS Word verwendet in den meisten Fällen eingebettete EMF-Daten. GDI+ verwendet immer WMF-Daten.
 
@@ -26,7 +28,7 @@ Diese Option wird nur verwendet, wenn die Metadatei als Vektorgrafik gerendert w
 
 Der Standardwert ist`WAHR`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie erweiterte Windows-Metadatei-bezogene Rendering-Optionen beim Speichern als PDF konfiguriert werden.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 ### Siehe auch
 
 * class [MetafileRenderingOptions](../)
-* namensraum [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

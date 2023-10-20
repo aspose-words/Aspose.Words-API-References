@@ -1,9 +1,11 @@
 ---
 title: Stroke.EndArrowWidth
-second_title: Aspose.Words für .NET-API-Referenz
-description: Stroke eigendom. Definiert die Pfeilspitzenbreite für das Ende eines Strichs.
+linktitle: EndArrowWidth
+articleTitle: EndArrowWidth
+second_title: Aspose.Words für .NET
+description: Stroke EndArrowWidth eigendom. Definiert die Pfeilspitzenbreite für das Ende eines Strichs in C#.
 type: docs
-weight: 80
+weight: 70
 url: /de/net/aspose.words.drawing/stroke/endarrowwidth/
 ---
 ## Stroke.EndArrowWidth property
@@ -14,11 +16,11 @@ Definiert die Pfeilspitzenbreite für das Ende eines Strichs.
 public ArrowWidth EndArrowWidth { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert istMedium.
 
-### Beispiele
+## Beispiele
 
 Zeigt, um eine Vielzahl von Formen zu erstellen.
 
@@ -94,7 +96,5 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 
 * enum [ArrowWidth](../../arrowwidth/)
 * class [Stroke](../)
-* namensraum [Aspose.Words.Drawing](../../stroke/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageData.Borders
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageData eigendom. Ruft die Sammlung der Ränder des Bildes ab. Ränder wirken sich nur auf InlineBilder aus.
+linktitle: Borders
+articleTitle: Borders
+second_title: Aspose.Words für .NET
+description: ImageData Borders eigendom. Ruft die Sammlung der Ränder des Bildes ab. Ränder wirken sich nur auf InlineBilder aus in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing/imagedata/borders/
@@ -14,7 +16,7 @@ Ruft die Sammlung der Ränder des Bildes ab. Ränder wirken sich nur auf Inline-
 public BorderCollection Borders { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Bilddaten einer Form bearbeitet werden.
 
@@ -78,7 +80,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 
 * class [BorderCollection](../../../aspose.words/bordercollection/)
 * class [ImageData](../)
-* namensraum [Aspose.Words.Drawing](../../imagedata/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

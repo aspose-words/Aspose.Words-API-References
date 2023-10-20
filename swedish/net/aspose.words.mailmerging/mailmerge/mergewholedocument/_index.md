@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MergeWholeDocument
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge fast egendom. Hämtar eller ställer in ett värde som indikerar om fält i hela dokumentet uppdateras under körning av en sammankoppling med regioner.
+linktitle: MergeWholeDocument
+articleTitle: MergeWholeDocument
+second_title: Aspose.Words för .NET
+description: MailMerge MergeWholeDocument fast egendom. Hämtar eller ställer in ett värde som indikerar om fält i hela dokumentet uppdateras under körning av en sammankoppling med regioner i C#.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.mailmerging/mailmerge/mergewholedocument/
@@ -14,11 +16,11 @@ Hämtar eller ställer in ett värde som indikerar om fält i hela dokumentet up
 public bool MergeWholeDocument { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Standardvärdet är`falsk` .
 
-### Exempel
+## Exempel
 
 Visar förhållandet mellan e-postsammanslagningar med regioner och fältuppdatering.
 
@@ -85,7 +87,5 @@ private static DataTable CreateSourceTableMergeWholeDocument()
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

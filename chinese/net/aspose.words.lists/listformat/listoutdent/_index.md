@@ -1,7 +1,9 @@
 ---
 title: ListFormat.ListOutdent
-second_title: Aspose.Words for .NET API 参考
-description: ListFormat 方法. 将当前段落的列表级别降低一级
+linktitle: ListOutdent
+articleTitle: ListOutdent
+second_title: 用于 .NET 的 Aspose.Words
+description: ListFormat ListOutdent 方法. 将当前段落的列表级别降低一级 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.lists/listformat/listoutdent/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.lists/listformat/listoutdent/
 public void ListOutdent()
 ```
 
-### 评论
+## 评论
 
 此方法更改列表级别并应用新级别的格式设置属性。
 
 在 Word 文档中，列表最多可以包含九个级别。每个级别的列表格式化 指定使用什么项目符号或编号、左缩进、 项目符号和文本之间的空格等。
 
-### 例子
+## 例子
 
 演示如何创建项目符号列表和编号列表。
 
@@ -105,7 +107,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 ### 也可以看看
 
 * class [ListFormat](../)
-* 命名空间 [Aspose.Words.Lists](../../listformat/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

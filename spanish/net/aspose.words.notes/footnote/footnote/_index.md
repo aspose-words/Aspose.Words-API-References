@@ -1,7 +1,9 @@
 ---
-title: Footnote.Footnote
-second_title: Referencia de API de Aspose.Words para .NET
-description: Footnote constructor. Inicializa una instancia delFootnote clase.
+title: Footnote
+linktitle: Footnote
+articleTitle: Footnote
+second_title: Aspose.Words para .NET
+description: Footnote constructor. Inicializa una instancia delFootnote clase en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.notes/footnote/footnote/
@@ -19,13 +21,13 @@ public Footnote(DocumentBase doc, FootnoteType footnoteType)
 | doc | DocumentBase | El documento del propietario. |
 | footnoteType | FootnoteType | A[`FootnoteType`](../footnotetype/) value que especifica si se trata de una nota al pie o al final. |
 
-### Observaciones
+## Observaciones
 
 Cuando[`Footnote`](../) se crea, pertenece al documento especificado, pero aún no es parte del documento y[`ParentNode`](../../../aspose.words/node/parentnode/) es`nulo`.
 
-Para anexar[`Footnote`](../) al uso del documentoNode) oNode) en el párrafo donde desea insertar la nota al pie.
+Para anexar[`Footnote`](../) al uso del documento[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) o[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) en el párrafo donde desea insertar la nota al pie.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar y personalizar notas al pie.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 * class [DocumentBase](../../../aspose.words/documentbase/)
 * enum [FootnoteType](../../footnotetype/)
 * class [Footnote](../)
-* espacio de nombres [Aspose.Words.Notes](../../footnote/)
+* espacio de nombres [Aspose.Words.Notes](../../../aspose.words.notes/)
 * asamblea [Aspose.Words](../../../)
-
-

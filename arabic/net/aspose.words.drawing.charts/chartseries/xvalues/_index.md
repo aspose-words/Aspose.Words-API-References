@@ -1,7 +1,9 @@
 ---
 title: ChartSeries.XValues
-second_title: Aspose.Words لمراجع .NET API
-description: ChartSeries ملكية. الحصول على مجموعة من قيم X لسلسلة المخططات هذه.
+linktitle: XValues
+articleTitle: XValues
+second_title: Aspose.Words لـ .NET
+description: ChartSeries XValues ملكية. الحصول على مجموعة من قيم X لسلسلة المخططات هذه في C#.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.drawing.charts/chartseries/xvalues/
@@ -18,7 +20,5 @@ public ChartXValueCollection XValues { get; }
 
 * class [ChartXValueCollection](../../chartxvaluecollection/)
 * class [ChartSeries](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseries/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

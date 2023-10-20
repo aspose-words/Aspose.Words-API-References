@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureDetails.TimestampSettings
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfDigitalSignatureDetails propriété. Obtient ou définit les paramètres dhorodatage de la signature numérique.
+linktitle: TimestampSettings
+articleTitle: TimestampSettings
+second_title: Aspose.Words pour .NET
+description: PdfDigitalSignatureDetails TimestampSettings propriété. Obtient ou définit les paramètres dhorodatage de la signature numérique en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/
@@ -14,11 +16,11 @@ Obtient ou définit les paramètres d'horodatage de la signature numérique.
 public PdfDigitalSignatureTimestampSettings TimestampSettings { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 La valeur par défaut est`nul` et la signature numérique ne sera pas horodatée. Lorsque cette propriété est définie sur une valeur valide[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings/) object, alors la signature numérique dans le document PDF sera horodatée.
 
-### Exemples
+## Exemples
 
 Montre comment signer numériquement un document PDF enregistré et l'horodater.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 * class [PdfDigitalSignatureTimestampSettings](../../pdfdigitalsignaturetimestampsettings/)
 * class [PdfDigitalSignatureDetails](../)
-* espace de noms [Aspose.Words.Saving](../../pdfdigitalsignaturedetails/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

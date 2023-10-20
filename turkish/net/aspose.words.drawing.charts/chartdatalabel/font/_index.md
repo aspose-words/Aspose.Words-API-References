@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabel.Font
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataLabel mülk. Bu veri etiketinin yazı tipi formatına erişim sağlar.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words for .NET
+description: ChartDataLabel Font mülk. Bu veri etiketinin yazı tipi formatına erişim sağlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartdatalabel/font/
@@ -14,7 +16,7 @@ Bu veri etiketinin yazı tipi formatına erişim sağlar.
 public Font Font { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Kabarcık grafikleriyle 3B efektlerin nasıl kullanılacağını gösterir.
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartDataLabel](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatalabel/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Border.DistanceFromText
-second_title: Aspose.Words för .NET API Referens
-description: Border fast egendom. Hämtar eller ställer in avståndet mellan kanten från text eller från sidkanten i punkter.
+linktitle: DistanceFromText
+articleTitle: DistanceFromText
+second_title: Aspose.Words för .NET
+description: Border DistanceFromText fast egendom. Hämtar eller ställer in avståndet mellan kanten från text eller från sidkanten i punkter i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/border/distancefromtext/
@@ -14,11 +16,11 @@ Hämtar eller ställer in avståndet mellan kanten från text eller från sidkan
 public double DistanceFromText { get; set; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Har ingen effekt och kommer automatiskt att nollställas för tabellcellers gränser.
 
-### Exempel
+## Exempel
 
 Visar hur man skapar en bred blå bandkant längst upp på första sidan.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorderProperties.docx");
 ### Se även
 
 * class [Border](../)
-* namnutrymme [Aspose.Words](../../border/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

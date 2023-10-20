@@ -1,7 +1,9 @@
 ---
 title: FieldToc.UpdatePageNumbers
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldToc méthode. Met à jour les numéros de page des éléments de cette table des matières.
+linktitle: UpdatePageNumbers
+articleTitle: UpdatePageNumbers
+second_title: Aspose.Words pour .NET
+description: FieldToc UpdatePageNumbers méthode. Met à jour les numéros de page des éléments de cette table des matières en C#.
 type: docs
 weight: 180
 url: /fr/net/aspose.words.fields/fieldtoc/updatepagenumbers/
@@ -18,7 +20,7 @@ public bool UpdatePageNumbers()
 
 `vrai` si l'opération réussit. Si l'un des signets de la table des matières associés a été supprimé,`FAUX` sera retourné.
 
-### Exemples
+## Exemples
 
 Montre comment insérer une table des matières et la remplir avec des entrées basées sur les styles de titre.
 
@@ -103,7 +105,5 @@ public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText
 ### Voir également
 
 * class [FieldToc](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtoc/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

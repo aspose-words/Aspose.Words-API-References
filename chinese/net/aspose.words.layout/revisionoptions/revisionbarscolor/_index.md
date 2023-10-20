@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.RevisionBarsColor
-second_title: Aspose.Words for .NET API 参考
-description: RevisionOptions 财产. 允许指定用于标识包含修订信息的文档行的侧边栏的颜色 默认值为Red.
+linktitle: RevisionBarsColor
+articleTitle: RevisionBarsColor
+second_title: 用于 .NET 的 Aspose.Words
+description: RevisionOptions RevisionBarsColor 财产. 允许指定用于标识包含修订信息的文档行的侧边栏的颜色 默认值为Red 在 C#.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.layout/revisionoptions/revisionbarscolor/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.layout/revisionoptions/revisionbarscolor/
 public RevisionColor RevisionBarsColor { get; set; }
 ```
 
-### 评论
+## 评论
 
 将此属性设置为ByAuthor或者NoHighlightvalue 将导致在布局中隐藏修订栏。
 
-### 例子
+## 例子
 
 展示如何修改修订版本的外观。
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* 命名空间 [Aspose.Words.Layout](../../revisionoptions/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

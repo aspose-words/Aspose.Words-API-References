@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.Shading
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. إرجاع أShading الكائن الذي يشير إلى تنسيق التظليل للفقرة.
+linktitle: Shading
+articleTitle: Shading
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat Shading ملكية. إرجاع أShading الكائن الذي يشير إلى تنسيق التظليل للفقرة في C#.
 type: docs
 weight: 280
 url: /ar/net/aspose.words/paragraphformat/shading/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/shading/
 public Shading Shading { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تزيين النص بالحدود والتظليل.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 * class [Shading](../../shading/)
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

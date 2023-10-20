@@ -1,7 +1,9 @@
 ---
-title: Class Range
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Range klass. Representerar ett angränsande område i ett dokument.
+title: Range Class
+linktitle: Range
+articleTitle: Range
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Range klass. Representerar ett angränsande område i ett dokument i C#.
 type: docs
 weight: 4520
 url: /sv/net/aspose.words/range/
@@ -33,15 +35,15 @@ public class Range
 | --- | --- |
 | [Delete](../../aspose.words/range/delete/)() | Tar bort alla tecken i intervallet. |
 | [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes/)() | Ändrar fälttypvärden[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) av[`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) i detta intervall så att de motsvarar fälttyperna som finns i fältkoderna. |
-| [Replace](../../aspose.words/range/replace/#replace_2)(Regex, string) | Ersätter alla förekomster av ett teckenmönster som anges av ett reguljärt uttryck med en annan sträng. |
-| [Replace](../../aspose.words/range/replace/#replace)(string, string) | Ersätter alla förekomster av ett specificerat teckensträngmönster med en ersättningssträng. |
-| [Replace](../../aspose.words/range/replace/#replace_3)(Regex, string, FindReplaceOptions) | Ersätter alla förekomster av ett teckenmönster som anges av ett reguljärt uttryck med en annan sträng. |
-| [Replace](../../aspose.words/range/replace/#replace_1)(string, string, FindReplaceOptions) | Ersätter alla förekomster av ett specificerat teckensträngmönster med en ersättningssträng. |
+| [Replace](../../aspose.words/range/replace/#replace_2)(*Regex, string*) | Ersätter alla förekomster av ett teckenmönster som anges av ett reguljärt uttryck med en annan sträng. |
+| [Replace](../../aspose.words/range/replace/#replace)(*string, string*) | Ersätter alla förekomster av ett specificerat teckensträngmönster med en ersättningssträng. |
+| [Replace](../../aspose.words/range/replace/#replace_3)(*Regex, string, [FindReplaceOptions](../../aspose.words.replacing/findreplaceoptions/)*) | Ersätter alla förekomster av ett teckenmönster som anges av ett reguljärt uttryck med en annan sträng. |
+| [Replace](../../aspose.words/range/replace/#replace_1)(*string, string, [FindReplaceOptions](../../aspose.words.replacing/findreplaceoptions/)*) | Ersätter alla förekomster av ett specificerat teckensträngmönster med en ersättningssträng. |
 | [ToDocument](../../aspose.words/range/todocument/)() | Konstruerar ett nytt fullt format dokument som innehåller intervallet. |
 | [UnlinkFields](../../aspose.words/range/unlinkfields/)() | Tar bort länkar till fält i det här intervallet. |
 | [UpdateFields](../../aspose.words/range/updatefields/)() | Uppdaterar värdena för dokumentfält i detta intervall. |
 
-### Anmärkningar
+## Anmärkningar
 
 Dokumentet representeras av ett träd med noder och noderna tillhandahåller operations för att arbeta med trädet, men vissa operationer är lättare att utföra om dokument behandlas som en sammanhängande textsekvens.
 
@@ -49,7 +51,7 @@ Dokumentet representeras av ett träd med noder och noderna tillhandahåller ope
 
 `Range` innehåller ingen text eller noder, det är bara en vy eller "fönster" över ett fragment av ett dokument.
 
-### Exempel
+## Exempel
 
 Visar hur man får fram textinnehållet för alla noder som ett intervall täcker.
 
@@ -66,5 +68,3 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 
 * namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,12 +1,14 @@
 ---
-title: SdtListItem.SdtListItem
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SdtListItem constructeur. Initialise une nouvelle instance de cette classe.
+title: SdtListItem
+linktitle: SdtListItem
+articleTitle: SdtListItem
+second_title: Aspose.Words pour .NET
+description: SdtListItem constructeur. Initialise une nouvelle instance de cette classe en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.markup/sdtlistitem/sdtlistitem/
 ---
-## SdtListItem(string, string) {#constructor_1}
+## SdtListItem(*string, string*) {#constructor_1}
 
 Initialise une nouvelle instance de cette classe.
 
@@ -14,7 +16,7 @@ Initialise une nouvelle instance de cette classe.
 public SdtListItem(string displayText, string value)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les balises de documents structurés à liste déroulante.
 
@@ -71,12 +73,12 @@ Assert.AreEqual(0, listItems.Count);
 ### Voir également
 
 * class [SdtListItem](../)
-* espace de noms [Aspose.Words.Markup](../../sdtlistitem/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## SdtListItem(string) {#constructor}
+## SdtListItem(*string*) {#constructor}
 
 Initialise une nouvelle instance de cette classe.
 
@@ -84,7 +86,7 @@ Initialise une nouvelle instance de cette classe.
 public SdtListItem(string value)
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les balises de documents structurés à liste déroulante.
 
@@ -141,7 +143,5 @@ Assert.AreEqual(0, listItems.Count);
 ### Voir également
 
 * class [SdtListItem](../)
-* espace de noms [Aspose.Words.Markup](../../sdtlistitem/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

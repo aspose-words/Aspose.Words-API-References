@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTag.Title
-second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Spécifie le nom convivial associé à ce TSD . Ne peut pas êtrenul .
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words pour .NET
+description: StructuredDocumentTag Title propriété. Spécifie le nom convivial associé à ceTSD . Ne peut pas êtrenul  en C#.
 type: docs
 weight: 290
 url: /fr/net/aspose.words.markup/structureddocumenttag/title/
 ---
 ## StructuredDocumentTag.Title property
 
-Spécifie le nom convivial associé à ce **TSD** . Ne peut pas être`nul` .
+Spécifie le nom convivial associé à ce**TSD** . Ne peut pas être`nul` .
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer une balise de document structuré dans une zone de texte brut et modifier son apparence.
 
@@ -71,7 +73,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### Voir également
 
 * class [StructuredDocumentTag](../)
-* espace de noms [Aspose.Words.Markup](../../structureddocumenttag/)
+* espace de noms [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Assemblée [Aspose.Words](../../../)
-
-

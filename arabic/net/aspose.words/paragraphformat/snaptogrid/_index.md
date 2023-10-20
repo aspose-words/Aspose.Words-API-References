@@ -1,7 +1,9 @@
 ---
 title: ParagraphFormat.SnapToGrid
-second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. يحدد ما إذا كان يجب على الفقرة الحالية استخدام خطوط شبكة المستند لكل صفحة settings عند تخطيط المحتويات في الفقرة.
+linktitle: SnapToGrid
+articleTitle: SnapToGrid
+second_title: Aspose.Words لـ .NET
+description: ParagraphFormat SnapToGrid ملكية. يحدد ما إذا كان يجب على الفقرة الحالية استخدام خطوط شبكة المستند لكل صفحة settings عند تخطيط المحتويات في الفقرة في C#.
 type: docs
 weight: 290
 url: /ar/net/aspose.words/paragraphformat/snaptogrid/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/paragraphformat/snaptogrid/
 public bool SnapToGrid { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحديد حد لعدد الأسطر التي قد تحتوي عليها كل صفحة.
 
@@ -38,7 +40,5 @@ doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
 ### أنظر أيضا
 
 * class [ParagraphFormat](../)
-* مساحة الاسم [Aspose.Words](../../paragraphformat/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

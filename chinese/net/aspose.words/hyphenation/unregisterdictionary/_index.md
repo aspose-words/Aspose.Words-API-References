@@ -1,7 +1,9 @@
 ---
 title: Hyphenation.UnregisterDictionary
-second_title: Aspose.Words for .NET API 参考
-description: Hyphenation 方法. 注销指定语言的连字符字典
+linktitle: UnregisterDictionary
+articleTitle: UnregisterDictionary
+second_title: 用于 .NET 的 Aspose.Words
+description: Hyphenation UnregisterDictionary 方法. 注销指定语言的连字符字典 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/hyphenation/unregisterdictionary/
@@ -20,7 +22,7 @@ public static void UnregisterDictionary(string language)
 | --- | --- | --- |
 | language | String | 语言名称，例如“en-US”。有关详细信息，请参阅 .NET 文档中的“区域性名称”和 RFC 4646。 |
 
-### 例子
+## 例子
 
 展示如何注册连字符字典。
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 ### 也可以看看
 
 * class [Hyphenation](../)
-* 命名空间 [Aspose.Words](../../hyphenation/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

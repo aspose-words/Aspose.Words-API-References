@@ -1,12 +1,14 @@
 ---
 title: Watermark.SetText
-second_title: Aspose.Words für .NET-API-Referenz
-description: Watermark methode. Fügt dem Dokument ein Textwasserzeichen hinzu.
+linktitle: SetText
+articleTitle: SetText
+second_title: Aspose.Words für .NET
+description: Watermark SetText methode. Fügt dem Dokument ein Textwasserzeichen hinzu in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words/watermark/settext/
 ---
-## SetText(string) {#settext}
+## SetText(*string*) {#settext}
 
 Fügt dem Dokument ein Textwasserzeichen hinzu.
 
@@ -25,11 +27,11 @@ public void SetText(string text)
 | ArgumentOutOfRangeException | Wird ausgelöst, wenn die Textlänge außerhalb des zulässigen Bereichs liegt oder der Text nur Leerzeichen enthält. |
 | ArgumentNullException | Wird ausgelöst, wenn der Text vorhanden ist`Null` . |
 
-### Bemerkungen
+## Bemerkungen
 
 Die Textlänge muss im Bereich von 1 bis einschließlich 200 liegen. Der Text darf nicht sein`Null` oder nur Leerzeichen enthalten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Textwasserzeichen erstellt.
 
@@ -60,12 +62,12 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Siehe auch
 
 * class [Watermark](../)
-* namensraum [Aspose.Words](../../watermark/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
-## SetText(string, TextWatermarkOptions) {#settext_1}
+## SetText(*string, [TextWatermarkOptions](../../textwatermarkoptions/)*) {#settext_1}
 
 Fügt dem Dokument ein Textwasserzeichen hinzu.
 
@@ -85,13 +87,13 @@ public void SetText(string text, TextWatermarkOptions options)
 | ArgumentOutOfRangeException | Wird ausgelöst, wenn die Textlänge außerhalb des zulässigen Bereichs liegt oder der Text nur Leerzeichen enthält. |
 | ArgumentNullException | Wird ausgelöst, wenn der Text vorhanden ist`Null` . |
 
-### Bemerkungen
+## Bemerkungen
 
 Die Textlänge muss im Bereich von 1 bis einschließlich 200 liegen. Der Text darf nicht sein`Null` oder nur Leerzeichen enthalten.
 
 Wenn[`TextWatermarkOptions`](../../textwatermarkoptions/) Ist`Null`, das Wasserzeichen wird mit Standardoptionen eingestellt.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Textwasserzeichen erstellt.
 
@@ -123,7 +125,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * class [TextWatermarkOptions](../../textwatermarkoptions/)
 * class [Watermark](../)
-* namensraum [Aspose.Words](../../watermark/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

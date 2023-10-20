@@ -1,7 +1,9 @@
 ---
-title: Class JsonDataSource
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Reporting.JsonDataSource 班级. 提供对要在报告中使用的 JSON 文件或流的数据的访问
+title: JsonDataSource Class
+linktitle: JsonDataSource
+articleTitle: JsonDataSource
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Reporting.JsonDataSource 班级. 提供对要在报告中使用的 JSON 文件或流的数据的访问 在 C#.
 type: docs
 weight: 4690
 url: /zh/net/aspose.words.reporting/jsondatasource/
@@ -20,12 +22,12 @@ public class JsonDataSource
 
 | 姓名 | 描述 |
 | --- | --- |
-| [JsonDataSource](jsondatasource/#constructor)(Stream) | 使用解析 JSON 数据的默认选项，使用来自 JSON 流的数据创建新数据源。 |
-| [JsonDataSource](jsondatasource/#constructor_2)(string) | 使用解析 JSON 数据的默认选项，使用 JSON 文件中的数据创建新数据源。 |
-| [JsonDataSource](jsondatasource/#constructor_1)(Stream, JsonDataLoadOptions) | 使用解析 JSON 数据的指定选项，使用来自 JSON 流的数据创建新数据源。 |
-| [JsonDataSource](jsondatasource/#constructor_3)(string, JsonDataLoadOptions) | 使用解析 JSON 数据的指定选项，使用 JSON 文件中的数据创建新数据源。 |
+| [JsonDataSource](jsondatasource/#constructor)(*Stream*) | 使用解析 JSON 数据的默认选项，使用来自 JSON 流的数据创建新数据源。 |
+| [JsonDataSource](jsondatasource/#constructor_2)(*string*) | 使用解析 JSON 数据的默认选项，使用 JSON 文件中的数据创建新数据源。 |
+| [JsonDataSource](jsondatasource/#constructor_1)(*Stream, [JsonDataLoadOptions](../jsondataloadoptions/)*) | 使用解析 JSON 数据的指定选项，使用来自 JSON 流的数据创建新数据源。 |
+| [JsonDataSource](jsondatasource/#constructor_3)(*string, [JsonDataLoadOptions](../jsondataloadoptions/)*) | 使用解析 JSON 数据的指定选项，使用 JSON 文件中的数据创建新数据源。 |
 
-### 评论
+## 评论
 
 要在生成报告时访问相应文件或流的数据，请将此类的实例作为 数据源传递给以下之一：[`ReportingEngine`](../reportingengine/) .BuildReport 重载.
 
@@ -47,5 +49,3 @@ public class JsonDataSource
 
 * 命名空间 [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.GetFieldNames
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge yöntem. Belgede bulunan adresmektup birleştirme alan adlarının bir koleksiyonunu döndürür.
+linktitle: GetFieldNames
+articleTitle: GetFieldNames
+second_title: Aspose.Words for .NET
+description: MailMerge GetFieldNames yöntem. Belgede bulunan adresmektup birleştirme alan adlarının bir koleksiyonunu döndürür C#'da.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.mailmerging/mailmerge/getfieldnames/
@@ -14,7 +16,7 @@ Belgede bulunan adres-mektup birleştirme alan adlarının bir koleksiyonunu dö
 public string[] GetFieldNames()
 ```
 
-### Notlar
+## Notlar
 
 İsteğe bağlı önek de dahil olmak üzere tam birleştirme alanı adlarını döndürür. Yinelenen alan adlarını ortadan kaldırmaz.
 
@@ -22,7 +24,7 @@ Her çağrıda yeni bir dize dizisi oluşturulur.
 
 Aşağıdaki durumlarda "bıyık" alan adlarını içerir:[`UseNonMergeFields`](../usenonmergefields/) dır-dir`doğru`.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm birleştirme alanlarının adlarının nasıl alınacağını gösterir.
 
@@ -58,7 +60,5 @@ doc.MailMerge.Execute(dataTable);
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

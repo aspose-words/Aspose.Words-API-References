@@ -1,7 +1,9 @@
 ---
-title: Enum Orientation
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Orientation opsomming. Gibt die Seitenausrichtung an.
+title: Orientation Enum
+linktitle: Orientation
+articleTitle: Orientation
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Orientation opsomming. Gibt die Seitenausrichtung an in C#.
 type: docs
 weight: 4320
 url: /de/net/aspose.words/orientation/
@@ -21,7 +23,7 @@ public enum Orientation
 | Portrait | `1` | Seitenausrichtung im Hochformat (schmal und hoch). |
 | Landscape | `2` | Seitenausrichtung im Querformat (breit und kurz). |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument angewendet und wiederhergestellt werden.
 
@@ -56,5 +58,3 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 
 * namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
-
-

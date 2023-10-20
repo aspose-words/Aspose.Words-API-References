@@ -1,7 +1,9 @@
 ---
-title: Enum ChartYValueType
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.ChartYValueType énumération. Permet de spécifier le type dune valeur Y dune série de graphiques.
+title: ChartYValueType Enum
+linktitle: ChartYValueType
+articleTitle: ChartYValueType
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Drawing.Charts.ChartYValueType énumération. Permet de spécifier le type dune valeur Y dune série de graphiques en C#.
 type: docs
 weight: 890
 url: /fr/net/aspose.words.drawing.charts/chartyvaluetype/
@@ -26,5 +28,3 @@ public enum ChartYValueType
 
 * espace de noms [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../)
-
-

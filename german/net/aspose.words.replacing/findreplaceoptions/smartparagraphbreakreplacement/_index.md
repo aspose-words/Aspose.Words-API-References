@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.SmartParagraphBreakReplacement
-second_title: Aspose.Words für .NET-API-Referenz
-description: FindReplaceOptions eigendom. Ruft einen booleschen Wert ab oder legt ihn fest der angibt ob der Absatz break ersetzt werden darf wenn kein nächster gleichgeordneter Absatz vorhanden ist.
+linktitle: SmartParagraphBreakReplacement
+articleTitle: SmartParagraphBreakReplacement
+second_title: Aspose.Words für .NET
+description: FindReplaceOptions SmartParagraphBreakReplacement eigendom. Ruft einen booleschen Wert ab oder legt ihn fest der angibt ob der Absatz break ersetzt werden darf wenn kein nächster gleichgeordneter Absatz vorhanden ist in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
@@ -16,11 +18,11 @@ Der Standardwert ist`FALSCH`.
 public bool SmartParagraphBreakReplacement { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Option ermöglicht das Ersetzen eines Absatzumbruchs, wenn es keinen nächsten gleichgeordneten Absatz gibt, in den alle untergeordneten Knoten verschoben werden können, indem nach dem zu ersetzenden Absatz ein beliebiger (nicht unbedingt gleichgeordneter) nächster Absatz gesucht wird.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man einen Absatz aus einer Tabellenzelle mit einer verschachtelten Tabelle entfernt.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Table.RemoveParagraphTextAndMark.docx");
 ### Siehe auch
 
 * class [FindReplaceOptions](../)
-* namensraum [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namensraum [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class ChartYValueCollection
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartYValueCollection сорт. Представляет коллекцию значений Y для серии диаграмм.
+title: ChartYValueCollection Class
+linktitle: ChartYValueCollection
+articleTitle: ChartYValueCollection
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartYValueCollection сорт. Представляет коллекцию значений Y для серии диаграмм на С#.
 type: docs
 weight: 880
 url: /ru/net/aspose.words.drawing.charts/chartyvaluecollection/
@@ -27,13 +29,13 @@ public class ChartYValueCollection : IEnumerable<ChartYValue>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartyvaluecollection/getenumerator/)() | Возвращает объект перечислителя. |
 
-### Примечания
+## Примечания
 
-Все предметы коллекции, кроме **нулевой** должно быть то же самое[`ValueType`](../chartyvalue/valuetype/).
+Все предметы коллекции, кроме**нулевой** должно быть то же самое[`ValueType`](../chartyvalue/valuetype/).
 
 Коллекция позволяет изменять только значения Y. Чтобы добавить или вставить новые значения в серию диаграмм или удалить значения, соответствующие методы[`ChartSeries`](../chartseries/) класс можно использовать.
 
-### Примеры
+## Примеры
 
 Показывает, как получить данные серии диаграмм.
 
@@ -91,5 +93,3 @@ doc.Save(ArtifactsDir + "Charts.GetChartSeriesData.docx");
 * class [ChartYValue](../chartyvalue/)
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.RevisionType перечисление. Указывает тип отслеживаемых изменений.Revision .
+title: RevisionType Enum
+linktitle: RevisionType
+articleTitle: RevisionType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.RevisionType перечисление. Указывает тип отслеживаемых изменений.Revision  на С#.
 type: docs
 weight: 4800
 url: /ru/net/aspose.words/revisiontype/
@@ -24,7 +26,7 @@ public enum RevisionType
 | StyleDefinitionChange | `3` | К родительскому стилю применено изменение форматирования. |
 | Moving | `4` | Содержимое перемещено в документ. |
 
-### Примеры
+## Примеры
 
 Показывает, как работать с изменениями в документе.
 
@@ -108,5 +110,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
-
-

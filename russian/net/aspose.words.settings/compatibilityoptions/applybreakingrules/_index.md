@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.ApplyBreakingRules
-second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Используйте устаревшие правила разрыва строки на эфиопском и амхарском языках.
+linktitle: ApplyBreakingRules
+articleTitle: ApplyBreakingRules
+second_title: Aspose.Words для .NET
+description: CompatibilityOptions ApplyBreakingRules свойство. Используйте устаревшие правила разрыва строки на эфиопском и амхарском языках на С#.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.settings/compatibilityoptions/applybreakingrules/
@@ -17,7 +19,5 @@ public bool ApplyBreakingRules { get; set; }
 ### Смотрите также
 
 * class [CompatibilityOptions](../)
-* пространство имен [Aspose.Words.Settings](../../compatibilityoptions/)
+* пространство имен [Aspose.Words.Settings](../../../aspose.words.settings/)
 * сборка [Aspose.Words](../../../)
-
-

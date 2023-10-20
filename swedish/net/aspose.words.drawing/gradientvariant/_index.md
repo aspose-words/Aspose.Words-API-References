@@ -1,7 +1,9 @@
 ---
-title: Enum GradientVariant
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.GradientVariant uppräkning. Anger varianten för en gradientfyllning.
+title: GradientVariant Enum
+linktitle: GradientVariant
+articleTitle: GradientVariant
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.GradientVariant uppräkning. Anger varianten för en gradientfyllning i C#.
 type: docs
 weight: 1010
 url: /sv/net/aspose.words.drawing/gradientvariant/
@@ -24,11 +26,11 @@ public enum GradientVariant
 | Variant3 | `3` | Gradientvariant 3. |
 | Variant4 | `4` | Gradientvariant 4. |
 
-### Anmärkningar
+## Anmärkningar
 
 Motsvarar de fyra varianterna på fliken Gradient i dialogrutan Fyllningseffekter i Word.
 
-### Exempel
+## Exempel
 
 Visar hur man fyller en form med övertoningar.
 
@@ -70,5 +72,3 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

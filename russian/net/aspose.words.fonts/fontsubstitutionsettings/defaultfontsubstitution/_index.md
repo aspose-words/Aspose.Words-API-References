@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.DefaultFontSubstitution
-second_title: Справочник по API Aspose.Words для .NET
-description: FontSubstitutionSettings свойство. Настройки относящиеся к правилу замены шрифтов по умолчанию.
+linktitle: DefaultFontSubstitution
+articleTitle: DefaultFontSubstitution
+second_title: Aspose.Words для .NET
+description: FontSubstitutionSettings DefaultFontSubstitution свойство. Настройки относящиеся к правилу замены шрифтов по умолчанию на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как установить правило замены шрифтов по умолчанию.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
 
 * class [DefaultFontSubstitutionRule](../../defaultfontsubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* пространство имен [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* пространство имен [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * сборка [Aspose.Words](../../../)
-
-

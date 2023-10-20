@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoCollection
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.FontInfoCollection klas. Stellt eine Sammlung von Schriftarten dar die in einem Dokument verwendet werden.
+title: FontInfoCollection Class
+linktitle: FontInfoCollection
+articleTitle: FontInfoCollection
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Fonts.FontInfoCollection klas. Stellt eine Sammlung von Schriftarten dar die in einem Dokument verwendet werden in C#.
 type: docs
 weight: 2930
 url: /de/net/aspose.words.fonts/fontinfocollection/
@@ -30,16 +32,16 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(string) | Ermittelt, ob die Sammlung eine Schriftart mit dem angegebenen Namen enthält. |
+| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(*string*) | Ermittelt, ob die Sammlung eine Schriftart mit dem angegebenen Namen enthält. |
 | [GetEnumerator](../../aspose.words.fonts/fontinfocollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann. |
 
-### Bemerkungen
+## Bemerkungen
 
 Artikel sind[`FontInfo`](../fontinfo/) Objekte.
 
 Sie erstellen keine Instanzen dieser Klasse direkt. Verwenden Sie die[`FontInfos`](../../aspose.words/documentbase/fontinfos/) Eigenschaft, um auf die im Dokument definierte Sammlung von Schriftarten zuzugreifen.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Details zu den in einem Dokument vorhandenen Schriftarten gedruckt werden.
 
@@ -79,5 +81,3 @@ else
 * class [FontInfo](../fontinfo/)
 * namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
-
-

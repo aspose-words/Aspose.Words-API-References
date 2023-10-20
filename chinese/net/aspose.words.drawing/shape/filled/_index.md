@@ -1,7 +1,9 @@
 ---
 title: Shape.Filled
-second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 确定是否填充形状的闭合路径
+linktitle: Filled
+articleTitle: Filled
+second_title: 用于 .NET 的 Aspose.Words
+description: Shape Filled 财产. 确定是否填充形状的闭合路径 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing/shape/filled/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/shape/filled/
 public bool Filled { get; set; }
 ```
 
-### 评论
+## 评论
 
 这是一个快捷方式[`Visible`](../../fill/visible/)财产。
 
 默认值为`真的`。
 
-### 例子
+## 例子
 
 演示如何迭代文档中的所有形状。
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### 也可以看看
 
 * class [Shape](../)
-* 命名空间 [Aspose.Words.Drawing](../../shape/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

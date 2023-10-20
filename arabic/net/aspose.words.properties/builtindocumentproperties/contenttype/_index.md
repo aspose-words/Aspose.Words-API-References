@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.ContentType
-second_title: Aspose.Words لمراجع .NET API
-description: BuiltInDocumentProperties ملكية. الحصول على أو تعيينContentType من الوثيقة.
+linktitle: ContentType
+articleTitle: ContentType
+second_title: Aspose.Words لـ .NET
+description: BuiltInDocumentProperties ContentType ملكية. الحصول على أو تعيينContentType من الوثيقة في C#.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.properties/builtindocumentproperties/contenttype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.properties/builtindocumentproperties/contenttype/
 public string ContentType { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية العمل مع خصائص المستند في فئة "المحتوى".
 
@@ -124,7 +126,5 @@ private class LineCounter
 ### أنظر أيضا
 
 * class [BuiltInDocumentProperties](../)
-* مساحة الاسم [Aspose.Words.Properties](../../builtindocumentproperties/)
+* مساحة الاسم [Aspose.Words.Properties](../../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../../)
-
-

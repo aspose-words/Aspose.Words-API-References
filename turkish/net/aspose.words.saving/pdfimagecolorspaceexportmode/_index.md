@@ -1,7 +1,9 @@
 ---
-title: Enum PdfImageColorSpaceExportMode
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.PdfImageColorSpaceExportMode Sıralama. PDF belgesindeki görüntüler için renk alanının nasıl seçileceğini belirtir.
+title: PdfImageColorSpaceExportMode Enum
+linktitle: PdfImageColorSpaceExportMode
+articleTitle: PdfImageColorSpaceExportMode
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.PdfImageColorSpaceExportMode Sıralama. PDF belgesindeki görüntüler için renk alanının nasıl seçileceğini belirtir C#'da.
 type: docs
 weight: 5480
 url: /tr/net/aspose.words.saving/pdfimagecolorspaceexportmode/
@@ -21,7 +23,7 @@ public enum PdfImageColorSpaceExportMode
 | Auto | `0` | Aspose.Words her görüntü için en uygun renk alanını otomatik olarak seçer. |
 | SimpleCmyk | `1` | Aspose.Words, basit formülü kullanarak RGB görüntüleri CMYK renk uzayına dönüştürür. |
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi PDF'ye dışa aktarırken, görüntüler için farklı bir renk alanının nasıl ayarlanacağını gösterir.
 
@@ -54,5 +56,3 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveO
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

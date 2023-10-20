@@ -1,7 +1,9 @@
 ---
 title: HorizontalRuleFormat.Color
-second_title: Referencia de API de Aspose.Words para .NET
-description: HorizontalRuleFormat propiedad. Obtiene o establece el color del pincel que llena la regla horizontal.
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words para .NET
+description: HorizontalRuleFormat Color propiedad. Obtiene o establece el color del pincel que llena la regla horizontal en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing/horizontalruleformat/color/
@@ -14,13 +16,13 @@ Obtiene o establece el color del pincel que llena la regla horizontal.
 public Color Color { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 Este es un atajo hacia el[`Color`](../../fill/color/) propiedad.
 
 El valor predeterminado es Gray.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una forma de regla horizontal y personalizar su formato.
 
@@ -43,7 +45,5 @@ Assert.True(shape.HorizontalRuleFormat.NoShade);
 ### Ver también
 
 * class [HorizontalRuleFormat](../)
-* espacio de nombres [Aspose.Words.Drawing](../../horizontalruleformat/)
+* espacio de nombres [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../../)
-
-

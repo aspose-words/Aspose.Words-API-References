@@ -1,7 +1,9 @@
 ---
 title: TextBox.FitShapeToText
-second_title: Aspose.Words لمراجع .NET API
-description: TextBox ملكية. يحدد ما إذا كان Microsoft Word سيقوم بتكبير الشكل ليناسب النص.
+linktitle: FitShapeToText
+articleTitle: FitShapeToText
+second_title: Aspose.Words لـ .NET
+description: TextBox FitShapeToText ملكية. يحدد ما إذا كان Microsoft Word سيقوم بتكبير الشكل ليناسب النص في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/textbox/fitshapetotext/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.drawing/textbox/fitshapetotext/
 public bool FitShapeToText { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية جعل مربع النص يغير حجمه ليناسب محتوياته بإحكام.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Shape.TextBoxFitShapeToText.docx");
 ### أنظر أيضا
 
 * class [TextBox](../)
-* مساحة الاسم [Aspose.Words.Drawing](../../textbox/)
+* مساحة الاسم [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../../)
-
-

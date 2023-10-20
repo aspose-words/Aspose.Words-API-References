@@ -1,7 +1,9 @@
 ---
-title: Class AxisDisplayUnit
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.AxisDisplayUnit klas. Bietet Zugriff auf die Skalierungsoptionen der Anzeigeeinheiten für die Werteachse.
+title: AxisDisplayUnit Class
+linktitle: AxisDisplayUnit
+articleTitle: AxisDisplayUnit
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.AxisDisplayUnit klas. Bietet Zugriff auf die Skalierungsoptionen der Anzeigeeinheiten für die Werteachse in C#.
 type: docs
 weight: 550
 url: /de/net/aspose.words.drawing.charts/axisdisplayunit/
@@ -30,7 +32,7 @@ public class AxisDisplayUnit
 | [Document](../../aspose.words.drawing.charts/axisdisplayunit/document/) { get; } | Gibt das Dokument zurück, zu dem der Titelinhaber gehört. |
 | [Unit](../../aspose.words.drawing.charts/axisdisplayunit/unit/) { get; set; } | Ruft den Skalierungswert der Anzeigeeinheiten als einen der vordefinierten Werte ab oder legt ihn fest. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Teilstriche und angezeigten Werte einer Diagrammachse manipuliert werden.
 
@@ -89,5 +91,3 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertCell
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将表格单元格插入文档中
+linktitle: InsertCell
+articleTitle: InsertCell
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder InsertCell 方法. 将表格单元格插入文档中 在 C#.
 type: docs
 weight: 270
 url: /zh/net/aspose.words/documentbuilder/insertcell/
@@ -18,7 +20,7 @@ public Cell InsertCell()
 
 刚刚插入的单元节点。
 
-### 评论
+## 评论
 
 要启动一个表，只需调用`InsertCell`。此后，您使用 其他方法添加的任何内容[`DocumentBuilder`](../)类将被添加到当前单元格。
 
@@ -28,7 +30,7 @@ public Cell InsertCell()
 
 使用[`CellFormat`](../cellformat/)属性来指定单元格格式。
 
-### 例子
+## 例子
 
 演示如何使用文档生成器创建表格。
 
@@ -119,7 +121,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [Cell](../../../aspose.words.tables/cell/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

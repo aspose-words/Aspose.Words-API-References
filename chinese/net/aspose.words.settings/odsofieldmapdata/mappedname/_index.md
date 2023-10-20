@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.MappedName
-second_title: Aspose.Words for .NET API 参考
-description: OdsoFieldMapData 财产. 指定预定义的合并字段名称该名称应映射到由 指定的列号Column此字段映射内的属性 默认值为空字符串
+linktitle: MappedName
+articleTitle: MappedName
+second_title: 用于 .NET 的 Aspose.Words
+description: OdsoFieldMapData MappedName 财产. 指定预定义的合并字段名称该名称应映射到由 指定的列号Column此字段映射内的属性 默认值为空字符串 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.settings/odsofieldmapdata/mappedname/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.settings/odsofieldmapdata/mappedname/
 public string MappedName { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何访问将数据源列映射到合并字段的数据集合。
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### 也可以看看
 
 * class [OdsoFieldMapData](../)
-* 命名空间 [Aspose.Words.Settings](../../odsofieldmapdata/)
+* 命名空间 [Aspose.Words.Settings](../../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../../)
-
-

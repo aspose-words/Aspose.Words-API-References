@@ -1,7 +1,9 @@
 ---
 title: ChartSeriesCollection.RemoveAt
-second_title: Aspose.Words for .NET API 参考
-description: ChartSeriesCollection 方法. 删除一个ChartSeries在指定的索引处
+linktitle: RemoveAt
+articleTitle: RemoveAt
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartSeriesCollection RemoveAt 方法. 删除一个ChartSeries在指定的索引处 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing.charts/chartseriescollection/removeat/
@@ -18,7 +20,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 从零开始的索引[`ChartSeries`](../../chartseries/)去除。 |
 
-### 例子
+## 例子
 
 演示如何在图表中添加和删除系列数据。
 
@@ -65,7 +67,5 @@ chartData.Clear();
 ### 也可以看看
 
 * class [ChartSeriesCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

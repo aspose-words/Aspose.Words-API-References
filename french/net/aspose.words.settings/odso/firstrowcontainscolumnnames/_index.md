@@ -1,7 +1,9 @@
 ---
 title: Odso.FirstRowContainsColumnNames
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Odso propriété. Spécifie quune application dhébergement doit traiter la première ligne de données de la source data externe spécifiée comme une ligne dentête contenant les noms de chaque colonne de la source de données. La valeur par défaut estFAUX .
+linktitle: FirstRowContainsColumnNames
+articleTitle: FirstRowContainsColumnNames
+second_title: Aspose.Words pour .NET
+description: Odso FirstRowContainsColumnNames propriété. Spécifie quune application dhébergement doit traiter la première ligne de données de la source data externe spécifiée comme une ligne dentête contenant les noms de chaque colonne de la source de données. La valeur par défaut estFAUX  en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
@@ -14,11 +16,11 @@ Spécifie qu'une application d'hébergement doit traiter la première ligne de d
 public bool FirstRowContainsColumnNames { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 RK Je n'ai jamais vu cela utilisé.
 
-### Exemples
+## Exemples
 
 Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ### Voir également
 
 * class [Odso](../)
-* espace de noms [Aspose.Words.Settings](../../odso/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

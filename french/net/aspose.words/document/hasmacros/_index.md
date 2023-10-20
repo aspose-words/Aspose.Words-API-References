@@ -1,7 +1,9 @@
 ---
 title: Document.HasMacros
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Retoursvrai si le document a un projet VBA macros.
+linktitle: HasMacros
+articleTitle: HasMacros
+second_title: Aspose.Words pour .NET
+description: Document HasMacros propriété. Retoursvrai si le document a un projet VBA macros en C#.
 type: docs
 weight: 190
 url: /fr/net/aspose.words/document/hasmacros/
@@ -14,7 +16,7 @@ Retours`vrai` si le document a un projet VBA (macros).
 public bool HasMacros { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser les champs MACROBUTTON pour nous permettre d'exécuter les macros d'un document en cliquant.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
 
 * method [RemoveMacros](../removemacros/)
 * class [Document](../)
-* espace de noms [Aspose.Words](../../document/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

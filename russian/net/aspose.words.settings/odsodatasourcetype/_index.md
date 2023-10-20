@@ -1,7 +1,9 @@
 ---
-title: Enum OdsoDataSourceType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Settings.OdsoDataSourceType перечисление. Указывает тип внешнего источника данных к которому необходимо подключиться как часть информации о соединении ODSO.
+title: OdsoDataSourceType Enum
+linktitle: OdsoDataSourceType
+articleTitle: OdsoDataSourceType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Settings.OdsoDataSourceType перечисление. Указывает тип внешнего источника данных к которому необходимо подключиться как часть информации о соединении ODSO на С#.
 type: docs
 weight: 5890
 url: /ru/net/aspose.words.settings/odsodatasourcetype/
@@ -30,11 +32,11 @@ public enum OdsoDataSourceType
 | Master | `9` | Указывает, что данный документ подключен к источнику данных, который объединяет другие источники данных. |
 | Default | `7` | РавноNone . |
 
-### Примечания
+## Примечания
 
 Спецификация OOXML для этого перечисления очень расплывчата. Я предполагаю, что это может соответствовать перечислению WdMergeSubType http://msdn.microsoft.com/en-us/library/bb237801.aspx.
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -87,5 +89,3 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * пространство имен [Aspose.Words.Settings](../../aspose.words.settings/)
 * сборка [Aspose.Words](../../)
-
-

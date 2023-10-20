@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.SequenceName
-second_title: Aspose.Words für .NET-API-Referenz
-description: FieldIndex eigendom. Ruft den Namen einer Sequenz ab oder legt diesen fest deren Nummer in der Seitenzahl enthalten ist.
+linktitle: SequenceName
+articleTitle: SequenceName
+second_title: Aspose.Words für .NET
+description: FieldIndex SequenceName eigendom. Ruft den Namen einer Sequenz ab oder legt diesen fest deren Nummer in der Seitenzahl enthalten ist in C#.
 type: docs
 weight: 150
 url: /de/net/aspose.words.fields/fieldindex/sequencename/
@@ -14,7 +16,7 @@ Ruft den Namen einer Sequenz ab oder legt diesen fest, deren Nummer in der Seite
 public string SequenceName { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein Dokument durch Kombinieren von INDEX- und SEQ-Feldern in Teile aufgeteilt wird.
 
@@ -90,7 +92,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Sequence.docx");
 ### Siehe auch
 
 * class [FieldIndex](../)
-* namensraum [Aspose.Words.Fields](../../fieldindex/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,12 +1,14 @@
 ---
 title: Range.Replace
-second_title: Aspose.Words for .NET API Referansı
-description: Range yöntem. Belirtilen karakter dizisi modelinin tüm oluşumlarını bir değiştirme dizesiyle değiştirir.
+linktitle: Replace
+articleTitle: Replace
+second_title: Aspose.Words for .NET
+description: Range Replace yöntem. Belirtilen karakter dizisi modelinin tüm oluşumlarını bir değiştirme dizesiyle değiştirir C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/range/replace/
 ---
-## Replace(string, string) {#replace}
+## Replace(*string, string*) {#replace}
 
 Belirtilen karakter dizisi modelinin tüm oluşumlarını bir değiştirme dizesiyle değiştirir.
 
@@ -23,7 +25,7 @@ public int Replace(string pattern, string replacement)
 
 Yapılan değişiklik sayısı.
 
-### Notlar
+## Notlar
 
 Desen normal ifade olarak kullanılmayacaktır. Lütfen kullanın`Replace`düzenli ifadelere ihtiyacınız varsa.
 
@@ -40,7 +42,7 @@ Molalarla çalışmanız gerekiyorsa özel meta karakterler kullanmalısınız:
 
 Yöntemi kullan`Replace` daha esnek özelleştirmeye sahip olmak için.
 
-### Örnekler
+## Örnekler
 
 ```csharp
 Document doc = new Document();
@@ -104,12 +106,12 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 ### Ayrıca bakınız
 
 * class [Range](../)
-* ad alanı [Aspose.Words](../../range/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Replace(Regex, string) {#replace_2}
+## Replace(*Regex, string*) {#replace_2}
 
 Normal bir ifadeyle belirtilen karakter modelinin tüm oluşumlarını başka bir dizeyle değiştirir.
 
@@ -126,7 +128,7 @@ public int Replace(Regex pattern, string replacement)
 
 Yapılan değişiklik sayısı.
 
-### Notlar
+## Notlar
 
 Normal ifadenin yakaladığı eşleşmenin tamamını değiştirir.
 
@@ -141,7 +143,7 @@ Molalarla çalışmanız gerekiyorsa özel meta karakterler kullanmalısınız:
 
 Yöntemi kullan`Replace` daha esnek özelleştirmeye sahip olmak için.
 
-### Örnekler
+## Örnekler
 
 ```csharp
 Document doc = new Document();
@@ -168,12 +170,12 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 ### Ayrıca bakınız
 
 * class [Range](../)
-* ad alanı [Aspose.Words](../../range/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Replace(string, string, FindReplaceOptions) {#replace_1}
+## Replace(*string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_1}
 
 Belirtilen karakter dizisi modelinin tüm oluşumlarını bir değiştirme dizesiyle değiştirir.
 
@@ -191,7 +193,7 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 
 Yapılan değişiklik sayısı.
 
-### Notlar
+## Notlar
 
 Desen normal ifade olarak kullanılmayacaktır. Lütfen kullanın`Replace`düzenli ifadelere ihtiyacınız varsa.
 
@@ -205,7 +207,7 @@ Molalarla çalışmanız gerekiyorsa özel meta karakterler kullanmalısınız:
 * **&amp; ben** - manuel hat sonu
 * **&amp;&amp;** - &amp; karakter
 
-### Örnekler
+## Örnekler
 
 ```csharp
 Document doc = new Document();
@@ -315,12 +317,12 @@ Assert.AreEqual("Eggs\a50\a\a" +
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* ad alanı [Aspose.Words](../../range/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
-## Replace(Regex, string, FindReplaceOptions) {#replace_3}
+## Replace(*Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_3}
 
 Normal bir ifadeyle belirtilen karakter modelinin tüm oluşumlarını başka bir dizeyle değiştirir.
 
@@ -338,7 +340,7 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 
 Yapılan değişiklik sayısı.
 
-### Notlar
+## Notlar
 
 Normal ifadenin yakaladığı eşleşmenin tamamını değiştirir.
 
@@ -352,7 +354,7 @@ Molalarla çalışmanız gerekiyorsa özel meta karakterler kullanmalısınız:
 * **&amp; ben** - manuel hat sonu
 * **&amp;&amp;** - &amp; karakter
 
-### Örnekler
+## Örnekler
 
 ```csharp
 Document doc = new Document();
@@ -487,7 +489,5 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
 
 * class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * class [Range](../)
-* ad alanı [Aspose.Words](../../range/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Range.Text
-second_title: Aspose.Words for .NET API Referansı
-description: Range mülk. Aralığın metnini alır.
+linktitle: Text
+articleTitle: Text
+second_title: Aspose.Words for .NET
+description: Range Text mülk. Aralığın metnini alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/range/text/
@@ -14,11 +16,11 @@ Aralığın metnini alır.
 public string Text { get; }
 ```
 
-### Notlar
+## Notlar
 
 Döndürülen dize, yukarıda açıklandığı gibi tüm kontrol ve özel karakterleri içerir.[`ControlChar`](../../controlchar/).
 
-### Örnekler
+## Örnekler
 
 Bir aralığın kapsadığı tüm düğümlerin metin içeriklerinin nasıl alınacağını gösterir.
 
@@ -34,7 +36,5 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 ### Ayrıca bakınız
 
 * class [Range](../)
-* ad alanı [Aspose.Words](../../range/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

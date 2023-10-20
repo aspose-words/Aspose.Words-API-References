@@ -1,7 +1,9 @@
 ---
-title: Enum WatermarkType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.WatermarkType 枚举. 指定水印类型
+title: WatermarkType Enum
+linktitle: WatermarkType
+articleTitle: WatermarkType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.WatermarkType 枚举. 指定水印类型 在 C#.
 type: docs
 weight: 6690
 url: /zh/net/aspose.words/watermarktype/
@@ -22,7 +24,7 @@ public enum WatermarkType
 | Image | `1` | 表示该图像将用作水印。 |
 | None | `2` | 表示未设置水印。 |
 
-### 例子
+## 例子
 
 展示如何创建文本水印。
 
@@ -54,5 +56,3 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

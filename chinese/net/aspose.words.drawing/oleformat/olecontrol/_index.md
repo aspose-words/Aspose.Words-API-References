@@ -1,7 +1,9 @@
 ---
 title: OleFormat.OleControl
-second_title: Aspose.Words for .NET API 参考
-description: OleFormat 财产. 获取OleControl对象如果此 OLE 对象是 ActiveX 控件否则此属性为 null
+linktitle: OleControl
+articleTitle: OleControl
+second_title: 用于 .NET 的 Aspose.Words
+description: OleFormat OleControl 财产. 获取OleControl对象如果此 OLE 对象是 ActiveX 控件否则此属性为 null 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing/oleformat/olecontrol/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing/oleformat/olecontrol/
 public OleControl OleControl { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何验证 ActiveX 控件的属性。
 
@@ -45,7 +47,5 @@ if (oleControl.IsForms2OleControl)
 
 * class [OleControl](../../../aspose.words.drawing.ole/olecontrol/)
 * class [OleFormat](../)
-* 命名空间 [Aspose.Words.Drawing](../../oleformat/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

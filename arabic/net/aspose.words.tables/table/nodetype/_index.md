@@ -1,7 +1,9 @@
 ---
 title: Table.NodeType
-second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. إرجاعTable .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words لـ .NET
+description: Table NodeType ملكية. إرجاعTable  في C#.
 type: docs
 weight: 210
 url: /ar/net/aspose.words.tables/table/nodetype/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.tables/table/nodetype/
 public override NodeType NodeType { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية اجتياز شجرة العقدة المركبة من العقد الفرعية.
 
@@ -135,7 +137,5 @@ private static int GetChildTableCount(Table table)
 
 * enum [NodeType](../../../aspose.words/nodetype/)
 * class [Table](../)
-* مساحة الاسم [Aspose.Words.Tables](../../table/)
+* مساحة الاسم [Aspose.Words.Tables](../../../aspose.words.tables/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Bookmark.BookmarkStart
-second_title: Aspose.Words per .NET API Reference
-description: Bookmark proprietà. Ottiene il nodo che rappresenta linizio del segnalibro.
+linktitle: BookmarkStart
+articleTitle: BookmarkStart
+second_title: Aspose.Words per .NET
+description: Bookmark BookmarkStart proprietà. Ottiene il nodo che rappresenta linizio del segnalibro in C#.
 type: docs
 weight: 20
 url: /it/net/aspose.words/bookmark/bookmarkstart/
@@ -14,7 +16,7 @@ Ottiene il nodo che rappresenta l'inizio del segnalibro.
 public BookmarkStart BookmarkStart { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come aggiungere segnalibri e aggiornarne i contenuti.
 
@@ -104,7 +106,5 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 * class [BookmarkStart](../../bookmarkstart/)
 * class [Bookmark](../)
-* spazio dei nomi [Aspose.Words](../../bookmark/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

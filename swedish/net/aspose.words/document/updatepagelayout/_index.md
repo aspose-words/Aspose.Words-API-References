@@ -1,9 +1,11 @@
 ---
 title: Document.UpdatePageLayout
-second_title: Aspose.Words för .NET API Referens
-description: Document metod. Bygger om dokumentets sidlayout.
+linktitle: UpdatePageLayout
+articleTitle: UpdatePageLayout
+second_title: Aspose.Words för .NET
+description: Document UpdatePageLayout metod. Bygger om dokumentets sidlayout i C#.
 type: docs
-weight: 790
+weight: 770
 url: /sv/net/aspose.words/document/updatepagelayout/
 ---
 ## Document.UpdatePageLayout method
@@ -14,13 +16,13 @@ Bygger om dokumentets sidlayout.
 public void UpdatePageLayout()
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Denna metod formaterar ett dokument till sidor och uppdaterar de sidnummerrelaterade fälten i dokumentet, t.ex. som PAGE, PAGES, PAGEREF och REF. Den uppdaterade sidlayoutinformationen krävs för en korrekt rendering av document till fasta sidformat.
 
 Denna metod anropas automatiskt när du först konverterar ett dokument till PDF, XPS, bild eller skriver ut det. Men om du ändrar dokumentet efter rendering och sedan försöker rendera det igen - kommer Aspose.Words inte att uppdatera sidlayouten automatiskt. I det här fallet bör du ringa`UpdatePageLayout` före rendering igen.
 
-### Exempel
+## Exempel
 
 Visar när sidlayouten för dokumentet ska beräknas om.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 ### Se även
 
 * class [Document](../)
-* namnutrymme [Aspose.Words](../../document/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

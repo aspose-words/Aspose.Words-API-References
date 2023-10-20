@@ -1,7 +1,9 @@
 ---
 title: FormField.TextInputDefault
-second_title: Справочник по API Aspose.Words для .NET
-description: FormField свойство. Получает или задает строку по умолчанию или выражение вычисления поля текстовой формы.
+linktitle: TextInputDefault
+articleTitle: TextInputDefault
+second_title: Aspose.Words для .NET
+description: FormField TextInputDefault свойство. Получает или задает строку по умолчанию или выражение вычисления поля текстовой формы на С#.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.fields/formfield/textinputdefault/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/formfield/textinputdefault/
 public string TextInputDefault { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение этого свойства зависит от значения[`TextInputType`](../textinputtype/) свойство.
 
@@ -24,7 +26,7 @@ public string TextInputDefault { get; set; }
 
 Microsoft Word допускает строки длиной не более 255 символов.
 
-### Примеры
+## Примеры
 
 Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
 
@@ -158,7 +160,5 @@ public class FormFieldVisitor : DocumentVisitor
 ### Смотрите также
 
 * class [FormField](../)
-* пространство имен [Aspose.Words.Fields](../../formfield/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

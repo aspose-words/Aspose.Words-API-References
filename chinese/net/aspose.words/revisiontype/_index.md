@@ -1,7 +1,9 @@
 ---
-title: Enum RevisionType
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.RevisionType 枚举. 指定正在跟踪的更改类型Revision.
+title: RevisionType Enum
+linktitle: RevisionType
+articleTitle: RevisionType
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.RevisionType 枚举. 指定正在跟踪的更改类型Revision 在 C#.
 type: docs
 weight: 4800
 url: /zh/net/aspose.words/revisiontype/
@@ -24,7 +26,7 @@ public enum RevisionType
 | StyleDefinitionChange | `3` | 格式更改已应用于父样式。 |
 | Moving | `4` | 内容已移至文档中。 |
 
-### 例子
+## 例子
 
 展示如何处理文档中的修订。
 
@@ -108,5 +110,3 @@ Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Tri
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

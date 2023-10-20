@@ -1,7 +1,9 @@
 ---
 title: Document.OriginalFileName
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Belgenin orijinal dosya adını alır.
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: Aspose.Words for .NET
+description: Document OriginalFileName mülk. Belgenin orijinal dosya adını alır C#'da.
 type: docs
 weight: 290
 url: /tr/net/aspose.words/document/originalfilename/
@@ -14,11 +16,11 @@ Belgenin orijinal dosya adını alır.
 public string OriginalFileName { get; }
 ```
 
-### Notlar
+## Notlar
 
 İadeler`hükümsüz` belgenin bir akıştan yüklenip yüklenmediği veya boş olarak oluşturulmuş olup olmadığı.
 
-### Örnekler
+## Örnekler
 
 Bir belgenin yükleme işleminin ayrıntılarının nasıl alınacağını gösterir.
 
@@ -60,7 +62,5 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

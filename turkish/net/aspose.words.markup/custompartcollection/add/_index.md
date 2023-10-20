@@ -1,7 +1,9 @@
 ---
 title: CustomPartCollection.Add
-second_title: Aspose.Words for .NET API Referansı
-description: CustomPartCollection yöntem. Koleksiyona bir öğe ekler.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words for .NET
+description: CustomPartCollection Add yöntem. Koleksiyona bir öğe ekler C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/custompartcollection/add/
@@ -18,7 +20,7 @@ public void Add(CustomPart part)
 | --- | --- | --- |
 | part | CustomPart | Eklenecek öğe. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
@@ -63,7 +65,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPart](../../custompart/)
 * class [CustomPartCollection](../)
-* ad alanı [Aspose.Words.Markup](../../custompartcollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

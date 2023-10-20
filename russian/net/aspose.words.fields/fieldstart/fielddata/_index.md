@@ -1,7 +1,9 @@
 ---
 title: FieldStart.FieldData
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldStart свойство. Получает данные настраиваемого поля связанные с полем.
+linktitle: FieldData
+articleTitle: FieldData
+second_title: Aspose.Words для .NET
+description: FieldStart FieldData свойство. Получает данные настраиваемого поля связанные с полем на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldstart/fielddata/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldstart/fielddata/
 public byte[] FieldData { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить данные, связанные с полем.
 
@@ -28,7 +30,5 @@ Console.WriteLine(Encoding.Default.GetString(field.Start.FieldData));
 ### Смотрите также
 
 * class [FieldStart](../)
-* пространство имен [Aspose.Words.Fields](../../fieldstart/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.Equals
-second_title: Aspose.Words for .NET API 参考
-description: BorderCollection 方法. 比较边框集合
+linktitle: Equals
+articleTitle: Equals
+second_title: 用于 .NET 的 Aspose.Words
+description: BorderCollection Equals 方法. 比较边框集合 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words/bordercollection/equals/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/bordercollection/equals/
 public bool Equals(BorderCollection brColl)
 ```
 
-### 例子
+## 例子
 
 展示边框集合如何共享元素。
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 ### 也可以看看
 
 * class [BorderCollection](../)
-* 命名空间 [Aspose.Words](../../bordercollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

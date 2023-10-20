@@ -1,9 +1,11 @@
 ---
 title: TxtLoadOptions.DocumentDirection
-second_title: Aspose.Words for .NET API 参考
-description: TxtLoadOptions 财产. 获取或设置文档方向 默认值为LeftToRight.
+linktitle: DocumentDirection
+articleTitle: DocumentDirection
+second_title: 用于 .NET 的 Aspose.Words
+description: TxtLoadOptions DocumentDirection 财产. 获取或设置文档方向 默认值为LeftToRight 在 C#.
 type: docs
-weight: 50
+weight: 40
 url: /zh/net/aspose.words.loading/txtloadoptions/documentdirection/
 ---
 ## TxtLoadOptions.DocumentDirection property
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.loading/txtloadoptions/documentdirection/
 public DocumentDirection DocumentDirection { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何检测纯文本文档文本方向。
 
@@ -43,7 +45,5 @@ Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 
 * enum [DocumentDirection](../../documentdirection/)
 * class [TxtLoadOptions](../)
-* 命名空间 [Aspose.Words.Loading](../../txtloadoptions/)
+* 命名空间 [Aspose.Words.Loading](../../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../../)
-
-

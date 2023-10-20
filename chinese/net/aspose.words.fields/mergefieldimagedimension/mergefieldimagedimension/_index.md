@@ -1,12 +1,14 @@
 ---
-title: MergeFieldImageDimension.MergeFieldImageDimension
-second_title: Aspose.Words for .NET API 参考
-description: MergeFieldImageDimension 构造函数. 使用给定的点值创建图像尺寸实例
+title: MergeFieldImageDimension
+linktitle: MergeFieldImageDimension
+articleTitle: MergeFieldImageDimension
+second_title: 用于 .NET 的 Aspose.Words
+description: MergeFieldImageDimension 构造函数. 使用给定的点值创建图像尺寸实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/mergefieldimagedimension/mergefieldimagedimension/
 ---
-## MergeFieldImageDimension(double) {#constructor}
+## MergeFieldImageDimension(*double*) {#constructor}
 
 使用给定的点值创建图像尺寸实例。
 
@@ -18,11 +20,11 @@ public MergeFieldImageDimension(double value)
 | --- | --- | --- |
 | value | Double | 价值。 |
 
-### 评论
+## 评论
 
 您应该使用负值来表示应应用相应图像维度 的原始值。
 
-### 例子
+## 例子
 
 展示如何在 MERGEFIELDS 在邮件合并期间接受图像时设置图像尺寸。
 
@@ -92,12 +94,12 @@ private class MergedImageResizer : IFieldMergingCallback
 ### 也可以看看
 
 * class [MergeFieldImageDimension](../)
-* 命名空间 [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## MergeFieldImageDimension(double, MergeFieldImageDimensionUnit) {#constructor_1}
+## MergeFieldImageDimension(*double, [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)*) {#constructor_1}
 
 使用给定值和给定单位创建图像尺寸实例。
 
@@ -110,11 +112,11 @@ public MergeFieldImageDimension(double value, MergeFieldImageDimensionUnit unit)
 | value | Double | 价值。 |
 | unit | MergeFieldImageDimensionUnit | 那个单位。 |
 
-### 评论
+## 评论
 
 您应该使用负值来表示应应用相应图像维度 的原始值。
 
-### 例子
+## 例子
 
 展示如何在 MERGEFIELDS 在邮件合并期间接受图像时设置图像尺寸。
 
@@ -185,7 +187,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
 * class [MergeFieldImageDimension](../)
-* 命名空间 [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

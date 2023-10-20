@@ -1,7 +1,9 @@
 ---
-title: Enum HorizontalRuleAlignment
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.HorizontalRuleAlignment enum. Rappresenta lallineamento per la linea orizzontale specificata.
+title: HorizontalRuleAlignment Enum
+linktitle: HorizontalRuleAlignment
+articleTitle: HorizontalRuleAlignment
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.HorizontalRuleAlignment enum. Rappresenta lallineamento per la linea orizzontale specificata in C#.
 type: docs
 weight: 1040
 url: /it/net/aspose.words.drawing/horizontalrulealignment/
@@ -26,5 +28,3 @@ public enum HorizontalRuleAlignment
 
 * spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
-
-

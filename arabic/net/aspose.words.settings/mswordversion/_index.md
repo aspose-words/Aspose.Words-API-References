@@ -1,7 +1,9 @@
 ---
-title: Enum MsWordVersion
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.MsWordVersion تعداد. يسمح لـ Aspose.Wods بتقليد سلوك التطبيق الخاص بإصدار MS Word.
+title: MsWordVersion Enum
+linktitle: MsWordVersion
+articleTitle: MsWordVersion
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Settings.MsWordVersion تعداد. يسمح لـ Aspose.Wods بتقليد سلوك التطبيق الخاص بإصدار MS Word في C#.
 type: docs
 weight: 5860
 url: /ar/net/aspose.words.settings/mswordversion/
@@ -27,7 +29,7 @@ public enum MsWordVersion
 | Word2016 | `6` | تحسين سلوك Aspose.Words ليتوافق مع إصدار MS Word 2016. |
 | Word2019 | `7` | تحسين سلوك Aspose.Words ليتوافق مع إصدار MS Word 2019. |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تحسين المستند لإصدارات مختلفة من Microsoft Word.
 
@@ -87,5 +89,3 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 * مساحة الاسم [Aspose.Words.Settings](../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../)
-
-

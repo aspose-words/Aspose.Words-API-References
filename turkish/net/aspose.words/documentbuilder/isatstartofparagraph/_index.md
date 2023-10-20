@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.IsAtStartOfParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. İadelerdoğru imleç geçerli paragrafın başındaysa imleçten önce metin yok.
+linktitle: IsAtStartOfParagraph
+articleTitle: IsAtStartOfParagraph
+second_title: Aspose.Words for .NET
+description: DocumentBuilder IsAtStartOfParagraph mülk. İadelerdoğru imleç geçerli paragrafın başındaysa imleçten önce metin yok C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words/documentbuilder/isatstartofparagraph/
@@ -14,7 +16,7 @@ url: /tr/net/aspose.words/documentbuilder/isatstartofparagraph/
 public bool IsAtStartOfParagraph { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Belge oluşturucunun imlecinin belgedeki farklı düğümlere nasıl taşınacağını gösterir.
 
@@ -68,7 +70,5 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 ### Ayrıca bakınız
 
 * class [DocumentBuilder](../)
-* ad alanı [Aspose.Words](../../documentbuilder/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

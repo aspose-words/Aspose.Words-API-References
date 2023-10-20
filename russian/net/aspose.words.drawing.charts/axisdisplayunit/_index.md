@@ -1,7 +1,9 @@
 ---
-title: Class AxisDisplayUnit
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.AxisDisplayUnit сорт. Предоставляет доступ к параметрам масштабирования единиц отображения для оси значений.
+title: AxisDisplayUnit Class
+linktitle: AxisDisplayUnit
+articleTitle: AxisDisplayUnit
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.AxisDisplayUnit сорт. Предоставляет доступ к параметрам масштабирования единиц отображения для оси значений на С#.
 type: docs
 weight: 550
 url: /ru/net/aspose.words.drawing.charts/axisdisplayunit/
@@ -30,7 +32,7 @@ public class AxisDisplayUnit
 | [Document](../../aspose.words.drawing.charts/axisdisplayunit/document/) { get; } | Возвращает документ, которому принадлежит правообладатель. |
 | [Unit](../../aspose.words.drawing.charts/axisdisplayunit/unit/) { get; set; } | Получает или задает значение масштабирования единиц отображения как одно из предопределенных значений. |
 
-### Примеры
+## Примеры
 
 Показывает, как манипулировать делениями и отображаемыми значениями оси диаграммы.
 
@@ -89,5 +91,3 @@ doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

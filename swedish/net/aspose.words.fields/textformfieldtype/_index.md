@@ -1,7 +1,9 @@
 ---
-title: Enum TextFormFieldType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.TextFormFieldType uppräkning. Anger typen av ett textformulärfält.
+title: TextFormFieldType Enum
+linktitle: TextFormFieldType
+articleTitle: TextFormFieldType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.TextFormFieldType uppräkning. Anger typen av ett textformulärfält i C#.
 type: docs
 weight: 2770
 url: /sv/net/aspose.words.fields/textformfieldtype/
@@ -25,7 +27,7 @@ public enum TextFormFieldType
 | CurrentTime | `4` | Textformulärfältets värde är den aktuella tidpunkten då fältet uppdateras. |
 | Calculated | `5` | Textformulärfältets värde beräknas från uttrycket som anges i [`TextInputDefault`](../formfield/textinputdefault/) egenskap. |
 
-### Exempel
+## Exempel
 
 Visar hur man skapar formulärfält.
 
@@ -54,5 +56,3 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

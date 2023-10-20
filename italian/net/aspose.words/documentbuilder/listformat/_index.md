@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.ListFormat
-second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder proprietà. Restituisce un oggetto che rappresenta le proprietà di formattazione dellelenco corrente.
+linktitle: ListFormat
+articleTitle: ListFormat
+second_title: Aspose.Words per .NET
+description: DocumentBuilder ListFormat proprietà. Restituisce un oggetto che rappresenta le proprietà di formattazione dellelenco corrente in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words/documentbuilder/listformat/
@@ -14,7 +16,7 @@ Restituisce un oggetto che rappresenta le proprietà di formattazione dell'elenc
 public ListFormat ListFormat { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come creare elenchi puntati e numerati.
 
@@ -100,7 +102,5 @@ doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
 
 * class [ListFormat](../../../aspose.words.lists/listformat/)
 * class [DocumentBuilder](../)
-* spazio dei nomi [Aspose.Words](../../documentbuilder/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

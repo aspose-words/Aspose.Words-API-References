@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.AllowOverlap
-second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Bu şeklin diğer şekillerle örtüşüp çakışmayacağını belirten bir değer alır veya ayarlar.
+linktitle: AllowOverlap
+articleTitle: AllowOverlap
+second_title: Aspose.Words for .NET
+description: ShapeBase AllowOverlap mülk. Bu şeklin diğer şekillerle örtüşüp çakışmayacağını belirten bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/shapebase/allowoverlap/
@@ -14,7 +16,7 @@ Bu şeklin diğer şekillerle örtüşüp çakışmayacağını belirten bir de�
 public bool AllowOverlap { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik Microsoft Word'deki şeklin davranışını etkiler. Aspose.Words bu özelliğin değerini yok sayar.
 
@@ -22,7 +24,7 @@ Bu özellik yalnızca üst düzey şekillere uygulanabilir.
 
 Varsayılan değer:`doğru`.
 
-### Örnekler
+## Örnekler
 
 Kayan tablo özellikleriyle nasıl çalışılacağını gösterir.
 
@@ -50,7 +52,5 @@ if (table.TextWrapping == TextWrapping.Around)
 ### Ayrıca bakınız
 
 * class [ShapeBase](../)
-* ad alanı [Aspose.Words.Drawing](../../shapebase/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

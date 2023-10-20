@@ -1,7 +1,9 @@
 ---
 title: ControlChar.Cr
-second_title: Aspose.Words for .NET API 参考
-description: ControlChar 场地. 回车符x000d或r与...一样ParagraphBreak.
+linktitle: Cr
+articleTitle: Cr
+second_title: 用于 .NET 的 Aspose.Words
+description: ControlChar Cr 场地. 回车符x000d或r与...一样ParagraphBreak 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/controlchar/cr/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/controlchar/cr/
 public static readonly string Cr;
 ```
 
-### 例子
+## 例子
 
 展示如何使用控制字符。
 
@@ -41,7 +43,5 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 ### 也可以看看
 
 * class [ControlChar](../)
-* 命名空间 [Aspose.Words](../../controlchar/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

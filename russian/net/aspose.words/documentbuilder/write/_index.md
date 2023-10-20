@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.Write
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет строку в документ в текущую позицию вставки.
+linktitle: Write
+articleTitle: Write
+second_title: Aspose.Words для .NET
+description: DocumentBuilder Write метод. Вставляет строку в документ в текущую позицию вставки на С#.
 type: docs
-weight: 660
+weight: 650
 url: /ru/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
@@ -18,11 +20,11 @@ public void Write(string text)
 | --- | --- | --- |
 | text | String | Строка, которую нужно вставить в документ. |
 
-### Примечания
+## Примечания
 
 Текущее форматирование шрифта, заданное[`Font`](../font/) используется свойство.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить в документ строку, окруженную рамкой.
 
@@ -168,7 +170,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 ### Смотрите также
 
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

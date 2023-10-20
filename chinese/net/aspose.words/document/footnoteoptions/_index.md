@@ -1,7 +1,9 @@
 ---
 title: Document.FootnoteOptions
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 提供控制本文档中脚注的编号和位置的选项
+linktitle: FootnoteOptions
+articleTitle: FootnoteOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Document FootnoteOptions 财产. 提供控制本文档中脚注的编号和位置的选项 在 C#.
 type: docs
 weight: 150
 url: /zh/net/aspose.words/document/footnoteoptions/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/footnoteoptions/
 public FootnoteOptions FootnoteOptions { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何选择文档收集和显示脚注的不同位置。
 
@@ -186,7 +188,5 @@ doc.Save(ArtifactsDir + "InlineStory.NumberingRule.docx");
 
 * class [FootnoteOptions](../../../aspose.words.notes/footnoteoptions/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

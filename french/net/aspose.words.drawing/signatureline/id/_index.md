@@ -1,7 +1,9 @@
 ---
 title: SignatureLine.Id
-second_title: Référence de l'API Aspose.Words pour .NET
-description: SignatureLine propriété. Obtient ou définit lidentifiant de cette ligne de signature.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words pour .NET
+description: SignatureLine Id propriété. Obtient ou définit lidentifiant de cette ligne de signature en C#.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.drawing/signatureline/id/
@@ -16,7 +18,7 @@ Cet identifiant peut être associé à une signature numérique, lors de la sign
 public Guid Id { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment ajouter une ligne de signature à un document, puis le signer à l'aide d'un certificat numérique.
 
@@ -132,7 +134,5 @@ Montre comment ajouter une ligne de signature à un document, puis le signer à 
 ### Voir également
 
 * class [SignatureLine](../)
-* espace de noms [Aspose.Words.Drawing](../../signatureline/)
+* espace de noms [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../../)
-
-

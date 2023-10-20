@@ -1,7 +1,9 @@
 ---
-title: Enum OoxmlCompliance
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.OoxmlCompliance 枚举. 允许指定以 DOCX 格式保存时将使用哪个 OOXML 规范
+title: OoxmlCompliance Enum
+linktitle: OoxmlCompliance
+articleTitle: OoxmlCompliance
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Saving.OoxmlCompliance 枚举. 允许指定以 DOCX 格式保存时将使用哪个 OOXML 规范 在 C#.
 type: docs
 weight: 5340
 url: /zh/net/aspose.words.saving/ooxmlcompliance/
@@ -22,7 +24,7 @@ public enum OoxmlCompliance
 | Iso29500_2008_Transitional | `1` | ISO/IEC 29500:2008 过渡合规级别。 |
 | Iso29500_2008_Strict | `2` | ISO/IEC 29500:2008 严格合规级别。 |
 
-### 例子
+## 例子
 
 演示如何将 DML 形状插入到文档中。
 
@@ -114,5 +116,3 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 * 命名空间 [Aspose.Words.Saving](../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../)
-
-

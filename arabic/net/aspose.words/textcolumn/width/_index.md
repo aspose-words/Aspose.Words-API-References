@@ -1,7 +1,9 @@
 ---
 title: TextColumn.Width
-second_title: Aspose.Words لمراجع .NET API
-description: TextColumn ملكية. الحصول على أو تعيين عرض عمود النص بالنقاط.
+linktitle: Width
+articleTitle: Width
+second_title: Aspose.Words لـ .NET
+description: TextColumn Width ملكية. الحصول على أو تعيين عرض عمود النص بالنقاط في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/textcolumn/width/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/textcolumn/width/
 public double Width { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء أعمدة متباعدة بشكل غير متساو.
 
@@ -51,7 +53,5 @@ doc.Save(ArtifactsDir + "PageSetup.CustomColumnWidth.docx");
 ### أنظر أيضا
 
 * class [TextColumn](../)
-* مساحة الاسم [Aspose.Words](../../textcolumn/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: MailMerge.RegionStartTag
-second_title: Aspose.Words for .NET API Referansı
-description: MailMerge mülk. Adresmektup birleştirme bölgesi başlangıç etiketini alır veya ayarlar.
+linktitle: RegionStartTag
+articleTitle: RegionStartTag
+second_title: Aspose.Words for .NET
+description: MailMerge RegionStartTag mülk. Adresmektup birleştirme bölgesi başlangıç etiketini alır veya ayarlar C#'da.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.mailmerging/mailmerge/regionstarttag/
@@ -14,7 +16,7 @@ Adres-mektup birleştirme bölgesi başlangıç etiketini alır veya ayarlar.
 public string RegionStartTag { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme bölgelerinin nasıl oluşturulacağını, listeleneceğini ve okunacağını gösterir.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Ayrıca bakınız
 
 * class [MailMerge](../)
-* ad alanı [Aspose.Words.MailMerging](../../mailmerge/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

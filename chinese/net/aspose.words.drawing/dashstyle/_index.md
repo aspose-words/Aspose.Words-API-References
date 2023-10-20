@@ -1,7 +1,9 @@
 ---
-title: Enum DashStyle
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.DashStyle 枚举. 虚线样式
+title: DashStyle Enum
+linktitle: DashStyle
+articleTitle: DashStyle
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.DashStyle 枚举. 虚线样式 在 C#.
 type: docs
 weight: 930
 url: /zh/net/aspose.words.drawing/dashstyle/
@@ -31,7 +33,7 @@ public enum DashStyle
 | LongDashDotDot | `10` | 长划线 短划线 短划线. |
 | Default | `0` | 与相同Solid. |
 
-### 例子
+## 例子
 
 展示创造出各种形状。
 
@@ -108,5 +110,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [DashStyle](../stroke/dashstyle/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

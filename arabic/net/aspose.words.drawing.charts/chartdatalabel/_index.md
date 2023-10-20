@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataLabel
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartDataLabel فصل. يمثل تسمية البيانات على نقطة الرسم البياني أو خط الاتجاه.
+title: ChartDataLabel Class
+linktitle: ChartDataLabel
+articleTitle: ChartDataLabel
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.Charts.ChartDataLabel فصل. يمثل تسمية البيانات على نقطة الرسم البياني أو خط الاتجاه في C#.
 type: docs
 weight: 670
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/
@@ -42,11 +44,11 @@ public class ChartDataLabel
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat/)() | مسح تنسيق تسمية البيانات هذه. يتم تعيين الخصائص على القيم الافتراضية المحددة في مجموعة التسمية data الأصل. |
 
-### ملاحظات
+## ملاحظات
 
 في مسلسل`ChartDataLabel` الكائن هو عضو في[`ChartDataLabelCollection`](../chartdatalabelcollection/) . ال[`ChartDataLabelCollection`](../chartdatalabelcollection/) يحتوي على`ChartDataLabel` كائن لكل نقطة.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
@@ -125,5 +127,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 * مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
-
-

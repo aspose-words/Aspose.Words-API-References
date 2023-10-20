@@ -1,7 +1,9 @@
 ---
 title: Range.Revisions
-second_title: Aspose.Words per .NET API Reference
-description: Range proprietà. Ottiene una raccolta di revisioni modifiche rilevate presenti in questo intervallo.
+linktitle: Revisions
+articleTitle: Revisions
+second_title: Aspose.Words per .NET
+description: Range Revisions proprietà. Ottiene una raccolta di revisioni modifiche rilevate presenti in questo intervallo in C#.
 type: docs
 weight: 40
 url: /it/net/aspose.words/range/revisions/
@@ -14,11 +16,11 @@ Ottiene una raccolta di revisioni (modifiche rilevate) presenti in questo interv
 public RevisionCollection Revisions { get; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 La raccolta restituita è una raccolta "attiva", il che significa che se rimuovi parti di un documento che contengono revisioni, le revisioni eliminate scompariranno automaticamente da questa raccolta.
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con le revisioni nell'intervallo.
 
@@ -40,7 +42,5 @@ doc.FirstSection.Range.Revisions.RejectAll();
 
 * class [RevisionCollection](../../revisioncollection/)
 * class [Range](../)
-* spazio dei nomi [Aspose.Words](../../range/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

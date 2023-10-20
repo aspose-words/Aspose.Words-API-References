@@ -1,9 +1,11 @@
 ---
 title: DocumentBuilder.InsertTextInput
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет поле текстовой формы в текущую позицию.
+linktitle: InsertTextInput
+articleTitle: InsertTextInput
+second_title: Aspose.Words для .NET
+description: DocumentBuilder InsertTextInput метод. Вставляет поле текстовой формы в текущую позицию на С#.
 type: docs
-weight: 480
+weight: 470
 url: /ru/net/aspose.words/documentbuilder/inserttextinput/
 ---
 ## DocumentBuilder.InsertTextInput method
@@ -27,11 +29,11 @@ public FormField InsertTextInput(string name, TextFormFieldType type, string for
 
 Узел поля формы, который был только что вставлен.
 
-### Примечания
+## Примечания
 
 Если вы укажете имя для поля формы, то автоматически создастся закладка с таким же именем.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле формы ввода текста в документ.
 
@@ -90,7 +92,5 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 * class [FormField](../../../aspose.words.fields/formfield/)
 * enum [TextFormFieldType](../../../aspose.words.fields/textformfieldtype/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

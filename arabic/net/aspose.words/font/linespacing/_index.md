@@ -1,7 +1,9 @@
 ---
 title: Font.LineSpacing
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. إرجاع تباعد الأسطر لهذا الخط بالنقاط.
+linktitle: LineSpacing
+articleTitle: LineSpacing
+second_title: Aspose.Words لـ .NET
+description: Font LineSpacing ملكية. إرجاع تباعد الأسطر لهذا الخط بالنقاط في C#.
 type: docs
 weight: 190
 url: /ar/net/aspose.words/font/linespacing/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/font/linespacing/
 public double LineSpacing { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على تباعد أسطر الخط بالنقاط.
 
@@ -33,7 +35,5 @@ Assert.AreEqual(13.798828125d, builder.Font.LineSpacing);
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.LocaleId
-second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين المعرف المحلي اللغة للأحرف المنسقة.
+linktitle: LocaleId
+articleTitle: LocaleId
+second_title: Aspose.Words لـ .NET
+description: Font LocaleId ملكية. الحصول على أو تعيين المعرف المحلي اللغة للأحرف المنسقة في C#.
 type: docs
 weight: 200
 url: /ar/net/aspose.words/font/localeid/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words/font/localeid/
 public int LocaleId { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 للحصول على قائمة المعرفات المحلية، راجع https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تعيين لغة النص الذي نضيفه باستخدام أداة إنشاء المستندات.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Font.LocaleId.docx");
 ### أنظر أيضا
 
 * class [Font](../)
-* مساحة الاسم [Aspose.Words](../../font/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

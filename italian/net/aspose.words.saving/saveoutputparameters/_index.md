@@ -1,7 +1,9 @@
 ---
-title: Class SaveOutputParameters
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.SaveOutputParameters classe. Questo oggetto viene restituito al chiamante dopo il salvataggio di un documento e contiene informazioni aggiuntive che sono state generate o calcolate durante loperazione di salvataggio. Il chiamante può utilizzare o ignorare questo oggetto.
+title: SaveOutputParameters Class
+linktitle: SaveOutputParameters
+articleTitle: SaveOutputParameters
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Saving.SaveOutputParameters classe. Questo oggetto viene restituito al chiamante dopo il salvataggio di un documento e contiene informazioni aggiuntive che sono state generate o calcolate durante loperazione di salvataggio. Il chiamante può utilizzare o ignorare questo oggetto in C#.
 type: docs
 weight: 5590
 url: /it/net/aspose.words.saving/saveoutputparameters/
@@ -22,7 +24,7 @@ public class SaveOutputParameters
 | --- | --- |
 | [ContentType](../../aspose.words.saving/saveoutputparameters/contenttype/) { get; } | Restituisce la stringa Content-Type (Internet Media Type) che identifica il tipo del documento salvato. |
 
-### Esempi
+## Esempi
 
 Mostra come accedere ai parametri di output dell'operazione di salvataggio di un documento.
 
@@ -46,5 +48,3 @@ Assert.AreEqual("application/pdf", parameters.ContentType);
 
 * spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
-
-

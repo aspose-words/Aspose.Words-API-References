@@ -1,7 +1,9 @@
 ---
 title: Shape.Filled
-second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Şeklin kapalı yolunun doldurulup doldurulmayacağını belirler.
+linktitle: Filled
+articleTitle: Filled
+second_title: Aspose.Words for .NET
+description: Shape Filled mülk. Şeklin kapalı yolunun doldurulup doldurulmayacağını belirler C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing/shape/filled/
@@ -14,13 +16,13 @@ url: /tr/net/aspose.words.drawing/shape/filled/
 public bool Filled { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu, kısayol[`Visible`](../../fill/visible/) mülk.
 
 Varsayılan değer:`doğru`.
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
 
@@ -143,7 +145,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Ayrıca bakınız
 
 * class [Shape](../)
-* ad alanı [Aspose.Words.Drawing](../../shape/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

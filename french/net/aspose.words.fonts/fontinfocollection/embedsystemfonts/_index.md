@@ -1,7 +1,9 @@
 ---
 title: FontInfoCollection.EmbedSystemFonts
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FontInfoCollection propriété. Spécifie sil faut ou non intégrer les polices système dans le document. La valeur par défaut de cette propriété estFAUX.
+linktitle: EmbedSystemFonts
+articleTitle: EmbedSystemFonts
+second_title: Aspose.Words pour .NET
+description: FontInfoCollection EmbedSystemFonts propriété. Spécifie sil faut ou non intégrer les polices système dans le document. La valeur par défaut de cette propriété estFAUX en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
@@ -16,13 +18,13 @@ Cette option ne fonctionne que lorsque[`EmbedTrueTypeFonts`](../embedtruetypefon
 public bool EmbedSystemFonts { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Définir cette propriété sur`vrai`est utile si l'utilisateur se trouve sur un système d'Asie de l'Est et souhaite créer un document lisible par d'autres personnes qui n'ont pas de polices pour cette langue sur leur système. Par exemple, un utilisateur sur un système japonais pourrait choisir d'incorporer les polices dans un document afin que le document japonais soit lisible sur tous les systèmes.
 
 Cette option fonctionne uniquement pour les formats DOC, DOCX et RTF.
 
-### Exemples
+## Exemples
 
 Montre comment enregistrer un document avec des polices TrueType intégrées.
 
@@ -45,7 +47,5 @@ else
 ### Voir également
 
 * class [FontInfoCollection](../)
-* espace de noms [Aspose.Words.Fonts](../../fontinfocollection/)
+* espace de noms [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../../)
-
-

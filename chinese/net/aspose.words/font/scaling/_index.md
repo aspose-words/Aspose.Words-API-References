@@ -1,7 +1,9 @@
 ---
 title: Font.Scaling
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置字符宽度缩放百分比
+linktitle: Scaling
+articleTitle: Scaling
+second_title: 用于 .NET 的 Aspose.Words
+description: Font Scaling 财产. 获取或设置字符宽度缩放百分比 在 C#.
 type: docs
 weight: 310
 url: /zh/net/aspose.words/font/scaling/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/scaling/
 public int Scaling { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何设置字符的水平缩放和间距。
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.ScalingSpacing.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

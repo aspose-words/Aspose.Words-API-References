@@ -1,7 +1,9 @@
 ---
 title: IFieldUserPromptRespondent.Respond
-second_title: Aspose.Words für .NET-API-Referenz
-description: IFieldUserPromptRespondent methode. Gibt bei Implementierung eine Antwort des Benutzers auf Aufforderung zurück. Ihre Implementierung sollte zurückgegeben werdenNull um anzuzeigen dass der Benutzer nicht auf die Eingabeaufforderung geantwortet hat d. h. der Benutzer hat im Eingabeaufforderungsfenster auf die Schaltfläche Abbrechen geklickt.
+linktitle: Respond
+articleTitle: Respond
+second_title: Aspose.Words für .NET
+description: IFieldUserPromptRespondent Respond methode. Gibt bei Implementierung eine Antwort des Benutzers auf Aufforderung zurück. Ihre Implementierung sollte zurückgegeben werdenNull um anzuzeigen dass der Benutzer nicht auf die Eingabeaufforderung geantwortet hat d. h. der Benutzer hat im Eingabeaufforderungsfenster auf die Schaltfläche Abbrechen geklickt in C#.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/ifielduserpromptrespondent/respond/
@@ -23,7 +25,7 @@ public string Respond(string promptText, string defaultResponse)
 
 Benutzerantwort (dh bestätigter Wert im Eingabeaufforderungsfenster).
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein ASK-Feld erstellt und seine Eigenschaften festgelegt werden.
 
@@ -85,7 +87,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Siehe auch
 
 * interface [IFieldUserPromptRespondent](../)
-* namensraum [Aspose.Words.Fields](../../ifielduserpromptrespondent/)
+* namensraum [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Montage [Aspose.Words](../../../)
-
-

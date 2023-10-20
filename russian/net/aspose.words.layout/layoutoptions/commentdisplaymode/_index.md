@@ -1,7 +1,9 @@
 ---
 title: LayoutOptions.CommentDisplayMode
-second_title: Справочник по API Aspose.Words для .NET
-description: LayoutOptions свойство. Получает или задает способ отображения комментариев. Значение по умолчаниюShowInBalloons .
+linktitle: CommentDisplayMode
+articleTitle: CommentDisplayMode
+second_title: Aspose.Words для .NET
+description: LayoutOptions CommentDisplayMode свойство. Получает или задает способ отображения комментариев. Значение по умолчаниюShowInBalloons  на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.layout/layoutoptions/commentdisplaymode/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.layout/layoutoptions/commentdisplaymode/
 public CommentDisplayMode CommentDisplayMode { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Обратите внимание, что изменения не отображаются в выносках дляShowInAnnotations .
 
-### Примеры
+## Примеры
 
 Показывает, как отображать комментарии при сохранении документа в визуализированном формате.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Document.ShowCommentsInBalloons.pdf");
 
 * enum [CommentDisplayMode](../../commentdisplaymode/)
 * class [LayoutOptions](../)
-* пространство имен [Aspose.Words.Layout](../../layoutoptions/)
+* пространство имен [Aspose.Words.Layout](../../../aspose.words.layout/)
 * сборка [Aspose.Words](../../../)
-
-

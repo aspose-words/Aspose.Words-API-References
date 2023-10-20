@@ -1,7 +1,9 @@
 ---
 title: FieldTA.IsItalic
-second_title: Aspose.Words for .NET API Referansı
-description: FieldTA mülk. Giriş için sayfa numarasına italik biçimlendirmenin uygulanıp uygulanmayacağını alır veya ayarlar.
+linktitle: IsItalic
+articleTitle: IsItalic
+second_title: Aspose.Words for .NET
+description: FieldTA IsItalic mülk. Giriş için sayfa numarasına italik biçimlendirmenin uygulanıp uygulanmayacağını alır veya ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldta/isitalic/
@@ -14,7 +16,7 @@ Giriş için sayfa numarasına italik biçimlendirmenin uygulanıp uygulanmayaca
 public bool IsItalic { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 TOA ve TA alanlarını kullanarak bir yetki tablosunun nasıl oluşturulacağını ve özelleştirileceğini gösterir.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Ayrıca bakınız
 
 * class [FieldTA](../)
-* ad alanı [Aspose.Words.Fields](../../fieldta/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

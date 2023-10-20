@@ -1,9 +1,11 @@
 ---
 title: StructuredDocumentTag.SetCheckedSymbol
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag yöntem. Onay kutusu içerik denetiminin işaretli durumunu temsil etmek için kullanılan sembolü ayarlar.
+linktitle: SetCheckedSymbol
+articleTitle: SetCheckedSymbol
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTag SetCheckedSymbol yöntem. Onay kutusu içerik denetiminin işaretli durumunu temsil etmek için kullanılan sembolü ayarlar C#'da.
 type: docs
-weight: 380
+weight: 360
 url: /tr/net/aspose.words.markup/structureddocumenttag/setcheckedsymbol/
 ---
 ## StructuredDocumentTag.SetCheckedSymbol method
@@ -19,13 +21,13 @@ public void SetCheckedSymbol(int characterCode, string fontName)
 | characterCode | Int32 | Belirtilen sembolün karakter kodu. |
 | fontName | String | Sembolü içeren yazı tipinin adı. |
 
-### Notlar
+## Notlar
 
 Bu yönteme erişim yalnızca aşağıdakiler için işe yarayacaktır:Checkbox SDT türleri.
 
 Diğer tüm SDT türleri için istisna meydana gelecektir.
 
-### Örnekler
+## Örnekler
 
 Onay kutusu biçiminde yapılandırılmış belge etiketinin nasıl oluşturulacağını gösterin.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CheckBox.docx");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTag](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttag/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

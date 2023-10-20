@@ -1,7 +1,9 @@
 ---
 title: TxtListIndentation.Count
-second_title: Aspose.Words for .NET API Referansı
-description: TxtListIndentation mülk. Kaç tane olduğunu alır veya ayarlarCharacter bir liste düzeyi başına girinti olarak kullanılacak. Varsayılan değer 0dır bu girinti olmadığı anlamına gelir.
+linktitle: Count
+articleTitle: Count
+second_title: Aspose.Words for .NET
+description: TxtListIndentation Count mülk. Kaç tane olduğunu alır veya ayarlarCharacter bir liste düzeyi başına girinti olarak kullanılacak. Varsayılan değer 0dır bu girinti olmadığı anlamına gelir C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/txtlistindentation/count/
@@ -14,7 +16,7 @@ Kaç tane olduğunu alır veya ayarlar[`Character`](../character/) bir liste dü
 public int Count { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeyi düz metne kaydederken liste girintisinin nasıl yapılandırılacağını gösterir.
 
@@ -54,7 +56,5 @@ Assert.AreEqual("1. Item 1\r\n" +
 ### Ayrıca bakınız
 
 * class [TxtListIndentation](../)
-* ad alanı [Aspose.Words.Saving](../../txtlistindentation/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

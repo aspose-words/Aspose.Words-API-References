@@ -1,7 +1,9 @@
 ---
 title: Document.AttachedTemplate
-second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Belgeye eklenen şablonun tam yolunu alır veya ayarlar.
+linktitle: AttachedTemplate
+articleTitle: AttachedTemplate
+second_title: Aspose.Words for .NET
+description: Document AttachedTemplate mülk. Belgeye eklenen şablonun tam yolunu alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/document/attachedtemplate/
@@ -20,11 +22,11 @@ public string AttachedTemplate { get; set; }
 | --- | --- |
 | ArgumentNullException | Ayarlamaya çalışırsanız fırlatır`hükümsüz` değer. |
 
-### Notlar
+## Notlar
 
 Boş dize, belgenin Normal şablona eklendiği anlamına gelir.
 
-### Örnekler
+## Örnekler
 
 Ekli şablonları olmayan belgeler için varsayılan şablonun nasıl ayarlanacağını gösterir.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
 ### Ayrıca bakınız
 
 * class [Document](../)
-* ad alanı [Aspose.Words](../../document/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

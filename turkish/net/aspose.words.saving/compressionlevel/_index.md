@@ -1,7 +1,9 @@
 ---
-title: Enum CompressionLevel
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.CompressionLevel Sıralama. OOXML dosyaları için sıkıştırma düzeyi.
+title: CompressionLevel Enum
+linktitle: CompressionLevel
+articleTitle: CompressionLevel
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Saving.CompressionLevel Sıralama. OOXML dosyaları için sıkıştırma düzeyi C#'da.
 type: docs
 weight: 4870
 url: /tr/net/aspose.words.saving/compressionlevel/
@@ -27,7 +29,7 @@ public enum CompressionLevel
 | Fast | `2` | Hızlı sıkıştırma düzeyi. |
 | SuperFast | `3` | Süper Hızlı sıkıştırma düzeyi. Microsoft Word bu sıkıştırma düzeyini kullanır. |
 
-### Örnekler
+## Örnekler
 
 Bir OOXML belgesini kaydederken kullanılacak sıkıştırma düzeyinin nasıl belirleneceğini gösterir.
 
@@ -60,5 +62,3 @@ Console.WriteLine($"\tFile Size:\t{fileInfo.Length} bytes");
 
 * ad alanı [Aspose.Words.Saving](../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../)
-
-

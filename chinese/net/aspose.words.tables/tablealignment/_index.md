@@ -1,7 +1,9 @@
 ---
-title: Enum TableAlignment
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Tables.TableAlignment 枚举. 指定内联表的对齐方式
+title: TableAlignment Enum
+linktitle: TableAlignment
+articleTitle: TableAlignment
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Tables.TableAlignment 枚举. 指定内联表的对齐方式 在 C#.
 type: docs
 weight: 6350
 url: /zh/net/aspose.words.tables/tablealignment/
@@ -22,7 +24,7 @@ public enum TableAlignment
 | Center | `1` | 桌子居中。 |
 | Right | `2` | 表格右对齐。 |
 
-### 例子
+## 例子
 
 演示如何将轮廓边框应用到表格。
 
@@ -53,5 +55,3 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 
 * 命名空间 [Aspose.Words.Tables](../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../)
-
-

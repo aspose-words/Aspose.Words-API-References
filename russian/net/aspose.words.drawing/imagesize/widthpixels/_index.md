@@ -1,7 +1,9 @@
 ---
 title: ImageSize.WidthPixels
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSize свойство. Получает ширину изображения в пикселях.
+linktitle: WidthPixels
+articleTitle: WidthPixels
+second_title: Aspose.Words для .NET
+description: ImageSize WidthPixels свойство. Получает ширину изображения в пикселях на С#.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing/imagesize/widthpixels/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.drawing/imagesize/widthpixels/
 public int WidthPixels { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как читать свойства изображения в фигуре.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### Смотрите также
 
 * class [ImageSize](../)
-* пространство имен [Aspose.Words.Drawing](../../imagesize/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

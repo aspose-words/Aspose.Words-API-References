@@ -1,7 +1,9 @@
 ---
-title: Class BaseWebExtensionCollectionT
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T sınıf. Temel sınıfTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection VeWebExtensionReferenceCollection koleksiyonlar.
+title: BaseWebExtensionCollectionT Class
+linktitle: BaseWebExtensionCollectionT
+articleTitle: BaseWebExtensionCollectionT
+second_title: Aspose.Words for .NET
+description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T sınıf. Temel sınıfTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection VeWebExtensionReferenceCollection koleksiyonlar C#'da.
 type: docs
 weight: 6700
 url: /tr/net/aspose.words.webextensions/basewebextensioncollection-1/
@@ -32,12 +34,12 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | Belirtilen öğeyi koleksiyona ekler. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*T*) | Belirtilen öğeyi koleksiyona ekler. |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Bir koleksiyonda yineleme yapabilen bir numaralandırıcıyı döndürür. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | Belirtilen dizindeki öğeyi koleksiyondan kaldırır. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) | Belirtilen dizindeki öğeyi koleksiyondan kaldırır. |
 
-### Örnekler
+## Örnekler
 
 Bir belgenin web uzantıları koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -67,5 +69,3 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * ad alanı [Aspose.Words.WebExtensions](../../aspose.words.webextensions/)
 * toplantı [Aspose.Words](../../)
-
-

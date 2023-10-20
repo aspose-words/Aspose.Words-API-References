@@ -1,7 +1,9 @@
 ---
-title: Enum ArrowLength
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.ArrowLength 枚举. 行尾箭头的长度
+title: ArrowLength Enum
+linktitle: ArrowLength
+articleTitle: ArrowLength
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.ArrowLength 枚举. 行尾箭头的长度 在 C#.
 type: docs
 weight: 480
 url: /zh/net/aspose.words.drawing/arrowlength/
@@ -23,7 +25,7 @@ public enum ArrowLength
 | Long | `2` |  |
 | Default | `0` | 与相同Short. |
 
-### 例子
+## 例子
 
 展示创造出各种形状。
 
@@ -101,5 +103,3 @@ doc.Save(ArtifactsDir + "Drawing.VariousShapes.docx");
 * property [EndArrowLength](../stroke/endarrowlength/)
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

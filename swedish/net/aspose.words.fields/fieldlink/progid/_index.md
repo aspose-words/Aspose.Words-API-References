@@ -1,7 +1,9 @@
 ---
 title: FieldLink.ProgId
-second_title: Aspose.Words för .NET API Referens
-description: FieldLink fast egendom. Hämtar eller ställer in applikationstypen för länkinformationen.
+linktitle: ProgId
+articleTitle: ProgId
+second_title: Aspose.Words för .NET
+description: FieldLink ProgId fast egendom. Hämtar eller ställer in applikationstypen för länkinformationen i C#.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.fields/fieldlink/progid/
@@ -14,7 +16,7 @@ Hämtar eller ställer in applikationstypen för länkinformationen.
 public string ProgId { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder olika fälttyper för att länka till andra dokument i det lokala filsystemet och visa deras innehåll.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Se även
 
 * class [FieldLink](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldlink/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

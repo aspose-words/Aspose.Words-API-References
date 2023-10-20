@@ -1,7 +1,9 @@
 ---
 title: Table.AllowOverlap
-second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft ab ob eine schwebende Tabelle zulassen soll dass andere schwebende Objekte im Dokument ihre Grenzen überlappen wenn sie angezeigt werden. Der Standardwert istWAHR .
+linktitle: AllowOverlap
+articleTitle: AllowOverlap
+second_title: Aspose.Words für .NET
+description: Table AllowOverlap eigendom. Ruft ab ob eine schwebende Tabelle zulassen soll dass andere schwebende Objekte im Dokument ihre Grenzen überlappen wenn sie angezeigt werden. Der Standardwert istWAHR  in C#.
 type: docs
 weight: 70
 url: /de/net/aspose.words.tables/table/allowoverlap/
@@ -14,7 +16,7 @@ Ruft ab, ob eine schwebende Tabelle zulassen soll, dass andere schwebende Objekt
 public bool AllowOverlap { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Floating-Table-Eigenschaften gearbeitet wird.
 
@@ -42,7 +44,5 @@ if (table.TextWrapping == TextWrapping.Around)
 ### Siehe auch
 
 * class [Table](../)
-* namensraum [Aspose.Words.Tables](../../table/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

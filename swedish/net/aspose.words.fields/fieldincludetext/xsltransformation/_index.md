@@ -1,7 +1,9 @@
 ---
 title: FieldIncludeText.XslTransformation
-second_title: Aspose.Words för .NET API Referens
-description: FieldIncludeText fast egendom. Hämtar eller ställer in platsen för XSL Transformation för att formatera XMLdata.
+linktitle: XslTransformation
+articleTitle: XslTransformation
+second_title: Aspose.Words för .NET
+description: FieldIncludeText XslTransformation fast egendom. Hämtar eller ställer in platsen för XSL Transformation för att formatera XMLdata i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.fields/fieldincludetext/xsltransformation/
@@ -14,7 +16,7 @@ Hämtar eller ställer in platsen för XSL Transformation för att formatera XML
 public string XslTransformation { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man skapar ett INCLUDETEXT-fält och ställer in dess egenskaper.
 
@@ -59,7 +61,5 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 ### Se även
 
 * class [FieldIncludeText](../)
-* namnutrymme [Aspose.Words.Fields](../../fieldincludetext/)
+* namnutrymme [Aspose.Words.Fields](../../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../../)
-
-

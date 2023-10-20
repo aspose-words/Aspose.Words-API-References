@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreInserted
-second_title: Aspose.Words för .NET API Referens
-description: FindReplaceOptions fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar att texten i infogningsversioner ska ignoreras. Standardvärdet ärfalsk .
+linktitle: IgnoreInserted
+articleTitle: IgnoreInserted
+second_title: Aspose.Words för .NET
+description: FindReplaceOptions IgnoreInserted fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar att texten i infogningsversioner ska ignoreras. Standardvärdet ärfalsk  i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/
@@ -14,7 +16,7 @@ Hämtar eller ställer in ett booleskt värde som indikerar att texten i infogni
 public bool IgnoreInserted { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man inkluderar eller ignorerar text i infogningsversioner under en sök-och-ersätt-operation.
 
@@ -51,7 +53,5 @@ Assert.AreEqual(
 ### Se även
 
 * class [FindReplaceOptions](../)
-* namnutrymme [Aspose.Words.Replacing](../../findreplaceoptions/)
+* namnutrymme [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * hopsättning [Aspose.Words](../../../)
-
-

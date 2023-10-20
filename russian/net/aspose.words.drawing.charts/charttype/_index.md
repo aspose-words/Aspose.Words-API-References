@@ -1,7 +1,9 @@
 ---
-title: Enum ChartType
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartType перечисление. Указывает тип диаграммы.
+title: ChartType Enum
+linktitle: ChartType
+articleTitle: ChartType
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Drawing.Charts.ChartType перечисление. Указывает тип диаграммы на С#.
 type: docs
 weight: 830
 url: /ru/net/aspose.words.drawing.charts/charttype/
@@ -54,7 +56,7 @@ public enum ChartType
 | Surface | `33` | Поверхностная диаграмма. |
 | Surface3D | `34` | Трехмерная диаграмма поверхности. |
 
-### Примеры
+## Примеры
 
 Показывает, как создать серию диаграмм, соответствующую типу диаграммы.
 
@@ -144,5 +146,3 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 * пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
-
-

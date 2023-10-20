@@ -1,7 +1,9 @@
 ---
 title: ListLevelCollection.GetEnumerator
-second_title: Aspose.Words for .NET API 参考
-description: ListLevelCollection 方法. 获取将枚举此列表中级别的枚举器对象
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: 用于 .NET 的 Aspose.Words
+description: ListLevelCollection GetEnumerator 方法. 获取将枚举此列表中级别的枚举器对象 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.lists/listlevelcollection/getenumerator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.lists/listlevelcollection/getenumerator/
 public IEnumerator<ListLevel> GetEnumerator()
 ```
 
-### 例子
+## 例子
 
 显示自定义列表标签的高级方法。
 
@@ -76,7 +78,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * class [ListLevel](../../listlevel/)
 * class [ListLevelCollection](../)
-* 命名空间 [Aspose.Words.Lists](../../listlevelcollection/)
+* 命名空间 [Aspose.Words.Lists](../../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../../)
-
-

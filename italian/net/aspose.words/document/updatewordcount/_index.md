@@ -1,9 +1,11 @@
 ---
 title: Document.UpdateWordCount
-second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Aggiorna le proprietà del conteggio delle parole del documento.
+linktitle: UpdateWordCount
+articleTitle: UpdateWordCount
+second_title: Aspose.Words per .NET
+description: Document UpdateWordCount metodo. Aggiorna le proprietà del conteggio delle parole del documento in C#.
 type: docs
-weight: 810
+weight: 790
 url: /it/net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}
@@ -14,7 +16,7 @@ Aggiorna le proprietà del conteggio delle parole del documento.
 public void UpdateWordCount()
 ```
 
-### Osservazioni
+## Osservazioni
 
 `UpdateWordCount` ricalcola e aggiorna le proprietà Caratteri, Parole e Paragrafi nel file[`BuiltInDocumentProperties`](../builtindocumentproperties/) raccolta del[`Document`](../).
 
@@ -22,7 +24,7 @@ Notare che`UpdateWordCount`non aggiorna le proprietà del numero di righe e pagi
 
 Quando utilizzi una versione di valutazione, anche la filigrana di valutazione verrà inclusa nel conteggio delle parole.
 
-### Esempi
+## Esempi
 
 Mostra come aggiornare tutte le etichette dell'elenco in un documento.
 
@@ -59,12 +61,12 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
 
 ---
 
-## UpdateWordCount(bool) {#updatewordcount_1}
+## UpdateWordCount(*bool*) {#updatewordcount_1}
 
 Aggiorna le proprietà del conteggio delle parole del documento, facoltativamente aggiornamenti[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) proprietà.
 
@@ -76,11 +78,11 @@ public void UpdateWordCount(bool updateLinesCount)
 | --- | --- | --- |
 | updateLinesCount | Boolean | `VERO` se deve essere calcolato il numero di righe del documento. |
 
-### Osservazioni
+## Osservazioni
 
 Questo metodo ricostruirà il layout della pagina del documento.
 
-### Esempi
+## Esempi
 
 Mostra come aggiornare tutte le etichette dell'elenco in un documento.
 
@@ -117,7 +119,5 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 ### Guarda anche
 
 * class [Document](../)
-* spazio dei nomi [Aspose.Words](../../document/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

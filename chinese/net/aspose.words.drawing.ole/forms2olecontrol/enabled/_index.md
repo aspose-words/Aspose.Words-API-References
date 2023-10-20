@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControl.Enabled
-second_title: Aspose.Words for .NET API 参考
-description: Forms2OleControl 财产. 返回真的如果控制处于启用状态
+linktitle: Enabled
+articleTitle: Enabled
+second_title: 用于 .NET 的 Aspose.Words
+description: Forms2OleControl Enabled 财产. 返回真的如果控制处于启用状态 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.ole/forms2olecontrol/enabled/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.ole/forms2olecontrol/enabled/
 public bool Enabled { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何验证 ActiveX 控件的属性。
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### 也可以看看
 
 * class [Forms2OleControl](../)
-* 命名空间 [Aspose.Words.Drawing.Ole](../../forms2olecontrol/)
+* 命名空间 [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * 部件 [Aspose.Words](../../../)
-
-

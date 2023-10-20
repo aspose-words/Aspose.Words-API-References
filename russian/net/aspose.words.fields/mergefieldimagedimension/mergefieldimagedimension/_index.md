@@ -1,12 +1,14 @@
 ---
-title: MergeFieldImageDimension.MergeFieldImageDimension
-second_title: Справочник по API Aspose.Words для .NET
-description: MergeFieldImageDimension строитель. Создает экземпляр размера изображения с заданным значением в пунктах.
+title: MergeFieldImageDimension
+linktitle: MergeFieldImageDimension
+articleTitle: MergeFieldImageDimension
+second_title: Aspose.Words для .NET
+description: MergeFieldImageDimension строитель. Создает экземпляр размера изображения с заданным значением в пунктах на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/mergefieldimagedimension/mergefieldimagedimension/
 ---
-## MergeFieldImageDimension(double) {#constructor}
+## MergeFieldImageDimension(*double*) {#constructor}
 
 Создает экземпляр размера изображения с заданным значением в пунктах.
 
@@ -18,11 +20,11 @@ public MergeFieldImageDimension(double value)
 | --- | --- | --- |
 | value | Double | Значение. |
 
-### Примечания
+## Примечания
 
 Вы должны использовать отрицательное значение, чтобы указать, что должно быть применено исходное значение соответствующего изображения size .
 
-### Примеры
+## Примеры
 
 Показывает, как установить размеры изображений, поскольку MERGEFIELDS принимает их во время слияния почты.
 
@@ -92,12 +94,12 @@ private class MergedImageResizer : IFieldMergingCallback
 ### Смотрите также
 
 * class [MergeFieldImageDimension](../)
-* пространство имен [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## MergeFieldImageDimension(double, MergeFieldImageDimensionUnit) {#constructor_1}
+## MergeFieldImageDimension(*double, [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)*) {#constructor_1}
 
 Создает экземпляр измерения изображения с заданным значением и заданной единицей измерения.
 
@@ -110,11 +112,11 @@ public MergeFieldImageDimension(double value, MergeFieldImageDimensionUnit unit)
 | value | Double | Значение. |
 | unit | MergeFieldImageDimensionUnit | Единица. |
 
-### Примечания
+## Примечания
 
 Вы должны использовать отрицательное значение, чтобы указать, что должно быть применено исходное значение соответствующего изображения size .
 
-### Примеры
+## Примеры
 
 Показывает, как установить размеры изображений, поскольку MERGEFIELDS принимает их во время слияния почты.
 
@@ -185,7 +187,5 @@ private class MergedImageResizer : IFieldMergingCallback
 
 * enum [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)
 * class [MergeFieldImageDimension](../)
-* пространство имен [Aspose.Words.Fields](../../mergefieldimagedimension/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

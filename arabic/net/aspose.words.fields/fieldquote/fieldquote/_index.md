@@ -1,7 +1,9 @@
 ---
-title: FieldQuote.FieldQuote
-second_title: Aspose.Words لمراجع .NET API
-description: FieldQuote البناء. Default_Constructor
+title: FieldQuote
+linktitle: FieldQuote
+articleTitle: FieldQuote
+second_title: Aspose.Words لـ .NET
+description: FieldQuote البناء. Default_Constructor في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldquote/fieldquote/
@@ -17,7 +19,5 @@ public FieldQuote()
 ### أنظر أيضا
 
 * class [FieldQuote](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldquote/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

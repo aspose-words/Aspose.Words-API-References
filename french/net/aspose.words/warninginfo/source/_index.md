@@ -1,7 +1,9 @@
 ---
 title: WarningInfo.Source
-second_title: Référence de l'API Aspose.Words pour .NET
-description: WarningInfo propriété. Renvoie la source de lavertissement.
+linktitle: Source
+articleTitle: Source
+second_title: Aspose.Words pour .NET
+description: WarningInfo Source propriété. Renvoie la source de lavertissement en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/warninginfo/source/
@@ -18,7 +20,5 @@ public WarningSource Source { get; }
 
 * enum [WarningSource](../../warningsource/)
 * class [WarningInfo](../)
-* espace de noms [Aspose.Words](../../warninginfo/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

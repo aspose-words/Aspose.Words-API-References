@@ -1,7 +1,9 @@
 ---
 title: FieldToa.RemoveEntryFormatting
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldToa propriété. Obtient ou définit sil faut supprimer la mise en forme du texte dentrée dans le document de lentrée dans la table des autorités.
+linktitle: RemoveEntryFormatting
+articleTitle: RemoveEntryFormatting
+second_title: Aspose.Words pour .NET
+description: FieldToa RemoveEntryFormatting propriété. Obtient ou définit sil faut supprimer la mise en forme du texte dentrée dans le document de lentrée dans la table des autorités en C#.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fields/fieldtoa/removeentryformatting/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut supprimer la mise en forme du texte d'entrée dans
 public bool RemoveEntryFormatting { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment créer et personnaliser une table de autorités à l’aide des champs TOA et TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Voir également
 
 * class [FieldToa](../)
-* espace de noms [Aspose.Words.Fields](../../fieldtoa/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

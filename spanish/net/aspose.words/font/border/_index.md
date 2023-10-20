@@ -1,7 +1,9 @@
 ---
 title: Font.Border
-second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Devuelve unBorder objeto que especifica el borde de la fuente.
+linktitle: Border
+articleTitle: Border
+second_title: Aspose.Words para .NET
+description: Font Border propiedad. Devuelve unBorder objeto que especifica el borde de la fuente en C#.
 type: docs
 weight: 60
 url: /es/net/aspose.words/font/border/
@@ -14,7 +16,7 @@ Devuelve un[`Border`](../../border/) objeto que especifica el borde de la fuente
 public Border Border { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo insertar una cadena rodeada por un borde en un documento.
 
@@ -35,7 +37,5 @@ doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 
 * class [Border](../../border/)
 * class [Font](../)
-* espacio de nombres [Aspose.Words](../../font/)
+* espacio de nombres [Aspose.Words](../../../aspose.words/)
 * asamblea [Aspose.Words](../../../)
-
-

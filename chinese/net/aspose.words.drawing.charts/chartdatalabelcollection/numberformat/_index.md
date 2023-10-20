@@ -1,7 +1,9 @@
 ---
 title: ChartDataLabelCollection.NumberFormat
-second_title: Aspose.Words for .NET API 参考
-description: ChartDataLabelCollection 财产. 得到一个ChartNumberFormat允许为 整个系列的数据标签设置数字格式的实例
+linktitle: NumberFormat
+articleTitle: NumberFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: ChartDataLabelCollection NumberFormat 财产. 得到一个ChartNumberFormat允许为 整个系列的数据标签设置数字格式的实例 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### 例子
+## 例子
 
 展示如何启用和配置图表系列的数据标签。
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 
 * class [ChartNumberFormat](../../chartnumberformat/)
 * class [ChartDataLabelCollection](../)
-* 命名空间 [Aspose.Words.Drawing.Charts](../../chartdatalabelcollection/)
+* 命名空间 [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../../)
-
-

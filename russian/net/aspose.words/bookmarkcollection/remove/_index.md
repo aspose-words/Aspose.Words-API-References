@@ -1,12 +1,14 @@
 ---
 title: BookmarkCollection.Remove
-second_title: Справочник по API Aspose.Words для .NET
-description: BookmarkCollection метод. Удаляет указанную закладку из документа.
+linktitle: Remove
+articleTitle: Remove
+second_title: Aspose.Words для .NET
+description: BookmarkCollection Remove метод. Удаляет указанную закладку из документа на С#.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/bookmarkcollection/remove/
 ---
-## Remove(Bookmark) {#remove}
+## Remove(*[Bookmark](../../bookmark/)*) {#remove}
 
 Удаляет указанную закладку из документа.
 
@@ -18,7 +20,7 @@ public void Remove(Bookmark bookmark)
 | --- | --- | --- |
 | bookmark | Bookmark | Закладка, которую нужно удалить. |
 
-### Примеры
+## Примеры
 
 Показывает, как удалить закладки из документа.
 
@@ -80,12 +82,12 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 
 * class [Bookmark](../../bookmark/)
 * class [BookmarkCollection](../)
-* пространство имен [Aspose.Words](../../bookmarkcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
-## Remove(string) {#remove_1}
+## Remove(*string*) {#remove_1}
 
 Удаляет закладку с указанным именем.
 
@@ -97,7 +99,7 @@ public void Remove(string bookmarkName)
 | --- | --- | --- |
 | bookmarkName | String | Имя удаляемой закладки без учета регистра. |
 
-### Примеры
+## Примеры
 
 Показывает, как удалить закладки из документа.
 
@@ -158,7 +160,5 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 ### Смотрите также
 
 * class [BookmarkCollection](../)
-* пространство имен [Aspose.Words](../../bookmarkcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

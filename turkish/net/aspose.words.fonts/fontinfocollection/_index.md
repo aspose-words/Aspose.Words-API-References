@@ -1,7 +1,9 @@
 ---
-title: Class FontInfoCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.FontInfoCollection sınıf. Bir belgede kullanılan yazı tiplerinin bir koleksiyonunu temsil eder.
+title: FontInfoCollection Class
+linktitle: FontInfoCollection
+articleTitle: FontInfoCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fonts.FontInfoCollection sınıf. Bir belgede kullanılan yazı tiplerinin bir koleksiyonunu temsil eder C#'da.
 type: docs
 weight: 2930
 url: /tr/net/aspose.words.fonts/fontinfocollection/
@@ -30,16 +32,16 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 
 | İsim | Tanım |
 | --- | --- |
-| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(string) | Koleksiyonun verilen adda bir yazı tipi içerip içermediğini belirler. |
+| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(*string*) | Koleksiyonun verilen adda bir yazı tipi içerip içermediğini belirler. |
 | [GetEnumerator](../../aspose.words.fonts/fontinfocollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
 
-### Notlar
+## Notlar
 
 Öğeler[`FontInfo`](../fontinfo/) nesneler.
 
 Bu sınıfın örneklerini doğrudan oluşturmazsınız. Kullan[`FontInfos`](../../aspose.words/documentbase/fontinfos/) belgede tanımlanan yazı tiplerinin koleksiyonuna erişim özelliği.
 
-### Örnekler
+## Örnekler
 
 Bir belgede hangi yazı tiplerinin mevcut olduğuna ilişkin ayrıntıların nasıl yazdırılacağını gösterir.
 
@@ -79,5 +81,3 @@ else
 * class [FontInfo](../fontinfo/)
 * ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Chart.SourceFullName
-second_title: Aspose.Words لمراجع .NET API
-description: Chart ملكية. يحصل على مسار واسم ملف xls/xlsx الذي يرتبط به هذا المخطط.
+linktitle: SourceFullName
+articleTitle: SourceFullName
+second_title: Aspose.Words لـ .NET
+description: Chart SourceFullName ملكية. يحصل على مسار واسم ملف xls/xlsx الذي يرتبط به هذا المخطط في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing.charts/chart/sourcefullname/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.drawing.charts/chart/sourcefullname/
 public string SourceFullName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على/تعيين الاسم الكامل لمستند xls/xlsx الخارجي إذا كان المخطط مرتبطًا.
 
@@ -33,7 +35,5 @@ Assert.True(sourceFullName.Equals("D:\\Documents\\ChartData.xlsx", StringCompari
 ### أنظر أيضا
 
 * class [Chart](../)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chart/)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../../)
-
-

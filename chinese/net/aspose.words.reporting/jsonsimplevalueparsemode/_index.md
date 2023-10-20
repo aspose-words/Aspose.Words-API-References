@@ -1,7 +1,9 @@
 ---
-title: Enum JsonSimpleValueParseMode
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Reporting.JsonSimpleValueParseMode 枚举. 指定加载 JSON 时解析 JSON 简单值空布尔值数字整数和字符串的模式 这种模式不会影响日期时间值的解析
+title: JsonSimpleValueParseMode Enum
+linktitle: JsonSimpleValueParseMode
+articleTitle: JsonSimpleValueParseMode
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Reporting.JsonSimpleValueParseMode 枚举. 指定加载 JSON 时解析 JSON 简单值空布尔值数字整数和字符串的模式 这种模式不会影响日期时间值的解析 在 C#.
 type: docs
 weight: 4700
 url: /zh/net/aspose.words.reporting/jsonsimplevalueparsemode/
@@ -25,5 +27,3 @@ public enum JsonSimpleValueParseMode
 
 * 命名空间 [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../)
-
-

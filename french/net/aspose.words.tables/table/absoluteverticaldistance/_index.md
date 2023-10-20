@@ -1,7 +1,9 @@
 ---
 title: Table.AbsoluteVerticalDistance
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. Obtient ou définit la position verticale absolue de la table flottante spécifiée par les propriétés de la table en points. La valeur par défaut est 0.
+linktitle: AbsoluteVerticalDistance
+articleTitle: AbsoluteVerticalDistance
+second_title: Aspose.Words pour .NET
+description: Table AbsoluteVerticalDistance propriété. Obtient ou définit la position verticale absolue de la table flottante spécifiée par les propriétés de la table en points. La valeur par défaut est 0 en C#.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.tables/table/absoluteverticaldistance/
@@ -14,7 +16,7 @@ Obtient ou définit la position verticale absolue de la table flottante spécifi
 public double AbsoluteVerticalDistance { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment définir l'emplacement des tables flottantes.
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Table.ChangeFloatingTableProperties.docx");
 ### Voir également
 
 * class [Table](../)
-* espace de noms [Aspose.Words.Tables](../../table/)
+* espace de noms [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../../)
-
-

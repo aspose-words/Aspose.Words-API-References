@@ -1,7 +1,9 @@
 ---
 title: ControlChar.FieldSeparatorChar
-second_title: Aspose.Words for .NET API Referansı
-description: ControlChar alan. Alan ayırıcı karakteri alan kodunu alan değerinden ayırır. Bazı alanlarda isteğe bağlıdır. Değer char20.
+linktitle: FieldSeparatorChar
+articleTitle: FieldSeparatorChar
+second_title: Aspose.Words for .NET
+description: ControlChar FieldSeparatorChar alan. Alan ayırıcı karakteri alan kodunu alan değerinden ayırır. Bazı alanlarda isteğe bağlıdır. Değer char20 C#'da.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/controlchar/fieldseparatorchar/
@@ -14,7 +16,7 @@ Alan ayırıcı karakteri, alan kodunu alan değerinden ayırır. Bazı alanlard
 public const char FieldSeparatorChar;
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye çeşitli kontrol karakterlerinin nasıl ekleneceğini gösterir.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ayrıca bakınız
 
 * class [ControlChar](../)
-* ad alanı [Aspose.Words](../../controlchar/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

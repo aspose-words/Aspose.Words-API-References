@@ -1,7 +1,9 @@
 ---
 title: Field.IsLocked
-second_title: Aspose.Words per .NET API Reference
-description: Field proprietà. Ottiene o imposta se il campo è bloccato non deve ricalcolare il risultato.
+linktitle: IsLocked
+articleTitle: IsLocked
+second_title: Aspose.Words per .NET
+description: Field IsLocked proprietà. Ottiene o imposta se il campo è bloccato non deve ricalcolare il risultato in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/field/islocked/
@@ -14,7 +16,7 @@ Ottiene o imposta se il campo è bloccato (non deve ricalcolare il risultato).
 public bool IsLocked { get; set; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come lavorare con un nodo FieldStart.
 
@@ -45,7 +47,5 @@ field.Update();
 ### Guarda anche
 
 * class [Field](../)
-* spazio dei nomi [Aspose.Words.Fields](../../field/)
+* spazio dei nomi [Aspose.Words.Fields](../../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../../)
-
-

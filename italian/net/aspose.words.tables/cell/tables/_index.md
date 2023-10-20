@@ -1,7 +1,9 @@
 ---
 title: Cell.Tables
-second_title: Aspose.Words per .NET API Reference
-description: Cell proprietà. Ottiene una raccolta di tabelle che sono figli immediati della cella.
+linktitle: Tables
+articleTitle: Tables
+second_title: Aspose.Words per .NET
+description: Cell Tables proprietà. Ottiene una raccolta di tabelle che sono figli immediati della cella in C#.
 type: docs
 weight: 120
 url: /it/net/aspose.words.tables/cell/tables/
@@ -14,7 +16,7 @@ Ottiene una raccolta di tabelle che sono figli immediati della cella.
 public TableCollection Tables { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come scoprire se le tabelle sono nidificate.
 
@@ -93,7 +95,5 @@ private static int GetChildTableCount(Table table)
 
 * class [TableCollection](../../tablecollection/)
 * class [Cell](../)
-* spazio dei nomi [Aspose.Words.Tables](../../cell/)
+* spazio dei nomi [Aspose.Words.Tables](../../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../../)
-
-

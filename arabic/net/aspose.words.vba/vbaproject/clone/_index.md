@@ -1,7 +1,9 @@
 ---
 title: VbaProject.Clone
-second_title: Aspose.Words لمراجع .NET API
-description: VbaProject طريقة. ينفذ نسخة منVbaProject .
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words لـ .NET
+description: VbaProject Clone طريقة. ينفذ نسخة منVbaProject  في C#.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.vba/vbaproject/clone/
@@ -18,7 +20,7 @@ public VbaProject Clone()
 
 المستنسخة[`VbaProject`](../).
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الاستنساخ العميق لمشروع ووحدة VBA.
 
@@ -42,7 +44,5 @@ destDoc.Save(ArtifactsDir + "VbaProject.CloneVbaProject.docm");
 ### أنظر أيضا
 
 * class [VbaProject](../)
-* مساحة الاسم [Aspose.Words.Vba](../../vbaproject/)
+* مساحة الاسم [Aspose.Words.Vba](../../../aspose.words.vba/)
 * المجسم [Aspose.Words](../../../)
-
-

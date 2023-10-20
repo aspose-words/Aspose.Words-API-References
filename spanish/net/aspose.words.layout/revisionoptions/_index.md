@@ -1,7 +1,9 @@
 ---
-title: Class RevisionOptions
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Layout.RevisionOptions clase. Permite controlar cómo se manejan las revisiones de documentos durante el proceso de diseño.
+title: RevisionOptions Class
+linktitle: RevisionOptions
+articleTitle: RevisionOptions
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Layout.RevisionOptions clase. Permite controlar cómo se manejan las revisiones de documentos durante el proceso de diseño en C#.
 type: docs
 weight: 3390
 url: /es/net/aspose.words.layout/revisionoptions/
@@ -40,7 +42,7 @@ public class RevisionOptions
 | [ShowRevisionBars](../../aspose.words.layout/revisionoptions/showrevisionbars/) { get; set; } | Permite especificar si las barras de revisión deben representarse cerca de las líneas que contienen contenido revisado. El valor predeterminado es`verdadero` . |
 | [ShowRevisionMarks](../../aspose.words.layout/revisionoptions/showrevisionmarks/) { get; set; } | Permite especificar si el texto de revisión debe marcarse con un formato especial. El valor predeterminado es`verdadero` . |
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo alterar la apariencia de las revisiones en un documento de salida renderizado.
 
@@ -66,5 +68,3 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 * espacio de nombres [Aspose.Words.Layout](../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../)
-
-

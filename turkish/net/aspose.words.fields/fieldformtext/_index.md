@@ -1,7 +1,9 @@
 ---
-title: Class FieldFormText
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldFormText sınıf. FORMTEXT alanını uygular.
+title: FieldFormText Class
+linktitle: FieldFormText
+articleTitle: FieldFormText
+second_title: Aspose.Words for .NET
+description: Aspose.Words.Fields.FieldFormText sınıf. FORMTEXT alanını uygular C#'da.
 type: docs
 weight: 1930
 url: /tr/net/aspose.words.fields/fieldformtext/
@@ -42,17 +44,17 @@ public class FieldFormText : Field
 | İsim | Tanım |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
 | [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
 | [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
-### Notlar
+## Notlar
 
 Metin kutusu stilinde bir form alanı ekler.
 
-### Örnekler
+## Örnekler
 
 FORMCHECKBOX, FORMDROPDOWN ve FORMTEXT alanlarının nasıl işleneceğini gösterir.
 
@@ -76,5 +78,3 @@ Assert.AreEqual(" FORMTEXT \u0001", fieldFormText.GetFieldCode());
 * class [Field](../field/)
 * ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
-
-

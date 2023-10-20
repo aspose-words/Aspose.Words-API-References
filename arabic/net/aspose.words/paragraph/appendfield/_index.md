@@ -1,12 +1,14 @@
 ---
 title: Paragraph.AppendField
-second_title: Aspose.Words لمراجع .NET API
-description: Paragraph طريقة. إلحاق حقل بهذه الفقرة.
+linktitle: AppendField
+articleTitle: AppendField
+second_title: Aspose.Words لـ .NET
+description: Paragraph AppendField طريقة. إلحاق حقل بهذه الفقرة في C#.
 type: docs
-weight: 260
+weight: 240
 url: /ar/net/aspose.words/paragraph/appendfield/
 ---
-## AppendField(FieldType, bool) {#appendfield}
+## AppendField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#appendfield}
 
 إلحاق حقل بهذه الفقرة.
 
@@ -23,7 +25,7 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 أ[`Field`](../../../aspose.words.fields/field/) كائن يمثل الحقل الملحق.
 
-### أمثلة
+## أمثلة
 
 يعرض طرقًا مختلفة لإلحاق الحقول بالفقرة.
 
@@ -56,12 +58,12 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 * class [Field](../../../aspose.words.fields/field/)
 * enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## AppendField(string) {#appendfield_1}
+## AppendField(*string*) {#appendfield_1}
 
 إلحاق حقل بهذه الفقرة.
 
@@ -77,7 +79,7 @@ public Field AppendField(string fieldCode)
 
 أ[`Field`](../../../aspose.words.fields/field/) كائن يمثل الحقل الملحق.
 
-### أمثلة
+## أمثلة
 
 يعرض طرقًا مختلفة لإلحاق الحقول بالفقرة.
 
@@ -109,12 +111,12 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
-## AppendField(string, string) {#appendfield_2}
+## AppendField(*string, string*) {#appendfield_2}
 
 إلحاق حقل بهذه الفقرة.
 
@@ -131,7 +133,7 @@ public Field AppendField(string fieldCode, string fieldValue)
 
 أ[`Field`](../../../aspose.words.fields/field/) كائن يمثل الحقل الملحق.
 
-### أمثلة
+## أمثلة
 
 يعرض طرقًا مختلفة لإلحاق الحقول بالفقرة.
 
@@ -163,7 +165,5 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 * class [Field](../../../aspose.words.fields/field/)
 * class [Paragraph](../)
-* مساحة الاسم [Aspose.Words](../../paragraph/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

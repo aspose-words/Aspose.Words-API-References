@@ -1,7 +1,9 @@
 ---
 title: MailMerge.MailMergeCallback
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge fast egendom. Tillåter att hantera särskilda händelser under sammanslagningen.
+linktitle: MailMergeCallback
+articleTitle: MailMergeCallback
+second_title: Aspose.Words för .NET
+description: MailMerge MailMergeCallback fast egendom. Tillåter att hantera särskilda händelser under sammanslagningen i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.mailmerging/mailmerge/mailmergecallback/
@@ -14,7 +16,7 @@ Tillåter att hantera särskilda händelser under sammanslagningen.
 public IMailMergeCallback MailMergeCallback { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för hantering av händelser under sammanslagning.
 
@@ -66,7 +68,5 @@ private class MailMergeTagReplacementCounter : IMailMergeCallback
 
 * interface [IMailMergeCallback](../../imailmergecallback/)
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

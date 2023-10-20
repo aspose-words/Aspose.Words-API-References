@@ -1,7 +1,9 @@
 ---
 title: EditableRange.SingleUser
-second_title: Aspose.Words for .NET API 参考
-description: EditableRange 财产. 返回或设置可编辑范围的单个用户
+linktitle: SingleUser
+articleTitle: SingleUser
+second_title: 用于 .NET 的 Aspose.Words
+description: EditableRange SingleUser 财产. 返回或设置可编辑范围的单个用户 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/editablerange/singleuser/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/editablerange/singleuser/
 public string SingleUser { get; set; }
 ```
 
-### 评论
+## 评论
 
 该编辑器可以以下列形式之一存储：
 
@@ -26,7 +28,7 @@ user - 对于其访问应使用当前用户的计算机凭据进行身份验证�
 
 对于具体的可编辑范围，单个用户和编辑者组不能同时设置， 如果其中一个设置了，另一个就会被清除。
 
-### 例子
+## 例子
 
 展示如何将可编辑范围的编辑权限限制为特定组/用户。
 
@@ -137,7 +139,5 @@ public class EditableRangePrinter : DocumentVisitor
 ### 也可以看看
 
 * class [EditableRange](../)
-* 命名空间 [Aspose.Words](../../editablerange/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

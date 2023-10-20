@@ -1,7 +1,9 @@
 ---
 title: Odso.TableName
-second_title: Aspose.Words لمراجع .NET API
-description: Odso ملكية. يحدد مجموعة البيانات المحددة التي يجب أن يتصل بها المصدر داخل مصدر بيانات خارجي. القيمة الافتراضية هي سلسلة فارغة.
+linktitle: TableName
+articleTitle: TableName
+second_title: Aspose.Words لـ .NET
+description: Odso TableName ملكية. يحدد مجموعة البيانات المحددة التي يجب أن يتصل بها المصدر داخل مصدر بيانات خارجي. القيمة الافتراضية هي سلسلة فارغة في C#.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.settings/odso/tablename/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odso/tablename/
 public string TableName { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تنفيذ عملية دمج البريد أثناء الاتصال بمصدر بيانات خارجي.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");
 ### أنظر أيضا
 
 * class [Odso](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odso/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

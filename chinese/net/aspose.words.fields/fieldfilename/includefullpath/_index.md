@@ -1,7 +1,9 @@
 ---
 title: FieldFileName.IncludeFullPath
-second_title: Aspose.Words for .NET API 参考
-description: FieldFileName 财产. 获取或设置是否包含完整文件路径名
+linktitle: IncludeFullPath
+articleTitle: IncludeFullPath
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldFileName IncludeFullPath 财产. 获取或设置是否包含完整文件路径名 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldfilename/includefullpath/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldfilename/includefullpath/
 public bool IncludeFullPath { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用 FieldOptions 覆盖 FILENAME 字段的默认值。
 
@@ -57,7 +59,5 @@ doc.Save(ArtifactsDir + doc.FieldOptions.FileName);
 ### 也可以看看
 
 * class [FieldFileName](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldfilename/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

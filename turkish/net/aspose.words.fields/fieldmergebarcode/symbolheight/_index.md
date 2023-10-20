@@ -1,7 +1,9 @@
 ---
 title: FieldMergeBarcode.SymbolHeight
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergeBarcode mülk. Sembolün yüksekliğini alır veya ayarlar. Birimler TWIPS 1/1440 inç cinsindendir.
+linktitle: SymbolHeight
+articleTitle: SymbolHeight
+second_title: Aspose.Words for .NET
+description: FieldMergeBarcode SymbolHeight mülk. Sembolün yüksekliğini alır veya ayarlar. Birimler TWIPS 1/1440 inç cinsindendir C#'da.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.fields/fieldmergebarcode/symbolheight/
@@ -14,7 +16,7 @@ Sembolün yüksekliğini alır veya ayarlar. Birimler TWIPS (1/1440 inç) cinsin
 public string SymbolHeight { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 QR barkodlarında adres-mektup birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ### Ayrıca bakınız
 
 * class [FieldMergeBarcode](../)
-* ad alanı [Aspose.Words.Fields](../../fieldmergebarcode/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

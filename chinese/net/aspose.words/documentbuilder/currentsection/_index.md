@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.CurrentSection
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 财产. 获取当前在此选择的部分DocumentBuilder.
+linktitle: CurrentSection
+articleTitle: CurrentSection
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder CurrentSection 财产. 获取当前在此选择的部分DocumentBuilder 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/documentbuilder/currentsection/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbuilder/currentsection/
 public Section CurrentSection { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何插入浮动图像，并指定其位置和大小。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 
 * class [Section](../../section/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

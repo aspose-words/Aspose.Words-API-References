@@ -1,7 +1,9 @@
 ---
 title: Document.MailMergeSettings
-second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает или задает объект содержащий всю информацию о слиянии почты для документа.
+linktitle: MailMergeSettings
+articleTitle: MailMergeSettings
+second_title: Aspose.Words для .NET
+description: Document MailMergeSettings свойство. Получает или задает объект содержащий всю информацию о слиянии почты для документа на С#.
 type: docs
 weight: 270
 url: /ru/net/aspose.words/document/mailmergesettings/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/document/mailmergesettings/
 public MailMergeSettings MailMergeSettings { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Вы можете использовать этот объект, чтобы указать источник данных слияния почты для документа, и эта информация (вместе с доступными полями данных) появится в Microsoft Word, когда пользователь откроет этот документ. Или вы можете использовать этот объект для запроса настроек слияния почты который пользователь указал в Microsoft Word для этого документа.
 
 Этот объект никогда не`нулевой`.
 
-### Примеры
+## Примеры
 
 Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 * class [MailMergeSettings](../../../aspose.words.settings/mailmergesettings/)
 * class [Document](../)
-* пространство имен [Aspose.Words](../../document/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class FieldFileSize
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Fields.FieldFileSize klass. Implementerar fältet FILESIZE.
+title: FieldFileSize Class
+linktitle: FieldFileSize
+articleTitle: FieldFileSize
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Fields.FieldFileSize klass. Implementerar fältet FILESIZE i C#.
 type: docs
 weight: 1880
 url: /sv/net/aspose.words.fields/fieldfilesize/
@@ -44,19 +46,19 @@ public class FieldFileSize : Field
 | namn | Beskrivning |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
-### Anmärkningar
+## Anmärkningar
 
 Hämtar storleken på det aktuella dokumentets fil eller 0 om storleken inte kan bestämmas.
 
 I den nuvarande implementeringen, använder[`OriginalFileName`](../../aspose.words/document/originalfilename/) egenskapen för att hämta filnamnet som används för att bestämma filstorleken.
 
-### Exempel
+## Exempel
 
 Visar hur man visar filstorleken för ett dokument med ett FILESIZE-fält.
 
@@ -106,5 +108,3 @@ doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 * class [Field](../field/)
 * namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
-
-

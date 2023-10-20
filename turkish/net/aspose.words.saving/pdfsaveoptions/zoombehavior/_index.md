@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.ZoomBehavior
-second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Bir belge PDF görüntüleyiciyle açıldığında ne tür yakınlaştırmanın uygulanması gerektiğini belirleyen bir değer alır veya ayarlar.
+linktitle: ZoomBehavior
+articleTitle: ZoomBehavior
+second_title: Aspose.Words for .NET
+description: PdfSaveOptions ZoomBehavior mülk. Bir belge PDF görüntüleyiciyle açıldığında ne tür yakınlaştırmanın uygulanması gerektiğini belirleyen bir değer alır veya ayarlar C#'da.
 type: docs
 weight: 320
 url: /tr/net/aspose.words.saving/pdfsaveoptions/zoombehavior/
@@ -14,11 +16,11 @@ Bir belge PDF görüntüleyiciyle açıldığında ne tür yakınlaştırmanın 
 public PdfZoomBehavior ZoomBehavior { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:None , yani hiçbir uyum uygulanmadı.
 
-### Örnekler
+## Örnekler
 
 Okuyucunun işlenmiş bir PDF belgesini açarken uyguladığı varsayılan yakınlaştırmanın nasıl ayarlanacağını gösterir.
 
@@ -46,7 +48,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
 
 * enum [PdfZoomBehavior](../../pdfzoombehavior/)
 * class [PdfSaveOptions](../)
-* ad alanı [Aspose.Words.Saving](../../pdfsaveoptions/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

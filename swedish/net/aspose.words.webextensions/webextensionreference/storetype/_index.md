@@ -1,7 +1,9 @@
 ---
 title: WebExtensionReference.StoreType
-second_title: Aspose.Words för .NET API Referens
-description: WebExtensionReference fast egendom. Anger typen av marknadsplats.
+linktitle: StoreType
+articleTitle: StoreType
+second_title: Aspose.Words för .NET
+description: WebExtensionReference StoreType fast egendom. Anger typen av marknadsplats i C#.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.webextensions/webextensionreference/storetype/
@@ -14,7 +16,7 @@ Anger typen av marknadsplats.
 public WebExtensionStoreType StoreType { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till ett webbtillägg till ett dokument.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 
 * enum [WebExtensionStoreType](../../webextensionstoretype/)
 * class [WebExtensionReference](../)
-* namnutrymme [Aspose.Words.WebExtensions](../../webextensionreference/)
+* namnutrymme [Aspose.Words.WebExtensions](../../../aspose.words.webextensions/)
 * hopsättning [Aspose.Words](../../../)
-
-

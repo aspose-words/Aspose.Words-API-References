@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Type
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoFieldMapData propriété. Spécifie si un champ de publipostage donné a été mappé à une colonne dans la source de données externe donnée ou non. La valeur par défaut estDefault .
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words pour .NET
+description: OdsoFieldMapData Type propriété. Spécifie si un champ de publipostage donné a été mappé à une colonne dans la source de données externe donnée ou non. La valeur par défaut estDefault  en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.settings/odsofieldmapdata/type/
@@ -14,7 +16,7 @@ Spécifie si un champ de publipostage donné a été mappé à une colonne dans 
 public OdsoFieldMappingType Type { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment accéder à la collection de données qui mappe les colonnes de la source de données aux champs de fusion.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(0, dataCollection.Count);
 
 * enum [OdsoFieldMappingType](../../odsofieldmappingtype/)
 * class [OdsoFieldMapData](../)
-* espace de noms [Aspose.Words.Settings](../../odsofieldmapdata/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

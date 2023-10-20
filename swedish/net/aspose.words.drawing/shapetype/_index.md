@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeType
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.ShapeType uppräkning. Anger typen av form i ett Microsoft Worddokument.
+title: ShapeType Enum
+linktitle: ShapeType
+articleTitle: ShapeType
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.ShapeType uppräkning. Anger typen av form i ett Microsoft Worddokument i C#.
 type: docs
 weight: 1290
 url: /sv/net/aspose.words.drawing/shapetype/
@@ -269,7 +271,7 @@ public enum ShapeType
 | ChartX | `246` | Diagram X. |
 | MinValue | `-2` | Reserverad för systemanvändning. |
 
-### Exempel
+## Exempel
 
 Visar hur man infogar en form med en bild från det lokala filsystemet i ett dokument.
 
@@ -328,5 +330,3 @@ foreach (Shape shape in shapes)
 * property [ShapeType](../shapebase/shapetype/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

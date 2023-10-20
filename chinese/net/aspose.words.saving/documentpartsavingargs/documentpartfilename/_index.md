@@ -1,7 +1,9 @@
 ---
 title: DocumentPartSavingArgs.DocumentPartFileName
-second_title: Aspose.Words for .NET API 参考
-description: DocumentPartSavingArgs 财产. 获取或设置文档部分将保存到的文件名不带路径
+linktitle: DocumentPartFileName
+articleTitle: DocumentPartFileName
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentPartSavingArgs DocumentPartFileName 财产. 获取或设置文档部分将保存到的文件名不带路径 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/documentpartsavingargs/documentpartfilename/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/documentpartsavingargs/documentpartfilename/
 public string DocumentPartFileName { get; set; }
 ```
 
-### 评论
+## 评论
 
 此属性允许您重新定义在导出为 HTML 或 EPUB 期间如何生成文档部分文件名 。
 
@@ -22,7 +24,7 @@ public string DocumentPartFileName { get; set; }
 
 `DocumentPartFileName`必须仅包含文件名，不包含路径。 Aspose.Words 使用文档文件名确定保存路径。如果未指定输出文档 文件名，例如保存到流时，则此文件名仅用于 引用文档部分。保存为 EPUB 格式时也是如此。
 
-### 例子
+## 例子
 
 演示如何将文档拆分为多个部分并保存它们。
 
@@ -139,7 +141,5 @@ public class SavedImageRename : IImageSavingCallback
 ### 也可以看看
 
 * class [DocumentPartSavingArgs](../)
-* 命名空间 [Aspose.Words.Saving](../../documentpartsavingargs/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

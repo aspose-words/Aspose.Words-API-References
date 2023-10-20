@@ -1,7 +1,9 @@
 ---
 title: ListLevel.Font
-second_title: Aspose.Words per .NET API Reference
-description: ListLevel proprietà. Specifica la formattazione dei caratteri utilizzata per letichetta dellelenco.
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words per .NET
+description: ListLevel Font proprietà. Specifica la formattazione dei caratteri utilizzata per letichetta dellelenco in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words.lists/listlevel/font/
@@ -14,7 +16,7 @@ Specifica la formattazione dei caratteri utilizzata per l'etichetta dell'elenco.
 public Font Font { get; }
 ```
 
-### Esempi
+## Esempi
 
 Mostra come applicare la formattazione dell'elenco personalizzato ai paragrafi quando si utilizza DocumentBuilder.
 
@@ -74,7 +76,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * class [Font](../../../aspose.words/font/)
 * class [ListLevel](../)
-* spazio dei nomi [Aspose.Words.Lists](../../listlevel/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

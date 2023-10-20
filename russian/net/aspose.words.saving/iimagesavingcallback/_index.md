@@ -1,7 +1,9 @@
 ---
-title: Interface IImageSavingCallback
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.IImageSavingCallback интерфейс. Реализуйте этот интерфейс если хотите контролировать как Aspose.Words сохраняет изображения при сохранении документа в HTML. Может использоваться другими форматами.
+title: IImageSavingCallback Interface
+linktitle: IImageSavingCallback
+articleTitle: IImageSavingCallback
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.IImageSavingCallback интерфейс. Реализуйте этот интерфейс если хотите контролировать как Aspose.Words сохраняет изображения при сохранении документа в HTML. Может использоваться другими форматами на С#.
 type: docs
 weight: 5170
 url: /ru/net/aspose.words.saving/iimagesavingcallback/
@@ -18,9 +20,9 @@ public interface IImageSavingCallback
 
 | Имя | Описание |
 | --- | --- |
-| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(ImageSavingArgs) | Вызывается, когда Aspose.Words сохраняет изображение в HTML. |
+| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(*[ImageSavingArgs](../imagesavingargs/)*) | Вызывается, когда Aspose.Words сохраняет изображение в HTML. |
 
-### Примеры
+## Примеры
 
 Показывает, как переименовать имя изображения во время сохранения в документ Markdown.
 
@@ -192,5 +194,3 @@ public class SavedImageRename : IImageSavingCallback
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

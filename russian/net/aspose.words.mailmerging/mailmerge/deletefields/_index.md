@@ -1,7 +1,9 @@
 ---
 title: MailMerge.DeleteFields
-second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge метод. Удаляет из документа поля связанные со слиянием почты.
+linktitle: DeleteFields
+articleTitle: DeleteFields
+second_title: Aspose.Words для .NET
+description: MailMerge DeleteFields метод. Удаляет из документа поля связанные со слиянием почты на С#.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.mailmerging/mailmerge/deletefields/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.mailmerging/mailmerge/deletefields/
 public void DeleteFields()
 ```
 
-### Примечания
+## Примечания
 
 Этот метод удаляет из документа поля MERGEFIELD и NEXT.
 
 Этот метод может быть полезен, если вашей операции слияния почты не всегда требуется для заполнения всех полей в документе. Используйте этот метод, чтобы удалить все поля слияния оставшейся почты .
 
-### Примеры
+## Примеры
 
 Показывает, как удалить все поля MERGEFIELD из документа.
 
@@ -47,7 +49,5 @@ Assert.AreEqual("Dear  ,\rGreetings!", doc.GetText().Trim());
 ### Смотрите также
 
 * class [MailMerge](../)
-* пространство имен [Aspose.Words.MailMerging](../../mailmerge/)
+* пространство имен [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../../)
-
-

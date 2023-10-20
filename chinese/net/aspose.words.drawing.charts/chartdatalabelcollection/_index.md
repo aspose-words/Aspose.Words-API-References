@@ -1,7 +1,9 @@
 ---
-title: Class ChartDataLabelCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection 班级. 代表集合ChartDataLabel.
+title: ChartDataLabelCollection Class
+linktitle: ChartDataLabelCollection
+articleTitle: ChartDataLabelCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection 班级. 代表集合ChartDataLabel 在 C#.
 type: docs
 weight: 680
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/
@@ -42,7 +44,7 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat/)() | 清除所有格式[`ChartDataLabel`](../chartdatalabel/)在这个集合中. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/)() | 返回一个枚举器对象。 |
 
-### 例子
+## 例子
 
 展示如何将标签应用到折线图中的数据点。
 
@@ -122,5 +124,3 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 * class [ChartDataLabel](../chartdatalabel/)
 * 命名空间 [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * 部件 [Aspose.Words](../../)
-
-

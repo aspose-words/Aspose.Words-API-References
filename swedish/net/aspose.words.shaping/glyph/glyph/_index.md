@@ -1,7 +1,9 @@
 ---
-title: Glyph.Glyph
-second_title: Aspose.Words för .NET API Referens
-description: Glyph byggare. Initierar ny instans av denna klass.
+title: Glyph
+linktitle: Glyph
+articleTitle: Glyph
+second_title: Aspose.Words för .NET
+description: Glyph byggare. Initierar ny instans av denna klass i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.shaping/glyph/glyph/
@@ -24,7 +26,5 @@ public Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderO
 ### Se även
 
 * class [Glyph](../)
-* namnutrymme [Aspose.Words.Shaping](../../glyph/)
+* namnutrymme [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * hopsättning [Aspose.Words](../../../)
-
-

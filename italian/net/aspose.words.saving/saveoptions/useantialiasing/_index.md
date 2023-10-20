@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UseAntiAliasing
-second_title: Aspose.Words per .NET API Reference
-description: SaveOptions proprietà. Ottiene o imposta un valore che determina se utilizzare o meno lantialiasing per il rendering.
+linktitle: UseAntiAliasing
+articleTitle: UseAntiAliasing
+second_title: Aspose.Words per .NET
+description: SaveOptions UseAntiAliasing proprietà. Ottiene o imposta un valore che determina se utilizzare o meno lantialiasing per il rendering in C#.
 type: docs
 weight: 190
 url: /it/net/aspose.words.saving/saveoptions/useantialiasing/
@@ -14,13 +16,13 @@ Ottiene o imposta un valore che determina se utilizzare o meno l'antialiasing pe
 public bool UseAntiAliasing { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Il valore predefinito è`falso` . Quando questo valore è impostato su`VERO` l'antialiasing is utilizzato per il rendering.
 
 Questa proprietà viene utilizzata quando il documento viene esportato nei seguenti formati: Tiff ,Png ,Bmp , Jpeg ,Emf . Quando il documento viene esportato in Html ,Mhtml , Epub ,Azw3 oMobi formati questa opzione viene utilizzata per le immagini raster.
 
-### Esempi
+## Esempi
 
 Mostra come migliorare la qualità di un documento sottoposto a rendering con SaveOptions.
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Document.ImageSaveOptions.HighQuality.jpg", options);
 ### Guarda anche
 
 * class [SaveOptions](../)
-* spazio dei nomi [Aspose.Words.Saving](../../saveoptions/)
+* spazio dei nomi [Aspose.Words.Saving](../../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../../)
-
-

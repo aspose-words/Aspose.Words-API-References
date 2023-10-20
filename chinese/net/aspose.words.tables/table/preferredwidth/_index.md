@@ -1,7 +1,9 @@
 ---
 title: Table.PreferredWidth
-second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取或设置表格首选宽度
+linktitle: PreferredWidth
+articleTitle: PreferredWidth
+second_title: 用于 .NET 的 Aspose.Words
+description: Table PreferredWidth 财产. 获取或设置表格首选宽度 在 C#.
 type: docs
 weight: 220
 url: /zh/net/aspose.words.tables/table/preferredwidth/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words.tables/table/preferredwidth/
 public PreferredWidth PreferredWidth { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为[`Auto`](../../preferredwidth/auto/)。
 
-### 例子
+## 例子
 
 演示如何将表格设置为自动适合页面宽度的 50%。
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithPreferredWidth.docx");
 
 * class [PreferredWidth](../../preferredwidth/)
 * class [Table](../)
-* 命名空间 [Aspose.Words.Tables](../../table/)
+* 命名空间 [Aspose.Words.Tables](../../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../../)
-
-

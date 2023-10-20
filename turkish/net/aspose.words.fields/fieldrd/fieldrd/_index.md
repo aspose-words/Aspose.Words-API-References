@@ -1,7 +1,9 @@
 ---
-title: FieldRD.FieldRD
-second_title: Aspose.Words for .NET API Referansı
-description: FieldRD inşaatçı. Default_Constructor
+title: FieldRD
+linktitle: FieldRD
+articleTitle: FieldRD
+second_title: Aspose.Words for .NET
+description: FieldRD inşaatçı. Default_Constructor C#'da.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldrd/fieldrd/
@@ -17,7 +19,5 @@ public FieldRD()
 ### Ayrıca bakınız
 
 * class [FieldRD](../)
-* ad alanı [Aspose.Words.Fields](../../fieldrd/)
+* ad alanı [Aspose.Words.Fields](../../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../../)
-
-

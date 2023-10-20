@@ -1,7 +1,9 @@
 ---
-title: Enum GeneralFormat
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.GeneralFormat 枚举. 指定应用于数字文本或任何字段结果的通用格式 字段可以具有通用格式的组合
+title: GeneralFormat Enum
+linktitle: GeneralFormat
+articleTitle: GeneralFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Fields.GeneralFormat 枚举. 指定应用于数字文本或任何字段结果的通用格式 字段可以具有通用格式的组合 在 C#.
 type: docs
 weight: 2640
 url: /zh/net/aspose.words.fields/generalformat/
@@ -75,7 +77,7 @@ public enum GeneralFormat
 | MergeFormat | `54` | 字段结果格式。 MERGEFORMAT 指令. |
 | MergeFormatInet | `55` | 字段结果格式。 MERGEFORMATINET 指令。 |
 
-### 例子
+## 例子
 
 展示如何设置字段结果的格式。
 
@@ -140,5 +142,3 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 * 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
-
-

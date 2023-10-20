@@ -1,7 +1,9 @@
 ---
 title: Comment.Id
-second_title: Aspose.Words för .NET API Referens
-description: Comment fast egendom. Hämtar kommentarsidentifieraren.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words för .NET
+description: Comment Id fast egendom. Hämtar kommentarsidentifieraren i C#.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/comment/id/
@@ -11,10 +13,10 @@ url: /sv/net/aspose.words/comment/id/
 Hämtar kommentarsidentifieraren.
 
 ```csharp
-public int Id { get; set; }
+public int Id { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Kommentarsidentifieraren gör det möjligt att förankra en kommentar till en textregion i dokumentet. Regionen måste avgränsas med hjälp av[`CommentRangeStart`](../../commentrangestart/) och[`CommentRangeEnd`](../../commentrangeend/) objekt som delar samma identifieringsvärde som[`Comment`](../) objekt.
 
@@ -22,7 +24,7 @@ Du skulle använda detta värde när du letar efter[`CommentRangeStart`](../../c
 
 Kommentarsidentifierare ska vara unika i ett dokument och Aspose.Words underhåller automatiskt kommentarsidentifierare när du laddar, sparar och kombinerar dokument.
 
-### Exempel
+## Exempel
 
 Visar hur du skriver ut innehållet i alla kommentarer och deras kommentarintervall med hjälp av en dokumentbesökare.
 
@@ -183,7 +185,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Se även
 
 * class [Comment](../)
-* namnutrymme [Aspose.Words](../../comment/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

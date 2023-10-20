@@ -1,7 +1,9 @@
 ---
 title: RevisionOptions.CommentColor
-second_title: Aspose.Words per .NET API Reference
-description: RevisionOptions proprietà. Permette di specificare il colore da utilizzare per i commenti. Il valore predefinito èRed .
+linktitle: CommentColor
+articleTitle: CommentColor
+second_title: Aspose.Words per .NET
+description: RevisionOptions CommentColor proprietà. Permette di specificare il colore da utilizzare per i commenti. Il valore predefinito èRed  in C#.
 type: docs
 weight: 10
 url: /it/net/aspose.words.layout/revisionoptions/commentcolor/
@@ -14,11 +16,11 @@ Permette di specificare il colore da utilizzare per i commenti. Il valore predef
 public RevisionColor CommentColor { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Se imposta questa proprietà suByAuthor ONoHighlight valori, come risultato questa proprietà verrà impostata sul colore predefinito.
 
-### Esempi
+## Esempi
 
 Mostra come modificare l'aspetto delle revisioni.
 
@@ -70,7 +72,5 @@ doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 
 * enum [RevisionColor](../../revisioncolor/)
 * class [RevisionOptions](../)
-* spazio dei nomi [Aspose.Words.Layout](../../revisionoptions/)
+* spazio dei nomi [Aspose.Words.Layout](../../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../../)
-
-

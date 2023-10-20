@@ -1,7 +1,9 @@
 ---
-title: Glyph.Glyph
-second_title: Aspose.Words for .NET API 参考
-description: Glyph 构造函数. 初始化此类的新实例
+title: Glyph
+linktitle: Glyph
+articleTitle: Glyph
+second_title: 用于 .NET 的 Aspose.Words
+description: Glyph 构造函数. 初始化此类的新实例 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.shaping/glyph/glyph/
@@ -24,7 +26,5 @@ public Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderO
 ### 也可以看看
 
 * class [Glyph](../)
-* 命名空间 [Aspose.Words.Shaping](../../glyph/)
+* 命名空间 [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: ImageData.BiLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageData свойство. Определяет будет ли изображение отображаться в чернобелом режиме.
+linktitle: BiLevel
+articleTitle: BiLevel
+second_title: Aspose.Words для .NET
+description: ImageData BiLevel свойство. Определяет будет ли изображение отображаться в чернобелом режиме на С#.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/imagedata/bilevel/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.drawing/imagedata/bilevel/
 public bool BiLevel { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:`ЛОЖЬ`.
 
-### Примеры
+## Примеры
 
 Показывает, как редактировать данные изображения фигуры.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Смотрите также
 
 * class [ImageData](../)
-* пространство имен [Aspose.Words.Drawing](../../imagedata/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

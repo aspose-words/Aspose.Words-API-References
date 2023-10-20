@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MovePrevious
-second_title: Aspose.Words för .NET API Referens
-description: LayoutEnumerator metod. Flyttar till föregående syskonenhet.
+linktitle: MovePrevious
+articleTitle: MovePrevious
+second_title: Aspose.Words för .NET
+description: LayoutEnumerator MovePrevious metod. Flyttar till föregående syskonenhet i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.layout/layoutenumerator/moveprevious/
@@ -14,7 +16,7 @@ Flyttar till föregående syskonenhet.
 public bool MovePrevious()
 ```
 
-### Exempel
+## Exempel
 
 Visar sätt att gå igenom ett dokuments layoutenheter.
 
@@ -159,7 +161,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### Se även
 
 * class [LayoutEnumerator](../)
-* namnutrymme [Aspose.Words.Layout](../../layoutenumerator/)
+* namnutrymme [Aspose.Words.Layout](../../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../../)
-
-

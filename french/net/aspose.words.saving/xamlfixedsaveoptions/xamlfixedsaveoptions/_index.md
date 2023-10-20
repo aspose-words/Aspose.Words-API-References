@@ -1,7 +1,9 @@
 ---
-title: XamlFixedSaveOptions.XamlFixedSaveOptions
-second_title: Référence de l'API Aspose.Words pour .NET
-description: XamlFixedSaveOptions constructeur. Default_Constructor
+title: XamlFixedSaveOptions
+linktitle: XamlFixedSaveOptions
+articleTitle: XamlFixedSaveOptions
+second_title: Aspose.Words pour .NET
+description: XamlFixedSaveOptions constructeur. Default_Constructor en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/xamlfixedsaveoptions/xamlfixedsaveoptions/
@@ -17,7 +19,5 @@ public XamlFixedSaveOptions()
 ### Voir également
 
 * class [XamlFixedSaveOptions](../)
-* espace de noms [Aspose.Words.Saving](../../xamlfixedsaveoptions/)
+* espace de noms [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../../)
-
-

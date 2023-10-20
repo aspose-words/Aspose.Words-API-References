@@ -1,7 +1,9 @@
 ---
 title: ImageSize.WidthPixels
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSize eigendom. Ermittelt die Breite des Bildes in Pixel.
+linktitle: WidthPixels
+articleTitle: WidthPixels
+second_title: Aspose.Words für .NET
+description: ImageSize WidthPixels eigendom. Ermittelt die Breite des Bildes in Pixel in C#.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing/imagesize/widthpixels/
@@ -14,7 +16,7 @@ Ermittelt die Breite des Bildes in Pixel.
 public int WidthPixels { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Eigenschaften eines Bildes in einer Form gelesen werden.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "Drawing.ImageSize.docx");
 ### Siehe auch
 
 * class [ImageSize](../)
-* namensraum [Aspose.Words.Drawing](../../imagesize/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

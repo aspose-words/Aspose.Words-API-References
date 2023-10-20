@@ -1,7 +1,9 @@
 ---
 title: ListCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: ListCollection yöntem. Belgedeki listeleri numaralandıracak numaralandırıcı nesnesini alır.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: ListCollection GetEnumerator yöntem. Belgedeki listeleri numaralandıracak numaralandırıcı nesnesini alır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.lists/listcollection/getenumerator/
@@ -14,7 +16,7 @@ Belgedeki listeleri numaralandıracak numaralandırıcı nesnesini alır.
 public IEnumerator<List> GetEnumerator()
 ```
 
-### Örnekler
+## Örnekler
 
 Başka bir belgedeki tüm listelerin bir örneğini içeren bir belgenin nasıl oluşturulacağını gösterir.
 
@@ -54,7 +56,5 @@ private static void AddListSample(DocumentBuilder builder, List list)
 
 * class [List](../../list/)
 * class [ListCollection](../)
-* ad alanı [Aspose.Words.Lists](../../listcollection/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

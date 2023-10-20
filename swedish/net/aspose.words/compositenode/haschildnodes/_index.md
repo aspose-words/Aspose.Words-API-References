@@ -1,7 +1,9 @@
 ---
 title: CompositeNode.HasChildNodes
-second_title: Aspose.Words för .NET API Referens
-description: CompositeNode fast egendom. ReturnerarSann om denna nod har några undernoder.
+linktitle: HasChildNodes
+articleTitle: HasChildNodes
+second_title: Aspose.Words för .NET
+description: CompositeNode HasChildNodes fast egendom. ReturnerarSann om denna nod har några undernoder i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/compositenode/haschildnodes/
@@ -14,7 +16,7 @@ Returnerar`Sann` om denna nod har några undernoder.
 public bool HasChildNodes { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kombinerar raderna från två tabeller till en.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ### Se även
 
 * class [CompositeNode](../)
-* namnutrymme [Aspose.Words](../../compositenode/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

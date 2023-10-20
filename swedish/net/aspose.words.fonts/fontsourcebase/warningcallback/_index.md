@@ -1,7 +1,9 @@
 ---
 title: FontSourceBase.WarningCallback
-second_title: Aspose.Words för .NET API Referens
-description: FontSourceBase fast egendom. Anropas under bearbetning av teckensnittskällan när ett problem upptäcks som kan resultera i förlust av formatering.
+linktitle: WarningCallback
+articleTitle: WarningCallback
+second_title: Aspose.Words för .NET
+description: FontSourceBase WarningCallback fast egendom. Anropas under bearbetning av teckensnittskällan när ett problem upptäcks som kan resultera i förlust av formatering i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/fontsourcebase/warningcallback/
@@ -14,7 +16,7 @@ Anropas under bearbetning av teckensnittskällan när ett problem upptäcks som 
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ringer upp varningsåteruppringning när teckensnittskällorna arbetar med.
 
@@ -53,7 +55,5 @@ private class FontSourceWarningCollector : IWarningCallback
 
 * interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * class [FontSourceBase](../)
-* namnutrymme [Aspose.Words.Fonts](../../fontsourcebase/)
+* namnutrymme [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../../)
-
-

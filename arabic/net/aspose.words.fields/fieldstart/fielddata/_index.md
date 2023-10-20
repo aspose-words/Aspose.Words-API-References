@@ -1,7 +1,9 @@
 ---
 title: FieldStart.FieldData
-second_title: Aspose.Words لمراجع .NET API
-description: FieldStart ملكية. يحصل على بيانات الحقل المخصصة المرتبطة بالحقل.
+linktitle: FieldData
+articleTitle: FieldData
+second_title: Aspose.Words لـ .NET
+description: FieldStart FieldData ملكية. يحصل على بيانات الحقل المخصصة المرتبطة بالحقل في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldstart/fielddata/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldstart/fielddata/
 public byte[] FieldData { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الحصول على البيانات المرتبطة بالحقل.
 
@@ -28,7 +30,5 @@ Console.WriteLine(Encoding.Default.GetString(field.Start.FieldData));
 ### أنظر أيضا
 
 * class [FieldStart](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldstart/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

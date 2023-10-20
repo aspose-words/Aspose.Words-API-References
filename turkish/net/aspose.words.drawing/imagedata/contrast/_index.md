@@ -1,7 +1,9 @@
 ---
 title: ImageData.Contrast
-second_title: Aspose.Words for .NET API Referansı
-description: ImageData mülk. Belirtilen resmin kontrastını alır veya ayarlar. Bu özellik için value  00 en az kontrast ila 10 en büyük kontrast arasında bir sayı olmalıdır.
+linktitle: Contrast
+articleTitle: Contrast
+second_title: Aspose.Words for .NET
+description: ImageData Contrast mülk. Belirtilen resmin kontrastını alır veya ayarlar. Bu özellik için value  00 en az kontrast ila 10 en büyük kontrast arasında bir sayı olmalıdır C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing/imagedata/contrast/
@@ -14,11 +16,11 @@ Belirtilen resmin kontrastını alır veya ayarlar. Bu özellik için value , 0,
 public double Contrast { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer 0,5'tir.
 
-### Örnekler
+## Örnekler
 
 Bir şeklin görüntü verilerinin nasıl düzenleneceğini gösterir.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Ayrıca bakınız
 
 * class [ImageData](../)
-* ad alanı [Aspose.Words.Drawing](../../imagedata/)
+* ad alanı [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: LayoutEnumerator.MoveParent
-second_title: Aspose.Words for .NET API 参考
-description: LayoutEnumerator 方法. 移动到父实体
+linktitle: MoveParent
+articleTitle: MoveParent
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutEnumerator MoveParent 方法. 移动到父实体 在 C#.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.layout/layoutenumerator/moveparent/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/layoutenumerator/moveparent/
 public bool MoveParent()
 ```
 
-### 例子
+## 例子
 
 显示遍历文档布局实体的方法。
 
@@ -159,12 +161,12 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 ### 也可以看看
 
 * class [LayoutEnumerator](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutenumerator/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
-## MoveParent(LayoutEntityType) {#moveparent_1}
+## MoveParent(*[LayoutEntityType](../../layoutentitytype/)*) {#moveparent_1}
 
 移动到指定类型的父实体。
 
@@ -176,11 +178,11 @@ public bool MoveParent(LayoutEntityType types)
 | --- | --- | --- |
 | types | LayoutEntityType | 要移动到的父实体类型。使用按位或来指定多个父类型。 |
 
-### 评论
+## 评论
 
 如果您需要查找实体的单元格、列或页眉/页脚父级，则此方法非常有用。
 
-### 例子
+## 例子
 
 显示遍历文档布局实体的方法。
 
@@ -326,7 +328,5 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * enum [LayoutEntityType](../../layoutentitytype/)
 * class [LayoutEnumerator](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutenumerator/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

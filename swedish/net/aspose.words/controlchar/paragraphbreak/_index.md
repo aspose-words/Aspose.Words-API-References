@@ -1,7 +1,9 @@
 ---
 title: ControlChar.ParagraphBreak
-second_title: Aspose.Words för .NET API Referens
-description: ControlChar fält. Slut på stycketecknet x000d eller r. Samma somCr
+linktitle: ParagraphBreak
+articleTitle: ParagraphBreak
+second_title: Aspose.Words för .NET
+description: ControlChar ParagraphBreak fält. Slut på stycketecknet x000d eller r. Samma somCr i C#.
 type: docs
 weight: 220
 url: /sv/net/aspose.words/controlchar/paragraphbreak/
@@ -14,7 +16,7 @@ Slut på stycketecknet: "\x000d" eller "\r". Samma som[`Cr`](../cr/)
 public static readonly string ParagraphBreak;
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man lägger till olika kontrolltecken i ett dokument.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Se även
 
 * class [ControlChar](../)
-* namnutrymme [Aspose.Words](../../controlchar/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

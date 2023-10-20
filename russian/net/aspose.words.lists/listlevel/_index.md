@@ -1,7 +1,9 @@
 ---
-title: Class ListLevel
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Lists.ListLevel сорт. Определяет форматирование уровня списка.
+title: ListLevel Class
+linktitle: ListLevel
+articleTitle: ListLevel
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Lists.ListLevel сорт. Определяет форматирование уровня списка на С#.
 type: docs
 weight: 3500
 url: /ru/net/aspose.words.lists/listlevel/
@@ -41,17 +43,17 @@ public class ListLevel
 | --- | --- |
 | [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet/)() | Создает форму графического маркера для текущего уровня списка. |
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | Удаляет графический маркер для текущего уровня списка. |
-| [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | Сравнивает с указанным ListLevel. |
+| [Equals](../../aspose.words.lists/listlevel/equals/#equals)(*ListLevel*) | Сравнивает с указанным ListLevel. |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | Вычисляет хеш-код для этого объекта. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Сообщает строковое представление`ListLevel`объект для указанного index элемента списка. Параметры определяют[`NumberStyle`](../../aspose.words/numberstyle/) и необязательный формат string , используемый, когдаCustom указано. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(*int, [NumberStyle](../../aspose.words/numberstyle/), string*) | Сообщает строковое представление`ListLevel`объект для указанного index элемента списка. Параметры определяют[`NumberStyle`](../../aspose.words/numberstyle/) и необязательный формат string , используемый, когдаCustom указано. |
 
-### Примечания
+## Примечания
 
 Вы не создаете объекты этого класса. Объекты уровня списка создаются автоматически при создании списка. Вы получаете доступ`ListLevel` объекты через the [`ListLevelCollection`](../listlevelcollection/) коллекция.
 
 Используйте свойства`ListLevel` чтобы указать форматирование списка для отдельных уровней списка.
 
-### Примеры
+## Примеры
 
 Показывает, как применить пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
 
@@ -111,5 +113,3 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 * пространство имен [Aspose.Words.Lists](../../aspose.words.lists/)
 * сборка [Aspose.Words](../../)
-
-

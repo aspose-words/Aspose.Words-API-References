@@ -1,7 +1,9 @@
 ---
-title: Enum DocumentSplitCriteria
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.DocumentSplitCriteria перечисление. Указывает как документ разбивается на части при сохранении вHtml  Epub илиAzw3 формат.
+title: DocumentSplitCriteria Enum
+linktitle: DocumentSplitCriteria
+articleTitle: DocumentSplitCriteria
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.DocumentSplitCriteria перечисление. Указывает как документ разбивается на части при сохранении вHtml  Epub илиAzw3 формат на С#.
 type: docs
 weight: 4960
 url: /ru/net/aspose.words.saving/documentsplitcriteria/
@@ -23,15 +25,15 @@ public enum DocumentSplitCriteria
 | PageBreak | `1` | Документ разбивается на части по явным разрывам страниц. Разрыв страницы может быть задан с помощью[`PageBreak`](../../aspose.words/controlchar/pagebreak/) символ, разрыв раздела, определяющий начало нового раздела на новой странице, или абзац, имеющий свой[`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) свойство установлено в`истинный` . |
 | ColumnBreak | `2` | Документ разбивается на части по разрывам столбцов. Разрыв столбца можно указать с помощью[`ColumnBreak`](../../aspose.words/controlchar/columnbreak/) символ or разрыв раздела, указывающий начало нового раздела в новом столбце. |
 | SectionBreak | `4` | Документ разбивается на части при разрыве раздела любого типа. |
-| HeadingParagraph | `8` | Документ разделен на части по абзацу, отформатированному с использованием стиля заголовка. **Заголовок 1** , **Заголовок 2** и т. д. Используйте вместе с[`DocumentSplitHeadingLevel`](../htmlsaveoptions/documentsplitheadinglevel/) чтобы указать уровни заголовков (от 1 до указанного уровня), по которым следует разбить. |
+| HeadingParagraph | `8` | Документ разделен на части по абзацу, отформатированному с использованием стиля заголовка.**Заголовок 1** ,**Заголовок 2** и т. д. Используйте вместе с[`DocumentSplitHeadingLevel`](../htmlsaveoptions/documentsplitheadinglevel/) чтобы указать уровни заголовков (от 1 до указанного уровня), по которым следует разбить. |
 
-### Примечания
+## Примечания
 
 `DocumentSplitCriteria`представляет собой набор флагов, которые можно комбинировать. Например, вы можете разделить document на разрывы страниц и заголовки абзацев в одной операции экспорта.
 
-Различные критерии могут частично перекрываться. Например, **Заголовок 1** стиль часто присваивается [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) имущество, поэтому оно подпадает под два критерия:PageBreak и HeadingParagraph. Некоторые разрывы разделов могут привести к разрывам страниц и т. д. В типичных случаях наиболее практичным вариантом является указание только одного флага.
+Различные критерии могут частично перекрываться. Например,**Заголовок 1** стиль часто присваивается [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/) имущество, поэтому оно подпадает под два критерия:PageBreak и HeadingParagraph. Некоторые разрывы разделов могут привести к разрывам страниц и т. д. В типичных случаях наиболее практичным вариантом является указание только одного флага.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать определенную кодировку при сохранении документа в формате .epub.
 
@@ -59,5 +61,3 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

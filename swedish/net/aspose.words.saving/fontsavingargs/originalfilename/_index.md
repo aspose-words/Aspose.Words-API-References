@@ -1,7 +1,9 @@
 ---
 title: FontSavingArgs.OriginalFileName
-second_title: Aspose.Words för .NET API Referens
-description: FontSavingArgs fast egendom. Hämtar det ursprungliga teckensnittsfilnamnet med ett tillägg.
+linktitle: OriginalFileName
+articleTitle: OriginalFileName
+second_title: Aspose.Words för .NET
+description: FontSavingArgs OriginalFileName fast egendom. Hämtar det ursprungliga teckensnittsfilnamnet med ett tillägg i C#.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.saving/fontsavingargs/originalfilename/
@@ -14,11 +16,11 @@ Hämtar det ursprungliga teckensnittsfilnamnet med ett tillägg.
 public string OriginalFileName { get; }
 ```
 
-### Anmärkningar
+## Anmärkningar
 
 Den här egenskapen innehåller det ursprungliga filnamnet för det aktuella teckensnittet om det är känt. Annars kan det vara en tom sträng.
 
-### Exempel
+## Exempel
 
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
@@ -78,7 +80,5 @@ public class HandleFontSaving : IFontSavingCallback
 ### Se även
 
 * class [FontSavingArgs](../)
-* namnutrymme [Aspose.Words.Saving](../../fontsavingargs/)
+* namnutrymme [Aspose.Words.Saving](../../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../../)
-
-

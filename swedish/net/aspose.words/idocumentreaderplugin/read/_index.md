@@ -1,7 +1,9 @@
 ---
 title: IDocumentReaderPlugin.Read
-second_title: Aspose.Words för .NET API Referens
-description: IDocumentReaderPlugin metod. Läser data från den angivna strömmen tillDocument instans.
+linktitle: Read
+articleTitle: Read
+second_title: Aspose.Words för .NET
+description: IDocumentReaderPlugin Read metod. Läser data från den angivna strömmen tillDocument instans i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/idocumentreaderplugin/read/
@@ -25,7 +27,5 @@ public void Read(Stream src, LoadOptions loadOptions, Document document)
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [Document](../../document/)
 * interface [IDocumentReaderPlugin](../)
-* namnutrymme [Aspose.Words](../../idocumentreaderplugin/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

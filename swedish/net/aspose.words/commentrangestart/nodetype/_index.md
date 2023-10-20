@@ -1,7 +1,9 @@
 ---
 title: CommentRangeStart.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: CommentRangeStart fast egendom. ReturnerarCommentRangeStart .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: CommentRangeStart NodeType fast egendom. ReturnerarCommentRangeStart  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/commentrangestart/nodetype/
@@ -14,7 +16,7 @@ ReturnerarCommentRangeStart .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [CommentRangeStart](../)
-* namnutrymme [Aspose.Words](../../commentrangestart/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

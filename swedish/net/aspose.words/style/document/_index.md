@@ -1,7 +1,9 @@
 ---
 title: Style.Document
-second_title: Aspose.Words för .NET API Referens
-description: Style fast egendom. Hämtar ägardokumentet.
+linktitle: Document
+articleTitle: Document
+second_title: Aspose.Words för .NET
+description: Style Document fast egendom. Hämtar ägardokumentet i C#.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/style/document/
@@ -14,7 +16,7 @@ Hämtar ägardokumentet.
 public DocumentBase Document { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur du kommer åt ett dokuments stilsamling.
 
@@ -43,7 +45,5 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 
 * class [DocumentBase](../../documentbase/)
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

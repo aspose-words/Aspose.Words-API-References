@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.Color
-second_title: Aspose.Words لمراجع .NET API
-description: TextWatermarkOptions ملكية. الحصول على لون الخط أو تحديده. القيمة الافتراضية هيSilver .
+linktitle: Color
+articleTitle: Color
+second_title: Aspose.Words لـ .NET
+description: TextWatermarkOptions Color ملكية. الحصول على لون الخط أو تحديده. القيمة الافتراضية هيSilver  في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/textwatermarkoptions/color/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words/textwatermarkoptions/color/
 public Color Color { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مائية نصية.
 
@@ -45,7 +47,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### أنظر أيضا
 
 * class [TextWatermarkOptions](../)
-* مساحة الاسم [Aspose.Words](../../textwatermarkoptions/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

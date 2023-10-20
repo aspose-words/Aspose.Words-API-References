@@ -1,7 +1,9 @@
 ---
 title: FieldDate.UseLunarCalendar
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDate propiedad. Obtiene o establece si se debe utilizar el calendario lunar Hijri o lunar hebreo.
+linktitle: UseLunarCalendar
+articleTitle: UseLunarCalendar
+second_title: Aspose.Words para .NET
+description: FieldDate UseLunarCalendar propiedad. Obtiene o establece si se debe utilizar el calendario lunar Hijri o lunar hebreo en C#.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fielddate/uselunarcalendar/
@@ -14,7 +16,7 @@ Obtiene o establece si se debe utilizar el calendario lunar Hijri o lunar hebreo
 public bool UseLunarCalendar { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo utilizar los campos FECHA para mostrar fechas según diferentes tipos de calendarios.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Field.DATE.docx");
 ### Ver también
 
 * class [FieldDate](../)
-* espacio de nombres [Aspose.Words.Fields](../../fielddate/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

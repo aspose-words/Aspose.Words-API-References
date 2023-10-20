@@ -1,7 +1,9 @@
 ---
-title: Enum LegendPosition
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.Charts.LegendPosition enum. Specifica le possibili posizioni per la legenda di un grafico.
+title: LegendPosition Enum
+linktitle: LegendPosition
+articleTitle: LegendPosition
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Drawing.Charts.LegendPosition enum. Specifica le possibili posizioni per la legenda di un grafico in C#.
 type: docs
 weight: 910
 url: /it/net/aspose.words.drawing.charts/legendposition/
@@ -25,7 +27,7 @@ public enum LegendPosition
 | Top | `4` | Specifica che la legenda verrà disegnata nella parte superiore del grafico. |
 | TopRight | `5` | Specifica che la legenda verrà disegnata in alto a destra del grafico. |
 
-### Esempi
+## Esempi
 
 Mostra come modificare l'aspetto della legenda di un grafico.
 
@@ -55,5 +57,3 @@ doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");
 
 * spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Clone
-second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlSchemaCollection yöntem. Bu nesnenin derin bir klonunu oluşturur.
+linktitle: Clone
+articleTitle: Clone
+second_title: Aspose.Words for .NET
+description: CustomXmlSchemaCollection Clone yöntem. Bu nesnenin derin bir klonunu oluşturur C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.markup/customxmlschemacollection/clone/
@@ -14,7 +16,7 @@ Bu nesnenin derin bir klonunu oluşturur.
 public CustomXmlSchemaCollection Clone()
 ```
 
-### Örnekler
+## Örnekler
 
 XML şeması koleksiyonuyla nasıl çalışılacağını gösterir.
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### Ayrıca bakınız
 
 * class [CustomXmlSchemaCollection](../)
-* ad alanı [Aspose.Words.Markup](../../customxmlschemacollection/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

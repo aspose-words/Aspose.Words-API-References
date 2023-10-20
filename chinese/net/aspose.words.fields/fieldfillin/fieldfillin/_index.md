@@ -1,7 +1,9 @@
 ---
-title: FieldFillIn.FieldFillIn
-second_title: Aspose.Words for .NET API 参考
-description: FieldFillIn 构造函数. 默认构造函数
+title: FieldFillIn
+linktitle: FieldFillIn
+articleTitle: FieldFillIn
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldFillIn 构造函数. 默认构造函数 在 C#.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldfillin/fieldfillin/
@@ -17,7 +19,5 @@ public FieldFillIn()
 ### 也可以看看
 
 * class [FieldFillIn](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldfillin/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

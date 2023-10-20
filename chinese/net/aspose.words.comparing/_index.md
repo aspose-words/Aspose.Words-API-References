@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.Comparing
-second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words.Comparing命名空间提供了类和枚举允许在比较文档时指定附加选项
+linktitle: Aspose.Words.Comparing
+articleTitle: Aspose.Words.Comparing
+second_title: 用于 .NET 的 Aspose.Words
+description: 这Aspose.Words.Comparing命名空间提供了类和枚举允许在比较文档时指定附加选项 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.comparing/
 ---
-这 **Aspose.Words.Comparing**命名空间提供了类和枚举，允许在比较文档时指定附加选项。
+这**Aspose.Words.Comparing**命名空间提供了类和枚举，允许在比较文档时指定附加选项。
 
 ## 课程
 
@@ -19,5 +21,3 @@ url: /zh/net/aspose.words.comparing/
 | --- | --- |
 | [ComparisonTargetType](./comparisontargettype/) | 允许指定比较期间将使用的基础文档。默认值为Current. |
 | [Granularity](./granularity/) | 指定比较两个文档时要跟踪的更改的粒度。 |
-
-

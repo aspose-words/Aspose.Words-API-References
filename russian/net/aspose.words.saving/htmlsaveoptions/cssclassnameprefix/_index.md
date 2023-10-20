@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.CssClassNamePrefix
-second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает префикс который добавляется ко всем именам классов CSS. Значение по умолчанию  пустая строка а сгенерированные имена классов CSS не имеют общего префикса.
+linktitle: CssClassNamePrefix
+articleTitle: CssClassNamePrefix
+second_title: Aspose.Words для .NET
+description: HtmlSaveOptions CssClassNamePrefix свойство. Указывает префикс который добавляется ко всем именам классов CSS. Значение по умолчанию  пустая строка а сгенерированные имена классов CSS не имеют общего префикса на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/htmlsaveoptions/cssclassnameprefix/
@@ -20,13 +22,13 @@ public string CssClassNamePrefix { get; set; }
 | --- | --- |
 | ArgumentException | Значение не пустое и не является допустимым идентификатором CSS. |
 
-### Примечания
+## Примечания
 
 Если это значение не пустое, все классы CSS, сгенерированные Aspose.Words, будут начинаться с указанного префикса. Это может быть полезно, например, если вы добавляете собственный CSS в сгенерированные документы и хотите предотвратить конфликты имен class .
 
 Если значение не`нулевой` или пустое, это должен быть действительный идентификатор CSS.
 
-### Примеры
+## Примеры
 
 Показывает, как сохранить документ в формате HTML и добавить префикс ко всем именам его классов CSS.
 
@@ -55,7 +57,5 @@ Assert.True(outDocContents.Contains(".myprefix-Footer { margin-bottom:0pt; line-
 ### Смотрите также
 
 * class [HtmlSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../htmlsaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

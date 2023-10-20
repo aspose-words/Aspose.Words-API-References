@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WrapType
-second_title: Aspose.Words for .NET API 参考
-description: ShapeBase 财产. 定义形状是内联还是浮动对于浮动形状定义形状周围文本的环绕模式
+linktitle: WrapType
+articleTitle: WrapType
+second_title: 用于 .NET 的 Aspose.Words
+description: ShapeBase WrapType 财产. 定义形状是内联还是浮动对于浮动形状定义形状周围文本的环绕模式 在 C#.
 type: docs
 weight: 600
 url: /zh/net/aspose.words.drawing/shapebase/wraptype/
@@ -14,13 +16,13 @@ url: /zh/net/aspose.words.drawing/shapebase/wraptype/
 public WrapType WrapType { get; set; }
 ```
 
-### 评论
+## 评论
 
 默认值为None。
 
 仅对顶级形状有效。
 
-### 例子
+## 例子
 
 演示如何将浮动图像插入到页面中央。
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * enum [WrapType](../../wraptype/)
 * class [ShapeBase](../)
-* 命名空间 [Aspose.Words.Drawing](../../shapebase/)
+* 命名空间 [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../../)
-
-

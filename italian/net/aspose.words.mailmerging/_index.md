@@ -1,18 +1,20 @@
 ---
 title: Aspose.Words.MailMerging
-second_title: Aspose.Words per .NET API Reference
-description: IL Aspose.Words.MailMergingnamespace contiene le classi del motore di reporting della posta unione originale.
+linktitle: Aspose.Words.MailMerging
+articleTitle: Aspose.Words.MailMerging
+second_title: Aspose.Words per .NET
+description: ILAspose.Words.MailMergingnamespace contiene le classi del motore di reporting della posta unione originale in C#.
 type: docs
 weight: 150
 url: /it/net/aspose.words.mailmerging/
 ---
-IL **Aspose.Words.MailMerging**namespace contiene le classi del motore di reporting della posta unione "originale".
+IL**Aspose.Words.MailMerging**namespace contiene le classi del motore di reporting della posta unione "originale".
 
 ## Classi
 
 | Classe | Descrizione |
 | --- | --- |
-| [FieldMergingArgs](./fieldmergingargs/) | Fornisce i dati per il **Unisci campo** evento. |
+| [FieldMergingArgs](./fieldmergingargs/) | Fornisce i dati per il**Unisci campo** evento. |
 | [FieldMergingArgsBase](./fieldmergingargsbase/) | Classe base per[`FieldMergingArgs`](../aspose.words.mailmerging/fieldmergingargs/) E[`ImageFieldMergingArgs`](../aspose.words.mailmerging/imagefieldmergingargs/) . |
 | [ImageFieldMergingArgs](./imagefieldmergingargs/) | Fornisce i dati per il[`ImageFieldMerging`](../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/) evento. |
 | [MailMerge](./mailmerge/) | Rappresenta la funzionalità di stampa unione. |
@@ -32,5 +34,3 @@ IL **Aspose.Words.MailMerging**namespace contiene le classi del motore di report
 | Enumerazione | Descrizione |
 | --- | --- |
 | [MailMergeCleanupOptions](./mailmergecleanupoptions/) | Specifica le opzioni che determinano quali elementi vengono rimossi durante la stampa unione. |
-
-

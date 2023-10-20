@@ -1,7 +1,9 @@
 ---
-title: Class DocumentSavingArgs
-second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.DocumentSavingArgs сорт. Аргумент переданный вNotify .
+title: DocumentSavingArgs Class
+linktitle: DocumentSavingArgs
+articleTitle: DocumentSavingArgs
+second_title: Aspose.Words для .NET
+description: Aspose.Words.Saving.DocumentSavingArgs сорт. Аргумент переданный вNotify  на С#.
 type: docs
 weight: 4950
 url: /ru/net/aspose.words.saving/documentsavingargs/
@@ -26,5 +28,3 @@ public sealed class DocumentSavingArgs
 
 * пространство имен [Aspose.Words.Saving](../../aspose.words.saving/)
 * сборка [Aspose.Words](../../)
-
-

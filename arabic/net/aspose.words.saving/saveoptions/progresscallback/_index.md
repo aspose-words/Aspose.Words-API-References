@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.ProgressCallback
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. يتم الاتصال به أثناء حفظ مستند ويقبل البيانات المتعلقة بتقدم الحفظ.
+linktitle: ProgressCallback
+articleTitle: ProgressCallback
+second_title: Aspose.Words لـ .NET
+description: SaveOptions ProgressCallback ملكية. يتم الاتصال به أثناء حفظ مستند ويقبل البيانات المتعلقة بتقدم الحفظ في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.saving/saveoptions/progresscallback/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.saving/saveoptions/progresscallback/
 public IDocumentSavingCallback ProgressCallback { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يتم الإبلاغ عن التقدم عند الحفظ فيDocx ,FlatOpcDocm ,Dotm ,DotxDoc ,DotHtml ,Mhtml ,EpubXamlFlow ، أوXamlFlowPack .
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدارة مستند أثناء حفظه في html.
 
@@ -189,7 +191,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * interface [IDocumentSavingCallback](../../idocumentsavingcallback/)
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

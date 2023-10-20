@@ -1,7 +1,9 @@
 ---
 title: FontSubstitutionSettings.FontNameSubstitution
-second_title: Aspose.Words for .NET API Referansı
-description: FontSubstitutionSettings mülk. Yazı tipi adı değiştirme kuralıyla ilgili ayarlar.
+linktitle: FontNameSubstitution
+articleTitle: FontNameSubstitution
+second_title: Aspose.Words for .NET
+description: FontSubstitutionSettings FontNameSubstitution mülk. Yazı tipi adı değiştirme kuralıyla ilgili ayarlar C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/
@@ -18,7 +20,5 @@ public FontNameSubstitutionRule FontNameSubstitution { get; }
 
 * class [FontNameSubstitutionRule](../../fontnamesubstitutionrule/)
 * class [FontSubstitutionSettings](../)
-* ad alanı [Aspose.Words.Fonts](../../fontsubstitutionsettings/)
+* ad alanı [Aspose.Words.Fonts](../../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../../)
-
-

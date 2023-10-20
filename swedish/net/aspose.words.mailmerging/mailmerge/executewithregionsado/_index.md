@@ -1,7 +1,9 @@
 ---
 title: MailMerge.ExecuteWithRegionsADO
-second_title: Aspose.Words för .NET API Referens
-description: MailMerge metod. Utför koppling från ett ADO Recordsetobjekt till dokumentet med kopplingsregioner.
+linktitle: ExecuteWithRegionsADO
+articleTitle: ExecuteWithRegionsADO
+second_title: Aspose.Words för .NET
+description: MailMerge ExecuteWithRegionsADO metod. Utför koppling från ett ADO Recordsetobjekt till dokumentet med kopplingsregioner i C#.
 type: docs
 weight: 210
 url: /sv/net/aspose.words.mailmerging/mailmerge/executewithregionsado/
@@ -19,13 +21,13 @@ public void ExecuteWithRegionsADO(object recordset, string tableName)
 | recordset | Object | ADO Recordset eller Record-objekt. |
 | tableName | String | Namn på kopplingsregionen i dokumentet som ska fyllas i. |
 
-### Anmärkningar
+## Anmärkningar
 
 Den här metoden är användbar när du tänker använda Aspose.Words-klasserna as COM-objekt från ohanterad kod, till exempel ett program byggt med ASP eller Visual Basic 6.0.
 
 För mer information se beskrivning av[`ExecuteWithRegions`](../executewithregions/).
 
-### Exempel
+## Exempel
 
 ```csharp
 [VBScript]
@@ -120,7 +122,5 @@ private static Document CreateSourceDocADOMailMergeWithRegions()
 ### Se även
 
 * class [MailMerge](../)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
+* namnutrymme [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../../)
-
-

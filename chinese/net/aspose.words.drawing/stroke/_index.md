@@ -1,7 +1,9 @@
 ---
-title: Class Stroke
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Stroke 班级. 定义形状的笔划
+title: Stroke Class
+linktitle: Stroke
+articleTitle: Stroke
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Drawing.Stroke 班级. 定义形状的笔划 在 C#.
 type: docs
 weight: 1310
 url: /zh/net/aspose.words.drawing/stroke/
@@ -21,7 +23,6 @@ public class Stroke
 | 姓名 | 描述 |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing/stroke/backcolor/) { get; set; } | 获取或设置笔划的背景颜色。 |
-| [BaseForeColor](../../aspose.words.drawing/stroke/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/stroke/color/) { get; set; } | 定义描边的颜色。 |
 | [Color2](../../aspose.words.drawing/stroke/color2/) { get; set; } | 定义笔划的第二种颜色。 |
 | [DashStyle](../../aspose.words.drawing/stroke/dashstyle/) { get; set; } | 指定笔划的点和划线图案。 |
@@ -43,11 +44,11 @@ public class Stroke
 | [Visible](../../aspose.words.drawing/stroke/visible/) { get; set; } | 获取或设置指示笔划是否可见的标志。 |
 | [Weight](../../aspose.words.drawing/stroke/weight/) { get; set; } | 定义描画形状路径的画笔厚度（以点为单位）。 |
 
-### 评论
+## 评论
 
 使用[`Stroke`](../shape/stroke/)属性来访问形状的描边属性。 您不创建`Stroke`直接上课。
 
-### 例子
+## 例子
 
 显示如何更改笔划属性。
 
@@ -81,5 +82,3 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 * 命名空间 [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * 部件 [Aspose.Words](../../)
-
-

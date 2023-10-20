@@ -1,7 +1,9 @@
 ---
 title: Comment.NodeType
-second_title: Aspose.Words für .NET-API-Referenz
-description: Comment eigendom. Gibt zurückComment .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words für .NET
+description: Comment NodeType eigendom. Gibt zurückComment  in C#.
 type: docs
 weight: 80
 url: /de/net/aspose.words/comment/nodetype/
@@ -14,7 +16,7 @@ Gibt zurückComment .
 public override NodeType NodeType { get; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Baum der untergeordneten Knoten eines zusammengesetzten Knotens durchlaufen wird.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Comment](../)
-* namensraum [Aspose.Words](../../comment/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

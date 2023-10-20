@@ -1,7 +1,9 @@
 ---
 title: MetafileRenderingOptions.UseGdiRasterOperationsEmulation
-second_title: Aspose.Words for .NET API 参考
-description: MetafileRenderingOptions 财产. 获取或设置一个值确定是否使用 GDI 进行光栅操作模拟
+linktitle: UseGdiRasterOperationsEmulation
+articleTitle: UseGdiRasterOperationsEmulation
+second_title: 用于 .NET 的 Aspose.Words
+description: MetafileRenderingOptions UseGdiRasterOperationsEmulation 财产. 获取或设置一个值确定是否使用 GDI 进行光栅操作模拟 在 C#.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/metafilerenderingoptions/usegdirasteroperations
 public bool UseGdiRasterOperationsEmulation { get; set; }
 ```
 
-### 评论
+## 评论
 
 Windows GDI+ 库可用于模拟光栅操作。与 Aspose.Words 自己的仿真相比，它提供对所有光栅操作 的支持，但在某些情况下性能可能会较慢。
 
@@ -26,7 +28,7 @@ Windows GDI+ 库可用于模拟光栅操作。与 Aspose.Words 自己的仿真�
 
 默认值为`错误的`。
 
-### 例子
+## 例子
 
 演示将包含 Windows 图元文件图像的文档保存为其他图像格式时如何设置渲染模式。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.WindowsMetaFile.png", options);
 ### 也可以看看
 
 * class [MetafileRenderingOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../metafilerenderingoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Font.Kerning
-second_title: Aspose.Words for .NET API 参考
-description: Font 财产. 获取或设置字距调整开始时的字体大小
+linktitle: Kerning
+articleTitle: Kerning
+second_title: 用于 .NET 的 Aspose.Words
+description: Font Kerning 财产. 获取或设置字距调整开始时的字体大小 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words/font/kerning/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/font/kerning/
 public double Kerning { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何指定字距调整开始生效的字体大小。
 
@@ -43,7 +45,5 @@ doc.Save(ArtifactsDir + "Font.Kerning.docx");
 ### 也可以看看
 
 * class [Font](../)
-* 命名空间 [Aspose.Words](../../font/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

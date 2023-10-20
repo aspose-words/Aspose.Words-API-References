@@ -1,7 +1,9 @@
 ---
 title: BuildingBlock.Type
-second_title: Aspose.Words لمراجع .NET API
-description: BuildingBlock ملكية. يحدد نوع الكتلة البرمجية الإنشائية.
+linktitle: Type
+articleTitle: Type
+second_title: Aspose.Words لـ .NET
+description: BuildingBlock Type ملكية. يحدد نوع الكتلة البرمجية الإنشائية في C#.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.buildingblocks/buildingblock/type/
@@ -14,13 +16,13 @@ url: /ar/net/aspose.words.buildingblocks/buildingblock/type/
 public BuildingBlockType Type { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 يمكن أن يؤثر نوع الكتلة البرمجية الإنشائية على رؤية وسلوك الكتلة البرمجية الإنشائية في Microsoft Word.
 
-يتوافق مع **docPartPr.types** العنصر في OOXML
+يتوافق مع**docPartPr.types** العنصر في OOXML
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة كتلة إنشاء مخصصة إلى مستند.
 
@@ -118,7 +120,5 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 * enum [BuildingBlockType](../../buildingblocktype/)
 * class [BuildingBlock](../)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../buildingblock/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../../)
-
-

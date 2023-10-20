@@ -1,7 +1,9 @@
 ---
 title: Story.AppendParagraph
-second_title: Aspose.Words for .NET API Referansı
-description: Story yöntem. Oluşturan bir kısayol yöntemiParagraph isteğe bağlı metin içeren nesneyi seçer ve onu bu nesnenin sonuna ekler.
+linktitle: AppendParagraph
+articleTitle: AppendParagraph
+second_title: Aspose.Words for .NET
+description: Story AppendParagraph yöntem. Oluşturan bir kısayol yöntemiParagraph isteğe bağlı metin içeren nesneyi seçer ve onu bu nesnenin sonuna ekler C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/story/appendparagraph/
@@ -22,7 +24,7 @@ public Paragraph AppendParagraph(string text)
 
 Yeni oluşturulan ve eklenen paragraf.
 
-### Örnekler
+## Örnekler
 
 Üstbilgi ve altbilginin nasıl oluşturulacağını gösterir.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 * class [Paragraph](../../paragraph/)
 * class [Story](../)
-* ad alanı [Aspose.Words](../../story/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

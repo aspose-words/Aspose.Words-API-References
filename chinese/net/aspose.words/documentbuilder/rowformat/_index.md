@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.RowFormat
-second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 财产. 返回一个表示当前表行格式属性的对象
+linktitle: RowFormat
+articleTitle: RowFormat
+second_title: 用于 .NET 的 Aspose.Words
+description: DocumentBuilder RowFormat 财产. 返回一个表示当前表行格式属性的对象 在 C#.
 type: docs
 weight: 180
 url: /zh/net/aspose.words/documentbuilder/rowformat/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/documentbuilder/rowformat/
 public RowFormat RowFormat { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何使用文档生成器设置行格式。
 
@@ -154,7 +156,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 * class [RowFormat](../../../aspose.words.tables/rowformat/)
 * class [DocumentBuilder](../)
-* 命名空间 [Aspose.Words](../../documentbuilder/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

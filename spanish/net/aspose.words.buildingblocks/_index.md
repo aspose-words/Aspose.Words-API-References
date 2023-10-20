@@ -1,12 +1,14 @@
 ---
 title: Aspose.Words.BuildingBlocks
-second_title: Referencia de API de Aspose.Words para .NET
-description: El Aspose.Words.BuildingBlocks El espacio de nombres proporciona clases que permiten acceder a y utilizar Autotexto entradas de Autocorrección y bloques de construcción en un documento.
+linktitle: Aspose.Words.BuildingBlocks
+articleTitle: Aspose.Words.BuildingBlocks
+second_title: Aspose.Words para .NET
+description: ElAspose.Words.BuildingBlocks El espacio de nombres proporciona clases que permiten acceder a y utilizar Autotexto entradas de Autocorrección y bloques de construcción en un documento en C#.
 type: docs
 weight: 20
 url: /es/net/aspose.words.buildingblocks/
 ---
-El **Aspose.Words.BuildingBlocks** El espacio de nombres proporciona clases que permiten acceder a y utilizar Autotexto, entradas de Autocorrección y bloques de construcción en un documento.
+El**Aspose.Words.BuildingBlocks** El espacio de nombres proporciona clases que permiten acceder a y utilizar Autotexto, entradas de Autocorrección y bloques de construcción en un documento.
 
 ## Clases
 
@@ -22,5 +24,3 @@ El **Aspose.Words.BuildingBlocks** El espacio de nombres proporciona clases que 
 | [BuildingBlockBehavior](./buildingblockbehavior/) | Especifica el comportamiento que se aplicará al contenido del bloque de creación cuando se inserte en el documento principal. |
 | [BuildingBlockGallery](./buildingblockgallery/) | Especifica la galería predefinida en la que se clasifica un bloque de construcción. |
 | [BuildingBlockType](./buildingblocktype/) | Especifica un tipo de bloque de creación. El tipo puede afectar la visibilidad y el comportamiento del bloque de creación en Microsoft Word. |
-
-

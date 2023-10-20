@@ -1,7 +1,9 @@
 ---
 title: IDocumentSavingCallback.Notify
-second_title: Aspose.Words لمراجع .NET API
-description: IDocumentSavingCallback طريقة. يتم استدعاؤه للإخطار بتقدم عملية حفظ المستند.
+linktitle: Notify
+articleTitle: Notify
+second_title: Aspose.Words لـ .NET
+description: IDocumentSavingCallback Notify طريقة. يتم استدعاؤه للإخطار بتقدم عملية حفظ المستند في C#.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/idocumentsavingcallback/notify/
@@ -18,13 +20,13 @@ public void Notify(DocumentSavingArgs args)
 | --- | --- | --- |
 | args | DocumentSavingArgs | حجة الحدث. |
 
-### ملاحظات
+## ملاحظات
 
 الاستخدامات الأساسية لهذه الواجهة هي السماح لرمز التطبيق بالحصول على حالة التقدم وإلغاء عملية الحفظ.
 
 يجب طرح استثناء من رد اتصال التقدم للإجهاض ويجب اكتشافه في كود المستهلك.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدارة مستند أثناء حفظه في html.
 
@@ -195,7 +197,5 @@ public class SavingProgressCallback : IDocumentSavingCallback
 
 * class [DocumentSavingArgs](../../documentsavingargs/)
 * interface [IDocumentSavingCallback](../)
-* مساحة الاسم [Aspose.Words.Saving](../../idocumentsavingcallback/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

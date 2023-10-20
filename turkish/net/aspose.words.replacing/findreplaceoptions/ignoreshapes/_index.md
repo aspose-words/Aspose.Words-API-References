@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.IgnoreShapes
-second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Bir metin içindeki şekillerin yoksayılacağını belirten bir boole değeri alır veya ayarlar.
+linktitle: IgnoreShapes
+articleTitle: IgnoreShapes
+second_title: Aspose.Words for .NET
+description: FindReplaceOptions IgnoreShapes mülk. Bir metin içindeki şekillerin yoksayılacağını belirten bir boole değeri alır veya ayarlar C#'da.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.replacing/findreplaceoptions/ignoreshapes/
@@ -16,7 +18,7 @@ Varsayılan değer:`YANLIŞ`.
 public bool IgnoreShapes { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Metni değiştirirken şekillerin nasıl yok sayılacağını gösterir.
 
@@ -36,7 +38,5 @@ Assert.AreEqual("Lorem ipsum dolor sit amet, consectetur adipiscing elit.", buil
 ### Ayrıca bakınız
 
 * class [FindReplaceOptions](../)
-* ad alanı [Aspose.Words.Replacing](../../findreplaceoptions/)
+* ad alanı [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * toplantı [Aspose.Words](../../../)
-
-

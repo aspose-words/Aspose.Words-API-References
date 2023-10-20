@@ -1,7 +1,9 @@
 ---
 title: ListLevel.NumberStyle
-second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel eigendom. Gibt den Zahlenstil für diese Listenebene zurück oder legt ihn fest.
+linktitle: NumberStyle
+articleTitle: NumberStyle
+second_title: Aspose.Words für .NET
+description: ListLevel NumberStyle eigendom. Gibt den Zahlenstil für diese Listenebene zurück oder legt ihn fest in C#.
 type: docs
 weight: 90
 url: /de/net/aspose.words.lists/listlevel/numberstyle/
@@ -14,7 +16,7 @@ Gibt den Zahlenstil für diese Listenebene zurück oder legt ihn fest.
 public NumberStyle NumberStyle { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listenformatierung auf Absätze anwenden.
 
@@ -130,7 +132,5 @@ doc.Save(ArtifactsDir + "Lists.CreateListRestartAfterHigher.docx");
 
 * enum [NumberStyle](../../../aspose.words/numberstyle/)
 * class [ListLevel](../)
-* namensraum [Aspose.Words.Lists](../../listlevel/)
+* namensraum [Aspose.Words.Lists](../../../aspose.words.lists/)
 * Montage [Aspose.Words](../../../)
-
-

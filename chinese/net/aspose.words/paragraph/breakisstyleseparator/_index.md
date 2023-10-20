@@ -1,7 +1,9 @@
 ---
 title: Paragraph.BreakIsStyleSeparator
-second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 如果此段落分隔符是样式分隔符则为 True样式分隔符允许 one 段落由具有不同段落样式的部分组成
+linktitle: BreakIsStyleSeparator
+articleTitle: BreakIsStyleSeparator
+second_title: 用于 .NET 的 Aspose.Words
+description: Paragraph BreakIsStyleSeparator 财产. 如果此段落分隔符是样式分隔符则为 True样式分隔符允许 one 段落由具有不同段落样式的部分组成 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/paragraph/breakisstyleseparator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/paragraph/breakisstyleseparator/
 public bool BreakIsStyleSeparator { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何将文本写入与目录标题相同的行，并且使其不显示在目录中。
 
@@ -48,7 +50,5 @@ doc.Save(ArtifactsDir + "Paragraph.BreakIsStyleSeparator.docx");
 ### 也可以看看
 
 * class [Paragraph](../)
-* 命名空间 [Aspose.Words](../../paragraph/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

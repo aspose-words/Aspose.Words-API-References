@@ -1,7 +1,9 @@
 ---
 title: ImageData.GrayScale
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageData eigendom. Legt fest ob ein Bild im Graustufenmodus angezeigt wird.
+linktitle: GrayScale
+articleTitle: GrayScale
+second_title: Aspose.Words für .NET
+description: ImageData GrayScale eigendom. Legt fest ob ein Bild im Graustufenmodus angezeigt wird in C#.
 type: docs
 weight: 100
 url: /de/net/aspose.words.drawing/imagedata/grayscale/
@@ -14,11 +16,11 @@ Legt fest, ob ein Bild im Graustufenmodus angezeigt wird.
 public bool GrayScale { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Der Standardwert ist`FALSCH`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die Bilddaten einer Form bearbeitet werden.
 
@@ -81,7 +83,5 @@ dstDoc.Save(ArtifactsDir + "Drawing.ImageData.docx");
 ### Siehe auch
 
 * class [ImageData](../)
-* namensraum [Aspose.Words.Drawing](../../imagedata/)
+* namensraum [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../../)
-
-

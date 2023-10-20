@@ -1,7 +1,9 @@
 ---
 title: ControlChar.CrLf
-second_title: Aspose.Words for .NET API Referansı
-description: ControlChar alan. Satır başı ve ardından satır besleme karakteri x000dx000a veya rn. Microsoft Word belgelerinde bu şekilde kullanılmaz ancak metin dosyalarında paragraf sonları için yaygın olarak kullanılır.
+linktitle: CrLf
+articleTitle: CrLf
+second_title: Aspose.Words for .NET
+description: ControlChar CrLf alan. Satır başı ve ardından satır besleme karakteri x000dx000a veya rn. Microsoft Word belgelerinde bu şekilde kullanılmaz ancak metin dosyalarında paragraf sonları için yaygın olarak kullanılır C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/controlchar/crlf/
@@ -14,7 +16,7 @@ Satır başı ve ardından satır besleme karakteri: "\x000d\x000a" veya "\r\n".
 public static readonly string CrLf;
 ```
 
-### Örnekler
+## Örnekler
 
 Bir belgeye çeşitli kontrol karakterlerinin nasıl ekleneceğini gösterir.
 
@@ -86,7 +88,5 @@ Assert.AreEqual(Convert.ToChar(ControlChar.ColumnBreak), ControlChar.ColumnBreak
 ### Ayrıca bakınız
 
 * class [ControlChar](../)
-* ad alanı [Aspose.Words](../../controlchar/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

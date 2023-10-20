@@ -1,7 +1,9 @@
 ---
 title: KnownTypeSet.Add
-second_title: Aspose.Words for .NET API 参考
-description: KnownTypeSet 方法. 添加指定的Type对象到集合投掷ArgumentException在 以下情况
+linktitle: Add
+articleTitle: Add
+second_title: 用于 .NET 的 Aspose.Words
+description: KnownTypeSet Add 方法. 添加指定的Type对象到集合投掷ArgumentException在 以下情况 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.reporting/knowntypeset/add/
@@ -33,7 +35,5 @@ public void Add(Type type)
 ### 也可以看看
 
 * class [KnownTypeSet](../)
-* 命名空间 [Aspose.Words.Reporting](../../knowntypeset/)
+* 命名空间 [Aspose.Words.Reporting](../../../aspose.words.reporting/)
 * 部件 [Aspose.Words](../../../)
-
-

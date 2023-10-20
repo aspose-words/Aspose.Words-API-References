@@ -1,7 +1,9 @@
 ---
 title: StyleCollection.Add
-second_title: Aspose.Words لمراجع .NET API
-description: StyleCollection طريقة. إنشاء نمط جديد محدد من قبل المستخدم وإضافته إلى المجموعة.
+linktitle: Add
+articleTitle: Add
+second_title: Aspose.Words لـ .NET
+description: StyleCollection Add طريقة. إنشاء نمط جديد محدد من قبل المستخدم وإضافته إلى المجموعة في C#.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/stylecollection/add/
@@ -19,7 +21,7 @@ public Style Add(StyleType type, string name)
 | type | StyleType | أ[`StyleType`](../../styletype/) القيمة التي تحدد نوع النمط المراد إنشاؤه. |
 | name | String | اسم النمط الذي سيتم إنشاؤه حساس لحالة الأحرف. |
 
-### ملاحظات
+## ملاحظات
 
 يمكنك إنشاء حرف أو فقرة أو نمط قائمة.
 
@@ -27,7 +29,7 @@ public Style Add(StyleType type, string name)
 
 يطرح استثناءً إذا كان النمط بهذا الاسم موجودًا بالفعل.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إضافة نمط إلى مجموعة أنماط المستند.
 
@@ -108,7 +110,5 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 * class [Style](../../style/)
 * enum [StyleType](../../styletype/)
 * class [StyleCollection](../)
-* مساحة الاسم [Aspose.Words](../../stylecollection/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

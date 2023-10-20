@@ -1,7 +1,9 @@
 ---
 title: Style.Aliases
-second_title: Aspose.Words för .NET API Referens
-description: Style fast egendom. Får alla alias för denna stil. Om stilen inte har några alias returneras tom array av sträng.
+linktitle: Aliases
+articleTitle: Aliases
+second_title: Aspose.Words för .NET
+description: Style Aliases fast egendom. Får alla alias för denna stil. Om stilen inte har några alias returneras tom array av sträng i C#.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/style/aliases/
@@ -14,7 +16,7 @@ Får alla alias för denna stil. Om stilen inte har några alias returneras tom 
 public string[] Aliases { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man använder stilalias.
 
@@ -45,7 +47,5 @@ Assert.AreEqual(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style,
 ### Se även
 
 * class [Style](../)
-* namnutrymme [Aspose.Words](../../style/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

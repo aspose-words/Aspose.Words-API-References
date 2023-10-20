@@ -1,7 +1,9 @@
 ---
 title: StructuredDocumentTag.Tag
-second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحدد علامة مرتبطة بعقدة SDT الحالية. لا يمكن أن يكونباطل .
+linktitle: Tag
+articleTitle: Tag
+second_title: Aspose.Words لـ .NET
+description: StructuredDocumentTag Tag ملكية. يحدد علامة مرتبطة بعقدة SDT الحالية. لا يمكن أن يكونباطل  في C#.
 type: docs
 weight: 280
 url: /ar/net/aspose.words.markup/structureddocumenttag/tag/
@@ -14,11 +16,11 @@ url: /ar/net/aspose.words.markup/structureddocumenttag/tag/
 public string Tag { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 العلامة عبارة عن سلسلة عشوائية يمكن للتطبيقات ربطها بـ SDT من أجل التعرف عليها دون تقديم اسم مألوف مرئي.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إنشاء علامة مستند منظمة في مربع نص عادي وتعديل مظهرها.
 
@@ -75,7 +77,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");
 ### أنظر أيضا
 
 * class [StructuredDocumentTag](../)
-* مساحة الاسم [Aspose.Words.Markup](../../structureddocumenttag/)
+* مساحة الاسم [Aspose.Words.Markup](../../../aspose.words.markup/)
 * المجسم [Aspose.Words](../../../)
-
-

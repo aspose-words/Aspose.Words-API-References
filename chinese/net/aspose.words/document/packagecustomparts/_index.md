@@ -1,7 +1,9 @@
 ---
 title: Document.PackageCustomParts
-second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取或设置使用未知关系链接到 OOXML 包的自定义部分任意内容的集合
+linktitle: PackageCustomParts
+articleTitle: PackageCustomParts
+second_title: 用于 .NET 的 Aspose.Words
+description: Document PackageCustomParts 财产. 获取或设置使用未知关系链接到 OOXML 包的自定义部分任意内容的集合 在 C#.
 type: docs
 weight: 310
 url: /zh/net/aspose.words/document/packagecustomparts/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/document/packagecustomparts/
 public CustomPartCollection PackageCustomParts { get; set; }
 ```
 
-### 评论
+## 评论
 
 不要将这些自定义部分与自定义 XML 数据混淆。如果您需要访问自定义 XML 部分， 使用[`CustomXmlParts`](../customxmlparts/)财产。
 
@@ -24,7 +26,7 @@ Aspose.Words 仅将自定义部件加载并保存到 OOXML 文档中。
 
 该属性不能`无效的`。
 
-### 例子
+## 例子
 
 演示如何访问文档的任意自定义部件集合。
 
@@ -69,7 +71,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 
 * class [CustomPartCollection](../../../aspose.words.markup/custompartcollection/)
 * class [Document](../)
-* 命名空间 [Aspose.Words](../../document/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

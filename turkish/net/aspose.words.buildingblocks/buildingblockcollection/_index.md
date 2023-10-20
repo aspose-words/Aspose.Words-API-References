@@ -1,7 +1,9 @@
 ---
-title: Class BuildingBlockCollection
-second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.BuildingBlocks.BuildingBlockCollection sınıf. Bir koleksiyonBuildingBlockbelgedeki nesneler.
+title: BuildingBlockCollection Class
+linktitle: BuildingBlockCollection
+articleTitle: BuildingBlockCollection
+second_title: Aspose.Words for .NET
+description: Aspose.Words.BuildingBlocks.BuildingBlockCollection sınıf. Bir koleksiyonBuildingBlockbelgedeki nesneler C#'da.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.buildingblocks/buildingblockcollection/
@@ -27,21 +29,21 @@ public class BuildingBlockCollection : NodeCollection
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Koleksiyonun sonuna bir düğüm ekler. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | Koleksiyonun sonuna bir düğüm ekler. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Tüm düğümleri bu koleksiyondan ve belgeden kaldırır. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bir düğümün koleksiyonda olup olmadığını belirler. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | Bir düğümün koleksiyonda olup olmadığını belirler. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğümlerin koleksiyonu üzerinde basit bir "foreach" stili yinelemesi sağlar. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Belirtilen düğümün sıfır tabanlı dizinini döndürür. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Belirtilen dizindeki koleksiyona bir düğüm ekler. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Düğümü koleksiyondan ve belgeden kaldırır. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Belirtilen dizindeki düğümü koleksiyondan ve belgeden kaldırır. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | Belirtilen düğümün sıfır tabanlı dizinini döndürür. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | Belirtilen dizindeki koleksiyona bir düğüm ekler. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../../aspose.words/node/)*) | Düğümü koleksiyondan ve belgeden kaldırır. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Belirtilen dizindeki düğümü koleksiyondan ve belgeden kaldırır. |
 | [ToArray](../../aspose.words.buildingblocks/buildingblockcollection/toarray/#toarray)() | Koleksiyondaki tüm yapı taşlarını yeni bir yapı taşı dizisine kopyalar. (2 methods) |
 
-### Notlar
+## Notlar
 
 Bu sınıfın örneklerini doğrudan oluşturmazsınız. yapı taşı koleksiyonuna erişmek için şunu kullanın:[`BuildingBlocks`](../glossarydocument/buildingblocks/) mülk.
 
-### Örnekler
+## Örnekler
 
 Bir sözlük belgesinde yapı taşlarına erişmenin yollarını gösterir.
 
@@ -147,5 +149,3 @@ public class GlossaryDocVisitor : DocumentVisitor
 * class [NodeCollection](../../aspose.words/nodecollection/)
 * ad alanı [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * toplantı [Aspose.Words](../../)
-
-

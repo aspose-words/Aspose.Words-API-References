@@ -1,7 +1,9 @@
 ---
 title: Run.NodeType
-second_title: Aspose.Words för .NET API Referens
-description: Run fast egendom. ReturnerarRun .
+linktitle: NodeType
+articleTitle: NodeType
+second_title: Aspose.Words för .NET
+description: Run NodeType fast egendom. ReturnerarRun  i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/run/nodetype/
@@ -14,7 +16,7 @@ ReturnerarRun .
 public override NodeType NodeType { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
@@ -62,7 +64,5 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 
 * enum [NodeType](../../nodetype/)
 * class [Run](../)
-* namnutrymme [Aspose.Words](../../run/)
+* namnutrymme [Aspose.Words](../../../aspose.words/)
 * hopsättning [Aspose.Words](../../../)
-
-

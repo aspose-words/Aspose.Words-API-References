@@ -1,7 +1,9 @@
 ---
-title: Class OdsoRecipientDataCollection
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Settings.OdsoRecipientDataCollection 班级. 的类型化集合OdsoRecipientData
+title: OdsoRecipientDataCollection Class
+linktitle: OdsoRecipientDataCollection
+articleTitle: OdsoRecipientDataCollection
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Settings.OdsoRecipientDataCollection 班级. 的类型化集合OdsoRecipientData 在 C#.
 type: docs
 weight: 5940
 url: /zh/net/aspose.words.settings/odsorecipientdatacollection/
@@ -33,12 +35,12 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(OdsoRecipientData) | 将一个对象添加到此集合的末尾。 |
+| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(*[OdsoRecipientData](../odsorecipientdata/)*) | 将一个对象添加到此集合的末尾。 |
 | [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | 从此集合中删除所有元素。 |
 | [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
-| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(int) | 删除指定索引处的元素。 |
+| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(*int*) | 删除指定索引处的元素。 |
 
-### 例子
+## 例子
 
 显示如何访问指定邮件合并将排除哪些合并数据源记录的数据集合。
 
@@ -80,5 +82,3 @@ Assert.AreEqual(0, dataCollection.Count);
 * class [OdsoRecipientData](../odsorecipientdata/)
 * 命名空间 [Aspose.Words.Settings](../../aspose.words.settings/)
 * 部件 [Aspose.Words](../../)
-
-

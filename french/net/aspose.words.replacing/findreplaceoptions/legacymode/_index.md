@@ -1,7 +1,9 @@
 ---
 title: FindReplaceOptions.LegacyMode
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FindReplaceOptions propriété. Obtient ou définit une valeur booléenne indiquant que lancien algorithme de recherche/remplacement est utilisé.
+linktitle: LegacyMode
+articleTitle: LegacyMode
+second_title: Aspose.Words pour .NET
+description: FindReplaceOptions LegacyMode propriété. Obtient ou définit une valeur booléenne indiquant que lancien algorithme de recherche/remplacement est utilisé en C#.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.replacing/findreplaceoptions/legacymode/
@@ -14,11 +16,11 @@ Obtient ou définit une valeur booléenne indiquant que l'ancien algorithme de r
 public bool LegacyMode { get; set; }
 ```
 
-### Remarques
+## Remarques
 
 Utilisez cet indicateur si vous avez besoin exactement du même comportement qu'avant l'introduction de la fonctionnalité avancée de recherche/remplacement. Notez que l'ancien algorithme ne prend pas en charge les fonctionnalités avancées telles que le remplacement par des sauts, l'application du formatage, etc.
 
-### Exemples
+## Exemples
 
 Montre comment reconnaître et utiliser les substitutions dans les modèles de remplacement.
 
@@ -44,7 +46,5 @@ Assert.AreEqual(doc.GetText(), "Paul took money from Jason.\f");
 ### Voir également
 
 * class [FindReplaceOptions](../)
-* espace de noms [Aspose.Words.Replacing](../../findreplaceoptions/)
+* espace de noms [Aspose.Words.Replacing](../../../aspose.words.replacing/)
 * Assemblée [Aspose.Words](../../../)
-
-

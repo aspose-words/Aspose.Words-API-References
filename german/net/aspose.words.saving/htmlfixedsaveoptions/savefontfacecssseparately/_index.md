@@ -1,7 +1,9 @@
 ---
 title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
-second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlFixedSaveOptions eigendom. Flag gibt an ob fontfaceCSSRegeln in einer separaten Datei fontFaces.css abgelegt werden sollen  wenn ein Dokument mit einem externen Stylesheet gespeichert wird d. h. wannExportEmbeddedCss istFALSCH . Der Standardwert istFALSCH  alle CSSRegeln werden in eine einzelne Datei styles.css geschrieben.
+linktitle: SaveFontFaceCssSeparately
+articleTitle: SaveFontFaceCssSeparately
+second_title: Aspose.Words für .NET
+description: HtmlFixedSaveOptions SaveFontFaceCssSeparately eigendom. Flag gibt an ob fontfaceCSSRegeln in einer separaten Datei fontFaces.css abgelegt werden sollen  wenn ein Dokument mit einem externen Stylesheet gespeichert wird d. h. wannExportEmbeddedCss istFALSCH . Der Standardwert istFALSCH  alle CSSRegeln werden in eine einzelne Datei styles.css geschrieben in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
@@ -14,11 +16,11 @@ Flag gibt an, ob „@font-face“-CSS-Regeln in einer separaten Datei „fontFac
 public bool SaveFontFaceCssSeparately { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Diese Eigenschaft festlegen auf`WAHR` stellt das alte Verhalten (separate Dateien) wieder her, um die Kompatibilität mit Legacy-Code zu gewährleisten.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man CSS in eine separate Datei einfügt und allen CSS-Klassennamen ein Präfix hinzufügt.
 
@@ -50,7 +52,5 @@ Assert.True(Regex.Match(outDocContents,
 ### Siehe auch
 
 * class [HtmlFixedSaveOptions](../)
-* namensraum [Aspose.Words.Saving](../../htmlfixedsaveoptions/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

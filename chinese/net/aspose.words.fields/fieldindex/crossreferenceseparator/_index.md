@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.CrossReferenceSeparator
-second_title: Aspose.Words for .NET API 参考
-description: FieldIndex 财产. 获取或设置用于分隔交叉引用和其他条目的字符序列
+linktitle: CrossReferenceSeparator
+articleTitle: CrossReferenceSeparator
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIndex CrossReferenceSeparator 财产. 获取或设置用于分隔交叉引用和其他条目的字符序列 在 C#.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldindex/crossreferenceseparator/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldindex/crossreferenceseparator/
 public string CrossReferenceSeparator { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何在 INDEX 字段中定义交叉引用。
 
@@ -64,7 +66,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.CrossReferenceSeparator.docx");
 ### 也可以看看
 
 * class [FieldIndex](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldindex/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-

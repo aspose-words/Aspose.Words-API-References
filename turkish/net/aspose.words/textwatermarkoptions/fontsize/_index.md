@@ -1,7 +1,9 @@
 ---
 title: TextWatermarkOptions.FontSize
-second_title: Aspose.Words for .NET API Referansı
-description: TextWatermarkOptions mülk. Yazı tipi boyutunu alır veya ayarlar. Varsayılan değer 0dır  auto.
+linktitle: FontSize
+articleTitle: FontSize
+second_title: Aspose.Words for .NET
+description: TextWatermarkOptions FontSize mülk. Yazı tipi boyutunu alır veya ayarlar. Varsayılan değer 0dır  auto C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/textwatermarkoptions/fontsize/
@@ -20,13 +22,13 @@ public float FontSize { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Bağımsız değişken geçerli değerler aralığının dışında olduğunda atar. |
 
-### Notlar
+## Notlar
 
 Geçerli değerler 0 ila 65,5 (dahil) arasındadır.
 
 Otomatik yazı tipi boyutu, filigranın sayfa kenar boşluklarına göre maksimum genişliğine ve maksimum yüksekliğine göre ölçeklendirileceği anlamına gelir.
 
-### Örnekler
+## Örnekler
 
 Metin filigranının nasıl oluşturulacağını gösterir.
 
@@ -57,7 +59,5 @@ if (doc.Watermark.Type == WatermarkType.Text)
 ### Ayrıca bakınız
 
 * class [TextWatermarkOptions](../)
-* ad alanı [Aspose.Words](../../textwatermarkoptions/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

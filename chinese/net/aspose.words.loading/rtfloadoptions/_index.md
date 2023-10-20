@@ -1,7 +1,9 @@
 ---
-title: Class RtfLoadOptions
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.RtfLoadOptions 班级. 允许在加载时指定附加选项Rtf文档成Document对象.
+title: RtfLoadOptions Class
+linktitle: RtfLoadOptions
+articleTitle: RtfLoadOptions
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.Loading.RtfLoadOptions 班级. 允许在加载时指定附加选项Rtf文档成Document对象 在 C#.
 type: docs
 weight: 3710
 url: /zh/net/aspose.words.loading/rtfloadoptions/
@@ -48,9 +50,9 @@ public class RtfLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.words.loading/loadoptions/equals/)(object) |  |
+| override [Equals](../../aspose.words.loading/loadoptions/equals/)(*object*) |  |
 
-### 例子
+## 例子
 
 演示如何在加载 RTF 文档时检测 UTF-8 字符。
 
@@ -79,5 +81,3 @@ Assert.AreEqual(
 * class [LoadOptions](../loadoptions/)
 * 命名空间 [Aspose.Words.Loading](../../aspose.words.loading/)
 * 部件 [Aspose.Words](../../)
-
-

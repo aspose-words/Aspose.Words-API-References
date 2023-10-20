@@ -1,9 +1,11 @@
 ---
 title: CompositeNode.SelectNodes
-second_title: Справочник по API Aspose.Words для .NET
-description: CompositeNode метод. Выбирает список узлов соответствующих выражению XPath.
+linktitle: SelectNodes
+articleTitle: SelectNodes
+second_title: Aspose.Words для .NET
+description: CompositeNode SelectNodes метод. Выбирает список узлов соответствующих выражению XPath на С#.
 type: docs
-weight: 210
+weight: 190
 url: /ru/net/aspose.words/compositenode/selectnodes/
 ---
 ## CompositeNode.SelectNodes method
@@ -22,11 +24,11 @@ public NodeList SelectNodes(string xpath)
 
 Список узлов, соответствующих запросу XPath.
 
-### Примечания
+## Примечания
 
 На данный момент поддерживаются только выражения с именами элементов. Выражения , использующие имена атрибутов, не поддерживаются.
 
-### Примеры
+## Примеры
 
 Показывает, как использовать выражение XPath для проверки того, находится ли узел внутри поля.
 
@@ -75,7 +77,5 @@ Assert.AreEqual(typeof(Paragraph), node.GetType());
 
 * class [NodeList](../../nodelist/)
 * class [CompositeNode](../)
-* пространство имен [Aspose.Words](../../compositenode/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

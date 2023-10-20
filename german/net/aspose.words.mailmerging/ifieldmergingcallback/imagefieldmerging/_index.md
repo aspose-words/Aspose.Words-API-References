@@ -1,7 +1,9 @@
 ---
 title: IFieldMergingCallback.ImageFieldMerging
-second_title: Aspose.Words für .NET-API-Referenz
-description: IFieldMergingCallback methode. Wird aufgerufen wenn die MailMergeEngine von Aspose.Words im Begriff ist ein Bild in ein Serienbrieffeld einzufügen.
+linktitle: ImageFieldMerging
+articleTitle: ImageFieldMerging
+second_title: Aspose.Words für .NET
+description: IFieldMergingCallback ImageFieldMerging methode. Wird aufgerufen wenn die MailMergeEngine von Aspose.Words im Begriff ist ein Bild in ein Serienbrieffeld einzufügen in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/
@@ -14,7 +16,7 @@ Wird aufgerufen, wenn die Mail-Merge-Engine von Aspose.Words im Begriff ist, ein
 public void ImageFieldMerging(ImageFieldMergingArgs args)
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie in einem Datenbank-BLOB-Feld gespeicherte Bilder in einen Bericht eingefügt werden.
 
@@ -64,7 +66,5 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 
 * class [ImageFieldMergingArgs](../../imagefieldmergingargs/)
 * interface [IFieldMergingCallback](../)
-* namensraum [Aspose.Words.MailMerging](../../ifieldmergingcallback/)
+* namensraum [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * Montage [Aspose.Words](../../../)
-
-

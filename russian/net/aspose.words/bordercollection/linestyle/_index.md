@@ -1,7 +1,9 @@
 ---
 title: BorderCollection.LineStyle
-second_title: Справочник по API Aspose.Words для .NET
-description: BorderCollection свойство. Получает или задает стиль границы.
+linktitle: LineStyle
+articleTitle: LineStyle
+second_title: Aspose.Words для .NET
+description: BorderCollection LineStyle свойство. Получает или задает стиль границы на С#.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/bordercollection/linestyle/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words/bordercollection/linestyle/
 public LineStyle LineStyle { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Возвращает стиль первой границы в коллекции.
 
 Задает стиль всех границ в коллекции, за исключением диагональных границ.
 
-### Примеры
+## Примеры
 
 Показывает, как создать зеленую волнистую рамку страницы с тенью.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "PageSetup.PageBorders.docx");
 
 * enum [LineStyle](../../linestyle/)
 * class [BorderCollection](../)
-* пространство имен [Aspose.Words](../../bordercollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

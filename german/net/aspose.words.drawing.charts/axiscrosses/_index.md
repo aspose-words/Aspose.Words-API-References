@@ -1,7 +1,9 @@
 ---
-title: Enum AxisCrosses
-second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.Charts.AxisCrosses opsomming. Gibt die möglichen Kreuzungspunkte für eine Achse an.
+title: AxisCrosses Enum
+linktitle: AxisCrosses
+articleTitle: AxisCrosses
+second_title: Aspose.Words für .NET
+description: Aspose.Words.Drawing.Charts.AxisCrosses opsomming. Gibt die möglichen Kreuzungspunkte für eine Achse an in C#.
 type: docs
 weight: 540
 url: /de/net/aspose.words.drawing.charts/axiscrosses/
@@ -23,7 +25,7 @@ public enum AxisCrosses
 | Minimum | `2` | Eine senkrechte Achse schneidet sich am Minimalwert der Achse. |
 | Custom | `3` | Eine senkrechte Achse schneidet sich am angegebenen Wert der Achse. |
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
 
@@ -77,5 +79,3 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 * namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
-
-

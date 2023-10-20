@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Paragraphs
-second_title: Aspose.Words for .NET API Referansı
-description: BuiltInDocumentProperties mülk. Belgedeki paragraf sayısına ilişkin bir tahmindir.
+linktitle: Paragraphs
+articleTitle: Paragraphs
+second_title: Aspose.Words for .NET
+description: BuiltInDocumentProperties Paragraphs mülk. Belgedeki paragraf sayısına ilişkin bir tahmindir C#'da.
 type: docs
 weight: 230
 url: /tr/net/aspose.words.properties/builtindocumentproperties/paragraphs/
@@ -14,11 +16,11 @@ Belgedeki paragraf sayısına ilişkin bir tahmindir.
 public int Paragraphs { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Aspose.Words aradığınızda bu özelliği günceller[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
-### Örnekler
+## Örnekler
 
 Bir belgedeki tüm liste etiketlerinin nasıl güncelleştirileceğini gösterir.
 
@@ -160,7 +162,5 @@ private class LineCounter
 ### Ayrıca bakınız
 
 * class [BuiltInDocumentProperties](../)
-* ad alanı [Aspose.Words.Properties](../../builtindocumentproperties/)
+* ad alanı [Aspose.Words.Properties](../../../aspose.words.properties/)
 * toplantı [Aspose.Words](../../../)
-
-

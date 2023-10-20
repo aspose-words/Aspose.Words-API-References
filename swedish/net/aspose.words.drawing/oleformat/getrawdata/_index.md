@@ -1,7 +1,9 @@
 ---
 title: OleFormat.GetRawData
-second_title: Aspose.Words för .NET API Referens
-description: OleFormat metod. Hämtar rådata för OLEobjekt.
+linktitle: GetRawData
+articleTitle: GetRawData
+second_title: Aspose.Words för .NET
+description: OleFormat GetRawData metod. Hämtar rådata för OLEobjekt i C#.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.drawing/oleformat/getrawdata/
@@ -14,7 +16,7 @@ Hämtar rådata för OLE-objekt.
 public byte[] GetRawData()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt rådata för ett inbäddat OLE-objekt.
 
@@ -37,7 +39,5 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
 ### Se även
 
 * class [OleFormat](../)
-* namnutrymme [Aspose.Words.Drawing](../../oleformat/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

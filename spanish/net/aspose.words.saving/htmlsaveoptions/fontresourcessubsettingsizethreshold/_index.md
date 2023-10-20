@@ -1,7 +1,9 @@
 ---
 title: HtmlSaveOptions.FontResourcesSubsettingSizeThreshold
-second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Controla qué recursos de fuentes necesitan subconjuntos al guardar en HTML MHTML o EPUB. El valor predeterminado es0 .
+linktitle: FontResourcesSubsettingSizeThreshold
+articleTitle: FontResourcesSubsettingSizeThreshold
+second_title: Aspose.Words para .NET
+description: HtmlSaveOptions FontResourcesSubsettingSizeThreshold propiedad. Controla qué recursos de fuentes necesitan subconjuntos al guardar en HTML MHTML o EPUB. El valor predeterminado es0  en C#.
 type: docs
 weight: 290
 url: /es/net/aspose.words.saving/htmlsaveoptions/fontresourcessubsettingsizethreshold/
@@ -14,7 +16,7 @@ Controla qué recursos de fuentes necesitan subconjuntos al guardar en HTML, MHT
 public int FontResourcesSubsettingSizeThreshold { get; set; }
 ```
 
-### Observaciones
+## Observaciones
 
 [`ExportFontResources`](../exportfontresources/) permite exportar fuentes como archivos subsidiarios o como partes del paquete output . Si el documento utiliza muchas fuentes, especialmente con una gran cantidad de glifos, el tamaño de salida puede crecer significativamente. El subconjunto de fuentes reduce el tamaño del recurso de fuente exportado al filtrar los glifos que no son utilizados por el documento actual.
 
@@ -24,9 +26,9 @@ El subconjunto de fuentes funciona de la siguiente manera:
 * Configuración`FontResourcesSubsettingSizeThreshold` un valor positivo indica a Aspose.Words que cree subconjuntos de fuentes cuyo tamaño de archivo sea mayor que el valor especificado.
 * Establecer la propiedad enMaxValue suprime el subconjunto de fuentes.
 
-**¡Importante!** Al exportar recursos de fuentes, se deben considerar cuestiones de licencia de fuentes. Los autores que deseen utilizar fuentes específicas a través de un mecanismo de fuente descargable siempre deben verificar cuidadosamente que el uso previsto esté dentro del alcance de la licencia de fuente. Actualmente, muchas fuentes comerciales no permiten la descarga web de sus fuentes en ningún formato. Los acuerdos de licencia que cubren algunas fuentes señalan específicamente que el uso a través de **@Perfil delantero** Rules en hojas de estilo CSS no está permitido. El subconjunto de fuentes también puede violar los términos de la licencia.
+**¡Importante!** Al exportar recursos de fuentes, se deben considerar cuestiones de licencia de fuentes. Los autores que deseen utilizar fuentes específicas a través de un mecanismo de fuente descargable siempre deben verificar cuidadosamente que el uso previsto esté dentro del alcance de la licencia de fuente. Actualmente, muchas fuentes comerciales no permiten la descarga web de sus fuentes en ningún formato. Los acuerdos de licencia que cubren algunas fuentes señalan específicamente que el uso a través de**@Perfil delantero** Rules en hojas de estilo CSS no está permitido. El subconjunto de fuentes también puede violar los términos de la licencia.
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo trabajar con subconjuntos de fuentes.
 
@@ -83,7 +85,5 @@ foreach (string filename in fontFileNames)
 ### Ver también
 
 * class [HtmlSaveOptions](../)
-* espacio de nombres [Aspose.Words.Saving](../../htmlsaveoptions/)
+* espacio de nombres [Aspose.Words.Saving](../../../aspose.words.saving/)
 * asamblea [Aspose.Words](../../../)
-
-

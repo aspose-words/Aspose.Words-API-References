@@ -1,7 +1,9 @@
 ---
 title: Font.NameBi
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Gibt den Namen der Schriftart in einem von rechts nach links verlaufenden Sprachdokument zurück oder legt ihn fest.
+linktitle: NameBi
+articleTitle: NameBi
+second_title: Aspose.Words für .NET
+description: Font NameBi eigendom. Gibt den Namen der Schriftart in einem von rechts nach links verlaufenden Sprachdokument zurück oder legt ihn fest in C#.
 type: docs
 weight: 250
 url: /de/net/aspose.words/font/namebi/
@@ -14,7 +16,7 @@ Gibt den Namen der Schriftart in einem von rechts nach links verlaufenden Sprach
 public string NameBi { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie separate Sätze von Schriftarteinstellungen für Text mit der Schreibrichtung von rechts nach links und von rechts nach links definiert werden.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "Font.Bidi.docx");
 
 * property [Name](../name/)
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Range.Revisions
-second_title: Aspose.Words for .NET API Referansı
-description: Range mülk. Bu aralıkta mevcut olan revizyonların izlenen değişiklikler bir koleksiyonunu alır.
+linktitle: Revisions
+articleTitle: Revisions
+second_title: Aspose.Words for .NET
+description: Range Revisions mülk. Bu aralıkta mevcut olan revizyonların izlenen değişiklikler bir koleksiyonunu alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/range/revisions/
@@ -14,11 +16,11 @@ Bu aralıkta mevcut olan revizyonların (izlenen değişiklikler) bir koleksiyon
 public RevisionCollection Revisions { get; }
 ```
 
-### Notlar
+## Notlar
 
 Döndürülen koleksiyon "canlı" bir koleksiyondur; yani bir belgenin düzeltmelerini içeren bölümlerini kaldırırsanız, silinen düzeltmeler bu koleksiyondan otomatik olarak kaybolacaktır.
 
-### Örnekler
+## Örnekler
 
 Aralıktaki revizyonlarla nasıl çalışılacağını gösterir.
 
@@ -40,7 +42,5 @@ doc.FirstSection.Range.Revisions.RejectAll();
 
 * class [RevisionCollection](../../revisioncollection/)
 * class [Range](../)
-* ad alanı [Aspose.Words](../../range/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldToa.EntryCategory
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldToa свойство. Получает или задает целочисленную категорию для записей включенных в таблицу.
+linktitle: EntryCategory
+articleTitle: EntryCategory
+second_title: Aspose.Words для .NET
+description: FieldToa EntryCategory свойство. Получает или задает целочисленную категорию для записей включенных в таблицу на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldtoa/entrycategory/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldtoa/entrycategory/
 public string EntryCategory { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как построить и настроить таблицу авторитетов, используя поля TOA и TA.
 
@@ -137,7 +139,5 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 ### Смотрите также
 
 * class [FieldToa](../)
-* пространство имен [Aspose.Words.Fields](../../fieldtoa/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

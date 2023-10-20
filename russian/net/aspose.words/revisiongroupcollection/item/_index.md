@@ -1,7 +1,9 @@
 ---
 title: RevisionGroupCollection.Item
-second_title: Справочник по API Aspose.Words для .NET
-description: RevisionGroupCollection свойство. Возвращает группу редакций по указанному индексу.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words для .NET
+description: RevisionGroupCollection Item свойство. Возвращает группу редакций по указанному индексу на С#.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/revisiongroupcollection/item/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words/revisiongroupcollection/item/
 public RevisionGroup this[int index] { get; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как получить группу редакций в документе.
 
@@ -28,7 +30,5 @@ RevisionGroup revisionGroup = doc.Revisions.Groups[0];
 
 * class [RevisionGroup](../../revisiongroup/)
 * class [RevisionGroupCollection](../)
-* пространство имен [Aspose.Words](../../revisiongroupcollection/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

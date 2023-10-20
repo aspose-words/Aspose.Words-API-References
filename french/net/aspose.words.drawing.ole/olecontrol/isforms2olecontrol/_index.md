@@ -1,7 +1,9 @@
 ---
 title: OleControl.IsForms2OleControl
-second_title: Référence de l'API Aspose.Words pour .NET
-description: OleControl propriété. Retoursvrai si le contrôle est unForms2OleControl .
+linktitle: IsForms2OleControl
+articleTitle: IsForms2OleControl
+second_title: Aspose.Words pour .NET
+description: OleControl IsForms2OleControl propriété. Retoursvrai si le contrôle est unForms2OleControl  en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
@@ -14,7 +16,7 @@ Retours`vrai` si le contrôle est un[`Forms2OleControl`](../../forms2olecontrol/
 public bool IsForms2OleControl { get; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment vérifier les propriétés d'un contrôle ActiveX.
 
@@ -44,7 +46,5 @@ if (oleControl.IsForms2OleControl)
 ### Voir également
 
 * class [OleControl](../)
-* espace de noms [Aspose.Words.Drawing.Ole](../../olecontrol/)
+* espace de noms [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * Assemblée [Aspose.Words](../../../)
-
-

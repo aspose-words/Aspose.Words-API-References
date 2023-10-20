@@ -1,7 +1,9 @@
 ---
 title: ShapeBase.WrapType
-second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Определяет является ли фигура строковой или плавающей. Для плавающих фигур определяет режим обтекания текста вокруг фигуры.
+linktitle: WrapType
+articleTitle: WrapType
+second_title: Aspose.Words для .NET
+description: ShapeBase WrapType свойство. Определяет является ли фигура строковой или плавающей. Для плавающих фигур определяет режим обтекания текста вокруг фигуры на С#.
 type: docs
 weight: 600
 url: /ru/net/aspose.words.drawing/shapebase/wraptype/
@@ -14,13 +16,13 @@ url: /ru/net/aspose.words.drawing/shapebase/wraptype/
 public WrapType WrapType { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию:None.
 
 Имеет эффект только для фигур верхнего уровня.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить плавающее изображение в центр страницы.
 
@@ -72,7 +74,5 @@ doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
 
 * enum [WrapType](../../wraptype/)
 * class [ShapeBase](../)
-* пространство имен [Aspose.Words.Drawing](../../shapebase/)
+* пространство имен [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../../)
-
-

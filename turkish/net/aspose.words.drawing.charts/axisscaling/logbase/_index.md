@@ -1,7 +1,9 @@
 ---
 title: AxisScaling.LogBase
-second_title: Aspose.Words for .NET API Referansı
-description: AxisScaling mülk. Logaritmik eksen için logaritmik tabanı alır veya ayarlar.
+linktitle: LogBase
+articleTitle: LogBase
+second_title: Aspose.Words for .NET
+description: AxisScaling LogBase mülk. Logaritmik eksen için logaritmik tabanı alır veya ayarlar C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/axisscaling/logbase/
@@ -14,7 +16,7 @@ Logaritmik eksen için logaritmik tabanı alır veya ayarlar.
 public double LogBase { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik MS Office 2016 yeni çizelgeleri tarafından desteklenmemektedir.
 
@@ -22,7 +24,7 @@ Kayan nokta değerinin geçerli aralığı 2'den büyük veya eşittir ve küç�
 
 Bu özelliğin ayarlanması,[`Type`](../type/) mülkiyetLogarithmic .
 
-### Örnekler
+## Örnekler
 
 Logaritmik ölçeklendirmenin bir grafik eksenine nasıl uygulanacağını gösterir.
 
@@ -56,7 +58,5 @@ doc.Save(ArtifactsDir + "Charts.AxisScaling.docx");
 ### Ayrıca bakınız
 
 * class [AxisScaling](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../axisscaling/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

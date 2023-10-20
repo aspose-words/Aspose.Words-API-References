@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeLineStyle
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.ShapeLineStyle uppräkning. Anger den sammansatta linjestilen för enShape .
+title: ShapeLineStyle Enum
+linktitle: ShapeLineStyle
+articleTitle: ShapeLineStyle
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.ShapeLineStyle uppräkning. Anger den sammansatta linjestilen för enShape  i C#.
 type: docs
 weight: 1270
 url: /sv/net/aspose.words.drawing/shapelinestyle/
@@ -25,7 +27,7 @@ public enum ShapeLineStyle
 | Triple | `4` | Tre linjer, tunn, tjock, tunn. |
 | Default | `0` | Standardvärdet ärSingle . |
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar slagegenskaper.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 * property [LineStyle](../stroke/linestyle/)
 * namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
-title: Class BookmarksOutlineLevelCollection
-second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.BookmarksOutlineLevelCollection classe. Une collection de niveaux de plan de signets individuels.
+title: BookmarksOutlineLevelCollection Class
+linktitle: BookmarksOutlineLevelCollection
+articleTitle: BookmarksOutlineLevelCollection
+second_title: Aspose.Words pour .NET
+description: Aspose.Words.Saving.BookmarksOutlineLevelCollection classe. Une collection de niveaux de plan de signets individuels en C#.
 type: docs
 weight: 4850
 url: /fr/net/aspose.words.saving/bookmarksoutlinelevelcollection/
@@ -33,21 +35,21 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(string, int) | Ajoute un signet à la collection. |
+| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(*string, int*) | Ajoute un signet à la collection. |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | Supprime tous les éléments de la collection. |
-| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(string) | Détermine si la collection contient un signet portant le nom donné. |
+| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | Détermine si la collection contient un signet portant le nom donné. |
 | [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection. |
-| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(string) | Renvoie l'index de base zéro du signet spécifié dans la collection. |
-| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(string) | Supprime un signet portant le nom spécifié de la collection. |
-| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(int) | Supprime un signet à l'index spécifié. |
+| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(*string*) | Renvoie l'index de base zéro du signet spécifié dans la collection. |
+| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(*string*) | Supprime un signet portant le nom spécifié de la collection. |
+| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(*int*) | Supprime un signet à l'index spécifié. |
 
-### Remarques
+## Remarques
 
 Key est un nom de signet de chaîne qui ne respecte pas la casse. La valeur est un niveau de plan de signet int.
 
 Le niveau de plan du signet peut être une valeur comprise entre 0 et 9. Spécifiez 0 et le signet Word ne sera pas affiché dans le plan du document. Spécifiez 1 et le signet Word sera affiché dans le plan du document au niveau 1 ; 2 pour le niveau 2 et ainsi de suite.
 
-### Exemples
+## Exemples
 
 Montre comment définir les niveaux de plan pour les signets.
 
@@ -106,5 +108,3 @@ outlineLevels.Clear();
 
 * espace de noms [Aspose.Words.Saving](../../aspose.words.saving/)
 * Assemblée [Aspose.Words](../../)
-
-

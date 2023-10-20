@@ -1,7 +1,9 @@
 ---
 title: CellFormat.BottomPadding
-second_title: Aspose.Words für .NET-API-Referenz
-description: CellFormat eigendom. Gibt den Abstand in Punkten zurück der unter dem Inhalt der Zelle hinzugefügt werden soll oder legt diesen fest.
+linktitle: BottomPadding
+articleTitle: BottomPadding
+second_title: Aspose.Words für .NET
+description: CellFormat BottomPadding eigendom. Gibt den Abstand in Punkten zurück der unter dem Inhalt der Zelle hinzugefügt werden soll oder legt diesen fest in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words.tables/cellformat/bottompadding/
@@ -14,7 +16,7 @@ Gibt den Abstand (in Punkten) zurück, der unter dem Inhalt der Zelle hinzugefü
 public double BottomPadding { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Zellen mit einem Document Builder formatiert werden.
 
@@ -61,7 +63,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ### Siehe auch
 
 * class [CellFormat](../)
-* namensraum [Aspose.Words.Tables](../../cellformat/)
+* namensraum [Aspose.Words.Tables](../../../aspose.words.tables/)
 * Montage [Aspose.Words](../../../)
-
-

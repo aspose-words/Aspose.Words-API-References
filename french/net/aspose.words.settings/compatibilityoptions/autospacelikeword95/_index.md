@@ -1,7 +1,9 @@
 ---
 title: CompatibilityOptions.AutoSpaceLikeWord95
-second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Émuler lespacement des caractères sur toute la largeur de Word 95.
+linktitle: AutoSpaceLikeWord95
+articleTitle: AutoSpaceLikeWord95
+second_title: Aspose.Words pour .NET
+description: CompatibilityOptions AutoSpaceLikeWord95 propriété. Émuler lespacement des caractères sur toute la largeur de Word 95 en C#.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.settings/compatibilityoptions/autospacelikeword95/
@@ -17,7 +19,5 @@ public bool AutoSpaceLikeWord95 { get; set; }
 ### Voir également
 
 * class [CompatibilityOptions](../)
-* espace de noms [Aspose.Words.Settings](../../compatibilityoptions/)
+* espace de noms [Aspose.Words.Settings](../../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../../)
-
-

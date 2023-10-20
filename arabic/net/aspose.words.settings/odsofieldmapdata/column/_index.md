@@ -1,7 +1,9 @@
 ---
 title: OdsoFieldMapData.Column
-second_title: Aspose.Words لمراجع .NET API
-description: OdsoFieldMapData ملكية. يحدد الفهرس الصفري للعمود داخل مصدر بيانات خارجي والذي يجب أن يتم تعيينه إلى الاسم المحلي لحقل MERGEFIELD محدد. القيمة الافتراضية هي 0.
+linktitle: Column
+articleTitle: Column
+second_title: Aspose.Words لـ .NET
+description: OdsoFieldMapData Column ملكية. يحدد الفهرس الصفري للعمود داخل مصدر بيانات خارجي والذي يجب أن يتم تعيينه إلى الاسم المحلي لحقل MERGEFIELD محدد. القيمة الافتراضية هي 0 في C#.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.settings/odsofieldmapdata/column/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.settings/odsofieldmapdata/column/
 public int Column { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
 
@@ -57,7 +59,5 @@ Assert.AreEqual(0, dataCollection.Count);
 ### أنظر أيضا
 
 * class [OdsoFieldMapData](../)
-* مساحة الاسم [Aspose.Words.Settings](../../odsofieldmapdata/)
+* مساحة الاسم [Aspose.Words.Settings](../../../aspose.words.settings/)
 * المجسم [Aspose.Words](../../../)
-
-

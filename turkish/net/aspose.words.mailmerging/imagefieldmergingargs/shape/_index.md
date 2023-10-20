@@ -1,7 +1,9 @@
 ---
 title: ImageFieldMergingArgs.Shape
-second_title: Aspose.Words for .NET API Referansı
-description: ImageFieldMergingArgs mülk. Adresmektup birleştirme motorunun belgeye eklemesi gereken şekli belirtir.
+linktitle: Shape
+articleTitle: Shape
+second_title: Aspose.Words for .NET
+description: ImageFieldMergingArgs Shape mülk. Adresmektup birleştirme motorunun belgeye eklemesi gereken şekli belirtir C#'da.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.mailmerging/imagefieldmergingargs/shape/
@@ -14,7 +16,7 @@ Adres-mektup birleştirme motorunun belgeye eklemesi gereken şekli belirtir.
 public Shape Shape { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Bu özellik belirtildiğinde, adres-mektup birleştirme motoru aşağıdaki gibi diğer tüm özellikleri yok sayar:[`ImageFileName`](../imagefilename/) veya[`ImageStream`](../imagestream/) ve şekli belgeye kolayca ekler.
 
@@ -24,7 +26,5 @@ Bir görüntü birleştirme alanını birleştirme işlemini tam olarak denetlem
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [ImageFieldMergingArgs](../)
-* ad alanı [Aspose.Words.MailMerging](../../imagefieldmergingargs/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

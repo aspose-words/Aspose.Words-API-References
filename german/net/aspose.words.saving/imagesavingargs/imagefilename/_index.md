@@ -1,7 +1,9 @@
 ---
 title: ImageSavingArgs.ImageFileName
-second_title: Aspose.Words für .NET-API-Referenz
-description: ImageSavingArgs eigendom. Ruft den Dateinamen ohne Pfad ab unter dem das Bild gespeichert wird oder legt diesen fest.
+linktitle: ImageFileName
+articleTitle: ImageFileName
+second_title: Aspose.Words für .NET
+description: ImageSavingArgs ImageFileName eigendom. Ruft den Dateinamen ohne Pfad ab unter dem das Bild gespeichert wird oder legt diesen fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/imagesavingargs/imagefilename/
@@ -14,7 +16,7 @@ Ruft den Dateinamen (ohne Pfad) ab, unter dem das Bild gespeichert wird, oder le
 public string ImageFileName { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Mit dieser Eigenschaft können Sie neu definieren, wie die Bilddateinamen beim Export nach HTML generiert werden .
 
@@ -28,7 +30,7 @@ Beim Speichern eines Dokuments in einem Stream sieht der Name der generierten Bi
 
 `ImageFileName` darf nur den Dateinamen ohne den Pfad enthalten. Aspose.Words bestimmt den Pfad zum Speichern und den Wert des`src` Attribut zum Schreiben von in HTML unter Verwendung des Dokumentdateinamens, des[`ImagesFolder`](../../htmlsaveoptions/imagesfolder/) and [`ImagesFolderAlias`](../../htmlsaveoptions/imagesfolderalias/) Eigenschaften.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Dokument in Teile aufteilt und diese speichert.
 
@@ -145,7 +147,5 @@ public class SavedImageRename : IImageSavingCallback
 ### Siehe auch
 
 * class [ImageSavingArgs](../)
-* namensraum [Aspose.Words.Saving](../../imagesavingargs/)
+* namensraum [Aspose.Words.Saving](../../../aspose.words.saving/)
 * Montage [Aspose.Words](../../../)
-
-

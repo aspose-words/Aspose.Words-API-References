@@ -1,7 +1,9 @@
 ---
-title: Class PageSavingArgs
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Saving.PageSavingArgs klass. Tillhandahåller data förPageSaving händelse.
+title: PageSavingArgs Class
+linktitle: PageSavingArgs
+articleTitle: PageSavingArgs
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Saving.PageSavingArgs klass. Tillhandahåller data förPageSaving händelse i C#.
 type: docs
 weight: 5380
 url: /sv/net/aspose.words.saving/pagesavingargs/
@@ -31,7 +33,7 @@ public class PageSavingArgs
 | [PageIndex](../../aspose.words.saving/pagesavingargs/pageindex/) { get; } | Aktuellt sidindex. |
 | [PageStream](../../aspose.words.saving/pagesavingargs/pagestream/) { get; set; } | Tillåter att ange strömmen där dokumentsidan ska sparas. |
 
-### Exempel
+## Exempel
 
 Visar hur man använder en återuppringning för att spara ett dokument i HTML sida för sida.
 
@@ -89,5 +91,3 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
 
 * namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: DigitalSignature.IssuerName
-second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignature ملكية. إرجاع الاسم المميز للموضوع الخاص بمصدر الشهادة.
+linktitle: IssuerName
+articleTitle: IssuerName
+second_title: Aspose.Words لـ .NET
+description: DigitalSignature IssuerName ملكية. إرجاع الاسم المميز للموضوع الخاص بمصدر الشهادة في C#.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.digitalsignatures/digitalsignature/issuername/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.digitalsignatures/digitalsignature/issuername/
 public string IssuerName { get; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية توقيع المستندات بشهادات X.509.
 
@@ -57,7 +59,5 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ### أنظر أيضا
 
 * class [DigitalSignature](../)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignature/)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../../aspose.words.digitalsignatures/)
 * المجسم [Aspose.Words](../../../)
-
-

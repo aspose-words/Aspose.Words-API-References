@@ -1,7 +1,9 @@
 ---
 title: Node.Document
-second_title: Aspose.Words for .NET API 参考
-description: Node 财产. 获取该节点所属的文档
+linktitle: Document
+articleTitle: Document
+second_title: 用于 .NET 的 Aspose.Words
+description: Node Document 财产. 获取该节点所属的文档 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/node/document/
@@ -14,11 +16,11 @@ url: /zh/net/aspose.words/node/document/
 public virtual DocumentBase Document { get; }
 ```
 
-### 评论
+## 评论
 
 该节点始终属于文档，即使它刚刚创建 并且尚未添加到树中，或者已从树中删除。
 
-### 例子
+## 例子
 
 展示如何创建节点并设置其所属文档。
 
@@ -51,7 +53,5 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 * class [DocumentBase](../../documentbase/)
 * class [Node](../)
-* 命名空间 [Aspose.Words](../../node/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

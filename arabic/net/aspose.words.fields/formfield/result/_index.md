@@ -1,7 +1,9 @@
 ---
 title: FormField.Result
-second_title: Aspose.Words لمراجع .NET API
-description: FormField ملكية. الحصول على أو تعيين سلسلة تمثل نتيجة حقل النموذج هذا.
+linktitle: Result
+articleTitle: Result
+second_title: Aspose.Words لـ .NET
+description: FormField Result ملكية. الحصول على أو تعيين سلسلة تمثل نتيجة حقل النموذج هذا في C#.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.fields/formfield/result/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/formfield/result/
 public string Result { get; set; }
 ```
 
-### ملاحظات
+## ملاحظات
 
 بالنسبة لحقل نموذج النص، تكون النتيجة هي النص الموجود في الحقل.
 
@@ -26,7 +28,7 @@ public string Result { get; set; }
 
 بالنسبة لحقل نموذج نصي[`TextInputDefault`](../textinputdefault/) يتم تطبيق القيمة إذا*value* يكون`باطل`.
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج مربع التحرير والسرد.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 ### أنظر أيضا
 
 * class [FormField](../)
-* مساحة الاسم [Aspose.Words.Fields](../../formfield/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

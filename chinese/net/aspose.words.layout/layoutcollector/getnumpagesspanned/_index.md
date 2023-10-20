@@ -1,7 +1,9 @@
 ---
 title: LayoutCollector.GetNumPagesSpanned
-second_title: Aspose.Words for .NET API 参考
-description: LayoutCollector 方法. 获取指定节点跨越的页数如果节点位于单个页面内则为 0 这与GetEndPageIndexGetStartPageIndex.
+linktitle: GetNumPagesSpanned
+articleTitle: GetNumPagesSpanned
+second_title: 用于 .NET 的 Aspose.Words
+description: LayoutCollector GetNumPagesSpanned 方法. 获取指定节点跨越的页数如果节点位于单个页面内则为 0 这与GetEndPageIndexGetStartPageIndex 在 C#.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.layout/layoutcollector/getnumpagesspanned/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.layout/layoutcollector/getnumpagesspanned/
 public int GetNumPagesSpanned(Node node)
 ```
 
-### 例子
+## 例子
 
 演示如何查看节点跨越的页面范围。
 
@@ -73,7 +75,5 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 * class [Node](../../../aspose.words/node/)
 * class [LayoutCollector](../)
-* 命名空间 [Aspose.Words.Layout](../../layoutcollector/)
+* 命名空间 [Aspose.Words.Layout](../../../aspose.words.layout/)
 * 部件 [Aspose.Words](../../../)
-
-

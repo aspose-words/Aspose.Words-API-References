@@ -1,7 +1,9 @@
 ---
 title: MarkdownSaveOptions.ImagesFolder
-second_title: Aspose.Words for .NET API 参考
-description: MarkdownSaveOptions 财产. 指定将文档导出到 时保存图像的物理文件夹Markdown格式默认为空字符串
+linktitle: ImagesFolder
+articleTitle: ImagesFolder
+second_title: 用于 .NET 的 Aspose.Words
+description: MarkdownSaveOptions ImagesFolder 财产. 指定将文档导出到 时保存图像的物理文件夹Markdown格式默认为空字符串 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/markdownsaveoptions/imagesfolder/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/markdownsaveoptions/imagesfolder/
 public string ImagesFolder { get; set; }
 ```
 
-### 评论
+## 评论
 
 当您保存[`Document`](../../../aspose.words/document/)在Markdown格式, Aspose.Words 需要将文档中嵌入的所有图像保存为独立文件。 `ImagesFolder`允许您指定图像的保存位置。
 
@@ -24,7 +26,7 @@ public string ImagesFolder { get; set; }
 
 如果指定的文件夹`ImagesFolder`不存在，将自动创建。
 
-### 例子
+## 例子
 
 演示如何指定用于构造图像 URI 的文件夹的名称。
 
@@ -69,7 +71,5 @@ builder.Document.Save(ArtifactsDir + "MarkdownSaveOptions.ImagesFolder.md", save
 ### 也可以看看
 
 * class [MarkdownSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../markdownsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

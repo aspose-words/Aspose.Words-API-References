@@ -1,7 +1,9 @@
 ---
 title: PageSetup.RtlGutter
-second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Ruft ab oder legt fest ob Microsoft Word für den Abschnitt Zwischenstege basierend auf einer RechtsnachLinksSprache oder einer LinksnachrechtsSprache verwendet.
+linktitle: RtlGutter
+articleTitle: RtlGutter
+second_title: Aspose.Words für .NET
+description: PageSetup RtlGutter eigendom. Ruft ab oder legt fest ob Microsoft Word für den Abschnitt Zwischenstege basierend auf einer RechtsnachLinksSprache oder einer LinksnachrechtsSprache verwendet in C#.
 type: docs
 weight: 380
 url: /de/net/aspose.words/pagesetup/rtlgutter/
@@ -14,7 +16,7 @@ Ruft ab oder legt fest, ob Microsoft Word für den Abschnitt Zwischenstege basie
 public bool RtlGutter { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie Bundstegränder festgelegt werden.
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
 ### Siehe auch
 
 * class [PageSetup](../)
-* namensraum [Aspose.Words](../../pagesetup/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

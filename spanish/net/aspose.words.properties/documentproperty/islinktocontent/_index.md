@@ -1,7 +1,9 @@
 ---
 title: DocumentProperty.IsLinkToContent
-second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentProperty propiedad. Muestra si esta propiedad está vinculada al contenido o no.
+linktitle: IsLinkToContent
+articleTitle: IsLinkToContent
+second_title: Aspose.Words para .NET
+description: DocumentProperty IsLinkToContent propiedad. Muestra si esta propiedad está vinculada al contenido o no en C#.
 type: docs
 weight: 10
 url: /es/net/aspose.words.properties/documentproperty/islinktocontent/
@@ -14,7 +16,7 @@ Muestra si esta propiedad está vinculada al contenido o no.
 public bool IsLinkToContent { get; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo vincular una propiedad de documento personalizada a un marcador.
 
@@ -41,7 +43,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookma
 ### Ver también
 
 * class [DocumentProperty](../)
-* espacio de nombres [Aspose.Words.Properties](../../documentproperty/)
+* espacio de nombres [Aspose.Words.Properties](../../../aspose.words.properties/)
 * asamblea [Aspose.Words](../../../)
-
-

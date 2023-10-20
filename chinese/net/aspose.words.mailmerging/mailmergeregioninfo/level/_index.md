@@ -1,7 +1,9 @@
 ---
 title: MailMergeRegionInfo.Level
-second_title: Aspose.Words for .NET API 参考
-description: MailMergeRegionInfo 财产. 返回区域的嵌套级别
+linktitle: Level
+articleTitle: Level
+second_title: 用于 .NET 的 Aspose.Words
+description: MailMergeRegionInfo Level 财产. 返回区域的嵌套级别 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.mailmerging/mailmergeregioninfo/level/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.mailmerging/mailmergeregioninfo/level/
 public int Level { get; }
 ```
 
-### 例子
+## 例子
 
 演示如何验证邮件合并区域。
 
@@ -59,7 +61,5 @@ Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ### 也可以看看
 
 * class [MailMergeRegionInfo](../)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmergeregioninfo/)
+* 命名空间 [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../../)
-
-

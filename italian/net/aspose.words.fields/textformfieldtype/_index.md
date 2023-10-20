@@ -1,7 +1,9 @@
 ---
-title: Enum TextFormFieldType
-second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fields.TextFormFieldType enum. Specifica il tipo di un campo modulo di testo.
+title: TextFormFieldType Enum
+linktitle: TextFormFieldType
+articleTitle: TextFormFieldType
+second_title: Aspose.Words per .NET
+description: Aspose.Words.Fields.TextFormFieldType enum. Specifica il tipo di un campo modulo di testo in C#.
 type: docs
 weight: 2770
 url: /it/net/aspose.words.fields/textformfieldtype/
@@ -25,7 +27,7 @@ public enum TextFormFieldType
 | CurrentTime | `4` | Il valore del campo del modulo di testo è l'ora corrente in cui il campo viene aggiornato. |
 | Calculated | `5` | Il valore del campo del modulo di testo viene calcolato dall'espressione specificata in il[`TextInputDefault`](../formfield/textinputdefault/) proprietà. |
 
-### Esempi
+## Esempi
 
 Mostra come creare campi modulo.
 
@@ -54,5 +56,3 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 
 * spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
-
-

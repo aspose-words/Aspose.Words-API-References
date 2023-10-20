@@ -1,7 +1,9 @@
 ---
 title: CustomPart.Name
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomPart eigendom. Ruft den absoluten Namen dieses Teils innerhalb des OOXMLPakets oder der ZielURL ab oder legt diesen fest.
+linktitle: Name
+articleTitle: Name
+second_title: Aspose.Words für .NET
+description: CustomPart Name eigendom. Ruft den absoluten Namen dieses Teils innerhalb des OOXMLPakets oder der ZielURL ab oder legt diesen fest in C#.
 type: docs
 weight: 50
 url: /de/net/aspose.words.markup/custompart/name/
@@ -14,13 +16,13 @@ Ruft den absoluten Namen dieses Teils innerhalb des OOXML-Pakets oder der Ziel-U
 public string Name { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 Wenn das Beziehungsziel intern ist, ist diese Eigenschaft der absolute Teilname innerhalb des Pakets. Wenn das Beziehungsziel extern ist, ist diese Eigenschaft die Ziel-URL.
 
 Der Standardwert ist eine leere Zeichenfolge. Ein gültiger Wert muss eine nicht leere Zeichenfolge sein.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie auf die beliebige benutzerdefinierte Teilesammlung eines Dokuments zugegriffen wird.
 
@@ -64,7 +66,5 @@ Assert.AreEqual(0, doc.PackageCustomParts.Count);
 ### Siehe auch
 
 * class [CustomPart](../)
-* namensraum [Aspose.Words.Markup](../../custompart/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

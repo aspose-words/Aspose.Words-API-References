@@ -1,7 +1,9 @@
 ---
 title: DocumentBuilder.InsertComboBox
-second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Вставляет поле формы со списком в текущую позицию.
+linktitle: InsertComboBox
+articleTitle: InsertComboBox
+second_title: Aspose.Words для .NET
+description: DocumentBuilder InsertComboBox метод. Вставляет поле формы со списком в текущую позицию на С#.
 type: docs
 weight: 300
 url: /ru/net/aspose.words/documentbuilder/insertcombobox/
@@ -24,11 +26,11 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 Узел поля формы, который был только что вставлен.
 
-### Примечания
+## Примечания
 
 Если вы укажете имя для поля формы, то автоматически создастся закладка с таким же именем.
 
-### Примеры
+## Примеры
 
 Показывает, как вставить поле формы со списком в документ.
 
@@ -71,7 +73,5 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
 
 * class [FormField](../../../aspose.words.fields/formfield/)
 * class [DocumentBuilder](../)
-* пространство имен [Aspose.Words](../../documentbuilder/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

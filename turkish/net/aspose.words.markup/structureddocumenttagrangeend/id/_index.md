@@ -1,20 +1,22 @@
 ---
 title: StructuredDocumentTagRangeEnd.Id
-second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeEnd mülk. Bunun için benzersiz salt okunur kalıcı bir sayısal kimlik belirtir YapılandırılmışBelgeTagAralığı node. Karşılık gelenStructuredDocumentTagRangeStart düğüm aynısına sahipId .
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words for .NET
+description: StructuredDocumentTagRangeEnd Id mülk. Bunun için benzersiz salt okunur kalıcı bir sayısal kimlik belirtirYapılandırılmışBelgeTagAralığı node. Karşılık gelenStructuredDocumentTagRangeStart düğüm aynısına sahipId  C#'da.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-Bunun için benzersiz, salt okunur, kalıcı bir sayısal kimlik belirtir **YapılandırılmışBelgeTagAralığı** node. Karşılık gelen[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) düğüm aynısına sahip[`Id`](../../structureddocumenttagrangestart/id/) .
+Bunun için benzersiz, salt okunur, kalıcı bir sayısal kimlik belirtir**YapılandırılmışBelgeTagAralığı** node. Karşılık gelen[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) düğüm aynısına sahip[`Id`](../../structureddocumenttagrangestart/id/) .
 
 ```csharp
 public int Id { get; }
 ```
 
-### Örnekler
+## Örnekler
 
 Çok bölümlü yapılandırılmış belge etiketlerinin özelliklerinin nasıl alınacağını gösterir.
 
@@ -49,7 +51,5 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### Ayrıca bakınız
 
 * class [StructuredDocumentTagRangeEnd](../)
-* ad alanı [Aspose.Words.Markup](../../structureddocumenttagrangeend/)
+* ad alanı [Aspose.Words.Markup](../../../aspose.words.markup/)
 * toplantı [Aspose.Words](../../../)
-
-

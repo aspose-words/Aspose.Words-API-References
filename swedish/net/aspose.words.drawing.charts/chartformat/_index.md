@@ -1,7 +1,9 @@
 ---
-title: Class ChartFormat
-second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Drawing.Charts.ChartFormat klass. Representerar formateringen av ett diagramelement.
+title: ChartFormat Class
+linktitle: ChartFormat
+articleTitle: ChartFormat
+second_title: Aspose.Words för .NET
+description: Aspose.Words.Drawing.Charts.ChartFormat klass. Representerar formateringen av ett diagramelement i C#.
 type: docs
 weight: 710
 url: /sv/net/aspose.words.drawing.charts/chartformat/
@@ -21,19 +23,10 @@ public class ChartFormat
 | namn | Beskrivning |
 | --- | --- |
 | [Fill](../../aspose.words.drawing.charts/chartformat/fill/) { get; } | Får fyllningsformatering för det överordnade diagramelementet. |
-| [IsDefined](../../aspose.words.drawing.charts/chartformat/isdefined/) { get; } |  |
 | [ShapeType](../../aspose.words.drawing.charts/chartformat/shapetype/) { get; set; } | Hämtar eller ställer in formtypen för det överordnade diagramelementet. |
 | [Stroke](../../aspose.words.drawing.charts/chartformat/stroke/) { get; } | Hämtar linjeformatering för det överordnade diagramelementet. |
-
-## Metoder
-
-| namn | Beskrivning |
-| --- | --- |
-| [SetDefaultFill](../../aspose.words.drawing.charts/chartformat/setdefaultfill/)() |  |
 
 ### Se även
 
 * namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FieldMergingArgsBase.FieldName
-second_title: Aspose.Words for .NET API Referansı
-description: FieldMergingArgsBase mülk. Veri kaynağındaki birleştirme alanının adını alır.
+linktitle: FieldName
+articleTitle: FieldName
+second_title: Aspose.Words for .NET
+description: FieldMergingArgsBase FieldName mülk. Veri kaynağındaki birleştirme alanının adını alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
@@ -14,13 +16,13 @@ Veri kaynağındaki birleştirme alanının adını alır.
 public string FieldName { get; }
 ```
 
-### Notlar
+## Notlar
 
 Bir belge alanı adından farklı bir veri kaynağı alan adına ( ) eşlemeniz varsa bu, eşlenen alan adıdır.
 
 Belgede "Resim:AlanAdım" gibi bir alan adı öneki belirttiyseniz, ardından`FieldName` "AlanAdım" öneki olmadan alan adını döndürür.
 
-### Örnekler
+## Örnekler
 
 Adres-mektup birleştirme sırasında onay kutusu form alanlarının MERGEFIELD'lere birleştirme verileri olarak nasıl ekleneceğini gösterir.
 
@@ -106,7 +108,5 @@ private static DataTable GetStudentCourseDataTable()
 ### Ayrıca bakınız
 
 * class [FieldMergingArgsBase](../)
-* ad alanı [Aspose.Words.MailMerging](../../fieldmergingargsbase/)
+* ad alanı [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * toplantı [Aspose.Words](../../../)
-
-

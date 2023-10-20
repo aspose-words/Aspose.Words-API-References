@@ -1,7 +1,9 @@
 ---
 title: ImageSaveOptions.ThresholdForFloydSteinbergDithering
-second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions свойство. Получает или задает порог определяющий значение ошибки бинаризации в методе ФлойдаСтейнберга.  когдаImageBinarizationMethod являетсяFloydSteinbergDithering .
+linktitle: ThresholdForFloydSteinbergDithering
+articleTitle: ThresholdForFloydSteinbergDithering
+second_title: Aspose.Words для .NET
+description: ImageSaveOptions ThresholdForFloydSteinbergDithering свойство. Получает или задает порог определяющий значение ошибки бинаризации в методе ФлойдаСтейнберга.  когдаImageBinarizationMethod являетсяFloydSteinbergDithering  на С#.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/
@@ -14,11 +16,11 @@ url: /ru/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdith
 public byte ThresholdForFloydSteinbergDithering { get; set; }
 ```
 
-### Примечания
+## Примечания
 
 Значение по умолчанию — 128.
 
-### Примеры
+## Примеры
 
 Показывает, как установить порог ошибки бинаризации TIFF при использовании метода Флойда-Стейнберга для рендеринга изображения TIFF.
 
@@ -47,7 +49,5 @@ doc.Save(ArtifactsDir + "ImageSaveOptions.FloydSteinbergDithering.tiff", options
 ### Смотрите также
 
 * class [ImageSaveOptions](../)
-* пространство имен [Aspose.Words.Saving](../../imagesaveoptions/)
+* пространство имен [Aspose.Words.Saving](../../../aspose.words.saving/)
 * сборка [Aspose.Words](../../../)
-
-

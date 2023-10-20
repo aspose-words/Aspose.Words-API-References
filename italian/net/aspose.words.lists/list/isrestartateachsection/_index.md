@@ -1,7 +1,9 @@
 ---
 title: List.IsRestartAtEachSection
-second_title: Aspose.Words per .NET API Reference
-description: List proprietà. Specifica se lelenco deve essere riavviato a ogni sezione. Il valore predefinito èfalso .
+linktitle: IsRestartAtEachSection
+articleTitle: IsRestartAtEachSection
+second_title: Aspose.Words per .NET
+description: List IsRestartAtEachSection proprietà. Specifica se lelenco deve essere riavviato a ogni sezione. Il valore predefinito èfalso  in C#.
 type: docs
 weight: 50
 url: /it/net/aspose.words.lists/list/isrestartateachsection/
@@ -14,13 +16,13 @@ Specifica se l'elenco deve essere riavviato a ogni sezione. Il valore predefinit
 public bool IsRestartAtEachSection { get; set; }
 ```
 
-### Osservazioni
+## Osservazioni
 
 Questa opzione è supportata solo nei formati di documenti RTF, DOC e DOCX.
 
 Questa opzione verrà scritta in DOCX solo se[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) è più alto quindiEcma376_2006.
 
-### Esempi
+## Esempi
 
 Mostra come configurare un elenco per riavviare la numerazione in ciascuna sezione.
 
@@ -58,7 +60,5 @@ Assert.AreEqual(restartListAtEachSection, doc.Lists[0].IsRestartAtEachSection);
 ### Guarda anche
 
 * class [List](../)
-* spazio dei nomi [Aspose.Words.Lists](../../list/)
+* spazio dei nomi [Aspose.Words.Lists](../../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: PreferredWidth.ToString
-second_title: Aspose.Words för .NET API Referens
-description: PreferredWidth metod. Returnerar en användarvänlig sträng som visar värdet på detta objekt.
+linktitle: ToString
+articleTitle: ToString
+second_title: Aspose.Words för .NET
+description: PreferredWidth ToString metod. Returnerar en användarvänlig sträng som visar värdet på detta objekt i C#.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.tables/preferredwidth/tostring/
@@ -14,7 +16,7 @@ Returnerar en användarvänlig sträng som visar värdet på detta objekt.
 public override string ToString()
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ställer in en föredragen bredd för tabellceller.
 
@@ -54,7 +56,5 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 ### Se även
 
 * class [PreferredWidth](../)
-* namnutrymme [Aspose.Words.Tables](../../preferredwidth/)
+* namnutrymme [Aspose.Words.Tables](../../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../../)
-
-

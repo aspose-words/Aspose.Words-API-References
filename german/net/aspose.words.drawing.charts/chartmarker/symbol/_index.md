@@ -1,7 +1,9 @@
 ---
 title: ChartMarker.Symbol
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartMarker eigendom. Ruft das Diagrammmarkierungssymbol ab oder legt es fest.
+linktitle: Symbol
+articleTitle: Symbol
+second_title: Aspose.Words für .NET
+description: ChartMarker Symbol eigendom. Ruft das Diagrammmarkierungssymbol ab oder legt es fest in C#.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.charts/chartmarker/symbol/
@@ -14,7 +16,7 @@ Ruft das Diagrammmarkierungssymbol ab oder legt es fest.
 public MarkerSymbol Symbol { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit Datenpunkten in einem Liniendiagramm gearbeitet wird.
 
@@ -77,7 +79,5 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
 
 * enum [MarkerSymbol](../../markersymbol/)
 * class [ChartMarker](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../chartmarker/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

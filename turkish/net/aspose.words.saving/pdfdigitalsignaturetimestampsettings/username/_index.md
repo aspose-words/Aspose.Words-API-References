@@ -1,7 +1,9 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.UserName
-second_title: Aspose.Words for .NET API Referansı
-description: PdfDigitalSignatureTimestampSettings mülk. Zaman damgası sunucusu kullanıcı adı.
+linktitle: UserName
+articleTitle: UserName
+second_title: Aspose.Words for .NET
+description: PdfDigitalSignatureTimestampSettings UserName mülk. Zaman damgası sunucusu kullanıcı adı C#'da.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/username/
@@ -14,11 +16,11 @@ Zaman damgası sunucusu kullanıcı adı.
 public string UserName { get; set; }
 ```
 
-### Notlar
+## Notlar
 
 Varsayılan değer:`hükümsüz` .
 
-### Örnekler
+## Örnekler
 
 Kaydedilmiş bir PDF belgesinin dijital olarak nasıl imzalanacağını ve ona zaman damgasının nasıl damgalanacağını gösterir.
 
@@ -58,7 +60,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 ### Ayrıca bakınız
 
 * class [PdfDigitalSignatureTimestampSettings](../)
-* ad alanı [Aspose.Words.Saving](../../pdfdigitalsignaturetimestampsettings/)
+* ad alanı [Aspose.Words.Saving](../../../aspose.words.saving/)
 * toplantı [Aspose.Words](../../../)
-
-

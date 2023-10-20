@@ -1,7 +1,9 @@
 ---
 title: EditableRangeStart.Id
-second_title: Aspose.Words for .NET API 参考
-description: EditableRangeStart 财产. 指定可编辑范围的标识符
+linktitle: Id
+articleTitle: Id
+second_title: 用于 .NET 的 Aspose.Words
+description: EditableRangeStart Id 财产. 指定可编辑范围的标识符 在 C#.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/editablerangestart/id/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/editablerangestart/id/
 public int Id { get; set; }
 ```
 
-### 例子
+## 例子
 
 展示如何使用可编辑范围。
 
@@ -60,7 +62,5 @@ editableRange.Remove();
 ### 也可以看看
 
 * class [EditableRangeStart](../)
-* 命名空间 [Aspose.Words](../../editablerangestart/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

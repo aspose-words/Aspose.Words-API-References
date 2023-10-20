@@ -1,7 +1,9 @@
 ---
 title: CommentRangeStart.Id
-second_title: Aspose.Words für .NET-API-Referenz
-description: CommentRangeStart eigendom. Gibt die Kennung des Kommentars an mit dem diese Region verknüpft ist.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words für .NET
+description: CommentRangeStart Id eigendom. Gibt die Kennung des Kommentars an mit dem diese Region verknüpft ist in C#.
 type: docs
 weight: 20
 url: /de/net/aspose.words/commentrangestart/id/
@@ -14,7 +16,7 @@ Gibt die Kennung des Kommentars an, mit dem diese Region verknüpft ist.
 public int Id { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie der Inhalt aller Kommentare und deren Kommentarbereiche mithilfe eines Dokumentbesuchers gedruckt wird.
 
@@ -175,7 +177,5 @@ public class CommentInfoPrinter : DocumentVisitor
 ### Siehe auch
 
 * class [CommentRangeStart](../)
-* namensraum [Aspose.Words](../../commentrangestart/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

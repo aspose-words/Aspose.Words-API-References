@@ -1,7 +1,9 @@
 ---
 title: CustomXmlPart.Id
-second_title: Aspose.Words für .NET-API-Referenz
-description: CustomXmlPart eigendom. Ruft die Zeichenfolge ab die diesen benutzerdefinierten XMLTeil in einem OOXMLDokument identifiziert oder legt diese fest.
+linktitle: Id
+articleTitle: Id
+second_title: Aspose.Words für .NET
+description: CustomXmlPart Id eigendom. Ruft die Zeichenfolge ab die diesen benutzerdefinierten XMLTeil in einem OOXMLDokument identifiziert oder legt diese fest in C#.
 type: docs
 weight: 40
 url: /de/net/aspose.words.markup/customxmlpart/id/
@@ -14,7 +16,7 @@ Ruft die Zeichenfolge ab, die diesen benutzerdefinierten XML-Teil in einem OOXML
 public string Id { get; set; }
 ```
 
-### Bemerkungen
+## Bemerkungen
 
 ISO/IEC 29500 gibt an, dass dieser Wert eine GUID ist, aber alte Versionen von Microsoft Word erlaubten hier eine beliebige -Zeichenfolge. Aspose.Words macht dasselbe für das ECMA-376-Format. Beachten Sie jedoch, dass Microsoft Word Online ein Dokument, das mit einem Nicht-GUID-Wert erstellt wurde, nicht öffnen kann. Daher ist eine GUID der bevorzugte Wert für diese Eigenschaft.
 
@@ -22,7 +24,7 @@ Ein gültiger Wert muss ein Bezeichner sein, der unter allen benutzerdefinierten
 
 Der Standardwert ist eine leere Zeichenfolge. Der Wert kann nicht sein`Null`.
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie ein strukturiertes Dokument-Tag mit benutzerdefinierten XML-Daten erstellt wird.
 
@@ -89,7 +91,5 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 ### Siehe auch
 
 * class [CustomXmlPart](../)
-* namensraum [Aspose.Words.Markup](../../customxmlpart/)
+* namensraum [Aspose.Words.Markup](../../../aspose.words.markup/)
 * Montage [Aspose.Words](../../../)
-
-

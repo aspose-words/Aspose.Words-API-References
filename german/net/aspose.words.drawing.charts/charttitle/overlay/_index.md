@@ -1,9 +1,11 @@
 ---
 title: ChartTitle.Overlay
-second_title: Aspose.Words für .NET-API-Referenz
-description: ChartTitle eigendom. Legt fest ob andere Diagrammelemente den Titel überlappen dürfen. Standardmäßig ist OverlayFALSCH .
+linktitle: Overlay
+articleTitle: Overlay
+second_title: Aspose.Words für .NET
+description: ChartTitle Overlay eigendom. Legt fest ob andere Diagrammelemente den Titel überlappen dürfen. Standardmäßig ist OverlayFALSCH  in C#.
 type: docs
-weight: 20
+weight: 10
 url: /de/net/aspose.words.drawing.charts/charttitle/overlay/
 ---
 ## ChartTitle.Overlay property
@@ -14,7 +16,7 @@ Legt fest, ob andere Diagrammelemente den Titel überlappen dürfen. Standardmä
 public bool Overlay { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man ein Diagramm einfügt und einen Titel festlegt.
 
@@ -42,7 +44,5 @@ doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
 ### Siehe auch
 
 * class [ChartTitle](../)
-* namensraum [Aspose.Words.Drawing.Charts](../../charttitle/)
+* namensraum [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../../)
-
-

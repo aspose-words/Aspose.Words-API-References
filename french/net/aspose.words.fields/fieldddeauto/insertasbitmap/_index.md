@@ -1,7 +1,9 @@
 ---
 title: FieldDdeAuto.InsertAsBitmap
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDdeAuto propriété. Obtient ou définit sil faut insérer lobjet lié en tant que bitmap.
+linktitle: InsertAsBitmap
+articleTitle: InsertAsBitmap
+second_title: Aspose.Words pour .NET
+description: FieldDdeAuto InsertAsBitmap propriété. Obtient ou définit sil faut insérer lobjet lié en tant que bitmap en C#.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldddeauto/insertasbitmap/
@@ -14,7 +16,7 @@ Obtient ou définit s'il faut insérer l'objet lié en tant que bitmap.
 public bool InsertAsBitmap { get; set; }
 ```
 
-### Exemples
+## Exemples
 
 Montre comment utiliser différents types de champs pour créer des liens vers d’autres documents dans le système de fichiers local et afficher leur contenu.
 
@@ -197,7 +199,5 @@ public enum InsertLinkedObjectAs
 ### Voir également
 
 * class [FieldDdeAuto](../)
-* espace de noms [Aspose.Words.Fields](../../fieldddeauto/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

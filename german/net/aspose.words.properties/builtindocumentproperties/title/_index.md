@@ -1,7 +1,9 @@
 ---
 title: BuiltInDocumentProperties.Title
-second_title: Aspose.Words für .NET-API-Referenz
-description: BuiltInDocumentProperties eigendom. Ruft den Titel des Dokuments ab oder legt ihn fest.
+linktitle: Title
+articleTitle: Title
+second_title: Aspose.Words für .NET
+description: BuiltInDocumentProperties Title eigendom. Ruft den Titel des Dokuments ab oder legt ihn fest in C#.
 type: docs
 weight: 290
 url: /de/net/aspose.words.properties/builtindocumentproperties/title/
@@ -14,7 +16,7 @@ Ruft den Titel des Dokuments ab oder legt ihn fest.
 public string Title { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie mit integrierten Dokumenteigenschaften in der Kategorie „Beschreibung“ gearbeitet wird.
 
@@ -59,7 +61,5 @@ doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ### Siehe auch
 
 * class [BuiltInDocumentProperties](../)
-* namensraum [Aspose.Words.Properties](../../builtindocumentproperties/)
+* namensraum [Aspose.Words.Properties](../../../aspose.words.properties/)
 * Montage [Aspose.Words](../../../)
-
-

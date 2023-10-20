@@ -1,7 +1,9 @@
 ---
 title: FieldInfo.NewValue
-second_title: Справочник по API Aspose.Words для .NET
-description: FieldInfo свойство. Получает или задает необязательное значение которое обновляет свойство.
+linktitle: NewValue
+articleTitle: NewValue
+second_title: Aspose.Words для .NET
+description: FieldInfo NewValue свойство. Получает или задает необязательное значение которое обновляет свойство на С#.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldinfo/newvalue/
@@ -14,7 +16,7 @@ url: /ru/net/aspose.words.fields/fieldinfo/newvalue/
 public string NewValue { get; set; }
 ```
 
-### Примеры
+## Примеры
 
 Показывает, как работать с полями INFO.
 
@@ -50,7 +52,5 @@ doc.Save(ArtifactsDir + "Field.INFO.docx");
 ### Смотрите также
 
 * class [FieldInfo](../)
-* пространство имен [Aspose.Words.Fields](../../fieldinfo/)
+* пространство имен [Aspose.Words.Fields](../../../aspose.words.fields/)
 * сборка [Aspose.Words](../../../)
-
-

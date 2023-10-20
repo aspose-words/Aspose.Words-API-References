@@ -1,7 +1,9 @@
 ---
 title: Font.Scaling
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Skalierung der Zeichenbreite in Prozent ab oder legt diese fest.
+linktitle: Scaling
+articleTitle: Scaling
+second_title: Aspose.Words für .NET
+description: Font Scaling eigendom. Ruft die Skalierung der Zeichenbreite in Prozent ab oder legt diese fest in C#.
 type: docs
 weight: 310
 url: /de/net/aspose.words/font/scaling/
@@ -14,7 +16,7 @@ Ruft die Skalierung der Zeichenbreite in Prozent ab oder legt diese fest.
 public int Scaling { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie die horizontale Skalierung und der Abstand für Zeichen festgelegt werden.
 
@@ -40,7 +42,5 @@ doc.Save(ArtifactsDir + "Font.ScalingSpacing.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: FormField.DropDownItems
-second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField propriété. Permet daccéder aux éléments dun champ de formulaire déroulant.
+linktitle: DropDownItems
+articleTitle: DropDownItems
+second_title: Aspose.Words pour .NET
+description: FormField DropDownItems propriété. Permet daccéder aux éléments dun champ de formulaire déroulant en C#.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/formfield/dropdownitems/
@@ -14,11 +16,11 @@ Permet d'accéder aux éléments d'un champ de formulaire déroulant.
 public DropDownItemCollection DropDownItems { get; }
 ```
 
-### Remarques
+## Remarques
 
 Microsoft Word autorise un maximum de 25 éléments dans un champ de formulaire déroulant.
 
-### Exemples
+## Exemples
 
 Montre comment insérer différents types de champs de formulaire dans un document et les traiter à l'aide d'une implémentation de visiteur de document.
 
@@ -153,7 +155,5 @@ public class FormFieldVisitor : DocumentVisitor
 
 * class [DropDownItemCollection](../../dropdownitemcollection/)
 * class [FormField](../)
-* espace de noms [Aspose.Words.Fields](../../formfield/)
+* espace de noms [Aspose.Words.Fields](../../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../../)
-
-

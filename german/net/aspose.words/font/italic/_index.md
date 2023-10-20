@@ -1,7 +1,9 @@
 ---
 title: Font.Italic
-second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. True wenn die Schriftart kursiv formatiert ist.
+linktitle: Italic
+articleTitle: Italic
+second_title: Aspose.Words für .NET
+description: Font Italic eigendom. True wenn die Schriftart kursiv formatiert ist in C#.
 type: docs
 weight: 160
 url: /de/net/aspose.words/font/italic/
@@ -14,7 +16,7 @@ True, wenn die Schriftart kursiv formatiert ist.
 public bool Italic { get; set; }
 ```
 
-### Beispiele
+## Beispiele
 
 Zeigt, wie man mit einem Document Builder kursiven Text schreibt.
 
@@ -32,7 +34,5 @@ doc.Save(ArtifactsDir + "Font.Italic.docx");
 ### Siehe auch
 
 * class [Font](../)
-* namensraum [Aspose.Words](../../font/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

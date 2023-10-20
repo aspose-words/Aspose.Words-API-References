@@ -1,7 +1,9 @@
 ---
 title: ImageSize.HeightPoints
-second_title: Aspose.Words för .NET API Referens
-description: ImageSize fast egendom. Får bildens höjd i poäng. 1 poäng är 1/72 tum.
+linktitle: HeightPoints
+articleTitle: HeightPoints
+second_title: Aspose.Words för .NET
+description: ImageSize HeightPoints fast egendom. Får bildens höjd i poäng. 1 poäng är 1/72 tum i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing/imagesize/heightpoints/
@@ -14,7 +16,7 @@ Får bildens höjd i poäng. 1 poäng är 1/72 tum.
 public double HeightPoints { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man ändrar storlek på en form med en bild.
 
@@ -71,7 +73,5 @@ Visar hur man ändrar storlek på en form med en bild.
 ### Se även
 
 * class [ImageSize](../)
-* namnutrymme [Aspose.Words.Drawing](../../imagesize/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

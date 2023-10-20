@@ -1,7 +1,9 @@
 ---
 title: ListLabel.LabelValue
-second_title: Aspose.Words for .NET API Referansı
-description: ListLabel mülk. Bu etiket için sayısal bir değer alır.
+linktitle: LabelValue
+articleTitle: LabelValue
+second_title: Aspose.Words for .NET
+description: ListLabel LabelValue mülk. Bu etiket için sayısal bir değer alır C#'da.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.lists/listlabel/labelvalue/
@@ -14,11 +16,11 @@ Bu etiket için sayısal bir değer alır.
 public int LabelValue { get; }
 ```
 
-### Notlar
+## Notlar
 
 Kullan[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) bu özelliğin değerini güncelleme yöntemi.
 
-### Örnekler
+## Örnekler
 
 Liste öğesi olan tüm paragrafların liste etiketlerinin nasıl çıkarılacağını gösterir.
 
@@ -53,7 +55,5 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 ### Ayrıca bakınız
 
 * class [ListLabel](../)
-* ad alanı [Aspose.Words.Lists](../../listlabel/)
+* ad alanı [Aspose.Words.Lists](../../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../../)
-
-

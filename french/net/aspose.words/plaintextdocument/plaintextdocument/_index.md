@@ -1,12 +1,14 @@
 ---
-title: PlainTextDocument.PlainTextDocument
-second_title: Référence de l'API Aspose.Words pour .NET
-description: PlainTextDocument constructeur. Crée un document en texte brut à partir dun fichier. Détecte automatiquement le format de fichier.
+title: PlainTextDocument
+linktitle: PlainTextDocument
+articleTitle: PlainTextDocument
+second_title: Aspose.Words pour .NET
+description: PlainTextDocument constructeur. Crée un document en texte brut à partir dun fichier. Détecte automatiquement le format de fichier en C#.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/plaintextdocument/plaintextdocument/
 ---
-## PlainTextDocument(string) {#constructor_2}
+## PlainTextDocument(*string*) {#constructor_2}
 
 Crée un document en texte brut à partir d'un fichier. Détecte automatiquement le format de fichier.
 
@@ -29,7 +31,7 @@ public PlainTextDocument(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Le document est crypté et nécessite un mot de passe pour s'ouvrir, mais vous avez fourni un mot de passe incorrect. |
 | ArgumentException | Le nom du fichier ne peut pas être nul ou une chaîne vide. |
 
-### Exemples
+## Exemples
 
 Montre comment charger le contenu d'un document Microsoft Word en texte brut.
 
@@ -48,12 +50,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 ### Voir également
 
 * class [PlainTextDocument](../)
-* espace de noms [Aspose.Words](../../plaintextdocument/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(string, LoadOptions) {#constructor_3}
+## PlainTextDocument(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_3}
 
 Crée un document en texte brut à partir d'un fichier. Permet de spécifier des options supplémentaires telles qu'un mot de passe de cryptage.
 
@@ -77,7 +79,7 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Le document est crypté et nécessite un mot de passe pour s'ouvrir, mais vous avez fourni un mot de passe incorrect. |
 | ArgumentException | Le nom du fichier ne peut pas être nul ou une chaîne vide. |
 
-### Exemples
+## Exemples
 
 Montre comment charger le contenu d’un document Microsoft Word chiffré en texte brut.
 
@@ -103,12 +105,12 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* espace de noms [Aspose.Words](../../plaintextdocument/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream) {#constructor}
+## PlainTextDocument(*Stream*) {#constructor}
 
 Crée un document en texte brut à partir d'un flux. Détecte automatiquement le format de fichier.
 
@@ -133,11 +135,11 @@ public PlainTextDocument(Stream stream)
 | NotSupportedException | Le flux ne prend pas en charge la lecture ou la recherche. |
 | ObjectDisposedException | Le flux est un objet supprimé. |
 
-### Remarques
+## Remarques
 
 Le document doit être stocké au début du flux. Le flux doit prendre en charge le positionnement aléatoire.
 
-### Exemples
+## Exemples
 
 Montre comment charger le contenu d'un document Microsoft Word en texte brut à l'aide de stream.
 
@@ -159,12 +161,12 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 ### Voir également
 
 * class [PlainTextDocument](../)
-* espace de noms [Aspose.Words](../../plaintextdocument/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
-## PlainTextDocument(Stream, LoadOptions) {#constructor_1}
+## PlainTextDocument(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_1}
 
 Crée un document en texte brut à partir d'un flux. Permet de spécifier des options supplémentaires telles qu'un mot de passe de cryptage.
 
@@ -190,11 +192,11 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | Le flux ne prend pas en charge la lecture ou la recherche. |
 | ObjectDisposedException | Le flux est un objet supprimé. |
 
-### Remarques
+## Remarques
 
 Le document doit être stocké au début du flux. Le flux doit prendre en charge le positionnement aléatoire.
 
-### Exemples
+## Exemples
 
 Montre comment charger le contenu d'un document Microsoft Word chiffré en texte brut à l'aide de Stream.
 
@@ -224,7 +226,5 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 * class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [PlainTextDocument](../)
-* espace de noms [Aspose.Words](../../plaintextdocument/)
+* espace de noms [Aspose.Words](../../../aspose.words/)
 * Assemblée [Aspose.Words](../../../)
-
-

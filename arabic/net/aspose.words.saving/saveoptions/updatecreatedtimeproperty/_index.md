@@ -1,7 +1,9 @@
 ---
 title: SaveOptions.UpdateCreatedTimeProperty
-second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. الحصول على أو تعيين قيمة لتحديد ما إذا كانCreatedTime يتم تحديث الخاصية قبل الحفظ. القيمة الافتراضية هيخطأ شنيع 
+linktitle: UpdateCreatedTimeProperty
+articleTitle: UpdateCreatedTimeProperty
+second_title: Aspose.Words لـ .NET
+description: SaveOptions UpdateCreatedTimeProperty ملكية. الحصول على أو تعيين قيمة لتحديد ما إذا كانCreatedTime يتم تحديث الخاصية قبل الحفظ. القيمة الافتراضية هيخطأ شنيع  في C#.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.saving/saveoptions/updatecreatedtimeproperty/
@@ -17,7 +19,5 @@ public bool UpdateCreatedTimeProperty { get; set; }
 ### أنظر أيضا
 
 * class [SaveOptions](../)
-* مساحة الاسم [Aspose.Words.Saving](../../saveoptions/)
+* مساحة الاسم [Aspose.Words.Saving](../../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../../)
-
-

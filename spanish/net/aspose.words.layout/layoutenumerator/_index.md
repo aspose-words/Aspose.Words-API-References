@@ -1,7 +1,9 @@
 ---
-title: Class LayoutEnumerator
-second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Layout.LayoutEnumerator clase. Enumera las entidades de diseño de página de un documento. Puede utilizar esta clase para recorrer el modelo de diseño de página. Las propiedades disponibles son tipo geometría texto e índice de página donde se representa la entidad así como estructura y relaciones generales. Utilice una combinación deGetEntity yCurrent pasar a la entidad que corresponde a un nodo de documento.
+title: LayoutEnumerator Class
+linktitle: LayoutEnumerator
+articleTitle: LayoutEnumerator
+second_title: Aspose.Words para .NET
+description: Aspose.Words.Layout.LayoutEnumerator clase. Enumera las entidades de diseño de página de un documento. Puede utilizar esta clase para recorrer el modelo de diseño de página. Las propiedades disponibles son tipo geometría texto e índice de página donde se representa la entidad así como estructura y relaciones generales. Utilice una combinación deGetEntity yCurrent pasar a la entidad que corresponde a un nodo de documento en C#.
 type: docs
 weight: 3340
 url: /es/net/aspose.words.layout/layoutenumerator/
@@ -20,7 +22,7 @@ public class LayoutEnumerator
 
 | Nombre | Descripción |
 | --- | --- |
-| [LayoutEnumerator](layoutenumerator/)(Document) | Inicializa una nueva instancia de esta clase. |
+| [LayoutEnumerator](layoutenumerator/)(*[Document](../../aspose.words/document/)*) | Inicializa una nueva instancia de esta clase. |
 
 ## Propiedades
 
@@ -44,12 +46,12 @@ public class LayoutEnumerator
 | [MoveNext](../../aspose.words.layout/layoutenumerator/movenext/)() | Se mueve a la siguiente entidad hermana en orden visual. Al iterar líneas de un párrafo divididas en páginas, este método no se moverá a la página siguiente, sino que se moverá a la siguiente entidad en la misma página. |
 | [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical/)() | Pasa a la siguiente entidad hermana en un orden lógico. Al iterar líneas de un párrafo divididas en páginas, este método se moverá a la siguiente línea incluso si reside en otra página. |
 | [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent)() | Se mueve a la entidad principal. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(LayoutEntityType) | Se mueve a la entidad principal del tipo especificado. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(*[LayoutEntityType](../layoutentitytype/)*) | Se mueve a la entidad principal del tipo especificado. |
 | [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious/)() | Se mueve a la entidad hermana anterior. |
 | [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical/)() | Se mueve a la entidad hermana anterior en un orden lógico. Al iterar líneas de un párrafo divididas en páginas, este método se moverá a la línea anterior incluso si reside en otra página. |
 | [Reset](../../aspose.words.layout/layoutenumerator/reset/)() | Mueve el enumerador a la primera página del documento. |
 
-### Ejemplos
+## Ejemplos
 
 Muestra formas de recorrer las entidades de diseño de un documento.
 
@@ -195,5 +197,3 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 * espacio de nombres [Aspose.Words.Layout](../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: CustomXmlSchemaCollection.Clone
-second_title: Aspose.Words for .NET API 参考
-description: CustomXmlSchemaCollection 方法. 对此对象进行深度克隆
+linktitle: Clone
+articleTitle: Clone
+second_title: 用于 .NET 的 Aspose.Words
+description: CustomXmlSchemaCollection Clone 方法. 对此对象进行深度克隆 在 C#.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.markup/customxmlschemacollection/clone/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.markup/customxmlschemacollection/clone/
 public CustomXmlSchemaCollection Clone()
 ```
 
-### 例子
+## 例子
 
 展示如何使用 XML 架构集合。
 
@@ -60,7 +62,5 @@ Assert.AreEqual(0, schemas.Count);
 ### 也可以看看
 
 * class [CustomXmlSchemaCollection](../)
-* 命名空间 [Aspose.Words.Markup](../../customxmlschemacollection/)
+* 命名空间 [Aspose.Words.Markup](../../../aspose.words.markup/)
 * 部件 [Aspose.Words](../../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: VbaModuleCollection.Item
-second_title: Aspose.Words för .NET API Referens
-description: VbaModuleCollection fast egendom. Hämtar enVbaModule objekt efter index.
+linktitle: Item
+articleTitle: Item
+second_title: Aspose.Words för .NET
+description: VbaModuleCollection Item fast egendom. Hämtar enVbaModule objekt efter index i C#.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.vba/vbamodulecollection/item/
@@ -18,7 +20,7 @@ public VbaModule this[int index] { get; }
 | --- | --- |
 | index | Nollbaserat index för modulen att hämta. |
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments VBA-projektinformation.
 
@@ -50,7 +52,7 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* namnutrymme [Aspose.Words.Vba](../../vbamodulecollection/)
+* namnutrymme [Aspose.Words.Vba](../../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -63,7 +65,7 @@ Hämtar en[`VbaModule`](../../vbamodule/) objekt med namn, eller noll om det int
 public VbaModule this[string name] { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man kommer åt ett dokuments VBA-projektinformation.
 
@@ -95,7 +97,5 @@ vbaModules.Remove(vbaModules[2]);
 
 * class [VbaModule](../../vbamodule/)
 * class [VbaModuleCollection](../)
-* namnutrymme [Aspose.Words.Vba](../../vbamodulecollection/)
+* namnutrymme [Aspose.Words.Vba](../../../aspose.words.vba/)
 * hopsättning [Aspose.Words](../../../)
-
-

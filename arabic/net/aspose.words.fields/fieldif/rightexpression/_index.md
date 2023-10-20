@@ -1,7 +1,9 @@
 ---
 title: FieldIf.RightExpression
-second_title: Aspose.Words لمراجع .NET API
-description: FieldIf ملكية. الحصول على أو تعيين الجزء الأيمن من تعبير المقارنة.
+linktitle: RightExpression
+articleTitle: RightExpression
+second_title: Aspose.Words لـ .NET
+description: FieldIf RightExpression ملكية. الحصول على أو تعيين الجزء الأيمن من تعبير المقارنة في C#.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldif/rightexpression/
@@ -14,7 +16,7 @@ url: /ar/net/aspose.words.fields/fieldif/rightexpression/
 public string RightExpression { get; set; }
 ```
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية إدراج حقل IF.
 
@@ -60,7 +62,5 @@ doc.Save(ArtifactsDir + "Field.IF.docx");
 ### أنظر أيضا
 
 * class [FieldIf](../)
-* مساحة الاسم [Aspose.Words.Fields](../../fieldif/)
+* مساحة الاسم [Aspose.Words.Fields](../../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../../)
-
-

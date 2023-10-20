@@ -1,7 +1,9 @@
 ---
 title: DocumentBase.ResourceLoadingCallback
-second_title: Aspose.Words for .NET API Referansı
-description: DocumentBase mülk. Harici kaynakların nasıl yüklendiğini kontrol etmeye izin verir.
+linktitle: ResourceLoadingCallback
+articleTitle: ResourceLoadingCallback
+second_title: Aspose.Words for .NET
+description: DocumentBase ResourceLoadingCallback mülk. Harici kaynakların nasıl yüklendiğini kontrol etmeye izin verir C#'da.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/documentbase/resourceloadingcallback/
@@ -14,7 +16,7 @@ Harici kaynakların nasıl yüklendiğini kontrol etmeye izin verir.
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 ```
 
-### Örnekler
+## Örnekler
 
 Dış kaynakları bir belgeye yükleme işleminin nasıl özelleştirileceğini gösterir.
 
@@ -78,7 +80,5 @@ private class ImageNameHandler : IResourceLoadingCallback
 
 * interface [IResourceLoadingCallback](../../../aspose.words.loading/iresourceloadingcallback/)
 * class [DocumentBase](../)
-* ad alanı [Aspose.Words](../../documentbase/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

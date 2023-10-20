@@ -1,7 +1,9 @@
 ---
 title: PageSetup.OtherPagesTray
-second_title: Aspose.Words for .NET API 参考
-description: PageSetup 财产. 获取或设置用于除第一页之外的所有部分的纸盘 bin 该值是特定于实现打印机的
+linktitle: OtherPagesTray
+articleTitle: OtherPagesTray
+second_title: 用于 .NET 的 Aspose.Words
+description: PageSetup OtherPagesTray 财产. 获取或设置用于除第一页之外的所有部分的纸盘 bin 该值是特定于实现打印机的 在 C#.
 type: docs
 weight: 300
 url: /zh/net/aspose.words/pagesetup/otherpagestray/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words/pagesetup/otherpagestray/
 public int OtherPagesTray { get; set; }
 ```
 
-### 例子
+## 例子
 
 显示如何使文档中的所有部分使用所选打印机的默认纸盒。
 
@@ -70,7 +72,5 @@ foreach (Section section in doc.Sections.OfType<Section>())
 ### 也可以看看
 
 * class [PageSetup](../)
-* 命名空间 [Aspose.Words](../../pagesetup/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

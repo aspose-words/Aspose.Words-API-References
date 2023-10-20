@@ -1,7 +1,9 @@
 ---
 title: TabStopCollection.RemoveByPosition
-second_title: Aspose.Words for .NET API 参考
-description: TabStopCollection 方法. 从集合中删除指定位置处的制表位
+linktitle: RemoveByPosition
+articleTitle: RemoveByPosition
+second_title: 用于 .NET 的 Aspose.Words
+description: TabStopCollection RemoveByPosition 方法. 从集合中删除指定位置处的制表位 在 C#.
 type: docs
 weight: 120
 url: /zh/net/aspose.words/tabstopcollection/removebyposition/
@@ -18,7 +20,7 @@ public void RemoveByPosition(double position)
 | --- | --- | --- |
 | position | Double | 要删除的制表位的位置（以磅为单位）。 |
 
-### 例子
+## 例子
 
 演示如何修改目录相关段落中右侧制表位的位置。
 
@@ -44,7 +46,5 @@ doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
 ### 也可以看看
 
 * class [TabStopCollection](../)
-* 命名空间 [Aspose.Words](../../tabstopcollection/)
+* 命名空间 [Aspose.Words](../../../aspose.words/)
 * 部件 [Aspose.Words](../../../)
-
-

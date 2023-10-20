@@ -1,7 +1,9 @@
 ---
-title: Enum ShapeLineStyle
-second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.ShapeLineStyle تعداد. يحدد نمط الخط المركب لـ aShape .
+title: ShapeLineStyle Enum
+linktitle: ShapeLineStyle
+articleTitle: ShapeLineStyle
+second_title: Aspose.Words لـ .NET
+description: Aspose.Words.Drawing.ShapeLineStyle تعداد. يحدد نمط الخط المركب لـ aShape  في C#.
 type: docs
 weight: 1270
 url: /ar/net/aspose.words.drawing/shapelinestyle/
@@ -25,7 +27,7 @@ public enum ShapeLineStyle
 | Triple | `4` | ثلاثة خطوط رفيعة سميكة رفيعة. |
 | Default | `0` | القيمة الافتراضية هيSingle . |
 
-### أمثلة
+## أمثلة
 
 يوضح كيفية تغيير خصائص السكتة الدماغية.
 
@@ -60,5 +62,3 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 * property [LineStyle](../stroke/linestyle/)
 * مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
-
-

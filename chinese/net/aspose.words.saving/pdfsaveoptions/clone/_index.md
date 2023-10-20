@@ -1,7 +1,9 @@
 ---
 title: PdfSaveOptions.Clone
-second_title: Aspose.Words for .NET API 参考
-description: PdfSaveOptions 方法. 创建此对象的深度克隆
+linktitle: Clone
+articleTitle: Clone
+second_title: 用于 .NET 的 Aspose.Words
+description: PdfSaveOptions Clone 方法. 创建此对象的深度克隆 在 C#.
 type: docs
 weight: 340
 url: /zh/net/aspose.words.saving/pdfsaveoptions/clone/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.saving/pdfsaveoptions/clone/
 public PdfSaveOptions Clone()
 ```
 
-### 例子
+## 例子
 
 演示如何在将文档保存为 PDF 之前立即更新文档中的所有字段。
 
@@ -52,7 +54,5 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.UpdateFields.pdf", options);
 ### 也可以看看
 
 * class [PdfSaveOptions](../)
-* 命名空间 [Aspose.Words.Saving](../../pdfsaveoptions/)
+* 命名空间 [Aspose.Words.Saving](../../../aspose.words.saving/)
 * 部件 [Aspose.Words](../../../)
-
-

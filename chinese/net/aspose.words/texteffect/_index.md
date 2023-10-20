@@ -1,7 +1,9 @@
 ---
-title: Enum TextEffect
-second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.TextEffect 枚举. 文本运行的动画效果
+title: TextEffect Enum
+linktitle: TextEffect
+articleTitle: TextEffect
+second_title: 用于 .NET 的 Aspose.Words
+description: Aspose.Words.TextEffect 枚举. 文本运行的动画效果 在 C#.
 type: docs
 weight: 6420
 url: /zh/net/aspose.words/texteffect/
@@ -30,5 +32,3 @@ public enum TextEffect
 
 * 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
-
-

@@ -1,7 +1,9 @@
 ---
 title: Forms2OleControlCollection.GetEnumerator
-second_title: Aspose.Words for .NET API Referansı
-description: Forms2OleControlCollection yöntem. Numaralandırıcıyı alır.
+linktitle: GetEnumerator
+articleTitle: GetEnumerator
+second_title: Aspose.Words for .NET
+description: Forms2OleControlCollection GetEnumerator yöntem. Numaralandırıcıyı alır C#'da.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/
@@ -18,7 +20,5 @@ public IEnumerator<Forms2OleControl> GetEnumerator()
 
 * class [Forms2OleControl](../../forms2olecontrol/)
 * class [Forms2OleControlCollection](../)
-* ad alanı [Aspose.Words.Drawing.Ole](../../forms2olecontrolcollection/)
+* ad alanı [Aspose.Words.Drawing.Ole](../../../aspose.words.drawing.ole/)
 * toplantı [Aspose.Words](../../../)
-
-

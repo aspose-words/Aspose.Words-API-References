@@ -1,7 +1,9 @@
 ---
 title: Shape.ExtrusionEnabled
-second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. ReturnerarSann om en extruderingseffekt är aktiverad.
+linktitle: ExtrusionEnabled
+articleTitle: ExtrusionEnabled
+second_title: Aspose.Words för .NET
+description: Shape ExtrusionEnabled fast egendom. ReturnerarSann om en extruderingseffekt är aktiverad i C#.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing/shape/extrusionenabled/
@@ -14,7 +16,7 @@ Returnerar`Sann` om en extruderingseffekt är aktiverad.
 public bool ExtrusionEnabled { get; }
 ```
 
-### Exempel
+## Exempel
 
 Visar hur man itererar över alla former i ett dokument.
 
@@ -137,7 +139,5 @@ private class ShapeAppearancePrinter : DocumentVisitor
 ### Se även
 
 * class [Shape](../)
-* namnutrymme [Aspose.Words.Drawing](../../shape/)
+* namnutrymme [Aspose.Words.Drawing](../../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../../)
-
-

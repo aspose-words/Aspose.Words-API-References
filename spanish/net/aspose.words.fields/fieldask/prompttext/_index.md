@@ -1,7 +1,9 @@
 ---
 title: FieldAsk.PromptText
-second_title: Referencia de API de Aspose.Words para .NET
-description: FieldAsk propiedad. Obtiene o establece el texto del mensaje el título de la ventana del mensaje.
+linktitle: PromptText
+articleTitle: PromptText
+second_title: Aspose.Words para .NET
+description: FieldAsk PromptText propiedad. Obtiene o establece el texto del mensaje el título de la ventana del mensaje en C#.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fieldask/prompttext/
@@ -14,7 +16,7 @@ Obtiene o establece el texto del mensaje (el título de la ventana del mensaje).
 public string PromptText { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear un campo ASK y establecer sus propiedades.
 
@@ -76,7 +78,5 @@ private class MyPromptRespondent : IFieldUserPromptRespondent
 ### Ver también
 
 * class [FieldAsk](../)
-* espacio de nombres [Aspose.Words.Fields](../../fieldask/)
+* espacio de nombres [Aspose.Words.Fields](../../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../../)
-
-

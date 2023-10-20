@@ -1,7 +1,9 @@
 ---
 title: MailMerge.RegionStartTag
-second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge propiedad. Obtiene o establece una etiqueta de inicio de región de combinación de correspondencia.
+linktitle: RegionStartTag
+articleTitle: RegionStartTag
+second_title: Aspose.Words para .NET
+description: MailMerge RegionStartTag propiedad. Obtiene o establece una etiqueta de inicio de región de combinación de correspondencia en C#.
 type: docs
 weight: 100
 url: /es/net/aspose.words.mailmerging/mailmerge/regionstarttag/
@@ -14,7 +16,7 @@ Obtiene o establece una etiqueta de inicio de región de combinación de corresp
 public string RegionStartTag { get; set; }
 ```
 
-### Ejemplos
+## Ejemplos
 
 Muestra cómo crear, enumerar y leer regiones de combinación de correspondencia.
 
@@ -69,7 +71,5 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 ### Ver también
 
 * class [MailMerge](../)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
+* espacio de nombres [Aspose.Words.MailMerging](../../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../../)
-
-

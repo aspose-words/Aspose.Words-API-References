@@ -1,7 +1,9 @@
 ---
 title: FieldIndex.EntryType
-second_title: Aspose.Words for .NET API 参考
-description: FieldIndex 财产. 获取或设置用于构建索引的索引条目类型
+linktitle: EntryType
+articleTitle: EntryType
+second_title: 用于 .NET 的 Aspose.Words
+description: FieldIndex EntryType 财产. 获取或设置用于构建索引的索引条目类型 在 C#.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldindex/entrytype/
@@ -14,7 +16,7 @@ url: /zh/net/aspose.words.fields/fieldindex/entrytype/
 public string EntryType { get; set; }
 ```
 
-### 例子
+## 例子
 
 演示如何创建 INDEX 字段，然后使用 XE 字段用条目填充该字段。
 
@@ -73,7 +75,5 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 ### 也可以看看
 
 * class [FieldIndex](../)
-* 命名空间 [Aspose.Words.Fields](../../fieldindex/)
+* 命名空间 [Aspose.Words.Fields](../../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../../)
-
-
